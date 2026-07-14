@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode / build artifacts
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# XcodeGen generates JLPTStudy.xcodeproj from project.yml — don't track it
+JLPTStudy.xcodeproj/
+
+# SQLite WAL/backup artifacts (the real dictionary.db is kept)
+*.db-shm
+*.db-wal
+*.db-journal
+dictionary_backup.db
+
+# Stray data dumps / large flashcard asset library (kept locally, out of git)
+combined_vocabulary.txt
+/JLPT Study/
+/JLPT Assets/

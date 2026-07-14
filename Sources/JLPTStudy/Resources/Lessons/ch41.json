@@ -1,0 +1,1289 @@
+{
+  "id": "ch41",
+  "chapterNumber": 41,
+  "title": "Concession and Expectation",
+  "points": [
+    {
+      "id": "mono-no",
+      "name": "〜ものの (mono no) — although / even though (disappointing concession)",
+      "shortDescription": "Concedes something is true, but the result is disappointing or doesn't meet expectations.",
+      "formation": "Plain form + ものの + disappointing or contrary outcome",
+      "explanation": "ものの is a formal, literary concessive — 'although / even though' — with a built-in undercurrent of disappointment or unfulfilled expectation. 準備はしたものの、本番では緊張してうまくできなかった: 'Although I had prepared, when it came to the real thing I got nervous and couldn't do well.' The preparation happened; the expected payoff didn't arrive. That gap between effort and result, or between intention and outcome, is the emotional core of ものの.\n\nIf you've been using のに (even though) for this kind of contrast, you know the territory — ものの occupies the same space but at a higher register, suited to writing, polished speech, and formal contexts where のに would feel too colloquial. The main clause almost always conveys regret, disappointment, or ironic contrast. ものの tends to focus on the speaker's own unfulfilled efforts or intentions; when you want to express frustration at an external situation that didn't reward what was done, のに can feel more immediate and natural.",
+      "rules": [
+        "Plain form + ものの = although / even though (result falls short of expectation)",
+        "The main clause presents an outcome that disappoints or contradicts the expectation set up",
+        "Formal/literary — used in writing, polished speech; のに covers the same ground more colloquially",
+        "Often about the speaker's own unfulfilled efforts, intentions, or hopes",
+        "Main clause tone is almost always: regret, disappointment, or ironic contrast"
+      ],
+      "examples": [
+        {
+          "japanese": "留学[りゅうがく]したものの、英語力[えいごりょく]はあまり上[あ]がりませんでした。",
+          "romaji": "Ryuugaku shita mono no, eigoryoku wa amari agarimasendeshita.",
+          "english": "Although I studied abroad, my English proficiency didn't improve much."
+        },
+        {
+          "japanese": "謝[あやま]ったものの、相手[あいて]はまだ怒[いか]っているようでした。",
+          "romaji": "Ayamatta mono no, aite wa mada okotte iru you deshita.",
+          "english": "Although I apologized, the other person still seemed angry."
+        },
+        {
+          "japanese": "医者[いしゃ]には行[い]ったものの、はっきりとした原因[げんいん]は分[わ]からなかった。",
+          "romaji": "Isha ni wa itta mono no, hakkiri to shita gen'in wa wakaranakatta.",
+          "english": "Although I went to the doctor, the clear cause was not identified."
+        },
+        {
+          "japanese": "転職[てんしょく]したものの、前[まえ]の仕事[しごと]のほうがよかったと後悔[こうかい]しています。",
+          "romaji": "Tenshoku shita mono no, mae no shigoto no hou ga yokatta to koukai shite imasu.",
+          "english": "Although I changed jobs, I now regret that my previous job was better."
+        }
+      ],
+      "flashcardHeader": "〜ものの",
+      "flashcardAnswer": "Concedes something is true, but the result is disappointing or doesn't meet expectations.",
+      "practice": [
+        {
+          "id": "mono-no_q1",
+          "type": "usage",
+          "prompt": "What does 〜ものの mean?",
+          "japanese": null,
+          "choices": [
+            "because / therefore",
+            "although / while it's true that X — concedes X but contrasts with Y (which is different or less than expected)",
+            "just because X",
+            "the fact that X"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ものの = although / while X is true (concessive). 合格[ごうかく]したものの、あまり嬉[うれ]しくない = although I passed, I'm not very happy. Concedes the first clause but introduces a contrasting or unexpected result."
+        },
+        {
+          "id": "mono-no_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I bought the gym membership, I've never gone'?",
+          "japanese": null,
+          "choices": [
+            "ジムの会員権[かいいんけん]を買[か]ったものの、一度[いちど]も行[い]っていない。",
+            "ジムの会員権[かいいんけん]を買[か]ったが、一度[いちど]も行[い]っていない。",
+            "ジムの会員権[かいいんけん]を買[か]ったけれど、一度[いちど]も行[い]っていない。",
+            "ジムの会員権[かいいんけん]を買[か]ったにもかかわらず、一度[いちど]も行[い]っていない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 買[か]った + ものの = although (I) bought. 一度[いちど]も行[い]っていない = have never gone. ものの concedes the purchase but contrasts with the non-use."
+        },
+        {
+          "id": "mono-no_q3",
+          "type": "translation",
+          "prompt": "Which means 'Although he studies every day, his grades don't improve'?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]勉強[べんきょう]しているものの、成績[せいせき]が上[あ]がらない。",
+            "毎日[まいにち]勉強[べんきょう]しているが、成績[せいせき]が上[あ]がらない。",
+            "毎日[まいにち]勉強[べんきょう]しているけれど、成績[せいせき]が上[あ]がらない。",
+            "毎日[まいにち]勉強[べんきょう]しているにもかかわらず、成績[せいせき]が上[あ]がらない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + ものの: 勉強[べんきょう]している + ものの = although (he) studies. 成績[せいせき]が上[あ]がらない = grades don't improve. Contrast between effort and result."
+        },
+        {
+          "id": "mono-no_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although we have a plan, we don't know how to execute it'?",
+          "japanese": null,
+          "choices": [
+            "計画[けいかく]はあるものの、実行方法[じっこうほうほう]がわからない。",
+            "計画[けいかく]はあるが、実行方法[じっこうほうほう]がわからない。",
+            "計画[けいかく]はあるけれど、実行方法[じっこうほうほう]がわからない。",
+            "計画[けいかく]はあるにもかかわらず、実行方法[じっこうほうほう]がわからない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plain form + ものの: ある + ものの = although there is. 実行方法[じっこうほうほう]がわからない = don't know how to execute. Concedes plan existence, contrasts with execution difficulty."
+        },
+        {
+          "id": "mono-no_q5",
+          "type": "usage",
+          "prompt": "What FORMS can precede ものの?",
+          "japanese": null,
+          "choices": [
+            "Only verb past-form",
+            "Verb dict/past/te-iru, い-adj plain, な-adj な/だった, Noun + ではある/だった — essentially plain forms + ものの",
+            "Only noun + ものの",
+            "Only い-adj + ものの"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものの attaches to plain forms: 行[い]った + ものの (past verb), 行[い]く + ものの (dict verb), 安[やす]い + ものの (い-adj), 便利[べんり]なものの (な-adj), 学生[がくせい]ではあるものの (noun). Wide compatibility across parts of speech."
+        },
+        {
+          "id": "mono-no_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although the food is delicious, it's a bit expensive'?",
+          "japanese": null,
+          "choices": [
+            "料理[りょうり]はおいしいものの、少[すこ]し高[たか]い。",
+            "料理[りょうり]はおいしいが、少[すこ]し高[たか]い。",
+            "料理[りょうり]はおいしいけれど、少[すこ]し高[たか]い。",
+            "料理[りょうり]はおいしいにもかかわらず、少[すこ]し高[たか]い。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものの: おいしい + ものの = although (it's) delicious. 少[すこ]し高[たか]い = a bit expensive. ものの concedes the positive (delicious) but notes the drawback (expensive)."
+        },
+        {
+          "id": "mono-no_q7",
+          "type": "translation",
+          "prompt": "Which means 'Although the technology is advanced, it's difficult to use'?",
+          "japanese": null,
+          "choices": [
+            "技術[ぎじゅつ]は進[すす]んでいるものの、使[つか]い方[かた]が難[むずか]しい。",
+            "技術[ぎじゅつ]は進[すす]んでいるが、使[つか]い方[かた]が難[むずか]しい。",
+            "技術[ぎじゅつ]は進[すす]んでいるけれど、使[つか]い方[かた]が難[むずか]しい。",
+            "技術[ぎじゅつ]は進[すす]んでいるにもかかわらず、使[つか]い方[かた]が難[むずか]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + ものの: 進[すす]んでいる + ものの = although it's advanced. 使[つか]い方[かた]が難[むずか]しい = difficult to use. ものの presents the contrast between advanced technology and usability difficulty."
+        },
+        {
+          "id": "mono-no_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I applied for the job, I don't have much confidence'?",
+          "japanese": null,
+          "choices": [
+            "仕事[しごと]に応募[おうぼ]したものの、あまり自信[じしん]がない。",
+            "仕事[しごと]に応募[おうぼ]したが、あまり自信[じしん]がない。",
+            "仕事[しごと]に応募[おうぼ]したけれど、あまり自信[じしん]がない。",
+            "仕事[しごと]に応募[おうぼ]したにもかかわらず、あまり自信[じしん]がない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 応募[おうぼ]した + ものの = although (I) applied. あまり自信[じしん]がない = don't have much confidence. ものの concedes the action but notes the internal state contrast."
+        },
+        {
+          "id": "mono-no_q9",
+          "type": "usage",
+          "prompt": "ものの vs. が (contrastive が) — what's the difference?",
+          "japanese": null,
+          "choices": [
+            "They are identical",
+            "ものの is more formal/literary, suitable for written Japanese and formal speech; が is more casual and conversational. Both mean 'although/but'",
+            "ものの can only be used in speech",
+            "が is more emphatic"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものの is more formal and literary. It's common in essays, reports, and formal writing. Contrastive が is natural in both speech and writing. Both mean 'although/but' — choose based on formality level."
+        },
+        {
+          "id": "mono-no_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I understand the theory, applying it is difficult'?",
+          "japanese": null,
+          "choices": [
+            "理論[りろん]はわかるものの、実践[じっせん]するのは難[むずか]しい。",
+            "理論[りろん]はわかるが、実践[じっせん]するのは難[むずか]しい。",
+            "理論[りろん]はわかるけれど、実践[じっせん]するのは難[むずか]しい。",
+            "理論[りろん]はわかるにもかかわらず、実践[じっせん]するのは難[むずか]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plain verb + ものの: わかる + ものの = although (I) understand. 実践[じっせん]するのは難[むずか]しい = applying it is difficult. ものの contrasts theoretical understanding with practical difficulty."
+        },
+        {
+          "id": "mono-no_q11",
+          "type": "translation",
+          "prompt": "Which means 'Although she apologized, the relationship didn't recover'?",
+          "japanese": null,
+          "choices": [
+            "謝[あやま]ったものの、関係[かんけい]は回復[かいふく]しなかった。",
+            "謝[あやま]ったが、関係[かんけい]は回復[かいふく]しなかった。",
+            "謝[あやま]ったけれど、関係[かんけい]は回復[かいふく]しなかった。",
+            "謝[あやま]ったにもかかわらず、関係[かんけい]は回復[かいふく]しなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 謝[あやま]った + ものの = although (she) apologized. 関係[かんけい]は回復[かいふく]しなかった = relationship didn't recover. ものの presents the gap between the apology and its ineffectiveness."
+        },
+        {
+          "id": "mono-no_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although the salary is low, the work is rewarding'?",
+          "japanese": null,
+          "choices": [
+            "給料[きゅうりょう]は低[ひく]いものの、やりがいのある仕事[しごと]だ。",
+            "給料[きゅうりょう]は低[ひく]いが、やりがいのある仕事[しごと]だ。",
+            "給料[きゅうりょう]は低[ひく]いけれど、やりがいのある仕事[しごと]だ。",
+            "給料[きゅうりょう]は低[ひく]いにもかかわらず、やりがいのある仕事[しごと]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものの: 低[ひく]い + ものの = although (the salary is) low. やりがいのある仕事[しごと]だ = the work is rewarding. ものの concedes the drawback but notes the compensating advantage."
+        },
+        {
+          "id": "mono-no_q13",
+          "type": "usage",
+          "prompt": "ものの vs. にもかかわらず — which is MORE emphatic in contrast?",
+          "japanese": null,
+          "choices": [
+            "They are identical",
+            "にもかかわらず is MORE emphatic (despite X, against expectation); ものの is softer (while it's true that X, nonetheless Y)",
+            "ものの is more emphatic",
+            "They cannot be compared"
+          ],
+          "correctIndex": 1,
+          "explanation": "にもかかわらず = despite X (stronger, against expectation): 努力[どりょく]にもかかわらず失敗[しっぱい]した (despite effort, failed — stronger contrast). ものの = although (softer, less emphatic): 努力[どりょく]したものの失敗[しっぱい]した (although I tried, failed — gentler concession)."
+        },
+        {
+          "id": "mono-no_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I was accepted to university, I haven't decided what to study'?",
+          "japanese": null,
+          "choices": [
+            "大学[だいがく]に合格[ごうかく]したものの、何[なに]を勉強[べんきょう]するか決[き]めていない。",
+            "大学[だいがく]に合格[ごうかく]したが、何[なに]を勉強[べんきょう]するか決[き]めていない。",
+            "大学[だいがく]に合格[ごうかく]したけれど、何[なに]を勉強[べんきょう]するか決[き]めていない。",
+            "大学[だいがく]に合格[ごうかく]したにもかかわらず、何[なに]を勉強[べんきょう]するか決[き]めていない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 合格[ごうかく]した + ものの = although (I) was accepted. 何[なに]を勉強[べんきょう]するか決[き]めていない = haven't decided what to study. ものの concedes the acceptance but notes the unresolved next step."
+        },
+        {
+          "id": "mono-no_q15",
+          "type": "translation",
+          "prompt": "Which means 'Although it's convenient, there are some concerns about privacy'?",
+          "japanese": null,
+          "choices": [
+            "便利[べんり]なものの、プライバシーに関[かん]する懸念[けねん]がある。",
+            "便利[べんり]だが、プライバシーに関[かん]する懸念[けねん]がある。",
+            "便利[べんり]だけれど、プライバシーに関[かん]する懸念[けねん]がある。",
+            "便利[べんり]にもかかわらず、プライバシーに関[かん]する懸念[けねん]がある。"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adj + ものの: 便利[べんり]な + ものの = although (it's) convenient. プライバシーに関[かん]する懸念[けねん]がある = there are privacy concerns. ものの concedes convenience while noting the privacy trade-off."
+        },
+        {
+          "id": "mono-no_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I set the alarm, I still overslept'?",
+          "japanese": null,
+          "choices": [
+            "アラームをセットしたものの、寝坊[ねぼう]してしまった。",
+            "アラームをセットしたが、寝坊[ねぼう]してしまった。",
+            "アラームをセットしたけれど、寝坊[ねぼう]してしまった。",
+            "アラームをセットしたにもかかわらず、寝坊[ねぼう]してしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: セットした + ものの = although (I) set. 寝坊[ねぼう]してしまった = ended up oversleeping. ものの concedes the preparation while noting the outcome failure."
+        },
+        {
+          "id": "mono-no_q17",
+          "type": "usage",
+          "prompt": "Which best characterizes ものの usage?",
+          "japanese": null,
+          "choices": [
+            "Strong causal connection",
+            "Concessive construction: 'While X is acknowledged, Y introduces a contrasting fact, gap, or unexpected outcome'",
+            "Conditional connection",
+            "Additive connection"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものの = concessive: speaker acknowledges X as true but introduces Y as a qualification, contrast, or gap. 合格[ごうかく]したものの準備[じゅんび]が足[た]りない = while I passed, my preparation is still lacking. The contrast is often an internal inconsistency, unmet expectation, or qualifying reality."
+        },
+        {
+          "id": "mono-no_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I started the project, I'm not sure it will work out'?",
+          "japanese": null,
+          "choices": [
+            "プロジェクトを始[はじ]めたものの、うまくいくか自信[じしん]がない。",
+            "プロジェクトを始[はじ]めたが、うまくいくか自信[じしん]がない。",
+            "プロジェクトを始[はじ]めたけれど、うまくいくか自信[じしん]がない。",
+            "プロジェクトを始[はじ]めたにもかかわらず、うまくいくか自信[じしん]がない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 始[はじ]めた + ものの = although (I) started. うまくいくか自信[じしん]がない = not confident it'll work. ものの concedes the start but reveals underlying uncertainty."
+        },
+        {
+          "id": "mono-no_q19",
+          "type": "translation",
+          "prompt": "Which means 'Although the product is highly rated, the price puts people off'?",
+          "japanese": null,
+          "choices": [
+            "製品[せいひん]は高評価[こうひょうか]なものの、値段[ねだん]が高[たか]くて敬遠[けいえん]される。",
+            "製品[せいひん]は高評価[こうひょうか]だが、値段[ねだん]が高[たか]くて敬遠[けいえん]される。",
+            "製品[せいひん]は高評価[こうひょうか]だけれど、値段[ねだん]が高[たか]くて敬遠[けいえん]される。",
+            "製品[せいひん]は高評価[こうひょうか]にもかかわらず、値段[ねだん]が高[たか]くて敬遠[けいえん]される。"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adj + ものの: 高評価[こうひょうか]な + ものの = although (it's) highly rated. 値段[ねだん]が高[たか]くて敬遠[けいえん]される = the price puts people off. ものの concedes the positive rating while noting the commercial barrier."
+        },
+        {
+          "id": "mono-no_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I had studied abroad, my English didn't improve much'?",
+          "japanese": null,
+          "choices": [
+            "留学[りゅうがく]したものの、英語[えいご]はあまり上達[じょうたつ]しなかった。",
+            "留学[りゅうがく]したが、英語[えいご]はあまり上達[じょうたつ]しなかった。",
+            "留学[りゅうがく]したけれど、英語[えいご]はあまり上達[じょうたつ]しなかった。",
+            "留学[りゅうがく]したにもかかわらず、英語[えいご]はあまり上達[じょうたつ]しなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + ものの: 留学[りゅうがく]した + ものの = although (I) studied abroad. あまり上達[じょうたつ]しなかった = didn't improve much. ものの captures the gap between the expectation (studying abroad → fluency) and the disappointing reality."
+        }
+      ]
+    },
+    {
+      "id": "to-wa-ie",
+      "name": "〜とはいえ (to wa ie) — that said / even so / nonetheless",
+      "shortDescription": "Acknowledges a stated fact but presents a contrasting reality or qualification.",
+      "formation": "Plain form / Noun / な-adj + とはいえ + contrasting point",
+      "explanation": "とはいえ means 'that said,' 'even so,' or 'nonetheless' — it acknowledges that the first statement is true, then pivots to a qualification or contrast. 暖かくなったとはいえ、まだコートが必要ですよ: 'That said, it has gotten warmer — you still need a coat.' The speaker isn't denying the warmth; they're adding an important qualifier.\n\nWhat sets とはいえ apart from simpler connectors like でも or しかし is its explicit concession: rather than simply changing direction, it first grants the preceding point, then limits or qualifies it. The logic is: 'I accept X; but even granting X, Y is still true.' The etymology makes this visible: と (quotation) + は (topic marker) + いえ (even if one grants / even conceding that).\n\nFormal and literary, it appears regularly in written analysis, essays, and formal speech. The slightly more casual variant とはいっても does the same work in less formal contexts — a useful pair to know.",
+      "rules": [
+        "Plain form / Noun / な-adj + とはいえ = that said / even so (concedes first, then contrasts)",
+        "First clause is acknowledged as true; second clause qualifies or limits it",
+        "Formal and literary — appears in writing and formal speech",
+        "Concedes more explicitly than しかし — 'I grant that X, but still Y'",
+        "Related: とはいっても (even though one says so — slightly more casual)"
+      ],
+      "examples": [
+        {
+          "japanese": "春[はる]になったとはいえ、夜[よる]はまだ肌寒[はださむ]いですね。",
+          "romaji": "Haru ni natta to wa ie, yoru wa mada hadasamui desu ne.",
+          "english": "That said it has become spring, the nights are still a bit chilly."
+        },
+        {
+          "japanese": "失敗[しっぱい]したとはいえ、そこから多[おお]くのことを学[まな]べたと思[おも]います。",
+          "romaji": "Shippai shita to wa ie, soko kara ooku no koto wo manabeta to omoimasu.",
+          "english": "Even so, we failed — but I think we could learn a lot from it."
+        },
+        {
+          "japanese": "プロとはいえ、誰[だれ]でも最初[さいしょ]は初心者[しょしんしゃ]だったはずです。",
+          "romaji": "Puro to wa ie, dare demo saisho wa shoshinsha datta hazu desu.",
+          "english": "Even professionals — everyone must have started as a beginner."
+        },
+        {
+          "japanese": "便利[べんり]になったとはいえ、技術[ぎじゅつ]の進歩[しんぽ]には負[ふ]の側面[そくめん]もあります。",
+          "romaji": "Benri ni natta to wa ie, gijutsu no shinpo ni wa fu no sokumen mo arimasu.",
+          "english": "That said things have become more convenient, technological progress also has negative aspects."
+        }
+      ],
+      "flashcardHeader": "〜とはいえ",
+      "flashcardAnswer": "Acknowledges a stated fact but presents a contrasting reality or qualification.",
+      "practice": [
+        {
+          "id": "to-wa-ie_q1",
+          "type": "usage",
+          "prompt": "What does 〜とはいえ mean?",
+          "japanese": null,
+          "choices": [
+            "because X / therefore Y",
+            "although / even though / granted that X — concedes X but introduces Y as an important qualification or contrast",
+            "needless to say",
+            "as long as X"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜とはいえ = although / even though / granted that. 春[はる]とはいえ、まだ寒[さむ]い = although it's spring, it's still cold. Acknowledges X as true (spring), but qualifies it with a contrasting reality (still cold)."
+        },
+        {
+          "id": "to-wa-ie_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although it's a holiday, the shop is busy'?",
+          "japanese": null,
+          "choices": [
+            "休日[きゅうじつ]とはいえ、店[みせ]は忙[いそが]しい。",
+            "休日[きゅうじつ]だが、店[みせ]は忙[いそが]しい。",
+            "休日[きゅうじつ]とはいっても、店[みせ]は忙[いそが]しい。",
+            "休日[きゅうじつ]ものの、店[みせ]は忙[いそが]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 休日[きゅうじつ] + とはいえ = although it's a holiday. 店[みせ]は忙[いそが]しい = the shop is busy. とはいえ concedes the holiday status while noting the busyness."
+        },
+        {
+          "id": "to-wa-ie_q3",
+          "type": "translation",
+          "prompt": "Which means 'Although they are rivals, they respect each other'?",
+          "japanese": null,
+          "choices": [
+            "ライバルとはいえ、互[たが]いに尊重[そんちょう]し合[あ]っている。",
+            "ライバルだが、互[たが]いに尊重[そんちょう]し合[あ]っている。",
+            "ライバルとはいっても、互[たが]いに尊重[そんちょう]し合[あ]っている。",
+            "ライバルものの、互[たが]いに尊重[そんちょう]し合[あ]っている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: ライバル + とはいえ = although they are rivals. 互[たが]いに尊重[そんちょう]し合[あ]っている = they respect each other. とはいえ concedes the rival status while noting the mutual respect."
+        },
+        {
+          "id": "to-wa-ie_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although it's cheap, the quality is good'?",
+          "japanese": null,
+          "choices": [
+            "安[やす]いとはいえ、品質[ひんしつ]はいい。",
+            "安[やす]いが、品質[ひんしつ]はいい。",
+            "安[やす]いとはいっても、品質[ひんしつ]はいい。",
+            "安[やす]いものの、品質[ひんしつ]はいい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + とはいえ: 安[やす]い + とはいえ = although it's cheap. 品質[ひんしつ]はいい = the quality is good. とはいえ concedes the low price while noting the good quality."
+        },
+        {
+          "id": "to-wa-ie_q5",
+          "type": "usage",
+          "prompt": "What FORMS can precede とはいえ?",
+          "japanese": null,
+          "choices": [
+            "Only noun",
+            "Noun, verb plain form, い-adj plain, な-adj plain — plain forms broadly",
+            "Only verb past",
+            "Only い-adj"
+          ],
+          "correctIndex": 1,
+          "explanation": "とはいえ accepts plain forms broadly: 学生[がくせい]とはいえ (noun), 知[し]っているとはいえ (verb dict/te-iru), 難[むずか]しいとはいえ (い-adj), 有名[ゆうめい]なとはいえ (な-adj plain). It's flexible across parts of speech."
+        },
+        {
+          "id": "to-wa-ie_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although summer has ended, it's still hot'?",
+          "japanese": null,
+          "choices": [
+            "夏[なつ]が終[お]わったとはいえ、まだ暑[あつ]い。",
+            "夏[なつ]が終[お]わったが、まだ暑[あつ]い。",
+            "夏[なつ]が終[お]わったとはいっても、まだ暑[あつ]い。",
+            "夏[なつ]が終[お]わったものの、まだ暑[あつ]い。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + とはいえ: 終[お]わった + とはいえ = although summer ended. まだ暑[あつ]い = still hot. とはいえ concedes the end of summer while noting the persisting heat."
+        },
+        {
+          "id": "to-wa-ie_q7",
+          "type": "translation",
+          "prompt": "Which means 'Although he is famous, he lives a simple life'?",
+          "japanese": null,
+          "choices": [
+            "有名[ゆうめい]だとはいえ、彼[かれ]は質素[しっそ]な生活[せいかつ]を送[おく]っている。",
+            "有名[ゆうめい]だが、彼[かれ]は質素[しっそ]な生活[せいかつ]を送[おく]っている。",
+            "有名[ゆうめい]だとはいっても、彼[かれ]は質素[しっそ]な生活[せいかつ]を送[おく]っている。",
+            "有名[ゆうめい]なものの、彼[かれ]は質素[しっそ]な生活[せいかつ]を送[おく]っている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adj/copula + とはいえ: 有名[ゆうめい]だ + とはいえ = although (he is) famous. 質素[しっそ]な生活[せいかつ]を送[おく]っている = lives a simple life. Contrast between fame and simple lifestyle."
+        },
+        {
+          "id": "to-wa-ie_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although it's a small shop, the service is excellent'?",
+          "japanese": null,
+          "choices": [
+            "小[ちー]さい店[みせ]とはいえ、サービスは素晴[すば]らしい。",
+            "小[ちー]さい店[みせ]だが、サービスは素晴[すば]らしい。",
+            "小[ちー]さい店[みせ]とはいっても、サービスは素晴[すば]らしい。",
+            "小[ちー]さい店[みせ]ものの、サービスは素晴[すば]らしい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 小[ちー]さい店[みせ] + とはいえ = although it's a small shop. サービスは素晴[すば]らしい = the service is excellent. Size conceded; quality noted as contrast."
+        },
+        {
+          "id": "to-wa-ie_q9",
+          "type": "usage",
+          "prompt": "とはいえ vs. ものの — which tends to be more LITERARY?",
+          "japanese": null,
+          "choices": [
+            "They are equally formal",
+            "ものの is more literary and formal; とはいえ is slightly more colloquial and is used in both speech and writing",
+            "とはいえ is more literary",
+            "Neither is literary"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものの is more formal/literary (written essays, reports). とはいえ is somewhat more colloquial — it appears in conversation as well as writing. Both express concession, but ものの tends to feel more written."
+        },
+        {
+          "id": "to-wa-ie_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although I'm tired, I can't stop working'?",
+          "japanese": null,
+          "choices": [
+            "疲[つか]れているとはいえ、仕事[しごと]をやめられない。",
+            "疲[つか]れているが、仕事[しごと]をやめられない。",
+            "疲[つか]れているとはいっても、仕事[しごと]をやめられない。",
+            "疲[つか]れているものの、仕事[しごと]をやめられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + とはいえ: 疲[つか]れている + とはいえ = although (I'm) tired. 仕事[しごと]をやめられない = can't stop working. Concedes the fatigue while noting the compulsion to continue."
+        },
+        {
+          "id": "to-wa-ie_q11",
+          "type": "translation",
+          "prompt": "Which means 'Although it's winter, it's unusually warm today'?",
+          "japanese": null,
+          "choices": [
+            "冬[ふゆ]とはいえ、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]だが、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]とはいっても、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]ものの、今日[こんにち]は珍[めずら]しく暖[あたた]かい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 冬[ふゆ] + とはいえ = although it's winter. 今日[こんにち]は珍[めずら]しく暖[あたた]かい = today is unusually warm. Classic seasonal contrast."
+        },
+        {
+          "id": "to-wa-ie_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although they are children, they understand difficult things'?",
+          "japanese": null,
+          "choices": [
+            "子[こ]どもとはいえ、難[むずか]しいことがわかる。",
+            "子[こ]どもだが、難[むずか]しいことがわかる。",
+            "子[こ]どもとはいっても、難[むずか]しいことがわかる。",
+            "子[こ]どもものの、難[むずか]しいことがわかる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 子[こ]ども + とはいえ = although they are children. 難[むずか]しいことがわかる = they understand difficult things. Concedes age while noting surprising capability."
+        },
+        {
+          "id": "to-wa-ie_q13",
+          "type": "usage",
+          "prompt": "The key nuance of とはいえ is that the speaker:",
+          "japanese": null,
+          "choices": [
+            "Denies X",
+            "Acknowledges X as true, but qualifies it with a contrasting or more nuanced reality in Y",
+            "Is uncertain about X",
+            "Regrets X"
+          ],
+          "correctIndex": 1,
+          "explanation": "とはいえ = 'granted that X (I acknowledge it), but Y is also true and qualifies the picture.' The speaker accepts X but won't let it stand without the Y qualification: 春[はる]とはいえ寒[さむ]い (yes it's spring, but it's cold — so don't think spring means warm)."
+        },
+        {
+          "id": "to-wa-ie_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although it's a manga, the content is very deep'?",
+          "japanese": null,
+          "choices": [
+            "漫画[まんが]とはいえ、内容[ないよう]は非常[ひじょう]に深[ふか]い。",
+            "漫画[まんが]だが、内容[ないよう]は非常[ひじょう]に深[ふか]い。",
+            "漫画[まんが]とはいっても、内容[ないよう]は非常[ひじょう]に深[ふか]い。",
+            "漫画[まんが]ものの、内容[ないよう]は非常[ひじょう]に深[ふか]い。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 漫画[まんが] + とはいえ = although it's a manga. 内容[ないよう]は非常[ひじょう]に深[ふか]い = the content is very deep. Concedes the medium while noting its unexpected depth."
+        },
+        {
+          "id": "to-wa-ie_q15",
+          "type": "translation",
+          "prompt": "Which means 'Although he is retired, he continues to research'?",
+          "japanese": null,
+          "choices": [
+            "引退[いんたい]したとはいえ、研究[けんきゅう]を続[つづ]けている。",
+            "引退[いんたい]したが、研究[けんきゅう]を続[つづ]けている。",
+            "引退[いんたい]したとはいっても、研究[けんきゅう]を続[つづ]けている。",
+            "引退[いんたい]したものの、研究[けんきゅう]を続[つづ]けている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb past + とはいえ: 引退[いんたい]した + とはいえ = although (he) retired. 研究[けんきゅう]を続[つづ]けている = continues to research. Concedes retirement while noting continued intellectual engagement."
+        },
+        {
+          "id": "to-wa-ie_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although the price is high, there are always customers waiting'?",
+          "japanese": null,
+          "choices": [
+            "値段[ねだん]が高[たか]いとはいえ、いつも客[きゃく]が並[なら]んでいる。",
+            "値段[ねだん]が高[たか]いが、いつも客[きゃく]が並[なら]んでいる。",
+            "値段[ねだん]が高[たか]いとはいっても、いつも客[きゃく]が並[なら]んでいる。",
+            "値段[ねだん]が高[たか]いものの、いつも客[きゃく]が並[なら]んでいる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + とはいえ: 高[たか]い + とはいえ = although (the price is) high. いつも客[きゃく]が並[なら]んでいる = customers are always lined up. High price conceded; persistent demand noted."
+        },
+        {
+          "id": "to-wa-ie_q17",
+          "type": "usage",
+          "prompt": "とはいえ vs. とはいっても — are these interchangeable?",
+          "japanese": null,
+          "choices": [
+            "They are completely different",
+            "Yes, largely interchangeable — both mean 'although that said / granted that'; とはいえ is slightly more formal; とはいっても is slightly more spoken/emphatic",
+            "とはいえ is negative; とはいっても is positive",
+            "They have opposite meanings"
+          ],
+          "correctIndex": 1,
+          "explanation": "とはいえ and とはいっても are very close in meaning — both concede X and introduce a qualification. とはいえ is slightly more formal; とはいっても is slightly more colloquial and emphatic ('even saying that...'). In practice, they're largely interchangeable."
+        },
+        {
+          "id": "to-wa-ie_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although she is a beginner, she plays the piano beautifully'?",
+          "japanese": null,
+          "choices": [
+            "初心者[しょしんしゃ]とはいえ、彼女[かのじょ]はピアノを美[うつく]しく弾[ひ]く。",
+            "初心者[しょしんしゃ]だが、彼女[かのじょ]はピアノを美[うつく]しく弾[ひ]く。",
+            "初心者[しょしんしゃ]とはいっても、彼女[かのじょ]はピアノを美[うつく]しく弾[ひ]く。",
+            "初心者[しょしんしゃ]ものの、彼女[かのじょ]はピアノを美[うつく]しく弾[ひ]く。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + とはいえ: 初心者[しょしんしゃ] + とはいえ = although (she is) a beginner. ピアノを美[うつく]しく弾[ひ]く = plays piano beautifully. Concedes novice status; highlights unexpected skill."
+        },
+        {
+          "id": "to-wa-ie_q19",
+          "type": "translation",
+          "prompt": "Which means 'Although it is an old building, it has been well maintained'?",
+          "japanese": null,
+          "choices": [
+            "古[ふる]い建物[たてもの]とはいえ、よく維持[いじ]されている。",
+            "古[ふる]い建物[たてもの]だが、よく維持[いじ]されている。",
+            "古[ふる]い建物[たてもの]とはいっても、よく維持[いじ]されている。",
+            "古[ふる]い建物[たて]ものの、よく維持[いじ]されている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + noun + とはいえ: 古[ふる]い建物[たてもの] + とはいえ = although it's an old building. よく維持[いじ]されている = well maintained. Age conceded; good condition noted as a contrast."
+        },
+        {
+          "id": "to-wa-ie_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'Although it is a difficult task, it is not impossible'?",
+          "japanese": null,
+          "choices": [
+            "難[むずか]しい課題[かだい]とはいえ、不可能[ふかのう]ではない。",
+            "難[むずか]しい課題[かだい]だが、不可能[ふかのう]ではない。",
+            "難[むずか]しい課題[かだい]とはいっても、不可能[ふかのう]ではない。",
+            "難[むずか]しい課題[かだい]ものの、不可能[ふかのう]ではない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + noun + とはいえ: 難[むずか]しい課題[かだい] + とはいえ = although it's a difficult task. 不可能[ふかのう]ではない = not impossible. Concedes difficulty while providing qualified encouragement."
+        }
+      ]
+    },
+    {
+      "id": "mono-da-kara",
+      "name": "〜ものだから (mono dakara) — because / the reason is (explanatory/excusing)",
+      "shortDescription": "Explains or excuses an outcome by citing the reason — often with a defensive or explanatory tone.",
+      "formation": "Plain form + ものだから / もので (more casual)",
+      "explanation": "ものだから (and its casual short form もので) is the explanatory grammar of 'I couldn't help it' — it cites a cause for something that happened, with the implicit frame that the cause was a natural, strong, or somewhat compelling impulse rather than a deliberate choice. うれしかったものだから、つい笑ってしまいました: 'Because I was so happy, I just couldn't help smiling.' The happiness was genuine and irresistible; the smile was the natural outcome.\n\nCompare with plain から and ので, which are neutral about whether the cause was controllable. ものだから/もので adds the nuance of 'this was a compelling natural impulse, I was somewhat carried along by it' — which is exactly why it appears so often in apologies and self-explanations.\n\nPractically speaking, ものだから is almost always used when the speaker is explaining their own behavior or a past situation that turned out badly. It's almost never used to explain other people's behavior. Register: もので is casual spoken; ものですから is the polite formal version.",
+      "rules": [
+        "Plain form + ものだから = because (used to explain or excuse one's own behavior/outcome)",
+        "Implies the cause was natural, strong, or beyond full control — softens the explanation",
+        "More personal and explanatory than から/ので; often in apologies or self-explanation",
+        "Short form: もので (casual spoken); ものですから (polite/formal spoken)",
+        "Almost always used about the speaker's own behavior — rarely about others'"
+      ],
+      "examples": [
+        {
+          "japanese": "電話[でんわ]に気[き]づかなかったものだから、折[お]り返[かえ]しました。",
+          "romaji": "Denwa ni kizukanakatta mono dakara, orikaeshimashita.",
+          "english": "Because I didn't notice the call, I called back."
+        },
+        {
+          "japanese": "久[ひさ]しぶりに会[あ]えたものだから、つい話[はなし]が長[なが]くなってしまって。",
+          "romaji": "Hisashiburi ni aeta mono dakara, tsui hanashi ga nagaku natte shimatte.",
+          "english": "Because it was the first time we'd met in a long time, the conversation ended up running long."
+        },
+        {
+          "japanese": "子[こ]どもがぐずっていたものですから、会議[かいぎ]に遅[おく]れてしまいました。",
+          "romaji": "Kodomo ga guzutte ita mono desu kara, kaigi ni okurete shimaimashita.",
+          "english": "Because my child was fussing, I ended up being late to the meeting."
+        },
+        {
+          "japanese": "急[きゅう]な仕事[しごと]が入[いっ]ったものだから、約束[やくそく]を守[まも]れなくなってしまったんです。",
+          "romaji": "Kyuu na shigoto ga haitta mono dakara, yakusoku wo mamorenakunatte shimatta n desu.",
+          "english": "Because sudden work came up, I ended up being unable to keep the promise."
+        }
+      ],
+      "flashcardHeader": "〜ものだから",
+      "flashcardAnswer": "Explains or excuses an outcome by citing the reason — often with a defensive or explanatory tone.",
+      "practice": [
+        {
+          "id": "mono-da-kara_q1",
+          "type": "usage",
+          "prompt": "What does 〜ものだから mean?",
+          "japanese": null,
+          "choices": [
+            "although / despite",
+            "because / since (used when explaining or justifying one's own actions or circumstances — often with a subjective or defensive tone)",
+            "just because X",
+            "as a result of X"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ものだから = because / since — used to explain or justify. 電車[でんしゃ]が遅[おく]れたものだから、遅刻[ちこく]してしまった = because the train was late, I ended up being late. Often used when the speaker explains their own situation, sometimes with a defensive or apologetic nuance."
+        },
+        {
+          "id": "mono-da-kara_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because the child cried, I couldn't concentrate'?",
+          "japanese": null,
+          "choices": [
+            "子[こ]どもが泣[な]くものだから、集中[しゅうちゅう]できなかった。",
+            "子[こ]どもが泣[な]いたから、集中[しゅうちゅう]できなかった。",
+            "子[こ]どもが泣[な]いたので、集中[しゅうちゅう]できなかった。",
+            "子[こ]どもが泣[な]いたけれど、集中[しゅうちゅう]できなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb dict/past + ものだから: 泣[な]く + ものだから = because (the child was) crying. 集中[しゅうちゅう]できなかった = couldn't concentrate. ものだから gives an explanatory/apologetic tone."
+        },
+        {
+          "id": "mono-da-kara_q3",
+          "type": "translation",
+          "prompt": "Which means 'Because it was so delicious, I ate too much'?",
+          "japanese": null,
+          "choices": [
+            "あまりにもおいしいものだから、食[た]べすぎてしまった。",
+            "あまりにもおいしかったから、食[た]べすぎてしまった。",
+            "あまりにもおいしかったので、食[た]べすぎてしまった。",
+            "あまりにもおいしかったけれど、食[た]べすぎてしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものだから: おいしい + ものだから = because it's so delicious. 食[た]べすぎてしまった = ended up eating too much. ものだから explains the over-eating with a self-justifying tone."
+        },
+        {
+          "id": "mono-da-kara_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because he talks too much, the meeting ran overtime'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が話[はな]しすぎるものだから、会議[かいぎ]が長引[ながび]いた。",
+            "彼[かれ]が話[はな]しすぎたから、会議[かいぎ]が長引[ながび]いた。",
+            "彼[かれ]が話[はな]しすぎたので、会議[かいぎ]が長引[ながび]いた。",
+            "彼[かれ]が話[はな]しすぎたけれど、会議[かいぎ]が長引[ながび]いた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb dict + ものだから: 話[はな]しすぎる + ものだから = because (he) talks too much. 会議[かいぎ]が長引[ながび]いた = meeting ran long. ものだから here explains and slightly complains about the cause."
+        },
+        {
+          "id": "mono-da-kara_q5",
+          "type": "usage",
+          "prompt": "What TONE does ものだから typically carry?",
+          "japanese": null,
+          "choices": [
+            "Neutral factual causation",
+            "Explanatory/justificatory — the speaker is giving a reason for something that needs explaining, often with a slight defensive, apologetic, or complaint nuance",
+            "Formal/polite causation",
+            "Hypothetical causation"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものだから carries a subjective explanatory tone: the speaker is justifying, apologizing, or explaining away their behavior or a situation. It's warmer and more personal than the neutral ので or から."
+        },
+        {
+          "id": "mono-da-kara_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because it suddenly started raining, I got soaked'?",
+          "japanese": null,
+          "choices": [
+            "急[きゅう]に雨[あめ]が降[ふ]るものだから、びしょ濡[ぬ]れになった。",
+            "急[きゅう]に雨[あめ]が降[ふ]ったから、びしょ濡[ぬ]れになった。",
+            "急[きゅう]に雨[あめ]が降[ふ]ったので、びしょ濡[ぬ]れになった。",
+            "急[きゅう]に雨[あめ]が降[ふ]ったけれど、びしょ濡[ぬ]れになった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb dict + ものだから: 降[ふ]る + ものだから = because it (suddenly) rains. びしょ濡[ぬ]れになった = got soaked. ものだから explains the unexpected drenching."
+        },
+        {
+          "id": "mono-da-kara_q7",
+          "type": "translation",
+          "prompt": "Which means 'Because everyone else was eating, I started eating too'?",
+          "japanese": null,
+          "choices": [
+            "みんなが食[た]べているものだから、私[わたし]も食[た]べ始[はじ]めた。",
+            "みんなが食[た]べていたから、私[わたし]も食[た]べ始[はじ]めた。",
+            "みんなが食[た]べていたので、私[わたし]も食[た]べ始[はじ]めた。",
+            "みんなが食[た]べていたけれど、私[わたし]も食[た]べ始[はじ]めた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + ものだから: 食[た]べている + ものだから = because everyone is eating. 私[わたし]も食[た]べ始[はじ]めた = I also started eating. ものだから explains the behavior (following others) with a justifying/explanatory tone."
+        },
+        {
+          "id": "mono-da-kara_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because it was so cute, I ended up buying it'?",
+          "japanese": null,
+          "choices": [
+            "あまりにかわいいものだから、つい買[か]ってしまった。",
+            "あまりにかわいかったから、つい買[か]ってしまった。",
+            "あまりにかわいかったので、つい買[か]ってしまった。",
+            "あまりにかわいかったけれど、つい買[か]ってしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものだから: かわいい + ものだから = because it's so cute. つい買[か]ってしまった = ended up buying it impulsively. ものだから explains the impulse purchase with a self-justifying tone."
+        },
+        {
+          "id": "mono-da-kara_q9",
+          "type": "usage",
+          "prompt": "ものだから vs. ので — what's the difference?",
+          "japanese": null,
+          "choices": [
+            "They are identical",
+            "ものだから: more subjective, often self-justifying or explaining speaker's own situation (warmer, personal); ので: neutral, polite cause-and-effect",
+            "ものだから is more formal",
+            "ので can only be used in writing"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものだから: 急[いそ]いでいるものだから (because I'm in a hurry — personal explanation/justification). ので: 急[いそ]いでいるので (because I'm in a hurry — neutral, polite). ものだから feels more personal and often implies the speaker is justifying or explaining away something."
+        },
+        {
+          "id": "mono-da-kara_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because it's been so long, I had forgotten'?",
+          "japanese": null,
+          "choices": [
+            "ずいぶん経[へ]つものだから、忘[わす]れていた。",
+            "ずいぶん経[へ]ったから、忘[わす]れていた。",
+            "ずいぶん経[へ]ったので、忘[わす]れていた。",
+            "ずいぶん経[へ]ったけれど、忘[わす]れていた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb dict + ものだから: 経[へ]つ + ものだから = because (so much time) has passed. 忘[わす]れていた = had forgotten. ものだから explains the forgetting with a self-justifying/apologetic nuance."
+        },
+        {
+          "id": "mono-da-kara_q11",
+          "type": "translation",
+          "prompt": "Which means 'Because the noise was so loud, I couldn't sleep at all'?",
+          "japanese": null,
+          "choices": [
+            "騒音[そうおん]がひどいものだから、まったく眠[ねむ]れなかった。",
+            "騒音[そうおん]がひどかったから、まったく眠[ねむ]れなかった。",
+            "騒音[そうおん]がひどかったので、まったく眠[ねむ]れなかった。",
+            "騒音[そうおん]がひどかったけれど、まったく眠[ねむ]れなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものだから: ひどい + ものだから = because (the noise) is terrible. まったく眠[ねむ]れなかった = couldn't sleep at all. ものだから explains and complains about the situation."
+        },
+        {
+          "id": "mono-da-kara_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because she kept laughing, I also couldn't stop laughing'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]がずっと笑[わら]うものだから、私[わたし]も笑[わら]いが止[と]まらなかった。",
+            "彼女[かのじょ]がずっと笑[わら]ったから、私[わたし]も笑[わら]いが止[と]まらなかった。",
+            "彼女[かのじょ]がずっと笑[わら]ったので、私[わたし]も笑[わら]いが止[と]まらなかった。",
+            "彼女[かのじょ]がずっと笑[わら]ったけれど、私[わたし]も笑[わら]いが止[と]まらなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb dict + ものだから: 笑[わら]う + ものだから = because she keeps laughing. 笑[わら]いが止[と]まらなかった = couldn't stop laughing. ものだから explains the contagious laughter."
+        },
+        {
+          "id": "mono-da-kara_q13",
+          "type": "usage",
+          "prompt": "ものだから is most naturally used when the SUBJECT is...",
+          "japanese": null,
+          "choices": [
+            "Always a third party (he/she/they)",
+            "Often the SPEAKER explaining their own actions or situation — first-person justification; but can also explain others' actions with a sympathetic or blaming tone",
+            "Always inanimate objects",
+            "Only for nature/weather"
+          ],
+          "correctIndex": 1,
+          "explanation": "ものだから is often first-person explanatory: 急[いそ]いでいたものだから (because I was in a hurry). But it can also describe others' situations: あの子[こ]が泣[な]くものだから (because that child keeps crying — with a slightly exasperated or sympathetic tone)."
+        },
+        {
+          "id": "mono-da-kara_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because the question was too difficult, no one could answer'?",
+          "japanese": null,
+          "choices": [
+            "問題[もんだい]が難[むつか]しすぎるものだから、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むつか]しすぎたから、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むつか]しすぎたので、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むつか]しすぎたけれど、誰[だれ]も答[こた]えられなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + ものだから: 難[むつか]しすぎる + ものだから = because it's too difficult. 誰[だれ]も答[こた]えられなかった = no one could answer. ものだから explains the universal failure with an explanatory nuance."
+        },
+        {
+          "id": "mono-da-kara_q15",
+          "type": "translation",
+          "prompt": "Which means 'Because he was so kind, I ended up relying on him too much'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]があまりに優[やさ]しいものだから、頼[たよ]りすぎてしまった。",
+            "彼[かれ]があまりに優[やさ]しかったから、頼[たよ]りすぎてしまった。",
+            "彼[かれ]があまりに優[やさ]しかったので、頼[たよ]りすぎてしまった。",
+            "彼[かれ]があまりに優[やさ]しかったけれど、頼[たよ]りすぎてしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adj + ものだから: 優[やさ]しい + ものだから = because he's so kind. 頼[たよ]りすぎてしまった = ended up relying too much. ものだから explains the over-reliance with a self-justifying tone."
+        },
+        {
+          "id": "mono-da-kara_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because the road was icy, the bus was late'?",
+          "japanese": null,
+          "choices": [
+            "道[みち]が凍[こご]っているものだから、バスが遅[おく]れた。",
+            "道[みち]が凍[こご]っていたから、バスが遅[おく]れた。",
+            "道[みち]が凍[こご]っていたので、バスが遅[おく]れた。",
+            "道[みち]が凍[こご]っていたけれど、バスが遅[おく]れた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + ものだから: 凍[こご]っている + ものだから = because (the road) is icy. バスが遅[おく]れた = bus was late. ものだから explains the delay with a situational explanatory tone."
+        },
+        {
+          "id": "mono-da-kara_q17",
+          "type": "usage",
+          "prompt": "もんだから is a COLLOQUIAL variant of ものだから. Which context suits it?",
+          "japanese": null,
+          "choices": [
+            "Formal written essays",
+            "Casual spoken Japanese — もんだから is a spoken, informal contraction: 急[いそ]いでたもんだから = because I was in a hurry",
+            "Business emails",
+            "Academic papers"
+          ],
+          "correctIndex": 1,
+          "explanation": "もんだから is the casual spoken contraction: もんだ (from ものだ) + から = because. 急[いそ]いでたもんだから遅[おく]れた = because I was in a hurry, I was late (casual). In formal contexts, use ものだから or ので."
+        },
+        {
+          "id": "mono-da-kara_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because everyone laughed at me, I got embarrassed'?",
+          "japanese": null,
+          "choices": [
+            "みんなに笑[わら]われるものだから、恥[は]ずかしくなってしまった。",
+            "みんなに笑[わら]われたから、恥[は]ずかしくなってしまった。",
+            "みんなに笑[わら]われたので、恥[は]ずかしくなってしまった。",
+            "みんなに笑[わら]われたけれど、恥[は]ずかしくなってしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Passive verb dict + ものだから: 笑[わら]われる + ものだから = because (I) am laughed at. 恥[は]ずかしくなってしまった = ended up getting embarrassed. ものだから explains the emotional reaction."
+        },
+        {
+          "id": "mono-da-kara_q19",
+          "type": "translation",
+          "prompt": "Which means 'Because it was such a rare opportunity, I accepted without hesitation'?",
+          "japanese": null,
+          "choices": [
+            "めったにないチャンスなものだから、迷[まよ]わず引[ひ]き受[う]けた。",
+            "めったにないチャンスだったから、迷[まよ]わず引[ひ]き受[う]けた。",
+            "めったにないチャンスだったので、迷[まよ]わず引[ひ]き受[う]けた。",
+            "めったにないチャンスだったけれど、迷[まよ]わず引[ひ]き受[う]けた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + な + ものだから: めったにないチャンス + な + ものだから = because it's such a rare opportunity. 迷[まよ]わず引[ひ]き受[う]けた = accepted without hesitation. ものだから justifies the immediate acceptance."
+        },
+        {
+          "id": "mono-da-kara_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'Because the baby was sleeping, we talked quietly'?",
+          "japanese": null,
+          "choices": [
+            "赤[あか]ちゃんが眠[ねむ]っているものだから、静[しず]かに話[はな]した。",
+            "赤[あか]ちゃんが眠[ねむ]っていたから、静[しず]かに話[はな]した。",
+            "赤[あか]ちゃんが眠[ねむ]っていたので、静[しず]かに話[はな]した。",
+            "赤[あか]ちゃんが眠[ねむ]っていたけれど、静[しず]かに話[はな]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb te-iru + ものだから: 眠[ねむ]っている + ものだから = because (the baby) is sleeping. 静[しず]かに話[はな]した = talked quietly. ものだから explains the quiet behavior with a situationally-aware tone."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch41_v01",
+      "partOfSpeech": "noun",
+      "kanji": "心理",
+      "kana": "しんり",
+      "romaji": "shinri",
+      "definition": "psychology; mentality"
+    },
+    {
+      "id": "ch41_v02",
+      "partOfSpeech": "noun",
+      "kanji": "精神",
+      "kana": "せいしん",
+      "romaji": "seishin",
+      "definition": "spirit; mind"
+    },
+    {
+      "id": "ch41_v03",
+      "partOfSpeech": "noun",
+      "kanji": "無意識",
+      "kana": "むいしき",
+      "romaji": "muishiki",
+      "definition": "unconsciousness"
+    },
+    {
+      "id": "ch41_v04",
+      "partOfSpeech": "noun",
+      "kanji": "感覚",
+      "kana": "かんかく",
+      "romaji": "kankaku",
+      "definition": "sense; sensation"
+    },
+    {
+      "id": "ch41_v05",
+      "partOfSpeech": "noun",
+      "kanji": "直感",
+      "kana": "ちょっかん",
+      "romaji": "chokkan",
+      "definition": "intuition"
+    },
+    {
+      "id": "ch41_v06",
+      "partOfSpeech": "noun",
+      "kanji": "欲求",
+      "kana": "よっきゅう",
+      "romaji": "yokkyuu",
+      "definition": "desire; need"
+    },
+    {
+      "id": "ch41_v07",
+      "partOfSpeech": "noun",
+      "kanji": "欲望",
+      "kana": "よくぼう",
+      "romaji": "yokubou",
+      "definition": "desire; ambition"
+    },
+    {
+      "id": "ch41_v08",
+      "partOfSpeech": "noun",
+      "kanji": "意欲",
+      "kana": "いよく",
+      "romaji": "iyoku",
+      "definition": "motivation; drive"
+    },
+    {
+      "id": "ch41_v09",
+      "partOfSpeech": "noun",
+      "kanji": "意志",
+      "kana": "いし",
+      "romaji": "ishi",
+      "definition": "will; volition"
+    },
+    {
+      "id": "ch41_v10",
+      "partOfSpeech": "noun",
+      "kanji": "本能",
+      "kana": "ほんのう",
+      "romaji": "honnou",
+      "definition": "instinct"
+    },
+    {
+      "id": "ch41_v11",
+      "partOfSpeech": "noun",
+      "kanji": "反応",
+      "kana": "はんのう",
+      "romaji": "hannou",
+      "definition": "reaction; response"
+    },
+    {
+      "id": "ch41_v12",
+      "partOfSpeech": "noun",
+      "kanji": "刺激",
+      "kana": "しげき",
+      "romaji": "shigeki",
+      "definition": "stimulation; stimulus"
+    },
+    {
+      "id": "ch41_v13",
+      "partOfSpeech": "noun",
+      "kanji": "不安",
+      "kana": "ふあん",
+      "romaji": "fuan",
+      "definition": "anxiety; unease"
+    },
+    {
+      "id": "ch41_v14",
+      "partOfSpeech": "noun",
+      "kanji": "恐怖",
+      "kana": "きょうふ",
+      "romaji": "kyoufu",
+      "definition": "fear; terror"
+    },
+    {
+      "id": "ch41_v15",
+      "partOfSpeech": "noun",
+      "kanji": "快感",
+      "kana": "かいかん",
+      "romaji": "kaikan",
+      "definition": "pleasant feeling"
+    },
+    {
+      "id": "ch41_v16",
+      "partOfSpeech": "noun",
+      "kanji": "ストレス",
+      "kana": "ストレス",
+      "romaji": "sutoresu",
+      "definition": "stress"
+    },
+    {
+      "id": "ch41_v17",
+      "partOfSpeech": "noun",
+      "kanji": "疲労",
+      "kana": "ひろう",
+      "romaji": "hirou",
+      "definition": "fatigue"
+    },
+    {
+      "id": "ch41_v18",
+      "partOfSpeech": "noun",
+      "kanji": "集中",
+      "kana": "しゅうちゅう",
+      "romaji": "shuuchuu",
+      "definition": "concentration"
+    },
+    {
+      "id": "ch41_v19",
+      "partOfSpeech": "noun",
+      "kanji": "想像力",
+      "kana": "そうぞうりょく",
+      "romaji": "souzouryoku",
+      "definition": "imagination"
+    },
+    {
+      "id": "ch41_v20",
+      "partOfSpeech": "noun",
+      "kanji": "創造",
+      "kana": "そうぞう",
+      "romaji": "souzou",
+      "definition": "creation; creativity"
+    },
+    {
+      "id": "ch41_v21",
+      "partOfSpeech": "noun",
+      "kanji": "発想",
+      "kana": "はっそう",
+      "romaji": "hassou",
+      "definition": "idea; way of thinking"
+    },
+    {
+      "id": "ch41_v22",
+      "partOfSpeech": "noun",
+      "kanji": "価値観",
+      "kana": "かちかん",
+      "romaji": "kachikan",
+      "definition": "values; sense of values"
+    },
+    {
+      "id": "ch41_v23",
+      "partOfSpeech": "noun",
+      "kanji": "信念",
+      "kana": "しんねん",
+      "romaji": "shinnen",
+      "definition": "belief; conviction"
+    },
+    {
+      "id": "ch41_v24",
+      "partOfSpeech": "noun",
+      "kanji": "願望",
+      "kana": "がんぼう",
+      "romaji": "ganbou",
+      "definition": "wish; desire"
+    },
+    {
+      "id": "ch41_v25",
+      "partOfSpeech": "na-adjective",
+      "kanji": "精神的",
+      "kana": "せいしんてき",
+      "romaji": "seishinteki",
+      "definition": "mental; spiritual"
+    },
+    {
+      "id": "ch41_v26",
+      "partOfSpeech": "na-adjective",
+      "kanji": "心理的",
+      "kana": "しんりてき",
+      "romaji": "shinriteki",
+      "definition": "psychological"
+    },
+    {
+      "id": "ch41_v27",
+      "partOfSpeech": "noun",
+      "kanji": "感性",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "definition": "sensitivity; aesthetic sense"
+    },
+    {
+      "id": "ch41_v28",
+      "partOfSpeech": "na-adjective",
+      "kanji": "意識的",
+      "kana": "いしきてき",
+      "romaji": "ishikiteki",
+      "definition": "conscious; deliberate"
+    },
+    {
+      "id": "ch41_v29",
+      "partOfSpeech": "noun",
+      "kanji": "記憶力",
+      "kana": "きおくりょく",
+      "romaji": "kiokuryoku",
+      "definition": "memory (ability)"
+    },
+    {
+      "id": "ch41_v30",
+      "partOfSpeech": "noun",
+      "kanji": "集中力",
+      "kana": "しゅうちゅうりょく",
+      "romaji": "shuuchuuryoku",
+      "definition": "powers of concentration"
+    },
+    {
+      "id": "ch41_v31",
+      "partOfSpeech": "noun",
+      "kanji": "精神力",
+      "kana": "せいしんりょく",
+      "romaji": "seishinryoku",
+      "definition": "mental strength"
+    },
+    {
+      "id": "ch41_v32",
+      "partOfSpeech": "verb",
+      "kanji": "願う",
+      "kana": "ねがう",
+      "romaji": "negau",
+      "definition": "to wish; to hope"
+    },
+    {
+      "id": "ch41_v33",
+      "partOfSpeech": "verb",
+      "kanji": "悩む",
+      "kana": "なやむ",
+      "romaji": "nayamu",
+      "definition": "to worry; to agonize"
+    },
+    {
+      "id": "ch41_v34",
+      "partOfSpeech": "noun",
+      "kanji": "迷い",
+      "kana": "まよい",
+      "romaji": "mayoi",
+      "definition": "hesitation; indecision"
+    },
+    {
+      "id": "ch41_v35",
+      "partOfSpeech": "noun",
+      "kanji": "落ち着き",
+      "kana": "おちつき",
+      "romaji": "ochitsuki",
+      "definition": "composure; calm"
+    },
+    {
+      "id": "ch41_v36",
+      "partOfSpeech": "noun",
+      "kanji": "自信",
+      "kana": "じしん",
+      "romaji": "jishin",
+      "definition": "(self-)confidence"
+    },
+    {
+      "id": "ch41_v37",
+      "partOfSpeech": "noun",
+      "kanji": "誇り",
+      "kana": "ほこり",
+      "romaji": "hokori",
+      "definition": "pride"
+    },
+    {
+      "id": "ch41_v38",
+      "partOfSpeech": "noun",
+      "kanji": "劣等感",
+      "kana": "れっとうかん",
+      "romaji": "rettoukan",
+      "definition": "inferiority complex"
+    },
+    {
+      "id": "ch41_v39",
+      "partOfSpeech": "noun",
+      "kanji": "満足感",
+      "kana": "まんぞくかん",
+      "romaji": "manzokukan",
+      "definition": "sense of satisfaction"
+    },
+    {
+      "id": "ch41_v40",
+      "partOfSpeech": "noun",
+      "kanji": "気力",
+      "kana": "きりょく",
+      "romaji": "kiryoku",
+      "definition": "willpower; energy"
+    }
+  ]
+}

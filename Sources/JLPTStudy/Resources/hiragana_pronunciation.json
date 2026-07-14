@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "hira_c029",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "へ",
+    "choices": [
+      "he",
+      "se",
+      "re",
+      "te"
+    ],
+    "correctIndex": 0,
+    "explanation": "へ is pronounced \"he\"."
+  },
+  {
+    "id": "hira_c070",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぺ",
+    "choices": [
+      "ne",
+      "be",
+      "pe",
+      "me"
+    ],
+    "correctIndex": 2,
+    "explanation": "ぺ is pronounced \"pe\". It is へ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "hira_c006",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ka\"?",
+    "japanese": null,
+    "choices": [
+      "か",
+      "が",
+      "ら",
+      "だ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ka\" is written か."
+  },
+  {
+    "id": "hira_c057",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"da\"?",
+    "japanese": null,
+    "choices": [
+      "だ",
+      "さ",
+      "が",
+      "あ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"da\" is written だ. It is the voiced form of た — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c021",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "な",
+    "choices": [
+      "na",
+      "ka",
+      "pa",
+      "sa"
+    ],
+    "correctIndex": 0,
+    "explanation": "な is pronounced \"na\"."
+  },
+  {
+    "id": "hira_w005",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "やま",
+    "choices": [
+      "yana",
+      "yema",
+      "yamo",
+      "yama"
+    ],
+    "correctIndex": 3,
+    "explanation": "やま is read \"yama\" and means \"mountain\"."
+  },
+  {
+    "id": "hira_c058",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぢ",
+    "choices": [
+      "ni",
+      "mi",
+      "i",
+      "ji"
+    ],
+    "correctIndex": 3,
+    "explanation": "ぢ is pronounced \"ji\". It is the voiced form of ち — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c008",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ku\"?",
+    "japanese": null,
+    "choices": [
+      "う",
+      "く",
+      "ぐ",
+      "ぬ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ku\" is written く."
+  },
+  {
+    "id": "hira_c045",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "を",
+    "choices": [
+      "o",
+      "wo",
+      "do",
+      "ho"
+    ],
+    "correctIndex": 1,
+    "explanation": "を is pronounced \"wo\"."
+  },
+  {
+    "id": "hira_c066",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぼ",
+    "choices": [
+      "bo",
+      "no",
+      "ro",
+      "go"
+    ],
+    "correctIndex": 0,
+    "explanation": "ぼ is pronounced \"bo\". It is the voiced form of ほ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c024",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ne\"?",
+    "japanese": null,
+    "choices": [
+      "ね",
+      "け",
+      "げ",
+      "べ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ne\" is written ね."
+  },
+  {
+    "id": "hira_c030",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ho\"?",
+    "japanese": null,
+    "choices": [
+      "ほ",
+      "ぞ",
+      "と",
+      "を"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ho\" is written ほ."
+  },
+  {
+    "id": "hira_w002",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "ねこ",
+    "choices": [
+      "neku",
+      "neko",
+      "meko",
+      "neka"
+    ],
+    "correctIndex": 1,
+    "explanation": "ねこ is read \"neko\" and means \"cat\"."
+  },
+  {
+    "id": "hira_c032",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"mi\"?",
+    "japanese": null,
+    "choices": [
+      "ち",
+      "い",
+      "み",
+      "ぴ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"mi\" is written み."
+  },
+  {
+    "id": "hira_w007",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "くるま",
+    "choices": [
+      "karuma",
+      "kuruma",
+      "kuroma",
+      "kuruna"
+    ],
+    "correctIndex": 1,
+    "explanation": "くるま is read \"kuruma\" and means \"car\"."
+  },
+  {
+    "id": "hira_c047",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ga\"?",
+    "japanese": null,
+    "choices": [
+      "た",
+      "さ",
+      "な",
+      "が"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"ga\" is written が. It is the voiced form of か — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_w008",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "たまご",
+    "choices": [
+      "tomago",
+      "tamego",
+      "tamako",
+      "tamago"
+    ],
+    "correctIndex": 3,
+    "explanation": "たまご is read \"tamago\" and means \"egg\"."
+  },
+  {
+    "id": "hira_c040",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ri\"?",
+    "japanese": null,
+    "choices": [
+      "い",
+      "じ",
+      "り",
+      "し"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ri\" is written り."
+  },
+  {
+    "id": "hira_c010",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ko\"?",
+    "japanese": null,
+    "choices": [
+      "も",
+      "こ",
+      "お",
+      "そ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ko\" is written こ."
+  },
+  {
+    "id": "hira_c056",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぞ",
+    "choices": [
+      "zo",
+      "mo",
+      "do",
+      "bo"
+    ],
+    "correctIndex": 0,
+    "explanation": "ぞ is pronounced \"zo\". It is the voiced form of そ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c007",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "き",
+    "choices": [
+      "i",
+      "ji",
+      "bi",
+      "ki"
+    ],
+    "correctIndex": 3,
+    "explanation": "き is pronounced \"ki\"."
+  },
+  {
+    "id": "hira_c004",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"e\"?",
+    "japanese": null,
+    "choices": [
+      "め",
+      "え",
+      "ね",
+      "け"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"e\" is written え."
+  },
+  {
+    "id": "hira_c042",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"re\"?",
+    "japanese": null,
+    "choices": [
+      "め",
+      "ぜ",
+      "れ",
+      "べ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"re\" is written れ."
+  },
+  {
+    "id": "hira_c031",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ま",
+    "choices": [
+      "na",
+      "ma",
+      "a",
+      "ga"
+    ],
+    "correctIndex": 1,
+    "explanation": "ま is pronounced \"ma\"."
+  },
+  {
+    "id": "hira_c038",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"yo\"?",
+    "japanese": null,
+    "choices": [
+      "ど",
+      "を",
+      "ぼ",
+      "よ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"yo\" is written よ."
+  },
+  {
+    "id": "hira_c059",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "づ",
+    "choices": [
+      "tsu",
+      "u",
+      "zu",
+      "gu"
+    ],
+    "correctIndex": 2,
+    "explanation": "づ is pronounced \"zu\". It is the voiced form of つ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_w006",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "そら",
+    "choices": [
+      "zora",
+      "soro",
+      "sara",
+      "sora"
+    ],
+    "correctIndex": 3,
+    "explanation": "そら is read \"sora\" and means \"sky\"."
+  },
+  {
+    "id": "hira_c055",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ze\"?",
+    "japanese": null,
+    "choices": [
+      "べ",
+      "ね",
+      "ぜ",
+      "げ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ze\" is written ぜ. It is the voiced form of せ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_w004",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "みず",
+    "choices": [
+      "misu",
+      "mizu",
+      "mizo",
+      "mezu"
+    ],
+    "correctIndex": 1,
+    "explanation": "みず is read \"mizu\" and means \"water\"."
+  },
+  {
+    "id": "hira_c069",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"pu\"?",
+    "japanese": null,
+    "choices": [
+      "ぷ",
+      "ふ",
+      "つ",
+      "う"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"pu\" is written ぷ. It is ふ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "hira_c018",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"tsu\"?",
+    "japanese": null,
+    "choices": [
+      "す",
+      "ふ",
+      "る",
+      "つ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"tsu\" is written つ."
+  },
+  {
+    "id": "hira_c064",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぶ",
+    "choices": [
+      "fu",
+      "bu",
+      "mu",
+      "nu"
+    ],
+    "correctIndex": 1,
+    "explanation": "ぶ is pronounced \"bu\". It is the voiced form of ふ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c014",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"se\"?",
+    "japanese": null,
+    "choices": [
+      "ぺ",
+      "せ",
+      "ね",
+      "け"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"se\" is written せ."
+  },
+  {
+    "id": "hira_c052",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ざ",
+    "choices": [
+      "wa",
+      "ra",
+      "za",
+      "ba"
+    ],
+    "correctIndex": 2,
+    "explanation": "ざ is pronounced \"za\". It is the voiced form of さ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c002",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"i\"?",
+    "japanese": null,
+    "choices": [
+      "き",
+      "ひ",
+      "じ",
+      "い"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"i\" is written い."
+  },
+  {
+    "id": "hira_c011",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "さ",
+    "choices": [
+      "da",
+      "sa",
+      "a",
+      "za"
+    ],
+    "correctIndex": 1,
+    "explanation": "さ is pronounced \"sa\"."
+  },
+  {
+    "id": "hira_c039",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ら",
+    "choices": [
+      "ra",
+      "ba",
+      "da",
+      "sa"
+    ],
+    "correctIndex": 0,
+    "explanation": "ら is pronounced \"ra\"."
+  },
+  {
+    "id": "hira_c034",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"me\"?",
+    "japanese": null,
+    "choices": [
+      "ね",
+      "ぜ",
+      "め",
+      "で"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"me\" is written め."
+  },
+  {
+    "id": "hira_c028",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"fu\"?",
+    "japanese": null,
+    "choices": [
+      "ぷ",
+      "く",
+      "る",
+      "ふ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"fu\" is written ふ."
+  },
+  {
+    "id": "hira_c049",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"gu\"?",
+    "japanese": null,
+    "choices": [
+      "る",
+      "ず",
+      "ぶ",
+      "ぐ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"gu\" is written ぐ. It is the voiced form of く — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c041",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "る",
+    "choices": [
+      "bu",
+      "ru",
+      "su",
+      "tsu"
+    ],
+    "correctIndex": 1,
+    "explanation": "る is pronounced \"ru\"."
+  },
+  {
+    "id": "hira_c061",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"do\"?",
+    "japanese": null,
+    "choices": [
+      "ぞ",
+      "ど",
+      "ろ",
+      "よ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"do\" is written ど. It is the voiced form of と — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c009",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "け",
+    "choices": [
+      "ke",
+      "be",
+      "ge",
+      "ne"
+    ],
+    "correctIndex": 0,
+    "explanation": "け is pronounced \"ke\"."
+  },
+  {
+    "id": "hira_c065",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"be\"?",
+    "japanese": null,
+    "choices": [
+      "ぺ",
+      "げ",
+      "べ",
+      "え"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"be\" is written べ. It is the voiced form of へ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c062",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ば",
+    "choices": [
+      "ha",
+      "pa",
+      "ba",
+      "ya"
+    ],
+    "correctIndex": 2,
+    "explanation": "ば is pronounced \"ba\". It is the voiced form of は — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c020",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"to\"?",
+    "japanese": null,
+    "choices": [
+      "を",
+      "ぽ",
+      "と",
+      "よ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"to\" is written と."
+  },
+  {
+    "id": "hira_c050",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "げ",
+    "choices": [
+      "me",
+      "ge",
+      "de",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanation": "げ is pronounced \"ge\". It is the voiced form of け — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c044",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"wa\"?",
+    "japanese": null,
+    "choices": [
+      "ば",
+      "な",
+      "わ",
+      "ぱ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"wa\" is written わ."
+  },
+  {
+    "id": "hira_c043",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ろ",
+    "choices": [
+      "ho",
+      "bo",
+      "no",
+      "ro"
+    ],
+    "correctIndex": 3,
+    "explanation": "ろ is pronounced \"ro\"."
+  },
+  {
+    "id": "hira_c026",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ha\"?",
+    "japanese": null,
+    "choices": [
+      "わ",
+      "あ",
+      "た",
+      "は"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"ha\" is written は."
+  },
+  {
+    "id": "hira_w001",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "さくら",
+    "choices": [
+      "sakora",
+      "sakara",
+      "sakura",
+      "sukura"
+    ],
+    "correctIndex": 2,
+    "explanation": "さくら is read \"sakura\" and means \"cherry blossom\"."
+  },
+  {
+    "id": "hira_c054",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ず",
+    "choices": [
+      "zu",
+      "su",
+      "yu",
+      "tsu"
+    ],
+    "correctIndex": 0,
+    "explanation": "ず is pronounced \"zu\". It is the voiced form of す — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c012",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"shi\"?",
+    "japanese": null,
+    "choices": [
+      "し",
+      "に",
+      "ち",
+      "り"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"shi\" is written し."
+  },
+  {
+    "id": "hira_c053",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "じ",
+    "choices": [
+      "ji",
+      "ri",
+      "gi",
+      "pi"
+    ],
+    "correctIndex": 0,
+    "explanation": "じ is pronounced \"ji\". It is the voiced form of し — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c003",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "う",
+    "choices": [
+      "bu",
+      "ru",
+      "mu",
+      "u"
+    ],
+    "correctIndex": 3,
+    "explanation": "う is pronounced \"u\"."
+  },
+  {
+    "id": "hira_c017",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ち",
+    "choices": [
+      "chi",
+      "mi",
+      "hi",
+      "shi"
+    ],
+    "correctIndex": 0,
+    "explanation": "ち is pronounced \"chi\"."
+  },
+  {
+    "id": "hira_c033",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "む",
+    "choices": [
+      "mu",
+      "tsu",
+      "zu",
+      "fu"
+    ],
+    "correctIndex": 0,
+    "explanation": "む is pronounced \"mu\"."
+  },
+  {
+    "id": "hira_c022",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ni\"?",
+    "japanese": null,
+    "choices": [
+      "び",
+      "き",
+      "に",
+      "み"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ni\" is written に."
+  },
+  {
+    "id": "hira_c051",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"go\"?",
+    "japanese": null,
+    "choices": [
+      "を",
+      "ぞ",
+      "ご",
+      "ど"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"go\" is written ご. It is the voiced form of こ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c035",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "も",
+    "choices": [
+      "ko",
+      "do",
+      "mo",
+      "o"
+    ],
+    "correctIndex": 2,
+    "explanation": "も is pronounced \"mo\"."
+  },
+  {
+    "id": "hira_c013",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "す",
+    "choices": [
+      "pu",
+      "su",
+      "fu",
+      "nu"
+    ],
+    "correctIndex": 1,
+    "explanation": "す is pronounced \"su\"."
+  },
+  {
+    "id": "hira_c023",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぬ",
+    "choices": [
+      "bu",
+      "nu",
+      "u",
+      "yu"
+    ],
+    "correctIndex": 1,
+    "explanation": "ぬ is pronounced \"nu\"."
+  },
+  {
+    "id": "hira_c071",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"po\"?",
+    "japanese": null,
+    "choices": [
+      "ぞ",
+      "ぼ",
+      "の",
+      "ぽ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"po\" is written ぽ. It is ほ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "hira_c015",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "そ",
+    "choices": [
+      "ko",
+      "mo",
+      "so",
+      "to"
+    ],
+    "correctIndex": 2,
+    "explanation": "そ is pronounced \"so\"."
+  },
+  {
+    "id": "hira_c063",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"bi\"?",
+    "japanese": null,
+    "choices": [
+      "ぴ",
+      "ち",
+      "し",
+      "び"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"bi\" is written び. It is the voiced form of ひ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c016",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ta\"?",
+    "japanese": null,
+    "choices": [
+      "さ",
+      "ら",
+      "た",
+      "ま"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ta\" is written た."
+  },
+  {
+    "id": "hira_c001",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "あ",
+    "choices": [
+      "ha",
+      "a",
+      "ka",
+      "ma"
+    ],
+    "correctIndex": 1,
+    "explanation": "あ is pronounced \"a\"."
+  },
+  {
+    "id": "hira_c036",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ya\"?",
+    "japanese": null,
+    "choices": [
+      "は",
+      "ま",
+      "や",
+      "が"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ya\" is written や."
+  },
+  {
+    "id": "hira_c005",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "お",
+    "choices": [
+      "zo",
+      "o",
+      "ko",
+      "so"
+    ],
+    "correctIndex": 1,
+    "explanation": "お is pronounced \"o\"."
+  },
+  {
+    "id": "hira_c025",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "の",
+    "choices": [
+      "ko",
+      "do",
+      "no",
+      "so"
+    ],
+    "correctIndex": 2,
+    "explanation": "の is pronounced \"no\"."
+  },
+  {
+    "id": "hira_c027",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ひ",
+    "choices": [
+      "i",
+      "bi",
+      "hi",
+      "ri"
+    ],
+    "correctIndex": 2,
+    "explanation": "ひ is pronounced \"hi\"."
+  },
+  {
+    "id": "hira_c048",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぎ",
+    "choices": [
+      "shi",
+      "chi",
+      "gi",
+      "ni"
+    ],
+    "correctIndex": 2,
+    "explanation": "ぎ is pronounced \"gi\". It is the voiced form of き — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c046",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ん",
+    "choices": [
+      "mu",
+      "n",
+      "nu",
+      "u"
+    ],
+    "correctIndex": 1,
+    "explanation": "ん is the syllabic nasal \"n\" — the only hiragana that is a consonant on its own, taking up one full beat."
+  },
+  {
+    "id": "hira_w009",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "ともだち",
+    "choices": [
+      "tomodashi",
+      "tomodachi",
+      "tomedachi",
+      "tomodaki"
+    ],
+    "correctIndex": 1,
+    "explanation": "ともだち is read \"tomodachi\" and means \"friend\"."
+  },
+  {
+    "id": "hira_w003",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "いぬ",
+    "choices": [
+      "unu",
+      "imu",
+      "inu",
+      "ino"
+    ],
+    "correctIndex": 2,
+    "explanation": "いぬ is read \"inu\" and means \"dog\"."
+  },
+  {
+    "id": "hira_c068",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ぴ",
+    "choices": [
+      "ki",
+      "bi",
+      "pi",
+      "chi"
+    ],
+    "correctIndex": 2,
+    "explanation": "ぴ is pronounced \"pi\". It is ひ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "hira_c019",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "て",
+    "choices": [
+      "te",
+      "se",
+      "de",
+      "be"
+    ],
+    "correctIndex": 0,
+    "explanation": "て is pronounced \"te\"."
+  },
+  {
+    "id": "hira_c067",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"pa\"?",
+    "japanese": null,
+    "choices": [
+      "ぱ",
+      "は",
+      "や",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"pa\" is written ぱ. It is は plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "hira_c060",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "で",
+    "choices": [
+      "ze",
+      "de",
+      "te",
+      "e"
+    ],
+    "correctIndex": 1,
+    "explanation": "で is pronounced \"de\". It is the voiced form of て — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "hira_c037",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ゆ",
+    "choices": [
+      "bu",
+      "nu",
+      "ru",
+      "yu"
+    ],
+    "correctIndex": 3,
+    "explanation": "ゆ is pronounced \"yu\"."
+  }
+]

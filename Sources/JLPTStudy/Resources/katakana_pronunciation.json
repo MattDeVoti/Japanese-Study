@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "kata_c014",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"se\"?",
+    "japanese": null,
+    "choices": [
+      "デ",
+      "メ",
+      "セ",
+      "ゼ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"se\" is written セ."
+  },
+  {
+    "id": "kata_c059",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヅ",
+    "choices": [
+      "mu",
+      "tsu",
+      "zu",
+      "su"
+    ],
+    "correctIndex": 2,
+    "explanation": "ヅ is pronounced \"zu\". It is the voiced form of ツ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c022",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ni\"?",
+    "japanese": null,
+    "choices": [
+      "ニ",
+      "ピ",
+      "ギ",
+      "リ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ni\" is written ニ."
+  },
+  {
+    "id": "kata_c055",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ze\"?",
+    "japanese": null,
+    "choices": [
+      "ネ",
+      "エ",
+      "ゼ",
+      "ヘ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ze\" is written ゼ. It is the voiced form of セ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c068",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ピ",
+    "choices": [
+      "pi",
+      "hi",
+      "ni",
+      "bi"
+    ],
+    "correctIndex": 0,
+    "explanation": "ピ is pronounced \"pi\". It is ヒ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "kata_m002",
+    "type": "kata_to_hira",
+    "prompt": "Which hiragana has the same sound as this katakana?",
+    "japanese": "セ",
+    "choices": [
+      "け",
+      "せ",
+      "げ",
+      "べ"
+    ],
+    "correctIndex": 1,
+    "explanation": "セ and せ are both pronounced \"se\" — the katakana and hiragana for the same sound."
+  },
+  {
+    "id": "kata_c050",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ゲ",
+    "choices": [
+      "te",
+      "de",
+      "ge",
+      "ne"
+    ],
+    "correctIndex": 2,
+    "explanation": "ゲ is pronounced \"ge\". It is the voiced form of ケ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c069",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"pu\"?",
+    "japanese": null,
+    "choices": [
+      "プ",
+      "フ",
+      "ブ",
+      "ツ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"pu\" is written プ. It is フ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "kata_c002",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"i\"?",
+    "japanese": null,
+    "choices": [
+      "ピ",
+      "イ",
+      "ニ",
+      "キ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"i\" is written イ."
+  },
+  {
+    "id": "kata_c054",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ズ",
+    "choices": [
+      "bu",
+      "zu",
+      "mu",
+      "pu"
+    ],
+    "correctIndex": 1,
+    "explanation": "ズ is pronounced \"zu\". It is the voiced form of ス — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c016",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ta\"?",
+    "japanese": null,
+    "choices": [
+      "ハ",
+      "ア",
+      "ナ",
+      "タ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"ta\" is written タ."
+  },
+  {
+    "id": "kata_w005",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "ピアノ",
+    "choices": [
+      "peano",
+      "piano",
+      "piana",
+      "pieno"
+    ],
+    "correctIndex": 1,
+    "explanation": "ピアノ is read \"piano\" and means \"piano\"."
+  },
+  {
+    "id": "kata_c021",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ナ",
+    "choices": [
+      "na",
+      "ga",
+      "ba",
+      "sa"
+    ],
+    "correctIndex": 0,
+    "explanation": "ナ is pronounced \"na\"."
+  },
+  {
+    "id": "kata_c040",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ri\"?",
+    "japanese": null,
+    "choices": [
+      "リ",
+      "キ",
+      "ジ",
+      "チ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ri\" is written リ."
+  },
+  {
+    "id": "kata_c025",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ノ",
+    "choices": [
+      "bo",
+      "zo",
+      "yo",
+      "no"
+    ],
+    "correctIndex": 3,
+    "explanation": "ノ is pronounced \"no\"."
+  },
+  {
+    "id": "kata_c037",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ユ",
+    "choices": [
+      "fu",
+      "yu",
+      "ru",
+      "gu"
+    ],
+    "correctIndex": 1,
+    "explanation": "ユ is pronounced \"yu\"."
+  },
+  {
+    "id": "kata_c004",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"e\"?",
+    "japanese": null,
+    "choices": [
+      "ケ",
+      "ゲ",
+      "ベ",
+      "エ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"e\" is written エ."
+  },
+  {
+    "id": "kata_c049",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"gu\"?",
+    "japanese": null,
+    "choices": [
+      "グ",
+      "プ",
+      "ウ",
+      "ク"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"gu\" is written グ. It is the voiced form of ク — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c027",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヒ",
+    "choices": [
+      "pi",
+      "ni",
+      "chi",
+      "hi"
+    ],
+    "correctIndex": 3,
+    "explanation": "ヒ is pronounced \"hi\"."
+  },
+  {
+    "id": "kata_c029",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヘ",
+    "choices": [
+      "he",
+      "ze",
+      "be",
+      "te"
+    ],
+    "correctIndex": 0,
+    "explanation": "ヘ is pronounced \"he\"."
+  },
+  {
+    "id": "kata_c007",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "キ",
+    "choices": [
+      "bi",
+      "ni",
+      "shi",
+      "ki"
+    ],
+    "correctIndex": 3,
+    "explanation": "キ is pronounced \"ki\"."
+  },
+  {
+    "id": "kata_c036",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ya\"?",
+    "japanese": null,
+    "choices": [
+      "ザ",
+      "ヤ",
+      "パ",
+      "タ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ya\" is written ヤ."
+  },
+  {
+    "id": "kata_c039",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ラ",
+    "choices": [
+      "ba",
+      "da",
+      "sa",
+      "ra"
+    ],
+    "correctIndex": 3,
+    "explanation": "ラ is pronounced \"ra\"."
+  },
+  {
+    "id": "kata_c026",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ha\"?",
+    "japanese": null,
+    "choices": [
+      "タ",
+      "ハ",
+      "マ",
+      "ラ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ha\" is written ハ."
+  },
+  {
+    "id": "kata_c058",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヂ",
+    "choices": [
+      "gi",
+      "hi",
+      "ji",
+      "shi"
+    ],
+    "correctIndex": 2,
+    "explanation": "ヂ is pronounced \"ji\". It is the voiced form of チ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c032",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"mi\"?",
+    "japanese": null,
+    "choices": [
+      "リ",
+      "ミ",
+      "ジ",
+      "ピ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"mi\" is written ミ."
+  },
+  {
+    "id": "kata_c043",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ロ",
+    "choices": [
+      "no",
+      "do",
+      "ro",
+      "zo"
+    ],
+    "correctIndex": 2,
+    "explanation": "ロ is pronounced \"ro\"."
+  },
+  {
+    "id": "kata_c053",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ジ",
+    "choices": [
+      "ki",
+      "ji",
+      "hi",
+      "ri"
+    ],
+    "correctIndex": 1,
+    "explanation": "ジ is pronounced \"ji\". It is the voiced form of シ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c042",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"re\"?",
+    "japanese": null,
+    "choices": [
+      "メ",
+      "ケ",
+      "レ",
+      "ゼ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"re\" is written レ."
+  },
+  {
+    "id": "kata_c045",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヲ",
+    "choices": [
+      "po",
+      "so",
+      "do",
+      "wo"
+    ],
+    "correctIndex": 3,
+    "explanation": "ヲ is pronounced \"wo\"."
+  },
+  {
+    "id": "kata_c018",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"tsu\"?",
+    "japanese": null,
+    "choices": [
+      "ブ",
+      "フ",
+      "ズ",
+      "ツ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"tsu\" is written ツ."
+  },
+  {
+    "id": "kata_c034",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"me\"?",
+    "japanese": null,
+    "choices": [
+      "セ",
+      "メ",
+      "ケ",
+      "ゼ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"me\" is written メ."
+  },
+  {
+    "id": "kata_c064",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ブ",
+    "choices": [
+      "bu",
+      "ru",
+      "yu",
+      "fu"
+    ],
+    "correctIndex": 0,
+    "explanation": "ブ is pronounced \"bu\". It is the voiced form of フ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c030",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ho\"?",
+    "japanese": null,
+    "choices": [
+      "ポ",
+      "ソ",
+      "ト",
+      "ホ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"ho\" is written ホ."
+  },
+  {
+    "id": "kata_c067",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"pa\"?",
+    "japanese": null,
+    "choices": [
+      "マ",
+      "バ",
+      "パ",
+      "ダ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"pa\" is written パ. It is ハ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "kata_c010",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ko\"?",
+    "japanese": null,
+    "choices": [
+      "ボ",
+      "ホ",
+      "コ",
+      "ド"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"ko\" is written コ."
+  },
+  {
+    "id": "kata_c017",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "チ",
+    "choices": [
+      "mi",
+      "chi",
+      "hi",
+      "ki"
+    ],
+    "correctIndex": 1,
+    "explanation": "チ is pronounced \"chi\"."
+  },
+  {
+    "id": "kata_c048",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ギ",
+    "choices": [
+      "gi",
+      "bi",
+      "ji",
+      "hi"
+    ],
+    "correctIndex": 0,
+    "explanation": "ギ is pronounced \"gi\". It is the voiced form of キ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c044",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"wa\"?",
+    "japanese": null,
+    "choices": [
+      "サ",
+      "ワ",
+      "バ",
+      "パ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"wa\" is written ワ."
+  },
+  {
+    "id": "kata_c033",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ム",
+    "choices": [
+      "fu",
+      "su",
+      "yu",
+      "mu"
+    ],
+    "correctIndex": 3,
+    "explanation": "ム is pronounced \"mu\"."
+  },
+  {
+    "id": "kata_c061",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"do\"?",
+    "japanese": null,
+    "choices": [
+      "ゾ",
+      "ド",
+      "ト",
+      "ゴ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"do\" is written ド. It is the voiced form of ト — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c038",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"yo\"?",
+    "japanese": null,
+    "choices": [
+      "ゴ",
+      "ソ",
+      "ヨ",
+      "モ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"yo\" is written ヨ."
+  },
+  {
+    "id": "kata_c035",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "モ",
+    "choices": [
+      "to",
+      "wo",
+      "so",
+      "mo"
+    ],
+    "correctIndex": 3,
+    "explanation": "モ is pronounced \"mo\"."
+  },
+  {
+    "id": "kata_w003",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "テレビ",
+    "choices": [
+      "terobi",
+      "terebi",
+      "tarebi",
+      "terebe"
+    ],
+    "correctIndex": 1,
+    "explanation": "テレビ is read \"terebi\" and means \"television\"."
+  },
+  {
+    "id": "kata_c028",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"fu\"?",
+    "japanese": null,
+    "choices": [
+      "ヌ",
+      "ク",
+      "ブ",
+      "フ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"fu\" is written フ."
+  },
+  {
+    "id": "kata_c071",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"po\"?",
+    "japanese": null,
+    "choices": [
+      "ノ",
+      "ホ",
+      "ポ",
+      "コ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"po\" is written ポ. It is ホ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "kata_c046",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ン",
+    "choices": [
+      "mu",
+      "u",
+      "n",
+      "nu"
+    ],
+    "correctIndex": 2,
+    "explanation": "ン is the syllabic nasal \"n\" — the only katakana that is a consonant on its own, taking up one full beat."
+  },
+  {
+    "id": "kata_c057",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"da\"?",
+    "japanese": null,
+    "choices": [
+      "ダ",
+      "バ",
+      "ハ",
+      "サ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"da\" is written ダ. It is the voiced form of タ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c063",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"bi\"?",
+    "japanese": null,
+    "choices": [
+      "ギ",
+      "ヒ",
+      "リ",
+      "ビ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"bi\" is written ビ. It is the voiced form of ヒ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c020",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"to\"?",
+    "japanese": null,
+    "choices": [
+      "ソ",
+      "ホ",
+      "ト",
+      "ノ"
+    ],
+    "correctIndex": 2,
+    "explanation": "\"to\" is written ト."
+  },
+  {
+    "id": "kata_c066",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ボ",
+    "choices": [
+      "bo",
+      "ho",
+      "zo",
+      "to"
+    ],
+    "correctIndex": 0,
+    "explanation": "ボ is pronounced \"bo\". It is the voiced form of ホ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c012",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"shi\"?",
+    "japanese": null,
+    "choices": [
+      "シ",
+      "イ",
+      "ミ",
+      "リ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"shi\" is written シ."
+  },
+  {
+    "id": "kata_w006",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "トマト",
+    "choices": [
+      "tamato",
+      "tomato",
+      "tometo",
+      "tomata"
+    ],
+    "correctIndex": 1,
+    "explanation": "トマト is read \"tomato\" and means \"tomato\"."
+  },
+  {
+    "id": "kata_m001",
+    "type": "kata_to_hira",
+    "prompt": "Which hiragana has the same sound as this katakana?",
+    "japanese": "カ",
+    "choices": [
+      "か",
+      "ま",
+      "た",
+      "や"
+    ],
+    "correctIndex": 0,
+    "explanation": "カ and か are both pronounced \"ka\" — the katakana and hiragana for the same sound."
+  },
+  {
+    "id": "kata_c019",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "テ",
+    "choices": [
+      "ze",
+      "e",
+      "te",
+      "se"
+    ],
+    "correctIndex": 2,
+    "explanation": "テ is pronounced \"te\"."
+  },
+  {
+    "id": "kata_c024",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ne\"?",
+    "japanese": null,
+    "choices": [
+      "ペ",
+      "ネ",
+      "ゲ",
+      "ベ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ne\" is written ネ."
+  },
+  {
+    "id": "kata_c008",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ku\"?",
+    "japanese": null,
+    "choices": [
+      "ム",
+      "ク",
+      "グ",
+      "ズ"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"ku\" is written ク."
+  },
+  {
+    "id": "kata_c060",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "デ",
+    "choices": [
+      "e",
+      "de",
+      "ze",
+      "he"
+    ],
+    "correctIndex": 1,
+    "explanation": "デ is pronounced \"de\". It is the voiced form of テ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c015",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ソ",
+    "choices": [
+      "so",
+      "ro",
+      "bo",
+      "po"
+    ],
+    "correctIndex": 0,
+    "explanation": "ソ is pronounced \"so\"."
+  },
+  {
+    "id": "kata_c006",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ka\"?",
+    "japanese": null,
+    "choices": [
+      "カ",
+      "ガ",
+      "ヤ",
+      "ハ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"ka\" is written カ."
+  },
+  {
+    "id": "kata_c062",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "バ",
+    "choices": [
+      "ba",
+      "ta",
+      "da",
+      "ha"
+    ],
+    "correctIndex": 0,
+    "explanation": "バ is pronounced \"ba\". It is the voiced form of ハ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c005",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "オ",
+    "choices": [
+      "o",
+      "wo",
+      "zo",
+      "bo"
+    ],
+    "correctIndex": 0,
+    "explanation": "オ is pronounced \"o\"."
+  },
+  {
+    "id": "kata_c070",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ペ",
+    "choices": [
+      "e",
+      "ne",
+      "pe",
+      "be"
+    ],
+    "correctIndex": 2,
+    "explanation": "ペ is pronounced \"pe\". It is ヘ plus the handakuten (゜), which turns the H-row into a P sound."
+  },
+  {
+    "id": "kata_c065",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"be\"?",
+    "japanese": null,
+    "choices": [
+      "ベ",
+      "ゼ",
+      "レ",
+      "デ"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"be\" is written ベ. It is the voiced form of ヘ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c009",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ケ",
+    "choices": [
+      "pe",
+      "ke",
+      "me",
+      "be"
+    ],
+    "correctIndex": 1,
+    "explanation": "ケ is pronounced \"ke\"."
+  },
+  {
+    "id": "kata_c047",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"ga\"?",
+    "japanese": null,
+    "choices": [
+      "サ",
+      "ザ",
+      "タ",
+      "ガ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"ga\" is written ガ. It is the voiced form of カ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_m003",
+    "type": "kata_to_hira",
+    "prompt": "Which hiragana has the same sound as this katakana?",
+    "japanese": "モ",
+    "choices": [
+      "ろ",
+      "ほ",
+      "と",
+      "も"
+    ],
+    "correctIndex": 3,
+    "explanation": "モ and も are both pronounced \"mo\" — the katakana and hiragana for the same sound."
+  },
+  {
+    "id": "kata_c051",
+    "type": "romaji_to_kana",
+    "prompt": "Which character is pronounced \"go\"?",
+    "japanese": null,
+    "choices": [
+      "ト",
+      "ド",
+      "ホ",
+      "ゴ"
+    ],
+    "correctIndex": 3,
+    "explanation": "\"go\" is written ゴ. It is the voiced form of コ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_w004",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "ホテル",
+    "choices": [
+      "hateru",
+      "hoteri",
+      "hoteru",
+      "hotera"
+    ],
+    "correctIndex": 2,
+    "explanation": "ホテル is read \"hoteru\" and means \"hotel\"."
+  },
+  {
+    "id": "kata_c031",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "マ",
+    "choices": [
+      "ga",
+      "ha",
+      "ka",
+      "ma"
+    ],
+    "correctIndex": 3,
+    "explanation": "マ is pronounced \"ma\"."
+  },
+  {
+    "id": "kata_c023",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ヌ",
+    "choices": [
+      "bu",
+      "zu",
+      "fu",
+      "nu"
+    ],
+    "correctIndex": 3,
+    "explanation": "ヌ is pronounced \"nu\"."
+  },
+  {
+    "id": "kata_c013",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ス",
+    "choices": [
+      "zu",
+      "tsu",
+      "ru",
+      "su"
+    ],
+    "correctIndex": 3,
+    "explanation": "ス is pronounced \"su\"."
+  },
+  {
+    "id": "kata_c003",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ウ",
+    "choices": [
+      "nu",
+      "u",
+      "fu",
+      "su"
+    ],
+    "correctIndex": 1,
+    "explanation": "ウ is pronounced \"u\"."
+  },
+  {
+    "id": "kata_c056",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ゾ",
+    "choices": [
+      "zo",
+      "so",
+      "po",
+      "o"
+    ],
+    "correctIndex": 0,
+    "explanation": "ゾ is pronounced \"zo\". It is the voiced form of ソ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_w001",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "カメラ",
+    "choices": [
+      "kemera",
+      "kamora",
+      "kamara",
+      "kamera"
+    ],
+    "correctIndex": 3,
+    "explanation": "カメラ is read \"kamera\" and means \"camera\"."
+  },
+  {
+    "id": "kata_c052",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ザ",
+    "choices": [
+      "ya",
+      "ka",
+      "za",
+      "ba"
+    ],
+    "correctIndex": 2,
+    "explanation": "ザ is pronounced \"za\". It is the voiced form of サ — the dakuten (゛) adds vocal-cord vibration."
+  },
+  {
+    "id": "kata_c041",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ル",
+    "choices": [
+      "gu",
+      "nu",
+      "mu",
+      "ru"
+    ],
+    "correctIndex": 3,
+    "explanation": "ル is pronounced \"ru\"."
+  },
+  {
+    "id": "kata_c001",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "ア",
+    "choices": [
+      "a",
+      "ra",
+      "ka",
+      "ya"
+    ],
+    "correctIndex": 0,
+    "explanation": "ア is pronounced \"a\"."
+  },
+  {
+    "id": "kata_w002",
+    "type": "word_reading",
+    "prompt": "How is this word read?",
+    "japanese": "バナナ",
+    "choices": [
+      "banana",
+      "banona",
+      "banara",
+      "banane"
+    ],
+    "correctIndex": 0,
+    "explanation": "バナナ is read \"banana\" and means \"banana\"."
+  },
+  {
+    "id": "kata_c011",
+    "type": "kana_to_romaji",
+    "prompt": "What sound does this character make?",
+    "japanese": "サ",
+    "choices": [
+      "ma",
+      "sa",
+      "ya",
+      "na"
+    ],
+    "correctIndex": 1,
+    "explanation": "サ is pronounced \"sa\"."
+  }
+]

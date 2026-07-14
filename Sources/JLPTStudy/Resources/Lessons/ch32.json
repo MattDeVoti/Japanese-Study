@@ -1,0 +1,1289 @@
+{
+  "id": "ch32",
+  "chapterNumber": 32,
+  "title": "Obligation and Strong Expectation",
+  "points": [
+    {
+      "id": "beki-da",
+      "name": "〜べきだ (beki da) — should / ought to",
+      "shortDescription": "Expresses strong moral or logical obligation — what one ought to do as a matter of duty or social ethics.",
+      "formation": "Verb (dictionary form) + べきだ / べきです  |  する → すべきだ (sometimes するべきだ)",
+      "explanation": "べきだ is the grammar of conviction. It expresses strong moral, social, or logical obligation — not merely advice, but something that genuinely ought to be done. 約束を守るべきです: this isn't a suggestion about what might be wise; it's a statement about what decency requires. That moral weight sets べきだ clearly above ほうがいい (that's advisable), placing it in the realm of arguments about right and wrong. The negative べきではない (ought not to) is equally forceful: あんなことをするべきではありませんでした (that should never have happened).\n\nOne conjugation worth knowing: する before べき can appear as すべき — both するべきだ and すべきだ are acceptable, with すべきだ being the more classical form. べきだ thrives in editorials, debates, advice columns, and any context where someone is making a case for ethical action. One note of care: pointing べきだ at others can sound presumptuous — use it with awareness of your relationship and context.",
+      "rules": [
+        "Verb (dict form) + べきだ = should / ought to (moral or logical obligation)",
+        "Negative: 〜べきではない = should not / ought not to",
+        "する can appear as すべき (classical form) — both するべきだ and すべきだ are acceptable",
+        "Stronger than ほうがいい (advice); carries moral weight or social expectation",
+        "Common in formal writing, editorials, debates, and arguments about what's right"
+      ],
+      "examples": [
+        {
+          "japanese": "自分[じぶん]の間違[まちが]いは素直[すなお]に認[みと]めるべきです。",
+          "romaji": "Jibun no machigai wa sunao ni mitomeru beki desu.",
+          "english": "You ought to honestly admit your own mistakes."
+        },
+        {
+          "japanese": "あんなことをするべきではありませんでした。",
+          "romaji": "Anna koto wo suru beki dewa arimasendeshita.",
+          "english": "I shouldn't have done such a thing."
+        },
+        {
+          "japanese": "政府[せいふ]はこの問題[もんだい]にもっと積極的[せっきょくてき]に取[と]り組[く]むべきだと思[おも]います。",
+          "romaji": "Seifu wa kono mondai ni motto sekkyokuteki ni torikumu beki da to omoimasu.",
+          "english": "I think the government ought to tackle this issue more actively."
+        },
+        {
+          "japanese": "リーダーはチームのことを第一[だいいち]に考[かんが]えるべきです。",
+          "romaji": "Riidaa wa chiimu no koto wo daiichi ni kangaeru beki desu.",
+          "english": "A leader ought to put the team's well-being first."
+        }
+      ],
+      "flashcardHeader": "〜べきだ",
+      "flashcardAnswer": "Expresses strong moral or logical obligation: what one ought to do as a matter of duty or social ethics.",
+      "practice": [
+        {
+          "id": "beki-da_q1",
+          "type": "usage",
+          "prompt": "What does 〜べきだ mean?",
+          "japanese": null,
+          "choices": [
+            "probably",
+            "should / ought to (strong moral/logical obligation)",
+            "might",
+            "have to (strong compulsion)"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜べきだ = should / ought to. It expresses a strong moral or logical obligation — what one SHOULD do (from the speaker's ethical or logical standpoint). もっと勉強[べんきょう]すべきだ = you should study more."
+        },
+        {
+          "id": "beki-da_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'You should keep your promises'?",
+          "japanese": null,
+          "choices": [
+            "約束[やくそく]を守[まも]るべきだ。",
+            "約束[やくそく]を守[まも]りべきだ。",
+            "約束[やくそく]を守[まも]ってべきだ。",
+            "約束[やくそく]を守[まも]ったべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 守[まも]る (dict-form) + べきだ = should keep. 約束[やくそく]を守[まも]るべきだ = you should keep your promises. べきだ attaches directly to the dictionary form."
+        },
+        {
+          "id": "beki-da_q3",
+          "type": "construct",
+          "prompt": "What is the SPECIAL form of する before べきだ?",
+          "japanese": null,
+          "choices": [
+            "するべきだ",
+            "したべきだ",
+            "しべきだ (or するべきだ — both acceptable)",
+            "すべきだ (only — するべきだ is wrong)"
+          ],
+          "correctIndex": 2,
+          "explanation": "Irregular: する + べきだ = both すべきだ and するべきだ are acceptable in modern Japanese. 勉強[べんきょう]すべきだ and 勉強[べんきょう]するべきだ are both correct."
+        },
+        {
+          "id": "beki-da_q4",
+          "type": "usage",
+          "prompt": "What is the NEGATIVE form of べきだ?",
+          "japanese": null,
+          "choices": [
+            "べきではない / べきじゃない (should not)",
+            "べきないだ",
+            "べきじゃだ",
+            "ないべきだ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative: べきではない / べきじゃない = should not. 嘘[うそ]をつくべきではない = you should not lie. Do NOT say べきないだ — the negative form uses べきではない."
+        },
+        {
+          "id": "beki-da_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'You should not tell lies'?",
+          "japanese": null,
+          "choices": [
+            "嘘[うそ]をつくべきではない。",
+            "嘘[うそ]をつかないべきだ。",
+            "嘘[うそ]をつくないべきだ。",
+            "嘘[うそ]をつくべきだない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきではない: 嘘[うそ]をつく (lie, dict-form) + べきではない = should not lie. Negative of べきだ is always べきではない (or べきじゃない, casual)."
+        },
+        {
+          "id": "beki-da_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'As a parent, you should listen to your children'?",
+          "japanese": null,
+          "choices": [
+            "親[おや]として、子供[こども]の話[はなし]を聞[き]くべきだ。",
+            "親[おや]として、子供[こども]の話[はなし]を聞[き]きべきだ。",
+            "親[おや]として、子供[こども]の話[はなし]を聞[き]いてべきだ。",
+            "親[おや]として、子供[こども]の話[はなし]を聞[き]いたべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 聞[き]く (dict-form) + べきだ = should listen. 親[おや]として (as a parent) contextualizes the moral obligation."
+        },
+        {
+          "id": "beki-da_q7",
+          "type": "usage",
+          "prompt": "What is the REGISTER of べきだ?",
+          "japanese": null,
+          "choices": [
+            "Very casual — only used among close friends",
+            "Formal/serious — used for strong moral obligations, rules, or logical imperatives",
+            "Polite request only",
+            "Written language only — not spoken"
+          ],
+          "correctIndex": 1,
+          "explanation": "べきだ carries a formal/serious tone expressing strong moral or logical obligation. It's used in contexts where the speaker asserts what OUGHT to be done — advice, rules, ethics. More emphatic than はずだ."
+        },
+        {
+          "id": "beki-da_q8",
+          "type": "translation",
+          "prompt": "Which means 'You should see a doctor immediately'?",
+          "japanese": null,
+          "choices": [
+            "すぐに医者[いしゃ]に行[い]くべきだ。",
+            "すぐに医者[いしゃ]に行[い]きべきだ。",
+            "すぐに医者[いしゃ]に行[い]ってべきだ。",
+            "すぐに医者[いしゃ]に行[い]ったべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 行[い]く + べきだ = should go. すぐに (immediately) + 医者[いしゃ]に行[い]くべきだ = should go to the doctor immediately. Logical/health-based obligation."
+        },
+        {
+          "id": "beki-da_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'Citizens should follow the law'?",
+          "japanese": null,
+          "choices": [
+            "市民[しみん]は法律[ほうりつ]に従[したが]うべきだ。",
+            "市民[しみん]は法律[ほうりつ]に従[したが]いべきだ。",
+            "市民[しみん]は法律[ほうりつ]に従[したが]ってべきだ。",
+            "市民[しみん]は法律[ほうりつ]に従[したが]ったべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 従[したが]う (follow, Group 1) + べきだ = should follow. 市民[しみん]は法律[ほうりつ]に従[したが]うべきだ = citizens should follow the law."
+        },
+        {
+          "id": "beki-da_q10",
+          "type": "usage",
+          "prompt": "What is the difference between べきだ and なければならない?",
+          "japanese": null,
+          "choices": [
+            "They are identical in meaning",
+            "べきだ = strong moral/ethical 'ought to'; なければならない = obligation/necessity ('have to', often from external constraint)",
+            "べきだ = lighter obligation; なければならない = stronger",
+            "べきだ is only for past, なければならない for future"
+          ],
+          "correctIndex": 1,
+          "explanation": "べきだ emphasizes moral or logical 'ought to' (internal/ethical standard). なければならない = have to / must (often from external necessity or rule). 勉強[べんきょう]すべきだ = you ought to study (morally good); 勉強[べんきょう]しなければならない = you have to study (requirement)."
+        },
+        {
+          "id": "beki-da_q11",
+          "type": "translation",
+          "prompt": "Which means 'You should apologize for your mistakes'?",
+          "japanese": null,
+          "choices": [
+            "自分[じぶん]のミスを謝[あやま]るべきだ。",
+            "自分[じぶん]のミスを謝[あやま]りべきだ。",
+            "自分[じぶん]のミスを謝[あやま]ってべきだ。",
+            "自分[じぶん]のミスを謝[あやま]ったべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 謝[あやま]る + べきだ = should apologize. 自分[じぶん]のミスを謝[あやま]るべきだ = you should apologize for your mistakes. Moral obligation."
+        },
+        {
+          "id": "beki-da_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'You should exercise regularly'?",
+          "japanese": null,
+          "choices": [
+            "定期的[ていきてき]に運動[うんどう]すべきだ。",
+            "定期的[ていきてき]に運動[うんどう]しべきだ。",
+            "定期的[ていきてき]に運動[うんどう]してべきだ。",
+            "定期的[ていきてき]に運動[うんどう]したべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Irregular する: 運動[うんどう]する → 運動[うんどう]すべきだ (or 運動[うんどう]するべきだ). 定期的[ていきてき]に (regularly) + 運動[うんどう]すべきだ = should exercise regularly. Health-based moral obligation."
+        },
+        {
+          "id": "beki-da_q13",
+          "type": "usage",
+          "prompt": "Which expresses 'should have done X' (past regret with べき)?",
+          "japanese": null,
+          "choices": [
+            "べきだった = should have (done — past regret)",
+            "べきだ = should have",
+            "べきではなかった = should not have",
+            "べきだっていない = should not have"
+          ],
+          "correctIndex": 0,
+          "explanation": "べきだった = should have  (regret about past). もっと勉強[べんきょう]すべきだった = I should have studied more. べきではなかった = should not have done (past regret about something done)."
+        },
+        {
+          "id": "beki-da_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'I should have left earlier' (past regret)?",
+          "japanese": null,
+          "choices": [
+            "もっと早[はや]く出発[しゅっぱつ]すべきだった。",
+            "もっと早[はや]く出発[しゅっぱつ]するべきだ。",
+            "もっと早[はや]く出発[しゅっぱつ]すべきではない。",
+            "もっと早[はや]く出発[しゅっぱつ]しべきだった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだった: 出発[しゅっぱつ]する → 出発[しゅっぱつ]すべきだった = should have departed. もっと早[はや]く (earlier) + 出発[しゅっぱつ]すべきだった = should have departed earlier. Past regret."
+        },
+        {
+          "id": "beki-da_q15",
+          "type": "translation",
+          "prompt": "Which means 'You should not waste food'?",
+          "japanese": null,
+          "choices": [
+            "食[た]べ物[もの]を無駄[むだ]にすべきではない。",
+            "食[た]べ物[もの]を無駄[むだ]にすべきだ。",
+            "食[た]べ物[もの]を無駄[むだ]にないべきだ。",
+            "食[た]べ物[もの]を無駄[むだ]にすべきじゃだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "べきではない = should not: 無駄[むだ]にする (waste) + べきではない = should not waste. 食[た]べ物[もの]を無駄[むだ]にすべきではない = you should not waste food."
+        },
+        {
+          "id": "beki-da_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'As a leader, you should make decisions quickly'?",
+          "japanese": null,
+          "choices": [
+            "リーダーとして、素早[すばや]く決断[けつだん]すべきだ。",
+            "リーダーとして、素早[すばや]く決断[けつだん]しべきだ。",
+            "リーダーとして、素早[すばや]く決断[けつだん]してべきだ。",
+            "リーダーとして、素早[すばや]く決断[けつだん]したべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 決断[けつだん]する → 決断[けつだん]すべきだ = should decide/make decisions. リーダーとして (as a leader) + 素早[すばや]く (quickly) + 決断[けつだん]すべきだ."
+        },
+        {
+          "id": "beki-da_q17",
+          "type": "usage",
+          "prompt": "Which sentence uses べきだ INCORRECTLY?",
+          "japanese": null,
+          "choices": [
+            "嘘[うそ]をつくべきではない。",
+            "もっと早[はや]く来[く]るべきだった。",
+            "彼[かれ]はいくべきだ。",
+            "約束[やくそく]したべきだ。"
+          ],
+          "correctIndex": 3,
+          "explanation": "約束[やくそく]したべきだ is WRONG — べきだ attaches to the DICTIONARY form, not the past/た-form. 約束[やくそく]したべきだ should be 約束[やくそく]するべきだ. The た-form cannot precede べきだ."
+        },
+        {
+          "id": "beki-da_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Children should sleep before 9 PM'?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]は9時前[じまえ]に寝[ね]るべきだ。",
+            "子供[こども]は9時前[じまえ]に寝[ね]りべきだ。",
+            "子供[こども]は9時前[じまえ]に寝[ね]てべきだ。",
+            "子供[こども]は9時前[じまえ]に寝[ね]たべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 寝[ね]る (sleep, Group 2) + べきだ = should sleep. 子供[こども]は9時前[じまえ]に寝[ね]るべきだ = children should sleep before 9 PM."
+        },
+        {
+          "id": "beki-da_q19",
+          "type": "translation",
+          "prompt": "Which means 'You should report this to your boss'?",
+          "japanese": null,
+          "choices": [
+            "これを上司[じょうし]に報告[ほうこく]すべきだ。",
+            "これを上司[じょうし]に報告[ほうこく]しべきだ。",
+            "これを上司[じょうし]に報告[ほうこく]してべきだ。",
+            "これを上司[じょうし]に報告[ほうこく]したべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきだ: 報告[ほうこく]する → 報告[ほうこく]すべきだ = should report. これを上司[じょうし]に報告[ほうこく]すべきだ = you should report this to your boss."
+        },
+        {
+          "id": "beki-da_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'You should not drink alcohol while driving'?",
+          "japanese": null,
+          "choices": [
+            "運転中[うんてんちゅう]にお酒[さけ]を飲[の]むべきではない。",
+            "運転中[うんてんちゅう]にお酒[さけ]を飲[の]まないべきだ。",
+            "運転中[うんてんちゅう]にお酒[さけ]を飲[の]むないべきだ。",
+            "運転中[うんてんちゅう]にお酒[さけ]を飲[の]むべきだない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + べきではない: 飲[の]む + べきではない = should not drink. 運転中[うんてんちゅう] (while driving) + お酒[さけ]を飲[の]むべきではない = you should not drink alcohol while driving. Safety-based obligation."
+        }
+      ]
+    },
+    {
+      "id": "ni-chigai-nai",
+      "name": "〜にちがいない (ni chigai nai) — must be / I'm certain that",
+      "shortDescription": "Expresses strong personal certainty based on evidence or reasoning: 'it must be / there's no doubt that'.",
+      "formation": "Plain form + にちがいない / にちがいありません",
+      "explanation": "にちがいない is the grammar of the highly confident deduction. 違いない means 'no difference / without doubt' — the speaker is asserting there is no other viable conclusion. 彼が一人でこれを解いた — 天才にちがいない: the evidence points irresistibly in one direction.\n\nHow does this compare to other certainty expressions you know? でしょう says 'probably'; かもしれない says 'might'; はずだ says 'logically expected.' All involve some degree of uncertainty. にちがいない steps beyond them all: the speaker is not guessing, not hoping — they are convinced.\n\nThe useful distinction between はずだ and にちがいない: はずだ = logical expectation based on facts ('she studied all year, so she should pass'); にちがいない = strong personal certainty from evidence ('she's so calm before the exam — she must be confident'). にちがいない is more emotionally invested, more emphatic. It applies to past events too: 〜たにちがいない (must have done).",
+      "rules": [
+        "Plain form + にちがいない = must be / I'm certain that (strong inference)",
+        "Stronger than でしょう (probably) or かもしれない (might be)",
+        "Based on the speaker's reasoning and evidence — a strong conviction",
+        "Can apply to past: 〜たにちがいない = must have done",
+        "Compare: はずだ (logical expectation); にちがいない (strong personal certainty from evidence)"
+      ],
+      "examples": [
+        {
+          "japanese": "彼[かれ]がこんな難[むずか]しい問題[もんだい]を一人[ひとり]で解[と]いたとは、天才[てんさい]にちがいない。",
+          "romaji": "Kare ga konna muzukashii mondai wo hitori de toita to wa, tensai ni chigai nai.",
+          "english": "For him to have solved such a difficult problem alone — he must be a genius."
+        },
+        {
+          "japanese": "あの笑顔[えがお]を見[み]れば、うまくいったにちがいないと分[わ]かります。",
+          "romaji": "Ano egao wo mireba, umaku itta ni chigai nai to wakarimasu.",
+          "english": "Looking at that smile, you can tell it must have gone well."
+        },
+        {
+          "japanese": "こんなにおいしい料理[りょうり]を作[つく]れるなんて、プロにちがいありません。",
+          "romaji": "Konna ni oishii ryouri wo tsukureru nante, puro ni chigai arimasen.",
+          "english": "To be able to make food this delicious — you must be a professional."
+        },
+        {
+          "japanese": "試験前[しけんまえ]なのに、こんなに余裕[よゆう]そうだから、きっと自信[じしん]があるにちがいない。",
+          "romaji": "Shiken mae na noni, konna ni yoyuu sou dakara, kitto jishin ga aru ni chigai nai.",
+          "english": "Even before the exam, since she looks so relaxed, she must certainly be confident."
+        }
+      ],
+      "flashcardHeader": "〜にちがいない",
+      "flashcardAnswer": "Expresses strong personal certainty based on evidence: 'it must be / there's no doubt that'.",
+      "practice": [
+        {
+          "id": "ni-chigai-nai_q1",
+          "type": "usage",
+          "prompt": "What does 〜にちがいない mean?",
+          "japanese": null,
+          "choices": [
+            "probably",
+            "must be / there's no doubt that (strong conviction — the speaker is certain)",
+            "might be",
+            "could possibly be"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜にちがいない = must be / there's no doubt that. 彼[かれ]は疲[つか]れているにちがいない = he must be tired (I'm certain of it). Expresses STRONG conviction or deduction. Not just probability — near certainty."
+        },
+        {
+          "id": "ni-chigai-nai_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'She must be happy'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は幸[しあわ]せにちがいない。",
+            "彼女[かのじょ]は幸[しあわ]せなにちがいない。",
+            "彼女[かのじょ]は幸[しあわ]せのにちがいない。",
+            "彼女[かのじょ]は幸[しあわ]せがにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun/adjective plain form + にちがいない: 幸[しあわ]せ (happiness/happy, na-adj) + にちがいない = must be happy. な is dropped before にちがいない."
+        },
+        {
+          "id": "ni-chigai-nai_q3",
+          "type": "construct",
+          "prompt": "Which correctly says 'He must have left already'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]はもう出[で]かけたにちがいない。",
+            "彼[かれ]はもう出[で]かけるにちがいない。",
+            "彼[かれ]はもう出[で]かけているにちがいない。",
+            "彼[かれ]はもう出[で]かけないにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb (past plain) + にちがいない: 出[で]かけた (left, past) + にちがいない = must have left. 彼[かれ]はもう出[で]かけたにちがいない = he must have already left."
+        },
+        {
+          "id": "ni-chigai-nai_q4",
+          "type": "translation",
+          "prompt": "Which means 'That restaurant must be delicious'?",
+          "japanese": null,
+          "choices": [
+            "あのレストランは美味[おい]しいにちがいない。",
+            "あのレストランは美味[おい]しいかにちがいない。",
+            "あのレストランは美味[おい]しいのにちがいない。",
+            "あのレストランは美味[おい]しくにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj plain form + にちがいない: 美味[おい]しい + にちがいない = must be delicious. あのレストランは美味[おい]しいにちがいない = that restaurant must be delicious."
+        },
+        {
+          "id": "ni-chigai-nai_q5",
+          "type": "usage",
+          "prompt": "What is the difference between にちがいない and はずだ?",
+          "japanese": null,
+          "choices": [
+            "They are identical in meaning",
+            "にちがいない = speaker's personal strong conviction; はずだ = logical expectation based on rules/facts/reasoning",
+            "にちがいない is more polite",
+            "はずだ is stronger than にちがいない"
+          ],
+          "correctIndex": 1,
+          "explanation": "にちがいない = speaker's subjective strong conviction ('I'm certain'). はずだ = objective expectation ('it's supposed to / should be based on facts'). にちがいない is more personal/emotional certainty; はずだ is more logical/based on rules."
+        },
+        {
+          "id": "ni-chigai-nai_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'That child must be cold'?",
+          "japanese": null,
+          "choices": [
+            "あの子供[こども]は寒[さむ]いにちがいない。",
+            "あの子供[こども]は寒[さむ]くにちがいない。",
+            "あの子供[こども]は寒[さむ]いのにちがいない。",
+            "あの子供[こども]は寒[さむ]いかにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj plain form + にちがいない: 寒[さむ]い + にちがいない = must be cold. あの子供[こども]は寒[さむ]いにちがいない = that child must be cold (plain い-adj + にちがいない directly)."
+        },
+        {
+          "id": "ni-chigai-nai_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'The meeting must be over by now'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]はもう終[お]わったにちがいない。",
+            "会議[かいぎ]はもう終[お]わるにちがいない。",
+            "会議[かいぎ]はもう終[お]わっているにちがいない。",
+            "会議[かいぎ]はもう終[お]わりにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb (past plain) + にちがいない: 終[お]わった (ended, past) + にちがいない = must have ended. 会議[かいぎ]はもう終[お]わったにちがいない = the meeting must have ended already."
+        },
+        {
+          "id": "ni-chigai-nai_q8",
+          "type": "translation",
+          "prompt": "Which means 'That noise must be a cat'?",
+          "japanese": null,
+          "choices": [
+            "あの音[おと]は猫[ねこ]にちがいない。",
+            "あの音[おと]は猫[ねこ]のにちがいない。",
+            "あの音[おと]は猫[ねこ]だにちがいない。",
+            "あの音[おと]は猫[ねこ]がにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にちがいない: 猫[ねこ] + にちがいない = must be a cat. あの音[おと]は猫[ねこ]にちがいない = that noise must be a cat. Noun + にちがいない directly (no だ needed between noun and にちがいない)."
+        },
+        {
+          "id": "ni-chigai-nai_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'He must be a doctor'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は医者[いしゃ]にちがいない。",
+            "彼[かれ]は医者[いしゃ]のにちがいない。",
+            "彼[かれ]は医者[いしゃ]だにちがいない。",
+            "彼[かれ]は医者[いしゃ]がにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にちがいない: 医者[いしゃ] (doctor) + にちがいない = must be a doctor. 彼[かれ]は医者[いしゃ]にちがいない = he must be a doctor. Noun directly before にちがいない."
+        },
+        {
+          "id": "ni-chigai-nai_q10",
+          "type": "usage",
+          "prompt": "Which form of VERBS attaches to にちがいない?",
+          "japanese": null,
+          "choices": [
+            "Only past (た-form)",
+            "Only dict-form",
+            "Plain form — both present/future (dict-form) and past (た-form) can precede にちがいない",
+            "Only ている-form"
+          ],
+          "correctIndex": 2,
+          "explanation": "Both dict-form and past (た-form) can precede にちがいない. 来[く]るにちがいない = must be coming; 来[き]たにちがいない = must have come. Present/future vs. past conviction both work."
+        },
+        {
+          "id": "ni-chigai-nai_q11",
+          "type": "translation",
+          "prompt": "Which means 'She must be lying'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は嘘[うそ]をついているにちがいない。",
+            "彼女[かのじょ]は嘘[うそ]をつくにちがいない。",
+            "彼女[かのじょ]は嘘[うそ]をついたにちがいない。",
+            "彼女[かのじょ]は嘘[うそ]をつかないにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb (ている form = ongoing) + にちがいない: 嘘[うそ]をついている (is lying, ongoing) + にちがいない = must be lying. 彼女[かのじょ]は嘘[うそ]をついているにちがいない = she must be lying right now."
+        },
+        {
+          "id": "ni-chigai-nai_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'The price must have gone up'?",
+          "japanese": null,
+          "choices": [
+            "値段[ねだん]が上[あ]がったにちがいない。",
+            "値段[ねだん]が上[あ]がるにちがいない。",
+            "値段[ねだん]が上[あ]がっているにちがいない。",
+            "値段[ねだん]が上[あ]がりにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb (past plain) + にちがいない: 上[あ]がった (rose, past) + にちがいない = must have risen. 値段[ねだん]が上[あ]がったにちがいない = the price must have gone up."
+        },
+        {
+          "id": "ni-chigai-nai_q13",
+          "type": "usage",
+          "prompt": "Which situation is MOST appropriate for にちがいない?",
+          "japanese": null,
+          "choices": [
+            "When you have 50% confidence about something",
+            "When you make a strong personal deduction based on evidence ('she's not answering — she must be asleep')",
+            "When something is logically expected based on rules",
+            "When expressing a polite guess"
+          ],
+          "correctIndex": 1,
+          "explanation": "にちがいない = strong personal deduction. 'She's not answering — she must be asleep' = 彼女[かのじょ]は起[お]きているのに電話[でんわ]に出[で]ない — 寝[ね]ているにちがいない. Based on evidence, the speaker is personally convinced. Not a polite guess — near certainty."
+        },
+        {
+          "id": "ni-chigai-nai_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'That bag must be very expensive'?",
+          "japanese": null,
+          "choices": [
+            "あのバッグはとても高[たか]いにちがいない。",
+            "あのバッグはとても高[たか]くにちがいない。",
+            "あのバッグはとても高[たか]いのにちがいない。",
+            "あのバッグはとても高[たか]いかにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + にちがいない: 高[たか]い (expensive) + にちがいない = must be expensive. あのバッグはとても高[たか]いにちがいない = that bag must be very expensive."
+        },
+        {
+          "id": "ni-chigai-nai_q15",
+          "type": "translation",
+          "prompt": "Which means 'He must not know about this yet'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]はまだこれを知[し]らないにちがいない。",
+            "彼[かれ]はまだこれを知[し]るにちがいない。",
+            "彼[かれ]はまだこれを知[し]っているにちがいない。",
+            "彼[かれ]はまだこれを知[し]ったにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative plain form + にちがいない: 知[し]らない (doesn't know) + にちがいない = must not know. 彼[かれ]はまだこれを知[し]らないにちがいない = he must not know about this yet."
+        },
+        {
+          "id": "ni-chigai-nai_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'That new restaurant must be popular'?",
+          "japanese": null,
+          "choices": [
+            "あの新[あたら]しいレストランは人気[にんき]にちがいない。",
+            "あの新[あたら]しいレストランは人気[にんき]なにちがいない。",
+            "あの新[あたら]しいレストランは人気[にんき]のにちがいない。",
+            "あの新[あたら]しいレストランは人気[にんき]だにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun/な-adj + にちがいない: 人気[にんき] (popular/popular) + にちがいない = must be popular. な is dropped before にちがいない."
+        },
+        {
+          "id": "ni-chigai-nai_q17",
+          "type": "usage",
+          "prompt": "Which shows the PAST conviction form of にちがいない correctly?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は怒[いか]ったにちがいない。(She must have been angry.)",
+            "彼女[かのじょ]は怒[いか]るにちがいない。(She must get angry.)",
+            "彼女[かのじょ]は怒[いか]っているにちがいない。(She must be angry.)",
+            "彼女[かのじょ]は怒[いか]っていたにちがいない。(She must have been angry — ongoing)"
+          ],
+          "correctIndex": 0,
+          "explanation": "怒[いか]った (got angry, past) + にちがいない = must have been angry. This is a past conviction. Option 3 (怒[いか]っている + にちがいない) = must be angry right now (present). Both are valid for their respective time frames."
+        },
+        {
+          "id": "ni-chigai-nai_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'That player must be very skilled'?",
+          "japanese": null,
+          "choices": [
+            "あの選手[せんしゅ]はとても上手[うま]いにちがいない。",
+            "あの選手[せんしゅ]はとても上手[うま]くにちがいない。",
+            "あの選手[せんしゅ]はとても上手[うま]いのにちがいない。",
+            "あの選手[せんしゅ]はとても上手[うま]いかにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + にちがいない: 上手[うま]い (skilled) + にちがいない = must be skilled. あの選手[せんしゅ]はとても上手[うま]いにちがいない = that player must be very skilled."
+        },
+        {
+          "id": "ni-chigai-nai_q19",
+          "type": "translation",
+          "prompt": "Which means 'There must be someone in that room'?",
+          "japanese": null,
+          "choices": [
+            "あの部屋[へや]には誰[だれ]かいるにちがいない。",
+            "あの部屋[へや]には誰[だれ]かいたにちがいない。",
+            "あの部屋[へや]には誰[だれ]かいないにちがいない。",
+            "あの部屋[へや]には誰[だれ]かいるはずだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form (present) + にちがいない: いる (is/exists) + にちがいない = must be . あの部屋[へや]には誰[だれ]かいるにちがいない = there must be someone in that room."
+        },
+        {
+          "id": "ni-chigai-nai_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'She must be the new teacher'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は新[あたら]しい先生[せんせい]にちがいない。",
+            "彼女[かのじょ]は新[あたら]しい先生[せんせい]のにちがいない。",
+            "彼女[かのじょ]は新[あたら]しい先生[せんせい]だにちがいない。",
+            "彼女[かのじょ]は新[あたら]しい先生[せんせい]がにちがいない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にちがいない: 新[あたら]しい先生[せんせい] (new teacher) + にちがいない = must be the new teacher. 彼女[かのじょ]は新[あたら]しい先生[せんせい]にちがいない = she must be the new teacher."
+        }
+      ]
+    },
+    {
+      "id": "zu-ni-wa-irarenai",
+      "name": "〜ずにはいられない — can't help but / can't stop oneself from",
+      "shortDescription": "An irresistible compulsion — 'I can't help but / I simply cannot stop myself from doing X'.",
+      "formation": "Verb (ない-form, replace ない with ず) + にはいられない  |  する → せずにはいられない",
+      "explanation": "ずにはいられない captures the feeling of a response you cannot suppress — an action or emotion that simply has to come out. 笑わずにはいられない: the laughter arrives whether you want it to or not. 心配せずにはいられない: the worry isn't chosen; it shows up uninvited. The key is that the action is not regrettable in itself — this isn't about making a mistake (that's てしまう territory). It's about an impulse that genuinely cannot be overridden.\n\nFormation uses classical Japanese: take the ない-form, replace ない with ず (食べない → 食べず, 書かない → 書かず). The irregular: する → せず (not しず). Then add にはいられない. This classical ず form gives the pattern a slightly literary, reflective quality — you'll encounter it in writing and thoughtful speech.\n\nThe sibling pattern てしまう is about unintended results ('ended up doing it'); ずにはいられない is about unstoppable compulsion. One describes the consequence; the other describes the inner force that made stopping impossible.",
+      "rules": [
+        "ない-form (replace ない with ず) + にはいられない = can't help but / irresistible urge to",
+        "Verb ない-form ending in ない: remove ない → add ず: 食べない→食べず, 行かない→行かず",
+        "Irregular: する → せず (classical negative of する)",
+        "Expresses an impulse that cannot be suppressed, not a moral failure",
+        "Similar: 〜てしまう (ended up doing; emphasizes unintentional result)"
+      ],
+      "examples": [
+        {
+          "japanese": "彼[か]のジョークを聞[き]いたら、笑[わら]わずにはいられませんでした。",
+          "romaji": "Kare no jooku wo kiitara, warawazu ni wa iraremashita.",
+          "english": "When I heard his joke, I couldn't help but laugh."
+        },
+        {
+          "japanese": "子[こ]どもの泣[な]き顔[がお]を見[み]たら、抱[だ]き締[し]めずにはいられません。",
+          "romaji": "Kodomo no nakigao wo mitara, dakishimezu ni wa iraremase n.",
+          "english": "When I see a child's crying face, I can't help but hold them."
+        },
+        {
+          "japanese": "この映画[えいが]のラストシーンでは、泣[な]かずにはいられませんでした。",
+          "romaji": "Kono eiga no rasuto shiin dewa, nakazuni wa iraremashita.",
+          "english": "At the final scene of this movie, I couldn't help but cry."
+        },
+        {
+          "japanese": "彼女[かのじょ]の才能[さいのう]を見[み]れば、感心[かんしん]せずにはいられない。",
+          "romaji": "Kanojo no sainou wo mireba, kanshin sezu ni wa irarenai.",
+          "english": "Seeing her talent, I can't help but be impressed."
+        }
+      ],
+      "flashcardHeader": "〜ずにはいられない",
+      "flashcardAnswer": "An irresistible compulsion — 'I can't help but / I simply cannot stop myself from doing X'.",
+      "practice": [
+        {
+          "id": "zu-ni-wa-irarenai_q1",
+          "type": "usage",
+          "prompt": "What does 〜ずにはいられない mean?",
+          "japanese": null,
+          "choices": [
+            "cannot help but do X / cannot stop oneself from doing X (irresistible urge)",
+            "should not do X",
+            "must not do X",
+            "did not do X"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ずにはいられない = cannot help but do X / can't help doing X. 笑[わら]わずにはいられない = can't help laughing. Expresses an irresistible impulse — even if you tried to stop, you can't."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'I can't help laughing'?",
+          "japanese": null,
+          "choices": [
+            "笑[わら]わずにはいられない。",
+            "笑[わら]うずにはいられない。",
+            "笑[わら]いずにはいられない。",
+            "笑[わら]ったずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative stem (〜ず base = negative without い) + ずにはいられない: 笑[わら]う → 笑[わら]わ (negative stem) + ずにはいられない. 笑[わら]わずにはいられない = cannot help but laugh."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q3",
+          "type": "construct",
+          "prompt": "What is the ず-form (negative stem) of 食[た]べる?",
+          "japanese": null,
+          "choices": [
+            "食[た]べず",
+            "食[た]べないず",
+            "食[た]べいず",
+            "食[た]べずに"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず is the classical negative — attach to the same stem as ない. 食[た]べる → 食[た]べず (= 食[た]べない in classical). 食[た]べずにはいられない = can't help eating. Group 2 verbs: drop る, add ず."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q4",
+          "type": "translation",
+          "prompt": "Which means 'I can't help worrying about it'?",
+          "japanese": null,
+          "choices": [
+            "それが心配[しんぱい]せずにはいられない。",
+            "それが心配[しんぱい]するずにはいられない。",
+            "それが心配[しんぱい]しずにはいられない。",
+            "それを心配[しんぱい]せずにはいられない。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Irregular する → せず (negative stem of する is せ): 心配[しんぱい]する → 心配[しんぱい]せず + にはいられない = 心配[しんぱい]せずにはいられない = can't help worrying. Note: を particle for the object (それを)."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q5",
+          "type": "construct",
+          "prompt": "What is the IRREGULAR ず-form of する?",
+          "japanese": null,
+          "choices": [
+            "しず",
+            "するず",
+            "せず",
+            "さず"
+          ],
+          "correctIndex": 2,
+          "explanation": "Irregular: する → せず (not しず). This is classical: せず = not doing. 心配[しんぱい]せずにはいられない = can't help but worry. する → せず is an irregular conjugation that must be memorized."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'I can't help crying when I watch that movie'?",
+          "japanese": null,
+          "choices": [
+            "あの映画[えいが]を見[み]ると、泣[な]かずにはいられない。",
+            "あの映画[えいが]を見[み]ると、泣[な]くずにはいられない。",
+            "あの映画[えいが]を見[み]ると、泣[な]きずにはいられない。",
+            "あの映画[えいが]を見[み]ると、泣[な]いたずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form + にはいられない: 泣[な]く → 泣[な]か (neg stem) + ずにはいられない = 泣[な]かずにはいられない = can't help crying. Group 1 く-verb: 泣[な]く → 泣[な]か (negative stem)."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q7",
+          "type": "usage",
+          "prompt": "What is a SIMILAR expression to ずにはいられない?",
+          "japanese": null,
+          "choices": [
+            "〜てはいけない",
+            "〜ないわけにはいかない",
+            "〜ないではいられない (nearly identical meaning — can't help but do)",
+            "〜ずにはおかない"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ないではいられない is nearly identical to 〜ずにはいられない — both mean 'cannot help but do.' 笑[わら]わずにはいられない ≈ 笑[わら]わないではいられない. 〜ないではいられない uses the ない-form; 〜ずにはいられない uses the ず-form."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'I can't help buying this book'?",
+          "japanese": null,
+          "choices": [
+            "この本[ほん]を買[か]わずにはいられない。",
+            "この本[ほん]を買[か]うずにはいられない。",
+            "この本[ほん]を買[か]いずにはいられない。",
+            "この本[ほん]を買[か]ったずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form + にはいられない: 買[か]う → 買[か]わ (neg stem) + ずにはいられない = 買[か]わずにはいられない. 買[か]う is Group 1 う-ending: 買[か]う → 買[か]わ (negative stem, same as 買[か]わない → 買[か]わず)."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q9",
+          "type": "translation",
+          "prompt": "Which means 'Seeing that puppy, I couldn't help petting it'?",
+          "japanese": null,
+          "choices": [
+            "あの子犬[こいぬ]を見[み]て、触[ふ]らずにはいられなかった。",
+            "あの子犬[こいぬ]を見[み]て、触[ふ]るずにはいられなかった。",
+            "あの子犬[こいぬ]を見[み]て、触[しょく]いずにはいられなかった。",
+            "あの子犬[こいぬ]を見[み]て、触[さわ]ったずにはいられなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form + にはいられなかった (past): 触[ふ]る → 触[ふ]ら (neg stem) + ずにはいられなかった = couldn't help touching/petting. Group 1 る-verb conjugation: 触[ふ]る → 触[ふ]ら."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q10",
+          "type": "construct",
+          "prompt": "What is the ず-form of 飲[の]む?",
+          "japanese": null,
+          "choices": [
+            "飲[の]まず",
+            "飲[の]むず",
+            "飲[の]みず",
+            "飲[の]んず"
+          ],
+          "correctIndex": 0,
+          "explanation": "飲[の]む → negative stem: 飲[の]む → 飲[の]ま (same as 飲[の]まない → 飲[の]まず). 飲[の]まずにはいられない = can't help drinking. Group 1 む-verb: む → まず."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q11",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses ずにはいられない?",
+          "japanese": null,
+          "choices": [
+            "あの音楽[おんがく]を聴[き]くと、踊[おど]らずにはいられない。",
+            "あの音楽[おんがく]を聴[き]くと、踊[おど]るずにはいられない。",
+            "あの音楽[おんがく]を聴[き]くと、踊[おど]りずにはいられない。",
+            "あの音楽[おんがく]を聴[き]くと、踊[おど]ったずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "踊[おど]る → 踊[おど]ら (negative stem) + ずにはいられない = 踊[おど]らずにはいられない = can't help dancing. あの音楽[おんがく]を聴[き]くと = when listening to that music."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'I can't help thinking about her'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]のことを考[かんが]えずにはいられない。",
+            "彼女[かのじょ]のことを考[かんが]えるずにはいられない。",
+            "彼女[かのじょ]のことを考[かんが]えいずにはいられない。",
+            "彼女[かのじょ]のことを考[かんが]えたずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form: 考[かんが]える (Group 2) → 考[かんが]えず + にはいられない = 考[かんが]えずにはいられない. 彼女[かのじょ]のことを = about her. 考[かんが]えずにはいられない = can't help thinking about ."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q13",
+          "type": "translation",
+          "prompt": "Which means 'Reading that book, I couldn't help feeling sad'?",
+          "japanese": null,
+          "choices": [
+            "その本[ほん]を読[よ]んで、悲[かな]しまずにはいられなかった。",
+            "その本[ほん]を読[よ]んで、悲[かな]しいずにはいられなかった。",
+            "その本[ほん]を読[よ]んで、悲[かな]しくずにはいられなかった。",
+            "その本[ほん]を読[よ]んで、悲[かな]しまずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form + にはいられなかった (past): 悲[かな]しむ → 悲[かな]しま (neg stem) + ずにはいられなかった = couldn't help being sad. 悲[かな]しむ is Group 1 む-verb: む → まず."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'When I see delicious food, I can't help eating it'?",
+          "japanese": null,
+          "choices": [
+            "美味[おい]しそうな食[た]べ物[もの]を見[み]ると、食[た]べずにはいられない。",
+            "美味[おい]しそうな食[た]べ物[もの]を見[み]ると、食[た]べるずにはいられない。",
+            "美味[おい]しそうな食[た]べ物[もの]を見[み]ると、食[た]べいずにはいられない。",
+            "美味[おい]しそうな食[た]べ物[もの]を見[み]ると、食[た]べないずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form: 食[た]べる (Group 2) → 食[た]べず + にはいられない = 食[た]べずにはいられない = can't help eating. 美味[おい]しそうな食[た]べ物[もの]を見[み]ると = when I see food that looks delicious."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q15",
+          "type": "usage",
+          "prompt": "What is the ず-form of くる (to come)?",
+          "japanese": null,
+          "choices": [
+            "くず",
+            "こず",
+            "きず",
+            "くるず"
+          ],
+          "correctIndex": 1,
+          "explanation": "Irregular: くる → こず (classical negative of 来[く]る). こずにはいられない = can't help coming. くる is irregular: positive masu-stem = き, negative stem = こ (こない, こず)."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'When I hear sad news, I can't help tearing up'?",
+          "japanese": null,
+          "choices": [
+            "悲[かな]しいニュースを聞[き]くと、泣[な]かずにはいられない。",
+            "悲[かな]しいニュースを聞[き]くと、泣[な]くずにはいられない。",
+            "悲[かな]しいニュースを聞[き]くと、泣[な]きずにはいられない。",
+            "悲[かな]しいニュースを聞[き]くと、泣[な]かないずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "泣[な]く → 泣[な]か (neg stem) + ずにはいられない = 泣[な]かずにはいられない = can't help crying. Group 1 く-verb: 泣[な]く → 泣[な]か."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q17",
+          "type": "translation",
+          "prompt": "Which means 'Looking at this beautiful scenery, I can't help photographing it'?",
+          "japanese": null,
+          "choices": [
+            "この美[うつく]しい景色[けしき]を見[み]ると、写真[しゃしん]を撮[と]らずにはいられない。",
+            "この美[うつく]しい景色[けしき]を見[み]ると、写真[しゃしん]を撮[と]るずにはいられない。",
+            "この美[うつく]しい景色[けしき]を見[み]ると、写真[しゃしん]を撮[さつ]いずにはいられない。",
+            "この美[うつく]しい景色[けしき]を見[み]ると、写真[しゃしん]を撮[と]ったずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "撮[と]る (Group 1 る-verb) → 撮[と]ら (neg stem) + ずにはいられない = 撮[と]らずにはいられない = can't help taking photos. 景色[けしき]を見[み]ると = when looking at the scenery."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'When it's hot, I can't help wanting ice cream'?",
+          "japanese": null,
+          "choices": [
+            "暑[あつ]いと、アイスを食[た]べずにはいられない。",
+            "暑[あつ]いと、アイスを食[た]べるずにはいられない。",
+            "暑[あつ]いと、アイスを食[た]べいずにはいられない。",
+            "暑[あつ]いと、アイスを食[た]べたずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "食[た]べる (Group 2) → 食[た]べず + にはいられない = 食[た]べずにはいられない. 暑[あつ]いと = when it's hot. 食[た]べずにはいられない = can't help eating."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q19",
+          "type": "usage",
+          "prompt": "ずにはいられない vs. わけにはいかない: what's the key difference?",
+          "japanese": null,
+          "choices": [
+            "They mean the same thing",
+            "ずにはいられない = irresistible urge (emotional — I can't stop myself); わけにはいかない = can't not do (social/moral — circumstances prevent skipping)",
+            "ずにはいられない is more formal",
+            "わけにはいかない is for past tense only"
+          ],
+          "correctIndex": 1,
+          "explanation": "ずにはいられない = emotional irresistible impulse (I literally can't control myself). わけにはいかない = social/moral constraint (I can't NOT do it because of circumstances). 笑[わら]わずにはいられない = can't help laughing (impulse); 笑[わら]わないわけにはいかない = can't not laugh (circumstances require laughing)."
+        },
+        {
+          "id": "zu-ni-wa-irarenai_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'She can't help loving that cat'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]はあの猫[ねこ]を好[す]きにならずにはいられない。",
+            "彼女[かのじょ]はあの猫[ねこ]を好[す]きになるずにはいられない。",
+            "彼女[かのじょ]はあの猫[ねこ]を好[す]きなりずにはいられない。",
+            "彼女[かのじょ]はあの猫[ねこ]を好[す]きになったずにはいられない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ず-form: 好[す]きになる → 好[す]きになら (neg stem) + ずにはいられない = 好[す]きにならずにはいられない = can't help falling in love with. 好[す]きになる is 好[す]き (な-adj) + になる (become) — Group 1 ending."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch32_v01",
+      "partOfSpeech": "noun",
+      "kanji": "責任",
+      "kana": "せきにん",
+      "romaji": "sekinin",
+      "definition": "responsibility"
+    },
+    {
+      "id": "ch32_v02",
+      "partOfSpeech": "noun",
+      "kanji": "役割",
+      "kana": "やくわり",
+      "romaji": "yakuwari",
+      "definition": "role"
+    },
+    {
+      "id": "ch32_v03",
+      "partOfSpeech": "noun",
+      "kanji": "能力",
+      "kana": "のうりょく",
+      "romaji": "nouryoku",
+      "definition": "ability"
+    },
+    {
+      "id": "ch32_v04",
+      "partOfSpeech": "noun",
+      "kanji": "実力",
+      "kana": "じつりょく",
+      "romaji": "jitsuryoku",
+      "definition": "real ability"
+    },
+    {
+      "id": "ch32_v05",
+      "partOfSpeech": "noun",
+      "kanji": "努力",
+      "kana": "どりょく",
+      "romaji": "doryoku",
+      "definition": "effort"
+    },
+    {
+      "id": "ch32_v06",
+      "partOfSpeech": "noun",
+      "kanji": "成功",
+      "kana": "せいこう",
+      "romaji": "seikou",
+      "definition": "success"
+    },
+    {
+      "id": "ch32_v07",
+      "partOfSpeech": "noun",
+      "kanji": "失敗",
+      "kana": "しっぱい",
+      "romaji": "shippai",
+      "definition": "failure"
+    },
+    {
+      "id": "ch32_v08",
+      "partOfSpeech": "noun",
+      "kanji": "計画",
+      "kana": "けいかく",
+      "romaji": "keikaku",
+      "definition": "plan"
+    },
+    {
+      "id": "ch32_v09",
+      "partOfSpeech": "noun",
+      "kanji": "実行",
+      "kana": "じっこう",
+      "romaji": "jikkou",
+      "definition": "execution; carrying out"
+    },
+    {
+      "id": "ch32_v10",
+      "partOfSpeech": "noun",
+      "kanji": "達成",
+      "kana": "たっせい",
+      "romaji": "tassei",
+      "definition": "achievement"
+    },
+    {
+      "id": "ch32_v11",
+      "partOfSpeech": "noun",
+      "kanji": "担当",
+      "kana": "たんとう",
+      "romaji": "tantou",
+      "definition": "being in charge"
+    },
+    {
+      "id": "ch32_v12",
+      "partOfSpeech": "noun",
+      "kanji": "管理",
+      "kana": "かんり",
+      "romaji": "kanri",
+      "definition": "management"
+    },
+    {
+      "id": "ch32_v13",
+      "partOfSpeech": "noun",
+      "kanji": "指示",
+      "kana": "しじ",
+      "romaji": "shiji",
+      "definition": "instructions"
+    },
+    {
+      "id": "ch32_v14",
+      "partOfSpeech": "noun",
+      "kanji": "命令",
+      "kana": "めいれい",
+      "romaji": "meirei",
+      "definition": "order; command"
+    },
+    {
+      "id": "ch32_v15",
+      "partOfSpeech": "noun",
+      "kanji": "指導",
+      "kana": "しどう",
+      "romaji": "shidou",
+      "definition": "guidance; instruction"
+    },
+    {
+      "id": "ch32_v16",
+      "partOfSpeech": "noun",
+      "kanji": "昇進",
+      "kana": "しょうしん",
+      "romaji": "shoushin",
+      "definition": "promotion"
+    },
+    {
+      "id": "ch32_v17",
+      "partOfSpeech": "noun",
+      "kanji": "出世",
+      "kana": "しゅっせ",
+      "romaji": "shusse",
+      "definition": "success in one's career"
+    },
+    {
+      "id": "ch32_v18",
+      "partOfSpeech": "noun",
+      "kanji": "業績",
+      "kana": "ぎょうせき",
+      "romaji": "gyouseki",
+      "definition": "achievements; results"
+    },
+    {
+      "id": "ch32_v19",
+      "partOfSpeech": "noun",
+      "kanji": "効果",
+      "kana": "こうか",
+      "romaji": "kouka",
+      "definition": "effect"
+    },
+    {
+      "id": "ch32_v20",
+      "partOfSpeech": "noun",
+      "kanji": "能率",
+      "kana": "のうりつ",
+      "romaji": "nouritsu",
+      "definition": "efficiency"
+    },
+    {
+      "id": "ch32_v21",
+      "partOfSpeech": "noun",
+      "kanji": "作業",
+      "kana": "さぎょう",
+      "romaji": "sagyou",
+      "definition": "work; task"
+    },
+    {
+      "id": "ch32_v22",
+      "partOfSpeech": "noun",
+      "kanji": "業務",
+      "kana": "ぎょうむ",
+      "romaji": "gyoumu",
+      "definition": "duties; business"
+    },
+    {
+      "id": "ch32_v23",
+      "partOfSpeech": "noun",
+      "kanji": "課題",
+      "kana": "かだい",
+      "romaji": "kadai",
+      "definition": "task; issue"
+    },
+    {
+      "id": "ch32_v24",
+      "partOfSpeech": "noun",
+      "kanji": "使命",
+      "kana": "しめい",
+      "romaji": "shimei",
+      "definition": "mission"
+    },
+    {
+      "id": "ch32_v25",
+      "partOfSpeech": "noun",
+      "kanji": "貢献",
+      "kana": "こうけん",
+      "romaji": "kouken",
+      "definition": "contribution"
+    },
+    {
+      "id": "ch32_v26",
+      "partOfSpeech": "noun",
+      "kanji": "挑戦",
+      "kana": "ちょうせん",
+      "romaji": "chousen",
+      "definition": "challenge"
+    },
+    {
+      "id": "ch32_v27",
+      "partOfSpeech": "noun",
+      "kanji": "苦労",
+      "kana": "くろう",
+      "romaji": "kurou",
+      "definition": "hardship; toil"
+    },
+    {
+      "id": "ch32_v28",
+      "partOfSpeech": "verb",
+      "kanji": "責める",
+      "kana": "せめる",
+      "romaji": "semeru",
+      "definition": "to blame"
+    },
+    {
+      "id": "ch32_v29",
+      "partOfSpeech": "verb",
+      "kanji": "任せる",
+      "kana": "まかせる",
+      "romaji": "makaseru",
+      "definition": "to entrust"
+    },
+    {
+      "id": "ch32_v30",
+      "partOfSpeech": "verb",
+      "kanji": "務める",
+      "kana": "つとめる",
+      "romaji": "tsutomeru",
+      "definition": "to serve as; to fill a role"
+    },
+    {
+      "id": "ch32_v31",
+      "partOfSpeech": "verb",
+      "kanji": "果たす",
+      "kana": "はたす",
+      "romaji": "hatasu",
+      "definition": "to fulfill; to carry out"
+    },
+    {
+      "id": "ch32_v32",
+      "partOfSpeech": "verb",
+      "kanji": "頑張る",
+      "kana": "がんばる",
+      "romaji": "ganbaru",
+      "definition": "to do one's best"
+    },
+    {
+      "id": "ch32_v33",
+      "partOfSpeech": "verb",
+      "kanji": "諦める",
+      "kana": "あきらめる",
+      "romaji": "akirameru",
+      "definition": "to give up"
+    },
+    {
+      "id": "ch32_v34",
+      "partOfSpeech": "verb",
+      "kanji": "目指す",
+      "kana": "めざす",
+      "romaji": "mezasu",
+      "definition": "to aim for"
+    },
+    {
+      "id": "ch32_v35",
+      "partOfSpeech": "verb",
+      "kanji": "取り組む",
+      "kana": "とりくむ",
+      "romaji": "torikumu",
+      "definition": "to tackle; to work on"
+    },
+    {
+      "id": "ch32_v36",
+      "partOfSpeech": "verb",
+      "kanji": "支える",
+      "kana": "ささえる",
+      "romaji": "sasaeru",
+      "definition": "to support"
+    },
+    {
+      "id": "ch32_v37",
+      "partOfSpeech": "verb",
+      "kanji": "求める",
+      "kana": "もとめる",
+      "romaji": "motomeru",
+      "definition": "to seek; to demand"
+    },
+    {
+      "id": "ch32_v38",
+      "partOfSpeech": "noun",
+      "kanji": "期限",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "definition": "deadline; time limit"
+    },
+    {
+      "id": "ch32_v39",
+      "partOfSpeech": "adverb",
+      "kanji": "予定通り",
+      "kana": "よていどおり",
+      "romaji": "yoteidoori",
+      "definition": "as scheduled"
+    },
+    {
+      "id": "ch32_v40",
+      "partOfSpeech": "noun",
+      "kanji": "完成",
+      "kana": "かんせい",
+      "romaji": "kansei",
+      "definition": "completion"
+    }
+  ]
+}

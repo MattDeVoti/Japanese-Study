@@ -1,0 +1,1609 @@
+{
+  "id": "ch11",
+  "chapterNumber": 11,
+  "title": "Experience and Wishes",
+  "points": [
+    {
+      "id": "koto-ga-aru",
+      "name": "〜たことがある (ta koto ga aru) — have ever done",
+      "shortDescription": "Expresses that you have (or haven't) had the experience of doing something.",
+      "formation": "Verb (た-form) + ことがあります / ことがありません",
+      "explanation": "〜たことがある is how you talk about past experiences in Japanese — the equivalent of English 'have ever done' or 'have been to.' The key insight is that this pattern is about whether an experience exists in your life up to now, not about a specific past event. Compare: 日本に行きました (I went to Japan — this describes a specific trip) vs 日本に行ったことがあります (I have been to Japan — this says the experience is stamped in your history). Think of it as a life passport: たことがあります means the stamp is there; たことがありません means the page is blank.\n\nTo form it: take the た-form (past plain form) of the verb and add ことがあります. For the negative — 'have never' — use ことがありません. The typical question is 〜たことがありますか (Have you ever...?). A useful emphatic version for 'not even once': 一度もありません. This pattern gives you a natural, expressive way to share your experiences and ask others about theirs.",
+      "rules": [
+        "Pattern: Verb (た-form) + ことがあります = have had the experience of doing X",
+        "Negative: Verb (た-form) + ことがありません = have never done X",
+        "This pattern talks about the existence of an experience, not a specific past event",
+        "Question: 〜たことがありますか = Have you ever...?",
+        "一度もありません = not even once (emphatic never)"
+      ],
+      "examples": [
+        {
+          "japanese": "富士山[ふじさん]に登[のぼ]ったことがありますか。",
+          "romaji": "Fujisan ni nobotta koto ga arimasu ka.",
+          "english": "Have you ever climbed Mt. Fuji?"
+        },
+        {
+          "japanese": "はい、一度[いちど]登[のぼ]ったことがあります。",
+          "romaji": "Hai, ichido nobotta koto ga arimasu.",
+          "english": "Yes, I have climbed it once."
+        },
+        {
+          "japanese": "馬[うま]に乗[じょう]ったことがありません。",
+          "romaji": "Uma ni notta koto ga arimasen.",
+          "english": "I have never ridden a horse."
+        },
+        {
+          "japanese": "日本[にっぽん]の映画[えいが]を見[み]たことがありますか。",
+          "romaji": "Nihon no eiga wo mita koto ga arimasu ka.",
+          "english": "Have you ever watched a Japanese movie?"
+        }
+      ],
+      "flashcardHeader": "〜たことがある",
+      "flashcardAnswer": "Expresses that you have (or haven't) had the experience of doing something.",
+      "practice": [
+        {
+          "id": "koto-ga-aru_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "富士山[ふじさん]に登[のぼ]ったことがありますか。",
+          "choices": [
+            "Are you planning to climb Mt. Fuji?",
+            "Did you climb Mt. Fuji?",
+            "Have you ever climbed Mt. Fuji?",
+            "How many times have you climbed Mt. Fuji?"
+          ],
+          "correctIndex": 2,
+          "explanation": "た-form + ことがありますか = 'Have you ever done X?' This asks whether the experience exists in your life history, not about a specific event. Option B (Did you climb?) would be 登[のぼ]りましたか. Option D asks how many times, which would require 何回[なんかい]."
+        },
+        {
+          "id": "koto-ga-aru_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I have never ridden a horse.'",
+          "japanese": "馬[うま]に乗[じょう]った___がありません。",
+          "choices": [
+            "もの",
+            "こと",
+            "の",
+            "とき"
+          ],
+          "correctIndex": 1,
+          "explanation": "た-form + ことがありません = 'have never done X.' こと nominalizes the verb phrase (乗[じょう]った = the act/experience of riding). もの refers to physical things, の doesn't work cleanly in this set phrase, and とき means 'when/time.'"
+        },
+        {
+          "id": "koto-ga-aru_q3",
+          "type": "construct",
+          "prompt": "How do you say 'I have eaten sushi before' in Japanese?",
+          "japanese": null,
+          "choices": [
+            "お寿司[すし]を食[た]べたことです。",
+            "お寿司[すし]を食[た]べたことはありません。",
+            "お寿司[すし]を食[た]べたことがあります。",
+            "お寿司[すし]を食[た]べることがあります。"
+          ],
+          "correctIndex": 2,
+          "explanation": "た-form + ことがあります = 'have had the experience of doing.' 食[た]べた (ate, た-form) + ことがあります = 'I have eaten sushi before.' Option B uses the dictionary form, meaning 'there are times when I eat sushi.' Option C is the negative ('have never eaten')."
+        },
+        {
+          "id": "koto-ga-aru_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "馬[うま]に乗[じょう]ったことがありません。",
+          "choices": [
+            "I used to ride horses but stopped.",
+            "I don't know how to ride horses.",
+            "I rode a horse once.",
+            "I have never ridden a horse."
+          ],
+          "correctIndex": 3,
+          "explanation": "た-form + ことがありません = 'have never done X.' 乗[じょう]った (rode, た-form) + ことがありません = 'I have never ridden.' This addresses the absence of a life experience, not skill level (Option C) or a past habit that ended (Option D)."
+        },
+        {
+          "id": "koto-ga-aru_q5",
+          "type": "usage",
+          "prompt": "〜たことがある marks a life experience, not a routine. Which sentence correctly uses this pattern?",
+          "japanese": null,
+          "choices": [
+            "ニューヨークに行[い]ったことになります。",
+            "ニューヨークに行[い]くことがあります。",
+            "毎朝[まいあさ]コーヒーを飲[の]んだことがあります。",
+            "ニューヨークに行[い]ったことがあります。"
+          ],
+          "correctIndex": 3,
+          "explanation": "ことがある with た-form marks a life experience: 'I have been to New York.' Option B applies たことがある to a daily routine (毎朝[まいあさ] = every morning), which is unnatural. Option C uses dictionary form, meaning 'there are times I go.' Option D changes the meaning entirely."
+        },
+        {
+          "id": "koto-ga-aru_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I have swum in the ocean.'",
+          "japanese": "海[うみ]で___ことがあります。",
+          "choices": [
+            "泳[およ]いだ",
+            "泳[およ]ぎ",
+            "泳[およ]ぐ",
+            "泳[およ]いで"
+          ],
+          "correctIndex": 0,
+          "explanation": "ことがあります requires the た-form (past plain form) of the verb. 泳[およ]ぐ (to swim) → た-form: 泳[およ]いだ (ぐ→いだ sound change). 泳[およ]ぎ is the masu-stem, 泳[およ]ぐ is the dictionary form, and 泳[およ]いで is the て-form — none work with this pattern."
+        },
+        {
+          "id": "koto-ga-aru_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本[にっぽん]に何度[なんど]も行[い]ったことがあります。",
+          "choices": [
+            "I went to Japan many times.",
+            "I have been to Japan many times.",
+            "I am going to Japan many times.",
+            "I have never been to Japan."
+          ],
+          "correctIndex": 1,
+          "explanation": "何度[なんど]も = 'many times.' 行[い]った (た-form of 行[い]く) + ことがあります = 'have had the experience of going.' Together: 'I have been to Japan many times.' This emphasizes the experience as part of life history. Option A (行[い]きました) narrates a specific past event rather than stamping an experience."
+        },
+        {
+          "id": "koto-ga-aru_q8",
+          "type": "construct",
+          "prompt": "Which sentence says 'I have ridden a bullet train only once'?",
+          "japanese": null,
+          "choices": [
+            "新幹線[しんかんせん]に乗[の]ることが一度[いちど]だけあります。",
+            "新幹線[しんかんせん]に一度[いちど]だけ乗[の]りたいです。",
+            "新幹線[しんかんせん]に一度[いちど]だけ乗[じょう]ったことがあります。",
+            "新幹線[しんかんせん]に乗[じょう]ったことが一度[いちど]もありません。"
+          ],
+          "correctIndex": 2,
+          "explanation": "一度[いちど]だけ = 'only once,' placed before the verb: 一度[いちど]だけ乗[じょう]った + ことがあります = 'have ridden only once.' Option A puts こと before 一度[いちど]だけ, breaking the set phrase order. Option B says 'I want to ride' (たい). Option D uses 一度[いちど]もありません (not even once / have never) — the opposite meaning."
+        },
+        {
+          "id": "koto-ga-aru_q9",
+          "type": "usage",
+          "prompt": "たことがある marks a life experience, not a routine. Which sentence CORRECTLY uses this pattern?",
+          "japanese": null,
+          "choices": [
+            "毎朝[まいあさ]コーヒーを飲[の]んだことがあります。",
+            "いつもここで昼[ひる]ごはんを食[た]べたことがあります。",
+            "毎週[まいしゅう]テニスをしたことがあります。",
+            "スカイダイビングをしたことがあります。"
+          ],
+          "correctIndex": 3,
+          "explanation": "たことがある describes one-time or life experiences, not ongoing routines. 毎朝[まいあさ]/いつも/毎週[まいしゅう] (every morning/always/every week) signal habits — using たことがある with them is unnatural. スカイダイビングをしたことがあります ('I have been skydiving') is a classic life-experience statement with no routine nuance."
+        },
+        {
+          "id": "koto-ga-aru_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "子[こ]どものころ、ここに来[き]たことがありましたか。",
+          "choices": [
+            "Did you ever come here as a child?",
+            "Do you come here as a child?",
+            "Did you want to come here as a child?",
+            "Are you coming here for the first time as a child?"
+          ],
+          "correctIndex": 0,
+          "explanation": "たことがありましたか = past tense of 'have you ever.' Used when the time frame is closed (子[こ]どものころ = when I was a child). 来[き]た (た-form of 来[く]る) + ことがありましたか = 'Had you ever come here (back then)?' Option B has no past tense; Option C would use 来[き]たかったですか; Option D does not match."
+        },
+        {
+          "id": "koto-ga-aru_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I have never eaten natto, not even once.'",
+          "japanese": "納豆[なっとう]を食[た]べたことが___もありません。",
+          "choices": [
+            "何度[なんど]",
+            "一度[いちど]",
+            "全部[ぜんぶ]",
+            "初[はじ]めて"
+          ],
+          "correctIndex": 1,
+          "explanation": "一度[いちど]もありません = 'not even once / have never.' 一度[いちど]も + negative is the emphatic 'never' form. 何度[なんど]も means 'many times' (used in affirmative contexts). 全部[ぜんぶ] means 'everything/all.' 初[はじ]めて means 'for the first time' and does not combine with もありません in this way."
+        },
+        {
+          "id": "koto-ga-aru_q12",
+          "type": "construct",
+          "prompt": "How do you say 'Have you ever seen the aurora borealis?'",
+          "japanese": null,
+          "choices": [
+            "オーロラを見[み]ることがありますか。",
+            "オーロラを見[み]たいですか。",
+            "オーロラを見[み]たことがありますか。",
+            "オーロラを見[み]たことがないですか。"
+          ],
+          "correctIndex": 2,
+          "explanation": "見[み]た (た-form of 見[み]る) + ことがありますか = 'Have you ever seen?' Option A uses the dictionary form — 見[み]ることがある means 'there are times I see' (a habit/situation), not a life-experience question. Option B asks if you want to see (たい = want). Option D is a negative question ('Haven't you ever seen?') — grammatical but a different, more leading nuance."
+        },
+        {
+          "id": "koto-ga-aru_q13",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "カナダに住[す]んだことがあります。",
+          "choices": [
+            "I am currently living in Canada.",
+            "I live in Canada sometimes.",
+            "I used to live in Canada and still do.",
+            "I have lived in Canada before."
+          ],
+          "correctIndex": 3,
+          "explanation": "住[す]んだ (た-form of 住[す]む, to live) + ことがあります = 'have had the experience of living somewhere.' This is a life-experience stamp — it does not say the speaker currently lives there (A) or that living there is a habit (B). It means 'Canada-living' is in the speaker's history."
+        },
+        {
+          "id": "koto-ga-aru_q14",
+          "type": "usage",
+          "prompt": "Which pair best illustrates the difference between a life experience and a specific past event?",
+          "japanese": null,
+          "choices": [
+            "日本[にっぽん]に行[い]ったことがあります / 日本[にっぽん]に行[い]きました",
+            "日本[にっぽん]に行[い]きます / 日本[にっぽん]に行[い]きました",
+            "日本[にっぽん]に行[い]きたいです / 日本[にっぽん]に行[い]きたかったです",
+            "日本[にっぽん]に行[い]ったことがあります / 日本[にっぽん]に行[い]ったことがありました"
+          ],
+          "correctIndex": 0,
+          "explanation": "日本[にっぽん]に行[い]ったことがあります = 'I have been to Japan' (the experience is stamped in life history). 日本[にっぽん]に行[い]きました = 'I went to Japan' (a specific past event — last summer, last year, etc.). The first expresses whether an experience EXISTS; the second narrates a past action. Options B and C contrast tenses or desires, not experience vs. event."
+        },
+        {
+          "id": "koto-ga-aru_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct た-form of 飲[の]む (to drink): 'I have never drunk alcohol.'",
+          "japanese": "お酒[さけ]を___ことがありません。",
+          "choices": [
+            "飲[の]んで",
+            "飲[の]んだ",
+            "飲[の]み",
+            "飲[の]む"
+          ],
+          "correctIndex": 1,
+          "explanation": "ことがありません requires the た-form of the verb. 飲[の]む → た-form: 飲[の]んだ (む→んだ sound change). 飲[の]んで is the て-form, 飲[の]み is the masu-stem, 飲[の]む is the dictionary form — none work with this pattern."
+        },
+        {
+          "id": "koto-ga-aru_q16",
+          "type": "construct",
+          "prompt": "Which sentence expresses 'I have had the experience of speaking Japanese with a foreigner' — not 'I sometimes speak Japanese with foreigners'?",
+          "japanese": null,
+          "choices": [
+            "外国人[がいこくじん]と日本語[にほんご]で話[はな]すことがあります。",
+            "外国人[がいこくじん]と日本語[にほんご]で話[はな]してことがあります。",
+            "外国人[がいこくじん]と日本語[にほんご]で話[はな]したことがあります。",
+            "外国人[がいこくじん]と日本語[にほんご]で話[はな]しことがあります。"
+          ],
+          "correctIndex": 2,
+          "explanation": "話[はな]した (た-form of 話[はな]す) + ことがあります = 'have had the experience of speaking.' Option A (dictionary form + ことがあります) means 'there are times I speak' — a recurring situation, not a life experience. Option B uses the て-form, which doesn't work in this pattern. Option D drops the た-form marker entirely."
+        },
+        {
+          "id": "koto-ga-aru_q17",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "外国[がいこく]で働[はたら]いたことがありますか。",
+          "choices": [
+            "Do you want to work abroad?",
+            "Are you working abroad?",
+            "Will you work abroad?",
+            "Have you ever worked abroad?"
+          ],
+          "correctIndex": 3,
+          "explanation": "働[はたら]いた (た-form of 働[はたら]く, to work) + ことがありますか = 'Have you ever worked somewhere?' 外国[がいこく]で = 'abroad / in a foreign country.' Standard life-experience question. Option A would use 働[はたら]きたいですか, Option B uses ていますか for an ongoing action, Option C would use でしょうか or 〜つもりですか."
+        },
+        {
+          "id": "koto-ga-aru_q18",
+          "type": "usage",
+          "prompt": "A friend responds 何度[なんど]もありますよ to the question 富士山[ふじさん]に登[のぼ]ったことがありますか. What does the friend mean?",
+          "japanese": null,
+          "choices": [
+            "I have climbed Mt. Fuji many times.",
+            "I have climbed Mt. Fuji at least once.",
+            "I have never climbed Mt. Fuji.",
+            "I'm planning to climb Mt. Fuji many times."
+          ],
+          "correctIndex": 0,
+          "explanation": "何度[なんど]もあります = 'the experience exists many times' = 'I've done it many times.' When answering a ことがありますか question, 何度[なんど]もあります means 'yes — and many times at that.' One-time experience would be 一度[いちど]/一回[いっかい]あります; never would be (一度[いちど]も)ありません."
+        },
+        {
+          "id": "koto-ga-aru_q19",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to put the experience in the closed-past tense: 'When I was a student, I had been to that restaurant.'",
+          "japanese": "学生[がくせい]のころ、そのレストランに行[い]ったことが___。",
+          "choices": [
+            "あります",
+            "ありました",
+            "ありません",
+            "ありませんでした"
+          ],
+          "correctIndex": 1,
+          "explanation": "ことがありました (past tense) is used when the time frame is closed — 学生[がくせい]のころ (when I was a student) is a finished period, so ありました is correct. あります is present tense (not fitting for a closed past). ありません and ありませんでした are negative forms meaning 'I had never gone.'"
+        },
+        {
+          "id": "koto-ga-aru_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly asks 'Have you ever been to Osaka?'",
+          "japanese": null,
+          "choices": [
+            "大阪[おおさか]に行[い]くことがありますか。",
+            "大阪[おおさか]に行[い]ったことがあります。",
+            "大阪[おおさか]に行[い]ったことがありますか。",
+            "大阪[おおさか]に行[い]ったことはないですか。"
+          ],
+          "correctIndex": 2,
+          "explanation": "行[い]った (た-form) + ことがありますか = 'Have you ever been (gone) to?' — the standard experience question. Option A (dictionary form + ことがありますか) asks 'Are there times you go to Osaka?' (a habit inquiry, not a life-experience question). Option B is a statement (no か). Option D is a negative question ('Haven't you ever been?') — a different, more leading tone."
+        }
+      ]
+    },
+    {
+      "id": "tai",
+      "name": "〜たい (tai) — want to do",
+      "shortDescription": "Expresses the speaker's desire to do an action.",
+      "formation": "Verb stem + たい (conjugates like an い-adjective)",
+      "explanation": "たい attaches to the verb stem (the form before ます) to express the speaker's desire to do something — 'I want to do X.' 食べたい = 'I want to eat,' 行きたい = 'I want to go,' したい = 'I want to do.' The elegant part: たい conjugates exactly like an い-adjective. Negative: たくない (don't want to). Past: たかった (wanted to). Past negative: たくなかった (didn't want to). So もう帰りたくありません = 'I don't want to go home yet,' and 子どものころ、パイロットになりたかったです = 'When I was a child, I wanted to become a pilot.'\n\nRegarding the object particle: the thing you want to do something to can take either を (standard) or が (to emphasize the specific desired thing) — 日本語を勉強したい vs 日本語が勉強したい.\n\nOne important limit: たい describes only the speaker's own desires. For a third person's desires, use 〜たがっている (appears to want / is showing desire to do).",
+      "rules": [
+        "Pattern: verb stem + たい = want to do X",
+        "Conjugates like an い-adjective: たくない (don't want to), たかった (wanted to)",
+        "Object can use を or が: を is standard; が emphasizes the specific desire",
+        "Only for the speaker's own desires — for third person use 〜たがっている",
+        "Common combinations: 食べたい, 行きたい, 見たい, 飲みたい, 買いたい"
+      ],
+      "examples": [
+        {
+          "japanese": "日本[にっぽん]でお寿司[すし]を食[た]べたいです。",
+          "romaji": "Nihon de osushi wo tabetai desu.",
+          "english": "I want to eat sushi in Japan."
+        },
+        {
+          "japanese": "どこへ行[い]きたいですか。",
+          "romaji": "Doko e ikitai desu ka.",
+          "english": "Where do you want to go?"
+        },
+        {
+          "japanese": "もう帰[かえ]りたくありません。",
+          "romaji": "Mou kaeritaku arimasen.",
+          "english": "I don't want to go home yet."
+        },
+        {
+          "japanese": "子[こ]どものころ、パイロットになりたかったです。",
+          "romaji": "Kodomo no koro, pairotto ni naritakatta desu.",
+          "english": "When I was a child, I wanted to become a pilot."
+        }
+      ],
+      "flashcardHeader": "〜たい",
+      "flashcardAnswer": "Expresses the speaker's desire to do an action.",
+      "practice": [
+        {
+          "id": "tai_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "もう帰[かえ]りたくありません。",
+          "choices": [
+            "I want to go home now.",
+            "I don't want to go home yet.",
+            "I didn't want to go home.",
+            "I no longer want to go home."
+          ],
+          "correctIndex": 1,
+          "explanation": "たくありません is the polite negative of たい: 帰[かえ]りたい (want to go home) → 帰[かえ]りたくない → 帰[かえ]りたくありません. もう in a negative sentence means 'anymore / yet.' もう帰[かえ]りたくありません = 'I don't want to go home yet (I want to stay longer).'"
+        },
+        {
+          "id": "tai_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to express the desire to eat sushi in Japan.",
+          "japanese": "日本[にっぽん]でお寿司[すし]を食[た]べ___です。",
+          "choices": [
+            "たくない",
+            "たかった",
+            "たくなかった",
+            "たい"
+          ],
+          "correctIndex": 3,
+          "explanation": "Verb stem + たい = want to do. The stem of 食[た]べる is 食[た]べ, so 食[た]べたい = 'want to eat.' たくない = don't want to eat, たかった = wanted to eat (past), たくなかった = didn't want to eat (past negative) — these are the い-adjective conjugations of たい."
+        },
+        {
+          "id": "tai_q3",
+          "type": "construct",
+          "prompt": "What is the past negative form of 行[い]きたい (want to go)?",
+          "japanese": null,
+          "choices": [
+            "行[い]きたいじゃなかったです。",
+            "行[い]きたくないでした。",
+            "行[い]きたくなかったです。",
+            "行[い]かなかったたいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "たい conjugates like an い-adjective. The negative is たくない, and its past form is たくなかった (drop い, add かった). So 行[い]きたくなかった = 'didn't want to go.' Attaching でした to たくない (Option B) is incorrect — い-adjectives use かった, not でした, for past tense."
+        },
+        {
+          "id": "tai_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "子[こ]どものころ、パイロットになりたかったです。",
+          "choices": [
+            "When I was a child, I wanted to become a pilot.",
+            "When I was a child, I became a pilot.",
+            "I wanted to be a child when I was a pilot.",
+            "As a child, I want to become a pilot."
+          ],
+          "correctIndex": 0,
+          "explanation": "なりたかった is the past tense of なりたい (want to become): たい → たかった. 子[こ]どものころ = 'when I was a child.' This describes a childhood wish that existed in the past. Option B uses present tense; Option C says one actually became a pilot, omitting the desire."
+        },
+        {
+          "id": "tai_q5",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "田中[たなか]さんはケーキを食[た]べたがっています。",
+          "choices": [
+            "Tanaka appears to want to eat cake.",
+            "Tanaka ate cake and wants more.",
+            "I want Tanaka to eat cake.",
+            "Tanaka said he wants to eat cake."
+          ],
+          "correctIndex": 0,
+          "explanation": "たがっている = 'appears to want / is showing signs of wanting.' Since たい expresses only the speaker's own desires, たがっている is used for third persons — describing outward signs of desire, not an inner state you can directly know. This differs from quoting someone's speech (Option B)."
+        },
+        {
+          "id": "tai_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I want to study Japanese.'",
+          "japanese": "日本語[にほんご]を___たいです。",
+          "choices": [
+            "勉強[べんきょう]し",
+            "勉強[べんきょう]する",
+            "勉強[べんきょう]して",
+            "勉強[べんきょう]した"
+          ],
+          "correctIndex": 0,
+          "explanation": "たい attaches to the verb masu-stem (the form before ます). 勉強[べんきょう]する → masu-stem: 勉強[べんきょう]し. So 勉強[べんきょう]したい = 'want to study.' 勉強[べんきょう]する is the dictionary form, 勉強[べんきょう]して is the て-form, 勉強[べんきょう]した is the た-form — たい never attaches to these."
+        },
+        {
+          "id": "tai_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "何[なに]か食[た]べたくなかったです。",
+          "choices": [
+            "I ate something because I wanted to.",
+            "I didn't want to eat anything.",
+            "I want to eat something.",
+            "I don't want to eat anything."
+          ],
+          "correctIndex": 1,
+          "explanation": "食[た]べたくなかった is the past negative of 食[た]べたい: たい → たくない (neg.) → たくなかった (past neg.). 何[なに]か in a negative sentence means 'anything.' So: 'I didn't want to eat anything.' Option C (want to eat) would be 食[た]べたい; Option D (don't want) would be 食[た]べたくない (present)."
+        },
+        {
+          "id": "tai_q8",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Yamada seems to want to go to France'?",
+          "japanese": null,
+          "choices": [
+            "山田[やまだ]さんはフランスに行[い]きたいです。",
+            "山田[やまだ]さんはフランスに行[い]きたくないです。",
+            "山田[やまだ]さんはフランスに行[い]きたがっています。",
+            "山田[やまだ]さんはフランスに行[い]きたかったです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "たい is for the SPEAKER'S OWN desires only. For third-person desire, use たがっている ('appears to want'): 山田[やまだ]さんは行[い]きたがっています = 'Yamada appears to want to go.' Option A incorrectly uses たい to describe a third person's inner desire. Option D says Yamada 'wanted to go' (past), not a current desire."
+        },
+        {
+          "id": "tai_q9",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses が (instead of を) with たい to emphasize the specific desired object?",
+          "japanese": null,
+          "choices": [
+            "コーヒーを飲[の]みたいです。",
+            "日本語[にほんご]で話[はな]したいです。",
+            "公園[こうえん]を散歩[さんぽ]したいです。",
+            "日本語[にほんご]が勉強[べんきょう]したいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "With たい, the direct object can take を (standard) or が (to highlight 'this specific thing is what I want'). 日本語[にほんご]が勉強[べんきょう]したいです = 'It's Japanese I specifically want to study.' The other options use を, which is correct but neutral. Note: が with たい is especially common in conversational Japanese to add emphasis on the desired object."
+        },
+        {
+          "id": "tai_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "子[こ]どものころ、お医者[いしゃ]さんになりたかったです。",
+          "choices": [
+            "When I was a child, I wanted to become a doctor.",
+            "When I was a child, I became a doctor.",
+            "I want to become a doctor just like I did as a child.",
+            "When I was a child, I didn't want to become a doctor."
+          ],
+          "correctIndex": 0,
+          "explanation": "なりたかった = past tense of なりたい (want to become): たい → たかった. 子[こ]どものころ = 'when I was a child,' お医者[いしゃ]さん = doctor. This describes a childhood wish that existed in the past. Option B (なりました) means they actually became a doctor. Option D would be なりたくなかった (past negative)."
+        },
+        {
+          "id": "tai_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct masu-stem of 帰[かえ]る to say 'I don't want to go home yet.'",
+          "japanese": "もう___たくありません。",
+          "choices": [
+            "帰[かえ]る",
+            "帰[かえ]り",
+            "帰[かえ]って",
+            "帰[かえ]った"
+          ],
+          "correctIndex": 1,
+          "explanation": "たい attaches to the masu-stem. 帰[かえ]る → masu-stem: 帰[かえ]り (from 帰[かえ]ります). So 帰[かえ]りたくありません = polite 'don't want to go home.' 帰[かえ]る is the dictionary form, 帰[かえ]って is the て-form, 帰[かえ]った is the た-form — たい never attaches to these."
+        },
+        {
+          "id": "tai_q12",
+          "type": "construct",
+          "prompt": "How do you say 'I didn't want to study at all'?",
+          "japanese": null,
+          "choices": [
+            "全然[ぜんぜん]勉強[べんきょう]したいです。",
+            "全然[ぜんぜん]勉強[べんきょう]したくないです。",
+            "全然[ぜんぜん]勉強[べんきょう]したくなかったです。",
+            "全然[ぜんぜん]勉強[べんきょう]しなかったたいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Didn't want to' is the past negative of たい: たくなかった. 勉強[べんきょう]したくなかったです = polite past negative. 全然[ぜんぜん] (not at all) pairs with negative forms. Option A is present affirmative ('do want to study' — contradicts 全然[ぜんぜん]). Option B is present negative ('don't want to'). Option D has malformed grammar."
+        },
+        {
+          "id": "tai_q13",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "何[なに]が食[た]べたいですか。",
+          "choices": [
+            "What did you eat?",
+            "What do you want others to eat?",
+            "What can you eat?",
+            "What do you want to eat?"
+          ],
+          "correctIndex": 3,
+          "explanation": "何[なに]が食[た]べたいですか = 'What is it you want to eat?' This uses が after 何[なに] to mark the desired object (the thing you want to eat is the question). 食[た]べたい = want to eat (masu-stem 食[た]べ + たい). Option A would be 何[なに]を食[た]べましたか; Option B changes the subject; Option C would be 何[なに]が食[た]べられますか (potential form)."
+        },
+        {
+          "id": "tai_q14",
+          "type": "usage",
+          "prompt": "Which sentence is INCORRECT because it misuses たい for a third person's desire?",
+          "japanese": null,
+          "choices": [
+            "田中[たなか]さんはケーキが食[た]べたいです。",
+            "山田[やまだ]さんはもっと休[やす]みたいと言[い]っていました。",
+            "弟[おとうと]は新[あたら]しいゲームを買[か]いたがっています。",
+            "私[わたし]は日本[にっぽん]に行[い]きたいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "たい describes only the SPEAKER'S OWN desires. Using 田中[たなか]さんは〜たいです to describe a third person's internal desire is incorrect — use たがっている: 田中[たなか]さんはケーキを食[た]べたがっています. Option B is acceptable because it's quoting reported speech (〜と言[い]っていました). Option C correctly uses たがっている. Option D uses たい for first person (correct)."
+        },
+        {
+          "id": "tai_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I wanted to see that movie.'",
+          "japanese": "あの映画[えいが]を見[けん]___です。",
+          "choices": [
+            "たくない",
+            "たかった",
+            "たくなかった",
+            "たい"
+          ],
+          "correctIndex": 1,
+          "explanation": "'Wanted to' is the past tense of たい: たかった. So 見[み]たかったです = 'wanted to see' (polite). たくない = don't want to (present neg.), たくなかった = didn't want to (past neg.), たい = want to (present) — all different conjugations of the same い-adjective-like pattern."
+        },
+        {
+          "id": "tai_q16",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'I don't want to go to the party'?",
+          "japanese": null,
+          "choices": [
+            "パーティーに行[い]かなかったです。",
+            "パーティーに行[い]きたかったです。",
+            "パーティーに行[い]きたくないです。",
+            "パーティーに行[い]きたくなかったです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "'Don't want to go' = present negative of たい: たくない. 行[い]きたくないです = 'don't want to go' (polite present). Option A says 'I didn't go' (past tense, no desire). Option B says 'I wanted to go' (past positive). Option D says 'I didn't want to go' (past negative) — use this for something in the past."
+        },
+        {
+          "id": "tai_q17",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本語[にほんご]が上手[じょうず]になりたいです。",
+          "choices": [
+            "I want to make someone good at Japanese.",
+            "Japanese is becoming better.",
+            "I used to want to be good at Japanese.",
+            "I want to become good at Japanese."
+          ],
+          "correctIndex": 3,
+          "explanation": "なりたい = want to become (masu-stem なり + たい). 日本語[にほんご]が上手[じょうず] = good at Japanese. 上手[じょうず]になりたい = 'want to become good at Japanese.' が here marks 日本語[にほんご]が上手[じょうず] as the desired result. Option A changes the subject/object relation; Option B has no desire marker; Option C would use なりたかった (past)."
+        },
+        {
+          "id": "tai_q18",
+          "type": "usage",
+          "prompt": "Which correctly lists all four conjugated forms of 行[い]きたい (want to go)?",
+          "japanese": null,
+          "choices": [
+            "行[い]きたい / 行[い]きたくない / 行[い]きたかった / 行[い]きたくなかった",
+            "行[い]きたい / 行[い]きたいじゃない / 行[い]きたかった / 行[い]きたいじゃなかった",
+            "行[い]きたい / 行[い]きたくない / 行[い]きたいでした / 行[い]きたくなかった",
+            "行[い]きたい / 行[い]かなかった / 行[い]きたかった / 行[い]かなくなった"
+          ],
+          "correctIndex": 0,
+          "explanation": "たい conjugates exactly like an い-adjective: present positive (たい), present negative (たくない), past positive (たかった), past negative (たくなかった). Using じゃない or でした with たい (Options B/C) is incorrect — い-adjectives use くない for negation and かった for past, not じゃない or でした."
+        },
+        {
+          "id": "tai_q19",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete: 'My younger brother seems to want to buy a new game.'",
+          "japanese": "弟[おとうと]は新[あたら]しいゲームを買[か]い___います。",
+          "choices": [
+            "たくて",
+            "たがって",
+            "たいで",
+            "たかって"
+          ],
+          "correctIndex": 1,
+          "explanation": "For third-person desires, use たがっている (appears to want). Masu-stem 買[か]い + たがって + います = 買[か]いたがっています. The て-form たがって connects to います for the continuous/appearance sense. たくて is the negative continuative, たいで is non-standard, and たかって does not exist."
+        },
+        {
+          "id": "tai_q20",
+          "type": "construct",
+          "prompt": "How do you politely ask a friend 'Do you want to eat Italian food?'",
+          "japanese": null,
+          "choices": [
+            "イタリア料理[りょうり]を食[た]べたくないですか。",
+            "イタリア料理[りょうり]が食[た]べたがっていますか。",
+            "イタリア料理[りょうり]を食[た]べたいですか。",
+            "イタリア料理[りょうり]を食[た]べたかったですか。"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べたいですか = 'Do you want to eat?' is the straightforward polite question form (masu-stem 食[た]べ + たい + ですか). Option A asks 'Don't you want to eat?' (negative question — different nuance). Option B uses たがっている, which is third-person only, making it awkward when directly asking 'you.' Option D asks 'Did you want to eat?' (past tense)."
+        }
+      ]
+    },
+    {
+      "id": "tari-tari",
+      "name": "〜たり〜たりする — listing representative actions",
+      "shortDescription": "Lists representative actions from a set: 'do things like X and Y'.",
+      "formation": "Verb (た-form) + り + ... + する / します",
+      "explanation": "〜たり〜たりする is the verb equivalent of や for nouns — it presents a list of actions as representative examples, not a complete or strictly sequential list. 週末は映画を見たり、買い物したりします means 'On weekends I do things like watching movies and shopping' — with the understanding that you do other things too, even if you don't list them. This is very different from the て-form sequence (食べて寝る = eat and then sleep), where actions follow in order.\n\nTo form this pattern: take the た-form of each verb, add り after it, then end the whole thing with する (or します for polite speech). The tense and politeness of the whole sentence are carried only by the final する.\n\nA single verb + たりする alone means 'sometimes does' or 'does things like': 仕事中に音楽を聴いたりします (I sometimes listen to music at work). In conversation, this pattern sounds more natural than listing non-sequential actions with て, which implies a strict one-then-the-other order.",
+      "rules": [
+        "Pattern: Verb1 (た-form) + り + Verb2 (た-form) + り + する",
+        "The list is non-exhaustive and non-sequential — just representative examples",
+        "Politeness and tense set by the final する: したり→します/した",
+        "One verb + たりする = 'sometimes does' or 'does things like'",
+        "Do NOT confuse with て-form sequence (A て B = sequential A then B)"
+      ],
+      "examples": [
+        {
+          "japanese": "休[やす]みの日[にち]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
+          "romaji": "Yasumi no hi wa ongaku wo kiitari, hon wo yondari shimasu.",
+          "english": "On my days off I do things like listen to music and read books."
+        },
+        {
+          "japanese": "子[こ]どものころ、よく川[かわ]で遊[あそ]んだり、魚[さかな]を取[と]ったりしました。",
+          "romaji": "Kodomo no koro, yoku kawa de asondari, sakana wo tottari shimashita.",
+          "english": "When I was a child, I used to do things like play in the river and catch fish."
+        },
+        {
+          "japanese": "仕事中[しごとちゅう]にお菓子[かし]を食[た]べたりしないでください。",
+          "romaji": "Shigoto chuu ni okashi wo tabetari shinai de kudasai.",
+          "english": "Please don't do things like eating snacks during work."
+        },
+        {
+          "japanese": "週末[しゅうまつ]は何[なに]をしたり、どこへ行[い]ったりしましたか。",
+          "romaji": "Shuumatsu wa nani wo shitari, doko e ittari shimashita ka.",
+          "english": "What kind of things did you do and where did you go on the weekend?"
+        }
+      ],
+      "flashcardHeader": "〜たり〜たりする",
+      "flashcardAnswer": "Lists representative actions from a set: 'do things like X and Y'.",
+      "practice": [
+        {
+          "id": "tari-tari_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "休[やす]みの日[にち]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
+          "choices": [
+            "On my days off I only listen to music and read books.",
+            "On my days off I always listen to music first, then read books.",
+            "On my days off I do things like listen to music and read books.",
+            "On my days off I want to listen to music and read books."
+          ],
+          "correctIndex": 2,
+          "explanation": "〜たり〜たりする lists representative examples from a larger set — 'things like listen to music and read books,' implying other activities too. Option B implies these are the only activities (use と for an exhaustive list). Option C implies a fixed order (te-form does that)."
+        },
+        {
+          "id": "tari-tari_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete the たり〜たりする pattern.",
+          "japanese": "週末[しゅうまつ]は映画[えいが]を見[み]たり、買[か]い物[もの]したり___。",
+          "choices": [
+            "でしょう",
+            "します",
+            "でした",
+            "ありました"
+          ],
+          "correctIndex": 1,
+          "explanation": "The たり pattern must end with する (or its conjugated form). します (polite present) is correct here. The tense and politeness of the whole sentence are carried only by the final する — the individual たり forms do not change for tense."
+        },
+        {
+          "id": "tari-tari_q3",
+          "type": "construct",
+          "prompt": "How do you say 'On weekends I do things like playing tennis and shopping'?",
+          "japanese": null,
+          "choices": [
+            "週末[しゅうまつ]はテニスをすると、買[か]い物[もの]します。",
+            "週末[しゅうまつ]はテニスをしたり、買[か]い物[もの]します。",
+            "週末[しゅうまつ]はテニスをして、買[か]い物[もの]します。",
+            "週末[しゅうまつ]はテニスをしたり、買[か]い物[もの]したりします。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Each verb needs the たり form, and the sentence must end with する. Both actions get たり: したり...したりします. Option B uses the て-form, implying sequence ('play tennis and THEN shop'). Option C mixes たり with a plain verb, leaving the pattern incomplete. Option D (〜と) means 'when/if.'"
+        },
+        {
+          "id": "tari-tari_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "子[こ]どものころ、よく川[かわ]で遊[あそ]んだり、魚[さかな]を取[と]ったりしました。",
+          "choices": [
+            "When I was a child, I wanted to play in the river and catch fish.",
+            "When I was a child, I played in the river and then caught fish.",
+            "As a child, I only played in the river and caught fish.",
+            "When I was a child, I used to do things like play in the river and catch fish."
+          ],
+          "correctIndex": 3,
+          "explanation": "〜たり〜たりしました = 'used to do things like X and Y.' The list is representative and non-sequential. Option B implies a fixed order (te-form would express that). Option C implies these were the only activities. Option D would need たかった (wanted to do)."
+        },
+        {
+          "id": "tari-tari_q5",
+          "type": "usage",
+          "prompt": "Which sentence best expresses a non-exhaustive list of weekend activities?",
+          "japanese": null,
+          "choices": [
+            "週末[しゅうまつ]はテニスをしたり、映画[えいが]を見[み]たりします。",
+            "週末[しゅうまつ]はテニスをしたとき、映画[えいが]を見[み]ます。",
+            "週末[しゅうまつ]はテニスをして、映画[えいが]を見[み]ます。",
+            "週末[しゅうまつ]はテニスと映画[えいが]をします。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜たり〜たりする signals a representative, non-exhaustive list — other activities may exist. Option B (te-form) implies sequential actions. Option C (〜したとき) means 'when I play tennis.' Option D (AとB) means doing both and nothing more."
+        },
+        {
+          "id": "tari-tari_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to list 'watching movies and eating out' as representative activities.",
+          "japanese": "映画[えいが]を見[けん]___、外食[がいしょく]し___します。",
+          "choices": [
+            "たり〜たり",
+            "て〜て",
+            "たり〜て",
+            "て〜たり"
+          ],
+          "correctIndex": 0,
+          "explanation": "The たりたりする pattern requires BOTH verbs to take たり: 見[み]たり、外食[がいしょく]したりします. Mixing たり with て (Options C and D) is incorrect — both verbs must use the same form. て〜て (Option B) creates a sequential action ('watch a movie and THEN eat out,' in that order) — a different meaning."
+        },
+        {
+          "id": "tari-tari_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "仕事中[しごとちゅう]にお菓子[かし]を食[た]べたりしないでください。",
+          "choices": [
+            "Please don't eat snacks while working.",
+            "Please don't do things like eating snacks during work.",
+            "Eating snacks is not done during work.",
+            "Please don't sometimes eat snacks during work."
+          ],
+          "correctIndex": 1,
+          "explanation": "食[た]べたりしないでください = 'please don't do things like eating.' たりしないでください is the prohibition form of the たり pattern. The single-verb たりしない captures the representative nuance ('things like eating snacks'). Option A (食[た]べないでください) is also a prohibition but loses the 'things like' flavor that たり adds."
+        },
+        {
+          "id": "tari-tari_q8",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'On vacation I did things like sightseeing and eating local food'?",
+          "japanese": null,
+          "choices": [
+            "休[やす]みに観光[かんこう]したら、地元[じもと]の食[た]べ物[もの]を食[た]べました。",
+            "休[やす]みに観光[かんこう]して、地元[じもと]の食[た]べ物[もの]を食[た]べました。",
+            "休[やす]みに観光[かんこう]したり、地元[じもと]の食[た]べ物[もの]を食[た]べたりしました。",
+            "休[やす]みに観光[かんこう]したり、地元[じもと]の食[た]べ物[もの]を食[た]べました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Both verbs take たり and the sentence ends with しました (past of する): 観光[かんこう]したり、食[た]べたりしました. Option B uses て-form, implying a strict sequence (sightsee THEN eat). Option A uses たら (conditional 'when/if'). Option D is incomplete — the second verb lacks たり, leaving the pattern unbalanced."
+        },
+        {
+          "id": "tari-tari_q9",
+          "type": "usage",
+          "prompt": "What does a single-verb たりする express, as in 仕事中[しごとちゅう]に音楽[おんがく]を聴[き]いたりします?",
+          "japanese": null,
+          "choices": [
+            "The speaker only listens to music during work.",
+            "The speaker always listens to music during work.",
+            "The speaker plans to listen to music during work.",
+            "The speaker sometimes does things like listening to music during work."
+          ],
+          "correctIndex": 3,
+          "explanation": "A single verb + たりする means 'sometimes does X' or 'does things like X' — one representative activity among others, done occasionally. It does NOT mean 'only' (A), 'always' (B), or express a future plan (C). The nuance is casual, representative, and non-exhaustive."
+        },
+        {
+          "id": "tari-tari_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "週末[しゅうまつ]は何[なに]をしたりしましたか。",
+          "choices": [
+            "What kind of things did you do over the weekend?",
+            "Did you do anything over the weekend?",
+            "What were you doing on the weekend?",
+            "What do you do every weekend?"
+          ],
+          "correctIndex": 0,
+          "explanation": "何[なに]をしたりしましたか = 'What kinds of things did you do?' — a casual, open-ended question inviting a few examples, not a complete list. したり signals you're not asking for a full inventory. Option B is a yes/no question (何[なに]かしましたか). Option C would be 〜ていましたか (progressive). Option D would use 毎週[まいしゅう]/いつも."
+        },
+        {
+          "id": "tari-tari_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct たり form of 泳[およ]ぐ (to swim): 'At the beach I do things like swimming and surfing.'",
+          "japanese": "ビーチで___り、サーフィンをしたりします。",
+          "choices": [
+            "泳[およ]いで",
+            "泳[およ]いだ",
+            "泳[およ]ぎ",
+            "泳[およ]ぐ"
+          ],
+          "correctIndex": 1,
+          "explanation": "The たり form = た-form + り. 泳[およ]ぐ → た-form: 泳[およ]いだ (ぐ→いだ sound change). Then 泳[およ]いだ + り = 泳[およ]いだり. Option A is the て-form (泳[およ]いで). Option C is the masu-stem. Option D is the dictionary form. Only the た-form provides the base for たり."
+        },
+        {
+          "id": "tari-tari_q12",
+          "type": "construct",
+          "prompt": "A friend asks what you did yesterday. Which response uses たりたりする most naturally?",
+          "japanese": null,
+          "choices": [
+            "昨日[きのう]は映画[えいが]を見[み]て、友達[ともだち]と話[はな]して、本[ほん]を読[よ]みました。",
+            "昨日[きのう]は映画[えいが]を見[み]たり、友達[ともだち]と話[はな]したりするのでした。",
+            "昨日[きのう]は映画[えいが]を見[み]たり、友達[ともだち]と話[はな]したりしました。",
+            "昨日[きのう]は映画[えいが]を見[み]たり、友達[ともだち]と話[はな]しました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "The natural たり pattern lists representative activities and ends with した (past of する): 見[み]たり、話[はな]したりしました. Option A uses て-form (implies a complete sequential list). Option B has a malformed ending (するのでした). Option D is incomplete — the second verb lacks たり, making the pattern unbalanced."
+        },
+        {
+          "id": "tari-tari_q13",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "彼女[かのじょ]は笑[わら]ったり、泣[な]いたりしていました。",
+          "choices": [
+            "She was laughing and then crying alternately in strict turns.",
+            "She was both laughing and crying at the exact same time.",
+            "She laughed first and then cried.",
+            "She kept doing things like laughing and crying."
+          ],
+          "correctIndex": 3,
+          "explanation": "〜たり〜たりしていました = 'was doing things like X and Y' (past progressive). The たり pattern suggests these were representative emotional states, possibly alternating. The ていました gives ongoing/repeated sense. Option C implies strict sequence (te-form does that). Option B implies true simultaneity (different grammar). Option A overstates the strict turn-taking."
+        },
+        {
+          "id": "tari-tari_q14",
+          "type": "usage",
+          "prompt": "Which sentence uses the negative たり form (〜なかったり) correctly?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]の日[にち]は出[で]かけなかったり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[にち]は出[で]かけなくたり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[にち]は出[で]かけないたり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[にち]は出[で]かけなかったりしない家[いえ]でゲームをします。"
+          ],
+          "correctIndex": 0,
+          "explanation": "The negative たり form uses the plain past negative + り: 〜なかった + り = 〜なかったり. 出[で]かける → 出[で]かけなかった → 出[で]かけなかったり (sometimes don't go out). This can be mixed with positive たり forms. Options B and C have incorrect formation (なくたり and ないたり are not standard forms). Option D is grammatically confused."
+        },
+        {
+          "id": "tari-tari_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete the past たり pattern: 'When I was a child I used to do things like draw pictures and sing.'",
+          "japanese": "子[こ]どものころ、絵[え]を描[えが]いたり、歌[うた]を歌[うた]っ___しました。",
+          "choices": [
+            "て",
+            "たり",
+            "ながら",
+            "り"
+          ],
+          "correctIndex": 1,
+          "explanation": "Both verbs must take たり and the sentence ends with しました. 歌[うた]う → 歌[うた]った (た-form) + り = 歌[うた]ったり. The blank is filled with たり. て (Option A) would make it te-form sequence. ながら (Option C) means 'while doing' (simultaneous). り alone without the preceding た-form (Option D) is incorrect."
+        },
+        {
+          "id": "tari-tari_q16",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses the たり pattern to describe alternating states: 'My little sister's mood sometimes gets better and sometimes gets worse'?",
+          "japanese": null,
+          "choices": [
+            "妹[いもうと]の気分[きぶん]はよくなると、悪[わる]くなります。",
+            "妹[いもうと]の気分[きぶん]がよくなって、悪[わる]くなります。",
+            "妹[いもうと]の気分[きぶん]がよくなったり、悪[わる]くなったりします。",
+            "妹[いもうと]の気分[きぶん]はよくなたり、悪[わる]くなったりします。"
+          ],
+          "correctIndex": 2,
+          "explanation": "たり also works with state-change verbs like なる (to become). よくなったり、悪[わる]くなったりします = 'sometimes gets better, sometimes gets worse.' Option A uses と (conditional 'when/if'). Option B uses て-form (sequence). Option D misforms よくな (missing た-form: the correct form is よくなった + り)."
+        },
+        {
+          "id": "tari-tari_q17",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "最近[さいきん]、頭[あたま]が痛[いた]くなったり、めまいがしたりします。",
+          "choices": [
+            "Recently, my head started hurting and then I felt dizzy.",
+            "I always have headaches and dizziness recently.",
+            "I had headaches and dizziness once recently.",
+            "Recently I've been having things like headaches and dizziness."
+          ],
+          "correctIndex": 3,
+          "explanation": "〜たり〜たりする in present tense describes a recurring or representative pattern. 頭[あたま]が痛[いた]くなったり、めまいがしたりします = 'experiencing things like headaches and dizziness (from time to time).' Option A implies a one-time sequence. Option B implies constant symptoms (always). Option C implies a single occurrence."
+        },
+        {
+          "id": "tari-tari_q18",
+          "type": "usage",
+          "prompt": "Which is the most natural way to ask what someone typically does on weekends?",
+          "japanese": null,
+          "choices": [
+            "週末[しゅうまつ]は何[なに]をしたりしますか。",
+            "週末[しゅうまつ]は何[なに]をしますか。",
+            "週末[しゅうまつ]に何[なに]をするつもりですか。",
+            "週末[しゅうまつ]は何[なに]をしていましたか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "何[なに]をしたりしますか = 'What kinds of things do you do (on weekends)?' The たりする makes the question open and inviting — 'give me some examples, I'm not asking for a complete list.' Option B (何[なに]をしますか) is more direct and can feel like asking for a specific answer. Option C (つもり) asks about plans/intentions. Option D is past progressive."
+        },
+        {
+          "id": "tari-tari_q19",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete the non-exhaustive action list: 'I do things like jog in the morning and do yoga.'",
+          "japanese": "朝[あさ]はジョギングをしたり、ヨガをし___します。",
+          "choices": [
+            "て",
+            "たり",
+            "ながら",
+            "て〜て"
+          ],
+          "correctIndex": 1,
+          "explanation": "The second action in the たり pattern also needs たり. ヨガをし = masu-stem of ヨガをする, then + たり = ヨガをしたり, ending with します. Option A (て) creates an incomplete, unbalanced pattern. ながら (Option C) means 'while doing' — two simultaneous actions, a completely different meaning."
+        },
+        {
+          "id": "tari-tari_q20",
+          "type": "construct",
+          "prompt": "Which question most naturally invites a friend to share examples of their summer plans (not a definitive list)?",
+          "japanese": null,
+          "choices": [
+            "夏休[なつやす]みに何[なに]をする予定[よてい]ですか。",
+            "夏休[なつやす]みに何[なに]かをしましたか。",
+            "夏休[なつやす]みは何[なに]をしたりする予定[よてい]ですか。",
+            "夏休[なつやす]みには何[なに]をしましたか。"
+          ],
+          "correctIndex": 2,
+          "explanation": "したりする予定[よてい] combines the representative-list nuance of たりする with 予定[よてい] (plan), inviting examples: 'what kinds of things do you plan to do?' Option A (する予定[よてい]) requests a complete or specific plan. Option B asks if they did anything (past yes/no). Option D asks about what they did (past event, not plans)."
+        }
+      ]
+    },
+    {
+      "id": "ya-list",
+      "name": "〜や (ya) — non-exhaustive noun list",
+      "shortDescription": "Connects nouns as examples from a larger set: 'X and Y (and other things like that)'.",
+      "formation": "Noun A + や + Noun B (+ など)  — implies the list is partial",
+      "explanation": "Earlier in Chapter 4, you learned that と connects nouns in a complete and exhaustive list. や connects nouns in a non-exhaustive list — you are giving examples from a larger set, and the listener understands there are other items not mentioned. 犬と猫がいます means there is a dog and a cat — and only those two. 犬や猫がいます means there are things like dogs and cats — possibly other animals too.\n\nThe word など (et cetera / and so on) is frequently added after the last や item to make the non-exhaustive nature explicit: 犬や猫などがいます. In everyday conversation, や is the natural choice whenever you are giving a representative sample rather than a precise inventory. A practical tip: when describing the general contents of something — a bag, a fridge, a schedule — without being exhaustive, や sounds more native. When you need to be exact and complete, use と.",
+      "rules": [
+        "や lists nouns as non-exhaustive examples: 'things like A and B (and more)'",
+        "と lists nouns exhaustively: 'A and B (and that's everything)'",
+        "など (etc./and so on) is commonly added after the last や item",
+        "Use や when giving a representative sample, not a complete list",
+        "Can combine multiple nouns: A や B や C など"
+      ],
+      "examples": [
+        {
+          "japanese": "冷蔵庫[れいぞうこ]にりんごやバナナなどが入[いっ]っています。",
+          "romaji": "Reizouko ni ringo ya banana nado ga haitte imasu.",
+          "english": "In the refrigerator there are things like apples and bananas."
+        },
+        {
+          "japanese": "週末[しゅうまつ]はテニスやサッカーなどをします。",
+          "romaji": "Shuumatsu wa tenisu ya sakkaa nado wo shimasu.",
+          "english": "On weekends I do things like tennis and soccer."
+        },
+        {
+          "japanese": "日本語[にほんご]や中国語[ちゅうごくご]などを勉強[べんきょう]しています。",
+          "romaji": "Nihongo ya chuugokugo nado wo benkyou shite imasu.",
+          "english": "I'm studying things like Japanese and Chinese."
+        },
+        {
+          "japanese": "図書館[としょかん]には本[ほん]やDVDなどがあります。",
+          "romaji": "Toshokan ni wa hon ya diibuidii nado ga arimasu.",
+          "english": "In the library there are things like books and DVDs."
+        }
+      ],
+      "flashcardHeader": "〜や",
+      "flashcardAnswer": "Connects nouns as examples from a larger set: 'X and Y (and other things like that)'.",
+      "practice": [
+        {
+          "id": "ya-list_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "冷蔵庫[れいぞうこ]にりんごやバナナなどが入[いっ]っています。",
+          "choices": [
+            "In the refrigerator there are things like apples and bananas.",
+            "In the refrigerator there are only apples and bananas.",
+            "The refrigerator contains exactly apples, bananas, and nothing else.",
+            "There are apples or bananas in the refrigerator."
+          ],
+          "correctIndex": 0,
+          "explanation": "や connects nouns as non-exhaustive examples, and など (et cetera) reinforces that there are more items not listed — 'things like apples and bananas, and probably other food too.' Options B and C would use と for an exhaustive, complete list. Option D implies 'or,' which や does not mean."
+        },
+        {
+          "id": "ya-list_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to give a non-exhaustive list of bag contents.",
+          "japanese": "バッグには財布[さいふ]___スマホなどが入[いっ]っています。",
+          "choices": [
+            "や",
+            "に",
+            "と",
+            "も"
+          ],
+          "correctIndex": 0,
+          "explanation": "や lists nouns as representative examples: 'things like a wallet and a smartphone (and perhaps other items).' と would make the list exhaustive — only a wallet and a smartphone, nothing else. も means 'also' and に is a location particle — neither creates a list here."
+        },
+        {
+          "id": "ya-list_q3",
+          "type": "construct",
+          "prompt": "You need to state the exact, complete contents of a grocery bag — apples, bananas, and bread only. Which sentence is most accurate?",
+          "japanese": null,
+          "choices": [
+            "りんごやバナナやパンを買[か]いました。",
+            "りんごなどバナナとパンを買[か]いました。",
+            "りんごとバナナとパンを買[か]いました。",
+            "りんごやバナナとパンを買[か]いました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "と lists nouns exhaustively — 'A and B and C (and that's everything).' When you need to be precise and complete, と is correct. や (Option B) implies more items exist beyond what's listed. Option C inconsistently mixes particles. Option D misplaces など."
+        },
+        {
+          "id": "ya-list_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "図書館[としょかん]には本[ほん]やDVDなどがあります。",
+          "choices": [
+            "In the library there are only books and DVDs.",
+            "In the library there are books and DVDs, but nothing else.",
+            "The library has every kind of book and DVD imaginable.",
+            "In the library there are things like books and DVDs."
+          ],
+          "correctIndex": 3,
+          "explanation": "や + など signals a partial, illustrative list: 'things like books and DVDs — and other materials too.' Options B and C contradict the non-exhaustive nature of や and など. Option D overstates the meaning in the opposite direction."
+        },
+        {
+          "id": "ya-list_q5",
+          "type": "usage",
+          "prompt": "Which sentence most clearly signals that the list of languages being studied is non-exhaustive?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]も中国語[ちゅうごくご]も勉強[べんきょう]しています。",
+            "日本語[にほんご]や中国語[ちゅうごくご]などを勉強[べんきょう]しています。",
+            "日本語[にほんご]か中国語[ちゅうごくご]を勉強[べんきょう]しています。",
+            "日本語[にほんご]と中国語[ちゅうごくご]を勉強[べんきょう]しています。"
+          ],
+          "correctIndex": 1,
+          "explanation": "や + など together most clearly signal 'Japanese, Chinese, and possibly other languages.' と (Option B) means exactly those two and nothing else. も〜も (Option C) means 'both,' emphasizing two specific items equally. か (Option D) means 'or' — only one of them."
+        },
+        {
+          "id": "ya-list_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to give a non-exhaustive list: 'I like sports like soccer and baseball.'",
+          "japanese": "私[わたし]はサッカー___野球[やきゅう]などが好[す]きです。",
+          "choices": [
+            "や",
+            "と",
+            "も",
+            "が"
+          ],
+          "correctIndex": 0,
+          "explanation": "や lists nouns as representative examples: 'things like soccer and baseball (and perhaps other sports).' と (Option B) would make the list exhaustive — only these two sports and nothing else. も (Option C) means 'also,' emphasizing each item individually. が (Option D) is a subject particle, not a listing particle."
+        },
+        {
+          "id": "ya-list_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本語[にほんご]や中国語[ちゅうごくご]などを勉強[べんきょう]しています。",
+          "choices": [
+            "I only study Japanese and Chinese, no other languages.",
+            "I'm studying things like Japanese and Chinese.",
+            "I plan to study Japanese and Chinese.",
+            "Japanese and Chinese are difficult to study."
+          ],
+          "correctIndex": 1,
+          "explanation": "や + など signals a partial, illustrative list: 'Japanese, Chinese, and possibly other languages.' Option A contradicts the non-exhaustive nature of や and など — that reading would use と (exhaustive) and drop など. Option C would need つもりです or 予定[よてい]. Option D shifts the subject away from the speaker."
+        },
+        {
+          "id": "ya-list_q8",
+          "type": "construct",
+          "prompt": "You want to say 'In my bag I have things like a wallet, keys, and a phone (and other items).' Which sentence is best?",
+          "japanese": null,
+          "choices": [
+            "バッグに財布[さいふ]と鍵[かぎ]とスマホがあります。",
+            "バッグに財布[さいふ]や鍵[かぎ]やスマホを持[も]っています。",
+            "バッグに財布[さいふ]や鍵[かぎ]やスマホなどが入[いっ]っています。",
+            "バッグに財布[さいふ]か鍵[かぎ]かスマホが入[いっ]っています。"
+          ],
+          "correctIndex": 2,
+          "explanation": "や...や + など + が入[いっ]っています most clearly signals a non-exhaustive list with more items implied. Option A uses と (exhaustive — only exactly these three things). Option B uses や correctly but drops など, making the implication of more items weaker. Option D uses か ('or') implying only one of them is present."
+        },
+        {
+          "id": "ya-list_q9",
+          "type": "usage",
+          "prompt": "Which sentence best answers 'What did you buy?' when you bought several things but don't want to list everything?",
+          "japanese": null,
+          "choices": [
+            "りんごと牛乳[ぎゅうにゅう]とパンと卵[たまご]と野菜[やさい]を買[か]いました。",
+            "りんごか牛乳[ぎゅうにゅう]かパンを買[か]いました。",
+            "りんごも牛乳[ぎゅうにゅう]もパンも買[か]いました。",
+            "りんごや牛乳[ぎゅうにゅう]などを買[か]いました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "りんごや牛乳[ぎゅうにゅう]などを買[か]いました = 'I bought things like apples and milk (and more)' — や + など communicates a representative sample without enumerating everything. Option A uses と for an exhaustive list (feels overly detailed). Option B uses か ('or') implying only one item. Option C (も〜も) emphasizes each named item but doesn't imply additional unstated ones."
+        },
+        {
+          "id": "ya-list_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "週末[しゅうまつ]はテニスやサッカーなどをします。",
+          "choices": [
+            "On weekends I play things like tennis and soccer.",
+            "On weekends I play only tennis and soccer.",
+            "On weekends I want to play tennis or soccer.",
+            "On weekends I play tennis, then soccer."
+          ],
+          "correctIndex": 0,
+          "explanation": "や + など = 'things like tennis and soccer (and perhaps other sports).' Option B contradicts the non-exhaustive nuance — that would use と (only these two). Option C adds a desire that isn't expressed (no たい). Option D implies sequence (te-form or から would do that, not や)."
+        },
+        {
+          "id": "ya-list_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to add 'and so on' after a や list: 'The park has things like swings and slides, and so on.'",
+          "japanese": "公園[こうえん]にはブランコやすべり台[だい]___があります。",
+          "choices": [
+            "と",
+            "など",
+            "も",
+            "で"
+          ],
+          "correctIndex": 1,
+          "explanation": "など (et cetera / and so on) follows the last や item to explicitly signal the list is incomplete: 'swings, slides, and things like that.' と (Option A) links nouns exhaustively, contradicting や. も (Option C) means 'also' — not an 'etc.' marker. で (Option D) is an instrument/location particle."
+        },
+        {
+          "id": "ya-list_q12",
+          "type": "construct",
+          "prompt": "Your friend said 先週[せんしゅう]、映画[えいが]とコンサートに行[い]きました. How do you rephrase it to suggest there were other activities beyond those two?",
+          "japanese": null,
+          "choices": [
+            "先週[せんしゅう]、映画[えいが]もコンサートも行[い]きました。",
+            "先週[せんしゅう]、映画[えいが]かコンサートに行[い]きました。",
+            "先週[せんしゅう]、映画[えいが]やコンサートなどに行[い]きました。",
+            "先週[せんしゅう]、映画[えいが]に行[い]って、コンサートに行[い]きました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Replacing と with や and adding など changes an exhaustive list into a representative one: 映画[えいが]やコンサートなどに行[い]きました = 'went to things like movies and concerts (and maybe other places too).' Option A (も〜も) emphasizes each item equally but doesn't imply other unstated activities. Option B (か) means 'or.' Option D lists events in sequence with no implication of more."
+        },
+        {
+          "id": "ya-list_q13",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "冷蔵庫[れいぞうこ]にはりんごやバナナやみかんなどが入[いっ]っています。",
+          "choices": [
+            "The refrigerator contains exactly apples, bananas, and oranges.",
+            "The refrigerator has apples, bananas, and oranges as its main contents.",
+            "There might be apples, bananas, or oranges in the refrigerator.",
+            "The refrigerator has things like apples, bananas, and oranges (and more)."
+          ],
+          "correctIndex": 3,
+          "explanation": "や...や + など signals a non-exhaustive three-item list: 'things like apples, bananas, and oranges — and probably other food too.' Option A claims these are the only contents (と would be needed). Option B is closer but still implies completeness. Option C uses 'or' logic (か), which や does not mean."
+        },
+        {
+          "id": "ya-list_q14",
+          "type": "usage",
+          "prompt": "A student says 日本語[にほんご]とフランス語[かた]と中国語[ちゅうごくご]とドイツ語[ご]を話[はな]せます. They want to sound less like they're making an exhaustive count. Which revision is best?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]やフランス語[ご]などが話[はな]せます。",
+            "日本語[にほんご]かフランス語[ご]を話[はな]せます。",
+            "日本語[にほんご]もフランス語[ご]も話[はな]せます。",
+            "日本語[にほんご]だけとフランス語[ご]だけを話[はな]せます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Replacing と with や and adding など converts the exhaustive list to a representative sample: 'I can speak things like Japanese and French (among others).' Option B (か) means 'or' (only one). Option C (も〜も) emphasizes each individually but still sounds like a specific count. Option D (だけ) adds 'only,' making it even more restrictive."
+        },
+        {
+          "id": "ya-list_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I bought things like notebooks and pens (and more) at the bookstore.'",
+          "japanese": "本屋[ほんや]でノートやペン___を買[か]いました。",
+          "choices": [
+            "だけ",
+            "など",
+            "しか",
+            "また"
+          ],
+          "correctIndex": 1,
+          "explanation": "など (et cetera) after the last や item makes the non-exhaustive nature explicit: 'notebooks, pens, and things like that.' だけ (Option A) means 'only' — the opposite effect. しか (Option C) is also restrictive ('nothing but'), requiring a negative verb. また (Option D) means 'also/again' — a different function."
+        },
+        {
+          "id": "ya-list_q16",
+          "type": "construct",
+          "prompt": "Which sentence correctly makes a non-exhaustive three-item list with や?",
+          "japanese": null,
+          "choices": [
+            "本[ほん]と雑誌[ざっし]と漫画[まんが]などを読[よ]みます。",
+            "本[ほん]や雑誌[ざっし]と漫画[まんが]を読[よ]みます。",
+            "本[ほん]や雑誌[ざっし]や漫画[まんが]などを読[よ]みます。",
+            "本[ほん]か雑誌[ざっし]か漫画[まんが]を読[よ]みます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "For a non-exhaustive multi-item list, use や between each noun and add など after the last one: 本[ほん]や雑誌[ざっし]や漫画[まんが]などを読[よ]みます = 'I read things like books, magazines, and manga.' Option A mixes と with など, but と signals an exhaustive list, contradicting the など. Option B inconsistently mixes や and と. Option D uses か ('or')."
+        },
+        {
+          "id": "ya-list_q17",
+          "type": "translation",
+          "prompt": "What does this exchange mean?",
+          "japanese": "好[す]きな食[た]べ物[もの]は何[なん]ですか。ピザやパスタなどが好[す]きです。",
+          "choices": [
+            "Do you like pizza and pasta? Yes, I do.",
+            "What are your favorite foods? I only like pizza and pasta.",
+            "What are your favorite foods? I like pizza but not pasta.",
+            "What are your favorite foods? I like things like pizza and pasta."
+          ],
+          "correctIndex": 3,
+          "explanation": "好[す]きな食[た]べ物[もの]は何[なん]ですか = 'What foods do you like?' ピザやパスタなどが好[す]きです = 'I like things like pizza and pasta' (implying there are other foods too). や + など signals a representative sample. Option B would use ピザとパスタだけが好[す]きです. Option C contradicts the positive なども statement."
+        },
+        {
+          "id": "ya-list_q18",
+          "type": "usage",
+          "prompt": "Which sentence most naturally implies that more items were bought beyond those mentioned?",
+          "japanese": null,
+          "choices": [
+            "野菜[やさい]や肉[にく]などを買[か]いました。",
+            "野菜[やさい]と肉[にく]だけを買[か]いました。",
+            "野菜[やさい]か肉[にく]を買[か]いました。",
+            "野菜[やさい]も肉[にく]も買[か]いませんでした。"
+          ],
+          "correctIndex": 0,
+          "explanation": "野菜[やさい]や肉[にく]などを買[か]いました = 'I bought things like vegetables and meat (and probably other groceries).' や + など is the standard way to list purchases while implying more. Option B (と + だけ) says exactly and only those two things. Option C (か) implies 'or' — one or the other. Option D is a negative statement (didn't buy)."
+        },
+        {
+          "id": "ya-list_q19",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to ask 'What things do you like, such as sports and music?'",
+          "japanese": "スポーツ___音楽[おんがく]などは好[す]きですか。",
+          "choices": [
+            "と",
+            "や",
+            "か",
+            "も"
+          ],
+          "correctIndex": 1,
+          "explanation": "や links nouns as examples within a question: 'Sports and music (and things like that) — do you like them?' Using や frames the question as open-ended, inviting a broad answer. と (Option A) would make the list exhaustive and a bit blunt. か (Option C) means 'or' (which one?). も (Option D) means 'also' and doesn't create a list here."
+        },
+        {
+          "id": "ya-list_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly describes a classroom as having things like desks, chairs, and a blackboard (not an exhaustive list)?",
+          "japanese": null,
+          "choices": [
+            "教室[きょうしつ]には机[つくえ]と椅子[いす]と黒板[こくばん]などがあります。",
+            "教室[きょうしつ]には机[つくえ]や椅子[いす]と黒板[こくばん]があります。",
+            "教室[きょうしつ]には机[つくえ]や椅子[いす]や黒板[こくばん]などがあります。",
+            "教室[きょうしつ]には机[つくえ]か椅子[いす]か黒板[こくばん]があります。"
+          ],
+          "correctIndex": 2,
+          "explanation": "机[つくえ]や椅子[いす]や黒板[こくばん]などがあります = 'there are things like desks, chairs, and a blackboard (and other items too).' All items are linked with や and など signals the list is non-exhaustive. Option A uses と (exhaustive) before など — contradictory. Option B mixes や and と inconsistently. Option D uses か ('or' — only one of these things)."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch11_v01",
+      "partOfSpeech": "noun",
+      "kanji": "旅行",
+      "kana": "りょこう",
+      "romaji": "ryokou",
+      "definition": "trip; travel"
+    },
+    {
+      "id": "ch11_v02",
+      "partOfSpeech": "noun",
+      "kanji": "旅館",
+      "kana": "りょかん",
+      "romaji": "ryokan",
+      "definition": "Japanese inn"
+    },
+    {
+      "id": "ch11_v03",
+      "partOfSpeech": "noun",
+      "kanji": "観光",
+      "kana": "かんこう",
+      "romaji": "kankou",
+      "definition": "sightseeing"
+    },
+    {
+      "id": "ch11_v04",
+      "partOfSpeech": "noun",
+      "kanji": "切符",
+      "kana": "きっぷ",
+      "romaji": "kippu",
+      "definition": "ticket"
+    },
+    {
+      "id": "ch11_v05",
+      "partOfSpeech": "noun",
+      "kanji": "スーツケース",
+      "kana": "スーツケース",
+      "romaji": "suutsukeesu",
+      "definition": "suitcase"
+    },
+    {
+      "id": "ch11_v06",
+      "partOfSpeech": "noun",
+      "kanji": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "definition": "souvenir"
+    },
+    {
+      "id": "ch11_v07",
+      "partOfSpeech": "noun",
+      "kanji": "電車",
+      "kana": "でんしゃ",
+      "romaji": "densha",
+      "definition": "train"
+    },
+    {
+      "id": "ch11_v08",
+      "partOfSpeech": "noun",
+      "kanji": "バス",
+      "kana": "バス",
+      "romaji": "basu",
+      "definition": "bus"
+    },
+    {
+      "id": "ch11_v09",
+      "partOfSpeech": "noun",
+      "kanji": "車",
+      "kana": "くるま",
+      "romaji": "kuruma",
+      "definition": "car"
+    },
+    {
+      "id": "ch11_v10",
+      "partOfSpeech": "noun",
+      "kanji": "自転車",
+      "kana": "じてんしゃ",
+      "romaji": "jitensha",
+      "definition": "bicycle"
+    },
+    {
+      "id": "ch11_v11",
+      "partOfSpeech": "noun",
+      "kanji": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikouki",
+      "definition": "airplane"
+    },
+    {
+      "id": "ch11_v12",
+      "partOfSpeech": "noun",
+      "kanji": "船",
+      "kana": "ふね",
+      "romaji": "fune",
+      "definition": "ship; boat"
+    },
+    {
+      "id": "ch11_v13",
+      "partOfSpeech": "noun",
+      "kanji": "地下鉄",
+      "kana": "ちかてつ",
+      "romaji": "chikatetsu",
+      "definition": "subway"
+    },
+    {
+      "id": "ch11_v14",
+      "partOfSpeech": "noun",
+      "kanji": "タクシー",
+      "kana": "タクシー",
+      "romaji": "takushii",
+      "definition": "taxi"
+    },
+    {
+      "id": "ch11_v15",
+      "partOfSpeech": "noun",
+      "kanji": "新幹線",
+      "kana": "しんかんせん",
+      "romaji": "shinkansen",
+      "definition": "bullet train"
+    },
+    {
+      "id": "ch11_v16",
+      "partOfSpeech": "noun",
+      "kanji": "趣味",
+      "kana": "しゅみ",
+      "romaji": "shumi",
+      "definition": "hobby"
+    },
+    {
+      "id": "ch11_v17",
+      "partOfSpeech": "noun",
+      "kanji": "音楽",
+      "kana": "おんがく",
+      "romaji": "ongaku",
+      "definition": "music"
+    },
+    {
+      "id": "ch11_v18",
+      "partOfSpeech": "noun",
+      "kanji": "映画",
+      "kana": "えいが",
+      "romaji": "eiga",
+      "definition": "movie"
+    },
+    {
+      "id": "ch11_v19",
+      "partOfSpeech": "noun",
+      "kanji": "歌",
+      "kana": "うた",
+      "romaji": "uta",
+      "definition": "song"
+    },
+    {
+      "id": "ch11_v20",
+      "partOfSpeech": "noun",
+      "kanji": "絵",
+      "kana": "え",
+      "romaji": "e",
+      "definition": "picture; painting"
+    },
+    {
+      "id": "ch11_v21",
+      "partOfSpeech": "noun",
+      "kanji": "スポーツ",
+      "kana": "スポーツ",
+      "romaji": "supootsu",
+      "definition": "sport"
+    },
+    {
+      "id": "ch11_v22",
+      "partOfSpeech": "noun",
+      "kanji": "野球",
+      "kana": "やきゅう",
+      "romaji": "yakyuu",
+      "definition": "baseball"
+    },
+    {
+      "id": "ch11_v23",
+      "partOfSpeech": "noun",
+      "kanji": "サッカー",
+      "kana": "サッカー",
+      "romaji": "sakkaa",
+      "definition": "soccer"
+    },
+    {
+      "id": "ch11_v24",
+      "partOfSpeech": "noun",
+      "kanji": "テニス",
+      "kana": "テニス",
+      "romaji": "tenisu",
+      "definition": "tennis"
+    },
+    {
+      "id": "ch11_v25",
+      "partOfSpeech": "noun",
+      "kanji": "水泳",
+      "kana": "すいえい",
+      "romaji": "suiei",
+      "definition": "swimming"
+    },
+    {
+      "id": "ch11_v26",
+      "partOfSpeech": "noun",
+      "kanji": "山登り",
+      "kana": "やまのぼり",
+      "romaji": "yamanobori",
+      "definition": "mountain climbing"
+    },
+    {
+      "id": "ch11_v27",
+      "partOfSpeech": "noun",
+      "kanji": "釣り",
+      "kana": "つり",
+      "romaji": "tsuri",
+      "definition": "fishing"
+    },
+    {
+      "id": "ch11_v28",
+      "partOfSpeech": "noun",
+      "kanji": "ゲーム",
+      "kana": "ゲーム",
+      "romaji": "geemu",
+      "definition": "game"
+    },
+    {
+      "id": "ch11_v29",
+      "partOfSpeech": "noun",
+      "kanji": "買い物",
+      "kana": "かいもの",
+      "romaji": "kaimono",
+      "definition": "shopping"
+    },
+    {
+      "id": "ch11_v30",
+      "partOfSpeech": "noun",
+      "kanji": "散歩",
+      "kana": "さんぽ",
+      "romaji": "sanpo",
+      "definition": "walk; stroll"
+    },
+    {
+      "id": "ch11_v31",
+      "partOfSpeech": "noun",
+      "kanji": "パーティー",
+      "kana": "パーティー",
+      "romaji": "paatii",
+      "definition": "party"
+    },
+    {
+      "id": "ch11_v32",
+      "partOfSpeech": "noun",
+      "kanji": "祭り",
+      "kana": "まつり",
+      "romaji": "matsuri",
+      "definition": "festival"
+    },
+    {
+      "id": "ch11_v33",
+      "partOfSpeech": "noun",
+      "kanji": "花火",
+      "kana": "はなび",
+      "romaji": "hanabi",
+      "definition": "fireworks"
+    },
+    {
+      "id": "ch11_v34",
+      "partOfSpeech": "noun",
+      "kanji": "プール",
+      "kana": "プール",
+      "romaji": "puuru",
+      "definition": "swimming pool"
+    },
+    {
+      "id": "ch11_v35",
+      "partOfSpeech": "noun",
+      "kanji": "海外",
+      "kana": "かいがい",
+      "romaji": "kaigai",
+      "definition": "overseas"
+    },
+    {
+      "id": "ch11_v36",
+      "partOfSpeech": "noun",
+      "kanji": "外国",
+      "kana": "がいこく",
+      "romaji": "gaikoku",
+      "definition": "foreign country"
+    },
+    {
+      "id": "ch11_v37",
+      "partOfSpeech": "noun",
+      "kanji": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "definition": "world"
+    },
+    {
+      "id": "ch11_v38",
+      "partOfSpeech": "verb",
+      "kanji": "楽しむ",
+      "kana": "たのしむ",
+      "romaji": "tanoshimu",
+      "definition": "to enjoy"
+    },
+    {
+      "id": "ch11_v39",
+      "partOfSpeech": "verb",
+      "kanji": "乗る",
+      "kana": "のる",
+      "romaji": "noru",
+      "definition": "to ride; to board"
+    },
+    {
+      "id": "ch11_v40",
+      "partOfSpeech": "verb",
+      "kanji": "降りる",
+      "kana": "おりる",
+      "romaji": "oriru",
+      "definition": "to get off; to descend"
+    }
+  ]
+}

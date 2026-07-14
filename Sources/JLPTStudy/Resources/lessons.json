@@ -1,0 +1,367 @@
+{
+  "levels": [
+    {
+      "jlptLevel": "Hiragana",
+      "chapters": [
+        { "id": "kana_h01", "chapterNumber": 1, "title": "Vowels — あ い う え お", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h02", "chapterNumber": 2, "title": "K-row — か き く け こ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h03", "chapterNumber": 3, "title": "S-row — さ し す せ そ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h04", "chapterNumber": 4, "title": "T-row — た ち つ て と", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h05", "chapterNumber": 5, "title": "N-row — な に ぬ ね の", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h06", "chapterNumber": 6, "title": "H-row — は ひ ふ へ ほ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h07", "chapterNumber": 7, "title": "M-row — ま み む め も", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h08", "chapterNumber": 8, "title": "R-Row — ら り る れ ろ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h09", "chapterNumber": 9, "title": "Y-Row, W-Row & N — や ゆ よ わ を ん", "pointCount": 6, "chapterType": "kana" },
+        { "id": "kana_h10", "chapterNumber": 10, "title": "Voiced K ゛— が ぎ ぐ げ ご", "pointCount": 6, "chapterType": "kana" },
+        { "id": "kana_h11", "chapterNumber": 11, "title": "Voiced S ゛— ざ じ ず ぜ ぞ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h12", "chapterNumber": 12, "title": "Voiced T ゛— だ ぢ づ で ど", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h13", "chapterNumber": 13, "title": "Voiced H ゛— ば び ぶ べ ぼ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_h14", "chapterNumber": 14, "title": "Semi-voiced H ゜— ぱ ぴ ぷ ぺ ぽ", "pointCount": 6, "chapterType": "kana" }
+      ]
+    },
+    {
+      "jlptLevel": "Katakana",
+      "chapters": [
+        { "id": "kana_k01", "chapterNumber": 1, "title": "Vowels — ア イ ウ エ オ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k02", "chapterNumber": 2, "title": "K-row — カ キ ク ケ コ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k03", "chapterNumber": 3, "title": "S-row — サ シ ス セ ソ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k04", "chapterNumber": 4, "title": "T-row — タ チ ツ テ ト", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k05", "chapterNumber": 5, "title": "N-row — ナ ニ ヌ ネ ノ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k06", "chapterNumber": 6, "title": "H-row — ハ ヒ フ ヘ ホ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k07", "chapterNumber": 7, "title": "M-row — マ ミ ム メ モ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k08", "chapterNumber": 8, "title": "R-Row — ラ リ ル レ ロ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k09", "chapterNumber": 9, "title": "Y-Row, W-Row & N — ヤ ユ ヨ ワ ヲ ン", "pointCount": 6, "chapterType": "kana" },
+        { "id": "kana_k10", "chapterNumber": 10, "title": "Voiced K ゛— ガ ギ グ ゲ ゴ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k11", "chapterNumber": 11, "title": "Voiced S ゛— ザ ジ ズ ゼ ゾ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k12", "chapterNumber": 12, "title": "Voiced T ゛— ダ ヂ ヅ デ ド", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k13", "chapterNumber": 13, "title": "Voiced H ゛— バ ビ ブ ベ ボ", "pointCount": 5, "chapterType": "kana" },
+        { "id": "kana_k14", "chapterNumber": 14, "title": "Semi-voiced H ゜— パ ピ プ ペ ポ", "pointCount": 6, "chapterType": "kana" }
+      ]
+    },
+    {
+      "jlptLevel": "N5",
+      "chapters": [
+        {
+          "id": "ch01",
+          "chapterNumber": 1,
+          "title": "First Sentences",
+          "pointCount": 3
+        },
+        {
+          "id": "ch02",
+          "chapterNumber": 2,
+          "title": "Pointing and Location",
+          "pointCount": 5
+        },
+        {
+          "id": "ch03",
+          "chapterNumber": 3,
+          "title": "Verbs and Daily Actions",
+          "pointCount": 6
+        },
+        {
+          "id": "ch04",
+          "chapterNumber": 4,
+          "title": "Where Things Are",
+          "pointCount": 5
+        },
+        {
+          "id": "ch05",
+          "chapterNumber": 5,
+          "title": "Adjectives",
+          "pointCount": 5
+        },
+        {
+          "id": "ch06",
+          "chapterNumber": 6,
+          "title": "Te-form and Requests",
+          "pointCount": 5
+        },
+        {
+          "id": "ch07",
+          "chapterNumber": 7,
+          "title": "Actions and Purposes",
+          "pointCount": 3
+        },
+        {
+          "id": "ch08",
+          "chapterNumber": 8,
+          "title": "Short Forms",
+          "pointCount": 4
+        },
+        {
+          "id": "ch09",
+          "chapterNumber": 9,
+          "title": "Modifying Nouns",
+          "pointCount": 3
+        },
+        {
+          "id": "ch10",
+          "chapterNumber": 10,
+          "title": "Comparisons",
+          "pointCount": 5
+        },
+        {
+          "id": "ch11",
+          "chapterNumber": 11,
+          "title": "Experience and Wishes",
+          "pointCount": 4
+        },
+        {
+          "id": "ch12",
+          "chapterNumber": 12,
+          "title": "Explanation, Advice, and Must",
+          "pointCount": 6
+        }
+      ]
+    },
+    {
+      "jlptLevel": "N4",
+      "chapters": [
+        {
+          "id": "ch13",
+          "chapterNumber": 13,
+          "title": "Potential and Trying",
+          "pointCount": 5
+        },
+        {
+          "id": "ch14",
+          "chapterNumber": 14,
+          "title": "Giving and Receiving",
+          "pointCount": 5
+        },
+        {
+          "id": "ch15",
+          "chapterNumber": 15,
+          "title": "Planning Ahead",
+          "pointCount": 4
+        },
+        {
+          "id": "ch16",
+          "chapterNumber": 16,
+          "title": "When and After",
+          "pointCount": 5
+        },
+        {
+          "id": "ch17",
+          "chapterNumber": 17,
+          "title": "Hopes and Regrets",
+          "pointCount": 5
+        },
+        {
+          "id": "ch18",
+          "chapterNumber": 18,
+          "title": "Cause and Result",
+          "pointCount": 4
+        },
+        {
+          "id": "ch19",
+          "chapterNumber": 19,
+          "title": "Honorifics and Respect",
+          "pointCount": 4
+        },
+        {
+          "id": "ch20",
+          "chapterNumber": 20,
+          "title": "Formal Speech and Reported Speech",
+          "pointCount": 4
+        },
+        {
+          "id": "ch21",
+          "chapterNumber": 21,
+          "title": "Passive Voice",
+          "pointCount": 3
+        },
+        {
+          "id": "ch22",
+          "chapterNumber": 22,
+          "title": "Causative and Conditional",
+          "pointCount": 4
+        },
+        {
+          "id": "ch23",
+          "chapterNumber": 23,
+          "title": "Ways of Doing",
+          "pointCount": 3
+        },
+        {
+          "id": "ch24",
+          "chapterNumber": 24,
+          "title": "Starting, Finishing, Continuing",
+          "pointCount": 4
+        },
+        {
+          "id": "ch25",
+          "chapterNumber": 25,
+          "title": "Manner, Duration, and Frequency",
+          "pointCount": 3
+        },
+        {
+          "id": "ch26",
+          "chapterNumber": 26,
+          "title": "Appearance and Inference",
+          "pointCount": 3
+        },
+        {
+          "id": "ch27",
+          "chapterNumber": 27,
+          "title": "Nuance and Hedging",
+          "pointCount": 3
+        }
+      ]
+    },
+    {
+      "jlptLevel": "N3",
+      "chapters": [
+        {
+          "id": "ch28",
+          "chapterNumber": 28,
+          "title": "Reasons and Natural Outcomes",
+          "pointCount": 5
+        },
+        {
+          "id": "ch29",
+          "chapterNumber": 29,
+          "title": "Contrast and Concession",
+          "pointCount": 5
+        },
+        {
+          "id": "ch30",
+          "chapterNumber": 30,
+          "title": "Change Over Time",
+          "pointCount": 3
+        },
+        {
+          "id": "ch31",
+          "chapterNumber": 31,
+          "title": "Degree and Extent",
+          "pointCount": 3
+        },
+        {
+          "id": "ch32",
+          "chapterNumber": 32,
+          "title": "Obligation and Strong Expectation",
+          "pointCount": 3
+        },
+        {
+          "id": "ch33",
+          "chapterNumber": 33,
+          "title": "Possibility and Inability",
+          "pointCount": 3
+        },
+        {
+          "id": "ch34",
+          "chapterNumber": 34,
+          "title": "Formal Connectors",
+          "pointCount": 4
+        },
+        {
+          "id": "ch35",
+          "chapterNumber": 35,
+          "title": "Meaning and Explanation",
+          "pointCount": 3
+        },
+        {
+          "id": "ch36",
+          "chapterNumber": 36,
+          "title": "Nuanced Suffixes and Conjunctions",
+          "pointCount": 3
+        }
+      ]
+    },
+    {
+      "jlptLevel": "N2",
+      "chapters": [
+        {
+          "id": "ch37",
+          "chapterNumber": 37,
+          "title": "Formal Conditionals",
+          "pointCount": 3
+        },
+        {
+          "id": "ch38",
+          "chapterNumber": 38,
+          "title": "Cause and Attribution",
+          "pointCount": 4
+        },
+        {
+          "id": "ch39",
+          "chapterNumber": 39,
+          "title": "Scope and Limitation",
+          "pointCount": 3
+        },
+        {
+          "id": "ch40",
+          "chapterNumber": 40,
+          "title": "Immediate Sequences",
+          "pointCount": 3
+        },
+        {
+          "id": "ch41",
+          "chapterNumber": 41,
+          "title": "Speaker Attitude",
+          "pointCount": 3
+        },
+        {
+          "id": "ch42",
+          "chapterNumber": 42,
+          "title": "Judging From / Based On",
+          "pointCount": 3
+        },
+        {
+          "id": "ch43",
+          "chapterNumber": 43,
+          "title": "Means and Methods (Formal)",
+          "pointCount": 3
+        },
+        {
+          "id": "ch44",
+          "chapterNumber": 44,
+          "title": "Uncertainty and Nuanced Assertion",
+          "pointCount": 2
+        }
+      ]
+    },
+    {
+      "jlptLevel": "N1",
+      "chapters": [
+        {
+          "id": "ch45",
+          "chapterNumber": 45,
+          "title": "Classical and Purposive Patterns",
+          "pointCount": 3
+        },
+        {
+          "id": "ch46",
+          "chapterNumber": 46,
+          "title": "Extremes and Literary Patterns",
+          "pointCount": 3
+        },
+        {
+          "id": "ch47",
+          "chapterNumber": 47,
+          "title": "Obligation and Compulsion",
+          "pointCount": 3
+        },
+        {
+          "id": "ch48",
+          "chapterNumber": 48,
+          "title": "Scope and Formal Reference",
+          "pointCount": 3
+        },
+        {
+          "id": "ch49",
+          "chapterNumber": 49,
+          "title": "Advanced Assertion",
+          "pointCount": 3
+        },
+        {
+          "id": "ch50",
+          "chapterNumber": 50,
+          "title": "Advanced Nuance",
+          "pointCount": 4
+        }
+      ]
+    }
+  ]
+}

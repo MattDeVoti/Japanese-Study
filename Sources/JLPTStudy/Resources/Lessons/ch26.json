@@ -1,0 +1,1289 @@
+{
+  "id": "ch26",
+  "chapterNumber": 26,
+  "title": "Appearance and Inference",
+  "points": [
+    {
+      "id": "rashii",
+      "name": "〜らしい (rashii) — apparently / I hear that / seems like",
+      "shortDescription": "Inference from hearsay or indirect evidence ('apparently / I hear that') — and characteristic typicality ('truly X-like').",
+      "formation": "Plain form + らしい  |  Noun / な-adj stem + らしい",
+      "explanation": "らしい is a double-duty word with two quite different jobs.\n\nUse 1 — inference from hearsay or indirect evidence: 田中さんは来月結婚するらしいです ('Apparently Tanaka-san is getting married next month'). You didn't witness this directly — you heard it from someone, read it somewhere, or pieced it together from indirect signs. The key: your evidence is external, not first-hand.\n\nThis puts らしい in an interesting spot among the inference expressions you know. The quick map: appearance-based そうです (Ch13) = reacting to what you see directly right now. みたいだ (Ch17) = casual inference from observation or information. ようだ (Ch22) = careful, somewhat formal inference. らしい = inference specifically weighted toward hearsay or external/indirect evidence.\n\nFormation for Use 1: plain form + らしい (verbs and い-adj); noun/な-adj stem directly + らしい (no な or だ needed).\n\nUse 2 — characteristic typicality: noun + らしい creates an adjective meaning 'genuinely like' or 'truly characteristic of' that noun. 日本らしい景色 (a truly Japanese scene), 先生らしい (like a proper teacher should be), 子どもらしい元気さ (energy that is just like a child). This use isn't about uncertainty at all — it's about authentic embodiment of a quality.\n\nらしい itself is an い-adjective and conjugates: らしくない (doesn't seem / not typical of), らしかった (seemed / was typical of).",
+      "rules": [
+        "Inference use: plain form + らしい = apparently / I hear that (based on hearsay or indirect evidence)",
+        "Characteristic use: Noun + らしい = truly like / typical of [noun] (日本らしい = genuinely Japanese)",
+        "Noun/な-adj stem attach directly to らしい — no な or だ before it",
+        "らしい is an い-adjective: らしくない, らしかった, らしく (adverb form)",
+        "Quick inference map: そうです (visual), みたいだ (casual), ようだ (formal), らしい (hearsay/indirect)"
+      ],
+      "examples": [
+        {
+          "japanese": "田中[たなか]さんは来月[らいげつ]、結婚[けっこん]するらしいです。",
+          "romaji": "Tanaka-san wa raigetsu, kekkon suru rashii desu.",
+          "english": "Apparently Tanaka-san is getting married next month."
+        },
+        {
+          "japanese": "このレストランはとても人気[にんき]があるらしいですよ。",
+          "romaji": "Kono resutoran wa totemo ninki ga aru rashii desu yo.",
+          "english": "I hear this restaurant is very popular."
+        },
+        {
+          "japanese": "これぞ、日本[にっぽん]らしい景色[けしき]ですね。",
+          "romaji": "Kore zo, Nihon rashii keshiki desu ne.",
+          "english": "Now this is a truly Japanese scene, isn't it."
+        },
+        {
+          "japanese": "彼女[かのじょ]は子[こ]どもらしく、元気[げんき]に走[はし]り回[まわ]っていました。",
+          "romaji": "Kanojo wa kodomo rashiku, genki ni hashirimawatte imashita.",
+          "english": "She was running around energetically, just like a child."
+        }
+      ],
+      "flashcardHeader": "〜らしい",
+      "flashcardAnswer": "Hearsay inference ('apparently / I hear that') or characteristic typicality ('truly like a [noun]').",
+      "practice": [
+        {
+          "id": "rashii_q1",
+          "type": "usage",
+          "prompt": "What does 〜らしい mean (inferential)?",
+          "japanese": null,
+          "choices": [
+            "I decided to do",
+            "It seems like / I hear that (hearsay/inference from evidence)",
+            "I want to do",
+            "I should do"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜らしい = it seems like / I hear that / apparently (inference from hearsay or indirect evidence). 雨[あめ]が降[ふ]るらしい = it seems it will rain (I heard/there are signs). Based on information from others or observable evidence."
+        },
+        {
+          "id": "rashii_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'He seems to be sick' (hearsay/inference)?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は病気[びょうき]のようです。",
+            "彼[かれ]は病気[びょうき]みたいです。",
+            "彼[かれ]は病気[びょうき]らしいです。",
+            "彼[かれ]は病気[びょうき]そうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + らしい: 病気[びょうき] + らしいです = 病気[びょうき]らしいです = seems to be sick / I heard he's sick. らしい after a noun expresses inference from information (hearsay) or general impression."
+        },
+        {
+          "id": "rashii_q3",
+          "type": "usage",
+          "prompt": "What is the PRIMARY basis for inference with らしい?",
+          "japanese": null,
+          "choices": [
+            "Direct visual observation (you saw it yourself)",
+            "Hearsay, indirect evidence, or general knowledge/rumors",
+            "Gut feeling or intuition",
+            "Future planning"
+          ],
+          "correctIndex": 1,
+          "explanation": "らしい is based on hearsay (something you heard from others), indirect evidence, or general social knowledge. 田中[たなか]さんは転職[てんしょく]したらしい = I hear Tanaka changed jobs (not directly observed). Compare ようだ = inference from your own direct observation."
+        },
+        {
+          "id": "rashii_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Apparently, the meeting was cancelled'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]は中止[ちゅうし]のようです。",
+            "会議[かいぎ]は中止[ちゅうし]みたいです。",
+            "会議[かいぎ]は中止[ちゅうし]らしいです。",
+            "会議[かいぎ]は中止[ちゅうし]そうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + らしい: 中止[ちゅうし] (cancellation) + らしいです = らしいです = apparently/I hear it was cancelled. らしい is natural for information heard from others or general awareness."
+        },
+        {
+          "id": "rashii_q5",
+          "type": "usage",
+          "prompt": "What is the SECOND meaning of らしい (NOT inferential)?",
+          "japanese": null,
+          "choices": [
+            "It indicates regret",
+            "Typical of / behaving like / fitting the nature of",
+            "Gradual change",
+            "Permission"
+          ],
+          "correctIndex": 1,
+          "explanation": "らしい also means 'typical of / acting like / fitting the ideal of'. 先生[せんせい]らしい先生[せんせい] = a teacher who is truly like a teacher (exemplary). 女[おんな]らしい = feminine / like a woman. This sense means 'living up to the ideal'."
+        },
+        {
+          "id": "rashii_q6",
+          "type": "construct",
+          "prompt": "Which uses らしい for 'typical of' (not inferential)?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]らしい遊[あそ]び方[ほう] (play typical of/befitting a child)",
+            "彼[かれ]は子供[こども]らしいです。(I hear he is a child)",
+            "子供[こども]らしくない (hearsay: not childlike)",
+            "子供[こども]らしいから、泣[な]く (because apparently he's a child)"
+          ],
+          "correctIndex": 0,
+          "explanation": "子供[こども]らしい遊[あそ]び方[ほう] = a way of playing that is typical of / befitting a child. This is the 'typical of' use (not hearsay). 子供[こども]らしい before a noun = child-like, fitting for a child."
+        },
+        {
+          "id": "rashii_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'I hear this shop is delicious'?",
+          "japanese": null,
+          "choices": [
+            "このお店[みせ]は美味[おい]しいようです。",
+            "このお店[みせ]は美味[おい]しいそうです。",
+            "このお店[みせ]は美味[おい]しいらしいです。",
+            "このお店[みせ]は美味[おい]しいみたいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain form (adjective) + らしい: 美味[おい]しい + らしい = apparently/I hear  delicious. らしい after い-adj for hearsay inference. この店[みせ]は美味[おい]しいらしいです = I hear this shop is good."
+        },
+        {
+          "id": "rashii_q8",
+          "type": "usage",
+          "prompt": "Which inferential word is MOST suited when you personally observe evidence?",
+          "japanese": null,
+          "choices": [
+            "らしい",
+            "そうだ (hearsay form)",
+            "ようだ",
+            "〜みたいだ"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようだ = inference from personal direct observation. そうだ (hearsay) = 'I heard that'. らしい = hearsay or indirect evidence. When YOU directly see evidence (dark clouds = rain coming), ようだ is most natural. みたいだ = same as ようだ but more casual."
+        },
+        {
+          "id": "rashii_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'Apparently the new student is from America'?",
+          "japanese": null,
+          "choices": [
+            "新[あたら]しい学生[がくせい]はアメリカ出身[しゅっしん]のようです。",
+            "新[あたら]しい学生[がくせい]はアメリカ出身[しゅっしん]みたいです。",
+            "新[あたら]しい学生[がくせい]はアメリカ出身[しゅっしん]そうです。",
+            "新[あたら]しい学生[がくせい]はアメリカ出身[しゅっしん]らしいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Noun + らしい: アメリカ出身[しゅっしん] (from America) + らしいです = apparently from America (I heard/social awareness). らしい is ideal for social/hearsay information about new people."
+        },
+        {
+          "id": "rashii_q10",
+          "type": "usage",
+          "prompt": "Which correctly uses 〜らしくない (not typical of)?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]らしくない行動[こうどう]だった。(That was out of character for him)",
+            "彼[かれ]らしくない、聞[き]いた。(I heard he's not typical)",
+            "彼[かれ]らしくない病気[びょうき]だ。(Apparently he's sick)",
+            "彼[かれ]らしくない、来[く]るかもしれない。(He'll come apparently)"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜らしくない = untypical of / out of character. 彼[かれ]らしくない行動[こうどう] = behavior untypical of him / out of character. らしくない = negative 'typical of' — not at all what you'd expect from that person."
+        },
+        {
+          "id": "rashii_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'Apparently the new product will be released next month'?",
+          "japanese": null,
+          "choices": [
+            "新製品[しんせいひん]は来月[らいげつ]発売[はつばい]するようです。",
+            "新製品[しんせいひん]は来月[らいげつ]発売[はつばい]するみたいです。",
+            "新製品[しんせいひん]は来月[らいげつ]発売[はつばい]するらしいです。",
+            "新製品[しんせいひん]は来月[らいげつ]発売[はつばい]しそうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain form + らしい: 発売[はつばい]する (dict) + らしいです = apparently will be released. 来月[らいげつ]発売[はつばい]するらしいです = apparently it'll be released next month (information heard from somewhere)."
+        },
+        {
+          "id": "rashii_q12",
+          "type": "translation",
+          "prompt": "Which means 'That person is apparently a doctor'?",
+          "japanese": null,
+          "choices": [
+            "あの人[にん]は医者[いしゃ]のようです。",
+            "あの人[にん]は医者[いしゃ]らしいです。",
+            "あの人[にん]は医者[いしゃ]みたいです。",
+            "あの人[にん]は医者[いしゃ]そうです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + らしい: 医者[いしゃ] + らしいです = apparently a doctor / I hear  a doctor. らしい is natural for social/hearsay information about people."
+        },
+        {
+          "id": "rashii_q13",
+          "type": "usage",
+          "prompt": "What is the key difference between らしい and そうだ (hearsay)?",
+          "japanese": null,
+          "choices": [
+            "They are completely the same",
+            "そうだ = direct quote from a specific source ('I was told...'); らしい = general impression from multiple sources/social info",
+            "そうだ = for the future; らしい = for the past",
+            "らしい = formal; そうだ = casual"
+          ],
+          "correctIndex": 1,
+          "explanation": "そうだ (hearsay) = based on something specifically said to you or reported. 先生[せんせい]が言[い]ったそうだ = apparently the teacher said (specific source). らしい = from general social awareness, multiple sources, or indirect evidence — vaguer sourcing."
+        },
+        {
+          "id": "rashii_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'The president acted president-like' (befitting his role)?",
+          "japanese": null,
+          "choices": [
+            "社長[しゃちょう]は社長[しゃちょう]のようだった。",
+            "社長[しゃちょう]は社長[しゃちょう]らしかった。",
+            "社長[しゃちょう]は社長[しゃちょう]みたいだった。",
+            "社長[しゃちょう]は社長[しゃちょう]そうだった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜らしかった = was typical of / acted befitting. 社長[しゃちょう]らしかった = acted like/befitting a president (lived up to the role). The 'typical of' sense of らしい applied to past."
+        },
+        {
+          "id": "rashii_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'I hear he quit his job'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は仕事[しごと]を辞[や]めたようです。",
+            "彼[かれ]は仕事[しごと]を辞[や]めたみたいです。",
+            "彼[かれ]は仕事[しごと]を辞[や]めたらしいです。",
+            "彼[かれ]は仕事[しごと]を辞[や]めたそうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ta-form + らしい: 辞[や]めた + らしいです = apparently quit / I hear  quit. 仕事[しごと]を辞[や]めたらしいです = I hear he quit his job (general social knowledge / hearsay)."
+        },
+        {
+          "id": "rashii_q16",
+          "type": "translation",
+          "prompt": "Which means 'This cake looks delicious' (direct visual — not hearsay)?",
+          "japanese": null,
+          "choices": [
+            "このケーキはおいしいらしいです。",
+            "このケーキはおいしいそうです。",
+            "このケーキはおいしそうです。",
+            "このケーキはおいしいようです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "おいしそう = looks delicious (direct visual impression — you can see it). そう = visual/appearance. おいしいらしい = apparently delicious (hearsay). らしい and そうだ(hearsay) = indirect information; そう(appearance) = direct visual."
+        },
+        {
+          "id": "rashii_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'Her singing is very singer-like (professional)'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]の歌[うた]は歌手[かしゅ]のようです。",
+            "彼女[かのじょ]の歌[うた]は歌手[かしゅ]らしいです。",
+            "彼女[かのじょ]の歌[うた]は歌手[かしゅ]みたいです。",
+            "彼女[かのじょ]の歌[うた]は歌手[かしゅ]そうです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + らしい (typical of): 歌手[かしゅ] + らしい = singer-like / professional as a singer. 彼女[かのじょ]の歌[うた]は歌手[かしゅ]らしいです = her singing is very singer-like (befitting a professional singer)."
+        },
+        {
+          "id": "rashii_q18",
+          "type": "usage",
+          "prompt": "Which uses らしい for INFERENCE and not 'typical of'?",
+          "japanese": null,
+          "choices": [
+            "男[おとこ]らしい男[おとこ]",
+            "子供[こども]らしい遊[あそ]び方[ほう]",
+            "先生[せんせい]らしい先生[せんせい]",
+            "このレストランはおいしいらしい"
+          ],
+          "correctIndex": 3,
+          "explanation": "このレストランはおいしいらしい = apparently this restaurant is good (inference from hearsay). Options 1, 2, 3 all express 'typical of / befitting' — 男[おとこ]らしい = manly; 子供[こども]らしい = child-like; 先生[せんせい]らしい = teacher-like."
+        },
+        {
+          "id": "rashii_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'Apparently that movie is interesting'?",
+          "japanese": null,
+          "choices": [
+            "あの映画[えいが]は面白[おもしろ]いようです。",
+            "あの映画[えいが]は面白[おもしろ]いらしいです。",
+            "あの映画[えいが]は面白[おもしろ]そうです。",
+            "あの映画[えいが]は面白[おもしろ]いみたいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plain form + らしい: 面白[おもしろ]い + らしいです = apparently interesting. あの映画[えいが]は面白[おもしろ]いらしいです = apparently that movie is interesting (I heard from someone/social buzz)."
+        },
+        {
+          "id": "rashii_q20",
+          "type": "usage",
+          "prompt": "Which sentence uses らしい INCORRECTLY?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]、雨[あめ]が降[ふ]るらしい。",
+            "彼[かれ]は医者[いしゃ]らしいです。",
+            "これは彼[かれ]らしい作品[さくひん]です。",
+            "この問題[もんだい]を解[と]くらしいでください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜らしいでください is ungrammatical. らしい cannot be followed by ください. You can't make a request using らしい. Options 1, 2, 3 are all correct uses (hearsay, hearsay, typical-of)."
+        }
+      ]
+    },
+    {
+      "id": "you-ni-naru",
+      "name": "〜ようになる (you ni naru) — come to / reach the point where",
+      "shortDescription": "Expresses reaching a new stage through gradual change — 'come to be able to' or 'came to do.'",
+      "formation": "Verb (dictionary or potential form) + ようになる  |  Verb (ない-form) + ようになる",
+      "explanation": "〜ようになる is the grammar of growth and progress. It describes arriving at a new state or capability through a gradual process — crossing a threshold you couldn't before. The emphasis is always on the *journey* toward the new state, not just the arrival.\n\n日本語が話せるようになりました: 'I've come to be able to speak Japanese.' This sentence says more than just 'I can speak Japanese now' — it says that getting here took time and effort, and that this is meaningfully different from where I was. It's the kind of sentence you say at the end of a language-learning chapter.\n\nThe negative version: ないようになる means 'came to not do / stopped doing.' 甘いものを食べないようになりました: 'I've come to the point of not eating sweets' — it used to happen, but I've gradually moved away from it.\n\nようになる vs ようにする (coming next): this distinction is worth locking in:\n• ようにする = the *effort* (I'm working toward it, not there yet)\n• ようになる = the *result* (I've arrived at a new state)\nBoth can live in the same learning arc: ようにしています leads to ようになりました.\n\nようになる pairs beautifully with progress adverbs: だんだん話せるようになってきた (I've been gradually getting better at speaking), やっと〜ようになった (I've finally reached the point where…).",
+      "rules": [
+        "Verb (dict/potential form) + ようになる = come to be able to / reach the point of doing (gradual change)",
+        "ない-form + ようになる = came to not do / stopped doing (reached a non-doing state)",
+        "Emphasizes gradual process and threshold-crossing — not an abrupt change",
+        "ようになる = achieved result; ようにする = ongoing effort toward that result",
+        "Pairs naturally with progress adverbs: だんだん, ようやく, やっと, もっと"
+      ],
+      "examples": [
+        {
+          "japanese": "練習[れんしゅう]を続[つづ]けて、ようやく泳[およ]げるようになりました。",
+          "romaji": "Renshuu wo tsudukete, youyaku oyogeru you ni narimashita.",
+          "english": "By continuing to practice, I've finally come to be able to swim."
+        },
+        {
+          "japanese": "日本語[にほんご]の勉強[べんきょう]を続[つづ]けたら、新聞[しんぶん]が読[よ]めるようになりますよ。",
+          "romaji": "Nihongo no benkyou wo tsuduketa ra, shinbun ga yomeru you ni narimasu yo.",
+          "english": "If you keep studying Japanese, you'll be able to read the newspaper."
+        },
+        {
+          "japanese": "健康[けんこう]のために、甘[あま]いものを食[た]べないようにしています。",
+          "romaji": "Kenkou no tame ni, amai mono wo tabenai you ni shite imasu.",
+          "english": "For my health, I've been working to not eat sweets."
+        },
+        {
+          "japanese": "一年間[いちねんかん]で、敬語[けいご]が少[すこ]し使[つか]えるようになりました。",
+          "romaji": "Ichinenkan de, keigo ga sukoshi tsukaeru you ni narimashita.",
+          "english": "Over the course of a year, I've come to be able to use honorific speech a little."
+        }
+      ],
+      "flashcardHeader": "〜ようになる",
+      "flashcardAnswer": "Gradual change leading to a new state or ability — 'came to be able to / reached the point of.'",
+      "practice": [
+        {
+          "id": "you-ni-naru_q1",
+          "type": "usage",
+          "prompt": "What does 〜ようになる mean?",
+          "japanese": null,
+          "choices": [
+            "to make an effort to do X",
+            "to decide to do X",
+            "to come to be able to / has reached the point where X (gradual change)",
+            "to seem like X is happening"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ようになる = to come to be / to have reached the point where (gradual change or development). 日本語[にほんご]が話[はな]せるようになった = I've come to be able to speak Japanese. Expresses gradual development over time."
+        },
+        {
+          "id": "you-ni-naru_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'I've come to be able to swim'?",
+          "japanese": null,
+          "choices": [
+            "泳[およ]げるようにした。",
+            "泳[およ]げるようになった。",
+            "泳[およ]ぐようになった。",
+            "泳[およ]ぎようになった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Potential form + ようになった = has come to be able to. 泳[およ]げる (potential) + ようになった = has come to be able to swim (gradual development). 泳[およ]げるようになった = I can now swim (developed ability)."
+        },
+        {
+          "id": "you-ni-naru_q3",
+          "type": "construct",
+          "prompt": "Which correctly says 'He started drinking coffee every day' (habit developed)?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]コーヒーを飲[の]めるようになった。",
+            "毎日[まいにち]コーヒーを飲[の]むようにした。",
+            "毎日[まいにち]コーヒーを飲[の]まないようになった。",
+            "毎日[まいにち]コーヒーを飲[の]むようになった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Dict-form + ようになった = started doing / came to do (developed habit). 飲[の]む + ようになった = came to drink. 毎日[まいにち]コーヒーを飲[の]むようになった = he started drinking coffee every day (developed the habit)."
+        },
+        {
+          "id": "you-ni-naru_q4",
+          "type": "usage",
+          "prompt": "What does ようにする express (vs ようになる)?",
+          "japanese": null,
+          "choices": [
+            "It means the same as ようになる",
+            "Deliberate effort / making a point to do X (active intentional effort)",
+            "Appearance or manner",
+            "Gradual natural change"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにする = to make a point to / to take care to / to make an effort to (active intentional effort by the subject). 毎日[まいにち]運動[うんどう]するようにしている = I make a point to exercise every day. ようになる = gradual change; ようにする = deliberate effort."
+        },
+        {
+          "id": "you-ni-naru_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'I started being careful not to be late'?",
+          "japanese": null,
+          "choices": [
+            "遅刻[ちこく]しないようになった。",
+            "遅刻[ちこく]しないようにした。",
+            "遅刻[ちこく]しないようにしている。",
+            "遅刻[ちこく]しないようにする。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Negative + ようにしている = am making a point to not do (ongoing effort). 遅刻[ちこく]しない + ようにしている = I'm being careful not to be late (ongoing deliberate effort). している = ongoing state."
+        },
+        {
+          "id": "you-ni-naru_q6",
+          "type": "translation",
+          "prompt": "Which means 'I came to understand Japanese culture'?",
+          "japanese": null,
+          "choices": [
+            "日本[にっぽん]の文化[ぶんか]を理解[りかい]するようにした。",
+            "日本[にっぽん]の文化[ぶんか]が理解[りかい]できるようになった。",
+            "日本[にっぽん]の文化[ぶんか]を理解[りかい]しようにした。",
+            "日本[にっぽん]の文化[ぶんか]が理解[りかい]するようになった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Potential + ようになった: 理解[りかい]できる + ようになった = came to be able to understand. が marks the object with potential verbs. 日本[にっぽん]の文化[ぶんか]が理解[りかい]できるようになった = came to be able to understand Japanese culture."
+        },
+        {
+          "id": "you-ni-naru_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'I try to eat vegetables every day' (deliberate effort)?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]野菜[やさい]を食[た]べるようになる。",
+            "毎日[まいにち]野菜[やさい]を食[た]べるようにしている。",
+            "毎日[まいにち]野菜[やさい]を食[た]べるようになっている。",
+            "毎日[まいにち]野菜[やさい]を食[た]べようになる。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにしている = making a point to (ongoing effort). 食[た]べる + ようにしている = am making a point to eat. 毎日[まいにち]野菜[やさい]を食[た]べるようにしている = I try to eat vegetables every day (deliberate practice)."
+        },
+        {
+          "id": "you-ni-naru_q8",
+          "type": "usage",
+          "prompt": "Which sentence best expresses NATURAL GRADUAL CHANGE (not deliberate effort)?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]運動[うんどう]するようにした。",
+            "外食[がいしょく]しないようにしている。",
+            "日本語[にほんご]の新聞[しんぶん]が読[よ]めるようになった。",
+            "早[はや]く寝[ね]るようにしている。"
+          ],
+          "correctIndex": 2,
+          "explanation": "日本語[にほんご]の新聞[しんぶん]が読[よ]めるようになった = I've come to be able to read Japanese newspapers (gradual development of ability). ようになった = natural gradual change. Options 1, 2, 4 all use ようにする (deliberate effort)."
+        },
+        {
+          "id": "you-ni-naru_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'I decided to eat less' (made a decision / took action)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べすぎないようになった。",
+            "食[た]べすぎないようにした。",
+            "食[た]べすぎないようにしている。",
+            "食[た]べすぎないようになる。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにした = decided to / made a change to (past action taken). 食[た]べすぎない + ようにした = I decided/acted to eat less. One-time decision implemented in the past."
+        },
+        {
+          "id": "you-ni-naru_q10",
+          "type": "translation",
+          "prompt": "Which means 'She has come to speak very well'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]はとても上手[じょうず]に話[はな]すようにした。",
+            "彼女[かのじょ]はとても上手[じょうず]に話[はな]せるようになった。",
+            "彼女[かのじょ]はとても上手[じょうず]に話[はな]せるようにした。",
+            "彼女[かのじょ]はとても上手[じょうず]話[はな]すようになった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Potential + ようになった: 話[はな]せる + ようになった = has come to be able to speak. 彼女[かのじょ]はとても上手[じょうず]に話[はな]せるようになった = she has come to speak very well (developed ability)."
+        },
+        {
+          "id": "you-ni-naru_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'I've started going to bed earlier' (developed habit)?",
+          "japanese": null,
+          "choices": [
+            "早[はや]く寝[ね]るようにした。",
+            "早[はや]く寝[ね]るようにしている。",
+            "早[はや]く寝[ね]るようになった。",
+            "早[はや]く寝[ね]られるようになった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dict-form + ようになった = has come to do (developed habit). 早[はや]く寝[ね]る + ようになった = has come to go to bed earlier (habit developed over time). ようになった = natural behavioral change."
+        },
+        {
+          "id": "you-ni-naru_q12",
+          "type": "usage",
+          "prompt": "What is the difference between ようになった and ようにした in terms of AGENCY?",
+          "japanese": null,
+          "choices": [
+            "No difference in agency",
+            "ようになった = gradual/natural change (subject changed passively); ようにした = subject actively made the change happen",
+            "ようにした = gradual; ようになった = sudden",
+            "ようになった is for others; ようにした is for yourself"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようになった = change happened gradually, often without strong deliberate intent (language ability developed). ようにした = the SUBJECT actively decided to and made the change (I made myself do X). Agency is key: ようになる = it changed; ようにする = I changed it."
+        },
+        {
+          "id": "you-ni-naru_q13",
+          "type": "construct",
+          "prompt": "Which correctly says 'I try not to use my phone before bed'?",
+          "japanese": null,
+          "choices": [
+            "寝[ね]る前[まえ]にスマホを使[つか]わないようになった。",
+            "寝[ね]る前[まえ]にスマホを使[つか]わないようにしている。",
+            "寝[ね]る前[まえ]にスマホを使[つか]わないようにした。",
+            "寝[ね]る前[まえ]にスマホを使[つか]えないようになった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Negative + ようにしている = making a point to NOT do (ongoing effort). 使[つか]わない + ようにしている = am making a point to not use. 寝[ね]る前[まえ]にスマホを使[つか]わないようにしている = I try not to use my phone before bed."
+        },
+        {
+          "id": "you-ni-naru_q14",
+          "type": "translation",
+          "prompt": "Which means 'He came to enjoy Japanese food'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は日本食[にほんしょく]を楽[たの]しむようにした。",
+            "彼[かれ]は日本食[にほんしょく]が楽[たの]しめるようにした。",
+            "彼[かれ]は日本食[にほんしょく]が楽[たの]しめるようになった。",
+            "彼[かれ]は日本食[にほんしょく]を楽[たの]しいようになった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "楽[たの]しめる (potential) + ようになった = came to be able to enjoy. 日本食[にほんしょく]が楽[たの]しめるようになった = came to enjoy Japanese food (developed taste/appreciation)."
+        },
+        {
+          "id": "you-ni-naru_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'I take care to save money every month'?",
+          "japanese": null,
+          "choices": [
+            "毎月[まいつき]お金[きん]を貯[た]めるようになった。",
+            "毎月[まいつき]お金[きん]を貯[た]められるようになった。",
+            "毎月[まいつき]お金[きん]を貯[た]めるようにしている。",
+            "毎月[まいつき]お金[きん]を貯[た]めるようにした。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにしている = make a point to / ongoing effort. 貯[た]める + ようにしている = am making a point to save. 毎月[まいつき]お金[きん]を貯[た]めるようにしている = I take care to save money every month (deliberate ongoing effort)."
+        },
+        {
+          "id": "you-ni-naru_q16",
+          "type": "usage",
+          "prompt": "Which is a natural use of ようになった for ability development?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]運動[うんどう]するようになった。(started exercising every day)",
+            "漢字[かんじ]が100字書[じしょ]けるようになった。(came to be able to write 100 kanji)",
+            "早起[はやお]きするようになった。(started waking up early)",
+            "肉[にく]を食[た]べないようになった。(stopped eating meat)"
+          ],
+          "correctIndex": 1,
+          "explanation": "漢字[かんじ]が100字書[じしょ]けるようになった = came to be able to write 100 kanji (ability development). This is the clearest example of potential form + ようになった expressing developed ability. All options are grammatically correct, but option 2 most clearly expresses ability development."
+        },
+        {
+          "id": "you-ni-naru_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'She started walking to work' (developed habit, not deliberate effort)?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は歩[ある]いて通勤[つうきん]するようにした。",
+            "彼女[かのじょ]は歩[ある]いて通勤[つうきん]するようになった。",
+            "彼女[かのじょ]は歩[ある]いて通勤[つうきん]するようにしている。",
+            "彼女[かのじょ]は歩[ある]いて通勤[つうきん]できるようになった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Dict-form + ようになった = natural/gradual development of habit. 通勤[つうきん]する + ようになった = came to commute. 歩[ある]いて通勤[つうきん]するようになった = started walking to work (habit developed naturally, not emphasized as deliberate effort)."
+        },
+        {
+          "id": "you-ni-naru_q18",
+          "type": "translation",
+          "prompt": "Which means 'I'm making a point to take the stairs instead of the elevator'?",
+          "japanese": null,
+          "choices": [
+            "エレベーターを使[つか]わないようになった。",
+            "エレベーターの代[か]わりに階段[かいだん]を使[つか]うようになった。",
+            "エレベーターの代[か]わりに階段[かいだん]を使[つか]うようにしている。",
+            "エレベーターを使[つか]えないようになった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにしている = deliberate ongoing effort. 使[つか]う + ようにしている = making a point to use. エレベーターの代[か]わりに階段[かいだん]を使[つか]うようにしている = I'm making a point to use the stairs instead of the elevator."
+        },
+        {
+          "id": "you-ni-naru_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'I came to like Japanese music'?",
+          "japanese": null,
+          "choices": [
+            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった。",
+            "日本[にっぽん]の音楽[おんがく]が好[す]きなようになった。",
+            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようにした。",
+            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "好[す]きになる (to come to like) + ようになった = came to like (doubly gradual change). 日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった = came to like Japanese music. Both 0 and 3 are the same text; correctIndex=3 as labeled."
+        },
+        {
+          "id": "you-ni-naru_q20",
+          "type": "usage",
+          "prompt": "Complete the rule: '〜ようになった is to ____ as 〜ようにした is to ____'",
+          "japanese": null,
+          "choices": [
+            "gradual natural change ... deliberate intentional change",
+            "past change ... future change",
+            "ability ... desire",
+            "negative ... positive"
+          ],
+          "correctIndex": 0,
+          "explanation": "ようになった : gradual natural change (something developed, evolved, or changed over time). ようにした : deliberate intentional change (the subject actively decided to and implemented a change). This contrast — natural vs intentional — is the core distinction."
+        }
+      ]
+    },
+    {
+      "id": "you-ni-suru",
+      "name": "〜ようにする (you ni suru) — make an effort to / try to (as a habit)",
+      "shortDescription": "Expresses an ongoing, conscious effort to do or not do something habitually.",
+      "formation": "Verb (dictionary form) + ようにする  |  Verb (ない-form) + ようにする",
+      "explanation": "〜ようにする is the grammar of good intentions — and the daily work of following through on them. It means 'to make an effort to [do X]' or 'to try to keep [doing X]' as a habitual, ongoing practice.\n\n毎日運動するようにしています: 'I make an effort to exercise every day.' Not 'I exercise every day' (which would just use 運動しています) — but 'I'm working at keeping up the habit.' There's honest self-awareness in ようにする: you're trying, and that implies it's not effortless.\n\nThe negative: ないようにする = 'make an effort not to do X.' スマホを見すぎないようにしています: 'I'm trying not to look at my phone too much' — a battle many of us recognize.\n\nThis is where ようにする and ようになる diverge clearly:\n• ようにしている = I'm putting in the effort right now (process)\n• ようになった = I've achieved the new state (result)\n'I'm trying to get to bed earlier' = 早く寝るようにしている. 'I've gotten to the point of going to bed earlier' = 早く寝るようになった.\n\nようにしてください is a gentle, indirect request: 時間を守るようにしてください ('Please make an effort to be on time') — softer than a direct command, because you're asking for their effort, not demanding the result.",
+      "rules": [
+        "Verb (dict form) + ようにする = make a conscious habit of doing X (ongoing effort)",
+        "ない-form + ようにする = make an effort not to do X",
+        "Describes the effort and intention — not a guaranteed achieved state",
+        "ようになる = arrived at a new state; ようにする = working toward it",
+        "ようにしてください = gentle indirect request ('please make an effort to')"
+      ],
+      "examples": [
+        {
+          "japanese": "毎日[まいにち]八[はち]時間[じかん]寝[ね]るようにしています。",
+          "romaji": "Mainichi hachijikan neru you ni shite imasu.",
+          "english": "I make an effort to sleep eight hours every day."
+        },
+        {
+          "japanese": "なるべく野菜[やさい]をたくさん食[た]べるようにしています。",
+          "romaji": "Narubeku yasai wo takusan taberu you ni shite imasu.",
+          "english": "I try to eat plenty of vegetables as much as possible."
+        },
+        {
+          "japanese": "時間[じかん]を守[まも]るようにしてください。",
+          "romaji": "Jikan wo mamoru you ni shite kudasai.",
+          "english": "Please make an effort to be on time."
+        },
+        {
+          "japanese": "スマホを見[み]すぎないようにしているんですが、難[むずか]しいです。",
+          "romaji": "Sumaho wo misugina you ni shite iru n desu ga, muzukashii desu.",
+          "english": "I'm trying not to look at my phone too much, but it's difficult."
+        }
+      ],
+      "flashcardHeader": "〜ようにする",
+      "flashcardAnswer": "Ongoing, conscious effort to do or not do something habitually — 'I'm making an effort to / trying to.'",
+      "practice": [
+        {
+          "id": "you-ni-suru_q1",
+          "type": "usage",
+          "prompt": "What does 〜ようにする mean?",
+          "japanese": null,
+          "choices": [
+            "Something changed naturally",
+            "To make an effort to / to see to it that / to take care to (deliberate action)",
+            "Something that appears to be happening",
+            "To decide not to do"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ようにする = to make a point to / to see to it that / to take care to (deliberate, intentional effort by the subject). 毎日[まいにち]運動[うんどう]するようにしている = I make a point to exercise every day. Active volition."
+        },
+        {
+          "id": "you-ni-suru_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'll take care not to be late'?",
+          "japanese": null,
+          "choices": [
+            "遅[おく]れないようにする。",
+            "遅[おく]れないようになる。",
+            "遅[おく]れないようにした。",
+            "遅[おく]れないようにしている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative + ようにする = make an effort to NOT do. 遅[おく]れない + ようにする = will take care not to be late. する (present/volitional) = intention going forward."
+        },
+        {
+          "id": "you-ni-suru_q3",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please make sure to eat breakfast'?",
+          "japanese": null,
+          "choices": [
+            "朝[あさ]ごはんを食[た]べるようになってください。",
+            "朝[あさ]ごはんを食[た]べるようにしてください。",
+            "朝[あさ]ごはんを食[た]べるようにしてなさい。",
+            "朝[あさ]ごはんを食[た]べるようになさい。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにしてください = please see to it that / please make a point to. 食[た]べる + ようにしてください = please make sure to eat. Soft instruction using ようにする + てください."
+        },
+        {
+          "id": "you-ni-suru_q4",
+          "type": "translation",
+          "prompt": "Which means 'I'm trying to drink more water'?",
+          "japanese": null,
+          "choices": [
+            "もっと水[みず]を飲[の]むようになった。",
+            "もっと水[みず]が飲[の]めるようになった。",
+            "もっと水[みず]を飲[の]むようにしている。",
+            "もっと水[みず]を飲[の]むようにした。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにしている = currently making a point to (ongoing effort). 飲[の]む + ようにしている = am making a point to drink. もっと水[みず]を飲[の]むようにしている = I'm trying to drink more water (deliberate ongoing effort)."
+        },
+        {
+          "id": "you-ni-suru_q5",
+          "type": "usage",
+          "prompt": "Which is the CORRECT interpretation of ようにしてください?",
+          "japanese": null,
+          "choices": [
+            "'Please come to be able to do X' (ability development)",
+            "'Please make a point to do X / please make sure to do X' (instruction)",
+            "'Please seem like you do X'",
+            "'Please decide to do X'"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにしてください = please make a point to X / please see to it that X. It's a soft instruction. 忘[わす]れないようにしてください = please make sure not to forget. Softer than 忘[わす]れるな (don't forget) or 忘[わす]れないでください."
+        },
+        {
+          "id": "you-ni-suru_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'll try to speak Japanese every day'?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]日本語[にほんご]を話[はな]すようになる。",
+            "毎日[まいにち]日本語[にほんご]を話[はな]せるようになる。",
+            "毎日[まいにち]日本語[にほんご]を話[はな]すようにする。",
+            "毎日[まいにち]日本語[にほんご]を話[はな]すようにした。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにする = will make a point to / intend to (future intention). 話[はな]す + ようにする = will make a point to speak. 毎日[まいにち]日本語[にほんご]を話[はな]すようにする = I'll try to speak Japanese every day (stated intention)."
+        },
+        {
+          "id": "you-ni-suru_q7",
+          "type": "translation",
+          "prompt": "Which means 'Please try not to make noise'?",
+          "japanese": null,
+          "choices": [
+            "音[おと]を出[だ]さないようにしてください。",
+            "音[おと]を出[だ]さないようになってください。",
+            "音[おと]を出[だ]さないようにしてなさい。",
+            "音[おと]を出[だ]さないようになさい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative + ようにしてください = please try not to. 音[おと]を出[だ]さない + ようにしてください = please try not to make noise. Soft polite instruction."
+        },
+        {
+          "id": "you-ni-suru_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'I decided to stop eating meat'?",
+          "japanese": null,
+          "choices": [
+            "肉[にく]を食[た]べないようになった。",
+            "肉[にく]を食[た]べないようにした。",
+            "肉[にく]を食[た]べないようにしている。",
+            "肉[にく]を食[た]べないようにする。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにした = decided to / made the change (past deliberate decision). 食[た]べない + ようにした = decided not to eat. 肉[にく]を食[た]べないようにした = I decided to stop eating meat (implemented decision in the past)."
+        },
+        {
+          "id": "you-ni-suru_q9",
+          "type": "usage",
+          "prompt": "Which best shows the distinction: 'ようにする = active effort, ようになる = natural change'?",
+          "japanese": null,
+          "choices": [
+            "食[た]べるようにする: I try to eat; 食[た]べるようになる: I came to eat (naturally developed habit)",
+            "食[た]べるようにする: I came to eat; 食[た]べるようになる: I try to eat",
+            "They are the same",
+            "食[た]べるようにする: I want to eat; 食[た]べるようになる: I don't want to eat"
+          ],
+          "correctIndex": 0,
+          "explanation": "食[た]べるようにする = I make an effort to eat (active). 食[た]べるようになる = I've come to eat (passive/natural development). ようにする = subject's active effort; ようになる = gradual change that happened over time."
+        },
+        {
+          "id": "you-ni-suru_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'The school made the students wear uniforms'?",
+          "japanese": null,
+          "choices": [
+            "学校[がっこう]は生徒[せいと]が制服[せいふく]を着[き]るようになった。",
+            "学校[がっこう]は生徒[せいと]に制服[せいふく]を着[き]るようにさせた。",
+            "学校[がっこう]は生徒[せいと]が制服[せいふく]を着[き]るようにした。",
+            "学校[がっこう]は生徒[せいと]を制服[せいふく]が着[き]るようにした。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ようにした = made it so that / ensured that. 学校[がっこう]は + 生徒[せいと]が制服[せいふく]を着[き]る + ようにした = the school made it so that students wear uniforms. Subject (school) ensured the situation."
+        },
+        {
+          "id": "you-ni-suru_q11",
+          "type": "translation",
+          "prompt": "Which means 'Please lock the door carefully'?",
+          "japanese": null,
+          "choices": [
+            "ドアをしっかり閉[し]めるようになってください。",
+            "ドアをしっかり閉[し]めるようにしてください。",
+            "ドアをしっかり閉[し]められるようにしてください。",
+            "ドアをしっかり閉[し]めるようにしなさい。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにしてください = please make a point to / please see to it that. しっかり閉[し]める + ようにしてください = please make sure to lock the door properly."
+        },
+        {
+          "id": "you-ni-suru_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'll make a point to save money'?",
+          "japanese": null,
+          "choices": [
+            "お金[きん]を貯[た]めるようになる。",
+            "お金[きん]を貯[た]めるようにする。",
+            "お金[きん]を貯[た]められるようになる。",
+            "お金[きん]を貯[た]めるようにした。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにする = will make a point to (future intention). 貯[た]める + ようにする = will make a point to save. お金[きん]を貯[た]めるようにする = I'll make a point to save money."
+        },
+        {
+          "id": "you-ni-suru_q13",
+          "type": "usage",
+          "prompt": "Which expresses a SOFT INDIRECT INSTRUCTION?",
+          "japanese": null,
+          "choices": [
+            "勉強[べんきょう]しなさい。(Study! — authoritative command)",
+            "勉強[べんきょう]するようにしてください。(Please make a point to study — soft)",
+            "勉強[べんきょう]してください。(Please study — direct polite)",
+            "勉強[べんきょう]しろ。(Study! — rough command)"
+          ],
+          "correctIndex": 1,
+          "explanation": "勉強[べんきょう]するようにしてください = please see to it that you study / please make a point to study. This is softer and less direct than してください. Common in formal writing (notices, announcements, instructions)."
+        },
+        {
+          "id": "you-ni-suru_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'I take care not to use SNS while studying'?",
+          "japanese": null,
+          "choices": [
+            "勉強中[べんきょうちゅう]にSNSを使[つか]わないようになった。",
+            "勉強中[べんきょうちゅう]にSNSを使[つか]えないようになった。",
+            "勉強中[べんきょうちゅう]にSNSを使[つか]わないようにしている。",
+            "勉強中[べんきょうちゅう]にSNSを使[つか]わないようにする。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Negative + ようにしている = currently making a point to NOT do. SNSを使[つか]わない + ようにしている = am making a point to not use SNS. 勉強中[べんきょうちゅう]に + ようにしている = while studying, am being careful not to."
+        },
+        {
+          "id": "you-ni-suru_q15",
+          "type": "translation",
+          "prompt": "Which means 'I'll make sure to email you'?",
+          "japanese": null,
+          "choices": [
+            "メールするようになります。",
+            "メールできるようになります。",
+            "メールするようにします。",
+            "メールしたようにします。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにします = will make a point to / will see to it that (polite promise). メールする + ようにします = I'll make sure to email you. Polite statement of intention/promise."
+        },
+        {
+          "id": "you-ni-suru_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'She made a point to arrive early'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は早[はや]く来[く]るようになった。",
+            "彼女[かのじょ]は早[はや]く来[こ]られるようになった。",
+            "彼女[かのじょ]は早[はや]く来[く]るようにした。",
+            "彼女[かのじょ]は早[はや]く来[く]るようにしている。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ようにした = made it a point to (past deliberate effort/decision). 早[はや]く来[く]る + ようにした = made a point to come early (she actively decided and implemented this). One-time or past decision."
+        },
+        {
+          "id": "you-ni-suru_q17",
+          "type": "usage",
+          "prompt": "What is the politeness level of 〜ようにしてください vs 〜てください?",
+          "japanese": null,
+          "choices": [
+            "They are the same politeness level",
+            "ようにしてください is slightly softer/more indirect than てください",
+            "ようにしてください is much more formal/stiff",
+            "ようにしてください is more casual than てください"
+          ],
+          "correctIndex": 1,
+          "explanation": "ようにしてください is slightly softer and more indirect than てください. 来[き]てください = please come (direct). 来[く]るようにしてください = please try to come / please make a point to come (softer, less imposing). Used in formal notices."
+        },
+        {
+          "id": "you-ni-suru_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please make sure to reply to emails promptly'?",
+          "japanese": null,
+          "choices": [
+            "メールにすぐ返信[へんしん]するようにしてください。",
+            "メールにすぐ返信[へんしん]するようになってください。",
+            "メールにすぐ返信[へんしん]できるようにしてください。",
+            "メールにすぐ返信[へんしん]するようにしなさい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ようにしてください = please make a point to / please see to it that. 返信[へんしん]する + ようにしてください = please make sure to reply. すぐ = promptly."
+        },
+        {
+          "id": "you-ni-suru_q19",
+          "type": "translation",
+          "prompt": "Which means 'I made it so that children could enter for free'?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]が無料[むりょう]で入[い]れるようになった。",
+            "子供[こども]が無料[むりょう]で入[い]れるようにした。",
+            "子供[こども]が無料[むりょう]で入[い]るようにした。",
+            "子供[こども]が無料[むりょう]で入[い]られるようにした。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ようにした = made it so that / arranged for. 入[い]れる (potential) + ようにした = made it possible for  to enter. 子供[こども]が無料[むりょう]で入[い]れるようにした = made it so children can enter for free (actively arranged/implemented)."
+        },
+        {
+          "id": "you-ni-suru_q20",
+          "type": "usage",
+          "prompt": "Which CORRECTLY contrasts ようにする (effort) with ようになる (change)?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]歩[ある]くようにしている (I try to walk daily — effort); 毎日[まいにち]歩[ある]くようになった (I came to walk daily — natural change)",
+            "毎日[まいにち]歩[ある]くようにしている (I came to walk daily); 毎日[まいにち]歩[ある]くようになった (I try to walk daily)",
+            "Both sentences mean the same thing",
+            "Neither sentence is natural"
+          ],
+          "correctIndex": 0,
+          "explanation": "毎日[まいにち]歩[ある]くようにしている = I make a point to walk every day (deliberate ongoing effort). 毎日[まいにち]歩[ある]くようになった = I've come to walk every day (natural habit that developed over time). This perfectly illustrates ようにする (effort) vs ようになる (natural change)."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch26_v01",
+      "partOfSpeech": "noun",
+      "kanji": "性格",
+      "kana": "せいかく",
+      "romaji": "seikaku",
+      "definition": "personality"
+    },
+    {
+      "id": "ch26_v02",
+      "partOfSpeech": "i-adjective",
+      "kanji": "優しい",
+      "kana": "やさしい",
+      "romaji": "yasashii",
+      "definition": "kind; gentle"
+    },
+    {
+      "id": "ch26_v03",
+      "partOfSpeech": "na-adjective",
+      "kanji": "親切",
+      "kana": "しんせつ",
+      "romaji": "shinsetsu",
+      "definition": "kind; helpful"
+    },
+    {
+      "id": "ch26_v04",
+      "partOfSpeech": "na-adjective",
+      "kanji": "真面目",
+      "kana": "まじめ",
+      "romaji": "majime",
+      "definition": "serious; diligent"
+    },
+    {
+      "id": "ch26_v05",
+      "partOfSpeech": "na-adjective",
+      "kanji": "正直",
+      "kana": "しょうじき",
+      "romaji": "shoujiki",
+      "definition": "honest"
+    },
+    {
+      "id": "ch26_v06",
+      "partOfSpeech": "na-adjective",
+      "kanji": "素直",
+      "kana": "すなお",
+      "romaji": "sunao",
+      "definition": "obedient; honest"
+    },
+    {
+      "id": "ch26_v07",
+      "partOfSpeech": "na-adjective",
+      "kanji": "わがまま",
+      "kana": "わがまま",
+      "romaji": "wagamama",
+      "definition": "selfish"
+    },
+    {
+      "id": "ch26_v08",
+      "partOfSpeech": "na-adjective",
+      "kanji": "頑固",
+      "kana": "がんこ",
+      "romaji": "ganko",
+      "definition": "stubborn"
+    },
+    {
+      "id": "ch26_v09",
+      "partOfSpeech": "i-adjective",
+      "kanji": "大人しい",
+      "kana": "おとなしい",
+      "romaji": "otonashii",
+      "definition": "quiet; gentle"
+    },
+    {
+      "id": "ch26_v10",
+      "partOfSpeech": "na-adjective",
+      "kanji": "積極的",
+      "kana": "せっきょくてき",
+      "romaji": "sekkyokuteki",
+      "definition": "proactive; positive"
+    },
+    {
+      "id": "ch26_v11",
+      "partOfSpeech": "na-adjective",
+      "kanji": "消極的",
+      "kana": "しょうきょくてき",
+      "romaji": "shoukyokuteki",
+      "definition": "passive; reluctant"
+    },
+    {
+      "id": "ch26_v12",
+      "partOfSpeech": "na-adjective",
+      "kanji": "内気",
+      "kana": "うちき",
+      "romaji": "uchiki",
+      "definition": "shy"
+    },
+    {
+      "id": "ch26_v13",
+      "partOfSpeech": "na-adjective",
+      "kanji": "活発",
+      "kana": "かっぱつ",
+      "romaji": "kappatsu",
+      "definition": "lively; active"
+    },
+    {
+      "id": "ch26_v14",
+      "partOfSpeech": "adverb",
+      "kanji": "のんびり",
+      "kana": "のんびり",
+      "romaji": "nonbiri",
+      "definition": "laid-back; relaxed"
+    },
+    {
+      "id": "ch26_v15",
+      "partOfSpeech": "na-adjective",
+      "kanji": "せっかち",
+      "kana": "せっかち",
+      "romaji": "sekkachi",
+      "definition": "impatient; hasty"
+    },
+    {
+      "id": "ch26_v16",
+      "partOfSpeech": "i-adjective",
+      "kanji": "厳しい",
+      "kana": "きびしい",
+      "romaji": "kibishii",
+      "definition": "strict; severe"
+    },
+    {
+      "id": "ch26_v17",
+      "partOfSpeech": "i-adjective",
+      "kanji": "賢い",
+      "kana": "かしこい",
+      "romaji": "kashikoi",
+      "definition": "clever; wise"
+    },
+    {
+      "id": "ch26_v18",
+      "partOfSpeech": "na-adjective",
+      "kanji": "大胆",
+      "kana": "だいたん",
+      "romaji": "daitan",
+      "definition": "bold; daring"
+    },
+    {
+      "id": "ch26_v19",
+      "partOfSpeech": "na-adjective",
+      "kanji": "慎重",
+      "kana": "しんちょう",
+      "romaji": "shinchou",
+      "definition": "cautious; careful"
+    },
+    {
+      "id": "ch26_v20",
+      "partOfSpeech": "na-adjective",
+      "kanji": "冷静",
+      "kana": "れいせい",
+      "romaji": "reisei",
+      "definition": "calm; composed"
+    },
+    {
+      "id": "ch26_v21",
+      "partOfSpeech": "noun",
+      "kanji": "美人",
+      "kana": "びじん",
+      "romaji": "bijin",
+      "definition": "beautiful woman"
+    },
+    {
+      "id": "ch26_v22",
+      "partOfSpeech": "na-adjective",
+      "kanji": "ハンサム",
+      "kana": "ハンサム",
+      "romaji": "hansamu",
+      "definition": "handsome"
+    },
+    {
+      "id": "ch26_v23",
+      "partOfSpeech": "i-adjective",
+      "kanji": "格好いい",
+      "kana": "かっこいい",
+      "romaji": "kakkoii",
+      "definition": "cool; good-looking"
+    },
+    {
+      "id": "ch26_v24",
+      "partOfSpeech": "i-adjective",
+      "kanji": "若い",
+      "kana": "わかい",
+      "romaji": "wakai",
+      "definition": "young"
+    },
+    {
+      "id": "ch26_v25",
+      "partOfSpeech": "noun",
+      "kanji": "髪型",
+      "kana": "かみがた",
+      "romaji": "kamigata",
+      "definition": "hairstyle"
+    },
+    {
+      "id": "ch26_v26",
+      "partOfSpeech": "noun",
+      "kanji": "髭",
+      "kana": "ひげ",
+      "romaji": "hige",
+      "definition": "beard; mustache"
+    },
+    {
+      "id": "ch26_v27",
+      "partOfSpeech": "noun",
+      "kanji": "肌",
+      "kana": "はだ",
+      "romaji": "hada",
+      "definition": "skin"
+    },
+    {
+      "id": "ch26_v28",
+      "partOfSpeech": "noun",
+      "kanji": "姿",
+      "kana": "すがた",
+      "romaji": "sugata",
+      "definition": "figure; appearance"
+    },
+    {
+      "id": "ch26_v29",
+      "partOfSpeech": "noun",
+      "kanji": "見た目",
+      "kana": "みため",
+      "romaji": "mitame",
+      "definition": "(outward) appearance"
+    },
+    {
+      "id": "ch26_v30",
+      "partOfSpeech": "noun",
+      "kanji": "表情",
+      "kana": "ひょうじょう",
+      "romaji": "hyoujou",
+      "definition": "facial expression"
+    },
+    {
+      "id": "ch26_v31",
+      "partOfSpeech": "noun",
+      "kanji": "態度",
+      "kana": "たいど",
+      "romaji": "taido",
+      "definition": "attitude"
+    },
+    {
+      "id": "ch26_v32",
+      "partOfSpeech": "noun",
+      "kanji": "魅力",
+      "kana": "みりょく",
+      "romaji": "miryoku",
+      "definition": "charm; appeal"
+    },
+    {
+      "id": "ch26_v33",
+      "partOfSpeech": "noun",
+      "kanji": "個性",
+      "kana": "こせい",
+      "romaji": "kosei",
+      "definition": "individuality"
+    },
+    {
+      "id": "ch26_v34",
+      "partOfSpeech": "noun",
+      "kanji": "特徴",
+      "kana": "とくちょう",
+      "romaji": "tokuchou",
+      "definition": "characteristic; feature"
+    },
+    {
+      "id": "ch26_v35",
+      "partOfSpeech": "noun",
+      "kanji": "長所",
+      "kana": "ちょうしょ",
+      "romaji": "chousho",
+      "definition": "strong point; merit"
+    },
+    {
+      "id": "ch26_v36",
+      "partOfSpeech": "noun",
+      "kanji": "短所",
+      "kana": "たんしょ",
+      "romaji": "tansho",
+      "definition": "weak point; shortcoming"
+    },
+    {
+      "id": "ch26_v37",
+      "partOfSpeech": "noun",
+      "kanji": "癖",
+      "kana": "くせ",
+      "romaji": "kuse",
+      "definition": "habit; quirk"
+    },
+    {
+      "id": "ch26_v38",
+      "partOfSpeech": "na-adjective",
+      "kanji": "そっくり",
+      "kana": "そっくり",
+      "romaji": "sokkuri",
+      "definition": "exactly alike"
+    },
+    {
+      "id": "ch26_v39",
+      "partOfSpeech": "verb",
+      "kanji": "落ち着く",
+      "kana": "おちつく",
+      "romaji": "ochitsuku",
+      "definition": "to calm down; to settle"
+    },
+    {
+      "id": "ch26_v40",
+      "partOfSpeech": "verb",
+      "kanji": "目立つ",
+      "kana": "めだつ",
+      "romaji": "medatsu",
+      "definition": "to stand out"
+    }
+  ]
+}

@@ -1,0 +1,1609 @@
+{
+  "id": "ch34",
+  "chapterNumber": 34,
+  "title": "Formal Connectors",
+  "points": [
+    {
+      "id": "ni-kanshite",
+      "name": "〜に関[かん]して / 〜について — regarding / about / concerning",
+      "shortDescription": "Both mean 'regarding' or 'concerning' — に関して for formal contexts, について for everyday use.",
+      "formation": "Noun + に関して / に関しては  |  Noun + について / については",
+      "explanation": "について and に関して are close siblings — both mean 'about' or 'regarding,' and both introduce the topic being addressed. The family resemblance is strong enough that learners often wonder if there's a real difference. There is, but it's mostly register. について is the versatile everyday form: 日本語の文法について話しましょう (Let's talk about Japanese grammar — natural in any context). に関して is the formal elder: it belongs in business reports, academic papers, legal documents, and official announcements. Imagine a government press release — に関して is at home there; について would feel slightly casual.\n\nに関する is the attributive form that modifies nouns directly: に関する書類 (documents concerning the matter). And in the most formal spoken contexts, に関しまして — the respectful variant — takes the stage. One practical rule: when in doubt in formal writing, choose に関して. In ordinary conversation, について almost always works.",
+      "rules": [
+        "Noun + について = about / regarding (common, spoken and written)",
+        "Noun + に関して = regarding / concerning (formal, written, academic)",
+        "Attributive: Noun + に関する + Noun = a [noun] regarding/concerning [noun]",
+        "Very formal spoken: に関しまして (humble/very formal register)",
+        "に関して = more formal; について = more versatile and everyday"
+      ],
+      "examples": [
+        {
+          "japanese": "環境問題[かんきょうもんだい]に関[かん]して、政府[せいふ]は対策[たいさく]を発表[はっぴょう]しました。",
+          "romaji": "Kankyou mondai ni kanshite, seifu wa taisaku wo happyou shimashita.",
+          "english": "Regarding environmental issues, the government announced countermeasures."
+        },
+        {
+          "japanese": "日本語[にほんご]の文法[ぶんぽう]について、何[なに]か質問[しつもん]はありますか。",
+          "romaji": "Nihongo no bunpou ni tsuite, nanika shitsumon wa arimasu ka.",
+          "english": "Do you have any questions about Japanese grammar?"
+        },
+        {
+          "japanese": "ご契約[けいやく]に関[かん]する書類[しょるい]をお送[おく]りします。",
+          "romaji": "Gokeiyaku ni kansuru shorui wo osendai shimasu.",
+          "english": "We will send you the documents concerning your contract."
+        },
+        {
+          "japanese": "今回[こんかい]の件[けん]につきまして、深[ふか]くお詫[わ]び申[もう]し上[あ]げます。",
+          "romaji": "Konkai no ken ni tsukimashite, fukaku owabi moushiagemasu.",
+          "english": "Regarding this matter, I offer my deepest apologies."
+        }
+      ],
+      "flashcardHeader": "〜に関して / 〜について",
+      "flashcardAnswer": "Both mean 'regarding / concerning' — に関して for formal contexts, について for everyday use.",
+      "practice": [
+        {
+          "id": "ni-kanshite_q1",
+          "type": "usage",
+          "prompt": "What does 〜に関[かん]して mean?",
+          "japanese": null,
+          "choices": [
+            "because of / due to",
+            "regarding / concerning / about (formal topic marker — the subject matter being discussed)",
+            "compared to",
+            "in addition to"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜に関[かん]して = regarding / concerning / about. Formal expression. この問題[もんだい]に関[かん]して = regarding this problem. Used to introduce the topic being discussed or dealt with."
+        },
+        {
+          "id": "ni-kanshite_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Regarding this matter, please ask the manager'?",
+          "japanese": null,
+          "choices": [
+            "この件[けん]に関[かん]して、マネージャーに聞[き]いてください。",
+            "この件[けん]に対[たい]して、マネージャーに聞[き]いてください。",
+            "この件[けん]について、マネージャーに聞[き]いてください。",
+            "この件[けん]にとって、マネージャーに聞[き]いてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して = regarding . この件[けん] (this matter) + に関[かん]して = regarding this matter. に関[かん]して is a formal way to introduce a topic for discussion or inquiry."
+        },
+        {
+          "id": "ni-kanshite_q3",
+          "type": "usage",
+          "prompt": "What is the DIFFERENCE between に関[かん]して and について?",
+          "japanese": null,
+          "choices": [
+            "They are completely identical",
+            "に関[かん]して = more formal / written register; について = more conversational; both mean 'about/regarding'",
+            "に関[かん]して = for people; について = for things",
+            "について can only be used in questions"
+          ],
+          "correctIndex": 1,
+          "explanation": "に関[かん]して and について both mean 'about/regarding' but differ in register. に関[かん]して is more formal/written (business documents, formal speeches). について is more conversational. どちらも意味[いみ]は似[に]ているが、に関[かん]しては書[か]き言葉[ことば]的[てき]."
+        },
+        {
+          "id": "ni-kanshite_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please submit a report regarding the results'?",
+          "japanese": null,
+          "choices": [
+            "結果[けっか]に関[かん]して、レポートを提出[ていしゅつ]してください。",
+            "結果[けっか]に対[たい]して、レポートを提出[ていしゅつ]してください。",
+            "結果[けっか]について、レポートを提出[ていしゅつ]してください。",
+            "結果[けっか]にとって、レポートを提出[ていしゅつ]してください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: 結果[けっか] (results) + に関[かん]して = regarding the results. に関[かん]して is natural in formal business/academic contexts for topic introduction."
+        },
+        {
+          "id": "ni-kanshite_q5",
+          "type": "translation",
+          "prompt": "Which means 'We are conducting research on climate change'?",
+          "japanese": null,
+          "choices": [
+            "気候[きこう]変動[へんどう]に関[かん]して研究[けんきゅう]を行[い]っています。",
+            "気候[きこう]変動[へんどう]に対[たい]して研究[けんきゅう]を行[い]っています。",
+            "気候[きこう]変動[へんどう]について研究[けんきゅう]を行[い]っています。",
+            "気候[きこう]変動[へんどう]にとって研究[けんきゅう]を行[い]っています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: 気候[きこう]変動[へんどう] (climate change) + に関[かん]して = regarding climate change. 研究[けんきゅう]を行[い]っています = conducting research. Both に関[かん]して and について work here; に関[かん]して is more formal."
+        },
+        {
+          "id": "ni-kanshite_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'We need to discuss the new project'?",
+          "japanese": null,
+          "choices": [
+            "新[あたら]しいプロジェクトに関[かん]して話[はな]し合[あ]う必要[ひつよう]がある。",
+            "新[あたら]しいプロジェクトに対[たい]して話[はな]し合[あ]う必要[ひつよう]がある。",
+            "新[あたら]しいプロジェクトにとって話[はな]し合[あ]う必要[ひつよう]がある。",
+            "新[あたら]しいプロジェクトに関[かか]わって話[はな]し合[あ]う必要[ひつよう]がある。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: 新[あたら]しいプロジェクト + に関[かん]して = regarding the new project. 話[はな]し合[あ]う必要[ひつよう]がある = need to discuss."
+        },
+        {
+          "id": "ni-kanshite_q7",
+          "type": "translation",
+          "prompt": "Which means 'Do you have any questions regarding today's agenda'?",
+          "japanese": null,
+          "choices": [
+            "本日[ほんじつ]の議題[ぎだい]に関[かん]して、ご質問[しつもん]はありますか？",
+            "本日[ほんじつ]の議題[ぎだい]に対[たい]して、ご質問[しつもん]はありますか？",
+            "本日[ほんじつ]の議題[ぎだい]について、ご質問[しつもん]はありますか？",
+            "本日[ほんじつ]の議題[ぎだい]にとって、ご質問[しつもん]はありますか？"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して (formal): 議題[ぎだい] (agenda) + に関[かん]して = regarding the agenda. ご質問[しつもん]はありますか = do you have any questions. Formal meeting/business context."
+        },
+        {
+          "id": "ni-kanshite_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'We've received many complaints regarding the service'?",
+          "japanese": null,
+          "choices": [
+            "サービスに関[かん]して、多[おお]くのクレームをいただきました。",
+            "サービスに対[たい]して、多[おお]くのクレームをいただきました。",
+            "サービスについて、多[おお]くのクレームをいただきました。",
+            "サービスにとって、多[おお]くのクレームをいただきました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: サービス + に関[かん]して = regarding the service. Both に関[かん]して and に対[たい]して could work; に関[かん]して focuses on the topic; に対[たい]して focuses on the target of complaints."
+        },
+        {
+          "id": "ni-kanshite_q9",
+          "type": "usage",
+          "prompt": "に関[かん]して can also appear as に関[かん]する (modifying a noun). Which shows this?",
+          "japanese": null,
+          "choices": [
+            "この問題[もんだい]に関[かん]する報告書[ほうこくしょ] (a report regarding this problem)",
+            "この問題[もんだい]に関[かん]して報告書[ほうこくしょ] (a report regarding this problem — same structure)",
+            "この問題[もんだい]の関[かん]する報告書[ほうこくしょ] (incorrect)",
+            "この問題[もんだい]が関[かん]する報告書[ほうこくしょ] (incorrect)"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun = a noun phrase meaning 'regarding/about '. この問題[もんだい]に関[かん]する報告書[ほうこくしょ] = a report about this problem. に関[かん]する modifies the following noun; に関[かん]して ends at a sentence break."
+        },
+        {
+          "id": "ni-kanshite_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'I read an article concerning the environment'?",
+          "japanese": null,
+          "choices": [
+            "環境[かんきょう]に関[かん]する記事[きじ]を読[よ]みました。",
+            "環境[かんきょう]に対[たい]する記事[きじ]を読[よ]みました。",
+            "環境[かんきょう]についての記事[きじ]を読[よ]みました。",
+            "環境[かんきょう]にとっての記事[きじ]を読[よ]みました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 環境[かんきょう] (environment) + に関[かん]する + 記事[きじ] (article) = an article about the environment. に関[かん]する is the noun-modifying form."
+        },
+        {
+          "id": "ni-kanshite_q11",
+          "type": "translation",
+          "prompt": "Which means 'Please read the documents related to the contract'?",
+          "japanese": null,
+          "choices": [
+            "契約[けいやく]に関[かん]する書類[しょるい]を読[よ]んでください。",
+            "契約[けいやく]に対[たい]する書類[しょるい]を読[よ]んでください。",
+            "契約[けいやく]についての書類[しょるい]を読[よ]んでください。",
+            "契約[けいやく]にとっての書類[しょるい]を読[よ]んでください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 契約[けいやく] (contract) + に関[かん]する + 書類[しょるい] (documents) = documents relating to the contract. 読[よ]んでください = please read."
+        },
+        {
+          "id": "ni-kanshite_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'I have a question about the schedule'?",
+          "japanese": null,
+          "choices": [
+            "スケジュールに関[かん]して質問[しつもん]があります。",
+            "スケジュールに対[たい]して質問[しつもん]があります。",
+            "スケジュールについて質問[しつもん]があります。",
+            "スケジュールにとって質問[しつもん]があります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: スケジュール + に関[かん]して = regarding the schedule. 質問[しつもん]があります = have a question. Formal/professional context."
+        },
+        {
+          "id": "ni-kanshite_q13",
+          "type": "usage",
+          "prompt": "In which context would に関[かん]して be MOST appropriate?",
+          "japanese": null,
+          "choices": [
+            "Chatting casually with a friend about their weekend",
+            "Writing a business email about a contract dispute",
+            "Asking someone their opinion in casual conversation",
+            "Making small talk"
+          ],
+          "correctIndex": 1,
+          "explanation": "に関[かん]して is formal/written — most appropriate in business emails, formal reports, official communications, legal documents. For casual conversation, について is more natural."
+        },
+        {
+          "id": "ni-kanshite_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'The lecture on Japanese history was interesting'?",
+          "japanese": null,
+          "choices": [
+            "日本[にっぽん]の歴史[れきし]に関[かん]する講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にっぽん]の歴史[れきし]に対[たい]する講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にっぽん]の歴史[れきし]についての講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にっぽん]の歴史[れきし]にとっての講義[こうぎ]は面白[おもしろ]かった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 日本[にっぽん]の歴史[れきし] (Japanese history) + に関[かん]する + 講義[こうぎ] (lecture) = a lecture on Japanese history. 面白[おもしろ]かった = was interesting."
+        },
+        {
+          "id": "ni-kanshite_q15",
+          "type": "translation",
+          "prompt": "Which means 'Please check the information regarding the meeting'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]に関[かん]する情報[じょうほう]を確認[かくにん]してください。",
+            "会議[かいぎ]に対[たい]する情報[じょうほう]を確認[かくにん]してください。",
+            "会議[かいぎ]についての情報[じょうほう]を確認[かくにん]してください。",
+            "会議[かいぎ]にとっての情報[じょうほう]を確認[かくにん]してください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 会議[かいぎ] (meeting) + に関[かん]する + 情報[じょうほう] (information) = information about the meeting. 確認[かくにん]してください = please check."
+        },
+        {
+          "id": "ni-kanshite_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'The department handles issues regarding privacy'?",
+          "japanese": null,
+          "choices": [
+            "その部署[ぶしょ]はプライバシーに関[かん]する問題[もんだい]を扱[あつか]う。",
+            "その部署[ぶしょ]はプライバシーに対[たい]する問題[もんだい]を扱[あつか]う。",
+            "その部署[ぶしょ]はプライバシーについての問題[もんだい]を扱[あつか]う。",
+            "その部署[ぶしょ]はプライバシーにとっての問題[もんだい]を扱[あつか]う。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: プライバシー + に関[かん]する + 問題[もんだい] = issues regarding privacy. 扱[あつか]う = handles."
+        },
+        {
+          "id": "ni-kanshite_q17",
+          "type": "usage",
+          "prompt": "What is the noun-modifying form of に関[かん]して?",
+          "japanese": null,
+          "choices": [
+            "に関[かん]している",
+            "に関[かん]するの",
+            "に関[かん]する",
+            "に関[かん]して"
+          ],
+          "correctIndex": 2,
+          "explanation": "に関[かん]する is the noun-modifying form. に関[かん]して ends a clause/sentence; に関[かん]する + noun = noun phrase. 問題[もんだい]に関[かん]する報告[ほうこく] (report about the problem) vs. 問題[もんだい]に関[かん]して (regarding the problem, end of clause)."
+        },
+        {
+          "id": "ni-kanshite_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'I received training regarding customer service'?",
+          "japanese": null,
+          "choices": [
+            "顧客[こきゃく]サービスに関[かん]する研修[けんしゅう]を受[う]けました。",
+            "顧客[こきゃく]サービスに対[たい]する研修[けんしゅう]を受[う]けました。",
+            "顧客[こきゃく]サービスについての研修[けんしゅう]を受[う]けました。",
+            "顧客[こきゃく]サービスにとっての研修[けんしゅう]を受[う]けました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 顧客[こきゃく]サービス (customer service) + に関[かん]する + 研修[けんしゅう] (training) = training regarding customer service. 受[う]けました = received."
+        },
+        {
+          "id": "ni-kanshite_q19",
+          "type": "translation",
+          "prompt": "Which means 'I have no knowledge about this topic'?",
+          "japanese": null,
+          "choices": [
+            "このトピックに関[かん]して、知識[ちしき]がありません。",
+            "このトピックに対[たい]して、知識[ちしき]がありません。",
+            "このトピックについて、知識[ちしき]がありません。",
+            "このトピックにとって、知識[ちしき]がありません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に関[かん]して: このトピック + に関[かん]して = regarding this topic. 知識[ちしき]がありません = have no knowledge. Both に関[かん]して and について work; に関[かん]して is more formal."
+        },
+        {
+          "id": "ni-kanshite_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please send the documents regarding the proposal'?",
+          "japanese": null,
+          "choices": [
+            "提案[ていあん]に関[かん]する書類[しょるい]を送[おく]ってください。",
+            "提案[ていあん]に対[たい]する書類[しょるい]を送[おく]ってください。",
+            "提案[ていあん]についての書類[しょるい]を送[おく]ってください。",
+            "提案[ていあん]にとっての書類[しょるい]を送[おく]ってください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に関[かん]する + noun: 提案[ていあん] (proposal) + に関[かん]する + 書類[しょるい] = documents related to the proposal. 送[おく]ってください = please send."
+        }
+      ]
+    },
+    {
+      "id": "ni-taishite",
+      "name": "〜に対[たい]して (ni taishite) — toward / against / in contrast to",
+      "shortDescription": "Marks the target of an action or attitude ('toward'), or presents a contrast between two things ('whereas').",
+      "formation": "Noun + に対して / に対する  |  Plain form + のに対して (contrasting with a clause)",
+      "explanation": "に対して is a formal connector with two closely related functions. First, it marks the target or recipient of an action, reaction, or attitude — answering the question 'toward whom?' or 'in response to what?' 批判に対して冷静に対応した: the calm response was directed at the criticism. 子どもに対して優しくしてください: kindness is the action, children are its target. The attributive form に対する modifies nouns directly: 外国人観光客に対するサービス (services aimed at foreign tourists).\n\nSecond, に対して expresses contrast: 夏は暑いのに対して、冬は寒い (Whereas summer is hot, winter is cold). This contrastive use resembles 一方で (Chapter 29) — both present two sides of a situation — but に対して is more explicitly directional (A and B are presented as oriented toward or against each other), while 一方で simply places two realities alongside each other. Both are formal and at home in writing.",
+      "rules": [
+        "Noun + に対して = toward / with respect to / for (directional — target of action/attitude)",
+        "Attributive: Noun + に対する + Noun = [noun] aimed at / toward [noun]",
+        "Contrastive: A + のに対して + B = whereas A, B (presenting a contrast)",
+        "More formal and explicit than simply using に",
+        "Common in: reactions to things, policies toward people, contrasting situations"
+      ],
+      "examples": [
+        {
+          "japanese": "彼女[かのじょ]は批判[ひはん]に対[たい]して、冷静[れいせい]に対応[たいおう]しました。",
+          "romaji": "Kanojo wa hihan ni taishite, reisei ni taiou shimashita.",
+          "english": "She responded calmly to the criticism."
+        },
+        {
+          "japanese": "日本[にっぽん]の夏[なつ]は暑[あつ]いのに対[たい]して、冬[ふゆ]は寒[さむ]いです。",
+          "romaji": "Nihon no natsu wa atsui no ni taishite, fuyu wa samui desu.",
+          "english": "Whereas Japan's summers are hot, the winters are cold."
+        },
+        {
+          "japanese": "この問題[もんだい]に対[たい]する解決策[かいけつさく]を考[かんが]えています。",
+          "romaji": "Kono mondai ni taisuru kaiketsusaku wo kangaete imasu.",
+          "english": "I am thinking of a solution to this problem."
+        },
+        {
+          "japanese": "子[こ]どもに対[たい]してもっと忍耐[にんたい]強[つよ]くなるべきだと思[おも]います。",
+          "romaji": "Kodomo ni taishite motto nintai zuyoku naru beki da to omoimasu.",
+          "english": "I think one ought to be more patient toward children."
+        }
+      ],
+      "flashcardHeader": "〜に対して",
+      "flashcardAnswer": "Marks the target of an action or attitude ('toward'), or contrasts two things ('whereas').",
+      "practice": [
+        {
+          "id": "ni-taishite_q1",
+          "type": "usage",
+          "prompt": "What does 〜に対[たい]して mean?",
+          "japanese": null,
+          "choices": [
+            "regarding the topic of / about",
+            "toward / directed at / in response to / against (expressing a directed action, attitude, or contrast toward a target)",
+            "compared to / in contrast with",
+            "instead of"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜に対[たい]して = toward / directed at / against. 彼[か]の意見[いけん]に対[たい]して反論[はんろん]する = argue against his opinion. 子供[こども]に対[たい]して優[やさ]しくする = be kind toward children. Expresses a directed action or attitude aimed at a target."
+        },
+        {
+          "id": "ni-taishite_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'She was kind to the children'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は子供[こども]たちに対[たい]して優[やさ]しかった。",
+            "彼女[かのじょ]は子供[こども]たちに関[かん]して優[やさ]しかった。",
+            "彼女[かのじょ]は子供[こども]たちにとって優[やさ]しかった。",
+            "彼女[かのじょ]は子供[こども]たちに反[はん]して優[やさ]しかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (directed at/toward): 子供[こども]たち + に対[たい]して = toward the children. 優[やさ]しかった = was kind. に対[たい]して marks the target/recipient of the attitude."
+        },
+        {
+          "id": "ni-taishite_q3",
+          "type": "translation",
+          "prompt": "Which means 'He protested against the new rule'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は新[あたら]しいルールに対[たい]して抗議[こうぎ]した。",
+            "彼[かれ]は新[あたら]しいルールに関[かん]して抗議[こうぎ]した。",
+            "彼[かれ]は新[あたら]しいルールにとって抗議[こうぎ]した。",
+            "彼[かれ]は新[あたら]しいルールについて抗議[こうぎ]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (against): 新[あたら]しいルール (new rule) + に対[たい]して = against the new rule. 抗議[こうぎ]した = protested. に対[たい]して is used for directed opposition."
+        },
+        {
+          "id": "ni-taishite_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm grateful for your support'?",
+          "japanese": null,
+          "choices": [
+            "あなたのサポートに対[たい]して感謝[かんしゃ]しています。",
+            "あなたのサポートに関[かん]して感謝[かんしゃ]しています。",
+            "あなたのサポートにとって感謝[かんしゃ]しています。",
+            "あなたのサポートについて感謝[かんしゃ]しています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (directed response): サポート + に対[たい]して = for/in response to your support. 感謝[かんしゃ]しています = am grateful. に対[たい]して marks what the gratitude is directed at."
+        },
+        {
+          "id": "ni-taishite_q5",
+          "type": "usage",
+          "prompt": "に対[たい]して also expresses CONTRAST ('whereas / while'). Which shows this?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は英語[えいご]が得意[とくい]なのに対[たい]して、日本語[にほんご]が苦手[にがて]だ。(While he's good at English, he's bad at Japanese.)",
+            "彼[かれ]は英語[えいご]に対[たい]して勉強[べんきょう]した。(He studied English.)",
+            "彼[かれ]は英語[えいご]に対[たい]して話[はな]した。(He spoke to English.)",
+            "彼[かれ]は英語[えいご]に対[たい]して詳[くわ]しい。(He's knowledgeable about English.)"
+          ],
+          "correctIndex": 0,
+          "explanation": "に対[たい]して for contrast: Aなのに対[たい]して、B = while/whereas A, B (contrasting situation). 英語[えいご]が得意[とくい]なのに対[たい]して、日本語[にほんご]が苦手[にがて] = while good at English, bad at Japanese. Two contrasting facts about the same subject."
+        },
+        {
+          "id": "ni-taishite_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'She replied to the question'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は質問[しつもん]に対[たい]して答[こた]えた。",
+            "彼女[かのじょ]は質問[しつもん]に関[かん]して答[こた]えた。",
+            "彼女[かのじょ]は質問[しつもん]にとって答[こた]えた。",
+            "彼女[かのじょ]は質問[しつもん]について答[こた]えた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (in response to): 質問[しつもん] (question) + に対[たい]して = in response to / directed at the question. 答[こた]えた = answered. に対[たい]して marks the target that the response is directed at."
+        },
+        {
+          "id": "ni-taishite_q7",
+          "type": "translation",
+          "prompt": "Which means 'They criticized the government's policy'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]らは政府[せいふ]の政策[せいさく]に対[たい]して批判[ひはん]した。",
+            "彼[かれ]らは政府[せいふ]の政策[せいさく]に関[かん]して批判[ひはん]した。",
+            "彼[かれ]らは政府[せいふ]の政策[せいさく]にとって批判[ひはん]した。",
+            "彼[かれ]らは政府[せいふ]の政策[せいさく]について批判[ひはん]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (directed opposition): 政策[せいさく] (policy) + に対[たい]して = against the policy. 批判[ひはん]した = criticized. に対[たい]して marks the target of criticism."
+        },
+        {
+          "id": "ni-taishite_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'The east side is hot, while the west side is cool'?",
+          "japanese": null,
+          "choices": [
+            "東側[ひがしがわ]が暑[あつ]いのに対[たい]して、西側[にしがわ]は涼[すず]しい。",
+            "東側[ひがしがわ]が暑[あつ]いに対[たい]して、西側[にしがわ]は涼[すず]しい。",
+            "東側[ひがしがわ]が暑[あつ]いのに関[かん]して、西側[にしがわ]は涼[すず]しい。",
+            "東側[ひがしがわ]が暑[あつ]いのにとって、西側[にしがわ]は涼[すず]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜のに対[たい]して for contrast: 暑[あつ]い + の + に対[たい]して = whereas hot. 西側[にしがわ]は涼[すず]しい = west side is cool. Plain form/noun + のに対[たい]して = while/whereas."
+        },
+        {
+          "id": "ni-taishite_q9",
+          "type": "usage",
+          "prompt": "What is the noun-modifying form of に対[たい]して?",
+          "japanese": null,
+          "choices": [
+            "に対[たい]している",
+            "に対[たい]するの",
+            "に対[たい]する",
+            "に対[たい]して"
+          ],
+          "correctIndex": 2,
+          "explanation": "に対[たい]する is the noun-modifying form. 政府[せいふ]に対[たい]する批判[ひはん] = criticism directed at the government. に対[たい]して ends a clause; に対[たい]する + noun modifies a noun."
+        },
+        {
+          "id": "ni-taishite_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'The reaction toward his speech was positive'?",
+          "japanese": null,
+          "choices": [
+            "彼[か]のスピーチに対[たい]する反応[はんのう]はポジティブだった。",
+            "彼[か]のスピーチに関[かん]する反応[はんのう]はポジティブだった。",
+            "彼[か]のスピーチにとっての反応[はんのう]はポジティブだった。",
+            "彼[か]のスピーチについての反応[はんのう]はポジティブだった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に対[たい]する + noun: スピーチ + に対[たい]する + 反応[はんのう] = reaction to/toward his speech. に対[たい]する modifies 反応[はんのう] (reaction) — the reaction is directed at the speech."
+        },
+        {
+          "id": "ni-taishite_q11",
+          "type": "translation",
+          "prompt": "Which means 'The older generation likes tradition, while the younger generation prefers novelty'?",
+          "japanese": null,
+          "choices": [
+            "年配[ねんぱい]世代[せだい]は伝統[でんとう]を好[この]むのに対[たい]して、若[わか]い世代[せだい]は新[あたら]しいものを好[この]む。",
+            "年配[ねんぱい]世代[せだい]は伝統[でんとう]を好[この]むに対[たい]して、若[わか]い世代[せだい]は新[あたら]しいものを好[この]む。",
+            "年配[ねんぱい]世代[せだい]は伝統[でんとう]を好[この]むのに関[かん]して、若[わか]い世代[せだい]は新[あたら]しいものを好[この]む。",
+            "年配[ねんぱい]世代[せだい]は伝統[でんとう]を好[この]むのにとって、若[わか]い世代[せだい]は新[あたら]しいものを好[この]む。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜のに対[たい]して for contrast: 伝統[でんとう]を好[この]む + のに対[たい]して = whereas  prefer tradition. 若[わか]い世代[せだい]は新[あたら]しいものを好[この]む = young generation prefers new things. Contrast between two groups."
+        },
+        {
+          "id": "ni-taishite_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'His attitude toward strangers is cold'?",
+          "japanese": null,
+          "choices": [
+            "彼[か]の見知[みし]らぬ人[にん]に対[たい]する態度[たいど]は冷[つめ]たい。",
+            "彼[か]の見知[みし]らぬ人[にん]に関[かん]する態度[たいど]は冷[つめ]たい。",
+            "彼[か]の見知[みし]らぬ人[にん]にとっての態度[たいど]は冷[つめ]たい。",
+            "彼[か]の見知[みし]らぬ人[にん]についての態度[たいど]は冷[つめ]たい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に対[たい]する + noun: 見知[みし]らぬ人[にん] (strangers) + に対[たい]する + 態度[たいど] (attitude) = attitude toward strangers. 冷[つめ]たい = cold."
+        },
+        {
+          "id": "ni-taishite_q13",
+          "type": "usage",
+          "prompt": "What is the key semantic difference between に関[かん]して and に対[たい]して?",
+          "japanese": null,
+          "choices": [
+            "に関[かん]して = formal, に対[たい]して = casual",
+            "に関[かん]して = about/regarding the TOPIC; に対[たい]して = directed AT a TARGET (action, attitude, or contrast)",
+            "に関[かん]して is for nouns only; に対[たい]して is for verbs",
+            "They have no difference"
+          ],
+          "correctIndex": 1,
+          "explanation": "に関[かん]して = regarding a TOPIC (discussion, information). に対[たい]して = directed AT a TARGET (action/attitude/response). この問題[もんだい]に関[かん]して話[はな]す (talk about this problem as a topic) vs. この問題[もんだい]に対[たい]して反応[はんのう]する (react to/against this problem as a target)."
+        },
+        {
+          "id": "ni-taishite_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'He is very strict with his students'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は生徒[せいと]に対[たい]してとても厳[いかめ]しい。",
+            "彼[かれ]は生徒[せいと]に関[かん]してとても厳[いかめ]しい。",
+            "彼[かれ]は生徒[せいと]にとってとても厳[いかめ]しい。",
+            "彼[かれ]は生徒[せいと]についてとても厳[いかめ]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (directed attitude): 生徒[せいと] (students) + に対[たい]して = toward/with students. 厳[いかめ]しい = strict. に対[たい]して marks the target of the attitude."
+        },
+        {
+          "id": "ni-taishite_q15",
+          "type": "translation",
+          "prompt": "Which means 'She has a positive attitude toward challenges'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は困難[こんなん]に対[たい]してポジティブな態度[たいど]を持[も]つ。",
+            "彼女[かのじょ]は困難[こんなん]に関[かん]してポジティブな態度[たいど]を持[も]つ。",
+            "彼女[かのじょ]は困難[こんなん]にとってポジティブな態度[たいど]を持[も]つ。",
+            "彼女[かのじょ]は困難[こんなん]についてポジティブな態度[たいど]を持[も]つ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して: 困難[こんなん] (challenges/difficulties) + に対[たい]して = toward challenges. ポジティブな態度[たいど]を持[も]つ = has a positive attitude. に対[たい]して marks the target of the attitude."
+        },
+        {
+          "id": "ni-taishite_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'The response to the proposal was negative'?",
+          "japanese": null,
+          "choices": [
+            "提案[ていあん]に対[たい]する反応[はんのう]はネガティブだった。",
+            "提案[ていあん]に関[かん]する反応[はんのう]はネガティブだった。",
+            "提案[ていあん]にとっての反応[はんのう]はネガティブだった。",
+            "提案[ていあん]についての反応[はんのう]はネガティブだった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "に対[たい]する + noun: 提案[ていあん] (proposal) + に対[たい]する + 反応[はんのう] = response/reaction to the proposal. The response is directed at the proposal."
+        },
+        {
+          "id": "ni-taishite_q17",
+          "type": "usage",
+          "prompt": "Which example correctly uses に対[たい]して for CONTRAST?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]は難[むずか]しいのに対[たい]して、英語[えいご]は簡単[かんたん]だ。(Japanese is difficult, while English is easy.)",
+            "日本語[にほんご]に対[たい]して勉強[べんきょう]している。(Studying about Japanese.)",
+            "日本語[にほんご]に対[たい]して興味[きょうみ]がある。(Interested in Japanese.)",
+            "日本語[にほんご]に対[たい]しての本[ほん]。(A book about Japanese.)"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜のに対[たい]して for contrast: 難[むずか]しい + のに対[たい]して = whereas  is difficult. 英語[えいご]は簡単[かんたん]だ = English is easy. Two contrasting facts compared. This is the contrast use of に対[たい]して."
+        },
+        {
+          "id": "ni-taishite_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'He reacted calmly to the news'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]はそのニュースに対[たい]して冷静[れいせい]に反応[はんのう]した。",
+            "彼[かれ]はそのニュースに関[かん]して冷静[れいせい]に反応[はんのう]した。",
+            "彼[かれ]はそのニュースにとって冷静[れいせい]に反応[はんのう]した。",
+            "彼[かれ]はそのニュースについて冷静[れいせい]に反応[はんのう]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (in response to): ニュース + に対[たい]して = in response to / directed at the news. 冷静[れいせい]に反応[はんのう]した = reacted calmly. に対[たい]して marks the stimulus that the reaction is directed at."
+        },
+        {
+          "id": "ni-taishite_q19",
+          "type": "translation",
+          "prompt": "Which means 'He is loyal to his friends'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は友達[ともだち]に対[たい]して誠実[せいじつ]だ。",
+            "彼[かれ]は友達[ともだち]に関[かん]して誠実[せいじつ]だ。",
+            "彼[かれ]は友達[ともだち]にとって誠実[せいじつ]だ。",
+            "彼[かれ]は友達[ともだち]について誠実[せいじつ]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + に対[たい]して (attitude directed at): 友達[ともだち] + に対[たい]して = toward friends. 誠実[せいじつ]だ = is loyal/sincere. に対[たい]して marks the target of the loyalty/sincerity."
+        },
+        {
+          "id": "ni-taishite_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'Exports increased, while imports decreased'?",
+          "japanese": null,
+          "choices": [
+            "輸出[ゆしゅつ]が増[ふ]えたのに対[たい]して、輸入[ゆにゅう]は減[へ]った。",
+            "輸出[ゆしゅつ]が増[ふ]えたに対[たい]して、輸入[ゆにゅう]は減[へ]った。",
+            "輸出[ゆしゅつ]が増[ふ]えたのに関[かん]して、輸入[ゆにゅう]は減[へ]った。",
+            "輸出[ゆしゅつ]が増[ふ]えたのにとって、輸入[ゆにゅう]は減[へ]った。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜のに対[たい]して for contrast: 増[ふ]えた + のに対[たい]して = whereas  increased. 輸入[ゆにゅう]は減[へ]った = imports decreased. Two contrasting economic trends."
+        }
+      ]
+    },
+    {
+      "id": "ni-totte",
+      "name": "〜にとって (ni totte) — for / from the perspective of",
+      "shortDescription": "Establishes whose perspective or interests are being considered: 'for / from the standpoint of [person]'.",
+      "formation": "Noun (person / group) + にとって + assessment or evaluation",
+      "explanation": "にとって is the grammar of perspective. It asks you to step into someone's shoes before making an evaluation. 私にとって、日本語は難しいです: the difficulty is assessed from the speaker's vantage point — not as an objective fact, but from inside their experience. 子どもにとって、遊びは学びです: what play means depends entirely on who's experiencing it — and here, the children's perspective is what matters. にとって always attaches to a person, group, or entity, and what follows is some evaluation or judgment made from within that entity's experience.\n\nThree similar patterns often get confused — here's the key distinction: にとって = from whose perspective? (purely perspectival); のために = for whose benefit? or for what purpose? (beneficiary/goal); に対して = directed toward whom? (direction of action). If you're asking 'how does this look from their side?', にとって is your answer.",
+      "rules": [
+        "Person/group + にとって = for [person] / from [person]'s perspective",
+        "Used for evaluations, assessments, or judgments from a particular viewpoint",
+        "Compare: のために = for the sake of / for the benefit of (purpose/beneficiary)",
+        "Compare: に対して = toward / directed at (directional)",
+        "にとって marks perspective — 'as seen by' or 'in relation to' that person"
+      ],
+      "examples": [
+        {
+          "japanese": "私[わたし]にとって、家族[かぞく]は何[なに]より大切[たいせつ]です。",
+          "romaji": "Watashi ni totte, kazoku wa nani yori taisetsu desu.",
+          "english": "For me, family is more important than anything."
+        },
+        {
+          "japanese": "子[こ]どもにとって、毎日[まいにち]の睡眠[すいみん]はとても重要[じゅうよう]です。",
+          "romaji": "Kodomo ni totte, mainichi no suimin wa totemo juuyou desu.",
+          "english": "For children, daily sleep is very important."
+        },
+        {
+          "japanese": "日本人[にほんじん]にとって、お正月[しょうがつ]は特別[とくべつ]な行事[ぎょうじ]です。",
+          "romaji": "Nihon jin ni totte, oshougatsu wa tokubetsu na gyouji desu.",
+          "english": "For Japanese people, New Year is a special event."
+        },
+        {
+          "japanese": "彼[かれ]にとって、この仕事[しごと]は夢[ゆめ]でした。",
+          "romaji": "Kare ni totte, kono shigoto wa yume deshita.",
+          "english": "For him, this job was a dream."
+        }
+      ],
+      "flashcardHeader": "〜にとって",
+      "flashcardAnswer": "Establishes whose perspective or interests are being considered: 'for / from the standpoint of [person]'.",
+      "practice": [
+        {
+          "id": "ni-totte_q1",
+          "type": "usage",
+          "prompt": "What does 〜にとって mean?",
+          "japanese": null,
+          "choices": [
+            "regarding the topic of",
+            "for / from the standpoint of / from X's perspective (expressing how something is seen, felt, or evaluated BY a person or entity)",
+            "compared to",
+            "directed at / toward"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜にとって = for / from the perspective of. 私[わたし]にとって = for me / from my perspective. 子供[こども]にとって遊[あそ]びは大切[たいせつ]だ = play is important for children (from children's perspective)."
+        },
+        {
+          "id": "ni-totte_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'This is a very important matter for me'?",
+          "japanese": null,
+          "choices": [
+            "私[わたし]にとって、これはとても大切[たいせつ]なことだ。",
+            "私[わたし]に対[たい]して、これはとても大切[たいせつ]なことだ。",
+            "私[わたし]に関[かん]して、これはとても大切[たいせつ]なことだ。",
+            "私[わたし]については、これはとても大切[たいせつ]なことだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって (for/from perspective): 私[わたし] + にとって = for me. これはとても大切[たいせつ]なことだ = this is a very important thing. にとって marks whose perspective the evaluation is from."
+        },
+        {
+          "id": "ni-totte_q3",
+          "type": "translation",
+          "prompt": "Which means 'Exercise is beneficial for the elderly'?",
+          "japanese": null,
+          "choices": [
+            "お年寄[としよ]りにとって、運動[うんどう]は体[からだ]にいい。",
+            "お年寄[としよ]りに対[たい]して、運動[うんどう]は体[からだ]にいい。",
+            "お年寄[としよ]りに関[かん]して、運動[うんどう]は体[からだ]にいい。",
+            "お年寄[としよ]りにとって、運動[うんどう]をする。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: お年寄[としよ]り (elderly) + にとって = for the elderly. 運動[うんどう]は体[からだ]にいい = exercise is good for the body. にとって expresses the evaluation from the elderly's perspective."
+        },
+        {
+          "id": "ni-totte_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Japanese is the most difficult for her'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]にとって、日本語[にほんご]が一番[いちばん]難[むずか]しい。",
+            "彼女[かのじょ]に対[たい]して、日本語[にほんご]が一番[いちばん]難[むずか]しい。",
+            "彼女[かのじょ]に関[かん]して、日本語[にほんご]が一番[いちばん]難[むずか]しい。",
+            "彼女[かのじょ]にとっての、日本語[にほんご]が一番[いちばん]難[むずか]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 彼女[かのじょ] + にとって = for her. 日本語[にほんご]が一番[いちばん]難[むずか]しい = Japanese is the most difficult. にとって marks that the judgment is from HER perspective."
+        },
+        {
+          "id": "ni-totte_q5",
+          "type": "usage",
+          "prompt": "What is the noun-modifying form of にとって?",
+          "japanese": null,
+          "choices": [
+            "にとっている",
+            "にとるの",
+            "にとっての",
+            "にとって"
+          ],
+          "correctIndex": 2,
+          "explanation": "にとっての is the noun-modifying form. 私[わたし]にとっての問題[もんだい] = a problem for me (from my perspective). にとっての + noun = a noun phrase. にとって alone ends at a clause boundary."
+        },
+        {
+          "id": "ni-totte_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'Family is the most important thing for him'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]にとって、家族[かぞく]が一番大切[いちばんたいせつ]だ。",
+            "彼[かれ]に対[たい]して、家族[かぞく]が一番大切[いちばんたいせつ]だ。",
+            "彼[かれ]に関[かん]して、家族[かぞく]が一番大切[いちばんたいせつ]だ。",
+            "彼[かれ]にとっての家族[かぞく]が一番大切[いちばんたいせつ]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 彼[かれ] + にとって = for him. 家族[かぞく]が一番大切[いちばんたいせつ]だ = family is the most important. にとって marks that the judgment is from his perspective."
+        },
+        {
+          "id": "ni-totte_q7",
+          "type": "translation",
+          "prompt": "Which means 'This experience was very valuable for the students'?",
+          "japanese": null,
+          "choices": [
+            "学生[がくせい]たちにとって、この経験[けいけん]はとても貴重[きちょう]だった。",
+            "学生[がくせい]たちに対[たい]して、この経験[けいけん]はとても貴重[きちょう]だった。",
+            "学生[がくせい]たちに関[かん]して、この経験[けいけん]はとても貴重[きちょう]だった。",
+            "学生[がくせい]たちについて、この経験[けいけん]はとても貴重[きちょう]だった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 学生[がくせい]たち + にとって = for the students. この経験[けいけん]はとても貴重[きちょう]だった = this experience was very valuable. Evaluation from the students' perspective."
+        },
+        {
+          "id": "ni-totte_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'For a baby, every sound is new'?",
+          "japanese": null,
+          "choices": [
+            "赤[あか]ちゃんにとって、すべての音[おと]が新[あたら]しい。",
+            "赤[あか]ちゃんに対[たい]して、すべての音[おと]が新[あたら]しい。",
+            "赤[あか]ちゃんに関[かん]して、すべての音[おと]が新[あたら]しい。",
+            "赤[あか]ちゃんについて、すべての音[おと]が新[あたら]しい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 赤[あか]ちゃん + にとって = for a baby. すべての音[おと]が新[あたら]しい = every sound is new. Perspective of the baby."
+        },
+        {
+          "id": "ni-totte_q9",
+          "type": "usage",
+          "prompt": "What is the KEY difference between にとって and に対[たい]して?",
+          "japanese": null,
+          "choices": [
+            "They are identical in meaning",
+            "にとって = from the perspective of X (evaluation); に対[たい]して = directed AT X (action/attitude/contrast)",
+            "にとって is more formal",
+            "に対[たい]して is only for objects, not people"
+          ],
+          "correctIndex": 1,
+          "explanation": "にとって = from X's perspective/standpoint (subjective evaluation). に対[たい]して = directed at X as a target (action or attitude). 私[わたし]にとって難[むずか]しい = difficult for me (from my perspective); 私[わたし]に対[たい]して厳[いかめ]しい = strict toward me (directed at me)."
+        },
+        {
+          "id": "ni-totte_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'For her, money is not the most important thing'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]にとって、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]に対[たい]して、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]に関[かん]して、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]について、お金[きん]が一番大切[いちばんたいせつ]なわけではない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 彼女[かのじょ] + にとって = for her. お金[きん]が一番大切[いちばんたいせつ]なわけではない = money isn't the most important. Evaluation from her personal perspective/values."
+        },
+        {
+          "id": "ni-totte_q11",
+          "type": "translation",
+          "prompt": "Which means 'This opportunity is a turning point for the company'?",
+          "japanese": null,
+          "choices": [
+            "この機会[きかい]は会社[かいしゃ]にとって転機[てんき]だ。",
+            "この機会[きかい]は会社[かいしゃ]に対[たい]して転機[てんき]だ。",
+            "この機会[きかい]は会社[かいしゃ]に関[かん]して転機[てんき]だ。",
+            "この機会[きかい]は会社[かいしゃ]についての転機[てんき]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 会社[かいしゃ] + にとって = for the company. 転機[てんき]だ = is a turning point. Evaluation from the company's standpoint."
+        },
+        {
+          "id": "ni-totte_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'For Japanese learners, kanji is the biggest challenge'?",
+          "japanese": null,
+          "choices": [
+            "日本語学[にほんごがく]習[しゅう]者[もの]にとって、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語学[にほんごがく]習[しゅう]者[もの]に対[たい]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語学[にほんごがく]習[しゅう]者[もの]に関[かん]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語学[にほんごがく]習[しゅう]者[もの]について、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 日本語学[にほんごがく]習[しゅう]者[もの] (Japanese learners) + にとって = for Japanese learners. 漢字[かんじ]が一番[いちばん]の難関[なんかん]だ = kanji is the biggest challenge. Evaluation from learners' perspective."
+        },
+        {
+          "id": "ni-totte_q13",
+          "type": "usage",
+          "prompt": "When にとって modifies a noun, which form is used?",
+          "japanese": null,
+          "choices": [
+            "にとって + noun (no change)",
+            "にとっての + noun",
+            "にとる + noun",
+            "にとり + noun"
+          ],
+          "correctIndex": 1,
+          "explanation": "にとっての + noun: 彼[かれ]にとっての問題[もんだい] = a problem for him. The の is required when にとって modifies a noun. Without の, にとって simply ends the clause before a new noun."
+        },
+        {
+          "id": "ni-totte_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Spending time with family is the greatest happiness for her'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]にとって、家族[かぞく]と過[す]ごす時間[じかん]が最高[さいこう]の幸[しあわ]せだ。",
+            "彼女[かのじょ]に対[たい]して、家族[かぞく]と過[す]ごす時間[じかん]が最高[さいこう]の幸[しあわ]せだ。",
+            "彼女[かのじょ]に関[かん]して、家族[かぞく]と過[す]ごす時間[じかん]が最高[さいこう]の幸[しあわ]せだ。",
+            "彼女[かのじょ]について、家族[かぞく]と過[す]ごす時間[じかん]が最高[さいこう]の幸[しあわ]せだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 彼女[かのじょ] + にとって = for her. 家族[かぞく]と過[す]ごす時間[じかん] = time spent with family. 最高[さいこう]の幸[しあわ]せだ = is the greatest happiness. Evaluation of what constitutes happiness from her perspective."
+        },
+        {
+          "id": "ni-totte_q15",
+          "type": "translation",
+          "prompt": "Which means 'For athletes, rest is just as important as training'?",
+          "japanese": null,
+          "choices": [
+            "アスリートにとって、休息[きゅうそく]はトレーニングと同[おな]じくらい大切[たいせつ]だ。",
+            "アスリートに対[たい]して、休息[きゅうそく]はトレーニングと同[おな]じくらい大切[たいせつ]だ。",
+            "アスリートに関[かん]して、休息[きゅうそく]はトレーニングと同[おな]じくらい大切[たいせつ]だ。",
+            "アスリートについて、休息[きゅうそく]はトレーニングと同[おな]じくらい大切[たいせつ]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: アスリート + にとって = for athletes. 休息[きゅうそく]はトレーニングと同[おな]じくらい大切[たいせつ]だ = rest is as important as training. Evaluation from the athletes' perspective."
+        },
+        {
+          "id": "ni-totte_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'The hardest problem for beginners is pronunciation'?",
+          "japanese": null,
+          "choices": [
+            "初心者[しょしんしゃ]にとっての一番[いちばん]の難問[なんもん]は発音[はつおん]だ。",
+            "初心者[しょしんしゃ]に対[たい]しての一番[いちばん]の難問[なんもん]は発音[はつおん]だ。",
+            "初心者[しょしんしゃ]に関[かん]しての一番[いちばん]の難問[なんもん]は発音[はつおん]だ。",
+            "初心者[しょしんしゃ]についての一番[いちばん]の難問[なんもん]は発音[はつおん]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "にとっての + noun: 初心者[しょしんしゃ] (beginners) + にとっての + 一番[いちばん]の難問[なんもん] (biggest problem) = the biggest problem for beginners. にとっての modifies 難問[なんもん]."
+        },
+        {
+          "id": "ni-totte_q17",
+          "type": "usage",
+          "prompt": "Which correctly uses にとって to express a personal evaluation?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]にとって遊[あそ]びは学[まな]びだ。(For children, play is learning.)",
+            "子供[こども]に対[たい]して遊[あそ]んでいる。(Playing directed at children.)",
+            "子供[こども]に関[かん]して問題[もんだい]がある。(There's a problem regarding children.)",
+            "子供[こども]について話[はな]す。(Talk about children.)"
+          ],
+          "correctIndex": 0,
+          "explanation": "子供[こども]にとって遊[あそ]びは学[まな]びだ = for children, play is learning. This is a classic にとって — expressing an evaluation (what play IS) from the children's perspective. The other options use に対[たい]して, に関[かん]して, について for their respective meanings."
+        },
+        {
+          "id": "ni-totte_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Music is life itself for him'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]にとって、音楽[おんがく]は人生[じんせい]そのものだ。",
+            "彼[かれ]に対[たい]して、音楽[おんがく]は人生[じんせい]そのものだ。",
+            "彼[かれ]に関[かん]して、音楽[おんがく]は人生[じんせい]そのものだ。",
+            "彼[かれ]について、音楽[おんがく]は人生[じんせい]そのものだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 彼[かれ] + にとって = for him. 音楽[おんがく]は人生[じんせい]そのものだ = music is life itself. Profound personal evaluation from his perspective."
+        },
+        {
+          "id": "ni-totte_q19",
+          "type": "translation",
+          "prompt": "Which means 'For the company, customer satisfaction is the top priority'?",
+          "japanese": null,
+          "choices": [
+            "会社[かいしゃ]にとって、顧客[こきゃく]満足[まんぞく]が最優先[さいゆうせん]事項[じこう]だ。",
+            "会社[かいしゃ]に対[たい]して、顧客[こきゃく]満足[まんぞく]が最優先[さいゆうせん]事項[じこう]だ。",
+            "会社[かいしゃ]に関[かん]して、顧客[こきゃく]満足[まんぞく]が最優先[さいゆうせん]事項[じこう]だ。",
+            "会社[かいしゃ]について、顧客[こきゃく]満足[まんぞく]が最優先[さいゆうせん]事項[じこう]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 会社[かいしゃ] + にとって = for the company. 顧客[こきゃく]満足[まんぞく]が最優先[さいゆうせん]事項[じこう]だ = customer satisfaction is the top priority. Evaluation from the company's standpoint."
+        },
+        {
+          "id": "ni-totte_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'For a teacher, seeing students grow is the greatest joy'?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]にとって、生徒[せいと]の成長[せいちょう]を見[み]ることが最大[さいだい]の喜[よろこ]びだ。",
+            "先生[せんせい]に対[たい]して、生徒[せいと]の成長[せいちょう]を見[み]ることが最大[さいだい]の喜[よろこ]びだ。",
+            "先生[せんせい]に関[かん]して、生徒[せいと]の成長[せいちょう]を見[み]ることが最大[さいだい]の喜[よろこ]びだ。",
+            "先生[せんせい]について、生徒[せいと]の成長[せいちょう]を見[み]ることが最大[さいだい]の喜[よろこ]びだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にとって: 先生[せんせい] + にとって = for a teacher. 生徒[せいと]の成長[せいちょう]を見[み]ることが最大[さいだい]の喜[よろこ]びだ = seeing students grow is the greatest joy. Evaluation from the teacher's perspective."
+        }
+      ]
+    },
+    {
+      "id": "to-shite",
+      "name": "〜として (to shite) — as / in the capacity of / in the role of",
+      "shortDescription": "Establishes the role, capacity, or identity from which someone acts or is being evaluated.",
+      "formation": "Noun + として (+ action or evaluation in that role)",
+      "explanation": "として is the grammar of roles and identities. It establishes the lens through which something is considered: 医者として、適切なアドバイスをします means the doctor is speaking specifically in their professional capacity. 友達として言うんですが means 'I'm about to say something — and it needs to be received as coming from a friend, not a stranger or a superior.' The role introduced by として shapes the entire meaning of what follows.\n\nとしては is an important variant that evaluates something within its own category: この映画は娯楽作品としてはよくできている ('For an entertainment film, this is well made') — not claiming it's an artistic masterpiece, but assessing it fairly within its category. として is extraordinarily common in professional, formal, and philosophical contexts. A reliable mental cue: whenever として appears, ask what role or capacity is being established — that framing will unlock the meaning of everything that follows.",
+      "rules": [
+        "Noun + として = as / in the capacity of / functioning as [noun role]",
+        "Establishes the role or capacity from which an action is performed or evaluation is made",
+        "としては = evaluated within its category ('as X go, / for an X')",
+        "として alone can also mean 'per unit': 一人として (even one person; not a single person)",
+        "Common: 友人として, 社員として, 問題として (as a problem), 前提として (as a premise)"
+      ],
+      "examples": [
+        {
+          "japanese": "教師[きょうし]として、学生[がくせい]の成長[せいちょう]が何[なに]より嬉[うれ]しいです。",
+          "romaji": "Kyoushi to shite, gakusei no seichou ga nani yori ureshii desu.",
+          "english": "As a teacher, nothing makes me happier than a student's growth."
+        },
+        {
+          "japanese": "友人[ゆうじん]として、正直[しょうじき]に言[い]わせてください。",
+          "romaji": "Yuujin to shite, shoujiki ni iwasete kudasai.",
+          "english": "As a friend, please let me speak honestly."
+        },
+        {
+          "japanese": "この映画[えいが]は娯楽作品[ごらくさくひん]としてはよくできています。",
+          "romaji": "Kono eiga wa goraku sakuhin to shite wa yoku dekite imasu.",
+          "english": "As entertainment films go, this one is well made."
+        },
+        {
+          "japanese": "代表[だいひょう]として、スピーチをすることになりました。",
+          "romaji": "Daihyou to shite, supiiichi wo suru koto ni narimashita.",
+          "english": "It has been decided that I will give a speech as the representative."
+        }
+      ],
+      "flashcardHeader": "〜として",
+      "flashcardAnswer": "Establishes the role, capacity, or identity from which someone acts or is being evaluated.",
+      "practice": [
+        {
+          "id": "to-shite_q1",
+          "type": "usage",
+          "prompt": "What does 〜として mean?",
+          "japanese": null,
+          "choices": [
+            "compared to",
+            "as / in the capacity of / in the role of (expressing identity, role, or status)",
+            "toward / directed at",
+            "from the perspective of"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜として = as / in the capacity of. 医者[いしゃ]として (as a doctor), 代表[だいひょう]として (as a representative). Expresses the ROLE, CAPACITY, or STATUS in which someone acts or is treated."
+        },
+        {
+          "id": "to-shite_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'As a student, I should study hard'?",
+          "japanese": null,
+          "choices": [
+            "学生[がくせい]として、一生懸命[いっしょうけんめい]勉強[べんきょう]すべきだ。",
+            "学生[がくせい]に対[たい]して、一生懸命[いっしょうけんめい]勉強[べんきょう]すべきだ。",
+            "学生[がくせい]にとって、一生懸命[いっしょうけんめい]勉強[べんきょう]すべきだ。",
+            "学生[がくせい]に関[かん]して、一生懸命[いっしょうけんめい]勉強[べんきょう]すべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 学生[がくせい] (student) + として = as a student. 一生懸命[いっしょうけんめい]勉強[べんきょう]すべきだ = should study hard. として marks the role/capacity in which the action is performed."
+        },
+        {
+          "id": "to-shite_q3",
+          "type": "translation",
+          "prompt": "Which means 'He works as an interpreter'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は通訳[つうやく]として働[はたら]いている。",
+            "彼[かれ]は通訳[つうやく]に対[たい]して働[はたら]いている。",
+            "彼[かれ]は通訳[つうやく]にとって働[はたら]いている。",
+            "彼[かれ]は通訳[つうやく]に関[かん]して働[はたら]いている。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 通訳[つうやく] (interpreter) + として = as an interpreter. 働[はたら]いている = is working. として marks the professional role."
+        },
+        {
+          "id": "to-shite_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'She was hired as a researcher'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は研究者[けんきゅうしゃ]として採用[さいよう]された。",
+            "彼女[かのじょ]は研究者[けんきゅうしゃ]に対[たい]して採用[さいよう]された。",
+            "彼女[かのじょ]は研究者[けんきゅうしゃ]にとって採用[さいよう]された。",
+            "彼女[かのじょ]は研究者[けんきゅうしゃ]に関[かん]して採用[さいよう]された。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 研究者[けんきゅうしゃ] (researcher) + として = as a researcher. 採用[さいよう]された = was hired. として marks the capacity/role in which she was hired."
+        },
+        {
+          "id": "to-shite_q5",
+          "type": "usage",
+          "prompt": "として also expresses 'as' for THINGS being used/treated in a certain way. Which shows this?",
+          "japanese": null,
+          "choices": [
+            "これを材料[ざいりょう]として使[つか]う。(Use this AS a material/ingredient.)",
+            "これを材料[ざいりょう]に対[たい]して使[つか]う。(Use this against material.)",
+            "これを材料[ざいりょう]にとって使[つか]う。(Use this for material's sake.)",
+            "これを材料[ざいりょう]に関[かん]して使[つか]う。(Use this regarding material.)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として for things: これを材料[ざいりょう]として使[つか]う = use this as a material. として marks that the thing is being used/treated IN THE CAPACITY OF the noun. Not just for people — objects, concepts can also take として."
+        },
+        {
+          "id": "to-shite_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'This building was used as a hospital'?",
+          "japanese": null,
+          "choices": [
+            "この建物[たてもの]は病院[びょういん]として使[つか]われた。",
+            "この建物[たてもの]は病院[びょういん]に対[たい]して使[つか]われた。",
+            "この建物[たてもの]は病院[びょういん]にとって使[つか]われた。",
+            "この建物[たてもの]は病院[びょういん]に関[かん]して使[つか]われた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 病院[びょういん] (hospital) + として = as a hospital. 使[つか]われた = was used. として marks the capacity/function in which the building was used."
+        },
+        {
+          "id": "to-shite_q7",
+          "type": "translation",
+          "prompt": "Which means 'As a professional, you should behave responsibly'?",
+          "japanese": null,
+          "choices": [
+            "プロとして、責任[せきにん]ある行動[こうどう]をすべきだ。",
+            "プロに対[たい]して、責任[せきにん]ある行動[こうどう]をすべきだ。",
+            "プロにとって、責任[せきにん]ある行動[こうどう]をすべきだ。",
+            "プロに関[かん]して、責任[せきにん]ある行動[こうどう]をすべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: プロ (professional) + として = as a professional. 責任[せきにん]ある行動[こうどう]をすべきだ = should behave responsibly. として marks the role/capacity that determines the expected behavior."
+        },
+        {
+          "id": "to-shite_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'He spoke as a representative of the company'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は会社[かいしゃ]の代表[だいひょう]として話[はな]した。",
+            "彼[かれ]は会社[かいしゃ]の代表[だいひょう]に対[たい]して話[はな]した。",
+            "彼[かれ]は会社[かいしゃ]の代表[だいひょう]にとって話[はな]した。",
+            "彼[かれ]は会社[かいしゃ]の代表[だいひょう]に関[かん]して話[はな]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 代表[だいひょう] (representative) + として = as a representative. 話[はな]した = spoke. として marks the official role in which he spoke."
+        },
+        {
+          "id": "to-shite_q9",
+          "type": "usage",
+          "prompt": "What is the KEY difference between として and にとって?",
+          "japanese": null,
+          "choices": [
+            "They are identical",
+            "として = in the ROLE/CAPACITY of X (what you ARE or how you function); にとって = from the PERSPECTIVE/STANDPOINT of X (how X evaluates or experiences something)",
+            "として is more formal",
+            "にとって is for objects only"
+          ],
+          "correctIndex": 1,
+          "explanation": "として = capacity/role (what you act as). にとって = perspective/standpoint (how something appears to you). 医者[いしゃ]として (as a doctor — role); 医者[いしゃ]にとって (for a doctor — from a doctor's perspective). These are distinct functions."
+        },
+        {
+          "id": "to-shite_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'This discovery is important as evidence'?",
+          "japanese": null,
+          "choices": [
+            "この発見[はっけん]は証拠[しょうこ]として重要[じゅうよう]だ。",
+            "この発見[はっけん]は証拠[しょうこ]に対[たい]して重要[じゅうよう]だ。",
+            "この発見[はっけん]は証拠[しょうこ]にとって重要[じゅうよう]だ。",
+            "この発見[はっけん]は証拠[しょうこ]に関[かん]して重要[じゅうよう]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 証拠[しょうこ] (evidence) + として = as evidence. 重要[じゅうよう]だ = is important. として marks the capacity in which the discovery functions — it serves AS evidence."
+        },
+        {
+          "id": "to-shite_q11",
+          "type": "translation",
+          "prompt": "Which means 'As a parent, I understand your concern'?",
+          "japanese": null,
+          "choices": [
+            "親[おや]として、あなたの心配[しんぱい]はよく分[わ]かります。",
+            "親[おや]に対[たい]して、あなたの心配[しんぱい]はよく分[わ]かります。",
+            "親[おや]にとって、あなたの心配[しんぱい]はよく分[わ]かります。",
+            "親[おや]に関[かん]して、あなたの心配[しんぱい]はよく分[わ]かります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 親[おや] (parent) + として = as a parent. あなたの心配[しんぱい]はよく分[わ]かります = I well understand your concern. として marks the role from which the understanding comes."
+        },
+        {
+          "id": "to-shite_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'He is famous as a novelist'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は小説家[しょうせつか]として有名[ゆうめい]だ。",
+            "彼[かれ]は小説家[しょうせつか]に対[たい]して有名[ゆうめい]だ。",
+            "彼[かれ]は小説家[しょうせつか]にとって有名[ゆうめい]だ。",
+            "彼[かれ]は小説家[しょうせつか]に関[かん]して有名[ゆうめい]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 小説家[しょうせつか] (novelist) + として = as a novelist. 有名[ゆうめい]だ = is famous. として marks the capacity/identity in which he is known."
+        },
+        {
+          "id": "to-shite_q13",
+          "type": "usage",
+          "prompt": "として can be used with PLACES or COUNTRIES expressing their role. Which shows this?",
+          "japanese": null,
+          "choices": [
+            "日本[にっぽん]は観光地[かんこうち]として人気[にんき]がある。(Japan is popular as a tourist destination.)",
+            "日本[にっぽん]に対[たい]して観光地[かんこうち]が人気[にんき]がある。",
+            "日本[にっぽん]にとって観光地[かんこうち]は人気[にんき]がある。",
+            "日本[にっぽん]に関[かん]して観光地[かんこうち]は人気[にんき]がある。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 日本[にっぽん] + として... no — actually 観光地[かんこうち]として: 観光地[かんこうち] (tourist destination) + として = as a tourist destination. Japan functions IN THE CAPACITY OF a tourist destination. として works for places/roles."
+        },
+        {
+          "id": "to-shite_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Water was used as fuel in this experiment'?",
+          "japanese": null,
+          "choices": [
+            "この実験[じっけん]では水[みず]が燃料[ねんりょう]として使[つか]われた。",
+            "この実験[じっけん]では水[みず]が燃料[ねんりょう]に対[たい]して使[つか]われた。",
+            "この実験[じっけん]では水[みず]が燃料[ねんりょう]にとって使[つか]われた。",
+            "この実験[じっけん]では水[みず]が燃料[ねんりょう]に関[かん]して使[つか]われた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 燃料[ねんりょう] (fuel) + として = as fuel. 使[つか]われた = was used. として marks the functional capacity of water in the experiment."
+        },
+        {
+          "id": "to-shite_q15",
+          "type": "translation",
+          "prompt": "Which means 'As an adult, you should take responsibility for your actions'?",
+          "japanese": null,
+          "choices": [
+            "大人[おとな]として、自分[じぶん]の行動[こうどう]に責任[せきにん]を持[も]つべきだ。",
+            "大人[おとな]に対[たい]して、自分[じぶん]の行動[こうどう]に責任[せきにん]を持[も]つべきだ。",
+            "大人[おとな]にとって、自分[じぶん]の行動[こうどう]に責任[せきにん]を持[も]つべきだ。",
+            "大人[おとな]に関[かん]して、自分[じぶん]の行動[こうどう]に責任[せきにん]を持[も]つべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 大人[おとな] (adult) + として = as an adult. 自分[じぶん]の行動[こうどう]に責任[せきにん]を持[も]つべきだ = should take responsibility for your actions. として marks the adult role that implies this responsibility."
+        },
+        {
+          "id": "to-shite_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'She joined the company as a new employee'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は新入社員[しんにゅうしゃいん]として会社[かいしゃ]に入[いっ]った。",
+            "彼女[かのじょ]は新入社員[しんにゅうしゃいん]に対[たい]して会社[かいしゃ]に入[いっ]った。",
+            "彼女[かのじょ]は新入社員[しんにゅうしゃいん]にとって会社[かいしゃ]に入[いっ]った。",
+            "彼女[かのじょ]は新入社員[しんにゅうしゃいん]に関[かん]して会社[かいしゃ]に入[いっ]った。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 新入社員[しんにゅうしゃいん] (new employee) + として = as a new employee. 会社[かいしゃ]に入[いっ]った = joined the company. として marks the capacity/status in which she joined."
+        },
+        {
+          "id": "to-shite_q17",
+          "type": "usage",
+          "prompt": "として can also appear as としての (noun modifier). Which shows this correctly?",
+          "japanese": null,
+          "choices": [
+            "教師[きょうし]としての責任[せきにん] (responsibility as a teacher)",
+            "教師[きょうし]にとっての責任[せきにん] (responsibility for a teacher)",
+            "教師[きょうし]に対[たい]しての責任[せきにん] (responsibility toward a teacher)",
+            "教師[きょうし]に関[かん]しての責任[せきにん] (responsibility regarding a teacher)"
+          ],
+          "correctIndex": 0,
+          "explanation": "としての + noun: 教師[きょうし] (teacher) + として + の + 責任[せきにん] (responsibility) = responsibility as a teacher. としての modifies the following noun to mean 'in the role/capacity of .'"
+        },
+        {
+          "id": "to-shite_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'This rule applies as a basic principle'?",
+          "japanese": null,
+          "choices": [
+            "このルールは基本原則[きほんげんそく]として適用[てきよう]される。",
+            "このルールは基本原則[きほんげんそく]に対[たい]して適用[てきよう]される。",
+            "このルールは基本原則[きほんげんそく]にとって適用[てきよう]される。",
+            "このルールは基本原則[きほんげんそく]に関[かん]して適用[てきよう]される。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 基本原則[きほんげんそく] (basic principle) + として = as a basic principle. 適用[てきよう]される = is applied. として marks the capacity in which the rule functions."
+        },
+        {
+          "id": "to-shite_q19",
+          "type": "translation",
+          "prompt": "Which means 'As a citizen, I have a duty to vote'?",
+          "japanese": null,
+          "choices": [
+            "市民[しみん]として、投票[とうひょう]する義務[ぎむ]がある。",
+            "市民[しみん]に対[たい]して、投票[とうひょう]する義務[ぎむ]がある。",
+            "市民[しみん]にとって、投票[とうひょう]する義務[ぎむ]がある。",
+            "市民[しみん]に関[かん]して、投票[とうひょう]する義務[ぎむ]がある。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: 市民[しみん] (citizen) + として = as a citizen. 投票[とうひょう]する義務[ぎむ]がある = have a duty to vote. として marks the citizen role that implies this civic duty."
+        },
+        {
+          "id": "to-shite_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'He participated in the event as a guest speaker'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]はゲストスピーカーとしてイベントに参加[さんか]した。",
+            "彼[かれ]はゲストスピーカーに対[たい]してイベントに参加[さんか]した。",
+            "彼[かれ]はゲストスピーカーにとってイベントに参加[さんか]した。",
+            "彼[かれ]はゲストスピーカーに関[かん]してイベントに参加[さんか]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + として: ゲストスピーカー + として = as a guest speaker. イベントに参加[さんか]した = participated in the event. として marks the role/capacity in which he participated."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch34_v01",
+      "partOfSpeech": "noun",
+      "kanji": "政治",
+      "kana": "せいじ",
+      "romaji": "seiji",
+      "definition": "politics"
+    },
+    {
+      "id": "ch34_v02",
+      "partOfSpeech": "noun",
+      "kanji": "国家",
+      "kana": "こっか",
+      "romaji": "kokka",
+      "definition": "nation; state"
+    },
+    {
+      "id": "ch34_v03",
+      "partOfSpeech": "noun",
+      "kanji": "国際",
+      "kana": "こくさい",
+      "romaji": "kokusai",
+      "definition": "international"
+    },
+    {
+      "id": "ch34_v04",
+      "partOfSpeech": "noun",
+      "kanji": "外交",
+      "kana": "がいこう",
+      "romaji": "gaikou",
+      "definition": "diplomacy"
+    },
+    {
+      "id": "ch34_v05",
+      "partOfSpeech": "noun",
+      "kanji": "大統領",
+      "kana": "だいとうりょう",
+      "romaji": "daitouryou",
+      "definition": "president (of a nation)"
+    },
+    {
+      "id": "ch34_v06",
+      "partOfSpeech": "noun",
+      "kanji": "首相",
+      "kana": "しゅしょう",
+      "romaji": "shushou",
+      "definition": "prime minister"
+    },
+    {
+      "id": "ch34_v07",
+      "partOfSpeech": "noun",
+      "kanji": "大臣",
+      "kana": "だいじん",
+      "romaji": "daijin",
+      "definition": "(cabinet) minister"
+    },
+    {
+      "id": "ch34_v08",
+      "partOfSpeech": "noun",
+      "kanji": "議会",
+      "kana": "ぎかい",
+      "romaji": "gikai",
+      "definition": "parliament; assembly"
+    },
+    {
+      "id": "ch34_v09",
+      "partOfSpeech": "noun",
+      "kanji": "国会",
+      "kana": "こっかい",
+      "romaji": "kokkai",
+      "definition": "the Diet; national assembly"
+    },
+    {
+      "id": "ch34_v10",
+      "partOfSpeech": "noun",
+      "kanji": "議員",
+      "kana": "ぎいん",
+      "romaji": "giin",
+      "definition": "legislator; member"
+    },
+    {
+      "id": "ch34_v11",
+      "partOfSpeech": "noun",
+      "kanji": "憲法",
+      "kana": "けんぽう",
+      "romaji": "kenpou",
+      "definition": "constitution"
+    },
+    {
+      "id": "ch34_v12",
+      "partOfSpeech": "noun",
+      "kanji": "裁判",
+      "kana": "さいばん",
+      "romaji": "saiban",
+      "definition": "trial; court case"
+    },
+    {
+      "id": "ch34_v13",
+      "partOfSpeech": "noun",
+      "kanji": "裁判所",
+      "kana": "さいばんしょ",
+      "romaji": "saibansho",
+      "definition": "court"
+    },
+    {
+      "id": "ch34_v14",
+      "partOfSpeech": "noun",
+      "kanji": "権力",
+      "kana": "けんりょく",
+      "romaji": "kenryoku",
+      "definition": "(political) power"
+    },
+    {
+      "id": "ch34_v15",
+      "partOfSpeech": "noun",
+      "kanji": "政策",
+      "kana": "せいさく",
+      "romaji": "seisaku",
+      "definition": "policy"
+    },
+    {
+      "id": "ch34_v16",
+      "partOfSpeech": "noun",
+      "kanji": "制度",
+      "kana": "せいど",
+      "romaji": "seido",
+      "definition": "system; institution"
+    },
+    {
+      "id": "ch34_v17",
+      "partOfSpeech": "noun",
+      "kanji": "組織",
+      "kana": "そしき",
+      "romaji": "soshiki",
+      "definition": "organization"
+    },
+    {
+      "id": "ch34_v18",
+      "partOfSpeech": "noun",
+      "kanji": "団体",
+      "kana": "だんたい",
+      "romaji": "dantai",
+      "definition": "group; organization"
+    },
+    {
+      "id": "ch34_v19",
+      "partOfSpeech": "noun",
+      "kanji": "政党",
+      "kana": "せいとう",
+      "romaji": "seitou",
+      "definition": "political party"
+    },
+    {
+      "id": "ch34_v20",
+      "partOfSpeech": "noun",
+      "kanji": "与党",
+      "kana": "よとう",
+      "romaji": "yotou",
+      "definition": "ruling party"
+    },
+    {
+      "id": "ch34_v21",
+      "partOfSpeech": "noun",
+      "kanji": "野党",
+      "kana": "やとう",
+      "romaji": "yatou",
+      "definition": "opposition party"
+    },
+    {
+      "id": "ch34_v22",
+      "partOfSpeech": "noun",
+      "kanji": "投票",
+      "kana": "とうひょう",
+      "romaji": "touhyou",
+      "definition": "voting"
+    },
+    {
+      "id": "ch34_v23",
+      "partOfSpeech": "noun",
+      "kanji": "演説",
+      "kana": "えんぜつ",
+      "romaji": "enzetsu",
+      "definition": "speech; address"
+    },
+    {
+      "id": "ch34_v24",
+      "partOfSpeech": "noun",
+      "kanji": "世論",
+      "kana": "よろん",
+      "romaji": "yoron",
+      "definition": "public opinion"
+    },
+    {
+      "id": "ch34_v25",
+      "partOfSpeech": "noun",
+      "kanji": "報道",
+      "kana": "ほうどう",
+      "romaji": "houdou",
+      "definition": "news reporting"
+    },
+    {
+      "id": "ch34_v26",
+      "partOfSpeech": "noun",
+      "kanji": "マスコミ",
+      "kana": "マスコミ",
+      "romaji": "masukomi",
+      "definition": "the mass media"
+    },
+    {
+      "id": "ch34_v27",
+      "partOfSpeech": "noun",
+      "kanji": "出版",
+      "kana": "しゅっぱん",
+      "romaji": "shuppan",
+      "definition": "publishing"
+    },
+    {
+      "id": "ch34_v28",
+      "partOfSpeech": "noun",
+      "kanji": "表現",
+      "kana": "ひょうげん",
+      "romaji": "hyougen",
+      "definition": "expression"
+    },
+    {
+      "id": "ch34_v29",
+      "partOfSpeech": "noun",
+      "kanji": "主義",
+      "kana": "しゅぎ",
+      "romaji": "shugi",
+      "definition": "principle; -ism"
+    },
+    {
+      "id": "ch34_v30",
+      "partOfSpeech": "noun",
+      "kanji": "平等",
+      "kana": "びょうどう",
+      "romaji": "byoudou",
+      "definition": "equality"
+    },
+    {
+      "id": "ch34_v31",
+      "partOfSpeech": "noun",
+      "kanji": "差別",
+      "kana": "さべつ",
+      "romaji": "sabetsu",
+      "definition": "discrimination"
+    },
+    {
+      "id": "ch34_v32",
+      "partOfSpeech": "noun",
+      "kanji": "人権",
+      "kana": "じんけん",
+      "romaji": "jinken",
+      "definition": "human rights"
+    },
+    {
+      "id": "ch34_v33",
+      "partOfSpeech": "noun",
+      "kanji": "国境",
+      "kana": "こっきょう",
+      "romaji": "kokkyou",
+      "definition": "(national) border"
+    },
+    {
+      "id": "ch34_v34",
+      "partOfSpeech": "noun",
+      "kanji": "移民",
+      "kana": "いみん",
+      "romaji": "imin",
+      "definition": "immigrant; immigration"
+    },
+    {
+      "id": "ch34_v35",
+      "partOfSpeech": "noun",
+      "kanji": "難民",
+      "kana": "なんみん",
+      "romaji": "nanmin",
+      "definition": "refugee"
+    },
+    {
+      "id": "ch34_v36",
+      "partOfSpeech": "noun",
+      "kanji": "対策",
+      "kana": "たいさく",
+      "romaji": "taisaku",
+      "definition": "countermeasure"
+    },
+    {
+      "id": "ch34_v37",
+      "partOfSpeech": "noun",
+      "kanji": "制限",
+      "kana": "せいげん",
+      "romaji": "seigen",
+      "definition": "restriction; limit"
+    },
+    {
+      "id": "ch34_v38",
+      "partOfSpeech": "noun",
+      "kanji": "支持",
+      "kana": "しじ",
+      "romaji": "shiji",
+      "definition": "support; backing"
+    },
+    {
+      "id": "ch34_v39",
+      "partOfSpeech": "noun",
+      "kanji": "承認",
+      "kana": "しょうにん",
+      "romaji": "shounin",
+      "definition": "approval; recognition"
+    },
+    {
+      "id": "ch34_v40",
+      "partOfSpeech": "noun",
+      "kanji": "発言",
+      "kana": "はつげん",
+      "romaji": "hatsugen",
+      "definition": "statement; remark"
+    }
+  ]
+}
