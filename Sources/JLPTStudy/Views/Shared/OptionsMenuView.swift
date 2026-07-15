@@ -141,7 +141,8 @@ private struct KanjiSelectionRow: View {
     @ObservedObject var store: CardStore
 
     private var availablePool: [KanjiCard] {
-        var cards = store.kanjiCards
+        // Same order as the Kanji list on the home page (number kanji pinned first)
+        var cards = store.allKanjiCards()
         if !filter.selectedLevels.isEmpty {
             cards = cards.filter { filter.selectedLevels.contains($0.nLevel) }
         }
