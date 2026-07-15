@@ -7,6 +7,7 @@ struct VocabFlashcardsView: View {
     @State private var isRevealed = false
     @State private var isLoading = true
     @State private var showFilter = false
+    @Namespace private var wordNS
 
     private var pool: [VocabFlashCard] { filter.apply(to: allCards) }
 
@@ -37,122 +38,120 @@ struct VocabFlashcardsView: View {
 
     private func cardView(_ card: VocabFlashCard) -> some View {
         let isFav = filter.isFavorite(card.word.id)
+
+        // Word block, shared by both faces so it slides between them.
+        let wordBlock = VStack(spacing: 10) {
+            Text(card.word.partOfSpeech)
+                .font(.system(size: 12, weight: .semibold))
+                .foregroundColor(card.accentColor)
+                .padding(.horizontal, 8)
+                .padding(.vertical, 4)
+                .background(card.accentColor.opacity(0.12))
+                .cornerRadius(6)
+
+            Text(card.word.kanji)
+                .font(.system(size: 48, weight: .bold))
+                .foregroundColor(.appText)
+                .multilineTextAlignment(.center)
+
+            if card.word.kanji != card.word.kana {
+                Text(card.word.kana)
+                    .font(.system(size: 20))
+                    .foregroundColor(.secondary)
+            }
+        }
+        .padding(.horizontal, 24)
+        .matchedGeometryEffect(id: "word", in: wordNS)
+
         return ZStack(alignment: .bottom) {
             Color.appBackground.ignoresSafeArea()
 
-            if isRevealed {
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 16) {
-                        // Header recap
-                        HStack(alignment: .firstTextBaseline, spacing: 8) {
-                            Text(card.word.kanji)
-                                .font(.system(size: 26, weight: .bold))
-                                .foregroundColor(.appText)
-                            if card.word.kanji != card.word.kana {
-                                Text(card.word.kana)
-                                    .font(.system(size: 16))
-                                    .foregroundColor(.secondary)
+            VStack(spacing: 0) {
+                // Fixed top bar: favorite (stays put while the word slides)
+                HStack {
+                    Button {
+                        filter.toggleFavorite(card.word.id)
+                    } label: {
+                        Image(systemName: isFav ? "star.fill" : "star")
+                            .font(.system(size: 26))
+                            .foregroundColor(isFav ? .yellow : Color.gray.opacity(0.5))
+                    }
+                    .buttonStyle(.plain)
+                    Spacer()
+                }
+                .padding(.horizontal, 20)
+                .padding(.top, 16)
+
+                if isRevealed {
+                    ScrollView {
+                        VStack(spacing: 20) {
+                            wordBlock
+                                .padding(.top, 8)
+
+                            // Answer box
+                            VStack(alignment: .leading, spacing: 6) {
+                                Text(card.word.romaji)
+                                    .font(.system(size: 14))
+                                    .foregroundColor(card.accentColor)
+                                    .italic()
+                                Text(card.word.definition)
+                                    .font(.system(size: 17, weight: .medium))
+                                    .foregroundColor(.appText)
+                                    .fixedSize(horizontal: false, vertical: true)
                             }
-                        }
-                        .padding(.top, 16)
+                            .padding(14)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(card.accentColor.opacity(0.1))
+                            .cornerRadius(10)
+                            .padding(.horizontal, 24)
+                            .transition(.opacity.animation(.easeIn(duration: 0.3).delay(0.2)))
 
-                        // Answer box
-                        VStack(alignment: .leading, spacing: 6) {
-                            Text(card.word.romaji)
-                                .font(.system(size: 14))
-                                .foregroundColor(card.accentColor)
-                                .italic()
-                            Text(card.word.definition)
-                                .font(.system(size: 17, weight: .medium))
-                                .foregroundColor(.appText)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        .padding(14)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(card.accentColor.opacity(0.1))
-                        .cornerRadius(10)
-
-                        // Part of speech + chapter
-                        HStack(spacing: 8) {
-                            Text(card.word.partOfSpeech)
-                                .font(.system(size: 10, weight: .semibold))
-                                .foregroundColor(card.accentColor)
-                                .padding(.horizontal, 6)
-                                .padding(.vertical, 3)
-                                .background(card.accentColor.opacity(0.12))
-                                .cornerRadius(5)
-
+                            // Chapter
                             Text("ch\(String(format: "%02d", card.chapterNumber))  \(card.chapterTitle)")
                                 .font(.system(size: 11, weight: .semibold))
                                 .foregroundColor(card.accentColor)
                                 .textCase(.uppercase)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.horizontal, 24)
+                                .transition(.opacity.animation(.easeIn(duration: 0.3).delay(0.2)))
+
+                            Spacer().frame(height: 90)
                         }
-
-                        Spacer().frame(height: 80)
+                        .frame(maxWidth: .infinity)
                     }
-                    .padding(.horizontal, 20)
-                }
-            } else {
-                // Front face
-                VStack(spacing: 0) {
-                    Spacer()
+                } else {
+                    VStack(spacing: 0) {
+                        Spacer()
 
-                    VStack(spacing: 10) {
-                        Text(card.word.partOfSpeech)
-                            .font(.system(size: 12, weight: .semibold))
-                            .foregroundColor(card.accentColor)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 4)
-                            .background(card.accentColor.opacity(0.12))
-                            .cornerRadius(6)
+                        wordBlock
 
-                        Text(card.word.kanji)
-                            .font(.system(size: 48, weight: .bold))
-                            .foregroundColor(.appText)
-                            .multilineTextAlignment(.center)
+                        Spacer()
 
-                        if card.word.kanji != card.word.kana {
-                            Text(card.word.kana)
-                                .font(.system(size: 20))
-                                .foregroundColor(.secondary)
+                        Button {
+                            withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
+                                isRevealed = true
+                            }
+                        } label: {
+                            ZStack {
+                                Circle()
+                                    .fill(Color.red)
+                                    .frame(width: 88, height: 88)
+                                Text("Check")
+                                    .font(.system(size: 16, weight: .semibold))
+                                    .foregroundColor(.white)
+                            }
                         }
+                        .buttonStyle(.plain)
+                        .transition(.opacity)
+
+                        Spacer()
+                        Spacer().frame(height: 88)
                     }
-                    .padding(.horizontal, 32)
-
-                    Spacer()
-
-                    Button { isRevealed = true } label: {
-                        ZStack {
-                            Circle()
-                                .fill(Color.red)
-                                .frame(width: 88, height: 88)
-                            Text("Check")
-                                .font(.system(size: 16, weight: .semibold))
-                                .foregroundColor(.white)
-                        }
-                    }
-                    .buttonStyle(.plain)
-
-                    Spacer()
-                    Spacer().frame(height: 88)
                 }
             }
 
             // Bottom bar
             HStack(spacing: 12) {
-                // Favorite
-                Button {
-                    filter.toggleFavorite(card.word.id)
-                } label: {
-                    Image(systemName: isFav ? "star.fill" : "star")
-                        .font(.system(size: 20))
-                        .foregroundColor(isFav ? .yellow : .secondary)
-                        .frame(width: 48, height: 48)
-                        .background(Color.primary.opacity(0.06))
-                        .cornerRadius(10)
-                }
-                .buttonStyle(.plain)
-
                 Button { filter.markNeedsWork(card.word.id); pickNext() } label: {
                     Text("Don't Know")
                         .font(.system(size: 15, weight: .semibold))

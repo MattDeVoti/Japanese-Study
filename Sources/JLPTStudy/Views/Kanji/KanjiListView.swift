@@ -2,13 +2,14 @@ import SwiftUI
 
 struct KanjiListView: View {
     @EnvironmentObject private var store: CardStore
-    @EnvironmentObject private var filter: KanjiFilter
     @State private var searchText = ""
 
     private let columns = Array(repeating: GridItem(.flexible(), spacing: 4), count: 5)
 
     private var cards: [KanjiCard] {
-        let base = store.filteredKanjiCards(filter: filter)
+        // Lookup shows every kanji; only the search bar narrows it — the kanji
+        // flashcard filter (levels / selected kanji) intentionally does NOT apply.
+        let base = store.allKanjiCards()
         guard !searchText.isEmpty else { return base }
         return base.filter { $0.kanji.contains(searchText) }
     }
@@ -42,6 +43,5 @@ struct KanjiListView: View {
             }
         }
         .standardNavBar("Kanji")
-        .withOptions(filter: filter, store: store, section: .kanji, label: "Kanji")
     }
 }

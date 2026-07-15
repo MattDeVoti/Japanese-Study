@@ -275,8 +275,17 @@ class CardStore: ObservableObject {
             let favs = cards.filter(\.isFavorite)
             if !favs.isEmpty { cards = favs }
         }
+        return pinNumberKanji(cards)
+    }
 
-        // Pin number kanji to the front in ascending order
+    /// Every kanji, number kanji pinned to the front — no study filter applied.
+    /// Used by the Kanji lookup screen, which is driven only by its own search bar.
+    func allKanjiCards() -> [KanjiCard] {
+        pinNumberKanji(kanjiCards)
+    }
+
+    // Pin number kanji to the front in ascending order
+    private func pinNumberKanji(_ cards: [KanjiCard]) -> [KanjiCard] {
         let pinnedOrder = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "万"]
         let pinnedSet = Set(pinnedOrder)
         let pinned = pinnedOrder.compactMap { k in cards.first(where: { $0.kanji == k }) }

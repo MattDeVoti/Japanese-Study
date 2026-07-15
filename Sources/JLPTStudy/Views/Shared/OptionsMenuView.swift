@@ -205,9 +205,7 @@ private struct KanjiPickerView: View {
         }
     }
 
-    private var allSelected: Bool {
-        !filter.selectedKanjiIds.isEmpty && filtered.allSatisfy { filter.selectedKanjiIds.contains($0.id) }
-    }
+    private var noneSelected: Bool { filter.selectedKanjiIds.isEmpty }
 
     var body: some View {
         ZStack {
@@ -226,63 +224,78 @@ private struct KanjiPickerView: View {
                 .padding(.horizontal, 16)
                 .padding(.vertical, 10)
 
-                // Bulk toggle
-                HStack {
-                    Text("\(filtered.count) kanji")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                    Button(allSelected ? "Deselect All" : "Select All") {
-                        if allSelected {
-                            for card in filtered { filter.selectedKanjiIds.remove(card.id) }
-                        } else {
-                            for card in filtered { filter.selectedKanjiIds.insert(card.id) }
-                        }
+                // Select All / Deselect All + live count
+                HStack(spacing: 10) {
+                    Button {
+                        for card in filtered { filter.selectedKanjiIds.insert(card.id) }
+                    } label: {
+                        Text("Select All")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundColor(.white)
+                            .padding(.horizontal, 14).padding(.vertical, 7)
+                            .background(Capsule().fill(Color.blue))
                     }
-                    .font(.subheadline)
-                    .foregroundColor(.blue)
+                    .buttonStyle(.plain)
+
+                    Button {
+                        filter.selectedKanjiIds.removeAll()
+                    } label: {
+                        Text("Deselect All")
+                            .font(.system(size: 14, weight: .semibold))
+                            .foregroundColor(noneSelected ? .secondary : .red)
+                            .padding(.horizontal, 14).padding(.vertical, 7)
+                            .background(
+                                Capsule().stroke(noneSelected ? Color.secondary.opacity(0.3)
+                                                              : Color.red.opacity(0.6), lineWidth: 1.5)
+                            )
+                    }
+                    .buttonStyle(.plain)
+                    .disabled(noneSelected)
+
+                    Spacer()
+
+                    Text(noneSelected ? "All \(pool.count)" : "\(filter.selectedKanjiIds.count) selected")
+                        .font(.system(size: 13, weight: .medium))
+                        .foregroundColor(.secondary)
                 }
                 .padding(.horizontal, 16)
-                .padding(.bottom, 4)
+                .padding(.bottom, 8)
+
+                // Make the "pick nothing = study everything" default explicit
+                if noneSelected {
+                    HStack(spacing: 8) {
+                        Image(systemName: "info.circle")
+                            .foregroundColor(.secondary)
+                        Text("Nothing picked, so all \(pool.count) kanji will be studied. Tap kanji below to study only specific ones.")
+                            .font(.system(size: 12))
+                            .foregroundColor(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    .padding(.horizontal, 12).padding(.vertical, 10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color.primary.opacity(0.04))
+                    .cornerRadius(10)
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 8)
+                }
 
                 ScrollView {
-                    LazyVStack(spacing: 0) {
+                    LazyVGrid(
+                        columns: [GridItem(.adaptive(minimum: 104), spacing: 10)],
+                        spacing: 10
+                    ) {
                         ForEach(filtered) { card in
-                            let selected = filter.selectedKanjiIds.isEmpty
-                                || filter.selectedKanjiIds.contains(card.id)
-                            Button {
+                            KanjiCell(
+                                card: card,
+                                selected: filter.selectedKanjiIds.contains(card.id)
+                            ) {
                                 toggleKanji(card)
-                            } label: {
-                                HStack(spacing: 12) {
-                                    Text(card.kanji)
-                                        .font(.system(size: 28, weight: .medium))
-                                        .foregroundColor(nLevelColor(card.nLevel))
-                                        .frame(width: 40)
-                                    VStack(alignment: .leading, spacing: 2) {
-                                        Text(card.definition)
-                                            .font(.system(size: 14))
-                                            .foregroundColor(.appText)
-                                            .lineLimit(1)
-                                        Text("N\(card.nLevel)")
-                                            .font(.system(size: 11))
-                                            .foregroundColor(nLevelColor(card.nLevel))
-                                    }
-                                    Spacer()
-                                    if selected {
-                                        Image(systemName: "checkmark")
-                                            .font(.system(size: 13, weight: .semibold))
-                                            .foregroundColor(nLevelColor(card.nLevel))
-                                    }
-                                }
-                                .padding(.horizontal, 16)
-                                .padding(.vertical, 10)
-                                .opacity(selected ? 1 : 0.35)
                             }
-                            .buttonStyle(.plain)
-
-                            Divider().padding(.leading, 68)
                         }
                     }
+                    .padding(.horizontal, 16)
+                    .padding(.top, 4)
+                    .padding(.bottom, 16)
                 }
             }
         }
@@ -294,17 +307,61 @@ private struct KanjiPickerView: View {
     }
 
     private func toggleKanji(_ card: KanjiCard) {
-        if filter.selectedKanjiIds.isEmpty {
-            // All currently included; start excluding this one
-            filter.selectedKanjiIds = Set(pool.map(\.id)).subtracting([card.id])
-        } else if filter.selectedKanjiIds.contains(card.id) {
+        if filter.selectedKanjiIds.contains(card.id) {
             filter.selectedKanjiIds.remove(card.id)
-            if filter.selectedKanjiIds.isEmpty {
-                // Nothing left selected → revert to all
-                filter.selectedKanjiIds = Set(pool.map(\.id))
-            }
         } else {
             filter.selectedKanjiIds.insert(card.id)
         }
+    }
+}
+
+// MARK: - Kanji grid cell
+
+private struct KanjiCell: View {
+    let card: KanjiCard
+    let selected: Bool
+    let action: () -> Void
+
+    var body: some View {
+        let color = nLevelColor(card.nLevel)
+        Button(action: action) {
+            VStack(spacing: 4) {
+                HStack {
+                    Text("N\(card.nLevel)")
+                        .font(.system(size: 10, weight: .semibold))
+                        .foregroundColor(selected ? .white.opacity(0.9) : color)
+                    Spacer()
+                    Image(systemName: selected ? "checkmark.circle.fill" : "circle")
+                        .font(.system(size: 15))
+                        .foregroundColor(selected ? .white : Color.secondary.opacity(0.4))
+                }
+
+                Text(card.kanji)
+                    .font(.system(size: 32, weight: .medium))
+                    .foregroundColor(selected ? .white : color)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
+
+                Text(card.definition)
+                    .font(.system(size: 10.5))
+                    .foregroundColor(selected ? .white.opacity(0.9) : .secondary)
+                    .lineLimit(2)
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
+            }
+            .padding(8)
+            .frame(height: 120)
+            .frame(maxWidth: .infinity)
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(selected ? color : Color.clear)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(selected ? Color.clear : color.opacity(0.4), lineWidth: 1.5)
+            )
+            .contentShape(RoundedRectangle(cornerRadius: 12))
+        }
+        .buttonStyle(.plain)
     }
 }

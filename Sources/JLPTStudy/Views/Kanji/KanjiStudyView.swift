@@ -5,6 +5,7 @@ struct KanjiStudyView: View {
     @EnvironmentObject private var filter: KanjiFilter
     @State private var currentCard: KanjiCard?
     @State private var isRevealed = false
+    @Namespace private var glyphNS
 
     private var pool: [KanjiCard] {
         store.filteredKanjiCards(filter: filter)
@@ -32,42 +33,77 @@ struct KanjiStudyView: View {
         return ZStack(alignment: .bottom) {
             Color.appBackground.ignoresSafeArea()
 
-            if isRevealed {
-                ScrollView {
-                    VStack(spacing: 20) {
-                        KanjiCardHeader(card: card, isFavorite: isFavorite) {
-                            store.toggleFavorite(cardId: card.id)
-                        }
-                        .padding(.top, 16)
-
-                        KanjiCardBody(card: card)
-
-                        Spacer().frame(height: 80)
-                    }
-                }
-            } else {
-                VStack(spacing: 0) {
-                    KanjiCardHeader(card: card, isFavorite: isFavorite) {
+            VStack(spacing: 0) {
+                // Fixed top bar: favorite + level (stays put while the kanji slides)
+                HStack {
+                    Button {
                         store.toggleFavorite(cardId: card.id)
-                    }
-                    .padding(.top, 16)
-
-                    Spacer()
-
-                    Button { isRevealed = true } label: {
-                        ZStack {
-                            Circle()
-                                .fill(Color.red)
-                                .frame(width: 88, height: 88)
-                            Text("Check")
-                                .font(.system(size: 16, weight: .semibold))
-                                .foregroundColor(.white)
-                        }
+                    } label: {
+                        Image(systemName: isFavorite ? "star.fill" : "star")
+                            .font(.system(size: 26))
+                            .foregroundColor(isFavorite ? .yellow : Color.gray.opacity(0.5))
                     }
                     .buttonStyle(.plain)
 
                     Spacer()
-                    Spacer().frame(height: 80)
+
+                    Text("N\(card.nLevel)")
+                        .font(.system(size: 13, weight: .semibold))
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 4)
+                        .background(Capsule().fill(nLevelColor(card.nLevel)))
+                }
+                .padding(.horizontal, 20)
+                .padding(.top, 16)
+
+                if isRevealed {
+                    ScrollView {
+                        VStack(spacing: 20) {
+                            Text(card.kanji)
+                                .font(.system(size: 80, weight: .bold))
+                                .foregroundColor(.appText)
+                                .matchedGeometryEffect(id: "glyph", in: glyphNS)
+                                .padding(.top, 8)
+
+                            KanjiCardBody(card: card)
+                                .transition(.opacity.animation(.easeIn(duration: 0.3).delay(0.2)))
+
+                            Spacer().frame(height: 90)
+                        }
+                        .frame(maxWidth: .infinity)
+                    }
+                } else {
+                    VStack(spacing: 0) {
+                        Spacer()
+
+                        Text(card.kanji)
+                            .font(.system(size: 80, weight: .bold))
+                            .foregroundColor(.appText)
+                            .matchedGeometryEffect(id: "glyph", in: glyphNS)
+
+                        Spacer()
+
+                        Button {
+                            withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
+                                isRevealed = true
+                            }
+                        } label: {
+                            ZStack {
+                                Circle()
+                                    .fill(Color.red)
+                                    .frame(width: 88, height: 88)
+                                Text("Check")
+                                    .font(.system(size: 16, weight: .semibold))
+                                    .foregroundColor(.white)
+                            }
+                        }
+                        .buttonStyle(.plain)
+                        .transition(.opacity)
+
+                        Spacer()
+                        Spacer().frame(height: 80)
+                    }
                 }
             }
 
