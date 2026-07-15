@@ -3,9 +3,13 @@ import SwiftUI
 struct GrammarMenuView: View {
     // How many questions each pronunciation drill draws per run (from an 80-question bank).
     private let pronunciationSessionLength = 20
+    // How many questions each grammar quiz draws per run (from an ~84-question bank).
+    private let grammarQuizSessionLength = 20
 
     @State private var hiraQuestions: [PracticeQuestion] = []
     @State private var kataQuestions: [PracticeQuestion] = []
+    // Grammar discrimination quizzes, keyed by JLPT level (5 = N5 … 1 = N1).
+    @State private var grammarQuizzes: [Int: [PracticeQuestion]] = [:]
 
     var body: some View {
         ZStack {
@@ -47,8 +51,17 @@ struct GrammarMenuView: View {
                     }
 
                     // MARK: Quizzes
-                    SectionGroup(header: "Quizzes") {
-                        EmptyView()
+                    SectionGroup(header: "Grammar Quizzes") {
+                        ForEach([5, 4, 3, 2, 1], id: \.self) { level in
+                            if level != 5 {
+                                Divider().padding(.leading, 16)
+                            }
+                            GrammarQuizRow(
+                                level: level,
+                                questions: grammarQuizzes[level] ?? [],
+                                sessionLimit: grammarQuizSessionLength
+                            )
+                        }
                     }
                 }
                 .padding(.horizontal, 20)
@@ -62,6 +75,11 @@ struct GrammarMenuView: View {
             }
             if kataQuestions.isEmpty {
                 kataQuestions = LessonsService.shared.loadQuestionBank("katakana_pronunciation")
+            }
+            if grammarQuizzes.isEmpty {
+                for level in 1...5 {
+                    grammarQuizzes[level] = LessonsService.shared.loadQuestionBank("grammar_quiz_n\(level)")
+                }
             }
         }
     }
@@ -101,6 +119,57 @@ private struct KanaPracticeRow: View {
                         .font(.system(size: 17))
                         .foregroundColor(.appText)
                     Text(subtitle)
+                        .font(.system(size: 12))
+                        .foregroundColor(.secondary)
+                }
+
+                Spacer()
+
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundColor(.secondary)
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+    }
+}
+
+// MARK: - Grammar quiz row
+
+private struct GrammarQuizRow: View {
+    let level: Int          // 5 = N5 … 1 = N1
+    let questions: [PracticeQuestion]
+    let sessionLimit: Int
+
+    private var color: Color { nLevelColor(level) }
+
+    var body: some View {
+        NavigationLink {
+            GrammarPracticeView(
+                pointName: "N\(level) Grammar",
+                questions: questions,
+                accentColor: color,
+                sessionLimit: sessionLimit
+            )
+        } label: {
+            HStack(spacing: 14) {
+                Circle()
+                    .fill(color)
+                    .frame(width: 34, height: 34)
+                    .overlay(
+                        Text("N\(level)")
+                            .font(.system(size: 13, weight: .bold))
+                            .foregroundColor(.white)
+                    )
+
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("N\(level) Grammar")
+                        .font(.system(size: 17))
+                        .foregroundColor(.appText)
+                    Text("Tell similar grammar points apart")
                         .font(.system(size: 12))
                         .foregroundColor(.secondary)
                 }

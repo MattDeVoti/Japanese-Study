@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "n3_q001",
+    "type": "usage",
+    "prompt": "Bad result blamed on a cause: ‘Because of the typhoon, the train stopped.’",
+    "japanese": null,
+    "choices": [
+      "台風[たいふう]のせいで、電車[でんしゃ]が止[と]まりました。",
+      "台風[たいふう]のおかげで、電車[でんしゃ]が止[と]まりました。",
+      "台風[たいふう]のために、電車[でんしゃ]が止[と]まりましょう。",
+      "台風[たいふう]のことで、電車[でんしゃ]が止[と]まりました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "せいで assigns blame for a NEGATIVE outcome. おかげで credits a POSITIVE outcome (wrong tone for a stopped train). ために is neutral but here せいで best matches the ‘fault’ nuance."
+  },
+  {
+    "id": "n3_q002",
+    "type": "usage",
+    "prompt": "Good result credited to a cause: ‘Thanks to my teacher, I passed.’",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]のおかげで、合格[ごうかく]しました。",
+      "先生[せんせい]のせいで、合格[ごうかく]しました。",
+      "先生[せんせい]のくせに、合格[ごうかく]しました。",
+      "先生[せんせい]のわりに、合格[ごうかく]しました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "おかげで credits a POSITIVE result to someone/something. せいで would blame them (odd for a good outcome); くせに/わりに express criticism or ‘despite’."
+  },
+  {
+    "id": "n3_q003",
+    "type": "usage",
+    "prompt": "‘No wonder it’s cold — the window was open.’ (natural conclusion)",
+    "japanese": null,
+    "choices": [
+      "寒[さむ]いわけだ。窓[まど]が開[あ]いていた。",
+      "寒[さむ]いわけがない。窓[まど]が開[あ]いていた。",
+      "寒[さむ]いわけではない。窓[まど]が開[あ]いていた。",
+      "寒[さむ]いわけにはいかない。窓[まど]が開[あ]いていた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～わけだ = ‘that’s why / no wonder’ (a logical conclusion). わけがない = ‘couldn’t possibly’, わけではない = ‘it’s not that…’, わけにはいかない = ‘can’t (for social reasons)’ — all different."
+  },
+  {
+    "id": "n3_q004",
+    "type": "usage",
+    "prompt": "‘It can’t possibly be true.’",
+    "japanese": null,
+    "choices": [
+      "本当[ほんとう]のわけがない。",
+      "本当[ほんとう]のわけだ。",
+      "本当[ほんとう]のわけではない。",
+      "本当[ほんとう]のわけにはいかない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "わけがない = ‘there’s no way / impossible’. わけだ draws a conclusion, わけではない partially denies (‘not necessarily’), わけにはいかない = ‘can’t bring myself to’."
+  },
+  {
+    "id": "n3_q005",
+    "type": "usage",
+    "prompt": "‘It’s not that I dislike it (just…).’ Partial denial:",
+    "japanese": null,
+    "choices": [
+      "嫌[きら]いなわけではない。",
+      "嫌[きら]いなわけがない。",
+      "嫌[きら]いなわけだ。",
+      "嫌[きら]いなわけにはいかない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～わけではない softly denies a conclusion (‘it’s not that…’). わけがない is a strong ‘impossible’; the meanings are nearly opposite in strength."
+  },
+  {
+    "id": "n3_q006",
+    "type": "usage",
+    "prompt": "Social obligation: ‘I can’t just NOT go (I’m expected to).’",
+    "japanese": null,
+    "choices": [
+      "行[い]かないわけにはいかない。",
+      "行[い]かないわけがない。",
+      "行[い]かないわけではない。",
+      "行[い]かないわけだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ないわけにはいかない = ‘can’t avoid doing / have to’ due to social/moral pressure. The other わけ forms express possibility or conclusion, not obligation."
+  },
+  {
+    "id": "n3_q007",
+    "type": "usage",
+    "prompt": "‘He does nothing but play games.’ (excessive repetition)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]はゲームばかりしている。",
+      "彼[かれ]はゲームしたばかりだ。",
+      "彼[かれ]はゲームするばかりだ。",
+      "彼[かれ]はゲームしたばかりに困[こま]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "N + ばかり = ‘nothing but / only’ (excess). ～たばかり = ‘just did’ (time), ～たばかりに = ‘just because…(bad result)’ — same word, three different structures."
+  },
+  {
+    "id": "n3_q008",
+    "type": "usage",
+    "prompt": "‘Just because I told one lie, I lost their trust.’ (one small cause → bad result)",
+    "japanese": null,
+    "choices": [
+      "一[ひと]つうそをついたばかりに、信用[しんよう]をなくした。",
+      "一[ひと]つうそをついたばかりで、信用[しんよう]をなくした。",
+      "一[ひと]つうそをつくばかりに、信用[しんよう]をなくした。",
+      "一[ひと]つうそをつくばかりで、信用[しんよう]をなくした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たばかりに = ‘just because… (and regrettably)’, blaming one action for a bad outcome. It attaches to the plain past (ついた). Don’t confuse it with ‘just did’ たばかり."
+  },
+  {
+    "id": "n3_q009",
+    "type": "usage",
+    "prompt": "‘I’m in the middle of eating right now.’",
+    "japanese": null,
+    "choices": [
+      "今[いま]、食[た]べているところです。",
+      "今[いま]、食[た]べるところです。",
+      "今[いま]、食[た]べたところです。",
+      "今[いま]、食[た]べたばかりです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ているところ = ‘in the middle of’. ～るところ = ‘about to’, ～たところ = ‘just finished’. The verb form before ところ sets the phase of the action."
+  },
+  {
+    "id": "n3_q010",
+    "type": "usage",
+    "prompt": "‘Even if I apologize now, it’s too late.’ (たところで = ‘even if’, futile)",
+    "japanese": null,
+    "choices": [
+      "今謝[あやま]ったところで、もう遅[おそ]い。",
+      "今謝[あやま]るところで、もう遅[おそ]い。",
+      "今謝[あやま]ったところに、もう遅[おそ]い。",
+      "今謝[あやま]るところに、もう遅[おそ]い。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たところで = ‘even if… (it won’t help)’, expressing futility. It looks like the ‘just did’ ところ but the で + negative-outcome nuance makes it concessive."
+  },
+  {
+    "id": "n3_q011",
+    "type": "usage",
+    "prompt": "Do something before a state changes: ‘Eat it while it’s hot.’",
+    "japanese": null,
+    "choices": [
+      "熱[あつ]いうちに食[た]べてください。",
+      "熱[あつ]いあいだに食[た]べてください。",
+      "熱[あつ]いうちで食[た]べてください。",
+      "熱[あつ]いまでに食[た]べてください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～うちに = ‘while (before it changes)’, stressing you should act before the state ends. あいだに merely marks a span without the ‘before it’s too late’ urgency."
+  },
+  {
+    "id": "n3_q012",
+    "type": "usage",
+    "prompt": "Something happens during a set span: ‘A thief broke in while I was out.’",
+    "japanese": null,
+    "choices": [
+      "留守[るす]のあいだに、泥棒[どろぼう]が入[はい]った。",
+      "留守[るす]のうちに、泥棒[どろぼう]が入[はい]った。",
+      "留守[るす]のあいだで、泥棒[どろぼう]が入[はい]った。",
+      "留守[るす]までに、泥棒[どろぼう]が入[はい]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "あいだに = at some point within a clearly bounded period (while away). うちに leans on ‘before it ends’; here the neutral ‘during’ reading fits あいだに."
+  },
+  {
+    "id": "n3_q013",
+    "type": "usage",
+    "prompt": "‘Do it the way I said.’",
+    "japanese": null,
+    "choices": [
+      "私[わたし]が言[い]ったとおりにしてください。",
+      "私[わたし]が言[い]ったままにしてください。",
+      "私[わたし]が言[い]ったようにするとおりです。",
+      "私[わたし]が言[い]ったところにしてください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とおりに = ‘exactly as / in the way that’. まま would mean ‘leave as is’ (no action to copy), a different idea."
+  },
+  {
+    "id": "n3_q014",
+    "type": "usage",
+    "prompt": "‘He left without saying anything and never came back.’ (unchanged state)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は何[なに]も言[い]わないまま、帰[かえ]ってこなかった。",
+      "彼[かれ]は何[なに]も言[い]わないうちに、帰[かえ]ってこなかった。",
+      "彼[かれ]は何[なに]も言[い]わないとおり、帰[かえ]ってこなかった。",
+      "彼[かれ]は何[なに]も言[い]わないまでに、帰[かえ]ってこなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ないまま = ‘without doing (and staying that way)’. うちに would mean ‘before…’, changing the meaning to a time limit rather than a persisting state."
+  },
+  {
+    "id": "n3_q015",
+    "type": "usage",
+    "prompt": "‘According to the news, it will snow tomorrow.’ (source of information)",
+    "japanese": null,
+    "choices": [
+      "ニュースによると、明日[あした]は雪[ゆき]だそうです。",
+      "ニュースによって、明日[あした]は雪[ゆき]だそうです。",
+      "ニュースにとって、明日[あした]は雪[ゆき]だそうです。",
+      "ニュースに対[たい]して、明日[あした]は雪[ゆき]だそうです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～によると = ‘according to (a source)’ and pairs with hearsay そうだ/らしい. によって means ‘by means of / depending on’, にとって = ‘for’, に対して = ‘toward’."
+  },
+  {
+    "id": "n3_q016",
+    "type": "usage",
+    "prompt": "‘Prices vary depending on the season.’",
+    "japanese": null,
+    "choices": [
+      "値段[ねだん]は季節[きせつ]によって違[ちが]います。",
+      "値段[ねだん]は季節[きせつ]によると違[ちが]います。",
+      "値段[ねだん]は季節[きせつ]にとって違[ちが]います。",
+      "値段[ねだん]は季節[きせつ]について違[ちが]います。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～によって(different) = ‘varies depending on’. によると is only for reporting a source of information, not for ‘depending on’."
+  },
+  {
+    "id": "n3_q017",
+    "type": "usage",
+    "prompt": "Passive agent (formal): ‘America was discovered by Columbus.’",
+    "japanese": null,
+    "choices": [
+      "アメリカはコロンブスによって発見[はっけん]された。",
+      "アメリカはコロンブスによると発見[はっけん]された。",
+      "アメリカはコロンブスにとって発見[はっけん]された。",
+      "アメリカはコロンブスについて発見[はっけん]された。"
+    ],
+    "correctIndex": 0,
+    "explanation": "In a formal passive of creation/discovery, the agent takes によって (‘by’). に can mark agents too, but with 発見/建設 etc. によって is the standard formal choice."
+  },
+  {
+    "id": "n3_q018",
+    "type": "usage",
+    "prompt": "‘I have a question ABOUT this topic.’ (the subject matter)",
+    "japanese": null,
+    "choices": [
+      "このテーマについて質問[しつもん]があります。",
+      "このテーマに対して質問[しつもん]があります。",
+      "このテーマにとって質問[しつもん]があります。",
+      "このテーマによって質問[しつもん]があります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "について = ‘about / concerning’ (topic of thought/speech). に対して = ‘toward / against’ (an attitude/action directed at someone), a different relationship."
+  },
+  {
+    "id": "n3_q019",
+    "type": "usage",
+    "prompt": "‘He is very kind TOWARD his students.’ (attitude directed at someone)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は学生[がくせい]に対[たい]してとても優[やさ]しい。",
+      "彼[かれ]は学生[がくせい]についてとても優[やさ]しい。",
+      "彼[かれ]は学生[がくせい]によってとても優[やさ]しい。",
+      "彼[かれ]は学生[がくせい]によるととても優[やさ]しい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "に対して = ‘toward’ someone (direction of an attitude). について (‘about’) would be for a topic of discussion, not the target of kindness."
+  },
+  {
+    "id": "n3_q020",
+    "type": "usage",
+    "prompt": "‘For me, this is very important.’ (from someone’s standpoint)",
+    "japanese": null,
+    "choices": [
+      "私[わたし]にとって、これはとても大切[たいせつ]です。",
+      "私[わたし]に対して、これはとても大切[たいせつ]です。",
+      "私[わたし]について、これはとても大切[たいせつ]です。",
+      "私[わたし]によって、これはとても大切[たいせつ]です。"
+    ],
+    "correctIndex": 0,
+    "explanation": "にとって = ‘for / from the viewpoint of’ someone evaluating something. に対して/について/によって express direction, topic, or means — not a standpoint."
+  },
+  {
+    "id": "n3_q021",
+    "type": "usage",
+    "prompt": "‘As a doctor, I recommend rest.’ (in the role/capacity of)",
+    "japanese": null,
+    "choices": [
+      "医者[いしゃ]として、休[やす]むことをすすめます。",
+      "医者[いしゃ]にとって、休[やす]むことをすすめます。",
+      "医者[いしゃ]について、休[やす]むことをすすめます。",
+      "医者[いしゃ]に対して、休[やす]むことをすすめます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "として = ‘as / in the capacity of’ a role. にとって would mean ‘for doctors (viewpoint)’, which changes who is speaking and why."
+  },
+  {
+    "id": "n3_q022",
+    "type": "usage",
+    "prompt": "Strong conviction from evidence: ‘He must be the culprit — no doubt.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]が犯人[はんにん]に違[ちが]いない。",
+      "彼[かれ]が犯人[はんにん]かもしれない。",
+      "彼[かれ]が犯人[はんにん]のはずがない。",
+      "彼[かれ]が犯人[はんにん]らしくない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "に違いない = near-certainty (‘must be, I’m sure’). かもしれない is a weak ‘might’; はずがない flips to ‘couldn’t be’. Match the confidence level."
+  },
+  {
+    "id": "n3_q023",
+    "type": "usage",
+    "prompt": "Logical expectation: ‘The store should be open (it’s a weekday).’",
+    "japanese": null,
+    "choices": [
+      "平日[へいじつ]だから、店[みせ]は開[あ]いているはずだ。",
+      "平日[へいじつ]だから、店[みせ]は開[あ]いているに違いない。",
+      "平日[へいじつ]だから、店[みせ]は開[あ]いているかもしれない。",
+      "平日[へいじつ]だから、店[みせ]は開[あ]いているらしい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "はず = expectation based on reasoning/known facts (‘should, logically’). に違いない is stronger gut-certainty; the ‘reasoned expectation’ nuance here is はず."
+  },
+  {
+    "id": "n3_q024",
+    "type": "usage",
+    "prompt": "Casual ‘seems like’: ‘It seems he’s not coming.’ (colloquial)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は来[こ]ないみたいだ。",
+      "彼[かれ]は来[こ]ないようだ。",
+      "彼[かれ]は来[こ]ないらしい。",
+      "彼[かれ]は来[こ]なさそうだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "みたい = the casual equivalent of ようだ (inference from evidence). All express ‘seems’, but みたい is the colloquial register being tested here (らしい relies on outside info)."
+  },
+  {
+    "id": "n3_q025",
+    "type": "usage",
+    "prompt": "‘This behavior is so like a child (childish).’ (has the quality of)",
+    "japanese": null,
+    "choices": [
+      "子供[こども]っぽい行動[こうどう]だ。",
+      "子供[こども]らしい行動[こうどう]だ。",
+      "子供[こども]みたいな行動[こうどう]をするそうだ。",
+      "子供[こども]のような行動[こうどう]だということだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "っぽい = ‘-ish, tends to be’ (often negative). 子供らしい would praise ‘childlike in a fitting way’. っぽい vs らしい differ in judgment: っぽい criticizes, らしい approves."
+  },
+  {
+    "id": "n3_q026",
+    "type": "usage",
+    "prompt": "‘Act like an adult (as befits one).’ (befitting the role)",
+    "japanese": null,
+    "choices": [
+      "大人[おとな]らしくしなさい。",
+      "大人[おとな]っぽくしなさい。",
+      "大人[おとな]みたいにしなさい。",
+      "大人[おとな]のようにしなさい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～らしい = behaving as is proper/typical for that role (‘befitting an adult’). っぽい would mean merely ‘adult-ish in appearance’, missing the ‘as one should’ sense."
+  },
+  {
+    "id": "n3_q027",
+    "type": "fillBlank",
+    "prompt": "Before a noun, ‘like ~’ uses:",
+    "japanese": "彼[かれ]は先生[せんせい]の＿＿人[ひと]です。",
+    "choices": [
+      "ような",
+      "ように",
+      "ようで",
+      "ようだ"
+    ],
+    "correctIndex": 0,
+    "explanation": "ような modifies a following NOUN (先生のような人). ように is adverbial (modifies verbs/adjectives). Match ような→noun, ように→verb."
+  },
+  {
+    "id": "n3_q028",
+    "type": "fillBlank",
+    "prompt": "Before a verb, ‘so that / like ~’ uses:",
+    "japanese": "みんなに聞[き]こえる＿＿大[おお]きな声[こえ]で話[はな]した。",
+    "choices": [
+      "ように",
+      "ような",
+      "ようだ",
+      "ようの"
+    ],
+    "correctIndex": 0,
+    "explanation": "ように attaches to a verb/clause (聞こえるように話す = ‘spoke so as to be heard’). ような would need a noun after it."
+  },
+  {
+    "id": "n3_q029",
+    "type": "usage",
+    "prompt": "A standing rule: ‘We’re supposed to take our shoes off here.’",
+    "japanese": null,
+    "choices": [
+      "ここでは靴[くつ]を脱[ぬ]ぐことになっている。",
+      "ここでは靴[くつ]を脱[ぬ]ぐことにしている。",
+      "ここでは靴[くつ]を脱[ぬ]ぐことになった。",
+      "ここでは靴[くつ]を脱[ぬ]ぐことにした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことになっている = an established rule/custom in force. ～ことにしている is a personal habit you set; ～ことになった/にした are one-time decisions."
+  },
+  {
+    "id": "n3_q030",
+    "type": "usage",
+    "prompt": "Leaving something on/undone: ‘You left the water running.’",
+    "japanese": null,
+    "choices": [
+      "水[みず]を出[だ]しっぱなしにした。",
+      "水[みず]を出[だ]したままにした。",
+      "水[みず]を出[だ]しておいた。",
+      "水[みず]を出[だ]してしまった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～っぱなし = left in a state, often carelessly (‘left running’). It carries a ‘should have stopped it’ criticism that plain てある/ておく lack. まま is close but っぱなし adds the negligence nuance."
+  },
+  {
+    "id": "n3_q031",
+    "type": "usage",
+    "prompt": "‘I couldn’t finish eating it all (too much).’",
+    "japanese": null,
+    "choices": [
+      "多[おお]すぎて、食[た]べきれなかった。",
+      "多[おお]すぎて、食[た]べきった。",
+      "多[おお]すぎて、食[た]べすぎた。",
+      "多[おお]すぎて、食[た]べておいた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～きれない = ‘can’t do completely / to the end’ (finish). ～きる = ‘do completely’ (the positive). 食べすぎる (‘overeat’) is a different meaning."
+  },
+  {
+    "id": "n3_q032",
+    "type": "usage",
+    "prompt": "Made intentionally FOR children: ‘a program made for children’:",
+    "japanese": null,
+    "choices": [
+      "子供向[む]けの番組[ばんぐみ]",
+      "子供向[む]きの番組[ばんぐみ]",
+      "子供[こども]にとっての番組[ばんぐみ]",
+      "子供[こども]らしい番組[ばんぐみ]"
+    ],
+    "correctIndex": 0,
+    "explanation": "～向け = deliberately made/targeted FOR a group. ～向き = ‘suitable for / facing’ (naturally suited), not necessarily intended for them. Intent → 向け."
+  },
+  {
+    "id": "n3_q033",
+    "type": "usage",
+    "prompt": "Naturally suitable: ‘This apartment is suited for beginners.’",
+    "japanese": null,
+    "choices": [
+      "このアパートは初心者向[む]きだ。",
+      "このアパートは初心者向[む]けに作[つく]られた。",
+      "このアパートは初心者[しょしんしゃ]らしい。",
+      "このアパートは初心者[しょしんしゃ]っぽい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～向き = ‘suited to / good for’ by nature. 向け would stress it was purposely designed for them; here ‘naturally suitable’ is 向き."
+  },
+  {
+    "id": "n3_q034",
+    "type": "usage",
+    "prompt": "Interrupted mid-action: ‘The phone rang right in the middle of the meeting.’",
+    "japanese": null,
+    "choices": [
+      "会議[かいぎ]の最中[さいちゅう]に、電話[でんわ]が鳴[な]った。",
+      "会議[かいぎ]のうちに、電話[でんわ]が鳴[な]った。",
+      "会議[かいぎ]のあいだに、電話[でんわ]が鳴[な]った。",
+      "会議[かいぎ]のところに、電話[でんわ]が鳴[な]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "最中に = ‘right in the middle of (an ongoing action)’, stressing the peak of activity when interrupted. あいだに is a neutral ‘during’ without that ‘smack in the middle’ emphasis."
+  },
+  {
+    "id": "n3_q035",
+    "type": "usage",
+    "prompt": "The instant one thing happened, another did: ‘The moment I stood up, I felt dizzy.’",
+    "japanese": null,
+    "choices": [
+      "立[た]ち上[あ]がったとたん、めまいがした。",
+      "立[た]ち上[あ]がるとたん、めまいがした。",
+      "立[た]ち上[あ]がったうちに、めまいがした。",
+      "立[た]ち上[あ]がったまま、めまいがした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たとたん(に) = ‘the instant that…’ (sudden, unexpected). It takes the plain PAST (立ち上がった). うちに/まま express ‘while/unchanged’, not a sudden trigger."
+  },
+  {
+    "id": "n3_q036",
+    "type": "usage",
+    "prompt": "Stating a general truth: ‘Time flies (that’s just how it is).’",
+    "japanese": null,
+    "choices": [
+      "時間[じかん]がたつのは早[はや]いものだ。",
+      "時間[じかん]がたつのは早[はや]いことだ。",
+      "時間[じかん]がたつのは早[はや]いわけだ。",
+      "時間[じかん]がたつのは早[はや]いままだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものだ states a general truth or how things inherently are. ことだ gives advice, わけだ draws a conclusion — different functions of these noun-endings."
+  },
+  {
+    "id": "n3_q037",
+    "type": "usage",
+    "prompt": "Advice/emphasis: ‘You should get plenty of sleep.’",
+    "japanese": null,
+    "choices": [
+      "よく寝[ね]ることだ。",
+      "よく寝[ね]るものだ。",
+      "よく寝[ね]るわけだ。",
+      "よく寝[ね]るところだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことだ gives direct advice/recommendation (‘you ought to…’). ものだ would state a general truth instead, which doesn’t fit personalized advice."
+  },
+  {
+    "id": "n3_q038",
+    "type": "usage",
+    "prompt": "Concessive ‘although’: ‘Although it’s small, this room is comfortable.’",
+    "japanese": null,
+    "choices": [
+      "狭[せま]いながらも、この部屋[へや]は快適[かいてき]だ。",
+      "狭[せま]いながら、この部屋[へや]を掃除[そうじ]した。",
+      "狭[せま]いうちに、この部屋[へや]は快適[かいてき]だ。",
+      "狭[せま]いとおり、この部屋[へや]は快適[かいてき]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ながら(も) here means ‘although/despite’, not ‘while doing’. The contrast (small BUT comfortable) signals the concessive ながら, distinct from the simultaneous-action ながら."
+  },
+  {
+    "id": "n3_q039",
+    "type": "usage",
+    "prompt": "Extreme example: ‘Even a child can understand this.’",
+    "japanese": null,
+    "choices": [
+      "これは子供[こども]でも分[わ]かる。",
+      "これは子供[こども]さえ分[わ]かる。",
+      "これは子供[こども]こそ分[わ]かる。",
+      "これは子供[こども]しか分[わ]かる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "でも gives an extreme/easy example (‘even a child’). さえ also means ‘even’ but is stronger/more emphatic and often needs specific structures; here the natural ‘even a child can’ uses でも. (しか needs a negative.)"
+  },
+  {
+    "id": "n3_q040",
+    "type": "usage",
+    "prompt": "Minimum condition: ‘If I just have water, I’ll survive.’ (さえ…ば)",
+    "japanese": null,
+    "choices": [
+      "水[みず]さえあれば、生[い]きられる。",
+      "水[みず]でもあれば、生[い]きられる。",
+      "水[みず]しかあれば、生[い]きられる。",
+      "水[みず]こそあれば、生[い]きられる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～さえ…ば = ‘if only… then’ (the one sufficient condition). でも can’t form this ‘if only X’ minimal-condition pattern; さえ…ば is fixed."
+  },
+  {
+    "id": "n3_q041",
+    "type": "usage",
+    "prompt": "Regret about the past: ‘If only I had studied more…’",
+    "japanese": null,
+    "choices": [
+      "もっと勉強[べんきょう]していたら、よかったのに。",
+      "もっと勉強[べんきょう]したら、いいのに。",
+      "もっと勉強[べんきょう]すれば、いいものだ。",
+      "もっと勉強[べんきょう]するなら、よかったのに。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たら…よかったのに expresses regret about an unrealized past. The past forms (していたら、よかった) are essential; present-tense versions lose the ‘if only I had’ counterfactual meaning."
+  },
+  {
+    "id": "n3_q042",
+    "type": "usage",
+    "prompt": "Tendency (often negative): ‘I tend to catch colds in winter.’",
+    "japanese": null,
+    "choices": [
+      "冬[ふゆ]は風邪[かぜ]をひきがちだ。",
+      "冬[ふゆ]は風邪[かぜ]をひきっぽい。",
+      "冬[ふゆ]は風邪[かぜ]をひきやすがちだ。",
+      "冬[ふゆ]は風邪[かぜ]をひくばかりだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + がち = ‘tends to (often unfortunately)’. It attaches to the verb stem (ひき+がち). っぽい is for adj_like qualities, not verb tendencies here."
+  },
+  {
+    "id": "n3_q043",
+    "type": "usage",
+    "prompt": "Formal ‘without doing’: ‘He left without saying goodbye.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]はあいさつもせずに帰[かえ]った。",
+      "彼[かれ]はあいさつもしなくて帰[かえ]った。",
+      "彼[かれ]はあいさつもしないでも帰[かえ]った。",
+      "彼[かれ]はあいさつもしないなら帰[かえ]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ずに = the formal/written ‘without doing’ (する→せずに, irregular). なくて marks a cause, not manner. Note the irregular せずに (not しずに)."
+  },
+  {
+    "id": "n3_q044",
+    "type": "usage",
+    "prompt": "Emphasis: ‘THIS time for sure I’ll win.’",
+    "japanese": null,
+    "choices": [
+      "今度[こんど]こそ勝[か]つ。",
+      "今度[こんど]さえ勝[か]つ。",
+      "今度[こんど]でも勝[か]つ。",
+      "今度[こんど]しか勝[か]つ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "こそ emphatically singles out ‘this very one’ (‘this time for sure’). さえ/でも mean ‘even’, and しか needs a negative — none give the emphatic ‘precisely this’."
+  },
+  {
+    "id": "n3_q045",
+    "type": "usage",
+    "prompt": "‘What should I do?’ asking for a suggestion with ばいい:",
+    "japanese": null,
+    "choices": [
+      "どうすればいいですか。",
+      "どうしたらいいものですか。",
+      "どうするといいわけですか。",
+      "どうしてもいいですか。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ばいい = ‘it would be good to / should’, common for asking advice (どうすればいい = ‘what should I do?’). The other constructions don’t form this natural ‘what’s best to do’ question."
+  },
+  {
+    "id": "n3_q046",
+    "type": "usage",
+    "prompt": "Cause by excess: ‘I was so surprised (by too much) that I couldn’t speak.’",
+    "japanese": null,
+    "choices": [
+      "驚[おどろ]きのあまり、声[こえ]が出[で]なかった。",
+      "驚[おどろ]きのせいで、声[こえ]を出[で]した。",
+      "驚[おどろ]くうちに、声[こえ]が出[で]なかった。",
+      "驚[おどろ]いたとたん、声[こえ]を出[で]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のあまり = ‘so much… that (an extreme result)’. It stresses an emotion reaching an excess. せいで just blames a cause without the ‘to an extreme degree’ nuance."
+  },
+  {
+    "id": "n3_q047",
+    "type": "usage",
+    "prompt": "Casually listing examples: ‘I want to go somewhere like Kyoto or Nara.’",
+    "japanese": null,
+    "choices": [
+      "京都[きょうと]とか奈良[なら]とかに行[い]きたい。",
+      "京都[きょうと]も奈良[なら]もに行[い]きたい。",
+      "京都[きょうと]や奈良[なら]やに行[い]きたい。",
+      "京都[きょうと]しか奈良[なら]しか行[い]きたい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とか～とか casually lists examples (colloquial ‘things like’). It’s the spoken cousin of や～など. も means ‘both/also’ and しか needs a negative."
+  },
+  {
+    "id": "n3_q048",
+    "type": "usage",
+    "prompt": "Contrasting two sides: ‘Prices rose; on the other hand, wages didn’t.’",
+    "japanese": null,
+    "choices": [
+      "物価[ぶっか]は上[あ]がった。一方[いっぽう]で、給料[きゅうりょう]は上[あ]がらなかった。",
+      "物価[ぶっか]は上[あ]がった。おかげで、給料[きゅうりょう]は上[あ]がらなかった。",
+      "物価[ぶっか]は上[あ]がった。そのうえ、給料[きゅうりょう]は上[あ]がらなかった。",
+      "物価[ぶっか]は上[あ]がった。だから、給料[きゅうりょう]は上[あ]がらなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "一方(で) = ‘on the other hand’ (contrast between two facts). そのうえ adds a similar point, だから gives a result — neither sets up the contrast that 一方で does."
+  },
+  {
+    "id": "n3_q049",
+    "type": "usage",
+    "prompt": "‘I made it specially, but nobody ate it.’",
+    "japanese": null,
+    "choices": [
+      "せっかく作[つく]ったのに、誰[だれ]も食[た]べなかった。",
+      "せっかく作[つく]ったから、誰[だれ]も食[た]べなかった。",
+      "せっかく作[つく]ったので、誰[だれ]も食[た]べなかった。",
+      "せっかく作[つく]ったなら、誰[だれ]も食[た]べなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "せっかく…のに = wasted effort/disappointment (‘I went to the trouble, but…’). から/ので would wrongly make the effort the reason no one ate it."
+  },
+  {
+    "id": "n3_q050",
+    "type": "usage",
+    "prompt": "‘The higher it is, the colder it gets.’",
+    "japanese": null,
+    "choices": [
+      "高[たか]ければ高[たか]いほど、寒[さむ]くなる。",
+      "高[たか]いほど高[たか]ければ、寒[さむ]くなる。",
+      "高[たか]いと高[たか]いほど、寒[さむ]くなる。",
+      "高[たか]いなら高[たか]いほど、寒[さむ]くなる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "The proportional pattern is ～ば～ほど (adjective: 高ければ高いほど). The ば-form + repeated word + ほど is fixed; と/なら can’t replace the ば half."
+  },
+  {
+    "id": "n3_q051",
+    "type": "usage",
+    "prompt": "Reasoning from a fact: ‘From the fact that the ground is wet, we know it rained.’",
+    "japanese": null,
+    "choices": [
+      "地面[じめん]がぬれていることから、雨[あめ]が降[ふ]ったと分[わ]かる。",
+      "地面[じめん]がぬれていることだから、雨[あめ]が降[ふ]ったと分[わ]かる。",
+      "地面[じめん]がぬれていることに、雨[あめ]が降[ふ]ったと分[わ]かる。",
+      "地面[じめん]がぬれていることなら、雨[あめ]が降[ふ]ったと分[わ]かる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことから = ‘judging from the fact that…’ (basis for a conclusion). ことだから (‘since it’s ~, typically…’) and the others express different logical links."
+  },
+  {
+    "id": "n3_q052",
+    "type": "usage",
+    "prompt": "Prediction from someone’s known character: ‘Knowing him, he’ll be late again.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]のことだから、また遅[おく]れるだろう。",
+      "彼[かれ]のことから、また遅[おく]れるだろう。",
+      "彼[かれ]のことなのに、また遅[おく]れるだろう。",
+      "彼[かれ]のことにとって、また遅[おく]れるだろう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のことだから = ‘since it’s (that well-known person), naturally…’, predicting from their character. ことから draws from evidence/facts, a different basis."
+  },
+  {
+    "id": "n3_q053",
+    "type": "usage",
+    "prompt": "‘Every time I hear this song, I remember my hometown.’",
+    "japanese": null,
+    "choices": [
+      "この歌[うた]を聞[き]くたびに、故郷[ふるさと]を思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くうちに、故郷[ふるさと]を思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くあいだに、故郷[ふるさと]を思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くところに、故郷[ふるさと]を思[おも]い出[だ]す。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たびに = ‘each/every time that…’ (recurring). うちに/あいだに mark ‘while/during’ a single span, not a repeated trigger."
+  },
+  {
+    "id": "n3_q054",
+    "type": "usage",
+    "prompt": "Degree by comparison: ‘I was so tired I couldn’t stand.’",
+    "japanese": null,
+    "choices": [
+      "立[た]てないほど疲[つか]れた。",
+      "立[た]てないくらい疲[つか]れるほどだ。",
+      "立[た]てないによって疲[つか]れた。",
+      "立[た]てないながら疲[つか]れた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ほど shows extent by giving a vivid comparison (‘to the extent that I couldn’t stand’). くらい can do this too, but the clean ‘～ないほど’ degree pattern is standard here."
+  },
+  {
+    "id": "n3_q055",
+    "type": "usage",
+    "prompt": "Formal setting: ‘The ceremony will be held at the hall.’",
+    "japanese": null,
+    "choices": [
+      "式[しき]は会館[かいかん]において行[おこな]われる。",
+      "式[しき]は会館[かいかん]にとって行[おこな]われる。",
+      "式[しき]は会館[かいかん]について行[おこな]われる。",
+      "式[しき]は会館[かいかん]によって行[おこな]われる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～において = a formal ‘in/at (a place/field/occasion)’. にとって=‘for’, について=‘about’, によって=‘by/depending on’ — none mark a formal venue."
+  },
+  {
+    "id": "n3_q056",
+    "type": "usage",
+    "prompt": "Criticism/contempt: ‘He acts big even though he’s just a beginner.’",
+    "japanese": null,
+    "choices": [
+      "初心者[しょしんしゃ]のくせに、えらそうだ。",
+      "初心者[しょしんしゃ]なのに、えらそうだ、というものだ。",
+      "初心者[しょしんしゃ]だから、えらそうだ。",
+      "初心者[しょしんしゃ]のおかげで、えらそうだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "くせに = ‘even though’ WITH blame/contempt toward the subject. Plain のに is neutral contrast; くせに adds the speaker’s disapproval, which fits the mocking tone."
+  },
+  {
+    "id": "n3_q057",
+    "type": "usage",
+    "prompt": "Embedded WH-question: ‘Please tell me where the station is.’",
+    "japanese": null,
+    "choices": [
+      "駅[えき]がどこにあるか教[おし]えてください。",
+      "駅[えき]がどこにあるかどうか教[おし]えてください。",
+      "駅[えき]がどこにあると教[おし]えてください。",
+      "駅[えき]がどこにあるなら教[おし]えてください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "With a question word (どこ), embed using just か (どこにあるか). かどうか is only for yes/no ‘whether or not’ questions, so it clashes with どこ."
+  },
+  {
+    "id": "n3_q058",
+    "type": "usage",
+    "prompt": "‘I bought it, but I haven’t used it at all.’ (formal ‘although’)",
+    "japanese": null,
+    "choices": [
+      "買[か]ったものの、まだ全然使[つか]っていない。",
+      "買[か]ったものだ、まだ全然使[つか]っていない。",
+      "買[か]ったもので、まだ全然使[つか]っていない。",
+      "買[か]ったものから、まだ全然使[つか]っていない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものの = ‘although / but’ (a written contrast, the expected doesn’t follow). ものだ (‘that’s how it is’) and the others don’t create the concessive ‘although’ link."
+  },
+  {
+    "id": "n3_q059",
+    "type": "usage",
+    "prompt": "Cause (formal): ‘Due to heavy snow, the flight was canceled.’",
+    "japanese": null,
+    "choices": [
+      "大雪[おおゆき]のため、飛行機[ひこうき]が欠航[けっこう]した。",
+      "大雪[おおゆき]のように、飛行機[ひこうき]が欠航[けっこう]した。",
+      "大雪[おおゆき]のうちに、飛行機[ひこうき]が欠航[けっこう]した。",
+      "大雪[おおゆき]のあまり、飛行機[ひこうき]が欠航[けっこう]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Noun + のため(に) can express a formal CAUSE (‘due to’) as well as purpose; here it’s cause. のあまり needs an emotion noun, and ように/うちに don’t mark cause."
+  },
+  {
+    "id": "n3_q060",
+    "type": "usage",
+    "prompt": "‘Speaking of Kyoto, temples come to mind.’ (topic trigger)",
+    "japanese": null,
+    "choices": [
+      "京都[きょうと]といえば、お寺[てら]だ。",
+      "京都[きょうと]といったら困[こま]る。",
+      "京都[きょうと]とすれば、お寺[てら]だ。",
+      "京都[きょうと]となると、お寺[てら]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～といえば = ‘speaking of / that reminds me of’ (association). となると = ‘when it comes to (a situation)’ has a more consequential nuance; here the simple association is といえば."
+  },
+  {
+    "id": "n3_q061",
+    "type": "usage",
+    "prompt": "‘He went out and hasn’t come back since.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は出[で]かけたきり、帰[かえ]ってこない。",
+      "彼[かれ]は出[で]かけたまま、帰[かえ]ってくる。",
+      "彼[かれ]は出[で]かけるきり、帰[かえ]ってこない。",
+      "彼[かれ]は出[で]かけたばかり、帰[かえ]ってこない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たきり = ‘since doing X, (nothing has changed / not again)’, often with a negative follow-up. It takes the past form (出かけた). まま is close but きり stresses ‘not once since’."
+  },
+  {
+    "id": "n3_q062",
+    "type": "usage",
+    "prompt": "Formal ‘without ever’: ‘He kept working without resting.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は休[やす]むことなく働[はたら]き続[つづ]けた。",
+      "彼[かれ]は休[やす]むことないで働[はたら]き続[つづ]けた。",
+      "彼[かれ]は休[やす]まないことで働[はたら]き続[つづ]けた。",
+      "彼[かれ]は休[やす]むことなしに休[やす]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことなく = a formal/written ‘without doing’ (equiv. of ～ずに). The other constructions are ungrammatical or reverse the meaning."
+  },
+  {
+    "id": "n3_q063",
+    "type": "usage",
+    "prompt": "Extent over a span: ‘The rain continued over three days.’",
+    "japanese": null,
+    "choices": [
+      "三日[みっか]にわたって雨[あめ]が降[ふ]り続[つづ]いた。",
+      "三日[みっか]において雨[あめ]が降[ふ]り続[つづ]いた。",
+      "三日[みっか]にとって雨[あめ]が降[ふ]り続[つづ]いた。",
+      "三日[みっか]について雨[あめ]が降[ふ]り続[つづ]いた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にわたって = ‘over / throughout (a span or range)’. において marks a formal point/venue, not a stretch of continuation."
+  },
+  {
+    "id": "n3_q064",
+    "type": "usage",
+    "prompt": "Covered in something (unpleasant): ‘His clothes were covered in mud.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]の服[ふく]は泥[どろ]だらけだった。",
+      "彼[かれ]の服[ふく]は泥[どろ]がちだった。",
+      "彼[かれ]の服[ふく]は泥[どろ]っぽいだった。",
+      "彼[かれ]の服[ふく]は泥[どろ]むきだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だらけ = ‘full of / covered in’ (usually unpleasant: mud, mistakes, blood). がち = ‘tend to’, っぽい = ‘-ish’ — neither means ‘covered all over with’."
+  },
+  {
+    "id": "n3_q065",
+    "type": "usage",
+    "prompt": "Third-person emotion over time: ‘The children are enjoying the game.’",
+    "japanese": null,
+    "choices": [
+      "子供[こども]たちはゲームを面白[おもしろ]がっている。",
+      "子供[こども]たちはゲームが面白[おもしろ]い。",
+      "子供[こども]たちはゲームを面白[おもしろ]いでいる。",
+      "子供[こども]たちはゲームを面白[おもしろ]そうする。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For others’ feelings, adjective + がる (面白がる, object を) describes observable emotion. Plain 面白い states only the speaker’s own judgment, not the children’s displayed feeling."
+  },
+  {
+    "id": "n3_q066",
+    "type": "usage",
+    "prompt": "‘You can’t decide until after you check.’",
+    "japanese": null,
+    "choices": [
+      "確認[かくにん]してからでないと、決[き]められない。",
+      "確認[かくにん]してからには、決[き]められない。",
+      "確認[かくにん]したところで、決[き]められる。",
+      "確認[かくにん]するうちに、決[き]められない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てからでないと…ない = ‘unless you first do X, you can’t…’. It stresses a required prior step. The other forms don’t express this prerequisite-then-negative structure."
+  },
+  {
+    "id": "n3_q067",
+    "type": "usage",
+    "prompt": "‘For its price, this is surprisingly good.’ (disproportion)",
+    "japanese": null,
+    "choices": [
+      "値段[ねだん]のわりに、おいしい。",
+      "値段[ねだん]のかわりに、おいしい。",
+      "値段[ねだん]のせいで、おいしい。",
+      "値段[ねだん]のうえに、おいしい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～わりに = ‘for / considering (disproportionate to expectation)’. かわりに = ‘instead of / in exchange’, a completely different meaning despite the similar sound."
+  },
+  {
+    "id": "n3_q068",
+    "type": "usage",
+    "prompt": "‘Instead of coffee, I drank tea.’ (substitution)",
+    "japanese": null,
+    "choices": [
+      "コーヒーのかわりに、お茶[ちゃ]を飲[の]んだ。",
+      "コーヒーのわりに、お茶[ちゃ]を飲[の]んだ。",
+      "コーヒーのために、お茶[ちゃ]を飲[の]んだ。",
+      "コーヒーのついでに、お茶[ちゃ]を飲[の]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かわりに = ‘instead of / in place of’. わりに means ‘considering’ (disproportion). The near-identical forms have distinct meanings — watch the か."
+  },
+  {
+    "id": "n3_q069",
+    "type": "usage",
+    "prompt": "Doing B while already doing A: ‘While I was out shopping, I mailed the letter too.’",
+    "japanese": null,
+    "choices": [
+      "買[か]い物[もの]のついでに、手紙[てがみ]を出[だ]した。",
+      "買[か]い物[もの]のかわりに、手紙[てがみ]を出[だ]した。",
+      "買[か]い物[もの]のわりに、手紙[てがみ]を出[だ]した。",
+      "買[か]い物[もの]のあまり、手紙[てがみ]を出[だ]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ついでに = ‘while I’m at it / taking the opportunity of doing A’. It bundles a secondary action onto a main one — different from ‘instead of’ (かわりに)."
+  },
+  {
+    "id": "n3_q070",
+    "type": "usage",
+    "prompt": "Formal ‘as soon as’: ‘I’ll contact you as soon as it’s decided.’",
+    "japanese": null,
+    "choices": [
+      "決[き]まり次第[しだい]、ご連絡[れんらく]します。",
+      "決[き]まるとたん、ご連絡[れんらく]します。",
+      "決[き]まるうちに、ご連絡[れんらく]します。",
+      "決[き]まるあまり、ご連絡[れんらく]します。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + 次第 = formal ‘as soon as (X happens), immediately…’, common in business. It uses the verb stem (決まり). たとたん is for sudden past surprises, not future arrangements."
+  },
+  {
+    "id": "n3_q071",
+    "type": "usage",
+    "prompt": "‘Isn’t it lovely!’ Exclamation with ことか:",
+    "japanese": null,
+    "choices": [
+      "なんてきれいなことか。",
+      "なんてきれいなことだ、というものだ。",
+      "なんてきれいなわけか。",
+      "なんてきれいなものか。"
+    ],
+    "correctIndex": 0,
+    "explanation": "なんて…ことか expresses strong emotional exclamation (‘how beautiful!’). ものか instead expresses defiant denial (‘as if!’), the opposite feeling."
+  },
+  {
+    "id": "n3_q072",
+    "type": "usage",
+    "prompt": "Strong refusal: ‘As if I’d ever go back there!’",
+    "japanese": null,
+    "choices": [
+      "あんな所[ところ]、二度[にど]と行[い]くものか。",
+      "あんな所[ところ]、二度[にど]と行[い]くことか。",
+      "あんな所[ところ]、二度[にど]と行[い]くわけだ。",
+      "あんな所[ところ]、二度[にど]と行[い]くものだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものか = an emphatic, defiant negative (‘there’s no way I’ll…!’). ことか is for emotional exclamation, and ものだ states a general truth — neither refuses."
+  },
+  {
+    "id": "n3_q073",
+    "type": "usage",
+    "prompt": "Standing the whole way (unchanged posture): ‘I stood the entire train ride.’",
+    "japanese": null,
+    "choices": [
+      "電車[でんしゃ]でずっと立[た]ったままだった。",
+      "電車[でんしゃ]でずっと立[た]ちがちだった。",
+      "電車[でんしゃ]でずっと立[た]ちっぽいだった。",
+      "電車[でんしゃ]でずっと立[た]つほどだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たまま = remaining in one state (‘stayed standing’). がち (‘tend to’) and っぽい (‘-ish’) describe tendencies/qualities, not a maintained posture."
+  },
+  {
+    "id": "n3_q074",
+    "type": "usage",
+    "prompt": "‘I should have brought an umbrella.’ (past regret)",
+    "japanese": null,
+    "choices": [
+      "傘[かさ]を持[も]ってくればよかった。",
+      "傘[かさ]を持[も]ってくるとよかった。",
+      "傘[かさ]を持[も]ってくるならよかった。",
+      "傘[かさ]を持[も]ってきたらいい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ばよかった = regret over what you didn’t do (‘should have’). Present-tense たらいい is advice for the future, missing the ‘I wish I had’ retrospective sense."
+  },
+  {
+    "id": "n3_q075",
+    "type": "usage",
+    "prompt": "‘This experience is precious for a student.’ (viewpoint)",
+    "japanese": null,
+    "choices": [
+      "この経験[けいけん]は学生[がくせい]にとって貴重[きちょう]だ。",
+      "この経験[けいけん]は学生[がくせい]において貴重[きちょう]だ。",
+      "この経験[けいけん]は学生[がくせい]によって貴重[きちょう]だ。",
+      "この経験[けいけん]は学生[がくせい]について貴重[きちょう]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "にとって = ‘for / from the standpoint of’ when evaluating worth. において is a formal ‘in (a place/field)’, not a standpoint."
+  },
+  {
+    "id": "n3_q076",
+    "type": "usage",
+    "prompt": "‘This branch looks like it’s about to break.’",
+    "japanese": null,
+    "choices": [
+      "この枝[えだ]は折[お]れそうだ。",
+      "この枝[えだ]は折[お]れるそうだ。",
+      "この枝[えだ]は折[お]れたそうだ。",
+      "この枝[えだ]は折[お]れるらしい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + そう (折れそう) = ‘looks about to (from what I see)’. 折れるそう (dictionary + そう) = hearsay ‘I heard it breaks’. Same そう, distinguished by the form before it."
+  },
+  {
+    "id": "n3_q077",
+    "type": "usage",
+    "prompt": "‘There isn’t a single person who dislikes it.’ (一…として…ない)",
+    "japanese": null,
+    "choices": [
+      "一人[ひとり]として反対[はんたい]する者[もの]はいない。",
+      "一人[ひとり]にとって反対[はんたい]する者[もの]はいない。",
+      "一人[ひとり]によって反対[はんたい]する者[もの]はいない。",
+      "一人[ひとり]において反対[はんたい]する者[もの]はいない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "一(counter)＋として…ない = ‘not even a single…’, an emphatic total negation. Here として works with the negative, unlike にとって/によって/において."
+  },
+  {
+    "id": "n3_q078",
+    "type": "usage",
+    "prompt": "Criticizing constant behavior: ‘He’s always just complaining.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は文句[もんく]を言[い]ってばかりいる。",
+      "彼[かれ]は文句[もんく]を言[い]うばかりだった、というわけだ。",
+      "彼[かれ]は文句[もんく]を言[い]ったばかりいる。",
+      "彼[かれ]は文句[もんく]を言[い]うたびいる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てばかりいる = ‘do nothing but ~ (constantly)’, with a critical tone. It uses the て-form + ばかりいる (言ってばかりいる), distinct from the ‘just did’ たばかり."
+  },
+  {
+    "id": "n3_q079",
+    "type": "usage",
+    "prompt": "Neutral/positive nuance needed: ‘Thanks to studying, I understood.’",
+    "japanese": null,
+    "choices": [
+      "勉強[べんきょう]したおかげで、分[わ]かった。",
+      "勉強[べんきょう]したせいで、分[わ]かった。",
+      "勉強[べんきょう]したくせに、分[わ]かった。",
+      "勉強[べんきょう]したわりに、分[わ]かった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "A GOOD result (‘understood’) pairs with おかげで. せいで blames a bad outcome, くせに criticizes, わりに means ‘considering’ — none give positive credit."
+  },
+  {
+    "id": "n3_q080",
+    "type": "usage",
+    "prompt": "Dismissive: ‘I’d never do something like lying.’",
+    "japanese": null,
+    "choices": [
+      "うそをつくなんて、絶対[ぜったい]にしない。",
+      "うそをつくばかり、絶対[ぜったい]にしない。",
+      "うそをつくところ、絶対[ぜったい]にしない。",
+      "うそをつくうちに、絶対[ぜったい]にしない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なんて here belittles/dismisses an idea (‘something like ~, no way’). The other forms mark excess, phase, or ‘while’, not this dismissive attitude."
+  },
+  {
+    "id": "n3_q081",
+    "type": "usage",
+    "prompt": "‘I tried to open the door (attempt).’",
+    "japanese": null,
+    "choices": [
+      "ドアを開[あ]けようとした。",
+      "ドアを開[あ]けることにした。",
+      "ドアを開[あ]けるようにした。",
+      "ドアを開[あ]けてみせた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "volitional + とする = ‘try/attempt to’ (make the effort in the moment). ～ようにする = ‘make an effort as a habit’, ～ことにする = ‘decide to’ — different meanings."
+  },
+  {
+    "id": "n3_q082",
+    "type": "usage",
+    "prompt": "‘Try eating it (and see).’",
+    "japanese": null,
+    "choices": [
+      "食[た]べてみてください。",
+      "食[た]べておいてください。",
+      "食[た]べてしまってください。",
+      "食[た]べてあってください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てみる = ‘do and see / try out’. ～ておく = ‘do in advance’, ～てしまう = ‘finish/regret’ — the ‘give it a try’ meaning is uniquely ～てみる."
+  },
+  {
+    "id": "n3_q083",
+    "type": "usage",
+    "prompt": "Route instruction (natural result): ‘Turn right here and you’ll see the station.’",
+    "japanese": null,
+    "choices": [
+      "ここを右[みぎ]に曲[ま]がると、駅[えき]が見[み]えます。",
+      "ここを右[みぎ]に曲[ま]がるなら、駅[えき]が見[み]えます。",
+      "ここを右[みぎ]に曲[ま]がるために、駅[えき]が見[み]えます。",
+      "ここを右[みぎ]に曲[ま]がるほど、駅[えき]が見[み]えます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "と gives directions as an automatic result (‘do X and Y naturally follows’). This is the classic ‘と for guidance/discovery’; なら/ために/ほど don’t give route results."
+  },
+  {
+    "id": "n3_q084",
+    "type": "usage",
+    "prompt": "Excusing yourself: ‘I’m sorry — the train was so late (that’s why).’",
+    "japanese": null,
+    "choices": [
+      "電車[でんしゃ]がとても遅[おく]れたものだから、遅刻[ちこく]しました。",
+      "電車[でんしゃ]がとても遅[おく]れたものの、遅刻[ちこく]しました。",
+      "電車[でんしゃ]がとても遅[おく]れたものか、遅刻[ちこく]しました。",
+      "電車[でんしゃ]がとても遅[おく]れたもので、遅刻[ちこく]しない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものだから = giving a heartfelt excuse/reason (‘it’s because…, so…’). ものの = ‘although’ (contrast) and ものか = defiant denial — wrong logical direction for an apology."
+  }
+]

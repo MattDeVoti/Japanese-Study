@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "n4_q001",
+    "type": "fillBlank",
+    "prompt": "A natural, automatic result (‘if you press this, it always opens’):",
+    "japanese": "このボタンを押[お]す＿＿、ドアが開[あ]きます。",
+    "choices": [
+      "と",
+      "なら",
+      "たら",
+      "ば"
+    ],
+    "correctIndex": 0,
+    "explanation": "と states an inevitable/automatic consequence and general truths. It cannot be followed by a request, command, or volition — perfect for cause-and-effect facts."
+  },
+  {
+    "id": "n4_q002",
+    "type": "usage",
+    "prompt": "Which conditional CANNOT be followed by a command like ‘please tell me’?",
+    "japanese": null,
+    "choices": [
+      "東京[とうきょう]に着[つ]くと、電話[でんわ]してください。",
+      "東京[とうきょう]に着[つ]いたら、電話[でんわ]してください。",
+      "東京[とうきょう]に着[つ]くなら、電話[でんわ]してください。",
+      "東京[とうきょう]に着[つ]けば、電話[でんわ]してください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "と cannot precede a request/command/volitional clause. たら is the natural choice for ‘when you arrive, please call’. (なら/ば are also awkward here, but と is outright ungrammatical with てください.)"
+  },
+  {
+    "id": "n4_q003",
+    "type": "fillBlank",
+    "prompt": "‘If you’re going to buy a car, a Toyota is good.’ (advice based on the stated topic):",
+    "japanese": "車[くるま]を買[か]う＿＿、トヨタがいいですよ。",
+    "choices": [
+      "なら",
+      "と",
+      "たら",
+      "ば"
+    ],
+    "correctIndex": 0,
+    "explanation": "なら responds to a topic just raised (‘if it’s the case that you’ll buy a car…’). It gives advice on that premise. と/たら/ば don’t carry this ‘given what you said’ nuance."
+  },
+  {
+    "id": "n4_q004",
+    "type": "usage",
+    "prompt": "‘When I opened the door, a cat was there.’ (a one-time past discovery):",
+    "japanese": null,
+    "choices": [
+      "ドアを開[あ]けたら、猫[ねこ]がいました。",
+      "ドアを開[あ]けると、猫[ねこ]がいました。",
+      "ドアを開[あ]ければ、猫[ねこ]がいました。",
+      "ドアを開[あ]けるなら、猫[ねこ]がいました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a specific past event where the second clause is a discovery, use ～たら、～た. (と can also express past discovery, but with negatives/one-off surprises たら is the reliable, natural pick and pairs with the past result.)"
+  },
+  {
+    "id": "n4_q005",
+    "type": "fillBlank",
+    "prompt": "General hypothetical with a stative result: ‘If it’s cheap, I’ll buy it.’",
+    "japanese": "＿＿買[か]います。",
+    "choices": [
+      "安[やす]ければ",
+      "安[やす]いと",
+      "安[やす]いなら",
+      "安[やす]かったら"
+    ],
+    "correctIndex": 0,
+    "explanation": "ば forms a clean hypothetical condition, especially with adjectives (安ければ). All four can work in real speech, but the ば-form is the textbook ‘if (hypothetically)’ pattern being tested here."
+  },
+  {
+    "id": "n4_q006",
+    "type": "usage",
+    "prompt": "Which sentence uses なら correctly (condition based on the OTHER person’s statement)?",
+    "japanese": null,
+    "choices": [
+      "「日本[にほん]へ行[い]く」「日本[にほん]へ行[い]くなら、京都[きょうと]がおすすめです。」",
+      "毎日走[はし]るなら、健康[けんこう]になります。",
+      "春[はる]になるなら、桜[さくら]が咲[さ]きます。",
+      "ボタンを押[お]すなら、音[おと]が鳴[な]ります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "なら reacts to what the other person just said and gives advice on that premise. The other options describe automatic/natural results, which need と, not なら."
+  },
+  {
+    "id": "n4_q007",
+    "type": "usage",
+    "prompt": "General truth: ‘Spring comes, and the cherry blossoms bloom.’",
+    "japanese": null,
+    "choices": [
+      "春[はる]になると、桜[さくら]が咲[さ]きます。",
+      "春[はる]になるなら、桜[さくら]が咲[さ]きます。",
+      "春[はる]になれば咲[さ]きなさい。",
+      "春[はる]になったら、桜[さくら]が咲[さ]きなさい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "と expresses a reliable natural law (season → blossoms). なら wrongly makes it conditional on a topic, and the ‘咲きなさい’ options attach a command, which nature can’t receive."
+  },
+  {
+    "id": "n4_q008",
+    "type": "usage",
+    "prompt": "‘My friend taught ME Japanese (did me the favor).’",
+    "japanese": null,
+    "choices": [
+      "友達[ともだち]が日本語[にほんご]を教[おし]えてくれました。",
+      "友達[ともだち]が日本語[にほんご]を教[おし]えてあげました。",
+      "友達[ともだち]が日本語[にほんご]を教[おし]えてもらいました。",
+      "友達[ともだち]に日本語[にほんご]を教[おし]えてくれました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てくれる = someone does a favor FOR me. The giver takes が/は (友達が). ～てあげる is me doing for others; ～てもらう means I receive the favor (I’d be the subject)."
+  },
+  {
+    "id": "n4_q009",
+    "type": "usage",
+    "prompt": "‘I got my friend to teach me Japanese (I received the favor).’",
+    "japanese": null,
+    "choices": [
+      "友達[ともだち]に日本語[にほんご]を教[おし]えてもらいました。",
+      "友達[ともだち]が日本語[にほんご]を教[おし]えてもらいました。",
+      "友達[ともだち]に日本語[にほんご]を教[おし]えてくれました。",
+      "友達[ともだち]に日本語[にほんご]を教[おし]えてあげました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てもらう = I receive a favor; the doer takes に (友達に). ～てくれる would make the friend the subject (友達が…くれる). ～てあげる is me doing for them."
+  },
+  {
+    "id": "n4_q010",
+    "type": "usage",
+    "prompt": "‘I’ll carry the bag FOR you (do you a favor).’",
+    "japanese": null,
+    "choices": [
+      "荷物[にもつ]を持[も]ってあげます。",
+      "荷物[にもつ]を持[も]ってくれます。",
+      "荷物[にもつ]を持[も]ってもらいます。",
+      "荷物[にもつ]を持[も]っていります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てあげる = I do a favor for someone else. ～てくれる/～てもらう describe favors coming TO me, the wrong direction when I’m the helper."
+  },
+  {
+    "id": "n4_q011",
+    "type": "usage",
+    "prompt": "‘My wallet was stolen.’ (adversity passive)",
+    "japanese": null,
+    "choices": [
+      "財布[さいふ]を盗[ぬす]まれました。",
+      "財布[さいふ]を盗[ぬす]みました。",
+      "財布[さいふ]を盗[ぬす]めました。",
+      "財布[さいふ]を盗[ぬす]ませました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passive 盗まれる shows I was affected (adversity). 盗めた is potential (‘could steal’), 盗ませた is causative (‘made someone steal’) — very different meanings."
+  },
+  {
+    "id": "n4_q012",
+    "type": "usage",
+    "prompt": "‘I can read kanji now.’ (potential)",
+    "japanese": null,
+    "choices": [
+      "漢字[かんじ]が読[よ]めます。",
+      "漢字[かんじ]を読[よ]まれます。",
+      "漢字[かんじ]を読[よ]ませます。",
+      "漢字[かんじ]が読[よ]みます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Potential 読める = ‘can read’, and its object often takes が (漢字が読める). 読まれる is passive, 読ませる is causative — neither means ‘be able to’."
+  },
+  {
+    "id": "n4_q013",
+    "type": "usage",
+    "prompt": "‘The teacher will come’ said respectfully (honorific 来られる):",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]が来[こ]られます。",
+      "先生[せんせい]を来[こ]られます。",
+      "先生[せんせい]が来[こ]させます。",
+      "先生[せんせい]が来[こ]てもらいます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "られる also forms honorific language (respect toward the subject). Here it elevates the teacher, not passive/potential. 来させる (causative) would rudely mean ‘make the teacher come’."
+  },
+  {
+    "id": "n4_q014",
+    "type": "usage",
+    "prompt": "‘The teacher made the students write a report.’ (causative)",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]は学生[がくせい]にレポートを書[か]かせました。",
+      "先生[せんせい]は学生[がくせい]にレポートを書[か]かれました。",
+      "先生[せんせい]は学生[がくせい]にレポートを書[か]けました。",
+      "先生[せんせい]は学生[がくせい]にレポートを書[か]いてもらいました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Causative 書かせる = ‘make/let write’; the doer takes に. 書かれる is passive, 書ける is potential. ～てもらう would mean the teacher received a favor, softening the ‘made them’ meaning."
+  },
+  {
+    "id": "n4_q015",
+    "type": "fillBlank",
+    "prompt": "In a causative sentence, the person MADE to act is marked with:",
+    "japanese": "母[はは]は妹[いもうと]＿＿部屋[へや]を掃除[そうじ]させました。",
+    "choices": [
+      "に",
+      "が",
+      "を",
+      "で"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a transitive causative, the causee takes に (妹に…させる) because を is already used by the object (部屋を). With intransitive verbs the causee can take を instead."
+  },
+  {
+    "id": "n4_q016",
+    "type": "usage",
+    "prompt": "‘The door opened (by itself).’ Choose the intransitive verb.",
+    "japanese": null,
+    "choices": [
+      "ドアが開[あ]きました。",
+      "ドアを開[あ]けました。",
+      "ドアを開[あ]きました。",
+      "ドアが開[あ]けました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "開く (intransitive) = something opens on its own; the thing takes が. 開ける (transitive) = someone opens it, and needs を. Match the particle to the verb’s transitivity."
+  },
+  {
+    "id": "n4_q017",
+    "type": "usage",
+    "prompt": "‘I turned off the light.’ Choose the transitive verb.",
+    "japanese": null,
+    "choices": [
+      "電気[でんき]を消[け]しました。",
+      "電気[でんき]が消[け]えました。",
+      "電気[でんき]を消[け]えました。",
+      "電気[でんき]が消[け]しました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "消す (transitive) = someone turns it off, object takes を. 消える (intransitive) = it goes out by itself, subject takes が. ‘電気を消えました’ mismatches を with an intransitive verb."
+  },
+  {
+    "id": "n4_q018",
+    "type": "fillBlank",
+    "prompt": "Resulting state from a transitive action: ‘The window is (has been) opened.’",
+    "japanese": "窓[まど]が＿＿。",
+    "choices": [
+      "開[あ]けてあります",
+      "開[あ]いています",
+      "開[あ]けています",
+      "開[あ]かれています"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てある = a state left on purpose by someone (transitive verb + てある): 開けてある. 開いている would just describe the window being open, without the ‘someone did it deliberately’ nuance."
+  },
+  {
+    "id": "n4_q019",
+    "type": "usage",
+    "prompt": "It looks like it will rain (from the dark sky you SEE): ‘雨が降り___’.",
+    "japanese": "空[そら]が暗[くら]い。雨[あめ]が降[ふ]り＿＿。",
+    "choices": [
+      "そうです",
+      "らしいです",
+      "そうです（伝聞）",
+      "ということです"
+    ],
+    "correctIndex": 0,
+    "explanation": "Verb-stem + そう = ‘looks like / about to’ based on what you observe (降りそう). This is the appearance そう, different from the hearsay 降るそうだ (‘I heard it will rain’)."
+  },
+  {
+    "id": "n4_q020",
+    "type": "usage",
+    "prompt": "‘I HEARD it will rain’ (reporting information):",
+    "japanese": null,
+    "choices": [
+      "雨[あめ]が降[ふ]るそうです。",
+      "雨[あめ]が降[ふ]りそうです。",
+      "雨[あめ]が降[ふ]るようです。",
+      "雨[あめ]が降[ふ]りたいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Plain form + そうだ = hearsay (‘I heard…’). 降りそう (stem + そう) means ‘looks about to’ from observation. The two そうだ patterns differ by what precedes them."
+  },
+  {
+    "id": "n4_q021",
+    "type": "usage",
+    "prompt": "Based on lots of evidence you conclude: ‘It seems he’s already left.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]はもう出[で]かけたようです。",
+      "彼[かれ]はもう出[で]かけたそうです。",
+      "彼[かれ]はもう出[で]かけたらしいです。",
+      "彼[かれ]はもう出[で]かけました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "ようだ = your own reasoned inference from evidence. そうだ (hearsay) reports someone’s words; らしい relies more on outside information/rumor. ‘ようだ’ fits a personal deduction."
+  },
+  {
+    "id": "n4_q022",
+    "type": "usage",
+    "prompt": "Judging from rumor/typical behavior: ‘He seems to be quite rich (by all accounts).’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]はかなりお金持[かねも]ちらしいです。",
+      "彼[かれ]はかなりお金持[かねも]ちそうです。",
+      "彼[かれ]はかなりお金持[かねも]ちたいです。",
+      "彼[かれ]はかなりお金持[かねも]ちましょう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "らしい draws a conclusion from information you’ve gathered/heard (‘apparently, by reputation’). Noun + そう (お金持ちそう) would claim it from immediate appearance, a different basis."
+  },
+  {
+    "id": "n4_q023",
+    "type": "usage",
+    "prompt": "‘He should arrive at 3 (I’m confident, based on reason).’",
+    "japanese": null,
+    "choices": [
+      "三時[さんじ]に着[つ]くはずです。",
+      "三時[さんじ]に着[つ]くつもりです。",
+      "三時[さんじ]に着[つ]くようにします。",
+      "三時[さんじ]に着[つ]きなさい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "はず = a reasoned expectation (‘should/ought to’). つもり is the SUBJECT’s intention, so it can’t describe someone else’s expected arrival the way はず does."
+  },
+  {
+    "id": "n4_q024",
+    "type": "usage",
+    "prompt": "‘I intend to study abroad next year.’ (speaker’s own plan/intention)",
+    "japanese": null,
+    "choices": [
+      "来年留学[りゅうがく]するつもりです。",
+      "来年留学[りゅうがく]するはずです。",
+      "来年留学[りゅうがく]するらしいです。",
+      "来年留学[りゅうがく]するそうです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "つもり = the speaker’s personal intention. はず is an expectation, らしい/そうだ report others’ info — none express ‘I plan to’."
+  },
+  {
+    "id": "n4_q025",
+    "type": "usage",
+    "prompt": "A fixed, scheduled arrangement: ‘The meeting is scheduled for Monday.’",
+    "japanese": null,
+    "choices": [
+      "会議[かいぎ]は月曜日[げつようび]の予定[よてい]です。",
+      "会議[かいぎ]は月曜日[げつようび]のつもりです。",
+      "会議[かいぎ]は月曜日[げつようび]のはずです。",
+      "会議[かいぎ]は月曜日[げつようび]らしいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "予定 = an objective, arranged schedule. つもり is a personal intention (things/events don’t have intentions), so ‘会議はつもり’ is wrong."
+  },
+  {
+    "id": "n4_q026",
+    "type": "usage",
+    "prompt": "Purpose with a VOLITIONAL verb (same subject): ‘I saved money in order to buy a car.’",
+    "japanese": null,
+    "choices": [
+      "車[くるま]を買[か]うために、お金[かね]をためました。",
+      "車[くるま]を買[か]えるように、お金[かね]をためました。",
+      "車[くるま]を買[か]うので、お金[かね]をためました。",
+      "車[くるま]を買[か]うのに、お金[かね]をためました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "ために = purpose with a controllable, volitional verb and the same subject (買う→ためる). ように is used with potential/intransitive/non-volitional verbs (買えるように)."
+  },
+  {
+    "id": "n4_q027",
+    "type": "usage",
+    "prompt": "Purpose with a POTENTIAL verb: ‘So that I can hear well, I sat in front.’",
+    "japanese": null,
+    "choices": [
+      "よく聞[き]こえるように、前[まえ]に座[すわ]りました。",
+      "よく聞[き]こえるために、前[まえ]に座[すわ]りました。",
+      "よく聞[き]くように、前[まえ]に座[すわ]りました。",
+      "よく聞[き]くために、前[まえ]に座[すわ]りました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "ように pairs with non-volitional/potential verbs (聞こえる = ‘be audible’). ために needs a volitional verb, so 聞こえるために is unnatural."
+  },
+  {
+    "id": "n4_q028",
+    "type": "fillBlank",
+    "prompt": "‘Please study so that you can pass the exam.’",
+    "japanese": "試験[しけん]に＿＿、勉強[べんきょう]してください。",
+    "choices": [
+      "合格[ごうかく]できるように",
+      "合格[ごうかく]するために",
+      "合格[ごうかく]するので",
+      "合格[ごうかく]するのに"
+    ],
+    "correctIndex": 0,
+    "explanation": "できる is potential/non-volitional, so purpose uses ように. ために would need a volitional verb and can’t take できる smoothly."
+  },
+  {
+    "id": "n4_q029",
+    "type": "usage",
+    "prompt": "Giving multiple reasons: ‘It’s cheap, and it’s tasty, so I like this shop.’",
+    "japanese": null,
+    "choices": [
+      "安[やす]いし、おいしいし、この店[みせ]が好[す]きです。",
+      "安[やす]いから、おいしいから、この店[みせ]が好[す]きです。",
+      "安[やす]いと、おいしいと、この店[みせ]が好[す]きです。",
+      "安[やす]くて、おいしいし、この店[みせ]が好[す]きです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "し stacks several reasons (‘and what’s more…’), implying there are grounds beyond those listed. Repeating から is heavy and less natural for piling up reasons."
+  },
+  {
+    "id": "n4_q030",
+    "type": "usage",
+    "prompt": "Low-confidence guess: ‘He might come.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は来[く]るかもしれません。",
+      "彼[かれ]は来[く]るでしょう。",
+      "彼[かれ]は来[く]るはずです。",
+      "彼[かれ]は来[く]るつもりです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "かもしれない = ‘might/maybe’ (uncertain). でしょう expresses higher probability (‘probably’), and はず a confident expectation — かもしれない is the weakest, most tentative."
+  },
+  {
+    "id": "n4_q031",
+    "type": "usage",
+    "prompt": "Fairly confident prediction: ‘It’ll probably clear up tomorrow.’",
+    "japanese": null,
+    "choices": [
+      "明日[あした]は晴[は]れるでしょう。",
+      "明日[あした]は晴[は]れるかもしれません。",
+      "明日[あした]は晴[は]れるつもりです。",
+      "明日[あした]は晴[は]れなさい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "でしょう = a confident ‘probably’. かもしれない would drop the confidence to ‘maybe’. つもり (intention) can’t apply to the weather."
+  },
+  {
+    "id": "n4_q032",
+    "type": "fillBlank",
+    "prompt": "‘This coffee is too hot.’",
+    "japanese": "このコーヒーは＿＿。",
+    "choices": [
+      "熱[あつ]すぎます",
+      "熱[あつ]いすぎます",
+      "熱[あつ]くすぎます",
+      "熱[あつ]さすぎます"
+    ],
+    "correctIndex": 0,
+    "explanation": "い-adjective + すぎる drops い: 熱い→熱すぎる. Verbs use the stem (飲みすぎる), な-adjectives drop な (静かすぎる)."
+  },
+  {
+    "id": "n4_q033",
+    "type": "fillBlank",
+    "prompt": "‘This pen is easy to write with.’",
+    "japanese": "このペンは＿＿です。",
+    "choices": [
+      "書[か]きやすい",
+      "書[か]きにくい",
+      "書[か]きすぎる",
+      "書[か]きたい"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + やすい = ‘easy to ~’. にくい = ‘hard to ~’ (the opposite). They attach to the verb stem: 書き+やすい/にくい."
+  },
+  {
+    "id": "n4_q034",
+    "type": "usage",
+    "prompt": "‘I listen to music WHILE studying.’ (two simultaneous actions, same person)",
+    "japanese": null,
+    "choices": [
+      "音楽[おんがく]を聞[き]きながら勉強[べんきょう]します。",
+      "音楽[おんがく]を聞[き]いて勉強[べんきょう]します。",
+      "音楽[おんがく]を聞[き]くと勉強[べんきょう]します。",
+      "音楽[おんがく]を聞[き]くために勉強[べんきょう]します。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + ながら = doing two things at once by one person (聞きながら). て-form would list them in sequence, not simultaneously."
+  },
+  {
+    "id": "n4_q035",
+    "type": "usage",
+    "prompt": "Listing sample activities: ‘On weekends I do things like read and watch movies.’",
+    "japanese": null,
+    "choices": [
+      "週末[しゅうまつ]は本[ほん]を読[よ]んだり、映画[えいが]を見[み]たりします。",
+      "週末[しゅうまつ]は本[ほん]を読[よ]んで、映画[えいが]を見[み]て、します。",
+      "週末[しゅうまつ]は本[ほん]を読[よ]みながら、映画[えいが]を見[み]ます。",
+      "週末[しゅうまつ]は本[ほん]を読[よ]むし、映画[えいが]を見[み]るします。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たり～たりする lists representative activities (among others). It uses the past-form base + り and ends in する. て-form would imply a fixed sequence."
+  },
+  {
+    "id": "n4_q036",
+    "type": "usage",
+    "prompt": "Expressing regret: ‘I ended up eating the whole cake (oops).’",
+    "japanese": null,
+    "choices": [
+      "ケーキを全部食[た]べてしまいました。",
+      "ケーキを全部食[た]べておきました。",
+      "ケーキを全部食[た]べてあります。",
+      "ケーキを全部食[た]べています。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てしまう shows completion often with regret (‘ended up…’). ～ておく = do in advance, ～てある = leave in a state — neither carries the ‘oops/finished it all’ feeling."
+  },
+  {
+    "id": "n4_q037",
+    "type": "usage",
+    "prompt": "Preparation in advance: ‘I’ll book the tickets beforehand.’",
+    "japanese": null,
+    "choices": [
+      "切符[きっぷ]を予約[よやく]しておきます。",
+      "切符[きっぷ]を予約[よやく]してしまいます。",
+      "切符[きっぷ]を予約[よやく]してあります。",
+      "切符[きっぷ]を予約[よやく]しています。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ておく = do something in advance for future benefit. ～てある describes the resulting state after the fact, and ～てしまう implies completion/regret."
+  },
+  {
+    "id": "n4_q038",
+    "type": "usage",
+    "prompt": "‘My hobby is reading books.’ (naming an activity as a noun)",
+    "japanese": null,
+    "choices": [
+      "趣味[しゅみ]は本[ほん]を読[よ]むことです。",
+      "趣味[しゅみ]は本[ほん]を読[よ]むのです。",
+      "趣味[しゅみ]は本[ほん]を読[よ]むそうです。",
+      "趣味[しゅみ]は本[ほん]を読[よ]むためです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "こと nominalizes an action as an abstract concept, ideal after ‘趣味は…’. の also nominalizes but is preferred with verbs of perception (見える/聞こえる) and immediate scenes."
+  },
+  {
+    "id": "n4_q039",
+    "type": "usage",
+    "prompt": "Perception verb requires の: ‘I heard someone singing.’",
+    "japanese": null,
+    "choices": [
+      "誰[だれ]かが歌[うた]っているのが聞[き]こえました。",
+      "誰[だれ]かが歌[うた]っていることが聞[き]こえました。",
+      "誰[だれ]かが歌[うた]っているのを聞[き]こえました。",
+      "誰[だれ]かが歌[うた]っていることを聞[き]こえました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Verbs of perception (見える/聞こえる/見る) take の, not こと, and the perceived event is marked が with 聞こえる. こと would sound abstract and unnatural here."
+  },
+  {
+    "id": "n4_q040",
+    "type": "usage",
+    "prompt": "A decision YOU made: ‘I’ve decided to quit smoking.’",
+    "japanese": null,
+    "choices": [
+      "たばこをやめることにしました。",
+      "たばこをやめることになりました。",
+      "たばこをやめるようになりました。",
+      "たばこをやめるつもりになりました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことにする = a decision the speaker makes. ～ことになる = something is decided for you / turns out that way (external), a different agent."
+  },
+  {
+    "id": "n4_q041",
+    "type": "usage",
+    "prompt": "A decision made by circumstances/others: ‘It’s been decided that I’ll transfer to Osaka.’",
+    "japanese": null,
+    "choices": [
+      "大阪[おおさか]に転勤[てんきん]することになりました。",
+      "大阪[おおさか]に転勤[てんきん]することにしました。",
+      "大阪[おおさか]に転勤[てんきん]するようにしました。",
+      "大阪[おおさか]に転勤[てんきん]するはずにしました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことになる presents an outcome decided by circumstances or the company, not by you. ～ことにする would claim YOU made the call."
+  },
+  {
+    "id": "n4_q042",
+    "type": "usage",
+    "prompt": "‘You don’t have to come tomorrow.’ (no obligation)",
+    "japanese": null,
+    "choices": [
+      "明日[あした]は来[こ]なくてもいいです。",
+      "明日[あした]は来[こ]なければなりません。",
+      "明日[あした]は来[こ]てはいけません。",
+      "明日[あした]は来[こ]たほうがいいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なくてもいい = ‘don’t have to’. なければならない = ‘must’, てはいけない = ‘must not’, たほうがいい = ‘had better’ — all express obligation/prohibition, not its absence."
+  },
+  {
+    "id": "n4_q043",
+    "type": "usage",
+    "prompt": "Compare: which means ‘must’ (obligation)?",
+    "japanese": null,
+    "choices": [
+      "宿題[しゅくだい]をしなければなりません。",
+      "宿題[しゅくだい]をしなくてもいいです。",
+      "宿題[しゅくだい]をしてはいけません。",
+      "宿題[しゅくだい]をしなくてもかまいません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "なければならない/なければいけない = ‘must’. The other three all release you from the obligation (‘need not / must not / no problem if you don’t’)."
+  },
+  {
+    "id": "n4_q044",
+    "type": "usage",
+    "prompt": "‘He fell asleep with the TV left ON.’ (an unchanged state)",
+    "japanese": null,
+    "choices": [
+      "テレビをつけたまま寝[ね]てしまいました。",
+      "テレビをつけながら寝[ね]てしまいました。",
+      "テレビをつけたら寝[ね]てしまいました。",
+      "テレビをつけると寝[ね]てしまいました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たまま = an unchanged state persists while doing something else (left on). ながら needs two active, simultaneous actions, but sleeping isn’t an active action done ‘while’ turning on the TV."
+  },
+  {
+    "id": "n4_q045",
+    "type": "usage",
+    "prompt": "Respectful (honorific) form of ‘the teacher reads’:",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]がお読[よ]みになります。",
+      "先生[せんせい]がお読[よ]みします。",
+      "私[わたし]がお読[よ]みになります。",
+      "先生[せんせい]が読[よ]んでおります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "お+stem+になる elevates the SUBJECT (honorific), used for the teacher. お+stem+する is humble (for lowering yourself), so it can’t describe the teacher’s action."
+  },
+  {
+    "id": "n4_q046",
+    "type": "usage",
+    "prompt": "Humble form to lower YOURSELF: ‘I will carry it (for you).’",
+    "japanese": null,
+    "choices": [
+      "お持[も]ちします。",
+      "お持[も]ちになります。",
+      "持[も]たれます。",
+      "持[も]っていらっしゃいます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "お+stem+する is humble, lowering the speaker’s own action toward a superior. お+stem+になる and られる are honorific — wrong when the actor is you."
+  },
+  {
+    "id": "n4_q047",
+    "type": "usage",
+    "prompt": "Unexpected contrast: ‘Even though it’s expensive, it doesn’t sell.’",
+    "japanese": null,
+    "choices": [
+      "高[たか]いのに、売[う]れません。",
+      "高[たか]いので、売[う]れません。",
+      "高[たか]いから、売[う]れません。",
+      "高[たか]くて、売[う]れません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "のに = ‘even though’ + an unexpected result. ので/から give a plain cause; here the low sales are surprising given the price, so のに fits."
+  },
+  {
+    "id": "n4_q048",
+    "type": "usage",
+    "prompt": "‘A person called Tanaka came.’ Naming with という:",
+    "japanese": null,
+    "choices": [
+      "田中[たなか]という人[ひと]が来[き]ました。",
+      "田中[たなか]とうい人[ひと]が来[き]ました。",
+      "田中[たなか]の人[ひと]が来[き]ました。",
+      "田中[たなか]は人[ひと]が来[き]ました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "N₁という N₂ = ‘an N₂ called/named N₁’. の would just show possession (‘Tanaka’s person’), which isn’t the ‘named’ meaning."
+  },
+  {
+    "id": "n4_q049",
+    "type": "usage",
+    "prompt": "‘The more you practice, the better you get.’",
+    "japanese": null,
+    "choices": [
+      "練習[れんしゅう]すればするほど、上手[じょうず]になります。",
+      "練習[れんしゅう]するほどすれば、上手[じょうず]になります。",
+      "練習[れんしゅう]したら上手[じょうず]になります。",
+      "練習[れんしゅう]すると上手[じょうず]になります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ば～ほど expresses proportional change (‘the more…the more’). A single たら/と only gives one cause→effect, not the escalating relationship."
+  },
+  {
+    "id": "n4_q050",
+    "type": "usage",
+    "prompt": "‘I try to exercise every day (make an effort to).’",
+    "japanese": null,
+    "choices": [
+      "毎日運動[うんどう]するようにしています。",
+      "毎日運動[うんどう]することにしています。",
+      "毎日運動[うんどう]するようになっています。",
+      "毎日運動[うんどう]するはずです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ようにする = make an ongoing effort toward something. ～ことにしている is a firm personal rule; ～ようになる is a gradual change of state — subtly different nuances."
+  },
+  {
+    "id": "n4_q051",
+    "type": "usage",
+    "prompt": "A gradual change: ‘I’ve come to be able to eat natto.’",
+    "japanese": null,
+    "choices": [
+      "納豆[なっとう]が食[た]べられるようになりました。",
+      "納豆[なっとう]が食[た]べられるようにしました。",
+      "納豆[なっとう]が食[た]べられることにしました。",
+      "納豆[なっとう]が食[た]べられるはずです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ようになる = a natural change over time (couldn’t → can). ～ようにする would imply you deliberately arranged it, missing the ‘gradually became able’ sense."
+  },
+  {
+    "id": "n4_q052",
+    "type": "fillBlank",
+    "prompt": "Suggesting one option loosely: ‘Shall we drink coffee or something?’",
+    "japanese": "コーヒー＿＿飲[の]みませんか。",
+    "choices": [
+      "でも",
+      "しか",
+      "だけ",
+      "ばかり"
+    ],
+    "correctIndex": 0,
+    "explanation": "N + でも softens a suggestion (‘…or something’). だけ/しか/ばかり limit to ‘only/nothing but’, which changes the meaning entirely."
+  },
+  {
+    "id": "n4_q053",
+    "type": "usage",
+    "prompt": "‘Even if it rains, I’ll go.’",
+    "japanese": null,
+    "choices": [
+      "雨[あめ]が降[ふ]っても行[い]きます。",
+      "雨[あめ]が降[ふ]ったら行[い]きます。",
+      "雨[あめ]が降[ふ]ると行[い]きます。",
+      "雨[あめ]が降[ふ]るなら行[い]きます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ても = ‘even if/though’, the result holds despite the condition. たら/と/なら are plain conditionals (‘if/when’) without the ‘even’ concessive nuance."
+  },
+  {
+    "id": "n4_q054",
+    "type": "usage",
+    "prompt": "Describing someone ELSE’s desire: ‘My little brother wants a game.’",
+    "japanese": null,
+    "choices": [
+      "弟[おとうと]はゲームをほしがっています。",
+      "弟[おとうと]はゲームがほしいです。",
+      "弟[おとうと]はゲームをほしいです。",
+      "弟[おとうと]はゲームをほしがります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a third person’s desire you use ほしがる (object takes を) usually in ～ている form. Plain ほしい/たい directly state only the SPEAKER’s own feelings."
+  },
+  {
+    "id": "n4_q055",
+    "type": "usage",
+    "prompt": "‘Turn off your phone during the movie’ (soft rule with こと):",
+    "japanese": null,
+    "choices": [
+      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]ること。",
+      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るもの。",
+      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るため。",
+      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るはず。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dictionary form + こと as a sentence-ender gives a written rule/instruction (‘be sure to…’). はず/ため/もの don’t function as posted directives."
+  },
+  {
+    "id": "n4_q056",
+    "type": "fillBlank",
+    "prompt": "Inside a relative clause, the subject usually switches to:",
+    "japanese": "これは母[はは]＿＿作[つく]った料理[りょうり]です。",
+    "choices": [
+      "が",
+      "は",
+      "を",
+      "も"
+    ],
+    "correctIndex": 0,
+    "explanation": "In a modifying (relative) clause, the subject takes が, not は (母が作った料理). は marks the sentence-level topic and is avoided inside the clause."
+  },
+  {
+    "id": "n4_q057",
+    "type": "usage",
+    "prompt": "‘This tool is useful FOR cooking.’ (のに = purpose ‘for’)",
+    "japanese": null,
+    "choices": [
+      "この道具[どうぐ]は料理[りょうり]をするのに便利[べんり]です。",
+      "この道具[どうぐ]は料理[りょうり]をするために便利[べんり]です。",
+      "この道具[どうぐ]は料理[りょうり]をするので便利[べんり]です。",
+      "この道具[どうぐ]は料理[りょうり]をするのに、便利[べんり]じゃない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のに with 便利/必要 means ‘for the purpose of’ (evaluating usefulness). This ‘のに’ differs from the ‘even though’ のに — context (便利です) makes the purpose reading clear."
+  },
+  {
+    "id": "n4_q058",
+    "type": "usage",
+    "prompt": "‘This doesn’t look tasty.’ (negative appearance そう)",
+    "japanese": null,
+    "choices": [
+      "これはおいしくなさそうです。",
+      "これはおいしそうじゃないです。",
+      "これはおいしくなそうです。",
+      "これはおいしそうくないです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "The appearance そう of an い-adjective negative is ～くなさそう (おいしい→おいしくなさそう). The なさ insertion is the key irregular point being tested."
+  },
+  {
+    "id": "n4_q059",
+    "type": "usage",
+    "prompt": "‘Finish it BY 5 o’clock’ (a deadline, one-time action):",
+    "japanese": null,
+    "choices": [
+      "五時[ごじ]までに終[お]わらせてください。",
+      "五時[ごじ]まで終[お]わらせてください。",
+      "五時[ごじ]までに終[お]わっています。",
+      "五時[ごじ]まで終[お]わらせます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "までに = a deadline by which a one-time action must happen. まで = continuous duration up to a point (‘keep doing until 5’). A deadline needs までに."
+  },
+  {
+    "id": "n4_q060",
+    "type": "usage",
+    "prompt": "‘I’ll wait UNTIL 5 o’clock’ (continuous action up to a point):",
+    "japanese": null,
+    "choices": [
+      "五時[ごじ]まで待[ま]ちます。",
+      "五時[ごじ]までに待[ま]ちます。",
+      "五時[ごじ]までに待[ま]っています。",
+      "五時[ごじ]までを待[ま]ちます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "まで marks the continuous limit of an ongoing action (waiting the whole time). までに would wrongly frame waiting as a one-shot deadline event."
+  },
+  {
+    "id": "n4_q061",
+    "type": "usage",
+    "prompt": "‘I was made to wait for an hour (by someone).’",
+    "japanese": null,
+    "choices": [
+      "一時間待[ま]たされました。",
+      "一時間待[ま]たせました。",
+      "一時間待[ま]たれました。",
+      "一時間待[ま]てました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Causative-passive 待たされる = ‘be made to wait’ (unwilling). 待たせる is causative (‘make wait’), 待たれる passive, 待てる potential — only the causative-passive shows you were forced."
+  },
+  {
+    "id": "n4_q062",
+    "type": "usage",
+    "prompt": "‘I went to school WITHOUT eating breakfast.’",
+    "japanese": null,
+    "choices": [
+      "朝[あさ]ごはんを食[た]べないで学校[がっこう]へ行[い]きました。",
+      "朝[あさ]ごはんを食[た]べなくて学校[がっこう]へ行[い]きました。",
+      "朝[あさ]ごはんを食[た]べなくても学校[がっこう]へ行[い]きました。",
+      "朝[あさ]ごはんを食[た]べたら学校[がっこう]へ行[い]きました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ないで = doing B without doing A (manner). ～なくて expresses cause/reason (‘because I didn’t…’), which doesn’t fit ‘went without eating’."
+  },
+  {
+    "id": "n4_q063",
+    "type": "usage",
+    "prompt": "Cause with a negative: ‘I couldn’t sleep because I didn’t understand.’",
+    "japanese": null,
+    "choices": [
+      "意味[いみ]が分[わ]からなくて、眠[ねむ]れませんでした。",
+      "意味[いみ]が分[わ]からないで、眠[ねむ]れませんでした。",
+      "意味[いみ]が分[わ]からずに、眠[ねむ]れませんでした。",
+      "意味[いみ]が分[わ]からなくても、眠[ねむ]れませんでした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なくて states a reason/cause with negatives (‘because I didn’t…’). ～ないで/ずに express ‘without doing’, which isn’t a cause. ～なくても is ‘even if not’."
+  },
+  {
+    "id": "n4_q064",
+    "type": "usage",
+    "prompt": "Politely: ‘The teacher kindly explained it to me.’",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]が説明[せつめい]してくださいました。",
+      "先生[せんせい]が説明[せつめい]してくれました。",
+      "先生[せんせい]に説明[せつめい]してさしあげました。",
+      "先生[せんせい]が説明[せつめい]していただきました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "くださる is the honorific of くれる (the teacher does me a favor, elevated). さしあげる = humble ‘give to a superior’ (wrong direction), and いただく makes the receiver the subject."
+  },
+  {
+    "id": "n4_q065",
+    "type": "usage",
+    "prompt": "‘BEFORE I go to Japan, I’ll study Japanese.’ (verb tense with とき)",
+    "japanese": null,
+    "choices": [
+      "日本[にほん]へ行[い]くとき、日本語[にほんご]を勉強[べんきょう]します。",
+      "日本[にほん]へ行[い]ったとき、日本語[にほんご]を勉強[べんきょう]します。",
+      "日本[にほん]へ行[い]くとき、日本語[にほんご]を勉強[べんきょう]しました。",
+      "日本[にほん]へ行[い]ってとき、日本語[にほんご]を勉強[べんきょう]します。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dictionary form + とき = the main action happens BEFORE/around the ‘go’ event. Past 行ったとき would mean ‘after arriving’. The clause’s tense sets before-vs-after."
+  },
+  {
+    "id": "n4_q066",
+    "type": "usage",
+    "prompt": "‘I don’t know WHETHER he will come.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]が来[く]るかどうか分[わ]かりません。",
+      "彼[かれ]が来[く]るかどうかを知っています。",
+      "彼[かれ]が来[く]るとどうか分[わ]かりません。",
+      "彼[かれ]が来[く]るなら分[わ]かりません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かどうか = ‘whether or not’ for yes/no uncertainty. と/なら are conditionals and can’t express embedded ‘whether’."
+  },
+  {
+    "id": "n4_q067",
+    "type": "usage",
+    "prompt": "‘I just arrived (moments ago).’",
+    "japanese": null,
+    "choices": [
+      "今[いま]、着[つ]いたばかりです。",
+      "今[いま]、着[つ]いたところばかりです。",
+      "今[いま]、着[つ]くばかりです。",
+      "今[いま]、着[つ]いてばかりです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たばかり = ‘just did’ (short time since). It attaches to the plain past (着いた). ～たところ also means ‘just did’, but the tested form here is たばかり."
+  },
+  {
+    "id": "n4_q068",
+    "type": "usage",
+    "prompt": "Casual/plain guess to a friend: ‘He’ll probably come.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は来[く]るだろう。",
+      "彼[かれ]は来[く]るでしょう。",
+      "彼[かれ]は来[く]るつもりだ。",
+      "彼[かれ]は来[く]るために。"
+    ],
+    "correctIndex": 0,
+    "explanation": "だろう is the plain/casual form of でしょう (both = ‘probably’). でしょう is politer; here a casual line to a friend takes だろう."
+  },
+  {
+    "id": "n4_q069",
+    "type": "fillBlank",
+    "prompt": "‘How was the trip?’ Asking about impression:",
+    "japanese": "旅行[りょこう]は＿＿でしたか。",
+    "choices": [
+      "どう",
+      "どこ",
+      "どれ",
+      "どの"
+    ],
+    "correctIndex": 0,
+    "explanation": "どう asks ‘how/what was it like’ (impression). どこ=where, どれ=which one, どの=which (noun) — none ask about the experience itself."
+  },
+  {
+    "id": "n4_q070",
+    "type": "usage",
+    "prompt": "Neutral description: ‘This temple was built 300 years ago.’",
+    "japanese": null,
+    "choices": [
+      "この寺[てら]は三百年前[さんびゃくねんまえ]に建[た]てられました。",
+      "この寺[てら]は三百年前[さんびゃくねんまえ]に建[た]てました。",
+      "この寺[てら]は三百年前[さんびゃくねんまえ]に建[た]てさせました。",
+      "この寺[てら]は三百年前[さんびゃくねんまえ]に建[た]てられます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "The passive 建てられる gives a neutral ‘was built’ when the builder is unknown/unimportant. 建てました needs a subject who built it; 建てさせる is causative."
+  },
+  {
+    "id": "n4_q071",
+    "type": "fillBlank",
+    "prompt": "‘Take one each / one at a time.’",
+    "japanese": "一[ひと]つ＿＿取[と]ってください。",
+    "choices": [
+      "ずつ",
+      "だけ",
+      "しか",
+      "ごと"
+    ],
+    "correctIndex": 0,
+    "explanation": "ずつ = ‘each / at a time’ for even distribution (一つずつ). だけ=only, しか=only(+neg), ごと=‘every (interval)’ — different meanings."
+  },
+  {
+    "id": "n4_q072",
+    "type": "usage",
+    "prompt": "‘I heard that prices will rise’ (formal report with ということ):",
+    "japanese": null,
+    "choices": [
+      "値段[ねだん]が上[あ]がるということです。",
+      "値段[ねだん]が上[あ]がるというです。",
+      "値段[ねだん]が上[あ]がるそうにです。",
+      "値段[ねだん]が上[あ]がるらしいということです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ということだ formally reports information (‘it is said that…’). ‘というです’ is ungrammatical (missing こと), and stacking らしい+ということ is redundant."
+  },
+  {
+    "id": "n4_q073",
+    "type": "usage",
+    "prompt": "‘When I got home, there was a letter.’ Best conditional:",
+    "japanese": null,
+    "choices": [
+      "家[いえ]に帰[かえ]ったら、手紙[てがみ]がありました。",
+      "家[いえ]に帰[かえ]るなら、手紙[てがみ]がありました。",
+      "家[いえ]に帰[かえ]れば、手紙[てがみ]がありました。",
+      "家[いえ]に帰[かえ]ると手紙[てがみ]がありましょう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a one-time past sequence ending in a discovery, ～たら、～た is standard. なら (topic-based) and ば (general hypothesis) don’t fit a concrete past event."
+  },
+  {
+    "id": "n4_q074",
+    "type": "usage",
+    "prompt": "‘I have been to Hokkaido.’ (past experience)",
+    "japanese": null,
+    "choices": [
+      "北海道[ほっかいどう]へ行[い]ったことがあります。",
+      "北海道[ほっかいどう]へ行[い]くことがあります。",
+      "北海道[ほっかいどう]へ行[い]ったことです。",
+      "北海道[ほっかいどう]へ行[い]くことでした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たことがある = past experience (‘have done before’). ～ることがある = ‘there are times when I do’ (occasional habit) — same こと, different meaning by tense."
+  },
+  {
+    "id": "n4_q075",
+    "type": "usage",
+    "prompt": "‘Sometimes I walk to work.’ (occasional present habit)",
+    "japanese": null,
+    "choices": [
+      "歩[ある]いて通勤[つうきん]することがあります。",
+      "歩[ある]いて通勤[つうきん]したことがあります。",
+      "歩[ある]いて通勤[つうきん]することです。",
+      "歩[ある]いて通勤[つうきん]するはずです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ることがある = ‘there are occasions when…’ (present tendency). The past ～たことがある would instead mean ‘I have (once) done it’."
+  },
+  {
+    "id": "n4_q076",
+    "type": "fillBlank",
+    "prompt": "‘twice a week’ — marking the per-unit rate:",
+    "japanese": "週[しゅう]＿＿二回[にかい]ジムに行[い]きます。",
+    "choices": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "に marks the base unit for a frequency/rate (週に二回 = ‘twice per week’). で/を can’t express ‘per’ here."
+  },
+  {
+    "id": "n4_q077",
+    "type": "usage",
+    "prompt": "‘I had my hair cut (got someone to cut it).’",
+    "japanese": null,
+    "choices": [
+      "髪[かみ]を切[き]ってもらいました。",
+      "髪[かみ]を切[き]られました。",
+      "髪[かみ]を切[き]らせました。",
+      "髪[かみ]を切[き]れました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てもらう = you arranged/received the service willingly. 切られた (passive) implies it happened TO you against your will — a big nuance difference for haircuts."
+  },
+  {
+    "id": "n4_q078",
+    "type": "usage",
+    "prompt": "A parent to a child: ‘Do your homework!’ (firm instruction)",
+    "japanese": null,
+    "choices": [
+      "宿題[しゅくだい]をしなさい。",
+      "宿題[しゅくだい]をしましょう。",
+      "宿題[しゅくだい]をしてもいいです。",
+      "宿題[しゅくだい]をするつもりです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なさい is a firm but caring command (parent/teacher). ましょう invites, てもいい permits, つもり states intention — none give the instruction."
+  },
+  {
+    "id": "n4_q079",
+    "type": "usage",
+    "prompt": "Softly implying more reasons: ‘Well, it’s late, so…(and other reasons) let’s go home.’",
+    "japanese": null,
+    "choices": [
+      "もう遅[おそ]いし、帰[かえ]りましょう。",
+      "もう遅[おそ]いから帰[かえ]りましょうか。",
+      "もう遅[おそ]くて帰[かえ]りましょう。",
+      "もう遅[おそ]いのに帰[かえ]りましょう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "A single し softly presents one reason while hinting others exist (‘it’s late, and…’). のに (‘even though’) would contradict the logical ‘so let’s go’."
+  },
+  {
+    "id": "n4_q080",
+    "type": "usage",
+    "prompt": "Regret/waste: ‘I waited so long, but he didn’t come.’",
+    "japanese": null,
+    "choices": [
+      "あんなに待[ま]ったのに、彼[かれ]は来[こ]なかった。",
+      "あんなに待[ま]ったので、彼[かれ]は来[こ]なかった。",
+      "あんなに待[ま]ったら、彼[かれ]は来[こ]なかった。",
+      "あんなに待[ま]つと、彼[かれ]は来[こ]なかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "のに expresses frustration that effort was wasted (‘even though I waited…’). ので would illogically make the waiting the CAUSE of his not coming."
+  },
+  {
+    "id": "n4_q081",
+    "type": "usage",
+    "prompt": "You deliberately make the room warm: ‘I’ll make the room warmer.’",
+    "japanese": null,
+    "choices": [
+      "部屋[へや]を暖[あたた]かくします。",
+      "部屋[へや]が暖[あたた]かくなります。",
+      "部屋[へや]を暖[あたた]かくなります。",
+      "部屋[へや]が暖[あたた]かくします。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～くする = someone makes it that way (transitive, object を). ～くなる = it becomes that way on its own (subject が). Match agent vs spontaneous change to する vs なる."
+  },
+  {
+    "id": "n4_q082",
+    "type": "usage",
+    "prompt": "Giving a hypothetical: ‘If you don’t have time, you don’t have to come.’",
+    "japanese": null,
+    "choices": [
+      "時間[じかん]がなければ、来[こ]なくてもいいです。",
+      "時間[じかん]がないなら来[こ]なくてもいいです。",
+      "時間[じかん]がなくても来[こ]なくてもいいです。",
+      "時間[じかん]がないと来[こ]なくてもいいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "ば sets a clean hypothetical condition (‘if not…, then need not’). なら also works but reacts to a stated topic; と can’t precede the permission ‘てもいい’ naturally."
+  },
+  {
+    "id": "n4_q083",
+    "type": "usage",
+    "prompt": "‘I was just about to call you.’",
+    "japanese": null,
+    "choices": [
+      "ちょうど電話[でんわ]するところでした。",
+      "ちょうど電話[でんわ]したところでした。",
+      "ちょうど電話[でんわ]しているところでした。",
+      "ちょうど電話[でんわ]するばかりでした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "dictionary form + ところ = ‘about to’ (right before). ～ているところ = ‘in the middle of’, ～たところ = ‘just finished’. The tense of the verb before ところ sets the timing."
+  },
+  {
+    "id": "n4_q084",
+    "type": "usage",
+    "prompt": "Habitual trigger: ‘Whenever I drink coffee, I can’t sleep.’",
+    "japanese": null,
+    "choices": [
+      "コーヒーを飲[の]むと、眠[ねむ]れません。",
+      "コーヒーを飲[の]むなら、眠[ねむ]れません。",
+      "コーヒーを飲[の]むために、眠[ねむ]れません。",
+      "コーヒーを飲[の]んで、眠[ねむ]れません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "と expresses a habitual/automatic ‘whenever A, then B’ relationship. なら (topic condition) and ために (purpose) don’t convey the repeated natural consequence."
+  }
+]

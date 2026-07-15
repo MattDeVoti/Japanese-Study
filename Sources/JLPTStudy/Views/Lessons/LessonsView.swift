@@ -81,7 +81,7 @@ private struct LevelRow: View {
                 Text(rowTitle)
                     .font(.system(size: 17, weight: .semibold))
                     .foregroundColor(.appText)
-                Text("\(level.chapters.count) lessons")
+                Text("\(level.chapters.count) \(isKana ? "lessons" : "chapters")")
                     .font(.system(size: 13))
                     .foregroundColor(.secondary)
             }
