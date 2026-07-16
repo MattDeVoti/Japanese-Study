@@ -4,6 +4,7 @@ struct ChapterDetailView: View {
     let summary: ChapterSummary
     let accentColor: Color
 
+    @EnvironmentObject private var cardStore: CardStore
     @State private var chapter: LessonChapter?
 
     var body: some View {
@@ -59,6 +60,33 @@ struct ChapterDetailView: View {
                                 }
                             }
                         }
+
+                        // Kanji for this chapter (same N-level), shown below the vocab.
+                        if let kanjiChars = chapter.kanji, !kanjiChars.isEmpty {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Label("Kanji", systemImage: "character.textbox")
+                                    .font(.system(size: 11, weight: .semibold))
+                                    .foregroundColor(.secondary)
+                                    .textCase(.uppercase)
+                                    .padding(.top, 8)
+
+                                LazyVGrid(
+                                    columns: [GridItem(.adaptive(minimum: 78), spacing: 8)],
+                                    alignment: .leading, spacing: 8
+                                ) {
+                                    ForEach(kanjiChars, id: \.self) { kc in
+                                        if let card = cardStore.kanjiCard(for: kc) {
+                                            NavigationLink {
+                                                KanjiCardDetailView(card: card)
+                                            } label: {
+                                                ChapterKanjiCell(card: card)
+                                            }
+                                            .buttonStyle(.plain)
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                     .padding(.horizontal, 16)
                     .padding(.vertical, 16)
@@ -73,6 +101,42 @@ struct ChapterDetailView: View {
                 chapter = LessonsService.shared.loadChapter(summary.id)
             }
         }
+    }
+}
+
+// MARK: - Chapter kanji cell
+
+private struct ChapterKanjiCell: View {
+    let card: KanjiCard
+
+    private var gloss: String {
+        card.definition
+            .split(whereSeparator: { $0 == "," || $0 == ";" })
+            .first
+            .map { $0.trimmingCharacters(in: .whitespaces) } ?? card.definition
+    }
+
+    var body: some View {
+        VStack(spacing: 3) {
+            Text(card.kanji)
+                .font(.system(size: 30, weight: .semibold))
+                .foregroundColor(nLevelColor(card.nLevel))
+            Text(gloss)
+                .font(.system(size: 9))
+                .foregroundColor(.secondary)
+                .lineLimit(1)
+                .minimumScaleFactor(0.6)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 10)
+        .padding(.horizontal, 4)
+        .background(
+            RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurface)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .strokeBorder(Color.appHairline, lineWidth: 1)
+        )
     }
 }
 
