@@ -250,15 +250,7 @@ struct GrammarPointCard: View {
                 .padding(.bottom, 14)
             }
         }
-        .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(Color.appBackground)
-                .shadow(color: .black.opacity(0.07), radius: 4, x: 0, y: 2)
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 12)
-                .stroke(Color.primary.opacity(0.07), lineWidth: 1)
-        )
+        .appCard(cornerRadius: 16)
     }
 }
 
@@ -293,8 +285,9 @@ struct ExampleCard: View {
         }
         .padding(10)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.primary.opacity(0.04))
-        .cornerRadius(8)
+        .background(
+            RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color.appSurfaceHigh)
+        )
     }
 }
 
@@ -358,13 +351,12 @@ struct VocabWordRow: View {
         .padding(.vertical, 9)
         .contentShape(Rectangle())
         .background(
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.appBackground)
-                .shadow(color: .black.opacity(0.06), radius: 3, x: 0, y: 1)
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(Color.appSurface)
         )
         .overlay(
-            RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.primary.opacity(0.07), lineWidth: 1)
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .strokeBorder(Color.appHairline, lineWidth: 1)
         )
     }
 }

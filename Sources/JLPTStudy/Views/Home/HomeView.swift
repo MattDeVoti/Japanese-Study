@@ -45,10 +45,8 @@ struct HomeView: View {
                         .foregroundColor(.appText)
                         .padding(.vertical, 8)
                         .padding(.horizontal, 24)
-                        .background(
-                            Capsule()
-                                .stroke(Color.appText.opacity(0.35), lineWidth: 1)
-                        )
+                        .background(Capsule().fill(Color.appSurfaceHigh))
+                        .overlay(Capsule().strokeBorder(Color.appHairline, lineWidth: 1))
                 }
                 .padding(.bottom, 16)
 
@@ -62,7 +60,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Hiragana")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -77,7 +77,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Kanji")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -92,7 +94,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Katakana")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -276,6 +280,7 @@ private struct HomeNavButton<Destination: View>: View {
                 .foregroundColor(.appText)
                 .frame(maxWidth: .infinity)
                 .frame(height: 60)
+                .appCard(cornerRadius: 18, elevated: false)
         }
         .buttonStyle(.plain)
     }

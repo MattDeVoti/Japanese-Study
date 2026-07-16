@@ -123,9 +123,11 @@ struct KanaCharacterCard: View {
                                     }
                                 }
                             }
-                            .background(Color.primary.opacity(0.03))
-                            .cornerRadius(8)
-                            .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.primary.opacity(0.07), lineWidth: 1))
+                            .background(
+                                RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Color.appSurfaceHigh)
+                            )
+                            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                            .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).strokeBorder(Color.appHairline, lineWidth: 1))
                         }
                     }
                 }

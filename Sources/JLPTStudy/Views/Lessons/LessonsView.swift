@@ -3,31 +3,78 @@ import SwiftUI
 struct LessonsView: View {
     @State private var levels: [LessonLevel] = []
 
+    // Two kana levels, in fixed display order.
+    private var kanaLevels: [LessonLevel] {
+        ["Hiragana", "Katakana"].compactMap { name in
+            levels.first { $0.jlptLevel == name }
+        }
+    }
+
+    // The five grammar books, N5 → N1.
+    private var grammarLevels: [LessonLevel] {
+        levels
+            .filter { $0.jlptLevel.hasPrefix("N") }
+            .sorted { (Int($0.jlptLevel.dropFirst()) ?? 0) > (Int($1.jlptLevel.dropFirst()) ?? 0) }
+    }
+
+    // Bubble grid: uniform-size, left-aligned, up to three per row.
+    private let bubbleColumns = [
+        GridItem(.flexible(), spacing: 12, alignment: .top),
+        GridItem(.flexible(), spacing: 12, alignment: .top),
+        GridItem(.flexible(), spacing: 12, alignment: .top),
+    ]
+
     var body: some View {
         ZStack {
             Color.appBackground.ignoresSafeArea()
 
             ScrollView {
-                VStack(spacing: 0) {
-                    ForEach(levels) { level in
+                VStack(alignment: .leading, spacing: 30) {
+
+                    // MARK: Kana
+                    VStack(alignment: .leading, spacing: 14) {
+                        LessonSectionHeader("Kana")
+                        LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                            ForEach(kanaLevels) { level in
+                                NavigationLink {
+                                    LevelView(level: level)
+                                } label: {
+                                    KanaCircleButton(level: level)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                    }
+
+                    // MARK: Grammar
+                    VStack(alignment: .leading, spacing: 14) {
+                        LessonSectionHeader("Grammar")
+                        LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                            ForEach(grammarLevels) { level in
+                                NavigationLink {
+                                    LevelView(level: level)
+                                } label: {
+                                    GrammarCircleButton(level: level)
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        }
+                    }
+
+                    // MARK: Favorites
+                    VStack(alignment: .leading, spacing: 14) {
+                        LessonSectionHeader("Favorites")
                         NavigationLink {
-                            LevelView(level: level)
+                            FavoritesView()
                         } label: {
-                            LevelRow(level: level)
+                            FavoritesRow()
                         }
                         .buttonStyle(.plain)
-
-                        Divider().padding(.leading, 20)
                     }
-
-                    NavigationLink {
-                        FavoritesView()
-                    } label: {
-                        FavoritesRow()
-                    }
-                    .buttonStyle(.plain)
                 }
-                .padding(.top, 8)
+                .padding(.horizontal, 20)
+                .padding(.top, 20)
+                .padding(.bottom, 36)
             }
         }
         .standardNavBar("Lessons")
@@ -40,60 +87,86 @@ struct LessonsView: View {
     }
 }
 
-// MARK: - Level row
+// MARK: - Section header
 
-private struct LevelRow: View {
-    let level: LessonLevel
-
-    private var isKana: Bool { level.jlptLevel == "Hiragana" || level.jlptLevel == "Katakana" }
-    private var accentColor: Color { levelAccentColor(level.jlptLevel) }
-    private var levelInt: Int { Int(level.jlptLevel.dropFirst()) ?? 5 }
-    private var bookNumber: Int { 6 - levelInt }
-
-    private var circleLabel: String {
-        switch level.jlptLevel {
-        case "Hiragana": return "ひ"
-        case "Katakana": return "カ"
-        default: return level.jlptLevel
-        }
-    }
-
-    private var rowTitle: String {
-        switch level.jlptLevel {
-        case "Hiragana": return "Hiragana"
-        case "Katakana": return "Katakana"
-        default: return "Book \(bookNumber) (\(level.jlptLevel))"
-        }
-    }
+private struct LessonSectionHeader: View {
+    let title: String
+    init(_ title: String) { self.title = title }
 
     var body: some View {
-        HStack(spacing: 16) {
+        Text(title.uppercased())
+            .font(.system(size: 12, weight: .semibold))
+            .foregroundColor(.secondary)
+            .padding(.leading, 4)
+    }
+}
+
+// MARK: - Kana circular button (large — two per row)
+
+private struct KanaCircleButton: View {
+    let level: LessonLevel
+
+    private var color: Color { levelAccentColor(level.jlptLevel) }
+    private var glyph: String { level.jlptLevel == "Hiragana" ? "ひ" : "カ" }
+
+    var body: some View {
+        ZStack {
             Circle()
-                .fill(accentColor)
-                .frame(width: 44, height: 44)
-                .overlay(
-                    Text(circleLabel)
-                        .font(.system(size: isKana ? 18 : 14, weight: .bold))
-                        .foregroundColor(.white)
-                )
+                .fill(color.badgeGradient)
+                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
 
-            VStack(alignment: .leading, spacing: 2) {
-                Text(rowTitle)
-                    .font(.system(size: 17, weight: .semibold))
-                    .foregroundColor(.appText)
-                Text("\(level.chapters.count) \(isKana ? "lessons" : "chapters")")
-                    .font(.system(size: 13))
-                    .foregroundColor(.secondary)
+            VStack(spacing: 2) {
+                Text(glyph)
+                    .font(.system(size: 30, weight: .bold))
+                Text(level.jlptLevel)
+                    .font(.system(size: 14, weight: .semibold))
+                Text("\(level.chapters.count) lessons")
+                    .font(.system(size: 10, weight: .medium))
+                    .opacity(0.85)
             }
-
-            Spacer()
-
-            Image(systemName: "chevron.right")
-                .font(.system(size: 13, weight: .semibold))
-                .foregroundColor(.secondary)
+            .foregroundColor(.white)
+            .multilineTextAlignment(.center)
+            .minimumScaleFactor(0.6)
+            .padding(10)
         }
-        .padding(.horizontal, 20)
-        .padding(.vertical, 14)
+        .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(0.9)
+    }
+}
+
+// MARK: - Grammar circular button (small — five per row)
+
+private struct GrammarCircleButton: View {
+    let level: LessonLevel
+
+    private var levelInt: Int { Int(level.jlptLevel.dropFirst()) ?? 5 }
+    private var bookNumber: Int { 6 - levelInt }
+    private var color: Color { nLevelColor(levelInt) }
+
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(color.badgeGradient)
+                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
+
+            VStack(spacing: 2) {
+                Text("Book \(bookNumber)")
+                    .font(.system(size: 11, weight: .semibold))
+                    .opacity(0.9)
+                Text(level.jlptLevel)
+                    .font(.system(size: 24, weight: .bold))
+                Text("\(level.chapters.count) ch")
+                    .font(.system(size: 11, weight: .medium))
+                    .opacity(0.9)
+            }
+            .foregroundColor(.white)
+            .multilineTextAlignment(.center)
+            .lineLimit(1)
+            .minimumScaleFactor(0.6)
+            .padding(10)
+        }
+        .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(0.9)
     }
 }
 
@@ -132,8 +205,9 @@ private struct FavoritesRow: View {
                 .font(.system(size: 13, weight: .semibold))
                 .foregroundColor(.secondary)
         }
-        .padding(.horizontal, 20)
+        .padding(.horizontal, 16)
         .padding(.vertical, 14)
+        .appCard(cornerRadius: 16)
     }
 }
 

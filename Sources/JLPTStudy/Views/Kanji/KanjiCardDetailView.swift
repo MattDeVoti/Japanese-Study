@@ -132,7 +132,13 @@ struct ReadingsColumn: View {
         }
         .padding(12)
         .frame(maxWidth: .infinity)
-        .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemGray6)))
+        .background(
+            RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurface)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .strokeBorder(Color.appHairline, lineWidth: 1)
+        )
     }
 }
 
@@ -155,7 +161,7 @@ struct CommonWordsTable: View {
             .foregroundColor(.secondary)
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .background(Color(.systemGray5))
+            .background(Color.appSurfaceHigh)
 
             ForEach(Array(words.enumerated()), id: \.offset) { idx, word in
                 HStack(alignment: .top, spacing: 0) {
@@ -171,10 +177,10 @@ struct CommonWordsTable: View {
                 .foregroundColor(.appText)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 8)
-                .background(idx % 2 == 0 ? Color.appBackground : Color(.systemGray6).opacity(0.6))
+                .background(idx % 2 == 0 ? Color.appSurface : Color.appSurfaceHigh)
             }
         }
-        .clipShape(RoundedRectangle(cornerRadius: 10))
-        .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color(.systemGray4), lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Color.appHairline, lineWidth: 1))
     }
 }

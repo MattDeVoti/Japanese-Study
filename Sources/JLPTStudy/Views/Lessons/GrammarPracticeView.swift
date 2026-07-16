@@ -105,8 +105,14 @@ struct GrammarPracticeView: View {
                                         .frame(maxWidth: .infinity, alignment: .leading)
                                 }
                                 .padding(12)
-                                .background(Color.primary.opacity(0.05))
-                                .cornerRadius(10)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                        .fill(Color.appSurface)
+                                )
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                        .strokeBorder(Color.appHairline, lineWidth: 1)
+                                )
                                 .transition(.opacity.combined(with: .move(edge: .bottom)))
 
                                 Button {
@@ -123,8 +129,11 @@ struct GrammarPracticeView: View {
                                         .foregroundColor(.white)
                                         .frame(maxWidth: .infinity)
                                         .padding(.vertical, 14)
-                                        .background(accentColor)
-                                        .cornerRadius(12)
+                                        .background(
+                                            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                                .fill(accentColor.badgeGradient)
+                                        )
+                                        .shadow(color: accentColor.opacity(0.35), radius: 8, x: 0, y: 4)
                                 }
                                 .buttonStyle(.plain)
                                 .transition(.opacity)
@@ -219,11 +228,13 @@ private struct PracticeChoiceButton: View {
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 12)
-            .background(rowBg)
-            .cornerRadius(10)
+            .background(
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .fill(rowBg)
+            )
             .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(borderColor, lineWidth: 1.5)
+                RoundedRectangle(cornerRadius: 12, style: .continuous)
+                    .strokeBorder(borderColor, lineWidth: 1.5)
             )
         }
         .buttonStyle(.plain)
@@ -244,7 +255,7 @@ private struct PracticeChoiceButton: View {
 
     private var rowBg: Color {
         switch state {
-        case .idle:    return .clear
+        case .idle:    return .appSurface
         case .correct: return .green
         case .wrong:   return .red
         }
@@ -252,7 +263,7 @@ private struct PracticeChoiceButton: View {
 
     private var borderColor: Color {
         switch state {
-        case .idle:    return Color.primary.opacity(0.12)
+        case .idle:    return Color.appHairline
         case .correct: return .green
         case .wrong:   return .red
         }

@@ -28,7 +28,13 @@ struct SearchBar: View {
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 9)
-        .background(RoundedRectangle(cornerRadius: 10).fill(Color(.systemGray6)))
+        .background(
+            RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurfaceHigh)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .strokeBorder(Color.appHairline, lineWidth: 1)
+        )
         .padding(.horizontal, 16)
         .padding(.top, 8)
         .padding(.bottom, 4)
