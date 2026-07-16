@@ -24,7 +24,7 @@ class StudyFilter: ObservableObject {
         self.filterType = type
         switch type {
         case .kanji:
-            availableLevels = [5, 4, 3, 2]
+            availableLevels = [5, 4, 3, 2, 1]
         case .grammar:
             availableLevels = [5, 4, 3, 2, 1]
         }

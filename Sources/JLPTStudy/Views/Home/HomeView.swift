@@ -25,7 +25,7 @@ struct HomeView: View {
 
                 // Main navigation buttons
                 VStack(spacing: 4) {
-                    HomeNavButton(label: "Lessons",    destination: LessonsView())
+                    HomeNavButton(label: "Textbook",   destination: LessonsView())
                     HomeNavButton(label: "Study",      destination: GrammarMenuView())
                     HomeNavButton(label: "Dictionary", destination: DictionaryView())
                 }
