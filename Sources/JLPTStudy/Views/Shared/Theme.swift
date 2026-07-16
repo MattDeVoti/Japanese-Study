@@ -7,7 +7,12 @@ extension Color {
     static var appBackground: Color { _currentAppTheme.background }
     static var appNavBar:     Color { _currentAppTheme.navBar }
     static var appNavBarText: Color { _currentAppTheme.navBarText }
-    static let appText = Color.primary
+    // Primary text derived from the THEME (not the device appearance), so it
+    // always contrasts with the current theme's background regardless of
+    // whether the device is in light or dark mode.
+    static var appText: Color {
+        _currentAppTheme.colorScheme == .dark ? Color(white: 0.96) : Color(white: 0.11)
+    }
 
     // Kana level accent colors
     static let hiraganaColor = Color(hex: "DB2777")   // pink

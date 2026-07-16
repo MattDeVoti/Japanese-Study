@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject private var themeManager: ThemeManager
     @State private var showThemePicker = false
+    @State private var showGame = false
 
     var body: some View {
         ZStack {
@@ -13,11 +14,7 @@ struct HomeView: View {
 
                 // App title (Japanese + romaji)
                 VStack(spacing: 6) {
-                    Text("おめでとう")
-                        .font(.system(size: 64, weight: .bold))
-                        .foregroundColor(.red)
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.5)
+                    GlowingTitle { showGame = true }
                     Text("Omedetou")
                         .font(.system(size: 26, weight: .medium))
                         .foregroundColor(.red)
@@ -133,6 +130,9 @@ struct HomeView: View {
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showThemePicker) {
             ThemePickerSheet()
+        }
+        .fullScreenCover(isPresented: $showGame) {
+            KanjiInvadersGame()
         }
     }
 }

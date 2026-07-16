@@ -13,6 +13,7 @@ struct JLPTStudyApp: App {
                 HomeView()
             }
             .environment(\.colorScheme, themeManager.current.colorScheme)
+            .preferredColorScheme(themeManager.current.colorScheme)
             .environmentObject(store)
             .environmentObject(kanjiFilter)
             .environmentObject(grammarFilter)
