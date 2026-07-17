@@ -9,6 +9,10 @@ import SwiftUI
 struct GlowingTitle: View {
     var onUnlock: () -> Void
 
+    // Observing the theme guarantees the title re-renders (and re-reads the
+    // theme-derived .appAccent color) whenever the palette changes.
+    @EnvironmentObject private var themeManager: ThemeManager
+
     private let letters = ["お", "め", "で", "と", "う"]   // indices 0…4
     private let secretOrder = [0, 4, 3, 1, 2]              // お → う → と → め → で
 
@@ -22,9 +26,9 @@ struct GlowingTitle: View {
             ForEach(letters.indices, id: \.self) { i in
                 Text(letters[i])
                     .font(.system(size: 60, weight: .bold))
-                    .foregroundColor(.red)
+                    .foregroundColor(.appAccent)
                     .brightness(Double(glow[i]) * 0.25)
-                    .shadow(color: .red.opacity(Double(glow[i])), radius: glow[i] * 18)
+                    .shadow(color: .appAccent.opacity(Double(glow[i])), radius: glow[i] * 18)
                     .shadow(color: .white.opacity(Double(glow[i]) * 0.6), radius: glow[i] * 5)
                     .contentShape(Rectangle())
                     .onTapGesture { registerTap(i) }
@@ -208,20 +212,20 @@ struct KanjiInvadersGame: View {
         guard size == .zero, newSize != .zero else { return }
         size = newSize
         shipX = newSize.width / 2
-        for _ in 0..<4 { spawnEnemy() }
+        for _ in 0..<6 { spawnEnemy() }
     }
 
     private func spawnEnemy() {
         guard size != .zero else { return }
         let pick = Self.kanjiSet.randomElement()!
-        // ~2/3 fall straight down from a random point along the top; the rest
-        // drift side to side. The straight droppers force the player to move —
-        // an idle, centred ship can't clear them on its own.
-        let drifts = Int.random(in: 0..<3) == 0
+        // ~60% fall straight down from a random point along the top; the rest
+        // drift side to side (faster now). The straight droppers force the player
+        // to move — an idle, centred ship can't clear them on its own.
+        let drifts = Int.random(in: 0..<5) < 2
         enemies.append(Enemy(
             x: .random(in: 30...(size.width - 30)),
             y: .random(in: -40 ... 10),
-            vx: drifts ? (Bool.random() ? 1.2 : -1.2) : 0,
+            vx: drifts ? (Bool.random() ? 1.9 : -1.9) : 0,
             kanji: pick.kanji, reading: pick.reading, color: pick.color))
     }
 
@@ -229,7 +233,7 @@ struct KanjiInvadersGame: View {
         guard !gameOver, size != .zero else { return }
         frame += 1
         let seconds = Double(frame) / 60.0
-        let speedUp = 1.0 + seconds * 0.015   // kanji gradually speed up over time
+        let speedUp = 1.0 + seconds * 0.028   // kanji speed up over time (steeper ramp)
 
         // Auto-fire from the ship (slower still).
         if frame % 20 == 0 { bullets.append(Bullet(x: shipX, y: size.height - 76)) }
@@ -240,11 +244,13 @@ struct KanjiInvadersGame: View {
         for i in enemies.indices {
             enemies[i].x += enemies[i].vx * speedUp
             if enemies[i].x < 24 || enemies[i].x > size.width - 24 { enemies[i].vx *= -1 }
-            enemies[i].y += 0.8 * speedUp
+            enemies[i].y += 1.5 * speedUp
         }
-        // Spawn more often as time goes on (75 → 38 frames), and allow more on screen.
-        let spawnEvery = max(38, 75 - Int(seconds))
-        if frame % spawnEvery == 0 && enemies.count < 10 { spawnEnemy() }
+        // Spawn aggressively and ramp fast (52 → 17 frames), allowing a big swarm.
+        // At the floor (~17) the spawn rate outpaces the ship's fire rate, so a run
+        // will eventually be overwhelmed — the game is now a score chase, not survivable.
+        let spawnEvery = max(17, 52 - Int(seconds * 1.4))
+        if frame % spawnEvery == 0 && enemies.count < 16 { spawnEnemy() }
 
         // Bullet ↔ enemy collisions: the kanji bursts into its hiragana.
         if !bullets.isEmpty && !enemies.isEmpty {

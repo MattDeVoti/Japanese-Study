@@ -7,6 +7,9 @@ extension Color {
     static var appBackground: Color { _currentAppTheme.background }
     static var appNavBar:     Color { _currentAppTheme.navBar }
     static var appNavBarText: Color { _currentAppTheme.navBarText }
+    // The theme's signature accent (its nav-bar hue) — used for the home title
+    // so it always reads as part of the current palette instead of a fixed red.
+    static var appAccent:     Color { _currentAppTheme.navBar }
     // Primary text derived from the THEME (not the device appearance), so it
     // always contrasts with the current theme's background regardless of
     // whether the device is in light or dark mode.

@@ -2,7 +2,7 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject private var themeManager: ThemeManager
-    @State private var showThemePicker = false
+    @State private var showOptions = false
     @State private var showGame = false
 
     var body: some View {
@@ -17,7 +17,7 @@ struct HomeView: View {
                     GlowingTitle { showGame = true }
                     Text("Omedetou")
                         .font(.system(size: 26, weight: .medium))
-                        .foregroundColor(.red)
+                        .foregroundColor(.appAccent)
                 }
                 .frame(maxWidth: .infinity)
 
@@ -25,9 +25,10 @@ struct HomeView: View {
 
                 // Main navigation buttons
                 VStack(spacing: 4) {
-                    HomeNavButton(label: "Textbook",   destination: LessonsView())
-                    HomeNavButton(label: "Study",      destination: GrammarMenuView())
-                    HomeNavButton(label: "Dictionary", destination: DictionaryView())
+                    HomeNavButton(label: "Journey")    { JourneyView() }
+                    HomeNavButton(label: "Textbook")   { LessonsView() }
+                    HomeNavButton(label: "Study")      { GrammarMenuView() }
+                    HomeNavButton(label: "Dictionary") { DictionaryView() }
                 }
                 .padding(.horizontal, 40)
 
@@ -103,11 +104,11 @@ struct HomeView: View {
                 .padding(.bottom, 36)
             }
 
-            // Paintbrush theme button — top right
+            // Options button — top right (appearance + reset journey)
             VStack {
                 HStack {
                     Spacer()
-                    Button { showThemePicker = true } label: {
+                    Button { showOptions = true } label: {
                         ZStack {
                             Circle()
                                 .fill(Color.appText.opacity(0.08))
@@ -115,7 +116,7 @@ struct HomeView: View {
                             Circle()
                                 .stroke(Color.appText.opacity(0.18), lineWidth: 1)
                                 .frame(width: 40, height: 40)
-                            Image(systemName: "paintbrush.fill")
+                            Image(systemName: "gearshape.fill")
                                 .font(.system(size: 15))
                                 .foregroundColor(.appText)
                         }
@@ -128,8 +129,8 @@ struct HomeView: View {
             }
         }
         .toolbar(.hidden, for: .navigationBar)
-        .sheet(isPresented: $showThemePicker) {
-            ThemePickerSheet()
+        .sheet(isPresented: $showOptions) {
+            HomeOptionsSheet()
         }
         .fullScreenCover(isPresented: $showGame) {
             KanjiInvadersGame()
@@ -137,42 +138,77 @@ struct HomeView: View {
     }
 }
 
-// MARK: - Theme Picker Sheet
+// MARK: - Home options sheet
 
-struct ThemePickerSheet: View {
+struct HomeOptionsSheet: View {
+    @Environment(\.dismiss) private var dismiss
+    @State private var showResetConfirm = false
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Section {
+                    NavigationLink {
+                        AppearancePicker()
+                    } label: {
+                        Label("Appearance", systemImage: "paintbrush.fill")
+                    }
+                }
+                Section {
+                    Button(role: .destructive) {
+                        showResetConfirm = true
+                    } label: {
+                        Label("Reset Journey", systemImage: "arrow.counterclockwise")
+                    }
+                } footer: {
+                    Text("Sends your Journey back to the very beginning. Your Textbook progress and study data are kept.")
+                }
+            }
+            .navigationTitle("Options")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                }
+            }
+            .confirmationDialog("Reset your Journey?", isPresented: $showResetConfirm, titleVisibility: .visible) {
+                Button("Reset to the beginning", role: .destructive) {
+                    JourneyProgress.reset()
+                    dismiss()
+                }
+                Button("Cancel", role: .cancel) {}
+            } message: {
+                Text("The Journey will start over from Hiragana. Nothing else is affected.")
+            }
+        }
+    }
+}
+
+private struct AppearancePicker: View {
     @EnvironmentObject private var themeManager: ThemeManager
     @Environment(\.dismiss) private var dismiss
-    @Environment(\.colorScheme) private var colorScheme
 
     private let columns = [GridItem(.flexible()), GridItem(.flexible())]
 
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 16) {
-                    ForEach(AppTheme.all) { theme in
-                        ThemeSwatch(
-                            theme: theme,
-                            isSelected: theme.id == themeManager.current.id
-                        ) {
-                            themeManager.current = theme
-                            dismiss()
-                        }
+        ScrollView {
+            LazyVGrid(columns: columns, spacing: 16) {
+                ForEach(AppTheme.all) { theme in
+                    ThemeSwatch(
+                        theme: theme,
+                        isSelected: theme.id == themeManager.current.id
+                    ) {
+                        themeManager.current = theme
+                        dismiss()
                     }
                 }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 24)
             }
-            .background(Color(uiColor: .systemGroupedBackground).ignoresSafeArea())
-            .navigationTitle("Appearance")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
-                        .fontWeight(.semibold)
-                }
-            }
+            .padding(.horizontal, 20)
+            .padding(.vertical, 24)
         }
+        .background(Color(uiColor: .systemGroupedBackground).ignoresSafeArea())
+        .navigationTitle("Appearance")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -268,12 +304,15 @@ private struct ThemeSwatch: View {
 // MARK: - Home nav button
 
 private struct HomeNavButton<Destination: View>: View {
+    // Observing the theme guarantees the button re-renders (and re-reads the
+    // theme-derived .appText color) whenever the theme changes.
+    @EnvironmentObject private var themeManager: ThemeManager
     let label: String
-    let destination: Destination
+    @ViewBuilder let destination: () -> Destination
 
     var body: some View {
         NavigationLink {
-            destination
+            destination()
         } label: {
             Text(label)
                 .font(.system(size: 22, weight: .medium))

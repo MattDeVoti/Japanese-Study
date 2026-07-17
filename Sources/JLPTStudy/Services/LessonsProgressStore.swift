@@ -59,6 +59,14 @@ final class LessonsProgressStore: ObservableObject {
         persist()
     }
 
+    /// Marks a point complete (idempotent) — used by the Journey to sync progress.
+    func markCompleted(chapterId: String, pointId: String) {
+        let k = pointKey(chapterId, pointId)
+        guard !completed.contains(k) else { return }
+        completed.insert(k)
+        persist()
+    }
+
     // MARK: - Persistence
 
     private func load() {
