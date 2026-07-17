@@ -106,8 +106,9 @@ private struct KanaPracticeRow: View {
         } label: {
             HStack(spacing: 14) {
                 Circle()
-                    .fill(color)
+                    .fill(color.badgeGradient)
                     .frame(width: 34, height: 34)
+                    .shadow(color: color.opacity(0.35), radius: 4, y: 2)
                     .overlay(
                         Text(badge)
                             .font(.system(size: 16, weight: .bold))
@@ -157,8 +158,9 @@ private struct GrammarQuizRow: View {
         } label: {
             HStack(spacing: 14) {
                 Circle()
-                    .fill(color)
+                    .fill(color.badgeGradient)
                     .frame(width: 34, height: 34)
+                    .shadow(color: color.opacity(0.35), radius: 4, y: 2)
                     .overlay(
                         Text("N\(level)")
                             .font(.system(size: 13, weight: .bold))
@@ -205,12 +207,7 @@ private struct SectionGroup<Content: View>: View {
             VStack(spacing: 0) {
                 content()
             }
-            .background(Color.appBackground)
-            .overlay(
-                RoundedRectangle(cornerRadius: 12)
-                    .stroke(Color.primary.opacity(0.08), lineWidth: 1)
-            )
-            .cornerRadius(12)
+            .appCard(cornerRadius: 16)
         }
     }
 }
@@ -228,8 +225,9 @@ private struct StudyMenuRow<Destination: View>: View {
             HStack(spacing: 14) {
                 if let badge {
                     Circle()
-                        .fill(badgeColor)
+                        .fill(badgeColor.badgeGradient)
                         .frame(width: 34, height: 34)
+                        .shadow(color: badgeColor.opacity(0.35), radius: 4, y: 2)
                         .overlay(
                             Text(badge)
                                 .font(.system(size: 16, weight: .bold))

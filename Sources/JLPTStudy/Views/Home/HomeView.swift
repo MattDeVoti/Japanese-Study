@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     @EnvironmentObject private var themeManager: ThemeManager
     @State private var showThemePicker = false
+    @State private var showGame = false
 
     var body: some View {
         ZStack {
@@ -13,11 +14,7 @@ struct HomeView: View {
 
                 // App title (Japanese + romaji)
                 VStack(spacing: 6) {
-                    Text("おめでとう")
-                        .font(.system(size: 64, weight: .bold))
-                        .foregroundColor(.red)
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.5)
+                    GlowingTitle { showGame = true }
                     Text("Omedetou")
                         .font(.system(size: 26, weight: .medium))
                         .foregroundColor(.red)
@@ -28,7 +25,7 @@ struct HomeView: View {
 
                 // Main navigation buttons
                 VStack(spacing: 4) {
-                    HomeNavButton(label: "Lessons",    destination: LessonsView())
+                    HomeNavButton(label: "Textbook",   destination: LessonsView())
                     HomeNavButton(label: "Study",      destination: GrammarMenuView())
                     HomeNavButton(label: "Dictionary", destination: DictionaryView())
                 }
@@ -45,10 +42,8 @@ struct HomeView: View {
                         .foregroundColor(.appText)
                         .padding(.vertical, 8)
                         .padding(.horizontal, 24)
-                        .background(
-                            Capsule()
-                                .stroke(Color.appText.opacity(0.35), lineWidth: 1)
-                        )
+                        .background(Capsule().fill(Color.appSurfaceHigh))
+                        .overlay(Capsule().strokeBorder(Color.appHairline, lineWidth: 1))
                 }
                 .padding(.bottom, 16)
 
@@ -62,7 +57,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Hiragana")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -77,7 +74,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Kanji")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -92,7 +91,9 @@ struct HomeView: View {
                                 .font(.system(size: 20, weight: .medium))
                                 .foregroundColor(.appText)
                                 .frame(width: 44, height: 44)
-                                .background(Circle().stroke(Color.appText.opacity(0.35), lineWidth: 1))
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Katakana")
                                 .font(.system(size: 10))
                                 .foregroundColor(.secondary)
@@ -129,6 +130,9 @@ struct HomeView: View {
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showThemePicker) {
             ThemePickerSheet()
+        }
+        .fullScreenCover(isPresented: $showGame) {
+            KanjiInvadersGame()
         }
     }
 }
@@ -276,6 +280,7 @@ private struct HomeNavButton<Destination: View>: View {
                 .foregroundColor(.appText)
                 .frame(maxWidth: .infinity)
                 .frame(height: 60)
+                .appCard(cornerRadius: 18, elevated: false)
         }
         .buttonStyle(.plain)
     }

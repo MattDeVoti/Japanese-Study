@@ -91,8 +91,9 @@ struct KanjiStudyView: View {
                         } label: {
                             ZStack {
                                 Circle()
-                                    .fill(Color.red)
+                                    .fill(Color.red.badgeGradient)
                                     .frame(width: 88, height: 88)
+                                    .shadow(color: Color.red.opacity(0.40), radius: 10, x: 0, y: 4)
                                 Text("Check")
                                     .font(.system(size: 16, weight: .semibold))
                                     .foregroundColor(.white)
@@ -118,7 +119,11 @@ struct KanjiStudyView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 14)
-                        .background(RoundedRectangle(cornerRadius: 12).fill(Color.red))
+                        .background(
+                            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                .fill(Color.red.badgeGradient)
+                                .shadow(color: Color.red.opacity(0.30), radius: 6, x: 0, y: 3)
+                        )
                 }
                 .buttonStyle(.plain)
 
@@ -131,7 +136,11 @@ struct KanjiStudyView: View {
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 14)
-                        .background(RoundedRectangle(cornerRadius: 12).fill(Color.green.opacity(0.85)))
+                        .background(
+                            RoundedRectangle(cornerRadius: 14, style: .continuous)
+                                .fill(Color.green.badgeGradient)
+                                .shadow(color: Color.green.opacity(0.30), radius: 6, x: 0, y: 3)
+                        )
                 }
                 .buttonStyle(.plain)
             }

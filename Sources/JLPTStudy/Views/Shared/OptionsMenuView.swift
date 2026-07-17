@@ -183,8 +183,13 @@ private struct KanjiSelectionRow: View {
                 }
                 .padding(.horizontal, 14)
                 .padding(.vertical, 12)
-                .background(Color.primary.opacity(0.05))
-                .cornerRadius(10)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurface)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Color.appHairline, lineWidth: 1)
+                )
             }
             .buttonStyle(.plain)
         }
@@ -220,8 +225,13 @@ private struct KanjiPickerView: View {
                         .autocorrectionDisabled()
                 }
                 .padding(10)
-                .background(Color.primary.opacity(0.07))
-                .cornerRadius(10)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurfaceHigh)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Color.appHairline, lineWidth: 1)
+                )
                 .padding(.horizontal, 16)
                 .padding(.vertical, 10)
 
@@ -274,8 +284,9 @@ private struct KanjiPickerView: View {
                     }
                     .padding(.horizontal, 12).padding(.vertical, 10)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color.primary.opacity(0.04))
-                    .cornerRadius(10)
+                    .background(
+                        RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurfaceHigh)
+                    )
                     .padding(.horizontal, 16)
                     .padding(.bottom, 8)
                 }

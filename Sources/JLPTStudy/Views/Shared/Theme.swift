@@ -7,7 +7,12 @@ extension Color {
     static var appBackground: Color { _currentAppTheme.background }
     static var appNavBar:     Color { _currentAppTheme.navBar }
     static var appNavBarText: Color { _currentAppTheme.navBarText }
-    static let appText = Color.primary
+    // Primary text derived from the THEME (not the device appearance), so it
+    // always contrasts with the current theme's background regardless of
+    // whether the device is in light or dark mode.
+    static var appText: Color {
+        _currentAppTheme.colorScheme == .dark ? Color(white: 0.96) : Color(white: 0.11)
+    }
 
     // Kana level accent colors
     static let hiraganaColor = Color(hex: "DB2777")   // pink
@@ -58,6 +63,108 @@ func levelAccentColor(_ jlptLevel: String) -> Color {
     }
 }
 
+// MARK: - Color math
+
+extension Color {
+    /// Linear interpolation toward another color by `amount` (0…1).
+    func blended(toward other: Color, amount: Double) -> Color {
+        let a = UIColor(self), b = UIColor(other)
+        var r1: CGFloat = 0, g1: CGFloat = 0, b1: CGFloat = 0, a1: CGFloat = 0
+        var r2: CGFloat = 0, g2: CGFloat = 0, b2: CGFloat = 0, a2: CGFloat = 0
+        a.getRed(&r1, green: &g1, blue: &b1, alpha: &a1)
+        b.getRed(&r2, green: &g2, blue: &b2, alpha: &a2)
+        let t = CGFloat(max(0, min(1, amount)))
+        return Color(.sRGB,
+                     red: Double(r1 + (r2 - r1) * t),
+                     green: Double(g1 + (g2 - g1) * t),
+                     blue: Double(b1 + (b2 - b1) * t),
+                     opacity: Double(a1 + (a2 - a1) * t))
+    }
+    func lightened(_ amount: Double) -> Color { blended(toward: .white, amount: amount) }
+    func darkened(_ amount: Double) -> Color { blended(toward: .black, amount: amount) }
+}
+
+// MARK: - Derived surface / elevation tokens
+//
+// Cards used to share the background color with only a faint border, which read
+// as flat. These tokens derive a layered surface + hairline + shadow from the
+// current theme, so every theme (light or dark) gains depth automatically.
+
+extension Color {
+    private static var appIsDark: Bool { _currentAppTheme.colorScheme == .dark }
+
+    /// Elevated card surface, one step above the app background.
+    static var appSurface: Color {
+        let bg = _currentAppTheme.background
+        return appIsDark ? bg.lightened(0.06) : bg.blended(toward: .white, amount: 0.80)
+    }
+
+    /// Higher elevation — inputs, nested cells, selected states.
+    static var appSurfaceHigh: Color {
+        let bg = _currentAppTheme.background
+        return appIsDark ? bg.lightened(0.11) : bg.blended(toward: .white, amount: 0.95)
+    }
+
+    /// Hairline border for cards and controls.
+    static var appHairline: Color {
+        appIsDark ? Color.white.opacity(0.09) : Color.black.opacity(0.07)
+    }
+
+    /// Divider / separator tint.
+    static var appSeparator: Color {
+        appIsDark ? Color.white.opacity(0.07) : Color.black.opacity(0.055)
+    }
+
+    /// Soft shadow color for elevated cards.
+    static var appCardShadow: Color {
+        appIsDark ? Color.black.opacity(0.30) : Color.black.opacity(0.09)
+    }
+
+    /// Subtle top-left sheen gradient for a colored badge / circle.
+    var badgeGradient: LinearGradient {
+        LinearGradient(colors: [lightened(0.14), darkened(0.06)],
+                       startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+}
+
+extension LinearGradient {
+    /// Gentle vertical sheen for the nav bar, derived from the theme nav color.
+    static var appNavBar: LinearGradient {
+        let n = _currentAppTheme.navBar
+        return LinearGradient(colors: [n.lightened(0.05), n.darkened(0.10)],
+                              startPoint: .top, endPoint: .bottom)
+    }
+}
+
+// MARK: - Card surface modifier
+
+struct AppCardStyle: ViewModifier {
+    var cornerRadius: CGFloat = 16
+    var elevated: Bool = true
+
+    func body(content: Content) -> some View {
+        content
+            .background(
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .fill(Color.appSurface)
+            )
+            .clipShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+            .overlay(
+                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                    .strokeBorder(Color.appHairline, lineWidth: 1)
+            )
+            .shadow(color: elevated ? Color.appCardShadow : .clear,
+                    radius: elevated ? 10 : 0, x: 0, y: elevated ? 5 : 0)
+    }
+}
+
+extension View {
+    /// Elevated, hairline-bordered surface with soft shadow and continuous corners.
+    func appCard(cornerRadius: CGFloat = 16, elevated: Bool = true) -> some View {
+        modifier(AppCardStyle(cornerRadius: cornerRadius, elevated: elevated))
+    }
+}
+
 // MARK: - Nav Bar Modifier
 
 struct StandardNavBar: ViewModifier {
@@ -89,7 +196,7 @@ struct StandardNavBar: ViewModifier {
                         .foregroundColor(.appNavBarText)
                 }
             }
-            .toolbarBackground(Color.appNavBar, for: .navigationBar)
+            .toolbarBackground(LinearGradient.appNavBar, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)
     }
