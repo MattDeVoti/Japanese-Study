@@ -284,6 +284,11 @@ class CardStore: ObservableObject {
         pinNumberKanji(kanjiCards)
     }
 
+    // Look up a kanji card by its character (used by lesson chapters).
+    func kanjiCard(for char: String) -> KanjiCard? {
+        kanjiCards.first(where: { $0.kanji == char })
+    }
+
     // Pin number kanji to the front in ascending order
     private func pinNumberKanji(_ cards: [KanjiCard]) -> [KanjiCard] {
         let pinnedOrder = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "万"]

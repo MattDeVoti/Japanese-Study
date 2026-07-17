@@ -24,6 +24,7 @@ struct LessonChapter: Codable, Identifiable {
     let title: String
     let points: [GrammarPoint]
     let vocab: [LessonVocabWord]?
+    let kanji: [String]?                       // kanji assigned to this chapter (same N-level)
     let chapterPractice: [PracticeQuestion]?  // chapter-level practice (used by kana lessons)
 }
 

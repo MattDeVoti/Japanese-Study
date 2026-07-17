@@ -207,12 +207,22 @@ final class DictionaryViewModel: ObservableObject {
 
 struct DictionaryView: View {
     @StateObject private var vm = DictionaryViewModel()
+    @State private var mode: DictionaryMode = .dictionary
+    enum DictionaryMode { case dictionary, vocab }
 
     var body: some View {
         ZStack {
             Color.appBackground.ignoresSafeArea()
 
             VStack(spacing: 0) {
+                Picker("", selection: $mode) {
+                    Text("Dictionary").tag(DictionaryMode.dictionary)
+                    Text("My Vocab").tag(DictionaryMode.vocab)
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal, 16).padding(.top, 8).padding(.bottom, 6)
+
+                if mode == .dictionary {
                 SearchBar(text: $vm.searchText, placeholder: "Search Japanese or English…")
                     .onChange(of: vm.searchText) { vm.onSearchChanged($0) }
                     .padding(.top, 4)
@@ -265,6 +275,9 @@ struct DictionaryView: View {
                         }
                         .padding(.trailing, 4)
                     }
+                }
+                } else {
+                    VocabProgressView()
                 }
             }
         }
