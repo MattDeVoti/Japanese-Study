@@ -11,10 +11,19 @@ struct VocabFlashCard: Identifiable {
 }
 
 final class VocabFlashcardsFilter: ObservableObject {
+    /// Shared source of truth so the Study section and a chapter's Study Vocab
+    /// read the same favorites, weights, and checkmarks — a change on one side is
+    /// live on the other.
+    static let shared = VocabFlashcardsFilter()
+
     @Published var selectedChapterIds: Set<String> = [] { didSet { persistSelection() } }
     @Published var selectedWordIds: Set<String> = []
     @Published var showFavoritesOnly: Bool = false
     @Published private(set) var favoriteWordIds: Set<String> = []
+
+    /// Word ids the user has "checked off" — excluded from the flashcard lineup
+    /// (Study section and any chapter's Study Vocab).
+    @Published private(set) var excludedWordIds: Set<String> = []
 
     /// Chapters auto-selected because their lesson was completed. Tracked so a
     /// chapter the user manually deselects is not re-added on the next sync.
@@ -29,12 +38,14 @@ final class VocabFlashcardsFilter: ObservableObject {
     private let favoritesKey = "VocabFavoriteWordIds"
     private let weightsKey = "VocabWordWeights"
     private let selectionKey = "VocabSelectionData"
+    private let excludedKey = "VocabExcludedWordIds"
     private var didLoad = false
 
     init() {
         loadFavorites()
         loadWeights()
         loadSelection()
+        loadExcluded()
         didLoad = true
     }
 
@@ -51,6 +62,24 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     func isFavorite(_ wordId: String) -> Bool { favoriteWordIds.contains(wordId) }
+
+    // MARK: - Flashcard exclusion (green checkmark)
+
+    func isExcluded(_ wordId: String) -> Bool { excludedWordIds.contains(wordId) }
+
+    func toggleExcluded(_ wordId: String) {
+        if excludedWordIds.contains(wordId) { excludedWordIds.remove(wordId) }
+        else { excludedWordIds.insert(wordId) }
+        saveExcluded()
+    }
+
+    /// Clears checkmarks. Pass a set of ids (e.g. one chapter's words) to clear
+    /// only those, or nil to clear every vocab checkmark.
+    func clearExclusions(for wordIds: [String]? = nil) {
+        if let wordIds = wordIds { excludedWordIds.subtract(wordIds) }
+        else { excludedWordIds.removeAll() }
+        saveExcluded()
+    }
 
     // MARK: - Lesson-completion sync
 
@@ -74,12 +103,18 @@ final class VocabFlashcardsFilter: ObservableObject {
     /// Picks a card, biasing toward "harder" (Don't Know) or "easier" (Got It)
     /// words when a weight mode is active. Same formula as CardStore.selectWeighted.
     func selectWeighted(from cards: [VocabFlashCard]) -> VocabFlashCard? {
+        selectWeighted(from: cards, mode: weightMode, strength: weightStrength)
+    }
+
+    /// Same as above but with an explicit mode/strength — lets a chapter's Study
+    /// Vocab session weight independently of the Study section.
+    func selectWeighted(from cards: [VocabFlashCard], mode: WeightMode, strength: Double) -> VocabFlashCard? {
         guard !cards.isEmpty else { return nil }
-        guard weightMode != .none, weightStrength > 0 else { return cards.randomElement() }
+        guard mode != .none, strength > 0 else { return cards.randomElement() }
         let weights: [Double] = cards.map { card in
-            let count = weightMode == .harder ? (needsWorkCounts[card.word.id] ?? 0)
-                                              : (confidentCounts[card.word.id] ?? 0)
-            return 1.0 + Double(count) * 5.0 * weightStrength
+            let count = mode == .harder ? (needsWorkCounts[card.word.id] ?? 0)
+                                        : (confidentCounts[card.word.id] ?? 0)
+            return 1.0 + Double(count) * 5.0 * strength
         }
         var r = Double.random(in: 0..<weights.reduce(0, +))
         for (i, w) in weights.enumerated() {
@@ -103,6 +138,7 @@ final class VocabFlashcardsFilter: ObservableObject {
             let favs = result.filter { favoriteWordIds.contains($0.word.id) }
             if !favs.isEmpty { result = favs }
         }
+        result = result.filter { !excludedWordIds.contains($0.word.id) }
         return result
     }
 
@@ -126,6 +162,19 @@ final class VocabFlashcardsFilter: ObservableObject {
     private func saveFavorites() {
         if let data = try? JSONEncoder().encode(favoriteWordIds) {
             UserDefaults.standard.set(data, forKey: favoritesKey)
+        }
+    }
+
+    private func loadExcluded() {
+        guard let data = UserDefaults.standard.data(forKey: excludedKey),
+              let ids = try? JSONDecoder().decode(Set<String>.self, from: data)
+        else { return }
+        excludedWordIds = ids
+    }
+
+    private func saveExcluded() {
+        if let data = try? JSONEncoder().encode(excludedWordIds) {
+            UserDefaults.standard.set(data, forKey: excludedKey)
         }
     }
 

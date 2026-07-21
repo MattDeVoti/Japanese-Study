@@ -9,6 +9,9 @@ struct OptionsMenuView: View {
     // Provided only for the kanji picker sub-screen
     var store: CardStore? = nil
 
+    /// Provided only for kanji: clears every kanji flashcard checkmark.
+    var onClearExclusions: (() -> Void)? = nil
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -116,6 +119,21 @@ struct OptionsMenuView: View {
                             .background(RoundedRectangle(cornerRadius: 10).fill(Color.red.opacity(0.85)))
                     }
                     .buttonStyle(.plain)
+
+                    // Clear checkmarks (kanji only)
+                    if let onClearExclusions = onClearExclusions {
+                        Button {
+                            onClearExclusions()
+                        } label: {
+                            Text("Clear All Kanji Checkmarks")
+                                .font(.system(size: 16, weight: .medium))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 14)
+                                .background(RoundedRectangle(cornerRadius: 10).fill(Color.green.opacity(0.85)))
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.vertical, 24)

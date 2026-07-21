@@ -264,7 +264,8 @@ struct OptionsButton: ViewModifier {
             .sheet(isPresented: $showOptions) {
                 OptionsMenuView(filter: filter, onClearWeights: {
                     store.clearWeights(for: section)
-                }, store: store)
+                }, store: store,
+                onClearExclusions: section == .kanji ? { store.clearKanjiExclusions() } : nil)
             }
     }
 }
