@@ -2078,46 +2078,6 @@
   ],
   "vocab": [
     {
-      "id": "expl_v1",
-      "partOfSpeech": "i-adjective",
-      "kanji": "赤い",
-      "kana": "あかい",
-      "romaji": "akai",
-      "definition": "red"
-    },
-    {
-      "id": "expl_v2",
-      "partOfSpeech": "i-adjective",
-      "kanji": "青い",
-      "kana": "あおい",
-      "romaji": "aoi",
-      "definition": "blue"
-    },
-    {
-      "id": "expl_v3",
-      "partOfSpeech": "i-adjective",
-      "kanji": "白い",
-      "kana": "しろい",
-      "romaji": "shiroi",
-      "definition": "white"
-    },
-    {
-      "id": "expl_v4",
-      "partOfSpeech": "i-adjective",
-      "kanji": "黒い",
-      "kana": "くろい",
-      "romaji": "kuroi",
-      "definition": "black"
-    },
-    {
-      "id": "expl_v5",
-      "partOfSpeech": "i-adjective",
-      "kanji": "黄色い",
-      "kana": "きいろい",
-      "romaji": "kiiroi",
-      "definition": "yellow"
-    },
-    {
       "id": "expl_v6",
       "partOfSpeech": "noun",
       "kanji": "曇り",
@@ -2372,7 +2332,31 @@
       "kana": "かたち",
       "romaji": "katachi",
       "definition": "shape; form"
+    },
+    {
+      "id": "expl_v38",
+      "partOfSpeech": "noun",
+      "kanji": "地図",
+      "kana": "ちず",
+      "romaji": "chizu",
+      "definition": "map"
+    },
+    {
+      "id": "expl_v39",
+      "partOfSpeech": "noun",
+      "kanji": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "definition": "voice"
+    },
+    {
+      "id": "expl_v40",
+      "partOfSpeech": "noun",
+      "kanji": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "definition": "world"
     }
   ],
-  "kanji": []
+  "kanji": null
 }
