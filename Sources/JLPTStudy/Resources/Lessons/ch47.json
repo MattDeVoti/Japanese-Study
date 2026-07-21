@@ -1,6 +1,6 @@
 {
   "id": "ch47",
-  "chapterNumber": 47,
+  "chapterNumber": 49,
   "title": "Commitment and Compulsion",
   "points": [
     {
@@ -8,7 +8,7 @@
       "name": "〜からには (kara ni wa) — now that / since (commitment follows)",
       "shortDescription": "Given that a situation is established, the speaker commits to a natural or necessary consequence — no backing out.",
       "formation": "Plain form + からには / からは",
-      "explanation": "からには draws a line in the sand: once this fact is established, a certain commitment or consequence inevitably follows from it. The literal sense is 'now that / given that,' but the real weight is moral: the situation has been defined, and with it comes an obligation or resolution that cannot be avoided. やると決めたからには、最後まであきらめない — 'Now that I've decided to do it, I will not give up to the end.' The decision is the line; からには is the crossing of it.\n\nからには is stronger than のだから (since/because — which is more explanatory) because it implies the speaker genuinely feels bound — there's a Japanese-inflected sense of personal honor at stake: once you've said yes, backing down reflects poorly on your character.\n\nThe main clause characteristically expresses strong personal resolve, professional obligation, or a logical necessity: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or a volitional form. からは is a slightly shorter variant with the same meaning.",
+      "explanation": "からには draws a line in the sand: once this fact is established, a certain commitment or consequence inevitably follows from it. The literal sense is 'now that / given that,' but the real weight is moral: the situation has been defined, and with it comes an obligation or resolution that cannot be avoided. やると決[き]めたからには、最後[さいご]まであきらめない — 'Now that I've decided to do it, I will not give up to the end.' The decision is the line; からには is the crossing of it.\n\nからには is stronger than のだから (since/because — which is more explanatory) because it implies the speaker genuinely feels bound — there's a Japanese-inflected sense of personal honor at stake: once you've said yes, backing down reflects poorly on your character.\n\nThe main clause characteristically expresses strong personal resolve, professional obligation, or a logical necessity: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or a volitional form. からは is a slightly shorter variant with the same meaning.",
       "rules": [
         "Plain form + からには = now that / since (established fact → obligation or commitment)",
         "The main clause expresses a natural obligation, resolution, or logical consequence",
@@ -75,13 +75,13 @@
           "prompt": "Which means 'Now that you are part of the team, please give your best effort'?",
           "japanese": null,
           "choices": [
-            "チームに入[いっ]ったからには、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[いっ]ったから、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[いっ]ったので、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[いっ]ったなら、全力[ぜんりょく]で頑張[がんば]ってください。"
+            "チームに入[はい]ったからには、全力[ぜんりょく]で頑張[がんば]ってください。",
+            "チームに入[はい]ったから、全力[ぜんりょく]で頑張[がんば]ってください。",
+            "チームに入[はい]ったので、全力[ぜんりょく]で頑張[がんば]ってください。",
+            "チームに入[はい]ったなら、全力[ぜんりょく]で頑張[がんば]ってください。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb past + からには: チームに入[いっ]った + からには = now that (you've) joined the team. 全力[ぜんりょく]で頑張[がんば]ってください = please give your best effort. からには establishes team membership as the basis for the commitment expectation."
+          "explanation": "Verb past + からには: チームに入[はい]った + からには = now that (you've) joined the team. 全力[ぜんりょく]で頑張[がんば]ってください = please give your best effort. からには establishes team membership as the basis for the commitment expectation."
         },
         {
           "id": "kara-ni-wa_q4",
@@ -201,13 +201,13 @@
           "prompt": "Which correctly says 'Now that you've entered this company, you should respect the culture here'?",
           "japanese": null,
           "choices": [
-            "この会社[かいしゃ]に入[いっ]ったからには、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[いっ]ったから、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[いっ]ったので、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[いっ]ったなら、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。"
+            "この会社[かいしゃ]に入[はい]ったからには、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+            "この会社[かいしゃ]に入[はい]ったから、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+            "この会社[かいしゃ]に入[はい]ったので、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+            "この会社[かいしゃ]に入[はい]ったなら、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb past + からには: 入[いっ]った + からには = now that (you've) joined. 文化[ぶんか]を尊重[そんちょう]すべきだ = should respect the culture. からには: joining the company creates an obligation to respect its values."
+          "explanation": "Verb past + からには: 入[はい]った + からには = now that (you've) joined. 文化[ぶんか]を尊重[そんちょう]すべきだ = should respect the culture. からには: joining the company creates an obligation to respect its values."
         },
         {
           "id": "kara-ni-wa_q13",
@@ -328,7 +328,7 @@
       "name": "〜ずにはおかない (zu ni wa okanai) — will definitely / cannot help but cause",
       "shortDescription": "Expresses that something will inevitably cause a reaction, or that the speaker is absolutely determined to act.",
       "formation": "Verb (ない-form, replace ない with ず) + にはおかない",
-      "explanation": "ずにはおかない is grammar with steel in it. It combines the classical negative ず (replacing ない on the verb stem) with には (conditional) and おかない (won't leave alone / won't let be), yielding: 'I will not leave without doing this' or 'this will not fail to cause that.' There are two distinct uses.\n\nThe first describes an effect that will inevitably be produced in anyone who encounters something: 涙せずにはおかない映画 — 'a film that will not fail to make anyone cry' — the film is so moving it cannot leave its audience unmoved; it refuses to let them go dry-eyed. The second expresses fierce personal determination: 必ず真相を明らかにせずにはおかない — 'I will not rest until I bring the truth to light.'\n\nThis differs from ずにはいられない (which expresses an irresistible inner impulse you cannot suppress) in a crucial way: おかない is about will, force, and external causation; いられない is about an inner compulsion. A gripping novel doesn't merely make you want to cry — it refuses to let you go unmoved. The grammar reflects exactly that distinction. Note the irregular: する → せずにはおかない.",
+      "explanation": "ずにはおかない is grammar with steel in it. It combines the classical negative ず (replacing ない on the verb stem) with には (conditional) and おかない (won't leave alone / won't let be), yielding: 'I will not leave without doing this' or 'this will not fail to cause that.' There are two distinct uses.\n\nThe first describes an effect that will inevitably be produced in anyone who encounters something: 涙[なみだ]せずにはおかない映画[えいが] — 'a film that will not fail to make anyone cry' — the film is so moving it cannot leave its audience unmoved; it refuses to let them go dry-eyed. The second expresses fierce personal determination: 必[かなら]ず真相[しんそう]を明[あき]らかにせずにはおかない — 'I will not rest until I bring the truth to light.'\n\nThis differs from ずにはいられない (which expresses an irresistible inner impulse you cannot suppress) in a crucial way: おかない is about will, force, and external causation; いられない is about an inner compulsion. A gripping novel doesn't merely make you want to cry — it refuses to let you go unmoved. The grammar reflects exactly that distinction. Note the irregular: する → せずにはおかない.",
       "rules": [
         "Verb ない-form (replace ない with ず) + にはおかない = will definitely / inevitably causes [reaction]",
         "する → せずにはおかない (irregular classical negative form of する)",
@@ -647,14 +647,14 @@
       "id": "wo-yogi-naku-sareru",
       "name": "〜を余儀[よぎ]なくされる (wo yogi naku sareru) — be forced to / be compelled to",
       "shortDescription": "Describes being compelled by external circumstances with no alternative — passive, formal, and measured.",
-      "formation": "Noun (action nominalized) + を余儀なくされる  |  Often: Verb (こと) + を余儀なくされる",
-      "explanation": "を余儀なくされる is the passive grammar of having no choice. 余儀ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止を余儀なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態の名詞 — nominalized actions): 中止, 閉鎖, 撤退, 辞任, 引退 (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得ない (no choice but to — more personal, emotional): を余儀なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
+      "formation": "Noun (action nominalized) + を余儀[よぎ]なくされる  |  Often: Verb (こと) + を余儀[よぎ]なくされる",
+      "explanation": "を余儀[よぎ]なくされる is the passive grammar of having no choice. 余儀[よぎ]ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止[ちゅうし]を余儀[よぎ]なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態[じたい]の名詞 — nominalized actions): 中[なか]止, 閉鎖[へいさ], 撤退[てったい], 辞任[じにん], 引退[いんたい] (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得[え]ない (no choice but to — more personal, emotional): を余儀[よぎ]なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
       "rules": [
-        "Action noun + を余儀なくされる = be forced to / be compelled by unavoidable circumstances",
+        "Action noun + を余儀[よぎ]なくされる = be forced to / be compelled by unavoidable circumstances",
         "Passive voice — external circumstances compel the subject; not the subject's own will or choice",
         "Expresses helplessness or unavoidable acceptance — no alternative was available",
         "Highly formal — common in news reports, official announcements, and business writing",
-        "Typical action nouns: 撤退, 中止, 変更, 辞任, 閉鎖, 引退 (withdrawal, cancellation, change, resignation, closure, retirement)"
+        "Typical action nouns: 撤退[てったい], 中[なか]止, 変更[へんこう], 辞任[じにん], 閉鎖[へいさ], 引退[いんたい] (withdrawal, cancellation, change, resignation, closure, retirement)"
       ],
       "examples": [
         {

@@ -30,9 +30,15 @@ final class LessonsProgressStore: ObservableObject {
         completed.contains(pointKey(chapterId, pointId))
     }
 
-    func completedCount(chapterId: String) -> Int {
+    /// How many points in a chapter are completed. Pass `among:` the chapter's
+    /// current point ids so that stale completions — for points that were moved or
+    /// removed — don't inflate the count (which otherwise causes e.g. "3/2").
+    func completedCount(chapterId: String, among validPointIds: [String]? = nil) -> Int {
         let prefix = "\(chapterId)/"
-        return completed.filter { $0.hasPrefix(prefix) }.count
+        let donePointIds = completed.filter { $0.hasPrefix(prefix) }.map { String($0.dropFirst(prefix.count)) }
+        guard let valid = validPointIds else { return donePointIds.count }
+        let validSet = Set(valid)
+        return donePointIds.filter { validSet.contains($0) }.count
     }
 
     func chapterIdsWithFavorites() -> [String] {

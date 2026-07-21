@@ -8,7 +8,7 @@ struct JourneySection {
     let levelLabel: String            // "Hiragana", "Katakana", "N5" …
     var isKana: Bool { summary.chapterType == "kana" }
     var id: String { summary.id }
-    var header: String { "\(levelLabel) · \(summary.title)" }
+    var header: String { "\(levelName(jlpt: levelLabel)) · \(summary.title)" }
 }
 
 /// A friendly guidance / onboarding screen.
@@ -118,6 +118,9 @@ enum JourneyStep {
         var out: [String] = []
         let limit = 230
         for para in paras {
+            // Keep bulleted lists whole — never sentence-split a list block.
+            if ["\n- ", "\n• ", "\n* "].contains(where: para.contains)
+                || ["- ", "• ", "* "].contains(where: para.hasPrefix) { out.append(para); continue }
             if para.count <= limit { out.append(para); continue }
             // break into sentences, then regroup up to the limit
             var sentences: [String] = []
@@ -430,8 +433,9 @@ struct JourneyView: View {
 
     private func checkSkip() {
         guard let sec = section else { return }
-        if !sec.isKana && sec.summary.pointCount > 0 &&
-            lessons.completedCount(chapterId: sec.summary.id) >= sec.summary.pointCount {
+        let pointIds = LessonsService.shared.pointIds(for: sec.summary.id)
+        if !sec.isKana && !pointIds.isEmpty &&
+            lessons.completedCount(chapterId: sec.summary.id, among: pointIds) >= pointIds.count {
             showSkip = true
         }
     }
@@ -441,7 +445,8 @@ struct JourneyView: View {
         var j = sectionIndex + 1
         while j < sections.count {
             let s = sections[j]
-            if s.isKana || lessons.completedCount(chapterId: s.summary.id) < s.summary.pointCount { break }
+            let ids = LessonsService.shared.pointIds(for: s.summary.id)
+            if s.isKana || lessons.completedCount(chapterId: s.summary.id, among: ids) < ids.count { break }
             j += 1
         }
         if j >= sections.count { finished = true; persist(); return }

@@ -1,6 +1,6 @@
 {
   "id": "ch05",
-  "chapterNumber": 5,
+  "chapterNumber": 6,
   "title": "Adjectives",
   "points": [
     {
@@ -8,11 +8,11 @@
       "name": "い-adjectives",
       "shortDescription": "Adjectives ending in い that conjugate directly — changing their own ending for tense and negation.",
       "formation": "い-adj (present aff)  |  〜くない (present neg)  |  〜かった (past aff)  |  〜くなかった (past neg)",
-      "explanation": "Japanese adjectives come in two types, and learning to tell them apart is essential. い-adjectives are the self-sufficient type — they conjugate entirely on their own, changing their ending to express tense and negation without any help from です. They all end in the sound い: 大きい (big), 小さい (small), 高い (expensive/tall), 安い (cheap), 新しい (new), 古い (old), 難しい (difficult), 面白い (interesting), おいしい (delicious), 暑い (hot).\n\nTo make the negative: drop い and add くない — 大きい → 大きくない (not big). For past: drop い and add かった — 大きい → 大きかった (was big). For past negative: drop い and add くなかった.\n\nThere is one famous exception every learner must memorize: いい (good) is irregular. It transforms to よ when conjugating — negative: よくない, past: よかった, past negative: よくなかった. いい refuses to follow the standard rules, so commit its forms to memory early.",
+      "explanation": "Japanese adjectives come in two types, and telling them apart is essential. い-adjectives are the self-sufficient type — they conjugate entirely on their own, changing their ending to express tense and negation without any help from です. They all end in the sound い: 大[おお]きい (big), 小[ちい]さい (small), 高[たか]い (expensive/tall), 安[やす]い (cheap), 新[あたら]しい (new), 難[むずか]しい (difficult), おいしい (delicious).\n\nConjugation — drop the final い and add the ending:\n- Negative: 〜くない — 大[おお]きい → 大[おお]きくない (not big)\n- Past: 〜かった — 大[おお]きい → 大[おお]きかった (was big)\n- Past negative: 〜くなかった — 大[おお]きい → 大[おお]きくなかった (was not big)\n\nThere is one famous exception every learner must memorize: いい (good) is irregular — it switches to よ the moment it conjugates:\n- Negative: よくない\n- Past: よかった\n- Past negative: よくなかった\n\nいい refuses to follow the standard rules, so commit its forms to memory early.",
       "rules": [
         "い-adjectives end in the sound/hiragana い",
-        "Negative: drop い → add くない (e.g., 高い → 高くない)",
-        "Past: drop い → add かった (e.g., 高い → 高かった)",
+        "Negative: drop い → add くない (e.g., 高[たか]い → 高[たか]くない)",
+        "Past: drop い → add かった (e.g., 高[たか]い → 高[たか]かった)",
         "Past negative: drop い → add くなかった",
         "Exception: いい (good) → negative: よくない; past: よかった; past neg: よくなかった"
       ],
@@ -106,7 +106,7 @@
             "このかばんはとても高[たか]いです。",
             "このかばんはとても高[たか]くないです。",
             "このかばんはとても高[たか]いじゃないです。",
-            "このかばんはとても高[た]かったです。"
+            "このかばんはとても高[たか]かったです。"
           ],
           "correctIndex": 0,
           "explanation": "Present affirmative of an い-adjective is simply the dictionary form + です. とても高[たか]いです = is very expensive. The other options are negative or past forms."
@@ -328,12 +328,12 @@
       "name": "な-adjectives",
       "shortDescription": "Adjectives that stay unchanged and borrow です for all their conjugation — with な required before any noun.",
       "formation": "な-adj + な + Noun  |  な-adj + です / じゃありません / でした",
-      "explanation": "The second type of Japanese adjective is the な-adjective. Unlike い-adjectives, which do their own conjugating, な-adjectives outsource the job entirely to です — they keep their base form while です handles all the tense and negation work. Common な-adjectives include: きれい (pretty/clean), 好き (like), 嫌い (dislike), 上手 (skilled), 下手 (unskilled), 有名 (famous), 静か (quiet), 賑やか (lively), 便利 (convenient), and 大切 (important).\n\nTo negate: use じゃありません. For past: use でした. For past negative: use じゃありませんでした — exactly the same conjugation pattern as です itself.\n\nOne critical rule: when a な-adjective directly modifies a noun, you must insert な between the adjective and the noun. きれいな花 (a pretty flower), 有名な人 (a famous person). Forgetting that な is one of the most common early mistakes — always add it. And watch out: きれい looks like it ends in い, but it is definitely a な-adjective, not an い-adjective.",
+      "explanation": "The second type of Japanese adjective is the な-adjective. Unlike い-adjectives, which do their own conjugating, な-adjectives outsource the job entirely to です — they keep their base form while です handles all the tense and negation work. Common な-adjectives include: きれい (pretty/clean), 好[す]き (like), 嫌[きら]い (dislike), 上手[じょうず] (skilled), 下手[へた] (unskilled), 有名[ゆうめい] (famous), 静[しず]か (quiet), 賑[にぎ]やか (lively), 便利[べんり] (convenient), and 大切[たいせつ] (important).\n\nTo negate: use じゃありません. For past: use でした. For past negative: use じゃありませんでした — exactly the same conjugation pattern as です itself.\n\nOne critical rule: when a な-adjective directly modifies a noun, you must insert な between the adjective and the noun. きれいな花[はな] (a pretty flower), 有名[ゆうめい]な人 (a famous person). Forgetting that な is one of the most common early mistakes — always add it. And watch out: きれい looks like it ends in い, but it is definitely a な-adjective, not an い-adjective.",
       "rules": [
-        "な-adjectives do NOT end in い (or they are exceptions like きれい, 嫌い)",
-        "Before a noun: な-adj + な + Noun (e.g., きれいな花)",
+        "な-adjectives do NOT end in い (or they are exceptions like きれい, 嫌[きら]い)",
+        "Before a noun: な-adj + な + Noun (e.g., きれいな花[はな])",
         "In a predicate: な-adj + です/じゃありません/でした (conjugate like です)",
-        "Common ones: きれい, 好き, 有名, 静か, 便利, 大切, 上手, 下手"
+        "Common ones: きれい, 好[す]き, 有名[ゆうめい], 静[しず]か, 便利[べんり], 大切[たいせつ], 上手[じょうず], 下手[へた]"
       ],
       "examples": [
         {
@@ -647,10 +647,10 @@
       "name": "Adjective + Noun (modifying nouns)",
       "shortDescription": "Placing adjectives directly before nouns to describe them.",
       "formation": "い-adj + Noun  |  な-adj + な + Noun",
-      "explanation": "Putting adjectives in front of nouns is wonderfully direct in Japanese — they go right before the noun, just as in English. The difference is how the two adjective types attach. い-adjectives slide directly in front of the noun with no extra word needed: 大きい犬 (a big dog), 古い本 (an old book), おいしいケーキ (a delicious cake).\n\nな-adjectives need な inserted as a bridge between the adjective and the noun: きれいな人 (a pretty person), 有名な先生 (a famous teacher), 静かな部屋 (a quiet room). Forgetting the な is the single most common adjective mistake at this stage — if you see a な-adjective sitting next to a noun with nothing between them, something has gone wrong.\n\nIn predicate position — at the end of a sentence — neither type needs an extra connector: 大きいです and きれいです both work fine as-is.",
+      "explanation": "Putting adjectives in front of nouns is wonderfully direct in Japanese — they go right before the noun, just as in English. The difference is how the two adjective types attach. い-adjectives slide directly in front of the noun with no extra word needed: 大[おお]きい犬[いぬ] (a big dog), 古[ふる]い本[ほん] (an old book), おいしいケーキ (a delicious cake).\n\nな-adjectives need な inserted as a bridge between the adjective and the noun: きれいな人 (a pretty person), 有名[ゆうめい]な先生[せんせい] (a famous teacher), 静[しず]かな部屋[へや] (a quiet room). Forgetting the な is the single most common adjective mistake at this stage — if you see a な-adjective sitting next to a noun with nothing between them, something has gone wrong.\n\nIn predicate position — at the end of a sentence — neither type needs an extra connector: 大[おお]きいです and きれいです both work fine as-is.",
       "rules": [
-        "い-adjective directly before noun: 大きい犬 (big dog) — no extra word needed",
-        "な-adjective before noun: きれいな花 (pretty flower) — must include な",
+        "い-adjective directly before noun: 大[おお]きい犬[いぬ] (big dog) — no extra word needed",
+        "な-adjective before noun: きれいな花[はな] (pretty flower) — must include な",
         "Predicate position (end of sentence): no extra word for either type",
         "Multiple adjectives: each adjective modifies the noun in sequence"
       ],
@@ -786,10 +786,10 @@
             "暑[あつ]い",
             "有名[ゆうめい]",
             "安[やす]い",
-            "小[ちー]さい"
+            "小[ちい]さい"
           ],
           "correctIndex": 1,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[にん] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちー]さい — are all い-adjectives and attach directly before a noun with no connector."
+          "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[にん] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちい]さい — are all い-adjectives and attach directly before a noun with no connector."
         },
         {
           "id": "adj-noun_q9",
@@ -965,14 +965,14 @@
       "id": "suki-kirai",
       "name": "好[す]き / 嫌[きら]い (suki / kirai) — like / dislike",
       "shortDescription": "Expressing likes and dislikes using these special な-adjectives.",
-      "formation": "Topic は Object が 好き / 嫌い です",
-      "explanation": "好き (like) and 嫌い (dislike) might feel like verbs in English — 'I like dogs,' 'I dislike coffee' — but in Japanese they are adjectives. This changes the sentence structure completely. Instead of 'I like dogs,' Japanese says 'As for me, dogs are likeable' — わたしは犬が好きです. The thing you like is marked with が, not を. This は〜が pattern is one of the most important to internalize early.\n\nThe same structure applies to 上手 (good at) and 下手 (bad at): 田中さんはピアノが上手です (Tanaka-san is good at piano — literally 'as for Tanaka-san, piano is skilled-at').\n\nYou can intensify with とても (very): 犬がとても好きです (I really like dogs). 大好き adds 大 (big/great) to mean 'love,' and 大嫌い means 'hate.' Ask what someone likes with 何が好きですか (What do you like?).",
+      "formation": "Topic は Object が 好[す]き / 嫌[きら]い です",
+      "explanation": "好[す]き (like) and 嫌[きら]い (dislike) might feel like verbs in English — 'I like dogs,' 'I dislike coffee' — but in Japanese they are adjectives. This changes the sentence structure completely. Instead of 'I like dogs,' Japanese says 'As for me, dogs are likeable' — わたしは犬[いぬ]が好[す]きです. The thing you like is marked with が, not を. This は〜が pattern is one of the most important to internalize early.\n\nYou can intensify with とても (very): 犬[いぬ]がとても好[す]きです (I really like dogs). 大好[だいす]き adds 大 (big/great) to mean 'love,' and 大嫌[だいきら]い means 'hate.' Ask what someone likes with 何[なに]が好[す]きですか (What do you like?).",
       "rules": [
-        "Pattern: [person] は [thing] が 好きです / 嫌いです",
+        "Pattern: [person] は [thing] が 好[す]きです / 嫌[きら]いです",
         "The thing liked/disliked is marked with が (not を)",
-        "好き and 嫌い are な-adjectives, not verbs",
-        "大好き = love; 大嫌い = hate (adding 大 intensifies)",
-        "Same が pattern for 上手 (good at) and 下手 (bad at)"
+        "好[す]き and 嫌[きら]い are な-adjectives, not verbs",
+        "大好[だいす]き = love; 大嫌[だいきら]い = hate (adding 大 intensifies)",
+        "Use も instead of が for \"also\": 野菜[やさい]も好[す]き (I like vegetables too)"
       ],
       "examples": [
         {
@@ -1168,20 +1168,6 @@
           "explanation": "大嫌[だいきら]い (大[だい] + 嫌[きら]い) expresses strong dislike — hate. The pattern remains  は  が 大嫌[だいきら]いです. Option A expresses 'don't like' (weaker). Option C uses を incorrectly with 嫌[きら]い. Option D uses に は which changes the nuance."
         },
         {
-          "id": "suki-kirai_q13",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses 上手[じょうず] (skilled) in the は〜が pattern?",
-          "japanese": null,
-          "choices": [
-            "わたしはギターが好[す]きです。",
-            "わたしはギターを上手[じょうず]です。",
-            "わたしはギターが上手[じょうず]です。",
-            "わたしにギターが上手[じょうず]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "上手[じょうず] (skilled) uses the same  は  が 上手[じょうず]です pattern as 好[す]き and 嫌[きら]い. The thing you are skilled at takes が. Option A uses 好[す]き (preference), not 上手[じょうず] (skill). Option B uses を instead of が."
-        },
-        {
           "id": "suki-kirai_q14",
           "type": "fillBlank",
           "prompt": "Fill in the blank: すみませんが、たぬきが___です。(I'm sorry, but I dislike tanuki.)",
@@ -1208,20 +1194,6 @@
           ],
           "correctIndex": 0,
           "explanation": "あまり + 好[す]きじゃない = don't really/very much like. The liked thing still takes が. Option B uses を incorrectly. Option C uses ぜんぜん with an affirmative predicate — ぜんぜん always requires a negative form. Option D uses に incorrectly."
-        },
-        {
-          "id": "suki-kirai_q16",
-          "type": "usage",
-          "prompt": "Which pair correctly distinguishes preference from skill?",
-          "japanese": null,
-          "choices": [
-            "ピアノが好[す]きです = skilled at piano / ピアノが上手[じょうず]です = like piano",
-            "ピアノが好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
-            "ピアノを好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
-            "ピアノが好[す]きです = like piano / ピアノを上手[じょうず]です = skilled at piano"
-          ],
-          "correctIndex": 1,
-          "explanation": "好[す]き expresses preference (liking/enjoying), while 上手[じょうず] expresses skill (being good at something). Both use the が pattern. Option A has the meanings reversed. Options C and D use を instead of が in one of the phrases."
         },
         {
           "id": "suki-kirai_q17",
@@ -1264,11 +1236,52 @@
           ],
           "correctIndex": 0,
           "explanation": "あまり + 好[す]きじゃない softens the negative: 'don't really like.' This is the polite way to express mild dislike. Option B uses ぜんぜん with an affirmative predicate — wrong. 大嫌[だいきら]い and 嫌[きら]い both express stronger or clearer dislike than 'not really into it.'"
+        }
+      ]
+    },
+    {
+      "id": "jouzu-heta",
+      "name": "上手[じょうず] / 下手[へた] (jouzu / heta) — good at / bad at",
+      "shortDescription": "Describing skill and lack of skill with the は〜が pattern — and when 得意 / 苦手 sound more natural.",
+      "formation": "Person は Skill が 上手[じょうず] / 下手[へた] です",
+      "explanation": "上手[じょうず] (good at / skilled) and 下手[へた] (bad at / unskilled) describe ability. Just like 好[す]き and 嫌[きら]い, they are な-adjectives, not verbs, so they take the same は〜が pattern: the person is the topic (marked with は) and the skill or activity is marked with が, never を. 田中[たなか]さんはピアノが上手[じょうず]です means \"Tanaka-san is good at piano\" — literally \"as for Tanaka-san, piano is skilled-at.\"\n\nKeep 上手[じょうず] and 好[す]き separate in your mind: 好[す]き is about whether you *like* something, while 上手[じょうず] is about whether you are *good at* it — you can love a hobby and still be terrible at it. There is also an etiquette point: 上手[じょうず] is used to praise *other* people, so it sounds odd (even boastful) about yourself. To describe your own strength, use 得意[とくい] (my strong point); to describe your own weakness gently, 苦手[にがて] (not my strong point) sounds much softer than bluntly calling yourself 下手[へた].",
+      "rules": [
+        "Pattern: Person は Skill が 上手[じょうず]です / 下手[へた]です",
+        "The skill or activity is marked with が, not を",
+        "上手[じょうず] and 下手[へた] are な-adjectives, not verbs",
+        "上手[じょうず] praises others — for your own strength, use 得意[とくい]",
+        "下手[へた] can sound harsh about yourself — 苦手[にがて] is softer",
+        "Skill (上手[じょうず]) is not the same as liking (好[す]き): you can enjoy something you are bad at"
+      ],
+      "examples": [
+        {
+          "japanese": "田中[たなか]さんはピアノが上手[じょうず]です。",
+          "romaji": "Tanaka-san wa piano ga jouzu desu.",
+          "english": "Tanaka-san is good at piano."
         },
         {
-          "id": "suki-kirai_q20",
+          "japanese": "わたしは料理[りょうり]が下手[へた]です。",
+          "romaji": "Watashi wa ryouri ga heta desu.",
+          "english": "I'm bad at cooking."
+        },
+        {
+          "japanese": "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
+          "romaji": "Ane wa eigo ga totemo jouzu desu.",
+          "english": "My older sister is very good at English."
+        },
+        {
+          "japanese": "スポーツはちょっと苦手[にがて]です。",
+          "romaji": "Supootsu wa chotto nigate desu.",
+          "english": "I'm not really good at sports."
+        }
+      ],
+      "flashcardHeader": "上手 / 下手 (jouzu / heta)",
+      "flashcardAnswer": "Describing skill (good at) and lack of skill (bad at) with the は〜が pattern.",
+      "practice": [
+        {
+          "id": "jouzu-heta_q1",
           "type": "usage",
-          "prompt": "Which sentence correctly says 'Tanaka-san is good at the guitar'?",
+          "prompt": "Which sentence correctly says \"Tanaka-san is good at guitar\"?",
           "japanese": null,
           "choices": [
             "田中[たなか]さんはギターが好[す]きです。",
@@ -1277,7 +1290,161 @@
             "田中[たなか]さんにギターが上手[じょうず]です。"
           ],
           "correctIndex": 1,
-          "explanation": "上手[じょうず] (skilled) follows the  は  が 上手[じょうず]です pattern. ギターが上手[じょうず]です = is good at guitar. Option A uses 好[す]き (preference — like guitar), not 上手[じょうず] (skill). Options C and D use wrong particles (を and に instead of が)."
+          "explanation": "上手[じょうず] uses the は〜が pattern: ギターが上手[じょうず]です. Option A says 好[す]き (likes guitar), not skill. Option C uses を and D uses に — 上手[じょうず] always takes が."
+        },
+        {
+          "id": "jouzu-heta_q2",
+          "type": "construct",
+          "prompt": "Which particle marks what someone is good at? わたしは水泳[すいえい]___上手[じょうず]です。",
+          "japanese": "わたしは水泳[すいえい]___上手[じょうず]です。",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "は"
+          ],
+          "correctIndex": 1,
+          "explanation": "上手[じょうず] marks the skill with が: 水泳[すいえい]が上手[じょうず]です (good at swimming). Using を is the most common mistake — 上手[じょうず] is an adjective, not a verb, so it never takes を."
+        },
+        {
+          "id": "jouzu-heta_q3",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: わたしは料理[りょうり]が___です。(I'm bad at cooking.)",
+          "japanese": "わたしは料理[りょうり]が___です。",
+          "choices": [
+            "上手[じょうず]",
+            "下手[へた]",
+            "好[す]き",
+            "大好[だいす]き"
+          ],
+          "correctIndex": 1,
+          "explanation": "下手[へた] means \"bad at / unskilled.\" 料理[りょうり]が下手[へた]です = I'm bad at cooking. 上手[じょうず] is the opposite (good at); 好[す]き / 大好[だいす]き describe liking, not skill."
+        },
+        {
+          "id": "jouzu-heta_q4",
+          "type": "usage",
+          "prompt": "Which pair correctly distinguishes liking from skill?",
+          "japanese": null,
+          "choices": [
+            "ピアノが好[す]きです = skilled at piano / ピアノが上手[じょうず]です = like piano",
+            "ピアノが好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
+            "ピアノを好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
+            "ピアノが好[す]きです = like piano / ピアノを上手[じょうず]です = skilled at piano"
+          ],
+          "correctIndex": 1,
+          "explanation": "好[す]き expresses preference (liking) and 上手[じょうず] expresses skill (being good at). Both take が. Option A reverses the meanings; C and D use を instead of が."
+        },
+        {
+          "id": "jouzu-heta_q5",
+          "type": "translation",
+          "prompt": "Which sentence means \"My older sister is very good at English\"?",
+          "japanese": null,
+          "choices": [
+            "姉[あね]は英語[えいご]をとても上手[じょうず]です。",
+            "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
+            "姉[あね]は英語[えいご]がとても好[す]きです。",
+            "姉[あね]に英語[えいご]がとても上手[じょうず]です。"
+          ],
+          "correctIndex": 1,
+          "explanation": "英語[えいご]がとても上手[じょうず]です = very good at English. Option A uses を (wrong — 上手[じょうず] takes が). Option C says 好[す]き (likes English). Option D uses に instead of the topic marker は + が."
+        },
+        {
+          "id": "jouzu-heta_q6",
+          "type": "usage",
+          "prompt": "Talking about your OWN skill, which sentence is most natural?",
+          "japanese": null,
+          "choices": [
+            "わたしはギターが上手[じょうず]です。",
+            "わたしはギターが得意[とくい]です。",
+            "わたしはギターを得意[とくい]です。",
+            "わたしにギターが上手[じょうず]です。"
+          ],
+          "correctIndex": 1,
+          "explanation": "上手[じょうず] is normally used to praise other people, so it sounds boastful about yourself. For your own strength, 得意[とくい] is the natural choice: ギターが得意[とくい]です. Option C uses を (should be が); D uses に."
+        },
+        {
+          "id": "jouzu-heta_q7",
+          "type": "usage",
+          "prompt": "You want to gently say you're not good at drawing. Which is most natural?",
+          "japanese": null,
+          "choices": [
+            "わたしは絵[え]を苦手[にがて]です。",
+            "わたしは絵[え]が苦手[にがて]です。",
+            "わたしは絵[え]が上手[じょうず]です。",
+            "わたしは絵[え]を下手[へた]です。"
+          ],
+          "correctIndex": 1,
+          "explanation": "苦手[にがて] (not my strong point) softens a self-criticism and is more natural than bluntly saying 下手[へた] about yourself. It takes が: 絵[え]が苦手[にがて]です. Options A and D use を; C says 上手[じょうず] (good at), the opposite."
+        },
+        {
+          "id": "jouzu-heta_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 田中[たなか]さんはピアノ___上手[じょうず]です。",
+          "japanese": "田中[たなか]さんはピアノ___上手[じょうず]です。",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "の"
+          ],
+          "correctIndex": 1,
+          "explanation": "ピアノが上手[じょうず]です — the thing you are skilled at is marked with が. を, に, and の are all incorrect here; 上手[じょうず] always pairs with が."
+        },
+        {
+          "id": "jouzu-heta_q9",
+          "type": "construct",
+          "prompt": "Which sentence is INCORRECT?",
+          "japanese": null,
+          "choices": [
+            "兄[あに]はサッカーが上手[じょうず]です。",
+            "わたしは歌[うた]が下手[へた]です。",
+            "母[はは]は料理[りょうり]を上手[じょうず]です。",
+            "父[ちち]は英語[えいご]が上手[じょうず]です。"
+          ],
+          "correctIndex": 2,
+          "explanation": "母[はは]は料理[りょうり]を上手[じょうず]です is wrong — 上手[じょうず] takes が, not を. It should be 料理[りょうり]が上手[じょうず]です. The other three all correctly use が."
+        },
+        {
+          "id": "jouzu-heta_q10",
+          "type": "usage",
+          "prompt": "Your friend loves karaoke but sings badly. Which sentence describes this?",
+          "japanese": null,
+          "choices": [
+            "カラオケが好[す]きですが、下手[へた]です。",
+            "カラオケが上手[じょうず]ですが、好[す]きじゃないです。",
+            "カラオケが下手[へた]ですが、上手[じょうず]です。",
+            "カラオケを好[す]きですが、下手[へた]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Liking (好[す]き) and skill (上手[じょうず]/下手[へた]) are independent — you can like karaoke yet be 下手[へた] at it. Option A captures this. Option D uses を with 好[す]き (should be が)."
+        },
+        {
+          "id": "jouzu-heta_q11",
+          "type": "translation",
+          "prompt": "Which sentence asks \"Is Tanaka-san good at Japanese?\"",
+          "japanese": null,
+          "choices": [
+            "田中[たなか]さんは日本語[にほんご]を上手[じょうず]ですか。",
+            "田中[たなか]さんは日本語[にほんご]が上手[じょうず]ですか。",
+            "田中[たなか]さんは日本語[にほんご]が好[す]きですか。",
+            "田中[たなか]さんに日本語[にほんご]が上手[じょうず]ですか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "日本語[にほんご]が上手[じょうず]ですか = Is (he) good at Japanese? The skill takes が. Option A uses を; C asks about liking (好[す]き); D uses に instead of は."
+        },
+        {
+          "id": "jouzu-heta_q12",
+          "type": "fillBlank",
+          "prompt": "Talking about your own strong point: わたしは数学[すうがく]が___です。(Math is my strong point.)",
+          "japanese": "わたしは数学[すうがく]が___です。",
+          "choices": [
+            "上手[じょうず]",
+            "得意[とくい]",
+            "好[す]き",
+            "下手[へた]"
+          ],
+          "correctIndex": 1,
+          "explanation": "For your own strength, 得意[とくい] is preferred over 上手[じょうず] (which is used to praise others). 数学[すうがく]が得意[とくい]です = Math is my strong point. 好[す]き = like; 下手[へた] = bad at."
         }
       ]
     },
@@ -1286,10 +1453,10 @@
       "name": "とても / すこし / あまり — degree adverbs",
       "shortDescription": "Adverbs that express the degree or intensity of an adjective.",
       "formation": "Degree adverb + い-adj / な-adj + です",
-      "explanation": "Degree adverbs answer the question 'how much?' and they go directly before the adjective they modify. とても means 'very' and intensifies any quality: とても大きい (very big), とても好き (like very much). すこし means 'a little' and softens: すこし難しい (a little difficult). まあまあ means 'so-so.'\n\nNow, the pair that requires careful attention: あまり and ぜんぜん always require a negative verb or adjective form — just as you saw with frequency adverbs in this chapter. あまりおいしくない = 'not very delicious.' ぜんぜん難しくない = 'not difficult at all.' Using either of these with a positive form is a grammar error.\n\nOne handy social note: Japanese people often use あまり〜くない to soften criticism — saying something is 'not very good' rather than outright 'bad' is considered more polite and considerate.",
+      "explanation": "Degree adverbs answer the question 'how much?' and they go directly before the adjective they modify. とても means 'very' and intensifies any quality: とても大[おお]きい (very big), とても好[す]き (like very much). すこし means 'a little' and softens: すこし難[むずか]しい (a little difficult). まあまあ means 'so-so.'\n\nNow, the pair that requires careful attention: あまり and ぜんぜん always require a negative verb or adjective form — just as you saw with frequency adverbs in this chapter. あまりおいしくない = 'not very delicious.' ぜんぜん難[むずか]しくない = 'not difficult at all.' Using either of these with a positive form is a grammar error.\n\nOne handy social note: Japanese people often use あまり〜くない to soften criticism — saying something is 'not very good' rather than outright 'bad' is considered more polite and considerate.",
       "rules": [
-        "とても + affirmative adj = very (とても大きい = very big)",
-        "すこし + adj = a little (すこし難しい = a little difficult)",
+        "とても + affirmative adj = very (とても大[おお]きい = very big)",
+        "すこし + adj = a little (すこし難[むずか]しい = a little difficult)",
         "あまり + negative adj = not very (あまり〜くない)",
         "ぜんぜん + negative adj = not at all (ぜんぜん〜くない)",
         "These adverbs go directly before the adjective"

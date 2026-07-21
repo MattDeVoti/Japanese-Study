@@ -56,6 +56,7 @@ class CardStore: ObservableObject {
             let particle: String
             let romaji: String
             let meaning: String
+            let explanation: String?
             let level: String
         }
 
@@ -64,7 +65,8 @@ class CardStore: ObservableObject {
         return entries.compactMap { json in
             guard let lvl = Int(json.level.dropFirst()) else { return nil }
             return ParticleCard(id: json.particleId, particle: json.particle,
-                                romaji: json.romaji, meaning: json.meaning, nLevel: lvl)
+                                romaji: json.romaji, meaning: json.meaning,
+                                explanation: json.explanation ?? "", nLevel: lvl)
         }
     }
 

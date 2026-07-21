@@ -251,8 +251,9 @@ struct VocabFlashcardsView: View {
         let chaptersWithVocab = Set(allCards.map(\.chapterId))
         var completed: Set<String> = []
         for level in manifest.levels {
-            for ch in level.chapters where ch.pointCount > 0 && chaptersWithVocab.contains(ch.id) {
-                if store.completedCount(chapterId: ch.id) == ch.pointCount {
+            for ch in level.chapters where chaptersWithVocab.contains(ch.id) {
+                let pointIds = LessonsService.shared.pointIds(for: ch.id)
+                if !pointIds.isEmpty && store.completedCount(chapterId: ch.id, among: pointIds) == pointIds.count {
                     completed.insert(ch.id)
                 }
             }
@@ -414,7 +415,7 @@ private struct VocabFilterSheet: View {
 
         return VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text(level.jlptLevel)
+                Text(levelName(jlpt: level.jlptLevel))
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundColor(color)
                 Spacer()

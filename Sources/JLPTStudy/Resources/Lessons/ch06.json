@@ -1,6 +1,6 @@
 {
   "id": "ch06",
-  "chapterNumber": 6,
+  "chapterNumber": 7,
   "title": "Te-form and Requests",
   "points": [
     {
@@ -8,13 +8,18 @@
       "name": "Te-form (〜て form) — connecting verbs",
       "shortDescription": "The て-form connects actions in sequence or enables many grammatical patterns.",
       "formation": "Group 1 (u-verbs): various sound changes + て/で  |  Group 2 (ru-verbs): stem + て  |  Irregular: して, きて",
-      "explanation": "The て-form is the Swiss Army knife of Japanese verb forms — it unlocks more grammar patterns than any other form you will learn. It is the gateway to ている (ongoing actions), てください (requests), てもいい (permission), and many more. Before any of that, its most basic role is connecting two actions in sequence: 食べて寝ます means 'I eat and then sleep.' The て-form itself has no tense — tense is set by whatever final verb closes the sentence.\n\nThe conjugation rules depend on the verb group. Group 2 (る-verbs): drop る and add て — 食べる → 食べて. Group 1 (う-verbs): the ending transforms as follows: う/つ/る → って; む/ぶ/ぬ → んで; く → いて; ぐ → いで; す → して.\n\nTwo verbs are fully irregular and must simply be memorized: する → して; くる → きて. Mastering these て-form rules thoroughly now will pay dividends across every subsequent chapter.",
+      "explanation": "The て-form is the Swiss Army knife of Japanese verb forms — it unlocks more grammar patterns than any other form you will learn. It is the gateway to ている (ongoing actions), てください (requests), てもいい (permission), and many more. Before any of that, its most basic role is connecting two actions in sequence: 食[た]べて寝[ね]ます means \"I eat and then sleep.\" The て-form itself has no tense — tense is set by whatever final verb closes the sentence.\n\nThe conjugation rules depend on the verb group:\n- Group 2 (る-verbs): drop る and add て — 食[た]べる → 食[た]べて\n- Group 1 (う-verbs), う・つ・る → って — 買[か]う → 買[か]って\n- Group 1, む・ぶ・ぬ → んで — 飲[の]む → 飲[の]んで\n- Group 1, く → いて — 書[か]く → 書[か]いて\n- Group 1, ぐ → いで — 泳[およ]ぐ → 泳[およ]いで\n- Group 1, す → して — 話[はな]す → 話[はな]して\n- Irregular (memorize): する → して、くる → きて\n\nMastering these て-form rules thoroughly now will pay dividends across every subsequent chapter.",
       "rules": [
-        "Group 2 (ru-verbs, ending in る): drop る → add て (食べる → 食べて)",
-        "Group 1 (u-verbs): う/つ/る → って; む/ぶ/ぬ → んで; く → いて; ぐ → いで; す → して",
-        "Irregular: する → して; くる → きて",
-        "Te-form connects actions in sequence: Verb1て + Verb2 = do Verb1 and then Verb2",
-        "The て-form itself is tense-neutral — tense is determined by the final verb"
+        "Group 2 (る-verbs): drop る and add て（食[た]べる → 食[た]べて）",
+        "Group 1 (う-verbs) — the final sound changes a set way, one ending at a time:",
+        "う・つ・る → って（買[か]う → 買[か]って）",
+        "む・ぶ・ぬ → んで（飲[の]む → 飲[の]んで）",
+        "く → いて（書[か]く → 書[か]いて）",
+        "ぐ → いで（泳[およ]ぐ → 泳[およ]いで）",
+        "す → して（話[はな]す → 話[はな]して）",
+        "Irregular (memorize these two): する → して、くる → きて",
+        "Sequencing: Verb1 + て + Verb2 = do Verb1, then Verb2",
+        "The て-form itself is tense-neutral — the final verb sets the tense"
       ],
       "examples": [
         {
@@ -63,7 +68,7 @@
           "choices": [
             "書[か]くて",
             "書[か]って",
-            "書[かき]して",
+            "書[か]きして",
             "書[か]いて"
           ],
           "correctIndex": 3,
@@ -328,7 +333,7 @@
       "name": "〜てください (te kudasai) — please do",
       "shortDescription": "A polite way to ask someone to do something.",
       "formation": "Verb て-form + ください",
-      "explanation": "〜てください is the standard, polite way to make a request in Japanese — 'please do [action].' Form it by taking the て-form of a verb and adding ください. 待つ (to wait) → 待って → 待ってください (Please wait). 書く (to write) → 書いて → 書いてください (Please write). This form is polite enough for most everyday situations — with teachers, in shops, and with people you do not know well.\n\nFor more formal or humble requests, 〜ていただけますか (Could you please...?) raises the register. For casual requests among close friends, the て-form alone with a rising tone works: 待って? (Wait, okay?).\n\nThe negative request — 'please don't do something' — uses a different structure: Verb (ない-form) + でください. ここで写真を撮らないでください means 'Please don't take photos here.' Both forms of request are useful in daily life and you will use them constantly.",
+      "explanation": "〜てください is the standard, polite way to make a request in Japanese — 'please do [action].' Form it by taking the て-form of a verb and adding ください. 待[ま]つ (to wait) → 待[ま]って → 待[ま]ってください (Please wait). 書[か]く (to write) → 書[か]いて → 書[か]いてください (Please write). This form is polite enough for most everyday situations — with teachers, in shops, and with people you do not know well.\n\nFor more formal or humble requests, 〜ていただけますか (Could you please...?) raises the register. For casual requests among close friends, the て-form alone with a rising tone works: 待[ま]って? (Wait, okay?).\n\nThe negative request — 'please don't do something' — uses a different structure: Verb (ない-form) + でください. ここで写真[しゃしん]を撮[と]らないでください means 'Please don't take photos here.' Both forms of request are useful in daily life and you will use them constantly.",
       "rules": [
         "Pattern: Verb (て-form) + ください = Please do [action]",
         "Used in most polite everyday situations (shops, class, public)",
@@ -647,12 +652,12 @@
       "name": "〜ている (te iru) — ongoing or resultant state",
       "shortDescription": "Expresses an ongoing action or a state that results from a completed action.",
       "formation": "Verb て-form + いる/います",
-      "explanation": "〜ている is one of the most frequently used patterns in Japanese, and it has two distinct meanings that need to be learned separately. The first meaning is an action currently in progress — the Japanese '-ing': 食べています means '(am) eating,' 走っています means '(am) running.'\n\nThe second meaning is a resultant state — the condition that exists now because a completed action happened in the past. 結婚しています means 'is married' (the state resulting from having gotten married). 知っています means 'knows' (a state resulting from having come to know). This second meaning catches many beginners off guard because it sounds like an ongoing action in Japanese but translates as a simple state in English.\n\nA quick test: if the verb describes something visibly in progress (eating, running, reading), it is meaning 1. If the verb describes something that happened once and left a lasting mark (marry, move, arrive), it is meaning 2. The polite form is ています; casual speech drops the い: 食べてる.",
+      "explanation": "〜ている is one of the most frequently used patterns in Japanese, and it has two distinct meanings that need to be learned separately. The first meaning is an action currently in progress — the Japanese '-ing': 食[た]べています means '(am) eating,' 走[はし]っています means '(am) running.'\n\nThe second meaning is a resultant state — the condition that exists now because a completed action happened in the past. 結婚[けっこん]しています means 'is married' (the state resulting from having gotten married). 知[し]っています means 'knows' (a state resulting from having come to know). This second meaning catches many beginners off guard because it sounds like an ongoing action in Japanese but translates as a simple state in English.\n\nA quick test: if the verb describes something visibly in progress (eating, running, reading), it is meaning 1. If the verb describes something that happened once and left a lasting mark (marry, move, arrive), it is meaning 2. The polite form is ています; casual speech drops the い: 食[た]べてる.",
       "rules": [
         "Meaning 1: ongoing action right now (〜ている = am/is/are doing)",
-        "Meaning 2: resultant state from a completed action (知っている = knows, 結婚している = married)",
+        "Meaning 2: resultant state from a completed action (知[し]っている = knows, 結婚[けっこん]している = married)",
         "Polite form: 〜ています; casual form: 〜てる (い dropped)",
-        "Common resultant-state verbs: 知る, 結婚する, 住む, 着る (wear), 持つ (have)"
+        "Common resultant-state verbs: 知[し]る, 結婚[けっこん]する, 住[す]む, 着[き]る (wear), 持[も]つ (have)"
       ],
       "examples": [
         {
@@ -966,7 +971,7 @@
       "name": "〜てもいい (te mo ii) — may / is it okay to",
       "shortDescription": "Asks for or grants permission to do something.",
       "formation": "Verb て-form + もいいですか (asking)  |  + もいいです (granting)",
-      "explanation": "〜てもいいですか is the go-to way to ask for permission in Japanese. It literally means 'Is it okay even if I do [action]?' and translates naturally as 'May I...?' or 'Is it alright if I...?' ここに座ってもいいですか = 'May I sit here?'\n\nWhen granting permission, say 〜てもいいです (Yes, it is fine) or ええ、どうぞ (Yes, please go ahead). When denying permission politely, the choice of response carries nuance: ないでください is a soft request ('please don't'), while てはいけません is a firm prohibition ('you must not'). For a slightly more formal or deferential question, use 〜てもよろしいですか instead of もいいですか.\n\nThis structure is genuinely useful in daily life — asking to borrow, sit, use, enter, or try something. Learn it well, and you will reach for it immediately.",
+      "explanation": "〜てもいいですか is the go-to way to ask for permission in Japanese. It literally means 'Is it okay even if I do [action]?' and translates naturally as 'May I...?' or 'Is it alright if I...?' ここに座[すわ]ってもいいですか = 'May I sit here?'\n\nWhen granting permission, say 〜てもいいです (Yes, it is fine) or ええ、どうぞ (Yes, please go ahead). When denying permission politely, the choice of response carries nuance: ないでください is a soft request ('please don't'), while てはいけません is a firm prohibition ('you must not'). For a slightly more formal or deferential question, use 〜てもよろしいですか instead of もいいですか.\n\nThis structure is genuinely useful in daily life — asking to borrow, sit, use, enter, or try something. Learn it well, and you will reach for it immediately.",
       "rules": [
         "Asking permission: Verb (て-form) + もいいですか = May I...?",
         "Granting permission: 〜てもいいです (It's okay)",
@@ -1285,7 +1290,7 @@
       "name": "〜てはいけない (te wa ikenai) — must not / may not",
       "shortDescription": "Expresses prohibition — something that is not allowed or must not be done.",
       "formation": "Verb て-form + はいけません",
-      "explanation": "〜てはいけません is the direct counterpart to 〜てもいいです — while もいいです grants permission, てはいけません firmly denies it. It means 'must not' or 'may not' and states a rule or prohibition: ここで写真を撮ってはいけません (You must not take photos here). You will see this on signs and hear it from teachers and parents.\n\nThe nuance is firm — this is a rule that should not be broken, and it is stronger than the softer request ないでください (please don't). The casual forms are 〜てはいけない or the very common contraction 〜ちゃいけない.\n\nOne related pattern worth knowing: the positive obligation form — 'must do' — uses 〜なくてはいけない / なければならない, which we will cover formally in Chapter 12. For now, てはいけません gives you everything you need to understand and communicate rules and prohibitions.",
+      "explanation": "〜てはいけません is the direct counterpart to 〜てもいいです — while もいいです grants permission, てはいけません firmly denies it. It means 'must not' or 'may not' and states a rule or prohibition: ここで写真[しゃしん]を撮[と]ってはいけません (You must not take photos here). You will see this on signs and hear it from teachers and parents.\n\nThe nuance is firm — this is a rule that should not be broken, and it is stronger than the softer request ないでください (please don't). The casual forms are 〜てはいけない or the very common contraction 〜ちゃいけない.\n\nOne related pattern worth knowing: the positive obligation form — 'must do' — uses 〜なくてはいけない / なければならない, which we will cover formally in Chapter 12. For now, てはいけません gives you everything you need to understand and communicate rules and prohibitions.",
       "rules": [
         "Pattern: Verb (て-form) + はいけません = must not / may not",
         "This is a firm prohibition — a rule, not just a request",
@@ -1294,7 +1299,7 @@
       ],
       "examples": [
         {
-          "japanese": "この部屋[へや]に入[いっ]ってはいけません。",
+          "japanese": "この部屋[へや]に入[はい]ってはいけません。",
           "romaji": "Kono heya ni haitte wa ikemasen.",
           "english": "You must not enter this room."
         },
@@ -1323,13 +1328,13 @@
           "prompt": "Which sentence correctly means 'You must not enter this room'?",
           "japanese": null,
           "choices": [
-            "この部屋[へや]に入[いっ]ってはいけません。",
+            "この部屋[へや]に入[はい]ってはいけません。",
             "この部屋[へや]に入[い]らないでください。",
-            "この部屋[へや]に入[いっ]ってもいいです。",
+            "この部屋[へや]に入[はい]ってもいいです。",
             "この部屋[へや]に入[にゅう]くてはいけません。"
           ],
           "correctIndex": 0,
-          "explanation": "〜てはいけません = must not / may not (firm prohibition). 入[い]る → て-form: 入[いっ]って → 入[いっ]ってはいけません. ないでください is a softer request, not a prohibition."
+          "explanation": "〜てはいけません = must not / may not (firm prohibition). 入[い]る → て-form: 入[はい]って → 入[はい]ってはいけません. ないでください is a softer request, not a prohibition."
         },
         {
           "id": "te-wa-ikenai_q2",
@@ -1410,10 +1415,10 @@
             "使[つか]うては",
             "使[つか]いては",
             "使[つか]っては",
-            "使[つ]くては"
+            "使[つか]くては"
           ],
           "correctIndex": 2,
-          "explanation": "使[つか]う (to use) → て-form: 使[つか]って (う→って). The prohibition pattern is て-form + はいけません. The blank is 使[つか]っては, giving 使[つか]ってはいけません = must not use. 使[つか]うては and 使[つ]くては are not valid verb forms."
+          "explanation": "使[つか]う (to use) → て-form: 使[つか]って (う→って). The prohibition pattern is て-form + はいけません. The blank is 使[つか]っては, giving 使[つか]ってはいけません = must not use. 使[つか]うては and 使[つか]くては are not valid verb forms."
         },
         {
           "id": "te-wa-ikenai_q8",

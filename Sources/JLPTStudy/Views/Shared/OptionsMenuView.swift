@@ -14,9 +14,9 @@ struct OptionsMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 28) {
 
-                    // N Level selection
+                    // Level selection
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("N Level")
+                        Text("Level")
                             .font(.headline)
                             .foregroundColor(.appText)
                         HStack(spacing: 8) {
@@ -31,10 +31,12 @@ struct OptionsMenuView: View {
                                     // Clear individual kanji selection when levels change
                                     if let kf = filter as? KanjiFilter { kf.selectedKanjiIds = [] }
                                 } label: {
-                                    Text("N\(level)")
+                                    Text(levelName(level))
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundColor(selected ? .white : nLevelColor(level))
-                                        .frame(minWidth: 44, minHeight: 36)
+                                        .lineLimit(1)
+                                        .minimumScaleFactor(0.8)
+                                        .frame(maxWidth: .infinity, minHeight: 36)
                                         .background(
                                             RoundedRectangle(cornerRadius: 8)
                                                 .fill(selected ? nLevelColor(level) : nLevelColor(level).opacity(0.12))
@@ -339,7 +341,7 @@ private struct KanjiCell: View {
         Button(action: action) {
             VStack(spacing: 4) {
                 HStack {
-                    Text("N\(card.nLevel)")
+                    Text(levelName(card.nLevel))
                         .font(.system(size: 10, weight: .semibold))
                         .foregroundColor(selected ? .white.opacity(0.9) : color)
                     Spacer()

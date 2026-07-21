@@ -154,18 +154,19 @@ enum FuriganaAnnotator {
 
         while i < raw.endIndex {
             let c = raw[i]
-            if c == "[", let closeIdx = raw[raw.index(after: i)...].firstIndex(of: "]") {
-                let reading = String(raw[raw.index(after: i)..<closeIdx])
-                // The ruby base is the trailing kanji run in pending.
+            // Treat `[...]` as a furigana reading ONLY when the content is all kana
+            // and it directly follows a kanji run. Otherwise it's an English
+            // placeholder like [person] / [X] — keep it literal (brackets included).
+            if c == "[", let closeIdx = raw[raw.index(after: i)...].firstIndex(of: "]"),
+               case let reading = String(raw[raw.index(after: i)..<closeIdx]),
+               isAllKana(reading), !trailingKanji(of: pending).isEmpty {
                 let base = trailingKanji(of: pending)
                 let prefix = String(pending.dropLast(base.count))
                 display += prefix
                 let loc = (display as NSString).length
                 display += base
                 let len = (display as NSString).length - loc
-                if !base.isEmpty && !reading.isEmpty {
-                    segs.append((NSRange(location: loc, length: len), reading))
-                }
+                segs.append((NSRange(location: loc, length: len), reading))
                 pending = ""
                 i = raw.index(after: closeIdx)
             } else {
@@ -192,5 +193,106 @@ enum FuriganaAnnotator {
         (0x4E00...0x9FFF).contains(scalar.value) ||
         (0x3400...0x4DBF).contains(scalar.value) ||
         (0xF900...0xFAFF).contains(scalar.value)
+    }
+
+    private static func isKana(_ scalar: Unicode.Scalar) -> Bool {
+        (0x3040...0x309F).contains(scalar.value) ||   // hiragana
+        (0x30A0...0x30FF).contains(scalar.value)      // katakana (incl. ー)
+    }
+
+    /// True when the string is non-empty and every character is kana — i.e. a
+    /// real reading, not an English grammatical placeholder such as [person].
+    private static func isAllKana(_ s: String) -> Bool {
+        !s.isEmpty && s.unicodeScalars.allSatisfy(isKana)
+    }
+}
+
+// MARK: - Explanation body (paragraphs + bulleted lists)
+
+/// Renders a grammar explanation string that may mix prose paragraphs with
+/// bulleted lists. Convention: a line beginning with "- " is a bullet item;
+/// a run of consecutive bullet lines becomes one list. Blank lines (\n\n)
+/// separate paragraphs. Each paragraph and bullet renders with furigana.
+struct ExplanationBody: View {
+    let text: String
+    var fontSize: CGFloat = 14
+    var color: Color = .appText
+    var bulletColor: Color = .secondary
+
+    private enum Block: Identifiable {
+        case paragraph(String)
+        case bullets([String])
+        var id: String {
+            switch self {
+            case .paragraph(let s): return "p:" + s
+            case .bullets(let items): return "b:" + items.joined(separator: "|")
+            }
+        }
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 11) {
+            ForEach(blocks) { block in
+                switch block {
+                case .paragraph(let s):
+                    FuriganaText(text: s, fontSize: fontSize, color: color)
+                        .fixedSize(horizontal: false, vertical: true)
+                case .bullets(let items):
+                    VStack(alignment: .leading, spacing: 7) {
+                        ForEach(Array(items.enumerated()), id: \.offset) { _, item in
+                            HStack(alignment: .top, spacing: 8) {
+                                Text("•")
+                                    .font(.system(size: fontSize, weight: .semibold))
+                                    .foregroundColor(bulletColor)
+                                FuriganaText(text: item, fontSize: fontSize, color: color)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                        }
+                    }
+                    .padding(.leading, 2)
+                }
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private var blocks: [Block] {
+        var result: [Block] = []
+        // Paragraphs are separated by a blank line. Within a paragraph, a run of
+        // "- "/"• "/"* " lines becomes a bulleted list; other lines are kept as
+        // tight lines (joined with \n, so single line-breaks are preserved and
+        // never merged into a run-on).
+        for paragraph in text.components(separatedBy: "\n\n") {
+            var buf: [String] = []
+            var bullets: [String] = []
+            func flushBuf() {
+                let s = buf.joined(separator: "\n").trimmingCharacters(in: .whitespacesAndNewlines)
+                if !s.isEmpty { result.append(.paragraph(s)) }
+                buf = []
+            }
+            func flushBullets() {
+                if !bullets.isEmpty { result.append(.bullets(bullets)); bullets = [] }
+            }
+            for raw in paragraph.components(separatedBy: "\n") {
+                let line = raw.trimmingCharacters(in: .whitespaces)
+                if let item = Self.bulletItem(line) {
+                    flushBuf(); bullets.append(item)
+                } else if line.isEmpty {
+                    continue
+                } else {
+                    flushBullets(); buf.append(line)
+                }
+            }
+            flushBuf(); flushBullets()
+        }
+        return result
+    }
+
+    /// If a line is a bullet ("- ", "• ", or "* " prefix), returns its content.
+    static func bulletItem(_ line: String) -> String? {
+        for marker in ["- ", "• ", "* "] where line.hasPrefix(marker) {
+            return String(line.dropFirst(marker.count)).trimmingCharacters(in: .whitespaces)
+        }
+        return nil
     }
 }

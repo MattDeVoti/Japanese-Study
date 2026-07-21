@@ -4,720 +4,823 @@
     "particle": "は",
     "romaji": "wa",
     "meaning": "topic marker",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "は marks the topic — what the sentence is *about*. It sets the stage (\"as for X…\") and is pronounced \"wa\" even though it's written with the hiragana は. The topic is often, but not always, also the subject.\n- Basic use: 私[わたし]は学生[がくせい]です (As for me, I'm a student)\n- Contrast: it can quietly imply a comparison — 肉[にく]は食[た]べますが、魚[さかな]は食[た]べません (I eat meat, but [as for] fish, I don't)\n\nThe classic puzzle is は vs. が. Use は for the topic — old, known information you're commenting on — and が for the subject, especially new information or the specific answer to \"who/what?\" Compare 象[ぞう]は鼻[はな]が長[なが]い (As for elephants, the nose is long): は sets the theme (elephants), が marks what's actually long (the nose). When you introduce something new it takes が; once it's the topic under discussion, it shifts to は."
   },
   {
     "particleId": "p_011",
     "particle": "が",
     "romaji": "ga",
     "meaning": "subject marker; however; but~",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "が marks the grammatical subject — the doer of an action or the thing being described — and it often carries new or emphasized information, in contrast to the topic-marking は.\n- Identifies the subject, especially the answer to \"who/what?\": 誰[だれ]が来[き]ましたか。ジョンさんが来[き]ました (Who came? John came)\n- Marks the object of desire, ability, and preference: 水[みず]が飲[の]みたい (I want to drink water), 日本語[にほんご]が話[はな]せます (I can speak Japanese), 犬[いぬ]が好[す]きです (I like dogs)\n- Used with existence verbs: 部屋[へや]に猫[ねこ]がいます (There's a cat in the room)\n\nが also works as a conjunction meaning \"but\": このレストランは高[たか]いですが、おいしいです (This restaurant is expensive, but delicious). As a rule of thumb, new information gets が, while the already-known topic gets は — 昔々[むかしむかし]、おじいさんがいました。おじいさんは… (Once there was an old man [が, new]. The old man [は, now the topic]…)."
   },
   {
     "particleId": "p_066",
     "particle": "を",
     "romaji": "o / wo",
     "meaning": "object marker particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "を marks the direct object — the thing an action is done to. It's written with the special hiragana を (used only as this particle) and pronounced \"o.\"\n- Direct object: パンを食[た]べます (I eat bread), 本[ほん]を読[よ]みます (I read a book)\n- With motion verbs, it marks the space moved *through* or *along*: 公園[こうえん]を散歩[さんぽ]します (I stroll through the park), 橋[はし]を渡[わた]る (cross a bridge), 空[そら]を飛[と]ぶ (fly through the sky)\n- The point of departure with leaving verbs: 家[いえ]を出[で]る (leave the house), 電車[でんしゃ]を降[お]りる (get off the train), 大学[だいがく]を卒業[そつぎょう]する (graduate from university)\n\nNote that some feelings and abilities that are \"objects\" in English take が, not を, in Japanese — 好[す]き, 上手[じょうず], できる, 〜たい all pair with が. And intransitive verbs (ones with no object) never take を."
   },
   {
     "particleId": "p_051",
     "particle": "に",
     "romaji": "ni",
     "meaning": "destination particle; in; at; on; to",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "に is one of the busiest particles, pinning things to a point — in time, space, or a target.\n- Point in time: 三時[さんじ]に会[あ]いましょう (Let's meet at 3), 月曜日[げつようび]に (on Monday)\n- Location of existence (with いる/ある): 東京[とうきょう]に住[す]んでいます (I live in Tokyo), 机[つくえ]の上[うえ]に本[ほん]があります (There's a book on the desk)\n- Destination / direction: 学校[がっこう]に行[い]きます (I go to school) — here it overlaps with へ\n- Target or recipient of an action: 友[とも]だちに電話[でんわ]する (call a friend), 母[はは]にあげる (give to my mother)\n- Purpose with a motion verb (stem + に): 買[か]い物[もの]に行[い]く (go to shop)\n- The agent in passive/causative and per-unit rates: 週[しゅう]に三回[さんかい] (three times a week)\n\nThe key contrast is に vs. で: に marks a *static* location where something exists or a destination reached, while で marks where an *action* happens."
   },
   {
     "particleId": "p_059",
     "particle": "の",
     "romaji": "no",
     "meaning": "possessive particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "の is a remarkably flexible connector between nouns.\n- Possession / belonging: 私[わたし]の本[ほん] (my book), 日本[にほん]の車[くるま] (a Japanese car)\n- Linking two nouns (A の B ≈ \"B of A\"): 日本語[にほんご]の先生[せんせい] (a teacher of Japanese), 木[き]の机[つくえ] (a wooden desk)\n- As a pronoun \"one,\" replacing an understood noun: 赤[あか]いのをください (Give me the red one)\n- Nominalizer, turning a verb phrase into a noun: 泳[およ]ぐのが好[す]きだ (I like swimming), 彼[かれ]が来[く]るのを待[ま]つ (wait for him to come)\n- A softer, explanatory sentence-ender (casual 〜のだ / 〜んです): どうしたの？ (What's the matter?)\n\nWhen multiple nouns stack, they chain with の: 友[とも]だちのお母[かあ]さんの車[くるま] (my friend's mother's car)."
   },
   {
     "particleId": "p_016",
     "particle": "か",
     "romaji": "ka",
     "meaning": "question particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "か turns a statement into a question. Simply add it to the end — no word-order change and no rising intonation required (though it's common).\n- Yes/no question: これはペンですか (Is this a pen?)\n- With a question word, for information: 何[なに]を食[た]べますか (What will you eat?), どこに行[い]きますか (Where are you going?)\n\nか has several other jobs:\n- \"Or,\" listing alternatives: コーヒーか お茶[ちゃ] (coffee or tea), 行[い]くか行[い]かないか (whether to go or not)\n- Embedded questions: いつ来[く]るか分[わ]かりません (I don't know when he'll come)\n- With a question word + か, it makes an indefinite: 誰[だれ]か (someone), 何[なに]か (something), どこか (somewhere)\n\nIn casual speech, か is often dropped and replaced by rising intonation, or by の / かな."
   },
   {
     "particleId": "p_034",
     "particle": "も",
     "romaji": "mo",
     "meaning": "too; also; as well",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "も means \"too / also / as well,\" and it *replaces* が, は, or を (rather than stacking on them).\n- \"Also\": 私[わたし]も学生[がくせい]です (I'm a student too), コーヒーも飲[の]みます (I'll drink coffee too)\n- Doubled up for \"both… and…\": 肉[にく]も魚[さかな]も食[た]べます (I eat both meat and fish)\n- With a negative verb, \"not… either / neither\": 何[なに]も食[た]べませんでした (I didn't eat anything), 誰[だれ]も来[こ]なかった (nobody came)\n\nWith other particles it attaches rather than replaces — にも, でも, からも: 東京[とうきょう]にも行[い]きました (I went to Tokyo too). Paired with a number, も stresses that the amount is large (\"as much/many as\"): 三杯[さんばい]も飲[の]んだ (I drank as many as three cups)."
   },
   {
     "particleId": "p_084",
     "particle": "と",
     "romaji": "to",
     "meaning": "and; with; as; connecting particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "と has several core uses, all involving togetherness or a tight link.\n- \"And,\" exhaustively listing nouns (all of them): 犬[いぬ]と猫[ねこ] (a dog and a cat). Unlike や, と implies the list is complete.\n- \"With,\" a companion or partner: 友[とも]だちと行[い]く (go with a friend), 先生[せんせい]と話[はな]す (talk with the teacher)\n- Quotation, marking what is said or thought: 「はい」と言[い]った (said \"yes\"), 学生[がくせい]だと思[おも]う (I think he's a student)\n- \"As,\" in comparisons and change: 前[まえ]と同[おな]じ (the same as before), 違[ちが]う (different from)\n\nと also forms a conditional (\"whenever/if A, then B\" — a natural, automatic result); that use is its own entry."
   },
   {
     "particleId": "p_022",
     "particle": "から",
     "romaji": "kara",
     "meaning": "because; since; from",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "から has two everyday jobs.\n- \"From,\" a starting point in time or space: 九時[くじ]から (from 9 o'clock), 駅[えき]から歩[ある]く (walk from the station), 友[とも]だちから聞[き]いた (heard from a friend)\n- \"Because / since,\" giving a reason. It attaches to a full clause: 忙[いそが]しいから、行[い]けません (I can't go because I'm busy)\n\nから (because) states the speaker's own reasoning and can feel more subjective or assertive than ので. Because it presents *your* logic, it pairs naturally with requests, invitations, and opinions: 危[あぶ]ないから、気[き]をつけて (It's dangerous, so be careful). It can also end a sentence for emphasis: もう帰[かえ]るから！(I'm going home, okay!). After a て-form, てから means \"after doing\": 食[た]べてから出[で]かける (go out after eating)."
   },
   {
     "particleId": "p_032",
     "particle": "まで",
     "romaji": "made",
     "meaning": "until; as far as; to (an extent); even~",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "まで marks an end point — \"until / up to / as far as.\"\n- Time limit: 五時[ごじ]まで働[はたら]く (work until 5), 月曜日[げつようび]まで (by/until Monday)\n- Spatial extent: 東京[とうきょう]から大阪[おおさか]まで (from Tokyo to Osaka), ここまで (up to here)\n- It naturally pairs with から to frame a span: 九時[くじ]から五時[ごじ]まで (from 9 to 5)\n\nEmphatic まで means \"even,\" stressing something surprising is included: 子供[こども]までそれを知[し]っている (Even children know that). Don't confuse まで with までに: まで means an action *continues up to* a point (ここで待[ま]つ until then), while までに sets a *deadline* by which a one-time action must happen — 五時[ごじ]までに終[お]わらせる (finish it by 5)."
   },
   {
     "particleId": "p_099",
     "particle": "よ",
     "romaji": "yo",
     "meaning": "you know; emphasis (ending particle)",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "よ is a sentence-final particle that adds emphasis, telling the listener something you think they don't already know — a bit like \"you know\" or an exclamation point.\n- Informing: 明日[あした]は休[やす]みだよ (Hey, tomorrow's a holiday)\n- Insisting or reassuring: 大丈夫[だいじょうぶ]だよ (It's fine, really)\n- Softening a warning or urging: 早[はや]く行[い]こうよ (Come on, let's go)\n\nTone matters a lot: よ can sound helpful and friendly, but overused or with the wrong intonation it can feel pushy or know-it-all, so use it where you're genuinely offering new information. It's frequently combined with ね as よね, which softens it into \"…right?\" — 高[たか]いよね (It's expensive, isn't it). Men and women both use it, though the surrounding word forms differ by speech style."
   },
   {
     "particleId": "p_050",
     "particle": "ね",
     "romaji": "ne",
     "meaning": "isn't it? right? eh?",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "ね is a sentence-final particle that seeks agreement or shared feeling — roughly \"isn't it? / right? / you know?\" It invites the listener to nod along.\n- Confirming shared perception: いい天気[てんき]ですね (Nice weather, isn't it?)\n- Seeking light agreement: そうですね (That's right, isn't it / Let me see…)\n- Softening statements and requests so they feel less blunt: これ、お願[ねが]いしますね (I'll leave this to you, okay?)\n\nね assumes the listener shares your view, whereas よ tells them something new — so 高[たか]いですね expects agreement (\"it's pricey, right?\"), while 高[たか]いですよ informs (\"it's pricey, [in case you didn't know]\"). A long, drawn-out ねぇ can express thinking, admiration, or gentle appeal. It's a small word that does a lot of social smoothing."
   },
   {
     "particleId": "p_096",
     "particle": "や",
     "romaji": "ya",
     "meaning": "and; or; connecting particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "や lists nouns like \"and,\" but *non-exhaustively* — it gives representative examples and implies there's more.\n- Partial list: 週末[しゅうまつ]は掃除[そうじ]や洗濯[せんたく]をします (On weekends I do things like cleaning and laundry [among others])\n- Compare with と, which lists things exhaustively: 犬[いぬ]と猫[ねこ] means exactly a dog and a cat; 犬[いぬ]や猫[ねこ] means \"dogs, cats, and such\"\n\nや is often reinforced by など (\"and so on\") at the end: りんごやバナナなど (apples, bananas, and the like). Use や when you're naming a couple of examples from a larger set rather than an exact, complete list. (A separate, sentence-final や exists in casual/Kansai speech, but the listing use is the core one.)"
   },
   {
     "particleId": "p_057",
     "particle": "に/へ",
     "romaji": "ni / e",
     "meaning": "to (indicates direction / destination)",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "へ marks direction or destination — \"to / toward.\" It's written with the hiragana へ but pronounced \"e.\"\n- 学校[がっこう]へ行[い]く (go to school), 日本[にほん]へようこそ (welcome to Japan)\n\nへ overlaps heavily with に for destinations, and they're often interchangeable: 東京[とうきょう]へ行[い]く and 東京[とうきょう]に行[い]く are both fine. The nuance: へ emphasizes the *direction* of movement (heading toward), while に emphasizes *arrival at* a specific point. So に can also mark where something ends up or exists, but へ is purely about the direction traveled. へ also appears in set expressions and on letters/addresses (山田[やまだ]さんへ, \"To Mr. Yamada\"). When in doubt for a destination, either works; for existence or a precise target, use に."
   },
   {
     "particleId": "p_024",
     "particle": "けど",
     "romaji": "kedo",
     "meaning": "but; however; although~",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "けど means \"but / however / although,\" joining two clauses with a contrast. It's the casual, conversational cousin of けれども and が.\n- Contrast: 高[たか]いけど、買[か]う (It's expensive, but I'll buy it)\n- Softening a statement or request (very common): すみません、ちょっと聞[き]きたいんですけど… (Excuse me, I'd like to ask something…)\n\nThat softening use is huge in everyday Japanese: trailing off with けど leaves the sentence gently open, making requests and opinions feel less blunt and inviting a response — 行[い]きたいんですけど… (I'd like to go, but… [is that okay?]). It sits mid-formality: more casual than けれども and が, but usable in most conversation. Politeness comes from what precedes it (ですけど vs. だけど), not from けど itself."
   },
   {
     "particleId": "p_025",
     "particle": "けれども",
     "romaji": "keredo mo",
     "meaning": "but; however; although~",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "けれども means \"but / however / although\" — the fuller, slightly more formal form of けど. The family runs けど (casual) → けども → けれど → けれども (most formal).\n- Contrast between clauses: 練習[れんしゅう]したけれども、勝[か]てなかった (I practiced, but couldn't win)\n- Soft, polite lead-in that trails off: よろしければ、お願[ねが]いしたいのですけれども… (If it's all right, I'd like to ask you…)\n\nLike けど, it both joins contrasting clauses and softens statements by leaving them politely unfinished. Choose けれども in more careful or written contexts and けど in relaxed speech; the meaning is identical. In very formal writing, しかし or が may be preferred, but けれども is a safe, natural middle-ground \"but.\""
   },
   {
     "particleId": "p_041",
     "particle": "なあ",
     "romaji": "naa",
     "meaning": "confirmation; admiration, etc",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "なあ (also written なぁ) is an emotive sentence-final particle, mostly in casual, self-directed speech. It colors a statement with feeling.\n- Admiration or wishing: いいなあ (Nice… I'm jealous / How nice), 海[うみ]に行[い]きたいなあ (I really want to go to the sea)\n- Reflection or musing to oneself: どうしようかなあ (Hmm, what should I do…)\n- Mild emphasis on a feeling: 疲[つか]れたなあ (Man, I'm tired)\n\nThe lengthened vowel gives it a sighing, heartfelt, thinking-out-loud quality. It's informal — you'd use it with friends or when talking to yourself, not in polite/business speech. Combined with a wish (〜たい + なあ) it's a natural way to express longing."
   },
   {
     "particleId": "p_008",
     "particle": "だけ",
     "romaji": "dake",
     "meaning": "only; just; as much as~",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "だけ means \"only / just / no more than,\" limiting something to exactly that amount or item.\n- Limiting a noun: 一人[ひとり]だけ来[き]た (Only one person came), 水[みず]だけ飲[の]んだ (I drank only water)\n- After a verb (plain form): 見[み]るだけ (just looking / only look)\n- \"As much as,\" expressing extent: 好[す]きなだけ食[た]べて (Eat as much as you like), できるだけ (as much as possible)\n\nだけ focuses neutrally on the limit itself. Compare しか (…ない), which limits with a *negative* nuance of insufficiency: 千円[せんえん]だけある (I have 1000 yen [and that's fine]) vs. 千円[せんえん]しかない (I only have 1000 yen [not enough]). だけ can attach directly to nouns and verbs and, with a な-adjective, uses な before it: 静[しず]かなだけ."
   },
   {
     "particleId": "p_077",
     "particle": "たり～たり",
     "romaji": "tari~tari",
     "meaning": "do such things as A and B",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "〜たり〜たり lists representative actions or states — \"doing things like A and B (among others).\" Attach たり to the past-tense (た-form) of each verb, then close with する.\n- Formation: verb-た → verb-たり: 食[た]べる → 食[た]べたり, 飲[の]む → 飲[の]んだり\n- Example: 週末[しゅうまつ]は本[ほん]を読[よ]んだり、映画[えいが]を見[み]たりします (On weekends I do things like read books and watch movies)\n\nUnlike listing actions with the て-form (which implies sequence), 〜たり〜たり gives *examples* in no particular order and implies there's more you're not mentioning. It also expresses alternating or contradictory states: 泣[な]いたり笑[わら]ったり (crying and laughing [by turns]), 暑[あつ]かったり寒[さむ]かったり (sometimes hot, sometimes cold). Even with one example, a single たり + する suggests \"…and such.\""
   },
   {
     "particleId": "p_102",
     "particle": "より～ほうが",
     "romaji": "yori ~hou ga",
     "meaning": "[A] is more than [B]",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "〜より〜のほうが is the standard comparison pattern: \"A is more … than B.\" より marks the standard (the \"than\" item) and ほうが marks the side that wins.\n- Pattern: B より A のほうが + adjective — 犬[いぬ]より猫[ねこ]のほうが好[す]きです (I like cats more than dogs)\n- The order is flexible; what matters is that より tags the loser and ほうが the winner: 電車[でんしゃ]のほうがバスより速[はや]い (The train is faster than the bus)\n\nTo ask which of two, use どちら (どっち): 犬[いぬ]と猫[ねこ]と、どちらのほうが好[す]きですか (Which do you prefer, dogs or cats?). ほう (方) literally means \"side/direction,\" so you're saying \"the A side is more….\" The adjective itself never changes form in Japanese comparisons — より and ほう do all the comparative work."
   },
   {
     "particleId": "p_060",
     "particle": "のです",
     "romaji": "no desu",
     "meaning": "to explain something; show emphasis",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "のです (casual 〜んです) adds an explanatory tone, presenting a statement as the reason, background, or explanation behind something. It's the more formal written form; 〜んです is the spoken contraction.\n- Explaining: どうして遅[おそ]いんですか。— 電車[でんしゃ]が遅[おく]れたんです (Why are you late? — [It's that] the train was delayed)\n- Formation: plain form + のです/んです; with nouns and な-adjectives, insert な — 学生[がくせい]なんです (It's that I'm a student), 静[しず]かなのです\n\nのです signals \"here's the explanation / here's what's really going on,\" often answering or anticipating a \"why?\" It makes questions feel more engaged (どうしたんですか — What's the matter?) and statements feel like they're providing context. Overusing it can sound like you're always justifying yourself, so reserve it for genuine explanation. のだ / んだ are the plain-form equivalents."
   },
   {
     "particleId": "p_049",
     "particle": "んです",
     "romaji": "ndesu",
     "meaning": "to explain something; show emphasis",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "んです is the spoken contraction of のです — the everyday way to give an explanatory nuance, \"it's that… / the thing is….\" It frames a statement as background, reason, or the situation behind something.\n- Giving a reason: 頭[あたま]が痛[いた]いんです (The thing is, I have a headache)\n- Asking for an explanation: どうしたんですか (What happened? / What's wrong?)\n- Formation: plain form + んです; nouns and な-adjectives take な — 病気[びょうき]なんです (It's that I'm sick)\n\nんです makes conversation feel connected — you're explaining *why* or filling in context rather than stating a bare fact. Compare 行[い]きません (I won't go, flat) with 行[い]けないんです (It's that I can't go, [because of something]) — the んです invites understanding. The plain, casual version is んだ / なんだ."
   },
   {
     "particleId": "p_061",
     "particle": "ので",
     "romaji": "node",
     "meaning": "because of; given that; since",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "ので means \"because / since,\" giving a reason — the softer, more objective counterpart to から.\n- Reason: 雨[あめ]が降[ふ]っているので、家[いえ]にいます (Since it's raining, I'll stay home)\n- Formation: attaches to the plain form; nouns and な-adjectives take な — 学生[がくせい]なので (because I'm a student), 静[しず]かなので\n\nので presents the reason as a natural, matter-of-fact cause rather than the speaker's personal assertion, so it sounds more polite and less pushy than から. That makes it the go-to for excuses, apologies, and requests in polite settings: 用事[ようじ]がありますので、失礼[しつれい]します (I have an errand, so I'll excuse myself). Because it feels objective, avoid it when your reason is a strong personal opinion or command — there から fits better. In very polite speech, ですので / ますので forms appear."
   },
   {
     "particleId": "p_018",
     "particle": "か～か",
     "romaji": "ka~ka",
     "meaning": "or",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "か〜か lists alternatives — \"A or B.\" Place か after each option (the final か is often dropped in casual speech).\n- Choosing between options: コーヒーかお茶[ちゃ]か、どちらにしますか (Coffee or tea — which will you have?)\n- Whether or not: 行[い]くか行[い]かないか、まだ決[き]めていない (I haven't decided whether to go or not)\n- With question words: 誰[だれ]か手伝[てつだ]ってくれる人[ひと] (someone who'll help)\n\nThis is the \"exclusive or\" — you pick one. It differs from listing with と/や (which combine items) because か presents them as choices. Embedded in a larger sentence, 〜か〜か often reports an unresolved choice: 電車[でんしゃ]かバスで行[い]きます (I'll go by train or bus). In writing, or between just two clear options, the pattern A か B (single か) is common."
   },
   {
     "particleId": "p_065",
     "particle": "お / ご",
     "romaji": "o / go",
     "meaning": "polite marker; honorific prefix particle",
-    "level": "N5"
+    "level": "N5",
+    "explanation": "お and ご are honorific prefixes attached to nouns (and some adjectives) to make speech more polite, respectful, or refined.\n- お + native Japanese words: お茶[ちゃ] (tea), お金[かね] (money), お名前[なまえ] (name), お元気[げんき] (well)\n- ご + Sino-Japanese (kanji-compound) words: ご家族[かぞく] (family), ご住所[じゅうしょ] (address), ご連絡[れんらく] (contact)\n\nThe rough rule — お for wago (native readings), ご for kango (on'yomi compounds) — has plenty of exceptions (お電話[でんわ], お時間[じかん]), so common pairings are best memorized. These prefixes do several things: show respect toward the listener's things (お名前[なまえ]は？), add polite refinement (especially in women's and service speech), and appear fixed in certain words (ご飯[はん], お茶[ちゃ]). Don't over-apply them to your own humble items, and avoid them with clearly foreign loanwords."
   },
   {
     "particleId": "p_080",
     "particle": "ても",
     "romaji": "temo",
     "meaning": "even; even if; even though~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜ても means \"even if / even though,\" expressing that a result holds regardless of the condition. Attach it to the て-form (with で after the んで/いで group).\n- Formation: 食[た]べる → 食[た]べても, 行[い]く → 行[い]っても, 高[たか]い → 高[たか]くても, noun/な-adj + でも\n- Example: 雨[あめ]が降[ふ]っても、行[い]きます (Even if it rains, I'll go), いくら考[かんが]えても分[わ]からない (No matter how much I think, I don't get it)\n\nても sets up a condition that *doesn't* change the outcome — the opposite of a normal conditional. It pairs often with question words for \"no matter…\": 何[なに]をしても (whatever I do), どんなに難[むずか]しくても (however hard it is). The permission pattern てもいい (\"may / it's okay to\") is built on this: 帰[かえ]ってもいいですか (May I go home?)."
   },
   {
     "particleId": "p_076",
     "particle": "たら",
     "romaji": "tara",
     "meaning": "if; after; when~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜たら is the most versatile conditional — \"if / when / after.\" Form it by adding ら to the plain past (た-form).\n- Formation: 食[た]べた → 食[た]べたら, 行[い]った → 行[い]ったら, 高[たか]かった → 高[たか]かったら, 学生[がくせい]だったら\n- \"If\" (hypothetical): 雨[あめ]が降[ふ]ったら、行[い]きません (If it rains, I won't go)\n- \"When / after\" (something that will definitely happen): 家[いえ]に帰[かえ]ったら、電話[でんわ]します (When I get home, I'll call)\n\nたら works for both real and unreal conditions and is the natural choice when the main clause is a specific, one-time event — a request, plan, or discovery. It also expresses surprise findings: 窓[まど]を開[あ]けたら、雪[ゆき]が降[ふ]っていた (When I opened the window, [I found] it was snowing). Compare と (automatic results), ば (general logic), and なら (given a premise) — たら is the everyday all-rounder."
   },
   {
     "particleId": "p_043",
     "particle": "ながら",
     "romaji": "nagara",
     "meaning": "while; during; as; simultaneously",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜ながら means \"while / as,\" marking two actions done simultaneously by the same person. Attach it to the verb stem (the ます-base).\n- Formation: 食[た]べる → 食[た]べながら, 聞[き]く → 聞[き]きながら\n- Example: 音楽[おんがく]を聞[き]きながら勉強[べんきょう]する (study while listening to music), 歩[ある]きながら話[はな]す (talk while walking)\n\nThe main action is the second clause; the ながら clause is the accompanying, background action. Crucially, both actions must be done by the *same* subject at the same time — you can't use it for two different people. A second, more advned use is concessive, \"even though / although\" (often ながらも): 知[し]っていながら、教[おし]えてくれなかった (Even though he knew, he didn't tell me). Context makes clear which meaning applies."
   },
   {
     "particleId": "p_046",
     "particle": "なら",
     "romaji": "nara",
     "meaning": "if; in the case that~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜なら is a conditional meaning \"if (that's the case) / if it's a matter of.\" It picks up something just mentioned or assumed and responds to it.\n- Formation: attaches to the plain form / noun — 日本[にほん]に行[い]くなら (if you're going to Japan), 田中[たなか]さんなら (if it's Tanaka / as for Tanaka)\n- Responding to a premise: A: 車[くるま]を買[か]いたい。B: 車[くるま]を買[か]うなら、これがいいよ (If you're going to buy a car, this one's good)\n\nなら uniquely comments on a topic or supposition raised by the other speaker — \"given that…, then….\" Because of this, the main clause can happen *before* the なら clause in time, unlike たら. It's also common for advice and recommendations built on the listener's stated situation: 頭[あたま]が痛[いた]いなら、薬[くすり]を飲[の]んだら？ (If your head hurts, why not take medicine?)."
   },
   {
     "particleId": "p_079",
     "particle": "て / で",
     "romaji": "te / de",
     "meaning": "so; because of [A], [B]...",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "The て-form / で-form connects clauses to show cause, sequence, or means — here, the \"because / so\" nuance where one clause leads into the next.\n- Reason (softer, more matter-of-fact than から/ので): 風邪[かぜ]をひいて、学校[がっこう]を休[やす]んだ (I caught a cold, so I stayed home), 忙[いそが]しくて、行[い]けなかった (I was busy, so I couldn't go)\n- With adjectives and nouns: 高[たか]くて買[か]えない (it's expensive, so I can't buy it), 病気[びょうき]で休[やす]む (be off due to illness)\n\nThis causal て can't be used before commands or requests — for those, use から or ので. It expresses a natural consequence where the first clause simply gives rise to the second, often with emotions and involuntary results (嬉[うれ]しくて泣[な]いた — I was so happy I cried). The same て-form also just chains actions in sequence (\"do A and then B\")."
   },
   {
     "particleId": "p_100",
     "particle": "より",
     "romaji": "yori",
     "meaning": "than; rather than; more than~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "より marks the standard of comparison — \"than.\" The thing after より is what you're comparing *against*.\n- Basic: 東京[とうきょう]は大阪[おおさか]より大[おお]きい (Tokyo is bigger than Osaka)\n- Often paired with ほう to spotlight the winner: バスより電車[でんしゃ]のほうが速[はや]い (The train is faster than the bus)\n- \"Rather than,\" expressing preference: 家[いえ]にいるより、出[で]かけたい (Rather than stay home, I want to go out)\n\nThe adjective doesn't change form — より alone signals the comparison. In formal or written contexts, より also means \"from\" (a starting point in time/place), as in 三時[さんじ]より (from 3 o'clock) — a stiffer synonym of から. But its everyday role is the comparative \"than.\""
   },
   {
     "particleId": "p_006",
     "particle": "ばかり",
     "romaji": "bakari",
     "meaning": "only; nothing but~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "ばかり (casual ばっかり / ばっか) means \"only / nothing but,\" stressing that something is done or exists to the exclusion of everything else — often with a slightly negative, \"too much of it\" nuance.\n- With nouns: ゲームばかりしている (He does nothing but play games), お菓子[かし]ばかり食[た]べる (eat only sweets)\n- After the て-form, \"always / constantly doing\": 泣[な]いてばかりいる (does nothing but cry)\n- After the plain past (たばかり), \"just did\" — a separate entry\n\nCompare だけ, which limits neutrally (\"only, and that's fine\"); ばかり adds an editorial \"and that's the problem\" flavor: 遊[あそ]んでばかりで、勉強[べんきょう]しない (All he does is play and never studies). It's great for complaining. The related ばかりでなく / ばかりか means \"not only… but also.\""
   },
   {
     "particleId": "p_086",
     "particle": "という",
     "romaji": "to iu",
     "meaning": "called; named; that~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "という (from と + 言[い]う, \"to say\") links a name or content to a noun — \"called / named / that.\"\n- Naming: 「となりのトトロ」という映画[えいが] (a movie called \"My Neighbor Totoro\"), 田中[たなか]さんという人[ひと] (a person named Tanaka)\n- Introducing content/definition: 幸[しあわ]せというのは… (What \"happiness\" means is…), 犬[いぬ]という動物[どうぶつ] (the animal known as a dog)\n- Reporting information (〜ということだ ≈ \"it is said that / it means that\"): 会議[かいぎ]は中止[ちゅうし]になったということです (I hear the meeting was cancelled)\n\nUse という when you introduce something the listener may not know, attaching a label or explanation to it. The casual spoken form is っていう / って. It also builds many set expressions: 〜というより (rather than), 〜といっても (even though you say…), 〜ということ (the fact that…)."
   },
   {
     "particleId": "p_062",
     "particle": "のに",
     "romaji": "noni",
     "meaning": "although, in spite of, even though~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "のに means \"although / even though / in spite of,\" marking a result that runs *counter to expectation* — usually with a tone of surprise, dissatisfaction, or complaint.\n- Formation: plain form + のに; nouns and な-adjectives take な — 高[たか]いのに買[か]う (buy it even though it's expensive), 便利[べんり]なのに (even though it's convenient), 子供[こども]なのに\n- Example: 一生懸命[いっしょうけんめい]勉強[べんきょう]したのに、試験[しけん]に落[お]ちた (Even though I studied hard, I failed the exam)\n\nのに carries stronger emotion than けど — regret, frustration, or \"how unfair!\" — precisely because the outcome defies what you'd expect. It can even trail off as an exclamation of complaint: せっかく来[き]たのに…(And after I came all this way…). This is distinct from the other のに (purpose, \"in order to\"), which has its own entry; context and the preceding form tell them apart."
   },
   {
     "particleId": "p_063",
     "particle": "のに",
     "romaji": "noni",
     "meaning": "to (do something); in order to~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "This のに means \"(in order) to / for (doing),\" marking the purpose or use something serves. It attaches to a plain-form verb and is typically followed by an evaluation (useful, necessary, convenient…).\n- Formation: verb (dictionary form) + のに — 漢字[かんじ]を覚[おぼ]えるのに時間[じかん]がかかる (It takes time to memorize kanji)\n- Example: このハサミは紙[かみ]を切[き]るのに便利[べんり]だ (These scissors are handy for cutting paper), 日本[にほん]で働[はたら]くのにビザが必要[ひつよう]だ (You need a visa to work in Japan)\n\nHere の nominalizes the verb (\"the act of doing X\") and に marks it as the purpose/target, so the whole thing means \"for the purpose of doing X.\" It commonly precedes words like 使[つか]う, 必要[ひつよう], 便利[べんり], いい, かかる. Don't confuse it with the concessive のに (\"although\"), which expresses contrary-to-expectation and usually carries emotion."
   },
   {
     "particleId": "p_064",
     "particle": "のは〜だ",
     "romaji": "nowa~da",
     "meaning": "[A] is [B]; the reason for [A] is [B]",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜のは〜だ is a focus (cleft) construction that spotlights one part of a sentence — \"The one who/that… is….\" の nominalizes a clause, は topicalizes it, and だ/です presents the key information.\n- Highlighting the who/what/when/where: 昨日[きのう]来[き]たのは田中[たなか]さんです (The one who came yesterday was Tanaka)\n- Giving a reason (〜のは〜からだ): 遅[おく]れたのは、電車[でんしゃ]が止[と]まったからです (The reason I was late is that the train stopped)\n\nYou take a normal sentence, turn the part you want to emphasize into the \"…だ\" slot, and nominalize the rest with の(は). Compare plain 田中[たなか]さんが昨日[きのう]来[き]た with the cleft version, which answers \"who came?\" by placing 田中[たなか]さん in the spotlight. It's the natural way to stress a specific element or explain the cause behind a situation."
   },
   {
     "particleId": "p_010",
     "particle": "でも",
     "romaji": "demo",
     "meaning": "... or something; how about~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "でも has several distinct roles depending on position.\n- Sentence-initial \"but / however\": 疲[つか]れた。でも、頑張[がんば]る (I'm tired. But I'll keep going)\n- After a noun, \"…or something,\" softly suggesting: お茶[ちゃ]でも飲[の]みませんか (Shall we have some tea or something?) — a gentle, non-committal invitation\n- \"Even,\" with emphasis: 子供[こども]でもできる (Even a child can do it), 先生[せんせい]でも間違[まちが]える (Even teachers make mistakes)\n- With question words, \"any-\": 何[なに]でも (anything), いつでも (anytime), どこでも (anywhere), 誰[だれ]でも (anyone)\n\nThe invitation use (〜でも) is especially handy for keeping suggestions low-pressure. The \"even\" use highlights an extreme or surprising example. Which meaning applies is clear from where でも sits and what follows."
   },
   {
     "particleId": "p_069",
     "particle": "し",
     "romaji": "shi",
     "meaning": "and; and what's more; emphasis~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "し lists reasons or qualities in an additive, \"and what's more\" way — piling up supporting points, often with an implied \"so….\"\n- Listing reasons: この店[みせ]は安[やす]いし、おいしいし、近[ちか]い (This place is cheap, and tasty, and close [so it's great])\n- Formation: attaches to the plain form — 頭[あたま]もいいし、性格[せいかく]もいい (smart and nice too)\n\nUnlike a plain \"and,\" し implies these are grounds building toward a conclusion, so it's excellent for justifying a choice or opinion. Even a single し can hint at an unstated reason: もう遅[おそ]いし…(It's late, and [so let's stop / I should go]). It gives a casual, \"for one thing… for another…\" feel and pairs naturally with も (\"also\") on each item. Politeness comes from the form before it (ですし / いいですし)."
   },
   {
     "particleId": "p_073",
     "particle": "たばかり",
     "romaji": "ta bakari",
     "meaning": "just finished; something just occurred",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜たばかり means \"just (did) / just finished,\" stressing that very little time has passed since an action — from the speaker's feeling, not the clock. Attach ばかり to the plain past (た-form).\n- Formation: 食[た]べた → 食[た]べたばかり, 来[き]た → 来[き]たばかり\n- Example: 日本[にほん]に来[き]たばかりです (I just came to Japan), ご飯[はん]を食[た]べたばかりなのに、もうお腹[なか]がすいた (I just ate, yet I'm already hungry)\n\nThe key is subjective freshness: 買[か]ったばかりの車[くるま] (a just-bought car) can describe something owned for months if it still feels new to you. Compare 〜たところ, which means \"just did\" only in a literal, moment-ago sense. たばかり + の modifies nouns directly (生[う]まれたばかりの赤[あか]ちゃん — a newborn baby)."
   },
   {
     "particleId": "p_083",
     "particle": "と",
     "romaji": "to",
     "meaning": "whenever [A] happens, [B]...",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "This と is the conditional \"whenever / if A, then B\" — it marks an automatic, natural, or inevitable result. Attach it to the dictionary (plain non-past) form.\n- Formation: 押[お]す → 押[お]すと, 行[い]く → 行[い]くと\n- General truth / mechanism: このボタンを押[お]すと、ドアが開[あ]く (If/when you press this button, the door opens)\n- Natural consequence: 春[はる]になると、桜[さくら]が咲[さ]く (When spring comes, the cherry blossoms bloom)\n- Discovery: 家[いえ]に帰[かえ]ると、手紙[てがみ]が届[とど]いていた (When I got home, [I found] a letter had arrived)\n\nと expresses that B reliably follows A — laws of nature, directions, habits, machine operation. Because the result is automatic, the main clause can't be a request, command, or invitation (use たら/ば/なら for those). It's the conditional for \"every time this, that.\""
   },
   {
     "particleId": "p_088",
     "particle": "とか～とか",
     "romaji": "toka~toka",
     "meaning": "among other things; such as; like~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "〜とか〜とか lists examples casually — \"things like A and B, and so on.\" It's the conversational, looser cousin of や.\n- Listing nouns: 週末[しゅうまつ]は映画[えいが]とか買[か]い物[もの]とかします (On weekends I do stuff like watch movies and shop)\n- Listing actions (plain form + とか): 泳[およ]ぐとか、走[はし]るとか、運動[うんどう]しよう (Let's exercise — swim, run, that kind of thing)\n\nとか implies the list is incomplete and a bit vague, which makes speech sound relaxed and non-committal. A single とか can soften a lone example, hinting there's more: コーヒーとか飲[の]む？ (Wanna grab a coffee or something?). It also reports uncertain hearsay: 来[こ]ないとか言[い]ってた (He said something like he's not coming). Use it in casual conversation; in writing, や or など is cleaner."
   },
   {
     "particleId": "p_040",
     "particle": "な",
     "romaji": "na",
     "meaning": "don't ~ (order to not do something)",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "This な is the abrupt negative command — \"don't (do)!\" Attach it directly to a verb's dictionary form.\n- Formation: 行[い]く → 行[い]くな (Don't go!), 見[み]る → 見[み]るな (Don't look!)\n- Example: 心配[しんぱい]するな (Don't worry), ここに入[はい]るな (Don't enter here)\n\nThis is strong, blunt, and masculine — used in warnings, signs, sports, the military, and by men in rough or urgent speech. It's the flat prohibition counterpart to the plain command (行[い]け \"Go!\"). For everyday polite prohibition, use 〜ないでください instead. Don't confuse this 禁止[きんし] な with the softening sentence-final な (行[い]くな… as a musing/confirming particle) or the な that attaches な-adjectives to nouns — same kana, very different jobs, distinguished by context and what precedes them."
   },
   {
     "particleId": "p_093",
     "particle": "って",
     "romaji": "tte",
     "meaning": "named; called~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "って is the casual, spoken all-purpose quotation and topic marker — a contraction covering という, と, and は in relaxed speech.\n- Quoting what was said/thought: 「行[い]かない」って言[い]ってた (He said he's not going), 無理[むり]だって (He says it's impossible)\n- Naming (= という): トトロっていう映画[えいが] (a movie called Totoro)\n- Marking a topic / \"speaking of\" (= は): 日本語[にほんご]って難[むずか]しい (Japanese, it's hard, huh)\n- Reporting hearsay at sentence end: 明日[あした]、雨[あめ]だって (I hear it'll rain tomorrow)\n\nって is everywhere in conversation because it's quick and flexible. Which meaning applies is clear from context: after a quote it's quotative, after a topic noun it's は-like, before a noun it's という. It's distinctly casual — in polite or written Japanese, spell it out as という / と / は."
   },
   {
     "particleId": "p_021",
     "particle": "かな",
     "romaji": "kana",
     "meaning": "I wonder; should I?",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "かな is a casual sentence-final particle expressing wondering or uncertainty — \"I wonder….\" It's か (question) + な (musing), mostly directed at oneself.\n- Wondering: 明日[あした]は晴[は]れるかな (I wonder if it'll be sunny tomorrow)\n- Self-questioning / hesitation: どうしようかな (Hmm, what should I do…)\n- Soft hope (かな…as in 〜ないかな): 早[はや]く来[こ]ないかな (I hope he comes soon)\n\nかな softens a thought into a private musing rather than a direct question to the listener, which also makes it a gentle way to voice doubt or a tentative opinion: これでいいかな (Is this okay, I wonder?). It's informal. かしら is a similar, softer/older variant traditionally associated with women's speech. Adding よ (かなあ) lengthens the pondering feel."
   },
   {
     "particleId": "p_017",
     "particle": "かしら",
     "romaji": "ka shira",
     "meaning": "I wonder~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "かしら is a sentence-final particle meaning \"I wonder…,\" expressing doubt or musing. It's traditionally feminine and a bit soft or old-fashioned, roughly the women's-speech counterpart to casual かな.\n- Wondering: 彼[かれ]は来[く]るかしら (I wonder if he'll come)\n- Soft request/hope (〜ないかしら): 手伝[てつだ]ってくれないかしら (I wonder if you'd help me…)\n\nLike かな, it turns a question inward into gentle pondering rather than a pointed query, which softens the tone. It's most associated with older or refined feminine speech and appears in novels and polite conversation; younger speakers of any gender lean toward かな. Use it to sound gentle and reflective — 大丈夫[だいじょうぶ]かしら (I do wonder if it's all right)."
   },
   {
     "particleId": "p_020",
     "particle": "かい",
     "romaji": "kai",
     "meaning": "turn sentence into a yes/no question",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "かい is a casual sentence-final particle that turns a statement into a soft yes/no question. It's a gentler, warmer alternative to plain か, with a friendly, sometimes fatherly or old-fashioned masculine tone.\n- Yes/no question: 元気[げんき]かい？ (You doing okay?), 分[わ]かったかい？ (Did you get it?)\n\nかい pairs with yes/no questions; for question-word (information) questions, the casual ending is だい instead (どこへ行[い]くんだい — Where are you off to?). Because it sounds kindly and informal, it's used with people you're close to or younger than you — a parent to a child, an older man to a friend. It's warmer than a blunt か but still casual, so keep it out of polite/business speech."
   },
   {
     "particleId": "p_042",
     "particle": "など",
     "romaji": "nado",
     "meaning": "such as, things like~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "など means \"and so on / such as / things like,\" marking an item as one example among others (it implies the list is incomplete).\n- After a noun or list: 果物[くだもの]、例[たと]えばりんごやバナナなど (fruit — for example apples, bananas, and so on)\n- Softening / humbling (often about oneself): 私[わたし]などにはできません (Someone like me couldn't possibly do it)\n- Dismissive \"the likes of\": お金[かね]などいらない (I don't want money or anything like it)\n\nなど frequently caps a や-list to reinforce \"and the like.\" Beyond listing, it adds a modest or belittling nuance — humble about yourself, or dismissive of something you scorn. Its casual spoken variants are なんか and なんて, which carry the same \"…and such / …of all things\" flavor with a more colloquial tone."
   },
   {
     "particleId": "p_033",
     "particle": "も",
     "romaji": "mo",
     "meaning": "as many as; as much as; up to~",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "This も emphasizes a *large* quantity — \"as much as / as many as / no less than.\" Attach it to a number or amount.\n- Stressing a big amount: 三時間[さんじかん]も待[ま]った (I waited [a whole] three hours), 一万円[いちまんえん]もした (It cost as much as 10,000 yen)\n- Example: パーティーに百人[ひゃくにん]も来[き]た (As many as a hundred people came)\n\nHere も conveys the speaker's surprise that the number is *high*. Its mirror image is か / しか with a small number for \"only\": 千円[せんえん]もある (as much as 1000 yen) vs. 千円[せんえん]しかない (only 1000 yen). With a negative and a minimal amount, も means \"not even\": 一円[いちえん]もない (I don't have even one yen). So a number + も colors the amount as strikingly much (or, when negated, strikingly none)."
   },
   {
     "particleId": "p_001",
     "particle": "ば",
     "romaji": "ba",
     "meaning": "conditional form; If [A] then [B]",
-    "level": "N4"
+    "level": "N4",
+    "explanation": "ば is the \"provisional\" conditional, expressing general, logical \"if A, then B\" relationships — natural consequences, rules, and hypotheses.\n- Formation (う-verbs shift to the え-row + ば; る-verbs → れば; い-adj drop い + ければ): 行[い]く → 行[い]けば, 食[た]べる → 食[た]べれば, 安[やす]い → 安[やす]ければ, する → すれば\n- General truth: 春[はる]になれば、暖[あたた]かくなる (If/when spring comes, it gets warm)\n- Advice / hypothesis: 練習[れんしゅう]すれば、上手[じょうず]になる (If you practice, you'll get better)\n\nば emphasizes the logical link between condition and result and shines in proverbs and general principles (塵[ちり]も積[つ]もれば山[やま]となる — many a little makes a mickle). Because it's about general logic, avoid it when the main clause is a specific request or command directed at a set time — use たら there. The pattern 〜も〜ば〜も (and… and…) and 〜ばよかった (should have) build on it."
   },
   {
     "particleId": "p_002",
     "particle": "ばいい",
     "romaji": "ba ii",
     "meaning": "should, can, it'd be good if~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜ばいい means \"should / it'd be good if / can just,\" suggesting a solution or the right course of action. It's built on the ば-conditional + いい (\"good\").\n- Giving advice / a solution: 分[わ]からなかったら、先生[せんせい]に聞[き]けばいい (If you don't understand, you can just ask the teacher)\n- Suggesting what would be good: どうすればいいですか (What should I do?)\n- Wishing (〜ばいいのに): 明日[あした]晴[は]れればいいのに (I hope it's sunny tomorrow [but it might not be])\n\nLiterally \"if you do X, it's good,\" it points to X as the recommended or sufficient action. The question form どう〜ばいい is the standard way to ask for guidance. Adding のに at the end turns it into a wistful wish about something not (yet) true. Related patterns たらいい / といい express similar \"it'd be nice if\" hopes."
   },
   {
     "particleId": "p_003",
     "particle": "ば～ほど",
     "romaji": "ba~hodo",
     "meaning": "the more… the more",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜ば〜ほど means \"the more… the more…,\" describing how one thing scales with another. Use the same verb/adjective twice: once in the ば-form, once in the plain/ほど form.\n- Formation: 考[かんが]えれば考[かんが]えるほど (the more I think), 高[たか]ければ高[たか]いほど (the more expensive), 練習[れんしゅう]すればするほど (the more you practice)\n- Example: 練習[れんしゅう]すればするほど、上手[じょうず]になる (The more you practice, the better you get)\n\nThe pattern expresses proportional change — as the first quantity increases, so does the second. With な-adjectives and nouns it uses なら…なほど (便利[べんり]なら便利[べんり]なほどいい — the more convenient the better). You can sometimes shorten it to just 〜ほど (考[かんが]えるほど分[わ]からなくなる — the more I think, the less I understand). It's the go-to structure for \"increasingly… as….\""
   },
   {
     "particleId": "p_004",
     "particle": "ば～のに",
     "romaji": "ba~noni",
     "meaning": "would have; should have; if only~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜ば〜のに (often 〜ばよかったのに / 〜ばいいのに) expresses a counterfactual regret or wish — \"if only…; would/should have.\" It combines the ば-conditional with のに's contrary-to-expectation feeling.\n- Regret about the past (〜ばよかった): もっと勉強[べんきょう]すればよかった (I should have studied more [but didn't])\n- Reproach or wish toward someone: 言[い]ってくれればよかったのに (You could have just told me…)\n- Wish about the present/future: お金[かね]があればいいのに (If only I had money)\n\nThe のに adds a rueful \"…but it isn't/wasn't so\" tone, turning the conditional into a lament or gentle complaint. 〜ばよかった is the fixed way to say \"should have\" about your own past actions; adding のに aims that regret outward (\"if only you had…\"). It's the natural structure for hindsight and unfulfilled wishes."
   },
   {
     "particleId": "p_030",
     "particle": "くらい / ぐらい",
     "romaji": "kurai / gurai",
     "meaning": "approximately; about; around",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "くらい (also ぐらい — the two are interchangeable, with ぐらい common after some sounds) means \"about / approximately,\" and by extension \"to the extent of.\"\n- Approximate amount/time: 三十分[さんじゅっぷん]くらい待[ま]った (I waited about 30 minutes), 千円[せんえん]ぐらい (around 1000 yen)\n- Minimizing (\"just / at least that much\"): それくらい自分[じぶん]でやりなさい (At least do that much yourself)\n- Degree/extent of a state: 泣[な]きたいくらい疲[つか]れた (I'm tired to the point of wanting to cry)\n\nFor rough quantities, くらい/ぐらい is like ほど and 約[やく], but it's the most casual and versatile. It also downplays something as \"only about that much,\" and it expresses the extent of a feeling by comparison (死[し]ぬくらい恥[は]ずかしい — embarrassed enough to die). Use it whenever precision isn't needed."
   },
   {
     "particleId": "p_013",
     "particle": "ほど",
     "romaji": "hodo",
     "meaning": "degree; extent; bounds; upper limit",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "ほど means \"degree / extent,\" expressing how far something goes — \"to the extent that / about.\"\n- Extent of a state (…enough to…): 歩[ある]けないほど疲[つか]れた (I was tired to the point I couldn't walk)\n- Approximate amount (more formal than くらい): 一時間[いちじかん]ほど (about an hour), 百人[ひゃくにん]ほど\n- Comparison of degree: 今日[きょう]は昨日[きのう]ほど暑[あつ]くない (Today isn't as hot as yesterday) — this negative use is its own entry\n\nほど sets a benchmark of degree: X ほど means \"to the level of X.\" It pairs with a striking comparison to convey intensity (信[しん]じられないほど美[うつく]しい — unbelievably beautiful). It also drives 〜ば〜ほど (\"the more… the more\"). As an approximator it's a touch more formal/written than くらい. The core idea in every use is measuring an extent."
   },
   {
     "particleId": "p_014",
     "particle": "ほど～ない",
     "romaji": "hodo~nai",
     "meaning": "is not as… as~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜ほど〜ない means \"not as … as ～,\" the standard way to say something falls short of a benchmark. The ほど phrase is the standard you're not reaching, and the predicate is negative.\n- Formation: A は B ほど〜ない — 今日[きょう]は昨日[きのう]ほど寒[さむ]くない (Today isn't as cold as yesterday)\n- Example: 私[わたし]は兄[あに]ほど背[せ]が高[たか]くない (I'm not as tall as my older brother), 思[おも]ったほど難[むずか]しくなかった (It wasn't as hard as I expected)\n\nThis is Japanese's main \"not as…as\" comparison. Note the structure differs from より comparisons: with ほど〜ない you state that A doesn't reach B's level, implying B is the greater one. It also appears with これ/それ/あれほど for \"not as … as this/that\" (これほどおいしい店[みせ]はない — there's no shop as tasty as this). The negative predicate is essential to the pattern."
   },
   {
     "particleId": "p_054",
     "particle": "にとって",
     "romaji": "ni totte",
     "meaning": "to; for; concerning; regarding~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "にとって means \"to / for / from the standpoint of,\" marking whose perspective a judgment or value is seen from.\n- Formation: noun + にとって — 私[わたし]にとって、家族[かぞく]が一番[いちばん]大切[たいせつ]だ (For me, family is most important)\n- Example: 子供[こども]にとって、遊[あそ]びは大切[たいせつ]だ (For children, play is important), 彼[かれ]にとっては簡単[かんたん]な問題[もんだい]だ (To him, it's an easy problem)\n\nにとって frames the following statement as true *from that person's or group's viewpoint* — what's easy, important, or meaningful *for them*. It's typically followed by an evaluation (大切[たいせつ], 難[むずか]しい, 必要[ひつよう], 幸[しあわ]せ). Don't confuse it with に (a plain target) or について (about a topic); にとって specifically means \"as seen by / for the sake of.\" Often written にとっては with topic は for extra emphasis."
   },
   {
     "particleId": "p_055",
     "particle": "について",
     "romaji": "ni tsuite",
     "meaning": "concerning; regarding; about; on~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "について means \"about / concerning / regarding,\" marking the topic that something (a talk, book, thought, question) treats.\n- Formation: noun + について — 日本[にほん]の文化[ぶんか]について話[はな]す (talk about Japanese culture)\n- Example: この問題[もんだい]について、どう思[おも]いますか (What do you think about this issue?), 環境[かんきょう]について調[しら]べる (research about the environment)\n\nについて introduces the subject matter of an activity — it pairs with verbs like 話[はな]す, 書[か]く, 考[かんが]える, 調[しら]べる, 質問[しつもん]する. To modify a noun, use についての: 歴史[れきし]についての本[ほん] (a book about history). It's more focused and formal than the casual 〜のこと. A close relative, に関[かん]して, is even more formal. Use について whenever you mean \"on the topic of.\""
   },
   {
     "particleId": "p_056",
     "particle": "には",
     "romaji": "ni wa",
     "meaning": "for the purpose of; in order to~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "には combines に + は, marking a target, purpose, or condition and topicalizing/emphasizing it. A key use is \"in order to / for (the purpose of).\"\n- Purpose (verb dictionary + には): 日本語[にほんご]を上手[じょうず]になるには、練習[れんしゅう]が必要[ひつよう]だ (To get good at Japanese, practice is necessary)\n- Emphasizing a target/recipient: 私[わたし]には難[むずか]しい (For me, it's hard), 子供[こども]にはまだ早[はや]い (It's too soon for a child)\n- Contrast on a location/time: 東京[とうきょう]には行[い]ったが、京都[きょうと]には行[い]っていない (I went to Tokyo, but not Kyoto)\n\nThe purpose use (〜には〜が必要[ひつよう]/大切[たいせつ]) is common: it states a goal, then what's required to reach it. The は adds emphasis or contrast to whatever に marks — a person, a place, a purpose — often highlighting it against alternatives."
   },
   {
     "particleId": "p_052",
     "particle": "にしても",
     "romaji": "ni shite mo",
     "meaning": "even if; even though; regardless of~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "にしても means \"even if / even though / regardless of,\" conceding a point while asserting something still holds.\n- Formation: noun / plain form + にしても — 行[い]くにしても、後[あと]で連絡[れんらく]して (Even if you go, contact me afterward)\n- Example: 冗談[じょうだん]にしても、ひどい (Even as a joke, that's terrible), 高[たか]いにしても、必要[ひつよう]なら買[か]う (Even if it's expensive, I'll buy it if it's necessary)\n\nにしても grants \"let's say that's the case, even so…,\" acknowledging a possibility or fact but pushing back or adding a caveat. Doubled as 〜にしても〜にしても it means \"whether A or B\": 行[い]くにしても行[い]かないにしても、決[き]めて (Whether you go or not, decide). It's related to but distinct from にしては (\"for / considering,\" measuring against expectation) — にしても is concessive, にしては is about a standard."
   },
   {
     "particleId": "p_053",
     "particle": "にしては",
     "romaji": "ni shite wa",
     "meaning": "for; considering it's~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "にしては means \"for / considering (that it's) …,\" judging something against the standard you'd expect from that category — and usually noting a mismatch.\n- Formation: noun / plain form + にしては — 冬[ふゆ]にしては暖[あたた]かい (It's warm for winter)\n- Example: 初[はじ]めてにしては上手[じょうず]だ (For a first try, that's good), 子供[こども]にしては難[むずか]しい言葉[ことば]を使[つか]う (For a child, he uses difficult words)\n\nにしては sets up \"given the expectation attached to X, this is surprisingly (not) so.\" The result typically defies the norm for that category — better, worse, older, harder than you'd assume. Contrast にとって (from someone's viewpoint) and にしても (even if): にしては is specifically \"measured against what X would normally lead you to expect.\" It often carries mild surprise or evaluation."
   },
   {
     "particleId": "p_028",
     "particle": "こそ",
     "romaji": "koso",
     "meaning": "for sure; precisely; definitely~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "こそ is an emphatic particle meaning \"precisely / exactly / for sure,\" spotlighting a word as *the* one that matters, often in contrast to others.\n- Emphasizing a noun: 今度[こんど]こそ勝[か]つ (This time for sure I'll win), 今[いま]こそチャンスだ (Now is exactly the moment)\n- Reciprocating in greetings: こちらこそ (The pleasure is mine / Likewise)\n- Stressing a reason (からこそ): 好[す]きだからこそ、厳[きび]しくする (It's precisely because I care that I'm strict) — its own related pattern\n\nこそ singles out its word as uniquely true or important, brushing aside alternatives — \"this one, above all.\" It's common in resolutions (今年[ことし]こそ — this year for sure) and set phrases. Unlike も or は, it actively highlights rather than adds or contrasts neutrally. からこそ intensifies a reason (\"for that very reason\"), a favorite for heartfelt explanations."
   },
   {
     "particleId": "p_067",
     "particle": "さえ",
     "romaji": "sae",
     "meaning": "even; so much as; not even",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "さえ means \"even,\" citing an extreme or minimal example to imply everything else follows — \"even X, so certainly others.\"\n- Extreme example: 専門家[せんもんか]でさえ分[わ]からない (Even an expert doesn't understand it), 名前[なまえ]さえ書[か]けない (He can't even write his name)\n- \"Not even\" with a negative: 水[みず]さえ飲[の]めなかった (I couldn't even drink water)\n\nさえ picks the least likely or most basic case to make a point about the whole range: if even *that* is true, the rest certainly is. It's stronger and more surprising than も (\"also/too\"). It attaches to nouns (でさえ after some) and often replaces を/が. The related さえ〜ば means \"if only / as long as,\" a minimum sufficient condition — that's its own entry. Core idea: \"even (this much).\""
   },
   {
     "particleId": "p_068",
     "particle": "さえ～ば",
     "romaji": "sae~ba",
     "meaning": "if only; as long as",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜さえ〜ば means \"if only / as long as,\" naming the single sufficient condition for a result — nothing else is needed.\n- Formation: noun + さえ + verb-ば, or verb-stem + さえすれば — お金[かね]さえあれば、何[なん]でもできる (If only I had money, I could do anything)\n- Example: 薬[くすり]を飲[の]みさえすれば、治[なお]る (As long as you just take the medicine, you'll get better), 天気[てんき]さえよければ、行[い]く (As long as the weather's good, I'll go)\n\nThe pattern isolates one condition as the *only* thing that matters — meet it and the outcome is assured. さえ marks that minimal requirement and ば supplies the \"if.\" It's a strong, focused conditional: \"just this one thing, and we're set.\" Compare plain ば (general if) — さえ〜ば adds \"and that alone is enough.\" Common shapes include noun + さえ〜ば and verb-stem + さえ + すれば."
   },
   {
     "particleId": "p_070",
     "particle": "しかない",
     "romaji": "shikanai",
     "meaning": "have no choice but~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "しかない means \"have no choice but to / there's nothing to do except.\" It combines しか (\"only,\" with a negative) + ない, so literally \"there is only ~ and nothing else.\"\n- After a verb (dictionary form): バスがないから、歩[ある]くしかない (There's no bus, so I have no choice but to walk)\n- After a noun, \"only / nothing but\": 方法[ほうほう]はこれしかない (This is the only way), 千円[せんえん]しかない (I only have 1000 yen)\n\nWith a verb, しかない expresses resignation — the sole remaining option, like it or not: 諦[あきら]めるしかない (I can only give up). With a noun, it's the plain \"only…\" that しか always carries, stressing insufficiency or exclusivity (remember しか always pairs with a negative). Compare だけ (neutral \"only\") — しか(ない) adds \"and nothing more, unfortunately.\""
   },
   {
     "particleId": "p_029",
     "particle": "こと",
     "romaji": "koto",
     "meaning": "(must) do",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "This こと is a nominalizer — it turns a verb or clause into a noun, \"the act/fact of doing.\" It's more formal and abstract than の.\n- Nominalizing: 本[ほん]を読[よ]むことが好[す]きだ (I like reading), 日本[にほん]に行[い]ったことがある (I have been to Japan [the experience of having gone])\n- Set patterns: 〜ことができる (can do), 〜ことがある (there are times when / have experienced), 〜ことにする (decide to), 〜ことになる (it's decided that)\n\nこと and の both nominalize, but こと feels formal/written and suits general facts and fixed grammar patterns, while の is conversational and preferred for direct perception (歌[うた]うのを聞[き]く — hear someone sing). Sentence-final こと can even give a soft command or rule (廊下[ろうか]を走[はし]らないこと — no running in the hall). It's one of the two workhorse nominalizers."
   },
   {
     "particleId": "p_026",
     "particle": "きり",
     "romaji": "kiri",
     "meaning": "only; just; since; after~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "きり (also っきり) marks a limit — \"only / just,\" or \"since / after (and nothing since).\"\n- \"Only / just\" (like だけ): 二人[ふたり]きりで話[はな]す (talk just the two of us), 一度[いちど]きり (only once)\n- After the た-form, \"since… (and that was the last)\": 彼[かれ]とは去年[きょねん]会[あ]ったきりだ (I haven't seen him since we met last year), 出[で]かけたきり、帰[かえ]ってこない (He went out and never came back)\n\nThe たきり use is powerful: it says an action happened and then the expected follow-up never did — someone left and stayed gone, you borrowed something and never returned it. It implies an unbroken state continuing from that last point. As a plain limiter, きり overlaps with だけ but sounds a bit more idiomatic and often intimate (二人[ふたり]きり — alone together). 〜っきり is the emphatic colloquial form."
   },
   {
     "particleId": "p_031",
     "particle": "くせに",
     "romaji": "kuse ni",
     "meaning": "and yet; although; despite the fact~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "くせに means \"even though / and yet / despite,\" joining clauses with a *critical or reproachful* contrast — the speaker disapproves.\n- Formation: plain form + くせに; nouns take の, な-adjectives take な — 知[し]っているくせに、教[おし]えてくれない (He knows, yet won't tell me), 子供[こども]のくせに生意気[なまいき]だ (Cheeky, for a kid)\n- Example: 下手[へた]なくせに、いつも歌[うた]いたがる (Even though he's bad at it, he always wants to sing)\n\nくせに resembles のに (\"although\") but adds blame, contempt, or complaint — it's judgmental and personal, so it's limited to informal speech and never neutral. The two clauses usually share the same subject, and the speaker finds the mismatch objectionable (\"he's only X, and yet dares to Y\"). Because of its accusatory tone, avoid it in polite situations; use のに for neutral contrast."
   },
   {
     "particleId": "p_044",
     "particle": "ながらも",
     "romaji": "nagara mo",
     "meaning": "but; although; despite~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜ながらも means \"although / even though / despite,\" a concessive built on ながら. It marks a state that coexists with a contrasting one.\n- Formation: verb-stem / adjective / noun + ながらも — 貧[まず]しいながらも、幸[しあわ]せに暮[く]らす (Though poor, they live happily)\n- Example: 残念[ざんねん]ながらも、諦[あきら]めた (Regrettably though it was, I gave up), 知[し]っていながらも黙[だま]っていた (Even while knowing, he stayed silent)\n\nUnlike the simultaneous \"while\" ながら, ながらも is purely concessive — \"even being/doing X, nonetheless Y.\" It often appears in somewhat literary or set expressions (残念[ざんねん]ながら, 我[わ]がままながら). The も intensifies the contrast, stressing that Y holds in spite of X. Think of it as a more written, compact \"although,\" frequently pairing a modest or limiting first clause with a positive result."
   },
   {
     "particleId": "p_045",
     "particle": "なんか / なんて / など",
     "romaji": "nanka / nante / nado",
     "meaning": "examples; modesty; make light of~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "なんか / なんて / など are a family meaning \"…and such / …things like / …of all things,\" listing loosely or adding an emotional (often dismissive or humble) color. など is the neutral/formal one; なんか and なんて are casual and emotive.\n- Example listing: 映画[えいが]なんか(を)見[み]に行[い]こう (Let's go see a movie or something)\n- Downplaying / humbling oneself: 私[わたし]なんか、まだまだです (Someone like me is nowhere near good enough)\n- Scorn or surprise: お化[ば]けなんて、いない (Ghosts and the like don't exist), 泣[な]くなんて、子供[こども]みたいだ (Crying, of all things — how childish)\n\nThe nuance is key: these words belittle, dismiss, or express modest self-effacement, beyond just \"etc.\" なんて can also introduce a surprising fact (\"to think that…\"). Use など in writing/formal speech and なんか/なんて in casual conversation. Which emotion applies — humble, dismissive, or astonished — comes from context."
   },
   {
     "particleId": "p_015",
     "particle": "いくら～ても",
     "romaji": "ikura~temo",
     "meaning": "no matter how~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜いくら〜ても means \"no matter how much / however much,\" stressing that even an extreme degree changes nothing. いくら (\"how much\") pairs with a ても-clause.\n- Formation: いくら + [verb/adj て-form] + も — いくら食[た]べても、太[ふと]らない (No matter how much I eat, I don't gain weight)\n- Example: いくら考[かんが]えても、答[こた]えが分[わ]からない (However much I think, I can't find the answer), いくら高[たか]くても買[か]う (No matter how expensive, I'll buy it)\n\nThe いくら sets up an unlimited degree, and ても says the result is unaffected — a strong, emphatic version of plain ても. Similar patterns use どんなに or どれだけ in place of いくら (どんなに疲[つか]れても — no matter how tired). Use it to insist that quantity or intensity is irrelevant to the outcome. The ても clause carries the concession; いくら simply cranks it to \"any amount.\""
   },
   {
     "particleId": "p_023",
     "particle": "から〜にかけて",
     "romaji": "kara~ni kakete",
     "meaning": "through; from [A] to [B]",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜から〜にかけて means \"from … through / over (a range),\" describing a continuous span across time or space without sharp boundaries.\n- Formation: A から B にかけて — 夜[よる]から朝[あさ]にかけて、雨[あめ]が降[ふ]った (It rained from night through morning)\n- Example: 東京[とうきょう]から神奈川[かながわ]にかけて、地震[じしん]があった (There was an earthquake spanning Tokyo to Kanagawa), 春[はる]から夏[なつ]にかけて (from spring into summer)\n\nUnlike から〜まで (which marks precise start and end points), から〜にかけて describes an approximate, continuous stretch where the phenomenon occurs throughout — good for weather, seasons, regions, and gradual events. The endpoints are fuzzy on purpose. Use it for something happening *across* a broad interval rather than starting and stopping at exact limits."
   },
   {
     "particleId": "p_027",
     "particle": "っけ",
     "romaji": "kke",
     "meaning": "confirm / trying to remember",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "っけ is a casual sentence-final particle used when you're trying to recall or confirm something you've half-forgotten — \"was it…? / what was…again?\"\n- Trying to remember: 明日[あした]の会議[かいぎ]、何時[なんじ]だっけ (What time was tomorrow's meeting again?)\n- Confirming a fuzzy memory: ここ、来[き]たことあったっけ (Have we been here before? [I forget])\n\nっけ signals that the information is somewhere in your memory but not quite retrievable, inviting the listener to help fill it in — or just musing to yourself. It attaches to plain past forms and to だ/です (だっけ / でしたっけ). でしたっけ / ましたっけ keep it mildly polite. It's warm and conversational, common when picking up a dropped thread (\"wait, what was your name again?\"). Use it only in casual or friendly-polite speech."
   },
   {
     "particleId": "p_035",
     "particle": "も～ば～も",
     "romaji": "mo~ba~mo",
     "meaning": "and; also; as well; either/or; neither",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜も〜ば〜も means \"both … and … / not only … but also,\" listing parallel items or qualities with an additive, balanced feel (it can also mean \"either… or…\" / \"neither… nor…\" with negatives).\n- Formation: A も [verb-ば] B も — 田中[たなか]さんは頭[あたま]もよければ、性格[せいかく]もいい (Tanaka is both smart and nice)\n- Example: お金[かね]もなければ、時間[じかん]もない (I have neither money nor time), 泣[な]く人[ひと]もいれば、笑[わら]う人[ひと]もいた (There were people crying, and others laughing)\n\nEach item is tagged with も and linked through a ば-form, presenting a range of coexisting cases. With positive predicates it's \"both… and…\"; with negatives, \"neither… nor….\" It's a somewhat literary, emphatic way to pile up examples that together paint a fuller picture, often to stress abundance or, in the negative, total lack."
   },
   {
     "particleId": "p_039",
     "particle": "もしも〜たら",
     "romaji": "moshimo~tara",
     "meaning": "if; in the case; supposing~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜もしも〜たら means \"if / supposing / in the event that,\" a strong hypothetical. もし(も) at the front flags that a conditional is coming, priming the listener for a supposition.\n- Formation: もし(も) + [clause] + たら/ば/なら — もしも宝[たから]くじが当[あ]たったら、何[なに]をしますか (If you won the lottery, what would you do?)\n- Example: もし雨[あめ]が降[ふ]ったら、中止[ちゅうし]します (If it rains, we'll cancel)\n\nもし doesn't change the grammar — the conditional is carried by たら/ば/なら — but it signals \"this is hypothetical,\" making the \"if\" explicit and often more emphatic or remote. もしも is an intensified form for less likely or more dramatic suppositions. It's especially natural with unlikely or imaginative scenarios. Think of もし as an optional \"supposing…\" cue that sets up the conditional clause."
   },
   {
     "particleId": "p_072",
     "particle": "数量＋は",
     "romaji": "suuryou + wa",
     "meaning": "at least~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "数量＋は (a quantity + は) means \"at least (that much),\" setting a minimum estimate. Attaching は to an amount presents it as the floor.\n- Minimum amount: 一時間[いちじかん]はかかる (It'll take at least an hour), 五万円[ごまんえん]はする (It costs at least 50,000 yen)\n- Example: 十人[じゅうにん]は来[く]るだろう (At least ten people will probably come)\n\nHere は quietly implies \"this much for sure, possibly more,\" contrasting the stated amount against smaller possibilities — you're guaranteeing a lower bound. It's common in estimates and planning (\"budget at least this\"). This is a nuanced, somewhat advanced use of the everyday topic particle は: applied to a number, it reads as \"as much as… (at minimum).\" Context and the estimating verb (かかる, する, いる) make the \"at least\" reading clear."
   },
   {
     "particleId": "p_074",
     "particle": "たものだ",
     "romaji": "ta mono da",
     "meaning": "used to do; would often do",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜たものだ has two main meanings built on the past た-form + ものだ.\n- Nostalgic recollection, \"used to / would often\": 子供[こども]の頃[ころ]、よくこの川[かわ]で泳[およ]いだものだ (As a kid, I used to swim in this river a lot)\n- Strong emotion or admiration about the past: よくあんな大変[たいへん]な時[とき]を乗[の]り越[こ]えたものだ (It's amazing we got through such hard times)\n\nThe nostalgic use fondly recalls a repeated past habit, often with よく (\"often\"), coloring the memory with warmth or wistfulness. It differs from plain past tense by adding that reflective, \"those were the days\" feeling. ものだ itself expresses things that are inherently so or evoke emotion; on the past tense it looks back. (Present-tense 〜ものだ can state general truths or give gentle moral advice — 年[とし]を取[と]ると忘[わす]れっぽくなるものだ.)"
   },
   {
     "particleId": "p_078",
     "particle": "たって",
     "romaji": "tatte",
     "meaning": "even if; even though; no matter how~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜たって is the casual spoken equivalent of ても / でも — \"even if / even though / no matter.\" It attaches like a past form + って.\n- Formation: 行[い]く → 行[い]ったって, 高[たか]い → 高[たか]くたって, noun/な-adj + だって — 泣[な]いたって、どうにもならない (Even if you cry, it won't help anything)\n- Example: いくら頼[たの]んだって、無理[むり]だよ (No matter how much you ask, it's impossible), 子供[こども]だって分[わ]かる (Even a child understands)\n\nたって delivers the same concessive meaning as ても but in a relaxed, conversational register — it's what you'd say among friends. It pairs naturally with いくら / どんなに for \"no matter how.\" The noun/な-adjective form だって doubles as the casual \"even\" (先生[せんせい]だって間違[まちが]える — even teachers make mistakes). Keep it out of polite/written contexts, where ても is the norm."
   },
   {
     "particleId": "p_085",
     "particle": "といい / たらいい",
     "romaji": "to ii / tara ii",
     "meaning": "it would be nice if; should; I hope~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜といい / 〜たらいい means \"it would be nice if / I hope / you should,\" expressing a hope or a gentle suggestion. It's [conditional と or たら] + いい (\"good\").\n- Hoping (about things beyond your control): 明日[あした]晴[は]れるといい(ね) (I hope it's sunny tomorrow), 早[はや]く元気[げんき]になるといいね (Hope you feel better soon)\n- Suggesting / advising: 医者[いしゃ]に行[い]ったらいい(よ) (You should go to a doctor)\n\nWith something you can't control, it reads as a wish (\"I hope…\"); with an action someone could take, it reads as advice (\"you'd do well to…\"). Adding ね softens it into a shared hope, and のに at the end (〜といいのに) makes it a wistful wish about something unlikely. たらいい and といい are largely interchangeable here, though たらいい leans a bit more toward suggestion."
   },
   {
     "particleId": "p_090",
     "particle": "として",
     "romaji": "toshite",
     "meaning": "as~; in the role of~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "として means \"as / in the capacity/role of,\" marking the standpoint, function, or qualification in which someone or something acts.\n- Formation: noun + として — 医者[いしゃ]として働[はたら]く (work as a doctor), 記念[きねん]として写真[しゃしん]を撮[と]る (take a photo as a memento)\n- Example: 留学生[りゅうがくせい]として日本[にほん]に来[き]た (I came to Japan as an exchange student), 責任者[せきにんしゃ]として謝[あやま]る (apologize as the person in charge)\n\nとして assigns a role, status, or category to the noun — you're viewing or treating it *as* that thing. To modify a following noun, use としての: プロとしての意識[いしき] (a professional's mindset). The emphatic version としては adds \"speaking as / for one's part.\" A related pattern, にとって, means \"for/from the viewpoint of,\" which is different — として is about the capacity in which something functions."
   },
   {
     "particleId": "p_091",
     "particle": "とは限らない",
     "romaji": "towa kagiranai",
     "meaning": "not necessarily so; is not always true",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜とは限[かぎ]らない means \"not necessarily / isn't always the case,\" denying that a general assumption holds every time. と marks the quoted claim, and 限[かぎ]らない is \"not limited (to that).\"\n- Formation: plain clause + とは限[かぎ]らない — 高[たか]いものが、いいとは限[かぎ]らない (Expensive things aren't necessarily good)\n- Example: 日本人[にほんじん]だからといって、寿司[すし]が好[す]きだとは限[かぎ]らない (Just because someone's Japanese doesn't mean they necessarily like sushi)\n\nThe pattern pushes back on an over-generalization: \"you might expect X, but it isn't always so.\" It's frequently reinforced by からといって (\"just because…\") at the front, which sets up the assumption being rejected. Words like 必[かなら]ずしも (\"not necessarily\") often accompany it. Use it to acknowledge exceptions to a rule or stereotype — a measured, thoughtful \"not always.\""
   },
   {
     "particleId": "p_095",
     "particle": "は別として",
     "romaji": "wa betsu toshite",
     "meaning": "aside from; apart from; except for",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "〜は別[べつ]として means \"aside from / apart from / setting … aside,\" bracketing one thing off to focus on the rest.\n- Formation: noun + は別[べつ]として — 冗談[じょうだん]は別[べつ]として、本当[ほんとう]の話[はなし]をしよう (Joking aside, let's talk seriously)\n- Example: 値段[ねだん]は別[べつ]として、デザインはいい (Setting the price aside, the design is good), 結果[けっか]は別[べつ]として、よく頑張[がんば]った (Regardless of the result, you did well)\n\nThe pattern temporarily excludes one factor so you can address everything else — \"we'll leave X out of this for now.\" It often signals that X might be a problem or a separate matter you don't want to let overshadow the main point. A close variant is はともかく(として), with the same \"never mind X, the point is…\" function. Use it to set conditions or reservations aside cleanly."
   },
   {
     "particleId": "p_103",
     "particle": "よりも",
     "romaji": "yorimo",
     "meaning": "in comparison to; rather; more than~",
-    "level": "N3"
+    "level": "N3",
+    "explanation": "よりも is より + も — \"(more) than,\" an emphasized comparative. The も strengthens the contrast with the standard marked by より.\n- Formation: B よりも A のほうが … — 去年[きょねん]よりも今年[ことし]のほうが暑[あつ]い (This year is even hotter than last year)\n- Example: 何[なに]よりも健康[けんこう]が大切[たいせつ]だ (More than anything, health is important), 思[おも]っていたよりも簡単[かんたん]だった (It was easier than I'd thought)\n\nFunctionally it's the same comparison as plain より but with extra emphasis — \"even more than / above all.\" The set phrase 何[なに]よりも means \"more than anything, above all else.\" Use よりも when you want to stress the gap between the two things being compared, or in slightly more emphatic/written comparisons. Otherwise it behaves exactly like より in marking the \"than\" standard."
   },
   {
     "particleId": "p_005",
     "particle": "ばかり",
     "romaji": "bakari",
     "meaning": "about, approximately~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "This ばかり means \"about / approximately,\" estimating a quantity — a somewhat formal, written-leaning synonym of くらい/ほど.\n- Approximate amount: 一週間[いっしゅうかん]ばかり旅行[りょこう]した (I traveled for about a week), 千円[せんえん]ばかり貸[か]してください (Please lend me about 1000 yen)\n\nThis use is less common in everyday speech than くらい and can sound formal or slightly old-fashioned. Don't confuse it with the far more frequent ばかり meaning \"only / nothing but\" (ゲームばかりする) or the たばかり \"just did\" pattern — those are separate entries. When ばかり follows a quantity and the sense is a rough estimate, it means \"about.\" Context (a number + ばかり, with no \"only/just\" nuance) signals the approximation reading."
   },
   {
     "particleId": "p_007",
     "particle": "ばかりか",
     "romaji": "bakari ka",
     "meaning": "not only... but also; as well as~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜ばかりか means \"not only … but also,\" adding a further, often more extreme point on top of the first — usually with a note of surprise.\n- Formation: noun / plain form + ばかりか — 彼[かれ]は英語[えいご]ばかりか、フランス語[ご]も話[はな]せる (He speaks not only English but also French)\n- Example: 手伝[てつだ]ってくれないばかりか、邪魔[じゃま]をした (Not only did he not help, he got in the way)\n\nばかりか escalates: the second item goes beyond what the first would lead you to expect, so it often pairs with も / さえ / まで on the added element for extra punch. The added point can be positive (even more impressive) or negative (even worse). It's more emphatic and written than 〜だけでなく, which is the plainer \"not only… but also.\" Use it when the second fact tops the first in a striking way."
   },
   {
     "particleId": "p_036",
     "particle": "もの / もん",
     "romaji": "mono / mon",
     "meaning": "because; indicates reason / excuse",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "もの (casual もん) at the end of a sentence gives a reason or justification, often with an emotional, self-defending, or slightly childish/feminine tone — \"because…, you know / it's just that….\"\n- Justifying: だって、知[し]らなかったんだもの (But it's because I didn't know!), 眠[ねむ]いんだもん (It's just that I'm sleepy)\n- Often paired with だって at the front for a pouty excuse: 行[い]きたくないもん (I just don't wanna go)\n\nSentence-final もの/もん offers a reason while appealing for sympathy or understanding, so it can sound like making an excuse or gently insisting on one's feelings. It's casual and emotive — common with children, and in friendly or coaxing speech. This differs from formal もの used mid-sentence for general truths (〜ものだ). The もん form is even more colloquial. Reach for it when you're softly explaining \"why\" with feeling."
   },
   {
     "particleId": "p_038",
     "particle": "ものの",
     "romaji": "monono",
     "meaning": "but; although; even though~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜ものの means \"although / but / even though,\" conceding the first clause before a contrasting reality — somewhat formal and written.\n- Formation: plain form + ものの (nouns take である/な) — 買[か]ったものの、一度[いちど]も使[つか]っていない (I bought it, but I've never used it once)\n- Example: 大学[だいがく]を卒業[そつぎょう]したものの、仕事[しごと]が見[み]つからない (Although I graduated university, I can't find a job)\n\nものの acknowledges that the first clause is true, then reveals that the expected consequence didn't follow — you did/were X, yet the result contradicts it. It's more literary than けど or が and carries a tinge of \"and yet, disappointingly….\" The set phrase とはいうものの (\"that said / having said that\") is very common as a discourse connector. Use ものの in writing or careful speech for a refined \"although.\""
   },
   {
     "particleId": "p_037",
     "particle": "ものか / もんか",
     "romaji": "mono ka / mon ka",
     "meaning": "as if; there's no way~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜ものか (casual もんか) is an emphatic rhetorical denial — \"as if / there's no way / I'll never.\" It forcefully rejects a possibility, essentially a strong negative in question form.\n- Formation: plain form + ものか / もんか — あんな店[みせ]、二度[にど]と行[い]くものか (As if I'd ever go to that place again!)\n- Example: 負[ま]けるものか (There's no way I'll lose!), そんなこと、あるもんか (No way that's true)\n\nものか turns a statement into a defiant rhetorical question meaning its opposite: \"do you think I would…? Never.\" It expresses strong will, refusal, or disbelief, and is quite emphatic and informal (もんか even more so). Because it's forceful and can sound confrontational or boastful, keep it to casual speech. The politer written equivalent is 〜ものですか. Core feeling: emphatic \"absolutely not / never.\""
   },
   {
     "particleId": "p_058",
     "particle": "にて",
     "romaji": "nite",
     "meaning": "in, at, with, by (formal particle)",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "にて means \"at / in / with / by,\" a formal, written equivalent of で. It marks place, means, time, or reason in stiff or official contexts.\n- Place / means (formal で): 会議[かいぎ]は本社[ほんしゃ]にて行[おこな]います (The meeting will be held at the head office), メールにてご連絡[れんらく]します (I'll contact you by email)\n- Time limit / closing: 本日[ほんじつ]にて閉店[へいてん]いたします (We close for good as of today)\n\nにて appears in announcements, business correspondence, ceremonies, and signs — anywhere a formal register is wanted. In ordinary speech you'd simply use で; にて is its dressed-up counterpart. You'll see it in fixed phrases like これにて (with this / hereby) and 以上[いじょう]をもちまして…にて (herewith). Recognize it as \"formal で\" and don't use it in casual conversation, where it would sound archaic or stilted."
   },
   {
     "particleId": "p_081",
     "particle": "ては / では",
     "romaji": "tewa / dewa",
     "meaning": "whenever; if; when~; repetitive action",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜ては / では (casual 〜ちゃ / じゃ) marks a repeated or conditional action that leads to a (often negative) consequence — \"if/when/whenever …, then ….\"\n- Repetitive cycle: 食[た]べては寝[ね]て、また食[た]べる (eat, sleep, eat again — an idle cycle)\n- Undesirable condition → result: 毎日[まいにち]お酒[さけ]を飲[の]んでは、体[からだ]に悪[わる]い (If you drink every day, it's bad for your health)\n\nThe pattern often frames something as a bad idea or a problematic recurring situation. It underlies the prohibition 〜てはいけない (\"must not,\" literally \"if you do X, it won't do\") and the contracted colloquial 〜ちゃだめ. As a repetition marker it evokes a back-and-forth or habitual loop, sometimes tiresome. Which nuance — conditional warning or repeated cycle — depends on context, but both stem from \"in the event of doing X….\""
   },
   {
     "particleId": "p_082",
     "particle": "ては～ては",
     "romaji": "tewa~tewa",
     "meaning": "repetitive situations/actions",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜ては〜ては (verb repeated) stresses a repeated, back-and-forth action or cycle — \"doing X over and over,\" often tiring, futile, or vivid.\n- Formation: [verb-て] は [verb-て] は — 書[か]いては消[け]し、書[か]いては消[け]し (writing and erasing, again and again)\n- Example: 波[なみ]が寄[よ]せては返[かえ]す (the waves roll in and out, in and out), 作[つく]っては壊[こわ]し (build it up and tear it down, repeatedly)\n\nPairing two ては clauses paints a repeating loop between two alternating actions, emphasizing that the cycle keeps going — sometimes beautifully rhythmic (waves), sometimes wearily repetitive (trial and error). It's more emphatic and evocative than a single 〜ては. You'll meet it in literary description and set expressions. The doubled structure is the signal: two actions endlessly trading off."
   },
   {
     "particleId": "p_087",
     "particle": "とか（で）",
     "romaji": "toka (de)",
     "meaning": "I heard that~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜とか(で) reports vague or secondhand information — \"I hear that / something like / apparently.\" It softens a claim by presenting it as uncertain hearsay.\n- Hearsay: 田中[たなか]さん、来週[らいしゅう]から海外[かいがい]に行[い]くとか (I hear Tanaka's going abroad from next week)\n- With で giving a reason you're unsure of: 風邪[かぜ]とかで、休[やす]んでいる (He's off — a cold or something, apparently)\n\nSentence-final とか leaves the information deliberately fuzzy, as if you can't fully vouch for it, which is politer or more cautious than stating it flatly. Adding で (とかで) uses that hazy reason to explain a result. This extends the \"listing examples\" とか into \"reporting an uncertain example of what's true.\" It's conversational; for clearer hearsay use そうだ / らしい / って. Core feel: \"something to the effect that….\""
   },
   {
     "particleId": "p_089",
     "particle": "とも",
     "romaji": "tomo",
     "meaning": "even if; no matter; though~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "とも has a few advanced uses; the key one is concessive \"even if / no matter / though,\" emphatically granting a point.\n- \"Even if\" (often 〜(よ)うとも): 何[なに]があろうとも、諦[あきら]めない (No matter what happens, I won't give up), 遅[おそ]くとも、必[かなら]ず行[い]く (Even at the latest, I'll definitely go)\n- Emphatic agreement (sentence-final): もちろんですとも (But of course!)\n- \"Both / all,\" after numbers: 二人[ふたり]とも来[き]た (Both of them came), 三[みっ]つとも売[う]れた (All three sold)\n\nThe concessive とも strongly concedes an extreme (\"however X it may be, still…\"), common with 〜くとも (少[すく]なくとも — at least) and volitional + とも. The counting use (数[すう]+とも) means \"all of them together.\" And as a hearty sentence-ender, ですとも/ますとも expresses emphatic affirmation. Context and the attached form separate these senses."
   },
   {
     "particleId": "p_092",
     "particle": "つつ",
     "romaji": "tsutsu",
     "meaning": "while; even though; despite~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "つつ means \"while / as,\" linking two simultaneous actions by the same subject — a formal, written cousin of ながら. It also has a concessive \"even though\" sense.\n- Simultaneous (verb-stem + つつ): 音楽[おんがく]を聴[き]きつつ、本[ほん]を読[よ]む (read while listening to music)\n- Concessive (つつ(も) = even though): 悪[わる]いと知[し]りつつ、嘘[うそ]をついた (Even though I knew it was wrong, I lied)\n- Ongoing progression (つつある = in the process of): 状況[じょうきょう]は改善[かいぜん]しつつある (The situation is gradually improving)\n\nつつ is markedly literary — you'll meet it in essays, news, and formal writing rather than chat. The simultaneous use mirrors ながら; the concessive つつも adds \"and yet.\" The set phrase つつある is important: it expresses a change *in progress* (\"is coming to…\"), more formal than 〜ている. Recognize つつ as \"written ながら\" with an extra concessive and progressive range."
   },
   {
     "particleId": "p_098",
     "particle": "やら～やら",
     "romaji": "yara~yara",
     "meaning": "such as A and B; A + B and so on~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜やら〜やら lists examples with a nuance of \"such as A and B (and it's a lot / a mess),\" often conveying that things are numerous, jumbled, or overwhelming.\n- Listing amid confusion: 泣[な]くやら笑[わら]うやら、大変[たいへん]な一日[いちにち]だった (What with crying and laughing and all, it was quite a day)\n- Example: 引[ひ]っ越[こ]しの準備[じゅんび]で、荷造[にづく]りやら掃除[そうじ]やら、忙[いそが]しい (With packing, cleaning, and everything for the move, I'm swamped)\n\nUnlike neutral や, the doubled やら adds an emotional coloring — the speaker feels busy, flustered, or that there's a chaotic mix of things. It's great for venting about a hectic situation. やら can also express uncertainty after a question word (誰[だれ]やら来[き]たようだ — someone or other seems to have come). The listing use, though, evokes \"a whole jumble of A and B and who knows what else.\""
   },
   {
     "particleId": "p_101",
     "particle": "より",
     "romaji": "yori",
     "meaning": "from~ (a time, place, or person)",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "This より means \"from,\" marking a starting point in time, place, or source — a formal, written equivalent of から.\n- Starting time: 会議[かいぎ]は二時[にじ]より始[はじ]まります (The meeting begins from 2:00)\n- Source / sender: 山田[やまだ]より (From Yamada — on letters and notices), 心[こころ]より感謝[かんしゃ]します (I thank you from the heart)\n\nThis より shows up in announcements, formal letters, invitations, and signs, where から would feel too casual — 本日[ほんじつ]より営業[えいぎょう]開始[かいし] (open for business as of today). It's the same word as the comparative より (\"than\"), but here it means \"from (a point onward).\" Reserve it for formal or written contexts; in everyday speech, から is normal. The set phrase 心[こころ]より (sincerely, from the heart) is a common fixed expression."
   },
   {
     "particleId": "p_019",
     "particle": "か～ないかのうちに",
     "romaji": "ka~nai ka no uchi ni",
     "meaning": "just as; right after; as soon as~",
-    "level": "N2"
+    "level": "N2",
+    "explanation": "〜か〜ないかのうちに means \"just as / no sooner than / almost the instant,\" describing a second action happening at practically the same moment as the first — before the first is even fully done.\n- Formation: [verb dict] か [verb ない] かのうちに — ベルが鳴[な]るか鳴[な]らないかのうちに、生徒[せいと]は教室[きょうしつ]を出[で]た (No sooner had the bell rung than the students left)\n- Example: 家[いえ]に着[つ]くか着[つ]かないかのうちに、雨[あめ]が降[ふ]り出[だ]した (Almost the instant I got home, it started to rain)\n\nThe literal structure — \"in the interval of whether X happens or not\" — captures a razor-thin gap: the two events are essentially simultaneous, with the second treading on the heels of the first. It's emphatic and somewhat literary, stressing dramatic immediacy. Related \"as soon as\" patterns include 〜たとたん, 〜next や否[いな]や, and 〜が早[はや]いか, each with its own shade."
   },
   {
     "particleId": "p_047",
     "particle": "なり",
     "romaji": "nari",
     "meaning": "as soon as",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "This なり means \"as soon as / the moment,\" marking a second action that follows immediately upon the first — often something sudden or unexpected.\n- Formation: verb (dictionary form) + なり — 彼[かれ]は部屋[へや]に入[はい]るなり、泣[な]き出[だ]した (The moment he entered the room, he burst into tears)\n- Example: 電話[でんわ]を切[き]るなり、飛[と]び出[だ]して行[い]った (As soon as he hung up, he dashed out)\n\nなり links two events with no gap: right upon doing A, B happens — and B is typically a surprising, spontaneous, or striking action, often observed of a third person. Both clauses usually share the same subject, and the second describes something notable that the first triggers. It's formal/literary. Note this is distinct from the listing 〜なり〜なり (\"A or B\") and the \"in one's own way\" 〜なりに — same kana, different grammar, told apart by structure."
   },
   {
     "particleId": "p_048",
     "particle": "なり～なり",
     "romaji": "nari~nari",
     "meaning": "or",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "〜なり〜なり means \"… or … (or something like it),\" offering alternatives as suggestions and implying other options exist too.\n- Formation: [noun/verb] なり [noun/verb] なり — 電話[でんわ]するなり、メールするなり、連絡[れんらく]してください (Call, email, or [do something to] get in touch)\n- Example: お茶[ちゃ]なりコーヒーなり、好[す]きなものを飲[の]んで (Have tea or coffee or whatever you like)\n\nUnlike a plain \"A or B,\" 〜なり〜なり presents the listed items as *representative examples* of acceptable choices, leaving room for others (\"…or some such\"). It's often used to urge someone to take *some* action, not necessarily the exact ones named. It's fairly formal/written. Compare か〜か (a closed either/or) — なり〜なり is looser and suggestion-flavored. Don't confuse it with the \"as soon as\" なり (verb + なり) or 〜なりに (\"in one's own way\")."
   },
   {
     "particleId": "p_012",
     "particle": "が早いか",
     "romaji": "ga hayai ka",
     "meaning": "as soon as~",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "〜が早[はや]いか means \"as soon as / no sooner than,\" marking that a second action occurs the instant the first does — emphatic and literary.\n- Formation: verb (dictionary/past) + が早[はや]いか — 席[せき]に着[つ]くが早[はや]いか、料理[りょうり]を注文[ちゅうもん]した (No sooner had he sat down than he ordered)\n- Example: ドアが開[あ]くが早[はや]いか、子供[こども]たちは走[はし]り出[だ]した (The instant the door opened, the kids ran out)\n\nThe literal sense — \"quick was the doing of A\" — conveys that B follows A with almost no interval, often a swift, decisive, or eager reaction. It stresses immediacy and is used in narration and writing, not casual talk. It belongs to a cluster of N1 \"as soon as\" expressions — や否[いな]や, なり, たとたん — that differ subtly in nuance; が早[はや]いか highlights the speed and near-simultaneity of the follow-up action."
   },
   {
     "particleId": "p_071",
     "particle": "すら / ですら",
     "romaji": "sura / de sura",
     "meaning": "even (with emphasis)",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "すら (formal ですら) means \"even,\" citing an extreme example for emphasis — a more formal, emphatic relative of さえ and も.\n- Extreme case: そんなことは、子供[こども]ですら知[し]っている (Even a child knows that)\n- \"Not even,\" with a negative: 忙[いそが]しくて、食事[しょくじ]をする時間[じかん]すらない (I'm so busy I don't even have time to eat)\n\nすら selects the least expected or most basic case to imply the rest follows — \"if even this, then surely everything else.\" It's stronger and more literary than さえ, common in writing and formal speech. It often attaches to nouns (ですら after certain words) and replaces を/が. Its most frequent shape is すら + negative, stressing that not even a minimal thing is possible. Think \"even (of all things),\" with a formal, emphatic edge."
   },
   {
     "particleId": "p_075",
     "particle": "たところで",
     "romaji": "ta tokoro de",
     "meaning": "even if~",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "〜たところで means \"even if / even though (it's pointless),\" a concessive that rejects the value of an action — \"no matter that you do X, it won't help / won't change the result.\"\n- Formation: verb past (た-form) + ところで — 今[いま]さら謝[あやま]ったところで、許[ゆる]してもらえない (Even if you apologize now, you won't be forgiven)\n- Example: いくら急[いそ]いだところで、間[ま]に合[あ]わない (No matter how much you rush, you won't make it)\n\nDespite the past た-form, たところで points to a hypothetical or future action and declares it futile — the main clause is negative or expresses that nothing worthwhile comes of it. It often teams with いくら / どんなに for \"however much.\" The tone is resigned or dismissive: \"there's no use in doing X.\" It's formal/written and distinct from 〜たところ (\"just did\"), which is about literal timing, not futility."
   },
   {
     "particleId": "p_009",
     "particle": "だの～だの",
     "romaji": "dano~dano",
     "meaning": "and; and the like; and so forth",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "〜だの〜だの lists examples with a nuance of complaint, annoyance, or disdain — \"… and …, and all that (I'm sick of it).\" It's an emotive, negative-flavored cousin of とか〜とか.\n- Formation: [noun/plain form] だの [noun/plain form] だの — 高[たか]いだの、まずいだの、文句[もんく]ばかり言[い]う (He does nothing but complain — too expensive, tastes bad, and on and on)\n- Example: 宿題[しゅくだい]だの、掃除[そうじ]だの、やることが多[おお]い (Homework, cleaning, and all the rest — there's so much to do)\n\nだの〜だの lists things the speaker finds tiresome, excessive, or objectionable, so it usually carries irritation or criticism. It's more emotionally loaded and more colloquial-literary than neutral や or the plain とか. Use it when you're grumbling about a jumble of demands, complaints, or items. The repeated だの is the signal, and the surrounding tone is reliably exasperated."
   },
   {
     "particleId": "p_097",
     "particle": "や否や",
     "romaji": "ya ina ya",
     "meaning": "as soon as; the moment~",
-    "level": "N1"
+    "level": "N1",
+    "explanation": "〜や否[いな]や means \"as soon as / the moment / no sooner than,\" marking a second event that follows instantly upon the first — a formal, literary \"as soon as.\"\n- Formation: verb (dictionary form) + や否[いな]や — 家[いえ]に着[つ]くや否[いな]や、電話[でんわ]が鳴[な]った (The moment I got home, the phone rang)\n- Example: その知[し]らせを聞[き]くや否[いな]や、彼女[かのじょ]は泣[な]き出[だ]した (No sooner did she hear the news than she burst into tears)\n\nThe literal \"whether or not (it happened)\" captures a near-zero gap between the two events. It's used in writing and narration to add drama and immediacy, and the second clause often describes something sudden or beyond the subject's control. や alone (without 否[いな]や) can appear in the same meaning in very literary style. It sits alongside 〜が早[はや]いか and 〜なり as advanced \"the instant that…\" expressions."
   }
 ]

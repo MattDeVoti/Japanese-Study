@@ -236,9 +236,7 @@ struct GrammarPointCard: View {
                     // Formation
                     VStack(alignment: .leading, spacing: 5) {
                         SectionLabel(title: "Formation", icon: "chevron.left.forwardslash.chevron.right")
-                        Text(point.formation)
-                            .font(.system(size: 14, weight: .medium, design: .monospaced))
-                            .foregroundColor(accentColor)
+                        FuriganaText(text: point.formation, fontSize: 14, color: accentColor, weight: .medium)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 7)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -249,10 +247,7 @@ struct GrammarPointCard: View {
                     // Explanation
                     VStack(alignment: .leading, spacing: 5) {
                         SectionLabel(title: "Explanation", icon: "text.alignleft")
-                        Text(point.explanation)
-                            .font(.system(size: 14))
-                            .foregroundColor(.appText)
-                            .fixedSize(horizontal: false, vertical: true)
+                        ExplanationBody(text: point.explanation, fontSize: 14, color: .appText, bulletColor: accentColor)
                     }
 
                     // Rules
@@ -265,9 +260,7 @@ struct GrammarPointCard: View {
                                         Text("•")
                                             .font(.system(size: 14, weight: .semibold))
                                             .foregroundColor(accentColor)
-                                        Text(rule)
-                                            .font(.system(size: 13))
-                                            .foregroundColor(.appText)
+                                        FuriganaText(text: rule, fontSize: 13, color: .appText)
                                             .fixedSize(horizontal: false, vertical: true)
                                     }
                                 }

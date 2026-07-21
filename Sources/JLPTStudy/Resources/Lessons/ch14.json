@@ -1,6 +1,6 @@
 {
   "id": "ch14",
-  "chapterNumber": 14,
+  "chapterNumber": 16,
   "title": "Giving and Receiving",
   "points": [
     {
@@ -8,7 +8,7 @@
       "name": "あげる / くれる / もらう — giving and receiving",
       "shortDescription": "Three verbs for giving and receiving — each one anchored to the speaker's perspective.",
       "formation": "Giver が Receiver に [thing] を あげる  |  Giver が [speaker/in-group] に [thing] を くれる  |  Receiver が Giver に [thing] を もらう",
-      "explanation": "Japanese has three separate verbs for giving and receiving, and the right choice depends entirely on *direction relative to the speaker*. Think of the speaker standing at the center of a map, and every transaction either flows toward them, away from them, or is described from the receiver's perspective.\n\nあげる: 'to give' — the action flows *away* from the speaker's sphere. わたしが友達に本をあげた (I gave my friend a book). The giver is the subject.\n\nくれる: also 'to give' — but the recipient *must* be the speaker or someone in their in-group (family, close friends). 友達がわたしに本をくれた (My friend gave me a book). The action flows *toward* the speaker. This distinction matters: using あげる when someone gives you something is a genuine grammar error in Japanese.\n\nもらう: 'to receive' — the receiver becomes the subject, and the giver takes に. わたしが友達に本をもらった (I received a book from my friend).\n\nThese three verbs become even more powerful when combined with the て-form. 手伝ってあげた (I helped [them] — as a favor going outward), 手伝ってくれた (They helped me — incoming favor), 手伝ってもらった (I had/got them to help me). The て-form + giving verb construction is one of the most natural ways to talk about favors in Japanese — you'll use it constantly.\n\nNote: there are polite variants too. くださる is the respectful version of くれる, and いただく is the humble version of もらう — you'll learn these formally in Chapter 19 when you study honorific speech.",
+      "explanation": "Japanese has three separate verbs for giving and receiving, and the right choice depends entirely on *direction relative to the speaker*. Think of the speaker standing at the center of a map, and every transaction either flows toward them, away from them, or is described from the receiver's perspective.\n\nあげる: 'to give' — the action flows *away* from the speaker's sphere. わたしが友達[ともだち]に本[ほん]をあげた (I gave my friend a book). The giver is the subject.\n\nくれる: also 'to give' — but the recipient *must* be the speaker or someone in their in-group (family, close friends). 友達[ともだち]がわたしに本[ほん]をくれた (My friend gave me a book). The action flows *toward* the speaker. This distinction matters: using あげる when someone gives you something is a genuine grammar error in Japanese.\n\nもらう: 'to receive' — the receiver becomes the subject, and the giver takes に. わたしが友達[ともだち]に本[ほん]をもらった (I received a book from my friend).\n\nThese three verbs become even more powerful when combined with the て-form. 手伝[てつだ]ってあげた (I helped [them] — as a favor going outward), 手伝[てつだ]ってくれた (They helped me — incoming favor), 手伝[てつだ]ってもらった (I had/got them to help me). The て-form + giving verb construction is one of the most natural ways to talk about favors in Japanese — you'll use it constantly.\n\nNote: there are polite variants too. くださる is the respectful version of くれる, and いただく is the humble version of もらう — you'll learn these formally in Chapter 19 when you study honorific speech.",
       "rules": [
         "あげる: [giver] gives to [receiver] — action flows away from speaker",
         "くれる: [giver] gives to [speaker/in-group] — action flows toward speaker",
@@ -324,13 +324,165 @@
       ]
     },
     {
+      "id": "te-ageru-kureru-morau",
+      "name": "〜てあげる / 〜てくれる / 〜てもらう — doing favors",
+      "shortDescription": "Giving and receiving actions (favors), not just objects.",
+      "formation": "Verb て-form + あげる / くれる / もらう",
+      "explanation": "Just as あげる・くれる・もらう handle giving and receiving *objects*, their て-form versions handle giving and receiving *actions* — that is, favors. The same directional logic applies, centered on the speaker:\n- 〜てあげる — you do something *for* someone (the favor flows outward): 友達[ともだち]に日本語[にほんご]を教[おし]えてあげた (I taught my friend Japanese)\n- 〜てくれる — someone does something *for you* (the favor flows toward you): 友達[ともだち]が宿題[しゅくだい]を手伝[てつだ]ってくれた (My friend helped me with my homework)\n- 〜てもらう — you *receive* the favor of having something done: 先生[せんせい]に手紙[てがみ]を直[なお]してもらった (I had the teacher correct my letter)\n\nThe particles match the giving verbs: に marks the other person for あげる and もらう, while が marks the doer for くれる. One caution on tone: 〜てあげる can sound like you're doing someone a big favor, so it's softened or avoided toward superiors. To ask a favor, use 〜てくれる？ / 〜てもらえる？ (casual) or the very polite 〜ていただけますか: ちょっと手伝[てつだ]ってもらえますか (Could you help me a little?).",
+      "rules": [
+        "て-form + あげる = do a favor for someone (outward)",
+        "て-form + くれる = someone does a favor for you (inward)",
+        "て-form + もらう = receive the favor of having something done",
+        "Particles: に for the person with あげる/もらう; が for the doer with くれる",
+        "Asking favors: 〜てくれる？／〜てもらえる？／〜ていただけますか (polite)"
+      ],
+      "examples": [
+        {
+          "japanese": "母[はは]がケーキを作[つく]ってくれた。",
+          "romaji": "Haha ga keeki o tsukutte kureta.",
+          "english": "My mom made me a cake."
+        },
+        {
+          "japanese": "弟[おとうと]に宿題[しゅくだい]を手伝[てつだ]ってあげた。",
+          "romaji": "Otouto ni shukudai o tetsudatte ageta.",
+          "english": "I helped my little brother with his homework."
+        },
+        {
+          "japanese": "友達[ともだち]に写真[しゃしん]を撮[と]ってもらった。",
+          "romaji": "Tomodachi ni shashin o totte moratta.",
+          "english": "I had my friend take a photo (for me)."
+        },
+        {
+          "japanese": "すみません、ちょっと待[ま]ってもらえますか。",
+          "romaji": "Sumimasen, chotto matte moraemasu ka.",
+          "english": "Excuse me, could you wait a moment?"
+        }
+      ],
+      "flashcardHeader": "〜てあげる / 〜てくれる / 〜てもらう (favors)",
+      "flashcardAnswer": "Giving and receiving actions (favors), with the same directional logic as objects.",
+      "practice": [
+        {
+          "id": "te-ageru-kureru-morau_q1",
+          "type": "usage",
+          "prompt": "Someone does a favor FOR YOU. Which sentence?",
+          "japanese": null,
+          "choices": [
+            "友達[ともだち]が手伝[てつだ]ってくれた。",
+            "友達[ともだち]に手伝[てつだ]ってあげた。",
+            "友達[ともだち]を手伝[てつだ]ってもらった。",
+            "友達[ともだち]が手伝[てつだ]ってあげた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てくれる = someone does something for you, with the doer marked by が: 友達[ともだち]が手伝[てつだ]ってくれた."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q2",
+          "type": "usage",
+          "prompt": "YOU do a favor for someone else. Which?",
+          "japanese": null,
+          "choices": [
+            "妹[いもうと]に本[ほん]を読[よ]んであげた。",
+            "妹[いもうと]が本[ほん]を読[よ]んでくれた。",
+            "妹[いもうと]に本[ほん]を読[よ]んでもらった。",
+            "妹[いもうと]を本[ほん]を読[よ]んであげた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てあげる = you do something for someone, outward: 妹[いもうと]に読[よ]んであげた (I read to my little sister)."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q3",
+          "type": "usage",
+          "prompt": "You HAD someone do something (received the favor). Which?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]に直[なお]してもらった。",
+            "先生[せんせい]が直[なお]してくれた。",
+            "先生[せんせい]に直[なお]してあげた。",
+            "先生[せんせい]を直[なお]してもらった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てもらう = you receive the favor of having something done, with the doer marked by に: 先生[せんせい]に直[なお]してもらった."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q4",
+          "type": "fillBlank",
+          "prompt": "Fill the particle: 友達[ともだち]___写真[しゃしん]を撮[と]ってもらった。",
+          "japanese": "友達[ともだち]___写真[しゃしん]を撮[と]ってもらった。",
+          "choices": [
+            "に",
+            "が",
+            "を",
+            "で"
+          ],
+          "correctIndex": 0,
+          "explanation": "With もらう, the person you receive the favor from takes に: 友達[ともだち]に撮[と]ってもらった."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q5",
+          "type": "fillBlank",
+          "prompt": "Fill the particle: 友達[ともだち]___手伝[てつだ]ってくれた。",
+          "japanese": "友達[ともだち]___手伝[てつだ]ってくれた。",
+          "choices": [
+            "が",
+            "に",
+            "を",
+            "へ"
+          ],
+          "correctIndex": 0,
+          "explanation": "With くれる, the person doing the favor is the subject, marked by が: 友達[ともだち]が手伝[てつだ]ってくれた."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q6",
+          "type": "translation",
+          "prompt": "How do you politely ask \"Could you help me?\"",
+          "japanese": null,
+          "choices": [
+            "手伝[てつだ]ってもらえますか。",
+            "手伝[てつだ]ってあげますか。",
+            "手伝[てつだ]ってくれる。",
+            "手伝[てつだ]ってもらう。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てもらえますか is a polite request (\"can I receive the favor of…?\"). 〜ていただけますか is even more polite."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q7",
+          "type": "usage",
+          "prompt": "\"My mom made me a cake.\" Which is most natural?",
+          "japanese": null,
+          "choices": [
+            "母[はは]がケーキを作[つく]ってくれた。",
+            "母[はは]にケーキを作[つく]ってあげた。",
+            "母[はは]がケーキを作[つく]ってもらった。",
+            "母[はは]をケーキを作[つく]ってくれた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "The favor flows toward you from your mom, so 〜てくれる with が: 母[はは]が作[つく]ってくれた."
+        },
+        {
+          "id": "te-ageru-kureru-morau_q8",
+          "type": "usage",
+          "prompt": "Speaking to your boss, which is safest to avoid sounding condescending?",
+          "japanese": null,
+          "choices": [
+            "お荷物[にもつ]をお持[も]ちします。",
+            "荷物[にもつ]を持[も]ってあげます。",
+            "荷物[にもつ]を持[も]ってあげる。",
+            "荷物[にもつ]を持[も]ってあげようか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てあげる can sound like you're granting a favor, which is impolite to a superior. The humble お持[も]ちします is the respectful choice."
+        }
+      ]
+    },
+    {
       "id": "hoshii",
       "name": "〜ほしい / 〜てほしい — want (something) / want (someone to do)",
       "shortDescription": "Expresses desire for a thing (ほしい) or desire for someone to do something (〜てほしい).",
       "formation": "[Speaker] は [thing] が ほしい  |  [Speaker] は [person] に Verb (て-form) + ほしい",
-      "explanation": "You encountered 〜てほしい (want someone to do something) in your N5 studies, so this point builds on that foundation and fills in the full ほしい picture.\n\nほしい means 'want to have X' — it expresses the speaker's desire for a thing or object. An important grammar note: ほしい is an い-adjective, not a verb. That means it conjugates like any い-adjective: ほしくない (don't want), ほしかった (wanted), ほしくなかった (didn't want). The thing you want takes が: 新しい自転車がほしいです (I want a new bicycle).\n\nThe constraint that comes up most often: ほしい (like たい and other desire expressions) can only directly state the speaker's own desires. For third-person wants, you need ほしがっている: 彼はもっと時間をほしがっている (He seems to want more time — you're observing his desire, not reading his mind).\n\n〜てほしい extends this to actions: 'I want someone to do X for me.' The person you're hoping will act takes に, and the verb comes in て-form: 田中さんに手伝ってほしいです (I want Tanaka-san to help me). Be aware of register: this construction can come across as demanding when directed at someone above you in status. In polite requests to superiors, more indirect forms are preferable — 〜ていただけませんか (covered in Chapter 19) is much softer.",
+      "explanation": "You encountered 〜てほしい (want someone to do something) in your N5 studies, so this point builds on that foundation and fills in the full ほしい picture.\n\nほしい means 'want to have X' — it expresses the speaker's desire for a thing or object. An important grammar note: ほしい is an い-adjective, not a verb. That means it conjugates like any い-adjective: ほしくない (don't want), ほしかった (wanted), ほしくなかった (didn't want). The thing you want takes が: 新[あたら]しい自転車[じてんしゃ]がほしいです (I want a new bicycle).\n\nThe constraint that comes up most often: ほしい (like たい and other desire expressions) can only directly state the speaker's own desires. For third-person wants, you need ほしがっている: 彼[かれ]はもっと時間[じかん]をほしがっている (He seems to want more time — you're observing his desire, not reading his mind).\n\n〜てほしい extends this to actions: 'I want someone to do X for me.' The person you're hoping will act takes に, and the verb comes in て-form: 田中[たなか]さんに手伝[てつだ]ってほしいです (I want Tanaka-san to help me). Be aware of register: this construction can come across as demanding when directed at someone above you in status. In polite requests to superiors, more indirect forms are preferable — 〜ていただけませんか (covered in Chapter 19) is much softer.",
       "rules": [
-        "ほしい = want to have X — X takes が (新しい本がほしい)",
+        "ほしい = want to have X — X takes が (新[あたら]しい本[ほん]がほしい)",
         "ほしい is an い-adjective: ほしくない, ほしかった, ほしくなかった",
         "Only expresses speaker's own desires — for third person, use ほしがっている",
         "て-form + ほしい = want [person] to do X; that person takes に",
@@ -639,7 +791,7 @@
             "didn't want"
           ],
           "correctIndex": 3,
-          "explanation": "ほしくなかった = past negative of ほしい. Full conjugation: ほしい (want) → ほしくない (don't want) → ほしかった (wanted) → ほしくなかった (didn't want). It follows standard い-adjective conjugation — the same pattern as 高[たか]い → 高[たか]くない → 高[た]かった → 高[たか]くなかった."
+          "explanation": "ほしくなかった = past negative of ほしい. Full conjugation: ほしい (want) → ほしくない (don't want) → ほしかった (wanted) → ほしくなかった (didn't want). It follows standard い-adjective conjugation — the same pattern as 高[たか]い → 高[たか]くない → 高[たか]かった → 高[たか]くなかった."
         }
       ]
     },
@@ -648,12 +800,12 @@
       "name": "〜かもしれません (kamoshiremasen) — might / may",
       "shortDescription": "Expresses uncertain possibility — 'might be,' 'may be,' or 'perhaps.'",
       "formation": "Plain form + かもしれません (polite)  |  + かもしれない (plain)",
-      "explanation": "かもしれません is how Japanese expresses genuine uncertainty about something — 'it might be the case,' 'perhaps,' 'maybe.' It sits on the lower end of the confidence spectrum: if でしょう (probably) is 70–80% confidence, かもしれません is more like 40–60% — real uncertainty, a coin-flip kind of feeling.\n\nFormation: attach to the plain form of verbs and い-adjectives as you'd expect. For nouns and な-adjectives, use the stem *without* だ: 学生かもしれない (not 学生だかもしれない). This だ-dropping before かもしれない is the most common formation mistake, so fix it as a habit early.\n\nTense lives in the plain-form clause that precedes かもしれない, not in かもしれない itself. 行くかもしれない (might go — future), 行ったかもしれない (might have gone — past). The construction is elegantly simple once you see that pattern.\n\nThe polite form is かもしれません; the plain/casual form is かもしれない. In very casual conversation it sometimes shortens further to かも by itself: そうかも (might be so).\n\nYou'll revisit かもしれない in Chapter 27 alongside similar expressions of conjecture (〜だろう, 〜はずだ), where the degrees of certainty will be mapped out side by side.",
+      "explanation": "かもしれません is how Japanese expresses genuine uncertainty about something — 'it might be the case,' 'perhaps,' 'maybe.' It sits on the lower end of the confidence spectrum: if でしょう (probably) is 70–80% confidence, かもしれません is more like 40–60% — real uncertainty, a coin-flip kind of feeling.\n\nFormation: attach to the plain form of verbs and い-adjectives as you'd expect. For nouns and な-adjectives, use the stem *without* だ: 学生[がくせい]かもしれない (not 学生[がくせい]だかもしれない). This だ-dropping before かもしれない is the most common formation mistake, so fix it as a habit early.\n\nTense lives in the plain-form clause that precedes かもしれない, not in かもしれない itself. 行[い]くかもしれない (might go — future), 行[い]ったかもしれない (might have gone — past). The construction is elegantly simple once you see that pattern.\n\nThe polite form is かもしれません; the plain/casual form is かもしれない. In very casual conversation it sometimes shortens further to かも by itself: そうかも (might be so).\n\nYou'll revisit かもしれない in Chapter 27 alongside similar expressions of conjecture (〜だろう, 〜はずだ), where the degrees of certainty will be mapped out side by side.",
       "rules": [
         "Plain form + かもしれません = might / may / perhaps (genuine uncertainty)",
         "Less confident than でしょう (probably) — more like a 50/50 feeling",
-        "Noun/な-adj: no だ before かもしれない (学生かもしれない ✓; 学生だかもしれない ✗)",
-        "Tense is carried by the preceding plain form: 行くかもしれない / 行ったかもしれない",
+        "Noun/な-adj: no だ before かもしれない (学生[がくせい]かもしれない ✓; 学生[がくせい]だかもしれない ✗)",
+        "Tense is carried by the preceding plain form: 行[い]くかもしれない / 行[い]ったかもしれない",
         "Casual shortening: かもしれない → かも (informal spoken only)"
       ],
       "examples": [
@@ -968,7 +1120,7 @@
       "name": "〜しか〜ない (shika...nai) — only / nothing but",
       "shortDescription": "Means 'only' — but with a built-in tone of insufficiency or regret; always used with a negative verb.",
       "formation": "Noun / Verb (dictionary form) + しか + Negative verb",
-      "explanation": "しか is not a neutral 'only' — it's a disappointed 'only.' Every time you use しか, you're implying that the amount, option, or thing in question is not enough, fewer than expected, or in some way limiting. Compare: 百円だけあります is a flat statement ('I have 100 yen'). 百円しかありません says 'I only have 100 yen' — and the speaker is lamenting or frustrated by that fact.\n\nThe structural rule is ironclad: しか always pairs with a negative verb. The negativity in the verb and しか together create the 'only' meaning. You cannot use しか with a positive verb.\n\nしか slots in where you'd expect a particle, and it typically replaces (or follows) the particle that would normally be there. 日本語しか話せません (I can only speak Japanese) — the を that would follow 日本語 in a regular sentence is displaced by しか.\n\nThe contrast with だけ is worth keeping in mind: だけ is the factual 'only' — no emotional color. しか is the complaining 'only.' Same basic information, completely different register. 三人だけ来ました (Three people came — I'm noting the number). 三人しか来ませんでした (Only three people came — I expected more, I'm disappointed).",
+      "explanation": "しか is not a neutral 'only' — it's a disappointed 'only.' Every time you use しか, you're implying that the amount, option, or thing in question is not enough, fewer than expected, or in some way limiting. Compare: 百円[ひゃくえん]だけあります is a flat statement ('I have 100 yen'). 百円[ひゃくえん]しかありません says 'I only have 100 yen' — and the speaker is lamenting or frustrated by that fact.\n\nThe structural rule is ironclad: しか always pairs with a negative verb. The negativity in the verb and しか together create the 'only' meaning. You cannot use しか with a positive verb.\n\nしか slots in where you'd expect a particle, and it typically replaces (or follows) the particle that would normally be there. 日本語[にほんご]しか話[はな]せません (I can only speak Japanese) — the を that would follow 日本語[にほんご] in a regular sentence is displaced by しか.\n\nThe contrast with だけ is worth keeping in mind: だけ is the factual 'only' — no emotional color. しか is the complaining 'only.' Same basic information, completely different register. 三人[さんにん]だけ来[き]ました (Three people came — I'm noting the number). 三人[さんにん]しか来[き]ませんでした (Only three people came — I expected more, I'm disappointed).",
       "rules": [
         "しか + negative verb = 'only' (with nuance of disappointment, regret, or insufficiency)",
         "Must always pair with a negative verb form — never used with positive verbs",
@@ -1288,7 +1440,7 @@
       "name": "〜たらどうですか (tara dou desu ka) — why don't you / how about",
       "shortDescription": "A gentle suggestion: 'Why don't you…?' or 'How about…?'",
       "formation": "Verb (た-form) + らどうですか / らどう",
-      "explanation": "〜たらどうですか is one of Japanese's go-to patterns for giving friendly advice. The key word is *gentle*: it's not telling someone what to do, it's floating a possibility in front of them and leaving the choice entirely to them.\n\nThe formation uses the た-form of a verb + ら + どうですか. (You'll study the たら conditional in detail in Chapter 16; for now, just recognize that た-form + ら sets up a soft 'if you were to…' premise.) どうですか literally means 'how is it?' or 'how does that sound?' — so the whole thing means 'if you were to [do X], how would that be?' It's advice as an invitation, not an instruction.\n\nThe register can be dialed up or down easily. With ですか it's polite. Drop to どう for casual (医者に行ったらどう?). In very relaxed speech, どう can even disappear entirely, leaving just the たら form — though that sounds very colloquial.\n\nCompared to 〜ほうがいいですよ ('you'd better'), 〜たらどうですか is distinctly softer and warmer. ほうがいい can come across as a push; たらどうですか comes across as a considerate nudge. It pairs naturally with responses to problems: '疲れているの？' → '少し休んだらどうですか。'",
+      "explanation": "〜たらどうですか is one of Japanese's go-to patterns for giving friendly advice. The key word is *gentle*: it's not telling someone what to do, it's floating a possibility in front of them and leaving the choice entirely to them.\n\nThe formation uses the た-form of a verb + ら + どうですか. (You'll study the たら conditional in detail in Chapter 16; for now, just recognize that た-form + ら sets up a soft 'if you were to…' premise.) どうですか literally means 'how is it?' or 'how does that sound?' — so the whole thing means 'if you were to [do X], how would that be?' It's advice as an invitation, not an instruction.\n\nThe register can be dialed up or down easily. With ですか it's polite. Drop to どう for casual (医者[いしゃ]に行[い]ったらどう?). In very relaxed speech, どう can even disappear entirely, leaving just the たら form — though that sounds very colloquial.\n\nCompared to 〜ほうがいいですよ ('you'd better'), 〜たらどうですか is distinctly softer and warmer. ほうがいい can come across as a push; たらどうですか comes across as a considerate nudge. It pairs naturally with responses to problems: '疲[つか]れているの？' → '少[すこ]し休[やす]んだらどうですか。'",
       "rules": [
         "Verb (た-form) + らどうですか = 'Why don't you do X?' (gentle suggestion)",
         "Casual: 〜たらどう? (drop ですか); very casual: たら form alone (highly colloquial)",

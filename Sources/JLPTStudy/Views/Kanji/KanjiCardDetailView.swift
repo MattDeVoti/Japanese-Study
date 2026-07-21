@@ -55,7 +55,7 @@ struct KanjiCardHeader: View {
 
                 Spacer()
 
-                Text("N\(card.nLevel)")
+                Text(levelName(card.nLevel))
                     .font(.system(size: 13, weight: .semibold))
                     .foregroundColor(.white)
                     .padding(.horizontal, 10)

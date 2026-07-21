@@ -9,17 +9,33 @@
       "name": "゜",
       "shortDescription": "The small circle that makes 'p' sounds from the H-row",
       "formation": "handakuten",
-      "explanation": "You've learned the dakuten (゛) — the two strokes that voice a consonant. Now meet the handakuten (゜): a small circle placed at the top right of H-row characters that turns them into 'p' sounds. So は (ha) becomes ぱ (pa), ひ (hi) becomes ぴ (pi), ふ (fu) becomes ぷ (pu), へ (he) becomes ぺ (pe), ほ (ho) becomes ぽ (po). The term 'semi-voiced' or 'half-voiced' (半濁点, handakuten) refers to the fact that 'p' is not fully voiced like 'b', but not unvoiced like 'h' either — it sits in between. The P-row exists only for the H-row; no other row has a handakuten equivalent.",
+      "explanation": "You've learned the dakuten (゛) — the two strokes that voice a consonant. Now meet the handakuten (゜): a small circle placed at the top right of H-row characters that turns them into 'p' sounds. So は (ha) becomes ぱ (pa), ひ (hi) becomes ぴ (pi), ふ (fu) becomes ぷ (pu), へ (he) becomes ぺ (pe), ほ (ho) becomes ぽ (po). The term 'semi-voiced' or 'half-voiced' (半[はん]濁点[てん], handakuten) refers to the fact that 'p' is not fully voiced like 'b', but not unvoiced like 'h' either — it sits in between. The P-row exists only for the H-row; no other row has a handakuten equivalent.",
       "rules": [
         "Handakuten (゜) = small circle top-right = H-row becomes P-row.",
         "は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. Only the H-row gets handakuten.",
         "P sounds are unvoiced stops — same lip movement as B sounds but WITHOUT vocal cord vibration."
       ],
       "examples": [
-        {"japanese": "は→ぱ", "romaji": "ha→pa", "english": "H-row + handakuten = P-row"},
-        {"japanese": "ひ→ぴ", "romaji": "hi→pi", "english": "HI becomes PI"},
-        {"japanese": "ふ→ぷ", "romaji": "fu→pu", "english": "FU becomes PU"},
-        {"japanese": "ほ→ぽ", "romaji": "ho→po", "english": "HO becomes PO"}
+        {
+          "japanese": "は→ぱ",
+          "romaji": "ha→pa",
+          "english": "H-row + handakuten = P-row"
+        },
+        {
+          "japanese": "ひ→ぴ",
+          "romaji": "hi→pi",
+          "english": "HI becomes PI"
+        },
+        {
+          "japanese": "ふ→ぷ",
+          "romaji": "fu→pu",
+          "english": "FU becomes PU"
+        },
+        {
+          "japanese": "ほ→ぽ",
+          "romaji": "ho→po",
+          "english": "HO becomes PO"
+        }
       ],
       "flashcardHeader": "゜",
       "flashcardAnswer": "handakuten — small circle; H-row characters become P sounds (ぱぴぷぺぽ)",
@@ -38,10 +54,26 @@
         "P-row sounds often appear in onomatopoeia: ぱちぱち (crackling), ぱっと (suddenly), ぴかぴか (shiny)."
       ],
       "examples": [
-        {"japanese": "ぱん", "romaji": "pan", "english": "bread (from Portuguese 'pão')"},
-        {"japanese": "ぱっと", "romaji": "patto", "english": "suddenly / instantly / at a glance"},
-        {"japanese": "ぱちぱち", "romaji": "pachipachi", "english": "crackling / clapping / sparkling (sound)"},
-        {"japanese": "ぱたぱた", "romaji": "patapata", "english": "flapping / pattering (sound/movement)"}
+        {
+          "japanese": "ぱん",
+          "romaji": "pan",
+          "english": "bread (from Portuguese 'pão')"
+        },
+        {
+          "japanese": "ぱっと",
+          "romaji": "patto",
+          "english": "suddenly / instantly / at a glance"
+        },
+        {
+          "japanese": "ぱちぱち",
+          "romaji": "pachipachi",
+          "english": "crackling / clapping / sparkling (sound)"
+        },
+        {
+          "japanese": "ぱたぱた",
+          "romaji": "patapata",
+          "english": "flapping / pattering (sound/movement)"
+        }
       ],
       "flashcardHeader": "ぱ",
       "flashcardAnswer": "pa — like the 'pa' in 'pasta' (H-row + handakuten)",
@@ -60,10 +92,26 @@
         "P-row sounds, especially ぴ, are associated with brightness, sharpness, and small or delicate things."
       ],
       "examples": [
-        {"japanese": "ぴかぴか", "romaji": "pikapika", "english": "sparkling / gleaming / shining brightly"},
-        {"japanese": "ぴったり", "romaji": "pittari", "english": "exactly / perfectly / snugly (fitting)"},
-        {"japanese": "ぴんと", "romaji": "pinto", "english": "taut / sharp / alert / in focus"},
-        {"japanese": "ぴよぴよ", "romaji": "piyopiyo", "english": "cheep cheep (sound a chick makes)"}
+        {
+          "japanese": "ぴかぴか",
+          "romaji": "pikapika",
+          "english": "sparkling / gleaming / shining brightly"
+        },
+        {
+          "japanese": "ぴったり",
+          "romaji": "pittari",
+          "english": "exactly / perfectly / snugly (fitting)"
+        },
+        {
+          "japanese": "ぴんと",
+          "romaji": "pinto",
+          "english": "taut / sharp / alert / in focus"
+        },
+        {
+          "japanese": "ぴよぴよ",
+          "romaji": "piyopiyo",
+          "english": "cheep cheep (sound a chick makes)"
+        }
       ],
       "flashcardHeader": "ぴ",
       "flashcardAnswer": "pi — like the 'pi' in 'peek' (voiced version of ひ with handakuten)",
@@ -82,10 +130,26 @@
         "ぷ in onomatopoeia often suggests floating, puffing, or soft/squishy textures."
       ],
       "examples": [
-        {"japanese": "ぷりん", "romaji": "purin", "english": "pudding / flan (loanword from English)"},
-        {"japanese": "ぷかぷか", "romaji": "pukapuka", "english": "floating leisurely / bobbing"},
-        {"japanese": "ぷんぷん", "romaji": "punpun", "english": "fuming / sulking / stinky (depending on context)"},
-        {"japanese": "ぷにぷに", "romaji": "punipuni", "english": "soft and squishy (tactile onomatopoeia)"}
+        {
+          "japanese": "ぷりん",
+          "romaji": "purin",
+          "english": "pudding / flan (loanword from English)"
+        },
+        {
+          "japanese": "ぷかぷか",
+          "romaji": "pukapuka",
+          "english": "floating leisurely / bobbing"
+        },
+        {
+          "japanese": "ぷんぷん",
+          "romaji": "punpun",
+          "english": "fuming / sulking / stinky (depending on context)"
+        },
+        {
+          "japanese": "ぷにぷに",
+          "romaji": "punipuni",
+          "english": "soft and squishy (tactile onomatopoeia)"
+        }
       ],
       "flashcardHeader": "ぷ",
       "flashcardAnswer": "pu — 'p' + Japanese 'u' (flat lips)",
@@ -104,10 +168,26 @@
         "ぺこぺこ (hungry / bowing repeatedly) is a fun dual-meaning onomatopoeia."
       ],
       "examples": [
-        {"japanese": "ぺん", "romaji": "pen", "english": "pen (loanword from English)"},
-        {"japanese": "ぺこぺこ", "romaji": "pekopeko", "english": "very hungry / bowing repeatedly and submissively"},
-        {"japanese": "ぺらぺら", "romaji": "perapera", "english": "fluent (in a language) / flimsy / chatty"},
-        {"japanese": "ぺたぺた", "romaji": "petapeta", "english": "sticky / pasting things / flat-footed walking"}
+        {
+          "japanese": "ぺん",
+          "romaji": "pen",
+          "english": "pen (loanword from English)"
+        },
+        {
+          "japanese": "ぺこぺこ",
+          "romaji": "pekopeko",
+          "english": "very hungry / bowing repeatedly and submissively"
+        },
+        {
+          "japanese": "ぺらぺら",
+          "romaji": "perapera",
+          "english": "fluent (in a language) / flimsy / chatty"
+        },
+        {
+          "japanese": "ぺたぺた",
+          "romaji": "petapeta",
+          "english": "sticky / pasting things / flat-footed walking"
+        }
       ],
       "flashcardHeader": "ぺ",
       "flashcardAnswer": "pe — like the 'pe' in 'pep'",
@@ -126,10 +206,26 @@
         "Congratulations — ぽ is the last character in the basic hiragana chart! You've learned them all."
       ],
       "examples": [
-        {"japanese": "ぽかぽか", "romaji": "pokapoka", "english": "warm and cozy (like sunlight) / thwacking"},
-        {"japanese": "ぽっかり", "romaji": "pokkari", "english": "gaping open / floating lightly / unexpectedly empty"},
-        {"japanese": "ぽかん", "romaji": "pokan", "english": "dumbfounded / open-mouthed / hollow thud"},
-        {"japanese": "ぽたぽた", "romaji": "potapota", "english": "dripping steadily (sound of drops falling)"}
+        {
+          "japanese": "ぽかぽか",
+          "romaji": "pokapoka",
+          "english": "warm and cozy (like sunlight) / thwacking"
+        },
+        {
+          "japanese": "ぽっかり",
+          "romaji": "pokkari",
+          "english": "gaping open / floating lightly / unexpectedly empty"
+        },
+        {
+          "japanese": "ぽかん",
+          "romaji": "pokan",
+          "english": "dumbfounded / open-mouthed / hollow thud"
+        },
+        {
+          "japanese": "ぽたぽた",
+          "romaji": "potapota",
+          "english": "dripping steadily (sound of drops falling)"
+        }
       ],
       "flashcardHeader": "ぽ",
       "flashcardAnswer": "po — like the 'po' in 'poke' (the final hiragana character!)",
@@ -142,7 +238,12 @@
       "type": "multiple_choice",
       "prompt": "What is the handakuten (゜) and which row does it apply to?",
       "japanese": "゜",
-      "choices": ["Two strokes that apply to the K-row", "A circle that turns H-row into P-row", "A circle that turns K-row into G-row", "Two strokes that turn S-row into Z-row"],
+      "choices": [
+        "Two strokes that apply to the K-row",
+        "A circle that turns H-row into P-row",
+        "A circle that turns K-row into G-row",
+        "Two strokes that turn S-row into Z-row"
+      ],
       "correctIndex": 1,
       "explanation": "The handakuten (゜) is the small circle that transforms H-row characters into P sounds: は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. It only applies to the H-row."
     },
@@ -151,7 +252,12 @@
       "type": "multiple_choice",
       "prompt": "Which character makes the 'pu' sound?",
       "japanese": null,
-      "choices": ["ぱ", "ぴ", "ぷ", "ぺ"],
+      "choices": [
+        "ぱ",
+        "ぴ",
+        "ぷ",
+        "ぺ"
+      ],
       "correctIndex": 2,
       "explanation": "ぷ makes the 'pu' sound. It's the handakuten version of ふ. Both use both lips — but ぷ stops the airflow completely (a stop), while ふ lets air pass (a fricative)."
     },
@@ -160,7 +266,12 @@
       "type": "multiple_choice",
       "prompt": "What does the word ぱん mean, and where does it come from?",
       "japanese": "ぱん",
-      "choices": ["rice — from Chinese", "bread — from Portuguese", "noodle — from Chinese", "cake — from English"],
+      "choices": [
+        "rice — from Chinese",
+        "bread — from Portuguese",
+        "noodle — from Chinese",
+        "cake — from English"
+      ],
       "correctIndex": 1,
       "explanation": "ぱん (pan) means 'bread' and comes from the Portuguese word 'pão'. Portuguese missionaries and traders introduced bread (and many other things) to Japan in the 16th century, and the word stuck."
     },
@@ -169,7 +280,12 @@
       "type": "multiple_choice",
       "prompt": "What does ぴかぴか mean?",
       "japanese": "ぴかぴか",
-      "choices": ["dark and gloomy", "sparkling / shining brightly", "loud and noisy", "soft and fluffy"],
+      "choices": [
+        "dark and gloomy",
+        "sparkling / shining brightly",
+        "loud and noisy",
+        "soft and fluffy"
+      ],
       "correctIndex": 1,
       "explanation": "ぴかぴか (pikapika) means 'sparkling' or 'shining brightly'. This is actually the origin of Pikachu's name — the 'pika' refers to the flash of electricity! Onomatopoeia like this is one of the most expressive features of Japanese."
     }

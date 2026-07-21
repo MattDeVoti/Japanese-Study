@@ -59,7 +59,8 @@ struct ParticleCard: Identifiable {
     let id: String       // particleId from JSON
     let particle: String
     let romaji: String
-    let meaning: String
+    let meaning: String       // short description shown at the top
+    let explanation: String   // comprehensive usage explanation (may be empty)
     let nLevel: Int
 }
 

@@ -1,6 +1,6 @@
 {
   "id": "ch08",
-  "chapterNumber": 8,
+  "chapterNumber": 9,
   "title": "Short Forms",
   "points": [
     {
@@ -8,13 +8,13 @@
       "name": "Plain / short forms",
       "shortDescription": "The four plain forms used in casual speech and embedded clauses.",
       "formation": "Dict. form (pres aff) / ない-form (pres neg) / た-form (past aff) / なかった-form (past neg)",
-      "explanation": "Up until now you have been using polite ます/です forms for everything. But Japanese has a second complete parallel set of verb forms called plain forms — also called short forms or dictionary forms. You need these for three reasons. First, they are used in casual speech between close friends and family. Second, they appear in embedded clauses — when one sentence is placed inside another, the inner sentence uses plain forms. Third, dozens of grammar patterns attach directly to plain forms: と思う (think that), から (because), のが (the act of doing), and many more ahead.\n\nThe four plain forms are: (1) Dictionary form — ends in an う-row sound (食べる, 飲む, する, くる) — present/future affirmative. (2) ない-form — present/future negative (食べない, 飲まない, しない, こない). (3) た-form — past affirmative, built with the same sound changes as the て-form but ending in た/だ instead of て/で (食べた, 飲んだ, した, きた). (4) なかった-form — past negative, formed by adding かった to the ない-form stem (食べなかった, 飲まなかった). All four forms are fundamental to everything that follows.",
+      "explanation": "Up to now you have used the polite ます/です forms for everything. Japanese also has a second, complete parallel set called plain forms (also \"short forms\" or \"dictionary forms\"). You need them for three reasons: they're used in casual speech; they appear inside embedded clauses (an inner sentence uses plain forms); and dozens of grammar patterns attach directly to them (と思[おも]う, から, のが, and many more ahead).\n\nThere are four plain forms:\n- Dictionary form (present / future affirmative): ends in an う-row sound — 食[た]べる, 飲[の]む, する, くる\n- ない-form (present / future negative): 食[た]べない, 飲[の]まない, しない, こない\n- た-form (past affirmative): the same sound changes as the て-form, but ending in た/だ — 食[た]べた, 飲[の]んだ, した, きた\n- なかった-form (past negative): add かった to the ない-form stem — 食[た]べなかった, 飲[の]まなかった\n\nAll four are fundamental to everything that follows.",
       "rules": [
-        "Present affirmative = dictionary form (食べる, 飲む, する, くる)",
-        "Present negative = ない-form (食べない, 飲まない, しない, こない)",
-        "Past affirmative = た-form (食べた, 飲んだ, した, きた) — same pattern as て-form",
-        "Past negative = なかった-form (食べなかった, 飲まなかった, しなかった)",
-        "Plain forms appear in casual speech and before grammar patterns like と思う, から, のが"
+        "Present affirmative = dictionary form (食[た]べる, 飲[の]む, する, くる)",
+        "Present negative = ない-form (食[た]べない, 飲[の]まない, しない, こない)",
+        "Past affirmative = た-form (食[た]べた, 飲[の]んだ, した, きた) — same pattern as て-form",
+        "Past negative = なかった-form (食[た]べなかった, 飲[の]まなかった, しなかった)",
+        "Plain forms appear in casual speech and before grammar patterns like と思[おも]う, から, のが"
       ],
       "examples": [
         {
@@ -327,13 +327,13 @@
       "id": "nanika-nanimo",
       "name": "何[なに]か / 何[なに]も / 誰[だれ]か / 誰[だれ]も (indefinite and negative pronouns)",
       "shortDescription": "Indefinite pronouns (something, someone) and their negative counterparts (nothing, no one).",
-      "formation": "何か (something) / 何も + neg (nothing) / 誰か (someone) / 誰も + neg (no one)",
-      "explanation": "Japanese has a logical and consistent system for 'something/nothing' and 'someone/no one' — once you learn the pattern, it applies everywhere. The か version is used in positive sentences and questions — it signals an indefinite but existing thing or person. 何か means 'something' (you're not sure what it is): 何か食べましたか (Did you eat something?).\n\nThe も version paired with a negative verb creates total negation — 'nothing at all,' 'no one at all.' 何も followed by a negative verb means 'nothing': 何も食べませんでした (I didn't eat anything). 誰か = someone; 誰も + negative = no one. どこか = somewhere; どこも + negative = nowhere.\n\nThe golden rule: 〜も is always paired with a negative verb — using も with a positive verb is a grammar error. Think of it as: か = 'some-' (open, indefinite) and も + negative = 'no-' (complete absence).",
+      "formation": "何[なに]か (something) / 何[なに]も + neg (nothing) / 誰[だれ]か (someone) / 誰[だれ]も + neg (no one)",
+      "explanation": "Japanese has a logical, consistent system for \"something / nothing\" and \"someone / no one\" — once you learn the pattern, it applies everywhere. The か version is used in positive sentences and questions: it signals an indefinite but existing thing or person. The も version, paired with a negative verb, creates total negation — \"nothing at all,\" \"no one at all.\"\n\nThe same pattern holds for every question word (the も form always needs a negative verb):\n- 何[なに]か = something  →  何[なに]も + negative = nothing\n- 誰[だれ]か = someone  →  誰[だれ]も + negative = no one\n- どこか = somewhere  →  どこも + negative = nowhere\n\nCompare the two directly:\n- 何[なに]か食[た]べましたか。 — Did you eat something?\n- 何[なに]も食[た]べませんでした。 — I did not eat anything.\n\nThe golden rule: 〜も is always paired with a negative verb — using も with a positive verb is a grammar error. Think of it as か = \"some-\" (open, indefinite) and も + negative = \"no-\" (complete absence).",
       "rules": [
         "〜か = indefinite (something, someone, somewhere) — used in positive/question contexts",
         "〜も + negative verb = negative (nothing, no one, nowhere)",
-        "何か = something; 何も + neg = nothing / not anything",
-        "誰か = someone; 誰も + neg = no one / not anyone",
+        "何[なに]か = something; 何[なに]も + neg = nothing / not anything",
+        "誰[だれ]か = someone; 誰[だれ]も + neg = no one / not anyone",
         "どこか = somewhere; どこも + neg = nowhere / not anywhere",
         "〜も MUST be paired with a negative verb — never affirmative"
       ],
@@ -648,12 +648,12 @@
       "id": "no-ga-suki",
       "name": "〜のが好[す]き / 上手[じょうず] / 下手[へた] (verb nominalization with の)",
       "shortDescription": "Turns a verb phrase into a noun using の, allowing it to be used with particles.",
-      "formation": "Verb (plain form) + のが + 好き / 嫌い / 上手 / 下手 / etc.",
-      "explanation": "In Japanese, verbs cannot directly take particles like が or を — only nouns can do that. So when you want to make a verb phrase into the subject or object of a sentence, you need to nominalize it — turn it into a noun-like thing. The simplest way is adding の after the plain form of the verb. This の transforms the whole verb phrase into something that can take particles. 読む (to read) + の = 読むの (the act of reading / reading-as-a-noun). Then attach particles: 読むのが好きです (I like reading — literally 'reading is liked'). This pattern is especially common with 好き, 嫌い, 上手, and 下手.\n\nA related nominalizer, こと, works similarly but sounds slightly more formal or abstract — in everyday conversation, の is the more natural and common choice. The verb before の must always be in plain form regardless of the tense or politeness of the overall sentence.",
+      "formation": "Verb (plain form) + のが + 好[す]き / 嫌[きら]い / 上手[じょうず] / 下手[へた] / etc.",
+      "explanation": "In Japanese, verbs cannot directly take particles like が or を — only nouns can do that. So when you want to make a verb phrase into the subject or object of a sentence, you need to nominalize it — turn it into a noun-like thing. The simplest way is adding の after the plain form of the verb. This の transforms the whole verb phrase into something that can take particles. 読[よ]む (to read) + の = 読[よ]むの (the act of reading / reading-as-a-noun). Then attach particles: 読[よ]むのが好[す]きです (I like reading — literally 'reading is liked'). This pattern is especially common with 好[す]き, 嫌[きら]い, 上手[じょうず], and 下手[へた].\n\nA related nominalizer, こと, works similarly but sounds slightly more formal or abstract — in everyday conversation, の is the more natural and common choice. The verb before の must always be in plain form regardless of the tense or politeness of the overall sentence.",
       "rules": [
         "Verb (plain form) + の = noun phrase ('the act of doing X' / 'doing X')",
         "Attach particles after の: 〜のが (subject), 〜のを (object)",
-        "Common uses: 〜のが好き (like doing), 〜のが嫌い (hate doing), 〜のが上手 (good at doing)",
+        "Common uses: 〜のが好[す]き (like doing), 〜のが嫌[きら]い (hate doing), 〜のが上手[じょうず] (good at doing)",
         "The verb before の must be in plain form",
         "Compare: の (natural/conversational) vs こと (more formal/written)"
       ],
@@ -969,10 +969,10 @@
       "name": "〜ないでください (nai de kudasai) — please don't",
       "shortDescription": "A polite request not to do something.",
       "formation": "Verb (ない-form) + でください",
-      "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走る → 走らない → 走らないでください (Please don't run). 食べる → 食べない → 食べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 6): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言わないで (Don't say things like that).",
+      "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走[はし]る → 走[はし]らない → 走[はし]らないでください (Please don't run). 食[た]べる → 食[た]べない → 食[た]べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 6): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言[い]わないで (Don't say things like that).",
       "rules": [
         "Pattern: Verb (ない-form) + でください = Please don't do X",
-        "Keep the full ない-form: e.g., 食べないでください (not 食べないくださ)",
+        "Keep the full ない-form: e.g., 食[た]べないでください (not 食[た]べないくださ)",
         "Casual: ないで (drop ください) = for friends and casual situations",
         "Stronger prohibition: 〜てはいけません (must not)",
         "Softer alternative: 〜ないようにしてください (please try not to)"
@@ -1608,8 +1608,6 @@
     }
   ],
   "kanji": [
-    "一",
-    "三",
     "子",
     "母",
     "父"
