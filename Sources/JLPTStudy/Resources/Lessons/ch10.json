@@ -1,18 +1,226 @@
 {
   "id": "ch10",
-  "chapterNumber": 10,
+  "chapterNumber": 11,
   "title": "Comparisons",
   "points": [
+    {
+      "id": "hou-ga",
+      "name": "〜の方[ほう]が (hou ga) — the more ~ one / A is more ~",
+      "shortDescription": "Singles out one side of a comparison as \"more\" — the 方[ほう] that is bigger, better, or preferred.",
+      "formation": "Noun + の方[ほう]が / plain verb・い-adj + 方[ほう]が / な-adj + な + 方[ほう]が （+ B より）",
+      "explanation": "方[ほう] literally means \"side\" or \"direction,\" and in a comparison it picks out one option and says it has more of a quality. 方[ほう]が is the natural partner of より (the next point): より marks the thing you measure *against* (\"than B\"), while 方[ほう]が marks the side that *wins* (\"the A side is more\"). The two usually appear together, and the order is flexible:\n- 東京[とうきょう]の方[ほう]が大阪[おおさか]より大[おお]きいです。 — Tokyo is bigger than Osaka.\n- 大阪[おおさか]より東京[とうきょう]の方[ほう]が大[おお]きいです。 — Same meaning, reversed order.\n\nWhat attaches before 方[ほう] depends on the word type:\n- Noun: の + 方[ほう]が — 車[くるま]の方[ほう]が (the car is more…)\n- い-adjective or verb (plain form): attach directly — 安[やす]い方[ほう]が (the cheaper one), 歩[ある]く方[ほう]が (walking is more…)\n- な-adjective: な + 方[ほう]が — 静[しず]かな方[ほう]が (the quieter one)\n\n方[ほう]が is also how you ANSWER a comparison question. Asked 「どちらが〜ですか」 (\"which is more ~?\"), you reply with 〜の方[ほう]が〜:\n- 「コーヒーとお茶[ちゃ]と、どちらが好[す]きですか。」→「お茶[ちゃ]の方[ほう]が好[す]きです。」 — \"Which do you prefer, coffee or tea?\" → \"I prefer tea.\"\n\nAnd 〜の方[ほう]がいい means \"A is better / preferable\": 新[あたら]しい方[ほう]がいいです (the new one is better).",
+      "rules": [
+        "方[ほう] = \"side / option\"; 〜の方[ほう]が marks the item that has MORE of the quality",
+        "Pairs with より: Aの方[ほう]がBより〜 = A is more ~ than B (order is flexible)",
+        "Noun + の方[ほう]が; い-adjective or plain verb + 方[ほう]が directly; な-adjective + な + 方[ほう]が",
+        "Answer 「どちらが〜」 questions with 〜の方[ほう]が〜",
+        "〜の方[ほう]がいい = A is better / preferable"
+      ],
+      "examples": [
+        {
+          "japanese": "電車[でんしゃ]の方[ほう]がバスより速[はや]いです。",
+          "romaji": "Densha no hou ga basu yori hayai desu.",
+          "english": "The train is faster than the bus."
+        },
+        {
+          "japanese": "私[わたし]は夏[なつ]より冬[ふゆ]の方[ほう]が好[す]きです。",
+          "romaji": "Watashi wa natsu yori fuyu no hou ga suki desu.",
+          "english": "I like winter more than summer."
+        },
+        {
+          "japanese": "どちらの方[ほう]が安[やす]いですか。",
+          "romaji": "Dochira no hou ga yasui desu ka.",
+          "english": "Which one is cheaper?"
+        },
+        {
+          "japanese": "歩[ある]く方[ほう]が健康[けんこう]にいいです。",
+          "romaji": "Aruku hou ga kenkou ni ii desu.",
+          "english": "Walking is better for your health."
+        }
+      ],
+      "flashcardHeader": "〜の方が (hou ga)",
+      "flashcardAnswer": "Singles out the side of a comparison that has more of a quality — often paired with より.",
+      "practice": [
+        {
+          "id": "hou-ga_q1",
+          "type": "construct",
+          "prompt": "Which sentence correctly says \"Tokyo is bigger than Osaka\" using 方[ほう]が?",
+          "japanese": null,
+          "choices": [
+            "東京[とうきょう]は大阪[おおさか]の方[ほう]が大[おお]きいです。",
+            "東京[とうきょう]の方[ほう]が大阪[おおさか]より大[おお]きいです。",
+            "東京[とうきょう]より大阪[おおさか]の方[ほう]が大[おお]きいです。",
+            "東京[とうきょう]の方[ほう]が大阪[おおさか]と大[おお]きいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aの方[ほう]がBより〜 = A is more ~ than B. 東京[とうきょう]の方[ほう]が大阪[おおさか]より大[おお]きい puts 東京[とうきょう] on the \"winning\" side (方[ほう]が) and 大阪[おおさか] as the standard (より). Option C reverses which city is bigger."
+        },
+        {
+          "id": "hou-ga_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 車[くるま]___方[ほう]が電車[でんしゃ]より便利[べんり]です。(The car is more convenient than the train.)",
+          "japanese": "車[くるま]___方[ほう]が電車[でんしゃ]より便利[べんり]です。",
+          "choices": [
+            "の",
+            "は",
+            "を",
+            "な"
+          ],
+          "correctIndex": 0,
+          "explanation": "A noun connects to 方[ほう]が with の: 車[くるま]の方[ほう]が. Verbs and い-adjectives attach directly, and な-adjectives use な, but nouns always take の."
+        },
+        {
+          "id": "hou-ga_q3",
+          "type": "usage",
+          "prompt": "How does an い-adjective attach to 方[ほう]が?",
+          "japanese": null,
+          "choices": [
+            "安[やす]いの方[ほう]が",
+            "安[やす]い方[ほう]が",
+            "安[やす]なの方[ほう]が",
+            "安[やす]の方[ほう]が"
+          ],
+          "correctIndex": 1,
+          "explanation": "い-adjectives attach to 方[ほう]が directly, with no の or な: 安[やす]い方[ほう]が (the cheaper one). Only nouns take の, and only な-adjectives take な."
+        },
+        {
+          "id": "hou-ga_q4",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 静[しず]か___方[ほう]がいいです。(The quieter one is better.)",
+          "japanese": "静[しず]か___方[ほう]がいいです。",
+          "choices": [
+            "の",
+            "い",
+            "な",
+            "を"
+          ],
+          "correctIndex": 2,
+          "explanation": "静[しず]か is a な-adjective, so it takes な before 方[ほう]が: 静[しず]かな方[ほう]が. Nouns would take の and い-adjectives attach directly, but な-adjectives use な."
+        },
+        {
+          "id": "hou-ga_q5",
+          "type": "translation",
+          "prompt": "「コーヒーとお茶[ちゃ]と、どちらが好[す]きですか。」 What is the natural way to answer \"I prefer tea\"?",
+          "japanese": null,
+          "choices": [
+            "お茶[ちゃ]が好[す]きです。",
+            "お茶[ちゃ]の方[ほう]が好[す]きです。",
+            "お茶[ちゃ]より好[す]きです。",
+            "お茶[ちゃ]は方[ほう]が好[す]きです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "You answer a どちらが (which of two) question with 〜の方[ほう]が〜: お茶[ちゃ]の方[ほう]が好[す]きです picks tea as the preferred side. Plain お茶[ちゃ]が好[す]きです is understandable but the 方[ほう]が form directly answers the comparison."
+        },
+        {
+          "id": "hou-ga_q6",
+          "type": "usage",
+          "prompt": "Which sentence means the SAME as 「東京[とうきょう]の方[ほう]が大阪[おおさか]より大[おお]きいです」?",
+          "japanese": null,
+          "choices": [
+            "大阪[おおさか]の方[ほう]が東京[とうきょう]より大[おお]きいです。",
+            "大阪[おおさか]より東京[とうきょう]の方[ほう]が大[おお]きいです。",
+            "東京[とうきょう]と大阪[おおさか]は大[おお]きいです。",
+            "東京[とうきょう]は大阪[おおさか]ほど大[おお]きいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "The 方[ほう]が and より parts can swap order without changing the meaning. 大阪[おおさか]より東京[とうきょう]の方[ほう]が大[おお]きい still says Tokyo is the bigger side. Option A reverses which city is bigger."
+        },
+        {
+          "id": "hou-ga_q7",
+          "type": "construct",
+          "prompt": "What does 「新[あたら]しい方[ほう]がいいです」 mean?",
+          "japanese": null,
+          "choices": [
+            "The new one is better.",
+            "There is no new one.",
+            "The old one is better.",
+            "It is not new."
+          ],
+          "correctIndex": 0,
+          "explanation": "〜の方[ほう]がいい = \"A is better / preferable.\" 新[あたら]しい方[ほう]がいい = the new one is the better choice. (This is the comparative \"is better,\" not the advice pattern 〜た方[ほう]がいい, which comes later.)"
+        },
+        {
+          "id": "hou-ga_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: バスより電車[でんしゃ]の方[ほう]___速[はや]いです。(The train is faster than the bus.)",
+          "japanese": "バスより電車[でんしゃ]の方[ほう]___速[はや]いです。",
+          "choices": [
+            "が",
+            "は",
+            "を",
+            "に"
+          ],
+          "correctIndex": 0,
+          "explanation": "The particle after 方[ほう] is always が: 〜の方[ほう]が. It marks the side that has more of the quality (here, more speed)."
+        },
+        {
+          "id": "hou-ga_q9",
+          "type": "usage",
+          "prompt": "Which sentence correctly says \"I like winter more than summer\"?",
+          "japanese": null,
+          "choices": [
+            "夏[なつ]の方[ほう]が冬[ふゆ]より好[す]きです。",
+            "冬[ふゆ]より夏[なつ]の方[ほう]が好[す]きです。",
+            "夏[なつ]より冬[ふゆ]の方[ほう]が好[す]きです。",
+            "冬[ふゆ]と夏[なつ]の方[ほう]が好[す]きです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "To like winter more, 冬[ふゆ] must be on the 方[ほう]が (winning) side: 夏[なつ]より冬[ふゆ]の方[ほう]が好[す]きです. Options A and B put 夏[なつ] on the winning side, meaning you prefer summer."
+        },
+        {
+          "id": "hou-ga_q10",
+          "type": "construct",
+          "prompt": "Which sentence is INCORRECT?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]の方[ほう]が英語[えいご]より難[むずか]しいです。",
+            "この店[みせ]の方[ほう]が安[やす]いです。",
+            "赤[あか]いの方[ほう]がきれいです。",
+            "元気[げんき]な方[ほう]がいいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "赤[あか]い is an い-adjective, so it should attach directly: 赤[あか]い方[ほう]が, not 赤[あか]いの方[ほう]が. The の is only for nouns. The other three correctly use noun+の, plain form, and な-adjective+な."
+        },
+        {
+          "id": "hou-ga_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: タクシーに乗[の]る___方[ほう]が速[はや]いです。(Taking a taxi is faster.)",
+          "japanese": "タクシーに乗[の]る___方[ほう]が速[はや]いです。",
+          "choices": [
+            "の",
+            "な",
+            "",
+            "を"
+          ],
+          "correctIndex": 2,
+          "explanation": "A verb in plain form attaches to 方[ほう]が directly, with nothing in between: 乗[の]る方[ほう]が. (The blank is empty.) Nouns take の and な-adjectives take な, but plain verbs need no connector."
+        },
+        {
+          "id": "hou-ga_q12",
+          "type": "translation",
+          "prompt": "Which sentence means \"Which is more delicious, this or that?\"",
+          "japanese": null,
+          "choices": [
+            "これとあれと、どちらの方[ほう]がおいしいですか。",
+            "これとあれは、方[ほう]がおいしいですか。",
+            "これよりあれの方[ほう]がおいしいですか。",
+            "これとあれのどちらもおいしいですか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "To ask which of two is more ~, use 〜と〜と、どちらの方[ほう]が + adjective + ですか. これとあれと、どちらの方[ほう]がおいしいですか asks which of the two is tastier. Option C states a comparison rather than asking which."
+        }
+      ]
+    },
     {
       "id": "yori",
       "name": "〜より (yori) — than (comparisons)",
       "shortDescription": "Marks the benchmark in a comparison — the 'than' that makes one thing taller, faster, or more expensive than another.",
       "formation": "A は B より + Adjective + です",
-      "explanation": "より is the engine of Japanese comparisons — it marks the thing you are measuring against. Think of it as the 'than' in 'taller than': 東京は大阪より大きいです means 'Tokyo is bigger than Osaka,' where より points to Osaka as the reference point. Notice something elegant about Japanese comparisons: the adjective itself never changes. There is no 'bigger' form of 大きい — it stays 大きい whether you are comparing or not. より does all the comparative work on its own.\n\nFor preference — 'I prefer A over B' — use B より A のほうが好きです: literally 'compared to B, the A side is more liked.' The ほう (side/direction) word makes the preference explicit. To ask which of two things has more of a quality, use AとBと、どちらが + adjective + ですか (which of A and B is more...?), using どちら for exactly two options.",
+      "explanation": "より is the engine of Japanese comparisons — it marks the thing you are measuring against. Think of it as the 'than' in 'taller than': 東京[とうきょう]は大阪[おおさか]より大[おお]きいです means 'Tokyo is bigger than Osaka,' where より points to Osaka as the reference point. Notice something elegant about Japanese comparisons: the adjective itself never changes. There is no 'bigger' form of 大[おお]きい — it stays 大[おお]きい whether you are comparing or not. より does all the comparative work on its own.\n\nFor preference — 'I prefer A over B' — use B より A のほうが好[す]きです: literally 'compared to B, the A side is more liked.' The ほう (side/direction) word makes the preference explicit. To ask which of two things has more of a quality, use AとBと、どちらが + adjective + ですか (which of A and B is more...?), using どちら for exactly two options.",
       "rules": [
         "Pattern: A は B より + adj = A is more [adj] than B",
         "より marks the comparison standard (the 'than' item)",
-        "Preference: B より A のほうが好き = I prefer A over B",
+        "Preference: B より A のほうが好[す]き = I prefer A over B",
         "Question (between two): A と B と、どちらが + adj + ですか",
         "より can also appear alone to mean 'rather than' in preferences"
       ],
@@ -327,14 +535,14 @@
       "id": "ichiban",
       "name": "一番[いちばん] / 〜の中[なか]で〜が一番[いちばん] (superlative: the most)",
       "shortDescription": "Expresses the superlative: 'the most' or 'the best among a group'.",
-      "formation": "〜の中で + Noun/Question word + が + 一番 + Adjective",
-      "explanation": "一番 literally means 'number one,' and in Japanese it does exactly what you would expect — it creates superlatives. Place 一番 directly before any adjective or adverb: 一番大きい (the biggest), 一番上手 (the most skilled), 一番好き (like the most).\n\nTo specify the group being compared, use 〜の中で (among / within): この三つの中で、どれが一番高いですか (Among these three, which is the most expensive?). For broader scope, use 〜で alone: 世界で一番高い山 (the tallest mountain in the world). 一番 works with い-adjectives, な-adjectives, and adverbs equally — no special adjustments needed.\n\nAnd 一番好きな〜 is the natural way to say 'favorite': 一番好きな食べ物 (my favorite food). Superlatives in Japanese are genuinely elegant: pick 一番, put it before your adjective, specify the group with の中で if needed, and you are done.",
+      "formation": "〜の中[なか]で + Noun/Question word + が + 一番[いちばん] + Adjective",
+      "explanation": "一番[いちばん] literally means 'number one,' and in Japanese it does exactly what you would expect — it creates superlatives. Place 一番[いちばん] directly before any adjective or adverb: 一番[いちばん]大[おお]きい (the biggest), 一番上手[いちばんじょうず] (the most skilled), 一番好[いちばんす]き (like the most).\n\nTo specify the group being compared, use 〜の中[なか]で (among / within): この三[みっ]つの中[なか]で、どれが一番[いちばん]高[たか]いですか (Among these three, which is the most expensive?). For broader scope, use 〜で alone: 世界[せかい]で一番[いちばん]高[たか]い山[やま] (the tallest mountain in the world). 一番[いちばん] works with い-adjectives, な-adjectives, and adverbs equally — no special adjustments needed.\n\nAnd 一番好[いちばんす]きな〜 is the natural way to say 'favorite': 一番好[いちばんす]きな食[た]べ物[もの] (my favorite food). Superlatives in Japanese are genuinely elegant: pick 一番[いちばん], put it before your adjective, specify the group with の中[なか]で if needed, and you are done.",
       "rules": [
-        "一番 + adjective = the most [adj] / the [adj]est",
-        "Scope: 〜の中で (within / among) precedes the group being compared",
-        "Question: 〜の中で、どれ/だれ/どこが一番 + adj + ですか",
+        "一番[いちばん] + adjective = the most [adj] / the [adj]est",
+        "Scope: 〜の中[なか]で (within / among) precedes the group being compared",
+        "Question: 〜の中[なか]で、どれ/だれ/どこが一番[いちばん] + adj + ですか",
         "Works with い-adj, な-adj, and adverbs alike",
-        "一番 can also express 'best/most preferred' with 好き: 一番好きな〜 = favorite"
+        "一番[いちばん] can also express 'best/most preferred' with 好[す]き: 一番好[いちばんす]きな〜 = favorite"
       ],
       "examples": [
         {
@@ -648,11 +856,11 @@
       "name": "の (no) as a pronoun — 'the one'",
       "shortDescription": "の replaces a noun already understood from context: 'the one that...'",
       "formation": "Adjective / Relative clause + の (replacing the noun)",
-      "explanation": "Earlier you learned that の connects two nouns (AのB = B belonging to A). But の has a second role: it can replace a noun that is already understood from context, working exactly like 'one' in English. 'Which bag do you want? — The red one.' In Japanese: 赤いのがほしいです — 赤い (red) + の (the understood 'one') + が + ほしい. の stands in for the noun that was mentioned or is obvious. This works after い-adjectives (大きいの = the big one), after な-adjectives with な (きれいなの = the pretty one), and after entire relative clauses (昨日買ったの = the one I bought yesterday).\n\nOne important limit: の as a pronoun replacement only works for concrete, tangible nouns — things you can point to. For abstract concepts or entire situations, こと is used instead. Particles attach to の normally — のが, のを, のは, のに — just as they would to a regular noun.",
+      "explanation": "Earlier you learned that の connects two nouns (AのB = B belonging to A). But の has a second role: it can replace a noun that is already understood from context, working exactly like 'one' in English. 'Which bag do you want? — The red one.' In Japanese: 赤[あか]いのがほしいです — 赤[あか]い (red) + の (the understood 'one') + が + ほしい. の stands in for the noun that was mentioned or is obvious. This works after い-adjectives (大[おお]きいの = the big one), after な-adjectives with な (きれいなの = the pretty one), and after entire relative clauses (昨日[きのう]買[か]ったの = the one I bought yesterday).\n\nOne important limit: の as a pronoun replacement only works for concrete, tangible nouns — things you can point to. For abstract concepts or entire situations, こと is used instead. Particles attach to の normally — のが, のを, のは, のに — just as they would to a regular noun.",
       "rules": [
         "Adjective/relative clause + の = 'the one that is [adj]' / 'the one that [verb]'",
         "Replaces a noun that is already understood from context",
-        "Works after い-adj (大きいの), な-adj + な (きれいなの), and relative clauses (昨日買ったの)",
+        "Works after い-adj (大[おお]きいの), な-adj + な (きれいなの), and relative clauses (昨日[きのう]買[か]ったの)",
         "Can only replace concrete, countable nouns — not abstract concepts or situations",
         "Particles attach normally after の: のが, のを, のは, のに..."
       ],
@@ -673,7 +881,7 @@
           "english": "The one I bought yesterday already broke."
         },
         {
-          "japanese": "大[おお]きいのより小[ちー]さいのがほしいです。",
+          "japanese": "大[おお]きいのより小[ちい]さいのがほしいです。",
           "romaji": "Ookii no yori chiisai no ga hoshii desu.",
           "english": "I want the small one rather than the big one."
         }
@@ -757,19 +965,19 @@
           "prompt": "You're buying shoes. How do you say 'I'll take the smaller one'?",
           "japanese": null,
           "choices": [
-            "小[ちー]さいのにします。",
-            "小[ちー]さいことにします。",
-            "小[ちー]さいものにします。",
-            "小[ちー]さいをにします。"
+            "小[ちい]さいのにします。",
+            "小[ちい]さいことにします。",
+            "小[ちい]さいものにします。",
+            "小[ちい]さいをにします。"
           ],
           "correctIndex": 0,
-          "explanation": "Adjective + の replaces a concrete noun (shoes). 小[ちー]さいの = 'the small one.' にします = 'I'll go with / I'll take.' こと (Option B) replaces abstract concepts, not physical items. もの (Option C) is vaguer and doesn't attach directly to an adjective as neatly as の in this context. Option D breaks grammar by attaching を to an adjective."
+          "explanation": "Adjective + の replaces a concrete noun (shoes). 小[ちい]さいの = 'the small one.' にします = 'I'll go with / I'll take.' こと (Option B) replaces abstract concepts, not physical items. もの (Option C) is vaguer and doesn't attach directly to an adjective as neatly as の in this context. Option D breaks grammar by attaching を to an adjective."
         },
         {
           "id": "no-pronoun_q7",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "大[おお]きいのより小[ちー]さいのがほしいです。",
+          "japanese": "大[おお]きいのより小[ちい]さいのがほしいです。",
           "choices": [
             "I want something big instead of something small.",
             "I want the small one rather than the big one.",
@@ -777,7 +985,7 @@
             "The small one is better than the big one."
           ],
           "correctIndex": 1,
-          "explanation": "大[おお]きいの (the big one) + より (than/rather than) + 小[ちー]さいの (the small one) + が + ほしい (want). の appears twice, each time replacing the same understood noun. より here signals preference, making the big item the less desired baseline. Option C reverses the preference. Option D makes a quality statement rather than expressing desire."
+          "explanation": "大[おお]きいの (the big one) + より (than/rather than) + 小[ちい]さいの (the small one) + が + ほしい (want). の appears twice, each time replacing the same understood noun. より here signals preference, making the big item the less desired baseline. Option C reverses the preference. Option D makes a quality statement rather than expressing desire."
         },
         {
           "id": "no-pronoun_q8",
@@ -899,11 +1107,11 @@
           "choices": [
             "大[おお]きいのにほしいです。",
             "大[おお]きいのにあります。",
-            "小[ちー]さいのに変[か]えてください。",
+            "小[ちい]さいのに変[か]えてください。",
             "赤[あか]いのにいます。"
           ],
           "correctIndex": 2,
-          "explanation": "のに = 'to the one / into the one.' 小[ちー]さいのに変[か]えてください = 'Please change it to the small one.' に marks the target/destination of the change. Option A uses に but ほしい doesn't take に in this way. Option B sounds unnatural — objects (not people/animals) exist with ある. Option D uses いる for a non-living referent, which is wrong."
+          "explanation": "のに = 'to the one / into the one.' 小[ちい]さいのに変[か]えてください = 'Please change it to the small one.' に marks the target/destination of the change. Option A uses に but ほしい doesn't take に in this way. Option B sounds unnatural — objects (not people/animals) exist with ある. Option D uses いる for a non-living referent, which is wrong."
         },
         {
           "id": "no-pronoun_q17",
@@ -968,11 +1176,11 @@
       "name": "〜になる / 〜くなる (naru) — become",
       "shortDescription": "Expresses a change of state — becoming something different.",
       "formation": "い-adj stem + くなる  |  な-adj + になる  |  Noun + になる",
-      "explanation": "なる means 'to become' and is one of the most useful verbs for describing change over time. The way you attach なる depends on what type of word comes before it. For い-adjectives: drop the final い and add くなる. 高い (expensive) → 高くなる (become expensive). 大きい → 大きくなる (become big). Exception: いい (good) → よくなる (become good/better).\n\nFor な-adjectives and nouns: use the base form directly + になる. 元気 → 元気になる (become healthy), 先生 → 先生になる (become a teacher), 春 → 春になる (become/turn to spring). The rule of thumb: if the preceding word conjugates itself (い-adj), drop its い and add く; if it doesn't change (な-adj, noun), just add に.\n\nなる is itself an う-verb and conjugates normally: なります, なりました, なって. The expression どんどん〜くなる (getting more and more...) is great for describing ongoing change: どんどん上手になる (getting better and better).",
+      "explanation": "なる means \"to become\" and is one of the most useful verbs for describing change over time. How you attach it depends on the type of word in front:\n- い-adjectives: drop the final い, add くなる — 高[たか]い → 高[たか]くなる (become expensive), 大[おお]きい → 大[おお]きくなる (become big). Exception: いい → よくなる (get better)\n- な-adjectives: base form + になる — 元気[げんき] → 元気[げんき]になる (become healthy)\n- Nouns: noun + になる — 先生[せんせい] → 先生[せんせい]になる (become a teacher), 春[はる] → 春[はる]になる (turn to spring)\n\nThe rule of thumb: if the preceding word conjugates on its own (い-adjective), drop its い and add く; if it doesn't change (な-adjective or noun), just add に.",
       "rules": [
-        "い-adjective: drop い + くなる (暑い → 暑くなる = become hot; Exception: いい → よくなる)",
-        "な-adj: base form + になる (便利 → 便利になる = become convenient)",
-        "Noun: Noun + になる (医者になる = become a doctor)",
+        "い-adjective: drop い + くなる (暑[あつ]い → 暑[あつ]くなる = become hot; Exception: いい → よくなる)",
+        "な-adj: base form + になる (便利[べんり] → 便利[べんり]になる = become convenient)",
+        "Noun: Noun + になる (医者[いしゃ]になる = become a doctor)",
         "なる conjugates like a regular u-verb: なります, なりました, なって...",
         "どんどん〜くなる = getting more and more [adj]"
       ],
@@ -1288,11 +1496,11 @@
       "name": "〜つもりだ (tsumori da) — intend to / plan to",
       "shortDescription": "Expresses a firm personal intention or plan.",
       "formation": "Verb (plain form) + つもりです  |  Verb (ない-form) + つもりです",
-      "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思っている (I'm thinking of doing, covered in Chapter 8), which leaves more room for second thoughts. 来年、日本に留学するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年は甘いものを食べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり describes only the speaker's own intentions — for a third person's plans, use 〜する予定 (has a plan to) or report their words with と言っていた (said that they would, covered in Chapter 8).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
+      "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思[おも]っている (I'm thinking of doing, covered in Chapter 8), which leaves more room for second thoughts. 来年[らいねん]、日本[にっぽん]に留学[りゅうがく]するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年は甘[あま]いものを食[た]べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり describes only the speaker's own intentions — for a third person's plans, use 〜する予定[よてい] (has a plan to) or report their words with と言[い]っていた (said that they would, covered in Chapter 8).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分[わ]かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
       "rules": [
-        "Affirmative plan: plain form + つもりです (食べるつもりです = I intend to eat)",
-        "Negative plan: ない-form + つもりです (食べないつもりです = I don't plan to eat)",
-        "つもり expresses firm, decided intention — more committed than と思っている",
+        "Affirmative plan: plain form + つもりです (食[た]べるつもりです = I intend to eat)",
+        "Negative plan: ない-form + つもりです (食[た]べないつもりです = I don't plan to eat)",
+        "つもり expresses firm, decided intention — more committed than と思[おも]っている",
         "Can only describe the speaker's own intentions, not third-person plans",
         "Secondary meaning: 'thinking/assuming (possibly incorrectly)'"
       ],

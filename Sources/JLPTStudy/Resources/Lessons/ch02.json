@@ -8,7 +8,7 @@
       "name": "こ・そ・あ・ど series (objects): これ・それ・あれ・どれ",
       "shortDescription": "Demonstrative pronouns that stand alone — this, that (near you), that over there, which.",
       "formation": "これ / それ / あれ / どれ (stand alone as pronouns)",
-      "explanation": "Japanese has a beautifully organized system for pointing at things, and it all hinges on one question: where is the object relative to the speaker and the listener? これ refers to something close to the speaker — the person talking. それ refers to something close to the listener — the person being spoken to. あれ refers to something far from both people. どれ is the question form: 'which one?' used when choosing from three or more options.\n\nThese four words are pronouns — they stand alone and replace a noun entirely. You say これは本です (This is a book), where これ stands in place of naming the object. This contrasts with この/その/あの/どの (covered in the next point), which are adjectives that must always be followed directly by a noun.\n\nA key note: when choosing between exactly two options, use どちら instead of どれ — saving どれ for three or more.",
+      "explanation": "Japanese has a beautifully organized system for pointing at things, and it all hinges on one question: where is the object relative to the speaker and the listener? これ refers to something close to the speaker — the person talking. それ refers to something close to the listener — the person being spoken to. あれ refers to something far from both people. どれ is the question form: 'which one?' used when choosing from three or more options.\n\nThese four words are pronouns — they stand alone and replace a noun entirely. You say これは本[ほん]です (This is a book), where これ stands in place of naming the object. This contrasts with この/その/あの/どの (covered in the next point), which are adjectives that must always be followed directly by a noun.\n\nA key note: when choosing between exactly two options, use どちら instead of どれ — saving どれ for three or more.",
       "rules": [
         "これ = this (near speaker), それ = that (near listener), あれ = that over there, どれ = which?",
         "These are pronouns — they replace a noun, they do not go in front of one",
@@ -324,11 +324,11 @@
       "name": "この・その・あの・どの (with nouns)",
       "shortDescription": "Demonstrative adjectives placed directly before a noun.",
       "formation": "この / その / あの / どの + Noun",
-      "explanation": "While これ/それ/あれ/どれ stand alone as pronouns, この/その/あの/どの must always be followed directly by a noun — they are adjectives, not pronouns. Think of it this way: if you name the object, use この/その/あの/どの. If you replace the object's name entirely, use これ/それ/あれ/どれ.\n\nこの本 means 'this book' — the adjective plus a named noun. これは本です means 'This is a book' — the pronoun stands alone. The four follow the same near-speaker / near-listener / far / question pattern as the rest of the kosoado system.\n\nOne important detail: nothing can come between the adjective and its noun — この and その attach directly, with no particles or extra words inserted between them.",
+      "explanation": "While これ/それ/あれ/どれ stand alone as pronouns, この/その/あの/どの must always be followed directly by a noun — they are adjectives, not pronouns. Think of it this way: if you name the object, use この/その/あの/どの. If you replace the object's name entirely, use これ/それ/あれ/どれ.\n\nこの本[ほん] means 'this book' — the adjective plus a named noun. これは本[ほん]です means 'This is a book' — the pronoun stands alone. The four follow the same near-speaker / near-listener / far / question pattern as the rest of the kosoado system.\n\nOne important detail: nothing can come between the adjective and its noun — この and その attach directly, with no particles or extra words inserted between them.",
       "rules": [
         "Must be immediately followed by a noun — never used alone",
         "この = this [noun], その = that [noun] near listener, あの = that [noun] over there, どの = which [noun]?",
-        "Contrast: この本 (this book — adjective + noun) vs これは本 (This is a book — pronoun)"
+        "Contrast: この本[ほん] (this book — adjective + noun) vs これは本[ほん] (This is a book — pronoun)"
       ],
       "examples": [
         {
@@ -643,7 +643,7 @@
       "rules": [
         "ここ = here (speaker's location), そこ = there (listener's location), あそこ = over there, どこ = where?",
         "Add に for location of existence or destination: ここにあります (It is here)",
-        "Add で for location of action: そこで食べます (I'll eat there)",
+        "Add で for location of action: そこで食[た]べます (I'll eat there)",
         "どこ is used in open-ended 'where' questions, not for choosing between options"
       ],
       "examples": [
@@ -955,7 +955,7 @@
       "name": "〜も (mo) — also, too",
       "shortDescription": "Replaces は or が/を to mean 'also' or 'too'.",
       "formation": "Noun + も + Predicate",
-      "explanation": "も is a particle with a simple but powerful meaning: 'also' or 'too.' It works by replacing other particles. わたしは学生です (I am a student) → わたしも学生です (I am also a student): the は is swapped out for も. The same replacement works with が: 猫がいます → 猫もいます (There is also a cat).\n\nOne firm rule to remember: in negative sentences, も means 'either' or 'not...either.' わたしも行きません means 'I won't go either.' The pattern 〜も + negative must be consistent — you cannot mix positive and negative within the same paired statements.\n\nTo say 'both A and B,' stack two も: AもBも. Think of も as an inclusion operator — whatever it attaches to gets added to the same category as what came before it.",
+      "explanation": "も is a particle with a simple but powerful meaning: 'also' or 'too.' It works by replacing other particles. わたしは学生[がくせい]です (I am a student) → わたしも学生[がくせい]です (I am also a student): the は is swapped out for も. The same replacement works with が: 猫[ねこ]がいます → 猫[ねこ]もいます (There is also a cat).\n\nOne firm rule to remember: in negative sentences, も means 'either' or 'not...either.' わたしも行[い]きません means 'I won't go either.' The pattern 〜も + negative must be consistent — you cannot mix positive and negative within the same paired statements.\n\nTo say 'both A and B,' stack two も: AもBも. Think of も as an inclusion operator — whatever it attaches to gets added to the same category as what came before it.",
       "rules": [
         "も replaces は, が, or を to add the meaning of 'also/too'",
         "Positive: 〜も〜です / 〜もVます = also is / also does",
@@ -1272,7 +1272,7 @@
       "name": "ね and よ — sentence-final particles",
       "shortDescription": "ね seeks agreement; よ asserts information the listener doesn't know.",
       "formation": "Sentence + ね  |  Sentence + よ  |  Sentence + よね",
-      "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日はいい天気ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
+      "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日[こんにち]はいい天気[てんき]ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
       "rules": [
         "ね = seeking agreement or shared feeling ('isn't it?', 'right?')",
         "よ = asserting new information the listener may not know ('I'm telling you', 'you know')",
@@ -1908,7 +1908,6 @@
     }
   ],
   "kanji": [
-    "十",
     "中",
     "後",
     "東",

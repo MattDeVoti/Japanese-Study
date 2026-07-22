@@ -61,15 +61,30 @@ struct LessonsView: View {
                         }
                     }
 
+                    // MARK: Culture
+                    VStack(alignment: .leading, spacing: 14) {
+                        LessonSectionHeader("Culture")
+                        LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                            NavigationLink {
+                                CultureChapterView()
+                            } label: {
+                                CultureCircleButton()
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+
                     // MARK: Favorites
                     VStack(alignment: .leading, spacing: 14) {
                         LessonSectionHeader("Favorites")
-                        NavigationLink {
-                            FavoritesView()
-                        } label: {
-                            FavoritesRow()
+                        LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                            NavigationLink {
+                                FavoritesView()
+                            } label: {
+                                FavoritesCircleButton()
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
                     }
                 }
                 .padding(.horizontal, 20)
@@ -140,7 +155,6 @@ private struct GrammarCircleButton: View {
     let level: LessonLevel
 
     private var levelInt: Int { Int(level.jlptLevel.dropFirst()) ?? 5 }
-    private var bookNumber: Int { 6 - levelInt }
     private var color: Color { nLevelColor(levelInt) }
 
     var body: some View {
@@ -149,12 +163,9 @@ private struct GrammarCircleButton: View {
                 .fill(color.badgeGradient)
                 .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
 
-            VStack(spacing: 2) {
-                Text("Book \(bookNumber)")
-                    .font(.system(size: 11, weight: .semibold))
-                    .opacity(0.9)
-                Text(level.jlptLevel)
-                    .font(.system(size: 24, weight: .bold))
+            VStack(spacing: 3) {
+                Text(levelName(levelInt))
+                    .font(.system(size: 21, weight: .bold))
                 Text("\(level.chapters.count) ch")
                     .font(.system(size: 11, weight: .medium))
                     .opacity(0.9)
@@ -170,44 +181,68 @@ private struct GrammarCircleButton: View {
     }
 }
 
-// MARK: - Favorites row
+// MARK: - Culture circular button (matches the kana/grammar bubbles)
 
-private struct FavoritesRow: View {
-    @ObservedObject private var store = LessonsProgressStore.shared
-
-    private var subtitle: String {
-        store.favorites.isEmpty ? "No favorites yet" : "\(store.favorites.count) saved"
-    }
+private struct CultureCircleButton: View {
+    private var color: Color { CultureContent.accent }
+    private var total: Int { CultureContent.topics.count }
 
     var body: some View {
-        HStack(spacing: 16) {
+        ZStack {
             Circle()
-                .fill(Color.yellow.opacity(0.15))
-                .frame(width: 44, height: 44)
-                .overlay(
-                    Image(systemName: "star.fill")
-                        .font(.system(size: 18))
-                        .foregroundColor(.yellow)
-                )
+                .fill(color.badgeGradient)
+                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
 
-            VStack(alignment: .leading, spacing: 2) {
-                Text("Favorites")
-                    .font(.system(size: 17, weight: .semibold))
-                    .foregroundColor(.appText)
-                Text(subtitle)
-                    .font(.system(size: 13))
-                    .foregroundColor(.secondary)
+            VStack(spacing: 3) {
+                Image(systemName: "building.columns.fill")
+                    .font(.system(size: 22, weight: .bold))
+                Text("Culture")
+                    .font(.system(size: 13, weight: .semibold))
+                Text("\(total) topics")
+                    .font(.system(size: 10, weight: .medium))
+                    .opacity(0.85)
             }
-
-            Spacer()
-
-            Image(systemName: "chevron.right")
-                .font(.system(size: 13, weight: .semibold))
-                .foregroundColor(.secondary)
+            .foregroundColor(.white)
+            .multilineTextAlignment(.center)
+            .minimumScaleFactor(0.6)
+            .padding(10)
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
-        .appCard(cornerRadius: 16)
+        .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(0.9)
+    }
+}
+
+// MARK: - Favorites circular button (matches the kana/grammar bubbles)
+
+private struct FavoritesCircleButton: View {
+    @ObservedObject private var store = LessonsProgressStore.shared
+
+    // A gold deep enough for white text/icon to read on the filled circle.
+    private var color: Color { Color(hex: "CA8A04") }
+    private var count: Int { store.favorites.count }
+
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(color.badgeGradient)
+                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
+
+            VStack(spacing: 3) {
+                Image(systemName: "star.fill")
+                    .font(.system(size: 22, weight: .bold))
+                Text("Favorites")
+                    .font(.system(size: 13, weight: .semibold))
+                Text(count == 0 ? "None yet" : "\(count) saved")
+                    .font(.system(size: 10, weight: .medium))
+                    .opacity(0.85)
+            }
+            .foregroundColor(.white)
+            .multilineTextAlignment(.center)
+            .minimumScaleFactor(0.6)
+            .padding(10)
+        }
+        .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(0.9)
     }
 }
 
@@ -218,15 +253,7 @@ struct LevelView: View {
 
     private var accentColor: Color { levelAccentColor(level.jlptLevel) }
 
-    private var navTitle: String {
-        switch level.jlptLevel {
-        case "Hiragana": return "Hiragana"
-        case "Katakana": return "Katakana"
-        default:
-            let n = Int(level.jlptLevel.dropFirst()) ?? 5
-            return "Book \(6 - n) (\(level.jlptLevel))"
-        }
-    }
+    private var navTitle: String { levelName(jlpt: level.jlptLevel) }
 
     var body: some View {
         ZStack {
@@ -254,15 +281,19 @@ private struct ChapterRow: View {
     @ObservedObject private var store = LessonsProgressStore.shared
 
     private var isKana: Bool { summary.chapterType == "kana" }
-    private var completedCount: Int { store.completedCount(chapterId: summary.id) }
-    private var allDone: Bool { summary.pointCount > 0 && completedCount == summary.pointCount }
+    // Point ids read live from the chapter file — the single source of truth for
+    // both the total and which completions still count (no hardcoded totals).
+    private var pointIds: [String] { LessonsService.shared.pointIds(for: summary.id) }
+    private var pointCount: Int { LessonsService.shared.pointCount(for: summary.id) }
+    private var completedCount: Int { store.completedCount(chapterId: summary.id, among: pointIds) }
+    private var allDone: Bool { pointCount > 0 && completedCount == pointCount }
 
     private var rowLabel: String {
         isKana ? "Lesson \(summary.chapterNumber)" : "Chapter \(summary.chapterNumber)"
     }
 
     private var pointsLabel: String {
-        isKana ? "\(summary.pointCount) characters" : "\(summary.pointCount) grammar points"
+        isKana ? "\(pointCount) characters" : "\(pointCount) grammar points"
     }
 
     var body: some View {
@@ -288,7 +319,7 @@ private struct ChapterRow: View {
                     .foregroundColor(.green)
                     .padding(.trailing, 4)
             } else if completedCount > 0 {
-                Text("\(completedCount)/\(summary.pointCount)")
+                Text("\(completedCount)/\(pointCount)")
                     .font(.system(size: 13, weight: .medium))
                     .foregroundColor(.secondary)
                     .padding(.trailing, 4)

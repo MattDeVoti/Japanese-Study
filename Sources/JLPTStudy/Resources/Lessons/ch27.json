@@ -1,20 +1,20 @@
 {
   "id": "ch27",
-  "chapterNumber": 27,
+  "chapterNumber": 29,
   "title": "Nuance and Hedging",
   "points": [
     {
       "id": "demo-even",
       "name": "〜でも (demo) — even / at least / or something",
       "shortDescription": "Three uses: 'even [noun]' (inclusive extreme), 'how about [noun]' (soft suggestion), and universal question words.",
-      "formation": "Noun + でも  |  Question word + でも (どこでも, 何でも, 誰でも)",
-      "explanation": "でも is one of those small words that punches well above its weight. Attached to nouns, it does three distinct things — and all three come up naturally in everyday Japanese.\n\nUse 1 — 'even': この問題は子どもでも解けますよ (Even a child can solve this). By choosing an extreme or surprising case (a child!) and saying でも, you imply the whole range: if even a child can, surely everyone can. The argument goes from the edge of the spectrum to the center. 私でも分かりました (Even I understood it) is a common humble way of saying something is very clear.\n\nUse 2 — casual suggestion ('or something'): お茶でも飲みませんか (How about we have some tea?). でも makes the suggestion deliberately vague and low-pressure — tea, or coffee, or whatever. It's an extremely natural way to propose something without being demanding, and you'll use it constantly in social situations.\n\nUse 3 — universal question words: question words + でも = no-exception universals.\n何でも (anything), 誰でも (anyone), どこでも (anywhere), いつでも (anytime), 何でもいい (anything's fine).\nCompare: 何でも (with positive verb) vs 何も (with negative verb). 何でも食べます (I eat anything) vs 何も食べません (I don't eat anything). でも + positive; も + negative.",
+      "formation": "Noun + でも  |  Question word + でも (どこでも, 何[なん]でも, 誰[だれ]でも)",
+      "explanation": "でも is one of those small words that punches well above its weight. Attached to nouns, it does three distinct things — and all three come up naturally in everyday Japanese.\n\nUse 1 — 'even': この問題[もんだい]は子[こ]どもでも解[と]けますよ (Even a child can solve this). By choosing an extreme or surprising case (a child!) and saying でも, you imply the whole range: if even a child can, surely everyone can. The argument goes from the edge of the spectrum to the center. 私[わたし]でも分[わ]かりました (Even I understood it) is a common humble way of saying something is very clear.\n\nUse 2 — casual suggestion ('or something'): お茶[ちゃ]でも飲[の]みませんか (How about we have some tea?). でも makes the suggestion deliberately vague and low-pressure — tea, or coffee, or whatever. It's an extremely natural way to propose something without being demanding, and you'll use it constantly in social situations.\n\nUse 3 — universal question words: question words + でも = no-exception universals.\n何[なん]でも (anything), 誰[だれ]でも (anyone), どこでも (anywhere), いつでも (anytime), 何[なん]でもいい (anything's fine).\nCompare: 何[なん]でも (with positive verb) vs 何[なに]も (with negative verb). 何[なん]でも食[た]べます (I eat anything) vs 何[なに]も食[た]べません (I don't eat anything). でも + positive; も + negative.",
       "rules": [
         "Noun + でも = even [noun] (includes an extreme case to make a broader point)",
         "Noun + でも = 'or something / how about' (casual, low-pressure suggestion)",
-        "Question word + でも = universal: 何でも (anything), 誰でも (anyone), どこでも (anywhere)",
-        "Universal でも works with AFFIRMATIVE verbs — contrast with 何も/誰も which need negatives",
-        "Context distinguishes the three uses: 子どもでも (even a child) vs お茶でも (tea or something)"
+        "Question word + でも = universal: 何[なん]でも (anything), 誰[だれ]でも (anyone), どこでも (anywhere)",
+        "Universal でも works with AFFIRMATIVE verbs — contrast with 何[なに]も/誰[だれ]も which need negatives",
+        "Context distinguishes the three uses: 子[こ]どもでも (even a child) vs お茶[ちゃ]でも (tea or something)"
       ],
       "examples": [
         {
@@ -117,13 +117,13 @@
           "prompt": "Which correctly uses でも for 'even the smallest things matter'?",
           "japanese": null,
           "choices": [
-            "小[ちー]さいことにも関係[かんけい]がある。",
-            "小[ちー]さいことでも大切[たいせつ]です。",
-            "小[ちー]さいことこそ大切[たいせつ]です。",
-            "小[ちー]さいことだけ大切[たいせつ]です。"
+            "小[ちい]さいことにも関係[かんけい]がある。",
+            "小[ちい]さいことでも大切[たいせつ]です。",
+            "小[ちい]さいことこそ大切[たいせつ]です。",
+            "小[ちい]さいことだけ大切[たいせつ]です。"
           ],
           "correctIndex": 1,
-          "explanation": "Noun/phrase + でも = even . 小[ちー]さいこと + でも = even small things. 大切[たいせつ]です = are important. 小[ちー]さいことでも大切[たいせつ]です = even small things are important."
+          "explanation": "Noun/phrase + でも = even . 小[ちい]さいこと + でも = even small things. 大切[たいせつ]です = are important. 小[ちい]さいことでも大切[たいせつ]です = even small things are important."
         },
         {
           "id": "demo-even_q7",
@@ -159,13 +159,13 @@
           "prompt": "Which means 'Even if it's something small, a gift makes people happy'?",
           "japanese": null,
           "choices": [
-            "小[ちー]さいものでも、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちー]さいものも、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちー]さいものだけ、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちー]さいものこそ、プレゼントは人[にん]を喜[よろこ]ばせる。"
+            "小[ちい]さいものでも、プレゼントは人[にん]を喜[よろこ]ばせる。",
+            "小[ちい]さいものも、プレゼントは人[にん]を喜[よろこ]ばせる。",
+            "小[ちい]さいものだけ、プレゼントは人[にん]を喜[よろこ]ばせる。",
+            "小[ちい]さいものこそ、プレゼントは人[にん]を喜[よろこ]ばせる。"
           ],
           "correctIndex": 0,
-          "explanation": "でも = even if (concessive): 小[ちー]さいもの + でも = even if it's something small. プレゼントは人[にん]を喜[よろこ]ばせる = a gift makes people happy. でも after a noun creates 'even if it's ' concessive meaning."
+          "explanation": "でも = even if (concessive): 小[ちい]さいもの + でも = even if it's something small. プレゼントは人[にん]を喜[よろこ]ばせる = a gift makes people happy. でも after a noun creates 'even if it's ' concessive meaning."
         },
         {
           "id": "demo-even_q10",
@@ -327,12 +327,12 @@
       "id": "te-hajimete",
       "name": "〜て初[はじ]めて (te hajimete) — not until / only after doing",
       "shortDescription": "Only after doing X for the first time did Y become clear — the turning-point realization.",
-      "formation": "Verb (て-form) + 初めて + result/realization",
-      "explanation": "〜て初めて is the grammar of the turning point — the moment when an experience makes something true or clear that wasn't before. It means 'not until X / only after X did Y.'\n\n日本に住んで初めて、文化の違いを実感しました: 'It wasn't until I actually lived in Japan that I really felt the cultural differences.' Before living there: the realization was absent. After the experience: it arrived. The experience was the enabling condition.\n\nThe 初めて here carries its literal meaning — 'for the first time' — and that first-time quality is essential. This is the grammar of experiences you can't get second-hand: the first time you had children, the first time you went abroad, the first time you failed publicly. Something only experience can teach.\n\nThe pattern often appears in moments of grateful realization or hard-won insight. 子どもを持って初めて、親のありがたさがわかった: 'It wasn't until I had children that I understood how much I owe my parents.' The emotional weight of て初めて comes from the implicit 'before this, I didn't know' sitting behind every sentence.\n\nSimple formation: て-form of verb + 初めて + result or realization.",
+      "formation": "Verb (て-form) + 初[はじ]めて + result/realization",
+      "explanation": "〜て初[はじ]めて is the grammar of the turning point — the moment when an experience makes something true or clear that wasn't before. It means 'not until X / only after X did Y.'\n\n日本[にっぽん]に住[す]んで初[はじ]めて、文化[ぶんか]の違[ちが]いを実感[じっかん]しました: 'It wasn't until I actually lived in Japan that I really felt the cultural differences.' Before living there: the realization was absent. After the experience: it arrived. The experience was the enabling condition.\n\nThe 初[はじ]めて here carries its literal meaning — 'for the first time' — and that first-time quality is essential. This is the grammar of experiences you can't get second-hand: the first time you had children, the first time you went abroad, the first time you failed publicly. Something only experience can teach.\n\nThe pattern often appears in moments of grateful realization or hard-won insight. 子[こ]どもを持[も]って初[はじ]めて、親[おや]のありがたさがわかった: 'It wasn't until I had children that I understood how much I owe my parents.' The emotional weight of て初[はじ]めて comes from the implicit 'before this, I didn't know' sitting behind every sentence.\n\nSimple formation: て-form of verb + 初[はじ]めて + result or realization.",
       "rules": [
-        "Verb (て-form) + 初めて = not until doing X / only after experiencing X for the first time",
+        "Verb (て-form) + 初[はじ]めて = not until doing X / only after experiencing X for the first time",
         "The result in the main clause was only possible after the て clause experience happened",
-        "初めて retains its literal meaning 'for the first time' — first-time experience enables the outcome",
+        "初[はじ]めて retains its literal meaning 'for the first time' — first-time experience enables the outcome",
         "Carries a turning-point feel: before X, not the case; after X, now true",
         "Common with realizations, gratitude, and insights that only lived experience can provide"
       ],
@@ -565,7 +565,7 @@
           "choices": [
             "彼女[かのじょ]に会[あ]ったとき、彼女[かのじょ]が美[うつく]しいと思[おも]った。",
             "困[こま]ってはじめて、人[にん]の親切[しんせつ]が分[わ]かる。",
-            "大学[だいがく]に入[いっ]ってから、友達[ともだち]ができた。",
+            "大学[だいがく]に入[はい]ってから、友達[ともだち]ができた。",
             "試験[しけん]が終[お]わってから、遊[あそ]ぶ。"
           ],
           "correctIndex": 1,
@@ -648,7 +648,7 @@
       "name": "〜かな / 〜かしら — I wonder (self-directed question)",
       "shortDescription": "Self-directed wondering — 'I wonder if / when / what…' — thinking aloud, not asking anyone.",
       "formation": "Plain form + かな  |  Plain form + かしら (feminine)",
-      "explanation": "かな and かしら are sentence-final particles for wondering out loud. They turn a statement into an inward-facing question — not directed at a listener, but at yourself, or into the air.\n\n明日は晴れるかな: 'I wonder if it'll be sunny tomorrow.' The speaker isn't asking anyone — they're musing. This is very different from 明日は晴れますか?, which asks a specific person. かな makes the wondering self-contained.\n\nかな is casual and gender-neutral — you'll hear it constantly in everyday conversation. かしら is traditionally associated with a softer, more feminine register, though it's used by all genders in some contexts and literary styles. Both are perfectly natural in casual speech.\n\nThese particles beautifully capture the gentle uncertainty of everyday life: wondering if the shop is open, if someone has arrived, if the weather will hold. They're also useful for expressing modest wishes or mild worries without being direct: もう少し上手になれるかな (I wonder if I can get a little better…) carries a wistful quality that a direct statement wouldn't.\n\nかなあ is an extended form (the あ adds a long, trailing murmur) that deepens the wondering feeling: どうすればいいんだろうなあ…  The more drawn-out the vowel, the more you're sinking into the thought.",
+      "explanation": "かな and かしら are sentence-final particles for wondering out loud. They turn a statement into an inward-facing question — not directed at a listener, but at yourself, or into the air.\n\n明日[あした]は晴[は]れるかな: 'I wonder if it'll be sunny tomorrow.' The speaker isn't asking anyone — they're musing. This is very different from 明日[あした]は晴[は]れますか?, which asks a specific person. かな makes the wondering self-contained.\n\nかな is casual and gender-neutral — you'll hear it constantly in everyday conversation. かしら is traditionally associated with a softer, more feminine register, though it's used by all genders in some contexts and literary styles. Both are perfectly natural in casual speech.\n\nThese particles beautifully capture the gentle uncertainty of everyday life: wondering if the shop is open, if someone has arrived, if the weather will hold. They're also useful for expressing modest wishes or mild worries without being direct: もう少[すこ]し上手[じょうず]になれるかな (I wonder if I can get a little better…) carries a wistful quality that a direct statement wouldn't.\n\nかなあ is an extended form (the あ adds a long, trailing murmur) that deepens the wondering feeling: どうすればいいんだろうなあ…  The more drawn-out the vowel, the more you're sinking into the thought.",
       "rules": [
         "Plain form + かな = I wonder [whether/when/what…] (casual, all genders)",
         "Plain form + かしら = I wonder (softer; traditionally feminine register)",

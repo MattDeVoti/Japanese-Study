@@ -17,6 +17,19 @@ extension Color {
         _currentAppTheme.colorScheme == .dark ? Color(white: 0.96) : Color(white: 0.11)
     }
 
+    /// Near-black or near-white — whichever contrasts better against `background`,
+    /// by WCAG relative luminance. Use for text placed directly on a surface whose
+    /// exact color you have in hand, so the two can never disagree (light or dark).
+    static func contrastingText(on background: Color) -> Color {
+        var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
+        UIColor(background).getRed(&r, green: &g, blue: &b, alpha: &a)
+        func lin(_ c: CGFloat) -> CGFloat { c <= 0.03928 ? c / 12.92 : pow((c + 0.055) / 1.055, 2.4) }
+        let luminance = 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b)
+        let whiteContrast = 1.05 / (luminance + 0.05)
+        let blackContrast = (luminance + 0.05) / 0.05
+        return whiteContrast >= blackContrast ? Color(white: 0.96) : Color(white: 0.11)
+    }
+
     // Kana level accent colors
     static let hiraganaColor = Color(hex: "DB2777")   // pink
     static let katakanaColor = Color(hex: "7C3AED")   // violet
@@ -45,6 +58,22 @@ extension Color {
         }
         self.init(.sRGB, red: Double(r)/255, green: Double(g)/255, blue: Double(b)/255, opacity: Double(a)/255)
     }
+}
+
+// Friendly progression names shown to the user instead of JLPT codes:
+// N5 → "Level 1", N4 → "Level 2", … N1 → "Level 5"  (Level = 6 − N).
+
+/// The level number (1…5) for a JLPT level int (5…1).
+func levelNumber(_ nLevel: Int) -> Int { 6 - nLevel }
+
+/// Full display name for a JLPT level int, e.g. 5 → "Level 1".
+func levelName(_ nLevel: Int) -> String { "Level \(levelNumber(nLevel))" }
+
+/// Display name from a JLPT string ("N5" → "Level 1"). Non-JLPT labels
+/// (e.g. "Hiragana", "Katakana") pass through unchanged.
+func levelName(jlpt: String) -> String {
+    guard jlpt.hasPrefix("N"), let n = Int(jlpt.dropFirst()) else { return jlpt }
+    return levelName(n)
 }
 
 func nLevelColor(_ level: Int) -> Color {
@@ -235,7 +264,8 @@ struct OptionsButton: ViewModifier {
             .sheet(isPresented: $showOptions) {
                 OptionsMenuView(filter: filter, onClearWeights: {
                     store.clearWeights(for: section)
-                }, store: store)
+                }, store: store,
+                onClearExclusions: section == .kanji ? { store.clearKanjiExclusions() } : nil)
             }
     }
 }

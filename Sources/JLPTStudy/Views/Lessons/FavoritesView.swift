@@ -3,6 +3,7 @@ import SwiftUI
 struct FavoritesView: View {
     @ObservedObject private var store = LessonsProgressStore.shared
     @State private var sections: [FavSection] = []
+    @State private var cultureFavs: [CultureTopic] = []
 
     private struct FavSection: Identifiable {
         let id: String          // chapterId
@@ -40,6 +41,23 @@ struct FavoritesView: View {
                                 }
                             }
                         }
+
+                        if !cultureFavs.isEmpty {
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Culture")
+                                    .font(.system(size: 12, weight: .semibold))
+                                    .foregroundColor(.secondary)
+                                    .textCase(.uppercase)
+                                    .padding(.horizontal, 16)
+
+                                VStack(spacing: 10) {
+                                    ForEach(cultureFavs) { topic in
+                                        CulturePointCard(topic: topic)
+                                            .padding(.horizontal, 16)
+                                    }
+                                }
+                            }
+                        }
                     }
                     .padding(.vertical, 16)
                 }
@@ -58,7 +76,7 @@ struct FavoritesView: View {
             Text("No favorites yet")
                 .font(.system(size: 18, weight: .medium))
                 .foregroundColor(.secondary)
-            Text("Tap the star on any grammar point to save it here.")
+            Text("Tap the star on any grammar or culture point to save it here.")
                 .font(.system(size: 14))
                 .foregroundColor(.secondary.opacity(0.75))
                 .multilineTextAlignment(.center)
@@ -79,5 +97,9 @@ struct FavoritesView: View {
             result.append(FavSection(id: chId, title: chapter.title, accentColor: nLevelColor(lvl), points: pts))
         }
         sections = result
+
+        // Culture favorites (not grammar chapters, so handled separately).
+        let cultureFavIds = store.favoritePointIds(in: CultureContent.chapterId)
+        cultureFavs = CultureContent.topics.filter { cultureFavIds.contains($0.id) }
     }
 }

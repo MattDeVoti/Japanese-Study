@@ -1,14 +1,36 @@
 import SwiftUI
 
+/// Identifies a chapter when the kanji flashcards are opened from a lesson's
+/// "Study Kanji" button — the pool auto-filters to just that chapter's kanji.
+struct LockedKanjiChapter {
+    let title: String
+    let kanji: [String]
+}
+
 struct KanjiStudyView: View {
+    /// When set, this is a chapter's "Study Kanji" session (pool locked to the
+    /// chapter's kanji). When nil, it's the global Study-section kanji flashcards.
+    var lockedChapter: LockedKanjiChapter? = nil
+
     @EnvironmentObject private var store: CardStore
     @EnvironmentObject private var filter: KanjiFilter
     @State private var currentCard: KanjiCard?
     @State private var isRevealed = false
+    /// Weight mode for a locked chapter session — independent of the Study section.
+    @State private var lockedWeightMode: WeightMode = .none
     @Namespace private var glyphNS
 
     private var pool: [KanjiCard] {
-        store.filteredKanjiCards(filter: filter)
+        if let locked = lockedChapter {
+            return locked.kanji.compactMap { store.kanjiCard(for: $0) }
+                .filter { !store.isKanjiExcluded($0.id) }
+        }
+        return store.filteredKanjiCards(filter: filter)
+    }
+
+    /// Card ids for this chapter's kanji (locked mode) — scopes "clear checkmarks".
+    private var lockedCardIds: [String] {
+        (lockedChapter?.kanji ?? []).compactMap { store.kanjiCard(for: $0)?.id }
     }
 
     var body: some View {
@@ -23,19 +45,21 @@ struct KanjiStudyView: View {
         .onChange(of: filter.selectedLevels) { _ in pickNext() }
         .onChange(of: filter.showFavoritesOnly) { _ in pickNext() }
         .onChange(of: filter.selectedKanjiIds) { _ in pickNext() }
+        .onChange(of: lockedWeightMode) { _ in pickNext() }
     }
 
     // MARK: - Study card
 
     private func studyCard(_ card: KanjiCard) -> some View {
         let isFavorite = store.kanjiCards.first(where: { $0.id == card.id })?.isFavorite ?? card.isFavorite
+        let isExcluded = store.isKanjiExcluded(card.id)
 
         return ZStack(alignment: .bottom) {
             Color.appBackground.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Fixed top bar: favorite + level (stays put while the kanji slides)
-                HStack {
+                // Fixed top bar: favorite + checkmark + level (stay put while the kanji slides)
+                HStack(spacing: 14) {
                     Button {
                         store.toggleFavorite(cardId: card.id)
                     } label: {
@@ -45,9 +69,19 @@ struct KanjiStudyView: View {
                     }
                     .buttonStyle(.plain)
 
+                    Button {
+                        store.toggleKanjiExcluded(cardId: card.id)
+                        pickNext()
+                    } label: {
+                        Image(systemName: isExcluded ? "checkmark.circle.fill" : "checkmark.circle")
+                            .font(.system(size: 26))
+                            .foregroundColor(isExcluded ? .green : Color.gray.opacity(0.5))
+                    }
+                    .buttonStyle(.plain)
+
                     Spacer()
 
-                    Text("N\(card.nLevel)")
+                    Text(levelName(card.nLevel))
                         .font(.system(size: 13, weight: .semibold))
                         .foregroundColor(.white)
                         .padding(.horizontal, 10)
@@ -149,7 +183,8 @@ struct KanjiStudyView: View {
             .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
         }
         .standardNavBar(card.kanji)
-        .withOptions(filter: filter, store: store, section: .kanji, label: "Kanji")
+        .kanjiOptionsBar(locked: lockedChapter, filter: filter, store: store,
+                         chapterCardIds: lockedCardIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
     }
 
     // MARK: - Empty state
@@ -169,7 +204,8 @@ struct KanjiStudyView: View {
             }
         }
         .standardNavBar("Kanji")
-        .withOptions(filter: filter, store: store, section: .kanji, label: "Kanji")
+        .kanjiOptionsBar(locked: lockedChapter, filter: filter, store: store,
+                         chapterCardIds: lockedCardIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
     }
 
     // MARK: - Navigation
@@ -178,6 +214,58 @@ struct KanjiStudyView: View {
         let p = pool
         guard !p.isEmpty else { currentCard = nil; return }
         isRevealed = false
-        currentCard = store.selectWeightedKanji(from: p, filter: filter)
+        currentCard = lockedChapter == nil
+            ? store.selectWeightedKanji(from: p, filter: filter)
+            : store.selectWeightedKanji(from: p, mode: lockedWeightMode, strength: filter.weightStrength)
+    }
+}
+
+// MARK: - Options bar (study filter sheet, or a chapter's menu)
+
+private struct KanjiOptionsBar: ViewModifier {
+    let locked: LockedKanjiChapter?
+    @ObservedObject var filter: KanjiFilter
+    @ObservedObject var store: CardStore
+    let chapterCardIds: [String]
+    @Binding var weightMode: WeightMode
+    let onAfterClear: () -> Void
+
+    @ViewBuilder
+    func body(content: Content) -> some View {
+        if locked != nil {
+            content.toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Menu {
+                        Picker("Priority", selection: $weightMode) {
+                            Text("Random Order").tag(WeightMode.none)
+                            Text("Prioritize “Needs Work”").tag(WeightMode.harder)
+                            Text("Prioritize “Confident”").tag(WeightMode.easier)
+                        }
+                        Divider()
+                        Button(role: .destructive) {
+                            store.clearKanjiExclusions(ids: chapterCardIds)
+                            onAfterClear()
+                        } label: {
+                            Label("Clear Checkmarks (This Chapter)", systemImage: "arrow.counterclockwise")
+                        }
+                    } label: {
+                        Image(systemName: "ellipsis.circle")
+                            .foregroundColor(.appNavBarText)
+                    }
+                }
+            }
+        } else {
+            content.withOptions(filter: filter, store: store, section: .kanji, label: "Kanji")
+        }
+    }
+}
+
+private extension View {
+    func kanjiOptionsBar(locked: LockedKanjiChapter?, filter: KanjiFilter, store: CardStore,
+                         chapterCardIds: [String], weightMode: Binding<WeightMode>,
+                         onAfterClear: @escaping () -> Void) -> some View {
+        modifier(KanjiOptionsBar(locked: locked, filter: filter, store: store,
+                                 chapterCardIds: chapterCardIds, weightMode: weightMode,
+                                 onAfterClear: onAfterClear))
     }
 }

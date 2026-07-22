@@ -6,7 +6,10 @@ private func sectionBadge(_ levelLabel: String) -> String {
     switch levelLabel {
     case "Hiragana": return "ひ"
     case "Katakana": return "カ"
-    default:         return levelLabel     // "N5" …
+    default:
+        // Grammar levels: show the level number (N5 → "1", … N1 → "5").
+        if levelLabel.hasPrefix("N"), let n = Int(levelLabel.dropFirst()) { return "\(levelNumber(n))" }
+        return levelLabel
     }
 }
 
@@ -105,7 +108,7 @@ struct JourneyTeach: View {
         case .text(let tag, let body):
             VStack(alignment: .leading, spacing: 14) {
                 StepTag(text: tag, color: accent)
-                FuriganaText(text: body, fontSize: 18)
+                ExplanationBody(text: body, fontSize: 18, color: .appText, bulletColor: accent)
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
 
@@ -114,9 +117,7 @@ struct JourneyTeach: View {
                 StepTag(text: "Pattern", color: accent)
                 Text("Here's the shape to remember:")
                     .font(.system(size: 15)).foregroundColor(.secondary)
-                Text(formation)
-                    .font(.system(size: 18, weight: .semibold))
-                    .foregroundColor(.appText)
+                FuriganaText(text: formation, fontSize: 18, color: .appText, weight: .semibold)
                     .fixedSize(horizontal: false, vertical: true)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(16)

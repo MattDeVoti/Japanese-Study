@@ -58,6 +58,16 @@ struct ChapterDetailView: View {
                                 ForEach(vocab) { word in
                                     VocabWordRow(word: word, accentColor: accentColor)
                                 }
+
+                                NavigationLink {
+                                    VocabFlashcardsView(lockedChapter: LockedVocabChapter(
+                                        id: summary.id, number: summary.chapterNumber,
+                                        title: chapter.title, accent: accentColor))
+                                } label: {
+                                    StudyButtonLabel(title: "Study Vocab", accent: accentColor)
+                                }
+                                .buttonStyle(.plain)
+                                .padding(.top, 4)
                             }
                         }
 
@@ -76,15 +86,38 @@ struct ChapterDetailView: View {
                                 ) {
                                     ForEach(kanjiChars, id: \.self) { kc in
                                         if let card = cardStore.kanjiCard(for: kc) {
-                                            NavigationLink {
-                                                KanjiCardDetailView(card: card)
-                                            } label: {
-                                                ChapterKanjiCell(card: card)
+                                            ZStack(alignment: .topTrailing) {
+                                                NavigationLink {
+                                                    KanjiCardDetailView(card: card)
+                                                } label: {
+                                                    ChapterKanjiCell(card: card)
+                                                }
+                                                .buttonStyle(.plain)
+
+                                                Button {
+                                                    cardStore.toggleKanjiExcluded(cardId: card.id)
+                                                } label: {
+                                                    Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
+                                                        .font(.system(size: 15))
+                                                        .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .green : Color.secondary.opacity(0.45))
+                                                        .padding(3)
+                                                        .background(Circle().fill(Color.appSurface))
+                                                }
+                                                .buttonStyle(.plain)
+                                                .padding(4)
                                             }
-                                            .buttonStyle(.plain)
                                         }
                                     }
                                 }
+
+                                NavigationLink {
+                                    KanjiStudyView(lockedChapter: LockedKanjiChapter(
+                                        title: chapter.title, kanji: kanjiChars))
+                                } label: {
+                                    StudyButtonLabel(title: "Study Kanji", accent: accentColor)
+                                }
+                                .buttonStyle(.plain)
+                                .padding(.top, 4)
                             }
                         }
                     }
@@ -236,9 +269,7 @@ struct GrammarPointCard: View {
                     // Formation
                     VStack(alignment: .leading, spacing: 5) {
                         SectionLabel(title: "Formation", icon: "chevron.left.forwardslash.chevron.right")
-                        Text(point.formation)
-                            .font(.system(size: 14, weight: .medium, design: .monospaced))
-                            .foregroundColor(accentColor)
+                        FuriganaText(text: point.formation, fontSize: 14, color: accentColor, weight: .medium)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 7)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -249,10 +280,7 @@ struct GrammarPointCard: View {
                     // Explanation
                     VStack(alignment: .leading, spacing: 5) {
                         SectionLabel(title: "Explanation", icon: "text.alignleft")
-                        Text(point.explanation)
-                            .font(.system(size: 14))
-                            .foregroundColor(.appText)
-                            .fixedSize(horizontal: false, vertical: true)
+                        ExplanationBody(text: point.explanation, fontSize: 14, color: .appText, bulletColor: accentColor)
                     }
 
                     // Rules
@@ -265,9 +293,7 @@ struct GrammarPointCard: View {
                                         Text("•")
                                             .font(.system(size: 14, weight: .semibold))
                                             .foregroundColor(accentColor)
-                                        Text(rule)
-                                            .font(.system(size: 13))
-                                            .foregroundColor(.appText)
+                                        FuriganaText(text: rule, fontSize: 13, color: .appText)
                                             .fixedSize(horizontal: false, vertical: true)
                                     }
                                 }
@@ -355,17 +381,60 @@ struct ExampleCard: View {
     }
 }
 
+/// Accent-filled button used below a chapter's vocab / kanji to open flashcards
+/// scoped to just that chapter.
+struct StudyButtonLabel: View {
+    let title: String
+    let accent: Color
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Image(systemName: "rectangle.stack.fill")
+                .font(.system(size: 14, weight: .semibold))
+            Text(title)
+                .font(.system(size: 15, weight: .semibold))
+        }
+        .foregroundColor(.white)
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 14)
+        .background(accent)
+        .cornerRadius(12)
+    }
+}
+
 struct VocabWordRow: View {
     let word: LessonVocabWord
     let accentColor: Color
+    @ObservedObject private var vocabFilter = VocabFlashcardsFilter.shared
 
     var body: some View {
-        NavigationLink {
-            VocabDictionaryView(word: word)
-        } label: {
-            rowContent
+        HStack(spacing: 10) {
+            NavigationLink {
+                VocabDictionaryView(word: word)
+            } label: {
+                rowContent
+            }
+            .buttonStyle(.plain)
+
+            Button {
+                vocabFilter.toggleExcluded(word.id)
+            } label: {
+                Image(systemName: vocabFilter.isExcluded(word.id) ? "checkmark.circle.fill" : "checkmark.circle")
+                    .font(.system(size: 20))
+                    .foregroundColor(vocabFilter.isExcluded(word.id) ? .green : Color.secondary.opacity(0.4))
+            }
+            .buttonStyle(.plain)
         }
-        .buttonStyle(.plain)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 9)
+        .background(
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(Color.appSurface)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .strokeBorder(Color.appHairline, lineWidth: 1)
+        )
     }
 
     private var rowContent: some View {
@@ -405,23 +474,9 @@ struct VocabWordRow: View {
                 }
             }
 
-            Spacer()
-
-            Image(systemName: "chevron.right")
-                .font(.system(size: 12, weight: .semibold))
-                .foregroundColor(.secondary.opacity(0.55))
+            Spacer(minLength: 4)
         }
-        .padding(.horizontal, 12)
-        .padding(.vertical, 9)
         .contentShape(Rectangle())
-        .background(
-            RoundedRectangle(cornerRadius: 12, style: .continuous)
-                .fill(Color.appSurface)
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 12, style: .continuous)
-                .strokeBorder(Color.appHairline, lineWidth: 1)
-        )
     }
 }
 

@@ -22,13 +22,20 @@ class CardStore: ObservableObject {
         var favorites: Set<String> = []
         var needsWorkCounts: [String: Int] = [:]
         var confidentCounts: [String: Int] = [:]
+        var excludedKanji: Set<String> = []
     }
 
     private let defaultsKey = "JLPTCardStoreData"
     private var data = PersistentData()
 
+    /// Kanji card ids the user has "checked off" — excluded from the flashcard
+    /// lineup (both the Study section and any chapter's Study Kanji). Shared here
+    /// so a checkmark toggled anywhere is reflected everywhere.
+    @Published private(set) var excludedKanjiIds: Set<String> = []
+
     init() {
         loadPersistedData()
+        excludedKanjiIds = data.excludedKanji
         loadAllCards()
     }
 
@@ -56,6 +63,7 @@ class CardStore: ObservableObject {
             let particle: String
             let romaji: String
             let meaning: String
+            let explanation: String?
             let level: String
         }
 
@@ -64,7 +72,8 @@ class CardStore: ObservableObject {
         return entries.compactMap { json in
             guard let lvl = Int(json.level.dropFirst()) else { return nil }
             return ParticleCard(id: json.particleId, particle: json.particle,
-                                romaji: json.romaji, meaning: json.meaning, nLevel: lvl)
+                                romaji: json.romaji, meaning: json.meaning,
+                                explanation: json.explanation ?? "", nLevel: lvl)
         }
     }
 
@@ -240,6 +249,26 @@ class CardStore: ObservableObject {
         persist()
     }
 
+    // MARK: - Flashcard exclusion (green checkmark)
+
+    func isKanjiExcluded(_ cardId: String) -> Bool { excludedKanjiIds.contains(cardId) }
+
+    func toggleKanjiExcluded(cardId: String) {
+        if excludedKanjiIds.contains(cardId) { excludedKanjiIds.remove(cardId) }
+        else { excludedKanjiIds.insert(cardId) }
+        data.excludedKanji = excludedKanjiIds
+        persist()
+    }
+
+    /// Clears checkmarks. Pass a set of ids (e.g. one chapter's kanji) to clear
+    /// only those, or nil to clear every kanji checkmark.
+    func clearKanjiExclusions(ids: [String]? = nil) {
+        if let ids = ids { excludedKanjiIds.subtract(ids) }
+        else { excludedKanjiIds.removeAll() }
+        data.excludedKanji = excludedKanjiIds
+        persist()
+    }
+
     enum CardSection { case kanji, grammar }
 
     func clearWeights(for section: CardSection) {
@@ -275,6 +304,7 @@ class CardStore: ObservableObject {
             let favs = cards.filter(\.isFavorite)
             if !favs.isEmpty { cards = favs }
         }
+        cards = cards.filter { !excludedKanjiIds.contains($0.id) }
         return pinNumberKanji(cards)
     }
 
@@ -312,6 +342,12 @@ class CardStore: ObservableObject {
 
     func selectWeightedKanji(from cards: [KanjiCard], filter: StudyFilter) -> KanjiCard? {
         selectWeighted(cards, mode: filter.weightMode, strength: filter.weightStrength)
+    }
+
+    /// Explicit mode/strength — lets a chapter's Study Kanji session weight
+    /// independently of the Study section's kanji filter.
+    func selectWeightedKanji(from cards: [KanjiCard], mode: WeightMode, strength: Double) -> KanjiCard? {
+        selectWeighted(cards, mode: mode, strength: strength)
     }
 
     func selectWeightedGrammar(from cards: [GrammarCard], filter: StudyFilter) -> GrammarCard? {

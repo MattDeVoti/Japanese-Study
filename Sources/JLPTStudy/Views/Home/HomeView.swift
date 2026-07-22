@@ -122,8 +122,8 @@ struct HomeView: View {
                         }
                     }
                     .buttonStyle(.plain)
-                    .padding(.trailing, 20)
-                    .padding(.top, 60)
+                    .padding(.trailing, 40)
+                    .padding(.top, 10)
                 }
                 Spacer()
             }
@@ -304,22 +304,31 @@ private struct ThemeSwatch: View {
 // MARK: - Home nav button
 
 private struct HomeNavButton<Destination: View>: View {
-    // Observing the theme guarantees the button re-renders (and re-reads the
-    // theme-derived .appText color) whenever the theme changes.
+    // Observing the theme guarantees the button re-renders whenever the theme
+    // changes, so the surface and its contrasting text are recomputed together.
     @EnvironmentObject private var themeManager: ThemeManager
     let label: String
     @ViewBuilder let destination: () -> Destination
 
     var body: some View {
+        // Read the bubble's fill once and derive the label color from it, so the
+        // text is guaranteed to contrast the bubble in any theme (light or dark).
+        let surface = Color.appSurface
         NavigationLink {
             destination()
         } label: {
             Text(label)
                 .font(.system(size: 22, weight: .medium))
-                .foregroundColor(.appText)
+                .foregroundColor(.contrastingText(on: surface))
                 .frame(maxWidth: .infinity)
                 .frame(height: 60)
-                .appCard(cornerRadius: 18, elevated: false)
+                .background(
+                    RoundedRectangle(cornerRadius: 18, style: .continuous).fill(surface)
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 18, style: .continuous)
+                        .strokeBorder(Color.appHairline, lineWidth: 1)
+                )
         }
         .buttonStyle(.plain)
     }

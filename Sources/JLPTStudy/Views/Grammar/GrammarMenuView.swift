@@ -63,6 +63,14 @@ struct GrammarMenuView: View {
                             )
                         }
                     }
+
+                    // MARK: Reading comprehension
+                    SectionGroup(header: "Reading") {
+                        StudyMenuRow(label: "Reading Comprehension", badge: "読",
+                                     badgeColor: Color(hex: "0EA5E9")) {
+                            ReadingListView()
+                        }
+                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 24)
@@ -150,7 +158,7 @@ private struct GrammarQuizRow: View {
     var body: some View {
         NavigationLink {
             GrammarPracticeView(
-                pointName: "N\(level) Grammar",
+                pointName: "\(levelName(level)) Grammar",
                 questions: questions,
                 accentColor: color,
                 sessionLimit: sessionLimit
@@ -162,13 +170,13 @@ private struct GrammarQuizRow: View {
                     .frame(width: 34, height: 34)
                     .shadow(color: color.opacity(0.35), radius: 4, y: 2)
                     .overlay(
-                        Text("N\(level)")
-                            .font(.system(size: 13, weight: .bold))
+                        Text("\(levelNumber(level))")
+                            .font(.system(size: 15, weight: .bold))
                             .foregroundColor(.white)
                     )
 
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("N\(level) Grammar")
+                    Text("\(levelName(level)) Grammar")
                         .font(.system(size: 17))
                         .foregroundColor(.appText)
                     Text("Tell similar grammar points apart")

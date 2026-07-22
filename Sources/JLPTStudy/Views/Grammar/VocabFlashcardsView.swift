@@ -1,15 +1,37 @@
 import SwiftUI
 
+/// Identifies a chapter when the vocab flashcards are opened from a lesson's
+/// "Study Vocab" button — the pool auto-filters to just that chapter's words.
+struct LockedVocabChapter {
+    let id: String
+    let number: Int
+    let title: String
+    let accent: Color
+}
+
 struct VocabFlashcardsView: View {
-    @StateObject private var filter = VocabFlashcardsFilter()
+    /// When set, this is a chapter's "Study Vocab" session (pool locked to the
+    /// chapter). When nil, it's the global Study-section vocab flashcards.
+    var lockedChapter: LockedVocabChapter? = nil
+
+    @ObservedObject private var filter = VocabFlashcardsFilter.shared
     @State private var allCards: [VocabFlashCard] = []
     @State private var current: VocabFlashCard?
     @State private var isRevealed = false
     @State private var isLoading = true
     @State private var showFilter = false
+    /// Weight mode for a locked chapter session — independent of the Study section.
+    @State private var lockedWeightMode: WeightMode = .none
     @Namespace private var wordNS
 
-    private var pool: [VocabFlashCard] { filter.apply(to: allCards) }
+    /// The chapter's word ids (locked mode only) — used to scope "clear checkmarks".
+    private var chapterWordIds: [String] { lockedChapter == nil ? [] : allCards.map(\.word.id) }
+
+    private var pool: [VocabFlashCard] {
+        lockedChapter == nil
+            ? filter.apply(to: allCards)
+            : allCards.filter { !filter.isExcluded($0.word.id) }
+    }
 
     var body: some View {
         Group {
@@ -18,7 +40,7 @@ struct VocabFlashcardsView: View {
                     Color.appBackground.ignoresSafeArea()
                     ProgressView()
                 }
-                .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter)
+                .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
             } else if let card = current {
                 cardView(card)
             } else {
@@ -26,9 +48,10 @@ struct VocabFlashcardsView: View {
             }
         }
         .onAppear(perform: load)
-        .onChange(of: filter.selectedChapterIds) { _ in pickNext() }
-        .onChange(of: filter.selectedWordIds) { _ in pickNext() }
-        .onChange(of: filter.showFavoritesOnly) { _ in pickNext() }
+        .onChange(of: filter.selectedChapterIds) { _ in if lockedChapter == nil { pickNext() } }
+        .onChange(of: filter.selectedWordIds) { _ in if lockedChapter == nil { pickNext() } }
+        .onChange(of: filter.showFavoritesOnly) { _ in if lockedChapter == nil { pickNext() } }
+        .onChange(of: lockedWeightMode) { _ in pickNext() }
         .sheet(isPresented: $showFilter) {
             VocabFilterSheet(filter: filter, allCards: allCards)
         }
@@ -38,6 +61,7 @@ struct VocabFlashcardsView: View {
 
     private func cardView(_ card: VocabFlashCard) -> some View {
         let isFav = filter.isFavorite(card.word.id)
+        let isExcluded = filter.isExcluded(card.word.id)
 
         // Word block, shared by both faces so it slides between them.
         let wordBlock = VStack(spacing: 10) {
@@ -67,7 +91,7 @@ struct VocabFlashcardsView: View {
             Color.appBackground.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Fixed top bar: favorite (stays put while the word slides)
+                // Fixed top bar: favorite + checkmark (stay put while the word slides)
                 HStack {
                     Button {
                         filter.toggleFavorite(card.word.id)
@@ -78,6 +102,15 @@ struct VocabFlashcardsView: View {
                     }
                     .buttonStyle(.plain)
                     Spacer()
+                    Button {
+                        filter.toggleExcluded(card.word.id)
+                        pickNext()
+                    } label: {
+                        Image(systemName: isExcluded ? "checkmark.circle.fill" : "checkmark.circle")
+                            .font(.system(size: 26))
+                            .foregroundColor(isExcluded ? .green : Color.gray.opacity(0.5))
+                    }
+                    .buttonStyle(.plain)
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 16)
@@ -185,7 +218,7 @@ struct VocabFlashcardsView: View {
             .padding(.vertical, 12)
             .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
         }
-        .vocabNavBar(title: card.word.kanji, filter: filter, showFilter: $showFilter)
+        .vocabNavBar(title: card.word.kanji, filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
     }
 
     // MARK: - Empty
@@ -208,7 +241,7 @@ struct VocabFlashcardsView: View {
                 Spacer()
             }
         }
-        .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter)
+        .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
     }
 
     // MARK: - Data
@@ -216,6 +249,19 @@ struct VocabFlashcardsView: View {
     private func load() {
         guard isLoading else { return }
         LessonsService.shared.loadIfNeeded()
+
+        // Chapter "Study Vocab": pool is locked to this chapter's words.
+        if let locked = lockedChapter {
+            let words = LessonsService.shared.loadChapter(locked.id)?.vocab ?? []
+            allCards = words.map { word in
+                VocabFlashCard(word: word, chapterId: locked.id, chapterNumber: locked.number,
+                               chapterTitle: locked.title, accentColor: locked.accent)
+            }.shuffled()
+            isLoading = false
+            pickNext()
+            return
+        }
+
         guard let manifest = LessonsService.shared.manifest else { isLoading = false; return }
 
         var result: [VocabFlashCard] = []
@@ -251,8 +297,9 @@ struct VocabFlashcardsView: View {
         let chaptersWithVocab = Set(allCards.map(\.chapterId))
         var completed: Set<String> = []
         for level in manifest.levels {
-            for ch in level.chapters where ch.pointCount > 0 && chaptersWithVocab.contains(ch.id) {
-                if store.completedCount(chapterId: ch.id) == ch.pointCount {
+            for ch in level.chapters where chaptersWithVocab.contains(ch.id) {
+                let pointIds = LessonsService.shared.pointIds(for: ch.id)
+                if !pointIds.isEmpty && store.completedCount(chapterId: ch.id, among: pointIds) == pointIds.count {
                     completed.insert(ch.id)
                 }
             }
@@ -264,7 +311,9 @@ struct VocabFlashcardsView: View {
         let p = pool
         guard !p.isEmpty else { current = nil; return }
         isRevealed = false
-        current = filter.selectWeighted(from: p)
+        current = lockedChapter == nil
+            ? filter.selectWeighted(from: p)
+            : filter.selectWeighted(from: p, mode: lockedWeightMode, strength: filter.weightStrength)
     }
 }
 
@@ -305,6 +354,10 @@ private struct VocabFilterSheet: View {
                     Divider()
 
                     weightedSection
+
+                    Divider()
+
+                    checkmarksSection
 
                     Divider()
 
@@ -386,6 +439,25 @@ private struct VocabFilterSheet: View {
         }
     }
 
+    // MARK: - Checkmarks
+
+    private var checkmarksSection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Checkmarks")
+                .font(.headline)
+                .foregroundColor(.appText)
+            Text("Checked-off words are hidden from the flashcard lineup — here and in their chapter.")
+                .font(.caption)
+                .foregroundColor(.secondary)
+            Button { filter.clearExclusions() } label: {
+                Text("Clear All Vocab Checkmarks")
+                    .font(.system(size: 14, weight: .medium))
+                    .foregroundColor(.red)
+            }
+            .buttonStyle(.plain)
+        }
+    }
+
     // MARK: - Chapters (grid of CH# squares)
 
     private var chaptersSection: some View {
@@ -414,7 +486,7 @@ private struct VocabFilterSheet: View {
 
         return VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text(level.jlptLevel)
+                Text(levelName(jlpt: level.jlptLevel))
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundColor(color)
                 Spacer()
@@ -559,6 +631,11 @@ private struct VocabNavBar: ViewModifier {
     let title: String
     @ObservedObject var filter: VocabFlashcardsFilter
     @Binding var showFilter: Bool
+    /// nil for the global Study section; set for a chapter's Study Vocab session.
+    let locked: LockedVocabChapter?
+    let chapterWordIds: [String]
+    @Binding var weightMode: WeightMode
+    let onAfterClear: () -> Void
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var themeManager: ThemeManager
 
@@ -586,17 +663,37 @@ private struct VocabNavBar: ViewModifier {
                         .foregroundColor(.appNavBarText)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showFilter = true
-                    } label: {
-                        ZStack(alignment: .topTrailing) {
-                            Image(systemName: "line.3.horizontal.decrease")
+                    if locked != nil {
+                        Menu {
+                            Picker("Priority", selection: $weightMode) {
+                                Text("Random Order").tag(WeightMode.none)
+                                Text("Prioritize “Don’t Know”").tag(WeightMode.harder)
+                                Text("Prioritize “Got It”").tag(WeightMode.easier)
+                            }
+                            Divider()
+                            Button(role: .destructive) {
+                                filter.clearExclusions(for: chapterWordIds)
+                                onAfterClear()
+                            } label: {
+                                Label("Clear Checkmarks (This Chapter)", systemImage: "arrow.counterclockwise")
+                            }
+                        } label: {
+                            Image(systemName: "ellipsis.circle")
                                 .foregroundColor(.appNavBarText)
-                            if filter.hasActiveFilter {
-                                Circle()
-                                    .fill(Color.yellow)
-                                    .frame(width: 7, height: 7)
-                                    .offset(x: 4, y: -4)
+                        }
+                    } else {
+                        Button {
+                            showFilter = true
+                        } label: {
+                            ZStack(alignment: .topTrailing) {
+                                Image(systemName: "line.3.horizontal.decrease")
+                                    .foregroundColor(.appNavBarText)
+                                if filter.hasActiveFilter {
+                                    Circle()
+                                        .fill(Color.yellow)
+                                        .frame(width: 7, height: 7)
+                                        .offset(x: 4, y: -4)
+                                }
                             }
                         }
                     }
@@ -609,7 +706,11 @@ private struct VocabNavBar: ViewModifier {
 }
 
 private extension View {
-    func vocabNavBar(title: String, filter: VocabFlashcardsFilter, showFilter: Binding<Bool>) -> some View {
-        modifier(VocabNavBar(title: title, filter: filter, showFilter: showFilter))
+    func vocabNavBar(title: String, filter: VocabFlashcardsFilter, showFilter: Binding<Bool>,
+                     locked: LockedVocabChapter?, chapterWordIds: [String],
+                     weightMode: Binding<WeightMode>, onAfterClear: @escaping () -> Void) -> some View {
+        modifier(VocabNavBar(title: title, filter: filter, showFilter: showFilter,
+                             locked: locked, chapterWordIds: chapterWordIds,
+                             weightMode: weightMode, onAfterClear: onAfterClear))
     }
 }

@@ -1,6 +1,6 @@
 {
   "id": "ch41",
-  "chapterNumber": 41,
+  "chapterNumber": 43,
   "title": "Concession and Expectation",
   "points": [
     {
@@ -8,7 +8,7 @@
       "name": "〜ものの (mono no) — although / even though (disappointing concession)",
       "shortDescription": "Concedes something is true, but the result is disappointing or doesn't meet expectations.",
       "formation": "Plain form + ものの + disappointing or contrary outcome",
-      "explanation": "ものの is a formal, literary concessive — 'although / even though' — with a built-in undercurrent of disappointment or unfulfilled expectation. 準備はしたものの、本番では緊張してうまくできなかった: 'Although I had prepared, when it came to the real thing I got nervous and couldn't do well.' The preparation happened; the expected payoff didn't arrive. That gap between effort and result, or between intention and outcome, is the emotional core of ものの.\n\nIf you've been using のに (even though) for this kind of contrast, you know the territory — ものの occupies the same space but at a higher register, suited to writing, polished speech, and formal contexts where のに would feel too colloquial. The main clause almost always conveys regret, disappointment, or ironic contrast. ものの tends to focus on the speaker's own unfulfilled efforts or intentions; when you want to express frustration at an external situation that didn't reward what was done, のに can feel more immediate and natural.",
+      "explanation": "ものの is a formal, literary concessive — 'although / even though' — with a built-in undercurrent of disappointment or unfulfilled expectation. 準備[じゅんび]はしたものの、本番[ほんばん]では緊張[きんちょう]してうまくできなかった: 'Although I had prepared, when it came to the real thing I got nervous and couldn't do well.' The preparation happened; the expected payoff didn't arrive. That gap between effort and result, or between intention and outcome, is the emotional core of ものの.\n\nIf you've been using のに (even though) for this kind of contrast, you know the territory — ものの occupies the same space but at a higher register, suited to writing, polished speech, and formal contexts where のに would feel too colloquial. The main clause almost always conveys regret, disappointment, or ironic contrast. ものの tends to focus on the speaker's own unfulfilled efforts or intentions; when you want to express frustration at an external situation that didn't reward what was done, のに can feel more immediate and natural.",
       "rules": [
         "Plain form + ものの = although / even though (result falls short of expectation)",
         "The main clause presents an outcome that disappoints or contradicts the expectation set up",
@@ -328,7 +328,7 @@
       "name": "〜とはいえ (to wa ie) — that said / even so / nonetheless",
       "shortDescription": "Acknowledges a stated fact but presents a contrasting reality or qualification.",
       "formation": "Plain form / Noun / な-adj + とはいえ + contrasting point",
-      "explanation": "とはいえ means 'that said,' 'even so,' or 'nonetheless' — it acknowledges that the first statement is true, then pivots to a qualification or contrast. 暖かくなったとはいえ、まだコートが必要ですよ: 'That said, it has gotten warmer — you still need a coat.' The speaker isn't denying the warmth; they're adding an important qualifier.\n\nWhat sets とはいえ apart from simpler connectors like でも or しかし is its explicit concession: rather than simply changing direction, it first grants the preceding point, then limits or qualifies it. The logic is: 'I accept X; but even granting X, Y is still true.' The etymology makes this visible: と (quotation) + は (topic marker) + いえ (even if one grants / even conceding that).\n\nFormal and literary, it appears regularly in written analysis, essays, and formal speech. The slightly more casual variant とはいっても does the same work in less formal contexts — a useful pair to know.",
+      "explanation": "とはいえ means 'that said,' 'even so,' or 'nonetheless' — it acknowledges that the first statement is true, then pivots to a qualification or contrast. 暖[あたた]かくなったとはいえ、まだコートが必要[ひつよう]ですよ: 'That said, it has gotten warmer — you still need a coat.' The speaker isn't denying the warmth; they're adding an important qualifier.\n\nWhat sets とはいえ apart from simpler connectors like でも or しかし is its explicit concession: rather than simply changing direction, it first grants the preceding point, then limits or qualifies it. The logic is: 'I accept X; but even granting X, Y is still true.' The etymology makes this visible: と (quotation) + は (topic marker) + いえ (even if one grants / even conceding that).\n\nFormal and literary, it appears regularly in written analysis, essays, and formal speech. The slightly more casual variant とはいっても does the same work in less formal contexts — a useful pair to know.",
       "rules": [
         "Plain form / Noun / な-adj + とはいえ = that said / even so (concedes first, then contrasts)",
         "First clause is acknowledged as true; second clause qualifies or limits it",
@@ -465,13 +465,13 @@
           "prompt": "Which correctly says 'Although it's a small shop, the service is excellent'?",
           "japanese": null,
           "choices": [
-            "小[ちー]さい店[みせ]とはいえ、サービスは素晴[すば]らしい。",
-            "小[ちー]さい店[みせ]だが、サービスは素晴[すば]らしい。",
-            "小[ちー]さい店[みせ]とはいっても、サービスは素晴[すば]らしい。",
-            "小[ちー]さい店[みせ]ものの、サービスは素晴[すば]らしい。"
+            "小[ちい]さい店[みせ]とはいえ、サービスは素晴[すば]らしい。",
+            "小[ちい]さい店[みせ]だが、サービスは素晴[すば]らしい。",
+            "小[ちい]さい店[みせ]とはいっても、サービスは素晴[すば]らしい。",
+            "小[ちい]さい店[みせ]ものの、サービスは素晴[すば]らしい。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + とはいえ: 小[ちー]さい店[みせ] + とはいえ = although it's a small shop. サービスは素晴[すば]らしい = the service is excellent. Size conceded; quality noted as contrast."
+          "explanation": "Noun + とはいえ: 小[ちい]さい店[みせ] + とはいえ = although it's a small shop. サービスは素晴[すば]らしい = the service is excellent. Size conceded; quality noted as contrast."
         },
         {
           "id": "to-wa-ie_q9",
@@ -648,7 +648,7 @@
       "name": "〜ものだから (mono dakara) — because / the reason is (explanatory/excusing)",
       "shortDescription": "Explains or excuses an outcome by citing the reason — often with a defensive or explanatory tone.",
       "formation": "Plain form + ものだから / もので (more casual)",
-      "explanation": "ものだから (and its casual short form もので) is the explanatory grammar of 'I couldn't help it' — it cites a cause for something that happened, with the implicit frame that the cause was a natural, strong, or somewhat compelling impulse rather than a deliberate choice. うれしかったものだから、つい笑ってしまいました: 'Because I was so happy, I just couldn't help smiling.' The happiness was genuine and irresistible; the smile was the natural outcome.\n\nCompare with plain から and ので, which are neutral about whether the cause was controllable. ものだから/もので adds the nuance of 'this was a compelling natural impulse, I was somewhat carried along by it' — which is exactly why it appears so often in apologies and self-explanations.\n\nPractically speaking, ものだから is almost always used when the speaker is explaining their own behavior or a past situation that turned out badly. It's almost never used to explain other people's behavior. Register: もので is casual spoken; ものですから is the polite formal version.",
+      "explanation": "ものだから (and its casual short form もので) is the explanatory grammar of 'I couldn't help it' — it cites a cause for something that happened, with the implicit frame that the cause was a natural, strong, or somewhat compelling impulse rather than a deliberate choice. うれしかったものだから、つい笑[わら]ってしまいました: 'Because I was so happy, I just couldn't help smiling.' The happiness was genuine and irresistible; the smile was the natural outcome.\n\nCompare with plain から and ので, which are neutral about whether the cause was controllable. ものだから/もので adds the nuance of 'this was a compelling natural impulse, I was somewhat carried along by it' — which is exactly why it appears so often in apologies and self-explanations.\n\nPractically speaking, ものだから is almost always used when the speaker is explaining their own behavior or a past situation that turned out badly. It's almost never used to explain other people's behavior. Register: もので is casual spoken; ものですから is the polite formal version.",
       "rules": [
         "Plain form + ものだから = because (used to explain or excuse one's own behavior/outcome)",
         "Implies the cause was natural, strong, or beyond full control — softens the explanation",
@@ -673,7 +673,7 @@
           "english": "Because my child was fussing, I ended up being late to the meeting."
         },
         {
-          "japanese": "急[きゅう]な仕事[しごと]が入[いっ]ったものだから、約束[やくそく]を守[まも]れなくなってしまったんです。",
+          "japanese": "急[きゅう]な仕事[しごと]が入[はい]ったものだから、約束[やくそく]を守[まも]れなくなってしまったんです。",
           "romaji": "Kyuu na shigoto ga haitta mono dakara, yakusoku wo mamorenakunatte shimatta n desu.",
           "english": "Because sudden work came up, I ended up being unable to keep the promise."
         }

@@ -9,14 +9,17 @@ struct OptionsMenuView: View {
     // Provided only for the kanji picker sub-screen
     var store: CardStore? = nil
 
+    /// Provided only for kanji: clears every kanji flashcard checkmark.
+    var onClearExclusions: (() -> Void)? = nil
+
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 28) {
 
-                    // N Level selection
+                    // Level selection
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("N Level")
+                        Text("Level")
                             .font(.headline)
                             .foregroundColor(.appText)
                         HStack(spacing: 8) {
@@ -31,10 +34,12 @@ struct OptionsMenuView: View {
                                     // Clear individual kanji selection when levels change
                                     if let kf = filter as? KanjiFilter { kf.selectedKanjiIds = [] }
                                 } label: {
-                                    Text("N\(level)")
+                                    Text(levelName(level))
                                         .font(.system(size: 14, weight: .semibold))
                                         .foregroundColor(selected ? .white : nLevelColor(level))
-                                        .frame(minWidth: 44, minHeight: 36)
+                                        .lineLimit(1)
+                                        .minimumScaleFactor(0.8)
+                                        .frame(maxWidth: .infinity, minHeight: 36)
                                         .background(
                                             RoundedRectangle(cornerRadius: 8)
                                                 .fill(selected ? nLevelColor(level) : nLevelColor(level).opacity(0.12))
@@ -114,6 +119,21 @@ struct OptionsMenuView: View {
                             .background(RoundedRectangle(cornerRadius: 10).fill(Color.red.opacity(0.85)))
                     }
                     .buttonStyle(.plain)
+
+                    // Clear checkmarks (kanji only)
+                    if let onClearExclusions = onClearExclusions {
+                        Button {
+                            onClearExclusions()
+                        } label: {
+                            Text("Clear All Kanji Checkmarks")
+                                .font(.system(size: 16, weight: .medium))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 14)
+                                .background(RoundedRectangle(cornerRadius: 10).fill(Color.green.opacity(0.85)))
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.vertical, 24)
@@ -339,7 +359,7 @@ private struct KanjiCell: View {
         Button(action: action) {
             VStack(spacing: 4) {
                 HStack {
-                    Text("N\(card.nLevel)")
+                    Text(levelName(card.nLevel))
                         .font(.system(size: 10, weight: .semibold))
                         .foregroundColor(selected ? .white.opacity(0.9) : color)
                     Spacer()

@@ -16,10 +16,26 @@
         "Memory trick: カ looks like a katakana 'K' for 'ka'."
       ],
       "examples": [
-        {"japanese": "カメラ", "romaji": "kamera", "english": "camera"},
-        {"japanese": "カード", "romaji": "kaado", "english": "card"},
-        {"japanese": "カフェ", "romaji": "kafe", "english": "café"},
-        {"japanese": "カレー", "romaji": "karee", "english": "curry"}
+        {
+          "japanese": "カメラ",
+          "romaji": "kamera",
+          "english": "camera"
+        },
+        {
+          "japanese": "カード",
+          "romaji": "kaado",
+          "english": "card"
+        },
+        {
+          "japanese": "カフェ",
+          "romaji": "kafe",
+          "english": "café"
+        },
+        {
+          "japanese": "カレー",
+          "romaji": "karee",
+          "english": "curry"
+        }
       ],
       "flashcardHeader": "カ",
       "flashcardAnswer": "ka — same sound as か",
@@ -38,10 +54,26 @@
         "Small キャ (ki + ya) creates the combination 'kya' — you'll see this in キャンプ (camp)."
       ],
       "examples": [
-        {"japanese": "キッチン", "romaji": "kicchin", "english": "kitchen"},
-        {"japanese": "キーボード", "romaji": "kiibooodo", "english": "keyboard"},
-        {"japanese": "キャンプ", "romaji": "kyanpu", "english": "camp / camping"},
-        {"japanese": "スキー", "romaji": "sukii", "english": "skiing / ski"}
+        {
+          "japanese": "キッチン",
+          "romaji": "kicchin",
+          "english": "kitchen"
+        },
+        {
+          "japanese": "キーボード",
+          "romaji": "kiibooodo",
+          "english": "keyboard"
+        },
+        {
+          "japanese": "キャンプ",
+          "romaji": "kyanpu",
+          "english": "camp / camping"
+        },
+        {
+          "japanese": "スキー",
+          "romaji": "sukii",
+          "english": "skiing / ski"
+        }
       ],
       "flashcardHeader": "キ",
       "flashcardAnswer": "ki — same sound as き; the character looks like a key",
@@ -60,10 +92,26 @@
         "ク vs ク vs ワ: ク has a sweeping bottom-right hook; ワ curves back to the left."
       ],
       "examples": [
-        {"japanese": "クラス", "romaji": "kurasu", "english": "class"},
-        {"japanese": "クリスマス", "romaji": "Kurisumasu", "english": "Christmas"},
-        {"japanese": "クーラー", "romaji": "kuuraa", "english": "cooler / air conditioner unit"},
-        {"japanese": "クリーム", "romaji": "kuriimu", "english": "cream"}
+        {
+          "japanese": "クラス",
+          "romaji": "kurasu",
+          "english": "class"
+        },
+        {
+          "japanese": "クリスマス",
+          "romaji": "Kurisumasu",
+          "english": "Christmas"
+        },
+        {
+          "japanese": "クーラー",
+          "romaji": "kuuraa",
+          "english": "cooler / air conditioner unit"
+        },
+        {
+          "japanese": "クリーム",
+          "romaji": "kuriimu",
+          "english": "cream"
+        }
       ],
       "flashcardHeader": "ク",
       "flashcardAnswer": "ku — same sound as く",
@@ -79,13 +127,29 @@
       "rules": [
         "Same 'ke' as け — unaspirated 'k' + pure 'eh' vowel.",
         "ケ looks like カ with an extra horizontal stroke at the top — 'ケ = カ + hat'.",
-        "ケータイ (mobile phone) is a Japanese-coined abbreviation of keitai denwa (携帯電話)."
+        "ケータイ (mobile phone) is a Japanese-coined abbreviation of keitai denwa (携帯[けいたい]電話[でんわ])."
       ],
       "examples": [
-        {"japanese": "ケーキ", "romaji": "keeki", "english": "cake"},
-        {"japanese": "ケース", "romaji": "keesu", "english": "case"},
-        {"japanese": "ケータイ", "romaji": "keetai", "english": "mobile phone"},
-        {"japanese": "バスケット", "romaji": "basuketto", "english": "basket / basketball"}
+        {
+          "japanese": "ケーキ",
+          "romaji": "keeki",
+          "english": "cake"
+        },
+        {
+          "japanese": "ケース",
+          "romaji": "keesu",
+          "english": "case"
+        },
+        {
+          "japanese": "ケータイ",
+          "romaji": "keetai",
+          "english": "mobile phone"
+        },
+        {
+          "japanese": "バスケット",
+          "romaji": "basuketto",
+          "english": "basket / basketball"
+        }
       ],
       "flashcardHeader": "ケ",
       "flashcardAnswer": "ke — same sound as け",
@@ -104,10 +168,26 @@
         "コンビニ (convenience store) is one of Japan's most beloved institutions — you'll use this word constantly."
       ],
       "examples": [
-        {"japanese": "コーヒー", "romaji": "koohii", "english": "coffee"},
-        {"japanese": "コンビニ", "romaji": "konbini", "english": "convenience store"},
-        {"japanese": "コンサート", "romaji": "konsaato", "english": "concert"},
-        {"japanese": "コンピューター", "romaji": "konpyuutaa", "english": "computer"}
+        {
+          "japanese": "コーヒー",
+          "romaji": "koohii",
+          "english": "coffee"
+        },
+        {
+          "japanese": "コンビニ",
+          "romaji": "konbini",
+          "english": "convenience store"
+        },
+        {
+          "japanese": "コンサート",
+          "romaji": "konsaato",
+          "english": "concert"
+        },
+        {
+          "japanese": "コンピューター",
+          "romaji": "konpyuutaa",
+          "english": "computer"
+        }
       ],
       "flashcardHeader": "コ",
       "flashcardAnswer": "ko — same sound as こ; the character looks like a backwards 'C'",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "What sound does this katakana make?",
       "japanese": "コ",
-      "choices": ["ka", "ki", "ku", "ko"],
+      "choices": [
+        "ka",
+        "ki",
+        "ku",
+        "ko"
+      ],
       "correctIndex": 3,
       "explanation": "コ makes the 'ko' sound — same as hiragana こ. It looks like a backwards 'C' or a squared bracket. コ appears in コーヒー (coffee) and コンビニ (convenience store)."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which hiragana matches this katakana?",
       "japanese": "キ",
-      "choices": ["か", "き", "く", "け"],
+      "choices": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
       "correctIndex": 1,
       "explanation": "キ and き make the same 'ki' sound. Katakana キ looks like three horizontal lines crossed by a vertical — like a 'key' — while hiragana き has a more flowing, cursive structure."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "コーヒー",
-      "choices": ["cola", "coffee", "cocoa", "cookie"],
+      "choices": [
+        "cola",
+        "coffee",
+        "cocoa",
+        "cookie"
+      ],
       "correctIndex": 1,
       "explanation": "コーヒー (koohii) means 'coffee'. コ (ko) + ー (long 'o') + ヒ (hi) + ー (long 'i') = 'koohii'. The ー marks extend the preceding vowel. Coffee is hugely popular in Japan!"
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "カメラ",
-      "choices": ["calendar", "camera", "caramel", "car"],
+      "choices": [
+        "calendar",
+        "camera",
+        "caramel",
+        "car"
+      ],
       "correctIndex": 1,
       "explanation": "カメラ (kamera) means 'camera'. カ (ka) + メ (me) + ラ (ra) = kamera. Many loanwords shift slightly in pronunciation to fit Japanese phonology — 'camera' becomes 'kamera'."
     }
