@@ -1,6 +1,7 @@
 import SwiftUI
 import UIKit
 import CoreText
+import NaturalLanguage
 
 // MARK: - Public SwiftUI wrapper
 
@@ -8,18 +9,26 @@ import CoreText
 /// Accepts optional inline `kanji[reading]` markup — markup is stripped from display text
 /// and the reading is applied as a ruby annotation above the kanji characters.
 /// Falls back to automatic reading generation for plain (non-annotated) strings.
+///
+/// When `interactive` is true, a long-press reports the word under the finger and
+/// its on-screen rect (in global coordinates) via `onWordSelect` — used by reading
+/// passages for pop-up dictionary lookups.
 struct FuriganaText: UIViewRepresentable {
     let text: String
     var fontSize: CGFloat = 17
     var color: Color = .primary
     var weight: UIFont.Weight = .regular
     var alignment: NSTextAlignment = .left
+    var interactive: Bool = false
+    var onWordSelect: ((String, CGRect) -> Void)? = nil
 
     func makeUIView(context: Context) -> FuriganaCanvas {
         FuriganaCanvas()
     }
 
     func updateUIView(_ canvas: FuriganaCanvas, context: Context) {
+        canvas.onWordSelect = onWordSelect
+        canvas.setInteractive(interactive)
         canvas.configure(
             text: text,
             fontSize: fontSize,
@@ -47,6 +56,9 @@ final class FuriganaCanvas: UIView {
     private var alignment: NSTextAlignment = .left
     private var segments: [(range: NSRange, reading: String)] = []
 
+    var onWordSelect: ((String, CGRect) -> Void)?
+    private var longPress: UILongPressGestureRecognizer?
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = .clear
@@ -54,6 +66,104 @@ final class FuriganaCanvas: UIView {
         isUserInteractionEnabled = false
     }
     required init?(coder: NSCoder) { fatalError() }
+
+    // MARK: - Interactivity (long-press word lookup)
+
+    func setInteractive(_ on: Bool) {
+        isUserInteractionEnabled = on
+        if on && longPress == nil {
+            let lp = UILongPressGestureRecognizer(target: self, action: #selector(handleLongPress(_:)))
+            lp.minimumPressDuration = 0.28
+            addGestureRecognizer(lp)
+            longPress = lp
+        }
+        longPress?.isEnabled = on
+    }
+
+    @objc private func handleLongPress(_ gr: UILongPressGestureRecognizer) {
+        guard gr.state == .began else { return }
+        if let (word, rect) = wordAndRect(at: gr.location(in: self)) {
+            onWordSelect?(word, rect)
+        }
+    }
+
+    /// Maps a touch point to the word beneath it and that word's rect in global
+    /// (window) coordinates, using CoreText line geometry + NLTokenizer segmentation.
+    private func wordAndRect(at point: CGPoint) -> (String, CGRect)? {
+        guard !displayText.isEmpty, bounds.width > 0, bounds.height > 0 else { return nil }
+        let attr = buildAttr(color: color)
+        let setter = CTFramesetterCreateWithAttributedString(attr)
+        let frame = CTFramesetterCreateFrame(setter, CFRangeMake(0, 0),
+                                             CGPath(rect: bounds, transform: nil), nil)
+        let cfLines = CTFrameGetLines(frame)
+        let lineCount = CFArrayGetCount(cfLines)
+        guard lineCount > 0 else { return nil }
+        var lines: [CTLine] = []
+        for i in 0..<lineCount {
+            lines.append(unsafeBitCast(CFArrayGetValueAtIndex(cfLines, i), to: CTLine.self))
+        }
+        var origins = [CGPoint](repeating: .zero, count: lineCount)
+        CTFrameGetLineOrigins(frame, CFRangeMake(0, 0), &origins)
+
+        // CoreText y grows upward from the bottom; the touch y grows downward from the top.
+        let ctY = bounds.height - point.y
+        var lineIdx = 0
+        var bestDist = CGFloat.greatestFiniteMagnitude
+        for (i, line) in lines.enumerated() {
+            var asc: CGFloat = 0, desc: CGFloat = 0, lead: CGFloat = 0
+            CTLineGetTypographicBounds(line, &asc, &desc, &lead)
+            let oy = origins[i].y
+            if ctY <= oy + asc && ctY >= oy - desc { lineIdx = i; bestDist = 0; break }
+            let d = min(abs(ctY - (oy + asc)), abs(ctY - (oy - desc)))
+            if d < bestDist { bestDist = d; lineIdx = i }
+        }
+
+        let line = lines[lineIdx]
+        let ox = origins[lineIdx].x
+        let oy = origins[lineIdx].y
+        var asc: CGFloat = 0, desc: CGFloat = 0, lead: CGFloat = 0
+        CTLineGetTypographicBounds(line, &asc, &desc, &lead)
+
+        let idx = CTLineGetStringIndexForPosition(line, CGPoint(x: point.x - ox, y: 0))
+        let ns = displayText as NSString
+        guard idx != kCFNotFound, idx >= 0, idx < ns.length else { return nil }
+        guard let baseRange = wordRange(in: displayText, utf16Index: idx) else { return nil }
+        // Greedy longest dictionary match from the token's first character — rejoins
+        // compounds the tokenizer split (図書 + 館 → 図書館, 自転 + 車 → 自転車).
+        let range = longestDictionaryMatch(from: baseRange.location, in: ns, fallback: baseRange)
+        let word = ns.substring(with: range)
+
+        let startX = ox + CTLineGetOffsetForStringIndex(line, range.location, nil)
+        let endX = ox + CTLineGetOffsetForStringIndex(line, range.location + range.length, nil)
+        let uiTop = bounds.height - (oy + asc)
+        let ruby = fontSize * 0.7   // clear the furigana sitting above the base text
+        let rect = CGRect(x: min(startX, endX), y: uiTop - ruby,
+                          width: abs(endX - startX), height: asc + desc + ruby)
+        return (word, convert(rect, to: nil))
+    }
+
+    private func longestDictionaryMatch(from start: Int, in ns: NSString, fallback: NSRange) -> NSRange {
+        var len = min(ns.length - start, 12)
+        while len >= 1 {
+            let cand = ns.substring(with: NSRange(location: start, length: len))
+            if WordLookup.lookup(cand) != nil { return NSRange(location: start, length: len) }
+            len -= 1
+        }
+        return fallback
+    }
+
+    private func wordRange(in text: String, utf16Index: Int) -> NSRange? {
+        let strIdx = String.Index(utf16Offset: utf16Index, in: text)
+        guard strIdx < text.endIndex else { return nil }
+        let tokenizer = NLTokenizer(unit: .word)
+        tokenizer.string = text
+        let r = tokenizer.tokenRange(at: strIdx)
+        guard !r.isEmpty else { return nil }
+        let loc = r.lowerBound.utf16Offset(in: text)
+        let len = r.upperBound.utf16Offset(in: text) - loc
+        guard len > 0 else { return nil }
+        return NSRange(location: loc, length: len)
+    }
 
     override func layoutSubviews() {
         super.layoutSubviews()
@@ -192,7 +302,10 @@ enum FuriganaAnnotator {
     private static func isKanji(_ scalar: Unicode.Scalar) -> Bool {
         (0x4E00...0x9FFF).contains(scalar.value) ||
         (0x3400...0x4DBF).contains(scalar.value) ||
-        (0xF900...0xFAFF).contains(scalar.value)
+        (0xF900...0xFAFF).contains(scalar.value) ||
+        scalar.value == 0x3005 ||   // 々 iteration mark (人々, 時々, 様々)
+        scalar.value == 0x30F6 ||   // ヶ (as in 鬼ヶ島)
+        scalar.value == 0x30F5      // ヵ
     }
 
     private static func isKana(_ scalar: Unicode.Scalar) -> Bool {

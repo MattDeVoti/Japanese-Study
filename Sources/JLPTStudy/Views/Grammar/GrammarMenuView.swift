@@ -63,6 +63,14 @@ struct GrammarMenuView: View {
                             )
                         }
                     }
+
+                    // MARK: Reading comprehension
+                    SectionGroup(header: "Reading") {
+                        StudyMenuRow(label: "Reading Comprehension", badge: "読",
+                                     badgeColor: Color(hex: "0EA5E9")) {
+                            ReadingListView()
+                        }
+                    }
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 24)
