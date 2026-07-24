@@ -19,6 +19,7 @@ struct ChapterDetailView: View {
                                 KanaCharacterCard(point: point, chapterId: summary.id, accentColor: accentColor)
                             } else {
                                 GrammarPointCard(point: point, chapterId: summary.id, accentColor: accentColor)
+                                    .addToCustomLesson(.grammar(chapterId: summary.id, pointId: point.id, title: point.name))
                             }
                         }
 
@@ -57,6 +58,7 @@ struct ChapterDetailView: View {
 
                                 ForEach(vocab) { word in
                                     VocabWordRow(word: word, accentColor: accentColor)
+                                        .addToCustomLesson(.vocab(id: word.id, title: word.kanji))
                                 }
 
                                 NavigationLink {
@@ -106,6 +108,7 @@ struct ChapterDetailView: View {
                                                 .buttonStyle(.plain)
                                                 .padding(4)
                                             }
+                                            .addToCustomLesson(.kanji(char: card.kanji))
                                         }
                                     }
                                 }
@@ -139,7 +142,7 @@ struct ChapterDetailView: View {
 
 // MARK: - Chapter kanji cell
 
-private struct ChapterKanjiCell: View {
+struct ChapterKanjiCell: View {
     let card: KanjiCard
 
     private var gloss: String {

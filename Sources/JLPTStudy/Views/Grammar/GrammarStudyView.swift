@@ -50,6 +50,6 @@ struct GrammarStudyView: View {
     private func pickNext() {
         let p = pool
         guard !p.isEmpty else { currentCard = nil; return }
-        currentCard = store.selectWeightedGrammar(from: p, filter: grammarFilter)
+        currentCard = store.selectWeightedGrammar(from: p)
     }
 }

@@ -142,6 +142,7 @@ struct HomeView: View {
 
 struct HomeOptionsSheet: View {
     @Environment(\.dismiss) private var dismiss
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @State private var showResetConfirm = false
 
     var body: some View {
@@ -153,6 +154,30 @@ struct HomeOptionsSheet: View {
                     } label: {
                         Label("Appearance", systemImage: "paintbrush.fill")
                     }
+                }
+                Section {
+                    Picker("Priority", selection: $weightSettings.mode) {
+                        Text("No Priority").tag(WeightMode.none)
+                        Text("Prioritize Needs Work").tag(WeightMode.needsWork)
+                    }
+                    .pickerStyle(.segmented)
+
+                    if weightSettings.mode == .needsWork {
+                        VStack(alignment: .leading, spacing: 6) {
+                            HStack {
+                                Text("Priority Level")
+                                Spacer()
+                                Text("\(Int((weightSettings.strength * 100).rounded()))%")
+                                    .foregroundColor(.secondary)
+                            }
+                            Slider(value: $weightSettings.strength, in: 0.05...1.0)
+                                .tint(.orange)
+                        }
+                    }
+                } header: {
+                    Label("Flashcard Priority", systemImage: "rectangle.stack.fill")
+                } footer: {
+                    Text("Applies to every flashcard deck. No Priority shuffles evenly and hides cards you’ve checked off; Prioritize Needs Work keeps every card in rotation but shows ones you’ve marked “Needs Work” more often.")
                 }
                 Section {
                     Button(role: .destructive) {

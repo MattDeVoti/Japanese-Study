@@ -7,6 +7,7 @@ final class LessonsService {
     private let decoder = JSONDecoder()
     private(set) var manifest: LessonManifest?
     private var pointIdsCache: [String: [String]] = [:]
+    private var vocabIndex: [String: LessonVocabWord]?
 
     func loadIfNeeded() {
         guard manifest == nil else { return }
@@ -52,6 +53,26 @@ final class LessonsService {
         let ids = pointIds(for: chapterId)
         if !ids.isEmpty { return ids.count }
         return manifest?.levels.flatMap(\.chapters).first { $0.id == chapterId }?.pointCount ?? 0
+    }
+
+    /// Resolves a vocab word by its (global) id, building a one-time index over
+    /// every chapter's vocab on first use. Custom lessons store only word ids, so
+    /// they lean on this to render and study the actual words.
+    func vocabWord(id: String) -> LessonVocabWord? {
+        if vocabIndex == nil { buildVocabIndex() }
+        return vocabIndex?[id]
+    }
+
+    private func buildVocabIndex() {
+        loadIfNeeded()
+        var index: [String: LessonVocabWord] = [:]
+        for level in manifest?.levels ?? [] {
+            for summary in level.chapters {
+                guard let chapter = loadChapter(summary.id), let vocab = chapter.vocab else { continue }
+                for word in vocab { index[word.id] = word }
+            }
+        }
+        vocabIndex = index
     }
 
     /// Lightweight decode that reads just each point's `id`, without parsing its

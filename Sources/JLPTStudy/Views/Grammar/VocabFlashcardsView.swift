@@ -14,23 +14,31 @@ struct VocabFlashcardsView: View {
     /// chapter). When nil, it's the global Study-section vocab flashcards.
     var lockedChapter: LockedVocabChapter? = nil
 
+    /// When provided (custom lessons), the locked pool is built from these exact
+    /// words instead of loading a chapter's vocab. Requires `lockedChapter` too,
+    /// which supplies the title/accent.
+    var lockedWords: [LessonVocabWord]? = nil
+
     @ObservedObject private var filter = VocabFlashcardsFilter.shared
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @State private var allCards: [VocabFlashCard] = []
     @State private var current: VocabFlashCard?
     @State private var isRevealed = false
     @State private var isLoading = true
     @State private var showFilter = false
-    /// Weight mode for a locked chapter session — independent of the Study section.
-    @State private var lockedWeightMode: WeightMode = .none
+    /// Shows the green-check pop over the card after "Confident" is tapped.
+    @State private var showConfidentPop = false
+    /// Undo history for the back button — each answered card + what to reverse.
+    @State private var history: [VocabStudyHistoryEntry] = []
     @Namespace private var wordNS
 
     /// The chapter's word ids (locked mode only) — used to scope "clear checkmarks".
     private var chapterWordIds: [String] { lockedChapter == nil ? [] : allCards.map(\.word.id) }
 
     private var pool: [VocabFlashCard] {
-        lockedChapter == nil
-            ? filter.apply(to: allCards)
-            : allCards.filter { !filter.isExcluded($0.word.id) }
+        if lockedChapter == nil { return filter.apply(to: allCards) }
+        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return allCards }
+        return allCards.filter { !filter.isExcluded($0.word.id) }
     }
 
     var body: some View {
@@ -40,7 +48,7 @@ struct VocabFlashcardsView: View {
                     Color.appBackground.ignoresSafeArea()
                     ProgressView()
                 }
-                .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
+                .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
             } else if let card = current {
                 cardView(card)
             } else {
@@ -51,7 +59,7 @@ struct VocabFlashcardsView: View {
         .onChange(of: filter.selectedChapterIds) { _ in if lockedChapter == nil { pickNext() } }
         .onChange(of: filter.selectedWordIds) { _ in if lockedChapter == nil { pickNext() } }
         .onChange(of: filter.showFavoritesOnly) { _ in if lockedChapter == nil { pickNext() } }
-        .onChange(of: lockedWeightMode) { _ in pickNext() }
+        .onChange(of: weightSettings.mode) { _ in pickNext() }
         .sheet(isPresented: $showFilter) {
             VocabFilterSheet(filter: filter, allCards: allCards)
         }
@@ -61,7 +69,6 @@ struct VocabFlashcardsView: View {
 
     private func cardView(_ card: VocabFlashCard) -> some View {
         let isFav = filter.isFavorite(card.word.id)
-        let isExcluded = filter.isExcluded(card.word.id)
 
         // Word block, shared by both faces so it slides between them.
         let wordBlock = VStack(spacing: 10) {
@@ -91,7 +98,7 @@ struct VocabFlashcardsView: View {
             Color.appBackground.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Fixed top bar: favorite + checkmark (stay put while the word slides)
+                // Fixed top bar: favorite (stays put while the word slides)
                 HStack {
                     Button {
                         filter.toggleFavorite(card.word.id)
@@ -102,15 +109,6 @@ struct VocabFlashcardsView: View {
                     }
                     .buttonStyle(.plain)
                     Spacer()
-                    Button {
-                        filter.toggleExcluded(card.word.id)
-                        pickNext()
-                    } label: {
-                        Image(systemName: isExcluded ? "checkmark.circle.fill" : "checkmark.circle")
-                            .font(.system(size: 26))
-                            .foregroundColor(isExcluded ? .green : Color.gray.opacity(0.5))
-                    }
-                    .buttonStyle(.plain)
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 16)
@@ -167,15 +165,15 @@ struct VocabFlashcardsView: View {
                         } label: {
                             ZStack {
                                 Circle()
-                                    .fill(Color.red.badgeGradient)
+                                    .strokeBorder(Color.appText, lineWidth: 2)
                                     .frame(width: 88, height: 88)
-                                    .shadow(color: Color.red.opacity(0.40), radius: 10, x: 0, y: 4)
                                 Text("Check")
                                     .font(.system(size: 16, weight: .semibold))
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.appText)
                             }
                         }
                         .buttonStyle(.plain)
+                        .offset(y: -56)
                         .transition(.opacity)
 
                         Spacer()
@@ -184,10 +182,14 @@ struct VocabFlashcardsView: View {
                 }
             }
 
-            // Bottom bar
+            // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
-                Button { filter.markNeedsWork(card.word.id); pickNext() } label: {
-                    Text("Don't Know")
+                Button {
+                    filter.markNeedsWork(card.word.id)
+                    history.append(VocabStudyHistoryEntry(card: card, action: .needsWork))
+                    pickNext()
+                } label: {
+                    Text("Needs Work")
                         .font(.system(size: 15, weight: .semibold))
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
@@ -200,8 +202,20 @@ struct VocabFlashcardsView: View {
                 }
                 .buttonStyle(.plain)
 
-                Button { filter.markConfident(card.word.id); pickNext() } label: {
-                    Text("Got It")
+                Button { goBack() } label: {
+                    Image(systemName: "arrow.uturn.backward")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.appText)
+                        .frame(width: 46, height: 46)
+                        .background(Circle().fill(Color.appSurfaceHigh))
+                        .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                }
+                .buttonStyle(.plain)
+                .disabled(history.isEmpty || showConfidentPop)
+                .opacity(history.isEmpty ? 0.35 : 1)
+
+                Button { confirmConfident(card) } label: {
+                    Text("Confident")
                         .font(.system(size: 15, weight: .semibold))
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
@@ -217,8 +231,14 @@ struct VocabFlashcardsView: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
             .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
+
+            // Green-check pop shown briefly when "Confident" is tapped
+            if showConfidentPop {
+                ConfidentCheckPop()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
         }
-        .vocabNavBar(title: card.word.kanji, filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
+        .vocabNavBar(title: card.word.kanji, filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
     }
 
     // MARK: - Empty
@@ -241,7 +261,7 @@ struct VocabFlashcardsView: View {
                 Spacer()
             }
         }
-        .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
+        .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
     }
 
     // MARK: - Data
@@ -250,9 +270,9 @@ struct VocabFlashcardsView: View {
         guard isLoading else { return }
         LessonsService.shared.loadIfNeeded()
 
-        // Chapter "Study Vocab": pool is locked to this chapter's words.
+        // Chapter (or custom-lesson) "Study Vocab": pool is locked to a fixed set.
         if let locked = lockedChapter {
-            let words = LessonsService.shared.loadChapter(locked.id)?.vocab ?? []
+            let words = lockedWords ?? (LessonsService.shared.loadChapter(locked.id)?.vocab ?? [])
             allCards = words.map { word in
                 VocabFlashCard(word: word, chapterId: locked.id, chapterNumber: locked.number,
                                chapterTitle: locked.title, accentColor: locked.accent)
@@ -311,10 +331,47 @@ struct VocabFlashcardsView: View {
         let p = pool
         guard !p.isEmpty else { current = nil; return }
         isRevealed = false
-        current = lockedChapter == nil
-            ? filter.selectWeighted(from: p)
-            : filter.selectWeighted(from: p, mode: lockedWeightMode, strength: filter.weightStrength)
+        current = filter.selectWeighted(from: p)
     }
+
+    /// "Confident" activates the word's checkmark (excludes it from the lineup),
+    /// pops a green check over the card, then advances to the next card.
+    private func confirmConfident(_ card: VocabFlashCard) {
+        guard !showConfidentPop else { return }
+        let wasChecked = filter.isExcluded(card.word.id)
+        if !wasChecked { filter.toggleExcluded(card.word.id) }
+        history.append(VocabStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
+        withAnimation(.spring(response: 0.3, dampingFraction: 0.55)) { showConfidentPop = true }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
+            withAnimation(.easeOut(duration: 0.2)) { showConfidentPop = false }
+            pickNext()
+        }
+    }
+
+    /// Back button: return to the previous card and undo the answer given on it.
+    private func goBack() {
+        guard let last = history.popLast() else { return }
+        switch last.action {
+        case .needsWork:
+            filter.unmarkNeedsWork(last.card.word.id)
+        case .confident(let didCheck):
+            if didCheck { filter.toggleExcluded(last.card.word.id) }
+        }
+        isRevealed = false
+        current = last.card
+    }
+}
+
+// MARK: - Back-button undo history
+
+private enum VocabStudyAction {
+    case needsWork
+    case confident(didCheck: Bool)
+}
+
+private struct VocabStudyHistoryEntry {
+    let card: VocabFlashCard
+    let action: VocabStudyAction
 }
 
 // MARK: - Filter Sheet
@@ -393,34 +450,11 @@ private struct VocabFilterSheet: View {
 
     private var weightedSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Weighted Shuffle")
+            Text("Card Priority")
                 .font(.headline)
                 .foregroundColor(.appText)
 
-            Picker("", selection: $filter.weightMode) {
-                ForEach(WeightMode.allCases, id: \.self) { mode in
-                    Text(mode.rawValue).tag(mode)
-                }
-            }
-            .pickerStyle(.segmented)
-
-            if filter.weightMode != .none {
-                HStack {
-                    Text("Weight Strength")
-                        .font(.subheadline)
-                        .foregroundColor(.appText)
-                    Spacer()
-                    Text(String(format: "%.0f%%", filter.weightStrength * 100))
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                }
-                Slider(value: $filter.weightStrength, in: 0...1)
-                    .tint(filter.weightMode == .harder ? .red : .green)
-            }
-
-            Text(weightHint)
-                .font(.caption)
-                .foregroundColor(.secondary)
+            WeightPrioritySection()
 
             Button { filter.clearWeights() } label: {
                 Text("Reset Study Weights")
@@ -431,14 +465,6 @@ private struct VocabFilterSheet: View {
         }
     }
 
-    private var weightHint: String {
-        switch filter.weightMode {
-        case .none:   return "Words appear at random. Mark “Got It” / “Don’t Know” while studying to build up weights."
-        case .harder: return "Words you mark “Don’t Know” appear more often."
-        case .easier: return "Words you mark “Got It” appear more often."
-        }
-    }
-
     // MARK: - Checkmarks
 
     private var checkmarksSection: some View {
@@ -446,7 +472,7 @@ private struct VocabFilterSheet: View {
             Text("Checkmarks")
                 .font(.headline)
                 .foregroundColor(.appText)
-            Text("Checked-off words are hidden from the flashcard lineup — here and in their chapter.")
+            Text("In No Priority mode, checked-off words are hidden from the flashcard lineup (here and in their chapter). In Prioritize Needs Work mode they stay in rotation.")
                 .font(.caption)
                 .foregroundColor(.secondary)
             Button { filter.clearExclusions() } label: {
@@ -630,11 +656,11 @@ private struct ChapterSquare: View {
 private struct VocabNavBar: ViewModifier {
     let title: String
     @ObservedObject var filter: VocabFlashcardsFilter
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @Binding var showFilter: Bool
     /// nil for the global Study section; set for a chapter's Study Vocab session.
     let locked: LockedVocabChapter?
     let chapterWordIds: [String]
-    @Binding var weightMode: WeightMode
     let onAfterClear: () -> Void
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var themeManager: ThemeManager
@@ -665,10 +691,9 @@ private struct VocabNavBar: ViewModifier {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     if locked != nil {
                         Menu {
-                            Picker("Priority", selection: $weightMode) {
-                                Text("Random Order").tag(WeightMode.none)
-                                Text("Prioritize “Don’t Know”").tag(WeightMode.harder)
-                                Text("Prioritize “Got It”").tag(WeightMode.easier)
+                            Picker("Priority", selection: $weightSettings.mode) {
+                                Text("No Priority").tag(WeightMode.none)
+                                Text("Prioritize Needs Work").tag(WeightMode.needsWork)
                             }
                             Divider()
                             Button(role: .destructive) {
@@ -708,9 +733,9 @@ private struct VocabNavBar: ViewModifier {
 private extension View {
     func vocabNavBar(title: String, filter: VocabFlashcardsFilter, showFilter: Binding<Bool>,
                      locked: LockedVocabChapter?, chapterWordIds: [String],
-                     weightMode: Binding<WeightMode>, onAfterClear: @escaping () -> Void) -> some View {
+                     onAfterClear: @escaping () -> Void) -> some View {
         modifier(VocabNavBar(title: title, filter: filter, showFilter: showFilter,
                              locked: locked, chapterWordIds: chapterWordIds,
-                             weightMode: weightMode, onAfterClear: onAfterClear))
+                             onAfterClear: onAfterClear))
     }
 }

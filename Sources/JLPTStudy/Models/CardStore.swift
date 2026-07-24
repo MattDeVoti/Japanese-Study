@@ -241,6 +241,17 @@ class CardStore: ObservableObject {
         persist()
     }
 
+    /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
+    func decrementNeedsWork(cardId: String) {
+        guard let c = data.needsWorkCounts[cardId], c > 0 else { return }
+        let n = c - 1
+        if n == 0 { data.needsWorkCounts.removeValue(forKey: cardId) }
+        else { data.needsWorkCounts[cardId] = n }
+        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].needsWorkCount = n }
+        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].needsWorkCount = n }
+        persist()
+    }
+
     func incrementConfident(cardId: String) {
         data.confidentCounts[cardId, default: 0] += 1
         let n = data.confidentCounts[cardId]!
@@ -304,7 +315,9 @@ class CardStore: ObservableObject {
             let favs = cards.filter(\.isFavorite)
             if !favs.isEmpty { cards = favs }
         }
-        cards = cards.filter { !excludedKanjiIds.contains($0.id) }
+        if StudyWeightSettings.shared.filtersOutCheckedCards {
+            cards = cards.filter { !excludedKanjiIds.contains($0.id) }
+        }
         return pinNumberKanji(cards)
     }
 
@@ -340,26 +353,23 @@ class CardStore: ObservableObject {
         return cards
     }
 
-    func selectWeightedKanji(from cards: [KanjiCard], filter: StudyFilter) -> KanjiCard? {
-        selectWeighted(cards, mode: filter.weightMode, strength: filter.weightStrength)
+    func selectWeightedKanji(from cards: [KanjiCard]) -> KanjiCard? {
+        selectWeighted(cards)
     }
 
-    /// Explicit mode/strength — lets a chapter's Study Kanji session weight
-    /// independently of the Study section's kanji filter.
-    func selectWeightedKanji(from cards: [KanjiCard], mode: WeightMode, strength: Double) -> KanjiCard? {
-        selectWeighted(cards, mode: mode, strength: strength)
+    func selectWeightedGrammar(from cards: [GrammarCard]) -> GrammarCard? {
+        selectWeighted(cards)
     }
 
-    func selectWeightedGrammar(from cards: [GrammarCard], filter: StudyFilter) -> GrammarCard? {
-        selectWeighted(cards, mode: filter.weightMode, strength: filter.weightStrength)
-    }
-
-    private func selectWeighted<T: FlashCardProtocol>(_ cards: [T], mode: WeightMode, strength: Double) -> T? {
+    /// Weighting comes from the app-wide `StudyWeightSettings`, shared by every
+    /// deck and every place the setting can be changed.
+    private func selectWeighted<T: FlashCardProtocol>(_ cards: [T]) -> T? {
         guard !cards.isEmpty else { return nil }
-        guard mode != .none, strength > 0 else { return cards.randomElement() }
+        let mode = StudyWeightSettings.shared.mode
+        let strength = StudyWeightSettings.shared.strength
+        guard mode == .needsWork, strength > 0 else { return cards.randomElement() }
         let weights: [Double] = cards.map { card in
-            let count = mode == .harder ? card.needsWorkCount : card.confidentCount
-            return 1.0 + Double(count) * 5.0 * strength
+            1.0 + Double(card.needsWorkCount) * 5.0 * strength
         }
         var r = Double.random(in: 0..<weights.reduce(0, +))
         for (i, w) in weights.enumerated() {

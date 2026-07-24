@@ -29,9 +29,8 @@ final class VocabFlashcardsFilter: ObservableObject {
     /// chapter the user manually deselects is not re-added on the next sync.
     @Published private(set) var autoSelectedChapterIds: Set<String> = [] { didSet { persistSelection() } }
 
-    // Weighted shuffle (mirrors the kanji/grammar flashcards)
-    @Published var weightMode: WeightMode = .none
-    @Published var weightStrength: Double = 0.25
+    // Per-word study counts. The weighting *setting* (mode + strength) lives in
+    // the app-wide StudyWeightSettings; only the counts are per-word here.
     @Published private(set) var needsWorkCounts: [String: Int] = [:]
     @Published private(set) var confidentCounts: [String: Int] = [:]
 
@@ -50,7 +49,7 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     var hasActiveFilter: Bool {
-        !selectedChapterIds.isEmpty || !selectedWordIds.isEmpty || showFavoritesOnly || weightMode != .none
+        !selectedChapterIds.isEmpty || !selectedWordIds.isEmpty || showFavoritesOnly
     }
 
     // MARK: - Favorites
@@ -97,24 +96,25 @@ final class VocabFlashcardsFilter: ObservableObject {
     // MARK: - Study weights
 
     func markNeedsWork(_ wordId: String) { needsWorkCounts[wordId, default: 0] += 1; saveWeights() }
+    /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
+    func unmarkNeedsWork(_ wordId: String) {
+        guard let c = needsWorkCounts[wordId], c > 0 else { return }
+        if c - 1 == 0 { needsWorkCounts.removeValue(forKey: wordId) }
+        else { needsWorkCounts[wordId] = c - 1 }
+        saveWeights()
+    }
     func markConfident(_ wordId: String) { confidentCounts[wordId, default: 0] += 1; saveWeights() }
     func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }
 
-    /// Picks a card, biasing toward "harder" (Don't Know) or "easier" (Got It)
-    /// words when a weight mode is active. Same formula as CardStore.selectWeighted.
+    /// Picks a card, biasing toward "Needs Work" words when the app-wide
+    /// StudyWeightSettings has prioritization on. Same formula as CardStore.
     func selectWeighted(from cards: [VocabFlashCard]) -> VocabFlashCard? {
-        selectWeighted(from: cards, mode: weightMode, strength: weightStrength)
-    }
-
-    /// Same as above but with an explicit mode/strength — lets a chapter's Study
-    /// Vocab session weight independently of the Study section.
-    func selectWeighted(from cards: [VocabFlashCard], mode: WeightMode, strength: Double) -> VocabFlashCard? {
         guard !cards.isEmpty else { return nil }
-        guard mode != .none, strength > 0 else { return cards.randomElement() }
+        let mode = StudyWeightSettings.shared.mode
+        let strength = StudyWeightSettings.shared.strength
+        guard mode == .needsWork, strength > 0 else { return cards.randomElement() }
         let weights: [Double] = cards.map { card in
-            let count = mode == .harder ? (needsWorkCounts[card.word.id] ?? 0)
-                                        : (confidentCounts[card.word.id] ?? 0)
-            return 1.0 + Double(count) * 5.0 * strength
+            1.0 + Double(needsWorkCounts[card.word.id] ?? 0) * 5.0 * strength
         }
         var r = Double.random(in: 0..<weights.reduce(0, +))
         for (i, w) in weights.enumerated() {
@@ -138,7 +138,9 @@ final class VocabFlashcardsFilter: ObservableObject {
             let favs = result.filter { favoriteWordIds.contains($0.word.id) }
             if !favs.isEmpty { result = favs }
         }
-        result = result.filter { !excludedWordIds.contains($0.word.id) }
+        if StudyWeightSettings.shared.filtersOutCheckedCards {
+            result = result.filter { !excludedWordIds.contains($0.word.id) }
+        }
         return result
     }
 
@@ -147,7 +149,6 @@ final class VocabFlashcardsFilter: ObservableObject {
         autoSelectedChapterIds = []
         selectedWordIds = []
         showFavoritesOnly = false
-        weightMode = .none
     }
 
     // MARK: - Persistence

@@ -36,6 +36,7 @@ struct FavoritesView: View {
                                             chapterId: section.id,
                                             accentColor: section.accentColor
                                         )
+                                        .addToCustomLesson(.grammar(chapterId: section.id, pointId: point.id, title: point.name))
                                         .padding(.horizontal, 16)
                                     }
                                 }

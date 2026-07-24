@@ -276,6 +276,25 @@ extension View {
     }
 }
 
+// MARK: - Confident checkmark pop
+//
+// Brief green-checkmark animation shown over a flashcard when the user taps
+// "Confident" (which also activates that card's checkmark), before the next
+// card appears. Insert it into a ZStack gated by a Bool and toggle that Bool
+// inside `withAnimation`.
+
+struct ConfidentCheckPop: View {
+    var body: some View {
+        Image(systemName: "checkmark.circle.fill")
+            .symbolRenderingMode(.palette)
+            .foregroundStyle(.white, Color.green)
+            .font(.system(size: 104, weight: .bold))
+            .shadow(color: Color.green.opacity(0.45), radius: 18, x: 0, y: 6)
+            .transition(.scale(scale: 0.4).combined(with: .opacity))
+            .allowsHitTesting(false)
+    }
+}
+
 // MARK: - Image Loader
 
 func loadCardImage(path: String) -> UIImage? {

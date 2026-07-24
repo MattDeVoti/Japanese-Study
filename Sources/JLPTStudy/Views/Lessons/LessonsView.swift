@@ -2,6 +2,7 @@ import SwiftUI
 
 struct LessonsView: View {
     @State private var levels: [LessonLevel] = []
+    @ObservedObject private var customStore = CustomLessonsStore.shared
 
     // Two kana levels, in fixed display order.
     private var kanaLevels: [LessonLevel] {
@@ -84,6 +85,23 @@ struct LessonsView: View {
                                 FavoritesCircleButton()
                             }
                             .buttonStyle(.plain)
+                        }
+                    }
+
+                    // MARK: Custom (only once the user has built at least one)
+                    if !customStore.lessons.isEmpty {
+                        VStack(alignment: .leading, spacing: 14) {
+                            LessonSectionHeader("Custom")
+                            LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                                ForEach(customStore.lessons) { lesson in
+                                    NavigationLink {
+                                        CustomLessonDetailView(lessonId: lesson.id)
+                                    } label: {
+                                        CustomLessonCircleButton(lesson: lesson)
+                                    }
+                                    .buttonStyle(.plain)
+                                }
+                            }
                         }
                     }
                 }

@@ -65,34 +65,12 @@ struct OptionsMenuView: View {
                         Divider()
                     }
 
-                    // Weighted shuffle
+                    // Card priority (app-wide setting, shared everywhere)
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("Weighted Shuffle")
+                        Text("Card Priority")
                             .font(.headline)
                             .foregroundColor(.appText)
-                        Picker("", selection: $filter.weightMode) {
-                            ForEach(WeightMode.allCases, id: \.self) { mode in
-                                Text(mode.rawValue).tag(mode)
-                            }
-                        }
-                        .pickerStyle(.segmented)
-                    }
-
-                    // Weight strength slider (visible when not NONE)
-                    if filter.weightMode != .none {
-                        VStack(alignment: .leading, spacing: 8) {
-                            HStack {
-                                Text("Weight Strength")
-                                    .font(.headline)
-                                    .foregroundColor(.appText)
-                                Spacer()
-                                Text(String(format: "%.0f%%", filter.weightStrength * 100))
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                            }
-                            Slider(value: $filter.weightStrength, in: 0...1)
-                                .tint(filter.weightMode == .harder ? .red : .green)
-                        }
+                        WeightPrioritySection()
                     }
 
                     Divider()

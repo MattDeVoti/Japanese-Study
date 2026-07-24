@@ -14,16 +14,20 @@ struct KanjiStudyView: View {
 
     @EnvironmentObject private var store: CardStore
     @EnvironmentObject private var filter: KanjiFilter
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @State private var currentCard: KanjiCard?
     @State private var isRevealed = false
-    /// Weight mode for a locked chapter session — independent of the Study section.
-    @State private var lockedWeightMode: WeightMode = .none
+    /// Shows the green-check pop over the card after "Confident" is tapped.
+    @State private var showConfidentPop = false
+    /// Undo history for the back button — each answered card + what to reverse.
+    @State private var history: [KanjiStudyHistoryEntry] = []
     @Namespace private var glyphNS
 
     private var pool: [KanjiCard] {
         if let locked = lockedChapter {
-            return locked.kanji.compactMap { store.kanjiCard(for: $0) }
-                .filter { !store.isKanjiExcluded($0.id) }
+            let cards = locked.kanji.compactMap { store.kanjiCard(for: $0) }
+            guard StudyWeightSettings.shared.filtersOutCheckedCards else { return cards }
+            return cards.filter { !store.isKanjiExcluded($0.id) }
         }
         return store.filteredKanjiCards(filter: filter)
     }
@@ -45,20 +49,19 @@ struct KanjiStudyView: View {
         .onChange(of: filter.selectedLevels) { _ in pickNext() }
         .onChange(of: filter.showFavoritesOnly) { _ in pickNext() }
         .onChange(of: filter.selectedKanjiIds) { _ in pickNext() }
-        .onChange(of: lockedWeightMode) { _ in pickNext() }
+        .onChange(of: weightSettings.mode) { _ in pickNext() }
     }
 
     // MARK: - Study card
 
     private func studyCard(_ card: KanjiCard) -> some View {
         let isFavorite = store.kanjiCards.first(where: { $0.id == card.id })?.isFavorite ?? card.isFavorite
-        let isExcluded = store.isKanjiExcluded(card.id)
 
         return ZStack(alignment: .bottom) {
             Color.appBackground.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                // Fixed top bar: favorite + checkmark + level (stay put while the kanji slides)
+                // Fixed top bar: favorite + level (stay put while the kanji slides)
                 HStack(spacing: 14) {
                     Button {
                         store.toggleFavorite(cardId: card.id)
@@ -66,16 +69,6 @@ struct KanjiStudyView: View {
                         Image(systemName: isFavorite ? "star.fill" : "star")
                             .font(.system(size: 26))
                             .foregroundColor(isFavorite ? .yellow : Color.gray.opacity(0.5))
-                    }
-                    .buttonStyle(.plain)
-
-                    Button {
-                        store.toggleKanjiExcluded(cardId: card.id)
-                        pickNext()
-                    } label: {
-                        Image(systemName: isExcluded ? "checkmark.circle.fill" : "checkmark.circle")
-                            .font(.system(size: 26))
-                            .foregroundColor(isExcluded ? .green : Color.gray.opacity(0.5))
                     }
                     .buttonStyle(.plain)
 
@@ -125,15 +118,15 @@ struct KanjiStudyView: View {
                         } label: {
                             ZStack {
                                 Circle()
-                                    .fill(Color.red.badgeGradient)
+                                    .strokeBorder(Color.appText, lineWidth: 2)
                                     .frame(width: 88, height: 88)
-                                    .shadow(color: Color.red.opacity(0.40), radius: 10, x: 0, y: 4)
                                 Text("Check")
                                     .font(.system(size: 16, weight: .semibold))
-                                    .foregroundColor(.white)
+                                    .foregroundColor(.appText)
                             }
                         }
                         .buttonStyle(.plain)
+                        .offset(y: -56)
                         .transition(.opacity)
 
                         Spacer()
@@ -142,10 +135,11 @@ struct KanjiStudyView: View {
                 }
             }
 
-            // Needs Work / Confident — always visible
+            // Needs Work / back / Confident — always visible
             HStack(spacing: 12) {
                 Button {
                     store.incrementNeedsWork(cardId: card.id)
+                    history.append(KanjiStudyHistoryEntry(card: card, action: .needsWork))
                     pickNext()
                 } label: {
                     Text("Needs Work")
@@ -161,9 +155,20 @@ struct KanjiStudyView: View {
                 }
                 .buttonStyle(.plain)
 
+                Button { goBack() } label: {
+                    Image(systemName: "arrow.uturn.backward")
+                        .font(.system(size: 17, weight: .semibold))
+                        .foregroundColor(.appText)
+                        .frame(width: 46, height: 46)
+                        .background(Circle().fill(Color.appSurfaceHigh))
+                        .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                }
+                .buttonStyle(.plain)
+                .disabled(history.isEmpty || showConfidentPop)
+                .opacity(history.isEmpty ? 0.35 : 1)
+
                 Button {
-                    store.incrementConfident(cardId: card.id)
-                    pickNext()
+                    confirmConfident(card)
                 } label: {
                     Text("Confident")
                         .font(.system(size: 15, weight: .semibold))
@@ -181,10 +186,16 @@ struct KanjiStudyView: View {
             .padding(.horizontal, 20)
             .padding(.vertical, 12)
             .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
+
+            // Green-check pop shown briefly when "Confident" is tapped
+            if showConfidentPop {
+                ConfidentCheckPop()
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            }
         }
         .standardNavBar(card.kanji)
         .kanjiOptionsBar(locked: lockedChapter, filter: filter, store: store,
-                         chapterCardIds: lockedCardIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
+                         chapterCardIds: lockedCardIds, onAfterClear: { pickNext() })
     }
 
     // MARK: - Empty state
@@ -205,7 +216,7 @@ struct KanjiStudyView: View {
         }
         .standardNavBar("Kanji")
         .kanjiOptionsBar(locked: lockedChapter, filter: filter, store: store,
-                         chapterCardIds: lockedCardIds, weightMode: $lockedWeightMode, onAfterClear: { pickNext() })
+                         chapterCardIds: lockedCardIds, onAfterClear: { pickNext() })
     }
 
     // MARK: - Navigation
@@ -214,10 +225,47 @@ struct KanjiStudyView: View {
         let p = pool
         guard !p.isEmpty else { currentCard = nil; return }
         isRevealed = false
-        currentCard = lockedChapter == nil
-            ? store.selectWeightedKanji(from: p, filter: filter)
-            : store.selectWeightedKanji(from: p, mode: lockedWeightMode, strength: filter.weightStrength)
+        currentCard = store.selectWeightedKanji(from: p)
     }
+
+    /// "Confident" activates the card's checkmark (excludes it from the lineup),
+    /// pops a green check over the card, then advances to the next card.
+    private func confirmConfident(_ card: KanjiCard) {
+        guard !showConfidentPop else { return }
+        let wasChecked = store.isKanjiExcluded(card.id)
+        if !wasChecked { store.toggleKanjiExcluded(cardId: card.id) }
+        history.append(KanjiStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
+        withAnimation(.spring(response: 0.3, dampingFraction: 0.55)) { showConfidentPop = true }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
+            withAnimation(.easeOut(duration: 0.2)) { showConfidentPop = false }
+            pickNext()
+        }
+    }
+
+    /// Back button: return to the previous card and undo the answer given on it.
+    private func goBack() {
+        guard let last = history.popLast() else { return }
+        switch last.action {
+        case .needsWork:
+            store.decrementNeedsWork(cardId: last.card.id)
+        case .confident(let didCheck):
+            if didCheck { store.toggleKanjiExcluded(cardId: last.card.id) }
+        }
+        isRevealed = false
+        currentCard = last.card
+    }
+}
+
+// MARK: - Back-button undo history
+
+private enum KanjiStudyAction {
+    case needsWork
+    case confident(didCheck: Bool)
+}
+
+private struct KanjiStudyHistoryEntry {
+    let card: KanjiCard
+    let action: KanjiStudyAction
 }
 
 // MARK: - Options bar (study filter sheet, or a chapter's menu)
@@ -226,8 +274,8 @@ private struct KanjiOptionsBar: ViewModifier {
     let locked: LockedKanjiChapter?
     @ObservedObject var filter: KanjiFilter
     @ObservedObject var store: CardStore
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     let chapterCardIds: [String]
-    @Binding var weightMode: WeightMode
     let onAfterClear: () -> Void
 
     @ViewBuilder
@@ -236,10 +284,9 @@ private struct KanjiOptionsBar: ViewModifier {
             content.toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Picker("Priority", selection: $weightMode) {
-                            Text("Random Order").tag(WeightMode.none)
-                            Text("Prioritize “Needs Work”").tag(WeightMode.harder)
-                            Text("Prioritize “Confident”").tag(WeightMode.easier)
+                        Picker("Priority", selection: $weightSettings.mode) {
+                            Text("No Priority").tag(WeightMode.none)
+                            Text("Prioritize Needs Work").tag(WeightMode.needsWork)
                         }
                         Divider()
                         Button(role: .destructive) {
@@ -262,10 +309,10 @@ private struct KanjiOptionsBar: ViewModifier {
 
 private extension View {
     func kanjiOptionsBar(locked: LockedKanjiChapter?, filter: KanjiFilter, store: CardStore,
-                         chapterCardIds: [String], weightMode: Binding<WeightMode>,
+                         chapterCardIds: [String],
                          onAfterClear: @escaping () -> Void) -> some View {
         modifier(KanjiOptionsBar(locked: locked, filter: filter, store: store,
-                                 chapterCardIds: chapterCardIds, weightMode: weightMode,
+                                 chapterCardIds: chapterCardIds,
                                  onAfterClear: onAfterClear))
     }
 }
