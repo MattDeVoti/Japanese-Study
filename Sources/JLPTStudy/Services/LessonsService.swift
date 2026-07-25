@@ -30,6 +30,11 @@ final class LessonsService {
         return (try? decoder.decode([PracticeQuestion].self, from: data)) ?? []
     }
 
+    /// The manifest entry for a chapter — lets a search hit navigate to its chapter.
+    func chapterSummary(for chapterId: String) -> ChapterSummary? {
+        manifest?.levels.flatMap(\.chapters).first { $0.id == chapterId }
+    }
+
     func jlptLevel(for chapterId: String) -> String? {
         manifest?.levels
             .first(where: { $0.chapters.contains(where: { $0.id == chapterId }) })

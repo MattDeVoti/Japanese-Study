@@ -3,28 +3,104 @@ import SwiftUI
 struct ChapterDetailView: View {
     let summary: ChapterSummary
     let accentColor: Color
+    /// When set (from a Textbook search hit), that point opens expanded and is
+    /// scrolled into view.
+    var focusPointId: String? = nil
 
     @EnvironmentObject private var cardStore: CardStore
     @State private var chapter: LessonChapter?
+    @State private var query = ""
+
+    private var isSearching: Bool {
+        !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+
+    /// Case-insensitive match of the in-lesson query against any of the given fields.
+    private func matches(_ fields: [String]) -> Bool {
+        let q = query.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+        guard !q.isEmpty else { return true }
+        return fields.contains { $0.lowercased().contains(q) }
+    }
+
+    private func pointMatches(_ p: GrammarPoint) -> Bool {
+        matches([p.name, p.shortDescription, p.formation, p.explanation] + p.rules)
+    }
+
+    private func wordMatches(_ w: LessonVocabWord) -> Bool {
+        matches([w.kanji, w.kana, w.romaji, w.definition, w.partOfSpeech])
+    }
+
+    private func kanjiMatches(_ k: String) -> Bool {
+        let card = cardStore.kanjiCard(for: k)
+        let readings = ((card?.onyomi ?? []) + (card?.kunyomi ?? [])).flatMap { [$0.kana, $0.romaji] }
+        return matches([k, card?.definition ?? ""] + readings)
+    }
 
     var body: some View {
         ZStack {
             Color.appBackground.ignoresSafeArea()
 
             if let chapter = chapter {
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 12) {
-                        ForEach(chapter.points) { point in
+                let points = chapter.points.filter(pointMatches)
+                let vocab = (chapter.vocab ?? []).filter(wordMatches)
+                let kanjiChars = (chapter.kanji ?? []).filter(kanjiMatches)
+
+                VStack(spacing: 0) {
+                    SearchBar(text: $query, placeholder: "Search this lesson…")
+
+                    if isSearching && points.isEmpty && vocab.isEmpty && kanjiChars.isEmpty {
+                        noMatches
+                    } else {
+                        chapterBody(chapter, points: points, vocab: vocab, kanjiChars: kanjiChars)
+                    }
+                }
+            } else {
+                ProgressView()
+            }
+        }
+        .standardNavBar(summary.title)
+        .onAppear {
+            if chapter == nil {
+                chapter = LessonsService.shared.loadChapter(summary.id)
+            }
+        }
+    }
+
+    private var noMatches: some View {
+        VStack(spacing: 10) {
+            Spacer()
+            Image(systemName: "magnifyingglass")
+                .font(.system(size: 40))
+                .foregroundColor(.secondary.opacity(0.3))
+            Text("Nothing in this lesson matches “\(query)”.")
+                .font(.system(size: 14))
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 40)
+            Spacer()
+        }
+    }
+
+    private func chapterBody(_ chapter: LessonChapter, points: [GrammarPoint],
+                             vocab: [LessonVocabWord], kanjiChars: [String]) -> some View {
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(alignment: .leading, spacing: 12) {
+                    ForEach(points) { point in
+                        Group {
                             if point.pointType == "kana" {
                                 KanaCharacterCard(point: point, chapterId: summary.id, accentColor: accentColor)
                             } else {
-                                GrammarPointCard(point: point, chapterId: summary.id, accentColor: accentColor)
+                                GrammarPointCard(point: point, chapterId: summary.id, accentColor: accentColor,
+                                                 initiallyExpanded: point.id == focusPointId)
                                     .addToCustomLesson(.grammar(chapterId: summary.id, pointId: point.id, title: point.name))
                             }
                         }
+                        .id(point.id)
+                    }
 
-                        // Chapter-level practice (used by kana lessons)
-                        if let practice = chapter.chapterPractice, !practice.isEmpty {
+                    // Chapter-level practice (used by kana lessons) — hidden while searching
+                    if !isSearching, let practice = chapter.chapterPractice, !practice.isEmpty {
                             NavigationLink {
                                 GrammarPracticeView(
                                     pointName: chapter.title,
@@ -48,7 +124,7 @@ struct ChapterDetailView: View {
                             .padding(.top, 4)
                         }
 
-                        if let vocab = chapter.vocab, !vocab.isEmpty {
+                        if !vocab.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
                                 Label("Vocabulary", systemImage: "character.book.closed")
                                     .font(.system(size: 11, weight: .semibold))
@@ -61,20 +137,22 @@ struct ChapterDetailView: View {
                                         .addToCustomLesson(.vocab(id: word.id, title: word.kanji))
                                 }
 
-                                NavigationLink {
-                                    VocabFlashcardsView(lockedChapter: LockedVocabChapter(
-                                        id: summary.id, number: summary.chapterNumber,
-                                        title: chapter.title, accent: accentColor))
-                                } label: {
-                                    StudyButtonLabel(title: "Study Vocab", accent: accentColor)
+                                if !isSearching {
+                                    NavigationLink {
+                                        VocabFlashcardsView(lockedChapter: LockedVocabChapter(
+                                            id: summary.id, number: summary.chapterNumber,
+                                            title: chapter.title, accent: accentColor))
+                                    } label: {
+                                        StudyButtonLabel(title: "Study Vocab", accent: accentColor)
+                                    }
+                                    .buttonStyle(.plain)
+                                    .padding(.top, 4)
                                 }
-                                .buttonStyle(.plain)
-                                .padding(.top, 4)
                             }
                         }
 
                         // Kanji for this chapter (same N-level), shown below the vocab.
-                        if let kanjiChars = chapter.kanji, !kanjiChars.isEmpty {
+                        if !kanjiChars.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
                                 Label("Kanji", systemImage: "character.textbox")
                                     .font(.system(size: 11, weight: .semibold))
@@ -113,28 +191,28 @@ struct ChapterDetailView: View {
                                     }
                                 }
 
-                                NavigationLink {
-                                    KanjiStudyView(lockedChapter: LockedKanjiChapter(
-                                        title: chapter.title, kanji: kanjiChars))
-                                } label: {
-                                    StudyButtonLabel(title: "Study Kanji", accent: accentColor)
+                                if !isSearching {
+                                    NavigationLink {
+                                        KanjiStudyView(lockedChapter: LockedKanjiChapter(
+                                            title: chapter.title, kanji: kanjiChars))
+                                    } label: {
+                                        StudyButtonLabel(title: "Study Kanji", accent: accentColor)
+                                    }
+                                    .buttonStyle(.plain)
+                                    .padding(.top, 4)
                                 }
-                                .buttonStyle(.plain)
-                                .padding(.top, 4)
                             }
                         }
-                    }
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 16)
                 }
-            } else {
-                ProgressView()
+                .padding(.horizontal, 16)
+                .padding(.vertical, 16)
             }
-        }
-        .standardNavBar(summary.title)
-        .onAppear {
-            if chapter == nil {
-                chapter = LessonsService.shared.loadChapter(summary.id)
+            .onAppear {
+                // Arriving from a Textbook search hit — bring that point into view.
+                guard let focus = focusPointId else { return }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+                    withAnimation { proxy.scrollTo(focus, anchor: .top) }
+                }
             }
         }
     }
@@ -183,8 +261,15 @@ struct GrammarPointCard: View {
     let chapterId: String
     let accentColor: Color
 
-    @State private var isExpanded = false
+    @State private var isExpanded: Bool
     @ObservedObject private var store = LessonsProgressStore.shared
+
+    init(point: GrammarPoint, chapterId: String, accentColor: Color, initiallyExpanded: Bool = false) {
+        self.point = point
+        self.chapterId = chapterId
+        self.accentColor = accentColor
+        _isExpanded = State(initialValue: initiallyExpanded)
+    }
 
     private var isFavorite: Bool { store.isFavorite(chapterId: chapterId, pointId: point.id) }
     private var isCompleted: Bool { store.isCompleted(chapterId: chapterId, pointId: point.id) }

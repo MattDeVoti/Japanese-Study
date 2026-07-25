@@ -3,6 +3,13 @@ import SwiftUI
 struct LessonsView: View {
     @State private var levels: [LessonLevel] = []
     @ObservedObject private var customStore = CustomLessonsStore.shared
+    @EnvironmentObject private var cardStore: CardStore
+    @State private var query = ""
+    @State private var results: [LessonSearchResult] = []
+
+    private var isSearching: Bool {
+        !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
 
     // Two kana levels, in fixed display order.
     private var kanaLevels: [LessonLevel] {
@@ -29,6 +36,38 @@ struct LessonsView: View {
         ZStack {
             Color.appBackground.ignoresSafeArea()
 
+            VStack(spacing: 0) {
+                SearchBar(text: $query, placeholder: "Search the whole textbook…")
+
+                if isSearching {
+                    ScrollView {
+                        LessonSearchResultsView(results: results, query: query)
+                            .padding(.horizontal, 20)
+                            .padding(.top, 12)
+                            .padding(.bottom, 36)
+                    }
+                } else {
+                    browseSections
+                }
+            }
+        }
+        .standardNavBar("Lessons")
+        .onChange(of: query) { q in
+            results = LessonSearchService.shared.search(q, cardStore: cardStore)
+        }
+        .onAppear {
+            LessonsService.shared.loadIfNeeded()
+            if levels.isEmpty {
+                levels = LessonsService.shared.manifest?.levels ?? []
+            }
+            // Keeps results consistent if the view reappears with a query already set.
+            if isSearching && results.isEmpty {
+                results = LessonSearchService.shared.search(query, cardStore: cardStore)
+            }
+        }
+    }
+
+    private var browseSections: some View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 30) {
 
@@ -109,14 +148,6 @@ struct LessonsView: View {
                 .padding(.top, 20)
                 .padding(.bottom, 36)
             }
-        }
-        .standardNavBar("Lessons")
-        .onAppear {
-            LessonsService.shared.loadIfNeeded()
-            if levels.isEmpty {
-                levels = LessonsService.shared.manifest?.levels ?? []
-            }
-        }
     }
 }
 
