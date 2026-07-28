@@ -12,6 +12,8 @@ class CardStore: ObservableObject {
     private var kanjiIndexById: [String: Int] = [:]
     private var kanjiIndexByChar: [String: Int] = [:]
     private var grammarIndexById: [String: Int] = [:]
+    /// Word id → every kanji card id that word appears under (usually one).
+    private var wordParents: [String: [String]] = [:]
 
     // Resolves to the bundled folder if present, falls back to dev path
     static let basePath: String = {
@@ -59,6 +61,14 @@ class CardStore: ObservableObject {
         kanjiIndexById = Dictionary(kanjiCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
         kanjiIndexByChar = Dictionary(kanjiCards.enumerated().map { ($1.kanji, $0) }, uniquingKeysWith: { first, _ in first })
         grammarIndexById = Dictionary(grammarCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
+
+        var parents: [String: [String]] = [:]
+        for card in kanjiCards {
+            for word in card.commonWords {
+                parents[KanjiWordCard.id(for: word), default: []].append(card.id)
+            }
+        }
+        wordParents = parents
     }
 
     /// Mutate a kanji and/or grammar card by id in place (an id is one or the
@@ -321,7 +331,11 @@ class CardStore: ObservableObject {
 
     // MARK: - Filtered Lists
 
-    func filteredKanjiCards(filter: StudyFilter) -> [KanjiCard] {
+    /// Applies the study filter (levels, chosen kanji, favorites). `applyChecks`
+    /// additionally drops checked-off cards — the study pool skips that step so
+    /// it can decide per item, letting a kanji's words survive the kanji itself
+    /// being checked off.
+    func filteredKanjiCards(filter: StudyFilter, applyChecks: Bool = true) -> [KanjiCard] {
         var cards = kanjiCards
         if !filter.selectedLevels.isEmpty {
             cards = cards.filter { filter.selectedLevels.contains($0.nLevel) }
@@ -333,7 +347,7 @@ class CardStore: ObservableObject {
             let favs = cards.filter(\.isFavorite)
             if !favs.isEmpty { cards = favs }
         }
-        if StudyWeightSettings.shared.filtersOutCheckedCards {
+        if applyChecks, StudyWeightSettings.shared.filtersOutCheckedCards {
             cards = cards.filter { !excludedKanjiIds.contains($0.id) }
         }
         return pinNumberKanji(cards)
@@ -348,6 +362,52 @@ class CardStore: ObservableObject {
     // Look up a kanji card by its character (used by lesson chapters). O(1).
     func kanjiCard(for char: String) -> KanjiCard? {
         kanjiIndexByChar[char].map { kanjiCards[$0] }
+    }
+
+    func kanjiCard(id: String) -> KanjiCard? {
+        kanjiIndexById[id].map { kanjiCards[$0] }
+    }
+
+    /// Study weight for any id — kanji cards and synthetic word ids alike.
+    func needsWorkCount(forId id: String) -> Int {
+        data.needsWorkCounts[id] ?? 0
+    }
+
+    // MARK: - Kanji study pool (kanji + their example words)
+
+    /// The example words belonging to `cards`, de-duplicated. Each word carries
+    /// every kanji card it appears under, so the flashcard can show them as tabs.
+    func wordCards(from cards: [KanjiCard]) -> [KanjiWordCard] {
+        var seen = Set<String>()
+        var out: [KanjiWordCard] = []
+        for card in cards {
+            for word in card.commonWords {
+                let id = KanjiWordCard.id(for: word)
+                guard !seen.contains(id) else { continue }
+                seen.insert(id)
+                let parents = wordParents[id] ?? [card.id]
+                // Easiest parent (N5 = 5) — where a learner meets the word first.
+                let level = parents.compactMap { kanjiCard(id: $0)?.nLevel }.max() ?? card.nLevel
+                out.append(KanjiWordCard(word: word, parentIds: parents, nLevel: level))
+            }
+        }
+        return out
+    }
+
+    /// Builds the full study pool from a set of base kanji: the kanji themselves,
+    /// plus their example words when that option is on. Checked-off cards drop
+    /// out only in No-Priority mode, matching the rest of the app.
+    func kanjiStudyPool(from cards: [KanjiCard]) -> [KanjiStudyItem] {
+        var items = cards.map { KanjiStudyItem.kanji($0) }
+        if KanjiStudySettings.shared.includeCommonWords {
+            items += wordCards(from: cards).map { KanjiStudyItem.word($0) }
+        }
+        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return items }
+        return items.filter { !excludedKanjiIds.contains($0.id) }
+    }
+
+    func selectWeightedKanjiItem(from items: [KanjiStudyItem]) -> KanjiStudyItem? {
+        StudyWeightSettings.shared.pick(items) { needsWorkCount(forId: $0.id) }
     }
 
     // Pin number kanji to the front in ascending order
@@ -369,10 +429,6 @@ class CardStore: ObservableObject {
             if !favs.isEmpty { cards = favs }
         }
         return cards
-    }
-
-    func selectWeightedKanji(from cards: [KanjiCard]) -> KanjiCard? {
-        selectWeighted(cards)
     }
 
     func selectWeightedGrammar(from cards: [GrammarCard]) -> GrammarCard? {

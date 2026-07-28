@@ -2,6 +2,7 @@ import SwiftUI
 
 struct OptionsMenuView: View {
     @ObservedObject var filter: StudyFilter
+    @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     let onClearWeights: () -> Void
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var themeManager: ThemeManager
@@ -74,6 +75,24 @@ struct OptionsMenuView: View {
                     }
 
                     Divider()
+
+                    // Example words (kanji deck only)
+                    if filter is KanjiFilter {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Toggle(isOn: $kanjiSettings.includeCommonWords) {
+                                Text("Include Example Words")
+                                    .font(.headline)
+                                    .foregroundColor(.appText)
+                            }
+                            .tint(.green)
+                            Text("Adds each kanji's example words to the deck as their own cards, alongside the kanji themselves.")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+
+                        Divider()
+                    }
 
                     // Show favorites only
                     Toggle(isOn: $filter.showFavoritesOnly) {
