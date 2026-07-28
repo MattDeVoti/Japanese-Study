@@ -134,21 +134,11 @@ struct KanjiStudyView: View {
 
                         Spacer()
 
-                        Button {
+                        CheckButton {
                             withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
                                 isRevealed = true
                             }
-                        } label: {
-                            ZStack {
-                                Circle()
-                                    .strokeBorder(Color.appText, lineWidth: 2)
-                                    .frame(width: 88, height: 88)
-                                Text("Check")
-                                    .font(.system(size: 16, weight: .semibold))
-                                    .foregroundColor(.appText)
-                            }
                         }
-                        .buttonStyle(.plain)
                         .offset(y: -56)
                         .transition(.opacity)
 
@@ -267,6 +257,7 @@ struct KanjiStudyView: View {
     /// pops a green check over the card, then advances to the next card.
     private func confirmConfident(_ card: KanjiStudyItem) {
         guard !showConfidentPop else { return }
+        store.incrementConfident(cardId: card.id)
         let wasChecked = store.isKanjiExcluded(card.id)
         if !wasChecked { store.toggleKanjiExcluded(cardId: card.id) }
         history.append(KanjiStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
@@ -284,6 +275,7 @@ struct KanjiStudyView: View {
         case .needsWork:
             store.decrementNeedsWork(cardId: last.card.id)
         case .confident(let didCheck):
+            store.decrementConfident(cardId: last.card.id)
             if didCheck { store.toggleKanjiExcluded(cardId: last.card.id) }
         }
         isRevealed = false

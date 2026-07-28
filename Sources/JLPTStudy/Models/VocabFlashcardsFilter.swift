@@ -95,12 +95,24 @@ final class VocabFlashcardsFilter: ObservableObject {
 
     // MARK: - Study weights
 
+    // Both tallies are recorded on every answer, whatever the priority mode is set
+    // to — the mode only decides how the counts are *used* when picking a card.
+
     func markNeedsWork(_ wordId: String) { needsWorkCounts[wordId, default: 0] += 1; saveWeights() }
     /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
     func unmarkNeedsWork(_ wordId: String) {
         guard let c = needsWorkCounts[wordId], c > 0 else { return }
         if c - 1 == 0 { needsWorkCounts.removeValue(forKey: wordId) }
         else { needsWorkCounts[wordId] = c - 1 }
+        saveWeights()
+    }
+
+    func markConfident(_ wordId: String) { confidentCounts[wordId, default: 0] += 1; saveWeights() }
+    /// Undo one "Confident" tally (used by the flashcard back button). Floors at 0.
+    func unmarkConfident(_ wordId: String) {
+        guard let c = confidentCounts[wordId], c > 0 else { return }
+        if c - 1 == 0 { confidentCounts.removeValue(forKey: wordId) }
+        else { confidentCounts[wordId] = c - 1 }
         saveWeights()
     }
     func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }

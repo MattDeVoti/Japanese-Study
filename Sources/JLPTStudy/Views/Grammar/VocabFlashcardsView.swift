@@ -158,21 +158,11 @@ struct VocabFlashcardsView: View {
 
                         Spacer()
 
-                        Button {
+                        CheckButton {
                             withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
                                 isRevealed = true
                             }
-                        } label: {
-                            ZStack {
-                                Circle()
-                                    .strokeBorder(Color.appText, lineWidth: 2)
-                                    .frame(width: 88, height: 88)
-                                Text("Check")
-                                    .font(.system(size: 16, weight: .semibold))
-                                    .foregroundColor(.appText)
-                            }
                         }
-                        .buttonStyle(.plain)
                         .offset(y: -56)
                         .transition(.opacity)
 
@@ -337,6 +327,7 @@ struct VocabFlashcardsView: View {
     /// pops a green check over the card, then advances to the next card.
     private func confirmConfident(_ card: VocabFlashCard) {
         guard !showConfidentPop else { return }
+        filter.markConfident(card.word.id)
         let wasChecked = filter.isExcluded(card.word.id)
         if !wasChecked { filter.toggleExcluded(card.word.id) }
         history.append(VocabStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
@@ -354,6 +345,7 @@ struct VocabFlashcardsView: View {
         case .needsWork:
             filter.unmarkNeedsWork(last.card.word.id)
         case .confident(let didCheck):
+            filter.unmarkConfident(last.card.word.id)
             if didCheck { filter.toggleExcluded(last.card.word.id) }
         }
         isRevealed = false

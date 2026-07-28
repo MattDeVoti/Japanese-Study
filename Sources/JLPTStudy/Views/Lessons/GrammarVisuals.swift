@@ -19,6 +19,20 @@ enum GrammarVisual {
     case counters
     case tellingTime
     case politeness
+    case timeSequence
+    case obligation
+    case certainty
+    case teHelpers
+    case frequency
+    case degree
+    case plainPolite
+    case dates
+    case aruIru
+    case neYo
+    case questionWords
+    case listing
+    case preference
+    case justDid
 
     /// The grammar points that get a visual aid, keyed by their stable point id.
     static func forPoint(_ id: String) -> GrammarVisual? {
@@ -32,6 +46,21 @@ enum GrammarVisual {
              "counting-people", "counters-frequency-age":              return .counters
         case "telling-time":                                           return .tellingTime
         case "sonkeigo-verbs", "kensongo":                             return .politeness
+        case "toki", "mae-ni", "te-kara", "aida-ni", "nagara":         return .timeSequence
+        case "te-mo-ii", "te-wa-ikenai", "nakucha", "nakute-mo-ii":    return .obligation
+        case "desho", "kamoshiremasen", "hazu-da", "ni-chigai-nai":    return .certainty
+        case "te-iru", "te-oku", "te-shimau", "te-aru",
+             "te-miru", "te-iku-te-kuru":                              return .teHelpers
+        case "frequency-adverbs":                                      return .frequency
+        case "totemo-sukoshi":                                         return .degree
+        case "plain-forms", "masu-form", "past-masu":                  return .plainPolite
+        case "dates-months":                                           return .dates
+        case "aru-iru":                                                return .aruIru
+        case "ne-yo":                                                  return .neYo
+        case "nanika-nanimo":                                          return .questionWords
+        case "ya-list", "to-and":                                      return .listing
+        case "suki-kirai", "jouzu-heta":                               return .preference
+        case "ta-tokoro", "ta-bakari":                                 return .justDid
         case "yori", "hou-ga", "ichiban":                              return .comparison
         case "location-words":                                         return .location
         case "to-conditional", "tara-conditional", "ba-conditional", "nara": return .conditionals
@@ -59,6 +88,20 @@ enum GrammarVisual {
         case .counters:               CountersDiagram(accent: accent)
         case .tellingTime:            TellingTimeDiagram(accent: accent)
         case .politeness:             PolitenessDiagram(accent: accent)
+        case .timeSequence:           TimeSequenceDiagram(accent: accent)
+        case .obligation:             ObligationDiagram(accent: accent)
+        case .certainty:              CertaintyDiagram(accent: accent)
+        case .teHelpers:              TeHelpersDiagram(accent: accent)
+        case .frequency:              FrequencyDiagram(accent: accent)
+        case .degree:                 DegreeDiagram(accent: accent)
+        case .plainPolite:            PlainPoliteDiagram(accent: accent)
+        case .dates:                  DatesDiagram(accent: accent)
+        case .aruIru:                 AruIruDiagram(accent: accent)
+        case .neYo:                   NeYoDiagram(accent: accent)
+        case .questionWords:          QuestionWordsDiagram(accent: accent)
+        case .listing:                ListingDiagram(accent: accent)
+        case .preference:             PreferenceDiagram(accent: accent)
+        case .justDid:                JustDidDiagram(accent: accent)
         }
     }
 }
@@ -337,6 +380,150 @@ private struct LocationDiagram: View {
     }
 }
 
+// MARK: - Shared: a ranked scale
+//
+// Several points are really "here are N expressions along one axis" — how often,
+// how much, how certain, how much you like it. They all render the same way.
+
+private struct ScaleStrip: View {
+    struct Step { let jp: String; let en: String }
+    let caption: String
+    let topLabel: String
+    let bottomLabel: String
+    /// Ordered strongest → weakest.
+    let steps: [Step]
+    let color: Color
+    var note: String? = nil
+
+    var body: some View {
+        diagramPanel {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(caption)
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                HStack(alignment: .top, spacing: 10) {
+                    // Gradient spine, strongest at the top
+                    VStack(spacing: 0) {
+                        Text(topLabel)
+                            .font(.system(size: 8, weight: .bold)).foregroundColor(color)
+                        LinearGradient(colors: [color, color.opacity(0.18)],
+                                       startPoint: .top, endPoint: .bottom)
+                            .frame(width: 5)
+                            .clipShape(Capsule())
+                            .padding(.vertical, 3)
+                        Text(bottomLabel)
+                            .font(.system(size: 8, weight: .bold)).foregroundColor(color.opacity(0.55))
+                    }
+                    .frame(width: 42)
+
+                    VStack(spacing: 5) {
+                        ForEach(Array(steps.enumerated()), id: \.offset) { i, s in
+                            let strength = 1.0 - (Double(i) / Double(max(steps.count - 1, 1))) * 0.75
+                            HStack(spacing: 8) {
+                                // Give FuriganaText an explicit width — it expands to fill
+                                // whatever it's offered, which would strand the gloss right.
+                                FuriganaText(text: s.jp, fontSize: 13, color: .appText, weight: .bold)
+                                    .frame(width: 124)
+                                Text(s.en)
+                                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                                    .fixedSize(horizontal: false, vertical: true)
+                                Spacer(minLength: 0)
+                            }
+                            .padding(.vertical, 6).padding(.horizontal, 9)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(RoundedRectangle(cornerRadius: 8).fill(color.opacity(0.05 + 0.13 * strength)))
+                        }
+                    }
+                }
+
+                if let note {
+                    // FuriganaText, not Text — notes may carry 漢字[かんじ] markup.
+                    FuriganaText(text: note, fontSize: 10, color: .appTextSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Frequency adverbs
+
+private struct FrequencyDiagram: View {
+    let accent: Color
+    var body: some View {
+        ScaleStrip(
+            caption: "How often — these adverbs sit on one scale.",
+            topLabel: "ALWAYS", bottomLabel: "NEVER",
+            steps: [
+                .init(jp: "いつも", en: "always"),
+                .init(jp: "よく", en: "often"),
+                .init(jp: "ときどき", en: "sometimes"),
+                .init(jp: "あまり〜ない", en: "not very often"),
+                .init(jp: "ぜんぜん〜ない", en: "never at all"),
+            ],
+            color: Color(hex: "2563EB"),
+            note: "あまり and ぜんぜん must finish with a negative verb.")
+    }
+}
+
+// MARK: - Degree adverbs
+
+private struct DegreeDiagram: View {
+    let accent: Color
+    var body: some View {
+        ScaleStrip(
+            caption: "How much — the same idea, applied to degree.",
+            topLabel: "VERY", bottomLabel: "NOT AT ALL",
+            steps: [
+                .init(jp: "とても", en: "very"),
+                .init(jp: "すこし / ちょっと", en: "a little"),
+                .init(jp: "あまり〜ない", en: "not very"),
+                .init(jp: "ぜんぜん〜ない", en: "not at all"),
+            ],
+            color: Color(hex: "0D9488"),
+            note: "ちょっと is the softer, more conversational すこし.")
+    }
+}
+
+// MARK: - Certainty
+
+private struct CertaintyDiagram: View {
+    let accent: Color
+    var body: some View {
+        ScaleStrip(
+            caption: "How sure you are — pick the expression that matches your confidence.",
+            topLabel: "CERTAIN", bottomLabel: "UNSURE",
+            steps: [
+                .init(jp: "〜にちがいない", en: "must be — I'm convinced"),
+                .init(jp: "〜はずだ", en: "should be — it follows logically"),
+                .init(jp: "〜でしょう", en: "probably"),
+                .init(jp: "〜かもしれない", en: "might be — could go either way"),
+            ],
+            color: Color(hex: "7C3AED"),
+            note: "はずだ is about expectation from evidence; にちがいない is personal conviction.")
+    }
+}
+
+// MARK: - Liking & skill
+
+private struct PreferenceDiagram: View {
+    let accent: Color
+    var body: some View {
+        ScaleStrip(
+            caption: "Liking and ability both use が, not を.",
+            topLabel: "LOVE", bottomLabel: "HATE",
+            steps: [
+                .init(jp: "大好[だいす]き", en: "love it"),
+                .init(jp: "好[す]き", en: "like it"),
+                .init(jp: "きらい", en: "dislike it"),
+                .init(jp: "大[だい]きらい", en: "hate it"),
+            ],
+            color: Color(hex: "DB2777"),
+            note: "Skill works the same way: 上手[じょうず] (good at) ・ 下手[へた] (bad at) — and 得意[とくい]／苦手[にがて] are the modest versions you use about yourself.")
+    }
+}
+
 // MARK: - て-form conversion
 
 private struct TeFormDiagram: View {
@@ -510,8 +697,8 @@ private struct AdjectivesDiagram: View {
     }
 
     private func cell(_ text: String, _ color: Color) -> some View {
-        FuriganaText(text: text, fontSize: 12, color: .appText, weight: .medium)
-            .frame(maxWidth: .infinity, alignment: .center)
+        FuriganaText(text: text, fontSize: 12, color: .appText, weight: .medium, alignment: .center)
+            .frame(maxWidth: .infinity)
             .padding(.vertical, 6)
             .background(RoundedRectangle(cornerRadius: 8).fill(color.opacity(0.10)))
     }
@@ -901,6 +1088,712 @@ private struct CausativeDiagram: View {
             Text(verb).font(.system(size: 11, weight: .bold)).foregroundColor(causerColor)
             Image(systemName: "arrow.right").font(.system(size: 11, weight: .bold)).foregroundColor(causerColor)
             Text(gloss).font(.system(size: 8)).foregroundColor(.secondary)
+        }
+    }
+}
+
+// MARK: - When things happen (とき・まえに・てから・あいだに・ながら)
+
+private struct TimeSequenceDiagram: View {
+    let accent: Color
+    private let refColor = Color(hex: "94A3B8")
+    private let mainColor = Color(hex: "2563EB")
+
+    private struct Row {
+        let jp, gloss: String
+        // Fractions of the track: 0 = earliest, 1 = latest.
+        let refStart, refWidth, mainStart, mainWidth: CGFloat
+    }
+
+    private let rows: [Row] = [
+        Row(jp: "〜まえに",   gloss: "before it happens",
+            refStart: 0.60, refWidth: 0.38, mainStart: 0.04, mainWidth: 0.26),
+        Row(jp: "〜てから",   gloss: "after it finishes",
+            refStart: 0.02, refWidth: 0.38, mainStart: 0.64, mainWidth: 0.30),
+        Row(jp: "〜とき",     gloss: "at that time",
+            refStart: 0.20, refWidth: 0.60, mainStart: 0.38, mainWidth: 0.22),
+        Row(jp: "〜あいだに", gloss: "at some point during",
+            refStart: 0.02, refWidth: 0.96, mainStart: 0.52, mainWidth: 0.17),
+        Row(jp: "〜ながら",   gloss: "both at the same time",
+            refStart: 0.06, refWidth: 0.88, mainStart: 0.06, mainWidth: 0.88),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(alignment: .leading, spacing: 9) {
+                Text("Each pattern pins your action to a different moment.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+
+                // Legend
+                HStack(spacing: 12) {
+                    HStack(spacing: 5) {
+                        Capsule().fill(refColor.opacity(0.35)).frame(width: 18, height: 12)
+                        Text("the 〜 clause").font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                    }
+                    HStack(spacing: 5) {
+                        Capsule().fill(mainColor).frame(width: 18, height: 7)
+                        Text("your action").font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                    }
+                    Spacer(minLength: 0)
+                }
+
+                ForEach(Array(rows.enumerated()), id: \.offset) { _, r in
+                    HStack(spacing: 8) {
+                        VStack(alignment: .leading, spacing: 0) {
+                            Text(r.jp).font(.system(size: 12, weight: .bold)).foregroundColor(.appText)
+                            Text(r.gloss).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        .frame(width: 92, alignment: .leading)
+
+                        GeometryReader { geo in
+                            ZStack(alignment: .leading) {
+                                Capsule().fill(Color.appText.opacity(0.05)).frame(height: 16)
+                                Capsule().fill(refColor.opacity(0.35))
+                                    .frame(width: max(geo.size.width * r.refWidth, 8), height: 16)
+                                    .offset(x: geo.size.width * r.refStart)
+                                Capsule().fill(mainColor)
+                                    .frame(width: max(geo.size.width * r.mainWidth, 8), height: 7)
+                                    .offset(x: geo.size.width * r.mainStart)
+                            }
+                            .frame(height: 16)
+                        }
+                        .frame(height: 16)
+                    }
+                }
+
+                HStack(spacing: 4) {
+                    Spacer(minLength: 0)
+                    Text("time").font(.system(size: 8, weight: .bold)).foregroundColor(.appTextSecondary)
+                    Image(systemName: "arrow.right").font(.system(size: 8, weight: .bold))
+                        .foregroundColor(.appTextSecondary)
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Permission & obligation (てもいい・てはいけない・なくちゃ・なくてもいい)
+
+private struct ObligationDiagram: View {
+    let accent: Color
+    private let okColor = Color(hex: "16A34A")
+    private let noColor = Color(hex: "DC2626")
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 8) {
+                Text("Two questions: are you doing it or not — and is that acceptable?")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                // Column headers
+                HStack(spacing: 7) {
+                    Text("").frame(width: 52)
+                    columnHeader("that's OK", okColor)
+                    columnHeader("that's not OK", noColor)
+                }
+
+                HStack(spacing: 7) {
+                    rowHeader("DO it")
+                    cell("〜てもいい", "you may", okColor)
+                    cell("〜てはいけない", "you must not", noColor)
+                }
+                HStack(spacing: 7) {
+                    rowHeader("DON'T")
+                    cell("〜なくてもいい", "you don't have to", okColor)
+                    cell("〜なくちゃいけない", "you have to", noColor)
+                }
+
+                Text("The right column is the strict one — “not OK to skip it” is exactly how Japanese says “you must.”")
+                    .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top, 2)
+            }
+        }
+    }
+
+    private func columnHeader(_ t: String, _ c: Color) -> some View {
+        Text(t)
+            .font(.system(size: 10, weight: .bold)).foregroundColor(.white)
+            .frame(maxWidth: .infinity).padding(.vertical, 5)
+            .background(RoundedRectangle(cornerRadius: 7).fill(c))
+    }
+
+    private func rowHeader(_ t: String) -> some View {
+        Text(t)
+            .font(.system(size: 10, weight: .bold)).foregroundColor(.appTextSecondary)
+            .frame(width: 52, alignment: .leading)
+    }
+
+    private func cell(_ jp: String, _ en: String, _ c: Color) -> some View {
+        VStack(spacing: 1) {
+            Text(jp).font(.system(size: 12, weight: .bold)).foregroundColor(.appText)
+                .minimumScaleFactor(0.75).lineLimit(1)
+            Text(en).font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                .multilineTextAlignment(.center)
+        }
+        .frame(maxWidth: .infinity).padding(.vertical, 7)
+        .background(RoundedRectangle(cornerRadius: 9).fill(c.opacity(0.11)))
+    }
+}
+
+// MARK: - て + helper verbs
+
+private struct TeHelpersDiagram: View {
+    let accent: Color
+    private struct H { let helper, meaning, example: String; let icon: String; let color: Color }
+    private let items: [H] = [
+        H(helper: "〜ている", meaning: "happening now, or an ongoing state",
+          example: "食[た]べている — is eating", icon: "hourglass", color: Color(hex: "2563EB")),
+        H(helper: "〜てある", meaning: "left prepared — someone did it on purpose",
+          example: "書[か]いてある — it's been written", icon: "checkmark.seal.fill", color: Color(hex: "0D9488")),
+        H(helper: "〜ておく", meaning: "do it ahead of time, in preparation",
+          example: "買[か]っておく — buy it in advance", icon: "shippingbox.fill", color: Color(hex: "D97706")),
+        H(helper: "〜てしまう", meaning: "finish it off — or do it by accident",
+          example: "忘[わす]れてしまった — I went and forgot", icon: "exclamationmark.triangle.fill", color: Color(hex: "DC2626")),
+        H(helper: "〜てみる", meaning: "try it and see how it goes",
+          example: "食[た]べてみる — give it a taste", icon: "eye.fill", color: Color(hex: "7C3AED")),
+        H(helper: "〜ていく・〜てくる", meaning: "heading away from / toward you in space or time",
+          example: "増[ふ]えてきた — it's been increasing", icon: "arrow.left.arrow.right", color: Color(hex: "DB2777")),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(alignment: .leading, spacing: 9) {
+                // The shared stem all of these hang off
+                HStack(spacing: 6) {
+                    // Explicit width keeps FuriganaText from stretching and orphaning the て.
+                    FuriganaText(text: "食[た]べ", fontSize: 13, color: .appText, weight: .bold)
+                        .frame(width: 40)
+                    Text("て")
+                        .font(.system(size: 13, weight: .heavy)).foregroundColor(.white)
+                        .frame(width: 24, height: 24)
+                        .background(Circle().fill(accent))
+                    Image(systemName: "plus").font(.system(size: 9, weight: .bold)).foregroundColor(.appTextSecondary)
+                    Text("a helper verb")
+                        .font(.system(size: 11, weight: .semibold)).foregroundColor(.appTextSecondary)
+                    Spacer(minLength: 0)
+                }
+                .padding(.bottom, 1)
+
+                Text("The て-form is a connector. Whatever you attach to it colors the meaning:")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                ForEach(Array(items.enumerated()), id: \.offset) { _, h in
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: h.icon)
+                            .font(.system(size: 10, weight: .bold)).foregroundColor(.white)
+                            .frame(width: 22, height: 22)
+                            .background(Circle().fill(h.color))
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text(h.helper).font(.system(size: 12, weight: .bold)).foregroundColor(.appText)
+                            Text(h.meaning).font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                            FuriganaText(text: h.example, fontSize: 9, color: h.color)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    .padding(7)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(RoundedRectangle(cornerRadius: 9).fill(h.color.opacity(0.07)))
+                }
+            }
+        }
+    }
+}
+
+// MARK: - Plain vs polite
+
+private struct PlainPoliteDiagram: View {
+    let accent: Color
+    private let plainColor = Color(hex: "7C3AED")
+    private let politeColor = Color(hex: "2563EB")
+    private let rows: [(String, String, String)] = [
+        ("do",       "食[た]べる",         "食[た]べます"),
+        ("don't",    "食[た]べない",       "食[た]べません"),
+        ("did",      "食[た]べた",         "食[た]べました"),
+        ("didn't",   "食[た]べなかった",   "食[た]べませんでした"),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 8) {
+                HStack(spacing: 8) {
+                    Text("").frame(width: 46)
+                    header("plain", "friends, family", plainColor)
+                    header("polite", "everyone else", politeColor)
+                }
+                ForEach(Array(rows.enumerated()), id: \.offset) { _, r in
+                    HStack(spacing: 8) {
+                        Text(r.0)
+                            .font(.system(size: 10, weight: .bold)).foregroundColor(.appTextSecondary)
+                            .frame(width: 46, alignment: .leading)
+                        cell(r.1, plainColor)
+                        cell(r.2, politeColor)
+                    }
+                }
+                Text("Same four meanings, two registers. Only the very end of the verb changes — so learn one column and you can convert.")
+                    .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top, 2)
+            }
+        }
+    }
+
+    private func header(_ t: String, _ sub: String, _ c: Color) -> some View {
+        VStack(spacing: 0) {
+            Text(t).font(.system(size: 12, weight: .bold)).foregroundColor(.white)
+            Text(sub).font(.system(size: 8)).foregroundColor(.white.opacity(0.85))
+        }
+        .frame(maxWidth: .infinity).padding(.vertical, 5)
+        .background(RoundedRectangle(cornerRadius: 8).fill(c))
+    }
+
+    private func cell(_ t: String, _ c: Color) -> some View {
+        FuriganaText(text: t, fontSize: 11, color: .appText, weight: .medium, alignment: .center)
+            .frame(maxWidth: .infinity).padding(.vertical, 6)
+            .background(RoundedRectangle(cornerRadius: 8).fill(c.opacity(0.10)))
+    }
+}
+
+// MARK: - Dates
+
+private struct DatesDiagram: View {
+    let accent: Color
+    private let dayColor = Color(hex: "DC2626")
+    private let monthColor = Color(hex: "2563EB")
+
+    private let days: [(String, String)] = [
+        ("1日", "ついたち"), ("2日", "ふつか"), ("3日", "みっか"), ("4日", "よっか"), ("5日", "いつか"),
+        ("6日", "むいか"), ("7日", "なのか"), ("8日", "ようか"), ("9日", "ここのか"), ("10日", "とおか"),
+    ]
+    private let strays: [(String, String)] = [
+        ("14日", "じゅうよっか"), ("20日", "はつか"), ("24日", "にじゅうよっか"),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(alignment: .leading, spacing: 9) {
+                // Months first — the easy half
+                HStack(spacing: 6) {
+                    Text("MONTHS").font(.system(size: 9, weight: .bold)).foregroundColor(monthColor)
+                    FuriganaText(text: "number + 月[がつ]", fontSize: 11, color: .appText, weight: .semibold)
+                    Spacer(minLength: 0)
+                }
+                HStack(spacing: 5) {
+                    ForEach(["4月 しがつ", "7月 しちがつ", "9月 くがつ"], id: \.self) { m in
+                        Text(m)
+                            .font(.system(size: 10, weight: .semibold)).foregroundColor(.appText)
+                            .frame(maxWidth: .infinity).padding(.vertical, 5)
+                            .background(RoundedRectangle(cornerRadius: 7).fill(monthColor.opacity(0.13)))
+                    }
+                }
+                Text("Only those three break the pattern — never よんがつ, ななつがつ or きゅうがつ.")
+                    .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+
+                Divider().padding(.vertical, 1)
+
+                // Days — the hard half
+                HStack(spacing: 6) {
+                    Text("DAYS 1–10").font(.system(size: 9, weight: .bold)).foregroundColor(dayColor)
+                    Text("every one is irregular — memorize them")
+                        .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                    Spacer(minLength: 0)
+                }
+                LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 5), count: 5), spacing: 5) {
+                    ForEach(Array(days.enumerated()), id: \.offset) { _, d in
+                        VStack(spacing: 1) {
+                            Text(d.0).font(.system(size: 12, weight: .bold)).foregroundColor(.appText)
+                            Text(d.1).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+                                .minimumScaleFactor(0.7).lineLimit(1)
+                        }
+                        .frame(maxWidth: .infinity).padding(.vertical, 6)
+                        .background(RoundedRectangle(cornerRadius: 8).fill(dayColor.opacity(0.10)))
+                    }
+                }
+
+                Text("From 11 on it's just the number + にち — except these three:")
+                    .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                HStack(spacing: 5) {
+                    ForEach(Array(strays.enumerated()), id: \.offset) { _, d in
+                        VStack(spacing: 1) {
+                            Text(d.0).font(.system(size: 12, weight: .bold)).foregroundColor(.appText)
+                            Text(d.1).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+                                .minimumScaleFactor(0.7).lineLimit(1)
+                        }
+                        .frame(maxWidth: .infinity).padding(.vertical, 6)
+                        .background(RoundedRectangle(cornerRadius: 8).fill(dayColor.opacity(0.10)))
+                        .overlay(RoundedRectangle(cornerRadius: 8).strokeBorder(dayColor.opacity(0.45), lineWidth: 1))
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MARK: - ある vs いる
+
+private struct AruIruDiagram: View {
+    let accent: Color
+    private let iruColor = Color(hex: "16A34A")
+    private let aruColor = Color(hex: "D97706")
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 9) {
+                Text("Both mean “there is” — the split is whether it decides to move on its own.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                HStack(alignment: .top, spacing: 8) {
+                    side(word: "いる", rule: "moves under its own will",
+                         icons: ["person.fill", "dog.fill", "bird.fill", "ant.fill"],
+                         examples: "people ・ animals ・ insects ・ fish",
+                         negative: "いない", color: iruColor)
+                    side(word: "ある", rule: "doesn't decide anything",
+                         icons: ["book.closed.fill", "leaf.fill", "building.2.fill", "calendar"],
+                         examples: "objects ・ plants ・ buildings ・ events",
+                         negative: "ない", color: aruColor)
+                }
+
+                VStack(alignment: .leading, spacing: 3) {
+                    FuriganaText(text: "⚠︎ 車[くるま]・電車[でんしゃ] and other vehicles take ある — they move, but they don't choose to.",
+                                 fontSize: 10, color: .appTextSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text("Watch the negatives: ある becomes ない, not あらない.")
+                        .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+        }
+    }
+
+    private func side(word: String, rule: String, icons: [String], examples: String,
+                      negative: String, color: Color) -> some View {
+        VStack(spacing: 6) {
+            Text(word)
+                .font(.system(size: 17, weight: .heavy)).foregroundColor(.white)
+                .frame(maxWidth: .infinity).padding(.vertical, 6)
+                .background(RoundedRectangle(cornerRadius: 9).fill(color))
+            Text(rule)
+                .font(.system(size: 9, weight: .semibold)).foregroundColor(color)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+            HStack(spacing: 7) {
+                ForEach(icons, id: \.self) { i in
+                    Image(systemName: i).font(.system(size: 13)).foregroundColor(color)
+                }
+            }
+            Text(examples)
+                .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+            Text("neg. \(negative)")
+                .font(.system(size: 9, weight: .bold)).foregroundColor(color)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(8)
+        .background(RoundedRectangle(cornerRadius: 11).fill(color.opacity(0.09)))
+    }
+}
+
+// MARK: - ね vs よ
+
+private struct NeYoDiagram: View {
+    let accent: Color
+    private let neColor = Color(hex: "0D9488")
+    private let yoColor = Color(hex: "DC2626")
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 11) {
+                Text("Both go on the end of a sentence — they aim it in opposite directions.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                scene(particle: "よ", headline: "I know this, you don't",
+                      caption: "Pushes new information across. Can sound pushy if you overuse it.",
+                      example: "雨[あめ]ですよ — heads up, it's raining",
+                      direction: .right, color: yoColor)
+
+                scene(particle: "ね", headline: "we both know this",
+                      caption: "Reaches for agreement. The everyday softener in Japanese conversation.",
+                      example: "いい天気[てんき]ですね — lovely weather, isn't it",
+                      direction: .left, color: neColor)
+            }
+        }
+    }
+
+    private func scene(particle: String, headline: String, caption: String, example: String,
+                       direction: FlowArrow.Direction, color: Color) -> some View {
+        VStack(spacing: 5) {
+            HStack(spacing: 8) {
+                person(icon: "person.fill", label: "you", color: color)
+                VStack(spacing: 2) {
+                    Text(particle)
+                        .font(.system(size: 15, weight: .heavy)).foregroundColor(color)
+                    FlowArrow(direction: direction, color: color)
+                    Text(headline)
+                        .font(.system(size: 9, weight: .semibold)).foregroundColor(.appTextSecondary)
+                }
+                person(icon: "person.2.fill", label: "them", color: color.opacity(0.55))
+            }
+            FuriganaText(text: example, fontSize: 10, color: .appTextSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+            Text(caption)
+                .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                .fixedSize(horizontal: false, vertical: true)
+                .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .padding(9)
+        .background(RoundedRectangle(cornerRadius: 11).fill(color.opacity(0.08)))
+    }
+
+    private func person(icon: String, label: String, color: Color) -> some View {
+        VStack(spacing: 2) {
+            Image(systemName: icon)
+                .font(.system(size: 12, weight: .bold)).foregroundColor(.white)
+                .frame(width: 30, height: 30)
+                .background(Circle().fill(color))
+            Text(label).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+        }
+    }
+}
+
+// MARK: - Question words + か / も
+
+private struct QuestionWordsDiagram: View {
+    let accent: Color
+    private let baseColor = Color(hex: "64748B")
+    private let kaColor = Color(hex: "2563EB")
+    private let moColor = Color(hex: "DC2626")
+
+    private let rows: [(String, String, String, String)] = [
+        ("何[なに]",  "what",  "何[なに]か・something",  "何[なに]も・nothing"),
+        ("誰[だれ]",  "who",   "誰[だれ]か・someone",    "誰[だれ]も・no one"),
+        ("どこ",      "where", "どこか・somewhere",      "どこも・nowhere"),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 8) {
+                Text("Take a question word and bolt a particle on — you get its “some” and “no” versions for free.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                HStack(spacing: 7) {
+                    Text("").frame(width: 52)
+                    header("+ か", "some‑", kaColor)
+                    header("+ も + neg.", "no‑", moColor)
+                }
+
+                ForEach(Array(rows.enumerated()), id: \.offset) { _, r in
+                    HStack(spacing: 7) {
+                        VStack(alignment: .leading, spacing: 0) {
+                            FuriganaText(text: r.0, fontSize: 12, color: .appText, weight: .bold)
+                            Text(r.1).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+                        }
+                        .frame(width: 52, alignment: .leading)
+                        cell(r.2, kaColor)
+                        cell(r.3, moColor)
+                    }
+                }
+
+                FuriganaText(text: "The も column needs a negative verb — 誰[だれ]も来[こ]なかった, “nobody came.”",
+                             fontSize: 10, color: .appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                HStack(alignment: .top, spacing: 6) {
+                    Image(systemName: "exclamationmark.triangle.fill")
+                        .font(.system(size: 10)).foregroundColor(Color(hex: "D97706"))
+                    FuriganaText(text: "いつ works too — いつか is “someday” — but いつも means “always,” not “never.”",
+                                 fontSize: 10, color: .appTextSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Spacer(minLength: 0)
+                }
+                .padding(7)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 8).fill(Color(hex: "D97706").opacity(0.10)))
+            }
+        }
+    }
+
+    private func header(_ t: String, _ sub: String, _ c: Color) -> some View {
+        VStack(spacing: 0) {
+            Text(t).font(.system(size: 12, weight: .bold)).foregroundColor(.white)
+            Text(sub).font(.system(size: 8)).foregroundColor(.white.opacity(0.85))
+        }
+        .frame(maxWidth: .infinity).padding(.vertical, 4)
+        .background(RoundedRectangle(cornerRadius: 7).fill(c))
+    }
+
+    private func cell(_ t: String, _ c: Color) -> some View {
+        let parts = t.components(separatedBy: "・")
+        return VStack(spacing: 0) {
+            FuriganaText(text: parts.first ?? t, fontSize: 12, color: .appText,
+                         weight: .semibold, alignment: .center)
+            Text(parts.count > 1 ? parts[1] : "")
+                .font(.system(size: 8)).foregroundColor(.appTextSecondary)
+        }
+        .frame(maxWidth: .infinity).padding(.vertical, 5)
+        .background(RoundedRectangle(cornerRadius: 8).fill(c.opacity(0.11)))
+    }
+}
+
+// MARK: - Listing things (と vs や)
+
+private struct ListingDiagram: View {
+    let accent: Color
+    private let toColor = Color(hex: "2563EB")
+    private let yaColor = Color(hex: "D97706")
+
+    var body: some View {
+        diagramPanel {
+            VStack(spacing: 9) {
+                Text("Same three things in the bag — the particle says whether that's the whole bag.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                HStack(alignment: .top, spacing: 8) {
+                    bag(particle: "と", headline: "the complete list",
+                        caption: "Exactly these, nothing else.",
+                        showsMore: false, color: toColor)
+                    bag(particle: "や", headline: "a few examples",
+                        caption: "These and others like them.",
+                        showsMore: true, color: yaColor)
+                }
+
+                FuriganaText(text: "パンと卵[たまご]を買[か]った — I bought bread and eggs (that's all).",
+                             fontSize: 10, color: toColor)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                FuriganaText(text: "パンや卵[たまご]を買[か]った — I bought bread, eggs, that sort of thing.",
+                             fontSize: 10, color: yaColor)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Text("や often finishes with など to make the “and so on” explicit.")
+                    .font(.system(size: 10)).foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+        }
+    }
+
+    private func bag(particle: String, headline: String, caption: String,
+                     showsMore: Bool, color: Color) -> some View {
+        VStack(spacing: 6) {
+            Text(particle)
+                .font(.system(size: 20, weight: .heavy)).foregroundColor(.white)
+                .frame(maxWidth: .infinity).padding(.vertical, 4)
+                .background(RoundedRectangle(cornerRadius: 9).fill(color))
+            Text(headline)
+                .font(.system(size: 10, weight: .bold)).foregroundColor(color)
+
+            HStack(spacing: 4) {
+                ForEach(["A", "B", "C"], id: \.self) { t in
+                    Text(t)
+                        .font(.system(size: 10, weight: .bold)).foregroundColor(.white)
+                        .frame(width: 20, height: 20)
+                        .background(Circle().fill(color))
+                }
+                if showsMore {
+                    ForEach(0..<2, id: \.self) { _ in
+                        Circle().strokeBorder(color.opacity(0.5), style: StrokeStyle(lineWidth: 1, dash: [2, 2]))
+                            .frame(width: 20, height: 20)
+                    }
+                }
+            }
+
+            Text(caption)
+                .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(8)
+        .background(RoundedRectangle(cornerRadius: 11).fill(color.opacity(0.09)))
+    }
+}
+
+// MARK: - Just about to / just did (ところ・たばかり)
+
+private struct JustDidDiagram: View {
+    let accent: Color
+    private let color = Color(hex: "7C3AED")
+    private let stages: [(String, String, String)] = [
+        ("〜るところ",     "about to",       "hasn't started"),
+        ("〜ているところ", "right now",      "in the middle"),
+        ("〜たところ",     "just finished",  "seconds ago"),
+    ]
+
+    var body: some View {
+        diagramPanel {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("ところ marks exactly where you are in an action.")
+                    .font(.system(size: 11)).foregroundColor(.appTextSecondary)
+
+                // The action bar the three stages point at
+                HStack(spacing: 0) {
+                    Capsule().fill(color.opacity(0.22)).frame(height: 14)
+                }
+                .overlay(alignment: .center) {
+                    Text("the action").font(.system(size: 9, weight: .semibold)).foregroundColor(color)
+                }
+
+                HStack(alignment: .top, spacing: 6) {
+                    ForEach(Array(stages.enumerated()), id: \.offset) { i, s in
+                        VStack(spacing: 3) {
+                            Image(systemName: i == 0 ? "arrow.down.to.line" : (i == 1 ? "hourglass" : "checkmark"))
+                                .font(.system(size: 10, weight: .bold)).foregroundColor(.white)
+                                .frame(width: 22, height: 22)
+                                .background(Circle().fill(color.opacity(0.55 + 0.15 * Double(i))))
+                            Text(s.0).font(.system(size: 10, weight: .bold)).foregroundColor(.appText)
+                                .minimumScaleFactor(0.75).lineLimit(1)
+                            Text(s.1).font(.system(size: 9, weight: .semibold)).foregroundColor(color)
+                            Text(s.2).font(.system(size: 8)).foregroundColor(.appTextSecondary)
+                                .multilineTextAlignment(.center)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 7)
+                        .background(RoundedRectangle(cornerRadius: 9).fill(color.opacity(0.08)))
+                    }
+                }
+
+                Divider()
+
+                HStack(alignment: .top, spacing: 8) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("〜たところ").font(.system(size: 11, weight: .bold)).foregroundColor(.appText)
+                        Text("clock time — it genuinely just ended")
+                            .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("〜たばかり").font(.system(size: 11, weight: .bold)).foregroundColor(.appText)
+                        Text("felt time — “only just,” even months later")
+                            .font(.system(size: 9)).foregroundColor(.appTextSecondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+
+                FuriganaText(text: "去年[きょねん]日本[にほん]に来[き]たばかりです is fine; 来[き]たところ would not be.",
+                             fontSize: 10, color: .appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
         }
     }
 }

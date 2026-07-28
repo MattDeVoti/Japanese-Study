@@ -288,6 +288,16 @@ class CardStore: ObservableObject {
         persist()
     }
 
+    /// Undo one "Confident" tally (used by the flashcard back button). Floors at 0.
+    func decrementConfident(cardId: String) {
+        guard let c = data.confidentCounts[cardId], c > 0 else { return }
+        let n = c - 1
+        if n == 0 { data.confidentCounts.removeValue(forKey: cardId) }
+        else { data.confidentCounts[cardId] = n }
+        mutateCard(cardId, kanji: { $0.confidentCount = n }, grammar: { $0.confidentCount = n })
+        persist()
+    }
+
     // MARK: - Flashcard exclusion (green checkmark)
 
     func isKanjiExcluded(_ cardId: String) -> Bool { excludedKanjiIds.contains(cardId) }

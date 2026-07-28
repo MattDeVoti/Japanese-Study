@@ -25,17 +25,16 @@ struct HomeView: View {
 
                 Spacer().frame(height: 40)
 
-                // Main navigation — signature gradient tiles, two per row
-                LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
-                                    GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                // Main navigation — the signature gradient tiles, stacked full-width.
+                // (Journey is intentionally not surfaced here for now; JourneyView
+                // and its progress store are untouched.)
+                VStack(spacing: 12) {
                     HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
                                 icon: "brain.head.profile", color: Color(hex: "2563EB")) { GrammarMenuView() }
                     HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
                                 icon: "books.vertical.fill", color: Color(hex: "DC2626")) { LessonsView() }
                     HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
                                 icon: "magnifyingglass", color: Color(hex: "7C3AED")) { DictionaryView() }
-                    HomeNavTile(label: "Journey", subtitle: "Guided path", glyph: "道",
-                                icon: "figure.walk", color: Color(hex: "0D9488")) { JourneyView() }
                 }
                 .padding(.horizontal, 24)
 
@@ -348,7 +347,11 @@ private struct HomeNavTile<Destination: View>: View {
         NavigationLink {
             destination()
         } label: {
-            AestheticTile(title: label, subtitle: subtitle, glyph: glyph, icon: icon, color: color)
+            // aspect: nil frees the tile from its square ratio; the fixed height
+            // gives the wide version without changing anything else about it.
+            AestheticTile(title: label, subtitle: subtitle, glyph: glyph,
+                          icon: icon, color: color, aspect: nil)
+                .frame(height: 112)
         }
         .buttonStyle(.plain)
     }

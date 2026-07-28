@@ -366,6 +366,52 @@ struct SectionHeading: View {
     }
 }
 
+/// The flashcard reveal button: flat accent ring over a barely-there tint, with a
+/// concentric hairline for a little structure. No gradient, no shadow — it should
+/// read as drawn, not as an object sitting on the page.
+/// Shared by the kanji and vocab decks so the two can never drift apart.
+struct CheckButton: View {
+    let action: () -> Void
+    var diameter: CGFloat = 92
+
+    @EnvironmentObject private var themeManager: ThemeManager
+    @State private var isPressed = false
+
+    var body: some View {
+        // Read through the environment object so the button re-renders on theme change.
+        _ = themeManager.current
+        // The interior is only lightly tinted, so the label effectively sits on the
+        // page background — measure legibility against that, not against the fill.
+        let accent = Color.readableOnBackground(.appAccent)
+
+        return Button(action: action) {
+            Text("Check")
+                .font(.system(size: 16, weight: .bold))
+                .tracking(0.4)
+                .foregroundColor(accent)
+                .frame(width: diameter, height: diameter)
+                .background(Circle().fill(accent.opacity(isPressed ? 0.18 : 0.08)))
+                .overlay(Circle().strokeBorder(accent, lineWidth: 2))
+                // Concentric hairline — the one flourish, and it stays flat.
+                .overlay(
+                    Circle()
+                        .strokeBorder(accent.opacity(0.28), lineWidth: 1)
+                        .padding(5)
+                )
+                .scaleEffect(isPressed ? 0.96 : 1)
+        }
+        .buttonStyle(.plain)
+        .animation(.easeOut(duration: 0.14), value: isPressed)
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 0)
+                .onChanged { _ in isPressed = true }
+                .onEnded { _ in isPressed = false }
+        )
+        .accessibilityLabel("Check")
+        .accessibilityHint("Reveals the answer")
+    }
+}
+
 /// The app's signature tile: gradient fill, oversized translucent glyph bleeding
 /// off the bottom-right, a frosted icon, and a title/subtitle stack.
 /// `aspect` of 1 gives the square Study-menu tile; pass nil for a flexible row.
