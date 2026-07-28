@@ -28,14 +28,14 @@ struct HomeView: View {
                 // Main navigation — signature gradient tiles, two per row
                 LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
                                     GridItem(.flexible(), spacing: 12)], spacing: 12) {
-                    HomeNavTile(label: "Journey", subtitle: "Guided path", glyph: "道",
-                                icon: "figure.walk", color: Color(hex: "E0574F")) { JourneyView() }
-                    HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                icon: "books.vertical.fill", color: Color(hex: "2563EB")) { LessonsView() }
                     HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                icon: "brain.head.profile", color: Color(hex: "0D9488")) { GrammarMenuView() }
+                                icon: "brain.head.profile", color: Color(hex: "2563EB")) { GrammarMenuView() }
+                    HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
+                                icon: "books.vertical.fill", color: Color(hex: "DC2626")) { LessonsView() }
                     HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
                                 icon: "magnifyingglass", color: Color(hex: "7C3AED")) { DictionaryView() }
+                    HomeNavTile(label: "Journey", subtitle: "Guided path", glyph: "道",
+                                icon: "figure.walk", color: Color(hex: "0D9488")) { JourneyView() }
                 }
                 .padding(.horizontal, 24)
 

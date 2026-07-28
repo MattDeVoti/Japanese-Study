@@ -215,7 +215,7 @@ struct KanjiExcludeCell: View {
             } label: {
                 Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
                     .font(.system(size: 15))
-                    .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .green : Color.secondary.opacity(0.45))
+                    .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .kanjiColor : Color.secondary.opacity(0.45))
                     .padding(3)
                     .background(Circle().fill(Color.appSurface))
             }
@@ -326,12 +326,12 @@ struct GrammarPointCard: View {
                 } label: {
                     ZStack {
                         Circle()
-                            .stroke(isCompleted ? Color.green : Color.secondary.opacity(0.4), lineWidth: 1.5)
+                            .stroke(isCompleted ? Color.grammarColor : Color.secondary.opacity(0.4), lineWidth: 1.5)
                             .frame(width: 22, height: 22)
                         if isCompleted {
                             Image(systemName: "checkmark")
                                 .font(.system(size: 11, weight: .bold))
-                                .foregroundColor(.green)
+                                .foregroundColor(.grammarColor)
                         }
                     }
                 }
@@ -531,7 +531,7 @@ struct VocabWordRow: View {
             } label: {
                 Image(systemName: vocabFilter.isExcluded(word.id) ? "checkmark.circle.fill" : "checkmark.circle")
                     .font(.system(size: 20))
-                    .foregroundColor(vocabFilter.isExcluded(word.id) ? .green : Color.secondary.opacity(0.4))
+                    .foregroundColor(vocabFilter.isExcluded(word.id) ? .vocabColor : Color.secondary.opacity(0.4))
             }
             .buttonStyle(.plain)
         }

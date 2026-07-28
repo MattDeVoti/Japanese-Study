@@ -259,14 +259,15 @@ struct LevelView: View {
 private struct ChapterRow: View {
     let summary: ChapterSummary
     @ObservedObject private var store = LessonsProgressStore.shared
+    // Observed so the badges update the moment a checkmark is toggled anywhere.
+    @ObservedObject private var vocabFilter = VocabFlashcardsFilter.shared
+    @EnvironmentObject private var cardStore: CardStore
 
     private var isKana: Bool { summary.chapterType == "kana" }
-    // Point ids read live from the chapter file — the single source of truth for
-    // both the total and which completions still count (no hardcoded totals).
-    private var pointIds: [String] { LessonsService.shared.pointIds(for: summary.id) }
+    private var progress: ChapterProgress {
+        ChapterProgress.of(chapterId: summary.id, cardStore: cardStore)
+    }
     private var pointCount: Int { LessonsService.shared.pointCount(for: summary.id) }
-    private var completedCount: Int { store.completedCount(chapterId: summary.id, among: pointIds) }
-    private var allDone: Bool { pointCount > 0 && completedCount == pointCount }
 
     private var rowLabel: String {
         isKana ? "Lesson \(summary.chapterNumber)" : "Chapter \(summary.chapterNumber)"
@@ -291,19 +292,25 @@ private struct ChapterRow: View {
                     .foregroundColor(.appTextSecondary)
             }
 
-            Spacer()
+            Spacer(minLength: 8)
 
-            if allDone {
-                Image(systemName: "checkmark.circle.fill")
-                    .font(.system(size: 20))
-                    .foregroundColor(.green)
-                    .padding(.trailing, 4)
-            } else if completedCount > 0 {
-                Text("\(completedCount)/\(pointCount)")
-                    .font(.system(size: 13, weight: .medium))
-                    .foregroundColor(.appTextSecondary)
-                    .padding(.trailing, 4)
+            // One badge per category the chapter actually has
+            let p = progress
+            HStack(alignment: .bottom, spacing: 6) {
+                if p.grammarTotal > 0 {
+                    ProgressBadge(label: isKana ? "Kana" : "Grammar",
+                                  done: p.grammarDone, total: p.grammarTotal, color: .grammarColor)
+                }
+                if p.vocabTotal > 0 {
+                    ProgressBadge(label: "Vocab",
+                                  done: p.vocabDone, total: p.vocabTotal, color: .vocabColor)
+                }
+                if p.kanjiTotal > 0 {
+                    ProgressBadge(label: "Kanji",
+                                  done: p.kanjiDone, total: p.kanjiTotal, color: .kanjiColor)
+                }
             }
+            .padding(.trailing, 2)
         }
         .padding(.vertical, 6)
     }

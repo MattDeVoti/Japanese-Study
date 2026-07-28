@@ -57,12 +57,12 @@ struct KanaCharacterCard: View {
                         } label: {
                             ZStack {
                                 Circle()
-                                    .stroke(isCompleted ? Color.green : Color.secondary.opacity(0.4), lineWidth: 1.5)
+                                    .stroke(isCompleted ? Color.grammarColor : Color.secondary.opacity(0.4), lineWidth: 1.5)
                                     .frame(width: 22, height: 22)
                                 if isCompleted {
                                     Image(systemName: "checkmark")
                                         .font(.system(size: 11, weight: .bold))
-                                        .foregroundColor(.green)
+                                        .foregroundColor(.grammarColor)
                                 }
                             }
                         }

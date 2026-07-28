@@ -86,7 +86,10 @@ extension Color {
     static let hiraganaColor = Color(hex: "DB2777")   // pink
     static let katakanaColor = Color(hex: "7C3AED")   // violet
 
-    // Flashcard-deck accent colors
+    // Flashcard-deck / lesson-category accent colors. These three identify the
+    // grammar / vocab / kanji categories everywhere: the checkmarks inside a
+    // lesson and the progress badges on its row.
+    static let grammarColor = Color(hex: "16A34A")    // green
     static let kanjiColor = Color(hex: "1D4ED8")      // blue
     static let vocabColor = Color(hex: "0D9488")      // teal
 
@@ -438,6 +441,75 @@ private struct OptionalAspect: ViewModifier {
     @ViewBuilder
     func body(content: Content) -> some View {
         if let aspect { content.aspectRatio(aspect, contentMode: .fit) } else { content }
+    }
+}
+
+// MARK: - Lesson progress
+
+/// How much of a lesson's grammar / vocab / kanji has been checked off.
+/// Grammar uses the per-point completion circles; vocab and kanji use their
+/// green "checked off" marks (the same ones that retire a card from the decks).
+struct ChapterProgress {
+    var grammarDone = 0, grammarTotal = 0
+    var vocabDone = 0,  vocabTotal = 0
+    var kanjiDone = 0,  kanjiTotal = 0
+
+    static func of(chapterId: String, cardStore: CardStore) -> ChapterProgress {
+        var p = ChapterProgress()
+
+        let pointIds = LessonsService.shared.pointIds(for: chapterId)
+        p.grammarTotal = LessonsService.shared.pointCount(for: chapterId)
+        p.grammarDone = LessonsProgressStore.shared.completedCount(chapterId: chapterId, among: pointIds)
+
+        guard let chapter = LessonsService.shared.loadChapter(chapterId) else { return p }
+
+        let words = chapter.vocab ?? []
+        p.vocabTotal = words.count
+        p.vocabDone = words.filter { VocabFlashcardsFilter.shared.isExcluded($0.id) }.count
+
+        let kanjiCards = (chapter.kanji ?? []).compactMap { cardStore.kanjiCard(for: $0) }
+        p.kanjiTotal = kanjiCards.count
+        p.kanjiDone = kanjiCards.filter { cardStore.isKanjiExcluded($0.id) }.count
+
+        return p
+    }
+}
+
+/// One category's progress: a small label over a filled check when finished,
+/// otherwise `done/total`.
+struct ProgressBadge: View {
+    let label: String
+    let done: Int
+    let total: Int
+    let color: Color
+
+    var body: some View {
+        // Nudged if needed so the tint stays legible on every theme background.
+        let tint = Color.readableOnBackground(color)
+        VStack(spacing: 3) {
+            Text(label.uppercased())
+                .font(.system(size: 8, weight: .bold))
+                .tracking(0.3)
+                .foregroundColor(tint.opacity(0.9))
+
+            Group {
+                if total > 0 && done == total {
+                    Image(systemName: "checkmark")
+                        .font(.system(size: 10, weight: .black))
+                } else {
+                    Text("\(done)/\(total)")
+                        .font(.system(size: 11, weight: .bold))
+                        .monospacedDigit()
+                }
+            }
+            .foregroundColor(tint)
+            .padding(.horizontal, 7)
+            .padding(.vertical, 4)
+            .frame(minWidth: 34)
+            .background(Capsule().fill(color.opacity(0.16)))
+            .overlay(Capsule().strokeBorder(color.opacity(0.45), lineWidth: 1))
+        }
+        .fixedSize()
     }
 }
 
