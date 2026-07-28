@@ -13,11 +13,13 @@ struct HomeView: View {
                 Spacer()
 
                 // App title (Japanese + romaji)
-                VStack(spacing: 6) {
+                VStack(spacing: 4) {
                     GlowingTitle { showGame = true }
-                    Text("Omedetou")
-                        .font(.system(size: 26, weight: .medium))
-                        .foregroundColor(.appAccent)
+                    Text("OMEDETOU")
+                        .font(.system(size: 15, weight: .heavy))
+                        .tracking(6)
+                        .foregroundStyle(LinearGradient.appAccentSweep)
+                        .opacity(0.85)
                 }
                 .frame(maxWidth: .infinity)
 

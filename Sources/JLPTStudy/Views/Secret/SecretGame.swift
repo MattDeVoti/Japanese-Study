@@ -25,11 +25,18 @@ struct GlowingTitle: View {
         HStack(spacing: 2) {
             ForEach(letters.indices, id: \.self) { i in
                 Text(letters[i])
-                    .font(.system(size: 60, weight: .bold))
-                    .foregroundColor(.appAccent)
-                    .brightness(Double(glow[i]) * 0.25)
-                    .shadow(color: .appAccent.opacity(Double(glow[i])), radius: glow[i] * 18)
-                    .shadow(color: .white.opacity(Double(glow[i]) * 0.6), radius: glow[i] * 5)
+                    .font(.system(size: 62, weight: .heavy))
+                    // Each letter takes its slice of one gradient, so the sweep
+                    // runs across the whole word.
+                    .foregroundColor(Color.appAccentSweepSample(
+                        Double(i) / Double(max(letters.count - 1, 1))))
+                    // Resting glow keeps the type feeling lit; the sweep below
+                    // lifts each letter in turn.
+                    .shadow(color: Color.appAccent.opacity(0.28), radius: 12, y: 4)
+                    .brightness(Double(glow[i]) * 0.30)
+                    .shadow(color: Color.appAccent.opacity(Double(glow[i]) * 0.95), radius: glow[i] * 20)
+                    .shadow(color: .white.opacity(Double(glow[i]) * 0.55), radius: glow[i] * 6)
+                    .scaleEffect(1 + glow[i] * 0.06)
                     .contentShape(Rectangle())
                     .onTapGesture { registerTap(i) }
             }
@@ -47,9 +54,10 @@ struct GlowingTitle: View {
         for (step, idx) in secretOrder.enumerated() {
             let start = Double(step) * 0.38
             DispatchQueue.main.asyncAfter(deadline: .now() + start) {
-                withAnimation(.easeInOut(duration: 0.35)) { glow[idx] = 1 }
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
-                    withAnimation(.easeInOut(duration: 0.5)) { glow[idx] = 0 }
+                // Springy rise so the letter pops, then a soft fade back down.
+                withAnimation(.spring(response: 0.34, dampingFraction: 0.55)) { glow[idx] = 1 }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.34) {
+                    withAnimation(.easeOut(duration: 0.55)) { glow[idx] = 0 }
                 }
             }
         }

@@ -65,6 +65,18 @@ extension Color {
         readable(accent, on: _currentAppTheme.background)
     }
 
+    /// A colour sampled along the accent sweep (t: 0 = start … 1 = end). Lets a
+    /// row of separate views share one gradient across the whole row, which a
+    /// per-view `LinearGradient` can't do (each view resolves it in its own bounds).
+    static func appAccentSweepSample(_ t: Double) -> Color {
+        let base = appAccent
+        let onDark = relativeLuminance(_currentAppTheme.background) < 0.45
+        let far = onDark ? base.lightened(0.42) : base.darkened(0.34)
+        let clamped = min(max(t, 0), 1)
+        return onDark ? far.blended(toward: base, amount: clamped)
+                      : base.blended(toward: far, amount: clamped)
+    }
+
     /// Secondary text derived from the THEME's text colour (not the device
     /// appearance), so it stays legible on saturated theme backgrounds where
     /// SwiftUI's `.secondary` can wash out.
@@ -201,6 +213,17 @@ extension Color {
 }
 
 extension LinearGradient {
+    /// Accent sweep for display type. Both stops move *away* from the page
+    /// background's luminance (lighter on dark themes, darker on light ones), so
+    /// the gradient is never less legible than `appAccent` itself.
+    static var appAccentSweep: LinearGradient {
+        let base = Color.appAccent
+        let onDark = Color.relativeLuminance(_currentAppTheme.background) < 0.45
+        let far = onDark ? base.lightened(0.42) : base.darkened(0.34)
+        return LinearGradient(colors: onDark ? [far, base] : [base, far],
+                              startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+
     /// Gentle vertical sheen for the nav bar, derived from the theme nav color.
     static var appNavBar: LinearGradient {
         let n = _currentAppTheme.navBar
