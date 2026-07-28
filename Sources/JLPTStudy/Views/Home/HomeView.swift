@@ -2,35 +2,69 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject private var themeManager: ThemeManager
+    // Observed so the locked "???" tile flips to Games the moment one is found.
+    @ObservedObject private var unlocks = GameUnlocks.shared
     @State private var showOptions = false
     @State private var showGame = false
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 Spacer()
 
                 // App title (Japanese + romaji)
-                VStack(spacing: 6) {
-                    GlowingTitle { showGame = true }
-                    Text("Omedetou")
-                        .font(.system(size: 26, weight: .medium))
-                        .foregroundColor(.appAccent)
+                VStack(spacing: 4) {
+                    GlowingTitle {
+                        GameUnlocks.shared.unlock(.kanjiInvaders)
+                        showGame = true
+                    }
+                    Text("OMEDETOU")
+                        .font(.system(size: 15, weight: .heavy))
+                        .tracking(6)
+                        .foregroundStyle(LinearGradient.appAccentSweep)
+                        .opacity(0.85)
                 }
                 .frame(maxWidth: .infinity)
 
-                Spacer().frame(height: 64)
+                Spacer().frame(height: 40)
 
-                // Main navigation buttons
-                VStack(spacing: 4) {
-                    HomeNavButton(label: "Journey")    { JourneyView() }
-                    HomeNavButton(label: "Textbook")   { LessonsView() }
-                    HomeNavButton(label: "Study")      { GrammarMenuView() }
-                    HomeNavButton(label: "Dictionary") { DictionaryView() }
+                // Main navigation — the signature gradient tiles, stacked full-width.
+                // (Journey is intentionally not surfaced here for now; JourneyView
+                // and its progress store are untouched.)
+                // Three full-width slabs normally. Finding a game adds a fourth
+                // destination, and the whole stack becomes a 2×2 grid of squares
+                // to make room — the new layout is itself part of the reward.
+                Group {
+                    if unlocks.hasAny {
+                        LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
+                                            GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                            HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
+                                        icon: "books.vertical.fill", color: Color(hex: "DC2626"),
+                                        square: true) { LessonsView() }
+                            HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
+                                        icon: "brain.head.profile", color: Color(hex: "2563EB"),
+                                        square: true) { GrammarMenuView() }
+                            HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
+                                        icon: "magnifyingglass", color: Color(hex: "7C3AED"),
+                                        square: true) { DictionaryView() }
+                            HomeNavTile(label: "Games", subtitle: "Secrets you've found", glyph: "遊",
+                                        icon: "gamecontroller.fill", color: Color(hex: "4C1D95"),
+                                        square: true) { GamesMenuView() }
+                        }
+                    } else {
+                        VStack(spacing: 12) {
+                            HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
+                                        icon: "books.vertical.fill", color: Color(hex: "DC2626")) { LessonsView() }
+                            HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
+                                        icon: "brain.head.profile", color: Color(hex: "2563EB")) { GrammarMenuView() }
+                            HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
+                                        icon: "magnifyingglass", color: Color(hex: "7C3AED")) { DictionaryView() }
+                        }
+                    }
                 }
-                .padding(.horizontal, 40)
+                .padding(.horizontal, 24)
 
                 Spacer()
 
@@ -63,7 +97,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Hiragana")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
 
@@ -80,7 +114,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Kanji")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
 
@@ -97,7 +131,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Katakana")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
                 }
@@ -142,6 +176,8 @@ struct HomeView: View {
 
 struct HomeOptionsSheet: View {
     @Environment(\.dismiss) private var dismiss
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
+    @ObservedObject private var unlocks = GameUnlocks.shared
     @State private var showResetConfirm = false
 
     var body: some View {
@@ -155,13 +191,41 @@ struct HomeOptionsSheet: View {
                     }
                 }
                 Section {
-                    Button(role: .destructive) {
-                        showResetConfirm = true
-                    } label: {
-                        Label("Reset Journey", systemImage: "arrow.counterclockwise")
+                    Picker("Priority", selection: $weightSettings.mode) {
+                        Text("No Priority").tag(WeightMode.none)
+                        Text("Prioritize Needs Work").tag(WeightMode.needsWork)
                     }
+                    .pickerStyle(.segmented)
+
+                    if weightSettings.mode == .needsWork {
+                        VStack(alignment: .leading, spacing: 6) {
+                            HStack {
+                                Text("Priority Level")
+                                Spacer()
+                                Text("\(Int((weightSettings.strength * 100).rounded()))%")
+                                    .foregroundColor(.appTextSecondary)
+                            }
+                            Slider(value: $weightSettings.strength, in: 0.05...1.0)
+                                .tint(.orange)
+                        }
+                    }
+                } header: {
+                    Label("Flashcard Priority", systemImage: "rectangle.stack.fill")
                 } footer: {
-                    Text("Sends your Journey back to the very beginning. Your Textbook progress and study data are kept.")
+                    Text("Applies to every flashcard deck. No Priority shuffles evenly and hides cards you’ve checked off; Prioritize Needs Work keeps every card in rotation but shows ones you’ve marked “Needs Work” more often.")
+                }
+                // Only shown once something has actually been found — listing it
+                // beforehand would give away that there are games to look for.
+                if unlocks.hasAny {
+                    Section {
+                        Button(role: .destructive) {
+                            showResetConfirm = true
+                        } label: {
+                            Label("Reset Games", systemImage: "arrow.counterclockwise")
+                        }
+                    } footer: {
+                        Text("Re-locks every game you've found and returns the home screen to its three tiles. Your study progress and high scores are kept.")
+                    }
                 }
             }
             .navigationTitle("Options")
@@ -171,14 +235,14 @@ struct HomeOptionsSheet: View {
                     Button("Done") { dismiss() }.fontWeight(.semibold)
                 }
             }
-            .confirmationDialog("Reset your Journey?", isPresented: $showResetConfirm, titleVisibility: .visible) {
-                Button("Reset to the beginning", role: .destructive) {
-                    JourneyProgress.reset()
+            .confirmationDialog("Reset games?", isPresented: $showResetConfirm, titleVisibility: .visible) {
+                Button("Re-lock every game", role: .destructive) {
+                    unlocks.resetAll()
                     dismiss()
                 }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("The Journey will start over from Hiragana. Nothing else is affected.")
+                Text("Every game goes back to being hidden, and you'll have to find them again.")
             }
         }
     }
@@ -221,9 +285,10 @@ private struct ThemeSwatch: View {
         Button(action: onTap) {
             VStack(spacing: 8) {
                 ZStack {
-                    // Card body
+                    // Card body — previews the theme's gradient (or flat fill)
                     RoundedRectangle(cornerRadius: 16)
-                        .fill(theme.background)
+                        .fill(LinearGradient(colors: [theme.background, theme.backgroundEnd ?? theme.background],
+                                             startPoint: .top, endPoint: .bottom))
                         .frame(height: 100)
 
                     // Nav bar strip at top
@@ -303,32 +368,30 @@ private struct ThemeSwatch: View {
 
 // MARK: - Home nav button
 
-private struct HomeNavButton<Destination: View>: View {
-    // Observing the theme guarantees the button re-renders whenever the theme
-    // changes, so the surface and its contrasting text are recomputed together.
-    @EnvironmentObject private var themeManager: ThemeManager
+private struct HomeNavTile<Destination: View>: View {
     let label: String
+    let subtitle: String
+    let glyph: String
+    let icon: String
+    let color: Color
+    /// Square for the 2×2 grid; otherwise a full-width slab.
+    var square: Bool = false
     @ViewBuilder let destination: () -> Destination
 
     var body: some View {
-        // Read the bubble's fill once and derive the label color from it, so the
-        // text is guaranteed to contrast the bubble in any theme (light or dark).
-        let surface = Color.appSurface
         NavigationLink {
             destination()
         } label: {
-            Text(label)
-                .font(.system(size: 22, weight: .medium))
-                .foregroundColor(.contrastingText(on: surface))
-                .frame(maxWidth: .infinity)
-                .frame(height: 60)
-                .background(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous).fill(surface)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .strokeBorder(Color.appHairline, lineWidth: 1)
-                )
+            if square {
+                AestheticTile(title: label, subtitle: subtitle, glyph: glyph,
+                              icon: icon, color: color)
+            } else {
+                // aspect: nil frees the tile from its square ratio; the fixed
+                // height gives the wide version, unchanged otherwise.
+                AestheticTile(title: label, subtitle: subtitle, glyph: glyph,
+                              icon: icon, color: color, aspect: nil)
+                    .frame(height: 112)
+            }
         }
         .buttonStyle(.plain)
     }

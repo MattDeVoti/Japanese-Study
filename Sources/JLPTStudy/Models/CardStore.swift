@@ -7,6 +7,14 @@ class CardStore: ObservableObject {
     @Published var vocabFiles: [VocabFile] = []
     @Published var particleCards: [ParticleCard] = []
 
+    // O(1) lookups into the card arrays. Built once at load; the arrays are only
+    // ever mutated in place (never reordered or resized), so positions stay valid.
+    private var kanjiIndexById: [String: Int] = [:]
+    private var kanjiIndexByChar: [String: Int] = [:]
+    private var grammarIndexById: [String: Int] = [:]
+    /// Word id → every kanji card id that word appears under (usually one).
+    private var wordParents: [String: [String]] = [:]
+
     // Resolves to the bundled folder if present, falls back to dev path
     static let basePath: String = {
         if let p = Bundle.main.url(forResource: "JLPT Assets", withExtension: nil)?.path,
@@ -46,6 +54,30 @@ class CardStore: ObservableObject {
         grammarCards = loadGrammarCards()
         vocabFiles = loadVocabFiles()
         particleCards = loadParticleCards()
+        rebuildIndices()
+    }
+
+    private func rebuildIndices() {
+        kanjiIndexById = Dictionary(kanjiCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
+        kanjiIndexByChar = Dictionary(kanjiCards.enumerated().map { ($1.kanji, $0) }, uniquingKeysWith: { first, _ in first })
+        grammarIndexById = Dictionary(grammarCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
+
+        var parents: [String: [String]] = [:]
+        for card in kanjiCards {
+            for word in card.commonWords {
+                parents[KanjiWordCard.id(for: word), default: []].append(card.id)
+            }
+        }
+        wordParents = parents
+    }
+
+    /// Mutate a kanji and/or grammar card by id in place (an id is one or the
+    /// other). Centralizes the index lookup the study operations all share.
+    private func mutateCard(_ cardId: String,
+                            kanji: ((inout KanjiCard) -> Void),
+                            grammar: ((inout GrammarCard) -> Void)) {
+        if let i = kanjiIndexById[cardId] { kanji(&kanjiCards[i]) }
+        if let i = grammarIndexById[cardId] { grammar(&grammarCards[i]) }
     }
 
     private func loadParticleCards() -> [ParticleCard] {
@@ -228,24 +260,41 @@ class CardStore: ObservableObject {
             data.favorites.insert(cardId)
         }
         let fav = data.favorites.contains(cardId)
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].isFavorite = fav }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].isFavorite = fav }
+        mutateCard(cardId, kanji: { $0.isFavorite = fav }, grammar: { $0.isFavorite = fav })
         persist()
     }
 
     func incrementNeedsWork(cardId: String) {
         data.needsWorkCounts[cardId, default: 0] += 1
         let n = data.needsWorkCounts[cardId]!
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].needsWorkCount = n }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].needsWorkCount = n }
+        mutateCard(cardId, kanji: { $0.needsWorkCount = n }, grammar: { $0.needsWorkCount = n })
+        persist()
+    }
+
+    /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
+    func decrementNeedsWork(cardId: String) {
+        guard let c = data.needsWorkCounts[cardId], c > 0 else { return }
+        let n = c - 1
+        if n == 0 { data.needsWorkCounts.removeValue(forKey: cardId) }
+        else { data.needsWorkCounts[cardId] = n }
+        mutateCard(cardId, kanji: { $0.needsWorkCount = n }, grammar: { $0.needsWorkCount = n })
         persist()
     }
 
     func incrementConfident(cardId: String) {
         data.confidentCounts[cardId, default: 0] += 1
         let n = data.confidentCounts[cardId]!
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].confidentCount = n }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].confidentCount = n }
+        mutateCard(cardId, kanji: { $0.confidentCount = n }, grammar: { $0.confidentCount = n })
+        persist()
+    }
+
+    /// Undo one "Confident" tally (used by the flashcard back button). Floors at 0.
+    func decrementConfident(cardId: String) {
+        guard let c = data.confidentCounts[cardId], c > 0 else { return }
+        let n = c - 1
+        if n == 0 { data.confidentCounts.removeValue(forKey: cardId) }
+        else { data.confidentCounts[cardId] = n }
+        mutateCard(cardId, kanji: { $0.confidentCount = n }, grammar: { $0.confidentCount = n })
         persist()
     }
 
@@ -292,7 +341,11 @@ class CardStore: ObservableObject {
 
     // MARK: - Filtered Lists
 
-    func filteredKanjiCards(filter: StudyFilter) -> [KanjiCard] {
+    /// Applies the study filter (levels, chosen kanji, favorites). `applyChecks`
+    /// additionally drops checked-off cards — the study pool skips that step so
+    /// it can decide per item, letting a kanji's words survive the kanji itself
+    /// being checked off.
+    func filteredKanjiCards(filter: StudyFilter, applyChecks: Bool = true) -> [KanjiCard] {
         var cards = kanjiCards
         if !filter.selectedLevels.isEmpty {
             cards = cards.filter { filter.selectedLevels.contains($0.nLevel) }
@@ -304,7 +357,9 @@ class CardStore: ObservableObject {
             let favs = cards.filter(\.isFavorite)
             if !favs.isEmpty { cards = favs }
         }
-        cards = cards.filter { !excludedKanjiIds.contains($0.id) }
+        if applyChecks, StudyWeightSettings.shared.filtersOutCheckedCards {
+            cards = cards.filter { !excludedKanjiIds.contains($0.id) }
+        }
         return pinNumberKanji(cards)
     }
 
@@ -314,9 +369,55 @@ class CardStore: ObservableObject {
         pinNumberKanji(kanjiCards)
     }
 
-    // Look up a kanji card by its character (used by lesson chapters).
+    // Look up a kanji card by its character (used by lesson chapters). O(1).
     func kanjiCard(for char: String) -> KanjiCard? {
-        kanjiCards.first(where: { $0.kanji == char })
+        kanjiIndexByChar[char].map { kanjiCards[$0] }
+    }
+
+    func kanjiCard(id: String) -> KanjiCard? {
+        kanjiIndexById[id].map { kanjiCards[$0] }
+    }
+
+    /// Study weight for any id — kanji cards and synthetic word ids alike.
+    func needsWorkCount(forId id: String) -> Int {
+        data.needsWorkCounts[id] ?? 0
+    }
+
+    // MARK: - Kanji study pool (kanji + their example words)
+
+    /// The example words belonging to `cards`, de-duplicated. Each word carries
+    /// every kanji card it appears under, so the flashcard can show them as tabs.
+    func wordCards(from cards: [KanjiCard]) -> [KanjiWordCard] {
+        var seen = Set<String>()
+        var out: [KanjiWordCard] = []
+        for card in cards {
+            for word in card.commonWords {
+                let id = KanjiWordCard.id(for: word)
+                guard !seen.contains(id) else { continue }
+                seen.insert(id)
+                let parents = wordParents[id] ?? [card.id]
+                // Easiest parent (N5 = 5) — where a learner meets the word first.
+                let level = parents.compactMap { kanjiCard(id: $0)?.nLevel }.max() ?? card.nLevel
+                out.append(KanjiWordCard(word: word, parentIds: parents, nLevel: level))
+            }
+        }
+        return out
+    }
+
+    /// Builds the full study pool from a set of base kanji: the kanji themselves,
+    /// plus their example words when that option is on. Checked-off cards drop
+    /// out only in No-Priority mode, matching the rest of the app.
+    func kanjiStudyPool(from cards: [KanjiCard]) -> [KanjiStudyItem] {
+        var items = cards.map { KanjiStudyItem.kanji($0) }
+        if KanjiStudySettings.shared.includeCommonWords {
+            items += wordCards(from: cards).map { KanjiStudyItem.word($0) }
+        }
+        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return items }
+        return items.filter { !excludedKanjiIds.contains($0.id) }
+    }
+
+    func selectWeightedKanjiItem(from items: [KanjiStudyItem]) -> KanjiStudyItem? {
+        StudyWeightSettings.shared.pick(items) { needsWorkCount(forId: $0.id) }
     }
 
     // Pin number kanji to the front in ascending order
@@ -340,47 +441,25 @@ class CardStore: ObservableObject {
         return cards
     }
 
-    func selectWeightedKanji(from cards: [KanjiCard], filter: StudyFilter) -> KanjiCard? {
-        selectWeighted(cards, mode: filter.weightMode, strength: filter.weightStrength)
+    func selectWeightedGrammar(from cards: [GrammarCard]) -> GrammarCard? {
+        selectWeighted(cards)
     }
 
-    /// Explicit mode/strength — lets a chapter's Study Kanji session weight
-    /// independently of the Study section's kanji filter.
-    func selectWeightedKanji(from cards: [KanjiCard], mode: WeightMode, strength: Double) -> KanjiCard? {
-        selectWeighted(cards, mode: mode, strength: strength)
-    }
-
-    func selectWeightedGrammar(from cards: [GrammarCard], filter: StudyFilter) -> GrammarCard? {
-        selectWeighted(cards, mode: filter.weightMode, strength: filter.weightStrength)
-    }
-
-    private func selectWeighted<T: FlashCardProtocol>(_ cards: [T], mode: WeightMode, strength: Double) -> T? {
-        guard !cards.isEmpty else { return nil }
-        guard mode != .none, strength > 0 else { return cards.randomElement() }
-        let weights: [Double] = cards.map { card in
-            let count = mode == .harder ? card.needsWorkCount : card.confidentCount
-            return 1.0 + Double(count) * 5.0 * strength
-        }
-        var r = Double.random(in: 0..<weights.reduce(0, +))
-        for (i, w) in weights.enumerated() {
-            r -= w
-            if r <= 0 { return cards[i] }
-        }
-        return cards.last
+    /// Weighting comes from the app-wide `StudyWeightSettings`, shared by every
+    /// deck and every place the setting can be changed.
+    private func selectWeighted<T: FlashCardProtocol>(_ cards: [T]) -> T? {
+        StudyWeightSettings.shared.pick(cards) { $0.needsWorkCount }
     }
 
     // MARK: - Persistence
 
     private func loadPersistedData() {
-        guard let raw = UserDefaults.standard.data(forKey: defaultsKey),
-              let decoded = try? JSONDecoder().decode(PersistentData.self, from: raw)
-        else { return }
-        data = decoded
+        if let decoded = UserDefaults.standard.decode(PersistentData.self, forKey: defaultsKey) {
+            data = decoded
+        }
     }
 
     private func persist() {
-        if let encoded = try? JSONEncoder().encode(data) {
-            UserDefaults.standard.set(encoded, forKey: defaultsKey)
-        }
+        UserDefaults.standard.encode(data, forKey: defaultsKey)
     }
 }

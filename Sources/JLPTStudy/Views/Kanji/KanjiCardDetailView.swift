@@ -12,7 +12,7 @@ struct KanjiCardDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             ScrollView {
                 VStack(alignment: .center, spacing: 20) {
@@ -97,6 +97,88 @@ struct KanjiCardBody: View {
     }
 }
 
+// MARK: - Word card body (revealed side of an example-word flashcard)
+
+/// The answer side of a word flashcard: the word's reading and meaning, then the
+/// kanji card it came from. Words that appear under more than one kanji get a tab
+/// per kanji, each labelled with that single character.
+struct WordCardBody: View {
+    let word: KanjiWordCard
+    let parents: [KanjiCard]
+
+    @State private var selectedParent: String?
+
+    private var current: KanjiCard? {
+        parents.first { $0.id == selectedParent } ?? parents.first
+    }
+
+    var body: some View {
+        VStack(spacing: 18) {
+            // Reading + meaning
+            VStack(spacing: 6) {
+                Text(word.word.kana)
+                    .font(.system(size: 24, weight: .semibold))
+                    .foregroundColor(.appText)
+                Text(word.word.romaji)
+                    .font(.system(size: 14))
+                    .foregroundColor(.appTextSecondary)
+                    .italic()
+                Text(word.word.meaning)
+                    .font(.system(size: 17, weight: .medium))
+                    .foregroundColor(.appText)
+                    .multilineTextAlignment(.center)
+                    .padding(.top, 2)
+            }
+            .padding(.horizontal, 20)
+
+            if !parents.isEmpty {
+                Divider().padding(.horizontal, 24)
+
+                Text(parents.count > 1 ? "APPEARS UNDER THESE KANJI" : "FROM THIS KANJI")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundColor(.appTextSecondary)
+
+                // Tabs — only when the word sits under more than one kanji
+                if parents.count > 1 {
+                    HStack(spacing: 8) {
+                        ForEach(parents) { p in
+                            let isOn = (current?.id == p.id)
+                            Button {
+                                withAnimation(.easeInOut(duration: 0.18)) { selectedParent = p.id }
+                            } label: {
+                                Text(p.kanji)
+                                    .font(.system(size: 26, weight: .bold))
+                                    .foregroundColor(isOn ? .white : .appText)
+                                    .frame(width: 54, height: 54)
+                                    .background(
+                                        RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                            .fill(isOn ? nLevelColor(p.nLevel) : Color.appSurfaceHigh)
+                                    )
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                            .strokeBorder(isOn ? Color.clear : Color.appHairline, lineWidth: 1)
+                                    )
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                }
+
+                if let parent = current {
+                    VStack(spacing: 14) {
+                        // The kanji itself, so the card reads as "this kanji's card"
+                        Text(parent.kanji)
+                            .font(.system(size: 56, weight: .bold))
+                            .foregroundColor(.appText)
+                        KanjiCardBody(card: parent)
+                    }
+                    .id(parent.id)   // rebuild cleanly when switching tabs
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Reading columns
 
 struct ReadingsColumn: View {
@@ -107,14 +189,14 @@ struct ReadingsColumn: View {
         VStack(alignment: .leading, spacing: 6) {
             Text(label)
                 .font(.system(size: 12, weight: .semibold))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding(.bottom, 2)
 
             if readings.isEmpty {
                 Text("—")
                     .font(.system(size: 15))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .frame(maxWidth: .infinity, alignment: .center)
             } else {
                 ForEach(readings, id: \.self) { r in
@@ -125,7 +207,7 @@ struct ReadingsColumn: View {
                         Spacer()
                         Text(r.romaji)
                             .font(.system(size: 13))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                     }
                 }
             }
@@ -158,7 +240,7 @@ struct CommonWordsTable: View {
                     .frame(maxWidth: .infinity, alignment: .trailing)
             }
             .font(.system(size: 12, weight: .semibold))
-            .foregroundColor(.secondary)
+            .foregroundColor(.appTextSecondary)
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
             .background(Color.appSurfaceHigh)

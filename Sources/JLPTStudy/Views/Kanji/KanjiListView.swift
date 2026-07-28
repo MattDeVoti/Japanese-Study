@@ -16,7 +16,7 @@ struct KanjiListView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 SearchBar(text: $searchText, placeholder: "Search kanji…")

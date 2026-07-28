@@ -14,7 +14,7 @@ struct FavoritesView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if store.favorites.isEmpty {
                 emptyState
@@ -23,10 +23,7 @@ struct FavoritesView: View {
                     VStack(spacing: 24) {
                         ForEach(sections) { section in
                             VStack(alignment: .leading, spacing: 8) {
-                                Text(section.title)
-                                    .font(.system(size: 12, weight: .semibold))
-                                    .foregroundColor(.secondary)
-                                    .textCase(.uppercase)
+                                SectionHeading(section.title)
                                     .padding(.horizontal, 16)
 
                                 VStack(spacing: 10) {
@@ -36,6 +33,7 @@ struct FavoritesView: View {
                                             chapterId: section.id,
                                             accentColor: section.accentColor
                                         )
+                                        .addToCustomLesson(.grammar(chapterId: section.id, pointId: point.id, title: point.name))
                                         .padding(.horizontal, 16)
                                     }
                                 }
@@ -44,10 +42,7 @@ struct FavoritesView: View {
 
                         if !cultureFavs.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
-                                Text("Culture")
-                                    .font(.system(size: 12, weight: .semibold))
-                                    .foregroundColor(.secondary)
-                                    .textCase(.uppercase)
+                                SectionHeading("Culture")
                                     .padding(.horizontal, 16)
 
                                 VStack(spacing: 10) {
@@ -75,7 +70,7 @@ struct FavoritesView: View {
                 .foregroundColor(.secondary.opacity(0.3))
             Text("No favorites yet")
                 .font(.system(size: 18, weight: .medium))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
             Text("Tap the star on any grammar or culture point to save it here.")
                 .font(.system(size: 14))
                 .foregroundColor(.secondary.opacity(0.75))

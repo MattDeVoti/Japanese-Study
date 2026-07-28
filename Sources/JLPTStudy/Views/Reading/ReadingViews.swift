@@ -7,12 +7,12 @@ struct ReadingListView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     if readings.isEmpty {
                         Text("No readings available yet.")
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                             .padding(.top, 40)
                             .frame(maxWidth: .infinity)
                     } else {
@@ -37,16 +37,16 @@ struct ReadingListView: View {
         let n = Int(level.dropFirst()) ?? 5
         let color = nLevelColor(n)
         return VStack(alignment: .leading, spacing: 0) {
-            HStack(spacing: 6) {
-                Text(levelName(jlpt: level).uppercased())
+            HStack(spacing: 8) {
+                SectionHeading(levelName(jlpt: level))
+                Text(level)
                     .font(.system(size: 11, weight: .bold))
-                    .foregroundColor(color)
-                Text("· \(level)")
-                    .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.white)
+                    .padding(.horizontal, 7).padding(.vertical, 3)
+                    .background(Capsule().fill(color))
             }
-            .padding(.horizontal, 4)
-            .padding(.bottom, 8)
+            .padding(.horizontal, 2)
+            .padding(.bottom, 10)
 
             VStack(spacing: 0) {
                 ForEach(Array(items.enumerated()), id: \.element.id) { idx, reading in
@@ -80,14 +80,14 @@ private struct ReadingRow: View {
                         .fixedSize(horizontal: false, vertical: true)
                     Text(typeLabel)
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                 }
 
                 Spacer(minLength: 8)
 
                 Image(systemName: "chevron.right")
                     .font(.system(size: 13, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
@@ -134,7 +134,7 @@ struct ReadingDetailView: View {
         GeometryReader { geo in
             let origin = geo.frame(in: .global).origin
             ZStack(alignment: .topLeading) {
-                Color.appBackground.ignoresSafeArea()
+                AppBackground()
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
@@ -154,7 +154,7 @@ struct ReadingDetailView: View {
 
                         Text("Tip: press and hold a word to see its meaning.")
                             .font(.system(size: 11))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                             .padding(.horizontal, 4)
 
                         // Questions
@@ -244,7 +244,7 @@ private struct DefinitionPopup: View {
                 if let r = def?.reading, r != (def?.word ?? word) {
                     Text(r)
                         .font(.system(size: 13))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                 }
             }
             if let def, !def.definitions.isEmpty {
@@ -255,7 +255,7 @@ private struct DefinitionPopup: View {
             } else {
                 Text("No dictionary entry found.")
                     .font(.system(size: 13))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .italic()
             }
         }

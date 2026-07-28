@@ -1,0 +1,1499 @@
+{
+  "id": "ch_slang",
+  "chapterNumber": 1,
+  "title": "Casual Speech Basics",
+  "points": [
+    {
+      "id": "casual-contractions",
+      "name": "〜てる / 〜とく / 〜ちゃう — casual contractions",
+      "shortDescription": "The sound shortcuts that make real speech sound nothing like your textbook.",
+      "formation": "ている → てる  |  ておく → とく  |  てしまう → ちゃう  |  なければ → なきゃ",
+      "explanation": "If you have ever understood a Japanese textbook perfectly and then been lost in the first ten seconds of a real conversation, this is usually why. Spoken Japanese squeezes long verb endings into shorter ones, and almost nobody says the full forms out loud.\n\nThe good news: these are not new grammar. The meaning is identical — only the sound is shorter.\n\n- ている → てる: 何[なに]をしていますか becomes 何[なに]してる？\n- ておく → とく: 買[か]っておく becomes 買[か]っとく (do something in advance)\n- てしまう → ちゃう: 忘[わす]れてしまった becomes 忘[わす]れちゃった (did it completely / by accident)\n- なければ・なくては → なきゃ・なくちゃ: 行[い]かなければ becomes 行[い]かなきゃ (gotta go)\n\nWatch the voicing rule: if the て-form uses で, the contraction voices too. 読[よ]んでしまう → 読[よ]んじゃう, 飲[の]んでおく → 飲[の]んどく.\n\nOne more: なきゃ and なくちゃ are usually left hanging with nothing after them. もう行[い]かなきゃ is a complete sentence — the いけない is simply understood.",
+      "rules": [
+        "ている → てる, ていた → てた: 食[た]べている → 食[た]べてる",
+        "ておく → とく, でおく → どく: 買[か]っておく → 買[か]っとく",
+        "てしまう → ちゃう, でしまう → じゃう: 忘[わす]れてしまった → 忘[わす]れちゃった",
+        "なければ / なくては → なきゃ / なくちゃ, and the いけない is normally dropped",
+        "These are pronunciation shortcuts, not different grammar — the meaning does not change"
+      ],
+      "examples": [
+        {
+          "japanese": "今[いま]何[なに]してる？",
+          "romaji": "Ima nani shiteru?",
+          "english": "What are you doing right now?"
+        },
+        {
+          "japanese": "ごはん作[つく]っとくね。",
+          "romaji": "Gohan tsukutoku ne.",
+          "english": "I'll go ahead and make dinner (in advance)."
+        },
+        {
+          "japanese": "電車[でんしゃ]に傘[かさ]を忘[わす]れちゃった。",
+          "romaji": "Densha ni kasa o wasurechatta.",
+          "english": "I went and left my umbrella on the train."
+        },
+        {
+          "japanese": "やば、もう行[い]かなきゃ。",
+          "romaji": "Yaba, mou ikanakya.",
+          "english": "Yikes, I gotta go."
+        }
+      ],
+      "flashcardHeader": "〜てる / 〜とく / 〜ちゃう",
+      "flashcardAnswer": "Casual contractions of ている・ておく・てしまう (and なきゃ for なければ) — same meaning, shorter sound.",
+      "practice": [
+        {
+          "id": "contract_q1",
+          "type": "translation",
+          "prompt": "What is 何[なに]してる？ short for?",
+          "japanese": "何[なに]してる？",
+          "choices": [
+            "何[なに]をしましょうか",
+            "何[なに]をしていますか",
+            "何[なに]をしてください",
+            "何[なに]をしたいですか"
+          ],
+          "correctIndex": 1,
+          "explanation": "してる is the contraction of している. The casual question drops を and か as well, leaving 何[なに]してる？ = 'What are you doing?'"
+        },
+        {
+          "id": "contract_q2",
+          "type": "fillBlank",
+          "prompt": "Contract this into casual speech: 買[か]っておく",
+          "japanese": "買[か]っておく → ____",
+          "choices": [
+            "買[か]っとく",
+            "買[か]っちゃう",
+            "買[か]ってる",
+            "買[か]わなきゃ"
+          ],
+          "correctIndex": 0,
+          "explanation": "ておく contracts to とく. 買[か]っとく means to buy something in advance / to have it ready."
+        },
+        {
+          "id": "contract_q3",
+          "type": "usage",
+          "prompt": "Which contraction carries the feeling of 'oops, I did it completely / by accident'?",
+          "japanese": null,
+          "choices": [
+            "〜とく",
+            "〜てる",
+            "〜ちゃう",
+            "〜なきゃ"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ちゃう is the contraction of てしまう, which adds the nuance of completing something or doing it accidentally: 食[た]べちゃった (I ate it all / I ate it by mistake)."
+        },
+        {
+          "id": "contract_q4",
+          "type": "fillBlank",
+          "prompt": "Fill in the voiced contraction: 読[よ]んでしまった → ____",
+          "japanese": "読[よ]んでしまった → ____",
+          "choices": [
+            "読[よ]んちゃった",
+            "読[よ]んじゃった",
+            "読[よ]んどいた",
+            "読[よ]んでた"
+          ],
+          "correctIndex": 1,
+          "explanation": "When the て-form is voiced (で), the contraction voices too: でしまう → じゃう. So 読[よ]んでしまった → 読[よ]んじゃった."
+        },
+        {
+          "id": "contract_q5",
+          "type": "translation",
+          "prompt": "What does もう行[い]かなきゃ mean?",
+          "japanese": "もう行[い]かなきゃ。",
+          "choices": [
+            "I don't have to go anymore.",
+            "I gotta go now.",
+            "Let's go already.",
+            "I don't want to go."
+          ],
+          "correctIndex": 1,
+          "explanation": "なきゃ is short for なければ (いけない). The いけない is left off, but the meaning 'I have to' is fully understood: 'I've gotta go.'"
+        },
+        {
+          "id": "contract_q6",
+          "type": "usage",
+          "prompt": "Your friend says ビール冷[ひ]やしとくね。What are they doing?",
+          "japanese": "ビール冷[ひ]やしとくね。",
+          "choices": [
+            "Chilling the beer in advance for later",
+            "Drinking the beer right now",
+            "Accidentally spilling the beer",
+            "Refusing to chill the beer"
+          ],
+          "correctIndex": 0,
+          "explanation": "冷[ひ]やしとく = 冷[ひ]やしておく — doing something ahead of time in preparation. They're putting the beer in the fridge now so it's cold when you need it."
+        },
+        {
+          "id": "contract_q7",
+          "type": "construct",
+          "prompt": "Make this fully casual: 宿題[しゅくだい]をしなくてはいけません",
+          "japanese": "宿題[しゅくだい]をしなくてはいけません",
+          "choices": [
+            "宿題[しゅくだい]しとく",
+            "宿題[しゅくだい]しちゃう",
+            "宿題[しゅくだい]しなくちゃ",
+            "宿題[しゅくだい]してる"
+          ],
+          "correctIndex": 2,
+          "explanation": "なくてはいけません contracts to なくちゃ, and casual speech drops を. 宿題[しゅくだい]しなくちゃ = 'I've gotta do my homework.'"
+        },
+        {
+          "id": "contract_q8",
+          "type": "translation",
+          "prompt": "What does 昨日[きのう]ずっとゲームしてた mean?",
+          "japanese": "昨日[きのう]ずっとゲームしてた。",
+          "choices": [
+            "I'll play games all day tomorrow.",
+            "I was playing games the whole time yesterday.",
+            "I have to play games.",
+            "I finished the game by accident."
+          ],
+          "correctIndex": 1,
+          "explanation": "してた is the contraction of していた — the past progressive. 'I was playing games the whole time yesterday.'"
+        }
+      ]
+    },
+    {
+      "id": "dropped-particles",
+      "name": "Dropping particles — casual sentence shape",
+      "shortDescription": "In real conversation は, を and が quietly vanish, and questions lose their か.",
+      "explanation": "Textbook sentences are fully dressed: 私[わたし]はごはんを食[た]べました. Real conversation strips that down to ごはん食[た]べた？ — and it is still perfectly correct Japanese.\n\nParticles drop when the listener can work out the role from context and word order. The ones that carry little information disappear first:\n\n- を drops almost freely: お茶[ちゃ]飲[の]む？ (Want tea?)\n- は drops when the topic is obvious: これ、おいしい！ (This is good!)\n- が drops often with adjectives and feelings: 頭[あたま]痛[いた]い (My head hurts)\n\nParticles that carry real meaning — に, で, と, から, まで — almost never drop, because losing them loses the sentence.\n\nTwo more habits complete the casual shape. First, か disappears from questions; you raise your pitch at the end instead: 行[い]く？ (Going?). Adding か to a plain form actually sounds rough or interrogating, so leave it off. Second, だ is frequently dropped, especially in softer or feminine speech: これ、私[わたし]の (This one's mine).\n\nA comma in writing marks the tiny pause where the dropped particle used to be — これ、おいしい.",
+      "formation": "[Topic] (は) + [Object] (を) + Verb  |  Question = rising pitch, no か",
+      "rules": [
+        "を and は drop the most freely: ごはん食[た]べた？",
+        "が often drops with adjectives and states: 頭[あたま]痛[いた]い",
+        "に・で・と・から・まで rarely drop — they carry the meaning",
+        "Casual questions drop か and rise in pitch instead: 行[い]く？",
+        "Plain form + か sounds blunt or confrontational — avoid it with friends"
+      ],
+      "examples": [
+        {
+          "japanese": "ごはん食[た]べた？",
+          "romaji": "Gohan tabeta?",
+          "english": "Did you eat?"
+        },
+        {
+          "japanese": "これ、めっちゃおいしい！",
+          "romaji": "Kore, meccha oishii!",
+          "english": "This is super good!"
+        },
+        {
+          "japanese": "明日[あした]どこ行[い]く？",
+          "romaji": "Ashita doko iku?",
+          "english": "Where are we going tomorrow?"
+        },
+        {
+          "japanese": "駅[えき]まで歩[ある]いた。",
+          "romaji": "Eki made aruita.",
+          "english": "I walked to the station."
+        }
+      ],
+      "flashcardHeader": "Dropping particles",
+      "flashcardAnswer": "Casual speech drops は・を・が and the question か — but keeps に・で・と・から.",
+      "practice": [
+        {
+          "id": "drop_q1",
+          "type": "construct",
+          "prompt": "Make this casual: パンを食[た]べますか",
+          "japanese": "パンを食[た]べますか",
+          "choices": [
+            "パン食[た]べる？",
+            "パンを食[た]べるか？",
+            "パンは食[た]べますか？",
+            "パン食[た]べますか？"
+          ],
+          "correctIndex": 0,
+          "explanation": "Casual speech drops を, uses the plain form 食[た]べる, and drops か — the rising pitch makes it a question: パン食[た]べる？"
+        },
+        {
+          "id": "drop_q2",
+          "type": "usage",
+          "prompt": "Which particle is LEAST likely to be dropped in casual speech?",
+          "japanese": null,
+          "choices": [
+            "を",
+            "は",
+            "が",
+            "から"
+          ],
+          "correctIndex": 3,
+          "explanation": "から means 'from / because' — dropping it would destroy the meaning. を, は and が can often be recovered from context, so those are the ones that disappear."
+        },
+        {
+          "id": "drop_q3",
+          "type": "translation",
+          "prompt": "What does これ、私[わたし]の。mean?",
+          "japanese": "これ、私[わたし]の。",
+          "choices": [
+            "This is mine.",
+            "Do I have this?",
+            "I want this.",
+            "This isn't mine."
+          ],
+          "correctIndex": 0,
+          "explanation": "Both は and だ are dropped. の marks possession, so これ、私[わたし]の = これは私[わたし]のです = 'This is mine.'"
+        },
+        {
+          "id": "drop_q4",
+          "type": "usage",
+          "prompt": "Why does 行[い]くか？ sound rough to a friend?",
+          "japanese": "行[い]くか？",
+          "choices": [
+            "It is grammatically wrong",
+            "Plain form + か sounds blunt or interrogating",
+            "It is far too polite",
+            "か can only be used in writing"
+          ],
+          "correctIndex": 1,
+          "explanation": "With plain forms, か comes across as blunt, challenging, or like an interrogation. Casual questions simply use rising pitch: 行[い]く？"
+        },
+        {
+          "id": "drop_q5",
+          "type": "fillBlank",
+          "prompt": "Which particle is missing here? 頭[あたま]___痛[いた]い",
+          "japanese": "頭[あたま]___痛[いた]い",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "correctIndex": 1,
+          "explanation": "The full sentence is 頭[あたま]が痛[いた]い ('my head hurts'). が commonly drops with adjectives describing a state, leaving 頭[あたま]痛[いた]い."
+        },
+        {
+          "id": "drop_q6",
+          "type": "translation",
+          "prompt": "What does 明日[あした]どこ行[い]く？ mean?",
+          "japanese": "明日[あした]どこ行[い]く？",
+          "choices": [
+            "Where did you go yesterday?",
+            "Where are we going tomorrow?",
+            "Are you going tomorrow?",
+            "When are we going?"
+          ],
+          "correctIndex": 1,
+          "explanation": "に is dropped after どこ and か is dropped from the question. 明日[あした]どこ行[い]く？ = 明日[あした]どこに行[い]きますか."
+        },
+        {
+          "id": "drop_q7",
+          "type": "usage",
+          "prompt": "In writing, what does the comma in これ、おいしい represent?",
+          "japanese": "これ、おいしい",
+          "choices": [
+            "A dropped particle and the small pause where it was",
+            "The end of the sentence",
+            "A polite pause before a superior",
+            "A quotation"
+          ],
+          "correctIndex": 0,
+          "explanation": "The comma marks the small beat where は used to be. Writing it out gives これはおいしい."
+        },
+        {
+          "id": "drop_q8",
+          "type": "construct",
+          "prompt": "Make this casual: コーヒーを飲[の]みませんか",
+          "japanese": "コーヒーを飲[の]みませんか",
+          "choices": [
+            "コーヒー飲[の]むか？",
+            "コーヒーを飲[の]まない？",
+            "コーヒー飲[の]む？",
+            "コーヒーは飲[の]みますか？"
+          ],
+          "correctIndex": 2,
+          "explanation": "Drop を, use the plain form, drop か: コーヒー飲[の]む？ — an easy casual invitation ('Want some coffee?')."
+        }
+      ]
+    },
+    {
+      "id": "casual-enders",
+      "name": "じゃん / っしょ / さ / っけ — casual sentence enders",
+      "shortDescription": "The little tags that carry tone: seeking agreement, 'right?', filler, and 'what was it again?'",
+      "explanation": "Japanese loads a lot of feeling onto the very end of a sentence. Textbooks teach ね and よ; real conversation adds a handful more that you will hear constantly.\n\n- じゃん — 'right? / isn't it'. A contraction of じゃない used to push for agreement: これ、おいしいじゃん！ It started in the Kanto region and is now everywhere among younger speakers.\n- っしょ — a squeezed でしょ, meaning 'right?' with confidence: 明日[あした]休[やす]みっしょ？\n- さ — pure conversational filler that breaks a long sentence into beats: あのさ、昨日[きのう]さ、駅[えき]でさ… Used sparingly it sounds natural; overused it sounds childish.\n- っけ — 'what was it again?' for information you once knew but cannot retrieve: 名前[なまえ]なんだっけ？\n- よね — checking something you believe you both know: これでいいよね？\n\nA useful contrast: よ pushes information toward the listener, ね pulls agreement from them, and よね does both at once. じゃん is stronger than ね — it assumes you already agree.\n\nAll of these are casual. In a business meeting, stick to ね and よ.",
+      "formation": "Plain form + じゃん / っしょ / っけ / よね  |  さ inserted mid-sentence as filler",
+      "rules": [
+        "じゃん = casual じゃない — 'right? / isn't it', assumes agreement",
+        "っしょ = squeezed でしょ — confident 'right?'",
+        "さ = filler between phrases; fine in small doses, childish in large ones",
+        "っけ = retrieving forgotten info: 何時[なんじ]だっけ？ ('What time was it again?')",
+        "よ pushes info out, ね pulls agreement in, よね does both — all casual except ね and よ"
+      ],
+      "examples": [
+        {
+          "japanese": "これ、おいしいじゃん！",
+          "romaji": "Kore, oishii jan!",
+          "english": "Hey, this is good!"
+        },
+        {
+          "japanese": "明日[あした]休[やす]みっしょ？",
+          "romaji": "Ashita yasumi ssho?",
+          "english": "Tomorrow's a day off, right?"
+        },
+        {
+          "japanese": "あのさ、ちょっと話[はな]せる？",
+          "romaji": "Ano sa, chotto hanaseru?",
+          "english": "Hey, uh, can we talk for a sec?"
+        },
+        {
+          "japanese": "会議[かいぎ]は何時[なんじ]だっけ？",
+          "romaji": "Kaigi wa nanji dakke?",
+          "english": "What time was the meeting again?"
+        }
+      ],
+      "flashcardHeader": "じゃん / っしょ / さ / っけ",
+      "flashcardAnswer": "Casual enders: じゃん and っしょ seek agreement ('right?'), さ is filler, っけ retrieves forgotten info.",
+      "practice": [
+        {
+          "id": "ender_q1",
+          "type": "usage",
+          "prompt": "Which ender would you use to ask 'what was that again?' about something you forgot?",
+          "japanese": null,
+          "choices": [
+            "じゃん",
+            "っけ",
+            "っしょ",
+            "さ"
+          ],
+          "correctIndex": 1,
+          "explanation": "っけ is specifically for retrieving information you once knew: 名前[なまえ]なんだっけ？ ('What was your name again?')."
+        },
+        {
+          "id": "ender_q2",
+          "type": "translation",
+          "prompt": "What does これ、安[やす]いじゃん！ mean?",
+          "japanese": "これ、安[やす]いじゃん！",
+          "choices": [
+            "Is this cheap?",
+            "Hey, this is cheap!",
+            "This isn't cheap.",
+            "This might be cheap."
+          ],
+          "correctIndex": 1,
+          "explanation": "じゃん comes from じゃない but here it is not a negative — it is an agreement-seeking 'right?'. The feeling is 'Hey, this is cheap, isn't it!'"
+        },
+        {
+          "id": "ender_q3",
+          "type": "usage",
+          "prompt": "っしょ is a squeezed form of which word?",
+          "japanese": null,
+          "choices": [
+            "でしょ",
+            "じゃない",
+            "ですね",
+            "しよう"
+          ],
+          "correctIndex": 0,
+          "explanation": "っしょ is casual, compressed でしょ — a confident 'right?'. 明日[あした]休[やす]みっしょ？ = 明日[あした]休[やす]みでしょう？"
+        },
+        {
+          "id": "ender_q4",
+          "type": "usage",
+          "prompt": "Your boss asks whether the report is finished. Which ending is safest?",
+          "japanese": null,
+          "choices": [
+            "終[お]わったじゃん",
+            "終[お]わったっしょ",
+            "終[お]わりましたよ",
+            "終[お]わったっけ"
+          ],
+          "correctIndex": 2,
+          "explanation": "じゃん, っしょ and っけ are all casual. With a superior, use the polite form with よ or ね: 終[お]わりましたよ."
+        },
+        {
+          "id": "ender_q5",
+          "type": "usage",
+          "prompt": "What is さ doing in あのさ、昨日[きのう]さ、映画[えいが]見[み]たんだけどさ…?",
+          "japanese": "あのさ、昨日[きのう]さ、映画[えいが]見[み]たんだけどさ…",
+          "choices": [
+            "Asking a question",
+            "Acting as filler that breaks the sentence into beats",
+            "Making the sentence polite",
+            "Marking the object"
+          ],
+          "correctIndex": 1,
+          "explanation": "さ is conversational filler, roughly like 'like' or 'y'know' in English. Here it appears three times — natural in speech, but overuse can sound childish."
+        },
+        {
+          "id": "ender_q6",
+          "type": "translation",
+          "prompt": "What does 明日[あした]、雨[あめ]だっけ？ mean?",
+          "japanese": "明日[あした]、雨[あめ]だっけ？",
+          "choices": [
+            "It's going to rain tomorrow.",
+            "Was it supposed to rain tomorrow?",
+            "It won't rain tomorrow, right?",
+            "I hope it rains tomorrow."
+          ],
+          "correctIndex": 1,
+          "explanation": "っけ signals that you are trying to recall something you heard before: 'It was going to rain tomorrow, wasn't it?'"
+        },
+        {
+          "id": "ender_q7",
+          "type": "usage",
+          "prompt": "What is the difference between よ and ね?",
+          "japanese": null,
+          "choices": [
+            "よ pushes information out; ね pulls agreement in",
+            "よ is polite; ね is rude",
+            "よ is for questions; ね is for statements",
+            "There is no difference"
+          ],
+          "correctIndex": 0,
+          "explanation": "よ tells the listener something new ('I'm informing you'), ね invites agreement ('right?'). よね combines both: これでいいよね？"
+        },
+        {
+          "id": "ender_q8",
+          "type": "construct",
+          "prompt": "A friend doubts the restaurant is good. You have been and you know it is. Which sounds most natural?",
+          "japanese": null,
+          "choices": [
+            "おいしいっけ？",
+            "おいしいじゃん！",
+            "おいしいさ",
+            "おいしいですか"
+          ],
+          "correctIndex": 1,
+          "explanation": "じゃん pushes your friend toward agreement based on what you know: 'It's good, come on!' っけ would mean you forgot, and ですか is polite and neutral."
+        }
+      ]
+    },
+    {
+      "id": "intensifiers",
+      "name": "めっちゃ / マジ / ガチ / 超[ちょう] — casual intensifiers",
+      "shortDescription": "Four everyday ways to say 'super' — and which crowd each one belongs to.",
+      "explanation": "とても is the textbook word for 'very', and almost nobody says it in casual conversation. It sounds careful and slightly stiff — fine in a speech, odd over ramen with friends. Here is what people actually use.\n\n- めっちゃ — the workhorse. Originally Kansai (from めちゃくちゃ), now used nationwide by essentially everyone under fifty: めっちゃおいしい.\n- 超[ちょう] — 'super'. Slightly older-feeling than めっちゃ but still very common: 超[ちょう]眠[ねむ]い.\n- マジ(で) — 'seriously / for real'. From 真面目[まじめ]. Also works alone as a reaction: マジ？\n- ガチ(で) — 'legitimately / no joke'. From 真剣[しんけん]勝負[しょうぶ] (ガチンコ). Newer and stronger than マジ, and it insists you are not exaggerating.\n\nA rough strength ladder: 超[ちょう] ≈ めっちゃ < マジで < ガチで.\n\nThere is also すごい, which is standard Japanese but gets used adverbially in casual speech (すごいおいしい) even though textbooks insist on すごく. Nobody will correct you.\n\nAll four are casual only. In polite or business situations use とても or 本当[ほんとう]に — saying ガチで to a client would land like saying 'legit' in a job interview.",
+      "formation": "めっちゃ / 超[ちょう] / マジで / ガチで + adjective or verb",
+      "rules": [
+        "めっちゃ — the everyday 'super'; Kansai origin, now nationwide",
+        "超[ちょう] — 'super'; attaches directly: 超[ちょう]寒[さむ]い",
+        "マジで — 'seriously / for real'; also a standalone reaction (マジ？)",
+        "ガチで — 'legitimately / no joke'; stronger and more recent than マジ",
+        "All are casual — use とても or 本当[ほんとう]に in polite settings"
+      ],
+      "examples": [
+        {
+          "japanese": "このラーメンめっちゃうまい。",
+          "romaji": "Kono raamen meccha umai.",
+          "english": "This ramen is super good."
+        },
+        {
+          "japanese": "マジで疲[つか]れた。",
+          "romaji": "Maji de tsukareta.",
+          "english": "I'm seriously exhausted."
+        },
+        {
+          "japanese": "ガチで知[し]らなかった。",
+          "romaji": "Gachi de shiranakatta.",
+          "english": "I legit had no idea."
+        },
+        {
+          "japanese": "今日[きょう]超[ちょう]寒[さむ]くない？",
+          "romaji": "Kyou chou samuku nai?",
+          "english": "Isn't it super cold today?"
+        }
+      ],
+      "flashcardHeader": "めっちゃ / マジ / ガチ / 超[ちょう]",
+      "flashcardAnswer": "Casual intensifiers meaning 'super / seriously / legit' — replacements for とても in everyday speech.",
+      "practice": [
+        {
+          "id": "intens_q1",
+          "type": "usage",
+          "prompt": "Which word is the polite, textbook way to say 'very'?",
+          "japanese": null,
+          "choices": [
+            "めっちゃ",
+            "とても",
+            "ガチで",
+            "超[ちょう]"
+          ],
+          "correctIndex": 1,
+          "explanation": "とても is the standard polite intensifier. The other three are casual — perfect with friends, out of place with a client."
+        },
+        {
+          "id": "intens_q2",
+          "type": "translation",
+          "prompt": "What does ガチで無理[むり]。mean?",
+          "japanese": "ガチで無理[むり]。",
+          "choices": [
+            "Maybe it's possible.",
+            "It's legitimately impossible.",
+            "I'll try my best.",
+            "It's a little difficult."
+          ],
+          "correctIndex": 1,
+          "explanation": "ガチで means 'legitimately / no joke' — it insists you are not exaggerating. 無理[むり] means impossible, so this is 'That's seriously not happening.'"
+        },
+        {
+          "id": "intens_q3",
+          "type": "usage",
+          "prompt": "Which intensifier originally came from the Kansai region?",
+          "japanese": null,
+          "choices": [
+            "超[ちょう]",
+            "めっちゃ",
+            "マジ",
+            "とても"
+          ],
+          "correctIndex": 1,
+          "explanation": "めっちゃ comes from Kansai's めちゃくちゃ. It spread nationwide and is now the most common casual intensifier in Japan."
+        },
+        {
+          "id": "intens_q4",
+          "type": "fillBlank",
+          "prompt": "Complete naturally: この映画[えいが]____おもしろかった！",
+          "japanese": "この映画[えいが]____おもしろかった！",
+          "choices": [
+            "めっちゃ",
+            "ませんでした",
+            "でしょうか",
+            "ください"
+          ],
+          "correctIndex": 0,
+          "explanation": "めっちゃ intensifies the adjective: この映画[えいが]めっちゃおもしろかった = 'That movie was super interesting.'"
+        },
+        {
+          "id": "intens_q5",
+          "type": "usage",
+          "prompt": "You are presenting to a client and want to say the results were very good. Which is appropriate?",
+          "japanese": null,
+          "choices": [
+            "ガチでよかったです",
+            "めっちゃよかったです",
+            "非常[ひじょう]によかったです",
+            "超[ちょう]よかったです"
+          ],
+          "correctIndex": 2,
+          "explanation": "非常[ひじょう]に (or とても) is the register for business. ガチ, めっちゃ and 超[ちょう] are all casual and would sound out of place with a client."
+        },
+        {
+          "id": "intens_q6",
+          "type": "translation",
+          "prompt": "A friend texts マジ？ after your news. What are they saying?",
+          "japanese": "マジ？",
+          "choices": [
+            "For real?",
+            "That's too bad.",
+            "I'm busy.",
+            "Please continue."
+          ],
+          "correctIndex": 0,
+          "explanation": "マジ works as a standalone reaction meaning 'seriously? / for real?' — surprise, not disbelief in you personally."
+        },
+        {
+          "id": "intens_q7",
+          "type": "usage",
+          "prompt": "What does マジ come from?",
+          "japanese": null,
+          "choices": [
+            "真面目[まじめ] (serious)",
+            "マジック (magic)",
+            "負[ま]ける (to lose)",
+            "町[まち] (town)"
+          ],
+          "correctIndex": 0,
+          "explanation": "マジ is a clipping of 真面目[まじめ] ('serious / earnest'), which is why it means 'seriously / for real'."
+        },
+        {
+          "id": "intens_q8",
+          "type": "construct",
+          "prompt": "Say 'It's super cold today' as casually as possible.",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]はとても寒[さむ]いです",
+            "今日[きょう]めっちゃ寒[さむ]い",
+            "今日[きょう]は寒[さむ]いでしょうか",
+            "今日[きょう]は寒[さむ]くありません"
+          ],
+          "correctIndex": 1,
+          "explanation": "Casual speech drops は and です and swaps とても for めっちゃ: 今日[きょう]めっちゃ寒[さむ]い."
+        }
+      ]
+    },
+    {
+      "id": "yabai",
+      "name": "やばい (yabai) — the all-purpose word",
+      "shortDescription": "Originally 'dangerous', now means terrible, amazing, or just 'wow' — context decides everything.",
+      "explanation": "If you learn one slang word, learn this one. やばい is the Swiss army knife of modern Japanese, and young speakers use it dozens of times a day.\n\nIt began as underworld slang meaning 'dangerous' or 'this is bad for me', and that original sense is alive and well:\n- やばい、遅刻[ちこく]する！ (Oh no, I'm going to be late!)\n\nFrom there it broadened into a general negative:\n- この味[あじ]やばい (This tastes awful)\n\nAnd then — the twist that confuses learners — it flipped and became positive:\n- この景色[けしき]やばい (This view is unreal)\n\nIt also works as a pure intensifier: やばいくらいおいしい means 'ridiculously delicious'.\n\nSo how do you know which one is meant? Tone of voice, facial expression, and situation carry all the weight. A rising, delighted やばい！ over a dessert is praise; a flat, panicked やばい with a glance at the clock is trouble. When you are unsure, listen to how it is said rather than what it means on paper.\n\nOlder speakers may still hear only the negative sense, and it is casual in every meaning — never use it in a business setting.",
+      "formation": "やばい (plain) | やばかった (past) | やば / やっべ (clipped exclamations)",
+      "rules": [
+        "Original sense: dangerous / in trouble — やばい、財布[さいふ]忘[わす]れた",
+        "Negative: awful, bad — この味[あじ]やばい",
+        "Positive: amazing, incredible — この景色[けしき]やばい",
+        "Intensifier: やばいくらい〜 = 'ridiculously ~'",
+        "Tone and context decide the meaning; casual only, and older speakers may hear only the negative"
+      ],
+      "examples": [
+        {
+          "japanese": "やばい、財布[さいふ]忘[わす]れた。",
+          "romaji": "Yabai, saifu wasureta.",
+          "english": "Oh no, I forgot my wallet."
+        },
+        {
+          "japanese": "このケーキやばい、おいしすぎ。",
+          "romaji": "Kono keeki yabai, oishisugi.",
+          "english": "This cake is insane — way too good."
+        },
+        {
+          "japanese": "あの映画[えいが]、マジでやばかった。",
+          "romaji": "Ano eiga, maji de yabakatta.",
+          "english": "That movie was seriously incredible."
+        },
+        {
+          "japanese": "やばいくらい寒[さむ]い。",
+          "romaji": "Yabai kurai samui.",
+          "english": "It's ridiculously cold."
+        }
+      ],
+      "flashcardHeader": "やばい",
+      "flashcardAnswer": "All-purpose slang: 'dangerous / awful / amazing / ridiculously' — tone and context decide which.",
+      "practice": [
+        {
+          "id": "yabai_q1",
+          "type": "usage",
+          "prompt": "What was やばい's original meaning?",
+          "japanese": null,
+          "choices": [
+            "Delicious",
+            "Dangerous / risky",
+            "Beautiful",
+            "Expensive"
+          ],
+          "correctIndex": 1,
+          "explanation": "やばい started as underworld slang for 'dangerous' or 'this is bad for me'. That sense survives in やばい、遅刻[ちこく]する！"
+        },
+        {
+          "id": "yabai_q2",
+          "type": "translation",
+          "prompt": "Your friend tastes dessert, smiles hugely and says やばい！ What do they mean?",
+          "japanese": "やばい！",
+          "choices": [
+            "This is amazing",
+            "This is dangerous to eat",
+            "This is too expensive",
+            "This is not sweet enough"
+          ],
+          "correctIndex": 0,
+          "explanation": "With a delighted tone and expression, やばい is high praise — 'this is unbelievably good'. Tone carries the meaning."
+        },
+        {
+          "id": "yabai_q3",
+          "type": "translation",
+          "prompt": "What does やばい、電車[でんしゃ]行[い]っちゃった mean?",
+          "japanese": "やばい、電車[でんしゃ]行[い]っちゃった。",
+          "choices": [
+            "Great, the train is here.",
+            "Oh no, the train left.",
+            "The train is amazing.",
+            "I don't take the train."
+          ],
+          "correctIndex": 1,
+          "explanation": "Here やばい is the original 'oh no, I'm in trouble' sense, and 行[い]っちゃった (from 行[い]ってしまった) shows the train has regrettably gone."
+        },
+        {
+          "id": "yabai_q4",
+          "type": "usage",
+          "prompt": "How do you tell whether やばい is positive or negative?",
+          "japanese": null,
+          "choices": [
+            "By the particle that follows it",
+            "By tone of voice, expression and situation",
+            "By whether it is written in kanji",
+            "It is always negative"
+          ],
+          "correctIndex": 1,
+          "explanation": "The word itself is neutral. Delivery does the work — a delighted rise is praise, a flat or panicked delivery is trouble."
+        },
+        {
+          "id": "yabai_q5",
+          "type": "translation",
+          "prompt": "What does やばいくらいおいしい mean?",
+          "japanese": "やばいくらいおいしい。",
+          "choices": [
+            "Ridiculously delicious",
+            "Dangerous to eat",
+            "Not very tasty",
+            "Slightly sweet"
+          ],
+          "correctIndex": 0,
+          "explanation": "やばいくらい means 'to a ridiculous degree', so this is 'ridiculously delicious' — やばい acting as a pure intensifier."
+        },
+        {
+          "id": "yabai_q6",
+          "type": "usage",
+          "prompt": "Where should you avoid using やばい?",
+          "japanese": null,
+          "choices": [
+            "With close friends",
+            "In a business meeting",
+            "In a text to a classmate",
+            "When talking to yourself"
+          ],
+          "correctIndex": 1,
+          "explanation": "やばい is casual in every one of its meanings. In business, use 大変[たいへん]です for trouble or すばらしい for praise."
+        },
+        {
+          "id": "yabai_q7",
+          "type": "fillBlank",
+          "prompt": "Put やばい into the past tense.",
+          "japanese": "あのライブ、____！",
+          "choices": [
+            "やばいでした",
+            "やばかった",
+            "やばくない",
+            "やばいだった"
+          ],
+          "correctIndex": 1,
+          "explanation": "やばい is an い-adjective, so the past is やばかった. あのライブやばかった = 'That concert was incredible.'"
+        },
+        {
+          "id": "yabai_q8",
+          "type": "usage",
+          "prompt": "Why might an older Japanese person misunderstand your delighted やばい？",
+          "japanese": null,
+          "choices": [
+            "They may only know the older, negative meaning",
+            "It is a regional word they never hear",
+            "It is too formal for conversation",
+            "It is only used in writing"
+          ],
+          "correctIndex": 0,
+          "explanation": "The positive use is relatively recent. Older speakers may hear only 'dangerous / awful', so praising their cooking with やばい could land badly."
+        }
+      ]
+    },
+    {
+      "id": "aizuchi-reactions",
+      "name": "それな / ウケる / なるほど — reactions and 相槌[あいづち]",
+      "shortDescription": "Japanese conversation expects constant reactions — silence reads as 'not listening'.",
+      "explanation": "In English you can listen quietly and nod. In Japanese, staying silent while someone talks feels cold, or like the line dropped. The listener is expected to fill the gaps with 相槌[あいづち] — short back-channel sounds and reactions that mean 'I'm with you, keep going'.\n\nThe basic set is うん (yeah), そう (right), へえ (huh, interesting) and ほんと？ (really?). Beyond those, casual conversation has its own vocabulary:\n\n- それな — 'so true / exactly'. Very common among younger speakers; agreeing hard with what was just said.\n- ウケる — 'that's hilarious', literally 'it lands'. Note it describes the joke, not you laughing.\n- たしかに — 'true, fair point'. Conceding that someone is right.\n- なるほど — 'ah, I see'. Careful: to a superior it can sound like you are grading their explanation. なるほど、そうですね is safer, or just そうなんですね.\n- マジ？/ うそ！ — 'for real? / no way!'. うそ literally means 'lie', but nobody is calling you a liar; it is pure surprise.\n\nTiming matters more than variety. Reacting every few seconds sounds engaged; saving one comment for the end sounds distant.",
+      "formation": "Standalone responses inserted while the other person is talking",
+      "rules": [
+        "相槌[あいづち] are expected — silence reads as disinterest, not politeness",
+        "それな = 'exactly / so true' (young, very casual)",
+        "ウケる = 'that's hilarious' — describes the joke, not your laughter",
+        "なるほど can sound condescending to a superior; prefer そうなんですね",
+        "うそ！ means 'no way!', not an accusation of lying"
+      ],
+      "examples": [
+        {
+          "japanese": "「宿題[しゅくだい]多[おお]すぎ」「それな」",
+          "romaji": "\"Shukudai oosugi.\" \"Sore na.\"",
+          "english": "\"Way too much homework.\" \"Right?!\""
+        },
+        {
+          "japanese": "それウケる。",
+          "romaji": "Sore ukeru.",
+          "english": "That's hilarious."
+        },
+        {
+          "japanese": "えっ、マジ？うそ！",
+          "romaji": "E, maji? Uso!",
+          "english": "Wait, seriously? No way!"
+        },
+        {
+          "japanese": "たしかに、そうかも。",
+          "romaji": "Tashika ni, sou kamo.",
+          "english": "True — that might be right."
+        }
+      ],
+      "flashcardHeader": "それな / ウケる / たしかに",
+      "flashcardAnswer": "Casual reactions: 'exactly / that's hilarious / fair point' — Japanese conversation expects constant back-channeling.",
+      "practice": [
+        {
+          "id": "aizuchi_q1",
+          "type": "usage",
+          "prompt": "What is 相槌[あいづち]?",
+          "japanese": null,
+          "choices": [
+            "Short reactions showing you are listening",
+            "A formal greeting",
+            "A type of question particle",
+            "A written punctuation mark"
+          ],
+          "correctIndex": 0,
+          "explanation": "相槌[あいづち] are back-channel responses like うん, へえ and そう. They signal 'I'm following you' — leaving them out feels cold in Japanese."
+        },
+        {
+          "id": "aizuchi_q2",
+          "type": "translation",
+          "prompt": "A friend complains about work and you strongly agree. What do you say?",
+          "japanese": null,
+          "choices": [
+            "それな",
+            "どういたしまして",
+            "おつかれさま",
+            "はじめまして"
+          ],
+          "correctIndex": 0,
+          "explanation": "それな means 'exactly / so true' — hard agreement with what was just said. It is very casual and very common among younger speakers."
+        },
+        {
+          "id": "aizuchi_q3",
+          "type": "usage",
+          "prompt": "What does ウケる describe?",
+          "japanese": null,
+          "choices": [
+            "That the joke is funny",
+            "That you are laughing politely",
+            "That you did not understand",
+            "That you disagree"
+          ],
+          "correctIndex": 0,
+          "explanation": "ウケる literally means 'it lands / it goes over well'. It describes the joke itself being funny, not the act of laughing."
+        },
+        {
+          "id": "aizuchi_q4",
+          "type": "usage",
+          "prompt": "Why be careful saying なるほど to your boss?",
+          "japanese": null,
+          "choices": [
+            "It is grammatically incorrect",
+            "It can sound like you are evaluating their explanation",
+            "It is too casual to be understood",
+            "It means you disagree"
+          ],
+          "correctIndex": 1,
+          "explanation": "なるほど carries a faint 'ah, that checks out' — like grading the speaker. With superiors, そうなんですね or なるほど、そうですね is safer."
+        },
+        {
+          "id": "aizuchi_q5",
+          "type": "translation",
+          "prompt": "Your friend shares surprising news and you say うそ！ What does this mean?",
+          "japanese": "うそ！",
+          "choices": [
+            "You are lying to me",
+            "No way! / Really?!",
+            "That's boring",
+            "Say it again"
+          ],
+          "correctIndex": 1,
+          "explanation": "Although うそ literally means 'lie', as a reaction it is pure surprise — the equivalent of 'no way!' No accusation is intended."
+        },
+        {
+          "id": "aizuchi_q6",
+          "type": "usage",
+          "prompt": "Which reaction concedes that the other person has a fair point?",
+          "japanese": null,
+          "choices": [
+            "ウケる",
+            "たしかに",
+            "うそ",
+            "やばい"
+          ],
+          "correctIndex": 1,
+          "explanation": "たしかに means 'true / certainly' — you are acknowledging their point is valid, often before adding your own thought."
+        },
+        {
+          "id": "aizuchi_q7",
+          "type": "usage",
+          "prompt": "On the phone, your Japanese friend keeps saying うん、うん while you talk. What does this mean?",
+          "japanese": null,
+          "choices": [
+            "They want you to stop talking",
+            "They are showing they are listening",
+            "They are agreeing to a request",
+            "They are confused"
+          ],
+          "correctIndex": 1,
+          "explanation": "Frequent うん is normal 相槌[あいづち] — 'I'm here, keep going'. It is not impatience or full agreement with everything said."
+        },
+        {
+          "id": "aizuchi_q8",
+          "type": "usage",
+          "prompt": "Which pair fits a casual conversation between friends?",
+          "japanese": null,
+          "choices": [
+            "それな / ウケる",
+            "恐[おそ]れ入[い]ります / 承知[しょうち]しました",
+            "いらっしゃいませ / かしこまりました",
+            "お世話[せわ]になっております / 失礼[しつれい]します"
+          ],
+          "correctIndex": 0,
+          "explanation": "それな and ウケる are casual friend-to-friend reactions. The other options are business or service-industry set phrases."
+        }
+      ]
+    },
+    {
+      "id": "casual-complaints",
+      "name": "うざい / きもい / だるい / めんどい — casual complaints",
+      "shortDescription": "High-frequency complaint words — and the social rules that keep them from causing real offense.",
+      "explanation": "These four are everywhere in casual Japanese, and they are the fastest way for a learner to accidentally be rude. Learn them for listening first, and use them carefully.\n\n- だるい — sluggish, heavy, can't be bothered. Physical or mental: 今日[きょう]なんかだるい. The safest of the four, because it describes you.\n- めんどい — shortened 面倒[めんどう]くさい, 'what a hassle'. Also safe; it targets a task, not a person.\n- うざい — annoying, irritating (from うざったい). Aimed at a thing it is fine; aimed at a person it is genuinely insulting.\n- きもい — gross, creepy (from 気持[きも]ち悪[わる]い). Aimed at a bug or a smell it is ordinary; aimed at a person it is a real insult, and it is a well-known word in Japanese school bullying.\n\nThe useful rule: complaining about a situation is normal, complaining about a person is an attack. 通知[つうち]うざい (these notifications are annoying) is unremarkable. あの人[ひと]うざい said within earshot will end a friendship.\n\nRegister: friends, family, and people your own age only. Never to a teacher, boss, customer, or someone older — and never about them where they might hear. In polite company use 疲[つか]れました for tiredness or 大変[たいへん]です for a hassle.",
+      "formation": "い-adjectives: だるい / めんどい / うざい / きもい (past: 〜かった, negative: 〜くない)",
+      "rules": [
+        "だるい = sluggish, no energy — describes you, so it is the safest",
+        "めんどい = 面倒[めんどう]くさい shortened, 'what a hassle' — targets a task",
+        "うざい = annoying; fine for things, insulting for people",
+        "きもい = gross / creepy; a genuine insult when aimed at a person",
+        "Friends and family only — never to a teacher, boss, or customer"
+      ],
+      "examples": [
+        {
+          "japanese": "今日[きょう]なんかだるい。",
+          "romaji": "Kyou nanka darui.",
+          "english": "I feel kind of sluggish today."
+        },
+        {
+          "japanese": "掃除[そうじ]めんどい。",
+          "romaji": "Souji mendoi.",
+          "english": "Cleaning is such a hassle."
+        },
+        {
+          "japanese": "通知[つうち]がうざい。",
+          "romaji": "Tsuuchi ga uzai.",
+          "english": "These notifications are annoying."
+        },
+        {
+          "japanese": "この虫[むし]きもい。",
+          "romaji": "Kono mushi kimoi.",
+          "english": "This bug is gross."
+        }
+      ],
+      "flashcardHeader": "うざい / きもい / だるい / めんどい",
+      "flashcardAnswer": "Casual complaints: annoying / gross / sluggish / a hassle. Safe about things, insulting about people.",
+      "practice": [
+        {
+          "id": "complain_q1",
+          "type": "usage",
+          "prompt": "Which of these is a genuine insult when aimed at a person?",
+          "japanese": null,
+          "choices": [
+            "だるい",
+            "めんどい",
+            "きもい",
+            "ねむい"
+          ],
+          "correctIndex": 2,
+          "explanation": "きもい (from 気持[きも]ち悪[わる]い) means 'gross / creepy'. Aimed at a bug it is ordinary; aimed at a person it is a real insult."
+        },
+        {
+          "id": "complain_q2",
+          "type": "translation",
+          "prompt": "What does 掃除[そうじ]めんどい mean?",
+          "japanese": "掃除[そうじ]めんどい。",
+          "choices": [
+            "Cleaning is fun.",
+            "Cleaning is such a hassle.",
+            "I finished cleaning.",
+            "I'm bad at cleaning."
+          ],
+          "correctIndex": 1,
+          "explanation": "めんどい is shortened 面倒[めんどう]くさい — 'what a pain / such a hassle'. It targets the task, so it is socially safe."
+        },
+        {
+          "id": "complain_q3",
+          "type": "usage",
+          "prompt": "What is めんどい short for?",
+          "japanese": null,
+          "choices": [
+            "面倒[めんどう]くさい",
+            "面白[おもしろ]い",
+            "眠[ねむ]たい",
+            "難[むずか]しい"
+          ],
+          "correctIndex": 0,
+          "explanation": "めんどい clips 面倒[めんどう]くさい ('troublesome, a hassle') down to a faster, casual form."
+        },
+        {
+          "id": "complain_q4",
+          "type": "usage",
+          "prompt": "You are tired at work and your manager asks how you are. What should you say?",
+          "japanese": null,
+          "choices": [
+            "だるいです",
+            "ちょっと疲[つか]れました",
+            "めんどいです",
+            "うざいです"
+          ],
+          "correctIndex": 1,
+          "explanation": "疲[つか]れました is the polite way to say you are tired. だるい and めんどい are casual, and うざい would sound like you are insulting the work or the person."
+        },
+        {
+          "id": "complain_q5",
+          "type": "usage",
+          "prompt": "Which sentence is socially safe?",
+          "japanese": null,
+          "choices": [
+            "あの先生[せんせい]うざい",
+            "この通知[つうち]うざい",
+            "田中[たなか]さんきもい",
+            "部長[ぶちょう]めんどい"
+          ],
+          "correctIndex": 1,
+          "explanation": "Complaining about a thing (notifications) is unremarkable. The other three aim these words at people — insulting, and risky if overheard."
+        },
+        {
+          "id": "complain_q6",
+          "type": "fillBlank",
+          "prompt": "Put だるい into the past tense.",
+          "japanese": "昨日[きのう]は一日[いちにち]____。",
+          "choices": [
+            "だるいでした",
+            "だるかった",
+            "だるくない",
+            "だるいだった"
+          ],
+          "correctIndex": 1,
+          "explanation": "だるい is an い-adjective, so the past is だるかった: 昨日[きのう]は一日[いちにち]だるかった = 'I felt sluggish all day yesterday.'"
+        },
+        {
+          "id": "complain_q7",
+          "type": "usage",
+          "prompt": "Which word describes your own low-energy, heavy feeling?",
+          "japanese": null,
+          "choices": [
+            "うざい",
+            "きもい",
+            "だるい",
+            "ずるい"
+          ],
+          "correctIndex": 2,
+          "explanation": "だるい describes your own body or mood feeling heavy and sluggish — the closest to 'blah' or 'wiped out'."
+        },
+        {
+          "id": "complain_q8",
+          "type": "usage",
+          "prompt": "What is the general rule for using these words safely?",
+          "japanese": null,
+          "choices": [
+            "Only use them in writing",
+            "Complain about situations, not people",
+            "Only use them with superiors",
+            "Always add です to soften them"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aimed at a task or object they are normal casual speech. Aimed at a person they become an attack — and adding です does not fix that."
+        }
+      ]
+    },
+    {
+      "id": "ryakugo-net",
+      "name": "略語[りゃくご] とネットスラング — abbreviations and internet slang",
+      "shortDescription": "Japanese clips long words down to four beats — plus the vocabulary born online.",
+      "explanation": "Japanese has a strong habit of shortening long words, especially borrowed ones, down to about four moras (beats). Once you notice the pattern you can decode new abbreviations on sight.\n\n- コンビニエンスストア → コンビニ (convenience store)\n- スマートフォン → スマホ (smartphone)\n- アルバイト → バイト (part-time job)\n- パーソナルコンピューター → パソコン (PC)\n- ファミリーレストラン → ファミレス (family restaurant)\n\nThe same trick works on Japanese phrases: 土壇場[どたんば]キャンセル → ドタキャン (a last-minute cancellation), 就職[しゅうしょく]活動[かつどう] → 就活[しゅうかつ] (job hunting).\n\nThe internet then produced its own layer, now common in everyday speech among younger people:\n\n- 草[くさ] / w — 'lol'. 笑[わら]い became w, and a row of wwww looked like grass growing, so the word for grass became the word for laughter.\n- エモい — from English 'emotional'; moving, nostalgic, hits you in the feelings.\n- ワンチャン — from 'one chance'; 'there's a chance / maybe': ワンチャン間[ま]に合[あ]う.\n- 推[お]し — the member, character or artist you support most. 推[お]し活[かつ] is the hobby of supporting them.\n- 沼[ぬま] — a 'swamp': a hobby you sink into and cannot climb out of.\n\nAbbreviations like コンビニ and バイト are completely standard and safe in any register. 草[くさ] and ワンチャン are casual and young — fine in a group chat, odd in an email to your professor.",
+      "formation": "Long word → first ~4 moras  |  Compound phrase → 2 moras + 2 moras (ドタキャン)",
+      "rules": [
+        "Clipping rule: long borrowings get cut to about four moras — スマートフォン → スマホ",
+        "Compounds take two beats from each half: 土壇場[どたんば]キャンセル → ドタキャン",
+        "草[くさ] / w = 'lol' — from 笑[わら]い, because wwww looks like grass",
+        "エモい = moving / nostalgic; ワンチャン = 'there's a chance'",
+        "推[お]し = your favourite member or character; 沼[ぬま] = an inescapable hobby",
+        "コンビニ・バイト・パソコン are fully standard; 草[くさ] and ワンチャン are casual and young"
+      ],
+      "examples": [
+        {
+          "japanese": "コンビニ寄[よ]ってく？",
+          "romaji": "Konbini yotteku?",
+          "english": "Wanna stop by the convenience store?"
+        },
+        {
+          "japanese": "ドタキャンしてごめん！",
+          "romaji": "Dotakyan shite gomen!",
+          "english": "Sorry for cancelling at the last second!"
+        },
+        {
+          "japanese": "それ草[くさ]。",
+          "romaji": "Sore kusa.",
+          "english": "That's hilarious. (lol)"
+        },
+        {
+          "japanese": "ワンチャン間[ま]に合[あ]うかも。",
+          "romaji": "Wanchan ma ni au kamo.",
+          "english": "There's a chance we might still make it."
+        }
+      ],
+      "flashcardHeader": "略語[りゃくご] / ネットスラング",
+      "flashcardAnswer": "Words clipped to ~4 moras (コンビニ, スマホ, バイト, ドタキャン) plus internet slang (草[くさ], エモい, ワンチャン, 推[お]し).",
+      "practice": [
+        {
+          "id": "ryaku_q1",
+          "type": "usage",
+          "prompt": "What is スマホ short for?",
+          "japanese": null,
+          "choices": [
+            "スマートフォン",
+            "スマートホーム",
+            "スケジュール帳[ちょう]",
+            "スーパーマーケット"
+          ],
+          "correctIndex": 0,
+          "explanation": "スマートフォン (smartphone) clips to the first four moras: スマホ. This four-mora pattern drives most Japanese abbreviations."
+        },
+        {
+          "id": "ryaku_q2",
+          "type": "usage",
+          "prompt": "What does ドタキャン mean?",
+          "japanese": null,
+          "choices": [
+            "A double booking",
+            "A last-minute cancellation",
+            "A surprise party",
+            "A group discount"
+          ],
+          "correctIndex": 1,
+          "explanation": "ドタキャン comes from 土壇場[どたんば] ('the last moment') + キャンセル — cancelling right before the event."
+        },
+        {
+          "id": "ryaku_q3",
+          "type": "usage",
+          "prompt": "Why does 草[くさ] ('grass') mean 'lol'?",
+          "japanese": null,
+          "choices": [
+            "Laughter sounds like rustling grass",
+            "笑[わら]い became w, and wwww looks like grass",
+            "It comes from a TV comedy show",
+            "Grass is a symbol of joy in Japan"
+          ],
+          "correctIndex": 1,
+          "explanation": "笑[わら]い was abbreviated to w online. A long string of wwwww resembles blades of grass, so 草[くさ] itself came to mean laughter."
+        },
+        {
+          "id": "ryaku_q4",
+          "type": "translation",
+          "prompt": "What does バイト mean?",
+          "japanese": "バイトが忙[いそが]しい。",
+          "choices": [
+            "My part-time job is busy.",
+            "My bike is broken.",
+            "The bite was painful.",
+            "The website is slow."
+          ],
+          "correctIndex": 0,
+          "explanation": "バイト is clipped from アルバイト (part-time job), itself borrowed from German 'Arbeit'."
+        },
+        {
+          "id": "ryaku_q5",
+          "type": "usage",
+          "prompt": "Your friend calls a new album エモい. What do they mean?",
+          "japanese": "このアルバム、エモい。",
+          "choices": [
+            "It is too loud",
+            "It is moving and nostalgic",
+            "It is badly produced",
+            "It is very short"
+          ],
+          "correctIndex": 1,
+          "explanation": "エモい comes from English 'emotional' — it describes something that hits you in the feelings, often with a nostalgic edge."
+        },
+        {
+          "id": "ryaku_q6",
+          "type": "translation",
+          "prompt": "What does ワンチャン行[い]けるかも mean?",
+          "japanese": "ワンチャン行[い]けるかも。",
+          "choices": [
+            "There's a chance I can go.",
+            "I definitely can't go.",
+            "I went once before.",
+            "Let's go together."
+          ],
+          "correctIndex": 0,
+          "explanation": "ワンチャン (from 'one chance') means 'there's a possibility'. Combined with かも it is a hedged 'I might be able to make it.'"
+        },
+        {
+          "id": "ryaku_q7",
+          "type": "usage",
+          "prompt": "Which word means your favourite idol, character or performer?",
+          "japanese": null,
+          "choices": [
+            "沼[ぬま]",
+            "推[お]し",
+            "草[くさ]",
+            "バイト"
+          ],
+          "correctIndex": 1,
+          "explanation": "推[お]し comes from 推[お]す ('to push / recommend') — the one you support most. 沼[ぬま] is the 'swamp' hobby you cannot escape."
+        },
+        {
+          "id": "ryaku_q8",
+          "type": "usage",
+          "prompt": "Which of these is safe to use in an email to your professor?",
+          "japanese": null,
+          "choices": [
+            "草[くさ]",
+            "ワンチャン",
+            "コンビニ",
+            "それな"
+          ],
+          "correctIndex": 2,
+          "explanation": "コンビニ is fully standard Japanese that everyone uses in any register. 草[くさ], ワンチャン and それな are casual and young — keep them for friends."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "slang_v01",
+      "partOfSpeech": "i-adjective",
+      "kanji": "やばい",
+      "kana": "やばい",
+      "romaji": "yabai",
+      "definition": "amazing; awful; intense (context decides)"
+    },
+    {
+      "id": "slang_v02",
+      "partOfSpeech": "adverb",
+      "kanji": "めっちゃ",
+      "kana": "めっちゃ",
+      "romaji": "meccha",
+      "definition": "super; really (casual)"
+    },
+    {
+      "id": "slang_v03",
+      "partOfSpeech": "adverb",
+      "kanji": "マジで",
+      "kana": "マジで",
+      "romaji": "maji de",
+      "definition": "seriously; for real"
+    },
+    {
+      "id": "slang_v04",
+      "partOfSpeech": "adverb",
+      "kanji": "ガチで",
+      "kana": "ガチで",
+      "romaji": "gachi de",
+      "definition": "legitimately; no joke"
+    },
+    {
+      "id": "slang_v05",
+      "partOfSpeech": "adverb",
+      "kanji": "超",
+      "kana": "ちょう",
+      "romaji": "chou",
+      "definition": "super; ultra (casual intensifier)"
+    },
+    {
+      "id": "slang_v06",
+      "partOfSpeech": "i-adjective",
+      "kanji": "うざい",
+      "kana": "うざい",
+      "romaji": "uzai",
+      "definition": "annoying; irritating"
+    },
+    {
+      "id": "slang_v07",
+      "partOfSpeech": "i-adjective",
+      "kanji": "きもい",
+      "kana": "きもい",
+      "romaji": "kimoi",
+      "definition": "gross; creepy (insulting toward people)"
+    },
+    {
+      "id": "slang_v08",
+      "partOfSpeech": "i-adjective",
+      "kanji": "だるい",
+      "kana": "だるい",
+      "romaji": "darui",
+      "definition": "sluggish; no energy; a drag"
+    },
+    {
+      "id": "slang_v09",
+      "partOfSpeech": "i-adjective",
+      "kanji": "めんどい",
+      "kana": "めんどい",
+      "romaji": "mendoi",
+      "definition": "a hassle; troublesome"
+    },
+    {
+      "id": "slang_v10",
+      "partOfSpeech": "i-adjective",
+      "kanji": "しんどい",
+      "kana": "しんどい",
+      "romaji": "shindoi",
+      "definition": "exhausting; rough; tough going"
+    },
+    {
+      "id": "slang_v11",
+      "partOfSpeech": "verb",
+      "kanji": "ウケる",
+      "kana": "ウケる",
+      "romaji": "ukeru",
+      "definition": "that's hilarious; it lands"
+    },
+    {
+      "id": "slang_v12",
+      "partOfSpeech": "expression",
+      "kanji": "それな",
+      "kana": "それな",
+      "romaji": "sore na",
+      "definition": "exactly; so true"
+    },
+    {
+      "id": "slang_v13",
+      "partOfSpeech": "expression",
+      "kanji": "たしかに",
+      "kana": "たしかに",
+      "romaji": "tashika ni",
+      "definition": "true; fair point"
+    },
+    {
+      "id": "slang_v14",
+      "partOfSpeech": "expression",
+      "kanji": "なるほど",
+      "kana": "なるほど",
+      "romaji": "naruhodo",
+      "definition": "ah, I see; that makes sense"
+    },
+    {
+      "id": "slang_v15",
+      "partOfSpeech": "expression",
+      "kanji": "うそ",
+      "kana": "うそ",
+      "romaji": "uso",
+      "definition": "no way!; you're kidding (surprise)"
+    },
+    {
+      "id": "slang_v16",
+      "partOfSpeech": "particle",
+      "kanji": "じゃん",
+      "kana": "じゃん",
+      "romaji": "jan",
+      "definition": "right?; isn't it (seeking agreement)"
+    },
+    {
+      "id": "slang_v17",
+      "partOfSpeech": "particle",
+      "kanji": "っしょ",
+      "kana": "っしょ",
+      "romaji": "ssho",
+      "definition": "right? (casual でしょ)"
+    },
+    {
+      "id": "slang_v18",
+      "partOfSpeech": "particle",
+      "kanji": "っけ",
+      "kana": "っけ",
+      "romaji": "kke",
+      "definition": "what was it again? (recalling)"
+    },
+    {
+      "id": "slang_v19",
+      "partOfSpeech": "adverb",
+      "kanji": "ぶっちゃけ",
+      "kana": "ぶっちゃけ",
+      "romaji": "bucchake",
+      "definition": "honestly; to be blunt"
+    },
+    {
+      "id": "slang_v20",
+      "partOfSpeech": "adverb",
+      "kanji": "とりあえず",
+      "kana": "とりあえず",
+      "romaji": "toriaezu",
+      "definition": "for now; first of all"
+    },
+    {
+      "id": "slang_v21",
+      "partOfSpeech": "na-adjective",
+      "kanji": "微妙",
+      "kana": "びみょう",
+      "romaji": "bimyou",
+      "definition": "iffy; so-so; not great"
+    },
+    {
+      "id": "slang_v22",
+      "partOfSpeech": "adverb",
+      "kanji": "やっぱり",
+      "kana": "やっぱり",
+      "romaji": "yappari",
+      "definition": "as I thought; after all"
+    },
+    {
+      "id": "slang_v23",
+      "partOfSpeech": "noun",
+      "kanji": "コンビニ",
+      "kana": "コンビニ",
+      "romaji": "konbini",
+      "definition": "convenience store"
+    },
+    {
+      "id": "slang_v24",
+      "partOfSpeech": "noun",
+      "kanji": "スマホ",
+      "kana": "スマホ",
+      "romaji": "sumaho",
+      "definition": "smartphone"
+    },
+    {
+      "id": "slang_v25",
+      "partOfSpeech": "noun",
+      "kanji": "バイト",
+      "kana": "バイト",
+      "romaji": "baito",
+      "definition": "part-time job"
+    },
+    {
+      "id": "slang_v26",
+      "partOfSpeech": "noun",
+      "kanji": "パソコン",
+      "kana": "パソコン",
+      "romaji": "pasokon",
+      "definition": "computer; PC"
+    },
+    {
+      "id": "slang_v27",
+      "partOfSpeech": "noun",
+      "kanji": "ファミレス",
+      "kana": "ファミレス",
+      "romaji": "famiresu",
+      "definition": "family restaurant"
+    },
+    {
+      "id": "slang_v28",
+      "partOfSpeech": "noun",
+      "kanji": "ドタキャン",
+      "kana": "ドタキャン",
+      "romaji": "dotakyan",
+      "definition": "last-minute cancellation"
+    },
+    {
+      "id": "slang_v29",
+      "partOfSpeech": "noun",
+      "kanji": "草",
+      "kana": "くさ",
+      "romaji": "kusa",
+      "definition": "lol (internet slang)"
+    },
+    {
+      "id": "slang_v30",
+      "partOfSpeech": "i-adjective",
+      "kanji": "エモい",
+      "kana": "エモい",
+      "romaji": "emoi",
+      "definition": "moving; nostalgic; emotional"
+    },
+    {
+      "id": "slang_v31",
+      "partOfSpeech": "adverb",
+      "kanji": "ワンチャン",
+      "kana": "ワンチャン",
+      "romaji": "wanchan",
+      "definition": "there's a chance; maybe"
+    },
+    {
+      "id": "slang_v32",
+      "partOfSpeech": "noun",
+      "kanji": "推し",
+      "kana": "おし",
+      "romaji": "oshi",
+      "definition": "one's favourite idol or character"
+    },
+    {
+      "id": "slang_v33",
+      "partOfSpeech": "noun",
+      "kanji": "沼",
+      "kana": "ぬま",
+      "romaji": "numa",
+      "definition": "an obsession you can't escape (lit. swamp)"
+    },
+    {
+      "id": "slang_v34",
+      "partOfSpeech": "expression",
+      "kanji": "空気を読む",
+      "kana": "くうきをよむ",
+      "romaji": "kuuki o yomu",
+      "definition": "to read the room"
+    }
+  ],
+  "kanji": null
+}

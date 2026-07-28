@@ -29,9 +29,8 @@ final class VocabFlashcardsFilter: ObservableObject {
     /// chapter the user manually deselects is not re-added on the next sync.
     @Published private(set) var autoSelectedChapterIds: Set<String> = [] { didSet { persistSelection() } }
 
-    // Weighted shuffle (mirrors the kanji/grammar flashcards)
-    @Published var weightMode: WeightMode = .none
-    @Published var weightStrength: Double = 0.25
+    // Per-word study counts. The weighting *setting* (mode + strength) lives in
+    // the app-wide StudyWeightSettings; only the counts are per-word here.
     @Published private(set) var needsWorkCounts: [String: Int] = [:]
     @Published private(set) var confidentCounts: [String: Int] = [:]
 
@@ -50,7 +49,7 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     var hasActiveFilter: Bool {
-        !selectedChapterIds.isEmpty || !selectedWordIds.isEmpty || showFavoritesOnly || weightMode != .none
+        !selectedChapterIds.isEmpty || !selectedWordIds.isEmpty || showFavoritesOnly
     }
 
     // MARK: - Favorites
@@ -96,32 +95,32 @@ final class VocabFlashcardsFilter: ObservableObject {
 
     // MARK: - Study weights
 
-    func markNeedsWork(_ wordId: String) { needsWorkCounts[wordId, default: 0] += 1; saveWeights() }
-    func markConfident(_ wordId: String) { confidentCounts[wordId, default: 0] += 1; saveWeights() }
-    func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }
+    // Both tallies are recorded on every answer, whatever the priority mode is set
+    // to — the mode only decides how the counts are *used* when picking a card.
 
-    /// Picks a card, biasing toward "harder" (Don't Know) or "easier" (Got It)
-    /// words when a weight mode is active. Same formula as CardStore.selectWeighted.
-    func selectWeighted(from cards: [VocabFlashCard]) -> VocabFlashCard? {
-        selectWeighted(from: cards, mode: weightMode, strength: weightStrength)
+    func markNeedsWork(_ wordId: String) { needsWorkCounts[wordId, default: 0] += 1; saveWeights() }
+    /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
+    func unmarkNeedsWork(_ wordId: String) {
+        guard let c = needsWorkCounts[wordId], c > 0 else { return }
+        if c - 1 == 0 { needsWorkCounts.removeValue(forKey: wordId) }
+        else { needsWorkCounts[wordId] = c - 1 }
+        saveWeights()
     }
 
-    /// Same as above but with an explicit mode/strength — lets a chapter's Study
-    /// Vocab session weight independently of the Study section.
-    func selectWeighted(from cards: [VocabFlashCard], mode: WeightMode, strength: Double) -> VocabFlashCard? {
-        guard !cards.isEmpty else { return nil }
-        guard mode != .none, strength > 0 else { return cards.randomElement() }
-        let weights: [Double] = cards.map { card in
-            let count = mode == .harder ? (needsWorkCounts[card.word.id] ?? 0)
-                                        : (confidentCounts[card.word.id] ?? 0)
-            return 1.0 + Double(count) * 5.0 * strength
-        }
-        var r = Double.random(in: 0..<weights.reduce(0, +))
-        for (i, w) in weights.enumerated() {
-            r -= w
-            if r <= 0 { return cards[i] }
-        }
-        return cards.last
+    func markConfident(_ wordId: String) { confidentCounts[wordId, default: 0] += 1; saveWeights() }
+    /// Undo one "Confident" tally (used by the flashcard back button). Floors at 0.
+    func unmarkConfident(_ wordId: String) {
+        guard let c = confidentCounts[wordId], c > 0 else { return }
+        if c - 1 == 0 { confidentCounts.removeValue(forKey: wordId) }
+        else { confidentCounts[wordId] = c - 1 }
+        saveWeights()
+    }
+    func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }
+
+    /// Picks a card, biasing toward "Needs Work" words when the app-wide
+    /// StudyWeightSettings has prioritization on. Shared logic with the other decks.
+    func selectWeighted(from cards: [VocabFlashCard]) -> VocabFlashCard? {
+        StudyWeightSettings.shared.pick(cards) { needsWorkCounts[$0.word.id] ?? 0 }
     }
 
     // MARK: - Apply
@@ -138,7 +137,9 @@ final class VocabFlashcardsFilter: ObservableObject {
             let favs = result.filter { favoriteWordIds.contains($0.word.id) }
             if !favs.isEmpty { result = favs }
         }
-        result = result.filter { !excludedWordIds.contains($0.word.id) }
+        if StudyWeightSettings.shared.filtersOutCheckedCards {
+            result = result.filter { !excludedWordIds.contains($0.word.id) }
+        }
         return result
     }
 
@@ -147,35 +148,28 @@ final class VocabFlashcardsFilter: ObservableObject {
         autoSelectedChapterIds = []
         selectedWordIds = []
         showFavoritesOnly = false
-        weightMode = .none
     }
 
     // MARK: - Persistence
 
     private func loadFavorites() {
-        guard let data = UserDefaults.standard.data(forKey: favoritesKey),
-              let ids = try? JSONDecoder().decode(Set<String>.self, from: data)
-        else { return }
-        favoriteWordIds = ids
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: favoritesKey) {
+            favoriteWordIds = ids
+        }
     }
 
     private func saveFavorites() {
-        if let data = try? JSONEncoder().encode(favoriteWordIds) {
-            UserDefaults.standard.set(data, forKey: favoritesKey)
-        }
+        UserDefaults.standard.encode(favoriteWordIds, forKey: favoritesKey)
     }
 
     private func loadExcluded() {
-        guard let data = UserDefaults.standard.data(forKey: excludedKey),
-              let ids = try? JSONDecoder().decode(Set<String>.self, from: data)
-        else { return }
-        excludedWordIds = ids
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: excludedKey) {
+            excludedWordIds = ids
+        }
     }
 
     private func saveExcluded() {
-        if let data = try? JSONEncoder().encode(excludedWordIds) {
-            UserDefaults.standard.set(data, forKey: excludedKey)
-        }
+        UserDefaults.standard.encode(excludedWordIds, forKey: excludedKey)
     }
 
     private struct WeightData: Codable {
@@ -184,18 +178,13 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     private func loadWeights() {
-        guard let data = UserDefaults.standard.data(forKey: weightsKey),
-              let d = try? JSONDecoder().decode(WeightData.self, from: data)
-        else { return }
+        guard let d = UserDefaults.standard.decode(WeightData.self, forKey: weightsKey) else { return }
         needsWorkCounts = d.needsWork
         confidentCounts = d.confident
     }
 
     private func saveWeights() {
-        let d = WeightData(needsWork: needsWorkCounts, confident: confidentCounts)
-        if let data = try? JSONEncoder().encode(d) {
-            UserDefaults.standard.set(data, forKey: weightsKey)
-        }
+        UserDefaults.standard.encode(WeightData(needsWork: needsWorkCounts, confident: confidentCounts), forKey: weightsKey)
     }
 
     private struct SelectionData: Codable {
@@ -204,18 +193,13 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     private func loadSelection() {
-        guard let data = UserDefaults.standard.data(forKey: selectionKey),
-              let d = try? JSONDecoder().decode(SelectionData.self, from: data)
-        else { return }
+        guard let d = UserDefaults.standard.decode(SelectionData.self, forKey: selectionKey) else { return }
         selectedChapterIds = d.selected
         autoSelectedChapterIds = d.autoSelected
     }
 
     private func persistSelection() {
         guard didLoad else { return }   // don't persist during init's loadSelection()
-        let d = SelectionData(selected: selectedChapterIds, autoSelected: autoSelectedChapterIds)
-        if let data = try? JSONEncoder().encode(d) {
-            UserDefaults.standard.set(data, forKey: selectionKey)
-        }
+        UserDefaults.standard.encode(SelectionData(selected: selectedChapterIds, autoSelected: autoSelectedChapterIds), forKey: selectionKey)
     }
 }

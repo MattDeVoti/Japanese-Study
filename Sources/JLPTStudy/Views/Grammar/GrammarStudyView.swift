@@ -11,7 +11,7 @@ struct GrammarStudyView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if let card = currentCard {
                 FlashCardDetailView(
@@ -50,6 +50,6 @@ struct GrammarStudyView: View {
     private func pickNext() {
         let p = pool
         guard !p.isEmpty else { currentCard = nil; return }
-        currentCard = store.selectWeightedGrammar(from: p, filter: grammarFilter)
+        currentCard = store.selectWeightedGrammar(from: p)
     }
 }

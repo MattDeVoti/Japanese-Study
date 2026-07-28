@@ -25,11 +25,7 @@ enum CultureContent {
     static let topics: [CultureTopic] = load()
 
     private static func load() -> [CultureTopic] {
-        guard let url = Bundle.main.url(forResource: "culture", withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let topics = try? JSONDecoder().decode([CultureTopic].self, from: data)
-        else { return [] }
-        return topics
+        Bundle.main.decodeJSON([CultureTopic].self, resource: "culture") ?? []
     }
 }
 
@@ -52,7 +48,7 @@ struct CultureChapterView: View {
             }
             .padding(16)
         }
-        .background(Color.appBackground.ignoresSafeArea())
+        .background(AppBackground())
         .standardNavBar("Culture")
     }
 }

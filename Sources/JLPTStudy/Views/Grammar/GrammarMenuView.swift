@@ -11,69 +11,68 @@ struct GrammarMenuView: View {
     // Grammar discrimination quizzes, keyed by JLPT level (5 = N5 … 1 = N1).
     @State private var grammarQuizzes: [Int: [PracticeQuestion]] = [:]
 
+    private let columns = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
+
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
+                VStack(alignment: .leading, spacing: 34) {
 
                     // MARK: Kana pronunciation drills
-                    SectionGroup(header: "Kana Pronunciation") {
-                        KanaPracticeRow(
-                            title: "Hiragana Practice",
-                            subtitle: "Sounds, letters & word readings",
-                            badge: "ひ",
-                            color: .hiraganaColor,
-                            questions: hiraQuestions,
-                            sessionLimit: pronunciationSessionLength
-                        )
-                        Divider().padding(.leading, 16)
-                        KanaPracticeRow(
-                            title: "Katakana Practice",
-                            subtitle: "Sounds, letters & word readings",
-                            badge: "カ",
-                            color: .katakanaColor,
-                            questions: kataQuestions,
-                            sessionLimit: pronunciationSessionLength
-                        )
+                    TileSection(header: "Kana Pronunciation", columns: columns) {
+                        StudyTile(title: "Hiragana", subtitle: "Sounds & readings",
+                                  glyph: "ひ", icon: "waveform", color: .hiraganaColor) {
+                            GrammarPracticeView(pointName: "Hiragana Practice", questions: hiraQuestions,
+                                                accentColor: .hiraganaColor, sessionLimit: pronunciationSessionLength)
+                        }
+                        StudyTile(title: "Katakana", subtitle: "Sounds & readings",
+                                  glyph: "カ", icon: "waveform", color: .katakanaColor) {
+                            GrammarPracticeView(pointName: "Katakana Practice", questions: kataQuestions,
+                                                accentColor: .katakanaColor, sessionLimit: pronunciationSessionLength)
+                        }
                     }
 
                     // MARK: Flashcards
-                    SectionGroup(header: "Flashcards") {
-                        StudyMenuRow(label: "Vocab Flash Cards", badge: "語", badgeColor: .vocabColor) {
+                    TileSection(header: "Flashcards", columns: columns) {
+                        StudyTile(title: "Vocab", subtitle: "Flash cards",
+                                  glyph: "語", icon: "rectangle.stack.fill", color: .vocabColor) {
                             VocabFlashcardsView()
                         }
-                        Divider().padding(.leading, 16)
-                        StudyMenuRow(label: "Kanji Flash Cards", badge: "漢", badgeColor: .kanjiColor) {
+                        StudyTile(title: "Kanji", subtitle: "Flash cards",
+                                  glyph: "漢", icon: "rectangle.stack.fill", color: .kanjiColor) {
                             KanjiStudyView()
                         }
                     }
 
                     // MARK: Quizzes
-                    SectionGroup(header: "Grammar Quizzes") {
+                    TileSection(header: "Grammar Quizzes", columns: columns) {
                         ForEach([5, 4, 3, 2, 1], id: \.self) { level in
-                            if level != 5 {
-                                Divider().padding(.leading, 16)
+                            StudyTile(title: levelName(level), subtitle: "Tell similar points apart",
+                                      glyph: "\(levelNumber(level))",
+                                      secondaryGlyph: levelKanjiNumeral(level),
+                                      icon: "checklist",
+                                      color: nLevelColor(level)) {
+                                GrammarPracticeView(pointName: "\(levelName(level)) Grammar",
+                                                    questions: grammarQuizzes[level] ?? [],
+                                                    accentColor: nLevelColor(level),
+                                                    sessionLimit: grammarQuizSessionLength)
                             }
-                            GrammarQuizRow(
-                                level: level,
-                                questions: grammarQuizzes[level] ?? [],
-                                sessionLimit: grammarQuizSessionLength
-                            )
                         }
                     }
 
                     // MARK: Reading comprehension
-                    SectionGroup(header: "Reading") {
-                        StudyMenuRow(label: "Reading Comprehension", badge: "読",
-                                     badgeColor: Color(hex: "0EA5E9")) {
+                    TileSection(header: "Reading", columns: columns) {
+                        StudyTile(title: "Reading", subtitle: "Passages & questions",
+                                  glyph: "読", icon: "book.fill", color: Color(hex: "0EA5E9")) {
                             ReadingListView()
                         }
                     }
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 24)
+                .padding(.bottom, 36)
             }
         }
         .standardNavBar("Study")
@@ -93,167 +92,46 @@ struct GrammarMenuView: View {
     }
 }
 
-// MARK: - Kana pronunciation drill row
+// MARK: - Square study tile
 
-private struct KanaPracticeRow: View {
+/// Thin wrapper: the shared `AestheticTile` wired to a navigation destination.
+private struct StudyTile<Destination: View>: View {
     let title: String
     let subtitle: String
-    let badge: String
+    let glyph: String
+    var secondaryGlyph: String? = nil
+    let icon: String
     let color: Color
-    let questions: [PracticeQuestion]
-    let sessionLimit: Int
-
-    var body: some View {
-        NavigationLink {
-            GrammarPracticeView(
-                pointName: title,
-                questions: questions,
-                accentColor: color,
-                sessionLimit: sessionLimit
-            )
-        } label: {
-            HStack(spacing: 14) {
-                Circle()
-                    .fill(color.badgeGradient)
-                    .frame(width: 34, height: 34)
-                    .shadow(color: color.opacity(0.35), radius: 4, y: 2)
-                    .overlay(
-                        Text(badge)
-                            .font(.system(size: 16, weight: .bold))
-                            .foregroundColor(.white)
-                    )
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(title)
-                        .font(.system(size: 17))
-                        .foregroundColor(.appText)
-                    Text(subtitle)
-                        .font(.system(size: 12))
-                        .foregroundColor(.secondary)
-                }
-
-                Spacer()
-
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 13, weight: .semibold))
-                    .foregroundColor(.secondary)
-            }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 12)
-            .contentShape(Rectangle())
-        }
-        .buttonStyle(.plain)
-    }
-}
-
-// MARK: - Grammar quiz row
-
-private struct GrammarQuizRow: View {
-    let level: Int          // 5 = N5 … 1 = N1
-    let questions: [PracticeQuestion]
-    let sessionLimit: Int
-
-    private var color: Color { nLevelColor(level) }
-
-    var body: some View {
-        NavigationLink {
-            GrammarPracticeView(
-                pointName: "\(levelName(level)) Grammar",
-                questions: questions,
-                accentColor: color,
-                sessionLimit: sessionLimit
-            )
-        } label: {
-            HStack(spacing: 14) {
-                Circle()
-                    .fill(color.badgeGradient)
-                    .frame(width: 34, height: 34)
-                    .shadow(color: color.opacity(0.35), radius: 4, y: 2)
-                    .overlay(
-                        Text("\(levelNumber(level))")
-                            .font(.system(size: 15, weight: .bold))
-                            .foregroundColor(.white)
-                    )
-
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("\(levelName(level)) Grammar")
-                        .font(.system(size: 17))
-                        .foregroundColor(.appText)
-                    Text("Tell similar grammar points apart")
-                        .font(.system(size: 12))
-                        .foregroundColor(.secondary)
-                }
-
-                Spacer()
-
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 13, weight: .semibold))
-                    .foregroundColor(.secondary)
-            }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 12)
-            .contentShape(Rectangle())
-        }
-        .buttonStyle(.plain)
-    }
-}
-
-// MARK: - Subviews
-
-private struct SectionGroup<Content: View>: View {
-    let header: String
-    @ViewBuilder let content: () -> Content
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            Text(header.uppercased())
-                .font(.system(size: 11, weight: .semibold))
-                .foregroundColor(.secondary)
-                .padding(.horizontal, 4)
-                .padding(.bottom, 8)
-
-            VStack(spacing: 0) {
-                content()
-            }
-            .appCard(cornerRadius: 16)
-        }
-    }
-}
-
-private struct StudyMenuRow<Destination: View>: View {
-    let label: String
-    var badge: String? = nil
-    var badgeColor: Color = .secondary
     @ViewBuilder let destination: () -> Destination
 
     var body: some View {
         NavigationLink {
             destination()
         } label: {
-            HStack(spacing: 14) {
-                if let badge {
-                    Circle()
-                        .fill(badgeColor.badgeGradient)
-                        .frame(width: 34, height: 34)
-                        .shadow(color: badgeColor.opacity(0.35), radius: 4, y: 2)
-                        .overlay(
-                            Text(badge)
-                                .font(.system(size: 16, weight: .bold))
-                                .foregroundColor(.white)
-                        )
-                }
-                Text(label)
-                    .font(.system(size: 17))
-                    .foregroundColor(.appText)
-                Spacer()
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 13, weight: .semibold))
-                    .foregroundColor(.secondary)
-            }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 14)
-            .contentShape(Rectangle())
+            AestheticTile(title: title, subtitle: subtitle, glyph: glyph,
+                          secondaryGlyph: secondaryGlyph, icon: icon, color: color)
         }
         .buttonStyle(.plain)
+    }
+}
+
+// MARK: - Section wrapper
+
+private struct TileSection<Content: View>: View {
+    let header: String
+    let columns: [GridItem]
+    @ViewBuilder let content: () -> Content
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Text(header)
+                .font(.system(size: 20, weight: .bold))
+                .foregroundColor(.appText)
+                .padding(.horizontal, 2)
+
+            LazyVGrid(columns: columns, spacing: 12) {
+                content()
+            }
+        }
     }
 }

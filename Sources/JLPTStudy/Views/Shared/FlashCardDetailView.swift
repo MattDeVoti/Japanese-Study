@@ -85,6 +85,6 @@ struct FlashCardDetailView: View {
             .padding(.bottom, 28)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .background(Color.appBackground)
+        .background(AppBackground())
     }
 }

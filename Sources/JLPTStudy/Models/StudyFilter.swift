@@ -3,8 +3,7 @@ import Combine
 
 enum WeightMode: String, CaseIterable {
     case none = "NONE"
-    case harder = "HARDER"
-    case easier = "EASIER"
+    case needsWork = "NEEDS_WORK"
 }
 
 class StudyFilter: ObservableObject {
@@ -16,8 +15,6 @@ class StudyFilter: ObservableObject {
     let availableLevels: [Int]
 
     @Published var selectedLevels: Set<Int> = []
-    @Published var weightMode: WeightMode = .none
-    @Published var weightStrength: Double = 0.25
     @Published var showFavoritesOnly: Bool = false
 
     init(type: FilterType) {

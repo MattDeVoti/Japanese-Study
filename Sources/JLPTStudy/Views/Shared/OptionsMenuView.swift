@@ -2,6 +2,7 @@ import SwiftUI
 
 struct OptionsMenuView: View {
     @ObservedObject var filter: StudyFilter
+    @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     let onClearWeights: () -> Void
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var themeManager: ThemeManager
@@ -65,37 +66,33 @@ struct OptionsMenuView: View {
                         Divider()
                     }
 
-                    // Weighted shuffle
+                    // Card priority (app-wide setting, shared everywhere)
                     VStack(alignment: .leading, spacing: 10) {
-                        Text("Weighted Shuffle")
+                        Text("Card Priority")
                             .font(.headline)
                             .foregroundColor(.appText)
-                        Picker("", selection: $filter.weightMode) {
-                            ForEach(WeightMode.allCases, id: \.self) { mode in
-                                Text(mode.rawValue).tag(mode)
-                            }
-                        }
-                        .pickerStyle(.segmented)
-                    }
-
-                    // Weight strength slider (visible when not NONE)
-                    if filter.weightMode != .none {
-                        VStack(alignment: .leading, spacing: 8) {
-                            HStack {
-                                Text("Weight Strength")
-                                    .font(.headline)
-                                    .foregroundColor(.appText)
-                                Spacer()
-                                Text(String(format: "%.0f%%", filter.weightStrength * 100))
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                            }
-                            Slider(value: $filter.weightStrength, in: 0...1)
-                                .tint(filter.weightMode == .harder ? .red : .green)
-                        }
+                        WeightPrioritySection()
                     }
 
                     Divider()
+
+                    // Example words (kanji deck only)
+                    if filter is KanjiFilter {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Toggle(isOn: $kanjiSettings.includeCommonWords) {
+                                Text("Include Example Words")
+                                    .font(.headline)
+                                    .foregroundColor(.appText)
+                            }
+                            .tint(.green)
+                            Text("Adds each kanji's example words to the deck as their own cards, alongside the kanji themselves.")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+
+                        Divider()
+                    }
 
                     // Show favorites only
                     Toggle(isOn: $filter.showFavoritesOnly) {
@@ -138,7 +135,7 @@ struct OptionsMenuView: View {
                 .padding(.horizontal, 20)
                 .padding(.vertical, 24)
             }
-            .background(Color.appBackground.ignoresSafeArea())
+            .background(AppBackground())
             .navigationTitle("Options")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -235,7 +232,7 @@ private struct KanjiPickerView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             VStack(spacing: 0) {
                 // Search
                 HStack {

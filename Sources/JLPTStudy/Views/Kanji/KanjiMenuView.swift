@@ -6,7 +6,7 @@ struct KanjiMenuView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 4) {
                 NavigationLink {

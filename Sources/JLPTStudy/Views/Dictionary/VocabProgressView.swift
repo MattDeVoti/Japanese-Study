@@ -68,7 +68,7 @@ struct VocabProgressView: View {
             } else {
                 List(sorted) { card in
                     VocabProgressRow(card: card, green: green(card), red: red(card))
-                        .listRowBackground(Color.appBackground)
+                        .listRowBackground(Color.clear)
                         .listRowSeparatorTint(Color.appHairline)
                 }
                 .listStyle(.plain)
@@ -83,8 +83,7 @@ struct VocabProgressView: View {
         guard let manifest = LessonsService.shared.manifest else { loaded = true; return }
         var result: [VocabFlashCard] = []
         for level in manifest.levels {
-            let lvl = Int(level.jlptLevel.dropFirst()) ?? 5
-            let color = nLevelColor(lvl)
+            let color = levelAccentColor(level.jlptLevel)
             for summary in level.chapters {
                 guard let chapter = LessonsService.shared.loadChapter(summary.id),
                       let words = chapter.vocab else { continue }

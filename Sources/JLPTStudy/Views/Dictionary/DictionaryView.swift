@@ -212,7 +212,7 @@ struct DictionaryView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 Picker("", selection: $mode) {
@@ -235,7 +235,7 @@ struct DictionaryView: View {
 
                 ZStack(alignment: .trailing) {
                     if vm.rows.isEmpty && !vm.isLoading {
-                        Color.appBackground
+                        Color.clear
                         Text("Loading…").foregroundColor(.secondary)
                     } else {
                         ScrollViewReader { proxy in
@@ -247,7 +247,7 @@ struct DictionaryView: View {
                                 }
                                 if vm.isLoading {
                                     HStack { Spacer(); ProgressView(); Spacer() }
-                                        .listRowBackground(Color.appBackground)
+                                        .listRowBackground(Color.clear)
                                 }
                             }
                             .listStyle(.plain)

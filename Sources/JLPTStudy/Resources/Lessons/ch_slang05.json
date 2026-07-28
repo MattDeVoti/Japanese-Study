@@ -1,0 +1,586 @@
+{
+  "id": "ch_slang05",
+  "chapterNumber": 5,
+  "title": "Feelings, People, and Going Out",
+  "points": [
+    {
+      "id": "emotive-praise",
+      "name": "神[かみ] / 最高[さいこう] / 尊[とうと]い — praise words",
+      "shortDescription": "Modern Japanese praises hard, and a few words do most of the lifting.",
+      "formation": "神[かみ]＋noun (神[かみ]対応[たいおう])  |  最高[さいこう] / 尊[とうと]い / エモい as standalone adjectives",
+      "explanation": "Casual praise in Japanese runs hot. These are the words you will hear when something lands well.\n\n- 最高[さいこう] — literally 'highest'; the everyday 'the best / amazing'. Safe, common, all ages.\n- 神[かみ] — 'god'. Used as a prefix for anything excellent: 神[かみ]対応[たいおう] (an amazing response from staff or a celebrity), 神[かみ]回[かい] (a brilliant episode), 神[かみ]アプリ. Also standalone: この店[みせ]、神[かみ].\n- 尊[とうと]い — 'precious / sacred'. Originally a solemn religious word, now used by fans about something so lovely it is almost holy. Strongly associated with fan communities.\n- エモい — moving, nostalgic (from 'emotional').\n- しか勝[か]たん — 'nothing beats it'. A clipped, grammatically odd fan phrase: 推[お]ししか勝[か]たん ('nobody beats my favourite').\n\nOn the other side sits 微妙[びみょう] — literally 'subtle', used to mean 'eh, not great'. It is the polite way to say something disappointed you without condemning it, and you will hear it constantly.\n\n最高[さいこう] and 微妙[びみょう] work in almost any casual setting. 尊[とうと]い and しか勝[か]たん mark you clearly as fandom-fluent and sound odd outside that context.",
+      "rules": [
+        "最高[さいこう] = 'the best' — safe and universal",
+        "神[かみ] prefixes anything excellent: 神[かみ]対応[たいおう], 神[かみ]回[かい]",
+        "尊[とうと]い = 'precious' — strongly fan-community flavoured",
+        "微妙[びみょう] = 'eh, not great' — the gentle way to express disappointment",
+        "しか勝[か]たん = 'nothing beats it', clipped fan slang"
+      ],
+      "examples": [
+        {
+          "japanese": "今日[きょう]のライブ、最高[さいこう]だった！",
+          "romaji": "Kyou no raibu, saikou datta!",
+          "english": "Today's concert was the best!"
+        },
+        {
+          "japanese": "店員[てんいん]さんの神[かみ]対応[たいおう]に感動[かんどう]した。",
+          "romaji": "Ten'in-san no kami taiou ni kandou shita.",
+          "english": "I was moved by how amazingly the staff handled it."
+        },
+        {
+          "japanese": "この写真[しゃしん]、尊[とうと]い…",
+          "romaji": "Kono shashin, toutoi…",
+          "english": "This photo is just precious…"
+        },
+        {
+          "japanese": "「あの映画[えいが]どうだった？」「うーん、微妙[びみょう]」",
+          "romaji": "\"Ano eiga dou datta?\" \"Uun, bimyou.\"",
+          "english": "\"How was that movie?\" \"Mmm, kind of meh.\""
+        }
+      ],
+      "flashcardHeader": "神[かみ] / 最高[さいこう] / 微妙[びみょう]",
+      "flashcardAnswer": "Praise: 最高[さいこう] (the best), 神[かみ]〜 (godly), 尊[とうと]い (precious, fan slang). 微妙[びみょう] = politely 'meh'.",
+      "practice": [
+        {
+          "id": "praise_q1",
+          "type": "translation",
+          "prompt": "What does 微妙[びみょう] mean as a reaction?",
+          "japanese": "うーん、微妙[びみょう]。",
+          "choices": [
+            "It's amazing",
+            "It's kind of meh",
+            "It's very expensive",
+            "It's complicated to explain"
+          ],
+          "correctIndex": 1,
+          "explanation": "Literally 'subtle', 微妙[びみょう] is the everyday soft way to say something was disappointing without harshly criticising it."
+        },
+        {
+          "id": "praise_q2",
+          "type": "usage",
+          "prompt": "What does 神[かみ]対応[たいおう] describe?",
+          "japanese": "神[かみ]対応[たいおう]",
+          "choices": [
+            "A religious ceremony",
+            "An outstandingly good response or service",
+            "A serious mistake",
+            "A formal apology"
+          ],
+          "correctIndex": 1,
+          "explanation": "神[かみ] ('god') prefixes anything excellent, so 神[かみ]対応[たいおう] is a wonderfully handled response — often from staff or a celebrity."
+        },
+        {
+          "id": "praise_q3",
+          "type": "usage",
+          "prompt": "Which praise word is safest across all casual situations?",
+          "japanese": null,
+          "choices": [
+            "尊[とうと]い",
+            "しか勝[か]たん",
+            "最高[さいこう]",
+            "エモい"
+          ],
+          "correctIndex": 2,
+          "explanation": "最高[さいこう] is universal and used by all ages. 尊[とうと]い and しか勝[か]たん are strongly fandom-flavoured."
+        },
+        {
+          "id": "praise_q4",
+          "type": "usage",
+          "prompt": "What was 尊[とうと]い originally used for?",
+          "japanese": null,
+          "choices": [
+            "Solemn or religious reverence",
+            "Describing food",
+            "Describing weather",
+            "Business negotiations"
+          ],
+          "correctIndex": 0,
+          "explanation": "尊[とうと]い is a solemn word meaning 'noble / sacred'. Fan communities repurposed it for things so lovely they feel almost holy."
+        },
+        {
+          "id": "praise_q5",
+          "type": "translation",
+          "prompt": "What does 推[お]ししか勝[か]たん express?",
+          "japanese": "推[お]ししか勝[か]たん。",
+          "choices": [
+            "My favourite is the absolute best",
+            "My favourite lost",
+            "I have no favourite",
+            "I'm switching favourites"
+          ],
+          "correctIndex": 0,
+          "explanation": "A clipped fan phrase meaning 'nothing beats my favourite'. Its grammar is deliberately broken, which is part of the style."
+        }
+      ]
+    },
+    {
+      "id": "negative-feelings",
+      "name": "ムカつく / へこむ / 病[や]む — negative feelings",
+      "shortDescription": "How people actually describe anger, disappointment, and burnout.",
+      "formation": "ムカつく ・へこむ ・病[や]む ・引[ひ]く are all normal verbs",
+      "explanation": "Textbooks teach 怒[おこ]る (to get angry) and 悲[かな]しい (sad). Real conversation reaches for these instead.\n\n- ムカつく — 'it pisses me off'. From ムカムカ (a churning stomach). Strong; fine about situations, harsh about people.\n- イラつく / イライラする — 'to get irritated'. A notch below ムカつく.\n- へこむ — literally 'to dent'; to be disheartened or knocked down: テストの点[てん]でへこんだ.\n- 病[や]む — 'to get sick', now widely used for mental exhaustion or spiralling: 最近[さいきん]ちょっと病[や]んでる. Handle with care — for some people this describes genuine depression, not a bad mood.\n- 引[ひ]く / ドン引[び]き — 'to recoil'. Describes being put off by something someone said or did: それはちょっと引[ひ]く.\n- しんどい — physically or emotionally worn out (originally Kansai, now nationwide).\n\nAs with the complaint words in Chapter 1, these are safe about circumstances and risky about people. ムカつく aimed at a person present is a confrontation, and telling someone 引[ひ]く is a real judgement of them.",
+      "rules": [
+        "ムカつく = 'that pisses me off'; イラつく is milder",
+        "へこむ = to be disheartened, knocked down",
+        "病[や]む = mentally worn down or spiralling — can describe real depression",
+        "引[ひ]く / ドン引[び]き = to be put off by what someone said or did",
+        "しんどい = worn out, physically or emotionally (Kansai origin, now national)"
+      ],
+      "examples": [
+        {
+          "japanese": "あの言[い]い方[かた]、ムカつく。",
+          "romaji": "Ano iikata, mukatsuku.",
+          "english": "The way they said that pisses me off."
+        },
+        {
+          "japanese": "テストの点[てん]でへこんだ。",
+          "romaji": "Tesuto no ten de hekonda.",
+          "english": "My test score really knocked me down."
+        },
+        {
+          "japanese": "最近[さいきん]ちょっと病[や]んでる。",
+          "romaji": "Saikin chotto yanderu.",
+          "english": "I've been in a bad place lately."
+        },
+        {
+          "japanese": "それはさすがに引[ひ]くわ。",
+          "romaji": "Sore wa sasuga ni hiku wa.",
+          "english": "Okay, that's genuinely off-putting."
+        }
+      ],
+      "flashcardHeader": "ムカつく / へこむ / 病[や]む",
+      "flashcardAnswer": "Anger, disappointment, and burnout: ムカつく (pisses me off), へこむ (disheartened), 病[や]む (worn down), 引[ひ]く (put off).",
+      "practice": [
+        {
+          "id": "neg_q1",
+          "type": "translation",
+          "prompt": "What does へこんだ mean?",
+          "japanese": "ちょっとへこんだ。",
+          "choices": [
+            "I got angry",
+            "I was disheartened",
+            "I got lost",
+            "I was surprised"
+          ],
+          "correctIndex": 1,
+          "explanation": "へこむ literally means 'to dent'. Emotionally it is being knocked down or discouraged by something."
+        },
+        {
+          "id": "neg_q2",
+          "type": "usage",
+          "prompt": "Which is stronger?",
+          "japanese": null,
+          "choices": [
+            "イラつく",
+            "ムカつく",
+            "They are identical",
+            "Neither expresses anger"
+          ],
+          "correctIndex": 1,
+          "explanation": "イラつく is mild irritation; ムカつく is genuine anger, from ムカムカ ('churning stomach')."
+        },
+        {
+          "id": "neg_q3",
+          "type": "usage",
+          "prompt": "Why should 病[や]む be used carefully?",
+          "japanese": null,
+          "choices": [
+            "It is grammatically difficult",
+            "For some people it describes real depression, not just a bad mood",
+            "It is extremely formal",
+            "It is regional"
+          ],
+          "correctIndex": 1,
+          "explanation": "病[や]む is used casually for 'feeling low', but it comes from 'to be ill' and can describe genuine mental health struggles."
+        },
+        {
+          "id": "neg_q4",
+          "type": "translation",
+          "prompt": "What does それは引[ひ]く mean?",
+          "japanese": "それは引[ひ]く。",
+          "choices": [
+            "That's impressive",
+            "That's off-putting",
+            "That's confusing",
+            "That's expensive"
+          ],
+          "correctIndex": 1,
+          "explanation": "引[ひ]く means to recoil or pull back — being put off by what someone said or did. ドン引[び]き is the stronger version."
+        },
+        {
+          "id": "neg_q5",
+          "type": "usage",
+          "prompt": "Which usage is socially safest?",
+          "japanese": null,
+          "choices": [
+            "あなたムカつく",
+            "この状況[じょうきょう]ムカつく",
+            "先輩[せんぱい]に引[ひ]く",
+            "部長[ぶちょう]病[や]んでる"
+          ],
+          "correctIndex": 1,
+          "explanation": "Aiming these at a situation is normal venting. Aiming them at a person — especially present or senior — is confrontational."
+        }
+      ]
+    },
+    {
+      "id": "people-types",
+      "name": "ぼっち / リア充[じゅう] / 陰[いん]キャ — words for people",
+      "shortDescription": "The social labels young Japan uses — several of which can wound.",
+      "formation": "陰[いん]キャ / 陽[よう]キャ (キャラ clipped)  |  リア充[じゅう] = リアル + 充実[じゅうじつ]",
+      "explanation": "Modern casual Japanese has a rich vocabulary for social types. Learners need these for comprehension, and need to be careful with output.\n\n- ぼっち — alone, a loner. From 独[ひと]りぼっち. 一人[ひとり]ぼっち飯[めし] shortens to ぼっち飯[めし] (eating alone). Often self-deprecating: 今日[きょう]ぼっちだった.\n- リア充[じゅう] — リアル + 充実[じゅうじつ]: someone whose *real* (offline) life is fulfilling — partner, friends, plans. Usually said with envy, half joking.\n- 陰[いん]キャ / 陽[よう]キャ — 'shadow character' / 'sunny character': introverted vs outgoing. 陰[いん]キャ aimed at someone else is an insult.\n- オタク — deeply into a hobby. Once purely negative, now often neutral or worn proudly (アニメオタク, 鉄道[てつどう]オタク), though it still stings from a stranger.\n- ガチ勢[ぜい] — the 'serious crowd' who take a hobby intensely; opposite エンジョイ勢[ぜい].\n- 陽気[ようき] vs 根暗[ねくら] — older equivalents you may still hear.\n\nThe safe pattern: applied to yourself these are humour (俺[おれ]、陰[いん]キャだから). Applied to someone else they are judgements, and 陰[いん]キャ and ぼっち in particular are used in bullying. Recognise them; be sparing with them.",
+      "rules": [
+        "ぼっち = alone / loner, from 独[ひと]りぼっち — often self-deprecating",
+        "リア充[じゅう] = someone with a fulfilling offline life (said half enviously)",
+        "陰[いん]キャ / 陽[よう]キャ = introverted / outgoing 'character'",
+        "オタク = hobby-obsessed; now often neutral or worn with pride",
+        "Safe about yourself, risky about others — 陰[いん]キャ and ぼっち can wound"
+      ],
+      "examples": [
+        {
+          "japanese": "今日[きょう]の昼[ひる]、ぼっち飯[めし]だった。",
+          "romaji": "Kyou no hiru, bocchi meshi datta.",
+          "english": "I ate lunch alone today."
+        },
+        {
+          "japanese": "またリア充[じゅう]の話[はなし]か。",
+          "romaji": "Mata riajuu no hanashi ka.",
+          "english": "Another story about someone with a great social life, huh."
+        },
+        {
+          "japanese": "俺[おれ]、完全[かんぜん]に陰[いん]キャだわ。",
+          "romaji": "Ore, kanzen ni inkya da wa.",
+          "english": "I'm a total introvert."
+        },
+        {
+          "japanese": "あの人[ひと]、ガチ勢[ぜい]だよ。",
+          "romaji": "Ano hito, gachizei da yo.",
+          "english": "That person is seriously hardcore about it."
+        }
+      ],
+      "flashcardHeader": "ぼっち / リア充[じゅう] / 陰[いん]キャ",
+      "flashcardAnswer": "Social labels: ぼっち (loner), リア充[じゅう] (fulfilling offline life), 陰[いん]キャ/陽[よう]キャ (introvert/extrovert), ガチ勢[ぜい] (hardcore).",
+      "practice": [
+        {
+          "id": "ppl_q1",
+          "type": "usage",
+          "prompt": "What does リア充[じゅう] literally combine?",
+          "japanese": null,
+          "choices": [
+            "リアル + 充実[じゅうじつ]",
+            "理由[りゆう] + 中[ちゅう]",
+            "リアル + 中学[ちゅうがく]",
+            "利益[りえき] + 充電[じゅうでん]"
+          ],
+          "correctIndex": 0,
+          "explanation": "リアル ('real life') + 充実[じゅうじつ] ('fulfilment') — someone whose offline life is going well, often said with envy."
+        },
+        {
+          "id": "ppl_q2",
+          "type": "translation",
+          "prompt": "What does ぼっち飯[めし] mean?",
+          "japanese": "ぼっち飯[めし]",
+          "choices": [
+            "Eating alone",
+            "A cheap meal",
+            "Cooking for friends",
+            "Skipping a meal"
+          ],
+          "correctIndex": 0,
+          "explanation": "ぼっち (from 独[ひと]りぼっち, 'all alone') + 飯[めし] (meal) — eating by yourself, often said self-deprecatingly."
+        },
+        {
+          "id": "ppl_q3",
+          "type": "usage",
+          "prompt": "What is the difference between 陰[いん]キャ and 陽[よう]キャ?",
+          "japanese": null,
+          "choices": [
+            "Rich vs poor",
+            "Introverted vs outgoing",
+            "Young vs old",
+            "Urban vs rural"
+          ],
+          "correctIndex": 1,
+          "explanation": "陰[いん] ('shadow') and 陽[よう] ('sun') + キャラ ('character') — a gloomy/introverted type versus a bright/sociable one."
+        },
+        {
+          "id": "ppl_q4",
+          "type": "usage",
+          "prompt": "When are these labels safest to use?",
+          "japanese": null,
+          "choices": [
+            "About yourself",
+            "About your boss",
+            "About strangers",
+            "About classmates"
+          ],
+          "correctIndex": 0,
+          "explanation": "Self-applied they read as self-deprecating humour. Applied to others — especially 陰[いん]キャ or ぼっち — they are judgements and are used in bullying."
+        },
+        {
+          "id": "ppl_q5",
+          "type": "usage",
+          "prompt": "What does ガチ勢[ぜい] describe?",
+          "japanese": null,
+          "choices": [
+            "People who take a hobby extremely seriously",
+            "People who dislike a hobby",
+            "Complete beginners",
+            "People who quit a hobby"
+          ],
+          "correctIndex": 0,
+          "explanation": "ガチ ('for real') + 勢[ぜい] ('faction') — the hardcore crowd. The opposite is エンジョイ勢[ぜい], who are in it for fun."
+        }
+      ]
+    },
+    {
+      "id": "nomikai",
+      "name": "飲[の]み会[かい] / 割[わ]り勘[かん] — going out",
+      "shortDescription": "The vocabulary and etiquette of Japanese social drinking.",
+      "formation": "飲[の]み会[かい] ・二次会[にじかい] ・幹事[かんじ] ・割[わ]り勘[かん] ・おごる",
+      "explanation": "Social drinking has its own vocabulary, and it comes up constantly in work and student life.\n\n- 飲[の]み会[かい] — a drinking party or group meal out.\n- 幹事[かんじ] — the organiser who books the place and collects money. Usually the most junior person, and it is real work.\n- とりあえずビール — 'a beer to start with'. The traditional opening order so everyone can toast together quickly.\n- 乾杯[かんぱい] — cheers. Nobody drinks before it.\n- 一次会[いちじかい] / 二次会[にじかい] / 三次会[さんじかい] — first, second, third venue of the night. Moving on is normal.\n- 割[わ]り勘[かん] — splitting the bill evenly. The default among peers.\n- おごる — to treat someone. A senior often treats a junior: 今日[きょう]はおごるよ.\n- 飲[の]み放題[ほうだい] — all-you-can-drink, usually a fixed time window.\n- 二日酔[ふつかよ]い — a hangover.\n\nA couple of etiquette notes that trip up learners: you pour for others rather than yourself, and you hold your glass with both hands when someone pours for you. And 'a quick one' rarely stays quick — 二次会[にじかい] is the norm, not the exception.",
+      "rules": [
+        "飲[の]み会[かい] = drinking party; 幹事[かんじ] = the organiser (usually the most junior)",
+        "乾杯[かんぱい] starts the drinking — nobody drinks before it",
+        "二次会[にじかい] = moving to a second venue; very common",
+        "割[わ]り勘[かん] = split the bill; おごる = to treat someone",
+        "Etiquette: pour for others, not yourself; hold your glass with both hands"
+      ],
+      "examples": [
+        {
+          "japanese": "金曜日[きんようび]、飲[の]み会[かい]あるけど来[く]る？",
+          "romaji": "Kinyoubi, nomikai aru kedo kuru?",
+          "english": "There's a drinking party Friday — coming?"
+        },
+        {
+          "japanese": "とりあえずビールで。",
+          "romaji": "Toriaezu biiru de.",
+          "english": "A beer to start, please."
+        },
+        {
+          "japanese": "今日[きょう]は割[わ]り勘[かん]でいい？",
+          "romaji": "Kyou wa warikan de ii?",
+          "english": "Shall we split it evenly today?"
+        },
+        {
+          "japanese": "二次会[にじかい]行[い]く人[ひと]〜？",
+          "romaji": "Nijikai iku hito~?",
+          "english": "Anyone going to the second place?"
+        }
+      ],
+      "flashcardHeader": "飲[の]み会[かい] / 割[わ]り勘[かん]",
+      "flashcardAnswer": "Going out: 飲[の]み会[かい] (drinking party), 幹事[かんじ] (organiser), 二次会[にじかい] (second venue), 割[わ]り勘[かん] (split the bill).",
+      "practice": [
+        {
+          "id": "nomi_q1",
+          "type": "usage",
+          "prompt": "What is a 幹事[かんじ]?",
+          "japanese": null,
+          "choices": [
+            "The person who organises the party",
+            "The oldest person present",
+            "The restaurant owner",
+            "The person who drinks least"
+          ],
+          "correctIndex": 0,
+          "explanation": "The 幹事[かんじ] books the venue and collects the money — usually the most junior person, and genuinely a chore."
+        },
+        {
+          "id": "nomi_q2",
+          "type": "translation",
+          "prompt": "What does 割[わ]り勘[かん] mean?",
+          "japanese": "割[わ]り勘[かん]でいい？",
+          "choices": [
+            "I'll pay for everyone",
+            "Shall we split the bill?",
+            "Can I have the receipt?",
+            "Let's order more"
+          ],
+          "correctIndex": 1,
+          "explanation": "割[わ]り勘[かん] is splitting the bill evenly — the default among friends and peers. おごる is treating someone instead."
+        },
+        {
+          "id": "nomi_q3",
+          "type": "usage",
+          "prompt": "Why is とりあえずビール traditional?",
+          "japanese": "とりあえずビールで。",
+          "choices": [
+            "Beer is the cheapest option",
+            "It gets everyone a drink fast so the group can toast together",
+            "It is required by law",
+            "Beer is the only drink served"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ordering the same quick drink lets everyone raise a glass for 乾杯[かんぱい] without waiting on complicated orders."
+        },
+        {
+          "id": "nomi_q4",
+          "type": "usage",
+          "prompt": "What is a 二次会[にじかい]?",
+          "japanese": null,
+          "choices": [
+            "The second venue of the night",
+            "A meeting the next morning",
+            "A second round of drinks",
+            "Paying twice"
+          ],
+          "correctIndex": 0,
+          "explanation": "The night often moves from a 一次会[いちじかい] to a 二次会[にじかい] at another bar or karaoke — and sometimes a 三次会[さんじかい]."
+        },
+        {
+          "id": "nomi_q5",
+          "type": "usage",
+          "prompt": "Which pouring etiquette is correct?",
+          "japanese": null,
+          "choices": [
+            "Pour your own drink first",
+            "Pour for others, and hold your glass with both hands when poured for",
+            "Never pour for anyone",
+            "Only the 幹事[かんじ] may pour"
+          ],
+          "correctIndex": 1,
+          "explanation": "You look after others' glasses rather than your own, and receiving with both hands shows respect — especially toward seniors."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "slang5_v01",
+      "partOfSpeech": "na-adjective",
+      "kanji": "最高",
+      "kana": "さいこう",
+      "romaji": "saikou",
+      "definition": "the best; amazing"
+    },
+    {
+      "id": "slang5_v02",
+      "partOfSpeech": "noun",
+      "kanji": "神",
+      "kana": "かみ",
+      "romaji": "kami",
+      "definition": "god; (slang) excellent"
+    },
+    {
+      "id": "slang5_v03",
+      "partOfSpeech": "i-adjective",
+      "kanji": "尊い",
+      "kana": "とうとい",
+      "romaji": "toutoi",
+      "definition": "precious (fan slang)"
+    },
+    {
+      "id": "slang5_v04",
+      "partOfSpeech": "verb",
+      "kanji": "ムカつく",
+      "kana": "ムカつく",
+      "romaji": "mukatsuku",
+      "definition": "to be pissed off"
+    },
+    {
+      "id": "slang5_v05",
+      "partOfSpeech": "verb",
+      "kanji": "へこむ",
+      "kana": "へこむ",
+      "romaji": "hekomu",
+      "definition": "to be disheartened"
+    },
+    {
+      "id": "slang5_v06",
+      "partOfSpeech": "verb",
+      "kanji": "病む",
+      "kana": "やむ",
+      "romaji": "yamu",
+      "definition": "to be mentally worn down"
+    },
+    {
+      "id": "slang5_v07",
+      "partOfSpeech": "verb",
+      "kanji": "引く",
+      "kana": "ひく",
+      "romaji": "hiku",
+      "definition": "to be put off; to recoil"
+    },
+    {
+      "id": "slang5_v08",
+      "partOfSpeech": "noun",
+      "kanji": "ぼっち",
+      "kana": "ぼっち",
+      "romaji": "bocchi",
+      "definition": "loner; being alone"
+    },
+    {
+      "id": "slang5_v09",
+      "partOfSpeech": "noun",
+      "kanji": "陰キャ",
+      "kana": "いんキャ",
+      "romaji": "inkya",
+      "definition": "introverted type"
+    },
+    {
+      "id": "slang5_v10",
+      "partOfSpeech": "noun",
+      "kanji": "陽キャ",
+      "kana": "ようキャ",
+      "romaji": "youkya",
+      "definition": "outgoing type"
+    },
+    {
+      "id": "slang5_v11",
+      "partOfSpeech": "noun",
+      "kanji": "ガチ勢",
+      "kana": "ガチぜい",
+      "romaji": "gachizei",
+      "definition": "the hardcore crowd"
+    },
+    {
+      "id": "slang5_v12",
+      "partOfSpeech": "noun",
+      "kanji": "飲み会",
+      "kana": "のみかい",
+      "romaji": "nomikai",
+      "definition": "drinking party"
+    },
+    {
+      "id": "slang5_v13",
+      "partOfSpeech": "noun",
+      "kanji": "幹事",
+      "kana": "かんじ",
+      "romaji": "kanji",
+      "definition": "party organiser"
+    },
+    {
+      "id": "slang5_v14",
+      "partOfSpeech": "noun",
+      "kanji": "割り勘",
+      "kana": "わりかん",
+      "romaji": "warikan",
+      "definition": "splitting the bill"
+    },
+    {
+      "id": "slang5_v15",
+      "partOfSpeech": "verb",
+      "kanji": "おごる",
+      "kana": "おごる",
+      "romaji": "ogoru",
+      "definition": "to treat someone (pay)"
+    },
+    {
+      "id": "slang5_v16",
+      "partOfSpeech": "noun",
+      "kanji": "二次会",
+      "kana": "にじかい",
+      "romaji": "nijikai",
+      "definition": "second venue of a night out"
+    },
+    {
+      "id": "slang5_v17",
+      "partOfSpeech": "noun",
+      "kanji": "二日酔い",
+      "kana": "ふつかよい",
+      "romaji": "futsukayoi",
+      "definition": "hangover"
+    }
+  ],
+  "kanji": null
+}

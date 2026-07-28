@@ -20,7 +20,7 @@ struct DictionaryDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 0) {
