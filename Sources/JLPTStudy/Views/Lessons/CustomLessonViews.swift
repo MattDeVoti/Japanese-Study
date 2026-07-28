@@ -26,18 +26,9 @@ struct CustomLessonCircleButton: View {
     let lesson: CustomLesson
 
     var body: some View {
-        LessonBubble(color: customAccent, padding: 8) {
-            VStack(spacing: 3) {
-                Image(systemName: "square.stack.3d.up.fill")
-                    .font(.system(size: 20, weight: .bold))
-                Text(lesson.name)
-                    .font(.system(size: 12, weight: .semibold))
-                    .lineLimit(2)
-                Text(itemsLabel(lesson.itemCount))
-                    .font(.system(size: 10, weight: .medium))
-                    .opacity(0.85)
-            }
-        }
+        AestheticTile(title: lesson.name, subtitle: itemsLabel(lesson.itemCount),
+                      glyph: "組", icon: "square.stack.3d.up.fill",
+                      color: customAccent, titleSize: 17)
     }
 }
 
@@ -61,20 +52,19 @@ struct NewCustomLessonBubble: View {
             showNameAlert = true
         } label: {
             ZStack {
-                Circle()
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
                     .strokeBorder(customAccent.opacity(0.55),
-                                  style: StrokeStyle(lineWidth: 2, dash: [6, 5]))
-                VStack(spacing: 2) {
+                                  style: StrokeStyle(lineWidth: 2, dash: [7, 6]))
+                VStack(spacing: 4) {
                     Image(systemName: "plus")
-                        .font(.system(size: 26, weight: .bold))
-                    Text("New")
-                        .font(.system(size: 12, weight: .semibold))
+                        .font(.system(size: 30, weight: .bold))
+                    Text("New Lesson")
+                        .font(.system(size: 13, weight: .semibold))
                 }
                 .foregroundColor(customAccent)
-                .padding(8)
+                .padding(10)
             }
             .aspectRatio(1, contentMode: .fit)
-            .scaleEffect(0.9)
         }
         .buttonStyle(.plain)
         .alert("New Custom Lesson", isPresented: $showNameAlert) {
@@ -160,7 +150,7 @@ struct AddToCustomLessonSheet: View {
                                 .lineLimit(1)
                             Text(item.typeLabel)
                                 .font(.caption)
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
                 }
@@ -189,7 +179,7 @@ struct AddToCustomLessonSheet: View {
                                             .foregroundColor(.primary)
                                         Text(itemsLabel(lesson.itemCount))
                                             .font(.caption)
-                                            .foregroundColor(.secondary)
+                                            .foregroundColor(.appTextSecondary)
                                     }
                                     Spacer()
                                     Image(systemName: store.contains(item, in: lesson.id) ? "checkmark.circle.fill" : "circle")
@@ -322,7 +312,7 @@ struct CustomLessonDetailView: View {
                 if isRemoving {
                     Text("Tap a red ✕ to remove an item from this lesson.")
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                         .padding(.top, 4)
                 }
                 grammarSection
@@ -430,11 +420,7 @@ struct CustomLessonDetailView: View {
     }
 
     private func sectionLabel(_ title: String, icon: String) -> some View {
-        Label(title, systemImage: icon)
-            .font(.system(size: 11, weight: .semibold))
-            .foregroundColor(.secondary)
-            .textCase(.uppercase)
-            .padding(.top, 8)
+        SectionHeading(title).padding(.top, 10)
     }
 
     private var emptyState: some View {
@@ -444,7 +430,7 @@ struct CustomLessonDetailView: View {
                 .foregroundColor(.secondary.opacity(0.3))
             Text("This lesson is empty")
                 .font(.system(size: 18, weight: .medium))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
             Text("Use “Add” in the menu, or long-press a grammar point, vocab word, or kanji anywhere in the app.")
                 .font(.system(size: 14))
                 .foregroundColor(.secondary.opacity(0.75))

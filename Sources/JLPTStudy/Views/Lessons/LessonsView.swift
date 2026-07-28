@@ -34,7 +34,6 @@ struct LessonsView: View {
     private let bubbleColumns = [
         GridItem(.flexible(), spacing: 12, alignment: .top),
         GridItem(.flexible(), spacing: 12, alignment: .top),
-        GridItem(.flexible(), spacing: 12, alignment: .top),
     ]
 
     var body: some View {
@@ -74,11 +73,11 @@ struct LessonsView: View {
 
     private var browseSections: some View {
             ScrollView {
-                VStack(alignment: .leading, spacing: 30) {
+                VStack(alignment: .leading, spacing: 34) {
 
                     // MARK: Kana
-                    VStack(alignment: .leading, spacing: 14) {
-                        LessonSectionHeader("Kana")
+                    VStack(alignment: .leading, spacing: 12) {
+                        SectionHeading("Kana")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             ForEach(kanaLevels) { level in
                                 NavigationLink {
@@ -92,8 +91,8 @@ struct LessonsView: View {
                     }
 
                     // MARK: Grammar
-                    VStack(alignment: .leading, spacing: 14) {
-                        LessonSectionHeader("Grammar")
+                    VStack(alignment: .leading, spacing: 12) {
+                        SectionHeading("Grammar")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             ForEach(grammarLevels) { level in
                                 NavigationLink {
@@ -117,8 +116,8 @@ struct LessonsView: View {
                     }
 
                     // MARK: Culture
-                    VStack(alignment: .leading, spacing: 14) {
-                        LessonSectionHeader("Culture")
+                    VStack(alignment: .leading, spacing: 12) {
+                        SectionHeading("Culture")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NavigationLink {
                                 CultureChapterView()
@@ -130,8 +129,8 @@ struct LessonsView: View {
                     }
 
                     // MARK: Favorites
-                    VStack(alignment: .leading, spacing: 14) {
-                        LessonSectionHeader("Favorites")
+                    VStack(alignment: .leading, spacing: 12) {
+                        SectionHeading("Favorites")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NavigationLink {
                                 FavoritesView()
@@ -143,8 +142,8 @@ struct LessonsView: View {
                     }
 
                     // MARK: Custom — the "+" bubble is always first
-                    VStack(alignment: .leading, spacing: 14) {
-                        LessonSectionHeader("Custom")
+                    VStack(alignment: .leading, spacing: 12) {
+                        SectionHeading("Custom")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NewCustomLessonBubble()
 
@@ -166,20 +165,6 @@ struct LessonsView: View {
     }
 }
 
-// MARK: - Section header
-
-private struct LessonSectionHeader: View {
-    let title: String
-    init(_ title: String) { self.title = title }
-
-    var body: some View {
-        Text(title.uppercased())
-            .font(.system(size: 12, weight: .semibold))
-            .foregroundColor(.secondary)
-            .padding(.leading, 4)
-    }
-}
-
 // MARK: - Slang chapter
 
 /// The standalone slang chapter: not a JLPT level, so it gets its own manifest
@@ -195,132 +180,49 @@ private struct SlangCircleButton: View {
     let chapterCount: Int
 
     var body: some View {
-        LessonBubble(color: SlangContent.accent) {
-            VStack(spacing: 3) {
-                Image(systemName: "bubble.left.and.text.bubble.right.fill")
-                    .font(.system(size: 20, weight: .bold))
-                Text("Slang")
-                    .font(.system(size: 13, weight: .semibold))
-                Text("\(chapterCount) ch")
-                    .font(.system(size: 10, weight: .medium))
-                    .opacity(0.85)
-            }
-        }
+        AestheticTile(title: "Slang", subtitle: "\(chapterCount) chapters", glyph: "俗",
+                      icon: "bubble.left.and.text.bubble.right.fill", color: SlangContent.accent)
     }
 }
 
-// MARK: - Shared circular bubble
-
-/// The filled, gradient circle every Textbook section uses. Callers supply just
-/// the inner glyph/label stack; the circle, shadow, sizing, and white-on-color
-/// text treatment live here.
-struct LessonBubble<Content: View>: View {
-    let color: Color
-    var padding: CGFloat = 10
-    @ViewBuilder let content: Content
-
-    var body: some View {
-        ZStack {
-            Circle()
-                .fill(color.badgeGradient)
-                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
-
-            content
-                .foregroundColor(.white)
-                .multilineTextAlignment(.center)
-                .minimumScaleFactor(0.6)
-                .padding(padding)
-        }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
-    }
-}
-
-// MARK: - Kana circular button (large — two per row)
+// MARK: - Section tiles
 
 private struct KanaCircleButton: View {
     let level: LessonLevel
-
     private var color: Color { levelAccentColor(level.jlptLevel) }
     private var glyph: String { level.jlptLevel == "Hiragana" ? "ひ" : "カ" }
 
     var body: some View {
-        LessonBubble(color: color) {
-            VStack(spacing: 2) {
-                Text(glyph)
-                    .font(.system(size: 30, weight: .bold))
-                Text(level.jlptLevel)
-                    .font(.system(size: 14, weight: .semibold))
-                Text("\(level.chapters.count) lessons")
-                    .font(.system(size: 10, weight: .medium))
-                    .opacity(0.85)
-            }
-        }
+        AestheticTile(title: level.jlptLevel, subtitle: "\(level.chapters.count) lessons",
+                      glyph: glyph, icon: "textformat", color: color)
     }
 }
-
-// MARK: - Grammar circular button (small — five per row)
 
 private struct GrammarCircleButton: View {
     let level: LessonLevel
-
     private var levelInt: Int { Int(level.jlptLevel.dropFirst()) ?? 5 }
-    private var color: Color { nLevelColor(levelInt) }
 
     var body: some View {
-        LessonBubble(color: color) {
-            VStack(spacing: 3) {
-                Text(levelName(levelInt))
-                    .font(.system(size: 21, weight: .bold))
-                Text("\(level.chapters.count) ch")
-                    .font(.system(size: 11, weight: .medium))
-                    .opacity(0.9)
-            }
-            .lineLimit(1)
-        }
+        AestheticTile(title: levelName(levelInt), subtitle: "\(level.chapters.count) chapters",
+                      glyph: "\(levelNumber(levelInt))", icon: "book.fill", color: nLevelColor(levelInt))
     }
 }
-
-// MARK: - Culture circular button (matches the kana/grammar bubbles)
 
 private struct CultureCircleButton: View {
-    private var total: Int { CultureContent.topics.count }
-
     var body: some View {
-        LessonBubble(color: CultureContent.accent) {
-            VStack(spacing: 3) {
-                Image(systemName: "building.columns.fill")
-                    .font(.system(size: 22, weight: .bold))
-                Text("Culture")
-                    .font(.system(size: 13, weight: .semibold))
-                Text("\(total) topics")
-                    .font(.system(size: 10, weight: .medium))
-                    .opacity(0.85)
-            }
-        }
+        AestheticTile(title: "Culture", subtitle: "\(CultureContent.topics.count) topics",
+                      glyph: "文", icon: "building.columns.fill", color: CultureContent.accent)
     }
 }
-
-// MARK: - Favorites circular button (matches the kana/grammar bubbles)
 
 private struct FavoritesCircleButton: View {
     @ObservedObject private var store = LessonsProgressStore.shared
-
     private var count: Int { store.favorites.count }
 
     var body: some View {
-        // A gold deep enough for white text/icon to read on the filled circle.
-        LessonBubble(color: Color(hex: "CA8A04")) {
-            VStack(spacing: 3) {
-                Image(systemName: "star.fill")
-                    .font(.system(size: 22, weight: .bold))
-                Text("Favorites")
-                    .font(.system(size: 13, weight: .semibold))
-                Text(count == 0 ? "None yet" : "\(count) saved")
-                    .font(.system(size: 10, weight: .medium))
-                    .opacity(0.85)
-            }
-        }
+        // A gold deep enough for white text/icon to read on the filled tile.
+        AestheticTile(title: "Favorites", subtitle: count == 0 ? "None yet" : "\(count) saved",
+                      glyph: "星", icon: "star.fill", color: Color(hex: "CA8A04"))
     }
 }
 
@@ -379,14 +281,14 @@ private struct ChapterRow: View {
             VStack(alignment: .leading, spacing: 3) {
                 Text(rowLabel)
                     .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .textCase(.uppercase)
                 Text(summary.title)
                     .font(.system(size: 16, weight: .medium))
                     .foregroundColor(.appText)
                 Text(pointsLabel)
                     .font(.system(size: 12))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
             }
 
             Spacer()
@@ -399,7 +301,7 @@ private struct ChapterRow: View {
             } else if completedCount > 0 {
                 Text("\(completedCount)/\(pointCount)")
                     .font(.system(size: 13, weight: .medium))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .padding(.trailing, 4)
             }
         }

@@ -92,8 +92,7 @@ struct GrammarMenuView: View {
 
 // MARK: - Square study tile
 
-/// A saturated square tile: gradient fill, an oversized translucent glyph
-/// bleeding off the corner, a type icon, and the label stack at the bottom.
+/// Thin wrapper: the shared `AestheticTile` wired to a navigation destination.
 private struct StudyTile<Destination: View>: View {
     let title: String
     let subtitle: String
@@ -106,53 +105,7 @@ private struct StudyTile<Destination: View>: View {
         NavigationLink {
             destination()
         } label: {
-            ZStack(alignment: .bottomLeading) {
-                // Base
-                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                    .fill(color.badgeGradient)
-
-                // Oversized watermark glyph, just kissing the bottom-right corner
-                Text(glyph)
-                    .font(.system(size: 92, weight: .black))
-                    .foregroundColor(.white.opacity(0.18))
-                    .offset(x: 12, y: 14)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-
-                // Soft highlight sweep across the top-left
-                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                    .fill(LinearGradient(colors: [.white.opacity(0.22), .clear],
-                                         startPoint: .topLeading, endPoint: .center))
-
-                VStack(alignment: .leading, spacing: 0) {
-                    Image(systemName: icon)
-                        .font(.system(size: 15, weight: .bold))
-                        .foregroundColor(.white)
-                        .frame(width: 32, height: 32)
-                        .background(Circle().fill(.white.opacity(0.22)))
-
-                    Spacer(minLength: 6)
-
-                    Text(title)
-                        .font(.system(size: 20, weight: .bold))
-                        .foregroundColor(.white)
-                        .lineLimit(1)
-                        .minimumScaleFactor(0.7)
-                    Text(subtitle)
-                        .font(.system(size: 11, weight: .medium))
-                        .foregroundColor(.white.opacity(0.85))
-                        .lineLimit(2)
-                        .multilineTextAlignment(.leading)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-                .padding(14)
-            }
-            .aspectRatio(1, contentMode: .fit)
-            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
-            .overlay(
-                RoundedRectangle(cornerRadius: 22, style: .continuous)
-                    .strokeBorder(.white.opacity(0.18), lineWidth: 1)
-            )
-            .shadow(color: color.opacity(0.38), radius: 10, x: 0, y: 5)
+            AestheticTile(title: title, subtitle: subtitle, glyph: glyph, icon: icon, color: color)
         }
         .buttonStyle(.plain)
     }

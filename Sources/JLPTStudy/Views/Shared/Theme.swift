@@ -11,7 +11,9 @@ extension Color {
     static var appNavBarText: Color { _currentAppTheme.navBarText }
     // The theme's signature accent (its nav-bar hue) — used for the home title
     // so it always reads as part of the current palette instead of a fixed red.
-    static var appAccent:     Color { _currentAppTheme.navBar }
+    /// The theme's signature hue, nudged if needed so it always reads against
+    /// the page background (some themes pair a nav bar close to their backdrop).
+    static var appAccent: Color { readable(_currentAppTheme.navBar, on: _currentAppTheme.background) }
     // Primary text derived from the THEME (not the device appearance), so it
     // always contrasts with the current theme's background regardless of
     // whether the device is in light or dark mode.
@@ -19,18 +21,54 @@ extension Color {
         _currentAppTheme.colorScheme == .dark ? Color(white: 0.96) : Color(white: 0.11)
     }
 
+    /// WCAG relative luminance (0 = black, 1 = white).
+    static func relativeLuminance(_ color: Color) -> Double {
+        var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
+        UIColor(color).getRed(&r, green: &g, blue: &b, alpha: &a)
+        func lin(_ c: CGFloat) -> Double {
+            let v = Double(c)
+            return v <= 0.03928 ? v / 12.92 : pow((v + 0.055) / 1.055, 2.4)
+        }
+        return 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b)
+    }
+
+    /// WCAG contrast ratio between two colors (1 = identical, 21 = black on white).
+    static func contrastRatio(_ a: Color, _ b: Color) -> Double {
+        let la = relativeLuminance(a), lb = relativeLuminance(b)
+        return (max(la, lb) + 0.05) / (min(la, lb) + 0.05)
+    }
+
     /// Near-black or near-white — whichever contrasts better against `background`,
     /// by WCAG relative luminance. Use for text placed directly on a surface whose
     /// exact color you have in hand, so the two can never disagree (light or dark).
     static func contrastingText(on background: Color) -> Color {
-        var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
-        UIColor(background).getRed(&r, green: &g, blue: &b, alpha: &a)
-        func lin(_ c: CGFloat) -> CGFloat { c <= 0.03928 ? c / 12.92 : pow((c + 0.055) / 1.055, 2.4) }
-        let luminance = 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b)
-        let whiteContrast = 1.05 / (luminance + 0.05)
-        let blackContrast = (luminance + 0.05) / 0.05
-        return whiteContrast >= blackContrast ? Color(white: 0.96) : Color(white: 0.11)
+        relativeLuminance(background) < 0.45 ? Color(white: 0.96) : Color(white: 0.11)
     }
+
+    /// Keeps a colour's character but guarantees it stays legible: if `color`
+    /// doesn't contrast enough with `background`, it's pushed lighter (on dark
+    /// backgrounds) or darker (on light ones) until it does. Falls back to plain
+    /// contrasting text if even that isn't enough.
+    static func readable(_ color: Color, on background: Color, minRatio: Double = 3.6) -> Color {
+        guard contrastRatio(color, background) < minRatio else { return color }
+        let goLighter = relativeLuminance(background) < 0.45
+        var candidate = color
+        for _ in 0..<10 {
+            candidate = goLighter ? candidate.lightened(0.12) : candidate.darkened(0.12)
+            if contrastRatio(candidate, background) >= minRatio { return candidate }
+        }
+        return contrastingText(on: background)
+    }
+
+    /// An accent colour guaranteed to read against the current page background.
+    static func readableOnBackground(_ accent: Color) -> Color {
+        readable(accent, on: _currentAppTheme.background)
+    }
+
+    /// Secondary text derived from the THEME's text colour (not the device
+    /// appearance), so it stays legible on saturated theme backgrounds where
+    /// SwiftUI's `.secondary` can wash out.
+    static var appTextSecondary: Color { appText.opacity(0.68) }
 
     // Kana level accent colors
     static let hiraganaColor = Color(hex: "DB2777")   // pink
@@ -279,14 +317,121 @@ extension View {
     }
 }
 
+// MARK: - Design system: headings & tiles
+//
+// The Study menu's look — big bold headings, saturated gradient tiles with an
+// oversized watermark glyph and a frosted type icon — generalized so every
+// screen can share it.
+
+/// A large section heading. Replaces the old tiny uppercase labels.
+struct SectionHeading: View {
+    let title: String
+    var size: CGFloat = 20
+    init(_ title: String, size: CGFloat = 20) {
+        self.title = title
+        self.size = size
+    }
+
+    var body: some View {
+        Text(title)
+            .font(.system(size: size, weight: .bold))
+            .foregroundColor(.appText)
+            .padding(.horizontal, 2)
+    }
+}
+
+/// The app's signature tile: gradient fill, oversized translucent glyph bleeding
+/// off the bottom-right, a frosted icon, and a title/subtitle stack.
+/// `aspect` of 1 gives the square Study-menu tile; pass nil for a flexible row.
+struct AestheticTile: View {
+    let title: String
+    var subtitle: String? = nil
+    /// Large watermark character (kana, kanji, or a number).
+    var glyph: String? = nil
+    /// SF Symbol shown in the frosted circle.
+    var icon: String? = nil
+    let color: Color
+    var aspect: CGFloat? = 1
+    var titleSize: CGFloat = 20
+
+    var body: some View {
+        ZStack(alignment: .bottomLeading) {
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .fill(color.badgeGradient)
+
+            if let glyph {
+                Text(glyph)
+                    .font(.system(size: 92, weight: .black))
+                    .foregroundColor(.white.opacity(0.18))
+                    .offset(x: 12, y: 14)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+            }
+
+            // Soft highlight sweep across the top-left
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .fill(LinearGradient(colors: [.white.opacity(0.22), .clear],
+                                     startPoint: .topLeading, endPoint: .center))
+
+            VStack(alignment: .leading, spacing: 0) {
+                if let icon {
+                    Image(systemName: icon)
+                        .font(.system(size: 15, weight: .bold))
+                        .foregroundColor(.white)
+                        .frame(width: 32, height: 32)
+                        .background(Circle().fill(.white.opacity(0.22)))
+                }
+
+                Spacer(minLength: 6)
+
+                Text(title)
+                    .font(.system(size: titleSize, weight: .bold))
+                    .foregroundColor(.white)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.65)
+                    .multilineTextAlignment(.leading)
+                if let subtitle {
+                    Text(subtitle)
+                        .font(.system(size: 11, weight: .medium))
+                        .foregroundColor(.white.opacity(0.85))
+                        .lineLimit(2)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            .padding(14)
+        }
+        .modifier(OptionalAspect(aspect: aspect))
+        .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        .overlay(
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .strokeBorder(.white.opacity(0.18), lineWidth: 1)
+        )
+        .shadow(color: color.opacity(0.38), radius: 10, x: 0, y: 5)
+    }
+}
+
+private struct OptionalAspect: ViewModifier {
+    let aspect: CGFloat?
+    @ViewBuilder
+    func body(content: Content) -> some View {
+        if let aspect { content.aspectRatio(aspect, contentMode: .fit) } else { content }
+    }
+}
+
 // MARK: - Page background
 
 /// The full-screen page background. Renders the theme's vertical gradient (or a
 /// flat fill when the theme has no second stop). Use this instead of
 /// `AppBackground()` so every screen picks up gradients.
 struct AppBackground: View {
+    // Observed so the background actually re-renders when the theme changes.
+    // Without a dependency this view has no inputs, so SwiftUI memoizes it and
+    // the page keeps the previous theme's colours.
+    @EnvironmentObject private var themeManager: ThemeManager
+
     var body: some View {
-        LinearGradient(colors: [.appBackground, .appBackgroundEnd],
+        let theme = themeManager.current
+        LinearGradient(colors: [theme.background, theme.backgroundEnd ?? theme.background],
                        startPoint: .top, endPoint: .bottom)
             .ignoresSafeArea()
     }

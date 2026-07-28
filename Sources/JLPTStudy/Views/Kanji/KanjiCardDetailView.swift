@@ -121,7 +121,7 @@ struct WordCardBody: View {
                     .foregroundColor(.appText)
                 Text(word.word.romaji)
                     .font(.system(size: 14))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .italic()
                 Text(word.word.meaning)
                     .font(.system(size: 17, weight: .medium))
@@ -136,7 +136,7 @@ struct WordCardBody: View {
 
                 Text(parents.count > 1 ? "APPEARS UNDER THESE KANJI" : "FROM THIS KANJI")
                     .font(.system(size: 11, weight: .bold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
 
                 // Tabs — only when the word sits under more than one kanji
                 if parents.count > 1 {
@@ -189,14 +189,14 @@ struct ReadingsColumn: View {
         VStack(alignment: .leading, spacing: 6) {
             Text(label)
                 .font(.system(size: 12, weight: .semibold))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding(.bottom, 2)
 
             if readings.isEmpty {
                 Text("—")
                     .font(.system(size: 15))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .frame(maxWidth: .infinity, alignment: .center)
             } else {
                 ForEach(readings, id: \.self) { r in
@@ -207,7 +207,7 @@ struct ReadingsColumn: View {
                         Spacer()
                         Text(r.romaji)
                             .font(.system(size: 13))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                     }
                 }
             }
@@ -240,7 +240,7 @@ struct CommonWordsTable: View {
                     .frame(maxWidth: .infinity, alignment: .trailing)
             }
             .font(.system(size: 12, weight: .semibold))
-            .foregroundColor(.secondary)
+            .foregroundColor(.appTextSecondary)
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
             .background(Color.appSurfaceHigh)

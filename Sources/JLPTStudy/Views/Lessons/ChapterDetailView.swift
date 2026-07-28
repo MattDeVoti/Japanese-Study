@@ -74,7 +74,7 @@ struct ChapterDetailView: View {
                 .foregroundColor(.secondary.opacity(0.3))
             Text("Nothing in this lesson matches “\(query)”.")
                 .font(.system(size: 14))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 40)
             Spacer()
@@ -126,11 +126,8 @@ struct ChapterDetailView: View {
 
                         if !vocab.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
-                                Label("Vocabulary", systemImage: "character.book.closed")
-                                    .font(.system(size: 11, weight: .semibold))
-                                    .foregroundColor(.secondary)
-                                    .textCase(.uppercase)
-                                    .padding(.top, 8)
+                                SectionHeading("Vocabulary")
+                                    .padding(.top, 10)
 
                                 ForEach(vocab) { word in
                                     VocabWordRow(word: word, accentColor: accentColor)
@@ -154,11 +151,8 @@ struct ChapterDetailView: View {
                         // Kanji for this chapter (same N-level), shown below the vocab.
                         if !kanjiChars.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
-                                Label("Kanji", systemImage: "character.textbox")
-                                    .font(.system(size: 11, weight: .semibold))
-                                    .foregroundColor(.secondary)
-                                    .textCase(.uppercase)
-                                    .padding(.top, 8)
+                                SectionHeading("Kanji")
+                                    .padding(.top, 10)
 
                                 LazyVGrid(
                                     columns: [GridItem(.adaptive(minimum: 78), spacing: 8)],
@@ -248,7 +242,7 @@ struct ChapterKanjiCell: View {
                 .foregroundColor(nLevelColor(card.nLevel))
             Text(gloss)
                 .font(.system(size: 9))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .lineLimit(1)
                 .minimumScaleFactor(0.6)
         }
@@ -305,7 +299,7 @@ struct GrammarPointCard: View {
                                 .frame(maxWidth: .infinity, alignment: .leading)
                             Text(point.shortDescription)
                                 .font(.system(size: 13))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                                 .multilineTextAlignment(.leading)
                                 .fixedSize(horizontal: false, vertical: true)
                         }
@@ -350,7 +344,7 @@ struct GrammarPointCard: View {
                 } label: {
                     Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
                         .font(.system(size: 12, weight: .semibold))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                 }
                 .buttonStyle(.plain)
                 .padding(.leading, 10)
@@ -456,12 +450,21 @@ struct GrammarPointCard: View {
 struct SectionLabel: View {
     let title: String
     let icon: String
+    /// Tint for the icon chip. Defaults to the theme accent, which is already
+    /// contrast-checked against the page background.
+    var accent: Color = .appAccent
 
     var body: some View {
-        Label(title, systemImage: icon)
-            .font(.system(size: 11, weight: .semibold))
-            .foregroundColor(.secondary)
-            .textCase(.uppercase)
+        HStack(spacing: 7) {
+            Image(systemName: icon)
+                .font(.system(size: 10, weight: .bold))
+                .foregroundColor(accent)
+                .frame(width: 20, height: 20)
+                .background(Circle().fill(accent.opacity(0.15)))
+            Text(title)
+                .font(.system(size: 12, weight: .bold))
+                .foregroundColor(.appText)
+        }
     }
 }
 
@@ -474,11 +477,11 @@ struct ExampleCard: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
             Text(example.romaji)
                 .font(.system(size: 12))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .italic()
             Text(example.english)
                 .font(.system(size: 12, weight: .medium))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
         }
         .padding(10)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -564,20 +567,20 @@ struct VocabWordRow: View {
                     if word.kanji != word.kana {
                         Text(word.kana)
                             .font(.system(size: 13))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                     }
                 }
                 HStack(spacing: 4) {
                     Text(word.romaji)
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                         .italic()
                     Text("·")
                         .font(.system(size: 12))
                         .foregroundColor(.secondary.opacity(0.5))
                     Text(word.definition)
                         .font(.system(size: 12))
-                        .foregroundColor(.secondary)
+                        .foregroundColor(.appTextSecondary)
                 }
             }
 

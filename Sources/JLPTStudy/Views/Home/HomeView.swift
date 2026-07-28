@@ -21,16 +21,21 @@ struct HomeView: View {
                 }
                 .frame(maxWidth: .infinity)
 
-                Spacer().frame(height: 64)
+                Spacer().frame(height: 40)
 
-                // Main navigation buttons
-                VStack(spacing: 4) {
-                    HomeNavButton(label: "Journey")    { JourneyView() }
-                    HomeNavButton(label: "Textbook")   { LessonsView() }
-                    HomeNavButton(label: "Study")      { GrammarMenuView() }
-                    HomeNavButton(label: "Dictionary") { DictionaryView() }
+                // Main navigation — signature gradient tiles, two per row
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
+                                    GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                    HomeNavTile(label: "Journey", subtitle: "Guided path", glyph: "道",
+                                icon: "figure.walk", color: Color(hex: "E0574F")) { JourneyView() }
+                    HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
+                                icon: "books.vertical.fill", color: Color(hex: "2563EB")) { LessonsView() }
+                    HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
+                                icon: "brain.head.profile", color: Color(hex: "0D9488")) { GrammarMenuView() }
+                    HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
+                                icon: "magnifyingglass", color: Color(hex: "7C3AED")) { DictionaryView() }
                 }
-                .padding(.horizontal, 40)
+                .padding(.horizontal, 24)
 
                 Spacer()
 
@@ -63,7 +68,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Hiragana")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
 
@@ -80,7 +85,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Kanji")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
 
@@ -97,7 +102,7 @@ struct HomeView: View {
                                 .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
                             Text("Katakana")
                                 .font(.system(size: 10))
-                                .foregroundColor(.secondary)
+                                .foregroundColor(.appTextSecondary)
                         }
                     }
                 }
@@ -168,7 +173,7 @@ struct HomeOptionsSheet: View {
                                 Text("Priority Level")
                                 Spacer()
                                 Text("\(Int((weightSettings.strength * 100).rounded()))%")
-                                    .foregroundColor(.secondary)
+                                    .foregroundColor(.appTextSecondary)
                             }
                             Slider(value: $weightSettings.strength, in: 0.05...1.0)
                                 .tint(.orange)
@@ -329,32 +334,19 @@ private struct ThemeSwatch: View {
 
 // MARK: - Home nav button
 
-private struct HomeNavButton<Destination: View>: View {
-    // Observing the theme guarantees the button re-renders whenever the theme
-    // changes, so the surface and its contrasting text are recomputed together.
-    @EnvironmentObject private var themeManager: ThemeManager
+private struct HomeNavTile<Destination: View>: View {
     let label: String
+    let subtitle: String
+    let glyph: String
+    let icon: String
+    let color: Color
     @ViewBuilder let destination: () -> Destination
 
     var body: some View {
-        // Read the bubble's fill once and derive the label color from it, so the
-        // text is guaranteed to contrast the bubble in any theme (light or dark).
-        let surface = Color.appSurface
         NavigationLink {
             destination()
         } label: {
-            Text(label)
-                .font(.system(size: 22, weight: .medium))
-                .foregroundColor(.contrastingText(on: surface))
-                .frame(maxWidth: .infinity)
-                .frame(height: 60)
-                .background(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous).fill(surface)
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .strokeBorder(Color.appHairline, lineWidth: 1)
-                )
+            AestheticTile(title: label, subtitle: subtitle, glyph: glyph, icon: icon, color: color)
         }
         .buttonStyle(.plain)
     }

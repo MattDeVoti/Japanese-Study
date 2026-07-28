@@ -54,25 +54,42 @@ struct GrammarPracticeView: View {
                     ScrollView {
                         VStack(alignment: .leading, spacing: 20) {
 
-                            // Counter + prompt
-                            VStack(alignment: .leading, spacing: 6) {
-                                Text("Question \(currentIndex + 1) of \(shuffledQuestions.count)")
-                                    .font(.system(size: 11, weight: .semibold))
-                                    .foregroundColor(.secondary)
-                                    .textCase(.uppercase)
+                            // Question card — numbered badge, prompt, and the
+                            // Japanese sentence it's asking about
+                            VStack(alignment: .leading, spacing: 14) {
+                                HStack(spacing: 10) {
+                                    Text("\(currentIndex + 1)")
+                                        .font(.system(size: 15, weight: .bold))
+                                        .foregroundColor(.white)
+                                        .frame(width: 30, height: 30)
+                                        .background(Circle().fill(accentColor.badgeGradient))
+                                        .shadow(color: accentColor.opacity(0.35), radius: 4, y: 2)
 
-                                FuriganaText(text: q.prompt, fontSize: 18, weight: .semibold)
+                                    Text("Question \(currentIndex + 1) of \(shuffledQuestions.count)")
+                                        .font(.system(size: 12, weight: .semibold))
+                                        .foregroundColor(.appTextSecondary)
+                                }
+
+                                FuriganaText(text: q.prompt, fontSize: 19, weight: .semibold)
                                     .frame(maxWidth: .infinity, alignment: .leading)
-                            }
 
-                            // Optional Japanese context sentence
-                            if let japanese = q.japanese {
-                                FuriganaText(text: japanese, fontSize: 22, alignment: .center)
-                                    .frame(maxWidth: .infinity)
-                                    .padding(.vertical, 16)
-                                    .background(accentColor.opacity(0.08))
-                                    .cornerRadius(10)
+                                if let japanese = q.japanese {
+                                    FuriganaText(text: japanese, fontSize: 22, alignment: .center)
+                                        .frame(maxWidth: .infinity)
+                                        .padding(.vertical, 16)
+                                        .background(
+                                            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                                .fill(accentColor.opacity(0.12))
+                                        )
+                                        .overlay(
+                                            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                                .strokeBorder(accentColor.opacity(0.28), lineWidth: 1)
+                                        )
+                                }
                             }
+                            .padding(16)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .appCard(cornerRadius: 20)
 
                             // Answer choices
                             VStack(spacing: 10) {
@@ -98,7 +115,7 @@ struct GrammarPracticeView: View {
                                 VStack(alignment: .leading, spacing: 6) {
                                     Label("Explanation", systemImage: "lightbulb")
                                         .font(.system(size: 11, weight: .semibold))
-                                        .foregroundColor(.secondary)
+                                        .foregroundColor(.appTextSecondary)
                                         .textCase(.uppercase)
 
                                     FuriganaText(text: q.explanation, fontSize: 14)
@@ -306,7 +323,7 @@ private struct PracticeScoreView: View {
                     .foregroundColor(.appText)
                 Text("\(score) / \(total) correct")
                     .font(.system(size: 17))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
             }
 
             Spacer()

@@ -36,7 +36,7 @@ struct LessonSearchResultsView: View {
             LazyVStack(alignment: .leading, spacing: 20) {
                 Text("\(results.count) result\(results.count == 1 ? "" : "s")")
                     .font(.system(size: 12))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .padding(.leading, 4)
 
                 ForEach(groups) { group in
@@ -66,12 +66,12 @@ struct LessonSearchResultsView: View {
             if group.chapterNumber > 0 {
                 Text("· CH\(group.chapterNumber)")
                     .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
             }
             if !isCulture {
                 Text("· \(group.title)")
                     .font(.system(size: 11, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
                     .lineLimit(1)
             }
         }
@@ -85,7 +85,7 @@ struct LessonSearchResultsView: View {
                 .foregroundColor(.secondary.opacity(0.3))
             Text("No results for “\(query)”.")
                 .font(.system(size: 14))
-                .foregroundColor(.secondary)
+                .foregroundColor(.appTextSecondary)
                 .multilineTextAlignment(.center)
         }
         .frame(maxWidth: .infinity)
@@ -119,7 +119,7 @@ private struct SearchResultRow: View {
                     if !result.secondary.isEmpty {
                         Text(result.secondary)
                             .font(.system(size: 12))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.appTextSecondary)
                             .lineLimit(1)
                     }
                 }
@@ -128,7 +128,7 @@ private struct SearchResultRow: View {
 
                 Image(systemName: "chevron.right")
                     .font(.system(size: 12, weight: .semibold))
-                    .foregroundColor(.secondary)
+                    .foregroundColor(.appTextSecondary)
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 10)
