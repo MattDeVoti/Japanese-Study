@@ -50,7 +50,9 @@ struct GrammarMenuView: View {
                     TileSection(header: "Grammar Quizzes", columns: columns) {
                         ForEach([5, 4, 3, 2, 1], id: \.self) { level in
                             StudyTile(title: levelName(level), subtitle: "Tell similar points apart",
-                                      glyph: "\(levelNumber(level))", icon: "checklist",
+                                      glyph: "\(levelNumber(level))",
+                                      secondaryGlyph: levelKanjiNumeral(level),
+                                      icon: "checklist",
                                       color: nLevelColor(level)) {
                                 GrammarPracticeView(pointName: "\(levelName(level)) Grammar",
                                                     questions: grammarQuizzes[level] ?? [],
@@ -97,6 +99,7 @@ private struct StudyTile<Destination: View>: View {
     let title: String
     let subtitle: String
     let glyph: String
+    var secondaryGlyph: String? = nil
     let icon: String
     let color: Color
     @ViewBuilder let destination: () -> Destination
@@ -105,7 +108,8 @@ private struct StudyTile<Destination: View>: View {
         NavigationLink {
             destination()
         } label: {
-            AestheticTile(title: title, subtitle: subtitle, glyph: glyph, icon: icon, color: color)
+            AestheticTile(title: title, subtitle: subtitle, glyph: glyph,
+                          secondaryGlyph: secondaryGlyph, icon: icon, color: color)
         }
         .buttonStyle(.plain)
     }

@@ -131,6 +131,14 @@ func levelName(jlpt: String) -> String {
     return levelName(n)
 }
 
+/// Kanji numeral for a JLPT level int, matching the level number shown on the
+/// tile (N5 → Level 1 → 一). Empty outside 1–5 so a sixth book degrades quietly.
+func levelKanjiNumeral(_ nLevel: Int) -> String {
+    let numerals = ["一", "二", "三", "四", "五"]
+    let i = levelNumber(nLevel) - 1
+    return numerals.indices.contains(i) ? numerals[i] : ""
+}
+
 func nLevelColor(_ level: Int) -> Color {
     switch level {
     case 5: return .n5Color
@@ -350,19 +358,31 @@ extension View {
 // screen can share it.
 
 /// A large section heading. Replaces the old tiny uppercase labels.
+/// Pass `subtitle` for a one-line orientation note underneath.
 struct SectionHeading: View {
     let title: String
     var size: CGFloat = 20
-    init(_ title: String, size: CGFloat = 20) {
+    var subtitle: String? = nil
+
+    init(_ title: String, size: CGFloat = 20, subtitle: String? = nil) {
         self.title = title
         self.size = size
+        self.subtitle = subtitle
     }
 
     var body: some View {
-        Text(title)
-            .font(.system(size: size, weight: .bold))
-            .foregroundColor(.appText)
-            .padding(.horizontal, 2)
+        VStack(alignment: .leading, spacing: 3) {
+            Text(title)
+                .font(.system(size: size, weight: .bold))
+                .foregroundColor(.appText)
+            if let subtitle {
+                Text(subtitle)
+                    .font(.system(size: 12))
+                    .foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(.horizontal, 2)
     }
 }
 
@@ -420,6 +440,9 @@ struct AestheticTile: View {
     var subtitle: String? = nil
     /// Large watermark character (kana, kanji, or a number).
     var glyph: String? = nil
+    /// Optional second watermark, set opposite `glyph` across the diagonal to
+    /// balance it. Used to pair a level number with its kanji numeral.
+    var secondaryGlyph: String? = nil
     /// SF Symbol shown in the frosted circle.
     var icon: String? = nil
     let color: Color
@@ -437,6 +460,14 @@ struct AestheticTile: View {
                     .foregroundColor(.white.opacity(0.18))
                     .offset(x: 12, y: 14)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+            }
+
+            if let secondaryGlyph {
+                Text(secondaryGlyph)
+                    .font(.system(size: 46, weight: .black))
+                    .foregroundColor(.white.opacity(0.20))
+                    .offset(x: -14, y: 10)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
             }
 
             // Soft highlight sweep across the top-left
@@ -500,6 +531,14 @@ struct ChapterProgress {
     var vocabDone = 0,  vocabTotal = 0
     var kanjiDone = 0,  kanjiTotal = 0
 
+    /// True when every category the chapter actually has is fully checked off.
+    /// A chapter with no items at all is not "complete" — there is nothing to finish.
+    var isComplete: Bool {
+        let present = [(grammarDone, grammarTotal), (vocabDone, vocabTotal), (kanjiDone, kanjiTotal)]
+            .filter { $0.1 > 0 }
+        return !present.isEmpty && present.allSatisfy { $0.0 == $0.1 }
+    }
+
     static func of(chapterId: String, cardStore: CardStore) -> ChapterProgress {
         var p = ChapterProgress()
 
@@ -538,24 +577,53 @@ struct ProgressBadge: View {
                 .tracking(0.3)
                 .foregroundColor(tint.opacity(0.9))
 
-            Group {
-                if total > 0 && done == total {
-                    Image(systemName: "checkmark")
-                        .font(.system(size: 10, weight: .black))
-                } else {
-                    Text("\(done)/\(total)")
-                        .font(.system(size: 11, weight: .bold))
-                        .monospacedDigit()
+            // Nothing started yet reads as a bare grey dash — no capsule, so an
+            // untouched category recedes instead of advertising a zero.
+            if done == 0 {
+                Text("–")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundColor(.appTextSecondary)
+                    .padding(.horizontal, 7)
+                    .padding(.vertical, 4)
+                    .frame(minWidth: 34, minHeight: 21)
+            } else {
+                Group {
+                    if total > 0 && done == total {
+                        Image(systemName: "checkmark")
+                            .font(.system(size: 10, weight: .black))
+                    } else {
+                        Text("\(done)/\(total)")
+                            .font(.system(size: 11, weight: .bold))
+                            .monospacedDigit()
+                    }
                 }
+                .foregroundColor(tint)
+                .padding(.horizontal, 7)
+                .padding(.vertical, 4)
+                .frame(minWidth: 34, minHeight: 21)
+                .background(Capsule().fill(color.opacity(0.16)))
+                .overlay(Capsule().strokeBorder(color.opacity(0.45), lineWidth: 1))
             }
-            .foregroundColor(tint)
-            .padding(.horizontal, 7)
-            .padding(.vertical, 4)
-            .frame(minWidth: 34)
-            .background(Capsule().fill(color.opacity(0.16)))
-            .overlay(Capsule().strokeBorder(color.opacity(0.45), lineWidth: 1))
         }
         .fixedSize()
+    }
+}
+
+/// Shown in place of the three category badges once a whole chapter is finished.
+/// One gold mark instead of three green ones, so a completed chapter is legible
+/// at a glance while scanning a list.
+struct ChapterCompleteBadge: View {
+    /// The same gold the Favorites tile uses — deep enough to carry white.
+    private let gold = Color(hex: "CA8A04")
+
+    var body: some View {
+        Image(systemName: "checkmark")
+            .font(.system(size: 17, weight: .black))
+            .foregroundColor(Color.contrastingText(on: gold))
+            .frame(width: 38, height: 38)
+            .background(Circle().fill(gold))
+            .overlay(Circle().strokeBorder(gold.opacity(0.35), lineWidth: 2).padding(-3))
+            .accessibilityLabel("Chapter complete")
     }
 }
 

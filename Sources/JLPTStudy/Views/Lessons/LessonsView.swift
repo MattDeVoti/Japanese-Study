@@ -77,7 +77,7 @@ struct LessonsView: View {
 
                     // MARK: Kana
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeading("Kana")
+                        SectionHeading("Kana", subtitle: "Start here. Learn Hiragana and Katakana, the phonetic Japanese alphabets — knowledge of both will be needed to follow the lessons.")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             ForEach(kanaLevels) { level in
                                 NavigationLink {
@@ -92,7 +92,7 @@ struct LessonsView: View {
 
                     // MARK: Grammar
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeading("Grammar")
+                        SectionHeading("Grammar", subtitle: "The main path, once you know Kana. Start at Level 1 and work upward — each level builds on the one before it. Slang is an optional extra but useful for expanding your vocabulary.")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             ForEach(grammarLevels) { level in
                                 NavigationLink {
@@ -117,7 +117,7 @@ struct LessonsView: View {
 
                     // MARK: Culture
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeading("Culture")
+                        SectionHeading("Culture", subtitle: "Learn about Japanese culture and customs. Read any time — not required to know Japanese to follow.")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NavigationLink {
                                 CultureChapterView()
@@ -130,7 +130,7 @@ struct LessonsView: View {
 
                     // MARK: Favorites
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeading("Favorites")
+                        SectionHeading("Favorites", subtitle: "Anything you star while studying collects here, so you can find it again fast.")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NavigationLink {
                                 FavoritesView()
@@ -143,7 +143,7 @@ struct LessonsView: View {
 
                     // MARK: Custom — the "+" bubble is always first
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeading("Custom")
+                        SectionHeading("Custom", subtitle: "Build your own lesson from any set of grammar points, words or kanji — ideal for focusing on specific concepts or learning the difference between concepts you keep mixing up.")
                         LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
                             NewCustomLessonBubble()
 
@@ -204,7 +204,9 @@ private struct GrammarCircleButton: View {
 
     var body: some View {
         AestheticTile(title: levelName(levelInt), subtitle: "\(level.chapters.count) chapters",
-                      glyph: "\(levelNumber(levelInt))", icon: "book.fill", color: nLevelColor(levelInt))
+                      glyph: "\(levelNumber(levelInt))",
+                      secondaryGlyph: levelKanjiNumeral(levelInt),
+                      icon: "book.fill", color: nLevelColor(levelInt))
     }
 }
 
@@ -294,23 +296,29 @@ private struct ChapterRow: View {
 
             Spacer(minLength: 8)
 
-            // One badge per category the chapter actually has
+            // Finished chapters collapse to a single gold mark; otherwise one
+            // badge per category the chapter actually has.
             let p = progress
-            HStack(alignment: .bottom, spacing: 6) {
-                if p.grammarTotal > 0 {
-                    ProgressBadge(label: isKana ? "Kana" : "Grammar",
-                                  done: p.grammarDone, total: p.grammarTotal, color: .grammarColor)
+            if p.isComplete {
+                ChapterCompleteBadge()
+                    .padding(.trailing, 4)
+            } else {
+                HStack(alignment: .bottom, spacing: 6) {
+                    if p.grammarTotal > 0 {
+                        ProgressBadge(label: isKana ? "Kana" : "Grammar",
+                                      done: p.grammarDone, total: p.grammarTotal, color: .grammarColor)
+                    }
+                    if p.vocabTotal > 0 {
+                        ProgressBadge(label: "Vocab",
+                                      done: p.vocabDone, total: p.vocabTotal, color: .vocabColor)
+                    }
+                    if p.kanjiTotal > 0 {
+                        ProgressBadge(label: "Kanji",
+                                      done: p.kanjiDone, total: p.kanjiTotal, color: .kanjiColor)
+                    }
                 }
-                if p.vocabTotal > 0 {
-                    ProgressBadge(label: "Vocab",
-                                  done: p.vocabDone, total: p.vocabTotal, color: .vocabColor)
-                }
-                if p.kanjiTotal > 0 {
-                    ProgressBadge(label: "Kanji",
-                                  done: p.kanjiDone, total: p.kanjiTotal, color: .kanjiColor)
-                }
+                .padding(.trailing, 2)
             }
-            .padding(.trailing, 2)
         }
         .padding(.vertical, 6)
     }
