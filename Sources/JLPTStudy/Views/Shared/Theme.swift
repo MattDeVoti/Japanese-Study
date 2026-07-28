@@ -5,6 +5,8 @@ import UIKit
 
 extension Color {
     static var appBackground: Color { _currentAppTheme.background }
+    /// Bottom stop of the page gradient — equals `appBackground` on flat themes.
+    static var appBackgroundEnd: Color { _currentAppTheme.backgroundEnd ?? _currentAppTheme.background }
     static var appNavBar:     Color { _currentAppTheme.navBar }
     static var appNavBarText: Color { _currentAppTheme.navBarText }
     // The theme's signature accent (its nav-bar hue) — used for the home title
@@ -274,6 +276,19 @@ struct OptionsButton: ViewModifier {
 extension View {
     func withOptions(filter: StudyFilter, store: CardStore, section: CardStore.CardSection, label: String = "") -> some View {
         modifier(OptionsButton(filter: filter, store: store, section: section))
+    }
+}
+
+// MARK: - Page background
+
+/// The full-screen page background. Renders the theme's vertical gradient (or a
+/// flat fill when the theme has no second stop). Use this instead of
+/// `AppBackground()` so every screen picks up gradients.
+struct AppBackground: View {
+    var body: some View {
+        LinearGradient(colors: [.appBackground, .appBackgroundEnd],
+                       startPoint: .top, endPoint: .bottom)
+            .ignoresSafeArea()
     }
 }
 

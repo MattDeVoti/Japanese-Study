@@ -48,7 +48,7 @@ struct CultureChapterView: View {
             }
             .padding(16)
         }
-        .background(Color.appBackground.ignoresSafeArea())
+        .background(AppBackground())
         .standardNavBar("Culture")
     }
 }

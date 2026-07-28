@@ -38,7 +38,7 @@ struct ChapterDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if let chapter = chapter {
                 let points = chapter.points.filter(pointMatches)

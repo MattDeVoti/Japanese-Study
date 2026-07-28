@@ -39,7 +39,7 @@ struct LessonsView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 SearchBar(text: $query, placeholder: "Search the whole textbook…")
@@ -335,7 +335,7 @@ struct LevelView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             List(level.chapters) { summary in
                 NavigationLink {
@@ -343,7 +343,7 @@ struct LevelView: View {
                 } label: {
                     ChapterRow(summary: summary)
                 }
-                .listRowBackground(Color.appBackground)
+                .listRowBackground(Color.clear)
                 .listRowSeparatorTint(Color.primary.opacity(0.1))
             }
             .listStyle(.plain)

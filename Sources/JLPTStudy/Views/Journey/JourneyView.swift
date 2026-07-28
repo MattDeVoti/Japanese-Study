@@ -199,7 +199,7 @@ struct JourneyView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if finished {
                 JourneyDoneScreen(accent: .red) { dismiss() }

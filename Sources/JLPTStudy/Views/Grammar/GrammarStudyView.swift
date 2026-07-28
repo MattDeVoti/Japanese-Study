@@ -11,7 +11,7 @@ struct GrammarStudyView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if let card = currentCard {
                 FlashCardDetailView(

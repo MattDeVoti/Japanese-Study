@@ -7,7 +7,7 @@ struct ParticleCardDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             ScrollView {
                 VStack(spacing: 0) {

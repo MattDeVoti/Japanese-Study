@@ -7,7 +7,7 @@ struct HomeView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 Spacer()
@@ -246,9 +246,10 @@ private struct ThemeSwatch: View {
         Button(action: onTap) {
             VStack(spacing: 8) {
                 ZStack {
-                    // Card body
+                    // Card body — previews the theme's gradient (or flat fill)
                     RoundedRectangle(cornerRadius: 16)
-                        .fill(theme.background)
+                        .fill(LinearGradient(colors: [theme.background, theme.backgroundEnd ?? theme.background],
+                                             startPoint: .top, endPoint: .bottom))
                         .frame(height: 100)
 
                     // Nav bar strip at top

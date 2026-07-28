@@ -5,7 +5,7 @@ struct KanaChartView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     ChartSection(title: "Basic", rows: isHiragana ? hiraganaBasic : katakanaBasic)

@@ -259,7 +259,7 @@ struct CustomLessonDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             if let lesson = lesson {
                 if lesson.itemCount == 0 { emptyState } else { content }
             }

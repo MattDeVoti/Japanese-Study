@@ -12,7 +12,7 @@ struct KanjiCardDetailView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             ScrollView {
                 VStack(alignment: .center, spacing: 20) {

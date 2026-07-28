@@ -70,7 +70,7 @@ struct KanjiStudyView: View {
         let faceSize: CGFloat = card.face.count >= 4 ? 52 : (card.face.count >= 2 ? 64 : 80)
 
         return ZStack(alignment: .bottom) {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 // Fixed top bar: favorite + level (stay put while the face slides)
@@ -208,7 +208,7 @@ struct KanjiStudyView: View {
             }
             .padding(.horizontal, 20)
             .padding(.vertical, 12)
-            .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
+            .background(Color.appBackgroundEnd.ignoresSafeArea(edges: .bottom))
 
             // Green-check pop shown briefly when "Confident" is tapped
             if showConfidentPop {
@@ -237,7 +237,7 @@ struct KanjiStudyView: View {
 
     private var emptyState: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             VStack(spacing: 16) {
                 Spacer()
                 Image(systemName: "rectangle.stack.badge.minus")

@@ -31,7 +31,7 @@ struct GrammarPracticeView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             if isDone {
                 PracticeScoreView(

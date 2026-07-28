@@ -76,11 +76,33 @@ final class CustomLessonsStore: ObservableObject {
     @Published private(set) var lessons: [CustomLesson] = []
 
     private let storageKey = "CustomLessonsData"
+    private let seededKey = "CustomLessonsDidSeedPresets"
     private var didLoad = false
 
     private init() {
         load()
         didLoad = true
+        seedPresetsIfNeeded()
+    }
+
+    /// Adds the ready-made lessons the first time the app runs. The flag is set
+    /// regardless of outcome, so a preset the user deletes stays deleted.
+    private func seedPresetsIfNeeded() {
+        let defaults = UserDefaults.standard
+        guard !defaults.bool(forKey: seededKey) else { return }
+        defaults.set(true, forKey: seededKey)
+
+        let now = Date()
+        lessons += CustomLessonPresets.all.map { preset in
+            CustomLesson(
+                id: UUID().uuidString,
+                name: preset.name,
+                grammar: preset.grammar.map { CustomGrammarRef(chapterId: $0.chapter, pointId: $0.point) },
+                vocabIds: preset.vocabIds,
+                kanji: preset.kanji,
+                createdAt: now)
+        }
+        persist()
     }
 
     // MARK: Queries

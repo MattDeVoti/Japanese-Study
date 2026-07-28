@@ -45,7 +45,7 @@ struct VocabFlashcardsView: View {
         Group {
             if isLoading {
                 ZStack {
-                    Color.appBackground.ignoresSafeArea()
+                    AppBackground()
                     ProgressView()
                 }
                 .vocabNavBar(title: "Vocab Flash Cards", filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
@@ -95,7 +95,7 @@ struct VocabFlashcardsView: View {
         .matchedGeometryEffect(id: "word", in: wordNS)
 
         return ZStack(alignment: .bottom) {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
 
             VStack(spacing: 0) {
                 // Fixed top bar: favorite (stays put while the word slides)
@@ -230,7 +230,7 @@ struct VocabFlashcardsView: View {
             }
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
-            .background(Color.appBackground.ignoresSafeArea(edges: .bottom))
+            .background(Color.appBackgroundEnd.ignoresSafeArea(edges: .bottom))
 
             // Green-check pop shown briefly when "Confident" is tapped
             if showConfidentPop {
@@ -245,7 +245,7 @@ struct VocabFlashcardsView: View {
 
     private var emptyState: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             VStack(spacing: 16) {
                 Spacer()
                 Image(systemName: "rectangle.stack.badge.minus")
@@ -426,7 +426,7 @@ private struct VocabFilterSheet: View {
                 }
                 .padding(20)
             }
-            .background(Color.appBackground.ignoresSafeArea())
+            .background(AppBackground())
             .navigationTitle("Filter")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

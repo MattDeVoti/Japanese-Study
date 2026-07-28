@@ -7,7 +7,7 @@ struct ReadingListView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
                     if readings.isEmpty {
@@ -134,7 +134,7 @@ struct ReadingDetailView: View {
         GeometryReader { geo in
             let origin = geo.frame(in: .global).origin
             ZStack(alignment: .topLeading) {
-                Color.appBackground.ignoresSafeArea()
+                AppBackground()
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {

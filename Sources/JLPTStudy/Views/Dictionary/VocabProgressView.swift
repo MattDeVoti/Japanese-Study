@@ -68,7 +68,7 @@ struct VocabProgressView: View {
             } else {
                 List(sorted) { card in
                     VocabProgressRow(card: card, green: green(card), red: red(card))
-                        .listRowBackground(Color.appBackground)
+                        .listRowBackground(Color.clear)
                         .listRowSeparatorTint(Color.appHairline)
                 }
                 .listStyle(.plain)

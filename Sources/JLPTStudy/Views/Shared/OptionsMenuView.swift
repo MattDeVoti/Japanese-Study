@@ -135,7 +135,7 @@ struct OptionsMenuView: View {
                 .padding(.horizontal, 20)
                 .padding(.vertical, 24)
             }
-            .background(Color.appBackground.ignoresSafeArea())
+            .background(AppBackground())
             .navigationTitle("Options")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -232,7 +232,7 @@ private struct KanjiPickerView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground.ignoresSafeArea()
+            AppBackground()
             VStack(spacing: 0) {
                 // Search
                 HStack {
