@@ -166,27 +166,8 @@ struct ChapterDetailView: View {
                                 ) {
                                     ForEach(kanjiChars, id: \.self) { kc in
                                         if let card = cardStore.kanjiCard(for: kc) {
-                                            ZStack(alignment: .topTrailing) {
-                                                NavigationLink {
-                                                    KanjiCardDetailView(card: card)
-                                                } label: {
-                                                    ChapterKanjiCell(card: card)
-                                                }
-                                                .buttonStyle(.plain)
-
-                                                Button {
-                                                    cardStore.toggleKanjiExcluded(cardId: card.id)
-                                                } label: {
-                                                    Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
-                                                        .font(.system(size: 15))
-                                                        .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .green : Color.secondary.opacity(0.45))
-                                                        .padding(3)
-                                                        .background(Circle().fill(Color.appSurface))
-                                                }
-                                                .buttonStyle(.plain)
-                                                .padding(4)
-                                            }
-                                            .addToCustomLesson(.kanji(char: card.kanji))
+                                            KanjiExcludeCell(card: card)
+                                                .addToCustomLesson(.kanji(char: card.kanji))
                                         }
                                     }
                                 }
@@ -218,7 +199,37 @@ struct ChapterDetailView: View {
     }
 }
 
-// MARK: - Chapter kanji cell
+// MARK: - Chapter kanji cell + exclude checkmark
+
+/// A chapter's kanji tile: taps through to the kanji detail and carries the green
+/// "exclude from flashcards" checkmark. Shared by chapters and custom lessons.
+struct KanjiExcludeCell: View {
+    let card: KanjiCard
+    @EnvironmentObject private var cardStore: CardStore
+
+    var body: some View {
+        ZStack(alignment: .topTrailing) {
+            NavigationLink {
+                KanjiCardDetailView(card: card)
+            } label: {
+                ChapterKanjiCell(card: card)
+            }
+            .buttonStyle(.plain)
+
+            Button {
+                cardStore.toggleKanjiExcluded(cardId: card.id)
+            } label: {
+                Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
+                    .font(.system(size: 15))
+                    .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .green : Color.secondary.opacity(0.45))
+                    .padding(3)
+                    .background(Circle().fill(Color.appSurface))
+            }
+            .buttonStyle(.plain)
+            .padding(4)
+        }
+    }
+}
 
 struct ChapterKanjiCell: View {
     let card: KanjiCard
@@ -369,6 +380,14 @@ struct GrammarPointCard: View {
                     VStack(alignment: .leading, spacing: 5) {
                         SectionLabel(title: "Explanation", icon: "text.alignleft")
                         ExplanationBody(text: point.explanation, fontSize: 14, color: .appText, bulletColor: accentColor)
+                    }
+
+                    // Visual aid (only the handful of points that have one)
+                    if let visual = GrammarVisual.forPoint(point.id) {
+                        VStack(alignment: .leading, spacing: 5) {
+                            SectionLabel(title: "Diagram", icon: "map")
+                            visual.view(accent: accentColor)
+                        }
                     }
 
                     // Rules

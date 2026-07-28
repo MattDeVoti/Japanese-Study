@@ -91,6 +91,7 @@ func levelAccentColor(_ jlptLevel: String) -> Color {
     switch jlptLevel {
     case "Hiragana": return .hiraganaColor
     case "Katakana": return .katakanaColor
+    case SlangContent.levelId: return SlangContent.accent
     default: return nLevelColor(Int(jlptLevel.dropFirst()) ?? 5)
     }
 }

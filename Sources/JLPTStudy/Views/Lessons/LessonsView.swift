@@ -25,6 +25,11 @@ struct LessonsView: View {
             .sorted { (Int($0.jlptLevel.dropFirst()) ?? 0) > (Int($1.jlptLevel.dropFirst()) ?? 0) }
     }
 
+    /// The slang book — its own bubble after Level 5.
+    private var slangLevel: LessonLevel? {
+        levels.first { $0.jlptLevel == SlangContent.levelId }
+    }
+
     // Bubble grid: uniform-size, left-aligned, up to three per row.
     private let bubbleColumns = [
         GridItem(.flexible(), spacing: 12, alignment: .top),
@@ -98,6 +103,16 @@ struct LessonsView: View {
                                 }
                                 .buttonStyle(.plain)
                             }
+
+                            // Slang — its own book, sixth bubble after Level 5
+                            if let slang = slangLevel {
+                                NavigationLink {
+                                    LevelView(level: slang)
+                                } label: {
+                                    SlangCircleButton(chapterCount: slang.chapters.count)
+                                }
+                                .buttonStyle(.plain)
+                            }
                         }
                     }
 
@@ -127,19 +142,19 @@ struct LessonsView: View {
                         }
                     }
 
-                    // MARK: Custom (only once the user has built at least one)
-                    if !customStore.lessons.isEmpty {
-                        VStack(alignment: .leading, spacing: 14) {
-                            LessonSectionHeader("Custom")
-                            LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
-                                ForEach(customStore.lessons) { lesson in
-                                    NavigationLink {
-                                        CustomLessonDetailView(lessonId: lesson.id)
-                                    } label: {
-                                        CustomLessonCircleButton(lesson: lesson)
-                                    }
-                                    .buttonStyle(.plain)
+                    // MARK: Custom — the "+" bubble is always first
+                    VStack(alignment: .leading, spacing: 14) {
+                        LessonSectionHeader("Custom")
+                        LazyVGrid(columns: bubbleColumns, alignment: .leading, spacing: 12) {
+                            NewCustomLessonBubble()
+
+                            ForEach(customStore.lessons) { lesson in
+                                NavigationLink {
+                                    CustomLessonDetailView(lessonId: lesson.id)
+                                } label: {
+                                    CustomLessonCircleButton(lesson: lesson)
                                 }
+                                .buttonStyle(.plain)
                             }
                         }
                     }
@@ -165,6 +180,62 @@ private struct LessonSectionHeader: View {
     }
 }
 
+// MARK: - Slang chapter
+
+/// The standalone slang chapter: not a JLPT level, so it gets its own manifest
+/// "level" and its own bubble at the end of the Grammar row.
+enum SlangContent {
+    /// The manifest level id that holds the single slang chapter.
+    static let levelId = "Slang"
+    static let chapterId = "ch_slang"
+    static let accent = Color(hex: "DB2777")   // magenta — distinct from the N-level colors
+}
+
+private struct SlangCircleButton: View {
+    let chapterCount: Int
+
+    var body: some View {
+        LessonBubble(color: SlangContent.accent) {
+            VStack(spacing: 3) {
+                Image(systemName: "bubble.left.and.text.bubble.right.fill")
+                    .font(.system(size: 20, weight: .bold))
+                Text("Slang")
+                    .font(.system(size: 13, weight: .semibold))
+                Text("\(chapterCount) ch")
+                    .font(.system(size: 10, weight: .medium))
+                    .opacity(0.85)
+            }
+        }
+    }
+}
+
+// MARK: - Shared circular bubble
+
+/// The filled, gradient circle every Textbook section uses. Callers supply just
+/// the inner glyph/label stack; the circle, shadow, sizing, and white-on-color
+/// text treatment live here.
+struct LessonBubble<Content: View>: View {
+    let color: Color
+    var padding: CGFloat = 10
+    @ViewBuilder let content: Content
+
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(color.badgeGradient)
+                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
+
+            content
+                .foregroundColor(.white)
+                .multilineTextAlignment(.center)
+                .minimumScaleFactor(0.6)
+                .padding(padding)
+        }
+        .aspectRatio(1, contentMode: .fit)
+        .scaleEffect(0.9)
+    }
+}
+
 // MARK: - Kana circular button (large — two per row)
 
 private struct KanaCircleButton: View {
@@ -174,11 +245,7 @@ private struct KanaCircleButton: View {
     private var glyph: String { level.jlptLevel == "Hiragana" ? "ひ" : "カ" }
 
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(color.badgeGradient)
-                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
-
+        LessonBubble(color: color) {
             VStack(spacing: 2) {
                 Text(glyph)
                     .font(.system(size: 30, weight: .bold))
@@ -188,13 +255,7 @@ private struct KanaCircleButton: View {
                     .font(.system(size: 10, weight: .medium))
                     .opacity(0.85)
             }
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
-            .minimumScaleFactor(0.6)
-            .padding(10)
         }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
     }
 }
 
@@ -207,11 +268,7 @@ private struct GrammarCircleButton: View {
     private var color: Color { nLevelColor(levelInt) }
 
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(color.badgeGradient)
-                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
-
+        LessonBubble(color: color) {
             VStack(spacing: 3) {
                 Text(levelName(levelInt))
                     .font(.system(size: 21, weight: .bold))
@@ -219,29 +276,18 @@ private struct GrammarCircleButton: View {
                     .font(.system(size: 11, weight: .medium))
                     .opacity(0.9)
             }
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
             .lineLimit(1)
-            .minimumScaleFactor(0.6)
-            .padding(10)
         }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
     }
 }
 
 // MARK: - Culture circular button (matches the kana/grammar bubbles)
 
 private struct CultureCircleButton: View {
-    private var color: Color { CultureContent.accent }
     private var total: Int { CultureContent.topics.count }
 
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(color.badgeGradient)
-                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
-
+        LessonBubble(color: CultureContent.accent) {
             VStack(spacing: 3) {
                 Image(systemName: "building.columns.fill")
                     .font(.system(size: 22, weight: .bold))
@@ -251,13 +297,7 @@ private struct CultureCircleButton: View {
                     .font(.system(size: 10, weight: .medium))
                     .opacity(0.85)
             }
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
-            .minimumScaleFactor(0.6)
-            .padding(10)
         }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
     }
 }
 
@@ -266,16 +306,11 @@ private struct CultureCircleButton: View {
 private struct FavoritesCircleButton: View {
     @ObservedObject private var store = LessonsProgressStore.shared
 
-    // A gold deep enough for white text/icon to read on the filled circle.
-    private var color: Color { Color(hex: "CA8A04") }
     private var count: Int { store.favorites.count }
 
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(color.badgeGradient)
-                .shadow(color: color.opacity(0.35), radius: 7, x: 0, y: 3)
-
+        // A gold deep enough for white text/icon to read on the filled circle.
+        LessonBubble(color: Color(hex: "CA8A04")) {
             VStack(spacing: 3) {
                 Image(systemName: "star.fill")
                     .font(.system(size: 22, weight: .bold))
@@ -285,13 +320,7 @@ private struct FavoritesCircleButton: View {
                     .font(.system(size: 10, weight: .medium))
                     .opacity(0.85)
             }
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
-            .minimumScaleFactor(0.6)
-            .padding(10)
         }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
     }
 }
 

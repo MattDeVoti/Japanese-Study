@@ -7,6 +7,12 @@ class CardStore: ObservableObject {
     @Published var vocabFiles: [VocabFile] = []
     @Published var particleCards: [ParticleCard] = []
 
+    // O(1) lookups into the card arrays. Built once at load; the arrays are only
+    // ever mutated in place (never reordered or resized), so positions stay valid.
+    private var kanjiIndexById: [String: Int] = [:]
+    private var kanjiIndexByChar: [String: Int] = [:]
+    private var grammarIndexById: [String: Int] = [:]
+
     // Resolves to the bundled folder if present, falls back to dev path
     static let basePath: String = {
         if let p = Bundle.main.url(forResource: "JLPT Assets", withExtension: nil)?.path,
@@ -46,6 +52,22 @@ class CardStore: ObservableObject {
         grammarCards = loadGrammarCards()
         vocabFiles = loadVocabFiles()
         particleCards = loadParticleCards()
+        rebuildIndices()
+    }
+
+    private func rebuildIndices() {
+        kanjiIndexById = Dictionary(kanjiCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
+        kanjiIndexByChar = Dictionary(kanjiCards.enumerated().map { ($1.kanji, $0) }, uniquingKeysWith: { first, _ in first })
+        grammarIndexById = Dictionary(grammarCards.enumerated().map { ($1.id, $0) }, uniquingKeysWith: { first, _ in first })
+    }
+
+    /// Mutate a kanji and/or grammar card by id in place (an id is one or the
+    /// other). Centralizes the index lookup the study operations all share.
+    private func mutateCard(_ cardId: String,
+                            kanji: ((inout KanjiCard) -> Void),
+                            grammar: ((inout GrammarCard) -> Void)) {
+        if let i = kanjiIndexById[cardId] { kanji(&kanjiCards[i]) }
+        if let i = grammarIndexById[cardId] { grammar(&grammarCards[i]) }
     }
 
     private func loadParticleCards() -> [ParticleCard] {
@@ -228,16 +250,14 @@ class CardStore: ObservableObject {
             data.favorites.insert(cardId)
         }
         let fav = data.favorites.contains(cardId)
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].isFavorite = fav }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].isFavorite = fav }
+        mutateCard(cardId, kanji: { $0.isFavorite = fav }, grammar: { $0.isFavorite = fav })
         persist()
     }
 
     func incrementNeedsWork(cardId: String) {
         data.needsWorkCounts[cardId, default: 0] += 1
         let n = data.needsWorkCounts[cardId]!
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].needsWorkCount = n }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].needsWorkCount = n }
+        mutateCard(cardId, kanji: { $0.needsWorkCount = n }, grammar: { $0.needsWorkCount = n })
         persist()
     }
 
@@ -247,16 +267,14 @@ class CardStore: ObservableObject {
         let n = c - 1
         if n == 0 { data.needsWorkCounts.removeValue(forKey: cardId) }
         else { data.needsWorkCounts[cardId] = n }
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].needsWorkCount = n }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].needsWorkCount = n }
+        mutateCard(cardId, kanji: { $0.needsWorkCount = n }, grammar: { $0.needsWorkCount = n })
         persist()
     }
 
     func incrementConfident(cardId: String) {
         data.confidentCounts[cardId, default: 0] += 1
         let n = data.confidentCounts[cardId]!
-        if let i = kanjiCards.firstIndex(where: { $0.id == cardId }) { kanjiCards[i].confidentCount = n }
-        if let i = grammarCards.firstIndex(where: { $0.id == cardId }) { grammarCards[i].confidentCount = n }
+        mutateCard(cardId, kanji: { $0.confidentCount = n }, grammar: { $0.confidentCount = n })
         persist()
     }
 
@@ -327,9 +345,9 @@ class CardStore: ObservableObject {
         pinNumberKanji(kanjiCards)
     }
 
-    // Look up a kanji card by its character (used by lesson chapters).
+    // Look up a kanji card by its character (used by lesson chapters). O(1).
     func kanjiCard(for char: String) -> KanjiCard? {
-        kanjiCards.first(where: { $0.kanji == char })
+        kanjiIndexByChar[char].map { kanjiCards[$0] }
     }
 
     // Pin number kanji to the front in ascending order
@@ -364,33 +382,18 @@ class CardStore: ObservableObject {
     /// Weighting comes from the app-wide `StudyWeightSettings`, shared by every
     /// deck and every place the setting can be changed.
     private func selectWeighted<T: FlashCardProtocol>(_ cards: [T]) -> T? {
-        guard !cards.isEmpty else { return nil }
-        let mode = StudyWeightSettings.shared.mode
-        let strength = StudyWeightSettings.shared.strength
-        guard mode == .needsWork, strength > 0 else { return cards.randomElement() }
-        let weights: [Double] = cards.map { card in
-            1.0 + Double(card.needsWorkCount) * 5.0 * strength
-        }
-        var r = Double.random(in: 0..<weights.reduce(0, +))
-        for (i, w) in weights.enumerated() {
-            r -= w
-            if r <= 0 { return cards[i] }
-        }
-        return cards.last
+        StudyWeightSettings.shared.pick(cards) { $0.needsWorkCount }
     }
 
     // MARK: - Persistence
 
     private func loadPersistedData() {
-        guard let raw = UserDefaults.standard.data(forKey: defaultsKey),
-              let decoded = try? JSONDecoder().decode(PersistentData.self, from: raw)
-        else { return }
-        data = decoded
+        if let decoded = UserDefaults.standard.decode(PersistentData.self, forKey: defaultsKey) {
+            data = decoded
+        }
     }
 
     private func persist() {
-        if let encoded = try? JSONEncoder().encode(data) {
-            UserDefaults.standard.set(encoded, forKey: defaultsKey)
-        }
+        UserDefaults.standard.encode(data, forKey: defaultsKey)
     }
 }

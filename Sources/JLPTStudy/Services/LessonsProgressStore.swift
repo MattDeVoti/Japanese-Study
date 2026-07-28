@@ -76,17 +76,12 @@ final class LessonsProgressStore: ObservableObject {
     // MARK: - Persistence
 
     private func load() {
-        guard let data = UserDefaults.standard.data(forKey: storageKey),
-              let stored = try? JSONDecoder().decode(Stored.self, from: data)
-        else { return }
+        guard let stored = UserDefaults.standard.decode(Stored.self, forKey: storageKey) else { return }
         favorites = stored.favorites
         completed = stored.completed
     }
 
     private func persist() {
-        let stored = Stored(favorites: favorites, completed: completed)
-        if let encoded = try? JSONEncoder().encode(stored) {
-            UserDefaults.standard.set(encoded, forKey: storageKey)
-        }
+        UserDefaults.standard.encode(Stored(favorites: favorites, completed: completed), forKey: storageKey)
     }
 }

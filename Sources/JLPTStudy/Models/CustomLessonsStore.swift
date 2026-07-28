@@ -126,6 +126,15 @@ final class CustomLessonsStore: ObservableObject {
         persist()
     }
 
+    /// Deletes a lesson only if it is still empty. Used to clean up a lesson the
+    /// user created from the "+" bubble and then abandoned without adding
+    /// anything — deliberately narrow, so a lesson someone emptied on purpose
+    /// while curating it is left alone.
+    func deleteIfEmpty(id: String) {
+        guard let lesson = lesson(id: id), lesson.itemCount == 0 else { return }
+        delete(id: id)
+    }
+
     // MARK: Item mutations
 
     func add(_ item: CustomItem, to lessonId: String) {
@@ -199,16 +208,13 @@ final class CustomLessonsStore: ObservableObject {
     // MARK: Persistence
 
     private func load() {
-        guard let data = UserDefaults.standard.data(forKey: storageKey),
-              let decoded = try? JSONDecoder().decode([CustomLesson].self, from: data)
-        else { return }
-        lessons = decoded
+        if let decoded = UserDefaults.standard.decode([CustomLesson].self, forKey: storageKey) {
+            lessons = decoded
+        }
     }
 
     private func persist() {
         guard didLoad else { return }
-        if let encoded = try? JSONEncoder().encode(lessons) {
-            UserDefaults.standard.set(encoded, forKey: storageKey)
-        }
+        UserDefaults.standard.encode(lessons, forKey: storageKey)
     }
 }

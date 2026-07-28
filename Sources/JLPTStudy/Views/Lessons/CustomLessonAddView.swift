@@ -51,7 +51,8 @@ struct CustomLessonAddView: View {
         .onAppear {
             LessonsService.shared.loadIfNeeded()
             // Kana levels hold no grammar/vocab/kanji, so they're not offered here.
-            levels = (LessonsService.shared.manifest?.levels ?? []).filter { $0.jlptLevel.hasPrefix("N") }
+            levels = (LessonsService.shared.manifest?.levels ?? [])
+                .filter { $0.jlptLevel.hasPrefix("N") || $0.jlptLevel == SlangContent.levelId }
         }
     }
 

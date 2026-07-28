@@ -52,6 +52,23 @@ final class StudyWeightSettings: ObservableObject {
     }
 }
 
+extension StudyWeightSettings {
+    /// The one weighted-random pick shared by every flashcard deck. With
+    /// prioritization on, each item's weight is `1 + needsWork·5·strength`;
+    /// otherwise it's a plain random choice.
+    func pick<T>(_ items: [T], needsWork: (T) -> Int) -> T? {
+        guard !items.isEmpty else { return nil }
+        guard mode == .needsWork, strength > 0 else { return items.randomElement() }
+        let weights = items.map { 1.0 + Double(needsWork($0)) * 5.0 * strength }
+        var r = Double.random(in: 0..<weights.reduce(0, +))
+        for (i, w) in weights.enumerated() {
+            r -= w
+            if r <= 0 { return items[i] }
+        }
+        return items.last
+    }
+}
+
 // MARK: - Reusable priority controls
 //
 // Drop this into any options sheet/menu. It binds directly to the shared

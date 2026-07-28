@@ -1,0 +1,428 @@
+{
+  "id": "ch_slang06",
+  "chapterNumber": 6,
+  "title": "Kansai-ben and Dialects",
+  "points": [
+    {
+      "id": "kansai-basics",
+      "name": "ほんま / あかん / ちゃう — Kansai basics",
+      "shortDescription": "The dialect you hear most on TV, and the source of half of Japan's slang.",
+      "formation": "本当[ほんとう] → ほんま  |  だめ → あかん  |  違[ちが]う → ちゃう",
+      "explanation": "関西弁[かんさいべん] (Osaka, Kyoto, Kobe) is the most recognisable dialect in Japan. Comedy is dominated by Kansai performers, so every Japanese person understands it — and a steady stream of Kansai words have gone national, including めっちゃ, which you already know.\n\nCore vocabulary swaps:\n- 本当[ほんとう] → ほんま (really): ほんまに？\n- だめ → あかん (no good / don't): あかんて！\n- 違[ちが]う → ちゃう (wrong / no): ちゃうちゃう\n- とても → めっちゃ (very) — now nationwide\n- ありがとう → おおきに (thanks; traditional, a bit old-fashioned now)\n- いくら → なんぼ (how much)\n- 疲[つか]れた → しんどい (worn out) — also gone national\n\nAnd the phrase everyone knows: なんでやねん — 'what the heck / you've got to be kidding', the standard comedic retort when someone says something absurd. It comes with a light slap on the arm in comedy routines.\n\nA note for learners: Kansai-ben spoken by a non-native is usually received warmly rather than as mockery, especially in Kansai itself — but mixing a few Kansai words into otherwise Tokyo-standard speech can sound odd. Learn to understand it first.",
+      "rules": [
+        "ほんま = 本当[ほんとう] (really); あかん = だめ (no good)",
+        "ちゃう = 違[ちが]う (wrong / no); なんぼ = いくら (how much)",
+        "めっちゃ and しんどい started in Kansai and are now nationwide",
+        "なんでやねん = 'what the heck' — the classic comedic retort",
+        "Everyone understands Kansai-ben because comedy is dominated by Kansai performers"
+      ],
+      "examples": [
+        {
+          "japanese": "ほんまに？",
+          "romaji": "Honma ni?",
+          "english": "Seriously?"
+        },
+        {
+          "japanese": "それはあかんて。",
+          "romaji": "Sore wa akan te.",
+          "english": "Nah, that's no good."
+        },
+        {
+          "japanese": "ちゃうちゃう、そっちやない。",
+          "romaji": "Chau chau, socchi ya nai.",
+          "english": "No no, not that one."
+        },
+        {
+          "japanese": "なんでやねん！",
+          "romaji": "Nande yanen!",
+          "english": "What the heck are you on about!"
+        }
+      ],
+      "flashcardHeader": "ほんま / あかん / ちゃう",
+      "flashcardAnswer": "Kansai basics: ほんま (really), あかん (no good), ちゃう (wrong), なんでやねん (what the heck).",
+      "practice": [
+        {
+          "id": "kansai_q1",
+          "type": "usage",
+          "prompt": "What is the standard Japanese equivalent of あかん?",
+          "japanese": null,
+          "choices": [
+            "だめ",
+            "いい",
+            "そう",
+            "まだ"
+          ],
+          "correctIndex": 0,
+          "explanation": "あかん corresponds to だめ — 'no good / you mustn't'. It is one of the most recognisable Kansai words."
+        },
+        {
+          "id": "kansai_q2",
+          "type": "translation",
+          "prompt": "What does ほんまに？ mean?",
+          "japanese": "ほんまに？",
+          "choices": [
+            "Seriously?",
+            "Where is it?",
+            "How much?",
+            "Not yet?"
+          ],
+          "correctIndex": 0,
+          "explanation": "ほんま is the Kansai form of 本当[ほんとう], so ほんまに？ is the equivalent of 本当[ほんとう]に？ — 'really? / seriously?'"
+        },
+        {
+          "id": "kansai_q3",
+          "type": "usage",
+          "prompt": "Which two Kansai words have become standard nationwide?",
+          "japanese": null,
+          "choices": [
+            "めっちゃ and しんどい",
+            "あかん and なんぼ",
+            "おおきに and ほんま",
+            "やねん and へん"
+          ],
+          "correctIndex": 0,
+          "explanation": "めっちゃ ('super') and しんどい ('worn out') both started in Kansai and are now used across Japan without sounding regional."
+        },
+        {
+          "id": "kansai_q4",
+          "type": "usage",
+          "prompt": "When is なんでやねん used?",
+          "japanese": "なんでやねん！",
+          "choices": [
+            "As a comedic retort to something absurd",
+            "As a formal greeting",
+            "To apologise",
+            "To order food"
+          ],
+          "correctIndex": 0,
+          "explanation": "It is the classic straight-man comeback in Kansai comedy — 'what the heck are you talking about' — and is known nationwide."
+        },
+        {
+          "id": "kansai_q5",
+          "type": "usage",
+          "prompt": "What does なんぼ mean?",
+          "japanese": "これなんぼ？",
+          "choices": [
+            "How much?",
+            "Where?",
+            "When?",
+            "Why?"
+          ],
+          "correctIndex": 0,
+          "explanation": "なんぼ is the Kansai equivalent of いくら — 'how much (does it cost)?'"
+        }
+      ]
+    },
+    {
+      "id": "kansai-grammar",
+      "name": "や / やん / 〜へん — Kansai grammar",
+      "shortDescription": "Kansai swaps だ for や and ない for へん — and the rest follows.",
+      "formation": "だ → や  |  じゃない → やん  |  〜ない → 〜へん  |  いる → おる",
+      "explanation": "Beyond vocabulary, Kansai-ben has its own grammatical machinery. Three swaps unlock most of it.\n\n1. The copula: だ becomes や.\n- そうだ → そうや\n- 学生[がくせい]だ → 学生[がくせい]や\n- だから → やから; だけど → やけど\n\n2. The agreement tag: じゃない／じゃん becomes やん.\n- おいしいじゃん → おいしいやん\n- ええやん ('that's good, right?') — ええ is Kansai for いい\n\n3. Negation: 〜ない becomes 〜へん (or 〜ひん).\n- 行[い]かない → 行[い]かへん\n- 食[た]べない → 食[た]べへん\n- わからない → わからへん\n\nAlso common: いる → おる (おらへん = 'isn't there'), and the emphatic ending ねん — 何[なに]言[い]うてんねん ('what are you saying').\n\nPitch accent differs too, which is why Kansai speech sounds musically different even when the words are shared. That part is very hard to fake, and it is the main reason a learner's Kansai-ben tends to sound like Tokyo Japanese wearing a costume.\n\nUnderstanding these three swaps will let you follow most Kansai dialogue in dramas and variety shows.",
+      "rules": [
+        "だ → や: そうや, 学生[がくせい]や, やから, やけど",
+        "じゃん → やん: おいしいやん, ええやん",
+        "〜ない → 〜へん: 行[い]かへん, わからへん",
+        "いる → おる; emphatic ending ねん: 何[なに]言[い]うてんねん",
+        "Pitch accent differs, which is what really makes it sound Kansai"
+      ],
+      "examples": [
+        {
+          "japanese": "そうやねん。",
+          "romaji": "Sou ya nen.",
+          "english": "Yeah, that's right."
+        },
+        {
+          "japanese": "それ、ええやん！",
+          "romaji": "Sore, ee yan!",
+          "english": "Hey, that's great!"
+        },
+        {
+          "japanese": "全然[ぜんぜん]わからへん。",
+          "romaji": "Zenzen wakarahen.",
+          "english": "I don't get it at all."
+        },
+        {
+          "japanese": "今[いま]どこにおるん？",
+          "romaji": "Ima doko ni oru n?",
+          "english": "Where are you right now?"
+        }
+      ],
+      "flashcardHeader": "や / やん / 〜へん",
+      "flashcardAnswer": "Kansai grammar: だ→や, じゃん→やん, 〜ない→〜へん, いる→おる, emphatic ねん.",
+      "practice": [
+        {
+          "id": "kg_q1",
+          "type": "fillBlank",
+          "prompt": "Convert to Kansai: そうだ → ____",
+          "japanese": "そうだ → ____",
+          "choices": [
+            "そうや",
+            "そうへん",
+            "そうやん",
+            "そうねん"
+          ],
+          "correctIndex": 0,
+          "explanation": "The Kansai copula replaces だ with や, giving そうや."
+        },
+        {
+          "id": "kg_q2",
+          "type": "fillBlank",
+          "prompt": "Convert to Kansai: わからない → ____",
+          "japanese": "わからない → ____",
+          "choices": [
+            "わからや",
+            "わからへん",
+            "わからやん",
+            "わからおる"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kansai negation replaces 〜ない with 〜へん: わからへん."
+        },
+        {
+          "id": "kg_q3",
+          "type": "translation",
+          "prompt": "What does ええやん mean?",
+          "japanese": "ええやん！",
+          "choices": [
+            "That's no good",
+            "That's great, right!",
+            "I don't know",
+            "Let's go"
+          ],
+          "correctIndex": 1,
+          "explanation": "ええ is Kansai for いい, and やん is the Kansai じゃん — together, 'that's good, isn't it!'"
+        },
+        {
+          "id": "kg_q4",
+          "type": "usage",
+          "prompt": "What is おる the Kansai equivalent of?",
+          "japanese": null,
+          "choices": [
+            "いる",
+            "ある",
+            "する",
+            "なる"
+          ],
+          "correctIndex": 0,
+          "explanation": "おる replaces いる ('to be / to exist' for animate things): どこにおるん？ = どこにいるの？"
+        },
+        {
+          "id": "kg_q5",
+          "type": "usage",
+          "prompt": "Why is Kansai-ben hard for learners to imitate convincingly?",
+          "japanese": null,
+          "choices": [
+            "The vocabulary is secret",
+            "Its pitch accent differs and is hard to fake",
+            "It has no written form",
+            "It changes every year"
+          ],
+          "correctIndex": 1,
+          "explanation": "Even with the right words, Kansai's different pitch accent gives it its melody — which is why imitation often sounds like Tokyo Japanese in costume."
+        }
+      ]
+    },
+    {
+      "id": "other-dialects",
+      "name": "方言[ほうげん] — dialects beyond Kansai",
+      "shortDescription": "What 標準語[ひょうじゅんご] actually is, and the regional endings you'll meet.",
+      "formation": "Regional copulas and endings: だべ ・ばい ・じゃけん ・とっと ・なまら",
+      "explanation": "What textbooks teach is 標準語[ひょうじゅんご] ('standard Japanese'), based on Tokyo speech and used in news, business and school. Almost nobody speaks it purely at home. Most people code-switch: dialect with family and old friends, something closer to standard at work.\n\nA quick tour of endings you may hear:\n- 博多弁[はかたべん] (Fukuoka): 〜ばい, 〜と？ — good ばい ('it's good'), 何[なに]しよ〜と？ ('whatcha doing?')\n- 広島弁[ひろしまべん]: 〜じゃけん ('because'), famous from film and games\n- 東北弁[とうほくべん]: 〜だべ, 〜っぺ; heavy vowel reduction that even other Japanese find hard\n- 北海道[ほっかいどう]: なまら ('very'), 〜っしょ (also common nationally)\n- 名古屋[なごや]: 〜だがや, 〜みゃー\n- 沖縄[おきなわ]: めんそーれ and ちゅら are from Okinawan languages, historically distinct from Japanese\n\nTwo useful facts. First, dialect carries warmth: hearing your own 方言[ほうげん] from a stranger is instantly friendly, and many people switch back the moment they phone home. Second, dialect is not 'incorrect' Japanese — the idea that standard is 'proper' is a modern political creation, and regional pride around speech is strong.\n\nFor a learner the practical goal is comprehension: you will meet these on trips, in dramas, and in older speakers, and recognising the ending is usually enough to follow the sentence.",
+      "rules": [
+        "標準語[ひょうじゅんご] is Tokyo-based 'standard' Japanese used in media and business",
+        "Most people code-switch between dialect and standard depending on setting",
+        "博多弁[はかたべん]: 〜ばい, 〜と？  |  広島弁[ひろしまべん]: 〜じゃけん",
+        "東北弁[とうほくべん]: 〜だべ  |  北海道[ほっかいどう]: なまら ('very')",
+        "Dialect is not incorrect Japanese — it carries regional pride and warmth"
+      ],
+      "examples": [
+        {
+          "japanese": "何[なに]しよ〜と？",
+          "romaji": "Nani shiyo~to?",
+          "english": "What are you doing? (Hakata)"
+        },
+        {
+          "japanese": "うまかばい。",
+          "romaji": "Umaka bai.",
+          "english": "It's delicious. (Hakata)"
+        },
+        {
+          "japanese": "疲[つか]れたべ〜。",
+          "romaji": "Tsukareta bee.",
+          "english": "Tired, huh. (Tohoku)"
+        },
+        {
+          "japanese": "なまら寒[さむ]い。",
+          "romaji": "Namara samui.",
+          "english": "It's super cold. (Hokkaido)"
+        }
+      ],
+      "flashcardHeader": "方言[ほうげん]",
+      "flashcardAnswer": "Regional dialects: 博多[はかた] 〜ばい, 広島[ひろしま] 〜じゃけん, 東北[とうほく] 〜だべ, 北海道[ほっかいどう] なまら. Standard is just Tokyo's variety.",
+      "practice": [
+        {
+          "id": "dial_q1",
+          "type": "usage",
+          "prompt": "What is 標準語[ひょうじゅんご] based on?",
+          "japanese": null,
+          "choices": [
+            "Tokyo speech",
+            "Kyoto speech",
+            "Osaka speech",
+            "A mix of all dialects"
+          ],
+          "correctIndex": 0,
+          "explanation": "Standard Japanese was built on Tokyo speech and spread through schools and broadcasting — it is one region's variety, not a neutral original."
+        },
+        {
+          "id": "dial_q2",
+          "type": "usage",
+          "prompt": "Which region uses なまら to mean 'very'?",
+          "japanese": "なまら寒[さむ]い。",
+          "choices": [
+            "北海道[ほっかいどう]",
+            "沖縄[おきなわ]",
+            "広島[ひろしま]",
+            "名古屋[なごや]"
+          ],
+          "correctIndex": 0,
+          "explanation": "なまら is Hokkaido's intensifier, equivalent to とても or めっちゃ."
+        },
+        {
+          "id": "dial_q3",
+          "type": "usage",
+          "prompt": "What does 〜ばい mark in 博多弁[はかたべん]?",
+          "japanese": "うまかばい。",
+          "choices": [
+            "A statement, roughly like よ",
+            "A question",
+            "A command",
+            "A negative"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ばい is a Hakata sentence-ending particle asserting a statement, similar in feel to standard よ."
+        },
+        {
+          "id": "dial_q4",
+          "type": "usage",
+          "prompt": "What does 'code-switching' mean here?",
+          "japanese": null,
+          "choices": [
+            "Using dialect at home and standard at work",
+            "Speaking two languages at once",
+            "Writing in katakana",
+            "Refusing to use dialect"
+          ],
+          "correctIndex": 0,
+          "explanation": "Most speakers move between their regional dialect and standard Japanese depending on who they are with and how formal the setting is."
+        },
+        {
+          "id": "dial_q5",
+          "type": "usage",
+          "prompt": "What is the practical goal for a learner regarding dialects?",
+          "japanese": null,
+          "choices": [
+            "Speaking every dialect fluently",
+            "Comprehension — recognising endings well enough to follow",
+            "Avoiding all regions except Tokyo",
+            "Translating dialects into English"
+          ],
+          "correctIndex": 1,
+          "explanation": "You will meet dialects on trips, in dramas and from older speakers. Recognising the ending is usually enough to follow the sentence."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "slang6_v01",
+      "partOfSpeech": "adverb",
+      "kanji": "ほんま",
+      "kana": "ほんま",
+      "romaji": "honma",
+      "definition": "really (Kansai)"
+    },
+    {
+      "id": "slang6_v02",
+      "partOfSpeech": "expression",
+      "kanji": "あかん",
+      "kana": "あかん",
+      "romaji": "akan",
+      "definition": "no good; don't (Kansai)"
+    },
+    {
+      "id": "slang6_v03",
+      "partOfSpeech": "expression",
+      "kanji": "ちゃう",
+      "kana": "ちゃう",
+      "romaji": "chau",
+      "definition": "that's wrong; no (Kansai)"
+    },
+    {
+      "id": "slang6_v04",
+      "partOfSpeech": "expression",
+      "kanji": "なんでやねん",
+      "kana": "なんでやねん",
+      "romaji": "nande yanen",
+      "definition": "what the heck (Kansai retort)"
+    },
+    {
+      "id": "slang6_v05",
+      "partOfSpeech": "expression",
+      "kanji": "なんぼ",
+      "kana": "なんぼ",
+      "romaji": "nanbo",
+      "definition": "how much (Kansai)"
+    },
+    {
+      "id": "slang6_v06",
+      "partOfSpeech": "expression",
+      "kanji": "おおきに",
+      "kana": "おおきに",
+      "romaji": "ookini",
+      "definition": "thanks (Kansai)"
+    },
+    {
+      "id": "slang6_v07",
+      "partOfSpeech": "particle",
+      "kanji": "やん",
+      "kana": "やん",
+      "romaji": "yan",
+      "definition": "right?; isn't it (Kansai じゃん)"
+    },
+    {
+      "id": "slang6_v08",
+      "partOfSpeech": "expression",
+      "kanji": "ええ",
+      "kana": "ええ",
+      "romaji": "ee",
+      "definition": "good (Kansai いい)"
+    },
+    {
+      "id": "slang6_v09",
+      "partOfSpeech": "adverb",
+      "kanji": "なまら",
+      "kana": "なまら",
+      "romaji": "namara",
+      "definition": "very (Hokkaido)"
+    },
+    {
+      "id": "slang6_v10",
+      "partOfSpeech": "noun",
+      "kanji": "方言",
+      "kana": "ほうげん",
+      "romaji": "hougen",
+      "definition": "dialect"
+    },
+    {
+      "id": "slang6_v11",
+      "partOfSpeech": "noun",
+      "kanji": "標準語",
+      "kana": "ひょうじゅんご",
+      "romaji": "hyoujungo",
+      "definition": "standard Japanese"
+    }
+  ],
+  "kanji": null
+}

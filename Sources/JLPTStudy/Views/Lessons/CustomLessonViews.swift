@@ -26,11 +26,7 @@ struct CustomLessonCircleButton: View {
     let lesson: CustomLesson
 
     var body: some View {
-        ZStack {
-            Circle()
-                .fill(customAccent.badgeGradient)
-                .shadow(color: customAccent.opacity(0.35), radius: 7, x: 0, y: 3)
-
+        LessonBubble(color: customAccent, padding: 8) {
             VStack(spacing: 3) {
                 Image(systemName: "square.stack.3d.up.fill")
                     .font(.system(size: 20, weight: .bold))
@@ -41,13 +37,74 @@ struct CustomLessonCircleButton: View {
                     .font(.system(size: 10, weight: .medium))
                     .opacity(0.85)
             }
-            .foregroundColor(.white)
-            .multilineTextAlignment(.center)
-            .minimumScaleFactor(0.6)
-            .padding(8)
         }
-        .aspectRatio(1, contentMode: .fit)
-        .scaleEffect(0.9)
+    }
+}
+
+// MARK: - "New lesson" bubble (always first in the Custom section)
+
+/// Wrapper so a freshly created lesson id can drive `.sheet(item:)`.
+private struct CreatedLesson: Identifiable { let id: String }
+
+/// The dashed "+" bubble: name a new lesson, then go straight into picking
+/// what to put in it.
+struct NewCustomLessonBubble: View {
+    @ObservedObject private var store = CustomLessonsStore.shared
+    @State private var showNameAlert = false
+    @State private var name = ""
+    @State private var created: CreatedLesson?
+    /// Held separately from `created` so it survives the sheet's dismissal.
+    @State private var lastCreatedId: String?
+
+    var body: some View {
+        Button {
+            showNameAlert = true
+        } label: {
+            ZStack {
+                Circle()
+                    .strokeBorder(customAccent.opacity(0.55),
+                                  style: StrokeStyle(lineWidth: 2, dash: [6, 5]))
+                VStack(spacing: 2) {
+                    Image(systemName: "plus")
+                        .font(.system(size: 26, weight: .bold))
+                    Text("New")
+                        .font(.system(size: 12, weight: .semibold))
+                }
+                .foregroundColor(customAccent)
+                .padding(8)
+            }
+            .aspectRatio(1, contentMode: .fit)
+            .scaleEffect(0.9)
+        }
+        .buttonStyle(.plain)
+        .alert("New Custom Lesson", isPresented: $showNameAlert) {
+            TextField("Lesson name", text: $name)
+            Button("Create", action: createAndPick)
+            Button("Cancel", role: .cancel) { name = "" }
+        } message: {
+            Text("Name it, then pick the grammar, vocab, and kanji to put inside.")
+        }
+        .sheet(item: $created, onDismiss: discardIfAbandoned) {
+            CustomLessonAddView(lessonId: $0.id)
+        }
+    }
+
+    private func createAndPick() {
+        let id = store.create(name: name)
+        name = ""
+        lastCreatedId = id
+        // Let the alert finish dismissing before the picker slides up.
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+            created = CreatedLesson(id: id)
+        }
+    }
+
+    /// Backing out of the picker without adding anything leaves an empty lesson
+    /// behind, so drop it again.
+    private func discardIfAbandoned() {
+        guard let id = lastCreatedId else { return }
+        lastCreatedId = nil
+        store.deleteIfEmpty(id: id)
     }
 }
 
@@ -352,31 +409,12 @@ struct CustomLessonDetailView: View {
 
     private func kanjiCell(card: KanjiCard, char: String, index: Int) -> some View {
         let item = CustomItem.kanji(char: char)
-        return ZStack(alignment: .topTrailing) {
-            NavigationLink {
-                KanjiCardDetailView(card: card)
-            } label: {
-                ChapterKanjiCell(card: card)
+        return KanjiExcludeCell(card: card)
+            .overlay(alignment: .topLeading) {
+                if isRemoving { removeButton(item).padding(4) }
             }
-            .buttonStyle(.plain)
-
-            Button {
-                cardStore.toggleKanjiExcluded(cardId: card.id)
-            } label: {
-                Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
-                    .font(.system(size: 15))
-                    .foregroundColor(cardStore.isKanjiExcluded(card.id) ? .green : Color.secondary.opacity(0.45))
-                    .padding(3)
-                    .background(Circle().fill(Color.appSurface))
-            }
-            .buttonStyle(.plain)
-            .padding(4)
-        }
-        .overlay(alignment: .topLeading) {
-            if isRemoving { removeButton(item).padding(4) }
-        }
-        .reorderable(item: item, index: index, dragging: $dragging,
-                     move: moveKanji, commit: commitOrders, enabled: !isRemoving)
+            .reorderable(item: item, index: index, dragging: $dragging,
+                         move: moveKanji, commit: commitOrders, enabled: !isRemoving)
     }
 
     private func removeButton(_ item: CustomItem) -> some View {

@@ -103,25 +103,12 @@ final class VocabFlashcardsFilter: ObservableObject {
         else { needsWorkCounts[wordId] = c - 1 }
         saveWeights()
     }
-    func markConfident(_ wordId: String) { confidentCounts[wordId, default: 0] += 1; saveWeights() }
     func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }
 
     /// Picks a card, biasing toward "Needs Work" words when the app-wide
-    /// StudyWeightSettings has prioritization on. Same formula as CardStore.
+    /// StudyWeightSettings has prioritization on. Shared logic with the other decks.
     func selectWeighted(from cards: [VocabFlashCard]) -> VocabFlashCard? {
-        guard !cards.isEmpty else { return nil }
-        let mode = StudyWeightSettings.shared.mode
-        let strength = StudyWeightSettings.shared.strength
-        guard mode == .needsWork, strength > 0 else { return cards.randomElement() }
-        let weights: [Double] = cards.map { card in
-            1.0 + Double(needsWorkCounts[card.word.id] ?? 0) * 5.0 * strength
-        }
-        var r = Double.random(in: 0..<weights.reduce(0, +))
-        for (i, w) in weights.enumerated() {
-            r -= w
-            if r <= 0 { return cards[i] }
-        }
-        return cards.last
+        StudyWeightSettings.shared.pick(cards) { needsWorkCounts[$0.word.id] ?? 0 }
     }
 
     // MARK: - Apply
@@ -154,29 +141,23 @@ final class VocabFlashcardsFilter: ObservableObject {
     // MARK: - Persistence
 
     private func loadFavorites() {
-        guard let data = UserDefaults.standard.data(forKey: favoritesKey),
-              let ids = try? JSONDecoder().decode(Set<String>.self, from: data)
-        else { return }
-        favoriteWordIds = ids
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: favoritesKey) {
+            favoriteWordIds = ids
+        }
     }
 
     private func saveFavorites() {
-        if let data = try? JSONEncoder().encode(favoriteWordIds) {
-            UserDefaults.standard.set(data, forKey: favoritesKey)
-        }
+        UserDefaults.standard.encode(favoriteWordIds, forKey: favoritesKey)
     }
 
     private func loadExcluded() {
-        guard let data = UserDefaults.standard.data(forKey: excludedKey),
-              let ids = try? JSONDecoder().decode(Set<String>.self, from: data)
-        else { return }
-        excludedWordIds = ids
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: excludedKey) {
+            excludedWordIds = ids
+        }
     }
 
     private func saveExcluded() {
-        if let data = try? JSONEncoder().encode(excludedWordIds) {
-            UserDefaults.standard.set(data, forKey: excludedKey)
-        }
+        UserDefaults.standard.encode(excludedWordIds, forKey: excludedKey)
     }
 
     private struct WeightData: Codable {
@@ -185,18 +166,13 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     private func loadWeights() {
-        guard let data = UserDefaults.standard.data(forKey: weightsKey),
-              let d = try? JSONDecoder().decode(WeightData.self, from: data)
-        else { return }
+        guard let d = UserDefaults.standard.decode(WeightData.self, forKey: weightsKey) else { return }
         needsWorkCounts = d.needsWork
         confidentCounts = d.confident
     }
 
     private func saveWeights() {
-        let d = WeightData(needsWork: needsWorkCounts, confident: confidentCounts)
-        if let data = try? JSONEncoder().encode(d) {
-            UserDefaults.standard.set(data, forKey: weightsKey)
-        }
+        UserDefaults.standard.encode(WeightData(needsWork: needsWorkCounts, confident: confidentCounts), forKey: weightsKey)
     }
 
     private struct SelectionData: Codable {
@@ -205,18 +181,13 @@ final class VocabFlashcardsFilter: ObservableObject {
     }
 
     private func loadSelection() {
-        guard let data = UserDefaults.standard.data(forKey: selectionKey),
-              let d = try? JSONDecoder().decode(SelectionData.self, from: data)
-        else { return }
+        guard let d = UserDefaults.standard.decode(SelectionData.self, forKey: selectionKey) else { return }
         selectedChapterIds = d.selected
         autoSelectedChapterIds = d.autoSelected
     }
 
     private func persistSelection() {
         guard didLoad else { return }   // don't persist during init's loadSelection()
-        let d = SelectionData(selected: selectedChapterIds, autoSelected: autoSelectedChapterIds)
-        if let data = try? JSONEncoder().encode(d) {
-            UserDefaults.standard.set(data, forKey: selectionKey)
-        }
+        UserDefaults.standard.encode(SelectionData(selected: selectedChapterIds, autoSelected: autoSelectedChapterIds), forKey: selectionKey)
     }
 }

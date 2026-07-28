@@ -286,8 +286,7 @@ struct VocabFlashcardsView: View {
 
         var result: [VocabFlashCard] = []
         for level in manifest.levels {
-            let lvlInt = Int(level.jlptLevel.dropFirst()) ?? 5
-            let color = nLevelColor(lvlInt)
+            let color = levelAccentColor(level.jlptLevel)
             for summary in level.chapters {
                 guard let chapter = LessonsService.shared.loadChapter(summary.id),
                       let words = chapter.vocab else { continue }
@@ -506,7 +505,7 @@ private struct VocabFilterSheet: View {
     }
 
     private func levelBlock(_ level: LessonLevel) -> some View {
-        let color = nLevelColor(Int(level.jlptLevel.dropFirst()) ?? 5)
+        let color = levelAccentColor(level.jlptLevel)
         let chapters = level.chapters.filter { chapterIdsWithCards.contains($0.id) }
         let allSelected = chapters.allSatisfy { filter.selectedChapterIds.contains($0.id) }
 

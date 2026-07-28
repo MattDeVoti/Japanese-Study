@@ -12,15 +12,16 @@ final class ReadingsService {
     func loadIfNeeded() {
         guard !loaded else { return }
         loaded = true
-        let url: URL
-        if let bundled = Bundle.main.url(forResource: "readings", withExtension: "json") {
-            url = bundled
-        } else {
-            url = URL(fileURLWithPath: "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/Sources/JLPTStudy/Resources/readings.json")
+        if let bundled = Bundle.main.decodeJSON([Reading].self, resource: "readings") {
+            readings = bundled
+            return
         }
-        guard let data = try? Data(contentsOf: url),
-              let decoded = try? JSONDecoder().decode([Reading].self, from: data) else { return }
-        readings = decoded
+        // Dev fallback: read straight from the source tree when unbundled.
+        let devURL = URL(fileURLWithPath: "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/Sources/JLPTStudy/Resources/readings.json")
+        if let data = try? Data(contentsOf: devURL),
+           let decoded = try? JSONDecoder().decode([Reading].self, from: data) {
+            readings = decoded
+        }
     }
 
     /// Readings for one JLPT level, sorted easiest → hardest.

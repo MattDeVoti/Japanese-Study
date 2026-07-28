@@ -4,30 +4,28 @@ final class LessonsService {
     static let shared = LessonsService()
     private init() {}
 
-    private let decoder = JSONDecoder()
     private(set) var manifest: LessonManifest?
     private var pointIdsCache: [String: [String]] = [:]
+    private var chapterCache: [String: LessonChapter] = [:]
     private var vocabIndex: [String: LessonVocabWord]?
 
     func loadIfNeeded() {
         guard manifest == nil else { return }
-        guard let url = Bundle.main.url(forResource: "lessons", withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return }
-        manifest = try? decoder.decode(LessonManifest.self, from: data)
+        manifest = Bundle.main.decodeJSON(LessonManifest.self, resource: "lessons")
     }
 
+    /// Chapters are static bundled data, so each is decoded at most once.
     func loadChapter(_ id: String) -> LessonChapter? {
-        guard let url = Bundle.main.url(forResource: id, withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return nil }
-        return try? decoder.decode(LessonChapter.self, from: data)
+        if let cached = chapterCache[id] { return cached }
+        guard let chapter = Bundle.main.decodeJSON(LessonChapter.self, resource: id) else { return nil }
+        chapterCache[id] = chapter
+        return chapter
     }
 
     /// Loads a standalone practice-question bank (a JSON array of PracticeQuestion),
     /// used by the Hiragana / Katakana pronunciation drills.
     func loadQuestionBank(_ name: String) -> [PracticeQuestion] {
-        guard let url = Bundle.main.url(forResource: name, withExtension: "json"),
-              let data = try? Data(contentsOf: url) else { return [] }
-        return (try? decoder.decode([PracticeQuestion].self, from: data)) ?? []
+        Bundle.main.decodeJSON([PracticeQuestion].self, resource: name) ?? []
     }
 
     /// The manifest entry for a chapter — lets a search hit navigate to its chapter.
@@ -80,16 +78,9 @@ final class LessonsService {
         vocabIndex = index
     }
 
-    /// Lightweight decode that reads just each point's `id`, without parsing its
-    /// full contents (explanations, examples, practice, …).
+    /// Point ids for a chapter. Reuses the cached chapter decode (chapters are
+    /// static, so the first read warms the cache for everything else).
     private func decodedPointIds(_ id: String) -> [String]? {
-        struct Probe: Decodable {
-            struct Item: Decodable { let id: String? }
-            let points: [Item]
-        }
-        guard let url = Bundle.main.url(forResource: id, withExtension: "json"),
-              let data = try? Data(contentsOf: url),
-              let probe = try? decoder.decode(Probe.self, from: data) else { return nil }
-        return probe.points.compactMap { $0.id }
+        loadChapter(id).map { $0.points.map(\.id) }
     }
 }

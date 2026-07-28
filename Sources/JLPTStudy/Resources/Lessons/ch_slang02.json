@@ -1,0 +1,624 @@
+{
+  "id": "ch_slang02",
+  "chapterNumber": 2,
+  "title": "Rough Speech and Speech Styles",
+  "points": [
+    {
+      "id": "vowel-crushing",
+      "name": "すげー / ねー / ちげー — vowel crushing",
+      "shortDescription": "Rough speech flattens adjective endings into long ē sounds.",
+      "formation": "〜あい / 〜おい → 〜えー   |   〜ない → 〜ねー",
+      "explanation": "Casual speech — especially rough male speech, sports, and anime — crushes certain vowel pairs into a single long ē sound. Once you know the pattern you can decode words that look unfamiliar.\n\n- あい → えー: すごい → すげー, 高[たか]い → たけー, 痛[いた]い → いてー\n- おい → えー: すごい also gives すげー; 遅[おそ]い → おせー\n- ない → ねー: 知[し]らない → 知[し]らねー, ない → ねー\n- うい → いー: 寒[さむ]い stays, but 悪[わる]い → わりー\n\nSo 危[あぶ]ない becomes あぶねー, and 面白[おもしろ]い becomes おもしれー.\n\nRegister matters more here than with most slang. This sounds rough, masculine, and young. Men use it freely with friends; women use it much less, and when they do it reads as deliberately tough or joking. Nobody uses it with a boss.\n\nYou will hear it constantly in anime, manga and variety TV, which is exactly why learners pick it up and then accidentally deploy it in a classroom. Learn it for listening first.",
+      "rules": [
+        "あい・おい → えー: すごい → すげー, 高[たか]い → たけー",
+        "ない → ねー: 知[し]らない → 知[し]らねー",
+        "悪[わる]い → わりー, 面白[おもしろ]い → おもしれー",
+        "Sounds rough, masculine and young — common in anime and among male friends",
+        "Great for listening; risky for output unless you know the room"
+      ],
+      "examples": [
+        {
+          "japanese": "うわ、すげー！",
+          "romaji": "Uwa, sugee!",
+          "english": "Whoa, awesome!"
+        },
+        {
+          "japanese": "そんなの知[し]らねーよ。",
+          "romaji": "Sonna no shiranee yo.",
+          "english": "How should I know."
+        },
+        {
+          "japanese": "いてー！",
+          "romaji": "Itee!",
+          "english": "Ow!"
+        },
+        {
+          "japanese": "この店[みせ]、高[たか]けーな。",
+          "romaji": "Kono mise, takee na.",
+          "english": "This place is pricey, huh."
+        }
+      ],
+      "flashcardHeader": "すげー / ねー / ちげー",
+      "flashcardAnswer": "Rough speech crushes あい・おい → えー and ない → ねー. Masculine and casual; learn for listening.",
+      "practice": [
+        {
+          "id": "vowel_q1",
+          "type": "fillBlank",
+          "prompt": "What is すげー a rough form of?",
+          "japanese": "すげー",
+          "choices": [
+            "すごい",
+            "すぐに",
+            "すきだ",
+            "すくない"
+          ],
+          "correctIndex": 0,
+          "explanation": "すごい → すげー: the あい/おい vowel pair crushes into a long えー. This is the single most common example."
+        },
+        {
+          "id": "vowel_q2",
+          "type": "translation",
+          "prompt": "What does 知[し]らねー mean?",
+          "japanese": "知[し]らねー。",
+          "choices": [
+            "I know it well.",
+            "I don't know.",
+            "Let me check.",
+            "Tell me more."
+          ],
+          "correctIndex": 1,
+          "explanation": "ない → ねー, so 知[し]らない becomes 知[し]らねー — a blunt 'dunno / how should I know'."
+        },
+        {
+          "id": "vowel_q3",
+          "type": "usage",
+          "prompt": "Who is most likely to use these forms?",
+          "japanese": null,
+          "choices": [
+            "A young man with close friends",
+            "An employee greeting a client",
+            "A student addressing a professor",
+            "A shop assistant with a customer"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vowel crushing reads as rough, masculine and casual. It is fine among friends and completely out of place in any polite or service situation."
+        },
+        {
+          "id": "vowel_q4",
+          "type": "fillBlank",
+          "prompt": "Apply the pattern: 痛[いた]い → ____",
+          "japanese": "痛[いた]い → ____",
+          "choices": [
+            "いてー",
+            "いたーい",
+            "いない",
+            "いとい"
+          ],
+          "correctIndex": 0,
+          "explanation": "痛[いた]い follows the あい → えー rule, giving いてー — the yelp you hear constantly in anime."
+        },
+        {
+          "id": "vowel_q5",
+          "type": "usage",
+          "prompt": "Why should learners be careful with this pattern?",
+          "japanese": null,
+          "choices": [
+            "It is grammatically incorrect",
+            "It is easy to absorb from anime and then misuse in real life",
+            "It only exists in writing",
+            "It is limited to one region"
+          ],
+          "correctIndex": 1,
+          "explanation": "Anime and manga are full of it, so learners pick it up passively and then use it in classrooms or workplaces where it sounds jarringly rough."
+        }
+      ]
+    },
+    {
+      "id": "casual-polite-ssu",
+      "name": "〜っす — the in-between register",
+      "shortDescription": "Squeezed です: casual on the surface, still respectful underneath.",
+      "formation": "Plain form / noun / adjective + っす  (です → っす, ですね → っすね)",
+      "explanation": "Japanese politeness is usually taught as two settings: plain and です／ます. Real life has a middle gear, and っす is it.\n\nっす is です with the middle knocked out. It keeps a nod toward politeness while sounding relaxed and unstuffy:\n- そうです → そうっす\n- いいですね → いいっすね\n- 大丈夫[だいじょうぶ]です → 大丈夫[だいじょうぶ]っす\n\nWho uses it? Overwhelmingly younger men speaking to someone slightly above them — a club senpai, an older coworker they are friendly with, a coach. It says 'I respect you, but we're not strangers.'\n\nWhere it does not belong: with customers, in formal business, with a professor you barely know, or in writing. There it reads as sloppy rather than friendly.\n\nAlso useful to recognise: おつかれっす (a relaxed おつかれさまです) and あざっす (a very clipped ありがとうございます), both extremely common in casual workplaces and clubs.",
+      "rules": [
+        "です → っす: そうっす, いいっすね, 大丈夫[だいじょうぶ]っす",
+        "Sits between plain form and full です／ます politeness",
+        "Mostly younger men, talking to a friendly senior (senpai, coach, older coworker)",
+        "Not for customers, formal business, or writing",
+        "Common set phrases: おつかれっす, あざっす (ありがとうございます)"
+      ],
+      "examples": [
+        {
+          "japanese": "はい、大丈夫[だいじょうぶ]っす。",
+          "romaji": "Hai, daijoubu ssu.",
+          "english": "Yeah, I'm good."
+        },
+        {
+          "japanese": "それ、いいっすね。",
+          "romaji": "Sore, ii ssu ne.",
+          "english": "Oh, that's nice."
+        },
+        {
+          "japanese": "おつかれっす！",
+          "romaji": "Otsukare ssu!",
+          "english": "Good work today!"
+        },
+        {
+          "japanese": "あざっす！",
+          "romaji": "Azassu!",
+          "english": "Thanks!"
+        }
+      ],
+      "flashcardHeader": "〜っす",
+      "flashcardAnswer": "Squeezed です — a middle register between plain and polite. Young, friendly, mostly male; not for customers.",
+      "practice": [
+        {
+          "id": "ssu_q1",
+          "type": "usage",
+          "prompt": "What is っす a contraction of?",
+          "japanese": null,
+          "choices": [
+            "です",
+            "ます",
+            "そうだ",
+            "ください"
+          ],
+          "correctIndex": 0,
+          "explanation": "っす squeezes です down to a single syllable, keeping a hint of politeness while sounding casual."
+        },
+        {
+          "id": "ssu_q2",
+          "type": "usage",
+          "prompt": "Which situation fits っす best?",
+          "japanese": null,
+          "choices": [
+            "Talking to a friendly club senpai",
+            "Presenting to a new client",
+            "Writing a formal email",
+            "Speaking to a customer at work"
+          ],
+          "correctIndex": 0,
+          "explanation": "っす signals 'I respect you but we're comfortable' — ideal with a senpai or friendly senior, wrong with clients or in writing."
+        },
+        {
+          "id": "ssu_q3",
+          "type": "translation",
+          "prompt": "What does あざっす mean?",
+          "japanese": "あざっす！",
+          "choices": [
+            "Excuse me",
+            "Thanks!",
+            "See you later",
+            "I'm sorry"
+          ],
+          "correctIndex": 1,
+          "explanation": "あざっす is a heavily clipped ありがとうございます — very casual thanks, common in clubs and relaxed workplaces."
+        },
+        {
+          "id": "ssu_q4",
+          "type": "construct",
+          "prompt": "Convert to the っす register: いいですね",
+          "japanese": "いいですね",
+          "choices": [
+            "いいっすね",
+            "いいだね",
+            "いいますね",
+            "いいのだ"
+          ],
+          "correctIndex": 0,
+          "explanation": "です becomes っす while ね stays: いいっすね."
+        },
+        {
+          "id": "ssu_q5",
+          "type": "usage",
+          "prompt": "How does っす differ from plain form?",
+          "japanese": null,
+          "choices": [
+            "It is ruder than plain form",
+            "It keeps a nod toward politeness that plain form lacks",
+            "It is identical in meaning and tone",
+            "It can only be used in questions"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plain form is flat-casual. っす keeps a trace of です, marking the listener as slightly above you while staying relaxed."
+        }
+      ]
+    },
+    {
+      "id": "gendered-speech",
+      "name": "おれ / ぼく / あたし — gendered speech patterns",
+      "shortDescription": "Pronouns and sentence endings carry a gender signal — and the rules are loosening.",
+      "formation": "Pronouns: おれ・ぼく・わたし・あたし   |   Endings: ぞ・ぜ・だろ vs わ・かしら・の",
+      "explanation": "Japanese marks speaker persona more openly than English. Two places show it most: which word you use for 'I', and how you end a sentence.\n\nPronouns, roughly from rough to formal:\n- おれ — masculine, casual, a bit tough\n- ぼく — masculine, softer, boyish\n- わたし — neutral and safe for everyone; the only one for business\n- あたし — feminine and casual (a softened わたし)\n- じぶん — 'myself'; used by some men, common in sports\n\nSentence endings:\n- ぞ・ぜ — masculine and emphatic: 行[い]くぞ！\n- だろ — masculine 'right?'\n- わ (rising) ・かしら ・の — traditionally feminine: 行[い]くわ, どうかしら\n\nTwo honest caveats. First, this is loosening fast: plenty of women use おれ-adjacent bluntness with friends, and 'feminine' endings like かしら now sound somewhat older or theatrical rather than simply female. Second, fiction exaggerates all of it — anime characters speak in cleaner gender codes than real people do.\n\nSafe default for any learner: わたし plus plain or polite endings. You will never sound wrong.",
+      "rules": [
+        "おれ = masculine and rough; ぼく = masculine and softer; あたし = feminine and casual",
+        "わたし is neutral and always safe — the only choice in business",
+        "ぞ・ぜ・だろ read masculine; わ・かしら・の traditionally read feminine",
+        "The boundaries are loosening, and かしら now sounds older or theatrical",
+        "Anime exaggerates gendered speech — real conversation is far more mixed"
+      ],
+      "examples": [
+        {
+          "japanese": "おれが行[い]くよ。",
+          "romaji": "Ore ga iku yo.",
+          "english": "I'll go. (masculine, casual)"
+        },
+        {
+          "japanese": "ぼくもそう思[おも]う。",
+          "romaji": "Boku mo sou omou.",
+          "english": "I think so too. (masculine, softer)"
+        },
+        {
+          "japanese": "あたし、それ好[す]き。",
+          "romaji": "Atashi, sore suki.",
+          "english": "I like that. (feminine, casual)"
+        },
+        {
+          "japanese": "よし、行[い]くぞ！",
+          "romaji": "Yoshi, iku zo!",
+          "english": "Right, let's go! (masculine, emphatic)"
+        }
+      ],
+      "flashcardHeader": "おれ / ぼく / あたし",
+      "flashcardAnswer": "Pronouns and endings signal gender and toughness. わたし is always safe; fiction exaggerates the rest.",
+      "practice": [
+        {
+          "id": "gender_q1",
+          "type": "usage",
+          "prompt": "Which pronoun is safe for anyone in a business setting?",
+          "japanese": null,
+          "choices": [
+            "おれ",
+            "わたし",
+            "あたし",
+            "じぶん"
+          ],
+          "correctIndex": 1,
+          "explanation": "わたし is gender-neutral and appropriate at every level of politeness. おれ and あたし are casual; じぶん is idiosyncratic."
+        },
+        {
+          "id": "gender_q2",
+          "type": "usage",
+          "prompt": "Which ending sounds masculine and emphatic?",
+          "japanese": null,
+          "choices": [
+            "わ",
+            "かしら",
+            "ぞ",
+            "の"
+          ],
+          "correctIndex": 2,
+          "explanation": "ぞ (and ぜ) add masculine emphasis: 行[い]くぞ！ The others traditionally read as feminine."
+        },
+        {
+          "id": "gender_q3",
+          "type": "usage",
+          "prompt": "How does anime portray gendered speech compared with real life?",
+          "japanese": null,
+          "choices": [
+            "More exaggerated and clearly divided",
+            "Exactly the same",
+            "Less gendered than reality",
+            "It avoids the topic entirely"
+          ],
+          "correctIndex": 0,
+          "explanation": "Fiction uses speech style as characterisation, so the codes are cleaner and stronger than in real conversation, where usage is mixed."
+        },
+        {
+          "id": "gender_q4",
+          "type": "usage",
+          "prompt": "How does かしら sound to most Japanese speakers today?",
+          "japanese": null,
+          "choices": [
+            "Modern and neutral",
+            "Older or somewhat theatrical",
+            "Rude",
+            "Business-appropriate"
+          ],
+          "correctIndex": 1,
+          "explanation": "かしら is still understood as feminine, but it now carries an older or slightly performed feel rather than sounding like everyday speech."
+        },
+        {
+          "id": "gender_q5",
+          "type": "usage",
+          "prompt": "Which pronoun sounds boyish and softer than おれ?",
+          "japanese": null,
+          "choices": [
+            "ぼく",
+            "あたし",
+            "われ",
+            "うち"
+          ],
+          "correctIndex": 0,
+          "explanation": "ぼく is masculine but gentler than おれ — used by boys, and by adult men wanting a softer tone."
+        }
+      ]
+    },
+    {
+      "id": "rough-commands",
+      "name": "行[い]け / 見[み]るな / 座[すわ]れ — plain commands",
+      "shortDescription": "The blunt imperative — powerful, rude, and everywhere in fiction.",
+      "formation": "Group 1: え-row (行[い]く → 行[い]け)  |  Group 2: stem + ろ (見[み]る → 見[み]ろ)  |  Negative: dictionary + な",
+      "explanation": "The plain imperative is the bluntest way to tell someone to do something. It is real Japanese, but its social range is narrow.\n\nForming it:\n- Group 1 verbs shift to the え-row: 行[い]く → 行[い]け, 待[ま]つ → 待[ま]て, 話[はな]す → 話[はな]せ\n- Group 2 verbs take ろ: 見[み]る → 見[み]ろ, 食[た]べる → 食[た]べろ\n- Irregulars: する → しろ, くる → こい\n- Prohibition: dictionary form + な — 行[い]くな (don't go), 見[み]るな (don't look)\n\nWhere you actually hear it: coaches and drill instructors, parents to small children, men shouting among close friends, emergencies (逃[に]げろ！ = run!), signs (止[と]まれ = stop), and constantly in anime and games.\n\nWhere you must not use it: with anyone senior, in service work, or with strangers. Aimed at an adult you do not know well it is close to a threat.\n\nThe everyday alternatives are 〜て (casual request), 〜てください (polite), and 〜てくれる？ (friendly ask). Those cover almost every real situation a learner faces.",
+      "rules": [
+        "Group 1: え-row — 行[い]く → 行[い]け, 待[ま]つ → 待[ま]て",
+        "Group 2: stem + ろ — 見[み]る → 見[み]ろ",
+        "Irregular: する → しろ, くる → こい",
+        "Prohibition: dictionary form + な — 見[み]るな (don't look)",
+        "Extremely blunt: coaches, parents, emergencies, signs and fiction — not for daily use"
+      ],
+      "examples": [
+        {
+          "japanese": "早[はや]く来[こ]い！",
+          "romaji": "Hayaku koi!",
+          "english": "Get over here!"
+        },
+        {
+          "japanese": "逃[に]げろ！",
+          "romaji": "Nigero!",
+          "english": "Run!"
+        },
+        {
+          "japanese": "そこ、止[と]まれ。",
+          "romaji": "Soko, tomare.",
+          "english": "Stop right there."
+        },
+        {
+          "japanese": "見[み]るな！",
+          "romaji": "Miru na!",
+          "english": "Don't look!"
+        }
+      ],
+      "flashcardHeader": "行[い]け / 見[み]ろ / 〜な",
+      "flashcardAnswer": "Plain imperative: え-row for Group 1, ろ for Group 2, な for prohibition. Very blunt — mostly fiction, coaches and emergencies.",
+      "practice": [
+        {
+          "id": "cmd_q1",
+          "type": "fillBlank",
+          "prompt": "Make the plain command from 待[ま]つ.",
+          "japanese": "待[ま]つ → ____",
+          "choices": [
+            "待[ま]て",
+            "待[ま]ちろ",
+            "待[ま]たない",
+            "待[ま]とう"
+          ],
+          "correctIndex": 0,
+          "explanation": "待[ま]つ is a Group 1 verb, so it shifts to the え-row: 待[ま]て ('wait!')."
+        },
+        {
+          "id": "cmd_q2",
+          "type": "fillBlank",
+          "prompt": "Make the plain command from 食[た]べる.",
+          "japanese": "食[た]べる → ____",
+          "choices": [
+            "食[た]べれ",
+            "食[た]べろ",
+            "食[た]べよう",
+            "食[た]べるな"
+          ],
+          "correctIndex": 1,
+          "explanation": "Group 2 verbs drop る and take ろ: 食[た]べろ."
+        },
+        {
+          "id": "cmd_q3",
+          "type": "translation",
+          "prompt": "What does 見[み]るな mean?",
+          "japanese": "見[み]るな！",
+          "choices": [
+            "Look at it!",
+            "Don't look!",
+            "Can you see it?",
+            "Let's look."
+          ],
+          "correctIndex": 1,
+          "explanation": "Dictionary form + な is prohibition — a blunt 'don't'. Do not confuse it with the softer sentence-ending な."
+        },
+        {
+          "id": "cmd_q4",
+          "type": "usage",
+          "prompt": "You want a coworker to check a document. What should you say?",
+          "japanese": null,
+          "choices": [
+            "見[み]ろ",
+            "見[み]てください",
+            "見[み]るな",
+            "見[み]よ"
+          ],
+          "correctIndex": 1,
+          "explanation": "見[み]てください is the normal polite request. 見[み]ろ would sound like barking an order at them."
+        },
+        {
+          "id": "cmd_q5",
+          "type": "usage",
+          "prompt": "Where is the plain imperative genuinely normal?",
+          "japanese": null,
+          "choices": [
+            "On warning signs and in emergencies",
+            "In customer service",
+            "In business email",
+            "When meeting someone new"
+          ],
+          "correctIndex": 0,
+          "explanation": "Signs (止[と]まれ) and emergencies (逃[に]げろ) need maximum brevity, so the blunt form is appropriate there."
+        }
+      ]
+    },
+    {
+      "id": "no-questions",
+      "name": "何[なに]してんの？ — the 〜の / 〜んの question",
+      "shortDescription": "The casual question ending that asks for an explanation, not just a fact.",
+      "formation": "Plain form + の (＋ですか for polite)  |  〜ている + の → 〜てんの",
+      "explanation": "Casual questions often end in の rather than か. The difference is not just politeness — の asks for the story behind something.\n\n- 行[い]く？ — Are you going? (plain fact)\n- 行[い]くの？ — Are you going? (…what's the deal, tell me more)\n\nIt comes from the explanatory のだ／んです you meet in textbooks, so it carries that same 'explain the situation' flavour. In speech it contracts further:\n- 何[なに]をしているの → 何[なに]してるの → 何[なに]してんの\n- どこに行[い]くの → どこ行[い]くの\n\nTone changes everything. 何[なに]してんの？ said softly is 'whatcha doing?'. Said flatly with a hard ん it becomes 'what do you think you're doing?' — a genuine challenge. Learners often copy the second tone from anime without realising.\n\nA note on gender: の alone as a question ending sounds slightly feminine or soft; men often add だ for statements (行[い]くんだ) or use のか for a rougher question (行[い]くのか？).\n\nPolite version: 〜んですか — 何[なに]をしているんですか.",
+      "rules": [
+        "Plain form + の makes a casual question that asks for context: 行[い]くの？",
+        "〜ているの contracts to 〜てんの: 何[なに]してんの？",
+        "It descends from explanatory のだ／んです — 'tell me the situation'",
+        "の alone reads soft or slightly feminine; のか is rougher and masculine",
+        "Polite equivalent: 〜んですか"
+      ],
+      "examples": [
+        {
+          "japanese": "何[なに]してんの？",
+          "romaji": "Nani shiten no?",
+          "english": "What are you up to?"
+        },
+        {
+          "japanese": "どこ行[い]くの？",
+          "romaji": "Doko iku no?",
+          "english": "Where are you off to?"
+        },
+        {
+          "japanese": "大丈夫[だいじょうぶ]なの？",
+          "romaji": "Daijoubu na no?",
+          "english": "Are you actually okay?"
+        },
+        {
+          "japanese": "なんで泣[な]いてるの？",
+          "romaji": "Nande naiteru no?",
+          "english": "Why are you crying?"
+        }
+      ],
+      "flashcardHeader": "〜の / 〜んの",
+      "flashcardAnswer": "Casual question ending asking for the story behind something. 〜ているの contracts to 〜てんの.",
+      "practice": [
+        {
+          "id": "noq_q1",
+          "type": "fillBlank",
+          "prompt": "何[なに]してんの is a contraction of what?",
+          "japanese": "何[なに]してんの？",
+          "choices": [
+            "何[なに]をしているの",
+            "何[なに]をしたいの",
+            "何[なに]をしましょう",
+            "何[なに]をするな"
+          ],
+          "correctIndex": 0,
+          "explanation": "何[なに]をしているの → 何[なに]してるの → 何[なに]してんの. Both を and the い of いる are squeezed out."
+        },
+        {
+          "id": "noq_q2",
+          "type": "usage",
+          "prompt": "What does の add compared with a plain 行[い]く？",
+          "japanese": null,
+          "choices": [
+            "It makes it more polite",
+            "It asks for the context or reason behind it",
+            "It makes it a command",
+            "It makes it past tense"
+          ],
+          "correctIndex": 1,
+          "explanation": "の descends from explanatory のだ／んです, so it invites the story: 'what's going on with that?' rather than a bare yes/no."
+        },
+        {
+          "id": "noq_q3",
+          "type": "usage",
+          "prompt": "Why can 何[なに]してんの？ sound aggressive?",
+          "japanese": null,
+          "choices": [
+            "The word 何[なに] is rude",
+            "A flat, hard delivery turns it into a challenge",
+            "It is grammatically incorrect",
+            "It is only used by strangers"
+          ],
+          "correctIndex": 1,
+          "explanation": "The words are neutral; delivery decides. Softly it means 'whatcha doing?', but flat and hard it becomes 'what do you think you're doing?'"
+        },
+        {
+          "id": "noq_q4",
+          "type": "construct",
+          "prompt": "Make the polite version of なんで泣[な]いてるの？",
+          "japanese": "なんで泣[な]いてるの？",
+          "choices": [
+            "なんで泣[な]いてるのか",
+            "なんで泣[な]いているんですか",
+            "なんで泣[な]けよ",
+            "なんで泣[な]くな"
+          ],
+          "correctIndex": 1,
+          "explanation": "The polite counterpart of 〜の is 〜んですか: なんで泣[な]いているんですか."
+        },
+        {
+          "id": "noq_q5",
+          "type": "usage",
+          "prompt": "Which version sounds rougher and more masculine?",
+          "japanese": null,
+          "choices": [
+            "行[い]くの？",
+            "行[い]くのか？",
+            "行[い]きますか",
+            "行[い]くんですか"
+          ],
+          "correctIndex": 1,
+          "explanation": "Adding か after の (行[い]くのか？) hardens the question and reads as masculine or confrontational."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "slang2_v01",
+      "partOfSpeech": "i-adjective",
+      "kanji": "すげー",
+      "kana": "すげー",
+      "romaji": "sugee",
+      "definition": "awesome (rough form of すごい)"
+    },
+    {
+      "id": "slang2_v02",
+      "partOfSpeech": "expression",
+      "kanji": "っす",
+      "kana": "っす",
+      "romaji": "ssu",
+      "definition": "casual polite です"
+    },
+    {
+      "id": "slang2_v03",
+      "partOfSpeech": "pronoun",
+      "kanji": "俺",
+      "kana": "おれ",
+      "romaji": "ore",
+      "definition": "I; me (masculine, casual)"
+    },
+    {
+      "id": "slang2_v04",
+      "partOfSpeech": "pronoun",
+      "kanji": "僕",
+      "kana": "ぼく",
+      "romaji": "boku",
+      "definition": "I; me (masculine, softer)"
+    },
+    {
+      "id": "slang2_v05",
+      "partOfSpeech": "pronoun",
+      "kanji": "あたし",
+      "kana": "あたし",
+      "romaji": "atashi",
+      "definition": "I; me (feminine, casual)"
+    },
+    {
+      "id": "slang2_v06",
+      "partOfSpeech": "expression",
+      "kanji": "あざす",
+      "kana": "あざす",
+      "romaji": "azasu",
+      "definition": "thanks (very clipped)"
+    },
+    {
+      "id": "slang2_v07",
+      "partOfSpeech": "expression",
+      "kanji": "おつかれっす",
+      "kana": "おつかれっす",
+      "romaji": "otsukare ssu",
+      "definition": "good work (casual)"
+    },
+    {
+      "id": "slang2_v08",
+      "partOfSpeech": "particle",
+      "kanji": "ぞ",
+      "kana": "ぞ",
+      "romaji": "zo",
+      "definition": "emphatic ending (masculine)"
+    }
+  ],
+  "kanji": null
+}
