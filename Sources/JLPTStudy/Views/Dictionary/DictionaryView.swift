@@ -212,7 +212,7 @@ struct DictionaryView: View {
 
     var body: some View {
         ZStack {
-            AppBackground()
+            PatternedBackground(.dictionary)
 
             VStack(spacing: 0) {
                 Picker("", selection: $mode) {

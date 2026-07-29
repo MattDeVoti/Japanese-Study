@@ -15,7 +15,7 @@ struct GrammarMenuView: View {
 
     var body: some View {
         ZStack {
-            AppBackground()
+            PatternedBackground(.study)
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 34) {
@@ -37,11 +37,11 @@ struct GrammarMenuView: View {
                     // MARK: Flashcards
                     TileSection(header: "Flashcards", columns: columns) {
                         StudyTile(title: "Vocab", subtitle: "Flash cards",
-                                  glyph: "語", icon: "rectangle.stack.fill", color: .vocabColor) {
+                                  glyph: "語", icon: "rectangle.stack.fill", color: .themeTile(5)) {
                             VocabFlashcardsView()
                         }
                         StudyTile(title: "Kanji", subtitle: "Flash cards",
-                                  glyph: "漢", icon: "rectangle.stack.fill", color: .kanjiColor) {
+                                  glyph: "漢", icon: "rectangle.stack.fill", color: .themeTile(7)) {
                             KanjiStudyView()
                         }
                     }
@@ -65,7 +65,7 @@ struct GrammarMenuView: View {
                     // MARK: Reading comprehension
                     TileSection(header: "Reading", columns: columns) {
                         StudyTile(title: "Reading", subtitle: "Passages & questions",
-                                  glyph: "読", icon: "book.fill", color: Color(hex: "0EA5E9")) {
+                                  glyph: "読", icon: "book.fill", color: .themeTile(10)) {
                             ReadingListView()
                         }
                     }

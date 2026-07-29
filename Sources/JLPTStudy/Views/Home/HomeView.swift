@@ -9,7 +9,7 @@ struct HomeView: View {
 
     var body: some View {
         ZStack {
-            AppBackground()
+            PatternedBackground(.home)
 
             VStack(spacing: 0) {
                 Spacer()
@@ -41,26 +41,26 @@ struct HomeView: View {
                         LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
                                             GridItem(.flexible(), spacing: 12)], spacing: 12) {
                             HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                        icon: "books.vertical.fill", color: Color(hex: "DC2626"),
+                                        icon: "books.vertical.fill", color: .themeTile(0),
                                         square: true) { LessonsView() }
                             HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                        icon: "brain.head.profile", color: Color(hex: "2563EB"),
+                                        icon: "brain.head.profile", color: .themeTile(3),
                                         square: true) { GrammarMenuView() }
                             HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
-                                        icon: "magnifyingglass", color: Color(hex: "7C3AED"),
+                                        icon: "magnifyingglass", color: .themeTile(6),
                                         square: true) { DictionaryView() }
                             HomeNavTile(label: "Games", subtitle: "Secrets you've found", glyph: "遊",
-                                        icon: "gamecontroller.fill", color: Color(hex: "4C1D95"),
+                                        icon: "gamecontroller.fill", color: .themeTile(9),
                                         square: true) { GamesMenuView() }
                         }
                     } else {
                         VStack(spacing: 12) {
                             HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                        icon: "books.vertical.fill", color: Color(hex: "DC2626")) { LessonsView() }
+                                        icon: "books.vertical.fill", color: .themeTile(0)) { LessonsView() }
                             HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                        icon: "brain.head.profile", color: Color(hex: "2563EB")) { GrammarMenuView() }
+                                        icon: "brain.head.profile", color: .themeTile(3)) { GrammarMenuView() }
                             HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
-                                        icon: "magnifyingglass", color: Color(hex: "7C3AED")) { DictionaryView() }
+                                        icon: "magnifyingglass", color: .themeTile(6)) { DictionaryView() }
                         }
                     }
                 }
@@ -68,72 +68,43 @@ struct HomeView: View {
 
                 Spacer()
 
-                // Particles row
+                // Particles + the three chart shortcuts. All four wear the Check
+                // button's treatment — accent ring over a barely-there tint with a
+                // concentric hairline — so the row reads as one family.
+                // The accent is passed down rather than read inside each button:
+                // these views have no other inputs, and SwiftUI would otherwise
+                // memoize them and keep the previous theme's colour.
+                let chip = Color.readableOnPage(.appAccent)
+
                 NavigationLink {
                     ParticlesView()
                 } label: {
-                    Text("Particles")
-                        .font(.system(size: 15))
-                        .foregroundColor(.appText)
-                        .padding(.vertical, 8)
-                        .padding(.horizontal, 24)
-                        .background(Capsule().fill(Color.appSurfaceHigh))
-                        .overlay(Capsule().strokeBorder(Color.appHairline, lineWidth: 1))
+                    AccentPill(title: "Particles", accent: chip)
                 }
-                .padding(.bottom, 16)
+                .buttonStyle(.plain)
+                .padding(.bottom, 18)
 
-                // Bottom row: Hiragana ○ · Kanji ○ · Katakana ○
                 HStack(spacing: 24) {
                     NavigationLink {
                         KanaChartView(isHiragana: true)
                     } label: {
-                        VStack(spacing: 5) {
-                            Text("あ")
-                                .font(.system(size: 20, weight: .medium))
-                                .foregroundColor(.appText)
-                                .frame(width: 44, height: 44)
-                                .background(Circle().fill(Color.appSurfaceHigh))
-                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
-                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
-                            Text("Hiragana")
-                                .font(.system(size: 10))
-                                .foregroundColor(.appTextSecondary)
-                        }
+                        AccentGlyphButton(glyph: "あ", caption: "Hiragana", accent: chip)
                     }
+                    .buttonStyle(.plain)
 
                     NavigationLink {
                         KanjiListView()
                     } label: {
-                        VStack(spacing: 5) {
-                            Text("漢")
-                                .font(.system(size: 20, weight: .medium))
-                                .foregroundColor(.appText)
-                                .frame(width: 44, height: 44)
-                                .background(Circle().fill(Color.appSurfaceHigh))
-                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
-                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
-                            Text("Kanji")
-                                .font(.system(size: 10))
-                                .foregroundColor(.appTextSecondary)
-                        }
+                        AccentGlyphButton(glyph: "漢", caption: "Kanji", accent: chip)
                     }
+                    .buttonStyle(.plain)
 
                     NavigationLink {
                         KanaChartView(isHiragana: false)
                     } label: {
-                        VStack(spacing: 5) {
-                            Text("ア")
-                                .font(.system(size: 20, weight: .medium))
-                                .foregroundColor(.appText)
-                                .frame(width: 44, height: 44)
-                                .background(Circle().fill(Color.appSurfaceHigh))
-                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
-                                .shadow(color: Color.appCardShadow, radius: 4, x: 0, y: 2)
-                            Text("Katakana")
-                                .font(.system(size: 10))
-                                .foregroundColor(.appTextSecondary)
-                        }
+                        AccentGlyphButton(glyph: "ア", caption: "Katakana", accent: chip)
                     }
+                    .buttonStyle(.plain)
                 }
                 .padding(.bottom, 36)
             }
@@ -276,65 +247,68 @@ private struct AppearancePicker: View {
     }
 }
 
+/// A miniature of the actual home screen: the theme's gradient, its stencil
+/// pattern, the title and the secondary buttons — every element whose colour
+/// the theme actually decides. The four main tiles are deliberately absent;
+/// their colours are fixed, so including them told you nothing about the theme
+/// and just crowded the preview.
 private struct ThemeSwatch: View {
     let theme: AppTheme
     let isSelected: Bool
     let onTap: () -> Void
 
     var body: some View {
+        // Everything below is drawn from `theme`, never the active one.
+        let accent = Color.accent(of: theme)
+        let ink: Color = theme.colorScheme == .dark ? Color(white: 0.96) : Color(white: 0.11)
+
         Button(action: onTap) {
             VStack(spacing: 8) {
                 ZStack {
-                    // Card body — previews the theme's gradient (or flat fill)
-                    RoundedRectangle(cornerRadius: 16)
-                        .fill(LinearGradient(colors: [theme.background, theme.backgroundEnd ?? theme.background],
-                                             startPoint: .top, endPoint: .bottom))
-                        .frame(height: 100)
+                    PatternedBackground(.home, preview: theme, motifScale: 0.42)
 
-                    // Nav bar strip at top
                     VStack(spacing: 0) {
-                        RoundedRectangle(cornerRadius: 0)
-                            .fill(theme.navBar)
-                            .frame(height: 22)
-                            .overlay(alignment: .leading) {
-                                // Simulated nav bar text pill
-                                Capsule()
-                                    .fill(theme.navBarText.opacity(0.5))
-                                    .frame(width: 36, height: 6)
-                                    .padding(.leading, 10)
+                        Spacer(minLength: 0)
+
+                        Text("おめでとう")
+                            .font(.system(size: 22, weight: .heavy))
+                            .foregroundColor(accent)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.5)
+                        Text("OMEDETOU")
+                            .font(.system(size: 6, weight: .heavy))
+                            .tracking(2.4)
+                            .foregroundColor(accent.opacity(0.85))
+
+                        Spacer(minLength: 0)
+
+                        // The secondary buttons, which do take the theme's accent.
+                        Text("Particles")
+                            .font(.system(size: 8, weight: .semibold))
+                            .foregroundColor(accent)
+                            .padding(.vertical, 3).padding(.horizontal, 10)
+                            .background(Capsule().fill(accent.opacity(0.08)))
+                            .overlay(Capsule().strokeBorder(accent, lineWidth: 1))
+
+                        HStack(spacing: 8) {
+                            ForEach(["あ", "漢", "ア"], id: \.self) { g in
+                                Text(g)
+                                    .font(.system(size: 9, weight: .bold))
+                                    .foregroundColor(accent)
+                                    .frame(width: 20, height: 20)
+                                    .background(Circle().fill(accent.opacity(0.08)))
+                                    .overlay(Circle().strokeBorder(accent, lineWidth: 1))
                             }
-                        Spacer()
-                    }
-                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                        }
+                        .padding(.top, 6)
 
-                    // Simulated content lines
-                    VStack(alignment: .leading, spacing: 5) {
-                        Spacer().frame(height: 32)
-                        RoundedRectangle(cornerRadius: 3)
-                            .fill(theme.colorScheme == .dark
-                                  ? Color.white.opacity(0.22)
-                                  : Color.black.opacity(0.13))
-                            .frame(width: 60, height: 6)
-                        RoundedRectangle(cornerRadius: 3)
-                            .fill(theme.colorScheme == .dark
-                                  ? Color.white.opacity(0.13)
-                                  : Color.black.opacity(0.08))
-                            .frame(width: 44, height: 5)
-                        RoundedRectangle(cornerRadius: 3)
-                            .fill(theme.colorScheme == .dark
-                                  ? Color.white.opacity(0.09)
-                                  : Color.black.opacity(0.06))
-                            .frame(width: 52, height: 5)
-                        Spacer()
+                        Spacer(minLength: 0)
                     }
-                    .padding(.leading, 10)
-                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.vertical, 10)
 
-                    // Always-visible card border so dark themes don't blend into sheet bg
                     RoundedRectangle(cornerRadius: 16)
-                        .strokeBorder(Color.primary.opacity(isSelected ? 0 : 0.1), lineWidth: 1)
+                        .strokeBorder(ink.opacity(isSelected ? 0 : 0.12), lineWidth: 1)
 
-                    // Selection ring
                     if isSelected {
                         RoundedRectangle(cornerRadius: 16)
                             .strokeBorder(Color.accentColor, lineWidth: 3)
@@ -344,17 +318,15 @@ private struct ThemeSwatch: View {
                                 Image(systemName: "checkmark.circle.fill")
                                     .font(.system(size: 20))
                                     .foregroundColor(.accentColor)
-                                    .background(
-                                        Circle()
-                                            .fill(Color(uiColor: .systemGroupedBackground))
-                                            .padding(2)
-                                    )
+                                    .background(Circle().fill(Color(uiColor: .systemGroupedBackground)).padding(2))
                                     .padding(6)
                             }
                             Spacer()
                         }
                     }
                 }
+                .frame(height: 150)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
 
                 Text(theme.displayName)
                     .font(.system(size: 14, weight: isSelected ? .semibold : .regular))
@@ -363,6 +335,58 @@ private struct ThemeSwatch: View {
             }
         }
         .buttonStyle(.plain)
+    }
+}
+
+/// The fill behind both button shapes: a scrim of the page's lower gradient
+/// stop to hold back the stencil characters, with the accent tint over it.
+private struct ButtonFill: View {
+    let accent: Color
+
+    var body: some View {
+        ZStack {
+            // Matches what's actually behind these buttons — they sit low on the
+            // page, where the gradient's second stop is what shows through.
+            Color.appBackgroundEnd.opacity(0.66)
+            accent.opacity(0.16)
+        }
+    }
+}
+
+/// Pill version of the Check button's look.
+private struct AccentPill: View {
+    let title: String
+    let accent: Color
+    var body: some View {
+        Text(title)
+            .font(.system(size: 15, weight: .semibold))
+            .foregroundColor(accent)
+            .padding(.vertical, 9)
+            .padding(.horizontal, 26)
+            .background(ButtonFill(accent: accent).clipShape(Capsule()))
+            .overlay(Capsule().strokeBorder(accent, lineWidth: 2))
+            .overlay(Capsule().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(4))
+    }
+}
+
+/// Circular version, with its caption underneath.
+private struct AccentGlyphButton: View {
+    let glyph: String
+    let caption: String
+    let accent: Color
+    var body: some View {
+        VStack(spacing: 6) {
+            Text(glyph)
+                .font(.system(size: 21, weight: .bold))
+                .foregroundColor(accent)
+                .frame(width: 50, height: 50)
+                .background(ButtonFill(accent: accent).clipShape(Circle()))
+                .overlay(Circle().strokeBorder(accent, lineWidth: 2))
+                .overlay(Circle().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(4))
+            Text(caption)
+                .font(.system(size: 10, weight: .semibold))
+                .foregroundColor(accent)
+        }
     }
 }
 

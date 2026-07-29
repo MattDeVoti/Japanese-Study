@@ -38,7 +38,7 @@ struct LessonsView: View {
 
     var body: some View {
         ZStack {
-            AppBackground()
+            PatternedBackground(.textbook)
 
             VStack(spacing: 0) {
                 SearchBar(text: $query, placeholder: "Search the whole textbook…")
@@ -173,7 +173,7 @@ enum SlangContent {
     /// The manifest level id that holds the single slang chapter.
     static let levelId = "Slang"
     static let chapterId = "ch_slang"
-    static let accent = Color(hex: "DB2777")   // magenta — distinct from the N-level colors
+    static var accent: Color { .themeTile(9) }
 }
 
 private struct SlangCircleButton: View {
@@ -224,7 +224,7 @@ private struct FavoritesCircleButton: View {
     var body: some View {
         // A gold deep enough for white text/icon to read on the filled tile.
         AestheticTile(title: "Favorites", subtitle: count == 0 ? "None yet" : "\(count) saved",
-                      glyph: "星", icon: "star.fill", color: Color(hex: "CA8A04"))
+                      glyph: "星", icon: "star.fill", color: .themeTile(5))
     }
 }
 

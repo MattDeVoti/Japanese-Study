@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import CoreText
 
 // MARK: - Colors
 
@@ -60,9 +61,113 @@ extension Color {
         return contrastingText(on: background)
     }
 
+    /// The same colour rotated around the wheel. Used to give each main page a
+    /// sibling of the theme accent rather than an unrelated hue, so the four
+    /// pages stay obviously part of one palette.
+    func hueShifted(_ degrees: Double) -> Color {
+        var h: CGFloat = 0, sat: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
+        UIColor(self).getHue(&h, saturation: &sat, brightness: &b, alpha: &a)
+        var shifted = (Double(h) + degrees / 360.0).truncatingRemainder(dividingBy: 1.0)
+        if shifted < 0 { shifted += 1 }
+        return Color(hue: shifted, saturation: Double(sat), brightness: Double(b), opacity: Double(a))
+    }
+
+    /// The signature accent of a *given* theme. `appAccent` only answers for the
+    /// active one, which is no use when previewing a theme you haven't picked.
+    static func accent(of theme: AppTheme) -> Color {
+        readable(theme.navBar, on: theme.background)
+    }
+
     /// An accent colour guaranteed to read against the current page background.
     static func readableOnBackground(_ accent: Color) -> Color {
         readable(accent, on: _currentAppTheme.background)
+    }
+
+    /// Legible against *both* ends of the page gradient. `readableOnBackground`
+    /// only measures the top stop, which is the wrong test for controls sitting
+    /// low on the screen — down there the second stop is what's behind them.
+    static func readableOnPage(_ color: Color, minRatio: Double = 3.6) -> Color {
+        let top = _currentAppTheme.background
+        let bottom = _currentAppTheme.backgroundEnd ?? top
+        /// Contrast against the worse of the two stops.
+        func worst(_ c: Color) -> Double {
+            min(contrastRatio(c, top), contrastRatio(c, bottom))
+        }
+        guard worst(color) < minRatio else { return color }
+
+        // The stops can pull opposite ways — a light top over a darker bottom
+        // means lightening fixes one end and ruins the other. So try both
+        // directions and keep whichever reads best against the pair.
+        var best = color
+        for towardWhite in [true, false] {
+            var candidate = color
+            for _ in 0..<12 {
+                candidate = towardWhite ? candidate.lightened(0.10) : candidate.darkened(0.10)
+                if worst(candidate) > worst(best) { best = candidate }
+                if worst(candidate) >= minRatio { return candidate }
+            }
+        }
+        // Nothing clears both; settle for plain near-white or near-black,
+        // whichever survives the pair better. Never worse than we started.
+        for fallback in [Color(white: 0.96), Color(white: 0.11)]
+        where worst(fallback) > worst(best) { best = fallback }
+        return best
+    }
+
+    /// Raises saturation to a floor, so hue rotation still reads on themes
+    /// whose accent is nearly grey.
+    func saturated(atLeast floor: Double) -> Color {
+        var h: CGFloat = 0, sat: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
+        UIColor(self).getHue(&h, saturation: &sat, brightness: &b, alpha: &a)
+        return Color(hue: Double(h), saturation: max(Double(sat), floor),
+                     brightness: Double(b), opacity: Double(a))
+    }
+
+    /// Deepened until the white label an AestheticTile draws will still read.
+    /// The tile's gradient lightens its top by 0.14, so that lightest point is
+    /// what has to clear — testing the base colour would let pale tiles through.
+    private static func labelSafe(_ c: Color) -> Color {
+        var out = c
+        for _ in 0..<16 {
+            if contrastRatio(.white, out.lightened(0.14)) >= 3.1 { return out }
+            out = out.darkened(0.08)
+        }
+        return out
+    }
+
+    /// How many distinct tile colours the palette offers before repeating.
+    static let tilePaletteSize = 12
+
+    /// One slot of a tile palette derived from the current theme. Hues fan out
+    /// around the theme accent, so every coloured button on every page belongs
+    /// to the same family and the whole app re-tints when the theme changes —
+    /// while neighbouring tiles still read as clearly different colours.
+    static func themeTile(_ slot: Int) -> Color {
+        let n = tilePaletteSize
+        let i = ((slot % n) + n) % n
+        // A fan, not the whole wheel: go much wider and the far slots stop
+        // looking related to the theme at all.
+        let spread = 200.0
+        // Slots don't take the fan in order. Stepping 5 at a time (coprime with
+        // 12, so still a permutation) puts consecutive slot numbers ~5/12 of the
+        // fan apart — otherwise neighbouring tiles like Level 5 and Slang land
+        // one step apart in hue and read as the same colour.
+        let position = (i * 5) % n
+        let hue = (Double(position) / Double(n)) * spread - spread / 2
+
+        // Built from the theme's own navBar hue rather than `appAccent`, and the
+        // saturation floor is applied *before* the rotation. Both matter: the
+        // accent is contrast-corrected against the page, and on themes like
+        // Bubblegum that correction bottoms out at flat grey — grey has no hue
+        // to rotate, so every slot would collapse onto a single colour. Tiles
+        // carry their own white label, so they never needed that correction.
+        var c = _currentAppTheme.navBar.saturated(atLeast: 0.55).hueShifted(hue)
+        switch i % 3 {
+        case 0:  c = c.darkened(0.12)
+        case 2:  c = c.lightened(0.08)
+        default: break
+        }
+        return labelSafe(c)
     }
 
     /// A colour sampled along the accent sweep (t: 0 = start … 1 = end). Lets a
@@ -82,23 +187,18 @@ extension Color {
     /// SwiftUI's `.secondary` can wash out.
     static var appTextSecondary: Color { appText.opacity(0.68) }
 
-    // Kana level accent colors
-    static let hiraganaColor = Color(hex: "DB2777")   // pink
-    static let katakanaColor = Color(hex: "7C3AED")   // violet
+    // Kana accents — theme-derived like every other coloured button.
+    static var hiraganaColor: Color { themeTile(1) }
+    static var katakanaColor: Color { themeTile(3) }
 
-    // Flashcard-deck / lesson-category accent colors. These three identify the
-    // grammar / vocab / kanji categories everywhere: the checkmarks inside a
-    // lesson and the progress badges on its row.
-    static let grammarColor = Color(hex: "16A34A")    // green
-    static let kanjiColor = Color(hex: "1D4ED8")      // blue
-    static let vocabColor = Color(hex: "0D9488")      // teal
-
-    // N-level accent colors
-    static let n5Color = Color(hex: "2563EB")
-    static let n4Color = Color(hex: "16A34A")
-    static let n3Color = Color(hex: "D97706")
-    static let n2Color = Color(hex: "7C3AED")
-    static let n1Color = Color(hex: "DC2626")
+    // The three category colours, which identify grammar / vocab / kanji
+    // everywhere they appear: the Study tiles, the three progress badges on a
+    // chapter row, and the checkmarks inside a lesson. Vocab and Kanji reuse the
+    // very slots their Study tiles use, so a category is one colour app-wide.
+    // The three sit far apart in the palette because they're shown side by side.
+    static var grammarColor: Color { themeTile(11) }
+    static var vocabColor: Color   { themeTile(5) }
+    static var kanjiColor: Color   { themeTile(7) }
 
     init(hex: String) {
         let h = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
@@ -139,15 +239,12 @@ func levelKanjiNumeral(_ nLevel: Int) -> String {
     return numerals.indices.contains(i) ? numerals[i] : ""
 }
 
+/// Level 1…5 take evenly spaced slots, so the five books read as a run of
+/// related colours rather than five unrelated ones.
 func nLevelColor(_ level: Int) -> Color {
-    switch level {
-    case 5: return .n5Color
-    case 4: return .n4Color
-    case 3: return .n3Color
-    case 2: return .n2Color
-    case 1: return .n1Color
-    default: return .gray
-    }
+    let displayed = levelNumber(level)           // 1…5
+    guard (1...5).contains(displayed) else { return Color.themeTile(0) }
+    return Color.themeTile((displayed - 1) * 2)  // slots 0,2,4,6,8
 }
 
 func levelAccentColor(_ jlptLevel: String) -> Color {
@@ -643,6 +740,334 @@ struct AppBackground: View {
         LinearGradient(colors: [theme.background, theme.backgroundEnd ?? theme.background],
                        startPoint: .top, endPoint: .bottom)
             .ignoresSafeArea()
+    }
+}
+
+/// Each main page wears its own paper. The motif says what the page is for,
+/// and the ink is the theme accent rotated a fixed amount per page — so the
+/// four read as relatives within whichever of the palettes is active, and they
+/// all shift together when the theme changes.
+enum PagePattern {
+    case home, study, textbook, dictionary, games
+
+    /// Thin sparse motifs need more ink than dense ones to read at all.
+    var inkWeight: Double {
+        switch self {
+        case .home:       return 1.0
+        case .study:      return 0.65  // seigaiha lays down a lot of line; ease off
+        case .textbook:   return 1.7   // hairline rules disappear otherwise
+        case .dictionary: return 1.0   // dense grid, already plenty
+        case .games:      return 1.0
+        }
+    }
+
+    /// Degrees around the wheel from the theme accent.
+    var hueShift: Double {
+        switch self {
+        case .home:       return -18    // the root hue everything else orbits
+        case .study:      return 0      // the accent itself
+        case .textbook:   return 42
+        case .dictionary: return -38
+        case .games:      return 165    // near-complementary; games should feel apart
+        }
+    }
+}
+
+/// `ignoresSafeArea` only when this is a real page, not a preview swatch.
+private struct FullBleed: ViewModifier {
+    let active: Bool
+    @ViewBuilder func body(content: Content) -> some View {
+        if active { content.ignoresSafeArea() } else { content }
+    }
+}
+
+struct PatternedBackground: View {
+    // Outline paths for the home sheet. Built once at a fixed size and scaled
+    // per row — recomputing glyph outlines every redraw would be wasteful.
+    fileprivate static let stencilBaseSize: CGFloat = 100
+    fileprivate static let stencilGlyphs = [
+        "あ", "い", "う", "え", "お", "か", "き", "く", "さ", "し", "た", "な",
+        "は", "ま", "み", "も", "ら", "り", "ん", "ア", "イ", "カ", "サ", "ナ",
+        "ハ", "マ", "ヤ", "ラ", "ン", "日", "月", "山", "川", "本", "語", "字",
+        "学", "文", "空", "心", "音", "花", "海", "力", "手", "目",
+    ]
+    fileprivate static let stencilPaths: [String: Path] = {
+        var out: [String: Path] = [:]
+        for ch in stencilGlyphs { out[ch] = outlinePath(ch, size: stencilBaseSize) }
+        return out
+    }()
+
+    /// How wide each outline actually draws at the base size. Japanese glyphs
+    /// are nominally full-width, but their ink is not — spacing on the nominal
+    /// size is what let the wide ones collide.
+    fileprivate static let stencilWidths: [String: CGFloat] = {
+        var out: [String: CGFloat] = [:]
+        for (ch, path) in stencilPaths { out[ch] = path.boundingRect.width }
+        return out
+    }()
+
+    /// The glyph's outline as a Path, centred on the origin. CoreText hands back
+    /// y-up curves, so they're flipped to match SwiftUI's y-down space.
+    private static func outlinePath(_ ch: String, size: CGFloat) -> Path {
+        let font = UIFont.systemFont(ofSize: size, weight: .bold)
+        let attributed = NSAttributedString(string: ch, attributes: [.font: font])
+        let line = CTLineCreateWithAttributedString(attributed)
+        let combined = CGMutablePath()
+
+        guard let runs = CTLineGetGlyphRuns(line) as? [CTRun] else { return Path() }
+        for run in runs {
+            let attrs = CTRunGetAttributes(run) as NSDictionary
+            guard let raw = attrs[kCTFontAttributeName as String] else { continue }
+            let runFont = raw as! CTFont
+            let n = CTRunGetGlyphCount(run)
+            guard n > 0 else { continue }
+            var glyphs = [CGGlyph](repeating: 0, count: n)
+            var positions = [CGPoint](repeating: .zero, count: n)
+            CTRunGetGlyphs(run, CFRange(location: 0, length: n), &glyphs)
+            CTRunGetPositions(run, CFRange(location: 0, length: n), &positions)
+            for i in 0..<n {
+                guard let g = CTFontCreatePathForGlyph(runFont, glyphs[i], nil) else { continue }
+                let move = CGAffineTransform(translationX: positions[i].x, y: positions[i].y)
+                combined.addPath(g, transform: move)
+            }
+        }
+
+        let bounds = combined.boundingBox
+        guard !bounds.isNull, bounds.width > 0 else { return Path() }
+        var centre = CGAffineTransform(translationX: -bounds.midX, y: -bounds.midY)
+        guard let centred = combined.copy(using: &centre) else { return Path(combined) }
+        var flip = CGAffineTransform(scaleX: 1, y: -1)
+        guard let flipped = centred.copy(using: &flip) else { return Path(centred) }
+        return Path(flipped)
+    }
+
+    let page: PagePattern
+    /// Render a specific theme rather than the active one — used by the picker.
+    var preview: AppTheme?
+    /// Shrinks the motif so it still reads at swatch size.
+    var motifScale: CGFloat
+
+    @EnvironmentObject private var themeManager: ThemeManager
+
+    init(_ page: PagePattern, preview: AppTheme? = nil, motifScale: CGFloat = 1) {
+        self.page = page
+        self.preview = preview
+        self.motifScale = motifScale
+    }
+
+    var body: some View {
+        let theme = preview ?? themeManager.current
+        let onDark = Color.relativeLuminance(theme.background) < 0.45
+        let ink = Color.accent(of: theme).hueShifted(page.hueShift)
+        let w = page.inkWeight
+        let strong = ink.opacity(min(0.30, (onDark ? 0.20 : 0.14) * w))
+        let faint  = ink.opacity(min(0.24, (onDark ? 0.14 : 0.10) * w))
+
+        ZStack {
+            // A real page bleeds into the safe area; a swatch must stay in its
+            // own bounds. Inlined rather than using AppBackground, which always
+            // ignores safe area and always reads the *active* theme.
+            let gradient = LinearGradient(
+                colors: [theme.background, theme.backgroundEnd ?? theme.background],
+                startPoint: .top, endPoint: .bottom)
+            if preview == nil { gradient.ignoresSafeArea() } else { gradient }
+
+            Canvas { ctx, size in
+                switch page {
+                case .home:       drawStencilSheet(ctx, size, ink, onDark)
+                case .study:      drawSeigaiha(ctx, size, strong, faint)
+                case .textbook:   drawWaveRules(ctx, size, strong, faint)
+                case .dictionary: drawPracticeGrid(ctx, size, strong, faint)
+                case .games:      drawStarfield(ctx, size, ink, onDark)
+                }
+            }
+            .modifier(FullBleed(active: preview == nil))
+            .allowsHitTesting(false)
+        }
+    }
+
+    // MARK: Motifs
+
+    /// Hollow, stencil-cut characters set in stacked lines on a sheet that
+    /// leans away from you: rows bunch together and shrink toward the top, and
+    /// open out toward the bottom, so the near edge reads as closer. The whole
+    /// sheet is skewed a few degrees off square.
+    private func drawStencilSheet(_ ctx: GraphicsContext, _ size: CGSize,
+                                  _ ink: Color, _ onDark: Bool) {
+        let rows = motifScale < 1 ? 11 : 24
+        var seed: UInt64 = 0xA24BAED4963EE407
+        func next() -> Double {
+            seed ^= seed << 13; seed ^= seed >> 7; seed ^= seed << 17
+            return Double(seed % 100_000) / 100_000.0
+        }
+
+        ctx.drawLayer { sheet in
+            // Tilt the whole page a few degrees.
+            sheet.translateBy(x: size.width / 2, y: size.height / 2)
+            sheet.rotate(by: .degrees(-8))
+            sheet.translateBy(x: -size.width / 2, y: -size.height / 2)
+
+            for r in 0..<rows {
+                let t = Double(r) / Double(rows - 1)
+                // Squaring the step is what creates the recession: rows crowd
+                // together far away and open up as they come toward you.
+                let depth = pow(t, 1.95)
+                let y = -size.height * 0.16 + depth * size.height * 1.34
+                let scale = 0.30 + depth * 1.15
+                let glyph = 74 * scale * motifScale
+                let k = glyph / Self.stencilBaseSize
+                // Constant gap between neighbours, with a little extra for the
+                // stroke itself, which sits half outside the outline's bounds.
+                let gap = glyph * 0.15 + 3.0 * k
+                // Nearer rows sit a touch heavier, as if better lit.
+                let alpha = (onDark ? 0.085 : 0.062) + depth * (onDark ? 0.105 : 0.078)
+
+                // Compose the row from real ink widths rather than a fixed pitch,
+                // so every pair ends up with the same visual space between them.
+                var run: [(ch: String, width: CGFloat)] = []
+                var total: CGFloat = 0
+                let target = size.width * 1.45
+                while total < target {
+                    let ch = Self.stencilGlyphs[
+                        min(Int(next() * Double(Self.stencilGlyphs.count)),
+                            Self.stencilGlyphs.count - 1)]
+                    let w = (Self.stencilWidths[ch] ?? Self.stencilBaseSize) * k
+                    run.append((ch, w))
+                    total += w + gap
+                }
+
+                var x = size.width / 2 - (total - gap) / 2
+                for item in run {
+                    if let path = Self.stencilPaths[item.ch] {
+                        let centreX = x + item.width / 2
+                        sheet.drawLayer { g in
+                            g.translateBy(x: centreX, y: y)
+                            g.scaleBy(x: k, y: k)
+                            // Stroke width lives in path space, so it thickens with
+                            // the glyph — which is exactly right for perspective.
+                            g.stroke(path, with: .color(ink.opacity(alpha)),
+                                     lineWidth: 3.0 / max(motifScale, 0.3))
+                        }
+                    }
+                    x += item.width + gap
+                }
+            }
+        }
+    }
+
+    /// 漢字練習帳 — the squared practice paper kanji is drilled on, cross-hair
+    /// guides and all. Now the Dictionary's page: looking a word up and writing
+    /// it out are two halves of the same habit.
+    private func drawPracticeGrid(_ ctx: GraphicsContext, _ size: CGSize,
+                                  _ box: Color, _ guideColor: Color) {
+        let cell: CGFloat = 46, inset: CGFloat = 4
+        let dashed = StrokeStyle(lineWidth: 1, dash: [3, 4])
+        var y = -cell
+        while y < size.height + cell {
+            var x = -cell
+            while x < size.width + cell {
+                let r = CGRect(x: x + inset, y: y + inset,
+                               width: cell - inset * 2, height: cell - inset * 2)
+                ctx.stroke(Path(roundedRect: r, cornerRadius: 3), with: .color(box), lineWidth: 1)
+                var cross = Path()
+                cross.move(to: CGPoint(x: r.midX, y: r.minY)); cross.addLine(to: CGPoint(x: r.midX, y: r.maxY))
+                cross.move(to: CGPoint(x: r.minX, y: r.midY)); cross.addLine(to: CGPoint(x: r.maxX, y: r.midY))
+                ctx.stroke(cross, with: .color(guideColor), style: dashed)
+                x += cell
+            }
+            y += cell
+        }
+    }
+
+    /// Diagonal rules that break into sound-wave bursts. The displacement is a
+    /// function of distance *along* a rule and nothing else, so every line
+    /// carries the identical wave — crests land directly alongside their
+    /// neighbours' crests instead of drifting out of step.
+    private func drawWaveRules(_ ctx: GraphicsContext, _ size: CGSize,
+                               _ rule: Color, _ hair: Color) {
+        let span = max(size.width, size.height) * 1.7
+
+        /// Quiet for most of a cycle, then a short burst that fades in and out.
+        func wave(_ t: CGFloat) -> CGFloat {
+            let period: CGFloat = 330
+            let phase = t / period - floor(t / period)
+            guard phase < 0.45 else { return 0 }
+            let u = phase / 0.45
+            return sin(u * .pi) * 14 * sin(u * .pi * 4)
+        }
+
+        ctx.drawLayer { layer in
+            layer.translateBy(x: size.width / 2, y: size.height / 2)
+            layer.rotate(by: .degrees(-26))
+            layer.translateBy(x: -span / 2, y: -span / 2)
+
+            let column: CGFloat = 40
+            var x: CGFloat = 0
+            var i = 0
+            while x < span {
+                var path = Path()
+                path.move(to: CGPoint(x: x + wave(0), y: 0))
+                var t: CGFloat = 0
+                while t <= span {
+                    path.addLine(to: CGPoint(x: x + wave(t), y: t))
+                    t += 5
+                }
+                // Every third rule is heavier, so the page has some rhythm.
+                layer.stroke(path, with: .color(i % 3 == 0 ? rule : hair),
+                             lineWidth: i % 3 == 0 ? 1.4 : 1)
+                x += column
+                i += 1
+            }
+        }
+    }
+
+    /// 青海波 (seigaiha) — the traditional overlapping wave-crest pattern, drawn
+    /// as ranks of concentric half-arcs. Rank after identical rank suits the
+    /// Study page, where the work is repetition.
+    private func drawSeigaiha(_ ctx: GraphicsContext, _ size: CGSize,
+                              _ crest: Color, _ inner: Color) {
+        // Larger scales and one fewer band keep it calm at this line density.
+        let r: CGFloat = 46
+        let stepX = r
+        let stepY = r * 0.5
+        var y = -r
+        var row = 0
+        while y < size.height + r {
+            var x = -r + (row.isMultiple(of: 2) ? 0 : stepX / 2)
+            while x < size.width + r {
+                // Three concentric arcs per scale, outermost strongest.
+                for band in stride(from: 3, through: 1, by: -1) {
+                    var arc = Path()
+                    arc.addArc(center: CGPoint(x: x, y: y),
+                               radius: r * CGFloat(band) / 3,
+                               startAngle: .degrees(180), endAngle: .degrees(360),
+                               clockwise: false)
+                    ctx.stroke(arc, with: .color(band == 3 ? crest : inner), lineWidth: 1)
+                }
+                x += stepX
+            }
+            y += stepY
+            row += 1
+        }
+    }
+
+    /// A starfield, echoing Kanji Invaders. Deterministic from a fixed seed so
+    /// it never shimmers between redraws.
+    private func drawStarfield(_ ctx: GraphicsContext, _ size: CGSize,
+                               _ ink: Color, _ onDark: Bool) {
+        var seed: UInt64 = 0x9E3779B97F4A7C15
+        func next() -> Double {
+            seed ^= seed << 13; seed ^= seed >> 7; seed ^= seed << 17
+            return Double(seed % 100_000) / 100_000.0
+        }
+        for _ in 0..<190 {
+            let x = next() * Double(size.width)
+            let y = next() * Double(size.height)
+            let r = 1.1 + next() * 2.4
+            let a = (onDark ? 0.22 : 0.16) + next() * (onDark ? 0.40 : 0.28)
+            ctx.fill(Path(ellipseIn: CGRect(x: x, y: y, width: r, height: r)),
+                     with: .color(ink.opacity(a)))
+        }
     }
 }
 

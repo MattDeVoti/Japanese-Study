@@ -20,7 +20,7 @@ struct CultureTopic: Codable, Identifiable {
 enum CultureContent {
     /// Chapter id used for favorites / completion progress in LessonsProgressStore.
     static let chapterId = "ch_culture"
-    static let accent = Color(hex: "8B5CF6")   // violet, distinct from the JLPT level colors
+    static var accent: Color { .themeTile(11) }
 
     static let topics: [CultureTopic] = load()
 

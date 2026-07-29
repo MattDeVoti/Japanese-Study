@@ -143,8 +143,31 @@ extension AppTheme {
         background: Color(hex: "17120A"), backgroundEnd: Color(hex: "241A0C"),
         navBar: Color(hex: "B37A1E"), navBarText: Color(hex: "FFEAC6"))
 
-    static let all: [AppTheme] = [
-        // Gradients first — the most striking options lead the picker
+    /// Pinned to the front of the picker, in this order. Everything else keeps
+    /// its catalogue order behind them — the sort below is stable, so adding a
+    /// theme to `catalogue` needs no change here, and an id that doesn't match
+    /// simply isn't pinned rather than dropping the theme.
+    private static let pinnedIds = [
+        "vaporwave", "aurora", "ember", "volt", "nebula", "sunset",
+        "cotton_candy", "bubblegum", "electric", "inkwash", "koi",
+        "sunburst", "lime", "aqua", "sakura", "neon_tokyo",
+        "pop", "suika", "deep_sea", "gold",
+    ]
+
+    static let all: [AppTheme] = {
+        let rank = Dictionary(uniqueKeysWithValues: pinnedIds.enumerated().map { ($1, $0) })
+        return catalogue.enumerated()
+            .sorted { a, b in
+                let ra = rank[a.element.id] ?? Int.max
+                let rb = rank[b.element.id] ?? Int.max
+                return ra == rb ? a.offset < b.offset : ra < rb
+            }
+            .map(\.element)
+    }()
+
+    /// Every theme, grouped by character. Display order comes from `all`.
+    private static let catalogue: [AppTheme] = [
+        // Gradients
         .sunset, .cottonCandy, .lavenderFields, .oceanBreeze,
         .peachFuzz, .meadow, .sencha, .koi,
         .midnightDrift, .ember, .aurora, .vaporwave, .forestNight, .nebula, .inkwash,
@@ -159,7 +182,8 @@ extension AppTheme {
         .neonTokyo, .arcade, .cyber, .deepSea, .flame, .yozakura, .cosmos, .goldDusk,
     ]
 
-    static let fallback = AppTheme.sakura
+    /// What a brand-new install opens with, before any theme has been chosen.
+    static let fallback = AppTheme.neonTokyo
 }
 
 // Module-level variable read by Color.appBackground / appNavBar / appNavBarText.

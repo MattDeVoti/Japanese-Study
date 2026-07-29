@@ -3,7 +3,7 @@ import UniformTypeIdentifiers
 
 // The signature hue for everything "custom" — indigo, distinct from the JLPT
 // level colors and the gold used by Favorites.
-let customAccent = Color(hex: "6366F1")
+var customAccent: Color { .themeTile(7) }
 
 /// Strips furigana markup (`漢字[かんじ]` → `漢字`) for short plain-text labels.
 func strippedFurigana(_ text: String) -> String {

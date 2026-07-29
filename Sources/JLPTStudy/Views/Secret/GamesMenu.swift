@@ -33,7 +33,7 @@ enum SecretGameID: String, CaseIterable, Identifiable {
     }
     var color: Color {
         switch self {
-        case .kanjiInvaders: return Color(hex: "6D28D9")
+        case .kanjiInvaders: return .themeTile(9)
         }
     }
 }
@@ -208,7 +208,7 @@ struct GamesMenuView: View {
 
     var body: some View {
         ZStack {
-            AppBackground()
+            PatternedBackground(.games)
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
