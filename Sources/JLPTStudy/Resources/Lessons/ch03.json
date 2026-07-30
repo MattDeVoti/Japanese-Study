@@ -23,7 +23,7 @@
           "english": "I drink water every morning."
         },
         {
-          "japanese": "今日[こんにち]は学校[がっこう]に行[い]きません。",
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]きません。",
           "romaji": "Kyou wa gakkou ni ikimasen.",
           "english": "I am not going to school today."
         },
@@ -59,7 +59,7 @@
           "id": "masu-form_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank: 'I am not going to school today.'",
-          "japanese": "今日[こんにち]は学校[がっこう]に行[い]き___。",
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]き___。",
           "choices": [
             "ました",
             "ませんでした",
@@ -187,7 +187,7 @@
             "明日[あした]、図書館[としょかん]に行[い]きました。",
             "毎日[まいにち]、水[みず]を飲[の]みました。",
             "昨日[きのう]、友達[ともだち]に会[あ]いました。",
-            "今[いま]、ご飯[めし]を食[た]べました。"
+            "今[いま]、ご飯[はん]を食[た]べました。"
           ],
           "correctIndex": 2,
           "explanation": "ました is the polite past affirmative. 昨日[きのう] (yesterday) is a completed past time, so ました fits. 明日[あした] (tomorrow) is future — use ます. 毎日[まいにち] (every day) is habitual present — use ます. 今[いま] (now) is present — use ます or ています."
@@ -209,8 +209,8 @@
         {
           "id": "masu-form_q13",
           "type": "translation",
-          "prompt": "What does 来週[らいしゅう]、日本[にっぽん]に来[き]ます mean?",
-          "japanese": "来週[らいしゅう]、日本[にっぽん]に来[き]ます。",
+          "prompt": "What does 来週[らいしゅう]、日本[にほん]に来[き]ます mean?",
+          "japanese": "来週[らいしゅう]、日本[にほん]に来[き]ます。",
           "choices": [
             "I came to Japan last week.",
             "I will come to Japan next week.",
@@ -629,7 +629,7 @@
           "choices": [
             "映画[えいが]は見[み]ます、音楽[おんがく]を聞[き]きます。",
             "映画[えいが]は見[み]ますが、音楽[おんがく]は聞[き]きません。",
-            "映画[えい]が見[み]ますが、音楽[おんがく]が聞[き]きません。",
+            "映画[えいが]が見[み]ますが、音楽[おんがく]が聞[き]きません。",
             "映画[えいが]を見[み]ますが、音楽[おんがく]を聞[き]きません。"
           ],
           "correctIndex": 1,
@@ -661,7 +661,7 @@
           "english": "I watch a movie on Sunday."
         },
         {
-          "japanese": "六月[ろくがつ]に日本[にっぽん]へ行[い]きます。",
+          "japanese": "六月[ろくがつ]に日本[にほん]へ行[い]きます。",
           "romaji": "Rokugatsu ni Nihon e ikimasu.",
           "english": "I am going to Japan in June."
         },
@@ -723,7 +723,7 @@
             "今日[きょう]に学校[がっこう]に行[い]きます。",
             "火曜日[かようび]に勉強[べんきょう]します。",
             "三時[さんじ]に起[お]きます。",
-            "六月[ろくがつ]に日本[にっぽん]へ行[い]きます。"
+            "六月[ろくがつ]に日本[にほん]へ行[い]きます。"
           ],
           "correctIndex": 0,
           "explanation": "今日[きょう] (today) is a relative time word and never takes に — adding に after 今日[きょう] is a common learner error. 三時[さんじ]に (at 3 o'clock), 火曜日[かようび]に (on Tuesday), and 六月[ろくがつ]に (in June) are all specific calendar/clock times, so に is correct there."
@@ -847,11 +847,11 @@
           "choices": [
             "三月[さんがつ]に花見[はなみ]をします。",
             "去年[きょねん]に京都[きょうと]に行[い]きました。",
-            "十時[ととき]に寝[ね]ます。",
+            "十時[じゅうじ]に寝[ね]ます。",
             "月曜日[げつようび]に会議[かいぎ]があります。"
           ],
           "correctIndex": 1,
-          "explanation": "去年[きょねん] (last year) is a relative time word (like 今年[こんねん], 来年[らいねん], 昨日[きのう]) and never takes に. The correct form is just 去年[きょねん]、京都[きょうと]に行[い]きました — no に after 去年[きょねん]. The other three use specific clock time or calendar points, so に is correct."
+          "explanation": "去年[きょねん] (last year) is a relative time word (like 今年[ことし], 来年[らいねん], 昨日[きのう]) and never takes に. The correct form is just 去年[きょねん]、京都[きょうと]に行[い]きました — no に after 去年[きょねん]. The other three use specific clock time or calendar points, so に is correct."
         },
         {
           "id": "ni-time_q14",
@@ -885,7 +885,7 @@
           "id": "ni-time_q16",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "今日[こんにち]は学校[がっこう]に行[い]きます。",
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]きます。",
           "choices": [
             "I went to school today.",
             "I go to school today.",
@@ -917,11 +917,11 @@
           "choices": [
             "昼[ひる]に昼[ひる]ごはんを食[た]べます。",
             "お昼[ひる]ごろ昼[ひる]ごはんを食[た]べます。",
-            "十二[じゅうに]時[とき]に昼[ひる]ごはんを食[た]べます。",
-            "昼[ひる]ごはんは十二[じゅうに]時[とき]ます。"
+            "十二時[じゅうにじ]に昼[ひる]ごはんを食[た]べます。",
+            "昼[ひる]ごはんは十二時[じゅうにじ]ます。"
           ],
           "correctIndex": 2,
-          "explanation": "十二[じゅうに]時[とき] (12 o'clock) is a specific clock time → に is correct. ごろ (around) can accompany approximate times but に is still optional after ごろ alone. 昼[ひる] (noon) in choice A is vaguer and less common paired with に. Choice D has broken sentence structure."
+          "explanation": "十二時[じゅうにじ] (12 o'clock) is a specific clock time → に is correct. ごろ (around) can accompany approximate times but に is still optional after ごろ alone. 昼[ひる] (noon) in choice A is vaguer and less common paired with に. Choice D has broken sentence structure."
         },
         {
           "id": "ni-time_q19",
@@ -1728,7 +1728,7 @@
           "japanese": null,
           "choices": [
             "毎日[まいにち]、日本語[にほんご]を勉強[べんきょう]します。",
-            "よく友達[ともだち]とご飯[めし]を食[た]べます。",
+            "よく友達[ともだち]とご飯[はん]を食[た]べます。",
             "あまり外食[がいしょく]をします。",
             "ときどき映画[えいが]を見[み]ます。"
           ],

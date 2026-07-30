@@ -591,13 +591,13 @@
           "prompt": "Which shows the PAST conviction form of にちがいない correctly?",
           "japanese": null,
           "choices": [
-            "彼女[かのじょ]は怒[いか]ったにちがいない。(She must have been angry.)",
-            "彼女[かのじょ]は怒[いか]るにちがいない。(She must get angry.)",
-            "彼女[かのじょ]は怒[いか]っているにちがいない。(She must be angry.)",
-            "彼女[かのじょ]は怒[いか]っていたにちがいない。(She must have been angry — ongoing)"
+            "彼女[かのじょ]は怒[おこ]ったにちがいない。(She must have been angry.)",
+            "彼女[かのじょ]は怒[おこ]るにちがいない。(She must get angry.)",
+            "彼女[かのじょ]は怒[おこ]っているにちがいない。(She must be angry.)",
+            "彼女[かのじょ]は怒[おこ]っていたにちがいない。(She must have been angry — ongoing)"
           ],
           "correctIndex": 0,
-          "explanation": "怒[いか]った (got angry, past) + にちがいない = must have been angry. This is a past conviction. Option 3 (怒[いか]っている + にちがいない) = must be angry right now (present). Both are valid for their respective time frames."
+          "explanation": "怒[おこ]った (got angry, past) + にちがいない = must have been angry. This is a past conviction. Option 3 (怒[おこ]っている + にちがいない) = must be angry right now (present). Both are valid for their respective time frames."
         },
         {
           "id": "ni-chigai-nai_q18",
@@ -658,8 +658,8 @@
       ],
       "examples": [
         {
-          "japanese": "彼[か]のジョークを聞[き]いたら、笑[わら]わずにはいられませんでした。",
-          "romaji": "Kare no jooku wo kiitara, warawazu ni wa iraremashita.",
+          "japanese": "彼[かれ]のジョークを聞[き]いたら、笑[わら]わずにはいられませんでした。",
+          "romaji": "Kare no jooku wo kiitara, warawazu ni wa iraremasen deshita.",
           "english": "When I heard his joke, I couldn't help but laugh."
         },
         {
@@ -669,7 +669,7 @@
         },
         {
           "japanese": "この映画[えいが]のラストシーンでは、泣[な]かずにはいられませんでした。",
-          "romaji": "Kono eiga no rasuto shiin dewa, nakazuni wa iraremashita.",
+          "romaji": "Kono eiga no rasuto shiin dewa, nakazu ni wa iraremasen deshita.",
           "english": "At the final scene of this movie, I couldn't help but cry."
         },
         {

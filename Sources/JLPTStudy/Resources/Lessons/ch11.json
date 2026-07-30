@@ -8,7 +8,7 @@
       "name": "〜たことがある (ta koto ga aru) — have ever done",
       "shortDescription": "Expresses that you have (or haven't) had the experience of doing something.",
       "formation": "Verb (た-form) + ことがあります / ことがありません",
-      "explanation": "〜たことがある is how you talk about past experiences in Japanese — the equivalent of English 'have ever done' or 'have been to.' The key insight is that this pattern is about whether an experience exists in your life up to now, not about a specific past event. Compare: 日本[にっぽん]に行[い]きました (I went to Japan — this describes a specific trip) vs 日本[にっぽん]に行[い]ったことがあります (I have been to Japan — this says the experience is stamped in your history). Think of it as a life passport: たことがあります means the stamp is there; たことがありません means the page is blank.\n\nTo form it: take the た-form (past plain form) of the verb and add ことがあります. For the negative — 'have never' — use ことがありません. The typical question is 〜たことがありますか (Have you ever...?). A useful emphatic version for 'not even once': 一度[いちど]もありません. This pattern gives you a natural, expressive way to share your experiences and ask others about theirs.",
+      "explanation": "〜たことがある is how you talk about past experiences in Japanese — the equivalent of English 'have ever done' or 'have been to.' The key insight is that this pattern is about whether an experience exists in your life up to now, not about a specific past event. Compare: 日本[にほん]に行[い]きました (I went to Japan — this describes a specific trip) vs 日本[にほん]に行[い]ったことがあります (I have been to Japan — this says the experience is stamped in your history). Think of it as a life passport: たことがあります means the stamp is there; たことがありません means the page is blank.\n\nTo form it: take the た-form (past plain form) of the verb and add ことがあります. For the negative — 'have never' — use ことがありません. The typical question is 〜たことがありますか (Have you ever...?). A useful emphatic version for 'not even once': 一度[いちど]もありません. This pattern gives you a natural, expressive way to share your experiences and ask others about theirs.",
       "rules": [
         "Pattern: Verb (た-form) + ことがあります = have had the experience of doing X",
         "Negative: Verb (た-form) + ことがありません = have never done X",
@@ -28,12 +28,12 @@
           "english": "Yes, I have climbed it once."
         },
         {
-          "japanese": "馬[うま]に乗[じょう]ったことがありません。",
+          "japanese": "馬[うま]に乗[の]ったことがありません。",
           "romaji": "Uma ni notta koto ga arimasen.",
           "english": "I have never ridden a horse."
         },
         {
-          "japanese": "日本[にっぽん]の映画[えいが]を見[み]たことがありますか。",
+          "japanese": "日本[にほん]の映画[えいが]を見[み]たことがありますか。",
           "romaji": "Nihon no eiga wo mita koto ga arimasu ka.",
           "english": "Have you ever watched a Japanese movie?"
         }
@@ -59,7 +59,7 @@
           "id": "koto-ga-aru_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank to say 'I have never ridden a horse.'",
-          "japanese": "馬[うま]に乗[じょう]った___がありません。",
+          "japanese": "馬[うま]に乗[の]った___がありません。",
           "choices": [
             "もの",
             "こと",
@@ -67,7 +67,7 @@
             "とき"
           ],
           "correctIndex": 1,
-          "explanation": "た-form + ことがありません = 'have never done X.' こと nominalizes the verb phrase (乗[じょう]った = the act/experience of riding). もの refers to physical things, の doesn't work cleanly in this set phrase, and とき means 'when/time.'"
+          "explanation": "た-form + ことがありません = 'have never done X.' こと nominalizes the verb phrase (乗[の]った = the act/experience of riding). もの refers to physical things, の doesn't work cleanly in this set phrase, and とき means 'when/time.'"
         },
         {
           "id": "koto-ga-aru_q3",
@@ -87,7 +87,7 @@
           "id": "koto-ga-aru_q4",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "馬[うま]に乗[じょう]ったことがありません。",
+          "japanese": "馬[うま]に乗[の]ったことがありません。",
           "choices": [
             "I used to ride horses but stopped.",
             "I don't know how to ride horses.",
@@ -95,7 +95,7 @@
             "I have never ridden a horse."
           ],
           "correctIndex": 3,
-          "explanation": "た-form + ことがありません = 'have never done X.' 乗[じょう]った (rode, た-form) + ことがありません = 'I have never ridden.' This addresses the absence of a life experience, not skill level (Option C) or a past habit that ended (Option D)."
+          "explanation": "た-form + ことがありません = 'have never done X.' 乗[の]った (rode, た-form) + ことがありません = 'I have never ridden.' This addresses the absence of a life experience, not skill level (Option C) or a past habit that ended (Option D)."
         },
         {
           "id": "koto-ga-aru_q5",
@@ -129,7 +129,7 @@
           "id": "koto-ga-aru_q7",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "日本[にっぽん]に何度[なんど]も行[い]ったことがあります。",
+          "japanese": "日本[にほん]に何度[なんど]も行[い]ったことがあります。",
           "choices": [
             "I went to Japan many times.",
             "I have been to Japan many times.",
@@ -147,11 +147,11 @@
           "choices": [
             "新幹線[しんかんせん]に乗[の]ることが一度[いちど]だけあります。",
             "新幹線[しんかんせん]に一度[いちど]だけ乗[の]りたいです。",
-            "新幹線[しんかんせん]に一度[いちど]だけ乗[じょう]ったことがあります。",
-            "新幹線[しんかんせん]に乗[じょう]ったことが一度[いちど]もありません。"
+            "新幹線[しんかんせん]に一度[いちど]だけ乗[の]ったことがあります。",
+            "新幹線[しんかんせん]に乗[の]ったことが一度[いちど]もありません。"
           ],
           "correctIndex": 2,
-          "explanation": "一度[いちど]だけ = 'only once,' placed before the verb: 一度[いちど]だけ乗[じょう]った + ことがあります = 'have ridden only once.' Option A puts こと before 一度[いちど]だけ, breaking the set phrase order. Option B says 'I want to ride' (たい). Option D uses 一度[いちど]もありません (not even once / have never) — the opposite meaning."
+          "explanation": "一度[いちど]だけ = 'only once,' placed before the verb: 一度[いちど]だけ乗[の]った + ことがあります = 'have ridden only once.' Option A puts こと before 一度[いちど]だけ, breaking the set phrase order. Option B says 'I want to ride' (たい). Option D uses 一度[いちど]もありません (not even once / have never) — the opposite meaning."
         },
         {
           "id": "koto-ga-aru_q9",
@@ -229,13 +229,13 @@
           "prompt": "Which pair best illustrates the difference between a life experience and a specific past event?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に行[い]ったことがあります / 日本[にっぽん]に行[い]きました",
-            "日本[にっぽん]に行[い]きます / 日本[にっぽん]に行[い]きました",
-            "日本[にっぽん]に行[い]きたいです / 日本[にっぽん]に行[い]きたかったです",
-            "日本[にっぽん]に行[い]ったことがあります / 日本[にっぽん]に行[い]ったことがありました"
+            "日本[にほん]に行[い]ったことがあります / 日本[にほん]に行[い]きました",
+            "日本[にほん]に行[い]きます / 日本[にほん]に行[い]きました",
+            "日本[にほん]に行[い]きたいです / 日本[にほん]に行[い]きたかったです",
+            "日本[にほん]に行[い]ったことがあります / 日本[にほん]に行[い]ったことがありました"
           ],
           "correctIndex": 0,
-          "explanation": "日本[にっぽん]に行[い]ったことがあります = 'I have been to Japan' (the experience is stamped in life history). 日本[にっぽん]に行[い]きました = 'I went to Japan' (a specific past event — last summer, last year, etc.). The first expresses whether an experience EXISTS; the second narrates a past action. Options B and C contrast tenses or desires, not experience vs. event."
+          "explanation": "日本[にほん]に行[い]ったことがあります = 'I have been to Japan' (the experience is stamped in life history). 日本[にほん]に行[い]きました = 'I went to Japan' (a specific past event — last summer, last year, etc.). The first expresses whether an experience EXISTS; the second narrates a past action. Options B and C contrast tenses or desires, not experience vs. event."
         },
         {
           "id": "koto-ga-aru_q15",
@@ -338,7 +338,7 @@
       ],
       "examples": [
         {
-          "japanese": "日本[にっぽん]でお寿司[すし]を食[た]べたいです。",
+          "japanese": "日本[にほん]でお寿司[すし]を食[た]べたいです。",
           "romaji": "Nihon de osushi wo tabetai desu.",
           "english": "I want to eat sushi in Japan."
         },
@@ -379,7 +379,7 @@
           "id": "tai_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank to express the desire to eat sushi in Japan.",
-          "japanese": "日本[にっぽん]でお寿司[すし]を食[た]べ___です。",
+          "japanese": "日本[にほん]でお寿司[すし]を食[た]べ___です。",
           "choices": [
             "たくない",
             "たかった",
@@ -552,7 +552,7 @@
             "田中[たなか]さんはケーキが食[た]べたいです。",
             "山田[やまだ]さんはもっと休[やす]みたいと言[い]っていました。",
             "弟[おとうと]は新[あたら]しいゲームを買[か]いたがっています。",
-            "私[わたし]は日本[にっぽん]に行[い]きたいです。"
+            "私[わたし]は日本[にほん]に行[い]きたいです。"
           ],
           "correctIndex": 0,
           "explanation": "たい describes only the SPEAKER'S OWN desires. Using 田中[たなか]さんは〜たいです to describe a third person's internal desire is incorrect — use たがっている: 田中[たなか]さんはケーキを食[た]べたがっています. Option B is acceptable because it's quoting reported speech (〜と言[い]っていました). Option C correctly uses たがっている. Option D uses たい for first person (correct)."
@@ -658,7 +658,7 @@
       ],
       "examples": [
         {
-          "japanese": "休[やす]みの日[にち]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
+          "japanese": "休[やす]みの日[ひ]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
           "romaji": "Yasumi no hi wa ongaku wo kiitari, hon wo yondari shimasu.",
           "english": "On my days off I do things like listen to music and read books."
         },
@@ -685,7 +685,7 @@
           "id": "tari-tari_q1",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "休[やす]みの日[にち]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
+          "japanese": "休[やす]みの日[ひ]は音楽[おんがく]を聴[き]いたり、本[ほん]を読[よ]んだりします。",
           "choices": [
             "On my days off I only listen to music and read books.",
             "On my days off I always listen to music first, then read books.",
@@ -869,10 +869,10 @@
           "prompt": "Which sentence uses the negative たり form (〜なかったり) correctly?",
           "japanese": null,
           "choices": [
-            "雨[あめ]の日[にち]は出[で]かけなかったり、家[いえ]でゲームをしたりします。",
-            "雨[あめ]の日[にち]は出[で]かけなくたり、家[いえ]でゲームをしたりします。",
-            "雨[あめ]の日[にち]は出[で]かけないたり、家[いえ]でゲームをしたりします。",
-            "雨[あめ]の日[にち]は出[で]かけなかったりしない家[いえ]でゲームをします。"
+            "雨[あめ]の日[ひ]は出[で]かけなかったり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[ひ]は出[で]かけなくたり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[ひ]は出[で]かけないたり、家[いえ]でゲームをしたりします。",
+            "雨[あめ]の日[ひ]は出[で]かけなかったりしない家[いえ]でゲームをします。"
           ],
           "correctIndex": 0,
           "explanation": "The negative たり form uses the plain past negative + り: 〜なかった + り = 〜なかったり. 出[で]かける → 出[で]かけなかった → 出[で]かけなかったり (sometimes don't go out). This can be mixed with positive たり forms. Options B and C have incorrect formation (なくたり and ないたり are not standard forms). Option D is grammatically confused."

@@ -28,12 +28,12 @@
           "english": "Why were you late? (I'd like an explanation)"
         },
         {
-          "japanese": "頭[あたま]が痛[いた]いんです。だから今日[こんにち]は早[はや]く帰[かえ]りたいんです。",
+          "japanese": "頭[あたま]が痛[いた]いんです。だから今日[きょう]は早[はや]く帰[かえ]りたいんです。",
           "romaji": "Atama ga itai n desu. Dakara kyou wa hayaku kaeritai n desu.",
           "english": "The thing is, I have a headache. That's why I want to go home early today."
         },
         {
-          "japanese": "あの人[にん]は先生[せんせい]なんですか。",
+          "japanese": "あの人[ひと]は先生[せんせい]なんですか。",
           "romaji": "Ano hito wa sensei na n desu ka.",
           "english": "Oh, is that person a teacher? (asking with interest/surprise)"
         }
@@ -59,7 +59,7 @@
           "id": "n-desu_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank — nouns and な-adjectives require this word before んです.",
-          "japanese": "あの人[にん]は学生[がくせい]___んですか。",
+          "japanese": "あの人[ひと]は学生[がくせい]___んですか。",
           "choices": [
             "の",
             "が",
@@ -137,7 +137,7 @@
             "で"
           ],
           "correctIndex": 1,
-          "explanation": "Nouns require な before んです: 病院[びょういん] + な + んです = 病院[びょういん]なんですよ (the thing is, that building is a hospital). Omitting な (病院[びょうい]んですよ) is a common learner error. を, は, and で are particles with entirely different grammatical roles and cannot connect a noun to んです."
+          "explanation": "Nouns require な before んです: 病院[びょういん] + な + んです = 病院[びょういん]なんですよ (the thing is, that building is a hospital). Omitting な (病院[びょういん]んですよ) is a common learner error. を, は, and で are particles with entirely different grammatical roles and cannot connect a noun to んです."
         },
         {
           "id": "n-desu_q8",
@@ -171,7 +171,7 @@
           "id": "n-desu_q10",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "今日[こんにち]は疲[つか]れているんです。だから、早[はや]く帰[かえ]りたいんです。",
+          "japanese": "今日[きょう]は疲[つか]れているんです。だから、早[はや]く帰[かえ]りたいんです。",
           "choices": [
             "The thing is I'm tired today. That's why I want to go home early.",
             "Since I want to go home early, I'm tired.",
@@ -285,10 +285,10 @@
           "prompt": "Which sentence uses んです INCORRECTLY?",
           "japanese": null,
           "choices": [
-            "あの人[にん]は先生[せんせい]だんです。",
+            "あの人[ひと]は先生[せんせい]だんです。",
             "明日[あした]試験[しけん]があるんです。",
             "頭[あたま]が痛[いた]いんです。",
-            "あの人[にん]は学生[がくせい]なんですか。"
+            "あの人[ひと]は学生[がくせい]なんですか。"
           ],
           "correctIndex": 0,
           "explanation": "先生[せんせい]だんです is incorrect. Nouns require な before んです — not だ. It should be 先生[せんせい]なんです. The copula だ is replaced by な before んです. The other sentences are all correct: あるんです (plain verb), 痛[いた]いんです (い-adj plain form), 学生[がくせい]なんですか (noun + な + んですか)."
@@ -313,13 +313,13 @@
           "prompt": "Your stomach hurts and you need to leave work early. Which sentence correctly uses んです to explain your situation to your boss?",
           "japanese": null,
           "choices": [
-            "お腹[はら]が痛[いた]くて、早[はや]く帰[かえ]るです。",
-            "早[はや]く帰[かえ]りたいので、お腹[はら]が痛[いた]んです。",
-            "お腹[はら]が痛[いた]いんです。早退[そうたい]させていただけますか。",
-            "お腹[はら]が痛[いた]いことで、早退[そうたい]です。"
+            "お腹[なか]が痛[いた]くて、早[はや]く帰[かえ]るです。",
+            "早[はや]く帰[かえ]りたいので、お腹[なか]が痛[いた]んです。",
+            "お腹[なか]が痛[いた]いんです。早退[そうたい]させていただけますか。",
+            "お腹[なか]が痛[いた]いことで、早退[そうたい]です。"
           ],
           "correctIndex": 2,
-          "explanation": "お腹[はら]が痛[いた]いんです (い-adj plain form + んです = 'the thing is, my stomach hurts') explains the situation first. 早退[そうたい]させていただけますか is a very polite request to leave early. This is the classic んです structure: give the explanatory context, then make the request. Options A and D are ungrammatical. Option B reverses cause and effect illogically."
+          "explanation": "お腹[なか]が痛[いた]いんです (い-adj plain form + んです = 'the thing is, my stomach hurts') explains the situation first. 早退[そうたい]させていただけますか is a very polite request to leave early. This is the classic んです structure: give the explanatory context, then make the request. Options A and D are ungrammatical. Option B reverses cause and effect illogically."
         }
       ]
     },
@@ -353,7 +353,7 @@
           "english": "This is difficult, right?"
         },
         {
-          "japanese": "もうお腹[はら]がすいたでしょう。何[なに]か食[た]べましょう。",
+          "japanese": "もうお腹[なか]がすいたでしょう。何[なに]か食[た]べましょう。",
           "romaji": "Mou onaka ga suita deshou. Nanika tabemashou.",
           "english": "You're probably hungry by now. Let's eat something."
         }
@@ -407,7 +407,7 @@
           "id": "desho_q4",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "もうお腹[はら]がすいたでしょう。何[なに]か食[た]べましょう。",
+          "japanese": "もうお腹[なか]がすいたでしょう。何[なに]か食[た]べましょう。",
           "choices": [
             "You must not be hungry. Let's not eat yet.",
             "You're full already. Shall we stop eating?",
@@ -415,7 +415,7 @@
             "You'll probably be hungry soon. Let me prepare something."
           ],
           "correctIndex": 2,
-          "explanation": "お腹[はら]がすいた + でしょう = 'you are probably hungry.' もう = 'by now / already.' The speaker draws a reasonable inference and makes a suggestion. Option B misreads すいた as 'full' — it means 'became hungry (stomach became empty).'"
+          "explanation": "お腹[なか]がすいた + でしょう = 'you are probably hungry.' もう = 'by now / already.' The speaker draws a reasonable inference and makes a suggestion. Option B misreads すいた as 'full' — it means 'became hungry (stomach became empty).'"
         },
         {
           "id": "desho_q5",
@@ -449,7 +449,7 @@
           "id": "desho_q7",
           "type": "fillBlank",
           "prompt": "Fill in the blank to express 'That person is probably a student.'",
-          "japanese": "あの人[にん]はたぶん学生[がくせい]___。",
+          "japanese": "あの人[ひと]はたぶん学生[がくせい]___。",
           "choices": [
             "だでしょう",
             "でしょう",
@@ -523,7 +523,7 @@
           "choices": [
             "たぶん彼女[かのじょ]は疲[つか]れているでしょう。",
             "明日[あした]は天気[てんき]がいいでしょう。",
-            "彼[か]のメールアドレスを知[し]っているはずです。名刺[めいし]をもらいましたから。",
+            "彼[かれ]のメールアドレスを知[し]っているはずです。名刺[めいし]をもらいましたから。",
             "きっとあの店[みせ]は安[やす]いでしょう。"
           ],
           "correctIndex": 2,
@@ -658,7 +658,7 @@
       ],
       "examples": [
         {
-          "japanese": "明日[あした]試験[しけん]があるので、今日[こんにち]は早[はや]く寝[ね]ます。",
+          "japanese": "明日[あした]試験[しけん]があるので、今日[きょう]は早[はや]く寝[ね]ます。",
           "romaji": "Ashita shiken ga aru node, kyou wa hayaku nemasu.",
           "english": "Since I have an exam tomorrow, I'll go to bed early today."
         },
@@ -668,12 +668,12 @@
           "english": "Because the roads were congested, I was late."
         },
         {
-          "japanese": "学生[がくせい]なので、お金[きん]があまりありません。",
+          "japanese": "学生[がくせい]なので、お金[かね]があまりありません。",
           "romaji": "Gakusei na node, okane ga amari arimasen.",
           "english": "Because I'm a student, I don't have much money."
         },
         {
-          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[こんにち]は休[やす]ませていただきたいんですが。",
+          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[きょう]は休[やす]ませていただきたいんですが。",
           "romaji": "Karada no guai ga warui node, kyou wa yasumasete itadakitai n desu ga.",
           "english": "Since I'm not feeling well, I'd like to take the day off today..."
         }
@@ -685,7 +685,7 @@
           "id": "node_q1",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "明日[あした]試験[しけん]があるので、今日[こんにち]は早[はや]く寝[ね]ます。",
+          "japanese": "明日[あした]試験[しけん]があるので、今日[きょう]は早[はや]く寝[ね]ます。",
           "choices": [
             "Since I have an exam tomorrow, I'll go to bed early today.",
             "Since I went to bed early, the exam is tomorrow.",
@@ -699,7 +699,7 @@
           "id": "node_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank — nouns and な-adjectives require this before ので.",
-          "japanese": "学生[がくせい]___ので、お金[きん]があまりありません。",
+          "japanese": "学生[がくせい]___ので、お金[かね]があまりありません。",
           "choices": [
             "な",
             "が",
@@ -727,7 +727,7 @@
           "id": "node_q4",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[こんにち]は休[やす]ませていただきたいんですが。",
+          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[きょう]は休[やす]ませていただきたいんですが。",
           "choices": [
             "Since I'm not feeling well, I'd like to take the day off today.",
             "Because I'm taking the day off, I feel unwell.",
@@ -769,7 +769,7 @@
           "id": "node_q7",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "今日[こんにち]は体[からだ]の具合[ぐあい]が悪[わる]いので、早[そう]引[ひ]きさせていただきます。",
+          "japanese": "今日[きょう]は体[からだ]の具合[ぐあい]が悪[わる]いので、早[はや]引[ひ]きさせていただきます。",
           "choices": [
             "Since I'll leave early, I'm not feeling well.",
             "Since I'm not feeling well today, I'll be leaving early (humble).",
@@ -777,7 +777,7 @@
             "Because I left early yesterday, I'm not feeling well."
           ],
           "correctIndex": 1,
-          "explanation": "体[からだ]の具合[ぐあい]が悪[わる]い (not feeling well) + ので (since/because) + 早[そう]引[ひ]きさせていただきます (humble form of leaving early) = a formal, respectful explanation. ので presents the reason as an objective, natural consequence. させていただきます adds humility, appropriate when speaking to a superior. Option A reverses cause and effect."
+          "explanation": "体[からだ]の具合[ぐあい]が悪[わる]い (not feeling well) + ので (since/because) + 早[はや]引[ひ]きさせていただきます (humble form of leaving early) = a formal, respectful explanation. ので presents the reason as an objective, natural consequence. させていただきます adds humility, appropriate when speaking to a superior. Option A reverses cause and effect."
         },
         {
           "id": "node_q8",
@@ -884,12 +884,12 @@
           "japanese": null,
           "choices": [
             "忙[いそが]しいから、ちょっと待[ま]ってください。",
-            "ただ今[いま]確認[かくにん]中[なか]なので、少々[しょうしょう]お待[ま]ちいただけますか。",
+            "ただ今[いま]確認[かくにん]中[ちゅう]なので、少々[しょうしょう]お待[ま]ちいただけますか。",
             "忙[いそが]しいし、待[ま]ってよね。",
             "確認[かくにん]しているので、待[ま]て。"
           ],
           "correctIndex": 1,
-          "explanation": "ただ今[いま]確認[かくにん]中[なか]なので (because I'm currently checking) + 少々[しょうしょう]お待[ま]ちいただけますか (could you please wait a moment — very polite) is the ideal formal request structure with ので. Option A uses から (more casual). Options C and D use informal or rude forms (待[ま]ってよね, 待[ま]て). ので + polite request form is the professional standard."
+          "explanation": "ただ今[いま]確認[かくにん]中[ちゅう]なので (because I'm currently checking) + 少々[しょうしょう]お待[ま]ちいただけますか (could you please wait a moment — very polite) is the ideal formal request structure with ので. Option A uses から (more casual). Options C and D use informal or rude forms (待[ま]ってよね, 待[ま]て). ので + polite request form is the professional standard."
         },
         {
           "id": "node_q16",
@@ -978,7 +978,7 @@
       ],
       "examples": [
         {
-          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[こんにち]は家[いえ]にいたほうがいいですよ。",
+          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[きょう]は家[いえ]にいたほうがいいですよ。",
           "romaji": "Kaze wo hiite iru kara, kyou wa ie ni ita hou ga ii desu yo.",
           "english": "Since you have a cold, you'd better stay home today."
         },
@@ -1005,7 +1005,7 @@
           "id": "ho-ga-ii_q1",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[こんにち]は家[いえ]にいたほうがいいですよ。",
+          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[きょう]は家[いえ]にいたほうがいいですよ。",
           "choices": [
             "Since you're staying home, you must have a cold.",
             "Since you'd better stay home, you have a cold.",
@@ -1395,7 +1395,7 @@
           "id": "sugiru_q6",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "昨日[きのう]食[た]べすぎて、お腹[はら]が痛[いた]いです。",
+          "japanese": "昨日[きのう]食[た]べすぎて、お腹[なか]が痛[いた]いです。",
           "choices": [
             "I ate too much yesterday and have a stomachache.",
             "I haven't eaten enough today, so my stomach hurts.",
@@ -1403,7 +1403,7 @@
             "Because my stomach hurt yesterday, I ate."
           ],
           "correctIndex": 0,
-          "explanation": "食[た]べすぎて is the te-form of 食[た]べすぎる (to eat too much): verb masu-stem 食[た]べ + すぎて = 食[た]べすぎて. The te-form links the excessive action to its consequence: 食[た]べすぎて、お腹[はら]が痛[いた]い = 'I ate too much and (as a result) have a stomachache.' Option D reverses the cause-effect relationship."
+          "explanation": "食[た]べすぎて is the te-form of 食[た]べすぎる (to eat too much): verb masu-stem 食[た]べ + すぎて = 食[た]べすぎて. The te-form links the excessive action to its consequence: 食[た]べすぎて、お腹[なか]が痛[いた]い = 'I ate too much and (as a result) have a stomachache.' Option D reverses the cause-effect relationship."
         },
         {
           "id": "sugiru_q7",
@@ -1479,7 +1479,7 @@
           "id": "sugiru_q12",
           "type": "fillBlank",
           "prompt": "Fill in the blank to say 'because I drank too much last night' (te-form required).",
-          "japanese": "昨夜[さくや]お酒[さけ]を飲[の]み___て、今日[こんにち]は具合[ぐあい]が悪[わる]いです。",
+          "japanese": "昨夜[さくや]お酒[さけ]を飲[の]み___て、今日[きょう]は具合[ぐあい]が悪[わる]いです。",
           "choices": [
             "すぎなく",
             "すぎる",
@@ -1497,11 +1497,11 @@
           "choices": [
             "この部屋[へや]は暑[あつ]いすぎて、うるさすぎます。",
             "このスープは熱[あつ]すぎて、辛[つら]くすぎます。",
-            "あの授業[じゅぎょう]は長[なが]くすぎて、難[むつか]しすぎた。",
+            "あの授業[じゅぎょう]は長[なが]くすぎて、難[むずか]しすぎた。",
             "このかばんは重[おも]すぎて、大[おお]きすぎます。"
           ],
           "correctIndex": 3,
-          "explanation": "このかばんは重[おも]すぎて、大[おお]きすぎます correctly doubles すぎる: 重[おも]い → 重[じゅう] + すぎて (too heavy, te-form linking clauses) and 大[おお]きい → 大[おお]き + すぎます (too big). Option A incorrectly keeps い in 暑[あつ]いすぎて. Option B uses 辛[つら]くすぎます — く is the adverb form, not the adjective stem. Option C uses 長[なが]くすぎて — the same く error."
+          "explanation": "このかばんは重[おも]すぎて、大[おお]きすぎます correctly doubles すぎる: 重[おも]い → 重[おも] + すぎて (too heavy, te-form linking clauses) and 大[おお]きい → 大[おお]き + すぎます (too big). Option A incorrectly keeps い in 暑[あつ]いすぎて. Option B uses 辛[つら]くすぎます — く is the adverb form, not the adjective stem. Option C uses 長[なが]くすぎて — the same く error."
         },
         {
           "id": "sugiru_q14",
@@ -1715,7 +1715,7 @@
           "id": "nakucha_q6",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "8時[とき]までに会社[かいしゃ]に着[つ]かなければなりません。",
+          "japanese": "8時[じ]までに会社[かいしゃ]に着[つ]かなければなりません。",
           "choices": [
             "I must arrive at the company by 8 o'clock.",
             "I don't have to arrive at the company until 8 o'clock.",
@@ -1723,13 +1723,13 @@
             "I arrived at the company by 8 o'clock."
           ],
           "correctIndex": 0,
-          "explanation": "着[つ]かなければなりません: ない-form of 着[つ]く (着[つ]かない) → drop い → 着[つ]か + なければなりません = 'must arrive.' 8時[とき]まで = 'by 8 o'clock.' なければなりません is the formal written/spoken obligation form. Option B (don't have to) would be 着[つ]かなくてもいいです. Option C expresses conjecture. Option D is a simple past statement."
+          "explanation": "着[つ]かなければなりません: ない-form of 着[つ]く (着[つ]かない) → drop い → 着[つ]か + なければなりません = 'must arrive.' 8時[じ]まで = 'by 8 o'clock.' なければなりません is the formal written/spoken obligation form. Option B (don't have to) would be 着[つ]かなくてもいいです. Option C expresses conjecture. Option D is a simple past statement."
         },
         {
           "id": "nakucha_q7",
           "type": "fillBlank",
           "prompt": "Fill in the blank to form the speech-friendly obligation ないといけない: 'must pack tonight.'",
-          "japanese": "今夜[こんや]中[なか]に荷物[にもつ]をまとめない___いけない。",
+          "japanese": "今夜[こんや]中[じゅう]に荷物[にもつ]をまとめない___いけない。",
           "choices": [
             "なくては",
             "と",
@@ -1827,7 +1827,7 @@
           "id": "nakucha_q14",
           "type": "translation",
           "prompt": "What does this sentence mean? (Note: 来[く]る is irregular — its ない-form is 来[こ]ない, not くらない.)",
-          "japanese": "明日[あした]は朝[あさ]8時[とき]に来[こ]なければなりません。",
+          "japanese": "明日[あした]は朝[あさ]8時[じ]に来[こ]なければなりません。",
           "choices": [
             "I must come at 8 AM tomorrow.",
             "I don't have to come until 8 AM tomorrow.",
@@ -1835,7 +1835,7 @@
             "I came at 8 AM this morning."
           ],
           "correctIndex": 0,
-          "explanation": "来[く]る (kuru) is irregular. Its ない-form is 来[こ]ない (konai), not くらない. Drop い → 来[こ]な + ければなりません = 来[こ]なければなりません = 'must come.' 朝[あさ]8時[とき]に = 'at 8 AM.' なければなりません is the formal obligation form. The irregular negative stem こ (not く) is the essential step — applying regular rules gives くなければ, which is wrong."
+          "explanation": "来[く]る (kuru) is irregular. Its ない-form is 来[こ]ない (konai), not くらない. Drop い → 来[こ]な + ければなりません = 来[こ]なければなりません = 'must come.' 朝[あさ]8時[じ]に = 'at 8 AM.' なければなりません is the formal obligation form. The irregular negative stem こ (not く) is the essential step — applying regular rules gives くなければ, which is wrong."
         },
         {
           "id": "nakucha_q15",

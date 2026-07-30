@@ -132,7 +132,7 @@
           "japanese": null,
           "choices": [
             "帰[かえ]った",
-            "帰[き]いた",
+            "帰[かえ]いた",
             "帰[かえ]りた",
             "帰[かえ]た"
           ],
@@ -313,10 +313,10 @@
           "prompt": "Which sentence uses all four plain forms correctly in context?",
           "japanese": null,
           "choices": [
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[こんにち]は走[はし]らない、明日[あした]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[こんにち]は走[はし]らない、明日[あした]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[こんにち]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[そう]いた、今日[こんにち]は走[そう]ない、先週[せんしゅう]も走[はし]らなかった。"
+            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、明日[あした]も走[はし]らなかった。",
+            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、明日[あした]も走[はし]らなかった。",
+            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
+            "毎日[まいにち]走[はし]る、昨日[きのう]走[そう]いた、今日[きょう]は走[そう]ない、先週[せんしゅう]も走[はし]らなかった。"
           ],
           "correctIndex": 2,
           "explanation": "The four plain forms of 走[はし]る: dictionary form (走[はし]る), た-form (走[はし]った), ない-form (走[はし]らない), なかった-form (走[はし]らなかった). Option C uses all four correctly with natural time references: 毎日[まいにち](present), 昨日[きのう](past aff), 今日[きょう](present neg), 先週[せんしゅう](past neg). Options A/B have a tense error: 'tomorrow' with なかった (past)."
@@ -344,7 +344,7 @@
           "english": "Is there something in the refrigerator?"
         },
         {
-          "japanese": "今日[こんにち]は何[なに]も食[た]べませんでした。",
+          "japanese": "今日[きょう]は何[なに]も食[た]べませんでした。",
           "romaji": "Kyou wa nanimo tabemasendeshita.",
           "english": "I didn't eat anything today."
         },
@@ -379,8 +379,8 @@
         {
           "id": "nanika-nanimo_q2",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 今日[こんにち]は___食[た]べませんでした。(I didn't eat anything today.)",
-          "japanese": "今日[こんにち]は___食[た]べませんでした。",
+          "prompt": "Fill in the blank: 今日[きょう]は___食[た]べませんでした。(I didn't eat anything today.)",
+          "japanese": "今日[きょう]は___食[た]べませんでした。",
           "choices": [
             "誰[だれ]か",
             "何[なに]か",
@@ -631,7 +631,7 @@
         {
           "id": "nanika-nanimo_q20",
           "type": "construct",
-          "prompt": "Your friend says 「お腹[はら]すいた。」(I'm hungry.) Which response correctly offers to go get something?",
+          "prompt": "Your friend says 「お腹[なか]すいた。」(I'm hungry.) Which response correctly offers to go get something?",
           "japanese": null,
           "choices": [
             "何[なに]か買[か]ってこようか？",
@@ -1190,13 +1190,13 @@
           "prompt": "Which sentence means 'Please don't open the window'?",
           "japanese": null,
           "choices": [
-            "窓[まど]を開[ひら]けないでください。",
-            "窓[まど]を開[ひら]けないです。",
-            "窓[まど]を開[ひら]けなくてください。",
-            "窓[まど]を開[ひら]けてないでください。"
+            "窓[まど]を開[あ]けないでください。",
+            "窓[まど]を開[あ]けないです。",
+            "窓[まど]を開[あ]けなくてください。",
+            "窓[まど]を開[あ]けてないでください。"
           ],
           "correctIndex": 0,
-          "explanation": "開[ひら]ける is a Group 2 (ichidan) verb: drop る, add ない → 開[ひら]けない → 開[ひら]けないでください = Please don't open. 開[ひら]けないです is a negative statement ('I won't open'), not a request. 開[ひら]けなくて is the て-form of the negative. 開[ひら]けてないで is ungrammatical for a negative request."
+          "explanation": "開[あ]ける is a Group 2 (ichidan) verb: drop る, add ない → 開[あ]けない → 開[あ]けないでください = Please don't open. 開[あ]けないです is a negative statement ('I won't open'), not a request. 開[あ]けなくて is the て-form of the negative. 開[あ]けてないで is ungrammatical for a negative request."
         },
         {
           "id": "nai-de-kudasai_q15",

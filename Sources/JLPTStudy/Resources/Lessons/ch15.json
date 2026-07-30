@@ -8,7 +8,7 @@
       "name": "〜ておく (te oku) — do in advance / leave as is",
       "shortDescription": "Do something now so the future is taken care of — preparation, or deliberately leaving something as is.",
       "formation": "Verb (て-form) + おく / おきます",
-      "explanation": "〜ておく is the grammar of a well-prepared person. The core idea: you do something now so that a future situation is better, easier, or taken care of. The おく comes from the verb おく (to place/leave), so the image is 'do it and set it down for later.' 旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます: 'I'll make a hotel reservation ahead of time.' The reservation is done now so the future trip goes smoothly.\n\nThe second meaning follows the same 'leaving' logic but in reverse: deliberately leaving something in its current state. ドアを開[ひら]けておいてください (Please leave the door open) — don't change it from what it is. The intentionality is key: 〜ておく is never passive or accidental. It's always a conscious choice.\n\nIn casual speech, 〜ておく contracts to 〜とく: 買[か]っておく → 買[か]っとく, しておく → しとく, 言[い]っておく → 言[い]っとく. You'll hear this constantly in everyday conversation, so train your ear to recognize it. In writing and formal contexts, use the full form.\n\nGrammatically: おく is a Group 1 verb, so the full construction conjugates through おく — ておきます (polite), ておきました (past), ておいて (て-form), ておかない (negative).",
+      "explanation": "〜ておく is the grammar of a well-prepared person. The core idea: you do something now so that a future situation is better, easier, or taken care of. The おく comes from the verb おく (to place/leave), so the image is 'do it and set it down for later.' 旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます: 'I'll make a hotel reservation ahead of time.' The reservation is done now so the future trip goes smoothly.\n\nThe second meaning follows the same 'leaving' logic but in reverse: deliberately leaving something in its current state. ドアを開[あ]けておいてください (Please leave the door open) — don't change it from what it is. The intentionality is key: 〜ておく is never passive or accidental. It's always a conscious choice.\n\nIn casual speech, 〜ておく contracts to 〜とく: 買[か]っておく → 買[か]っとく, しておく → しとく, 言[い]っておく → 言[い]っとく. You'll hear this constantly in everyday conversation, so train your ear to recognize it. In writing and formal contexts, use the full form.\n\nGrammatically: おく is a Group 1 verb, so the full construction conjugates through おく — ておきます (polite), ておきました (past), ておいて (て-form), ておかない (negative).",
       "rules": [
         "Verb (て-form) + おく = do X in advance / prepare by doing X",
         "Secondary meaning: leave X in its current state deliberately",
@@ -34,7 +34,7 @@
         },
         {
           "japanese": "後[あと]で確認[かくにん]するから、そのファイルを残[のこ]しといて。",
-          "romaji": "Ato de kakunin suru kara, sono fairu wo nokoshite oite.",
+          "romaji": "Ato de kakunin suru kara, sono fairu wo nokoshitoite.",
           "english": "Leave that file there because I'll check it later."
         }
       ],
@@ -61,13 +61,13 @@
           "prompt": "Which sentence means 'Please leave the window open'?",
           "japanese": null,
           "choices": [
-            "窓[まど]を開[ひら]けてください。",
-            "窓[まど]を開[ひら]けておいてください。",
-            "窓[まど]を開[ひら]けてみてください。",
+            "窓[まど]を開[あ]けてください。",
+            "窓[まど]を開[あ]けておいてください。",
+            "窓[まど]を開[あ]けてみてください。",
             "窓[まど]を閉[し]めておいてください。"
           ],
           "correctIndex": 1,
-          "explanation": "〜ておく has a second meaning: deliberately leave X in its current state. 開[ひら]けておいてください = please keep it in the open state (don't change it). 開[ひら]けてください (choice 0) simply means 'please open it' with no 'keep it that way' nuance."
+          "explanation": "〜ておく has a second meaning: deliberately leave X in its current state. 開[あ]けておいてください = please keep it in the open state (don't change it). 開[あ]けてください (choice 0) simply means 'please open it' with no 'keep it that way' nuance."
         },
         {
           "id": "te-oku_q3",
@@ -131,8 +131,8 @@
           "prompt": "Which sentence uses 〜てある rather than 〜ておく to describe a result left by someone (focus on existing state, not on who did it)?",
           "japanese": null,
           "choices": [
-            "ドアを開[ひら]けておきます。",
-            "晩[ばん]ご飯[めし]を作[つく]っておきました。",
+            "ドアを開[あ]けておきます。",
+            "晩[ばん]ご飯[はん]を作[つく]っておきました。",
             "黒板[こくばん]に宿題[しゅくだい]が書[か]いてあります。",
             "試験[しけん]のためにノートをまとめておきます。"
           ],
@@ -159,10 +159,10 @@
           "prompt": "Which sentence means 'I had already noted down his phone number in advance'?",
           "japanese": null,
           "choices": [
-            "彼[か]の電話番号[でんわばんごう]をメモしておきました。",
-            "彼[か]の電話番号[でんわばんごう]をメモしてみました。",
-            "彼[か]の電話番号[でんわばんごう]をメモしてきました。",
-            "彼[か]の電話番号[でんわばんごう]をメモしていました。"
+            "彼[かれ]の電話番号[でんわばんごう]をメモしておきました。",
+            "彼[かれ]の電話番号[でんわばんごう]をメモしてみました。",
+            "彼[かれ]の電話番号[でんわばんごう]をメモしてきました。",
+            "彼[かれ]の電話番号[でんわばんごう]をメモしていました。"
           ],
           "correctIndex": 0,
           "explanation": "〜ておきました = past polite of 〜ておく. メモしておきました = I noted it down in advance (intentional preparation). 〜ていました (choice 3) means 'I was in the middle of noting it' — a different grammar describing an action in progress, not preparation."
@@ -463,8 +463,8 @@
         {
           "id": "volitional_q8",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 財布[さいふ]を___としたら、お金[きん]がなかった。(When I tried to pay, there was no money.)",
-          "japanese": "財布[さいふ]を___としたら、お金[きん]がなかった。",
+          "prompt": "Fill in the blank: 財布[さいふ]を___としたら、お金[かね]がなかった。(When I tried to pay, there was no money.)",
+          "japanese": "財布[さいふ]を___としたら、お金[かね]がなかった。",
           "choices": [
             "払[はら]う",
             "払[はら]って",
@@ -575,8 +575,8 @@
         {
           "id": "volitional_q16",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 家[いえ]を出[しゅつ]___としたとき、電話[でんわ]が鳴[な]った。(I was about to leave the house when the phone rang.)",
-          "japanese": "家[いえ]を出[しゅつ]___としたとき、電話[でんわ]が鳴[な]った。",
+          "prompt": "Fill in the blank: 家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。(I was about to leave the house when the phone rang.)",
+          "japanese": "家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。",
           "choices": [
             "て",
             "た",
@@ -674,8 +674,8 @@
           "english": "The meeting is scheduled to start at three."
         },
         {
-          "japanese": "今年中[ことしちゅう]に新[あたら]しいアパートに引越[ひっこ]す予定[よてい]です。",
-          "romaji": "Kotoshi juu ni atarashii apaato ni hikkosou yotei desu.",
+          "japanese": "今年中[ことしじゅう]に新[あたら]しいアパートに引越[ひっこ]す予定[よてい]です。",
+          "romaji": "Kotoshi juu ni atarashii apaato ni hikkosu yotei desu.",
           "english": "I'm planning to move to a new apartment by the end of this year."
         }
       ],
@@ -730,10 +730,10 @@
           "prompt": "How do you ask 'Do you have plans to visit Japan?'",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に来[く]る予定[よてい]があれば？",
-            "日本[にっぽん]に来[く]る予定[よてい]でしたか？",
-            "日本[にっぽん]に来[く]る予定[よてい]があれますか？",
-            "日本[にっぽん]に来[く]る予定[よてい]はありますか？"
+            "日本[にほん]に来[く]る予定[よてい]があれば？",
+            "日本[にほん]に来[く]る予定[よてい]でしたか？",
+            "日本[にほん]に来[く]る予定[よてい]があれますか？",
+            "日本[にほん]に来[く]る予定[よてい]はありますか？"
           ],
           "correctIndex": 3,
           "explanation": "〜予定[よてい]はありますか = Do you have plans to ? は marks the topic and ありますか asks about its existence. This is the standard way to inquire about someone's schedule."
@@ -758,10 +758,10 @@
           "prompt": "Which is MOST appropriate for a firm, externally fixed appointment (dentist at 3pm)?",
           "japanese": null,
           "choices": [
-            "3時[とき]に歯医者[はいしゃ]に行[い]こうと思[おも]っています。",
-            "3時[とき]に歯医者[はいしゃ]に行[い]く予定[よてい]です。",
-            "3時[とき]に歯医者[はいしゃ]に行[い]くつもりです。",
-            "3時[とき]に歯医者[はいしゃ]に行[い]くかもしれません。"
+            "3時[じ]に歯医者[はいしゃ]に行[い]こうと思[おも]っています。",
+            "3時[じ]に歯医者[はいしゃ]に行[い]く予定[よてい]です。",
+            "3時[じ]に歯医者[はいしゃ]に行[い]くつもりです。",
+            "3時[じ]に歯医者[はいしゃ]に行[い]くかもしれません。"
           ],
           "correctIndex": 1,
           "explanation": "予定[よてい] is best for fixed, calendar-level appointments. つもり = personal intention; と思[おも]っている = vaguer idea; かもしれない = uncertainty. A confirmed appointment is most precisely expressed with 予定[よてい]."
@@ -786,13 +786,13 @@
           "prompt": "In a business email, how would you write 'The meeting is scheduled for 2pm'?",
           "japanese": null,
           "choices": [
-            "会議[かいぎ]を2時[とき]にしようと思[おも]います。",
-            "会議[かいぎ]は2時[とき]のつもりです。",
-            "会議[かいぎ]は2時[とき]の予定[よてい]があります。",
-            "会議[かいぎ]は2時[とき]の予定[よてい]です。"
+            "会議[かいぎ]を2時[じ]にしようと思[おも]います。",
+            "会議[かいぎ]は2時[じ]のつもりです。",
+            "会議[かいぎ]は2時[じ]の予定[よてい]があります。",
+            "会議[かいぎ]は2時[じ]の予定[よてい]です。"
           ],
           "correctIndex": 3,
-          "explanation": "In business Japanese, 〜の予定[よてい]です is standard for schedules. 会議[かいぎ]は2時[とき]の予定[よてい]です = the meeting is scheduled for 2pm. This is formal and unambiguous."
+          "explanation": "In business Japanese, 〜の予定[よてい]です is standard for schedules. 会議[かいぎ]は2時[じ]の予定[よてい]です = the meeting is scheduled for 2pm. This is formal and unambiguous."
         },
         {
           "id": "yotei_q9",
@@ -858,7 +858,7 @@
           "choices": [
             "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]く予定[よてい]です。",
             "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]いた予定[よてい]です。",
-            "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]けた予定[よてい]です。",
+            "来年[らいねん]、新[あたら]しい支店[してん]を開[あ]けた予定[よてい]です。",
             "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]くつもりです。"
           ],
           "correctIndex": 0,
@@ -1036,10 +1036,10 @@
           "prompt": "How would you naturally express 'My friend thinks the movie was boring'?",
           "japanese": null,
           "choices": [
-            "友達[ともだち]は映画[えい]がつまらないと思[おも]います。",
-            "友達[ともだち]は映画[えい]がつまらいと思[おも]っています。",
-            "友達[ともだち]は映画[えい]がつまらなかったと思[おも]っています。",
-            "友達[ともだち]を映画[えい]がつまらないと思[おも]っています。"
+            "友達[ともだち]は映画[えいが]がつまらないと思[おも]います。",
+            "友達[ともだち]は映画[えいが]がつまらいと思[おも]っています。",
+            "友達[ともだち]は映画[えいが]がつまらなかったと思[おも]っています。",
+            "友達[ともだち]を映画[えいが]がつまらないと思[おも]っています。"
           ],
           "correctIndex": 2,
           "explanation": "For 3rd person (friend), と思[おも]っている is more natural than と思[おも]う alone — it describes their ongoing belief. Also, the past い-adj form is つまらなかった (was boring), not つまらない."
@@ -1050,10 +1050,10 @@
           "prompt": "How do you say 'I don't think it will rain today'?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は雨[あめ]が降[ふ]ると思[おも]いません。",
-            "今日[こんにち]は雨[あめ]が降[ふ]らないと思[おも]いません。",
-            "今日[こんにち]は雨[あめ]が降[ふ]ると思[おも]わない。",
-            "今日[こんにち]は雨[あめ]が降[ふ]らないと思[おも]います。"
+            "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]いません。",
+            "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]いません。",
+            "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]わない。",
+            "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]います。"
           ],
           "correctIndex": 3,
           "explanation": "Negative opinion: 〜ないと思[おも]う = I think  won't. Put the negative form (降[ふ]らない) BEFORE と思[おも]う. 〜と思[おも]いません sounds like refusing to think, which is unnatural in Japanese."
@@ -1163,12 +1163,12 @@
           "japanese": null,
           "choices": [
             "母[はは]が旅行[りょこう]を高[たか]いと思[おも]います。",
-            "母[は]は旅行[りょこう]が高[たか]いと思[おも]いました。",
+            "母[はは]は旅行[りょこう]が高[たか]いと思[おも]いました。",
             "母[はは]が旅行[りょこう]は高[たか]いと思[おも]います。",
-            "母[は]は旅行[りょこう]が高[たか]いと思[おも]っています。"
+            "母[はは]は旅行[りょこう]が高[たか]いと思[おも]っています。"
           ],
           "correctIndex": 3,
-          "explanation": "For 3rd person ongoing belief: は (topic marker) + と思[おも]っている is most natural. 母[は]は + 高[たか]いと思[おも]っている = my mother believes it's expensive (ongoing mental state). と思[おも]います alone reads as YOUR opinion."
+          "explanation": "For 3rd person ongoing belief: は (topic marker) + と思[おも]っている is most natural. 母[はは]は + 高[たか]いと思[おも]っている = my mother believes it's expensive (ongoing mental state). と思[おも]います alone reads as YOUR opinion."
         },
         {
           "id": "to-omotte-iru_q13",

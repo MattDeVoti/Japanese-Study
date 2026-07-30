@@ -8,17 +8,17 @@
       "name": "〜っぽい (ppoi) — -ish / looks like / tends to",
       "shortDescription": "Gives the impression of or tends toward a quality — often with a slightly dismissive or critical edge.",
       "formation": "Noun / Verb stem / い-adj stem + っぽい",
-      "explanation": "っぽい is the slightly skeptical suffix. It says something has the feel or look of a quality — but the implication is often that it's not quite the genuine article, or it's too much of that quality in an unflattering way. 子[こ]どもっぽい: childish — and note the contrast with 子[こ]どもらしい, which means charmingly, naturally child-like in a positive sense. っぽい says 'this resembles childhood in an immature way'; らしい says 'this is genuinely, wholesomely child-like.' 安[やす]っぽい: cheap-looking (it gives the impression of cheap, which is different from simply being cheap). 怒[いか]りっぽい: tends to get angry easily — a habitual, somewhat regrettable pattern.\n\nThe key feature is that slight negative or dismissive undertone: っぽい describes what something resembles or tends toward, rather than what it authentically is. As an い-adjective, っぽい conjugates normally: っぽくない, っぽかった. Some っぽい combinations are so common they're essentially fixed vocabulary: 怒[いか]りっぽい (quick to anger), 飽きっぽい (quick to lose interest), 忘[わす]れっぽい (forgetful), 安[やす]っぽい (cheap-looking or tacky).",
+      "explanation": "っぽい is the slightly skeptical suffix. It says something has the feel or look of a quality — but the implication is often that it's not quite the genuine article, or it's too much of that quality in an unflattering way. 子[こ]どもっぽい: childish — and note the contrast with 子[こ]どもらしい, which means charmingly, naturally child-like in a positive sense. っぽい says 'this resembles childhood in an immature way'; らしい says 'this is genuinely, wholesomely child-like.' 安[やす]っぽい: cheap-looking (it gives the impression of cheap, which is different from simply being cheap). 怒[おこ]りっぽい: tends to get angry easily — a habitual, somewhat regrettable pattern.\n\nThe key feature is that slight negative or dismissive undertone: っぽい describes what something resembles or tends toward, rather than what it authentically is. As an い-adjective, っぽい conjugates normally: っぽくない, っぽかった. Some っぽい combinations are so common they're essentially fixed vocabulary: 怒[おこ]りっぽい (quick to anger), 飽きっぽい (quick to lose interest), 忘[わす]れっぽい (forgetful), 安[やす]っぽい (cheap-looking or tacky).",
       "rules": [
         "Noun/Verb stem/い-adj stem + っぽい = -ish / tending toward / having the feel of",
         "Often carries a slightly dismissive or critical nuance (merely resembles, not authentic)",
         "Contrast: らしい = genuinely characteristic of (neutral to positive); っぽい = feels like (slight dismissal)",
         "っぽい is an い-adjective: conjugates as っぽくない, っぽかった",
-        "Common: 子[こ]どもっぽい, 安[やす]っぽい, 怒[いか]りっぽい, 忘[わす]れっぽい, 飽きっぽい"
+        "Common: 子[こ]どもっぽい, 安[やす]っぽい, 怒[おこ]りっぽい, 忘[わす]れっぽい, 飽きっぽい"
       ],
       "examples": [
         {
-          "japanese": "あの人[にん]はもう大人[おと]なのに、ちょっと子[こ]どもっぽいですね。",
+          "japanese": "あの人[ひと]はもう大人[おとな]なのに、ちょっと子[こ]どもっぽいですね。",
           "romaji": "Ano hito wa mou otona na noni, chotto kodomoppoi desu ne.",
           "english": "That person is already an adult, but they're a bit childish, aren't they."
         },
@@ -28,13 +28,13 @@
           "english": "This design looks a little cheap, doesn't it."
         },
         {
-          "japanese": "彼[かれ]は怒[いか]りっぽいから、なるべく刺激[しげき]しないようにしています。",
+          "japanese": "彼[かれ]は怒[おこ]りっぽいから、なるべく刺激[しげき]しないようにしています。",
           "romaji": "Kare wa okorippoi kara, narubeku shigeki shinai you ni shite imasu.",
           "english": "Since he tends to get angry easily, I try not to provoke him as much as possible."
         },
         {
           "japanese": "最近[さいきん]、忘[わす]れっぽくなってきた気[き]がします。",
-          "romaji": "Saikin, wasureppoiku natte kita ki ga shimasu.",
+          "romaji": "Saikin, wasureppoku natte kita ki ga shimasu.",
           "english": "Lately, I feel like I've been getting more forgetful."
         }
       ],
@@ -61,13 +61,13 @@
           "prompt": "Which correctly says 'That excuse is childish'?",
           "japanese": null,
           "choices": [
-            "その言い訳[いわけ]は子供[こども]っぽい。",
-            "その言い訳[いわけ]は子供[こども]らしい。",
-            "その言い訳[いわけ]は子供[こども]みたいだ。",
-            "その言い訳[いわけ]は子供[こども]のようだ。"
+            "その言[い]い訳[わけ]は子供[こども]っぽい。",
+            "その言[い]い訳[わけ]は子供[こども]らしい。",
+            "その言[い]い訳[わけ]は子供[こども]みたいだ。",
+            "その言[い]い訳[わけ]は子供[こども]のようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + っぽい: 子供[こども] (child) + っぽい = childish / child-like (negative nuance). 言い訳[いわけ] (excuse) + 子供[こども]っぽい = that excuse is childish. っぽい is more dismissive than らしい."
+          "explanation": "Noun + っぽい: 子供[こども] (child) + っぽい = childish / child-like (negative nuance). 言[い]い訳[わけ] (excuse) + 子供[こども]っぽい = that excuse is childish. っぽい is more dismissive than らしい."
         },
         {
           "id": "ppoi_q3",
@@ -92,10 +92,10 @@
             "この服[ふく]は安[やす]っぽい。",
             "この服[ふく]は安[やす]らしい。",
             "この服[ふく]は安[やす]みたいだ。",
-            "この服[ふく]は安[あん]のようだ。"
+            "この服[ふく]は安[やす]のようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun/adj-stem + っぽい: 安[あん] (cheap) + っぽい = cheap-looking/tawdry. この服[ふく]は安[やす]っぽい = this outfit looks cheap. Common adjective formation with っぽい."
+          "explanation": "Noun/adj-stem + っぽい: 安[やす] (cheap) + っぽい = cheap-looking/tawdry. この服[ふく]は安[やす]っぽい = this outfit looks cheap. Common adjective formation with っぽい."
         },
         {
           "id": "ppoi_q5",
@@ -131,13 +131,13 @@
           "prompt": "Which correctly says 'She gets angry easily' (prone to anger)?",
           "japanese": null,
           "choices": [
-            "彼女[かのじょ]は怒[いか]りっぽい。",
+            "彼女[かのじょ]は怒[おこ]りっぽい。",
             "彼女[かのじょ]は怒[いか]らしい。",
-            "彼女[かのじょ]は怒[いか]りみたいだ。",
-            "彼女[かのじょ]は怒[いか]りのようだ。"
+            "彼女[かのじょ]は怒[おこ]りみたいだ。",
+            "彼女[かのじょ]は怒[おこ]りのようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb-stem + っぽい: 怒[いか]る (get angry) → 怒[いか]り (masu-stem) + っぽい = 怒[いか]りっぽい = hot-tempered / prone to anger. Common verb-stem + っぽい pattern for personality tendencies."
+          "explanation": "Verb-stem + っぽい: 怒[おこ]る (get angry) → 怒[おこ]り (masu-stem) + っぽい = 怒[おこ]りっぽい = hot-tempered / prone to anger. Common verb-stem + っぽい pattern for personality tendencies."
         },
         {
           "id": "ppoi_q8",
@@ -187,10 +187,10 @@
           "prompt": "Which correctly says 'His behavior is manly/macho'?",
           "japanese": null,
           "choices": [
-            "彼[か]の態度[たいど]は男[おとこ]っぽい。",
-            "彼[か]の態度[たいど]は男[おとこ]らしい。",
-            "彼[か]の態度[たいど]は男[おとこ]みたいだ。",
-            "彼[か]の態度[たいど]は男[おとこ]のようだ。"
+            "彼[かれ]の態度[たいど]は男[おとこ]っぽい。",
+            "彼[かれ]の態度[たいど]は男[おとこ]らしい。",
+            "彼[かれ]の態度[たいど]は男[おとこ]みたいだ。",
+            "彼[かれ]の態度[たいど]は男[おとこ]のようだ。"
           ],
           "correctIndex": 0,
           "explanation": "男[おとこ]っぽい = mannish/macho (somewhat dismissive or neutral). 男[おとこ]らしい = truly manly (positive/expected). Both work but っぽい is more casual and can have a dismissive tone. Context determines which is better."
@@ -202,7 +202,7 @@
           "japanese": null,
           "choices": [
             "白[しろ]っぽい色[いろ] (a whitish color)",
-            "白[しろ]っぽい人[にん] (a whitish person)",
+            "白[しろ]っぽい人[ひと] (a whitish person)",
             "白[しろ]っぽいする (do whitishly)",
             "白[しろ]っぽいだ (is whitish — redundant)"
           ],
@@ -229,13 +229,13 @@
           "prompt": "Which means 'This flavor is somewhat bitter' (slightly bitter-ish)?",
           "japanese": null,
           "choices": [
-            "この味[あじ]は苦[くる]っぽい。",
-            "この味[あじ]は苦[く]らしい。",
-            "この味[あじ]は苦[く]みたいだ。",
-            "この味[あじ]は苦[く]のようだ。"
+            "この味[あじ]は苦[にが]っぽい。",
+            "この味[あじ]は苦[にが]らしい。",
+            "この味[あじ]は苦[にが]みたいだ。",
+            "この味[あじ]は苦[にが]のようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Adj-stem + っぽい: 苦[く] (bitter stem from 苦[にが]い) + っぽい = 苦[くる]っぽい = somewhat bitter. この味[あじ]は苦[くる]っぽい = this flavor is somewhat bitter."
+          "explanation": "Adj-stem + っぽい: 苦[にが] (bitter stem from 苦[にが]い) + っぽい = 苦[にが]っぽい = somewhat bitter. この味[あじ]は苦[にが]っぽい = this flavor is somewhat bitter."
         },
         {
           "id": "ppoi_q15",
@@ -273,11 +273,11 @@
           "choices": [
             "あの建物[たてもの]は古[ふる]っぽい。",
             "あの建物[たてもの]は古[ふる]いっぽい。",
-            "あの建物[たてもの]は古[こ]らしい。",
-            "あの建物[たてもの]は古[こ]のようだ。"
+            "あの建物[たてもの]は古[ふる]らしい。",
+            "あの建物[たてもの]は古[ふる]のようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Adj-stem + っぽい: 古[こ] (old, stem of 古[ふる]い) + っぽい = 古[ふる]っぽい = old-looking. あの建物[たてもの]は古[ふる]っぽい = that building looks old. Note: 古[ふる]いっぽい would double-stack い."
+          "explanation": "Adj-stem + っぽい: 古[ふる] (old, stem of 古[ふる]い) + っぽい = 古[ふる]っぽい = old-looking. あの建物[たてもの]は古[ふる]っぽい = that building looks old. Note: 古[ふる]いっぽい would double-stack い."
         },
         {
           "id": "ppoi_q18",
@@ -344,7 +344,7 @@
         },
         {
           "japanese": "忙[いそが]しいと、食事[しょくじ]が不規則[ふきそく]になりがちですよね。",
-          "romaji": "Isogashii to, shokuji ga fukiretsu ni nari gachi desu ne.",
+          "romaji": "Isogashii to, shokuji ga fukisoku ni nari gachi desu yo ne.",
           "english": "When you're busy, meals tend to become irregular, don't they."
         },
         {
@@ -465,10 +465,10 @@
           "prompt": "Which means 'I tend to stay home on days off'?",
           "japanese": null,
           "choices": [
-            "休[やす]みの日[にち]は家[いえ]にいがちだ。",
-            "休[やす]みの日[にち]は家[いえ]にいるがちだ。",
-            "休[やす]みの日[にち]は家[いえ]にいてがちだ。",
-            "休[やす]みの日[にち]は家[いえ]にいたがちだ。"
+            "休[やす]みの日[ひ]は家[いえ]にいがちだ。",
+            "休[やす]みの日[ひ]は家[いえ]にいるがちだ。",
+            "休[やす]みの日[ひ]は家[いえ]にいてがちだ。",
+            "休[やす]みの日[ひ]は家[いえ]にいたがちだ。"
           ],
           "correctIndex": 0,
           "explanation": "Masu-stem + がち: いる → い (masu-stem) + がちだ = いがちだ = tends to be/stay. 家[いえ]にいがち = tends to be at home. Common personal tendency."
@@ -493,13 +493,13 @@
           "prompt": "がち as a noun modifier (〜がちな). Which correctly shows this?",
           "japanese": null,
           "choices": [
-            "遅刻[ちこく]しがちな人[にん] (a person who tends to be late)",
-            "遅刻[ちこく]するがちな人[にん] (incorrect formation)",
-            "遅刻[ちこく]してがちな人[にん] (incorrect formation)",
-            "遅刻[ちこく]がちなする人[にん] (incorrect word order)"
+            "遅刻[ちこく]しがちな人[ひと] (a person who tends to be late)",
+            "遅刻[ちこく]するがちな人[ひと] (incorrect formation)",
+            "遅刻[ちこく]してがちな人[ひと] (incorrect formation)",
+            "遅刻[ちこく]がちなする人[ひと] (incorrect word order)"
           ],
           "correctIndex": 0,
-          "explanation": "がち becomes がちな when modifying a noun: 遅刻[ちこく]しがちな人[にん] = a person who tends to be late. がち is a な-adjective-like suffix in this position. 病気[びょうき]がちな子供[こども] = a sickly child."
+          "explanation": "がち becomes がちな when modifying a noun: 遅刻[ちこく]しがちな人[ひと] = a person who tends to be late. がち is a な-adjective-like suffix in this position. 病気[びょうき]がちな子供[こども] = a sickly child."
         },
         {
           "id": "gachi_q11",
@@ -507,10 +507,10 @@
           "prompt": "Which correctly says 'Working people tend to neglect their health'?",
           "japanese": null,
           "choices": [
-            "働[はたら]く人[にん]は健康[けんこう]を怠[おこた]りがちだ。",
-            "働[はたら]く人[にん]は健康[けんこう]を怠[おこた]るがちだ。",
-            "働[はたら]く人[にん]は健康[けんこう]を怠[おこた]ってがちだ。",
-            "働[はたら]く人[にん]は健康[けんこう]を怠[おこた]ったがちだ。"
+            "働[はたら]く人[ひと]は健康[けんこう]を怠[おこた]りがちだ。",
+            "働[はたら]く人[ひと]は健康[けんこう]を怠[おこた]るがちだ。",
+            "働[はたら]く人[ひと]は健康[けんこう]を怠[おこた]ってがちだ。",
+            "働[はたら]く人[ひと]は健康[けんこう]を怠[おこた]ったがちだ。"
           ],
           "correctIndex": 0,
           "explanation": "Masu-stem + がち: 怠[おこた]る (neglect) → 怠[おこた]り (masu-stem) + がちだ = tends to neglect. 健康[けんこう]を怠[おこた]りがちだ = tends to neglect one's health. Common pattern for lifestyle tendencies."
@@ -591,13 +591,13 @@
           "prompt": "Which correctly says 'People who live alone tend to eat irregularly'?",
           "japanese": null,
           "choices": [
-            "一人暮[ひとりぐ]らしの人[にん]は食事[しょくじ]が不規則[ふきそく]になりがちだ。",
-            "一人暮[ひとりぐ]らしの人[にん]は食事[しょくじ]が不規則[ふきそく]になるがちだ。",
-            "一人暮[ひとりぐ]らしの人[にん]は食事[しょくじ]が不規則[ふきそく]になってがちだ。",
-            "一人暮[ひとりぐ]らしの人[にん]は食事[しょくじ]が不規則[ふきそく]になったがちだ。"
+            "一人暮[ひとりぐ]らしの人[ひと]は食事[しょくじ]が不規則[ふきそく]になりがちだ。",
+            "一人暮[ひとりぐ]らしの人[ひと]は食事[しょくじ]が不規則[ふきそく]になるがちだ。",
+            "一人暮[ひとりぐ]らしの人[ひと]は食事[しょくじ]が不規則[ふきそく]になってがちだ。",
+            "一人暮[ひとりぐ]らしの人[ひと]は食事[しょくじ]が不規則[ふきそく]になったがちだ。"
           ],
           "correctIndex": 0,
-          "explanation": "なる → なり (masu-stem) + がちだ: 不規則[ふきそく]になりがちだ = tends to become irregular. 一人暮[ひとりぐ]らしの人[にん] = people who live alone. Common social tendency."
+          "explanation": "なる → なり (masu-stem) + がちだ: 不規則[ふきそく]になりがちだ = tends to become irregular. 一人暮[ひとりぐ]らしの人[ひと] = people who live alone. Common social tendency."
         },
         {
           "id": "gachi_q18",
@@ -663,7 +663,7 @@
           "english": "Just because you're busy doesn't mean it's okay to sacrifice your health."
         },
         {
-          "japanese": "お金[きん]があるからといって、何[なん]でも買[か]っていいわけではないです。",
+          "japanese": "お金[かね]があるからといって、何[なん]でも買[か]っていいわけではないです。",
           "romaji": "Okane ga aru kara to itte, nandemo katte ii wake dewa nai desu.",
           "english": "Just because you have money doesn't mean you can buy anything you want."
         },
@@ -774,7 +774,7 @@
             "大人[おとな]だからといって、何[なん]でも許[ゆる]されるわけではない。",
             "大人[おとな]だから、何[なん]でも許[ゆる]されるわけではない。",
             "大人[おとな]だといっても、何[なん]でも許[ゆる]されるわけではない。",
-            "大人[おと]なのに、何[なん]でも許[ゆる]されるわけではない。"
+            "大人[おとな]なのに、何[なん]でも許[ゆる]されるわけではない。"
           ],
           "correctIndex": 0,
           "explanation": "〜だからといって: 大人[おとな]だ + からといって = just because you're an adult. 何[なん]でも許[ゆる]されるわけではない = doesn't mean everything is permitted."

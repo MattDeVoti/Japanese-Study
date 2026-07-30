@@ -465,13 +465,13 @@
           "prompt": "Which correctly says 'Despite the company's efforts, sales declined'?",
           "japanese": null,
           "choices": [
-            "会社[かいしゃ]の努力[どりょく]にもかかわらず、売上[うりあ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]なのに、売上[うりあ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]ながらも、売上[うりあ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]のため、売上[うりあ]が落[お]ちた。"
+            "会社[かいしゃ]の努力[どりょく]にもかかわらず、売上[うりあげ]が落[お]ちた。",
+            "会社[かいしゃ]の努力[どりょく]なのに、売上[うりあげ]が落[お]ちた。",
+            "会社[かいしゃ]の努力[どりょく]ながらも、売上[うりあげ]が落[お]ちた。",
+            "会社[かいしゃ]の努力[どりょく]のため、売上[うりあげ]が落[お]ちた。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 会社[かいしゃ]の努力[どりょく] (company efforts) + にもかかわらず = despite the efforts. 売上[うりあ]が落[お]ちた = sales declined. Formal business context — にもかかわらず is ideal."
+          "explanation": "Noun + にもかかわらず: 会社[かいしゃ]の努力[どりょく] (company efforts) + にもかかわらず = despite the efforts. 売上[うりあげ]が落[お]ちた = sales declined. Formal business context — にもかかわらず is ideal."
         },
         {
           "id": "ni-mo-kakawarazu_q9",
@@ -536,8 +536,8 @@
           "japanese": null,
           "choices": [
             "大人[おとな]にもかかわらず、彼[かれ]は泣[な]いた。",
-            "大人[おと]なのに、彼[かれ]は泣[な]いた。",
-            "大人[おと]ながらも、彼[かれ]は泣[な]いた。",
+            "大人[おとな]なのに、彼[かれ]は泣[な]いた。",
+            "大人[おとな]ながらも、彼[かれ]は泣[な]いた。",
             "大人[おとな]であるにもかかわらず、彼[かれ]は泣[な]いた。"
           ],
           "correctIndex": 3,
@@ -605,10 +605,10 @@
           "prompt": "Which means 'Despite his talent, he didn't practice enough'?",
           "japanese": null,
           "choices": [
-            "彼[か]の才能[さいのう]にもかかわらず、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[か]の才能[さいのう]なのに、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[か]の才能[さいのう]ながらも、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[か]の才能[さいのう]のおかげで、練習[れんしゅう]が十分[じゅうぶん]ではなかった。"
+            "彼[かれ]の才能[さいのう]にもかかわらず、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+            "彼[かれ]の才能[さいのう]なのに、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+            "彼[かれ]の才能[さいのう]ながらも、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+            "彼[かれ]の才能[さいのう]のおかげで、練習[れんしゅう]が十分[じゅうぶん]ではなかった。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + にもかかわらず: 才能[さいのう] (talent) + にもかかわらず = despite the talent. 練習[れんしゅう]が十分[じゅうぶん]ではなかった = didn't practice enough. Formal expression."
@@ -648,7 +648,7 @@
       "name": "〜としても (to shite mo) — even if / even assuming that",
       "shortDescription": "Hypothetically grants a condition as true — 'even if we assume X' — then argues the conclusion still holds.",
       "formation": "Plain form + としても  |  Noun + だ + としても",
-      "explanation": "としても is the grammar of the careful debater. It means 'even if we assume X is true' — the speaker concedes a point hypothetically, for the sake of argument, and then argues that the main conclusion holds regardless.\n\nそれが本当[ほんとう]だとしても、彼[か]の行動[こうどう]は許[ゆる]されません: 'Even if that's true' — the speaker isn't necessarily agreeing it is true, just granting it as a hypothetical — 'his behavior still cannot be forgiven.' The key is that hypothetical 'even if.' としても doesn't claim X is true; it says 'let's grant it as true and see whether that changes anything.' Often, it doesn't.\n\nThis is analytically more precise than simple ても (even if), which is broader and more general. としても signals a deliberate logical concession: 'I'll grant you this point — but my conclusion is unchanged.' It appears often in debates, academic writing, and careful reasoning — anywhere that logical precision matters.",
+      "explanation": "としても is the grammar of the careful debater. It means 'even if we assume X is true' — the speaker concedes a point hypothetically, for the sake of argument, and then argues that the main conclusion holds regardless.\n\nそれが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません: 'Even if that's true' — the speaker isn't necessarily agreeing it is true, just granting it as a hypothetical — 'his behavior still cannot be forgiven.' The key is that hypothetical 'even if.' としても doesn't claim X is true; it says 'let's grant it as true and see whether that changes anything.' Often, it doesn't.\n\nThis is analytically more precise than simple ても (even if), which is broader and more general. としても signals a deliberate logical concession: 'I'll grant you this point — but my conclusion is unchanged.' It appears often in debates, academic writing, and careful reasoning — anywhere that logical precision matters.",
       "rules": [
         "Plain form + としても = even if (I grant that / even assuming that) X, still Y",
         "Noun + だ + としても = even if it is the case that [noun]",
@@ -658,7 +658,7 @@
       ],
       "examples": [
         {
-          "japanese": "それが本当[ほんとう]だとしても、彼[か]の行動[こうどう]は許[ゆる]されません。",
+          "japanese": "それが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません。",
           "romaji": "Sore ga hontou da to shite mo, kare no koudou wa yurusaremasen.",
           "english": "Even if that's true, his behavior cannot be forgiven."
         },
@@ -815,7 +815,7 @@
           "choices": [
             "明日[あした]雨[あめ]が降[ふ]っても、行[い]きます。(real possibility)",
             "もし宇宙人[うちゅうじん]がいるとしても、証拠[しょうこ]が必要[ひつよう]だ。(pure hypothetical)",
-            "彼女[かのじょ]が怒[いか]っても、無視[むし]する。(likely situation)",
+            "彼女[かのじょ]が怒[おこ]っても、無視[むし]する。(likely situation)",
             "試験[しけん]に落[お]ちても、諦[あきら]めない。(real risk)"
           ],
           "correctIndex": 1,
@@ -1148,7 +1148,7 @@
           "japanese": null,
           "choices": [
             "彼[かれ]が走[はし]った。ところが、疲[つか]れた。",
-            "たくさん食[た]べた。ところが、お腹[はら]が空[あ]いた。",
+            "たくさん食[た]べた。ところが、お腹[なか]が空[す]いた。",
             "一生懸命[いっしょうけんめい]練習[れんしゅう]した。ところが、優勝[ゆうしょう]した。",
             "急[いそ]いだ。ところが、遅刻[ちこく]した。"
           ],
@@ -1273,7 +1273,7 @@
           "prompt": "Which sentence BEST shows ところが's unexpected reversal?",
           "japanese": null,
           "choices": [
-            "電車[でんしゃ]に乗[じょう]った。ところが、到着[とうちゃく]した。",
+            "電車[でんしゃ]に乗[の]った。ところが、到着[とうちゃく]した。",
             "簡単[かんたん]だと聞[き]いていた。ところが、非常[ひじょう]に難[むずか]しかった。",
             "勉強[べんきょう]した。ところが、勉強[べんきょう]した。",
             "寝[ね]た。ところが、朝[あさ]になった。"
@@ -1288,7 +1288,7 @@
       "name": "〜一方[いっぽう]で (ippou de) — on the other hand / while / at the same time",
       "shortDescription": "Holds two contrasting or coexisting realities in balance — 'while / on the other hand / at the same time'.",
       "formation": "Verb/adj (plain form) + 一方[いっぽう](で)  |  Noun + で + ある + 一方[いっぽう](で)",
-      "explanation": "一方[いっぽう]で (literally 'on one side') doesn't choose sides. It holds two aspects of a situation up together and presents both with equal weight. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっています: the economy is growing AND inequality is widening — both are true, both matter equally.\n\nThat balance is what makes 一方[いっぽう]で different from しかし (which pivots decisively in one direction) or でも (which minimizes the first clause). 一方[いっぽう]で says: these two realities coexist, and both deserve acknowledgment. It's the grammar of nuance, of honest complexity — which is why it lives in journalism, academic writing, and serious analysis.\n\nIt also works for describing a person with contrasting sides: 厳[いかめ]しい一方[いっぽう]で、とても優[やさ]しいところもある (strict on one side, but genuinely kind too). Whenever you want to give a balanced 'on the one hand... on the other hand' framing, 一方[いっぽう]で is your structure.",
+      "explanation": "一方[いっぽう]で (literally 'on one side') doesn't choose sides. It holds two aspects of a situation up together and presents both with equal weight. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっています: the economy is growing AND inequality is widening — both are true, both matter equally.\n\nThat balance is what makes 一方[いっぽう]で different from しかし (which pivots decisively in one direction) or でも (which minimizes the first clause). 一方[いっぽう]で says: these two realities coexist, and both deserve acknowledgment. It's the grammar of nuance, of honest complexity — which is why it lives in journalism, academic writing, and serious analysis.\n\nIt also works for describing a person with contrasting sides: 厳[きび]しい一方[いっぽう]で、とても優[やさ]しいところもある (strict on one side, but genuinely kind too). Whenever you want to give a balanced 'on the one hand... on the other hand' framing, 一方[いっぽう]で is your structure.",
       "rules": [
         "Plain form + 一方[いっぽう](で) = while / on the other hand / at the same time (coexisting contrast)",
         "Noun + の + 一方[いっぽう](で) = on the [noun] side / while on the [noun] front",
@@ -1298,12 +1298,12 @@
       ],
       "examples": [
         {
-          "japanese": "人口[じんこう]が増[ふ]えている一方[いっぽう]で、食料[しょくりょう]不足[ふそく]が深刻[しんこく]になっています。",
+          "japanese": "人口[じんこう]が増[ふ]えている一方[いっぽう]で、食料[しょくりょう]不足[ぶそく]が深刻[しんこく]になっています。",
           "romaji": "Jinkou ga fuete iru ippou de, shokuryou busoku ga shinkoku ni natte imasu.",
           "english": "While the population is growing, food shortages are becoming more serious."
         },
         {
-          "japanese": "彼女[かのじょ]は仕事[しごと]では厳[いかめ]しい一方[いっぽう]で、プライベートではとても穏[おだ]やかです。",
+          "japanese": "彼女[かのじょ]は仕事[しごと]では厳[きび]しい一方[いっぽう]で、プライベートではとても穏[おだ]やかです。",
           "romaji": "Kanojo wa shigoto dewa kibishii ippou de, puraibeto dewa totemo odayaka desu.",
           "english": "At work she is strict, while in private she is very calm."
         },
@@ -1509,13 +1509,13 @@
           "prompt": "Which means 'While some people like city life, others prefer the countryside'?",
           "japanese": null,
           "choices": [
-            "都市[とし]生活[せいかつ]が好[す]きな人[にん]がいる一方[いっぽう]で、田舎[いなか]を好[この]む人[にん]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[にん]がいるのに、田舎[いなか]を好[この]む人[にん]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[にん]がいるところが、田舎[いなか]を好[この]む人[にん]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[にん]がいるながらも、田舎[いなか]を好[この]む人[にん]もいる。"
+            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいる一方[いっぽう]で、田舎[いなか]を好[この]む人[ひと]もいる。",
+            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるのに、田舎[いなか]を好[この]む人[ひと]もいる。",
+            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるところが、田舎[いなか]を好[この]む人[ひと]もいる。",
+            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるながらも、田舎[いなか]を好[この]む人[ひと]もいる。"
           ],
           "correctIndex": 0,
-          "explanation": "一方[いっぽう]で for contrasting groups/preferences: 好[す]きな人[にん]がいる + 一方[いっぽう]で = while some people like. 田舎[いなか]を好[この]む人[にん]もいる = others prefer countryside. Two contrasting groups simultaneously."
+          "explanation": "一方[いっぽう]で for contrasting groups/preferences: 好[す]きな人[ひと]がいる + 一方[いっぽう]で = while some people like. 田舎[いなか]を好[この]む人[ひと]もいる = others prefer countryside. Two contrasting groups simultaneously."
         },
         {
           "id": "ippou-de_q15",
@@ -1537,10 +1537,10 @@
           "prompt": "Which correctly uses 一方[いっぽう]だ (unidirectional worsening)?",
           "japanese": null,
           "choices": [
-            "彼[か]の成績[せいせき]が悪[わる]くなる一方[いっぽう]だ。(His grades keep getting worse)",
-            "彼[か]の成績[せいせき]が悪[わる]い一方[いっぽう]で、出席率[しゅっせきりつ]は良[よ]い。(While grades are bad, attendance is good)",
-            "彼[か]の成績[せいせき]は良[よ]くない一方[いっぽう]だった。",
-            "彼[か]の成績[せいせき]は悪[わる]くなった一方[いっぽう]で、彼[かれ]は努力[どりょく]している。"
+            "彼[かれ]の成績[せいせき]が悪[わる]くなる一方[いっぽう]だ。(His grades keep getting worse)",
+            "彼[かれ]の成績[せいせき]が悪[わる]い一方[いっぽう]で、出席率[しゅっせきりつ]は良[よ]い。(While grades are bad, attendance is good)",
+            "彼[かれ]の成績[せいせき]は良[よ]くない一方[いっぽう]だった。",
+            "彼[かれ]の成績[せいせき]は悪[わる]くなった一方[いっぽう]で、彼[かれ]は努力[どりょく]している。"
           ],
           "correctIndex": 0,
           "explanation": "一方[いっぽう]だ for unidirectional change: 悪[わる]くなる一方[いっぽう]だ = keeps getting worse / only getting worse. This expresses continuous deterioration in one direction. 一方[いっぽう]で (option 2) would add a contrasting aspect."
@@ -1565,13 +1565,13 @@
           "prompt": "Which means 'While the rich get richer, the poor get poorer'?",
           "japanese": null,
           "choices": [
-            "金持[かねも]ちがますます豊[ゆた]かになる一方[いっぽう]で、貧[まず]しい人[にん]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるのに、貧[まず]しい人[にん]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるながらも、貧[まず]しい人[にん]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるところが、貧[まず]しい人[にん]はますます貧[まず]しくなる。"
+            "金持[かねも]ちがますます豊[ゆた]かになる一方[いっぽう]で、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+            "金持[かねも]ちがますます豊[ゆた]かになるのに、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+            "金持[かねも]ちがますます豊[ゆた]かになるながらも、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+            "金持[かねも]ちがますます豊[ゆた]かになるところが、貧[まず]しい人[ひと]はますます貧[まず]しくなる。"
           ],
           "correctIndex": 0,
-          "explanation": "一方[いっぽう]で for contrasting trends: 豊[ゆた]かになる + 一方[いっぽう]で = while getting richer. 貧[まず]しい人[にん]はますます貧[まず]しくなる = poor people get poorer. Classic social inequality two-trend statement."
+          "explanation": "一方[いっぽう]で for contrasting trends: 豊[ゆた]かになる + 一方[いっぽう]で = while getting richer. 貧[まず]しい人[ひと]はますます貧[まず]しくなる = poor people get poorer. Classic social inequality two-trend statement."
         },
         {
           "id": "ippou-de_q19",
@@ -1579,13 +1579,13 @@
           "prompt": "Which correctly says 'While he succeeded abroad, he failed in Japan'?",
           "japanese": null,
           "choices": [
-            "海外[かいがい]で成功[せいこう]した一方[いっぽう]で、日本[にっぽん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したのに、日本[にっぽん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したながらも、日本[にっぽん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したところが、日本[にっぽん]では失敗[しっぱい]した。"
+            "海外[かいがい]で成功[せいこう]した一方[いっぽう]で、日本[にほん]では失敗[しっぱい]した。",
+            "海外[かいがい]で成功[せいこう]したのに、日本[にほん]では失敗[しっぱい]した。",
+            "海外[かいがい]で成功[せいこう]したながらも、日本[にほん]では失敗[しっぱい]した。",
+            "海外[かいがい]で成功[せいこう]したところが、日本[にほん]では失敗[しっぱい]した。"
           ],
           "correctIndex": 0,
-          "explanation": "Ta-form + 一方[いっぽう]で: 成功[せいこう]した + 一方[いっぽう]で = while succeeding (in one place). 日本[にっぽん]では失敗[しっぱい]した = failed in Japan. Two contrasting outcomes in different contexts."
+          "explanation": "Ta-form + 一方[いっぽう]で: 成功[せいこう]した + 一方[いっぽう]で = while succeeding (in one place). 日本[にほん]では失敗[しっぱい]した = failed in Japan. Two contrasting outcomes in different contexts."
         },
         {
           "id": "ippou-de_q20",

@@ -28,12 +28,12 @@
           "english": "I thought it was over, but there was still more to come."
         },
         {
-          "japanese": "彼[かれ]は厳[いかめ]しい人[にん]かと思[おも]いきや、実[じつ]はとても優[やさ]しかったです。",
+          "japanese": "彼[かれ]は厳[きび]しい人[ひと]かと思[おも]いきや、実[じつ]はとても優[やさ]しかったです。",
           "romaji": "Kare wa kibishii hito ka to omoikiya, jitsu wa totemo yasashikatta desu.",
           "english": "I thought he was a strict person, but he was actually very kind."
         },
         {
-          "japanese": "値段[ねだん]が高[たか]いと思[おも]いきや、セール中[なか]でとても安[やす]かった。",
+          "japanese": "値段[ねだん]が高[たか]いと思[おも]いきや、セール中[ちゅう]でとても安[やす]かった。",
           "romaji": "Nedan ga takai to omoikiya, seeru chuu de totemo yasukatta.",
           "english": "I thought the price would be high, but there was a sale and it was very cheap."
         }
@@ -89,13 +89,13 @@
           "prompt": "Which correctly says 'I thought the weather would clear up, but it suddenly rained'?",
           "japanese": null,
           "choices": [
-            "晴[は]れると思[おも]いきや、突然[とつぜん]雨[あめ]が降[お]り出[だ]した。",
-            "晴[は]れると思[おも]ったが、突然[とつぜん]雨[あめ]が降[お]り出[だ]した。",
-            "晴[は]れると思[おも]ったら、突然[とつぜん]雨[あめ]が降[お]り出[だ]した。",
-            "晴[は]れるかと思[おも]えば、突然[とつぜん]雨[あめ]が降[お]り出[だ]した。"
+            "晴[は]れると思[おも]いきや、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+            "晴[は]れると思[おも]ったが、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+            "晴[は]れると思[おも]ったら、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+            "晴[は]れるかと思[おも]えば、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb dict-form + と思[おも]いきや: 晴[は]れる + と思[おも]いきや = I thought it would clear up. 突然[とつぜん]雨[あめ]が降[お]り出[だ]した = it suddenly started raining. と思[おも]いきや marks the abrupt weather reversal."
+          "explanation": "Verb dict-form + と思[おも]いきや: 晴[は]れる + と思[おも]いきや = I thought it would clear up. 突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した = it suddenly started raining. と思[おも]いきや marks the abrupt weather reversal."
         },
         {
           "id": "to-omoikiya_q5",
@@ -117,13 +117,13 @@
           "prompt": "Which correctly says 'I thought he was strict, but he turned out to be very kind'?",
           "japanese": null,
           "choices": [
-            "厳[いかめ]しいと思[おも]いきや、とても優[やさ]しかった。",
-            "厳[いかめ]しいと思[おも]ったが、とても優[やさ]しかった。",
-            "厳[いかめ]しいと思[おも]ったら、とても優[やさ]しかった。",
-            "厳[いかめ]しいかと思[おも]えば、とても優[やさ]しかった。"
+            "厳[きび]しいと思[おも]いきや、とても優[やさ]しかった。",
+            "厳[きび]しいと思[おも]ったが、とても優[やさ]しかった。",
+            "厳[きび]しいと思[おも]ったら、とても優[やさ]しかった。",
+            "厳[きび]しいかと思[おも]えば、とても優[やさ]しかった。"
           ],
           "correctIndex": 0,
-          "explanation": "い-adj + と思[おも]いきや: 厳[いかめ]しい + と思[おも]いきや = I thought he was strict. とても優[やさ]しかった = was very kind. と思[おも]いきや dramatizes the personality reversal from first impression to reality."
+          "explanation": "い-adj + と思[おも]いきや: 厳[きび]しい + と思[おも]いきや = I thought he was strict. とても優[やさ]しかった = was very kind. と思[おも]いきや dramatizes the personality reversal from first impression to reality."
         },
         {
           "id": "to-omoikiya_q7",
@@ -145,13 +145,13 @@
           "prompt": "Which correctly says 'I thought it was a bargain, but there were hidden charges'?",
           "japanese": null,
           "choices": [
-            "お得[え]だと思[おも]いきや、隠[かく]れた費用[ひよう]があった。",
-            "お得[え]だと思[おも]ったが、隠[かく]れた費用[ひよう]があった。",
-            "お得[え]だと思[おも]ったら、隠[かく]れた費用[ひよう]があった。",
-            "お得[え]かと思[おも]えば、隠[かく]れた費用[ひよう]があった。"
+            "お得[とく]だと思[おも]いきや、隠[かく]れた費用[ひよう]があった。",
+            "お得[とく]だと思[おも]ったが、隠[かく]れた費用[ひよう]があった。",
+            "お得[とく]だと思[おも]ったら、隠[かく]れた費用[ひよう]があった。",
+            "お得[とく]かと思[おも]えば、隠[かく]れた費用[ひよう]があった。"
           ],
           "correctIndex": 0,
-          "explanation": "な-adj + だ + と思[おも]いきや: お得[え]だ + と思[おも]いきや = I thought it was a bargain. 隠[かく]れた費用[ひよう]があった = there were hidden charges. と思[おも]いきや marks the unexpected extra cost."
+          "explanation": "な-adj + だ + と思[おも]いきや: お得[とく]だ + と思[おも]いきや = I thought it was a bargain. 隠[かく]れた費用[ひよう]があった = there were hidden charges. と思[おも]いきや marks the unexpected extra cost."
         },
         {
           "id": "to-omoikiya_q9",
@@ -201,13 +201,13 @@
           "prompt": "Which correctly says 'I thought she was angry, but she was actually laughing'?",
           "japanese": null,
           "choices": [
-            "怒[いか]っていると思[おも]いきや、実[じつ]は笑[わら]っていた。",
-            "怒[いか]っていると思[おも]ったが、実[じつ]は笑[わら]っていた。",
-            "怒[いか]っていると思[おも]ったら、実[じつ]は笑[わら]っていた。",
-            "怒[いか]っているかと思[おも]えば、実[じつ]は笑[わら]っていた。"
+            "怒[おこ]っていると思[おも]いきや、実[じつ]は笑[わら]っていた。",
+            "怒[おこ]っていると思[おも]ったが、実[じつ]は笑[わら]っていた。",
+            "怒[おこ]っていると思[おも]ったら、実[じつ]は笑[わら]っていた。",
+            "怒[おこ]っているかと思[おも]えば、実[じつ]は笑[わら]っていた。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb te-iru + と思[おも]いきや: 怒[いか]っている + と思[おも]いきや = I thought she was angry. 実[じつ]は笑[わら]っていた = she was actually laughing. と思[おも]いきや marks the emotional reversal."
+          "explanation": "Verb te-iru + と思[おも]いきや: 怒[おこ]っている + と思[おも]いきや = I thought she was angry. 実[じつ]は笑[わら]っていた = she was actually laughing. と思[おも]いきや marks the emotional reversal."
         },
         {
           "id": "to-omoikiya_q13",
@@ -285,13 +285,13 @@
           "prompt": "Which correctly says 'I thought it was a stranger, but it was my old friend'?",
           "japanese": null,
           "choices": [
-            "知[し]らない人[にん]だと思[おも]いきや、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[にん]だと思[おも]ったが、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[にん]だと思[おも]ったら、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[にん]かと思[おも]えば、昔[むかし]の友人[ゆうじん]だった。"
+            "知[し]らない人[ひと]だと思[おも]いきや、昔[むかし]の友人[ゆうじん]だった。",
+            "知[し]らない人[ひと]だと思[おも]ったが、昔[むかし]の友人[ゆうじん]だった。",
+            "知[し]らない人[ひと]だと思[おも]ったら、昔[むかし]の友人[ゆうじん]だった。",
+            "知[し]らない人[ひと]かと思[おも]えば、昔[むかし]の友人[ゆうじん]だった。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + だ + と思[おも]いきや: 知[し]らない人[にん]だ + と思[おも]いきや = I thought it was a stranger. 昔[むかし]の友人[ゆうじん]だった = it was my old friend. と思[おも]いきや marks the identity reversal."
+          "explanation": "Noun + だ + と思[おも]いきや: 知[し]らない人[ひと]だ + と思[おも]いきや = I thought it was a stranger. 昔[むかし]の友人[ゆうじん]だった = it was my old friend. と思[おも]いきや marks the identity reversal."
         },
         {
           "id": "to-omoikiya_q19",
@@ -328,7 +328,7 @@
       "name": "〜ではないか / ではあるまいか — isn't it? / could it be that?",
       "shortDescription": "Seeks agreement or expresses a strong rhetorical assertion: 'isn't X true?' or 'could it be that X?'",
       "formation": "Plain form + ではないか / じゃないか (casual)  |  Plain form + ではあるまいか (formal)",
-      "explanation": "ではないか and its more formal literary variant ではあるまいか are rhetorical tools, not genuine questions — they assert a point in question form to invite agreement rather than announcing the conclusion directly. もっと努力[どりょく]すべきではないか: 'Shouldn't we be making more effort?' isn't really asking whether you agree; it's asserting 'we should make more effort' while gesturing toward the listener to concur. This rhetorical question move is powerful in speeches, editorials, and arguments because it draws the audience in as co-reasoners rather than passive recipients.\n\nではあるまいか is the formal/literary variant used for tentative but weighty conjecture — 'could it possibly be that X?' — with a tone of careful, serious consideration: 彼[か]の行動[こうどう]の背後[はいご]には何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか ('Could it be that there are deep circumstances behind his behavior?'). The casual spoken form is じゃないか. One practical note: intonation matters significantly — rising pitch makes these feel more like genuine inquiry; flat or falling pitch emphasizes rhetorical assertion.",
+      "explanation": "ではないか and its more formal literary variant ではあるまいか are rhetorical tools, not genuine questions — they assert a point in question form to invite agreement rather than announcing the conclusion directly. もっと努力[どりょく]すべきではないか: 'Shouldn't we be making more effort?' isn't really asking whether you agree; it's asserting 'we should make more effort' while gesturing toward the listener to concur. This rhetorical question move is powerful in speeches, editorials, and arguments because it draws the audience in as co-reasoners rather than passive recipients.\n\nではあるまいか is the formal/literary variant used for tentative but weighty conjecture — 'could it possibly be that X?' — with a tone of careful, serious consideration: 彼[かれ]の行動[こうどう]の背後[はいご]には何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか ('Could it be that there are deep circumstances behind his behavior?'). The casual spoken form is じゃないか. One practical note: intonation matters significantly — rising pitch makes these feel more like genuine inquiry; flat or falling pitch emphasizes rhetorical assertion.",
       "rules": [
         "Plain form + ではないか = isn't it? / don't you think? (rhetorical — seeks agreement/assertion)",
         "Casual: じゃないか (conversation); ではないか (formal speech, editorials)",
@@ -348,7 +348,7 @@
           "english": "In order to improve this situation, wouldn't dialogue be necessary first?"
         },
         {
-          "japanese": "彼[か]の行動[こうどう]の背後[はいご]には、何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか。",
+          "japanese": "彼[かれ]の行動[こうどう]の背後[はいご]には、何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか。",
           "romaji": "Kare no koudou no haigo ni wa, nanika fukai jijou ga aru no dewa aru mai ka.",
           "english": "Could it be that there is some deep circumstance behind his actions?"
         },
@@ -429,7 +429,7 @@
             "Permission, obligation, and prohibition"
           ],
           "correctIndex": 1,
-          "explanation": "ではないか has three uses: (1) rhetorical agreement: これが問題[もんだい]ではないか (isn't this the problem?); (2) exclamation/realization: ああ、あの人[にん]が田中[たなか]さんではないか (oh, isn't that Mr. Tanaka!); (3) proposal: 行[い]こうではないか (let's go, shall we!). Context determines which use applies."
+          "explanation": "ではないか has three uses: (1) rhetorical agreement: これが問題[もんだい]ではないか (isn't this the problem?); (2) exclamation/realization: ああ、あの人[ひと]が田中[たなか]さんではないか (oh, isn't that Mr. Tanaka!); (3) proposal: 行[い]こうではないか (let's go, shall we!). Context determines which use applies."
         },
         {
           "id": "de-wa-nai-ka_q6",
@@ -591,7 +591,7 @@
           "prompt": "Which sentence uses ではないか for a PROPOSAL (calling people to action)?",
           "japanese": null,
           "choices": [
-            "ああ、あの人[にん]が山田[やまだ]さんではないか！(realization — 'isn't that Yamada?')",
+            "ああ、あの人[ひと]が山田[やまだ]さんではないか！(realization — 'isn't that Yamada?')",
             "これが問題[もんだい]ではないか。(rhetorical — 'isn't this the problem?')",
             "皆[みな]で取[と]り組[く]もうではないか！(proposal — 'let's all tackle this, shall we!')",
             "これほど美[うつく]しい景色[けしき]はないではないか。(rhetorical — 'isn't there no view more beautiful?')"

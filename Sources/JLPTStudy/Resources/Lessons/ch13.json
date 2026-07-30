@@ -199,8 +199,8 @@
         {
           "id": "potential_q12",
           "type": "fillBlank",
-          "prompt": "Choose the correct form: 明日[あした]は早[はや]いから、今日[こんにち]はお酒[さけ]が___。(Because I have an early start tomorrow, I can't drink alcohol today.)",
-          "japanese": "明日[あした]は早[はや]いから、今日[こんにち]はお酒[さけ]が___。",
+          "prompt": "Choose the correct form: 明日[あした]は早[はや]いから、今日[きょう]はお酒[さけ]が___。(Because I have an early start tomorrow, I can't drink alcohol today.)",
+          "japanese": "明日[あした]は早[はや]いから、今日[きょう]はお酒[さけ]が___。",
           "choices": [
             "飲[の]めます",
             "飲[の]まれません",
@@ -449,7 +449,7 @@
         {
           "id": "nara_q7",
           "type": "usage",
-          "prompt": "Your friend says '今日[こんにち]は時間[じかん]があります.' Which response uses なら most naturally to make a suggestion?",
+          "prompt": "Your friend says '今日[きょう]は時間[じかん]があります.' Which response uses なら most naturally to make a suggestion?",
           "japanese": null,
           "choices": [
             "時間[じかん]があったら、図書館[としょかん]で勉強[べんきょう]しましょう。",
@@ -649,7 +649,7 @@
       "name": "〜そうです (looks like / seems) — appearance-based inference",
       "shortDescription": "Expresses a direct-observation impression — 'looks like' or 'seems' based on what you can see right now.",
       "formation": "い-adj stem (drop い) + そうです  |  な-adj stem + そうです  |  Verb stem + そうです",
-      "explanation": "〜そうです is your grammar for first impressions. It expresses what something appears to be based on direct sensory evidence — usually what you're seeing in the moment. The key word is *direct*: you're reacting to what's in front of you, not reporting something you heard or read.\n\nFormation is the part that catches people out. For い-adjectives, drop the final い before adding そう: おいしい → おいしそう (looks delicious), 難[むずか]しい → 難[むつか]しそう (looks difficult). For な-adjectives, drop な: 元気[げんき]な → 元気[げんき]そう (looks healthy/well). For verbs, use the verb stem (the ます-form base): 降[お]ります → 降[お]りそう, giving us 雨[あめ]が降[お]りそうです (It looks like it's going to rain).\n\nTwo exceptions are worth memorizing cold: いい (good) becomes よさそう — *not* いそう — and ない becomes なさそう — *not* なそう. These are the irregulars that trip up intermediate learners.\n\nKeep in mind: there's a completely different そうです that means 'I heard that…' and attaches to a full plain form. You'll study that version in Chapter 20. The key distinction: appearance そうです attaches to adjective/verb *stems*; hearsay そうです attaches to *complete plain-form clauses*.",
+      "explanation": "〜そうです is your grammar for first impressions. It expresses what something appears to be based on direct sensory evidence — usually what you're seeing in the moment. The key word is *direct*: you're reacting to what's in front of you, not reporting something you heard or read.\n\nFormation is the part that catches people out. For い-adjectives, drop the final い before adding そう: おいしい → おいしそう (looks delicious), 難[むずか]しい → 難[むずか]しそう (looks difficult). For な-adjectives, drop な: 元気[げんき]な → 元気[げんき]そう (looks healthy/well). For verbs, use the verb stem (the ます-form base): 降[お]ります → 降[お]りそう, giving us 雨[あめ]が降[ふ]りそうです (It looks like it's going to rain).\n\nTwo exceptions are worth memorizing cold: いい (good) becomes よさそう — *not* いそう — and ない becomes なさそう — *not* なそう. These are the irregulars that trip up intermediate learners.\n\nKeep in mind: there's a completely different そうです that means 'I heard that…' and attaches to a full plain form. You'll study that version in Chapter 20. The key distinction: appearance そうです attaches to adjective/verb *stems*; hearsay そうです attaches to *complete plain-form clauses*.",
       "rules": [
         "い-adj: drop い + そう (おいしい → おいしそう = looks delicious)",
         "な-adj: stem only + そう (元気[げんき] → 元気[げんき]そう = looks healthy)",
@@ -665,7 +665,7 @@
           "english": "This cake looks really delicious, doesn't it?"
         },
         {
-          "japanese": "空[そら]が暗[くら]くなってきた。雨[あめ]が降[お]りそうです。",
+          "japanese": "空[そら]が暗[くら]くなってきた。雨[あめ]が降[ふ]りそうです。",
           "romaji": "Sora ga kuraku natte kita. Ame ga furisou desu.",
           "english": "The sky is getting dark. It looks like it's going to rain."
         },
@@ -700,8 +700,8 @@
         {
           "id": "sou-desu-appearance_q2",
           "type": "fillBlank",
-          "prompt": "Choose the correct form: あの人[にん]は___ですね。(That person seems happy.)",
-          "japanese": "あの人[にん]は___ですね。",
+          "prompt": "Choose the correct form: あの人[ひと]は___ですね。(That person seems happy.)",
+          "japanese": "あの人[ひと]は___ですね。",
           "choices": [
             "楽[たの]しいそう",
             "楽[たの]しそう",
@@ -731,10 +731,10 @@
           "prompt": "Which correctly expresses 'It looks like it's going to rain' based on visual evidence?",
           "japanese": null,
           "choices": [
-            "雨[あめ]が降[お]りますそうです。",
+            "雨[あめ]が降[ふ]りますそうです。",
             "雨[あめ]が降[ふ]るそうです。",
             "雨[あめ]が降[ふ]ってそうです。",
-            "雨[あめ]が降[お]りそうです。"
+            "雨[あめ]が降[ふ]りそうです。"
           ],
           "correctIndex": 3,
           "explanation": "Verb masu-stem + そう: 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. This expresses direct visual observation (e.g., dark sky). 降[ふ]るそうです = hearsay 'I heard it will rain' (plain form + そうだ). 降[ふ]ってそうです is non-standard. 降[お]りますそうです incorrectly adds そう to the full polite form."
@@ -748,10 +748,10 @@
             "辛[つら]そうです。",
             "辛[つら]いそうです。",
             "辛[つら]くそうです。",
-            "辛[しん]だそうです。"
+            "辛[つら]だそうです。"
           ],
           "correctIndex": 0,
-          "explanation": "辛[つら]い (i-adj) → drop い + そう = 辛[つら]そう ✓. Polite: 辛[つら]そうです = 'looks spicy.' 辛[つら]いそうです = hearsay そう ('I heard it's spicy' — attaches to full plain form). 辛[つら]くそうです and 辛[しん]だそうです are not valid appearance-そう formations."
+          "explanation": "辛[つら]い (i-adj) → drop い + そう = 辛[つら]そう ✓. Polite: 辛[つら]そうです = 'looks spicy.' 辛[つら]いそうです = hearsay そう ('I heard it's spicy' — attaches to full plain form). 辛[つら]くそうです and 辛[つら]だそうです are not valid appearance-そう formations."
         },
         {
           "id": "sou-desu-appearance_q6",
@@ -774,12 +774,12 @@
           "japanese": null,
           "choices": [
             "荷物[にもつ]は重[おも]いそうです。",
-            "荷物[にもつ]は重[じゅう]だそうです。",
+            "荷物[にもつ]は重[おも]だそうです。",
             "荷物[にもつ]は重[おも]そうです。",
             "荷物[にもつ]は重[おも]くそうです。"
           ],
           "correctIndex": 2,
-          "explanation": "重[おも]い (i-adj) → drop い + そう = 重[おも]そう ✓. Polite: 重[おも]そうです. 重[おも]いそうです = hearsay ('I heard it's heavy' — attaches to full plain form 重[おも]い). 重[じゅう]だそうです is not a valid form. 重[おも]くそうです incorrectly uses the adverbial く form before そう."
+          "explanation": "重[おも]い (i-adj) → drop い + そう = 重[おも]そう ✓. Polite: 重[おも]そうです. 重[おも]いそうです = hearsay ('I heard it's heavy' — attaches to full plain form 重[おも]い). 重[おも]だそうです is not a valid form. 重[おも]くそうです incorrectly uses the adverbial く form before そう."
         },
         {
           "id": "sou-desu-appearance_q8",
@@ -857,13 +857,13 @@
           "prompt": "Choose the correct form: この問題[もんだい]は___ですね。(This problem looks difficult.)",
           "japanese": "この問題[もんだい]は___ですね。",
           "choices": [
-            "難[むつか]しそう",
+            "難[むずか]しそう",
             "難[むずか]しいそう",
             "難[むずか]しくそう",
             "難[むずか]しだそう"
           ],
           "correctIndex": 0,
-          "explanation": "難[むずか]しい (i-adj) → drop い + そう = 難[むつか]しそう ✓. Polite: 難[むつか]しそうです. 難[むずか]しいそう = hearsay ('I heard it's difficult'). 難[むずか]しくそうです uses the adverbial form (incorrect). 難[むずか]しだそう is not a valid form."
+          "explanation": "難[むずか]しい (i-adj) → drop い + そう = 難[むずか]しそう ✓. Polite: 難[むずか]しそうです. 難[むずか]しいそう = hearsay ('I heard it's difficult'). 難[むずか]しくそうです uses the adverbial form (incorrect). 難[むずか]しだそう is not a valid form."
         },
         {
           "id": "sou-desu-appearance_q14",
@@ -871,10 +871,10 @@
           "prompt": "How do you say 'That person seems kind' based on your impression?",
           "japanese": null,
           "choices": [
-            "あの人[にん]は優[やさ]しいそうですね。",
-            "あの人[にん]は優[やさ]しそうですね。",
-            "あの人[にん]は優[やさ]しなそうですね。",
-            "あの人[にん]は優[やさ]しくそうですね。"
+            "あの人[ひと]は優[やさ]しいそうですね。",
+            "あの人[ひと]は優[やさ]しそうですね。",
+            "あの人[ひと]は優[やさ]しなそうですね。",
+            "あの人[ひと]は優[やさ]しくそうですね。"
           ],
           "correctIndex": 1,
           "explanation": "優[やさ]しい (i-adj) → drop い + そう = 優[やさ]しそう ✓. Polite: 優[やさ]しそうです. 優[やさ]しいそうですね = hearsay ('I heard that person is kind'). 優[やさ]しなそう is not a valid form (trying to apply na-adj rule to an i-adj). 優[やさ]しくそう uses the adverbial form (incorrect before そう)."
@@ -913,7 +913,7 @@
           "prompt": "空[そら]が暗[くら]くなってきた。___ですね。(The sky is getting dark. It looks like rain, doesn't it?) Pick the correct verb-stem+そう form.",
           "japanese": "空[そら]が暗[くら]くなってきた。___ですね。",
           "choices": [
-            "雨[あめ]が降[お]りそう",
+            "雨[あめ]が降[ふ]りそう",
             "雨[あめ]が降[ふ]るそう",
             "雨[あめ]が降[ふ]ったそう",
             "雨[あめ]が降[ふ]ってそう"
@@ -955,10 +955,10 @@
           "prompt": "Which correctly identifies whether そうです is appearance or hearsay in each sentence?",
           "japanese": null,
           "choices": [
-            "雨[あめ]が降[お]りそうです (hearsay) vs 雨[あめ]が降[ふ]るそうです (appearance)",
+            "雨[あめ]が降[ふ]りそうです (hearsay) vs 雨[あめ]が降[ふ]るそうです (appearance)",
             "Both 降[お]りそうです and 降[ふ]るそうです express appearance",
             "Both 降[お]りそうです and 降[ふ]るそうです express hearsay",
-            "雨[あめ]が降[お]りそうです (appearance: masu-stem + そう) vs 雨[あめ]が降[ふ]るそうです (hearsay: plain form + そう)"
+            "雨[あめ]が降[ふ]りそうです (appearance: masu-stem + そう) vs 雨[あめ]が降[ふ]るそうです (hearsay: plain form + そう)"
           ],
           "correctIndex": 3,
           "explanation": "The formation is the key: appearance そう uses the masu-stem (降[お]り + そう) → 降[お]りそうです = 'looks like it will rain' (your observation of dark clouds). Hearsay そう uses the full plain dictionary form (降[ふ]る + そう) → 降[ふ]るそうです = 'I heard it will rain' (someone told you). Same word, opposite information source."
@@ -985,12 +985,12 @@
           "english": "This café has delicious coffee, a nice atmosphere, and I love it."
         },
         {
-          "japanese": "今日[こんにち]は疲[つか]れているし、明日[あした]も早[はや]いし、もう帰[かえ]ります。",
+          "japanese": "今日[きょう]は疲[つか]れているし、明日[あした]も早[はや]いし、もう帰[かえ]ります。",
           "romaji": "Kyou wa tsukarete iru shi, ashita mo hayai shi, mou kaerimasu.",
           "english": "I'm tired today, and I have to be up early tomorrow, so I'm heading home."
         },
         {
-          "japanese": "雨[あめ]だし、寒[さむ]いし、今日[こんにち]は家[いえ]にいたい。",
+          "japanese": "雨[あめ]だし、寒[さむ]いし、今日[きょう]は家[いえ]にいたい。",
           "romaji": "Ame da shi, samui shi, kyou wa ie ni itai.",
           "english": "It's raining, and it's cold — I just want to stay home today."
         },
@@ -1020,8 +1020,8 @@
         {
           "id": "shi_q2",
           "type": "fillBlank",
-          "prompt": "Choose the correct pair: 今日[こんにち]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。(I'm tired today and have to be up early tomorrow, so I'm leaving.)",
-          "japanese": "今日[こんにち]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。",
+          "prompt": "Choose the correct pair: 今日[きょう]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。(I'm tired today and have to be up early tomorrow, so I'm leaving.)",
+          "japanese": "今日[きょう]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。",
           "choices": [
             "のに、のに",
             "し、し",
@@ -1090,8 +1090,8 @@
         {
           "id": "shi_q7",
           "type": "fillBlank",
-          "prompt": "Choose the correct pair for: 雨[あめ]___、寒[さむ]い___、今日[こんにち]は出[で]かけたくない。(It's raining and cold, so I don't want to go out.)",
-          "japanese": "雨[あめ]___、寒[さむ]い___、今日[こんにち]は出[で]かけたくない。",
+          "prompt": "Choose the correct pair for: 雨[あめ]___、寒[さむ]い___、今日[きょう]は出[で]かけたくない。(It's raining and cold, so I don't want to go out.)",
+          "japanese": "雨[あめ]___、寒[さむ]い___、今日[きょう]は出[で]かけたくない。",
           "choices": [
             "のに、のに",
             "なし、なし",
@@ -1177,10 +1177,10 @@
           "prompt": "Which sentence correctly uses し for listing a single reason (with the conclusion left implied)?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は疲[つか]れているし、家[いえ]にいたい。",
-            "今日[こんにち]は疲[つか]れているしても、家[いえ]にいたい。",
-            "今日[こんにち]は疲[つか]れているのし、家[いえ]にいたい。",
-            "今日[こんにち]は疲[つか]れているにし、家[いえ]にいたい。"
+            "今日[きょう]は疲[つか]れているし、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているしても、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているのし、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているにし、家[いえ]にいたい。"
           ],
           "correctIndex": 0,
           "explanation": "Plain-form verb + し: 疲[つか]れているし ✓. Even a single し can imply 'and there are other reasons too.' 疲[つか]れているし + 家[いえ]にいたい reads naturally: 'I'm tired (and more), so I want to stay home.' しても = 'even if.' のし and にし are not valid formations."
@@ -1205,13 +1205,13 @@
           "prompt": "Which sentence uses し correctly with a negative clause?",
           "japanese": null,
           "choices": [
-            "お金[きん]がないから、高[たか]い店[みせ]には行[い]きたくない。",
-            "お金[きん]があるのに、高[たか]い店[みせ]には行[い]きたくない。",
-            "お金[きん]もないし、時間[じかん]もないし、無理[むり]です。",
-            "お金[きん]なし、時間[じかん]なし、無理[むり]です。"
+            "お金[かね]がないから、高[たか]い店[みせ]には行[い]きたくない。",
+            "お金[かね]があるのに、高[たか]い店[みせ]には行[い]きたくない。",
+            "お金[かね]もないし、時間[じかん]もないし、無理[むり]です。",
+            "お金[かね]なし、時間[じかん]なし、無理[むり]です。"
           ],
           "correctIndex": 2,
-          "explanation": "ないし = negative plain form + し ✓. お金[きん]もないし、時間[じかん]もないし lists two negative reasons (no money, no time) → conclusion 無理[むり]です. This is a natural use of し for stacking negatives. お金[きん]なし = 'without money' (archaic/different expression). のに = contradictory. から introduces one cause, not a stacked list."
+          "explanation": "ないし = negative plain form + し ✓. お金[かね]もないし、時間[じかん]もないし lists two negative reasons (no money, no time) → conclusion 無理[むり]です. This is a natural use of し for stacking negatives. お金[かね]なし = 'without money' (archaic/different expression). のに = contradictory. から introduces one cause, not a stacked list."
         },
         {
           "id": "shi_q16",
@@ -1371,10 +1371,10 @@
           "prompt": "How do you say 'I want to try going to Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に行[い]ってみてください。",
-            "日本[にっぽん]に行[い]きたいです。",
-            "日本[にっぽん]に行[い]くことを試[こころ]みます。",
-            "日本[にっぽん]に行[い]ってみたいです。"
+            "日本[にほん]に行[い]ってみてください。",
+            "日本[にほん]に行[い]きたいです。",
+            "日本[にほん]に行[い]くことを試[こころ]みます。",
+            "日本[にほん]に行[い]ってみたいです。"
           ],
           "correctIndex": 3,
           "explanation": "行[い]く → て-form 行[い]って + みたい = 行[い]ってみたい. Polite: 行[い]ってみたいです = 'I want to try going' ✓. 行[い]きたいです = 'I want to go' (no experimental/curious nuance). 行[い]ってみてください = 'please try going' (directed at listener). 試[こころ]みます = 'attempt' (different word with different nuance, more formal)."
@@ -1429,11 +1429,11 @@
           "choices": [
             "使[つか]いてみ",
             "使[つか]うみ",
-            "使[し]みて",
+            "使[つか]みて",
             "使[つか]ってみ"
           ],
           "correctIndex": 3,
-          "explanation": "使[つか]う → て-form 使[つか]って + みてください = 使[つか]ってみてください ✓. The blank is 使[つか]ってみ (+ てください). 使[つか]いてみ uses the masu-stem (使[つか]い) instead of the te-form. 使[つか]うみ omits て entirely. 使[し]みて is not a valid form of 使[つか]う."
+          "explanation": "使[つか]う → て-form 使[つか]って + みてください = 使[つか]ってみてください ✓. The blank is 使[つか]ってみ (+ てください). 使[つか]いてみ uses the masu-stem (使[つか]い) instead of the te-form. 使[つか]うみ omits て entirely. 使[つか]みて is not a valid form of 使[つか]う."
         },
         {
           "id": "te-miru_q9",

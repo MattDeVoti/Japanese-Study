@@ -29,7 +29,7 @@
         },
         {
           "japanese": "ご契約[けいやく]に関[かん]する書類[しょるい]をお送[おく]りします。",
-          "romaji": "Gokeiyaku ni kansuru shorui wo osendai shimasu.",
+          "romaji": "Gokeiyaku ni kansuru shorui wo ookuri shimasu.",
           "english": "We will send you the documents concerning your contract."
         },
         {
@@ -103,13 +103,13 @@
           "prompt": "Which means 'We are conducting research on climate change'?",
           "japanese": null,
           "choices": [
-            "気候[きこう]変動[へんどう]に関[かん]して研究[けんきゅう]を行[い]っています。",
-            "気候[きこう]変動[へんどう]に対[たい]して研究[けんきゅう]を行[い]っています。",
-            "気候[きこう]変動[へんどう]について研究[けんきゅう]を行[い]っています。",
-            "気候[きこう]変動[へんどう]にとって研究[けんきゅう]を行[い]っています。"
+            "気候[きこう]変動[へんどう]に関[かん]して研究[けんきゅう]を行[おこな]っています。",
+            "気候[きこう]変動[へんどう]に対[たい]して研究[けんきゅう]を行[おこな]っています。",
+            "気候[きこう]変動[へんどう]について研究[けんきゅう]を行[おこな]っています。",
+            "気候[きこう]変動[へんどう]にとって研究[けんきゅう]を行[おこな]っています。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + に関[かん]して: 気候[きこう]変動[へんどう] (climate change) + に関[かん]して = regarding climate change. 研究[けんきゅう]を行[い]っています = conducting research. Both に関[かん]して and について work here; に関[かん]して is more formal."
+          "explanation": "Noun + に関[かん]して: 気候[きこう]変動[へんどう] (climate change) + に関[かん]して = regarding climate change. 研究[けんきゅう]を行[おこな]っています = conducting research. Both に関[かん]して and について work here; に関[かん]して is more formal."
         },
         {
           "id": "ni-kanshite_q6",
@@ -229,13 +229,13 @@
           "prompt": "Which correctly says 'The lecture on Japanese history was interesting'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]の歴史[れきし]に関[かん]する講義[こうぎ]は面白[おもしろ]かった。",
-            "日本[にっぽん]の歴史[れきし]に対[たい]する講義[こうぎ]は面白[おもしろ]かった。",
-            "日本[にっぽん]の歴史[れきし]についての講義[こうぎ]は面白[おもしろ]かった。",
-            "日本[にっぽん]の歴史[れきし]にとっての講義[こうぎ]は面白[おもしろ]かった。"
+            "日本[にほん]の歴史[れきし]に関[かん]する講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にほん]の歴史[れきし]に対[たい]する講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にほん]の歴史[れきし]についての講義[こうぎ]は面白[おもしろ]かった。",
+            "日本[にほん]の歴史[れきし]にとっての講義[こうぎ]は面白[おもしろ]かった。"
           ],
           "correctIndex": 0,
-          "explanation": "に関[かん]する + noun: 日本[にっぽん]の歴史[れきし] (Japanese history) + に関[かん]する + 講義[こうぎ] (lecture) = a lecture on Japanese history. 面白[おもしろ]かった = was interesting."
+          "explanation": "に関[かん]する + noun: 日本[にほん]の歴史[れきし] (Japanese history) + に関[かん]する + 講義[こうぎ] (lecture) = a lecture on Japanese history. 面白[おもしろ]かった = was interesting."
         },
         {
           "id": "ni-kanshite_q15",
@@ -343,7 +343,7 @@
           "english": "She responded calmly to the criticism."
         },
         {
-          "japanese": "日本[にっぽん]の夏[なつ]は暑[あつ]いのに対[たい]して、冬[ふゆ]は寒[さむ]いです。",
+          "japanese": "日本[にほん]の夏[なつ]は暑[あつ]いのに対[たい]して、冬[ふゆ]は寒[さむ]いです。",
           "romaji": "Nihon no natsu wa atsui no ni taishite, fuyu wa samui desu.",
           "english": "Whereas Japan's summers are hot, the winters are cold."
         },
@@ -353,7 +353,7 @@
           "english": "I am thinking of a solution to this problem."
         },
         {
-          "japanese": "子[こ]どもに対[たい]してもっと忍耐[にんたい]強[つよ]くなるべきだと思[おも]います。",
+          "japanese": "子[こ]どもに対[たい]してもっと忍耐[にんたい]強[づよ]くなるべきだと思[おも]います。",
           "romaji": "Kodomo ni taishite motto nintai zuyoku naru beki da to omoimasu.",
           "english": "I think one ought to be more patient toward children."
         }
@@ -373,7 +373,7 @@
             "instead of"
           ],
           "correctIndex": 1,
-          "explanation": "〜に対[たい]して = toward / directed at / against. 彼[か]の意見[いけん]に対[たい]して反論[はんろん]する = argue against his opinion. 子供[こども]に対[たい]して優[やさ]しくする = be kind toward children. Expresses a directed action or attitude aimed at a target."
+          "explanation": "〜に対[たい]して = toward / directed at / against. 彼[かれ]の意見[いけん]に対[たい]して反論[はんろん]する = argue against his opinion. 子供[こども]に対[たい]して優[やさ]しくする = be kind toward children. Expresses a directed action or attitude aimed at a target."
         },
         {
           "id": "ni-taishite_q2",
@@ -493,10 +493,10 @@
           "prompt": "Which correctly says 'The reaction toward his speech was positive'?",
           "japanese": null,
           "choices": [
-            "彼[か]のスピーチに対[たい]する反応[はんのう]はポジティブだった。",
-            "彼[か]のスピーチに関[かん]する反応[はんのう]はポジティブだった。",
-            "彼[か]のスピーチにとっての反応[はんのう]はポジティブだった。",
-            "彼[か]のスピーチについての反応[はんのう]はポジティブだった。"
+            "彼[かれ]のスピーチに対[たい]する反応[はんのう]はポジティブだった。",
+            "彼[かれ]のスピーチに関[かん]する反応[はんのう]はポジティブだった。",
+            "彼[かれ]のスピーチにとっての反応[はんのう]はポジティブだった。",
+            "彼[かれ]のスピーチについての反応[はんのう]はポジティブだった。"
           ],
           "correctIndex": 0,
           "explanation": "に対[たい]する + noun: スピーチ + に対[たい]する + 反応[はんのう] = reaction to/toward his speech. に対[たい]する modifies 反応[はんのう] (reaction) — the reaction is directed at the speech."
@@ -521,13 +521,13 @@
           "prompt": "Which correctly says 'His attitude toward strangers is cold'?",
           "japanese": null,
           "choices": [
-            "彼[か]の見知[みし]らぬ人[にん]に対[たい]する態度[たいど]は冷[つめ]たい。",
-            "彼[か]の見知[みし]らぬ人[にん]に関[かん]する態度[たいど]は冷[つめ]たい。",
-            "彼[か]の見知[みし]らぬ人[にん]にとっての態度[たいど]は冷[つめ]たい。",
-            "彼[か]の見知[みし]らぬ人[にん]についての態度[たいど]は冷[つめ]たい。"
+            "彼[かれ]の見知[みし]らぬ人[ひと]に対[たい]する態度[たいど]は冷[つめ]たい。",
+            "彼[かれ]の見知[みし]らぬ人[ひと]に関[かん]する態度[たいど]は冷[つめ]たい。",
+            "彼[かれ]の見知[みし]らぬ人[ひと]にとっての態度[たいど]は冷[つめ]たい。",
+            "彼[かれ]の見知[みし]らぬ人[ひと]についての態度[たいど]は冷[つめ]たい。"
           ],
           "correctIndex": 0,
-          "explanation": "に対[たい]する + noun: 見知[みし]らぬ人[にん] (strangers) + に対[たい]する + 態度[たいど] (attitude) = attitude toward strangers. 冷[つめ]たい = cold."
+          "explanation": "に対[たい]する + noun: 見知[みし]らぬ人[ひと] (strangers) + に対[たい]する + 態度[たいど] (attitude) = attitude toward strangers. 冷[つめ]たい = cold."
         },
         {
           "id": "ni-taishite_q13",
@@ -549,13 +549,13 @@
           "prompt": "Which correctly says 'He is very strict with his students'?",
           "japanese": null,
           "choices": [
-            "彼[かれ]は生徒[せいと]に対[たい]してとても厳[いかめ]しい。",
-            "彼[かれ]は生徒[せいと]に関[かん]してとても厳[いかめ]しい。",
-            "彼[かれ]は生徒[せいと]にとってとても厳[いかめ]しい。",
-            "彼[かれ]は生徒[せいと]についてとても厳[いかめ]しい。"
+            "彼[かれ]は生徒[せいと]に対[たい]してとても厳[きび]しい。",
+            "彼[かれ]は生徒[せいと]に関[かん]してとても厳[きび]しい。",
+            "彼[かれ]は生徒[せいと]にとってとても厳[きび]しい。",
+            "彼[かれ]は生徒[せいと]についてとても厳[きび]しい。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + に対[たい]して (directed attitude): 生徒[せいと] (students) + に対[たい]して = toward/with students. 厳[いかめ]しい = strict. に対[たい]して marks the target of the attitude."
+          "explanation": "Noun + に対[たい]して (directed attitude): 生徒[せいと] (students) + に対[たい]して = toward/with students. 厳[きび]しい = strict. に対[たい]して marks the target of the attitude."
         },
         {
           "id": "ni-taishite_q15",
@@ -805,7 +805,7 @@
             "に対[たい]して is only for objects, not people"
           ],
           "correctIndex": 1,
-          "explanation": "にとって = from X's perspective/standpoint (subjective evaluation). に対[たい]して = directed at X as a target (action or attitude). 私[わたし]にとって難[むずか]しい = difficult for me (from my perspective); 私[わたし]に対[たい]して厳[いかめ]しい = strict toward me (directed at me)."
+          "explanation": "にとって = from X's perspective/standpoint (subjective evaluation). に対[たい]して = directed at X as a target (action or attitude). 私[わたし]にとって難[むずか]しい = difficult for me (from my perspective); 私[わたし]に対[たい]して厳[きび]しい = strict toward me (directed at me)."
         },
         {
           "id": "ni-totte_q10",
@@ -813,13 +813,13 @@
           "prompt": "Which correctly says 'For her, money is not the most important thing'?",
           "japanese": null,
           "choices": [
-            "彼女[かのじょ]にとって、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
-            "彼女[かのじょ]に対[たい]して、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
-            "彼女[かのじょ]に関[かん]して、お金[きん]が一番大切[いちばんたいせつ]なわけではない。",
-            "彼女[かのじょ]について、お金[きん]が一番大切[いちばんたいせつ]なわけではない。"
+            "彼女[かのじょ]にとって、お金[かね]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]に対[たい]して、お金[かね]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]に関[かん]して、お金[かね]が一番大切[いちばんたいせつ]なわけではない。",
+            "彼女[かのじょ]について、お金[かね]が一番大切[いちばんたいせつ]なわけではない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + にとって: 彼女[かのじょ] + にとって = for her. お金[きん]が一番大切[いちばんたいせつ]なわけではない = money isn't the most important. Evaluation from her personal perspective/values."
+          "explanation": "Noun + にとって: 彼女[かのじょ] + にとって = for her. お金[かね]が一番大切[いちばんたいせつ]なわけではない = money isn't the most important. Evaluation from her personal perspective/values."
         },
         {
           "id": "ni-totte_q11",
@@ -841,13 +841,13 @@
           "prompt": "Which correctly says 'For Japanese learners, kanji is the biggest challenge'?",
           "japanese": null,
           "choices": [
-            "日本語学[にほんごがく]習[しゅう]者[もの]にとって、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
-            "日本語学[にほんごがく]習[しゅう]者[もの]に対[たい]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
-            "日本語学[にほんごがく]習[しゅう]者[もの]に関[かん]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
-            "日本語学[にほんごがく]習[しゅう]者[もの]について、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。"
+            "日本語[にほんご]学習者[がくしゅうしゃ]にとって、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語[にほんご]学習者[がくしゅうしゃ]に対[たい]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語[にほんご]学習者[がくしゅうしゃ]に関[かん]して、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。",
+            "日本語[にほんご]学習者[がくしゅうしゃ]について、漢字[かんじ]が一番[いちばん]の難関[なんかん]だ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + にとって: 日本語学[にほんごがく]習[しゅう]者[もの] (Japanese learners) + にとって = for Japanese learners. 漢字[かんじ]が一番[いちばん]の難関[なんかん]だ = kanji is the biggest challenge. Evaluation from learners' perspective."
+          "explanation": "Noun + にとって: 日本語[にほんご]学習者[がくしゅうしゃ] (Japanese learners) + にとって = for Japanese learners. 漢字[かんじ]が一番[いちばん]の難関[なんかん]だ = kanji is the biggest challenge. Evaluation from learners' perspective."
         },
         {
           "id": "ni-totte_q13",
@@ -994,7 +994,7 @@
         },
         {
           "japanese": "代表[だいひょう]として、スピーチをすることになりました。",
-          "romaji": "Daihyou to shite, supiiichi wo suru koto ni narimashita.",
+          "romaji": "Daihyou to shite, supiichi wo suru koto ni narimashita.",
           "english": "It has been decided that I will give a speech as the representative."
         }
       ],
@@ -1175,13 +1175,13 @@
           "prompt": "として can be used with PLACES or COUNTRIES expressing their role. Which shows this?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]は観光地[かんこうち]として人気[にんき]がある。(Japan is popular as a tourist destination.)",
-            "日本[にっぽん]に対[たい]して観光地[かんこうち]が人気[にんき]がある。",
-            "日本[にっぽん]にとって観光地[かんこうち]は人気[にんき]がある。",
-            "日本[にっぽん]に関[かん]して観光地[かんこうち]は人気[にんき]がある。"
+            "日本[にほん]は観光地[かんこうち]として人気[にんき]がある。(Japan is popular as a tourist destination.)",
+            "日本[にほん]に対[たい]して観光地[かんこうち]が人気[にんき]がある。",
+            "日本[にほん]にとって観光地[かんこうち]は人気[にんき]がある。",
+            "日本[にほん]に関[かん]して観光地[かんこうち]は人気[にんき]がある。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + として: 日本[にっぽん] + として... no — actually 観光地[かんこうち]として: 観光地[かんこうち] (tourist destination) + として = as a tourist destination. Japan functions IN THE CAPACITY OF a tourist destination. として works for places/roles."
+          "explanation": "Noun + として: 日本[にほん] + として... no — actually 観光地[かんこうち]として: 観光地[かんこうち] (tourist destination) + として = as a tourist destination. Japan functions IN THE CAPACITY OF a tourist destination. として works for places/roles."
         },
         {
           "id": "to-shite_q14",

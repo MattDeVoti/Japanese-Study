@@ -29,7 +29,7 @@
         },
         {
           "japanese": "つまり、私[わたし]の提案[ていあん]は受[う]け入[い]れられないということですか。",
-          "romaji": "Tsumari, watashi no teian wa ukeirare nai to iu koto desu ka.",
+          "romaji": "Tsumari, watashi no teian wa ukeirerarenai to iu koto desu ka.",
           "english": "In other words, does that mean my proposal cannot be accepted?"
         },
         {
@@ -173,10 +173,10 @@
           "prompt": "Which correctly says 'Does this mean the store is closed today'?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は店[みせ]が閉[し]まっているということですか？",
-            "今日[こんにち]は店[みせ]が閉[し]まっていることですか？",
-            "今日[こんにち]は店[みせ]が閉[し]まっているのですか？",
-            "今日[こんにち]は店[みせ]が閉[し]まるということですか？"
+            "今日[きょう]は店[みせ]が閉[し]まっているということですか？",
+            "今日[きょう]は店[みせ]が閉[し]まっていることですか？",
+            "今日[きょう]は店[みせ]が閉[し]まっているのですか？",
+            "今日[きょう]は店[みせ]が閉[し]まるということですか？"
           ],
           "correctIndex": 0,
           "explanation": "〜ということですか = does this mean that? 閉[し]まっている (is closed, present) + ということですか = does this mean the store is closed? Seeking confirmation of the implied meaning."
@@ -348,12 +348,12 @@
           "english": "Ah, so that's why. That's why it was suddenly changed."
         },
         {
-          "japanese": "一年間[いちねんかん]日本[にっぽん]に住[す]んでいたなら、日本語[にほんご]が上手[じょうず]なのも納得[なっとく]できるわけです。",
+          "japanese": "一年間[いちねんかん]日本[にほん]に住[す]んでいたなら、日本語[にほんご]が上手[じょうず]なのも納得[なっとく]できるわけです。",
           "romaji": "Ichinenkan Nihon ni sunde ita nara, nihongo ga jouzu na no mo nattoku dekiru wake desu.",
           "english": "If you lived in Japan for a year, it makes sense you'd be good at Japanese."
         },
         {
-          "japanese": "何[なに]も食[た]べていないわけだから、お腹[はら]が空[あ]くのは当然[とうぜん]だ。",
+          "japanese": "何[なに]も食[た]べていないわけだから、お腹[なか]が空[す]くのは当然[とうぜん]だ。",
           "romaji": "Nani mo tabete inai wake dakara, onaka ga suku no wa touzen da.",
           "english": "Since you haven't eaten anything, it's only natural you'd be hungry."
         }
@@ -395,10 +395,10 @@
           "prompt": "Which means 'It's natural that she speaks Japanese well — she lived in Japan for 10 years'?",
           "japanese": null,
           "choices": [
-            "10年[ねん]も日本[にっぽん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なわけだ。",
-            "10年[ねん]も日本[にっぽん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なはずだ。",
-            "10年[ねん]も日本[にっぽん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]にちがいない。",
-            "10年[ねん]も日本[にっぽん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なのだ。"
+            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なわけだ。",
+            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なはずだ。",
+            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]にちがいない。",
+            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なのだ。"
           ],
           "correctIndex": 0,
           "explanation": "〜から〜わけだ: 住[す]んでいた (was living) + から + 日本語[にほんご]が上手[じょうず]なわけだ = no wonder her Japanese is good (natural conclusion from 10 years of living there). わけだ = the conclusion makes complete sense."
@@ -605,13 +605,13 @@
           "prompt": "Which correctly says 'So that's why the road was closed'?",
           "japanese": null,
           "choices": [
-            "だから道[みち]が閉鎖[へい]されたわけだ。",
-            "だから道[みち]が閉鎖[へい]されたはずだ。",
-            "だから道[みち]が閉鎖[へい]されたのだ。",
-            "だから道[みち]が閉鎖[へい]されたわけではない。"
+            "だから道[みち]が閉鎖[へいさ]されたわけだ。",
+            "だから道[みち]が閉鎖[へいさ]されたはずだ。",
+            "だから道[みち]が閉鎖[へいさ]されたのだ。",
+            "だから道[みち]が閉鎖[へいさ]されたわけではない。"
           ],
           "correctIndex": 0,
-          "explanation": "だから + わけだ: 閉鎖[へい]された (was closed) + わけだ = so THAT's why the road was closed. New information (accident/construction) + わけだ = 'ah, now I understand why.'"
+          "explanation": "だから + わけだ: 閉鎖[へいさ]された (was closed) + わけだ = so THAT's why the road was closed. New information (accident/construction) + わけだ = 'ah, now I understand why.'"
         },
         {
           "id": "wake-da_q19",
@@ -757,13 +757,13 @@
           "prompt": "Which correctly says 'My mother told me to eat more vegetables'?",
           "japanese": null,
           "choices": [
-            "母[は]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った。",
-            "母[は]は私[わたし]にもっと野菜[やさい]を食[た]べように言[い]った。",
-            "母[は]は私[わたし]にもっと野菜[やさい]を食[た]べたように言[い]った。",
-            "母[は]は私[わたし]にもっと野菜[やさい]を食[た]べてように言[い]った。"
+            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った。",
+            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べように言[い]った。",
+            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べたように言[い]った。",
+            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べてように言[い]った。"
           ],
           "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]う: 食[た]べる + ように言[い]った = told to eat. 母[は]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った = my mother told me to eat more vegetables."
+          "explanation": "Dict-form + ように言[い]う: 食[た]べる + ように言[い]った = told to eat. 母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った = my mother told me to eat more vegetables."
         },
         {
           "id": "you-ni-iu_q7",
@@ -953,13 +953,13 @@
           "prompt": "Which correctly says 'The manager told the team to finish by 5 PM'?",
           "japanese": null,
           "choices": [
-            "マネージャーはチームに5時[とき]までに終[お]わらせるように言[い]った。",
-            "マネージャーはチームに5時[とき]までに終[お]わらせように言[い]った。",
-            "マネージャーはチームに5時[とき]までに終[お]わらせたように言[い]った。",
-            "マネージャーはチームに5時[とき]までに終[お]わらせてように言[い]った。"
+            "マネージャーはチームに5時[じ]までに終[お]わらせるように言[い]った。",
+            "マネージャーはチームに5時[じ]までに終[お]わらせように言[い]った。",
+            "マネージャーはチームに5時[じ]までに終[お]わらせたように言[い]った。",
+            "マネージャーはチームに5時[じ]までに終[お]わらせてように言[い]った。"
           ],
           "correctIndex": 0,
-          "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 5時[とき]までに = by 5 PM. マネージャーはチームに〜ように言[い]った = the manager told the team to ."
+          "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 5時[じ]までに = by 5 PM. マネージャーはチームに〜ように言[い]った = the manager told the team to ."
         }
       ]
     }

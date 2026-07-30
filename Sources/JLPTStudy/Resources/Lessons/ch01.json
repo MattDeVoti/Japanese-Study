@@ -283,13 +283,13 @@
           "prompt": "How do you say 'That person over there is Yamada-san' in polite Japanese?",
           "japanese": null,
           "choices": [
-            "山田[やまだ]さんはあの人[にん]です。",
-            "あの人[にん]は山田[やまだ]さんです。",
-            "山田[やまだ]さんを人[にん]です。",
-            "あの人[にん]が山田[やまだ]さんは。"
+            "山田[やまだ]さんはあの人[ひと]です。",
+            "あの人[ひと]は山田[やまだ]さんです。",
+            "山田[やまだ]さんを人[ひと]です。",
+            "あの人[ひと]が山田[やまだ]さんは。"
           ],
           "correctIndex": 1,
-          "explanation": "The topic (あの人[にん] — that person over there) comes first, marked by は, then the identification (山田[やまだ]さん) before です. Option A reverses the topic and identification, which changes the nuance. Option C uses を (object marker) incorrectly. Option D misplaces both particles."
+          "explanation": "The topic (あの人[ひと] — that person over there) comes first, marked by は, then the identification (山田[やまだ]さん) before です. Option A reverses the topic and identification, which changes the nuance. Option C uses を (object marker) incorrectly. Option D misplaces both particles."
         },
         {
           "id": "desu_q19",
@@ -832,13 +832,13 @@
           "prompt": "How do you say 'a Japanese car' (a car made in Japan) in Japanese?",
           "japanese": null,
           "choices": [
-            "車[くるま]の日本[にっぽん]",
-            "日本[にっぽん]は車[くるま]です",
-            "日本[にっぽん]の車[くるま]",
-            "車[くるま]は日本[にっぽん]のです"
+            "車[くるま]の日本[にほん]",
+            "日本[にほん]は車[くるま]です",
+            "日本[にほん]の車[くるま]",
+            "車[くるま]は日本[にほん]のです"
           ],
           "correctIndex": 2,
-          "explanation": "Descriptor noun + の + main noun: 日本[にっぽん]の車[くるま] = 'a Japanese car / a car from Japan.' The descriptor (日本[にっぽん] — Japan) always comes BEFORE の, and the main noun (車[くるま] — car) comes after. 車[くるま]の日本[にっぽん] (A) would mean 'Japan of the car,' which is nonsensical."
+          "explanation": "Descriptor noun + の + main noun: 日本[にほん]の車[くるま] = 'a Japanese car / a car from Japan.' The descriptor (日本[にほん] — Japan) always comes BEFORE の, and the main noun (車[くるま] — car) comes after. 車[くるま]の日本[にほん] (A) would mean 'Japan of the car,' which is nonsensical."
         },
         {
           "id": "no-possessive_q13",

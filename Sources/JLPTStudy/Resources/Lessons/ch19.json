@@ -401,7 +401,7 @@
             "A rumor heard from someone"
           ],
           "correctIndex": 2,
-          "explanation": "〜はずだ = logical expectation based on available information, reasoning, or prior knowledge. '電車[でんしゃ]は5時[とき]に着[つ]くはずだ' = the train should arrive at 5 (based on the schedule). Not based on feeling or hearsay."
+          "explanation": "〜はずだ = logical expectation based on available information, reasoning, or prior knowledge. '電車[でんしゃ]は5時[じ]に着[つ]くはずだ' = the train should arrive at 5 (based on the schedule). Not based on feeling or hearsay."
         },
         {
           "id": "hazu-da_q4",
@@ -409,10 +409,10 @@
           "prompt": "Which correctly expresses 'The store should be open now' (based on posted hours)?",
           "japanese": null,
           "choices": [
-            "店[みせ]は開[ひら]いているべきです。",
-            "店[みせ]は開[ひら]いているらしいです。",
-            "店[みせ]は開[ひら]いているでしょう。",
-            "店[みせ]は開[ひら]いているはずです。"
+            "店[みせ]は開[あ]いているべきです。",
+            "店[みせ]は開[あ]いているらしいです。",
+            "店[みせ]は開[あ]いているでしょう。",
+            "店[みせ]は開[あ]いているはずです。"
           ],
           "correctIndex": 3,
           "explanation": "〜ているはずです = is expected to be  (based on knowledge). 開[ひら]いているはずです = should be open (based on the posted hours). はずだ expresses logical expectation from known facts."
@@ -471,7 +471,7 @@
             "Strong expectation that something is NOT true (cannot be)"
           ],
           "correctIndex": 3,
-          "explanation": "はずがない = cannot be / there's no way. It's the strong negative of はずだ. あんな優[やさ]しい人[にん]が嘘[うそ]をつくはずがない = there's no way such a kind person would lie."
+          "explanation": "はずがない = cannot be / there's no way. It's the strong negative of はずだ. あんな優[やさ]しい人[ひと]が嘘[うそ]をつくはずがない = there's no way such a kind person would lie."
         },
         {
           "id": "hazu-da_q9",
@@ -619,10 +619,10 @@
           "prompt": "Which correctly means 'The flight is supposed to land at 3pm'?",
           "japanese": null,
           "choices": [
-            "飛行機[ひこうき]は3時[とき]に着[つ]くはずです。",
-            "飛行機[ひこうき]は3時[とき]に着[つ]くべきです。",
-            "飛行機[ひこうき]は3時[とき]に着[つ]きそうです。",
-            "飛行機[ひこうき]は3時[とき]に着[つ]くようです。"
+            "飛行機[ひこうき]は3時[じ]に着[つ]くはずです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]くべきです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]きそうです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]くようです。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + はずです = is expected to  (based on schedule/facts). 着[つ]くはずです = is expected to arrive. Based on the known schedule."
@@ -872,10 +872,10 @@
             "ご説明[せつめい]なさいます。",
             "ご説明[せつめい]くださいます。",
             "お説明[せつめい]します。",
-            "ご説明[せつめ]いたします。"
+            "ご説明[せつめい]いたします。"
           ],
           "correctIndex": 3,
-          "explanation": "ご + 説明[せつめい] (verbal noun) + いたします = humble formal. ご説明[せつめ]いたします = I will (humbly) explain. This is standard business Japanese. ご/お +  + いたす is the full kenjougo pattern."
+          "explanation": "ご + 説明[せつめい] (verbal noun) + いたします = humble formal. ご説明[せつめい]いたします = I will (humbly) explain. This is standard business Japanese. ご/お +  + いたす is the full kenjougo pattern."
         },
         {
           "id": "kensongo_q15",
@@ -927,7 +927,7 @@
           "choices": [
             "ご理解[りかい]なさいます。",
             "承知[しょうち]いたしました。",
-            "ご理解[りか]います。",
+            "ご理解[りかい]います。",
             "分[わ]かりいたします。"
           ],
           "correctIndex": 1,
@@ -945,7 +945,7 @@
             "きます"
           ],
           "correctIndex": 2,
-          "explanation": "参[まい]る = kenjougo for both いく and くる. まいります = polite present. ただ今[い]まいります = I will be right there (humbly). いらっしゃる = sonkeigo for both come/go."
+          "explanation": "参[まい]る = kenjougo for both いく and くる. まいります = polite present. ただ今[いま]まいります = I will be right there (humbly). いらっしゃる = sonkeigo for both come/go."
         },
         {
           "id": "kensongo_q20",
@@ -1063,13 +1063,13 @@
           "prompt": "Which correctly says 'I'm glad I came to Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に来[き]てよかった。",
-            "日本[にっぽん]に来[こ]ればよかった。",
-            "日本[にっぽん]に来[き]たらよかった。",
-            "日本[にっぽん]に来[く]るとよかった。"
+            "日本[にほん]に来[き]てよかった。",
+            "日本[にほん]に来[く]ればよかった。",
+            "日本[にほん]に来[き]たらよかった。",
+            "日本[にほん]に来[く]るとよかった。"
           ],
           "correctIndex": 0,
-          "explanation": "〜てよかった: 来[き]て + よかった = I'm glad I came. 来[こ]ればよかった = I should have come (regret about not coming). てよかった = satisfaction; ばよかった = regret."
+          "explanation": "〜てよかった: 来[き]て + よかった = I'm glad I came. 来[く]ればよかった = I should have come (regret about not coming). てよかった = satisfaction; ばよかった = regret."
         },
         {
           "id": "te-yokatta_q6",

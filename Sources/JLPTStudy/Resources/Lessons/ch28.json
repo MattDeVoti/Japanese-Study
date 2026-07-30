@@ -145,13 +145,13 @@
           "prompt": "Which correctly uses ために for purpose: 'I work hard in order to earn money'?",
           "japanese": null,
           "choices": [
-            "お金[きん]を稼[かせ]いだために、一生懸命[いっしょうけんめい]働[はたら]く。",
-            "お金[きん]を稼[かせ]ぐために、一生懸命[いっしょうけんめい]働[はたら]く。",
-            "お金[きん]のために、一生懸命[いっしょうけんめい]働[はたら]く。",
-            "お金[きん]を稼[かせ]いでいるために、一生懸命[いっしょうけんめい]働[はたら]く。"
+            "お金[かね]を稼[かせ]いだために、一生懸命[いっしょうけんめい]働[はたら]く。",
+            "お金[かね]を稼[かせ]ぐために、一生懸命[いっしょうけんめい]働[はたら]く。",
+            "お金[かね]のために、一生懸命[いっしょうけんめい]働[はたら]く。",
+            "お金[かね]を稼[かせ]いでいるために、一生懸命[いっしょうけんめい]働[はたら]く。"
           ],
           "correctIndex": 1,
-          "explanation": "Purpose: dict-form + ために. 稼[かせ]ぐ (dict) + ために = in order to earn. 一生懸命[いっしょうけんめい]働[はたら]く = work hard. お金[きん]を稼[かせ]ぐために、一生懸命[いっしょうけんめい]働[はたら]く = I work hard in order to earn money. (Note: お金[きん]のために (option 3) also works but means 'for money' — slightly different nuance.)"
+          "explanation": "Purpose: dict-form + ために. 稼[かせ]ぐ (dict) + ために = in order to earn. 一生懸命[いっしょうけんめい]働[はたら]く = work hard. お金[かね]を稼[かせ]ぐために、一生懸命[いっしょうけんめい]働[はたら]く = I work hard in order to earn money. (Note: お金[かね]のために (option 3) also works but means 'for money' — slightly different nuance.)"
         },
         {
           "id": "tame-ni-n3_q9",
@@ -258,12 +258,12 @@
           "japanese": null,
           "choices": [
             "地震[じしん]のために、停電[ていでん]になった。",
-            "お金[きん]のために働[はたら]く。",
+            "お金[かね]のために働[はたら]く。",
             "健康[けんこう]になるために運動[うんどう]する。",
             "日本語[にほんご]を覚[おぼ]えるために教科書[きょうかしょ]を買[か]った。"
           ],
           "correctIndex": 1,
-          "explanation": "お金[きん]のために働[はたら]く = work FOR money (purpose: I work to get money) OR work BECAUSE OF money (causal: circumstances). お金[きん]のために is ambiguous — noun + のために can be both purpose and cause. Context or the main clause clarifies which."
+          "explanation": "お金[かね]のために働[はたら]く = work FOR money (purpose: I work to get money) OR work BECAUSE OF money (causal: circumstances). お金[かね]のために is ambiguous — noun + のために can be both purpose and cause. Context or the main clause clarifies which."
         },
         {
           "id": "tame-ni-n3_q17",
@@ -343,7 +343,7 @@
           "english": "Even though you know, why won't you tell me?"
         },
         {
-          "japanese": "お金[きん]があるくせに、いつもけちなことを言[い]う。",
+          "japanese": "お金[かね]があるくせに、いつもけちなことを言[い]う。",
           "romaji": "Okane ga aru kuse ni, itsumo kechi na koto wo iu.",
           "english": "Even though he has money, he's always being cheap."
         },
@@ -591,13 +591,13 @@
           "prompt": "Which correctly says 'Despite having money, he never pays'?",
           "japanese": null,
           "choices": [
-            "お金[きん]があるのに、絶対[ぜったい]に払[はら]わない。",
-            "お金[きん]があるくせに、絶対[ぜったい]に払[はら]わない。",
-            "お金[きん]があるから、絶対[ぜったい]に払[はら]わない。",
-            "お金[きん]があれば、絶対[ぜったい]に払[はら]わない。"
+            "お金[かね]があるのに、絶対[ぜったい]に払[はら]わない。",
+            "お金[かね]があるくせに、絶対[ぜったい]に払[はら]わない。",
+            "お金[かね]があるから、絶対[ぜったい]に払[はら]わない。",
+            "お金[かね]があれば、絶対[ぜったい]に払[はら]わない。"
           ],
           "correctIndex": 1,
-          "explanation": "Verb + くせに: ある + くせに = despite having. お金[きん]があるくせに、絶対[ぜったい]に払[はら]わない = despite having money, he never pays (strong criticism/resentment about his stinginess)."
+          "explanation": "Verb + くせに: ある + くせに = despite having. お金[かね]があるくせに、絶対[ぜったい]に払[はら]わない = despite having money, he never pays (strong criticism/resentment about his stinginess)."
         },
         {
           "id": "kuse-ni_q18",
@@ -801,7 +801,7 @@
           "choices": [
             "高[たか]い上[うえ]に、美味[おい]しくない。(both negative)",
             "頭[あたま]がいい上[うえ]に、運動[うんどう]もできる。(both positive)",
-            "疲[つか]れている上[うえ]に、お腹[はら]も空[あ]いた。(both negative)",
+            "疲[つか]れている上[うえ]に、お腹[なか]も空[す]いた。(both negative)",
             "字[じ]が下手[へた]な上[うえ]に、丁寧[ていねい]だ。(negative + positive — mixed)"
           ],
           "correctIndex": 3,
@@ -1063,13 +1063,13 @@
           "prompt": "Which means 'It's not necessarily true that money is everything'?",
           "japanese": null,
           "choices": [
-            "お金[きん]がすべてなわけではない。",
-            "お金[きん]がすべてのわけではない。",
-            "お金[きん]がすべてわけではない。",
-            "お金[きん]がすべてだわけではない。"
+            "お金[かね]がすべてなわけではない。",
+            "お金[かね]がすべてのわけではない。",
+            "お金[かね]がすべてわけではない。",
+            "お金[かね]がすべてだわけではない。"
           ],
           "correctIndex": 0,
-          "explanation": "な-adj/noun + なわけではない: すべて (everything) + な + わけではない = it's not that  is everything. お金[きん]がすべてなわけではない = it's not necessarily true that money is everything."
+          "explanation": "な-adj/noun + なわけではない: すべて (everything) + な + わけではない = it's not that  is everything. お金[かね]がすべてなわけではない = it's not necessarily true that money is everything."
         },
         {
           "id": "wake-dewa-nai_q6",
@@ -1111,7 +1111,7 @@
             "Describing an event that happened"
           ],
           "correctIndex": 2,
-          "explanation": "わけではない = clarifying that an assumption is incorrect. Someone assumes X; you use わけではない to say 'it's not that X'. Classic use: a friend thinks you're upset, but you say 怒[いか]っているわけではない = it's not that I'm angry."
+          "explanation": "わけではない = clarifying that an assumption is incorrect. Someone assumes X; you use わけではない to say 'it's not that X'. Classic use: a friend thinks you're upset, but you say 怒[おこ]っているわけではない = it's not that I'm angry."
         },
         {
           "id": "wake-dewa-nai_q9",
@@ -1389,7 +1389,7 @@
             "Doesn't need to do"
           ],
           "correctIndex": 1,
-          "explanation": "〜ものではない = one ought not to do / it's not right to do. 年上[としうえ]の人[にん]に失礼[しつれい]なことを言[い]うものではない = one ought not to say rude things to elders. ものではない = a social norm (negative), 'that's not something people should do'."
+          "explanation": "〜ものではない = one ought not to do / it's not right to do. 年上[としうえ]の人[ひと]に失礼[しつれい]なことを言[い]うものではない = one ought not to say rude things to elders. ものではない = a social norm (negative), 'that's not something people should do'."
         },
         {
           "id": "mono-da_q6",
@@ -1439,13 +1439,13 @@
           "prompt": "Which correctly expresses 'People naturally make mistakes'?",
           "japanese": null,
           "choices": [
-            "人[にん]は間違[まちが]えるものだ。",
-            "人[にん]は間違[まちが]えるようだ。",
-            "人[にん]は間違[まちが]えるものがある。",
-            "人[にん]は間違[まちが]えたものだ。"
+            "人[ひと]は間違[まちが]えるものだ。",
+            "人[ひと]は間違[まちが]えるようだ。",
+            "人[ひと]は間違[まちが]えるものがある。",
+            "人[ひと]は間違[まちが]えたものだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Dict-form + ものだ (natural truth): 間違[まちが]える + ものだ = it's natural to make mistakes. 人[にん]は間違[まちが]えるものだ = people naturally make mistakes / that's just how people are."
+          "explanation": "Dict-form + ものだ (natural truth): 間違[まちが]える + ものだ = it's natural to make mistakes. 人[ひと]は間違[まちが]えるものだ = people naturally make mistakes / that's just how people are."
         },
         {
           "id": "mono-da_q10",
@@ -1481,13 +1481,13 @@
           "prompt": "Which means 'I used to eat sushi frequently when I lived in Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べるものだ。",
-            "日本[にっぽん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたものだ。",
-            "日本[にっぽん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたことがある。",
-            "日本[にっぽん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べるものだった。"
+            "日本[にほん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べるものだ。",
+            "日本[にほん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたものだ。",
+            "日本[にほん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたことがある。",
+            "日本[にほん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べるものだった。"
           ],
           "correctIndex": 1,
-          "explanation": "Ta-form + ものだ (nostalgic): 食[た]べた + ものだ = used to eat. 日本[にっぽん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたものだ = when I lived in Japan, I used to eat sushi a lot (fond memory)."
+          "explanation": "Ta-form + ものだ (nostalgic): 食[た]べた + ものだ = used to eat. 日本[にほん]に住[す]んでいた頃[ごろ]、よくお寿司[すし]を食[た]べたものだ = when I lived in Japan, I used to eat sushi a lot (fond memory)."
         },
         {
           "id": "mono-da_q13",
@@ -1523,13 +1523,13 @@
           "prompt": "Which correctly says 'One should respect one's elders'?",
           "japanese": null,
           "choices": [
-            "目上[めうえ]の人[にん]を尊重[そんちょう]するものだ。",
-            "目上[めうえ]の人[にん]を尊重[そんちょう]するものではない。",
-            "目上[めうえ]の人[にん]を尊重[そんちょう]するようだ。",
-            "目上[めうえ]の人[にん]を尊重[そんちょう]するべきだ。"
+            "目上[めうえ]の人[ひと]を尊重[そんちょう]するものだ。",
+            "目上[めうえ]の人[ひと]を尊重[そんちょう]するものではない。",
+            "目上[めうえ]の人[ひと]を尊重[そんちょう]するようだ。",
+            "目上[めうえ]の人[ひと]を尊重[そんちょう]するべきだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Dict-form + ものだ (social norm/expectation): 尊重[そんちょう]する + ものだ = one is supposed to respect. 目上[めうえ]の人[にん]を尊重[そんちょう]するものだ = one ought to respect one's elders (social truth)."
+          "explanation": "Dict-form + ものだ (social norm/expectation): 尊重[そんちょう]する + ものだ = one is supposed to respect. 目上[めうえ]の人[ひと]を尊重[そんちょう]するものだ = one ought to respect one's elders (social truth)."
         },
         {
           "id": "mono-da_q16",
@@ -1551,13 +1551,13 @@
           "prompt": "Which correctly says 'People naturally want what they don't have'?",
           "japanese": null,
           "choices": [
-            "人[にん]は持[も]っていないものを欲[ほっ]しがるものだ。",
-            "人[にん]は持[も]っていないものを欲[ほっ]しがるものではない。",
-            "人[にん]は持[も]っていないものを欲[ほっ]しがったものだ。",
-            "人[にん]は持[も]っていないものを欲[ほっ]しがるようだ。"
+            "人[ひと]は持[も]っていないものを欲[ほっ]しがるものだ。",
+            "人[ひと]は持[も]っていないものを欲[ほっ]しがるものではない。",
+            "人[ひと]は持[も]っていないものを欲[ほっ]しがったものだ。",
+            "人[ひと]は持[も]っていないものを欲[ほっ]しがるようだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Dict-form + ものだ (natural truth about human nature): 欲[ほっ]しがる + ものだ = it's natural to want. 人[にん]は持[も]っていないものを欲[ほっ]しがるものだ = people naturally want what they don't have."
+          "explanation": "Dict-form + ものだ (natural truth about human nature): 欲[ほっ]しがる + ものだ = it's natural to want. 人[ひと]は持[も]っていないものを欲[ほっ]しがるものだ = people naturally want what they don't have."
         },
         {
           "id": "mono-da_q18",
@@ -1566,7 +1566,7 @@
           "japanese": null,
           "choices": [
             "子供[こども]の頃[ごろ]、よく走[はし]ったものだ。(nostalgic past)",
-            "人[にん]は努力[どりょく]するものだ。(natural truth)",
+            "人[ひと]は努力[どりょく]するものだ。(natural truth)",
             "嘘[うそ]をつくものではない。(social norm negative)",
             "明日[あした]来[く]るものだ。(command)"
           ],
@@ -1593,13 +1593,13 @@
           "prompt": "Which CORRECTLY pairs the two main uses of ものだ?",
           "japanese": null,
           "choices": [
-            "Natural truth: 人[にん]は失敗[しっぱい]するものだ / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]いたものだ",
-            "Natural truth: 人[にん]は失敗[しっぱい]したものだ / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]くものだ",
-            "Natural truth: 人[にん]は失敗[しっぱい]するものだった / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]くものだ",
+            "Natural truth: 人[ひと]は失敗[しっぱい]するものだ / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]いたものだ",
+            "Natural truth: 人[ひと]は失敗[しっぱい]したものだ / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]くものだ",
+            "Natural truth: 人[ひと]は失敗[しっぱい]するものだった / Nostalgic past: 子供[こども]の頃[ごろ]よく泣[な]くものだ",
             "They are not distinguishable"
           ],
           "correctIndex": 0,
-          "explanation": "Natural truth: dict-form + ものだ (人[にん]は失敗[しっぱい]するものだ = people naturally fail). Nostalgic past: ta-form + ものだ (子供[こども]の頃[ごろ]よく泣[な]いたものだ = I used to cry a lot as a child). The form before ものだ distinguishes: dict-form = general truth; ta-form = past nostalgic habit."
+          "explanation": "Natural truth: dict-form + ものだ (人[ひと]は失敗[しっぱい]するものだ = people naturally fail). Nostalgic past: ta-form + ものだ (子供[こども]の頃[ごろ]よく泣[な]いたものだ = I used to cry a lot as a child). The form before ものだ distinguishes: dict-form = general truth; ta-form = past nostalgic habit."
         }
       ]
     }

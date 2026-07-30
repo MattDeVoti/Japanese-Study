@@ -8,7 +8,7 @@
       "name": "〜にすぎない (ni suginai) — no more than / merely / just",
       "shortDescription": "Downplays or minimizes something by saying it is nothing more than what it is.",
       "formation": "Verb (plain form) / Noun / Adjective + にすぎない / にすぎません",
-      "explanation": "にすぎない is the grammar of the ceiling — it says: this thing does not exceed the modest level being described. The name itself gives it away: 過[す]ぎる means 'to exceed,' and にすぎない is its negative: 'does not go beyond X.' これは私[わたし]の意見[いけん]にすぎません — 'This is nothing more than my opinion' — capped at 'one person's view,' nothing more authoritative.\n\nIt comes in two flavors: humble (the speaker modestly downplaying their own achievement or status) and dismissive (limiting someone else's claim). 彼[か]の成功[せいこう]は偶然[ぐうぜん]にすぎない — 'His success is nothing but luck' — that reads as a dismissal. In academic and analytical writing, にすぎない is invaluable for scoping a claim honestly: これは一[ひと]つの仮説[かせつ]にすぎない ('This is merely one hypothesis'). Compare with だけ (only — neutral): にすぎない adds the stronger weight of 'and that's all it amounts to, no more, don't read anything further into it.'",
+      "explanation": "にすぎない is the grammar of the ceiling — it says: this thing does not exceed the modest level being described. The name itself gives it away: 過[す]ぎる means 'to exceed,' and にすぎない is its negative: 'does not go beyond X.' これは私[わたし]の意見[いけん]にすぎません — 'This is nothing more than my opinion' — capped at 'one person's view,' nothing more authoritative.\n\nIt comes in two flavors: humble (the speaker modestly downplaying their own achievement or status) and dismissive (limiting someone else's claim). 彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎない — 'His success is nothing but luck' — that reads as a dismissal. In academic and analytical writing, にすぎない is invaluable for scoping a claim honestly: これは一[ひと]つの仮説[かせつ]にすぎない ('This is merely one hypothesis'). Compare with だけ (only — neutral): にすぎない adds the stronger weight of 'and that's all it amounts to, no more, don't read anything further into it.'",
       "rules": [
         "Noun / Plain form + にすぎない = nothing more than / merely / just (downplays significance)",
         "Sets a ceiling — the subject doesn't exceed the modest level described",
@@ -23,7 +23,7 @@
           "english": "This is merely one hypothesis and nothing more."
         },
         {
-          "japanese": "私[わたし]は日本語学[にほんごがく]習[しゅう]者[もの]にすぎないので、間違[まちが]いがあるかもしれません。",
+          "japanese": "私[わたし]は日本語[にほんご]学習者[がくしゅうしゃ]にすぎないので、間違[まちが]いがあるかもしれません。",
           "romaji": "Watashi wa nihongo gakushuusha ni suginai node, machigai ga aru kamo shiremasen.",
           "english": "I am merely a Japanese language learner, so there may be mistakes."
         },
@@ -33,7 +33,7 @@
           "english": "This is no more than a surface-level change; the fundamental problem has not been resolved."
         },
         {
-          "japanese": "彼[か]の成功[せいこう]は偶然[ぐうぜん]にすぎないと批評家[ひひょうか]は言[い]いますが、私[わたし]はそう思[おも]いません。",
+          "japanese": "彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎないと批評家[ひひょうか]は言[い]いますが、私[わたし]はそう思[おも]いません。",
           "romaji": "Kare no seikou wa guuzen ni suginai to hihyouka wa iimasu ga, watashi wa sou omoimasen.",
           "english": "Critics say his success is nothing but luck, but I don't think so."
         }
@@ -338,7 +338,7 @@
       ],
       "examples": [
         {
-          "japanese": "この問題[もんだい]は日本[にっぽん]に限[かぎ]らず、世界中[せかいじゅう]で起[お]きています。",
+          "japanese": "この問題[もんだい]は日本[にほん]に限[かぎ]らず、世界中[せかいじゅう]で起[お]きています。",
           "romaji": "Kono mondai wa Nihon ni kagirazu, sekaijuu de okite imasu.",
           "english": "This problem is not limited to Japan — it is happening all over the world."
         },
@@ -349,7 +349,7 @@
         },
         {
           "japanese": "若者[わかもの]に限[かぎ]らず、中高年[ちゅうこうねん]の方々[かたがた]もスマートフォンを使[つか]っています。",
-          "romaji": "Wakamono ni kagirazu, chuukouen no katagata mo sumaatofon wo tsukatte imasu.",
+          "romaji": "Wakamono ni kagirazu, chuukounen no katagata mo sumaatofon wo tsukatte imasu.",
           "english": "Not limited to young people — middle-aged and older people also use smartphones."
         },
         {
@@ -381,13 +381,13 @@
           "prompt": "Which correctly says 'Not only in Japan but in other countries too, sushi is popular'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に限[かぎ]らず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にっぽん]だけでなく他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にっぽん]に限[かぎ]って他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にっぽん]のみならず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。"
+            "日本[にほん]に限[かぎ]らず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+            "日本[にほん]だけでなく他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+            "日本[にほん]に限[かぎ]って他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+            "日本[にほん]のみならず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 日本[にっぽん] + に限[かぎ]らず = not limited to Japan. 他[ほか]の国[くに]でも = in other countries too. Extends the scope beyond Japan."
+          "explanation": "Noun + に限[かぎ]らず: 日本[にほん] + に限[かぎ]らず = not limited to Japan. 他[ほか]の国[くに]でも = in other countries too. Extends the scope beyond Japan."
         },
         {
           "id": "ni-kagirazu_q3",
@@ -409,10 +409,10 @@
           "prompt": "Which correctly says 'Not only on weekdays but also on weekends the store is open'?",
           "japanese": null,
           "choices": [
-            "平日[へいじつ]に限[かぎ]らず週末[しゅうまつ]も店[みせ]は開[ひら]いている。",
-            "平日[へいじつ]だけでなく週末[しゅうまつ]も店[みせ]は開[ひら]いている。",
-            "平日[へいじつ]に限[かぎ]って週末[しゅうまつ]も店[みせ]は開[ひら]いている。",
-            "平日[へいじつ]のみならず週末[しゅうまつ]も店[みせ]は開[ひら]いている。"
+            "平日[へいじつ]に限[かぎ]らず週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+            "平日[へいじつ]だけでなく週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+            "平日[へいじつ]に限[かぎ]って週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+            "平日[へいじつ]のみならず週末[しゅうまつ]も店[みせ]は開[あ]いている。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + に限[かぎ]らず: 平日[へいじつ] + に限[かぎ]らず = not limited to weekdays. 週末[しゅうまつ]も = on weekends too. に限[かぎ]らず extends the scope of operating days."
@@ -669,7 +669,7 @@
         },
         {
           "japanese": "基礎知識[きそちしき]はもとより、応用力[おうようりょく]も求[もと]められる仕事[しごと]です。",
-          "romaji": "Kiso chishiki wa moto yori, ouryoku mo motomerareru shigoto desu.",
+          "romaji": "Kiso chishiki wa moto yori, ouyouryoku mo motomerareru shigoto desu.",
           "english": "It's a job that requires not only foundational knowledge, but also applied skills."
         },
         {
@@ -844,7 +844,7 @@
             "体[からだ]はもとより、心[こころ]まで疲[つか]れ切[き]った。",
             "体[からだ]はもちろん、心[こころ]まで疲[つか]れ切[き]った。",
             "体[からだ]に限[かぎ]らず、心[こころ]まで疲[つか]れ切[き]った。",
-            "体[から]だけでなく、心[こころ]まで疲[つか]れ切[き]った。"
+            "体[からだ]だけでなく、心[こころ]まで疲[つか]れ切[き]った。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + はもとより: 体[からだ] + はもとより = needless to say the body. 心[こころ]まで = even the mind. Body exhaustion assumed/expected; mental exhaustion added as extra emphasis."
@@ -939,13 +939,13 @@
           "prompt": "Which means 'This report should be read not only by specialists but also by laypersons'?",
           "japanese": null,
           "choices": [
-            "このレポートは専門家[せんもんか]はもとより、一般[いっぱん]の人[にん]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]はもちろん、一般[いっぱん]の人[にん]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の人[にん]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]だけでなく、一般[いっぱん]の人[にん]にも読[よ]んでほしい。"
+            "このレポートは専門家[せんもんか]はもとより、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+            "このレポートは専門家[せんもんか]はもちろん、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+            "このレポートは専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+            "このレポートは専門家[せんもんか]だけでなく、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + はもとより: 専門家[せんもんか] + はもとより = needless to say specialists. 一般[いっぱん]の人[にん]にも = general public too. Specialist readership assumed; general readership is the broader extension."
+          "explanation": "Noun + はもとより: 専門家[せんもんか] + はもとより = needless to say specialists. 一般[いっぱん]の人[ひと]にも = general public too. Specialist readership assumed; general readership is the broader extension."
         },
         {
           "id": "wa-moto-yori_q20",

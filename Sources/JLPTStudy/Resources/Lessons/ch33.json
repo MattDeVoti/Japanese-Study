@@ -257,7 +257,7 @@
           "prompt": "Which BEST shows the social/moral constraint nuance of わけにはいかない?",
           "japanese": null,
           "choices": [
-            "石[いし]が空[あ]から落[お]ちるわけにはいかない。(Stones can't fall from the sky.)",
+            "石[いし]が空[そら]から落[お]ちるわけにはいかない。(Stones can't fall from the sky.)",
             "友達[ともだち]を裏切[うらぎ]るわけにはいかない。(I can't betray my friend — loyalty prevents it.)",
             "水[みず]が上[うえ]に流[なが]れるわけにはいかない。(Water can't flow upward.)",
             "彼[かれ]は来[く]るわけにはいかない。(He can't come — schedule conflict.)"
@@ -271,10 +271,10 @@
           "prompt": "Which correctly says 'I can't eat in front of someone who is starving'?",
           "japanese": null,
           "choices": [
-            "飢[う]えている人[にん]の前[まえ]で食[た]べるわけにはいかない。",
-            "飢[う]えている人[にん]の前[まえ]で食[た]べるわけではない。",
-            "飢[う]えている人[にん]の前[まえ]で食[た]べるはずがない。",
-            "飢[う]えている人[にん]の前[まえ]で食[た]べることはない。"
+            "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけにはいかない。",
+            "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけではない。",
+            "飢[う]えている人[ひと]の前[まえ]で食[た]べるはずがない。",
+            "飢[う]えている人[ひと]の前[まえ]で食[た]べることはない。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + わけにはいかない: 食[た]べる + わけにはいかない = can't eat . The social/moral situation (someone is starving) makes eating in front of them unacceptable — circumstances prevent it."
@@ -313,10 +313,10 @@
           "prompt": "Which correctly says 'I can't take money from an elderly person'?",
           "japanese": null,
           "choices": [
-            "お年寄[としよ]りからお金[きん]をもらうわけにはいかない。",
-            "お年寄[としよ]りからお金[きん]をもらうわけではない。",
-            "お年寄[としよ]りからお金[きん]をもらうはずがない。",
-            "お年寄[としよ]りからお金[きん]をもらうことはない。"
+            "お年寄[としよ]りからお金[かね]をもらうわけにはいかない。",
+            "お年寄[としよ]りからお金[かね]をもらうわけではない。",
+            "お年寄[としよ]りからお金[かね]をもらうはずがない。",
+            "お年寄[としよ]りからお金[かね]をもらうことはない。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + わけにはいかない: もらう (receive) + わけにはいかない = can't receive/take. Taking money from an elderly person would be morally wrong — social/ethical constraint."
@@ -328,7 +328,7 @@
       "name": "〜ことはない — no need to / it won't happen that",
       "shortDescription": "There's no need to do X (reassurance), or X will never happen (strong assertion).",
       "formation": "Verb (dictionary form) + ことはない",
-      "explanation": "ことはない is a genuinely reassuring pattern. Its most common use is 'there's no need to': 心配[しんぱい]することはないですよ — relax, worry is unnecessary here. 急[いそ]ぐことはありません — there's time, you don't need to rush. It's the grammar of the calm mentor: a quiet word that says 'that concern doesn't apply to this situation.'\n\nThe second use is a strong assertion that something will never occur: あの人[にん]がそんなことをすることはない — that person would simply never do such a thing. Both uses share the same structure; only context tells you whether you're being reassured or receiving a firm denial.\n\nWhat makes ことはない feel different from just saying 'don't worry' is that it specifically addresses the necessity of an action and says: that action is not required here. It's precise and gentle at the same time — two qualities that work well together in Japanese communication.",
+      "explanation": "ことはない is a genuinely reassuring pattern. Its most common use is 'there's no need to': 心配[しんぱい]することはないですよ — relax, worry is unnecessary here. 急[いそ]ぐことはありません — there's time, you don't need to rush. It's the grammar of the calm mentor: a quiet word that says 'that concern doesn't apply to this situation.'\n\nThe second use is a strong assertion that something will never occur: あの人[ひと]がそんなことをすることはない — that person would simply never do such a thing. Both uses share the same structure; only context tells you whether you're being reassured or receiving a firm denial.\n\nWhat makes ことはない feel different from just saying 'don't worry' is that it specifically addresses the necessity of an action and says: that action is not required here. It's precise and gentle at the same time — two qualities that work well together in Japanese communication.",
       "rules": [
         "Dict form + ことはない = there is no need to do X (reassuring)",
         "Dict form + ことはない = it will never happen that X (strong assertion it won't occur)",
@@ -479,10 +479,10 @@
           "prompt": "ことはない can also mean 'have never done X' in a DIFFERENT pattern. Which shows this meaning?",
           "japanese": null,
           "choices": [
-            "彼[かれ]は日本[にっぽん]に行[い]くことはない。(He has no need to go to Japan.)",
-            "彼[かれ]は日本[にっぽん]に行[い]ったことはない。(He has never been to Japan.)",
-            "彼[かれ]は日本[にっぽん]に行[い]くことがない。(He never goes to Japan — habit.)",
-            "彼[かれ]は日本[にっぽん]に行[い]かないことはない。(It's not that he never goes to Japan.)"
+            "彼[かれ]は日本[にほん]に行[い]くことはない。(He has no need to go to Japan.)",
+            "彼[かれ]は日本[にほん]に行[い]ったことはない。(He has never been to Japan.)",
+            "彼[かれ]は日本[にほん]に行[い]くことがない。(He never goes to Japan — habit.)",
+            "彼[かれ]は日本[にほん]に行[い]かないことはない。(It's not that he never goes to Japan.)"
           ],
           "correctIndex": 1,
           "explanation": "〜たことはない = have never done X (experience). 行[い]ったことはない = have never been. This is a different pattern from 〜ことはない (no need). Context and the た-form distinguish the two uses."
@@ -597,7 +597,7 @@
             "昨日[きのう]食[た]べたことはない。"
           ],
           "correctIndex": 3,
-          "explanation": "昨日[きのう]食[た]べたことはない is awkward — the 'have never done X' pattern uses present tense events (日本[にっぽん]に行[い]ったことはない = have never been to Japan). 昨日[きのう]食[た]べた (ate yesterday — past specific) + ことはない is unnatural. You'd say 昨日[きのう]は何[なに]も食[た]べていない (didn't eat anything yesterday) instead."
+          "explanation": "昨日[きのう]食[た]べたことはない is awkward — the 'have never done X' pattern uses present tense events (日本[にほん]に行[い]ったことはない = have never been to Japan). 昨日[きのう]食[た]べた (ate yesterday — past specific) + ことはない is unnatural. You'd say 昨日[きのう]は何[なに]も食[た]べていない (didn't eat anything yesterday) instead."
         },
         {
           "id": "koto-wa-nai_q18",
@@ -704,7 +704,7 @@
             "彼[かれ]は仕事[しごと]を失[うしな]いかねない。",
             "彼[かれ]は仕事[しごと]を失[うしな]うかねない。",
             "彼[かれ]は仕事[しごと]を失[うしな]いかねる。",
-            "彼[かれ]は仕事[しごと]を失[う]ってかねない。"
+            "彼[かれ]は仕事[しごと]を失[うしな]ってかねない。"
           ],
           "correctIndex": 0,
           "explanation": "Masu-stem + かねない: 失[うしな]う → 失[うしな]い (masu-stem) + かねない = 失[うしな]いかねない = might lose. かねない attaches to the MASU-STEM (not dict-form or て-form)."
@@ -897,10 +897,10 @@
           "prompt": "Which correctly says 'Your careless words might hurt someone'?",
           "japanese": null,
           "choices": [
-            "不用意[ふようい]な言葉[ことば]は人[にん]を傷[きず]つけかねない。",
-            "不用意[ふようい]な言葉[ことば]は人[にん]を傷[きず]つけるかねない。",
-            "不用意[ふようい]な言葉[ことば]は人[にん]を傷[きず]つけかねる。",
-            "不用意[ふようい]な言葉[ことば]は人[にん]を傷[きず]つけてかねない。"
+            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねない。",
+            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけるかねない。",
+            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねる。",
+            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけてかねない。"
           ],
           "correctIndex": 0,
           "explanation": "Masu-stem + かねない: 傷[きず]つける → 傷[きず]つけ + かねない = 傷[きず]つけかねない = might hurt. 不用意[ふようい]な言葉[ことば] (careless words) = warning about the potential to wound others."
@@ -917,7 +917,7 @@
             "その戦略[せんりゃく]は裏目[うらめ]に出[で]てかねない。"
           ],
           "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 出[で]る → 出[しゅつ] + かねない = 出[で]かねない = might come out. 裏目[うらめ]に出[で]る = backfire. その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない = that strategy might backfire."
+          "explanation": "Masu-stem + かねない: 出[で]る → 出[で] + かねない = 出[で]かねない = might come out. 裏目[うらめ]に出[で]る = backfire. その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない = that strategy might backfire."
         },
         {
           "id": "kane-nai_q18",

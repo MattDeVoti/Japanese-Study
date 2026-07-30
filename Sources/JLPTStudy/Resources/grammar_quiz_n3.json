@@ -439,8 +439,8 @@
     "prompt": "Made intentionally FOR children: ‘a program made for children’:",
     "japanese": null,
     "choices": [
-      "子供向[む]けの番組[ばんぐみ]",
-      "子供向[む]きの番組[ばんぐみ]",
+      "子供[こども]向[む]けの番組[ばんぐみ]",
+      "子供[こども]向[む]きの番組[ばんぐみ]",
       "子供[こども]にとっての番組[ばんぐみ]",
       "子供[こども]らしい番組[ばんぐみ]"
     ],
@@ -453,8 +453,8 @@
     "prompt": "Naturally suitable: ‘This apartment is suited for beginners.’",
     "japanese": null,
     "choices": [
-      "このアパートは初心者向[む]きだ。",
-      "このアパートは初心者向[む]けに作[つく]られた。",
+      "このアパートは初心者[しょしんしゃ]向[む]きだ。",
+      "このアパートは初心者[しょしんしゃ]向[む]けに作[つく]られた。",
       "このアパートは初心者[しょしんしゃ]らしい。",
       "このアパートは初心者[しょしんしゃ]っぽい。"
     ],
@@ -803,10 +803,10 @@
     "prompt": "‘I bought it, but I haven’t used it at all.’ (formal ‘although’)",
     "japanese": null,
     "choices": [
-      "買[か]ったものの、まだ全然使[つか]っていない。",
-      "買[か]ったものだ、まだ全然使[つか]っていない。",
-      "買[か]ったもので、まだ全然使[つか]っていない。",
-      "買[か]ったものから、まだ全然使[つか]っていない。"
+      "買[か]ったものの、まだ全然[ぜんぜん]使[つか]っていない。",
+      "買[か]ったものだ、まだ全然[ぜんぜん]使[つか]っていない。",
+      "買[か]ったもので、まだ全然[ぜんぜん]使[つか]っていない。",
+      "買[か]ったものから、まだ全然[ぜんぜん]使[つか]っていない。"
     ],
     "correctIndex": 0,
     "explanation": "～ものの = ‘although / but’ (a written contrast, the expected doesn’t follow). ものだ (‘that’s how it is’) and the others don’t create the concessive ‘although’ link."

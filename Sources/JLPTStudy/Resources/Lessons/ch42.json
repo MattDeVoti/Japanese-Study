@@ -18,7 +18,7 @@
       ],
       "examples": [
         {
-          "japanese": "話[はな]し方[かた]からして、この人[にん]はかなりの専門家[せんもんか]だと分[わ]かります。",
+          "japanese": "話[はな]し方[かた]からして、この人[ひと]はかなりの専門家[せんもんか]だと分[わ]かります。",
           "romaji": "Hanashikata kara shite, kono hito wa kanari no senmonka da to wakarimasu.",
           "english": "Judging from the way this person speaks, you can tell they are quite an expert."
         },
@@ -33,7 +33,7 @@
           "english": "If you can't even manage a proper greeting, the job will be impossible."
         },
         {
-          "japanese": "タイトルからして、難[むつか]しそうな本[ほん]ですね。",
+          "japanese": "タイトルからして、難[むずか]しそうな本[ほん]ですね。",
           "romaji": "Taitoru kara shite, muzukashisou na hon desu ne.",
           "english": "Judging from the title alone, it seems like a difficult book."
         }
@@ -53,7 +53,7 @@
             "as for X"
           ],
           "correctIndex": 1,
-          "explanation": "〜からして = judging from X / even from just X. 彼[か]のレポートのタイトルからして、内容[ないよう]が想像[そうぞう]できる = judging just from the title of his report, I can imagine the content. Can also mean 'even X (to say nothing of the rest).'"
+          "explanation": "〜からして = judging from X / even from just X. 彼[かれ]のレポートのタイトルからして、内容[ないよう]が想像[そうぞう]できる = judging just from the title of his report, I can imagine the content. Can also mean 'even X (to say nothing of the rest).'"
         },
         {
           "id": "kara-shite_q2",
@@ -61,10 +61,10 @@
           "prompt": "Which correctly says 'Judging from his attitude, he seems unmotivated'?",
           "japanese": null,
           "choices": [
-            "彼[か]の態度[たいど]からして、やる気[き]がないようだ。",
-            "彼[か]の態度[たいど]からみて、やる気[き]がないようだ。",
-            "彼[か]の態度[たいど]によると、やる気[き]がないようだ。",
-            "彼[か]の態度[たいど]から判断[はんだん]して、やる気[き]がないようだ。"
+            "彼[かれ]の態度[たいど]からして、やる気[き]がないようだ。",
+            "彼[かれ]の態度[たいど]からみて、やる気[き]がないようだ。",
+            "彼[かれ]の態度[たいど]によると、やる気[き]がないようだ。",
+            "彼[かれ]の態度[たいど]から判断[はんだん]して、やる気[き]がないようだ。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + からして: 態度[たいど] + からして = judging from (his) attitude. やる気[き]がないようだ = seems unmotivated. からして draws a conclusion from a single telltale observation."
@@ -109,7 +109,7 @@
             "(1) only for people; (2) only for things"
           ],
           "correctIndex": 1,
-          "explanation": "からして use 1: Judging from X (evidence-based inference): 声[こえ]からして怒[いか]っているとわかる (from his voice alone, I can tell he's angry). Use 2: Even X (taking the smallest example): 基礎[きそ]からして間違[まちが]っている (even the basics are wrong — to say nothing of advanced things)."
+          "explanation": "からして use 1: Judging from X (evidence-based inference): 声[こえ]からして怒[おこ]っているとわかる (from his voice alone, I can tell he's angry). Use 2: Even X (taking the smallest example): 基礎[きそ]からして間違[まちが]っている (even the basics are wrong — to say nothing of advanced things)."
         },
         {
           "id": "kara-shite_q6",
@@ -131,10 +131,10 @@
           "prompt": "Which means 'Even how he speaks is rude — to say nothing of his actions'?",
           "japanese": null,
           "choices": [
-            "彼[か]の話[はな]し方[かた]からして失礼[しつれい]だ。",
-            "彼[か]の話[はな]し方[かた]からみて失礼[しつれい]だ。",
-            "彼[か]の話[はな]し方[かた]からも失礼[しつれい]だ。",
-            "彼[か]の話[はな]し方[かた]によって失礼[しつれい]だ。"
+            "彼[かれ]の話[はな]し方[かた]からして失礼[しつれい]だ。",
+            "彼[かれ]の話[はな]し方[かた]からみて失礼[しつれい]だ。",
+            "彼[かれ]の話[はな]し方[かた]からも失礼[しつれい]だ。",
+            "彼[かれ]の話[はな]し方[かた]によって失礼[しつれい]だ。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + からして: 話[はな]し方[かた] + からして = even the way he speaks. 失礼[しつれい]だ = is rude. からして implies 'even this basic thing (speaking) is rude — the rest must be worse.'"
@@ -165,7 +165,7 @@
             "からみて is for negative judgments only"
           ],
           "correctIndex": 1,
-          "explanation": "からして: 声[こえ]からして怒[いか]っているとわかる (from his voice I can tell — subjective read). Also: even X. からみて: 専門家[せんもんか]の目[め]からみて (from the viewpoint of an expert — neutral objective perspective). からして is often more impressionistic; からみて more analytical."
+          "explanation": "からして: 声[こえ]からして怒[おこ]っているとわかる (from his voice I can tell — subjective read). Also: even X. からみて: 専門家[せんもんか]の目[め]からみて (from the viewpoint of an expert — neutral objective perspective). からして is often more impressionistic; からみて more analytical."
         },
         {
           "id": "kara-shite_q10",
@@ -187,10 +187,10 @@
           "prompt": "Which means 'Even his handwriting is elegant, let alone his drawings'?",
           "japanese": null,
           "choices": [
-            "彼[か]の字[じ]からして上品[じょうひん]だ。",
-            "彼[か]の字[じ]からみて上品[じょうひん]だ。",
-            "彼[か]の字[じ]からも上品[じょうひん]だ。",
-            "彼[か]の字[じ]によって上品[じょうひん]だ。"
+            "彼[かれ]の字[じ]からして上品[じょうひん]だ。",
+            "彼[かれ]の字[じ]からみて上品[じょうひん]だ。",
+            "彼[かれ]の字[じ]からも上品[じょうひん]だ。",
+            "彼[かれ]の字[じ]によって上品[じょうひん]だ。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + からして: 字[じ] + からして = even his handwriting. 上品[じょうひん]だ = is elegant. からして implies 'even something as basic as handwriting is elegant — his drawings must be even more so.'"
@@ -257,13 +257,13 @@
           "prompt": "Which correctly says 'Judging from the price, this product is cheap'?",
           "japanese": null,
           "choices": [
-            "値段[ねだん]からして、この製品[せいひん]は安[やす]い部類[ぶるい]に入[い]る。",
-            "値段[ねだん]からみて、この製品[せいひん]は安[やす]い部類[ぶるい]に入[い]る。",
-            "値段[ねだん]によると、この製品[せいひん]は安[やす]い部類[ぶるい]に入[い]る。",
-            "値段[ねだん]から判断[はんだん]して、この製品[せいひん]は安[やす]い部類[ぶるい]に入[い]る。"
+            "値段[ねだん]からして、この製品[せいひん]は安[やす]い部類[ぶるい]に入[はい]る。",
+            "値段[ねだん]からみて、この製品[せいひん]は安[やす]い部類[ぶるい]に入[はい]る。",
+            "値段[ねだん]によると、この製品[せいひん]は安[やす]い部類[ぶるい]に入[はい]る。",
+            "値段[ねだん]から判断[はんだん]して、この製品[せいひん]は安[やす]い部類[ぶるい]に入[はい]る。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + からして: 値段[ねだん] + からして = judging from the price. 安[やす]い部類[ぶるい]に入[い]る = falls in the inexpensive category. Price as single inference point."
+          "explanation": "Noun + からして: 値段[ねだん] + からして = judging from the price. 安[やす]い部類[ぶるい]に入[はい]る = falls in the inexpensive category. Price as single inference point."
         },
         {
           "id": "kara-shite_q17",
@@ -338,7 +338,7 @@
       ],
       "examples": [
         {
-          "japanese": "多[おお]くの人[にん]の予想[よそう]に反[はん]して、その選手[せんしゅ]は金[きん]メダルを取[と]りました。",
+          "japanese": "多[おお]くの人[ひと]の予想[よそう]に反[はん]して、その選手[せんしゅ]は金[きん]メダルを取[と]りました。",
           "romaji": "Ooku no hito no yosou ni hanshite, sono senshu wa kinmedaru wo torimashita.",
           "english": "Contrary to many people's expectations, that athlete won the gold medal."
         },
@@ -563,10 +563,10 @@
           "prompt": "Which means 'Contrary to his will, the land was sold'?",
           "japanese": null,
           "choices": [
-            "彼[か]の意思[いし]に反[はん]して、土地[とち]が売[う]られた。",
-            "彼[か]の意思[いし]に対[たい]して、土地[とち]が売[う]られた。",
-            "彼[か]の意思[いし]と違[ちが]って、土地[とち]が売[う]られた。",
-            "彼[か]の意思[いし]を無視[むし]して、土地[とち]が売[う]られた。"
+            "彼[かれ]の意思[いし]に反[はん]して、土地[とち]が売[う]られた。",
+            "彼[かれ]の意思[いし]に対[たい]して、土地[とち]が売[う]られた。",
+            "彼[かれ]の意思[いし]と違[ちが]って、土地[とち]が売[う]られた。",
+            "彼[かれ]の意思[いし]を無視[むし]して、土地[とち]が売[う]られた。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + に反[はん]して: 意思[いし] + に反[はん]して = contrary to / against (his) will. 土地[とち]が売[う]られた = the land was sold. に反[はん]して marks action taken against someone's explicit wishes."

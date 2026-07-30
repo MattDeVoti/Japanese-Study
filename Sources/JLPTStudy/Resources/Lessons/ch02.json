@@ -342,7 +342,7 @@
           "english": "Whose book is that (near you)?"
         },
         {
-          "japanese": "あの人[にん]はだれですか。",
+          "japanese": "あの人[ひと]はだれですか。",
           "romaji": "Ano hito wa dare desu ka.",
           "english": "Who is that person over there?"
         },
@@ -386,7 +386,7 @@
           "id": "ko-so-a-do-noun_q3",
           "type": "fillBlank",
           "prompt": "Fill in the blank to ask about a person far from both speaker and listener.",
-          "japanese": "___人[にん]はだれですか。",
+          "japanese": "___人[ひと]はだれですか。",
           "choices": [
             "あの",
             "その",
@@ -426,7 +426,7 @@
           "id": "ko-so-a-do-noun_q6",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "その人[にん]はだれですか。",
+          "japanese": "その人[ひと]はだれですか。",
           "choices": [
             "Who is that person (near you)?",
             "Who is this person (near me)?",
@@ -434,7 +434,7 @@
             "Which person is it?"
           ],
           "correctIndex": 0,
-          "explanation": "その + noun refers to something near the listener. その人[にん] = that person (near you); だれ = who; ですか = question. 'Who is that person (near you)?' — the speaker is asking about someone near the listener."
+          "explanation": "その + noun refers to something near the listener. その人[ひと] = that person (near you); だれ = who; ですか = question. 'Who is that person (near you)?' — the speaker is asking about someone near the listener."
         },
         {
           "id": "ko-so-a-do-noun_q7",
@@ -526,13 +526,13 @@
           "prompt": "Choose the grammatically correct sentence.",
           "japanese": null,
           "choices": [
-            "どれ人[にん]はだれですか。",
+            "どれ人[ひと]はだれですか。",
             "これ電車[でんしゃ]はどれですか。",
             "あれのバスはどこへ行[い]きますか。",
             "どのバスはどこへ行[い]きますか。"
           ],
           "correctIndex": 3,
-          "explanation": "どの must precede a noun: どのバス = which bus, followed by はどこへ行[い]きますか (where does it go?). どれ is a pronoun and cannot precede 人[にん]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
+          "explanation": "どの must precede a noun: どのバス = which bus, followed by はどこへ行[い]きますか (where does it go?). どれ is a pronoun and cannot precede 人[ひと]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
         },
         {
           "id": "ko-so-a-do-noun_q14",
@@ -624,13 +624,13 @@
           "prompt": "How do you say 'That person near you is my friend' in Japanese?",
           "japanese": null,
           "choices": [
-            "あの人[にん]はわたしの友達[ともだち]です。",
-            "この人[にん]はわたしの友達[ともだち]です。",
-            "その人[にん]はわたしの友達[ともだち]です。",
-            "どの人[にん]はわたしの友達[ともだち]ですか。"
+            "あの人[ひと]はわたしの友達[ともだち]です。",
+            "この人[ひと]はわたしの友達[ともだち]です。",
+            "その人[ひと]はわたしの友達[ともだち]です。",
+            "どの人[ひと]はわたしの友達[ともだち]ですか。"
           ],
           "correctIndex": 2,
-          "explanation": "その + noun = that  near the listener. If the person is near the listener, その人[にん] is correct. あの = far from both; この = near speaker; どの asks a question. その人[にん]はわたしの友達[ともだち]です = 'That person (near you) is my friend.'"
+          "explanation": "その + noun = that  near the listener. If the person is near the listener, その人[ひと] is correct. あの = far from both; この = near speaker; どの asks a question. その人[ひと]はわたしの友達[ともだち]です = 'That person (near you) is my friend.'"
         }
       ]
     },
@@ -1272,7 +1272,7 @@
       "name": "ね and よ — sentence-final particles",
       "shortDescription": "ね seeks agreement; よ asserts information the listener doesn't know.",
       "formation": "Sentence + ね  |  Sentence + よ  |  Sentence + よね",
-      "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日[こんにち]はいい天気[てんき]ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
+      "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日[きょう]はいい天気[てんき]ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
       "rules": [
         "ね = seeking agreement or shared feeling ('isn't it?', 'right?')",
         "よ = asserting new information the listener may not know ('I'm telling you', 'you know')",
@@ -1282,7 +1282,7 @@
       ],
       "examples": [
         {
-          "japanese": "今日[こんにち]はいい天気[てんき]ですね。",
+          "japanese": "今日[きょう]はいい天気[てんき]ですね。",
           "romaji": "Kyou wa ii tenki desu ne.",
           "english": "The weather is nice today, isn't it?"
         },
@@ -1335,7 +1335,7 @@
           "id": "ne-yo_q3",
           "type": "fillBlank",
           "prompt": "You are commenting on the nice weather to someone beside you, expecting them to agree. Fill in the blank.",
-          "japanese": "今日[こんにち]はいい天気[てんき]です___。",
+          "japanese": "今日[きょう]はいい天気[てんき]です___。",
           "choices": [
             "か",
             "よ",
@@ -1420,10 +1420,10 @@
           "prompt": "Which sentence sounds most natural when you meet a friend outside on a cold winter day?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は寒[さむ]いですか。",
-            "今日[こんにち]は寒[さむ]いです。",
-            "今日[こんにち]は寒[さむ]いですよ。",
-            "今日[こんにち]は寒[さむ]いですね。"
+            "今日[きょう]は寒[さむ]いですか。",
+            "今日[きょう]は寒[さむ]いです。",
+            "今日[きょう]は寒[さむ]いですよ。",
+            "今日[きょう]は寒[さむ]いですね。"
           ],
           "correctIndex": 3,
           "explanation": "ね invites shared feeling — perfect for commenting on weather with someone who is experiencing the same cold. よ would assert the cold as new information (odd, since both are outside); ですか asks a yes/no question; plain です makes a flat statement without warmth."
@@ -1574,7 +1574,7 @@
           "prompt": "Which sentence uses よ correctly?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は月曜日[げつようび]ですよ。(telling a coworker the day of the week they already know)",
+            "今日[きょう]は月曜日[げつようび]ですよ。(telling a coworker the day of the week they already know)",
             "この道[みち]は危[あぶ]ないよね。(warning someone about a road you both pass daily)",
             "この薬[くすり]は苦[にが]いですよ。(warning someone before they take medicine they haven't tried)",
             "来年[らいねん]は暑[あつ]いですよね。(asserting future weather you both will experience)"

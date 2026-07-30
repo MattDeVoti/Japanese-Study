@@ -92,10 +92,10 @@
             "彼[かれ]は行[い]くと言[い]いました。",
             "正直[しょうじき]に言[い]うと、分[わ]からない。",
             "「感謝[かんしゃ]」とはどういう意味[いみ]ですか？",
-            "田中[たなか]さんという人[にん]が来[き]ました。"
+            "田中[たなか]さんという人[ひと]が来[き]ました。"
           ],
           "correctIndex": 3,
-          "explanation": "田中[たなか]さんという人[にん]が来[き]ました = a person named Tanaka came. という here names/identifies. Also option 3 (「感謝[かんしゃ]」とは) defines, but という in option 4 is the clearest 'naming' use."
+          "explanation": "田中[たなか]さんという人[ひと]が来[き]ました = a person named Tanaka came. という here names/identifies. Also option 3 (「感謝[かんしゃ]」とは) defines, but という in option 4 is the clearest 'naming' use."
         },
         {
           "id": "to-iu_q5",
@@ -159,7 +159,7 @@
           "prompt": "Which correctly uses というのは to explain a term?",
           "japanese": null,
           "choices": [
-            "という人[にん]は来[き]ました。",
+            "という人[ひと]は来[き]ました。",
             "「サステナビリティ」というのは、持続[じぞく]可能性[かのうせい]のことです。",
             "東京[とうきょう]というとビジネスのイメージです。",
             "という言[い]いました。"
@@ -240,8 +240,8 @@
         {
           "id": "to-iu_q15",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 田中[たなか]___人[にん]が先生[せんせい]です。(The person called Tanaka is the teacher.)",
-          "japanese": "田中[たなか]___人[にん]が先生[せんせい]です。",
+          "prompt": "Fill in the blank: 田中[たなか]___人[ひと]が先生[せんせい]です。(The person called Tanaka is the teacher.)",
+          "japanese": "田中[たなか]___人[ひと]が先生[せんせい]です。",
           "choices": [
             "とのいう",
             "というの",
@@ -249,7 +249,7 @@
             "となる"
           ],
           "correctIndex": 2,
-          "explanation": "Noun + という + noun = a  named/called . 田中[たなか] + という + 人[にん] = a person called Tanaka. という connects the name to the noun that follows."
+          "explanation": "Noun + という + noun = a  named/called . 田中[たなか] + という + 人[ひと] = a person called Tanaka. という connects the name to the noun that follows."
         },
         {
           "id": "to-iu_q16",
@@ -257,10 +257,10 @@
           "prompt": "Which correctly says 'I heard that the shop closes at 8'?",
           "japanese": null,
           "choices": [
-            "店[みせ]が8時[とき]に閉[し]まるということを聞[き]いた。",
-            "店[みせ]が8時[とき]に閉[し]まるということを聞[き]いた。",
-            "店[みせ]が8時[とき]に閉[し]まるというを聞[き]いた。",
-            "店[みせ]が8時[とき]に閉[し]まるとのということを聞[き]いた。"
+            "店[みせ]が8時[じ]に閉[し]まるということを聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるということを聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるというを聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるとのということを聞[き]いた。"
           ],
           "correctIndex": 0,
           "explanation": "〜るということを聞[き]いた = I heard that . 閉[し]まる + ということ + を + 聞[き]いた = heard that the shop closes ."
@@ -285,8 +285,8 @@
           "prompt": "Which use of という is for HEARSAY/REPORTED INFORMATION?",
           "japanese": null,
           "choices": [
-            "田中[たなか]さんという人[にん]です。",
-            "「友達[ともだち]」というのは仲[なか]の良[よ]い人[にん]のことです。",
+            "田中[たなか]さんという人[ひと]です。",
+            "「友達[ともだち]」というのは仲[なか]の良[よ]い人[ひと]のことです。",
             "明日[あした]、試合[しあい]が中止[ちゅうし]になるということです。",
             "東京[とうきょう]というのは大[おお]きい都市[とし]です。"
           ],
@@ -409,13 +409,13 @@
           "prompt": "Which correctly uses か〜か (whether X or Y) to express 'I haven't decided whether to go to Tokyo or Osaka'?",
           "japanese": null,
           "choices": [
-            "東京[とうきょう]か大阪[おおさ]かどうか決[き]めていません。",
-            "東京[とうきょう]かどうかか大阪[おおさ]か決[き]めていません。",
-            "東京[とうきょう]か大阪[おおさ]かを決[き]めていません。",
+            "東京[とうきょう]か大阪[おおさか]かどうか決[き]めていません。",
+            "東京[とうきょう]かどうかか大阪[おおさか]か決[き]めていません。",
+            "東京[とうきょう]か大阪[おおさか]かを決[き]めていません。",
             "東京[とうきょう]かか大阪[おおさか]は決[き]めていません。"
           ],
           "correctIndex": 2,
-          "explanation": "〜か〜か = whether X or Y. 東京[とうきょう]か大阪[おおさ]か = whether Tokyo or Osaka. + を + 決[き]めていません = haven't decided. The か〜か structure lists two options, unlike かどうか which is binary yes/no."
+          "explanation": "〜か〜か = whether X or Y. 東京[とうきょう]か大阪[おおさか]か = whether Tokyo or Osaka. + を + 決[き]めていません = haven't decided. The か〜か structure lists two options, unlike かどうか which is binary yes/no."
         },
         {
           "id": "ka-douka_q5",
@@ -532,8 +532,8 @@
         {
           "id": "ka-douka_q13",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 彼[かれ]が正直[しょうじき]な人[にん]___試[ため]してみます。(I'll try to find out whether he is an honest person.)",
-          "japanese": "彼[かれ]が正直[しょうじき]な人[にん]___試[ため]してみます。",
+          "prompt": "Fill in the blank: 彼[かれ]が正直[しょうじき]な人[ひと]___試[ため]してみます。(I'll try to find out whether he is an honest person.)",
+          "japanese": "彼[かれ]が正直[しょうじき]な人[ひと]___試[ため]してみます。",
           "choices": [
             "かどうかを",
             "かどうかに",
@@ -541,7 +541,7 @@
             "かどうかで"
           ],
           "correctIndex": 0,
-          "explanation": "〜かどうかを試[ため]す = try to find out whether. 正直[しょうじき]な人[にん] + かどうか + を + 試[ため]してみます = I'll try to find out whether he's an honest person. かどうか clause marked with を as the object."
+          "explanation": "〜かどうかを試[ため]す = try to find out whether. 正直[しょうじき]な人[ひと] + かどうか + を + 試[ため]してみます = I'll try to find out whether he's an honest person. かどうか clause marked with を as the object."
         },
         {
           "id": "ka-douka_q14",
@@ -611,7 +611,7 @@
             "Only in formal writing"
           ],
           "correctIndex": 1,
-          "explanation": "か alone is used when listing two clear choices: 東京[とうきょう]か大阪[おおさ]か (Tokyo or Osaka). かどうか is for a binary 'whether or not.' Both can function similarly but か〜か lists specific alternatives while かどうか is for yes/no."
+          "explanation": "か alone is used when listing two clear choices: 東京[とうきょう]か大阪[おおさか]か (Tokyo or Osaka). かどうか is for a binary 'whether or not.' Both can function similarly but か〜か lists specific alternatives while かどうか is for yes/no."
         },
         {
           "id": "ka-douka_q19",
@@ -669,7 +669,7 @@
         },
         {
           "japanese": "日本語[にほんご]の発音[はつおん]は外国人[がいこくじん]には難[むずか]しくて、言[い]いにくいものが多[おお]いです。",
-          "romaji": "Nihongo no hatsuon wa gaikokujin ni wa muzukashikute, iinikunai mono ga ooi desu.",
+          "romaji": "Nihongo no hatsuon wa gaikokujin ni wa muzukashikute, iinikui mono ga ooi desu.",
           "english": "Japanese pronunciation has many things that are hard for foreigners to say."
         },
         {

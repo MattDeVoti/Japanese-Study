@@ -23,7 +23,7 @@
           "english": "No sooner had the match ended than the spectators streamed onto the field."
         },
         {
-          "japanese": "彼女[かのじょ]は家[いえ]に入[い]るやいなや、泣[な]き崩[くず]れてしまった。",
+          "japanese": "彼女[かのじょ]は家[いえ]に入[はい]るやいなや、泣[な]き崩[くず]れてしまった。",
           "romaji": "Kanojo wa ie ni hairu ya ina ya, nakikuzurete shimatta.",
           "english": "The moment she entered the house, she broke down crying."
         },
@@ -33,7 +33,7 @@
           "english": "No sooner had the news come out than the phone started ringing."
         },
         {
-          "japanese": "部屋[へや]を出[で]るやいなや、激[はげ]しい雨[あめ]が降[お]り始[はじ]めた。",
+          "japanese": "部屋[へや]を出[で]るやいなや、激[はげ]しい雨[あめ]が降[ふ]り始[はじ]めた。",
           "romaji": "Heya wo deru ya ina ya, hageshii ame ga furihajimeta.",
           "english": "The very moment I left the room, heavy rain started falling."
         }
@@ -53,7 +53,7 @@
             "although / despite X"
           ],
           "correctIndex": 0,
-          "explanation": "〜やいなや = as soon as / the moment X happened, Y happened immediately after. ドアを開[ひら]けるやいなや猫[ねこ]が逃[に]げた = the moment I opened the door, the cat escaped. Emphasizes near-simultaneous succession — often unexpected or instinctive reactions."
+          "explanation": "〜やいなや = as soon as / the moment X happened, Y happened immediately after. ドアを開[あ]けるやいなや猫[ねこ]が逃[に]げた = the moment I opened the door, the cat escaped. Emphasizes near-simultaneous succession — often unexpected or instinctive reactions."
         },
         {
           "id": "ya-inaya_q2",
@@ -109,7 +109,7 @@
             "Masu-stem"
           ],
           "correctIndex": 1,
-          "explanation": "Verb DICTIONARY FORM (plain non-past) + やいなや. This is a key feature: 開[ひら]ける + やいなや (not 開[ひら]けた + やいなや). Contrast with とたんに which takes past form."
+          "explanation": "Verb DICTIONARY FORM (plain non-past) + やいなや. This is a key feature: 開[あ]ける + やいなや (not 開[あ]けた + やいなや). Contrast with とたんに which takes past form."
         },
         {
           "id": "ya-inaya_q6",
@@ -131,10 +131,10 @@
           "prompt": "Which means 'The moment the doors opened, customers rushed in'?",
           "japanese": null,
           "choices": [
-            "ドアが開[ひら]くやいなや、客[きゃく]が押[お]し寄[よ]せた。",
-            "ドアが開[ひら]いたとたんに、客[きゃく]が押[お]し寄[よ]せた。",
-            "ドアが開[ひら]くと、客[きゃく]が押[お]し寄[よ]せた。",
-            "ドアが開[ひら]いたら、客[きゃく]が押[お]し寄[よ]せた。"
+            "ドアが開[あ]くやいなや、客[きゃく]が押[お]し寄[よ]せた。",
+            "ドアが開[あ]いたとたんに、客[きゃく]が押[お]し寄[よ]せた。",
+            "ドアが開[あ]くと、客[きゃく]が押[お]し寄[よ]せた。",
+            "ドアが開[あ]いたら、客[きゃく]が押[お]し寄[よ]せた。"
           ],
           "correctIndex": 0,
           "explanation": "Verb dict-form + やいなや: 開[ひら]く + やいなや = the moment it opened. 押[お]し寄[よ]せた = rushed in / surged. Near-simultaneous event succession."
@@ -165,7 +165,7 @@
             "とたんに is for written Japanese only"
           ],
           "correctIndex": 1,
-          "explanation": "やいなや: 開[ひら]ける + やいなや (dict-form) — more literary/formal, strong emphasis on immediacy. とたんに: 開[ひら]けた + とたんに (past-form) — more common in everyday use. Both = the moment / as soon as. やいなや is more dramatic."
+          "explanation": "やいなや: 開[あ]ける + やいなや (dict-form) — more literary/formal, strong emphasis on immediacy. とたんに: 開[あ]けた + とたんに (past-form) — more common in everyday use. Both = the moment / as soon as. やいなや is more dramatic."
         },
         {
           "id": "ya-inaya_q10",
@@ -216,12 +216,12 @@
           "japanese": null,
           "choices": [
             "No, both clauses must share the same subject",
-            "Yes — ドアが開[ひら]くやいなや猫[ねこ]が逃[に]げた (door opens → cat escapes; different subjects). The trigger and the reaction can involve different actors",
+            "Yes — ドアが開[あ]くやいなや猫[ねこ]が逃[に]げた (door opens → cat escapes; different subjects). The trigger and the reaction can involve different actors",
             "Only if both are animate",
             "Only in written Japanese"
           ],
           "correctIndex": 1,
-          "explanation": "Yes: ドアが開[ひら]くやいなや猫[ねこ]が逃[に]げた = the moment the door opened, the cat escaped. Different subjects: door (trigger) ≠ cat (reactor). やいなや connects two near-simultaneous events regardless of shared subjects."
+          "explanation": "Yes: ドアが開[あ]くやいなや猫[ねこ]が逃[に]げた = the moment the door opened, the cat escaped. Different subjects: door (trigger) ≠ cat (reactor). やいなや connects two near-simultaneous events regardless of shared subjects."
         },
         {
           "id": "ya-inaya_q14",
@@ -243,10 +243,10 @@
           "prompt": "Which means 'The moment it started raining, she opened her umbrella'?",
           "japanese": null,
           "choices": [
-            "雨[あめ]が降[お]り出[だ]すやいなや、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
-            "雨[あめ]が降[お]り出[だ]したとたんに、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
-            "雨[あめ]が降[お]り出[だ]すと、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
-            "雨[あめ]が降[お]り出[だ]したら、彼女[かのじょ]は傘[かさ]を開[ひら]いた。"
+            "雨[あめ]が降[ふ]り出[だ]すやいなや、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
+            "雨[あめ]が降[ふ]り出[だ]したとたんに、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
+            "雨[あめ]が降[ふ]り出[だ]すと、彼女[かのじょ]は傘[かさ]を開[ひら]いた。",
+            "雨[あめ]が降[ふ]り出[だ]したら、彼女[かのじょ]は傘[かさ]を開[ひら]いた。"
           ],
           "correctIndex": 0,
           "explanation": "Verb dict-form + やいなや: 降[お]り出[だ]す + やいなや = the moment it started raining. 傘[かさ]を開[ひら]いた = opened umbrella. Instantaneous response to rain onset."
@@ -258,9 +258,9 @@
           "japanese": null,
           "choices": [
             "電車[でんしゃ]に乗[の]るやいなや、彼[かれ]はゲームを始[はじ]めた。",
-            "電車[でんしゃ]に乗[じょう]ったとたんに、彼[かれ]はゲームを始[はじ]めた。",
+            "電車[でんしゃ]に乗[の]ったとたんに、彼[かれ]はゲームを始[はじ]めた。",
             "電車[でんしゃ]に乗[の]ると、彼[かれ]はゲームを始[はじ]めた。",
-            "電車[でんしゃ]に乗[じょう]ったら、彼[かれ]はゲームを始[はじ]めた。"
+            "電車[でんしゃ]に乗[の]ったら、彼[かれ]はゲームを始[はじ]めた。"
           ],
           "correctIndex": 0,
           "explanation": "Verb dict-form + やいなや: 乗[の]る + やいなや = the moment (he) got on. ゲームを始[はじ]めた = started playing games. Instantaneous routine behavior."
@@ -313,13 +313,13 @@
           "prompt": "Which correctly says 'The moment we entered the restaurant, we were overwhelmed by the aroma'?",
           "japanese": null,
           "choices": [
-            "レストランに入[い]るやいなや、いい匂[にお]いに圧倒[あっとう]された。",
+            "レストランに入[はい]るやいなや、いい匂[にお]いに圧倒[あっとう]された。",
             "レストランに入[はい]ったとたんに、いい匂[にお]いに圧倒[あっとう]された。",
-            "レストランに入[い]ると、いい匂[にお]いに圧倒[あっとう]された。",
+            "レストランに入[はい]ると、いい匂[にお]いに圧倒[あっとう]された。",
             "レストランに入[はい]ったら、いい匂[にお]いに圧倒[あっとう]された。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb dict-form + やいなや: 入[い]る + やいなや = the moment we entered. いい匂[にお]いに圧倒[あっとう]された = overwhelmed by the wonderful aroma. Instantaneous sensory experience."
+          "explanation": "Verb dict-form + やいなや: 入[はい]る + やいなや = the moment we entered. いい匂[にお]いに圧倒[あっとう]された = overwhelmed by the wonderful aroma. Instantaneous sensory experience."
         }
       ]
     },
@@ -328,7 +328,7 @@
       "name": "〜て以来[いらい] (te irai) — since / ever since",
       "shortDescription": "Marks a starting point in the past from which a state has continued up to the present.",
       "formation": "Verb (て-form) + 以来[いらい] + present state that has continued since then",
-      "explanation": "て以来[いらい] is the grammar of a life-changing moment — 'ever since.' It marks a one-time past event that functioned as a turning point, then describes a state or action that has continued unbroken from that moment to now. 日本[にっぽん]に来[き]て以来[いらい]、毎日[まいにち]日本語[にほんご]を勉強[べんきょう]しています: 'Ever since coming to Japan, I've been studying Japanese every day.' The arrival was the pivot; the daily studying has continued without interruption since.\n\nKey constraints: the event in the て-form must be one-time (not repeated), and the main clause must describe a continuing state — not a completed action.\n\nて以来[いらい] is more formal and carries more weight than から (since), which can be casual and can refer to future time. て以来[いらい] is for significant events that divided life into before and after — the kind of moment that changes things. それ以来[いらい] (ever since that / from that point on) at the start of a sentence works the same way without requiring a preceding verb.",
+      "explanation": "て以来[いらい] is the grammar of a life-changing moment — 'ever since.' It marks a one-time past event that functioned as a turning point, then describes a state or action that has continued unbroken from that moment to now. 日本[にほん]に来[き]て以来[いらい]、毎日[まいにち]日本語[にほんご]を勉強[べんきょう]しています: 'Ever since coming to Japan, I've been studying Japanese every day.' The arrival was the pivot; the daily studying has continued without interruption since.\n\nKey constraints: the event in the て-form must be one-time (not repeated), and the main clause must describe a continuing state — not a completed action.\n\nて以来[いらい] is more formal and carries more weight than から (since), which can be casual and can refer to future time. て以来[いらい] is for significant events that divided life into before and after — the kind of moment that changes things. それ以来[いらい] (ever since that / from that point on) at the start of a sentence works the same way without requiring a preceding verb.",
       "rules": [
         "Verb (て-form) + 以来[いらい] = ever since [action]; state has continued from that point",
         "The て-form event is a one-time past event that marked a beginning, not a repeated action",
@@ -373,7 +373,7 @@
             "after doing X, then Y"
           ],
           "correctIndex": 1,
-          "explanation": "〜て以来[いらい] = ever since X / from the time of X. 日本[にっぽん]に来[き]て以来[いらい]、ずっと日本語[にほんご]を勉強[べんきょう]している = ever since coming to Japan, I've been continuously studying Japanese. It marks a start point for a continuing condition."
+          "explanation": "〜て以来[いらい] = ever since X / from the time of X. 日本[にほん]に来[き]て以来[いらい]、ずっと日本語[にほんご]を勉強[べんきょう]している = ever since coming to Japan, I've been continuously studying Japanese. It marks a start point for a continuing condition."
         },
         {
           "id": "te-irai_q2",
@@ -383,7 +383,7 @@
           "choices": [
             "彼[かれ]と出会[であ]って以来[いらい]、忘[わす]れられない。",
             "彼[かれ]と出会[であ]ってから、忘[わす]れられない。",
-            "彼[かれ]と出会[であ]った後[のち]、忘[わす]れられない。",
+            "彼[かれ]と出会[であ]った後[あと]、忘[わす]れられない。",
             "彼[かれ]と出会[であ]って以降[いこう]、忘[わす]れられない。"
           ],
           "correctIndex": 0,
@@ -397,7 +397,7 @@
           "choices": [
             "タバコをやめて以来[いらい]、健康[けんこう]になった気[き]がする。",
             "タバコをやめてから、健康[けんこう]になった気[き]がする。",
-            "タバコをやめた後[のち]、健康[けんこう]になった気[き]がする。",
+            "タバコをやめた後[あと]、健康[けんこう]になった気[き]がする。",
             "タバコをやめて以降[いこう]、健康[けんこう]になった気[き]がする。"
           ],
           "correctIndex": 0,
@@ -411,7 +411,7 @@
           "choices": [
             "あの旅行[りょこう]から帰[かえ]って以来[いらい]、もう一度[いちど]行[い]きたいと思[おも]っている。",
             "あの旅行[りょこう]から帰[かえ]ってから、もう一度[いちど]行[い]きたいと思[おも]っている。",
-            "あの旅行[りょこう]から帰[かえ]った後[のち]、もう一度[いちど]行[い]きたいと思[おも]っている。",
+            "あの旅行[りょこう]から帰[かえ]った後[あと]、もう一度[いちど]行[い]きたいと思[おも]っている。",
             "あの旅行[りょこう]から帰[かえ]って以降[いこう]、もう一度[いちど]行[い]きたいと思[おも]っている。"
           ],
           "correctIndex": 0,
@@ -439,7 +439,7 @@
           "choices": [
             "この仕事[しごと]を始[はじ]めて以来[いらい]、ちゃんとした休暇[きゅうか]を取[と]っていない。",
             "この仕事[しごと]を始[はじ]めてから、ちゃんとした休暇[きゅうか]を取[と]っていない。",
-            "この仕事[しごと]を始[はじ]めた後[のち]、ちゃんとした休暇[きゅうか]を取[と]っていない。",
+            "この仕事[しごと]を始[はじ]めた後[あと]、ちゃんとした休暇[きゅうか]を取[と]っていない。",
             "この仕事[しごと]を始[はじ]めて以降[いこう]、ちゃんとした休暇[きゅうか]を取[と]っていない。"
           ],
           "correctIndex": 0,
@@ -453,7 +453,7 @@
           "choices": [
             "あの事故[じこ]に遭[あ]って以来[いらい]、運転[うんてん]が怖[こわ]くなった。",
             "あの事故[じこ]に遭[あ]ってから、運転[うんてん]が怖[こわ]くなった。",
-            "あの事故[じこ]に遭[あ]った後[のち]、運転[うんてん]が怖[こわ]くなった。",
+            "あの事故[じこ]に遭[あ]った後[あと]、運転[うんてん]が怖[こわ]くなった。",
             "あの事故[じこ]に遭[あ]って以降[いこう]、運転[うんてん]が怖[こわ]くなった。"
           ],
           "correctIndex": 0,
@@ -467,7 +467,7 @@
           "choices": [
             "結婚[けっこん]して以来[いらい]、彼[かれ]はずっと幸[しあわ]せそうだ。",
             "結婚[けっこん]してから、彼[かれ]はずっと幸[しあわ]せそうだ。",
-            "結婚[けっこん]した後[のち]、彼[かれ]はずっと幸[しあわ]せそうだ。",
+            "結婚[けっこん]した後[あと]、彼[かれ]はずっと幸[しあわ]せそうだ。",
             "結婚[けっこん]して以降[いこう]、彼[かれ]はずっと幸[しあわ]せそうだ。"
           ],
           "correctIndex": 0,
@@ -495,7 +495,7 @@
           "choices": [
             "この街[まち]に引[ひ]っ越[こ]して以来[いらい]、ずっと好[す]きだ。",
             "この街[まち]に引[ひ]っ越[こ]してから、ずっと好[す]きだ。",
-            "この街[まち]に引[ひ]っ越[こ]した後[のち]、ずっと好[す]きだ。",
+            "この街[まち]に引[ひ]っ越[こ]した後[あと]、ずっと好[す]きだ。",
             "この街[まち]に引[ひ]っ越[こ]して以降[いこう]、ずっと好[す]きだ。"
           ],
           "correctIndex": 0,
@@ -509,7 +509,7 @@
           "choices": [
             "あの映画[えいが]を見[み]て以来[いらい]、宇宙[うちゅう]に興味[きょうみ]を持[も]っている。",
             "あの映画[えいが]を見[み]てから、宇宙[うちゅう]に興味[きょうみ]を持[も]っている。",
-            "あの映画[えいが]を見[み]た後[のち]、宇宙[うちゅう]に興味[きょうみ]を持[も]っている。",
+            "あの映画[えいが]を見[み]た後[あと]、宇宙[うちゅう]に興味[きょうみ]を持[も]っている。",
             "あの映画[えいが]を見[み]て以降[いこう]、宇宙[うちゅう]に興味[きょうみ]を持[も]っている。"
           ],
           "correctIndex": 0,
@@ -523,7 +523,7 @@
           "choices": [
             "大学[だいがく]を卒業[そつぎょう]して以来[いらい]、あの友達[ともだち]に会[あ]っていない。",
             "大学[だいがく]を卒業[そつぎょう]してから、あの友達[ともだち]に会[あ]っていない。",
-            "大学[だいがく]を卒業[そつぎょう]した後[のち]、あの友達[ともだち]に会[あ]っていない。",
+            "大学[だいがく]を卒業[そつぎょう]した後[あと]、あの友達[ともだち]に会[あ]っていない。",
             "大学[だいがく]を卒業[そつぎょう]して以降[いこう]、あの友達[ともだち]に会[あ]っていない。"
           ],
           "correctIndex": 0,
@@ -549,13 +549,13 @@
           "prompt": "Which correctly says 'Ever since losing his job, he has been depressed'?",
           "japanese": null,
           "choices": [
-            "仕事[しごと]を失[う]って以来[いらい]、彼[かれ]は落[お]ち込[こ]んでいる。",
-            "仕事[しごと]を失[う]ってから、彼[かれ]は落[お]ち込[こ]んでいる。",
-            "仕事[しごと]を失[う]った後[のち]、彼[かれ]は落[お]ち込[こ]んでいる。",
-            "仕事[しごと]を失[う]って以降[いこう]、彼[かれ]は落[お]ち込[こ]んでいる。"
+            "仕事[しごと]を失[うしな]って以来[いらい]、彼[かれ]は落[お]ち込[こ]んでいる。",
+            "仕事[しごと]を失[うしな]ってから、彼[かれ]は落[お]ち込[こ]んでいる。",
+            "仕事[しごと]を失[うしな]った後[あと]、彼[かれ]は落[お]ち込[こ]んでいる。",
+            "仕事[しごと]を失[うしな]って以降[いこう]、彼[かれ]は落[お]ち込[こ]んでいる。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb te-form + 以来[いらい]: 失[う]って + 以来[いらい] = ever since losing. 落[お]ち込[こ]んでいる = has been depressed. Continuous depressed state from job loss to present."
+          "explanation": "Verb te-form + 以来[いらい]: 失[うしな]って + 以来[いらい] = ever since losing. 落[お]ち込[こ]んでいる = has been depressed. Continuous depressed state from job loss to present."
         },
         {
           "id": "te-irai_q15",
@@ -563,13 +563,13 @@
           "prompt": "Which means 'Ever since that day, I have never complained again'?",
           "japanese": null,
           "choices": [
-            "あの日[にち]以来[いらい]、二度[にど]と文句[もんく]を言[い]っていない。",
-            "あの日[にち]から、二度[にど]と文句[もんく]を言[い]っていない。",
-            "あの日[にち]の後[のち]、二度[にど]と文句[もんく]を言[い]っていない。",
-            "あの日[にち]以降[いこう]、二度[にど]と文句[もんく]を言[い]っていない。"
+            "あの日[ひ]以来[いらい]、二度[にど]と文句[もんく]を言[い]っていない。",
+            "あの日[ひ]から、二度[にど]と文句[もんく]を言[い]っていない。",
+            "あの日[ひ]の後[あと]、二度[にど]と文句[もんく]を言[い]っていない。",
+            "あの日[ひ]以降[いこう]、二度[にど]と文句[もんく]を言[い]っていない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun (あの日[にち]) + 以来[いらい] = ever since that day. 二度[にど]と文句[もんく]を言[い]っていない = have never complained again. 以来[いらい] marks that day as the start of a continuing behavioral change."
+          "explanation": "Noun (あの日[ひ]) + 以来[いらい] = ever since that day. 二度[にど]と文句[もんく]を言[い]っていない = have never complained again. 以来[いらい] marks that day as the start of a continuing behavioral change."
         },
         {
           "id": "te-irai_q16",
@@ -579,7 +579,7 @@
           "choices": [
             "ピアノを習[なら]い始[はじ]めて以来[いらい]、毎日[まいにち]練習[れんしゅう]している。",
             "ピアノを習[なら]い始[はじ]めてから、毎日[まいにち]練習[れんしゅう]している。",
-            "ピアノを習[なら]い始[はじ]めた後[のち]、毎日[まいにち]練習[れんしゅう]している。",
+            "ピアノを習[なら]い始[はじ]めた後[あと]、毎日[まいにち]練習[れんしゅう]している。",
             "ピアノを習[なら]い始[はじ]めて以降[いこう]、毎日[まいにち]練習[れんしゅう]している。"
           ],
           "correctIndex": 0,
@@ -607,7 +607,7 @@
           "choices": [
             "彼女[かのじょ]がここで働[はたら]き始[はじ]めて以来[いらい]、オフィスの雰囲気[ふんいき]が変[か]わった。",
             "彼女[かのじょ]がここで働[はたら]き始[はじ]めてから、オフィスの雰囲気[ふんいき]が変[か]わった。",
-            "彼女[かのじょ]がここで働[はたら]き始[はじ]めた後[のち]、オフィスの雰囲気[ふんいき]が変[か]わった。",
+            "彼女[かのじょ]がここで働[はたら]き始[はじ]めた後[あと]、オフィスの雰囲気[ふんいき]が変[か]わった。",
             "彼女[かのじょ]がここで働[はたら]き始[はじ]めて以降[いこう]、オフィスの雰囲気[ふんいき]が変[か]わった。"
           ],
           "correctIndex": 0,
@@ -621,7 +621,7 @@
           "choices": [
             "会社[かいしゃ]が設立[せつりつ]されて以来[いらい]、高品質[こうひんしつ]を維持[いじ]している。",
             "会社[かいしゃ]が設立[せつりつ]されてから、高品質[こうひんしつ]を維持[いじ]している。",
-            "会社[かいしゃ]が設立[せつりつ]された後[のち]、高品質[こうひんしつ]を維持[いじ]している。",
+            "会社[かいしゃ]が設立[せつりつ]された後[あと]、高品質[こうひんしつ]を維持[いじ]している。",
             "会社[かいしゃ]が設立[せつりつ]されて以降[いこう]、高品質[こうひんしつ]を維持[いじ]している。"
           ],
           "correctIndex": 0,
@@ -635,7 +635,7 @@
           "choices": [
             "このダイエットを始[はじ]めて以来[いらい]、体[からだ]の調子[ちょうし]がいい。",
             "このダイエットを始[はじ]めてから、体[からだ]の調子[ちょうし]がいい。",
-            "このダイエットを始[はじ]めた後[のち]、体[からだ]の調子[ちょうし]がいい。",
+            "このダイエットを始[はじ]めた後[あと]、体[からだ]の調子[ちょうし]がいい。",
             "このダイエットを始[はじ]めて以降[いこう]、体[からだ]の調子[ちょうし]がいい。"
           ],
           "correctIndex": 0,
@@ -648,7 +648,7 @@
       "name": "〜とたんに (totan ni) — just as / the moment / the instant",
       "shortDescription": "Describes an immediate and often surprising action that occurs right at the moment of another.",
       "formation": "Verb (た-form, past) + とたんに + immediate surprising result",
-      "explanation": "とたんに means 'the moment' or 'the instant' — and it frequently comes with a side of surprise or irony. 外[そと]に出[で]たとたんに、大雨[おおあめ]が降[お]り始[はじ]めた: 'The moment I stepped outside, heavy rain started' — of course it did. The timing is both immediate and somehow unwelcome.\n\nOne rule you cannot ignore: the verb before とたんに must be in た-form (past tense), even when the two events feel simultaneous — this is a fixed grammar rule with no exceptions. Compare this with やいなや, which takes dictionary form. The second event in the main clause is typically unintended or unplanned — it happens on its own, without the subject's agency.\n\nとたんに is more everyday and conversational than やいなや (which is purely literary), while both express extreme immediacy. Think of とたんに as the grammar of 'of course that happened right at that moment' — the inevitable, slightly ironic coincidence of timing.",
+      "explanation": "とたんに means 'the moment' or 'the instant' — and it frequently comes with a side of surprise or irony. 外[そと]に出[で]たとたんに、大雨[おおあめ]が降[ふ]り始[はじ]めた: 'The moment I stepped outside, heavy rain started' — of course it did. The timing is both immediate and somehow unwelcome.\n\nOne rule you cannot ignore: the verb before とたんに must be in た-form (past tense), even when the two events feel simultaneous — this is a fixed grammar rule with no exceptions. Compare this with やいなや, which takes dictionary form. The second event in the main clause is typically unintended or unplanned — it happens on its own, without the subject's agency.\n\nとたんに is more everyday and conversational than やいなや (which is purely literary), while both express extreme immediacy. Think of とたんに as the grammar of 'of course that happened right at that moment' — the inevitable, slightly ironic coincidence of timing.",
       "rules": [
         "Verb (た-form) + とたんに = the moment / the instant (immediate, often surprising result)",
         "The verb before とたんに MUST be in た-form (past), regardless of tense context",
@@ -658,7 +658,7 @@
       ],
       "examples": [
         {
-          "japanese": "外[そと]に出[で]たとたんに、雨[あめ]が降[お]り始[はじ]めました。",
+          "japanese": "外[そと]に出[で]たとたんに、雨[あめ]が降[ふ]り始[はじ]めました。",
           "romaji": "Soto ni deta totan ni, ame ga furihajimemashita.",
           "english": "The moment I went outside, it started raining."
         },
@@ -673,7 +673,7 @@
           "english": "The moment the exam ended, I forgot almost everything I had learned."
         },
         {
-          "japanese": "彼[か]の名前[なまえ]を呼[よ]んだとたんに、ドアが開[ひら]いた。",
+          "japanese": "彼[かれ]の名前[なまえ]を呼[よ]んだとたんに、ドアが開[あ]いた。",
           "romaji": "Kare no namae wo yonda totan ni, doa ga aita.",
           "english": "The instant I called his name, the door opened."
         }
@@ -693,7 +693,7 @@
             "although"
           ],
           "correctIndex": 1,
-          "explanation": "〜とたんに = the moment / as soon as (often with a sense of surprise or unexpectedness). ドアを開[ひら]けたとたんに、犬[いぬ]が飛[と]び出[で]た = the moment I opened the door, the dog ran out. Emphasis on immediacy and often an unexpected second event."
+          "explanation": "〜とたんに = the moment / as soon as (often with a sense of surprise or unexpectedness). ドアを開[あ]けたとたんに、犬[いぬ]が飛[と]び出[で]た = the moment I opened the door, the dog ran out. Emphasis on immediacy and often an unexpected second event."
         },
         {
           "id": "to-tota-n-ni_q2",
@@ -715,10 +715,10 @@
           "prompt": "Which means 'The moment it started raining, my umbrella broke'?",
           "japanese": null,
           "choices": [
-            "雨[あめ]が降[お]り出[だ]したとたんに、傘[かさ]が壊[こわ]れた。",
-            "雨[あめ]が降[お]り出[だ]すやいなや、傘[かさ]が壊[こわ]れた。",
-            "雨[あめ]が降[お]り出[だ]してから、傘[かさ]が壊[こわ]れた。",
-            "雨[あめ]が降[お]り出[だ]したら、傘[かさ]が壊[こわ]れた。"
+            "雨[あめ]が降[ふ]り出[だ]したとたんに、傘[かさ]が壊[こわ]れた。",
+            "雨[あめ]が降[ふ]り出[だ]すやいなや、傘[かさ]が壊[こわ]れた。",
+            "雨[あめ]が降[ふ]り出[だ]してから、傘[かさ]が壊[こわ]れた。",
+            "雨[あめ]が降[ふ]り出[だ]したら、傘[かさ]が壊[こわ]れた。"
           ],
           "correctIndex": 0,
           "explanation": "Verb past + とたんに: 降[お]り出[だ]した + とたんに = the moment it started raining. 傘[かさ]が壊[こわ]れた = umbrella broke. Murphy's Law timing — typical とたんに scenario."
@@ -749,7 +749,7 @@
             "Masu-stem"
           ],
           "correctIndex": 1,
-          "explanation": "Verb PAST (ta-form) + とたんに: 開[ひら]けた + とたんに, 始[はじ]まった + とたんに. Contrast with やいなや which uses dictionary form. とたんに: PAST-form. やいなや: DICT-form."
+          "explanation": "Verb PAST (ta-form) + とたんに: 開[あ]けた + とたんに, 始[はじ]まった + とたんに. Contrast with やいなや which uses dictionary form. とたんに: PAST-form. やいなや: DICT-form."
         },
         {
           "id": "to-tota-n-ni_q6",
@@ -911,13 +911,13 @@
           "prompt": "Which is GRAMMATICALLY correct — past or dict-form before とたんに?",
           "japanese": null,
           "choices": [
-            "開[ひら]けるとたんに (dict-form — INCORRECT)",
-            "開[ひら]けたとたんに (past form — CORRECT)",
-            "開[ひら]けてとたんに (te-form — INCORRECT)",
-            "開[ひら]けますとたんに (masu-form — INCORRECT)"
+            "開[あ]けるとたんに (dict-form — INCORRECT)",
+            "開[あ]けたとたんに (past form — CORRECT)",
+            "開[あ]けてとたんに (te-form — INCORRECT)",
+            "開[あ]けますとたんに (masu-form — INCORRECT)"
           ],
           "correctIndex": 1,
-          "explanation": "PAST FORM + とたんに: 開[ひら]けた + とたんに = the moment (I) opened. Dict-form (開[ひら]ける + とたんに) is grammatically incorrect for とたんに. Remember: とたんに needs PAST, やいなや needs DICT form."
+          "explanation": "PAST FORM + とたんに: 開[あ]けた + とたんに = the moment (I) opened. Dict-form (開[あ]ける + とたんに) is grammatically incorrect for とたんに. Remember: とたんに needs PAST, やいなや needs DICT form."
         },
         {
           "id": "to-tota-n-ni_q18",
@@ -953,13 +953,13 @@
           "prompt": "Which correctly says 'The moment she opened the envelope, her face changed color'?",
           "japanese": null,
           "choices": [
-            "封筒[ふうとう]を開[ひら]けたとたんに、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
-            "封筒[ふうとう]を開[ひら]けるやいなや、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
-            "封筒[ふうとう]を開[ひら]けてから、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
-            "封筒[ふうとう]を開[ひら]けたら、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。"
+            "封筒[ふうとう]を開[あ]けたとたんに、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
+            "封筒[ふうとう]を開[あ]けるやいなや、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
+            "封筒[ふうとう]を開[あ]けてから、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。",
+            "封筒[ふうとう]を開[あ]けたら、彼女[かのじょ]の顔色[かおいろ]が変[か]わった。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb past + とたんに: 開[ひら]けた + とたんに = the moment she opened. 顔色[かおいろ]が変[か]わった = face changed color (turned pale/shocked). Instantaneous visible emotional reaction."
+          "explanation": "Verb past + とたんに: 開[あ]けた + とたんに = the moment she opened. 顔色[かおいろ]が変[か]わった = face changed color (turned pale/shocked). Instantaneous visible emotional reaction."
         }
       ]
     }

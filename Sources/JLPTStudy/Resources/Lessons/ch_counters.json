@@ -143,10 +143,10 @@
     },
     {
       "id": "counting-people",
-      "name": "People counters: ひとり・ふたり・〜人[にん] (nin)",
+      "name": "People counters: ひとり・ふたり・〜人[ひと] (nin)",
       "shortDescription": "Counting people, with irregular forms for one and two.",
       "formation": "一人[ひとり] (hitori) / 二人[ふたり] (futari) / 三人[さんにん] (sannin) / 四人[よにん] (yonin)...",
-      "explanation": "Japanese uses special counter words for different kinds of things, and people have their own: 〜人[にん] (nin). The first two numbers are completely irregular and must simply be memorized:\n- 一人[ひとり] = ひとり (one person) — not いちにん\n- 二人[ふたり] = ふたり (two people) — not ににん\n\nFrom three onward the pattern is regular:\n- 三人[さんにん] (3), 四人[よにん] (4 — note よ, not し), 五人[ごにん] (5)\n- 六人[ろくにん] (6), 七人[しちにん／ななにん] (7), 八人[はちにん] (8)\n- 九人[きゅうにん] (9), 十人[じゅうにん] (10)\n\nOne expression to learn right away: 一人[ひとり]で means \"alone / by oneself\" and comes up constantly. To ask how many people, use 何人[なんにん]: 何人[なんにん]いますか (How many people are there?). For family size, 家族[かぞく]は〜人[にん]です is the natural, very common pattern.",
+      "explanation": "Japanese uses special counter words for different kinds of things, and people have their own: 〜人[ひと] (nin). The first two numbers are completely irregular and must simply be memorized:\n- 一人[ひとり] = ひとり (one person) — not いちにん\n- 二人[ふたり] = ふたり (two people) — not ににん\n\nFrom three onward the pattern is regular:\n- 三人[さんにん] (3), 四人[よにん] (4 — note よ, not し), 五人[ごにん] (5)\n- 六人[ろくにん] (6), 七人[しちにん／ななにん] (7), 八人[はちにん] (8)\n- 九人[きゅうにん] (9), 十人[じゅうにん] (10)\n\nOne expression to learn right away: 一人[ひとり]で means \"alone / by oneself\" and comes up constantly. To ask how many people, use 何人[なんにん]: 何人[なんにん]いますか (How many people are there?). For family size, 家族[かぞく]は〜人[ひと]です is the natural, very common pattern.",
       "rules": [
         "Irregular: 一人[ひとり] = ひとり (one person), 二人[ふたり] = ふたり (two people)",
         "Regular from three: 三人[さんにん] = さんにん, 四人[よにん] = よにん, 五人[ごにん] = ごにん",
@@ -205,7 +205,7 @@
             "五[ご]ひと"
           ],
           "correctIndex": 2,
-          "explanation": "From three people onward, the counter is regular: number + 人[にん] (にん). Five people = 五人[ごにん] (ごにん). The irregular forms ひとり and ふたり only apply to one and two people."
+          "explanation": "From three people onward, the counter is regular: number + 人[ひと] (にん). Five people = 五人[ごにん] (ごにん). The irregular forms ひとり and ふたり only apply to one and two people."
         },
         {
           "id": "counting-people_q3",
@@ -227,7 +227,7 @@
           "prompt": "Which question correctly asks 'How many people are in this class?'",
           "japanese": null,
           "choices": [
-            "このクラスにはいくつ人[にん]いますか。",
+            "このクラスにはいくつ人[ひと]いますか。",
             "このクラスには何[なに]ひとりいますか。",
             "このクラスには何人[なんにん]いますか。",
             "このクラスには何[な]にんですか。"
@@ -261,7 +261,7 @@
             "みっつ"
           ],
           "correctIndex": 1,
-          "explanation": "From three people onward, the counter is 〜人[にん] (にん): 三人[さんにん] (さんにん). みたり does not exist as a people counter. 三[さん]ひとり is not a real form — ひとり only applies to 一人[ひとり]. みっつ counts general objects (three things), not people."
+          "explanation": "From three people onward, the counter is 〜人[ひと] (にん): 三人[さんにん] (さんにん). みたり does not exist as a people counter. 三[さん]ひとり is not a real form — ひとり only applies to 一人[ひとり]. みっつ counts general objects (three things), not people."
         },
         {
           "id": "counting-people_q7",
@@ -270,12 +270,12 @@
           "japanese": null,
           "choices": [
             "家族[かぞく]は四[し]じんです。",
-            "家族[かぞく]は四人[よにん]の人[にん]です。",
+            "家族[かぞく]は四人[よにん]の人[ひと]です。",
             "家族[かぞく]は四人[よにん]です。",
             "家族[かぞく]はよっつです。"
           ],
           "correctIndex": 2,
-          "explanation": "Family size uses the pattern 家族[かぞく]は〜人[にん]です. Four people = 四人[よにん] (よにん). よっつ counts general things (four items), not people. 四[し]じん is not a word. 四人[よにん]の人[にん] is redundant — 人[にん] appears twice — and is unnatural."
+          "explanation": "Family size uses the pattern 家族[かぞく]は〜人[ひと]です. Four people = 四人[よにん] (よにん). よっつ counts general things (four items), not people. 四[し]じん is not a word. 四人[よにん]の人[ひと] is redundant — 人[ひと] appears twice — and is unnatural."
         },
         {
           "id": "counting-people_q8",
@@ -308,8 +308,8 @@
         {
           "id": "counting-people_q10",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 弟[おとう]と___でプールに行[い]きました。(I went to the pool with my younger brother, just the two of us.)",
-          "japanese": "弟[おとう]と___でプールに行[い]きました。",
+          "prompt": "Fill in the blank: 弟[おとうと]と___でプールに行[い]きました。(I went to the pool with my younger brother, just the two of us.)",
+          "japanese": "弟[おとうと]と___でプールに行[い]きました。",
           "choices": [
             "二[に]じん",
             "二人[ふたり]",
@@ -317,7 +317,7 @@
             "ふたりの"
           ],
           "correctIndex": 1,
-          "explanation": "Two people = 二人[ふたり] (ふたり). With the particle で, ふたりで means 'as two people' or 'the two of us together.' 弟[おとう]と二人[ふたり]で = 'with my younger brother, the two of us.' 二[に]じん is not a word. ふたりの would be possessive ('of the two'), which does not fit here."
+          "explanation": "Two people = 二人[ふたり] (ふたり). With the particle で, ふたりで means 'as two people' or 'the two of us together.' 弟[おとうと]と二人[ふたり]で = 'with my younger brother, the two of us.' 二[に]じん is not a word. ふたりの would be possessive ('of the two'), which does not fit here."
         },
         {
           "id": "counting-people_q11",
@@ -370,10 +370,10 @@
             "いくつ",
             "何人[なんにん]",
             "何人[なんにん]の",
-            "いく人[にん]"
+            "いく人[ひと]"
           ],
           "correctIndex": 1,
-          "explanation": "'How many people?' is 何人[なんにん] (なんにん). いくつ counts general objects or informally asks age, not people specifically. 何人[なんにん]の would precede a noun (e.g., 何人[なんにん]の学生[がくせい] = how many students), but not いますか directly. いく人[にん] is not a real word."
+          "explanation": "'How many people?' is 何人[なんにん] (なんにん). いくつ counts general objects or informally asks age, not people specifically. 何人[なんにん]の would precede a noun (e.g., 何人[なんにん]の学生[がくせい] = how many students), but not いますか directly. いく人[ひと] is not a real word."
         },
         {
           "id": "counting-people_q15",
@@ -429,7 +429,7 @@
             "十[じゅう]つ"
           ],
           "correctIndex": 1,
-          "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). From three people onward, the regular pattern is Sino-Japanese number + 人[にん] (にん). じゅうひとり is not a real form — ひとり only applies to one person. 十[じゅう]つ does not exist. 十[じゅう]じん is not a word."
+          "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). From three people onward, the regular pattern is Sino-Japanese number + 人[ひと] (にん). じゅうひとり is not a real form — ひとり only applies to one person. 十[じゅう]つ does not exist. 十[じゅう]じん is not a word."
         },
         {
           "id": "counting-people_q19",

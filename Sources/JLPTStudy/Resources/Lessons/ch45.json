@@ -61,13 +61,13 @@
           "prompt": "Which correctly says 'He traveled to Japan in order to study the language'?",
           "japanese": null,
           "choices": [
-            "言語[げんご]を学[まな]ぶべく、彼[かれ]は日本[にっぽん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]ぶために、彼[かれ]は日本[にっぽん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]ぼうとして、彼[かれ]は日本[にっぽん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]びたくて、彼[かれ]は日本[にっぽん]へ渡[わた]った。"
+            "言語[げんご]を学[まな]ぶべく、彼[かれ]は日本[にほん]へ渡[わた]った。",
+            "言語[げんご]を学[まな]ぶために、彼[かれ]は日本[にほん]へ渡[わた]った。",
+            "言語[げんご]を学[まな]ぼうとして、彼[かれ]は日本[にほん]へ渡[わた]った。",
+            "言語[げんご]を学[まな]びたくて、彼[かれ]は日本[にほん]へ渡[わた]った。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 学[まな]ぶ + べく = in order to learn. 日本[にっぽん]へ渡[わた]った = traveled to Japan. べく is the formal purpose connector — more literary than ために."
+          "explanation": "Verb dict-form + べく: 学[まな]ぶ + べく = in order to learn. 日本[にほん]へ渡[わた]った = traveled to Japan. べく is the formal purpose connector — more literary than ために."
         },
         {
           "id": "beku_q3",
@@ -117,13 +117,13 @@
           "prompt": "Which correctly says 'The scientist conducted experiments in order to verify the hypothesis'?",
           "japanese": null,
           "choices": [
-            "仮説[かせつ]を証明[しょうめい]すべく、科学者[かがくしゃ]は実験[じっけん]を行[い]った。",
-            "仮説[かせつ]を証明[しょうめい]するために、科学者[かがくしゃ]は実験[じっけん]を行[い]った。",
-            "仮説[かせつ]を証明[しょうめい]しようとして、科学者[かがくしゃ]は実験[じっけん]を行[い]った。",
-            "仮説[かせつ]を証明[しょうめい]したくて、科学者[かがくしゃ]は実験[じっけん]を行[い]った。"
+            "仮説[かせつ]を証明[しょうめい]すべく、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+            "仮説[かせつ]を証明[しょうめい]するために、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+            "仮説[かせつ]を証明[しょうめい]しようとして、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+            "仮説[かせつ]を証明[しょうめい]したくて、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 証明[しょうめい]する → 証明[しょうめい]すべく = in order to prove. 実験[じっけん]を行[い]った = conducted experiments. べく in scientific contexts sounds formal and purposeful."
+          "explanation": "Verb dict-form + べく: 証明[しょうめい]する → 証明[しょうめい]すべく = in order to prove. 実験[じっけん]を行[おこな]った = conducted experiments. べく in scientific contexts sounds formal and purposeful."
         },
         {
           "id": "beku_q7",
@@ -187,10 +187,10 @@
           "prompt": "Which means 'In order to leave a name in history, he dedicated his entire life'?",
           "japanese": null,
           "choices": [
-            "歴史[れきし]に名[めい]を残[のこ]すべく、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[めい]を残[のこ]すために、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[めい]を残[のこ]そうとして、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[めい]を残[のこ]したくて、彼[かれ]は一生[いっしょう]を捧[ささ]げた。"
+            "歴史[れきし]に名[な]を残[のこ]すべく、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+            "歴史[れきし]に名[な]を残[のこ]すために、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+            "歴史[れきし]に名[な]を残[のこ]そうとして、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+            "歴史[れきし]に名[な]を残[のこ]したくて、彼[かれ]は一生[いっしょう]を捧[ささ]げた。"
           ],
           "correctIndex": 0,
           "explanation": "Verb dict-form + べく: 残[のこ]す + べく = in order to leave. 一生[いっしょう]を捧[ささ]げた = dedicated his entire life. べく suits this grand, literary life-purpose statement perfectly."
@@ -373,7 +373,7 @@
             "just because"
           ],
           "correctIndex": 1,
-          "explanation": "〜からこそ = precisely because / exactly because. 好[す]きだからこそ、厳[いかめ]しく言[い]う = precisely because I like you, I speak harshly. こそ (emphasis particle) added to から makes the causal link emphatic: Y is true specifically because of X, not anything else."
+          "explanation": "〜からこそ = precisely because / exactly because. 好[す]きだからこそ、厳[きび]しく言[い]う = precisely because I like you, I speak harshly. こそ (emphasis particle) added to から makes the causal link emphatic: Y is true specifically because of X, not anything else."
         },
         {
           "id": "kara-koso_q2",
@@ -663,13 +663,13 @@
           "english": "Even with modern technology, it's an impossible speed."
         },
         {
-          "japanese": "そのような事態[じたい]も十分[じゅうぶん]に起[お]こり得[え]ると考[かんが]えて、備[そな]えておくべきです。",
+          "japanese": "そのような事態[じたい]も十分[じゅうぶん]に起[お]こり得[う]ると考[かんが]えて、備[そな]えておくべきです。",
           "romaji": "Sono you na jitai mo juubun ni okori uru to kangaete, sonaete oku beki desu.",
           "english": "You should prepare by considering that such a situation could very well occur."
         },
         {
-          "japanese": "あらゆる可能性[かのうせい]を考[かんが]え得[え]る限[かぎ]り列挙[れっきょ]してから、最善策[さいぜんさく]を選[えら]ぼう。",
-          "romaji": "Arayuru kanousei wo kangauru kagiri rekkyo shite kara, saizensaku wo erabou.",
+          "japanese": "あらゆる可能性[かのうせい]を考[かんが]え得[う]る限[かぎ]り列挙[れっきょ]してから、最善策[さいぜんさく]を選[えら]ぼう。",
+          "romaji": "Arayuru kanousei wo kangae uru kagiri rekkyo shite kara, saizensaku wo erabou.",
           "english": "Let's list as many possibilities as can be conceived, then choose the best course."
         },
         {

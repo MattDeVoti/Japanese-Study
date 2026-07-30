@@ -179,7 +179,7 @@
           "japanese": null,
           "choices": [
             "帰[かえ]りて",
-            "帰[き]いて",
+            "帰[かえ]いて",
             "帰[かえ]て",
             "帰[かえ]って"
           ],
@@ -262,10 +262,10 @@
           "prompt": "Which sentence correctly uses the て-form to connect two sequential actions?",
           "japanese": null,
           "choices": [
-            "ご飯[めし]を食[た]べます、テレビを見[み]ました。",
-            "ご飯[めし]を食[た]べた、テレビを見[み]ました。",
-            "ご飯[めし]を食[た]べて、テレビを見[み]ました。",
-            "ご飯[めし]を食[た]べる、テレビを見[み]ました。"
+            "ご飯[はん]を食[た]べます、テレビを見[み]ました。",
+            "ご飯[はん]を食[た]べた、テレビを見[み]ました。",
+            "ご飯[はん]を食[た]べて、テレビを見[み]ました。",
+            "ご飯[はん]を食[た]べる、テレビを見[み]ました。"
           ],
           "correctIndex": 2,
           "explanation": "To connect sequential actions, use the て-form: 食[た]べて (て-form of 食[た]べる). The tense is neutral in the first clause and set by the final verb 見[み]ました (past). The masu-form, plain form, and past form cannot serve this connecting role."
@@ -320,11 +320,11 @@
           "choices": [
             "シャワーを浴[あ]びます、朝[あさ]ごはんを食[た]べました。",
             "シャワーを浴[あ]びるて、朝[あさ]ごはんを食[た]べました。",
-            "シャワーを浴[あ]びた後[のち]に、朝[あさ]ごはんを食[た]べました。",
+            "シャワーを浴[あ]びた後[あと]に、朝[あさ]ごはんを食[た]べました。",
             "シャワーを浴[あ]びて、朝[あさ]ごはんを食[た]べました。"
           ],
           "correctIndex": 3,
-          "explanation": "浴[あ]びる is a Group 2 (ichidan) verb: drop る, add て → 浴[あ]びて. The て-form connects the two sequential actions. Note that option C (た後[のち]に) is also grammatically correct but uses a different pattern — the て-form connection in option D is the focus of this chapter."
+          "explanation": "浴[あ]びる is a Group 2 (ichidan) verb: drop る, add て → 浴[あ]びて. The て-form connects the two sequential actions. Note that option C (た後[あと]に) is also grammatically correct but uses a different pattern — the て-form connection in option D is the focus of this chapter."
         }
       ]
     },
@@ -427,13 +427,13 @@
           "prompt": "Which sentence correctly means 'Please open the window'?",
           "japanese": null,
           "choices": [
-            "窓[まど]を開[ひら]くてください。",
-            "窓[まど]を開[ひら]けてください。",
-            "窓[まど]を開[ひら]くください。",
-            "窓[まど]を開[ひら]いてください。"
+            "窓[まど]を開[あ]くてください。",
+            "窓[まど]を開[あ]けてください。",
+            "窓[まど]を開[あ]くください。",
+            "窓[まど]を開[あ]いてください。"
           ],
           "correctIndex": 1,
-          "explanation": "開[ひら]ける (to open, transitive) is a Group 2 verb: drop る, add て → 開[ひら]けて → 開[ひら]けてください. Note: 開[ひら]く (intransitive, Group 1) → 開[ひら]いて. Since we are opening the window ourselves, transitive 開[ひら]ける is correct here."
+          "explanation": "開[あ]ける (to open, transitive) is a Group 2 verb: drop る, add て → 開[あ]けて → 開[あ]けてください. Note: 開[ひら]く (intransitive, Group 1) → 開[ひら]いて. Since we are opening the window ourselves, transitive 開[あ]ける is correct here."
         },
         {
           "id": "te-kudasai_q6",
@@ -874,7 +874,7 @@
           "choices": [
             "彼[かれ]は走[はし]っています。(He is running.)",
             "田中[たなか]さんは結婚[けっこん]しています。(Tanaka-san is married.)",
-            "母[は]は今[いま]、電話[でんわ]しています。(My mom is on the phone now.)",
+            "母[はは]は今[いま]、電話[でんわ]しています。(My mom is on the phone now.)",
             "今[いま]、知[し]っています。(I am currently knowing.)"
           ],
           "correctIndex": 3,
@@ -990,7 +990,7 @@
           "english": "Yes, please go ahead."
         },
         {
-          "japanese": "窓[まど]を開[ひら]けてもいいですか。",
+          "japanese": "窓[まど]を開[あ]けてもいいですか。",
           "romaji": "Mado wo akete mo ii desu ka.",
           "english": "May I open the window?"
         },
@@ -1021,15 +1021,15 @@
           "id": "te-mo-ii_q2",
           "type": "translation",
           "prompt": "Which response correctly grants permission to open the window?",
-          "japanese": "窓[まど]を開[ひら]けてもいいですか。",
+          "japanese": "窓[まど]を開[あ]けてもいいですか。",
           "choices": [
-            "はい、開[ひら]けてもいいです。",
-            "はい、開[ひら]けてください。",
-            "はい、開[ひら]けないでください。",
-            "はい、開[ひら]けてはいけません。"
+            "はい、開[あ]けてもいいです。",
+            "はい、開[あ]けてください。",
+            "はい、開[あ]けないでください。",
+            "はい、開[あ]けてはいけません。"
           ],
           "correctIndex": 0,
-          "explanation": "To grant permission, respond with 〜てもいいです. 開[ひら]けてもいいです means 'It is okay to open it.' Saying てはいけません denies permission; ないでください is a negative request."
+          "explanation": "To grant permission, respond with 〜てもいいです. 開[あ]けてもいいです means 'It is okay to open it.' Saying てはいけません denies permission; ないでください is a negative request."
         },
         {
           "id": "te-mo-ii_q3",
@@ -1205,10 +1205,10 @@
           "prompt": "Which sentence means 'You don't have to study today'?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は勉強[べんきょう]してもいいです。",
-            "今日[こんにち]は勉強[べんきょう]してはいけません。",
-            "今日[こんにち]は勉強[べんきょう]しなくてもいいです。",
-            "今日[こんにち]は勉強[べんきょう]しないでください。"
+            "今日[きょう]は勉強[べんきょう]してもいいです。",
+            "今日[きょう]は勉強[べんきょう]してはいけません。",
+            "今日[きょう]は勉強[べんきょう]しなくてもいいです。",
+            "今日[きょう]は勉強[べんきょう]しないでください。"
           ],
           "correctIndex": 2,
           "explanation": "〜なくてもいいです = 'don't have to / it's okay not to .' する → negative: しない → negative て-form: しなくて → 勉強[べんきょう]しなくてもいいです (you don't have to study). This is distinct from prohibition (いけません) or a negative request (ないでください)."
@@ -1334,7 +1334,7 @@
             "この部屋[へや]に入[にゅう]くてはいけません。"
           ],
           "correctIndex": 0,
-          "explanation": "〜てはいけません = must not / may not (firm prohibition). 入[い]る → て-form: 入[はい]って → 入[はい]ってはいけません. ないでください is a softer request, not a prohibition."
+          "explanation": "〜てはいけません = must not / may not (firm prohibition). 入[はい]る → て-form: 入[はい]って → 入[はい]ってはいけません. ないでください is a softer request, not a prohibition."
         },
         {
           "id": "te-wa-ikenai_q2",
@@ -1513,10 +1513,10 @@
             "飲[の]みては",
             "飲[の]んでは",
             "飲[いん]くては",
-            "飲[いん]うては"
+            "飲[の]うては"
           ],
           "correctIndex": 1,
-          "explanation": "飲[の]む ends in む, belonging to the む/ぶ/ぬ group: む→んで. So 飲[の]む → 飲[の]んで → 飲[の]んではいけません (must not drink). The blank is 飲[の]んでは. 飲[の]みては and 飲[いん]うては are not valid て-forms of 飲[の]む."
+          "explanation": "飲[の]む ends in む, belonging to the む/ぶ/ぬ group: む→んで. So 飲[の]む → 飲[の]んで → 飲[の]んではいけません (must not drink). The blank is 飲[の]んでは. 飲[の]みては and 飲[の]うては are not valid て-forms of 飲[の]む."
         },
         {
           "id": "te-wa-ikenai_q15",

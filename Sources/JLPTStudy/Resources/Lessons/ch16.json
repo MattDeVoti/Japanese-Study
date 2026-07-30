@@ -8,7 +8,7 @@
       "name": "〜とき (toki) — when",
       "shortDescription": "Describes the time at which something happens: 'when' or 'at the time of.'",
       "formation": "Verb/Adj (plain form) + とき  |  Noun + の + とき",
-      "explanation": "とき is a noun meaning 'time' or 'occasion,' and attaching it to a verb or adjective creates a 'when X' clause. It sounds straightforward — but there's a subtlety with tense that students regularly stumble over, and it's worth getting right early.\n\nThe tense of the verb *before* とき encodes the relative timing of that action versus the main clause. Non-past (dictionary form) before とき means the action in the とき clause hasn't happened yet at that moment:\n日本[にっぽん]へ行[い]くとき、カメラを買[か]いました。 — 'Before going to Japan, I bought a camera.' (The buying happened before the trip; 行[い]く is still upcoming.)\n\nPast (た-form) before とき means the action in the とき clause is already done:\n日本[にっぽん]へ行[い]ったとき、カメラを買[か]いました。 — 'When I was in Japan, I bought a camera.' (The buying happened after arrival; 行[い]った is already done.)\n\nOne helpful mental image: think of the とき clause as a photograph. Non-past = you're about to take the photo. Past = you're looking at the photo after the fact. The main clause action fits into that picture accordingly.\n\nFor nouns: Noun + の + とき (子[こ]どものとき = when I was a child). とき is itself a noun, so it takes particles: ときに (at that time), ときは (as for when), ときも (even when).",
+      "explanation": "とき is a noun meaning 'time' or 'occasion,' and attaching it to a verb or adjective creates a 'when X' clause. It sounds straightforward — but there's a subtlety with tense that students regularly stumble over, and it's worth getting right early.\n\nThe tense of the verb *before* とき encodes the relative timing of that action versus the main clause. Non-past (dictionary form) before とき means the action in the とき clause hasn't happened yet at that moment:\n日本[にほん]へ行[い]くとき、カメラを買[か]いました。 — 'Before going to Japan, I bought a camera.' (The buying happened before the trip; 行[い]く is still upcoming.)\n\nPast (た-form) before とき means the action in the とき clause is already done:\n日本[にほん]へ行[い]ったとき、カメラを買[か]いました。 — 'When I was in Japan, I bought a camera.' (The buying happened after arrival; 行[い]った is already done.)\n\nOne helpful mental image: think of the とき clause as a photograph. Non-past = you're about to take the photo. Past = you're looking at the photo after the fact. The main clause action fits into that picture accordingly.\n\nFor nouns: Noun + の + とき (子[こ]どものとき = when I was a child). とき is itself a noun, so it takes particles: ときに (at that time), ときは (as for when), ときも (even when).",
       "rules": [
         "Verb/Adj (plain non-past) + とき = when X (action not yet done at that point)",
         "Verb (た-form) + とき = when X (action already done at that point)",
@@ -23,7 +23,7 @@
           "english": "When I'm in trouble, I consult with my friends."
         },
         {
-          "japanese": "日本[にっぽん]に来[き]たとき、まず富士山[ふじさん]を見[み]たいです。",
+          "japanese": "日本[にほん]に来[き]たとき、まず富士山[ふじさん]を見[み]たいです。",
           "romaji": "Nihon ni kita toki, mazu Fujisan wo mitai desu.",
           "english": "When I come to Japan, I want to see Mt. Fuji first."
         },
@@ -89,10 +89,10 @@
           "prompt": "How do you say 'When I was living in Japan, I often ate sushi'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に住[す]むとき、よくお寿司[すし]を食[た]べました。",
-            "日本[にっぽん]に住[す]むのとき、よくお寿司[すし]を食[た]べました。",
-            "日本[にっぽん]に住[す]んだとき、よくお寿司[すし]を食[た]べました。",
-            "日本[にっぽん]に住[す]んでいたとき、よくお寿司[すし]を食[た]べました。"
+            "日本[にほん]に住[す]むとき、よくお寿司[すし]を食[た]べました。",
+            "日本[にほん]に住[す]むのとき、よくお寿司[すし]を食[た]べました。",
+            "日本[にほん]に住[す]んだとき、よくお寿司[すし]を食[た]べました。",
+            "日本[にほん]に住[す]んでいたとき、よくお寿司[すし]を食[た]べました。"
           ],
           "correctIndex": 3,
           "explanation": "〜ていたとき = when I was . 住[す]んでいた = was living (progressive past). Used for habitual or continuous past states."
@@ -313,10 +313,10 @@
           "prompt": "'I was about to leave when it started raining.' Which matches this?",
           "japanese": null,
           "choices": [
-            "出[で]かけたとき、雨[あめ]が降[お]り始[はじ]めました。",
-            "出[で]かけているとき、雨[あめ]が降[お]り始[はじ]めました。",
-            "出[で]かけたらとき、雨[あめ]が降[お]り始[はじ]めました。",
-            "出[で]かけるとき、雨[あめ]が降[お]り始[はじ]めました。"
+            "出[で]かけたとき、雨[あめ]が降[ふ]り始[はじ]めました。",
+            "出[で]かけているとき、雨[あめ]が降[ふ]り始[はじ]めました。",
+            "出[で]かけたらとき、雨[あめ]が降[ふ]り始[はじ]めました。",
+            "出[で]かけるとき、雨[あめ]が降[ふ]り始[はじ]めました。"
           ],
           "correctIndex": 3,
           "explanation": "Dict-form + とき = at the time of/just when about to do (action not yet started). 出[で]かけるとき = just as I was about to go out. Rain started at that moment — before actually leaving."
@@ -328,7 +328,7 @@
       "name": "〜たら (tara) — when/if (conditional)",
       "shortDescription": "A versatile conditional: 'when' for certain events, 'if' for hypotheticals, and discovery upon arrival.",
       "formation": "Verb/Adj (た-form) + ら  |  Noun / な-adj + だったら",
-      "explanation": "たら is the Swiss Army knife of Japanese conditionals — it covers more territory than any other conditional, which is why it's the one to master first.\n\nFormation: take the plain past (た-form) of any verb or adjective and add ら. 食[た]べた → 食[た]べたら. For nouns and な-adjectives, use だったら.\n\nThree distinct uses, all formed the same way:\n\n1. Future-as-certain 'when': when the condition is something that will definitely happen, たら means 'when': 家[いえ]に帰[かえ]ったら、電話[でんわ]します (When I get home, I'll call you). This is extremely common for instructions, promises, and plans.\n\n2. Hypothetical 'if': when the condition is uncertain or counterfactual, たら means 'if': もし百万[まん]円[えん]あったら、旅行[りょこう]したい (If I had a million yen, I'd travel). もし (if) often signals this usage.\n\n3. Discovery upon completion: one of たら's most distinctive uses is expressing surprised discovery when you do something and find an unexpected state: 窓[まど]を開[ひら]けたら、雪[ゆき]が降[ふ]っていた (When I opened the window — there was snow). The discovery 'and then I found that…' feel is uniquely たら.\n\nImportant rule: when たら expresses a temporal sequence (uses 1 and 3), the main clause cannot be a command or request — 〜たら、〜てください is not natural for temporal 'when'; reserve that for the hypothetical 'if' use.",
+      "explanation": "たら is the Swiss Army knife of Japanese conditionals — it covers more territory than any other conditional, which is why it's the one to master first.\n\nFormation: take the plain past (た-form) of any verb or adjective and add ら. 食[た]べた → 食[た]べたら. For nouns and な-adjectives, use だったら.\n\nThree distinct uses, all formed the same way:\n\n1. Future-as-certain 'when': when the condition is something that will definitely happen, たら means 'when': 家[いえ]に帰[かえ]ったら、電話[でんわ]します (When I get home, I'll call you). This is extremely common for instructions, promises, and plans.\n\n2. Hypothetical 'if': when the condition is uncertain or counterfactual, たら means 'if': もし百万[まん]円[えん]あったら、旅行[りょこう]したい (If I had a million yen, I'd travel). もし (if) often signals this usage.\n\n3. Discovery upon completion: one of たら's most distinctive uses is expressing surprised discovery when you do something and find an unexpected state: 窓[まど]を開[あ]けたら、雪[ゆき]が降[ふ]っていた (When I opened the window — there was snow). The discovery 'and then I found that…' feel is uniquely たら.\n\nImportant rule: when たら expresses a temporal sequence (uses 1 and 3), the main clause cannot be a command or request — 〜たら、〜てください is not natural for temporal 'when'; reserve that for the hypothetical 'if' use.",
       "rules": [
         "た-form + ら = conditional: 'when' (definite future) or 'if' (hypothetical)",
         "Noun / な-adj + だったら = if it is / if it were [noun/な-adj]",
@@ -349,7 +349,7 @@
           "english": "If you have time, please come."
         },
         {
-          "japanese": "窓[まど]を開[ひら]けたら、雪[ゆき]が降[ふ]っていた。",
+          "japanese": "窓[まど]を開[あ]けたら、雪[ゆき]が降[ふ]っていた。",
           "romaji": "Mado wo aketara, yuki ga futte ita.",
           "english": "When I opened the window, it was snowing."
         },
@@ -469,10 +469,10 @@
             "春[はる]が来[き]たら、花[はな]が咲[さ]く。",
             "春[はる]が来[く]ると、花[はな]が咲[さ]く。",
             "春[はる]が来[く]るなら、花[はな]が咲[さ]く。",
-            "春[はる]が来[こ]れば、花[はな]が咲[さ]く。"
+            "春[はる]が来[く]れば、花[はな]が咲[さ]く。"
           ],
           "correctIndex": 3,
-          "explanation": "〜ば is used for logical/general conditions: if X then logically Y follows. 来[こ]れば (ば-conditional of 来[く]る) = if spring comes. たら = more event-specific; ば = more general/logical/hypothetical."
+          "explanation": "〜ば is used for logical/general conditions: if X then logically Y follows. 来[く]れば (ば-conditional of 来[く]る) = if spring comes. たら = more event-specific; ば = more general/logical/hypothetical."
         },
         {
           "id": "tara-conditional_q9",
@@ -510,11 +510,11 @@
           "choices": [
             "もし宝[たから]くじに当[あ]たったら、旅行[りょこう]に行[い]きたい。",
             "東京[とうきょう]に着[つ]いたら、電話[でんわ]してください。",
-            "冷蔵庫[れいぞうこ]を開[ひら]けたら、何[なに]もなかった。",
+            "冷蔵庫[れいぞうこ]を開[あ]けたら、何[なに]もなかった。",
             "雨[あめ]が降[ふ]ったら、傘[かさ]を持[も]ってきてください。"
           ],
           "correctIndex": 2,
-          "explanation": "冷蔵庫[れいぞうこ]を開[ひら]けたら、何[なに]もなかった = when I opened the fridge, there was nothing. This 'discovery' use: once you complete A, you find situation B existed. Option 1 = hypothetical future; option 2 = request after completion."
+          "explanation": "冷蔵庫[れいぞうこ]を開[あ]けたら、何[なに]もなかった = when I opened the fridge, there was nothing. This 'discovery' use: once you complete A, you find situation B existed. Option 1 = hypothetical future; option 2 = request after completion."
         },
         {
           "id": "tara-conditional_q12",
@@ -547,8 +547,8 @@
         {
           "id": "tara-conditional_q14",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 家[いえ]に帰[き]___、ご飯[めし]を食[た]べます。(Once I get home, I'll eat dinner.)",
-          "japanese": "家[いえ]に帰[き]___、ご飯[めし]を食[た]べます。",
+          "prompt": "Fill in the blank: 家[いえ]に帰[かえ]___、ご飯[はん]を食[た]べます。(Once I get home, I'll eat dinner.)",
+          "japanese": "家[いえ]に帰[かえ]___、ご飯[はん]を食[た]べます。",
           "choices": [
             "るたら",
             "ったら",
@@ -556,7 +556,7 @@
             "ったなら"
           ],
           "correctIndex": 1,
-          "explanation": "Group 1 る-verb 帰[かえ]る → past: 帰[かえ]った + ら = 帰[かえ]ったら = once I get home. ったら completes the verb: 帰[き] + ったら. たら for sequential future."
+          "explanation": "Group 1 る-verb 帰[かえ]る → past: 帰[かえ]った + ら = 帰[かえ]ったら = once I get home. ったら completes the verb: 帰[かえ] + ったら. たら for sequential future."
         },
         {
           "id": "tara-conditional_q15",
@@ -801,7 +801,7 @@
       "name": "〜前[まえ]に (mae ni) — before doing",
       "shortDescription": "Expresses 'before doing X' — and the verb before 前に is always non-past.",
       "formation": "Verb (dictionary form) + 前[まえ]に  |  Noun + の + 前[まえ]に",
-      "explanation": "前 means 'front' or 'before,' and 〜前[まえ]に creates 'before doing X.' The pattern is simple to use — with one rule that trips nearly every learner at first:\n\nThe verb before 前[まえ]に is *always* in the dictionary (non-past) form, regardless of the tense of the whole sentence. Why? Because at the point in time when 前[まえ]に's action is relevant, that action hasn't happened yet — so non-past is logically correct. 日本[にっぽん]へ来[く]る前[まえ]に、日本語[にほんご]を少[すこ]し勉強[べんきょう]しました: even though the whole sentence is past tense (〜しました), 来[く]る stays in dictionary form because the coming-to-Japan hadn't happened at the time of the studying.\n\nCheck yourself: 食[た]べる前[まえ]に手[て]を洗[あら]います ✓ (before eating). 食[た]べた前[まえ]に手[て]を洗[あら]います ✗ (wrong — can't use past form before 前[まえ]に).\n\nFor nouns: Noun + の + 前[まえ]に (試験[しけん]の前[まえ]に = before the exam, 食事[しょくじ]の前[まえ]に = before the meal).\n\nA handy dual life: 〜前[まえ]に also means 'X ago' when paired with time expressions. 三年前[さんねんまえ]に (three years ago), 少[すこ]し前[まえ]に (a little while ago). Context makes it clear which meaning applies.",
+      "explanation": "前 means 'front' or 'before,' and 〜前[まえ]に creates 'before doing X.' The pattern is simple to use — with one rule that trips nearly every learner at first:\n\nThe verb before 前[まえ]に is *always* in the dictionary (non-past) form, regardless of the tense of the whole sentence. Why? Because at the point in time when 前[まえ]に's action is relevant, that action hasn't happened yet — so non-past is logically correct. 日本[にほん]へ来[く]る前[まえ]に、日本語[にほんご]を少[すこ]し勉強[べんきょう]しました: even though the whole sentence is past tense (〜しました), 来[く]る stays in dictionary form because the coming-to-Japan hadn't happened at the time of the studying.\n\nCheck yourself: 食[た]べる前[まえ]に手[て]を洗[あら]います ✓ (before eating). 食[た]べた前[まえ]に手[て]を洗[あら]います ✗ (wrong — can't use past form before 前[まえ]に).\n\nFor nouns: Noun + の + 前[まえ]に (試験[しけん]の前[まえ]に = before the exam, 食事[しょくじ]の前[まえ]に = before the meal).\n\nA handy dual life: 〜前[まえ]に also means 'X ago' when paired with time expressions. 三年前[さんねんまえ]に (three years ago), 少[すこ]し前[まえ]に (a little while ago). Context makes it clear which meaning applies.",
       "rules": [
         "Verb (dictionary/non-past form) + 前[まえ]に = before doing X",
         "The verb before 前[まえ]に is ALWAYS non-past — regardless of the overall sentence tense",
@@ -816,7 +816,7 @@
           "english": "I brush my teeth before going to sleep."
         },
         {
-          "japanese": "日本[にっぽん]へ来[く]る前[まえ]に、日本語[にほんご]を少[すこ]し勉強[べんきょう]しました。",
+          "japanese": "日本[にほん]へ来[く]る前[まえ]に、日本語[にほんご]を少[すこ]し勉強[べんきょう]しました。",
           "romaji": "Nihon e kuru mae ni, nihongo wo sukoshi benkyou shimashita.",
           "english": "Before coming to Japan, I studied a little Japanese."
         },
@@ -882,7 +882,7 @@
           "prompt": "Which sentence has a grammar error?",
           "japanese": null,
           "choices": [
-            "ご飯[めし]の前[まえ]に手[て]を洗[あら]います。",
+            "ご飯[はん]の前[まえ]に手[て]を洗[あら]います。",
             "出[で]かける前[まえ]に電気[でんき]を消[け]しました。",
             "寝[ね]る前[まえ]に日記[にっき]を書[か]いています。",
             "映画[えいが]を見[み]た前[まえ]に、夕食[ゆうしょく]を食[た]べました。"
@@ -938,7 +938,7 @@
           "prompt": "Which translates 'Please read the instructions before using this product'?",
           "japanese": null,
           "choices": [
-            "この製品[せいひん]を使[つか]う後[のち]に、説明書[せつめいしょ]を読[よ]んでください。",
+            "この製品[せいひん]を使[つか]う後[あと]に、説明書[せつめいしょ]を読[よ]んでください。",
             "この製品[せいひん]を使[つか]った前[まえ]に、説明書[せつめいしょ]を読[よ]んでください。",
             "この製品[せいひん]の前[まえ]に、説明書[せつめいしょ]を読[よ]んでください。",
             "この製品[せいひん]を使[つか]う前[まえ]に、説明書[せつめいしょ]を読[よ]んでください。"
@@ -1039,7 +1039,7 @@
             "手[て]を洗[あら]う前[まえ]に食[た]べてください。",
             "手[て]を洗[あら]った前[まえ]に食[た]べてください。",
             "手[て]を洗[あら]ってから食[た]べてください。",
-            "手[て]を洗[あら]いの後[のち]に食[た]べてください。"
+            "手[て]を洗[あら]いの後[あと]に食[た]べてください。"
           ],
           "correctIndex": 2,
           "explanation": "〜てから = after doing X, then Y. 洗[あら]ってから食[た]べる = after washing, eat. This is the OPPOSITE direction of 〜前[まえ]に (before). てから = after; 前[まえ]に = before."
@@ -1095,7 +1095,7 @@
             "コンサートの後[あと]で、歌[うた]の練習[れんしゅう]をしました。",
             "コンサートで歌[うた]を歌[うた]う前[まえ]に、練習[れんしゅう]しました。",
             "コンサートの前[まえ]に、歌[うた]の練習[れんしゅう]をしました。",
-            "コンサートを始[はじ]める後[のち]、歌[うた]の練習[れんしゅう]をしました。"
+            "コンサートを始[はじ]める後[あと]、歌[うた]の練習[れんしゅう]をしました。"
           ],
           "correctIndex": 2,
           "explanation": "コンサートの前[まえ]に = before the concert. 歌[うた]の練習[れんしゅう]をしました = practiced singing. Noun + の + 前[まえ]に = before ."
@@ -1131,7 +1131,7 @@
       ],
       "examples": [
         {
-          "japanese": "手[て]を洗[あら]ってから、ご飯[めし]を食[た]べます。",
+          "japanese": "手[て]を洗[あら]ってから、ご飯[はん]を食[た]べます。",
           "romaji": "Te wo aratte kara, gohan wo tabemasu.",
           "english": "I eat after washing my hands."
         },
@@ -1146,7 +1146,7 @@
           "english": "After you read that, let's talk again."
         },
         {
-          "japanese": "日本語[にほんご]を勉強[べんきょう]してから、日本[にっぽん]へ行[い]くことにしました。",
+          "japanese": "日本語[にほんご]を勉強[べんきょう]してから、日本[にほん]へ行[い]くことにしました。",
           "romaji": "Nihongo wo benkyou shite kara, Nihon e iku koto ni shimashita.",
           "english": "I decided to go to Japan after studying Japanese."
         }
@@ -1176,7 +1176,7 @@
           "choices": [
             "手[て]を洗[あら]う前[まえ]に食[た]べてください。",
             "手[て]を洗[あら]ってから食[た]べてください。",
-            "手[て]を洗[あら]い後[のち]に食[た]べてください。",
+            "手[て]を洗[あら]い後[あと]に食[た]べてください。",
             "手[て]を洗[あら]って食[た]べてください。"
           ],
           "correctIndex": 1,
@@ -1329,7 +1329,7 @@
           "japanese": null,
           "choices": [
             "家[いえ]に帰[かえ]ってから、何[なに]をしましたか？",
-            "家[いえ]に帰[かえ]った後[のち]、何[なに]をしましたか？",
+            "家[いえ]に帰[かえ]った後[あと]、何[なに]をしましたか？",
             "家[いえ]に帰[かえ]る前[まえ]に、何[なに]をしましたか？",
             "家[いえ]に帰[かえ]りてから、何[なに]をしましたか？"
           ],
@@ -1342,13 +1342,13 @@
           "prompt": "You eat breakfast and THEN go to school. Which sentence describes this?",
           "japanese": null,
           "choices": [
-            "学校[がっこう]に行[い]く前[まえ]に、朝[あさ]ご飯[めし]を食[た]べます。",
-            "朝[あさ]ご飯[めし]を食[た]べてから、学校[がっこう]に行[い]きます。",
-            "学校[がっこう]に行[い]ってから、朝[あさ]ご飯[めし]を食[た]べます。",
-            "朝[あさ]ご飯[めし]の後[あと]で、学校[がっこう]に行[い]きます。"
+            "学校[がっこう]に行[い]く前[まえ]に、朝[あさ]ご飯[はん]を食[た]べます。",
+            "朝[あさ]ご飯[はん]を食[た]べてから、学校[がっこう]に行[い]きます。",
+            "学校[がっこう]に行[い]ってから、朝[あさ]ご飯[はん]を食[た]べます。",
+            "朝[あさ]ご飯[はん]の後[あと]で、学校[がっこう]に行[い]きます。"
           ],
           "correctIndex": 1,
-          "explanation": "朝[あさ]ご飯[めし]を食[た]べて + から + 学校[がっこう]に行[い]きます = eat breakfast, then go to school. 前[まえ]に describes the opposite order. てから is the direct 'do X then Y' pattern."
+          "explanation": "朝[あさ]ご飯[はん]を食[た]べて + から + 学校[がっこう]に行[い]きます = eat breakfast, then go to school. 前[まえ]に describes the opposite order. てから is the direct 'do X then Y' pattern."
         },
         {
           "id": "te-kara_q15",
@@ -1384,10 +1384,10 @@
           "prompt": "Which sentence is CORRECT?",
           "japanese": null,
           "choices": [
-            "ご飯[めし]を食[た]べてから、歯[は]を磨[みが]きます。",
-            "ご飯[めし]を食[た]べるから、歯[は]を磨[みが]きます。",
-            "ご飯[めし]を食[た]べた後[のち]、歯[は]を磨[みが]きてから。",
-            "ご飯[めし]を食[た]べてに、歯[は]を磨[みが]きます。"
+            "ご飯[はん]を食[た]べてから、歯[は]を磨[みが]きます。",
+            "ご飯[はん]を食[た]べるから、歯[は]を磨[みが]きます。",
+            "ご飯[はん]を食[た]べた後[あと]、歯[は]を磨[みが]きてから。",
+            "ご飯[はん]を食[た]べてに、歯[は]を磨[みが]きます。"
           ],
           "correctIndex": 0,
           "explanation": "食[た]べて (て-form) + から + 歯[は]を磨[みが]きます = after eating, brush teeth. Option 2 uses 食[た]べるから which means 'because I eat' (reason), not sequence."
@@ -1426,7 +1426,7 @@
           "prompt": "Best way to connect: 'finished work → had dinner → watched TV'?",
           "japanese": null,
           "choices": [
-            "仕事[しごと]が終[お]わった後[のち]、夕食[ゆうしょく]を食[た]べた後[のち]、テレビを見[み]ました。",
+            "仕事[しごと]が終[お]わった後[あと]、夕食[ゆうしょく]を食[た]べた後[あと]、テレビを見[み]ました。",
             "仕事[しごと]が終[お]わってから、夕食[ゆうしょく]を食[た]べてから、テレビを見[み]ました。",
             "仕事[しごと]が終[お]わる前[まえ]に、夕食[ゆうしょく]を食[た]べる前[まえ]に、テレビを見[み]ました。",
             "仕事[しごと]が終[お]わってから夕食[ゆうしょく]を食[た]べ、それからテレビを見[み]ました。"
@@ -1537,7 +1537,7 @@
           "japanese": null,
           "choices": [
             "出[で]かけているあいだ、ずっと雨[あめ]が降[ふ]っていました。",
-            "出[で]かけているあいだに、雨[あめ]が降[お]りました。",
+            "出[で]かけているあいだに、雨[あめ]が降[ふ]りました。",
             "出[で]かけていないあいだ、雨[あめ]が降[ふ]っていました。",
             "出[で]かけたあいだ、雨[あめ]が降[ふ]っていました。"
           ],
@@ -1580,7 +1580,7 @@
           "choices": [
             "音楽[おんがく]を聴[き]きながら、勉強[べんきょう]しています。",
             "歩[ある]きながら、スマホを見[み]ないでください。",
-            "テレビを見[み]ながら、ご飯[めし]を食[た]べました。",
+            "テレビを見[み]ながら、ご飯[はん]を食[た]べました。",
             "眠[ねむ]っているながら、電話[でんわ]が鳴[な]った。"
           ],
           "correctIndex": 3,
@@ -1608,8 +1608,8 @@
           "choices": [
             "眠[ねむ]っているあいだに、電話[でんわ]が鳴[な]った。",
             "着[つ]いたあいだに、会議[かいぎ]が始[はじ]まりました。",
-            "日本[にっぽん]にいるあいだに、いろんな場所[ばしょ]を旅行[りょこう]しました。",
-            "仕事[しごと]をしているあいだに、外[そと]で雨[あめ]が降[お]り始[はじ]めました。"
+            "日本[にほん]にいるあいだに、いろんな場所[ばしょ]を旅行[りょこう]しました。",
+            "仕事[しごと]をしているあいだに、外[そと]で雨[あめ]が降[ふ]り始[はじ]めました。"
           ],
           "correctIndex": 1,
           "explanation": "着[つ]く (to arrive) is an instantaneous verb — it happens at a point, not over a duration. You can't say 着[つ]いたあいだに because arriving has no duration for other events to occur 'during.' あいだ requires durative verbs or states."
@@ -1620,13 +1620,13 @@
           "prompt": "Which naturally expresses 'I want to study as many Japanese words as possible while I'm in Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]にいるながら、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
-            "日本[にっぽん]のあいだに、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
-            "日本[にっぽん]にいるあいだに、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
-            "日本[にっぽん]にいてから、日本語[にほんご]をたくさん勉強[べんきょう]したい。"
+            "日本[にほん]にいるながら、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
+            "日本[にほん]のあいだに、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
+            "日本[にほん]にいるあいだに、日本語[にほんご]をたくさん勉強[べんきょう]したい。",
+            "日本[にほん]にいてから、日本語[にほんご]をたくさん勉強[べんきょう]したい。"
           ],
           "correctIndex": 2,
-          "explanation": "〜ているあいだに = during the period of . 日本[にっぽん]にいるあいだに = during the time of being in Japan. あいだに (with に) for goals/events that happen at various points within a longer stay."
+          "explanation": "〜ているあいだに = during the period of . 日本[にほん]にいるあいだに = during the time of being in Japan. あいだに (with に) for goals/events that happen at various points within a longer stay."
         },
         {
           "id": "aida-ni_q12",
@@ -1676,13 +1676,13 @@
           "prompt": "Which naturally expresses 'I want to visit many places while I'm in Japan for a year'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]にいる間[かん]、いろんな場所[ばしょ]に行[い]きたい。",
-            "日本[にっぽん]にいた間[ま]に、いろんな場所[ばしょ]に行[い]きたい。",
-            "日本[にっぽん]にいる間[ま]に、いろんな場所[ばしょ]に行[い]きたい。",
-            "日本[にっぽん]のあいだ、いろんな場所[ばしょ]に行[い]きたい。"
+            "日本[にほん]にいる間[かん]、いろんな場所[ばしょ]に行[い]きたい。",
+            "日本[にほん]にいた間[ま]に、いろんな場所[ばしょ]に行[い]きたい。",
+            "日本[にほん]にいる間[ま]に、いろんな場所[ばしょ]に行[い]きたい。",
+            "日本[にほん]のあいだ、いろんな場所[ばしょ]に行[い]きたい。"
           ],
           "correctIndex": 2,
-          "explanation": "〜ているあいだに = during the period of being in Japan (at various points). 日本[にっぽん]にいるあいだに = while being in Japan. 間[かん] (あいだ/かん) is the kanji form. あいだに (with に) for events at points within a longer stay."
+          "explanation": "〜ているあいだに = during the period of being in Japan (at various points). 日本[にほん]にいるあいだに = while being in Japan. 間[かん] (あいだ/かん) is the kanji form. あいだに (with に) for events at points within a longer stay."
         },
         {
           "id": "aida-ni_q16",

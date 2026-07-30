@@ -18,7 +18,7 @@
       ],
       "examples": [
         {
-          "japanese": "SNSを通[つう]じて、多[おお]くの人[にん]に情報[じょうほう]を発信[はっしん]することができます。",
+          "japanese": "SNSを通[つう]じて、多[おお]くの人[ひと]に情報[じょうほう]を発信[はっしん]することができます。",
           "romaji": "SNS wo tsuujite, ooku no hito ni jouhou wo hasshin suru koto ga dekimasu.",
           "english": "Through social media, you can send information to many people."
         },
@@ -161,7 +161,7 @@
           "choices": [
             "SNSを通[とお]して広[ひろ]まった (spread through social media — channel)",
             "一年[いちねん]を通[とお]して観光客[かんこうきゃく]が多[おお]い (many tourists throughout the year — period)",
-            "彼[か]の話[はなし]を通[とお]して理解[りかい]した (understood through his talk — channel)",
+            "彼[かれ]の話[はなし]を通[とお]して理解[りかい]した (understood through his talk — channel)",
             "友人[ゆうじん]を通[とお]して紹介[しょうかい]された (was introduced through a friend — channel)"
           ],
           "correctIndex": 1,
@@ -339,7 +339,7 @@
       "examples": [
         {
           "japanese": "彼女[かのじょ]を抜[ぬ]きにしては、このチームは成[な]り立[た]ちません。",
-          "romaji": "Kanojo wo nuki ni shite wa, kono chiimu wa naritatchimasen.",
+          "romaji": "Kanojo wo nuki ni shite wa, kono chiimu wa naritachimasen.",
           "english": "Without her, this team cannot function."
         },
         {
@@ -381,13 +381,13 @@
           "prompt": "Which correctly says 'Let's think about this leaving aside money matters'?",
           "japanese": null,
           "choices": [
-            "お金[きん]のことを抜[ぬ]きにして考[かんが]えましょう。",
-            "お金[きん]のことなしに考[かんが]えましょう。",
-            "お金[きん]のことを除[のぞ]いて考[かんが]えましょう。",
-            "お金[きん]のことを無視[むし]して考[かんが]えましょう。"
+            "お金[かね]のことを抜[ぬ]きにして考[かんが]えましょう。",
+            "お金[かね]のことなしに考[かんが]えましょう。",
+            "お金[かね]のことを除[のぞ]いて考[かんが]えましょう。",
+            "お金[かね]のことを無視[むし]して考[かんが]えましょう。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + を抜[ぬ]きにして: お金[きん]のこと + を抜[ぬ]きにして = setting aside money matters. 考[かんが]えましょう = let's think. を抜[ぬ]きにして removes X from the equation so the main point can be addressed."
+          "explanation": "Noun + を抜[ぬ]きにして: お金[かね]のこと + を抜[ぬ]きにして = setting aside money matters. 考[かんが]えましょう = let's think. を抜[ぬ]きにして removes X from the equation so the main point can be addressed."
         },
         {
           "id": "wo-nuki-ni-shite_q3",
@@ -452,7 +452,7 @@
           "japanese": null,
           "choices": [
             "予算[よさん]の話[はなし]を抜[ぬ]きにしては、話[はなし]が進[すす]まない。",
-            "予算[よさん]の話[は]なしには、話[はなし]が進[すす]まない。",
+            "予算[よさん]の話[はなし]には、話[はなし]が進[すす]まない。",
             "予算[よさん]の話[はなし]を除[のぞ]いては、話[はなし]が進[すす]まない。",
             "予算[よさん]の話[はなし]がなければ、話[はなし]が進[すす]まない。"
           ],
@@ -493,10 +493,10 @@
           "prompt": "Which correctly says 'Without his support, I could not have overcome this difficulty'?",
           "japanese": null,
           "choices": [
-            "彼[か]のサポートを抜[ぬ]きにしては、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
-            "彼[か]のサポートなしには、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
-            "彼[か]のサポートを除[のぞ]いては、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
-            "彼[か]のサポートがなければ、この困難[こんなん]を乗[の]り越[こ]えられなかった。"
+            "彼[かれ]のサポートを抜[ぬ]きにしては、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
+            "彼[かれ]のサポートなしには、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
+            "彼[かれ]のサポートを除[のぞ]いては、この困難[こんなん]を乗[の]り越[こ]えられなかった。",
+            "彼[かれ]のサポートがなければ、この困難[こんなん]を乗[の]り越[こ]えられなかった。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + を抜[ぬ]きにしては: サポート + を抜[ぬ]きにしては = without (his) support. 乗[の]り越[こ]えられなかった = could not have overcome. を抜[ぬ]きにしては emphasizes support as an indispensable factor."
@@ -563,10 +563,10 @@
           "prompt": "Which means 'Without his contribution, we would not have achieved this result'?",
           "japanese": null,
           "choices": [
-            "彼[か]の貢献[こうけん]を抜[ぬ]きにしては、この結果[けっか]は達成[たっせい]できなかった。",
-            "彼[か]の貢献[こうけん]なしには、この結果[けっか]は達成[たっせい]できなかった。",
-            "彼[か]の貢献[こうけん]を除[のぞ]いては、この結果[けっか]は達成[たっせい]できなかった。",
-            "彼[か]の貢献[こうけん]がなければ、この結果[けっか]は達成[たっせい]できなかった。"
+            "彼[かれ]の貢献[こうけん]を抜[ぬ]きにしては、この結果[けっか]は達成[たっせい]できなかった。",
+            "彼[かれ]の貢献[こうけん]なしには、この結果[けっか]は達成[たっせい]できなかった。",
+            "彼[かれ]の貢献[こうけん]を除[のぞ]いては、この結果[けっか]は達成[たっせい]できなかった。",
+            "彼[かれ]の貢献[こうけん]がなければ、この結果[けっか]は達成[たっせい]できなかった。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + を抜[ぬ]きにしては: 貢献[こうけん] + を抜[ぬ]きにしては = without (his) contribution. 達成[たっせい]できなかった = could not have achieved. を抜[ぬ]きにしては marks the contribution as essential to the result."
@@ -648,7 +648,7 @@
       "name": "〜をはじめとして (wo hajime to shite) — starting with / including / such as",
       "shortDescription": "Names a primary example as the representative of a broader group.",
       "formation": "Noun (primary example) + をはじめとして / をはじめとする + broader group",
-      "explanation": "をはじめとして (from 始[はじ]める — to start with) is the grammar of the prime example: it introduces the most prominent or representative member of a group, then extends to the broader category. 社長[しゃちょう]をはじめとして、全社[ぜんしゃ]員[いん]が賛同[さんどう]した — 'Starting with the company president, all employees agreed' — the president is the most prominent representative, and the agreement extends outward to everyone.\n\nThe structure is clearly hierarchical: the most important or representative element comes before をはじめとして; the broader group or description of it follows after. The attributive form をはじめとする modifies nouns directly: 東京[とうきょう]をはじめとする大都市[とし] ('major cities, with Tokyo as the prime example').\n\nThis is formal and standard in announcements, reports, and official writing where you want to lead with the flagship example before gesturing to the rest. More specific and formal than たとえば (for example) or など (etc.).",
+      "explanation": "をはじめとして (from 始[はじ]める — to start with) is the grammar of the prime example: it introduces the most prominent or representative member of a group, then extends to the broader category. 社長[しゃちょう]をはじめとして、全社[ぜんしゃ]員[いん]が賛同[さんどう]した — 'Starting with the company president, all employees agreed' — the president is the most prominent representative, and the agreement extends outward to everyone.\n\nThe structure is clearly hierarchical: the most important or representative element comes before をはじめとして; the broader group or description of it follows after. The attributive form をはじめとする modifies nouns directly: 東京[とうきょう]をはじめとする大都市[だいとし] ('major cities, with Tokyo as the prime example').\n\nThis is formal and standard in announcements, reports, and official writing where you want to lead with the flagship example before gesturing to the rest. More specific and formal than たとえば (for example) or など (etc.).",
       "rules": [
         "Primary Noun + をはじめとして = starting with / including (names rep. example, extends to group)",
         "Attributive: をはじめとする + Noun = [noun] including / led by [primary example]",
@@ -674,7 +674,7 @@
         },
         {
           "japanese": "山田[やまだ]さんをはじめとするベテラン社員[しゃいん]の経験[けいけん]が、会社[かいしゃ]を支[ささ]えています。",
-          "romaji": "Yamada-san wo hajime to suru beteren shain no keiken ga, kaisha wo sasaete imasu.",
+          "romaji": "Yamada-san wo hajime to suru beteran shain no keiken ga, kaisha wo sasaete imasu.",
           "english": "The experience of veteran employees including Yamada-san is supporting the company."
         }
       ],
@@ -715,13 +715,13 @@
           "prompt": "Which means 'Starting with sushi, Japan has many delicious foods'?",
           "japanese": null,
           "choices": [
-            "寿司[すし]をはじめとして、日本[にっぽん]にはおいしい食[た]べ物[もの]がたくさんある。",
-            "寿司[すし]をはじめとする日本[にっぽん]にはおいしい食[た]べ物[もの]がたくさんある。",
-            "寿司[すし]など、日本[にっぽん]にはおいしい食[た]べ物[もの]がたくさんある。",
-            "寿司[すし]をはじめ、日本[にっぽん]にはおいしい食[た]べ物[もの]がたくさんある。"
+            "寿司[すし]をはじめとして、日本[にほん]にはおいしい食[た]べ物[もの]がたくさんある。",
+            "寿司[すし]をはじめとする日本[にほん]にはおいしい食[た]べ物[もの]がたくさんある。",
+            "寿司[すし]など、日本[にほん]にはおいしい食[た]べ物[もの]がたくさんある。",
+            "寿司[すし]をはじめ、日本[にほん]にはおいしい食[た]べ物[もの]がたくさんある。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をはじめとして: 寿司[すし] + をはじめとして = starting with sushi. 日本[にっぽん]にはおいしい食[た]べ物[もの]がたくさんある = Japan has many delicious foods. Sushi introduced as the most representative Japanese food."
+          "explanation": "Noun + をはじめとして: 寿司[すし] + をはじめとして = starting with sushi. 日本[にほん]にはおいしい食[た]べ物[もの]がたくさんある = Japan has many delicious foods. Sushi introduced as the most representative Japanese food."
         },
         {
           "id": "wo-hajime-to-shite_q4",
@@ -785,10 +785,10 @@
           "prompt": "Which correctly says 'Starting with rice, Japan produces various agricultural products'?",
           "japanese": null,
           "choices": [
-            "米[こめ]をはじめとして、日本[にっぽん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
-            "米[こめ]をはじめとする日本[にっぽん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
-            "米[こめ]など、日本[にっぽん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
-            "米[こめ]をはじめ、日本[にっぽん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。"
+            "米[こめ]をはじめとして、日本[にほん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
+            "米[こめ]をはじめとする日本[にほん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
+            "米[こめ]など、日本[にほん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。",
+            "米[こめ]をはじめ、日本[にほん]はさまざまな農産物[のうさんぶつ]を生産[せいさん]している。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + をはじめとして: 米[こめ] + をはじめとして = starting with rice. さまざまな農産物[のうさんぶつ]を生産[せいさん]している = produces various agricultural products. Rice as the prime example of Japanese agricultural output."
@@ -856,12 +856,12 @@
           "japanese": null,
           "choices": [
             "をはじめとして cannot be shortened",
-            "日本[にっぽん]をはじめ、多[おお]くの国[くに]が参加[さんか]した。(= Japan and many other countries participated — correct short form)",
-            "日本[にっぽん]のはじめ、多[おお]くの国[くに]が参加[さんか]した。(incorrect particle)",
-            "日本[にっぽん]はじめ、多[おお]くの国[くに]が参加[さんか]した。(missing を)"
+            "日本[にほん]をはじめ、多[おお]くの国[くに]が参加[さんか]した。(= Japan and many other countries participated — correct short form)",
+            "日本[にほん]のはじめ、多[おお]くの国[くに]が参加[さんか]した。(incorrect particle)",
+            "日本[にほん]はじめ、多[おお]くの国[くに]が参加[さんか]した。(missing を)"
           ],
           "correctIndex": 1,
-          "explanation": "日本[にっぽん]をはじめ、多[おお]くの国[くに]が参加[さんか]した = starting with Japan, many countries participated. をはじめ is the contracted short form of をはじめとして. Both are correct; をはじめ is slightly more concise."
+          "explanation": "日本[にほん]をはじめ、多[おお]くの国[くに]が参加[さんか]した = starting with Japan, many countries participated. をはじめ is the contracted short form of をはじめとして. Both are correct; をはじめ is slightly more concise."
         },
         {
           "id": "wo-hajime-to-shite_q14",
@@ -869,10 +869,10 @@
           "prompt": "Which correctly says 'Starting with Tokyo, many cities in Japan have excellent public transport'?",
           "japanese": null,
           "choices": [
-            "東京[とうきょう]をはじめとして、日本[にっぽん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
-            "東京[とうきょう]をはじめとする日本[にっぽん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
-            "東京[とうきょう]など、日本[にっぽん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
-            "東京[とうきょう]をはじめ、日本[にっぽん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。"
+            "東京[とうきょう]をはじめとして、日本[にほん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
+            "東京[とうきょう]をはじめとする日本[にほん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
+            "東京[とうきょう]など、日本[にほん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。",
+            "東京[とうきょう]をはじめ、日本[にほん]の多[おお]くの都市[とし]は優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + をはじめとして: 東京[とうきょう] + をはじめとして = starting with Tokyo. 優[まさ]れた公共交通機関[こうきょうこうつうきかん]を持[も]っている = have excellent public transport. Tokyo as the prime example of Japanese cities with good transit."
@@ -925,10 +925,10 @@
           "prompt": "Which correctly says 'Starting with manga, Japan's pop culture is popular worldwide'?",
           "japanese": null,
           "choices": [
-            "漫画[まんが]をはじめとして、日本[にっぽん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
-            "漫画[まんが]をはじめとする日本[にっぽん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
-            "漫画[まんが]など、日本[にっぽん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
-            "漫画[まんが]をはじめ、日本[にっぽん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。"
+            "漫画[まんが]をはじめとして、日本[にほん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
+            "漫画[まんが]をはじめとする日本[にほん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
+            "漫画[まんが]など、日本[にほん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。",
+            "漫画[まんが]をはじめ、日本[にほん]のポップカルチャーは世界中[せかいじゅう]で人気[にんき]だ。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + をはじめとして: 漫画[まんが] + をはじめとして = starting with manga. 世界中[せかいじゅう]で人気[にんき]だ = popular worldwide. Manga as the prime example of Japanese pop culture exports."

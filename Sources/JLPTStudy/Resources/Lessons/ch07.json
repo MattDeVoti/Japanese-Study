@@ -119,7 +119,7 @@
           "choices": [
             "山田[やまだ]さんは眼鏡[めがね]をかけています。",
             "子[こ]どもが外[そと]で遊[あそ]んでいます。",
-            "母[は]は今[いま]料理[りょうり]をしています。",
+            "母[はは]は今[いま]料理[りょうり]をしています。",
             "弟[おとうと]は音楽[おんがく]を聴[き]いています。"
           ],
           "correctIndex": 0,
@@ -271,10 +271,10 @@
           "prompt": "Which sentence correctly says 'That person is wearing glasses'?",
           "japanese": null,
           "choices": [
-            "あの人[にん]は眼鏡[めがね]をつけています。",
-            "あの人[にん]は眼鏡[めがね]をかぶっています。",
-            "あの人[にん]は眼鏡[めがね]をはいています。",
-            "あの人[にん]は眼鏡[めがね]をかけています。"
+            "あの人[ひと]は眼鏡[めがね]をつけています。",
+            "あの人[ひと]は眼鏡[めがね]をかぶっています。",
+            "あの人[ひと]は眼鏡[めがね]をはいています。",
+            "あの人[ひと]は眼鏡[めがね]をかけています。"
           ],
           "correctIndex": 3,
           "explanation": "眼鏡[めがね] (glasses) uses the verb かける → かけています. 眼鏡[めがね]をかける is a set collocation to memorize. つける is for accessories (watches, jewelry). かぶる is for headwear (hats, helmets). はく is for footwear and lower-body clothing."
@@ -451,10 +451,10 @@
           "prompt": "Which sentence correctly says 'My mother came to pick up vegetables'?",
           "japanese": null,
           "choices": [
-            "母[は]は野菜[やさい]を取[と]るに来[き]ました。",
-            "母[は]は野菜[やさい]を取[と]りで来[き]ました。",
-            "母[は]は野菜[やさい]を取[と]りに来[き]ました。",
-            "母[は]は野菜[やさい]を取[と]ってに来[き]ました。"
+            "母[はは]は野菜[やさい]を取[と]るに来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]りで来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]りに来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]ってに来[き]ました。"
           ],
           "correctIndex": 2,
           "explanation": "取[と]る (to take/pick up) → masu-stem: 取[と]り → 取[と]りに来[き]ました (came to pick up). The verb stem before に is the key. 取[と]るに uses the dictionary form (wrong). 取[と]りで uses the wrong particle. 取[と]ってに uses the te-form (wrong)."
@@ -507,13 +507,13 @@
           "prompt": "Which sentence correctly says 'My friend came to Japan to learn Japanese'?",
           "japanese": null,
           "choices": [
-            "友達[ともだち]は日本語[にほんご]を学[まな]ぶに日本[にっぽん]に来[き]ました。",
-            "友達[ともだち]は日本語[にほんご]を学[まな]びで日本[にっぽん]に来[き]ました。",
-            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にっぽん]に来[き]ました。",
-            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にっぽん]を来[き]ました。"
+            "友達[ともだち]は日本語[にほんご]を学[まな]ぶに日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びで日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にほん]を来[き]ました。"
           ],
           "correctIndex": 2,
-          "explanation": "学[まな]ぶ (to learn) → masu-stem: 学[まな]び → 学[まな]びに来[き]ました (came to learn). に marks the destination after 日本[にっぽん]. Option 1 incorrectly uses the dictionary form before に. Option 2 uses で (wrong particle for purpose). Option 4 incorrectly uses を instead of に after 日本[にっぽん] — destinations take に or へ."
+          "explanation": "学[まな]ぶ (to learn) → masu-stem: 学[まな]び → 学[まな]びに来[き]ました (came to learn). に marks the destination after 日本[にほん]. Option 1 incorrectly uses the dictionary form before に. Option 2 uses で (wrong particle for purpose). Option 4 incorrectly uses を instead of に after 日本[にほん] — destinations take に or へ."
         },
         {
           "id": "ni-iku_q12",

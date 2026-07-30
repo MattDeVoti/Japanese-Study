@@ -20,7 +20,7 @@
       "examples": [
         {
           "japanese": "六歳[ろくさい]からピアノを弾[ひ]きはじめました。",
-          "romaji": "Rokusei kara piano wo hikihajimemashita.",
+          "romaji": "Rokusai kara piano wo hikihajimemashita.",
           "english": "I started playing piano at age six."
         },
         {
@@ -34,7 +34,7 @@
           "english": "No matter how tired I am, I continue running every day."
         },
         {
-          "japanese": "映画[えい]が始[はじ]まりました。静[しず]かにしてください。",
+          "japanese": "映画[えいが]が始[はじ]まりました。静[しず]かにしてください。",
           "romaji": "Eiga ga hajimarimashita. Shizuka ni shite kudasai.",
           "english": "The movie has started. Please be quiet."
         }
@@ -48,10 +48,10 @@
           "prompt": "Which correctly says 'I started eating lunch'?",
           "japanese": null,
           "choices": [
-            "昼[ひる]ご飯[めし]を食[た]べるはじめました。",
-            "昼[ひる]ご飯[めし]を食[た]べはじめました。",
-            "昼[ひる]ご飯[めし]を食[た]べてはじめました。",
-            "昼[ひる]ご飯[めし]の食[た]べはじめました。"
+            "昼[ひる]ご飯[はん]を食[た]べるはじめました。",
+            "昼[ひる]ご飯[はん]を食[た]べはじめました。",
+            "昼[ひる]ご飯[はん]を食[た]べてはじめました。",
+            "昼[ひる]ご飯[はん]の食[た]べはじめました。"
           ],
           "correctIndex": 1,
           "explanation": "Masu-stem + はじめる: 食[た]べる → 食[た]べ (masu-stem) + はじめました = 食[た]べはじめました = started eating. はじめる attaches to the masu-stem of the verb."
@@ -105,9 +105,9 @@
           "japanese": null,
           "choices": [
             "雨[あめ]が降[ふ]るはじめました。",
-            "雨[あめ]が降[お]りはじめました。",
+            "雨[あめ]が降[ふ]りはじめました。",
             "雨[あめ]が降[ふ]ってはじめました。",
-            "雨[あめ]が降[お]りだしました。"
+            "雨[あめ]が降[ふ]りだしました。"
           ],
           "correctIndex": 1,
           "explanation": "降[お]り (masu-stem) + はじめました = 降[お]りはじめました = started raining. Also correct: 降[お]りだした (〜だす = suddenly start). 降[お]りはじめた is more gradual; 降[お]りだした is more sudden."
@@ -926,10 +926,10 @@
           "prompt": "Which correctly uses ところに to describe an interruption?",
           "japanese": null,
           "choices": [
-            "ご飯[めし]を食[た]べているところに、友達[ともだち]が来[き]た。",
-            "ご飯[めし]を食[た]べたところに、友達[ともだち]が来[き]た。",
-            "ご飯[めし]を食[た]べるところに、友達[ともだち]が来[き]た。",
-            "ご飯[めし]を食[た]べているところで、友達[ともだち]が来[き]た。"
+            "ご飯[はん]を食[た]べているところに、友達[ともだち]が来[き]た。",
+            "ご飯[はん]を食[た]べたところに、友達[ともだち]が来[き]た。",
+            "ご飯[はん]を食[た]べるところに、友達[ともだち]が来[き]た。",
+            "ご飯[はん]を食[た]べているところで、友達[ともだち]が来[き]た。"
           ],
           "correctIndex": 0,
           "explanation": "〜ているところに = just as I was doing X (interruption). 食[た]べているところに + 友達[ともだち]が来[き]た = just as I was eating, my friend came (interruption). ところに marks the timing of the interrupting event."
@@ -954,13 +954,13 @@
           "prompt": "Which means 'I was just about to go out when it started raining'?",
           "japanese": null,
           "choices": [
-            "出[で]かけたところに、雨[あめ]が降[お]りはじめた。",
-            "出[で]かけているところに、雨[あめ]が降[お]りはじめた。",
-            "出[で]かけるところに、雨[あめ]が降[お]りはじめた。",
-            "出[で]かけたところで、雨[あめ]が降[お]りはじめた。"
+            "出[で]かけたところに、雨[あめ]が降[ふ]りはじめた。",
+            "出[で]かけているところに、雨[あめ]が降[ふ]りはじめた。",
+            "出[で]かけるところに、雨[あめ]が降[ふ]りはじめた。",
+            "出[で]かけたところで、雨[あめ]が降[ふ]りはじめた。"
           ],
           "correctIndex": 2,
-          "explanation": "Dict-form + ところに (just about to, interrupted): 出[で]かけるところに + 雨[あめ]が降[お]りはじめた = just as I was about to go out, it started raining. The rain interrupted the about-to-leave moment."
+          "explanation": "Dict-form + ところに (just about to, interrupted): 出[で]かけるところに + 雨[あめ]が降[ふ]りはじめた = just as I was about to go out, it started raining. The rain interrupted the about-to-leave moment."
         }
       ]
     },
@@ -969,7 +969,7 @@
       "name": "〜たばかり (ta bakari) — just did (recently)",
       "shortDescription": "Just did X recently — the action feels fresh; broader window than たところ.",
       "formation": "Verb (た-form) + ばかり + です / いる / なので...",
-      "explanation": "〜たばかり is the 'still fresh' marker. It says that an action happened recently — the result is still with you and the memory is still new. 日本[にっぽん]に来[き]たばかりです: 'I just came to Japan.' That could mean yesterday, last week, or even a month ago — but it still feels recent and you're still in that 'new arrival' mode.\n\nThe critical comparison with the previous pattern:\n• たところ: literally this very second — hyper-precise present moment\n• たばかり: recently — a broader, more subjective sense of freshness\nIf you just walked in the door five seconds ago, both work. But if it was an hour ago or last week, only ばかり applies.\n\nばかり also has two other uses worth knowing:\n• ているばかり: 'doing nothing but X' (often with a mildly critical feel). テレビを見[み]ているばかりで、何[なに]もしない (All he does is watch TV).\n• Noun + ばかり: 'nothing but [noun].' お菓子[かし]ばかり食[た]べている (eating nothing but sweets). The nuance is often that the person should be doing other things too.\n\nIn practical usage, たばかりなので is a very natural combination for explaining your circumstances: 引越[ひっこ]したばかりなので、まだ荷物[にもつ]が片付[かたづ]いていません (I just moved recently, so my things aren't put away yet).",
+      "explanation": "〜たばかり is the 'still fresh' marker. It says that an action happened recently — the result is still with you and the memory is still new. 日本[にほん]に来[き]たばかりです: 'I just came to Japan.' That could mean yesterday, last week, or even a month ago — but it still feels recent and you're still in that 'new arrival' mode.\n\nThe critical comparison with the previous pattern:\n• たところ: literally this very second — hyper-precise present moment\n• たばかり: recently — a broader, more subjective sense of freshness\nIf you just walked in the door five seconds ago, both work. But if it was an hour ago or last week, only ばかり applies.\n\nばかり also has two other uses worth knowing:\n• ているばかり: 'doing nothing but X' (often with a mildly critical feel). テレビを見[み]ているばかりで、何[なに]もしない (All he does is watch TV).\n• Noun + ばかり: 'nothing but [noun].' お菓子[かし]ばかり食[た]べている (eating nothing but sweets). The nuance is often that the person should be doing other things too.\n\nIn practical usage, たばかりなので is a very natural combination for explaining your circumstances: 引越[ひっこ]したばかりなので、まだ荷物[にもつ]が片付[かたづ]いていません (I just moved recently, so my things aren't put away yet).",
       "rules": [
         "た-form + ばかり = just did X recently (action is complete and still feels fresh)",
         "Broader time window than たところ: ところ = this second; ばかり = recently (subjectively)",
@@ -979,12 +979,12 @@
       ],
       "examples": [
         {
-          "japanese": "日本[にっぽん]に来[き]たばかりで、まだ何[なに]も知[し]りません。",
+          "japanese": "日本[にほん]に来[き]たばかりで、まだ何[なに]も知[し]りません。",
           "romaji": "Nihon ni kita bakari de, mada nani mo shirimasen.",
           "english": "I just came to Japan recently and still don't know anything."
         },
         {
-          "japanese": "昼[ひる]ご飯[めし]を食[た]べたばかりなので、お腹[はら]がいっぱいです。",
+          "japanese": "昼[ひる]ご飯[はん]を食[た]べたばかりなので、お腹[なか]がいっぱいです。",
           "romaji": "Hirugohan wo tabeta bakari na node, onaka ga ippai desu.",
           "english": "I just ate lunch, so I'm full."
         },
@@ -994,7 +994,7 @@
           "english": "All he does is watch TV — he doesn't study at all."
         },
         {
-          "japanese": "この店[みせ]は開[ひら]いたばかりなので、まだあまり知[し]られていません。",
+          "japanese": "この店[みせ]は開[あ]いたばかりなので、まだあまり知[し]られていません。",
           "romaji": "Kono mise wa aita bakari na node, mada amari shirarete imasen.",
           "english": "This shop just opened recently, so it's not very well known yet."
         }
@@ -1022,13 +1022,13 @@
           "prompt": "Which correctly says 'I just arrived in Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に来[く]るばかりです。",
-            "日本[にっぽん]に来[き]ているばかりです。",
-            "日本[にっぽん]に来[き]たばかりです。",
-            "日本[にっぽん]に来[き]ていたばかりです。"
+            "日本[にほん]に来[く]るばかりです。",
+            "日本[にほん]に来[き]ているばかりです。",
+            "日本[にほん]に来[き]たばかりです。",
+            "日本[にほん]に来[き]ていたばかりです。"
           ],
           "correctIndex": 2,
-          "explanation": "Ta-form + ばかり: 来[く]る → 来[き]た (past) + ばかりです = 来[き]たばかりです = just arrived. 日本[にっぽん]に来[き]たばかりです = I just came to Japan."
+          "explanation": "Ta-form + ばかり: 来[く]る → 来[き]た (past) + ばかりです = 来[き]たばかりです = just arrived. 日本[にほん]に来[き]たばかりです = I just came to Japan."
         },
         {
           "id": "ta-bakari_q3",
@@ -1162,13 +1162,13 @@
           "prompt": "Which correctly says 'I just had dinner so I'm full'?",
           "japanese": null,
           "choices": [
-            "夕食[ゆうしょく]を食[た]べたばかりで、お腹[はら]がいっぱいです。",
-            "夕食[ゆうしょく]を食[た]べるばかりで、お腹[はら]がいっぱいです。",
-            "夕食[ゆうしょく]を食[た]べているばかりで、お腹[はら]がいっぱいです。",
-            "夕食[ゆうしょく]が食[た]べたばかりで、お腹[はら]がいっぱいです。"
+            "夕食[ゆうしょく]を食[た]べたばかりで、お腹[なか]がいっぱいです。",
+            "夕食[ゆうしょく]を食[た]べるばかりで、お腹[なか]がいっぱいです。",
+            "夕食[ゆうしょく]を食[た]べているばかりで、お腹[なか]がいっぱいです。",
+            "夕食[ゆうしょく]が食[た]べたばかりで、お腹[なか]がいっぱいです。"
           ],
           "correctIndex": 0,
-          "explanation": "Ta-form + ばかりで = having just done X (reason clause). 食[た]べたばかりで + お腹[はら]がいっぱいです = because I just ate, I'm full. ばかりで here is causal."
+          "explanation": "Ta-form + ばかりで = having just done X (reason clause). 食[た]べたばかりで + お腹[なか]がいっぱいです = because I just ate, I'm full. ばかりで here is causal."
         },
         {
           "id": "ta-bakari_q13",
@@ -1206,7 +1206,7 @@
           "choices": [
             "昨年[さくねん]、卒業[そつぎょう]したばかりです。",
             "十年前[じゅうねんまえ]、卒業[そつぎょう]したばかりです。",
-            "生[う]まれた日[にち]に、卒業[そつぎょう]したばかりです。",
+            "生[う]まれた日[ひ]に、卒業[そつぎょう]したばかりです。",
             "明日[あした]、卒業[そつぎょう]したばかりです。"
           ],
           "correctIndex": 0,

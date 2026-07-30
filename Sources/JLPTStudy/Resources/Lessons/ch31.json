@@ -8,7 +8,7 @@
       "name": "〜ほど〜ない (hodo...nai) — not as...as",
       "shortDescription": "Negative comparison stating A is not as [quality] as B — and a family of degree expressions built around extent.",
       "formation": "A は B ほど + adjective + ない / Noun ほど + negative predicate",
-      "explanation": "ほど measures degree and extent, and 〜ほど〜ない is its negative comparison form: A は B ほど + negative adjective = A is not as [adj] as B. 今日[こんにち]は昨日[きのう]ほど寒[さむ]くない: today doesn't reach yesterday's level of cold. Note the contrast with より, the positive comparison particle — 今日[こんにち]は昨日[きのう]より暖[あたた]かい (today is warmer than yesterday).\n\nBut ほど's range goes well beyond simple comparison. In positive sentences, 死[し]ぬほど疲[つか]れた means 'tired to the point of dying' — an extreme degree expressed through a vivid benchmark. The proportional pattern 〜ば〜ほど (the more X, the more Y) shows degree tracking degree: 練習[れんしゅう]すればするほど、上手[じょうず]になる (the more you practice, the better you get). And これほど〜ない is a superlative denial — 'nothing reaches this degree of [adj].' All these patterns share ほど's core DNA: measuring how far something sits along a scale.",
+      "explanation": "ほど measures degree and extent, and 〜ほど〜ない is its negative comparison form: A は B ほど + negative adjective = A is not as [adj] as B. 今日[きょう]は昨日[きのう]ほど寒[さむ]くない: today doesn't reach yesterday's level of cold. Note the contrast with より, the positive comparison particle — 今日[きょう]は昨日[きのう]より暖[あたた]かい (today is warmer than yesterday).\n\nBut ほど's range goes well beyond simple comparison. In positive sentences, 死[し]ぬほど疲[つか]れた means 'tired to the point of dying' — an extreme degree expressed through a vivid benchmark. The proportional pattern 〜ば〜ほど (the more X, the more Y) shows degree tracking degree: 練習[れんしゅう]すればするほど、上手[じょうず]になる (the more you practice, the better you get). And これほど〜ない is a superlative denial — 'nothing reaches this degree of [adj].' All these patterns share ほど's core DNA: measuring how far something sits along a scale.",
       "rules": [
         "A は B ほど + negative adjective = A is not as [adj] as B",
         "Positive extent: 〜ほど = to the extent of / as much as: 死[し]ぬほど疲[つか]れた",
@@ -18,7 +18,7 @@
       ],
       "examples": [
         {
-          "japanese": "今日[こんにち]は昨日[きのう]ほど寒[さむ]くないですね。",
+          "japanese": "今日[きょう]は昨日[きのう]ほど寒[さむ]くないですね。",
           "romaji": "Kyou wa kinou hodo samuku nai desu ne.",
           "english": "Today is not as cold as yesterday, is it."
         },
@@ -117,13 +117,13 @@
           "prompt": "Which correctly says 'No one works as hard as him'?",
           "japanese": null,
           "choices": [
-            "彼[かれ]ほど一生懸命[いっしょうけんめい]働[はたら]く人[にん]はいない。",
-            "彼[かれ]よりほど一生懸命[いっしょうけんめい]働[はたら]く人[にん]はいない。",
-            "彼[かれ]ほどに一生懸命[いっしょうけんめい]働[はたら]く人[にん]はいない。",
-            "彼[かれ]をほど一生懸命[いっしょうけんめい]働[はたら]く人[にん]はいない。"
+            "彼[かれ]ほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+            "彼[かれ]よりほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+            "彼[かれ]ほどに一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+            "彼[かれ]をほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Xほど〜人[にん]はいない = there is no person as ~ as X. 彼[かれ]ほど (as  him) + 一生懸命[いっしょうけんめい]働[はたら]く (works hard) + 人[にん]はいない (no person). Strong emphatic."
+          "explanation": "Xほど〜人[ひと]はいない = there is no person as ~ as X. 彼[かれ]ほど (as  him) + 一生懸命[いっしょうけんめい]働[はたら]く (works hard) + 人[ひと]はいない (no person). Strong emphatic."
         },
         {
           "id": "hodo-nai_q7",
@@ -131,13 +131,13 @@
           "prompt": "Which means 'Japanese winter is not as cold as Hokkaido'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]くない。",
-            "日本[にっぽん]の冬[ふゆ]は北海道[ほっかいどう]より寒[さむ]くない。",
-            "日本[にっぽん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]い。",
-            "日本[にっぽん]の冬[ふゆ]は北海道[ほっかいどう]よりほど寒[さむ]くない。"
+            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]くない。",
+            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]より寒[さむ]くない。",
+            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]い。",
+            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]よりほど寒[さむ]くない。"
           ],
           "correctIndex": 0,
-          "explanation": "A + は + B + ほど + negative adj: 日本[にっぽん]の冬[ふゆ] (A) + は + 北海道[ほっかいどう] (B) + ほど + 寒[さむ]くない (not cold). Hokkaido is colder."
+          "explanation": "A + は + B + ほど + negative adj: 日本[にほん]の冬[ふゆ] (A) + は + 北海道[ほっかいどう] (B) + ほど + 寒[さむ]くない (not cold). Hokkaido is colder."
         },
         {
           "id": "hodo-nai_q8",
@@ -243,10 +243,10 @@
           "prompt": "Which means 'His Japanese is not as good as I thought'?",
           "japanese": null,
           "choices": [
-            "彼[か]の日本語[にほんご]は思[おも]ったほど上手[うま]くない。",
-            "彼[か]の日本語[にほんご]は思[おも]ったより上手[うま]くない。",
-            "彼[か]の日本語[にほんご]は思[おも]ったほどに上手[うま]くない。",
-            "彼[か]の日本語[にほんご]は思[おも]ったをほど上手[うま]くない。"
+            "彼[かれ]の日本語[にほんご]は思[おも]ったほど上手[うま]くない。",
+            "彼[かれ]の日本語[にほんご]は思[おも]ったより上手[うま]くない。",
+            "彼[かれ]の日本語[にほんご]は思[おも]ったほどに上手[うま]くない。",
+            "彼[かれ]の日本語[にほんご]は思[おも]ったをほど上手[うま]くない。"
           ],
           "correctIndex": 0,
           "explanation": "〜たほど〜ない = not as ~ as I . 思[おも]ったほど = as  thought. 上手[うま]くない = not skilled. His Japanese fell short of my expectation."
@@ -291,7 +291,7 @@
             "彼[かれ]をほど頼[たよ]りになる友達[ともだち]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Xほど〜人[にん]/友達[ともだち]はいない = there is no person/friend as ~ as X. 彼[かれ]ほど (as reliable as him) + 頼[たよ]りになる (reliable) + 友達[ともだち]はいない (no friend). Emphatic comparison."
+          "explanation": "Xほど〜人[ひと]/友達[ともだち]はいない = there is no person/friend as ~ as X. 彼[かれ]ほど (as reliable as him) + 頼[たよ]りになる (reliable) + 友達[ともだち]はいない (no friend). Emphatic comparison."
         },
         {
           "id": "hodo-nai_q19",
@@ -373,7 +373,7 @@
             "whenever"
           ],
           "correctIndex": 1,
-          "explanation": "〜さえ〜ば = as long as / if only . お金[きん]さえあれば、何[なん]でも買[か]える = if only I had money, I could buy anything. さえ marks the minimum sufficient condition."
+          "explanation": "〜さえ〜ば = as long as / if only . お金[かね]さえあれば、何[なん]でも買[か]える = if only I had money, I could buy anything. さえ marks the minimum sufficient condition."
         },
         {
           "id": "sae-ba_q2",
@@ -409,13 +409,13 @@
           "prompt": "Which means 'If only I had health, nothing else matters'?",
           "japanese": null,
           "choices": [
-            "健康[けんこう]さえあれば、他[た]は何[なに]もいらない。",
-            "健康[けんこう]もあれば、他[た]は何[なに]もいらない。",
-            "健康[けんこう]だけあれば、他[た]は何[なに]もいらない。",
-            "健康[けんこう]があれば、他[た]は何[なに]もいらない。"
+            "健康[けんこう]さえあれば、他[ほか]は何[なに]もいらない。",
+            "健康[けんこう]もあれば、他[ほか]は何[なに]もいらない。",
+            "健康[けんこう]だけあれば、他[ほか]は何[なに]もいらない。",
+            "健康[けんこう]があれば、他[ほか]は何[なに]もいらない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + さえ + あれば: 健康[けんこう] (health) + さえ + あれば = 健康[けんこう]さえあれば = if only there is health. 他[た]は何[なに]もいらない = nothing else is needed. さえ marks health as the only/minimum requirement."
+          "explanation": "Noun + さえ + あれば: 健康[けんこう] (health) + さえ + あれば = 健康[けんこう]さえあれば = if only there is health. 他[ほか]は何[なに]もいらない = nothing else is needed. さえ marks health as the only/minimum requirement."
         },
         {
           "id": "sae-ba_q5",
@@ -521,13 +521,13 @@
           "prompt": "Which correctly says 'As long as the key exists, I can open it'?",
           "japanese": null,
           "choices": [
-            "鍵[かぎ]さえあれば、開[ひら]けられる。",
-            "鍵[かぎ]もあれば、開[ひら]けられる。",
-            "鍵[かぎ]だけあれば、開[ひら]けられる。",
-            "鍵[かぎ]があれば、開[ひら]けられる。"
+            "鍵[かぎ]さえあれば、開[あ]けられる。",
+            "鍵[かぎ]もあれば、開[あ]けられる。",
+            "鍵[かぎ]だけあれば、開[あ]けられる。",
+            "鍵[かぎ]があれば、開[あ]けられる。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + さえ + あれば: 鍵[かぎ] (key) + さえ + あれば = 鍵[かぎ]さえあれば = as long as there is a key. 開[ひら]けられる = can open. さえ emphasizes the key as the minimum sufficient condition."
+          "explanation": "Noun + さえ + あれば: 鍵[かぎ] (key) + さえ + あれば = 鍵[かぎ]さえあれば = as long as there is a key. 開[あ]けられる = can open. さえ emphasizes the key as the minimum sufficient condition."
         },
         {
           "id": "sae-ba_q13",
@@ -535,7 +535,7 @@
           "prompt": "さえ also has a meaning 'even / not even' (listing extreme examples). Which shows this 'even' meaning?",
           "japanese": null,
           "choices": [
-            "お金[きん]さえあれば、幸[しあわ]せだ。",
+            "お金[かね]さえあれば、幸[しあわ]せだ。",
             "子供[こども]さえ知[し]っている。(Even children know it.)",
             "来[き]さえすれば、許[ゆる]す。",
             "日本語[にほんご]さえ話[はな]せば、大丈夫[だいじょうぶ]。"
@@ -813,13 +813,13 @@
           "prompt": "Which correctly says 'Not only does he not apologize, he also blames others'?",
           "japanese": null,
           "choices": [
-            "彼[かれ]は謝[あやま]らないばかりか、人[にん]のせいにもする。",
-            "彼[かれ]は謝[あやま]るばかりか、人[にん]のせいにもする。",
-            "彼[かれ]は謝[あやま]ったばかりか、人[にん]のせいにもする。",
-            "彼[かれ]は謝[あやま]らないのばかりか、人[にん]のせいにもする。"
+            "彼[かれ]は謝[あやま]らないばかりか、人[ひと]のせいにもする。",
+            "彼[かれ]は謝[あやま]るばかりか、人[ひと]のせいにもする。",
+            "彼[かれ]は謝[あやま]ったばかりか、人[ひと]のせいにもする。",
+            "彼[かれ]は謝[あやま]らないのばかりか、人[ひと]のせいにもする。"
           ],
           "correctIndex": 0,
-          "explanation": "Negative plain form + ばかりか + も: 謝[あやま]らない (doesn't apologize) + ばかりか = not only doesn't apologize. 人[にん]のせいにもする = also blames others. Stacking negative behaviors."
+          "explanation": "Negative plain form + ばかりか + も: 謝[あやま]らない (doesn't apologize) + ばかりか = not only doesn't apologize. 人[ひと]のせいにもする = also blames others. Stacking negative behaviors."
         },
         {
           "id": "bakari-ka_q11",

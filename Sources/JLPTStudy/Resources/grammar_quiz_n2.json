@@ -271,8 +271,8 @@
     "prompt": "‘Depending on the weather, we might cancel.’ (outcome hinges on X)",
     "japanese": null,
     "choices": [
-      "天気次第[しだい]で、中止[ちゅうし]になるかもしれない。",
-      "天気次第[しだい]、中止[ちゅうし]になった。",
+      "天気[てんき]次第[しだい]で、中止[ちゅうし]になるかもしれない。",
+      "天気[てんき]次第[しだい]、中止[ちゅうし]になった。",
       "天気[てんき]に先立って、中止[ちゅうし]になるかもしれない。",
       "天気[てんき]をめぐって、中止[ちゅうし]になるかもしれない。"
     ],
@@ -859,10 +859,10 @@
     "prompt": "‘Everyone came except Tanaka.’",
     "japanese": null,
     "choices": [
-      "田中[たなか]さんを除[のぞ]いて、全員来[き]た。",
-      "田中[たなか]さんに限って、全員来[き]た。",
-      "田中[たなか]さんを問わず、全員来[き]た。",
-      "田中[たなか]さんに応じて、全員来[き]た。"
+      "田中[たなか]さんを除[のぞ]いて、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんに限って、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんを問わず、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんに応じて、全員[ぜんいん]来[き]た。"
     ],
     "correctIndex": 0,
     "explanation": "～を除いて = ‘except for / excluding’. を問わず = ‘regardless of’, に限って = ‘precisely’, に応じて = ‘depending on’ — only 除いて excludes."
@@ -901,10 +901,10 @@
     "prompt": "Converting/explaining: ‘It’s noon in Japan, so it’s 3 a.m. in London, then.’",
     "japanese": null,
     "choices": [
-      "日本[にほん]が昼[ひる]なら、ロンドンは午前三時[さんじ]というわけだ。",
-      "ロンドンは午前三時[さんじ]というものだ。",
-      "ロンドンは午前三時[さんじ]というところだ。",
-      "ロンドンは午前三時[さんじ]というものか。"
+      "日本[にほん]が昼[ひる]なら、ロンドンは午前[ごぜん]三時[さんじ]というわけだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というものだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というところだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というものか。"
     ],
     "correctIndex": 0,
     "explanation": "～というわけだ = ‘which means / that amounts to’ (drawing a logical conversion). ものだ (general truth) and ものか (defiance) don’t express this ‘so it works out that…’ calculation."
@@ -943,10 +943,10 @@
     "prompt": "Formal ‘not only’: ‘Not only Japan but the whole world faces this issue.’",
     "japanese": null,
     "choices": [
-      "日本[にほん]のみならず、世界中[じゅう]がこの問題[もんだい]を抱[かか]える。",
-      "日本[にほん]のわりに、世界中[じゅう]がこの問題[もんだい]を抱[かか]える。",
-      "日本[にほん]を除いて、世界中[じゅう]がこの問題[もんだい]を抱[かか]える。",
-      "日本[にほん]を問わず、世界中[じゅう]がこの問題[もんだい]を抱[かか]える。"
+      "日本[にほん]のみならず、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]のわりに、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]を除いて、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]を問わず、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。"
     ],
     "correctIndex": 0,
     "explanation": "～のみならず = a formal ‘not only… but also’. を除いて = ‘except’, を問わず = ‘regardless of’ — the opposite or unrelated scope."

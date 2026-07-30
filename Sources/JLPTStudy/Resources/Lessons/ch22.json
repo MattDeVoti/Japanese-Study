@@ -403,7 +403,7 @@
             "安[やす]くなければ"
           ],
           "correctIndex": 2,
-          "explanation": "い-adj ば-form: drop い + ければ. 安[やす]い → 安[あん] + ければ = 安[やす]ければ = if  inexpensive."
+          "explanation": "い-adj ば-form: drop い + ければ. 安[やす]い → 安[やす] + ければ = 安[やす]ければ = if  inexpensive."
         },
         {
           "id": "ba-conditional_q4",
@@ -417,7 +417,7 @@
             "For logical/hypothetical conditions and general truths"
           ],
           "correctIndex": 3,
-          "explanation": "ば-conditional is most natural for logical/hypothetical conditions and general truths: 春[はる]が来[こ]れば、花[はな]が咲[さ]く = if spring comes, flowers bloom (general truth). たら = one-time specific events; ば = logical/general/hypothetical."
+          "explanation": "ば-conditional is most natural for logical/hypothetical conditions and general truths: 春[はる]が来[く]れば、花[はな]が咲[さ]く = if spring comes, flowers bloom (general truth). たら = one-time specific events; ば = logical/general/hypothetical."
         },
         {
           "id": "ba-conditional_q5",
@@ -469,7 +469,7 @@
           "choices": [
             "もし宝[たから]くじが当[あ]たれば、旅行[りょこう]に行[い]きたい。",
             "雨[あめ]が降[ふ]れば、傘[かさ]を持[も]っていきなさい。",
-            "春[はる]が来[こ]れば、花[はな]が咲[さ]く。",
+            "春[はる]が来[く]れば、花[はな]が咲[さ]く。",
             "早[はや]く起[お]きれば、電車[でんしゃ]に乗[の]れる。"
           ],
           "correctIndex": 0,
@@ -660,7 +660,7 @@
       ],
       "examples": [
         {
-          "japanese": "夢[ゆめ]のような一日[ついたち]でした。",
+          "japanese": "夢[ゆめ]のような一日[いちにち]でした。",
           "romaji": "Yume no you na ichinichi deshita.",
           "english": "It was a day like a dream."
         },
@@ -670,7 +670,7 @@
           "english": "Please explain using simple words so that even children can understand."
         },
         {
-          "japanese": "外[そと]が見[み]えるように、カーテンを開[ひら]けておきました。",
+          "japanese": "外[そと]が見[み]えるように、カーテンを開[あ]けておきました。",
           "romaji": "Soto ga mieru you ni, kaaten wo akete okimashita.",
           "english": "I opened the curtains so that the outside could be seen."
         },
@@ -691,7 +691,7 @@
           "choices": [
             "雨[あめ]が降[ふ]るみたいです。",
             "雨[あめ]が降[ふ]るらしいです。",
-            "雨[あめ]が降[お]りそうです。",
+            "雨[あめ]が降[ふ]りそうです。",
             "雨[あめ]が降[ふ]るようです。"
           ],
           "correctIndex": 3,
@@ -919,7 +919,7 @@
             "プロのようなを"
           ],
           "correctIndex": 2,
-          "explanation": "〜のように = like  (adverb form). プロのように = like a professional. のように modifies verbs. Compare: のような modifies nouns (プロのような人[にん] = a person like a pro)."
+          "explanation": "〜のように = like  (adverb form). プロのように = like a professional. のように modifies verbs. Compare: のような modifies nouns (プロのような人[ひと] = a person like a pro)."
         },
         {
           "id": "you-da_q18",
@@ -927,13 +927,13 @@
           "prompt": "Which correctly uses ような for noun modification?",
           "japanese": null,
           "choices": [
-            "先生[せんせい]のように人[にん]です。",
-            "先生[せんせい]のような人[にん]です。",
-            "先生[せんせい]みたいな人[にん]です。",
-            "先生[せんせい]のような人[にん]ではありません。"
+            "先生[せんせい]のように人[ひと]です。",
+            "先生[せんせい]のような人[ひと]です。",
+            "先生[せんせい]みたいな人[ひと]です。",
+            "先生[せんせい]のような人[ひと]ではありません。"
           ],
           "correctIndex": 1,
-          "explanation": "〜のような + noun = a noun that is like . 先生[せんせい]のような人[にん] = a person like a teacher (someone who resembles a teacher). ような is the attributive form for noun modification."
+          "explanation": "〜のような + noun = a noun that is like . 先生[せんせい]のような人[ひと] = a person like a teacher (someone who resembles a teacher). ような is the attributive form for noun modification."
         },
         {
           "id": "you-da_q19",

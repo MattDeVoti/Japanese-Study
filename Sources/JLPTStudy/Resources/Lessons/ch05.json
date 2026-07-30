@@ -63,7 +63,7 @@
           "choices": [
             "寒[さむ]かった",
             "寒[さむ]くない",
-            "寒[かん]でした",
+            "寒[さむ]でした",
             "寒[さむ]いでした"
           ],
           "correctIndex": 0,
@@ -117,7 +117,7 @@
           "prompt": "Which sentence correctly means 'It was not cold yesterday'?",
           "japanese": null,
           "choices": [
-            "昨日[きのう]は寒[かん]でなかったです。",
+            "昨日[きのう]は寒[さむ]でなかったです。",
             "昨日[きのう]は寒[さむ]くなかったじゃないです。",
             "昨日[きのう]は寒[さむ]くなかったです。",
             "昨日[きのう]は寒[さむ]くないでした。"
@@ -257,10 +257,10 @@
           "prompt": "Which pair uses 安[やす]い (cheap) correctly in both prenominal and predicate positions?",
           "japanese": null,
           "choices": [
-            "安[あん]の店[みせ] / このお店[みせ]は安[やす]いです",
-            "安[あん]な店[みせ] / このお店[みせ]は安[やす]いです",
+            "安[やす]の店[みせ] / このお店[みせ]は安[やす]いです",
+            "安[やす]な店[みせ] / このお店[みせ]は安[やす]いです",
             "安[やす]い店[みせ] / このお店[みせ]は安[やす]いです",
-            "安[やす]い店[みせ] / このお店[みせ]は安[あん]だです"
+            "安[やす]い店[みせ] / このお店[みせ]は安[やす]だです"
           ],
           "correctIndex": 2,
           "explanation": "い-adjectives work identically in both positions: go directly before the noun (安[やす]い店[みせ]) and attach to です in predicate position (安[やす]いです). No extra connector is needed in either case. Adding だ before です is a common error."
@@ -410,7 +410,7 @@
           "choices": [
             "有名[ゆうめい]な映画[えいが]を見[み]ました。",
             "有名[ゆうめい]の映画[えいが]を見[み]ました。",
-            "有名[ゆうめ]い映画[えいが]を見[み]ました。",
+            "有名[ゆうめい]い映画[えいが]を見[み]ました。",
             "有名[ゆうめい]映画[えいが]を見[み]ました。"
           ],
           "correctIndex": 0,
@@ -450,13 +450,13 @@
           "prompt": "Which phrase correctly means 'a kind person'?",
           "japanese": null,
           "choices": [
-            "親切[しんせつ]な人[にん]",
-            "親切[しんせつ]い人[にん]",
-            "親切[しんせつ]の人[にん]",
-            "親切[しんせつ]人[にん]"
+            "親切[しんせつ]な人[ひと]",
+            "親切[しんせつ]い人[ひと]",
+            "親切[しんせつ]の人[ひと]",
+            "親切[しんせつ]人[ひと]"
           ],
           "correctIndex": 0,
-          "explanation": "親切[しんせつ] (kind) is a な-adjective. Before a noun it requires な: 親切[しんせつ]な人[にん]. Using い, の, or nothing between the adjective and noun is incorrect for な-adjectives."
+          "explanation": "親切[しんせつ] (kind) is a な-adjective. Before a noun it requires な: 親切[しんせつ]な人[ひと]. Using い, の, or nothing between the adjective and noun is incorrect for な-adjectives."
         },
         {
           "id": "na-adjectives_q8",
@@ -478,19 +478,19 @@
           "prompt": "Which phrase correctly uses 暇[ひま] (free/not busy) before a noun?",
           "japanese": null,
           "choices": [
-            "暇[ひま]い日[にち]",
-            "暇[ひま]の日[にち]",
-            "暇[ひま]な日[にち]",
-            "暇[ひま]く日[にち]"
+            "暇[ひま]い日[ひ]",
+            "暇[ひま]の日[ひ]",
+            "暇[ひま]な日[ひ]",
+            "暇[ひま]く日[ひ]"
           ],
           "correctIndex": 2,
-          "explanation": "暇[ひま] is a な-adjective and requires な before a noun: 暇[ひま]な日[にち] (a free day). Adding い or く treats it like an い-adjective, which is wrong. の is also incorrect — の is used for nouns, not adjectives, when modifying another noun."
+          "explanation": "暇[ひま] is a な-adjective and requires な before a noun: 暇[ひま]な日[ひ] (a free day). Adding い or く treats it like an い-adjective, which is wrong. の is also incorrect — の is used for nouns, not adjectives, when modifying another noun."
         },
         {
           "id": "na-adjectives_q10",
           "type": "fillBlank",
-          "prompt": "Fill in the blank with the correct な-adjective: 田中[たなか]さんはとても___な人[にん]です。(Tanaka-san is a very kind person.)",
-          "japanese": "田中[たなか]さんはとても___な人[にん]です。",
+          "prompt": "Fill in the blank with the correct な-adjective: 田中[たなか]さんはとても___な人[ひと]です。(Tanaka-san is a very kind person.)",
+          "japanese": "田中[たなか]さんはとても___な人[ひと]です。",
           "choices": [
             "高[たか]い",
             "大[おお]きい",
@@ -498,7 +498,7 @@
             "親切[しんせつ]"
           ],
           "correctIndex": 3,
-          "explanation": "親切[しんせつ] (kind) is the only な-adjective in the list — it correctly uses な before 人[にん]. The others (高[たか]い, 大[おお]きい, 古[ふる]い) are all い-adjectives that would not use な before a noun."
+          "explanation": "親切[しんせつ] (kind) is the only な-adjective in the list — it correctly uses な before 人[ひと]. The others (高[たか]い, 大[おお]きい, 古[ふる]い) are all い-adjectives that would not use な before a noun."
         },
         {
           "id": "na-adjectives_q11",
@@ -550,7 +550,7 @@
           "choices": [
             "有名[ゆうめい]の",
             "有名[ゆうめい]",
-            "有名[ゆうめ]い",
+            "有名[ゆうめい]い",
             "有名[ゆうめい]な"
           ],
           "correctIndex": 3,
@@ -591,7 +591,7 @@
           "japanese": null,
           "choices": [
             "あのレストランは有名[ゆうめい]かったですか。",
-            "あのレストランは有名[ゆうめ]いでしたか。",
+            "あのレストランは有名[ゆうめい]いでしたか。",
             "あのレストランは有名[ゆうめい]でしたか。",
             "あのレストランは有名[ゆうめい]だったしたか。"
           ],
@@ -716,7 +716,7 @@
             "有名[ゆうめい]映画[えいが]を見[み]ましたか。",
             "有名[ゆうめい]の映画[えいが]を見[み]ましたか。",
             "有名[ゆうめい]な映画[えいが]を見[み]ましたか。",
-            "有名[ゆうめ]い映画[えいが]を見[み]ましたか。"
+            "有名[ゆうめい]い映画[えいが]を見[み]ましたか。"
           ],
           "correctIndex": 2,
           "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 映画[えいが]. 有名[ゆうめい]な映画[えいが] is the correct noun phrase."
@@ -727,7 +727,7 @@
           "prompt": "Which sentence uses both adjective types before nouns correctly?",
           "japanese": null,
           "choices": [
-            "おいしなケーキと有名[ゆうめ]いお店[みせ]です。",
+            "おいしなケーキと有名[ゆうめい]いお店[みせ]です。",
             "おいしいのケーキと有名[ゆうめい]なお店[みせ]です。",
             "おいしいケーキと有名[ゆうめい]なお店[みせ]です。",
             "おいしいなケーキと有名[ゆうめい]お店[みせ]です。"
@@ -789,7 +789,7 @@
             "小[ちい]さい"
           ],
           "correctIndex": 1,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[にん] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちい]さい — are all い-adjectives and attach directly before a noun with no connector."
+          "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[ひと] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちい]さい — are all い-adjectives and attach directly before a noun with no connector."
         },
         {
           "id": "adj-noun_q9",
@@ -808,16 +808,16 @@
         {
           "id": "adj-noun_q10",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: ___人[にん]がいっぱいいます。(There are many famous people.)",
-          "japanese": "___人[にん]がいっぱいいます。",
+          "prompt": "Fill in the blank: ___人[ひと]がいっぱいいます。(There are many famous people.)",
+          "japanese": "___人[ひと]がいっぱいいます。",
           "choices": [
-            "有名[ゆうめ]い",
+            "有名[ゆうめい]い",
             "有名[ゆうめい]の",
             "有名[ゆうめい]",
             "有名[ゆうめい]な"
           ],
           "correctIndex": 3,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 人[にん]: 有名[ゆうめい]な人[にん] (famous people). Using い, の, or nothing between the adjective and noun is an error."
+          "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 人[ひと]: 有名[ゆうめい]な人[ひと] (famous people). Using い, の, or nothing between the adjective and noun is an error."
         },
         {
           "id": "adj-noun_q11",
@@ -938,12 +938,12 @@
           "japanese": null,
           "choices": [
             "便利[べんり]い店[みせ]",
-            "上手[じょうず]な人[にん]",
+            "上手[じょうず]な人[ひと]",
             "むずかしな問題[もんだい]",
             "おいしいな料理[りょうり]"
           ],
           "correctIndex": 1,
-          "explanation": "上手[じょうず] (skilled) is a な-adjective, so 上手[じょうず]な人[にん] (a skilled person) is correct. 便利[べんり] is a な-adjective requiring な, not い. 難[むずか]しい is an い-adjective that needs no な. おいしい is an い-adjective — adding な after it is wrong."
+          "explanation": "上手[じょうず] (skilled) is a な-adjective, so 上手[じょうず]な人[ひと] (a skilled person) is correct. 便利[べんり] is a な-adjective requiring な, not い. 難[むずか]しい is an い-adjective that needs no な. おいしい is an い-adjective — adding な after it is wrong."
         },
         {
           "id": "adj-noun_q20",

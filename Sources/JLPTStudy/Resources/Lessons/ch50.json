@@ -19,11 +19,11 @@
       "examples": [
         {
           "japanese": "故郷[こきょう]の自然[しぜん]を愛[あい]してやまない気持[きも]ちは、いつまでも変[か]わりません。",
-          "romaji": "Furusato no shizen wo aishite yamanai kimochi wa, itsu made mo kawarimasen.",
+          "romaji": "Kokyou no shizen wo aishite yamanai kimochi wa, itsu made mo kawarimasen.",
           "english": "My feelings of enduring love for the nature of my hometown will never change."
         },
         {
-          "japanese": "彼[か]の勇気[ゆうき]ある行動[こうどう]を尊敬[そんけい]してやみません。",
+          "japanese": "彼[かれ]の勇気[ゆうき]ある行動[こうどう]を尊敬[そんけい]してやみません。",
           "romaji": "Kare no yuuki aru koudou wo sonkei shite yamimasen.",
           "english": "I have endless respect for his courageous actions."
         },
@@ -338,22 +338,22 @@
       ],
       "examples": [
         {
-          "japanese": "この仕事[しごと]をできる人[にん]は、山田[やまだ]さんをおいて他[ほか]にいません。",
+          "japanese": "この仕事[しごと]をできる人[ひと]は、山田[やまだ]さんをおいて他[ほか]にいません。",
           "romaji": "Kono shigoto wo dekiru hito wa, Yamada-san wo oite hoka ni imasen.",
           "english": "There is no one other than Yamada-san who can do this job."
         },
         {
           "japanese": "この難局[なんきょく]を乗[の]り越[こ]えられるリーダーは、彼[かれ]をおいて他[ほか]にいないでしょう。",
-          "romaji": "Kono nankyoku wo norikoerareiru riidaa wa, kare wo oite hoka ni inai deshou.",
+          "romaji": "Kono nankyoku wo norikoerareru riidaa wa, kare wo oite hoka ni inai deshou.",
           "english": "There is likely no leader other than him who can overcome this difficult situation."
         },
         {
           "japanese": "この役[やく]を演[えん]じられる俳優[はいゆう]は、田中[たなか]さんをおいてないと監督[かんとく]は言[い]った。",
-          "romaji": "Kono yaku wo enjirareiru haiyuu wa, Tanaka-san wo oite nai to kantoku wa itta.",
+          "romaji": "Kono yaku wo enjirareru haiyuu wa, Tanaka-san wo oite nai to kantoku wa itta.",
           "english": "The director said there is no actor other than Tanaka-san who can play this role."
         },
         {
-          "japanese": "今[いま]この状況[じょうきょう]で頼[たよ]れる人[にん]は、あなたをおいて他[ほか]にいません。",
+          "japanese": "今[いま]この状況[じょうきょう]で頼[たよ]れる人[ひと]は、あなたをおいて他[ほか]にいません。",
           "romaji": "Ima kono joukyou de tayoreru hito wa, anata wo oite hoka ni imasen.",
           "english": "In this situation right now, there is no one other than you that I can rely on."
         }
@@ -381,13 +381,13 @@
           "prompt": "Which correctly says 'There is no one other than her who can do this job'?",
           "japanese": null,
           "choices": [
-            "彼女[かのじょ]をおいて他[ほか]に、この仕事[しごと]ができる人[にん]はいない。",
-            "彼女[かのじょ]以外[いがい]に、この仕事[しごと]ができる人[にん]はいない。",
-            "彼女[かのじょ]をおいて、この仕事[しごと]ができる人[にん]はいない。",
-            "彼女[かのじょ]しか、この仕事[しごと]ができる人[にん]はいない。"
+            "彼女[かのじょ]をおいて他[ほか]に、この仕事[しごと]ができる人[ひと]はいない。",
+            "彼女[かのじょ]以外[いがい]に、この仕事[しごと]ができる人[ひと]はいない。",
+            "彼女[かのじょ]をおいて、この仕事[しごと]ができる人[ひと]はいない。",
+            "彼女[かのじょ]しか、この仕事[しごと]ができる人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼女[かのじょ] + をおいて + 他[ほか]に + いない = there is no one other than her. この仕事[しごと]ができる人[にん]はいない = who can do this job. をおいて + 他[ほか]に + negative is the standard construction."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼女[かのじょ] + をおいて + 他[ほか]に + いない = there is no one other than her. この仕事[しごと]ができる人[ひと]はいない = who can do this job. をおいて + 他[ほか]に + negative is the standard construction."
         },
         {
           "id": "wo-oite_q3",
@@ -451,13 +451,13 @@
           "prompt": "Which means 'There is no other country than Japan where such a culture exists'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]をおいて他[ほか]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
+            "日本[にほん]をおいて他[ほか]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
             "日本以外[にほんいがい]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
-            "日本[にっぽん]をおいて、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
-            "日本[にっぽん]しか、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。"
+            "日本[にほん]をおいて、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
+            "日本[にほん]しか、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 日本[にっぽん] + をおいて + 他[ほか]に + ない = no other country. このような文化[ぶんか]が存在[そんざい]する国[くに]はない = where such a culture exists. をおいて elevates Japan as uniquely possessing this culture."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: 日本[にほん] + をおいて + 他[ほか]に + ない = no other country. このような文化[ぶんか]が存在[そんざい]する国[くに]はない = where such a culture exists. をおいて elevates Japan as uniquely possessing this culture."
         },
         {
           "id": "wo-oite_q8",
@@ -493,13 +493,13 @@
           "prompt": "Which correctly says 'There is no one other than the professor who can solve this problem'?",
           "japanese": null,
           "choices": [
-            "教授[きょうじゅ]をおいて他[ほか]に、この問題[もんだい]を解[と]ける人[にん]はいない。",
-            "教授[きょうじゅ]以外[いがい]に、この問題[もんだい]を解[と]ける人[にん]はいない。",
-            "教授[きょうじゅ]をおいて、この問題[もんだい]を解[と]ける人[にん]はいない。",
-            "教授[きょうじゅ]しか、この問題[もんだい]を解[と]ける人[にん]はいない。"
+            "教授[きょうじゅ]をおいて他[ほか]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+            "教授[きょうじゅ]以外[いがい]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+            "教授[きょうじゅ]をおいて、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+            "教授[きょうじゅ]しか、この問題[もんだい]を解[と]ける人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 教授[きょうじゅ] + をおいて + 他[ほか]に + いない = no one other than the professor. この問題[もんだい]を解[と]ける人[にん]はいない = who can solve this problem. をおいて elevates the professor as uniquely capable."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: 教授[きょうじゅ] + をおいて + 他[ほか]に + いない = no one other than the professor. この問題[もんだい]を解[と]ける人[ひと]はいない = who can solve this problem. をおいて elevates the professor as uniquely capable."
         },
         {
           "id": "wo-oite_q11",
@@ -549,13 +549,13 @@
           "prompt": "Which correctly says 'There is no one other than this athlete who can represent our country'?",
           "japanese": null,
           "choices": [
-            "この選手[せんしゅ]をおいて他[ほか]に、我[わ]が国[くに]を代表[だいひょう]できる人[にん]はいない。",
-            "この選手[せんしゅ]以外[いがい]に、我[わ]が国[くに]を代表[だいひょう]できる人[にん]はいない。",
-            "この選手[せんしゅ]をおいて、我[わ]が国[くに]を代表[だいひょう]できる人[にん]はいない。",
-            "この選手[せんしゅ]しか、我[わ]が国[くに]を代表[だいひょう]できる人[にん]はいない。"
+            "この選手[せんしゅ]をおいて他[ほか]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+            "この選手[せんしゅ]以外[いがい]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+            "この選手[せんしゅ]をおいて、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+            "この選手[せんしゅ]しか、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: この選手[せんしゅ] + をおいて + 他[ほか]に + いない = no one but this athlete. 我[わ]が国[くに]を代表[だいひょう]できる人[にん]はいない = who can represent our country. をおいて elevates this athlete as uniquely qualified."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: この選手[せんしゅ] + をおいて + 他[ほか]に + いない = no one but this athlete. 我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない = who can represent our country. をおいて elevates this athlete as uniquely qualified."
         },
         {
           "id": "wo-oite_q15",
@@ -577,13 +577,13 @@
           "prompt": "Which correctly says 'There is no one other than you who I can trust'?",
           "japanese": null,
           "choices": [
-            "あなたをおいて他[ほか]に、信頼[しんらい]できる人[にん]はいない。",
-            "あなた以外[いがい]に、信頼[しんらい]できる人[にん]はいない。",
-            "あなたをおいて、信頼[しんらい]できる人[にん]はいない。",
-            "あなたしか、信頼[しんらい]できる人[にん]はいない。"
+            "あなたをおいて他[ほか]に、信頼[しんらい]できる人[ひと]はいない。",
+            "あなた以外[いがい]に、信頼[しんらい]できる人[ひと]はいない。",
+            "あなたをおいて、信頼[しんらい]できる人[ひと]はいない。",
+            "あなたしか、信頼[しんらい]できる人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: あなた + をおいて + 他[ほか]に + いない = no one but you. 信頼[しんらい]できる人[にん]はいない = who I can trust. をおいて elevates you as the uniquely trustworthy person."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: あなた + をおいて + 他[ほか]に + いない = no one but you. 信頼[しんらい]できる人[ひと]はいない = who I can trust. をおいて elevates you as the uniquely trustworthy person."
         },
         {
           "id": "wo-oite_q17",
@@ -619,13 +619,13 @@
           "prompt": "Which means 'There is no one other than the prime minister who can resolve this crisis'?",
           "japanese": null,
           "choices": [
-            "総理大臣[そうりだいじん]をおいて他[ほか]に、この危機[きき]を解決[かいけつ]できる人[にん]はいない。",
-            "総理大臣[そうりだいじん]以外[いがい]に、この危機[きき]を解決[かいけつ]できる人[にん]はいない。",
-            "総理大臣[そうりだいじん]をおいて、この危機[きき]を解決[かいけつ]できる人[にん]はいない。",
-            "総理大臣[そうりだいじん]しか、この危機[きき]を解決[かいけつ]できる人[にん]はいない。"
+            "総理大臣[そうりだいじん]をおいて他[ほか]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+            "総理大臣[そうりだいじん]以外[いがい]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+            "総理大臣[そうりだいじん]をおいて、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+            "総理大臣[そうりだいじん]しか、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 総理大臣[そうりだいじん] + をおいて + 他[ほか]に + いない = no one but the prime minister. この危機[きき]を解決[かいけつ]できる人[にん]はいない = who can resolve this crisis. をおいて marks the prime minister as uniquely capable."
+          "explanation": "Noun + をおいて + 他[ほか]に + negative: 総理大臣[そうりだいじん] + をおいて + 他[ほか]に + いない = no one but the prime minister. この危機[きき]を解決[かいけつ]できる人[ひと]はいない = who can resolve this crisis. をおいて marks the prime minister as uniquely capable."
         },
         {
           "id": "wo-oite_q20",
@@ -648,13 +648,13 @@
       "name": "〜ならではの (naradewa no) — unique to / only possible with / characteristic of",
       "shortDescription": "Expresses that something is uniquely and inseparably characteristic of a particular entity — it could only have come from there.",
       "formation": "Noun + ならではの + Noun  |  Noun + ならでは (predicative)",
-      "explanation": "ならでは captures something grammar usually can't: the uniqueness of a thing that could only have come from exactly where it came from. なら (conditional: 'if it is') + では (in that case) yields 'only if it is [noun] could this exist.' 職人[しょくにん]ならではの技[わざ] — 'a technique that only a craftsperson could possess' — the technique is inseparable from its origin; it could not exist without the craftsperson who produced it.\n\nならでは is always positive: you use it to appreciate, admire, and celebrate what is irreplaceable about something. It would sound strained with something negative. Structurally, ならではの + noun is the standard attributive form; Noun + ならでは without の works as a predicative: この味[あじ]はこの店[みせ]ならでは — 'This flavor is unique to this shop.'\n\nThree collocations you will encounter constantly and that feel immediately natural: 日本[にっぽん]ならではの (quintessentially Japanese), 職人[しょくにん]ならではの (uniquely a craftsperson's), 子[こ]どもならではの (uniquely a child's perspective). Memorize these as templates and you will recognize the pattern wherever it appears.",
+      "explanation": "ならでは captures something grammar usually can't: the uniqueness of a thing that could only have come from exactly where it came from. なら (conditional: 'if it is') + では (in that case) yields 'only if it is [noun] could this exist.' 職人[しょくにん]ならではの技[わざ] — 'a technique that only a craftsperson could possess' — the technique is inseparable from its origin; it could not exist without the craftsperson who produced it.\n\nならでは is always positive: you use it to appreciate, admire, and celebrate what is irreplaceable about something. It would sound strained with something negative. Structurally, ならではの + noun is the standard attributive form; Noun + ならでは without の works as a predicative: この味[あじ]はこの店[みせ]ならでは — 'This flavor is unique to this shop.'\n\nThree collocations you will encounter constantly and that feel immediately natural: 日本[にほん]ならではの (quintessentially Japanese), 職人[しょくにん]ならではの (uniquely a craftsperson's), 子[こ]どもならではの (uniquely a child's perspective). Memorize these as templates and you will recognize the pattern wherever it appears.",
       "rules": [
         "Noun + ならではの + Noun = [quality] unique to / that only [noun] has or can produce",
         "Noun + ならでは (predicative) = is unique to [noun] / could only come from [noun]",
         "Always positive — highlights a unique, irreplaceable quality or characteristic worth appreciating",
         "Implies no other entity could produce this — it belongs exclusively to the named noun",
-        "Common templates: 日本[にっぽん]ならではの, 職人[しょくにん]ならではの, このお店[みせ]ならではの, 子[こ]どもならではの"
+        "Common templates: 日本[にほん]ならではの, 職人[しょくにん]ならではの, このお店[みせ]ならではの, 子[こ]どもならではの"
       ],
       "examples": [
         {
@@ -663,8 +663,8 @@
           "english": "This delicate flavor is born from a technique unique to craftspeople."
         },
         {
-          "japanese": "温泉[おんせん]と雪景[せっけい]色[いろ]のコラボレーションは、日本[にっぽん]の冬[ふゆ]ならではの魅力[みりょく]です。",
-          "romaji": "Onsen to yukigeshiki no korabooreeshon wa, Nihon no fuyu naradewa no miryoku desu.",
+          "japanese": "温泉[おんせん]と雪景色[ゆきげしき]のコラボレーションは、日本[にほん]の冬[ふゆ]ならではの魅力[みりょく]です。",
+          "romaji": "Onsen to yukigeshiki no koraboreeshon wa, Nihon no fuyu naradewa no miryoku desu.",
           "english": "The combination of hot springs and snowy scenery is a charm unique to Japanese winters."
         },
         {
@@ -701,13 +701,13 @@
           "prompt": "Which correctly says 'This flavor is unique to Japan'?",
           "japanese": null,
           "choices": [
-            "これは日本[にっぽん]ならではの味[あじ]だ。",
-            "これは日本[にっぽん]だけの味[あじ]だ。",
-            "これは日本[にっぽん]にしかない味[あじ]だ。",
+            "これは日本[にほん]ならではの味[あじ]だ。",
+            "これは日本[にほん]だけの味[あじ]だ。",
+            "これは日本[にほん]にしかない味[あじ]だ。",
             "これは日本特有[にほんとくゆう]の味[あじ]だ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にっぽん] + ならではの + 味[あじ] = a flavor unique to Japan. ならではの marks this flavor as something only Japan can produce — not merely rare, but uniquely attributable to Japan."
+          "explanation": "Noun + ならではの + Noun: 日本[にほん] + ならではの + 味[あじ] = a flavor unique to Japan. ならではの marks this flavor as something only Japan can produce — not merely rare, but uniquely attributable to Japan."
         },
         {
           "id": "naradewa_q3",
@@ -744,7 +744,7 @@
           "japanese": null,
           "choices": [
             "They are identical",
-            "ならではの modifies a NOUN (attributive): 日本[にっぽん]ならではの文化[ぶんか] (culture unique to Japan). ならでは (predicative, often ならでは(だ) or ならではない) can end a sentence or stand alone: ここならではだ (this is truly unique here). ならではの is more common; the predicative form is used in isolation or at the end of a clause",
+            "ならではの modifies a NOUN (attributive): 日本[にほん]ならではの文化[ぶんか] (culture unique to Japan). ならでは (predicative, often ならでは(だ) or ならではない) can end a sentence or stand alone: ここならではだ (this is truly unique here). ならではの is more common; the predicative form is used in isolation or at the end of a clause",
             "ならではの is more casual",
             "ならではない is ungrammatical"
           ],
@@ -785,13 +785,13 @@
           "prompt": "Which correctly says 'This craftsmanship is unique to Japanese artisans'?",
           "japanese": null,
           "choices": [
-            "この職人[しょくにん]技[わざ]は日本[にっぽん]の職人[しょくにん]ならではのものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にっぽん]の職人[しょくにん]だけのものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にっぽん]の職人[しょくにん]にしかないものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にっぽん]の職人[しょくにん]特有[とくゆう]のものだ。"
+            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]ならではのものだ。",
+            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]だけのものだ。",
+            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]にしかないものだ。",
+            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]特有[とくゆう]のものだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にっぽん]の職人[しょくにん] + ならではの = unique to Japanese artisans. ならではの marks this level of craftsmanship as something only Japanese artisans can achieve — a uniqueness rooted in their specific tradition."
+          "explanation": "Noun + ならではの + Noun: 日本[にほん]の職人[しょくにん] + ならではの = unique to Japanese artisans. ならではの marks this level of craftsmanship as something only Japanese artisans can achieve — a uniqueness rooted in their specific tradition."
         },
         {
           "id": "naradewa_q9",
@@ -805,7 +805,7 @@
             "Neutral comparison between X and Y"
           ],
           "correctIndex": 1,
-          "explanation": "ならではの is positive or celebratory: 日本[にっぽん]ならではのおもてなし (hospitality unique to Japan — praising Japan's uniqueness), 子[こ]どもならではの純粋[じゅんすい]さ (purity unique to children — appreciating childhood). While it can describe negative traits in theory, in practice ならではの is strongly associated with positive attribution, admiration, and celebration of X's unique character."
+          "explanation": "ならではの is positive or celebratory: 日本[にほん]ならではのおもてなし (hospitality unique to Japan — praising Japan's uniqueness), 子[こ]どもならではの純粋[じゅんすい]さ (purity unique to children — appreciating childhood). While it can describe negative traits in theory, in practice ならではの is strongly associated with positive attribution, admiration, and celebration of X's unique character."
         },
         {
           "id": "naradewa_q10",
@@ -841,13 +841,13 @@
           "prompt": "Which correctly says 'This atmosphere is unique to traditional Japanese inns'?",
           "japanese": null,
           "choices": [
-            "この雰囲気[ふんいき]は日本[にっぽん]の旅館[りょかん]ならではのものだ。",
-            "この雰囲気[ふんいき]は日本[にっぽん]の旅館[りょかん]だけのものだ。",
-            "この雰囲気[ふんいき]は日本[にっぽん]の旅館[りょかん]にしかないものだ。",
-            "この雰囲気[ふんいき]は日本[にっぽん]の旅館[りょかん]特有[とくゆう]のものだ。"
+            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]ならではのものだ。",
+            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]だけのものだ。",
+            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]にしかないものだ。",
+            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]特有[とくゆう]のものだ。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にっぽん]の旅館[りょかん] + ならではの = unique to Japanese inns. ならではの marks this atmosphere as something only traditional ryokan can offer — not hotels or foreign lodgings."
+          "explanation": "Noun + ならではの + Noun: 日本[にほん]の旅館[りょかん] + ならではの = unique to Japanese inns. ならではの marks this atmosphere as something only traditional ryokan can offer — not hotels or foreign lodgings."
         },
         {
           "id": "naradewa_q13",
@@ -856,12 +856,12 @@
           "japanese": null,
           "choices": [
             "A verb in dictionary form",
-            "A NOUN — the special person, place, organization, or category that uniquely possesses Y. 日本[にっぽん] (noun) ならではの, 京都[きょうと] (noun) ならではの, 熟練[じゅくれん]の職人[しょくにん] (noun phrase) ならではの. Verbs and adjectives cannot precede ならではの directly",
+            "A NOUN — the special person, place, organization, or category that uniquely possesses Y. 日本[にほん] (noun) ならではの, 京都[きょうと] (noun) ならではの, 熟練[じゅくれん]の職人[しょくにん] (noun phrase) ならではの. Verbs and adjectives cannot precede ならではの directly",
             "An adjective",
             "A particle (は, が, を)"
           ],
           "correctIndex": 1,
-          "explanation": "Noun + ならではの: 日本[にっぽん]ならではの (Japan's unique...), 京都[きょうと]の秋[あき]ならではの (unique to Kyoto's autumn...), この職人[しょくにん]ならではの (unique to this artisan...). Verbs and adjectives cannot directly precede ならではの. If describing an action, it must be nominalized: 手作[てづく]りするならではの is unnatural; 手作[てづく]りならではの is correct."
+          "explanation": "Noun + ならではの: 日本[にほん]ならではの (Japan's unique...), 京都[きょうと]の秋[あき]ならではの (unique to Kyoto's autumn...), この職人[しょくにん]ならではの (unique to this artisan...). Verbs and adjectives cannot directly precede ならではの. If describing an action, it must be nominalized: 手作[てづく]りするならではの is unnatural; 手作[てづく]りならではの is correct."
         },
         {
           "id": "naradewa_q14",
@@ -911,13 +911,13 @@
           "prompt": "Which sentence uses ならではの correctly?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]ならではの問題[もんだい]が多[おお]い (Japan has many unique problems — ✓, though slightly negative — still grammatical)",
-            "日本[にっぽん]ならではのだ (ungrammatical — ならではの must be followed by a noun, not だ)",
-            "日本[にっぽん]ならではの文化[ぶんか]がある (Japan has a unique culture — ✓)",
-            "日本[にっぽん]ならではの文化[ぶんか]ならではのだ (double ならでは — ungrammatical)"
+            "日本[にほん]ならではの問題[もんだい]が多[おお]い (Japan has many unique problems — ✓, though slightly negative — still grammatical)",
+            "日本[にほん]ならではのだ (ungrammatical — ならではの must be followed by a noun, not だ)",
+            "日本[にほん]ならではの文化[ぶんか]がある (Japan has a unique culture — ✓)",
+            "日本[にほん]ならではの文化[ぶんか]ならではのだ (double ならでは — ungrammatical)"
           ],
           "correctIndex": 2,
-          "explanation": "日本[にっぽん]ならではの文化[ぶんか]がある ✓ — correct structure: Noun + ならではの + Noun. 日本[にっぽん]ならではのだ ✗ — ならではの must be followed by a noun, not だ directly (use ならではだ without の for predicative). 日本[にっぽん]ならではの問題[もんだい]が多[おお]い is also grammatical but pragmatically unusual (ならでは usually praises)."
+          "explanation": "日本[にほん]ならではの文化[ぶんか]がある ✓ — correct structure: Noun + ならではの + Noun. 日本[にほん]ならではのだ ✗ — ならではの must be followed by a noun, not だ directly (use ならではだ without の for predicative). 日本[にほん]ならではの問題[もんだい]が多[おお]い is also grammatical but pragmatically unusual (ならでは usually praises)."
         },
         {
           "id": "naradewa_q18",
@@ -979,7 +979,7 @@
       "examples": [
         {
           "japanese": "人気[にんき]アーティストのコンサートとあって、チケットは発売後[はつばいご]すぐに完売[かんばい]した。",
-          "romaji": "Ninki aaatisuto no konsaato to atte, chiketto wa hatsubai go sugu ni kanbai shita.",
+          "romaji": "Ninki aatisuto no konsaato to atte, chiketto wa hatsubai go sugu ni kanbai shita.",
           "english": "Given that it was a concert by a popular artist, tickets sold out immediately after going on sale."
         },
         {
@@ -988,8 +988,8 @@
           "english": "Given that it was the first day, a long queue had already formed before opening."
         },
         {
-          "japanese": "大型連休[おおがたれんきゅう]とあって、観光地[かんこうち]はどこも多[おお]くの人[にん]で賑[にぎ]わっています。",
-          "romaji": "Oogata renkyu to atte, kankochi wa doko mo ooku no hito de nigiwatte imasu.",
+          "japanese": "大型連休[おおがたれんきゅう]とあって、観光地[かんこうち]はどこも多[おお]くの人[ひと]で賑[にぎ]わっています。",
+          "romaji": "Oogata renkyuu to atte, kankouchi wa doko mo ooku no hito de nigiwatte imasu.",
           "english": "Given the long holiday weekend, tourist spots everywhere are bustling with people."
         },
         {
@@ -1013,7 +1013,7 @@
             "as soon as X / immediately after X"
           ],
           "correctIndex": 1,
-          "explanation": "〜とあって = because / given that (special situation). Plain form / Noun + とあって: X marks a special or noteworthy circumstance; Y is the natural outcome given that circumstance. 祭[まつ]りとあって人[にん]が多[おお]い = because it's a festival, there are many people (festival is the special context that explains the crowd). More literary than ので."
+          "explanation": "〜とあって = because / given that (special situation). Plain form / Noun + とあって: X marks a special or noteworthy circumstance; Y is the natural outcome given that circumstance. 祭[まつ]りとあって人[ひと]が多[おお]い = because it's a festival, there are many people (festival is the special context that explains the crowd). More literary than ので."
         },
         {
           "id": "to-atte_q2",
@@ -1064,7 +1064,7 @@
           "japanese": null,
           "choices": [
             "They are identical",
-            "とあって is used when X is a SPECIAL, NOTABLE, or UNUSUAL situation — not everyday causation. It adds literary emphasis that X is the noteworthy context behind Y: 祭[まつ]りとあって人[にん]が多[おお]い (because it's a FESTIVAL — special occasion). ので/だから are neutral everyday causation: 雨[あめ]なので傘[かさ]を持[も]つ (because it's raining — ordinary reason). とあって elevates the occasion",
+            "とあって is used when X is a SPECIAL, NOTABLE, or UNUSUAL situation — not everyday causation. It adds literary emphasis that X is the noteworthy context behind Y: 祭[まつ]りとあって人[ひと]が多[おお]い (because it's a FESTIVAL — special occasion). ので/だから are neutral everyday causation: 雨[あめ]なので傘[かさ]を持[も]つ (because it's raining — ordinary reason). とあって elevates the occasion",
             "とあって is more casual",
             "とあって is only for negative situations"
           ],
@@ -1120,12 +1120,12 @@
           "japanese": null,
           "choices": [
             "Any outcome, including ones the speaker dislikes",
-            "A NATURALLY EXPECTED or UNDERSTANDABLE outcome given the special context of X. Y should be the logical and natural response to the special occasion: 祭[まつ]り (X) → 人[にん]が多[おお]い (Y) — naturally expected. NOT surprising or contradictory outcomes",
+            "A NATURALLY EXPECTED or UNDERSTANDABLE outcome given the special context of X. Y should be the logical and natural response to the special occasion: 祭[まつ]り (X) → 人[ひと]が多[おお]い (Y) — naturally expected. NOT surprising or contradictory outcomes",
             "A surprising or unexpected outcome",
             "A past completed event only"
           ],
           "correctIndex": 1,
-          "explanation": "とあって: Y must be a natural consequence of X being a special situation. 祭[まつ]りとあって人[にん]が多[おお]い (festival → crowds — natural). 決勝戦[けっしょうせん]とあって選手[せんしゅ]が集中[しゅうちゅう]している (final match → players focused — natural). The connection should feel obvious once the special context (X) is known. Surprising outcomes would use でも or にもかかわらず instead."
+          "explanation": "とあって: Y must be a natural consequence of X being a special situation. 祭[まつ]りとあって人[ひと]が多[おお]い (festival → crowds — natural). 決勝戦[けっしょうせん]とあって選手[せんしゅ]が集中[しゅうちゅう]している (final match → players focused — natural). The connection should feel obvious once the special context (X) is known. Surprising outcomes would use でも or にもかかわらず instead."
         },
         {
           "id": "to-atte_q10",
@@ -1217,13 +1217,13 @@
           "prompt": "Which correctly says 'Because it is the president's visit, the company is buzzing with activity'?",
           "japanese": null,
           "choices": [
-            "社長[しゃちょう]の訪問[ほうもん]とあって、会社[かいしゃ]中[なか]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]なので、会社[かいしゃ]中[なか]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]だから、会社[かいしゃ]中[なか]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]のため、会社[かいしゃ]中[なか]が慌[あわ]ただしい。"
+            "社長[しゃちょう]の訪問[ほうもん]とあって、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+            "社長[しゃちょう]の訪問[ほうもん]なので、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+            "社長[しゃちょう]の訪問[ほうもん]だから、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+            "社長[しゃちょう]の訪問[ほうもん]のため、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + とあって: 社長[しゃちょう]の訪問[ほうもん] + とあって = given that the president is visiting. 会社[かいしゃ]中[なか]が慌[あわ]ただしい = the company is buzzing. とあって marks the president's visit as a special notable event that naturally explains the heightened activity."
+          "explanation": "Noun + とあって: 社長[しゃちょう]の訪問[ほうもん] + とあって = given that the president is visiting. 会社[かいしゃ]中[じゅう]が慌[あわ]ただしい = the company is buzzing. とあって marks the president's visit as a special notable event that naturally explains the heightened activity."
         },
         {
           "id": "to-atte_q17",
@@ -1231,10 +1231,10 @@
           "prompt": "Which sentence does NOT fit 〜とあって?",
           "japanese": null,
           "choices": [
-            "祭[まつ]りとあって人[にん]が多[おお]い (because it's a festival — special occasion ✓)",
+            "祭[まつ]りとあって人[ひと]が多[おお]い (because it's a festival — special occasion ✓)",
             "決勝戦[けっしょうせん]とあって選手[せんしゅ]が気合[きあ]いを入[い]れている (because it's the final — special ✓)",
             "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ (it's raining — ordinary everyday reason ✗)",
-            "有名人[ゆうめいじん]が来[く]るとあって人[にん]が集[あつ]まっている (because a celebrity is coming — special ✓)"
+            "有名人[ゆうめいじん]が来[く]るとあって人[ひと]が集[あつ]まっている (because a celebrity is coming — special ✓)"
           ],
           "correctIndex": 2,
           "explanation": "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ — this doesn't fit. とあって is for SPECIAL or NOTABLE situations. Rain and carrying an umbrella is an ordinary everyday causal relationship — no special occasion. なので / だから is correct here: 雨[あめ]が降[ふ]っているので傘[かさ]を持[も]つ. とあって requires that X be a noteworthy occasion that makes Y specially expected."

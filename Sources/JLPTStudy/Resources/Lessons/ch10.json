@@ -561,7 +561,7 @@
           "english": "Spring is my favorite season."
         },
         {
-          "japanese": "日本[にっぽん]で一番[いちばん]高[たか]い山[やま]は富士山[ふじさん]です。",
+          "japanese": "日本[にほん]で一番[いちばん]高[たか]い山[やま]は富士山[ふじさん]です。",
           "romaji": "Nihon de ichiban takai yama wa Fujisan desu.",
           "english": "The tallest mountain in Japan is Mt. Fuji."
         }
@@ -573,7 +573,7 @@
           "id": "ichiban_q1",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "日本[にっぽん]で一番[いちばん]高[たか]い山[やま]は富士山[ふじさん]です。",
+          "japanese": "日本[にほん]で一番[いちばん]高[たか]い山[やま]は富士山[ふじさん]です。",
           "choices": [
             "Mt. Fuji is one of the tallest mountains in Japan.",
             "The highest building in Japan is Mt. Fuji.",
@@ -581,7 +581,7 @@
             "Mt. Fuji is the most famous mountain in Japan."
           ],
           "correctIndex": 2,
-          "explanation": "一番[いちばん] + adjective = 'the most .' 日本[にっぽん]で (in Japan) sets the scope, 一番[いちばん]高[たか]い (tallest) modifies 山[やま] (mountain), and the answer is 富士山[ふじさん]. 高[たか]い means 'tall/high,' not 'famous,' so options B and C change the meaning."
+          "explanation": "一番[いちばん] + adjective = 'the most .' 日本[にほん]で (in Japan) sets the scope, 一番[いちばん]高[たか]い (tallest) modifies 山[やま] (mountain), and the answer is 富士山[ふじさん]. 高[たか]い means 'tall/high,' not 'famous,' so options B and C change the meaning."
         },
         {
           "id": "ichiban_q2",
@@ -687,13 +687,13 @@
           "prompt": "Which sentence correctly asks 'Which city in Japan do you like the most?'",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]の中[なか]でどの都市[とし]に一番好[いちばんす]きですか。",
-            "日本[にっぽん]でどの都市[とし]が一番好[いちばんす]きではないですか。",
-            "日本[にっぽん]でどこの都市[とし]が一番[いちばん]で好[す]きですか。",
-            "日本[にっぽん]でどの都市[とし]が一番好[いちばんす]きですか。"
+            "日本[にほん]の中[なか]でどの都市[とし]に一番好[いちばんす]きですか。",
+            "日本[にほん]でどの都市[とし]が一番好[いちばんす]きではないですか。",
+            "日本[にほん]でどこの都市[とし]が一番[いちばん]で好[す]きですか。",
+            "日本[にほん]でどの都市[とし]が一番好[いちばんす]きですか。"
           ],
           "correctIndex": 3,
-          "explanation": "Pattern: で +  + が + 一番[いちばん] +  + ですか. 日本[にっぽん]で sets the scope, どの都市[とし]が is the question phrase, 一番好[いちばんす]き is the superlative predicate. Option A uses に instead of が — が follows どの都市[とし], not に. Option B adds ではない (asking which is LEAST liked). Option C inserts で between 一番[いちばん] and 好[す]き, which is wrong."
+          "explanation": "Pattern: で +  + が + 一番[いちばん] +  + ですか. 日本[にほん]で sets the scope, どの都市[とし]が is the question phrase, 一番好[いちばんす]き is the superlative predicate. Option A uses に instead of が — が follows どの都市[とし], not に. Option B adds ではない (asking which is LEAST liked). Option C inserts で between 一番[いちばん] and 好[す]き, which is wrong."
         },
         {
           "id": "ichiban_q10",
@@ -726,8 +726,8 @@
         {
           "id": "ichiban_q12",
           "type": "fillBlank",
-          "prompt": "Fill in the blank to complete the noun phrase: 日本[にっぽん]で一番[いちばん]___山[やま]は富士山[ふじさん]です。",
-          "japanese": "日本[にっぽん]で一番[いちばん]___山[やま]は富士山[ふじさん]です。",
+          "prompt": "Fill in the blank to complete the noun phrase: 日本[にほん]で一番[いちばん]___山[やま]は富士山[ふじさん]です。",
+          "japanese": "日本[にほん]で一番[いちばん]___山[やま]は富士山[ふじさん]です。",
           "choices": [
             "高[たか]くて",
             "高[たか]さの",
@@ -782,8 +782,8 @@
         {
           "id": "ichiban_q16",
           "type": "usage",
-          "prompt": "Which scope particle correctly fills the blank: 日本[にっぽん]___一番[いちばん]大[おお]きい都市[とし]は東京[とうきょう]です。?",
-          "japanese": "日本[にっぽん]___一番[いちばん]大[おお]きい都市[とし]は東京[とうきょう]です。",
+          "prompt": "Which scope particle correctly fills the blank: 日本[にほん]___一番[いちばん]大[おお]きい都市[とし]は東京[とうきょう]です。?",
+          "japanese": "日本[にほん]___一番[いちばん]大[おお]きい都市[とし]は東京[とうきょう]です。",
           "choices": [
             "の中[なか]に",
             "から",
@@ -791,7 +791,7 @@
             "の内[ない]に"
           ],
           "correctIndex": 2,
-          "explanation": "For broad geographic scope with 一番[いちばん], use で: 日本[にっぽん]で一番[いちばん]大[おお]きい都市[とし] = 'the biggest city in Japan.' の中[なか]で also works (日本[にっぽん]の都市[とし]の中[なか]で), but for countries and regions the pattern で is most natural. の中[なか]に and の内[ない]に do not form the superlative scope pattern. から means 'from' and does not indicate scope."
+          "explanation": "For broad geographic scope with 一番[いちばん], use で: 日本[にほん]で一番[いちばん]大[おお]きい都市[とし] = 'the biggest city in Japan.' の中[なか]で also works (日本[にほん]の都市[とし]の中[なか]で), but for countries and regions the pattern で is most natural. の中[なか]に and の内[ない]に do not form the superlative scope pattern. から means 'from' and does not indicate scope."
         },
         {
           "id": "ichiban_q17",
@@ -841,7 +841,7 @@
           "prompt": "Which sentence correctly uses 一番[いちばん] with the な-adjective 有名[ゆうめい] (famous)?",
           "japanese": null,
           "choices": [
-            "このホテルは一番[いちばん]有名[ゆうめ]いです。",
+            "このホテルは一番[いちばん]有名[ゆうめい]いです。",
             "このホテルは一番[いちばん]有名[ゆうめい]くです。",
             "このホテルは一番[いちばん]有名[ゆうめい]です。",
             "このホテルは一番[いちばん]有名[ゆうめい]なです。"
@@ -1019,7 +1019,7 @@
           "id": "no-pronoun_q10",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "昨日[きのう]届[とど]いたのを開[ひら]けました。",
+          "japanese": "昨日[きのう]届[とど]いたのを開[あ]けました。",
           "choices": [
             "I opened the one that arrived yesterday.",
             "What arrived yesterday was opened by someone else.",
@@ -1027,7 +1027,7 @@
             "Yesterday I received a package and opened it immediately."
           ],
           "correctIndex": 0,
-          "explanation": "昨日[きのう]届[とど]いた (arrived yesterday) is a relative clause. の replaces a concrete noun (the package/item). のを = 'the one ' + direct object を. 開[ひら]けました = 'opened.' Together: 'I opened the one that arrived yesterday.' Option B implies someone else opened it. Options C and D rephrase the causal/temporal relationship incorrectly."
+          "explanation": "昨日[きのう]届[とど]いた (arrived yesterday) is a relative clause. の replaces a concrete noun (the package/item). のを = 'the one ' + direct object を. 開[あ]けました = 'opened.' Together: 'I opened the one that arrived yesterday.' Option B implies someone else opened it. Options C and D rephrase the causal/temporal relationship incorrectly."
         },
         {
           "id": "no-pronoun_q11",
@@ -1227,7 +1227,7 @@
           "id": "naru_q2",
           "type": "fillBlank",
           "prompt": "Fill in the blank with the correct connecting form to attach なる to this い-adjective.",
-          "japanese": "外[そと]はどんどん寒[かん]___なっています。",
+          "japanese": "外[そと]はどんどん寒[さむ]___なっています。",
           "choices": [
             "く",
             "で",
@@ -1287,7 +1287,7 @@
           "choices": [
             "有名[ゆうめい]になりました。",
             "有名[ゆうめい]くなりました。",
-            "有名[ゆうめ]いになりました。",
+            "有名[ゆうめい]いになりました。",
             "有名[ゆうめい]でなりました。"
           ],
           "correctIndex": 0,
@@ -1383,10 +1383,10 @@
           "prompt": "Which sentence correctly says 'It didn't get hot this summer'?",
           "japanese": null,
           "choices": [
-            "今年[こんねん]の夏[なつ]は暑[あつ]いになりませんでした。",
-            "今年[こんねん]の夏[なつ]は暑[あつ]さになりませんでした。",
-            "今年[こんねん]の夏[なつ]は暑[あつ]かったにならなかったです。",
-            "今年[こんねん]の夏[なつ]は暑[あつ]くなりませんでした。"
+            "今年[ことし]の夏[なつ]は暑[あつ]いになりませんでした。",
+            "今年[ことし]の夏[なつ]は暑[あつ]さになりませんでした。",
+            "今年[ことし]の夏[なつ]は暑[あつ]かったにならなかったです。",
+            "今年[ことし]の夏[なつ]は暑[あつ]くなりませんでした。"
           ],
           "correctIndex": 3,
           "explanation": "暑[あつ]い is an い-adjective → 暑[あつ]く + なる → negative past polite: 暑[あつ]くなりませんでした = 'didn't get hot.' Option A keeps the full い before になる. Option B uses the noun 暑[あつ]さ ('heat/hotness'). Option C double-stacks past-tense forms (暑[あつ]かった + にならなかった), which is ungrammatical."
@@ -1496,7 +1496,7 @@
       "name": "〜つもりだ (tsumori da) — intend to / plan to",
       "shortDescription": "Expresses a firm personal intention or plan.",
       "formation": "Verb (plain form) + つもりです  |  Verb (ない-form) + つもりです",
-      "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思[おも]っている (I'm thinking of doing, covered in Chapter 8), which leaves more room for second thoughts. 来年[らいねん]、日本[にっぽん]に留学[りゅうがく]するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年は甘[あま]いものを食[た]べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり describes only the speaker's own intentions — for a third person's plans, use 〜する予定[よてい] (has a plan to) or report their words with と言[い]っていた (said that they would, covered in Chapter 8).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分[わ]かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
+      "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思[おも]っている (I'm thinking of doing, covered in Chapter 8), which leaves more room for second thoughts. 来年[らいねん]、日本[にほん]に留学[りゅうがく]するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年は甘[あま]いものを食[た]べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり describes only the speaker's own intentions — for a third person's plans, use 〜する予定[よてい] (has a plan to) or report their words with と言[い]っていた (said that they would, covered in Chapter 8).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分[わ]かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
       "rules": [
         "Affirmative plan: plain form + つもりです (食[た]べるつもりです = I intend to eat)",
         "Negative plan: ない-form + つもりです (食[た]べないつもりです = I don't plan to eat)",
@@ -1506,7 +1506,7 @@
       ],
       "examples": [
         {
-          "japanese": "来年[らいねん]、日本[にっぽん]に留学[りゅうがく]するつもりです。",
+          "japanese": "来年[らいねん]、日本[にほん]に留学[りゅうがく]するつもりです。",
           "romaji": "Rainen, Nihon ni ryuugaku suru tsumori desu.",
           "english": "I intend to study abroad in Japan next year."
         },
@@ -1533,7 +1533,7 @@
           "id": "tsumori_q1",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "来年[らいねん]、日本[にっぽん]に留学[りゅうがく]するつもりです。",
+          "japanese": "来年[らいねん]、日本[にほん]に留学[りゅうがく]するつもりです。",
           "choices": [
             "Someone plans to study abroad in Japan next year.",
             "I am thinking about studying abroad in Japan.",
@@ -1611,7 +1611,7 @@
             "来年[らいねん]、京都[きょうと]に行[い]くのは予定[よてい]です。"
           ],
           "correctIndex": 0,
-          "explanation": "Dictionary form + つもりです = firm current intention about a future action. 行[い]くつもりです = 'I plan to go.' Option B uses the past た-form + つもりです, meaning 'I think/pretend I went' — a completely different nuance! Option C混[こん]zes volitional 行[い]こうと with つもり ungrammatically. Option D should be 行[い]く予定[よてい]です (drop のは)."
+          "explanation": "Dictionary form + つもりです = firm current intention about a future action. 行[い]くつもりです = 'I plan to go.' Option B uses the past た-form + つもりです, meaning 'I think/pretend I went' — a completely different nuance! Option C confuses volitional 行[い]こうと with つもり ungrammatically. Option D should be 行[い]く予定[よてい]です (drop のは)."
         },
         {
           "id": "tsumori_q7",
@@ -1787,10 +1787,10 @@
           "prompt": "Which correctly says 'I intend not to buy anything today'?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は何[なに]も買[か]うつもりではないです。",
-            "今日[こんにち]は何[なに]も買[か]わないつもりです。",
-            "今日[こんにち]は何[なに]も買[か]うないつもりです。",
-            "今日[こんにち]は何[なに]も買[か]うつもりなしです。"
+            "今日[きょう]は何[なに]も買[か]うつもりではないです。",
+            "今日[きょう]は何[なに]も買[か]わないつもりです。",
+            "今日[きょう]は何[なに]も買[か]うないつもりです。",
+            "今日[きょう]は何[なに]も買[か]うつもりなしです。"
           ],
           "correctIndex": 1,
           "explanation": "ない-form + つもりです = negative intention. 買[か]わない (ない-form of 買[か]う) + つもりです = 'I intend not to buy.' Option A negates つもり rather than the verb (nuance: 'it's not my intention to buy' — acceptable but less direct). Option C invents a non-existent 買[か]うない form — you cannot attach ない directly to the dictionary form. Option D uses なし ('zero/without') incorrectly after つもり."
@@ -1798,8 +1798,8 @@
         {
           "id": "tsumori_q20",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 卒業後[そつぎょうご]は国[く]に帰[かえ]って、親[おや]と___つもりです。 (After graduating, I plan to return home and live with my parents.)",
-          "japanese": "卒業後[そつぎょうご]は国[く]に帰[かえ]って、親[おや]と___つもりです。",
+          "prompt": "Fill in the blank: 卒業後[そつぎょうご]は国[くに]に帰[かえ]って、親[おや]と___つもりです。 (After graduating, I plan to return home and live with my parents.)",
+          "japanese": "卒業後[そつぎょうご]は国[くに]に帰[かえ]って、親[おや]と___つもりです。",
           "choices": [
             "住[す]まない",
             "住[す]んだ",

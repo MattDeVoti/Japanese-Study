@@ -29,12 +29,12 @@
         },
         {
           "japanese": "その発言[はつげん]を皮切[かわき]りとして、議論[ぎろん]が一気[いっき]に活発化[かっぱつか]した。",
-          "romaji": "Sono hatsugen wo kawakiri to shite, giron ga ikki ni kasseika shita.",
+          "romaji": "Sono hatsugen wo kawakiri to shite, giron ga ikki ni kappatsuka shita.",
           "english": "Triggered by that remark, the discussion suddenly became very lively."
         },
         {
-          "japanese": "日本[にっぽん]を皮切[かわき]りに、アジア各国[かっこく]で同[どう]製品[せいひん]が発売[はつばい]される予定[よてい]です。",
-          "romaji": "Nihon wo kawakiri ni, ajia kakukoku de dou seihin ga hatsubai sareru yotei desu.",
+          "japanese": "日本[にほん]を皮切[かわき]りに、アジア各国[かっこく]で同[どう]製品[せいひん]が発売[はつばい]される予定[よてい]です。",
+          "romaji": "Nihon wo kawakiri ni, ajia kakkoku de dou seihin ga hatsubai sareru yotei desu.",
           "english": "Starting with Japan, the same product is planned to go on sale in various Asian countries."
         }
       ],
@@ -117,13 +117,13 @@
           "prompt": "Which correctly says 'Starting with Japan, the product was launched globally'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]を皮切[かわき]りに、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
-            "日本[にっぽん]から始[はじ]まり、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
-            "日本[にっぽん]を皮切[かわき]りとして、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
-            "日本[にっぽん]を始[はじ]めとして、その製品[せいひん]は世界[せかい]展開[てんかい]された。"
+            "日本[にほん]を皮切[かわき]りに、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
+            "日本[にほん]から始[はじ]まり、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
+            "日本[にほん]を皮切[かわき]りとして、その製品[せいひん]は世界[せかい]展開[てんかい]された。",
+            "日本[にほん]を始[はじ]めとして、その製品[せいひん]は世界[せかい]展開[てんかい]された。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + を皮切[かわき]りに: 日本[にっぽん] + を皮切[かわき]りに = starting with Japan. 世界[せかい]展開[てんかい]された = was launched globally. を皮切[かわき]りに marks Japan as the launch point for a global rollout."
+          "explanation": "Noun + を皮切[かわき]りに: 日本[にほん] + を皮切[かわき]りに = starting with Japan. 世界[せかい]展開[てんかい]された = was launched globally. を皮切[かわき]りに marks Japan as the launch point for a global rollout."
         },
         {
           "id": "wo-kawakiri-ni_q7",
@@ -339,11 +339,11 @@
       "examples": [
         {
           "japanese": "内容[ないよう]もさることながら、プレゼンのわかりやすさが特[とく]に印象的[いんしょうてき]でした。",
-          "romaji": "Naiyou mo saru koto nagara, purezen no wakariyasusa ga tokuni inshoutek deshita.",
+          "romaji": "Naiyou mo saru koto nagara, purezen no wakariyasusa ga tokuni inshouteki deshita.",
           "english": "Not only was the content impressive, but the clarity of the presentation was particularly striking."
         },
         {
-          "japanese": "技術[ぎじゅつ]もさることながら、彼[か]のチームへの献身的[けんしんてき]な姿勢[しせい]が皆[みな]に評価[ひょうか]されています。",
+          "japanese": "技術[ぎじゅつ]もさることながら、彼[かれ]のチームへの献身的[けんしんてき]な姿勢[しせい]が皆[みな]に評価[ひょうか]されています。",
           "romaji": "Gijutsu mo saru koto nagara, kare no chiimu e no kenshinteki na shisei ga mina ni hyouka sarete imasu.",
           "english": "Not only his technical skill, but also his dedicated attitude toward the team is valued by everyone."
         },
@@ -633,10 +633,10 @@
           "prompt": "Which correctly says 'Not only the historic value of this building, but also its architectural beauty is renowned'?",
           "japanese": null,
           "choices": [
-            "この建物[たても]の歴史的価値[れきしてきかち]もさることながら、建築[けんちく]美[び]でも名高[なだか]い。",
-            "この建物[たても]の歴史的価値[れきしてきかち]はもちろん、建築[けんちく]美[び]でも名高[なだか]い。",
-            "この建物[たても]の歴史的価値[れきしてきかち]だけでなく、建築[けんちく]美[び]でも名高[なだか]い。",
-            "この建物[たても]の歴史的価値[れきしてきかち]に加[くわ]えて、建築[けんちく]美[び]でも名高[なだか]い。"
+            "この建物[たてもの]の歴史的価値[れきしてきかち]もさることながら、建築[けんちく]美[び]でも名高[なだか]い。",
+            "この建物[たてもの]の歴史的価値[れきしてきかち]はもちろん、建築[けんちく]美[び]でも名高[なだか]い。",
+            "この建物[たてもの]の歴史的価値[れきしてきかち]だけでなく、建築[けんちく]美[び]でも名高[なだか]い。",
+            "この建物[たてもの]の歴史的価値[れきしてきかち]に加[くわ]えて、建築[けんちく]美[び]でも名高[なだか]い。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + もさることながら: 歴史的価値[れきしてきかち] + もさることながら = not only the historic value. 建築[けんちく]美[び]でも名高[なだか]い = it is also renowned for architectural beauty. もさることながら elevates architectural beauty beyond historical significance."
@@ -658,7 +658,7 @@
       ],
       "examples": [
         {
-          "japanese": "大学[だいがく]で研究[けんきゅう]するかたわら、地域[ちいき]の子[こ]どもたちに学習[がくしゅう]支援[しえん]も行[い]っています。",
+          "japanese": "大学[だいがく]で研究[けんきゅう]するかたわら、地域[ちいき]の子[こ]どもたちに学習[がくしゅう]支援[しえん]も行[おこな]っています。",
           "romaji": "Daigaku de kenkyuu suru katawara, chiiki no kodomotachi ni gakushuu shien mo okonatte imasu.",
           "english": "Alongside conducting research at university, she also provides learning support for children in the community."
         },
@@ -673,7 +673,7 @@
           "english": "There are people who have successfully started businesses online alongside raising children."
         },
         {
-          "japanese": "俳優[はいゆう]として活躍[かつやく]するかたわら、絵[え]を描[えが]き続[つづ]けている。",
+          "japanese": "俳優[はいゆう]として活躍[かつやく]するかたわら、絵[え]を描[か]き続[つづ]けている。",
           "romaji": "Haiyuu to shite katsuyaku suru katawara, e wo kaki tsuzukete iru.",
           "english": "Alongside being active as an actor, they continue to paint."
         }

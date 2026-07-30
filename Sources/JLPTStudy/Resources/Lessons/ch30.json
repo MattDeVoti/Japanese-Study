@@ -18,7 +18,7 @@
       ],
       "examples": [
         {
-          "japanese": "日本語[にほんご]が上手[じょうず]になるにしたがって、日本[にっぽん]の文化[ぶんか]も理解[りかい]できるようになりました。",
+          "japanese": "日本語[にほんご]が上手[じょうず]になるにしたがって、日本[にほん]の文化[ぶんか]も理解[りかい]できるようになりました。",
           "romaji": "Nihongo ga jouzu ni naru ni shitagatte, Nihon no bunka mo rikai dekiru you ni narimashita.",
           "english": "As my Japanese improved, I came to understand Japanese culture as well."
         },
@@ -187,7 +187,7 @@
           "prompt": "Which sentence uses にしたがって INCORRECTLY (the first clause doesn't describe change)?",
           "japanese": null,
           "choices": [
-            "気温[きおん]が上[あ]がるにしたがって、クーラーをつける人[にん]が増[ふ]える。",
+            "気温[きおん]が上[あ]がるにしたがって、クーラーをつける人[ひと]が増[ふ]える。",
             "春[はる]になるにしたがって、暖[あたた]かくなる。",
             "彼[かれ]が日本人[にほんじん]にしたがって、日本語[にほんご]を話[はな]す。",
             "技術[ぎじゅつ]が進歩[しんぽ]するにしたがって、生活[せいかつ]が楽[らく]になる。"
@@ -201,10 +201,10 @@
           "prompt": "Which correctly says 'As the crowd grew, the atmosphere became more exciting'?",
           "japanese": null,
           "choices": [
-            "人[にん]が増[ふ]えるにしたがって、盛[も]り上[あ]がってきた。",
-            "人[にん]が増[ふ]えたにしたがって、盛[も]り上[あ]がってきた。",
-            "人[にん]が増[ふ]えるのに、盛[も]り上[あ]がってきた。",
-            "人[にん]が増[ふ]えるながらも、盛[も]り上[あ]がってきた。"
+            "人[ひと]が増[ふ]えるにしたがって、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えたにしたがって、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えるのに、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えるながらも、盛[も]り上[あ]がってきた。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + にしたがって: 増[ふ]える + にしたがって = as  grows. 盛[も]り上[あ]がってきた = got more exciting. Proportional change — crowd size and excitement change together."
@@ -215,10 +215,10 @@
           "prompt": "Which means 'As the sun sets, the temperature drops'?",
           "japanese": null,
           "choices": [
-            "日[にち]が沈[しず]むにしたがって、気温[きおん]が下[さ]がる。",
-            "日[にち]が沈[しず]むのに、気温[きおん]が下[さ]がる。",
-            "日[にち]が沈[しず]むと、気温[きおん]が下[さ]がる。",
-            "日[にち]が沈[しず]んだにしたがって、気温[きおん]が下[さ]がる。"
+            "日[ひ]が沈[しず]むにしたがって、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]むのに、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]むと、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]んだにしたがって、気温[きおん]が下[さ]がる。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + にしたがって: 沈[しず]む + にしたがって = as  sets. 気温[きおん]が下[さ]がる = temperature drops. Note: 〜と (option 3) also works for automatic natural events; にしたがって emphasizes the proportional progression."
@@ -674,7 +674,7 @@
         },
         {
           "japanese": "状況次第[じょうきょうしだい]では、計画[けいかく]を変更[へんこう]することもありえます。",
-          "romaji": "Joukyou shidai dewa, keikaku wo henkou suru koto mo arieimasu.",
+          "romaji": "Joukyou shidai dewa, keikaku wo henkou suru koto mo ariemasu.",
           "english": "Depending on the situation, it is also possible that the plan may change."
         }
       ],

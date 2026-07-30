@@ -575,10 +575,10 @@
           "prompt": "Which sentence correctly expresses a third person's desire?",
           "japanese": null,
           "choices": [
-            "彼[かれ]はもっとお金[きん]をほしがっています。",
-            "彼[かれ]はもっとお金[きん]がほしいです。",
-            "彼[かれ]はもっとお金[きん]をほしいです。",
-            "彼[かれ]はもっとお金[きん]ほしいです。"
+            "彼[かれ]はもっとお金[かね]をほしがっています。",
+            "彼[かれ]はもっとお金[かね]がほしいです。",
+            "彼[かれ]はもっとお金[かね]をほしいです。",
+            "彼[かれ]はもっとお金[かね]ほしいです。"
           ],
           "correctIndex": 0,
           "explanation": "ほしい cannot directly state a third person's desire — it only expresses the speaker's own wants. For third persons, use ほしがっている (ほしがる = to show signs of wanting). Note: ほしがる takes を, unlike ほしい which takes が. 彼[かれ]がほしいです would incorrectly assert the speaker knows his inner feelings."
@@ -820,7 +820,7 @@
           "english": "Tanaka-san might have already gone home."
         },
         {
-          "japanese": "この問題[もんだい]は私[わたし]には難[むつか]しすぎるかもしれません。",
+          "japanese": "この問題[もんだい]は私[わたし]には難[むずか]しすぎるかもしれません。",
           "romaji": "Kono mondai wa watashi ni wa muzukashisugiru kamoshiremasen.",
           "english": "This problem might be too difficult for me."
         },
@@ -1130,7 +1130,7 @@
       ],
       "examples": [
         {
-          "japanese": "お金[きん]が五百[ごひゃく]円[えん]しかありません。",
+          "japanese": "お金[かね]が五百[ごひゃく]円[えん]しかありません。",
           "romaji": "Okane ga gohyakuen shika arimasen.",
           "english": "I only have 500 yen (and that's not much)."
         },
@@ -1145,7 +1145,7 @@
           "english": "Only three people came to the party (fewer than expected)."
         },
         {
-          "japanese": "あと十分[じゅうぶん]しかないから、急[いそ]ごう。",
+          "japanese": "あと十分[じゅっぷん]しかないから、急[いそ]ごう。",
           "romaji": "Ato juppun shika nai kara, isogou.",
           "english": "We only have ten minutes left, so let's hurry."
         }
@@ -1226,8 +1226,8 @@
         {
           "id": "shika-nai_q6",
           "type": "fillBlank",
-          "prompt": "Which word correctly completes: あと十分[じゅうぶん]___ないから、急[いそ]ごう。(We only have ten minutes left, so let's hurry.)",
-          "japanese": "あと十分[じゅうぶん]___ないから、急[いそ]ごう。",
+          "prompt": "Which word correctly completes: あと十分[じゅっぷん]___ないから、急[いそ]ごう。(We only have ten minutes left, so let's hurry.)",
+          "japanese": "あと十分[じゅっぷん]___ないから、急[いそ]ごう。",
           "choices": [
             "だけ",
             "しか",
@@ -1235,7 +1235,7 @@
             "ばかり"
           ],
           "correctIndex": 1,
-          "explanation": "しか + ない = only (with urgency/insufficiency). あと十分[じゅうぶん]しかない = only ten minutes left (and that's not enough time). だけ is neutral — あと十分[じゅうぶん]だけある would mean the same fact without urgency. も = too/also; ばかり = nothing but (used differently, usually with positive verbs for excess/repeated action)."
+          "explanation": "しか + ない = only (with urgency/insufficiency). あと十分[じゅっぷん]しかない = only ten minutes left (and that's not enough time). だけ is neutral — あと十分[じゅっぷん]だけある would mean the same fact without urgency. も = too/also; ばかり = nothing but (used differently, usually with positive verbs for excess/repeated action)."
         },
         {
           "id": "shika-nai_q7",
@@ -1422,7 +1422,7 @@
         {
           "id": "shika-nai_q20",
           "type": "translation",
-          "prompt": "今日[こんにち]は五時[ごじ]間[かん]しか寝[ね]ませんでした means:",
+          "prompt": "今日[きょう]は五時[ごじ]間[かん]しか寝[ね]ませんでした means:",
           "japanese": null,
           "choices": [
             "I slept for five hours (neutral).",
@@ -1460,7 +1460,7 @@
           "english": "If you don't understand, why don't you ask the teacher?"
         },
         {
-          "japanese": "新[あたら]しい映画[えい]が出[で]たよ。見[み]に行[い]ったらどう？",
+          "japanese": "新[あたら]しい映画[えいが]が出[で]たよ。見[み]に行[い]ったらどう？",
           "romaji": "Atarashii eiga ga deta yo. Mi ni ittara dou?",
           "english": "A new movie came out. Why don't we go see it?"
         },
@@ -1532,8 +1532,8 @@
         {
           "id": "tara-dou_q5",
           "type": "fillBlank",
-          "prompt": "Which form correctly completes: 新[あたら]しい映画[えい]が出[で]たよ。見[み]に___どう？(A new movie came out. Why don't we go see it?)",
-          "japanese": "新[あたら]しい映画[えい]が出[で]たよ。見[み]に___どう？",
+          "prompt": "Which form correctly completes: 新[あたら]しい映画[えいが]が出[で]たよ。見[み]に___どう？(A new movie came out. Why don't we go see it?)",
+          "japanese": "新[あたら]しい映画[えいが]が出[で]たよ。見[み]に___どう？",
           "choices": [
             "行[い]ったら",
             "行[い]くら",

@@ -47,10 +47,10 @@
           "prompt": "Which means 'I study Japanese in order to work in Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]で働[はたら]くために日本語[にほんご]を勉強[べんきょう]しています。",
-            "日本[にっぽん]で働[はたら]くたびに日本語[にほんご]を勉強[べんきょう]しています。",
-            "日本[にっぽん]で働[はたら]くのに日本語[にほんご]を勉強[べんきょう]しています。",
-            "日本[にっぽん]で働[はたら]いてから日本語[にほんご]を勉強[べんきょう]しています。"
+            "日本[にほん]で働[はたら]くために日本語[にほんご]を勉強[べんきょう]しています。",
+            "日本[にほん]で働[はたら]くたびに日本語[にほんご]を勉強[べんきょう]しています。",
+            "日本[にほん]で働[はたら]くのに日本語[にほんご]を勉強[べんきょう]しています。",
+            "日本[にほん]で働[はたら]いてから日本語[にほんご]を勉強[べんきょう]しています。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + ために = in order to / for the purpose of. 働[はたら]く (to work, dict-form) + ために = in order to work. Purpose ために requires dict-form."
@@ -117,10 +117,10 @@
           "prompt": "Which means 'I am saving money in order to buy a car'?",
           "japanese": null,
           "choices": [
-            "車[くるま]を買[か]うために、お金[きん]を貯[た]めています。",
-            "車[くるま]を買[か]ってから、お金[きん]を貯[た]めています。",
-            "車[くるま]を買[か]ったために、お金[きん]を貯[た]めています。",
-            "車[くるま]を買[か]うたびに、お金[きん]を貯[た]めています。"
+            "車[くるま]を買[か]うために、お金[かね]を貯[た]めています。",
+            "車[くるま]を買[か]ってから、お金[かね]を貯[た]めています。",
+            "車[くるま]を買[か]ったために、お金[かね]を貯[た]めています。",
+            "車[くるま]を買[か]うたびに、お金[かね]を貯[た]めています。"
           ],
           "correctIndex": 1,
           "explanation": "Dict-form + ために (purpose): 買[か]う (buy, dict-form) + ために = in order to buy. 車[くるま]を買[か]うために = in order to buy a car."
@@ -212,8 +212,8 @@
         {
           "id": "tame-ni_q13",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 大学[だいがく]に入[い]る___に、一生懸命[いっしょうけんめい]勉強[べんきょう]しました。(I studied hard in order to enter university.)",
-          "japanese": "大学[だいがく]に入[い]る___に、一生懸命[いっしょうけんめい]勉強[べんきょう]しました。",
+          "prompt": "Fill in the blank: 大学[だいがく]に入[はい]る___に、一生懸命[いっしょうけんめい]勉強[べんきょう]しました。(I studied hard in order to enter university.)",
+          "japanese": "大学[だいがく]に入[はい]る___に、一生懸命[いっしょうけんめい]勉強[べんきょう]しました。",
           "choices": [
             "ため",
             "まえ",
@@ -221,7 +221,7 @@
             "あと"
           ],
           "correctIndex": 0,
-          "explanation": "Dict-form + ために: 入[い]る + ために = in order to enter. The blank is ため (forming ために). Purpose meaning with dict-form."
+          "explanation": "Dict-form + ために: 入[はい]る + ために = in order to enter. The blank is ため (forming ために). Purpose meaning with dict-form."
         },
         {
           "id": "tame-ni_q14",
@@ -243,10 +243,10 @@
           "prompt": "Which correctly means 'He donated money for the victims'?",
           "japanese": null,
           "choices": [
-            "被害者[ひがいしゃ]のために、お金[きん]を寄付[きふ]しました。",
-            "被害者[ひがいしゃ]するために、お金[きん]を寄付[きふ]しました。",
-            "被害者[ひがいしゃ]だために、お金[きん]を寄付[きふ]しました。",
-            "被害者[ひがいしゃ]になるために、お金[きん]を寄付[きふ]しました。"
+            "被害者[ひがいしゃ]のために、お金[かね]を寄付[きふ]しました。",
+            "被害者[ひがいしゃ]するために、お金[かね]を寄付[きふ]しました。",
+            "被害者[ひがいしゃ]だために、お金[かね]を寄付[きふ]しました。",
+            "被害者[ひがいしゃ]になるために、お金[かね]を寄付[きふ]しました。"
           ],
           "correctIndex": 0,
           "explanation": "Noun + のために = for  (benefit/purpose). 被害者[ひがいしゃ]のために = for the victims. のために after nouns expresses 'for the sake of' or 'to help.'"
@@ -328,22 +328,22 @@
       "name": "自動詞[じどうし]・他動詞[たどうし] — transitive and intransitive verb pairs",
       "shortDescription": "Many Japanese verbs come in pairs: transitive (someone does it) and intransitive (it happens by itself).",
       "formation": "Transitive: [person] が [object] を Verb  |  Intransitive: [object] が Verb",
-      "explanation": "Japanese is famous — or notorious — for its transitive/intransitive verb pairs. For nearly every action that can either be done *to* something or happen *by itself*, there are two separate verbs. Using the wrong one is a very common error, so it pays to learn these pairs together.\n\nThe grammatical split is clean:\n• Transitive (他動詞[たどうし]): [person] が [object] を Verb — someone acts on something.\n  誰[だれ]かがドアを開[ひら]けました (Someone opened the door).\n• Intransitive (自動詞[じどうし]): [thing] が Verb — the thing does it on its own, no agent mentioned.\n  ドアが開[ひら]きました (The door opened — by itself).\n\nCore pairs to memorize:\n開[ひら]ける (open s.t.) / 開[ひら]く (open by itself)\n閉[し]める (close s.t.) / 閉[し]まる (close by itself)\n入[い]れる (put in) / 入る (go in)\n出[だ]す (take out) / 出[で]る (come out)\n起[お]こす (wake s.o. up) / 起[お]きる (wake up)\n始[はじ]める (start s.t.) / 始[はじ]まる (start on its own)\n\nA rough pattern: the る-ending of the pair is often transitive (you do it), while the non-る form is often intransitive (it happens). This isn't universal, but it's a useful first guess.\n\nThe next grammar point, 〜てある, builds directly on this: it uses the *transitive* verb's て-form to describe a deliberately created resultant state.",
+      "explanation": "Japanese is famous — or notorious — for its transitive/intransitive verb pairs. For nearly every action that can either be done *to* something or happen *by itself*, there are two separate verbs. Using the wrong one is a very common error, so it pays to learn these pairs together.\n\nThe grammatical split is clean:\n• Transitive (他動詞[たどうし]): [person] が [object] を Verb — someone acts on something.\n  誰[だれ]かがドアを開[あ]けました (Someone opened the door).\n• Intransitive (自動詞[じどうし]): [thing] が Verb — the thing does it on its own, no agent mentioned.\n  ドアが開[あ]きました (The door opened — by itself).\n\nCore pairs to memorize:\n開[あ]ける (open s.t.) / 開[ひら]く (open by itself)\n閉[し]める (close s.t.) / 閉[し]まる (close by itself)\n入[い]れる (put in) / 入る (go in)\n出[だ]す (take out) / 出[で]る (come out)\n起[お]こす (wake s.o. up) / 起[お]きる (wake up)\n始[はじ]める (start s.t.) / 始[はじ]まる (start on its own)\n\nA rough pattern: the る-ending of the pair is often transitive (you do it), while the non-る form is often intransitive (it happens). This isn't universal, but it's a useful first guess.\n\nThe next grammar point, 〜てある, builds directly on this: it uses the *transitive* verb's て-form to describe a deliberately created resultant state.",
       "rules": [
         "Transitive (他動詞[たどうし]): [agent] が [object] を Verb — someone does something to something",
         "Intransitive (自動詞[じどうし]): [subject] が Verb — something happens by itself, no agent",
-        "Core pairs: 開[ひら]ける/開[ひら]く, 閉[し]める/閉[し]まる, 入[い]れる/入る, 出[だ]す/出[で]る, 起[お]こす/起[お]きる, 始[はじ]める/始[はじ]まる",
+        "Core pairs: 開[あ]ける/開[ひら]く, 閉[し]める/閉[し]まる, 入[い]れる/入る, 出[だ]す/出[で]る, 起[お]こす/起[お]きる, 始[はじ]める/始[はじ]まる",
         "Rough pattern: る-ending = often transitive; non-る form = often intransitive",
         "〜てある (next point) uses the TRANSITIVE verb's て-form + ある to show a deliberate resultant state"
       ],
       "examples": [
         {
-          "japanese": "誰[だれ]かがドアを開[ひら]けました。",
+          "japanese": "誰[だれ]かがドアを開[あ]けました。",
           "romaji": "Dareka ga doa wo akemashita.",
           "english": "Someone opened the door. (transitive)"
         },
         {
-          "japanese": "ドアが開[ひら]きました。",
+          "japanese": "ドアが開[あ]きました。",
           "romaji": "Doa ga akimashita.",
           "english": "The door opened. (intransitive — by itself)"
         },
@@ -367,13 +367,13 @@
           "prompt": "Which sentence correctly uses a TRANSITIVE verb?",
           "japanese": null,
           "choices": [
-            "ドアが開[ひら]きました。",
+            "ドアが開[あ]きました。",
             "電気[でんき]がつきました。",
-            "私[わたし]はドアを開[ひら]けました。",
+            "私[わたし]はドアを開[あ]けました。",
             "窓[まど]が閉[し]まりました。"
           ],
           "correctIndex": 2,
-          "explanation": "Transitive verbs take an object (〜を). 開[ひら]ける (to open ) is transitive: ドアを開[ひら]けました = I opened the door. Intransitive verbs (開[ひら]く) describe the event happening on its own."
+          "explanation": "Transitive verbs take an object (〜を). 開[あ]ける (to open ) is transitive: ドアを開[あ]けました = I opened the door. Intransitive verbs (開[ひら]く) describe the event happening on its own."
         },
         {
           "id": "transitive-intransitive_q2",
@@ -527,7 +527,7 @@
             "を (object)"
           ],
           "correctIndex": 3,
-          "explanation": "Transitive verbs take を to mark their object. ドアを開[ひら]ける (open the door), 窓[まど]を閉[し]める (close the window). Intransitive verbs describe events without a を object: ドアが開[ひら]く, 窓[まど]が閉[し]まる."
+          "explanation": "Transitive verbs take を to mark their object. ドアを開[あ]ける (open the door), 窓[まど]を閉[し]める (close the window). Intransitive verbs describe events without a を object: ドアが開[あ]く, 窓[まど]が閉[し]まる."
         },
         {
           "id": "transitive-intransitive_q13",
@@ -537,11 +537,11 @@
           "choices": [
             "入[い]れない",
             "入[い]れた",
-            "入[い]る",
+            "入[はい]る",
             "入[い]れます"
           ],
           "correctIndex": 2,
-          "explanation": "入[い]れる (transitive: to put in / insert) ↔ 入[い]る (intransitive: to enter / go in). お金[きん]を入[い]れる = put in money; お金[きん]が入[い]る = money comes in."
+          "explanation": "入[い]れる (transitive: to put in / insert) ↔ 入[はい]る (intransitive: to enter / go in). お金[かね]を入[い]れる = put in money; お金[かね]が入[はい]る = money comes in."
         },
         {
           "id": "transitive-intransitive_q14",
@@ -577,13 +577,13 @@
           "prompt": "Which means 'I filled the glass with water' (transitive)?",
           "japanese": null,
           "choices": [
-            "コップに水[みず]が入[い]りました。",
+            "コップに水[みず]が入[はい]りました。",
             "コップが水[みず]で満[み]ちました。",
             "コップに水[みず]を入[い]れました。",
             "コップの水[みず]が増[ふ]えました。"
           ],
           "correctIndex": 2,
-          "explanation": "入[い]れる = transitive (to put in): コップに水[みず]を入[い]れました = I put water in the glass / filled the glass with water. コップに水[みず]が入[い]りました = water went into the glass (intransitive, no agent)."
+          "explanation": "入[い]れる = transitive (to put in): コップに水[みず]を入[い]れました = I put water in the glass / filled the glass with water. コップに水[みず]が入[はい]りました = water went into the glass (intransitive, no agent)."
         },
         {
           "id": "transitive-intransitive_q17",
@@ -633,13 +633,13 @@
           "prompt": "Which sentence correctly uses intransitive (event happens by itself, no agent)?",
           "japanese": null,
           "choices": [
-            "私[わたし]はドアを開[ひら]けました。",
-            "誰[だれ]かがドアを開[ひら]けました。",
-            "ドアが開[ひら]きました。",
-            "ドアを開[ひら]きました。"
+            "私[わたし]はドアを開[あ]けました。",
+            "誰[だれ]かがドアを開[あ]けました。",
+            "ドアが開[あ]きました。",
+            "ドアを開[あ]きました。"
           ],
           "correctIndex": 2,
-          "explanation": "開[ひら]く = intransitive: ドアが開[ひら]きました = the door opened (by itself, no agent). 開[ひら]ける = transitive: ドアを開[ひら]けました = someone opened the door. Intransitive uses が; transitive uses を."
+          "explanation": "開[ひら]く = intransitive: ドアが開[あ]きました = the door opened (by itself, no agent). 開[あ]ける = transitive: ドアを開[あ]けました = someone opened the door. Intransitive uses が; transitive uses を."
         }
       ]
     },
@@ -648,7 +648,7 @@
       "name": "〜てある (te aru) — has been done (deliberate result)",
       "shortDescription": "A deliberately created state — 'it has been done (and the result is here).'",
       "formation": "Transitive verb (て-form) + ある",
-      "explanation": "〜てある is the grammar for deliberate, intentional preparation. It says: 'someone did this on purpose, and the result is currently in place.'\n\nStructure: transitive verb (て-form) + ある. The crucial shift: the object of the transitive verb becomes the grammatical subject with が. ビールを冷蔵庫[れいぞうこ]に入[い]れた → ビールが冷蔵庫[れいぞうこ]に入[い]れてある (Beer has been put in the fridge [by someone, deliberately]). The doer is invisible; the focus is entirely on the current state and its intentional origin.\n\nThe contrast with 〜ている is worth internalizing:\n窓[まど]が開[ひら]いています: 'The window is open' — just describing the current state, no comment on how or why.\n窓[まど]が開[ひら]けてあります: 'The window has been (deliberately) left open' — someone opened it on purpose and it's still that way.\n\n〜てある and 〜ておく (Chapter 15) are two sides of the same coin: ておく describes the *act* of preparing in advance; てある describes the *resulting state* after that preparation. もう料理[りょうり]を作[つく]っておいた (I've already prepared the food in advance) → 料理[りょうり]が作[つく]ってある (The food has been prepared and is ready).\n\nIn practice, てある is most common in descriptions of set-up rooms, prepared materials, or situations someone has arranged for you.",
+      "explanation": "〜てある is the grammar for deliberate, intentional preparation. It says: 'someone did this on purpose, and the result is currently in place.'\n\nStructure: transitive verb (て-form) + ある. The crucial shift: the object of the transitive verb becomes the grammatical subject with が. ビールを冷蔵庫[れいぞうこ]に入[い]れた → ビールが冷蔵庫[れいぞうこ]に入[い]れてある (Beer has been put in the fridge [by someone, deliberately]). The doer is invisible; the focus is entirely on the current state and its intentional origin.\n\nThe contrast with 〜ている is worth internalizing:\n窓[まど]が開[あ]いています: 'The window is open' — just describing the current state, no comment on how or why.\n窓[まど]が開[あ]けてあります: 'The window has been (deliberately) left open' — someone opened it on purpose and it's still that way.\n\n〜てある and 〜ておく (Chapter 15) are two sides of the same coin: ておく describes the *act* of preparing in advance; てある describes the *resulting state* after that preparation. もう料理[りょうり]を作[つく]っておいた (I've already prepared the food in advance) → 料理[りょうり]が作[つく]ってある (The food has been prepared and is ready).\n\nIn practice, てある is most common in descriptions of set-up rooms, prepared materials, or situations someone has arranged for you.",
       "rules": [
         "Transitive verb (て-form) + ある = a deliberate state — someone did this intentionally",
         "The acted-upon object becomes the subject: marked with が",
@@ -687,13 +687,13 @@
           "prompt": "Which means 'The window has been opened (intentionally)'?",
           "japanese": null,
           "choices": [
-            "窓[まど]が開[ひら]いています。",
-            "窓[まど]が開[ひら]けてあります。",
-            "窓[まど]を開[ひら]けています。",
-            "窓[まど]が開[ひら]けました。"
+            "窓[まど]が開[あ]いています。",
+            "窓[まど]が開[あ]けてあります。",
+            "窓[まど]を開[あ]けています。",
+            "窓[まど]が開[あ]けました。"
           ],
           "correctIndex": 1,
-          "explanation": "て-form (transitive) + あります = has been  (deliberate result remaining). 開[ひら]けてあります = has been opened (by someone intentionally). 開[ひら]いています = is open (intransitive, no agent implied)."
+          "explanation": "て-form (transitive) + あります = has been  (deliberate result remaining). 開[あ]けてあります = has been opened (by someone intentionally). 開[ひら]いています = is open (intransitive, no agent implied)."
         },
         {
           "id": "te-aru_q2",
@@ -735,7 +735,7 @@
             "〜てある = deliberate act result; 〜ている = ongoing state or action (no intentionality implied)"
           ],
           "correctIndex": 3,
-          "explanation": "〜てある = result of deliberate human action (transitive + ある). 〜ている = ongoing state or action (no intentionality required). 開[ひら]けてある = was opened (deliberately); 開[ひら]いている = is open (just the state)."
+          "explanation": "〜てある = result of deliberate human action (transitive + ある). 〜ている = ongoing state or action (no intentionality required). 開[あ]けてある = was opened (deliberately); 開[ひら]いている = is open (just the state)."
         },
         {
           "id": "te-aru_q5",
@@ -763,7 +763,7 @@
             "Only する verbs"
           ],
           "correctIndex": 1,
-          "explanation": "〜てある is always used with TRANSITIVE verbs. The transitive verb implies intentional action by a (often unnamed) agent. 開[ひら]けてある (transitive 開[ひら]ける) = has been opened. Intransitive verbs use 〜ている."
+          "explanation": "〜てある is always used with TRANSITIVE verbs. The transitive verb implies intentional action by a (often unnamed) agent. 開[あ]けてある (transitive 開[あ]ける) = has been opened. Intransitive verbs use 〜ている."
         },
         {
           "id": "te-aru_q7",
@@ -897,13 +897,13 @@
           "prompt": "Which means 'Please be aware — the box has been opened'?",
           "japanese": null,
           "choices": [
-            "箱[はこ]が開[ひら]いています。",
-            "箱[はこ]が開[ひら]けています。",
-            "箱[はこ]が開[ひら]けてあります。",
-            "箱[はこ]を開[ひら]けています。"
+            "箱[はこ]が開[あ]いています。",
+            "箱[はこ]が開[あ]けています。",
+            "箱[はこ]が開[あ]けてあります。",
+            "箱[はこ]を開[あ]けています。"
           ],
           "correctIndex": 2,
-          "explanation": "開[ひら]ける (transitive: to open) → 開[ひら]けて + あります = 開[ひら]けてあります = has been opened (deliberately, still open). 開[ひら]いている = is open (just the state, intransitive)."
+          "explanation": "開[あ]ける (transitive: to open) → 開[あ]けて + あります = 開[あ]けてあります = has been opened (deliberately, still open). 開[ひら]いている = is open (just the state, intransitive)."
         },
         {
           "id": "te-aru_q17",
@@ -912,7 +912,7 @@
           "japanese": null,
           "choices": [
             "黒板[こくばん]に字[じ]が書[か]いてあります。",
-            "ドアが開[ひら]けてあります。",
+            "ドアが開[あ]けてあります。",
             "料理[りょうり]が作[つく]ってあります。",
             "電気[でんき]が消[き]えてあります。"
           ],
@@ -968,7 +968,7 @@
       "name": "〜によって (ni yotte) — depending on / due to / by means of",
       "shortDescription": "A formal, versatile marker: 'depending on,' 'due to,' or 'by' (agent in passive constructions).",
       "formation": "Noun + によって (varied meanings based on context)",
-      "explanation": "によって is a multi-purpose formal marker. All its uses share the same intuition: something is determined, caused, or shaped by the noun it attaches to. It's more formal and written than its everyday alternatives, so you'll encounter it constantly in news, academic writing, and formal announcements.\n\nMeaning 1 — 'depending on': 人[にん]によって、考[かんが]え方[かた]が違[ちが]います (Opinions differ depending on the person). The varying factor is marked by によって. 国[く]によって, 場合[ばあい]によって, 状況[じょうきょう]によって are all common collocations.\n\nMeaning 2 — 'due to / because of': 台風[たいふう]によって、大[おお]きな被害[ひがい]が出[で]ました (Great damage was caused by the typhoon). This is the formal written equivalent of ために as a cause marker, preferred in news reporting and official documents.\n\nMeaning 3 — 'by' (passive agent): この小説[しょうせつ]は夏目漱石[なつめそうせき]によって書[か]かれました (This novel was written by Natsume Soseki). によって marks who performed the action in a passive sentence. You'll study the passive fully in Chapter 21 — for now, note that によって fills the 'by [person]' slot in formal passive constructions.\n\nAttributive form: による (before nouns). 〜による影響[えいきょう] = 'influence due to / caused by.' 〜によると = 'according to' (source of information). These are extremely frequent in formal Japanese.",
+      "explanation": "によって is a multi-purpose formal marker. All its uses share the same intuition: something is determined, caused, or shaped by the noun it attaches to. It's more formal and written than its everyday alternatives, so you'll encounter it constantly in news, academic writing, and formal announcements.\n\nMeaning 1 — 'depending on': 人[ひと]によって、考[かんが]え方[かた]が違[ちが]います (Opinions differ depending on the person). The varying factor is marked by によって. 国[くに]によって, 場合[ばあい]によって, 状況[じょうきょう]によって are all common collocations.\n\nMeaning 2 — 'due to / because of': 台風[たいふう]によって、大[おお]きな被害[ひがい]が出[で]ました (Great damage was caused by the typhoon). This is the formal written equivalent of ために as a cause marker, preferred in news reporting and official documents.\n\nMeaning 3 — 'by' (passive agent): この小説[しょうせつ]は夏目漱石[なつめそうせき]によって書[か]かれました (This novel was written by Natsume Soseki). によって marks who performed the action in a passive sentence. You'll study the passive fully in Chapter 21 — for now, note that によって fills the 'by [person]' slot in formal passive constructions.\n\nAttributive form: による (before nouns). 〜による影響[えいきょう] = 'influence due to / caused by.' 〜によると = 'according to' (source of information). These are extremely frequent in formal Japanese.",
       "rules": [
         "Noun + によって = 'depending on / according to' (varying outcomes by factor)",
         "Noun + によって = 'due to / as a result of' (formal cause — preferred in writing/news)",
@@ -978,7 +978,7 @@
       ],
       "examples": [
         {
-          "japanese": "人[にん]によって、好[この]みが違[ちが]います。",
+          "japanese": "人[ひと]によって、好[この]みが違[ちが]います。",
           "romaji": "Hito ni yotte, konomi ga chigaimasu.",
           "english": "Tastes differ depending on the person."
         },
@@ -993,7 +993,7 @@
           "english": "Great damage was caused by the typhoon."
         },
         {
-          "japanese": "国[く]によって、法律[ほうりつ]が異[こと]なります。",
+          "japanese": "国[くに]によって、法律[ほうりつ]が異[こと]なります。",
           "romaji": "Kuni ni yotte, houritsu ga kotonarimasu.",
           "english": "Laws differ depending on the country."
         }
@@ -1007,13 +1007,13 @@
           "prompt": "Which means 'The rules differ depending on the country'?",
           "japanese": null,
           "choices": [
-            "国[く]によってルールが違[ちが]います。",
+            "国[くに]によってルールが違[ちが]います。",
             "国[くに]でルールが違[ちが]います。",
             "国[くに]のためにルールが違[ちが]います。",
             "国[くに]からルールが違[ちが]います。"
           ],
           "correctIndex": 0,
-          "explanation": "〜によって = depending on / according to. 国[く]によって = depending on the country. Used to express variation based on factors."
+          "explanation": "〜によって = depending on / according to. 国[くに]によって = depending on the country. Used to express variation based on factors."
         },
         {
           "id": "ni-yotte_q2",
@@ -1105,13 +1105,13 @@
           "prompt": "Which correctly says 'Opinions differ depending on the person'?",
           "japanese": null,
           "choices": [
-            "人[にん]に意見[いけん]が違[ちが]います。",
-            "人[にん]の意見[いけん]が違[ちが]います。",
-            "人[にん]によって意見[いけん]が違[ちが]います。",
-            "人[にん]で意見[いけん]が違[ちが]います。"
+            "人[ひと]に意見[いけん]が違[ちが]います。",
+            "人[ひと]の意見[いけん]が違[ちが]います。",
+            "人[ひと]によって意見[いけん]が違[ちが]います。",
+            "人[ひと]で意見[いけん]が違[ちが]います。"
           ],
           "correctIndex": 2,
-          "explanation": "Noun + によって = depending on , varies by . 人[にん]によって = depending on the person. 意見[いけん]が違[ちが]います = opinions differ."
+          "explanation": "Noun + によって = depending on , varies by . 人[ひと]によって = depending on the person. 意見[いけん]が違[ちが]います = opinions differ."
         },
         {
           "id": "ni-yotte_q9",
@@ -1192,7 +1192,7 @@
             "地域[ちいき]によって習慣[しゅうかん]が違[ちが]う。",
             "科学[かがく]の進歩[しんぽ]によって生活[せいかつ]が豊[ゆた]かになった。",
             "天気[てんき]によって服装[ふくそう]が変[か]わる。",
-            "人[にん]によって考[かんが]え方[かた]が違[ちが]う。"
+            "人[ひと]によって考[かんが]え方[かた]が違[ちが]う。"
           ],
           "correctIndex": 1,
           "explanation": "科学[かがく]の進歩[しんぽ]によって生活[せいかつ]が豊[ゆた]かになった = through/by means of scientific progress, life became richer. によって here = by means of / through. Options 1, 3, 4 use によって for 'depending on.'"

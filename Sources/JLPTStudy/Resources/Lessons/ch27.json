@@ -62,7 +62,7 @@
           "japanese": null,
           "choices": [
             "子供[こども]がこれができる。",
-            "子供[こど]もこれができる。",
+            "子供[こども]もこれができる。",
             "子供[こども]でもこれができる。",
             "子供[こども]こそこれができる。"
           ],
@@ -159,13 +159,13 @@
           "prompt": "Which means 'Even if it's something small, a gift makes people happy'?",
           "japanese": null,
           "choices": [
-            "小[ちい]さいものでも、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちい]さいものも、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちい]さいものだけ、プレゼントは人[にん]を喜[よろこ]ばせる。",
-            "小[ちい]さいものこそ、プレゼントは人[にん]を喜[よろこ]ばせる。"
+            "小[ちい]さいものでも、プレゼントは人[ひと]を喜[よろこ]ばせる。",
+            "小[ちい]さいものも、プレゼントは人[ひと]を喜[よろこ]ばせる。",
+            "小[ちい]さいものだけ、プレゼントは人[ひと]を喜[よろこ]ばせる。",
+            "小[ちい]さいものこそ、プレゼントは人[ひと]を喜[よろこ]ばせる。"
           ],
           "correctIndex": 0,
-          "explanation": "でも = even if (concessive): 小[ちい]さいもの + でも = even if it's something small. プレゼントは人[にん]を喜[よろこ]ばせる = a gift makes people happy. でも after a noun creates 'even if it's ' concessive meaning."
+          "explanation": "でも = even if (concessive): 小[ちい]さいもの + でも = even if it's something small. プレゼントは人[ひと]を喜[よろこ]ばせる = a gift makes people happy. でも after a noun creates 'even if it's ' concessive meaning."
         },
         {
           "id": "demo-even_q10",
@@ -328,7 +328,7 @@
       "name": "〜て初[はじ]めて (te hajimete) — not until / only after doing",
       "shortDescription": "Only after doing X for the first time did Y become clear — the turning-point realization.",
       "formation": "Verb (て-form) + 初[はじ]めて + result/realization",
-      "explanation": "〜て初[はじ]めて is the grammar of the turning point — the moment when an experience makes something true or clear that wasn't before. It means 'not until X / only after X did Y.'\n\n日本[にっぽん]に住[す]んで初[はじ]めて、文化[ぶんか]の違[ちが]いを実感[じっかん]しました: 'It wasn't until I actually lived in Japan that I really felt the cultural differences.' Before living there: the realization was absent. After the experience: it arrived. The experience was the enabling condition.\n\nThe 初[はじ]めて here carries its literal meaning — 'for the first time' — and that first-time quality is essential. This is the grammar of experiences you can't get second-hand: the first time you had children, the first time you went abroad, the first time you failed publicly. Something only experience can teach.\n\nThe pattern often appears in moments of grateful realization or hard-won insight. 子[こ]どもを持[も]って初[はじ]めて、親[おや]のありがたさがわかった: 'It wasn't until I had children that I understood how much I owe my parents.' The emotional weight of て初[はじ]めて comes from the implicit 'before this, I didn't know' sitting behind every sentence.\n\nSimple formation: て-form of verb + 初[はじ]めて + result or realization.",
+      "explanation": "〜て初[はじ]めて is the grammar of the turning point — the moment when an experience makes something true or clear that wasn't before. It means 'not until X / only after X did Y.'\n\n日本[にほん]に住[す]んで初[はじ]めて、文化[ぶんか]の違[ちが]いを実感[じっかん]しました: 'It wasn't until I actually lived in Japan that I really felt the cultural differences.' Before living there: the realization was absent. After the experience: it arrived. The experience was the enabling condition.\n\nThe 初[はじ]めて here carries its literal meaning — 'for the first time' — and that first-time quality is essential. This is the grammar of experiences you can't get second-hand: the first time you had children, the first time you went abroad, the first time you failed publicly. Something only experience can teach.\n\nThe pattern often appears in moments of grateful realization or hard-won insight. 子[こ]どもを持[も]って初[はじ]めて、親[おや]のありがたさがわかった: 'It wasn't until I had children that I understood how much I owe my parents.' The emotional weight of て初[はじ]めて comes from the implicit 'before this, I didn't know' sitting behind every sentence.\n\nSimple formation: て-form of verb + 初[はじ]めて + result or realization.",
       "rules": [
         "Verb (て-form) + 初[はじ]めて = not until doing X / only after experiencing X for the first time",
         "The result in the main clause was only possible after the て clause experience happened",
@@ -338,7 +338,7 @@
       ],
       "examples": [
         {
-          "japanese": "日本[にっぽん]に住[す]んで初[はじ]めて、文化[ぶんか]の違[ちが]いを実感[じっかん]しました。",
+          "japanese": "日本[にほん]に住[す]んで初[はじ]めて、文化[ぶんか]の違[ちが]いを実感[じっかん]しました。",
           "romaji": "Nihon ni sunde hajimete, bunka no chigai wo jikkan shimashita.",
           "english": "It wasn't until I lived in Japan that I truly felt the cultural differences."
         },
@@ -353,7 +353,7 @@
           "english": "Only after failing did I learn the importance of failure."
         },
         {
-          "japanese": "海外[かいがい]に出[で]て初[はじ]めて、日本[にっぽん]の良[よ]さに気[き]づきました。",
+          "japanese": "海外[かいがい]に出[で]て初[はじ]めて、日本[にほん]の良[よ]さに気[き]づきました。",
           "romaji": "Kaigai ni dete hajimete, Nihon no yosa ni kizukimashita.",
           "english": "It wasn't until I went abroad that I noticed what's great about Japan."
         }
@@ -373,7 +373,7 @@
             "will do X first, then Y"
           ],
           "correctIndex": 2,
-          "explanation": "〜てはじめて = it was only after doing X that . 外国[がいこく]に行[い]って初[はじ]めて、日本[にっぽん]の良[よ]さが分[わ]かった = it was only after going abroad that I first understood Japan's greatness. Realization that came only AFTER the experience."
+          "explanation": "〜てはじめて = it was only after doing X that . 外国[がいこく]に行[い]って初[はじ]めて、日本[にほん]の良[よ]さが分[わ]かった = it was only after going abroad that I first understood Japan's greatness. Realization that came only AFTER the experience."
         },
         {
           "id": "te-hajimete_q2",
@@ -401,7 +401,7 @@
             "expectation about the future"
           ],
           "correctIndex": 1,
-          "explanation": "〜てはじめて expresses REALIZATION — you couldn't know/understand Y until you actually experienced X. 失[う]ってはじめて大切[たいせつ]さが分[わ]かる = only after losing something do you understand its value. A common Japanese proverb-like structure."
+          "explanation": "〜てはじめて expresses REALIZATION — you couldn't know/understand Y until you actually experienced X. 失[うしな]ってはじめて大切[たいせつ]さが分[わ]かる = only after losing something do you understand its value. A common Japanese proverb-like structure."
         },
         {
           "id": "te-hajimete_q4",
@@ -465,13 +465,13 @@
           "prompt": "Which correctly says 'Only after losing something do you know its value'?",
           "japanese": null,
           "choices": [
-            "失[う]ってはじめて、その価値[かち]が分[わ]かる。",
-            "失[う]ってから、その価値[かち]が分[わ]かる。",
-            "失[う]ったとき、その価値[かち]が分[わ]かる。",
+            "失[うしな]ってはじめて、その価値[かち]が分[わ]かる。",
+            "失[うしな]ってから、その価値[かち]が分[わ]かる。",
+            "失[うしな]ったとき、その価値[かち]が分[わ]かる。",
             "失[うしな]うまで、その価値[かち]が分[わ]かる。"
           ],
           "correctIndex": 0,
-          "explanation": "〜てはじめて: 失[う]って (te-form) + はじめて = only after losing. 価値[かち]が分[わ]かる = understand its value. 失[う]ってはじめてその価値[かち]が分[わ]かる = only by losing it do you first understand its value."
+          "explanation": "〜てはじめて: 失[うしな]って (te-form) + はじめて = only after losing. 価値[かち]が分[わ]かる = understand its value. 失[うしな]ってはじめてその価値[かち]が分[わ]かる = only by losing it do you first understand its value."
         },
         {
           "id": "te-hajimete_q9",
@@ -493,10 +493,10 @@
           "prompt": "Which correctly says 'Only after traveling abroad did I become interested in my own country'?",
           "japanese": null,
           "choices": [
-            "海外[かいがい]に旅行[りょこう]してから、自分[じぶん]の国[く]に興味[きょうみ]を持[も]った。",
-            "海外[かいがい]に旅行[りょこう]してはじめて、自分[じぶん]の国[く]に興味[きょうみ]を持[も]った。",
-            "海外[かいがい]に旅行[りょこう]したとき、自分[じぶん]の国[く]に興味[きょうみ]を持[も]った。",
-            "海外[かいがい]に旅行[りょこう]するまで、自分[じぶん]の国[く]に興味[きょうみ]を持[も]った。"
+            "海外[かいがい]に旅行[りょこう]してから、自分[じぶん]の国[くに]に興味[きょうみ]を持[も]った。",
+            "海外[かいがい]に旅行[りょこう]してはじめて、自分[じぶん]の国[くに]に興味[きょうみ]を持[も]った。",
+            "海外[かいがい]に旅行[りょこう]したとき、自分[じぶん]の国[くに]に興味[きょうみ]を持[も]った。",
+            "海外[かいがい]に旅行[りょこう]するまで、自分[じぶん]の国[くに]に興味[きょうみ]を持[も]った。"
           ],
           "correctIndex": 1,
           "explanation": "〜てはじめて: 旅行[りょこう]して (te-form) + はじめて = only after traveling. 興味[きょうみ]を持[も]った = became interested. The travel experience created the realization/interest in one's own country."
@@ -564,12 +564,12 @@
           "japanese": null,
           "choices": [
             "彼女[かのじょ]に会[あ]ったとき、彼女[かのじょ]が美[うつく]しいと思[おも]った。",
-            "困[こま]ってはじめて、人[にん]の親切[しんせつ]が分[わ]かる。",
+            "困[こま]ってはじめて、人[ひと]の親切[しんせつ]が分[わ]かる。",
             "大学[だいがく]に入[はい]ってから、友達[ともだち]ができた。",
             "試験[しけん]が終[お]わってから、遊[あそ]ぶ。"
           ],
           "correctIndex": 1,
-          "explanation": "困[こま]ってはじめて、人[にん]の親切[しんせつ]が分[わ]かる = only when you're in trouble do you first understand people's kindness. This is a general truth expressed with 〜てはじめて. The difficulty (X) reveals the kindness (Y)."
+          "explanation": "困[こま]ってはじめて、人[ひと]の親切[しんせつ]が分[わ]かる = only when you're in trouble do you first understand people's kindness. This is a general truth expressed with 〜てはじめて. The difficulty (X) reveals the kindness (Y)."
         },
         {
           "id": "te-hajimete_q16",
@@ -591,13 +591,13 @@
           "prompt": "Which means 'Only after making a mistake do you learn'?",
           "japanese": null,
           "choices": [
-            "失敗[しっぱい]してから、人[にん]は学[まな]ぶ。",
-            "失敗[しっぱい]したとき、人[にん]は学[まな]ぶ。",
-            "失敗[しっぱい]してはじめて、人[にん]は学[まな]ぶ。",
-            "失敗[しっぱい]するまで、人[にん]は学[まな]ぶ。"
+            "失敗[しっぱい]してから、人[ひと]は学[まな]ぶ。",
+            "失敗[しっぱい]したとき、人[ひと]は学[まな]ぶ。",
+            "失敗[しっぱい]してはじめて、人[ひと]は学[まな]ぶ。",
+            "失敗[しっぱい]するまで、人[ひと]は学[まな]ぶ。"
           ],
           "correctIndex": 2,
-          "explanation": "〜てはじめて: 失敗[しっぱい]して (te-form) + はじめて = only after failing. 人[にん]は学[まな]ぶ = people learn. 失敗[しっぱい]してはじめて人[にん]は学[まな]ぶ = it is only by failing that people learn. Classic てはじめて wisdom statement."
+          "explanation": "〜てはじめて: 失敗[しっぱい]して (te-form) + はじめて = only after failing. 人[ひと]は学[まな]ぶ = people learn. 失敗[しっぱい]してはじめて人[ひと]は学[まな]ぶ = it is only by failing that people learn. Classic てはじめて wisdom statement."
         },
         {
           "id": "te-hajimete_q18",
@@ -625,7 +625,7 @@
             "Nouns + の"
           ],
           "correctIndex": 0,
-          "explanation": "Te-form of experience verbs + はじめて: 経験[けいけん]して、失[う]って、なって、行[い]って, etc. The experience (te-form) is what enables the new understanding (second clause). Typically experiential or process verbs."
+          "explanation": "Te-form of experience verbs + はじめて: 経験[けいけん]して、失[うしな]って、なって、行[い]って, etc. The experience (te-form) is what enables the new understanding (second clause). Typically experiential or process verbs."
         },
         {
           "id": "te-hajimete_q20",
@@ -663,7 +663,7 @@
           "english": "I wonder if it'll be sunny tomorrow."
         },
         {
-          "japanese": "あの人[にん]、だれだろう。知[し]り合[あ]いかな。",
+          "japanese": "あの人[ひと]、だれだろう。知[し]り合[あ]いかな。",
           "romaji": "Ano hito, dare darou. Shiriai kana.",
           "english": "Who is that person, I wonder. Could be someone I know."
         },

@@ -19,7 +19,7 @@
       ],
       "examples": [
         {
-          "japanese": "この小説[しょうせつ]は多[おお]くの人[にん]に読[よ]まれています。",
+          "japanese": "この小説[しょうせつ]は多[おお]くの人[ひと]に読[よ]まれています。",
           "romaji": "Kono shousetsu wa ooku no hito ni yomarete imasu.",
           "english": "This novel is read by many people."
         },
@@ -505,8 +505,8 @@
         {
           "id": "noni-contrast_q11",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: もう大人[おと]な___、そんなことをするなんて。(Even though you're an adult, doing something like that...)",
-          "japanese": "もう大人[おと]な___、そんなことをするなんて。",
+          "prompt": "Fill in the blank: もう大人[おとな]な___、そんなことをするなんて。(Even though you're an adult, doing something like that...)",
+          "japanese": "もう大人[おとな]な___、そんなことをするなんて。",
           "choices": [
             "のに",
             "けど",
@@ -538,7 +538,7 @@
           "choices": [
             "寒[さむ]いのに、水泳[すいえい]しています。",
             "寒[さむ]いなのに、水泳[すいえい]しています。",
-            "寒[かん]なのに、水泳[すいえい]しています。",
+            "寒[さむ]なのに、水泳[すいえい]しています。",
             "寒[さむ]いので、水泳[すいえい]しています。"
           ],
           "correctIndex": 0,
@@ -786,10 +786,10 @@
           "prompt": "Which correctly says 'I decided to live in Japan'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に住[す]むことにしました。",
-            "日本[にっぽん]に住[す]むことになりました。",
-            "日本[にっぽん]に住[す]んだことにしました。",
-            "日本[にっぽん]に住[す]まないことにしました。"
+            "日本[にほん]に住[す]むことにしました。",
+            "日本[にほん]に住[す]むことになりました。",
+            "日本[にほん]に住[す]んだことにしました。",
+            "日本[にほん]に住[す]まないことにしました。"
           ],
           "correctIndex": 0,
           "explanation": "Dict-form + ことにしました = decided to. 住[す]む + ことにしました = decided to live. 住[す]むことになりました = it was decided I'll live there (external — e.g. job transfer)."

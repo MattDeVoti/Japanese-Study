@@ -286,7 +286,7 @@
           "prompt": "Which means 'This problem seems difficult' (based on observation)?",
           "japanese": null,
           "choices": [
-            "この問題[もんだい]は難[むつか]しそうですね。",
+            "この問題[もんだい]は難[むずか]しそうですね。",
             "この問題[もんだい]は難[むずか]しいみたいですね。",
             "この問題[もんだい]は難[むずか]しいらしいですね。",
             "この問題[もんだい]は難[むずか]しいようですね。"
@@ -300,13 +300,13 @@
           "prompt": "Which describes someone as 'a childlike person' using みたいな?",
           "japanese": null,
           "choices": [
-            "子供[こども]みたいです人[にん]",
-            "子供[こども]みたいの人[にん]",
-            "子供[こども]みたいな人[にん]",
-            "子供[こども]みたいに人[にん]"
+            "子供[こども]みたいです人[ひと]",
+            "子供[こども]みたいの人[ひと]",
+            "子供[こども]みたいな人[ひと]",
+            "子供[こども]みたいに人[ひと]"
           ],
           "correctIndex": 2,
-          "explanation": "Noun + みたいな + noun = a noun resembling . 子供[こども]みたいな人[にん] = a person like a child. みたいな is the attributive/modifier form used before nouns."
+          "explanation": "Noun + みたいな + noun = a noun resembling . 子供[こども]みたいな人[ひと] = a person like a child. みたいな is the attributive/modifier form used before nouns."
         },
         {
           "id": "mitai-da_q20",
@@ -382,10 +382,10 @@
           "prompt": "Which expresses 'I wish I could go to Japan' (personal unfulfilled wish)?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]に行[い]くといいですね。",
-            "日本[にっぽん]に行[い]くといいんですが。",
-            "日本[にっぽん]に行[い]けばいいですね。",
-            "日本[にっぽん]に行[い]ったらいいですね。"
+            "日本[にほん]に行[い]くといいですね。",
+            "日本[にほん]に行[い]くといいんですが。",
+            "日本[にほん]に行[い]けばいいですね。",
+            "日本[にほん]に行[い]ったらいいですね。"
           ],
           "correctIndex": 1,
           "explanation": "〜といいんですが = I wish [I could] (personal wish, implies it may not happen). んです adds nuance of personal feeling."
@@ -410,10 +410,10 @@
           "prompt": "Which is most suitable for a PERSONAL unfulfilled wish about money?",
           "japanese": null,
           "choices": [
-            "もっとお金[きん]があるといいですね。",
-            "もっとお金[きん]があるといいんですが。",
-            "もっとお金[きん]があったらいいですね。",
-            "もっとお金[きん]があればいいですね。"
+            "もっとお金[かね]があるといいですね。",
+            "もっとお金[かね]があるといいんですが。",
+            "もっとお金[かね]があったらいいですね。",
+            "もっとお金[かね]があればいいですね。"
           ],
           "correctIndex": 3,
           "explanation": "〜といいんですが = I wish I had [it] / I hope (personal longing implying 'but I don't'). This is for personal wishes that may not come true."
@@ -731,12 +731,12 @@
           "japanese": null,
           "choices": [
             "音楽[おんがく]を聴[き]きながら勉強[べんきょう]しています。",
-            "テレビを見[み]ながらご飯[めし]を食[た]べました。",
+            "テレビを見[み]ながらご飯[はん]を食[た]べました。",
             "歩[ある]きながらスマホを見[み]ないでください。",
-            "雨[あめ]が降[お]りながら、彼女[かのじょ]は歌[うた]った。"
+            "雨[あめ]が降[ふ]りながら、彼女[かのじょ]は歌[うた]った。"
           ],
           "correctIndex": 3,
-          "explanation": "雨[あめ]が降[お]りながら、彼女[かのじょ]は歌[うた]った has different subjects: 雨[あめ] (rain) and 彼女[かのじょ] (she). ながら requires the same actor. Use あいだに for different subjects."
+          "explanation": "雨[あめ]が降[ふ]りながら、彼女[かのじょ]は歌[うた]った has different subjects: 雨[あめ] (rain) and 彼女[かのじょ] (she). ながら requires the same actor. Use あいだに for different subjects."
         },
         {
           "id": "nagara_q5",
@@ -842,13 +842,13 @@
           "prompt": "Which means 'She watched the news while eating breakfast'?",
           "japanese": null,
           "choices": [
-            "朝[あさ]ご飯[めし]を食[た]べてから、ニュースを見[み]ました。",
-            "朝[あさ]ご飯[めし]を食[た]べながら、ニュースを見[み]ました。",
-            "朝[あさ]ご飯[めし]を食[た]べているあいだに、ニュースを見[み]ました。",
-            "朝[あさ]ご飯[めし]の前[まえ]に、ニュースを見[み]ました。"
+            "朝[あさ]ご飯[はん]を食[た]べてから、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]を食[た]べながら、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]を食[た]べているあいだに、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]の前[まえ]に、ニュースを見[み]ました。"
           ],
           "correctIndex": 1,
-          "explanation": "食[た]べながら = while eating (same person, simultaneous). 朝[あさ]ご飯[めし]を食[た]べながら、ニュースを見[み]ました = watched the news while eating breakfast."
+          "explanation": "食[た]べながら = while eating (same person, simultaneous). 朝[あさ]ご飯[はん]を食[た]べながら、ニュースを見[み]ました = watched the news while eating breakfast."
         },
         {
           "id": "nagara_q13",
@@ -989,7 +989,7 @@
           "english": "I ended up eating too many sweets."
         },
         {
-          "japanese": "今夜[こんや]中[なか]に宿題[しゅくだい]をしてしまいます。",
+          "japanese": "今夜[こんや]中[じゅう]に宿題[しゅくだい]をしてしまいます。",
           "romaji": "Konya juu ni shukudai wo shite shimaimasu.",
           "english": "I'll go ahead and get all my homework done tonight."
         },
@@ -1079,12 +1079,12 @@
           "japanese": null,
           "choices": [
             "皿[さら]を割[わ]りました。",
-            "皿[さら]を割[さ]ってしまいました。",
-            "皿[さら]を割[さ]ってみました。",
-            "皿[さら]を割[さ]っちゃった。"
+            "皿[さら]を割[わ]ってしまいました。",
+            "皿[さら]を割[わ]ってみました。",
+            "皿[さら]を割[わ]っちゃった。"
           ],
           "correctIndex": 3,
-          "explanation": "〜ちゃった is the casual contraction of 〜てしまった. 割[わ]る → 割[さ]って + しまった → 割[さ]っちゃった = I (accidentally) broke ."
+          "explanation": "〜ちゃった is the casual contraction of 〜てしまった. 割[わ]る → 割[わ]って + しまった → 割[わ]っちゃった = I (accidentally) broke ."
         },
         {
           "id": "te-shimau_q7",
@@ -1107,7 +1107,7 @@
           "japanese": null,
           "choices": [
             "財布[さいふ]をなくしてしまいました。",
-            "怒[いか]ってしまいました。",
+            "怒[おこ]ってしまいました。",
             "秘密[ひみつ]を話[はな]してしまいました。",
             "宿題[しゅくだい]を全部[ぜんぶ]やってしまいました。"
           ],
@@ -1145,8 +1145,8 @@
         {
           "id": "te-shimau_q11",
           "type": "fillBlank",
-          "prompt": "Fill in the blank: 彼[か]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。(I ended up laughing at his story.)",
-          "japanese": "彼[か]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。",
+          "prompt": "Fill in the blank: 彼[かれ]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。(I ended up laughing at his story.)",
+          "japanese": "彼[かれ]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。",
           "choices": [
             "た",
             "て",
@@ -1190,10 +1190,10 @@
           "prompt": "Which means 'I accidentally sent the email to the wrong person' (with regret)?",
           "japanese": null,
           "choices": [
-            "間違[まちが]った人[にん]にメールを送[おく]りました。",
-            "間違[まちが]った人[にん]にメールを送[おく]ってしまいました。",
-            "間違[まちが]った人[にん]にメールを送[おく]ってみました。",
-            "間違[まちが]った人[にん]にメールを送[おく]っておきました。"
+            "間違[まちが]った人[ひと]にメールを送[おく]りました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]ってしまいました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]ってみました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]っておきました。"
           ],
           "correctIndex": 1,
           "explanation": "〜てしまいました = accidentally did / unfortunately did. 送[おく]ってしまいました = accidentally sent. Option 1 is plain past with no regret nuance."
@@ -1274,7 +1274,7 @@
           "prompt": "Which sentence does NOT use てしまう appropriately?",
           "japanese": null,
           "choices": [
-            "お金[きん]を全部[ぜんぶ]使[つか]ってしまいました。",
+            "お金[かね]を全部[ぜんぶ]使[つか]ってしまいました。",
             "財布[さいふ]を忘[わす]れてしまいました。",
             "明日[あした]も頑張[がんば]ってしまいます。",
             "電車[でんしゃ]に乗[の]り遅[おく]れてしまいました。"
@@ -1304,7 +1304,7 @@
           "english": "I should have studied earlier."
         },
         {
-          "japanese": "傘[かさ]を持[も]って来[こ]ればよかった。",
+          "japanese": "傘[かさ]を持[も]って来[く]ればよかった。",
           "romaji": "Kasa wo motte kureba yokatta.",
           "english": "I should have brought an umbrella."
         },
@@ -1440,13 +1440,13 @@
           "prompt": "What is the ば-form of 来[く]る (to come)?",
           "japanese": null,
           "choices": [
-            "来[こ]れば",
+            "来[く]れば",
             "きれば",
             "これば",
             "こなければ"
           ],
           "correctIndex": 0,
-          "explanation": "Irregular くる: ば-form is くれば. 来[こ]ればよかった = I should have come. Must be memorized."
+          "explanation": "Irregular くる: ば-form is くれば. 来[く]ればよかった = I should have come. Must be memorized."
         },
         {
           "id": "ba-yokatta_q10",

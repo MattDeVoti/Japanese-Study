@@ -23,7 +23,7 @@
           "english": "Although I studied abroad, my English proficiency didn't improve much."
         },
         {
-          "japanese": "謝[あやま]ったものの、相手[あいて]はまだ怒[いか]っているようでした。",
+          "japanese": "謝[あやま]ったものの、相手[あいて]はまだ怒[おこ]っているようでした。",
           "romaji": "Ayamatta mono no, aite wa mada okotte iru you deshita.",
           "english": "Although I apologized, the other person still seemed angry."
         },
@@ -507,13 +507,13 @@
           "prompt": "Which means 'Although it's winter, it's unusually warm today'?",
           "japanese": null,
           "choices": [
-            "冬[ふゆ]とはいえ、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
-            "冬[ふゆ]だが、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
-            "冬[ふゆ]とはいっても、今日[こんにち]は珍[めずら]しく暖[あたた]かい。",
-            "冬[ふゆ]ものの、今日[こんにち]は珍[めずら]しく暖[あたた]かい。"
+            "冬[ふゆ]とはいえ、今日[きょう]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]だが、今日[きょう]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]とはいっても、今日[きょう]は珍[めずら]しく暖[あたた]かい。",
+            "冬[ふゆ]ものの、今日[きょう]は珍[めずら]しく暖[あたた]かい。"
           ],
           "correctIndex": 0,
-          "explanation": "Noun + とはいえ: 冬[ふゆ] + とはいえ = although it's winter. 今日[こんにち]は珍[めずら]しく暖[あたた]かい = today is unusually warm. Classic seasonal contrast."
+          "explanation": "Noun + とはいえ: 冬[ふゆ] + とはいえ = although it's winter. 今日[きょう]は珍[めずら]しく暖[あたた]かい = today is unusually warm. Classic seasonal contrast."
         },
         {
           "id": "to-wa-ie_q12",
@@ -622,7 +622,7 @@
             "古[ふる]い建物[たてもの]とはいえ、よく維持[いじ]されている。",
             "古[ふる]い建物[たてもの]だが、よく維持[いじ]されている。",
             "古[ふる]い建物[たてもの]とはいっても、よく維持[いじ]されている。",
-            "古[ふる]い建物[たて]ものの、よく維持[いじ]されている。"
+            "古[ふる]い建物[たてもの]ものの、よく維持[いじ]されている。"
           ],
           "correctIndex": 0,
           "explanation": "い-adj + noun + とはいえ: 古[ふる]い建物[たてもの] + とはいえ = although it's an old building. よく維持[いじ]されている = well maintained. Age conceded; good condition noted as a contrast."
@@ -869,13 +869,13 @@
           "prompt": "Which correctly says 'Because the question was too difficult, no one could answer'?",
           "japanese": null,
           "choices": [
-            "問題[もんだい]が難[むつか]しすぎるものだから、誰[だれ]も答[こた]えられなかった。",
-            "問題[もんだい]が難[むつか]しすぎたから、誰[だれ]も答[こた]えられなかった。",
-            "問題[もんだい]が難[むつか]しすぎたので、誰[だれ]も答[こた]えられなかった。",
-            "問題[もんだい]が難[むつか]しすぎたけれど、誰[だれ]も答[こた]えられなかった。"
+            "問題[もんだい]が難[むずか]しすぎるものだから、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むずか]しすぎたから、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むずか]しすぎたので、誰[だれ]も答[こた]えられなかった。",
+            "問題[もんだい]が難[むずか]しすぎたけれど、誰[だれ]も答[こた]えられなかった。"
           ],
           "correctIndex": 0,
-          "explanation": "い-adj + ものだから: 難[むつか]しすぎる + ものだから = because it's too difficult. 誰[だれ]も答[こた]えられなかった = no one could answer. ものだから explains the universal failure with an explanatory nuance."
+          "explanation": "い-adj + ものだから: 難[むずか]しすぎる + ものだから = because it's too difficult. 誰[だれ]も答[こた]えられなかった = no one could answer. ものだから explains the universal failure with an explanatory nuance."
         },
         {
           "id": "mono-da-kara_q15",

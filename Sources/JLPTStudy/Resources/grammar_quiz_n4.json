@@ -495,10 +495,10 @@
     "prompt": "Expressing regret: ‘I ended up eating the whole cake (oops).’",
     "japanese": null,
     "choices": [
-      "ケーキを全部食[た]べてしまいました。",
-      "ケーキを全部食[た]べておきました。",
-      "ケーキを全部食[た]べてあります。",
-      "ケーキを全部食[た]べています。"
+      "ケーキを全部[ぜんぶ]食[た]べてしまいました。",
+      "ケーキを全部[ぜんぶ]食[た]べておきました。",
+      "ケーキを全部[ぜんぶ]食[た]べてあります。",
+      "ケーキを全部[ぜんぶ]食[た]べています。"
     ],
     "correctIndex": 0,
     "explanation": "～てしまう shows completion often with regret (‘ended up…’). ～ておく = do in advance, ～てある = leave in a state — neither carries the ‘oops/finished it all’ feeling."
@@ -845,10 +845,10 @@
     "prompt": "‘I was made to wait for an hour (by someone).’",
     "japanese": null,
     "choices": [
-      "一時間待[ま]たされました。",
-      "一時間待[ま]たせました。",
-      "一時間待[ま]たれました。",
-      "一時間待[ま]てました。"
+      "一時間[いちじかん]待[ま]たされました。",
+      "一時間[いちじかん]待[ま]たせました。",
+      "一時間[いちじかん]待[ま]たれました。",
+      "一時間[いちじかん]待[ま]てました。"
     ],
     "correctIndex": 0,
     "explanation": "Causative-passive 待たされる = ‘be made to wait’ (unwilling). 待たせる is causative (‘make wait’), 待たれる passive, 待てる potential — only the causative-passive shows you were forced."

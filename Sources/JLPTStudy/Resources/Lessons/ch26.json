@@ -8,10 +8,10 @@
       "name": "〜らしい (rashii) — apparently / I hear that / seems like",
       "shortDescription": "Inference from hearsay or indirect evidence ('apparently / I hear that') — and characteristic typicality ('truly X-like').",
       "formation": "Plain form + らしい  |  Noun / な-adj stem + らしい",
-      "explanation": "らしい is a double-duty word with two quite different jobs.\n\nUse 1 — inference from hearsay or indirect evidence: 田中[たなか]さんは来月[らいげつ]結婚[けっこん]するらしいです ('Apparently Tanaka-san is getting married next month'). You didn't witness this directly — you heard it from someone, read it somewhere, or pieced it together from indirect signs. The key: your evidence is external, not first-hand.\n\nThis puts らしい in an interesting spot among the inference expressions you know. The quick map: appearance-based そうです (Ch13) = reacting to what you see directly right now. みたいだ (Ch17) = casual inference from observation or information. ようだ (Ch22) = careful, somewhat formal inference. らしい = inference specifically weighted toward hearsay or external/indirect evidence.\n\nFormation for Use 1: plain form + らしい (verbs and い-adj); noun/な-adj stem directly + らしい (no な or だ needed).\n\nUse 2 — characteristic typicality: noun + らしい creates an adjective meaning 'genuinely like' or 'truly characteristic of' that noun. 日本[にっぽん]らしい景色[けしき] (a truly Japanese scene), 先生[せんせい]らしい (like a proper teacher should be), 子[こ]どもらしい元気[げんき]さ (energy that is just like a child). This use isn't about uncertainty at all — it's about authentic embodiment of a quality.\n\nらしい itself is an い-adjective and conjugates: らしくない (doesn't seem / not typical of), らしかった (seemed / was typical of).",
+      "explanation": "らしい is a double-duty word with two quite different jobs.\n\nUse 1 — inference from hearsay or indirect evidence: 田中[たなか]さんは来月[らいげつ]結婚[けっこん]するらしいです ('Apparently Tanaka-san is getting married next month'). You didn't witness this directly — you heard it from someone, read it somewhere, or pieced it together from indirect signs. The key: your evidence is external, not first-hand.\n\nThis puts らしい in an interesting spot among the inference expressions you know. The quick map: appearance-based そうです (Ch13) = reacting to what you see directly right now. みたいだ (Ch17) = casual inference from observation or information. ようだ (Ch22) = careful, somewhat formal inference. らしい = inference specifically weighted toward hearsay or external/indirect evidence.\n\nFormation for Use 1: plain form + らしい (verbs and い-adj); noun/な-adj stem directly + らしい (no な or だ needed).\n\nUse 2 — characteristic typicality: noun + らしい creates an adjective meaning 'genuinely like' or 'truly characteristic of' that noun. 日本[にほん]らしい景色[けしき] (a truly Japanese scene), 先生[せんせい]らしい (like a proper teacher should be), 子[こ]どもらしい元気[げんき]さ (energy that is just like a child). This use isn't about uncertainty at all — it's about authentic embodiment of a quality.\n\nらしい itself is an い-adjective and conjugates: らしくない (doesn't seem / not typical of), らしかった (seemed / was typical of).",
       "rules": [
         "Inference use: plain form + らしい = apparently / I hear that (based on hearsay or indirect evidence)",
-        "Characteristic use: Noun + らしい = truly like / typical of [noun] (日本[にっぽん]らしい = genuinely Japanese)",
+        "Characteristic use: Noun + らしい = truly like / typical of [noun] (日本[にほん]らしい = genuinely Japanese)",
         "Noun/な-adj stem attach directly to らしい — no な or だ before it",
         "らしい is an い-adjective: らしくない, らしかった, らしく (adverb form)",
         "Quick inference map: そうです (visual), みたいだ (casual), ようだ (formal), らしい (hearsay/indirect)"
@@ -28,7 +28,7 @@
           "english": "I hear this restaurant is very popular."
         },
         {
-          "japanese": "これぞ、日本[にっぽん]らしい景色[けしき]ですね。",
+          "japanese": "これぞ、日本[にほん]らしい景色[けしき]ですね。",
           "romaji": "Kore zo, Nihon rashii keshiki desu ne.",
           "english": "Now this is a truly Japanese scene, isn't it."
         },
@@ -201,10 +201,10 @@
           "prompt": "Which means 'That person is apparently a doctor'?",
           "japanese": null,
           "choices": [
-            "あの人[にん]は医者[いしゃ]のようです。",
-            "あの人[にん]は医者[いしゃ]らしいです。",
-            "あの人[にん]は医者[いしゃ]みたいです。",
-            "あの人[にん]は医者[いしゃ]そうです。"
+            "あの人[ひと]は医者[いしゃ]のようです。",
+            "あの人[ひと]は医者[いしゃ]らしいです。",
+            "あの人[ひと]は医者[いしゃ]みたいです。",
+            "あの人[ひと]は医者[いしゃ]そうです。"
           ],
           "correctIndex": 1,
           "explanation": "Noun + らしい: 医者[いしゃ] + らしいです = apparently a doctor / I hear  a doctor. らしい is natural for social/hearsay information about people."
@@ -437,13 +437,13 @@
           "prompt": "Which means 'I came to understand Japanese culture'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]の文化[ぶんか]を理解[りかい]するようにした。",
-            "日本[にっぽん]の文化[ぶんか]が理解[りかい]できるようになった。",
-            "日本[にっぽん]の文化[ぶんか]を理解[りかい]しようにした。",
-            "日本[にっぽん]の文化[ぶんか]が理解[りかい]するようになった。"
+            "日本[にほん]の文化[ぶんか]を理解[りかい]するようにした。",
+            "日本[にほん]の文化[ぶんか]が理解[りかい]できるようになった。",
+            "日本[にほん]の文化[ぶんか]を理解[りかい]しようにした。",
+            "日本[にほん]の文化[ぶんか]が理解[りかい]するようになった。"
           ],
           "correctIndex": 1,
-          "explanation": "Potential + ようになった: 理解[りかい]できる + ようになった = came to be able to understand. が marks the object with potential verbs. 日本[にっぽん]の文化[ぶんか]が理解[りかい]できるようになった = came to be able to understand Japanese culture."
+          "explanation": "Potential + ようになった: 理解[りかい]できる + ようになった = came to be able to understand. が marks the object with potential verbs. 日本[にほん]の文化[ぶんか]が理解[りかい]できるようになった = came to be able to understand Japanese culture."
         },
         {
           "id": "you-ni-naru_q7",
@@ -563,13 +563,13 @@
           "prompt": "Which correctly says 'I take care to save money every month'?",
           "japanese": null,
           "choices": [
-            "毎月[まいつき]お金[きん]を貯[た]めるようになった。",
-            "毎月[まいつき]お金[きん]を貯[た]められるようになった。",
-            "毎月[まいつき]お金[きん]を貯[た]めるようにしている。",
-            "毎月[まいつき]お金[きん]を貯[た]めるようにした。"
+            "毎月[まいつき]お金[かね]を貯[た]めるようになった。",
+            "毎月[まいつき]お金[かね]を貯[た]められるようになった。",
+            "毎月[まいつき]お金[かね]を貯[た]めるようにしている。",
+            "毎月[まいつき]お金[かね]を貯[た]めるようにした。"
           ],
           "correctIndex": 2,
-          "explanation": "ようにしている = make a point to / ongoing effort. 貯[た]める + ようにしている = am making a point to save. 毎月[まいつき]お金[きん]を貯[た]めるようにしている = I take care to save money every month (deliberate ongoing effort)."
+          "explanation": "ようにしている = make a point to / ongoing effort. 貯[た]める + ようにしている = am making a point to save. 毎月[まいつき]お金[かね]を貯[た]めるようにしている = I take care to save money every month (deliberate ongoing effort)."
         },
         {
           "id": "you-ni-naru_q16",
@@ -619,13 +619,13 @@
           "prompt": "Which correctly says 'I came to like Japanese music'?",
           "japanese": null,
           "choices": [
-            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった。",
-            "日本[にっぽん]の音楽[おんがく]が好[す]きなようになった。",
-            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようにした。",
-            "日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった。"
+            "日本[にほん]の音楽[おんがく]が好[す]きになるようになった。",
+            "日本[にほん]の音楽[おんがく]が好[す]きなようになった。",
+            "日本[にほん]の音楽[おんがく]が好[す]きになるようにした。",
+            "日本[にほん]の音楽[おんがく]が好[す]きになるようになった。"
           ],
           "correctIndex": 3,
-          "explanation": "好[す]きになる (to come to like) + ようになった = came to like (doubly gradual change). 日本[にっぽん]の音楽[おんがく]が好[す]きになるようになった = came to like Japanese music. Both 0 and 3 are the same text; correctIndex=3 as labeled."
+          "explanation": "好[す]きになる (to come to like) + ようになった = came to like (doubly gradual change). 日本[にほん]の音楽[おんがく]が好[す]きになるようになった = came to like Japanese music. Both 0 and 3 are the same text; correctIndex=3 as labeled."
         },
         {
           "id": "you-ni-naru_q20",
@@ -674,7 +674,7 @@
         },
         {
           "japanese": "スマホを見[み]すぎないようにしているんですが、難[むずか]しいです。",
-          "romaji": "Sumaho wo misugina you ni shite iru n desu ga, muzukashii desu.",
+          "romaji": "Sumaho wo misuginai you ni shite iru n desu ga, muzukashii desu.",
           "english": "I'm trying not to look at my phone too much, but it's difficult."
         }
       ],
@@ -841,13 +841,13 @@
           "prompt": "Which correctly says 'I'll make a point to save money'?",
           "japanese": null,
           "choices": [
-            "お金[きん]を貯[た]めるようになる。",
-            "お金[きん]を貯[た]めるようにする。",
-            "お金[きん]を貯[た]められるようになる。",
-            "お金[きん]を貯[た]めるようにした。"
+            "お金[かね]を貯[た]めるようになる。",
+            "お金[かね]を貯[た]めるようにする。",
+            "お金[かね]を貯[た]められるようになる。",
+            "お金[かね]を貯[た]めるようにした。"
           ],
           "correctIndex": 1,
-          "explanation": "ようにする = will make a point to (future intention). 貯[た]める + ようにする = will make a point to save. お金[きん]を貯[た]めるようにする = I'll make a point to save money."
+          "explanation": "ようにする = will make a point to (future intention). 貯[た]める + ようにする = will make a point to save. お金[かね]を貯[た]めるようにする = I'll make a point to save money."
         },
         {
           "id": "you-ni-suru_q13",
@@ -941,7 +941,7 @@
           "choices": [
             "子供[こども]が無料[むりょう]で入[い]れるようになった。",
             "子供[こども]が無料[むりょう]で入[い]れるようにした。",
-            "子供[こども]が無料[むりょう]で入[い]るようにした。",
+            "子供[こども]が無料[むりょう]で入[はい]るようにした。",
             "子供[こども]が無料[むりょう]で入[い]られるようにした。"
           ],
           "correctIndex": 1,

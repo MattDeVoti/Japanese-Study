@@ -140,7 +140,7 @@
           "id": "aru-iru_q8",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "財布[さいふ]の中[なか]にお金[きん]がありません。",
+          "japanese": "財布[さいふ]の中[なか]にお金[かね]がありません。",
           "choices": [
             "There is money in the wallet.",
             "The wallet is not in the money.",
@@ -148,7 +148,7 @@
             "There is no wallet."
           ],
           "correctIndex": 2,
-          "explanation": "ありません is the negative of あります — 'does not exist / is not there.' 財布[さいふ]の中[なか]に = inside the wallet; お金[きん]が = money (subject); ありません = is not there. Together: 'There is no money in the wallet.'"
+          "explanation": "ありません is the negative of あります — 'does not exist / is not there.' 財布[さいふ]の中[なか]に = inside the wallet; お金[かね]が = money (subject); ありません = is not there. Together: 'There is no money in the wallet.'"
         },
         {
           "id": "aru-iru_q9",
@@ -555,7 +555,7 @@
           "id": "location-words_q15",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "建物[たても]の外[そと]に人[にん]がいます。",
+          "japanese": "建物[たてもの]の外[そと]に人[ひと]がいます。",
           "choices": [
             "There is a person inside the building.",
             "There is a person outside the building.",
@@ -563,7 +563,7 @@
             "There are people in front of the building."
           ],
           "correctIndex": 1,
-          "explanation": "外[そと] (そと) means 'outside.' 建物[たても]の外[そと]に = outside the building (reference noun + の + location word + に); 人[にん]が = person/people; います = exists there (animate). Together: 'There is a person outside the building.' 中[なか] (なか) would mean inside."
+          "explanation": "外[そと] (そと) means 'outside.' 建物[たてもの]の外[そと]に = outside the building (reference noun + の + location word + に); 人[ひと]が = person/people; います = exists there (animate). Together: 'There is a person outside the building.' 中[なか] (なか) would mean inside."
         },
         {
           "id": "location-words_q16",
@@ -871,7 +871,7 @@
           "id": "to-and_q15",
           "type": "translation",
           "prompt": "What does this sentence mean?",
-          "japanese": "弟[おとう]と一緒[いっしょ]に買[か]い物[もの]に行[い]きました。",
+          "japanese": "弟[おとうと]と一緒[いっしょ]に買[か]い物[もの]に行[い]きました。",
           "choices": [
             "I went shopping for my younger brother.",
             "I went shopping together with my younger brother.",
@@ -879,7 +879,7 @@
             "I went shopping but my younger brother didn't."
           ],
           "correctIndex": 1,
-          "explanation": "弟[おとう]と = 'with my younger brother' (と for companionship); 一緒[いっしょ]に = 'together' (an adverb often used alongside と for extra emphasis); 買[か]い物[もの]に行[い]きました = 'went shopping.' Together: 'I went shopping together with my younger brother.' 一緒[いっしょ]に reinforces the と but does not change the grammar."
+          "explanation": "弟[おとうと]と = 'with my younger brother' (と for companionship); 一緒[いっしょ]に = 'together' (an adverb often used alongside と for extra emphasis); 買[か]い物[もの]に行[い]きました = 'went shopping.' Together: 'I went shopping together with my younger brother.' 一緒[いっしょ]に reinforces the と but does not change the grammar."
         },
         {
           "id": "to-and_q16",
@@ -1275,7 +1275,7 @@
       "name": "どのくらい / どれくらい — how long / how much",
       "shortDescription": "Asks about duration, distance, or quantity.",
       "formation": "どのくらい + かかりますか  |  どのくらい + Verb",
-      "explanation": "どのくらい (also spelled どれくらい — both are correct and interchangeable) asks about the extent or scale of something: 'how long,' 'how far,' 'how much,' or 'how many,' depending on context. The most common use for beginners is asking about time with the verb かかります (to take / to require). どのくらいかかりますか means 'How long does it take?' — ask it about commutes, cooking time, study sessions, anything time-related. To answer, use a time expression followed by かかります: 三十[さんじゅう]分[わ]かかります (It takes thirty minutes).\n\nAdding ぐらい or くらい after a number means 'about' or 'approximately': 三十[さんじゅう]分[ふん]ぐらいかかります = 'It takes about thirty minutes.' This softened, approximate phrasing is very natural and common in Japanese conversation — giving a rough estimate often sounds more native than a precise number.",
+      "explanation": "どのくらい (also spelled どれくらい — both are correct and interchangeable) asks about the extent or scale of something: 'how long,' 'how far,' 'how much,' or 'how many,' depending on context. The most common use for beginners is asking about time with the verb かかります (to take / to require). どのくらいかかりますか means 'How long does it take?' — ask it about commutes, cooking time, study sessions, anything time-related. To answer, use a time expression followed by かかります: 三十分[さんじゅっぷん]かかります (It takes thirty minutes).\n\nAdding ぐらい or くらい after a number means 'about' or 'approximately': 三十分[さんじゅっぷん]ぐらいかかります = 'It takes about thirty minutes.' This softened, approximate phrasing is very natural and common in Japanese conversation — giving a rough estimate often sounds more native than a precise number.",
       "rules": [
         "どのくらい = how long / how far / how much (asks about extent or scale)",
         "Most common pattern: どのくらいかかりますか = How long does it take?",
@@ -1466,11 +1466,11 @@
           "choices": [
             "空港[くうこう]です。",
             "バスで行[い]きます。",
-            "四十[しじゅう]分[ふん]ぐらいかかります。",
+            "四十分[よんじゅっぷん]ぐらいかかります。",
             "遠[とお]いです。"
           ],
           "correctIndex": 2,
-          "explanation": "どのくらいかかりますか asks how long it takes. The expected answer gives a time duration followed by かかります: 四十[しじゅう]分[ふん]ぐらいかかります = 'It takes about forty minutes.' 空港[くうこう]です just names the airport; バスで行[い]きます says how you travel; 遠[とお]いです says 'it's far' — none of these directly answers the 'how long' question."
+          "explanation": "どのくらいかかりますか asks how long it takes. The expected answer gives a time duration followed by かかります: 四十分[よんじゅっぷん]ぐらいかかります = 'It takes about forty minutes.' 空港[くうこう]です just names the airport; バスで行[い]きます says how you travel; 遠[とお]いです says 'it's far' — none of these directly answers the 'how long' question."
         },
         {
           "id": "dono-kurai_q13",
@@ -1504,7 +1504,7 @@
           "id": "dono-kurai_q15",
           "type": "translation",
           "prompt": "What does this answer convey?",
-          "japanese": "駅[えき]まで、歩[ある]いて十分[じゅうぶん]ぐらいかかります。",
+          "japanese": "駅[えき]まで、歩[ある]いて十分[じゅっぷん]ぐらいかかります。",
           "choices": [
             "The station is about ten stops away.",
             "It takes about ten minutes to walk to the station.",
@@ -1512,7 +1512,7 @@
             "I walk to the station every ten minutes."
           ],
           "correctIndex": 1,
-          "explanation": "歩[ある]いて = 'on foot / by walking' (te-form of 歩[ある]く); 十分[じゅうぶん]ぐらい = 'about ten minutes'; かかります = 'it takes.' This is a standard answer to どのくらいかかりますか — first specifying the travel mode (歩[ある]いて), then the approximate time (十分[じゅうぶん]ぐらい). Together: 'It takes about ten minutes to walk to the station.'"
+          "explanation": "歩[ある]いて = 'on foot / by walking' (te-form of 歩[ある]く); 十分[じゅっぷん]ぐらい = 'about ten minutes'; かかります = 'it takes.' This is a standard answer to どのくらいかかりますか — first specifying the travel mode (歩[ある]いて), then the approximate time (十分[じゅっぷん]ぐらい). Together: 'It takes about ten minutes to walk to the station.'"
         },
         {
           "id": "dono-kurai_q16",
@@ -1526,7 +1526,7 @@
             "Yes — but only with distance, not with counts or money"
           ],
           "correctIndex": 2,
-          "explanation": "ぐらい/くらい means 'approximately' and can follow any quantity: 十分[じゅうぶん]ぐらい (about 10 minutes), 三[さん]キロぐらい (about 3 km), 千円[せんえん]ぐらい (about 1000 yen), 五人[ごにん]ぐらい (about 5 people). It is a general approximation marker — not limited to time expressions. The two spellings ぐらい and くらい are freely interchangeable."
+          "explanation": "ぐらい/くらい means 'approximately' and can follow any quantity: 十分[じゅっぷん]ぐらい (about 10 minutes), 三[さん]キロぐらい (about 3 km), 千円[せんえん]ぐらい (about 1000 yen), 五人[ごにん]ぐらい (about 5 people). It is a general approximation marker — not limited to time expressions. The two spellings ぐらい and くらい are freely interchangeable."
         },
         {
           "id": "dono-kurai_q17",
@@ -1568,7 +1568,7 @@
             "When do you exercise every day?"
           ],
           "correctIndex": 1,
-          "explanation": "どのくらい asks about the extent or duration of the action. 毎日[まいにち] = every day; 運動[うんどう]します = exercise. Together: 'How long/how much do you exercise every day?' A natural answer would be 三十[さんじゅう]分[ふん]ぐらい運動[うんどう]します (I exercise for about thirty minutes) or 一時間[いちじかん]ぐらいします (about an hour)."
+          "explanation": "どのくらい asks about the extent or duration of the action. 毎日[まいにち] = every day; 運動[うんどう]します = exercise. Together: 'How long/how much do you exercise every day?' A natural answer would be 三十分[さんじゅっぷん]ぐらい運動[うんどう]します (I exercise for about thirty minutes) or 一時間[いちじかん]ぐらいします (about an hour)."
         },
         {
           "id": "dono-kurai_q20",

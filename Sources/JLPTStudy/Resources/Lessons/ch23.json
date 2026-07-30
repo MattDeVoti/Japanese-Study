@@ -243,13 +243,13 @@
           "prompt": "Which correctly says 'The way he speaks is strange'?",
           "japanese": null,
           "choices": [
-            "彼[か]の話[はな]すことは変[へん]です。",
-            "彼[か]の話[はな]し方[かた]は変[へん]です。",
-            "彼[か]の話[はな]す方[かた]は変[へん]です。",
+            "彼[かれ]の話[はな]すことは変[へん]です。",
+            "彼[かれ]の話[はな]し方[かた]は変[へん]です。",
+            "彼[かれ]の話[はな]す方[かた]は変[へん]です。",
             "彼[かれ]に話[はな]し方[かた]は変[へん]です。"
           ],
           "correctIndex": 1,
-          "explanation": "〜の + masu-stem + 方[ほう] = 's way of -ing. 話[はな]す → 話[はな]し (masu-stem) + 方[ほう] = 話[はな]し方[かた]. 彼[か]の話[はな]し方[かた] = his way of speaking."
+          "explanation": "〜の + masu-stem + 方[ほう] = 's way of -ing. 話[はな]す → 話[はな]し (masu-stem) + 方[ほう] = 話[はな]し方[かた]. 彼[かれ]の話[はな]し方[かた] = his way of speaking."
         },
         {
           "id": "kata_q16",
@@ -507,13 +507,13 @@
           "prompt": "Which correctly says 'This door cannot be opened'?",
           "japanese": null,
           "choices": [
-            "このドアを開[ひら]くことができません。",
-            "このドアが開[ひら]くことができません。",
+            "このドアを開[あ]くことができません。",
+            "このドアが開[あ]くことができません。",
             "このドアで開[ひら]くことができません。",
             "このドアに開[ひら]くことができません。"
           ],
           "correctIndex": 0,
-          "explanation": "を + dict-form + ことができません: このドアを開[ひら]くことができません = this door cannot be opened. を marks the physical object of the action."
+          "explanation": "を + dict-form + ことができません: このドアを開[あ]くことができません = this door cannot be opened. を marks the physical object of the action."
         },
         {
           "id": "koto-ga-dekiru_q12",
@@ -786,13 +786,13 @@
           "prompt": "Which means 'May I open the window?'",
           "japanese": null,
           "choices": [
-            "窓[まど]を開[ひら]けてもいいですか。",
-            "窓[まど]を開[ひら]けていいですか。",
-            "窓[まど]を開[ひら]けることができますか。",
-            "窓[まど]が開[ひら]けてもいいですか。"
+            "窓[まど]を開[あ]けてもいいですか。",
+            "窓[まど]を開[あ]けていいですか。",
+            "窓[まど]を開[あ]けることができますか。",
+            "窓[まど]が開[あ]けてもいいですか。"
           ],
           "correctIndex": 0,
-          "explanation": "〜てもいいですか = may I / is it alright if I ? 開[ひら]けてもいいですか = may I open it? This is the standard polite request for permission."
+          "explanation": "〜てもいいですか = may I / is it alright if I ? 開[あ]けてもいいですか = may I open it? This is the standard polite request for permission."
         },
         {
           "id": "temo_q9",
@@ -912,10 +912,10 @@
           "prompt": "Which correctly says 'You may leave early today'?",
           "japanese": null,
           "choices": [
-            "今日[こんにち]は早[はや]く帰[かえ]ってもいいですよ。",
-            "今日[こんにち]は早[はや]く帰[かえ]ってもだめです。",
-            "今日[こんにち]は早[はや]く帰[かえ]ってもいいですか。",
-            "今日[こんにち]は早[はや]く帰[かえ]ってもいけません。"
+            "今日[きょう]は早[はや]く帰[かえ]ってもいいですよ。",
+            "今日[きょう]は早[はや]く帰[かえ]ってもだめです。",
+            "今日[きょう]は早[はや]く帰[かえ]ってもいいですか。",
+            "今日[きょう]は早[はや]く帰[かえ]ってもいけません。"
           ],
           "correctIndex": 0,
           "explanation": "〜てもいいですよ = giving permission. 帰[かえ]る → 帰[かえ]って + もいいですよ = you may go home. よ adds the nuance of 'I'm telling you it's okay'."
