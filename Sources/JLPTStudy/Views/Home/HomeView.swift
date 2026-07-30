@@ -27,28 +27,27 @@ struct HomeView: View {
             PatternedBackground(.home)
 
             VStack(spacing: 0) {
-                // Slack collects here rather than in the middle of the screen, so
-                // the title gets breathing room at the top instead of a big hole
-                // between the tiles and the shortcut row.
-                Spacer(minLength: 0)
+                // Capped, so the title sits a little below the status bar without
+                // the whole surplus piling up above it.
+                Spacer().frame(maxHeight: 48)
 
-                // App title (Japanese + romaji), near the top now that the help and
-                // options buttons have moved down out of its way.
                 VStack(spacing: 4) {
                     GlowingTitle {
                         GameUnlocks.shared.unlock(.kanjiInvaders)
                         showGame = true
                     }
                     Text("OMEDETOU")
-                        .font(.system(size: 15, weight: .heavy))
-                        .tracking(6)
+                        .font(.system(size: 16.5, weight: .heavy))
+                        .tracking(6.6)
                         .foregroundStyle(LinearGradient.appAccentSweep)
                         .opacity(0.85)
                 }
                 .frame(maxWidth: .infinity)
-                .padding(.top, 10)
+                .padding(.top, 14)
 
-                Spacer().frame(height: 24)
+                // The only uncapped gap on the screen: spare height collects here,
+                // under the title, while the spacers above and below it are capped.
+                Spacer(minLength: 24)
 
                 // The graded track is the headline; reviews sit under it as the
                 // tool you use to prepare, not as an obligation of their own.
@@ -99,7 +98,7 @@ struct HomeView: View {
                 }
                 .padding(.horizontal, 24)
 
-                Spacer(minLength: 14).frame(maxHeight: 34)
+                Spacer().frame(minHeight: 18, maxHeight: 40)
 
                 // Particles + the three chart shortcuts. All four wear the Check
                 // button's treatment — accent ring over a barely-there tint with a
@@ -108,14 +107,6 @@ struct HomeView: View {
                 // these views have no other inputs, and SwiftUI would otherwise
                 // memoize them and keep the previous theme's colour.
                 let chip = Color.readableOnPage(.appAccent)
-
-                NavigationLink {
-                    ParticlesView()
-                } label: {
-                    AccentPill(title: "Particles", accent: chip)
-                }
-                .buttonStyle(.plain)
-                .padding(.bottom, 18)
 
                 HStack(spacing: 24) {
                     NavigationLink {
@@ -139,25 +130,42 @@ struct HomeView: View {
                     }
                     .buttonStyle(.plain)
                 }
-                .padding(.bottom, 22)
+                .padding(.bottom, 18)
 
-                // Help and options. They used to flank the title in the top
-                // corners; down here they aren't framing anything, so they sit as
-                // a close-set pair instead of being pushed out to the edges.
-                HStack(spacing: 20) {
+                // Help and options ride the Particles line rather than taking a row
+                // of their own. The pill is narrow and that row was mostly empty
+                // margin, so this costs no height and keeps the two utility buttons
+                // out of the kana shortcuts' way.
+                HStack(spacing: 0) {
                     Button { showHelp = true } label: {
                         HomeCornerButton(icon: "questionmark", accent: chip)
+                            .frame(width: 46, height: 46)
+                            .contentShape(Circle())
                     }
                     .buttonStyle(.plain)
                     .accessibilityLabel("How to use the app")
 
+                    Spacer(minLength: 12)
+
+                    NavigationLink {
+                        ParticlesView()
+                    } label: {
+                        AccentPill(title: "Particles", accent: chip)
+                    }
+                    .buttonStyle(.plain)
+
+                    Spacer(minLength: 12)
+
                     Button { showOptions = true } label: {
                         HomeCornerButton(icon: "gearshape.fill", accent: chip)
+                            .frame(width: 46, height: 46)
+                            .contentShape(Circle())
                     }
                     .buttonStyle(.plain)
                     .accessibilityLabel("Options")
                 }
-                .padding(.bottom, 10)
+                .padding(.horizontal, 34)
+                .padding(.bottom, 22)
             }
         }
         .toolbar(.hidden, for: .navigationBar)

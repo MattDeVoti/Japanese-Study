@@ -151,9 +151,18 @@ final class ExamStore: ObservableObject {
         attempts(for: lessonId).contains { !$0.grade.isPass }
     }
 
-    var gpa: Double? { average(of: gradedTrack.map(\.id)) }
+    /// Averaged over the whole track, test-outs included. `gradedTrack` excludes
+    /// them, which meant someone who tested out of Hiragana had sat a real paper,
+    /// scored an A, and still saw no GPA at all. A test-out only ever carries a
+    /// grade once it's been taken (it gets no deadline, so it can't score an
+    /// overdue zero), so including it can't invent marks out of nothing.
+    var gpa: Double? { average(of: track.map(\.id)) }
 
-    func gpa(level: String) -> Double? { average(of: lessons(in: level).map(\.id)) }
+    func gpa(level: String) -> Double? {
+        var ids = lessons(in: level).map(\.id)
+        if let out = testOut(for: level) { ids.append(out.id) }
+        return average(of: ids)
+    }
 
     private func average(of lessonIds: [String]) -> Double? {
         let graded = lessonIds.compactMap { effectiveGrade(for: $0) }

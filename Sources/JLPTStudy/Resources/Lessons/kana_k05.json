@@ -212,16 +212,16 @@
     {
       "id": "k05_q2",
       "type": "multiple_choice",
-      "prompt": "Which katakana character is a single diagonal stroke?",
-      "japanese": null,
+      "prompt": "Which hiragana makes the same sound as the katakana ヌ?",
+      "japanese": "ヌ",
       "choices": [
-        "ナ",
-        "ニ",
-        "ノ",
-        "ネ"
+        "な",
+        "に",
+        "ぬ",
+        "ね"
       ],
       "correctIndex": 2,
-      "explanation": "ノ (no) is just one diagonal stroke — making it the simplest katakana character. It looks like a slash '/' and sounds like the 'no' in 'note'."
+      "explanation": "ヌ and ぬ are both read 'nu'. Katakana and hiragana are two ways of writing the same sounds, so every katakana has a hiragana partner — recognising the pair is what lets you read either script."
     },
     {
       "id": "k05_q3",

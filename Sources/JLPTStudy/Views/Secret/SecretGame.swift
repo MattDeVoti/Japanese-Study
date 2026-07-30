@@ -25,7 +25,7 @@ struct GlowingTitle: View {
         HStack(spacing: 2) {
             ForEach(letters.indices, id: \.self) { i in
                 Text(letters[i])
-                    .font(.system(size: 62, weight: .heavy))
+                    .font(.system(size: 68, weight: .heavy))
                     // Each letter takes its slice of one gradient, so the sweep
                     // runs across the whole word.
                     .foregroundColor(Color.appAccentSweepSample(
@@ -431,14 +431,31 @@ struct KanjiInvadersGame: View {
     // value — the upgrades keep mattering, but they never fully break the game.
     private var fireInterval: Int   { max(4, 20 - 2 * level(.rapid)) }
     private var pierceCount: Int    { level(.pierce) }
-    /// Base one-in-eight, widened by 幸.
-    private var dropChance: Double  { min(0.24, 0.062 + 0.028 * Double(level(.luck))) }
+    /// Base one-in-eight, widened by 幸, and halved at the very start of a run.
+    private var dropChance: Double {
+        min(0.24, 0.062 + 0.028 * Double(level(.luck))) * earlyDropScale
+    }
+    /// Drops come at half rate to begin with and reach full by the time the swarm
+    /// starts shooting back, so the opening isn't a shower of upgrades handed out
+    /// before anything is actually threatening the player.
+    private var earlyDropScale: Double {
+        min(1.0, 0.5 + 0.5 * escalationSeconds / Self.foeFireStart)
+    }
     /// Longest the player can go without a drop before the next kill guarantees one.
-    private static let pityFrames = 15 * 60
+    /// Stretched by the same factor early on — otherwise the pity timer would just
+    /// hand back the drops the halved rate withheld.
+    private var pityFrames: Int { Int(Double(Self.pityFramesBase) / earlyDropScale) }
+    private static let pityFramesBase = 15 * 60
     /// How long a given power sits out after dropping.
     private static let respawnFrames = 10 * 60
 
-    // The swarm's escalation clock, each stage 30s after the last.
+    /// The swarm escalates on its own clock, which runs at twice wall-clock time —
+    /// so every stage below arrives in half the real seconds its number suggests.
+    /// One knob instead of rewriting eight thresholds.
+    private static let escalationRate = 2.0
+    private var escalationSeconds: Double { Double(frame) / 60.0 * Self.escalationRate }
+
+    // The swarm's escalation clock, each stage 30s (of that clock) after the last.
     private static let foeFireStart   = 120.0   // they start shooting back
     private static let foeShieldStart = 150.0   // occasional single-layer armour
     private static let foeShieldTier2 = 180.0   // single every 5th, double every 10th
@@ -803,7 +820,7 @@ struct KanjiInvadersGame: View {
         // to move — an idle, centred ship can't clear them on its own.
         let drifts = Int.random(in: 0..<5) < 2
         spawnCount += 1
-        let armour = shieldLayers(spawnIndex: spawnCount, seconds: Double(frame) / 60.0)
+        let armour = shieldLayers(spawnIndex: spawnCount, seconds: escalationSeconds)
         enemies.append(Enemy(
             x: .random(in: 30...(size.width - 30)),
             y: .random(in: -40 ... 10),
@@ -908,13 +925,14 @@ struct KanjiInvadersGame: View {
     private func step() {
         guard !gameOver, size != .zero else { return }
         frame += 1
-        let seconds = Double(frame) / 60.0
-        // 0 at the start, 1 once the run is fully wound up (~2½ minutes in).
-        // Squared, so the opening stays calm and the pressure arrives late
-        // rather than immediately.
+        let seconds = escalationSeconds
+        // 0 at the start, 1 once the run is fully wound up — 112 on the escalation
+        // clock, so a little under a minute of real time. Squared, so the opening
+        // still starts calm even at the faster rate.
         let t = min(1.0, seconds / 112.0)
-        // Once the curve tops out the swarm keeps escalating: three more
-        // step-ups, 60s apart, each adding speed, spawn rate and headcount.
+        // Once the curve tops out the swarm keeps escalating: three more step-ups,
+        // 60 clock-seconds (30 real) apart, each adding speed, spawn rate and
+        // headcount.
         let extraSteps = max(0, min(3, Int((seconds - 120) / 60)))
         let speedUp = 1.0 + 1.42 * t * t + 0.22 * Double(extraSteps)
 
@@ -1054,7 +1072,7 @@ struct KanjiInvadersGame: View {
                     }
                     // Normally a random drop, but a long dry spell guarantees the
                     // next one — so upgrades keep arriving even on a cold streak.
-                    let overdue = frame - lastDropFrame > Self.pityFrames
+                    let overdue = frame - lastDropFrame > pityFrames
                     if overdue || Double.random(in: 0..<1) < dropChance,
                        let p = randomDrop() {
                         drops.append(Drop(x: e.x, y: e.y, power: p))
