@@ -148,7 +148,7 @@ extension AppTheme {
     /// theme to `catalogue` needs no change here, and an id that doesn't match
     /// simply isn't pinned rather than dropping the theme.
     private static let pinnedIds = [
-        "vaporwave", "aurora", "ember", "volt", "nebula", "sunset",
+        "sunset", "vaporwave", "aurora", "ember", "volt", "nebula",
         "cotton_candy", "bubblegum", "electric", "inkwash", "koi",
         "sunburst", "lime", "aqua", "sakura", "neon_tokyo",
         "pop", "suika", "deep_sea", "gold",
@@ -183,7 +183,8 @@ extension AppTheme {
     ]
 
     /// What a brand-new install opens with, before any theme has been chosen.
-    static let fallback = AppTheme.neonTokyo
+    /// Also first in the picker — `pinnedIds` leads with the same id.
+    static let fallback = AppTheme.sunset
 }
 
 // Module-level variable read by Color.appBackground / appNavBar / appNavBarText.

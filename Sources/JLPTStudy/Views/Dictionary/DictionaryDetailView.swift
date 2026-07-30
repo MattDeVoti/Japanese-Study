@@ -37,6 +37,14 @@ struct DictionaryDetailView: View {
                         .padding(.top, 20)
                         .padding(.leading, 20)
 
+                        // Audio (top-right, mirroring the star)
+                        HStack {
+                            Spacer()
+                            SpeakButton(text: entry.reading ?? entry.word, size: 22)
+                        }
+                        .padding(.top, 14)
+                        .padding(.trailing, 14)
+
                         // Word + reading centered
                         VStack(spacing: 6) {
                             Text(entry.word)

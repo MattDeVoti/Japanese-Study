@@ -472,16 +472,20 @@ struct ExampleCard: View {
     let example: GrammarExample
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 3) {
-            FuriganaText(text: example.japanese, fontSize: 15)
-                .frame(maxWidth: .infinity, alignment: .leading)
-            Text(example.romaji)
-                .font(.system(size: 12))
-                .foregroundColor(.appTextSecondary)
-                .italic()
-            Text(example.english)
-                .font(.system(size: 12, weight: .medium))
-                .foregroundColor(.appTextSecondary)
+        HStack(alignment: .top, spacing: 6) {
+            VStack(alignment: .leading, spacing: 3) {
+                FuriganaText(text: example.japanese, fontSize: 15)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Text(example.romaji)
+                    .font(.system(size: 12))
+                    .foregroundColor(.appTextSecondary)
+                    .italic()
+                Text(example.english)
+                    .font(.system(size: 12, weight: .medium))
+                    .foregroundColor(.appTextSecondary)
+            }
+            // The sentence's own furigana drives the pronunciation.
+            SpeakButton(text: example.japanese, size: 17)
         }
         .padding(10)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -507,7 +511,9 @@ struct StudyButtonLabel: View {
         .foregroundColor(.white)
         .frame(maxWidth: .infinity)
         .padding(.vertical, 14)
-        .background(accent)
+        .background(
+            accent.overlay(TileTexture(seed: title, opacity: 0.07))
+        )
         .cornerRadius(12)
     }
 }

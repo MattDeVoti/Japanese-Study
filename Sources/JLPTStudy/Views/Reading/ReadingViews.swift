@@ -140,6 +140,18 @@ struct ReadingDetailView: View {
                     VStack(alignment: .leading, spacing: 16) {
                         // Passage
                         VStack(alignment: .leading, spacing: 12) {
+                            // Listen to the whole passage — the annotations mean the
+                            // readings are correct, which makes this usable as a
+                            // listening exercise rather than a novelty.
+                            HStack(spacing: 4) {
+                                SpeakButton(text: paragraphs.joined(separator: "\n"),
+                                            size: 16, tint: accent)
+                                Text("Listen")
+                                    .font(.system(size: 12, weight: .semibold))
+                                    .foregroundColor(accent)
+                                Spacer()
+                            }
+
                             ForEach(Array(paragraphs.enumerated()), id: \.offset) { _, para in
                                 FuriganaText(text: para, fontSize: 18, color: .appText,
                                              interactive: true) { word, rect in

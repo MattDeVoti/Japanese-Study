@@ -5,16 +5,35 @@ struct HomeView: View {
     // Observed so the locked "???" tile flips to Games the moment one is found.
     @ObservedObject private var unlocks = GameUnlocks.shared
     @State private var showOptions = false
+    @State private var showHelp = false
     @State private var showGame = false
+
+    /// Main tiles are drawn at 85% of their old height to give the screen some air.
+    private static let tileScale: CGFloat = 0.85
+    private static let rowSpacing: CGFloat = 12
+
+    /// Full-width slabs, 15% shorter than they were.
+    private var slabHeight: CGFloat { (112 * Self.tileScale).rounded() }
+
+    /// Two rows of grid tiles occupy exactly the height of the three slabs, so the
+    /// screen doesn't jump when a game is found. They come out slightly wider than
+    /// tall, which fills the row better than a square did.
+    private var gridTileHeight: CGFloat {
+        (slabHeight * 3 + Self.rowSpacing * 2 - Self.rowSpacing) / 2
+    }
 
     var body: some View {
         ZStack {
             PatternedBackground(.home)
 
             VStack(spacing: 0) {
-                Spacer()
+                // Slack collects here rather than in the middle of the screen, so
+                // the title gets breathing room at the top instead of a big hole
+                // between the tiles and the shortcut row.
+                Spacer(minLength: 0)
 
-                // App title (Japanese + romaji)
+                // App title (Japanese + romaji), near the top now that the help and
+                // options buttons have moved down out of its way.
                 VStack(spacing: 4) {
                     GlowingTitle {
                         GameUnlocks.shared.unlock(.kanjiInvaders)
@@ -27,46 +46,60 @@ struct HomeView: View {
                         .opacity(0.85)
                 }
                 .frame(maxWidth: .infinity)
+                .padding(.top, 10)
 
-                Spacer().frame(height: 40)
+                Spacer().frame(height: 24)
+
+                // The graded track is the headline; reviews sit under it as the
+                // tool you use to prepare, not as an obligation of their own.
+                VStack(spacing: 8) {
+                    ExamHomeCard()
+                    ReviewHomeCard()
+                }
+                // Match the tiles exactly. The square grid carries an extra inset,
+                // so without this the bars overhang the buttons they sit above.
+                .padding(.horizontal, 24)
+                .padding(.bottom, 16)
 
                 // Main navigation — the signature gradient tiles, stacked full-width.
-                // (Journey is intentionally not surfaced here for now; JourneyView
-                // and its progress store are untouched.)
                 // Three full-width slabs normally. Finding a game adds a fourth
                 // destination, and the whole stack becomes a 2×2 grid of squares
                 // to make room — the new layout is itself part of the reward.
                 Group {
                     if unlocks.hasAny {
-                        LazyVGrid(columns: [GridItem(.flexible(), spacing: 12),
-                                            GridItem(.flexible(), spacing: 12)], spacing: 12) {
+                        LazyVGrid(columns: [GridItem(.flexible(), spacing: Self.rowSpacing),
+                                            GridItem(.flexible(), spacing: Self.rowSpacing)],
+                                  spacing: Self.rowSpacing) {
                             HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
                                         icon: "books.vertical.fill", color: .themeTile(0),
-                                        square: true) { LessonsView() }
+                                        square: true, height: gridTileHeight) { LessonsView() }
                             HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
                                         icon: "brain.head.profile", color: .themeTile(3),
-                                        square: true) { GrammarMenuView() }
+                                        square: true, height: gridTileHeight) { GrammarMenuView() }
                             HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
                                         icon: "magnifyingglass", color: .themeTile(6),
-                                        square: true) { DictionaryView() }
+                                        square: true, height: gridTileHeight) { DictionaryView() }
                             HomeNavTile(label: "Games", subtitle: "Secrets you've found", glyph: "遊",
                                         icon: "gamecontroller.fill", color: .themeTile(9),
-                                        square: true) { GamesMenuView() }
+                                        square: true, height: gridTileHeight) { GamesMenuView() }
                         }
                     } else {
-                        VStack(spacing: 12) {
+                        VStack(spacing: Self.rowSpacing) {
                             HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                        icon: "books.vertical.fill", color: .themeTile(0)) { LessonsView() }
+                                        icon: "books.vertical.fill", color: .themeTile(0),
+                                        height: slabHeight) { LessonsView() }
                             HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                        icon: "brain.head.profile", color: .themeTile(3)) { GrammarMenuView() }
+                                        icon: "brain.head.profile", color: .themeTile(3),
+                                        height: slabHeight) { GrammarMenuView() }
                             HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
-                                        icon: "magnifyingglass", color: .themeTile(6)) { DictionaryView() }
+                                        icon: "magnifyingglass", color: .themeTile(6),
+                                        height: slabHeight) { DictionaryView() }
                         }
                     }
                 }
                 .padding(.horizontal, 24)
 
-                Spacer()
+                Spacer(minLength: 14).frame(maxHeight: 34)
 
                 // Particles + the three chart shortcuts. All four wear the Check
                 // button's treatment — accent ring over a barely-there tint with a
@@ -106,40 +139,59 @@ struct HomeView: View {
                     }
                     .buttonStyle(.plain)
                 }
-                .padding(.bottom, 36)
-            }
+                .padding(.bottom, 22)
 
-            // Options button — top right (appearance + reset journey)
-            VStack {
-                HStack {
-                    Spacer()
-                    Button { showOptions = true } label: {
-                        ZStack {
-                            Circle()
-                                .fill(Color.appText.opacity(0.08))
-                                .frame(width: 40, height: 40)
-                            Circle()
-                                .stroke(Color.appText.opacity(0.18), lineWidth: 1)
-                                .frame(width: 40, height: 40)
-                            Image(systemName: "gearshape.fill")
-                                .font(.system(size: 15))
-                                .foregroundColor(.appText)
-                        }
+                // Help and options. They used to flank the title in the top
+                // corners; down here they aren't framing anything, so they sit as
+                // a close-set pair instead of being pushed out to the edges.
+                HStack(spacing: 20) {
+                    Button { showHelp = true } label: {
+                        HomeCornerButton(icon: "questionmark", accent: chip)
                     }
                     .buttonStyle(.plain)
-                    .padding(.trailing, 40)
-                    .padding(.top, 10)
+                    .accessibilityLabel("How to use the app")
+
+                    Button { showOptions = true } label: {
+                        HomeCornerButton(icon: "gearshape.fill", accent: chip)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Options")
                 }
-                Spacer()
+                .padding(.bottom, 10)
             }
         }
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showOptions) {
             HomeOptionsSheet()
         }
+        .sheet(isPresented: $showHelp) {
+            HelpView()
+        }
         .fullScreenCover(isPresented: $showGame) {
             KanjiInvadersGame()
         }
+    }
+}
+
+/// The two circular corner buttons, so help and options stay identical twins.
+/// Same treatment as the Particles pill and the kana glyph buttons — accent fill,
+/// double stroke, accent icon. A faint tint of `appText` used to vanish on the
+/// darker themes; `readableOnPage` is measured against both ends of the page
+/// gradient, so these stay visible whatever the appearance.
+private struct HomeCornerButton: View {
+    let icon: String
+    /// Passed in rather than read inside: a view with no inputs gets memoized and
+    /// keeps the previous theme's colour after an appearance change.
+    let accent: Color
+
+    var body: some View {
+        Image(systemName: icon)
+            .font(.system(size: 16, weight: .semibold))
+            .foregroundColor(accent)
+            .frame(width: 40, height: 40)
+            .background(ButtonFill(accent: accent, seed: icon).clipShape(Circle()))
+            .overlay(Circle().strokeBorder(accent, lineWidth: 2))
+            .overlay(Circle().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(3))
     }
 }
 
@@ -149,7 +201,24 @@ struct HomeOptionsSheet: View {
     @Environment(\.dismiss) private var dismiss
     @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @ObservedObject private var unlocks = GameUnlocks.shared
+    @ObservedObject private var speech = SpeechService.shared
+    @ObservedObject private var srs = SRSStore.shared
+    @ObservedObject private var reminders = NotificationService.shared
+    @ObservedObject private var textSize = TextSizeSettings.shared
+    @ObservedObject private var exams = ExamStore.shared
     @State private var showResetConfirm = false
+
+    /// The platform rate band is non-linear, so describe it rather than showing a
+    /// meaningless percentage.
+    private var speedLabel: String {
+        switch speech.rate {
+        case ..<0.25:  return "Very slow"
+        case ..<0.42:  return "Slow"
+        case ..<0.58:  return "Normal"
+        case ..<0.78:  return "Brisk"
+        default:       return "Fast"
+        }
+    }
 
     var body: some View {
         NavigationStack {
@@ -159,6 +228,11 @@ struct HomeOptionsSheet: View {
                         AppearancePicker()
                     } label: {
                         Label("Appearance", systemImage: "paintbrush.fill")
+                    }
+                    NavigationLink {
+                        BackupView()
+                    } label: {
+                        Label("Backup & Restore", systemImage: "externaldrive.fill")
                     }
                 }
                 Section {
@@ -184,6 +258,144 @@ struct HomeOptionsSheet: View {
                     Label("Flashcard Priority", systemImage: "rectangle.stack.fill")
                 } footer: {
                     Text("Applies to every flashcard deck. No Priority shuffles evenly and hides cards you’ve checked off; Prioritize Needs Work keeps every card in rotation but shows ones you’ve marked “Needs Work” more often.")
+                }
+
+                Section {
+                    Toggle(isOn: $reminders.isEnabled) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Offer me a daily practice round")
+                            Text("Off unless you want it")
+                                .font(.system(size: 12))
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                    if reminders.isEnabled {
+                        DatePicker("Remind me at",
+                                   selection: Binding(
+                                    get: {
+                                        var c = DateComponents()
+                                        c.hour = reminders.reminderMinutes / 60
+                                        c.minute = reminders.reminderMinutes % 60
+                                        return Calendar.current.date(from: c) ?? Date()
+                                    },
+                                    set: { newValue in
+                                        let c = Calendar.current.dateComponents([.hour, .minute],
+                                                                               from: newValue)
+                                        reminders.reminderMinutes = (c.hour ?? 19) * 60 + (c.minute ?? 0)
+                                    }),
+                                   displayedComponents: .hourAndMinute)
+                        if reminders.authorization == .denied {
+                            Text("Notifications are turned off for Omedetou in iOS Settings.")
+                                .font(.system(size: 12))
+                                .foregroundColor(.orange)
+                        }
+                    }
+
+                    if srs.enrolledCount > 0 {
+                        HStack {
+                            Text("Items in rotation")
+                            Spacer()
+                            Text("\(srs.enrolledCount)")
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                } header: {
+                    Label("Practice", systemImage: "bolt.fill")
+                } footer: {
+                    Text("A practice round is a handful of cards drawn from the grammar, words and kanji you’ve been getting wrong — the app keeps track quietly and picks for you. Turn the nudge on if a daily prompt helps; it never counts anything at you, and practice is there whenever you want it either way.")
+                }
+
+                Section {
+                    Stepper(value: $exams.intervalDays, in: 1...21) {
+                        HStack {
+                            Text("Days to finish a test")
+                            Spacer()
+                            Text("\(exams.intervalDays)")
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                    Toggle(isOn: Binding(
+                        get: { exams.anchorWeekday != nil },
+                        set: { exams.anchorWeekday = $0 ? 6 : nil }
+                    )) {
+                        Text("Deadlines land on one weekday")
+                    }
+                    if let day = exams.anchorWeekday {
+                        Picker("Deadline day", selection: Binding(
+                            get: { day },
+                            set: { exams.anchorWeekday = $0 }
+                        )) {
+                            ForEach(Array(Calendar.current.weekdaySymbols.enumerated()), id: \.offset) { i, name in
+                                Text(name).tag(i + 1)
+                            }
+                        }
+                    }
+                    NavigationLink {
+                        ReportCardView()
+                    } label: {
+                        Label("Report card", systemImage: "list.clipboard.fill")
+                    }
+                } header: {
+                    Label("Tests", systemImage: "graduationcap.fill")
+                } footer: {
+                    Text("Each test has a deadline rather than a start date — sit it whenever you like before then. Miss it and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.")
+                }
+
+                Section {
+                    VStack(alignment: .leading, spacing: 6) {
+                        HStack {
+                            Text("Japanese text size")
+                            Spacer()
+                            Text(textSize.label)
+                                .foregroundColor(.appTextSecondary)
+                        }
+                        Slider(value: $textSize.scale, in: TextSizeSettings.range)
+                            .tint(.appAccent)
+                        FuriganaText(text: "日本語[にほんご]の文字[もじ]の大[おお]きさ",
+                                     fontSize: 17, color: .appText)
+                            .frame(height: 34 * textSize.scale + 10)
+                    }
+                } header: {
+                    Label("Reading", systemImage: "textformat.size")
+                } footer: {
+                    Text("Furigana is drawn at about half the size of the text it sits above, so this is the setting that makes readings legible. It applies everywhere Japanese appears.")
+                }
+
+                Section {
+                    Toggle(isOn: $speech.isEnabled) {
+                        Text("Japanese Audio")
+                    }
+                    if speech.isEnabled && speech.isAvailable {
+                        VStack(alignment: .leading, spacing: 6) {
+                            HStack {
+                                Text("Speed")
+                                Spacer()
+                                Text(speedLabel)
+                                    .foregroundColor(.appTextSecondary)
+                            }
+                            Slider(value: $speech.rate, in: 0...1)
+                                .tint(.appAccent)
+                        }
+                        HStack {
+                            Text("Voice")
+                            Spacer()
+                            Text(speech.voiceName)
+                                .foregroundColor(.appTextSecondary)
+                        }
+                        Button {
+                            speech.speak("日本語[にほんご]を勉強[べんきょう]しましょう。", id: "options-sample")
+                        } label: {
+                            Label("Play sample", systemImage: "speaker.wave.2.fill")
+                        }
+                    }
+                } header: {
+                    Label("Audio", systemImage: "speaker.wave.2.fill")
+                } footer: {
+                    if speech.isAvailable {
+                        Text("Reads words and example sentences aloud using the system Japanese voice, guided by the app's own furigana so readings are correct in context. For a better voice, add a Japanese Siri voice in Settings ▸ Accessibility ▸ Spoken Content ▸ Voices.")
+                    } else {
+                        Text("No Japanese voice is installed on this device. Add one in Settings ▸ Accessibility ▸ Spoken Content ▸ Voices ▸ Japanese.")
+                    }
                 }
                 // Only shown once something has actually been found — listing it
                 // beforehand would give away that there are games to look for.
@@ -342,6 +554,8 @@ private struct ThemeSwatch: View {
 /// stop to hold back the stencil characters, with the accent tint over it.
 private struct ButtonFill: View {
     let accent: Color
+    /// Varies the weave between the four buttons in the row.
+    var seed: String = "fill"
 
     var body: some View {
         ZStack {
@@ -349,6 +563,7 @@ private struct ButtonFill: View {
             // page, where the gradient's second stop is what shows through.
             Color.appBackgroundEnd.opacity(0.66)
             accent.opacity(0.16)
+            TileTexture(seed: seed, opacity: 0.05, scale: 0.45)
         }
     }
 }
@@ -363,7 +578,7 @@ private struct AccentPill: View {
             .foregroundColor(accent)
             .padding(.vertical, 9)
             .padding(.horizontal, 26)
-            .background(ButtonFill(accent: accent).clipShape(Capsule()))
+            .background(ButtonFill(accent: accent, seed: title).clipShape(Capsule()))
             .overlay(Capsule().strokeBorder(accent, lineWidth: 2))
             .overlay(Capsule().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(4))
     }
@@ -380,7 +595,7 @@ private struct AccentGlyphButton: View {
                 .font(.system(size: 21, weight: .bold))
                 .foregroundColor(accent)
                 .frame(width: 50, height: 50)
-                .background(ButtonFill(accent: accent).clipShape(Circle()))
+                .background(ButtonFill(accent: accent, seed: caption).clipShape(Circle()))
                 .overlay(Circle().strokeBorder(accent, lineWidth: 2))
                 .overlay(Circle().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(4))
             Text(caption)
@@ -400,6 +615,8 @@ private struct HomeNavTile<Destination: View>: View {
     let color: Color
     /// Square for the 2×2 grid; otherwise a full-width slab.
     var square: Bool = false
+    /// Slab height. Ignored by the square variant, which is sized by the grid.
+    var height: CGFloat = 112
     @ViewBuilder let destination: () -> Destination
 
     var body: some View {
@@ -407,14 +624,17 @@ private struct HomeNavTile<Destination: View>: View {
             destination()
         } label: {
             if square {
+                // aspect: nil so the height governs, wide: false so it keeps the
+                // square arrangement rather than flipping to the bar layout.
                 AestheticTile(title: label, subtitle: subtitle, glyph: glyph,
-                              icon: icon, color: color)
+                              icon: icon, color: color, aspect: nil, wide: false)
+                    .frame(height: height)
             } else {
                 // aspect: nil frees the tile from its square ratio; the fixed
                 // height gives the wide version, unchanged otherwise.
                 AestheticTile(title: label, subtitle: subtitle, glyph: glyph,
                               icon: icon, color: color, aspect: nil)
-                    .frame(height: 112)
+                    .frame(height: height)
             }
         }
         .buttonStyle(.plain)

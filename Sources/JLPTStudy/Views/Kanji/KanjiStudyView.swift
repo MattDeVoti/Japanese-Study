@@ -152,6 +152,8 @@ struct KanjiStudyView: View {
             HStack(spacing: 12) {
                 Button {
                     store.incrementNeedsWork(cardId: card.id)
+                    // Enrols the kanji and books its next showing.
+                    SRSStore.shared.grade(.kanji(card.id), .again)
                     history.append(KanjiStudyHistoryEntry(card: card, action: .needsWork))
                     pickNext()
                 } label: {
@@ -258,6 +260,7 @@ struct KanjiStudyView: View {
     private func confirmConfident(_ card: KanjiStudyItem) {
         guard !showConfidentPop else { return }
         store.incrementConfident(cardId: card.id)
+        SRSStore.shared.grade(.kanji(card.id), .good)
         let wasChecked = store.isKanjiExcluded(card.id)
         if !wasChecked { store.toggleKanjiExcluded(cardId: card.id) }
         history.append(KanjiStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))

@@ -22,6 +22,12 @@ struct FuriganaText: UIViewRepresentable {
     var interactive: Bool = false
     var onWordSelect: ((String, CGRect) -> Void)? = nil
 
+    /// Observed so changing the Japanese text size re-renders every instance —
+    /// CoreText draws at a fixed point size and won't pick it up on its own.
+    @ObservedObject private var textSettings = TextSizeSettings.shared
+
+    private var scaledFontSize: CGFloat { fontSize * CGFloat(textSettings.scale) }
+
     func makeUIView(context: Context) -> FuriganaCanvas {
         FuriganaCanvas()
     }
@@ -31,7 +37,7 @@ struct FuriganaText: UIViewRepresentable {
         canvas.setInteractive(interactive)
         canvas.configure(
             text: text,
-            fontSize: fontSize,
+            fontSize: scaledFontSize,
             color: UIColor(color),
             weight: weight,
             alignment: alignment
@@ -40,6 +46,10 @@ struct FuriganaText: UIViewRepresentable {
 
     func sizeThatFits(_ proposal: ProposedViewSize, uiView: FuriganaCanvas, context: Context) -> CGSize? {
         let w = (proposal.width.flatMap { $0 > 0 ? $0 : nil }) ?? UIScreen.main.bounds.width
+        // Measure against the size we're about to draw at, not the unscaled one —
+        // otherwise larger text is clipped by a height computed for the old size.
+        uiView.configure(text: text, fontSize: scaledFontSize, color: UIColor(color),
+                         weight: weight, alignment: alignment)
         let h = uiView.preferredHeight(for: w)
         return CGSize(width: w, height: max(h, 1))
     }
@@ -185,6 +195,15 @@ final class FuriganaCanvas: UIView {
         self.alignment = alignment
         if contentChanged {
             (displayText, segments) = FuriganaAnnotator.process(text)
+            // CoreText drawing is invisible to VoiceOver — without this the view is
+            // an empty rectangle to anyone using a screen reader. The reading is
+            // spoken rather than the kanji, since that's what the ruby is telling a
+            // sighted reader too.
+            isAccessibilityElement = !displayText.isEmpty
+            accessibilityTraits = .staticText
+            accessibilityLabel = FuriganaAnnotator.spokenText(text)
+            accessibilityValue = displayText == accessibilityLabel ? nil : displayText
+            accessibilityLanguage = "ja-JP"
         }
         setNeedsDisplay()
     }
@@ -317,6 +336,38 @@ enum FuriganaAnnotator {
     /// real reading, not an English grammatical placeholder such as [person].
     private static func isAllKana(_ s: String) -> Bool {
         !s.isEmpty && s.unicodeScalars.allSatisfy(isKana)
+    }
+
+    // MARK: - Derived forms
+
+    /// The string as drawn: markup removed, kanji intact. Also what VoiceOver and
+    /// plain `Text` should use, since raw markup would leak literal brackets.
+    static func plainText(_ text: String) -> String {
+        process(text).displayText
+    }
+
+    /// The string as *pronounced*: every annotated kanji run replaced by its
+    /// reading. This is what makes speech synthesis say にじ for 二時 instead of
+    /// guessing — the app's curated furigana becomes the pronunciation guide.
+    /// Unannotated kanji are left for the synthesiser to resolve on its own.
+    static func spokenText(_ text: String) -> String {
+        let (display, segments) = process(text)
+        guard !segments.isEmpty else { return display }
+
+        let ns = display as NSString
+        var result = ""
+        var cursor = 0
+        for seg in segments.sorted(by: { $0.range.location < $1.range.location }) {
+            guard seg.range.location >= cursor else { continue }   // ignore overlaps
+            if seg.range.location > cursor {
+                result += ns.substring(with: NSRange(location: cursor,
+                                                     length: seg.range.location - cursor))
+            }
+            result += seg.reading
+            cursor = seg.range.location + seg.range.length
+        }
+        if cursor < ns.length { result += ns.substring(from: cursor) }
+        return result
     }
 }
 

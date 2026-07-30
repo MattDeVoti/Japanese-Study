@@ -10,14 +10,10 @@ final class DictionaryService: ObservableObject {
     private let SQLITE_TRANSIENT = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
 
     private init() {
-        let url: URL
-        if let bundled = Bundle.main.url(forResource: "dictionary", withExtension: "db") {
-            url = bundled
-        } else {
-            url = URL(fileURLWithPath: "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/Sources/JLPTStudy/Resources/dictionary.db")
-        }
-        if sqlite3_open_v2(url.path, &db, SQLITE_OPEN_READONLY, nil) != SQLITE_OK {
+        guard let url = Bundle.main.url(forResource: "dictionary", withExtension: "db"),
+              sqlite3_open_v2(url.path, &db, SQLITE_OPEN_READONLY, nil) == SQLITE_OK else {
             db = nil
+            return
         }
     }
 
@@ -31,6 +27,30 @@ final class DictionaryService: ObservableObject {
             "SELECT id,word,reading,definitions,parts_of_speech,sort_key_en,sort_key_jp FROM entries ORDER BY \(orderBy) LIMIT ? OFFSET ?",
             [limit, offset]
         )
+    }
+
+    /// Every entry `ConjugationEngine` can inflect — the pool the conjugation
+    /// drills draw from. Cached because it's a full-table scan over ~4k rows.
+    private var conjugableCache: [DictionaryEntry]?
+
+    func conjugableEntries() -> [DictionaryEntry] {
+        if let c = conjugableCache { return c }
+        let kinds = ["godan verb", "ichidan verb", "suru verb", "kuru verb",
+                     "i-adjective", "na-adjective"]
+        let clause = kinds.map { _ in "parts_of_speech LIKE ?" }.joined(separator: " OR ")
+        let rows = run(
+            "SELECT id,word,reading,definitions,parts_of_speech,sort_key_en,sort_key_jp "
+            + "FROM entries WHERE \(clause)",
+            kinds.map { "%\($0)%" }
+        )
+        // Keep only the ones that really produce forms; a few entries carry the tag
+        // but have a shape the engine declines to inflect.
+        let usable = rows.filter {
+            ConjugationEngine.conjugate(word: $0.word, reading: $0.reading,
+                                        partsOfSpeech: $0.partsOfSpeech) != nil
+        }
+        conjugableCache = usable
+        return usable
     }
 
     // MARK: - Search

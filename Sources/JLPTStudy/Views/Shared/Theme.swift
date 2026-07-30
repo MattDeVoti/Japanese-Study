@@ -507,7 +507,10 @@ struct CheckButton: View {
                 .tracking(0.4)
                 .foregroundColor(accent)
                 .frame(width: diameter, height: diameter)
-                .background(Circle().fill(accent.opacity(isPressed ? 0.18 : 0.08)))
+                .background(
+                    Circle().fill(accent.opacity(isPressed ? 0.18 : 0.08))
+                        .overlay(TileTexture(seed: "check", opacity: 0.05, scale: 0.5).clipShape(Circle()))
+                )
                 .overlay(Circle().strokeBorder(accent, lineWidth: 2))
                 // Concentric hairline — the one flourish, and it stays flat.
                 .overlay(
@@ -529,76 +532,100 @@ struct CheckButton: View {
     }
 }
 
-/// The app's signature tile: gradient fill, oversized translucent glyph bleeding
-/// off the bottom-right, a frosted icon, and a title/subtitle stack.
-/// `aspect` of 1 gives the square Study-menu tile; pass nil for a flexible row.
+/// Wide action pill in the same ring-over-tint treatment as `CheckButton`, for
+/// the primary action on a screen. Theme-coloured by default.
+struct AccentActionButton: View {
+    let title: String
+    var icon: String? = nil
+    var color: Color? = nil
+    var width: CGFloat? = nil
+    let action: () -> Void
+
+    @EnvironmentObject private var themeManager: ThemeManager
+    @State private var isPressed = false
+
+    var body: some View {
+        _ = themeManager.current
+        let accent = Color.readableOnBackground(color ?? .appAccent)
+
+        return Button(action: action) {
+            HStack(spacing: 8) {
+                if let icon {
+                    Image(systemName: icon)
+                        .font(.system(size: 15, weight: .bold))
+                }
+                Text(title)
+                    .font(.system(size: 16, weight: .bold))
+                    .tracking(0.3)
+            }
+            .foregroundColor(accent)
+            .padding(.horizontal, 26)
+            .padding(.vertical, 15)
+            .frame(width: width)
+            .background(
+                Capsule().fill(accent.opacity(isPressed ? 0.18 : 0.08))
+                    .overlay(TileTexture(seed: title, opacity: 0.05, scale: 0.5).clipShape(Capsule()))
+            )
+            .overlay(Capsule().strokeBorder(accent, lineWidth: 2))
+            .overlay(Capsule().strokeBorder(accent.opacity(0.28), lineWidth: 1).padding(5))
+            .scaleEffect(isPressed ? 0.97 : 1)
+        }
+        .buttonStyle(.plain)
+        .animation(.easeOut(duration: 0.14), value: isPressed)
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 0)
+                .onChanged { _ in isPressed = true }
+                .onEnded { _ in isPressed = false }
+        )
+    }
+}
+
+/// The app's signature tile. Two shapes from one component:
+/// `aspect: 1` is the square used in grids; `aspect: nil` is a wide bar.
+///
+/// They are laid out differently on purpose. The square stacks icon → title at the
+/// bottom-left with a huge glyph bleeding off the bottom-right, which only works
+/// when the tile is tall. Stretched into a 95pt bar that same arrangement leaves a
+/// dead gap under the icon and clips the glyph top *and* bottom, so the bar gets a
+/// proper horizontal treatment instead.
 struct AestheticTile: View {
     let title: String
     var subtitle: String? = nil
     /// Large watermark character (kana, kanji, or a number).
     var glyph: String? = nil
-    /// Optional second watermark, set opposite `glyph` across the diagonal to
-    /// balance it. Used to pair a level number with its kanji numeral.
+    /// Optional second watermark, paired with `glyph`. Used to set a level number
+    /// beside its kanji numeral.
     var secondaryGlyph: String? = nil
     /// SF Symbol shown in the frosted circle.
     var icon: String? = nil
     let color: Color
     var aspect: CGFloat? = 1
+    /// Forces the layout. Left nil, a tile with no aspect ratio uses the bar
+    /// arrangement — but a grid tile sized by an explicit height still wants the
+    /// square one, so it passes `wide: false`.
+    var wide: Bool? = nil
     var titleSize: CGFloat = 20
 
+    private var isBar: Bool { wide ?? (aspect == nil) }
+
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
+        ZStack {
             RoundedRectangle(cornerRadius: 22, style: .continuous)
                 .fill(color.badgeGradient)
 
-            if let glyph {
-                Text(glyph)
-                    .font(.system(size: 92, weight: .black))
-                    .foregroundColor(.white.opacity(0.18))
-                    .offset(x: 12, y: 14)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-            }
+            // Texture sits over the gradient but under everything else, so it
+            // reads as a surface rather than as decoration.
+            TileTexture(seed: title)
 
-            if let secondaryGlyph {
-                Text(secondaryGlyph)
-                    .font(.system(size: 46, weight: .black))
-                    .foregroundColor(.white.opacity(0.20))
-                    .offset(x: -14, y: 10)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
-            }
+            if isBar { barContent } else { squareContent }
 
             // Soft highlight sweep across the top-left
             RoundedRectangle(cornerRadius: 22, style: .continuous)
-                .fill(LinearGradient(colors: [.white.opacity(0.22), .clear],
+                .fill(LinearGradient(colors: [.white.opacity(0.18), .clear],
                                      startPoint: .topLeading, endPoint: .center))
+                .allowsHitTesting(false)
 
-            VStack(alignment: .leading, spacing: 0) {
-                if let icon {
-                    Image(systemName: icon)
-                        .font(.system(size: 15, weight: .bold))
-                        .foregroundColor(.white)
-                        .frame(width: 32, height: 32)
-                        .background(Circle().fill(.white.opacity(0.22)))
-                }
-
-                Spacer(minLength: 6)
-
-                Text(title)
-                    .font(.system(size: titleSize, weight: .bold))
-                    .foregroundColor(.white)
-                    .lineLimit(2)
-                    .minimumScaleFactor(0.65)
-                    .multilineTextAlignment(.leading)
-                if let subtitle {
-                    Text(subtitle)
-                        .font(.system(size: 11, weight: .medium))
-                        .foregroundColor(.white.opacity(0.85))
-                        .lineLimit(2)
-                        .multilineTextAlignment(.leading)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-            }
-            .padding(14)
+            if isBar { barLabels } else { squareLabels }
         }
         .modifier(OptionalAspect(aspect: aspect))
         .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
@@ -607,6 +634,246 @@ struct AestheticTile: View {
                 .strokeBorder(.white.opacity(0.18), lineWidth: 1)
         )
         .shadow(color: color.opacity(0.38), radius: 10, x: 0, y: 5)
+    }
+
+    // MARK: - Square
+
+    private var squareContent: some View {
+        ZStack {
+            if let glyph {
+                Text(glyph)
+                    .font(.system(size: 92, weight: .black))
+                    .foregroundColor(.white.opacity(0.18))
+                    .offset(x: 12, y: 14)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+            }
+            if let secondaryGlyph {
+                Text(secondaryGlyph)
+                    .font(.system(size: 46, weight: .black))
+                    .foregroundColor(.white.opacity(0.20))
+                    .offset(x: -14, y: 10)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
+            }
+        }
+    }
+
+    private var squareLabels: some View {
+        VStack(alignment: .leading, spacing: 0) {
+            if let icon {
+                Image(systemName: icon)
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(.white)
+                    .frame(width: 32, height: 32)
+                    .background(Circle().fill(.white.opacity(0.22)))
+            }
+
+            Spacer(minLength: 6)
+
+            Text(title)
+                .font(.system(size: titleSize, weight: .bold))
+                .foregroundColor(.white)
+                .lineLimit(2)
+                .minimumScaleFactor(0.65)
+                .multilineTextAlignment(.leading)
+            if let subtitle {
+                Text(subtitle)
+                    .font(.system(size: 11, weight: .medium))
+                    .foregroundColor(.white.opacity(0.85))
+                    .lineLimit(2)
+                    .multilineTextAlignment(.leading)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .padding(14)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
+    }
+
+    // MARK: - Bar
+
+    /// Watermarks sit whole at the trailing edge rather than bleeding off it. A
+    /// square is tall enough for a cropped glyph to read as deliberate; in a 95pt
+    /// bar the same crop just slices the character through the middle.
+    ///
+    /// The pair is set at clearly different sizes and well apart — at similar
+    /// scale and close together, a kanji numeral beside its digit reads as a
+    /// strikethrough (一1 in particular).
+    private var barContent: some View {
+        HStack(spacing: 18) {
+            Spacer(minLength: 0)
+            if let secondaryGlyph {
+                Text(secondaryGlyph)
+                    .font(.system(size: 30, weight: .black))
+                    .foregroundColor(.white.opacity(0.15))
+            }
+            if let glyph {
+                Text(glyph)
+                    .font(.system(size: 66, weight: .black))
+                    .foregroundColor(.white.opacity(0.17))
+            }
+        }
+        .padding(.trailing, 20)
+        .frame(maxHeight: .infinity)
+    }
+
+    private var barLabels: some View {
+        HStack(spacing: 13) {
+            if let icon {
+                Image(systemName: icon)
+                    .font(.system(size: 16, weight: .bold))
+                    .foregroundColor(.white)
+                    .frame(width: 38, height: 38)
+                    .background(Circle().fill(.white.opacity(0.22)))
+            }
+            VStack(alignment: .leading, spacing: 2) {
+                Text(title)
+                    .font(.system(size: titleSize, weight: .bold))
+                    .foregroundColor(.white)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
+                if let subtitle {
+                    Text(subtitle)
+                        .font(.system(size: 12, weight: .medium))
+                        .foregroundColor(.white.opacity(0.85))
+                        .lineLimit(1)
+                }
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(.horizontal, 16)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+    }
+}
+
+// MARK: - Tile texture
+
+/// A faint geometric weave over a tile's gradient. Four traditional motifs, picked
+/// deterministically from the title so a tile always wears the same one but the
+/// screen isn't uniform. Drawn in low-alpha white so it works on every theme
+/// colour without being tuned per hue.
+struct TileTexture: View {
+    let seed: String
+    /// Dialled down on darker or smaller surfaces so it stays a suggestion.
+    var opacity: Double = 0.06
+    /// Cell size multiplier. A small control needs a finer weave — at full scale a
+    /// 50pt circle only fits two arcs, which reads as stray marks, not a pattern.
+    var scale: CGFloat = 1
+
+    private enum Motif: CaseIterable { case seigaiha, asanoha, kikko, rules }
+
+    private var motif: Motif {
+        // FNV-ish fold: stable across launches, unlike hashValue.
+        var h: UInt64 = 5381
+        for b in seed.utf8 { h = (h &* 33) &+ UInt64(b) }
+        return Motif.allCases[Int(h % UInt64(Motif.allCases.count))]
+    }
+
+    var body: some View {
+        Canvas { ctx, size in
+            let ink = GraphicsContext.Shading.color(.white.opacity(opacity))
+            switch motif {
+            case .seigaiha: drawSeigaiha(&ctx, size, ink, scale)
+            case .asanoha:  drawAsanoha(&ctx, size, ink, scale)
+            case .kikko:    drawKikko(&ctx, size, ink, scale)
+            case .rules:    drawRules(&ctx, size, ink, scale)
+            }
+        }
+        .allowsHitTesting(false)
+    }
+
+    /// Overlapping concentric arcs — the classic wave.
+    private func drawSeigaiha(_ ctx: inout GraphicsContext, _ size: CGSize,
+                              _ ink: GraphicsContext.Shading, _ k: CGFloat) {
+        let r: CGFloat = 26 * k
+        let stepX = r, stepY = r * 0.62
+        var row = 0
+        var y = -r
+        while y < size.height + r {
+            var x = (row % 2 == 0) ? -r : -r + stepX / 2
+            while x < size.width + r {
+                for k in stride(from: r, through: r * 0.34, by: -r * 0.22) {
+                    var p = Path()
+                    p.addArc(center: CGPoint(x: x, y: y), radius: k,
+                             startAngle: .degrees(180), endAngle: .degrees(360), clockwise: false)
+                    ctx.stroke(p, with: ink, lineWidth: 1)
+                }
+                x += stepX
+            }
+            y += stepY
+            row += 1
+        }
+    }
+
+    /// Hemp leaf — a triangular star lattice.
+    private func drawAsanoha(_ ctx: inout GraphicsContext, _ size: CGSize,
+                             _ ink: GraphicsContext.Shading, _ k: CGFloat) {
+        let s: CGFloat = 24 * k
+        let h = s * 0.866
+        var p = Path()
+        var row = 0
+        var y = -h
+        while y < size.height + h {
+            var x = (row % 2 == 0) ? -s : -s + s / 2
+            while x < size.width + s {
+                let c = CGPoint(x: x, y: y)
+                for i in 0..<6 {
+                    let a = Double(i) * Double.pi / 3
+                    let tip = CGPoint(x: c.x + CGFloat(cos(a)) * s / 2,
+                                      y: c.y + CGFloat(sin(a)) * s / 2)
+                    p.move(to: c); p.addLine(to: tip)
+                }
+                x += s
+            }
+            y += h
+            row += 1
+        }
+        ctx.stroke(p, with: ink, lineWidth: 0.9)
+    }
+
+    /// Tortoise shell — a hexagon grid.
+    private func drawKikko(_ ctx: inout GraphicsContext, _ size: CGSize,
+                           _ ink: GraphicsContext.Shading, _ k: CGFloat) {
+        let r: CGFloat = 15 * k
+        let w = r * 1.5, h = r * 1.732
+        var p = Path()
+        var col = 0
+        var x = -r
+        while x < size.width + r {
+            var y = (col % 2 == 0) ? -h : -h + h / 2
+            while y < size.height + h {
+                var hex = Path()
+                for i in 0..<6 {
+                    let a = Double(i) * Double.pi / 3
+                    let pt = CGPoint(x: x + CGFloat(cos(a)) * r, y: y + CGFloat(sin(a)) * r)
+                    if i == 0 { hex.move(to: pt) } else { hex.addLine(to: pt) }
+                }
+                hex.closeSubpath()
+                p.addPath(hex)
+                y += h
+            }
+            x += w
+            col += 1
+        }
+        ctx.stroke(p, with: ink, lineWidth: 0.9)
+    }
+
+    /// Fine diagonal rules, every fourth one doubled.
+    private func drawRules(_ ctx: inout GraphicsContext, _ size: CGSize,
+                           _ ink: GraphicsContext.Shading, _ k: CGFloat) {
+        let gap: CGFloat = 13 * k
+        var p = Path()
+        var i = 0
+        var x = -size.height
+        while x < size.width + size.height {
+            p.move(to: CGPoint(x: x, y: size.height))
+            p.addLine(to: CGPoint(x: x + size.height, y: 0))
+            if i % 4 == 0 {
+                p.move(to: CGPoint(x: x + 2.5, y: size.height))
+                p.addLine(to: CGPoint(x: x + 2.5 + size.height, y: 0))
+            }
+            x += gap
+            i += 1
+        }
+        ctx.stroke(p, with: ink, lineWidth: 0.9)
     }
 }
 

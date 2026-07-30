@@ -216,7 +216,6 @@ enum ConjugationEngine {
         // Kanji form 来る: 来 is used as stem with different readings per form.
         // Kana-only form くる: hardcode each form explicitly.
         let isKanji = word.contains("来")
-        let k: (String) -> String = { suf in isKanji ? "来" + suf : suf }
 
         let present   = word
         let past      = isKanji ? "来た"     : "きた"

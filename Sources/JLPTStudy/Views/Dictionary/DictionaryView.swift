@@ -310,9 +310,17 @@ struct DictionaryView: View {
         }
     }
 
-    private func rowBackground(for row: DictionaryRow) -> Color {
-        if case .header = row { return Color.appText.opacity(0.05) }
-        return .appBackground
+    /// Rows sit on a 75% wash rather than a solid fill, so the page pattern reads
+    /// faintly through them instead of being blanked out entirely — but stays far
+    /// enough back that it never competes with the words.
+    @ViewBuilder
+    private func rowBackground(for row: DictionaryRow) -> some View {
+        let base = Color.appBackground.opacity(0.60)
+        if case .header = row {
+            ZStack { base; Color.appText.opacity(0.05) }
+        } else {
+            base
+        }
     }
 
     // MARK: Sort toggle

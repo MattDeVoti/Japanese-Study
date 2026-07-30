@@ -41,8 +41,11 @@ struct KanaCharacterCard: View {
 
                     Spacer()
 
-                    // Favorite + complete + chevron
+                    // Audio + favorite + complete + chevron
                     HStack(spacing: 10) {
+                        // The character itself is the reading, so speak it directly.
+                        SpeakButton(text: point.name, size: 15, tint: accentColor)
+
                         Button {
                             store.toggleFavorite(chapterId: chapterId, pointId: point.id)
                         } label: {

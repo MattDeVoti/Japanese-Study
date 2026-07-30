@@ -98,7 +98,7 @@ struct VocabFlashcardsView: View {
             AppBackground()
 
             VStack(spacing: 0) {
-                // Fixed top bar: favorite (stays put while the word slides)
+                // Fixed top bar: favorite and audio (stay put while the word slides)
                 HStack {
                     Button {
                         filter.toggleFavorite(card.word.id)
@@ -109,6 +109,8 @@ struct VocabFlashcardsView: View {
                     }
                     .buttonStyle(.plain)
                     Spacer()
+                    // Speak the kana, which is the word's authoritative reading.
+                    SpeakButton(text: card.word.kana, size: 24, tint: card.accentColor)
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 16)
@@ -176,6 +178,9 @@ struct VocabFlashcardsView: View {
             HStack(spacing: 12) {
                 Button {
                     filter.markNeedsWork(card.word.id)
+                    // Studying a card is a review: this both enrols it in the
+                    // schedule and books its next showing.
+                    SRSStore.shared.grade(.vocab(card.word.id), .again)
                     history.append(VocabStudyHistoryEntry(card: card, action: .needsWork))
                     pickNext()
                 } label: {
@@ -328,6 +333,7 @@ struct VocabFlashcardsView: View {
     private func confirmConfident(_ card: VocabFlashCard) {
         guard !showConfidentPop else { return }
         filter.markConfident(card.word.id)
+        SRSStore.shared.grade(.vocab(card.word.id), .good)
         let wasChecked = filter.isExcluded(card.word.id)
         if !wasChecked { filter.toggleExcluded(card.word.id) }
         history.append(VocabStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))

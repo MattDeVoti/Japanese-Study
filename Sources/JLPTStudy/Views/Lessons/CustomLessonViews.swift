@@ -28,7 +28,8 @@ struct CustomLessonCircleButton: View {
     var body: some View {
         AestheticTile(title: lesson.name, subtitle: itemsLabel(lesson.itemCount),
                       glyph: "組", icon: "square.stack.3d.up.fill",
-                      color: customAccent, titleSize: 17)
+                      color: customAccent, aspect: nil, titleSize: 17)
+            .frame(height: LessonsView.barHeight)
     }
 }
 
@@ -55,16 +56,17 @@ struct NewCustomLessonBubble: View {
                 RoundedRectangle(cornerRadius: 22, style: .continuous)
                     .strokeBorder(customAccent.opacity(0.55),
                                   style: StrokeStyle(lineWidth: 2, dash: [7, 6]))
-                VStack(spacing: 4) {
+                HStack(spacing: 10) {
                     Image(systemName: "plus")
-                        .font(.system(size: 30, weight: .bold))
+                        .font(.system(size: 24, weight: .bold))
                     Text("New Lesson")
-                        .font(.system(size: 13, weight: .semibold))
+                        .font(.system(size: 17, weight: .semibold))
+                    Spacer()
                 }
                 .foregroundColor(customAccent)
-                .padding(10)
+                .padding(.horizontal, 18)
             }
-            .aspectRatio(1, contentMode: .fit)
+            .frame(height: LessonsView.barHeight)
         }
         .buttonStyle(.plain)
         .alert("New Custom Lesson", isPresented: $showNameAlert) {

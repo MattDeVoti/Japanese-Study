@@ -10,8 +10,11 @@ struct GrammarMenuView: View {
     @State private var kataQuestions: [PracticeQuestion] = []
     // Grammar discrimination quizzes, keyed by JLPT level (5 = N5 … 1 = N1).
     @State private var grammarQuizzes: [Int: [PracticeQuestion]] = [:]
+    @State private var slangQuestions: [PracticeQuestion] = []
 
     private let columns = [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)]
+
+    @ObservedObject private var exams = ExamStore.shared
 
     var body: some View {
         ZStack {
@@ -20,55 +23,109 @@ struct GrammarMenuView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 34) {
 
-                    // MARK: Kana pronunciation drills
-                    TileSection(header: "Kana Pronunciation", columns: columns) {
-                        StudyTile(title: "Hiragana", subtitle: "Sounds & readings",
-                                  glyph: "ひ", icon: "waveform", color: .hiraganaColor) {
-                            GrammarPracticeView(pointName: "Hiragana Practice", questions: hiraQuestions,
-                                                accentColor: .hiraganaColor, sessionLimit: pronunciationSessionLength)
+                    // MARK: Progress
+                    // One entry, shaped like a document rather than a drill tile.
+                    // Reviews live inside it — the home bar surfaces them when any
+                    // are due, and they're test prep rather than a drill of their own.
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Progress")
+                            .font(.system(size: 20, weight: .bold))
+                            .foregroundColor(.appText)
+                            .padding(.horizontal, 2)
+                        NavigationLink {
+                            ReportCardView()
+                        } label: {
+                            ReportCardButton()
                         }
-                        StudyTile(title: "Katakana", subtitle: "Sounds & readings",
-                                  glyph: "カ", icon: "waveform", color: .katakanaColor) {
-                            GrammarPracticeView(pointName: "Katakana Practice", questions: kataQuestions,
-                                                accentColor: .katakanaColor, sessionLimit: pronunciationSessionLength)
+                        .buttonStyle(.plain)
+                    }
+
+                    // MARK: Kana pronunciation drills
+                    SectionStack(header: "Kana Pronunciation") {
+                        LazyVGrid(columns: columns, spacing: 12) {
+                            NavigationLink {
+                                GrammarPracticeView(pointName: "Hiragana Practice", questions: hiraQuestions,
+                                                    accentColor: .hiraganaColor, sessionLimit: pronunciationSessionLength)
+                            } label: {
+                                KanaSoundTile(character: "あ", title: "Hiragana", color: .hiraganaColor)
+                            }
+                            .buttonStyle(.plain)
+
+                            NavigationLink {
+                                GrammarPracticeView(pointName: "Katakana Practice", questions: kataQuestions,
+                                                    accentColor: .katakanaColor, sessionLimit: pronunciationSessionLength)
+                            } label: {
+                                KanaSoundTile(character: "ア", title: "Katakana", color: .katakanaColor)
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
 
                     // MARK: Flashcards
-                    TileSection(header: "Flashcards", columns: columns) {
-                        StudyTile(title: "Vocab", subtitle: "Flash cards",
-                                  glyph: "語", icon: "rectangle.stack.fill", color: .themeTile(5)) {
-                            VocabFlashcardsView()
-                        }
-                        StudyTile(title: "Kanji", subtitle: "Flash cards",
-                                  glyph: "漢", icon: "rectangle.stack.fill", color: .themeTile(7)) {
-                            KanjiStudyView()
-                        }
-                    }
-
-                    // MARK: Quizzes
-                    TileSection(header: "Grammar Quizzes", columns: columns) {
-                        ForEach([5, 4, 3, 2, 1], id: \.self) { level in
-                            StudyTile(title: levelName(level), subtitle: "Tell similar points apart",
-                                      glyph: "\(levelNumber(level))",
-                                      secondaryGlyph: levelKanjiNumeral(level),
-                                      icon: "checklist",
-                                      color: nLevelColor(level)) {
-                                GrammarPracticeView(pointName: "\(levelName(level)) Grammar",
-                                                    questions: grammarQuizzes[level] ?? [],
-                                                    accentColor: nLevelColor(level),
-                                                    sessionLimit: grammarQuizSessionLength)
+                    SectionStack(header: "Flashcards") {
+                        LazyVGrid(columns: columns, spacing: 12) {
+                            NavigationLink { VocabFlashcardsView() } label: {
+                                VocabDeckTile(color: .themeTile(5))
                             }
+                            .buttonStyle(.plain)
+
+                            NavigationLink { KanjiStudyView() } label: {
+                                KanjiFlipTile(color: .themeTile(7))
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
 
-                    // MARK: Reading comprehension
-                    TileSection(header: "Reading", columns: columns) {
-                        StudyTile(title: "Reading", subtitle: "Passages & questions",
-                                  glyph: "読", icon: "book.fill", color: .themeTile(10)) {
-                            ReadingListView()
+                    // MARK: Conjugation & reading
+                    // Full width rather than squares: both animate, and the motion
+                    // needs room to read.
+                    SectionStack(header: "Practice") {
+                        VStack(spacing: 12) {
+                            NavigationLink { ConjugationDrillView() } label: {
+                                ConjugationTile(color: .themeTile(2))
+                            }
+                            .buttonStyle(.plain)
+
+                            NavigationLink { ReadingListView() } label: {
+                                ReadingTile(color: .themeTile(10))
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
+                    // MARK: Grammar quizzes
+                    // One per line at the same size as Conjugation and Reading.
+                    SectionStack(header: "Grammar Quizzes") {
+                        VStack(spacing: 12) {
+                            ForEach([5, 4, 3, 2, 1], id: \.self) { level in
+                                NavigationLink {
+                                    GrammarPracticeView(pointName: "\(levelName(level)) Grammar",
+                                                        questions: grammarQuizzes[level] ?? [],
+                                                        accentColor: nLevelColor(level),
+                                                        sessionLimit: grammarQuizSessionLength)
+                                } label: {
+                                    LevelQuizTile(level: level)
+                                }
+                                .buttonStyle(.plain)
+                            }
+
+                            // Slang has no authored quiz bank, so its questions are
+                            // pooled from the slang chapters' own practice sets.
+                            NavigationLink {
+                                GrammarPracticeView(pointName: "Slang",
+                                                    questions: slangQuestions,
+                                                    accentColor: SlangContent.accent,
+                                                    sessionLimit: grammarQuizSessionLength)
+                            } label: {
+                                LevelQuizTile(title: "Slang",
+                                              subtitle: "Test your knowledge of Slang",
+                                              bigMark: "俗",
+                                              color: SlangContent.accent,
+                                              phase: 5.1)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+
                 }
                 .padding(.horizontal, 20)
                 .padding(.top, 24)
@@ -88,38 +145,24 @@ struct GrammarMenuView: View {
                     grammarQuizzes[level] = LessonsService.shared.loadQuestionBank("grammar_quiz_n\(level)")
                 }
             }
+            if slangQuestions.isEmpty {
+                LessonsService.shared.loadIfNeeded()
+                let chapters = LessonsService.shared.manifest?.levels
+                    .first { $0.jlptLevel == SlangContent.levelId }?.chapters ?? []
+                slangQuestions = chapters
+                    .compactMap { LessonsService.shared.loadChapter($0.id) }
+                    .flatMap { ch in
+                        ch.points.flatMap { $0.practice ?? [] } + (ch.chapterPractice ?? [])
+                    }
+            }
         }
-    }
-}
-
-// MARK: - Square study tile
-
-/// Thin wrapper: the shared `AestheticTile` wired to a navigation destination.
-private struct StudyTile<Destination: View>: View {
-    let title: String
-    let subtitle: String
-    let glyph: String
-    var secondaryGlyph: String? = nil
-    let icon: String
-    let color: Color
-    @ViewBuilder let destination: () -> Destination
-
-    var body: some View {
-        NavigationLink {
-            destination()
-        } label: {
-            AestheticTile(title: title, subtitle: subtitle, glyph: glyph,
-                          secondaryGlyph: secondaryGlyph, icon: icon, color: color)
-        }
-        .buttonStyle(.plain)
     }
 }
 
 // MARK: - Section wrapper
 
-private struct TileSection<Content: View>: View {
+private struct SectionStack<Content: View>: View {
     let header: String
-    let columns: [GridItem]
     @ViewBuilder let content: () -> Content
 
     var body: some View {
@@ -128,10 +171,7 @@ private struct TileSection<Content: View>: View {
                 .font(.system(size: 20, weight: .bold))
                 .foregroundColor(.appText)
                 .padding(.horizontal, 2)
-
-            LazyVGrid(columns: columns, spacing: 12) {
-                content()
-            }
+            content()
         }
     }
 }
