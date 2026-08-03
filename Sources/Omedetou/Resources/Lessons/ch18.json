@@ -328,12 +328,12 @@
       "name": "自動詞[じどうし]・他動詞[たどうし] — transitive and intransitive verb pairs",
       "shortDescription": "Many Japanese verbs come in pairs: transitive (someone does it) and intransitive (it happens by itself).",
       "formation": "Transitive: [person] が [object] を Verb  |  Intransitive: [object] が Verb",
-      "explanation": "Japanese is famous — or notorious — for its transitive/intransitive verb pairs. For nearly every action that can either be done *to* something or happen *by itself*, there are two separate verbs. Using the wrong one is a very common error, so it pays to learn these pairs together.\n\nThe grammatical split is clean:\n• Transitive (他動詞[たどうし]): [person] が [object] を Verb — someone acts on something.\n  誰[だれ]かがドアを開[あ]けました (Someone opened the door).\n• Intransitive (自動詞[じどうし]): [thing] が Verb — the thing does it on its own, no agent mentioned.\n  ドアが開[あ]きました (The door opened — by itself).\n\nCore pairs to memorize:\n開[あ]ける (open s.t.) / 開[ひら]く (open by itself)\n閉[し]める (close s.t.) / 閉[し]まる (close by itself)\n入[い]れる (put in) / 入る (go in)\n出[だ]す (take out) / 出[で]る (come out)\n起[お]こす (wake s.o. up) / 起[お]きる (wake up)\n始[はじ]める (start s.t.) / 始[はじ]まる (start on its own)\n\nA rough pattern: the る-ending of the pair is often transitive (you do it), while the non-る form is often intransitive (it happens). This isn't universal, but it's a useful first guess.\n\nThe next grammar point, 〜てある, builds directly on this: it uses the *transitive* verb's て-form to describe a deliberately created resultant state.",
+      "explanation": "Japanese is famous — or notorious — for its transitive/intransitive verb pairs. For nearly every action that can either be done *to* something or happen *by itself*, there are two separate verbs. Using the wrong one is a very common error, so it pays to learn these pairs together.\n\nThe grammatical split is clean:\n• Transitive (他動詞[たどうし]): [person] が [object] を Verb — someone acts on something.\n  誰[だれ]かがドアを開[あ]けました (Someone opened the door).\n• Intransitive (自動詞[じどうし]): [thing] が Verb — the thing does it on its own, no agent mentioned.\n  ドアが開[あ]きました (The door opened — by itself).\n\nCore pairs to memorize:\n開[あ]ける (open s.t.) / 開[あ]く (open by itself)\n閉[し]める (close s.t.) / 閉[し]まる (close by itself)\n入[い]れる (put in) / 入[はい]る (go in)\n出[だ]す (take out) / 出[で]る (come out)\n起[お]こす (wake s.o. up) / 起[お]きる (wake up)\n始[はじ]める (start s.t.) / 始[はじ]まる (start on its own)\n\nTwo endings are genuinely reliable. A verb ending in 〜す is transitive — 出[だ]す, 起[お]こす, 直[なお]す, 壊[こわ]す. A verb ending in 〜まる・〜がる・〜わる is intransitive — 閉[し]まる, 始[はじ]まる, 上[あ]がる, 変[か]わる. The 〜える forms are the ones you cannot guess: 開[あ]ける and 入[い]れる are transitive, but 出[で]る is intransitive, so learn those pair by pair.\n\nThe next grammar point, 〜てある, builds directly on this: it uses the *transitive* verb's て-form to describe a deliberately created resultant state.",
       "rules": [
         "Transitive (他動詞[たどうし]): [agent] が [object] を Verb — someone does something to something",
         "Intransitive (自動詞[じどうし]): [subject] が Verb — something happens by itself, no agent",
-        "Core pairs: 開[あ]ける/開[ひら]く, 閉[し]める/閉[し]まる, 入[い]れる/入る, 出[だ]す/出[で]る, 起[お]こす/起[お]きる, 始[はじ]める/始[はじ]まる",
-        "Rough pattern: る-ending = often transitive; non-る form = often intransitive",
+        "Core pairs: 開[あ]ける/開[あ]く, 閉[し]める/閉[し]まる, 入[い]れる/入[はい]る, 出[だ]す/出[で]る, 起[お]こす/起[お]きる, 始[はじ]める/始[はじ]まる",
+        "Reliable endings: 〜す is always transitive (出[だ]す, 起[お]こす, 直[なお]す); 〜まる/〜がる/〜わる is always intransitive (閉[し]まる, 始[はじ]まる, 上[あ]がる). 〜える pairs must be learned individually",
         "〜てある (next point) uses the TRANSITIVE verb's て-form + ある to show a deliberate resultant state"
       ],
       "examples": [
@@ -373,7 +373,7 @@
             "窓[まど]が閉[し]まりました。"
           ],
           "correctIndex": 2,
-          "explanation": "Transitive verbs take an object (〜を). 開[あ]ける (to open ) is transitive: ドアを開[あ]けました = I opened the door. Intransitive verbs (開[ひら]く) describe the event happening on its own."
+          "explanation": "Transitive verbs take an object (〜を). 開[あ]ける (to open ) is transitive: ドアを開[あ]けました = I opened the door. Intransitive verbs (開[あ]く) describe the event happening on its own."
         },
         {
           "id": "transitive-intransitive_q2",
@@ -639,7 +639,7 @@
             "ドアを開[あ]きました。"
           ],
           "correctIndex": 2,
-          "explanation": "開[ひら]く = intransitive: ドアが開[あ]きました = the door opened (by itself, no agent). 開[あ]ける = transitive: ドアを開[あ]けました = someone opened the door. Intransitive uses が; transitive uses を."
+          "explanation": "開[あ]く = intransitive: ドアが開[あ]きました = the door opened (by itself, no agent). 開[あ]ける = transitive: ドアを開[あ]けました = someone opened the door. Intransitive uses が; transitive uses を."
         }
       ]
     },

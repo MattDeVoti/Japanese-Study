@@ -18,6 +18,7 @@ struct KanjiStudyView: View {
     @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     @State private var currentCard: KanjiStudyItem?
     @State private var isRevealed = false
+    @StateObject private var sequencer = DeckSequencer()
     /// Shows the green-check pop over the card after "Confident" is tapped.
     @State private var showConfidentPop = false
     /// Undo history for the back button — each answered card + what to reverse.
@@ -252,7 +253,7 @@ struct KanjiStudyView: View {
         let p = pool
         guard !p.isEmpty else { currentCard = nil; return }
         isRevealed = false
-        currentCard = store.selectWeightedKanjiItem(from: p)
+        currentCard = store.selectNextKanjiItem(from: p, using: sequencer)
     }
 
     /// "Confident" activates the card's checkmark (excludes it from the lineup),
@@ -283,6 +284,8 @@ struct KanjiStudyView: View {
         }
         isRevealed = false
         currentCard = last.card
+        // So the next draw doesn't hand back the card we just returned to.
+        sequencer.note(last.card.id)
     }
 }
 

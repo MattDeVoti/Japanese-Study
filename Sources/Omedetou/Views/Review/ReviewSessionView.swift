@@ -21,8 +21,8 @@ struct ReviewSessionView: View {
     @State private var gradeCounts: [ReviewGrade: Int] = [:]
     @State private var finished = false
 
-    /// Cards per round, so a long session never feels unbounded.
-    private let sessionCap = 60
+    /// Cards per round. Fifteen is a piece of work you finish, not a queue.
+    private var sessionCap: Int { SRSStore.reviewLength }
 
     var body: some View {
         ZStack {
@@ -301,6 +301,9 @@ struct ReviewSessionView: View {
             }
         }
         current = nil
+        // Reaching the end is what starts the wait for the next round. Backing
+        // out part-way doesn't — you haven't had your fifteen questions.
+        if !finished, completed > 0 { srs.markReviewFinished() }
         finished = true
     }
 

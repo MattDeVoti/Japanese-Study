@@ -33,7 +33,7 @@ struct LessonSearchResult: Identifiable {
     let chapterId: String
     let chapterTitle: String
     let chapterNumber: Int
-    let jlptLevel: String
+    let levelId: String
     /// Position of the owning chapter in the manifest — keeps groups in book order.
     let chapterOrder: Int
     let kind: Kind
@@ -67,7 +67,7 @@ final class LessonSearchService {
                           _ primary: String, _ secondary: String, _ extra: String) -> LessonSearchResult {
                     LessonSearchResult(
                         id: id, chapterId: summary.id, chapterTitle: chapter.title,
-                        chapterNumber: summary.chapterNumber, jlptLevel: level.jlptLevel,
+                        chapterNumber: summary.chapterNumber, levelId: level.levelId,
                         chapterOrder: order, kind: kind, primary: primary, secondary: secondary,
                         haystack: "\(primary) \(secondary) \(extra)".lowercased())
                 }
@@ -95,7 +95,7 @@ final class LessonSearchService {
         for t in CultureContent.topics {
             out.append(LessonSearchResult(
                 id: "c:\(t.id)", chapterId: CultureContent.chapterId, chapterTitle: "Culture",
-                chapterNumber: 0, jlptLevel: "Culture", chapterOrder: order,
+                chapterNumber: 0, levelId: "Culture", chapterOrder: order,
                 kind: .culture(t), primary: t.title, secondary: t.subtitle,
                 haystack: "\(t.title) \(t.subtitle) \(t.body)".lowercased()))
         }

@@ -24,6 +24,7 @@ struct VocabFlashcardsView: View {
     @State private var allCards: [VocabFlashCard] = []
     @State private var current: VocabFlashCard?
     @State private var isRevealed = false
+    @StateObject private var sequencer = DeckSequencer()
     @State private var isLoading = true
     @State private var showFilter = false
     /// Shows the green-check pop over the card after "Confident" is tapped.
@@ -281,7 +282,7 @@ struct VocabFlashcardsView: View {
 
         var result: [VocabFlashCard] = []
         for level in manifest.levels {
-            let color = levelAccentColor(level.jlptLevel)
+            let color = levelAccentColor(level.levelId)
             for summary in level.chapters {
                 guard let chapter = LessonsService.shared.loadChapter(summary.id),
                       let words = chapter.vocab else { continue }
@@ -298,6 +299,7 @@ struct VocabFlashcardsView: View {
         }
 
         allCards = result.shuffled()
+        sequencer.reset()
         isLoading = false
         syncCompletedChapters()
         pickNext()
@@ -325,7 +327,7 @@ struct VocabFlashcardsView: View {
         let p = pool
         guard !p.isEmpty else { current = nil; return }
         isRevealed = false
-        current = filter.selectWeighted(from: p)
+        current = filter.selectNext(from: p, using: sequencer)
     }
 
     /// "Confident" activates the word's checkmark (excludes it from the lineup),
@@ -356,6 +358,8 @@ struct VocabFlashcardsView: View {
         }
         isRevealed = false
         current = last.card
+        // So the next draw doesn't hand back the card we just returned to.
+        sequencer.note(last.card.word.id)
     }
 }
 
@@ -496,20 +500,20 @@ private struct VocabFilterSheet: View {
                     .foregroundColor(.secondary)
             }
 
-            ForEach(levelsWithVocab, id: \.jlptLevel) { level in
+            ForEach(levelsWithVocab, id: \.levelId) { level in
                 levelBlock(level)
             }
         }
     }
 
     private func levelBlock(_ level: LessonLevel) -> some View {
-        let color = levelAccentColor(level.jlptLevel)
+        let color = levelAccentColor(level.levelId)
         let chapters = level.chapters.filter { chapterIdsWithCards.contains($0.id) }
         let allSelected = chapters.allSatisfy { filter.selectedChapterIds.contains($0.id) }
 
         return VStack(alignment: .leading, spacing: 8) {
             HStack {
-                Text(levelName(jlpt: level.jlptLevel))
+                Text(levelName(jlpt: level.levelId))
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundColor(color)
                 Spacer()

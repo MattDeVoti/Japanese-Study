@@ -67,6 +67,8 @@ final class SRSStore: ObservableObject {
     @Published private(set) var totalReviews: Int = 0
 
     private var lastStudyDay: Date?
+    /// When the last practice round was finished, so the next one can wait an hour.
+    @Published private(set) var lastReviewFinished: Date?
     private var reviewsTodayDay: Date?
     private var loaded = false
     private static let file = "srs"
@@ -74,6 +76,7 @@ final class SRSStore: ObservableObject {
     /// Internal rather than private so the sync layer can merge two copies of it.
     struct Stored: Codable {
         var memories: [String: SRSMemory] = [:]
+        var lastReviewFinished: Date?
         var lastStudyDay: Date?
         var reviewsToday: Int = 0
         var reviewsTodayDay: Date?
@@ -83,6 +86,7 @@ final class SRSStore: ObservableObject {
     private init() {
         if let s = FileStore.load(Stored.self, Self.file) {
             memories = s.memories
+            lastReviewFinished = s.lastReviewFinished
             lastStudyDay = s.lastStudyDay
             reviewsToday = s.reviewsToday
             reviewsTodayDay = s.reviewsTodayDay
@@ -143,6 +147,58 @@ final class SRSStore: ObservableObject {
             if out.count == limit { break }
         }
         return out
+    }
+
+    /// Rewrites review memories saved under the old random kanji ids so they
+    /// follow their character. Called once by CardStore, which owns the map.
+    func migrateKanjiKeys(_ idToCharacter: [String: String]) {
+        var changed = false
+        for (old, new) in idToCharacter {
+            let oldKey = SRSItemID(kind: .kanji, key: old).storageKey
+            guard let memory = memories.removeValue(forKey: oldKey) else { continue }
+            let newKey = SRSItemID(kind: .kanji, key: new).storageKey
+            // If both somehow exist, keep whichever was reviewed more recently.
+            if let existing = memories[newKey], existing.lastReview >= memory.lastReview {
+                changed = true
+                continue
+            }
+            memories[newKey] = memory
+            changed = true
+        }
+        if changed { persist() }
+    }
+
+    // MARK: - Round availability
+    //
+    // A round is a fixed, finishable piece of work rather than a tap you can keep
+    // repeating. Capping it and then making the next one wait keeps practice
+    // something you do and then leave, instead of a counter to grind down —
+    // which is the same reason there's no streak.
+
+    /// How long after finishing a round before another is offered.
+    static let reviewCooldown: TimeInterval = 60 * 60
+
+    /// Questions in one round, drawn from whatever is available.
+    static let reviewLength = 15
+
+    var nextReviewAvailable: Date? {
+        lastReviewFinished.map { $0.addingTimeInterval(Self.reviewCooldown) }
+    }
+
+    func reviewAvailable(at now: Date = Date()) -> Bool {
+        guard let next = nextReviewAvailable else { return true }
+        return now >= next
+    }
+
+    /// Seconds until the next round, or nil when one is ready now.
+    func reviewWait(at now: Date = Date()) -> TimeInterval? {
+        guard let next = nextReviewAvailable, next > now else { return nil }
+        return next.timeIntervalSince(now)
+    }
+
+    func markReviewFinished(at now: Date = Date()) {
+        lastReviewFinished = now
+        persist()
     }
 
     // MARK: - Grading
@@ -210,7 +266,8 @@ final class SRSStore: ObservableObject {
     var snapshotName: String { Self.file }
 
     func snapshot() -> Stored {
-        Stored(memories: memories, lastStudyDay: lastStudyDay,
+        Stored(memories: memories, lastReviewFinished: lastReviewFinished,
+               lastStudyDay: lastStudyDay,
                reviewsToday: reviewsToday, reviewsTodayDay: reviewsTodayDay,
                totalReviews: totalReviews)
     }
@@ -220,6 +277,7 @@ final class SRSStore: ObservableObject {
     @MainActor
     func adopt(_ s: Stored) {
         memories = s.memories
+        lastReviewFinished = s.lastReviewFinished
         lastStudyDay = s.lastStudyDay
         reviewsToday = s.reviewsToday
         reviewsTodayDay = s.reviewsTodayDay

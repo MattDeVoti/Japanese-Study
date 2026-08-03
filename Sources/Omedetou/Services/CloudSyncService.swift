@@ -18,6 +18,28 @@ import Combine
 // most of that (roughly 180 bytes an item), so a long-time learner would start
 // silently failing to sync at the worst possible moment.
 
+/// Whether this build was signed with the iCloud entitlements.
+///
+/// This has to be a build-time switch, and it has to be checked. A free personal
+/// Apple developer team cannot sign the iCloud capability at all — including it
+/// makes the app impossible to install on a device — so the default entitlements
+/// file leaves it out. And `CKContainer.default()` does not fail politely when
+/// the entitlement is missing: it raises an Objective-C exception, which Swift
+/// cannot catch. Since sync runs at launch, an unguarded call would crash the app
+/// on the phone rather than degrade.
+///
+/// (Reading the entitlement at runtime would be nicer, but the API for that,
+/// SecTaskCopyValueForEntitlement, is macOS-only.)
+enum CloudCapability {
+#if ICLOUD_SYNC
+    static let hasICloud = true
+    static let hasKeyValueStore = true
+#else
+    static let hasICloud = false
+    static let hasKeyValueStore = false
+#endif
+}
+
 @MainActor
 final class CloudSyncService: ObservableObject {
     static let shared = CloudSyncService()
@@ -27,6 +49,9 @@ final class CloudSyncService: ObservableObject {
         case syncing
         case ok(Date)
         case noAccount
+        /// This build wasn't signed for iCloud — nothing is wrong, the feature
+        /// simply isn't part of it.
+        case unavailable
         case failed(String)
 
         var isBusy: Bool { self == .syncing }
@@ -45,11 +70,17 @@ final class CloudSyncService: ObservableObject {
 
     /// Safe to call on every foreground: it no-ops while a sync is in flight.
     func syncInBackground() {
-        guard !syncing else { return }
+        guard CloudCapability.hasICloud, !syncing else { return }
         Task { await sync() }
     }
 
     func sync() async {
+        // Checked before anything touches CKContainer, which raises rather than
+        // returning an error when the entitlement is absent.
+        guard CloudCapability.hasICloud else {
+            status = .unavailable
+            return
+        }
         guard !syncing else { return }
         syncing = true
         status = .syncing
@@ -211,6 +242,7 @@ final class SettingsSync {
     private init() {}
 
     func start() {
+        guard CloudCapability.hasKeyValueStore else { return }
         observer = NotificationCenter.default.addObserver(
             forName: NSUbiquitousKeyValueStore.didChangeExternallyNotification,
             object: cloud, queue: .main
@@ -220,6 +252,7 @@ final class SettingsSync {
     }
 
     func push() {
+        guard CloudCapability.hasKeyValueStore else { return }
         let d = UserDefaults.standard
         for key in keys {
             if maxima.contains(key) {
@@ -232,6 +265,7 @@ final class SettingsSync {
     }
 
     func pull() {
+        guard CloudCapability.hasKeyValueStore else { return }
         let d = UserDefaults.standard
         for key in keys {
             guard let v = cloud.object(forKey: key) else { continue }

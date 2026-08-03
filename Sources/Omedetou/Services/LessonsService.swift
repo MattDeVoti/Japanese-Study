@@ -33,10 +33,10 @@ final class LessonsService {
         manifest?.levels.flatMap(\.chapters).first { $0.id == chapterId }
     }
 
-    func jlptLevel(for chapterId: String) -> String? {
+    func levelId(for chapterId: String) -> String? {
         manifest?.levels
             .first(where: { $0.chapters.contains(where: { $0.id == chapterId }) })
-            .map(\.jlptLevel)
+            .map(\.levelId)
     }
 
     /// The ids of every point in a chapter, read straight from the chapter file so

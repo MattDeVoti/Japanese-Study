@@ -123,6 +123,15 @@ final class VocabFlashcardsFilter: ObservableObject {
         StudyWeightSettings.shared.pick(cards) { needsWorkCounts[$0.word.id] ?? 0 }
     }
 
+    /// The deck's own draw: same weighting, but it won't repeat the card just
+    /// shown and, with priority off, works through the pool before repeating.
+    func selectNext(from cards: [VocabFlashCard],
+                    using sequencer: DeckSequencer) -> VocabFlashCard? {
+        sequencer.next(from: cards,
+                       key: { $0.word.id },
+                       needsWork: { [weak self] in self?.needsWorkCounts[$0.word.id] ?? 0 })
+    }
+
     // MARK: - Apply
 
     func apply(to cards: [VocabFlashCard]) -> [VocabFlashCard] {

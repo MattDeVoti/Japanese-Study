@@ -87,7 +87,7 @@ struct FavoritesView: View {
             guard let chapter = LessonsService.shared.loadChapter(chId) else { continue }
             let pts = chapter.points.filter { favIds.contains($0.id) }
             guard !pts.isEmpty else { continue }
-            let jlpt = LessonsService.shared.jlptLevel(for: chId) ?? "N5"
+            let jlpt = LessonsService.shared.levelId(for: chId) ?? "N5"
             let lvl = Int(jlpt.dropFirst()) ?? 5
             result.append(FavSection(id: chId, title: chapter.title, accentColor: nLevelColor(lvl), points: pts))
         }

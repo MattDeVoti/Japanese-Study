@@ -215,23 +215,23 @@ extension Color {
     }
 }
 
-// Friendly progression names shown to the user instead of JLPT codes:
+// Friendly progression names shown to the user instead of N-codes:
 // N5 → "Level 1", N4 → "Level 2", … N1 → "Level 5"  (Level = 6 − N).
 
-/// The level number (1…5) for a JLPT level int (5…1).
+/// The level number (1…5) for an N-level int (5…1).
 func levelNumber(_ nLevel: Int) -> Int { 6 - nLevel }
 
-/// Full display name for a JLPT level int, e.g. 5 → "Level 1".
+/// Full display name for an N-level int, e.g. 5 → "Level 1".
 func levelName(_ nLevel: Int) -> String { "Level \(levelNumber(nLevel))" }
 
-/// Display name from a JLPT string ("N5" → "Level 1"). Non-JLPT labels
+/// Display name from an N-level string ("N5" → "Level 1"). Other labels
 /// (e.g. "Hiragana", "Katakana") pass through unchanged.
 func levelName(jlpt: String) -> String {
     guard jlpt.hasPrefix("N"), let n = Int(jlpt.dropFirst()) else { return jlpt }
     return levelName(n)
 }
 
-/// Kanji numeral for a JLPT level int, matching the level number shown on the
+/// Kanji numeral for an N-level int, matching the level number shown on the
 /// tile (N5 → Level 1 → 一). Empty outside 1–5 so a sixth book degrades quietly.
 func levelKanjiNumeral(_ nLevel: Int) -> String {
     let numerals = ["一", "二", "三", "四", "五"]
@@ -247,12 +247,12 @@ func nLevelColor(_ level: Int) -> Color {
     return Color.themeTile((displayed - 1) * 2)  // slots 0,2,4,6,8
 }
 
-func levelAccentColor(_ jlptLevel: String) -> Color {
-    switch jlptLevel {
+func levelAccentColor(_ levelId: String) -> Color {
+    switch levelId {
     case "Hiragana": return .hiraganaColor
     case "Katakana": return .katakanaColor
     case SlangContent.levelId: return SlangContent.accent
-    default: return nLevelColor(Int(jlptLevel.dropFirst()) ?? 5)
+    default: return nLevelColor(Int(levelId.dropFirst()) ?? 5)
     }
 }
 

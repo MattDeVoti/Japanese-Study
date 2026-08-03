@@ -73,7 +73,7 @@
         {
           "id": "potential_q3",
           "type": "usage",
-          "prompt": "Which is the correct standard potential form of 起[お]きる (to get up) for JLPT use?",
+          "prompt": "Which is the correct standard potential form of 起[お]きる (to get up) in formal use?",
           "japanese": null,
           "choices": [
             "起[お]けます",
@@ -82,7 +82,7 @@
             "起[お]きれます"
           ],
           "correctIndex": 2,
-          "explanation": "起[お]きる is Group 2 (ru-verb). Drop る and add られる → 起[お]きられる. Polite: 起[お]きられます. 起[お]きれます is ra-nuki (ら-dropping) — common in casual speech but non-standard for JLPT. 起[お]けます incorrectly applies the Group 1 pattern to a Group 2 verb."
+          "explanation": "起[お]きる is Group 2 (ru-verb). Drop る and add られる → 起[お]きられる. Polite: 起[お]きられます. 起[お]きれます is ra-nuki (ら-dropping) — common in casual speech but non-standard in formal use. 起[お]けます incorrectly applies the Group 1 pattern to a Group 2 verb."
         },
         {
           "id": "potential_q4",
@@ -241,7 +241,7 @@
         {
           "id": "potential_q15",
           "type": "usage",
-          "prompt": "Which is the standard JLPT-appropriate potential form of 食[た]べる?",
+          "prompt": "Which is the standard formal potential form of 食[た]べる?",
           "japanese": null,
           "choices": [
             "食[た]べます",
@@ -250,7 +250,7 @@
             "食[た]べれます"
           ],
           "correctIndex": 2,
-          "explanation": "食[た]べる is Group 2. Drop る + られる → 食[た]べられる. Polite: 食[た]べられます ✓. 食[た]べれます is ra-nuki (ら-dropping) — widely heard in casual conversation but considered non-standard in formal writing and on the JLPT. 食[た]べます = 'to eat' (not potential). 食[た]べできます is an invalid form."
+          "explanation": "食[た]べる is Group 2. Drop る + られる → 食[た]べられる. Polite: 食[た]べられます ✓. 食[た]べれます is ra-nuki (ら-dropping) — widely heard in casual conversation but considered non-standard in formal writing and in exams. 食[た]べます = 'to eat' (not potential). 食[た]べできます is an invalid form."
         },
         {
           "id": "potential_q16",
@@ -301,12 +301,12 @@
           "japanese": null,
           "choices": [
             "The standard preferred potential form of 食[た]べる in all registers",
-            "The formal written form used on JLPT exams",
-            "Common in casual speech but non-standard; the full form 食[た]べられる is required for JLPT",
+            "The formal written form used in exams",
+            "Common in casual speech but non-standard; the full form 食[た]べられる is required in formal use",
             "Identical in form and meaning to the passive 食[た]べられる"
           ],
           "correctIndex": 2,
-          "explanation": "食[た]べれる is ら-nuki (ra-dropping): ら is removed from 食[た]べられる. It is very common in everyday spoken Japanese, but is still considered non-standard in formal writing and on JLPT. The standard form 食[た]べられる is both the potential ('can eat') and the passive ('is eaten') — context determines meaning. Know both forms."
+          "explanation": "食[た]べれる is ら-nuki (ra-dropping): ら is removed from 食[た]べられる. It is very common in everyday spoken Japanese, but is still considered non-standard in formal writing and in exams. The standard form 食[た]べられる is both the potential ('can eat') and the passive ('is eaten') — context determines meaning. Know both forms."
         },
         {
           "id": "potential_q20",

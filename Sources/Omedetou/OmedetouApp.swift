@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct JLPTStudyApp: App {
+struct OmedetouApp: App {
     @Environment(\.scenePhase) private var scenePhase
     @StateObject private var store = CardStore()
     @StateObject private var kanjiFilter = KanjiFilter()

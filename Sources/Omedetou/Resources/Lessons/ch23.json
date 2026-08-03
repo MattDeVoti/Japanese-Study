@@ -507,13 +507,13 @@
           "prompt": "Which correctly says 'This door cannot be opened'?",
           "japanese": null,
           "choices": [
+            "このドアを開[あ]けることができません。",
             "このドアを開[あ]くことができません。",
-            "このドアが開[あ]くことができません。",
-            "このドアで開[ひら]くことができません。",
-            "このドアに開[ひら]くことができません。"
+            "このドアで開[あ]けることができません。",
+            "このドアに開[あ]けることができません。"
           ],
           "correctIndex": 0,
-          "explanation": "を + dict-form + ことができません: このドアを開[あ]くことができません = this door cannot be opened. を marks the physical object of the action."
+          "explanation": "開[あ]ける is the transitive verb, so it takes を: このドアを開[あ]けることができません = this door cannot be opened. 開[あ]く is its intransitive partner and can never take を — ✗ドアを開[あ]く. To say it the intransitive way you would drop ことができる entirely: このドアは開[あ]きません."
         },
         {
           "id": "koto-ga-dekiru_q12",

@@ -5,8 +5,8 @@ struct LessonManifest: Codable {
 }
 
 struct LessonLevel: Codable, Identifiable {
-    var id: String { jlptLevel }
-    let jlptLevel: String
+    var id: String { levelId }
+    let levelId: String
     let chapters: [ChapterSummary]
 }
 

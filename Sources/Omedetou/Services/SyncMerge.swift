@@ -44,6 +44,8 @@ enum SyncMerge {
         out.totalReviews = max(fromReps, max(local.totalReviews, remote.totalReviews))
 
         out.lastStudyDay = latest(local.lastStudyDay, remote.lastStudyDay)
+        // The later finish wins: a round done on either device starts the wait.
+        out.lastReviewFinished = latest(local.lastReviewFinished, remote.lastReviewFinished)
 
         // Today's counter only means anything within one day. Same day: take the
         // larger, since the two can't be added without knowing the overlap.

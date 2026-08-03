@@ -56,15 +56,15 @@ final class ExamStore: ObservableObject {
         var out: [ExamLesson] = []
 
         for name in ["Hiragana", "Katakana"] {
-            guard let level = manifest.levels.first(where: { $0.jlptLevel == name }) else { continue }
+            guard let level = manifest.levels.first(where: { $0.levelId == name }) else { continue }
             out += kanaLessons(level: level)
         }
         let grammar = manifest.levels
-            .filter { $0.jlptLevel.hasPrefix("N") }
-            .sorted { (Int($0.jlptLevel.dropFirst()) ?? 0) > (Int($1.jlptLevel.dropFirst()) ?? 0) }
+            .filter { $0.levelId.hasPrefix("N") }
+            .sorted { (Int($0.levelId.dropFirst()) ?? 0) > (Int($1.levelId.dropFirst()) ?? 0) }
         for level in grammar {
             for ch in level.chapters {
-                out.append(ExamLesson(id: ch.id, levelId: level.jlptLevel, title: ch.title,
+                out.append(ExamLesson(id: ch.id, levelId: level.levelId, title: ch.title,
                                       coverage: "Grammar, vocab and kanji",
                                       chapterIds: [ch.id], kind: .chapter))
             }
@@ -76,7 +76,7 @@ final class ExamStore: ObservableObject {
     /// single paper covering the lot for anyone who already knows it.
     private func kanaLessons(level: LessonLevel) -> [ExamLesson] {
         let chapters = level.chapters
-        let name = level.jlptLevel
+        let name = level.levelId
         let key = name.lowercased()
         guard chapters.count >= 3 else { return [] }
 

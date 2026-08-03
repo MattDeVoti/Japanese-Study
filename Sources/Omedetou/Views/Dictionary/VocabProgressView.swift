@@ -83,7 +83,7 @@ struct VocabProgressView: View {
         guard let manifest = LessonsService.shared.manifest else { loaded = true; return }
         var result: [VocabFlashCard] = []
         for level in manifest.levels {
-            let color = levelAccentColor(level.jlptLevel)
+            let color = levelAccentColor(level.levelId)
             for summary in level.chapters {
                 guard let chapter = LessonsService.shared.loadChapter(summary.id),
                       let words = chapter.vocab else { continue }

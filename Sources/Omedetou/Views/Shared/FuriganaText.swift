@@ -362,6 +362,10 @@ enum FuriganaAnnotator {
         (0x3400...0x4DBF).contains(scalar.value) ||
         (0xF900...0xFAFF).contains(scalar.value) ||
         scalar.value == 0x3005 ||   // 々 iteration mark (人々, 時々, 様々)
+        scalar.value == 0x3007 ||   // 〇 ideographic zero — a kanji numeral, as in
+                                    // 一九七〇年代. Excluding it truncated the base of
+                                    // any span containing it, so the whole reading
+                                    // piled onto the two characters after the 〇.
         scalar.value == 0x30F6 ||   // ヶ (as in 鬼ヶ島)
         scalar.value == 0x30F5      // ヵ
     }

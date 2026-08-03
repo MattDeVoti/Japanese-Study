@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Privacy manifest for the widget extension.
+         Every bundle that uses a required reason API needs its own manifest —
+         an extension cannot rely on the containing app's. The widget's needs
+         are narrower than the app's: it reads the shared snapshot and nothing
+         else, so there is no file-timestamp declaration here. -->
+
+    <key>NSPrivacyTracking</key>
+    <false/>
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array/>
+
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- 1C8F.1 — the App Group suite the widget shares with the
+                     app, which is where the word it displays comes from. -->
+                <string>1C8F.1</string>
+                <!-- CA92.1 — WidgetShared.defaults falls back to the widget's
+                     own standard defaults if the App Group suite can't be
+                     opened. Declared because that path exists in shipped code. -->
+                <string>CA92.1</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>

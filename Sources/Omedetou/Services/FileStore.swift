@@ -9,13 +9,26 @@ import Foundation
 // *backups*, so a restore brings progress back.
 
 enum FileStore {
-    /// Application Support/JLPTStudy — created on first use.
+    /// Application Support/Omedetou — created on first use.
     private static let directory: URL = {
-        let base = FileManager.default.urls(for: .applicationSupportDirectory,
-                                            in: .userDomainMask).first
+        let fm = FileManager.default
+        let base = fm.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
             ?? URL(fileURLWithPath: NSTemporaryDirectory())
-        let dir = base.appendingPathComponent("JLPTStudy", isDirectory: true)
-        try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        let dir = base.appendingPathComponent("Omedetou", isDirectory: true)
+
+        // The folder used to be named after the old product name. Move it rather
+        // than leaving every study record stranded beside the new empty one.
+        //
+        // This string must stay "JLPTStudy" — it names what is already on disk,
+        // not what the app is called. A blanket rename of the old product name
+        // silently rewrote it once, which made legacy == dir and quietly turned
+        // the migration into a no-op.
+        let legacy = base.appendingPathComponent("JLPTStudy", isDirectory: true)
+        if !fm.fileExists(atPath: dir.path), fm.fileExists(atPath: legacy.path) {
+            try? fm.moveItem(at: legacy, to: dir)
+        }
+
+        try? fm.createDirectory(at: dir, withIntermediateDirectories: true)
         return dir
     }()
 

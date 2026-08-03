@@ -35,6 +35,10 @@ struct ReviewHomeCard: View {
         if srs.enrolledCount == 0 {
             return studiedCount > 0 ? .setup(studiedCount) : .hidden
         }
+        // A finished round takes the bar away for an hour. Same reasoning as the
+        // rest of this card: with nothing to do right now it shouldn't occupy
+        // prime space, and an hour's wait is not an action.
+        guard srs.reviewAvailable() else { return .hidden }
         return due > 0 ? .due(due) : .hidden
     }
 

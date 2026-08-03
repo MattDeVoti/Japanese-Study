@@ -9,7 +9,7 @@ import SwiftUI
 
 public enum WidgetShared {
     /// Both targets carry this App Group so they see the same defaults suite.
-    public static let appGroup = "group.com.mattdevoti1.jlptstudy"
+    public static let appGroup = "group.com.mattdevoti1.omedetou"
 
     /// One widget, mixing kanji example words and lesson vocabulary. They were
     /// two separate widgets at first, which was a distinction without a

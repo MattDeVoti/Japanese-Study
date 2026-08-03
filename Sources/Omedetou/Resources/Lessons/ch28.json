@@ -1218,12 +1218,12 @@
           "japanese": null,
           "choices": [
             "彼女[かのじょ]が好[す]きではないわけではない、ただ忙[いそが]しいだけです。",
-            "彼女[かのじょ]が好[す]きじゃないわけではない、ただ忙[いそが]しいだけです。",
             "彼女[かのじょ]を嫌[きら]いなわけではない、ただ忙[いそが]しいだけです。",
-            "彼女[かのじょ]が嫌[きら]いではないわけではない、ただ忙[いそが]しいだけです。"
+            "彼女[かのじょ]が嫌[きら]いではないわけではない、ただ忙[いそが]しいだけです。",
+            "彼女[かのじょ]が好[す]きなわけではない、ただ忙[いそが]しいだけです。"
           ],
-          "correctIndex": 2,
-          "explanation": "な-adj negative + なわけではない: 嫌[きら]い (dislike) + な + わけではない = it's not that  dislikes her. ただ忙[いそが]しいだけです = he's just busy. Clearer to say 嫌[きら]いなわけではない than double-negative."
+          "correctIndex": 0,
+          "explanation": "好[す]きではない (doesn't like her) + わけではない = 'it's not that he doesn't like her' — the double negative is the point, and it is what the English says. 嫌[きら]いなわけではない means 'it's not that he dislikes her', a different claim, and 嫌[きら]い takes が, never を. 好[す]きなわけではない is a single negative: 'it's not that he likes her.'"
         },
         {
           "id": "wake-dewa-nai_q17",

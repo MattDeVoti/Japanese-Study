@@ -8,7 +8,7 @@ struct LessonSearchResultsView: View {
     private struct ChapterGroup: Identifiable {
         let id: String
         let title: String
-        let jlptLevel: String
+        let levelId: String
         let chapterNumber: Int
         let items: [LessonSearchResult]
     }
@@ -24,7 +24,7 @@ struct LessonSearchResultsView: View {
         return order.compactMap { id in
             guard let items = buckets[id], let first = items.first else { return nil }
             // Keep the service's ranking (relevance tier, then type) inside each group.
-            return ChapterGroup(id: id, title: first.chapterTitle, jlptLevel: first.jlptLevel,
+            return ChapterGroup(id: id, title: first.chapterTitle, levelId: first.levelId,
                                 chapterNumber: first.chapterNumber, items: items)
         }
     }
@@ -56,9 +56,9 @@ struct LessonSearchResultsView: View {
     }
 
     private func header(_ group: ChapterGroup) -> some View {
-        let isCulture = group.jlptLevel == "Culture"
-        let levelText = isCulture ? "Culture" : levelName(jlpt: group.jlptLevel)
-        let color = isCulture ? CultureContent.accent : levelAccentColor(group.jlptLevel)
+        let isCulture = group.levelId == "Culture"
+        let levelText = isCulture ? "Culture" : levelName(jlpt: group.levelId)
+        let color = isCulture ? CultureContent.accent : levelAccentColor(group.levelId)
         return HStack(spacing: 6) {
             Text(levelText.uppercased())
                 .font(.system(size: 11, weight: .bold))
@@ -139,7 +139,7 @@ private struct SearchResultRow: View {
 
     private var badgeColor: Color {
         switch result.kind {
-        case .grammar: return levelAccentColor(result.jlptLevel)
+        case .grammar: return levelAccentColor(result.levelId)
         case .vocab:   return .vocabColor
         case .kanji:   return .kanjiColor
         case .culture: return CultureContent.accent
@@ -152,7 +152,7 @@ private struct SearchResultRow: View {
         case let .grammar(point):
             if let summary = LessonsService.shared.chapterSummary(for: result.chapterId) {
                 ChapterDetailView(summary: summary,
-                                  accentColor: levelAccentColor(result.jlptLevel),
+                                  accentColor: levelAccentColor(result.levelId),
                                   focusPointId: point.id)
             }
         case let .vocab(word):

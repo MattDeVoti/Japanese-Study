@@ -35,7 +35,7 @@ import sys
 import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RESOURCES = os.path.join(ROOT, "Sources", "JLPTStudy", "Resources")
+RESOURCES = os.path.join(ROOT, "Sources", "Omedetou", "Resources")
 
 ANN = re.compile(r'([一-鿿々〇]+)\[([぀-ゟ゠-ヿー]+)\]')
 KANJI = re.compile(r'[一-鿿々〇]')

@@ -1,7 +1,7 @@
 import SwiftUI
 import UniformTypeIdentifiers
 
-// The signature hue for everything "custom" — indigo, distinct from the JLPT
+// The signature hue for everything "custom" — indigo, distinct from the level
 // level colors and the gold used by Favorites.
 var customAccent: Color { .themeTile(7) }
 

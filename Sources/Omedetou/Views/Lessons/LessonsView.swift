@@ -14,20 +14,20 @@ struct LessonsView: View {
     // Two kana levels, in fixed display order.
     private var kanaLevels: [LessonLevel] {
         ["Hiragana", "Katakana"].compactMap { name in
-            levels.first { $0.jlptLevel == name }
+            levels.first { $0.levelId == name }
         }
     }
 
     // The five grammar books, N5 → N1.
     private var grammarLevels: [LessonLevel] {
         levels
-            .filter { $0.jlptLevel.hasPrefix("N") }
-            .sorted { (Int($0.jlptLevel.dropFirst()) ?? 0) > (Int($1.jlptLevel.dropFirst()) ?? 0) }
+            .filter { $0.levelId.hasPrefix("N") }
+            .sorted { (Int($0.levelId.dropFirst()) ?? 0) > (Int($1.levelId.dropFirst()) ?? 0) }
     }
 
     /// The slang book — its own bubble after Level 5.
     private var slangLevel: LessonLevel? {
-        levels.first { $0.jlptLevel == SlangContent.levelId }
+        levels.first { $0.levelId == SlangContent.levelId }
     }
 
     /// Every entry is a full-width bar, one per line — the same shape the home
@@ -168,7 +168,7 @@ struct LessonsView: View {
 
 // MARK: - Slang chapter
 
-/// The standalone slang chapter: not a JLPT level, so it gets its own manifest
+/// The standalone slang chapter: not an N-level, so it gets its own manifest
 /// "level" and its own bubble at the end of the Grammar row.
 enum SlangContent {
     /// The manifest level id that holds the single slang chapter.
@@ -192,11 +192,11 @@ private struct SlangCircleButton: View {
 
 private struct KanaCircleButton: View {
     let level: LessonLevel
-    private var color: Color { levelAccentColor(level.jlptLevel) }
-    private var glyph: String { level.jlptLevel == "Hiragana" ? "ひ" : "カ" }
+    private var color: Color { levelAccentColor(level.levelId) }
+    private var glyph: String { level.levelId == "Hiragana" ? "ひ" : "カ" }
 
     var body: some View {
-        AestheticTile(title: level.jlptLevel, subtitle: "\(level.chapters.count) lessons",
+        AestheticTile(title: level.levelId, subtitle: "\(level.chapters.count) lessons",
                       glyph: glyph, icon: "textformat", color: color, aspect: nil)
             .frame(height: LessonsView.barHeight)
     }
@@ -204,7 +204,7 @@ private struct KanaCircleButton: View {
 
 private struct GrammarCircleButton: View {
     let level: LessonLevel
-    private var levelInt: Int { Int(level.jlptLevel.dropFirst()) ?? 5 }
+    private var levelInt: Int { Int(level.levelId.dropFirst()) ?? 5 }
 
     var body: some View {
         AestheticTile(title: levelName(levelInt), subtitle: "\(level.chapters.count) chapters",
@@ -241,9 +241,9 @@ private struct FavoritesCircleButton: View {
 struct LevelView: View {
     let level: LessonLevel
 
-    private var accentColor: Color { levelAccentColor(level.jlptLevel) }
+    private var accentColor: Color { levelAccentColor(level.levelId) }
 
-    private var navTitle: String { levelName(jlpt: level.jlptLevel) }
+    private var navTitle: String { levelName(jlpt: level.levelId) }
 
     var body: some View {
         ZStack {

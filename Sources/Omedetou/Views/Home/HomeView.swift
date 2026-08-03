@@ -225,6 +225,11 @@ struct HomeOptionsSheet: View {
                     } label: {
                         Label("Backup & Restore", systemImage: "externaldrive.fill")
                     }
+                    NavigationLink {
+                        AboutView()
+                    } label: {
+                        Label("About & Sources", systemImage: "info.circle.fill")
+                    }
                 }
                 Section {
                     HStack {
@@ -241,11 +246,13 @@ struct HomeOptionsSheet: View {
                     } label: {
                         Label("Sync now", systemImage: "arrow.triangle.2.circlepath")
                     }
-                    .disabled(cloud.status.isBusy)
+                    .disabled(cloud.status.isBusy || cloud.status == .unavailable)
                 } header: {
                     Label("Sync", systemImage: "icloud")
                 } footer: {
-                    Text("Your progress is kept on this device and copied to your own iCloud account, so picking up another iPhone or iPad carries on where you left off. Work done on two devices at once is merged rather than overwritten. Nothing is sent anywhere else, and the app works normally without iCloud.")
+                    Text(cloud.status == .unavailable
+                         ? "Sync is built in but switched off in this build, because signing the iCloud capability needs a paid Apple Developer account. Everything is saved on this device as usual, and Backup & Restore still moves it between devices."
+                         : "Your progress is kept on this device and copied to your own iCloud account, so picking up another iPhone or iPad carries on where you left off. Work done on two devices at once is merged rather than overwritten. Nothing is sent anywhere else, and the app works normally without iCloud.")
                 }
                 Section {
                     Picker("Priority", selection: $weightSettings.mode) {
@@ -665,6 +672,7 @@ private extension HomeOptionsSheet {
         case .syncing:            return "arrow.triangle.2.circlepath.icloud"
         case .ok:                 return "checkmark.icloud"
         case .noAccount, .failed: return "exclamationmark.icloud"
+        case .unavailable:        return "icloud.slash"
         case .idle:               return "icloud"
         }
     }
@@ -675,6 +683,7 @@ private extension HomeOptionsSheet {
         case .syncing:     return "Syncing…"
         case .ok(let at):  return "Synced " + Self.clock.string(from: at)
         case .noAccount:   return "Sign in to iCloud in Settings"
+        case .unavailable: return "Not enabled in this build"
         case .failed(let why): return why
         }
     }

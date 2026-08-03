@@ -7,11 +7,11 @@ import Foundation
 struct Reading: Codable, Identifiable {
     let id: String
     let title: String        // shown in the list; may contain furigana markup
-    let jlptLevel: String    // "N5" … "N1"
+    let levelId: String    // "N5" … "N1"
     let order: Int           // difficulty rank within the level (1 = easiest)
     let type: String         // "letter" | "email" | "story" | "article" | "dialogue" | "diary"
     let passage: String      // Japanese, furigana markup, paragraphs split by "\n\n"
     let questions: [PracticeQuestion]
 
-    var nLevel: Int { Int(jlptLevel.dropFirst()) ?? 5 }
+    var nLevel: Int { Int(levelId.dropFirst()) ?? 5 }
 }

@@ -15,14 +15,6 @@ class CardStore: ObservableObject {
     /// Word id → every kanji card id that word appears under (usually one).
     private var wordParents: [String: [String]] = [:]
 
-    // Resolves to the bundled folder if present, falls back to dev path
-    static let basePath: String = {
-        if let p = Bundle.main.url(forResource: "JLPT Assets", withExtension: nil)?.path,
-           FileManager.default.fileExists(atPath: p) {
-            return p
-        }
-        return "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/JLPT Assets"
-    }()
 
     // MARK: - Persistence
 
@@ -33,7 +25,9 @@ class CardStore: ObservableObject {
         var excludedKanji: Set<String> = []
     }
 
-    private let defaultsKey = "JLPTCardStoreData"
+    private let defaultsKey = "OmedetouCardStoreData"
+    /// Key this data lived under before the product was renamed.
+    private let legacyDefaultsKey = "JLPTCardStoreData"
     private var data = PersistentData()
 
     /// Kanji card ids the user has "checked off" — excluded from the flashcard
@@ -43,8 +37,40 @@ class CardStore: ObservableObject {
 
     init() {
         loadPersistedData()
+        migrateKanjiIdsToCharacters()
         excludedKanjiIds = data.excludedKanji
         loadAllCards()
+    }
+
+    /// Moves progress saved under the old random `kanjiId` onto the character.
+    ///
+    /// Only the ids present in the shipped data are remapped — grammar cards
+    /// share these same collections and their ids (`g_n5_…`) are left alone.
+    private func migrateKanjiIdsToCharacters() {
+        let flag = "KanjiIdsAreCharactersV1"
+        guard !UserDefaults.standard.bool(forKey: flag) else { return }
+        defer { UserDefaults.standard.set(true, forKey: flag) }
+
+        struct Row: Decodable { let kanji: String; let kanjiId: String }
+        guard let url = Bundle.main.url(forResource: "kanji_data", withExtension: "json"),
+              let raw = try? Data(contentsOf: url),
+              let rows = try? JSONDecoder().decode([Row].self, from: raw) else { return }
+        let map = Dictionary(rows.map { ($0.kanjiId, $0.kanji) }, uniquingKeysWith: { a, _ in a })
+        guard !map.isEmpty else { return }
+
+        var moved = 0
+        for (old, new) in map {
+            if data.favorites.remove(old) != nil { data.favorites.insert(new); moved += 1 }
+            if let n = data.needsWorkCounts.removeValue(forKey: old) {
+                data.needsWorkCounts[new] = n; moved += 1
+            }
+            if let n = data.confidentCounts.removeValue(forKey: old) {
+                data.confidentCounts[new] = n; moved += 1
+            }
+            if data.excludedKanji.remove(old) != nil { data.excludedKanji.insert(new); moved += 1 }
+        }
+        SRSStore.shared.migrateKanjiKeys(map)
+        if moved > 0 { persist() }
     }
 
     // MARK: - Card Loading
@@ -81,11 +107,8 @@ class CardStore: ObservableObject {
     }
 
     private func loadParticleCards() -> [ParticleCard] {
-        let url: URL
-        if let bundled = Bundle.main.url(forResource: "particles_data", withExtension: "json") {
-            url = bundled
-        } else {
-            url = URL(fileURLWithPath: "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/Sources/JLPTStudy/Resources/particles_data.json")
+        guard let url = Bundle.main.url(forResource: "particles_data", withExtension: "json") else {
+            return []
         }
 
         guard let raw = try? Data(contentsOf: url) else { return [] }
@@ -110,11 +133,8 @@ class CardStore: ObservableObject {
     }
 
     private func loadKanjiCards() -> [KanjiCard] {
-        let url: URL
-        if let bundled = Bundle.main.url(forResource: "kanji_data", withExtension: "json") {
-            url = bundled
-        } else {
-            url = URL(fileURLWithPath: "/Users/mattdevoti1/Documents/Claude Code/Japanese Study/Sources/JLPTStudy/Resources/kanji_data.json")
+        guard let url = Bundle.main.url(forResource: "kanji_data", withExtension: "json") else {
+            return []
         }
 
         guard let raw = try? Data(contentsOf: url) else { return [] }
@@ -141,9 +161,9 @@ class CardStore: ObservableObject {
                 onyomi: json.onyomi ?? [],
                 kunyomi: json.kunyomi ?? [],
                 commonWords: json.commonWords ?? [],
-                isFavorite: data.favorites.contains(json.kanjiId),
-                needsWorkCount: data.needsWorkCounts[json.kanjiId] ?? 0,
-                confidentCount: data.confidentCounts[json.kanjiId] ?? 0
+                isFavorite: data.favorites.contains(json.kanji),
+                needsWorkCount: data.needsWorkCounts[json.kanji] ?? 0,
+                confidentCount: data.confidentCounts[json.kanji] ?? 0
             )
             return (idx, card)
         }
@@ -151,61 +171,13 @@ class CardStore: ObservableObject {
         .map { $0.1 }
     }
 
-    private func loadGrammarCards() -> [GrammarCard] {
-        let levelPaths: [(Int, String)] = [
-            (5, "N5/Grammar/JLPT N5 Grammar List Flashcards Set/N5 Grammar Flashcards (square)"),
-            (4, "N4/Grammar/JLPT N4 Grammar List Flashcards Set/N4 Grammar Flashcards (square)"),
-            (3, "N3/Grammar/JLPT N3 Grammar List Flashcards Set/N3 Grammar Flashcards (square)"),
-            (2, "N2/Grammar/JLPT N2 Grammar Flashcards/N2 Grammar Flashcards Square"),
-            (1, "N1/Grammar/JLPT N1 Grammar Flashcards/N1 Grammar Flashcards Square"),
-        ]
-        var cards: [GrammarCard] = []
-        for (level, rel) in levelPaths {
-            let folder = Self.basePath + "/" + rel
-            guard let files = try? FileManager.default.contentsOfDirectory(atPath: folder) else { continue }
-            for f in files.sorted() where f.hasSuffix(".png") {
-                let (romaji, japanese) = parseGrammarFilename(f)
-                guard !romaji.isEmpty else { continue }
-                let cid = "g_n\(level)_\(f)"
-                cards.append(GrammarCard(
-                    id: cid,
-                    romaji: romaji,
-                    japanese: japanese,
-                    nLevel: level,
-                    imagePath: folder + "/" + f,
-                    isFavorite: data.favorites.contains(cid),
-                    needsWorkCount: data.needsWorkCounts[cid] ?? 0,
-                    confidentCount: data.confidentCounts[cid] ?? 0
-                ))
-            }
-        }
-        return cards.sorted {
-            $0.nLevel != $1.nLevel ? $0.nLevel > $1.nLevel : $0.romaji < $1.romaji
-        }
-    }
+    /// Vestigial. This deck was driven by printable flashcard images that were
+    /// never bundled, and no screen displays it — the app's grammar teaching
+    /// comes from the lesson files instead.
+    private func loadGrammarCards() -> [GrammarCard] { [] }
 
-    private func loadVocabFiles() -> [VocabFile] {
-        let levelPaths: [(Int, String)] = [
-            (5, "N5/Vocabulary"),
-            (4, "N4/Vocabulary"),
-            (3, "N3/Vocabulary"),
-            (2, "N2/Vocabulary"),
-            (1, "N1/Vocabulary"),
-        ]
-        var files: [VocabFile] = []
-        for (level, rel) in levelPaths {
-            let folder = Self.basePath + "/" + rel
-            guard let pdfs = try? FileManager.default.contentsOfDirectory(atPath: folder) else { continue }
-            for f in pdfs.sorted() where f.hasSuffix(".pdf") {
-                files.append(VocabFile(
-                    level: level,
-                    displayName: condensedVocabName(f),
-                    path: folder + "/" + f
-                ))
-            }
-        }
-        return files
-    }
+    /// Vestigial, for the same reason as `loadGrammarCards`.
+    private func loadVocabFiles() -> [VocabFile] { [] }
 
     // MARK: - Filename Parsing
 
@@ -223,33 +195,6 @@ class CardStore: ObservableObject {
         return (name.trimmingCharacters(in: .whitespaces), "")
     }
 
-    private func condensedVocabName(_ filename: String) -> String {
-        var n = filename.replacingOccurrences(of: ".pdf", with: "")
-        let strips = [
-            "Vocabulary - N[1-5] ",
-            "N[1-5] Vocabulary - ",
-            "JLPT N[1-5] Vocabulary ",
-            "JLPT SENSEI - N[1-5] Vocabulary - ",
-            "N[1-5] ",
-            " - JLPT Sensei.*",
-            " - JLPTsensei\\.com",
-            " by JLPTsensei\\.com",
-            " JLPTsensei\\.com",
-            " Ebook",
-            " LIST$",
-            " List$",
-            " V2$",
-            "JLPT ",
-        ]
-        for pattern in strips {
-            n = n.replacingOccurrences(of: pattern, with: "", options: .regularExpression)
-        }
-        n = n.replacingOccurrences(of: "Adjectives (い)", with: "い Adjectives")
-        n = n.replacingOccurrences(of: "Adjectives (な)", with: "な Adjectives")
-        n = n.replacingOccurrences(of: "い adjectives", with: "い Adjectives")
-        n = n.replacingOccurrences(of: "な adjectives", with: "な Adjectives")
-        return n.trimmingCharacters(in: .whitespaces)
-    }
 
     // MARK: - Card Operations
 
@@ -420,6 +365,15 @@ class CardStore: ObservableObject {
         StudyWeightSettings.shared.pick(items) { needsWorkCount(forId: $0.id) }
     }
 
+    /// The deck's own draw: same weighting, but it won't repeat the card just
+    /// shown and, with priority off, works through the pool before repeating.
+    func selectNextKanjiItem(from items: [KanjiStudyItem],
+                             using sequencer: DeckSequencer) -> KanjiStudyItem? {
+        sequencer.next(from: items,
+                       key: { $0.id },
+                       needsWork: { [weak self] in self?.needsWorkCount(forId: $0.id) ?? 0 })
+    }
+
     // Pin number kanji to the front in ascending order
     private func pinNumberKanji(_ cards: [KanjiCard]) -> [KanjiCard] {
         let pinnedOrder = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "百", "千", "万"]
@@ -456,6 +410,14 @@ class CardStore: ObservableObject {
     private func loadPersistedData() {
         if let decoded = UserDefaults.standard.decode(PersistentData.self, forKey: defaultsKey) {
             data = decoded
+            return
+        }
+        // Nothing under the current key — fall back to the pre-rename one and
+        // write it forward, so favourites and checkmarks survive the rename.
+        if let legacy = UserDefaults.standard.decode(PersistentData.self, forKey: legacyDefaultsKey) {
+            data = legacy
+            persist()
+            UserDefaults.standard.removeObject(forKey: legacyDefaultsKey)
         }
     }
 

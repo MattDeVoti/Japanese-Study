@@ -30,7 +30,7 @@ struct CustomLessonAddView: View {
                                        onDone: commit, onCancel: { dismiss() })
                     } label: {
                         HStack {
-                            Text(levelName(jlpt: level.jlptLevel))
+                            Text(levelName(jlpt: level.levelId))
                             Spacer()
                             Text("\(level.chapters.count) ch")
                                 .font(.caption)
@@ -52,7 +52,7 @@ struct CustomLessonAddView: View {
             LessonsService.shared.loadIfNeeded()
             // Kana levels hold no grammar/vocab/kanji, so they're not offered here.
             levels = (LessonsService.shared.manifest?.levels ?? [])
-                .filter { $0.jlptLevel.hasPrefix("N") || $0.jlptLevel == SlangContent.levelId }
+                .filter { $0.levelId.hasPrefix("N") || $0.levelId == SlangContent.levelId }
         }
     }
 
@@ -88,7 +88,7 @@ private struct AddChapterList: View {
                 }
             }
         }
-        .navigationTitle(levelName(jlpt: level.jlptLevel))
+        .navigationTitle(levelName(jlpt: level.levelId))
         .navigationBarTitleDisplayMode(.inline)
         .addPickerDoneButton(selection: selection, onDone: onDone)
     }

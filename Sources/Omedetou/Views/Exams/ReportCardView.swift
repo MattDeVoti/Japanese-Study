@@ -207,7 +207,10 @@ struct ReportCardView: View {
     /// Reviews are prep for these tests, so they hang off the record rather than
     /// sitting in the Study grid as if they were another drill.
     private var reviewsRow: some View {
-        NavigationLink {
+        // Unlike the home bar, this is a fixed menu entry — removing it for an
+        // hour would just look broken. It goes quiet and says why instead.
+        let ready = srs.reviewAvailable()
+        return NavigationLink {
             ReviewSessionView()
         } label: {
             HStack(spacing: 12) {
@@ -231,13 +234,20 @@ struct ReportCardView: View {
             }
             .padding(14)
             .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
+            .opacity(ready ? 1 : 0.5)
         }
         .buttonStyle(.plain)
+        .disabled(!ready)
     }
 
     private var reviewDetail: String {
-        srs.enrolledCount > 0
-            ? "A few cards on what you've been getting wrong"
+        if let wait = srs.reviewWait() {
+            let mins = max(1, Int((wait / 60).rounded(.up)))
+            return mins >= 60 ? "Next round in about an hour"
+                              : "Next round in \(mins) min"
+        }
+        return srs.enrolledCount > 0
+            ? "\(SRSStore.reviewLength) cards on what you've been getting wrong"
             : "Builds as you study and take tests"
     }
 

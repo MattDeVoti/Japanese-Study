@@ -328,7 +328,7 @@
       "name": "〜たい (tai) — want to do",
       "shortDescription": "Expresses the speaker's desire to do an action.",
       "formation": "Verb stem + たい (conjugates like an い-adjective)",
-      "explanation": "たい attaches to the verb stem (the form before ます) to express the speaker's desire to do something — \"I want to do X.\" 食[た]べたい = \"I want to eat,\" 行[い]きたい = \"I want to go,\" したい = \"I want to do.\"\n\nThe elegant part: たい conjugates exactly like an い-adjective:\n- Present — たい: 食[た]べたい (want to eat)\n- Negative — たくない: 食[た]べたくない (don't want to eat)\n- Past — たかった: 食[た]べたかった (wanted to eat)\n- Past negative — たくなかった: 食[た]べたくなかった (didn't want to eat)\n\nSo もう帰[かえ]りたくありません = \"I don't want to go home yet,\" and 子[こ]どものころ、パイロットになりたかったです = \"When I was a child, I wanted to become a pilot.\"\n\nRegarding the object particle: the thing you want to act on can take either を (standard) or が (to emphasize the specific desired thing) — 日本語[にほんご]を勉強[べんきょう]したい vs 日本語[にほんご]が勉強[べんきょう]したい.\n\nOne important limit: たい describes only the speaker's own desires. For a third person's desires, use 〜たがっている (appears to want to do).",
+      "explanation": "たい attaches to the verb stem (the form before ます) to express the speaker's desire to do something — \"I want to do X.\" 食[た]べたい = \"I want to eat,\" 行[い]きたい = \"I want to go,\" したい = \"I want to do.\"\n\nThe elegant part: たい conjugates exactly like an い-adjective:\n- Present — たい: 食[た]べたい (want to eat)\n- Negative — たくない: 食[た]べたくない (don't want to eat)\n- Past — たかった: 食[た]べたかった (wanted to eat)\n- Past negative — たくなかった: 食[た]べたくなかった (didn't want to eat)\n\nSo もう帰[かえ]りたくありません = \"I don't want to go home anymore,\" and 子[こ]どものころ、パイロットになりたかったです = \"When I was a child, I wanted to become a pilot.\"\n\nRegarding the object particle: the thing you want to act on can take either を (standard) or が (to emphasize the specific desired thing) — 日本語[にほんご]を勉強[べんきょう]したい vs 日本語[にほんご]が勉強[べんきょう]したい.\n\nOne important limit: たい describes only the speaker's own desires. For a third person's desires, use 〜たがっている (appears to want to do).",
       "rules": [
         "Pattern: verb stem + たい = want to do X",
         "Conjugates like an い-adjective: たくない (don't want to), たかった (wanted to)",
@@ -350,7 +350,7 @@
         {
           "japanese": "もう帰[かえ]りたくありません。",
           "romaji": "Mou kaeritaku arimasen.",
-          "english": "I don't want to go home yet."
+          "english": "I don't want to go home anymore."
         },
         {
           "japanese": "子[こ]どものころ、パイロットになりたかったです。",
@@ -372,8 +372,8 @@
             "I didn't want to go home.",
             "I no longer want to go home."
           ],
-          "correctIndex": 1,
-          "explanation": "たくありません is the polite negative of たい: 帰[かえ]りたい (want to go home) → 帰[かえ]りたくない → 帰[かえ]りたくありません. もう in a negative sentence means 'anymore / yet.' もう帰[かえ]りたくありません = 'I don't want to go home yet (I want to stay longer).'"
+          "correctIndex": 3,
+          "explanation": "たくありません is the polite negative of たい: 帰[かえ]りたい (want to go home) → 帰[かえ]りたくない → 帰[かえ]りたくありません. もう with a negative means 'not anymore / no longer' — it cancels something that was true before. 'Not yet' is まだ: まだ帰[かえ]りたくありません would be 'I don't want to go home yet.'"
         },
         {
           "id": "tai_q2",

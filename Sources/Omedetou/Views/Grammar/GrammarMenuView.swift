@@ -8,7 +8,7 @@ struct GrammarMenuView: View {
 
     @State private var hiraQuestions: [PracticeQuestion] = []
     @State private var kataQuestions: [PracticeQuestion] = []
-    // Grammar discrimination quizzes, keyed by JLPT level (5 = N5 … 1 = N1).
+    // Grammar discrimination quizzes, keyed by level (5 = N5 … 1 = N1).
     @State private var grammarQuizzes: [Int: [PracticeQuestion]] = [:]
     @State private var slangQuestions: [PracticeQuestion] = []
 
@@ -159,7 +159,7 @@ struct GrammarMenuView: View {
             if slangQuestions.isEmpty {
                 LessonsService.shared.loadIfNeeded()
                 let chapters = LessonsService.shared.manifest?.levels
-                    .first { $0.jlptLevel == SlangContent.levelId }?.chapters ?? []
+                    .first { $0.levelId == SlangContent.levelId }?.chapters ?? []
                 slangQuestions = chapters
                     .compactMap { LessonsService.shared.loadChapter($0.id) }
                     .flatMap { ch in

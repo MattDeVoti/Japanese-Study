@@ -33,7 +33,14 @@ struct KanjiCard: FlashCardProtocol, Hashable {
     var needsWorkCount: Int
     var confidentCount: Int
 
-    var id: String { kanjiId }
+    /// The character, not `kanjiId`.
+    ///
+    /// Every bit of saved kanji progress — review scheduling, checkmarks,
+    /// favourites, needs-work counts — is keyed on this. `kanjiId` is a random
+    /// 10-character string from the source data, so regenerating that data from
+    /// a newer upstream would issue new ids and orphan all of it. 会 is 会 in
+    /// every version of every dataset, so the character is the stable key.
+    var id: String { kanji }
     var imagePath: String { "" }
 }
 

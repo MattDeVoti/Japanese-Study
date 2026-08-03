@@ -38,7 +38,7 @@ enum WidgetSnapshotWriter {
         for card in store.kanjiCards.shuffled() {
             guard let w = card.commonWords.randomElement(),
                   !w.kanji.isEmpty, !w.meaning.isEmpty else { continue }
-            out.append(WidgetItem(kind: .kanji, targetId: card.kanjiId, word: w.kanji,
+            out.append(WidgetItem(kind: .kanji, targetId: card.id, word: w.kanji,
                                   kana: w.kana, meaning: w.meaning,
                                   sourceKanji: card.kanji))
             if out.count >= perKind { break }
