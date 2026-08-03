@@ -191,6 +191,7 @@ struct HomeOptionsSheet: View {
     @Environment(\.dismiss) private var dismiss
     @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @ObservedObject private var unlocks = GameUnlocks.shared
+    @ObservedObject private var cloud = CloudSyncService.shared
     @ObservedObject private var speech = SpeechService.shared
     @ObservedObject private var srs = SRSStore.shared
     @ObservedObject private var reminders = NotificationService.shared
@@ -224,6 +225,27 @@ struct HomeOptionsSheet: View {
                     } label: {
                         Label("Backup & Restore", systemImage: "externaldrive.fill")
                     }
+                }
+                Section {
+                    HStack {
+                        Label("iCloud", systemImage: cloudIcon)
+                            .foregroundColor(.appText)
+                        Spacer()
+                        Text(cloudLabel)
+                            .font(.system(size: 14))
+                            .foregroundColor(.appTextSecondary)
+                            .multilineTextAlignment(.trailing)
+                    }
+                    Button {
+                        Task { await CloudSyncService.shared.sync() }
+                    } label: {
+                        Label("Sync now", systemImage: "arrow.triangle.2.circlepath")
+                    }
+                    .disabled(cloud.status.isBusy)
+                } header: {
+                    Label("Sync", systemImage: "icloud")
+                } footer: {
+                    Text("Your progress is kept on this device and copied to your own iCloud account, so picking up another iPhone or iPad carries on where you left off. Work done on two devices at once is merged rather than overwritten. Nothing is sent anywhere else, and the app works normally without iCloud.")
                 }
                 Section {
                     Picker("Priority", selection: $weightSettings.mode) {
@@ -389,6 +411,7 @@ struct HomeOptionsSheet: View {
                         Text("No Japanese voice is installed on this device. Add one in Settings ▸ Accessibility ▸ Spoken Content ▸ Voices ▸ Japanese.")
                     }
                 }
+
                 // Only shown once something has actually been found — listing it
                 // beforehand would give away that there are games to look for.
                 if unlocks.hasAny {
@@ -630,5 +653,29 @@ private struct HomeNavTile<Destination: View>: View {
             }
         }
         .buttonStyle(.plain)
+    }
+}
+private extension HomeOptionsSheet {
+    static let clock: DateFormatter = {
+        let f = DateFormatter(); f.timeStyle = .short; f.dateStyle = .none; return f
+    }()
+
+    var cloudIcon: String {
+        switch cloud.status {
+        case .syncing:            return "arrow.triangle.2.circlepath.icloud"
+        case .ok:                 return "checkmark.icloud"
+        case .noAccount, .failed: return "exclamationmark.icloud"
+        case .idle:               return "icloud"
+        }
+    }
+
+    var cloudLabel: String {
+        switch cloud.status {
+        case .idle:        return "Not synced yet"
+        case .syncing:     return "Syncing…"
+        case .ok(let at):  return "Synced " + Self.clock.string(from: at)
+        case .noAccount:   return "Sign in to iCloud in Settings"
+        case .failed(let why): return why
+        }
     }
 }

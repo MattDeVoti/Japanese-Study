@@ -120,6 +120,13 @@ final class GameUnlocks: ObservableObject {
         UserDefaults.standard.removeObject(forKey: key)
     }
 
+    /// Settings arriving from another device land in UserDefaults directly, so
+    /// the published set has to be re-read for the UI to notice.
+    func reloadFromDefaults() {
+        let stored = Set(UserDefaults.standard.stringArray(forKey: key) ?? [])
+        if stored != unlocked { unlocked = stored }
+    }
+
     func unlock(_ game: SecretGameID) {
         guard !unlocked.contains(game.rawValue) else { return }
         unlocked.insert(game.rawValue)

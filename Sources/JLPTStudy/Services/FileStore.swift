@@ -34,6 +34,12 @@ enum FileStore {
         try? data.write(to: url(name), options: .atomic)
     }
 
+    /// When the document was last written — sync uses it to decide which copy of
+    /// a plain setting is the newer one.
+    static func modifiedAt(_ name: String) -> Date? {
+        try? FileManager.default.attributesOfItem(atPath: url(name).path)[.modificationDate] as? Date
+    }
+
     static func delete(_ name: String) {
         try? FileManager.default.removeItem(at: url(name))
     }

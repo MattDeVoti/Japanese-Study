@@ -24,7 +24,8 @@ final class ExamStore: ObservableObject {
     private var loaded = false
     private static let file = "exams"
 
-    private struct Stored: Codable {
+    /// Internal rather than private so the sync layer can merge two copies of it.
+    struct Stored: Codable {
         var attempts: [ExamAttempt] = []
         var skipped: Set<String> = []
         var deadlines: [String: Date] = [:]
@@ -277,8 +278,26 @@ final class ExamStore: ObservableObject {
     }
 
     private func persist() {
-        FileStore.save(Stored(attempts: attempts, skipped: skipped, deadlines: deadlines,
-                              intervalDays: intervalDays),
-                       Self.file)
+        FileStore.save(snapshot(), Self.file)
+    }
+
+    // MARK: - Sync
+
+    var snapshotName: String { Self.file }
+
+    func snapshot() -> Stored {
+        Stored(attempts: attempts, skipped: skipped,
+               deadlines: deadlines, intervalDays: intervalDays)
+    }
+
+    @MainActor
+    func adopt(_ s: Stored) {
+        attempts = s.attempts
+        skipped = s.skipped
+        deadlines = s.deadlines
+        loaded = false            // intervalDays has a persisting didSet
+        intervalDays = s.intervalDays
+        loaded = true
+        FileStore.save(s, Self.file)
     }
 }

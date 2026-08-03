@@ -8,6 +8,7 @@ struct JLPTStudyApp: App {
     @StateObject private var grammarFilter = GrammarFilter()
     @StateObject private var themeManager = ThemeManager()
     @State private var deepLink: WidgetDeepLink?
+    @StateObject private var cloud = CloudSyncService.shared
 
     var body: some Scene {
         WindowGroup {
@@ -20,7 +21,15 @@ struct JLPTStudyApp: App {
             .environmentObject(kanjiFilter)
             .environmentObject(grammarFilter)
             .environmentObject(themeManager)
+            .environmentObject(cloud)
             .onOpenURL { url in deepLink = WidgetDeepLink(url: url) }
+            .task {
+                // Settings arrive over the key-value store on their own; progress
+                // is pulled once at launch and again whenever the app comes back,
+                // which is exactly when you've picked up the other device.
+                SettingsSync.shared.start()
+                CloudSyncService.shared.syncInBackground()
+            }
             .sheet(item: $deepLink) { link in
                 NavigationStack { WidgetDeepLinkView(link: link) }
                     .environmentObject(store)
@@ -34,6 +43,11 @@ struct JLPTStudyApp: App {
                 WidgetSnapshotWriter.refreshThemeOnly()
             }
             .onChange(of: scenePhase) { phase in
+                // Picking the other device up is exactly a foreground, and putting
+                // this one down is the moment to push what just happened.
+                if phase == .active || phase == .background {
+                    CloudSyncService.shared.syncInBackground()
+                }
                 // Leaving the app counts as leaving the page.
                 if phase != .active { SpeechService.shared.stop() }
                 guard phase == .active else { return }

@@ -71,7 +71,8 @@ final class SRSStore: ObservableObject {
     private var loaded = false
     private static let file = "srs"
 
-    private struct Stored: Codable {
+    /// Internal rather than private so the sync layer can merge two copies of it.
+    struct Stored: Codable {
         var memories: [String: SRSMemory] = [:]
         var lastStudyDay: Date?
         var reviewsToday: Int = 0
@@ -201,9 +202,28 @@ final class SRSStore: ObservableObject {
     // MARK: - Persistence
 
     private func persist() {
-        FileStore.save(Stored(memories: memories, lastStudyDay: lastStudyDay,
-                              reviewsToday: reviewsToday, reviewsTodayDay: reviewsTodayDay,
-                              totalReviews: totalReviews),
-                       Self.file)
+        FileStore.save(snapshot(), Self.file)
+    }
+
+    // MARK: - Sync
+
+    var snapshotName: String { Self.file }
+
+    func snapshot() -> Stored {
+        Stored(memories: memories, lastStudyDay: lastStudyDay,
+               reviewsToday: reviewsToday, reviewsTodayDay: reviewsTodayDay,
+               totalReviews: totalReviews)
+    }
+
+    /// Replaces everything with a merged document from sync. Writes through to
+    /// disk so a crash before the next review can't lose what just arrived.
+    @MainActor
+    func adopt(_ s: Stored) {
+        memories = s.memories
+        lastStudyDay = s.lastStudyDay
+        reviewsToday = s.reviewsToday
+        reviewsTodayDay = s.reviewsTodayDay
+        totalReviews = s.totalReviews
+        FileStore.save(s, Self.file)
     }
 }
