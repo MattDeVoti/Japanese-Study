@@ -22,12 +22,39 @@ targets:
         createIntermediateGroups: true
         excludes:
           - "**/.DS_Store"
+      - path: Sources/Shared
+        createIntermediateGroups: true
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.jlptstudy
         INFOPLIST_FILE: Sources/JLPTStudy/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/JLPTStudy/JLPTStudy.entitlements
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         GENERATE_INFOPLIST_FILE: "NO"
     dependencies:
       - sdk: libsqlite3.tbd
+      - target: JLPTStudyWidgets
+        embed: true
+
+  JLPTStudyWidgets:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources/JLPTStudyWidgets
+        createIntermediateGroups: true
+        excludes:
+          - "**/.DS_Store"
+      - path: Sources/Shared
+        createIntermediateGroups: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.jlptstudy.widgets
+        INFOPLIST_FILE: Sources/JLPTStudyWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/JLPTStudyWidgets/JLPTStudyWidgets.entitlements
+        GENERATE_INFOPLIST_FILE: "NO"
+        SKIP_INSTALL: "YES"
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework

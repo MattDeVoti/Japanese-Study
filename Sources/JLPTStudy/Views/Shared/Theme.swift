@@ -373,11 +373,19 @@ extension View {
 
 struct StandardNavBar: ViewModifier {
     let title: String
+    /// nil follows the Appearance. A value pins the bar, for the few screens
+    /// that keep a fixed look of their own.
+    var background: LinearGradient? = nil
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject private var themeManager: ThemeManager
 
     func body(content: Content) -> some View {
         content
+            // Audio belongs to the page that started it. Every pushed screen wears
+            // this modifier, so leaving one — backing out or pushing further in —
+            // cuts the speech rather than leaving a voice reading a page that is no
+            // longer on screen.
+            .onDisappear { SpeechService.shared.stop() }
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden(true)
             .toolbar {
@@ -391,24 +399,24 @@ struct StandardNavBar: ViewModifier {
                             Text("Back")
                                 .font(.system(size: 16))
                         }
-                        .foregroundColor(.appNavBarText)
+                        .foregroundColor(background == nil ? .appNavBarText : .white)
                     }
                 }
                 ToolbarItem(placement: .principal) {
                     Text(title)
                         .font(.system(size: 17, weight: .semibold))
-                        .foregroundColor(.appNavBarText)
+                        .foregroundColor(background == nil ? .appNavBarText : .white)
                 }
             }
-            .toolbarBackground(LinearGradient.appNavBar, for: .navigationBar)
+            .toolbarBackground(background ?? LinearGradient.appNavBar, for: .navigationBar)
             .toolbarBackground(.visible, for: .navigationBar)
             .toolbarColorScheme(.dark, for: .navigationBar)
     }
 }
 
 extension View {
-    func standardNavBar(_ title: String) -> some View {
-        modifier(StandardNavBar(title: title))
+    func standardNavBar(_ title: String, background: LinearGradient? = nil) -> some View {
+        modifier(StandardNavBar(title: title, background: background))
     }
 }
 

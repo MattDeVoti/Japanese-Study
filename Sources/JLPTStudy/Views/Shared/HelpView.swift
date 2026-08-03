@@ -137,9 +137,9 @@ struct HelpView: View {
                   title: "Deadlines",
                   summary: "Set your own pace",
                   body: [
-                    "Tests aren't scheduled to *start* — they have a **deadline**. The test in front of you is always available; what you get is a date to finish it by. By default that's 7 days out, landing on a Friday.",
+                    "Tests aren't scheduled to *start* — they have a **deadline**. The test in front of you is always available; what you get is a date to finish it by. The clock starts when you finish the previous test, so sitting one early moves the next deadline earlier too — work ahead and you stay ahead.",
                     "**Miss the deadline and that test scores 0** on your report card. It stays at 0 until you actually sit it, at which point your real grade replaces it. No new deadline is issued in the meantime, so there's nothing further to lose.",
-                    "Both numbers are yours in **Options ▸ Tests**: how many days you get, and whether deadlines land on a fixed weekday at all. Want to move fast? Set one day. Prefer a fortnight? Set 14.",
+                    "The gap is yours in **Options ▸ Tests** — 7 days by default. Want to move fast? Set one day. Prefer a fortnight? Set 14.",
                     "Only one deadline is ever outstanding — the next is set when you finish the current test.",
                   ]),
 
@@ -181,6 +181,7 @@ struct HelpView: View {
                   summary: "Drills, flashcards and quizzes",
                   body: [
                     "**Progress** — your report card, and a practice round drawn from whatever you've been getting wrong.",
+                    "**Nothing in Study is graded.** Drills, flashcards, quizzes and reading all exist to help you learn — only the tests on your report card affect your grade and GPA. The same goes for the Practice buttons inside Textbook chapters.",
                     "**Kana Pronunciation** — sound drills for Hiragana and Katakana.",
                     "**Vocab and Kanji flashcards** — tap Check to reveal, then Needs Work or Confident. Confident also ticks the item off.",
                     "**Grammar Quizzes** — one per level, plus one for Slang. Multiple choice on the grammar of that level.",
@@ -197,9 +198,29 @@ struct HelpView: View {
                     "**Prioritize Needs Work** — everything stays in rotation, including checked items, but cards you've marked Needs Work come up more often. The slider controls how much more.",
                   ]),
 
-            Topic(id: "dictionary", icon: "magnifyingglass", color: .themeTile(6),
+                        Topic(id: "widgets", icon: "square.grid.2x2.fill", color: .themeTile(1),
+                  title: "Widgets",
+                  summary: "A word on your home screen",
+                  body: [
+                    "**Word of the Moment** shows one word at a time — drawn from both your kanji cards' example words and your lesson vocabulary. It gives the word, its kana reading, and as much of the meaning as fits.",
+                    "**Tapping it opens that card in the app** — the kanji the example came from, or the vocabulary word itself.",
+                    "Add it the usual way: long-press the home screen, tap **+**, and search for Omedetou.",
+                    "It wears whatever **Appearance** you've chosen, and repaints when you change it.",
+                    "**Options ▸ Widgets** sets how often the word rotates, from every 15 minutes to once a day. iOS decides when a widget actually gets to refresh, so treat that as a target rather than a promise.",
+                    "There's a lock-screen version too, under the clock. iOS renders those as a monochrome stencil, so it shows the same words without the colour.",
+                  ]),
+            Topic(id: "extras", icon: "sparkles", color: .themeTile(9),
+                  title: "Extras",
+                  summary: "Cheat sheets, and whatever else turns up",
+                  body: [
+                    "**Cheat Sheet** is the quick-reference section: time, dates, months, weekdays, numbers, counters, こそあど, question words, honorifics, family terms and a verb-form summary.",
+                    "Anything **highlighted in colour** on a sheet breaks the pattern — 四時 is よじ, 八日 is ようか, 六百 is ろっぴゃく. Those are the ones worth memorising rather than deriving.",
+                    "The search box at the top of Cheat Sheet searches **every cell of every sheet at once**, in English or Japanese, so you don't need to know which chart a thing lives on.",
+                    "Games appear here as a section once you've found one.",
+                  ]),
+Topic(id: "dictionary", icon: "magnifyingglass", color: .themeTile(6),
                   title: "Dictionary",
-                  summary: "4,100 entries, offline",
+                  summary: "Over 4,000 entries, offline",
                   body: [
                     "Search in English or Japanese — it works out which you typed.",
                     "Verb and adjective entries include **full conjugation tables**: plain and polite, positive and negative, past, te-form, conditional, potential, passive, causative, imperative and volitional.",

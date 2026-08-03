@@ -42,6 +42,15 @@ struct GrammarPracticeView: View {
                 )
             } else if let q = currentQuestion {
                 VStack(spacing: 0) {
+                    // Sits directly under the nav bar, so it needs its own top
+                    // inset to avoid reading as part of the bar.
+                    Text("Practice only — this doesn't affect your grade.")
+                        .font(.system(size: 11))
+                        .foregroundColor(.appTextSecondary)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                        .padding(.top, 10)
+                        .padding(.bottom, 8)
+
                     PracticeProgressBar(
                         current: currentIndex,
                         total: shuffledQuestions.count,

@@ -20,9 +20,6 @@ final class ExamStore: ObservableObject {
 
     /// How long you get to complete a test once it's in front of you.
     @Published var intervalDays: Int = 7 { didSet { if loaded { persist() } } }
-    /// Push deadlines onto a fixed weekday (1 = Sunday … 7 = Saturday), so the
-    /// cut-off is always the same day of the week. nil = exactly `intervalDays`.
-    @Published var anchorWeekday: Int? = 6 { didSet { if loaded { persist() } } }
 
     private var loaded = false
     private static let file = "exams"
@@ -32,7 +29,6 @@ final class ExamStore: ObservableObject {
         var skipped: Set<String> = []
         var deadlines: [String: Date] = [:]
         var intervalDays: Int = 7
-        var anchorWeekday: Int? = 6
     }
 
     private init() {
@@ -41,7 +37,6 @@ final class ExamStore: ObservableObject {
             skipped = s.skipped
             deadlines = s.deadlines
             intervalDays = s.intervalDays
-            anchorWeekday = s.anchorWeekday
         }
         loaded = true
     }
@@ -190,16 +185,14 @@ final class ExamStore: ObservableObject {
         persist()
     }
 
+    /// Simply `intervalDays` from now. It used to be nudged onto a fixed weekday,
+    /// which meant finishing a test early didn't buy you any time — the next
+    /// deadline snapped back to the same day of the week regardless.
     private func computeDeadline(from now: Date) -> Date {
         let cal = Calendar.current
-        var date = cal.date(byAdding: .day, value: max(intervalDays, 1),
+        let date = cal.date(byAdding: .day, value: max(intervalDays, 1),
                             to: cal.startOfDay(for: now)) ?? now
-        if let weekday = anchorWeekday {
-            while cal.component(.weekday, from: date) != weekday {
-                date = cal.date(byAdding: .day, value: 1, to: date) ?? date
-            }
-        }
-        // End of that day, so "by Friday" means all of Friday.
+        // End of that day, so a deadline of the 7th means all of the 7th.
         return cal.date(bySettingHour: 23, minute: 59, second: 59, of: date) ?? date
     }
 
@@ -285,7 +278,7 @@ final class ExamStore: ObservableObject {
 
     private func persist() {
         FileStore.save(Stored(attempts: attempts, skipped: skipped, deadlines: deadlines,
-                              intervalDays: intervalDays, anchorWeekday: anchorWeekday),
+                              intervalDays: intervalDays),
                        Self.file)
     }
 }

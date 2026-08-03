@@ -1,9 +1,9 @@
 import SwiftUI
+import WidgetKit
 
 struct HomeView: View {
+    @ObservedObject private var gameUnlocks = GameUnlocks.shared
     @EnvironmentObject private var themeManager: ThemeManager
-    // Observed so the locked "???" tile flips to Games the moment one is found.
-    @ObservedObject private var unlocks = GameUnlocks.shared
     @State private var showOptions = false
     @State private var showHelp = false
     @State private var showGame = false
@@ -12,14 +12,12 @@ struct HomeView: View {
     private static let tileScale: CGFloat = 0.85
     private static let rowSpacing: CGFloat = 12
 
-    /// Full-width slabs, 15% shorter than they were.
-    private var slabHeight: CGFloat { (112 * Self.tileScale).rounded() }
-
-    /// Two rows of grid tiles occupy exactly the height of the three slabs, so the
-    /// screen doesn't jump when a game is found. They come out slightly wider than
-    /// tall, which fills the row better than a square did.
+    /// Two rows of tiles fill the same height the three full-width slabs used to,
+    /// so the screen keeps its proportions. Slightly wider than tall, which fills
+    /// the row better than a square did.
     private var gridTileHeight: CGFloat {
-        (slabHeight * 3 + Self.rowSpacing * 2 - Self.rowSpacing) / 2
+        let slab = (112 * Self.tileScale).rounded()
+        return (slab * 3 + Self.rowSpacing * 2 - Self.rowSpacing) / 2
     }
 
     var body: some View {
@@ -36,6 +34,7 @@ struct HomeView: View {
                         GameUnlocks.shared.unlock(.kanjiInvaders)
                         showGame = true
                     }
+                    .secretHint(!gameUnlocks.isUnlocked(.kanjiInvaders), corner: 18)
                     Text("OMEDETOU")
                         .font(.system(size: 16.5, weight: .heavy))
                         .tracking(6.6)
@@ -60,41 +59,24 @@ struct HomeView: View {
                 .padding(.horizontal, 24)
                 .padding(.bottom, 16)
 
-                // Main navigation — the signature gradient tiles, stacked full-width.
-                // Three full-width slabs normally. Finding a game adds a fourth
-                // destination, and the whole stack becomes a 2×2 grid of squares
-                // to make room — the new layout is itself part of the reward.
-                Group {
-                    if unlocks.hasAny {
-                        LazyVGrid(columns: [GridItem(.flexible(), spacing: Self.rowSpacing),
-                                            GridItem(.flexible(), spacing: Self.rowSpacing)],
-                                  spacing: Self.rowSpacing) {
-                            HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                        icon: "books.vertical.fill", color: .themeTile(0),
-                                        square: true, height: gridTileHeight) { LessonsView() }
-                            HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                        icon: "brain.head.profile", color: .themeTile(3),
-                                        square: true, height: gridTileHeight) { GrammarMenuView() }
-                            HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
-                                        icon: "magnifyingglass", color: .themeTile(6),
-                                        square: true, height: gridTileHeight) { DictionaryView() }
-                            HomeNavTile(label: "Games", subtitle: "Secrets you've found", glyph: "遊",
-                                        icon: "gamecontroller.fill", color: .themeTile(9),
-                                        square: true, height: gridTileHeight) { GamesMenuView() }
-                        }
-                    } else {
-                        VStack(spacing: Self.rowSpacing) {
-                            HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
-                                        icon: "books.vertical.fill", color: .themeTile(0),
-                                        height: slabHeight) { LessonsView() }
-                            HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
-                                        icon: "brain.head.profile", color: .themeTile(3),
-                                        height: slabHeight) { GrammarMenuView() }
-                            HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
-                                        icon: "magnifyingglass", color: .themeTile(6),
-                                        height: slabHeight) { DictionaryView() }
-                        }
-                    }
+                // Main navigation. Four destinations always, so the 2×2 grid is
+                // the permanent layout — Extras is no longer the reward for
+                // finding a game, it just holds one.
+                LazyVGrid(columns: [GridItem(.flexible(), spacing: Self.rowSpacing),
+                                    GridItem(.flexible(), spacing: Self.rowSpacing)],
+                          spacing: Self.rowSpacing) {
+                    HomeNavTile(label: "Textbook", subtitle: "Lessons & chapters", glyph: "本",
+                                icon: "books.vertical.fill", color: .themeTile(0),
+                                square: true, height: gridTileHeight) { LessonsView() }
+                    HomeNavTile(label: "Study", subtitle: "Drills & flashcards", glyph: "習",
+                                icon: "brain.head.profile", color: .themeTile(3),
+                                square: true, height: gridTileHeight) { GrammarMenuView() }
+                    HomeNavTile(label: "Dictionary", subtitle: "Look anything up", glyph: "辞",
+                                icon: "magnifyingglass", color: .themeTile(6),
+                                square: true, height: gridTileHeight) { DictionaryView() }
+                    HomeNavTile(label: "Extras", subtitle: "Cheat sheets & more", glyph: "他",
+                                icon: "sparkles", color: .themeTile(9),
+                                square: true, height: gridTileHeight) { ExtrasView() }
                 }
                 .padding(.horizontal, 24)
 
@@ -314,28 +296,30 @@ struct HomeOptionsSheet: View {
                 }
 
                 Section {
+                    Picker("New word every", selection: Binding(
+                        get: { WidgetShared.refreshMinutes },
+                        set: { WidgetShared.setRefreshMinutes($0); WidgetCenter.shared.reloadAllTimelines() }
+                    )) {
+                        Text("15 minutes").tag(15)
+                        Text("30 minutes").tag(30)
+                        Text("1 hour").tag(60)
+                        Text("3 hours").tag(180)
+                        Text("6 hours").tag(360)
+                        Text("Once a day").tag(1440)
+                    }
+                } header: {
+                    Label("Widgets", systemImage: "square.grid.2x2.fill")
+                } footer: {
+                    Text("Add the Word of the Moment widget from the home screen, then choose how often it rotates. It mixes kanji example words with vocabulary from your lessons, and tapping it opens that card in the app. iOS decides exactly when a widget refreshes, so this is a target rather than a guarantee.")
+                }
+
+                Section {
                     Stepper(value: $exams.intervalDays, in: 1...21) {
                         HStack {
                             Text("Days to finish a test")
                             Spacer()
                             Text("\(exams.intervalDays)")
                                 .foregroundColor(.appTextSecondary)
-                        }
-                    }
-                    Toggle(isOn: Binding(
-                        get: { exams.anchorWeekday != nil },
-                        set: { exams.anchorWeekday = $0 ? 6 : nil }
-                    )) {
-                        Text("Deadlines land on one weekday")
-                    }
-                    if let day = exams.anchorWeekday {
-                        Picker("Deadline day", selection: Binding(
-                            get: { day },
-                            set: { exams.anchorWeekday = $0 }
-                        )) {
-                            ForEach(Array(Calendar.current.weekdaySymbols.enumerated()), id: \.offset) { i, name in
-                                Text(name).tag(i + 1)
-                            }
                         }
                     }
                     NavigationLink {
@@ -346,7 +330,7 @@ struct HomeOptionsSheet: View {
                 } header: {
                     Label("Tests", systemImage: "graduationcap.fill")
                 } footer: {
-                    Text("Each test has a deadline rather than a start date — sit it whenever you like before then. Miss it and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.")
+                    Text("Each test is due this many days after you finish the previous one — so sitting one early moves the next deadline earlier too. Miss a deadline and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.")
                 }
 
                 Section {
@@ -415,7 +399,7 @@ struct HomeOptionsSheet: View {
                             Label("Reset Games", systemImage: "arrow.counterclockwise")
                         }
                     } footer: {
-                        Text("Re-locks every game you've found and returns the home screen to its three tiles. Your study progress and high scores are kept.")
+                        Text("Re-locks every game you've found, and the Games section disappears from Extras until you find one again. Your study progress and high scores are kept.")
                     }
                 }
             }

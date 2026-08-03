@@ -267,9 +267,18 @@ struct ConjugationDrillView: View {
                  "i-adjective", "na-adjective"].contains($0)
             } ?? "verb"
 
+            // A する-noun is shown with する attached. The dictionary headword is the
+            // bare noun (勉強), and prompting "conjugate 勉強" reads as being asked
+            // to inflect a noun — it's 勉強する that conjugates.
+            let isSuru = entry.partsOfSpeech.contains("suru verb")
+            let shown = (isSuru && !entry.word.hasSuffix("する")) ? entry.word + "する" : entry.word
+            let shownReading = entry.reading.map { r in
+                (isSuru && !r.hasSuffix("する")) ? r + "する" : r
+            }
+
             return ConjugationQuestion(
-                word: entry.word,
-                reading: entry.reading,
+                word: shown,
+                reading: shownReading,
                 meaning: entry.definitions.first ?? "",
                 group: group,
                 sectionTitle: target.section,

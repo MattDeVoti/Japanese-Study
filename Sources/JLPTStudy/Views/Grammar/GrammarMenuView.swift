@@ -38,6 +38,17 @@ struct GrammarMenuView: View {
                             ReportCardButton()
                         }
                         .buttonStyle(.plain)
+
+                        // The report card is the only thing on this screen tied to
+                        // the graded track. Everything below it is practice.
+                        Text("Only the tests on your report card count towards your "
+                             + "grade. Everything else in Study is practice — drill "
+                             + "it as much as you like, nothing here changes your GPA.")
+                            .font(.system(size: 12))
+                            .foregroundColor(.appTextSecondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                            .padding(.horizontal, 2)
+                            .padding(.top, 2)
                     }
 
                     // MARK: Kana pronunciation drills

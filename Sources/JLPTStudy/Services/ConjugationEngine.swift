@@ -60,7 +60,6 @@ enum ConjugationEngine {
             section("Masu Positive", [
                 row("Present",           s+"ます"),
                 row("Past",              s+"ました"),
-                row("-eba conditional",  s+"ませば"),
                 row("-tara conditional", s+"ましたら"),
                 row("Potential",         s+"られます", alt: s+"れます"),
                 row("Passive",           s+"られます"),
@@ -70,7 +69,6 @@ enum ConjugationEngine {
             section("Masu Negative", [
                 row("Present",           s+"ません"),
                 row("Past",              s+"ませんでした"),
-                row("-eba conditional",  s+"ませんなら"),
                 row("-tara conditional", s+"ませんでしたら"),
                 row("Potential",         s+"られません", alt: s+"れません"),
                 row("Passive",           s+"られません"),
@@ -108,9 +106,15 @@ enum ConjugationEngine {
         default:   return []
         }
 
-        // 行く is the only irregular godan verb (te-form is 行って not 行いて)
+        // 行く takes って rather than いて.
         let teE = (word == "行く" || reading == "いく") ? "って" : e.te
         let taE = (word == "行く" || reading == "いく") ? "った" : e.ta
+
+        // The honorific -aru verbs are irregular in the ren'yō (masu) stem: they
+        // take い, not り — いらっしゃいます, ございます, なさいます. Treating them
+        // as regular godan produced いらっしゃります, which is simply wrong.
+        let honorificAru = ["いらっしゃる", "おっしゃる", "くださる", "なさる", "ござる"]
+        let iStem = honorificAru.contains(reading) ? "い" : e.i
 
         return [
             section("Plain Positive", [
@@ -137,20 +141,18 @@ enum ConjugationEngine {
                 row("Imperative",        word+"な"),
             ]),
             section("Masu Positive", [
-                row("Present",           s+e.i+"ます"),
-                row("Past",              s+e.i+"ました"),
-                row("-eba conditional",  s+e.i+"ませば"),
-                row("-tara conditional", s+e.i+"ましたら"),
+                row("Present",           s+iStem+"ます"),
+                row("Past",              s+iStem+"ました"),
+                row("-tara conditional", s+iStem+"ましたら"),
                 row("Potential",         s+e.e+"ます"),
                 row("Passive",           s+e.a+"れます"),
                 row("Causative",         s+e.a+"せます"),
-                row("Volitional",        s+e.i+"ましょう"),
+                row("Volitional",        s+iStem+"ましょう"),
             ]),
             section("Masu Negative", [
-                row("Present",           s+e.i+"ません"),
-                row("Past",              s+e.i+"ませんでした"),
-                row("-eba conditional",  s+e.i+"ませんなら"),
-                row("-tara conditional", s+e.i+"ませんでしたら"),
+                row("Present",           s+iStem+"ません"),
+                row("Past",              s+iStem+"ませんでした"),
+                row("-tara conditional", s+iStem+"ませんでしたら"),
                 row("Potential",         s+e.e+"ません"),
                 row("Passive",           s+e.a+"れません"),
                 row("Causative",         s+e.a+"せません"),
@@ -161,8 +163,10 @@ enum ConjugationEngine {
     // MARK: - する (suru) verbs
 
     private static func suruForms(word: String) -> [ConjugationSection] {
-        // Compound: 勉強する → stem = 勉強; pure する → stem = ""
-        let s = word.hasSuffix("する") ? String(word.dropLast(2)) : ""
+        // 勉強する → stem 勉強; bare 勉強 → stem 勉強; pure する → stem "".
+        // The bare-noun case used to fall through to "", which silently dropped the
+        // noun and made every する-noun in the drill conjugate as plain する.
+        let s = word.hasSuffix("する") ? String(word.dropLast(2)) : word
 
         return [
             section("Plain Positive", [
@@ -191,7 +195,6 @@ enum ConjugationEngine {
             section("Masu Positive", [
                 row("Present",           s+"します"),
                 row("Past",              s+"しました"),
-                row("-eba conditional",  s+"しませば"),
                 row("-tara conditional", s+"しましたら"),
                 row("Potential",         s+"できます"),
                 row("Passive",           s+"されます"),
@@ -201,7 +204,6 @@ enum ConjugationEngine {
             section("Masu Negative", [
                 row("Present",           s+"しません"),
                 row("Past",              s+"しませんでした"),
-                row("-eba conditional",  s+"しませんなら"),
                 row("-tara conditional", s+"しませんでしたら"),
                 row("Potential",         s+"できません"),
                 row("Passive",           s+"されません"),
@@ -237,14 +239,12 @@ enum ConjugationEngine {
 
         let masuPres  = isKanji ? "来ます"   : "きます"
         let masuPast  = isKanji ? "来ました" : "きました"
-        let masuEba   = isKanji ? "来ませば" : "きませば"
         let masuTara  = isKanji ? "来ましたら" : "きましたら"
         let masuPot   = isKanji ? "来られます"   : "こられます"
         let masuVol   = isKanji ? "来ましょう" : "きましょう"
 
         let mnPres    = isKanji ? "来ません"         : "きません"
         let mnPast    = isKanji ? "来ませんでした"   : "きませんでした"
-        let mnEba     = isKanji ? "来ませんなら"     : "きませんなら"
         let mnTara    = isKanji ? "来ませんでしたら" : "きませんでしたら"
         let mnPot     = isKanji ? "来られません"     : "こられません"
 
@@ -264,15 +264,13 @@ enum ConjugationEngine {
                 row("Imperative",        present+"な"),
             ]),
             section("Masu Positive", [
-                row("Present",           masuPres),  row("Past",    masuPast),
-                row("-eba conditional",  masuEba),   row("-tara conditional", masuTara),
+                row("Present",           masuPres),  row("Past",    masuPast),   row("-tara conditional", masuTara),
                 row("Potential",         masuPot),   row("Passive", masuPot),
                 row("Causative",         isKanji ? "来させます" : "こさせます"),
                 row("Volitional",        masuVol),
             ]),
             section("Masu Negative", [
-                row("Present",           mnPres),    row("Past",    mnPast),
-                row("-eba conditional",  mnEba),     row("-tara conditional", mnTara),
+                row("Present",           mnPres),    row("Past",    mnPast),     row("-tara conditional", mnTara),
                 row("Potential",         mnPot),     row("Passive", mnPot),
                 row("Causative",         isKanji ? "来させません" : "こさせません"),
             ]),
@@ -298,7 +296,6 @@ enum ConjugationEngine {
                 row("-te",               s+"くて"),
                 row("-eba conditional",  s+"ければ"),
                 row("-tara conditional", s+"かったら"),
-                row("Volitional",        s+"かろう"),
             ]),
             section("Negative", [
                 row("Present",           s+"くない"),

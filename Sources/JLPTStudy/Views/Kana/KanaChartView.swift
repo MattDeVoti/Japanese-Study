@@ -3,17 +3,37 @@ import SwiftUI
 struct KanaChartView: View {
     let isHiragana: Bool
 
+    // Tapping the five vowels in gojūon order opens a five-kana word puzzle.
+    // Five taps, five cells — the secret rhymes with the game it opens.
+    @State private var vowelProgress = 0
+    @State private var foundKotoba = false
+    private let vowels = ["あ", "い", "う", "え", "お"]
+    @ObservedObject private var unlocks = GameUnlocks.shared
+
+    /// Only the hiragana chart hides anything, and only until it's found.
+    private func hintOrder(_ kana: String) -> Int? {
+        guard isHiragana, !unlocks.isUnlocked(.kotoba) else { return nil }
+        return vowels.firstIndex(of: kana)
+    }
+
     var body: some View {
         ZStack {
             AppBackground()
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    ChartSection(title: "Basic", rows: isHiragana ? hiraganaBasic : katakanaBasic)
-                    ChartSection(title: "Voiced & Semi-voiced", rows: isHiragana ? hiraganaDakuten : katakanaDakuten)
+                    ChartSection(title: "Basic",
+                                 rows: isHiragana ? hiraganaBasic : katakanaBasic,
+                                 onTap: noteTap, hintOrder: hintOrder)
+                    ChartSection(title: "Voiced & Semi-voiced",
+                                 rows: isHiragana ? hiraganaDakuten : katakanaDakuten,
+                                 onTap: noteTap, hintOrder: hintOrder)
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 20)
             }
+        }
+        .fullScreenCover(isPresented: $foundKotoba) {
+            NavigationStack { KotobaGame() }
         }
         .standardNavBar(isHiragana ? "Hiragana" : "Katakana")
     }
@@ -24,6 +44,8 @@ struct KanaChartView: View {
 private struct ChartSection: View {
     let title: String
     let rows: [[(String, String)?]]
+    var onTap: (String) -> Void = { _ in }
+    var hintOrder: (String) -> Int? = { _ in nil }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -31,7 +53,7 @@ private struct ChartSection: View {
                 .font(.system(size: 13, weight: .semibold))
                 .foregroundColor(.secondary)
                 .padding(.leading, 2)
-            KanaGrid(rows: rows)
+            KanaGrid(rows: rows, onTap: onTap, hintOrder: hintOrder)
         }
     }
 }
@@ -40,6 +62,8 @@ private struct ChartSection: View {
 
 private struct KanaGrid: View {
     let rows: [[(String, String)?]]
+    var onTap: (String) -> Void = { _ in }
+    var hintOrder: (String) -> Int? = { _ in nil }
 
     var body: some View {
         VStack(spacing: 4) {
@@ -47,7 +71,8 @@ private struct KanaGrid: View {
                 HStack(spacing: 4) {
                     ForEach(0..<5, id: \.self) { c in
                         if let (kana, romaji) = rows[r][c] {
-                            KanaCellView(kana: kana, romaji: romaji)
+                            KanaCellView(kana: kana, romaji: romaji, onTap: onTap,
+                                         hintOrder: hintOrder(kana))
                         } else {
                             Color.clear
                                 .frame(maxWidth: .infinity)
@@ -65,6 +90,8 @@ private struct KanaGrid: View {
 private struct KanaCellView: View {
     let kana: String
     let romaji: String
+    var onTap: (String) -> Void = { _ in }
+    var hintOrder: Int? = nil
 
     var body: some View {
         VStack(spacing: 3) {
@@ -79,6 +106,26 @@ private struct KanaCellView: View {
         .frame(height: 58)
         .background(Color.appText.opacity(0.05))
         .cornerRadius(8)
+        .contentShape(Rectangle())
+        .onTapGesture { onTap(kana) }
+        .secretHint(hintOrder != nil, order: hintOrder ?? 0, corner: 8)
+    }
+}
+
+private extension KanaChartView {
+    /// Only the hiragana chart carries the secret, and only in order.
+    func noteTap(_ kana: String) {
+        guard isHiragana else { return }
+        if kana == vowels[vowelProgress] {
+            vowelProgress += 1
+            if vowelProgress == vowels.count {
+                vowelProgress = 0
+                GameUnlocks.shared.unlock(.kotoba)
+                foundKotoba = true
+            }
+        } else {
+            vowelProgress = (kana == vowels[0]) ? 1 : 0
+        }
     }
 }
 

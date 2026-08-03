@@ -138,8 +138,8 @@ struct ReadingDetailView: View {
 
                 ScrollView {
                     VStack(alignment: .leading, spacing: 16) {
-                        // Passage
-                        VStack(alignment: .leading, spacing: 12) {
+                        // Passage, dressed as the kind of document it is.
+                        PassagePaper(style: style, accent: accent) {
                             // Listen to the whole passage — the annotations mean the
                             // readings are correct, which makes this usable as a
                             // listening exercise rather than a novelty.
@@ -152,17 +152,12 @@ struct ReadingDetailView: View {
                                 Spacer()
                             }
 
-                            ForEach(Array(paragraphs.enumerated()), id: \.offset) { _, para in
-                                FuriganaText(text: para, fontSize: 18, color: .appText,
-                                             interactive: true) { word, rect in
-                                    handleWord(word, rect)
-                                }
-                                .fixedSize(horizontal: false, vertical: true)
+                            if style == .dialogue {
+                                dialogueBody
+                            } else {
+                                proseBody
                             }
                         }
-                        .padding(16)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
 
                         Text("Tip: press and hold a word to see its meaning.")
                             .font(.system(size: 11))
@@ -208,6 +203,92 @@ struct ReadingDetailView: View {
                 shownQuestions = Array(reading.questions.shuffled().prefix(5))
             }
         }
+    }
+
+    private var style: PassageStyle { PassageStyle(rawType: reading.type) }
+
+    /// Letters, diaries, articles and stories: paragraphs stacked down the page,
+    /// each followed by the rule that suits the format.
+    private var proseBody: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            ForEach(Array(paragraphs.enumerated()), id: \.offset) { idx, para in
+                FuriganaText(text: para, fontSize: 18, color: .appText,
+                             interactive: true,
+                             onWordSelect: { word, rect in handleWord(word, rect) },
+                             // A letter is written on ruled stationery, so every
+                             // line gets a guide, not just every paragraph.
+                             lineRule: style == .letter ? accent.opacity(0.45) : nil)
+                    .fixedSize(horizontal: false, vertical: true)
+                // Diaries and articles keep a rule between sections; a letter
+                // already has one under every line, and a story reads as prose.
+                if idx < paragraphs.count - 1 && style != .letter {
+                    ParagraphRule(style: style, accent: accent)
+                }
+            }
+        }
+    }
+
+    /// A dialogue is a conversation, so each paragraph becomes a turn. Sides are
+    /// keyed to the speaker named before the 「：」, not to the paragraph's position —
+    /// two consecutive lines from one person would otherwise flip sides and read
+    /// as a reply from someone else.
+    private var dialogueBody: some View {
+        let sides = speakerSides
+        return VStack(alignment: .leading, spacing: 10) {
+            ForEach(Array(paragraphs.enumerated()), id: \.offset) { idx, para in
+                let mine = sides[idx]
+                HStack(spacing: 0) {
+                    if mine { Spacer(minLength: 28) }
+                    FuriganaText(text: para, fontSize: 17, color: .appText,
+                                 interactive: true) { word, rect in
+                        handleWord(word, rect)
+                    }
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(.horizontal, 12)
+                    .padding(.vertical, 9)
+                    .background(
+                        RoundedRectangle(cornerRadius: 14, style: .continuous)
+                            .fill(mine ? accent.opacity(0.14) : Color.appText.opacity(0.06))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 14, style: .continuous)
+                            .strokeBorder(mine ? accent.opacity(0.30) : Color.appHairline,
+                                          lineWidth: 1)
+                    )
+                    if !mine { Spacer(minLength: 28) }
+                }
+            }
+        }
+    }
+
+    /// Which side of the transcript each paragraph belongs on. The first speaker
+    /// found sits left, the next distinct one right; anything without a name
+    /// falls back to alternating so an unlabelled transcript still reads as a
+    /// back-and-forth.
+    private var speakerSides: [Bool] {
+        var order: [String] = []
+        var out: [Bool] = []
+        for (i, para) in paragraphs.enumerated() {
+            let name = Self.speaker(in: para)
+            if let name, !order.contains(name) { order.append(name) }
+            if let name, let idx = order.firstIndex(of: name) {
+                out.append(idx % 2 == 1)
+            } else {
+                out.append(i % 2 == 1)
+            }
+        }
+        return out
+    }
+
+    /// The name before a full-width colon, with any furigana brackets stripped.
+    private static func speaker(in paragraph: String) -> String? {
+        guard let sep = paragraph.firstIndex(where: { $0 == "：" || $0 == ":" }) else { return nil }
+        let raw = String(paragraph[paragraph.startIndex..<sep])
+        let name = raw.replacingOccurrences(of: "\\[[^\\]]*\\]", with: "",
+                                            options: .regularExpression)
+                      .trimmingCharacters(in: .whitespaces)
+        // A colon deep into a sentence isn't a speaker label.
+        return (name.isEmpty || name.count > 8) ? nil : name
     }
 
     private var paragraphs: [String] {

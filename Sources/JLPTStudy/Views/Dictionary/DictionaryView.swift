@@ -206,8 +206,10 @@ final class DictionaryViewModel: ObservableObject {
 // MARK: - Main view
 
 struct DictionaryView: View {
+    @ObservedObject private var gameUnlocks = GameUnlocks.shared
     @StateObject private var vm = DictionaryViewModel()
     @State private var mode: DictionaryMode = .dictionary
+    @State private var foundShiritori = false
     enum DictionaryMode { case dictionary, vocab }
 
     var body: some View {
@@ -224,7 +226,18 @@ struct DictionaryView: View {
 
                 if mode == .dictionary {
                 SearchBar(text: $vm.searchText, placeholder: "Search Japanese or English…")
-                    .onChange(of: vm.searchText) { vm.onSearchChanged($0) }
+                    // The trigger here is something you type, so the hint can
+                    // only point at the field rather than at a thing to tap.
+                    .secretHint(!gameUnlocks.isUnlocked(.shiritori), corner: 12)
+                    .onChange(of: vm.searchText) { q in
+                        vm.onSearchChanged(q)
+                        // Looking up the name of a word game gets you the game.
+                        let t = q.trimmingCharacters(in: .whitespaces).lowercased()
+                        if ["しりとり", "シリトリ", "shiritori", "尻取り"].contains(t) {
+                            GameUnlocks.shared.unlock(.shiritori)
+                            foundShiritori = true
+                        }
+                    }
                     .padding(.top, 4)
 
                 if vm.searchText.isEmpty {
@@ -283,6 +296,9 @@ struct DictionaryView: View {
         }
         .standardNavBar("Dictionary")
         .onAppear { vm.onAppear() }
+        .fullScreenCover(isPresented: $foundShiritori) {
+            NavigationStack { ShiritoriGame() }
+        }
     }
 
     // MARK: Row builder

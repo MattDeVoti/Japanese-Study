@@ -30,6 +30,9 @@ final class SpeechService: NSObject, ObservableObject {
 
     private let synth = AVSpeechSynthesizer()
     private var sessionReady = false
+    /// Utterances still queued for the current request; the button stays lit until
+    /// the last one finishes rather than the first.
+    private var pending = 0
 
     /// The best available Japanese voice, or nil if the device has none.
     private(set) lazy var voice: AVSpeechSynthesisVoice? = Self.bestJapaneseVoice()
@@ -63,7 +66,7 @@ final class SpeechService: NSObject, ObservableObject {
     /// Speaks `text`. Markup is converted to its kana reading first. Tapping the
     /// same item again stops it, which is what a speaker button should do.
     func speak(_ text: String, id: String? = nil) {
-        guard isEnabled, let voice else { return }
+        guard isEnabled, voice != nil else { return }
         let key = id ?? text
         if speakingID == key {
             stop()
@@ -74,21 +77,58 @@ final class SpeechService: NSObject, ObservableObject {
         guard !spoken.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return }
 
         prepareSession()
-        let utterance = AVSpeechUtterance(string: spoken)
-        utterance.voice = voice
+
+        // One utterance per sentence rather than one for the whole passage. The
+        // synthesiser flattens intonation across a long string and runs sentences
+        // together; feeding it a sentence at a time restores the fall at 。 and
+        // lets a real pause sit between them.
+        let sentences = Self.sentences(in: spoken)
+        pending = sentences.count
+        speakingID = key
+        for (i, sentence) in sentences.enumerated() {
+            synth.speak(utterance(for: sentence, isLast: i == sentences.count - 1))
+        }
+    }
+
+    private func utterance(for sentence: String, isLast: Bool) -> AVSpeechUtterance {
+        let u = AVSpeechUtterance(string: sentence)
+        u.voice = voice
         // AVSpeechUtteranceMinimumSpeechRate…Default is a narrow, non-linear band;
         // learners want slower than conversational, so bias toward the low end.
         let lo = AVSpeechUtteranceMinimumSpeechRate
         let hi = AVSpeechUtteranceDefaultSpeechRate
-        utterance.rate = lo + Float(rate) * (hi - lo)
-        utterance.pitchMultiplier = 1.0
-        utterance.postUtteranceDelay = 0
+        u.rate = lo + Float(rate) * (hi - lo)
+        u.pitchMultiplier = 1.0
+        // A breath between sentences. Without it the next one starts on top of the
+        // last syllable of the previous, which is most of what makes it sound
+        // mechanical over a whole paragraph.
+        u.postUtteranceDelay = isLast ? 0 : 0.28
+        // VoiceOver users' global rate/voice settings otherwise override the ones
+        // chosen here, which makes the audio unusable as a learning aid.
+        u.prefersAssistiveTechnologySettings = false
+        return u
+    }
 
-        speakingID = key
-        synth.speak(utterance)
+    /// Splits on Japanese sentence enders, keeping the punctuation so the voice
+    /// still hears the question mark and rises at 〜か？.
+    static func sentences(in text: String) -> [String] {
+        var out: [String] = []
+        var current = ""
+        for ch in text {
+            current.append(ch)
+            if "。！？!?\n".contains(ch) {
+                let t = current.trimmingCharacters(in: .whitespacesAndNewlines)
+                if !t.isEmpty { out.append(t) }
+                current = ""
+            }
+        }
+        let tail = current.trimmingCharacters(in: .whitespacesAndNewlines)
+        if !tail.isEmpty { out.append(tail) }
+        return out.isEmpty ? [text] : out
     }
 
     func stop() {
+        pending = 0
         if synth.isSpeaking { synth.stopSpeaking(at: .immediate) }
         speakingID = nil
     }
@@ -107,10 +147,18 @@ final class SpeechService: NSObject, ObservableObject {
 
 extension SpeechService: AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ s: AVSpeechSynthesizer, didFinish u: AVSpeechUtterance) {
-        speakingID = nil
+        finishOne()
     }
     func speechSynthesizer(_ s: AVSpeechSynthesizer, didCancel u: AVSpeechUtterance) {
-        speakingID = nil
+        finishOne()
+    }
+}
+
+private extension SpeechService {
+    /// A passage is several utterances; only the last one ends the session.
+    func finishOne() {
+        pending = max(0, pending - 1)
+        if pending == 0 { speakingID = nil }
     }
 }
 

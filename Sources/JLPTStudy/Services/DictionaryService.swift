@@ -21,6 +21,13 @@ final class DictionaryService: ObservableObject {
 
     // MARK: - Browse (paginated)
 
+    /// Every entry, for the word games. Cached by the caller — this is a full
+    /// table scan and shouldn't be run per frame.
+    func allEntries() -> [DictionaryEntry] {
+        run("SELECT id,word,reading,definitions,parts_of_speech,sort_key_en,sort_key_jp "
+            + "FROM entries", [])
+    }
+
     func browse(offset: Int, limit: Int = 100, sort: SortOrder = .english) -> [DictionaryEntry] {
         let orderBy = (sort == .english) ? "sort_key_en" : "sort_key_jp"
         return run(
@@ -98,6 +105,13 @@ final class DictionaryService: ObservableObject {
             return e
         }
         return run("SELECT \(cols) FROM entries WHERE word=? ORDER BY LENGTH(definitions) DESC LIMIT 1", [word]).first
+    }
+
+    /// Exact entry by row id — used where something already knows which entry
+    /// it means and must not risk matching a homophone.
+    func entry(id: Int) -> DictionaryEntry? {
+        let cols = "id,word,reading,definitions,parts_of_speech,sort_key_en,sort_key_jp"
+        return run("SELECT \(cols) FROM entries WHERE id=? LIMIT 1", [id]).first
     }
 
     // MARK: - Letter boundaries (for A-Z index bar)

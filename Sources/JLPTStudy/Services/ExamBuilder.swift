@@ -94,12 +94,16 @@ enum ExamBuilder {
             if let first = chapter.points.first { pool.append((first, q)) }
         }
         return pool.shuffled().prefix(count).map { point, q in
-            ExamQuestion(id: "g:\(q.id)",
+            let (choices, correct) = shuffled(q.choices, q.correctIndex)
+            // The id carries the chapter: te-iru_q1 exists in both ch06 and ch07,
+            // and answers are keyed by id — two questions sharing one on a single
+            // paper would answer each other and mis-grade.
+            return ExamQuestion(id: "g:\(chapter.id):\(q.id)",
                          section: .grammar,
                          prompt: q.prompt,
                          subject: q.japanese,
-                         choices: q.choices,
-                         correctIndex: q.correctIndex,
+                         choices: choices,
+                         correctIndex: correct,
                          explanation: q.explanation,
                          reviewItem: .grammar(chapterId: chapter.id, pointId: point.id))
         }
@@ -131,7 +135,13 @@ enum ExamBuilder {
                                             reviewItem: .vocab(word.id))
                     }
                 case 1:
-                    if let choices = pick(distractors: others.map(\.kanji), correct: word.kanji) {
+                    // "Which word means X?" — a chapter-mate defined the same way
+                    // is just as right, so it can't stand as a wrong answer.
+                    let sameMeaning = others.filter { $0.definition == word.definition }
+                                            .map(\.kanji)
+                    if let choices = pick(distractors: others.map(\.kanji)
+                                              .filter { !sameMeaning.contains($0) },
+                                          correct: word.kanji) {
                         made = ExamQuestion(id: "v:\(word.id):w", section: .vocab,
                                             prompt: "Which word means “\(word.definition)”?",
                                             subject: nil, choices: choices,
@@ -175,7 +185,12 @@ enum ExamBuilder {
             let mine = readings(card)
             let askReading = Bool.random() && !mine.isEmpty
             if askReading, let reading = mine.randomElement() {
-                let pool = others.flatMap(readings)
+                // Every reading this kanji has, not just the one being asked, has
+                // to come out of the pool. 山 is サン *and* セン, so offering セン
+                // (borrowed from 川) as a wrong answer made two options correct.
+                // 378 kanji across the chapters were affected.
+                let ownReadings = Set(mine)
+                let pool = others.flatMap(readings).filter { !ownReadings.contains($0) }
                 guard let choices = pick(distractors: pool, correct: reading) else { continue }
                 out.append(ExamQuestion(
                     id: "k:\(card.kanji):r", section: .kanji,
@@ -230,9 +245,11 @@ enum ExamBuilder {
                 reviewItem: .grammar(chapterId: chapterId, pointId: point.id)))
         }
         for (chapterId, q, pointId) in authored.shuffled().prefix(max(length - out.count, 0)) {
+            let (choices, correct) = shuffled(q.choices, q.correctIndex)
             out.append(ExamQuestion(
-                id: "kana-a:\(q.id)", section: .kana, prompt: q.prompt, subject: q.japanese,
-                choices: q.choices, correctIndex: q.correctIndex, explanation: q.explanation,
+                id: "kana-a:\(chapterId):\(q.id)", section: .kana,
+                prompt: q.prompt, subject: q.japanese,
+                choices: choices, correctIndex: correct, explanation: q.explanation,
                 reviewItem: pointId.isEmpty ? nil
                     : .grammar(chapterId: chapterId, pointId: pointId)))
         }
@@ -240,6 +257,16 @@ enum ExamBuilder {
     }
 
     // MARK: - Helpers
+
+    /// Authored banks keep the answer in a fixed slot, and across the whole bank
+    /// 49% of them sit first — enough to pass a paper by always tapping the top
+    /// option. Generated questions already shuffle; papers now shuffle authored
+    /// ones too. (Chapter practice shuffles separately, in GrammarPracticeView.)
+    private static func shuffled(_ choices: [String], _ correct: Int) -> ([String], Int) {
+        guard choices.indices.contains(correct) else { return (choices, correct) }
+        let order = Array(choices.indices).shuffled()
+        return (order.map { choices[$0] }, order.firstIndex(of: correct) ?? 0)
+    }
 
     /// Four distinct choices, shuffled, or nil when there aren't three usable
     /// distractors (which happens on very small chapters).

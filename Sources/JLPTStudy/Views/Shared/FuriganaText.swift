@@ -21,6 +21,10 @@ struct FuriganaText: UIViewRepresentable {
     var alignment: NSTextAlignment = .left
     var interactive: Bool = false
     var onWordSelect: ((String, CGRect) -> Void)? = nil
+    /// Draws a dashed writing guide under every rendered line. The rules come from
+    /// CoreText's own line origins, so they track the text exactly — including when
+    /// the Japanese text-size slider changes the line height.
+    var lineRule: Color? = nil
 
     /// Observed so changing the Japanese text size re-renders every instance —
     /// CoreText draws at a fixed point size and won't pick it up on its own.
@@ -35,6 +39,7 @@ struct FuriganaText: UIViewRepresentable {
     func updateUIView(_ canvas: FuriganaCanvas, context: Context) {
         canvas.onWordSelect = onWordSelect
         canvas.setInteractive(interactive)
+        canvas.lineRuleColor = lineRule.map { UIColor($0) }
         canvas.configure(
             text: text,
             fontSize: scaledFontSize,
@@ -48,6 +53,7 @@ struct FuriganaText: UIViewRepresentable {
         let w = (proposal.width.flatMap { $0 > 0 ? $0 : nil }) ?? UIScreen.main.bounds.width
         // Measure against the size we're about to draw at, not the unscaled one —
         // otherwise larger text is clipped by a height computed for the old size.
+        uiView.lineRuleColor = lineRule.map { UIColor($0) }
         uiView.configure(text: text, fontSize: scaledFontSize, color: UIColor(color),
                          weight: weight, alignment: alignment)
         let h = uiView.preferredHeight(for: w)
@@ -58,6 +64,8 @@ struct FuriganaText: UIViewRepresentable {
 // MARK: - CoreText drawing view
 
 final class FuriganaCanvas: UIView {
+    /// When set, a dashed rule is stroked under each line of text.
+    var lineRuleColor: UIColor? { didSet { if oldValue != lineRuleColor { setNeedsDisplay() } } }
     private var rawText = ""        // original string (may contain [reading] markup)
     private var displayText = ""    // markup-stripped, what CoreText draws
     private var color: UIColor = .label
@@ -217,8 +225,11 @@ final class FuriganaCanvas: UIView {
             CGSize(width: width, height: .greatestFiniteMagnitude), nil
         )
         guard fit.height.isFinite else { return 0 }
-        return ceil(fit.height)
+        return ceil(fit.height) + (lineRuleColor != nil ? Self.ruleInset : 0)
     }
+
+    /// Room under the final line for its own rule.
+    static let ruleInset: CGFloat = 5
 
     override func draw(_ rect: CGRect) {
         guard !displayText.isEmpty, rect.width > 0, rect.height > 0,
@@ -232,7 +243,35 @@ final class FuriganaCanvas: UIView {
         let frame = CTFramesetterCreateFrame(
             setter, CFRangeMake(0, 0), CGPath(rect: rect, transform: nil), nil
         )
+        if let ruleColor = lineRuleColor {
+            drawLineRules(frame: frame, in: rect, ctx: ctx, color: ruleColor)
+        }
         CTFrameDraw(frame, ctx)
+    }
+
+    /// One dashed rule per rendered line, sitting just under that line's descent.
+    /// Drawn before the glyphs so a descender crosses the rule rather than being
+    /// cut by it, which is how ruled paper actually looks.
+    private func drawLineRules(frame: CTFrame, in rect: CGRect,
+                               ctx: CGContext, color: UIColor) {
+        guard let lines = CTFrameGetLines(frame) as? [CTLine], !lines.isEmpty else { return }
+        var origins = [CGPoint](repeating: .zero, count: lines.count)
+        CTFrameGetLineOrigins(frame, CFRangeMake(0, 0), &origins)
+
+        ctx.saveGState()
+        ctx.setStrokeColor(color.resolvedColor(with: traitCollection).cgColor)
+        ctx.setLineWidth(1)
+        ctx.setLineDash(phase: 0, lengths: [5, 4])
+        for (i, line) in lines.enumerated() {
+            var ascent: CGFloat = 0, descent: CGFloat = 0, leading: CGFloat = 0
+            CTLineGetTypographicBounds(line, &ascent, &descent, &leading)
+            let y = (origins[i].y - descent - 2).rounded()
+            guard y >= 0, y < rect.height else { continue }
+            ctx.move(to: CGPoint(x: 0, y: y))
+            ctx.addLine(to: CGPoint(x: rect.width, y: y))
+        }
+        ctx.strokePath()
+        ctx.restoreGState()
     }
 
     private func buildAttr(color: UIColor) -> NSAttributedString {
