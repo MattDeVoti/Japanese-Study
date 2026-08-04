@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "n5_q001",
+    "type": "fillBlank",
+    "prompt": "Which particle marks the topic you are describing?",
+    "japanese": "母[はは]＿＿先生[せんせい]です。",
+    "choices": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "correctIndex": 0,
+    "explanation": "母は先生です — は marks 母 as the topic (‘As for my mother, she is a teacher’). を marks objects, に marks place/time, and が introduces new or emphasized subjects rather than a known topic."
+  },
+  {
+    "id": "n5_q002",
+    "type": "fillBlank",
+    "prompt": "Answering ‘who did it?’, which particle emphasizes the subject?",
+    "japanese": "私[わたし]＿＿やりました。",
+    "choices": [
+      "が",
+      "は",
+      "も",
+      "へ"
+    ],
+    "correctIndex": 0,
+    "explanation": "私がやりました — が highlights 私 as the specific one who did it, which is what a ‘who?’ question asks for. は would background 私 instead of pinpointing it."
+  },
+  {
+    "id": "n5_q003",
+    "type": "fillBlank",
+    "prompt": "‘There is a problem.’ Presenting brand-new information, which particle fits?",
+    "japanese": "問題[もんだい]＿＿あります。",
+    "choices": [
+      "が",
+      "は",
+      "を",
+      "の"
+    ],
+    "correctIndex": 0,
+    "explanation": "問題があります — new information appearing for the first time takes が. は would imply 問題 is already the known topic."
+  },
+  {
+    "id": "n5_q004",
+    "type": "usage",
+    "prompt": "Which sentence correctly contrasts two things with は?",
+    "japanese": null,
+    "choices": [
+      "コーヒーは好[す]きですが、お茶[ちゃ]は好[す]きじゃないです。",
+      "コーヒーが好[す]きですが、お茶[ちゃ]が好[す]きじゃないです。",
+      "コーヒーを好[す]きですが、お茶[ちゃ]を好[す]きじゃないです。",
+      "コーヒーに好[す]きですが、お茶[ちゃ]に好[す]きじゃないです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For A-vs-B contrast, both items take は (‘coffee I like, but tea I don’t’). Note 好き takes が for its object, but contrast overrides that and uses は."
+  },
+  {
+    "id": "n5_q005",
+    "type": "fillBlank",
+    "prompt": "‘I like dogs.’ What marks the thing liked with 好き?",
+    "japanese": "犬[いぬ]＿＿好[す]きです。",
+    "choices": [
+      "が",
+      "を",
+      "は",
+      "に"
+    ],
+    "correctIndex": 0,
+    "explanation": "犬が好きです — 好き, 上手[じょうず], ほしい and 分[わ]かる take が (not を) for their object. を is wrong here even though English uses ‘like dogs’ as object."
+  },
+  {
+    "id": "n5_q006",
+    "type": "fillBlank",
+    "prompt": "Where something EXISTS — which particle?",
+    "japanese": "机[つくえ]の上[うえ]＿＿本[ほん]があります。",
+    "choices": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "correctIndex": 0,
+    "explanation": "机の上にあります — に marks the place where something exists or is located. で would mark where an action happens, but ‘there is’ is existence, not an action."
+  },
+  {
+    "id": "n5_q007",
+    "type": "fillBlank",
+    "prompt": "Where an ACTION happens — which particle?",
+    "japanese": "図書館[としょかん]＿＿勉強[べんきょう]します。",
+    "choices": [
+      "で",
+      "に",
+      "を",
+      "と"
+    ],
+    "correctIndex": 0,
+    "explanation": "図書館で勉強します — で marks the location of an action (studying). に would be for existence or a destination, not the site of activity."
+  },
+  {
+    "id": "n5_q008",
+    "type": "usage",
+    "prompt": "Which sentence is correct?",
+    "japanese": null,
+    "choices": [
+      "公園[こうえん]で遊[あそ]びます。",
+      "公園[こうえん]に遊[あそ]びます。",
+      "公園[こうえん]を遊[あそ]びます。",
+      "公園[こうえん]へ遊[あそ]びます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "遊ぶ (to play) is an action, so its location takes で. Destinations use に/へ, but ‘play’ happens AT the park, not toward it."
+  },
+  {
+    "id": "n5_q009",
+    "type": "fillBlank",
+    "prompt": "‘I put the book ON the desk.’ Marking where it ends up:",
+    "japanese": "本[ほん]を机[つくえ]の上[うえ]＿＿置[お]きます。",
+    "choices": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "机の上に置きます — placing something results in it existing at a spot, so the endpoint takes に. で would describe where you stand while placing, not where the book lands."
+  },
+  {
+    "id": "n5_q010",
+    "type": "fillBlank",
+    "prompt": "‘I go to school by bus.’ Marking the means:",
+    "japanese": "バス＿＿学校[がっこう]へ行[い]きます。",
+    "choices": [
+      "で",
+      "に",
+      "を",
+      "と"
+    ],
+    "correctIndex": 0,
+    "explanation": "バスで — で also marks the means/tool (by bus, with chopsticks, in Japanese). に here would be a destination marker, which バス is not."
+  },
+  {
+    "id": "n5_q011",
+    "type": "fillBlank",
+    "prompt": "Marking the destination you move toward (either works, but which is listed?):",
+    "japanese": "日本[にほん]＿＿行[い]きます。",
+    "choices": [
+      "へ",
+      "を",
+      "が",
+      "も"
+    ],
+    "correctIndex": 0,
+    "explanation": "日本へ行きます — へ marks direction/destination of movement. に also works for a destination; を marks objects and cannot mark where you go."
+  },
+  {
+    "id": "n5_q012",
+    "type": "usage",
+    "prompt": "Which best expresses ‘arrive AT the station’?",
+    "japanese": null,
+    "choices": [
+      "駅[えき]に着[つ]きます。",
+      "駅[えき]で着[つ]きます。",
+      "駅[えき]を着[つ]きます。",
+      "駅[えき]が着[つ]きます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "着く (arrive) fixes an endpoint, which always takes に (not で). で marks an action’s location, but arriving pins a specific point of contact."
+  },
+  {
+    "id": "n5_q013",
+    "type": "fillBlank",
+    "prompt": "‘I get off the train.’ Leaving an enclosed space uses:",
+    "japanese": "電車[でんしゃ]＿＿降[お]ります。",
+    "choices": [
+      "を",
+      "に",
+      "で",
+      "から"
+    ],
+    "correctIndex": 0,
+    "explanation": "電車を降ります — を marks the place you exit/leave with verbs like 降りる, 出る. It is the same を that marks a space passed through (公園を散歩する)."
+  },
+  {
+    "id": "n5_q014",
+    "type": "fillBlank",
+    "prompt": "‘Walk ALONG / THROUGH the park.’ The space traversed takes:",
+    "japanese": "公園[こうえん]＿＿散歩[さんぽ]します。",
+    "choices": [
+      "を",
+      "で",
+      "に",
+      "へ"
+    ],
+    "correctIndex": 0,
+    "explanation": "公園を散歩します — motion verbs like 散歩する, 歩[ある]く, 渡[わた]る mark the path/space traversed with を. で would mark where an action sits, but here the park is the route moved through."
+  },
+  {
+    "id": "n5_q015",
+    "type": "fillBlank",
+    "prompt": "‘There is a cat.’ For a living thing, which verb?",
+    "japanese": "猫[ねこ]が＿＿。",
+    "choices": [
+      "います",
+      "あります",
+      "です",
+      "しています"
+    ],
+    "correctIndex": 0,
+    "explanation": "猫がいます — animate things (people, animals) use いる/います. あります is for inanimate things and plants."
+  },
+  {
+    "id": "n5_q016",
+    "type": "fillBlank",
+    "prompt": "‘There is a car.’ For an object, which verb?",
+    "japanese": "車[くるま]が＿＿。",
+    "choices": [
+      "あります",
+      "います",
+      "です",
+      "なります"
+    ],
+    "correctIndex": 0,
+    "explanation": "車があります — inanimate objects use ある/あります. います is reserved for living, moving things."
+  },
+  {
+    "id": "n5_q017",
+    "type": "usage",
+    "prompt": "Which is correct for ‘I have an older brother’?",
+    "japanese": null,
+    "choices": [
+      "兄[あに]がいます。",
+      "兄[あに]があります。",
+      "兄[あに]がします。",
+      "兄[あに]がなります。"
+    ],
+    "correctIndex": 0,
+    "explanation": "People are animate, so possession of family members uses います. あります would treat your brother like an object."
+  },
+  {
+    "id": "n5_q018",
+    "type": "fillBlank",
+    "prompt": "‘I eat sushi too.’ Adding ‘too’ replaces を with:",
+    "japanese": "寿司[すし]＿＿食[た]べます。",
+    "choices": [
+      "も",
+      "は",
+      "が",
+      "と"
+    ],
+    "correctIndex": 0,
+    "explanation": "寿司も食べます — も (‘also/too’) replaces を or が entirely. You do not say 寿司をも; も takes their place."
+  },
+  {
+    "id": "n5_q019",
+    "type": "fillBlank",
+    "prompt": "‘I don’t drink coffee (as for coffee).’ Marking a negative topic:",
+    "japanese": "コーヒー＿＿飲[の]みません。",
+    "choices": [
+      "は",
+      "も",
+      "を",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "コーヒーは飲みません — with negatives, the object often shifts to は to signal contrast/topic (‘coffee, I don’t drink’). を is grammatical but は is the natural discriminating choice here."
+  },
+  {
+    "id": "n5_q020",
+    "type": "fillBlank",
+    "prompt": "‘Nothing’ — 何[なに]＿＿ + negative means ‘not anything’. Fill the particle:",
+    "japanese": "何[なに]＿＿食[た]べませんでした。",
+    "choices": [
+      "も",
+      "は",
+      "が",
+      "を"
+    ],
+    "correctIndex": 0,
+    "explanation": "何も食べませんでした — question word + も + negative = ‘not any’ (nothing/no one/nowhere). 誰[だれ]も, どこも work the same way."
+  },
+  {
+    "id": "n5_q021",
+    "type": "fillBlank",
+    "prompt": "Seeking agreement, ‘nice weather, isn’t it?’ ends with:",
+    "japanese": "いい天気[てんき]です＿＿。",
+    "choices": [
+      "ね",
+      "よ",
+      "か",
+      "な"
+    ],
+    "correctIndex": 0,
+    "explanation": "です ね — ね seeks shared agreement/confirmation. よ asserts new info to the listener, か makes a question."
+  },
+  {
+    "id": "n5_q022",
+    "type": "fillBlank",
+    "prompt": "Telling someone something they don’t know: ‘It starts at 3, you know.’",
+    "japanese": "三時[さんじ]に始[はじ]まります＿＿。",
+    "choices": [
+      "よ",
+      "ね",
+      "か",
+      "の"
+    ],
+    "correctIndex": 0,
+    "explanation": "始まります よ — よ delivers information the listener isn’t aware of. ね would wrongly assume they already agree."
+  },
+  {
+    "id": "n5_q023",
+    "type": "fillBlank",
+    "prompt": "Turning a statement into a yes/no question:",
+    "japanese": "あなたも行[い]きます＿＿。",
+    "choices": [
+      "か",
+      "ね",
+      "よ",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "行きます か — sentence-final か marks a question. ね/よ are for agreement/assertion, not for asking yes/no."
+  },
+  {
+    "id": "n5_q024",
+    "type": "usage",
+    "prompt": "‘This is a book.’ Which demonstrative stands ALONE as the subject?",
+    "japanese": null,
+    "choices": [
+      "これは本[ほん]です。",
+      "この本[ほん]です。",
+      "この、本[ほん]です。",
+      "ここは本[ほん]です。"
+    ],
+    "correctIndex": 0,
+    "explanation": "これ/それ/あれ are pronouns that stand alone. この/その/あの must attach directly to a noun (この本 = ‘this book’), so ‘この’ cannot end the phrase by itself."
+  },
+  {
+    "id": "n5_q025",
+    "type": "fillBlank",
+    "prompt": "‘___ book is interesting.’ Modifying the noun 本 directly:",
+    "japanese": "＿＿本[ほん]はおもしろいです。",
+    "choices": [
+      "この",
+      "これ",
+      "ここ",
+      "こちら"
+    ],
+    "correctIndex": 0,
+    "explanation": "この本 — この attaches to a following noun. これ is a standalone pronoun and cannot sit before 本 like an adjective."
+  },
+  {
+    "id": "n5_q026",
+    "type": "usage",
+    "prompt": "Pointing at something far from both of you, which set is right?",
+    "japanese": null,
+    "choices": [
+      "あれ / あの",
+      "それ / その",
+      "これ / この",
+      "どれ / どの"
+    ],
+    "correctIndex": 0,
+    "explanation": "あ-series = far from both speaker and listener. こ-series = near speaker, そ-series = near listener, ど-series = question (‘which’)."
+  },
+  {
+    "id": "n5_q027",
+    "type": "fillBlank",
+    "prompt": "Asking ‘Where is the bathroom?’",
+    "japanese": "トイレは＿＿ですか。",
+    "choices": [
+      "どこ",
+      "どれ",
+      "だれ",
+      "どの"
+    ],
+    "correctIndex": 0,
+    "explanation": "どこ asks ‘where’ (place). どれ = ‘which one’, だれ = ‘who’, どの = ‘which (noun)’."
+  },
+  {
+    "id": "n5_q028",
+    "type": "fillBlank",
+    "prompt": "‘How much is it?’",
+    "japanese": "これは＿＿ですか。",
+    "choices": [
+      "いくら",
+      "いくつ",
+      "どう",
+      "なに"
+    ],
+    "correctIndex": 0,
+    "explanation": "いくら asks price (‘how much money’). いくつ asks quantity/age, どう asks ‘how/what’s it like’, なに asks ‘what’."
+  },
+  {
+    "id": "n5_q029",
+    "type": "fillBlank",
+    "prompt": "‘Why are you late?’",
+    "japanese": "＿＿遅[おそ]いですか。",
+    "choices": [
+      "どうして",
+      "どう",
+      "どこ",
+      "どれ"
+    ],
+    "correctIndex": 0,
+    "explanation": "どうして asks ‘why/for what reason’. どう asks ‘how/in what way’, so ‘どう遅い’ would not mean ‘why late’."
+  },
+  {
+    "id": "n5_q030",
+    "type": "fillBlank",
+    "prompt": "‘What is this?’ vs ‘How is it?’ — choose ‘what’:",
+    "japanese": "これは＿＿ですか。",
+    "choices": [
+      "なに",
+      "どう",
+      "だれ",
+      "いつ"
+    ],
+    "correctIndex": 0,
+    "explanation": "なに/なん = ‘what’ (identity). どう = ‘how/what’s it like’. They are not interchangeable: なにですか asks the thing’s identity."
+  },
+  {
+    "id": "n5_q031",
+    "type": "fillBlank",
+    "prompt": "‘He is good at tennis.’ What marks テニス with 上手?",
+    "japanese": "彼[かれ]はテニス＿＿上手[じょうず]です。",
+    "choices": [
+      "が",
+      "を",
+      "に",
+      "は"
+    ],
+    "correctIndex": 0,
+    "explanation": "テニスが上手です — 上手, 好き, 下手[へた] take が for their object, mirroring 好き. を is a common learner error here."
+  },
+  {
+    "id": "n5_q032",
+    "type": "fillBlank",
+    "prompt": "‘I want water.’ ほしい marks the wanted thing with:",
+    "japanese": "水[みず]＿＿ほしいです。",
+    "choices": [
+      "が",
+      "を",
+      "に",
+      "も"
+    ],
+    "correctIndex": 0,
+    "explanation": "水がほしいです — ほしい is an adjective and takes が for the desired object. Contrast with 買[か]いたい/飲みたい where を is also possible, but ほしい strongly prefers が."
+  },
+  {
+    "id": "n5_q033",
+    "type": "usage",
+    "prompt": "Inviting a friend: ‘Shall we watch a movie?’ (suggesting together)",
+    "japanese": null,
+    "choices": [
+      "映画[えいが]を見[み]ませんか。",
+      "映画[えいが]を見[み]たいですか。",
+      "映画[えいが]を見[み]てください。",
+      "映画[えいが]を見[み]ました。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ませんか politely invites the listener to do something together. ～たいですか asks about THEIR desire (can sound intrusive), and ～てください is a request/command, not an invitation."
+  },
+  {
+    "id": "n5_q034",
+    "type": "usage",
+    "prompt": "You already agreed to go; now propose starting: ‘Let’s go!’",
+    "japanese": null,
+    "choices": [
+      "行[い]きましょう。",
+      "行[い]きませんか。",
+      "行[い]きたいです。",
+      "行[い]ってください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ましょう proposes doing something you both already lean toward (‘let’s’). ～ませんか is more of an opening invitation before agreement."
+  },
+  {
+    "id": "n5_q035",
+    "type": "fillBlank",
+    "prompt": "Expressing your own desire: ‘I want to go to Japan.’",
+    "japanese": "私[わたし]は日本[にほん]へ＿＿です。",
+    "choices": [
+      "行[い]きたい",
+      "行[い]きましょう",
+      "行[い]きませんか",
+      "行[い]ってください"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たい expresses the speaker’s own wish. The others are invitations, proposals, or requests aimed at the listener."
+  },
+  {
+    "id": "n5_q036",
+    "type": "usage",
+    "prompt": "Asking ‘May I take a photo?’",
+    "japanese": null,
+    "choices": [
+      "写真[しゃしん]を撮[と]ってもいいですか。",
+      "写真[しゃしん]を撮[と]ってはいけません。",
+      "写真[しゃしん]を撮[と]らなければなりません。",
+      "写真[しゃしん]を撮[と]ってください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てもいいですか asks permission (‘may I?’). ～てはいけません forbids, ～なければなりません says ‘must’, ～てください requests."
+  },
+  {
+    "id": "n5_q037",
+    "type": "usage",
+    "prompt": "A sign meaning ‘You must not smoke here.’",
+    "japanese": null,
+    "choices": [
+      "ここでたばこを吸[す]ってはいけません。",
+      "ここでたばこを吸[す]ってもいいです。",
+      "ここでたばこを吸[す]いたいです。",
+      "ここでたばこを吸[す]いましょう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てはいけません expresses prohibition (‘must not’). ～てもいいです grants permission — the opposite meaning."
+  },
+  {
+    "id": "n5_q038",
+    "type": "fillBlank",
+    "prompt": "‘I must study today.’ Which ending means ‘must’?",
+    "japanese": "今日[きょう]は＿＿。",
+    "choices": [
+      "勉強[べんきょう]しなければなりません",
+      "勉強[べんきょう]してもいいです",
+      "勉強[べんきょう]してはいけません",
+      "勉強[べんきょう]したいです"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なければなりません = ‘must/have to’ (obligation). ～てもいい = ‘may’, ～てはいけない = ‘must not’ — don’t confuse obligation with permission or prohibition."
+  },
+  {
+    "id": "n5_q039",
+    "type": "fillBlank",
+    "prompt": "Negative of the い-adjective 高[たか]い (expensive):",
+    "japanese": "この店[みせ]は＿＿。",
+    "choices": [
+      "高くないです",
+      "高いじゃないです",
+      "高くじゃないです",
+      "高いくないです"
+    ],
+    "correctIndex": 0,
+    "explanation": "い-adjectives drop い and add くない: 高い→高くない. じゃない is for nouns and な-adjectives, not い-adjectives."
+  },
+  {
+    "id": "n5_q040",
+    "type": "fillBlank",
+    "prompt": "Negative of the な-adjective 静[しず]か (quiet):",
+    "japanese": "この部屋[へや]は＿＿。",
+    "choices": [
+      "静かじゃないです",
+      "静かくないです",
+      "静かいです",
+      "静かないです"
+    ],
+    "correctIndex": 0,
+    "explanation": "な-adjectives (and nouns) negate with じゃない/ではない: 静かじゃない. くない is only for い-adjectives."
+  },
+  {
+    "id": "n5_q041",
+    "type": "fillBlank",
+    "prompt": "Past tense of 楽[たの]しい (fun):",
+    "japanese": "旅行[りょこう]は＿＿。",
+    "choices": [
+      "楽しかったです",
+      "楽しいでした",
+      "楽しくでした",
+      "楽しいだったです"
+    ],
+    "correctIndex": 0,
+    "explanation": "い-adjective past = drop い + かった: 楽しかった. ‘楽しいでした’ is wrong — you cannot add でした to keep the い."
+  },
+  {
+    "id": "n5_q042",
+    "type": "fillBlank",
+    "prompt": "Connecting two adjectives: ‘cheap AND delicious’:",
+    "japanese": "この店[みせ]は＿＿おいしいです。",
+    "choices": [
+      "安[やす]くて",
+      "安[やす]いで",
+      "安[やす]いくて",
+      "安[やす]く"
+    ],
+    "correctIndex": 0,
+    "explanation": "い-adjective て-form = drop い + くて: 安い→安くて. な-adjectives/nouns use で (静かで, 元気で) instead."
+  },
+  {
+    "id": "n5_q043",
+    "type": "fillBlank",
+    "prompt": "‘___ person’ — attaching な-adjective 元気[げんき] to 人[ひと]:",
+    "japanese": "＿＿人です。",
+    "choices": [
+      "元気な",
+      "元気の",
+      "元気い",
+      "元気だ"
+    ],
+    "correctIndex": 0,
+    "explanation": "な-adjectives take な before a noun: 元気な人. の is for noun+noun (日本の車), and い is for い-adjectives."
+  },
+  {
+    "id": "n5_q044",
+    "type": "fillBlank",
+    "prompt": "‘Japan’s car’ / ‘a car from Japan’ — noun modifying noun:",
+    "japanese": "日本[にほん]＿＿車[くるま]。",
+    "choices": [
+      "の",
+      "な",
+      "い",
+      "だ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Noun + の + noun shows possession/origin: 日本の車. な is for な-adjectives, not plain nouns."
+  },
+  {
+    "id": "n5_q045",
+    "type": "fillBlank",
+    "prompt": "Counting 3 flat objects (paper, tickets):",
+    "japanese": "切符[きっぷ]を＿＿買[か]いました。",
+    "choices": [
+      "三枚[さんまい]",
+      "三本[さんぼん]",
+      "三冊[さんさつ]",
+      "三個[さんこ]"
+    ],
+    "correctIndex": 0,
+    "explanation": "枚[まい] counts flat, thin things (paper, tickets, shirts). 本 = long thin things, 冊 = books, 個 = small objects."
+  },
+  {
+    "id": "n5_q046",
+    "type": "fillBlank",
+    "prompt": "Counting 2 long cylindrical things (pens, bottles):",
+    "japanese": "ペンを＿＿ください。",
+    "choices": [
+      "二本[にほん]",
+      "二枚[にまい]",
+      "二冊[にさつ]",
+      "二台[にだい]"
+    ],
+    "correctIndex": 0,
+    "explanation": "本[ほん] counts long, thin objects. Note the reading changes: 一本[いっぽん], 二本[にほん], 三本[さんぼん]."
+  },
+  {
+    "id": "n5_q047",
+    "type": "fillBlank",
+    "prompt": "Counting 4 people:",
+    "japanese": "友達[ともだち]が＿＿来[き]ました。",
+    "choices": [
+      "四人[よにん]",
+      "四本[よんほん]",
+      "四台[よんだい]",
+      "四枚[よんまい]"
+    ],
+    "correctIndex": 0,
+    "explanation": "人[ひと] counts people (with irregular 一人[ひとり], 二人[ふたり], 四人[よにん]). 台 counts machines, 枚 flat things."
+  },
+  {
+    "id": "n5_q048",
+    "type": "fillBlank",
+    "prompt": "Counting 1 machine/car:",
+    "japanese": "車[くるま]が＿＿あります。",
+    "choices": [
+      "一台[いちだい]",
+      "一本[いっぽん]",
+      "一冊[いっさつ]",
+      "一人[ひとり]"
+    ],
+    "correctIndex": 0,
+    "explanation": "台[だい] counts vehicles and machines (cars, TVs, computers). 本 is for long objects, not machines."
+  },
+  {
+    "id": "n5_q049",
+    "type": "fillBlank",
+    "prompt": "‘from 9 o’clock’ — starting point in time:",
+    "japanese": "九時[くじ]＿＿働[はたら]きます。",
+    "choices": [
+      "から",
+      "まで",
+      "に",
+      "で"
+    ],
+    "correctIndex": 0,
+    "explanation": "から marks a starting point (from). まで marks an endpoint (until). に would pin a single time, not a range start."
+  },
+  {
+    "id": "n5_q050",
+    "type": "fillBlank",
+    "prompt": "‘until 5 o’clock’ — endpoint in time:",
+    "japanese": "五時[ごじ]＿＿働[はたら]きます。",
+    "choices": [
+      "まで",
+      "から",
+      "に",
+      "を"
+    ],
+    "correctIndex": 0,
+    "explanation": "まで marks the limit/endpoint (until). から is the start. Together から～まで gives a full range."
+  },
+  {
+    "id": "n5_q051",
+    "type": "fillBlank",
+    "prompt": "‘Tokyo is bigger THAN Osaka.’ Marking the standard compared against:",
+    "japanese": "東京[とうきょう]は大阪[おおさか]＿＿大[おお]きいです。",
+    "choices": [
+      "より",
+      "ほど",
+      "から",
+      "も"
+    ],
+    "correctIndex": 0,
+    "explanation": "AはB より C = ‘A is more C than B’. より marks the thing you compare against. ほど appears in negative comparisons (Bほど～ない)."
+  },
+  {
+    "id": "n5_q052",
+    "type": "usage",
+    "prompt": "‘Which do you like better, coffee or tea?’ Correct pattern:",
+    "japanese": null,
+    "choices": [
+      "コーヒーとお茶[ちゃ]とどちらが好[す]きですか。",
+      "コーヒーやお茶[ちゃ]やどちらが好[す]きですか。",
+      "コーヒーもお茶[ちゃ]もどちらが好[す]きですか。",
+      "コーヒーにお茶[ちゃ]にどちらが好[す]きですか。"
+    ],
+    "correctIndex": 0,
+    "explanation": "The A と B と どちらが～ pattern compares two items. や lists examples (‘and so on’) and can’t frame a two-way ‘which’ choice."
+  },
+  {
+    "id": "n5_q053",
+    "type": "fillBlank",
+    "prompt": "‘Coffee is the one I like more.’ Marking the preferred side:",
+    "japanese": "コーヒーの＿＿好[す]きです。",
+    "choices": [
+      "ほうが",
+      "より",
+      "ほど",
+      "だけ"
+    ],
+    "correctIndex": 0,
+    "explanation": "AのほうがB より好き = ‘A is preferred over B’. ほう marks the favored option; より marks the losing standard."
+  },
+  {
+    "id": "n5_q054",
+    "type": "usage",
+    "prompt": "‘I have only 100 yen.’ Which uses しか correctly?",
+    "japanese": null,
+    "choices": [
+      "百円[ひゃくえん]しかありません。",
+      "百円[ひゃくえん]しかあります。",
+      "百円[ひゃくえん]だけありません。",
+      "百円[ひゃくえん]しかです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "しか always pairs with a NEGATIVE verb: しか～ない = ‘only’. だけ pairs with a positive verb (百円だけあります). Mixing しか with a positive verb is ungrammatical."
+  },
+  {
+    "id": "n5_q055",
+    "type": "fillBlank",
+    "prompt": "‘Only Tanaka came’ (neutral ‘only’, positive verb):",
+    "japanese": "田中[たなか]さん＿＿来[き]ました。",
+    "choices": [
+      "だけ",
+      "しか",
+      "ばかり",
+      "ほど"
+    ],
+    "correctIndex": 0,
+    "explanation": "だけ = ‘only’ with a positive verb and a neutral tone. しか would require a negative (しか来なかった) and adds a ‘nothing but’ nuance."
+  },
+  {
+    "id": "n5_q056",
+    "type": "fillBlank",
+    "prompt": "Exhaustive ‘and’: ‘a pen and a notebook’ (that’s all):",
+    "japanese": "ペン＿＿ノートを買[か]いました。",
+    "choices": [
+      "と",
+      "や",
+      "も",
+      "の"
+    ],
+    "correctIndex": 0,
+    "explanation": "と joins a complete list (exactly these). や lists representative examples implying there’s more (‘things like …’)."
+  },
+  {
+    "id": "n5_q057",
+    "type": "fillBlank",
+    "prompt": "‘Things like books and magazines (among others):’",
+    "japanese": "本[ほん]＿＿雑誌[ざっし]などを読[よ]みます。",
+    "choices": [
+      "や",
+      "と",
+      "を",
+      "に"
+    ],
+    "correctIndex": 0,
+    "explanation": "や gives non-exhaustive examples and often pairs with など (‘etc.’). と would claim the list is complete."
+  },
+  {
+    "id": "n5_q058",
+    "type": "usage",
+    "prompt": "‘I am eating now.’ Ongoing action:",
+    "japanese": null,
+    "choices": [
+      "今[いま]、食[た]べています。",
+      "今[いま]、食[た]べます。",
+      "今[いま]、食[た]べました。",
+      "今[いま]、食[た]べたいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ている shows an action in progress. Plain 食べます is a habitual/future statement, not ‘right now in progress’."
+  },
+  {
+    "id": "n5_q059",
+    "type": "usage",
+    "prompt": "‘I am married.’ (a resulting state, not an action in progress)",
+    "japanese": null,
+    "choices": [
+      "結婚[けっこん]しています。",
+      "結婚[けっこん]します。",
+      "結婚[けっこん]しました。",
+      "結婚[けっこん]したいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "With change-of-state verbs, ～ている expresses the resulting ongoing state (‘am married’), not an action happening this second. 結婚します would mean ‘will get married’."
+  },
+  {
+    "id": "n5_q060",
+    "type": "fillBlank",
+    "prompt": "Listing actions in sequence: ‘I get up AND eat.’",
+    "japanese": "朝[あさ]＿＿、ご飯[はん]を食[た]べます。",
+    "choices": [
+      "起[お]きて",
+      "起[お]きるて",
+      "起[お]きfor",
+      "起[お]きた"
+    ],
+    "correctIndex": 0,
+    "explanation": "The て-form links successive actions (起きて、食べる). 起きる is a る-verb: 起きる→起きて. ‘起きるて’ is not a valid form."
+  },
+  {
+    "id": "n5_q061",
+    "type": "fillBlank",
+    "prompt": "て-form of the う-verb 飲[の]む (drink):",
+    "japanese": "薬[くすり]を＿＿寝[ね]ます。",
+    "choices": [
+      "飲んで",
+      "飲みて",
+      "飲むて",
+      "飲んて"
+    ],
+    "correctIndex": 0,
+    "explanation": "む/ぶ/ぬ-ending う-verbs take んで: 飲む→飲んで, 遊ぶ→遊んで. ‘飲みて’ applies the wrong (masu-stem) pattern."
+  },
+  {
+    "id": "n5_q062",
+    "type": "fillBlank",
+    "prompt": "て-form of 行[い]く (go) — an irregular one:",
+    "japanese": "学校[がっこう]へ＿＿、勉強[べんきょう]します。",
+    "choices": [
+      "行って",
+      "行きて",
+      "行いて",
+      "行くて"
+    ],
+    "correctIndex": 0,
+    "explanation": "行く is irregular: it becomes 行って (not 行いて, which would follow the regular く→いて rule of 書く→書いて)."
+  },
+  {
+    "id": "n5_q063",
+    "type": "usage",
+    "prompt": "‘I haven’t eaten yet.’",
+    "japanese": null,
+    "choices": [
+      "まだ食[た]べていません。",
+      "もう食[た]べました。",
+      "まだ食[た]べました。",
+      "もう食[た]べていません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "まだ + negative (often ～ていません) = ‘not yet’. もう + past = ‘already’. まだ食べました is a contradiction."
+  },
+  {
+    "id": "n5_q064",
+    "type": "fillBlank",
+    "prompt": "‘Have you eaten ALREADY?’",
+    "japanese": "＿＿食[た]べましたか。",
+    "choices": [
+      "もう",
+      "まだ",
+      "ずっと",
+      "また"
+    ],
+    "correctIndex": 0,
+    "explanation": "もう = ‘already/yet (completion)’. まだ = ‘still/not yet’. また (with the other kanji sense) means ‘again’, a different word."
+  },
+  {
+    "id": "n5_q065",
+    "type": "fillBlank",
+    "prompt": "‘I don’t understand at all.’ Strong ‘not at all’:",
+    "japanese": "＿＿分[わ]かりません。",
+    "choices": [
+      "ぜんぜん",
+      "あまり",
+      "とても",
+      "よく"
+    ],
+    "correctIndex": 0,
+    "explanation": "ぜんぜん + negative = ‘not at all’. あまり + negative = ‘not very/not much’ (weaker). とても/よく are for positive statements."
+  },
+  {
+    "id": "n5_q066",
+    "type": "fillBlank",
+    "prompt": "‘It’s not very tasty.’ Softer negative degree:",
+    "japanese": "＿＿おいしくないです。",
+    "choices": [
+      "あまり",
+      "ぜんぜん",
+      "とても",
+      "たくさん"
+    ],
+    "correctIndex": 0,
+    "explanation": "あまり～ない = ‘not very’. ぜんぜん would push it to ‘not at all’. とても only pairs with positives."
+  },
+  {
+    "id": "n5_q067",
+    "type": "usage",
+    "prompt": "Which time word needs に before the verb?",
+    "japanese": null,
+    "choices": [
+      "七時[しちじ]に起[お]きます。",
+      "今日[きょう]に起[お]きます。",
+      "毎日[まいにち]に起[お]きます。",
+      "明日[あした]に起[お]きます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "Specific clock times/dates take に (七時に). Relative time words (今日, 明日, 毎日) take NO に. This is a classic に-usage trap."
+  },
+  {
+    "id": "n5_q068",
+    "type": "fillBlank",
+    "prompt": "‘I meet my friend’ — 会[あ]う marks the person with:",
+    "japanese": "友達[ともだち]＿＿会[あ]います。",
+    "choices": [
+      "に",
+      "を",
+      "と",
+      "で"
+    ],
+    "correctIndex": 0,
+    "explanation": "会う takes に for the person met (友達に会う). を is wrong here; と is possible but means ‘meet WITH (mutually)’, while に is the standard ‘meet someone’."
+  },
+  {
+    "id": "n5_q069",
+    "type": "fillBlank",
+    "prompt": "‘Become a doctor’ (noun + なる):",
+    "japanese": "医者[いしゃ]＿＿なります。",
+    "choices": [
+      "に",
+      "く",
+      "と",
+      "で"
+    ],
+    "correctIndex": 0,
+    "explanation": "Noun/な-adjective + に + なる = ‘become’. い-adjectives use く (高くなる). So it’s 医者になる, not 医者となる here."
+  },
+  {
+    "id": "n5_q070",
+    "type": "fillBlank",
+    "prompt": "‘It got bigger’ (い-adjective 大[おお]きい + なる):",
+    "japanese": "子供[こども]が＿＿。",
+    "choices": [
+      "大きくなりました",
+      "大きになりました",
+      "大きいなりました",
+      "大きでなりました"
+    ],
+    "correctIndex": 0,
+    "explanation": "い-adjective + なる drops い→く: 大きい→大きくなる. Nouns/な-adjectives would use に instead."
+  },
+  {
+    "id": "n5_q071",
+    "type": "usage",
+    "prompt": "‘Because it’s cold, I’ll close the window.’ から meaning ‘because’:",
+    "japanese": null,
+    "choices": [
+      "寒[さむ]いから、窓[まど]を閉[し]めます。",
+      "寒[さむ]いまで、窓[まど]を閉[し]めます。",
+      "寒[さむ]いより、窓[まど]を閉[し]めます。",
+      "寒[さむ]いほど、窓[まど]を閉[し]めます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "から after a clause means ‘because’ (reason). It’s the same particle as ‘from’, but here it links a reason to a result."
+  },
+  {
+    "id": "n5_q072",
+    "type": "usage",
+    "prompt": "Offering help: ‘Shall I carry it (for you)?’",
+    "japanese": null,
+    "choices": [
+      "持[も]ちましょうか。",
+      "持[も]ちませんか。",
+      "持[も]ちたいですか。",
+      "持[も]ってください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ましょうか offers to do something FOR the listener (‘shall I?’). ～ませんか invites them to join YOU in doing it."
+  },
+  {
+    "id": "n5_q073",
+    "type": "fillBlank",
+    "prompt": "‘I go with my friend.’ Marking the companion:",
+    "japanese": "友達[ともだち]＿＿行[い]きます。",
+    "choices": [
+      "と",
+      "に",
+      "で",
+      "を"
+    ],
+    "correctIndex": 0,
+    "explanation": "と marks the person you do something together with (‘with’). に would mark a destination or recipient, not a companion."
+  },
+  {
+    "id": "n5_q074",
+    "type": "fillBlank",
+    "prompt": "‘I said “thank you.”’ Quoting speech uses:",
+    "japanese": "「ありがとう」＿＿言[い]いました。",
+    "choices": [
+      "と",
+      "を",
+      "に",
+      "が"
+    ],
+    "correctIndex": 0,
+    "explanation": "と marks quoted speech or thoughts before 言う/思[おも]う (‘…と言う’). を cannot mark a quote."
+  },
+  {
+    "id": "n5_q075",
+    "type": "usage",
+    "prompt": "Advice: ‘You’d better rest.’",
+    "japanese": null,
+    "choices": [
+      "休[やす]んだほうがいいです。",
+      "休[やす]むほうがいいです。",
+      "休[やす]んでほうがいいです。",
+      "休[やす]みほうがいいです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "For advice, ～たほうがいい uses the PLAIN PAST form (休んだ). 休むほうがいい is used more for general comparison than direct advice."
+  },
+  {
+    "id": "n5_q076",
+    "type": "fillBlank",
+    "prompt": "Past negative polite: ‘I didn’t go yesterday.’",
+    "japanese": "昨日[きのう]は＿＿。",
+    "choices": [
+      "行[い]きませんでした",
+      "行[い]きませんです",
+      "行[い]かなかったです",
+      "行[い]きないでした"
+    ],
+    "correctIndex": 0,
+    "explanation": "Polite past negative = ～ませんでした (行きませんでした). ‘行かなかったです’ is the plain-past-negative + です (acceptable casually) but ませんでした is the standard polite form; ‘行きませんです’ is wrong."
+  },
+  {
+    "id": "n5_q077",
+    "type": "usage",
+    "prompt": "‘I studied, but I failed.’ Connecting contrast:",
+    "japanese": null,
+    "choices": [
+      "勉強[べんきょう]しましたが、だめでした。",
+      "勉強[べんきょう]しましたから、だめでした。",
+      "勉強[べんきょう]しましたので、だめでした。",
+      "勉強[べんきょう]しまして、だめでした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "が (mid-sentence) means ‘but’ and links contrasting clauses. から/ので mean ‘because’, giving the wrong cause-effect relationship here."
+  },
+  {
+    "id": "n5_q078",
+    "type": "usage",
+    "prompt": "A friend gave ME a present. Which verb?",
+    "japanese": "友達[ともだち]がプレゼントを＿＿。",
+    "choices": [
+      "くれました",
+      "あげました",
+      "もらいました",
+      "しました"
+    ],
+    "correctIndex": 0,
+    "explanation": "くれる = someone gives TO ME (or my in-group). あげる = I/someone gives to another. Since the present comes to me, use くれる."
+  },
+  {
+    "id": "n5_q079",
+    "type": "usage",
+    "prompt": "I gave my friend a present. Which verb?",
+    "japanese": "私[わたし]は友達[ともだち]にプレゼントを＿＿。",
+    "choices": [
+      "あげました",
+      "くれました",
+      "もらいました",
+      "いました"
+    ],
+    "correctIndex": 0,
+    "explanation": "あげる = I give to someone else. くれる would mean they give to me — the wrong direction here."
+  },
+  {
+    "id": "n5_q080",
+    "type": "fillBlank",
+    "prompt": "‘I received a book from my teacher.’ Marking the giver with もらう:",
+    "japanese": "先生[せんせい]＿＿本[ほん]をもらいました。",
+    "choices": [
+      "に",
+      "を",
+      "が",
+      "で"
+    ],
+    "correctIndex": 0,
+    "explanation": "With もらう, the source/giver takes に (or から): 先生にもらう. を marks the thing received (本を), not the giver."
+  },
+  {
+    "id": "n5_q081",
+    "type": "usage",
+    "prompt": "‘It will probably rain tomorrow.’ Expressing a guess:",
+    "japanese": null,
+    "choices": [
+      "明日[あした]は雨[あめ]でしょう。",
+      "明日[あした]は雨[あめ]です。",
+      "明日[あした]は雨[あめ]ですか。",
+      "明日[あした]は雨[あめ]でした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "でしょう expresses probability/conjecture (‘probably’). です is a flat assertion, with no ‘probably’ nuance."
+  },
+  {
+    "id": "n5_q082",
+    "type": "fillBlank",
+    "prompt": "‘I want a little MORE.’",
+    "japanese": "＿＿ほしいです。",
+    "choices": [
+      "もう少[すこ]し",
+      "まだ少[すこ]し",
+      "もう少[すこ]しも",
+      "まだも"
+    ],
+    "correctIndex": 0,
+    "explanation": "もう + quantity = ‘more’ (もう少し = ‘a little more’, もう一つ = ‘one more’). まだ would mean ‘still’, not ‘additionally’."
+  },
+  {
+    "id": "n5_q083",
+    "type": "fillBlank",
+    "prompt": "Polite ‘because’ connecting two clauses softly:",
+    "japanese": "時間[じかん]がない＿＿、急[いそ]ぎます。",
+    "choices": [
+      "ので",
+      "のに",
+      "だけ",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "ので = ‘because/since’ (softer, more polite than から). のに means ‘even though’ — the opposite, contrastive meaning."
+  },
+  {
+    "id": "n5_q084",
+    "type": "usage",
+    "prompt": "‘Even though I studied, I didn’t understand.’ Choose のに:",
+    "japanese": null,
+    "choices": [
+      "勉強[べんきょう]したのに、分[わ]かりませんでした。",
+      "勉強[べんきょう]したので、分[わ]かりませんでした。",
+      "勉強[べんきょう]したから、分[わ]かりませんでした。",
+      "勉強[べんきょう]したまで、分[わ]かりませんでした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "のに = ‘even though’ and signals an unexpected result. ので/から give a plain reason and don’t carry the ‘contrary to expectation’ nuance."
+  }
+]

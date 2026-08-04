@@ -7,8 +7,8 @@ build/
 *.xcuserstate
 xcuserdata/
 
-# XcodeGen generates JLPTStudy.xcodeproj from project.yml — don't track it
-JLPTStudy.xcodeproj/
+# XcodeGen generates Omedetou.xcodeproj from project.yml — don't track it
+Omedetou.xcodeproj/
 
 # SQLite WAL/backup artifacts (the real dictionary.db is kept)
 *.db-shm
@@ -16,7 +16,7 @@ JLPTStudy.xcodeproj/
 *.db-journal
 dictionary_backup.db
 
-# Stray data dumps / large flashcard asset library (kept locally, out of git)
+# Stray data dumps, and the third-party reference library this app does not
+# ship (printable ebooks/flashcards bought from JLPT Sensei) — local only.
 combined_vocabulary.txt
-/JLPT Study/
-/JLPT Assets/
+/Reference Material/

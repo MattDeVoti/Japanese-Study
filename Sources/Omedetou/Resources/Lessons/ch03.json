@@ -1,0 +1,2385 @@
+{
+  "id": "ch03",
+  "chapterNumber": 3,
+  "title": "Verbs and Daily Actions",
+  "points": [
+    {
+      "id": "masu-form",
+      "name": "〜ます (masu) — polite verb ending",
+      "shortDescription": "The polite present/future verb form used in most everyday conversation.",
+      "formation": "Verb stem + ます (affirmative)  |  + ません (negative)  |  + ました (past)  |  + ませんでした (past neg)",
+      "explanation": "Japanese verbs come at the end of the sentence and conjugate to express politeness, tense, and whether an action is happening or not. The ます-form is the polite present/future form — think of it as your everyday verb 'suit': you wear it with teachers, shopkeepers, classmates you have just met, and anyone you want to show respect to.\n\nThe base of a ます verb is called the stem — for example, 食[た]べ is the stem of 食[た]べます (tabemasu, to eat). To make it negative, replace ます with ません: 食[た]べません (I don't eat / won't eat). For past tense, ます becomes ました: 食[た]べました (I ate). For past negative, ません becomes ませんでした: 食[た]べませんでした (I didn't eat).\n\nOne important freedom: ます-form verbs do not change based on who is doing the action. 食[た]べます can mean 'I eat,' 'you eat,' 'she eats,' or 'they eat' — context does the work that English subject pronouns do.",
+      "rules": [
+        "Present/future affirmative: stem + ます",
+        "Present/future negative: stem + ません",
+        "Past affirmative: stem + ました",
+        "Past negative: stem + ませんでした",
+        "Verb form does not change based on person (I / you / she / they all use the same form)"
+      ],
+      "examples": [
+        {
+          "japanese": "毎朝[まいあさ]、水[みず]を飲[の]みます。",
+          "romaji": "Maiasa, mizu wo nomimasu.",
+          "english": "I drink water every morning."
+        },
+        {
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]きません。",
+          "romaji": "Kyou wa gakkou ni ikimasen.",
+          "english": "I am not going to school today."
+        },
+        {
+          "japanese": "昨日[きのう]、本[ほん]を読[よ]みました。",
+          "romaji": "Kinou, hon wo yomimashita.",
+          "english": "I read a book yesterday."
+        },
+        {
+          "japanese": "朝[あさ]ごはんを食[た]べませんでした。",
+          "romaji": "Asagohan wo tabemasendeshita.",
+          "english": "I didn't eat breakfast."
+        }
+      ],
+      "flashcardHeader": "〜ます",
+      "flashcardAnswer": "The polite present/future verb form used in most everyday conversation.",
+      "practice": [
+        {
+          "id": "masu-form_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "毎朝[まいあさ]、水[みず]を飲[の]みます。",
+          "choices": [
+            "I drank water every morning.",
+            "I will drink water this morning only.",
+            "I drink water every morning.",
+            "I don't drink water every morning."
+          ],
+          "correctIndex": 2,
+          "explanation": "飲[の]みます is the polite affirmative present/future form of 飲[の]む (to drink). 毎朝[まいあさ] = every morning; 水[みず] = water. The ます-form expresses ongoing habits as well as future intentions."
+        },
+        {
+          "id": "masu-form_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I am not going to school today.'",
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]き___。",
+          "choices": [
+            "ました",
+            "ませんでした",
+            "ます",
+            "ません"
+          ],
+          "correctIndex": 3,
+          "explanation": "ません is the polite present/future negative ending added to the verb stem 行[い]き. ます = affirmative present; ました = past affirmative; ませんでした = past negative. Since today is present/future, ません is correct."
+        },
+        {
+          "id": "masu-form_q3",
+          "type": "construct",
+          "prompt": "How do you say 'I read a book yesterday' in polite Japanese?",
+          "choices": [
+            "昨日[きのう]、本[ほん]を読[よ]みました。",
+            "昨日[きのう]、本[ほん]を読[よ]みます。",
+            "昨日[きのう]、本[ほん]を読[よ]みません。",
+            "昨日[きのう]、本[ほん]を読[よ]みませんでした。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ました is the polite past affirmative ending. 昨日[きのう] (yesterday) signals a completed past event, requiring ました. 読[よ]みます = present/future; 読[よ]みません = present negative; 読[よ]みませんでした = past negative (didn't read)."
+        },
+        {
+          "id": "masu-form_q4",
+          "type": "usage",
+          "prompt": "Which sentence correctly expresses 'She didn't eat breakfast'?",
+          "choices": [
+            "朝[あさ]ごはんを食[た]べでしたません。",
+            "朝[あさ]ごはんを食[た]べましたでした。",
+            "朝[あさ]ごはんを食[た]べませんます。",
+            "朝[あさ]ごはんを食[た]べませんでした。"
+          ],
+          "correctIndex": 3,
+          "explanation": "ませんでした is the single, indivisible polite past negative ending — attach it directly to the verb stem 食[た]べ. The other options combine ます-form endings incorrectly; none are real Japanese verb forms."
+        },
+        {
+          "id": "masu-form_q5",
+          "type": "construct",
+          "prompt": "A Japanese verb in ます-form is used. The subject changes from 'I' to 'she.' What happens to the verb?",
+          "choices": [
+            "Add さん to the verb ending.",
+            "Change ます to さます for third-person subjects.",
+            "Nothing — ます-form verbs do not change for person.",
+            "Use a different stem for he/she subjects."
+          ],
+          "correctIndex": 2,
+          "explanation": "Unlike English ('I eat' vs 'she eats'), ます-form verbs are invariant for person. 食[た]べます means 'I eat,' 'you eat,' and 'she eats' equally — context, not verb ending, determines the subject."
+        },
+        {
+          "id": "masu-form_q6",
+          "type": "construct",
+          "prompt": "Which is the correct ます-form of 書[か]く (to write)?",
+          "japanese": null,
+          "choices": [
+            "書[か]きます",
+            "書[か]きえます",
+            "書[か]くます",
+            "書[か]きります"
+          ],
+          "correctIndex": 0,
+          "explanation": "書[か]く is a godan verb ending in く. To form ます, change the u-sound (く) to the i-sound (き) and add ます: 書[か]き + ます = 書[か]きます."
+        },
+        {
+          "id": "masu-form_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I listen to music every day.'",
+          "japanese": "毎日[まいにち]、音楽[おんがく]を聞[き]き___。",
+          "choices": [
+            "ませんでした",
+            "ました",
+            "ません",
+            "ます"
+          ],
+          "correctIndex": 3,
+          "explanation": "毎日[まいにち] (every day) describes a current habit — present/future affirmative → ます. 聞[き]く is a godan verb; its stem is 聞[き]き. 聞[き]き + ます = 聞[き]きます."
+        },
+        {
+          "id": "masu-form_q8",
+          "type": "translation",
+          "prompt": "What does 日本語[にほんご]を話[はな]しません mean?",
+          "japanese": "日本語[にほんご]を話[はな]しません。",
+          "choices": [
+            "I speak Japanese.",
+            "I spoke Japanese.",
+            "I do not speak Japanese.",
+            "Did I speak Japanese?"
+          ],
+          "correctIndex": 2,
+          "explanation": "話[はな]す (to speak) → stem 話[はな]し + ません (polite present negative) = 話[はな]しません. ません marks polite present/future negative. The particle を marks 日本語[にほんご] as the direct object."
+        },
+        {
+          "id": "masu-form_q9",
+          "type": "construct",
+          "prompt": "Which is the correct polite form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "すます",
+            "しります",
+            "します",
+            "せます"
+          ],
+          "correctIndex": 2,
+          "explanation": "する is an irregular verb. Its ます-form is します — not formed by any regular godan or ichidan rule. It must be memorised. The other options apply incorrect patterns."
+        },
+        {
+          "id": "masu-form_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I didn't sleep yesterday.'",
+          "japanese": "昨日[きのう]、寝[ね]___。",
+          "choices": [
+            "ません",
+            "ます",
+            "ませんでした",
+            "ました"
+          ],
+          "correctIndex": 2,
+          "explanation": "昨日[きのう] (yesterday) signals a completed past event. 寝[ね]る is ichidan: drop る, giving stem 寝[ね]. Add ませんでした (polite past negative): 寝[ね]ませんでした = 'did not sleep.'"
+        },
+        {
+          "id": "masu-form_q11",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses ました?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]、図書館[としょかん]に行[い]きました。",
+            "毎日[まいにち]、水[みず]を飲[の]みました。",
+            "昨日[きのう]、友達[ともだち]に会[あ]いました。",
+            "今[いま]、ご飯[はん]を食[た]べました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ました is the polite past affirmative. 昨日[きのう] (yesterday) is a completed past time, so ました fits. 明日[あした] (tomorrow) is future — use ます. 毎日[まいにち] (every day) is habitual present — use ます. 今[いま] (now) is present — use ます or ています."
+        },
+        {
+          "id": "masu-form_q12",
+          "type": "construct",
+          "prompt": "How do you ask 'Do you drink coffee?' in polite Japanese?",
+          "japanese": null,
+          "choices": [
+            "コーヒーを飲[の]みますか。",
+            "コーヒーを飲[の]みかます。",
+            "コーヒーを飲[の]みませんか。",
+            "コーヒーを飲[の]みましたか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "To form a polite yes/no question, add か to the end of the ます-form: 飲[の]みます + か = 飲[の]みますか. 飲[の]みませんか is an invitation ('Won't you drink?'). 飲[の]みましたか asks about the past ('Did you drink?')."
+        },
+        {
+          "id": "masu-form_q13",
+          "type": "translation",
+          "prompt": "What does 来週[らいしゅう]、日本[にほん]に来[き]ます mean?",
+          "japanese": "来週[らいしゅう]、日本[にほん]に来[き]ます。",
+          "choices": [
+            "I came to Japan last week.",
+            "I will come to Japan next week.",
+            "I go to Japan every week.",
+            "I did not come to Japan."
+          ],
+          "correctIndex": 1,
+          "explanation": "来[く]る (to come) is irregular: ます-form is 来[き]ます (きます). 来週[らいしゅう] = next week. ます covers future intention. The correct translation is 'I will come to Japan next week.'"
+        },
+        {
+          "id": "masu-form_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'She studied (past) Japanese.'",
+          "japanese": "彼女[かのじょ]は日本語[にほんご]を勉強[べんきょう]し___。",
+          "choices": [
+            "ます",
+            "ません",
+            "ませんでした",
+            "ました"
+          ],
+          "correctIndex": 3,
+          "explanation": "勉強[べんきょう]する → stem 勉強[べんきょう]し. Past affirmative = ました. 'She studied' is a completed past action, so ました is correct. ませんでした = past negative; ます = present; ません = present negative."
+        },
+        {
+          "id": "masu-form_q15",
+          "type": "usage",
+          "prompt": "Which verb group does 食[た]べる belong to, and how is its ます-form built?",
+          "japanese": null,
+          "choices": [
+            "Godan — change the last vowel sound and add ます",
+            "Irregular — must be memorised as 食[た]べます",
+            "Ichidan — drop る and add ます: 食[た]べます",
+            "Ichidan — keep る and add ます: 食[た]べるます"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べる is an ichidan (ru-verb). The rule: drop the final る, then add ます. 食[た]べ + ます = 食[た]べます. Ichidan verbs ending in る simply lose that る — nothing else changes."
+        },
+        {
+          "id": "masu-form_q16",
+          "type": "construct",
+          "prompt": "Which is the correct ます-form of 飲[の]む (to drink)?",
+          "japanese": null,
+          "choices": [
+            "飲[いん]えます",
+            "飲[の]みます",
+            "飲[の]ます",
+            "飲[いん]います"
+          ],
+          "correctIndex": 1,
+          "explanation": "飲[の]む is a godan verb ending in む. Change む (u-sound) → み (i-sound) and add ます: 飲[の]み + ます = 飲[の]みます. Other options apply wrong vowel shifts."
+        },
+        {
+          "id": "masu-form_q17",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I did not go to school yesterday.'",
+          "japanese": "昨日[きのう]、学校[がっこう]に行[い]き___。",
+          "choices": [
+            "ます",
+            "ました",
+            "ませんでした",
+            "ません"
+          ],
+          "correctIndex": 2,
+          "explanation": "昨日[きのう] (yesterday) requires a past form. 'Did not go' is past negative → ませんでした. 行[い]き is the stem of 行[い]く (godan). 行[い]き + ませんでした = 行[い]きませんでした."
+        },
+        {
+          "id": "masu-form_q18",
+          "type": "translation",
+          "prompt": "What does 毎朝[まいあさ]、シャワーを浴[あ]びます mean?",
+          "japanese": "毎朝[まいあさ]、シャワーを浴[あ]びます。",
+          "choices": [
+            "I took a shower this morning.",
+            "I take a shower every morning.",
+            "I didn't take a shower this morning.",
+            "I will take a shower tomorrow morning."
+          ],
+          "correctIndex": 1,
+          "explanation": "毎朝[まいあさ] = every morning (frequency, no に). 浴[あ]びる is ichidan: 浴[あ]び + ます = 浴[あ]びます (present/future affirmative). Combined with 毎朝[まいあさ], ます here expresses a habitual action: 'I take a shower every morning.'"
+        },
+        {
+          "id": "masu-form_q19",
+          "type": "usage",
+          "prompt": "A classmate asks: あした、図書館[としょかん]で勉強[べんきょう]しますか。 Which reply correctly says 'No, I won't'?",
+          "japanese": null,
+          "choices": [
+            "いいえ、勉強[べんきょう]しませんでした。",
+            "いいえ、勉強[べんきょう]しませんか。",
+            "いいえ、勉強[べんきょう]しません。",
+            "いいえ、勉強[べんきょう]しました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "The question is about tomorrow (future) → respond with present/future negative: しません. しませんでした is past negative (wrong tense); しませんか is an invitation; しました is past affirmative."
+        },
+        {
+          "id": "masu-form_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly conjugates 起[お]きる (to wake up) in the polite past negative?",
+          "japanese": null,
+          "choices": [
+            "起[お]きませんでした",
+            "起[お]きりませんでした",
+            "起[お]きましたでした",
+            "起[お]きないでした"
+          ],
+          "correctIndex": 0,
+          "explanation": "起[お]きる is ichidan: stem = 起[お]き. Polite past negative = stem + ませんでした → 起[お]きませんでした. The other options combine endings incorrectly; ませんでした is a single, indivisible ending."
+        }
+      ]
+    },
+    {
+      "id": "wa-particle",
+      "name": "は (wa) — topic marker",
+      "shortDescription": "Marks the topic of the sentence — what the sentence is about.",
+      "formation": "Topic + は + Comment about the topic",
+      "explanation": "は is perhaps the most important particle in Japanese, and also one of the trickiest for English speakers to fully absorb. Think of は as a stage spotlight: it shines on the topic and announces 'this is what we are talking about right now.' The topic does not have to be the person doing the action — it is simply the thing the sentence is going to comment on.\n\nわたしは学生[がくせい]です is naturally translated as 'I am a student,' but the literal feel is 'As for me — I am a student.' The spotlight lands on 'me,' and then the rest of the sentence says something about that. は also carries a subtle contrast nuance: when you use は, you often imply 'this topic — as opposed to something else.' お茶[ちゃ]は飲[の]みますが、コーヒーは飲[の]みません (I drink tea, but not coffee) shows は on both items signaling the contrast.\n\nOne technical note: は is written with the hiragana は but always pronounced 'wa' when used as a particle.",
+      "rules": [
+        "は marks the topic — the thing the sentence is 'about'",
+        "Often translatable as 'As for [topic], ...'",
+        "は can signal contrast between two items or options",
+        "は and が have different nuances — は = topic/contrast, が = neutral subject identification",
+        "Note: は is written with the hiragana は but pronounced 'wa' when used as a particle"
+      ],
+      "examples": [
+        {
+          "japanese": "わたしは学生[がくせい]です。",
+          "romaji": "Watashi wa gakusei desu.",
+          "english": "I am a student."
+        },
+        {
+          "japanese": "猫[ねこ]は魚[さかな]を食[た]べます。",
+          "romaji": "Neko wa sakana wo tabemasu.",
+          "english": "Cats eat fish."
+        },
+        {
+          "japanese": "お茶[ちゃ]は飲[の]みますが、コーヒーは飲[の]みません。",
+          "romaji": "Ocha wa nomimasu ga, koohii wa nomimasen.",
+          "english": "I drink tea, but I don't drink coffee."
+        },
+        {
+          "japanese": "山田[やまだ]さんは東京[とうきょう]に住[す]んでいます。",
+          "romaji": "Yamada-san wa Toukyou ni sunde imasu.",
+          "english": "Yamada-san lives in Tokyo."
+        }
+      ],
+      "flashcardHeader": "は",
+      "flashcardAnswer": "Marks the topic of the sentence — what the sentence is about.",
+      "practice": [
+        {
+          "id": "wa-particle_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "わたしは学生[がくせい]です。",
+          "choices": [
+            "Am I a student?",
+            "I am a student.",
+            "Students exist here.",
+            "I am not a student."
+          ],
+          "correctIndex": 1,
+          "explanation": "は marks the topic: わたし (I) is what the sentence comments on. です links the topic to 学生[がくせい] (student). The full feel is 'As for me — I am a student,' naturally translated as 'I am a student.'"
+        },
+        {
+          "id": "wa-particle_q2",
+          "type": "construct",
+          "prompt": "In 猫[ねこ]は魚[さかな]を食[た]べます, what is the grammatical role of は?",
+          "choices": [
+            "It marks 猫[ねこ] (cats) as the topic the sentence is about.",
+            "It marks 猫[ねこ] as the direct object of eating.",
+            "It turns the sentence into a question.",
+            "It shows that cats possess the fish."
+          ],
+          "correctIndex": 0,
+          "explanation": "は is the topic marker — it announces that the sentence is about cats. を marks the direct object (魚[さかな] = fish). は and が both relate to the 'doer,' but は specifically frames the subject as the announced topic."
+        },
+        {
+          "id": "wa-particle_q3",
+          "type": "usage",
+          "prompt": "Which sentence uses は to contrast two items?",
+          "choices": [
+            "お茶[ちゃ]を飲[の]みますが、コーヒーも飲[の]みません。",
+            "お茶[ちゃ]が飲[の]みますが、コーヒーが飲[の]みません。",
+            "お茶[ちゃ]は飲[の]みますが、コーヒーを飲[の]みません。",
+            "お茶[ちゃ]は飲[の]みますが、コーヒーは飲[の]みません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Using は on both お茶[ちゃ] and コーヒー signals contrast: 'tea — yes; coffee — no.' が neutrally marks subjects without the contrast nuance; を marks direct objects; mixing は and を breaks the parallel contrast structure."
+        },
+        {
+          "id": "wa-particle_q4",
+          "type": "construct",
+          "prompt": "How does は differ from が in Japanese?",
+          "choices": [
+            "は is only used in questions; が is used in statements.",
+            "は and が are interchangeable in all sentences.",
+            "は marks the topic (what the sentence comments on); が marks the neutral grammatical subject.",
+            "は marks the direct object; が marks the topic."
+          ],
+          "correctIndex": 2,
+          "explanation": "は marks the topic — the thing the sentence comments on — and often signals contrast. が marks the grammatical subject in neutral statements or when identifying who/what does something. They overlap in simple sentences but carry different nuances."
+        },
+        {
+          "id": "wa-particle_q5",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to make 山田[やまだ]さん the topic of the sentence.",
+          "japanese": "山田[やまだ]さん___東京[とうきょう]に住[す]んでいます。",
+          "choices": [
+            "を",
+            "は",
+            "に",
+            "が"
+          ],
+          "correctIndex": 1,
+          "explanation": "は marks 山田[やまだ]さん as the topic. While が could also appear here, は signals that the sentence is specifically about Yamada-san and frames everything after as a comment about them — the classic topic-marking usage in descriptive sentences."
+        },
+        {
+          "id": "wa-particle_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'As for cats, they eat fish.'",
+          "japanese": "猫[ねこ]___魚[さかな]を食[た]べます。",
+          "choices": [
+            "が",
+            "を",
+            "は",
+            "に"
+          ],
+          "correctIndex": 2,
+          "explanation": "は marks the topic — the thing the sentence is 'about.' 猫[ねこ]は sets cats as the announced topic. が could also appear here, but が marks a neutral subject while は specifically frames 猫[ねこ] as what the sentence comments on."
+        },
+        {
+          "id": "wa-particle_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "田中[たなか]さんはコーヒーを飲[の]みます。",
+          "choices": [
+            "Coffee is what Tanaka-san drinks.",
+            "Tanaka-san drinks coffee.",
+            "Does Tanaka-san drink coffee?",
+            "Tanaka-san doesn't drink coffee."
+          ],
+          "correctIndex": 1,
+          "explanation": "は marks 田中[たなか]さん as the topic. The sentence comments on Tanaka-san: they drink coffee. 飲[の]みます = polite present/future affirmative. The most natural English translation is 'Tanaka-san drinks coffee.'"
+        },
+        {
+          "id": "wa-particle_q8",
+          "type": "construct",
+          "prompt": "Which sentence uses は for contrast between two items?",
+          "japanese": null,
+          "choices": [
+            "猫[ねこ]も犬[いぬ]も好[す]きです。",
+            "猫[ねこ]が犬[いぬ]を追[お]いかけます。",
+            "猫[ねこ]は好[す]きですが、犬[いぬ]は好[す]きじゃありません。",
+            "猫[ねこ]を飼[か]っています。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Placing は on both 猫[ねこ] and 犬[いぬ] signals contrast: 'Cats — yes (I like them); dogs — no (I don't).' も means 'also/too' (no contrast); が marks a neutral subject; を marks a direct object. Only two は in parallel creates the contrast structure."
+        },
+        {
+          "id": "wa-particle_q9",
+          "type": "usage",
+          "prompt": "In which situation is が preferred over は?",
+          "japanese": null,
+          "choices": [
+            "When stating the topic of an ongoing conversation.",
+            "When adding contrast between two items.",
+            "When identifying who did something for the first time in context.",
+            "When making a general statement about a category."
+          ],
+          "correctIndex": 2,
+          "explanation": "が marks the grammatical subject in neutral identification or when introducing new information — especially 'who did X?' answers. は is used for established topics or contrast. First-mention, question-answer pairs, and focus on the subject favour が."
+        },
+        {
+          "id": "wa-particle_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to express contrast: 'I drink tea, but not coffee.'",
+          "japanese": "お茶[ちゃ]___飲[の]みますが、コーヒー___飲[の]みません。",
+          "choices": [
+            "が / を",
+            "は / は",
+            "を / は",
+            "に / に"
+          ],
+          "correctIndex": 1,
+          "explanation": "は on both nouns signals contrast. お茶[ちゃ]は…コーヒーは… sets up the 'this yes, that no' structure. Using を on one and は on the other breaks the parallel. Using が gives a neutral subject without the contrast nuance."
+        },
+        {
+          "id": "wa-particle_q11",
+          "type": "translation",
+          "prompt": "What is the nuance of は in the sentence below?",
+          "japanese": "魚[さかな]は食[た]べますが、肉[にく]は食[た]べません。",
+          "choices": [
+            "Fish is the topic; no contrast is implied.",
+            "Both fish and meat are contrasted — one eaten, one not.",
+            "The speaker likes fish more than meat.",
+            "The speaker ate fish in the past."
+          ],
+          "correctIndex": 1,
+          "explanation": "は on 魚[さかな] and は on 肉[にく] sets up a contrastive pair: 'Fish — I eat; meat — I don't.' This は = contrast pattern is one of は's most important uses. The verb forms confirm: affirmative for fish, negative for meat."
+        },
+        {
+          "id": "wa-particle_q12",
+          "type": "construct",
+          "prompt": "Which sentence correctly makes 時間[じかん] (time) the topic of a sentence?",
+          "japanese": null,
+          "choices": [
+            "時間[じかん]がありません。",
+            "時間[じかん]はありません。",
+            "時間[じかん]をありません。",
+            "時間[じかん]にありません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "は marks 時間[じかん] as the topic. 時間[じかん]はありません = 'As for time — there is none.' が would neutrally mark 時間[じかん] as subject (also grammatical but without the topic nuance). を and に are wrong particles for this verb."
+        },
+        {
+          "id": "wa-particle_q13",
+          "type": "usage",
+          "prompt": "Which element in a sentence can は mark as topic?",
+          "japanese": null,
+          "choices": [
+            "Only the grammatical subject (the doer of the action).",
+            "Only nouns that refer to people.",
+            "Any noun — subject, object, time, or location — that the sentence comments on.",
+            "Only the verb in a sentence."
+          ],
+          "correctIndex": 2,
+          "explanation": "は marks the TOPIC — what the sentence is about — not necessarily the grammatical subject. Any noun can be topicalised: 明日[あした]は学校[がっこう]があります (As for tomorrow, there's school). Object, time, and location can all be lifted to topic position with は."
+        },
+        {
+          "id": "wa-particle_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I am not a teacher.'",
+          "japanese": "わたし___先生[せんせい]じゃありません。",
+          "choices": [
+            "を",
+            "に",
+            "が",
+            "は"
+          ],
+          "correctIndex": 3,
+          "explanation": "は marks the speaker (わたし) as the topic. The sentence then comments: 'not a teacher.' じゃありません is the polite negative of です. は is the standard choice here for a self-description sentence."
+        },
+        {
+          "id": "wa-particle_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "東京[とうきょう]は大[おお]きいです。",
+          "choices": [
+            "Is Tokyo big?",
+            "Tokyo is big.",
+            "I like Tokyo.",
+            "I am going to Tokyo."
+          ],
+          "correctIndex": 1,
+          "explanation": "東京[とうきょう]は makes Tokyo the topic. 大[おお]きいです is the polite affirmative adjective form: 'is big.' The structure is: は + です = ' is .' Natural translation: 'Tokyo is big.'"
+        },
+        {
+          "id": "wa-particle_q16",
+          "type": "construct",
+          "prompt": "A friend has already said they like cats. You want to say YOU like cats too. Which is most natural?",
+          "japanese": null,
+          "choices": [
+            "わたしが猫[ねこ]が好[す]きです。",
+            "猫[ねこ]はわたしが好[す]きです。",
+            "わたしも猫[ねこ]が好[す]きです。",
+            "わたしは猫[ねこ]はいます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "も means 'also/too' — adding yourself to the group who likes cats. わたしも猫[ねこ]が好[す]きです = 'I like cats too.' は would work (わたしは…) but も explicitly adds you to the established group. The other options have incorrect particles or word order."
+        },
+        {
+          "id": "wa-particle_q17",
+          "type": "usage",
+          "prompt": "Why is は pronounced 'wa' as a particle but written with は (ha)?",
+          "japanese": null,
+          "choices": [
+            "It is a special loan word from Chinese pronounced differently.",
+            "Historical spelling preserves the old pronunciation; modern particle は is always pronounced 'wa.'",
+            "は is only pronounced 'wa' in questions.",
+            "Both 'ha' and 'wa' are acceptable pronunciations for the particle."
+          ],
+          "correctIndex": 1,
+          "explanation": "Japanese orthography is historically fixed: the particle は descends from a time when it was pronounced 'ha.' Modern Japanese always pronounces it 'wa' when used as a particle, but writing retains the historical は. This applies only to the particle — in other contexts は is still 'ha' (e.g., はな = hana)."
+        },
+        {
+          "id": "wa-particle_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'As for this bag, it's cheap.'",
+          "japanese": "このかばん___安[やす]いです。",
+          "choices": [
+            "に",
+            "が",
+            "を",
+            "は"
+          ],
+          "correctIndex": 3,
+          "explanation": "は makes このかばん (this bag) the topic. The sentence then gives information about it: 安[やす]い = cheap. This is a classic topic-comment structure. が would also be grammatical but without the 'as for' framing — は is more natural here."
+        },
+        {
+          "id": "wa-particle_q19",
+          "type": "translation",
+          "prompt": "What does this sentence convey?",
+          "japanese": "日本語[にほんご]は難[むずか]しいですが、面白[おもしろ]いです。",
+          "choices": [
+            "Japanese is not difficult and is boring.",
+            "Japanese is difficult, but interesting.",
+            "I study Japanese because it is easy.",
+            "Is Japanese difficult or interesting?"
+          ],
+          "correctIndex": 1,
+          "explanation": "日本語[にほんご]は makes Japanese the topic. 難[むずか]しいですが = 'is difficult, but'; 面白[おもしろ]いです = 'is interesting.' The は + topic-comment structure lets the sentence say two things about Japanese in one breath."
+        },
+        {
+          "id": "wa-particle_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses double は for contrast?",
+          "japanese": null,
+          "choices": [
+            "映画[えいが]は見[み]ます、音楽[おんがく]を聞[き]きます。",
+            "映画[えいが]は見[み]ますが、音楽[おんがく]は聞[き]きません。",
+            "映画[えいが]が見[み]ますが、音楽[おんがく]が聞[き]きません。",
+            "映画[えいが]を見[み]ますが、音楽[おんがく]を聞[き]きません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Double は signals contrastive topics: movies (yes, I watch) vs. music (no, I don't listen). The が conjunction links the two clauses. Using が on both objects shifts nuance away from contrast; を marks direct objects without the contrastive framing."
+        }
+      ]
+    },
+    {
+      "id": "ni-time",
+      "name": "に (ni) — time particle",
+      "shortDescription": "Marks a specific point in time when an action takes place.",
+      "formation": "Specific time + に + Verb",
+      "explanation": "In English, different prepositions apply to different time references: 'at' 3 o'clock, 'on' Monday, 'in' March. Japanese unifies all of these with a single particle: に. The key word is 'specific' — に only attaches to times that name a fixed, named point on a clock or calendar. 三時[さんじ]に (at 3 o'clock), 月曜日[げつようび]に (on Monday), 三月[さんがつ]に (in March) — all specific points, all use に.\n\nBut here is where beginners get tripped up: relative and frequency time words do NOT take に. 今日[きょう] (today), 明日[あした] (tomorrow), 昨日[きのう] (yesterday), 今 (now), 毎日[まいにち] (every day) — none of these ever take に. Why? Because they are already so clear about when they mean that に would add nothing.\n\nA simple test: if the time word names a precise point on a clock or calendar, use に. If it is relative (today, yesterday, now) or a frequency word (every day, every morning), skip に entirely.",
+      "rules": [
+        "Use に with specific clock times: 三時[さんじ]に (at 3 o'clock)",
+        "Use に with specific days and dates: 月曜日[げつようび]に (on Monday), 三月[さんがつ]に (in March)",
+        "Do NOT use に with: 今日[きょう], 明日[あした], 昨日[きのう], 今, 毎日[まいにち], 毎朝[まいあさ], もう, さっき",
+        "Test: specific point on a clock or calendar → use に; relative/frequency word → no に"
+      ],
+      "examples": [
+        {
+          "japanese": "七時[しちじ]に起[お]きます。",
+          "romaji": "Shichiji ni okimasu.",
+          "english": "I wake up at seven o'clock."
+        },
+        {
+          "japanese": "日曜日[にちようび]に映画[えいが]を見[み]ます。",
+          "romaji": "Nichiyoubi ni eiga wo mimasu.",
+          "english": "I watch a movie on Sunday."
+        },
+        {
+          "japanese": "六月[ろくがつ]に日本[にほん]へ行[い]きます。",
+          "romaji": "Rokugatsu ni Nihon e ikimasu.",
+          "english": "I am going to Japan in June."
+        },
+        {
+          "japanese": "毎日[まいにち]、学校[がっこう]に行[い]きます。",
+          "romaji": "Mainichi, gakkou ni ikimasu.",
+          "english": "I go to school every day. (No に after 毎日)"
+        }
+      ],
+      "flashcardHeader": "に",
+      "flashcardAnswer": "Marks a specific point in time when an action takes place.",
+      "practice": [
+        {
+          "id": "ni-time_q1",
+          "type": "construct",
+          "prompt": "Which time expression correctly takes に?",
+          "choices": [
+            "月曜日[げつようび]に",
+            "毎日[まいにち]に",
+            "今日[きょう]に",
+            "昨日[きのう]に"
+          ],
+          "correctIndex": 0,
+          "explanation": "に attaches to specific, named points on a clock or calendar: 月曜日[げつようび]に (on Monday). 今日[きょう] (today), 毎日[まいにち] (every day), and 昨日[きのう] (yesterday) are relative or frequency time words — they never take に."
+        },
+        {
+          "id": "ni-time_q2",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "七時[しちじ]に起[お]きます。",
+          "choices": [
+            "I wake up every day.",
+            "I wake up at seven o'clock.",
+            "I woke up at seven o'clock.",
+            "I woke up sometime this morning."
+          ],
+          "correctIndex": 1,
+          "explanation": "七時[しちじ]に means 'at seven o'clock' — に marks a specific clock time. 起[お]きます is polite present/future (not past), so 'I wake up' or 'I will wake up' is correct. No frequency word appears, so 'every day' is not implied."
+        },
+        {
+          "id": "ni-time_q3",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I watch a movie on Sunday.'",
+          "japanese": "日曜日[にちようび]___映画[えいが]を見[み]ます。",
+          "choices": [
+            "は",
+            "で",
+            "に",
+            "を"
+          ],
+          "correctIndex": 2,
+          "explanation": "日曜日[にちようび] (Sunday) is a specific named day on the calendar, so it takes に. は would make Sunday the topic (shifting nuance); で marks the location of an action; を marks a direct object — none of these fit the time-marking role here."
+        },
+        {
+          "id": "ni-time_q4",
+          "type": "usage",
+          "prompt": "Which sentence is grammatically incorrect because of に?",
+          "choices": [
+            "今日[きょう]に学校[がっこう]に行[い]きます。",
+            "火曜日[かようび]に勉強[べんきょう]します。",
+            "三時[さんじ]に起[お]きます。",
+            "六月[ろくがつ]に日本[にほん]へ行[い]きます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "今日[きょう] (today) is a relative time word and never takes に — adding に after 今日[きょう] is a common learner error. 三時[さんじ]に (at 3 o'clock), 火曜日[かようび]に (on Tuesday), and 六月[ろくがつ]に (in June) are all specific calendar/clock times, so に is correct there."
+        },
+        {
+          "id": "ni-time_q5",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses に with a time expression?",
+          "choices": [
+            "今[いま]に起[お]きます。",
+            "明日[あした]に映画[えいが]を見[み]ます。",
+            "三月[さんがつ]に日本語[にほんご]の授業[じゅぎょう]が始[はじ]まります。",
+            "毎朝[まいあさ]に学校[がっこう]へ行[い]きます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "三月[さんがつ] (March) is a specific month on the calendar, so に is correct. 毎朝[まいあさ] (every morning), 今[いま] (now), and 明日[あした] (tomorrow) are all relative or frequency expressions that never take に."
+        },
+        {
+          "id": "ni-time_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I go to the gym on Fridays.'",
+          "japanese": "金曜日[きんようび]___ジムに行[い]きます。",
+          "choices": [
+            "で",
+            "を",
+            "は",
+            "に"
+          ],
+          "correctIndex": 3,
+          "explanation": "金曜日[きんようび] (Friday) is a specific named day on the calendar, so it takes に. で marks a location where an action occurs; を marks a direct object or path; は makes it a topic. Only に marks the specific time of an event."
+        },
+        {
+          "id": "ni-time_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "十二月[じゅうにがつ]に日本語[にほんご]の試験[しけん]があります。",
+          "choices": [
+            "There was a Japanese exam in December.",
+            "I studied for the Japanese exam every December.",
+            "There is a Japanese exam in December.",
+            "The Japanese exam is not in December."
+          ],
+          "correctIndex": 2,
+          "explanation": "十二月[じゅうにがつ]に marks December as the specific time using に (months are calendar points). あります = there is (present/future). The sentence states a future event: 'There is a Japanese exam in December.'"
+        },
+        {
+          "id": "ni-time_q8",
+          "type": "construct",
+          "prompt": "Which sentence is CORRECT?",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]に、友達[ともだち]に会[あ]います。",
+            "明日[あした]に、映画[えいが]を見[み]ます。",
+            "二時[にじ]に、授業[じゅぎょう]が始[はじ]まります。",
+            "毎朝[まいあさ]に、コーヒーを飲[の]みます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "二時[にじ] (2 o'clock) is a specific clock time → に is correct. 今日[きょう] (today), 明日[あした] (tomorrow), and 毎朝[まいあさ] (every morning) are relative or frequency expressions that NEVER take に. Adding に to them is a common learner error."
+        },
+        {
+          "id": "ni-time_q9",
+          "type": "usage",
+          "prompt": "Which time word NEVER takes に?",
+          "japanese": null,
+          "choices": [
+            "土曜日[どようび] (Saturday)",
+            "四月[しがつ] (April)",
+            "今[いま] (now)",
+            "2025年[ねん] (year 2025)"
+          ],
+          "correctIndex": 2,
+          "explanation": "今[いま] (now) is a relative time word — it is already specific enough and doesn't mark a fixed calendar point, so it never takes に. 土曜日[どようび], 四月[しがつ], and 2025年[ねん] are all specific points on a calendar and do take に."
+        },
+        {
+          "id": "ni-time_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I was born in 1998.'",
+          "japanese": "1998年[ねん]___生[う]まれました。",
+          "choices": [
+            "は",
+            "で",
+            "に",
+            "を"
+          ],
+          "correctIndex": 2,
+          "explanation": "1998年[ねん] is a specific year on the calendar → takes に. 生[う]まれる (to be born) is a common verb paired with year + に. は would make the year a contrastive topic; で marks location or means; を marks direct objects."
+        },
+        {
+          "id": "ni-time_q11",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses に with a frequency expression?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]に三回[さんかい]、歯[は]を磨[みが]きます。",
+            "一週間[いっしゅうかん]に二度[にど]、ジムに行[い]きます。",
+            "よく映画[えいが]に見[み]ます。",
+            "ときどきに友達[ともだち]に会[あ]います。"
+          ],
+          "correctIndex": 1,
+          "explanation": "一週間[いっしゅうかん]に二度[にど] = 'twice a week' — here に marks the unit of frequency (per week), not a specific time point. This is a special use of に with frequency. 毎日[まいにち] (every day) never takes に; ときどき is an adverb and doesn't take に either."
+        },
+        {
+          "id": "ni-time_q12",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "水曜日[すいようび]に授業[じゅぎょう]があります。",
+          "choices": [
+            "Classes are on Wednesday.",
+            "Classes were on Wednesday.",
+            "Classes are every Wednesday.",
+            "There are no classes on Wednesday."
+          ],
+          "correctIndex": 0,
+          "explanation": "水曜日[すいようび]に marks Wednesday with に (specific calendar day). あります = there is / there are. The natural English translation is 'Classes are on Wednesday' or 'There are classes on Wednesday.' ます makes it present/future."
+        },
+        {
+          "id": "ni-time_q13",
+          "type": "usage",
+          "prompt": "Choose the sentence where に is used INCORRECTLY.",
+          "japanese": null,
+          "choices": [
+            "三月[さんがつ]に花見[はなみ]をします。",
+            "去年[きょねん]に京都[きょうと]に行[い]きました。",
+            "十時[じゅうじ]に寝[ね]ます。",
+            "月曜日[げつようび]に会議[かいぎ]があります。"
+          ],
+          "correctIndex": 1,
+          "explanation": "去年[きょねん] (last year) is a relative time word (like 今年[ことし], 来年[らいねん], 昨日[きのう]) and never takes に. The correct form is just 去年[きょねん]、京都[きょうと]に行[い]きました — no に after 去年[きょねん]. The other three use specific clock time or calendar points, so に is correct."
+        },
+        {
+          "id": "ni-time_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'My birthday is in May.'",
+          "japanese": "わたしの誕生日[たんじょうび]は五月[ごがつ]___あります。",
+          "choices": [
+            "で",
+            "に",
+            "は",
+            "を"
+          ],
+          "correctIndex": 1,
+          "explanation": "五月[ごがつ] (May) is a specific month on the calendar → に. The sentence uses は for the topic (birthday) and に for the specific time. で marks location or means; を marks a direct object."
+        },
+        {
+          "id": "ni-time_q15",
+          "type": "construct",
+          "prompt": "Which set of time expressions ALL take に?",
+          "japanese": null,
+          "choices": [
+            "今日[きょう] / 明日[あした] / 昨日[きのう]",
+            "毎日[まいにち] / 毎週[まいしゅう] / 毎月[まいつき]",
+            "三時[さんじ] / 木曜日[もくようび] / 十月[じゅうがつ]",
+            "今[いま] / さっき / もうすぐ"
+          ],
+          "correctIndex": 2,
+          "explanation": "三時[さんじ] (3 o'clock), 木曜日[もくようび] (Thursday), and 十月[じゅうがつ] (October) are all fixed points on a clock or calendar — all take に. 今日[きょう]/明日[あした]/昨日[きのう] are relative days; 毎日[まいにち]/毎週[まいしゅう]/毎月[まいつき] are frequency words; 今[いま]/さっき/もうすぐ are vague relative expressions — none take に."
+        },
+        {
+          "id": "ni-time_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "今日[きょう]は学校[がっこう]に行[い]きます。",
+          "choices": [
+            "I went to school today.",
+            "I go to school today.",
+            "I don't go to school today.",
+            "I went to school on this day."
+          ],
+          "correctIndex": 1,
+          "explanation": "今日[きょう] (today) is the topic marked by は — no に appears because 今日[きょう] is a relative time word. 行[い]きます = polite present/future affirmative. The sentence means 'I go to school today' or 'I am going to school today.'"
+        },
+        {
+          "id": "ni-time_q17",
+          "type": "usage",
+          "prompt": "Your classmate writes: 毎週[まいしゅう]に月曜日[げつようび]に授業[じゅぎょう]があります。 What is wrong?",
+          "japanese": null,
+          "choices": [
+            "月曜日[げつようび] should not take に.",
+            "毎週[まいしゅう] should not take に — it is a frequency word.",
+            "授業[じゅぎょう] needs a different particle.",
+            "Nothing is wrong — the sentence is correct."
+          ],
+          "correctIndex": 1,
+          "explanation": "毎週[まいしゅう] (every week) is a frequency adverb and never takes に. The correct form is: 毎週[まいしゅう]、月曜日[げつようび]に授業[じゅぎょう]があります. 月曜日[げつようび]に is correct because Monday is a specific named day of the week."
+        },
+        {
+          "id": "ni-time_q18",
+          "type": "construct",
+          "prompt": "How would you say 'I eat lunch at noon'?",
+          "japanese": null,
+          "choices": [
+            "昼[ひる]に昼[ひる]ごはんを食[た]べます。",
+            "お昼[ひる]ごろ昼[ひる]ごはんを食[た]べます。",
+            "十二時[じゅうにじ]に昼[ひる]ごはんを食[た]べます。",
+            "昼[ひる]ごはんは十二時[じゅうにじ]ます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "十二時[じゅうにじ] (12 o'clock) is a specific clock time → に is correct. ごろ (around) can accompany approximate times but に is still optional after ごろ alone. 昼[ひる] (noon) in choice A is vaguer and less common paired with に. Choice D has broken sentence structure."
+        },
+        {
+          "id": "ni-time_q19",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'The concert is on the 15th.'",
+          "japanese": "コンサートは十五[じゅうご]日[にち]___あります。",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "correctIndex": 2,
+          "explanation": "十五[じゅうご]日[にち] (the 15th) is a specific date on the calendar → に. あります = there is (the concert exists on that date). で marks a location; を marks a direct object; が marks a subject — none fit the time-marking role here."
+        },
+        {
+          "id": "ni-time_q20",
+          "type": "usage",
+          "prompt": "Which statement about ごろ and に is correct?",
+          "japanese": null,
+          "choices": [
+            "ごろ requires に after it: 三時[さんじ]ごろに。",
+            "ごろ (approximately) can stand alone; に is optional and often dropped: 三時[さんじ]ごろ starts the clause.",
+            "ごろ and に are interchangeable — both mean 'at/on.'",
+            "ごろ can only be used with days of the week, not clock times."
+          ],
+          "correctIndex": 1,
+          "explanation": "ごろ means 'approximately/around' and is often used alone: 三時[さんじ]ごろ来[き]ます (I'll come around 3). You MAY add に (三時[さんじ]ごろに) and it is grammatical, but に alone — without ごろ — marks exact times. ごろ is not limited to weekdays."
+        }
+      ]
+    },
+    {
+      "id": "wo-particle",
+      "name": "を (wo/o) — object marker",
+      "shortDescription": "Marks the direct object of an action — what the verb is acting upon.",
+      "formation": "Object + を + Transitive verb",
+      "explanation": "を marks the direct object of a verb — the thing that the action is done to. In English, word order does this job ('I eat rice' — 'rice' is clearly the object because it comes after the verb). Japanese word order is flexible, so を steps in to label the object no matter where it appears. ごはんを食[た]べます: を tells you that 'rice' is what is being eaten. を is written with the hiragana を but pronounced simply 'o' in modern spoken Japanese — the 'w' sound has faded from everyday speech, though writing preserves it.\n\nTwo important exceptions to memorize: わかる (to understand) and できる (to be able to do) take が, not を, even though they feel transitive. 日本語[にほんご]がわかります (I understand Japanese) — not 日本語[にほんご]をわかります.\n\nAlso, を has a second job: marking a place that movement passes through or departs from, such as 公園[こうえん]を歩[ある]きます (I walk through the park).",
+      "rules": [
+        "を marks the direct object of a transitive verb (the thing acted upon)",
+        "Written を but pronounced 'o' in modern Japanese",
+        "わかる and できる use が, not を: 日本語[にほんご]がわかります",
+        "を can also mark a place of transit or departure: 公園[こうえん]を走[はし]る (run through the park)"
+      ],
+      "examples": [
+        {
+          "japanese": "ジュースを飲[の]みます。",
+          "romaji": "Juusu wo nomimasu.",
+          "english": "I drink juice."
+        },
+        {
+          "japanese": "毎日[まいにち]、本[ほん]を読[よ]みます。",
+          "romaji": "Mainichi, hon wo yomimasu.",
+          "english": "I read books every day."
+        },
+        {
+          "japanese": "日本語[にほんご]がわかりますか。",
+          "romaji": "Nihongo ga wakarimasu ka.",
+          "english": "Do you understand Japanese?"
+        },
+        {
+          "japanese": "公園[こうえん]を犬[いぬ]と歩[ある]きました。",
+          "romaji": "Kouen wo inu to arukimashita.",
+          "english": "I walked through the park with my dog."
+        }
+      ],
+      "flashcardHeader": "を",
+      "flashcardAnswer": "Marks the direct object of an action — what the verb is acting upon.",
+      "practice": [
+        {
+          "id": "wo-particle_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "ジュースを飲[の]みます。",
+          "choices": [
+            "Juice is what's drunk here.",
+            "I bought juice.",
+            "I drink juice.",
+            "I drink with juice."
+          ],
+          "correctIndex": 2,
+          "explanation": "を marks the direct object — the thing being acted upon. ジュース (juice) + を identifies juice as what is being drunk. 飲[の]みます = drink (present/future). The clean structure is:  + を + ."
+        },
+        {
+          "id": "wo-particle_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I read books every day.'",
+          "japanese": "毎日[まいにち]、本[ほん]___読[よ]みます。",
+          "choices": [
+            "は",
+            "を",
+            "が",
+            "に"
+          ],
+          "correctIndex": 1,
+          "explanation": "を marks the direct object (本[ほん] = book) of the verb 読[よ]みます (to read). は would make 本[ほん] the topic; が marks a subject; に marks time or direction. Only を correctly identifies 本[ほん] as the thing being read."
+        },
+        {
+          "id": "wo-particle_q3",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses を?",
+          "choices": [
+            "学校[がっこう]を学生[がくせい]です。",
+            "日本語[にほんご]をわかります。",
+            "今日[きょう]を映画[えいが]です。",
+            "テレビを見[み]ます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "テレビを見[み]ます correctly marks テレビ as the object of 見[み]る (to watch). Notably, わかる (to understand) takes が, not を: 日本語[にほんご]がわかります is correct. を is used with transitive action verbs, not with です or stative verbs like わかる."
+        },
+        {
+          "id": "wo-particle_q4",
+          "type": "usage",
+          "prompt": "Which verb takes が instead of を for its 'object'?",
+          "choices": [
+            "食[た]べる (to eat)",
+            "見[み]る (to see/watch)",
+            "読[よ]む (to read)",
+            "わかる (to understand)"
+          ],
+          "correctIndex": 3,
+          "explanation": "わかる (to understand) and できる (to be able to do) take が for their 'object': 日本語[にほんご]がわかります — not 日本語[にほんご]をわかります. This is an important exception. 食[た]べる, 読[よ]む, and 見[み]る all take を normally."
+        },
+        {
+          "id": "wo-particle_q5",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses を to mark movement through a place?",
+          "choices": [
+            "公園[こうえん]を犬[いぬ]と歩[ある]きました。",
+            "公園[こうえん]に犬[いぬ]と歩[ある]きました。",
+            "公園[こうえん]で犬[いぬ]と歩[ある]きました。",
+            "公園[こうえん]が犬[いぬ]と歩[ある]きました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "を has a second use: marking a place that movement passes through or departs from. 公園[こうえん]を歩[ある]く = 'walk through the park.' に marks a destination (arrival point); で marks a location where a non-movement action happens; が marks the subject."
+        },
+        {
+          "id": "wo-particle_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I study Japanese every day.'",
+          "japanese": "毎日[まいにち]、日本語[にほんご]___勉強[べんきょう]します。",
+          "choices": [
+            "は",
+            "に",
+            "を",
+            "が"
+          ],
+          "correctIndex": 2,
+          "explanation": "勉強[べんきょう]する (to study) is a transitive suru verb. Its direct object, 日本語[にほんご] (Japanese), is marked with を. は would make 日本語[にほんご] the topic; に marks time or direction; が marks a subject or is used with stative verbs like わかる."
+        },
+        {
+          "id": "wo-particle_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "毎日[まいにち]、本[ほん]を読[よ]みます。",
+          "choices": [
+            "I read books every day.",
+            "I read a book yesterday.",
+            "I don't read books.",
+            "I will buy a book every day."
+          ],
+          "correctIndex": 0,
+          "explanation": "本[ほん]を: を marks 本[ほん] (book) as the direct object of 読[よ]む (to read). 毎日[まいにち] = every day. 読[よ]みます = polite present/future affirmative, expressing a habitual action. 'I read books every day.'"
+        },
+        {
+          "id": "wo-particle_q8",
+          "type": "construct",
+          "prompt": "Which particle correctly marks the object of 食[た]べます?",
+          "japanese": null,
+          "choices": [
+            "ピザが食[た]べます。",
+            "ピザに食[た]べます。",
+            "ピザで食[た]べます。",
+            "ピザを食[た]べます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "食[た]べる (to eat) is transitive — the thing eaten is a direct object marked by を. ピザを食[た]べます = 'I eat pizza.' が marks a subject or is used with verbs like わかる/できる; に marks direction or time; で marks location or means."
+        },
+        {
+          "id": "wo-particle_q9",
+          "type": "usage",
+          "prompt": "Which verb takes が for its 'object' rather than を?",
+          "japanese": null,
+          "choices": [
+            "書[か]く (to write)",
+            "飲[の]む (to drink)",
+            "できる (to be able to do)",
+            "聞[き]く (to listen to)"
+          ],
+          "correctIndex": 2,
+          "explanation": "できる (can do) and わかる (understand) are stative verbs that take が for what would be their 'object': 日本語[にほんご]ができます = 'I can speak Japanese.' 書[か]く, 飲[の]む, and 聞[き]く are standard transitive verbs that take を."
+        },
+        {
+          "id": "wo-particle_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank (path を with a motion verb): 'I run through the park.'",
+          "japanese": "公園[こうえん]___走[はし]ります。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "が"
+          ],
+          "correctIndex": 2,
+          "explanation": "を has a secondary use: marking a place that movement passes through (transit/departure). 公園[こうえん]を走[はし]る = 'run through the park.' で would mark the park as the location of a non-movement activity; に marks a destination."
+        },
+        {
+          "id": "wo-particle_q11",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本語[にほんご]がわかりますか。",
+          "choices": [
+            "Do you study Japanese?",
+            "Can you speak Japanese?",
+            "Do you understand Japanese?",
+            "Do you like Japanese?"
+          ],
+          "correctIndex": 2,
+          "explanation": "わかる (to understand) takes が for its 'object': 日本語[にほんご]が marks Japanese as what is understood. ますか makes it a polite question. 'Do you understand Japanese?' Note: わかる does NOT take を — this is an important exception."
+        },
+        {
+          "id": "wo-particle_q12",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses を with a motion verb for path?",
+          "japanese": null,
+          "choices": [
+            "道[みち]に歩[ある]きました。",
+            "道[みち]で歩[ある]きました。",
+            "道[みち]を歩[ある]きました。",
+            "道[みち]が歩[ある]きました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "道[みち]を歩[ある]く = 'walk along the road' — を marks the path traversed by the motion verb 歩[ある]く. に marks a destination (arrival point); で marks the location of a non-movement activity; が marks the subject."
+        },
+        {
+          "id": "wo-particle_q13",
+          "type": "usage",
+          "prompt": "What is the difference between 公園[こうえん]に行[い]く and 公園[こうえん]を歩[ある]く?",
+          "japanese": null,
+          "choices": [
+            "Both sentences mean 'go to the park' — に and を are interchangeable here.",
+            "に marks arrival at the park; を marks movement through/along the park.",
+            "に marks the park as a direct object; を marks it as a destination.",
+            "を means 'inside the park'; に means 'outside the park.'"
+          ],
+          "correctIndex": 1,
+          "explanation": "公園[こうえん]に行[い]く: に marks the park as the destination (you arrive there). 公園[こうえん]を歩[ある]く: を marks the park as the path traversed (you move through it). に = destination; を (with motion verb) = path of movement."
+        },
+        {
+          "id": "wo-particle_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I listen to music.'",
+          "japanese": "音楽[おんがく]___聞[き]きます。",
+          "choices": [
+            "は",
+            "を",
+            "に",
+            "が"
+          ],
+          "correctIndex": 1,
+          "explanation": "聞[き]く (to listen to) is transitive. 音楽[おんがく] (music) is the direct object → を. は would make music the topic; に marks a destination or time; が marks a subject or the object of stative verbs. を is the correct object marker here."
+        },
+        {
+          "id": "wo-particle_q15",
+          "type": "construct",
+          "prompt": "Which sentence uses を INCORRECTLY?",
+          "japanese": null,
+          "choices": [
+            "手紙[てがみ]を書[か]きます。",
+            "映画[えいが]を見[み]ます。",
+            "日本語[にほんご]をわかります。",
+            "パンを食[た]べます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "わかる (to understand) takes が, not を: 日本語[にほんご]がわかります is correct. Using を with わかる is a very common learner error. 手紙[てがみ]を書[か]く, 映画[えいが]を見[み]る, and パンを食[た]べる all correctly use を with transitive action verbs."
+        },
+        {
+          "id": "wo-particle_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "その角[かく]を右[みぎ]に曲[ま]がってください。",
+          "choices": [
+            "Please turn right at that corner.",
+            "Please go straight past that corner.",
+            "That corner is to the right.",
+            "Please stop at that corner."
+          ],
+          "correctIndex": 0,
+          "explanation": "その角[かく]を: を marks the corner as the path/point of transit (a motion verb follows). 右[みぎ]に = to the right (に marks direction). 曲[ま]がる = to turn. 〜てください = please do. 'Please turn right at that corner.'"
+        },
+        {
+          "id": "wo-particle_q17",
+          "type": "usage",
+          "prompt": "When does を appear with a place noun?",
+          "japanese": null,
+          "choices": [
+            "When the place is where you arrive at the end of your journey.",
+            "When the place is where a non-movement action (like eating) happens.",
+            "When movement passes through or departs from that place.",
+            "When you want to emphasise the importance of the location."
+          ],
+          "correctIndex": 2,
+          "explanation": "を with a place noun signals transit or departure — the movement passes through or leaves from that place: 公園[こうえん]を走[はし]る (run through the park), 家[いえ]を出[で]る (leave the house). に marks destinations (where you end up); で marks where a non-movement action occurs."
+        },
+        {
+          "id": "wo-particle_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I can do Japanese' (expressing ability with できる).",
+          "japanese": "日本語[にほんご]___できます。",
+          "choices": [
+            "を",
+            "に",
+            "が",
+            "は"
+          ],
+          "correctIndex": 2,
+          "explanation": "できる (to be able to do) takes が for its 'object': 日本語[にほんご]ができます = 'I can do Japanese / I know Japanese.' を with できる is incorrect. は would work as a topic marker but changes nuance; が is the grammatically required particle here."
+        },
+        {
+          "id": "wo-particle_q19",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses を to mark what is being written?",
+          "japanese": null,
+          "choices": [
+            "レポートに書[か]きます。",
+            "レポートが書[か]きます。",
+            "レポートを書[か]きます。",
+            "レポートで書[か]きます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "書[か]く (to write) is transitive. レポート (report) is the direct object → を. に would mark a destination or indirect object; が marks a subject; で marks means or location."
+        },
+        {
+          "id": "wo-particle_q20",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "公園[こうえん]を犬[いぬ]と歩[ある]きました。",
+          "choices": [
+            "I walked to the park with my dog.",
+            "I walked through the park with my dog.",
+            "My dog walked in the park.",
+            "I watched dogs in the park."
+          ],
+          "correctIndex": 1,
+          "explanation": "公園[こうえん]を: を marks 公園[こうえん] (park) as the path of movement (transit use of を). 犬[いぬ]と = with my dog. 歩[ある]きました = walked (past). 'I walked through the park with my dog.' に would mean you walked TO the park (destination); を means you moved through it."
+        }
+      ]
+    },
+    {
+      "id": "de-particle",
+      "name": "で — place of action, means, and material",
+      "shortDescription": "Marks where an action happens, how it's done, and what it's made of.",
+      "formation": "Place / Means / Material + で + verb",
+      "explanation": "で is one of the most common particles, and it answers \"where?\", \"how?\", or \"with what?\" about an action. It has three core jobs:\n- Place of an action — where something happens: 図書館[としょかん]で勉強[べんきょう]します (I study at the library), レストランで食[た]べる (eat at a restaurant)\n- Means or method — how you do it: バスで行[い]きます (go by bus), 日本語[にほんご]で話[はな]す (speak in Japanese), 箸[はし]で食[た]べる (eat with chopsticks)\n- Material — what something is made from: 木[き]で作[つく]る (make it out of wood)\n\nThe key contrast is で vs. に for places. に marks where something *exists* or a *destination reached*; で marks where an *action takes place*. Compare 部屋[へや]にいます (I'm in the room — existence, に) with 部屋[へや]で勉強[べんきょう]します (I study in the room — action, で). If the verb is an activity, its location takes で. で also appears with totals and scope: 全部[ぜんぶ]で千円[せんえん] (1,000 yen for everything), 一人[ひとり]で行[い]く (go by oneself).",
+      "rules": [
+        "で marks the place where an action happens: 学校[がっこう]で勉強[べんきょう]する",
+        "で marks the means or tool: 電車[でんしゃ]で, ペンで, 英語[えいご]で",
+        "で marks material: 紙[かみ]で作[つく]る (make from paper)",
+        "で (action location) vs に (existence / destination): 家[いえ]で食[た]べる ↔ 家[いえ]にいる",
+        "Also totals and scope: 全部[ぜんぶ]で (in total), 一人[ひとり]で (by oneself)"
+      ],
+      "examples": [
+        {
+          "japanese": "カフェで友達[ともだち]と話[はな]しました。",
+          "romaji": "Kafe de tomodachi to hanashimashita.",
+          "english": "I talked with a friend at a café."
+        },
+        {
+          "japanese": "車[くるま]で駅[えき]まで行[い]きます。",
+          "romaji": "Kuruma de eki made ikimasu.",
+          "english": "I'll go to the station by car."
+        },
+        {
+          "japanese": "この人形[にんぎょう]は紙[かみ]で作[つく]りました。",
+          "romaji": "Kono ningyou wa kami de tsukurimashita.",
+          "english": "I made this doll out of paper."
+        },
+        {
+          "japanese": "全部[ぜんぶ]でいくらですか。",
+          "romaji": "Zenbu de ikura desu ka.",
+          "english": "How much is it altogether?"
+        }
+      ],
+      "flashcardHeader": "で (place of action / means / material)",
+      "flashcardAnswer": "Marks where an action happens, how it's done, and what it's made of.",
+      "practice": [
+        {
+          "id": "de-particle_q1",
+          "type": "fillBlank",
+          "prompt": "Mark where the action happens: 図書館[としょかん]___本[ほん]を読[よ]みます。",
+          "japanese": "図書館[としょかん]___本[ほん]を読[よ]みます。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "へ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Reading is an action, so its location takes で: 図書館[としょかん]で読[よ]みます. に would mark existence, not an activity."
+        },
+        {
+          "id": "de-particle_q2",
+          "type": "usage",
+          "prompt": "Which correctly says \"I go by train\"?",
+          "japanese": null,
+          "choices": [
+            "電車[でんしゃ]で行[い]きます。",
+            "電車[でんしゃ]に行[い]きます。",
+            "電車[でんしゃ]を行[い]きます。",
+            "電車[でんしゃ]へ行[い]きます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "で marks the means of transport: 電車[でんしゃ]で行[い]きます (go by train)."
+        },
+        {
+          "id": "de-particle_q3",
+          "type": "usage",
+          "prompt": "Which uses で for material?",
+          "japanese": null,
+          "choices": [
+            "木[き]で作[つく]ります。",
+            "木[き]に作[つく]ります。",
+            "木[き]を作[つく]ります。",
+            "木[き]へ作[つく]ります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "で marks what something is made from: 木[き]で作[つく]る (make out of wood)."
+        },
+        {
+          "id": "de-particle_q4",
+          "type": "construct",
+          "prompt": "Choose the particle: 教室[きょうしつ]___先生[せんせい]がいます。(There's a teacher in the classroom.)",
+          "japanese": "教室[きょうしつ]___先生[せんせい]がいます。",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "へ"
+          ],
+          "correctIndex": 0,
+          "explanation": "いる expresses existence, not an action, so the location takes に: 教室[きょうしつ]にいます."
+        },
+        {
+          "id": "de-particle_q5",
+          "type": "construct",
+          "prompt": "Choose the particle: 教室[きょうしつ]___勉強[べんきょう]します。(I study in the classroom.)",
+          "japanese": "教室[きょうしつ]___勉強[べんきょう]します。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "へ"
+          ],
+          "correctIndex": 0,
+          "explanation": "勉強[べんきょう]する is an action, so its location takes で: 教室[きょうしつ]で勉強[べんきょう]します."
+        },
+        {
+          "id": "de-particle_q6",
+          "type": "translation",
+          "prompt": "How do you say \"Let's speak in Japanese\"?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]で話[はな]しましょう。",
+            "日本語[にほんご]に話[はな]しましょう。",
+            "日本語[にほんご]へ話[はな]しましょう。",
+            "日本語[にほんご]から話[はな]しましょう。"
+          ],
+          "correctIndex": 0,
+          "explanation": "で marks the means/method — here, the language you use: 日本語[にほんご]で話[はな]す."
+        },
+        {
+          "id": "de-particle_q7",
+          "type": "fillBlank",
+          "prompt": "Total amount: 全部[ぜんぶ]___千円[せんえん]です。",
+          "japanese": "全部[ぜんぶ]___千円[せんえん]です。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "は"
+          ],
+          "correctIndex": 0,
+          "explanation": "で marks the scope of a total: 全部[ぜんぶ]で千円[せんえん] (1,000 yen for everything)."
+        },
+        {
+          "id": "de-particle_q8",
+          "type": "usage",
+          "prompt": "Which correctly says \"eat with chopsticks\"?",
+          "japanese": null,
+          "choices": [
+            "箸[はし]で食[た]べる",
+            "箸[はし]を食[た]べる",
+            "箸[はし]に食[た]べる",
+            "箸[はし]へ食[た]べる"
+          ],
+          "correctIndex": 0,
+          "explanation": "で marks the tool used: 箸[はし]で食[た]べる. 箸[はし]を食[た]べる would mean \"eat the chopsticks\"!"
+        }
+      ]
+    },
+    {
+      "id": "frequency-adverbs",
+      "name": "Frequency adverbs",
+      "shortDescription": "Words expressing how often an action occurs.",
+      "formation": "Adverb + Verb  |  あまり / ぜんぜん + negative verb",
+      "explanation": "Frequency adverbs tell us how often something happens, and Japanese has a clean, logical lineup of them. The positive frequency adverbs — paired with affirmative verb forms — are: いつも (always), よく (often), ときどき (sometimes). These flow naturally with positive sentences.\n\nThe tricky ones — and this is a rule students often get wrong — are あまり (not very often) and ぜんぜん (not at all). Both must always be paired with a negative verb form. Think of them as 'half-negative' words that need the verb to complete the negation. あまり食[た]べません = 'I don't eat very often.' ぜんぜん食[た]べません = 'I don't eat at all.' Using あまり or ぜんぜん with a positive verb is a grammar error.\n\nIf you need a memory hook: あまり and ぜんぜん are pessimists — they only work with negative verbs.",
+      "rules": [
+        "Positive adverbs (affirmative verbs): いつも (always) > よく (often) > ときどき (sometimes)",
+        "Negative adverbs (negative verbs only): あまり〜ません = not very often; ぜんぜん〜ません = not at all",
+        "あまり and ぜんぜん MUST be paired with a negative verb form — this is a fixed rule",
+        "Position: typically placed before the main verb phrase"
+      ],
+      "examples": [
+        {
+          "japanese": "わたしはいつも七時[しちじ]に起[お]きます。",
+          "romaji": "Watashi wa itsumo shichiji ni okimasu.",
+          "english": "I always wake up at seven."
+        },
+        {
+          "japanese": "ときどきテニスをします。",
+          "romaji": "Tokidoki tenisu wo shimasu.",
+          "english": "I sometimes play tennis."
+        },
+        {
+          "japanese": "あまりテレビを見[み]ません。",
+          "romaji": "Amari terebi wo mimasen.",
+          "english": "I don't watch TV very often."
+        },
+        {
+          "japanese": "ぜんぜん肉[にく]を食[た]べません。",
+          "romaji": "Zenzen niku wo tabemasen.",
+          "english": "I don't eat meat at all."
+        }
+      ],
+      "flashcardHeader": "Frequency adverbs",
+      "flashcardAnswer": "Words expressing how often an action occurs.",
+      "practice": [
+        {
+          "id": "frequency-adverbs_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "あまりテレビを見[み]ません。",
+          "choices": [
+            "I never watch TV.",
+            "I sometimes watch TV.",
+            "I often watch TV.",
+            "I don't watch TV very often."
+          ],
+          "correctIndex": 3,
+          "explanation": "あまり means 'not very often / not much' and must always pair with a negative verb (ません here). ぜんぜん〜ません would mean 'not at all.' ときどき and よく are positive-verb adverbs meaning 'sometimes' and 'often.'"
+        },
+        {
+          "id": "frequency-adverbs_q2",
+          "type": "construct",
+          "prompt": "Which frequency adverb MUST always be used with a negative verb form?",
+          "choices": [
+            "ぜんぜん",
+            "いつも",
+            "ときどき",
+            "よく"
+          ],
+          "correctIndex": 0,
+          "explanation": "ぜんぜん (not at all) and あまり (not very often) must always pair with negative verb forms. Using ぜんぜん with a positive verb is a grammar error. いつも, よく, and ときどき all go with affirmative verbs."
+        },
+        {
+          "id": "frequency-adverbs_q3",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I don't eat meat at all.'",
+          "japanese": "ぜんぜん肉[にく]を食[た]べ___。",
+          "choices": [
+            "ませんか",
+            "ません",
+            "ました",
+            "ます"
+          ],
+          "correctIndex": 1,
+          "explanation": "ぜんぜん must pair with a negative verb form — ません (polite present negative) is the correct ending here. Using ます (positive) with ぜんぜん is a grammar error. ませんか is an invitation form, not a frequency expression."
+        },
+        {
+          "id": "frequency-adverbs_q4",
+          "type": "usage",
+          "prompt": "Which sentence is grammatically correct?",
+          "choices": [
+            "あまりテニスをします。",
+            "ときどきテニスをします。",
+            "ぜんぜんテニスをします。",
+            "いつもテニスをしません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ときどき (sometimes) pairs with affirmative verbs — correct. あまり and ぜんぜん must pair with negative verbs; using them with affirmative します is an error. いつも (always) logically conflicts with a negative verb, making the last option unnatural."
+        },
+        {
+          "id": "frequency-adverbs_q5",
+          "type": "construct",
+          "prompt": "Arrange these adverbs from highest to lowest frequency: よく, いつも, ときどき.",
+          "choices": [
+            "いつも (always) > よく (often) > ときどき (sometimes)",
+            "ときどき > いつも > よく",
+            "よく (often) > いつも (always) > ときどき (sometimes)",
+            "いつも > ときどき > よく"
+          ],
+          "correctIndex": 0,
+          "explanation": "The standard frequency scale runs: いつも (always / every time) → よく (often / frequently) → ときどき (sometimes / occasionally). いつも is the highest frequency among the three and ときどき the lowest."
+        },
+        {
+          "id": "frequency-adverbs_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "ぜんぜん肉[にく]を食[た]べません。",
+          "choices": [
+            "I rarely eat meat.",
+            "I sometimes don't eat meat.",
+            "I don't eat meat at all.",
+            "I often eat meat."
+          ],
+          "correctIndex": 2,
+          "explanation": "ぜんぜん means 'not at all' and must pair with a negative verb (ません here). It is stronger than あまり. 'I don't eat meat at all' is the correct translation. あまり + negative = 'not very often/much' (less extreme)."
+        },
+        {
+          "id": "frequency-adverbs_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I often go to the library.'",
+          "japanese": "___図書館[としょかん]に行[い]きます。",
+          "choices": [
+            "ぜんぜん",
+            "あまり",
+            "よく",
+            "ときどき"
+          ],
+          "correctIndex": 2,
+          "explanation": "よく means 'often / frequently' and pairs with an affirmative verb (行[い]きます). ぜんぜん and あまり both require negative verbs. ときどき means 'sometimes' — less frequent than よく."
+        },
+        {
+          "id": "frequency-adverbs_q8",
+          "type": "construct",
+          "prompt": "Which sentence is grammatically INCORRECT?",
+          "japanese": null,
+          "choices": [
+            "よく映画[えいが]を見[み]ます。",
+            "いつも七時[しちじ]に起[お]きます。",
+            "ぜんぜん運動[うんどう]します。",
+            "あまりお酒[さけ]を飲[の]みません。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ぜんぜん (not at all) MUST be paired with a negative verb. ぜんぜん運動[うんどう]します uses an affirmative verb — that is a grammar error. The correct form: ぜんぜん運動[うんどう]しません. よく, いつも, and あまり are used correctly in the other options."
+        },
+        {
+          "id": "frequency-adverbs_q9",
+          "type": "usage",
+          "prompt": "A friend says: あまりスポーツをします。 What is wrong?",
+          "japanese": null,
+          "choices": [
+            "あまり should come after the verb.",
+            "あまり requires a negative verb form — します should be しません.",
+            "スポーツを should be スポーツが.",
+            "Nothing is wrong."
+          ],
+          "correctIndex": 1,
+          "explanation": "あまり is a 'half-negative' adverb: it signals incompleteness that the negative verb completes. あまり + affirmative verb is a grammar error. The correct sentence: あまりスポーツをしません ('I don't play sports very often')."
+        },
+        {
+          "id": "frequency-adverbs_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I always brush my teeth at night.'",
+          "japanese": "夜[よる]、___歯[は]を磨[みが]きます。",
+          "choices": [
+            "あまり",
+            "ぜんぜん",
+            "ときどき",
+            "いつも"
+          ],
+          "correctIndex": 3,
+          "explanation": "いつも means 'always / every time' — the highest-frequency positive adverb. It pairs with affirmative verbs (磨[みが]きます). あまり and ぜんぜん need negative verbs; ときどき means 'sometimes' (not 'always')."
+        },
+        {
+          "id": "frequency-adverbs_q11",
+          "type": "construct",
+          "prompt": "Which adverb fits the blank? 'I ___ eat fast food — maybe once or twice a month.'",
+          "japanese": null,
+          "choices": [
+            "いつも",
+            "よく",
+            "ぜんぜん",
+            "ときどき"
+          ],
+          "correctIndex": 3,
+          "explanation": "ときどき (sometimes / occasionally) fits 'once or twice a month' — infrequent but not rare. いつも = always; よく = often (more frequent than once or twice a month); ぜんぜん + negative = not at all (requires a negative verb)."
+        },
+        {
+          "id": "frequency-adverbs_q12",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "わたしはいつも七時[しちじ]に起[お]きます。",
+          "choices": [
+            "I sometimes wake up at seven.",
+            "I woke up at seven today.",
+            "I always wake up at seven.",
+            "I don't usually wake up at seven."
+          ],
+          "correctIndex": 2,
+          "explanation": "いつも = always / every time. 七時[しちじ]に (at 7 o'clock) uses に with a specific clock time. 起[お]きます = wake up (present/future). Combined: 'I always wake up at seven.' いつも goes with an affirmative verb."
+        },
+        {
+          "id": "frequency-adverbs_q13",
+          "type": "usage",
+          "prompt": "Which pair of adverb + verb form is ALWAYS grammatically correct?",
+          "japanese": null,
+          "choices": [
+            "あまり + affirmative verb",
+            "ぜんぜん + affirmative verb",
+            "いつも + negative verb",
+            "よく + affirmative verb"
+          ],
+          "correctIndex": 3,
+          "explanation": "よく (often) pairs with affirmative verbs: よく行[い]きます = 'I often go.' あまり and ぜんぜん require negative verbs. いつも with a negative verb (いつも行[い]きません) is grammatically possible but logically unusual — 'always don't go' contradicts the meaning of いつも."
+        },
+        {
+          "id": "frequency-adverbs_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'I don't drink alcohol very often.'",
+          "japanese": "___お酒[さけ]を飲[の]みません。",
+          "choices": [
+            "いつも",
+            "よく",
+            "ときどき",
+            "あまり"
+          ],
+          "correctIndex": 3,
+          "explanation": "あまり means 'not very often / not much' and must pair with a negative verb. あまり + 飲[の]みません = 'I don't drink very often.' ぜんぜん would mean 'not at all' (stronger). いつも, よく, and ときどき pair with affirmative verbs."
+        },
+        {
+          "id": "frequency-adverbs_q15",
+          "type": "construct",
+          "prompt": "Rank these sentences from MOST to LEAST frequent: A. よく映画[えいが]を見[み]ます B. いつも映画[えいが]を見[み]ます C. ときどき映画[えいが]を見[み]ます",
+          "japanese": null,
+          "choices": [
+            "B (always) > A (often) > C (sometimes)",
+            "A (often) > C (sometimes) > B (always)",
+            "C (sometimes) > B (always) > A (often)",
+            "B (always) > C (sometimes) > A (often)"
+          ],
+          "correctIndex": 0,
+          "explanation": "The frequency scale: いつも (always) > よく (often) > ときどき (sometimes). So B > A > C. This scale is important: いつも is 100% of the time; ときどき is occasional."
+        },
+        {
+          "id": "frequency-adverbs_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "ときどきテニスをします。",
+          "choices": [
+            "I always play tennis.",
+            "I never play tennis.",
+            "I sometimes play tennis.",
+            "I often play tennis."
+          ],
+          "correctIndex": 2,
+          "explanation": "ときどき = sometimes / occasionally. It pairs with affirmative verbs: します (polite present of する). 'I sometimes play tennis.' いつも = always; よく = often; ぜんぜん/あまり + ません = rarely or never."
+        },
+        {
+          "id": "frequency-adverbs_q17",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses あまり?",
+          "japanese": null,
+          "choices": [
+            "あまり日本語[にほんご]が上手[じょうず]です。",
+            "あまり勉強[べんきょう]しません。",
+            "あまり元気[げんき]です。",
+            "あまり映画[えいが]を見[み]ます。"
+          ],
+          "correctIndex": 1,
+          "explanation": "あまり must pair with a negative verb: あまり勉強[べんきょう]しません = 'I don't study very much.' The other options use あまり with affirmative predicates (上手[じょうず], 元気[げんき], 見[み]ます) — all grammar errors. あまり is only grammatical before a negative."
+        },
+        {
+          "id": "frequency-adverbs_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank for the most natural sentence: 'I never eat vegetables — I really dislike them.'",
+          "japanese": "野菜[やさい]が大嫌[だいきら]いなので、___食[た]べません。",
+          "choices": [
+            "よく",
+            "ときどき",
+            "ぜんぜん",
+            "いつも"
+          ],
+          "correctIndex": 2,
+          "explanation": "ぜんぜん (not at all / never) is the strongest negative frequency adverb and fits the context of strongly disliking vegetables. It must pair with a negative verb (食[た]べません here). あまり would mean 'not very often' — too weak for 'never.'"
+        },
+        {
+          "id": "frequency-adverbs_q19",
+          "type": "construct",
+          "prompt": "Where in the sentence do frequency adverbs typically appear?",
+          "japanese": null,
+          "choices": [
+            "After the verb at the very end of the sentence.",
+            "At the very beginning of the sentence, before the topic.",
+            "Before the main verb phrase, often after the topic.",
+            "Between the object particle and the verb only."
+          ],
+          "correctIndex": 2,
+          "explanation": "Frequency adverbs in Japanese typically appear before the verb phrase: わたしはよく映画[えいが]を見[み]ます (topic は → adverb よく → object を → verb). They can also open the sentence, but placing them after the verb is unnatural."
+        },
+        {
+          "id": "frequency-adverbs_q20",
+          "type": "usage",
+          "prompt": "Which sentence is the ODD ONE OUT — the one that breaks the adverb rule?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]、日本語[にほんご]を勉強[べんきょう]します。",
+            "よく友達[ともだち]とご飯[はん]を食[た]べます。",
+            "あまり外食[がいしょく]をします。",
+            "ときどき映画[えいが]を見[み]ます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "あまり外食[がいしょく]をします is ungrammatical: あまり must pair with a negative verb. The correct form: あまり外食[がいしょく]をしません. 毎日[まいにち] + affirmative is fine; よく + affirmative is correct; ときどき + affirmative is correct. Only the あまり + affirmative breaks the rule."
+        }
+      ]
+    },
+    {
+      "id": "masen-ka",
+      "name": "〜ませんか / 〜ましょう (invitation and suggestion)",
+      "shortDescription": "Two ways to invite or suggest doing something together.",
+      "formation": "Verb stem + ませんか (polite invitation)  |  Verb stem + ましょう (let's)",
+      "explanation": "When you want to invite someone to do something with you, Japanese gives you two main options. ませんか (literally 'Won't you...?') is the more polite and tentative form — it leaves room for the other person to decline gracefully, making it perfect for inviting someone you do not know very well, or in any situation where saying no would be perfectly fine. ましょう (let's do...) is more direct and assumes the listener will be on board — use it with people you know well or when agreement is virtually certain.\n\nA third form, ましょうか, is used when offering your help ('Shall I...?') or suggesting something more tentatively ('Shall we...?'). Note on one very common pattern: Verb stem + に + 行[い]く/来[く]る means 'go/come in order to do something' — for example, 食[た]べに行[い]きましょう (Let's go eat). We will cover this purpose-marking に pattern formally in Chapter 7, but you will start seeing and hearing it naturally from here on.",
+      "rules": [
+        "〜ませんか = polite invitation: Won't you join me in X? (listener can decline)",
+        "〜ましょう = suggestion with assumption of agreement: Let's do X",
+        "〜ましょうか = offering help or tentative proposal: Shall I/we do X?",
+        "ませんか is softer; ましょう is more decisive"
+      ],
+      "examples": [
+        {
+          "japanese": "一緒[いっしょ]に昼[ひる]ごはんを食[た]べませんか。",
+          "romaji": "Issho ni hirugohan wo tabemasen ka.",
+          "english": "Won't you have lunch together with me?"
+        },
+        {
+          "japanese": "公園[こうえん]へ行[い]きましょう。",
+          "romaji": "Kouen e ikimashou.",
+          "english": "Let's go to the park."
+        },
+        {
+          "japanese": "映画[えいが]を見[み]ませんか。",
+          "romaji": "Eiga wo mimasen ka.",
+          "english": "How about watching a movie?"
+        },
+        {
+          "japanese": "もう少[すこ]し待[ま]ちましょうか。",
+          "romaji": "Mou sukoshi machimashou ka.",
+          "english": "Shall we wait a little longer?"
+        }
+      ],
+      "flashcardHeader": "〜ませんか / 〜ましょう",
+      "flashcardAnswer": "Two ways to invite or suggest doing something together.",
+      "practice": [
+        {
+          "id": "masen-ka_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "一緒[いっしょ]に昼[ひる]ごはんを食[た]べませんか。",
+          "choices": [
+            "Won't you have lunch together with me?",
+            "I don't eat lunch together.",
+            "Shall I have lunch?",
+            "Let's have lunch together."
+          ],
+          "correctIndex": 0,
+          "explanation": "ませんか is a polite invitation: literally 'Won't you...?' It gives the listener an easy way to decline. ましょう would be the more decisive 'Let's...'. 一緒[いっしょ]に = together; 昼[ひる]ごはんを食[た]べる = eat lunch."
+        },
+        {
+          "id": "masen-ka_q2",
+          "type": "construct",
+          "prompt": "Which form is softer and gives the listener more room to decline an invitation?",
+          "choices": [
+            "〜ますか",
+            "〜ませんか",
+            "〜ません",
+            "〜ましょう"
+          ],
+          "correctIndex": 1,
+          "explanation": "ませんか ('Won't you...?') frames the invitation as a gentle negative question, softly implying the listener can refuse. ましょう ('Let's...') assumes agreement is likely. ますか is a plain question; ません is a negative statement."
+        },
+        {
+          "id": "masen-ka_q3",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'Let's go to the park.' (decisive suggestion to a close friend)",
+          "japanese": "公園[こうえん]へ行[い]き___。",
+          "choices": [
+            "ます",
+            "ませんでした",
+            "ましょう",
+            "ませんか"
+          ],
+          "correctIndex": 2,
+          "explanation": "ましょう means 'let's [do something]' — a decisive suggestion assuming the other person will agree. ませんか is a softer invitation that allows declining. ます is present/future statement; ませんでした is past negative."
+        },
+        {
+          "id": "masen-ka_q4",
+          "type": "usage",
+          "prompt": "Which sentence correctly invites someone to watch a movie?",
+          "choices": [
+            "映画[えいが]を見[み]ませんでした。",
+            "映画[えいが]を見[み]ませんか。",
+            "映画[えいが]はませんか。",
+            "映画[えいが]を見[み]ましたか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "映画[えいが]を見[み]ませんか = 'How about watching a movie?' — the standard invitation form. 見[み]ましたか is a past question ('Did you watch?'); 見[み]ませんでした is a past negative statement ('I didn't watch'); the last option has broken word order."
+        },
+        {
+          "id": "masen-ka_q5",
+          "type": "construct",
+          "prompt": "What does 〜ましょうか express when directed at another person?",
+          "choices": [
+            "An offer of help or a tentative proposal: 'Shall I/we...?'",
+            "A past invitation that was declined.",
+            "A desire to do something alone without others.",
+            "A firm command: 'You must...!'"
+          ],
+          "correctIndex": 0,
+          "explanation": "ましょうか offers help or proposes something tentatively: もう少[すこ]し待[ま]ちましょうか = 'Shall we wait a little longer?' It is softer than ましょう and is often used when offering to do something for someone — like 手伝[てつだ]いましょうか ('Shall I help you?')."
+        },
+        {
+          "id": "masen-ka_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'Won't you come to the party?'",
+          "japanese": "パーティーに来[らい]___。",
+          "choices": [
+            "ましょう",
+            "ました",
+            "ませんか",
+            "ますか"
+          ],
+          "correctIndex": 2,
+          "explanation": "ませんか is the polite invitation form: 'Won't you...?' It gives the listener room to decline. 来[く]る (to come) → polite stem 来[らい] (き) + ませんか. ましょう would be 'Let's come' (speaker also coming); ますか asks a plain question."
+        },
+        {
+          "id": "masen-ka_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "公園[こうえん]へ行[い]きましょう。",
+          "choices": [
+            "Shall I go to the park alone?",
+            "Won't you go to the park?",
+            "Let's go to the park.",
+            "I am going to the park."
+          ],
+          "correctIndex": 2,
+          "explanation": "ましょう is a decisive suggestion assuming the listener will agree: 'Let's .' 行[い]き + ましょう = 行[い]きましょう. ませんか would be a softer invitation ('Won't you go?'); ますか is a plain question; ます is a statement."
+        },
+        {
+          "id": "masen-ka_q8",
+          "type": "construct",
+          "prompt": "Which sentence correctly invites a new acquaintance to have coffee?",
+          "japanese": null,
+          "choices": [
+            "コーヒーを飲[の]みましょう。",
+            "コーヒーを飲[の]みませんか。",
+            "コーヒーを飲[の]んでください。",
+            "コーヒーを飲[の]みましたか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ませんか is the softer, more polite invitation — appropriate for someone you don't know well. ましょう assumes agreement (more casual/decisive). てください is a request/instruction. ましたか asks about the past."
+        },
+        {
+          "id": "masen-ka_q9",
+          "type": "usage",
+          "prompt": "Your close friend suggests going to a restaurant. They say: 「食[た]べに行[い]きましょう！」 What nuance does ましょう carry here?",
+          "japanese": null,
+          "choices": [
+            "A polite invitation that the friend can decline.",
+            "A firm command: 'You must go eat.'",
+            "A decisive suggestion assuming the friend will agree.",
+            "An offer to pay for the meal."
+          ],
+          "correctIndex": 2,
+          "explanation": "ましょう ('Let's...') is decisive and assumes the listener is on board. It is warmer and more direct than ませんか. Between close friends it is perfectly natural. It does not command — it assumes mutual willingness."
+        },
+        {
+          "id": "masen-ka_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 'Shall we wait a little longer?' (tentative proposal)",
+          "japanese": "もう少[すこ]し待[ま]ち___。",
+          "choices": [
+            "ますか",
+            "ませんか",
+            "ましょう",
+            "ましょうか"
+          ],
+          "correctIndex": 3,
+          "explanation": "ましょうか = 'Shall I/we...?' — a tentative proposal or offer. 待[ま]ち + ましょうか = 待[ま]ちましょうか. ましょう would be more decisive ('Let's wait'); ませんか invites the listener; ますか is a plain question ('Do you wait?')."
+        },
+        {
+          "id": "masen-ka_q11",
+          "type": "translation",
+          "prompt": "What does 映画[えいが]を見[み]ませんか mean?",
+          "japanese": "映画[えいが]を見[み]ませんか。",
+          "choices": [
+            "Let's watch a movie!",
+            "Did you watch the movie?",
+            "How about watching a movie?",
+            "I don't watch movies."
+          ],
+          "correctIndex": 2,
+          "explanation": "見[み]ませんか is an invitation: 'Won't you watch...? / How about watching...?' It uses the negative question form to soften the invitation. ましょう would be 'Let's watch.' ませんでした = didn't watch (past negative)."
+        },
+        {
+          "id": "masen-ka_q12",
+          "type": "construct",
+          "prompt": "Which form would you use to offer your help to a struggling classmate?",
+          "japanese": null,
+          "choices": [
+            "手伝[てつだ]いましょうか。",
+            "手伝[てつだ]いませんか。",
+            "手伝[てつだ]いましょう。",
+            "手伝[てつだ]いますか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ましょうか = 'Shall I...?' is the natural form for offering help. 手伝[てつだ]いましょうか = 'Shall I help you?' ましょう = 'Let's help' (implies speaker and listener both help — wrong context); ませんか invites the listener to do something."
+        },
+        {
+          "id": "masen-ka_q13",
+          "type": "usage",
+          "prompt": "What is the key difference between ませんか and ましょう?",
+          "japanese": null,
+          "choices": [
+            "ましょう is past tense; ませんか is present tense.",
+            "ませんか leaves room to decline; ましょう assumes agreement.",
+            "ませんか is only for questions; ましょう is for statements.",
+            "They are identical in meaning and nuance."
+          ],
+          "correctIndex": 1,
+          "explanation": "ませんか ('Won't you...?') is a polite, tentative invitation — the listener can easily say no. ましょう ('Let's...') assumes the listener will agree and is more decisive. Choose ませんか for acquaintances or situations where refusal is likely; ましょう for close friends or when agreement is expected."
+        },
+        {
+          "id": "masen-ka_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to make a decisive suggestion: 'Let's study together!'",
+          "japanese": "一緒[いっしょ]に勉強[べんきょう]し___！",
+          "choices": [
+            "ますか",
+            "ませんか",
+            "ましょう",
+            "ませんでした"
+          ],
+          "correctIndex": 2,
+          "explanation": "ましょう = 'Let's ' — decisive suggestion between people who know each other. 勉強[べんきょう]し + ましょう = 勉強[べんきょう]しましょう. ませんか is softer ('Won't you study with me?'); ますか asks a question; ませんでした is past negative."
+        },
+        {
+          "id": "masen-ka_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "一緒[いっしょ]にカラオケに行[い]きませんか。",
+          "choices": [
+            "Let's go to karaoke together right now.",
+            "Did you go to karaoke together?",
+            "Won't you go to karaoke together with me?",
+            "I don't go to karaoke."
+          ],
+          "correctIndex": 2,
+          "explanation": "行[い]きませんか is an invitation: 'Won't you go...?' 一緒[いっしょ]に = together. 行[い]きましょう would be 'Let's go' (more decisive). The ませんか form gently leaves the listener free to accept or decline."
+        },
+        {
+          "id": "masen-ka_q16",
+          "type": "construct",
+          "prompt": "How do you form ませんか from the verb 飲[の]む?",
+          "japanese": null,
+          "choices": [
+            "飲[の]む → 飲[の]みません + か = 飲[の]みませんか",
+            "飲[の]む → 飲[の]まませんか",
+            "飲[の]む → 飲[の]むませんか",
+            "飲[の]む → 飲[の]みません (no か needed)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Form: godan verb 飲[の]む → ます-stem 飲[の]み + ません + か = 飲[の]みませんか. The ます-stem (i-form) is the base for all ます-family endings: ます, ません, ました, ませんでした, ましょう, ましょうか, ませんか."
+        },
+        {
+          "id": "masen-ka_q17",
+          "type": "usage",
+          "prompt": "Which response naturally accepts an invitation to have lunch (一緒[いっしょ]に昼[ひる]ごはんを食[た]べませんか)?",
+          "japanese": null,
+          "choices": [
+            "いいえ、食[た]べましょう。",
+            "はい、食[た]べましょう。",
+            "はい、食[た]べませんでした。",
+            "いいえ、食[た]べませんか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Accepting an invitation: はい (yes) + ましょう (Let's!). はい、食[た]べましょう = 'Yes, let's eat!' Using ましょう to accept a ませんか invitation is the natural paired response. ませんでした is past negative; repeating ませんか is not an acceptance."
+        },
+        {
+          "id": "masen-ka_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to politely decline: 'No, I'm sorry, I can't.'",
+          "japanese": "すみません、___できません。",
+          "choices": [
+            "ちょっと",
+            "よく",
+            "いつも",
+            "たいてい"
+          ],
+          "correctIndex": 0,
+          "explanation": "ちょっと literally means 'a little' but is commonly used as a soft, polite way to decline: すみません、ちょっと… (or ちょっとできません) = 'I'm sorry, I'm afraid I can't.' It softens the refusal without a blunt 'no.' This is a fixed social phrase."
+        },
+        {
+          "id": "masen-ka_q19",
+          "type": "construct",
+          "prompt": "Which sentence is a correct invitation using ませんか?",
+          "japanese": null,
+          "choices": [
+            "映画[えいが]を見[み]ましたか。",
+            "映画[えいが]を見[み]ませんでした。",
+            "映画[えいが]を見[み]ませんか。",
+            "映画[えいが]を見[み]ましょうか。"
+          ],
+          "correctIndex": 2,
+          "explanation": "映画[えいが]を見[み]ませんか = 'How about watching a movie? / Won't you watch a movie?' — correct invitation using ませんか. 見[み]ましたか asks about the past; 見[み]ませんでした is a past negative statement; 見[み]ましょうか is a tentative proposal ('Shall we watch?') — different nuance."
+        },
+        {
+          "id": "masen-ka_q20",
+          "type": "usage",
+          "prompt": "When would you choose ましょうか over ましょう?",
+          "japanese": null,
+          "choices": [
+            "When you are 100% certain the other person wants to do the activity.",
+            "When you want to offer help or gently check if the other person agrees.",
+            "When speaking to a large group of people.",
+            "When describing a completed past suggestion."
+          ],
+          "correctIndex": 1,
+          "explanation": "ましょうか adds か to ましょう, making it tentative: 'Shall I/we...?' Use it to offer help (手伝[てつだ]いましょうか?) or to softly check for agreement before assuming. ましょう (without か) is decisive and assumes agreement. ましょうか is the checking/offering variant."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch03_v01",
+      "partOfSpeech": "verb",
+      "kanji": "食べる",
+      "kana": "たべる",
+      "romaji": "taberu",
+      "definition": "to eat"
+    },
+    {
+      "id": "ch03_v02",
+      "partOfSpeech": "verb",
+      "kanji": "飲む",
+      "kana": "のむ",
+      "romaji": "nomu",
+      "definition": "to drink"
+    },
+    {
+      "id": "ch03_v03",
+      "partOfSpeech": "verb",
+      "kanji": "見る",
+      "kana": "みる",
+      "romaji": "miru",
+      "definition": "to see; to watch"
+    },
+    {
+      "id": "ch03_v04",
+      "partOfSpeech": "verb",
+      "kanji": "聞く",
+      "kana": "きく",
+      "romaji": "kiku",
+      "definition": "to listen; to ask"
+    },
+    {
+      "id": "ch03_v05",
+      "partOfSpeech": "verb",
+      "kanji": "話す",
+      "kana": "はなす",
+      "romaji": "hanasu",
+      "definition": "to speak; to talk"
+    },
+    {
+      "id": "ch03_v06",
+      "partOfSpeech": "verb",
+      "kanji": "読む",
+      "kana": "よむ",
+      "romaji": "yomu",
+      "definition": "to read"
+    },
+    {
+      "id": "ch03_v07",
+      "partOfSpeech": "verb",
+      "kanji": "書く",
+      "kana": "かく",
+      "romaji": "kaku",
+      "definition": "to write"
+    },
+    {
+      "id": "ch03_v08",
+      "partOfSpeech": "verb",
+      "kanji": "行く",
+      "kana": "いく",
+      "romaji": "iku",
+      "definition": "to go"
+    },
+    {
+      "id": "ch03_v09",
+      "partOfSpeech": "verb",
+      "kanji": "来る",
+      "kana": "くる",
+      "romaji": "kuru",
+      "definition": "to come"
+    },
+    {
+      "id": "ch03_v10",
+      "partOfSpeech": "verb",
+      "kanji": "帰る",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "definition": "to return home"
+    },
+    {
+      "id": "ch03_v11",
+      "partOfSpeech": "verb",
+      "kanji": "する",
+      "kana": "する",
+      "romaji": "suru",
+      "definition": "to do"
+    },
+    {
+      "id": "ch03_v12",
+      "partOfSpeech": "verb",
+      "kanji": "買う",
+      "kana": "かう",
+      "romaji": "kau",
+      "definition": "to buy"
+    },
+    {
+      "id": "ch03_v13",
+      "partOfSpeech": "verb",
+      "kanji": "起きる",
+      "kana": "おきる",
+      "romaji": "okiru",
+      "definition": "to wake up; to get up"
+    },
+    {
+      "id": "ch03_v14",
+      "partOfSpeech": "verb",
+      "kanji": "寝る",
+      "kana": "ねる",
+      "romaji": "neru",
+      "definition": "to sleep; to go to bed"
+    },
+    {
+      "id": "ch03_v15",
+      "partOfSpeech": "verb",
+      "kanji": "立つ",
+      "kana": "たつ",
+      "romaji": "tatsu",
+      "definition": "to stand"
+    },
+    {
+      "id": "ch03_v16",
+      "partOfSpeech": "verb",
+      "kanji": "座る",
+      "kana": "すわる",
+      "romaji": "suwaru",
+      "definition": "to sit"
+    },
+    {
+      "id": "ch03_v17",
+      "partOfSpeech": "verb",
+      "kanji": "歩く",
+      "kana": "あるく",
+      "romaji": "aruku",
+      "definition": "to walk"
+    },
+    {
+      "id": "ch03_v18",
+      "partOfSpeech": "verb",
+      "kanji": "走る",
+      "kana": "はしる",
+      "romaji": "hashiru",
+      "definition": "to run"
+    },
+    {
+      "id": "ch03_v19",
+      "partOfSpeech": "verb",
+      "kanji": "待つ",
+      "kana": "まつ",
+      "romaji": "matsu",
+      "definition": "to wait"
+    },
+    {
+      "id": "ch03_v20",
+      "partOfSpeech": "verb",
+      "kanji": "会う",
+      "kana": "あう",
+      "romaji": "au",
+      "definition": "to meet"
+    },
+    {
+      "id": "ch03_v21",
+      "partOfSpeech": "verb",
+      "kanji": "使う",
+      "kana": "つかう",
+      "romaji": "tsukau",
+      "definition": "to use"
+    },
+    {
+      "id": "ch03_v22",
+      "partOfSpeech": "verb",
+      "kanji": "作る",
+      "kana": "つくる",
+      "romaji": "tsukuru",
+      "definition": "to make"
+    },
+    {
+      "id": "ch03_v23",
+      "partOfSpeech": "verb",
+      "kanji": "洗う",
+      "kana": "あらう",
+      "romaji": "arau",
+      "definition": "to wash"
+    },
+    {
+      "id": "ch03_v24",
+      "partOfSpeech": "verb",
+      "kanji": "開ける",
+      "kana": "あける",
+      "romaji": "akeru",
+      "definition": "to open"
+    },
+    {
+      "id": "ch03_v25",
+      "partOfSpeech": "verb",
+      "kanji": "閉める",
+      "kana": "しめる",
+      "romaji": "shimeru",
+      "definition": "to close"
+    },
+    {
+      "id": "ch03_v26",
+      "partOfSpeech": "verb",
+      "kanji": "入る",
+      "kana": "はいる",
+      "romaji": "hairu",
+      "definition": "to enter"
+    },
+    {
+      "id": "ch03_v27",
+      "partOfSpeech": "verb",
+      "kanji": "出る",
+      "kana": "でる",
+      "romaji": "deru",
+      "definition": "to exit; to leave"
+    },
+    {
+      "id": "ch03_v28",
+      "partOfSpeech": "verb",
+      "kanji": "持つ",
+      "kana": "もつ",
+      "romaji": "motsu",
+      "definition": "to hold; to carry"
+    },
+    {
+      "id": "ch03_v29",
+      "partOfSpeech": "verb",
+      "kanji": "取る",
+      "kana": "とる",
+      "romaji": "toru",
+      "definition": "to take"
+    },
+    {
+      "id": "ch03_v30",
+      "partOfSpeech": "verb",
+      "kanji": "働く",
+      "kana": "はたらく",
+      "romaji": "hataraku",
+      "definition": "to work"
+    },
+    {
+      "id": "ch03_v31",
+      "partOfSpeech": "verb",
+      "kanji": "休む",
+      "kana": "やすむ",
+      "romaji": "yasumu",
+      "definition": "to rest; to take off"
+    },
+    {
+      "id": "ch03_v32",
+      "partOfSpeech": "verb",
+      "kanji": "遊ぶ",
+      "kana": "あそぶ",
+      "romaji": "asobu",
+      "definition": "to play; to hang out"
+    },
+    {
+      "id": "ch03_v33",
+      "partOfSpeech": "verb",
+      "kanji": "泳ぐ",
+      "kana": "およぐ",
+      "romaji": "oyogu",
+      "definition": "to swim"
+    },
+    {
+      "id": "ch03_v34",
+      "partOfSpeech": "verb",
+      "kanji": "歌う",
+      "kana": "うたう",
+      "romaji": "utau",
+      "definition": "to sing"
+    },
+    {
+      "id": "ch03_v35",
+      "partOfSpeech": "verb",
+      "kanji": "言う",
+      "kana": "いう",
+      "romaji": "iu",
+      "definition": "to say"
+    },
+    {
+      "id": "ch03_v36",
+      "partOfSpeech": "verb",
+      "kanji": "分かる",
+      "kana": "わかる",
+      "romaji": "wakaru",
+      "definition": "to understand"
+    },
+    {
+      "id": "ch03_v37",
+      "partOfSpeech": "verb",
+      "kanji": "知る",
+      "kana": "しる",
+      "romaji": "shiru",
+      "definition": "to know"
+    },
+    {
+      "id": "ch03_v38",
+      "partOfSpeech": "verb",
+      "kanji": "思う",
+      "kana": "おもう",
+      "romaji": "omou",
+      "definition": "to think"
+    },
+    {
+      "id": "ch03_v39",
+      "partOfSpeech": "verb",
+      "kanji": "教える",
+      "kana": "おしえる",
+      "romaji": "oshieru",
+      "definition": "to teach; to tell"
+    },
+    {
+      "id": "ch03_v40",
+      "partOfSpeech": "verb",
+      "kanji": "住む",
+      "kana": "すむ",
+      "romaji": "sumu",
+      "definition": "to live; to reside"
+    }
+  ],
+  "kanji": [
+    "出",
+    "聞",
+    "読",
+    "休"
+  ]
+}

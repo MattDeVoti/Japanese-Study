@@ -1,0 +1,1626 @@
+{
+  "id": "ch19",
+  "chapterNumber": 21,
+  "title": "Honorifics and Respect",
+  "points": [
+    {
+      "id": "sonkeigo-verbs",
+      "name": "Respectful verbs (sonkeigo — 尊敬語[そんけいご])",
+      "shortDescription": "Respectful verbs (sonkeigo) — used for the actions of people you respect, never for yourself.",
+      "formation": "Replace standard verbs with respectful equivalents (いらっしゃる, おっしゃる, etc.)",
+      "explanation": "Japanese honorific speech (敬語[けいご] — keigo) is one of the most distinctive features of the language, and it's built on a core principle: the status of the people involved in a conversation shapes which words you use. Sonkeigo (尊敬語[そんけいご] — respectful language) elevates the actions of your listeners, customers, teachers, and superiors by replacing ordinary verbs with special respectful counterparts.\n\nThese are not suffixes or particles you add — they are completely separate vocabulary items that must be memorized. The most important ones:\n• いる / 行[い]く / 来[く]る → いらっしゃる (all three collapse into one respectful form)\n• する → なさる (to do)\n• 言[い]う → おっしゃる (to say)\n• 食[た]べる / 飲[の]む → 召[め]し上[あ]がる (to eat / drink)\n• 知[し]っている → ご存知[ぞんじ]だ (to know)\n• くれる → くださる (to give to me/us)\n\nA note on conjugation: いらっしゃる, おっしゃる, なさる, and くださる are Group 1 verbs but have a slightly irregular ます-form: they drop the final る and take います directly (いらっしゃいます, not いらっしゃります).\n\nThe golden rule of keigo: sonkeigo is *only* for other people's actions. Use it for what the teacher, customer, or boss does. For your own actions in the same conversation, you use humble forms (kensongo) — covered next.",
+      "rules": [
+        "Sonkeigo is for the actions of respected others — never for your own actions",
+        "いる/行[い]く/来[く]る → いらっしゃる; する → なさる; 言[い]う → おっしゃる",
+        "食[た]べる/飲[の]む → 召[め]し上[あ]がる; 知[し]っている → ご存知[ぞんじ]だ; くれる → くださる",
+        "Irregular ます-forms: いらっしゃいます (not いらっしゃります), おっしゃいます, なさいます",
+        "For your own actions when speaking to superiors, use kensongo (humble) — see next point"
+      ],
+      "examples": [
+        {
+          "japanese": "先生[せんせい]はもういらっしゃいますか。",
+          "romaji": "Sensei wa mou irasshaimasu ka.",
+          "english": "Has the teacher already arrived?"
+        },
+        {
+          "japanese": "社長[しゃちょう]は何[なん]とおっしゃいましたか。",
+          "romaji": "Shachou wa nanto osshaimashita ka.",
+          "english": "What did the president say?"
+        },
+        {
+          "japanese": "どうぞ、召[め]し上[あ]がってください。",
+          "romaji": "Douzo, meshiagatte kudasai.",
+          "english": "Please, go ahead and eat/drink."
+        },
+        {
+          "japanese": "田中[たなか]先生[せんせい]はその件[けん]をご存知[ぞんじ]ですか。",
+          "romaji": "Tanaka-sensei wa sono ken wo gozonji desu ka.",
+          "english": "Does Professor Tanaka know about that matter?"
+        }
+      ],
+      "flashcardHeader": "Respectful verbs (sonkeigo",
+      "flashcardAnswer": "Respectful verbs for the actions of superiors and respected others — never used about yourself.",
+      "practice": [
+        {
+          "id": "sonkeigo-verbs_q1",
+          "type": "usage",
+          "prompt": "What is the sonkeigo (honorific) form of 食[た]べる (to eat)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べます",
+            "お食[た]べになります",
+            "いただきます",
+            "召[め]し上[あ]がります"
+          ],
+          "correctIndex": 3,
+          "explanation": "召[め]し上[あ]がる = the sonkeigo form of 食[た]べる / 飲[の]む (to eat/drink). Used when describing a respected person's action. いただく is the kenjougo (humble) form for when you eat."
+        },
+        {
+          "id": "sonkeigo-verbs_q2",
+          "type": "construct",
+          "prompt": "Which is the correct sonkeigo form of いる (to be)?",
+          "japanese": null,
+          "choices": [
+            "おります",
+            "いらっしゃいます",
+            "ございます",
+            "いたします"
+          ],
+          "correctIndex": 1,
+          "explanation": "いらっしゃる = sonkeigo for いる (to be), いく (to go), and くる (to come). いらっしゃいます is the polite present form. おります = kenjougo (humble) for いる."
+        },
+        {
+          "id": "sonkeigo-verbs_q3",
+          "type": "usage",
+          "prompt": "Which is the sonkeigo form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "いたします",
+            "なさいます",
+            "されます",
+            "します"
+          ],
+          "correctIndex": 1,
+          "explanation": "なさる = sonkeigo for する (to do). なさいます = polite present. Used to describe a respected person doing something. いたす = kenjougo (humble) for する."
+        },
+        {
+          "id": "sonkeigo-verbs_q4",
+          "type": "usage",
+          "prompt": "Which is the correct sonkeigo form of 言[い]う (to say)?",
+          "japanese": null,
+          "choices": [
+            "申[もう]します",
+            "おっしゃいます",
+            "言[い]います",
+            "いたします"
+          ],
+          "correctIndex": 1,
+          "explanation": "おっしゃる = sonkeigo for 言[い]う. おっしゃいます = polite present. 申[もう]す = kenjougo (humble). When a customer or superior says something, use おっしゃる."
+        },
+        {
+          "id": "sonkeigo-verbs_q5",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'The customer came to the store' (sonkeigo)?",
+          "japanese": null,
+          "choices": [
+            "お客様[きゃくさま]が来[き]ました。",
+            "お客様[きゃくさま]がいらっしゃいました。",
+            "お客様[きゃくさま]が参[まい]りました。",
+            "お客様[きゃくさま]が来[こ]られました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "いらっしゃる = sonkeigo for くる/いく/いる. お客様[きゃくさま]がいらっしゃいました = the customer came (respectful). 参[まい]る = kenjougo (humble) used for your own coming/going."
+        },
+        {
+          "id": "sonkeigo-verbs_q6",
+          "type": "usage",
+          "prompt": "Which sonkeigo form is used for 見[み]る (to see/look)?",
+          "japanese": null,
+          "choices": [
+            "拝見[はいけん]します",
+            "ご覧[らん]になります",
+            "見[み]られます",
+            "見[み]ます"
+          ],
+          "correctIndex": 1,
+          "explanation": "ご覧[らん]になる = sonkeigo for 見[み]る. ご覧[らん]になります = polite present. Used when a respected person looks/sees something. 拝見[はいけん]する = kenjougo (humble) for 見[み]る."
+        },
+        {
+          "id": "sonkeigo-verbs_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'The professor is reading the book' (sonkeigo)?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]が本[ほん]を読[よ]みます。",
+            "先生[せんせい]が本[ほん]をお読[よ]みになります。",
+            "先生[せんせい]が本[ほん]を読[よ]まれます。",
+            "先生[せんせい]が本[ほん]をお読[よ]みします。"
+          ],
+          "correctIndex": 1,
+          "explanation": "お + masu-stem + になる = sonkeigo pattern. 読[よ]む → お読[よ]みになります = reads (respectful). This pattern works for most regular verbs without a special sonkeigo form."
+        },
+        {
+          "id": "sonkeigo-verbs_q8",
+          "type": "usage",
+          "prompt": "Which is the sonkeigo form of もらう (to receive)?",
+          "japanese": null,
+          "choices": [
+            "差[さ]し上[あ]げます",
+            "いただきます",
+            "くださいます",
+            "お受[う]けになります"
+          ],
+          "correctIndex": 2,
+          "explanation": "くださる = sonkeigo for くれる (to give [to me]). There's no direct sonkeigo for もらう — instead you use くださる (the respected person gives). いただく = kenjougo (humble) for もらう."
+        },
+        {
+          "id": "sonkeigo-verbs_q9",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'The teacher is sitting' (sonkeigo)?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]が座[すわ]っています。",
+            "先生[せんせい]がお座[すわ]りになっています。",
+            "先生[せんせい]がお座[すわ]りにいます。",
+            "先生[せんせい]がお座[すわ]りしています。"
+          ],
+          "correctIndex": 1,
+          "explanation": "お + masu-stem + になる: 座[すわ]る → お座[すわ]りになります = sits (respectful). This applies to regular verbs. お座[すわ]りしています uses humble form — incorrect for describing a superior's action."
+        },
+        {
+          "id": "sonkeigo-verbs_q10",
+          "type": "usage",
+          "prompt": "When would you use くださる instead of あげる?",
+          "japanese": null,
+          "choices": [
+            "When you give something to a superior",
+            "When a superior or respected person gives something to you",
+            "When you give to an equal",
+            "When neither person is present"
+          ],
+          "correctIndex": 1,
+          "explanation": "くださる = sonkeigo: used when the respected person (customer, superior) gives something TO YOU. あげる = neutral giving (you give to others). 先生[せんせい]がくださいました = the teacher gave  (respectfully)."
+        },
+        {
+          "id": "sonkeigo-verbs_q11",
+          "type": "construct",
+          "prompt": "What is the sonkeigo form of 飲[の]む (to drink)?",
+          "japanese": null,
+          "choices": [
+            "お飲[の]みになります",
+            "召[め]し上[あ]がります",
+            "いただきます",
+            "飲[の]まれます"
+          ],
+          "correctIndex": 1,
+          "explanation": "召[め]し上[あ]がる = sonkeigo for both 食[た]べる and 飲[の]む. 社長[しゃちょう]は何[なに]を召[め]し上[あ]がりますか = What will the president drink/eat? お飲[の]みになる also works as a regular sonkeigo pattern."
+        },
+        {
+          "id": "sonkeigo-verbs_q12",
+          "type": "usage",
+          "prompt": "Which is the CORRECT greeting using sonkeigo 'Please help yourself' (to food)?",
+          "japanese": null,
+          "choices": [
+            "どうぞ食[た]べてください。",
+            "どうぞ召[め]し上[あ]がってください。",
+            "どうぞいただいてください。",
+            "どうぞ食[た]べになってください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "召[め]し上[あ]がってください = please eat (respectful invitation). Used when inviting a guest/customer/superior to eat or drink. いただいてください would be asking the person to use humble speech about themselves."
+        },
+        {
+          "id": "sonkeigo-verbs_q13",
+          "type": "construct",
+          "prompt": "Which correctly asks 'Where are you going?' (sonkeigo)?",
+          "japanese": null,
+          "choices": [
+            "どこに行[い]きますか？",
+            "どこにいらっしゃいますか？",
+            "どこに参[まい]りますか？",
+            "どちらへいらっしゃいますか？"
+          ],
+          "correctIndex": 3,
+          "explanation": "いらっしゃる = sonkeigo for いく/くる/いる. どちらへいらっしゃいますか = where are you going? (very respectful). どちらへ is more polite than どこに. 参[まい]る = kenjougo (humble) for your own going."
+        },
+        {
+          "id": "sonkeigo-verbs_q14",
+          "type": "usage",
+          "prompt": "Which correctly uses sonkeigo to describe what the president said?",
+          "japanese": null,
+          "choices": [
+            "社長[しゃちょう]が言[い]いました。",
+            "社長[しゃちょう]がおっしゃいました。",
+            "社長[しゃちょう]が申[もう]しました。",
+            "社長[しゃちょう]が言[い]われました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "おっしゃる = sonkeigo for 言[い]う. 社長[しゃちょう]がおっしゃいました = the president said (respectful). 申[もう]す = kenjougo (humble) — wrong to use for a superior."
+        },
+        {
+          "id": "sonkeigo-verbs_q15",
+          "type": "construct",
+          "prompt": "Which pattern creates sonkeigo for most regular verbs?",
+          "japanese": null,
+          "choices": [
+            "お + te-form",
+            "お + masu-stem + になる",
+            "お + masu-stem + します",
+            "お + dict-form"
+          ],
+          "correctIndex": 1,
+          "explanation": "お + masu-stem + になる = the standard sonkeigo pattern for regular verbs without a dedicated sonkeigo equivalent. お読[よ]みになる, お使[つか]いになる, お待[ま]ちになる, etc."
+        },
+        {
+          "id": "sonkeigo-verbs_q16",
+          "type": "usage",
+          "prompt": "Which sonkeigo is used for する (to do)?",
+          "japanese": null,
+          "choices": [
+            "されます",
+            "なさいます",
+            "いたします",
+            "しられます"
+          ],
+          "correctIndex": 1,
+          "explanation": "なさる = sonkeigo for する. なさいます = polite present. 先生[せんせい]は何[なに]をなさいますか = What will the teacher do? いたす = kenjougo (humble) for your own doing."
+        },
+        {
+          "id": "sonkeigo-verbs_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please use this room' (sonkeigo invitation)?",
+          "japanese": null,
+          "choices": [
+            "どうぞこの部屋[へや]をお使[つか]いください。",
+            "どうぞこの部屋[へや]をお使[つか]いになってください。",
+            "どうぞこの部屋[へや]をお使[つか]いしてください。",
+            "どうぞこの部屋[へや]を使[つか]ってください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "お + masu-stem + になってください = please do  (respectful invitation). お使[つか]いになってください = please use (respectful). お使[つか]いください is also accepted in formal contexts."
+        },
+        {
+          "id": "sonkeigo-verbs_q18",
+          "type": "usage",
+          "prompt": "Which is the sonkeigo for くれる (someone gives to me)?",
+          "japanese": null,
+          "choices": [
+            "差[さ]し上[あ]げる",
+            "もらう",
+            "くださる",
+            "いただく"
+          ],
+          "correctIndex": 2,
+          "explanation": "くださる = sonkeigo for くれる (to give to me/us). 社長[しゃちょう]がプレゼントをくださいました = the president gave me a present. 差[さ]し上[あ]げる = kenjougo for あげる (you give to superior)."
+        },
+        {
+          "id": "sonkeigo-verbs_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'The guest is reading the book'?",
+          "japanese": null,
+          "choices": [
+            "お客様[きゃくさま]が本[ほん]を読[よ]みます。",
+            "お客様[きゃくさま]が本[ほん]を拝見[はいけん]します。",
+            "お客様[きゃくさま]が本[ほん]をお読[よ]みになります。",
+            "お客様[きゃくさま]が本[ほん]をお読[よ]みします。"
+          ],
+          "correctIndex": 2,
+          "explanation": "お + 読[よ]み (masu-stem) + になります = the standard sonkeigo pattern for 読[よ]む. お客様[きゃくさま]がお読[よ]みになります = the guest is reading. 拝見[はいけん]する = kenjougo (humble) — wrong for guest's action."
+        },
+        {
+          "id": "sonkeigo-verbs_q20",
+          "type": "usage",
+          "prompt": "Which describes a fundamental difference between sonkeigo and kenjougo?",
+          "japanese": null,
+          "choices": [
+            "Sonkeigo is casual; kenjougo is formal",
+            "Sonkeigo elevates the subject (superior); kenjougo humbles the speaker",
+            "Sonkeigo is for writing only; kenjougo is for speaking",
+            "There is no fundamental difference"
+          ],
+          "correctIndex": 1,
+          "explanation": "Sonkeigo (尊敬語[そんけいご]) elevates the actions/state of the respected person (customer, superior). Kenjougo (謙譲語[けんじょうご]) humbles the speaker's own actions to show respect. Together with teineigo (丁寧語[ていねいご]), they form keigo."
+        }
+      ]
+    },
+    {
+      "id": "hazu-da",
+      "name": "〜はずだ (hazu da) — should be / supposed to",
+      "shortDescription": "A logical expectation — 'should be' or 'supposed to' based on reasoning, not guesswork.",
+      "formation": "Plain form + はずです  |  Noun + の + はずです",
+      "explanation": "はずだ is the grammar of logical confidence. When you have a reason to expect something — a schedule, a known rule, something someone told you — はずだ is how you express that reasoned expectation.\n\nThe key distinction: はずだ is not a guess. It's a conclusion from evidence. If the timetable says the train arrives at 3pm, you say 三時[さんじ]に着[つ]くはずです — 'It should arrive at 3' — because you have a logical basis. If you were just guessing with no particular reason, you'd use a different expression. (かもしれない, which you studied in Chapter 14, is for genuine uncertainty. The degree-of-confidence spectrum will be mapped more fully in Chapter 27.)\n\nFormation: plain form + はずです. For nouns: Noun + の + はずです. For な-adjectives: stem + な + はずです (静[しず]かなはずです = it should be quiet).\n\nThe negative form deserves special attention: はずがない (or はずがありません) is a strong denial of logic — 'there is no way that.' 彼女[かのじょ]がそんなことをするはずがない: 'There's no way she would do that.' It's not 'I don't think so' — it's 'logically it can't be so.'\n\nThe regret form: 〜はずだったのに means 'it was supposed to happen, but it didn't.' The のに at the end carries the sense of disappointment at the expectation not being met.",
+      "rules": [
+        "Plain form + はずです = should be / supposed to (logical expectation with a basis)",
+        "Noun + の + はずです; な-adj stem + な + はずです",
+        "Not guesswork — based on logical reasoning, known schedules, or stated information",
+        "Negative: 〜はずがない = there's no way that / it can't logically be so (strong denial)",
+        "Regret: 〜はずだったのに = was supposed to [but it didn't happen] (disappointment)"
+      ],
+      "examples": [
+        {
+          "japanese": "田中[たなか]さんはもう来[く]るはずです。",
+          "romaji": "Tanaka-san wa mou kuru hazu desu.",
+          "english": "Tanaka-san should be here already."
+        },
+        {
+          "japanese": "彼女[かのじょ]はそんなことをするはずがありません。",
+          "romaji": "Kanojo wa sonna koto wo suru hazu ga arimasen.",
+          "english": "There's no way she would do such a thing."
+        },
+        {
+          "japanese": "この薬[くすり]を飲[の]めば、すぐよくなるはずです。",
+          "romaji": "Kono kusuri wo nomeba, sugu yoku naru hazu desu.",
+          "english": "If you take this medicine, you should get better quickly."
+        },
+        {
+          "japanese": "今日[きょう]来[く]るはずだったのに、連絡[れんらく]もなかった。",
+          "romaji": "Kyou kuru hazu datta noni, renraku mo nakatta.",
+          "english": "He was supposed to come today, but there was no word from him at all."
+        }
+      ],
+      "flashcardHeader": "〜はずだ",
+      "flashcardAnswer": "Logical expectation — 'should be' or 'supposed to' based on reasoning, not guessing.",
+      "practice": [
+        {
+          "id": "hazu-da_q1",
+          "type": "translation",
+          "prompt": "Which means 'He should be home by now (it's expected)'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は今頃[いまごろ]うちにいるらしい。",
+            "彼[かれ]は今頃[いまごろ]うちにいるはずだ。",
+            "彼[かれ]は今頃[いまごろ]うちにいるべきだ。",
+            "彼[かれ]は今頃[いまごろ]うちにいるにちがいない。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜はずだ = is expected to be / should be (based on logical expectation). いるはずだ = should be there (based on what you know). べきだ = should (moral obligation). にちがいない = must be (strong certainty)."
+        },
+        {
+          "id": "hazu-da_q2",
+          "type": "construct",
+          "prompt": "Which form comes before はずだ for plain verbs?",
+          "japanese": null,
+          "choices": [
+            "Te-form",
+            "Masu-stem",
+            "Plain form (dict or ta-form)",
+            "Nai-form only"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain form + はずだ. Dict-form + はずだ = expected to do. Ta-form + はずだ = expected to have done. Both affirmative and negative plain forms can precede はずだ."
+        },
+        {
+          "id": "hazu-da_q3",
+          "type": "usage",
+          "prompt": "Which situation best fits 〜はずだ?",
+          "japanese": null,
+          "choices": [
+            "A strong guess with no basis (just a feeling)",
+            "A moral obligation (you should do this)",
+            "An expectation based on knowledge or logic",
+            "A rumor heard from someone"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜はずだ = logical expectation based on available information, reasoning, or prior knowledge. '電車[でんしゃ]は5時[じ]に着[つ]くはずだ' = the train should arrive at 5 (based on the schedule). Not based on feeling or hearsay."
+        },
+        {
+          "id": "hazu-da_q4",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'The store should be open now' (based on posted hours)?",
+          "japanese": null,
+          "choices": [
+            "店[みせ]は開[あ]いているべきです。",
+            "店[みせ]は開[あ]いているらしいです。",
+            "店[みせ]は開[あ]いているでしょう。",
+            "店[みせ]は開[あ]いているはずです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ているはずです = is expected to be  (based on knowledge). 開[ひら]いているはずです = should be open (based on the posted hours). はずだ expresses logical expectation from known facts."
+        },
+        {
+          "id": "hazu-da_q5",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼女[かのじょ]は今[いま]ごろ着[つ]いている___。(She should have arrived by now.)",
+          "japanese": "彼女[かのじょ]は今[いま]ごろ着[つ]いている___。",
+          "choices": [
+            "はずだ",
+            "べきだ",
+            "ようだ",
+            "らしい"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているはずだ = should have  by now (expectation based on logic). 着[つ]いているはずだ = should have arrived. はずだ expresses the speaker's logical expectation."
+        },
+        {
+          "id": "hazu-da_q6",
+          "type": "translation",
+          "prompt": "Which means 'That answer should be wrong'?",
+          "japanese": null,
+          "choices": [
+            "その答[こた]えは間違[まちが]っているようです。",
+            "その答[こた]えは間違[まちが]っているはずです。",
+            "その答[こた]えは間違[まちが]っているべきです。",
+            "その答[こた]えは間違[まちが]っているでしょう。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜はずだ = should be (logical deduction). 間違[まちが]っているはずです = should be wrong (based on your analysis). Unlike ようだ (inference from evidence) or でしょう (conjecture), はずだ is based on logical reasoning."
+        },
+        {
+          "id": "hazu-da_q7",
+          "type": "construct",
+          "prompt": "Which form of な-adjective goes before はずだ?",
+          "japanese": null,
+          "choices": [
+            "な-adj + な + はずだ",
+            "な-adj + はずだ (drop な)",
+            "な-adj + だ + はずだ",
+            "な-adj + の + はずだ"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adj + な + はずだ: 静[しず]かな + はずだ = should be quiet. Note that な-adjectives keep their な before はずだ, unlike before みたいだ."
+        },
+        {
+          "id": "hazu-da_q8",
+          "type": "usage",
+          "prompt": "What does はずがない express?",
+          "japanese": null,
+          "choices": [
+            "Strong expectation that something IS true",
+            "The speaker hopes something won't happen",
+            "An uncertain guess",
+            "Strong expectation that something is NOT true (cannot be)"
+          ],
+          "correctIndex": 3,
+          "explanation": "はずがない = cannot be / there's no way. It's the strong negative of はずだ. あんな優[やさ]しい人[ひと]が嘘[うそ]をつくはずがない = there's no way such a kind person would lie."
+        },
+        {
+          "id": "hazu-da_q9",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'There's no way she would quit' (strong disbelief)?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]が辞[や]めるはずだ。",
+            "彼女[かのじょ]が辞[や]めるはずがない。",
+            "彼女[かのじょ]が辞[や]めるべきではない。",
+            "彼女[かのじょ]は辞[や]めないようだ。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜はずがない = there's no way / cannot possibly. 辞[や]めるはずがない = there's no way  would quit. Strong logical impossibility/disbelief."
+        },
+        {
+          "id": "hazu-da_q10",
+          "type": "usage",
+          "prompt": "Which correctly uses はず in a noun modification context?",
+          "japanese": null,
+          "choices": [
+            "来[く]るはずの彼[かれ]が来[こ]なかった。",
+            "来[く]るはずで彼[かれ]が来[こ]なかった。",
+            "来[く]るはずな彼[かれ]が来[こ]なかった。",
+            "来[く]るはずに彼[かれ]が来[こ]なかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜はずの + noun = the  that was supposed to . 来[く]るはずの彼[かれ] = him who was supposed to come. はず acts as a noun modified by the plain form, then の connects it to the noun."
+        },
+        {
+          "id": "hazu-da_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: このメールは昨日[きのう]届[とど]く___だ。(This email was supposed to arrive yesterday.)",
+          "japanese": "このメールは昨日[きのう]届[とど]く___だ。",
+          "choices": [
+            "はず",
+            "べき",
+            "よう",
+            "らしい"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜はずだ = was supposed to / should have. 届[とど]くはずだ = was supposed to arrive (expectation based on prior knowledge). はず in this context expresses an unmet expectation."
+        },
+        {
+          "id": "hazu-da_q12",
+          "type": "translation",
+          "prompt": "Which means 'He should already know the answer'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]はもう答[こた]えを知[し]っているらしい。",
+            "彼[かれ]はもう答[こた]えを知[し]っているはずだ。",
+            "彼[かれ]はもう答[こた]えを知[し]っているようだ。",
+            "彼[かれ]はもう答[こた]えを知[し]っているだろう。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ているはずだ = should already be  (logical expectation). 知[し]っているはずだ = should know (based on the fact that you told him)."
+        },
+        {
+          "id": "hazu-da_q13",
+          "type": "construct",
+          "prompt": "How do you express 'it should have been done already' (past expectation)?",
+          "japanese": null,
+          "choices": [
+            "もうしたはずです。",
+            "もうするはずです。",
+            "もうしたらしいです。",
+            "もうするべきです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Ta-form + はずです = should have [done] / expected to have [done]. したはずです = should have done. Past form before はず expresses expectation about a past action."
+        },
+        {
+          "id": "hazu-da_q14",
+          "type": "usage",
+          "prompt": "Which BEST describes the difference between はずだ and にちがいない?",
+          "japanese": null,
+          "choices": [
+            "はずだ = past only; にちがいない = future only",
+            "はずだ = expectation from logic/facts; にちがいない = strong certainty (near conviction)",
+            "はずだ = moral 'should'; にちがいない = logical 'should'",
+            "They are completely the same"
+          ],
+          "correctIndex": 1,
+          "explanation": "はずだ = logical expectation based on known facts. にちがいない = strong certainty / conviction (must be). にちがいない expresses higher confidence than はずだ."
+        },
+        {
+          "id": "hazu-da_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'She was supposed to call, but she didn't'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は電話[でんわ]するはずだったが、しなかった。",
+            "彼女[かのじょ]は電話[でんわ]したはずだったが、しなかった。",
+            "彼女[かのじょ]は電話[でんわ]するはずだが、しなかった。",
+            "彼女[かのじょ]は電話[でんわ]するべきだったが、しなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + はずだった = was supposed to  (unfulfilled expectation). 電話[でんわ]するはずだった = was supposed to call. はずだった expresses a past expectation that was not met."
+        },
+        {
+          "id": "hazu-da_q16",
+          "type": "translation",
+          "prompt": "Which means 'There's no way this is correct'?",
+          "japanese": null,
+          "choices": [
+            "これが正[ただ]しいはずです。",
+            "これが正[ただ]しいはずがありません。",
+            "これが正[ただ]しいべきではありません。",
+            "これが正[ただ]しいようではありません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "はずがありません = there's no way / cannot be (polite negative). 正[ただ]しいはずがありません = there's no way this is correct. Strong disbelief/logical impossibility."
+        },
+        {
+          "id": "hazu-da_q17",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: この薬[くすり]を飲[の]めば、よくなる___です。(If you take this medicine, you should get better.)",
+          "japanese": "この薬[くすり]を飲[の]めば、よくなる___です。",
+          "choices": [
+            "はず",
+            "べき",
+            "よう",
+            "らしい"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜るはずです = is expected to [do] (logical expectation). よくなるはずです = should get better (based on medical knowledge). はず expresses logical expectation."
+        },
+        {
+          "id": "hazu-da_q18",
+          "type": "usage",
+          "prompt": "Which correctly says 'It's unexpected that she doesn't know'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]が知[し]らないはずだ。",
+            "彼女[かのじょ]は知[し]らないはずがない。",
+            "彼女[かのじょ]が知[し]らないはずがない。",
+            "彼女[かのじょ]が知[し]らないようがない。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜はずがない = there's no way / cannot be. 知[し]らないはずがない = there's no way she doesn't know (she must know). Expressing strong disbelief about the negative."
+        },
+        {
+          "id": "hazu-da_q19",
+          "type": "construct",
+          "prompt": "Which correctly means 'The flight is supposed to land at 3pm'?",
+          "japanese": null,
+          "choices": [
+            "飛行機[ひこうき]は3時[じ]に着[つ]くはずです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]くべきです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]きそうです。",
+            "飛行機[ひこうき]は3時[じ]に着[つ]くようです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + はずです = is expected to  (based on schedule/facts). 着[つ]くはずです = is expected to arrive. Based on the known schedule."
+        },
+        {
+          "id": "hazu-da_q20",
+          "type": "usage",
+          "prompt": "Which expresses 'I had expected this would happen, but it didn't'?",
+          "japanese": null,
+          "choices": [
+            "こうなるはずだった。",
+            "こうなるはずだ。",
+            "こうなるはずがない。",
+            "こうなるべきだった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + はずだった = was expected to / was supposed to (unfulfilled past expectation). こうなるはずだった = it was supposed to turn out this way (but it didn't)."
+        }
+      ]
+    },
+    {
+      "id": "kensongo",
+      "name": "Humble expressions (kensongo — 謙譲語[けんじょうご])",
+      "shortDescription": "Humble speech (kensongo) — used to lower your own actions as a show of respect toward others.",
+      "formation": "Replace standard verbs with humble equivalents (いたす, 参[まい]る, 申[もう]す, etc.)",
+      "explanation": "If sonkeigo lifts others up, kensongo (謙譲語[けんじょうご] — humble language) lowers yourself down. The two work together to create social distance in the right direction: your superior is elevated, you are humbled. Together they create the respectful register of Japanese professional and formal life.\n\nThe key humble verbs:\n• いる → おります (to be/exist)\n• 行[い]く / 来[く]る → 参[まい]る (to go/come) — general; 伺[うかが]う (to visit/go to see) — directed toward a superior's location\n• する → いたす (to do)\n• 言[い]う → 申[もう]す (to say) — 山田[やまだ]と申[もう]します: 'I am called Yamada'\n• もらう / 食[た]べる / 飲[の]む → いただく (to receive; to eat/drink humbly)\n• あげる → 差[さ]し上[あ]げる (to give to someone respected)\n\nBeyond individual verbs, there's a productive pattern for making any action humble: お + verb stem + する, or ご + [Sino-Japanese noun] + する. お届[とど]けします (I will deliver), ご連絡[れんらく]いたします (I will contact you). This pattern covers countless workplace actions and is essential for business Japanese.\n\nThe critical rule: use kensongo for YOUR OWN actions, never for others'. Using humble forms for a customer's actions is an insulting mistake. Use sonkeigo for what they do; use kensongo for what you do.",
+      "rules": [
+        "Kensongo lowers the speaker's own actions — never used for other people's actions",
+        "Key humble verbs: いる→おります; 行[い]く/来[く]る→参[まい]る/伺[うかが]う; する→いたす; 言[い]う→申[もう]す",
+        "もらう/食[た]べる/飲[の]む → いただく; あげる → 差[さ]し上[あ]げる",
+        "Productive pattern: お + verb stem + する (お届[とど]けします), ご + noun + する (ご連絡[れんらく]します)",
+        "Pair with sonkeigo: use sonkeigo for what respected others do; kensongo for what you do"
+      ],
+      "examples": [
+        {
+          "japanese": "私[わたし]が山田[やまだ]と申[もう]します。",
+          "romaji": "Watashi ga Yamada to moushimasu.",
+          "english": "I am (humbly called) Yamada."
+        },
+        {
+          "japanese": "明日[あした]、伺[うかが]ってもよろしいでしょうか。",
+          "romaji": "Ashita, ukagatte mo yoroshii deshou ka.",
+          "english": "Would it be alright if I came to see you tomorrow?"
+        },
+        {
+          "japanese": "資料[しりょう]をお送[おく]りいたします。",
+          "romaji": "Shiryou wo o-okuri itashimasu.",
+          "english": "I will send the materials (to you)."
+        },
+        {
+          "japanese": "先生[せんせい]にいただいた本[ほん]をとても大切[たいせつ]にしています。",
+          "romaji": "Sensei ni itadaita hon wo totemo taisetsu ni shite imasu.",
+          "english": "I treasure the book I received from my teacher."
+        }
+      ],
+      "flashcardHeader": "Humble expressions (kensongo",
+      "flashcardAnswer": "Humble verbs for your own actions — lowers the speaker to show respect toward the other party.",
+      "practice": [
+        {
+          "id": "kensongo_q1",
+          "type": "usage",
+          "prompt": "What is the kenjougo (humble) form of 食[た]べる/飲[の]む (to eat/drink)?",
+          "japanese": null,
+          "choices": [
+            "召[め]し上[あ]がります",
+            "いただきます",
+            "差[さ]し上[あ]げます",
+            "くださいます"
+          ],
+          "correctIndex": 1,
+          "explanation": "いただく = kenjougo for 食[た]べる/飲[の]む/もらう. Used when you yourself eat, drink, or receive. 先生[せんせい]にお菓子[かし]をいただきました = I received sweets from the teacher."
+        },
+        {
+          "id": "kensongo_q2",
+          "type": "construct",
+          "prompt": "Which is the kenjougo form of いる (to be)?",
+          "japanese": null,
+          "choices": [
+            "いらっしゃいます",
+            "おります",
+            "おいでになります",
+            "います"
+          ],
+          "correctIndex": 1,
+          "explanation": "おる = kenjougo for いる. おります = polite present. Used to humbly describe your own presence. いらっしゃる = sonkeigo for いる."
+        },
+        {
+          "id": "kensongo_q3",
+          "type": "usage",
+          "prompt": "Which kenjougo correctly means 'I will go to the meeting'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]にいらっしゃいます。",
+            "会議[かいぎ]におります。",
+            "会議[かいぎ]にまいります。",
+            "会議[かいぎ]に行[い]きます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "参[まい]る = kenjougo for いく/くる. まいります = polite present. Used to humbly describe your own going or coming. いらっしゃる = sonkeigo used for respected people's movement. おります is kenjougo for いる (to be), not for going."
+        },
+        {
+          "id": "kensongo_q4",
+          "type": "usage",
+          "prompt": "Which is the kenjougo form of 言[い]う (to say)?",
+          "japanese": null,
+          "choices": [
+            "おっしゃいます",
+            "言[い]います",
+            "なさいます",
+            "申[もう]します"
+          ],
+          "correctIndex": 3,
+          "explanation": "申[もう]す = kenjougo for 言[い]う. 申[もう]します = polite present. 私[わたし]の名前[なまえ]は田中[たなか]と申[もう]します = My name is Tanaka (humble self-introduction). おっしゃる = sonkeigo for 言[い]う."
+        },
+        {
+          "id": "kensongo_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'I received (humbly) the book from the teacher'?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]に本[ほん]を差[さ]し上[あ]げました。",
+            "先生[せんせい]に本[ほん]をいただきました。",
+            "先生[せんせい]に本[ほん]を召[め]し上[あ]がりました。",
+            "先生[せんせい]に本[ほん]をくださいました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "いただく = kenjougo for もらう. 先生[せんせい]にいただきました = I received  from the teacher (humbly). 差[さ]し上[あ]げる = kenjougo for あげる (you give to superior). くださる = sonkeigo (teacher gives to you)."
+        },
+        {
+          "id": "kensongo_q6",
+          "type": "usage",
+          "prompt": "Which kenjougo is used for 見[み]る (to see)?",
+          "japanese": null,
+          "choices": [
+            "ご覧[らん]になります",
+            "見[み]られます",
+            "拝見[はいけん]します",
+            "見[み]ます"
+          ],
+          "correctIndex": 2,
+          "explanation": "拝見[はいけん]する = kenjougo for 見[み]る. 拝見[はいけん]します = polite present. Used when you humbly view/look at something. 先生[せんせい]の作品[さくひん]を拝見[はいけん]します = I will humbly look at the teacher's work. ご覧[らん]になる = sonkeigo."
+        },
+        {
+          "id": "kensongo_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'I will give this to the teacher' (kenjougo)?",
+          "japanese": null,
+          "choices": [
+            "先生[せんせい]にこれをあげます。",
+            "先生[せんせい]にこれをくれます。",
+            "先生[せんせい]にこれをやります。",
+            "先生[せんせい]にこれを差[さ]し上[あ]げます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "差[さ]し上[あ]げる = kenjougo for あげる (you give to a superior/respected person). 先生[せんせい]に差[さ]し上[あ]げます = I will (humbly) give this to the teacher."
+        },
+        {
+          "id": "kensongo_q8",
+          "type": "usage",
+          "prompt": "Which is the kenjougo form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "なさいます",
+            "されます",
+            "いたします",
+            "します"
+          ],
+          "correctIndex": 2,
+          "explanation": "いたす = kenjougo for する. いたします = polite present. Used to humbly describe your own actions. 準備[じゅんび]をいたします = I will (humbly) prepare. なさる = sonkeigo for する."
+        },
+        {
+          "id": "kensongo_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'I came (humbly) to see you'?",
+          "japanese": null,
+          "choices": [
+            "お会[あ]いになりに参[まい]りました。",
+            "お会[あ]いしに参[まい]りました。",
+            "お会[あ]いになりに来[き]ました。",
+            "お会[あ]いしに来[き]ました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "お + masu-stem + する = kenjougo pattern for your own actions. お会[あ]いする = humbly meet (you → superior). 参[まい]る = kenjougo for くる. お会[あ]いしに参[まい]りました = I came (humbly) to meet you."
+        },
+        {
+          "id": "kensongo_q10",
+          "type": "usage",
+          "prompt": "Which kenjougo correctly means 'I will take a look at your document'?",
+          "japanese": null,
+          "choices": [
+            "書類[しょるい]をご覧[らん]になります。",
+            "書類[しょるい]を拝見[はいけん]します。",
+            "書類[しょるい]を拝見[はいけん]になります。",
+            "書類[しょるい]をお見[み]しします。"
+          ],
+          "correctIndex": 1,
+          "explanation": "拝見[はいけん]する = kenjougo for 見[み]る. 書類[しょるい]を拝見[はいけん]します = I will (humbly) look at the document. ご覧[らん]になる = sonkeigo (the respected person looks)."
+        },
+        {
+          "id": "kensongo_q11",
+          "type": "usage",
+          "prompt": "What is the kenjougo for もらう (to receive)?",
+          "japanese": null,
+          "choices": [
+            "さしあげます",
+            "くださいます",
+            "いただきます",
+            "もらいます"
+          ],
+          "correctIndex": 2,
+          "explanation": "いただく = kenjougo for もらう. Used when you humbly receive something. 社長[しゃちょう]からプレゼントをいただきました = I humbly received a present from the president. Also used for eating/drinking."
+        },
+        {
+          "id": "kensongo_q12",
+          "type": "construct",
+          "prompt": "Which correctly uses kenjougo for 'I will contact you' (formal business)?",
+          "japanese": null,
+          "choices": [
+            "ご連絡[れんらく]いたします。",
+            "ご連絡[れんらく]なさいます。",
+            "ご連絡[れんらく]します。",
+            "連絡[れんらく]いたします。"
+          ],
+          "correctIndex": 0,
+          "explanation": "ご + する-noun + いたします = humble + polite. 連絡[れんらく] (contact) → ご連絡[れんらく]いたします = I will (humbly) contact you. This pattern (ご/お + verb-noun + いたす) is very common in business Japanese."
+        },
+        {
+          "id": "kensongo_q13",
+          "type": "usage",
+          "prompt": "What is the kenjougo for あげる (to give)?",
+          "japanese": null,
+          "choices": [
+            "くださる",
+            "もらう",
+            "差[さ]し上[あ]げる",
+            "いただく"
+          ],
+          "correctIndex": 2,
+          "explanation": "差[さ]し上[あ]げる = kenjougo for あげる. Used when you (humbly) give something to a respected person. 先生[せんせい]にお花[はな]を差[さ]し上[あ]げました = I humbly gave flowers to the teacher."
+        },
+        {
+          "id": "kensongo_q14",
+          "type": "construct",
+          "prompt": "Which correctly means 'I will humbly explain' (formal business)?",
+          "japanese": null,
+          "choices": [
+            "ご説明[せつめい]なさいます。",
+            "ご説明[せつめい]くださいます。",
+            "お説明[せつめい]します。",
+            "ご説明[せつめい]いたします。"
+          ],
+          "correctIndex": 3,
+          "explanation": "ご + 説明[せつめい] (verbal noun) + いたします = humble formal. ご説明[せつめい]いたします = I will (humbly) explain. This is standard business Japanese. ご/お +  + いたす is the full kenjougo pattern."
+        },
+        {
+          "id": "kensongo_q15",
+          "type": "usage",
+          "prompt": "Which kenjougo is used for 知[し]る (to know)?",
+          "japanese": null,
+          "choices": [
+            "ご存知[ぞんじ]です",
+            "ご存[ぞん]じです",
+            "存[ぞん]じます",
+            "知[し]ります"
+          ],
+          "correctIndex": 2,
+          "explanation": "存[ぞん]じる = kenjougo for 知[し]る/思[おも]う. 存[ぞん]じます = I know (humble). 田中[たなか]と存[ぞん]じます = I believe  is Tanaka (humble). ご存知[ぞんじ] / ご存[ぞん]じ = sonkeigo for 'do you know?'"
+        },
+        {
+          "id": "kensongo_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'I read your email (humbly)'?",
+          "japanese": null,
+          "choices": [
+            "メールをご覧[らん]になりました。",
+            "メールを拝読[はいどく]しました。",
+            "メールを読[よ]まれました。",
+            "メールをお読[よ]みになりました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "拝読[はいどく]する = kenjougo for 読[よ]む (to read, in writing/formal contexts). 拝読[はいどく]しました = I (humbly) read . Very formal, typically for written communication. ご覧[らん]になる = sonkeigo."
+        },
+        {
+          "id": "kensongo_q17",
+          "type": "usage",
+          "prompt": "Which describes the CORE PURPOSE of kenjougo?",
+          "japanese": null,
+          "choices": [
+            "To describe the superior's actions respectfully",
+            "To humble your own actions to show respect to the listener/superior",
+            "To make speech sound more formal regardless of content",
+            "To avoid using rude verbs"
+          ],
+          "correctIndex": 1,
+          "explanation": "Kenjougo (謙譲語[けんじょうご]) = humble language. It humbles the speaker's own actions to show respect to the person you're talking to or about. You lower yourself to raise the other person."
+        },
+        {
+          "id": "kensongo_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'I understand (humbly)'?",
+          "japanese": null,
+          "choices": [
+            "ご理解[りかい]なさいます。",
+            "承知[しょうち]いたしました。",
+            "ご理解[りかい]います。",
+            "分[わ]かりいたします。"
+          ],
+          "correctIndex": 1,
+          "explanation": "承知[しょうち]いたしました = I understand / I will comply (humble, formal). Very common in business Japanese. 承知[しょうち] = acknowledge/understand; いたしました = kenjougo past of する."
+        },
+        {
+          "id": "kensongo_q19",
+          "type": "usage",
+          "prompt": "Which is the kenjougo form of くる (to come)?",
+          "japanese": null,
+          "choices": [
+            "いらっしゃいます",
+            "おります",
+            "まいります",
+            "きます"
+          ],
+          "correctIndex": 2,
+          "explanation": "参[まい]る = kenjougo for both いく and くる. まいります = polite present. ただ今[いま]まいります = I will be right there (humbly). いらっしゃる = sonkeigo for both come/go."
+        },
+        {
+          "id": "kensongo_q20",
+          "type": "usage",
+          "prompt": "Which correctly uses kenjougo in a business phone context: 'I will connect you now'?",
+          "japanese": null,
+          "choices": [
+            "おつなぎいたします。",
+            "おつなぎなさいます。",
+            "おつなぎください。",
+            "おつなぎいただきます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "お + つなぎ (masu-stem of つなぐ) + いたします = humble action. おつなぎいたします = I will (humbly) connect you. いたす is the kenjougo form of する used in the お〜いたします pattern."
+        }
+      ]
+    },
+    {
+      "id": "te-yokatta",
+      "name": "〜てよかった (te yokatta) — glad that / good thing that",
+      "shortDescription": "Expresses relief or gladness that something happened — the emotional opposite of ばよかった.",
+      "formation": "Verb (て-form) + よかった  |  い-adj stem + くてよかった",
+      "explanation": "〜てよかった is the grammar of relieved satisfaction. 'Good thing I did that.' 'I'm so glad that happened.' It's a warm expression of positive feeling about how something turned out.\n\n日本語[にほんご]を勉強[べんきょう]してよかった: 'I'm glad I studied Japanese.' 間[ま]に合[あ]ってよかった: 'Good thing I made it in time.' There's often a breath of relief in these sentences — you might not have done it, or it might not have worked out, but it did, and you're glad.\n\nThe contrast with 〜ばよかった (Chapter 17) is worth feeling clearly:\n• ばよかった: regret about the past — 'I should have studied more (but I didn't).'\n• てよかった: relief about the past — 'I'm glad I studied (and it paid off).'\nSame grammatical area — よかった following a conditional form — opposite emotions.\n\nFormation: verb in て-form + よかった. For い-adjectives, use the くて-form: 安[やす]くてよかった (I'm glad it was cheap). This pattern also works with 〜なくてよかった for 'glad something did NOT happen': 傘[かさ]を忘[わす]れなくてよかった (Good thing I didn't forget my umbrella).",
+      "rules": [
+        "Verb (て-form) + よかった = I'm glad that / good thing that [action happened]",
+        "い-adj: stem + くてよかった (安[やす]くてよかった = I'm glad it was cheap)",
+        "Negative: verb (ない-form) + なくてよかった = I'm glad [something] didn't happen",
+        "Expresses relief or positive satisfaction about a past outcome",
+        "Emotional opposite of ばよかった (regret) — same pattern, opposite feeling"
+      ],
+      "examples": [
+        {
+          "japanese": "日本語[にほんご]を勉強[べんきょう]してよかったです。",
+          "romaji": "Nihongo wo benkyou shite yokatta desu.",
+          "english": "I'm glad I studied Japanese."
+        },
+        {
+          "japanese": "電車[でんしゃ]に間[ま]に合[あ]ってよかった！",
+          "romaji": "Densha ni ma ni atte yokatta!",
+          "english": "I'm so glad I made the train in time!"
+        },
+        {
+          "japanese": "傘[かさ]を持[も]ってきてよかった。雨[あめ]が降[ふ]ってきたね。",
+          "romaji": "Kasa wo motte kite yokatta. Ame ga futte kita ne.",
+          "english": "Good thing I brought an umbrella. It started raining."
+        },
+        {
+          "japanese": "あなたと友達[ともだち]になれてよかったです。",
+          "romaji": "Anata to tomodachi ni narete yokatta desu.",
+          "english": "I'm glad I got to become friends with you."
+        }
+      ],
+      "flashcardHeader": "〜てよかった",
+      "flashcardAnswer": "Relief or gladness that something happened — 'I'm so glad I did / it turned out that way.'",
+      "practice": [
+        {
+          "id": "te-yokatta_q1",
+          "type": "translation",
+          "prompt": "Which means 'I'm glad I studied Japanese'?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]を勉強[べんきょう]したらよかった。",
+            "日本語[にほんご]を勉強[べんきょう]してよかった。",
+            "日本語[にほんご]を勉強[べんきょう]すればよかった。",
+            "日本語[にほんご]を勉強[べんきょう]するとよかった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜てよかった = I'm glad I did / it was good that I did. 勉強[べんきょう]してよかった = I'm glad I studied. Expresses relief or satisfaction about a past action."
+        },
+        {
+          "id": "te-yokatta_q2",
+          "type": "usage",
+          "prompt": "What does 〜てよかった express?",
+          "japanese": null,
+          "choices": [
+            "Regret about something done",
+            "Relief or satisfaction about something done",
+            "Regret about something not done",
+            "Future hope"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜てよかった = I'm glad / it was good that . It expresses relief, satisfaction, or happiness about a completed action. 傘[かさ]を持[も]ってきてよかった = I'm glad I brought an umbrella."
+        },
+        {
+          "id": "te-yokatta_q3",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I talked to her'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]に話[はな]したらよかった。",
+            "彼女[かのじょ]に話[はな]せばよかった。",
+            "彼女[かのじょ]に話[はな]してよかった。",
+            "彼女[かのじょ]に話[はな]すとよかった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てよかった = I'm glad I did . 話[はな]して + よかった = 話[はな]してよかった = I'm glad I talked to her. Te-form + よかった expresses relief/satisfaction."
+        },
+        {
+          "id": "te-yokatta_q4",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 傘[かさ]を持[も]って来[き]て___。(I'm glad I brought an umbrella.)",
+          "japanese": "傘[かさ]を持[も]って来[き]て___。",
+          "choices": [
+            "ほしかった",
+            "ありがたい",
+            "もらった",
+            "よかった"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜てよかった: te-form + よかった = I'm glad I did. 持[も]って来[き]て + よかった = I'm glad I brought . The blank holds よかった."
+        },
+        {
+          "id": "te-yokatta_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I came to Japan'?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]に来[き]てよかった。",
+            "日本[にほん]に来[く]ればよかった。",
+            "日本[にほん]に来[き]たらよかった。",
+            "日本[にほん]に来[く]るとよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てよかった: 来[き]て + よかった = I'm glad I came. 来[く]ればよかった = I should have come (regret about not coming). てよかった = satisfaction; ばよかった = regret."
+        },
+        {
+          "id": "te-yokatta_q6",
+          "type": "usage",
+          "prompt": "Which is the KEY difference between 〜てよかった and 〜ばよかった?",
+          "japanese": null,
+          "choices": [
+            "てよかった = past; ばよかった = future",
+            "てよかった = I'm glad I did (satisfaction); ばよかった = I should have done (regret)",
+            "てよかった = for others; ばよかった = for yourself",
+            "There is no difference"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜てよかった = relief/satisfaction about something DONE. 〜ばよかった = regret about something NOT done. 行[い]ってよかった = I'm glad I went; 行[い]けばよかった = I should have gone (but didn't)."
+        },
+        {
+          "id": "te-yokatta_q7",
+          "type": "translation",
+          "prompt": "Which means 'I'm relieved I passed the exam'?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]に合格[ごうかく]すればよかった。",
+            "試験[しけん]に合格[ごうかく]したらよかった。",
+            "試験[しけん]に合格[ごうかく]してよかった。",
+            "試験[しけん]に合格[ごうかく]するとよかった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てよかった: 合格[ごうかく]して + よかった = I'm glad I passed. Te-form + よかった expresses relief/satisfaction. 合格[ごうかく]すればよかった = I should have passed (regret)."
+        },
+        {
+          "id": "te-yokatta_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I told the truth'?",
+          "japanese": null,
+          "choices": [
+            "本当[ほんとう]のことを言[い]えばよかった。",
+            "本当[ほんとう]のことを言[い]ったらよかった。",
+            "本当[ほんとう]のことを言[い]うとよかった。",
+            "本当[ほんとう]のことを言[い]ってよかった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜てよかった: 言[い]って + よかった = 言[い]ってよかった = I'm glad I said . 言[い]えばよかった = I should have said it (regret about not saying it)."
+        },
+        {
+          "id": "te-yokatta_q9",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 予約[よやく]し___よかった。(I'm glad I made a reservation.)",
+          "japanese": "予約[よやく]し___よかった。",
+          "choices": [
+            "たら",
+            "れば",
+            "て",
+            "ても"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てよかった: て + よかった = I'm glad I did. 予約[よやく]し + て + よかった = 予約[よやく]してよかった = I'm glad I made a reservation. The blank holds て (te-form ending after stem)."
+        },
+        {
+          "id": "te-yokatta_q10",
+          "type": "translation",
+          "prompt": "Which means 'I'm glad you told me'?",
+          "japanese": null,
+          "choices": [
+            "話[はな]してくれてよかった。",
+            "話[はな]してくれればよかった。",
+            "話[はな]してくれたらよかった。",
+            "話[はな]してくれるとよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てくれてよかった = I'm glad  did  for me. 話[はな]してくれて =  told me (て-form of くれる). + よかった = I'm glad. Expresses gratitude + relief."
+        },
+        {
+          "id": "te-yokatta_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I met him'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]と会[あ]ってよかった。",
+            "彼[かれ]と会[あ]えばよかった。",
+            "彼[かれ]と会[あ]ったらよかった。",
+            "彼[かれ]と会[あ]うとよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てよかった: 会[あ]って + よかった = 会[あ]ってよかった = I'm glad I met . 会[あ]えばよかった = I should have met him (regret about not meeting)."
+        },
+        {
+          "id": "te-yokatta_q12",
+          "type": "usage",
+          "prompt": "Which sentence correctly expresses relief in polite speech?",
+          "japanese": null,
+          "choices": [
+            "間[ま]に合[あ]いてよかったです。",
+            "間[ま]に合[あ]えてよかった。",
+            "間[ま]に合[あ]ってよかったです。",
+            "間[ま]に合[あ]ってよかったね。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てよかったです: te-form + よかったです = I'm glad (polite). 間[ま]に合[あ]って = made it on time (te-form of 間[ま]に合[あ]う). + よかったです = polite relief expression."
+        },
+        {
+          "id": "te-yokatta_q13",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I asked the doctor' (seeking medical advice)?",
+          "japanese": null,
+          "choices": [
+            "お医者[いしゃ]さんに聞[き]いてよかった。",
+            "お医者[いしゃ]さんに聞[き]けばよかった。",
+            "お医者[いしゃ]さんに聞[き]いたらよかった。",
+            "お医者[いしゃ]さんに聞[き]くとよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てよかった: 聞[き]いて + よかった = 聞[き]いてよかった = I'm glad I asked. 聞[き]けばよかった = I should have asked (regret about not asking)."
+        },
+        {
+          "id": "te-yokatta_q14",
+          "type": "usage",
+          "prompt": "Which uses てよかった to express satisfaction about watching a movie?",
+          "japanese": null,
+          "choices": [
+            "この映画[えいが]を見[み]ればよかった。",
+            "この映画[えいが]を見[み]たらよかった。",
+            "この映画[えいが]を見[み]なくてよかった。",
+            "この映画[えいが]を見[み]てよかった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜てよかった: 見[み]て + よかった = I'm glad I watched . Expresses satisfaction about having watched the movie. 見[み]ればよかった = I should have watched it (regret)."
+        },
+        {
+          "id": "te-yokatta_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 窓[まど]を閉[し]め___よかった。(I'm glad I closed the window.)",
+          "japanese": "窓[まど]を閉[し]め___よかった。",
+          "choices": [
+            "れば",
+            "たら",
+            "ても",
+            "て"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜てよかった: 閉[し]め + て + よかった = 閉[し]めてよかった = I'm glad I closed . The blank holds て (the te-form after the masu-stem)."
+        },
+        {
+          "id": "te-yokatta_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I didn't say anything'?",
+          "japanese": null,
+          "choices": [
+            "何[なに]も言[い]わなくてよかった。",
+            "何[なに]も言[い]わなければよかった。",
+            "何[なに]も言[い]わなかったらよかった。",
+            "何[なに]も言[い]わなかってよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative te-form (〜なくて) + よかった = I'm glad I didn't do. 言[い]わなくて + よかった = I'm glad I didn't say . 言[い]わなければよかった = I should not have said it (regret)."
+        },
+        {
+          "id": "te-yokatta_q17",
+          "type": "translation",
+          "prompt": "Which means 'I'm glad the operation went well'?",
+          "japanese": null,
+          "choices": [
+            "手術[しゅじゅつ]がうまくいったらよかった。",
+            "手術[しゅじゅつ]がうまくいけばよかった。",
+            "手術[しゅじゅつ]がうまくいってよかった。",
+            "手術[しゅじゅつ]がうまくいってほしかった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てよかった: うまくいって + よかった = I'm glad it went well. 手術[しゅじゅつ]がうまくいってよかった = I'm glad the operation went well. Relief expressed about a positive past event."
+        },
+        {
+          "id": "te-yokatta_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'I'm glad I brought my wallet'?",
+          "japanese": null,
+          "choices": [
+            "財布[さいふ]を持[も]ってきてよかった。",
+            "財布[さいふ]を持[も]ってくればよかった。",
+            "財布[さいふ]を持[も]ってきたらよかった。",
+            "財布[さいふ]を持[も]ってきてほしかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜てきてよかった: 持[も]ってきて + よかった = I'm glad I brought . 持[も]ってくればよかった = I should have brought it (regret about not bringing)."
+        },
+        {
+          "id": "te-yokatta_q19",
+          "type": "usage",
+          "prompt": "Which correctly uses 〜なくてよかった (I'm glad it didn't...)?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]が降[ふ]らなければよかった。",
+            "雨[あめ]が降[ふ]らなかったらよかった。",
+            "雨[あめ]が降[ふ]らなかってよかった。",
+            "雨[あめ]が降[ふ]らなくてよかった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Negative te-form + よかった: 降[ふ]らない → 降[ふ]らなくて + よかった = 降[ふ]らなくてよかった = I'm glad it didn't rain. 降[ふ]らなければよかった = I wish it hadn't rained (regret about rain that DID fall)."
+        },
+        {
+          "id": "te-yokatta_q20",
+          "type": "usage",
+          "prompt": "Which sentence uses てよかった MOST naturally for expressing relief?",
+          "japanese": null,
+          "choices": [
+            "風邪[かぜ]が治[なお]ってよかった。",
+            "風邪[かぜ]を治[なお]してよかった。",
+            "風邪[かぜ]だったらよかった。",
+            "風邪[かぜ]になってよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "風邪[かぜ]が治[なお]ってよかった = I'm glad  recovered from the cold. Intransitive 治[なお]る + て + よかった = natural relief expression. 風邪[かぜ]になってよかった = I'm glad I got a cold (unnatural for expressing relief)."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch19_v01",
+      "partOfSpeech": "noun",
+      "kanji": "職業",
+      "kana": "しょくぎょう",
+      "romaji": "shokugyou",
+      "definition": "occupation"
+    },
+    {
+      "id": "ch19_v02",
+      "partOfSpeech": "noun",
+      "kanji": "看護師",
+      "kana": "かんごし",
+      "romaji": "kangoshi",
+      "definition": "nurse"
+    },
+    {
+      "id": "ch19_v03",
+      "partOfSpeech": "noun",
+      "kanji": "弁護士",
+      "kana": "べんごし",
+      "romaji": "bengoshi",
+      "definition": "lawyer"
+    },
+    {
+      "id": "ch19_v04",
+      "partOfSpeech": "noun",
+      "kanji": "警察官",
+      "kana": "けいさつかん",
+      "romaji": "keisatsukan",
+      "definition": "police officer"
+    },
+    {
+      "id": "ch19_v05",
+      "partOfSpeech": "noun",
+      "kanji": "消防士",
+      "kana": "しょうぼうし",
+      "romaji": "shouboushi",
+      "definition": "firefighter"
+    },
+    {
+      "id": "ch19_v06",
+      "partOfSpeech": "noun",
+      "kanji": "教師",
+      "kana": "きょうし",
+      "romaji": "kyoushi",
+      "definition": "teacher; instructor"
+    },
+    {
+      "id": "ch19_v07",
+      "partOfSpeech": "noun",
+      "kanji": "公務員",
+      "kana": "こうむいん",
+      "romaji": "koumuin",
+      "definition": "civil servant"
+    },
+    {
+      "id": "ch19_v08",
+      "partOfSpeech": "noun",
+      "kanji": "エンジニア",
+      "kana": "エンジニア",
+      "romaji": "enjinia",
+      "definition": "engineer"
+    },
+    {
+      "id": "ch19_v09",
+      "partOfSpeech": "noun",
+      "kanji": "技術者",
+      "kana": "ぎじゅつしゃ",
+      "romaji": "gijutsusha",
+      "definition": "technician; engineer"
+    },
+    {
+      "id": "ch19_v10",
+      "partOfSpeech": "noun",
+      "kanji": "研究者",
+      "kana": "けんきゅうしゃ",
+      "romaji": "kenkyuusha",
+      "definition": "researcher"
+    },
+    {
+      "id": "ch19_v11",
+      "partOfSpeech": "noun",
+      "kanji": "歯医者",
+      "kana": "はいしゃ",
+      "romaji": "haisha",
+      "definition": "dentist"
+    },
+    {
+      "id": "ch19_v12",
+      "partOfSpeech": "noun",
+      "kanji": "美容師",
+      "kana": "びようし",
+      "romaji": "biyoushi",
+      "definition": "hairdresser"
+    },
+    {
+      "id": "ch19_v13",
+      "partOfSpeech": "noun",
+      "kanji": "調理師",
+      "kana": "ちょうりし",
+      "romaji": "chourishi",
+      "definition": "chef; cook"
+    },
+    {
+      "id": "ch19_v14",
+      "partOfSpeech": "noun",
+      "kanji": "パイロット",
+      "kana": "パイロット",
+      "romaji": "pairotto",
+      "definition": "pilot"
+    },
+    {
+      "id": "ch19_v15",
+      "partOfSpeech": "noun",
+      "kanji": "農家",
+      "kana": "のうか",
+      "romaji": "nouka",
+      "definition": "farmer"
+    },
+    {
+      "id": "ch19_v16",
+      "partOfSpeech": "noun",
+      "kanji": "漁師",
+      "kana": "りょうし",
+      "romaji": "ryoushi",
+      "definition": "fisherman"
+    },
+    {
+      "id": "ch19_v17",
+      "partOfSpeech": "noun",
+      "kanji": "作家",
+      "kana": "さっか",
+      "romaji": "sakka",
+      "definition": "author; writer"
+    },
+    {
+      "id": "ch19_v18",
+      "partOfSpeech": "noun",
+      "kanji": "画家",
+      "kana": "がか",
+      "romaji": "gaka",
+      "definition": "painter; artist"
+    },
+    {
+      "id": "ch19_v19",
+      "partOfSpeech": "noun",
+      "kanji": "歌手",
+      "kana": "かしゅ",
+      "romaji": "kashu",
+      "definition": "singer"
+    },
+    {
+      "id": "ch19_v20",
+      "partOfSpeech": "noun",
+      "kanji": "俳優",
+      "kana": "はいゆう",
+      "romaji": "haiyuu",
+      "definition": "actor"
+    },
+    {
+      "id": "ch19_v21",
+      "partOfSpeech": "noun",
+      "kanji": "記者",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "definition": "reporter; journalist"
+    },
+    {
+      "id": "ch19_v22",
+      "partOfSpeech": "noun",
+      "kanji": "アナウンサー",
+      "kana": "アナウンサー",
+      "romaji": "anaunsaa",
+      "definition": "announcer"
+    },
+    {
+      "id": "ch19_v23",
+      "partOfSpeech": "noun",
+      "kanji": "デザイナー",
+      "kana": "デザイナー",
+      "romaji": "dezainaa",
+      "definition": "designer"
+    },
+    {
+      "id": "ch19_v24",
+      "partOfSpeech": "noun",
+      "kanji": "建築家",
+      "kana": "けんちくか",
+      "romaji": "kenchikuka",
+      "definition": "architect"
+    },
+    {
+      "id": "ch19_v25",
+      "partOfSpeech": "noun",
+      "kanji": "通訳",
+      "kana": "つうやく",
+      "romaji": "tsuuyaku",
+      "definition": "interpreter"
+    },
+    {
+      "id": "ch19_v26",
+      "partOfSpeech": "noun",
+      "kanji": "翻訳家",
+      "kana": "ほんやくか",
+      "romaji": "hon'yakuka",
+      "definition": "translator"
+    },
+    {
+      "id": "ch19_v27",
+      "partOfSpeech": "noun",
+      "kanji": "大工",
+      "kana": "だいく",
+      "romaji": "daiku",
+      "definition": "carpenter"
+    },
+    {
+      "id": "ch19_v28",
+      "partOfSpeech": "noun",
+      "kanji": "政治家",
+      "kana": "せいじか",
+      "romaji": "seijika",
+      "definition": "politician"
+    },
+    {
+      "id": "ch19_v29",
+      "partOfSpeech": "noun",
+      "kanji": "主婦",
+      "kana": "しゅふ",
+      "romaji": "shufu",
+      "definition": "housewife"
+    },
+    {
+      "id": "ch19_v30",
+      "partOfSpeech": "noun",
+      "kanji": "サラリーマン",
+      "kana": "サラリーマン",
+      "romaji": "sarariiman",
+      "definition": "office worker; salaryman"
+    },
+    {
+      "id": "ch19_v31",
+      "partOfSpeech": "noun",
+      "kanji": "アルバイト",
+      "kana": "アルバイト",
+      "romaji": "arubaito",
+      "definition": "part-time job"
+    },
+    {
+      "id": "ch19_v32",
+      "partOfSpeech": "noun",
+      "kanji": "職人",
+      "kana": "しょくにん",
+      "romaji": "shokunin",
+      "definition": "craftsman; artisan"
+    },
+    {
+      "id": "ch19_v33",
+      "partOfSpeech": "noun",
+      "kanji": "銀行員",
+      "kana": "ぎんこういん",
+      "romaji": "ginkouin",
+      "definition": "bank clerk"
+    },
+    {
+      "id": "ch19_v34",
+      "partOfSpeech": "noun",
+      "kanji": "会計士",
+      "kana": "かいけいし",
+      "romaji": "kaikeishi",
+      "definition": "accountant"
+    },
+    {
+      "id": "ch19_v35",
+      "partOfSpeech": "noun",
+      "kanji": "科学者",
+      "kana": "かがくしゃ",
+      "romaji": "kagakusha",
+      "definition": "scientist"
+    },
+    {
+      "id": "ch19_v36",
+      "partOfSpeech": "noun",
+      "kanji": "選手",
+      "kana": "せんしゅ",
+      "romaji": "senshu",
+      "definition": "athlete; player"
+    },
+    {
+      "id": "ch19_v37",
+      "partOfSpeech": "noun",
+      "kanji": "客",
+      "kana": "きゃく",
+      "romaji": "kyaku",
+      "definition": "customer; guest"
+    },
+    {
+      "id": "ch19_v38",
+      "partOfSpeech": "noun",
+      "kanji": "社会人",
+      "kana": "しゃかいじん",
+      "romaji": "shakaijin",
+      "definition": "working adult"
+    },
+    {
+      "id": "ch19_v39",
+      "partOfSpeech": "noun",
+      "kanji": "資格",
+      "kana": "しかく",
+      "romaji": "shikaku",
+      "definition": "qualification"
+    },
+    {
+      "id": "ch19_v40",
+      "partOfSpeech": "noun",
+      "kanji": "経験",
+      "kana": "けいけん",
+      "romaji": "keiken",
+      "definition": "experience"
+    }
+  ],
+  "kanji": [
+    "者",
+    "業",
+    "員",
+    "手",
+    "公",
+    "家",
+    "教",
+    "工",
+    "建",
+    "研",
+    "究",
+    "銀",
+    "験",
+    "医",
+    "歌"
+  ]
+}

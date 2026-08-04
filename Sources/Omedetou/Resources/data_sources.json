@@ -1,0 +1,29 @@
+{
+  "_comment": "Provenance for the bundled language data. Kept in its own file because kanji_data.json is a bare array with nowhere to put a header. Update the version and retrievedOn whenever the data is re-derived from upstream — the EDRDG licence asks for a procedure for regular updating, and you can't honour that if you can't tell what you're holding.",
+  "sources": [
+    {
+      "id": "jmdict",
+      "name": "JMdict / EDICT",
+      "usedFor": "dictionary.db",
+      "publisher": "Electronic Dictionary Research and Development Group",
+      "licence": "CC BY-SA 4.0",
+      "licenceURL": "https://www.edrdg.org/edrdg/licence.html",
+      "projectURL": "https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project",
+      "upstreamVersion": "unknown",
+      "retrievedOn": "unknown",
+      "note": "A curated subset scoped to the N5–N1 levels (4,094 entries), not a full copy of upstream."
+    },
+    {
+      "id": "kanjidic",
+      "name": "KANJIDIC",
+      "usedFor": "kanji_data.json",
+      "publisher": "Electronic Dictionary Research and Development Group",
+      "licence": "CC BY-SA 4.0",
+      "licenceURL": "https://www.edrdg.org/edrdg/licence.html",
+      "projectURL": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project",
+      "upstreamVersion": "unknown",
+      "retrievedOn": "unknown",
+      "note": "A curated subset scoped to the N5–N1 levels (1,103 kanji), not a full copy of upstream."
+    }
+  ]
+}

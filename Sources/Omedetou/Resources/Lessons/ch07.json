@@ -1,0 +1,974 @@
+{
+  "id": "ch07",
+  "chapterNumber": 8,
+  "title": "Actions and Purposes",
+  "points": [
+    {
+      "id": "te-iru",
+      "name": "〜ています (te imasu) — ongoing action or resultant state",
+      "shortDescription": "Expresses an action in progress, a lasting resultant state, or a habitual/repeated activity.",
+      "formation": "Verb (て-form) + います (polite)  |  + いる (plain)",
+      "explanation": "〜ています is one of the most frequently used patterns in Japanese, and mastering all of its meanings is essential. The first meaning is an action currently in progress: 食[た]べています means '(am) eating,' 走[はし]っています means '(am) running.' The second meaning is a resultant state — a condition that exists now because of something that happened in the past: 結婚[けっこん]しています (is married), 知[し]っています (knows), 住[す]んでいます (lives somewhere).\n\nThere is also a third, equally important meaning: habitual or repeated actions. 毎日[まいにち]走[はし]っています doesn't mean 'is running right now' — it means 'runs every day' as an ongoing pattern. This habitual meaning is especially common when describing jobs and routines: 会社[かいしゃ]で働[はたら]いています (I work at a company) describes an ongoing situation, not an action in progress this instant.\n\nWhen you encounter 〜ています, ask yourself: is this happening right now, or is it a lasting state or regular pattern? Context — especially words like 今 (now), 毎日[まいにち] (every day), or location verbs like 住[す]む (to live) — will usually make the meaning clear.\n\nOne asymmetry that catches nearly everyone: 知[し]る does not negate the way the pattern suggests. 知[し]っていますか is answered いいえ、知[し]りません — not ✗知[し]っていません, which is wrong. The affirmative is a resultant state (you have come to know, and still do), but the negative simply says the knowing never happened. わかる behaves the same way: わかりません, not ✗わかっていません.",
+      "rules": [
+        "Meaning 1 — action in progress: 今〜ています = is currently doing X",
+        "Meaning 2 — resultant state: 知[し]っている (knows), 結婚[けっこん]している (is married), 住[す]んでいる (lives [somewhere])",
+        "Negative of 知[し]っている is 知[し]りません / 知[し]らない — never ✗知[し]っていません",
+        "Polite: 〜ています; Casual: 〜てる (い dropped)",
+        "In questions: 〜ていますか = Are you doing X? / Do you X? (depending on verb)",
+        "Habitual or repeated actions can also use 〜ている: 毎日[まいにち]走[はし]っています (I run every day)"
+      ],
+      "examples": [
+        {
+          "japanese": "今[いま]、本[ほん]を読[よ]んでいます。",
+          "romaji": "Ima, hon wo yonde imasu.",
+          "english": "I am reading a book right now."
+        },
+        {
+          "japanese": "田中[たなか]さんは大阪[おおさか]に住[す]んでいます。",
+          "romaji": "Tanaka-san wa Oosaka ni sunde imasu.",
+          "english": "Tanaka-san lives in Osaka."
+        },
+        {
+          "japanese": "その映画[えいが]を知[し]っていますか。",
+          "romaji": "Sono eiga wo shitte imasu ka.",
+          "english": "Do you know that movie?"
+        },
+        {
+          "japanese": "姉[あね]は会社[かいしゃ]で働[はたら]いています。",
+          "romaji": "Ane wa kaisha de hataraite imasu.",
+          "english": "My older sister works at a company."
+        }
+      ],
+      "flashcardHeader": "〜ています",
+      "flashcardAnswer": "Expresses an action in progress right now, or a state that exists as a result of a past action.",
+      "practice": [
+        {
+          "id": "te-iru_q1",
+          "type": "translation",
+          "prompt": "What does 知[し]っています mean?",
+          "japanese": "知[し]っています。",
+          "choices": [
+            "I know it.",
+            "I came to know it.",
+            "I am knowing it.",
+            "I knew it."
+          ],
+          "correctIndex": 0,
+          "explanation": "知[し]る (to come to know) describes a state when combined with ている. 知[し]っています means 'I know' — the state of knowing that resulted from learning. It never means 'I am knowing,' because knowing is not an ongoing action you can observe."
+        },
+        {
+          "id": "te-iru_q2",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Tanaka-san lives in Osaka'?",
+          "japanese": null,
+          "choices": [
+            "田中[たなか]さんは大阪[おおさか]に住[す]みます。",
+            "田中[たなか]さんは大阪[おおさか]に住[す]みました。",
+            "田中[たなか]さんは大阪[おおさか]で住[す]んでいます。",
+            "田中[たなか]さんは大阪[おおさか]に住[す]んでいます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "住[す]む (to live) expresses a resultant state with ている: 住[す]んでいます = lives (somewhere). The particle に marks the place of residence. 住[す]みます would mean 'will move/live' as a future action, not the current state."
+        },
+        {
+          "id": "te-iru_q3",
+          "type": "usage",
+          "prompt": "Which sentence uses 〜ている to express a state (not an action in progress)?",
+          "japanese": null,
+          "choices": [
+            "子[こ]どもが泣[な]いています。",
+            "妹[いもうと]はピアノを弾[ひ]いています。",
+            "田中[たなか]さんは結婚[けっこん]しています。",
+            "今[いま]、走[はし]っています。"
+          ],
+          "correctIndex": 2,
+          "explanation": "結婚[けっこん]している expresses a resultant state — Tanaka-san is in the married state as a result of having gotten married. The other options (running, crying, playing piano) all describe actions visibly in progress right now."
+        },
+        {
+          "id": "te-iru_q4",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 姉[あね]は会社[かいしゃ]で働[はたら]い___。(My sister works at a company.)",
+          "japanese": "姉[あね]は会社[かいしゃ]で働[はたら]い___。",
+          "choices": [
+            "ています",
+            "ました",
+            "てました",
+            "ます"
+          ],
+          "correctIndex": 0,
+          "explanation": "Working at a company is an ongoing situation, expressed with 〜ています. 働[はたら]いています = works (habitually/currently). ます alone would mean 'will work' (future), and ました is past."
+        },
+        {
+          "id": "te-iru_q5",
+          "type": "translation",
+          "prompt": "Which English sentence best translates 田中[たなか]さんはもう帰[かえ]っています?",
+          "japanese": "田中[たなか]さんはもう帰[かえ]っています。",
+          "choices": [
+            "Tanaka-san went home already.",
+            "Tanaka-san has already gone home (and is now in that state).",
+            "Tanaka-san will go home soon.",
+            "Tanaka-san is going home."
+          ],
+          "correctIndex": 1,
+          "explanation": "帰[かえ]っています expresses the resultant state of having returned home — Tanaka-san went home and is now in that state (i.e., no longer here). もう (already) confirms the action is complete. This is ている's state-result meaning."
+        },
+        {
+          "id": "te-iru_q6",
+          "type": "usage",
+          "prompt": "Which sentence uses ている to describe a CURRENT STATE (not an ongoing action)?",
+          "japanese": null,
+          "choices": [
+            "山田[やまだ]さんは眼鏡[めがね]をかけています。",
+            "子[こ]どもが外[そと]で遊[あそ]んでいます。",
+            "母[はは]は今[いま]料理[りょうり]をしています。",
+            "弟[おとうと]は音楽[おんがく]を聴[き]いています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "眼鏡[めがね]をかける (to put on glasses) is a one-time event. かけています = is wearing glasses — a resulting state. The others (playing outside, cooking, listening to music) are all actions visibly in progress right now."
+        },
+        {
+          "id": "te-iru_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: アナさんは日本語[にほんご]を___。(Ana knows Japanese.)",
+          "japanese": "アナさんは日本語[にほんご]を___。",
+          "choices": [
+            "知[し]ります",
+            "知[し]っています",
+            "知[し]りました",
+            "知[し]っていません"
+          ],
+          "correctIndex": 1,
+          "explanation": "知[し]っています is the correct stative ている form of 知[し]る. It expresses the state of knowing. 知[し]ります would mean 'will come to know' (future), and 知[し]りました means 'came to know' (past event). To say someone 'knows' something, always use 知[し]っています."
+        },
+        {
+          "id": "te-iru_q8",
+          "type": "translation",
+          "prompt": "What does 鈴木[すずき]さんは車[くるま]を持[も]っています mean?",
+          "japanese": "鈴木[すずき]さんは車[くるま]を持[も]っています。",
+          "choices": [
+            "Suzuki-san is holding a car.",
+            "Suzuki-san was holding a car.",
+            "Suzuki-san has a car (owns one).",
+            "Suzuki-san will buy a car."
+          ],
+          "correctIndex": 2,
+          "explanation": "持[も]っている uses ている's stative meaning to express possession. 持[も]つ (to hold/have) → 持[も]っている = 'has' (owns). In this context it means ownership, not physically holding something. 車[くるま]を持[も]っています = 'has a car.'"
+        },
+        {
+          "id": "te-iru_q9",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Yuki is wearing a red dress'?",
+          "japanese": null,
+          "choices": [
+            "ゆきさんは赤[あか]いドレスを着[ちゃく]ます。",
+            "ゆきさんは赤[あか]いドレスを着[ちゃく]ました。",
+            "ゆきさんは赤[あか]いドレスが着[き]ています。",
+            "ゆきさんは赤[あか]いドレスを着[き]ています。"
+          ],
+          "correctIndex": 3,
+          "explanation": "着[き]る (to put on clothing) → 着[き]ている = is wearing (state). The particle を marks the clothing item. 着[ちゃく]ます means 'will put on' (future), 着[ちゃく]ました is past, and が is the wrong particle — clothing takes を, not が."
+        },
+        {
+          "id": "te-iru_q10",
+          "type": "usage",
+          "prompt": "Which verb, when used with ている, most naturally describes a RESULTING STATE rather than an action in progress?",
+          "japanese": null,
+          "choices": [
+            "太[ふと]る (to get fat)",
+            "走[はし]る (to run)",
+            "食[た]べる (to eat)",
+            "書[か]く (to write)"
+          ],
+          "correctIndex": 0,
+          "explanation": "太[ふと]る describes a one-time change of state. 太[ふと]っている means 'is (currently) fat' — the state that resulted from gaining weight. 走[はし]る, 食[た]べる, and 書[か]く all describe observable actions that can be in progress right now, making their ている forms actions rather than states."
+        },
+        {
+          "id": "te-iru_q11",
+          "type": "translation",
+          "prompt": "Which English sentence best translates 先生[せんせい]は大学[だいがく]の近[ちか]くに住[す]んでいます?",
+          "japanese": "先生[せんせい]は大学[だいがく]の近[ちか]くに住[す]んでいます。",
+          "choices": [
+            "The teacher will move near the university.",
+            "The teacher lives near the university.",
+            "The teacher lived near the university.",
+            "The teacher is moving to near the university."
+          ],
+          "correctIndex": 1,
+          "explanation": "住[す]んでいます is the stative ている form of 住[す]む (to live/reside). It expresses the current ongoing state of where someone lives, not an action in progress. It translates simply as 'lives' in English, not 'is living' in the progressive sense."
+        },
+        {
+          "id": "te-iru_q12",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 妹[いもうと]は帽子[ぼうし]を___います。(My younger sister is wearing a hat.)",
+          "japanese": "妹[いもうと]は帽子[ぼうし]を___います。",
+          "choices": [
+            "着[き]て",
+            "はいて",
+            "かぶって",
+            "つけて"
+          ],
+          "correctIndex": 2,
+          "explanation": "Japanese uses different verbs for different clothing items. 帽子[ぼうし] (hat) uses かぶる → かぶっています. 着[き]る (着[き]て) is for upper-body clothing like shirts and jackets. はく (はいて) is for lower-body clothing like pants and shoes. つける (つけて) is for accessories like watches."
+        },
+        {
+          "id": "te-iru_q13",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Tanaka-san is wearing blue jeans'?",
+          "japanese": null,
+          "choices": [
+            "田中[たなか]さんは青[あお]いジーンズを着[き]ています。",
+            "田中[たなか]さんは青[あお]いジーンズをかぶっています。",
+            "田中[たなか]さんは青[あお]いジーンズをつけています。",
+            "田中[たなか]さんは青[あお]いジーンズをはいています。"
+          ],
+          "correctIndex": 3,
+          "explanation": "ジーンズ (jeans) are lower-body clothing, so the correct verb is はく → はいています. 着[き]る is for upper-body garments (shirts, jackets). かぶる is for headwear (hats, helmets). つける is for accessories like watches, rings, and ties."
+        },
+        {
+          "id": "te-iru_q14",
+          "type": "usage",
+          "prompt": "A classmate asks if you know the answer. Which response is natural Japanese for 'Yes, I know'?",
+          "japanese": null,
+          "choices": [
+            "はい、知[し]っています。",
+            "はい、知[し]ります。",
+            "はい、知[し]りました。",
+            "はい、知[し]ってあります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "'I know' in Japanese is always 知[し]っています — the stative ている form. 知[し]ります means 'I will come to know' (future), which is unnatural for expressing current knowledge. 知[し]りました means 'I came to know' (a past event). 知[し]ってあります is not a natural expression."
+        },
+        {
+          "id": "te-iru_q15",
+          "type": "translation",
+          "prompt": "What does この映画[えいが]を知[し]っていますか mean?",
+          "japanese": "この映画[えいが]を知[し]っていますか。",
+          "choices": [
+            "Did you watch this movie?",
+            "Do you know this movie?",
+            "Have you heard about this movie recently?",
+            "Will you watch this movie?"
+          ],
+          "correctIndex": 1,
+          "explanation": "知[し]っていますか is the question form of 知[し]っています (to know). The sentence asks 'Do you know this movie?' — i.e., are you familiar with it? を marks 映画[えいが] as the object of knowledge. Note: this does NOT ask if you watched it — that would use 見[み]ましたか."
+        },
+        {
+          "id": "te-iru_q16",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 姉[あね]は___。(My older sister is married.)",
+          "japanese": "姉[あね]は___。",
+          "choices": [
+            "結婚[けっこん]します",
+            "結婚[けっこん]しました",
+            "結婚[けっこん]しています",
+            "結婚[けっこん]していました"
+          ],
+          "correctIndex": 2,
+          "explanation": "結婚[けっこん]する (to get married) is a one-time event. ている with it expresses the resulting state: 結婚[けっこん]しています = is married. 結婚[けっこん]します means 'will get married' (future). 結婚[けっこん]しました means 'got married' (past event). 結婚[けっこん]していました means 'was married' (past state)."
+        },
+        {
+          "id": "te-iru_q17",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'That person is wearing glasses'?",
+          "japanese": null,
+          "choices": [
+            "あの人[ひと]は眼鏡[めがね]をつけています。",
+            "あの人[ひと]は眼鏡[めがね]をかぶっています。",
+            "あの人[ひと]は眼鏡[めがね]をはいています。",
+            "あの人[ひと]は眼鏡[めがね]をかけています。"
+          ],
+          "correctIndex": 3,
+          "explanation": "眼鏡[めがね] (glasses) uses the verb かける → かけています. 眼鏡[めがね]をかける is a set collocation to memorize. つける is for accessories (watches, jewelry). かぶる is for headwear (hats, helmets). はく is for footwear and lower-body clothing."
+        },
+        {
+          "id": "te-iru_q18",
+          "type": "usage",
+          "prompt": "Which pair correctly matches the verb with the ている meaning it takes?",
+          "japanese": null,
+          "choices": [
+            "住[す]む → 住[す]んでいる = lives somewhere ",
+            "読[よ]む → 読[よ]んでいる = has finished reading ",
+            "知[し]る → 知[し]っている = is in the process of learning ",
+            "太[ふと]る → 太[ふと]っている = is getting fatter right now "
+          ],
+          "correctIndex": 0,
+          "explanation": "住[す]む → 住[す]んでいる correctly expresses a resultant state: living somewhere. 読[よ]む → 読[よ]んでいる means 'is reading right now' (action in progress, not completion). 知[し]る → 知[し]っている means 'knows' (state, not an action). 太[ふと]る → 太[ふと]っている means 'is fat' (the state of having gained weight), not an ongoing process."
+        },
+        {
+          "id": "te-iru_q19",
+          "type": "translation",
+          "prompt": "Which sentence means 'I have a Japanese dictionary' — emphasizing personal ownership?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]の辞書[じしょ]があります。",
+            "日本語[にほんご]の辞書[じしょ]を持[も]っています。",
+            "日本語[にほんご]の辞書[じしょ]を持[も]ちます。",
+            "日本語[にほんご]の辞書[じしょ]が持[も]っています。"
+          ],
+          "correctIndex": 1,
+          "explanation": "持[も]っている uses ている's stative meaning for possession: 持[も]っています = 'have/own.' を marks the possessed item. 辞書[じしょ]があります (option 1) states the dictionary exists but is less personal. 持[も]ちます means 'will carry/hold' (future). 辞書[じしょ]が持[も]っています has the wrong particle — possession takes を, not が."
+        },
+        {
+          "id": "te-iru_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Kimura-san lives alone in Tokyo'?",
+          "japanese": null,
+          "choices": [
+            "木村[きむら]さんは東京[とうきょう]でひとりに住[す]んでいます。",
+            "木村[きむら]さんは東京[とうきょう]にひとりで住[す]みます。",
+            "木村[きむら]さんは東京[とうきょう]にひとりで住[す]んでいます。",
+            "木村[きむら]さんはひとりの東京[とうきょう]に住[す]んでいます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "住[す]んでいます expresses the current state of residence (stative ている). に marks the place of residence (東京[とうきょう]に). ひとりで means 'alone' — the particle で marks manner. 住[す]みます would be future tense. でひとりに in option 1 reverses the particles incorrectly. ひとりの is possessive, not a manner expression."
+        }
+      ]
+    },
+    {
+      "id": "ni-iku",
+      "name": "〜に行[い]く / 〜に来[く]る (purpose of movement)",
+      "shortDescription": "Expresses going or coming somewhere in order to do something.",
+      "formation": "Verb stem + に + 行[い]く / 来[く]る / 帰[かえ]る",
+      "explanation": "When you go somewhere with a specific purpose, Japanese uses the particle に between the purpose and the movement verb. The purpose comes first, attached to に, and then 行[い]く (to go), 来[く]る (to come), or 帰[かえ]る (to return) comes at the end. For regular verbs, the purpose uses the verb stem — the same form as before ます. 食[た]べ + に行[い]く = 食[た]べに行[い]く (go to eat). For する-compound verbs like 買[か]い物[もの]する (to shop), drop する and keep the noun: 買[か]い物[もの]に行[い]く (go shopping).\n\nThis に marks purpose — a different job from the に that marks location or time. Think of it as the 'in order to' に: verb stem + に + movement verb = 'go/come/return in order to do [verb].' You can use this pattern with 行[い]く, 来[く]る, and 帰[かえ]る, making it a flexible and very natural way to describe purposeful outings.",
+      "rules": [
+        "Pattern: [purpose] + に + 行[い]く/来[く]る/帰[かえ]る",
+        "For regular verbs: use the verb stem (the form before ます): 食[た]べ + に行[い]く",
+        "For する-verbs: drop する, use the noun + に: 買[か]い物[もの]に行[い]く, 勉強[べんきょう]に来[く]る",
+        "The に here marks purpose, not location",
+        "Works with 行[い]く (go), 来[く]る (come), and 帰[かえ]る (return)"
+      ],
+      "examples": [
+        {
+          "japanese": "昼[ひる]ごはんを食[た]べに行[い]きます。",
+          "romaji": "Hirugohan wo tabe ni ikimasu.",
+          "english": "I am going to eat lunch."
+        },
+        {
+          "japanese": "日本語[にほんご]を勉強[べんきょう]しに来[き]ました。",
+          "romaji": "Nihongo wo benkyou shi ni kimashita.",
+          "english": "I came to study Japanese."
+        },
+        {
+          "japanese": "友達[ともだち]の家[いえ]に遊[あそ]びに行[い]きませんか。",
+          "romaji": "Tomodachi no ie ni asobi ni ikimasen ka.",
+          "english": "Won't you come with me to hang out at my friend's place?"
+        },
+        {
+          "japanese": "週末[しゅうまつ]に映画[えいが]を見[み]に行[い]くつもりです。",
+          "romaji": "Shuumatsu ni eiga wo mi ni iku tsumori desu.",
+          "english": "I plan to go see a movie on the weekend."
+        }
+      ],
+      "flashcardHeader": "〜に行く / 〜に来る",
+      "flashcardAnswer": "Expresses going or coming somewhere in order to do something.",
+      "practice": [
+        {
+          "id": "ni-iku_q1",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'I am going to eat lunch'?",
+          "japanese": null,
+          "choices": [
+            "昼[ひる]ごはんを食[た]べてに行[い]きます。",
+            "昼[ひる]ごはんを食[た]べに行[い]きます。",
+            "昼[ひる]ごはんを食[た]べるに行[い]きます。",
+            "昼[ひる]ごはんのに行[い]きます。"
+          ],
+          "correctIndex": 1,
+          "explanation": "The pattern is verb stem + に + movement verb. 食[た]べる → stem: 食[た]べ → 食[た]べに行[い]きます. Using the dictionary form (食[た]べる) or te-form (食[た]べて) before に is incorrect."
+        },
+        {
+          "id": "ni-iku_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 日本語[にほんご]を勉強[べんきょう]し___来[き]ました。(I came to study Japanese.)",
+          "japanese": "日本語[にほんご]を勉強[べんきょう]し___来[き]ました。",
+          "choices": [
+            "を",
+            "て",
+            "で",
+            "に"
+          ],
+          "correctIndex": 3,
+          "explanation": "The purpose-of-movement pattern uses に: verb stem + に + movement verb. For する-verbs, use the stem し: 勉強[べんきょう]し + に + 来[き]ました = 勉強[べんきょう]しに来[き]ました (came to study)."
+        },
+        {
+          "id": "ni-iku_q3",
+          "type": "translation",
+          "prompt": "Which sentence means 'I went shopping'?",
+          "japanese": null,
+          "choices": [
+            "買[か]い物[もの]をしに行[い]きました。",
+            "買[か]い物[もの]するに行[い]きました。",
+            "買[か]い物[もの]に行[い]きました。",
+            "買[か]い物[もの]のに行[い]きました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "For する-compound verbs (買[か]い物[もの]する = to shop), drop する and attach に directly to the noun: 買[か]い物[もの]に行[い]きました. This is a very natural, everyday phrase for 'went shopping.'"
+        },
+        {
+          "id": "ni-iku_q4",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses the purpose-of-movement pattern?",
+          "japanese": null,
+          "choices": [
+            "友達[ともだち]の家[いえ]に遊[あそ]びに行[い]きませんか。",
+            "友達[ともだち]の家[いえ]に遊[あそ]ぶに行[い]きませんか。",
+            "友達[ともだち]の家[いえ]を遊[あそ]びに行[い]きませんか。",
+            "友達[ともだち]の家[いえ]に遊[あそ]んでに行[い]きませんか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "遊[あそ]ぶ (to play/hang out) → stem: 遊[あそ]び → 遊[あそ]びに行[い]く (go to hang out). The particle に marks both the destination (友達[ともだち]の家[いえ]に) and the purpose (遊[あそ]びに). Note: the destination に and the purpose に are two separate particles here."
+        },
+        {
+          "id": "ni-iku_q5",
+          "type": "translation",
+          "prompt": "What does 泳[およ]ぎに行[い]きましょう mean?",
+          "japanese": "泳[およ]ぎに行[い]きましょう。",
+          "choices": [
+            "Let's go swimming.",
+            "I went swimming.",
+            "I am swimming.",
+            "Let's go to the swimming pool."
+          ],
+          "correctIndex": 0,
+          "explanation": "泳[およ]ぐ (to swim) → masu-stem: 泳[およ]ぎ → 泳[およ]ぎに行[い]く (go to swim). ましょう makes it a suggestion: 'Let's go.' The full meaning is 'Let's go swimming.' Note that 'Let's go to the pool' would just be プールに行[い]きましょう — without a purpose verb."
+        },
+        {
+          "id": "ni-iku_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 友達[ともだち]の家[いえ]に遊[あそ]び___行[い]きましょう。(Let's go hang out at my friend's place.)",
+          "japanese": "友達[ともだち]の家[いえ]に遊[あそ]び___行[い]きましょう。",
+          "choices": [
+            "を",
+            "に",
+            "で",
+            "が"
+          ],
+          "correctIndex": 1,
+          "explanation": "The purpose-of-movement pattern uses に between the verb stem and the movement verb: verb stem + に + 行[い]く/来[く]る/帰[かえ]る. 遊[あそ]び (stem of 遊[あそ]ぶ) + に + 行[い]く = 遊[あそ]びに行[い]く (go to hang out). Note: 友達[ともだち]の家[いえ]に marks the destination, and 遊[あそ]びに marks the purpose — the same particle に does two different jobs here."
+        },
+        {
+          "id": "ni-iku_q7",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'My mother came to pick up vegetables'?",
+          "japanese": null,
+          "choices": [
+            "母[はは]は野菜[やさい]を取[と]るに来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]りで来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]りに来[き]ました。",
+            "母[はは]は野菜[やさい]を取[と]ってに来[き]ました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "取[と]る (to take/pick up) → masu-stem: 取[と]り → 取[と]りに来[き]ました (came to pick up). The verb stem before に is the key. 取[と]るに uses the dictionary form (wrong). 取[と]りで uses the wrong particle. 取[と]ってに uses the te-form (wrong)."
+        },
+        {
+          "id": "ni-iku_q8",
+          "type": "usage",
+          "prompt": "Which sentence uses purpose に correctly — where に follows a verb stem to signal WHY someone is moving?",
+          "japanese": null,
+          "choices": [
+            "駅[えき]に行[い]きます。",
+            "三時[さんじ]に来[き]てください。",
+            "椅子[いす]に座[すわ]ります。",
+            "本[ほん]を買[か]いに行[い]きます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "本[ほん]を買[か]いに行[い]きます (go to buy books) uses purpose に — verb stem 買[か]い + に + 行[い]く = 'go in order to buy.' Options 1, 2, and 3 use に for different roles: destination (駅[えき]に = to the station), time (三時[さんじ]に = at 3 o'clock), and location/direction (椅子[いす]に = onto the chair). Purpose に is always preceded by a verb stem."
+        },
+        {
+          "id": "ni-iku_q9",
+          "type": "usage",
+          "prompt": "Which is the correct negative form of 図書館[としょかん]に勉強[べんきょう]しに行[い]きます?",
+          "japanese": "図書館[としょかん]に勉強[べんきょう]しに行[い]きます。",
+          "choices": [
+            "図書館[としょかん]に勉強[べんきょう]しに行[い]きません。",
+            "図書館[としょかん]に勉強[べんきょう]しないに行[い]きます。",
+            "図書館[としょかん]に勉強[べんきょう]しに来[き]ません。",
+            "図書館[としょかん]に勉強[べんきょう]に行[い]きません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "To negate purpose-of-movement, negate only the movement verb at the end: 行[い]きます → 行[い]きません. The purpose part (勉強[べんきょう]しに) stays unchanged. 行[い]きません = will not go. Option 2 incorrectly negates the purpose verb. Option 3 changes 行[い]く to 来[く]る, which is a different verb."
+        },
+        {
+          "id": "ni-iku_q10",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 週末[しゅうまつ]に映画[えいが]を___に行[い]くつもりです。(I plan to go see a movie on the weekend.)",
+          "japanese": "週末[しゅうまつ]に映画[えいが]を___に行[い]くつもりです。",
+          "choices": [
+            "見[み]る",
+            "見[けん]",
+            "見[み]て",
+            "見[み]た"
+          ],
+          "correctIndex": 1,
+          "explanation": "The purpose-of-movement pattern requires the verb STEM — the form you get by dropping ます. 見[み]る → 見[み]ます → stem: 見[けん]. So 映画[えいが]を見[み]に行[い]く is correct. Dictionary form (見[み]る), te-form (見[み]て), and past form (見[み]た) are all incorrect before purpose に."
+        },
+        {
+          "id": "ni-iku_q11",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'My friend came to Japan to learn Japanese'?",
+          "japanese": null,
+          "choices": [
+            "友達[ともだち]は日本語[にほんご]を学[まな]ぶに日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びで日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にほん]に来[き]ました。",
+            "友達[ともだち]は日本語[にほんご]を学[まな]びに日本[にほん]を来[き]ました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "学[まな]ぶ (to learn) → masu-stem: 学[まな]び → 学[まな]びに来[き]ました (came to learn). に marks the destination after 日本[にほん]. Option 1 incorrectly uses the dictionary form before に. Option 2 uses で (wrong particle for purpose). Option 4 incorrectly uses を instead of に after 日本[にほん] — destinations take に or へ."
+        },
+        {
+          "id": "ni-iku_q12",
+          "type": "usage",
+          "prompt": "Someone says 何[なに]をしに来[き]たんですか to you. What are they asking?",
+          "japanese": "何[なに]をしに来[き]たんですか。",
+          "choices": [
+            "What did you buy?",
+            "Where are you going?",
+            "What did you do here?",
+            "What did you come here to do?"
+          ],
+          "correctIndex": 3,
+          "explanation": "何[なに]をしに来[き]たんですか = 何[なに] (what) + を + し (stem of する) + に (purpose) + 来[き]た (came) + んですか. The pattern verb stem + に + 来[く]る means 'come in order to ,' so this asks: 'What did you come here to do?' It is asking the PURPOSE of someone's arrival."
+        },
+        {
+          "id": "ni-iku_q13",
+          "type": "translation",
+          "prompt": "What does 荷物[にもつ]を取[と]りに帰[かえ]ります mean?",
+          "japanese": "荷物[にもつ]を取[と]りに帰[かえ]ります。",
+          "choices": [
+            "I am going back to get my luggage.",
+            "I got my luggage and came back.",
+            "I will send my luggage home.",
+            "I am returning home with my luggage."
+          ],
+          "correctIndex": 0,
+          "explanation": "取[と]りに帰[かえ]ります = 取[と]り (stem of 取[と]る) + に (purpose) + 帰[かえ]ります (return/go back). に帰[かえ]る means 'return in order to .' 荷物[にもつ]を取[と]りに帰[かえ]る = go back to get the luggage. The key is that 帰[かえ]る works the same way as 行[い]く and 来[く]る in the purpose-of-movement pattern."
+        },
+        {
+          "id": "ni-iku_q14",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 何[なに]___しに来[き]たんですか。(What did you come here to do?)",
+          "japanese": "何[なに]___しに来[き]たんですか。",
+          "choices": [
+            "に",
+            "を",
+            "が",
+            "は"
+          ],
+          "correctIndex": 1,
+          "explanation": "In 何[なに]をしに来[き]たんですか, を marks 何[なに] (what) as the object of する (し = stem of する). The full structure is: 何[なに] (what) + を (object marker) + し (stem of する) + に (purpose) + 来[き]た (came). The を is required because 何[なに] functions as the object of the verb する here."
+        },
+        {
+          "id": "ni-iku_q15",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'Let's go eat sushi'?",
+          "japanese": null,
+          "choices": [
+            "お寿司[すし]を食[た]べるに行[い]きましょう。",
+            "お寿司[すし]を食[た]べてに行[い]きましょう。",
+            "お寿司[すし]を食[た]べに行[い]きましょう。",
+            "お寿司[すし]のに行[い]きましょう。"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べる (to eat) → masu-stem: 食[た]べ → 食[た]べに行[い]く. ましょう adds the 'let's' suggestion. Option 1 incorrectly uses the dictionary form (食[た]べる) before に. Option 2 incorrectly uses the te-form (食[た]べて). Option 4 attaches の to the noun with no verb, which is not the pattern."
+        },
+        {
+          "id": "ni-iku_q16",
+          "type": "usage",
+          "prompt": "In 公園[こうえん]に走[はし]りに行[い]きます, there are two uses of に. What roles do they play?",
+          "japanese": "公園[こうえん]に走[はし]りに行[い]きます。",
+          "choices": [
+            "Both に mark destinations.",
+            "First に = time; second に = purpose.",
+            "Both に mark purpose.",
+            "First に = destination (公園[こうえん]); second に = purpose (走[はし]り+に+行[い]く)."
+          ],
+          "correctIndex": 3,
+          "explanation": "公園[こうえん]に marks the DESTINATION — where you are going (to the park). 走[はし]りに marks the PURPOSE — why you are going (in order to run). 走[はし]り is the masu-stem of 走[はし]る, so 走[はし]りに行[い]く = 'go to run.' This sentence demonstrates that destination に and purpose に can both appear in the same sentence."
+        },
+        {
+          "id": "ni-iku_q17",
+          "type": "translation",
+          "prompt": "Tanaka-san says: 映画[えいが]を見[み]に行[い]かない？ What is she suggesting?",
+          "japanese": "映画[えいが]を見[み]に行[い]かない？",
+          "choices": [
+            "Why don't we go see a movie?",
+            "I didn't go to see a movie.",
+            "Have you seen this movie?",
+            "She is not going to the movies."
+          ],
+          "correctIndex": 0,
+          "explanation": "行[い]かない？ is the casual negative question form used as an invitation, meaning 'Won't you go?' / 'Want to go?' 映画[えいが]を見[み]に (stem 見[けん] + purpose に) = to see a movie. So 映画[えいが]を見[み]に行[い]かない？ = 'Want to go see a movie?' This casual invitation pattern is very common among friends."
+        },
+        {
+          "id": "ni-iku_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 図書館[としょかん]へ本[ほん]を借[か]り___行[い]きます。(I am going to the library to borrow books.)",
+          "japanese": "図書館[としょかん]へ本[ほん]を借[か]り___行[い]きます。",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "が"
+          ],
+          "correctIndex": 1,
+          "explanation": "借[か]りる (to borrow) → masu-stem: 借[か]り → 借[か]りに行[い]く (go to borrow). The purpose particle is に. Note that this sentence has two directional particles: へ after 図書館[としょかん] (destination) and に after 借[か]り (purpose). Both appear naturally in the same sentence."
+        },
+        {
+          "id": "ni-iku_q19",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'My older brother returned home to pick up his umbrella'?",
+          "japanese": null,
+          "choices": [
+            "兄[あに]は傘[かさ]を取[と]るに帰[かえ]りました。",
+            "兄[あに]は傘[かさ]を取[と]ってに帰[かえ]りました。",
+            "兄[あに]は傘[かさ]を取[と]りに帰[かえ]りました。",
+            "兄[あに]は傘[かさ]に取[と]りに帰[かえ]りました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "取[と]る (to get/take) → masu-stem: 取[と]り → 取[と]りに帰[かえ]りました (returned in order to get). に帰[かえ]る works just like に行[い]く and に来[く]る. Option 1 uses the dictionary form (取[と]る) before に. Option 2 uses the te-form (取[と]って). Option 4 incorrectly uses に after 傘[かさ] — 傘[かさ] is the object of 取[と]る, so it takes を."
+        },
+        {
+          "id": "ni-iku_q20",
+          "type": "usage",
+          "prompt": "Which feature tells you that the に in a sentence marks PURPOSE (not destination, time, or location)?",
+          "japanese": null,
+          "choices": [
+            "The に comes after a noun that is a place name.",
+            "The に comes after a time word like 三時[さんじ].",
+            "The に is followed by います or あります.",
+            "The に is preceded by a verb stem (the form before ます)."
+          ],
+          "correctIndex": 3,
+          "explanation": "Purpose に is always preceded by a verb STEM — the form you get by dropping ます (e.g., 食[た]べ, 見[けん], 遊[あそ]び, 取[と]り). If に follows a noun, it likely marks destination, time, or direction. If に follows a verb stem and the sentence ends with 行[い]く/来[く]る/帰[かえ]る, it is the purpose-of-movement に."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch07_v01",
+      "partOfSpeech": "noun",
+      "kanji": "ご飯",
+      "kana": "ごはん",
+      "romaji": "gohan",
+      "definition": "cooked rice; meal"
+    },
+    {
+      "id": "ch07_v02",
+      "partOfSpeech": "noun",
+      "kanji": "パン",
+      "kana": "パン",
+      "romaji": "pan",
+      "definition": "bread"
+    },
+    {
+      "id": "ch07_v03",
+      "partOfSpeech": "noun",
+      "kanji": "肉",
+      "kana": "にく",
+      "romaji": "niku",
+      "definition": "meat"
+    },
+    {
+      "id": "ch07_v04",
+      "partOfSpeech": "noun",
+      "kanji": "魚",
+      "kana": "さかな",
+      "romaji": "sakana",
+      "definition": "fish"
+    },
+    {
+      "id": "ch07_v05",
+      "partOfSpeech": "noun",
+      "kanji": "野菜",
+      "kana": "やさい",
+      "romaji": "yasai",
+      "definition": "vegetable"
+    },
+    {
+      "id": "ch07_v06",
+      "partOfSpeech": "noun",
+      "kanji": "果物",
+      "kana": "くだもの",
+      "romaji": "kudamono",
+      "definition": "fruit"
+    },
+    {
+      "id": "ch07_v07",
+      "partOfSpeech": "noun",
+      "kanji": "卵",
+      "kana": "たまご",
+      "romaji": "tamago",
+      "definition": "egg"
+    },
+    {
+      "id": "ch07_v08",
+      "partOfSpeech": "noun",
+      "kanji": "米",
+      "kana": "こめ",
+      "romaji": "kome",
+      "definition": "(uncooked) rice"
+    },
+    {
+      "id": "ch07_v09",
+      "partOfSpeech": "noun",
+      "kanji": "水",
+      "kana": "みず",
+      "romaji": "mizu",
+      "definition": "water"
+    },
+    {
+      "id": "ch07_v10",
+      "partOfSpeech": "noun",
+      "kanji": "お茶",
+      "kana": "おちゃ",
+      "romaji": "ocha",
+      "definition": "tea"
+    },
+    {
+      "id": "ch07_v11",
+      "partOfSpeech": "noun",
+      "kanji": "コーヒー",
+      "kana": "コーヒー",
+      "romaji": "koohii",
+      "definition": "coffee"
+    },
+    {
+      "id": "ch07_v12",
+      "partOfSpeech": "noun",
+      "kanji": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "definition": "milk"
+    },
+    {
+      "id": "ch07_v13",
+      "partOfSpeech": "noun",
+      "kanji": "ジュース",
+      "kana": "ジュース",
+      "romaji": "juusu",
+      "definition": "juice"
+    },
+    {
+      "id": "ch07_v14",
+      "partOfSpeech": "noun",
+      "kanji": "お酒",
+      "kana": "おさけ",
+      "romaji": "osake",
+      "definition": "alcohol; sake"
+    },
+    {
+      "id": "ch07_v15",
+      "partOfSpeech": "noun",
+      "kanji": "ビール",
+      "kana": "ビール",
+      "romaji": "biiru",
+      "definition": "beer"
+    },
+    {
+      "id": "ch07_v16",
+      "partOfSpeech": "noun",
+      "kanji": "塩",
+      "kana": "しお",
+      "romaji": "shio",
+      "definition": "salt"
+    },
+    {
+      "id": "ch07_v17",
+      "partOfSpeech": "noun",
+      "kanji": "砂糖",
+      "kana": "さとう",
+      "romaji": "satou",
+      "definition": "sugar"
+    },
+    {
+      "id": "ch07_v18",
+      "partOfSpeech": "noun",
+      "kanji": "醤油",
+      "kana": "しょうゆ",
+      "romaji": "shouyu",
+      "definition": "soy sauce"
+    },
+    {
+      "id": "ch07_v19",
+      "partOfSpeech": "noun",
+      "kanji": "味",
+      "kana": "あじ",
+      "romaji": "aji",
+      "definition": "taste; flavor"
+    },
+    {
+      "id": "ch07_v20",
+      "partOfSpeech": "noun",
+      "kanji": "料理",
+      "kana": "りょうり",
+      "romaji": "ryouri",
+      "definition": "cooking; dish"
+    },
+    {
+      "id": "ch07_v21",
+      "partOfSpeech": "noun",
+      "kanji": "朝ご飯",
+      "kana": "あさごはん",
+      "romaji": "asagohan",
+      "definition": "breakfast"
+    },
+    {
+      "id": "ch07_v22",
+      "partOfSpeech": "noun",
+      "kanji": "昼ご飯",
+      "kana": "ひるごはん",
+      "romaji": "hirugohan",
+      "definition": "lunch"
+    },
+    {
+      "id": "ch07_v23",
+      "partOfSpeech": "noun",
+      "kanji": "晩ご飯",
+      "kana": "ばんごはん",
+      "romaji": "bangohan",
+      "definition": "dinner"
+    },
+    {
+      "id": "ch07_v24",
+      "partOfSpeech": "noun",
+      "kanji": "弁当",
+      "kana": "べんとう",
+      "romaji": "bentou",
+      "definition": "boxed lunch"
+    },
+    {
+      "id": "ch07_v25",
+      "partOfSpeech": "noun",
+      "kanji": "りんご",
+      "kana": "りんご",
+      "romaji": "ringo",
+      "definition": "apple"
+    },
+    {
+      "id": "ch07_v26",
+      "partOfSpeech": "noun",
+      "kanji": "みかん",
+      "kana": "みかん",
+      "romaji": "mikan",
+      "definition": "mandarin orange"
+    },
+    {
+      "id": "ch07_v27",
+      "partOfSpeech": "noun",
+      "kanji": "お菓子",
+      "kana": "おかし",
+      "romaji": "okashi",
+      "definition": "sweets; snacks"
+    },
+    {
+      "id": "ch07_v28",
+      "partOfSpeech": "noun",
+      "kanji": "ケーキ",
+      "kana": "ケーキ",
+      "romaji": "keeki",
+      "definition": "cake"
+    },
+    {
+      "id": "ch07_v29",
+      "partOfSpeech": "noun",
+      "kanji": "アイスクリーム",
+      "kana": "アイスクリーム",
+      "romaji": "aisukuriimu",
+      "definition": "ice cream"
+    },
+    {
+      "id": "ch07_v30",
+      "partOfSpeech": "noun",
+      "kanji": "デザート",
+      "kana": "デザート",
+      "romaji": "dezaato",
+      "definition": "dessert"
+    },
+    {
+      "id": "ch07_v31",
+      "partOfSpeech": "noun",
+      "kanji": "箸",
+      "kana": "はし",
+      "romaji": "hashi",
+      "definition": "chopsticks"
+    },
+    {
+      "id": "ch07_v32",
+      "partOfSpeech": "noun",
+      "kanji": "皿",
+      "kana": "さら",
+      "romaji": "sara",
+      "definition": "plate; dish"
+    },
+    {
+      "id": "ch07_v33",
+      "partOfSpeech": "noun",
+      "kanji": "茶碗",
+      "kana": "ちゃわん",
+      "romaji": "chawan",
+      "definition": "rice bowl"
+    },
+    {
+      "id": "ch07_v34",
+      "partOfSpeech": "noun",
+      "kanji": "コップ",
+      "kana": "コップ",
+      "romaji": "koppu",
+      "definition": "cup; glass"
+    },
+    {
+      "id": "ch07_v35",
+      "partOfSpeech": "noun",
+      "kanji": "メニュー",
+      "kana": "メニュー",
+      "romaji": "menyuu",
+      "definition": "menu"
+    },
+    {
+      "id": "ch07_v36",
+      "partOfSpeech": "noun",
+      "kanji": "注文",
+      "kana": "ちゅうもん",
+      "romaji": "chuumon",
+      "definition": "order (at a restaurant)"
+    },
+    {
+      "id": "ch07_v37",
+      "partOfSpeech": "noun",
+      "kanji": "食事",
+      "kana": "しょくじ",
+      "romaji": "shokuji",
+      "definition": "meal"
+    },
+    {
+      "id": "ch07_v38",
+      "partOfSpeech": "i-adjective",
+      "kanji": "甘い",
+      "kana": "あまい",
+      "romaji": "amai",
+      "definition": "sweet"
+    },
+    {
+      "id": "ch07_v39",
+      "partOfSpeech": "i-adjective",
+      "kanji": "辛い",
+      "kana": "からい",
+      "romaji": "karai",
+      "definition": "spicy; hot"
+    },
+    {
+      "id": "ch07_v40",
+      "partOfSpeech": "i-adjective",
+      "kanji": "苦い",
+      "kana": "にがい",
+      "romaji": "nigai",
+      "definition": "bitter"
+    }
+  ],
+  "kanji": [
+    "水",
+    "食"
+  ]
+}

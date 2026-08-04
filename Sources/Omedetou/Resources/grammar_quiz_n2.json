@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "n2_q001",
+    "type": "usage",
+    "prompt": "Gradual parallel change: ‘As time passes, the pain fades.’",
+    "japanese": null,
+    "choices": [
+      "時間[じかん]がたつにつれて、痛[いた]みが消[き]えていく。",
+      "時間[じかん]がたつに際[さい]して、痛[いた]みが消[き]えていく。",
+      "時間[じかん]がたつにあたって、痛[いた]みが消[き]えていく。",
+      "時間[じかん]がたつどころか、痛[いた]みが消[き]えていく。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～につれて links two things changing together gradually. に際して/にあたって mark a formal occasion (‘on the occasion of’), and どころか = ‘far from’ — none express gradual co-change."
+  },
+  {
+    "id": "n2_q002",
+    "type": "usage",
+    "prompt": "‘As the economy develops, lifestyles change too.’ (formal parallel change)",
+    "japanese": null,
+    "choices": [
+      "経済[けいざい]の発展[はってん]とともに、生活[せいかつ]も変[か]わる。",
+      "経済[けいざい]の発展[はってん]のかぎり、生活[せいかつ]も変[か]わる。",
+      "経済[けいざい]の発展[はってん]だけあって、生活[せいかつ]も変[か]わる。",
+      "経済[けいざい]の発展[はってん]にほかならず、生活[せいかつ]も変[か]わる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とともに = ‘along with / as’ (two things changing in tandem, formal). だけあって = ‘as expected of’, かぎり = ‘as long as’ — different relations."
+  },
+  {
+    "id": "n2_q003",
+    "type": "usage",
+    "prompt": "Formal ‘on the occasion of’: ‘On starting a new job, I bought a suit.’",
+    "japanese": null,
+    "choices": [
+      "就職[しゅうしょく]に際[さい]して、スーツを買[か]った。",
+      "就職[しゅうしょく]につれて、スーツを買[か]った。",
+      "就職[しゅうしょく]どころか、スーツを買[か]った。",
+      "就職[しゅうしょく]に反[はん]して、スーツを買[か]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に際して = a formal ‘at the time of / on the occasion of’ a special event. につれて is gradual change; に反して = ‘contrary to’ — neither marks a one-time occasion."
+  },
+  {
+    "id": "n2_q004",
+    "type": "usage",
+    "prompt": "‘Prior to the opening, there was a rehearsal.’ (before, in advance)",
+    "japanese": null,
+    "choices": [
+      "開店[かいてん]に先立[さきだ]って、リハーサルを行[おこな]った。",
+      "開店[かいてん]に際して以来[いらい]、リハーサルを行[おこな]った。",
+      "開店[かいてん]につけ、リハーサルを行[おこな]った。",
+      "開店[かいてん]をめぐって、リハーサルを行[おこな]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に先立って = ‘prior to / in advance of’ an event. をめぐって = ‘concerning (a dispute)’, につけ = ‘whenever/every time’ — wrong nuances."
+  },
+  {
+    "id": "n2_q005",
+    "type": "usage",
+    "prompt": "‘As expected of a pro, his work is flawless.’ (admiration, matching reputation)",
+    "japanese": null,
+    "choices": [
+      "プロだけあって、仕事[しごと]が完璧[かんぺき]だ。",
+      "プロだけに、仕事[しごと]ができない。",
+      "プロどころか、仕事[しごと]が完璧[かんぺき]だ。",
+      "プロにすぎず、仕事[しごと]が完璧[かんぺき]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だけあって = ‘as befits / just as you’d expect from’ (positive, result matches the status). どころか contradicts expectation; にすぎない belittles — opposite tones."
+  },
+  {
+    "id": "n2_q006",
+    "type": "usage",
+    "prompt": "Heightened emotion because of a reason: ‘Because I’d expected so much, I was all the more disappointed.’",
+    "japanese": null,
+    "choices": [
+      "期待[きたい]していただけに、がっかりした。",
+      "期待[きたい]していただけあって、がっかりした。",
+      "期待[きたい]していたどころか、がっかりした。",
+      "期待[きたい]していたにすぎず、がっかりした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だけに = ‘precisely because…, all the more…’, intensifying a natural emotional consequence. だけあって would praise a fitting positive result, which clashes with ‘disappointed’."
+  },
+  {
+    "id": "n2_q007",
+    "type": "usage",
+    "prompt": "Contrary to expectation (even the opposite): ‘Far from being cheap, it was expensive.’",
+    "japanese": null,
+    "choices": [
+      "安[やす]いどころか、高[たか]かった。",
+      "安[やす]いというより、高[たか]かった。",
+      "安[やす]いにすぎず、高[たか]かった。",
+      "安[やす]いといっても、高[たか]かった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～どころか = ‘far from X, in fact the opposite’. というより = ‘rather than (a milder correction)’; どころか is stronger, flipping to the contrary."
+  },
+  {
+    "id": "n2_q008",
+    "type": "usage",
+    "prompt": "No situation for it: ‘I was so busy it was out of the question to rest.’",
+    "japanese": null,
+    "choices": [
+      "忙[いそが]しくて、休[やす]むどころではなかった。",
+      "忙[いそが]しくて、休[やす]むどころか楽[らく]だった。",
+      "忙[いそが]しくて、休[やす]むにすぎなかった。",
+      "忙[いそが]しくて、休[やす]むというものだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～どころではない = ‘this is no time/situation for X’ (impossible given circumstances). It differs from どころか (‘far from…, rather…’), which contrasts two facts."
+  },
+  {
+    "id": "n2_q009",
+    "type": "usage",
+    "prompt": "‘Although I understand the theory, I can’t actually do it.’ (written ‘although’)",
+    "japanese": null,
+    "choices": [
+      "理屈[りくつ]は分[わ]かるものの、実際[じっさい]にはできない。",
+      "理屈[りくつ]は分[わ]かるものだから、実際[じっさい]にはできない。",
+      "理屈[りくつ]は分[わ]かるものなら、実際[じっさい]にはできない。",
+      "理屈[りくつ]は分[わ]かるものを、実際[じっさい]にはできない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものの = a formal ‘although’ (the expected doesn’t follow). ものだから = ‘because’, ものなら = ‘if (you could)’, ものを = regret — different functions."
+  },
+  {
+    "id": "n2_q010",
+    "type": "usage",
+    "prompt": "Concession then correction: ‘Even though we say it’s summer, the mornings are still cold.’",
+    "japanese": null,
+    "choices": [
+      "夏[なつ]とはいえ、朝[あさ]はまだ寒[さむ]い。",
+      "夏[なつ]だけに、朝[あさ]はまだ寒[さむ]い。",
+      "夏[なつ]どころか、朝[あさ]はまだ寒[さむ]い。",
+      "夏[なつ]に際して、朝[あさ]はまだ寒[さむ]い。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とはいえ = ‘although (nominally) X, still Y’ (concede a label, then qualify). だけに intensifies a consequence; neither どころか nor に際して fits this concessive."
+  },
+  {
+    "id": "n2_q011",
+    "type": "usage",
+    "prompt": "Strong ‘in spite of’: ‘In spite of the rain, the event was held.’",
+    "japanese": null,
+    "choices": [
+      "雨[あめ]にもかかわらず、イベントは行[おこな]われた。",
+      "雨[あめ]のおかげで、イベントは行[おこな]われた。",
+      "雨[あめ]に沿[そ]って、イベントは行[おこな]われた。",
+      "雨[あめ]に応[おう]じて、イベントは行[おこな]われた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にもかかわらず = ‘in spite of / despite’. おかげで credits a positive cause; に沿って = ‘along with (a plan)’; に応じて = ‘in response to’ — none are concessive."
+  },
+  {
+    "id": "n2_q012",
+    "type": "usage",
+    "prompt": "Can’t help doing (irresistible feeling): ‘I couldn’t help laughing.’",
+    "japanese": null,
+    "choices": [
+      "笑[わら]わずにはいられなかった。",
+      "笑[わら]わざるを得なかった。",
+      "笑[わら]いかねなかった。",
+      "笑[わら]うどころではなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ずにはいられない = ‘can’t help but (an irrepressible urge)’. ～ざるを得ない = ‘have no choice but (obligation/circumstance)’ — the former is emotional, the latter is forced necessity."
+  },
+  {
+    "id": "n2_q013",
+    "type": "usage",
+    "prompt": "No choice due to circumstances: ‘Since there was a typhoon, we had no choice but to cancel.’",
+    "japanese": null,
+    "choices": [
+      "台風[たいふう]だから、中止[ちゅうし]せざるを得[え]なかった。",
+      "台風[たいふう]だから、中止[ちゅうし]せずにはいられなかった。",
+      "台風[たいふう]だから、中止[ちゅうし]しかねなかった。",
+      "台風[たいふう]だから、中止[ちゅうし]するどころだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ざるを得ない = ‘forced to / no choice but’ (external necessity). ずにはいられない would wrongly imply an emotional urge to cancel rather than an unavoidable decision. Note irregular せざるを得ない."
+  },
+  {
+    "id": "n2_q014",
+    "type": "usage",
+    "prompt": "Polite inability: ‘I’m afraid I can’t agree to that.’",
+    "japanese": null,
+    "choices": [
+      "それには賛成[さんせい]しかねます。",
+      "それには賛成[さんせい]しかねません。",
+      "それには賛成[さんせい]せざるを得ません。",
+      "それには賛成[さんせい]するどころです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かねる = ‘cannot (politely, find it hard to)’. Its lookalike ～かねない means ‘might well (something bad) happen’ — nearly opposite, so don’t swap them."
+  },
+  {
+    "id": "n2_q015",
+    "type": "usage",
+    "prompt": "Warning of a bad possibility: ‘Careless driving could well cause an accident.’",
+    "japanese": null,
+    "choices": [
+      "不注意[ふちゅうい]な運転[うんてん]は事故[じこ]を起[お]こしかねない。",
+      "不注意[ふちゅうい]な運転[うんてん]は事故[じこ]を起[お]こしかねる。",
+      "不注意[ふちゅうい]な運転[うんてん]は事故[じこ]を起[お]こすどころだ。",
+      "不注意[ふちゅうい]な運転[うんてん]は事故[じこ]を起[お]こすまい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かねない = ‘might well / could end up (bad outcome)’. ～かねる = ‘cannot’ — so 起こしかねる would wrongly mean ‘cannot cause’, the reverse of the warning."
+  },
+  {
+    "id": "n2_q016",
+    "type": "usage",
+    "prompt": "‘Such a thing could happen (is possible).’",
+    "japanese": null,
+    "choices": [
+      "そんなことも起[お]こり得[う]る。",
+      "そんなことも起[お]こり得[う]ない、とは限らない、とも言えない。",
+      "そんなことも起[お]こりかねる。",
+      "そんなことも起[お]こるどころだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + 得る = ‘can/could (possibly) happen’ (theoretical possibility). Its negative 得ない = ‘cannot possibly’. かねる (‘cannot, politely’) doesn’t express theoretical possibility."
+  },
+  {
+    "id": "n2_q017",
+    "type": "usage",
+    "prompt": "Overwhelming feeling: ‘I’m dying to see the results.’",
+    "japanese": null,
+    "choices": [
+      "結果[けっか]が知[し]りたくてたまらない。",
+      "結果[けっか]が知[し]りたくてはならない。",
+      "結果[けっか]が知[し]りたいどころではない。",
+      "結果[けっか]が知[し]りたいかねない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てたまらない = ‘unbearably / can’t stand how much…’ (strong physical/emotional feeling). ～てはならない means ‘must not’ — a prohibition, totally different."
+  },
+  {
+    "id": "n2_q018",
+    "type": "usage",
+    "prompt": "Realization only after an experience: ‘Only after getting sick did I realize how precious health is.’",
+    "japanese": null,
+    "choices": [
+      "病気[びょうき]になってはじめて、健康[けんこう]のありがたさが分[わ]かった。",
+      "病気[びょうき]になるにあたって、健康[けんこう]のありがたさが分[わ]かった。",
+      "病気[びょうき]になるどころか、健康[けんこう]のありがたさが分[わ]かった。",
+      "病気[びょうき]になりつつ、健康[けんこう]のありがたさが分[わ]かった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てはじめて = ‘not until / only after doing X (did Y become clear)’. にあたって is a formal ‘on the occasion of’, and どころか contradicts — neither gives the ‘only after’ realization."
+  },
+  {
+    "id": "n2_q019",
+    "type": "usage",
+    "prompt": "Two opposite sides of the SAME thing: ‘This job pays well but, on the flip side, is demanding.’",
+    "japanese": null,
+    "choices": [
+      "この仕事[しごと]は給料[きゅうりょう]がいい反面[はんめん]、きつい。",
+      "この仕事[しごと]は給料[きゅうりょう]がいいついでに、きつい。",
+      "この仕事[しごと]は給料[きゅうりょう]がいいからには、きつい。",
+      "この仕事[しごと]は給料[きゅうりょう]がいいあまり、きつい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～反面 = ‘on the other hand / while’ contrasting two coexisting aspects of one thing. からには = ‘now that’, のあまり = ‘so much that’ — not contrastive."
+  },
+  {
+    "id": "n2_q020",
+    "type": "usage",
+    "prompt": "‘Depending on the weather, we might cancel.’ (outcome hinges on X)",
+    "japanese": null,
+    "choices": [
+      "天気[てんき]次第[しだい]で、中止[ちゅうし]になるかもしれない。",
+      "天気[てんき]次第[しだい]、中止[ちゅうし]になった。",
+      "天気[てんき]に先立って、中止[ちゅうし]になるかもしれない。",
+      "天気[てんき]をめぐって、中止[ちゅうし]になるかもしれない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "N + 次第で(は) = ‘depending on N (the result varies)’. This differs from the verb-stem + 次第 (‘as soon as’). Here 天気次第で = ‘depending on the weather’."
+  },
+  {
+    "id": "n2_q021",
+    "type": "usage",
+    "prompt": "Final outcome after much effort: ‘After thinking hard, I decided to study abroad.’",
+    "japanese": null,
+    "choices": [
+      "よく考[かんが]えた末[すえ]に、留学[りゅうがく]を決[き]めた。",
+      "よく考[かんが]えたあげく、留学[りゅうがく]を決[き]めた。",
+      "よく考[かんが]えたばかりに、留学[りゅうがく]を決[き]めた。",
+      "よく考[かんが]えたところで、留学[りゅうがく]を決[き]めた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～た末に = ‘after (a long process), finally…’, neutral about the result. あげく usually leads to a NEGATIVE/regrettable outcome, so it’s a poorer fit for a considered decision."
+  },
+  {
+    "id": "n2_q022",
+    "type": "usage",
+    "prompt": "Bad outcome after a drawn-out process: ‘After arguing for hours, they broke up.’",
+    "japanese": null,
+    "choices": [
+      "何時間[なんじかん]もけんかしたあげく、別[わか]れた。",
+      "何時間[なんじかん]もけんかした末に成功[せいこう]した。",
+      "何時間[なんじかん]もけんかしたおかげで、別[わか]れた。",
+      "何時間[なんじかん]もけんかしただけあって、別[わか]れた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～あげく(に) = ‘after all that…, (ended up badly)’. It carries a negative result. おかげで credits a positive cause, and だけあって praises — wrong tones for a breakup."
+  },
+  {
+    "id": "n2_q023",
+    "type": "usage",
+    "prompt": "Means/medium: ‘I learned about it through the news.’",
+    "japanese": null,
+    "choices": [
+      "ニュースを通[つう]じて、その事件[じけん]を知[し]った。",
+      "ニュースに際して、その事件[じけん]を知[し]った。",
+      "ニュースにあたって、その事件[じけん]を知[し]った。",
+      "ニュースをめぐって、その事件[じけん]を知[し]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を通じて = ‘through / via (a medium)’ or ‘throughout (a period)’. をめぐって = ‘concerning (a dispute)’, に際して/にあたって mark occasions — not a medium."
+  },
+  {
+    "id": "n2_q024",
+    "type": "usage",
+    "prompt": "‘Now that I’ve promised, I must keep it.’ (given X, naturally Y)",
+    "japanese": null,
+    "choices": [
+      "約束[やくそく]したからには、守[まも]らなければならない。",
+      "約束[やくそく]したついでに、守[まも]らなければならない。",
+      "約束[やくそく]したところで、守[まも]らなければならない。",
+      "約束[やくそく]したばかりに、守[まも]らなければならない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～からには = ‘now that / since (X is so, one naturally must Y)’, pairing with obligation/determination. ついでに/ところで/ばかりに express ‘while at it/even if/because of’ — different logic."
+  },
+  {
+    "id": "n2_q025",
+    "type": "usage",
+    "prompt": "Vary in response to: ‘Bonuses change according to performance.’",
+    "japanese": null,
+    "choices": [
+      "成績[せいせき]に応[おう]じて、ボーナスが変[か]わる。",
+      "成績[せいせき]に基[もと]づいて、ボーナスが変[か]わる。",
+      "成績[せいせき]に沿って、ボーナスが変[か]わる。",
+      "成績[せいせき]に伴って、ボーナスが変[か]わる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に応じて = ‘in accordance with / depending on (it flexibly varies)’. に基づいて = ‘based on (a fixed foundation)’, に沿って = ‘along (a guideline)’ — here the flexible variation is に応じて."
+  },
+  {
+    "id": "n2_q026",
+    "type": "usage",
+    "prompt": "Based on a foundation: ‘Decisions are made based on the data.’",
+    "japanese": null,
+    "choices": [
+      "データに基[もと]づいて、決定[けってい]する。",
+      "データに応[おう]じて、決定[けってい]する。",
+      "データに反[はん]して、決定[けってい]する。",
+      "データにかけて、決定[けってい]する。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に基づいて = ‘based on / on the basis of (a fixed source)’. に応じて implies flexible variation; に反して = ‘contrary to’ — the ‘grounded in data’ meaning is に基づいて."
+  },
+  {
+    "id": "n2_q027",
+    "type": "usage",
+    "prompt": "Following a guideline: ‘Please proceed along the manual.’",
+    "japanese": null,
+    "choices": [
+      "マニュアルに沿[そ]って、進[すす]めてください。",
+      "マニュアルに応じて、進[すす]めてください。",
+      "マニュアルに際して、進[すす]めてください。",
+      "マニュアルをめぐって、進[すす]めてください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に沿って = ‘in line with / following (a plan, guideline, or shape)’. に応じて = ‘depending on’, に際して = ‘on the occasion of’ — only 沿って means ‘follow along’."
+  },
+  {
+    "id": "n2_q028",
+    "type": "usage",
+    "prompt": "Not limited to: ‘Not only children but adults enjoy it.’",
+    "japanese": null,
+    "choices": [
+      "子供[こども]に限[かぎ]らず、大人[おとな]も楽[たの]しめる。",
+      "子供[こども]に限[かぎ]って、大人[おとな]も楽[たの]しめる。",
+      "子供[こども]に限[かぎ]り、大人[おとな]も楽[たの]しめる。",
+      "子供[こども]に応じて、大人[おとな]も楽[たの]しめる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に限らず = ‘not limited to / not only’. に限って = ‘of all…(precisely when)’, に限り = ‘only/limited to’ — nearly the opposite scope."
+  },
+  {
+    "id": "n2_q029",
+    "type": "usage",
+    "prompt": "Ironic ‘of all times/people’: ‘Of all days, it rained on the day of the picnic.’",
+    "japanese": null,
+    "choices": [
+      "遠足[えんそく]の日[ひ]に限[かぎ]って、雨[あめ]が降[ふ]った。",
+      "遠足[えんそく]の日[ひ]に限[かぎ]らず、雨[あめ]が降[ふ]った。",
+      "遠足[えんそく]の日[ひ]に応じて、雨[あめ]が降[ふ]った。",
+      "遠足[えんそく]の日[ひ]に沿って、雨[あめ]が降[ふ]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に限って = ‘(ironically) precisely on/for this one…’, expressing that bad luck struck exactly then. に限らず means ‘not only’ — the reverse scope."
+  },
+  {
+    "id": "n2_q030",
+    "type": "usage",
+    "prompt": "‘After (upon) discussing with family, I’ll decide.’ (do B after basing on A)",
+    "japanese": null,
+    "choices": [
+      "家族[かぞく]と相談[そうだん]した上[うえ]で、決[き]めます。",
+      "家族[かぞく]と相談[そうだん]した上[うえ]は、決[き]めます。",
+      "家族[かぞく]と相談[そうだん]した上[うえ]に、決[き]めます。",
+      "家族[かぞく]と相談[そうだん]したあまり、決[き]めます。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～た上で = ‘after / upon doing X (then Y, using X as a basis)’. 上は = ‘now that (resolve)’, 上に = ‘on top of / in addition’ — distinct meanings of 上."
+  },
+  {
+    "id": "n2_q031",
+    "type": "usage",
+    "prompt": "Adding a second quality: ‘This place is convenient, and on top of that, cheap.’",
+    "japanese": null,
+    "choices": [
+      "ここは便利[べんり]な上[うえ]に、安[やす]い。",
+      "ここは便利[べんり]な上[うえ]で、安[やす]い。",
+      "ここは便利[べんり]な上[うえ]は、安[やす]い。",
+      "ここは便利[べんり]などころか、安[やす]い。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～上に = ‘in addition / on top of that’ (piling on a similar point). 上で = ‘after/basis’, 上は = ‘now that’ — only 上に adds another feature."
+  },
+  {
+    "id": "n2_q032",
+    "type": "usage",
+    "prompt": "Emphatic reason: ‘It’s precisely because you worked hard that you succeeded.’",
+    "japanese": null,
+    "choices": [
+      "努力[どりょく]したからこそ、成功[せいこう]したのだ。",
+      "努力[どりょく]したからには、成功[せいこう]したのだ。",
+      "努力[どりょく]したあまり、成功[せいこう]したのだ。",
+      "努力[どりょく]したかぎり、成功[せいこう]したのだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～からこそ = ‘precisely because…’ (emphatic, positive reason). からには = ‘now that (so one must)’; のあまり = ‘so much that’ — neither emphasizes ‘it is exactly this reason’."
+  },
+  {
+    "id": "n2_q033",
+    "type": "usage",
+    "prompt": "Rephrasing more accurately: ‘He’s not so much kind as indifferent.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は優[やさ]しいというより、無関心[むかんしん]だ。",
+      "彼[かれ]は優[やさ]しいどころか、無関心[むかんしん]だ。",
+      "彼[かれ]は優[やさ]しいからこそ、無関心[むかんしん]だ。",
+      "彼[かれ]は優[やさ]しいにすぎず、無関心[むかんしん]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～というより = ‘rather than / more accurately’ (a gentle re-labeling). どころか is a stronger ‘far from’; here the speaker is fine-tuning the description, so というより."
+  },
+  {
+    "id": "n2_q034",
+    "type": "usage",
+    "prompt": "Belittling: ‘It’s nothing more than an excuse.’",
+    "japanese": null,
+    "choices": [
+      "それは言[い]い訳[わけ]にすぎない。",
+      "それは言[い]い訳[わけ]にほかならない。",
+      "それは言[い]い訳[わけ]どころではない。",
+      "それは言[い]い訳[わけ]に限る。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にすぎない = ‘is nothing more than / merely’. にほかならない = ‘is nothing but / precisely is’ (emphatic identification) — a subtle but opposite emphasis (dismissive vs affirming)."
+  },
+  {
+    "id": "n2_q035",
+    "type": "usage",
+    "prompt": "Emphatic identification: ‘Success is nothing but the result of effort.’",
+    "japanese": null,
+    "choices": [
+      "成功[せいこう]は努力[どりょく]の結果[けっか]にほかならない。",
+      "成功[せいこう]は努力[どりょく]の結果[けっか]にすぎない。",
+      "成功[せいこう]は努力[どりょく]の結果[けっか]どころではない。",
+      "成功[せいこう]は努力[どりょく]の結果[けっか]に限る。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にほかならない = ‘is nothing other than / is precisely’ (strong affirmation). にすぎない would belittle it (‘merely’), the wrong nuance for praising effort."
+  },
+  {
+    "id": "n2_q036",
+    "type": "usage",
+    "prompt": "Neutral cause, formal: ‘Owing to the construction, the road is closed.’",
+    "japanese": null,
+    "choices": [
+      "工事[こうじ]のため、道[みち]が通[とお]れない。",
+      "工事[こうじ]のおかげで、道[みち]が通[とお]れない。",
+      "工事[こうじ]のあまり、道[みち]が通[とお]れない。",
+      "工事[こうじ]のからには、道[みち]が通[とお]れない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "のため (formal, neutral cause) fits an objective ‘owing to’. おかげで adds positive credit (odd for a blocked road), and のあまり needs an emotion noun."
+  },
+  {
+    "id": "n2_q037",
+    "type": "usage",
+    "prompt": "‘Whenever I hear this song, I recall those days.’ (each occasion triggers emotion)",
+    "japanese": null,
+    "choices": [
+      "この歌[うた]を聞[き]くにつけ、あのころを思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くにあたって、あのころを思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くに際して、あのころを思[おも]い出[だ]す。",
+      "この歌[うた]を聞[き]くにおいて、あのころを思[おも]い出[だ]す。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～につけ = ‘every time / whenever (X, an emotion arises)’. にあたって/に際して mark a single formal occasion, not a recurring emotional trigger."
+  },
+  {
+    "id": "n2_q038",
+    "type": "usage",
+    "prompt": "Speaker’s emotion up front: ‘To my surprise, he passed.’",
+    "japanese": null,
+    "choices": [
+      "驚[おどろ]いたことに、彼[かれ]は合格[ごうかく]した。",
+      "驚[おどろ]いたことで、彼[かれ]は合格[ごうかく]した。",
+      "驚[おどろ]いたことから、彼[かれ]は合格[ごうかく]した。",
+      "驚[おどろ]いたことなく、彼[かれ]は合格[ごうかく]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことに = ‘to one’s (emotion)…’, fronting the speaker’s feeling about the news. ことで = ‘by means of’, ことから = ‘judging from’ — different logical roles."
+  },
+  {
+    "id": "n2_q039",
+    "type": "usage",
+    "prompt": "Strong negative resolve: ‘I’ll never smoke again.’",
+    "japanese": null,
+    "choices": [
+      "二度[にど]とたばこは吸[す]うまい。",
+      "二度[にど]とたばこは吸[す]うまいか。",
+      "二度[にど]とたばこは吸[す]いかねる。",
+      "二度[にど]とたばこは吸[す]うどころだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～まい = negative volition (‘won’t / won’t let myself’) or negative guess (‘probably not’). Here it’s firm resolve. かねる (‘cannot, politely’) doesn’t express resolve."
+  },
+  {
+    "id": "n2_q040",
+    "type": "usage",
+    "prompt": "‘If I could (somehow) go back to the past, I would.’ (hypothetical wish)",
+    "japanese": null,
+    "choices": [
+      "過去[かこ]に戻[もど]れるものなら、戻[もど]りたい。",
+      "過去[かこ]に戻[もど]れるものの、戻[もど]りたい。",
+      "過去[かこ]に戻[もど]れるものだから、戻[もど]りたい。",
+      "過去[かこ]に戻[もど]れるものを、戻[もど]りたい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "(可能形)＋ものなら = ‘if it were possible to…(but it’s hard)’. ものの = ‘although’, ものだから = ‘because’, ものを = regret — only ものなら sets the wistful hypothetical."
+  },
+  {
+    "id": "n2_q041",
+    "type": "usage",
+    "prompt": "‘Not only is it cheap, it’s also delicious.’",
+    "japanese": null,
+    "choices": [
+      "安[やす]いばかりでなく、おいしい。",
+      "安[やす]いばかりに、おいしい。",
+      "安[やす]いばかりで、おいしい。",
+      "安[やす]いばかりか安[やす]い。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ばかりでなく = ‘not only… but also’ (adds a further point). ～ばかりに = ‘just because…(bad result)’, a completely different structure despite sharing ばかり."
+  },
+  {
+    "id": "n2_q042",
+    "type": "usage",
+    "prompt": "Regardless of: ‘Anyone can apply, regardless of age.’",
+    "japanese": null,
+    "choices": [
+      "年齢[ねんれい]を問[と]わず、誰[だれ]でも応募[おうぼ]できる。",
+      "年齢[ねんれい]に限って、誰[だれ]でも応募[おうぼ]できる。",
+      "年齢[ねんれい]に応じて、誰[だれ]でも応募[おうぼ]できる。",
+      "年齢[ねんれい]に沿って、誰[だれ]でも応募[おうぼ]できる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を問わず = ‘regardless of / irrespective of’. に限って narrows to one case, に応じて/に沿って mean ‘depending on/along with’ — the opposite of ‘regardless’."
+  },
+  {
+    "id": "n2_q043",
+    "type": "usage",
+    "prompt": "‘Such a mistake is unthinkable (cannot possibly occur).’",
+    "japanese": null,
+    "choices": [
+      "そんなミスはあり得[え]ない。",
+      "そんなミスはありかねない。",
+      "そんなミスはありがちだ。",
+      "そんなミスはあり次第[しだい]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "あり得ない = ‘cannot possibly be / unthinkable’. ありかねない = ‘might well happen’ (the opposite!), and ありがち = ‘common’ — so 得ない is the only ‘impossible’."
+  },
+  {
+    "id": "n2_q044",
+    "type": "usage",
+    "prompt": "‘Just because it’s expensive doesn’t mean it’s good.’",
+    "japanese": null,
+    "choices": [
+      "高[たか]いからといって、いいとは限[かぎ]らない。",
+      "高[たか]いからには、いいとは限[かぎ]らない。",
+      "高[たか]いからこそ、いいとは限[かぎ]らない。",
+      "高[たか]いあまり、いいとは限[かぎ]らない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～からといって…とは限らない = ‘just because…doesn’t necessarily mean…’. からには (‘now that’) and からこそ (‘precisely because’) affirm the reason, not deny its conclusion."
+  },
+  {
+    "id": "n2_q045",
+    "type": "usage",
+    "prompt": "Formal field/domain: ‘In the field of medicine, this discovery is significant.’",
+    "japanese": null,
+    "choices": [
+      "医学[いがく]において、この発見[はっけん]は重要[じゅうよう]だ。",
+      "医学[いがく]にとって、この発見[はっけん]をした。",
+      "医学[いがく]に際して、この発見[はっけん]は重要[じゅうよう]だ。",
+      "医学[いがく]につけ、この発見[はっけん]は重要[じゅうよう]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～において = a formal ‘in (a field/place/time)’. にとって = ‘for (a viewpoint)’, に際して = ‘on the occasion of’ — here the domain ‘in medicine’ is において."
+  },
+  {
+    "id": "n2_q046",
+    "type": "usage",
+    "prompt": "Excess causing a result: ‘I was so nervous I forgot my lines.’",
+    "japanese": null,
+    "choices": [
+      "緊張[きんちょう]のあまり、せりふを忘[わす]れた。",
+      "緊張[きんちょう]のかぎり、せりふを忘[わす]れた。",
+      "緊張[きんちょう]のうえで、せりふを忘[わす]れた。",
+      "緊張[きんちょう]のもとで、せりふを忘[わす]れた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のあまり = ‘out of too much (emotion), …(extreme result)’. のうえで = ‘after/basis’, のもとで = ‘under (supervision)’ — neither expresses ‘from excess of emotion’."
+  },
+  {
+    "id": "n2_q047",
+    "type": "usage",
+    "prompt": "Personal excuse: ‘Because the baby was crying, I couldn’t concentrate.’",
+    "japanese": null,
+    "choices": [
+      "赤[あか]ちゃんが泣[な]いていたもので、集中[しゅうちゅう]できなかった。",
+      "赤[あか]ちゃんが泣[な]いていたことだから、集中[しゅうちゅう]できなかった。",
+      "赤[あか]ちゃんが泣[な]いていたものの、集中[しゅうちゅう]できなかった。",
+      "赤[あか]ちゃんが泣[な]いていたものなら、集中[しゅうちゅう]できなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～もので = a softening ‘because’ (like ものだから) for an excuse. ものの = ‘although’ (contrast), ものなら = ‘if possible’ — wrong logic for an explanation."
+  },
+  {
+    "id": "n2_q048",
+    "type": "usage",
+    "prompt": "‘I knitted a scarf with love (putting feeling into it).’",
+    "japanese": null,
+    "choices": [
+      "愛[あい]を込[こ]めて、マフラーを編[あ]んだ。",
+      "愛[あい]にこたえて、マフラーを編[あ]んだ。",
+      "愛[あい]をめぐって、マフラーを編[あ]んだ。",
+      "愛[あい]に沿って、マフラーを編[あ]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を込めて = ‘with (feeling) put into it’ (love, gratitude). にこたえて = ‘in response to’, をめぐって = ‘concerning (a dispute)’ — none mean ‘infused with emotion’."
+  },
+  {
+    "id": "n2_q049",
+    "type": "usage",
+    "prompt": "‘In response to the fans’ expectations, he made a comeback.’",
+    "japanese": null,
+    "choices": [
+      "ファンの期待[きたい]に応[こた]えて、復帰[ふっき]した。",
+      "ファンの期待[きたい]を込めて、復帰[ふっき]した。",
+      "ファンの期待[きたい]に反して、復帰[ふっき]した。",
+      "ファンの期待[きたい]を問わず、復帰[ふっき]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に応えて = ‘in response to / living up to (expectations, a request)’. に反して = ‘contrary to’, を問わず = ‘regardless of’ — opposite or unrelated relations."
+  },
+  {
+    "id": "n2_q050",
+    "type": "usage",
+    "prompt": "‘Contrary to expectations, sales dropped.’",
+    "japanese": null,
+    "choices": [
+      "予想[よそう]に反[はん]して、売[う]り上[あ]げが落[お]ちた。",
+      "予想[よそう]に応えて、売[う]り上[あ]げが落[お]ちた。",
+      "予想[よそう]に基づいて、売[う]り上[あ]げが落[お]ちた。",
+      "予想[よそう]に沿って、売[う]り上[あ]げが落[お]ちた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に反して = ‘contrary to / against (expectations)’. に応えて = ‘meeting’, に基づいて = ‘based on’, に沿って = ‘along with’ — all agree with X, unlike 反して."
+  },
+  {
+    "id": "n2_q051",
+    "type": "usage",
+    "prompt": "Casual strong denial: ‘There’s no way I can do something so hard.’",
+    "japanese": null,
+    "choices": [
+      "そんな難[むずか]しいこと、できっこない。",
+      "そんな難[むずか]しいこと、できかねない。",
+      "そんな難[むずか]しいこと、できがちだ。",
+      "そんな難[むずか]しいこと、できるどころだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～っこない = a colloquial ‘there’s no way / definitely won’t’. できかねない would mean ‘might well be able’ (opposite), and がち = ‘tend to’."
+  },
+  {
+    "id": "n2_q052",
+    "type": "usage",
+    "prompt": "‘Things went exactly as planned.’",
+    "japanese": null,
+    "choices": [
+      "計画[けいかく]どおりに進[すす]んだ。",
+      "計画[けいかく]のあまり進[すす]んだ。",
+      "計画[けいかく]に反して進[すす]んだ。",
+      "計画[けいかく]を問わず進[すす]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～どおり(に) = ‘exactly as / in accordance with (a plan)’. に反して = ‘contrary to’ (opposite), を問わず = ‘regardless of’ — neither means ‘as planned’."
+  },
+  {
+    "id": "n2_q053",
+    "type": "usage",
+    "prompt": "Concessive: ‘Though poor, they lived happily.’",
+    "japanese": null,
+    "choices": [
+      "貧[まず]しいながらも、幸[しあわ]せに暮[く]らした。",
+      "貧[まず]しいあまり、幸[しあわ]せに暮[く]らした。",
+      "貧[まず]しいだけに、幸[しあわ]せに暮[く]らした。",
+      "貧[まず]しいとおり、幸[しあわ]せに暮[く]らした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ながらも = ‘though / even while (X, still Y)’. のあまり = ‘so much that’, だけに = ‘precisely because’ — neither creates this ‘despite’ contrast."
+  },
+  {
+    "id": "n2_q054",
+    "type": "usage",
+    "prompt": "‘Although it’s a small company, its technology is top-class.’",
+    "japanese": null,
+    "choices": [
+      "小[ちい]さい会社[かいしゃ]とはいえ、技術[ぎじゅつ]は一流[いちりゅう]だ。",
+      "小[ちい]さい会社[かいしゃ]だけあって、技術[ぎじゅつ]は一流[いちりゅう]だ。",
+      "小[ちい]さい会社[かいしゃ]どころか、技術[ぎじゅつ]は一流[いちりゅう]だ。",
+      "小[ちい]さい会社[かいしゃ]次第で、技術[ぎじゅつ]は一流[いちりゅう]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "とはいえ = ‘although / that said’ (concede then contrast). だけあって would praise a result that FITS the status, but ‘small yet top-class’ is a contrast, so とはいえ."
+  },
+  {
+    "id": "n2_q055",
+    "type": "usage",
+    "prompt": "Turning point: ‘I quit smoking, using my illness as the trigger.’",
+    "japanese": null,
+    "choices": [
+      "病気[びょうき]をきっかけに、たばこをやめた。",
+      "病気[びょうき]を問わず、たばこをやめた。",
+      "病気[びょうき]に反して、たばこをやめた。",
+      "病気[びょうき]に応えて、たばこをやめた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～をきっかけに = ‘triggered by / taking X as an opportunity’. を問わず = ‘regardless of’, に反して = ‘contrary to’ — neither marks a trigger/turning point."
+  },
+  {
+    "id": "n2_q056",
+    "type": "usage",
+    "prompt": "‘He has enough ability to do this job.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]にはこの仕事[しごと]をするだけの能力[のうりょく]がある。",
+      "彼[かれ]にはこの仕事[しごと]をするだけに能力[のうりょく]がある。",
+      "彼[かれ]にはこの仕事[しごと]をするだけあって能力[のうりょく]がある。",
+      "彼[かれ]にはこの仕事[しごと]をするどころか能力[のうりょく]がある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だけの + noun = ‘enough … to’ (sufficient amount for something). だけに/だけあって express ‘precisely because/as expected’, not ‘enough to’."
+  },
+  {
+    "id": "n2_q057",
+    "type": "usage",
+    "prompt": "Under someone’s guidance: ‘I studied under Professor Tanaka.’",
+    "japanese": null,
+    "choices": [
+      "田中[たなか]先生[せんせい]のもとで学[まな]んだ。",
+      "田中[たなか]先生[せんせい]のあまり学[まな]んだ。",
+      "田中[たなか]先生[せんせい]のうえで学[まな]んだ。",
+      "田中[たなか]先生[せんせい]のわりに学[まな]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のもとで = ‘under (the guidance/supervision of)’. のうえで = ‘after/on the basis of’, のわりに = ‘considering’ — none mean ‘under someone’s tutelage’."
+  },
+  {
+    "id": "n2_q058",
+    "type": "usage",
+    "prompt": "‘As you go up the mountain, the air gets thinner.’",
+    "japanese": null,
+    "choices": [
+      "山[やま]を登[のぼ]るにしたがって、空気[くうき]が薄[うす]くなる。",
+      "山[やま]を登[のぼ]るにあたって、空気[くうき]が薄[うす]くなる。",
+      "山[やま]を登[のぼ]るからには、空気[くうき]が薄[うす]くなる。",
+      "山[やま]を登[のぼ]るどころか、空気[くうき]が薄[うす]くなる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にしたがって = ‘as / in proportion as (X progresses, Y changes)’, like につれて. にあたって marks a formal occasion; からには = ‘now that’ — not gradual change."
+  },
+  {
+    "id": "n2_q059",
+    "type": "usage",
+    "prompt": "‘Needless to say the food, even the service was great.’",
+    "japanese": null,
+    "choices": [
+      "料理[りょうり]はもちろん、サービスもよかった。",
+      "料理[りょうり]はもとより料理[りょうり]もよかった。",
+      "料理[りょうり]に限って、サービスもよかった。",
+      "料理[りょうり]どころか、サービスもよかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～はもちろん = ‘not to mention / of course X, and also Y’. に限って = ‘precisely (ironically)’, どころか = ‘far from’ — neither adds ‘as well as’."
+  },
+  {
+    "id": "n2_q060",
+    "type": "usage",
+    "prompt": "Formal ‘without’: ‘You can’t succeed without effort.’",
+    "japanese": null,
+    "choices": [
+      "努力[どりょく]することなしに、成功[せいこう]はできない。",
+      "努力[どりょく]することのないで、成功[せいこう]はできない。",
+      "努力[どりょく]することなくても、成功[せいこう]はできない。",
+      "努力[どりょく]することないと、成功[せいこう]はできない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ことなしに = a formal ‘without doing…(cannot)’. The other constructions are ungrammatical variants; ことなしに is the fixed literary form."
+  },
+  {
+    "id": "n2_q061",
+    "type": "usage",
+    "prompt": "‘The moment the bell rang, the students ran out.’ (formal, immediate)",
+    "japanese": null,
+    "choices": [
+      "ベルが鳴[な]るや否[いな]や、学生[がくせい]たちは飛[と]び出[だ]した。",
+      "ベルが鳴[な]るにつれて、学生[がくせい]たちは飛[と]び出[だ]した。",
+      "ベルが鳴[な]るからには、学生[がくせい]たちは飛[と]び出[だ]した。",
+      "ベルが鳴[な]るあまり、学生[がくせい]たちは飛[と]び出[だ]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～や否や = a literary ‘the instant that…’ (immediate sequence). につれて is gradual, からには = ‘now that’, のあまり = ‘from excess’ — none mark an instant trigger."
+  },
+  {
+    "id": "n2_q062",
+    "type": "usage",
+    "prompt": "‘Everyone came except Tanaka.’",
+    "japanese": null,
+    "choices": [
+      "田中[たなか]さんを除[のぞ]いて、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんに限って、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんを問わず、全員[ぜんいん]来[き]た。",
+      "田中[たなか]さんに応じて、全員[ぜんいん]来[き]た。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を除いて = ‘except for / excluding’. を問わず = ‘regardless of’, に限って = ‘precisely’, に応じて = ‘depending on’ — only 除いて excludes."
+  },
+  {
+    "id": "n2_q063",
+    "type": "usage",
+    "prompt": "‘At least it didn’t rain — that’s something to be grateful for.’",
+    "japanese": null,
+    "choices": [
+      "雨[あめ]が降[ふ]らなかっただけましだ。",
+      "雨[あめ]が降[ふ]らなかっただけに、ましだ。",
+      "雨[あめ]が降[ふ]らなかったどころか、ましだ。",
+      "雨[あめ]が降[ふ]らなかったあまり、ましだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だけましだ = ‘at least…(it could be worse, so be glad)’. だけに = ‘precisely because’, どころか = ‘far from’ — neither gives the ‘at least, thankfully’ nuance."
+  },
+  {
+    "id": "n2_q064",
+    "type": "usage",
+    "prompt": "‘Judging even from his attitude, he’s clearly guilty.’ (from just one telling point)",
+    "japanese": null,
+    "choices": [
+      "態度[たいど]からして、明[あき]らかに怪[あや]しい。",
+      "態度[たいど]にして、明[あき]らかに怪[あや]しい。",
+      "態度[たいど]をもって、明[あき]らかに怪[あや]しい。",
+      "態度[たいど]にあたって、明[あき]らかに怪[あや]しい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～からして = ‘judging from even (just) X’ (one representative basis pointing to a conclusion). をもって = ‘by means of/as of’, にあたって = ‘on the occasion of’ — not this."
+  },
+  {
+    "id": "n2_q065",
+    "type": "usage",
+    "prompt": "Converting/explaining: ‘It’s noon in Japan, so it’s 3 a.m. in London, then.’",
+    "japanese": null,
+    "choices": [
+      "日本[にほん]が昼[ひる]なら、ロンドンは午前[ごぜん]三時[さんじ]というわけだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というものだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というところだ。",
+      "ロンドンは午前[ごぜん]三時[さんじ]というものか。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～というわけだ = ‘which means / that amounts to’ (drawing a logical conversion). ものだ (general truth) and ものか (defiance) don’t express this ‘so it works out that…’ calculation."
+  },
+  {
+    "id": "n2_q066",
+    "type": "usage",
+    "prompt": "Formal explanation of circumstances: ‘…and that is how it came to this.’",
+    "japanese": null,
+    "choices": [
+      "こういう次第[しだい]です。",
+      "こういうものだです。",
+      "こういうどころです。",
+      "こういうあまりです。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～次第です (noun-modifying) = ‘such are the circumstances / that’s how it is’ in formal explanation. This 次第 differs from ‘as soon as’ (stem+次第) and ‘depending on’ (N+次第で)."
+  },
+  {
+    "id": "n2_q067",
+    "type": "usage",
+    "prompt": "‘It’s true he’s young, but he’s very reliable.’ (concede a point, then counter)",
+    "japanese": null,
+    "choices": [
+      "若[わか]くこそあるが、とても頼[たよ]りになる。",
+      "若[わか]いあまりだが、とても頼[たよ]りになる。",
+      "若[わか]いどころだが、とても頼[たよ]りになる。",
+      "若[わか]い次第だが、とても頼[たよ]りになる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～こそ…が = concede one point emphatically, then contrast (‘young he may be, but…’). The other endings (のあまり/どころ/次第) don’t create this concessive frame."
+  },
+  {
+    "id": "n2_q068",
+    "type": "usage",
+    "prompt": "Formal ‘not only’: ‘Not only Japan but the whole world faces this issue.’",
+    "japanese": null,
+    "choices": [
+      "日本[にほん]のみならず、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]のわりに、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]を除いて、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。",
+      "日本[にほん]を問わず、世界中[せかいじゅう]がこの問題[もんだい]を抱[かか]える。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のみならず = a formal ‘not only… but also’. を除いて = ‘except’, を問わず = ‘regardless of’ — the opposite or unrelated scope."
+  },
+  {
+    "id": "n2_q069",
+    "type": "usage",
+    "prompt": "‘Whether it rains or not, the event will go ahead.’",
+    "japanese": null,
+    "choices": [
+      "雨[あめ]が降[ふ]ろうが降[ふ]るまいが、イベントは行[おこな]われる。",
+      "雨[あめ]が降[ふ]るにつれて、イベントは行[おこな]われる。",
+      "雨[あめ]が降[ふ]るにしても降[ふ]るにしても、イベントは行[おこな]われる。",
+      "雨[あめ]が降[ふ]るからには、イベントは行[おこな]われる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～(よ)うが～まいが = ‘whether or not…(it doesn’t matter)’. につれて is gradual change; からには = ‘now that’ — neither expresses ‘regardless of which’."
+  },
+  {
+    "id": "n2_q070",
+    "type": "usage",
+    "prompt": "‘It’s only because there are customers that a shop exists.’ (X exists thanks to Y)",
+    "japanese": null,
+    "choices": [
+      "お客[きゃく]あっての商売[しょうばい]だ。",
+      "お客[きゃく]ながらの商売[しょうばい]だ。",
+      "お客[きゃく]どころの商売[しょうばい]だ。",
+      "お客[きゃく]までの商売[しょうばい]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "AあってのB = ‘B that exists only thanks to A’ (without A, no B). The other particles don’t form this ‘made possible only by’ relationship."
+  },
+  {
+    "id": "n2_q071",
+    "type": "usage",
+    "prompt": "Undesirable tendency: ‘He tends to jump to conclusions.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は結論[けつろん]を急[いそ]ぐきらいがある。",
+      "彼[かれ]は結論[けつろん]を急[いそ]ぐおそれがある。",
+      "彼[かれ]は結論[けつろん]を急[いそ]ぐどころがある。",
+      "彼[かれ]は結論[けつろん]を急[いそ]ぐあまりがある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～きらいがある = ‘has a (bad) tendency to’. おそれがある = ‘there’s a risk/fear that’ (a feared possibility, not a habit) — close but distinct."
+  },
+  {
+    "id": "n2_q072",
+    "type": "usage",
+    "prompt": "Feared possibility: ‘There’s a risk the river may flood.’",
+    "japanese": null,
+    "choices": [
+      "川[かわ]があふれるおそれがある。",
+      "川[かわ]があふれるきらいがある。",
+      "川[かわ]があふれるどころがある。",
+      "川[かわ]があふれるまいがある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～おそれがある = ‘there is a danger/risk that (something bad may happen)’. きらいがある is a personal bad HABIT, so it can’t describe a river’s flood risk."
+  },
+  {
+    "id": "n2_q073",
+    "type": "usage",
+    "prompt": "Emphatic range: ‘From children to the elderly, everyone knows this song.’",
+    "japanese": null,
+    "choices": [
+      "子供[こども]から老人[ろうじん]に至[いた]るまで、皆[みな]この歌[うた]を知[し]っている。",
+      "子供[こども]から老人[ろうじん]にかけるまで、皆[みな]この歌[うた]を知[し]っている。",
+      "子供[こども]から老人[ろうじん]を問わず、皆[みな]この歌[うた]を知[し]っている。",
+      "子供[こども]から老人[ろうじん]に応じて、皆[みな]この歌[うた]を知[し]っている。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～から～に至るまで = ‘from X all the way to Y (emphasizing the full range)’. を問わず = ‘regardless of’, に応じて = ‘depending on’ — not a spanning range."
+  },
+  {
+    "id": "n2_q074",
+    "type": "usage",
+    "prompt": "Extreme lengths: ‘I don’t want to succeed if it means deceiving others.’",
+    "japanese": null,
+    "choices": [
+      "人[ひと]をだましてまで、成功[せいこう]したくない。",
+      "人[ひと]をだますにつれて、成功[せいこう]したくない。",
+      "人[ひと]をだますからには、成功[せいこう]したくない。",
+      "人[ひと]をだますあまり、成功[せいこう]したくない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てまで = ‘even going so far as to…(I wouldn’t)’, stressing an extreme, unacceptable means. につれて/からには/のあまり don’t express ‘to such an extreme extent’."
+  },
+  {
+    "id": "n2_q075",
+    "type": "usage",
+    "prompt": "‘Unless you try it, you won’t know whether it’s good.’",
+    "japanese": null,
+    "choices": [
+      "やってみないことには、いいかどうか分[わ]からない。",
+      "やってみないうちには、いいかどうか分[わ]からない。",
+      "やってみないからには、いいかどうか分[わ]からない。",
+      "やってみないあまり、いいかどうか分[わ]からない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ないことには…ない = ‘unless you first do X, Y won’t (happen/be known)’. うちに/からには/のあまり don’t form this ‘unless…, not…’ prerequisite."
+  },
+  {
+    "id": "n2_q076",
+    "type": "usage",
+    "prompt": "Ongoing gradual trend: ‘The situation is gradually improving.’",
+    "japanese": null,
+    "choices": [
+      "状況[じょうきょう]は改善[かいぜん]しつつある。",
+      "状況[じょうきょう]は改善[かいぜん]しがちある。",
+      "状況[じょうきょう]は改善[かいぜん]するどころある。",
+      "状況[じょうきょう]は改善[かいぜん]するまいある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "stem + つつある = ‘be in the process of (gradually) …ing’. がち = ‘tend to’, and the others aren’t valid — つつある is the ‘progressively becoming’ form."
+  },
+  {
+    "id": "n2_q077",
+    "type": "usage",
+    "prompt": "‘Even while knowing it’s bad for my health, I keep smoking.’ (although)",
+    "japanese": null,
+    "choices": [
+      "体[からだ]に悪[わる]いと知[し]りつつ、たばこを吸[す]い続[つづ]ける。",
+      "体[からだ]に悪[わる]いと知[し]るにつれ、たばこを吸[す]い続[つづ]ける。",
+      "体[からだ]に悪[わる]いと知[し]るからには、たばこを吸[す]い続[つづ]ける。",
+      "体[からだ]に悪[わる]いと知[し]るあまり、たばこを吸[す]い続[つづ]ける。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～つつ(も) here = ‘even though / while knowing’ (concessive). につれ is gradual change and からには = ‘now that’ — neither carries the ‘despite knowing’ contradiction."
+  },
+  {
+    "id": "n2_q078",
+    "type": "usage",
+    "prompt": "Tentative cause (‘maybe because’): ‘Maybe because I’m tired, I can’t focus.’",
+    "japanese": null,
+    "choices": [
+      "疲[つか]れているせいか、集中[しゅうちゅう]できない。",
+      "疲[つか]れているおかげか、集中[しゅうちゅう]できない。",
+      "疲[つか]れているあまりか、集中[しゅうちゅう]できない。",
+      "疲[つか]れているからには、集中[しゅうちゅう]できない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～せいか = ‘perhaps because (a possibly negative cause)’, hedged. おかげか would credit a positive cause (odd for ‘can’t focus’), and からには = ‘now that’ isn’t tentative."
+  },
+  {
+    "id": "n2_q079",
+    "type": "usage",
+    "prompt": "Listing coexisting facts: ‘Some days are good, and some days are bad.’",
+    "japanese": null,
+    "choices": [
+      "いい日[ひ]もあれば、悪[わる]い日[ひ]もある。",
+      "いい日[ひ]もあると、悪[わる]い日[ひ]もある。",
+      "いい日[ひ]もあるなら、悪[わる]い日[ひ]もある。",
+      "いい日[ひ]もあっても、悪[わる]い日[ひ]もある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～も…ば～も = ‘there is both… and…’ (listing coexisting cases). The ば here isn’t a real condition; と/なら/ても can’t form this ‘both A and B’ balanced listing."
+  },
+  {
+    "id": "n2_q080",
+    "type": "usage",
+    "prompt": "‘Rather than apologize to him, I’d prefer to quit.’ (X is so undesirable I’d rather Y)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]に謝[あやま]るくらいなら、やめたほうがいい。",
+      "彼[かれ]に謝[あやま]るからには、やめたほうがいい。",
+      "彼[かれ]に謝[あやま]るあまり、やめたほうがいい。",
+      "彼[かれ]に謝[あやま]るにつれ、やめたほうがいい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～くらいなら = ‘rather than (do this unpleasant thing), I’d sooner…’. からには = ‘now that’, のあまり = ‘from excess’ — neither expresses this ‘I’d rather’ comparison."
+  },
+  {
+    "id": "n2_q081",
+    "type": "usage",
+    "prompt": "‘It’s best to be careful (nothing beats being careful).’",
+    "japanese": null,
+    "choices": [
+      "用心[ようじん]するに越[こ]したことはない。",
+      "用心[ようじん]するに限[かぎ]らない。",
+      "用心[ようじん]するどころではない。",
+      "用心[ようじん]するにすぎない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に越したことはない = ‘there’s nothing better than / it’s best to’. に限らず = ‘not only’, どころではない = ‘no situation for’ — different meanings."
+  },
+  {
+    "id": "n2_q082",
+    "type": "usage",
+    "prompt": "Personal ‘nothing beats’: ‘On a hot day, nothing beats cold beer.’",
+    "japanese": null,
+    "choices": [
+      "暑[あつ]い日[ひ]は、冷[つめ]たいビールに限[かぎ]る。",
+      "暑[あつ]い日[ひ]は、冷[つめ]たいビールに限[かぎ]らない。",
+      "暑[あつ]い日[ひ]は、冷[つめ]たいビールを問わない。",
+      "暑[あつ]い日[ひ]は、冷[つめ]たいビールに越す。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に限る = ‘nothing beats / the best is’ (personal recommendation). に限らず = ‘not only’ (opposite scope), を問わず = ‘regardless of’ — neither recommends."
+  },
+  {
+    "id": "n2_q083",
+    "type": "usage",
+    "prompt": "Which連結 gives an emphatic personal REASON, not a contrast?",
+    "japanese": null,
+    "choices": [
+      "安[やす]かったものだから、つい買[か]いすぎた。",
+      "安[やす]かったものの、つい買[か]いすぎた。",
+      "安[やす]かったとはいえ、つい買[か]いすぎた。",
+      "安[やす]かったにもかかわらず、つい買[か]いすぎた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "ものだから = an emphatic ‘because (so naturally the result)’. ものの/とはいえ/にもかかわらず are all ‘although’ — they’d contradict the ‘so I overbought’ result."
+  },
+  {
+    "id": "n2_q084",
+    "type": "usage",
+    "prompt": "Pick the ONLY option that credits a POSITIVE result:",
+    "japanese": null,
+    "choices": [
+      "君[きみ]のおかげで、うまくいった。",
+      "君[きみ]のせいで、うまくいった。",
+      "君[きみ]のくせに、うまくいった。",
+      "君[きみ]のあまり、うまくいった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "おかげで = credit for a good result. せいで blames a bad one, くせに criticizes (‘even though you…’), and のあまり needs an emotion noun — only おかげで fits ‘it went well thanks to you’."
+  }
+]

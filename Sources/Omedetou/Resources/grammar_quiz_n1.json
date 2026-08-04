@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "n1_q001",
+    "type": "usage",
+    "prompt": "Physically smeared with a substance: ‘His hands were covered in oil.’",
+    "japanese": null,
+    "choices": [
+      "手[て]が油[あぶら]まみれになった。",
+      "手[て]が油[あぶら]だらけの規則[きそく]になった。",
+      "手[て]が油[あぶら]ずくめになった。",
+      "手[て]が油[あぶら]ぐるみになった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～まみれ = physically smeared/covered with a (liquid/dust) substance: 油まみれ, 泥まみれ, 汗まみれ. だらけ = ‘full of (scattered items/faults)’, ずくめ = ‘entirely (good things/rules)’."
+  },
+  {
+    "id": "n1_q002",
+    "type": "usage",
+    "prompt": "Entirely/nothing but (often good things): ‘It was an evening of nothing but good news.’",
+    "japanese": null,
+    "choices": [
+      "いいことずくめの一夜[いちや]だった。",
+      "いいことまみれの一夜[いちや]だった。",
+      "いいことだらけの規則の一夜[いちや]だった。",
+      "いいことがちの一夜[いちや]だった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ずくめ = ‘entirely / all …(good things, rules, black clothing)’: いいことずくめ, 規則ずくめ, 黒ずくめ. まみれ is for physical smears, だらけ for scattered faults."
+  },
+  {
+    "id": "n1_q003",
+    "type": "usage",
+    "prompt": "Full of many (usually undesirable) scattered things: ‘This essay is full of mistakes.’",
+    "japanese": null,
+    "choices": [
+      "この作文[さくぶん]は間違[まちが]いだらけだ。",
+      "この作文[さくぶん]は間違[まちが]いまみれだ。",
+      "この作文[さくぶん]は間違[まちが]いずくめだ。",
+      "この作文[さくぶん]は間違[まちが]いがてらだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だらけ = ‘full of / covered in (many scattered, usually bad things)’: 間違いだらけ, ごみだらけ. まみれ is for adhering substances, ずくめ for ‘entirely (a category)’."
+  },
+  {
+    "id": "n1_q004",
+    "type": "usage",
+    "prompt": "Simultaneous, almost the same instant (literary): ‘No sooner had he seen the police than he ran.’",
+    "japanese": null,
+    "choices": [
+      "警官[けいかん]を見[み]るが早[はや]いか、逃[に]げ出[だ]した。",
+      "警官[けいかん]を見[み]るにつけ、逃[に]げ出[だ]した。",
+      "警官[けいかん]を見[み]るなり否や、逃[に]げ出[だ]した。",
+      "警官[けいかん]を見[み]たそばから、逃[に]げ出[だ]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～が早いか = ‘the very instant that…’, stressing the second action came almost before the first finished. につけ = ‘whenever’, そばから = ‘as fast as (repeatedly undone)’ — different."
+  },
+  {
+    "id": "n1_q005",
+    "type": "usage",
+    "prompt": "Undone as fast as done (repeatedly): ‘As fast as I tidy up, the kids mess it up.’",
+    "japanese": null,
+    "choices": [
+      "片付[かたづ]けるそばから、子供[こども]が散[ち]らかす。",
+      "片付[かたづ]けるが早いか、子供[こども]が散[ち]らかす。",
+      "片付[かたづ]けるなり、子供[こども]が散[ち]らかす。",
+      "片付[かたづ]けるや否や、子供[こども]が散[ち]らかす。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～そばから = ‘no matter how many times you do X, right away it’s undone’ (repeated futility). が早いか/なり/や否や mark a single immediate sequence, not repetition."
+  },
+  {
+    "id": "n1_q006",
+    "type": "usage",
+    "prompt": "One person acts and immediately, in that same state, does the next: ‘He grabbed the bag and, without a word, left.’",
+    "japanese": null,
+    "choices": [
+      "かばんを取[と]るなり、何[なに]も言[い]わずに出[で]て行[い]った。",
+      "かばんを取[と]るそばから、出[で]て行[い]った。",
+      "かばんを取[と]るにつけ、出[で]て行[い]った。",
+      "かばんを取[と]るくらいなら、出[で]て行[い]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なり = ‘as soon as X, (the same subject) immediately did Y (often unexpected)’. そばから = repeated undoing, くらいなら = ‘rather than’ — neither fits a single surprising follow-up."
+  },
+  {
+    "id": "n1_q007",
+    "type": "usage",
+    "prompt": "Purpose (formal ‘in order to’): ‘He went to Tokyo in order to realize his dream.’",
+    "japanese": null,
+    "choices": [
+      "夢[ゆめ]を実現[じつげん]するべく、東京[とうきょう]へ出[で]てきた。",
+      "夢[ゆめ]を実現[じつげん]するべからず、東京[とうきょう]へ出[で]てきた。",
+      "夢[ゆめ]を実現[じつげん]するべくもなく、東京[とうきょう]へ出[で]てきた。",
+      "夢[ゆめ]を実現[じつげん]するまじく、東京[とうきょう]へ出[で]てきた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～べく = a formal ‘in order to’. べからず = ‘must not (prohibition)’, べくもない = ‘there’s no way to’ — very different functions of the same べし root."
+  },
+  {
+    "id": "n1_q008",
+    "type": "usage",
+    "prompt": "Formal prohibition (on a sign): ‘Do not enter.’",
+    "japanese": null,
+    "choices": [
+      "立[た]ち入[い]るべからず。",
+      "立[た]ち入[い]るべく。",
+      "立[た]ち入[い]るべくもない。",
+      "立[た]ち入[い]るがてら。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～べからず = a formal/written prohibition (‘shall not / do not’), typical on signs. べく = purpose, べくもない = ‘no way to’ — neither forbids."
+  },
+  {
+    "id": "n1_q009",
+    "type": "usage",
+    "prompt": "No way to do (impossible even to): ‘His true feelings were impossible to know.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]の本心[ほんしん]は知[し]るべくもなかった。",
+      "彼[かれ]の本心[ほんしん]は知[し]るべからずだった。",
+      "彼[かれ]の本心[ほんしん]は知[し]るべくだった。",
+      "彼[かれ]の本心[ほんしん]は知[し]るまじきだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～べくもない = ‘there is no way (one could possibly) do…’. べからず = ‘must not’, べく = ‘in order to’ — only べくもない expresses impossibility."
+  },
+  {
+    "id": "n1_q010",
+    "type": "usage",
+    "prompt": "Concession ‘no matter’: ‘No matter what others say, I won’t change my mind.’",
+    "japanese": null,
+    "choices": [
+      "人[ひと]が何[なに]と言[い]おうと、考[かんが]えは変[か]えない。",
+      "人[ひと]が何[なに]と言[い]うにつけ、考[かんが]えは変[か]えない。",
+      "人[ひと]が何[なに]と言[い]おうにも、考[かんが]えは変[か]えない。",
+      "人[ひと]が何[なに]と言[い]うが早いか、考[かんが]えは変[か]えない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～(よ)うと(も) = ‘no matter (what/how)…, still…’. 言おうにも would need a ‘～ない’ of inability (‘even if I wanted to say, I can’t’), a different structure."
+  },
+  {
+    "id": "n1_q011",
+    "type": "usage",
+    "prompt": "Can’t even if one wanted to: ‘I can’t sleep even if I try — I’m too worried.’",
+    "japanese": null,
+    "choices": [
+      "心配[しんぱい]で、寝[ね]ようにも寝[ね]られない。",
+      "心配[しんぱい]で、寝[ね]ようと寝[ね]られない。",
+      "心配[しんぱい]で、寝[ね]るべく寝[ね]られない。",
+      "心配[しんぱい]で、寝[ね]るが早いか寝[ね]られない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～(よ)うにも～ない = ‘even if I wanted to X, I can’t (because…)’. It requires the potential-negative second half (寝られない). ～(よ)うと is plain concession, not inability."
+  },
+  {
+    "id": "n1_q012",
+    "type": "usage",
+    "prompt": "‘Whoever it may be, the rules apply.’ (no matter which)",
+    "japanese": null,
+    "choices": [
+      "相手[あいて]が誰[だれ]であれ、ルールは同[おな]じだ。",
+      "相手[あいて]が誰[だれ]にとって、ルールは同[おな]じだ。",
+      "相手[あいて]が誰[だれ]につけ、ルールは同[おな]じだ。",
+      "相手[あいて]が誰[だれ]であればこそ、ルールは同[おな]じだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～であれ = ‘whoever/whatever it may be, regardless’. にとって = ‘for’, につけ = ‘whenever’, ばこそ = ‘precisely because’ — none express ‘no matter who’."
+  },
+  {
+    "id": "n1_q013",
+    "type": "usage",
+    "prompt": "Formal ‘regardless of’: ‘Regardless of the outcome, I’ll accept it.’",
+    "japanese": null,
+    "choices": [
+      "結果[けっか]のいかんにかかわらず、受[う]け入[い]れる。",
+      "結果[けっか]のいかんによって、受[う]け入[い]れる。",
+      "結果[けっか]に応[おう]じて、受[う]け入[い]れる。",
+      "結果[けっか]に沿[そ]って、受[う]け入[い]れる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～のいかんにかかわらず = a formal ‘regardless of / irrespective of’. いかんによって = ‘depending on’, に応じて/に沿って = ‘according to/along’ — those make the result matter, the opposite."
+  },
+  {
+    "id": "n1_q014",
+    "type": "usage",
+    "prompt": "‘This is a flavor only this shop can produce.’ (unique to)",
+    "japanese": null,
+    "choices": [
+      "この店[みせ]ならではの味[あじ]だ。",
+      "この店[みせ]なりの味[あじ]だ。",
+      "この店[みせ]きりの味[あじ]だ。",
+      "この店[みせ]ながらの味[あじ]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ならでは(の) = ‘unique to / only possible for (X and no one else)’, praising a special quality. なり(の) = ‘in one’s own way’ — a weaker, different nuance."
+  },
+  {
+    "id": "n1_q015",
+    "type": "usage",
+    "prompt": "Too painful to do: ‘The scene was too tragic to watch.’",
+    "japanese": null,
+    "choices": [
+      "その光景[こうけい]は見[み]るにたえなかった。",
+      "その光景[こうけい]は見[み]るにたえた。",
+      "その光景[こうけい]は見[み]るに足[た]りなかった。",
+      "その光景[こうけい]は見[み]るに越[こ]したことはなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にたえない = ‘cannot bear to / too … to do’ (見るにたえない = ‘can’t stand to watch’). にたえる = ‘worth doing / can withstand’ — the positive opposite."
+  },
+  {
+    "id": "n1_q016",
+    "type": "usage",
+    "prompt": "Worth doing (has merit): ‘This is a novel worth reading.’",
+    "japanese": null,
+    "choices": [
+      "これは読[よ]むにたえる小説[しょうせつ]だ。",
+      "これは読[よ]むにたえない小説[しょうせつ]だ。",
+      "これは読[よ]むに足りない小説[しょうせつ]だ。",
+      "これは読[よ]むべからざる小説[しょうせつ]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にたえる = ‘worth …ing / can bear scrutiny’. にたえない (‘too … to’) and に足りない (‘not worth’) are the negative side."
+  },
+  {
+    "id": "n1_q017",
+    "type": "usage",
+    "prompt": "Worthy of: ‘He is a person worthy of trust.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は信頼[しんらい]するに足[た]る人物[じんぶつ]だ。",
+      "彼[かれ]は信頼[しんらい]するに足[た]りない人物[じんぶつ]だ。",
+      "彼[かれ]は信頼[しんらい]するにたえない人物[じんぶつ]だ。",
+      "彼[かれ]は信頼[しんらい]するべからざる人物[じんぶつ]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に足る = ‘worthy/sufficient to’ (信頼するに足る = ‘worthy of trust’). に足りない = ‘not worth’, にたえない = ‘cannot bear’ — the negatives."
+  },
+  {
+    "id": "n1_q018",
+    "type": "usage",
+    "prompt": "Not worth (trivial): ‘It’s not worth worrying about such a trivial thing.’",
+    "japanese": null,
+    "choices": [
+      "そんなささいなことは、心配[しんぱい]するに足[た]りない。",
+      "そんなささいなことは、心配[しんぱい]するに足[た]る。",
+      "そんなささいなことは、心配[しんぱい]するにたえる。",
+      "そんなささいなことは、心配[しんぱい]するべくもない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～に足りない = ‘not worth …ing / insufficient to warrant’. に足る/にたえる are positive (‘worth it’), べくもない = ‘no way to’ — different meanings."
+  },
+  {
+    "id": "n1_q019",
+    "type": "usage",
+    "prompt": "Ultimate degree (state): ‘Such waste is the height of luxury.’",
+    "japanese": null,
+    "choices": [
+      "こんな無駄遣[むだづか]いは、ぜいたくの極[きわ]みだ。",
+      "こんな無駄遣[むだづか]いは、ぜいたくの至[いた]りだ。",
+      "こんな無駄遣[むだづか]いは、ぜいたくのあまりだ。",
+      "こんな無駄遣[むだづか]いは、ぜいたくの末[すえ]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～の極み = ‘the height/extreme of (a state)’: ぜいたくの極み, 感激の極み. の至り is more for personal feelings/results (光栄の至り = ‘the height of honor’), often in set humble phrases."
+  },
+  {
+    "id": "n1_q020",
+    "type": "usage",
+    "prompt": "Set humble phrase: ‘It is the greatest honor (I’m deeply honored).’",
+    "japanese": null,
+    "choices": [
+      "光栄[こうえい]の至[いた]りです。",
+      "光栄[こうえい]の極みが早いか。",
+      "光栄[こうえい]のあまりです。",
+      "光栄[こうえい]の末です。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～の至り = ‘the height of (an emotion), utterly…’, common in formal set phrases (光栄の至り, 赤面の至り). のあまり = ‘from excess (cause)’, not a fixed ‘utmost’ expression."
+  },
+  {
+    "id": "n1_q021",
+    "type": "usage",
+    "prompt": "Ending up in a bad state after a process: ‘He kept quarreling, and in the end even the police came.’",
+    "japanese": null,
+    "choices": [
+      "けんかを続[つづ]け、ついには警察[けいさつ]が来[く]る始末[しまつ]だ。",
+      "けんかを続[つづ]け、ついには警察[けいさつ]が来[く]るかぎりだ。",
+      "けんかを続[つづ]け、ついには警察[けいさつ]が来[く]るしだいだ。",
+      "けんかを続[つづ]け、ついには警察[けいさつ]が来[く]るあまりだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～始末だ = ‘end up (in a bad state), it even came to…’, exasperated. It caps a run of negatives. しだいだ (‘circumstances/as soon as’) and かぎりだ don’t express this ‘it came to this sorry state’."
+  },
+  {
+    "id": "n1_q022",
+    "type": "usage",
+    "prompt": "Given a special situation, a natural result: ‘Being a holiday, the park was packed.’",
+    "japanese": null,
+    "choices": [
+      "休日[きゅうじつ]とあって、公園[こうえん]は混[こ]んでいた。",
+      "休日[きゅうじつ]とあれば、公園[こうえん]は混[こ]んでいた。",
+      "休日[きゅうじつ]にあって、公園[こうえん]は混[こ]んでいた。",
+      "休日[きゅうじつ]ときたら、公園[こうえん]は混[こ]んでいた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とあって = ‘because it’s (a special situation), naturally…’ (a real, current cause). とあれば is hypothetical (‘if it’s the case that…’), so it doesn’t fit a stated fact that already happened."
+  },
+  {
+    "id": "n1_q023",
+    "type": "usage",
+    "prompt": "Hypothetical willingness: ‘If it’s for my child, I’d do anything.’",
+    "japanese": null,
+    "choices": [
+      "子供[こども]のためとあれば、何[なん]でもする。",
+      "子供[こども]のためとあって、何[なん]でもする。",
+      "子供[こども]のためにあって、何[なん]でもする。",
+      "子供[こども]のためときたら、何[なん]でもする。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とあれば = ‘if it’s the case (a special condition), then…’ (hypothetical). とあって states an actual cause; here the ‘if it’s for…’ hypothesis needs とあれば."
+  },
+  {
+    "id": "n1_q024",
+    "type": "usage",
+    "prompt": "Reproach/regret over an unrealized better option: ‘If you’d told me, I would have helped…’",
+    "japanese": null,
+    "choices": [
+      "言[い]ってくれれば手伝[てつだ]ったものを。",
+      "言[い]ってくれれば手伝[てつだ]ったものの。",
+      "言[い]ってくれれば手伝[てつだ]ったものだ。",
+      "言[い]ってくれれば手伝[てつだ]ったものか。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものを = ‘…would have…, (but you didn’t — what a shame)’, expressing reproach/regret. ものの = ‘although’, ものだ = ‘that’s how it is’, ものか = defiance — none carry this ‘if only you had’ reproach."
+  },
+  {
+    "id": "n1_q025",
+    "type": "usage",
+    "prompt": "Polite set phrase: ‘I’m sorry to trouble you when you’re busy, but…’",
+    "japanese": null,
+    "choices": [
+      "お忙[いそが]しいところを、すみません。",
+      "お忙[いそが]しいものを、すみません。",
+      "お忙[いそが]しいばかりを、すみません。",
+      "お忙[いそが]しいところで、すみません。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ところを = ‘at a time when (you are…), (I intrude)’, a set polite apology for interrupting someone’s state. ものを = reproach — wrong register for a courteous apology."
+  },
+  {
+    "id": "n1_q026",
+    "type": "usage",
+    "prompt": "Enduring heartfelt emotion (formal): ‘I sincerely wish for your happiness.’",
+    "japanese": null,
+    "choices": [
+      "あなたの幸[しあわ]せを願[ねが]ってやまない。",
+      "あなたの幸[しあわ]せを願[ねが]うにたえない。",
+      "あなたの幸[しあわ]せを願[ねが]うべくもない。",
+      "あなたの幸[しあわ]せを願[ねが]うきらいがある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～てやまない = ‘…(a feeling) that never ceases’, for deep, lasting emotions (願ってやまない, 愛してやまない). It only attaches to certain emotion verbs, unlike にたえない/べくもない."
+  },
+  {
+    "id": "n1_q027",
+    "type": "usage",
+    "prompt": "Extreme personal emotion: ‘To be able to see you again — I couldn’t be happier.’",
+    "japanese": null,
+    "choices": [
+      "また会[あ]えて、うれしい限[かぎ]りだ。",
+      "また会[あ]えて、うれしいしだいだ。",
+      "また会[あ]えて、うれしいあまりだ。",
+      "また会[あ]えて、うれしい極みを願う。"
+    ],
+    "correctIndex": 0,
+    "explanation": "（感情形容詞）＋限りだ = ‘I feel extremely… (couldn’t be more…)’: うれしい限り, 心細い限り. It attaches to emotion adjectives to voice the speaker’s own strong feeling."
+  },
+  {
+    "id": "n1_q028",
+    "type": "usage",
+    "prompt": "Formal ‘combining two purposes’: ‘I visited to thank him and pay respects.’",
+    "japanese": null,
+    "choices": [
+      "お礼[れい]かたがた、ごあいさつに伺[うかが]った。",
+      "お礼[れい]がてら、遊[あそ]びに行[い]った。",
+      "お礼[れい]のかたわら、伺[うかが]った。",
+      "お礼[れい]のあまり、伺[うかが]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かたがた = a formal ‘combining the purpose of X with Y’, used with polite nouns (お礼かたがた, お見舞いかたがた). がてら is more casual ‘while at it’, かたわら = ‘alongside (a main occupation)’."
+  },
+  {
+    "id": "n1_q029",
+    "type": "usage",
+    "prompt": "Casual ‘while doing X, also do Y’: ‘While taking a walk, I did some shopping.’",
+    "japanese": null,
+    "choices": [
+      "散歩[さんぽ]がてら、買[か]い物[もの]をした。",
+      "散歩[さんぽ]かたがた、買[か]い物[もの]をした。",
+      "散歩[さんぽ]のかたわら、買[か]い物[もの]をした。",
+      "散歩[さんぽ]にたえ、買[か]い物[もの]をした。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～がてら = casual ‘while (doing X), take the chance to also Y’. かたがた is formal (with polite nouns), かたわら = ‘alongside one’s main job/role’ — subtly different register/meaning."
+  },
+  {
+    "id": "n1_q030",
+    "type": "usage",
+    "prompt": "Two ongoing roles in parallel: ‘Alongside his teaching job, he writes novels.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は教師[きょうし]のかたわら、小説[しょうせつ]を書[か]いている。",
+      "彼[かれ]は教師[きょうし]がてら、小説[しょうせつ]を書[か]いている。",
+      "彼[かれ]は教師[きょうし]かたがた、小説[しょうせつ]を書[か]いている。",
+      "彼[かれ]は教師[きょうし]ながらも、小説[しょうせつ]を書[か]いている。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かたわら = ‘while mainly doing X (as a job), also do Y on the side’ (two sustained activities). がてら/かたがた are for combining a single outing’s purposes, not long-term parallel roles."
+  },
+  {
+    "id": "n1_q031",
+    "type": "usage",
+    "prompt": "Emphatic positive reason (formal): ‘It’s precisely because I care about you that I scold you.’",
+    "japanese": null,
+    "choices": [
+      "君[きみ]のことを思[おも]えばこそ、叱[しか]るのだ。",
+      "君[きみ]のことを思[おも]うがゆえに叱[しか]らない。",
+      "君[きみ]のことを思[おも]えばとて、叱[しか]るのだ。",
+      "君[きみ]のことを思[おも]うにつけ、叱[しか]るのだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ばこそ = an emphatic ‘precisely because…(and for no other reason)’, formal. It pairs with のだ. につけ = ‘whenever’, とて = ‘even’ — neither gives this emphatic sole-reason meaning."
+  },
+  {
+    "id": "n1_q032",
+    "type": "usage",
+    "prompt": "Formal strong purpose: ‘He worked desperately in order to win.’",
+    "japanese": null,
+    "choices": [
+      "勝[か]たんがため、必死[ひっし]に努力[どりょく]した。",
+      "勝[か]たんばかりに、必死[ひっし]に努力[どりょく]した。",
+      "勝[か]つがてら、必死[ひっし]に努力[どりょく]した。",
+      "勝[か]つそばから、必死[ひっし]に努力[どりょく]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～んがため(に) = a literary ‘in order to (a strong goal)’ (勝たんがため). んばかり means ‘as if about to…’ (appearance), a different meaning despite the similar ん shape."
+  },
+  {
+    "id": "n1_q033",
+    "type": "usage",
+    "prompt": "‘As if about to’ (vivid appearance): ‘She glared as if to say “Get out.”’",
+    "japanese": null,
+    "choices": [
+      "出[で]て行[い]けと言[い]わんばかりに、にらんだ。",
+      "出[で]て行[い]けと言[い]わんがために、にらんだ。",
+      "出[で]て行[い]けと言[い]うべく、にらんだ。",
+      "出[で]て行[い]けと言[い]うそばから、にらんだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～んばかり(に) = ‘almost as if (about to)…’, a vivid figurative appearance. んがため = ‘in order to’ (purpose) — so 言わんがため would wrongly mean ‘in order to say’."
+  },
+  {
+    "id": "n1_q034",
+    "type": "usage",
+    "prompt": "Formal ‘as of / with (a time or means)’: ‘Business hours end as of 6 p.m.’",
+    "japanese": null,
+    "choices": [
+      "午後[ごご]六時[ろくじ]をもって、営業[えいぎょう]を終了[しゅうりょう]します。",
+      "午後[ごご]六時[ろくじ]にあって、営業[えいぎょう]を終了[しゅうりょう]します。",
+      "午後[ごご]六時[ろくじ]ときたら、営業[えいぎょう]を終了[しゅうりょう]します。",
+      "午後[ごご]六時[ろくじ]とあって、営業[えいぎょう]を終了[しゅうりょう]します。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～をもって = a formal ‘as of (a time)’ or ‘by means of’. ときたら = ‘speaking of (with criticism)’, とあって = ‘because it is’ — neither marks a formal cutoff time."
+  },
+  {
+    "id": "n1_q035",
+    "type": "usage",
+    "prompt": "‘It’s not hard to imagine her disappointment.’",
+    "japanese": null,
+    "choices": [
+      "彼女[かのじょ]の落胆[らくたん]は想像[そうぞう]にかたくない。",
+      "彼女[かのじょ]の落胆[らくたん]は想像[そうぞう]にたえない。",
+      "彼女[かのじょ]の落胆[らくたん]は想像[そうぞう]に足りない。",
+      "彼女[かのじょ]の落胆[らくたん]は想像[そうぞう]するべくもない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にかたくない = ‘it’s not hard to (imagine/guess)’, i.e. ‘one can easily…’. にたえない = ‘cannot bear’, べくもない = ‘no way to’ — the opposite (impossible), not ‘easy to’."
+  },
+  {
+    "id": "n1_q036",
+    "type": "usage",
+    "prompt": "Forced by circumstances (passive, unwillingly): ‘Due to injury, he was forced to retire.’",
+    "japanese": null,
+    "choices": [
+      "けがのため、引退[いんたい]を余儀[よぎ]なくされた。",
+      "けがのため、引退[いんたい]を禁[きん]じ得[え]なかった。",
+      "けがのため、引退[いんたい]するにかたくなかった。",
+      "けがのため、引退[いんたい]してやまなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を余儀なくされる = ‘be forced (by circumstances) to’, unwillingly. を禁じ得ない = ‘can’t suppress (an emotion)’, にかたくない = ‘easy to’ — different meanings."
+  },
+  {
+    "id": "n1_q037",
+    "type": "usage",
+    "prompt": "Can’t suppress an emotion: ‘I cannot help feeling anger at the news.’",
+    "japanese": null,
+    "choices": [
+      "その知[し]らせに、怒[いか]りを禁[きん]じ得[え]ない。",
+      "その知[し]らせに、怒[いか]りを余儀なくされる。",
+      "その知[し]らせに、怒[おこ]るにかたくない。",
+      "その知[し]らせに、怒[おこ]ってやまない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を禁じ得ない = ‘cannot suppress/help (an emotion)’: 怒りを禁じ得ない, 涙を禁じ得ない. を余儀なくされる = ‘be forced to (an action)’ — for actions, not feelings."
+  },
+  {
+    "id": "n1_q038",
+    "type": "usage",
+    "prompt": "Literary ‘just like’: ‘Time flies like an arrow.’",
+    "japanese": null,
+    "choices": [
+      "光陰[こういん]矢[や]のごとし。",
+      "光陰[こういん]矢[や]のあまり。",
+      "光陰[こういん]矢[や]のかぎり。",
+      "光陰[こういん]矢[や]のいたり。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ごとし/ごとく/ごとき = a literary ‘like / as if’ (= ようだ). のあまり = ‘from excess’, のかぎり = ‘to the utmost’, の至り = ‘height of’ — none mean ‘like’."
+  },
+  {
+    "id": "n1_q039",
+    "type": "usage",
+    "prompt": "Emphatic ‘even’ (extreme minimum): ‘I was so busy I didn’t even have time to eat.’",
+    "japanese": null,
+    "choices": [
+      "食[た]べる時間[じかん]すらなかった。",
+      "食[た]べる時間[じかん]きりなかった。",
+      "食[た]べる時間[じかん]なりなかった。",
+      "食[た]べる時間[じかん]ゆえなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～すら = ‘even (this basic thing)’, emphasizing an extreme example, usually with a negative. きり = ‘only/since’, なり = ‘as soon as/or’, ゆえ = ‘because’ — none mean ‘even’."
+  },
+  {
+    "id": "n1_q040",
+    "type": "usage",
+    "prompt": "Literary ‘even (to merely)…’: ‘I never even dreamed of such a thing.’",
+    "japanese": null,
+    "choices": [
+      "そんなことは夢[ゆめ]にだに思[おも]わなかった。",
+      "そんなことは夢[ゆめ]にすら思[おも]うにたえない。",
+      "そんなことは夢[ゆめ]にこそ思[おも]わなかった。",
+      "そんなことは夢[ゆめ]にして思[おも]わなかった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～だに = a literary ‘even (just)…’, often in 夢にだに, 想像するだに. It stresses that not even the minimal degree occurred. こそ = emphatic ‘precisely’, a different focus."
+  },
+  {
+    "id": "n1_q041",
+    "type": "usage",
+    "prompt": "Formal apologetic reason: ‘As it was my first time, please excuse my mistakes.’",
+    "japanese": null,
+    "choices": [
+      "慣[な]れないこととて、失礼[しつれい]をお許[ゆる]しください。",
+      "慣[な]れないことだから、失礼[しつれい]をお許[ゆる]しください。",
+      "慣[な]れないこととあって、失礼[しつれい]をお許[ゆる]しください。",
+      "慣[な]れないことなり、失礼[しつれい]をお許[ゆる]しください。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～こととて = a formal/old ‘because / since (offering an excuse)’, paired with a request for understanding. ことだから is casual reasoning about character, not this humble apology form."
+  },
+  {
+    "id": "n1_q042",
+    "type": "usage",
+    "prompt": "Literary ‘even’: ‘Even a teacher cannot know everything.’",
+    "japanese": null,
+    "choices": [
+      "先生[せんせい]とて、すべてを知[し]っているわけではない。",
+      "先生[せんせい]こそ、すべてを知[し]っているわけではない。",
+      "先生[せんせい]なり、すべてを知[し]っているわけではない。",
+      "先生[せんせい]がてら、すべてを知[し]っているわけではない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とて = a literary ‘even (X is no exception)’, like でも/ても. こそ = ‘precisely’, なり = ‘as soon as/or’, がてら = ‘while’ — none carry the ‘even… is no exception’ meaning."
+  },
+  {
+    "id": "n1_q043",
+    "type": "usage",
+    "prompt": "‘Once you do X, (inevitably a bad result): ‘Once he starts talking, he never stops.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は話[はな]し出[だ]したが最後[さいご]、止[と]まらない。",
+      "彼[かれ]は話[はな]し出[だ]すが早いか、止[と]まらない。",
+      "彼[かれ]は話[はな]し出[だ]すそばから、止[と]まらない。",
+      "彼[かれ]は話[はな]し出[だ]すなり、止[と]まらない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たが最後 = ‘once X happens, (inevitably an unavoidable, often bad, consequence)’. が早いか/なり mark immediate sequence, そばから is repeated undoing — none stress ‘once it happens, there’s no going back’."
+  },
+  {
+    "id": "n1_q044",
+    "type": "usage",
+    "prompt": "Bringing up a topic with criticism: ‘My boss, honestly, never listens to anyone.’",
+    "japanese": null,
+    "choices": [
+      "うちの上司[じょうし]ときたら、人[ひと]の話[はなし]を聞[き]かない。",
+      "うちの上司[じょうし]とあって、人[ひと]の話[はなし]を聞[き]かない。",
+      "うちの上司[じょうし]にあって、人[ひと]の話[はなし]を聞[き]かない。",
+      "うちの上司[じょうし]をもって、人[ひと]の話[はなし]を聞[き]かない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ときたら = raises a topic with exasperation/criticism (‘as for … (ugh)’). とあって = ‘because it is (a situation)’, をもって = ‘as of/by means’ — neither is this critical topic-marker."
+  },
+  {
+    "id": "n1_q045",
+    "type": "usage",
+    "prompt": "Strong contrast between two: ‘Unlike his brother, he is very diligent.’",
+    "japanese": null,
+    "choices": [
+      "兄[あに]にひきかえ、彼[かれ]はとてもまじめだ。",
+      "兄[あに]にもかかわらず、彼[かれ]はとてもまじめだ。",
+      "兄[あに]をもって、彼[かれ]はとてもまじめだ。",
+      "兄[あに]にあって、彼[かれ]はとてもまじめだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にひきかえ = ‘in contrast to / unlike (X, Y is very different)’, often with the speaker’s evaluation. にもかかわらず = ‘in spite of’ (concession, not contrast of two subjects)."
+  },
+  {
+    "id": "n1_q046",
+    "type": "usage",
+    "prompt": "‘X is true, but Y even more so’: ‘The taste is great, but the atmosphere is even better.’",
+    "japanese": null,
+    "choices": [
+      "味[あじ]もさることながら、雰囲気[ふんいき]がすばらしい。",
+      "味[あじ]はもとより味[あじ]がさることながら、すばらしい。",
+      "味[あじ]に限らず味[あじ]だけあって、すばらしい。",
+      "味[あじ]どころか、雰囲気[ふんいき]がすばらしい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～もさることながら = ‘X is of course so, but Y is even more notable’. It concedes X and highlights Y. どころか (‘far from’) would deny X, the wrong logic."
+  },
+  {
+    "id": "n1_q047",
+    "type": "usage",
+    "prompt": "‘Let alone X, not even Y’: ‘He can’t write kanji, let alone read a newspaper.’",
+    "japanese": null,
+    "choices": [
+      "新聞[しんぶん]はおろか、ひらがなも読[よ]めない。",
+      "新聞[しんぶん]につけ、ひらがなも読[よ]めない。",
+      "新聞[しんぶん]をもって、ひらがなも読[よ]めない。",
+      "新聞[しんぶん]にひきかえ、ひらがなも読[よ]めない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～はおろか = ‘let alone / not to mention X, even (the more basic) Y…(not)’, emphasizing extent with a negative. The other options don’t create this ‘let alone…even…’ escalation."
+  },
+  {
+    "id": "n1_q048",
+    "type": "usage",
+    "prompt": "‘X may be one thing, but Y is different’: ‘A child might be excused, but not an adult.’",
+    "japanese": null,
+    "choices": [
+      "子供[こども]ならいざ知[し]らず、大人[おとな]がそれではだめだ。",
+      "子供[こども]ならともかく知[し]らず、大人[おとな]がそれではだめだ。",
+      "子供[こども]ならおろか、大人[おとな]がそれではだめだ。",
+      "子供[こども]ならひきかえ、大人[おとな]がそれではだめだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ならいざ知らず = ‘if it were X, I don’t know, but (for Y it’s different/unacceptable)’. It sets X aside to stress Y. The other forms don’t make this ‘X aside, but Y’ contrast."
+  },
+  {
+    "id": "n1_q049",
+    "type": "usage",
+    "prompt": "Negligently left in a state: ‘He left the door wide open and went off.’",
+    "japanese": null,
+    "choices": [
+      "ドアを開[あ]けっぱなしにして出[で]かけた。",
+      "ドアを開[あ]けがてら出[で]かけた。",
+      "ドアを開[あ]けるなり出[で]かけた。",
+      "ドアを開[あ]けたが最後[さいご]出[で]かけた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～っぱなし = left in a state, with a nuance of carelessness (‘left open’). なり = ‘as soon as’, がてら = ‘while’, が最後 = ‘once…(no return)’ — none describe a carelessly maintained state."
+  },
+  {
+    "id": "n1_q050",
+    "type": "usage",
+    "prompt": "Formal cause: ‘Because it is simple, this design is beautiful.’",
+    "japanese": null,
+    "choices": [
+      "シンプルであるがゆえに、このデザインは美[うつく]しい。",
+      "シンプルであるにひきかえ、このデザインは美[うつく]しい。",
+      "シンプルであるをもって、このデザインは美[うつく]しい。",
+      "シンプルであるとあれば、このデザインは美[うつく]しい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～(が)ゆえに = a formal/literary ‘because / owing to’. にひきかえ = ‘in contrast to’, をもって = ‘by means of’, とあれば = ‘if it’s the case’ — none is a plain formal ‘because’."
+  },
+  {
+    "id": "n1_q051",
+    "type": "usage",
+    "prompt": "Vivid ‘almost overflowing’: ‘The hall was filled to bursting with people.’",
+    "japanese": null,
+    "choices": [
+      "会場[かいじょう]はあふれんばかりの人[ひと]でいっぱいだった。",
+      "会場[かいじょう]はあふれがちの人[ひと]でいっぱいだった。",
+      "会場[かいじょう]はあふれるどころの人[ひと]でいっぱいだった。",
+      "会場[かいじょう]はあふれるべく人[ひと]でいっぱいだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～んばかり = ‘as if about to… / almost’ (vivid exaggeration): あふれんばかり. がち = ‘tend to’, べく = ‘in order to’ — neither gives the ‘on the verge of’ image."
+  },
+  {
+    "id": "n1_q052",
+    "type": "usage",
+    "prompt": "Overcoming bravely: ‘Undaunted by the storm, the ship sailed on.’",
+    "japanese": null,
+    "choices": [
+      "嵐[あらし]をものともせず、船[ふね]は進[すす]んだ。",
+      "嵐[あらし]をよそに知らんふりで、船[ふね]は進[すす]んだ。",
+      "嵐[あらし]にひきかえ、船[ふね]は進[すす]んだ。",
+      "嵐[あらし]とあって、船[ふね]は進[すす]んだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～をものともせず(に) = ‘undaunted by / defying (a hardship)’, admiringly. にひきかえ = ‘unlike’, とあって = ‘because it is’ — neither expresses bravely overcoming an obstacle."
+  },
+  {
+    "id": "n1_q053",
+    "type": "usage",
+    "prompt": "Ignoring something one should heed: ‘Ignoring his parents’ worry, he kept playing.’",
+    "japanese": null,
+    "choices": [
+      "親[おや]の心配[しんぱい]をよそに、遊[あそ]び続[つづ]けた。",
+      "親[おや]の心配[しんぱい]をものともせず、遊[あそ]び続[つづ]けた。",
+      "親[おや]の心配[しんぱい]にひきかえ、遊[あそ]び続[つづ]けた。",
+      "親[おや]の心配[しんぱい]をもって、遊[あそ]び続[つづ]けた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～をよそに = ‘disregarding / ignoring (what one should care about)’, often critically. をものともせず praises overcoming a hardship; here the tone is ‘callously ignoring’, so をよそに."
+  },
+  {
+    "id": "n1_q054",
+    "type": "usage",
+    "prompt": "‘Not even one…’: ‘Not even a single moment can be wasted.’",
+    "japanese": null,
+    "choices": [
+      "一瞬[いっしゅん]たりとも、無駄[むだ]にできない。",
+      "一瞬[いっしゅん]なりとも無駄[むだ]にできる。",
+      "一瞬[いっしゅん]だに無駄[むだ]にする。",
+      "一瞬[いっしゅん]きり無駄[むだ]にできない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "一＋counter＋たりとも…ない = ‘not even one…’, an emphatic total negation (一日たりとも, 一人たりとも). It requires the following negative; なりとも/だに/きり don’t form this fixed ‘not even one’ pattern."
+  },
+  {
+    "id": "n1_q055",
+    "type": "usage",
+    "prompt": "Inevitably will cause: ‘This film is bound to move its audience.’",
+    "japanese": null,
+    "choices": [
+      "この映画[えいが]は観客[かんきゃく]を感動[かんどう]させずにはおかない。",
+      "この映画[えいが]は観客[かんきゃく]を感動[かんどう]させかねない。",
+      "この映画[えいが]は観客[かんきゃく]を感動[かんどう]させるにかたくない。",
+      "この映画[えいが]は観客[かんきゃく]を感動[かんどう]させるべくもない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ずにはおかない = ‘inevitably will / cannot but bring about’ (strong, often causative). かねない = ‘might well (bad)’, べくもない = ‘no way to’ — different degrees of certainty/possibility."
+  },
+  {
+    "id": "n1_q056",
+    "type": "usage",
+    "prompt": "‘Whether A or B, …’: ‘Whether rich or poor, everyone is equal before the law.’",
+    "japanese": null,
+    "choices": [
+      "金持[かねも]ちであれ貧乏[びんぼう]であれ、法[ほう]の前[まえ]では平等[びょうどう]だ。",
+      "金持[かねも]ちにしろ貧乏[びんぼう]にしろとあって、平等[びょうどう]だ。",
+      "金持[かねも]ちなり貧乏[びんぼう]なり、平等[びょうどう]どころだ。",
+      "金持[かねも]ちといい貧乏[びんぼう]といい、平等[びょうどう]をもってだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～であれ～であれ = ‘whether A or B (in any case)…’. It lists exhaustive alternatives that don’t affect the result. The other options are malformed or change the meaning."
+  },
+  {
+    "id": "n1_q057",
+    "type": "usage",
+    "prompt": "‘At most about…’: ‘My savings amount to a million yen at most.’",
+    "japanese": null,
+    "choices": [
+      "貯金[ちょきん]はせいぜい百万円[ひゃくまんえん]といったところだ。",
+      "貯金[ちょきん]はせいぜい百万円[ひゃくまんえん]の極みだ。",
+      "貯金[ちょきん]はせいぜい百万円[ひゃくまんえん]の至りだ。",
+      "貯金[ちょきん]はせいぜい百万円[ひゃくまんえん]が最後だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～といったところだ = ‘it’s about / at most (a modest figure)’. の極み/の至り = ‘the height of’, が最後 = ‘once…’ — none give this ‘roughly/at most’ estimate."
+  },
+  {
+    "id": "n1_q058",
+    "type": "usage",
+    "prompt": "Emphasizing a large amount (weight/length): ‘He lifted a stone weighing 100 kilos.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は百[ひゃく]キロからある石[いし]を持[も]ち上[あ]げた。",
+      "彼[かれ]は百[ひゃく]キロからする石[いし]を持[も]ち上[あ]げた。",
+      "彼[かれ]は百[ひゃく]キロだにある石[いし]を持[も]ち上[あ]げた。",
+      "彼[かれ]は百[ひゃく]キロすらある石[いし]を持[も]ち上[あ]げた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "数量＋からある = ‘as much as / no less than (weight, length, number)’. からする is used for PRICES (百万円からする). For weight, use からある; for cost, からする."
+  },
+  {
+    "id": "n1_q059",
+    "type": "usage",
+    "prompt": "Emphasizing a high price: ‘She was wearing a kimono costing a million yen or more.’",
+    "japanese": null,
+    "choices": [
+      "百万円[ひゃくまんえん]からする着物[きもの]を着[き]ていた。",
+      "百万円[ひゃくまんえん]からある着物[きもの]を着[き]ていた。",
+      "百万円[ひゃくまんえん]だにする着物[きもの]を着[き]ていた。",
+      "百万円[ひゃくまんえん]ばかりする着物[きもの]を着[き]ていた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "金額＋からする = ‘costing as much as…’ (for prices). からある is for physical quantity (weight/size/number), so ‘百万円からある’ would be the wrong pairing for cost."
+  },
+  {
+    "id": "n1_q060",
+    "type": "usage",
+    "prompt": "‘Just as it was / innate’: ‘She told the story in tears.’",
+    "japanese": null,
+    "choices": [
+      "彼女[かのじょ]は涙[なみだ]ながらに、話[はな]し続[つづ]けた。",
+      "彼女[かのじょ]は涙[なみだ]ながらも、話[はな]し続[つづ]けた。",
+      "彼女[かのじょ]は涙[なみだ]がてら、話[はな]し続[つづ]けた。",
+      "彼女[かのじょ]は涙[なみだ]かたがた、話[はな]し続[つづ]けた。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ながらに(して) = ‘in a (continuing) state / just as’ (涙ながらに = ‘in tears’, 生まれながらに = ‘from birth’). This is not the ‘although’ ながらも or the ‘while’ がてら/かたがた."
+  },
+  {
+    "id": "n1_q061",
+    "type": "usage",
+    "prompt": "Extreme (negative) quality: ‘His attitude was extremely rude.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]の態度[たいど]は失礼[しつれい]極[きわ]まりない。",
+      "彼[かれ]の態度[たいど]は失礼[しつれい]のかぎりをする。",
+      "彼[かれ]の態度[たいど]は失礼[しつれい]にたえない。",
+      "彼[かれ]の態度[たいど]は失礼[しつれい]をもってだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "（な形容詞）＋極まりない/極まる = ‘extremely… (usually a negative quality)’: 失礼極まりない, 危険極まる. にたえない = ‘cannot bear’, をもって = ‘by means of’ — not ‘extremely’."
+  },
+  {
+    "id": "n1_q062",
+    "type": "usage",
+    "prompt": "Which sentence correctly uses ずくめ?",
+    "japanese": null,
+    "choices": [
+      "今日[きょう]はいいことずくめだった。",
+      "今日[きょう]はいいことまみれだった。",
+      "今日[きょう]はいいことだらけずくめだった。",
+      "今日[きょう]はいいことがてらだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ずくめ = ‘entirely / all (a category), often good things or a uniform set’: いいことずくめ, ごちそうずくめ, 黒ずくめ. まみれ (smeared) and がてら (‘while’) don’t fit ‘all good things’."
+  },
+  {
+    "id": "n1_q063",
+    "type": "usage",
+    "prompt": "Starting point of a series: ‘Starting with Tokyo, the tour visited ten cities.’",
+    "japanese": null,
+    "choices": [
+      "東京[とうきょう]を皮切[かわき]りに、十[じゅう]の都市[とし]を回[まわ]った。",
+      "東京[とうきょう]を皮切[かわき]りに際して、十[じゅう]の都市[とし]を回[まわ]った。",
+      "東京[とうきょう]をもって、十[じゅう]の都市[とし]を回[まわ]った。",
+      "東京[とうきょう]はおろか、十[じゅう]の都市[とし]を回[まわ]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を皮切りに(して) = ‘beginning with X, a series follows/spreads’. をもって = ‘as of/by means’, はおろか = ‘let alone’ — neither marks the start of an expanding series."
+  },
+  {
+    "id": "n1_q064",
+    "type": "usage",
+    "prompt": "Formal concession: ‘Even a genius makes mistakes.’",
+    "japanese": null,
+    "choices": [
+      "天才[てんさい]といえども、間違[まちが]えることがある。",
+      "天才[てんさい]といったところ、間違[まちが]えることがある。",
+      "天才[てんさい]ときたら、間違[まちが]えることがある。",
+      "天才[てんさい]とあって、間違[まちが]えることがある。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～といえども = a formal ‘even (X is no exception) / although one may say X’. ときたら (critical topic), とあって (‘because it is’) don’t express this ‘even… still’ concession."
+  },
+  {
+    "id": "n1_q065",
+    "type": "usage",
+    "prompt": "‘When it comes to (a high level), things differ’: ‘When you become a manager, responsibility grows.’",
+    "japanese": null,
+    "choices": [
+      "管理職[かんりしょく]ともなると、責任[せきにん]も重[おも]くなる。",
+      "管理職[かんりしょく]とあって、責任[せきにん]も重[おも]くなる。",
+      "管理職[かんりしょく]をもって、責任[せきにん]も重[おも]くなる。",
+      "管理職[かんりしょく]といえども、責任[せきにん]も重[おも]くなる。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ともなると/ともなれば = ‘once you reach (a special level/stage), naturally…’. とあって = a specific current cause; といえども = ‘even though’ — neither expresses ‘upon reaching such a level’."
+  },
+  {
+    "id": "n1_q066",
+    "type": "usage",
+    "prompt": "‘Do X or Y (either, your choice)’: ‘Call or email — let me know somehow.’",
+    "japanese": null,
+    "choices": [
+      "電話[でんわ]するなりメールするなり、連絡[れんらく]して。",
+      "電話[でんわ]するやらメールするやら、連絡[れんらく]して。",
+      "電話[でんわ]するにせよメールしろ、連絡[れんらく]して。",
+      "電話[でんわ]するがてらメールがてら、連絡[れんらく]して。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なり～なり = ‘X or Y (pick one and act)’, suggesting options. やら～やら lists things vaguely (often complaints); it doesn’t offer a ‘choose one’ suggestion the way なり～なり does."
+  },
+  {
+    "id": "n1_q067",
+    "type": "usage",
+    "prompt": "Listing jumbled things (often overwhelmed): ‘What with work and housework, I’m exhausted.’",
+    "japanese": null,
+    "choices": [
+      "仕事[しごと]やら家事[かじ]やらで、くたくただ。",
+      "仕事[しごと]なり家事[かじ]なりで、くたくただ。",
+      "仕事[しごと]といい家事[かじ]といい、くたくたに限る。",
+      "仕事[しごと]であれ家事[かじ]であれ、くたくただ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～やら～やら = lists a jumble of things, often with a ‘what with all this…’ overwhelmed feeling. なり～なり offers a choice; であれ～であれ = ‘whether… or’ — different nuances."
+  },
+  {
+    "id": "n1_q068",
+    "type": "usage",
+    "prompt": "Evaluating from several aspects: ‘Both in color and in shape, this vase is superb.’",
+    "japanese": null,
+    "choices": [
+      "色[いろ]といい形[かたち]といい、この花瓶[かびん]はすばらしい。",
+      "色[いろ]なり形[かたち]なり、この花瓶[かびん]はすばらしい。",
+      "色[いろ]やら形[かたち]やら、この花瓶[かびん]はすばらしい。",
+      "色[いろ]であれ形[かたち]であれ、この花瓶[かびん]はすばらしい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～といい～といい = ‘both in terms of X and Y (every aspect points the same way)’, an appraisal. なり (choice), やら (jumble), であれ (‘whether’) don’t give this ‘in every respect’ evaluation."
+  },
+  {
+    "id": "n1_q069",
+    "type": "usage",
+    "prompt": "Which pair is closest in meaning (‘the instant…’)?",
+    "japanese": null,
+    "choices": [
+      "「〜が早[はや]いか」と「〜や否[いな]や」",
+      "「〜が早[はや]いか」と「〜そばから」",
+      "「〜が早[はや]いか」と「〜かたわら」",
+      "「〜が早[はや]いか」と「〜ながらに」"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both ～が早いか and ～や否や mean ‘the very instant that…’ (immediate sequence). そばから = ‘as fast as (repeatedly undone)’, かたわら = ‘alongside’, ながらに = ‘in a state’ — not ‘the instant’."
+  },
+  {
+    "id": "n1_q070",
+    "type": "usage",
+    "prompt": "‘Without X, no Y’ (formal): ‘Without effort, there is no success.’",
+    "japanese": null,
+    "choices": [
+      "努力[どりょく]なくして、成功[せいこう]はない。",
+      "努力[どりょく]をよそに、成功[せいこう]はない。",
+      "努力[どりょく]もさることながら、成功[せいこう]はない。",
+      "努力[どりょく]にひきかえ、成功[せいこう]はない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～なくして(は)…ない = a formal ‘without X, there can be no Y’. をよそに = ‘ignoring’, もさることながら = ‘not only’, にひきかえ = ‘unlike’ — none express ‘without X, no Y’."
+  },
+  {
+    "id": "n1_q071",
+    "type": "usage",
+    "prompt": "Setting a topic aside: ‘Joking aside, let’s get down to business.’",
+    "japanese": null,
+    "choices": [
+      "冗談[じょうだん]はさておき、本題[ほんだい]に入[はい]ろう。",
+      "冗談[じょうだん]はおろか、本題[ほんだい]に入[はい]ろう。",
+      "冗談[じょうだん]をもって、本題[ほんだい]に入[はい]ろう。",
+      "冗談[じょうだん]ときたら、本題[ほんだい]に入[はい]ろう。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～はさておき = ‘setting X aside (for now), let’s turn to…’. はおろか = ‘let alone’, をもって = ‘by means of’, ときたら = critical topic — none mean ‘leaving X aside’."
+  },
+  {
+    "id": "n1_q072",
+    "type": "usage",
+    "prompt": "‘Only someone as X as…’: ‘This is a feat possible only for a genius like him.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]にしてはじめてできる芸当[げいとう]だ。",
+      "彼[かれ]をもってできる芸当[げいとう]だ。",
+      "彼[かれ]とあってできる芸当[げいとう]だ。",
+      "彼[かれ]ときたらできる芸当[げいとう]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～にして(はじめて) = ‘only being as remarkable as X can (one do)…’ (彼にして = ‘only he could’). とあって = ‘because it is’, ときたら = critical topic — different meanings of these connectors."
+  },
+  {
+    "id": "n1_q073",
+    "type": "usage",
+    "prompt": "Which sentence correctly uses あっての?",
+    "japanese": null,
+    "choices": [
+      "読者[どくしゃ]あっての作家[さっか]だ。",
+      "読者[どくしゃ]ながらの作家[さっか]だ。",
+      "読者[どくしゃ]にして作家[さっか]だ。",
+      "読者[どくしゃ]をもっての作家[さっか]だ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "AあってのB = ‘B that can exist only because A exists’ (‘a writer is nothing without readers’). The other particles don’t form this ‘made possible solely by’ dependency."
+  },
+  {
+    "id": "n1_q074",
+    "type": "usage",
+    "prompt": "Turning point (formal): ‘I moved house on the occasion of changing jobs.’",
+    "japanese": null,
+    "choices": [
+      "転職[てんしょく]を機[き]に、引[ひ]っ越[こ]した。",
+      "転職[てんしょく]を余儀なくされ、引[ひ]っ越[こ]した。",
+      "転職[てんしょく]をものともせず、引[ひ]っ越[こ]した。",
+      "転職[てんしょく]をよそに、引[ひ]っ越[こ]した。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～を機に = ‘taking X as an opportunity/turning point’. を余儀なくされる = ‘be forced to’, をものともせず = ‘undaunted by’, をよそに = ‘ignoring’ — none mark a chosen turning point."
+  },
+  {
+    "id": "n1_q075",
+    "type": "usage",
+    "prompt": "Acting as if to say: ‘He waved his hand as if to say “Hurry up.”’",
+    "japanese": null,
+    "choices": [
+      "早[はや]くしろとばかりに、手[て]を振[ふ]った。",
+      "早[はや]くしろとあって、手[て]を振[ふ]った。",
+      "早[はや]くしろにひきかえ、手[て]を振[ふ]った。",
+      "早[はや]くしろをよそに、手[て]を振[ふ]った。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とばかりに = ‘as if to say…’ (behaving in a way that expresses X without words). It’s a cousin of んばかり. とあって = ‘because it is’ — not ‘as if to say’."
+  },
+  {
+    "id": "n1_q076",
+    "type": "usage",
+    "prompt": "No means to do: ‘There was no way to know what he was thinking.’",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]が何[なに]を考[かんが]えているか、知[し]るすべもなかった。",
+      "彼[かれ]が何[なに]を考[かんが]えているか、知[し]るにかたくなかった。",
+      "彼[かれ]が何[なに]を考[かんが]えているか、知[し]ってやまなかった。",
+      "彼[かれ]が何[なに]を考[かんが]えているか、知[し]る限りだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～すべもない = ‘there is no means/way to…’ (知るすべもない). にかたくない = ‘easy to’ (the opposite!), てやまない = ‘never cease (a feeling)’ — different meanings."
+  },
+  {
+    "id": "n1_q077",
+    "type": "usage",
+    "prompt": "Two factors combining for an effect: ‘Together with the fine weather, the festival drew huge crowds.’",
+    "japanese": null,
+    "choices": [
+      "好天[こうてん]とあいまって、祭[まつ]りは大[おお]にぎわいだった。",
+      "好天[こうてん]をよそに、祭[まつ]りは大[おお]にぎわいだった。",
+      "好天[こうてん]にひきかえ、祭[まつ]りは大[おお]にぎわいだった。",
+      "好天[こうてん]はおろか、祭[まつ]りは大[おお]にぎわいだった。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～とあいまって = ‘combined with / coupled with (X, producing a heightened effect)’. をよそに = ‘ignoring’, にひきかえ = ‘unlike’, はおろか = ‘let alone’ — none mean ‘working together with’."
+  },
+  {
+    "id": "n1_q078",
+    "type": "usage",
+    "prompt": "‘Since he lay down, he hasn’t moved.’ (no change since an action)",
+    "japanese": null,
+    "choices": [
+      "彼[かれ]は横[よこ]になったきり、動[うご]かない。",
+      "彼[かれ]は横[よこ]になったっぱなし、動[うご]かない。",
+      "彼[かれ]は横[よこ]になるが早いか、動[うご]かない。",
+      "彼[かれ]は横[よこ]になるなり、動[うご]かない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～たきり = ‘since doing X, (no further change/action)’, paired with a negative. っぱなし needs a transitive ‘leave-on’ nuance; が早いか/なり mark an immediate next action, not ongoing stillness."
+  },
+  {
+    "id": "n1_q079",
+    "type": "usage",
+    "prompt": "‘Depending on how you look at it…’: ‘Depending on how you take it, his words are kind.’",
+    "japanese": null,
+    "choices": [
+      "取[と]りようによっては、彼[かれ]の言葉[ことば]は優[やさ]しい。",
+      "取[と]ろうにも、彼[かれ]の言葉[ことば]は優[やさ]しい。",
+      "取[と]るが早いか、彼[かれ]の言葉[ことば]は優[やさ]しい。",
+      "取[と]るとあって、彼[かれ]の言葉[ことば]は優[やさ]しい。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ようによっては = ‘depending on how one …s (there’s another interpretation)’. ～(よ)うにも = ‘even if I wanted to…can’t’, が早いか = ‘the instant’ — different structures."
+  },
+  {
+    "id": "n1_q080",
+    "type": "usage",
+    "prompt": "‘Wondering whether to X or not’: ‘I’m torn over whether to go or not.’",
+    "japanese": null,
+    "choices": [
+      "行[い]こうか行[い]くまいか、迷[まよ]っている。",
+      "行[い]くか行[い]かないが早いか、迷[まよ]っている。",
+      "行[い]くなり行[い]かないなり、迷[まよ]っている。",
+      "行[い]くやら行[い]かないやら、迷[まよ]っている。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～(よ)うか～まいか = ‘whether to do or not (deliberating)’. なり～なり offers a choice to act, やら～やら lists a jumble — neither expresses internal ‘to X or not to X’ hesitation."
+  },
+  {
+    "id": "n1_q081",
+    "type": "usage",
+    "prompt": "Which fits a personal emotion adjective (‘I feel utterly…’)?",
+    "japanese": null,
+    "choices": [
+      "さびしい限[かぎ]りだ。",
+      "さびしいの極[きわ]みをする。",
+      "さびしいが最後だ。",
+      "さびしいこととてだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "（感情形容詞）＋限りだ = ‘I feel extremely…’ (さびしい限り, 心細い限り). の極み attaches to NOUNS (ぜいたくの極み), が最後 = ‘once…’, こととて = ‘because’ — none pair with an emotion adjective this way."
+  },
+  {
+    "id": "n1_q082",
+    "type": "usage",
+    "prompt": "‘No matter how hard, I won’t give up.’ (concession with どんなに)",
+    "japanese": null,
+    "choices": [
+      "どんなに苦[くる]しかろうと、あきらめない。",
+      "どんなに苦[くる]しいが早いか、あきらめない。",
+      "どんなに苦[くる]しいそばから、あきらめない。",
+      "どんなに苦[くる]しいこととて、あきらめない。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～かろうと (adjective volitional + と) = ‘no matter how … it may be’. が早いか/そばから mark timing, こととて = ‘because’ — none express ‘no matter how much’."
+  },
+  {
+    "id": "n1_q083",
+    "type": "usage",
+    "prompt": "Formal objective inference: ‘The cause is presumed to be human error.’",
+    "japanese": null,
+    "choices": [
+      "原因[げんいん]は人為的[じんいてき]ミスであるものと思[おも]われる。",
+      "原因[げんいん]は人為的[じんいてき]ミスであるにかたくない。",
+      "原因[げんいん]は人為的[じんいてき]ミスであってやまない。",
+      "原因[げんいん]は人為的[じんいてき]ミスである限りだ。"
+    ],
+    "correctIndex": 0,
+    "explanation": "～ものと思われる = a formal, objective ‘it is presumed/thought that…’, common in reports. にかたくない = ‘easy to imagine’, てやまない = ‘never cease’ — not a neutral presumption."
+  },
+  {
+    "id": "n1_q084",
+    "type": "usage",
+    "prompt": "Pick the correct ‘covered/full’ word: a room ‘full of dust (scattered everywhere)’:",
+    "japanese": null,
+    "choices": [
+      "ほこりだらけの部屋[へや]",
+      "ほこりずくめの部屋[へや]",
+      "ほこりまみれの部屋[へや]",
+      "ほこりがてらの部屋[へや]"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a room with dust scattered all over, だらけ (‘full of scattered things’) fits. まみれ is for a substance smeared ON a surface/body (手がほこりまみれ), ずくめ = ‘entirely (a category)’, がてら = ‘while’."
+  }
+]

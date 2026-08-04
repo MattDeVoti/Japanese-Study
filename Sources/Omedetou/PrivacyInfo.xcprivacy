@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Privacy manifest for the app.
+         App Store Connect rejects uploads that use "required reason" APIs
+         without declaring them. Reason codes are matched literally and are
+         taken from Apple's own tables:
+         https://developer.apple.com/documentation/bundleresources/app-privacy-configuration/nsprivacyaccessedapitypes/nsprivacyaccessedapitype
+
+         The app uses none of the other covered categories — no disk-space
+         APIs, no system boot time (no systemUptime or mach_absolute_time),
+         and no active-keyboard APIs. -->
+
+    <!-- Nothing here tracks anyone, and nothing leaves the device. -->
+    <key>NSPrivacyTracking</key>
+    <false/>
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+
+    <!-- No data is collected: no accounts, no analytics, no third-party SDKs.
+         Study progress stays on the device, and when iCloud sync is enabled it
+         goes to the user's own private CloudKit database, which the developer
+         cannot read. -->
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array/>
+
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- CA92.1 — defaults readable only by this app: theme, text
+                     size, flashcard priority, game unlocks and high scores,
+                     the saved sudoku board, reminder settings. -->
+                <string>CA92.1</string>
+                <!-- 1C8F.1 — the App Group suite shared with the widget
+                     extension (WidgetShared), which carries the word snapshot
+                     the widget displays. -->
+                <string>1C8F.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <!-- C617.1 — metadata of files inside the app container.
+                     FileStore.modifiedAt reads the modification date of
+                     srs.json / exams.json in Application Support so sync can
+                     tell which copy of a setting is the newer one. -->
+                <string>C617.1</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>

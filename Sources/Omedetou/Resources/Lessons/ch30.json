@@ -1,0 +1,1334 @@
+{
+  "id": "ch30",
+  "chapterNumber": 32,
+  "title": "Change Over Time",
+  "points": [
+    {
+      "id": "ni-shitagatte",
+      "name": "〜にしたがって (ni shitagatte) — as / in accordance with (proportional change)",
+      "shortDescription": "As X progresses or changes, Y changes correspondingly — two developments moving in lockstep.",
+      "formation": "Verb (dictionary form) / Noun + にしたがって + result (that changes in parallel)",
+      "explanation": "にしたがって comes from 従[したが]う (shitagau, to follow/obey), and the etymology is meaningful: the result 'follows along' as the condition progresses. 年[ねん]を取[と]るにしたがって、体力[たいりょく]が落[お]ちてくる: aging and declining strength move together, one following in the wake of the other. 技術[ぎじゅつ]が進歩[しんぽ]するにしたがって、生活[せいかつ]も便利[べんり]になった: as technology advanced, convenience followed — the parallel progression is the whole point. For にしたがって to work, the two changes must genuinely move in tandem; it doesn't fit independent developments.\n\nNearly synonymous is につれて (as / alongside) — they're often interchangeable in practice. If a subtle difference exists: にしたがって leans slightly more formal and implies an ordered, almost rule-governed following, while につれて is a bit more casual and observational. Both can appear in exam questions, so it's worth recognizing and using either.",
+      "rules": [
+        "Verb (dict) / Noun + にしたがって = as X progresses/changes, Y changes in parallel",
+        "Both changes must move in the same direction and in tandem",
+        "The result clause usually describes a natural, expected consequence of the change",
+        "Nearly synonymous with につれて (as / alongside); にしたがって is slightly more formal",
+        "From 従[したが]う (to follow) — the result 'follows' the progress of the condition"
+      ],
+      "examples": [
+        {
+          "japanese": "日本語[にほんご]が上手[じょうず]になるにしたがって、日本[にほん]の文化[ぶんか]も理解[りかい]できるようになりました。",
+          "romaji": "Nihongo ga jouzu ni naru ni shitagatte, Nihon no bunka mo rikai dekiru you ni narimashita.",
+          "english": "As my Japanese improved, I came to understand Japanese culture as well."
+        },
+        {
+          "japanese": "経済[けいざい]の発展[はってん]にしたがって、都市化[としか]も進[すす]んでいます。",
+          "romaji": "Keizai no hatten ni shitagatte, toshika mo susunde imasu.",
+          "english": "In accordance with economic development, urbanization is also progressing."
+        },
+        {
+          "japanese": "時代[じだい]の変化[へんか]にしたがって、言葉[ことば]の使[つか]い方[かた]も変[か]わっていきます。",
+          "romaji": "Jidai no henka ni shitagatte, kotoba no tsukaikata mo kawatte ikimasu.",
+          "english": "As the times change, the way words are used also changes."
+        },
+        {
+          "japanese": "気温[きおん]が上[あ]がるにしたがって、川[かわ]の水量[すいりょう]も増[ふ]えていきます。",
+          "romaji": "Kion ga agaru ni shitagatte, kawa no suiryou mo fuete ikimasu.",
+          "english": "As the temperature rises, the water volume in rivers also increases."
+        }
+      ],
+      "flashcardHeader": "〜にしたがって",
+      "flashcardAnswer": "As X progresses or changes, Y changes correspondingly — two developments moving in lockstep.",
+      "practice": [
+        {
+          "id": "ni-shitagatte_q1",
+          "type": "usage",
+          "prompt": "What does 〜にしたがって mean?",
+          "japanese": null,
+          "choices": [
+            "despite / even though",
+            "as / in accordance with / following along with (proportional change — as X changes, Y also changes)",
+            "because of / due to",
+            "while / during"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜にしたがって = as / in accordance with / proportional change. 時代[じだい]が変[か]わるにしたがって、言葉[ことば]も変[か]わる = as the times change, language also changes. X にしたがって = as X progresses/changes, Y also progresses/changes proportionally."
+        },
+        {
+          "id": "ni-shitagatte_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'As technology advances, our lives become more convenient'?",
+          "japanese": null,
+          "choices": [
+            "技術[ぎじゅつ]が進歩[しんぽ]するにしたがって、生活[せいかつ]が便利[べんり]になる。",
+            "技術[ぎじゅつ]が進歩[しんぽ]するのに、生活[せいかつ]が便利[べんり]になる。",
+            "技術[ぎじゅつ]が進歩[しんぽ]したにしたがって、生活[せいかつ]が便利[べんり]になる。",
+            "技術[ぎじゅつ]が進歩[しんぽ]するにつれて、生活[せいかつ]が便利[べんり]になる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 進歩[しんぽ]する + にしたがって = as  advances. 生活[せいかつ]が便利[べんり]になる = life becomes convenient. Both にしたがって and につれて are natural for proportional change; にしたがって is slightly more formal."
+        },
+        {
+          "id": "ni-shitagatte_q3",
+          "type": "usage",
+          "prompt": "What is the KEY requirement for にしたがって?",
+          "japanese": null,
+          "choices": [
+            "The first clause must be in the past tense",
+            "BOTH clauses must describe change (as X changes, Y also changes — proportional dynamic)",
+            "The subject must be the same in both clauses",
+            "X must be a negative event"
+          ],
+          "correctIndex": 1,
+          "explanation": "にしたがって requires BOTH clauses to describe change or movement. As X increases/decreases/progresses, Y also increases/decreases. If X is static (not changing), にしたがって is unnatural. Both clauses must be dynamic."
+        },
+        {
+          "id": "ni-shitagatte_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'As the patient's condition worsened, the doctor became more anxious'?",
+          "japanese": null,
+          "choices": [
+            "患者[かんじゃ]の状態[じょうたい]が悪化[あっか]するにしたがって、医師[いし]は焦[あせ]った。",
+            "患者[かんじゃ]の状態[じょうたい]が悪化[あっか]したにしたがって、医師[いし]は焦[あせ]った。",
+            "患者[かんじゃ]の状態[じょうたい]が悪化[あっか]するのに、医師[いし]は焦[あせ]った。",
+            "患者[かんじゃ]の状態[じょうたい]が悪化[あっか]するにつれて、医師[いし]は焦[あせ]った。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 悪化[あっか]する + にしたがって = as  worsens. 医師[いし]は焦[あせ]った = doctor became anxious. Both conditions change proportionally."
+        },
+        {
+          "id": "ni-shitagatte_q5",
+          "type": "construct",
+          "prompt": "What is the DIFFERENCE between にしたがって and につれて?",
+          "japanese": null,
+          "choices": [
+            "They are completely identical in all contexts",
+            "にしたがって = slightly more formal/written; につれて = more conversational; both express proportional change",
+            "にしたがって = sudden change; につれて = gradual change",
+            "にしたがって = for people; につれて = for objects"
+          ],
+          "correctIndex": 1,
+          "explanation": "にしたがって and につれて have nearly the same meaning (as X changes, Y changes). にしたがって is slightly more formal/bookish; につれて is more conversational. Both are correct in most contexts, but にしたがって appears more in formal writing."
+        },
+        {
+          "id": "ni-shitagatte_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'As you get older, it becomes harder to learn new things'?",
+          "japanese": null,
+          "choices": [
+            "年[ねん]をとるにしたがって、新[あたら]しいことを覚[おぼ]えにくくなる。",
+            "年[ねん]をとったにしたがって、新[あたら]しいことを覚[おぼ]えにくくなる。",
+            "年[ねん]をとるのに、新[あたら]しいことを覚[おぼ]えにくくなる。",
+            "年[ねん]をとるながらも、新[あたら]しいことを覚[おぼ]えにくくなる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 年[ねん]をとる + にしたがって = as  ages. 新[あたら]しいことを覚[おぼ]えにくくなる = becomes harder to learn new things. Proportional change — two things change together."
+        },
+        {
+          "id": "ni-shitagatte_q7",
+          "type": "usage",
+          "prompt": "にしたがって can also mean 'in accordance with / following [a rule/instruction]'. Which shows this use?",
+          "japanese": null,
+          "choices": [
+            "規則[きそく]にしたがって行動[こうどう]する。(act in accordance with the rules)",
+            "時間[じかん]にしたがって変[か]わる。(changes over time)",
+            "気温[きおん]にしたがって服[ふく]を変[か]える。(change clothes as temperature changes)",
+            "春[はる]になるにしたがって暖[あたた]かくなる。(as spring comes, gets warmer)"
+          ],
+          "correctIndex": 0,
+          "explanation": "規則[きそく]にしたがって行動[こうどう]する = act in accordance with the rules. This is the SECOND meaning of にしたがって — following/obeying a rule or instruction. Noun + にしたがって = in accordance with . Options 2-4 are all the proportional-change use."
+        },
+        {
+          "id": "ni-shitagatte_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please follow the emergency procedure'?",
+          "japanese": null,
+          "choices": [
+            "緊急[きんきゅう]手順[てじゅん]にしたがって行動[こうどう]してください。",
+            "緊急[きんきゅう]手順[てじゅん]のにしたがって行動[こうどう]してください。",
+            "緊急[きんきゅう]手順[てじゅん]するにしたがって行動[こうどう]してください。",
+            "緊急[きんきゅう]手順[てじゅん]ながらも行動[こうどう]してください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にしたがって (in accordance with): 緊急[きんきゅう]手順[てじゅん] (emergency procedure) + にしたがって = in accordance with the emergency procedure. 行動[こうどう]してください = please act. Formal instruction-following use."
+        },
+        {
+          "id": "ni-shitagatte_q9",
+          "type": "translation",
+          "prompt": "Which means 'As the economy grew, consumption also increased'?",
+          "japanese": null,
+          "choices": [
+            "経済[けいざい]が成長[せいちょう]するにしたがって、消費[しょうひ]も増[ふ]えた。",
+            "経済[けいざい]が成長[せいちょう]したのに、消費[しょうひ]も増[ふ]えた。",
+            "経済[けいざい]が成長[せいちょう]するながらも、消費[しょうひ]も増[ふ]えた。",
+            "経済[けいざい]が成長[せいちょう]するにつれ、消費[しょうひ]も増[ふ]えた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 成長[せいちょう]する + にしたがって = as  grew. 消費[しょうひ]も増[ふ]えた = consumption also increased. Proportional economic trend."
+        },
+        {
+          "id": "ni-shitagatte_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'As the seasons change, trees change color'?",
+          "japanese": null,
+          "choices": [
+            "季節[きせつ]が変[か]わるにしたがって、木[き]の色[いろ]が変[か]わる。",
+            "季節[きせつ]が変[か]わったにしたがって、木[き]の色[いろ]が変[か]わる。",
+            "季節[きせつ]が変[か]わるのに、木[き]の色[いろ]が変[か]わる。",
+            "季節[きせつ]が変[か]わるながらも、木[き]の色[いろ]が変[か]わる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 変[か]わる + にしたがって = as  change. 木[き]の色[いろ]が変[か]わる = trees change color. Natural proportional seasonal change."
+        },
+        {
+          "id": "ni-shitagatte_q11",
+          "type": "usage",
+          "prompt": "Which sentence uses にしたがって INCORRECTLY (the first clause doesn't describe change)?",
+          "japanese": null,
+          "choices": [
+            "気温[きおん]が上[あ]がるにしたがって、クーラーをつける人[ひと]が増[ふ]える。",
+            "春[はる]になるにしたがって、暖[あたた]かくなる。",
+            "彼[かれ]が日本人[にほんじん]にしたがって、日本語[にほんご]を話[はな]す。",
+            "技術[ぎじゅつ]が進歩[しんぽ]するにしたがって、生活[せいかつ]が楽[らく]になる。"
+          ],
+          "correctIndex": 2,
+          "explanation": "彼[かれ]が日本人[にほんじん]にしたがって = 'he, following the Japanese person (obeying)' is odd/ungrammatical in this sense. The correct way to say this use is 先生[せんせい]にしたがって (follow the teacher), not 日本人[にほんじん]にしたがって for identity. The verb+にしたがって proportional change requires both clauses to change."
+        },
+        {
+          "id": "ni-shitagatte_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'As the crowd grew, the atmosphere became more exciting'?",
+          "japanese": null,
+          "choices": [
+            "人[ひと]が増[ふ]えるにしたがって、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えたにしたがって、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えるのに、盛[も]り上[あ]がってきた。",
+            "人[ひと]が増[ふ]えるながらも、盛[も]り上[あ]がってきた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 増[ふ]える + にしたがって = as  grows. 盛[も]り上[あ]がってきた = got more exciting. Proportional change — crowd size and excitement change together."
+        },
+        {
+          "id": "ni-shitagatte_q13",
+          "type": "translation",
+          "prompt": "Which means 'As the sun sets, the temperature drops'?",
+          "japanese": null,
+          "choices": [
+            "日[ひ]が沈[しず]むにしたがって、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]むのに、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]むと、気温[きおん]が下[さ]がる。",
+            "日[ひ]が沈[しず]んだにしたがって、気温[きおん]が下[さ]がる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 沈[しず]む + にしたがって = as  sets. 気温[きおん]が下[さ]がる = temperature drops. Note: 〜と (option 3) also works for automatic natural events; にしたがって emphasizes the proportional progression."
+        },
+        {
+          "id": "ni-shitagatte_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please follow the instructions on the package'?",
+          "japanese": null,
+          "choices": [
+            "パッケージの指示[しじ]にしたがって使用[しよう]してください。",
+            "パッケージの指示[しじ]のにしたがって使用[しよう]してください。",
+            "パッケージの指示[しじ]するにしたがって使用[しよう]してください。",
+            "パッケージにしたがって指示[しじ]してください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + にしたがって (in accordance with): 指示[しじ] (instructions) + にしたがって = in accordance with the instructions. 使用[しよう]してください = please use. Following-rule use."
+        },
+        {
+          "id": "ni-shitagatte_q15",
+          "type": "usage",
+          "prompt": "Which shows the FOLLOWING/OBEYING use of にしたがって?",
+          "japanese": null,
+          "choices": [
+            "春[はる]になるにしたがって暖[あたた]かくなる。",
+            "法律[ほうりつ]にしたがって行動[こうどう]する。",
+            "経済[けいざい]が成長[せいちょう]するにしたがって消費[しょうひ]が増[ふ]える。",
+            "人口[じんこう]が増[ふ]えるにしたがって問題[もんだい]も増[ふ]える。"
+          ],
+          "correctIndex": 1,
+          "explanation": "法律[ほうりつ]にしたがって行動[こうどう]する = act in accordance with the law (following/obeying). Noun + にしたがって = following/obeying . Options 1, 3, 4 are all proportional-change uses."
+        },
+        {
+          "id": "ni-shitagatte_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'As I kept studying, I began to understand'?",
+          "japanese": null,
+          "choices": [
+            "勉強[べんきょう]し続[つづ]けるにしたがって、分[わ]かってきた。",
+            "勉強[べんきょう]し続[つづ]けたにしたがって、分[わ]かってきた。",
+            "勉強[べんきょう]し続[つづ]けるのに、分[わ]かってきた。",
+            "勉強[べんきょう]し続[つづ]けるながらも、分[わ]かってきた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 勉強[べんきょう]し続[つづ]ける + にしたがって = as  continue studying. 分[わ]かってきた = came to understand. Proportional relationship between continued study and growing understanding."
+        },
+        {
+          "id": "ni-shitagatte_q17",
+          "type": "translation",
+          "prompt": "Which means 'As time passes, memories fade'?",
+          "japanese": null,
+          "choices": [
+            "時間[じかん]が経[へ]つにしたがって、記憶[きおく]が薄[うす]れる。",
+            "時間[じかん]が経[へ]ったのに、記憶[きおく]が薄[うす]れる。",
+            "時間[じかん]が経[へ]つながらも、記憶[きおく]が薄[うす]れる。",
+            "時間[じかん]が経[へ]っているところが、記憶[きおく]が薄[うす]れる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 経[へ]つ + にしたがって = as time passes. 記憶[きおく]が薄[うす]れる = memories fade. Proportional change — time and memory fading move together."
+        },
+        {
+          "id": "ni-shitagatte_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'As the exercise increased, her fitness improved'?",
+          "japanese": null,
+          "choices": [
+            "運動量[うんどうりょう]が増[ふ]えるにしたがって、体力[たいりょく]がついた。",
+            "運動量[うんどうりょう]が増[ふ]えたにしたがって、体力[たいりょく]がついた。",
+            "運動量[うんどうりょう]が増[ふ]えるのに、体力[たいりょく]がついた。",
+            "運動量[うんどうりょう]が増[ふ]えるながらも、体力[たいりょく]がついた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 増[ふ]える + にしたがって = as  increased. 体力[たいりょく]がついた = fitness improved. Two things change together proportionally."
+        },
+        {
+          "id": "ni-shitagatte_q19",
+          "type": "usage",
+          "prompt": "What must be true about BOTH clauses with にしたがって?",
+          "japanese": null,
+          "choices": [
+            "Both must use past tense",
+            "Both must have the same subject",
+            "Both must describe processes or changes (dynamic, not static states)",
+            "Both must be negative events"
+          ],
+          "correctIndex": 2,
+          "explanation": "にしたがって requires BOTH clauses to be DYNAMIC — both must describe processes, changes, or developments. 技術[ぎじゅつ]が進歩[しんぽ]する (advancing) にしたがって、生活[せいかつ]が便利[べんり]になる (becoming convenient). Static states like 彼[かれ]は背[せ]が高[たか]い don't work well before にしたがって."
+        },
+        {
+          "id": "ni-shitagatte_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'As the river flowed downstream, it widened'?",
+          "japanese": null,
+          "choices": [
+            "川[かわ]が下流[かりゅう]に流[なが]れるにしたがって、広[ひろ]くなった。",
+            "川[かわ]が下流[かりゅう]に流[なが]れたにしたがって、広[ひろ]くなった。",
+            "川[かわ]が下流[かりゅう]に流[なが]れるのに、広[ひろ]くなった。",
+            "川[かわ]が下流[かりゅう]に流[なが]れるながらも、広[ひろ]くなった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + にしたがって: 流[なが]れる + にしたがって = as  flows. 広[ひろ]くなった = widened. The river flowing downstream and its widening are proportionally related."
+        }
+      ]
+    },
+    {
+      "id": "uchi-ni",
+      "name": "〜うちに (uchi ni) — while / before it's too late",
+      "shortDescription": "Act while the window of opportunity is still open — 'while X is still true, before conditions change'.",
+      "formation": "Verb (ている form / non-past) + うちに  |  Noun + の + うちに  |  い-adj + うちに",
+      "explanation": "うちに carries a gentle urgency. It means 'while' a condition holds, with the built-in awareness that the condition is temporary — and that awareness is a prompt to act. 若[わか]いうちに、たくさん旅行[りょこう]しておきなさい: youth is finite, so travel while you can. 熱[あつ]いうちに食[た]べてください: the food will cool, so eat now. 覚[おぼ]えているうちに、メモしておいてください: memory fades, so write it down now. In each case, the condition before うちに is time-limited or changing, and that creates mild pressure to act within the window.\n\nThis distinguishes うちに sharply from あいだ (during / while), which simply describes two things happening at the same time without urgency: 彼[かれ]が寝[ね]ているあいだ、静[しず]かにしていた (While he was sleeping, I was quiet — no urgency, just timing). うちに says: the door is open right now — don't wait for it to close. It pairs naturally with imperatives, suggestions, and ておく (doing something in advance).",
+      "rules": [
+        "Verb (ている / non-past) + うちに = while still in that state (act before it changes)",
+        "Noun + の + うちに; い-adj + うちに",
+        "Implies urgency — the condition is temporary, so act within the window",
+        "Contrast: あいだ = neutral 'during/while'; うちに = while you still can",
+        "Often appears with imperatives, requests, or ておく (do in advance)"
+      ],
+      "examples": [
+        {
+          "japanese": "若[わか]いうちに、いろいろな経験[けいけん]をしておいたほうがいいですよ。",
+          "romaji": "Wakai uchi ni, iroiro na keiken wo shite oita hou ga ii desu yo.",
+          "english": "It's better to have various experiences while you're still young."
+        },
+        {
+          "japanese": "熱[あつ]いうちに食[た]べてください。",
+          "romaji": "Atsui uchi ni tabete kudasai.",
+          "english": "Please eat it while it's still hot."
+        },
+        {
+          "japanese": "覚[おぼ]えているうちに、書[か]き留[と]めておきます。",
+          "romaji": "Oboete iru uchi ni, kakitomete okimasu.",
+          "english": "I'll write it down while I still remember it."
+        },
+        {
+          "japanese": "子[こ]どものうちに、外国語[がいこくご]を学[まな]ぶのは大切[たいせつ]です。",
+          "romaji": "Kodomo no uchi ni, gaikokugo wo manabu no wa taisetsu desu.",
+          "english": "Learning a foreign language while still a child is important."
+        }
+      ],
+      "flashcardHeader": "〜うちに",
+      "flashcardAnswer": "Act while the window of opportunity still exists — 'while X is still true, before conditions change'.",
+      "practice": [
+        {
+          "id": "uchi-ni_q1",
+          "type": "usage",
+          "prompt": "What does 〜うちに mean?",
+          "japanese": null,
+          "choices": [
+            "after X is done",
+            "while X is still true (window of opportunity — before it's too late / before the situation changes)",
+            "because of X",
+            "whenever X happens"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜うちに = while  / before . 若[わか]いうちに = while you're still young (before you grow old). It emphasizes a WINDOW OF OPPORTUNITY that must be used before conditions change."
+        },
+        {
+          "id": "uchi-ni_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Learn Japanese while you're young'?",
+          "japanese": null,
+          "choices": [
+            "若[わか]いうちに、日本語[にほんご]を学[まな]びなさい。",
+            "若[わか]いのに、日本語[にほんご]を学[まな]びなさい。",
+            "若[わか]いながらも、日本語[にほんご]を学[まな]びなさい。",
+            "若[わか]くなる前[まえ]に、日本語[にほんご]を学[まな]びなさい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + うちに: 若[わか]い + うちに = while you're young / while you're still young. 日本語[にほんご]を学[まな]びなさい = learn Japanese. うちに captures the window of opportunity (you won't always be young)."
+        },
+        {
+          "id": "uchi-ni_q3",
+          "type": "construct",
+          "prompt": "What form attaches before うちに for VERBS?",
+          "japanese": null,
+          "choices": [
+            "ta-form + うちに",
+            "te-form + うちに",
+            "ている-form or dict-form + うちに",
+            "masu-stem + うちに"
+          ],
+          "correctIndex": 2,
+          "explanation": "Verb + うちに: dict-form or 〜ている + うちに. 寝[ね]ているうちに = while sleeping. 明[あか]るいうちに = while it's still light. ある + うちに = while there is still (some). Both present-state and dict-form work."
+        },
+        {
+          "id": "uchi-ni_q4",
+          "type": "translation",
+          "prompt": "Which means 'While the food is hot, please eat'?",
+          "japanese": null,
+          "choices": [
+            "食[た]べ物[もの]が熱[あつ]いうちに、食[た]べてください。",
+            "食[た]べ物[もの]が熱[あつ]いのに、食[た]べてください。",
+            "食[た]べ物[もの]が熱[あつ]いながらも、食[た]べてください。",
+            "食[た]べ物[もの]が熱[あつ]いから、食[た]べてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + うちに: 熱[あつ]い + うちに = while it's hot (before it cools down). 食[た]べてください = please eat. うちに emphasizes the window — eat NOW before it gets cold."
+        },
+        {
+          "id": "uchi-ni_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'While I remember, let me write it down'?",
+          "japanese": null,
+          "choices": [
+            "覚[おぼ]えているうちに、書[か]いておこう。",
+            "覚[おぼ]えているのに、書[か]いておこう。",
+            "覚[おぼ]えているながらも、書[か]いておこう。",
+            "覚[おぼ]えているまでに、書[か]いておこう。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているうちに: 覚[おぼ]えている + うちに = while still remembering. 書[か]いておこう = let me write it down (beforehand). Memory can fade — うちに emphasizes the window before forgetting."
+        },
+        {
+          "id": "uchi-ni_q6",
+          "type": "usage",
+          "prompt": "What is the SECOND meaning of うちに (something happens WHILE doing X, unexpectedly)?",
+          "japanese": null,
+          "choices": [
+            "While doing X, Y unexpectedly occurred / X changed unnoticed during that time",
+            "While doing X, also doing Y simultaneously",
+            "After finishing X, Y happened",
+            "X happened then Y should happen"
+          ],
+          "correctIndex": 0,
+          "explanation": "うちに also expresses unexpected change during a period: 読[よ]んでいるうちに眠[ねむ]ってしまった = while reading, I fell asleep (unintentionally). The DURATION of X led to Y happening unexpectedly. Different from the 'window of opportunity' use."
+        },
+        {
+          "id": "uchi-ni_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'While reading, I fell asleep (unintentionally)'?",
+          "japanese": null,
+          "choices": [
+            "本[ほん]を読[よ]んでいるうちに、眠[ねむ]ってしまった。",
+            "本[ほん]を読[よ]んでいるのに、眠[ねむ]ってしまった。",
+            "本[ほん]を読[よ]んでいながら、眠[ねむ]ってしまった。",
+            "本[ほん]を読[よ]んだうちに、眠[ねむ]ってしまった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているうちに for unexpected event: 読[よ]んでいる + うちに = while reading. 眠[ねむ]ってしまった = fell asleep (unexpectedly). The activity of reading led to sleeping without intention — classic うちに for unintended outcome."
+        },
+        {
+          "id": "uchi-ni_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'While you still can, try various things'?",
+          "japanese": null,
+          "choices": [
+            "できるうちに、いろいろ試[ため]してみてください。",
+            "できるのに、いろいろ試[ため]してみてください。",
+            "できるながらも、いろいろ試[ため]してみてください。",
+            "できるまでに、いろいろ試[ため]してみてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + うちに: できる + うちに = while you still can (window of opportunity before ability fades). いろいろ試[ため]してみてください = please try various things. Classic window-of-opportunity うちに."
+        },
+        {
+          "id": "uchi-ni_q9",
+          "type": "translation",
+          "prompt": "Which means 'While chatting, evening came without noticing'?",
+          "japanese": null,
+          "choices": [
+            "話[はな]しているうちに、いつのまにか夕方[ゆうがた]になっていた。",
+            "話[はな]しているのに、いつのまにか夕方[ゆうがた]になっていた。",
+            "話[はな]しているながらも、いつのまにか夕方[ゆうがた]になっていた。",
+            "話[はな]しているまでに、いつのまにか夕方[ゆうがた]になっていた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているうちに for unnoticed change: 話[はな]している + うちに = while chatting. いつのまにか夕方[ゆうがた]になっていた = evening came before we knew it. Time passed unnoticed during the activity."
+        },
+        {
+          "id": "uchi-ni_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Read this book while you have time'?",
+          "japanese": null,
+          "choices": [
+            "時間[じかん]があるうちに、この本[ほん]を読[よ]んでください。",
+            "時間[じかん]があるのに、この本[ほん]を読[よ]んでください。",
+            "時間[じかん]があるながらも、この本[ほん]を読[よ]んでください。",
+            "時間[じかん]があるまでに、この本[ほん]を読[よ]んでください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + うちに: ある + うちに = while there is  (before time runs out). 時間[じかん]があるうちに = while you still have time. 読[よ]んでください = please read. Window of opportunity."
+        },
+        {
+          "id": "uchi-ni_q11",
+          "type": "usage",
+          "prompt": "What does the NEGATIVE form (〜ないうちに) express?",
+          "japanese": null,
+          "choices": [
+            "While not doing X",
+            "Before X happens (do Y before the negative situation arrives)",
+            "Without doing X, then Y",
+            "Not yet having done X, then Y happened"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ないうちに = while not yet having done X / before X happens. 暗[くら]くならないうちに帰[かえ]ろう = let's go home before it gets dark (while it's not yet dark). ないうちに = before the negative state arrives."
+        },
+        {
+          "id": "uchi-ni_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'Let's go home before it gets dark'?",
+          "japanese": null,
+          "choices": [
+            "暗[くら]くならないうちに帰[かえ]ろう。",
+            "暗[くら]くなるうちに帰[かえ]ろう。",
+            "暗[くら]くなるまでに帰[かえ]ろう。",
+            "暗[くら]くなってからに帰[かえ]ろう。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ないうちに: 暗[くら]くならない + うちに = before it gets dark (while not yet dark). 帰[かえ]ろう = let's go home. ないうちに = before the state changes (before darkness sets in)."
+        },
+        {
+          "id": "uchi-ni_q13",
+          "type": "translation",
+          "prompt": "Which means 'While it's still warm outside, let's have a BBQ'?",
+          "japanese": null,
+          "choices": [
+            "外[そと]が暖[あたた]かいうちに、バーベキューをしよう。",
+            "外[そと]が暖[あたた]かいのに、バーベキューをしよう。",
+            "外[そと]が暖[あたた]かいながらも、バーベキューをしよう。",
+            "外[そと]が暖[あたた]かいまでに、バーベキューをしよう。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + うちに: 暖[あたた]かい + うちに = while it's still warm. バーベキューをしよう = let's have a BBQ. Window of opportunity — do it before the weather turns cold."
+        },
+        {
+          "id": "uchi-ni_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'While walking, I came up with a good idea'?",
+          "japanese": null,
+          "choices": [
+            "歩[ある]いているうちに、いいアイデアが浮[う]かんだ。",
+            "歩[ある]いているのに、いいアイデアが浮[う]かんだ。",
+            "歩[ある]いているながらも、いいアイデアが浮[う]かんだ。",
+            "歩[ある]いてからに、いいアイデアが浮[う]かんだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているうちに for unexpected discovery: 歩[ある]いている + うちに = while walking. いいアイデアが浮[う]かんだ = a good idea came up (unexpectedly during the activity). The walking led to the idea spontaneously."
+        },
+        {
+          "id": "uchi-ni_q15",
+          "type": "usage",
+          "prompt": "Which BEST captures the nuance: 'use it before it's gone / do it while you still can'?",
+          "japanese": null,
+          "choices": [
+            "〜のに",
+            "〜ながらも",
+            "〜うちに",
+            "〜にしたがって"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜うちに = the window-of-opportunity grammar point. 若[わか]いうちに、健康[けんこう]なうちに、時間[じかん]があるうちに — all express 'do X while the favorable condition still lasts'. This 'seize the opportunity' nuance is unique to うちに."
+        },
+        {
+          "id": "uchi-ni_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'While parents are young, children should work hard'?",
+          "japanese": null,
+          "choices": [
+            "親[おや]が若[わか]いうちに、子供[こども]は頑張[がんば]るべきだ。",
+            "親[おや]が若[わか]いのに、子供[こども]は頑張[がんば]るべきだ。",
+            "親[おや]が若[わか]いながらも、子供[こども]は頑張[がんば]るべきだ。",
+            "親[おや]が若[わか]いまでに、子供[こども]は頑張[がんば]るべきだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + うちに: 若[わか]い + うちに = while  young. 子供[こども]は頑張[がんば]るべきだ = children should work hard. Window of opportunity."
+        },
+        {
+          "id": "uchi-ni_q17",
+          "type": "translation",
+          "prompt": "Which means 'While no one was looking, the child took a cookie'?",
+          "japanese": null,
+          "choices": [
+            "誰[だれ]も見[み]ていないうちに、子供[こども]はクッキーを取[と]った。",
+            "誰[だれ]も見[み]ていないのに、子供[こども]はクッキーを取[と]った。",
+            "誰[だれ]も見[み]ていないながらも、子供[こども]はクッキーを取[と]った。",
+            "誰[だれ]も見[み]ていないまでに、子供[こども]はクッキーを取[と]った。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ていないうちに: 誰[だれ]も見[み]ていない + うちに = while no one was watching. 子供[こども]はクッキーを取[と]った = the child took a cookie. ないうちに = while in the 'not-happening' state."
+        },
+        {
+          "id": "uchi-ni_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'While I was thinking, I came up with the answer'?",
+          "japanese": null,
+          "choices": [
+            "考[かんが]えているうちに、答[こた]えが分[わ]かった。",
+            "考[かんが]えているのに、答[こた]えが分[わ]かった。",
+            "考[かんが]えているながらも、答[こた]えが分[わ]かった。",
+            "考[かんが]えてからに、答[こた]えが分[わ]かった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ているうちに for unexpected discovery: 考[かんが]えている + うちに = while thinking. 答[こた]えが分[わ]かった = the answer became clear (spontaneously during thinking). Unexpected positive outcome during an activity."
+        },
+        {
+          "id": "uchi-ni_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'While I was young, I didn't know the value of time'?",
+          "japanese": null,
+          "choices": [
+            "若[わか]いうちに、時間[じかん]の大切[たいせつ]さを知[し]らなかった。",
+            "若[わか]いのに、時間[じかん]の大切[たいせつ]さを知[し]らなかった。",
+            "若[わか]いながらも、時間[じかん]の大切[たいせつ]さを知[し]らなかった。",
+            "若[わか]かったうちに、時間[じかん]の大切[たいせつ]さを知[し]らなかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + うちに: 若[わか]い + うちに = while young. 時間[じかん]の大切[たいせつ]さを知[し]らなかった = didn't know the value of time. うちに can refer to past periods (the window of being young is past, and now they know)."
+        },
+        {
+          "id": "uchi-ni_q20",
+          "type": "usage",
+          "prompt": "Which correctly shows the DISTINCTION between the two main uses of うちに?",
+          "japanese": null,
+          "choices": [
+            "Window of opportunity: 若[わか]いうちにやりなさい (do it while young); Unexpected change: 話[はな]しているうちにいつのまにか夜[よる]になった (while talking, night came without noticing)",
+            "Window of opportunity: 話[はな]しているうちに (while talking); Unexpected change: 若[わか]いうちにやりなさい (do it while young)",
+            "They are not distinguishable in usage",
+            "Both require ていた-form"
+          ],
+          "correctIndex": 0,
+          "explanation": "Window of opportunity: 若[わか]いうちにやりなさい = do it while you're young (instruction: use the window). Unexpected change: 話[はな]しているうちにいつのまにか夜[よる]になった = while talking, night came unnoticed (change during activity). These are the two main uses."
+        }
+      ]
+    },
+    {
+      "id": "shidai",
+      "name": "〜次第[しだい] (shidai) — as soon as / depending on",
+      "shortDescription": "Verb stem + 次第 = immediately as soon as X is done (formal); Noun + 次第で = depending on X.",
+      "formation": "Verb stem (ます-stem) + 次第[しだい] (as soon as)  |  Noun + 次第[しだい]で (depending on)",
+      "explanation": "次第[しだい] (shidai) wears two faces, both formal. The first is 'as soon as' — attached to a verb stem, it signals that the next action happens immediately upon completion of the previous one. 準備[じゅんび]ができ次第[しだい]、出発[しゅっぱつ]します: the moment preparations are complete, departure happens — no ambiguity, no delay implied. This use lives in business emails, official announcements, and formal writing; in casual conversation, you'd reach for たら instead.\n\nThe second face is 'depending on' — Noun + 次第[しだい]で means the outcome is contingent on that noun. やる気[き]次第[しだい]で、何[なん]でもできる: motivation is the single variable; everything follows from it. 次第[しだい]によっては (depending on the circumstances) is a useful extension.\n\nBoth uses share a core logic: something follows conditionally or immediately from another thing. When you see 次第[しだい] in writing, the register is elevated — it adds a professional formality that makes business communication feel polished.",
+      "rules": [
+        "Verb stem + 次第[しだい] = as soon as (formal; immediately after completion)",
+        "Noun + 次第[しだい]で = depending on [noun] (the outcome varies with the noun)",
+        "Both uses are formal — prefer より informal alternatives in casual speech",
+        "As soon as: result must be immediate (no delayed consequence)",
+        "Depending on: 次第[しだい]によっては = depending on the circumstances (extended form)"
+      ],
+      "examples": [
+        {
+          "japanese": "詳細[しょうさい]が分[わ]かり次第[しだい]、ご連絡[れんらく]いたします。",
+          "romaji": "Shousai ga wakari shidai, gorenraku itashimasu.",
+          "english": "We will contact you as soon as the details become clear."
+        },
+        {
+          "japanese": "ご注文[ちゅうもん]が確認[かくにん]でき次第[しだい]、発送[はっそう]いたします。",
+          "romaji": "Gochuumon ga kakunin deki shidai, hassou itashimasu.",
+          "english": "We will ship as soon as your order is confirmed."
+        },
+        {
+          "japanese": "成功[せいこう]するかどうかは、努力[どりょく]次第[しだい]です。",
+          "romaji": "Seikou suru ka douka wa, doryoku shidai desu.",
+          "english": "Whether you succeed or not depends on your effort."
+        },
+        {
+          "japanese": "状況次第[じょうきょうしだい]では、計画[けいかく]を変更[へんこう]することもありえます。",
+          "romaji": "Joukyou shidai dewa, keikaku wo henkou suru koto mo ariemasu.",
+          "english": "Depending on the situation, it is also possible that the plan may change."
+        }
+      ],
+      "flashcardHeader": "〜次第",
+      "flashcardAnswer": "〜次第で = depending on; Verb stem + 次第 = as soon as (immediately after, formal)",
+      "practice": [
+        {
+          "id": "shidai_q1",
+          "type": "usage",
+          "prompt": "What does 〜次第[しだい] mean in its 'as soon as' usage?",
+          "japanese": null,
+          "choices": [
+            "before doing X",
+            "after doing X, then Y (as soon as X is done, Y will happen)",
+            "depending on X",
+            "while doing X"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + 次第[しだい] = as soon as , . 着[つ]き次第[しだい]、電話[でんわ]します = as soon as I arrive, I'll call. Expresses that Y will happen immediately when X is completed."
+        },
+        {
+          "id": "shidai_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as he arrives, the meeting will start'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が着[つ]いた次第[しだい]、会議[かいぎ]が始[はじ]まる。",
+            "彼[かれ]が着[つ]き次第[しだい]、会議[かいぎ]が始[はじ]まる。",
+            "彼[かれ]が着[つ]く次第[しだい]、会議[かいぎ]が始[はじ]まる。",
+            "彼[かれ]が着[つ]いて次第[しだい]、会議[かいぎ]が始[はじ]まる。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + 次第[しだい]: 着[つ]く → 着[つ]き (masu-stem) + 次第[しだい] = 着[つ]き次第[しだい] = as soon as  arrives. 会議[かいぎ]が始[はじ]まる = the meeting will start. Immediate consequence after completion."
+        },
+        {
+          "id": "shidai_q3",
+          "type": "usage",
+          "prompt": "What does 〜次第[しだい]だ mean in its 'depends on' usage?",
+          "japanese": null,
+          "choices": [
+            "as soon as X is done",
+            "it depends on X (the outcome depends on X)",
+            "even if X happens",
+            "while X is happening"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + 次第[しだい]だ = it depends on X. 結果[けっか]はあなたの努力[どりょく]次第[しだい]だ = the result depends on your efforts. 次第[しだい] as a standalone noun means 'depends on'. This is different from the masu-stem + 次第[しだい] (as soon as) usage."
+        },
+        {
+          "id": "shidai_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Everything depends on your attitude'?",
+          "japanese": null,
+          "choices": [
+            "すべてはあなたの態度[たいど]次第[しだい]だ。",
+            "すべてはあなたの態度[たいど]の次第[しだい]だ。",
+            "すべてはあなたの態度[たいど]にする次第[しだい]だ。",
+            "すべてはあなたの態度[たいど]の次第[しだい]になる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + 次第[しだい]だ = depends on . あなたの態度[たいど] (your attitude) + 次第[しだい]だ = depends on your attitude. すべてはあなたの態度[たいど]次第[しだい]だ = everything depends on your attitude."
+        },
+        {
+          "id": "shidai_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as the work is finished, please send it'?",
+          "japanese": null,
+          "choices": [
+            "仕事[しごと]が終[お]わった次第[しだい]、送[おく]ってください。",
+            "仕事[しごと]が終[お]わり次第[しだい]、送[おく]ってください。",
+            "仕事[しごと]が終[お]わる次第[しだい]、送[おく]ってください。",
+            "仕事[しごと]が終[お]わって次第[しだい]、送[おく]ってください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + 次第[しだい]: 終[お]わる → 終[お]わり (masu-stem) + 次第[しだい] = 終[お]わり次第[しだい] = as soon as finished. 送[おく]ってください = please send. 終[お]わり次第[しだい]、送[おく]ってください = as soon as the work is done, please send it."
+        },
+        {
+          "id": "shidai_q6",
+          "type": "usage",
+          "prompt": "In what REGISTER is masu-stem + 次第[しだい] most commonly used?",
+          "japanese": null,
+          "choices": [
+            "Very casual, only in text messages",
+            "Formal/business register — typically in professional communication",
+            "Only in literary fiction",
+            "Only in spoken conversation among friends"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + 次第[しだい] is a formal/business expression. 確認[かくにん]次第[しだい]、ご連絡[れんらく]いたします = as soon as I confirm, I will contact you. This is standard in business emails and formal communication."
+        },
+        {
+          "id": "shidai_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'Whether you succeed depends on your effort'?",
+          "japanese": null,
+          "choices": [
+            "成功[せいこう]するかどうかはあなたの努力[どりょく]次第[しだい]です。",
+            "成功[せいこう]するかどうかはあなたの努力[どりょく]の次第[しだい]です。",
+            "成功[せいこう]するかどうかはあなたの努力[どりょく]するの次第[しだい]です。",
+            "成功[せいこう]するかどうかはあなたの努力[どりょく]を次第[しだい]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + 次第[しだい]: 努力[どりょく] (effort) + 次第[しだい] = depends on effort. 成功[せいこう]するかどうか = whether you succeed. Depends-on usage in a polite form."
+        },
+        {
+          "id": "shidai_q8",
+          "type": "construct",
+          "prompt": "What is the masu-stem of 読[よ]む for use with 次第[しだい]?",
+          "japanese": null,
+          "choices": [
+            "読[よ]んで",
+            "読[よ]み",
+            "読[よ]む",
+            "読[よ]んだ"
+          ],
+          "correctIndex": 1,
+          "explanation": "読[よ]む → masu-form 読[よ]みます → masu-stem 読[よ]み. 読[よ]み + 次第[しだい] = 読[よ]み次第[しだい] = as soon as  read. Always use the MASU-STEM (not dict, te, or ta form) with 次第[しだい]."
+        },
+        {
+          "id": "shidai_q9",
+          "type": "translation",
+          "prompt": "Which means 'As soon as I confirm, I'll contact you'?",
+          "japanese": null,
+          "choices": [
+            "確認[かくにん]した次第[しだい]、連絡[れんらく]します。",
+            "確認[かくにん]する次第[しだい]、連絡[れんらく]します。",
+            "確認[かくにん]し次第[しだい]、連絡[れんらく]します。",
+            "確認[かくにん]して次第[しだい]、連絡[れんらく]します。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Masu-stem + 次第[しだい]: 確認[かくにん]する → 確認[かくにん]し (masu-stem) + 次第[しだい] = 確認[かくにん]し次第[しだい] = as soon as  confirm. 連絡[れんらく]します = will contact. Standard business email expression."
+        },
+        {
+          "id": "shidai_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Whether the company succeeds depends on the team'?",
+          "japanese": null,
+          "choices": [
+            "会社[かいしゃ]が成功[せいこう]するかはチーム次第[しだい]です。",
+            "会社[かいしゃ]が成功[せいこう]するかはチームの次第[しだい]です。",
+            "会社[かいしゃ]が成功[せいこう]するかはチームにする次第[しだい]です。",
+            "会社[かいしゃ]が成功[せいこう]するかはチームを次第[しだい]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + 次第[しだい]: チーム (team) + 次第[しだい] = depends on the team. 会社[かいしゃ]が成功[せいこう]するかはチーム次第[しだい]です = whether the company succeeds depends on the team."
+        },
+        {
+          "id": "shidai_q11",
+          "type": "usage",
+          "prompt": "Which meaning of 次第[しだい] is being used in '詳細[しょうさい]が分[わ]かり次第[しだい]、報告[ほうこく]します'?",
+          "japanese": null,
+          "choices": [
+            "Depends on details",
+            "As soon as the details are known, will report (as soon as)",
+            "While knowing details",
+            "Because of the details"
+          ],
+          "correctIndex": 1,
+          "explanation": "詳細[しょうさい]が分[わ]かり次第[しだい]、報告[ほうこく]します = as soon as the details become known, I will report. Masu-stem (分[わ]かり) + 次第[しだい] = as soon as. Business/formal communication."
+        },
+        {
+          "id": "shidai_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as preparation is complete, we'll depart'?",
+          "japanese": null,
+          "choices": [
+            "準備[じゅんび]が整[ととの]い次第[しだい]、出発[しゅっぱつ]します。",
+            "準備[じゅんび]が整[ととの]った次第[しだい]、出発[しゅっぱつ]します。",
+            "準備[じゅんび]が整[ととの]う次第[しだい]、出発[しゅっぱつ]します。",
+            "準備[じゅんび]が整[ととの]って次第[しだい]、出発[しゅっぱつ]します。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + 次第[しだい]: 整[ととの]う → 整[ととの]い (masu-stem) + 次第[しだい] = 整[ととの]い次第[しだい] = as soon as ready. 出発[しゅっぱつ]します = will depart. 準備[じゅんび]が整[ととの]い次第[しだい]出発[しゅっぱつ]します = will depart as soon as preparation is complete."
+        },
+        {
+          "id": "shidai_q13",
+          "type": "translation",
+          "prompt": "Which means 'The outcome depends on how you approach it'?",
+          "japanese": null,
+          "choices": [
+            "結果[けっか]はどう取[と]り組[く]むか次第[しだい]です。",
+            "結果[けっか]はどう取[と]り組[く]むかの次第[しだい]です。",
+            "結果[けっか]はどう取[と]り組[く]み次第[しだい]です。",
+            "結果[けっか]はどう取[と]り組[く]むかを次第[しだい]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜か + 次第[しだい] = depends on how/whether. どう取[と]り組[く]むか (how you approach) + 次第[しだい] = depends on how you approach it. 結果[けっか]はどう取[と]り組[く]むか次第[しだい]です = the outcome depends on how you approach it."
+        },
+        {
+          "id": "shidai_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as I finish eating, I'll go out'?",
+          "japanese": null,
+          "choices": [
+            "食[た]べ終[お]わり次第[しだい]、出[で]かけます。",
+            "食[た]べ終[お]わった次第[しだい]、出[で]かけます。",
+            "食[た]べ終[お]わる次第[しだい]、出[で]かけます。",
+            "食[た]べ終[お]わって次第[しだい]、出[で]かけます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + 次第[しだい]: 食[た]べ終[お]わる → 食[た]べ終[お]わり (masu-stem) + 次第[しだい] = 食[た]べ終[お]わり次第[しだい] = as soon as finished eating. 出[で]かけます = will go out."
+        },
+        {
+          "id": "shidai_q15",
+          "type": "usage",
+          "prompt": "Which best shows how 次第[しだい]だ (depends on) is used in a life-advice statement?",
+          "japanese": null,
+          "choices": [
+            "人生[じんせい]は自分[じぶん]次第[しだい]だ。(Life depends on yourself.)",
+            "電話[でんわ]し次第[しだい]、来[き]てください。(Come as soon as you call.)",
+            "報告書[ほうこくしょ]が届[とど]き次第[しだい]、確認[かくにん]します。(Will check as soon as report arrives.)",
+            "気温[きおん]によって変[か]わる次第[しだい]だ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "人生[じんせい]は自分[じぶん]次第[しだい]だ = life depends on yourself. Noun + 次第[しだい]だ for the 'depends on' meaning. This is a common motivational/life-advice use of 次第[しだい]."
+        },
+        {
+          "id": "shidai_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as the goods arrive, we'll ship them'?",
+          "japanese": null,
+          "choices": [
+            "商品[しょうひん]が届[とど]き次第[しだい]、発送[はっそう]します。",
+            "商品[しょうひん]が届[とど]いた次第[しだい]、発送[はっそう]します。",
+            "商品[しょうひん]が届[とど]く次第[しだい]、発送[はっそう]します。",
+            "商品[しょうひん]が届[とど]いて次第[しだい]、発送[はっそう]します。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + 次第[しだい]: 届[とど]く → 届[とど]き (masu-stem) + 次第[しだい] = 届[とど]き次第[しだい] = as soon as  arrive. 発送[はっそう]します = will ship. Standard business expression."
+        },
+        {
+          "id": "shidai_q17",
+          "type": "translation",
+          "prompt": "Which means 'Whether you pass depends on how much you practice'?",
+          "japanese": null,
+          "choices": [
+            "合格[ごうかく]するかはどれだけ練習[れんしゅう]するか次第[しだい]です。",
+            "合格[ごうかく]するかはどれだけ練習[れんしゅう]し次第[しだい]です。",
+            "合格[ごうかく]するかはどれだけ練習[れんしゅう]するかの次第[しだい]です。",
+            "合格[ごうかく]するかはどれだけ練習[れんしゅう]するかを次第[しだい]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜か + 次第[しだい]: どれだけ練習[れんしゅう]するか (how much you practice) + 次第[しだい] = depends on how much you practice. 合格[ごうかく]するかはどれだけ練習[れんしゅう]するか次第[しだい]です = whether you pass depends on how much you practice."
+        },
+        {
+          "id": "shidai_q18",
+          "type": "construct",
+          "prompt": "What is the masu-stem of 終[お]わる for use with 次第[しだい]?",
+          "japanese": null,
+          "choices": [
+            "終[お]わって",
+            "終[お]わり",
+            "終[お]わる",
+            "終[お]わった"
+          ],
+          "correctIndex": 1,
+          "explanation": "終[お]わる → masu-form 終[お]わります → masu-stem 終[お]わり. 終[お]わり + 次第[しだい] = 終[お]わり次第[しだい] = as soon as finished. Masu-stem is 終[お]わり (not 終[お]わって or 終[お]わった)."
+        },
+        {
+          "id": "shidai_q19",
+          "type": "usage",
+          "prompt": "Which INCORRECT uses of 次第[しだい] can you identify?",
+          "japanese": null,
+          "choices": [
+            "着[つ]いた次第[しだい]、電話[でんわ]します。(Should be 着[つ]き次第[しだい])",
+            "終[お]わり次第[しだい]、連絡[れんらく]します。(Correct business use)",
+            "努力[どりょく]次第[しだい]だ。(Correct depends-on use)",
+            "準備[じゅんび]が整[ととの]い次第[しだい]、出発[しゅっぱつ]します。(Correct)"
+          ],
+          "correctIndex": 0,
+          "explanation": "着[つ]いた次第[しだい] uses the ta-form instead of the masu-stem — this is INCORRECT. 次第[しだい] in the 'as soon as' sense must attach to the MASU-STEM: 着[つ]き次第[しだい] (not 着[つ]いた次第[しだい]). Ta-form before 次第[しだい] is a common error."
+        },
+        {
+          "id": "shidai_q20",
+          "type": "construct",
+          "prompt": "Which correctly says 'As soon as the meeting is over, I'll send the summary'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]が終[お]わり次第[しだい]、要約[ようやく]を送[おく]ります。",
+            "会議[かいぎ]が終[お]わった次第[しだい]、要約[ようやく]を送[おく]ります。",
+            "会議[かいぎ]が終[お]わる次第[しだい]、要約[ようやく]を送[おく]ります。",
+            "会議[かいぎ]が終[お]わって次第[しだい]、要約[ようやく]を送[おく]ります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "終[お]わる → 終[お]わり (masu-stem) + 次第[しだい] = 終[お]わり次第[しだい] = as soon as  ends. 要約[ようやく]を送[おく]ります = will send the summary. 会議[かいぎ]が終[お]わり次第[しだい]、要約[ようやく]を送[おく]ります = as soon as the meeting ends, I'll send the summary."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch30_v01",
+      "partOfSpeech": "noun",
+      "kanji": "歴史",
+      "kana": "れきし",
+      "romaji": "rekishi",
+      "definition": "history"
+    },
+    {
+      "id": "ch30_v02",
+      "partOfSpeech": "noun",
+      "kanji": "時代",
+      "kana": "じだい",
+      "romaji": "jidai",
+      "definition": "era; period"
+    },
+    {
+      "id": "ch30_v03",
+      "partOfSpeech": "noun",
+      "kanji": "過去",
+      "kana": "かこ",
+      "romaji": "kako",
+      "definition": "the past"
+    },
+    {
+      "id": "ch30_v04",
+      "partOfSpeech": "noun",
+      "kanji": "現在",
+      "kana": "げんざい",
+      "romaji": "genzai",
+      "definition": "the present"
+    },
+    {
+      "id": "ch30_v05",
+      "partOfSpeech": "noun",
+      "kanji": "未来",
+      "kana": "みらい",
+      "romaji": "mirai",
+      "definition": "the future"
+    },
+    {
+      "id": "ch30_v06",
+      "partOfSpeech": "noun",
+      "kanji": "世紀",
+      "kana": "せいき",
+      "romaji": "seiki",
+      "definition": "century"
+    },
+    {
+      "id": "ch30_v07",
+      "partOfSpeech": "noun",
+      "kanji": "昔",
+      "kana": "むかし",
+      "romaji": "mukashi",
+      "definition": "long ago; the old days"
+    },
+    {
+      "id": "ch30_v08",
+      "partOfSpeech": "noun",
+      "kanji": "現代",
+      "kana": "げんだい",
+      "romaji": "gendai",
+      "definition": "modern times"
+    },
+    {
+      "id": "ch30_v09",
+      "partOfSpeech": "noun",
+      "kanji": "伝統",
+      "kana": "でんとう",
+      "romaji": "dentou",
+      "definition": "tradition"
+    },
+    {
+      "id": "ch30_v10",
+      "partOfSpeech": "noun",
+      "kanji": "文化",
+      "kana": "ぶんか",
+      "romaji": "bunka",
+      "definition": "culture"
+    },
+    {
+      "id": "ch30_v11",
+      "partOfSpeech": "noun",
+      "kanji": "文明",
+      "kana": "ぶんめい",
+      "romaji": "bunmei",
+      "definition": "civilization"
+    },
+    {
+      "id": "ch30_v12",
+      "partOfSpeech": "noun",
+      "kanji": "人類",
+      "kana": "じんるい",
+      "romaji": "jinrui",
+      "definition": "humankind"
+    },
+    {
+      "id": "ch30_v13",
+      "partOfSpeech": "noun",
+      "kanji": "世代",
+      "kana": "せだい",
+      "romaji": "sedai",
+      "definition": "generation"
+    },
+    {
+      "id": "ch30_v14",
+      "partOfSpeech": "noun",
+      "kanji": "革命",
+      "kana": "かくめい",
+      "romaji": "kakumei",
+      "definition": "revolution"
+    },
+    {
+      "id": "ch30_v15",
+      "partOfSpeech": "noun",
+      "kanji": "戦後",
+      "kana": "せんご",
+      "romaji": "sengo",
+      "definition": "the postwar period"
+    },
+    {
+      "id": "ch30_v16",
+      "partOfSpeech": "noun",
+      "kanji": "記念",
+      "kana": "きねん",
+      "romaji": "kinen",
+      "definition": "commemoration; memorial"
+    },
+    {
+      "id": "ch30_v17",
+      "partOfSpeech": "noun",
+      "kanji": "遺産",
+      "kana": "いさん",
+      "romaji": "isan",
+      "definition": "heritage; inheritance"
+    },
+    {
+      "id": "ch30_v18",
+      "partOfSpeech": "noun",
+      "kanji": "遺跡",
+      "kana": "いせき",
+      "romaji": "iseki",
+      "definition": "ruins; historic remains"
+    },
+    {
+      "id": "ch30_v19",
+      "partOfSpeech": "noun",
+      "kanji": "出来事",
+      "kana": "できごと",
+      "romaji": "dekigoto",
+      "definition": "event; happening"
+    },
+    {
+      "id": "ch30_v20",
+      "partOfSpeech": "noun",
+      "kanji": "事情",
+      "kana": "じじょう",
+      "romaji": "jijou",
+      "definition": "circumstances"
+    },
+    {
+      "id": "ch30_v21",
+      "partOfSpeech": "noun",
+      "kanji": "状況",
+      "kana": "じょうきょう",
+      "romaji": "joukyou",
+      "definition": "situation"
+    },
+    {
+      "id": "ch30_v22",
+      "partOfSpeech": "noun",
+      "kanji": "状態",
+      "kana": "じょうたい",
+      "romaji": "joutai",
+      "definition": "state; condition"
+    },
+    {
+      "id": "ch30_v23",
+      "partOfSpeech": "noun",
+      "kanji": "傾向",
+      "kana": "けいこう",
+      "romaji": "keikou",
+      "definition": "tendency; trend"
+    },
+    {
+      "id": "ch30_v24",
+      "partOfSpeech": "noun",
+      "kanji": "過程",
+      "kana": "かてい",
+      "romaji": "katei",
+      "definition": "process"
+    },
+    {
+      "id": "ch30_v25",
+      "partOfSpeech": "noun",
+      "kanji": "発達",
+      "kana": "はったつ",
+      "romaji": "hattatsu",
+      "definition": "development; growth"
+    },
+    {
+      "id": "ch30_v26",
+      "partOfSpeech": "noun",
+      "kanji": "成立",
+      "kana": "せいりつ",
+      "romaji": "seiritsu",
+      "definition": "formation; establishment"
+    },
+    {
+      "id": "ch30_v27",
+      "partOfSpeech": "noun",
+      "kanji": "崩壊",
+      "kana": "ほうかい",
+      "romaji": "houkai",
+      "definition": "collapse"
+    },
+    {
+      "id": "ch30_v28",
+      "partOfSpeech": "noun",
+      "kanji": "移動",
+      "kana": "いどう",
+      "romaji": "idou",
+      "definition": "movement; transfer"
+    },
+    {
+      "id": "ch30_v29",
+      "partOfSpeech": "noun",
+      "kanji": "進化",
+      "kana": "しんか",
+      "romaji": "shinka",
+      "definition": "evolution"
+    },
+    {
+      "id": "ch30_v30",
+      "partOfSpeech": "noun",
+      "kanji": "当時",
+      "kana": "とうじ",
+      "romaji": "touji",
+      "definition": "at that time; back then"
+    },
+    {
+      "id": "ch30_v31",
+      "partOfSpeech": "noun",
+      "kanji": "最近",
+      "kana": "さいきん",
+      "romaji": "saikin",
+      "definition": "recently; lately"
+    },
+    {
+      "id": "ch30_v32",
+      "partOfSpeech": "noun",
+      "kanji": "将来",
+      "kana": "しょうらい",
+      "romaji": "shourai",
+      "definition": "the future (of a person)"
+    },
+    {
+      "id": "ch30_v33",
+      "partOfSpeech": "noun",
+      "kanji": "今後",
+      "kana": "こんご",
+      "romaji": "kongo",
+      "definition": "from now on; hereafter"
+    },
+    {
+      "id": "ch30_v34",
+      "partOfSpeech": "verb",
+      "kanji": "変わる",
+      "kana": "かわる",
+      "romaji": "kawaru",
+      "definition": "to change (intransitive)"
+    },
+    {
+      "id": "ch30_v35",
+      "partOfSpeech": "verb",
+      "kanji": "変える",
+      "kana": "かえる",
+      "romaji": "kaeru",
+      "definition": "to change (transitive)"
+    },
+    {
+      "id": "ch30_v36",
+      "partOfSpeech": "verb",
+      "kanji": "増える",
+      "kana": "ふえる",
+      "romaji": "fueru",
+      "definition": "to increase"
+    },
+    {
+      "id": "ch30_v37",
+      "partOfSpeech": "verb",
+      "kanji": "減る",
+      "kana": "へる",
+      "romaji": "heru",
+      "definition": "to decrease"
+    },
+    {
+      "id": "ch30_v38",
+      "partOfSpeech": "verb",
+      "kanji": "続く",
+      "kana": "つづく",
+      "romaji": "tsuzuku",
+      "definition": "to continue (intransitive)"
+    },
+    {
+      "id": "ch30_v39",
+      "partOfSpeech": "verb",
+      "kanji": "続ける",
+      "kana": "つづける",
+      "romaji": "tsuzukeru",
+      "definition": "to continue (transitive)"
+    },
+    {
+      "id": "ch30_v40",
+      "partOfSpeech": "verb",
+      "kanji": "衰える",
+      "kana": "おとろえる",
+      "romaji": "otoroeru",
+      "definition": "to decline; to weaken"
+    }
+  ],
+  "kanji": [
+    "米",
+    "戦",
+    "最",
+    "都",
+    "続",
+    "初",
+    "向",
+    "在",
+    "次",
+    "増",
+    "情",
+    "変",
+    "歳",
+    "過",
+    "状",
+    "由",
+    "乗",
+    "伝",
+    "末",
+    "申",
+    "様",
+    "達",
+    "登",
+    "存",
+    "園",
+    "未",
+    "亡",
+    "途",
+    "喜",
+    "老",
+    "遅",
+    "刻",
+    "遠",
+    "戻",
+    "折",
+    "雪",
+    "礼",
+    "昔",
+    "頂",
+    "才",
+    "猫",
+    "幾",
+    "形"
+  ]
+}

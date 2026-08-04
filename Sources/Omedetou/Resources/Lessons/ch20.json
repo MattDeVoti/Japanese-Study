@@ -1,0 +1,1622 @@
+{
+  "id": "ch20",
+  "chapterNumber": 22,
+  "title": "Formal Speech and Reported Speech",
+  "points": [
+    {
+      "id": "to-iu",
+      "name": "〜という / 〜と言[い]う — called / named / says that",
+      "shortDescription": "Labels things by name, or reports speech — 'called / named' or 'says that.'",
+      "formation": "Noun A + という + Noun B  |  Sentence (plain) + と言[い]っています / と言[い]いました",
+      "explanation": "という (written 〜と言[い]う or just という) is everywhere in Japanese, and for good reason — it does two essential things that come up constantly in conversation and writing.\n\nFunction 1 — naming and labeling: Noun A + という + Noun B = 'a [Noun B] called/named [Noun A].' This is your construction for introducing unfamiliar terms or identifying people and things by name. 「侍[さむらい]」という言葉[ことば] (the word called 'samurai'), 田中[たなか]という人 (a person named Tanaka), 居酒屋[いざかや]という飲[の]み屋[や] (a drinking place called an izakaya). It's essentially the Japanese equivalent of putting a name in quotation marks and saying 'this thing called X.'\n\nFunction 2 — reporting speech: plain form + と言[い]っています / と言[い]いました. The content before と is always in plain form — no polite ます inside a quoted clause. 田中[たなか]さんは明日[あした]来[こ]ないと言[い]っていました: 'Tanaka-san was saying she won't come tomorrow.' と言[い]っている (ongoing/current statement) vs と言[い]った (past, one-time statement) — the distinction in aspect matters here.\n\nA daily-life phrase you should commit to memory now: 〜とはどういう意味[いみ]ですか — 'What does [X] mean?' This uses という embedded in a question and is one of the most useful sentences you can have ready at any stage of learning.",
+      "rules": [
+        "Noun A + という + Noun B = 'a [B] called/named [A]' — introduces a name or term",
+        "Plain form + と言[い]っています = [someone] says that X (ongoing or current statement)",
+        "Plain form + と言[い]いました = [someone] said that X (past, single statement)",
+        "Content before と always uses PLAIN forms — no ます inside the quoted clause",
+        "Useful fixed phrase: 〜とはどういう意味[いみ]ですか = What does [X] mean?"
+      ],
+      "examples": [
+        {
+          "japanese": "「侍[さむらい]」という言葉[ことば]はどういう意味[いみ]ですか。",
+          "romaji": "'Samurai' to iu kotoba wa dou iu imi desu ka.",
+          "english": "What does the word 'samurai' mean?"
+        },
+        {
+          "japanese": "田中[たなか]さんは明日[あした]来[こ]ないと言[い]っていました。",
+          "romaji": "Tanaka-san wa ashita konai to itte imashita.",
+          "english": "Tanaka-san was saying she won't come tomorrow."
+        },
+        {
+          "japanese": "先生[せんせい]は試験[しけん]は来週[らいしゅう]だと言[い]いました。",
+          "romaji": "Sensei wa shiken wa raishuu da to iimashita.",
+          "english": "The teacher said the exam is next week."
+        },
+        {
+          "japanese": "東京[とうきょう]という都市[とし]は人口[じんこう]がとても多[おお]いです。",
+          "romaji": "Toukyou to iu toshi wa jinkou ga totemo ooi desu.",
+          "english": "The city called Tokyo has a very large population."
+        }
+      ],
+      "flashcardHeader": "〜という / 〜と言う",
+      "flashcardAnswer": "Labels things by name ('called X') or reports speech ('says that / said that').",
+      "practice": [
+        {
+          "id": "to-iu_q1",
+          "type": "translation",
+          "prompt": "Which means 'the train called (named) Shinkansen'?",
+          "japanese": null,
+          "choices": [
+            "新幹線[しんかんせん]というのトレイン",
+            "新幹線[しんかんせん]というトレイン",
+            "新幹線[しんかんせん]といわれるトレイン",
+            "新幹線[しんかんせん]のというトレイン"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜という + noun = a noun called/named . 新幹線[しんかんせん]という電車[でんしゃ] = the train called Shinkansen. という is used to define or name something using its label."
+        },
+        {
+          "id": "to-iu_q2",
+          "type": "usage",
+          "prompt": "Which correctly uses という to relay what someone said?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は来[く]ると言[い]いました。",
+            "彼[かれ]は来[く]るということを言[い]いました。",
+            "彼[かれ]は来[く]るといいます。",
+            "彼[かれ]は来[く]るとします。"
+          ],
+          "correctIndex": 0,
+          "explanation": "と言[い]いました = said that . 来[く]ると言[い]いました = said that  would come. と (quotation particle) + 言[い]う = to say that. This is the direct quotation/reporting use of という."
+        },
+        {
+          "id": "to-iu_q3",
+          "type": "construct",
+          "prompt": "Which correctly means 'the fact that she is coming'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]が来[く]るとこと",
+            "彼女[かのじょ]が来[く]るのとこと",
+            "彼女[かのじょ]が来[く]るということ",
+            "彼女[かのじょ]が来[く]るとということ"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ということ = the fact that . 彼女[かのじょ]が来[く]るということ = the fact that she is coming. This nominalization turns a clause into a noun phrase. It can serve as subject (〜ということは...) or object."
+        },
+        {
+          "id": "to-iu_q4",
+          "type": "usage",
+          "prompt": "Which use of という NAMES or DEFINES something?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は行[い]くと言[い]いました。",
+            "正直[しょうじき]に言[い]うと、分[わ]からない。",
+            "「感謝[かんしゃ]」とはどういう意味[いみ]ですか？",
+            "田中[たなか]さんという人[ひと]が来[き]ました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "田中[たなか]さんという人[ひと]が来[き]ました = a person named Tanaka came. という here names/identifies. Also option 3 (「感謝[かんしゃ]」とは) defines, but という in option 4 is the clearest 'naming' use."
+        },
+        {
+          "id": "to-iu_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'I heard that the meeting was cancelled'?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]が中止[ちゅうし]になるということを聞[き]きました。",
+            "会議[かいぎ]が中止[ちゅうし]になるという聞[き]きました。",
+            "会議[かいぎ]が中止[ちゅうし]になったということを聞[き]きました。",
+            "会議[かいぎ]が中止[ちゅうし]になったとことを聞[き]きました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ta-form + ということを聞[き]きました = I heard that . 中止[ちゅうし]になった + ということ + を + 聞[き]きました = I heard that the meeting was cancelled."
+        },
+        {
+          "id": "to-iu_q6",
+          "type": "usage",
+          "prompt": "What does 〜というのは typically introduce?",
+          "japanese": null,
+          "choices": [
+            "A direct quote",
+            "A definition or explanation of a term",
+            "An action someone did",
+            "A future plan"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜というのは (or 〜とは) introduces a definition or explanation. 「愛[あい]」というのは何[なん]でしょうか = What is 'love'? It's commonly used to define or explain terms and concepts."
+        },
+        {
+          "id": "to-iu_q7",
+          "type": "construct",
+          "prompt": "Which correctly means 'the idea/plan of going to Tokyo'?",
+          "japanese": null,
+          "choices": [
+            "東京[とうきょう]に行[い]くというの",
+            "東京[とうきょう]に行[い]くというアイデア",
+            "東京[とうきょう]に行[い]くとのアイデア",
+            "東京[とうきょう]に行[い]くのというアイデア"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜という + noun = the  of . 東京[とうきょう]に行[い]くというアイデア = the idea of going to Tokyo. という links the clause to the following noun."
+        },
+        {
+          "id": "to-iu_q8",
+          "type": "translation",
+          "prompt": "Which means 'She said she wants to study abroad'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は留学[りゅうがく]したいと思[おも]いました。",
+            "彼女[かのじょ]は留学[りゅうがく]したいとします。",
+            "彼女[かのじょ]は留学[りゅうがく]したいといいます。",
+            "彼女[かのじょ]は留学[りゅうがく]したいと言[い]いました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜と言[い]いました = said that . 留学[りゅうがく]したい (want to study abroad) + と + 言[い]いました = said that  wants to study abroad. と is the quotation particle."
+        },
+        {
+          "id": "to-iu_q9",
+          "type": "usage",
+          "prompt": "Which correctly uses というのは to explain a term?",
+          "japanese": null,
+          "choices": [
+            "という人[ひと]は来[き]ました。",
+            "「サステナビリティ」というのは、持続[じぞく]可能性[かのうせい]のことです。",
+            "東京[とうきょう]というとビジネスのイメージです。",
+            "という言[い]いました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜というのは〜のことです =  means . 「サステナビリティ」というのは、持続[じぞく]可能性[かのうせい]のことです = 'Sustainability' means 'continuity/sustainability.' Classic definition structure."
+        },
+        {
+          "id": "to-iu_q10",
+          "type": "construct",
+          "prompt": "Which correctly quotes someone's thought using と思[おも]う?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は晴[は]れとと思[おも]います。",
+            "明日[あした]は晴[は]れというと思[おも]います。",
+            "明日[あした]は晴[は]れると思[おも]います。",
+            "明日[あした]は晴[は]れとのと思[おも]います。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain form + と思[おも]う = think that . 晴[は]れる (will be sunny, plain form) + と + 思[おも]います = I think it will be sunny tomorrow. と is the quotation particle with 思[おも]う."
+        },
+        {
+          "id": "to-iu_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 「ありがとう」___何語[なにご]ですか？(What language is 'arigatou'?)",
+          "japanese": "「ありがとう」___何語[なにご]ですか？",
+          "choices": [
+            "というのは",
+            "というとは",
+            "というには",
+            "というが"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜というのは =  + definition question. 「ありがとう」というのは何語[なにご]ですか = 'Arigatou' — what language is that? というのは introduces a quoted term for discussion."
+        },
+        {
+          "id": "to-iu_q12",
+          "type": "translation",
+          "prompt": "Which means 'I understand that she is not coming'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]が来[こ]ないということが分[わ]かりました。",
+            "彼女[かのじょ]が来[こ]ないとのことが分[わ]かりました。",
+            "彼女[かのじょ]が来[こ]ないといことが分[わ]かりました。",
+            "彼女[かのじょ]が来[こ]ないというのを分[わ]かりました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ないということが分[わ]かりました = I understood that  is not coming. Negative plain form + ということ + が + 分[わ]かりました = the understanding of the fact that she's not coming."
+        },
+        {
+          "id": "to-iu_q13",
+          "type": "construct",
+          "prompt": "Which correctly says 'The problem called/named \"inequality\"'?",
+          "japanese": null,
+          "choices": [
+            "「格差[かくさ]」というの問題[もんだい]",
+            "「格差[かくさ]」という問題[もんだい]",
+            "「格差[かくさ]」のという問題[もんだい]",
+            "「格差[かくさ]」にという問題[もんだい]"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜という + noun: 「格差[かくさ]」という問題[もんだい] = the problem called 'inequality'. という connects the quoted name to the noun that follows."
+        },
+        {
+          "id": "to-iu_q14",
+          "type": "usage",
+          "prompt": "In which context would というわけだ be used?",
+          "japanese": null,
+          "choices": [
+            "To name something",
+            "To quote someone",
+            "To express 'that means / so that's why'",
+            "To ask about something's definition"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜というわけだ = that means / that's why / so it follows that. Used to draw a conclusion or explain the logical implication: そういうわけで遅[おく]れました = that's why I was late."
+        },
+        {
+          "id": "to-iu_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 田中[たなか]___人[ひと]が先生[せんせい]です。(The person called Tanaka is the teacher.)",
+          "japanese": "田中[たなか]___人[ひと]が先生[せんせい]です。",
+          "choices": [
+            "とのいう",
+            "というの",
+            "という",
+            "となる"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + という + noun = a  named/called . 田中[たなか] + という + 人[ひと] = a person called Tanaka. という connects the name to the noun that follows."
+        },
+        {
+          "id": "to-iu_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'I heard that the shop closes at 8'?",
+          "japanese": null,
+          "choices": [
+            "店[みせ]が8時[じ]に閉[し]まるということを聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるということが聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるというを聞[き]いた。",
+            "店[みせ]が8時[じ]に閉[し]まるとのということを聞[き]いた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜るということを聞[き]いた = I heard that . 閉[し]まる + ということ + を + 聞[き]いた = heard that the shop closes ."
+        },
+        {
+          "id": "to-iu_q17",
+          "type": "translation",
+          "prompt": "Which means 'To be honest / telling you the truth'?",
+          "japanese": null,
+          "choices": [
+            "正直[しょうじき]に言[い]うと",
+            "正直[しょうじき]ということ",
+            "正直[しょうじき]というのは",
+            "正直[しょうじき]と言[い]ってました"
+          ],
+          "correctIndex": 0,
+          "explanation": "正直[しょうじき]に言[い]うと = to be honest / telling you the truth (literally: if I say honestly). と here is a conditional + quote. A common conversational phrase to preface an honest statement."
+        },
+        {
+          "id": "to-iu_q18",
+          "type": "usage",
+          "prompt": "Which use of という is for HEARSAY/REPORTED INFORMATION?",
+          "japanese": null,
+          "choices": [
+            "田中[たなか]さんという人[ひと]です。",
+            "「友達[ともだち]」というのは仲[なか]の良[よ]い人[ひと]のことです。",
+            "明日[あした]、試合[しあい]が中止[ちゅうし]になるということです。",
+            "東京[とうきょう]というのは大[おお]きい都市[とし]です。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ということです = I hear that / it is said that (hearsay). 試合[しあい]が中止[ちゅうし]になるということです = I hear that the match will be cancelled. This is similar to〜そうだ (hearsay)."
+        },
+        {
+          "id": "to-iu_q19",
+          "type": "construct",
+          "prompt": "Which correctly names/introduces a concept ('the concept of hospitality')?",
+          "japanese": null,
+          "choices": [
+            "「おもてなし」というの概念[がいねん]",
+            "「おもてなし」という概念[がいねん]",
+            "「おもてなし」のという概念[がいねん]",
+            "「おもてなし」とのいう概念[がいねん]"
+          ],
+          "correctIndex": 1,
+          "explanation": "Quoted term + という + noun: 「おもてなし」という概念[がいねん] = the concept called 'omotenashi' (hospitality). という is the standard way to introduce a named or quoted term."
+        },
+        {
+          "id": "to-iu_q20",
+          "type": "usage",
+          "prompt": "Which sentence uses というわけではない correctly?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が嫌[きら]いというわけではない。",
+            "彼[かれ]が嫌[きら]いということではない。",
+            "彼[かれ]が嫌[きら]いというわけがない。",
+            "彼[かれ]が嫌[きら]いというのではない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜というわけではない = it doesn't mean that / it's not that. 彼[かれ]が嫌[きら]いというわけではない = it's not that I dislike him (nuanced denial). Very common in Japanese to soften a statement."
+        }
+      ]
+    },
+    {
+      "id": "ka-douka",
+      "name": "〜かどうか (ka douka) — whether or not",
+      "shortDescription": "Embeds a yes/no question inside a sentence — 'whether or not.'",
+      "formation": "Plain form + かどうか + (分[わ]かりません / 知[し]りません / 聞[き]いてください)",
+      "explanation": "かどうか is the tool for embedding a yes/no question inside a larger sentence. 'I don't know whether or not she'll come.' 'Please check whether or not it's ready.' The key word is yes/no — かどうか always packages binary question content.\n\nFormation: plain form + かどうか + [verb of knowing/checking/asking]. 田中[たなか]さんが来[く]るかどうか分[わ]かりません (I don't know whether Tanaka-san will come). 合格[ごうかく]できるかどうか確認[かくにん]してください (Please confirm whether I passed).\n\nThe contrast that students often confuse:\n• かどうか = yes/no question: 来[く]るかどうか (whether [she] will come or not)\n• Question word + か = open-ended question: どこへ行[い]くか (where [she] is going), いつ来[く]るか (when [she] will come), 何[なに]を食[た]べるか (what [she] will eat)\n\nBoth types use plain form before か, and both can be followed by 分[わ]かりません, 知[し]りません, 確認[かくにん]します, and similar verbs. The only difference is the question type: binary (whether/not) uses かどうか; information-seeking (what/where/when/how) uses the question word + か directly.",
+      "rules": [
+        "Plain form + かどうか = 'whether or not X' (embedded yes/no question only)",
+        "The clause before かどうか uses plain form",
+        "Followed by: 分[わ]かりません, 知[し]りません, 確認[かくにん]します, 聞[き]いてください, etc.",
+        "For open-ended embedded questions: [question word] + か (どこへ行[い]くか, いつ来[く]るか)",
+        "かどうか is strictly for yes/no content — never use it for what/where/when questions"
+      ],
+      "examples": [
+        {
+          "japanese": "田中[たなか]さんが来[く]るかどうか分[わ]かりません。",
+          "romaji": "Tanaka-san ga kuru ka douka wakarimasen.",
+          "english": "I don't know whether or not Tanaka-san will come."
+        },
+        {
+          "japanese": "この料理[りょうり]がおいしいかどうか、食[た]べてみてください。",
+          "romaji": "Kono ryouri ga oishii ka douka, tabete mite kudasai.",
+          "english": "Please try eating this dish to see whether or not it's delicious."
+        },
+        {
+          "japanese": "合格[ごうかく]できるかどうか、まだわかりません。",
+          "romaji": "Goukaku dekiru ka douka, mada wakarimasen.",
+          "english": "I still don't know whether or not I'll be able to pass."
+        },
+        {
+          "japanese": "明日[あした]の会議[かいぎ]がどこで行[おこな]われるか、確認[かくにん]してください。",
+          "romaji": "Ashita no kaigi ga doko de okonawareru ka, kakunin shite kudasai.",
+          "english": "Please check where tomorrow's meeting will be held."
+        }
+      ],
+      "flashcardHeader": "〜かどうか",
+      "flashcardAnswer": "Embeds a yes/no question inside a sentence — 'whether or not X.'",
+      "practice": [
+        {
+          "id": "ka-douka_q1",
+          "type": "translation",
+          "prompt": "Which means 'I don't know whether he will come'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が来[く]るかどうか知[し]りません。",
+            "彼[かれ]が来[く]るかどうかは知[し]らない。",
+            "彼[かれ]が来[く]るかどうかを知[し]ります。",
+            "彼[かれ]が来[く]るかどうかが知[し]りません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうか = whether or not. 来[く]るかどうか知[し]りません = I don't know whether  will come or not. かどうか is placed after a plain form clause."
+        },
+        {
+          "id": "ka-douka_q2",
+          "type": "usage",
+          "prompt": "What does 〜かどうか express?",
+          "japanese": null,
+          "choices": [
+            "The reason why something happens",
+            "Whether or not [something is true/happens]",
+            "How something is done",
+            "When something happens"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜かどうか = whether or not / if. 雨[あめ]が降[ふ]るかどうか分[わ]からない = I don't know whether it will rain or not. It expresses uncertainty about a binary outcome."
+        },
+        {
+          "id": "ka-douka_q3",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'I'm thinking about whether to study abroad'?",
+          "japanese": null,
+          "choices": [
+            "留学[りゅうがく]するかどうかを考[かんが]えています。",
+            "留学[りゅうがく]するかどうかに考[かんが]えています。",
+            "留学[りゅうがく]するかどうかが考[かんが]えています。",
+            "留学[りゅうがく]するかどうかで考[かんが]えています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうかを考[かんが]えています = I'm thinking about whether . かどうか acts as a noun clause marked with を (object of 考[かんが]える)."
+        },
+        {
+          "id": "ka-douka_q4",
+          "type": "usage",
+          "prompt": "Which correctly uses か〜か (whether X or Y) to express 'I haven't decided whether to go to Tokyo or Osaka'?",
+          "japanese": null,
+          "choices": [
+            "東京[とうきょう]か大阪[おおさか]かどうか決[き]めていません。",
+            "東京[とうきょう]かどうかか大阪[おおさか]か決[き]めていません。",
+            "東京[とうきょう]か大阪[おおさか]かを決[き]めていません。",
+            "東京[とうきょう]かか大阪[おおさか]は決[き]めていません。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜か〜か = whether X or Y. 東京[とうきょう]か大阪[おおさか]か = whether Tokyo or Osaka. + を + 決[き]めていません = haven't decided. The か〜か structure lists two options, unlike かどうか which is binary yes/no."
+        },
+        {
+          "id": "ka-douka_q5",
+          "type": "construct",
+          "prompt": "Which correctly asks 'Do you know whether this is correct?'",
+          "japanese": null,
+          "choices": [
+            "これが正[ただ]しいかどうか知[し]っていますか？",
+            "これが正[ただ]しいかどうかを知[し]りますか？",
+            "これが正[ただ]しいかどうかに知[し]っていますか？",
+            "これが正[ただ]しいかどうかの知[し]っていますか？"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうか知[し]っていますか = do you know whether ? かどうか acts as a noun phrase. 知[し]っていますか = do you know? The かどうか clause is the object of 知[し]る."
+        },
+        {
+          "id": "ka-douka_q6",
+          "type": "translation",
+          "prompt": "Which means 'I'm wondering whether to buy it or not'?",
+          "japanese": null,
+          "choices": [
+            "買[か]うかどうか悩[なや]んでいます。",
+            "買[か]うかどうかを悩[なや]んでいます。",
+            "買[か]うかどうかについて悩[なや]んでいます。",
+            "買[か]うかどうかで悩[なや]んでいます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜かどうかで悩[なや]む = agonize/wonder about whether. で marks the matter of concern/cause. 買[か]うかどうかで悩[なや]んでいます = I'm troubled about whether to buy it. All options are somewhat natural but で悩[なや]む is the most idiomatic."
+        },
+        {
+          "id": "ka-douka_q7",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'the question of whether she passed'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]が合格[ごうかく]したかどうかの質問[しつもん]",
+            "彼女[かのじょ]が合格[ごうかく]したかどうかという質問[しつもん]",
+            "彼女[かのじょ]が合格[ごうかく]したかどうかに質問[しつもん]",
+            "彼女[かのじょ]が合格[ごうかく]したかどうかを質問[しつもん]"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜かどうかという + noun: かどうか + という connects the clause to a following noun. 彼女[かのじょ]が合格[ごうかく]したかどうかという質問[しつもん] = the question of whether she passed."
+        },
+        {
+          "id": "ka-douka_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼女[かのじょ]が来[く]る___確[たし]かめてください。(Please confirm whether or not she is coming.)",
+          "japanese": "彼女[かのじょ]が来[く]る___確[たし]かめてください。",
+          "choices": [
+            "かどうか",
+            "かというか",
+            "かどうかに",
+            "かとどうか"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうか確[たし]かめる = confirm whether or not. 来[く]るかどうか + 確[たし]かめてください = please confirm whether  is coming. かどうか follows the plain form directly."
+        },
+        {
+          "id": "ka-douka_q9",
+          "type": "usage",
+          "prompt": "Which CORRECTLY uses か〜ないか (whether...or not) as an alternative to かどうか?",
+          "japanese": null,
+          "choices": [
+            "行[い]くか行[い]かないか分[わ]かりません。",
+            "行[い]くかどうか行[い]かないか分[わ]かりません。",
+            "行[い]くかないか分[わ]かりません。",
+            "行[い]くかどうかいかないか分[わ]かりません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜か〜ないか = whether  or not. 行[い]くか行[い]かないか分[わ]かりません = I don't know whether I'll go or not. This is a longer alternative to 行[い]くかどうか分[わ]かりません (same meaning)."
+        },
+        {
+          "id": "ka-douka_q10",
+          "type": "translation",
+          "prompt": "Which means 'I will check whether the report is ready'?",
+          "japanese": null,
+          "choices": [
+            "レポートができているかどうか確認[かくにん]します。",
+            "レポートができているかどうかを確認[かくにん]します。",
+            "レポートができているかどうかで確認[かくにん]します。",
+            "レポートができているかどうかに確認[かくにん]します。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜かどうかを確認[かくにん]します = will confirm/check whether. かどうか clause + を (object) + 確認[かくにん]します. Both option 1 and 2 are natural; を explicitly marks it as object."
+        },
+        {
+          "id": "ka-douka_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'I want to know whether this is safe'?",
+          "japanese": null,
+          "choices": [
+            "これが安全[あんぜん]かどうか知[し]りたいです。",
+            "これが安全[あんぜん]かどうかに知[し]りたいです。",
+            "これが安全[あんぜん]かどうかが知[し]りたいです。",
+            "これが安全[あんぜん]かどうかは知[し]りたいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうか知[し]りたい = want to know whether . Adjective/noun/verb + かどうか (plain form without だ for な-adj and nouns in modern usage) + 知[し]りたいです."
+        },
+        {
+          "id": "ka-douka_q12",
+          "type": "usage",
+          "prompt": "For な-adjectives before かどうか, which form is used?",
+          "japanese": null,
+          "choices": [
+            "な-adj + な + かどうか",
+            "な-adj + だ + かどうか",
+            "な-adj + かどうか (drop だ/な)",
+            "な-adj + の + かどうか"
+          ],
+          "correctIndex": 2,
+          "explanation": "In modern Japanese, な-adjectives before かどうか typically drop the copula: 安全[あんぜん]かどうか (not 安全[あんぜん]だかどうか or 安全[あんぜん]なかどうか). Similarly nouns: 学生[がくせい]かどうか (not 学生[がくせい]だかどうか)."
+        },
+        {
+          "id": "ka-douka_q13",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼[かれ]が正直[しょうじき]な人[ひと]___試[ため]してみます。(I'll try to find out whether he is an honest person.)",
+          "japanese": "彼[かれ]が正直[しょうじき]な人[ひと]___試[ため]してみます。",
+          "choices": [
+            "かどうかを",
+            "かどうかに",
+            "かどうかが",
+            "かどうかで"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうかを試[ため]す = try to find out whether. 正直[しょうじき]な人[ひと] + かどうか + を + 試[ため]してみます = I'll try to find out whether he's an honest person. かどうか clause marked with を as the object."
+        },
+        {
+          "id": "ka-douka_q14",
+          "type": "usage",
+          "prompt": "Which correctly uses は to mark かどうか as the topic?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が来[く]るかどうかに、まだ分[わ]かりません。",
+            "彼[かれ]が来[く]るかどうかが、まだ分[わ]かりません。",
+            "彼[かれ]が来[く]るかどうかを、まだ分[わ]かりません。",
+            "彼[かれ]が来[く]るかどうかは、まだ分[わ]かりません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜かどうかは = 'as for whether...' (topic marker). 彼[かれ]が来[く]るかどうかは、まだ分[わ]かりません = As for whether he's coming, we don't know yet. は marks the かどうか clause as the topic."
+        },
+        {
+          "id": "ka-douka_q15",
+          "type": "construct",
+          "prompt": "Which correctly means 'I wonder whether this food is delicious'?",
+          "japanese": null,
+          "choices": [
+            "この料理[りょうり]が美味[おい]しいかどうか気[き]になります。",
+            "この料理[りょうり]が美味[おい]しいかどうかに気[き]になります。",
+            "この料理[りょうり]が美味[おい]しいかどうかで気[き]になります。",
+            "この料理[りょうり]が美味[おい]しいかどうかが気[き]になります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜かどうか気[き]になる = I wonder/am curious whether. 美味[おい]しいかどうか + 気[き]になります = I wonder whether it's delicious. 気[き]になる commonly takes かどうか clauses."
+        },
+        {
+          "id": "ka-douka_q16",
+          "type": "translation",
+          "prompt": "Which means 'Please tell me whether you can come tomorrow'?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]来[く]るかどうかに教[おし]えてください。",
+            "明日[あした]来[く]るかどうかを教[おし]えてください。",
+            "明日[あした]来[く]るかどうかが教[おし]えてください。",
+            "明日[あした]来[く]るかどうかで教[おし]えてください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜かどうかを教[おし]えてください = please tell  whether. 来[く]るかどうか + を + 教[おし]えてください = please tell me whether  can come."
+        },
+        {
+          "id": "ka-douka_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'I don't know whether he is a student'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]が学生[がくせい]かどうか知[し]りません。",
+            "彼[かれ]が学生[がくせい]だかどうか知[し]りません。",
+            "彼[かれ]が学生[がくせい]なかどうか知[し]りません。",
+            "彼[かれ]が学生[がくせい]のかどうか知[し]りません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + かどうか (drop だ): 学生[がくせい]かどうか = whether  is a student. In modern Japanese, だ is often dropped before かどうか for nouns and な-adjectives."
+        },
+        {
+          "id": "ka-douka_q18",
+          "type": "usage",
+          "prompt": "When can か alone (not かどうか) replace かどうか?",
+          "japanese": null,
+          "choices": [
+            "Always — they are identical",
+            "When listing two clear options (A か B か)",
+            "Never — かどうか is always required",
+            "Only in formal writing"
+          ],
+          "correctIndex": 1,
+          "explanation": "か alone is used when listing two clear choices: 東京[とうきょう]か大阪[おおさか]か (Tokyo or Osaka). かどうか is for a binary 'whether or not.' Both can function similarly but か〜か lists specific alternatives while かどうか is for yes/no."
+        },
+        {
+          "id": "ka-douka_q19",
+          "type": "construct",
+          "prompt": "Which correctly asks 'Is this delicious? (whether)'?",
+          "japanese": null,
+          "choices": [
+            "これが美味[おい]しいかどうかですか。",
+            "これが美味[おい]しいかどうかを聞[き]いています。",
+            "これが美味[おい]しいかどうかを聞[き]いてください。",
+            "これが美味[おい]しいかどうか聞[き]いてもいいですか。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜かどうか聞[き]いてもいいですか = may I ask whether. 美味[おい]しいかどうか聞[き]いてもいいですか = may I ask whether this is delicious? Natural phrasing for indirect questioning."
+        },
+        {
+          "id": "ka-douka_q20",
+          "type": "usage",
+          "prompt": "Which pair of verbs most naturally precede 〜かどうか?",
+          "japanese": null,
+          "choices": [
+            "思[おも]う (think) and 感[かん]じる (feel)",
+            "知[し]る (know) and 確認[かくにん]する (confirm)",
+            "話[はな]す (speak) and 聞[き]く (listen)",
+            "行[い]く (go) and 来[く]る (come)"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜かどうか most naturally precedes verbs of cognition and checking: 知[し]る (know), 確認[かくにん]する (confirm), 分[わ]かる (understand), 調[しら]べる (investigate), 悩[なや]む (worry about). かどうかを知[し]る/確認[かくにん]する/調[しら]べる are all very natural patterns."
+        }
+      ]
+    },
+    {
+      "id": "yasui-nikui",
+      "name": "〜やすい / 〜にくい — easy / hard to do",
+      "shortDescription": "Verb stem + やすい = easy to do; verb stem + にくい = hard/awkward to do.",
+      "formation": "Verb stem + やすい (easy to)  |  Verb stem + にくい (hard to / awkward to)",
+      "explanation": "やすい and にくい are い-adjectives that attach to the verb stem (ます-base) to describe how easy or hard an action is from the user's perspective. They're incredibly handy for everyday feedback — \"this app is easy to use,\" \"this font is hard to read.\"\n\nFormation: pull out the ます-base and attach directly:\n- 読[よ]む → 読[よ]み → 読[よ]みやすい (easy to read) / 読[よ]みにくい (hard to read)\n- 分[わ]かる → 分[わ]かり → 分[わ]かりやすい (easy to understand) — practically a must-know, used constantly for explanations and textbooks\n- 使[つか]う → 使[つか]い → 使[つか]いやすい / 使[つか]いにくい (easy / hard to use)\n\nBoth forms are い-adjectives and conjugate accordingly: 読[よ]みやすくない (not easy to read), 読[よ]みやすかった (was easy to read).\n\nOne nuance worth knowing: やすい can also mean \"tends to happen easily,\" not just \"easy to do.\" 風邪[かぜ]をひきやすい (tends to catch colds easily), 壊[こわ]れやすい (tends to break easily). The underlying logic is the same.",
+      "rules": [
+        "Verb stem (ます-base) + やすい = easy to do / tends to happen easily",
+        "Verb stem (ます-base) + にくい = hard to do / awkward to do",
+        "Both are い-adjectives — conjugate fully (やすくない, やすかった, etc.)",
+        "やすい extended nuance: 'tends to [happen]' (壊[こわ]れやすい = tends to break)",
+        "にくい here means 'difficult' — not 肉[にく] (meat) or 憎い (hateful)"
+      ],
+      "examples": [
+        {
+          "japanese": "この教科書[きょうかしょ]はとても分[わ]かりやすいです。",
+          "romaji": "Kono kyoukasho wa totemo wakariyasui desu.",
+          "english": "This textbook is very easy to understand."
+        },
+        {
+          "japanese": "このペンは書[か]きにくいですね。",
+          "romaji": "Kono pen wa kakinikui desu ne.",
+          "english": "This pen is hard to write with, isn't it."
+        },
+        {
+          "japanese": "日本語[にほんご]の発音[はつおん]は外国人[がいこくじん]には難[むずか]しくて、言[い]いにくいものが多[おお]いです。",
+          "romaji": "Nihongo no hatsuon wa gaikokujin ni wa muzukashikute, iinikui mono ga ooi desu.",
+          "english": "Japanese pronunciation has many things that are hard for foreigners to say."
+        },
+        {
+          "japanese": "このアプリはとても使[つか]いやすくて、便利[べんり]ですよ。",
+          "romaji": "Kono apuri wa totemo tsukaiyasukute, benri desu yo.",
+          "english": "This app is very easy to use and convenient!"
+        }
+      ],
+      "flashcardHeader": "〜やすい / 〜にくい",
+      "flashcardAnswer": "Verb stem + やすい = easy to do; verb stem + にくい = hard/awkward to do.",
+      "practice": [
+        {
+          "id": "yasui-nikui_q1",
+          "type": "construct",
+          "prompt": "What is the 〜やすい form of 読[よ]む (to read)?",
+          "japanese": null,
+          "choices": [
+            "読[よ]むやすい",
+            "読[よ]みやすい",
+            "読[よ]んでやすい",
+            "読[よ]めやすい"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + やすい = easy to do. 読[よ]む → masu-stem 読[よ]み + やすい = 読[よ]みやすい = easy to read. やすい always attaches to the masu-stem."
+        },
+        {
+          "id": "yasui-nikui_q2",
+          "type": "usage",
+          "prompt": "Which means 'This book is hard to understand'?",
+          "japanese": null,
+          "choices": [
+            "この本[ほん]は分[わ]かりやすいです。",
+            "この本[ほん]は分[わ]かりにくいです。",
+            "この本[ほん]は分[わ]かれにくいです。",
+            "この本[ほん]は分[わ]かりくいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + にくい = hard/difficult to do. 分[わ]かる → 分[わ]かり + にくい = 分[わ]かりにくい = hard to understand. 分[わ]かりやすい = easy to understand."
+        },
+        {
+          "id": "yasui-nikui_q3",
+          "type": "construct",
+          "prompt": "What is the 〜にくい form of 食[た]べる (to eat)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べるにくい",
+            "食[た]べてにくい",
+            "食[た]べたにくい",
+            "食[た]べにくい"
+          ],
+          "correctIndex": 3,
+          "explanation": "Group 2 masu-stem + にくい: 食[た]べる → masu-stem 食[た]べ + にくい = 食[た]べにくい = hard to eat. The masu-stem is simply 食[た]べ (drop る)."
+        },
+        {
+          "id": "yasui-nikui_q4",
+          "type": "translation",
+          "prompt": "Which means 'This explanation is easy to understand'?",
+          "japanese": null,
+          "choices": [
+            "この説明[せつめい]は分[わ]かりにくいです。",
+            "この説明[せつめい]は分[わ]かれやすいです。",
+            "この説明[せつめい]はやすく分[わ]かります。",
+            "この説明[せつめい]は分[わ]かりやすいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Masu-stem + やすい: 分[わ]かる → 分[わ]かり + やすい = 分[わ]かりやすい = easy to understand. この説明[せつめい]は分[わ]かりやすいです = This explanation is easy to understand."
+        },
+        {
+          "id": "yasui-nikui_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'This pen is easy to write with'?",
+          "japanese": null,
+          "choices": [
+            "このペンは書[か]きやすいです。",
+            "このペンは書[か]くやすいです。",
+            "このペンは書[か]いてやすいです。",
+            "このペンは書[か]きたやすいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + やすい: 書[か]く → 書[か]き + やすい = 書[か]きやすい = easy to write with. このペンは書[か]きやすいです = This pen is easy to write with."
+        },
+        {
+          "id": "yasui-nikui_q6",
+          "type": "usage",
+          "prompt": "Which describes a grammatical property of 〜やすい and 〜にくい?",
+          "japanese": null,
+          "choices": [
+            "They conjugate like verbs",
+            "They conjugate like い-adjectives",
+            "They never conjugate",
+            "They conjugate like な-adjectives"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜やすい and 〜にくい are い-adjectives. They conjugate just like other い-adjectives: 書[か]きやすかった (was easy to write), 書[か]きやすくない (not easy to write), 書[か]きやすければ (if easy to write)."
+        },
+        {
+          "id": "yasui-nikui_q7",
+          "type": "construct",
+          "prompt": "What is the 〜やすい form of 使[つか]う (to use)?",
+          "japanese": null,
+          "choices": [
+            "使[つか]うやすい",
+            "使[つか]ってやすい",
+            "使[つか]いやすい",
+            "使[つか]えやすい"
+          ],
+          "correctIndex": 2,
+          "explanation": "Masu-stem + やすい: 使[つか]う → masu-stem 使[つか]い + やすい = 使[つか]いやすい = easy to use. Group 1 う-verb: う drops and い is the masu-stem."
+        },
+        {
+          "id": "yasui-nikui_q8",
+          "type": "translation",
+          "prompt": "Which means 'Japanese is a language that is hard to learn'?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]は覚[おぼ]えやすい言語[げんご]です。",
+            "日本語[にほんご]は覚[おぼ]えにくい言語[げんご]です。",
+            "日本語[にほんご]は覚[おぼ]えたにくい言語[げんご]です。",
+            "日本語[にほんご]は覚[おぼ]えたやすい言語[げんご]です。"
+          ],
+          "correctIndex": 1,
+          "explanation": "覚[おぼ]える → masu-stem 覚[おぼ]え + にくい = 覚[おぼ]えにくい = hard to remember/learn. 覚[おぼ]えにくい言語[げんご] = a language that is hard to learn."
+        },
+        {
+          "id": "yasui-nikui_q9",
+          "type": "construct",
+          "prompt": "Which correctly means 'This road is easy to get lost on (confusing)'?",
+          "japanese": null,
+          "choices": [
+            "この道[みち]は迷[まよ]いやすいです。",
+            "この道[みち]は迷[まよ]うやすいです。",
+            "この道[みち]は迷[まよ]ったやすいです。",
+            "この道[みち]は迷[まよ]えやすいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + やすい: 迷[まよ]う → 迷[まよ]い + やすい = 迷[まよ]いやすい = easy to get lost / confusing. この道[みち]は迷[まよ]いやすいです = This road is easy to get lost on."
+        },
+        {
+          "id": "yasui-nikui_q10",
+          "type": "usage",
+          "prompt": "Which shows 〜にくい conjugated in the past?",
+          "japanese": null,
+          "choices": [
+            "着[き]にくいでした",
+            "着[き]にくたです",
+            "着[き]にくかったです",
+            "着[き]にくくないです"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜にくい is an い-adjective: past form = 〜にくかった. 着[き]にくかったです = was hard to put on/wear. い-adj past = drop い + かった."
+        },
+        {
+          "id": "yasui-nikui_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'This jacket is hard to put on'?",
+          "japanese": null,
+          "choices": [
+            "このジャケットは着[き]にくいです。",
+            "このジャケットは着[き]るにくいです。",
+            "このジャケットは着[き]てにくいです。",
+            "このジャケットは着[ちゃく]やすいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + にくい: 着[き]る → masu-stem 着[ちゃく] + にくい = 着[き]にくい = hard to put on. このジャケットは着[き]にくいです = This jacket is hard to put on/wear."
+        },
+        {
+          "id": "yasui-nikui_q12",
+          "type": "translation",
+          "prompt": "Which means 'These shoes are comfortable to walk in'?",
+          "japanese": null,
+          "choices": [
+            "この靴[くつ]は歩[ある]きにくいです。",
+            "この靴[くつ]は歩[ある]くやすいです。",
+            "この靴[くつ]は歩[ある]きやすいです。",
+            "この靴[くつ]は歩[ある]いてやすいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "歩[ある]く → masu-stem 歩[ある]き + やすい = 歩[ある]きやすい = easy/comfortable to walk in. この靴[くつ]は歩[ある]きやすいです = These shoes are comfortable to walk in."
+        },
+        {
+          "id": "yasui-nikui_q13",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: このフォントは読[よ]み___ですね。(This font is easy to read, isn't it?)",
+          "japanese": "このフォントは読[よ]み___ですね。",
+          "choices": [
+            "にくい",
+            "やすい",
+            "たい",
+            "たがる"
+          ],
+          "correctIndex": 1,
+          "explanation": "読[よ]み + やすい = 読[よ]みやすい = easy to read. 読[よ]みやすいですね = easy to read, isn't it? やすい = easy to; にくい = hard to."
+        },
+        {
+          "id": "yasui-nikui_q14",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'Kanji are difficult to write'?",
+          "japanese": null,
+          "choices": [
+            "漢字[かんじ]は書[か]くにくいです。",
+            "漢字[かんじ]は書[か]いてにくいです。",
+            "漢字[かんじ]は書[か]きたにくいです。",
+            "漢字[かんじ]は書[か]きにくいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Masu-stem + にくい: 書[か]く → 書[か]き + にくい = 書[か]きにくい = hard to write. 漢字[かんじ]は書[か]きにくいです = Kanji are hard to write."
+        },
+        {
+          "id": "yasui-nikui_q15",
+          "type": "usage",
+          "prompt": "Which is a natural description of a product's ease of use?",
+          "japanese": null,
+          "choices": [
+            "このアプリは使[つか]うやすいです。",
+            "このアプリは使[つか]いやすいです。",
+            "このアプリは使[つか]ってやすいです。",
+            "このアプリは使[つか]えやすいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "使[つか]う → 使[つか]い + やすい = 使[つか]いやすい = easy to use. このアプリは使[つか]いやすいです = This app is easy to use. Very common in product reviews."
+        },
+        {
+          "id": "yasui-nikui_q16",
+          "type": "construct",
+          "prompt": "What is the 〜にくい form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "するにくい",
+            "してにくい",
+            "しにくい",
+            "したにくい"
+          ],
+          "correctIndex": 2,
+          "explanation": "Irregular する: masu-stem is し. し + にくい = しにくい = hard to do. 一人[ひとり]ではしにくい = hard to do alone."
+        },
+        {
+          "id": "yasui-nikui_q17",
+          "type": "translation",
+          "prompt": "Which means 'This umbrella is convenient / easy to use'?",
+          "japanese": null,
+          "choices": [
+            "この傘[かさ]は使[つか]いにくいです。",
+            "この傘[かさ]は使[つか]いたいです。",
+            "この傘[かさ]は使[つか]いやすいです。",
+            "この傘[かさ]は使[つか]いやすくないです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "使[つか]い + やすい = 使[つか]いやすい = easy to use / convenient. この傘[かさ]は使[つか]いやすいです = This umbrella is easy to use."
+        },
+        {
+          "id": "yasui-nikui_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: このソファは座[すわ]り___です。(This sofa is comfortable to sit on.)",
+          "japanese": "このソファは座[すわ]り___です。",
+          "choices": [
+            "にくい",
+            "やすい",
+            "たい",
+            "たがる"
+          ],
+          "correctIndex": 1,
+          "explanation": "座[すわ]り + やすい = 座[すわ]りやすい = comfortable/easy to sit on. このソファは座[すわ]りやすいです = This sofa is comfortable to sit on."
+        },
+        {
+          "id": "yasui-nikui_q19",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'This medicine is hard to drink (bitter)'?",
+          "japanese": null,
+          "choices": [
+            "この薬[くすり]は飲[の]むにくいです。",
+            "この薬[くすり]は飲[の]んでにくいです。",
+            "この薬[くすり]は飲[の]みにくいです。",
+            "この薬[くすり]は飲[の]みたにくいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Masu-stem + にくい: 飲[の]む → 飲[の]み + にくい = 飲[の]みにくい = hard to drink. この薬[くすり]は飲[の]みにくいです = This medicine is hard to drink."
+        },
+        {
+          "id": "yasui-nikui_q20",
+          "type": "usage",
+          "prompt": "Which is an accurate contrast between やすい and にくい?",
+          "japanese": null,
+          "choices": [
+            "やすい = past; にくい = future",
+            "やすい = easy to do; にくい = hard/difficult to do",
+            "やすい = speaker does; にくい = others do",
+            "They are synonyms"
+          ],
+          "correctIndex": 1,
+          "explanation": "やすい = easy to do / tends to. にくい = hard to do / difficult to. Both attach to the masu-stem. 読[よ]みやすい = easy to read; 読[よ]みにくい = hard to read."
+        }
+      ]
+    },
+    {
+      "id": "sasete-kudasai",
+      "name": "〜させてください (sasete kudasai) — please let me do",
+      "shortDescription": "A polite, humble request for permission to do something — 'please allow/let me do X.'",
+      "formation": "Verb (causative て-form) + ください  →  させてください",
+      "explanation": "〜させてください is one of the most useful formal phrases in Japanese. It asks for permission to act — not from above (you're not being told what to do) but from a position of humble deference: 'please allow me to do this.'\n\nThe pattern uses the causative form of a verb (〜させる for Group 2, 〜せる for Group 1) converted to the て-form, then followed by ください. You'll study the causative form 〜させる in full depth in Chapter 22. For now, learn these high-frequency set phrases as vocabulary:\n• 説明[せつめい]させてください (Please let me explain)\n• 確認[かくにん]させてください (Please allow me to confirm)\n• 少[すこ]し考[かんが]えさせてください (Please give me a moment to think)\n• 手伝[てつだ]わせてください (Please let me help)\n\nThe nuance compared to 〜てもいいですか (May I...?): both request permission, but させてください sounds more formal and more deferential — you are placing the authority with the listener and asking them to grant you the opportunity. It's the phrasing of a professional proposing an action to a client or supervisor.\n\nIn business Japanese, させていただく (the humble equivalent using いただく) is even more deferential and extremely common in written and formal spoken contexts.",
+      "rules": [
+        "Causative て-form + ください = please allow me to do X (humble permission request)",
+        "Group 2 causative て-form: stem + させてください (食[た]べさせてください)",
+        "Group 1 causative て-form: stem (a-row) + せてください (書[か]かせてください, 手伝[てつだ]わせてください)",
+        "More humble and formal than 〜てもいいですか — you defer authority to the listener",
+        "Full causative 〜させる is covered in Chapter 22; learn these as set phrases for now",
+        "In writing: させていただく is even more deferential (very common in business Japanese)"
+      ],
+      "examples": [
+        {
+          "japanese": "少[すこ]し考[かんが]えさせてください。",
+          "romaji": "Sukoshi kangaesasete kudasai.",
+          "english": "Please let me think about it for a moment."
+        },
+        {
+          "japanese": "もう一度[いちど]確認[かくにん]させてください。",
+          "romaji": "Mou ichido kakunin sasete kudasai.",
+          "english": "Please allow me to check once more."
+        },
+        {
+          "japanese": "私[わたし]に手伝[てつだ]わせてください。",
+          "romaji": "Watashi ni tetsudawasete kudasai.",
+          "english": "Please let me help."
+        },
+        {
+          "japanese": "その件[けん]については、上司[じょうし]に相談[そうだん]させてください。",
+          "romaji": "Sono ken ni tsuite wa, joushi ni soudan sasete kudasai.",
+          "english": "Regarding that matter, please let me consult with my supervisor."
+        }
+      ],
+      "flashcardHeader": "〜させてください",
+      "flashcardAnswer": "Humble permission request — 'please allow/let me do X.' (Full causative in Chapter 22.)",
+      "practice": [
+        {
+          "id": "sasete-kudasai_q1",
+          "type": "translation",
+          "prompt": "Which means 'Please let me try (it)'?",
+          "japanese": null,
+          "choices": [
+            "やってみてください。",
+            "やらせてください。",
+            "やってください。",
+            "やらせてみてください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Causative te-form + ください = please let me [do]. やる → causative させる → させて + ください = やらせてください = please let me do it / please allow me to try."
+        },
+        {
+          "id": "sasete-kudasai_q2",
+          "type": "construct",
+          "prompt": "What is the causative te-form of 食[た]べる (to eat)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べさせてください",
+            "食[た]べさせて",
+            "食[た]べさせる",
+            "食[た]べされて"
+          ],
+          "correctIndex": 1,
+          "explanation": "Group 2 causative: drop る + させる = 食[た]べさせる → te-form 食[た]べさせて. 食[た]べさせてください = please let me eat / allow me to eat."
+        },
+        {
+          "id": "sasete-kudasai_q3",
+          "type": "usage",
+          "prompt": "In what context is 〜させてください typically used?",
+          "japanese": null,
+          "choices": [
+            "To ask someone to do something for you",
+            "To make someone do something (command)",
+            "To describe a completed action",
+            "To humbly request permission to do something yourself"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜させてください = please let me / please allow me to (humbly request permission for your own action). Used when asking permission: 電話[でんわ]させてください = please let me make a phone call."
+        },
+        {
+          "id": "sasete-kudasai_q4",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please let me help'?",
+          "japanese": null,
+          "choices": [
+            "手伝[てつだ]ってください。",
+            "手伝[てつだ]いさせてください。",
+            "手伝[てつだ]いされてください。",
+            "手伝[てつだ]わせてください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Group 1 causative: 手伝[てつだ]う → 手伝[てつだ]わ (causative stem) + せる → 手伝[てつだ]わせる → te-form 手伝[てつだ]わせて + ください = 手伝[てつだ]わせてください = please let me help."
+        },
+        {
+          "id": "sasete-kudasai_q5",
+          "type": "construct",
+          "prompt": "What is the causative te-form + ください of 行[い]く (to go)?",
+          "japanese": null,
+          "choices": [
+            "行[い]かせてください",
+            "行[い]きてください",
+            "行[い]ってください",
+            "行[い]けてください"
+          ],
+          "correctIndex": 0,
+          "explanation": "Group 1 causative: 行[い]く → 行[い]か (causative stem) + せる = 行[い]かせる → 行[い]かせて + ください = 行[い]かせてください = please let me go."
+        },
+        {
+          "id": "sasete-kudasai_q6",
+          "type": "translation",
+          "prompt": "Which means 'Please allow me to introduce myself'?",
+          "japanese": null,
+          "choices": [
+            "自己紹介[じこしょうかい]させてください。",
+            "自己紹介[じこしょうかい]してください。",
+            "自己紹介[じこしょうかい]させていただきます。",
+            "自己紹介[じこしょうかい]にさせてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "自己紹介[じこしょうかい]する → causative させる → させて + ください = 自己紹介[じこしょうかい]させてください = please let me introduce myself. Common in formal presentations."
+        },
+        {
+          "id": "sasete-kudasai_q7",
+          "type": "usage",
+          "prompt": "Which is more POLITE/HUMBLE than 〜させてください?",
+          "japanese": null,
+          "choices": [
+            "〜させてくれ",
+            "〜させてみる",
+            "〜させていただけますか",
+            "〜させないでください"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜させていただけますか = Would you allow me to [do]? (most polite). Combines causative + いただく (humble) + か (question). More polite than させてください, used in formal/business settings."
+        },
+        {
+          "id": "sasete-kudasai_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please let me confirm once more'?",
+          "japanese": null,
+          "choices": [
+            "もう一度[いちど]確認[かくにん]させてください。",
+            "もう一度[いちど]確認[かくにん]してください。",
+            "もう一度[いちど]確認[かくにん]されてください。",
+            "もう一度[いちど]確認[かくにん]しさせてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "確認[かくにん]する → causative させる → させて + ください = 確認[かくにん]させてください = please let me confirm. もう一度[いちど]確認[かくにん]させてください = please let me confirm once more."
+        },
+        {
+          "id": "sasete-kudasai_q9",
+          "type": "usage",
+          "prompt": "What does 〜させていただきます express?",
+          "japanese": null,
+          "choices": [
+            "'I will make you do [something]'",
+            "'I will humbly do [something] with permission'",
+            "'Please let me [do something]'",
+            "'I cannot do [something]'"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜させていただきます = I will humbly do  (with implied permission from the listener). More formal than させてください. 説明[せつめい]させていただきます = Allow me to explain (formal business phrase)."
+        },
+        {
+          "id": "sasete-kudasai_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please let me speak for a moment'?",
+          "japanese": null,
+          "choices": [
+            "少[すこ]し話[はな]させてください。",
+            "少[すこ]し話[はな]してください。",
+            "少[すこ]し話[はな]されてください。",
+            "少[すこ]し話[はな]しさせてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "話[はな]す → 話[はな]さ (causative stem) + せる = 話[はな]させる → 話[はな]させて + ください = 話[はな]させてください = please let me speak. Causative of Group 1 す-verb: す → さ."
+        },
+        {
+          "id": "sasete-kudasai_q11",
+          "type": "translation",
+          "prompt": "Which means 'Allow me to think about it'?",
+          "japanese": null,
+          "choices": [
+            "考[かんが]えてください。",
+            "考[かんが]えさせてください。",
+            "考[かんが]えをさせてください。",
+            "考[かんが]えていただけますか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "考[かんが]える → causative 考[かんが]えさせる → 考[かんが]えさせて + ください = 考[かんが]えさせてください = please let me think about it. Used to request time to think before answering."
+        },
+        {
+          "id": "sasete-kudasai_q12",
+          "type": "usage",
+          "prompt": "Which is correct in a formal business email: 'allow me to confirm'?",
+          "japanese": null,
+          "choices": [
+            "確認[かくにん]させていただきます。",
+            "確認[かくにん]させてください。",
+            "確認[かくにん]してください。",
+            "確認[かくにん]させてあげます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜させていただきます = I will humbly  (formal, with implied permission). 確認[かくにん]させていただきます = I will (humbly) confirm. More formal than させてください, standard in business emails."
+        },
+        {
+          "id": "sasete-kudasai_q13",
+          "type": "construct",
+          "prompt": "What is the causative te-form + ください of くる (to come)?",
+          "japanese": null,
+          "choices": [
+            "こさせてください",
+            "くさせてください",
+            "きさせてください",
+            "これさせてください"
+          ],
+          "correctIndex": 0,
+          "explanation": "Irregular くる: causative is こさせる. こさせて + ください = こさせてください = please let me come. Irregular causative: くる → こさせる."
+        },
+        {
+          "id": "sasete-kudasai_q14",
+          "type": "usage",
+          "prompt": "Which best explains why させてください is more polite than してください?",
+          "japanese": null,
+          "choices": [
+            "してください is past tense; させてください is future",
+            "させてください requests PERMISSION for your own action; してください asks another to act",
+            "させてください is more expensive to say",
+            "There is no difference in politeness"
+          ],
+          "correctIndex": 1,
+          "explanation": "してください = please [you] do something (request for the listener to act). させてください = please LET ME do something (humbly asking permission for the speaker to act). させてください is humble permission-seeking."
+        },
+        {
+          "id": "sasete-kudasai_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please let me take a break'?",
+          "japanese": null,
+          "choices": [
+            "少[すこ]し休[やす]ませてください。",
+            "少[すこ]し休[やす]んでください。",
+            "少[すこ]し休[やす]まれてください。",
+            "少[すこ]し休[やす]みにしてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "休[やす]む → 休[やす]ま (causative stem) + せる = 休[やす]ませる → 休[やす]ませて + ください = 休[やす]ませてください = please let me rest/take a break."
+        },
+        {
+          "id": "sasete-kudasai_q16",
+          "type": "translation",
+          "prompt": "Which means 'Please allow me to take a day off tomorrow'?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]、休[やす]ませてください。",
+            "明日[あした]、休[やす]んでください。",
+            "明日[あした]、休[やす]まれてください。",
+            "明日[あした]、休[やす]みをさせてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "休[やす]む → 休[やす]ませる → 休[やす]ませてください = please let me rest. 明日[あした]、休[やす]ませてください = please allow me to take tomorrow off. Common way to request time off from a superior."
+        },
+        {
+          "id": "sasete-kudasai_q17",
+          "type": "usage",
+          "prompt": "Which correctly combines させて + いただけますか (ultra-polite request)?",
+          "japanese": null,
+          "choices": [
+            "やらさせていただけますか。",
+            "やらせていただけますか。",
+            "やらせていただけますが。",
+            "やらせていただきますか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Causative te-form + いただけますか = Would you please allow me to [do]? (most polite). やらせていただけますか = Would you allow me to do it? Higher register than やらせてください."
+        },
+        {
+          "id": "sasete-kudasai_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please let me check this'?",
+          "japanese": null,
+          "choices": [
+            "これを確認[かくにん]させてください。",
+            "これを確認[かくにん]してください。",
+            "これを確認[かくにん]されてください。",
+            "これを確認[かくにん]しさせてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "確認[かくにん]する → causative させる → させてください. これを確認[かくにん]させてください = please let me check this. The object of the action (これ) takes を."
+        },
+        {
+          "id": "sasete-kudasai_q19",
+          "type": "construct",
+          "prompt": "What is the causative te-form + ください of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "するさせてください",
+            "してさせてください",
+            "させてください",
+            "させていただきます"
+          ],
+          "correctIndex": 2,
+          "explanation": "Irregular する: causative is させる. させて + ください = させてください = please let me do. Often used as 〜をさせてください (please let me do [action])."
+        },
+        {
+          "id": "sasete-kudasai_q20",
+          "type": "usage",
+          "prompt": "In what situation would you say 先[さき]に帰[かえ]らせてください?",
+          "japanese": null,
+          "choices": [
+            "When you want the other person to go home first",
+            "When humbly asking permission to leave before others",
+            "When telling someone they must go home",
+            "When explaining why someone left early"
+          ],
+          "correctIndex": 1,
+          "explanation": "先[さき]に帰[かえ]らせてください = please let me leave first (before you/others). 帰[かえ]る → 帰[かえ]ら + せる = 帰[かえ]らせる → させてください. Used when requesting permission to leave early — for example, from work or a group event."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch20_v01",
+      "partOfSpeech": "noun",
+      "kanji": "電話番号",
+      "kana": "でんわばんごう",
+      "romaji": "denwabangou",
+      "definition": "phone number"
+    },
+    {
+      "id": "ch20_v02",
+      "partOfSpeech": "noun",
+      "kanji": "住所",
+      "kana": "じゅうしょ",
+      "romaji": "juusho",
+      "definition": "address"
+    },
+    {
+      "id": "ch20_v03",
+      "partOfSpeech": "noun",
+      "kanji": "メール",
+      "kana": "メール",
+      "romaji": "meeru",
+      "definition": "email"
+    },
+    {
+      "id": "ch20_v04",
+      "partOfSpeech": "noun",
+      "kanji": "パソコン",
+      "kana": "パソコン",
+      "romaji": "pasokon",
+      "definition": "(personal) computer"
+    },
+    {
+      "id": "ch20_v05",
+      "partOfSpeech": "noun",
+      "kanji": "インターネット",
+      "kana": "インターネット",
+      "romaji": "intaanetto",
+      "definition": "the internet"
+    },
+    {
+      "id": "ch20_v06",
+      "partOfSpeech": "noun",
+      "kanji": "スマホ",
+      "kana": "スマホ",
+      "romaji": "sumaho",
+      "definition": "smartphone"
+    },
+    {
+      "id": "ch20_v07",
+      "partOfSpeech": "noun",
+      "kanji": "アプリ",
+      "kana": "アプリ",
+      "romaji": "apuri",
+      "definition": "app"
+    },
+    {
+      "id": "ch20_v08",
+      "partOfSpeech": "noun",
+      "kanji": "サイト",
+      "kana": "サイト",
+      "romaji": "saito",
+      "definition": "website"
+    },
+    {
+      "id": "ch20_v09",
+      "partOfSpeech": "noun",
+      "kanji": "パスワード",
+      "kana": "パスワード",
+      "romaji": "pasuwaado",
+      "definition": "password"
+    },
+    {
+      "id": "ch20_v10",
+      "partOfSpeech": "noun",
+      "kanji": "画面",
+      "kana": "がめん",
+      "romaji": "gamen",
+      "definition": "screen"
+    },
+    {
+      "id": "ch20_v11",
+      "partOfSpeech": "noun",
+      "kanji": "電源",
+      "kana": "でんげん",
+      "romaji": "dengen",
+      "definition": "power (source)"
+    },
+    {
+      "id": "ch20_v12",
+      "partOfSpeech": "noun",
+      "kanji": "充電",
+      "kana": "じゅうでん",
+      "romaji": "juuden",
+      "definition": "charging"
+    },
+    {
+      "id": "ch20_v13",
+      "partOfSpeech": "noun",
+      "kanji": "データ",
+      "kana": "データ",
+      "romaji": "deeta",
+      "definition": "data"
+    },
+    {
+      "id": "ch20_v14",
+      "partOfSpeech": "noun",
+      "kanji": "ファイル",
+      "kana": "ファイル",
+      "romaji": "fairu",
+      "definition": "file"
+    },
+    {
+      "id": "ch20_v15",
+      "partOfSpeech": "noun",
+      "kanji": "保存",
+      "kana": "ほぞん",
+      "romaji": "hozon",
+      "definition": "saving; storage"
+    },
+    {
+      "id": "ch20_v16",
+      "partOfSpeech": "noun",
+      "kanji": "削除",
+      "kana": "さくじょ",
+      "romaji": "sakujo",
+      "definition": "deletion"
+    },
+    {
+      "id": "ch20_v17",
+      "partOfSpeech": "noun",
+      "kanji": "送信",
+      "kana": "そうしん",
+      "romaji": "soushin",
+      "definition": "sending; transmission"
+    },
+    {
+      "id": "ch20_v18",
+      "partOfSpeech": "noun",
+      "kanji": "受信",
+      "kana": "じゅしん",
+      "romaji": "jushin",
+      "definition": "receiving; reception"
+    },
+    {
+      "id": "ch20_v19",
+      "partOfSpeech": "noun",
+      "kanji": "連絡先",
+      "kana": "れんらくさき",
+      "romaji": "renrakusaki",
+      "definition": "contact information"
+    },
+    {
+      "id": "ch20_v20",
+      "partOfSpeech": "noun",
+      "kanji": "通信",
+      "kana": "つうしん",
+      "romaji": "tsuushin",
+      "definition": "communication"
+    },
+    {
+      "id": "ch20_v21",
+      "partOfSpeech": "noun",
+      "kanji": "電波",
+      "kana": "でんぱ",
+      "romaji": "denpa",
+      "definition": "signal; reception"
+    },
+    {
+      "id": "ch20_v22",
+      "partOfSpeech": "noun",
+      "kanji": "番組",
+      "kana": "ばんぐみ",
+      "romaji": "bangumi",
+      "definition": "(TV/radio) program"
+    },
+    {
+      "id": "ch20_v23",
+      "partOfSpeech": "noun",
+      "kanji": "放送",
+      "kana": "ほうそう",
+      "romaji": "housou",
+      "definition": "broadcast"
+    },
+    {
+      "id": "ch20_v24",
+      "partOfSpeech": "noun",
+      "kanji": "情報",
+      "kana": "じょうほう",
+      "romaji": "jouhou",
+      "definition": "information"
+    },
+    {
+      "id": "ch20_v25",
+      "partOfSpeech": "noun",
+      "kanji": "ニュース",
+      "kana": "ニュース",
+      "romaji": "nyuusu",
+      "definition": "news"
+    },
+    {
+      "id": "ch20_v26",
+      "partOfSpeech": "noun",
+      "kanji": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "definition": "article"
+    },
+    {
+      "id": "ch20_v27",
+      "partOfSpeech": "noun",
+      "kanji": "広告",
+      "kana": "こうこく",
+      "romaji": "koukoku",
+      "definition": "advertisement"
+    },
+    {
+      "id": "ch20_v28",
+      "partOfSpeech": "noun",
+      "kanji": "検索",
+      "kana": "けんさく",
+      "romaji": "kensaku",
+      "definition": "(web) search"
+    },
+    {
+      "id": "ch20_v29",
+      "partOfSpeech": "noun",
+      "kanji": "登録",
+      "kana": "とうろく",
+      "romaji": "touroku",
+      "definition": "registration"
+    },
+    {
+      "id": "ch20_v30",
+      "partOfSpeech": "noun",
+      "kanji": "画像",
+      "kana": "がぞう",
+      "romaji": "gazou",
+      "definition": "image"
+    },
+    {
+      "id": "ch20_v31",
+      "partOfSpeech": "noun",
+      "kanji": "動画",
+      "kana": "どうが",
+      "romaji": "douga",
+      "definition": "video"
+    },
+    {
+      "id": "ch20_v32",
+      "partOfSpeech": "noun",
+      "kanji": "接続",
+      "kana": "せつぞく",
+      "romaji": "setsuzoku",
+      "definition": "connection"
+    },
+    {
+      "id": "ch20_v33",
+      "partOfSpeech": "noun",
+      "kanji": "更新",
+      "kana": "こうしん",
+      "romaji": "koushin",
+      "definition": "update; renewal"
+    },
+    {
+      "id": "ch20_v34",
+      "partOfSpeech": "noun",
+      "kanji": "入力",
+      "kana": "にゅうりょく",
+      "romaji": "nyuuryoku",
+      "definition": "input; typing"
+    },
+    {
+      "id": "ch20_v35",
+      "partOfSpeech": "noun",
+      "kanji": "操作",
+      "kana": "そうさ",
+      "romaji": "sousa",
+      "definition": "operation; handling"
+    },
+    {
+      "id": "ch20_v36",
+      "partOfSpeech": "noun",
+      "kanji": "会話",
+      "kana": "かいわ",
+      "romaji": "kaiwa",
+      "definition": "conversation"
+    },
+    {
+      "id": "ch20_v37",
+      "partOfSpeech": "verb",
+      "kanji": "伝える",
+      "kana": "つたえる",
+      "romaji": "tsutaeru",
+      "definition": "to convey; to tell"
+    },
+    {
+      "id": "ch20_v38",
+      "partOfSpeech": "noun",
+      "kanji": "伝言",
+      "kana": "でんごん",
+      "romaji": "dengon",
+      "definition": "(verbal) message"
+    },
+    {
+      "id": "ch20_v39",
+      "partOfSpeech": "verb",
+      "kanji": "呼ぶ",
+      "kana": "よぶ",
+      "romaji": "yobu",
+      "definition": "to call; to summon"
+    },
+    {
+      "id": "ch20_v40",
+      "partOfSpeech": "verb",
+      "kanji": "繋ぐ",
+      "kana": "つなぐ",
+      "romaji": "tsunagu",
+      "definition": "to connect"
+    }
+  ],
+  "kanji": [
+    "新",
+    "力",
+    "言",
+    "作",
+    "画",
+    "広",
+    "住",
+    "送",
+    "映",
+    "夏"
+  ]
+}

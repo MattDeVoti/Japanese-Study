@@ -1,4 +1,4 @@
-name: JLPTStudy
+name: Omedetou
 options:
   bundleIdPrefix: com.mattdevoti1
   deploymentTarget:
@@ -13,21 +13,85 @@ settings:
     IPHONEOS_DEPLOYMENT_TARGET: "16.0"
 
 targets:
-  JLPTStudy:
+  Omedetou:
     type: application
     platform: iOS
     deploymentTarget: "16.0"
     sources:
-      - path: Sources/JLPTStudy
+      - path: Sources/Omedetou
         createIntermediateGroups: true
         excludes:
           - "**/.DS_Store"
+      - path: Sources/Shared
+        createIntermediateGroups: true
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.jlptstudy
-        INFOPLIST_FILE: Sources/JLPTStudy/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou
+        INFOPLIST_FILE: Sources/Omedetou/Info.plist
+        # --- Cross-device sync (off by default) ---------------------------
+        # Enabling it needs a PAID Apple Developer Program membership: free
+        # personal teams cannot sign the iCloud capability, and a build that
+        # requests it cannot be installed on a device at all.
+        # To turn it on, comment out the two lines below, uncomment the two
+        # after them, re-run `xcodegen generate`, then tick iCloud ▸ CloudKit
+        # and Key-value storage in Xcode ▸ Signing & Capabilities.
+        CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou.entitlements
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited)"
+        # CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou-iCloud.entitlements
+        # SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) ICLOUD_SYNC"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         GENERATE_INFOPLIST_FILE: "NO"
     dependencies:
       - sdk: libsqlite3.tbd
+      - target: OmedetouWidgets
+        embed: true
+
+  OmedetouWidgets:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources/OmedetouWidgets
+        createIntermediateGroups: true
+        excludes:
+          - "**/.DS_Store"
+      - path: Sources/Shared
+        createIntermediateGroups: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou.widgets
+        INFOPLIST_FILE: Sources/OmedetouWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/OmedetouWidgets/OmedetouWidgets.entitlements
+        GENERATE_INFOPLIST_FILE: "NO"
+        SKIP_INSTALL: "YES"
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+
+# One shared scheme, checked in, that runs the app.
+#
+# Without this the project ships no schemes at all, so Xcode invents one per
+# target — including OmedetouWidgets. Running *that* one installs the app and
+# then asks WidgetKit to display the widget, which fails on a device with
+# "SendProcessControlEvent … Failed to show Widget". Regenerating the project
+# lets Xcode re-pick which scheme is selected, so the wrong one keeps coming
+# back on its own.
+#
+# Declaring it here makes the app scheme deterministic and survive
+# `xcodegen generate`. The widget builds as a dependency of the app, so there's
+# nothing to add for it — and Xcode will still auto-create a widget scheme if
+# you ever want to debug the extension directly.
+schemes:
+  Omedetou:
+    build:
+      targets:
+        Omedetou: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

@@ -1,0 +1,1287 @@
+{
+  "id": "ch09",
+  "chapterNumber": 10,
+  "title": "Modifying Nouns",
+  "points": [
+    {
+      "id": "verb-noun-modifier",
+      "name": "Verb (plain form) + Noun — relative clauses",
+      "shortDescription": "A verb phrase placed before a noun to describe it, like a relative clause in English.",
+      "formation": "Verb (plain form, any tense) + Noun",
+      "explanation": "One of the most powerful tools in Japanese grammar is the ability to place an entire verb phrase directly before a noun to describe it. Think of it as attaching a sticker to the noun: the sticker is a miniature clause that tells you something specific about that noun. In English, we use relative clauses: 'the book that I read,' 'the person who is standing there.' Japanese has no equivalent of 'that,' 'which,' or 'who' — you simply put the verb phrase directly in front of the noun in plain form. 私[わたし]が読[よ]んだ本[ほん] = 'the book I read' — 読[よ]んだ (past plain form of 読[よ]む) sits directly before 本[ほん].\n\nTwo important rules: first, the verb in the modifying phrase is always in plain form, no matter how polite the overall sentence is. Second, the subject inside the relative clause takes が, not は — 私[わたし]が書[か]いた手紙[てがみ] (the letter I wrote), not 私[わたし]は書[か]いた手紙[てがみ]. This は vs が distinction is key to sounding natural in Japanese.",
+      "rules": [
+        "Verb (plain form) placed directly before noun describes the noun (no 'that/which/who')",
+        "Any tense works: 読[よ]む本[ほん] (book to read), 読[よ]んだ本[ほん] (book I read), 読[よ]んでいる本[ほん] (book I'm reading)",
+        "The subject inside the relative clause takes が, not は",
+        "The verb must be in plain form regardless of the sentence's politeness level",
+        "The modified noun can be subject, object, or any role in the main sentence"
+      ],
+      "examples": [
+        {
+          "japanese": "これはわたしが昨日[きのう]買[か]った本[ほん]です。",
+          "romaji": "Kore wa watashi ga kinou katta hon desu.",
+          "english": "This is the book I bought yesterday."
+        },
+        {
+          "japanese": "あそこに立[た]っている人[ひと]はだれですか。",
+          "romaji": "Asoko ni tatte iru hito wa dare desu ka.",
+          "english": "Who is the person standing over there?"
+        },
+        {
+          "japanese": "田中[たなか]さんが作[つく]った料理[りょうり]はとてもおいしかったです。",
+          "romaji": "Tanaka-san ga tsukutta ryouri wa totemo oishikatta desu.",
+          "english": "The food that Tanaka-san made was very delicious."
+        },
+        {
+          "japanese": "明日[あした]着[き]る服[ふく]をもう決[き]めましたか。",
+          "romaji": "Ashita kiru fuku wo mou kimemashita ka.",
+          "english": "Have you already decided what clothes to wear tomorrow?"
+        }
+      ],
+      "flashcardHeader": "Verb (plain form) + Noun",
+      "flashcardAnswer": "A verb phrase placed before a noun to describe it, like a relative clause in English.",
+      "practice": [
+        {
+          "id": "verb-noun-modifier_q1",
+          "type": "translation",
+          "prompt": "What does this phrase mean?",
+          "japanese": "昨日[きのう]食[た]べたケーキ",
+          "choices": [
+            "the cake I am eating",
+            "the cake I ate yesterday",
+            "the cake I will eat tomorrow",
+            "eating cake yesterday"
+          ],
+          "correctIndex": 1,
+          "explanation": "た-form verb + noun creates a relative clause modifying that noun. 食[た]べた (ate) sits directly before ケーキ (cake), making it 'the cake  ate.' The implied subject is dropped since it is clear from context."
+        },
+        {
+          "id": "verb-noun-modifier_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the correct particle for the subject inside a relative clause.",
+          "japanese": "田中[たなか]さん___作[つく]った料理[りょうり]はおいしかったです。",
+          "choices": [
+            "は",
+            "が",
+            "を",
+            "の"
+          ],
+          "correctIndex": 1,
+          "explanation": "Inside a relative clause, the embedded subject takes が, not は. 田中[たなか]さんが作[つく]った料理[りょうり] = 'the dish that Tanaka-san made.' Using は inside a relative clause is unnatural in standard Japanese."
+        },
+        {
+          "id": "verb-noun-modifier_q3",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'the movie I watched yesterday'?",
+          "japanese": null,
+          "choices": [
+            "映画[えいが]を昨日[きのう]見[み]た",
+            "昨日[きのう]見[み]た映画[えいが]",
+            "昨日[きのう]見[み]る映画[えいが]",
+            "昨日[きのう]見[み]ます映画[えいが]"
+          ],
+          "correctIndex": 1,
+          "explanation": "To modify a noun with a past action, use the た-form directly before the noun: 見[み]た (watched) + 映画[えいが] (movie). The plain-form verb must come immediately before the noun — polite forms like ます cannot appear inside a relative clause."
+        },
+        {
+          "id": "verb-noun-modifier_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "あそこに立[た]っている人[ひと]はだれですか。",
+          "choices": [
+            "Where is the person standing?",
+            "Who stood over there?",
+            "That person is standing over there.",
+            "Who is the person standing over there?"
+          ],
+          "correctIndex": 3,
+          "explanation": "立[た]っている (is standing — ている progressive form) modifies 人[ひと] (person), forming a relative clause: 'the person who is standing over there.' That noun phrase is then the topic of the question だれですか (who is it?)."
+        },
+        {
+          "id": "verb-noun-modifier_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses a verb phrase to modify a noun?",
+          "japanese": null,
+          "choices": [
+            "これは私[わたし]を昨日[きのう]買[か]った本[ほん]です。",
+            "これは私[わたし]は昨日[きのう]買[か]った本[ほん]です。",
+            "これは私[わたし]が昨日[きのう]買[か]った本[ほん]です。",
+            "これは昨日[きのう]の本[ほん]を私[わたし]が買[か]いました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "The subject inside a relative clause takes が: 私[わたし]が昨日[きのう]買[か]った本[ほん] = 'the book I bought yesterday.' Using は or を as the subject marker inside the relative clause is incorrect, and the last option changes the sentence structure entirely."
+        },
+        {
+          "id": "verb-noun-modifier_q6",
+          "type": "translation",
+          "prompt": "What does this phrase mean?",
+          "japanese": "毎朝[まいあさ]コーヒーを飲[の]む人[ひと]",
+          "choices": [
+            "a person who drank coffee every morning",
+            "coffee that a person drinks every morning",
+            "a person who drinks coffee every morning",
+            "every morning, I drink coffee"
+          ],
+          "correctIndex": 2,
+          "explanation": "飲[の]む (non-past plain form of 飲[の]む) placed directly before 人[ひと] creates a relative clause: 'a person who drinks coffee every morning.' The non-past plain form before a noun describes a habitual or general action, not just a future one."
+        },
+        {
+          "id": "verb-noun-modifier_q7",
+          "type": "translation",
+          "prompt": "What does this phrase mean?",
+          "japanese": "肉[にく]を食[た]べない人[ひと]",
+          "choices": [
+            "a person who doesn't eat meat",
+            "a person who stopped eating meat",
+            "meat that a person doesn't eat",
+            "a person who ate no meat"
+          ],
+          "correctIndex": 0,
+          "explanation": "食[た]べない (negative non-past plain form of 食[た]べる) + 人[ひと] = 'a person who doesn't eat .' The negative plain form (～ない) before a noun works exactly like any other verb form to create a modifying relative clause."
+        },
+        {
+          "id": "verb-noun-modifier_q8",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'the child playing in the park'?",
+          "japanese": null,
+          "choices": [
+            "公園[こうえん]で遊[あそ]んでいます子[こ]ども",
+            "公園[こうえん]で遊[あそ]びました子[こ]ども",
+            "公園[こうえん]で遊[あそ]ぶことの子[こ]ども",
+            "公園[こうえん]で遊[あそ]んでいる子[こ]ども"
+          ],
+          "correctIndex": 3,
+          "explanation": "遊[あそ]んでいる (plain progressive: is playing) placed before 子[こ]ども (child) creates 'the child who is playing in the park.' The verb must stay in plain form — 遊[あそ]んでいます (polite, option 1) and 遊[あそ]びました (polite past, option 2) cannot modify a noun. Only plain forms belong inside relative clauses."
+        },
+        {
+          "id": "verb-noun-modifier_q9",
+          "type": "usage",
+          "prompt": "Which correctly uses の as the subject marker inside a relative clause?",
+          "japanese": null,
+          "choices": [
+            "私[わたし]の本[ほん]を読[よ]んだ。",
+            "私[わたし]の読[よ]んだ本[ほん]はおもしろかった。",
+            "本[ほん]の読[よ]んだ私[わたし]。",
+            "私[わたし]に読[よ]んだの本[ほん]。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Inside a relative clause, の can replace が as the subject marker. 私[わたし]の読[よ]んだ本[ほん] = 私[わたし]が読[よ]んだ本[ほん] = 'the book I read.' Option 1 means 'my book' (possessive の, not subject の). Option 3 reverses subject and noun. Option 4 misplaces に and の."
+        },
+        {
+          "id": "verb-noun-modifier_q10",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'the restaurant where I had dinner'?",
+          "japanese": null,
+          "choices": [
+            "レストランで夕食[ゆうしょく]に食[た]べた",
+            "レストランを夕食[ゆうしょく]が食[た]べた",
+            "夕食[ゆうしょく]を食[た]べたレストラン",
+            "夕食[ゆうしょく]を食[た]べましたレストラン"
+          ],
+          "correctIndex": 2,
+          "explanation": "夕食[ゆうしょく]を食[た]べた (had dinner — past plain form) + レストラン (restaurant) = 'the restaurant where I had dinner.' The entire verb phrase comes before the noun. Option 4 incorrectly uses the polite form 食[た]べました inside a relative clause."
+        },
+        {
+          "id": "verb-noun-modifier_q11",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "先生[せんせい]が勧[すす]めた本[ほん]を読[よ]みました。",
+          "choices": [
+            "I read the book my teacher recommended.",
+            "My teacher read the book I recommended.",
+            "I recommended a book that a teacher read.",
+            "The book I read was recommended to the teacher."
+          ],
+          "correctIndex": 0,
+          "explanation": "先生[せんせい]が勧[すす]めた (my teacher recommended) is a relative clause where が marks 先生[せんせい] as the embedded subject. It modifies 本[ほん] (book): 'the book that my teacher recommended.' を読[よ]みました = 'I read .' が is natural here since there is no competing main-clause subject."
+        },
+        {
+          "id": "verb-noun-modifier_q12",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]行[い]く場所[ばしょ]はもう決[き]めましたか。",
+          "choices": [
+            "Did you go to the place you decided tomorrow?",
+            "Have you already decided where to go tomorrow?",
+            "Tomorrow, have you decided to go somewhere?",
+            "Do you know the place where you went yesterday?"
+          ],
+          "correctIndex": 1,
+          "explanation": "行[い]く (non-past plain form of 行[い]く) + 場所[ばしょ] (place) = 'the place to go / where  will go.' Non-past plain form can indicate a future action when used as a noun modifier. もう決[き]めましたか = 'Have you already decided?' Together: 'Have you already decided where to go tomorrow?'"
+        },
+        {
+          "id": "verb-noun-modifier_q13",
+          "type": "usage",
+          "prompt": "Which phrase means 'a person who doesn't drink alcohol'?",
+          "japanese": null,
+          "choices": [
+            "お酒[さけ]を飲[の]んだ人[ひと]",
+            "お酒[さけ]を飲[の]まない人[ひと]",
+            "お酒[さけ]を飲[の]んでいる人[ひと]",
+            "お酒[さけ]を飲[の]む人[ひと]"
+          ],
+          "correctIndex": 1,
+          "explanation": "飲[の]まない (negative non-past plain form of 飲[の]む) + 人[ひと] = 'a person who doesn't drink .' 飲[の]んだ人[ひと] = 'a person who drank (past)'; 飲[の]む人[ひと] = 'a person who drinks (habitual)'; 飲[の]んでいる人[ひと] = 'a person who is currently drinking.' Only 飲[の]まない人[ひと] expresses a non-drinker."
+        },
+        {
+          "id": "verb-noun-modifier_q14",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'the city I live in'?",
+          "japanese": null,
+          "choices": [
+            "住[す]む市[し]",
+            "市[し]が住[す]んでいます",
+            "私[わたし]が住[す]んでいる市[し]",
+            "市[し]を住[す]んでいました"
+          ],
+          "correctIndex": 2,
+          "explanation": "住[す]んでいる (progressive: am living) + 市[し] (city) = 'the city I live in.' 住[す]む市[し] (option 1) means 'the city to live in / where  will live' (non-past nuance). Option 2 makes 市[し] the subject of 住[す]む (backwards). 住[す]む is intransitive so を (option 4) is incorrect."
+        },
+        {
+          "id": "verb-noun-modifier_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本語[にほんご]が話[はな]せる人[ひと]を探[さが]しています。",
+          "choices": [
+            "I'm looking for a person who can speak Japanese.",
+            "The person who spoke Japanese is looking for me.",
+            "I can speak Japanese, so I'm looking for work.",
+            "I found a person who speaks Japanese."
+          ],
+          "correctIndex": 0,
+          "explanation": "話[はな]せる (potential plain form: can speak) + 人[ひと] (person) = 'a person who can speak Japanese.' The potential form 話[はな]せる is a plain-form verb and can directly modify a noun like any other verb form. を探[さが]しています = 'am looking for.'"
+        },
+        {
+          "id": "verb-noun-modifier_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "田中[たなか]さんが書[か]いた手紙[てがみ]を読[よ]みました。",
+          "choices": [
+            "Tanaka-san read a letter I wrote.",
+            "I read the letter that Tanaka-san wrote.",
+            "Tanaka-san read the letter that I wrote.",
+            "I wrote a letter to Tanaka-san."
+          ],
+          "correctIndex": 1,
+          "explanation": "田中[たなか]さんが書[か]いた (Tanaka-san wrote) is a relative clause where が marks 田中[たなか]さん as the embedded subject. It modifies 手紙[てがみ] (letter): 'the letter that Tanaka-san wrote.' を読[よ]みました = 'I read .' The subject of the main clause (I) is implied from context."
+        },
+        {
+          "id": "verb-noun-modifier_q17",
+          "type": "usage",
+          "prompt": "Which sentence is INCORRECT because a polite verb form is used inside a relative clause?",
+          "japanese": null,
+          "choices": [
+            "昨日[きのう]見[み]た映画[えいが]はとても良[よ]かった。",
+            "彼[かれ]が作[つく]った料理[りょうり]はおいしかった。",
+            "あそこで待[ま]っている人[ひと]は鈴木[すずき]さんです。",
+            "これは私[わたし]が昨日[きのう]読[よ]みました本[ほん]です。"
+          ],
+          "correctIndex": 3,
+          "explanation": "読[よ]みました (polite past ます-form) cannot appear inside a relative clause — it must be the plain form 読[よ]んだ. Only plain forms may modify nouns: non-past (読[よ]む), past (読[よ]んだ), negative (読[よ]まない), progressive (読[よ]んでいる). The ます-form is confined to the main final verb of a polite sentence."
+        },
+        {
+          "id": "verb-noun-modifier_q18",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "窓[まど]の近[ちか]くに座[すわ]っている人[ひと]は私[わたし]の友達[ともだち]です。",
+          "choices": [
+            "The person sitting near the window is my friend.",
+            "My friend is sitting near the window.",
+            "The person near the window is my close friend.",
+            "Near the window, my friend is seated."
+          ],
+          "correctIndex": 0,
+          "explanation": "座[すわ]っている (progressive: is sitting) modifies 人[ひと] (person): 'the person who is sitting near the window.' This entire phrase is the topic (は), and 私[わたし]の友達[ともだち]です identifies who that person is. ている progressive form can modify nouns directly in plain form."
+        },
+        {
+          "id": "verb-noun-modifier_q19",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'the assignment I haven't turned in yet'?",
+          "japanese": null,
+          "choices": [
+            "宿題[しゅくだい]はまだ出[だ]しません",
+            "出[だ]さなかった宿題[しゅくだい]",
+            "まだ出[だ]していない宿題[しゅくだい]",
+            "宿題[しゅくだい]をまだ出[だ]していません"
+          ],
+          "correctIndex": 2,
+          "explanation": "出[だ]していない (negative progressive: haven't turned in) + 宿題[しゅくだい] (assignment) = 'the assignment I haven't turned in.' まだ adds 'yet.' The negative ていない form modifies the noun directly in plain form. Option 2 (出[だ]さなかった宿題[しゅくだい]) means 'the assignment I didn't turn in' — past negative, different nuance. Options 1 and 4 are complete sentences, not noun phrases."
+        },
+        {
+          "id": "verb-noun-modifier_q20",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "これは私[わたし]が子[こ]どものとき読[よ]んでいた本[ほん]です。",
+          "choices": [
+            "When I was a child, I wanted to read this book.",
+            "This is the book I used to read when I was a child.",
+            "The child who read this book is me.",
+            "I am reading a book from my childhood."
+          ],
+          "correctIndex": 1,
+          "explanation": "読[よ]んでいた (past progressive/habitual: used to read / was reading) modifies 本[ほん] (book): 'the book I used to read.' 子[こ]どものとき = 'when I was a child.' The past ていた form before a noun describes an ongoing or habitual past action. これは...本[ほん]です frames the structure: 'This is that book.'"
+        }
+      ]
+    },
+    {
+      "id": "mada-te-imasen",
+      "name": "まだ〜ていません / もう〜ました",
+      "shortDescription": "Expresses 'not yet' (まだ〜ていません) and 'already' (もう〜ました).",
+      "formation": "まだ + Verb (て-form) + いません  |  もう + Verb (ました form)",
+      "explanation": "Two time-related expressions work perfectly as a pair: まだ〜ていません (haven't done yet) and もう〜ました (already done). まだ means 'still' or 'not yet,' and paired with ていません it expresses that something expected hasn't happened yet — with the implicit promise that it will eventually. もう means 'already' or 'now,' and paired with ました it signals a completed action. The question もうしましたか (Have you done it yet?) gets answered with either はい、もうしました (Yes, already done) or いいえ、まだです (No, not yet).\n\nNote that まだ has two faces: まだ + ていません = not yet; まだ + ています = still doing. 宿題[しゅくだい]はまだ終[お]わっていません (haven't finished the homework yet) vs. まだ食[た]べています (still eating). The verb form — ていません vs ています — makes the meaning clear.",
+      "rules": [
+        "まだ〜ていません = haven't done X yet (expected to do it)",
+        "もう〜ました = already did X",
+        "Q: もう〜ましたか → A: はい、もう〜ました / いいえ、まだです",
+        "まだ + ています = still doing (positive continuation)",
+        "もう〜ません = no longer does (stopped an ongoing habit)"
+      ],
+      "examples": [
+        {
+          "japanese": "宿題[しゅくだい]はまだ終[お]わっていません。",
+          "romaji": "Shukudai wa mada owatte imasen.",
+          "english": "I haven't finished my homework yet."
+        },
+        {
+          "japanese": "もう昼[ひる]ごはんを食[た]べましたか。",
+          "romaji": "Mou hirugohan wo tabemashita ka.",
+          "english": "Have you already eaten lunch?"
+        },
+        {
+          "japanese": "はい、もう食[た]べました。",
+          "romaji": "Hai, mou tabemashita.",
+          "english": "Yes, I've already eaten."
+        },
+        {
+          "japanese": "まだ日本語[にほんご]を勉強[べんきょう]しています。",
+          "romaji": "Mada nihongo wo benkyou shite imasu.",
+          "english": "I'm still studying Japanese."
+        }
+      ],
+      "flashcardHeader": "まだ〜ていません / もう〜ました",
+      "flashcardAnswer": "Expresses 'not yet' (まだ〜ていません) and 'already' (もう〜ました).",
+      "practice": [
+        {
+          "id": "mada-te-imasen_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "宿題[しゅくだい]はまだ終[お]わっていません。",
+          "choices": [
+            "I am still in the middle of finishing my homework.",
+            "I already finished my homework.",
+            "I finished my homework not long ago.",
+            "I haven't finished my homework yet."
+          ],
+          "correctIndex": 3,
+          "explanation": "まだ + ていません = 'haven't done yet.' 終[お]わっていません is the ていません (negative te-iru) form of 終[お]わる (to finish). まだ signals that the expected completion hasn't happened — but implies it will eventually."
+        },
+        {
+          "id": "mada-te-imasen_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the word that best completes the short reply.",
+          "japanese": "「もう昼[ひる]ごはんを食[た]べましたか。」「いいえ、___です。」",
+          "choices": [
+            "もう",
+            "まだ",
+            "ずっと",
+            "もうすぐ"
+          ],
+          "correctIndex": 1,
+          "explanation": "The short 'no' reply to もう〜ましたか (Have you done X yet?) is まだです ('not yet'). もう would mean 'already,' contradicting いいえ. もうすぐ means 'soon' and ずっと means 'all along / by far.'"
+        },
+        {
+          "id": "mada-te-imasen_q3",
+          "type": "construct",
+          "prompt": "How do you say 'I haven't studied yet' in Japanese?",
+          "japanese": null,
+          "choices": [
+            "まだ勉強[べんきょう]しています。",
+            "まだ勉強[べんきょう]していません。",
+            "もう勉強[べんきょう]しました。",
+            "もう勉強[べんきょう]していません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "まだ + ていません = 'haven't done yet.' まだ勉強[べんきょう]しています means 'still studying.' もう勉強[べんきょう]していません means 'no longer studying.' Only まだ〜ていません expresses that something expected hasn't happened yet."
+        },
+        {
+          "id": "mada-te-imasen_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "まだ日本語[にほんご]を勉強[べんきょう]しています。",
+          "choices": [
+            "I haven't studied Japanese yet.",
+            "I'm no longer studying Japanese.",
+            "I'm still studying Japanese.",
+            "I already finished studying Japanese."
+          ],
+          "correctIndex": 2,
+          "explanation": "まだ + ています (positive te-iru form) = 'still doing.' The action is continuing. This differs from まだ〜ていません ('haven't done yet'), where the negative ていません signals the action is yet to begin."
+        },
+        {
+          "id": "mada-te-imasen_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses もう〜ました to say something has already been done?",
+          "japanese": null,
+          "choices": [
+            "はい、もう食[た]べました。",
+            "はい、もう食[た]べていません。",
+            "はい、まだ食[た]べていません。",
+            "はい、まだ食[た]べました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "もう + ました = 'already did.' はい、もう食[た]べました = 'Yes, I've already eaten.' まだ食[た]べました is unnatural (まだ pairs with negative forms). もう食[た]べていません means 'no longer eating,' and まだ食[た]べていません means 'haven't eaten yet.'"
+        },
+        {
+          "id": "mada-te-imasen_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "もうシャワーを浴[あ]びましたか。",
+          "choices": [
+            "Are you taking a shower now?",
+            "Have you not taken a shower yet?",
+            "Have you already taken a shower?",
+            "Did you take a long shower?"
+          ],
+          "correctIndex": 2,
+          "explanation": "もう + ました form in a question = 'Have you already done X?' もう adds the sense of 'already / by now.' Compare: まだシャワーを浴[あ]びていませんか (Haven't you taken a shower yet?) uses まだ + negative. The expected replies are はい、もう浴[あ]びました (Yes, already) or いいえ、まだです (No, not yet)."
+        },
+        {
+          "id": "mada-te-imasen_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "まだチケットを買[か]っていません。",
+          "choices": [
+            "I haven't bought the ticket yet.",
+            "I already bought the ticket.",
+            "I still want to buy a ticket.",
+            "I can't buy a ticket yet."
+          ],
+          "correctIndex": 0,
+          "explanation": "まだ + 買[か]っていません (negative te-iru form of 買[か]う) = 'haven't bought yet.' This implies the speaker intends to buy the ticket but hasn't done so. まだ signals the action is expected but still pending."
+        },
+        {
+          "id": "mada-te-imasen_q8",
+          "type": "construct",
+          "prompt": "How do you say 'I hadn't eaten yet (at that time)'?",
+          "japanese": null,
+          "choices": [
+            "まだ食[た]べませんでした。",
+            "もう食[た]べていませんでした。",
+            "まだ食[た]べていなかったです。",
+            "まだ食[た]べていませんでした。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Past 'hadn't done yet' = まだ + ていませんでした (past negative te-iru). 食[た]べていません (haven't eaten) → 食[た]べていませんでした (hadn't eaten). まだ食[た]べませんでした (option 1) means 'I didn't eat yet' but misses the ongoing ている nuance. もう食[た]べていませんでした (option 2) means 'was no longer eating' — a different meaning entirely."
+        },
+        {
+          "id": "mada-te-imasen_q9",
+          "type": "fillBlank",
+          "prompt": "Complete this natural exchange.",
+          "japanese": "「もうレポートを書[か]きましたか。」「いいえ、___書[か]いていません。」",
+          "choices": [
+            "もう",
+            "まだ",
+            "ずっと",
+            "もうすぐ"
+          ],
+          "correctIndex": 1,
+          "explanation": "The negative reply to もう～ましたか (Have you done X yet?) uses まだ: まだ書[か]いていません = 'I haven't written it yet.' まだ pairs with the negative ていません form to express 'not yet.' The positive reply would be はい、もう書[か]きました (Yes, I already wrote it)."
+        },
+        {
+          "id": "mada-te-imasen_q10",
+          "type": "usage",
+          "prompt": "A student wants to say 'I haven't had breakfast yet.' Which sentence has the WRONG nuance for this meaning?",
+          "japanese": null,
+          "choices": [
+            "まだ朝[あさ]ごはんを食[た]べていません。",
+            "朝[あさ]ごはんはまだです。",
+            "まだ朝[あさ]ごはんを食[た]べません。",
+            "まだ朝[あさ]ごはんを食[た]べていないです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "まだ食[た]べません (option 3) uses the plain negative ません without ている, which sounds like 'I don't eat breakfast (as a habit)' or 'I won't eat yet' rather than 'I haven't eaten yet.' The correct 'not yet' pattern requires te-iru negative: まだ食[た]べていません. Options 1, 2, and 4 all correctly express 'not yet.'"
+        },
+        {
+          "id": "mada-te-imasen_q11",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "その本[ほん]はまだ読[よ]んでいません。",
+          "choices": [
+            "I haven't read that book yet.",
+            "I am still reading that book.",
+            "I already read that book.",
+            "I don't usually read that book."
+          ],
+          "correctIndex": 0,
+          "explanation": "まだ + 読[よ]んでいません (negative te-iru of 読[よ]む) = 'haven't read  yet.' まだ before ていません signals a pending action. Compare: まだ読[よ]んでいます (still reading — positive te-iru continuation) vs. まだ読[よ]んでいません (haven't read yet — negative te-iru)."
+        },
+        {
+          "id": "mada-te-imasen_q12",
+          "type": "construct",
+          "prompt": "Which sentence correctly says 'I already sent the email'?",
+          "japanese": null,
+          "choices": [
+            "まだメールを送[おく]っていません。",
+            "もうメールを送[おく]りました。",
+            "メールをもう送[おく]っていません。",
+            "まだメールを送[おく]りました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "もう + ました = 'already did.' もうメールを送[おく]りました = 'I already sent the email.' まだメールを送[おく]っていません = 'I haven't sent the email yet.' もう + ていません (option 3) means 'no longer sending.' まだ + ました (option 4) is unnatural — まだ always pairs with negative forms."
+        },
+        {
+          "id": "mada-te-imasen_q13",
+          "type": "usage",
+          "prompt": "What is the most natural short reply to 「もうご飯[はん]を食[た]べましたか。」when you haven't eaten yet?",
+          "japanese": null,
+          "choices": [
+            "はい、まだです。",
+            "いいえ、もう食[た]べました。",
+            "食[た]べていません。",
+            "いいえ、まだです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "The natural short negative reply is いいえ、まだです ('No, not yet'). まだ alone carries the full meaning of 'not yet / haven't done it.' はい、まだです (option 1) contradicts itself (yes + not yet). Option 2 says 'already ate,' the opposite meaning. Option 3 omits the いいえ and is abrupt."
+        },
+        {
+          "id": "mada-te-imasen_q14",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "その時[とき]、彼[かれ]はまだ着[つ]いていませんでした。",
+          "choices": [
+            "At that time, he had already arrived.",
+            "He hasn't arrived yet at that time.",
+            "At that time, he hadn't arrived yet.",
+            "He arrived, but it was already too late."
+          ],
+          "correctIndex": 2,
+          "explanation": "まだ + 着[つ]いていませんでした (past negative te-iru of 着[つ]く) = 'hadn't arrived yet .' The ていませんでした form shifts まだ〜ていません into past tense. その時[とき] = 'at that time' confirms we are describing a past state of not-yet-arrival."
+        },
+        {
+          "id": "mada-te-imasen_q15",
+          "type": "construct",
+          "prompt": "Which Japanese correctly means 'I haven't replied to the message yet'?",
+          "japanese": null,
+          "choices": [
+            "まだメッセージに返信[へんしん]していません。",
+            "もうメッセージを返信[へんしん]しました。",
+            "メッセージをまだ返信[へんしん]しませんでした。",
+            "メッセージをもう返信[へんしん]していません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "まだ + 返信[へんしん]していません (negative te-iru of 返信[へんしん]する) = 'haven't replied yet.' Option 2 (もう返信[へんしん]しました) means 'already replied.' Option 3 (まだ返信[へんしん]しませんでした) lacks the ている nuance and sounds like a general non-action, not 'not yet.' Option 4 (もう返信[へんしん]していません) means 'no longer replying.'"
+        },
+        {
+          "id": "mada-te-imasen_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "彼[かれ]はもうタバコを吸[す]いません。",
+          "choices": [
+            "He doesn't smoke yet.",
+            "He no longer smokes.",
+            "He is already smoking.",
+            "He has never smoked."
+          ],
+          "correctIndex": 1,
+          "explanation": "もう + ません (negative present) = 'no longer does X.' もう吸[す]いません = 'no longer smokes' — he stopped a habit. This differs from まだ吸[す]っていません ('hasn't started smoking yet') and もう吸[す]いました ('already smoked'). もう has two roles: with positive past ました = 'already'; with negative = 'no longer.'"
+        },
+        {
+          "id": "mada-te-imasen_q17",
+          "type": "usage",
+          "prompt": "Which sentence INCORRECTLY expresses 'I haven't cleaned my room yet'?",
+          "japanese": null,
+          "choices": [
+            "部屋[へや]はまだ掃除[そうじ]していません。",
+            "まだ部屋[へや]を掃除[そうじ]していません。",
+            "部屋[へや]をまだ掃除[そうじ]していないです。",
+            "まだ部屋[へや]を掃除[そうじ]しません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "まだ部屋[へや]を掃除[そうじ]しません (option 4) is the error: using plain negative ません without the ている construction sounds like 'I'm not going to clean yet' or 'I don't clean my room (habitually)' rather than 'I haven't cleaned yet.' The correct 'not yet' pattern requires まだ + ていません. All other options correctly use ていません or ていないです."
+        },
+        {
+          "id": "mada-te-imasen_q18",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form to express 'I haven't finished the report yet.'",
+          "japanese": "レポートはまだ___。",
+          "choices": [
+            "終[お]わっていません",
+            "終[お]わっています",
+            "終[お]わりました",
+            "終[お]わらないです"
+          ],
+          "correctIndex": 0,
+          "explanation": "まだ + 終[お]わっていません (negative te-iru of 終[お]わる) = 'hasn't finished yet.' まだ always pairs with the negative ていません form for 'not yet.' 終[お]わっています (option 2) with まだ means 'still finishing/ongoing.' 終[お]わりました (option 3) = 'finished' (completed). 終[お]わらないです (option 4) is a general negation without the ている 'not yet' nuance."
+        },
+        {
+          "id": "mada-te-imasen_q19",
+          "type": "construct",
+          "prompt": "Which is the most natural exchange about whether homework is done?",
+          "japanese": null,
+          "choices": [
+            "「宿題[しゅくだい]をしましたか。」「はい、まだです。」",
+            "「もう宿題[しゅくだい]をしましたか。」「いいえ、もうしました。」",
+            "「もう宿題[しゅくだい]をしましたか。」「いいえ、まだです。」",
+            "「まだ宿題[しゅくだい]をしましたか。」「はい、もうです。」"
+          ],
+          "correctIndex": 2,
+          "explanation": "Q: もう宿題[しゅくだい]をしましたか (Have you done your homework yet?) → A: いいえ、まだです (No, not yet). もう asks if something has already happened; まだです is the standard short negative reply. Mixing もう and まだ incorrectly (option 2 answers 'no' then says 'already did') or using まだ in a question (option 4) is unnatural."
+        },
+        {
+          "id": "mada-te-imasen_q20",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "九時[くじ]の時点[じてん]でまだ誰[だれ]も来[き]ていませんでした。",
+          "choices": [
+            "By nine o'clock, everyone had already come.",
+            "As of nine o'clock, nobody had arrived yet.",
+            "Nobody came, so it was already nine o'clock.",
+            "Nobody came even though it was nine o'clock."
+          ],
+          "correctIndex": 1,
+          "explanation": "まだ + 来[き]ていませんでした (past negative te-iru) = 'hadn't come yet.' 誰[だれ]も + negative = 'nobody.' 九時[くじ]の時点[じてん]で = 'as of nine o'clock / at the point of nine o'clock.' Together: 'As of nine o'clock, nobody had arrived yet.' This is まだ〜ていません shifted into the past with ませんでした."
+        }
+      ]
+    },
+    {
+      "id": "kara-desu",
+      "name": "〜からです / 〜から (reason: because)",
+      "shortDescription": "Gives the reason or cause for something: 'because' or 'that's because'.",
+      "formation": "Plain form + から (mid-sentence)  |  Plain form + からです (end-of-sentence explanation)",
+      "explanation": "から is the everyday 'because' in Japanese. It has two positions. When から appears between clauses — Reason + から + Result — it works just like 'because' or 'so' in English, but with the reason clause coming first: 雨[あめ]が降[ふ]っているから、傘[かさ]を持[も]って行[い]きます (Because it is raining, I'll take an umbrella). The cause comes before から, and the result follows.\n\nThe second use is からです at the very end of a sentence, when you are giving a reason as an explanation for something already said or asked. Someone asks なぜ学校[がっこう]を休[やす]んだんですか and you answer 頭[あたま]が痛[いた]かったからです (Because I had a headache). The content before からです uses plain forms.\n\nから has a personal, somewhat casual feel — it sounds like you are speaking from your own perspective and experience. In formal writing, business contexts, or polite explanations to superiors, ので is preferred instead, as it presents the reason as a more objective, natural consequence (we will cover ので in Chapter 12).",
+      "rules": [
+        "Reason + から + Result = Because of reason, result (mid-sentence)",
+        "Explanation at end: [reason in plain form] + からです",
+        "The reason clause comes BEFORE から (opposite order from English 'because' sometimes)",
+        "Question words: なぜ / どうして = why",
+        "から is personal/casual; ので (learned later) is more formal and objective"
+      ],
+      "examples": [
+        {
+          "japanese": "眠[ねむ]いから、もう寝[ね]ます。",
+          "romaji": "Nemui kara, mou nemasu.",
+          "english": "I'm sleepy, so I'm going to sleep now."
+        },
+        {
+          "japanese": "「どうして学校[がっこう]を休[やす]みましたか。」「頭[あたま]が痛[いた]かったからです。」",
+          "romaji": "'Doushite gakkou wo yasumimashita ka.' 'Atama ga itakatta kara desu.'",
+          "english": "'Why did you miss school?' 'Because I had a headache.'"
+        },
+        {
+          "japanese": "日本語[にほんご]を勉強[べんきょう]しています。日本[にほん]が好[す]きだからです。",
+          "romaji": "Nihongo wo benkyou shite imasu. Nihon ga suki dakara desu.",
+          "english": "I'm studying Japanese. It's because I love Japan."
+        },
+        {
+          "japanese": "時間[じかん]がないから、タクシーで行[い]きましょう。",
+          "romaji": "Jikan ga nai kara, takushii de ikimashou.",
+          "english": "Since we don't have time, let's go by taxi."
+        }
+      ],
+      "flashcardHeader": "〜からです / 〜から",
+      "flashcardAnswer": "Gives the reason or cause for something: 'because' or 'that's because'.",
+      "practice": [
+        {
+          "id": "kara-desu_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "眠[ねむ]いから、もう寝[ね]ます。",
+          "choices": [
+            "Because I slept, I'm now tired.",
+            "I'm sleepy, so I'm going to sleep now.",
+            "I'm sleeping because I want to be sleepy.",
+            "Since I'll sleep, I feel better now."
+          ],
+          "correctIndex": 1,
+          "explanation": "眠[ねむ]い (sleepy) + から (because/so) + もう寝[ね]ます (going to sleep now). The reason clause comes BEFORE から, and the result follows. 'I'm sleepy' is the cause; 'going to sleep' is the effect."
+        },
+        {
+          "id": "kara-desu_q2",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'Because I was tired, I went to bed early'?",
+          "japanese": null,
+          "choices": [
+            "疲[つか]れていたから、早[はや]く寝[ね]ました。",
+            "早[はや]く寝[ね]ました、疲[つか]れていたから。",
+            "疲[つか]れていたけど、早[はや]く寝[ね]ました。",
+            "から疲[つか]れていた、早[はや]く寝[ね]ました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "The reason clause comes BEFORE から: 疲[つか]れていたから (because I was tired), then the result 早[はや]く寝[ね]ました (went to bed early). Placing から at the start or after the result is incorrect. けど means 'but/however,' not 'because.'"
+        },
+        {
+          "id": "kara-desu_q3",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "時間[じかん]がないから、タクシーで行[い]きましょう。",
+          "choices": [
+            "Let's go by taxi; it will take no time.",
+            "Even though we have time, let's take a taxi.",
+            "Because the taxi was fast, we had time.",
+            "Since we don't have time, let's go by taxi."
+          ],
+          "correctIndex": 3,
+          "explanation": "時間[じかん]がない (don't have time) + から (since/because) + タクシーで行[い]きましょう (let's go by taxi). から links the reason (no time) to the suggestion (take a taxi). The cause always precedes から."
+        },
+        {
+          "id": "kara-desu_q4",
+          "type": "usage",
+          "prompt": "Which response correctly uses からです to answer なぜ学校[がっこう]を休[やす]みましたか？",
+          "japanese": null,
+          "choices": [
+            "頭[あたま]が痛[いた]かったからです。",
+            "頭[あたま]が痛[いた]かったけどです。",
+            "頭[あたま]が痛[いた]いのにです。",
+            "から頭[あたま]が痛[いた]かったです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plain form + からです gives a reason as a standalone explanation. 頭[あたま]が痛[いた]かった (past plain: 'had a headache') + からです. から must follow the reason clause, never start the sentence. のに and けど have different meanings (regret and contrast)."
+        },
+        {
+          "id": "kara-desu_q5",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete this reason clause.",
+          "japanese": "お腹[なか]が空[す]いた___、何[なに]か食[た]べましょう。",
+          "choices": [
+            "ながら",
+            "まで",
+            "たり",
+            "から"
+          ],
+          "correctIndex": 3,
+          "explanation": "お腹[なか]が空[す]いた (got hungry) + から (because/so) links cause to the suggestion 何[なに]か食[た]べましょう (let's eat something). まで means 'until,' ながら means 'while doing,' and たり lists representative actions — none of these connect cause and effect."
+        },
+        {
+          "id": "kara-desu_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "日本語[にほんご]が好[す]きだから、毎日[まいにち]練習[れんしゅう]しています。",
+          "choices": [
+            "Because I practice every day, I like Japanese.",
+            "I practice every day, so I like Japanese.",
+            "I like Japanese, so I practice every day.",
+            "Japanese is difficult, so I practice every day."
+          ],
+          "correctIndex": 2,
+          "explanation": "日本語[にほんご]が好[す]きだ (I like Japanese — na-adjective 好[す]き + だ) + から = 'because I like Japanese.' The reason clause comes first, before から. 毎日[まいにち]練習[れんしゅう]しています = 'I practice every day.' Note: 好[す]きだから uses だ before から for na-adjectives — it is 好[す]きだから, not 好[す]きから."
+        },
+        {
+          "id": "kara-desu_q7",
+          "type": "construct",
+          "prompt": "Which correctly means 'Because today is a holiday, the store is closed'?",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]は休日[きゅうじつ]だから、店[みせ]が閉[し]まっています。",
+            "今日[きょう]は休日[きゅうじつ]から、店[みせ]が閉[し]まっています。",
+            "店[みせ]が閉[し]まっているから、今日[きょう]は休日[きゅうじつ]です。",
+            "今日[きょう]は休日[きゅうじつ]ですけど、店[みせ]は閉[し]まっています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + だ + から: 休日[きゅうじつ]だから (because it's a holiday) then the result 店[みせ]が閉[し]まっています (the store is closed). だ is required before から when the reason clause ends in a noun. Option 2 (休日[きゅうじつ]から without だ) is incorrect. Option 3 reverses the logic (store closed → holiday, which is backwards)."
+        },
+        {
+          "id": "kara-desu_q8",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]試験[しけん]があるから、今夜[こんや]は早[はや]く寝[ね]ます。",
+          "choices": [
+            "Because I slept early tonight, there's an exam tomorrow.",
+            "I have an exam tonight, so I slept early.",
+            "Tomorrow, I'll study because I'm sleeping early tonight.",
+            "Since I have an exam tomorrow, I'll go to bed early tonight."
+          ],
+          "correctIndex": 3,
+          "explanation": "明日[あした]試験[しけん]がある (there's an exam tomorrow) + から + 今夜[こんや]は早[はや]く寝[ね]ます (I'll go to bed early tonight). The reason clause comes before から. 試験[しけん]がある = 'there is an exam.' から connects the cause (exam tomorrow) to the decision (sleep early). The reason always precedes から in Japanese."
+        },
+        {
+          "id": "kara-desu_q9",
+          "type": "fillBlank",
+          "prompt": "Complete the answer to this question: 「なぜ遅刻[ちこく]しましたか。」「電車[でんしゃ]が遅[おく]れた___です。」",
+          "japanese": "「なぜ遅刻[ちこく]しましたか。」「電車[でんしゃ]が遅[おく]れた___です。」",
+          "choices": [
+            "ので",
+            "から",
+            "けど",
+            "のに"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plain form verb + から + です = reason-giving answer to なぜ/どうして (why). 電車[でんしゃ]が遅[おく]れた (the train was delayed — plain past) + からです = 'Because the train was delayed.' から is the direct everyday connector for giving reasons. のに expresses regret, けど means 'but' — only から correctly expresses cause."
+        },
+        {
+          "id": "kara-desu_q10",
+          "type": "translation",
+          "prompt": "What does this exchange mean?",
+          "japanese": "「どうして泣[な]いているんですか。」「映画[えいが]が悲[かな]しかったからです。」",
+          "choices": [
+            "The movie was sad, so please don't cry.",
+            "Because I'm crying, the movie must be sad.",
+            "'Why are you crying?' 'Because the movie was sad.'",
+            "I cried and therefore the movie became sad."
+          ],
+          "correctIndex": 2,
+          "explanation": "「どうして泣[な]いているんですか。」= 'Why are you crying?' (question with ～んですか seeking explanation). 「映画[えいが]が悲[かな]しかったからです。」= 'Because the movie was sad.' 悲[かな]しかった is the plain past of 悲[かな]しい (sad). からです at the end delivers the reason. This is the standard pattern for answering why-questions."
+        },
+        {
+          "id": "kara-desu_q11",
+          "type": "usage",
+          "prompt": "Which statement about から vs ので is CORRECT?",
+          "japanese": null,
+          "choices": [
+            "から sounds more casual and personal; ので sounds more formal and objective.",
+            "ので is more casual than から in everyday speech.",
+            "から and ので are completely interchangeable in all contexts.",
+            "から is always polite; ので is always rude."
+          ],
+          "correctIndex": 0,
+          "explanation": "から tends to sound more casual, personal, and direct — as if speaking from one's own viewpoint. ので sounds more formal and presents the reason as an objective, natural consequence — it is preferred in formal writing, polite explanations, and when speaking to superiors. They often overlap in meaning but differ in register and tone."
+        },
+        {
+          "id": "kara-desu_q12",
+          "type": "translation",
+          "prompt": "What does this exchange mean?",
+          "japanese": "「どうしてそんなに忙[いそが]しいんですか。」「仕事[しごと]が山積[やまづ]みだからです。」",
+          "choices": [
+            "Because I'm busy, there's a mountain of work.",
+            "'Why are you so busy?' 'Because the work has piled up.'",
+            "Since I finished my work, I'm no longer busy.",
+            "I'm busy, so my work is piling up."
+          ],
+          "correctIndex": 1,
+          "explanation": "仕事[しごと]が山積[やまづ]みだ (work has piled up — noun 山積[やまづ]み + だ) + からです = 'because the work has piled up.' This is the noun + だからです structure. どうしてそんなに = 'why so much / why are you so...' 山積[やまづ]み means 'mountain of tasks / piled up.' だ is required between a noun and から."
+        },
+        {
+          "id": "kara-desu_q13",
+          "type": "construct",
+          "prompt": "Which correctly answers 「なぜそのレストランが好[す]きですか。」with 'because the food is delicious'?",
+          "japanese": null,
+          "choices": [
+            "料理[りょうり]が好[す]きだから。",
+            "おいしいだからです。",
+            "料理[りょうり]はおいしいですから。",
+            "料理[りょうり]がおいしいからです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "i-adjective plain form (おいしい) + から + です = reason answer. 料理[りょうり]がおいしいからです = 'because the food is delicious.' i-adjectives do NOT take だ before から (unlike nouns/na-adjectives): おいしいから, not おいしいだから. Option 2 (おいしいだからです) incorrectly inserts だ after an i-adjective."
+        },
+        {
+          "id": "kara-desu_q14",
+          "type": "usage",
+          "prompt": "Which word should fill the blank to express a reason or cause?",
+          "japanese": "雨[あめ]が降[ふ]っている___、試合[しあい]は中止[ちゅうし]になりました。",
+          "choices": [
+            "けど",
+            "のに",
+            "から",
+            "ながら"
+          ],
+          "correctIndex": 2,
+          "explanation": "から connects cause to result: 雨[あめ]が降[ふ]っているから (because it is raining) + 試合[しあい]は中止[ちゅうし]になりました (the game was cancelled). けど means 'but/however,' のに expresses regret or an unexpected outcome, and ながら means 'while doing.' Only から properly expresses that the rain directly caused the cancellation."
+        },
+        {
+          "id": "kara-desu_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "危[あぶ]ないから、触[ふ]らないでください。",
+          "choices": [
+            "Because it's dangerous, please don't touch it.",
+            "Don't touch it even though it's dangerous.",
+            "Since I didn't touch it, it's safe.",
+            "Please be careful because you touched it."
+          ],
+          "correctIndex": 0,
+          "explanation": "危[あぶ]ない (dangerous — i-adjective) + から + 触[ふ]らないでください (please don't touch) links the reason (dangerous) to the request (don't touch). When から appears with a command or request in the result clause, it provides the justification. The reason clause always comes before から."
+        },
+        {
+          "id": "kara-desu_q16",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "静[しず]かだから、ここで勉強[べんきょう]しましょう。",
+          "choices": [
+            "Since we're studying here, it's quiet.",
+            "Let's study here because it's quiet.",
+            "It's quiet here even though we're studying.",
+            "Let's make it quiet here by studying."
+          ],
+          "correctIndex": 1,
+          "explanation": "静[しず]かだ (it's quiet — na-adjective 静[しず]か + だ) + から + ここで勉強[べんきょう]しましょう (let's study here). だ is required before から for na-adjectives. The reason (quiet) comes before から, followed by the suggestion (let's study here). This is a mid-sentence から connecting reason to a proposal."
+        },
+        {
+          "id": "kara-desu_q17",
+          "type": "construct",
+          "prompt": "Arrange these elements correctly: 寒[さむ]い / から / コートを着[ちゃく]ます",
+          "japanese": null,
+          "choices": [
+            "コートを着[ちゃく]ます、寒[さむ]いから。",
+            "から寒[さむ]い、コートを着[ちゃく]ます。",
+            "コートを着[ちゃく]ますから寒[さむ]い。",
+            "寒[さむ]いから、コートを着[ちゃく]ます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "The correct order is REASON + から + RESULT: 寒[さむ]い (it's cold) + から + コートを着[ちゃく]ます (I'll wear a coat) = 'I'll wear a coat because it's cold.' から must come after the reason clause, never at the beginning of a sentence (option 2). Placing the result before から (options 1 and 3) is incorrect."
+        },
+        {
+          "id": "kara-desu_q18",
+          "type": "usage",
+          "prompt": "You are writing a formal email to your professor explaining why you'll miss class. Which is MORE appropriate?",
+          "japanese": null,
+          "choices": [
+            "熱[ねつ]があるので、授業[じゅぎょう]を休[やす]みます。",
+            "熱[ねつ]があるから、授業[じゅぎょう]を休[やす]みます。",
+            "熱[ねつ]があるけど、授業[じゅぎょう]を休[やす]みます。",
+            "熱[ねつ]があったから、授業[じゅぎょう]を休[やす]んだ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "In formal contexts like emails to professors, ので is more appropriate than から because it presents the reason more objectively and politely — as a natural consequence. から sounds casual and personal, suitable for informal speech. Both mean 'because,' but ので is the expected choice in formal or polite registers. ので will be covered in depth in a later chapter."
+        },
+        {
+          "id": "kara-desu_q19",
+          "type": "construct",
+          "prompt": "Which correctly answers 「どうして日本語[にほんご]を勉強[べんきょう]しているんですか。」?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]が難[むずか]しいけどです。",
+            "日本[にほん]に行[い]きたいのに。",
+            "日本[にほん]に住[す]みたいからです。",
+            "から日本語[にほんご]が好[す]きです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain form + からです answers どうして/なぜ. 日本[にほん]に住[す]みたい (want to live in Japan — plain たい form) + からです = 'Because I want to live in Japan.' から must follow the plain-form reason clause; it cannot start the sentence (option 4). けどです (option 1) is ungrammatical. のに (option 2) expresses regret, not reason."
+        },
+        {
+          "id": "kara-desu_q20",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "彼[かれ]は真面目[まじめ]だから、きっと成功[せいこう]すると思[おも]います。",
+          "choices": [
+            "He will definitely succeed, so he must be serious.",
+            "Because he is diligent, I think he will surely succeed.",
+            "I think he is serious because he will surely succeed.",
+            "He is diligent, but I don't think he will succeed."
+          ],
+          "correctIndex": 1,
+          "explanation": "彼[かれ]は真面目[まじめ]だ (he is diligent/serious — na-adjective 真面目[まじめ] + だ) + から + きっと成功[せいこう]すると思[おも]います (I think he will surely succeed). だから connects the character trait (diligent) to the expectation (he'll succeed). 真面目[まじめ] is a na-adjective and requires だ before から."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch09_v01",
+      "partOfSpeech": "noun",
+      "kanji": "色",
+      "kana": "いろ",
+      "romaji": "iro",
+      "definition": "color"
+    },
+    {
+      "id": "ch09_v02",
+      "partOfSpeech": "noun",
+      "kanji": "赤",
+      "kana": "あか",
+      "romaji": "aka",
+      "definition": "red"
+    },
+    {
+      "id": "ch09_v03",
+      "partOfSpeech": "noun",
+      "kanji": "青",
+      "kana": "あお",
+      "romaji": "ao",
+      "definition": "blue"
+    },
+    {
+      "id": "ch09_v04",
+      "partOfSpeech": "noun",
+      "kanji": "白",
+      "kana": "しろ",
+      "romaji": "shiro",
+      "definition": "white"
+    },
+    {
+      "id": "ch09_v05",
+      "partOfSpeech": "noun",
+      "kanji": "黒",
+      "kana": "くろ",
+      "romaji": "kuro",
+      "definition": "black"
+    },
+    {
+      "id": "ch09_v06",
+      "partOfSpeech": "noun",
+      "kanji": "黄色",
+      "kana": "きいろ",
+      "romaji": "kiiro",
+      "definition": "yellow"
+    },
+    {
+      "id": "ch09_v07",
+      "partOfSpeech": "noun",
+      "kanji": "緑",
+      "kana": "みどり",
+      "romaji": "midori",
+      "definition": "green"
+    },
+    {
+      "id": "ch09_v08",
+      "partOfSpeech": "noun",
+      "kanji": "茶色",
+      "kana": "ちゃいろ",
+      "romaji": "chairo",
+      "definition": "brown"
+    },
+    {
+      "id": "ch09_v09",
+      "partOfSpeech": "noun",
+      "kanji": "紫",
+      "kana": "むらさき",
+      "romaji": "murasaki",
+      "definition": "purple"
+    },
+    {
+      "id": "ch09_v10",
+      "partOfSpeech": "noun",
+      "kanji": "ピンク",
+      "kana": "ピンク",
+      "romaji": "pinku",
+      "definition": "pink"
+    },
+    {
+      "id": "ch09_v11",
+      "partOfSpeech": "noun",
+      "kanji": "灰色",
+      "kana": "はいいろ",
+      "romaji": "haiiro",
+      "definition": "gray"
+    },
+    {
+      "id": "ch09_v12",
+      "partOfSpeech": "noun",
+      "kanji": "かばん",
+      "kana": "かばん",
+      "romaji": "kaban",
+      "definition": "bag"
+    },
+    {
+      "id": "ch09_v13",
+      "partOfSpeech": "noun",
+      "kanji": "財布",
+      "kana": "さいふ",
+      "romaji": "saifu",
+      "definition": "wallet"
+    },
+    {
+      "id": "ch09_v14",
+      "partOfSpeech": "noun",
+      "kanji": "傘",
+      "kana": "かさ",
+      "romaji": "kasa",
+      "definition": "umbrella"
+    },
+    {
+      "id": "ch09_v16",
+      "partOfSpeech": "noun",
+      "kanji": "眼鏡",
+      "kana": "めがね",
+      "romaji": "megane",
+      "definition": "glasses"
+    },
+    {
+      "id": "ch09_v17",
+      "partOfSpeech": "noun",
+      "kanji": "鍵",
+      "kana": "かぎ",
+      "romaji": "kagi",
+      "definition": "key"
+    },
+    {
+      "id": "ch09_v18",
+      "partOfSpeech": "noun",
+      "kanji": "電話",
+      "kana": "でんわ",
+      "romaji": "denwa",
+      "definition": "telephone"
+    },
+    {
+      "id": "ch09_v19",
+      "partOfSpeech": "noun",
+      "kanji": "携帯",
+      "kana": "けいたい",
+      "romaji": "keitai",
+      "definition": "cellphone"
+    },
+    {
+      "id": "ch09_v20",
+      "partOfSpeech": "noun",
+      "kanji": "帽子",
+      "kana": "ぼうし",
+      "romaji": "boushi",
+      "definition": "hat; cap"
+    },
+    {
+      "id": "ch09_v21",
+      "partOfSpeech": "noun",
+      "kanji": "靴",
+      "kana": "くつ",
+      "romaji": "kutsu",
+      "definition": "shoes"
+    },
+    {
+      "id": "ch09_v22",
+      "partOfSpeech": "noun",
+      "kanji": "服",
+      "kana": "ふく",
+      "romaji": "fuku",
+      "definition": "clothes"
+    },
+    {
+      "id": "ch09_v23",
+      "partOfSpeech": "noun",
+      "kanji": "シャツ",
+      "kana": "シャツ",
+      "romaji": "shatsu",
+      "definition": "shirt"
+    },
+    {
+      "id": "ch09_v24",
+      "partOfSpeech": "noun",
+      "kanji": "カメラ",
+      "kana": "カメラ",
+      "romaji": "kamera",
+      "definition": "camera"
+    },
+    {
+      "id": "ch09_v25",
+      "partOfSpeech": "noun",
+      "kanji": "テレビ",
+      "kana": "テレビ",
+      "romaji": "terebi",
+      "definition": "television"
+    },
+    {
+      "id": "ch09_v26",
+      "partOfSpeech": "noun",
+      "kanji": "ラジオ",
+      "kana": "ラジオ",
+      "romaji": "rajio",
+      "definition": "radio"
+    },
+    {
+      "id": "ch09_v27",
+      "partOfSpeech": "noun",
+      "kanji": "新聞",
+      "kana": "しんぶん",
+      "romaji": "shinbun",
+      "definition": "newspaper"
+    },
+    {
+      "id": "ch09_v28",
+      "partOfSpeech": "noun",
+      "kanji": "雑誌",
+      "kana": "ざっし",
+      "romaji": "zasshi",
+      "definition": "magazine"
+    },
+    {
+      "id": "ch09_v29",
+      "partOfSpeech": "noun",
+      "kanji": "手紙",
+      "kana": "てがみ",
+      "romaji": "tegami",
+      "definition": "letter"
+    },
+    {
+      "id": "ch09_v30",
+      "partOfSpeech": "noun",
+      "kanji": "写真",
+      "kana": "しゃしん",
+      "romaji": "shashin",
+      "definition": "photograph"
+    },
+    {
+      "id": "ch09_v31",
+      "partOfSpeech": "noun",
+      "kanji": "箱",
+      "kana": "はこ",
+      "romaji": "hako",
+      "definition": "box"
+    },
+    {
+      "id": "ch09_v32",
+      "partOfSpeech": "noun",
+      "kanji": "荷物",
+      "kana": "にもつ",
+      "romaji": "nimotsu",
+      "definition": "luggage; baggage"
+    },
+    {
+      "id": "ch09_v33",
+      "partOfSpeech": "noun",
+      "kanji": "お金",
+      "kana": "おかね",
+      "romaji": "okane",
+      "definition": "money"
+    },
+    {
+      "id": "ch09_v34",
+      "partOfSpeech": "noun",
+      "kanji": "切手",
+      "kana": "きって",
+      "romaji": "kitte",
+      "definition": "postage stamp"
+    },
+    {
+      "id": "ch09_v35",
+      "partOfSpeech": "noun",
+      "kanji": "封筒",
+      "kana": "ふうとう",
+      "romaji": "fuutou",
+      "definition": "envelope"
+    },
+    {
+      "id": "ch09_v36",
+      "partOfSpeech": "noun",
+      "kanji": "タオル",
+      "kana": "タオル",
+      "romaji": "taoru",
+      "definition": "towel"
+    },
+    {
+      "id": "ch09_v37",
+      "partOfSpeech": "noun",
+      "kanji": "石鹸",
+      "kana": "せっけん",
+      "romaji": "sekken",
+      "definition": "soap"
+    },
+    {
+      "id": "ch09_v38",
+      "partOfSpeech": "noun",
+      "kanji": "歯ブラシ",
+      "kana": "はブラシ",
+      "romaji": "haburashi",
+      "definition": "toothbrush"
+    },
+    {
+      "id": "ch09_v39",
+      "partOfSpeech": "noun",
+      "kanji": "鏡",
+      "kana": "かがみ",
+      "romaji": "kagami",
+      "definition": "mirror"
+    },
+    {
+      "id": "ch09_v40",
+      "partOfSpeech": "noun",
+      "kanji": "傘立て",
+      "kana": "かさたて",
+      "romaji": "kasatate",
+      "definition": "umbrella stand"
+    }
+  ],
+  "kanji": [
+    "金",
+    "話",
+    "電",
+    "白"
+  ]
+}

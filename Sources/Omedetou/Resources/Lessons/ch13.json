@@ -1,0 +1,1944 @@
+{
+  "id": "ch13",
+  "chapterNumber": 15,
+  "title": "Potential and Trying",
+  "points": [
+    {
+      "id": "potential",
+      "name": "〜られる / できる — potential form (can do)",
+      "shortDescription": "Expresses ability or possibility — 'can do' or 'is able to.'",
+      "formation": "Group 2 (ru-verb) stem + られる  |  Group 1 (u-verb) stem changes + える  |  する → できる  |  くる → こられる",
+      "explanation": "The potential form is how Japanese unlocks a verb's \"can do\" meaning. Each verb group has its own mechanism, but they all produce the same result — a new verb meaning \"to be able to [do]\":\n- Group 2 (る-verbs): drop る, add られる — 食[た]べる → 食[た]べられる (can eat)\n- Group 1 (う-verbs): shift the final syllable from the う-row to the え-row, then add る — 書[か]く → 書[か]ける (can write), 飲[の]む → 飲[の]める (can drink), 話[はな]す → 話[はな]せる (can speak)\n- Irregular: する → できる (the single most important potential verb), くる → こられる\n\nIn casual speech many people drop the ら from Group 2 forms — 食[た]べれる instead of 食[た]べられる — a phenomenon called ら抜[ぬ]き言葉[ことば] (ra-nuki kotoba). You'll hear it constantly, but it's still non-standard in formal writing, so learn the full form.\n\nOnce formed, a potential verb behaves exactly like a Group 2 verb and conjugates normally. One key particle shift: in potential sentences, the thing you \"can do\" frequently takes が instead of を — 日本語[にほんご]が話[はな]せます is more natural than 日本語[にほんご]を話[はな]せます.",
+      "rules": [
+        "Group 2 (ru-verb): drop る + られる (食[た]べる → 食[た]べられる = can eat)",
+        "Group 1 (u-verb): shift final syllable to え-row + る (書[か]く → 書[か]ける, 飲[の]む → 飲[の]める, 話[はな]す → 話[はな]せる)",
+        "Irregular: する → できる; くる → こられる",
+        "The potential form is itself a Group 2 verb — conjugates with られる as the base",
+        "Object often takes が instead of を with potential verbs (日本語[にほんご]が話[はな]せます)",
+        "Casual ら-dropping (食[た]べれる) is common in speech but non-standard in formal writing"
+      ],
+      "examples": [
+        {
+          "japanese": "日本語[にほんご]が少[すこ]し話[はな]せます。",
+          "romaji": "Nihongo ga sukoshi hanasemasu.",
+          "english": "I can speak a little Japanese."
+        },
+        {
+          "japanese": "この漢字[かんじ]が読[よ]めますか。",
+          "romaji": "Kono kanji ga yomemasu ka.",
+          "english": "Can you read this kanji?"
+        },
+        {
+          "japanese": "子[こ]どものころ、速[はや]く泳[およ]げました。",
+          "romaji": "Kodomo no koro, hayaku oyogemashita.",
+          "english": "When I was a child, I could swim fast."
+        },
+        {
+          "japanese": "ここから富士山[ふじさん]が見[み]られますよ。",
+          "romaji": "Koko kara Fujisan ga miraremasu yo.",
+          "english": "You can see Mt. Fuji from here!"
+        }
+      ],
+      "flashcardHeader": "〜られる / できる",
+      "flashcardAnswer": "Expresses ability or possibility — 'can do' or 'is able to.' (Group 2: stem + られる; Group 1: う→え + る; する→できる)",
+      "practice": [
+        {
+          "id": "potential_q1",
+          "type": "translation",
+          "prompt": "How do you say 'I can speak Japanese'?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]が話[はな]せます。",
+            "日本語[にほんご]が話[はなし]れます。",
+            "日本語[にほんご]が話[はなし]いられます。",
+            "日本語[にほんご]が話[はなし]できます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "話[はな]す is a Group 1 (u-verb). The final syllable す (su-row) shifts to せ (se-row), then add る → 話[はな]せる. Polite potential: 話[はな]せます. 話[はなし]れます is not a valid form. 話[はなし]できます would only work if it were 話[はな]すことができます."
+        },
+        {
+          "id": "potential_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the correct potential form to complete the sentence: この漢字[かんじ]が___か。(Can you read this kanji?)",
+          "japanese": "この漢字[かんじ]が___か。",
+          "choices": [
+            "読[よ]みますか",
+            "読[よ]めますか",
+            "読[よ]まれますか",
+            "読[どく]けますか"
+          ],
+          "correctIndex": 1,
+          "explanation": "読[よ]む is Group 1. む (mu-row) shifts to め (me-row) → 読[よ]める. Polite potential question: 読[よ]めますか. 読[よ]まれますか is the passive/honorific form. 読[よ]みますか = 'Do you read?' (not potential). 読[どく]けます is not a valid form."
+        },
+        {
+          "id": "potential_q3",
+          "type": "usage",
+          "prompt": "Which is the correct standard potential form of 起[お]きる (to get up) in formal use?",
+          "japanese": null,
+          "choices": [
+            "起[お]けます",
+            "起[お]きできます",
+            "起[お]きられます",
+            "起[お]きれます"
+          ],
+          "correctIndex": 2,
+          "explanation": "起[お]きる is Group 2 (ru-verb). Drop る and add られる → 起[お]きられる. Polite: 起[お]きられます. 起[お]きれます is ra-nuki (ら-dropping) — common in casual speech but non-standard in formal use. 起[お]けます incorrectly applies the Group 1 pattern to a Group 2 verb."
+        },
+        {
+          "id": "potential_q4",
+          "type": "translation",
+          "prompt": "How do you say 'I can't come tomorrow'?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]、こられます。",
+            "明日[あした]、これません。",
+            "明日[あした]、来[く]ることがします。",
+            "明日[あした]、こられません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "くる is irregular: potential form is こられる (not formed by a regular pattern). Negative polite: こられません. これません is ra-nuki (colloquial, non-standard). こられます is the positive form ('I can come'). 来[く]ることがします is entirely wrong — the correct expansion would be 来[く]ることができません."
+        },
+        {
+          "id": "potential_q5",
+          "type": "fillBlank",
+          "prompt": "Choose the correct word to complete: ピアノが___。(I can play the piano.)",
+          "japanese": "ピアノが___。",
+          "choices": [
+            "弾[ひ]けます。",
+            "弾[ひ]きられます。",
+            "弾[ひ]かれます。",
+            "弾[ひ]けります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "弾[ひ]く is Group 1. く (ku-row) shifts to け (ke-row) → 弾[ひ]ける. Polite: 弾[ひ]けます. 弾[ひ]かれます is the passive ('is played'). 弾[ひ]きられます and 弾[ひ]けります are not valid forms — the first mixes masu-stem with られる (Group 2 pattern), the second has a false ending."
+        },
+        {
+          "id": "potential_q6",
+          "type": "translation",
+          "prompt": "How do you say 'I can't eat spicy food'?",
+          "japanese": null,
+          "choices": [
+            "辛[つら]い食[た]べ物[もの]が食[た]べできません。",
+            "辛[つら]い食[た]べ物[もの]が食[た]べられません。",
+            "辛[つら]い食[た]べ物[もの]が食[た]べません。",
+            "辛[つら]い食[た]べ物[もの]が食[た]べれません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "食[た]べる is Group 2. Drop る, add られる → 食[た]べられる. Negative polite: 食[た]べられません. 食[た]べません = 'I don't eat' (habitual negative, not potential). 食[た]べれません is ra-nuki (colloquial/non-standard). 食[た]べできません is an invalid construction."
+        },
+        {
+          "id": "potential_q7",
+          "type": "usage",
+          "prompt": "What is the correct potential form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "すれます",
+            "せられます",
+            "できます",
+            "されます"
+          ],
+          "correctIndex": 2,
+          "explanation": "する is irregular: its potential form is できる, not derived from any standard pattern. Polite: できます = 'can do.' されます is the passive of する ('is done'). すれます and せられます are not valid forms of する."
+        },
+        {
+          "id": "potential_q8",
+          "type": "fillBlank",
+          "prompt": "Choose the correct potential form: この映画[えいが]は___が、面白[おもしろ]くないです。(I can watch this movie, but it's not interesting.)",
+          "japanese": "この映画[えいが]は___が、面白[おもしろ]くないです。",
+          "choices": [
+            "見[み]えます",
+            "見[み]えられます",
+            "見[み]います",
+            "見[み]られます"
+          ],
+          "correctIndex": 3,
+          "explanation": "見[み]る is Group 2. Drop る, add られる → 見[み]られる. Polite: 見[み]られます = 'can watch.' 見[み]えます = 'is visible' (stative verb 見[み]える — different meaning). 見[み]えられます is not a valid form. 見[み]います does not exist."
+        },
+        {
+          "id": "potential_q9",
+          "type": "translation",
+          "prompt": "How do you say 'I could swim fast when I was a child'?",
+          "japanese": null,
+          "choices": [
+            "子[こ]どものころ、速[はや]く泳[およ]げました。",
+            "子[こ]どものころ、速[はや]く泳[およ]ぎられました。",
+            "子[こ]どものころ、速[はや]く泳[およ]がれました。",
+            "子[こ]どものころ、速[はや]く泳[およ]ぎました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "泳[およ]ぐ is Group 1. ぐ (gu-row) shifts to げ (ge-row) → 泳[およ]げる. Past polite potential: 泳[およ]げました = 'was able to swim.' 泳[およ]ぎました = 'swam' (no potential meaning). 泳[およ]がれました = passive past. 泳[およ]ぎられました incorrectly applies Group 2 pattern to a Group 1 verb."
+        },
+        {
+          "id": "potential_q10",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses the potential form with the natural particle choice?",
+          "japanese": null,
+          "choices": [
+            "私[わたし]は日本語[にほんご]を話[はな]されます。",
+            "私[わたし]は日本語[にほんご]が話[はな]せます。",
+            "私[わたし]は日本語[にほんご]で話[はな]します。",
+            "私[わたし]は日本語[にほんご]が話[はな]します。"
+          ],
+          "correctIndex": 1,
+          "explanation": "With potential verbs, the direct object often takes が instead of を: 日本語[にほんご]が話[はな]せます ✓. 話[はな]せます is the Group 1 potential of 話[はな]す (す→せ). 話[はな]されます = passive. 話[はな]します = 'I speak Japanese' (no potential meaning). 日本語[にほんご]が話[はな]します is grammatically wrong (no potential form present)."
+        },
+        {
+          "id": "potential_q11",
+          "type": "translation",
+          "prompt": "How do you say 'My younger brother can drive a car'?",
+          "japanese": null,
+          "choices": [
+            "弟[おとうと]は車[くるま]が運転[うんてん]います。",
+            "弟[おとうと]は車[くるま]が運転[うんてん]ことができます。",
+            "弟[おとうと]は車[くるま]が運転[うんてん]できます。",
+            "弟[おとうと]は車[くるま]が運転[うんてん]られます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "運転[うんてん]する is a する-verb, so its potential is 運転[うんてん]できる. Polite: 運転[うんてん]できます ✓. 運転[うんてん]ことができます is missing する (should be 運転[うんてん]することができます). 運転[うんてん]られます is not a valid potential form. 運転[うんてん]います is not a valid verb form."
+        },
+        {
+          "id": "potential_q12",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: 明日[あした]は早[はや]いから、今日[きょう]はお酒[さけ]が___。(Because I have an early start tomorrow, I can't drink alcohol today.)",
+          "japanese": "明日[あした]は早[はや]いから、今日[きょう]はお酒[さけ]が___。",
+          "choices": [
+            "飲[の]めます",
+            "飲[の]まれません",
+            "飲[の]んでいます",
+            "飲[の]めません"
+          ],
+          "correctIndex": 3,
+          "explanation": "飲[の]む is Group 1. む shifts to め → 飲[の]める. Negative polite potential: 飲[の]めません = 'cannot drink' ✓. 飲[の]まれません is the passive negative (not potential). 飲[の]めます = can drink (positive, wrong meaning). 飲[の]んでいます = 'is drinking' (no potential meaning)."
+        },
+        {
+          "id": "potential_q13",
+          "type": "translation",
+          "prompt": "How do you ask 'Can you read this kanji?' using the potential form?",
+          "japanese": null,
+          "choices": [
+            "この漢字[かんじ]が読[よ]めますか。",
+            "この漢字[かんじ]が読[よ]まれますか。",
+            "この漢字[かんじ]が読[どく]きますか。",
+            "この漢字[かんじ]を読[どく]いますか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "読[よ]む is Group 1. む shifts to め → 読[よ]める. Polite potential question: 読[よ]めますか ✓. 読[よ]まれますか = passive ('Is this kanji read?'). 読[どく]きます and 読[どく]います are not valid verb forms — 読[よ]む inflects to 読[よ]み- (masu-stem), not 読[どく]き or 読[どく]い."
+        },
+        {
+          "id": "potential_q14",
+          "type": "translation",
+          "prompt": "How do you say 'I was able to finish the report'?",
+          "japanese": null,
+          "choices": [
+            "レポートが終[お]わることにしました。",
+            "レポートが終[お]われました。",
+            "レポートが終[お]わりました。",
+            "レポートが終[お]わりられました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "終[お]わる is Group 1 (the syllable before る is わ, an a-row kana). Potential: わ-row → え-row: 終[お]わ → 終[お]われ + る = 終[お]われる. Past polite: 終[お]われました = 'was able to finish' ✓. 終[お]わりました = 'finished' (no potential meaning). 終[お]わることにしました = 'decided to finish.' 終[お]わりられました mixes masu-stem with られる (Group 2 pattern, wrong for this verb)."
+        },
+        {
+          "id": "potential_q15",
+          "type": "usage",
+          "prompt": "Which is the standard formal potential form of 食[た]べる?",
+          "japanese": null,
+          "choices": [
+            "食[た]べます",
+            "食[た]べできます",
+            "食[た]べられます",
+            "食[た]べれます"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べる is Group 2. Drop る + られる → 食[た]べられる. Polite: 食[た]べられます ✓. 食[た]べれます is ra-nuki (ら-dropping) — widely heard in casual conversation but considered non-standard in formal writing and in exams. 食[た]べます = 'to eat' (not potential). 食[た]べできます is an invalid form."
+        },
+        {
+          "id": "potential_q16",
+          "type": "translation",
+          "prompt": "How do you say 'I can come to the party'?",
+          "japanese": null,
+          "choices": [
+            "パーティーに来[らい]できます。",
+            "パーティーに来[らい]えます。",
+            "パーティーに来[らい]えられます。",
+            "パーティーに来[こ]られます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "くる is irregular: potential form is こられる. Polite: こられます. Written with kanji: 来[こ]られます (pronounced こられます) ✓. 来[らい]できます, 来[らい]えます, and 来[らい]えられます are not valid potential forms of this irregular verb."
+        },
+        {
+          "id": "potential_q17",
+          "type": "usage",
+          "prompt": "Which sentence correctly expresses ability using the 〜ことができる pattern?",
+          "japanese": null,
+          "choices": [
+            "漢字[かんじ]を書[か]くことができます。",
+            "漢字[かんじ]を書[か]いことができます。",
+            "漢字[かんじ]を書[か]けることができます。",
+            "漢字[かんじ]が書[か]くことがします。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ことができる attaches to the plain dictionary form of the verb: 書[か]く + こと + ができます ✓. 書[か]いことができます uses the te-form stem incorrectly. 書[か]けることができます is redundant (potential + can = double potential). 書[か]くことがします should end in できます, not します."
+        },
+        {
+          "id": "potential_q18",
+          "type": "fillBlank",
+          "prompt": "Choose the correct potential form: 彼女[かのじょ]は英語[えいご]も中国語[ちゅうごくご]も___。(She can speak both English and Chinese.)",
+          "japanese": "彼女[かのじょ]は英語[えいご]も中国語[ちゅうごくご]も___。",
+          "choices": [
+            "話[はなし]けます",
+            "話[はな]せます",
+            "話[はなし]きます",
+            "話[はなし]られます"
+          ],
+          "correctIndex": 1,
+          "explanation": "話[はな]す is Group 1. す (su-row) shifts to せ (se-row) → 話[はな]せる. Polite: 話[はな]せます ✓. 話[はなし]られます would be correct for a Group 2 verb ending in る, but 話[はな]す is Group 1 and uses the う→え-row shift. 話[はなし]けます and 話[はなし]きます are not valid forms."
+        },
+        {
+          "id": "potential_q19",
+          "type": "usage",
+          "prompt": "The form 食[た]べれる (without ら) is best described as which of the following?",
+          "japanese": null,
+          "choices": [
+            "The standard preferred potential form of 食[た]べる in all registers",
+            "The formal written form used in exams",
+            "Common in casual speech but non-standard; the full form 食[た]べられる is required in formal use",
+            "Identical in form and meaning to the passive 食[た]べられる"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べれる is ら-nuki (ra-dropping): ら is removed from 食[た]べられる. It is very common in everyday spoken Japanese, but is still considered non-standard in formal writing and in exams. The standard form 食[た]べられる is both the potential ('can eat') and the passive ('is eaten') — context determines meaning. Know both forms."
+        },
+        {
+          "id": "potential_q20",
+          "type": "translation",
+          "prompt": "How do you say 'I was finally able to read this difficult book'?",
+          "japanese": null,
+          "choices": [
+            "やっとこの難[むずか]しい本[ほん]が読[よ]みました。",
+            "やっとこの難[むずか]しい本[ほん]が読[よ]まれました。",
+            "やっとこの難[むずか]しい本[ほん]が読[どく]きました。",
+            "やっとこの難[むずか]しい本[ほん]が読[よ]めました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "読[よ]む is Group 1. む shifts to め → 読[よ]める. Past polite potential: 読[よ]めました = 'was able to read' ✓. やっと = 'finally/at last.' 読[よ]みました = 'read' (simple past, no potential meaning). 読[よ]まれました = passive past. 読[どく]きました is not a valid form of 読[よ]む."
+        }
+      ]
+    },
+    {
+      "id": "nara",
+      "name": "〜なら (nara) — if / in that case",
+      "shortDescription": "A context-responsive conditional: 'if that's the case' or 'if we're talking about X.'",
+      "formation": "Noun / Plain form + なら (+ ば / だったら for variations)",
+      "explanation": "なら is a conditional with a very distinctive personality: it is context-responsive. Rather than constructing a hypothetical from scratch, なら picks up on something already established in the conversation — something just said, assumed, or implied — and says 'given that.' Think of it as 'in that case' or 'if that's what's happening.'\n\nIf someone tells you they're heading to Kyoto, you respond: 京都[きょうと]なら、金閣寺[きんかくじ]がおすすめです。 'If it's Kyoto you're going to, I'd recommend Kinkakuji.' You didn't introduce Kyoto; you received that information and are now reacting to it. That responsiveness is なら's defining quality.\n\nFormation is flexible: なら attaches after nouns directly (京都[きょうと]なら), after plain-form verbs (勉強[べんきょう]するなら), and after な-adjective stems without な (暇[ひま]なら). い-adjectives also use plain form (忙[いそが]しいなら).\n\nなら is particularly natural for giving advice, making a recommendation, or drawing a conclusion that follows from what you just heard. It sounds naturally conversational precisely because it acknowledges the other person's words before offering your own. (Note: Japanese has other conditionals with different nuances — たら and ば — that you'll meet in later chapters. For now, なら is the one that says 'given what you just told me.')",
+      "rules": [
+        "Noun + なら = 'if it's X / in the case of X'",
+        "Plain-form verb + なら = 'if you're going to do X / given that X is the situation'",
+        "な-adj stem + なら (no な); い-adj plain form + なら",
+        "Reacts to context already mentioned — not a fresh hypothetical",
+        "Commonly used to give advice, make recommendations, or draw a conclusion from received information"
+      ],
+      "examples": [
+        {
+          "japanese": "京都[きょうと]なら、金閣寺[きんかくじ]がおすすめですよ。",
+          "romaji": "Kyouto nara, kinkakuji ga osusume desu yo.",
+          "english": "If it's Kyoto you're going to, I recommend Kinkakuji."
+        },
+        {
+          "japanese": "日本語[にほんご]を勉強[べんきょう]するなら、毎日[まいにち]練習[れんしゅう]することが大切[たいせつ]です。",
+          "romaji": "Nihongo wo benkyou suru nara, mainichi renshuu suru koto ga taisetsu desu.",
+          "english": "If you're going to study Japanese, practicing every day is important."
+        },
+        {
+          "japanese": "その映画[えいが]なら、もう見[み]ましたよ。",
+          "romaji": "Sono eiga nara, mou mimashita yo.",
+          "english": "If it's that movie you mean, I've already seen it."
+        },
+        {
+          "japanese": "暇[ひま]なら、一緒[いっしょ]に来[き]ませんか。",
+          "romaji": "Hima nara, issho ni kimasen ka.",
+          "english": "If you're free, won't you come along?"
+        }
+      ],
+      "flashcardHeader": "〜なら",
+      "flashcardAnswer": "A context-responsive conditional: 'if that's the case' or 'if we're talking about X.'",
+      "practice": [
+        {
+          "id": "nara_q1",
+          "type": "usage",
+          "prompt": "Which word best fills the blank in a context-responsive reply: 東京[とうきょう]___、渋谷[しぶや]がおすすめです。(If it's Tokyo you mean, I recommend Shibuya.)",
+          "japanese": "東京[とうきょう]___、渋谷[しぶや]がおすすめです。",
+          "choices": [
+            "なら",
+            "たら",
+            "ば",
+            "と"
+          ],
+          "correctIndex": 0,
+          "explanation": "なら is the context-responsive conditional — it reacts to something the other person just said. 'If it's Tokyo (as you mentioned)...' is exactly this use: picking up on the topic and offering advice. たら/ば are neutral hypotheticals. と indicates automatic/natural results, not recommendations."
+        },
+        {
+          "id": "nara_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the best word: 日本語[にほんご]を勉強[べんきょう]する___、毎日[まいにち]練習[れんしゅう]することが大切[たいせつ]です。(If you're going to study Japanese, daily practice is important.)",
+          "japanese": "日本語[にほんご]を勉強[べんきょう]する___、毎日[まいにち]練習[れんしゅう]することが大切[たいせつ]です。",
+          "choices": [
+            "と",
+            "なら",
+            "のに",
+            "から"
+          ],
+          "correctIndex": 1,
+          "explanation": "なら follows plain-form verbs and responds to context — here, the listener has expressed an intention to study Japanese. なら sounds natural for advice given in response to a stated plan. と = automatic result (not for advice). のに = 'even though' (contradicts). から = 'because' (explains reasons, doesn't respond to context)."
+        },
+        {
+          "id": "nara_q3",
+          "type": "translation",
+          "prompt": "How do you say 'If it's that movie (you're talking about), I've already seen it'?",
+          "japanese": null,
+          "choices": [
+            "その映画[えいが]と、もう見[み]ましたよ。",
+            "その映画[えいが]たら、もう見[み]ましたよ。",
+            "その映画[えいが]なら、もう見[み]ましたよ。",
+            "その映画[えいが]のに、もう見[み]ましたよ。"
+          ],
+          "correctIndex": 2,
+          "explanation": "その映画[えいが]なら = noun + なら: 'if it's that movie (you just mentioned).' This is the classic context-responsive use — reacting to a topic raised by the other person. Its mapped conditional meaning here is 'in the case of X.' その映画[えいが]たら would need だったら (noun + だったら). のに = 'even though.' と doesn't work as a topic-responsive conditional with nouns."
+        },
+        {
+          "id": "nara_q4",
+          "type": "usage",
+          "prompt": "A friend says '今週末[こんしゅうまつ]は暇[ひま]です.' Which response uses なら most naturally?",
+          "japanese": null,
+          "choices": [
+            "暇[ひま]なのに、どこかに行[い]きましょう。",
+            "暇[ひま]だから、どこかに行[い]きましょう。",
+            "暇[ひま]であれば、どこかに行[い]きましょう。",
+            "暇[ひま]なら、映画[えいが]でも見[み]に行[い]きませんか。"
+          ],
+          "correctIndex": 3,
+          "explanation": "暇[ひま]なら = na-adjective stem + なら (な is dropped before なら). This reacts to the friend's stated free time and makes a suggestion. のに = 'even though you're free' (contradictory). だから = 'because you're free' (explains, doesn't suggest). であれば = formal conditional that lacks the context-responsive nuance of なら."
+        },
+        {
+          "id": "nara_q5",
+          "type": "usage",
+          "prompt": "Which shows the correct formation of なら with a な-adjective (暇[ひま] = free/not busy)?",
+          "japanese": null,
+          "choices": [
+            "暇[ひま]なら",
+            "暇[ひま]だなら",
+            "暇[ひま]であるなら",
+            "暇[ひま]いなら"
+          ],
+          "correctIndex": 0,
+          "explanation": "な-adjectives drop な before なら: 暇[ひま] (na-adj stem) + なら = 暇[ひま]なら ✓. 暇[ひま]だなら is a common hypercorrection — だ is not inserted between a na-adj stem and なら. 暇[ひま]いなら incorrectly adds い (applies い-adjective ending to a na-adj). 暇[ひま]であるなら is overly formal and non-standard in everyday speech."
+        },
+        {
+          "id": "nara_q6",
+          "type": "fillBlank",
+          "prompt": "Choose the best word: 頭[あたま]が痛[いた]い___、早[はや]く帰[かえ]ったほうがいいですよ。(If you have a headache, you should go home early.)",
+          "japanese": "頭[あたま]が痛[いた]い___、早[はや]く帰[かえ]ったほうがいいですよ。",
+          "choices": [
+            "のに",
+            "なら",
+            "から",
+            "ので"
+          ],
+          "correctIndex": 1,
+          "explanation": "い-adjective plain form + なら = 頭[あたま]が痛[いた]いなら ✓. The speaker reacts to learning the listener has a headache and gives advice. のに = 'even though your head hurts' (contradicts the advice). から/ので = 'because' (state a cause rather than respond to a situation). なら is the natural choice for responding to and advising on a stated condition."
+        },
+        {
+          "id": "nara_q7",
+          "type": "usage",
+          "prompt": "Your friend says '今日[きょう]は時間[じかん]があります.' Which response uses なら most naturally to make a suggestion?",
+          "japanese": null,
+          "choices": [
+            "時間[じかん]があったら、図書館[としょかん]で勉強[べんきょう]しましょう。",
+            "時間[じかん]があるのに、図書館[としょかん]で勉強[べんきょう]しましょう。",
+            "時間[じかん]があるなら、図書館[としょかん]で勉強[べんきょう]しましょう。",
+            "時間[じかん]があれば、図書館[としょかん]で勉強[べんきょう]しましょう。"
+          ],
+          "correctIndex": 2,
+          "explanation": "時間[じかん]があるなら = plain-form verb + なら. Picks up on the friend's stated fact ('I have time') and makes a context-responsive suggestion ✓. あったら and あれば are general hypotheticals — grammatically valid but don't specifically respond to information just given. あるのに = 'even though you have time' (contradicts the suggestion)."
+        },
+        {
+          "id": "nara_q8",
+          "type": "translation",
+          "prompt": "How do you say 'If you're going to buy a camera, you should go to Akihabara'?",
+          "japanese": null,
+          "choices": [
+            "カメラを買[か]うと、秋葉原[あきはばら]に行[い]ったほうがいいです。",
+            "カメラを買[か]えば、秋葉原[あきはばら]に行[い]ったほうがいいです。",
+            "カメラを買[か]ったら、秋葉原[あきはばら]に行[い]ったほうがいいです。",
+            "カメラを買[か]うなら、秋葉原[あきはばら]に行[い]ったほうがいいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "買[か]うなら = plain-form verb + なら. Responds to a stated intention ('I want to buy a camera') with advice. 買[か]うと = automatic result (wrong nuance for advice). 買[か]えば = hypothetical 'if' (less context-responsive). 買[か]ったら = 'when/if you buy' (more temporal/neutral). なら is most natural when reacting to an expressed plan and offering a recommendation."
+        },
+        {
+          "id": "nara_q9",
+          "type": "translation",
+          "prompt": "How do you say 'If you're free, won't you come along'?",
+          "japanese": null,
+          "choices": [
+            "暇[ひま]なら、一緒[いっしょ]に来[き]ませんか。",
+            "暇[ひま]であれば、一緒[いっしょ]に来[き]ませんか。",
+            "暇[ひま]なのに、一緒[いっしょ]に来[き]ませんか。",
+            "暇[ひま]だから、一緒[いっしょ]に来[き]ませんか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "暇[ひま]なら = na-adj stem + なら (drop な). Responds to knowing someone is free and extends an invitation ✓. であれば = formal/stiff for this casual context. なのに = 'even though you're free' (contradicts the invitation). だから = 'because you're free' (states a cause instead of making an invitation)."
+        },
+        {
+          "id": "nara_q10",
+          "type": "fillBlank",
+          "prompt": "Choose the best word: その店[みせ]___、もう閉[し]まっていますよ。(If it's that store you mean, it's already closed.)",
+          "japanese": "その店[みせ]___、もう閉[し]まっていますよ。",
+          "choices": [
+            "だったら",
+            "なら",
+            "なので",
+            "のに"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + なら reacts to a topic just raised — 'if it's that store (you just mentioned).' その店[みせ]なら ✓. だったら (noun + だったら) is grammatically possible but adds a slightly counterfactual feel. なので = 'because'; のに = 'even though.' なら is the most natural conversational response to a topic the other person introduced."
+        },
+        {
+          "id": "nara_q11",
+          "type": "translation",
+          "prompt": "How do you say 'If you're going to the supermarket, could you buy some milk'?",
+          "japanese": null,
+          "choices": [
+            "スーパーに行[い]ったなら、牛乳[ぎゅうにゅう]を買[か]ってきてください。",
+            "スーパーに行[い]くのに、牛乳[ぎゅうにゅう]を買[か]ってきてください。",
+            "スーパーに行[い]くなら、牛乳[ぎゅうにゅう]を買[か]ってきてください。",
+            "スーパーに行[い]けば、牛乳[ぎゅうにゅう]を買[か]ってきてください。"
+          ],
+          "correctIndex": 2,
+          "explanation": "行[い]くなら = plain-form verb + なら. The listener mentioned they're going to the supermarket; なら picks this up and makes a request ✓. 行[い]ったなら uses past form — awkward because the trip hasn't happened yet. 行[い]くのに = 'even though you're going' (contradicts the request). 行[い]けば = hypothetical 'if' (not context-responsive — doesn't react to stated information)."
+        },
+        {
+          "id": "nara_q12",
+          "type": "usage",
+          "prompt": "What is the key difference between なら and たら?",
+          "japanese": null,
+          "choices": [
+            "なら is only used with nouns; たら is used with all word types",
+            "なら expresses automatic results; たら is for giving advice",
+            "Both are identical and completely interchangeable",
+            "なら reacts to information already given in context; たら is more neutral or temporal"
+          ],
+          "correctIndex": 3,
+          "explanation": "なら's defining feature is context-responsiveness: it reacts to something the other person said or a shared assumption. たら can mean 'when X happens' (temporal), 'if X happens' (hypothetical), or express a past discovery — all without needing prior context. なら is also naturally used for advice responding to the listener's stated situation."
+        },
+        {
+          "id": "nara_q13",
+          "type": "translation",
+          "prompt": "How do you say 'If you don't want to go, it's okay'?",
+          "japanese": null,
+          "choices": [
+            "行[い]きたくないなら、いいですよ。",
+            "行[い]きたくなかったら、いいですよ。",
+            "行[い]きたくないのに、いいですよ。",
+            "行[い]きたくないと、いいですよ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "行[い]きたくないなら = negative plain form (行[い]きたくない) + なら. Responds to someone's reluctance and gives permission ✓. なかったら = past hypothetical (awkward for a current feeling). のに = 'even though you don't want to' (contradicts the permission). と would imply an automatic result, not a response to expressed feelings."
+        },
+        {
+          "id": "nara_q14",
+          "type": "usage",
+          "prompt": "Which is the correct form of なら with the い-adjective 難[むずか]しい (difficult)?",
+          "japanese": null,
+          "choices": [
+            "難[むずか]しいだなら",
+            "難[むずか]しいなら",
+            "難[むずか]しなら",
+            "難[むずか]しくなら"
+          ],
+          "correctIndex": 1,
+          "explanation": "い-adjectives use their plain form before なら: 難[むずか]しい (plain form) + なら = 難[むずか]しいなら ✓. No だ is inserted — that would be hypercorrection. 難[むずか]しなら removes い (wrong — the full form 難[むずか]しい must be kept). 難[むずか]しくなら uses the adverbial form (く) which is not correct before なら."
+        },
+        {
+          "id": "nara_q15",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses なら with a plain-form verb to give advice?",
+          "japanese": null,
+          "choices": [
+            "勉強[べんきょう]するだなら、早[はや]く始[はじ]めたほうがいい。",
+            "勉強[べんきょう]するのになら、早[はや]く始[はじ]めたほうがいい。",
+            "勉強[べんきょう]するなら、早[はや]く始[はじ]めたほうがいい。",
+            "勉強[べんきょう]すればなら、早[はや]く始[はじ]めたほうがいい。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain-form verb + なら = 勉強[べんきょう]するなら ✓. No だ is inserted between a plain-form verb and なら. 勉強[べんきょう]するだなら adds だ incorrectly. 勉強[べんきょう]するのになら = 'even though you study' (contradictory). 勉強[べんきょう]すればなら combines two conditionals redundantly (すれば already means 'if')."
+        },
+        {
+          "id": "nara_q16",
+          "type": "fillBlank",
+          "prompt": "Choose the best word: 寿司[すし]が好[す]き___、あのレストランはおすすめですよ。(If you like sushi, that restaurant is recommended.)",
+          "japanese": "寿司[すし]が好[す]き___、あのレストランはおすすめですよ。",
+          "choices": [
+            "のに",
+            "だと",
+            "なのに",
+            "なら"
+          ],
+          "correctIndex": 3,
+          "explanation": "好[す]き is a na-adjective. Na-adj stem + なら = 好[す]きなら ✓ (な is dropped). The speaker reacts to learning the listener likes sushi and makes a recommendation. のに/なのに = 'even though' (contradicts the advice). だと = 'if it is' (grammatically possible but does not carry the context-responsive nuance of なら)."
+        },
+        {
+          "id": "nara_q17",
+          "type": "usage",
+          "prompt": "なら is MOST appropriate in which situation?",
+          "japanese": null,
+          "choices": [
+            "Reacting to information the other person just gave and offering advice or a conclusion",
+            "Describing an automatic or inevitable natural result",
+            "Expressing a sequential condition: 'when X happens, then Y'",
+            "Making a request conditional on a future event you introduce yourself"
+          ],
+          "correctIndex": 0,
+          "explanation": "なら's defining quality is context-responsiveness: it picks up on something already said, assumed, or implied and says 'in that case.' Advice, recommendations, and conclusions based on the listener's stated situation are exactly where なら shines. と = automatic results. たら-temporal = sequential conditions. なら does not introduce fresh hypotheticals — it reacts to existing context."
+        },
+        {
+          "id": "nara_q18",
+          "type": "usage",
+          "prompt": "Which correctly forms the negative なら construction?",
+          "japanese": null,
+          "choices": [
+            "来[く]るじゃないなら、連絡[れんらく]してください。",
+            "来[こ]ないなら、連絡[れんらく]してください。",
+            "来[こ]なかったなら、連絡[れんらく]してください。",
+            "来[こ]ないのなら、連絡[れんらく]してください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Negative plain-form verb + なら = 来[こ]ないなら ✓. Standard negative formation: 来[こ]ない (present negative) + なら. 来[く]るじゃないなら is non-standard informal negation. 来[こ]なかったなら uses past negative — implies the absence already happened. 来[こ]ないのなら is more emphatic/analytical (adds のに-like reasoning layer); grammatically possible but less natural for simple advice."
+        },
+        {
+          "id": "nara_q19",
+          "type": "translation",
+          "prompt": "How do you say 'If it's that Japanese restaurant (you're talking about), I know it'?",
+          "japanese": null,
+          "choices": [
+            "その日本料理[にほんりょうり]店[みせ]のに、知[し]っていますよ。",
+            "その日本料理[にほんりょうり]店[みせ]と、知[し]っていますよ。",
+            "その日本料理[にほんりょうり]店[みせ]なら、知[し]っていますよ。",
+            "その日本料理[にほんりょうり]店[みせ]だったら、知[し]っていますよ。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + なら = 'if it's  (you just mentioned).' その日本料理[にほんりょうり]店[みせ]なら reacts to the restaurant being brought up in conversation ✓. のに = 'even though'; と doesn't work as a context-responsive conditional with nouns this way. だったら is grammatically possible but adds a faint counterfactual feel that doesn't suit simply identifying a known restaurant."
+        },
+        {
+          "id": "nara_q20",
+          "type": "translation",
+          "prompt": "Someone says they want to buy a dictionary. How do you say 'If it's a dictionary, there's a good one at the bookstore'?",
+          "japanese": null,
+          "choices": [
+            "辞書[じしょ]だと、本屋[ほんや]にいいのがあります。",
+            "辞書[じしょ]なのに、本屋[ほんや]にいいのがあります。",
+            "辞書[じしょ]なので、本屋[ほんや]にいいのがあります。",
+            "辞書[じしょ]なら、本屋[ほんや]にいいのがあります。"
+          ],
+          "correctIndex": 3,
+          "explanation": "辞書[じしょ]なら = noun + なら. Reacts to 'I want a dictionary' and provides helpful information — classic context-responsive なら ✓. だと = 'if it is a dictionary' (possible but lacks the responsive nuance). なのに = 'even though it's a dictionary' (contradictory). なので = 'because it's a dictionary' (explains, doesn't respond to context)."
+        }
+      ]
+    },
+    {
+      "id": "sou-desu-appearance",
+      "name": "〜そうです (looks like / seems) — appearance-based inference",
+      "shortDescription": "Expresses a direct-observation impression — 'looks like' or 'seems' based on what you can see right now.",
+      "formation": "い-adj stem (drop い) + そうです  |  な-adj stem + そうです  |  Verb stem + そうです",
+      "explanation": "〜そうです is your grammar for first impressions. It expresses what something appears to be based on direct sensory evidence — usually what you're seeing in the moment. The key word is *direct*: you're reacting to what's in front of you, not reporting something you heard or read.\n\nFormation is the part that catches people out. For い-adjectives, drop the final い before adding そう: おいしい → おいしそう (looks delicious), 難[むずか]しい → 難[むずか]しそう (looks difficult). For な-adjectives, drop な: 元気[げんき]な → 元気[げんき]そう (looks healthy/well). For verbs, use the verb stem (the ます-form base): 降[お]ります → 降[お]りそう, giving us 雨[あめ]が降[ふ]りそうです (It looks like it's going to rain).\n\nTwo exceptions are worth memorizing cold: いい (good) becomes よさそう — *not* いそう — and ない becomes なさそう — *not* なそう. These are the irregulars that trip up intermediate learners.\n\nKeep in mind: there's a completely different そうです that means 'I heard that…' and attaches to a full plain form. You'll study that version in Chapter 20. The key distinction: appearance そうです attaches to adjective/verb *stems*; hearsay そうです attaches to *complete plain-form clauses*.",
+      "rules": [
+        "い-adj: drop い + そう (おいしい → おいしそう = looks delicious)",
+        "な-adj: stem only + そう (元気[げんき] → 元気[げんき]そう = looks healthy)",
+        "Verb stem (ます-base) + そう (降[お]り → 降[お]りそう = looks like it will rain)",
+        "Irregular exceptions: いい → よさそう; ない → なさそう",
+        "Based on direct visual/sensory evidence — reacting to what you perceive right now",
+        "Different from hearsay そうです (Chapter 20) — that attaches to full plain-form clauses"
+      ],
+      "examples": [
+        {
+          "japanese": "このケーキ、とてもおいしそうですね。",
+          "romaji": "Kono keeki, totemo oishisou desu ne.",
+          "english": "This cake looks really delicious, doesn't it?"
+        },
+        {
+          "japanese": "空[そら]が暗[くら]くなってきた。雨[あめ]が降[ふ]りそうです。",
+          "romaji": "Sora ga kuraku natte kita. Ame ga furisou desu.",
+          "english": "The sky is getting dark. It looks like it's going to rain."
+        },
+        {
+          "japanese": "田中[たなか]さんは元気[げんき]そうですね。",
+          "romaji": "Tanaka-san wa genkisou desu ne.",
+          "english": "Tanaka-san looks well, doesn't she."
+        },
+        {
+          "japanese": "その荷物[にもつ]、重[おも]そうですね。手伝[てつだ]いましょうか。",
+          "romaji": "Sono nimotsu, omosou desu ne. Tetsudaimashou ka.",
+          "english": "That luggage looks heavy. Shall I help you?"
+        }
+      ],
+      "flashcardHeader": "〜そうです",
+      "flashcardAnswer": "Expresses a direct-observation impression — 'looks like' or 'seems' based on what you can see right now.",
+      "practice": [
+        {
+          "id": "sou-desu-appearance_q1",
+          "type": "translation",
+          "prompt": "How do you say 'This cake looks delicious' (based on what you see)?",
+          "japanese": null,
+          "choices": [
+            "このケーキはおいしそうです。",
+            "このケーキはおいしいそうです。",
+            "このケーキはおいしくそうです。",
+            "このケーキはおいしだそうです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adj + そう: drop い → おいし + そう = おいしそう ✓. Polite: おいしそうです. おいしいそうです = hearsay そう ('I heard it's delicious' — attaches to full plain form). おいしくそうです incorrectly uses the adverbial form. おいしだそうです is not a valid formation."
+        },
+        {
+          "id": "sou-desu-appearance_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: あの人[ひと]は___ですね。(That person seems happy.)",
+          "japanese": "あの人[ひと]は___ですね。",
+          "choices": [
+            "楽[たの]しいそう",
+            "楽[たの]しそう",
+            "楽[たの]しくそう",
+            "楽[たの]しだそう"
+          ],
+          "correctIndex": 1,
+          "explanation": "楽[たの]しい (i-adj) → drop い + そう = 楽[たの]しそう ✓. 楽[たの]しいそう = hearsay ('I heard it's fun' — attaches to the full plain form 楽[たの]しい). 楽[たの]しくそう incorrectly uses the adverbial form. 楽[たの]しだそう is not a valid form."
+        },
+        {
+          "id": "sou-desu-appearance_q3",
+          "type": "usage",
+          "prompt": "What is the correct appearance-そう form of いい (good)?",
+          "japanese": null,
+          "choices": [
+            "いそう",
+            "いいそう",
+            "よさそう",
+            "よくそう"
+          ],
+          "correctIndex": 2,
+          "explanation": "いい is irregular for appearance そう. いい → よさそう (NOT いそう). This is one of two key exceptions to memorize (the other is ない → なさそう). いいそう = hearsay 'I heard it's good.' いそう would mean 'looks like there is/are' (from いる). よくそう uses the adverbial form (incorrect before そう)."
+        },
+        {
+          "id": "sou-desu-appearance_q4",
+          "type": "usage",
+          "prompt": "Which correctly expresses 'It looks like it's going to rain' based on visual evidence?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]が降[ふ]りますそうです。",
+            "雨[あめ]が降[ふ]るそうです。",
+            "雨[あめ]が降[ふ]ってそうです。",
+            "雨[あめ]が降[ふ]りそうです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Verb masu-stem + そう: 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. This expresses direct visual observation (e.g., dark sky). 降[ふ]るそうです = hearsay 'I heard it will rain' (plain form + そうだ). 降[ふ]ってそうです is non-standard. 降[お]りますそうです incorrectly adds そう to the full polite form."
+        },
+        {
+          "id": "sou-desu-appearance_q5",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: このスープは___。(This soup looks spicy.)",
+          "japanese": "このスープは___。",
+          "choices": [
+            "辛[つら]そうです。",
+            "辛[つら]いそうです。",
+            "辛[つら]くそうです。",
+            "辛[つら]だそうです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "辛[つら]い (i-adj) → drop い + そう = 辛[つら]そう ✓. Polite: 辛[つら]そうです = 'looks spicy.' 辛[つら]いそうです = hearsay そう ('I heard it's spicy' — attaches to full plain form). 辛[つら]くそうです and 辛[つら]だそうです are not valid appearance-そう formations."
+        },
+        {
+          "id": "sou-desu-appearance_q6",
+          "type": "usage",
+          "prompt": "Which correctly turns the な-adjective 元気[げんき] (healthy/well) into appearance-そう?",
+          "japanese": null,
+          "choices": [
+            "元気[げんき]いそうです",
+            "元気[げんき]そうです",
+            "元気[げんき]なそうです",
+            "元気[げんき]だそうです"
+          ],
+          "correctIndex": 1,
+          "explanation": "な-adjective stem + そう: drop な → 元気[げんき] + そう = 元気[げんき]そう ✓. Polite: 元気[げんき]そうです. 元気[げんき]なそうです incorrectly keeps な before そう. 元気[げんき]だそうです = hearsay 'I heard he/she is well.' 元気[げんき]いそうです is not a valid form."
+        },
+        {
+          "id": "sou-desu-appearance_q7",
+          "type": "translation",
+          "prompt": "How do you say 'That luggage looks heavy' based on what you observe?",
+          "japanese": null,
+          "choices": [
+            "荷物[にもつ]は重[おも]いそうです。",
+            "荷物[にもつ]は重[おも]だそうです。",
+            "荷物[にもつ]は重[おも]そうです。",
+            "荷物[にもつ]は重[おも]くそうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "重[おも]い (i-adj) → drop い + そう = 重[おも]そう ✓. Polite: 重[おも]そうです. 重[おも]いそうです = hearsay ('I heard it's heavy' — attaches to full plain form 重[おも]い). 重[おも]だそうです is not a valid form. 重[おも]くそうです incorrectly uses the adverbial く form before そう."
+        },
+        {
+          "id": "sou-desu-appearance_q8",
+          "type": "usage",
+          "prompt": "How do you modify a noun using そう? Choose the correct phrase for 'a delicious-looking cake.'",
+          "japanese": null,
+          "choices": [
+            "おいしそうのケーキ",
+            "おいしいそうなケーキ",
+            "おいしくそうなケーキ",
+            "おいしそうなケーキ"
+          ],
+          "correctIndex": 3,
+          "explanation": "そう acts like a na-adjective when modifying nouns: そう + な + noun. おいしそうなケーキ ✓. の cannot connect そう directly to a noun. おいしいそうなケーキ uses the full い-adj form (= hearsay modifying a noun). おいしくそうなケーキ uses the adverbial form (incorrect here)."
+        },
+        {
+          "id": "sou-desu-appearance_q9",
+          "type": "translation",
+          "prompt": "How do you say 'That child looks sad' based on what you can see?",
+          "japanese": null,
+          "choices": [
+            "あの子[こ]は悲[かな]しそうですね。",
+            "あの子[こ]は悲[かな]しいそうですね。",
+            "あの子[こ]は悲[かな]しくそうですね。",
+            "あの子[こ]は悲[かな]しそうなです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "悲[かな]しい (i-adj) → drop い + そう = 悲[かな]しそう ✓. Polite: 悲[かな]しそうです. 悲[かな]しいそう = hearsay. 悲[かな]しくそうですね uses the adverbial form (incorrect). 悲[かな]しそうなです is not grammatically valid — 悲[かな]しそうな is the noun-modifying form and cannot be followed directly by です; use 悲[かな]しそうです instead."
+        },
+        {
+          "id": "sou-desu-appearance_q10",
+          "type": "usage",
+          "prompt": "What is the key difference between appearance-そうです and hearsay-そうです?",
+          "japanese": null,
+          "choices": [
+            "Appearance そうです is more formal; hearsay そうです is more casual",
+            "Appearance そうです attaches to adjective/verb stems; hearsay そうです attaches to full plain-form clauses",
+            "Both attach to plain-form; only the surrounding context differs",
+            "Appearance そうです uses で; hearsay そうです uses に"
+          ],
+          "correctIndex": 1,
+          "explanation": "The critical difference is grammatical: appearance そう attaches to い-adj stems (drop い), な-adj stems, and verb masu-stems. Hearsay そうだ attaches to full plain-form clauses (おいしい + そうだ = 'I heard it's delicious'; 食[た]べる + そうだ = 'I heard he/she eats'). Same pronunciation, completely different formation and meaning."
+        },
+        {
+          "id": "sou-desu-appearance_q11",
+          "type": "fillBlank",
+          "prompt": "空[そら]が暗[くら]い。雨[あめ]が___ですね。(The sky is dark. It looks like it's going to rain, doesn't it?) Choose the correct appearance-そう form.",
+          "japanese": "空[そら]が暗[くら]い。雨[あめ]が___ですね。",
+          "choices": [
+            "降[ふ]るそう",
+            "降[ふ]ったそう",
+            "降[お]りそう",
+            "降[ふ]ってそう"
+          ],
+          "correctIndex": 2,
+          "explanation": "Verb masu-stem + そう: 降[ふ]る → polite 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. Based on direct visual evidence (dark sky). 降[ふ]るそう = hearsay 'I heard it will rain' (plain form + そう). 降[ふ]ったそう = hearsay past 'I heard it rained.' 降[ふ]ってそう is non-standard."
+        },
+        {
+          "id": "sou-desu-appearance_q12",
+          "type": "usage",
+          "prompt": "What is the correct appearance-そう form of ない (negative/non-existence)?",
+          "japanese": null,
+          "choices": [
+            "ないそう",
+            "なそう",
+            "なくそう",
+            "なさそう"
+          ],
+          "correctIndex": 3,
+          "explanation": "ない is irregular for そう: ない → なさそう (NOT なそう). This is one of two key exceptions (alongside いい → よさそう). なそう is a very common mistake — the さ must be inserted. ないそう = hearsay 'I heard there isn't.' なくそう uses the adverbial form (incorrect here)."
+        },
+        {
+          "id": "sou-desu-appearance_q13",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: この問題[もんだい]は___ですね。(This problem looks difficult.)",
+          "japanese": "この問題[もんだい]は___ですね。",
+          "choices": [
+            "難[むずか]しそう",
+            "難[むずか]しいそう",
+            "難[むずか]しくそう",
+            "難[むずか]しだそう"
+          ],
+          "correctIndex": 0,
+          "explanation": "難[むずか]しい (i-adj) → drop い + そう = 難[むずか]しそう ✓. Polite: 難[むずか]しそうです. 難[むずか]しいそう = hearsay ('I heard it's difficult'). 難[むずか]しくそうです uses the adverbial form (incorrect). 難[むずか]しだそう is not a valid form."
+        },
+        {
+          "id": "sou-desu-appearance_q14",
+          "type": "translation",
+          "prompt": "How do you say 'That person seems kind' based on your impression?",
+          "japanese": null,
+          "choices": [
+            "あの人[ひと]は優[やさ]しいそうですね。",
+            "あの人[ひと]は優[やさ]しそうですね。",
+            "あの人[ひと]は優[やさ]しなそうですね。",
+            "あの人[ひと]は優[やさ]しくそうですね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "優[やさ]しい (i-adj) → drop い + そう = 優[やさ]しそう ✓. Polite: 優[やさ]しそうです. 優[やさ]しいそうですね = hearsay ('I heard that person is kind'). 優[やさ]しなそう is not a valid form (trying to apply na-adj rule to an i-adj). 優[やさ]しくそう uses the adverbial form (incorrect before そう)."
+        },
+        {
+          "id": "sou-desu-appearance_q15",
+          "type": "usage",
+          "prompt": "You're standing at a fruit stand and see bright red, fresh apples. Which そうです sentence best expresses your direct impression?",
+          "japanese": null,
+          "choices": [
+            "このリンゴはおいしいそうです。",
+            "このリンゴはおいしそうだと聞[き]きました。",
+            "このリンゴはおいしそうです。",
+            "このリンゴはおいしにそうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "When reacting to what you can see right now (fresh red apples in front of you), appearance そう is correct: おいしそうです ✓. おいしいそうです = 'I heard these apples are delicious' (hearsay — you'd use this if someone told you). おいしそうだと聞[き]きました = 'I heard that they look delicious' (redundant/awkward). おいしにそうです is not a valid form."
+        },
+        {
+          "id": "sou-desu-appearance_q16",
+          "type": "usage",
+          "prompt": "Which correctly expresses 'The exam doesn't look easy' using appearance-そう negation?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]はやさしいそうではないです。",
+            "試験[しけん]はやさしそうじゃないです。",
+            "試験[しけん]はやさしくないそうです。",
+            "試験[しけん]はやさしくなさそうです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "The standard way to negate appearance-そう for an い-adj: negate the adjective (やさしくない) → drop い → やさしくなさ + そう = やさしくなさそう ✓. This applies the ない → なさそう rule within a compound form. やさしくないそうです = hearsay 'I heard it's not easy.' やさしそうじゃないです is colloquially possible but less precise. やさしいそうではないです = negating hearsay form."
+        },
+        {
+          "id": "sou-desu-appearance_q17",
+          "type": "fillBlank",
+          "prompt": "空[そら]が暗[くら]くなってきた。___ですね。(The sky is getting dark. It looks like rain, doesn't it?) Pick the correct verb-stem+そう form.",
+          "japanese": "空[そら]が暗[くら]くなってきた。___ですね。",
+          "choices": [
+            "雨[あめ]が降[ふ]りそう",
+            "雨[あめ]が降[ふ]るそう",
+            "雨[あめ]が降[ふ]ったそう",
+            "雨[あめ]が降[ふ]ってそう"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb masu-stem + そう for appearance: 降[ふ]る → masu 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. Visual evidence (darkening sky) triggers appearance そう. 降[ふ]るそう = hearsay 'I heard it will rain.' 降[ふ]ったそう = hearsay past. 降[ふ]ってそう is non-standard and not used in standard Japanese."
+        },
+        {
+          "id": "sou-desu-appearance_q18",
+          "type": "usage",
+          "prompt": "How do you say 'a healthy-looking teacher' using そうな to modify a noun?",
+          "japanese": null,
+          "choices": [
+            "元気[げんき]そうの先生[せんせい]",
+            "元気[げんき]そうな先生[せんせい]",
+            "元気[げんき]いそうな先生[せんせい]",
+            "元気[げんき]だそうな先生[せんせい]"
+          ],
+          "correctIndex": 1,
+          "explanation": "そう + な + noun: 元気[げんき]そうな先生[せんせい] ✓ (na-adj stem + そうな). そう behaves like a na-adjective when modifying nouns. の cannot directly follow そう to modify nouns. 元気[げんき]いそうな is a non-existent form. 元気[げんき]だそうな would be the hearsay form modifying a noun ('a teacher who I heard is well')."
+        },
+        {
+          "id": "sou-desu-appearance_q19",
+          "type": "translation",
+          "prompt": "How do you say 'This bag looks light' based on what you observe?",
+          "japanese": null,
+          "choices": [
+            "このバッグは軽[かる]いそうです。",
+            "このバッグは軽[かる]くそうです。",
+            "このバッグは軽[かる]そうです。",
+            "このバッグは軽[かる]くなさそうです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "軽[かる]い (i-adj) → drop い + そう = 軽[かる]そう ✓. Polite: 軽[かる]そうです = 'looks light.' 軽[かる]いそうです = hearsay 'I heard the bag is light.' 軽[かる]くそうです incorrectly uses adverbial form before そう. 軽[かる]くなさそうです = 'doesn't look light / doesn't look easy' (negative form — different meaning)."
+        },
+        {
+          "id": "sou-desu-appearance_q20",
+          "type": "usage",
+          "prompt": "Which correctly identifies whether そうです is appearance or hearsay in each sentence?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]が降[ふ]りそうです (hearsay) vs 雨[あめ]が降[ふ]るそうです (appearance)",
+            "Both 降[お]りそうです and 降[ふ]るそうです express appearance",
+            "Both 降[お]りそうです and 降[ふ]るそうです express hearsay",
+            "雨[あめ]が降[ふ]りそうです (appearance: masu-stem + そう) vs 雨[あめ]が降[ふ]るそうです (hearsay: plain form + そう)"
+          ],
+          "correctIndex": 3,
+          "explanation": "The formation is the key: appearance そう uses the masu-stem (降[お]り + そう) → 降[お]りそうです = 'looks like it will rain' (your observation of dark clouds). Hearsay そう uses the full plain dictionary form (降[ふ]る + そう) → 降[ふ]るそうです = 'I heard it will rain' (someone told you). Same word, opposite information source."
+        }
+      ]
+    },
+    {
+      "id": "shi",
+      "name": "〜し (shi) — and what's more / listing reasons",
+      "shortDescription": "Stacks multiple reasons or facts cumulatively — 'and also,' 'plus,' 'on top of that.'",
+      "formation": "Plain form + し + Plain form + し (+ main clause)",
+      "explanation": "し is the particle you reach for when a single reason isn't enough. It connects clauses to pile up reasons, facts, or qualities, each one adding to the overall picture — 'and also,' 'plus,' 'what's more.' Unlike から, which delivers one focused cause, し lets you stack contributing factors and imply that the conclusion follows naturally from all of them together.\n\n安[やす]いし、おいしいし、また行[い]きたい: 'It's cheap, the food is delicious — I want to go again.' You're not pinning the desire on one cause; you're building a cumulative case.\n\nFormation: attach し to each clause in plain form. い-adjectives use their plain form directly (安[やす]いし). な-adjectives and nouns take だし (静[しず]かだし, 学生[がくせい]だし). Verbs use plain form (行[い]くし, 行[い]ったし, 行[い]かないし).\n\nOne important nuance: し is *non-exhaustive*. By listing some reasons with し, you implicitly signal 'and there are others too.' This is exactly what makes it sound natural and conversational — you're gesturing at a full situation, not making a complete logical argument. The conclusion can be stated outright or left for the listener to infer from the accumulating evidence.\n\nし works for positive *and* negative stacking: 疲[つか]れているし、眠[ねむ]いし… naturally leads the listener to anticipate 'so I don't want to go out.'",
+      "rules": [
+        "Plain form + し = 'and also / plus / on top of that' (stacks reasons or facts)",
+        "Can repeat: 〜し、〜し、〜し = cumulative list of contributing factors",
+        "Non-exhaustive: implies there are additional reasons beyond what's listed",
+        "Conclusion can be stated or left for listener to infer",
+        "な-adj/noun take だし (静[しず]かだし); い-adj and verbs use plain form directly"
+      ],
+      "examples": [
+        {
+          "japanese": "このカフェはコーヒーがおいしいし、雰囲気[ふんいき]もいいし、大好[だいす]きです。",
+          "romaji": "Kono kafe wa koohii ga oishii shi, funiki mo ii shi, daisuki desu.",
+          "english": "This café has delicious coffee, a nice atmosphere, and I love it."
+        },
+        {
+          "japanese": "今日[きょう]は疲[つか]れているし、明日[あした]も早[はや]いし、もう帰[かえ]ります。",
+          "romaji": "Kyou wa tsukarete iru shi, ashita mo hayai shi, mou kaerimasu.",
+          "english": "I'm tired today, and I have to be up early tomorrow, so I'm heading home."
+        },
+        {
+          "japanese": "雨[あめ]だし、寒[さむ]いし、今日[きょう]は家[いえ]にいたい。",
+          "romaji": "Ame da shi, samui shi, kyou wa ie ni itai.",
+          "english": "It's raining, and it's cold — I just want to stay home today."
+        },
+        {
+          "japanese": "その仕事[しごと]は給料[きゅうりょう]がいいし、場所[ばしょ]も近[ちか]いし、ぜひ応募[おうぼ]してみて。",
+          "romaji": "Sono shigoto wa kyuuryou ga ii shi, basho mo chikai shi, zehi oubo shite mite.",
+          "english": "That job pays well and is close by — definitely try applying."
+        }
+      ],
+      "flashcardHeader": "〜し",
+      "flashcardAnswer": "Stacks multiple reasons or facts cumulatively — 'and also,' 'plus,' 'on top of that.'",
+      "practice": [
+        {
+          "id": "shi_q1",
+          "type": "translation",
+          "prompt": "How do you say 'The coffee is delicious, and the atmosphere is also nice' (implying more reasons)?",
+          "japanese": null,
+          "choices": [
+            "コーヒーがおいしいし、雰囲気[ふんいき]もいいし。",
+            "コーヒーがおいしくて、雰囲気[ふんいき]もいい。",
+            "コーヒーがおいしいから、雰囲気[ふんいき]もいい。",
+            "コーヒーがおいしいのに、雰囲気[ふんいき]もいい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "し stacks multiple reasons/qualities: おいしいし、いいし ✓. This signals 'and there are more good points too.' て-form (おいしくて) lists attributes neutrally without the cumulative 'and more' nuance. から = 'because' (single cause). のに = 'even though' (contradictory)."
+        },
+        {
+          "id": "shi_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair: 今日[きょう]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。(I'm tired today and have to be up early tomorrow, so I'm leaving.)",
+          "japanese": "今日[きょう]は疲[つか]れている___、明日[あした]も早[はや]い___、もう帰[かえ]ります。",
+          "choices": [
+            "のに、のに",
+            "し、し",
+            "から、から",
+            "けど、けど"
+          ],
+          "correctIndex": 1,
+          "explanation": "し stacks multiple reasons that together explain the conclusion (もう帰[かえ]ります): 疲[つか]れているし、早[はや]いし ✓. Repeating し for each reason is natural with this pattern. から twice is unnatural for cumulative reasons. のに = 'even though' (contradictory). けど = 'but' (not used to stack reasons for a conclusion)."
+        },
+        {
+          "id": "shi_q3",
+          "type": "usage",
+          "prompt": "Which correctly uses し with a noun (学生[がくせい] = student)?",
+          "japanese": null,
+          "choices": [
+            "学生[がくせい]し、時間[じかん]もある。",
+            "学生[がくせい]はし、時間[じかん]もある。",
+            "学生[がくせい]だし、時間[じかん]もある。",
+            "学生[がくせい]なし、時間[じかん]もある。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + だし = 学生[がくせい]だし ✓. だ is required between a noun and し, just as it is in plain-form noun sentences. 学生[がくせい]し omits だ (incorrect). 学生[がくせい]はし is ungrammatical (は cannot precede し). 学生[がくせい]なし is an entirely different expression meaning 'without a student.'"
+        },
+        {
+          "id": "shi_q4",
+          "type": "usage",
+          "prompt": "Which correctly uses し with the な-adjective 静[しず]か (quiet)?",
+          "japanese": null,
+          "choices": [
+            "静[しず]かし、いい場所[ばしょ]です。",
+            "静[しず]かなし、いい場所[ばしょ]です。",
+            "静[しず]かいし、いい場所[ばしょ]です。",
+            "静[しず]かだし、いい場所[ばしょ]です。"
+          ],
+          "correctIndex": 3,
+          "explanation": "な-adjective + だし: 静[しず]か + だし = 静[しず]かだし ✓. な-adjectives need だ before し (same as in plain-form copula sentences). 静[しず]かし omits だ (incorrect). 静[しず]かなし adds な (wrong — な goes before nouns, not before し). 静[しず]かいし adds い incorrectly (静[しず]か has no い ending)."
+        },
+        {
+          "id": "shi_q5",
+          "type": "translation",
+          "prompt": "How do you say 'The restaurant is close and the food is delicious, so I often go there' using し?",
+          "japanese": null,
+          "choices": [
+            "レストランは近[ちか]いし、料理[りょうり]もおいしいし、よく行[い]きます。",
+            "レストランは近[ちか]くて、料理[りょうり]もおいしくて、よく行[い]きます。",
+            "レストランは近[ちか]いから、料理[りょうり]もおいしいから、よく行[い]きます。",
+            "レストランは近[ちか]いのに、料理[りょうり]もおいしいし、よく行[い]きます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "近[ちか]いし、おいしいし + conclusion よく行[い]きます: し stacks the two reasons (proximity + food) implying 'and it has other good points too' ✓. て-form also lists but without the cumulative 'reasons piling up' feel of し. から twice for two separate causes is unnatural. のに = 'even though' (contradicts)."
+        },
+        {
+          "id": "shi_q6",
+          "type": "usage",
+          "prompt": "What is the key nuance difference between 〜し and 〜て when listing reasons?",
+          "japanese": null,
+          "choices": [
+            "し is an exhaustive list; て implies there are other reasons",
+            "し is non-exhaustive — implies more reasons exist beyond what's listed; て lists neutrally without that implication",
+            "て is specifically for listing reasons for a conclusion; し is for contrasting",
+            "し and て are completely interchangeable for listing reasons"
+          ],
+          "correctIndex": 1,
+          "explanation": "し is non-exhaustive: by listing with し, you signal 'and there are other reasons too.' This open-ended quality gives し its natural, conversational feel. て simply connects states or actions additively or sequentially, without implying an incomplete list. て can also list reasons, but it lacks し's 'there's more where that came from' implication."
+        },
+        {
+          "id": "shi_q7",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair for: 雨[あめ]___、寒[さむ]い___、今日[きょう]は出[で]かけたくない。(It's raining and cold, so I don't want to go out.)",
+          "japanese": "雨[あめ]___、寒[さむ]い___、今日[きょう]は出[で]かけたくない。",
+          "choices": [
+            "のに、のに",
+            "なし、なし",
+            "だし、し",
+            "から、し"
+          ],
+          "correctIndex": 2,
+          "explanation": "雨[あめ] is a noun → 雨[あめ]だし (noun + だし). 寒[さむ]い is an い-adjective → 寒[さむ]いし (plain form + し, no だ needed). Together: 雨[あめ]だし、寒[さむ]いし ✓. のに = 'even though.' なし = 'without' (unrelated word). から + し mixes reason patterns awkwardly and doesn't reflect the parallel structure し creates."
+        },
+        {
+          "id": "shi_q8",
+          "type": "translation",
+          "prompt": "How do you say 'He's smart and on top of that he's kind, so everyone likes him' using し?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は頭[あたま]がいいのに、優[やさ]しいから、みんなに好[す]かれています。",
+            "彼[かれ]は頭[あたま]がいいて、優[やさ]しくて、みんなに好[す]かれています。",
+            "彼[かれ]は頭[あたま]がよくて、優[やさ]しいのに、みんなに好[す]かれています。",
+            "彼[かれ]は頭[あたま]がいいし、優[やさ]しいし、みんなに好[す]かれています。"
+          ],
+          "correctIndex": 3,
+          "explanation": "頭[あたま]がいいし、優[やさ]しいし + conclusion みんなに好[す]かれています ✓. し stacks multiple positive qualities, implying more exist, then leads to the natural conclusion. て-form lists (頭[あたま]がよくて、優[やさ]しくて) also works but lacks し's 'and there's more' nuance. のに = 'even though' (contradicts the positive conclusion)."
+        },
+        {
+          "id": "shi_q9",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair: このアパートは安[やす]い___、駅[えき]から近[ちか]い___、とても気[き]に入[い]っています。(This apartment is cheap and close to the station, so I really like it.)",
+          "japanese": "このアパートは安[やす]い___、駅[えき]から近[ちか]い___、とても気[き]に入[い]っています。",
+          "choices": [
+            "し、し",
+            "て、て",
+            "から、のに",
+            "のに、けど"
+          ],
+          "correctIndex": 0,
+          "explanation": "安[やす]いし, 近[ちか]いし (both い-adjectives + し) stacks two positive reasons → conclusion 気[き]に入[い]っています ✓. し implies 'and there are other good points too.' て-form (安[やす]くて、近[ちか]くて) also lists but without the cumulative reason feel. から once is for one cause; のに/けど = contradictory or adversative."
+        },
+        {
+          "id": "shi_q10",
+          "type": "usage",
+          "prompt": "In '彼女[かのじょ]は歌[うた]が上手[うま]いし、ダンスも上手[うま]いし', what does し imply about her talents?",
+          "japanese": "彼女[かのじょ]は歌[うた]が上手[うま]いし、ダンスも上手[うま]いし",
+          "choices": [
+            "These are the only two talents she has",
+            "There may be other talents beyond singing and dancing",
+            "The speaker disapproves of these talents",
+            "し indicates a contrast between singing and dancing"
+          ],
+          "correctIndex": 1,
+          "explanation": "し is non-exhaustive — listing qualities with し signals 'and there are more.' The speaker is giving examples of her talents, not claiming these are all of them. This is a key conversational quality of し: it sounds natural precisely because it leaves the list open. If you wanted to say 'only these two,' you would use different grammar (だけ, しか, etc.)."
+        },
+        {
+          "id": "shi_q11",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair: 仕事[しごと]は楽[たの]しい___、給料[きゅうりょう]も高[たか]い___、最高[さいこう]です！(The work is fun, the pay is good — it's the best!)",
+          "japanese": "仕事[しごと]は楽[たの]しい___、給料[きゅうりょう]も高[たか]い___、最高[さいこう]です！",
+          "choices": [
+            "て、て",
+            "のに、のに",
+            "し、し",
+            "ので、ので"
+          ],
+          "correctIndex": 2,
+          "explanation": "楽[たの]しいし, 高[たか]いし (both い-adjectives + し) stacks both reasons → conclusion 最高[さいこう]です ✓. し implies 'and there are other good aspects too.' て (楽[たの]しくて、高[たか]くて) also lists but without the cumulative reason-building feel. のに = 'even though' (contradicts 最高[さいこう]). ので twice is extremely unnatural for this kind of stacking."
+        },
+        {
+          "id": "shi_q12",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair: あの映画[えいが]は面白[おもしろ]い___、感動的[かんどうてき]___、絶対[ぜったい]見[み]るべきです。(That movie is interesting and moving, so you should definitely see it.)",
+          "japanese": "あの映画[えいが]は面白[おもしろ]い___、感動的[かんどうてき]___、絶対[ぜったい]見[み]るべきです。",
+          "choices": [
+            "し、なのに",
+            "て、のに",
+            "から、から",
+            "し、だし"
+          ],
+          "correctIndex": 3,
+          "explanation": "面白[おもしろ]い (i-adj) + し = 面白[おもしろ]いし. 感動的[かんどうてき] (na-adj) + だし = 感動的[かんどうてき]だし ✓. The first blank takes し (after i-adj plain form) and the second takes だし (after na-adj stem). から twice = unnatural stacking. て/のに give wrong nuances."
+        },
+        {
+          "id": "shi_q13",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses し for listing a single reason (with the conclusion left implied)?",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]は疲[つか]れているし、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているしても、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているのし、家[いえ]にいたい。",
+            "今日[きょう]は疲[つか]れているにし、家[いえ]にいたい。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plain-form verb + し: 疲[つか]れているし ✓. Even a single し can imply 'and there are other reasons too.' 疲[つか]れているし + 家[いえ]にいたい reads naturally: 'I'm tired (and more), so I want to stay home.' しても = 'even if.' のし and にし are not valid formations."
+        },
+        {
+          "id": "shi_q14",
+          "type": "translation",
+          "prompt": "How do you say 'It's raining and it's also cold, so I want to stay home' using し?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]だし、寒[さむ]いのに、家[いえ]にいたい。",
+            "雨[あめ]だし、寒[さむ]いし、家[いえ]にいたい。",
+            "雨[あめ]なのに、寒[さむ]いけど、家[いえ]にいたい。",
+            "雨[あめ]だから、寒[さむ]いので、家[いえ]にいたい。"
+          ],
+          "correctIndex": 1,
+          "explanation": "雨[あめ]だし (noun + だし) + 寒[さむ]いし (i-adj + し) → 家[いえ]にいたい ✓. し stacks both weather-related reasons for wanting to stay home. のに = 'even though' (contradicts). なのに = same. だから + ので both mean 'because' and feel awkward stacked together."
+        },
+        {
+          "id": "shi_q15",
+          "type": "usage",
+          "prompt": "Which sentence uses し correctly with a negative clause?",
+          "japanese": null,
+          "choices": [
+            "お金[かね]がないから、高[たか]い店[みせ]には行[い]きたくない。",
+            "お金[かね]があるのに、高[たか]い店[みせ]には行[い]きたくない。",
+            "お金[かね]もないし、時間[じかん]もないし、無理[むり]です。",
+            "お金[かね]なし、時間[じかん]なし、無理[むり]です。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ないし = negative plain form + し ✓. お金[かね]もないし、時間[じかん]もないし lists two negative reasons (no money, no time) → conclusion 無理[むり]です. This is a natural use of し for stacking negatives. お金[かね]なし = 'without money' (archaic/different expression). のに = contradictory. から introduces one cause, not a stacked list."
+        },
+        {
+          "id": "shi_q16",
+          "type": "translation",
+          "prompt": "How do you say 'The new employee is diligent and moreover is always punctual, so the manager praises her' using し?",
+          "japanese": null,
+          "choices": [
+            "新入社員[しんにゅうしゃいん]は真面目[まじめ]て、時間[じかん]も正確[せいかく]て、部長[ぶちょう]に褒[ほ]められています。",
+            "新入社員[しんにゅうしゃいん]は真面目[まじめ]のに、時間[じかん]も正確[せいかく]だし、部長[ぶちょう]に褒[ほ]められています。",
+            "新入社員[しんにゅうしゃいん]は真面目[まじめ]なのに、時間[じかん]も正確[せいかく]だから、部長[ぶちょう]に褒[ほ]められています。",
+            "新入社員[しんにゅうしゃいん]は真面目[まじめ]だし、時間[じかん]も正確[せいかく]だし、部長[ぶちょう]に褒[ほ]められています。"
+          ],
+          "correctIndex": 3,
+          "explanation": "真面目[まじめ] (na-adj) + だし = 真面目[まじめ]だし. 正確[せいかく] (na-adj) + だし = 正確[せいかく]だし ✓. Stacks two qualities → conclusion 部長[ぶちょう]に褒[ほ]められています. て-form for na-adj requires で (真面目[まじめ]で), not て directly. のに/なのに = contradictory. だから = 'because,' not for stacking parallel qualities."
+        },
+        {
+          "id": "shi_q17",
+          "type": "usage",
+          "prompt": "When し is used to list reasons with no explicit conclusion stated, what does it signal?",
+          "japanese": null,
+          "choices": [
+            "The conclusion is clear from context; listeners infer it from the accumulating reasons",
+            "There is no conclusion possible — し cannot lead to conclusions",
+            "The reasons listed are contradictory",
+            "し can never be used without an explicit main clause conclusion"
+          ],
+          "correctIndex": 0,
+          "explanation": "し allows the conclusion to be left unstated. By piling up reasons with し, the speaker signals 'given all this, the outcome is obvious.' The listener completes the inference. This is a key conversational strength of し — it trusts the listener. E.g., 疲[つか]れているし、眠[ねむ]いし… leaves 'I don't want to go out' for the listener to supply."
+        },
+        {
+          "id": "shi_q18",
+          "type": "fillBlank",
+          "prompt": "Choose the correct pair: この町[まち]は静[しず]か___、空気[くうき]もきれい___、住[す]みやすいです。(This town is quiet and the air is clean, so it's easy to live here.)",
+          "japanese": "この町[まち]は静[しず]か___、空気[くうき]もきれい___、住[す]みやすいです。",
+          "choices": [
+            "なのに、なのに",
+            "だし、だし",
+            "のに、のに",
+            "て、て"
+          ],
+          "correctIndex": 1,
+          "explanation": "静[しず]か (na-adj) + だし = 静[しず]かだし. きれい (na-adj) + だし = きれいだし ✓. Both are na-adjectives requiring だし. だし twice stacks the positive qualities as reasons for 住[す]みやすいです. のに/なのに = 'even though' (contradicts). て requires で for na-adjectives (静[しず]かで、きれいで), not て directly."
+        },
+        {
+          "id": "shi_q19",
+          "type": "usage",
+          "prompt": "Which statement accurately compares し with から?",
+          "japanese": null,
+          "choices": [
+            "から lists multiple reasons; し states only one definitive cause",
+            "Both し and から are fully interchangeable for reasons",
+            "し implies a non-exhaustive, cumulative list; から focuses on one direct cause",
+            "から is informal; し is only for formal writing"
+          ],
+          "correctIndex": 2,
+          "explanation": "から singles out one cause and draws a direct conclusion: 疲[つか]れたから、帰[かえ]ります ('Because I'm tired, I'll go home'). し stacks multiple contributing factors and implies there are even more: 疲[つか]れているし、寒[さむ]いし、帰[かえ]りたい. You can use し to build a case from several angles; から is more focused and direct."
+        },
+        {
+          "id": "shi_q20",
+          "type": "translation",
+          "prompt": "How do you say 'The hotel is cheap and the location is also convenient, so let's stay there' using し?",
+          "japanese": null,
+          "choices": [
+            "ホテルは安[やす]くて、場所[ばしょ]も便利[べんり]で、泊[と]まりましょう。",
+            "ホテルは安[やす]いのに、場所[ばしょ]も便利[べんり]だから、泊[と]まりましょう。",
+            "ホテルは安[やす]いから、場所[ばしょ]も便利[べんり]だのに、泊[と]まりましょう。",
+            "ホテルは安[やす]いし、場所[ばしょ]も便利[べんり]だし、泊[と]まりましょう。"
+          ],
+          "correctIndex": 3,
+          "explanation": "安[やす]いし (i-adj + し) + 便利[べんり]だし (na-adj + だし) + conclusion 泊[と]まりましょう ✓. し stacks both positive reasons with the implicit 'and it has other good points too.' て-form (安[やす]くて、便利[べんり]で) also lists but lacks the cumulative reason-stacking feel of し. のに/だのに = contradictory nuance."
+        }
+      ]
+    },
+    {
+      "id": "te-miru",
+      "name": "〜てみる (te miru) — try doing",
+      "shortDescription": "Expresses trying something out or doing it experimentally — 'try doing X to see what it's like.'",
+      "formation": "Verb (て-form) + みる / みます",
+      "explanation": "〜てみる is the grammar of curiosity and experiment. The みる here is literally the verb みる (to see/look), so the full meaning is 'do it and see' — try it out and find out what happens. That 'see' nuance is the key: you're not just doing something, you're doing it to observe the result.\n\n食[た]べました means 'I ate.' 食[た]べてみました means 'I tried eating it' — with the implied 'to see what it was like.' The difference is subtle but very real: the second version carries a sense of experiment, curiosity, or tentative exploration that the plain past does not.\n\nFormation: て-form of any verb + みる. Since みる is a Group 2 verb, the combination conjugates entirely through みる: 食[た]べてみます (polite present), 食[た]べてみました (past), 食[た]べてみている (is/has been trying it), 食[た]べてみてください (please try eating this).\n\n〜てみてください is an excellent way to make a warm suggestion or invitation: 'Please give this a try.' It's far gentler than a bare command and sounds naturally encouraging. Similarly, 〜てみませんか ('Won't you try doing X?') is a friendly way to invite someone to experiment alongside you.",
+      "rules": [
+        "Verb (て-form) + みる = 'try doing X to see how it goes / do X experimentally'",
+        "Carries a nuance of curiosity or experiment — doing something to observe the result",
+        "Conjugates through みる (a Group 2 verb): てみます, てみました, てみている, てみてください",
+        "Suggestion/invitation: 〜てみてください (please try X) or 〜てみませんか (won't you try X?)",
+        "Distinct from just doing the verb — てみる always adds the 'let's see what happens' nuance"
+      ],
+      "examples": [
+        {
+          "japanese": "この料理[りょうり]を食[た]べてみてください。",
+          "romaji": "Kono ryouri wo tabete mite kudasai.",
+          "english": "Please try eating this dish."
+        },
+        {
+          "japanese": "新[あたら]しいレストランに行[い]ってみましょう。",
+          "romaji": "Atarashii resutoran ni itte mimashou.",
+          "english": "Let's try going to the new restaurant."
+        },
+        {
+          "japanese": "日本語[にほんご]で話[はな]してみましたが、うまくできませんでした。",
+          "romaji": "Nihongo de hanashite mimashita ga, umaku dekimasen deshita.",
+          "english": "I tried speaking in Japanese, but I couldn't do it well."
+        },
+        {
+          "japanese": "一度[いちど]やってみれば、きっとできますよ。",
+          "romaji": "Ichido yatte mireba, kitto dekimasu yo.",
+          "english": "If you try it once, I'm sure you'll be able to do it."
+        }
+      ],
+      "flashcardHeader": "〜てみる",
+      "flashcardAnswer": "Expresses trying something out experimentally — 'try doing X to see what it's like.'",
+      "practice": [
+        {
+          "id": "te-miru_q1",
+          "type": "translation",
+          "prompt": "How do you say 'Please try eating this dish'?",
+          "japanese": null,
+          "choices": [
+            "この料理[りょうり]を食[た]べてみてください。",
+            "この料理[りょうり]を食[た]べみてください。",
+            "この料理[りょうり]を食[た]べてもいいですか。",
+            "この料理[りょうり]を食[た]べてしまってください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "て-form of 食[た]べる (食[た]べて) + みてください = 食[た]べてみてください = 'please try eating' ✓. 食[た]べみてください omits the て (wrong — みる must follow the て-form). てもいいですか = 'Is it okay to eat?' (permission, not trying). てしまってください = 'please finish eating' (completion, not experimentation)."
+        },
+        {
+          "id": "te-miru_q2",
+          "type": "fillBlank",
+          "prompt": "Choose the correct masu-stem of てみる: 日本語[にほんご]で___ましたが、うまくできませんでした。(I tried speaking in Japanese, but I couldn't do it well.)",
+          "japanese": "日本語[にほんご]で___ましたが、うまくできませんでした。",
+          "choices": [
+            "話[はな]してしまい",
+            "話[はな]してみ",
+            "話[はな]しみ",
+            "話[はな]してい"
+          ],
+          "correctIndex": 1,
+          "explanation": "話[はな]す → て-form 話[はな]して + みる → 話[はな]してみる. The masu-stem for てみる is 話[はな]してみ, giving 話[はな]してみました ✓ = 'tried speaking.' 話[はな]してしまい = 'ended up speaking' (てしまう — accidental/unfortunate nuance). 話[はな]しみ is missing the て (te-form is required before みる). 話[はな]してい = テ形[かたち] + いる stem (different continuation)."
+        },
+        {
+          "id": "te-miru_q3",
+          "type": "usage",
+          "prompt": "What does 食[た]べてみましたか mean?",
+          "japanese": null,
+          "choices": [
+            "Did you finish eating?",
+            "Were you eating?",
+            "Did you try eating it?",
+            "Do you want to eat?"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べて (て-form) + みる → 食[た]べてみる = 'try eating (to see what it's like).' Past polite question: 食[た]べてみましたか = 'Did you try eating it?' みる adds the experimental 'to see' nuance. Not about finishing (てしまう), being in process (ている), or desire (たい)."
+        },
+        {
+          "id": "te-miru_q4",
+          "type": "translation",
+          "prompt": "How do you say 'I want to try going to Japan'?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]に行[い]ってみてください。",
+            "日本[にほん]に行[い]きたいです。",
+            "日本[にほん]に行[い]くことを試[こころ]みます。",
+            "日本[にほん]に行[い]ってみたいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "行[い]く → て-form 行[い]って + みたい = 行[い]ってみたい. Polite: 行[い]ってみたいです = 'I want to try going' ✓. 行[い]きたいです = 'I want to go' (no experimental/curious nuance). 行[い]ってみてください = 'please try going' (directed at listener). 試[こころ]みます = 'attempt' (different word with different nuance, more formal)."
+        },
+        {
+          "id": "te-miru_q5",
+          "type": "translation",
+          "prompt": "How do you say 'Let's try going to the new restaurant'?",
+          "japanese": null,
+          "choices": [
+            "新[あたら]しいレストランに行[い]ってみましょう。",
+            "新[あたら]しいレストランに行[い]きましょう。",
+            "新[あたら]しいレストランに行[い]ってしまいましょう。",
+            "新[あたら]しいレストランに行[い]ってみてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "行[い]って + みましょう = 行[い]ってみましょう = 'Let's try going (to see what it's like)' ✓. 行[い]きましょう = 'Let's go' (no experimental nuance). てしまいましょう = 'let's go and get it done' (completion or resignation nuance). てみてください = 'please try going' (directed at listener, not a joint proposal)."
+        },
+        {
+          "id": "te-miru_q6",
+          "type": "usage",
+          "prompt": "How does てみる differ from ようとする?",
+          "japanese": null,
+          "choices": [
+            "てみる implies the action succeeded; ようとする implies it failed",
+            "てみる = try experimentally to see how it goes; ようとする = attempt (may be effortful or incomplete)",
+            "ようとする is for Group 2 verbs only; てみる is for all verb groups",
+            "Both are completely interchangeable"
+          ],
+          "correctIndex": 1,
+          "explanation": "てみる = doing something out of curiosity or to see what happens: 食[た]べてみた = 'I tried eating (to see what it was like).' ようとする = making an attempt, often suggesting effort or an incomplete action: 食[た]べようとしたが食[た]べられなかった = 'I tried to eat but couldn't.' てみる focuses on experimentation; ようとする focuses on the attempt itself, especially when it struggles or fails."
+        },
+        {
+          "id": "te-miru_q7",
+          "type": "usage",
+          "prompt": "Which correctly builds てみる for the verb 書[か]く (to write)?",
+          "japanese": null,
+          "choices": [
+            "書[か]きてみます",
+            "書[か]いみます",
+            "書[か]いてみます",
+            "書[か]くてみます"
+          ],
+          "correctIndex": 2,
+          "explanation": "書[か]く → て-form 書[か]いて + みます = 書[か]いてみます ✓. The て-form of 書[か]く is 書[か]いて (k-sound drops, い is inserted: く → い + て). 書[か]きてみます uses the masu-stem (書[か]き) instead of the te-form — wrong. 書[か]いみます omits て. 書[か]くてみます uses the dictionary form before てみます."
+        },
+        {
+          "id": "te-miru_q8",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: この新[あたら]しいアプリを___てください。(Please try using this new app.)",
+          "japanese": "この新[あたら]しいアプリを___てください。",
+          "choices": [
+            "使[つか]いてみ",
+            "使[つか]うみ",
+            "使[つか]みて",
+            "使[つか]ってみ"
+          ],
+          "correctIndex": 3,
+          "explanation": "使[つか]う → て-form 使[つか]って + みてください = 使[つか]ってみてください ✓. The blank is 使[つか]ってみ (+ てください). 使[つか]いてみ uses the masu-stem (使[つか]い) instead of the te-form. 使[つか]うみ omits て entirely. 使[つか]みて is not a valid form of 使[つか]う."
+        },
+        {
+          "id": "te-miru_q9",
+          "type": "translation",
+          "prompt": "How do you say 'I tried cooking Japanese food'?",
+          "japanese": null,
+          "choices": [
+            "日本料理[にほんりょうり]を作[つく]ってみました。",
+            "日本料理[にほんりょうり]を作[つく]りみました。",
+            "日本料理[にほんりょうり]を作[つく]ってしまいました。",
+            "日本料理[にほんりょうり]を作[つく]ってみていました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "作[つく]る → て-form 作[つく]って + みる → 作[つく]ってみました = 'tried cooking (to see how it went)' ✓. 作[つく]りみました is missing て (the te-form is required). てしまいました = 'ended up cooking / accidentally cooked' (different, often regretful nuance). 作[つく]ってみていました = 'was in the middle of trying' (continuous — less natural for a completed experiment)."
+        },
+        {
+          "id": "te-miru_q10",
+          "type": "translation",
+          "prompt": "How do you say 'My friend tried speaking Japanese'?",
+          "japanese": null,
+          "choices": [
+            "友達[ともだち]は日本語[にほんご]を話[はな]してしまいました。",
+            "友達[ともだち]は日本語[にほんご]を話[はな]してみました。",
+            "友達[ともだち]は日本語[にほんご]を話[はな]してみましょう。",
+            "友達[ともだち]は日本語[にほんご]を話[はな]してみたいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "話[はな]す → て-form 話[はな]して + みる → 話[はな]してみました = 'tried speaking (to see how it went)' ✓. てしまいました = 'ended up speaking' (accidental or regret nuance). てみましょう = 'let's try' (suggestion, not past fact about a third person). てみたいです = 'wants to try' (desire, not past action)."
+        },
+        {
+          "id": "te-miru_q11",
+          "type": "usage",
+          "prompt": "How do you say 'I am currently trying a new diet' using てみる?",
+          "japanese": null,
+          "choices": [
+            "新[あたら]しいダイエットを試[こころ]みてします。",
+            "新[あたら]しいダイエットを試[こころ]みっています。",
+            "新[あたら]しいダイエットをしてみています。",
+            "新[あたら]しいダイエットをしてしまいます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "する → て-form して + みる → してみる → currently: してみている → polite: してみています ✓. The irregular te-form of する is して. 試[こころ]みてします is not a valid construction. 試[こころ]みっています incorrectly conjugates 試[こころ]みる. てしまいます = 'will end up doing/doing completely' (different meaning, no experimental nuance)."
+        },
+        {
+          "id": "te-miru_q12",
+          "type": "usage",
+          "prompt": "Which sentence uses the negative form of てみる most naturally?",
+          "japanese": null,
+          "choices": [
+            "この映画[えいが]は見[み]てしまいませんでした。",
+            "この映画[えいが]はまだ見[み]ません。",
+            "この映画[えいが]は見[み]てみることができませんでした。",
+            "この映画[えいが]はまだ見[み]てみていません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "見[み]てみていません = negative of てみている, 'haven't tried watching yet' ✓. まだ〜ていません = 'haven't yet' — adds experimental nuance with てみて. まだ見[み]ません = 'don't watch yet' (habitual negative, no experimental nuance). てしまいませんでした = 'didn't finish/accidentally not watch.' 見[み]てみることができませんでした = 'was unable to try watching' (different construction, different meaning)."
+        },
+        {
+          "id": "te-miru_q13",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: 一度[いちど]やって___。きっとできますよ。(Try doing it once. I'm sure you'll be able to.)",
+          "japanese": "一度[いちど]やって___。きっとできますよ。",
+          "choices": [
+            "みれば",
+            "みました",
+            "みろ",
+            "みたい"
+          ],
+          "correctIndex": 0,
+          "explanation": "やってみれば = てみる in conditional ば-form: 'if you try doing it (once)' ✓. The sentence means 'if you just try, I'm sure you can do it' — the ば conditional is perfect here. みました = past (doesn't fit the forward-looking encouragement). みろ = plain imperative (too abrupt here). みたい = 'want to try' (desire, not conditional)."
+        },
+        {
+          "id": "te-miru_q14",
+          "type": "translation",
+          "prompt": "How do you say 'Won't you try using chopsticks?' (polite invitation)?",
+          "japanese": null,
+          "choices": [
+            "お箸[はし]を使[つか]ってみてください。",
+            "お箸[はし]を使[つか]ってみませんか。",
+            "お箸[はし]を使[つか]ってみましょうか。",
+            "お箸[はし]を使[つか]いみてください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "使[つか]ってみませんか = て-form + みる + negative question = 'Won't you try using?' ✓. This is a polite, friendly invitation to try something. てみてください = 'please try using' (more directive). てみましょうか = 'Shall we try?' (includes the speaker). 使[つか]いみてください uses the masu-stem instead of te-form (wrong)."
+        },
+        {
+          "id": "te-miru_q15",
+          "type": "usage",
+          "prompt": "Which correctly uses てみる with the irregular verb くる (to come)?",
+          "japanese": null,
+          "choices": [
+            "くみてください",
+            "くるてみてください",
+            "きてみてください",
+            "こてみてください"
+          ],
+          "correctIndex": 2,
+          "explanation": "くる is irregular: て-form is きて. きて + みてください = きてみてください = 'please try coming' ✓. くるてみてください uses the dictionary form before てみて (wrong — te-form is required). くみてください and こてみてください are not valid te-forms of くる."
+        },
+        {
+          "id": "te-miru_q16",
+          "type": "translation",
+          "prompt": "How do you say 'She tried using the new software but said it was complicated'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は新[あたら]しいソフトを使[つか]ってしまいました。",
+            "彼女[かのじょ]は新[あたら]しいソフトを使[つか]ってみるつもりです。",
+            "彼女[かのじょ]は新[あたら]しいソフトを使[つか]ってもいいですと言[い]いました。",
+            "彼女[かのじょ]は新[あたら]しいソフトを使[つか]ってみましたが、複雑[ふくざつ]だと言[い]いました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "使[つか]ってみました (tried using) + が (but) + 複雑[ふくざつ]だと言[い]いました (said it was complicated) ✓. てしまいました = 'ended up using' (accidental nuance, no experimental feel). てみるつもりです = 'intends to try' (future plan). てもいいですと言[い]いました = 'said it's okay to use' (permission)."
+        },
+        {
+          "id": "te-miru_q17",
+          "type": "usage",
+          "prompt": "What is the most common mistake learners make with てみる?",
+          "japanese": null,
+          "choices": [
+            "Using the dictionary form directly before みる (e.g., 食[た]べるみる) instead of the te-form (食[た]べてみる)",
+            "Placing the te-form before みる",
+            "Making みる negative: 食[た]べてみない",
+            "Applying てみる to する verbs"
+          ],
+          "correctIndex": 0,
+          "explanation": "The most common error is using the dictionary form (食[た]べるみる) or the masu-stem (食[た]べみる) instead of correctly using the te-form: 食[た]べてみる ✓. The て-form is always required — みる never directly follows a dictionary form or masu-stem. Making てみる negative (食[た]べてみない) is perfectly correct grammar."
+        },
+        {
+          "id": "te-miru_q18",
+          "type": "translation",
+          "prompt": "How do you say 'I tried drinking green tea for the first time'?",
+          "japanese": null,
+          "choices": [
+            "初[はじ]めてお茶[ちゃ]を飲[の]んでしまいました。",
+            "初[はじ]めてお茶[ちゃ]を飲[の]んでみました。",
+            "初[はじ]めてお茶[ちゃ]を飲[の]みました。",
+            "初[はじ]めてお茶[ちゃ]を飲[の]んでみましょう。"
+          ],
+          "correctIndex": 1,
+          "explanation": "飲[の]む → て-form 飲[の]んで + みる → 飲[の]んでみました = 'tried drinking for the first time (to see what it was like)' ✓. てしまいました = 'ended up drinking' (accidental/completion nuance). 飲[の]みました = 'drank' (simple past, no experimental nuance). 飲[の]んでみましょう = 'let's try drinking' (suggestion, not past)."
+        },
+        {
+          "id": "te-miru_q19",
+          "type": "fillBlank",
+          "prompt": "Choose the correct form: 新[あたら]しいルートで___、思[おも]ったより早[はや]く着[つ]きました。(I tried taking a new route and arrived faster than expected.)",
+          "japanese": "新[あたら]しいルートで___、思[おも]ったより早[はや]く着[つ]きました。",
+          "choices": [
+            "行[い]っみたら",
+            "行[い]くてみたら",
+            "行[い]ってみたら",
+            "行[い]ってしまったら"
+          ],
+          "correctIndex": 2,
+          "explanation": "行[い]く → て-form 行[い]って + みる → 行[い]ってみたら = 'when I tried going (and found that...)' ✓. The みたら conditional = 'tried it and then discovered.' 行[い]っみたら = missing て (wrong). 行[い]くてみたら uses dictionary form before てみたら (wrong — te-form required). 行[い]ってしまったら = 'if you end up going' (accidental/regret nuance, not experimental)."
+        },
+        {
+          "id": "te-miru_q20",
+          "type": "translation",
+          "prompt": "How do you say 'I want to try speaking Japanese with a Japanese person'?",
+          "japanese": null,
+          "choices": [
+            "日本人[にほんじん]と日本語[にほんご]で話[はな]したいです。",
+            "日本人[にほんじん]と日本語[にほんご]で話[はな]すつもりです。",
+            "日本人[にほんじん]と日本語[にほんご]で話[はな]してみてください。",
+            "日本人[にほんじん]と日本語[にほんご]で話[はな]してみたいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "話[はな]す → て-form 話[はな]して + みたい → 話[はな]してみたい. Polite: 話[はな]してみたいです = 'want to try speaking (to see how it goes)' ✓. 話[はな]したいです = 'want to speak' (no experimental nuance). 話[はな]すつもりです = 'intend to speak' (plan, not curious desire to try). 話[はな]してみてください = 'please try speaking' (directed at listener, not expressing the speaker's own desire)."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch13_v01",
+      "partOfSpeech": "noun",
+      "kanji": "体",
+      "kana": "からだ",
+      "romaji": "karada",
+      "definition": "body"
+    },
+    {
+      "id": "ch13_v02",
+      "partOfSpeech": "noun",
+      "kanji": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "definition": "head"
+    },
+    {
+      "id": "ch13_v03",
+      "partOfSpeech": "noun",
+      "kanji": "顔",
+      "kana": "かお",
+      "romaji": "kao",
+      "definition": "face"
+    },
+    {
+      "id": "ch13_v04",
+      "partOfSpeech": "noun",
+      "kanji": "目",
+      "kana": "め",
+      "romaji": "me",
+      "definition": "eye"
+    },
+    {
+      "id": "ch13_v05",
+      "partOfSpeech": "noun",
+      "kanji": "耳",
+      "kana": "みみ",
+      "romaji": "mimi",
+      "definition": "ear"
+    },
+    {
+      "id": "ch13_v06",
+      "partOfSpeech": "noun",
+      "kanji": "鼻",
+      "kana": "はな",
+      "romaji": "hana",
+      "definition": "nose"
+    },
+    {
+      "id": "ch13_v07",
+      "partOfSpeech": "noun",
+      "kanji": "口",
+      "kana": "くち",
+      "romaji": "kuchi",
+      "definition": "mouth"
+    },
+    {
+      "id": "ch13_v08",
+      "partOfSpeech": "noun",
+      "kanji": "歯",
+      "kana": "は",
+      "romaji": "ha",
+      "definition": "tooth"
+    },
+    {
+      "id": "ch13_v09",
+      "partOfSpeech": "noun",
+      "kanji": "首",
+      "kana": "くび",
+      "romaji": "kubi",
+      "definition": "neck"
+    },
+    {
+      "id": "ch13_v10",
+      "partOfSpeech": "noun",
+      "kanji": "肩",
+      "kana": "かた",
+      "romaji": "kata",
+      "definition": "shoulder"
+    },
+    {
+      "id": "ch13_v11",
+      "partOfSpeech": "noun",
+      "kanji": "腕",
+      "kana": "うで",
+      "romaji": "ude",
+      "definition": "arm"
+    },
+    {
+      "id": "ch13_v12",
+      "partOfSpeech": "noun",
+      "kanji": "手",
+      "kana": "て",
+      "romaji": "te",
+      "definition": "hand"
+    },
+    {
+      "id": "ch13_v13",
+      "partOfSpeech": "noun",
+      "kanji": "指",
+      "kana": "ゆび",
+      "romaji": "yubi",
+      "definition": "finger"
+    },
+    {
+      "id": "ch13_v14",
+      "partOfSpeech": "noun",
+      "kanji": "足",
+      "kana": "あし",
+      "romaji": "ashi",
+      "definition": "foot; leg"
+    },
+    {
+      "id": "ch13_v15",
+      "partOfSpeech": "noun",
+      "kanji": "背中",
+      "kana": "せなか",
+      "romaji": "senaka",
+      "definition": "back (of the body)"
+    },
+    {
+      "id": "ch13_v16",
+      "partOfSpeech": "noun",
+      "kanji": "胸",
+      "kana": "むね",
+      "romaji": "mune",
+      "definition": "chest"
+    },
+    {
+      "id": "ch13_v17",
+      "partOfSpeech": "noun",
+      "kanji": "お腹",
+      "kana": "おなか",
+      "romaji": "onaka",
+      "definition": "stomach; belly"
+    },
+    {
+      "id": "ch13_v18",
+      "partOfSpeech": "noun",
+      "kanji": "髪",
+      "kana": "かみ",
+      "romaji": "kami",
+      "definition": "hair"
+    },
+    {
+      "id": "ch13_v19",
+      "partOfSpeech": "noun",
+      "kanji": "血",
+      "kana": "ち",
+      "romaji": "chi",
+      "definition": "blood"
+    },
+    {
+      "id": "ch13_v20",
+      "partOfSpeech": "noun",
+      "kanji": "骨",
+      "kana": "ほね",
+      "romaji": "hone",
+      "definition": "bone"
+    },
+    {
+      "id": "ch13_v21",
+      "partOfSpeech": "noun",
+      "kanji": "病気",
+      "kana": "びょうき",
+      "romaji": "byouki",
+      "definition": "illness"
+    },
+    {
+      "id": "ch13_v22",
+      "partOfSpeech": "noun",
+      "kanji": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "definition": "a cold (illness)"
+    },
+    {
+      "id": "ch13_v23",
+      "partOfSpeech": "noun",
+      "kanji": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "definition": "fever"
+    },
+    {
+      "id": "ch13_v24",
+      "partOfSpeech": "noun",
+      "kanji": "咳",
+      "kana": "せき",
+      "romaji": "seki",
+      "definition": "cough"
+    },
+    {
+      "id": "ch13_v25",
+      "partOfSpeech": "noun",
+      "kanji": "怪我",
+      "kana": "けが",
+      "romaji": "kega",
+      "definition": "injury"
+    },
+    {
+      "id": "ch13_v26",
+      "partOfSpeech": "noun",
+      "kanji": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "definition": "medicine"
+    },
+    {
+      "id": "ch13_v27",
+      "partOfSpeech": "i-adjective",
+      "kanji": "痛い",
+      "kana": "いたい",
+      "romaji": "itai",
+      "definition": "painful"
+    },
+    {
+      "id": "ch13_v28",
+      "partOfSpeech": "verb",
+      "kanji": "治る",
+      "kana": "なおる",
+      "romaji": "naoru",
+      "definition": "to heal; to get better"
+    },
+    {
+      "id": "ch13_v29",
+      "partOfSpeech": "verb",
+      "kanji": "治す",
+      "kana": "なおす",
+      "romaji": "naosu",
+      "definition": "to cure; to fix"
+    },
+    {
+      "id": "ch13_v30",
+      "partOfSpeech": "verb",
+      "kanji": "疲れる",
+      "kana": "つかれる",
+      "romaji": "tsukareru",
+      "definition": "to get tired"
+    },
+    {
+      "id": "ch13_v31",
+      "partOfSpeech": "verb",
+      "kanji": "太る",
+      "kana": "ふとる",
+      "romaji": "futoru",
+      "definition": "to gain weight"
+    },
+    {
+      "id": "ch13_v32",
+      "partOfSpeech": "verb",
+      "kanji": "痩せる",
+      "kana": "やせる",
+      "romaji": "yaseru",
+      "definition": "to lose weight"
+    },
+    {
+      "id": "ch13_v33",
+      "partOfSpeech": "noun",
+      "kanji": "運動",
+      "kana": "うんどう",
+      "romaji": "undou",
+      "definition": "exercise"
+    },
+    {
+      "id": "ch13_v34",
+      "partOfSpeech": "noun",
+      "kanji": "健康",
+      "kana": "けんこう",
+      "romaji": "kenkou",
+      "definition": "health"
+    },
+    {
+      "id": "ch13_v35",
+      "partOfSpeech": "noun",
+      "kanji": "入院",
+      "kana": "にゅういん",
+      "romaji": "nyuuin",
+      "definition": "hospitalization"
+    },
+    {
+      "id": "ch13_v36",
+      "partOfSpeech": "noun",
+      "kanji": "注射",
+      "kana": "ちゅうしゃ",
+      "romaji": "chuusha",
+      "definition": "injection"
+    },
+    {
+      "id": "ch13_v37",
+      "partOfSpeech": "noun",
+      "kanji": "診察",
+      "kana": "しんさつ",
+      "romaji": "shinsatsu",
+      "definition": "medical examination"
+    },
+    {
+      "id": "ch13_v38",
+      "partOfSpeech": "noun",
+      "kanji": "体温",
+      "kana": "たいおん",
+      "romaji": "taion",
+      "definition": "body temperature"
+    },
+    {
+      "id": "ch13_v39",
+      "partOfSpeech": "noun",
+      "kanji": "具合",
+      "kana": "ぐあい",
+      "romaji": "guai",
+      "definition": "condition (of health)"
+    },
+    {
+      "id": "ch13_v40",
+      "partOfSpeech": "verb",
+      "kanji": "倒れる",
+      "kana": "たおれる",
+      "romaji": "taoreru",
+      "definition": "to collapse; to fall over"
+    }
+  ],
+  "kanji": [
+    "動",
+    "体",
+    "院",
+    "足",
+    "病",
+    "注",
+    "風",
+    "走",
+    "秋",
+    "肉",
+    "漢"
+  ]
+}

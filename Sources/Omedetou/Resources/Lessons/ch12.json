@@ -1,0 +1,2362 @@
+{
+  "id": "ch12",
+  "chapterNumber": 13,
+  "title": "Explanation, Advice, and Must",
+  "points": [
+    {
+      "id": "n-desu",
+      "name": "〜んです / 〜のです (explanatory form)",
+      "shortDescription": "Explains or seeks an explanation; adds a 'the thing is...' or 'it's that...' nuance.",
+      "formation": "Verb/い-adj (plain form) + んです  |  Noun/な-adj + な + んです",
+      "explanation": "んです (or のです, the slightly more formal version) is one of the most expressive and nuanced patterns in Japanese. It adds an 'explanation mode' to your sentence — a signal that you are offering context, background, or a reason. 頭[あたま]が痛[いた]いです is a neutral statement of fact: 'I have a headache.' 頭[あたま]が痛[いた]いんです carries a different weight: 'The thing is, I have a headache' — it implies you are explaining why you look unwell, why you cannot come, or why you need something. This warmth and connection is んです's superpower: it makes your speech feel collaborative rather than flat.\n\nWhen used in a question — 〜んですか — it asks for an explanation rather than a simple yes/no. どうして来[こ]なかったんですか (Why is it that you didn't come?) is softer and more personally engaged than どうして来[き]ませんでしたか.\n\nFormation: plain form verbs and い-adjectives attach んです directly. Nouns and な-adjectives need な before んです: 学生[がくせい]なんです, 便利[べんり]なんです.",
+      "rules": [
+        "Plain verb/い-adj + んです = explanation ('The thing is... / It's that...')",
+        "Noun / な-adj + な + んです (the な is required)",
+        "In questions: 〜んですか asks for an explanation, not just a fact",
+        "Softens and warms the interaction — makes statements feel personal and connected",
+        "んです is the casual contraction of のです; のです is more formal"
+      ],
+      "examples": [
+        {
+          "japanese": "実[じつ]は、明日[あした]は行[い]けないんです。",
+          "romaji": "Jitsu wa, ashita wa ikenai n desu.",
+          "english": "Actually, the thing is I can't go tomorrow."
+        },
+        {
+          "japanese": "どうして遅刻[ちこく]したんですか。",
+          "romaji": "Doushite chikoku shita n desu ka.",
+          "english": "Why were you late? (I'd like an explanation)"
+        },
+        {
+          "japanese": "頭[あたま]が痛[いた]いんです。だから今日[きょう]は早[はや]く帰[かえ]りたいんです。",
+          "romaji": "Atama ga itai n desu. Dakara kyou wa hayaku kaeritai n desu.",
+          "english": "The thing is, I have a headache. That's why I want to go home early today."
+        },
+        {
+          "japanese": "あの人[ひと]は先生[せんせい]なんですか。",
+          "romaji": "Ano hito wa sensei na n desu ka.",
+          "english": "Oh, is that person a teacher? (asking with interest/surprise)"
+        }
+      ],
+      "flashcardHeader": "〜んです / 〜のです",
+      "flashcardAnswer": "Explains or seeks an explanation; adds a 'the thing is...' or 'it's that...' nuance.",
+      "practice": [
+        {
+          "id": "n-desu_q1",
+          "type": "translation",
+          "prompt": "What nuance does this sentence carry?",
+          "japanese": "実[じつ]は、明日[あした]は行[い]けないんです。",
+          "choices": [
+            "The truth is I could go tomorrow.",
+            "Actually, the thing is I can't go tomorrow.",
+            "Tomorrow I definitely cannot go.",
+            "It seems I might not be able to go tomorrow."
+          ],
+          "correctIndex": 1,
+          "explanation": "んです adds an explanatory 'the thing is...' nuance — the speaker is sharing context or a reason, not just stating a fact. 実[じつ]は ('actually') reinforces this confessional tone. Option B is a plain, neutral statement. Option D implies uncertainty (かもしれない), which is not in this sentence."
+        },
+        {
+          "id": "n-desu_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank — nouns and な-adjectives require this word before んです.",
+          "japanese": "あの人[ひと]は学生[がくせい]___んですか。",
+          "choices": [
+            "の",
+            "が",
+            "で",
+            "な"
+          ],
+          "correctIndex": 3,
+          "explanation": "Nouns and な-adjectives require な before んです: 学生[がくせい]なんです, 便利[べんり]なんです. Plain verbs and い-adjectives attach んです directly. Omitting な (e.g., 学生[がくせい]んです) is a common learner error."
+        },
+        {
+          "id": "n-desu_q3",
+          "type": "construct",
+          "prompt": "How do you say 'The thing is, I have a headache' using んです?",
+          "japanese": null,
+          "choices": [
+            "頭[あたま]が痛[いた]いことです。",
+            "頭[あたま]が痛[いた]いです。",
+            "頭[あたま]が痛[いた]いんです。",
+            "頭[あたま]が痛[いた]いんでした。"
+          ],
+          "correctIndex": 2,
+          "explanation": "い-adjective (plain form) + んです adds the explanatory 'the thing is' nuance. 頭[あたま]が痛[いた]いんです = 'The thing is, my head hurts' — implying you are explaining why you look unwell or can't come. Option C (〜です) is a neutral factual statement with no explanatory weight."
+        },
+        {
+          "id": "n-desu_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "どうして遅刻[ちこく]したんですか。",
+          "choices": [
+            "Is it true that you were late?",
+            "Were you late again?",
+            "You were probably late, weren't you?",
+            "Why were you late? (I'd like an explanation)"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜んですか in a question asks for an explanation, not just a yes/no fact. どうして遅刻[ちこく]したんですか = 'Why is it that you were late? — please explain.' This is warmer and more personally engaged than どうして遅刻[ちこく]しましたか, which simply requests information."
+        },
+        {
+          "id": "n-desu_q5",
+          "type": "usage",
+          "prompt": "Which situation most naturally calls for using んです rather than a plain statement?",
+          "japanese": null,
+          "choices": [
+            "Announcing the weather forecast on television",
+            "Giving your name when you introduce yourself",
+            "Asking a stranger what time it is",
+            "Explaining to a coworker why you look pale today"
+          ],
+          "correctIndex": 3,
+          "explanation": "んです shines when providing personal context or background. Telling a coworker 'the thing is, I'm not feeling well' fits perfectly. Weather forecasts are neutral factual statements. Self-introductions and time queries don't need explanation mode."
+        },
+        {
+          "id": "n-desu_q6",
+          "type": "translation",
+          "prompt": "What nuance does たんです add in this sentence?",
+          "japanese": "実[じつ]は昨日[きのう]転[ころ]んで、膝[ひざ]を怪我[けが]したんです。",
+          "choices": [
+            "The speaker is explaining why they look hurt — 'the thing is, I fell and hurt my knee yesterday.'",
+            "The speaker is asking why they fell and hurt their knee.",
+            "The speaker is guessing they probably fell and hurt their knee.",
+            "The speaker is stating neutrally that they fell and hurt their knee."
+          ],
+          "correctIndex": 0,
+          "explanation": "Past plain form (怪我[けが]した) + んです signals 'I'm telling you this because it explains my current situation.' The speaker is giving background context — why they are limping or why they can't do something. This is the core use of 〜たんです: explaining a past event as relevant context."
+        },
+        {
+          "id": "n-desu_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank — choose the correct connector between this noun and んです.",
+          "japanese": "あの建物[たてもの]は病院[びょういん]___んですよ。",
+          "choices": [
+            "を",
+            "な",
+            "は",
+            "で"
+          ],
+          "correctIndex": 1,
+          "explanation": "Nouns require な before んです: 病院[びょういん] + な + んです = 病院[びょういん]なんですよ (the thing is, that building is a hospital). Omitting な (病院[びょういん]んですよ) is a common learner error. を, は, and で are particles with entirely different grammatical roles and cannot connect a noun to んです."
+        },
+        {
+          "id": "n-desu_q8",
+          "type": "usage",
+          "prompt": "You notice your coworker looks upset. Which sentence most naturally uses んですか to ask for an explanation and show personal concern?",
+          "japanese": null,
+          "choices": [
+            "何[なに]か問題[もんだい]ですか？",
+            "なぜ悲[かな]しいですか？",
+            "どうしたんですか？",
+            "何[なに]かあったですか？"
+          ],
+          "correctIndex": 2,
+          "explanation": "どうしたんですか is the classic 'what happened? (please explain)' — using んですか to invite an explanation while expressing genuine care. Plain どうしましたか is grammatically fine but less warm and engaged. 何[なに]か問題[もんだい]ですか is more abrupt. 何[なに]かあったですか is ungrammatical (あった cannot attach directly to ですか)."
+        },
+        {
+          "id": "n-desu_q9",
+          "type": "construct",
+          "prompt": "How do you say 'The thing is, this area is quiet' using な-adj + なんです?",
+          "japanese": null,
+          "choices": [
+            "この辺[へん]は静[しず]かです。",
+            "この辺[へん]は静[しず]かなです。",
+            "この辺[へん]は静[しず]かのんです。",
+            "この辺[へん]は静[しず]かなんです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "な-adjective + な + んです: 静[しず]か + な + んです = 静[しず]かなんです. Option A is a neutral factual statement with no explanatory nuance. Option B incorrectly attaches なです without the ん. Option C inserts の between な and んです, which is ungrammatical in this pattern."
+        },
+        {
+          "id": "n-desu_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "今日[きょう]は疲[つか]れているんです。だから、早[はや]く帰[かえ]りたいんです。",
+          "choices": [
+            "The thing is I'm tired today. That's why I want to go home early.",
+            "Since I want to go home early, I'm tired.",
+            "I'm probably tired today, so I might go home early.",
+            "I'm tired, but I still want to stay late."
+          ],
+          "correctIndex": 0,
+          "explanation": "疲[つか]れているんです = 'the thing is, I'm tired' (explaining current state as context). だから = 'that's why.' 早[はや]く帰[かえ]りたいんです = 'the thing is, I want to go home early' (further explaining desire). Both uses of んです add explanatory context — the speaker is giving background for a request or apology."
+        },
+        {
+          "id": "n-desu_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete the explanation-seeking question: 'Why is it that you look pale?'",
+          "japanese": "どうして顔色[かおいろ]が悪[わる]い___ですか。",
+          "choices": [
+            "よ",
+            "ん",
+            "な",
+            "は"
+          ],
+          "correctIndex": 1,
+          "explanation": "Plain form + んですか asks for an explanation. 顔色[かおいろ]が悪[わる]い (plain い-adj form) + んですか = 'Why is it that you look pale? Please explain.' The ん before ですか adds the explanation-seeking nuance. よ adds assertion. な is the connector for な-adjectives — not needed here since 悪[わる]い is an い-adjective."
+        },
+        {
+          "id": "n-desu_q12",
+          "type": "usage",
+          "prompt": "Which statement correctly describes the difference between んです and のです?",
+          "japanese": null,
+          "choices": [
+            "んです is more formal than のです and preferred in business emails.",
+            "のです can only be used with verbs; んです can be used with all forms.",
+            "んです is the casual spoken contraction of のです; のです is the more formal written form.",
+            "のです and んです have completely different meanings and cannot be interchanged."
+          ],
+          "correctIndex": 2,
+          "explanation": "んです is a phonetic contraction of のです — the の sounds like ん in natural speech. Both express explanation/context with the same meaning. のです is preferred in formal writing or formal speech; んです is the everyday spoken form. They are interchangeable in meaning, only differing in register."
+        },
+        {
+          "id": "n-desu_q13",
+          "type": "construct",
+          "prompt": "Your friend asks why you didn't reply to messages. How do you explain you were busy using the past + んです pattern?",
+          "japanese": null,
+          "choices": [
+            "ずっと忙[いそが]しいんでした。",
+            "ずっと忙[いそが]しかったです。",
+            "ずっと忙[いそが]しかったのことです。",
+            "ずっと忙[いそが]しかったんです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Past plain form (い-adj past: 忙[いそが]しかった) + んです = 忙[いそが]しかったんです = 'the thing is, I was busy.' This explains a past state as context. Option B is a neutral factual statement with no explanatory weight. Option A incorrectly uses んでした — for past explanation, use past plain form + んです, not んでした. Option C is ungrammatical."
+        },
+        {
+          "id": "n-desu_q14",
+          "type": "translation",
+          "prompt": "What does this exchange tell you about the function of んですか and んです?",
+          "japanese": "A：どうしたんですか。B：実[じつ]は、さいふをなくしたんです。",
+          "choices": [
+            "A asks for an explanation; B gives context using the same pattern.",
+            "A expresses certainty; B confirms A's guess.",
+            "A is being rude; B is being polite.",
+            "A is asking a simple yes/no question; B answers with a fact."
+          ],
+          "correctIndex": 0,
+          "explanation": "A's どうしたんですか uses んですか to invite an explanation ('what's the matter?'). B responds with さいふをなくしたんです — using past plain form + んです to give the explanation ('the thing is, I lost my wallet'). Both speakers use the same pattern collaboratively: one to ask, one to answer with context."
+        },
+        {
+          "id": "n-desu_q15",
+          "type": "usage",
+          "prompt": "Which sentence best EXPLAINS why the speaker cannot go to the party tonight (rather than just stating a fact)?",
+          "japanese": null,
+          "choices": [
+            "今夜[こんや]パーティーに行[い]きません。",
+            "今夜[こんや]パーティーに行[い]けないんです。",
+            "今夜[こんや]パーティーがあります。",
+            "今夜[こんや]パーティーに行[い]くつもりでした。"
+          ],
+          "correctIndex": 1,
+          "explanation": "行[い]けないんです (can't go + んです) presents the inability as an explanation — the speaker is giving context for why they won't attend (implying they are sorry or have a reason). 行[い]きません (Option A) is a neutral, flat refusal with no implied context. Options C and D don't address inability to attend at all."
+        },
+        {
+          "id": "n-desu_q16",
+          "type": "construct",
+          "prompt": "You notice a friend wincing. Which sentence most naturally uses んですか to ask why with personal concern?",
+          "japanese": null,
+          "choices": [
+            "痛[いた]いですか？",
+            "痛[いた]くなりましたか？",
+            "どこか痛[いた]いんですか？",
+            "痛[いた]そうですよね。"
+          ],
+          "correctIndex": 2,
+          "explanation": "どこか痛[いた]いんですか = 'Is somewhere hurting? (Please tell me what's going on)' — んですか signals you are asking for personal context, not just a yes/no fact. 痛[いた]いですか (Option A) is grammatically fine but less warm and engaged. 痛[いた]くなりましたか (Option B) asks about a change in state. 痛[いた]そうですよね (Option D) observes rather than asks."
+        },
+        {
+          "id": "n-desu_q17",
+          "type": "translation",
+          "prompt": "What nuance does そうなんですか convey in this exchange?",
+          "japanese": "A：実[じつ]は、来月[らいげつ]東京[とうきょう]に引[ひ]っ越[こ]すんです。B：あ、そうなんですか。知[し]りませんでした。",
+          "choices": [
+            "B is expressing doubt about what they just heard.",
+            "B is confirming a fact they already knew.",
+            "B is asking a follow-up question for more details.",
+            "B is showing genuine surprise and engaged interest at new information."
+          ],
+          "correctIndex": 3,
+          "explanation": "そうなんですか (lit. 'is that how it is?') is a very common response showing the listener is genuinely engaged and processing new information. It's more empathetic and collaborative than simply そうですか. This is one of the social/empathy uses of んです — it signals active listening and invites the speaker to continue."
+        },
+        {
+          "id": "n-desu_q18",
+          "type": "usage",
+          "prompt": "Which sentence uses んです INCORRECTLY?",
+          "japanese": null,
+          "choices": [
+            "あの人[ひと]は先生[せんせい]だんです。",
+            "明日[あした]試験[しけん]があるんです。",
+            "頭[あたま]が痛[いた]いんです。",
+            "あの人[ひと]は学生[がくせい]なんですか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "先生[せんせい]だんです is incorrect. Nouns require な before んです — not だ. It should be 先生[せんせい]なんです. The copula だ is replaced by な before んです. The other sentences are all correct: あるんです (plain verb), 痛[いた]いんです (い-adj plain form), 学生[がくせい]なんですか (noun + な + んですか)."
+        },
+        {
+          "id": "n-desu_q19",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "実[じつ]は、お酒[さけ]が飲[の]めないんです。",
+          "choices": [
+            "I probably shouldn't drink alcohol, to be honest.",
+            "Actually, the thing is I can't drink alcohol.",
+            "I don't particularly like drinking alcohol.",
+            "I never used to drink alcohol, but now I do."
+          ],
+          "correctIndex": 1,
+          "explanation": "飲[の]めない (cannot drink — potential negative form) + んです = 'the thing is, I can't drink.' 実[じつ]は ('actually/to be honest') adds a confessional nuance. This is a typical real-life use of んです: the speaker is clarifying their inability in a social situation where alcohol is offered, presenting it as context rather than a bare refusal."
+        },
+        {
+          "id": "n-desu_q20",
+          "type": "construct",
+          "prompt": "Your stomach hurts and you need to leave work early. Which sentence correctly uses んです to explain your situation to your boss?",
+          "japanese": null,
+          "choices": [
+            "お腹[なか]が痛[いた]くて、早[はや]く帰[かえ]るです。",
+            "早[はや]く帰[かえ]りたいので、お腹[なか]が痛[いた]んです。",
+            "お腹[なか]が痛[いた]いんです。早退[そうたい]させていただけますか。",
+            "お腹[なか]が痛[いた]いことで、早退[そうたい]です。"
+          ],
+          "correctIndex": 2,
+          "explanation": "お腹[なか]が痛[いた]いんです (い-adj plain form + んです = 'the thing is, my stomach hurts') explains the situation first. 早退[そうたい]させていただけますか is a very polite request to leave early. This is the classic んです structure: give the explanatory context, then make the request. Options A and D are ungrammatical. Option B reverses cause and effect illogically."
+        }
+      ]
+    },
+    {
+      "id": "desho",
+      "name": "〜でしょう (deshou) — probably / I expect",
+      "shortDescription": "Expresses the speaker's conjecture or probability; with rising intonation, seeks agreement.",
+      "formation": "Plain form + でしょう  |  Noun / な-adj + でしょう",
+      "explanation": "でしょう is the polite 'probably' or 'I expect' — it expresses the speaker's conjecture based on reasoning from available evidence. 明日[あした]は雨[あめ]でしょう means 'It will probably rain tomorrow' — you don't know for certain, but you have looked at the evidence and drawn a conclusion. You will hear this constantly in weather forecasts.\n\nThe second use of でしょう is with rising intonation (でしょう↑), which seeks the listener's agreement rather than expressing probability — similar to 'right?' or 'isn't it?': もう終[お]わったでしょう↑ (You've finished already, right?). The plain equivalent is だろう, common in casual speech and writing. Formation: plain form + でしょう — for nouns and な-adjectives, drop だ before でしょう (学生[がくせい]でしょう, きれいでしょう).\n\nNuance note: でしょう expresses a confident inference based on your own reasoning. For genuine uncertainty — 'it might be, I'm not sure' — a different form, かもしれません (might / may be), is used; that pattern goes beyond our N5 scope but is worth knowing exists as a next step.",
+      "rules": [
+        "Plain form + でしょう = probably / I expect X to be the case",
+        "With rising intonation (でしょう↑): seeking agreement ('right?' / 'isn't it?')",
+        "Plain equivalent: だろう (casual, also written)",
+        "Based on speaker's own reasoning — more certain than かもしれません",
+        "Noun/な-adj: drop だ before でしょう (学生[がくせい]でしょう, きれいでしょう)"
+      ],
+      "examples": [
+        {
+          "japanese": "明日[あした]は晴[は]れるでしょう。",
+          "romaji": "Ashita wa hareru deshou.",
+          "english": "It will probably be sunny tomorrow."
+        },
+        {
+          "japanese": "田中[たなか]さんも来[く]るでしょう。",
+          "romaji": "Tanaka-san mo kuru deshou.",
+          "english": "Tanaka-san will probably come too."
+        },
+        {
+          "japanese": "これ、難[むずか]しいでしょう。",
+          "romaji": "Kore, muzukashii deshou.",
+          "english": "This is difficult, right?"
+        },
+        {
+          "japanese": "もうお腹[なか]がすいたでしょう。何[なに]か食[た]べましょう。",
+          "romaji": "Mou onaka ga suita deshou. Nanika tabemashou.",
+          "english": "You're probably hungry by now. Let's eat something."
+        }
+      ],
+      "flashcardHeader": "〜でしょう",
+      "flashcardAnswer": "Expresses the speaker's conjecture or probability; with rising intonation, seeks agreement.",
+      "practice": [
+        {
+          "id": "desho_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]は晴[は]れるでしょう。",
+          "choices": [
+            "It was sunny yesterday.",
+            "It will probably be sunny tomorrow.",
+            "It might not be sunny tomorrow.",
+            "Tomorrow it will definitely be sunny."
+          ],
+          "correctIndex": 1,
+          "explanation": "でしょう expresses the speaker's confident inference — 'probably.' 晴[は]れる (will be clear) + でしょう = 'will probably be sunny.' This is heard constantly in weather forecasts. Option C (definitely) goes too far — でしょう is probability, not certainty. Option D implies more doubt than でしょう carries."
+        },
+        {
+          "id": "desho_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct form of 来[く]る before でしょう.",
+          "japanese": "田中[たなか]さんも___でしょう。",
+          "choices": [
+            "来[こ]よう",
+            "来[き]た",
+            "来[く]る",
+            "来[き]ます"
+          ],
+          "correctIndex": 2,
+          "explanation": "でしょう attaches to the plain (dictionary) form of a verb: 来[く]る + でしょう = 'will probably come.' Polite forms like 来[き]ます cannot precede でしょう. 来[き]た is past tense. 来[こ]よう is volitional — none of these express 'probably will come.'"
+        },
+        {
+          "id": "desho_q3",
+          "type": "construct",
+          "prompt": "How do you correctly form でしょう with the な-adjective 静[しず]か (quiet)?",
+          "japanese": null,
+          "choices": [
+            "静[しず]かにでしょう",
+            "静[しず]かだでしょう",
+            "静[しず]かなでしょう",
+            "静[しず]かでしょう"
+          ],
+          "correctIndex": 3,
+          "explanation": "For nouns and な-adjectives, drop だ before でしょう: 静[しず]かだ → 静[しず]かでしょう. Do NOT keep な (that's for modifying nouns: 静[しず]かな部屋[へや]) or keep だ. 静[しず]かに is the adverb form ('quietly'), which is unrelated to this conjecture pattern."
+        },
+        {
+          "id": "desho_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "もうお腹[なか]がすいたでしょう。何[なに]か食[た]べましょう。",
+          "choices": [
+            "You must not be hungry. Let's not eat yet.",
+            "You're full already. Shall we stop eating?",
+            "You're probably hungry by now. Let's eat something.",
+            "You'll probably be hungry soon. Let me prepare something."
+          ],
+          "correctIndex": 2,
+          "explanation": "お腹[なか]がすいた + でしょう = 'you are probably hungry.' もう = 'by now / already.' The speaker draws a reasonable inference and makes a suggestion. Option B misreads すいた as 'full' — it means 'became hungry (stomach became empty).'"
+        },
+        {
+          "id": "desho_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses でしょう to express a confident inference that leads to a recommendation?",
+          "japanese": null,
+          "choices": [
+            "外[そと]はとても寒[さむ]いかもしれませんでしょう。",
+            "外[そと]は寒[さむ]いでしょう、昨日[きのう]は暖[あたた]かかったです。",
+            "外[そと]は寒[さむ]いだでしょう。",
+            "外[そと]は寒[さむ]いでしょう。コートを着[き]てきてください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "でしょう expresses a confident inference: 'It's probably cold outside — so please wear a coat.' This is a natural pattern. Option B pairs an inference with an unrelated past fact. Option C mixes かもしれません and でしょう — two conjecture forms that cannot combine. Option D incorrectly inserts だ after an い-adjective."
+        },
+        {
+          "id": "desho_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "たぶん田中[たなか]さんは来[こ]ないでしょう。",
+          "choices": [
+            "Tanaka-san probably won't come.",
+            "Tanaka-san is definitely not coming.",
+            "Tanaka-san may or may not come.",
+            "Tanaka-san came, I suppose."
+          ],
+          "correctIndex": 0,
+          "explanation": "たぶん (probably) + 来[こ]ないでしょう (probably won't come) = 'Tanaka-san probably won't come.' The negative plain form 来[こ]ない + でしょう follows the same rule as the positive form. たぶん reinforces the probability nuance. でしょう expresses the speaker's confident inference — more certain than かもしれない."
+        },
+        {
+          "id": "desho_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to express 'That person is probably a student.'",
+          "japanese": "あの人[ひと]はたぶん学生[がくせい]___。",
+          "choices": [
+            "だでしょう",
+            "でしょう",
+            "なでしょう",
+            "であるでしょう"
+          ],
+          "correctIndex": 1,
+          "explanation": "For nouns (and な-adjectives), drop だ before でしょう: 学生[がくせい]だ → 学生[がくせい]でしょう. Do NOT add extra だ (学生[がくせい]だでしょう — redundant copula). な (学生[がくせい]なでしょう) is the noun-modifying form, not appropriate here. であるでしょう is grammatically unusual and overly written."
+        },
+        {
+          "id": "desho_q8",
+          "type": "usage",
+          "prompt": "でしょう with rising intonation (でしょう↑) seeks agreement; with falling intonation (でしょう↓) expresses probability. Which sentence MOST LIKELY uses rising intonation?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は雨[あめ]でしょう。天気予報[てんきよほう]が言[い]っています。",
+            "彼[かれ]はたぶん知[し]らないでしょう。",
+            "もう宿題[しゅくだい]、終[お]わったでしょう？",
+            "来週[らいしゅう]は忙[いそが]しいでしょう。準備[じゅんび]してください。"
+          ],
+          "correctIndex": 2,
+          "explanation": "もう宿題[しゅくだい]、終[お]わったでしょう？ (You've finished the homework already, right?) uses rising でしょう to seek confirmation — 'right? isn't that so?' Options A and D make predictions/inferences (falling intonation). Option B adds たぶん (probably), reinforcing the inference function with falling intonation."
+        },
+        {
+          "id": "desho_q9",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses でしょうか as a formal, polite question?",
+          "japanese": null,
+          "choices": [
+            "お名前[なまえ]はなんでしょうだろうか。",
+            "どのくらいかかりますかでしょうか。",
+            "何時[なんじ]に始[はじ]まるでしょうですか。",
+            "この電車[でんしゃ]は東京[とうきょう]に止[と]まるでしょうか。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plain form + でしょうか = a polite, formal question expressing uncertainty: 'I wonder if / does X...?' 止[と]まるでしょうか = 'I wonder if this train stops at Tokyo.' Options A, B, and C all double up on question markers or have structural errors — でしょう and か should not be split or combined with other question forms."
+        },
+        {
+          "id": "desho_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "あの映画[えいが]はきっと面白[おもしろ]いでしょう。",
+          "choices": [
+            "That movie is surely going to be interesting (I expect).",
+            "That movie might not be interesting at all.",
+            "That movie was probably interesting (I heard).",
+            "That movie is interesting, right? (seeking agreement)"
+          ],
+          "correctIndex": 0,
+          "explanation": "きっと (surely/certainly) + 面白[おもしろ]い (い-adj plain form) + でしょう = confident conjecture. The speaker is expressing a strong expectation based on their own reasoning. きっと reinforces the inference. Option B implies doubt. Option C incorrectly uses past. Option D would require rising intonation and is a different use."
+        },
+        {
+          "id": "desho_q11",
+          "type": "construct",
+          "prompt": "What is the casual spoken equivalent of 明日[あした]は寒[さむ]いでしょう?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は寒[さむ]いかもしれない。",
+            "明日[あした]は寒[さむ]いだろう。",
+            "明日[あした]は寒[さむ]いはずだ。",
+            "明日[あした]は寒[さむ]いかもしれません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "だろう is the plain/casual equivalent of でしょう: same meaning ('probably'), less formal register. 明日[あした]は寒[さむ]いだろう = 'It'll probably be cold tomorrow' (casual). かもしれない (Options A, D) expresses more uncertainty ('might be'). はずだ (Option C) expresses logical expectation based on known facts — stronger than でしょう."
+        },
+        {
+          "id": "desho_q12",
+          "type": "usage",
+          "prompt": "Which sentence best uses はずだ rather than でしょう? (はずだ = stronger expectation from concrete logic; でしょう = general inference)",
+          "japanese": null,
+          "choices": [
+            "たぶん彼女[かのじょ]は疲[つか]れているでしょう。",
+            "明日[あした]は天気[てんき]がいいでしょう。",
+            "彼[かれ]のメールアドレスを知[し]っているはずです。名刺[めいし]をもらいましたから。",
+            "きっとあの店[みせ]は安[やす]いでしょう。"
+          ],
+          "correctIndex": 2,
+          "explanation": "はずだ is the right choice when you have concrete logical grounds: 'He should know his email — because I received his business card.' This is a deduction from specific known facts. でしょう (Options A, B, D) is appropriate for inferences based on general reasoning or observation, not logical deduction from specific evidence."
+        },
+        {
+          "id": "desho_q13",
+          "type": "construct",
+          "prompt": "Which sentence correctly forms でしょう with the な-adjective きれい (clean/beautiful)?",
+          "japanese": null,
+          "choices": [
+            "このホテルはきれいなでしょう。",
+            "このホテルはきれいにでしょう。",
+            "このホテルはきれいだでしょう。",
+            "このホテルはきれいでしょう。"
+          ],
+          "correctIndex": 3,
+          "explanation": "な-adjectives drop the な and implied だ before でしょう: きれいだ → きれいでしょう. Do NOT keep な (きれいなでしょう — that's the noun-modifying form). Do NOT keep だ (きれいだでしょう — incorrect). きれいに (Option B) is the adverb form 'beautifully/cleanly' — unrelated to conjecture."
+        },
+        {
+          "id": "desho_q14",
+          "type": "translation",
+          "prompt": "How does でしょう differ from かもしれない in confidence level?",
+          "japanese": null,
+          "choices": [
+            "でしょう expresses more confidence than かもしれない; かもしれない means 'might' (more uncertain).",
+            "かもしれない is more formal than でしょう and used in written language.",
+            "でしょう means 100% certainty; かもしれない means somewhat uncertain.",
+            "They are identical in meaning — both mean 'probably' with the same confidence level."
+          ],
+          "correctIndex": 0,
+          "explanation": "でしょう expresses confident inference ('probably' — based on reasoning from evidence). かもしれない expresses weaker possibility ('might / may be' — genuine uncertainty). Example: 雨[あめ]が降[ふ]るでしょう (it will probably rain) vs 雨[あめ]が降[ふ]るかもしれない (it might rain). でしょう sits between the two: more confident than かもしれない, less certain than はずだ."
+        },
+        {
+          "id": "desho_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "田中[たなか]さんならもう知[し]っているでしょう。",
+          "choices": [
+            "I wonder if Tanaka-san already knows about it.",
+            "If it's Tanaka-san, they probably already know about it.",
+            "I doubt that Tanaka-san knows about this yet.",
+            "Tanaka-san said they already knew about it."
+          ],
+          "correctIndex": 1,
+          "explanation": "なら = 'if it's  / as for ' (contextual conditional). もう知[し]っているでしょう = 'already know + probably.' The speaker draws a confident inference: 'Knowing Tanaka-san's situation, they probably already know.' The sentence doesn't express doubt (Option A) or hearsay (Option D)."
+        },
+        {
+          "id": "desho_q16",
+          "type": "construct",
+          "prompt": "How do you say 'Yamada-san's fever probably went down by now'?",
+          "japanese": null,
+          "choices": [
+            "山田[やまだ]さんの熱[ねつ]はもう下[さ]がりでしょう。",
+            "山田[やまだ]さんの熱[ねつ]はもう下[さ]がるでしょう。",
+            "山田[やまだ]さんの熱[ねつ]はもう下[さ]がったでしょう。",
+            "山田[やまだ]さんの熱[ねつ]はもう下[さ]がりましたでしょう。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Past plain form (下[さ]がった) + でしょう = 'probably went down.' 下[さ]がる (Option B) is the dictionary form — this would mean 'will probably go down' (future/present). 下[さ]がりましたでしょう (Option D) incorrectly attaches でしょう to a polite past form. 下[さ]がりでしょう (Option A) uses the masu-stem, which is not a valid base for でしょう."
+        },
+        {
+          "id": "desho_q17",
+          "type": "usage",
+          "prompt": "Which sentence is typical of the formal でしょう used in weather forecasts and official predictions?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]はたぶん雨[あめ]だから、傘[かさ]を持[も]ってきてよ。",
+            "あれ、明日[あした]は雨[あめ]じゃないですか。",
+            "明日[あした]雨[あめ]が降[ふ]ったら、公園[こうえん]には行[い]かないつもりです。",
+            "明日[あした]の西日本[にしにほん]は雨[あめ]が降[ふ]るでしょう。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Weather forecasts use でしょう to express confident predictions: 降[ふ]るでしょう = 'will probably rain.' This is the canonical weather forecast register — plain form verb + でしょう delivered authoritatively. Options A (informal with だから/よ), B (seeking agreement with じゃないですか), and C (conditional plan) all serve different functions and would not appear in a broadcast."
+        },
+        {
+          "id": "desho_q18",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct form. 'This dish is probably delicious.'",
+          "japanese": "この料理[りょうり]はきっと___しょう。",
+          "choices": [
+            "おいしいで",
+            "おいしいだで",
+            "おいしいなで",
+            "おいしくで"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adjective plain form + でしょう: おいしい + でしょう = おいしいでしょう. The blank (before しょう) needs おいしいで. Adding だ (おいしいだでしょう) is incorrect after い-adjectives. な is for な-adjectives only. おいしく is the adverb form — unrelated to conjecture."
+        },
+        {
+          "id": "desho_q19",
+          "type": "translation",
+          "prompt": "What does B's sentence mean?",
+          "japanese": "A：田中[たなか]さんはどこですか。B：会議室[かいぎしつ]にいるでしょう。",
+          "choices": [
+            "I'm certain Tanaka-san is in the meeting room.",
+            "Tanaka-san is probably in the meeting room.",
+            "Tanaka-san must be in the meeting room — I just checked.",
+            "Tanaka-san is definitely not in the meeting room."
+          ],
+          "correctIndex": 1,
+          "explanation": "いるでしょう = plain form of いる + でしょう = 'is probably.' The speaker doesn't know for certain where Tanaka-san is but makes a reasonable inference based on context. This is a common everyday use of でしょう — expressing probability in conversation. Options A and C overstate certainty beyond what でしょう conveys."
+        },
+        {
+          "id": "desho_q20",
+          "type": "construct",
+          "prompt": "How do you formally ask 'Could this possibly be what I have been looking for?' using でしょうか?",
+          "japanese": null,
+          "choices": [
+            "これは私[わたし]が探[さが]していたものでしょうか？かな。",
+            "これが私[わたし]が探[さが]していたものかもしれませんか？",
+            "これは私[わたし]が探[さが]していたものでしょうか？",
+            "これが私[わたし]が探[さが]しているものでしょうかだろうか？"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun phrase + でしょうか = a formal, polite question: 'Is this perhaps...?' / 'I wonder if this is...' でしょうか signals genuine uncertainty combined with politeness. Option A tacks on かな (casual wondering marker) — redundant. Option B incorrectly mixes かもしれません and か. Option D doubles up with both でしょうか and だろうか."
+        }
+      ]
+    },
+    {
+      "id": "node",
+      "name": "〜ので (node) — because (objective/formal reason)",
+      "shortDescription": "Gives a reason, like から but more objective and polite — preferred in formal contexts.",
+      "formation": "Plain form (Noun / な-adj + な) + ので + Result",
+      "explanation": "ので is the second way to express 'because' in Japanese — and it carries a different social weight than から, which you learned in Chapter 9. While から says 'because (from my personal perspective),' ので presents the reason as a natural, objective consequence — as if anyone would reach the same conclusion. This makes ので the preferred choice in formal writing, business communication, and polite explanations to teachers, customers, or people you want to show respect to.\n\nThe structure mirrors から: reason clause (in plain form) + ので + result clause. The one formation difference from から: nouns and な-adjectives require な before ので. 学生[がくせい]なので (because I am a student), 便利[べんり]なので (because it is convenient).\n\nThink of から as the casual, personal 'because' and ので as the formal, objective 'because' — both translate the same in English, but native speakers choose based on the formality of the situation.",
+      "rules": [
+        "Reason (plain form) + ので + Result = Because of [reason], [result]",
+        "Noun / な-adj: add な before ので (e.g., 学生[がくせい]なので, 暇[ひま]なので)",
+        "More formal and objective than から",
+        "Preferred in formal speech, business, and polite explanations to superiors",
+        "Both ので and から place the reason clause BEFORE the result"
+      ],
+      "examples": [
+        {
+          "japanese": "明日[あした]試験[しけん]があるので、今日[きょう]は早[はや]く寝[ね]ます。",
+          "romaji": "Ashita shiken ga aru node, kyou wa hayaku nemasu.",
+          "english": "Since I have an exam tomorrow, I'll go to bed early today."
+        },
+        {
+          "japanese": "道[みち]が混[こ]んでいたので、遅[おそ]くなりました。",
+          "romaji": "Michi ga konde ita node, osoku narimashita.",
+          "english": "Because the roads were congested, I was late."
+        },
+        {
+          "japanese": "学生[がくせい]なので、お金[かね]があまりありません。",
+          "romaji": "Gakusei na node, okane ga amari arimasen.",
+          "english": "Because I'm a student, I don't have much money."
+        },
+        {
+          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[きょう]は休[やす]ませていただきたいんですが。",
+          "romaji": "Karada no guai ga warui node, kyou wa yasumasete itadakitai n desu ga.",
+          "english": "Since I'm not feeling well, I'd like to take the day off today..."
+        }
+      ],
+      "flashcardHeader": "〜ので",
+      "flashcardAnswer": "Gives a reason, like から but more objective and polite — preferred in formal contexts.",
+      "practice": [
+        {
+          "id": "node_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]試験[しけん]があるので、今日[きょう]は早[はや]く寝[ね]ます。",
+          "choices": [
+            "Since I have an exam tomorrow, I'll go to bed early today.",
+            "Since I went to bed early, the exam is tomorrow.",
+            "I have an exam tomorrow, but I'll stay up late.",
+            "Because I went to bed early, I have an exam tomorrow."
+          ],
+          "correctIndex": 0,
+          "explanation": "Reason clause + ので + result clause: 試験[しけん]がある (have an exam) is the reason, 早[はや]く寝[ね]ます (go to bed early) is the result. The reason always comes BEFORE ので. Options B and D swap the cause-effect relationship."
+        },
+        {
+          "id": "node_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank — nouns and な-adjectives require this before ので.",
+          "japanese": "学生[がくせい]___ので、お金[かね]があまりありません。",
+          "choices": [
+            "な",
+            "が",
+            "は",
+            "の"
+          ],
+          "correctIndex": 0,
+          "explanation": "Like んです, nouns and な-adjectives require な before ので: 学生[がくせい]なので (because I'm a student). Plain verbs and い-adjectives attach ので directly. This な is a connector, not the same な that precedes nouns in noun modification."
+        },
+        {
+          "id": "node_q3",
+          "type": "usage",
+          "prompt": "ので is more formal and objective than から. In which situation would ので be the better choice?",
+          "japanese": null,
+          "choices": [
+            "Explaining to your professor why you missed class",
+            "Telling a close friend why you're running late",
+            "Talking to yourself about why you feel sleepy",
+            "Writing a casual social media post"
+          ],
+          "correctIndex": 0,
+          "explanation": "ので presents the reason as an objective, natural consequence — polite and appropriate for formal contexts like speaking to a professor. から sounds more personal and casual, better suited for friends, self-talk, or informal writing."
+        },
+        {
+          "id": "node_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "体[からだ]の具合[ぐあい]が悪[わる]いので、今日[きょう]は休[やす]ませていただきたいんですが。",
+          "choices": [
+            "Since I'm not feeling well, I'd like to take the day off today.",
+            "Because I'm taking the day off, I feel unwell.",
+            "Although I'm not feeling well, I'll come in today.",
+            "I'm feeling well, so I'd like to take the day off."
+          ],
+          "correctIndex": 0,
+          "explanation": "体[からだ]の具合[ぐあい]が悪[わる]い (feeling unwell) + ので (because/since) + 休[やす]ませていただきたい (I'd humbly like to be allowed to rest). ので is ideal here — a formal, respectful way to present a reason to a superior. Options B and D contradict the meaning entirely."
+        },
+        {
+          "id": "node_q5",
+          "type": "construct",
+          "prompt": "How do you correctly attach ので to the な-adjective 便利[べんり] (convenient)?",
+          "japanese": null,
+          "choices": [
+            "便利[べんり]ので",
+            "便利[べんり]だので",
+            "便利[べんり]なので",
+            "便利[べんり]にので"
+          ],
+          "correctIndex": 2,
+          "explanation": "な-adjective base form + な + ので: 便利[べんり] + な + ので = 便利[べんり]なので (because it's convenient). Omitting な (Option B) is a common error. Keeping だ (Option C) is also wrong — だ drops before ので, replaced by な. 便利[べんり]に (Option D) is the adverb form, unrelated to the reason connector."
+        },
+        {
+          "id": "node_q6",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to connect this い-adjective correctly with ので.",
+          "japanese": "このかばんは重[おも]い___、もう少[すこ]し軽[かる]いのを探[さが]しています。",
+          "choices": [
+            "ので",
+            "なので",
+            "だので",
+            "であるので"
+          ],
+          "correctIndex": 0,
+          "explanation": "い-adjectives attach ので directly without any additional connector: 重[おも]い + ので = 重[おも]いので (because it's heavy). なので is for nouns and な-adjectives. だので and であるので are ungrammatical. Plain verb and い-adjective forms connect to ので directly."
+        },
+        {
+          "id": "node_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "今日[きょう]は体[からだ]の具合[ぐあい]が悪[わる]いので、早[はや]引[ひ]きさせていただきます。",
+          "choices": [
+            "Since I'll leave early, I'm not feeling well.",
+            "Since I'm not feeling well today, I'll be leaving early (humble).",
+            "I'm feeling well today, so I'll stay late.",
+            "Because I left early yesterday, I'm not feeling well."
+          ],
+          "correctIndex": 1,
+          "explanation": "体[からだ]の具合[ぐあい]が悪[わる]い (not feeling well) + ので (since/because) + 早[はや]引[ひ]きさせていただきます (humble form of leaving early) = a formal, respectful explanation. ので presents the reason as an objective, natural consequence. させていただきます adds humility, appropriate when speaking to a superior. Option A reverses cause and effect."
+        },
+        {
+          "id": "node_q8",
+          "type": "usage",
+          "prompt": "ので gives a reason; のに expresses unexpected contrast ('even though'). Which sentence uses のに correctly (not ので)?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]試験[しけん]があるので、今夜[こんや]は勉強[べんきょう]します。",
+            "雨[あめ]が降[ふ]っているので、傘[かさ]を持[も]ってきました。",
+            "一生懸命[いっしょうけんめい]勉強[べんきょう]したのに、試験[しけん]に落[お]ちてしまった。",
+            "頭[あたま]が痛[いた]いので、薬[くすり]を飲[の]みました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "のに signals an unexpected or disappointing outcome: 'Even though I studied hard, I failed the exam.' This carries an emotional tone of frustration — the result contradicts expectations. ので (Options A, B, D) simply connects cause to expected result. Replacing のに with ので in Option C would eliminate the contrast nuance and produce a strange meaning ('because I studied hard, I failed')."
+        },
+        {
+          "id": "node_q9",
+          "type": "construct",
+          "prompt": "How do you correctly attach ので to the noun 休日[きゅうじつ] (day off/holiday)?",
+          "japanese": null,
+          "choices": [
+            "休日[きゅうじつ]だので",
+            "休日[きゅうじつ]のので",
+            "休日[きゅうじつ]ので",
+            "休日[きゅうじつ]なので"
+          ],
+          "correctIndex": 3,
+          "explanation": "Noun + な + ので: 休日[きゅうじつ] + な + ので = 休日[きゅうじつ]なので (because it's a holiday). Adding だ (休日[きゅうじつ]だので) is incorrect — だ drops and is replaced by な before ので. の (休日[きゅうじつ]のので) is ungrammatical here. Attaching ので directly to the noun without な (休日[きゅうじつ]ので) is also incorrect."
+        },
+        {
+          "id": "node_q10",
+          "type": "usage",
+          "prompt": "In which context would a native speaker most naturally choose ので over から?",
+          "japanese": null,
+          "choices": [
+            "Writing a formal apology email to a client explaining a delivery delay.",
+            "Texting a close friend why you're running five minutes late.",
+            "Thinking to yourself why you're feeling tired.",
+            "Leaving a casual comment on a social media post."
+          ],
+          "correctIndex": 0,
+          "explanation": "ので is more formal and objective than から — presenting reasons as natural consequences rather than personal justifications. A formal business apology to clients is exactly where ので excels. The other situations (texting friends, internal monologue, casual posts) call for the more casual, personal から."
+        },
+        {
+          "id": "node_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to politely ask someone to help because you are busy.",
+          "japanese": "今[いま]、忙[いそが]しい___、手伝[てつだ]っていただけますか。",
+          "choices": [
+            "から",
+            "ので",
+            "けど",
+            "し"
+          ],
+          "correctIndex": 1,
+          "explanation": "ので is the polite, formal choice for giving reasons in requests to superiors or strangers. 忙[いそが]しいので、手伝[てつだ]っていただけますか = 'Since I'm busy, could you please help me?' から (Option A) is more casual and direct. けど connects with a contrasting nuance. し is used to list multiple reasons — doesn't fit a single-reason polite request."
+        },
+        {
+          "id": "node_q12",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "静[しず]かなので、この図書館[としょかん]はとても勉強[べんきょう]しやすいです。",
+          "choices": [
+            "Even though it's quiet, this library is very hard to study in.",
+            "This library became quiet, so now it's easy to study.",
+            "Because it's quiet, this library is very easy to study in.",
+            "This library is quiet and easy to study in for separate reasons."
+          ],
+          "correctIndex": 2,
+          "explanation": "静[しず]かな (quiet — な-adj) + ので + 勉強[べんきょう]しやすい (easy to study) = cause-and-effect: 'Because it's quiet, it's easy to study.' ので links the reason (quietness) to the natural consequence (ease of studying). Option A mistakenly introduces a contrast (のに nuance). Option B misreads the causality. Option D misunderstands the relationship."
+        },
+        {
+          "id": "node_q13",
+          "type": "usage",
+          "prompt": "Which sentence sounds most natural in a formal written business announcement or official notice?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は休[やす]みだから、連絡[れんらく]しました。",
+            "電車[でんしゃ]が遅[おく]れているので、遅刻[ちこく]するよ。",
+            "会議[かいぎ]の時間[じかん]が変[か]わりましたから、お知[し]らせします。",
+            "工事[こうじ]のため休業[きゅうぎょう]しておりますので、ご了承[りょうしょう]ください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "ので (and ため) are the formal connectors preferred in written announcements. 工事[こうじ]のため〜ので、ご了承[りょうしょう]ください stacks formal reasons and ends with a polite request — exactly the official-notice register. Option A uses から (informal). Option B uses informal よ. Option C uses から rather than ので, making it less formal than Option D."
+        },
+        {
+          "id": "node_q14",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "雨[あめ]が降[ふ]っているので、試合[しあい]は中止[ちゅうし]になりました。",
+          "choices": [
+            "Because it's raining, the match has been cancelled.",
+            "Even though it's raining, the match continued.",
+            "It rained after the match was cancelled.",
+            "The match will probably be cancelled if it rains."
+          ],
+          "correctIndex": 0,
+          "explanation": "雨[あめ]が降[ふ]っている (it is raining — progressive form) + ので (because) + 試合[しあい]は中止[ちゅうし]になりました (the match was cancelled) = rain as the objective cause for cancellation. ので presents this as a natural, logical consequence. Options B (contrast) and C (reversed order) misread the sentence. D is a conditional, not a statement of what happened."
+        },
+        {
+          "id": "node_q15",
+          "type": "construct",
+          "prompt": "Which sentence most politely uses ので to ask someone to wait a moment?",
+          "japanese": null,
+          "choices": [
+            "忙[いそが]しいから、ちょっと待[ま]ってください。",
+            "ただ今[いま]確認[かくにん]中[ちゅう]なので、少々[しょうしょう]お待[ま]ちいただけますか。",
+            "忙[いそが]しいし、待[ま]ってよね。",
+            "確認[かくにん]しているので、待[ま]て。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ただ今[いま]確認[かくにん]中[ちゅう]なので (because I'm currently checking) + 少々[しょうしょう]お待[ま]ちいただけますか (could you please wait a moment — very polite) is the ideal formal request structure with ので. Option A uses から (more casual). Options C and D use informal or rude forms (待[ま]ってよね, 待[ま]て). ので + polite request form is the professional standard."
+        },
+        {
+          "id": "node_q16",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct plain form of 来[く]る before ので.",
+          "japanese": "友達[ともだち]が___ので、家[いえ]を片付[かたづ]けています。",
+          "choices": [
+            "来[き]て",
+            "来[き]た",
+            "来[く]る",
+            "来[き]ます"
+          ],
+          "correctIndex": 2,
+          "explanation": "ので attaches to plain forms: 来[く]る (dictionary form, present/future) + ので = 来[く]るので (because my friend is coming). The polite form 来[き]ます cannot precede ので. 来[き]た (past form) would mean 'because my friend came' (already happened). 来[き]て is the te-form, which connects clauses differently."
+        },
+        {
+          "id": "node_q17",
+          "type": "translation",
+          "prompt": "What makes this sentence use のに rather than ので correctly?",
+          "japanese": "あんなに練習[れんしゅう]したのに、コンクールで負[ま]けてしまった。",
+          "choices": [
+            "The speaker is explaining why they lost the competition.",
+            "The speaker is providing a reason for practicing so hard.",
+            "The speaker is neutral and just describing what happened.",
+            "The speaker is expressing disappointment — practicing didn't lead to the expected outcome."
+          ],
+          "correctIndex": 3,
+          "explanation": "のに signals that the outcome was unexpected or contrary to expectations — it carries disappointment or frustration. 'Despite practicing so much, I lost' conveys that all the effort was 'wasted.' Replacing のに with ので would produce 'because I practiced, I lost' — a completely different (and strange) meaning that removes the emotional contrast entirely."
+        },
+        {
+          "id": "node_q18",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses ので to give a reason for an action?",
+          "japanese": null,
+          "choices": [
+            "寒[さむ]いので、コートを着[ちゃく]ました。",
+            "コートを着[ちゃく]ましたので、寒[さむ]いです。",
+            "寒[さむ]いのに、コートを着[ちゃく]ました。",
+            "寒[さむ]くないので、コートを着[ちゃく]ました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "寒[さむ]い (cold) + ので (because) + コートを着[ちゃく]ました (put on coat) = logical cause → natural effect. Option B reverses cause and effect (putting on a coat does not cause coldness). Option C uses のに — 'even though it was cold, I put on a coat' — possible but carries a specific unexpected nuance. Option D is logically strange (not cold → put on coat)."
+        },
+        {
+          "id": "node_q19",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "道[みち]が工事中[こうじちゅう]なので、迂回[うかい]してください。",
+          "choices": [
+            "Since you are making a detour, the road is under construction.",
+            "Because the road is under construction, please take a detour.",
+            "Although the road is under construction, please continue straight.",
+            "The road was under construction, so we made a detour yesterday."
+          ],
+          "correctIndex": 1,
+          "explanation": "道[みち]が工事中[こうじちゅう]なの (road is under construction — noun + なの-) + で (ので connector) = because the road is under construction. 迂回[うかい]してください (please take a detour) is the polite directive. ので is appropriate here — an objective reason presented formally as the basis for a polite instruction."
+        },
+        {
+          "id": "node_q20",
+          "type": "construct",
+          "prompt": "How do you say 'Because it is Sunday, the office is closed' using ので?",
+          "japanese": null,
+          "choices": [
+            "日曜日[にちようび]からオフィスは閉[し]まっています。",
+            "日曜日[にちようび]ので、オフィスは閉[し]まっています。",
+            "日曜日[にちようび]なので、オフィスは閉[し]まっています。",
+            "日曜日[にちようび]なのに、オフィスは閉[し]まっています。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + な + ので: 日曜日[にちようび] + な + ので = 日曜日[にちようび]なので (because it's Sunday). Option A uses から with incorrect particle usage. Option B omits the required な (nouns must use なので, not ので directly). Option D uses のに — 'Even though it's Sunday, the office is closed,' which implies an unexpected or unwelcome contrast, not a straightforward reason."
+        }
+      ]
+    },
+    {
+      "id": "ho-ga-ii",
+      "name": "〜ほうがいい (hou ga ii) — had better / should",
+      "shortDescription": "Gives advice: 'you had better do X' or 'it would be better to'.",
+      "formation": "Verb (た-form) + ほうがいい (affirmative advice)  |  Verb (ない-form) + ほうがいい (negative advice)",
+      "explanation": "ほうがいい is the standard way to give advice or recommendations in Japanese — 'it would be better to' or 'you had better.' There are two forms based on the type of advice. For affirmative advice — recommending that someone do something — use the past plain form (た-form): 早[はや]く寝[ね]たほうがいい (You should go to bed early). For negative advice — recommending against something — use the ない-form: 無理[むり]をしないほうがいい (You'd better not overdo it).\n\nA common stumbling block: affirmative advice always uses the た-form (past), not the dictionary form. 早[はや]く寝[ね]るほうがいい sounds unnatural — always use the た-form for positive advice. Adding よ at the end gives the advice a gentle but assertive nudge: 早[はや]く寝[ね]たほうがいいですよ.\n\nThis pattern is a recommendation, not a command — it is noticeably milder than 〜なくてはいけない (must do), which expresses true obligation.",
+      "rules": [
+        "Affirmative advice: Verb (た-form) + ほうがいい (e.g., 行[い]ったほうがいい = you should go)",
+        "Negative advice: Verb (ない-form) + ほうがいい (e.g., 行[い]かないほうがいい = you'd better not go)",
+        "IMPORTANT: affirmative advice uses た-form (past), NOT the dictionary form",
+        "Adding よ at the end softens and asserts the advice gently",
+        "This is advice/recommendation — milder than obligation forms like 〜なければならない"
+      ],
+      "examples": [
+        {
+          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[きょう]は家[いえ]にいたほうがいいですよ。",
+          "romaji": "Kaze wo hiite iru kara, kyou wa ie ni ita hou ga ii desu yo.",
+          "english": "Since you have a cold, you'd better stay home today."
+        },
+        {
+          "japanese": "明日[あした]、早起[はやお]きしたほうがいいですよ。",
+          "romaji": "Ashita, hayaoki shita hou ga ii desu yo.",
+          "english": "You should wake up early tomorrow."
+        },
+        {
+          "japanese": "そんなに甘[あま]いものを食[た]べないほうがいいですよ。",
+          "romaji": "Sonna ni amai mono wo tabenai hou ga ii desu yo.",
+          "english": "You'd better not eat so many sweets."
+        },
+        {
+          "japanese": "一人[ひとり]で夜遅[よるおそ]く外[そと]に出[で]ないほうがいいと思[おも]います。",
+          "romaji": "Hitori de yoru osoku soto ni denai hou ga ii to omoimasu.",
+          "english": "I think you'd better not go out alone late at night."
+        }
+      ],
+      "flashcardHeader": "〜ほうがいい",
+      "flashcardAnswer": "Gives advice: 'you had better do X' or 'it would be better to'.",
+      "practice": [
+        {
+          "id": "ho-ga-ii_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "風邪[かぜ]を引[ひ]いているから、今日[きょう]は家[いえ]にいたほうがいいですよ。",
+          "choices": [
+            "Since you're staying home, you must have a cold.",
+            "Since you'd better stay home, you have a cold.",
+            "Since you have a cold, you'd better stay home today.",
+            "Since you have a cold, you should go to the hospital today."
+          ],
+          "correctIndex": 2,
+          "explanation": "いたほうがいい is the た-form (いた) of いる + ほうがいい, giving affirmative advice: 'it would be better to stay home.' から signals the reason (having a cold). The よ adds a gentle, caring assertive nuance. Option B replaces the advice with something different."
+        },
+        {
+          "id": "ho-ga-ii_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete this advice.",
+          "japanese": "そんなに甘[あま]いものを食[た]べない___がいいですよ。",
+          "choices": [
+            "ほう",
+            "の",
+            "こと",
+            "よう"
+          ],
+          "correctIndex": 0,
+          "explanation": "ない-form + ほうがいい = 'it would be better not to do.' ほう (direction/side) is the noun in this fixed expression. 食[た]べないほうがいい = 'the not-eating side is better' → 'you'd better not eat.' の, こと, and よう cannot substitute here."
+        },
+        {
+          "id": "ho-ga-ii_q3",
+          "type": "construct",
+          "prompt": "How do you say 'You should go to bed early' using ほうがいい?",
+          "japanese": null,
+          "choices": [
+            "早[はや]く寝[ね]るほうがいいです。",
+            "早[はや]く寝[ね]てほうがいいです。",
+            "早[はや]く寝[ね]たほうがいいです。",
+            "早[はや]く寝[ね]ないほうがいいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Affirmative advice uses the た-form (past plain form): 寝[ね]た + ほうがいい. Using the dictionary form 寝[ね]る (Option B) is a very common learner error — always use た-form for positive advice. Option C (寝[ね]ない) is negative advice: 'you'd better NOT sleep early.' Option D (寝[ね]て) uses the wrong form."
+        },
+        {
+          "id": "ho-ga-ii_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "一人[ひとり]で夜遅[よるおそ]く外[そと]に出[で]ないほうがいいと思[おも]います。",
+          "choices": [
+            "I think going out at night alone is not so dangerous.",
+            "I think you'd better not go out alone late at night.",
+            "You'd better not think about going out at night alone.",
+            "I think you should go out alone at night sometimes."
+          ],
+          "correctIndex": 1,
+          "explanation": "出[で]ないほうがいい = 'better not to go out' (ない-form advice). と思[おも]います softens it: 'I think it would be better not to...' 一人[ひとり]で (alone) + 夜遅[よるおそ]く (late at night) + 外[そと]に出[で]ない (not go outside) are the conditions. Option B misreads the negative advice as positive."
+        },
+        {
+          "id": "ho-ga-ii_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses ほうがいい to advise someone NOT to do something?",
+          "japanese": null,
+          "choices": [
+            "タバコを吸[す]ったほうがいいですよ。",
+            "タバコを吸[す]わないほうがいいですよ。",
+            "タバコを吸[す]っていないほうがいいですよ。",
+            "タバコを吸[す]うほうがいいですよ。"
+          ],
+          "correctIndex": 1,
+          "explanation": "ない-form + ほうがいい gives negative advice: 吸[す]わない (don't smoke) + ほうがいい = 'you'd better not smoke.' Options B and C use positive forms (た-form and dictionary form), which advise TO smoke — the opposite meaning. Option D uses the progressive negative ていない, which is unnatural in this pattern."
+        },
+        {
+          "id": "ho-ga-ii_q6",
+          "type": "construct",
+          "prompt": "Which sentence gives advice to rest?",
+          "japanese": null,
+          "choices": [
+            "休[やす]んだほうがいいです。",
+            "休[やす]むほうがいいです。",
+            "休[やす]んでほうがいいです。",
+            "休[やす]むたほうがいいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "For advice to DO something, use た-form + ほうがいい. 休[やす]む → 休[やす]んだほうがいいです = you should rest. 休[やす]むほうがいい (Option B) is a common learner error using the dictionary form — always use た-form for positive advice. Options C and D are ungrammatical forms."
+        },
+        {
+          "id": "ho-ga-ii_q7",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "一人[ひとり]で夜遅[よるおそ]く歩[ある]かないほうがいいですよ。",
+          "choices": [
+            "You should walk alone late at night.",
+            "You'd better not walk alone late at night.",
+            "You must not walk alone late at night.",
+            "You should come home late at night."
+          ],
+          "correctIndex": 1,
+          "explanation": "歩[ある]かない (ない-form of 歩[ある]く) + ほうがいい = negative advice: 'it would be better not to walk alone late at night.' よ adds a gentle, caring assertive tone. Option A has the opposite meaning. Option C (must not) uses stronger prohibition language — ほうがいい is softer advice, not a strict ban. Option D changes the action entirely."
+        },
+        {
+          "id": "ho-ga-ii_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the correct form of 食[た]べる to give positive advice: 'You should eat more vegetables.'",
+          "japanese": "もっと野菜[やさい]を食[た]べ___ほうがいいですよ。",
+          "choices": [
+            "ない",
+            "て",
+            "た",
+            "る"
+          ],
+          "correctIndex": 2,
+          "explanation": "Positive advice uses た-form + ほうがいい: 食[た]べる → 食[た]べた + ほうがいい = 食[た]べたほうがいいですよ. The blank sits between 食[た]べ and ほうがいい, so た fills it. Using る (dictionary form, Option D) is the most common learner error for positive advice. て (te-form) is ungrammatical in this pattern. ない gives the opposite negative advice."
+        },
+        {
+          "id": "ho-ga-ii_q9",
+          "type": "usage",
+          "prompt": "Which sentence uses ほうがいい as a COMPARISON ('X is better') rather than as advice?",
+          "japanese": null,
+          "choices": [
+            "薬[くすり]を飲[の]んだほうがいいです。",
+            "早[はや]く寝[ね]たほうがいいですよ。",
+            "無理[むり]をしないほうがいいと思[おも]います。",
+            "このかばんのほうがいいですね。"
+          ],
+          "correctIndex": 3,
+          "explanation": "このかばんのほうがいいですね = 'This bag is better, isn't it?' — a comparison between options using noun + のほうがいい. This is the comparison use, not advice. Options A, B, and C all use verb た-form or ない-form + ほうがいい, making them advice constructions (recommending or discouraging an action)."
+        },
+        {
+          "id": "ho-ga-ii_q10",
+          "type": "construct",
+          "prompt": "How do you say 'You should exercise more' using ほうがいい and the irregular verb する?",
+          "japanese": null,
+          "choices": [
+            "もっと運動[うんどう]したほうがいいですよ。",
+            "もっと運動[うんどう]するほうがいいですよ。",
+            "もっと運動[うんどう]してほうがいいですよ。",
+            "もっと運動[うんどう]しないほうがいいですよ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "する is irregular: する → した (た-form). もっと運動[うんどう]した + ほうがいい = 'you should exercise more.' Option B uses the dictionary form (するほうがいい) — the most common learner error for positive advice. Option C uses te-form (して), which is not valid in this pattern. Option D uses しないほうがいい = negative advice ('you'd better not exercise more') — the opposite meaning."
+        },
+        {
+          "id": "ho-ga-ii_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to advise someone to go to the hospital soon using the correct た-form.",
+          "japanese": "早[はや]めに病院[びょういん]に___ほうがいいですよ。",
+          "choices": [
+            "行[い]かない",
+            "行[い]った",
+            "行[い]って",
+            "行[い]く"
+          ],
+          "correctIndex": 1,
+          "explanation": "Positive advice uses た-form: 行[い]く → 行[い]った + ほうがいい = 行[い]ったほうがいいですよ (you should go to the hospital soon). 早[はや]めに = 'sooner rather than later.' 行[い]く (dictionary form, Option D) is a common learner error — always use た-form for positive advice. 行[い]かない (Option A) gives negative advice. 行[い]って (Option C) uses the te-form, which is not part of this pattern."
+        },
+        {
+          "id": "ho-ga-ii_q12",
+          "type": "translation",
+          "prompt": "What does this question mean?",
+          "japanese": "どうしたほうがいいと思[おも]いますか。",
+          "choices": [
+            "What did you decide to do?",
+            "Why do you think that would be better?",
+            "What do you think I should do?",
+            "How did things turn out better than expected?"
+          ],
+          "correctIndex": 2,
+          "explanation": "どうしたほうがいいですか = 'What would it be better to do?' / 'What should I do?' どう (what/how) + した (た-form of する) + ほうがいい = advice-seeking question. と思[おも]いますか softens it to 'What do you think I should do?' This is a natural way to ask someone for advice."
+        },
+        {
+          "id": "ho-ga-ii_q13",
+          "type": "usage",
+          "prompt": "Your doctor tells you to quit smoking. Which sentence correctly uses ほうがいい?",
+          "japanese": null,
+          "choices": [
+            "タバコを吸[す]ったほうがいいですよ。",
+            "タバコをやめるほうがいいですよ。",
+            "タバコをやめてほうがいいですよ。",
+            "タバコをやめたほうがいいですよ。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Positive advice (recommending TO do something) uses た-form: やめた + ほうがいい = やめたほうがいいですよ (you should quit smoking). Option A gives the opposite advice (吸[す]ったほうがいい = you should smoke). Option B uses the dictionary form (やめる) — the most common learner error for positive advice. Option C uses te-form (やめて), which is ungrammatical in this pattern."
+        },
+        {
+          "id": "ho-ga-ii_q14",
+          "type": "construct",
+          "prompt": "How do you say 'You should have brought an umbrella' (hindsight) using ほうがよかったです?",
+          "japanese": null,
+          "choices": [
+            "傘[かさ]を持[も]ってきたほうがよかったですね。",
+            "傘[かさ]を持[も]ってくるほうがよかったですね。",
+            "傘[かさ]を持[も]ってこなかったほうがよかったですね。",
+            "傘[かさ]を持[も]っていったほうがいいですね。"
+          ],
+          "correctIndex": 0,
+          "explanation": "た-form + ほうがよかったです expresses hindsight regret: 'It would have been better if...' / 'You should have...' 持[も]ってきた (た-form of 持[も]ってくる) + ほうがよかった = 'should have brought.' Option B uses the dictionary form 来[く]る. Option C uses the negative (こなかった) — meaning 'it would have been better NOT to bring an umbrella' (opposite). Option D shifts to present advice (ほうがいい) with a different verb."
+        },
+        {
+          "id": "ho-ga-ii_q15",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "そんなに無理[むり]をしないほうがいいと思[おも]います。",
+          "choices": [
+            "I think you should push yourself harder.",
+            "I think you'd better not push yourself so hard.",
+            "You must not try hard at all.",
+            "I think you shouldn't have pushed yourself so hard."
+          ],
+          "correctIndex": 1,
+          "explanation": "無理[むり]をしない (ない-form of 無理[むり]をする) + ほうがいい = 'it would be better not to overdo it.' そんなに = 'to that extent / so much.' と思[おも]います softens the advice: 'I think it would be better not to...' Option A is the opposite (positive advice). Option C (must not) is stronger prohibition language than the mild ほうがいい. Option D implies hindsight regret — a different nuance."
+        },
+        {
+          "id": "ho-ga-ii_q16",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank using the irregular た-form of 来[く]る to advise someone to come early.",
+          "japanese": "明日[あした]の会議[かいぎ]には早[はや]めに___ほうがいいですよ。",
+          "choices": [
+            "こないで",
+            "くる",
+            "きた",
+            "きて"
+          ],
+          "correctIndex": 2,
+          "explanation": "来[く]る is irregular. Its た-form is きた (not くった). 早[はや]めに + きた + ほうがいい = きたほうがいいですよ (you should come early). Using the dictionary form くる (Option B) for positive advice is the common learner error. こない (Option A) means 'don't come' — negative form, giving opposite advice. きて (Option D) is the te-form, which is not used in this pattern."
+        },
+        {
+          "id": "ho-ga-ii_q17",
+          "type": "usage",
+          "prompt": "Which sentence uses ほうがいい as ADVICE (recommending an action), not as a comparison between things?",
+          "japanese": null,
+          "choices": [
+            "コーヒーよりお茶[ちゃ]のほうがいいです。",
+            "電車[でんしゃ]より歩[ある]いたほうがはやいです。",
+            "夏[なつ]より冬[ふゆ]のほうがいいですか。",
+            "もっと休[やす]んだほうがいいですよ。"
+          ],
+          "correctIndex": 3,
+          "explanation": "もっと休[やす]んだほうがいいですよ = 'You should rest more' — verb た-form + ほうがいい is the advice construction. Options A and C use noun + のほうがいい for comparison ('tea is better than coffee,' 'is winter better than summer?'). Option B uses 歩[ある]いたほうがはやい for comparing methods (walking is faster) — not giving personal behavioral advice."
+        },
+        {
+          "id": "ho-ga-ii_q18",
+          "type": "construct",
+          "prompt": "Your friend looks pale. Which sentence correctly advises them to see a doctor using ほうがいい?",
+          "japanese": null,
+          "choices": [
+            "お医者[いしゃ]さんに診[み]てもらったほうがいいよ。",
+            "お医者[いしゃ]さんに診[み]てもらうほうがいいよ。",
+            "お医者[いしゃ]さんに診[み]てもらってほうがいいよ。",
+            "お医者[いしゃ]さんに診[み]てもらわないほうがいいよ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "診[み]てもらった (た-form of 診[み]てもらう) + ほうがいい = 'you should have the doctor examine you.' This is a natural friend-to-friend piece of advice. Option B uses the dictionary form (診[み]てもらうほうがいいよ) — the common positive-advice error. Option C uses te-form (診[み]てもらって), which is ungrammatical in this pattern. Option D gives the opposite negative advice ('you'd better not have the doctor examine you')."
+        },
+        {
+          "id": "ho-ga-ii_q19",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "あのとき正直[しょうじき]に話[はな]したほうがよかったですね。",
+          "choices": [
+            "You should be honest right now.",
+            "It would have been better if you had spoken honestly at that time.",
+            "You'll probably speak honestly next time.",
+            "You were speaking honestly then, weren't you?"
+          ],
+          "correctIndex": 1,
+          "explanation": "た-form (話[はな]した) + ほうがよかったですね = hindsight reflection: 'It would have been better if  had spoken honestly at that time.' あのとき = 'at that time.' This is distinct from したほうがいいです (present or future advice). よかった (past form of いい) signals looking back with regret or reflection. ね adds a shared, reflective tone."
+        },
+        {
+          "id": "ho-ga-ii_q20",
+          "type": "usage",
+          "prompt": "Which sentence contains an ERROR in the ほうがいい pattern?",
+          "japanese": null,
+          "choices": [
+            "早[はや]く行[い]ったほうがいいよ。",
+            "薬[くすり]を飲[の]まないほうがいいです。",
+            "もっとゆっくり話[はな]すほうがいいですよ。",
+            "先生[せんせい]に相談[そうだん]したほうがいいと思[おも]う。"
+          ],
+          "correctIndex": 2,
+          "explanation": "話[はな]すほうがいいですよ uses the dictionary form (話[はな]す) for positive advice — the classic learner error. Correct form: 話[はな]したほうがいいですよ (た-form). Option A correctly uses た-form (行[い]った) for positive advice. Option B correctly uses ない-form (飲[の]まない) for negative advice. Option D correctly uses た-form (相談[そうだん]した) for positive advice."
+        }
+      ]
+    },
+    {
+      "id": "sugiru",
+      "name": "〜すぎる (sugiru) — too much / excessively",
+      "shortDescription": "Attaches to verbs and adjectives to mean 'too much' or 'excessively'.",
+      "formation": "Verb stem + すぎる  |  い-adj stem (drop い) + すぎる  |  な-adj stem (drop な) + すぎる",
+      "explanation": "すぎる means \"to exceed a desirable limit\" — \"too much,\" \"too many,\" or \"excessively.\" The nuance is almost always negative: the amount surpasses what is good or appropriate. What it attaches to depends on the word type:\n- Verb stem: 食[た]べすぎる (overeat), 飲[の]みすぎる (drink too much)\n- い-adjective (drop the final い): 高[たか]すぎる (too expensive), 難[むずか]しすぎる (too difficult)\n- な-adjective (base form): 静[しず]かすぎる (too quiet), 便利[べんり]すぎる (too convenient)\n\nすぎる is itself a Group 2 (る-verb), so it conjugates normally: すぎます (polite), すぎました (past), すぎて (te-form). That て-form is especially powerful because it lets you chain a consequence: 食[た]べすぎて、気持[きも]ちが悪[わる]いです (I ate too much and now feel sick). 飲[の]みすぎて、頭[あたま]が痛[いた]いです (I drank too much and have a headache).",
+      "rules": [
+        "Verb stem + すぎる (食[た]べすぎる = overeat, 飲[の]みすぎる = drink too much)",
+        "い-adj: drop い + すぎる (高[たか]い → 高[たか]すぎる = too expensive)",
+        "な-adj: drop な + すぎる (静[しず]か → 静[しず]かすぎる = too quiet)",
+        "すぎる is a ru-verb and conjugates: すぎます, すぎました, すぎて",
+        "すぎて + result = 'was too X and as a result...'"
+      ],
+      "examples": [
+        {
+          "japanese": "昨日[きのう]お酒[さけ]を飲[の]みすぎて、頭[あたま]が痛[いた]いです。",
+          "romaji": "Kinou osake wo nomisugite, atama ga itai desu.",
+          "english": "I drank too much yesterday and have a headache."
+        },
+        {
+          "japanese": "この服[ふく]は私[わたし]には派手[はで]すぎます。",
+          "romaji": "Kono fuku wa watashi ni wa hade sugimasu.",
+          "english": "These clothes are too flashy for me."
+        },
+        {
+          "japanese": "勉強[べんきょう]しすぎないようにしてください。",
+          "romaji": "Benkyou shi suginai you ni shite kudasai.",
+          "english": "Please be careful not to study too much."
+        },
+        {
+          "japanese": "甘[あま]すぎて、全部[ぜんぶ]食[た]べられませんでした。",
+          "romaji": "Ama sugite, zenbu taberaremasen deshita.",
+          "english": "It was so sweet that I couldn't eat all of it."
+        }
+      ],
+      "flashcardHeader": "〜すぎる",
+      "flashcardAnswer": "Attaches to verbs and adjectives to mean 'too much' or 'excessively'.",
+      "practice": [
+        {
+          "id": "sugiru_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "昨日[きのう]お酒[さけ]を飲[の]みすぎて、頭[あたま]が痛[いた]いです。",
+          "choices": [
+            "I drank a little yesterday and still have a headache.",
+            "I will drink too much today, so I have a headache.",
+            "I drank too much yesterday and now have a headache.",
+            "Because I had a headache yesterday, I drank."
+          ],
+          "correctIndex": 2,
+          "explanation": "飲[の]みすぎて is the te-form of 飲[の]みすぎる (to drink too much). すぎて + result = 'was too X and as a result...' 飲[の]みすぎて、頭[あたま]が痛[いた]い = 'I drank too much and (as a consequence) have a headache.' The te-form links the excessive action to its result."
+        },
+        {
+          "id": "sugiru_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'These clothes are too flashy for me.'",
+          "japanese": "この服[ふく]は私[わたし]には派手[はで]___ます。",
+          "choices": [
+            "すぎて",
+            "すぎ",
+            "くなり",
+            "になり"
+          ],
+          "correctIndex": 1,
+          "explanation": "な-adjective base form + すぎる: 派手[はで] (flashy) + すぎる = 派手[はで]すぎる (too flashy). The polite form is 派手[はで]すぎます, split here as 派手[はで]すぎ + ます. になり means 'become,' くなり is for い-adjectives. すぎて (te-form) would need a consequence clause to follow."
+        },
+        {
+          "id": "sugiru_q3",
+          "type": "construct",
+          "prompt": "How do you say 'This coffee is too hot' using すぎる?",
+          "japanese": null,
+          "choices": [
+            "このコーヒーは熱[あつ]すぎます。",
+            "このコーヒーはすぎて熱[あつ]いです。",
+            "このコーヒーは熱[あつ]いすぎます。",
+            "このコーヒーは熱[あつ]くすぎます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "For い-adjectives, drop い and attach すぎる: 熱[あつ]い → 熱[ねつ] + すぎる = 熱[あつ]すぎる (too hot). Option B incorrectly keeps the full い form. Option C adds く (the adverb form), which is wrong for すぎる. Option D reverses the order — すぎる must follow the adjective stem directly."
+        },
+        {
+          "id": "sugiru_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "甘[あま]すぎて、全部[ぜんぶ]食[た]べられませんでした。",
+          "choices": [
+            "I ate all of it even though it was too sweet.",
+            "It was sweet enough to eat all of it.",
+            "It was so sweet that I couldn't eat all of it.",
+            "It wasn't sweet enough, so I couldn't finish it."
+          ],
+          "correctIndex": 2,
+          "explanation": "甘[あま]すぎて (too sweet — te-form linking cause to consequence) + 全部[ぜんぶ]食[た]べられませんでした (couldn't eat all of it). すぎて + negative result is a very common pattern expressing that an excess prevented something from happening."
+        },
+        {
+          "id": "sugiru_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly forms すぎる with a な-adjective?",
+          "japanese": null,
+          "choices": [
+            "この部屋[へや]は静[しず]かなすぎます。",
+            "この部屋[へや]は静[せい]すぎます。",
+            "この部屋[へや]は静[しず]かすぎます。",
+            "この部屋[へや]は静[しず]かにすぎます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "な-adjective: use the base form (drop な) and attach すぎる directly. 静[しず]か + すぎる = 静[しず]かすぎる (too quiet). Option B incorrectly keeps な. Option C uses the adverb form 静[しず]かに. Option D drops too much of the stem — 静[しず]か is the correct base without any further reduction."
+        },
+        {
+          "id": "sugiru_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "昨日[きのう]食[た]べすぎて、お腹[なか]が痛[いた]いです。",
+          "choices": [
+            "I ate too much yesterday and have a stomachache.",
+            "I haven't eaten enough today, so my stomach hurts.",
+            "I'll probably eat too much today.",
+            "Because my stomach hurt yesterday, I ate."
+          ],
+          "correctIndex": 0,
+          "explanation": "食[た]べすぎて is the te-form of 食[た]べすぎる (to eat too much): verb masu-stem 食[た]べ + すぎて = 食[た]べすぎて. The te-form links the excessive action to its consequence: 食[た]べすぎて、お腹[なか]が痛[いた]い = 'I ate too much and (as a result) have a stomachache.' Option D reverses the cause-effect relationship."
+        },
+        {
+          "id": "sugiru_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say the rent is too expensive.",
+          "japanese": "このアパートは家賃[やちん]が___すぎて、借[か]りられません。",
+          "choices": [
+            "高[たか]い",
+            "高[たか]",
+            "高[たか]く",
+            "高[たか]な"
+          ],
+          "correctIndex": 1,
+          "explanation": "For い-adjectives, drop い and attach すぎる directly to the stem: 高[たか]い → 高[たか] + すぎる = 高[たか]すぎる (too expensive). The blank is before すぎて, so only the stem 高[たか] goes here. Keeping the full い (Option A: 高[たか]いすぎて) is the most common learner error. 高[たか]く (Option C) is the adverb form. 高[たか]な (Option D) is not a real form."
+        },
+        {
+          "id": "sugiru_q8",
+          "type": "construct",
+          "prompt": "How do you say 'This library is too quiet' using すぎる?",
+          "japanese": null,
+          "choices": [
+            "この図書館[としょかん]は静[しず]かなすぎます。",
+            "この図書館[としょかん]は静[せい]すぎます。",
+            "この図書館[としょかん]は静[しず]かすぎます。",
+            "この図書館[としょかん]は静[しず]かにすぎます。"
+          ],
+          "correctIndex": 2,
+          "explanation": "な-adjectives: use the base form (drop な) and attach すぎる directly. 静[しず]か + すぎる = 静[しず]かすぎます (too quiet). Option A incorrectly keeps な (静[しず]かなすぎます). Option B drops too much — the correct base is 静[しず]か (not 静[せい]). Option D uses the adverb form 静[しず]かに, which is not how すぎる attaches to な-adjectives."
+        },
+        {
+          "id": "sugiru_q9",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses すぎた (past plain form) to say 'I studied too much last night'?",
+          "japanese": null,
+          "choices": [
+            "昨夜[さくや]は勉強[べんきょう]がすぎた。",
+            "昨夜[さくや]は勉強[べんきょう]をすぎた。",
+            "昨夜[さくや]は勉強[べんきょう]するすぎた。",
+            "昨夜[さくや]は勉強[べんきょう]しすぎた。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Verb masu-stem + すぎた: 勉強[べんきょう]する → masu-stem 勉強[べんきょう]し + すぎた = 勉強[べんきょう]しすぎた (studied too much — past plain). すぎる is a ru-verb; its past plain form is すぎた. Options A and B insert particles (が / を) between the verb stem and すぎた — no particle belongs here. Option C uses the dictionary form 勉強[べんきょう]する instead of the masu-stem."
+        },
+        {
+          "id": "sugiru_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "勉強[べんきょう]しすぎないようにしてください。",
+          "choices": [
+            "Please be careful not to study too much.",
+            "Please study as much as possible.",
+            "Make sure to stop studying.",
+            "Please try not to skip studying."
+          ],
+          "correctIndex": 0,
+          "explanation": "しすぎない (negative of しすぎる = 'not doing too much') + ようにしてください = 'please try not to / please be careful not to.' Verb masu-stem し + すぎない = 'not too much.' ようにしてください requests care or effort. Option B is the opposite (study as much as possible). Option C (stop studying) is stronger than simply 'not too much.'"
+        },
+        {
+          "id": "sugiru_q11",
+          "type": "construct",
+          "prompt": "How do you say 'This hotel is almost too good to be true' using the irregular すぎる form of いい?",
+          "japanese": null,
+          "choices": [
+            "このホテルはいいすぎます。",
+            "このホテルはよすぎます。",
+            "このホテルはいすぎます。",
+            "このホテルはよくすぎます。"
+          ],
+          "correctIndex": 1,
+          "explanation": "いい is irregular in derived forms: いい → よい → よ + すぎる = よすぎる (too good). Polite form: よすぎます. Never attach すぎる directly to いい (いいすぎます — Option A is the common learner error). いすぎます (Option C) drops too much of the stem. よくすぎます (Option D) incorrectly uses the く adverb form."
+        },
+        {
+          "id": "sugiru_q12",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'because I drank too much last night' (te-form required).",
+          "japanese": "昨夜[さくや]お酒[さけ]を飲[の]み___て、今日[きょう]は具合[ぐあい]が悪[わる]いです。",
+          "choices": [
+            "すぎなく",
+            "すぎる",
+            "すぎ",
+            "すぎない"
+          ],
+          "correctIndex": 2,
+          "explanation": "The te-form of 飲[の]みすぎる is 飲[の]みすぎて. The blank sits between 飲[の]み and て, so すぎ fills it. すぎる (Option B) is the dictionary form — not te-form. すぎない (Option D) is the negative form. すぎなく (Option A) is the adverb form of the negative (すぎない → すぎなく), used in different contexts."
+        },
+        {
+          "id": "sugiru_q13",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses two すぎる forms in a single sentence?",
+          "japanese": null,
+          "choices": [
+            "この部屋[へや]は暑[あつ]いすぎて、うるさすぎます。",
+            "このスープは熱[あつ]すぎて、辛[つら]くすぎます。",
+            "あの授業[じゅぎょう]は長[なが]くすぎて、難[むずか]しすぎた。",
+            "このかばんは重[おも]すぎて、大[おお]きすぎます。"
+          ],
+          "correctIndex": 3,
+          "explanation": "このかばんは重[おも]すぎて、大[おお]きすぎます correctly doubles すぎる: 重[おも]い → 重[おも] + すぎて (too heavy, te-form linking clauses) and 大[おお]きい → 大[おお]き + すぎます (too big). Option A incorrectly keeps い in 暑[あつ]いすぎて. Option B uses 辛[つら]くすぎます — く is the adverb form, not the adjective stem. Option C uses 長[なが]くすぎて — the same く error."
+        },
+        {
+          "id": "sugiru_q14",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "この音楽[おんがく]はうるさすぎて、集中[しゅうちゅう]できません。",
+          "choices": [
+            "This music is too loud and I can't concentrate.",
+            "Because this music is too quiet, I can concentrate.",
+            "This music is too good to concentrate on.",
+            "I can't concentrate because I turned the music up too much."
+          ],
+          "correctIndex": 0,
+          "explanation": "うるさい (loud/noisy) → うるさ + すぎて (too loud, te-form) + 集中[しゅうちゅう]できません (can't concentrate). すぎて links cause (excessive loudness) to consequence (inability to concentrate). Option B reverses the adjective (too quiet vs too loud). Option C misreads うるさすぎる as a positive quality. Option D misidentifies the subject."
+        },
+        {
+          "id": "sugiru_q15",
+          "type": "construct",
+          "prompt": "How do you ask 'Isn't this a bit too expensive?' using すぎませんか?",
+          "japanese": null,
+          "choices": [
+            "これはちょっと高[たか]いじゃないですか。",
+            "これはちょっと高[たか]すぎませんか。",
+            "これはちょっと高[たか]くすぎませんか。",
+            "これはちょっと高[たか]いすぎませんか。"
+          ],
+          "correctIndex": 1,
+          "explanation": "い-adj stem + すぎませんか = polite question asking if something is excessively X: 高[たか]い → 高[たか] + すぎませんか = 高[たか]すぎませんか (isn't it too expensive?). すぎませんか is the polite negative question of すぎます. Option A uses じゃないですか (doesn't use すぎる at all). Option C uses 高[たか]く (adverb form). Option D incorrectly keeps the full 高[たか]い before すぎません."
+        },
+        {
+          "id": "sugiru_q16",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to say 'I studied too much before the exam and paradoxically couldn't sleep.'",
+          "japanese": "試験[しけん]の前[まえ]に___すぎて、かえって眠[ねむ]れませんでした。",
+          "choices": [
+            "勉強[べんきょう]を",
+            "勉強[べんきょう]が",
+            "勉強[べんきょう]し",
+            "勉強[べんきょう]する"
+          ],
+          "correctIndex": 2,
+          "explanation": "する-verb compound: 勉強[べんきょう]する → masu-stem 勉強[べんきょう]し + すぎて = 勉強[べんきょう]しすぎて (studied too much — te-form). The blank sits between 勉強[べんきょう] and すぎて — the し is the verb masu-stem. かえって = 'paradoxically / on the contrary.' Options A and B insert particles (を / が) where the verb stem should go. Option D uses the full dictionary form 勉強[べんきょう]する instead of the masu-stem."
+        },
+        {
+          "id": "sugiru_q17",
+          "type": "usage",
+          "prompt": "A jacket costs ¥500,000. Which sentence best uses すぎる to express it's too expensive to buy?",
+          "japanese": null,
+          "choices": [
+            "このジャケットはとても高[たか]いです！",
+            "このジャケットは高[たか]くて買[か]えませんね。",
+            "このジャケットは高[たか]いほうがいいです。",
+            "このジャケットは高[たか]すぎて買[か]えませんよ！"
+          ],
+          "correctIndex": 3,
+          "explanation": "高[たか]すぎて (too expensive — te-form) + 買[か]えませんよ (can't buy) = 'This jacket is too expensive to buy!' すぎて links the excess to its consequence. Option A uses とても高[たか]い ('very expensive') without すぎる. Option B uses 高[たか]くて (て-form for reason/listing) — not the excessive すぎる. Option C uses ほうがいい — a different pattern entirely."
+        },
+        {
+          "id": "sugiru_q18",
+          "type": "construct",
+          "prompt": "How do you say 'I have been working too much lately' using すぎている?",
+          "japanese": null,
+          "choices": [
+            "最近[さいきん]働[はたら]きすぎています。",
+            "最近[さいきん]働[はたら]きすぎました。",
+            "最近[さいきん]働[はたら]くすぎています。",
+            "最近[さいきん]働[はたら]いすぎています。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Verb masu-stem + すぎている (ongoing state of doing too much): 働[はたら]く → masu-stem 働[はたら]き + すぎている = 働[はたら]きすぎています. 最近[さいきん] = 'lately / recently.' Option B uses すぎました (past, already completed — one-time event). Option C inserts く incorrectly between the verb and すぎる. Option D uses the te-form 働[はたら]い instead of the masu-stem 働[はたら]き."
+        },
+        {
+          "id": "sugiru_q19",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "この場所[ばしょ]は便利[べんり]すぎて、毎日[まいにち]来[き]てしまいます。",
+          "choices": [
+            "This place is too inconvenient to come to every day.",
+            "This place is so convenient that I end up coming every day.",
+            "I come here every day because it's just convenient enough.",
+            "This place would be convenient if only I came every day."
+          ],
+          "correctIndex": 1,
+          "explanation": "便利[べんり] (な-adj base) + すぎて (too convenient, te-form) + 毎日[まいにち]来[き]てしまいます = 'This place is so convenient that I end up coming every day.' してしまう expresses an irresistible or unintentional result. Option A reverses the adjective (inconvenient). Options C and D misread すぎる as 'just right' rather than 'excessively.'"
+        },
+        {
+          "id": "sugiru_q20",
+          "type": "construct",
+          "prompt": "Which sentence correctly uses すぎた (plain past) to say you slept too much this morning?",
+          "japanese": null,
+          "choices": [
+            "今朝[けさ]は寝[ね]るすぎた。",
+            "今朝[けさ]は寝[ね]いすぎた。",
+            "今朝[けさ]は寝[ね]すぎた。",
+            "今朝[けさ]は寝[ね]てすぎた。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Verb masu-stem + すぎた (past plain form): 寝[ね]る → masu-stem 寝[ね] + すぎた = 寝[ね]すぎた (slept too much). Option A incorrectly uses the dictionary form 寝[ね]る before すぎた. Option B inserts い incorrectly — possibly confused with い-adjective stem patterns. Option D uses the te-form 寝[ね]て instead of the masu-stem 寝[ね]."
+        }
+      ]
+    },
+    {
+      "id": "nakucha",
+      "name": "〜なくてはいけない / 〜なきゃ — must do / have to",
+      "shortDescription": "Double-negative obligation form — 'must do' or 'have to do' — with common casual contractions なくちゃ / なきゃ.",
+      "formation": "Verb (ない-form, drop い) + くてはいけない / くてはなりません",
+      "explanation": "〜なくてはいけない means 'must do' or 'have to do' — it expresses a firm obligation. Build it by taking the ない-form of the verb, dropping the final い, and adding くてはいけない. 食[た]べない → 食[た]べ + なくてはいけない → 食[た]べなくてはいけない (must eat). The logic hidden in the grammar: this literally means 'if one does not do X, it will not do' — not doing is unacceptable. The formal version is なくてはなりません, common in written announcements and official contexts.\n\nIn everyday casual speech, Japanese people almost always shorten this dramatically: なくちゃ or なきゃ. 行[い]かなくちゃ = 行[い]かなきゃ = 'I gotta go.' You will hear these shortened forms constantly in real conversation, so recognizing them is just as important as knowing the full form.\n\nDo not confuse this pattern with 〜てはいけない (covered in Chapter 6), which means 'must NOT do' — they are mirror-image patterns: one is obligation, the other is prohibition.",
+      "rules": [
+        "Pattern: Verb (ない-form, drop い) + くてはいけない = must do / have to do",
+        "Formal: 〜なくてはなりません (written, official contexts)",
+        "Casual shortcuts: なくちゃ / なきゃ (very common in spoken Japanese)",
+        "Contrast: 〜てはいけない = must NOT do (prohibition); 〜なくてはいけない = MUST do (obligation)",
+        "The double negative structure (なく-てはいけない) means 'not doing is not okay'"
+      ],
+      "examples": [
+        {
+          "japanese": "明日[あした]までにレポートを出[だ]さなくてはいけません。",
+          "romaji": "Ashita made ni repooto wo dasanakute wa ikemasen.",
+          "english": "I have to submit the report by tomorrow."
+        },
+        {
+          "japanese": "もっと野菜[やさい]を食[た]べなくてはいけませんね。",
+          "romaji": "Motto yasai wo tabenakute wa ikemasen ne.",
+          "english": "I really should eat more vegetables, huh."
+        },
+        {
+          "japanese": "あ、もう帰[かえ]らなきゃ！",
+          "romaji": "A, mou kaeranakya!",
+          "english": "Oh, I gotta head home already!"
+        },
+        {
+          "japanese": "試験[しけん]に合格[ごうかく]するためにもっと勉強[べんきょう]しなければなりません。",
+          "romaji": "Shiken ni goukaku suru tame ni motto benkyou shinakereba narimasen.",
+          "english": "I must study more in order to pass the exam."
+        }
+      ],
+      "flashcardHeader": "〜なくてはいけない / 〜なきゃ",
+      "flashcardAnswer": "Expresses obligation or necessity: something that must be done.",
+      "practice": [
+        {
+          "id": "nakucha_q1",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]までにレポートを出[だ]さなくてはいけません。",
+          "choices": [
+            "Someone will submit the report by tomorrow.",
+            "I submitted the report yesterday.",
+            "I have to submit the report by tomorrow.",
+            "I don't have to submit a report."
+          ],
+          "correctIndex": 2,
+          "explanation": "出[だ]さなくてはいけません: ない-form of 出[だ]す (出[だ]さない) → drop い → 出[だ]さなくてはいけません = 'must submit.' 明日[あした]まで = 'by tomorrow.' The double-negative structure means 'not doing is not okay' = you must do it. Option C would be 出[だ]さなくてもいいです (don't have to submit)."
+        },
+        {
+          "id": "nakucha_q2",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank with the most natural casual contraction.",
+          "japanese": "あ、もう帰[かえ]らな___！",
+          "choices": [
+            "きゃ",
+            "くない",
+            "いから",
+            "いです"
+          ],
+          "correctIndex": 0,
+          "explanation": "帰[かえ]らなきゃ is a casual contraction of 帰[かえ]らなければ (if I don't go home), part of 帰[かえ]らなければいけない (must go home). なきゃ is the everyday spoken shortcut. いです and くない are negative adjective endings. いから means 'because  don't.'"
+        },
+        {
+          "id": "nakucha_q3",
+          "type": "construct",
+          "prompt": "What is the natural casual equivalent of 起[お]きなくてはいけません (I must wake up)?",
+          "japanese": null,
+          "choices": [
+            "起[お]きないほうがいい",
+            "起[お]きてはいけない",
+            "起[お]きたくない",
+            "起[お]きなきゃ"
+          ],
+          "correctIndex": 3,
+          "explanation": "起[お]きなきゃ is the casual contraction of 起[お]きなければいけない: 'I gotta wake up.' 起[お]きたくない = 'I don't want to wake up' (desire). 起[お]きないほうがいい = 'you'd better not wake up' (advice). 起[お]きてはいけない = 'you must NOT wake up' (prohibition) — the mirror-image pattern."
+        },
+        {
+          "id": "nakucha_q4",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "試験[しけん]に合格[ごうかく]するためにもっと勉強[べんきょう]しなければなりません。",
+          "choices": [
+            "I don't need to study because I'll pass the exam.",
+            "In order to study more, I must take an exam.",
+            "I must study more in order to pass the exam.",
+            "I studied hard so I should pass the exam."
+          ],
+          "correctIndex": 2,
+          "explanation": "試験[しけん]に合格[ごうかく]するために (in order to pass the exam) + もっと勉強[べんきょう]しなければなりません (must study more). なければなりません is the formal version of なくてはいけない. Option B would use 勉強[べんきょう]しなくてもいいです (don't have to study). Option C reverses the purpose clause."
+        },
+        {
+          "id": "nakucha_q5",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses なくてはいけない to express obligation (not prohibition)?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は早[はや]く起[お]きてはいけません。",
+            "明日[あした]は早[はや]く起[お]きなくてもいいです。",
+            "明日[あした]は早[はや]く起[お]きなくてはいけません。",
+            "明日[あした]は早[はや]く起[お]きるなくてはいけません。"
+          ],
+          "correctIndex": 2,
+          "explanation": "ない-form (起[お]きない) → drop い → 起[お]きなくてはいけません = 'must wake up early.' Option B (起[お]きてはいけない) uses te-form + はいけない, which means 'must NOT wake up early' — prohibition, not obligation. Option C uses the dictionary form incorrectly. Option D (〜なくてもいいです) means 'don't have to.'"
+        },
+        {
+          "id": "nakucha_q6",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "8時[じ]までに会社[かいしゃ]に着[つ]かなければなりません。",
+          "choices": [
+            "I must arrive at the company by 8 o'clock.",
+            "I don't have to arrive at the company until 8 o'clock.",
+            "I probably can't arrive at the company by 8 o'clock.",
+            "I arrived at the company by 8 o'clock."
+          ],
+          "correctIndex": 0,
+          "explanation": "着[つ]かなければなりません: ない-form of 着[つ]く (着[つ]かない) → drop い → 着[つ]か + なければなりません = 'must arrive.' 8時[じ]まで = 'by 8 o'clock.' なければなりません is the formal written/spoken obligation form. Option B (don't have to) would be 着[つ]かなくてもいいです. Option C expresses conjecture. Option D is a simple past statement."
+        },
+        {
+          "id": "nakucha_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to form the speech-friendly obligation ないといけない: 'must pack tonight.'",
+          "japanese": "今夜[こんや]中[じゅう]に荷物[にもつ]をまとめない___いけない。",
+          "choices": [
+            "なくては",
+            "と",
+            "ければ",
+            "で"
+          ],
+          "correctIndex": 1,
+          "explanation": "ない + と + いけない = ないといけない — one of the most natural spoken obligation forms. まとめない (negative form) + と + いけない = まとめないといけない = 'must pack.' The logic: 'If I don't pack, it won't do.' と is the conditional 'if.' なくては (Option A) and ければ (Option C) attach differently — they require the ない-form with dropped い, not the full ない-form."
+        },
+        {
+          "id": "nakucha_q8",
+          "type": "construct",
+          "prompt": "Which is the most natural casual way to say 'I gotta do my homework!'?",
+          "japanese": null,
+          "choices": [
+            "宿題[しゅくだい]をしなければなりません！",
+            "宿題[しゅくだい]をしなければいけない！",
+            "宿題[しゅくだい]をしなくちゃ！",
+            "宿題[しゅくだい]をしないといけません！"
+          ],
+          "correctIndex": 2,
+          "explanation": "なくちゃ is the casual contraction of なくてはいけない: 'I gotta...' 宿題[しゅくだい]をしなくちゃ = 'Gotta do my homework!' The いけない is dropped in natural speech. Option A (なければなりません) is formal written register. Option B (なければいけない) is also formal. Option D (ないといけません) is common in speech but still more polite than the ultra-casual なくちゃ."
+        },
+        {
+          "id": "nakucha_q9",
+          "type": "usage",
+          "prompt": "Which sentence means 'You must NOT enter' (prohibition), not 'you must enter' (obligation)?",
+          "japanese": null,
+          "choices": [
+            "入[い]らなければなりません。",
+            "入[い]らなくてはいけません。",
+            "入[い]らなきゃいけない。",
+            "入[はい]ってはいけません。"
+          ],
+          "correctIndex": 3,
+          "explanation": "入[はい]ってはいけません = 'You must NOT enter' — te-form (入[はい]って) + はいけない = prohibition. This is the mirror-image of なくてはいけない. Options A, B, and C all build on the ない-form (入[い]らない) meaning 'must enter' (obligation). The key distinction: te-form + はいけない = must NOT do (prohibition); ない-form stem + くてはいけない = MUST do (obligation)."
+        },
+        {
+          "id": "nakucha_q10",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "報告書[ほうこくしょ]を今日中[きょうじゅう]に提出[ていしゅつ]しなければいけません。",
+          "choices": [
+            "I must submit the report by today.",
+            "I don't have to submit the report today.",
+            "The report has been submitted today.",
+            "I would like to submit the report today."
+          ],
+          "correctIndex": 0,
+          "explanation": "提出[ていしゅつ]する (to submit) → irregular: する → し → しなければいけません. 今日中[きょうじゅう]に = 'by today / within today.' なければいけない is slightly less stiff than なければならない but still formal — both mean 'must.' Option B (don't have to) would be 提出[ていしゅつ]しなくてもいいです. Options C and D express entirely different meanings."
+        },
+        {
+          "id": "nakucha_q11",
+          "type": "construct",
+          "prompt": "What is the MOST casual way to say 'I gotta go now'?",
+          "japanese": null,
+          "choices": [
+            "もう行[い]かなければなりません。",
+            "もう行[い]かなきゃ。",
+            "もう行[い]かないといけません。",
+            "もう行[い]かなければいけません。"
+          ],
+          "correctIndex": 1,
+          "explanation": "なきゃ is the shortest, most casual contraction: 行[い]かなきゃ = 'gotta go.' It derives from 行[い]かなければ with ければ reduced to きゃ, and いけない dropped entirely. You'll hear this constantly in real conversation. Options A (なければなりません) and D (なければいけません) are formal. Option C (ないといけません) is common in speech but more polite than なきゃ."
+        },
+        {
+          "id": "nakucha_q12",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to make this past tense: 'I had to work overtime yesterday.'",
+          "japanese": "昨日[きのう]、残業[ざんぎょう]しなければなりません___。",
+          "choices": [
+            "ね",
+            "か",
+            "でした",
+            "です"
+          ],
+          "correctIndex": 2,
+          "explanation": "なければなりません + でした = なければなりませんでした (had to / was obligated to — past polite). 残業[ざんぎょう]しなければなりませんでした = 'I had to work overtime yesterday.' Adding ね (confirmation particle) or か (question marker) does not create past tense. です (Option D) is present polite — no past meaning."
+        },
+        {
+          "id": "nakucha_q13",
+          "type": "usage",
+          "prompt": "Which sentence means 'You don't have to come' (not 'you must come')?",
+          "japanese": null,
+          "choices": [
+            "来[こ]なければなりません。",
+            "来[こ]なければいけません。",
+            "来[こ]なくてはいけません。",
+            "来[こ]なくてもいいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "なくてもいい = 'even if you don't do X, it's okay' = 'don't have to.' 来[こ]なくてもいいです = 'You don't have to come.' This is the opposite of obligation. Options A, B, and C all use conditional-negative forms meaning 'must come' — differing only in formality. Key contrast: なくてもいい (no obligation, permission not to) vs なくてはいけない (must do, obligation)."
+        },
+        {
+          "id": "nakucha_q14",
+          "type": "translation",
+          "prompt": "What does this sentence mean? (Note: 来[く]る is irregular — its ない-form is 来[こ]ない, not くらない.)",
+          "japanese": "明日[あした]は朝[あさ]8時[じ]に来[こ]なければなりません。",
+          "choices": [
+            "I must come at 8 AM tomorrow.",
+            "I don't have to come until 8 AM tomorrow.",
+            "I probably won't come at 8 AM tomorrow.",
+            "I came at 8 AM this morning."
+          ],
+          "correctIndex": 0,
+          "explanation": "来[く]る (kuru) is irregular. Its ない-form is 来[こ]ない (konai), not くらない. Drop い → 来[こ]な + ければなりません = 来[こ]なければなりません = 'must come.' 朝[あさ]8時[じ]に = 'at 8 AM.' なければなりません is the formal obligation form. The irregular negative stem こ (not く) is the essential step — applying regular rules gives くなければ, which is wrong."
+        },
+        {
+          "id": "nakucha_q15",
+          "type": "construct",
+          "prompt": "You are writing a formal business announcement requiring all staff to attend. Which form is most appropriate?",
+          "japanese": null,
+          "choices": [
+            "全員[ぜんいん]が参加[さんか]しなきゃいけないです。",
+            "全員[ぜんいん]が参加[さんか]しなければなりません。",
+            "全員[ぜんいん]が参加[さんか]しなくちゃです。",
+            "全員[ぜんいん]が参加[さんか]しないといけないよ。"
+          ],
+          "correctIndex": 1,
+          "explanation": "なければなりません is the formal written/official register — correct for announcements, business documents, and formal speech. なきゃいけない (Option A) and なくちゃ (Option C) are casual speech contractions, inappropriate for formal writing. ないといけないよ (Option D) uses the spoken-register form with the familiar particle よ — too casual for a business announcement."
+        },
+        {
+          "id": "nakucha_q16",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete the obligation form ないといけない: 'must take medicine every day.'",
+          "japanese": "毎日[まいにち]薬[くすり]を飲[の]まない___いけないんです。",
+          "choices": [
+            "くては",
+            "なければ",
+            "と",
+            "ければ"
+          ],
+          "correctIndex": 2,
+          "explanation": "ない + と + いけない = ないといけない: 飲[の]まない (negative form) + と + いけない = 飲[の]まないといけない (must take / if I don't take, it won't do). と is the conditional 'if.' くては (Option A) and ければ (Option D) are other obligation constructions — they attach to the ない-form with dropped い (飲[の]まな + くては / ければ), not to the full ない-form. なければ (Option B) would need なりません/いけない after, not just いけない directly."
+        },
+        {
+          "id": "nakucha_q17",
+          "type": "translation",
+          "prompt": "What does this sentence mean?",
+          "japanese": "明日[あした]も残業[ざんぎょう]しなければなりませんか。",
+          "choices": [
+            "Did I have to work overtime yesterday?",
+            "You don't have to work overtime tomorrow.",
+            "Shall we work overtime tomorrow?",
+            "Do I have to work overtime tomorrow too?"
+          ],
+          "correctIndex": 3,
+          "explanation": "なければなりませんか is the question form of formal obligation: 'Must I / Do I have to...?' 明日[あした]も = 'tomorrow too.' Adding か to なければなりません checks whether an obligation applies. Option A is past tense (past would need なければなりませんでしたか). Option B is the opposite meaning (don't have to = なくてもいいです). Option C is a volitional suggestion (〜ましょうか)."
+        },
+        {
+          "id": "nakucha_q18",
+          "type": "construct",
+          "prompt": "Which sentence uses なければいけない (slightly less stiff than なければならない) to say 'I must apologize'?",
+          "japanese": null,
+          "choices": [
+            "謝[あやま]らなければいけません。",
+            "謝[あやま]らなければなりません。",
+            "謝[あやま]らなくちゃいけない。",
+            "謝[あやま]らないといけません。"
+          ],
+          "correctIndex": 0,
+          "explanation": "なければいけない is slightly less formal than なければならない but still appropriate for polite contexts. 謝[あやま]らなければいけません = 'I must apologize.' なければならない (Option B) is more formal/written. なくちゃいけない (Option C) is casual speech. ないといけない (Option D) is the speech-friendly form — common, but structurally different: it attaches to the full ない-form (謝[あやま]らない + と), not the dropped-い stem."
+        },
+        {
+          "id": "nakucha_q19",
+          "type": "usage",
+          "prompt": "Your friend asks if they need to wear a tie to your party. You want to say 'You don't have to wear one.' Which sentence is correct?",
+          "japanese": null,
+          "choices": [
+            "ネクタイをしなければなりませんよ。",
+            "ネクタイはしなくてもいいよ。",
+            "ネクタイをしてはいけないよ。",
+            "ネクタイをしなくちゃね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "しなくてもいい = 'even if you don't wear it, it's fine' = 'you don't have to.' ネクタイはしなくてもいいよ = 'You don't have to wear a tie.' Option A (しなければなりません) means 'you MUST wear a tie' — obligation, the opposite. Option C (してはいけない) means 'you must NOT wear a tie' — prohibition. Option D (しなくちゃ) means 'you gotta wear it' — also obligation."
+        },
+        {
+          "id": "nakucha_q20",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank to complete 'had to practice every day as a child' using the past plain obligation form.",
+          "japanese": "子供[こども]の頃[ごろ]は毎日[まいにち]練習[れんしゅう]し___ならなかった。",
+          "choices": [
+            "なくても",
+            "ないと",
+            "なければ",
+            "なくちゃ"
+          ],
+          "correctIndex": 2,
+          "explanation": "練習[れんしゅう]する → masu-stem 練習[れんしゅう]し + なければ + ならなかった = 練習[れんしゅう]しなければならなかった (had to practice — past plain obligation). The blank is between し and ならなかった, so なければ fills it. なくても (Option A) = 'even without doing' — the opposite meaning (no obligation). ないと + ならなかった (Option B) is unnatural in this past plain form. なくちゃ (Option D) is a casual form that does not combine with ならなかった."
+        }
+      ]
+    },
+    {
+      "id": "nakute-mo-ii",
+      "name": "〜なくてもいい — don't have to / need not",
+      "shortDescription": "Saying an action isn't necessary — the opposite of \"must\".",
+      "formation": "Verb (ない-form, drop the final い) + くてもいい",
+      "explanation": "〜なくてもいい says that something is *not necessary* — \"you don't have to\" or \"you need not.\" It's the natural counterpart to 〜なくてはいけない (\"must\") and 〜てもいい (\"may\").\n- Formation: take the ない-form, drop the final い, and add くてもいい — 行[い]かない → 行[い]かなくてもいい, 食[た]べない → 食[た]べなくてもいい\n- Example: 明日[あした]は休[やす]みだから、早[はや]く起[お]きなくてもいい (Tomorrow is a day off, so I don't have to get up early)\n\nIt completes a very useful trio of permission and obligation:\n- 〜てもいい = you may: 帰[かえ]ってもいい (you may go home)\n- 〜なくてもいい = you don't have to: 帰[かえ]らなくてもいい (you don't have to go home)\n- 〜なくてはいけない = you must: 帰[かえ]らなくてはいけない (you must go home)\n\nSofter, polite variants include 〜なくてもいいです and 〜なくても大丈夫[だいじょうぶ]です. In casual speech it often contracts to 〜なくていい (行[い]かなくていい).",
+      "rules": [
+        "ない-form − い + くてもいい = don't have to / need not",
+        "行[い]かない → 行[い]かなくてもいい; 食[た]べない → 食[た]べなくてもいい",
+        "It's the \"not necessary\" counterpart of 〜なくてはいけない (must)",
+        "Pairs with 〜てもいい (may) and 〜なくてはいけない (must)",
+        "Casual short form: 〜なくていい"
+      ],
+      "examples": [
+        {
+          "japanese": "心配[しんぱい]しなくてもいいですよ。",
+          "romaji": "Shinpai shinakute mo ii desu yo.",
+          "english": "You don't have to worry."
+        },
+        {
+          "japanese": "明日[あした]は来[こ]なくてもいいです。",
+          "romaji": "Ashita wa konakute mo ii desu.",
+          "english": "You don't have to come tomorrow."
+        },
+        {
+          "japanese": "全部[ぜんぶ]食[た]べなくてもいいよ。",
+          "romaji": "Zenbu tabenakute mo ii yo.",
+          "english": "You don't have to eat all of it."
+        },
+        {
+          "japanese": "急[いそ]がなくてもいいですか。",
+          "romaji": "Isoganakute mo ii desu ka.",
+          "english": "Is it okay if I don't hurry?"
+        }
+      ],
+      "flashcardHeader": "〜なくてもいい (don't have to)",
+      "flashcardAnswer": "Saying an action isn't necessary — the opposite of \"must\".",
+      "practice": [
+        {
+          "id": "nakute-mo-ii_q1",
+          "type": "fillBlank",
+          "prompt": "\"You don't have to go\": 行[い]か___",
+          "japanese": "行[い]か___",
+          "choices": [
+            "なくてもいい",
+            "なくてはいけない",
+            "ないでください",
+            "なければならない"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Don't have to\" is 〜なくてもいい: 行[い]かなくてもいい. The others mean \"must not / must,\" \"please don't,\" and \"must.\""
+        },
+        {
+          "id": "nakute-mo-ii_q2",
+          "type": "usage",
+          "prompt": "Which means \"you don't have to worry\"?",
+          "japanese": null,
+          "choices": [
+            "心配[しんぱい]しなくてもいいです。",
+            "心配[しんぱい]してもいいです。",
+            "心配[しんぱい]しなくてはいけません。",
+            "心配[しんぱい]しないでください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "しなくてもいい = don't have to (do). してもいい = may do; しなくてはいけない = must do; しないでください = please don't."
+        },
+        {
+          "id": "nakute-mo-ii_q3",
+          "type": "construct",
+          "prompt": "Make \"don't have to eat\" from 食[た]べない:",
+          "japanese": null,
+          "choices": [
+            "食[た]べなくてもいい",
+            "食[た]べてもいい",
+            "食[た]べないでもいい",
+            "食[た]べなくていけない"
+          ],
+          "correctIndex": 0,
+          "explanation": "Drop the final い of 食[た]べない and add くてもいい → 食[た]べなくてもいい."
+        },
+        {
+          "id": "nakute-mo-ii_q4",
+          "type": "usage",
+          "prompt": "Your boss says the report isn't required. Which tells a coworker \"you don't have to write it\"?",
+          "japanese": null,
+          "choices": [
+            "レポートを書[か]かなくてもいいですよ。",
+            "レポートを書[か]かなくてはいけませんよ。",
+            "レポートを書[か]いてもいいですよ。",
+            "レポートを書[か]かないでくださいよ。"
+          ],
+          "correctIndex": 0,
+          "explanation": "書[か]かなくてもいい = don't have to write. Note it's different from 書[か]かないでください (please don't write), which forbids it."
+        },
+        {
+          "id": "nakute-mo-ii_q5",
+          "type": "translation",
+          "prompt": "Which is \"you don't have to come tomorrow\"?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は来[こ]なくてもいいです。",
+            "明日[あした]は来[こ]てもいいです。",
+            "明日[あした]は来[こ]なくてはいけません。",
+            "明日[あした]は来[こ]ないでください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "来[こ]なくてもいい = don't have to come. The irregular くる becomes 来[こ]ない → 来[こ]なくてもいい."
+        },
+        {
+          "id": "nakute-mo-ii_q6",
+          "type": "fillBlank",
+          "prompt": "Casual short form of 行[い]かなくてもいい:",
+          "japanese": null,
+          "choices": [
+            "行[い]かなくていい",
+            "行[い]かないでいい",
+            "行[い]きなくていい",
+            "行[い]かなくてもう"
+          ],
+          "correctIndex": 0,
+          "explanation": "In casual speech, 〜なくてもいい drops the も: 行[い]かなくていい."
+        },
+        {
+          "id": "nakute-mo-ii_q7",
+          "type": "usage",
+          "prompt": "Which pair is opposite in meaning?",
+          "japanese": null,
+          "choices": [
+            "行[い]かなくてもいい ↔ 行[い]かなくてはいけない",
+            "行[い]かなくてもいい ↔ 行[い]ってもいい",
+            "行[い]ってもいい ↔ 行[い]かないでください",
+            "行[い]かなくてもいい ↔ 行[い]かない"
+          ],
+          "correctIndex": 0,
+          "explanation": "\"Don't have to go\" (行[い]かなくてもいい) is the opposite of \"must go\" (行[い]かなくてはいけない)."
+        },
+        {
+          "id": "nakute-mo-ii_q8",
+          "type": "translation",
+          "prompt": "How do you ask \"Is it okay if I don't hurry?\"",
+          "japanese": null,
+          "choices": [
+            "急[いそ]がなくてもいいですか。",
+            "急[いそ]いでもいいですか。",
+            "急[いそ]がなくてはいけませんか。",
+            "急[いそ]がないでくださいか。"
+          ],
+          "correctIndex": 0,
+          "explanation": "急[いそ]がなくてもいいですか asks whether not-hurrying is acceptable — \"do I not have to hurry?\""
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "expl_v6",
+      "partOfSpeech": "noun",
+      "kanji": "曇り",
+      "kana": "くもり",
+      "romaji": "kumori",
+      "definition": "cloudy weather"
+    },
+    {
+      "id": "expl_v7",
+      "partOfSpeech": "na-adjective",
+      "kanji": "暇",
+      "kana": "ひま",
+      "romaji": "hima",
+      "definition": "free time; not busy"
+    },
+    {
+      "id": "expl_v8",
+      "partOfSpeech": "na-adjective",
+      "kanji": "不便",
+      "kana": "ふべん",
+      "romaji": "fuben",
+      "definition": "inconvenient"
+    },
+    {
+      "id": "expl_v9",
+      "partOfSpeech": "i-adjective",
+      "kanji": "危ない",
+      "kana": "あぶない",
+      "romaji": "abunai",
+      "definition": "dangerous"
+    },
+    {
+      "id": "expl_v10",
+      "partOfSpeech": "i-adjective",
+      "kanji": "汚い",
+      "kana": "きたない",
+      "romaji": "kitanai",
+      "definition": "dirty"
+    },
+    {
+      "id": "expl_v11",
+      "partOfSpeech": "i-adjective",
+      "kanji": "細い",
+      "kana": "ほそい",
+      "romaji": "hosoi",
+      "definition": "thin; narrow"
+    },
+    {
+      "id": "expl_v12",
+      "partOfSpeech": "i-adjective",
+      "kanji": "太い",
+      "kana": "ふとい",
+      "romaji": "futoi",
+      "definition": "thick"
+    },
+    {
+      "id": "expl_v13",
+      "partOfSpeech": "verb",
+      "kanji": "飛ぶ",
+      "kana": "とぶ",
+      "romaji": "tobu",
+      "definition": "to fly"
+    },
+    {
+      "id": "expl_v14",
+      "partOfSpeech": "verb",
+      "kanji": "踊る",
+      "kana": "おどる",
+      "romaji": "odoru",
+      "definition": "to dance"
+    },
+    {
+      "id": "expl_v15",
+      "partOfSpeech": "verb",
+      "kanji": "困る",
+      "kana": "こまる",
+      "romaji": "komaru",
+      "definition": "to be troubled"
+    },
+    {
+      "id": "expl_v16",
+      "partOfSpeech": "noun",
+      "kanji": "神社",
+      "kana": "じんじゃ",
+      "romaji": "jinja",
+      "definition": "shrine"
+    },
+    {
+      "id": "expl_v17",
+      "partOfSpeech": "noun",
+      "kanji": "寺",
+      "kana": "てら",
+      "romaji": "tera",
+      "definition": "temple"
+    },
+    {
+      "id": "expl_v18",
+      "partOfSpeech": "na-adjective",
+      "kanji": "大丈夫",
+      "kana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "definition": "all right; okay"
+    },
+    {
+      "id": "expl_v19",
+      "partOfSpeech": "i-adjective",
+      "kanji": "眠い",
+      "kana": "ねむい",
+      "romaji": "nemui",
+      "definition": "sleepy"
+    },
+    {
+      "id": "expl_v20",
+      "partOfSpeech": "i-adjective",
+      "kanji": "うるさい",
+      "kana": "うるさい",
+      "romaji": "urusai",
+      "definition": "noisy; annoying"
+    },
+    {
+      "id": "expl_v21",
+      "partOfSpeech": "i-adjective",
+      "kanji": "珍しい",
+      "kana": "めずらしい",
+      "romaji": "mezurashii",
+      "definition": "rare; unusual"
+    },
+    {
+      "id": "expl_v22",
+      "partOfSpeech": "i-adjective",
+      "kanji": "硬い",
+      "kana": "かたい",
+      "romaji": "katai",
+      "definition": "hard"
+    },
+    {
+      "id": "expl_v23",
+      "partOfSpeech": "i-adjective",
+      "kanji": "柔らかい",
+      "kana": "やわらかい",
+      "romaji": "yawarakai",
+      "definition": "soft"
+    },
+    {
+      "id": "expl_v24",
+      "partOfSpeech": "i-adjective",
+      "kanji": "深い",
+      "kana": "ふかい",
+      "romaji": "fukai",
+      "definition": "deep"
+    },
+    {
+      "id": "expl_v25",
+      "partOfSpeech": "i-adjective",
+      "kanji": "浅い",
+      "kana": "あさい",
+      "romaji": "asai",
+      "definition": "shallow"
+    },
+    {
+      "id": "expl_v26",
+      "partOfSpeech": "i-adjective",
+      "kanji": "狭い",
+      "kana": "せまい",
+      "romaji": "semai",
+      "definition": "narrow; cramped"
+    },
+    {
+      "id": "expl_v27",
+      "partOfSpeech": "na-adjective",
+      "kanji": "素敵",
+      "kana": "すてき",
+      "romaji": "suteki",
+      "definition": "lovely; nice"
+    },
+    {
+      "id": "expl_v28",
+      "partOfSpeech": "verb",
+      "kanji": "運ぶ",
+      "kana": "はこぶ",
+      "romaji": "hakobu",
+      "definition": "to carry"
+    },
+    {
+      "id": "expl_v29",
+      "partOfSpeech": "verb",
+      "kanji": "押す",
+      "kana": "おす",
+      "romaji": "osu",
+      "definition": "to push"
+    },
+    {
+      "id": "expl_v30",
+      "partOfSpeech": "verb",
+      "kanji": "引く",
+      "kana": "ひく",
+      "romaji": "hiku",
+      "definition": "to pull"
+    },
+    {
+      "id": "expl_v31",
+      "partOfSpeech": "verb",
+      "kanji": "触る",
+      "kana": "さわる",
+      "romaji": "sawaru",
+      "definition": "to touch"
+    },
+    {
+      "id": "expl_v32",
+      "partOfSpeech": "verb",
+      "kanji": "咲く",
+      "kana": "さく",
+      "romaji": "saku",
+      "definition": "to bloom"
+    },
+    {
+      "id": "expl_v33",
+      "partOfSpeech": "verb",
+      "kanji": "鳴る",
+      "kana": "なる",
+      "romaji": "naru",
+      "definition": "to ring; to sound"
+    },
+    {
+      "id": "expl_v34",
+      "partOfSpeech": "verb",
+      "kanji": "光る",
+      "kana": "ひかる",
+      "romaji": "hikaru",
+      "definition": "to shine"
+    },
+    {
+      "id": "expl_v35",
+      "partOfSpeech": "noun",
+      "kanji": "波",
+      "kana": "なみ",
+      "romaji": "nami",
+      "definition": "wave"
+    },
+    {
+      "id": "expl_v36",
+      "partOfSpeech": "noun",
+      "kanji": "音",
+      "kana": "おと",
+      "romaji": "oto",
+      "definition": "sound"
+    },
+    {
+      "id": "expl_v37",
+      "partOfSpeech": "noun",
+      "kanji": "形",
+      "kana": "かたち",
+      "romaji": "katachi",
+      "definition": "shape; form"
+    },
+    {
+      "id": "expl_v38",
+      "partOfSpeech": "noun",
+      "kanji": "地図",
+      "kana": "ちず",
+      "romaji": "chizu",
+      "definition": "map"
+    },
+    {
+      "id": "expl_v39",
+      "partOfSpeech": "noun",
+      "kanji": "声",
+      "kana": "こえ",
+      "romaji": "koe",
+      "definition": "voice"
+    },
+    {
+      "id": "expl_v40",
+      "partOfSpeech": "noun",
+      "kanji": "世界",
+      "kana": "せかい",
+      "romaji": "sekai",
+      "definition": "world"
+    }
+  ],
+  "kanji": null
+}

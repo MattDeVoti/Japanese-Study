@@ -1,0 +1,1942 @@
+{
+  "id": "ch17",
+  "chapterNumber": 19,
+  "title": "Hopes and Regrets",
+  "points": [
+    {
+      "id": "mitai-da",
+      "name": "〜みたいだ (mitai da) — seems like / looks like",
+      "shortDescription": "Expresses that something seems or appears to be a certain way — casual and conversational.",
+      "formation": "Plain form + みたいです  |  Noun / な-adj stem + みたいです",
+      "explanation": "みたいだ (polite: みたいです) is the everyday conversational way to say 'it seems like' or 'it looks like.' It covers any kind of inference — visual impressions, secondhand information, logical deduction from the situation — and it does so in the most relaxed, colloquial register of the inference-expressing forms.\n\nFormation is simple: for verbs and い-adjectives, attach to the plain form; for nouns and な-adjective stems, attach directly without だ.\n雨[あめ]が降[ふ]るみたいです (It seems like it's going to rain). 彼[かれ]は病気[びょうき]みたいです (It seems he's sick — noun, no だ). 静[しず]かみたいです (It seems quiet — な-adj stem, no だ).\n\nみたいだ has a neat second life as a simile word: 〜みたいな〜 means 'a [noun]-like' or 'resembling a [noun].' 鳥[とり]みたいな形[かたち] (a bird-like shape). This is different from the sentence-ending みたいだ — the context makes it clear which usage is intended.\n\nThere are two close relatives you'll meet in Chapter 20: らしい (apparently — based on hearsay or external evidence) and ようだ (it appears — formal, careful inference). For now, know that みたいだ is the casual, flexible choice you can use freely in everyday conversation. The three form a spectrum from formal (ようだ) to casual (みたいだ).",
+      "rules": [
+        "Verb/い-adj (plain form) + みたいです = it seems like / it looks like",
+        "Noun / な-adj stem + みたいです (no だ before みたい)",
+        "Casual and conversational — the most colloquial of the inference-expressing forms",
+        "Covers visual, hearsay, and inferential evidence — flexible source",
+        "Second usage: 〜みたいな〜 = resembling / like (simile): 鳥[とり]みたいな形[かたち] (bird-like shape)",
+        "Compare with formal ようだ and hearsay-focused らしい (both covered in Chapter 20)"
+      ],
+      "examples": [
+        {
+          "japanese": "彼[かれ]は今日[きょう]、体調[たいちょう]が悪[わる]いみたいです。",
+          "romaji": "Kare wa kyou, taichou ga warui mitai desu.",
+          "english": "It seems like he's not feeling well today."
+        },
+        {
+          "japanese": "外[そと]は雨[あめ]みたいですね。傘[かさ]を持[も]って行[い]ったほうがいいですよ。",
+          "romaji": "Soto wa ame mitai desu ne. Kasa wo motte itta hou ga ii desu yo.",
+          "english": "It seems to be raining outside. You'd better take an umbrella."
+        },
+        {
+          "japanese": "このレストラン、すごく人気[にんき]みたいですね。",
+          "romaji": "Kono resutoran, sugoku ninki mitai desu ne.",
+          "english": "This restaurant seems really popular."
+        },
+        {
+          "japanese": "田中[たなか]さんはもう知[し]っているみたいです。",
+          "romaji": "Tanaka-san wa mou shitte iru mitai desu.",
+          "english": "It seems like Tanaka-san already knows."
+        }
+      ],
+      "flashcardHeader": "〜みたいだ",
+      "flashcardAnswer": "Expresses that something seems or appears to be a certain way — casual and colloquial.",
+      "practice": [
+        {
+          "id": "mitai-da_q1",
+          "type": "construct",
+          "prompt": "Which correctly means 'He seems to be a teacher' (using みたい)?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は先生[せんせい]みたいです。",
+            "彼[かれ]は先生[せんせい]なみたいです。",
+            "彼[かれ]は先生[せんせい]のみたいです。",
+            "彼[かれ]みたいな先生[せんせい]です。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + みたいだ: nouns attach directly to みたいだ with no な or の. 先生[せんせい]みたいです = seems like a teacher."
+        },
+        {
+          "id": "mitai-da_q2",
+          "type": "translation",
+          "prompt": "Which means 'It seems like the shop is closed today'?",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]、店[みせ]は閉[し]まりそうです。",
+            "今日[きょう]、店[みせ]は閉[し]まっているみたいです。",
+            "今日[きょう]、店[みせ]は閉[し]まるようです。",
+            "今日[きょう]、店[みせ]は閉[し]まっているそうです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜ているみたいだ = seems like . 閉[し]まっているみたいです = seems like it's closed (speaker's own inference). そうです would mean 'I heard.'"
+        },
+        {
+          "id": "mitai-da_q3",
+          "type": "usage",
+          "prompt": "Which correctly uses みたいに to mean 'speak Japanese like a native'?",
+          "japanese": null,
+          "choices": [
+            "日本語[にほんご]を日本人[にほんじん]みたいな話[はな]したい。",
+            "日本語[にほんご]を日本人[にほんじん]のみたいに話[はな]したい。",
+            "日本語[にほんご]を日本人[にほんじん]みたいに話[はな]したい。",
+            "日本語[にほんご]を日本人[にほんじん]なみたいに話[はな]したい。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + みたいに = like  (adverb form). 日本人[にほんじん]みたいに = like a Japanese person. みたいに modifies verbs."
+        },
+        {
+          "id": "mitai-da_q4",
+          "type": "construct",
+          "prompt": "Which means 'It seems like it will rain tomorrow' (using みたい)?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]は雨[あめ]のみたいです。",
+            "明日[あした]は雨[あめ]なみたいです。",
+            "明日[あした]は雨[あめ]そうです。",
+            "明日[あした]は雨[あめ]みたいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Noun + みたいだ: 雨[あめ] (noun) + みたいです = seems like rain/it will rain. Nouns attach directly to みたいだ."
+        },
+        {
+          "id": "mitai-da_q5",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼女[かのじょ]は疲[つか]れている___。(She seems tired.)",
+          "japanese": "彼女[かのじょ]は疲[つか]れている___。",
+          "choices": [
+            "みたいです",
+            "なみたいです",
+            "そうみたいです",
+            "ようなみたいです"
+          ],
+          "correctIndex": 0,
+          "explanation": "Plain verb form + みたいです. 疲[つか]れている + みたいです = seems tired. みたいだ attaches directly to the plain form."
+        },
+        {
+          "id": "mitai-da_q6",
+          "type": "translation",
+          "prompt": "Which means 'He seems to like her' (based on observation)?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は彼女[かのじょ]が好[す]きそうです。",
+            "彼[かれ]は彼女[かのじょ]が好[す]きみたいです。",
+            "彼[かれ]は彼女[かのじょ]みたいが好[す]きです。",
+            "彼[かれ]は彼女[かのじょ]が好[す]きらしいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "な-adj plain form + みたいだ: 好[す]き + みたいです = seems like  likes . Based on own observation — not hearsay (らしい) or direct visual (そう)."
+        },
+        {
+          "id": "mitai-da_q7",
+          "type": "construct",
+          "prompt": "Which is the correct みたいな form to modify a noun (a child-like adult)?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]みたいの大人[おとな]",
+            "子供[こども]のみたいな大人[おとな]",
+            "子供[こども]みたいな大人[おとな]",
+            "子供[こども]なみたいな大人[おとな]"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + みたいな + noun = a noun resembling . 子供[こども]みたいな大人[おとな] = an adult who is like a child. みたいな is the attributive form used before nouns."
+        },
+        {
+          "id": "mitai-da_q8",
+          "type": "usage",
+          "prompt": "Which BEST describes みたいだ vs ようだ?",
+          "japanese": null,
+          "choices": [
+            "みたいだ = formal; ようだ = casual",
+            "みたいだ = past only; ようだ = present only",
+            "みたいだ = hearsay; ようだ = visual only",
+            "みたいだ = casual/spoken; ようだ = more formal/written"
+          ],
+          "correctIndex": 3,
+          "explanation": "みたいだ and ようだ have almost the same meaning but different registers: みたいだ = casual/conversational; ようだ = more formal/written. Both express inference from evidence."
+        },
+        {
+          "id": "mitai-da_q9",
+          "type": "construct",
+          "prompt": "Which correctly means 'She seems unhappy' (using みたい)?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は嬉[うれ]しくないみたいです。",
+            "彼女[かのじょ]は嬉[うれ]しくなかったみたいです。",
+            "彼女[かのじょ]は嬉[うれ]しくみたいです。",
+            "彼女[かのじょ]は嬉[うれ]しくないようなみたいです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative plain form + みたいだ: 嬉[うれ]しくない + みたいです = seems like she's not happy. Negative forms attach naturally to みたいだ."
+        },
+        {
+          "id": "mitai-da_q10",
+          "type": "translation",
+          "prompt": "Which means 'It seems the train was late' (past inference)?",
+          "japanese": null,
+          "choices": [
+            "電車[でんしゃ]が遅[おく]れるみたいでした。",
+            "電車[でんしゃ]が遅[おく]れたみたいです。",
+            "電車[でんしゃ]が遅[おく]れているみたいでした。",
+            "電車[でんしゃ]が遅[おく]れてみたいです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Past plain form + みたいです = seems like  happened. 遅[おく]れた (was late) + みたいです = seems the train was late."
+        },
+        {
+          "id": "mitai-da_q11",
+          "type": "usage",
+          "prompt": "Which correctly uses みたいに (adverb form)?",
+          "japanese": null,
+          "choices": [
+            "プロみたいな歌[うた]った。",
+            "プロみたいの歌[うた]った。",
+            "プロみたいに歌[うた]った。",
+            "プロのみたいに歌[うた]った。"
+          ],
+          "correctIndex": 2,
+          "explanation": "みたいに = like / in the manner of (adverb form). プロみたいに = like a pro. みたいに modifies verbs; みたいな modifies nouns."
+        },
+        {
+          "id": "mitai-da_q12",
+          "type": "usage",
+          "prompt": "Which BEST contrasts みたいだ with そうだ (appearance)?",
+          "japanese": null,
+          "choices": [
+            "みたいだ = sight only; そうだ = all senses",
+            "みたいだ = always negative; そうだ = always positive",
+            "みたいだ = future only; そうだ = present only",
+            "みたいだ = broader inference; そうだ (appearance) = direct visual impression"
+          ],
+          "correctIndex": 3,
+          "explanation": "そうだ (appearance) is based on direct visual impression. みたいだ covers broader inference — from observation, context, or reasoning."
+        },
+        {
+          "id": "mitai-da_q13",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼女[かのじょ]はもう帰[かえ]った___。(It seems like she already went home.)",
+          "japanese": "彼女[かのじょ]はもう帰[かえ]った___。",
+          "choices": [
+            "みたいです",
+            "そうです",
+            "らしいです",
+            "ようだから"
+          ],
+          "correctIndex": 0,
+          "explanation": "Past plain form + みたいです = seems like . 帰[かえ]った + みたいです = seems like she went home."
+        },
+        {
+          "id": "mitai-da_q14",
+          "type": "construct",
+          "prompt": "How do you say 'She dances like a professional' using みたい?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]はプロみたいな踊[おど]ります。",
+            "彼女[かのじょ]はプロみたいに踊[おど]ります。",
+            "彼女[かのじょ]はプロのみたいに踊[おど]ります。",
+            "彼女[かのじょ]はプロなみたいに踊[おど]ります。"
+          ],
+          "correctIndex": 1,
+          "explanation": "みたいに = like / in the manner of (adverb). プロみたいに = like a professional. 踊[おど]ります is a verb, so use みたいに (adverb), not みたいな (noun-modifier)."
+        },
+        {
+          "id": "mitai-da_q15",
+          "type": "usage",
+          "prompt": "Which correctly uses みたいだ with a な-adjective (seems quiet)?",
+          "japanese": null,
+          "choices": [
+            "この部屋[へや]は便利[べんり]みたいです。",
+            "この部屋[へや]は便利[べんり]なみたいです。",
+            "この部屋[へや]は静[しず]かみたいです。",
+            "この部屋[へや]は静[しず]かなみたいです。"
+          ],
+          "correctIndex": 2,
+          "explanation": "な-adj + みたいだ: な-adjectives DROP the な before みたいだ. 静[しず]か + みたいです = seems quiet. NOT 静[しず]かなみたいです."
+        },
+        {
+          "id": "mitai-da_q16",
+          "type": "usage",
+          "prompt": "Which correctly expresses 'It seems like he didn't come to class today'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は今日[きょう]授業[じゅぎょう]に来[く]るみたいではなかった。",
+            "彼[かれ]は今日[きょう]授業[じゅぎょう]に来[こ]なみたいでした。",
+            "彼[かれ]は今日[きょう]授業[じゅぎょう]に来[こ]なかったようです。",
+            "彼[かれ]は今日[きょう]授業[じゅぎょう]に来[こ]なかったみたいです。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Past negative + みたいです: 来[こ]なかった + みたいです = seems like he didn't come. Past negative plain form attaches directly to みたいだ."
+        },
+        {
+          "id": "mitai-da_q17",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: あの子[こ]は外国人[がいこくじん]___話[はな]すのが上手[じょうず]ですね。(That child speaks like a foreigner.)",
+          "japanese": "あの子[こ]は外国人[がいこくじん]___話[はな]すのが上手[じょうず]ですね。",
+          "choices": [
+            "みたいに",
+            "みたいな",
+            "みたいで",
+            "みたいが"
+          ],
+          "correctIndex": 0,
+          "explanation": "みたいに = like  (adverb form). 外国人[がいこくじん]みたいに = like a foreigner. This modifies 話[はな]す (to speak)."
+        },
+        {
+          "id": "mitai-da_q18",
+          "type": "translation",
+          "prompt": "Which means 'This problem seems difficult' (based on observation)?",
+          "japanese": null,
+          "choices": [
+            "この問題[もんだい]は難[むずか]しそうですね。",
+            "この問題[もんだい]は難[むずか]しいみたいですね。",
+            "この問題[もんだい]は難[むずか]しいらしいですね。",
+            "この問題[もんだい]は難[むずか]しいようですね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "い-adj + みたいです: 難[むずか]しい + みたいです = seems difficult (inference). みたいです is casual/conversational."
+        },
+        {
+          "id": "mitai-da_q19",
+          "type": "construct",
+          "prompt": "Which describes someone as 'a childlike person' using みたいな?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]みたいです人[ひと]",
+            "子供[こども]みたいの人[ひと]",
+            "子供[こども]みたいな人[ひと]",
+            "子供[こども]みたいに人[ひと]"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + みたいな + noun = a noun resembling . 子供[こども]みたいな人[ひと] = a person like a child. みたいな is the attributive/modifier form used before nouns."
+        },
+        {
+          "id": "mitai-da_q20",
+          "type": "usage",
+          "prompt": "Which expression is MOST appropriate when relaying what you HEARD from someone else?",
+          "japanese": null,
+          "choices": [
+            "〜みたいだ",
+            "〜ようだ",
+            "〜そうだ (appearance)",
+            "〜らしい / 〜そうだ (hearsay)"
+          ],
+          "correctIndex": 3,
+          "explanation": "らしい and そうだ (hearsay) express information received from others. みたいだ and ようだ express the speaker's own inference. For relaying heard information, use らしい or hearsay-そうだ."
+        }
+      ]
+    },
+    {
+      "id": "to-ii",
+      "name": "〜といいですね / 〜といいんですが — I hope / I wish",
+      "shortDescription": "Expresses hope — 'I hope X happens' (for others) or 'I wish X would happen' (for self, with uncertainty).",
+      "formation": "Plain form (non-past) + といいですね  |  + といいんですが",
+      "explanation": "〜といい encodes hope: 'it would be good if X' → 'I hope X.' The two variants have a genuine tonal difference worth distinguishing.\n\n〜といいですね (with ね): you're hoping for a good outcome, and the ね invites the listener to share that hope. It's warm and outward-facing — you're rooting for someone or for a shared situation. 試験[しけん]、うまくいくといいですね: 'I hope the exam goes well for you.' The ね makes it a moment of shared feeling.\n\n〜といいんですが (with んですが): this is more personal and more uncertain. The んです adds a note of 'I have to explain something / there's a situation here,' and the が at the end trails off with an implied 'but it might not happen.' 明日[あした]、晴[は]れるといいんですが: 'I hope it'll be sunny tomorrow' — with an undertone of 'but I'm not so sure.' This is your grammar for private wishes you're not entirely confident will come true.\n\nBoth forms use the plain non-past form before といい. The logical structure is a mini-conditional: 'if X happens, that would be good' — but the speaker's feeling is hope rather than a conditional scenario.",
+      "rules": [
+        "Plain non-past + といいですね = I hope X happens (warmly hoping, often for others)",
+        "Plain non-past + といいんですが = I hope X happens (personal wish, with undertone of uncertainty)",
+        "ですね: outward, shared hope — invites the listener to root along with you",
+        "んですが: inward, personal wish — often implies doubt the wish will be fulfilled",
+        "Compare: 〜ばよかった (wishing the past had been different — covered later in this chapter)"
+      ],
+      "examples": [
+        {
+          "japanese": "試験[しけん]、うまくいくといいですね。",
+          "romaji": "Shiken, umaku iku to ii desu ne.",
+          "english": "I hope the exam goes well for you."
+        },
+        {
+          "japanese": "明日[あした]、晴[は]れるといいんですが。",
+          "romaji": "Ashita, hareru to ii n desu ga.",
+          "english": "I hope it'll be sunny tomorrow (though I'm not sure)."
+        },
+        {
+          "japanese": "早[はや]く良[よ]くなるといいですね。",
+          "romaji": "Hayaku yoku naru to ii desu ne.",
+          "english": "I hope you feel better soon."
+        },
+        {
+          "japanese": "もっと時間[じかん]があるといいんですが、なかなか難[むずか]しいです。",
+          "romaji": "Motto jikan ga aru to ii n desu ga, nakanaka muzukashii desu.",
+          "english": "I wish I had more time, but it's quite difficult to manage."
+        }
+      ],
+      "flashcardHeader": "〜といいですね / 〜といいんですが",
+      "flashcardAnswer": "Expresses hope — といいですね for shared hopes; といいんですが for personal wishes with uncertainty.",
+      "practice": [
+        {
+          "id": "to-ii_q1",
+          "type": "translation",
+          "prompt": "Which means 'I hope the weather is good tomorrow'?",
+          "japanese": null,
+          "choices": [
+            "明日[あした]、天気[てんき]がいいといいですね。",
+            "明日[あした]、天気[てんき]がいいらしいですね。",
+            "明日[あした]、天気[てんき]がいいそうですね。",
+            "明日[あした]、天気[てんき]がよかったらいいですね。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜といいですね = I hope . 天気[てんき]がいい (plain form) + といいですね = I hope the weather will be good."
+        },
+        {
+          "id": "to-ii_q2",
+          "type": "usage",
+          "prompt": "Which expresses 'I wish I could go to Japan' (personal unfulfilled wish)?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]に行[い]くといいですね。",
+            "日本[にほん]に行[い]くといいんですが。",
+            "日本[にほん]に行[い]けばいいですね。",
+            "日本[にほん]に行[い]ったらいいですね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜といいんですが = I wish [I could] (personal wish, implies it may not happen). んです adds nuance of personal feeling."
+        },
+        {
+          "id": "to-ii_q3",
+          "type": "construct",
+          "prompt": "Which correctly means 'I hope my cold gets better soon'?",
+          "japanese": null,
+          "choices": [
+            "風邪[かぜ]が早[はや]く治[なお]ったといいですね。",
+            "風邪[かぜ]が早[はや]く治[なお]るそうですね。",
+            "風邪[かぜ]が早[はや]く治[なお]るといいですね。",
+            "風邪[かぜ]が早[はや]く治[なお]ればいいですね。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Plain non-past verb + といいですね = I hope . 治[なお]る (dict-form) + といいですね = I hope you get better soon."
+        },
+        {
+          "id": "to-ii_q4",
+          "type": "usage",
+          "prompt": "Which is most suitable for a PERSONAL unfulfilled wish about money?",
+          "japanese": null,
+          "choices": [
+            "もっとお金[かね]があるといいですね。",
+            "もっとお金[かね]があるといいんですが。",
+            "もっとお金[かね]があったらいいですね。",
+            "もっとお金[かね]があればいいですね。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜といいんですが = I wish I had [it] / I hope (personal longing implying 'but I don't'). This is for personal wishes that may not come true."
+        },
+        {
+          "id": "to-ii_q5",
+          "type": "translation",
+          "prompt": "Which means 'I hope you pass the exam'?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]に合格[ごうかく]するといいですね。",
+            "試験[しけん]に合格[ごうかく]したといいですね。",
+            "試験[しけん]に合格[ごうかく]するそうですね。",
+            "試験[しけん]に合格[ごうかく]するといいんです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜るといいですね = I hope  will do. 合格[ごうかく]する (plain form) + といいですね = I hope you pass. Used to express hope for someone else."
+        },
+        {
+          "id": "to-ii_q6",
+          "type": "construct",
+          "prompt": "How do you say 'I wish it would snow' (personal wish)?",
+          "japanese": null,
+          "choices": [
+            "雪[ゆき]が降[ふ]るといいですね。",
+            "雪[ゆき]が降[ふ]るといいんですが。",
+            "雪[ゆき]が降[ふ]ればいいですね。",
+            "雪[ゆき]が降[ふ]ったといいですね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜といいんですが = personal wish (I wish it would...). んです softens into a personal feeling. が leaves it open (implying 'but I don't know if it will')."
+        },
+        {
+          "id": "to-ii_q7",
+          "type": "usage",
+          "prompt": "When wishing a friend good luck before a job interview, which is MOST appropriate?",
+          "japanese": null,
+          "choices": [
+            "面接[めんせつ]がうまくいったといいですね！",
+            "面接[めんせつ]がうまくいくそうですね！",
+            "面接[めんせつ]がうまくいくといいですね！",
+            "面接[めんせつ]がうまくいくといいんですが。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜といいですね = I hope  — used to express wishes for others. 面接[めんせつ]がうまくいく + といいですね = I hope the interview goes well."
+        },
+        {
+          "id": "to-ii_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: もっと時間[じかん]が___といいんですが。(I wish I had more time.)",
+          "japanese": "もっと時間[じかん]が___といいんですが。",
+          "choices": [
+            "あれば",
+            "あり",
+            "あった",
+            "ある"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plain non-past form + といいんですが. ある (to have, plain form) + といいんですが = I wish I had more time."
+        },
+        {
+          "id": "to-ii_q9",
+          "type": "translation",
+          "prompt": "Which means 'I hope the package arrives today'?",
+          "japanese": null,
+          "choices": [
+            "荷物[にもつ]が今日[きょう]届[とど]くといいですね。",
+            "荷物[にもつ]が今日[きょう]届[とど]いたといいですね。",
+            "荷物[にもつ]が今日[きょう]届[とど]くらしいですね。",
+            "荷物[にもつ]が今日[きょう]届[とど]けるといいですね。"
+          ],
+          "correctIndex": 0,
+          "explanation": "届[とど]く (plain form) + といいですね = I hope  arrives. Non-past plain form before といい."
+        },
+        {
+          "id": "to-ii_q10",
+          "type": "usage",
+          "prompt": "What is the main difference between といいですね and といいんですが?",
+          "japanese": null,
+          "choices": [
+            "といいですね = formal; といいんですが = casual",
+            "といいですね = wish for others or general; といいんですが = personal unfulfilled wish",
+            "といいですね = past wish; といいんですが = future wish",
+            "They are completely interchangeable"
+          ],
+          "correctIndex": 1,
+          "explanation": "といいですね = hope for someone else or general (cheer someone up). といいんですが = personal wish implying 'I wish I could... but.'"
+        },
+        {
+          "id": "to-ii_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'I hope it doesn't rain during the trip'?",
+          "japanese": null,
+          "choices": [
+            "旅行中[りょこうちゅう]に雨[あめ]が降[ふ]らなかったといいですね。",
+            "旅行中[りょこうちゅう]に雨[あめ]が降[ふ]るといいですね。",
+            "旅行中[りょこうちゅう]に雨[あめ]が降[ふ]らないといいですね。",
+            "旅行中[りょこうちゅう]に雨[あめ]が降[ふ]るといいんですが。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Negative plain form + といいですね = I hope  doesn't. 降[ふ]らない (doesn't rain) + といいですね = I hope it doesn't rain."
+        },
+        {
+          "id": "to-ii_q12",
+          "type": "translation",
+          "prompt": "Which means 'I wish I could speak English well'?",
+          "japanese": null,
+          "choices": [
+            "英語[えいご]が上手[じょうず]に話[はな]せるといいですね。",
+            "英語[えいご]が上手[じょうず]に話[はな]せたといいですね。",
+            "英語[えいご]が上手[じょうず]に話[はな]すといいですね。",
+            "英語[えいご]が上手[じょうず]に話[はな]せるといいんですが。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜といいんですが for personal unfulfilled wishes. 話[はな]せる (can speak, potential) + といいんですが = I wish I could speak it. Potential form + といいんですが is natural for ability wishes."
+        },
+        {
+          "id": "to-ii_q13",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼[かれ]が早[はや]く元気[げんき]に___といいですね。(I hope he recovers quickly.)",
+          "japanese": "彼[かれ]が早[はや]く元気[げんき]に___といいですね。",
+          "choices": [
+            "なった",
+            "なって",
+            "なれば",
+            "なる"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plain non-past form + といいですね: なる (to become, plain form) + といいですね. 元気[げんき]になるといいですね = I hope he gets better. The blank holds なる."
+        },
+        {
+          "id": "to-ii_q14",
+          "type": "usage",
+          "prompt": "Which is a natural response when a friend mentions an important presentation?",
+          "japanese": null,
+          "choices": [
+            "プレゼンがうまくいったといいですね。",
+            "プレゼンがうまくいくといいですね。",
+            "プレゼンがうまくいくといいんですが。",
+            "プレゼンがうまくいくそうですね。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜といいですね = I hope [it goes well] — supportive for others. プレゼンがうまくいく + といいですね = I hope the presentation goes well."
+        },
+        {
+          "id": "to-ii_q15",
+          "type": "construct",
+          "prompt": "How do you say 'I hope the exam results are good'?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]の結果[けっか]がよかったといいですね。",
+            "試験[しけん]の結果[けっか]がいいらしいですね。",
+            "試験[しけん]の結果[けっか]がいいといいですね。",
+            "試験[しけん]の結果[けっか]がいいそうですね。"
+          ],
+          "correctIndex": 2,
+          "explanation": "い-adj plain form (いい) + といいですね = I hope . 試験[しけん]の結果[けっか]がいい + といいですね = I hope the exam results are good."
+        },
+        {
+          "id": "to-ii_q16",
+          "type": "usage",
+          "prompt": "Which correctly uses the negative form before といい?",
+          "japanese": null,
+          "choices": [
+            "失敗[しっぱい]しなかったといいですね。",
+            "失敗[しっぱい]しないのといいですね。",
+            "失敗[しっぱい]するとといいですね。",
+            "失敗[しっぱい]しないといいですね。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ないといいですね = I hope  doesn't. 失敗[しっぱい]しない (negative plain form) + といいですね = I hope  don't fail."
+        },
+        {
+          "id": "to-ii_q17",
+          "type": "translation",
+          "prompt": "Which means 'I hope we can meet again someday'?",
+          "japanese": null,
+          "choices": [
+            "またいつか会[あ]えるといいですね。",
+            "またいつか会[あ]えたといいですね。",
+            "またいつか会[あ]うといいんですが。",
+            "またいつか会[あ]いたいといいですね。"
+          ],
+          "correctIndex": 0,
+          "explanation": "会[あ]える (can meet, potential form) + といいですね = I hope we can meet. Plain potential + といいですね expresses hope for a possibility."
+        },
+        {
+          "id": "to-ii_q18",
+          "type": "usage",
+          "prompt": "You're hoping for a raise. Which sounds most natural?",
+          "japanese": null,
+          "choices": [
+            "給料[きゅうりょう]が上[あ]がるといいですね。",
+            "給料[きゅうりょう]が上[あ]がるといいんですが。",
+            "給料[きゅうりょう]が上[あ]がったといいですね。",
+            "給料[きゅうりょう]が上[あ]がるとよかったです。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜といいんですが = personal wish (I wish... but uncertainty). For something you personally want but may not get, といいんですが is more natural than といいですね (which is better for others)."
+        },
+        {
+          "id": "to-ii_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'I hope you enjoy the trip'?",
+          "japanese": null,
+          "choices": [
+            "旅行[りょこう]を楽[たの]しんだといいですね。",
+            "旅行[りょこう]を楽[たの]しむといいんですが。",
+            "旅行[りょこう]を楽[たの]しめるといいですね。",
+            "旅行[りょこう]を楽[たの]しむことといいですね。"
+          ],
+          "correctIndex": 2,
+          "explanation": "楽[たの]しめる (can enjoy, potential) + といいですね = I hope  can enjoy. といいですね is natural when addressed to the other person."
+        },
+        {
+          "id": "to-ii_q20",
+          "type": "usage",
+          "prompt": "Which verb form goes BEFORE といいですね?",
+          "japanese": null,
+          "choices": [
+            "Masu-form (行[い]きます + といいですね)",
+            "Past plain form (行[い]った + といいですね)",
+            "Te-form (行[い]って + といいですね)",
+            "Plain non-past form (行[い]く + といいですね)"
+          ],
+          "correctIndex": 3,
+          "explanation": "Plain non-past (dictionary) form + といいですね. 行[い]く + といいですね = I hope  go. Masu-form and て-form before といい are incorrect."
+        }
+      ]
+    },
+    {
+      "id": "nagara",
+      "name": "〜ながら (nagara) — while doing (simultaneous actions)",
+      "shortDescription": "Two things at once, same subject — 'while doing X, do Y.'",
+      "formation": "Verb stem (same as ます stem) + ながら + Main verb",
+      "explanation": "〜ながら expresses two simultaneous actions performed by the *same person*. You met ながら in your N5 studies; this point revisits it and fills in a nuance you may have missed.\n\nThe mechanics you already know: verb stem (same as the ます-base) + ながら, followed by the main verb. The ながら clause is the background or secondary activity; the main verb carries the primary action.\n音楽[おんがく]を聴[き]きながら勉強[べんきょう]します: 'I study while listening to music.' Studying is primary; listening is the backdrop.\n\nThe rule you must keep in mind: both actions must share a single subject. You cannot use ながら when different people are doing different things at the same time — for that, use あいだに (covered in Chapter 16). 先生[せんせい]が話[はな]しながら、学生[がくせい]がメモを取[と]る is ungrammatical because the teacher and student are different people.\n\nThe extended nuance: ながら can also carry a 'even though' meaning, typically with a negative or contradictory main clause. 知[し]っていながら、何[なに]も言[い]わなかった = 'Even though (she) knew, (she) didn't say anything.' This concessive use gives ながら a sharper, more literary edge beyond ordinary multitasking.",
+      "rules": [
+        "Verb stem (ます-base) + ながら + main verb = while doing X, do Y (simultaneous)",
+        "Both actions MUST have the same subject — ながら cannot span two different people",
+        "The ながら clause is the secondary/background action; the main verb is the primary focus",
+        "For different subjects doing simultaneous things, use 〜あいだに (Chapter 16)",
+        "Extended use: 〜ながら + contradictory clause = 'even though' (concessive nuance)"
+      ],
+      "examples": [
+        {
+          "japanese": "音楽[おんがく]を聴[き]きながら、料理[りょうり]しています。",
+          "romaji": "Ongaku wo kikinagara, ryouri shite imasu.",
+          "english": "I am cooking while listening to music."
+        },
+        {
+          "japanese": "歩[ある]きながらスマホを見[み]るのは危[あぶ]ないです。",
+          "romaji": "Arukinagara sumaho wo miru no wa abunai desu.",
+          "english": "Looking at your phone while walking is dangerous."
+        },
+        {
+          "japanese": "コーヒーを飲[の]みながら、新聞[しんぶん]を読[よ]みました。",
+          "romaji": "Koohii wo nominagara, shinbun wo yomimashita.",
+          "english": "I read the newspaper while drinking coffee."
+        },
+        {
+          "japanese": "知[し]りながら、何[なに]も言[い]わなかったんですか。",
+          "romaji": "Shirinagara, nanimo iwanakatta n desu ka.",
+          "english": "Even though you knew, you didn't say anything?"
+        }
+      ],
+      "flashcardHeader": "〜ながら",
+      "flashcardAnswer": "Two simultaneous actions by the same person — 'while doing X, do Y.'",
+      "practice": [
+        {
+          "id": "nagara_q1",
+          "type": "construct",
+          "prompt": "What is the ながら form of 歩[ある]く (to walk)?",
+          "japanese": null,
+          "choices": [
+            "歩[ある]きながら",
+            "歩[ある]くながら",
+            "歩[ある]いながら",
+            "歩[ある]けながら"
+          ],
+          "correctIndex": 0,
+          "explanation": "Masu-stem + ながら. 歩[ある]く → masu-stem 歩[ある]き + ながら = 歩[ある]きながら = while walking."
+        },
+        {
+          "id": "nagara_q2",
+          "type": "translation",
+          "prompt": "Which means 'I listen to music while studying'?",
+          "japanese": null,
+          "choices": [
+            "音楽[おんがく]を聴[き]いて、勉強[べんきょう]しています。",
+            "音楽[おんがく]を聴[き]きながら、勉強[べんきょう]しています。",
+            "音楽[おんがく]を聴[き]くながら、勉強[べんきょう]しています。",
+            "勉強[べんきょう]しながら、音楽[おんがく]は聴[き]きました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Masu-stem + ながら = while doing X simultaneously. 聴[き]き + ながら = while listening. The main action (studying) goes in the main clause."
+        },
+        {
+          "id": "nagara_q3",
+          "type": "usage",
+          "prompt": "When using ながら, which actor relationship is REQUIRED?",
+          "japanese": null,
+          "choices": [
+            "Two different people doing different things",
+            "One action must precede the other",
+            "The same person doing two things simultaneously",
+            "The subject must be animate"
+          ],
+          "correctIndex": 2,
+          "explanation": "ながら requires the SAME person to perform BOTH actions simultaneously. Both actions share the same subject."
+        },
+        {
+          "id": "nagara_q4",
+          "type": "construct",
+          "prompt": "Which sentence is WRONG because it uses different subjects?",
+          "japanese": null,
+          "choices": [
+            "音楽[おんがく]を聴[き]きながら勉強[べんきょう]しています。",
+            "テレビを見[み]ながらご飯[はん]を食[た]べました。",
+            "歩[ある]きながらスマホを見[み]ないでください。",
+            "雨[あめ]が降[ふ]りながら、彼女[かのじょ]は歌[うた]った。"
+          ],
+          "correctIndex": 3,
+          "explanation": "雨[あめ]が降[ふ]りながら、彼女[かのじょ]は歌[うた]った has different subjects: 雨[あめ] (rain) and 彼女[かのじょ] (she). ながら requires the same actor. Use あいだに for different subjects."
+        },
+        {
+          "id": "nagara_q5",
+          "type": "construct",
+          "prompt": "What is the ながら form of 食[た]べる (to eat)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べながら",
+            "食[た]べるながら",
+            "食[た]べてながら",
+            "食[た]べたながら"
+          ],
+          "correctIndex": 0,
+          "explanation": "Group 2 verb masu-stem: 食[た]べる → drop る → 食[た]べ + ながら = 食[た]べながら = while eating."
+        },
+        {
+          "id": "nagara_q6",
+          "type": "translation",
+          "prompt": "Which means 'He drove while talking on the phone'?",
+          "japanese": null,
+          "choices": [
+            "電話[でんわ]してから、運転[うんてん]しました。",
+            "電話[でんわ]しながら、運転[うんてん]しました。",
+            "電話[でんわ]する前[まえ]に、運転[うんてん]しました。",
+            "電話[でんわ]したので、運転[うんてん]しました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "電話[でんわ]しながら = while talking on the phone (masu-stem し + ながら). 運転[うんてん]しました = drove. The main action goes in the main clause."
+        },
+        {
+          "id": "nagara_q7",
+          "type": "usage",
+          "prompt": "In a ながら sentence, which clause describes the MAIN (primary) action?",
+          "japanese": null,
+          "choices": [
+            "The ながら clause (before ながら)",
+            "Always the shorter action",
+            "The main clause (after ながら)",
+            "Whichever action started first"
+          ],
+          "correctIndex": 2,
+          "explanation": "The main clause (after ながら) contains the primary/focus action. The ながら clause describes a background/concurrent action."
+        },
+        {
+          "id": "nagara_q8",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: コーヒーを___ながら、メールを書[か]きました。(I wrote emails while drinking coffee.)",
+          "japanese": "コーヒーを___ながら、メールを書[か]きました。",
+          "choices": [
+            "飲[の]んで",
+            "飲[の]む",
+            "飲[の]んだ",
+            "飲[の]み"
+          ],
+          "correctIndex": 3,
+          "explanation": "ながら requires the masu-stem. 飲[の]む → masu-stem 飲[の]み + ながら = 飲[の]みながら. The blank holds 飲[の]み."
+        },
+        {
+          "id": "nagara_q9",
+          "type": "construct",
+          "prompt": "What is the ながら form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "しながら",
+            "するながら",
+            "していながら",
+            "したながら"
+          ],
+          "correctIndex": 0,
+          "explanation": "Irregular する: masu-stem is し. し + ながら = しながら = while doing."
+        },
+        {
+          "id": "nagara_q10",
+          "type": "usage",
+          "prompt": "Which sentence uses ながら INCORRECTLY (different subjects)?",
+          "japanese": null,
+          "choices": [
+            "音楽[おんがく]を聴[き]きながら勉強[べんきょう]しています。",
+            "泣[な]きながら笑[わら]いました。",
+            "赤[あか]ちゃんが泣[な]きながら、母親[ははおや]が歌[うた]った。",
+            "歩[ある]きながら電話[でんわ]しています。"
+          ],
+          "correctIndex": 2,
+          "explanation": "赤[あか]ちゃんが泣[な]きながら、母親[ははおや]が歌[うた]った has different subjects: 赤[あか]ちゃん (baby) and 母親[ははおや] (mother). ながら requires the same actor."
+        },
+        {
+          "id": "nagara_q11",
+          "type": "translation",
+          "prompt": "Which means 'Please don't use your phone while walking'?",
+          "japanese": null,
+          "choices": [
+            "歩[ある]いてからスマホを使[つか]わないでください。",
+            "歩[ある]くとスマホを使[つか]わないでください。",
+            "歩[ある]くまえにスマホを使[つか]わないでください。",
+            "歩[ある]きながらスマホを使[つか]わないでください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "歩[ある]き (masu-stem of 歩[ある]く) + ながら = while walking. Combined: please don't use phone while walking."
+        },
+        {
+          "id": "nagara_q12",
+          "type": "construct",
+          "prompt": "Which means 'She watched the news while eating breakfast'?",
+          "japanese": null,
+          "choices": [
+            "朝[あさ]ご飯[はん]を食[た]べてから、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]を食[た]べながら、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]を食[た]べているあいだに、ニュースを見[み]ました。",
+            "朝[あさ]ご飯[はん]の前[まえ]に、ニュースを見[み]ました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "食[た]べながら = while eating (same person, simultaneous). 朝[あさ]ご飯[はん]を食[た]べながら、ニュースを見[み]ました = watched the news while eating breakfast."
+        },
+        {
+          "id": "nagara_q13",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼[かれ]は___ながら仕事[しごと]をしています。(He works while listening to music.)",
+          "japanese": "彼[かれ]は___ながら仕事[しごと]をしています。",
+          "choices": [
+            "音楽[おんがく]を聴[き]き",
+            "音楽[おんがく]を聴[き]いて",
+            "音楽[おんがく]を聴[き]く",
+            "音楽[おんがく]を聴[き]いた"
+          ],
+          "correctIndex": 0,
+          "explanation": "ながら attaches to the masu-stem: 聴[き]く → 聴[き]き (masu-stem) + ながら = 聴[き]きながら. The blank holds 音楽[おんがく]を聴[き]き."
+        },
+        {
+          "id": "nagara_q14",
+          "type": "usage",
+          "prompt": "Which best describes the relationship between the two actions in ながら?",
+          "japanese": null,
+          "choices": [
+            "One action causes the other",
+            "One action finishes before the other starts",
+            "One action prevents the other",
+            "They are simultaneous — both ongoing at the same time"
+          ],
+          "correctIndex": 3,
+          "explanation": "ながら expresses two actions happening at the SAME TIME by the same person. They overlap throughout."
+        },
+        {
+          "id": "nagara_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'I ran while crying'?",
+          "japanese": null,
+          "choices": [
+            "泣[な]いてから走[はし]りました。",
+            "泣[な]くながら走[はし]りました。",
+            "泣[な]きながら走[はし]りました。",
+            "泣[な]いていながら走[はし]りました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "泣[な]く → masu-stem 泣[な]き + ながら = 泣[な]きながら = while crying. 泣[な]きながら走[はし]りました = ran while crying."
+        },
+        {
+          "id": "nagara_q16",
+          "type": "translation",
+          "prompt": "Which means 'He answered while thinking'?",
+          "japanese": null,
+          "choices": [
+            "考[かんが]えてから答[こた]えました。",
+            "考[かんが]えた後[あと]で答[こた]えました。",
+            "考[かんが]えると答[こた]えました。",
+            "考[かんが]えながら答[こた]えました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "考[かんが]え (masu-stem) + ながら = 考[かんが]えながら = while thinking. 考[かんが]えながら答[こた]えました = he answered while thinking."
+        },
+        {
+          "id": "nagara_q17",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 音楽[おんがく]を聴[き]き___、料理[りょうり]します。(I cook while listening to music.)",
+          "japanese": "音楽[おんがく]を聴[き]き___、料理[りょうり]します。",
+          "choices": [
+            "ながら",
+            "てから",
+            "たあとで",
+            "まえに"
+          ],
+          "correctIndex": 0,
+          "explanation": "聴[き]き (masu-stem) + ながら = while listening. ながら = simultaneous."
+        },
+        {
+          "id": "nagara_q18",
+          "type": "usage",
+          "prompt": "Which is an appropriate use of ながら with a contrasting/concessive nuance?",
+          "japanese": null,
+          "choices": [
+            "歩[ある]きながら走[はし]りました。",
+            "知[し]りながら黙[だま]っていた。",
+            "勉強[べんきょう]しながら寝[ね]ます。",
+            "話[はな]しながら読[よ]みました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "知[し]りながら黙[だま]っていた = kept quiet while knowing (concessive: 'even though knowing'). ながら can express a contrasting/concessive meaning in more literary contexts."
+        },
+        {
+          "id": "nagara_q19",
+          "type": "construct",
+          "prompt": "What is the ながら form of 走[はし]る (to run)?",
+          "japanese": null,
+          "choices": [
+            "走[はし]るながら",
+            "走[はし]ってながら",
+            "走[はし]りながら",
+            "走[はし]ったながら"
+          ],
+          "correctIndex": 2,
+          "explanation": "走[はし]る → masu-stem 走[はし]り + ながら = 走[はし]りながら = while running. Group 1 る-verb — masu-stem + ながら."
+        },
+        {
+          "id": "nagara_q20",
+          "type": "translation",
+          "prompt": "Which means 'She sang while crying'?",
+          "japanese": null,
+          "choices": [
+            "泣[な]いてから歌[うた]いました。",
+            "泣[な]いて、それから歌[うた]いました。",
+            "泣[な]くまえに歌[うた]いました。",
+            "泣[な]きながら歌[うた]いました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "泣[な]き (masu-stem of 泣[な]く) + ながら = 泣[な]きながら = while crying. 歌[うた]いました = sang."
+        }
+      ]
+    },
+    {
+      "id": "te-shimau",
+      "name": "〜てしまう (te shimau) — end up doing / unfortunately did",
+      "shortDescription": "Expresses regretful or unintended completion — 'ended up doing' — or emphatic full completion.",
+      "formation": "Verb (て-form) + しまう / しまいます",
+      "explanation": "〜てしまう is one of those patterns that feels simple on the surface but opens up into real expressive depth. It has two related meanings.\n\nNuance 1 — regret or unintended action: something happened that the speaker didn't want or didn't plan. The しまう adds a flavor of 'ugh' or 'oops.' 財布[さいふ]を忘[わす]れてしまいました: 'I went and forgot my wallet' — there's genuine dismay in that てしまう. 食[た]べすぎてしまった: 'I ended up eating too much' — you didn't mean to, or you're unhappy about it.\n\nNuance 2 — emphatic completion: てしまう can also just mean 'get something thoroughly done,' without regret. 宿題[しゅくだい]をしてしまいます: 'I'll go ahead and get all my homework done.' The しまう signals complete, decisive action.\n\nContext usually makes the reading obvious. If the situation is regrettable, it's nuance 1. If the speaker is resolving to do something completely, it's nuance 2.\n\nIn real spoken Japanese, てしまう nearly always contracts. Learn these forms — you'll need them to understand everyday speech:\n• 〜てしまう → 〜ちゃう (e.g., 食[た]べてしまう → 食[た]べちゃう)\n• 〜でしまう → 〜じゃう (e.g., 飲[の]んでしまう → 飲[の]んじゃう)\nPast contracted: ちゃった / じゃった. あ、また遅刻[ちこく]しちゃった！ = 'Oh no, I'm late again!'",
+      "rules": [
+        "て-form + しまう = ended up doing / unfortunately did (regret or unintended action)",
+        "Also: emphatic completion — 'go ahead and get X completely done'",
+        "Context determines which nuance: regrettable situation → nuance 1; decisive action → nuance 2",
+        "Casual contraction: 〜てしまう → 〜ちゃう; 〜でしまう → 〜じゃう",
+        "Past contractions: 〜ちゃった / 〜じゃった — very common in everyday speech"
+      ],
+      "examples": [
+        {
+          "japanese": "財布[さいふ]を忘[わす]れてしまいました。",
+          "romaji": "Saifu wo wasurete shimaimashita.",
+          "english": "I forgot my wallet (unfortunately)."
+        },
+        {
+          "japanese": "甘[あま]いものを食[た]べすぎてしまいました。",
+          "romaji": "Amai mono wo tabesugite shimaimashita.",
+          "english": "I ended up eating too many sweets."
+        },
+        {
+          "japanese": "今夜[こんや]中[じゅう]に宿題[しゅくだい]をしてしまいます。",
+          "romaji": "Konya juu ni shukudai wo shite shimaimasu.",
+          "english": "I'll go ahead and get all my homework done tonight."
+        },
+        {
+          "japanese": "あ、また遅刻[ちこく]しちゃった！",
+          "romaji": "A, mata chikoku shichatta!",
+          "english": "Oh no, I ended up being late again!"
+        }
+      ],
+      "flashcardHeader": "〜てしまう",
+      "flashcardAnswer": "Ended up doing / unfortunately did — or emphatic completion; contracts to 〜ちゃう / 〜じゃう in casual speech.",
+      "practice": [
+        {
+          "id": "te-shimau_q1",
+          "type": "translation",
+          "prompt": "Which means 'I accidentally ate all the cake' (with regret)?",
+          "japanese": null,
+          "choices": [
+            "ケーキを全部[ぜんぶ]食[た]べました。",
+            "ケーキを全部[ぜんぶ]食[た]べてみました。",
+            "ケーキを全部[ぜんぶ]食[た]べておきました。",
+            "ケーキを全部[ぜんぶ]食[た]べてしまいました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "て-form + しまう = ended up doing / did (with regret or unintentionality). 食[た]べてしまいました = unfortunately ate it all."
+        },
+        {
+          "id": "te-shimau_q2",
+          "type": "construct",
+          "prompt": "Which is the てしまう form of 忘[わす]れる (to forget)?",
+          "japanese": null,
+          "choices": [
+            "忘[わす]れましてしまう",
+            "忘[わす]れたしまう",
+            "忘[わす]れしまう",
+            "忘[わす]れてしまう"
+          ],
+          "correctIndex": 3,
+          "explanation": "て-form of 忘[わす]れる (Group 2): 忘[わす]れる → 忘[わす]れて + しまう = 忘[わす]れてしまう = end up forgetting."
+        },
+        {
+          "id": "te-shimau_q3",
+          "type": "usage",
+          "prompt": "Which nuance does てしまう NOT typically express?",
+          "japanese": null,
+          "choices": [
+            "Regret about something that happened",
+            "Unintended completion of an action",
+            "Deliberate preparation for the future",
+            "Completion the speaker finds problematic"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ておく (not てしまう) expresses deliberate preparation. てしまう expresses unintended/regrettable completion or accidental actions."
+        },
+        {
+          "id": "te-shimau_q4",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 宿題[しゅくだい]をなくし___しまいました。(I ended up losing my homework.)",
+          "japanese": "宿題[しゅくだい]をなくし___しまいました。",
+          "choices": [
+            "た",
+            "から",
+            "ながら",
+            "て"
+          ],
+          "correctIndex": 3,
+          "explanation": "て-form + しまいました = ended up doing (with regret). なくす → なくして (te-form). The blank holds て: なくし+て+しまいました."
+        },
+        {
+          "id": "te-shimau_q5",
+          "type": "construct",
+          "prompt": "Which is the casual contracted form of 〜てしまった?",
+          "japanese": null,
+          "choices": [
+            "〜てしまた",
+            "〜てまった",
+            "〜ちゃった",
+            "〜てしたった"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜てしまった → casual contraction 〜ちゃった (or 〜じゃった for voiced te-forms). Very common in informal speech."
+        },
+        {
+          "id": "te-shimau_q6",
+          "type": "translation",
+          "prompt": "Which means 'I accidentally broke the plate' (casual speech)?",
+          "japanese": null,
+          "choices": [
+            "皿[さら]を割[わ]りました。",
+            "皿[さら]を割[わ]ってしまいました。",
+            "皿[さら]を割[わ]ってみました。",
+            "皿[さら]を割[わ]っちゃった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ちゃった is the casual contraction of 〜てしまった. 割[わ]る → 割[わ]って + しまった → 割[わ]っちゃった = I (accidentally) broke ."
+        },
+        {
+          "id": "te-shimau_q7",
+          "type": "construct",
+          "prompt": "Which is the てしまう form of 飲[の]む (to drink)?",
+          "japanese": null,
+          "choices": [
+            "飲[の]みてしまう",
+            "飲[の]むてしまう",
+            "飲[の]んしまう",
+            "飲[の]んでしまう"
+          ],
+          "correctIndex": 3,
+          "explanation": "飲[の]む → te-form 飲[の]んで (む→んで) + しまう = 飲[の]んでしまう = end up drinking / unfortunately drink."
+        },
+        {
+          "id": "te-shimau_q8",
+          "type": "usage",
+          "prompt": "Which sentence uses てしまう for COMPLETION (something fully done)?",
+          "japanese": null,
+          "choices": [
+            "財布[さいふ]をなくしてしまいました。",
+            "怒[おこ]ってしまいました。",
+            "秘密[ひみつ]を話[はな]してしまいました。",
+            "宿題[しゅくだい]を全部[ぜんぶ]やってしまいました。"
+          ],
+          "correctIndex": 3,
+          "explanation": "宿題[しゅくだい]を全部[ぜんぶ]やってしまいました = finished all homework (complete). While てしまう often implies regret, it can also emphasize full completion. Options 1-3 carry stronger regret/unintended nuance."
+        },
+        {
+          "id": "te-shimau_q9",
+          "type": "construct",
+          "prompt": "Which is the casual contraction of 読[よ]んでしまった?",
+          "japanese": null,
+          "choices": [
+            "読[よ]んちゃった",
+            "読[よ]んだしまった",
+            "読[よ]んしまった",
+            "読[よ]んじゃった"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜でしまった → 〜じゃった (voiced te-form contraction). 読[よ]んで + しまった → 読[よ]んじゃった. Voiced て-form (〜んで) contracts to じゃった."
+        },
+        {
+          "id": "te-shimau_q10",
+          "type": "translation",
+          "prompt": "Which means 'I ended up crying during the movie'?",
+          "japanese": null,
+          "choices": [
+            "映画[えいが]を見[み]てから、泣[な]きました。",
+            "映画[えいが]を見[み]ながら、泣[な]いてしまいました。",
+            "映画[えいが]を見[み]る前[まえ]に、泣[な]きました。",
+            "映画[えいが]を見[み]て、泣[な]きました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "泣[な]いてしまいました = ended up crying (unintended). 映画[えいが]を見[み]ながら + 泣[な]いてしまいました = while watching the movie, ended up crying."
+        },
+        {
+          "id": "te-shimau_q11",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: 彼[かれ]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。(I ended up laughing at his story.)",
+          "japanese": "彼[かれ]の話[はなし]を聞[き]いて、笑[わら]っ___しまいました。",
+          "choices": [
+            "た",
+            "て",
+            "から",
+            "ながら"
+          ],
+          "correctIndex": 1,
+          "explanation": "笑[わら]う → 笑[わら]って (te-form, う→って) + しまいました = 笑[わら]ってしまいました = ended up laughing. The blank is て."
+        },
+        {
+          "id": "te-shimau_q12",
+          "type": "usage",
+          "prompt": "Which nuance does てしまう add to: '大事[だいじ]な書類[しょるい]を捨[す]ててしまいました'?",
+          "japanese": null,
+          "choices": [
+            "The speaker deliberately discarded it",
+            "The speaker plans to discard it",
+            "The speaker watched someone discard it",
+            "The speaker regrets having discarded it"
+          ],
+          "correctIndex": 3,
+          "explanation": "捨[す]ててしまいました = (unfortunately/accidentally) threw away. てしまう adds regret or unintentionality about throwing away an important document."
+        },
+        {
+          "id": "te-shimau_q13",
+          "type": "construct",
+          "prompt": "Which is the てしまう form of 来[く]る (to come)?",
+          "japanese": null,
+          "choices": [
+            "来[き]てしまう",
+            "くるてしまう",
+            "きしまう",
+            "きたしまう"
+          ],
+          "correctIndex": 0,
+          "explanation": "Irregular くる → きて (te-form) + しまう = きてしまう = end up coming. 来[き]てしまう is correct."
+        },
+        {
+          "id": "te-shimau_q14",
+          "type": "translation",
+          "prompt": "Which means 'I accidentally sent the email to the wrong person' (with regret)?",
+          "japanese": null,
+          "choices": [
+            "間違[まちが]った人[ひと]にメールを送[おく]りました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]ってしまいました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]ってみました。",
+            "間違[まちが]った人[ひと]にメールを送[おく]っておきました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "〜てしまいました = accidentally did / unfortunately did. 送[おく]ってしまいました = accidentally sent. Option 1 is plain past with no regret nuance."
+        },
+        {
+          "id": "te-shimau_q15",
+          "type": "construct",
+          "prompt": "What is the てしまう of 書[か]く (to write)?",
+          "japanese": null,
+          "choices": [
+            "書[か]きてしまう",
+            "書[か]くてしまう",
+            "書[か]いてしまう",
+            "書[か]いしまう"
+          ],
+          "correctIndex": 2,
+          "explanation": "書[か]く → 書[か]いて (te-form, く→いて) + しまう = 書[か]いてしまう = end up writing / accidentally write."
+        },
+        {
+          "id": "te-shimau_q16",
+          "type": "usage",
+          "prompt": "Which is the casual てしまった form of 食[た]べてしまった?",
+          "japanese": null,
+          "choices": [
+            "食[た]べてしまた",
+            "食[た]べてまった",
+            "食[た]べしまった",
+            "食[た]べちゃった"
+          ],
+          "correctIndex": 3,
+          "explanation": "食[た]べてしまった → casual contraction 食[た]べちゃった. Unvoiced て (〜て) + しまった → ちゃった."
+        },
+        {
+          "id": "te-shimau_q17",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: カギをなくし___しまいました。(I accidentally lost my key.)",
+          "japanese": "カギをなくし___しまいました。",
+          "choices": [
+            "た",
+            "から",
+            "ながら",
+            "て"
+          ],
+          "correctIndex": 3,
+          "explanation": "なくす → te-form: なくして. なくし + て + しまいました = なくしてしまいました = accidentally lost [it]. The blank holds て."
+        },
+        {
+          "id": "te-shimau_q18",
+          "type": "translation",
+          "prompt": "Which means 'He ended up quitting his job'?",
+          "japanese": null,
+          "choices": [
+            "彼[かれ]は仕事[しごと]をやめました。",
+            "彼[かれ]は仕事[しごと]をやめてしまいました。",
+            "彼[かれ]は仕事[しごと]をやめてみました。",
+            "彼[かれ]は仕事[しごと]をやめておきました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "やめてしまいました = ended up quitting (with regret or finality). The plain やめました is neutral; てしまう adds unfortunate/irreversible completion."
+        },
+        {
+          "id": "te-shimau_q19",
+          "type": "construct",
+          "prompt": "What is the てしまう of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "すてしまう",
+            "するてしまう",
+            "してしまう",
+            "したしまう"
+          ],
+          "correctIndex": 2,
+          "explanation": "Irregular する → して (te-form) + しまう = してしまう = end up doing / unfortunately do."
+        },
+        {
+          "id": "te-shimau_q20",
+          "type": "usage",
+          "prompt": "Which sentence does NOT use てしまう appropriately?",
+          "japanese": null,
+          "choices": [
+            "お金[かね]を全部[ぜんぶ]使[つか]ってしまいました。",
+            "財布[さいふ]を忘[わす]れてしまいました。",
+            "明日[あした]も頑張[がんば]ってしまいます。",
+            "電車[でんしゃ]に乗[の]り遅[おく]れてしまいました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "明日[あした]も頑張[がんば]ってしまいます sounds unnatural — がんばる is a positive intentional action. てしまう works best for regrettable, accidental, or unintended outcomes."
+        }
+      ]
+    },
+    {
+      "id": "ba-yokatta",
+      "name": "〜ばよかった (ba yokatta) — should have / I wish I had",
+      "shortDescription": "Expresses past regret — 'I should have' or 'I wish I had.'",
+      "formation": "Verb (ば-form) + よかった  |  Verb (ない-form, drop い) + ければよかった",
+      "explanation": "〜ばよかった is the grammar of hindsight regret. Literally it means 'it would have been good if [I had done X],' and in practice it's 'I should have' or 'if only I had.'\n\nFormation uses the ば-form of the verb. You'll study the ば-conditional in full depth in Chapter 22 — for now, learn just enough to build ばよかった.\nGroup 2 (ru-verbs): drop る, add れば (食[た]べる → 食[た]べれば → 食[た]べればよかった).\nGroup 1 (u-verbs): shift final syllable to え-row, add ば (書[か]く → 書[か]けば → 書[か]けばよかった, 飲[の]む → 飲[の]めば, 話[はな]す → 話[はな]せば, する → すれば, くる → くれば).\n\nFor negative regret — 'I shouldn't have done' — use the ない-form stem + ければよかった: 言[い]わなければよかった (I shouldn't have said that / I wish I hadn't said it).\n\nA more casual alternative: 〜たらよかった uses the たら conditional (which you learned in Chapter 16) and means the same thing with a slightly softer feel: もっと勉強[べんきょう]したらよかった (I should have studied more). In everyday conversation, both forms are common — ばよかった sounds slightly more formal.",
+      "rules": [
+        "Verb (ば-form) + よかった = I should have / I wish I had (affirmative regret)",
+        "Group 2: drop る + れば; Group 1: え-row + ば (e.g., 書[か]く→書[か]けば, する→すれば)",
+        "Negative regret: ない-form stem + ければよかった = I shouldn't have / I wish I hadn't",
+        "Casual alternative: 〜たらよかった (same meaning, slightly softer — uses たら from Chapter 16)",
+        "ば-conditional is covered fully in Chapter 22; for now, learn ばよかった as a fixed pattern"
+      ],
+      "examples": [
+        {
+          "japanese": "もっと早[はや]く勉強[べんきょう]すればよかったです。",
+          "romaji": "Motto hayaku benkyou sureba yokatta desu.",
+          "english": "I should have studied earlier."
+        },
+        {
+          "japanese": "傘[かさ]を持[も]って来[く]ればよかった。",
+          "romaji": "Kasa wo motte kureba yokatta.",
+          "english": "I should have brought an umbrella."
+        },
+        {
+          "japanese": "あんなことを言[い]わなければよかったです。",
+          "romaji": "Anna koto wo iwanakereba yokatta desu.",
+          "english": "I shouldn't have said such a thing."
+        },
+        {
+          "japanese": "もっと早[はや]く病院[びょういん]に行[い]けばよかった。",
+          "romaji": "Motto hayaku byouin ni ikeba yokatta.",
+          "english": "I should have gone to the hospital sooner."
+        }
+      ],
+      "flashcardHeader": "〜ばよかった",
+      "flashcardAnswer": "Past regret — 'I should have done X' or 'I wish I had.'",
+      "practice": [
+        {
+          "id": "ba-yokatta_q1",
+          "type": "translation",
+          "prompt": "Which means 'I should have studied more'?",
+          "japanese": null,
+          "choices": [
+            "もっと勉強[べんきょう]すればよかった。",
+            "もっと勉強[べんきょう]したらよかった。",
+            "もっと勉強[べんきょう]するとよかった。",
+            "もっと勉強[べんきょう]するならよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "〜ばよかった = I should have / I wish I had. 勉強[べんきょう]する → ば-form 勉強[べんきょう]すれば + よかった = should have studied."
+        },
+        {
+          "id": "ba-yokatta_q2",
+          "type": "construct",
+          "prompt": "What is the ば-form of 行[い]く (to go)?",
+          "japanese": null,
+          "choices": [
+            "行[い]きば",
+            "行[い]くば",
+            "行[い]ったば",
+            "行[い]けば"
+          ],
+          "correctIndex": 3,
+          "explanation": "Group 1 う-verb ば-form: change final u-kana to e-kana + ば. 行[い]く → 行[い]け + ば = 行[い]けば. 行[い]けばよかった = I should have gone."
+        },
+        {
+          "id": "ba-yokatta_q3",
+          "type": "construct",
+          "prompt": "Which means 'I wish I had brought an umbrella'?",
+          "japanese": null,
+          "choices": [
+            "傘[かさ]を持[も]てばよかった。",
+            "傘[かさ]を持[も]ったらよかった。",
+            "傘[かさ]を持[も]っていればよかった。",
+            "傘[かさ]を持[も]つとよかった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ていればよかった = I wish I had been . 持[も]っていれば (ば-form of 持[も]っている) + よかった = I wish I had been carrying ."
+        },
+        {
+          "id": "ba-yokatta_q4",
+          "type": "usage",
+          "prompt": "What does 〜ばよかった express?",
+          "japanese": null,
+          "choices": [
+            "A future hope",
+            "A polite request",
+            "An indirect suggestion to someone else",
+            "Regret about something NOT done or that happened differently"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ばよかった expresses regret: 'I should have done X / I wish I had done X.' The speaker did NOT do X and regrets it."
+        },
+        {
+          "id": "ba-yokatta_q5",
+          "type": "construct",
+          "prompt": "What is the ば-form of 食[た]べる (to eat)?",
+          "japanese": null,
+          "choices": [
+            "食[た]べれば",
+            "食[た]べば",
+            "食[た]べたば",
+            "食[た]べるば"
+          ],
+          "correctIndex": 0,
+          "explanation": "Group 2 (ru-verb) ば-form: drop る + れば. 食[た]べる → 食[た]べ + れば = 食[た]べれば. 食[た]べればよかった = I should have eaten."
+        },
+        {
+          "id": "ba-yokatta_q6",
+          "type": "construct",
+          "prompt": "What is the ば-form of する (to do)?",
+          "japanese": null,
+          "choices": [
+            "すば",
+            "するば",
+            "するれば",
+            "すれば"
+          ],
+          "correctIndex": 3,
+          "explanation": "Irregular する: ば-form is すれば. すればよかった = I should have done [it]. Irregular — must be memorized."
+        },
+        {
+          "id": "ba-yokatta_q7",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: もっと早[はや]く___よかったです。(I should have gotten up earlier.)",
+          "japanese": "もっと早[はや]く___よかったです。",
+          "choices": [
+            "起[お]きたら",
+            "起[お]きると",
+            "起[お]きれば",
+            "起[お]きて"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ばよかった: ば-form + よかった. 起[お]きる → 起[お]きれば (Group 2: drop る + れば). 起[お]きればよかったです = I should have gotten up earlier."
+        },
+        {
+          "id": "ba-yokatta_q8",
+          "type": "usage",
+          "prompt": "Which variation means 'I should have prepared in advance'?",
+          "japanese": null,
+          "choices": [
+            "〜たかった",
+            "〜てほしかった",
+            "〜てもよかった",
+            "〜ておけばよかった"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ておけばよかった combines ておく (do in advance) + ばよかった. 準備[じゅんび]しておけばよかった = I should have prepared in advance. Very natural and common."
+        },
+        {
+          "id": "ba-yokatta_q9",
+          "type": "construct",
+          "prompt": "What is the ば-form of 来[く]る (to come)?",
+          "japanese": null,
+          "choices": [
+            "来[く]れば",
+            "きれば",
+            "これば",
+            "こなければ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Irregular くる: ば-form is くれば. 来[く]ればよかった = I should have come. Must be memorized."
+        },
+        {
+          "id": "ba-yokatta_q10",
+          "type": "translation",
+          "prompt": "Which means 'I shouldn't have said that'?",
+          "japanese": null,
+          "choices": [
+            "あんなことを言[い]わなければよかった。",
+            "あんなことを言[い]えばよかった。",
+            "あんなことを言[い]わなかったらよかった。",
+            "あんなことを言[い]ったらよかった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative ば-form + よかった = I should not have. 言[い]わなければ (ば-form of 言[い]わない) + よかった = I should not have said ."
+        },
+        {
+          "id": "ba-yokatta_q11",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'I should have slept more'?",
+          "japanese": null,
+          "choices": [
+            "もっと寝[ね]たばよかった。",
+            "もっと寝[ね]るとよかった。",
+            "もっと寝[ね]ればよかった。",
+            "もっと寝[ね]たならよかった。"
+          ],
+          "correctIndex": 2,
+          "explanation": "寝[ね]る → ば-form 寝[ね]れば (Group 2: drop る + れば) + よかった = 寝[ね]ればよかった = I should have slept more."
+        },
+        {
+          "id": "ba-yokatta_q12",
+          "type": "translation",
+          "prompt": "Which means 'I wish I had taken the exam' (regret)?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]を受[う]けたらよかった。",
+            "試験[しけん]を受[う]けるとよかった。",
+            "試験[しけん]を受[う]けたならよかった。",
+            "試験[しけん]を受[う]ければよかった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "受[う]ける → ば-form 受[う]ければ + よかった = 受[う]ければよかった = I wish I had taken ."
+        },
+        {
+          "id": "ba-yokatta_q13",
+          "type": "construct",
+          "prompt": "What is the negative ば-form of 行[い]く (to go)?",
+          "japanese": null,
+          "choices": [
+            "行[い]かなければ",
+            "行[い]かないば",
+            "行[い]けなければ",
+            "行[い]かないならば"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative ば-form: nai-form + ければ (drop い from ない, add ければ). 行[い]かない → 行[い]かなければ. 行[い]かなければよかった = I should not have gone."
+        },
+        {
+          "id": "ba-yokatta_q14",
+          "type": "usage",
+          "prompt": "When can 〜たらよかった be used instead of 〜ばよかった?",
+          "japanese": null,
+          "choices": [
+            "Only in formal speech",
+            "Only for Group 2 verbs",
+            "〜たらよかった cannot be used for regret",
+            "They are largely interchangeable for expressing regret"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜たらよかった is also used for regret and is largely interchangeable with ばよかった in casual speech. ばよかった is slightly more literary."
+        },
+        {
+          "id": "ba-yokatta_q15",
+          "type": "fillBlank",
+          "prompt": "Fill in the blank: あのとき、もっとよく聞[き]いて___よかった。(I should have been listening more carefully then.)",
+          "japanese": "あのとき、もっとよく聞[き]いて___よかった。",
+          "choices": [
+            "いると",
+            "いても",
+            "いれば",
+            "いたで"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜ていればよかった = I should have been doing. 聞[き]いていれば + よかった = I should have been listening. The blank is いれば (ば-form of いる following 聞[き]いて)."
+        },
+        {
+          "id": "ba-yokatta_q16",
+          "type": "usage",
+          "prompt": "How do you add an 'in advance' nuance to ばよかった?",
+          "japanese": null,
+          "choices": [
+            "〜ていればよかった",
+            "〜たらよかった",
+            "〜るとよかった",
+            "〜ておけばよかった"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜ておけばよかった = should have done X in advance. ておく (do in advance) + ば-form + よかった = ておけばよかった."
+        },
+        {
+          "id": "ba-yokatta_q17",
+          "type": "construct",
+          "prompt": "What is the ば-form of 飲[の]む (to drink)?",
+          "japanese": null,
+          "choices": [
+            "飲[の]めば",
+            "飲[の]むば",
+            "飲[の]んだば",
+            "飲[の]みば"
+          ],
+          "correctIndex": 0,
+          "explanation": "Group 1 む-verb ば-form: む → め + ば. 飲[の]む → 飲[の]め + ば = 飲[の]めば. 飲[の]めばよかった = I should have drunk ."
+        },
+        {
+          "id": "ba-yokatta_q18",
+          "type": "translation",
+          "prompt": "Which means 'I should have told her the truth'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]に本当[ほんとう]のことを言[い]えばよかった。",
+            "彼女[かのじょ]に本当[ほんとう]のことを言[い]ったらよかった。",
+            "彼女[かのじょ]に本当[ほんとう]のことを言[い]わなければよかった。",
+            "彼女[かのじょ]に本当[ほんとう]のことを言[い]えばよかったです。"
+          ],
+          "correctIndex": 0,
+          "explanation": "言[い]う → ば-form 言[い]えば + よかった = 言[い]えばよかった = I should have said . Option 3 means I should NOT have said it."
+        },
+        {
+          "id": "ba-yokatta_q19",
+          "type": "construct",
+          "prompt": "Which means 'I wish I hadn't eaten so much'?",
+          "japanese": null,
+          "choices": [
+            "あんなに食[た]べればよかった。",
+            "あんなに食[た]べてしまえばよかった。",
+            "あんなに食[た]べないとよかった。",
+            "あんなに食[た]べなければよかった。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Negative ばよかった: 食[た]べない → 食[た]べなければ (drop い + ければ) + よかった = 食[た]べなければよかった = I wish I hadn't eaten so much."
+        },
+        {
+          "id": "ba-yokatta_q20",
+          "type": "usage",
+          "prompt": "Which sentence expresses regret about a MISSED ACTION (something you should have done but didn't)?",
+          "japanese": null,
+          "choices": [
+            "出[で]かけなければよかった。(I shouldn't have gone out.)",
+            "謝[あやま]ればよかった。(I should have apologized.)",
+            "あんなことを言[い]わなければよかった。(I shouldn't have said that.)",
+            "もっと食[た]べなければよかった。(I shouldn't have eaten so much.)"
+          ],
+          "correctIndex": 1,
+          "explanation": "謝[あやま]ればよかった = I should have apologized (but didn't). This is regret about an INACTION. Options 1, 3, 4 all express regret about things done."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch17_v01",
+      "partOfSpeech": "noun",
+      "kanji": "気持ち",
+      "kana": "きもち",
+      "romaji": "kimochi",
+      "definition": "feeling; mood"
+    },
+    {
+      "id": "ch17_v02",
+      "partOfSpeech": "noun",
+      "kanji": "気分",
+      "kana": "きぶん",
+      "romaji": "kibun",
+      "definition": "mood; how one feels"
+    },
+    {
+      "id": "ch17_v03",
+      "partOfSpeech": "noun",
+      "kanji": "感情",
+      "kana": "かんじょう",
+      "romaji": "kanjou",
+      "definition": "emotion"
+    },
+    {
+      "id": "ch17_v04",
+      "partOfSpeech": "i-adjective",
+      "kanji": "嬉しい",
+      "kana": "うれしい",
+      "romaji": "ureshii",
+      "definition": "happy; glad"
+    },
+    {
+      "id": "ch17_v05",
+      "partOfSpeech": "i-adjective",
+      "kanji": "悲しい",
+      "kana": "かなしい",
+      "romaji": "kanashii",
+      "definition": "sad"
+    },
+    {
+      "id": "ch17_v06",
+      "partOfSpeech": "i-adjective",
+      "kanji": "寂しい",
+      "kana": "さびしい",
+      "romaji": "sabishii",
+      "definition": "lonely"
+    },
+    {
+      "id": "ch17_v07",
+      "partOfSpeech": "i-adjective",
+      "kanji": "怖い",
+      "kana": "こわい",
+      "romaji": "kowai",
+      "definition": "scary; afraid"
+    },
+    {
+      "id": "ch17_v08",
+      "partOfSpeech": "i-adjective",
+      "kanji": "恥ずかしい",
+      "kana": "はずかしい",
+      "romaji": "hazukashii",
+      "definition": "embarrassing; ashamed"
+    },
+    {
+      "id": "ch17_v09",
+      "partOfSpeech": "i-adjective",
+      "kanji": "羨ましい",
+      "kana": "うらやましい",
+      "romaji": "urayamashii",
+      "definition": "envious"
+    },
+    {
+      "id": "ch17_v10",
+      "partOfSpeech": "i-adjective",
+      "kanji": "懐かしい",
+      "kana": "なつかしい",
+      "romaji": "natsukashii",
+      "definition": "nostalgic"
+    },
+    {
+      "id": "ch17_v11",
+      "partOfSpeech": "na-adjective",
+      "kanji": "幸せ",
+      "kana": "しあわせ",
+      "romaji": "shiawase",
+      "definition": "happy; fortunate"
+    },
+    {
+      "id": "ch17_v12",
+      "partOfSpeech": "noun",
+      "kanji": "満足",
+      "kana": "まんぞく",
+      "romaji": "manzoku",
+      "definition": "satisfaction"
+    },
+    {
+      "id": "ch17_v13",
+      "partOfSpeech": "noun",
+      "kanji": "不満",
+      "kana": "ふまん",
+      "romaji": "fuman",
+      "definition": "dissatisfaction"
+    },
+    {
+      "id": "ch17_v14",
+      "partOfSpeech": "noun",
+      "kanji": "心配",
+      "kana": "しんぱい",
+      "romaji": "shinpai",
+      "definition": "worry"
+    },
+    {
+      "id": "ch17_v15",
+      "partOfSpeech": "noun",
+      "kanji": "安心",
+      "kana": "あんしん",
+      "romaji": "anshin",
+      "definition": "relief; peace of mind"
+    },
+    {
+      "id": "ch17_v16",
+      "partOfSpeech": "noun",
+      "kanji": "緊張",
+      "kana": "きんちょう",
+      "romaji": "kinchou",
+      "definition": "nervousness; tension"
+    },
+    {
+      "id": "ch17_v17",
+      "partOfSpeech": "noun",
+      "kanji": "興奮",
+      "kana": "こうふん",
+      "romaji": "koufun",
+      "definition": "excitement"
+    },
+    {
+      "id": "ch17_v18",
+      "partOfSpeech": "noun",
+      "kanji": "感動",
+      "kana": "かんどう",
+      "romaji": "kandou",
+      "definition": "being deeply moved"
+    },
+    {
+      "id": "ch17_v19",
+      "partOfSpeech": "noun",
+      "kanji": "感謝",
+      "kana": "かんしゃ",
+      "romaji": "kansha",
+      "definition": "gratitude"
+    },
+    {
+      "id": "ch17_v20",
+      "partOfSpeech": "noun",
+      "kanji": "期待",
+      "kana": "きたい",
+      "romaji": "kitai",
+      "definition": "expectation"
+    },
+    {
+      "id": "ch17_v21",
+      "partOfSpeech": "noun",
+      "kanji": "我慢",
+      "kana": "がまん",
+      "romaji": "gaman",
+      "definition": "patience; endurance"
+    },
+    {
+      "id": "ch17_v22",
+      "partOfSpeech": "noun",
+      "kanji": "遠慮",
+      "kana": "えんりょ",
+      "romaji": "enryo",
+      "definition": "reserve; holding back"
+    },
+    {
+      "id": "ch17_v23",
+      "partOfSpeech": "noun",
+      "kanji": "機嫌",
+      "kana": "きげん",
+      "romaji": "kigen",
+      "definition": "mood; humor"
+    },
+    {
+      "id": "ch17_v24",
+      "partOfSpeech": "noun",
+      "kanji": "涙",
+      "kana": "なみだ",
+      "romaji": "namida",
+      "definition": "tears"
+    },
+    {
+      "id": "ch17_v25",
+      "partOfSpeech": "noun",
+      "kanji": "笑顔",
+      "kana": "えがお",
+      "romaji": "egao",
+      "definition": "smiling face"
+    },
+    {
+      "id": "ch17_v26",
+      "partOfSpeech": "verb",
+      "kanji": "驚く",
+      "kana": "おどろく",
+      "romaji": "odoroku",
+      "definition": "to be surprised"
+    },
+    {
+      "id": "ch17_v27",
+      "partOfSpeech": "verb",
+      "kanji": "怒る",
+      "kana": "おこる",
+      "romaji": "okoru",
+      "definition": "to get angry"
+    },
+    {
+      "id": "ch17_v28",
+      "partOfSpeech": "verb",
+      "kanji": "泣く",
+      "kana": "なく",
+      "romaji": "naku",
+      "definition": "to cry"
+    },
+    {
+      "id": "ch17_v29",
+      "partOfSpeech": "verb",
+      "kanji": "笑う",
+      "kana": "わらう",
+      "romaji": "warau",
+      "definition": "to laugh; to smile"
+    },
+    {
+      "id": "ch17_v30",
+      "partOfSpeech": "verb",
+      "kanji": "喜ぶ",
+      "kana": "よろこぶ",
+      "romaji": "yorokobu",
+      "definition": "to be glad; to rejoice"
+    },
+    {
+      "id": "ch17_v31",
+      "partOfSpeech": "noun",
+      "kanji": "楽しみ",
+      "kana": "たのしみ",
+      "romaji": "tanoshimi",
+      "definition": "something to look forward to"
+    },
+    {
+      "id": "ch17_v32",
+      "partOfSpeech": "verb",
+      "kanji": "落ち込む",
+      "kana": "おちこむ",
+      "romaji": "ochikomu",
+      "definition": "to feel down; to be depressed"
+    },
+    {
+      "id": "ch17_v33",
+      "partOfSpeech": "noun",
+      "kanji": "びっくり",
+      "kana": "びっくり",
+      "romaji": "bikkuri",
+      "definition": "being startled"
+    },
+    {
+      "id": "ch17_v34",
+      "partOfSpeech": "expression",
+      "kanji": "気になる",
+      "kana": "きになる",
+      "romaji": "kininaru",
+      "definition": "to be bothered; to be curious"
+    },
+    {
+      "id": "ch17_v35",
+      "partOfSpeech": "verb",
+      "kanji": "感じる",
+      "kana": "かんじる",
+      "romaji": "kanjiru",
+      "definition": "to feel; to sense"
+    },
+    {
+      "id": "ch17_v36",
+      "partOfSpeech": "noun",
+      "kanji": "感想",
+      "kana": "かんそう",
+      "romaji": "kansou",
+      "definition": "impression; thoughts"
+    },
+    {
+      "id": "ch17_v37",
+      "partOfSpeech": "verb",
+      "kanji": "気付く",
+      "kana": "きづく",
+      "romaji": "kizuku",
+      "definition": "to notice; to realize"
+    },
+    {
+      "id": "ch17_v38",
+      "partOfSpeech": "noun",
+      "kanji": "迷惑",
+      "kana": "めいわく",
+      "romaji": "meiwaku",
+      "definition": "trouble; nuisance"
+    },
+    {
+      "id": "ch17_v39",
+      "partOfSpeech": "na-adjective",
+      "kanji": "気の毒",
+      "kana": "きのどく",
+      "romaji": "kinodoku",
+      "definition": "pitiable; feeling sorry for"
+    },
+    {
+      "id": "ch17_v40",
+      "partOfSpeech": "noun",
+      "kanji": "夢",
+      "kana": "ゆめ",
+      "romaji": "yume",
+      "definition": "dream"
+    }
+  ],
+  "kanji": [
+    "不",
+    "持",
+    "安",
+    "心",
+    "楽",
+    "待",
+    "早",
+    "曜",
+    "牛",
+    "姉"
+  ]
+}

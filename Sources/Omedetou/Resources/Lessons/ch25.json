@@ -1,0 +1,1300 @@
+{
+  "id": "ch25",
+  "chapterNumber": 27,
+  "title": "Manner, Duration, and Frequency",
+  "points": [
+    {
+      "id": "mama",
+      "name": "〜まま (mama) — leaving as is / in that state",
+      "shortDescription": "A state left unchanged while something else happens — 'with X still as it is.'",
+      "formation": "Verb (た-form or ている-form) + まま  |  Noun + の + まま  |  い-adj + まま",
+      "explanation": "まま describes a state that persists unchanged into another situation. Something is left as it is — not updated, not corrected, not resolved — while a separate action happens.\n\n電気[でんき]をつけたまま寝[ね]てしまいました: 'I fell asleep with the lights still on.' The lights were in the 'on' state; that state was not changed; sleeping happened anyway. The まま construction captures that 'left unchanged' quality.\n\nFormation across word types:\n• Past form + まま: a completed action whose result is left in place. 開[あ]けたまま (left open), 靴[くつ]を履いたまま (with shoes still on).\n• ている + まま: an ongoing state left running. エンジンをかけたまま (with the engine still running).\n• ない-form + まま: without having done something. パスポートを持[も]たないまま来[き]てしまった (arrived without bringing my passport).\n• い-adj + まま: while in that state. 冷[つめ]たいまま食[た]べる (eat while still cold).\n• Noun + の + まま: while still being [noun]. 子[こ]どものまま (while still a child).\n\nThe nuance tends toward 'something is the way it shouldn't be' in many uses, but まま is also used neutrally for 'as-is' states: 自然[しぜん]のまま (in its natural state), このままでいい (this way is fine). Context determines whether the unchanged state is problematic or simply descriptive.",
+      "rules": [
+        "た-form + まま = in that completed state, unchanged (opened and left open)",
+        "ない-form + まま = without having done X (arrived without doing something)",
+        "い-adj + まま = while still in that state (冷[つめ]たいまま = while still cold)",
+        "Noun + の + まま = while still being [noun]",
+        "Often implies undesirable continuation, but can also describe neutral 'as-is' states"
+      ],
+      "examples": [
+        {
+          "japanese": "テレビをつけたまま寝[ね]てしまいました。",
+          "romaji": "Terebi wo tsuketa mama nete shimaimashita.",
+          "english": "I fell asleep with the TV still on."
+        },
+        {
+          "japanese": "コートを着[き]たまま、授業[じゅぎょう]を受[う]けていました。",
+          "romaji": "Kooto wo kita mama, jugyou wo ukete imashita.",
+          "english": "I was attending class with my coat still on."
+        },
+        {
+          "japanese": "このままではいけないと思[おも]っています。",
+          "romaji": "Kono mama de wa ikenai to omotte imasu.",
+          "english": "I think I can't go on like this."
+        },
+        {
+          "japanese": "パスポートを持[も]たないまま、空港[くうこう]に来[き]てしまいました。",
+          "romaji": "Pasupooto wo motanai mama, kuukou ni kite shimaimashita.",
+          "english": "I ended up coming to the airport without my passport."
+        }
+      ],
+      "flashcardHeader": "〜まま",
+      "flashcardAnswer": "A state left unchanged while something else happens — 'with X still as it is / left as is.'",
+      "practice": [
+        {
+          "id": "mama_q1",
+          "type": "usage",
+          "prompt": "What does 〜まま mean?",
+          "japanese": null,
+          "choices": [
+            "before doing X",
+            "after doing X",
+            "leaving X as it is / in the state of X",
+            "while doing X simultaneously"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜まま = leaving/remaining in a state / as it is. テレビをつけたまま寝[ね]た = fell asleep with the TV left on (left it in the 'on' state). まま expresses that a state is left unchanged."
+        },
+        {
+          "id": "mama_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'He fell asleep with the light on'?",
+          "japanese": null,
+          "choices": [
+            "電気[でんき]をつけながら、寝[ね]ました。",
+            "電気[でんき]をつけてまま、寝[ね]ました。",
+            "電気[でんき]をつけたまま、寝[ね]ました。",
+            "電気[でんき]のまま、寝[ね]ました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ta-form + まま = leaving  as it is (in a done state). つける → つけた + まま = つけたまま = leaving it on. 電気[でんき]をつけたまま寝[ね]ました = fell asleep with the light left on."
+        },
+        {
+          "id": "mama_q3",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please eat it as is (without changing anything)'?",
+          "japanese": null,
+          "choices": [
+            "そのまま食[た]べてください。",
+            "そのままで食[た]べてください。",
+            "そのに食[た]べてください。",
+            "そのままを食[た]べてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "そのまま = as is / as it is (そ = that + まま = state). そのまま食[た]べてください = please eat it as is. そのまま is a fixed expression meaning 'just like that / without any change'."
+        },
+        {
+          "id": "mama_q4",
+          "type": "usage",
+          "prompt": "What is the negative form with まま (the state of NOT having done X)?",
+          "japanese": null,
+          "choices": [
+            "〜ないまま",
+            "〜なかったまま",
+            "〜ずにまま",
+            "〜しないまま"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative plain form + まま = in the state of not having done X. 宿題[しゅくだい]をしないまま学校[がっこう]に行[い]った = went to school without having done homework (left in the 'not done' state). ないまま = as-not-done."
+        },
+        {
+          "id": "mama_q5",
+          "type": "construct",
+          "prompt": "Which correctly says 'She fell asleep sitting down'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は座[すわ]っているまま、寝[ね]てしまった。",
+            "彼女[かのじょ]は座[すわ]ったまま、寝[ね]てしまった。",
+            "彼女[かのじょ]は座[すわ]るまま、寝[ね]てしまった。",
+            "彼女[かのじょ]は座[すわ]りのまま、寝[ね]てしまった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ta-form + まま: 座[すわ]る → 座[すわ]った + まま = 座[すわ]ったまま = while remaining seated / in the seated state. 座[すわ]ったまま寝[ね]てしまった = fell asleep while remaining seated."
+        },
+        {
+          "id": "mama_q6",
+          "type": "translation",
+          "prompt": "Which means 'He went out without locking the door'?",
+          "japanese": null,
+          "choices": [
+            "ドアに鍵[かぎ]をかけないまま、出[で]かけた。",
+            "ドアに鍵[かぎ]をかけたまま、出[で]かけた。",
+            "ドアに鍵[かぎ]をかけながら、出[で]かけた。",
+            "ドアが鍵[かぎ]をかけないまま、出[で]かけた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Negative + まま: かけない + まま = かけないまま = in the state of not having locked. ドアに鍵[かぎ]をかけないまま = without locking the door (leaving it in the unlocked state)."
+        },
+        {
+          "id": "mama_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please leave things as they are'?",
+          "japanese": null,
+          "choices": [
+            "そのままにしてください。",
+            "そのままをしてください。",
+            "そのままでいてください。",
+            "そのまましてください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "そのままにしてください = please leave it as it is / don't change anything. に + して = make it into / leave it as. Common expression: そのままにしてください = don't touch / leave it be."
+        },
+        {
+          "id": "mama_q8",
+          "type": "usage",
+          "prompt": "Which sentence uses まま to express a negative/undesirable state left unchanged?",
+          "japanese": null,
+          "choices": [
+            "美[うつく]しいまま時間[じかん]が止[と]まった。",
+            "部屋[へや]を散[ち]らかしたまま、出[で]かけた。",
+            "子供[こども]のままでいたい。",
+            "そのままでいい。"
+          ],
+          "correctIndex": 1,
+          "explanation": "部屋[へや]を散[ち]らかしたまま = leaving the room messy (undesirable state left unchanged). 出[で]かけた = went out. This is a typical use of まま to express leaving something in a problematic state."
+        },
+        {
+          "id": "mama_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'Don't eat while standing' (eat without standing remaining)?",
+          "japanese": null,
+          "choices": [
+            "立[た]っているままで食[た]べないでください。",
+            "立[た]ったまま食[た]べないでください。",
+            "立[た]ちながら食[た]べないでください。",
+            "立[た]てたまま食[た]べないでください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Ta-form + まま: 立[た]つ → 立[た]った + まま = 立[た]ったまま = in the standing state. 立[た]ったまま食[た]べないでください = please don't eat while standing (literally: don't eat while in the standing state)."
+        },
+        {
+          "id": "mama_q10",
+          "type": "translation",
+          "prompt": "Which means 'He left Japan and never came back'?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]を出[で]たまま、帰[かえ]ってきていない。",
+            "日本[にほん]を出[で]ないまま、帰[かえ]ってきていない。",
+            "日本[にほん]を出[で]るまま、帰[かえ]ってきていない。",
+            "日本[にほん]を出[で]てから、帰[かえ]ってきていない。"
+          ],
+          "correctIndex": 0,
+          "explanation": "出[で]た + まま = left and remained away (in the state of having left). 日本[にほん]を出[で]たまま、帰[かえ]ってきていない = left Japan and still hasn't come back (left in the 'departed' state)."
+        },
+        {
+          "id": "mama_q11",
+          "type": "construct",
+          "prompt": "What form attaches before まま for an action left in 'done' state?",
+          "japanese": null,
+          "choices": [
+            "Dictionary form",
+            "Te-form",
+            "Ta-form (past)",
+            "Masu-stem"
+          ],
+          "correctIndex": 2,
+          "explanation": "Ta-form (past) + まま = leaving  in a done/active state. 窓[まど]を開[あ]けたまま = with the window left open (opened = done, state maintained). Ta-form before まま expresses 'left in that completed state'."
+        },
+        {
+          "id": "mama_q12",
+          "type": "usage",
+          "prompt": "Which demonstrates まま with a NOUN?",
+          "japanese": null,
+          "choices": [
+            "子供[こども]のまま大人[おとな]になった。",
+            "子供[こども]たまま大人[おとな]になった。",
+            "子供[こども]がまま大人[おとな]になった。",
+            "子供[こども]くまま大人[おとな]になった。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + の + まま = in the state of being . 子供[こども]のまま = while remaining a child / in the childlike state. 子供[こども]のまま大人[おとな]になった = became an adult while still being childlike (never grew up)."
+        },
+        {
+          "id": "mama_q13",
+          "type": "construct",
+          "prompt": "Which correctly says 'I fell asleep with my glasses on'?",
+          "japanese": null,
+          "choices": [
+            "めがねをかけたまま、眠[ねむ]りました。",
+            "めがねをかけながら、眠[ねむ]りました。",
+            "めがねのまま、眠[ねむ]りました。",
+            "めがねをかけてまま、眠[ねむ]りました。"
+          ],
+          "correctIndex": 0,
+          "explanation": "かける → かけた + まま = かけたまま = with  on / left wearing. めがねをかけたまま眠[ねむ]りました = fell asleep wearing glasses (left them on)."
+        },
+        {
+          "id": "mama_q14",
+          "type": "translation",
+          "prompt": "Which means 'She left the food uneaten' (didn't eat it)?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]は食[た]べたまま、残[のこ]しました。",
+            "彼女[かのじょ]は食[た]べているまま、残[のこ]しました。",
+            "彼女[かのじょ]は食[た]べないまま、残[のこ]しました。",
+            "彼女[かのじょ]は食[た]べるまま、残[のこ]しました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "食[た]べない + まま = in the state of not eating. 食[た]べないまま + 残[のこ]しました = left it without eating (uneaten). ないまま expresses the 'leaving in un-done state'."
+        },
+        {
+          "id": "mama_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'He gave the answer without thinking'?",
+          "japanese": null,
+          "choices": [
+            "考[かんが]えないまま、答[こた]えた。",
+            "考[かんが]えたまま、答[こた]えた。",
+            "考[かんが]えながら、答[こた]えた。",
+            "考[かんが]えてまま、答[こた]えた。"
+          ],
+          "correctIndex": 0,
+          "explanation": "考[かんが]えない + まま = without thinking / in the state of not having thought. 考[かんが]えないまま答[こた]えた = answered without thinking. ないまま = negative state left unchanged before next action."
+        },
+        {
+          "id": "mama_q16",
+          "type": "usage",
+          "prompt": "What does 〜まま NEVER attach to?",
+          "japanese": null,
+          "choices": [
+            "Ta-form (past verb)",
+            "Negative plain form",
+            "Noun + の",
+            "Te-form"
+          ],
+          "correctIndex": 3,
+          "explanation": "〜まま does NOT attach to the te-form. Correct attachments: ta-form (done state), negative plain form (not-done state), noun + の (noun state). Te-form + まま is not a standard pattern — use たまま or ていたまま instead."
+        },
+        {
+          "id": "mama_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please don't go out with the window left open'?",
+          "japanese": null,
+          "choices": [
+            "窓[まど]を開[あ]けたまま、出[で]かけないでください。",
+            "窓[まど]が開[あ]けたまま、出[で]かけないでください。",
+            "窓[まど]を開[あ]けながら、出[で]かけないでください。",
+            "窓[まど]のまま開[あ]けて、出[で]かけないでください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "窓[まど]を開[あ]けたまま = with the window left open (in the opened state). 出[で]かけないでください = please don't go out. Together: please don't leave with the window left open."
+        },
+        {
+          "id": "mama_q18",
+          "type": "translation",
+          "prompt": "Which means 'The city changed while keeping its old charm'?",
+          "japanese": null,
+          "choices": [
+            "古[ふる]さのまま、街[まち]が変[か]わった。",
+            "古[ふる]さを残[のこ]したまま、街[まち]が変[か]わった。",
+            "古[ふる]さを残[のこ]しながら、街[まち]が変[か]わった。",
+            "古[ふる]さのために、街[まち]が変[か]わった。"
+          ],
+          "correctIndex": 1,
+          "explanation": "残[のこ]した + まま = while keeping/preserving (in the state of having preserved). 古[ふる]さを残[のこ]したまま = while keeping its old charm. 変[か]わった = changed. The city changed while retaining the old charm (unchanged in that aspect)."
+        },
+        {
+          "id": "mama_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'He drove while on the phone'?",
+          "japanese": null,
+          "choices": [
+            "電話[でんわ]したまま、運転[うんてん]した。",
+            "電話[でんわ]しながら、運転[うんてん]した。",
+            "電話[でんわ]しているまま、運転[うんてん]した。",
+            "電話[でんわ]のまま、運転[うんてん]した。"
+          ],
+          "correctIndex": 0,
+          "explanation": "電話[でんわ]した + まま = while leaving the phone call active / in the state of being on the phone. 電話[でんわ]したまま運転[うんてん]した = drove while remaining on the phone. (Note: ながら is also very natural here; まま emphasizes the sustained state.)"
+        },
+        {
+          "id": "mama_q20",
+          "type": "usage",
+          "prompt": "Which is a natural use of まま expressing NO CHANGE over time?",
+          "japanese": null,
+          "choices": [
+            "部屋[へや]を掃除[そうじ]してまま出[で]た。",
+            "十年前[じゅうねんまえ]のまま、何[なに]も変[か]わっていない。",
+            "食[た]べているまま、喋[しゃべ]る。",
+            "起[お]きながらまま、いる。"
+          ],
+          "correctIndex": 1,
+          "explanation": "十年前[じゅうねんまえ]のまま = just as it was ten years ago (unchanged state). 何[なに]も変[か]わっていない = nothing has changed. 十年前[じゅうねんまえ]のまま、何[なに]も変[か]わっていない = it remains exactly as it was ten years ago. Classic まま for 'preserved unchanged state'."
+        }
+      ]
+    },
+    {
+      "id": "made-ni",
+      "name": "〜までに (made ni) — by (a deadline)",
+      "shortDescription": "Sets a deadline — 'by [time]' — distinct from まで ('until [time]').",
+      "formation": "Time expression / Event + までに + action",
+      "explanation": "までに is a deadline marker. It says that an action must be completed *by* a certain point. That に makes all the difference.\n\nまで (without に): 'until' — describes a continuous activity up to a point in time. 五時[ごじ]まで働[はたら]きます: 'I work until five.' The working goes on continuously up to five.\n\nまでに (with に): 'by' — describes a one-time completion before a deadline. 五時[ごじ]までに終[お]わらせます: 'I'll finish it by five.' The finishing is a discrete event that must happen before five.\n\nA reliable test: 'until' = まで; 'by (a deadline)' = までに.\n\nBeyond time expressions, までに works naturally with event clauses: 会議[かいぎ]が始[はじ]まるまでに、資料[しりょう]を準備[じゅんび]しておきます (I'll have the materials ready before the meeting starts). The event in the まで clause acts as the deadline.\n\nIn the example 五時[ごじ]まで図書館[としょかん]で勉強[べんきょう]して、六時[ろくじ]までに家[いえ]に帰[かえ]ります — you can see both at work in the same sentence: 'I'll study at the library until five (まで), and I'll be home by six (までに).' The contrast is clean.",
+      "rules": [
+        "Time/event + までに = by that deadline (a discrete action must be done before then)",
+        "Contrast: まで (no に) = until / continuously up to that time",
+        "Quick test: 'by [deadline]' = までに; 'until [time]' = まで",
+        "Event clause: 会議[かいぎ]が始[はじ]まるまでに = by the time the meeting starts / before it starts",
+        "Common collocations: 明日[あした]までに (by tomorrow), 締[し]め切[き]りまでに (by the deadline)"
+      ],
+      "examples": [
+        {
+          "japanese": "明日[あした]の朝[あさ]までにレポートを提出[ていしゅつ]してください。",
+          "romaji": "Ashita no asa made ni repooto wo teishutsu shite kudasai.",
+          "english": "Please submit the report by tomorrow morning."
+        },
+        {
+          "japanese": "五時[ごじ]まで図書館[としょかん]で勉強[べんきょう]して、六時[ろくじ]までに家[いえ]に帰[かえ]ります。",
+          "romaji": "Goji made toshokan de benkyou shite, rokuji made ni ie ni kaerimasu.",
+          "english": "I'll study at the library until five, and get home by six."
+        },
+        {
+          "japanese": "会議[かいぎ]が始[はじ]まるまでに、資料[しりょう]を準備[じゅんび]しておきます。",
+          "romaji": "Kaigi ga hajimaru made ni, shiryou wo junbi shite okimasu.",
+          "english": "I'll prepare the materials before the meeting starts."
+        },
+        {
+          "japanese": "夏休[なつやす]みが終[お]わるまでに、本[ほん]を三冊[さんさつ]読[よ]むつもりです。",
+          "romaji": "Natsuyasumi ga owaru made ni, hon wo sansatsu yomu tsumori desu.",
+          "english": "I plan to read three books before summer vacation ends."
+        }
+      ],
+      "flashcardHeader": "〜までに",
+      "flashcardAnswer": "By a deadline — 'by [time]'; distinct from まで ('until [time]') by the presence of に.",
+      "practice": [
+        {
+          "id": "made-ni_q1",
+          "type": "usage",
+          "prompt": "What does 〜までに mean?",
+          "japanese": null,
+          "choices": [
+            "while doing X",
+            "until X is done",
+            "by [time] / before [deadline]",
+            "after [time] / when X is done"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜までに = by  / before . 5時[じ]までに = by 5 o'clock. までに marks a deadline — the action must be complete no later than that time."
+        },
+        {
+          "id": "made-ni_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please submit the report by Friday'?",
+          "japanese": null,
+          "choices": [
+            "金曜日[きんようび]までにレポートを出[だ]してください。",
+            "金曜日[きんようび]まででレポートを出[だ]してください。",
+            "金曜日[きんようび]のまでにレポートを出[だ]してください。",
+            "金曜日[きんようび]のためにレポートを出[だ]してください。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Noun + までに = by . 金曜日[きんようび] + までに = by Friday. レポートを出[だ]してください = please submit the report. 金曜日[きんようび]までにレポートを出[だ]してください = please submit by Friday."
+        },
+        {
+          "id": "made-ni_q3",
+          "type": "usage",
+          "prompt": "What is the difference between まで and までに?",
+          "japanese": null,
+          "choices": [
+            "まで = deadline (by); までに = until (continuous)",
+            "まで = until (continuous duration); までに = by (deadline)",
+            "They are identical",
+            "まで is for nouns; までに is for verbs"
+          ],
+          "correctIndex": 1,
+          "explanation": "まで = until (continuous action continues TO that point). 5時[じ]まで働[はたら]く = work until 5. までに = by (action must be complete BEFORE that point). 5時[じ]までに終[お]わる = finish by 5. Duration vs deadline."
+        },
+        {
+          "id": "made-ni_q4",
+          "type": "construct",
+          "prompt": "Which correctly uses まで for continuous action (working UNTIL midnight)?",
+          "japanese": null,
+          "choices": [
+            "夜中[よなか]までに働[はたら]きました。",
+            "夜中[よなか]までに寝[ね]ました。",
+            "夜中[よなか]まで働[はたら]きました。",
+            "夜中[よなか]のまで働[はたら]きました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "まで (no に) = until (continuous). 夜中[よなか]まで = until midnight. 夜中[よなか]まで働[はたら]きました = worked until midnight (continuous action that continued up to that point)."
+        },
+        {
+          "id": "made-ni_q5",
+          "type": "translation",
+          "prompt": "Which means 'Please pay by the end of the month'?",
+          "japanese": null,
+          "choices": [
+            "月末[げつまつ]まで払[はら]ってください。",
+            "月末[げつまつ]までに払[はら]ってください。",
+            "月末[げつまつ]のために払[はら]ってください。",
+            "月末[げつまつ]になったら払[はら]ってください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "までに = by : 月末[げつまつ] (end of month) + までに + 払[はら]ってください = please pay by end of month. Until (まで) vs by (までに)."
+        },
+        {
+          "id": "made-ni_q6",
+          "type": "construct",
+          "prompt": "Which correctly says 'He stayed until 10 PM'?",
+          "japanese": null,
+          "choices": [
+            "夜[よる]10時[じ]までにいました。",
+            "夜[よる]10時[じ]のまでにいました。",
+            "夜[よる]10時[じ]まで、いました。",
+            "夜[よる]10時[じ]のまで、いました。"
+          ],
+          "correctIndex": 2,
+          "explanation": "まで (no に) = until (continuous presence/action). 夜[よる]10時[じ]まで、いました = stayed until 10 PM (was present continuously up to that time)."
+        },
+        {
+          "id": "made-ni_q7",
+          "type": "usage",
+          "prompt": "Which sentence correctly uses までに (deadline)?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]が終[お]わるまで、静[しず]かにしてください。",
+            "試験[しけん]が終[お]わるまでに、この本[ほん]を読[よ]んでください。",
+            "試験[しけん]まで、緊張[きんちょう]しています。",
+            "試験[しけん]まで、勉強[べんきょう]します。"
+          ],
+          "correctIndex": 1,
+          "explanation": "試験[しけん]が終[お]わるまでに = by the time the exam ends (deadline). この本[ほん]を読[よ]んでください = please read this book. The reading must be done BEFORE the exam ends. Deadline = までに."
+        },
+        {
+          "id": "made-ni_q8",
+          "type": "construct",
+          "prompt": "Which correctly says 'Graduate school applications are due by September 1st'?",
+          "japanese": null,
+          "choices": [
+            "9月[がつ]1日[にち]まで、大学院[だいがくいん]の出願[しゅつがん]が締[し]め切[き]りです。",
+            "9月[がつ]1日[にち]のまで、大学院[だいがくいん]の出願[しゅつがん]が締[し]め切[き]りです。",
+            "9月[がつ]1日[にち]までに、大学院[だいがくいん]の出願[しゅつがん]を提出[ていしゅつ]してください。",
+            "9月[がつ]1日[にち]のために、大学院[だいがくいん]の出願[しゅつがん]を提出[ていしゅつ]してください。"
+          ],
+          "correctIndex": 2,
+          "explanation": "9月[がつ]1日[にち] + までに = by September 1st (deadline). 提出[ていしゅつ]してください = please submit. 大学院[だいがくいん]の出願[しゅつがん]を9月[がつ]1日[にち]までに提出[ていしゅつ]してください = please submit grad school applications by September 1st."
+        },
+        {
+          "id": "made-ni_q9",
+          "type": "translation",
+          "prompt": "Which means 'He was nervous until the results came out'?",
+          "japanese": null,
+          "choices": [
+            "結果[けっか]が出[で]るまでに、緊張[きんちょう]していました。",
+            "結果[けっか]が出[で]るまで、緊張[きんちょう]していました。",
+            "結果[けっか]が出[で]たまで、緊張[きんちょう]していました。",
+            "結果[けっか]が出[で]るまでも、緊張[きんちょう]していました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "まで (no に) = until (continuous state). 結果[けっか]が出[で]る + まで = until the results come out. 緊張[きんちょう]していました = was nervous. Continuous nervousness that lasted until results."
+        },
+        {
+          "id": "made-ni_q10",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please finish eating before the movie starts'?",
+          "japanese": null,
+          "choices": [
+            "映画[えいが]が始[はじ]まるまで、食事[しょくじ]を終[お]わらせてください。",
+            "映画[えいが]が始[はじ]まるまでに、食事[しょくじ]を終[お]わらせてください。",
+            "映画[えいが]が始[はじ]まったまでに、食事[しょくじ]を終[お]わらせてください。",
+            "映画[えいが]が始[はじ]まるまでの、食事[しょくじ]を終[お]わらせてください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "までに (deadline): 映画[えいが]が始[はじ]まるまでに = by the time the movie starts. 食事[しょくじ]を終[お]わらせてください = please finish eating. Eating must be done BEFORE the movie starts."
+        },
+        {
+          "id": "made-ni_q11",
+          "type": "usage",
+          "prompt": "Which correctly expresses 'waited until the last train'?",
+          "japanese": null,
+          "choices": [
+            "終電[しゅうでん]までに待[ま]った。",
+            "終電[しゅうでん]まで待[ま]った。",
+            "終電[しゅうでん]のまでに待[ま]った。",
+            "終電[しゅうでん]なまでに待[ま]った。"
+          ],
+          "correctIndex": 1,
+          "explanation": "まで (no に) = until. 終電[しゅうでん]まで = until the last train. 待[ま]った = waited. 終電[しゅうでん]まで待[ま]った = waited until the last train came. Continuous waiting up to a point."
+        },
+        {
+          "id": "made-ni_q12",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please return the library book by next week'?",
+          "japanese": null,
+          "choices": [
+            "来週[らいしゅう]まで図書館[としょかん]の本[ほん]を返[かえ]してください。",
+            "来週[らいしゅう]のまでに図書館[としょかん]の本[ほん]を返[かえ]してください。",
+            "来週[らいしゅう]にまで図書館[としょかん]の本[ほん]を返[かえ]してください。",
+            "来週[らいしゅう]までに図書館[としょかん]の本[ほん]を返[かえ]してください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Noun + までに = by . 来週[らいしゅう] + までに = by next week. 返[かえ]してください = please return. 来週[らいしゅう]までに本[ほん]を返[かえ]してください = please return the book by next week."
+        },
+        {
+          "id": "made-ni_q13",
+          "type": "translation",
+          "prompt": "Which means 'We kept playing until it got dark'?",
+          "japanese": null,
+          "choices": [
+            "暗[くら]くなるまでに、遊[あそ]んでいました。",
+            "暗[くら]くなるまで、遊[あそ]んでいました。",
+            "暗[くら]くなったまで、遊[あそ]んでいました。",
+            "暗[くら]くなるまでに、遊[あそ]びました。"
+          ],
+          "correctIndex": 1,
+          "explanation": "まで (no に) = until (continuous): 暗[くら]くなるまで = until it got dark. 遊[あそ]んでいました = were playing. Continuous play that lasted until darkness."
+        },
+        {
+          "id": "made-ni_q14",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please call me by 6 PM'?",
+          "japanese": null,
+          "choices": [
+            "午後[ごご]6時[じ]まで電話[でんわ]してください。",
+            "午後[ごご]6時[じ]のまでに電話[でんわ]してください。",
+            "午後[ごご]6時[じ]までに電話[でんわ]してください。",
+            "午後[ごご]6時[じ]のために電話[でんわ]してください。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + までに = by . 午後[ごご]6時[じ] + までに = by 6 PM. 電話[でんわ]してください = please call. The call must happen BEFORE 6 PM."
+        },
+        {
+          "id": "made-ni_q15",
+          "type": "usage",
+          "prompt": "Which is NOT a correct use of まで?",
+          "japanese": null,
+          "choices": [
+            "5時[じ]まで働[はたら]く (work until 5)",
+            "夏[なつ]まで待[ま]つ (wait until summer)",
+            "宿題[しゅくだい]を8時[じ]まで終[お]わらせる (finish homework by 8)",
+            "友達[ともだち]が来[く]るまで、ここにいる (stay here until my friend comes)"
+          ],
+          "correctIndex": 2,
+          "explanation": "宿題[しゅくだい]を8時[じ]まで終[お]わらせる is unnatural — this expresses a deadline (finish BY 8), so までに is needed: 8時[じ]までに終[お]わらせる. まで (without に) = until (continuous duration), not by (deadline)."
+        },
+        {
+          "id": "made-ni_q16",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please arrive by 9 AM'?",
+          "japanese": null,
+          "choices": [
+            "午前[ごぜん]9時[じ]まで到着[とうちゃく]してください。",
+            "午前[ごぜん]9時[じ]のまでに到着[とうちゃく]してください。",
+            "午前[ごぜん]9時[じ]までに到着[とうちゃく]してください。",
+            "午前[ごぜん]9時[じ]のために到着[とうちゃく]してください。"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + までに = deadline. 午前[ごぜん]9時[じ] + までに = by 9 AM. 到着[とうちゃく]してください = please arrive. 午前[ごぜん]9時[じ]までに到着[とうちゃく]してください = please arrive by 9 AM."
+        },
+        {
+          "id": "made-ni_q17",
+          "type": "translation",
+          "prompt": "Which means 'I'll do it before you wake up'?",
+          "japanese": null,
+          "choices": [
+            "あなたが起[お]きるまで、します。",
+            "あなたが起[お]きるまでに、します。",
+            "あなたが起[お]きたまで、します。",
+            "あなたが起[お]きてから、します。"
+          ],
+          "correctIndex": 1,
+          "explanation": "までに (deadline/before): 起[お]きるまでに = before you wake up / by the time you wake up. します = will do. Task must be done before the other person wakes up."
+        },
+        {
+          "id": "made-ni_q18",
+          "type": "construct",
+          "prompt": "Which correctly says 'Please respond by this weekend'?",
+          "japanese": null,
+          "choices": [
+            "今週末[こんしゅうまつ]まで返事[へんじ]してください。",
+            "今週末[こんしゅうまつ]のまでに返事[へんじ]してください。",
+            "今週末[こんしゅうまつ]まで返事[へんじ]をしてください。",
+            "今週末[こんしゅうまつ]までに返事[へんじ]をしてください。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Noun + までに = by . 今週末[こんしゅうまつ] + までに = by this weekend. 返事[へんじ]をしてください = please respond. 今週末[こんしゅうまつ]までに返事[へんじ]をしてください = please reply by this weekend."
+        },
+        {
+          "id": "made-ni_q19",
+          "type": "usage",
+          "prompt": "Which sentence uses まで correctly for continuous duration?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]が終[お]わるまでに緊張[きんちょう]する。",
+            "夜遅[よるおそ]くまで話[はな]し続[つづ]けた。",
+            "来週[らいしゅう]まで宿題[しゅくだい]を出[だ]してください。",
+            "今週末[こんしゅうまつ]までに帰[かえ]ってください。"
+          ],
+          "correctIndex": 1,
+          "explanation": "夜遅[よるおそ]くまで = until late at night (continuous duration). 話[はな]し続[つづ]けた = kept talking. 夜遅[よるおそ]くまで話[はな]し続[つづ]けた = kept talking until late at night. Continuous action up to that point = まで (no に)."
+        },
+        {
+          "id": "made-ni_q20",
+          "type": "construct",
+          "prompt": "Which correctly expresses 'Do you need to finish this by today?'",
+          "japanese": null,
+          "choices": [
+            "今日[きょう]まで、これを終[お]わらせなければなりませんか？",
+            "今日[きょう]のまでに、これを終[お]わらせなければなりませんか？",
+            "今日[きょう]までに、これを終[お]わらせなければなりませんか？",
+            "今日[きょう]でまでに、これを終[お]わらせなければなりませんか？"
+          ],
+          "correctIndex": 2,
+          "explanation": "Noun + までに (deadline): 今日[きょう] + までに = by today. これを終[お]わらせなければなりませんか = do you have to finish this? = do  need to finish by today?"
+        }
+      ]
+    },
+    {
+      "id": "tabi-ni",
+      "name": "〜たびに (tabi ni) — every time / whenever",
+      "shortDescription": "Every time / whenever X happens, Y reliably follows — consistent, repeating pattern.",
+      "formation": "Verb (dictionary form) + たびに  |  Noun + の + たびに",
+      "explanation": "たびに (sometimes written 度[たび]に) is the 'without exception' every-time marker. It doesn't just say 'sometimes when X, Y' — it says 'whenever X, Y follows, every single time.'\n\nこの歌[うた]を聴[き]くたびに、子[こ]どものころを思[おも]い出[だ]します: 'Every time I hear this song, I think of my childhood.' Without fail. The trigger (hearing the song) reliably produces the result (memory) every time.\n\nThis consistent, almost automatic quality gives たびに a slightly different feel from ときはいつも (whenever, always). たびに sounds more formal and more emphatic about the reliability of the pattern.\n\nFormation: verb in dictionary form + たびに, or noun + の + たびに.\n旅行[りょこう]のたびに (every trip), 授業[じゅぎょう]のたびに (every class), 春[はる]が来[く]るたびに (every spring).\n\nEmotionally, たびに often appears in nostalgic or observational statements — things you notice when a trigger recurs: songs, seasons, smells that reliably bring up memories or feelings. It also works for neutral routine observations (every class there's a quiz) or mild complaints (every meeting that person is late).",
+      "rules": [
+        "Verb (dictionary form) + たびに = every time X happens, Y reliably follows",
+        "Noun + の + たびに = every time there is [noun event]",
+        "Consistent, reliable pattern — Y happens without exception when X occurs",
+        "More formal than ときはいつも — stronger emphasis on the regularity",
+        "Common in nostalgic observations, routine descriptions, and mild complaints"
+      ],
+      "examples": [
+        {
+          "japanese": "この歌[うた]を聴[き]くたびに、子[こ]どものころを思[おも]い出[だ]します。",
+          "romaji": "Kono uta wo kiku tabi ni, kodomo no koro wo omoidashimasu.",
+          "english": "Every time I hear this song, I think of my childhood."
+        },
+        {
+          "japanese": "日本[にほん]に来[く]るたびに、新[あたら]しい食[た]べ物[もの]を試[ため]しています。",
+          "romaji": "Nihon ni kuru tabi ni, atarashii tabemono wo tameshite imasu.",
+          "english": "Every time I come to Japan, I try new foods."
+        },
+        {
+          "japanese": "会議[かいぎ]のたびに、あの人[ひと]は遅[おく]れてくる。",
+          "romaji": "Kaigi no tabi ni, ano hito wa okurete kuru.",
+          "english": "Every time there's a meeting, that person comes late."
+        },
+        {
+          "japanese": "授業[じゅぎょう]のたびに単語[たんご]テストがあります。",
+          "romaji": "Jugyou no tabi ni tango tesuto ga arimasu.",
+          "english": "There is a vocabulary test every class."
+        }
+      ],
+      "flashcardHeader": "〜たびに",
+      "flashcardAnswer": "Every time / whenever X, Y consistently follows — reliable repeating pattern.",
+      "practice": [
+        {
+          "id": "tabi-ni_q1",
+          "type": "usage",
+          "prompt": "What does 〜たびに mean?",
+          "japanese": null,
+          "choices": [
+            "after each time X",
+            "before each time X",
+            "every time X happens, Y also happens (repeated pattern)",
+            "while doing X each time"
+          ],
+          "correctIndex": 2,
+          "explanation": "〜たびに = every time X (happens), Y (also happens). 日本[にほん]に来[く]るたびに、お寿司[すし]を食[た]べる = every time I come to Japan, I eat sushi. たびに expresses a repeated pattern that occurs consistently each time."
+        },
+        {
+          "id": "tabi-ni_q2",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time I see her, I feel happy'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]を見[み]るたびに、幸[しあわ]せを感[かん]じます。",
+            "彼女[かのじょ]を見[み]るごとに、幸[しあわ]せを感[かん]じます。",
+            "彼女[かのじょ]を見[み]るたびで、幸[しあわ]せを感[かん]じます。",
+            "彼女[かのじょ]を見[み]たたびに、幸[しあわ]せを感[かん]じます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + たびに = every time . 見[み]る + たびに = every time  see. 彼女[かのじょ]を見[み]るたびに、幸[しあわ]せを感[かん]じます = every time I see her, I feel happy."
+        },
+        {
+          "id": "tabi-ni_q3",
+          "type": "construct",
+          "prompt": "What form attaches before たびに for verbs?",
+          "japanese": null,
+          "choices": [
+            "Ta-form",
+            "Te-form",
+            "Dictionary form",
+            "Masu-stem"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dictionary form + たびに = every time . 来[く]るたびに = every time  come. Nouns also attach: noun + のたびに = every time . Never ta-form or te-form before たびに."
+        },
+        {
+          "id": "tabi-ni_q4",
+          "type": "translation",
+          "prompt": "Which means 'Every time I eat spicy food, my stomach hurts'?",
+          "japanese": null,
+          "choices": [
+            "辛[つら]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります。",
+            "辛[つら]いものを食[た]べるごとに、お腹[なか]が痛[いた]くなります。",
+            "辛[つら]いものを食[た]べるたびで、お腹[なか]が痛[いた]くなります。",
+            "辛[つら]いものを食[た]べたたびに、お腹[なか]が痛[いた]くなります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + たびに: 食[た]べる + たびに = every time  eat. 辛[つら]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります = every time I eat spicy food, my stomach hurts."
+        },
+        {
+          "id": "tabi-ni_q5",
+          "type": "construct",
+          "prompt": "How do you attach たびに after a noun (e.g., 'every time there is a meeting')?",
+          "japanese": null,
+          "choices": [
+            "会議[かいぎ]たびに",
+            "会議[かいぎ]のたびに",
+            "会議[かいぎ]でたびに",
+            "会議[かいぎ]がたびに"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + の + たびに = every time . 会議[かいぎ] + の + たびに = 会議[かいぎ]のたびに = every time there's a meeting. Nouns require の before たびに."
+        },
+        {
+          "id": "tabi-ni_q6",
+          "type": "translation",
+          "prompt": "Which means 'Every time I return to Japan, I eat ramen'?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]に帰[かえ]るたびに、ラーメンを食[た]べます。",
+            "日本[にほん]に帰[かえ]ったたびに、ラーメンを食[た]べます。",
+            "日本[にほん]に帰[かえ]るたびで、ラーメンを食[た]べます。",
+            "日本[にほん]のたびに、ラーメンを食[た]べます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "帰[かえ]る (dict) + たびに = every time  return. 日本[にほん]に帰[かえ]るたびに + ラーメンを食[た]べます = every time I return to Japan, I eat ramen."
+        },
+        {
+          "id": "tabi-ni_q7",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time there is a test, I get nervous'?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]たびに、緊張[きんちょう]します。",
+            "試験[しけん]のたびに、緊張[きんちょう]します。",
+            "試験[しけん]するたびに、緊張[きんちょう]します。",
+            "試験[しけん]があるたびに、緊張[きんちょう]します。"
+          ],
+          "correctIndex": 3,
+          "explanation": "Both noun + のたびに and ある + たびに work. 試験[しけん]のたびに and 試験[しけん]があるたびに both = every time there is a test. Option 3 (試験[しけん]があるたびに) is the verb form (ある = to exist)."
+        },
+        {
+          "id": "tabi-ni_q8",
+          "type": "usage",
+          "prompt": "What is ごとに similar to たびに, and how does it differ?",
+          "japanese": null,
+          "choices": [
+            "ごとに = every time (same); たびに = never",
+            "ごとに = every [interval] (regular intervals); たびに = each time (emphasizes pattern/consequence)",
+            "ごとに = for sequential actions; たびに = for simultaneous actions",
+            "They are completely interchangeable with no difference"
+          ],
+          "correctIndex": 1,
+          "explanation": "ごとに = at regular intervals (1時間[じかん]ごとに = every hour; 2週間[しゅうかん]ごとに = every 2 weeks). たびに = each/every time X happens, emphasizing a consistent pattern or consequence. ごとに = regular schedule; たびに = consistent pattern with consequence."
+        },
+        {
+          "id": "tabi-ni_q9",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time I go abroad, I learn something new'?",
+          "japanese": null,
+          "choices": [
+            "海外[かいがい]に行[い]くたびに、新[あたら]しいことを学[まな]びます。",
+            "海外[かいがい]に行[い]ったたびに、新[あたら]しいことを学[まな]びます。",
+            "海外[かいがい]のたびに、新[あたら]しいことを学[まな]びます。",
+            "海外[かいがい]に行[い]くたびで、新[あたら]しいことを学[まな]びます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + たびに: 行[い]く + たびに = every time  go. 海外[かいがい]に行[い]くたびに + 新[あたら]しいことを学[まな]びます = every time I go abroad, I learn something new."
+        },
+        {
+          "id": "tabi-ni_q10",
+          "type": "translation",
+          "prompt": "Which means 'Every time I hear this song, I remember my high school days'?",
+          "japanese": null,
+          "choices": [
+            "この歌[うた]を聞[き]くたびに、高校時代[こうこうじだい]を思[おも]い出[だ]します。",
+            "この歌[うた]を聞[き]いたたびに、高校時代[こうこうじだい]を思[おも]い出[だ]します。",
+            "この歌[うた]のたびに、高校時代[こうこうじだい]を思[おも]い出[だ]します。",
+            "この歌[うた]を聞[き]くたびで、高校時代[こうこうじだい]を思[おも]い出[だ]します。"
+          ],
+          "correctIndex": 0,
+          "explanation": "聞[き]く (dict) + たびに = every time  hear. この歌[うた]を聞[き]くたびに + 高校時代[こうこうじだい]を思[おも]い出[だ]します = every time I hear this song, I remember high school days."
+        },
+        {
+          "id": "tabi-ni_q11",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time we argue, we make up'?",
+          "japanese": null,
+          "choices": [
+            "ケンカするたびに、仲直[なかなお]りする。",
+            "ケンカしたたびに、仲直[なかなお]りする。",
+            "ケンカのたびに、仲直[なかなお]りする。",
+            "ケンカをたびに、仲直[なかなお]りする。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + たびに: する + たびに = every time  do. ケンカするたびに + 仲直[なかなお]りする = every time we argue, we make up. Pattern of consistent consequence."
+        },
+        {
+          "id": "tabi-ni_q12",
+          "type": "usage",
+          "prompt": "Which is NOT a correct use of たびに?",
+          "japanese": null,
+          "choices": [
+            "日本[にほん]に来[く]るたびに、富士山[ふじさん]を見[み]たい。",
+            "会[あ]うたびに、背[せ]が高[たか]くなっている。",
+            "毎日[まいにち]たびに、勉強[べんきょう]する。",
+            "失敗[しっぱい]するたびに、強[つよ]くなる。"
+          ],
+          "correctIndex": 2,
+          "explanation": "毎日[まいにち]たびに is wrong — 毎日[まいにち] (every day) already expresses regularity and doesn't combine with たびに. たびに doesn't attach after 毎日[まいにち]. Correct: 毎日[まいにち] + verb without たびに, OR  + たびに without 毎日[まいにち]."
+        },
+        {
+          "id": "tabi-ni_q13",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time I visit my grandmother, she gives me sweets'?",
+          "japanese": null,
+          "choices": [
+            "祖母[そぼ]を訪[たず]ねるたびに、お菓子[かし]をくれます。",
+            "祖母[そぼ]を訪[たず]ねたたびに、お菓子[かし]をくれます。",
+            "祖母[そぼ]のたびに、お菓子[かし]をくれます。",
+            "祖母[そぼ]を訪[たず]ねるたびで、お菓子[かし]をくれます。"
+          ],
+          "correctIndex": 0,
+          "explanation": "訪[たず]ねる (dict) + たびに = every time  visit. 祖母[そぼ]を訪[たず]ねるたびに + お菓子[かし]をくれます = every time I visit my grandmother, she gives me sweets."
+        },
+        {
+          "id": "tabi-ni_q14",
+          "type": "translation",
+          "prompt": "Which means 'Every time it rains, the traffic gets bad'?",
+          "japanese": null,
+          "choices": [
+            "雨[あめ]が降[ふ]るたびに、交通[こうつう]が悪[わる]くなります。",
+            "雨[あめ]が降[ふ]ったたびに、交通[こうつう]が悪[わる]くなります。",
+            "雨[あめ]のたびに、交通[こうつう]が悪[わる]くなります。",
+            "雨[あめ]が降[ふ]るたびで、交通[こうつう]が悪[わる]くなります。"
+          ],
+          "correctIndex": 0,
+          "explanation": "降[ふ]る (dict) + たびに = every time it rains. 雨[あめ]が降[ふ]るたびに + 交通[こうつう]が悪[わる]くなります = every time it rains, traffic gets worse."
+        },
+        {
+          "id": "tabi-ni_q15",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every business trip, he brings back local food'?",
+          "japanese": null,
+          "choices": [
+            "出張[しゅっちょう]たびに、地元[じもと]の食[た]べ物[もの]を買[か]って帰[かえ]る。",
+            "出張[しゅっちょう]のたびに、地元[じもと]の食[た]べ物[もの]を買[か]って帰[かえ]る。",
+            "出張[しゅっちょう]するたびに、地元[じもと]の食[た]べ物[もの]を買[か]って帰[かえ]る。",
+            "出張[しゅっちょう]のたびで、地元[じもと]の食[た]べ物[もの]を買[か]って帰[かえ]る。"
+          ],
+          "correctIndex": 1,
+          "explanation": "Noun + のたびに: 出張[しゅっちょう] (business trip) + のたびに = every business trip. 地元[じもと]の食[た]べ物[もの]を買[か]って帰[かえ]る = buys local food and brings it back."
+        },
+        {
+          "id": "tabi-ni_q16",
+          "type": "usage",
+          "prompt": "Which correctly uses たびに with an emotional consequence?",
+          "japanese": null,
+          "choices": [
+            "毎日[まいにち]たびに、悲[かな]しくなる。",
+            "彼[かれ]の顔[かお]を見[み]るたびに、腹[はら]が立[た]つ。",
+            "ごとに彼[かれ]の顔[かお]を見[み]るたびに、腹[はら]が立[た]つ。",
+            "彼[かれ]の顔[かお]たびに、腹[はら]が立[た]つ。"
+          ],
+          "correctIndex": 1,
+          "explanation": "彼[かれ]の顔[かお]を見[み]る (dict) + たびに = every time I see his face. 腹[はら]が立[た]つ = get angry. 彼[かれ]の顔[かお]を見[み]るたびに、腹[はら]が立[た]つ = every time I see his face, I get angry. Emotional consequence triggered by consistent event."
+        },
+        {
+          "id": "tabi-ni_q17",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time the economy gets bad, unemployment rises'?",
+          "japanese": null,
+          "choices": [
+            "景気[けいき]が悪[わる]くなるたびに、失業率[しつぎょうりつ]が上[あ]がる。",
+            "景気[けいき]が悪[わる]いたびに、失業率[しつぎょうりつ]が上[あ]がる。",
+            "景気[けいき]が悪[わる]くなったたびに、失業率[しつぎょうりつ]が上[あ]がる。",
+            "景気[けいき]のたびに、失業率[しつぎょうりつ]が上[あ]がる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dict-form + たびに: 悪[わる]くなる (dict) + たびに = every time  gets bad. 景気[けいき]が悪[わる]くなるたびに + 失業率[しつぎょうりつ]が上[あ]がる = every time the economy gets bad, unemployment rises."
+        },
+        {
+          "id": "tabi-ni_q18",
+          "type": "translation",
+          "prompt": "Which means 'Every time I take the exam, I fail'?",
+          "japanese": null,
+          "choices": [
+            "試験[しけん]を受[う]けるたびに、不合格[ふごうかく]になる。",
+            "試験[しけん]を受[う]けたたびに、不合格[ふごうかく]になる。",
+            "試験[しけん]のたびに、不合格[ふごうかく]になる。",
+            "試験[しけん]を受[う]けるたびで、不合格[ふごうかく]になる。"
+          ],
+          "correctIndex": 0,
+          "explanation": "受[う]ける (dict) + たびに = every time  take . 試験[しけん]を受[う]けるたびに + 不合格[ふごうかく]になる = every time I take the exam, I fail. Pattern of consistent (unfortunate) outcome."
+        },
+        {
+          "id": "tabi-ni_q19",
+          "type": "construct",
+          "prompt": "Which correctly says 'Every time I hear her voice, I calm down'?",
+          "japanese": null,
+          "choices": [
+            "彼女[かのじょ]の声[こえ]を聞[き]くたびに、落[お]ち着[つ]く。",
+            "彼女[かのじょ]の声[こえ]のたびに、落[お]ち着[つ]く。",
+            "彼女[かのじょ]の声[こえ]を聞[き]いたたびに、落[お]ち着[つ]く。",
+            "彼女[かのじょ]の声[こえ]を聞[き]くたびで、落[お]ち着[つ]く。"
+          ],
+          "correctIndex": 0,
+          "explanation": "聞[き]く (dict) + たびに = every time  hear. 彼女[かのじょ]の声[こえ]を聞[き]くたびに + 落[お]ち着[つ]く = every time I hear her voice, I calm down."
+        },
+        {
+          "id": "tabi-ni_q20",
+          "type": "usage",
+          "prompt": "Which pair correctly uses ごとに vs たびに?",
+          "japanese": null,
+          "choices": [
+            "1時間[じかん]たびに薬[くすり]を飲[の]む (take medicine every hour); 失敗[しっぱい]するごとに強[つよ]くなる (get stronger each failure)",
+            "1時間[じかん]ごとに薬[くすり]を飲[の]む (take medicine every hour); 失敗[しっぱい]するたびに強[つよ]くなる (get stronger each failure)",
+            "1時間[じかん]ごとに薬[くすり]を飲[の]む; 毎日[まいにち]たびに勉強[べんきょう]する",
+            "1時間[じかん]たびに薬[くすり]を飲[の]む; 毎日[まいにち]ごとに勉強[べんきょう]する"
+          ],
+          "correctIndex": 1,
+          "explanation": "ごとに = regular interval: 1時間[じかん]ごとに = every hour (scheduled). たびに = each time (pattern/consequence): 失敗[しっぱい]するたびに = each time  fail. 1時間[じかん]ごとに薬[くすり]を飲[の]む / 失敗[しっぱい]するたびに強[つよ]くなる = correct pair."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ch25_v01",
+      "partOfSpeech": "adverb",
+      "kanji": "いつも",
+      "kana": "いつも",
+      "romaji": "itsumo",
+      "definition": "always"
+    },
+    {
+      "id": "ch25_v02",
+      "partOfSpeech": "adverb",
+      "kanji": "よく",
+      "kana": "よく",
+      "romaji": "yoku",
+      "definition": "often; well"
+    },
+    {
+      "id": "ch25_v03",
+      "partOfSpeech": "adverb",
+      "kanji": "時々",
+      "kana": "ときどき",
+      "romaji": "tokidoki",
+      "definition": "sometimes"
+    },
+    {
+      "id": "ch25_v04",
+      "partOfSpeech": "adverb",
+      "kanji": "たまに",
+      "kana": "たまに",
+      "romaji": "tamani",
+      "definition": "occasionally"
+    },
+    {
+      "id": "ch25_v05",
+      "partOfSpeech": "adverb",
+      "kanji": "めったに",
+      "kana": "めったに",
+      "romaji": "mettani",
+      "definition": "rarely (with negative)"
+    },
+    {
+      "id": "ch25_v06",
+      "partOfSpeech": "adverb",
+      "kanji": "全然",
+      "kana": "ぜんぜん",
+      "romaji": "zenzen",
+      "definition": "(not) at all"
+    },
+    {
+      "id": "ch25_v07",
+      "partOfSpeech": "adverb",
+      "kanji": "あまり",
+      "kana": "あまり",
+      "romaji": "amari",
+      "definition": "(not) very much"
+    },
+    {
+      "id": "ch25_v08",
+      "partOfSpeech": "adverb",
+      "kanji": "ほとんど",
+      "kana": "ほとんど",
+      "romaji": "hotondo",
+      "definition": "almost; mostly"
+    },
+    {
+      "id": "ch25_v09",
+      "partOfSpeech": "adverb",
+      "kanji": "たくさん",
+      "kana": "たくさん",
+      "romaji": "takusan",
+      "definition": "a lot; many"
+    },
+    {
+      "id": "ch25_v10",
+      "partOfSpeech": "adverb",
+      "kanji": "少し",
+      "kana": "すこし",
+      "romaji": "sukoshi",
+      "definition": "a little"
+    },
+    {
+      "id": "ch25_v11",
+      "partOfSpeech": "adverb",
+      "kanji": "ちょっと",
+      "kana": "ちょっと",
+      "romaji": "chotto",
+      "definition": "a little; slightly"
+    },
+    {
+      "id": "ch25_v12",
+      "partOfSpeech": "noun",
+      "kanji": "全部",
+      "kana": "ぜんぶ",
+      "romaji": "zenbu",
+      "definition": "all; everything"
+    },
+    {
+      "id": "ch25_v13",
+      "partOfSpeech": "noun",
+      "kanji": "半分",
+      "kana": "はんぶん",
+      "romaji": "hanbun",
+      "definition": "half"
+    },
+    {
+      "id": "ch25_v14",
+      "partOfSpeech": "adverb",
+      "kanji": "大体",
+      "kana": "だいたい",
+      "romaji": "daitai",
+      "definition": "roughly; generally"
+    },
+    {
+      "id": "ch25_v15",
+      "partOfSpeech": "adverb",
+      "kanji": "約",
+      "kana": "やく",
+      "romaji": "yaku",
+      "definition": "approximately"
+    },
+    {
+      "id": "ch25_v16",
+      "partOfSpeech": "noun",
+      "kanji": "以上",
+      "kana": "いじょう",
+      "romaji": "ijou",
+      "definition": "more than; above"
+    },
+    {
+      "id": "ch25_v17",
+      "partOfSpeech": "noun",
+      "kanji": "以下",
+      "kana": "いか",
+      "romaji": "ika",
+      "definition": "less than; below"
+    },
+    {
+      "id": "ch25_v18",
+      "partOfSpeech": "noun",
+      "kanji": "以内",
+      "kana": "いない",
+      "romaji": "inai",
+      "definition": "within"
+    },
+    {
+      "id": "ch25_v19",
+      "partOfSpeech": "na-adjective",
+      "kanji": "十分",
+      "kana": "じゅうぶん",
+      "romaji": "juubun",
+      "definition": "enough; sufficient"
+    },
+    {
+      "id": "ch25_v20",
+      "partOfSpeech": "adverb",
+      "kanji": "かなり",
+      "kana": "かなり",
+      "romaji": "kanari",
+      "definition": "quite; fairly"
+    },
+    {
+      "id": "ch25_v21",
+      "partOfSpeech": "adverb",
+      "kanji": "非常に",
+      "kana": "ひじょうに",
+      "romaji": "hijouni",
+      "definition": "extremely"
+    },
+    {
+      "id": "ch25_v22",
+      "partOfSpeech": "adverb",
+      "kanji": "特に",
+      "kana": "とくに",
+      "romaji": "tokuni",
+      "definition": "especially"
+    },
+    {
+      "id": "ch25_v23",
+      "partOfSpeech": "adverb",
+      "kanji": "さらに",
+      "kana": "さらに",
+      "romaji": "sarani",
+      "definition": "furthermore; even more"
+    },
+    {
+      "id": "ch25_v24",
+      "partOfSpeech": "adverb",
+      "kanji": "だんだん",
+      "kana": "だんだん",
+      "romaji": "dandan",
+      "definition": "gradually"
+    },
+    {
+      "id": "ch25_v25",
+      "partOfSpeech": "adverb",
+      "kanji": "急に",
+      "kana": "きゅうに",
+      "romaji": "kyuuni",
+      "definition": "suddenly"
+    },
+    {
+      "id": "ch25_v26",
+      "partOfSpeech": "adverb",
+      "kanji": "しばらく",
+      "kana": "しばらく",
+      "romaji": "shibaraku",
+      "definition": "for a while"
+    },
+    {
+      "id": "ch25_v27",
+      "partOfSpeech": "adverb",
+      "kanji": "ずっと",
+      "kana": "ずっと",
+      "romaji": "zutto",
+      "definition": "the whole time; by far"
+    },
+    {
+      "id": "ch25_v28",
+      "partOfSpeech": "adverb",
+      "kanji": "たびたび",
+      "kana": "たびたび",
+      "romaji": "tabitabi",
+      "definition": "repeatedly; often"
+    },
+    {
+      "id": "ch25_v29",
+      "partOfSpeech": "adverb",
+      "kanji": "何度も",
+      "kana": "なんども",
+      "romaji": "nandomo",
+      "definition": "many times"
+    },
+    {
+      "id": "ch25_v30",
+      "partOfSpeech": "noun",
+      "kanji": "毎回",
+      "kana": "まいかい",
+      "romaji": "maikai",
+      "definition": "every time"
+    },
+    {
+      "id": "ch25_v31",
+      "partOfSpeech": "na-adjective",
+      "kanji": "頻繁",
+      "kana": "ひんぱん",
+      "romaji": "hinpan",
+      "definition": "frequent"
+    },
+    {
+      "id": "ch25_v32",
+      "partOfSpeech": "i-adjective",
+      "kanji": "多い",
+      "kana": "おおい",
+      "romaji": "ooi",
+      "definition": "many; numerous"
+    },
+    {
+      "id": "ch25_v33",
+      "partOfSpeech": "i-adjective",
+      "kanji": "少ない",
+      "kana": "すくない",
+      "romaji": "sukunai",
+      "definition": "few; scarce"
+    },
+    {
+      "id": "ch25_v34",
+      "partOfSpeech": "adverb",
+      "kanji": "もっと",
+      "kana": "もっと",
+      "romaji": "motto",
+      "definition": "more"
+    },
+    {
+      "id": "ch25_v35",
+      "partOfSpeech": "adverb",
+      "kanji": "ますます",
+      "kana": "ますます",
+      "romaji": "masumasu",
+      "definition": "increasingly"
+    },
+    {
+      "id": "ch25_v36",
+      "partOfSpeech": "adverb",
+      "kanji": "やっと",
+      "kana": "やっと",
+      "romaji": "yatto",
+      "definition": "finally; at last"
+    },
+    {
+      "id": "ch25_v37",
+      "partOfSpeech": "adverb",
+      "kanji": "突然",
+      "kana": "とつぜん",
+      "romaji": "totsuzen",
+      "definition": "suddenly; abruptly"
+    },
+    {
+      "id": "ch25_v38",
+      "partOfSpeech": "adverb",
+      "kanji": "常に",
+      "kana": "つねに",
+      "romaji": "tsuneni",
+      "definition": "always; constantly"
+    },
+    {
+      "id": "ch25_v39",
+      "partOfSpeech": "noun",
+      "kanji": "回数",
+      "kana": "かいすう",
+      "romaji": "kaisuu",
+      "definition": "number of times"
+    },
+    {
+      "id": "ch25_v40",
+      "partOfSpeech": "noun",
+      "kanji": "数",
+      "kana": "かず",
+      "romaji": "kazu",
+      "definition": "number; quantity"
+    }
+  ],
+  "kanji": [
+    "以",
+    "多",
+    "特",
+    "少",
+    "去",
+    "古",
+    "青",
+    "冬",
+    "犬"
+  ]
+}

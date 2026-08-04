@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Requires a PAID Apple Developer Program membership. Switch to this file
+         in project.yml (CODE_SIGN_ENTITLEMENTS) once you have one, re-run
+         xcodegen, and tick iCloud ▸ CloudKit + Key-value storage in Xcode's
+         Signing & Capabilities. CloudSyncService turns itself on automatically
+         when it sees these entitlements — no code change needed. -->
+    <key>com.apple.developer.icloud-container-identifiers</key>
+    <array>
+        <string>iCloud.com.mattdevoti1.omedetou</string>
+    </array>
+    <key>com.apple.developer.icloud-services</key>
+    <array>
+        <string>CloudKit</string>
+    </array>
+    <key>com.apple.developer.ubiquity-kvstore-identifier</key>
+    <string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.mattdevoti1.omedetou</string>
+    </array>
+</dict>
+</plist>
