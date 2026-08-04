@@ -36,6 +36,16 @@ struct KanjiStudyView: View {
 
     private var pool: [KanjiStudyItem] { store.kanjiStudyPool(from: baseCards) }
 
+    /// How much of this set has been checked off, for the counter on the card.
+    /// Nil outside No-Priority mode, where checking a card doesn't retire it and
+    /// there's no set to work through.
+    private var checkedProgress: (done: Int, total: Int)? {
+        guard weightSettings.filtersOutCheckedCards else { return nil }
+        let total = store.kanjiStudySet(from: baseCards).count
+        guard total > 0 else { return nil }
+        return (total - pool.count, total)
+    }
+
     /// Card ids for this chapter (locked mode) — scopes "clear checkmarks".
     /// Includes the chapter's word cards so the option clears those too.
     private var lockedCardIds: [String] {
@@ -105,6 +115,7 @@ struct KanjiStudyView: View {
                         .padding(.vertical, 4)
                         .background(Capsule().fill(nLevelColor(card.nLevel)))
                 }
+                .deckProgress(checkedProgress)
                 .padding(.horizontal, 20)
                 .padding(.top, 16)
 

@@ -42,6 +42,16 @@ struct VocabFlashcardsView: View {
         return allCards.filter { !filter.isExcluded($0.word.id) }
     }
 
+    /// How much of this set has been checked off, for the counter on the card.
+    /// Nil outside No-Priority mode, where checking a word doesn't retire it and
+    /// there's no set to work through.
+    private var checkedProgress: (done: Int, total: Int)? {
+        guard weightSettings.filtersOutCheckedCards else { return nil }
+        let total = lockedChapter == nil ? filter.selection(in: allCards).count : allCards.count
+        guard total > 0 else { return nil }
+        return (total - pool.count, total)
+    }
+
     var body: some View {
         Group {
             if isLoading {
@@ -113,6 +123,7 @@ struct VocabFlashcardsView: View {
                     // Speak the kana, which is the word's authoritative reading.
                     SpeakButton(text: card.word.kana, size: 24, tint: card.accentColor)
                 }
+                .deckProgress(checkedProgress)
                 .padding(.horizontal, 20)
                 .padding(.top, 16)
 

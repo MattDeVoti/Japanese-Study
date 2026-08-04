@@ -1,6 +1,7 @@
 import SwiftUI
 
-// Every thirty seconds, a page that's hiding a game gives itself away.
+// A page that's hiding a game gives itself away — shortly after you arrive, and
+// every thirty seconds you stay.
 //
 // The things you have to touch light up one after another, in the order you have
 // to touch them — so the hint teaches the sequence, not just the location. Once
@@ -16,12 +17,13 @@ struct SecretHint: ViewModifier {
 
     @State private var lit = false
 
-    /// One shared heartbeat. Each hint deriving its own 30-second timer would
-    /// let them drift apart, and the sequence only reads if they're in step, so
-    /// the cadence comes off the wall clock instead.
-    private static let beat = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-
-    private var gap: Double { 0.34 }
+    /// Long enough for a push transition to settle before anything lights up.
+    private static let leadIn: Double = 1.2
+    /// Between one item lighting and the next.
+    private static let gap: Double = 0.34
+    /// How long a single item stays lit.
+    private static let hold: Double = 0.7
+    private static let period: Double = 30
 
     func body(content: Content) -> some View {
         content
@@ -34,19 +36,32 @@ struct SecretHint: ViewModifier {
                     .allowsHitTesting(false)
             )
             .animation(.easeInOut(duration: 0.32), value: lit)
-            .onReceive(Self.beat) { now in
-                guard active, Int(now.timeIntervalSince1970) % 30 == 0 else { return }
-                flash()
+            // Anchored to the moment the page appeared, not to the wall clock.
+            //
+            // The cadence used to come off a shared 1s heartbeat gated on
+            // `now % 30 == 0`, which does fire — but only ever at :00 and :30.
+            // Arriving just after one went by bought a 29-second wait on a page
+            // most people glance at for five, so the hint was very nearly
+            // invisible. Every item starts its own clock on appear; they're
+            // dealt within the same frame, so they stay in step, and each one's
+            // period is measured flash-to-flash rather than accumulated.
+            //
+            // Keyed on `active` so unlocking the game cancels the loop outright.
+            .task(id: active) {
+                guard active else { return }
+                await sleep(Self.leadIn + Double(order) * Self.gap)
+                while !Task.isCancelled {
+                    lit = true
+                    await sleep(Self.hold)
+                    lit = false
+                    await sleep(Self.period - Self.hold)
+                }
             }
             .onDisappear { lit = false }
     }
 
-    private func flash() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + Double(order) * gap) {
-            guard active else { return }
-            lit = true
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) { lit = false }
-        }
+    private func sleep(_ seconds: Double) async {
+        try? await Task.sleep(nanoseconds: UInt64(seconds * 1_000_000_000))
     }
 }
 

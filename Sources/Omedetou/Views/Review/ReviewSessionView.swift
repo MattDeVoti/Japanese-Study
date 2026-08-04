@@ -20,6 +20,7 @@ struct ReviewSessionView: View {
     @State private var startCount = 0
     @State private var gradeCounts: [ReviewGrade: Int] = [:]
     @State private var finished = false
+    @State private var inspecting: SRSItemID?
 
     /// Cards per round. Fifteen is a piece of work you finish, not a queue.
     private var sessionCap: Int { SRSStore.reviewLength }
@@ -37,6 +38,7 @@ struct ReviewSessionView: View {
             }
         }
         .standardNavBar("Practice")
+        .sheet(item: $inspecting) { ItemDetailSheet(id: $0) }
         .onAppear(perform: startIfNeeded)
     }
 
@@ -73,7 +75,8 @@ struct ReviewSessionView: View {
 
     private func promptAndAnswer(_ card: ReviewCard) -> some View {
         VStack(spacing: 18) {
-            // Prompt
+            // Prompt. Tappable: when you can't recall something, reading the
+            // full card beats guessing and moving on none the wiser.
             VStack(spacing: 10) {
                 if card.front.contains("[") {
                     FuriganaText(text: card.front, fontSize: promptSize(card),
@@ -94,6 +97,8 @@ struct ReviewSessionView: View {
                 }
             }
             .padding(.horizontal, 24)
+            .contentShape(Rectangle())
+            .onTapGesture { inspecting = card.id }
 
             if isRevealed {
                 VStack(alignment: .leading, spacing: 8) {

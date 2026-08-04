@@ -225,7 +225,13 @@ struct DictionaryView: View {
                 .padding(.horizontal, 16).padding(.top, 8).padding(.bottom, 6)
 
                 if mode == .dictionary {
-                SearchBar(text: $vm.searchText, placeholder: "Search Japanese or English…")
+                // Japanese by voice: searchCombined already routes on character
+                // range, and the Japanese search matches the kanji column and
+                // the kana column alike — so 猫 and ねこ both land on the same
+                // entry, whichever way recognition writes it back.
+                SearchBar(text: $vm.searchText,
+                          placeholder: "Search Japanese or English…",
+                          dictationLocale: "ja-JP")
                     // The trigger here is something you type, so the hint can
                     // only point at the field rather than at a thing to tap.
                     .secretHint(!gameUnlocks.isUnlocked(.shiritori), corner: 12)

@@ -31,9 +31,12 @@ enum SRSItemKind: String, Codable, CaseIterable {
 
 /// Identifies a reviewable item. `key` is the vocab word id, the kanji character
 /// id, or "chapterId/pointId" for a grammar point.
-struct SRSItemID: Hashable, Codable {
+struct SRSItemID: Hashable, Codable, Identifiable {
     let kind: SRSItemKind
     let key: String
+
+    /// Already unique per item, so it doubles as the SwiftUI identity.
+    var id: String { storageKey }
 
     var storageKey: String { "\(kind.rawValue):\(key)" }
 

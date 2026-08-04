@@ -68,3 +68,30 @@ targets:
     dependencies:
       - sdk: WidgetKit.framework
       - sdk: SwiftUI.framework
+
+# One shared scheme, checked in, that runs the app.
+#
+# Without this the project ships no schemes at all, so Xcode invents one per
+# target — including OmedetouWidgets. Running *that* one installs the app and
+# then asks WidgetKit to display the widget, which fails on a device with
+# "SendProcessControlEvent … Failed to show Widget". Regenerating the project
+# lets Xcode re-pick which scheme is selected, so the wrong one keeps coming
+# back on its own.
+#
+# Declaring it here makes the app scheme deterministic and survive
+# `xcodegen generate`. The widget builds as a dependency of the app, so there's
+# nothing to add for it — and Xcode will still auto-create a widget scheme if
+# you ever want to debug the extension directly.
+schemes:
+  Omedetou:
+    build:
+      targets:
+        Omedetou: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

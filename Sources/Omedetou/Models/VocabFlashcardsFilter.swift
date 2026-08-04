@@ -134,7 +134,10 @@ final class VocabFlashcardsFilter: ObservableObject {
 
     // MARK: - Apply
 
-    func apply(to cards: [VocabFlashCard]) -> [VocabFlashCard] {
+    /// Everything the current filters pick out, before checkmarks retire any of
+    /// it. This is the denominator of the deck's "checked off" count — the size
+    /// of the set you're working through, which doesn't shrink as you go.
+    func selection(in cards: [VocabFlashCard]) -> [VocabFlashCard] {
         var result = cards
         if !selectedChapterIds.isEmpty {
             result = result.filter { selectedChapterIds.contains($0.chapterId) }
@@ -146,10 +149,13 @@ final class VocabFlashcardsFilter: ObservableObject {
             let favs = result.filter { favoriteWordIds.contains($0.word.id) }
             if !favs.isEmpty { result = favs }
         }
-        if StudyWeightSettings.shared.filtersOutCheckedCards {
-            result = result.filter { !excludedWordIds.contains($0.word.id) }
-        }
         return result
+    }
+
+    func apply(to cards: [VocabFlashCard]) -> [VocabFlashCard] {
+        let result = selection(in: cards)
+        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return result }
+        return result.filter { !excludedWordIds.contains($0.word.id) }
     }
 
     func reset() {

@@ -101,6 +101,11 @@ struct GrammarMenuView: View {
                                 ReadingTile(color: .themeTile(10))
                             }
                             .buttonStyle(.plain)
+
+                            NavigationLink { KanjiMatchView() } label: {
+                                KanjiMatchTile(color: .themeTile(6))
+                            }
+                            .buttonStyle(.plain)
                         }
                     }
                     // MARK: Grammar quizzes

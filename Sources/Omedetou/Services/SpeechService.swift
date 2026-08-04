@@ -133,6 +133,18 @@ final class SpeechService: NSObject, ObservableObject {
         speakingID = nil
     }
 
+    /// Hands the audio session to something that needs the microphone.
+    ///
+    /// `prepareSession` deliberately runs once and then assumes the session is
+    /// still configured the way it left it. That assumption breaks the moment
+    /// dictation switches the category to `.record`: without this, speech would
+    /// go quiet for the rest of the launch, because it would never reconfigure.
+    /// Clearing the flag makes the next `speak` set the session up again.
+    func yieldSession() {
+        stop()
+        sessionReady = false
+    }
+
     /// A language app is expected to make sound even with the ringer switched
     /// off, so this uses .playback rather than .ambient — but ducks rather than
     /// interrupting whatever else is playing.
@@ -194,9 +206,12 @@ struct SpeakButton: View {
     }
 }
 
-private extension View {
+extension View {
     /// `.symbolEffect(.pulse)` is iOS 17+; fall back to a plain opacity pulse so
     /// the button still reads as active on iOS 16.
+    ///
+    /// Shared with the dictation mic buttons — a live mic and a speaking
+    /// speaker want the same "this is running" pulse.
     @ViewBuilder func symbolEffectPulse(_ active: Bool) -> some View {
         if #available(iOS 17.0, *) {
             self.symbolEffect(.pulse, isActive: active)

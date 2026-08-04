@@ -9,6 +9,14 @@ struct OmedetouApp: App {
     @StateObject private var themeManager = ThemeManager()
     @State private var deepLink: WidgetDeepLink?
     @StateObject private var cloud = CloudSyncService.shared
+    @State private var importNote: String?
+
+    // TEMP (see LegacyImport): applies a backup handed over from the build that
+    // used the old bundle id. Runs here, before the first view body, so no store
+    // has read anything yet and the restore doesn't need a relaunch.
+    init() {
+        LegacyImport.runIfNeeded()
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -22,7 +30,18 @@ struct OmedetouApp: App {
             .environmentObject(grammarFilter)
             .environmentObject(themeManager)
             .environmentObject(cloud)
-            .onOpenURL { url in deepLink = WidgetDeepLink(url: url) }
+            .onOpenURL { url in
+                // TEMP (see LegacyImport): a backup opened from Files or AirDrop.
+                if LegacyImport.accept(url) { return }
+                deepLink = WidgetDeepLink(url: url)
+            }
+            // TEMP (see LegacyImport).
+            .onAppear { importNote = LegacyImport.takeReport() }
+            .alert("Progress imported", isPresented: .constant(importNote != nil)) {
+                Button("OK") { importNote = nil }
+            } message: {
+                Text(importNote ?? "")
+            }
             .task {
                 // Settings arrive over the key-value store on their own; progress
                 // is pulled once at launch and again whenever the app comes back,
@@ -48,8 +67,12 @@ struct OmedetouApp: App {
                 if phase == .active || phase == .background {
                     CloudSyncService.shared.syncInBackground()
                 }
-                // Leaving the app counts as leaving the page.
-                if phase != .active { SpeechService.shared.stop() }
+                // Leaving the app counts as leaving the page — and a microphone
+                // left live behind a backgrounded app is worse than rude.
+                if phase != .active {
+                    SpeechService.shared.stop()
+                    DictationService.shared.stop()
+                }
                 guard phase == .active else { return }
                 // A day may have rolled over while the app was backgrounded, and the
                 // practice nudge, if the user asked for one, is rewritten for the week.

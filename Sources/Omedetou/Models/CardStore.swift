@@ -352,11 +352,18 @@ class CardStore: ObservableObject {
     /// Builds the full study pool from a set of base kanji: the kanji themselves,
     /// plus their example words when that option is on. Checked-off cards drop
     /// out only in No-Priority mode, matching the rest of the app.
-    func kanjiStudyPool(from cards: [KanjiCard]) -> [KanjiStudyItem] {
+    /// Everything in the set, before checkmarks retire any of it — the deck's
+    /// full size, which doesn't shrink as you check cards off.
+    func kanjiStudySet(from cards: [KanjiCard]) -> [KanjiStudyItem] {
         var items = cards.map { KanjiStudyItem.kanji($0) }
         if KanjiStudySettings.shared.includeCommonWords {
             items += wordCards(from: cards).map { KanjiStudyItem.word($0) }
         }
+        return items
+    }
+
+    func kanjiStudyPool(from cards: [KanjiCard]) -> [KanjiStudyItem] {
+        let items = kanjiStudySet(from: cards)
         guard StudyWeightSettings.shared.filtersOutCheckedCards else { return items }
         return items.filter { !excludedKanjiIds.contains($0.id) }
     }

@@ -243,6 +243,73 @@ struct ConjugationTile: View {
     }
 }
 
+// MARK: - Look-alike kanji
+
+/// A tile that keeps swapping one kanji for its near-twin in the same spot.
+/// The motion *is* the subject: the shape barely changes, which is exactly the
+/// problem the exercise trains.
+struct KanjiMatchTile: View {
+    let color: Color
+
+    private let pairs = [("待", "持"), ("未", "末"), ("千", "干"),
+                         ("大", "太"), ("石", "右"), ("牛", "午")]
+    @State private var pair = 0
+    @State private var showSecond = false
+
+    private let tick = Timer.publish(every: 1.1, on: .main, in: .common).autoconnect()
+
+    var body: some View {
+        FeatureCard(color: color, title: "Look-alikes",
+                    subtitle: "Match kanji you keep mixing up", square: false) {
+            HStack(spacing: 0) {
+                Spacer()
+                ZStack {
+                    // Both glyphs occupy the same square; only the opacity moves,
+                    // so the eye is forced to catch the difference in the strokes.
+                    Text(pairs[pair].0)
+                        .opacity(showSecond ? 0 : 1)
+                    Text(pairs[pair].1)
+                        .opacity(showSecond ? 1 : 0)
+                }
+                .font(.system(size: 44, weight: .bold))
+                .foregroundColor(color)
+                .frame(width: 70, height: 56)
+
+                Image(systemName: "arrow.left.arrow.right")
+                    .font(.system(size: 15, weight: .bold))
+                    .foregroundColor(color.opacity(0.55))
+                    .padding(.horizontal, 10)
+
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .fill(color.opacity(0.16))
+                    .overlay(RoundedRectangle(cornerRadius: 9, style: .continuous)
+                        .strokeBorder(style: StrokeStyle(lineWidth: 1.5, dash: [4, 3]))
+                        .foregroundColor(color.opacity(0.5)))
+                    .frame(width: 54, height: 44)
+                    .overlay(
+                        Text(showSecond ? pairs[pair].1 : pairs[pair].0)
+                            .font(.system(size: 22, weight: .bold))
+                            .foregroundColor(color.opacity(0.9))
+                            .transition(.scale.combined(with: .opacity))
+                            .id(showSecond)
+                    )
+                    .padding(.trailing, 14)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .onReceive(tick) { _ in
+            withAnimation(.easeInOut(duration: 0.4)) {
+                if showSecond {
+                    showSecond = false
+                    pair = (pair + 1) % pairs.count
+                } else {
+                    showSecond = true
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Reading
 
 /// Lines of text creeping upward, then snapping back to the top — a page being

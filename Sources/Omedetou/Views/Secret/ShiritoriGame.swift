@@ -26,6 +26,7 @@ struct ShiritoriGame: View {
     @State private var best = UserDefaults.standard.integer(forKey: "ShiritoriBest")
     @State private var started = false
     @State private var showRules = false
+    @ObservedObject private var dictation = DictationService.shared
 
     private let tick = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
@@ -54,6 +55,15 @@ struct ShiritoriGame: View {
             if remaining <= 0 { end("Out of time") }
         }
         .sheet(isPresented: $showRules) { GameRulesSheet(game: .shiritori) }
+        .onDisappear { dictation.stop() }
+        .alert("Voice input", isPresented: Binding(
+            get: { dictation.problem != nil },
+            set: { if !$0 { dictation.problem = nil } }
+        )) {
+            Button("OK", role: .cancel) { dictation.problem = nil }
+        } message: {
+            Text(dictation.problem?.message ?? "")
+        }
         .environment(\.colorScheme, .dark)
     }
 
@@ -176,6 +186,23 @@ struct ShiritoriGame: View {
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.never)
                     .onSubmit(play)
+                // Fills the field; it deliberately does not play the word.
+                // Recognition mishears often enough that auto-submitting would
+                // hand out losses for pronunciation, which isn't what this game
+                // is testing.
+                Button {
+                    dictation.toggle(locale: "ja-JP") { said in
+                        typed = KanaWordBank.spokenToKana(said)
+                    }
+                } label: {
+                    Image(systemName: dictation.isListening ? "waveform" : "mic.fill")
+                        .font(.system(size: 26))
+                        .foregroundColor(dictation.isListening
+                                         ? ShiritoriTheme.gold : ShiritoriTheme.dim)
+                        .symbolEffectPulse(dictation.isListening)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(dictation.isListening ? "Stop listening" : "Say your word")
                 Button(action: play) {
                     Image(systemName: "arrow.up.circle.fill")
                         .font(.system(size: 32))
@@ -183,7 +210,9 @@ struct ShiritoriGame: View {
                 }
                 .buttonStyle(.plain)
             }
-            Text("Hiragana only. A word ending in ん loses.")
+            Text(dictation.isListening
+                 ? "Listening — say a word, then check it before you play it."
+                 : "Hiragana only. A word ending in ん loses.")
                 .font(.system(size: 11))
                 .foregroundColor(ShiritoriTheme.dim)
         }

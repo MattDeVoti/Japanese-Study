@@ -12,6 +12,8 @@ struct GlowingTitle: View {
     // Observing the theme guarantees the title re-renders (and re-reads the
     // theme-derived .appAccent color) whenever the palette changes.
     @EnvironmentObject private var themeManager: ThemeManager
+    /// The sweep spells out the secret, so it stops once the secret is out.
+    @ObservedObject private var unlocks = GameUnlocks.shared
 
     private let letters = ["お", "め", "で", "と", "う"]   // indices 0…4
     private let secretOrder = [0, 4, 3, 1, 2]              // お → う → と → め → で
@@ -19,7 +21,10 @@ struct GlowingTitle: View {
     @State private var glow: [CGFloat] = Array(repeating: 0, count: 5)
     @State private var tapProgress = 0
 
-    private let cycle = Timer.publish(every: 30, on: .main, in: .common).autoconnect()
+    /// False once Kanji Invaders has been found. The resting glow below stays —
+    /// that's the title's own look — but the ordered sweep is the hint, and a
+    /// found secret shouldn't keep advertising itself.
+    private var hinting: Bool { !unlocks.isUnlocked(.kanjiInvaders) }
 
     var body: some View {
         HStack(spacing: 2) {
@@ -43,9 +48,16 @@ struct GlowingTitle: View {
         }
         .lineLimit(1)
         .minimumScaleFactor(0.5)
-        .onReceive(cycle) { _ in playGlow() }
-        .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { playGlow() }
+        // Same schedule the rest of the hints run on: one sweep shortly after
+        // the screen settles, then every thirty seconds. Keyed on `hinting`, so
+        // unlocking the game cancels it mid-session rather than at next launch.
+        .task(id: hinting) {
+            guard hinting else { return }
+            try? await Task.sleep(nanoseconds: 1_500_000_000)
+            while !Task.isCancelled {
+                playGlow()
+                try? await Task.sleep(nanoseconds: 30_000_000_000)
+            }
         }
     }
 

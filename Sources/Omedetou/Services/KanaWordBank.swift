@@ -69,6 +69,34 @@ enum KanaWordBank {
         return smallToLarge[c] ?? c
     }
 
+    /// Katakana folded to hiragana, everything else left alone. Speech
+    /// recognition writes some words in katakana (ネコ) that the games hold in
+    /// hiragana, and the two have to meet somewhere.
+    static func hiragana(_ s: String) -> String {
+        String(s.unicodeScalars.map { scalar in
+            (0x30A1...0x30F6).contains(scalar.value)
+                ? Character(Unicode.Scalar(scalar.value - 0x60)!)
+                : Character(scalar)
+        })
+    }
+
+    /// The kana form of something said out loud.
+    ///
+    /// Recognition returns Japanese the way it's normally written — 猫, not
+    /// ねこ — but しりとり is played in kana. Rather than transliterate (which
+    /// needs readings this app would have to guess at), the spoken form is
+    /// looked back up in the same word bank the game already plays from, which
+    /// carries both forms of every word. Anything it can't place is handed back
+    /// as-is so the player can see what was heard and fix it.
+    static func spokenToKana(_ said: String) -> String {
+        let trimmed = said.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return "" }
+        let folded = hiragana(trimmed)
+        if isAllKana(folded) { return folded }
+        if let match = all.first(where: { $0.display == trimmed }) { return match.kana }
+        return folded
+    }
+
     /// Playable words: nothing ending in ん (that's a loss, not a move) and
     /// nothing with ん in the middle of the chain position.
     static var shiritoriPool: [Word] {
