@@ -30,6 +30,8 @@ struct ParticlesView: View {
                                 ParticleGridCell(card: card)
                             }
                             .buttonStyle(.plain)
+                            .locked(!FreeTier.isFree(particle: card.particle),
+                                    feature: "\(card.particle)")
                         }
                     }
                     .padding(.horizontal, 16)

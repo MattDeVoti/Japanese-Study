@@ -221,7 +221,7 @@ struct HomeOptionsSheet: View {
         case .purchase:
             return "Thank you for supporting Omedetou. Subscriptions are managed in your Apple ID settings."
         case .none:
-            return "Everything is available right now. Some features will need a subscription in a future release."
+            return "Kana, the first two chapters, the dictionary and the tests are free. Anything marked with a lock is part of the full course."
         }
     }
 
@@ -276,6 +276,21 @@ struct HomeOptionsSheet: View {
                 } footer: {
                     Text(planFootnote)
                 }
+
+#if DEBUG
+                // Debug builds only — the whole section is compiled out of Release,
+                // so it cannot appear in anything shipped to the App Store.
+                Section {
+                    Toggle(isOn: $entitlements.debugForceFree) {
+                        Label("Preview free tier", systemImage: "lock.fill")
+                    }
+                    .tint(.appAccent)
+                } header: {
+                    Label("Developer", systemImage: "hammer.fill")
+                } footer: {
+                    Text("Makes the app behave as though nothing has been paid for, so the locks and the paywall can be tested. Your beta access isn't touched — switch it back off and everything returns. This section does not exist in a release build.")
+                }
+#endif
                 Section {
                     HStack {
                         Label("iCloud", systemImage: cloudIcon)
@@ -515,6 +530,7 @@ private struct AppearancePicker: View {
                         themeManager.current = theme
                         dismiss()
                     }
+                    .locked(!FreeTier.isFree(theme: theme.id), feature: theme.displayName)
                 }
             }
             .padding(.horizontal, 20)
@@ -733,6 +749,7 @@ private extension HomeOptionsSheet {
         }
     }
 }
+
 
 
 

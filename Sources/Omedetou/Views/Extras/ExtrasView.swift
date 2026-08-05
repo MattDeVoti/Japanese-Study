@@ -27,6 +27,7 @@ struct ExtrasView: View {
                                 tint: .themeTile(0))
                         }
                         .buttonStyle(.plain)
+                        .locked(true, feature: "The cheat sheets")
                     }
 
                     if unlocks.hasAny {

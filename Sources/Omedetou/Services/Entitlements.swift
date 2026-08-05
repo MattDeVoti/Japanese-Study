@@ -61,6 +61,26 @@ final class Entitlements: ObservableObject {
     @Published private(set) var tier: Tier = .free
     @Published private(set) var source: EntitlementSource = .none
 
+#if DEBUG
+    /// Developer switch: behave as though this account has paid for nothing, so
+    /// the locks and the paywall can actually be exercised.
+    ///
+    /// Without it there is no way to see them. Everyone who opens the app during
+    /// the beta is enrolled by `BetaAccess`, deleting the app just re-enrols on
+    /// the next launch, and editing `periodIsOpen` doesn't help either — an
+    /// existing `BetaMember` flag survives it.
+    ///
+    /// `#if DEBUG` by construction: the property, the check in `refresh()` and
+    /// the toggle in Options all vanish from a Release build, so this cannot
+    /// reach the App Store even if someone leaves it switched on.
+    @Published var debugForceFree: Bool = UserDefaults.standard.bool(forKey: "DebugForceFree") {
+        didSet {
+            UserDefaults.standard.set(debugForceFree, forKey: "DebugForceFree")
+            refresh()
+        }
+    }
+#endif
+
     /// The one gate the rest of the app should ask. Features check this, never a
     /// tier or a product id — otherwise every new way of paying means hunting
     /// down every `if` in the codebase.
@@ -72,6 +92,26 @@ final class Entitlements: ObservableObject {
     /// call as often as you like — at launch, when a purchase finishes, or when
     /// iCloud hands over a `BetaMember` flag from another device.
     func refresh() {
+#if DEBUG
+        // Checked before everything else, including the beta, so the switch works
+        // for the developer — who is necessarily a beta member.
+        if debugForceFree {
+            set(.free, from: .none)
+            return
+        }
+#endif
+        // While the beta is open, nothing is for sale — so nothing may be locked,
+        // whatever else is or isn't recorded. This is deliberately independent of
+        // the BetaMember flag: if that write ever failed, the flag-based path
+        // below would drop the person to `.free` and strand them behind a paywall
+        // with nothing to buy. One compile-time constant now decides whether any
+        // lock can appear at all, which is what makes shipping the gating dormant
+        // safe.
+        if BetaAccess.periodIsOpen {
+            set(.full, from: .beta)
+            return
+        }
+
         // Beta first, and unconditionally. An early user who later subscribes
         // anyway should still never be billed on the strength of this app's
         // checks, and an expired subscription must not drop them to free.
@@ -126,4 +166,5 @@ enum StoreKitBridge {
     /// first.
     static func purchasedTier() -> Tier? { nil }
 }
+
 
