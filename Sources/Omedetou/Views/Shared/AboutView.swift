@@ -14,6 +14,16 @@ import SwiftUI
 // restriction on selling it. Share-alike covers the dictionary data and things
 // derived from it, not the software that reads it.
 
+/// Named wrapper rather than `[String: [DataSource]]`.
+///
+/// The dictionary form required *every* top-level value to be an array of
+/// sources, so the file's `_comment` — a plain string — made the whole decode
+/// throw. With `try?` swallowing it, the screen silently listed nothing at all.
+/// A struct ignores keys it doesn't declare, which is the behaviour wanted here.
+private struct DataSourceFile: Decodable {
+    let sources: [DataSource]
+}
+
 private struct DataSource: Decodable {
     let name: String
     let usedFor: String
@@ -21,6 +31,21 @@ private struct DataSource: Decodable {
     let projectURL: String
     let upstreamVersion: String
     let retrievedOn: String
+
+    /// States as much as is actually known, rather than falling back to
+    /// "not recorded" the moment either half is missing. The EDRDG licence asks
+    /// for a procedure for regular updating, and a retrieval date on its own is
+    /// still enough to tell whether what's bundled has gone stale.
+    var provenance: String {
+        let haveVersion = upstreamVersion != "unknown"
+        let haveDate = retrievedOn != "unknown"
+        switch (haveVersion, haveDate) {
+        case (true, true):   return "\(upstreamVersion) · \(retrievedOn)"
+        case (true, false):  return upstreamVersion
+        case (false, true):  return "retrieved \(retrievedOn)"
+        case (false, false): return "version not recorded"
+        }
+    }
 }
 
 struct AboutView: View {
@@ -29,9 +54,9 @@ struct AboutView: View {
     private var sources: [DataSource] {
         guard let url = Bundle.main.url(forResource: "data_sources", withExtension: "json"),
               let raw = try? Data(contentsOf: url),
-              let wrapper = try? JSONDecoder().decode([String: [DataSource]].self, from: raw)
+              let wrapper = try? JSONDecoder().decode(DataSourceFile.self, from: raw)
         else { return [] }
-        return wrapper["sources"] ?? []
+        return wrapper.sources
     }
 
     private var version: String {
@@ -73,9 +98,7 @@ struct AboutView: View {
                             .font(.system(size: 14, weight: .medium))
                             .foregroundColor(.appText)
                         Spacer()
-                        Text(src.upstreamVersion == "unknown"
-                             ? "version not recorded"
-                             : "\(src.upstreamVersion) · \(src.retrievedOn)")
+                        Text(src.provenance)
                             .font(.system(size: 12))
                             .foregroundColor(.appTextSecondary)
                     }

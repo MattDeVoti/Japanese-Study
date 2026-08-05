@@ -31,11 +31,14 @@ struct HomeView: View {
                 Spacer().frame(maxHeight: 48)
 
                 VStack(spacing: 4) {
+                    // No .secretHint here: GlowingTitle already sweeps its own
+                    // letters in the secret order, which is the better hint —
+                    // it teaches the sequence. A second glow around the whole
+                    // word only smothered it.
                     GlowingTitle {
                         GameUnlocks.shared.unlock(.kanjiInvaders)
                         showGame = true
                     }
-                    .secretHint(!gameUnlocks.isUnlocked(.kanjiInvaders), corner: 18)
                     Text("OMEDETOU")
                         .font(.system(size: 16.5, weight: .heavy))
                         .tracking(6.6)
@@ -730,3 +733,7 @@ private extension HomeOptionsSheet {
         }
     }
 }
+
+
+
+

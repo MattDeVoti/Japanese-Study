@@ -2,7 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- The widget runs in its own process with its own container, so the only
+	     way it can see the word snapshot the app publishes is a shared App
+	     Group. It has to be declared on BOTH targets: the app writes, the widget
+	     reads, and a group named by only one of them is not shared at all.
+
+	     WidgetShared.defaults falls back to `.standard` when the group is
+	     missing, which fails quietly — the widget goes on working and shows
+	     nothing. An empty array here is therefore not a harmless default; it is
+	     a broken widget with no error message to find it by. -->
 	<key>com.apple.security.application-groups</key>
-	<array/>
+	<array>
+		<string>group.com.mattdevoti1.omedetou</string>
+	</array>
 </dict>
 </plist>

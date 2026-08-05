@@ -7,13 +7,25 @@ struct KanaChartView: View {
     // Five taps, five cells — the secret rhymes with the game it opens.
     @State private var vowelProgress = 0
     @State private var foundKotoba = false
+    @State private var showShiritoriClue = false
     private let vowels = ["あ", "い", "う", "え", "お"]
     @ObservedObject private var unlocks = GameUnlocks.shared
 
     /// Only the hiragana chart hides anything, and only until it's found.
+    ///
+    /// Two secrets share this chart. The vowels spell out ことばパズル; ん points at
+    /// しりとり, which is the one kana that ends a game of it. ん is dealt a much
+    /// later slot so the two sequences never light on the same beat — otherwise
+    /// あ and ん flash together and read as one instruction.
     private func hintOrder(_ kana: String) -> Int? {
-        guard isHiragana, !unlocks.isUnlocked(.kotoba) else { return nil }
-        return vowels.firstIndex(of: kana)
+        guard isHiragana else { return nil }
+        if !unlocks.isUnlocked(.kotoba), let vowel = vowels.firstIndex(of: kana) {
+            return vowel
+        }
+        if !unlocks.isUnlocked(.shiritori), kana == "ん" {
+            return 8
+        }
+        return nil
     }
 
     var body: some View {
@@ -34,6 +46,13 @@ struct KanaChartView: View {
         }
         .fullScreenCover(isPresented: $foundKotoba) {
             NavigationStack { KotobaGame() }
+        }
+        // Names the word rather than handing over the game: the last step is
+        // looking it up yourself, which is the point of hiding it in a dictionary.
+        .alert("ん ends it", isPresented: $showShiritoriClue) {
+            Button("OK") { }
+        } message: {
+            Text("No Japanese word begins with ん, so a word ending in one ends the game.\n\nLook up しりとり in the Dictionary and open the entry.")
         }
         .standardNavBar(isHiragana ? "Hiragana" : "Katakana")
     }
@@ -116,6 +135,12 @@ private extension KanaChartView {
     /// Only the hiragana chart carries the secret, and only in order.
     func noteTap(_ kana: String) {
         guard isHiragana else { return }
+        // ん is its own secret, not a wrong vowel — return before the sequence
+        // logic so tapping it doesn't quietly reset progress towards ことば.
+        if kana == "ん" {
+            if !GameUnlocks.shared.isUnlocked(.shiritori) { showShiritoriClue = true }
+            return
+        }
         if kana == vowels[vowelProgress] {
             vowelProgress += 1
             if vowelProgress == vowels.count {

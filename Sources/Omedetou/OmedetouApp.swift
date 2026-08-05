@@ -9,13 +9,8 @@ struct OmedetouApp: App {
     @StateObject private var themeManager = ThemeManager()
     @State private var deepLink: WidgetDeepLink?
     @StateObject private var cloud = CloudSyncService.shared
-    @State private var importNote: String?
 
-    // TEMP (see LegacyImport): applies a backup handed over from the build that
-    // used the old bundle id. Runs here, before the first view body, so no store
-    // has read anything yet and the restore doesn't need a relaunch.
     init() {
-        LegacyImport.runIfNeeded()
         // Before the first view body, so anyone who opens the app during the beta
         // is on the record even if they never reach the welcome sheet.
         BetaAccess.enrolIfNeeded()
@@ -34,16 +29,7 @@ struct OmedetouApp: App {
             .environmentObject(themeManager)
             .environmentObject(cloud)
             .onOpenURL { url in
-                // TEMP (see LegacyImport): a backup opened from Files or AirDrop.
-                if LegacyImport.accept(url) { return }
                 deepLink = WidgetDeepLink(url: url)
-            }
-            // TEMP (see LegacyImport).
-            .onAppear { importNote = LegacyImport.takeReport() }
-            .alert("Progress imported", isPresented: .constant(importNote != nil)) {
-                Button("OK") { importNote = nil }
-            } message: {
-                Text(importNote ?? "")
             }
             .task {
                 // Settings arrive over the key-value store on their own; progress

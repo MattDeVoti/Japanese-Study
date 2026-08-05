@@ -18,6 +18,15 @@ struct DictionaryDetailView: View {
         )
     }
 
+    /// Opening the しりとり entry is the last step of finding the game — the clue
+    /// on ん names the word, and reading its definition is the reward. The entry's
+    /// definition describes the game rather than translating the noun, so the
+    /// unlock and the explanation land on the same screen.
+    private func unlockIfSecretEntry() {
+        guard entry.word == "しりとり" else { return }
+        GameUnlocks.shared.unlock(.shiritori)
+    }
+
     var body: some View {
         ZStack {
             AppBackground()
@@ -142,6 +151,7 @@ struct DictionaryDetailView: View {
             if let sections = conjugation {
                 for s in sections.prefix(2) { expandedSections.insert(s.title) }
             }
+            unlockIfSecretEntry()
         }
     }
 }

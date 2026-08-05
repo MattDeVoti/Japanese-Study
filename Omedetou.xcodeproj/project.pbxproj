@@ -14,7 +14,6 @@
 		02D758F51FDFBF2B377E177A /* DictionaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCADC96BBEF9633961BA467 /* DictionaryDetailView.swift */; };
 		03467EF106AC4EF30DC9B95F /* kana_h02.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B7AA52447AD7420FB8D878F /* kana_h02.json */; };
 		0884A1632E245B88368F0412 /* kana_k01.json in Resources */ = {isa = PBXBuildFile; fileRef = 80411C6C2F5449FFAE0AE094 /* kana_k01.json */; };
-		096E3C1042E192BBDCA4F2A4 /* LegacyImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771BE644B78379A0E777342 /* LegacyImport.swift */; };
 		09A96FFDAD07FCEBB0EFE533 /* OmedetouWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E00505215981B84239C3600E /* OmedetouWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A3E53E85269589615C202E6 /* ch24.json in Resources */ = {isa = PBXBuildFile; fileRef = 3838236E4A45438FED4B2D18 /* ch24.json */; };
 		0A8C31C36994016D38073AB7 /* KotobaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C093011F86F921E8F1B7AAE4 /* KotobaGame.swift */; };
@@ -377,7 +376,6 @@
 		A4F6FED107B7EAB449D8A6C9 /* ch_slang02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch_slang02.json; sourceTree = "<group>"; };
 		A646DCBA8DED638ADD054393 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A699872377B0E496199479FE /* kana_h03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h03.json; sourceTree = "<group>"; };
-		A771BE644B78379A0E777342 /* LegacyImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyImport.swift; sourceTree = "<group>"; };
 		A891D58F407D2A2E7A5A38EC /* WelcomeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSheet.swift; sourceTree = "<group>"; };
 		AC80934F1719AC657A79FC84 /* ch01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch01.json; sourceTree = "<group>"; };
 		ACC3437E6194AB8881463BD2 /* CultureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureView.swift; sourceTree = "<group>"; };
@@ -432,7 +430,7 @@
 		DB80EF85E9855513C66599D1 /* ch13.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch13.json; sourceTree = "<group>"; };
 		DE8A73FD776F020BA0D77F45 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DF0A5716CA190F3F8B8B8D81 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		E00505215981B84239C3600E /* OmedetouWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OmedetouWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00505215981B84239C3600E /* OmedetouWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OmedetouWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D02D5ADD007EE79ECE1B69 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		E1879F0D83F00E2B047F7AC0 /* kana_h08.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h08.json; sourceTree = "<group>"; };
 		E37FC23613021909A0D45A68 /* WidgetShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetShared.swift; sourceTree = "<group>"; };
@@ -566,7 +564,6 @@
 				108F2B354919181411107EFD /* FSRS.swift */,
 				D66C6017B0946DFF435E493C /* JSONPersistence.swift */,
 				989F0B8AB5AF47729019F34F /* KanaWordBank.swift */,
-				A771BE644B78379A0E777342 /* LegacyImport.swift */,
 				7733C2A9B8AFCE96A2F28D9F /* LessonSearchService.swift */,
 				1E0A0F6EB5F36EDE89326897 /* LessonsProgressStore.swift */,
 				B0A2B82E362981B80E13B4F8 /* LessonsService.swift */,
@@ -955,6 +952,15 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4988DF2716213459E1EECD74 = {
+						DevelopmentTeam = H4VZM6PP4T;
+						ProvisioningStyle = Automatic;
+					};
+					649CF02666934C5FB06AB330 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 1F5226803AC3EA342D514A7A /* Build configuration list for PBXProject "Omedetou" */;
 			developmentRegion = en;
@@ -1156,7 +1162,6 @@
 				00CA672BC98C5423423C1252 /* KanjiStudyItem.swift in Sources */,
 				AC12E9F81073EF6B3DE32AB3 /* KanjiStudyView.swift in Sources */,
 				0A8C31C36994016D38073AB7 /* KotobaGame.swift in Sources */,
-				096E3C1042E192BBDCA4F2A4 /* LegacyImport.swift in Sources */,
 				E2E27E4AD434C3674C0D65C5 /* LessonModels.swift in Sources */,
 				E0B9B459E140874F6F49BBCD /* LessonSearchResultsView.swift in Sources */,
 				71489D6917BEA9BAEA112233 /* LessonSearchService.swift in Sources */,
@@ -1231,7 +1236,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sources/Omedetou/Omedetou.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Sources/Omedetou/Omedetou-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -1243,7 +1248,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ICLOUD_SYNC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1252,7 +1257,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Sources/OmedetouWidgets/OmedetouWidgets.entitlements;
-				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Sources/OmedetouWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -1272,7 +1276,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Sources/OmedetouWidgets/OmedetouWidgets.entitlements;
-				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Sources/OmedetouWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -1293,7 +1296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Sources/Omedetou/Omedetou.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Sources/Omedetou/Omedetou-iCloud.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -1305,7 +1308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ICLOUD_SYNC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1343,8 +1346,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1407,8 +1412,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = H4VZM6PP4T;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

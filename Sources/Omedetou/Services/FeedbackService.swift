@@ -1,5 +1,4 @@
 import Foundation
-import UIKit
 
 // Sends written feedback to the developer, without opening Mail.
 //
@@ -98,7 +97,7 @@ enum FeedbackService {
             // Version context so a bug report can be placed. Deliberately not a
             // device identifier — this narrows down "which build", not "who".
             "app_version": Self.appVersion,
-            "ios_version": UIDevice.current.systemVersion,
+            "ios_version": Self.osVersion,
             // The relay's honeypot: bots fill it in, real clients leave it empty.
             "botcheck": "",
         ]
@@ -162,6 +161,15 @@ enum FeedbackService {
         let defaults = UserDefaults.standard
         guard defaults.string(forKey: dayStampKey) == todayStamp() else { return 0 }
         return defaults.integer(forKey: dayCountKey)
+    }
+
+    /// Read from ProcessInfo rather than `UIDevice.current`, which is isolated to
+    /// the main actor: touching it from this non-isolated async function warns
+    /// today and stops compiling under the Swift 6 language mode. This reports the
+    /// same number with no actor to hop to.
+    static var osVersion: String {
+        let v = ProcessInfo.processInfo.operatingSystemVersion
+        return "\(v.majorVersion).\(v.minorVersion).\(v.patchVersion)"
     }
 
     static var appVersion: String {
