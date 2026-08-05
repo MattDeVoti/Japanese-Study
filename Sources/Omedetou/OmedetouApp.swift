@@ -16,6 +16,9 @@ struct OmedetouApp: App {
     // has read anything yet and the restore doesn't need a relaunch.
     init() {
         LegacyImport.runIfNeeded()
+        // Before the first view body, so anyone who opens the app during the beta
+        // is on the record even if they never reach the welcome sheet.
+        BetaAccess.enrolIfNeeded()
     }
 
     var body: some Scene {

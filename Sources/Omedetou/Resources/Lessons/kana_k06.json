@@ -16,10 +16,26 @@
         "Memory: ハ looks like two legs standing wide, making an open 'ha!' sound."
       ],
       "examples": [
-        {"japanese": "ハンバーガー", "romaji": "hanbaagaa", "english": "hamburger"},
-        {"japanese": "ハーモニー", "romaji": "haamonii", "english": "harmony"},
-        {"japanese": "ハート", "romaji": "haato", "english": "heart (shape/symbol)"},
-        {"japanese": "ハイ", "romaji": "hai", "english": "yes / hi (emphatic katakana writing)"}
+        {
+          "japanese": "ハンバーガー",
+          "romaji": "hanbaagaa",
+          "english": "hamburger"
+        },
+        {
+          "japanese": "ハーモニー",
+          "romaji": "haamonii",
+          "english": "harmony"
+        },
+        {
+          "japanese": "ハート",
+          "romaji": "haato",
+          "english": "heart (shape/symbol)"
+        },
+        {
+          "japanese": "ハイ",
+          "romaji": "hai",
+          "english": "yes / hi (emphatic katakana writing)"
+        }
       ],
       "flashcardHeader": "ハ",
       "flashcardAnswer": "ha — same sound as は; looks like two legs standing wide",
@@ -38,10 +54,26 @@
         "ヒント (hint) is commonly used in Japanese conversation and games."
       ],
       "examples": [
-        {"japanese": "ヒーロー", "romaji": "hiiroo", "english": "hero"},
-        {"japanese": "ヒント", "romaji": "hinto", "english": "hint"},
-        {"japanese": "ヒット", "romaji": "hitto", "english": "hit (song, product, success)"},
-        {"japanese": "ヒーター", "romaji": "hiitaa", "english": "heater"}
+        {
+          "japanese": "ヒーロー",
+          "romaji": "hiiroo",
+          "english": "hero"
+        },
+        {
+          "japanese": "ヒント",
+          "romaji": "hinto",
+          "english": "hint"
+        },
+        {
+          "japanese": "ヒット",
+          "romaji": "hitto",
+          "english": "hit (song, product, success)"
+        },
+        {
+          "japanese": "ヒーター",
+          "romaji": "hiitaa",
+          "english": "heater"
+        }
       ],
       "flashcardHeader": "ヒ",
       "flashcardAnswer": "hi — same sound as ひ; looks like a backwards 'F'",
@@ -60,10 +92,26 @@
         "フ begins many French-origin loanwords: フランス (France), フロマージュ (cheese from French)."
       ],
       "examples": [
-        {"japanese": "フランス", "romaji": "Furansu", "english": "France"},
-        {"japanese": "フルーツ", "romaji": "furuutsu", "english": "fruit"},
-        {"japanese": "フォーク", "romaji": "fooku", "english": "fork"},
-        {"japanese": "カフェ", "romaji": "kafe", "english": "café (フ in the middle)"}
+        {
+          "japanese": "フランス",
+          "romaji": "Furansu",
+          "english": "France"
+        },
+        {
+          "japanese": "フルーツ",
+          "romaji": "furuutsu",
+          "english": "fruit"
+        },
+        {
+          "japanese": "フォーク",
+          "romaji": "fooku",
+          "english": "fork"
+        },
+        {
+          "japanese": "カフェ",
+          "romaji": "kafe",
+          "english": "café (フ in the middle)"
+        }
       ],
       "flashcardHeader": "フ",
       "flashcardAnswer": "fu — same bilabial sound as ふ; looks like a hook or reversed 'J'",
@@ -82,10 +130,26 @@
         "This is the closest hiragana-katakana pair in the entire system."
       ],
       "examples": [
-        {"japanese": "ヘルメット", "romaji": "herumetto", "english": "helmet"},
-        {"japanese": "ヘアドライヤー", "romaji": "headoraiyaa", "english": "hair dryer"},
-        {"japanese": "ヘルス", "romaji": "herusu", "english": "health"},
-        {"japanese": "ヘッドホン", "romaji": "heddohon", "english": "headphones"}
+        {
+          "japanese": "ヘルメット",
+          "romaji": "herumetto",
+          "english": "helmet"
+        },
+        {
+          "japanese": "ヘアドライヤー",
+          "romaji": "headoraiyaa",
+          "english": "hair dryer"
+        },
+        {
+          "japanese": "ヘルス",
+          "romaji": "herusu",
+          "english": "health"
+        },
+        {
+          "japanese": "ヘッドホン",
+          "romaji": "heddohon",
+          "english": "headphones"
+        }
       ],
       "flashcardHeader": "ヘ",
       "flashcardAnswer": "he — same sound as へ; looks almost identical to hiragana へ",
@@ -104,10 +168,26 @@
         "ホテル (hotel) is survival vocabulary for any traveler to Japan."
       ],
       "examples": [
-        {"japanese": "ホテル", "romaji": "hoteru", "english": "hotel"},
-        {"japanese": "ホーム", "romaji": "hoomu", "english": "train platform / home"},
-        {"japanese": "ホワイト", "romaji": "howaito", "english": "white"},
-        {"japanese": "アルコホール", "romaji": "arukohoru", "english": "alcohol"}
+        {
+          "japanese": "ホテル",
+          "romaji": "hoteru",
+          "english": "hotel"
+        },
+        {
+          "japanese": "ホーム",
+          "romaji": "hoomu",
+          "english": "train platform / home"
+        },
+        {
+          "japanese": "ホワイト",
+          "romaji": "howaito",
+          "english": "white"
+        },
+        {
+          "japanese": "アルコホール",
+          "romaji": "arukohooru",
+          "english": "alcohol"
+        }
       ],
       "flashcardHeader": "ホ",
       "flashcardAnswer": "ho — same sound as ほ; looks like a cross with an added diagonal",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "ヘ and へ look almost identical. What sound do they both make?",
       "japanese": "ヘ",
-      "choices": ["ha", "hi", "fu", "he"],
+      "choices": [
+        "ha",
+        "hi",
+        "fu",
+        "he"
+      ],
       "correctIndex": 3,
       "explanation": "ヘ makes the 'he' sound — same as hiragana へ. These two characters are the most visually similar hiragana-katakana pair in the entire system. Both look like a mountain peak or angled roof shape."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which hiragana matches the katakana ハ?",
       "japanese": "ハ",
-      "choices": ["は", "ひ", "ふ", "ほ"],
+      "choices": [
+        "は",
+        "ひ",
+        "ふ",
+        "ほ"
+      ],
       "correctIndex": 0,
       "explanation": "ハ and は both make the 'ha' sound. Katakana ハ looks like two legs spread wide (an 'A' without the crossbar), while hiragana は has a more complex, flowing four-stroke structure."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "ホテル",
-      "choices": ["hospital", "hotel", "home", "hotel lobby"],
+      "choices": [
+        "hospital",
+        "hotel",
+        "home",
+        "hotel lobby"
+      ],
       "correctIndex": 1,
       "explanation": "ホテル (hoteru) means 'hotel'. ホ (ho) + テ (te) + ル (ru) = hoteru. Essential travel vocabulary — you'll need to find one on your first trip to Japan!"
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "ヒント",
-      "choices": ["hit", "hint", "height", "heat"],
+      "choices": [
+        "hit",
+        "hint",
+        "height",
+        "heat"
+      ],
       "correctIndex": 1,
       "explanation": "ヒント (hinto) means 'hint'. ヒ (hi) + ン (n) + ト (to) = hinto. This word is used constantly in Japanese games, quizzes, and everyday conversation."
     }

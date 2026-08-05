@@ -226,11 +226,19 @@ final class SettingsSync {
 
     /// Only keys that are genuinely the user's preference. Anything derived, or
     /// meaningful only on one device, stays local.
+    ///
+    /// `BetaMember` is the one exception, and it earns its place: it's an
+    /// entitlement rather than a preference, and it should follow the person to a
+    /// new phone rather than being lost with the old one. Syncing it is safe
+    /// because BetaAccess only ever writes it as `true` — no device can hold a
+    /// `false` to push over someone else's `true`, so last-writer-wins can't
+    /// revoke access.
     private let keys = [
         "selectedThemeId",
         "UnlockedSecretGames",
         "KanjiInvadersHighScore",
         "ShiritoriBest",
+        "BetaMember",
     ]
     /// Scores are records, so the best of the two devices wins rather than the
     /// most recent.
@@ -276,5 +284,8 @@ final class SettingsSync {
             }
         }
         GameUnlocks.shared.reloadFromDefaults()
+        // A `BetaMember` flag can arrive here from the user's other device, so the
+        // tier is re-resolved rather than left at whatever it was at launch.
+        Task { @MainActor in Entitlements.shared.refresh() }
     }
 }

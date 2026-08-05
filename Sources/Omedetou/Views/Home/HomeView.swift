@@ -7,6 +7,7 @@ struct HomeView: View {
     @State private var showOptions = false
     @State private var showHelp = false
     @State private var showGame = false
+    @State private var showWelcome = false
 
     /// Main tiles are drawn at 85% of their old height to give the screen some air.
     private static let tileScale: CGFloat = 0.85
@@ -160,6 +161,14 @@ struct HomeView: View {
         .fullScreenCover(isPresented: $showGame) {
             KanjiInvadersGame()
         }
+        .sheet(isPresented: $showWelcome) {
+            WelcomeSheet()
+        }
+        // Fires again whenever Home is returned to, which is harmless: the sheet
+        // marks itself seen as it goes, so the condition is already false by then.
+        .onAppear {
+            if BetaAccess.shouldShowWelcome { showWelcome = true }
+        }
     }
 }
 
@@ -197,7 +206,21 @@ struct HomeOptionsSheet: View {
     @ObservedObject private var reminders = NotificationService.shared
     @ObservedObject private var textSize = TextSizeSettings.shared
     @ObservedObject private var exams = ExamStore.shared
+    @ObservedObject private var entitlements = Entitlements.shared
     @State private var showResetConfirm = false
+
+    /// Says how the current access was come by, since the tier name alone doesn't
+    /// distinguish "you bought this" from "you were here first".
+    private var planFootnote: String {
+        switch entitlements.source {
+        case .beta:
+            return "You were using Omedetou during the beta, so you keep full access to everything — permanently, and at no charge. You will never be asked to pay."
+        case .purchase:
+            return "Thank you for supporting Omedetou. Subscriptions are managed in your Apple ID settings."
+        case .none:
+            return "Everything is available right now. Some features will need a subscription in a future release."
+        }
+    }
 
     /// The platform rate band is non-linear, so describe it rather than showing a
     /// meaningless percentage.
@@ -226,10 +249,29 @@ struct HomeOptionsSheet: View {
                         Label("Backup & Restore", systemImage: "externaldrive.fill")
                     }
                     NavigationLink {
+                        FeedbackView()
+                    } label: {
+                        Label("Send Feedback", systemImage: "envelope.fill")
+                    }
+                    NavigationLink {
                         AboutView()
                     } label: {
                         Label("About & Sources", systemImage: "info.circle.fill")
                     }
+                }
+                Section {
+                    HStack {
+                        Label("Plan", systemImage: entitlements.isPro ? "star.fill" : "star")
+                            .foregroundColor(.appText)
+                        Spacer()
+                        Text(entitlements.tier.displayName)
+                            .font(.system(size: 14))
+                            .foregroundColor(.appTextSecondary)
+                    }
+                } header: {
+                    Label("Access", systemImage: "key.fill")
+                } footer: {
+                    Text(planFootnote)
                 }
                 Section {
                     HStack {

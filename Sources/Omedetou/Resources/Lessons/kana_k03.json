@@ -16,10 +16,26 @@
         "サービス (service) is used broadly in Japan: 'good service' (サービスがいい) is a common compliment for restaurants."
       ],
       "examples": [
-        {"japanese": "サラダ", "romaji": "sarada", "english": "salad"},
-        {"japanese": "サービス", "romaji": "saabiisu", "english": "service"},
-        {"japanese": "サッカー", "romaji": "sakkaa", "english": "soccer / football"},
-        {"japanese": "サンドウィッチ", "romaji": "sandouicchi", "english": "sandwich"}
+        {
+          "japanese": "サラダ",
+          "romaji": "sarada",
+          "english": "salad"
+        },
+        {
+          "japanese": "サービス",
+          "romaji": "saabisu",
+          "english": "service"
+        },
+        {
+          "japanese": "サッカー",
+          "romaji": "sakkaa",
+          "english": "soccer / football"
+        },
+        {
+          "japanese": "サンドウィッチ",
+          "romaji": "sandowicchi",
+          "english": "sandwich"
+        }
       ],
       "flashcardHeader": "サ",
       "flashcardAnswer": "sa — same sound as さ",
@@ -38,10 +54,26 @@
         "Small シャ, シュ, ショ create 'sha', 'shu', 'sho' combinations."
       ],
       "examples": [
-        {"japanese": "シャワー", "romaji": "shawaa", "english": "shower"},
-        {"japanese": "シール", "romaji": "shiiru", "english": "sticker / seal"},
-        {"japanese": "シネマ", "romaji": "shinema", "english": "cinema / movie theater"},
-        {"japanese": "タクシー", "romaji": "takushii", "english": "taxi"}
+        {
+          "japanese": "シャワー",
+          "romaji": "shawaa",
+          "english": "shower"
+        },
+        {
+          "japanese": "シール",
+          "romaji": "shiiru",
+          "english": "sticker / seal"
+        },
+        {
+          "japanese": "シネマ",
+          "romaji": "shinema",
+          "english": "cinema / movie theater"
+        },
+        {
+          "japanese": "タクシー",
+          "romaji": "takushii",
+          "english": "taxi"
+        }
       ],
       "flashcardHeader": "シ",
       "flashcardAnswer": "shi — same sound as し (always 'shi', not 'si'); watch out for ツ!",
@@ -60,10 +92,26 @@
         "スーパー (supermarket) is used constantly — every Japanese neighborhood has one nearby."
       ],
       "examples": [
-        {"japanese": "スポーツ", "romaji": "supootsu", "english": "sports"},
-        {"japanese": "スーパー", "romaji": "suupaa", "english": "supermarket"},
-        {"japanese": "スマホ", "romaji": "sumaho", "english": "smartphone (abbrev. of スマートフォン)"},
-        {"japanese": "スタジオ", "romaji": "sutajio", "english": "studio"}
+        {
+          "japanese": "スポーツ",
+          "romaji": "supootsu",
+          "english": "sports"
+        },
+        {
+          "japanese": "スーパー",
+          "romaji": "suupaa",
+          "english": "supermarket"
+        },
+        {
+          "japanese": "スマホ",
+          "romaji": "sumaho",
+          "english": "smartphone (abbrev. of スマートフォン)"
+        },
+        {
+          "japanese": "スタジオ",
+          "romaji": "sutajio",
+          "english": "studio"
+        }
       ],
       "flashcardHeader": "ス",
       "flashcardAnswer": "su — same sound as す",
@@ -82,10 +130,26 @@
         "セット (set) and センター (center) are commonly used in both business and sports contexts."
       ],
       "examples": [
-        {"japanese": "セーター", "romaji": "seetaa", "english": "sweater"},
-        {"japanese": "セット", "romaji": "setto", "english": "set"},
-        {"japanese": "センター", "romaji": "sentaa", "english": "center"},
-        {"japanese": "セール", "romaji": "seeru", "english": "sale (a discount sale)"}
+        {
+          "japanese": "セーター",
+          "romaji": "seetaa",
+          "english": "sweater"
+        },
+        {
+          "japanese": "セット",
+          "romaji": "setto",
+          "english": "set"
+        },
+        {
+          "japanese": "センター",
+          "romaji": "sentaa",
+          "english": "center"
+        },
+        {
+          "japanese": "セール",
+          "romaji": "seeru",
+          "english": "sale (a discount sale)"
+        }
       ],
       "flashcardHeader": "セ",
       "flashcardAnswer": "se — same sound as せ",
@@ -104,10 +168,26 @@
         "ソファ (sofa) is commonly used — Japan has fully adopted Western-style furniture vocabulary."
       ],
       "examples": [
-        {"japanese": "ソファ", "romaji": "sofa", "english": "sofa"},
-        {"japanese": "ソース", "romaji": "soosu", "english": "sauce"},
-        {"japanese": "ソーセージ", "romaji": "sooseiji", "english": "sausage"},
-        {"japanese": "コンサート", "romaji": "konsaato", "english": "concert (note ソ vs ン in context)"}
+        {
+          "japanese": "ソファ",
+          "romaji": "sofa",
+          "english": "sofa"
+        },
+        {
+          "japanese": "ソース",
+          "romaji": "soosu",
+          "english": "sauce"
+        },
+        {
+          "japanese": "ソーセージ",
+          "romaji": "sooseeji",
+          "english": "sausage"
+        },
+        {
+          "japanese": "コンサート",
+          "romaji": "konsaato",
+          "english": "concert (note ソ vs ン in context)"
+        }
       ],
       "flashcardHeader": "ソ",
       "flashcardAnswer": "so — same sound as そ; watch out for ン!",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "シ and ツ look very similar. What is シ's sound?",
       "japanese": "シ",
-      "choices": ["tsu", "su", "shi", "chi"],
+      "choices": [
+        "tsu",
+        "su",
+        "shi",
+        "chi"
+      ],
       "correctIndex": 2,
       "explanation": "シ makes the 'shi' sound. The key to telling シ and ツ apart: シ's short strokes lean to the RIGHT (like they're reaching toward something), while ツ's lean to the LEFT."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which hiragana matches the katakana ソ?",
       "japanese": "ソ",
-      "choices": ["さ", "し", "す", "そ"],
+      "choices": [
+        "さ",
+        "し",
+        "す",
+        "そ"
+      ],
       "correctIndex": 3,
       "explanation": "ソ and そ both make the 'so' sound. Remember: ソ (so) looks like a swooping stroke going down-right, while ン (n) curves down-left. Getting these two right is a key milestone in katakana."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "スーパー",
-      "choices": ["superstar", "superman", "supermarket", "supernatural"],
+      "choices": [
+        "superstar",
+        "superman",
+        "supermarket",
+        "supernatural"
+      ],
       "correctIndex": 2,
       "explanation": "スーパー (suupaa) means 'supermarket'. In Japan, スーパー is the everyday word for the grocery store / supermarket. ス (su) + ー (long u) + パ (pa) + ー (long a) = suupaa."
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "セール",
-      "choices": ["sail", "sale (discount)", "seal", "cell"],
+      "choices": [
+        "sail",
+        "sale (discount)",
+        "seal",
+        "cell"
+      ],
       "correctIndex": 1,
       "explanation": "セール (seeru) means 'sale' — a discount sale event. セ (se) + ー (long e) + ル (ru) = seeru. You'll see this word on signs in shops all over Japan during sale events."
     }

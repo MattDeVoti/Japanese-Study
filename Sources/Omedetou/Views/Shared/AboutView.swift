@@ -107,6 +107,13 @@ struct AboutView: View {
                     Text("There are no accounts, no analytics, and no third-party services. Your progress is written to this device's storage and nowhere else. If you turn on iCloud sync, it is copied to your own private iCloud, which only you can read.")
                         .font(.system(size: 13))
                         .foregroundColor(.appTextSecondary)
+                    Text("The one exception is Send Feedback.")
+                        .font(.system(size: 13, weight: .semibold))
+                        .foregroundColor(.appText)
+                        .padding(.top, 6)
+                    Text("If you choose to write a message there, that message is sent to the developer, along with the app and iOS version so a bug can be placed. Nothing else goes with it — no name, no email address, no device identifier, and none of your study data. Nothing is sent unless you type something and tap Submit.")
+                        .font(.system(size: 13))
+                        .foregroundColor(.appTextSecondary)
                 }
                 .padding(.vertical, 4)
             } header: {
