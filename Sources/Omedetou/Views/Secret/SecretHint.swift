@@ -12,7 +12,12 @@ struct SecretHint: ViewModifier {
     let active: Bool
     /// Position in the sequence, so the glow travels in the right order.
     let order: Int
-    var tint: Color = Color(hex: "F2C14E")
+    /// The accent, so the hint belongs to whatever palette is on. This used to be
+    /// a fixed yellow drawn as a boxed border, which read as a warning rather than
+    /// as a secret and fought every theme it sat on.
+    var tint: Color = .appAccent
+    /// Kept so existing call sites still compile. The glow has no border to round
+    /// any more, so it no longer affects the drawing.
     var corner: CGFloat = 10
 
     @State private var lit = false
@@ -26,15 +31,14 @@ struct SecretHint: ViewModifier {
     private static let period: Double = 30
 
     func body(content: Content) -> some View {
+        // The same treatment the home-screen title uses on its letters: the thing
+        // brightens and lifts, haloed in the accent, rather than being fenced in
+        // by a coloured rectangle. It reads as "look here", not "error here".
         content
+            .brightness(lit ? 0.24 : 0)
+            .shadow(color: tint.opacity(lit ? 0.95 : 0), radius: lit ? 18 : 0)
+            .shadow(color: .white.opacity(lit ? 0.5 : 0), radius: lit ? 6 : 0)
             .scaleEffect(lit ? 1.07 : 1)
-            .overlay(
-                RoundedRectangle(cornerRadius: corner, style: .continuous)
-                    .strokeBorder(tint, lineWidth: 2.5)
-                    .shadow(color: tint.opacity(0.9), radius: 7)
-                    .opacity(lit ? 1 : 0)
-                    .allowsHitTesting(false)
-            )
             .animation(.easeInOut(duration: 0.32), value: lit)
             // Anchored to the moment the page appeared, not to the wall clock.
             //
@@ -68,7 +72,7 @@ struct SecretHint: ViewModifier {
 extension View {
     /// `order` is the item's place in the sequence the player has to perform.
     func secretHint(_ active: Bool, order: Int = 0,
-                    tint: Color = Color(hex: "F2C14E"),
+                    tint: Color = .appAccent,
                     corner: CGFloat = 10) -> some View {
         modifier(SecretHint(active: active, order: order, tint: tint, corner: corner))
     }

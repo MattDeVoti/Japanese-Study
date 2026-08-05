@@ -12,18 +12,39 @@
          APIs, no system boot time (no systemUptime or mach_absolute_time),
          and no active-keyboard APIs. -->
 
-    <!-- Nothing here tracks anyone, and nothing leaves the device. -->
+    <!-- Nothing here tracks anyone. Nothing is gathered in the background. -->
     <key>NSPrivacyTracking</key>
     <false/>
     <key>NSPrivacyTrackingDomains</key>
     <array/>
 
-    <!-- No data is collected: no accounts, no analytics, no third-party SDKs.
-         Study progress stays on the device, and when iCloud sync is enabled it
-         goes to the user's own private CloudKit database, which the developer
-         cannot read. -->
+    <!-- One collected type, and only when the user chooses it.
+         There are no accounts, no analytics and no third-party SDKs. Study
+         progress stays on the device, and when iCloud sync is enabled it goes
+         to the user's own private CloudKit database, which the developer
+         cannot read.
+
+         The exception is the Send Feedback screen: if the user writes a message
+         and taps Submit, that text is sent to the developer through a form
+         relay, together with the app and OS version so a report can be placed.
+         Nothing is attached that identifies the person or the device — no name,
+         no email address, no identifier, no study data — so it is declared as
+         not linked to identity and not used for tracking. -->
     <key>NSPrivacyCollectedDataTypes</key>
-    <array/>
+    <array>
+        <dict>
+            <key>NSPrivacyCollectedDataType</key>
+            <string>NSPrivacyCollectedDataTypeOtherUserContent</string>
+            <key>NSPrivacyCollectedDataTypeLinked</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypeTracking</key>
+            <false/>
+            <key>NSPrivacyCollectedDataTypePurposes</key>
+            <array>
+                <string>NSPrivacyCollectedDataTypePurposeAppFunctionality</string>
+            </array>
+        </dict>
+    </array>
 
     <key>NSPrivacyAccessedAPITypes</key>
     <array>

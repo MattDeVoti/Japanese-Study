@@ -255,6 +255,8 @@ struct LevelView: View {
                 } label: {
                     ChapterRow(summary: summary)
                 }
+                .locked(!FreeTier.isFree(chapter: summary.id),
+                        feature: "Chapter \(summary.chapterNumber)")
                 .listRowBackground(Color.clear)
                 .listRowSeparatorTint(Color.primary.opacity(0.1))
             }

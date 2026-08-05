@@ -11,6 +11,12 @@ settings:
     SWIFT_VERSION: "5.9"
     TARGETED_DEVICE_FAMILY: "1"
     IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    # Signing lives here rather than in Xcode's UI on purpose: this file
+    # regenerates the project, so a team picked from the dropdown is silently
+    # discarded the next time `xcodegen generate` runs — typically right before
+    # an archive, which is the worst possible moment to lose it.
+    DEVELOPMENT_TEAM: H4VZM6PP4T
+    CODE_SIGN_STYLE: Automatic
 
 targets:
   Omedetou:
@@ -28,17 +34,23 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou
         INFOPLIST_FILE: Sources/Omedetou/Info.plist
-        # --- Cross-device sync (off by default) ---------------------------
-        # Enabling it needs a PAID Apple Developer Program membership: free
-        # personal teams cannot sign the iCloud capability, and a build that
-        # requests it cannot be installed on a device at all.
-        # To turn it on, comment out the two lines below, uncomment the two
-        # after them, re-run `xcodegen generate`, then tick iCloud ▸ CloudKit
-        # and Key-value storage in Xcode ▸ Signing & Capabilities.
-        CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou.entitlements
-        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited)"
-        # CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou-iCloud.entitlements
-        # SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) ICLOUD_SYNC"
+        # --- Cross-device sync (ON) ---------------------------------------
+        # Needs a PAID Apple Developer Program membership, which is now in
+        # place. This file also carries the App Group the widget reads its
+        # snapshot from, so switching back to the plain entitlements below
+        # silently breaks the widget as well as sync — WidgetShared falls back
+        # to a non-shared defaults suite and simply shows nothing.
+        #
+        # Requires, in the Developer portal: App Group
+        # `group.com.mattdevoti1.omedetou` and iCloud container
+        # `iCloud.com.mattdevoti1.omedetou`, both enabled on the App ID. Then
+        # tick iCloud ▸ CloudKit and Key-value storage in Xcode ▸ Signing &
+        # Capabilities.
+        CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou-iCloud.entitlements
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) ICLOUD_SYNC"
+        # Fallback for a free personal team, which cannot sign iCloud at all:
+        # CODE_SIGN_ENTITLEMENTS: Sources/Omedetou/Omedetou.entitlements
+        # SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited)"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         GENERATE_INFOPLIST_FILE: "NO"

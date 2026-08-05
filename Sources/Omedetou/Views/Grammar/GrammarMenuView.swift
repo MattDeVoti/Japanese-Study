@@ -79,11 +79,13 @@ struct GrammarMenuView: View {
                                 VocabDeckTile(color: .themeTile(5))
                             }
                             .buttonStyle(.plain)
+                            .locked(true, feature: "Vocabulary flashcards")
 
                             NavigationLink { KanjiStudyView() } label: {
                                 KanjiFlipTile(color: .themeTile(7))
                             }
                             .buttonStyle(.plain)
+                            .locked(true, feature: "Kanji flashcards")
                         }
                     }
 
@@ -96,16 +98,19 @@ struct GrammarMenuView: View {
                                 ConjugationTile(color: .themeTile(2))
                             }
                             .buttonStyle(.plain)
+                            .locked(true, feature: "Conjugation drills")
 
                             NavigationLink { ReadingListView() } label: {
                                 ReadingTile(color: .themeTile(10))
                             }
                             .buttonStyle(.plain)
+                            .locked(true, feature: "Reading passages")
 
                             NavigationLink { KanjiMatchView() } label: {
                                 KanjiMatchTile(color: .themeTile(6))
                             }
                             .buttonStyle(.plain)
+                            .locked(true, feature: "The kanji matcher")
                         }
                     }
                     // MARK: Grammar quizzes
@@ -122,6 +127,7 @@ struct GrammarMenuView: View {
                                     LevelQuizTile(level: level)
                                 }
                                 .buttonStyle(.plain)
+                                .locked(true, feature: "\(levelName(level)) grammar quiz")
                             }
 
                             // Slang has no authored quiz bank, so its questions are
@@ -138,6 +144,7 @@ struct GrammarMenuView: View {
                                               color: SlangContent.accent,
                                               phase: 5.1)
                             }
+                            .locked(true, feature: "The slang quiz")
                             .buttonStyle(.plain)
                         }
                     }

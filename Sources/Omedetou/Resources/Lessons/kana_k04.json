@@ -16,10 +16,26 @@
         "Memory: タ looks like 'T' with a diagonal added — 'T' for 'ta'."
       ],
       "examples": [
-        {"japanese": "タクシー", "romaji": "takushii", "english": "taxi"},
-        {"japanese": "タオル", "romaji": "taoru", "english": "towel"},
-        {"japanese": "タブレット", "romaji": "taburetto", "english": "tablet"},
-        {"japanese": "パスタ", "romaji": "pasuta", "english": "pasta"}
+        {
+          "japanese": "タクシー",
+          "romaji": "takushii",
+          "english": "taxi"
+        },
+        {
+          "japanese": "タオル",
+          "romaji": "taoru",
+          "english": "towel"
+        },
+        {
+          "japanese": "タブレット",
+          "romaji": "taburetto",
+          "english": "tablet"
+        },
+        {
+          "japanese": "パスタ",
+          "romaji": "pasuta",
+          "english": "pasta"
+        }
       ],
       "flashcardHeader": "タ",
       "flashcardAnswer": "ta — same sound as た",
@@ -38,10 +54,26 @@
         "チョコレート (chocolate) uses the チョ combination — チ + small ョ = 'cho'."
       ],
       "examples": [
-        {"japanese": "チョコレート", "romaji": "chokoreeto", "english": "chocolate"},
-        {"japanese": "チーム", "romaji": "chiimu", "english": "team"},
-        {"japanese": "チケット", "romaji": "chiketto", "english": "ticket"},
-        {"japanese": "チャンス", "romaji": "chansu", "english": "chance / opportunity"}
+        {
+          "japanese": "チョコレート",
+          "romaji": "chokoreeto",
+          "english": "chocolate"
+        },
+        {
+          "japanese": "チーム",
+          "romaji": "chiimu",
+          "english": "team"
+        },
+        {
+          "japanese": "チケット",
+          "romaji": "chiketto",
+          "english": "ticket"
+        },
+        {
+          "japanese": "チャンス",
+          "romaji": "chansu",
+          "english": "chance / opportunity"
+        }
       ],
       "flashcardHeader": "チ",
       "flashcardAnswer": "chi — same sound as ち (always 'chi', not 'ti')",
@@ -60,10 +92,26 @@
         "Small ッ marks a doubled consonant: チケット (chi-ke-t-to), ベッド (be-d-do)."
       ],
       "examples": [
-        {"japanese": "ツアー", "romaji": "tsuaa", "english": "tour"},
-        {"japanese": "ツール", "romaji": "tsuuru", "english": "tool"},
-        {"japanese": "ツナ", "romaji": "tsuna", "english": "tuna"},
-        {"japanese": "ビーチ", "romaji": "biichi", "english": "beach (notice ツ in ツ-related context)"}
+        {
+          "japanese": "ツアー",
+          "romaji": "tsuaa",
+          "english": "tour"
+        },
+        {
+          "japanese": "ツール",
+          "romaji": "tsuuru",
+          "english": "tool"
+        },
+        {
+          "japanese": "ツナ",
+          "romaji": "tsuna",
+          "english": "tuna"
+        },
+        {
+          "japanese": "ビーチ",
+          "romaji": "biichi",
+          "english": "beach (notice ツ in ツ-related context)"
+        }
       ],
       "flashcardHeader": "ツ",
       "flashcardAnswer": "tsu — same sound as つ; strokes lean LEFT (opposite of シ)",
@@ -82,10 +130,26 @@
         "テレビ (TV) and テスト (test) are words you'll use constantly in school and daily life contexts."
       ],
       "examples": [
-        {"japanese": "テレビ", "romaji": "terebi", "english": "television / TV"},
-        {"japanese": "テスト", "romaji": "tesuto", "english": "test / exam"},
-        {"japanese": "テーブル", "romaji": "teburu", "english": "table"},
-        {"japanese": "テーマ", "romaji": "teema", "english": "theme"}
+        {
+          "japanese": "テレビ",
+          "romaji": "terebi",
+          "english": "television / TV"
+        },
+        {
+          "japanese": "テスト",
+          "romaji": "tesuto",
+          "english": "test / exam"
+        },
+        {
+          "japanese": "テーブル",
+          "romaji": "teeburu",
+          "english": "table"
+        },
+        {
+          "japanese": "テーマ",
+          "romaji": "teema",
+          "english": "theme"
+        }
       ],
       "flashcardHeader": "テ",
       "flashcardAnswer": "te — same sound as て; looks like a capital 'T' with extra stroke",
@@ -104,10 +168,26 @@
         "トイレはどこですか? (Where is the restroom?) — one of the most important phrases to learn early."
       ],
       "examples": [
-        {"japanese": "トイレ", "romaji": "toire", "english": "toilet / restroom"},
-        {"japanese": "トマト", "romaji": "tomato", "english": "tomato"},
-        {"japanese": "トースト", "romaji": "toosuto", "english": "toast"},
-        {"japanese": "トンネル", "romaji": "tonneru", "english": "tunnel"}
+        {
+          "japanese": "トイレ",
+          "romaji": "toire",
+          "english": "toilet / restroom"
+        },
+        {
+          "japanese": "トマト",
+          "romaji": "tomato",
+          "english": "tomato"
+        },
+        {
+          "japanese": "トースト",
+          "romaji": "toosuto",
+          "english": "toast"
+        },
+        {
+          "japanese": "トンネル",
+          "romaji": "tonneru",
+          "english": "tunnel"
+        }
       ],
       "flashcardHeader": "ト",
       "flashcardAnswer": "to — same sound as と; looks like a vertical line with a tick",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "ツ and シ look similar. What sound does ツ make?",
       "japanese": "ツ",
-      "choices": ["shi", "tsu", "chi", "su"],
+      "choices": [
+        "shi",
+        "tsu",
+        "chi",
+        "su"
+      ],
       "correctIndex": 1,
       "explanation": "ツ makes the 'tsu' sound (like 'tsunami'). Remember: ツ's short strokes lean LEFT; シ's lean RIGHT. You can think of ツ as a sneeze: 'tsu!' blasting the strokes left."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which hiragana matches the katakana テ?",
       "japanese": "テ",
-      "choices": ["た", "ち", "て", "と"],
+      "choices": [
+        "た",
+        "ち",
+        "て",
+        "と"
+      ],
       "correctIndex": 2,
       "explanation": "テ and て both make the 'te' sound. テ looks like a capital 'T' with an extra horizontal stroke; て has a more flowing, cursive hook structure."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "テレビ",
-      "choices": ["telephone", "television", "terrible", "terminal"],
+      "choices": [
+        "telephone",
+        "television",
+        "terrible",
+        "terminal"
+      ],
       "correctIndex": 1,
       "explanation": "テレビ (terebi) means 'television'. テ (te) + レ (re) + ビ (bi) = terebi. This comes from the English word 'television', shortened and adapted to Japanese phonology."
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "トイレ",
-      "choices": ["toilet / restroom", "travel", "trailer", "trouble"],
+      "choices": [
+        "toilet / restroom",
+        "travel",
+        "trailer",
+        "trouble"
+      ],
       "correctIndex": 0,
       "explanation": "トイレ (toire) means 'toilet' or 'restroom'. ト (to) + イ (i) + レ (re) = toire. This is essential vocabulary — トイレはどこですか? means 'Where is the restroom?'"
     }

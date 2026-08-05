@@ -375,6 +375,17 @@ private struct QuestionCard: View {
     let accent: Color
 
     @State private var selected: Int?
+    /// Display order for the choices.
+    ///
+    /// These questions are stored with the answer in the same slot nearly every
+    /// time — 92% of the 1,250 of them sit at index 1 — so rendering them in
+    /// file order let anyone score by always tapping the second option without
+    /// reading a word. Grammar practice and the exam builder both already
+    /// shuffle; this is the one path that didn't.
+    ///
+    /// Only the order changes. `choiceRow` still judges correctness by each
+    /// choice's original index, so there's nothing to keep in sync.
+    @State private var order: [Int] = []
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -386,8 +397,8 @@ private struct QuestionCard: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
 
-            ForEach(Array(question.choices.enumerated()), id: \.offset) { idx, choice in
-                choiceRow(idx, choice)
+            ForEach(order, id: \.self) { idx in
+                choiceRow(idx, question.choices[idx])
             }
 
             if selected != nil {
@@ -404,6 +415,13 @@ private struct QuestionCard: View {
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
+        // Shuffled once when the card appears, not in `body` — reshuffling on
+        // every redraw would make the options jump around under the finger.
+        .onAppear {
+            if order.count != question.choices.count {
+                order = Array(question.choices.indices).shuffled()
+            }
+        }
     }
 
     private func choiceRow(_ idx: Int, _ choice: String) -> some View {

@@ -7,6 +7,7 @@ struct HomeView: View {
     @State private var showOptions = false
     @State private var showHelp = false
     @State private var showGame = false
+    @State private var showWelcome = false
 
     /// Main tiles are drawn at 85% of their old height to give the screen some air.
     private static let tileScale: CGFloat = 0.85
@@ -30,11 +31,14 @@ struct HomeView: View {
                 Spacer().frame(maxHeight: 48)
 
                 VStack(spacing: 4) {
+                    // No .secretHint here: GlowingTitle already sweeps its own
+                    // letters in the secret order, which is the better hint —
+                    // it teaches the sequence. A second glow around the whole
+                    // word only smothered it.
                     GlowingTitle {
                         GameUnlocks.shared.unlock(.kanjiInvaders)
                         showGame = true
                     }
-                    .secretHint(!gameUnlocks.isUnlocked(.kanjiInvaders), corner: 18)
                     Text("OMEDETOU")
                         .font(.system(size: 16.5, weight: .heavy))
                         .tracking(6.6)
@@ -160,6 +164,14 @@ struct HomeView: View {
         .fullScreenCover(isPresented: $showGame) {
             KanjiInvadersGame()
         }
+        .sheet(isPresented: $showWelcome) {
+            WelcomeSheet()
+        }
+        // Fires again whenever Home is returned to, which is harmless: the sheet
+        // marks itself seen as it goes, so the condition is already false by then.
+        .onAppear {
+            if BetaAccess.shouldShowWelcome { showWelcome = true }
+        }
     }
 }
 
@@ -197,7 +209,21 @@ struct HomeOptionsSheet: View {
     @ObservedObject private var reminders = NotificationService.shared
     @ObservedObject private var textSize = TextSizeSettings.shared
     @ObservedObject private var exams = ExamStore.shared
+    @ObservedObject private var entitlements = Entitlements.shared
     @State private var showResetConfirm = false
+
+    /// Says how the current access was come by, since the tier name alone doesn't
+    /// distinguish "you bought this" from "you were here first".
+    private var planFootnote: String {
+        switch entitlements.source {
+        case .beta:
+            return "You were using Omedetou during the beta, so you keep full access to everything — permanently, and at no charge. You will never be asked to pay."
+        case .purchase:
+            return "Thank you for supporting Omedetou. Subscriptions are managed in your Apple ID settings."
+        case .none:
+            return "Kana, the first two chapters, the dictionary and the tests are free. Anything marked with a lock is part of the full course."
+        }
+    }
 
     /// The platform rate band is non-linear, so describe it rather than showing a
     /// meaningless percentage.
@@ -226,11 +252,45 @@ struct HomeOptionsSheet: View {
                         Label("Backup & Restore", systemImage: "externaldrive.fill")
                     }
                     NavigationLink {
+                        FeedbackView()
+                    } label: {
+                        Label("Send Feedback", systemImage: "envelope.fill")
+                    }
+                    NavigationLink {
                         AboutView()
                     } label: {
                         Label("About & Sources", systemImage: "info.circle.fill")
                     }
                 }
+                Section {
+                    HStack {
+                        Label("Plan", systemImage: entitlements.isPro ? "star.fill" : "star")
+                            .foregroundColor(.appText)
+                        Spacer()
+                        Text(entitlements.tier.displayName)
+                            .font(.system(size: 14))
+                            .foregroundColor(.appTextSecondary)
+                    }
+                } header: {
+                    Label("Access", systemImage: "key.fill")
+                } footer: {
+                    Text(planFootnote)
+                }
+
+#if DEBUG
+                // Debug builds only — the whole section is compiled out of Release,
+                // so it cannot appear in anything shipped to the App Store.
+                Section {
+                    Toggle(isOn: $entitlements.debugForceFree) {
+                        Label("Preview free tier", systemImage: "lock.fill")
+                    }
+                    .tint(.appAccent)
+                } header: {
+                    Label("Developer", systemImage: "hammer.fill")
+                } footer: {
+                    Text("Makes the app behave as though nothing has been paid for, so the locks and the paywall can be tested. Your beta access isn't touched — switch it back off and everything returns. This section does not exist in a release build.")
+                }
+#endif
                 Section {
                     HStack {
                         Label("iCloud", systemImage: cloudIcon)
@@ -470,6 +530,7 @@ private struct AppearancePicker: View {
                         themeManager.current = theme
                         dismiss()
                     }
+                    .locked(!FreeTier.isFree(theme: theme.id), feature: theme.displayName)
                 }
             }
             .padding(.horizontal, 20)
@@ -688,3 +749,8 @@ private extension HomeOptionsSheet {
         }
     }
 }
+
+
+
+
+
