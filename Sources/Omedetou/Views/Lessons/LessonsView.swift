@@ -286,7 +286,8 @@ private struct ChapterRow: View {
     }
 
     private var pointsLabel: String {
-        isKana ? "\(pointCount) characters" : "\(pointCount) grammar points"
+        isKana ? "\(LessonsService.shared.characterCount(for: summary.id)) characters"
+               : "\(pointCount) grammar points"
     }
 
     var body: some View {

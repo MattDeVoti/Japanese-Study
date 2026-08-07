@@ -31,7 +31,7 @@ struct CheatItem: Identifiable {
 
 /// A section can carry a diagram instead of, or as well as, its cells.
 enum CheatVisual {
-    case none, positionMap, distanceMap, frequencyScale, clock, compass, body, face
+    case none, positionMap, distanceMap, frequencyScale, clock, compass, body, face, familyTree
 }
 
 /// One line of a multi-column chart. `cells` must match the section's headers;
@@ -108,7 +108,9 @@ enum CheatSheetLibrary {
         // The everyday closed sets.
         out += [questionWords, kosoado, greetings, directions, colours]
         // Useful, but looked up less often.
-        out += [family, transitivity, adverbs, connectors]
+        out += [family, giving, conditionals, seeming, transitivity, adverbs, connectors]
+        out += [onomatopoeia, teHelpers, voices, obligation, comparisons]
+        out += [restaurant]
         // Specialist or late-stage.
         out += [weather, body, keigo]
         return out
@@ -801,25 +803,583 @@ enum CheatSheetLibrary {
     static let family = CheatSheet(
         id: "family", title: "Family Terms", subtitle: "Yours vs someone else's",
         icon: "figure.2.and.child.holdinghands", tintIndex: 5,
-        keywords: ["family", "ちち", "はは", "おとうさん", "brother", "sister", "parents"],
+        keywords: ["family", "ちち", "はは", "おとうさん", "brother", "sister", "parents",
+                   "uncle", "aunt", "cousin", "grandmother", "grandfather", "in-law",
+                   "兄", "姉", "弟", "妹", "おじ", "おば", "いとこ", "義理"],
         sections: [
-            CheatSection(note: "Left: talking about your own family. "
-                             + "Right: talking about someone else's — also what you call "
-                             + "your own relatives to their face.",
-                         columns: 2, items: [
-                CheatItem("父 — ちち", "お父さん — おとうさん (father)"),
-                CheatItem("母 — はは", "お母さん — おかあさん (mother)"),
-                CheatItem("兄 — あに", "お兄さん — おにいさん (older brother)"),
-                CheatItem("姉 — あね", "お姉さん — おねえさん (older sister)"),
-                CheatItem("弟 — おとうと", "弟さん — おとうとさん (younger brother)"),
-                CheatItem("妹 — いもうと", "妹さん — いもうとさん (younger sister)"),
-                CheatItem("祖父 — そふ", "おじいさん (grandfather)"),
-                CheatItem("祖母 — そぼ", "おばあさん (grandmother)"),
-                CheatItem("妻 — つま", "奥さん — おくさん (wife)"),
-                CheatItem("夫 — おっと", "ご主人 — ごしゅじん (husband)"),
-                CheatItem("息子 — むすこ", "息子さん — むすこさん (son)"),
-                CheatItem("娘 — むすめ", "娘さん — むすめさん (daughter)"),
-                CheatItem("家族 — かぞく", "ご家族 — ごかぞく (family)"),
+            CheatSection(
+                title: "The shape of a Japanese family",
+                note: "There is no plain word for \"brother\" or \"sister\" — only older and "
+                    + "younger. You have to know which one someone is before you can name them, "
+                    + "and it is the first question you will be asked about your own siblings.",
+                visual: .familyTree),
+
+            CheatSection(
+                title: "Your family vs someone else's",
+                note: "Talking about your own family to an outsider, you use the plain, humble "
+                    + "column. Talking about theirs — or speaking to your own relative directly — "
+                    + "you use the polite one. So you call your own mother お母さん to her face, "
+                    + "and 母 when telling a colleague about her.",
+                headers: ["", "Your own", "Someone else's"],
+                rows: [
+                    CheatRow("family", "家族\nかぞく", "ご家族\nごかぞく"),
+                    CheatRow("parents", "両親\nりょうしん", "ご両親\nごりょうしん"),
+                    CheatRow("father", "父\nちち", "お父さん\nおとうさん"),
+                    CheatRow("mother", "母\nはは", "お母さん\nおかあさん"),
+                    CheatRow("older brother", "兄\nあに", "お兄さん\nおにいさん"),
+                    CheatRow("older sister", "姉\nあね", "お姉さん\nおねえさん"),
+                    CheatRow("younger brother", "弟\nおとうと", "弟さん\nおとうとさん"),
+                    CheatRow("younger sister", "妹\nいもうと", "妹さん\nいもうとさん"),
+                    CheatRow("siblings", "兄弟\nきょうだい", "ご兄弟\nごきょうだい"),
+                    CheatRow("husband", "夫\nおっと", "ご主人\nごしゅじん"),
+                    CheatRow("wife", "妻\nつま", "奥さん\nおくさん"),
+                    CheatRow("child", "子供\nこども", "お子さん\nおこさん"),
+                    CheatRow("son", "息子\nむすこ", "息子さん\nむすこさん"),
+                    CheatRow("daughter", "娘\nむすめ", "娘さん\nむすめさん"),
+                    CheatRow("grandfather", "祖父\nそふ", "おじいさん"),
+                    CheatRow("grandmother", "祖母\nそぼ", "おばあさん"),
+                    CheatRow("grandchild", "孫\nまご", "お孫さん\nおまごさん"),
+                ]),
+
+            CheatSection(
+                title: "Aunts, uncles and cousins",
+                note: "おじ and おば each have two kanji, read identically. 伯 is used when they "
+                    + "are older than your parent, 叔 when younger — a distinction you only meet "
+                    + "in writing, and one many Japanese people look up too.",
+                headers: ["", "Your own", "Someone else's"],
+                rows: [
+                    CheatRow("uncle (older)", "伯父\nおじ", "おじさん"),
+                    CheatRow("uncle (younger)", "叔父\nおじ", "おじさん"),
+                    CheatRow("aunt (older)", "伯母\nおば", "おばさん"),
+                    CheatRow("aunt (younger)", "叔母\nおば", "おばさん"),
+                    CheatRow("cousin", "いとこ", "いとこ"),
+                    CheatRow("nephew", "甥\nおい", "甥御さん\nおいごさん"),
+                    CheatRow("niece", "姪\nめい", "姪御さん\nめいごさん"),
+                    CheatRow("relatives", "親戚\nしんせき", "ご親戚\nごしんせき"),
+                ]),
+
+            CheatSection(
+                title: "In-laws",
+                note: "義 marks a relationship by marriage. Spoken aloud you still say お父さん "
+                    + "and お母さん — the kanji does the distinguishing, not the sound.",
+                headers: ["", "Written", "Spoken"],
+                rows: [
+                    CheatRow("father-in-law", "義父\nぎふ", "お義父さん\nおとうさん"),
+                    CheatRow("mother-in-law", "義母\nぎぼ", "お義母さん\nおかあさん"),
+                    CheatRow("brother-in-law", "義兄\nぎけい / 義弟\nぎてい", "お兄さん / 弟さん"),
+                    CheatRow("sister-in-law", "義姉\nぎし / 義妹\nぎまい", "お姉さん / 妹さん"),
+                ]),
+
+            CheatSection(
+                title: "Which form, when",
+                note: "The same person can be 母 or お母さん depending on who you are "
+                    + "speaking to. The rule is about the listener, not about her.",
+                headers: ["Who you're talking to", "What you say"],
+                rows: [
+                    CheatRow("Your mother, to her face", "お母さん"),
+                    CheatRow("Anyone outside the family, about her", "母"),
+                    CheatRow("A friend, casually, about her", "うちの母"),
+                    CheatRow("Anyone, about *their* mother", "お母さん"),
+                ]),
+
+            CheatSection(
+                title: "Two words to be careful with",
+                note: "First: ご主人 literally means \"master\", and 奥さん means \"the one "
+                    + "inside\" — both come from a time when that described the household. "
+                    + "Plenty of people still use them, but many younger speakers avoid them. "
+                    + "夫 and 妻 are neutral and safe with anyone.\n\n"
+                    + "Second: the おじ／おば words do double duty. おじさん and おばさん also "
+                    + "simply mean \"middle-aged man\" and \"middle-aged woman\", and おじいさん "
+                    + "and おばあさん mean \"old man\" and \"old woman\". So calling a stranger "
+                    + "おばさん is not a friendly \"auntie\" — you are telling her she looks "
+                    + "middle-aged.",
+                columns: 2, items: [
+                CheatItem("夫 · 妻", "neutral — safe with anyone"),
+                CheatItem("ご主人 · 奥さん", "older, gendered — many now avoid these"),
+                CheatItem("パートナー", "increasingly common, and avoids the issue"),
+                CheatItem("おばさん", "also just \"middle-aged woman\" — careful"),
+            ]),
+
+            CheatSection(
+                title: "More family words",
+                columns: 2, items: [
+                CheatItem("親\nおや", "parent, as a category rather than a person"),
+                CheatItem("赤ちゃん\nあかちゃん", "baby"),
+                CheatItem("双子\nふたご", "twins"),
+                CheatItem("一人っ子\nひとりっこ", "an only child"),
+                CheatItem("長男\nちょうなん", "eldest son"),
+                CheatItem("長女\nちょうじょ", "eldest daughter"),
+                CheatItem("末っ子\nすえっこ", "the youngest child"),
+                CheatItem("家内\nかない", "one's own wife — traditional, dated"),
+            ]),
+        ])
+
+    // MARK: Giving & receiving
+
+    static let giving = CheatSheet(
+        id: "giving", title: "Giving & Receiving", subtitle: "あげる・くれる・もらう",
+        icon: "hands.and.sparkles.fill", tintIndex: 3,
+        keywords: ["giving", "receiving", "あげる", "くれる", "もらう", "いただく",
+                   "くださる", "さしあげる", "favour", "favor", "ageru", "kureru", "morau"],
+        sections: [
+            CheatSection(
+                title: "Which verb",
+                note: "English uses \"give\" in both directions. Japanese does not. The verb "
+                    + "changes depending on which way the thing moves relative to you — and "
+                    + "くれる is the one with no English equivalent, so it is the one to learn "
+                    + "first.",
+                headers: ["Verb", "Direction", "Example"],
+                rows: [
+                    CheatRow("あげる", "you → someone else\n(never toward you)",
+                             "私は友達に本をあげた\nI gave my friend a book"),
+                    CheatRow("くれる", "someone → you\n(or your family)",
+                             "友達が私に本をくれた\nMy friend gave me a book"),
+                    CheatRow("もらう", "you receive\nfrom someone",
+                             "私は友達に本をもらった\nI got a book from my friend"),
+                ]),
+
+            CheatSection(
+                title: "Particles",
+                note: "Get these wrong and the sentence reverses. Note that もらう marks the "
+                    + "giver with に or から, while あげる marks the receiver with に.",
+                headers: ["Verb", "Pattern"],
+                rows: [
+                    CheatRow("あげる", "giver は — receiver に — thing を"),
+                    CheatRow("くれる", "giver が — me に — thing を"),
+                    CheatRow("もらう", "receiver は — giver に / から — thing を"),
+                ]),
+
+            CheatSection(
+                title: "Politeness",
+                note: "Same three directions, adjusted for who is above or below whom. "
+                    + "やる is for plants, animals and small children; used of an adult it "
+                    + "sounds rough.",
+                headers: ["Direction", "Humble / plain / honorific"],
+                rows: [
+                    CheatRow("giving outward", "さしあげる  ›  あげる  ›  やる"),
+                    CheatRow("giving to me", "くださる  ›  くれる"),
+                    CheatRow("receiving", "いただく  ›  もらう"),
+                ]),
+
+            CheatSection(
+                title: "Doing something for someone",
+                note: "Attach the same three verbs to a て-form and they stop moving objects "
+                    + "and start moving favours. 〜てあげる can sound like you want credit for "
+                    + "it, so 〜ましょうか is often the kinder offer.",
+                columns: 1, items: [
+                CheatItem("〜てあげる", "do something for someone else — 手伝ってあげる, I'll help you"),
+                CheatItem("〜てくれる", "someone does something for me — 手伝ってくれた, they helped me"),
+                CheatItem("〜てもらう", "have someone do something — 手伝ってもらった, I got them to help"),
+                CheatItem("〜ていただく", "the humble form — 手伝っていただけますか, could you help me?"),
+            ]),
+        ])
+
+    // MARK: Conditionals
+
+    static let conditionals = CheatSheet(
+        id: "conditionals", title: "If & When", subtitle: "と・ば・たら・なら",
+        icon: "arrow.triangle.branch", tintIndex: 7,
+        keywords: ["conditional", "if", "when", "と", "ば", "たら", "なら",
+                   "tara", "nara", "eba", "condition"],
+        sections: [
+            CheatSection(
+                title: "The four, at a glance",
+                note: "たら is the flexible one. If you are unsure which to use, たら is almost "
+                    + "always grammatical — the others are narrower, and each has a restriction "
+                    + "worth knowing.",
+                headers: ["", "Use it for", "Example"],
+                rows: [
+                    CheatRow("と", "an automatic result —\nA always causes B",
+                             "春になると桜が咲く\nWhen spring comes, the cherries bloom"),
+                    CheatRow("ば", "a general condition,\nproverbs, hypotheticals",
+                             "安ければ買います\nIf it's cheap, I'll buy it"),
+                    CheatRow("たら", "if or when — the\nall-purpose one",
+                             "雨が降ったら行きません\nIf it rains, I won't go"),
+                    CheatRow("なら", "if it's true that…\npicking up what was said",
+                             "日本に行くなら京都へ\nIf you're going to Japan, go to Kyoto"),
+                ]),
+
+            CheatSection(
+                title: "How they're formed",
+                headers: ["", "Verb", "い-adjective", "Noun / な-adj"],
+                rows: [
+                    CheatRow("と", "行く + と", "安い + と", "静かだ + と"),
+                    CheatRow("ば", "行けば", "安ければ", "静かなら(ば)"),
+                    CheatRow("たら", "行ったら", "安かったら", "静かだったら"),
+                    CheatRow("なら", "行くなら", "安いなら", "静かなら"),
+                ]),
+
+            CheatSection(
+                title: "The catches",
+                columns: 1, items: [
+                CheatItem("と takes no will", "The second half can't be a request, an order or an intention. ✗ 春になると花見をしましょう"),
+                CheatItem("たら is sequential", "A happens, then B. It's the only one that comfortably reports a one-off past event: 家に帰ったら誰もいなかった."),
+                CheatItem("なら can run backwards", "The なら clause needn't come first in time — 日本に行くなら、カメラを買ったほうがいい means buy it before you go."),
+                CheatItem("ば likes generalities", "Proverbs live here: 塵も積もれば山となる — even dust piled up becomes a mountain."),
+            ]),
+        ])
+
+    // MARK: Seems & looks like
+
+    static let seeming = CheatSheet(
+        id: "seeming", title: "Seems & Looks Like", subtitle: "そう・よう・みたい・らしい",
+        icon: "eye.fill", tintIndex: 4,
+        keywords: ["そう", "よう", "みたい", "らしい", "seems", "looks like", "apparently",
+                   "hearsay", "sou", "you", "mitai", "rashii"],
+        sections: [
+            CheatSection(
+                title: "The two そう — this is the trap",
+                note: "Same syllable, opposite meanings, told apart only by what it attaches "
+                    + "to. On a verb stem it means you can see it coming. On a plain form it "
+                    + "means somebody told you.",
+                headers: ["", "Attaches to", "Means"],
+                rows: [
+                    CheatRow("降りそう", "ます-stem\n降ります → 降り", "It looks like it'll rain\n— from the sky"),
+                    CheatRow("降るそう", "plain form\n降る", "I hear it's going to rain\n— from someone"),
+                ]),
+
+            CheatSection(
+                title: "All four, side by side",
+                note: "Ordered from what you can see to what you were told. みたい is just the "
+                    + "casual よう — same job, softer register.",
+                headers: ["", "Based on", "Example"],
+                rows: [
+                    CheatRow("〜そう\n(stem)", "what's in front of you\nright now",
+                             "おいしそう！\nThat looks delicious"),
+                    CheatRow("〜ようだ", "your own reasoning\nfrom evidence",
+                             "誰かいたようだ\nSomeone seems to have been here"),
+                    CheatRow("〜みたい", "the same, spoken\ncasually",
+                             "雨が降るみたい\nLooks like rain"),
+                    CheatRow("〜らしい", "what you heard\nfrom elsewhere",
+                             "彼は来ないらしい\nApparently he isn't coming"),
+                ]),
+
+            CheatSection(
+                title: "How they attach",
+                headers: ["", "Verb", "い-adj", "な-adj / noun"],
+                rows: [
+                    CheatRow("〜そう (looks)", "降りそう", "おいしそう", "元気そう / —"),
+                    CheatRow("〜そう (heard)", "降るそうだ", "おいしいそうだ", "元気だそうだ"),
+                    CheatRow("〜ようだ", "降るようだ", "おいしいようだ", "元気なようだ / 雨のようだ"),
+                    CheatRow("〜みたい", "降るみたい", "おいしいみたい", "元気みたい / 雨みたい"),
+                    CheatRow("〜らしい", "降るらしい", "おいしいらしい", "元気らしい / 雨らしい"),
+                ]),
+
+            CheatSection(
+                title: "Catches", columns: 1, items: [
+                CheatItem("いい → よさそう", "Not いさそう. ない behaves the same way: なさそう."),
+                CheatItem("〜そう can't report the past", "For \"it looked like it had rained\", use ようだ, not そう."),
+                CheatItem("らしい has a second job", "After a noun it means \"typical of\" — 男らしい, manly; 春らしい, properly spring-like."),
+                CheatItem("ようだ also makes similes", "雪のように白い — white like snow."),
+            ]),
+        ])
+
+    // MARK: Onomatopoeia
+
+    static let onomatopoeia = CheatSheet(
+        id: "onomatopoeia", title: "Sound & Feeling Words", subtitle: "擬音語・擬態語",
+        icon: "waveform", tintIndex: 9,
+        keywords: ["onomatopoeia", "擬音語", "擬態語", "giongo", "gitaigo", "sound words",
+                   "ドキドキ", "ぺこぺこ", "キラキラ", "mimetic"],
+        sections: [
+            CheatSection(
+                note: "Japanese uses these far more than English does, and in places English "
+                    + "never would — describing textures, moods and the way someone sleeps. "
+                    + "They usually come in pairs of repeated syllables. Actual sounds are "
+                    + "normally written in katakana; states and feelings in hiragana.",
+                columns: 1, items: []),
+
+            CheatSection(title: "Sounds you can hear 擬音語", columns: 2, items: [
+                CheatItem("ワンワン", "a dog barking", symbol: "pawprint.fill"),
+                CheatItem("ニャーニャー", "a cat", symbol: "pawprint.fill"),
+                CheatItem("ザーザー", "rain pouring down", symbol: "cloud.heavyrain.fill"),
+                CheatItem("ポツポツ", "the first few drops", symbol: "cloud.drizzle.fill"),
+                CheatItem("ゴロゴロ", "thunder rumbling", symbol: "cloud.bolt.fill"),
+                CheatItem("ガタガタ", "something rattling", symbol: "wind"),
+                CheatItem("パチパチ", "clapping, or crackling", symbol: "hands.clap.fill"),
+                CheatItem("ペラペラ", "fluent in a language", symbol: "text.bubble.fill"),
+            ]),
+
+            CheatSection(title: "States and feelings 擬態語", columns: 2, items: [
+                CheatItem("ドキドキ", "heart pounding — nerves or excitement", symbol: "heart.fill"),
+                CheatItem("ワクワク", "excited, looking forward to it", symbol: "sparkles"),
+                CheatItem("イライラ", "irritated, on edge", symbol: "bolt.fill"),
+                CheatItem("ぺこぺこ", "starving — お腹がぺこぺこ", symbol: "fork.knife"),
+                CheatItem("くたくた", "worn out, exhausted", symbol: "zzz"),
+                CheatItem("キラキラ", "sparkling, glittering", symbol: "sparkle"),
+                CheatItem("ぴかぴか", "shiny, spotless", symbol: "sun.max.fill"),
+                CheatItem("ふわふわ", "soft and fluffy", symbol: "cloud.fill"),
+                CheatItem("びしょびしょ", "soaked through", symbol: "drop.fill"),
+                CheatItem("つるつる", "smooth or slippery", symbol: "circle.fill"),
+            ]),
+
+            CheatSection(
+                title: "The 〜り adverbs",
+                note: "These behave like ordinary adverbs and turn up constantly in speech. "
+                    + "Worth learning as vocabulary rather than as sound words.",
+                columns: 2, items: [
+                CheatItem("ゆっくり", "slowly, unhurriedly"),
+                CheatItem("はっきり", "clearly, plainly"),
+                CheatItem("しっかり", "firmly, properly"),
+                CheatItem("ぐっすり", "sleeping soundly — ぐっすり寝た"),
+                CheatItem("さっぱり", "refreshed — or \"not at all\" with a negative"),
+                CheatItem("のんびり", "at a relaxed, easy pace"),
+                CheatItem("そろそろ", "about time to — そろそろ行こう"),
+                CheatItem("だんだん", "gradually, little by little"),
+            ]),
+        ])
+
+    // MARK: Passive, causative, potential
+
+    static let voices = CheatSheet(
+        id: "voices", title: "Passive · Causative · Potential", subtitle: "られる・させる・できる",
+        icon: "arrow.left.arrow.right", tintIndex: 6,
+        keywords: ["passive", "causative", "potential", "受身", "使役", "可能",
+                   "られる", "させる", "できる", "rareru", "saseru", "dekiru", "ra-nuki"],
+        sections: [
+            CheatSection(
+                title: "What each one does",
+                headers: ["", "Means", "Example"],
+                rows: [
+                    CheatRow("Passive\n受身", "it was done\nto someone", "先生に褒められた\nI was praised by the teacher"),
+                    CheatRow("Causative\n使役", "made or let\nsomeone do it", "子供に野菜を食べさせた\nI made the child eat vegetables"),
+                    CheatRow("Potential\n可能", "can do it", "日本語が話せる\nI can speak Japanese"),
+                    CheatRow("Causative-\npassive", "was made\nto do it", "野菜を食べさせられた\nI was made to eat vegetables"),
+                ]),
+
+            CheatSection(
+                title: "Building them — the two regular groups",
+                note: "Group 1 works off the あ-row stem; Group 2 just drops る. Note the "
+                    + "collision in the last column and the row above it.",
+                headers: ["", "Group 1 · 書く", "Group 2 · 食べる"],
+                rows: [
+                    CheatRow("Passive", "書かれる", "食べられる"),
+                    CheatRow("Causative", "書かせる", "食べさせる"),
+                    CheatRow("Potential", "書ける", "食べられる"),
+                    CheatRow("Caus-passive", "書かされる", "食べさせられる"),
+                ]),
+
+            CheatSection(
+                title: "The two irregulars",
+                headers: ["", "する", "来る  くる"],
+                rows: [
+                    CheatRow("Passive", "される", "来られる  こられる"),
+                    CheatRow("Causative", "させる", "来させる  こさせる"),
+                    CheatRow("Potential", "できる", "来られる  こられる"),
+                    CheatRow("Caus-passive", "させられる", "来させられる  こさせられる"),
+                ]),
+
+            CheatSection(
+                title: "Particles change too",
+                note: "The potential is the one that catches people: the object stops taking "
+                    + "を and takes が instead.",
+                headers: ["", "Pattern"],
+                rows: [
+                    CheatRow("Passive", "victim は — doer に — verb られる"),
+                    CheatRow("Causative", "boss は — person に / を — thing を — verb させる"),
+                    CheatRow("Potential", "person は — thing が — verb られる／ける"),
+                ]),
+
+            CheatSection(
+                title: "Catches", columns: 1, items: [
+                CheatItem("食べられる is two things", "For Group 2 verbs the passive and the potential are identical. Only context tells them apart."),
+                CheatItem("ら抜き言葉", "In speech many people say 食べれる for the potential, which removes the ambiguity. Extremely common, still avoided in writing."),
+                CheatItem("する has no られる potential", "It becomes できる, a separate verb."),
+                CheatItem("The suffering passive", "Japanese can make the passive out of an intransitive verb to say something inconvenienced you: 雨に降られた — I got rained on, and it ruined things."),
+                CheatItem("Causative に vs を", "を for making someone do an intransitive action (子供を行かせる); に when there is already a を object (子供に野菜を食べさせる)."),
+            ]),
+        ])
+
+    // MARK: て-form helpers
+
+    static let teHelpers = CheatSheet(
+        id: "tehelpers", title: "て-form Helpers", subtitle: "ている・ておく・てしまう・てみる",
+        icon: "square.stack.3d.up.fill", tintIndex: 1,
+        keywords: ["ている", "てある", "ておく", "てしまう", "てみる", "ていく", "てくる",
+                   "teiru", "teoku", "teshimau", "temiru", "helper", "auxiliary"],
+        sections: [
+            CheatSection(
+                title: "Attach a verb to a て-form and it changes the meaning",
+                note: "All of these take the plain て-form and add a second verb behind it. "
+                    + "They are extremely common in speech — far more so than textbooks "
+                    + "usually suggest.",
+                headers: ["", "Means", "Example"],
+                rows: [
+                    CheatRow("〜ている", "happening now, or\na state that continues", "食べている\nis eating / 住んでいる lives"),
+                    CheatRow("〜てある", "someone did it,\nand it stays done", "窓が開けてある\nthe window has been opened"),
+                    CheatRow("〜ておく", "do it in advance,\nor leave it that way", "買っておく\nbuy it ahead of time"),
+                    CheatRow("〜てしまう", "finish it off —\nor regret it", "食べてしまった\nate it all / ate it by mistake"),
+                    CheatRow("〜てみる", "try it and see", "食べてみる\ntry eating it"),
+                    CheatRow("〜ていく", "carry on from\nhere onward", "増えていく\nwill keep increasing"),
+                    CheatRow("〜てくる", "up to now, or\ngo and come back", "増えてきた\nhas been increasing"),
+                ]),
+
+            CheatSection(
+                title: "Contractions you will actually hear",
+                note: "Nobody says these in full in casual speech. Recognising the short "
+                    + "forms matters more than producing them.",
+                headers: ["Full", "Casual", "Example"],
+                rows: [
+                    CheatRow("〜ておく", "〜とく", "買っとく"),
+                    CheatRow("〜でおく", "〜どく", "読んどく"),
+                    CheatRow("〜てしまう", "〜ちゃう", "食べちゃった"),
+                    CheatRow("〜でしまう", "〜じゃう", "飲んじゃった"),
+                    CheatRow("〜ている", "〜てる", "食べてる"),
+                ]),
+
+            CheatSection(
+                title: "The two that get mixed up", columns: 1, items: [
+                CheatItem("ている vs てある", "窓が開いている — the window is open, no comment on why. 窓が開けてある — someone opened it on purpose and left it. てある always implies an agent."),
+                CheatItem("ていく vs てくる", "Think of a timeline. くる brings you up to now (寒くなってきた — it's been getting colder). いく carries on into the future (寒くなっていく — it'll keep getting colder)."),
+                CheatItem("てしまう is not always regret", "宿題をしてしまった can mean \"I finished the homework\" as easily as \"I did it, unfortunately\". Tone and context decide."),
+            ]),
+        ])
+
+    // MARK: Must, may, mustn't
+
+    static let obligation = CheatSheet(
+        id: "obligation", title: "Must, May, Mustn't", subtitle: "Permission & obligation",
+        icon: "checkmark.shield.fill", tintIndex: 2,
+        keywords: ["must", "have to", "may", "permission", "obligation", "forbidden",
+                   "なければならない", "てもいい", "てはいけない", "なくてもいい",
+                   "ほうがいい", "なきゃ", "なくちゃ"],
+        sections: [
+            CheatSection(
+                title: "The whole set",
+                note: "English has four separate words — may, needn't, mustn't, must. Japanese "
+                    + "builds all four out of the て-form and the ない-form, which is why they "
+                    + "look so alike.",
+                headers: ["Means", "Pattern", "Example"],
+                rows: [
+                    CheatRow("you may", "〜てもいい", "食べてもいいです\nYou may eat"),
+                    CheatRow("you needn't", "〜なくてもいい", "食べなくてもいいです\nYou don't have to eat"),
+                    CheatRow("you mustn't", "〜てはいけない", "食べてはいけません\nYou mustn't eat"),
+                    CheatRow("you must", "〜なければならない", "食べなければなりません\nYou must eat"),
+                    CheatRow("you should", "〜たほうがいい", "食べたほうがいい\nYou'd better eat"),
+                    CheatRow("you shouldn't", "〜ないほうがいい", "食べないほうがいい\nYou'd better not eat"),
+                ]),
+
+            CheatSection(
+                title: "Why \"must\" is a double negative",
+                note: "There is no single word for must. 食べなければならない is literally "
+                    + "\"if I don't eat, it won't do\" — a negative condition plus a negative "
+                    + "result. Once you see that, the whole family stops looking arbitrary.",
+                headers: ["Piece", "Literally"],
+                rows: [
+                    CheatRow("食べ・なければ", "if (I) don't eat"),
+                    CheatRow("なら・ない", "it won't become / it won't do"),
+                    CheatRow("together", "I have to eat"),
+                ]),
+
+            CheatSection(
+                title: "All the variants mean the same thing",
+                note: "Any negative condition plus any negative result works. Textbooks pick "
+                    + "one; real speech uses all of them.",
+                columns: 2, items: [
+                CheatItem("〜なければならない", "the formal, written one"),
+                CheatItem("〜なければいけない", "everyday spoken"),
+                CheatItem("〜なくてはならない", "same again"),
+                CheatItem("〜なくてはいけない", "same again"),
+            ]),
+
+            CheatSection(
+                title: "Casual forms you'll hear",
+                note: "The second half is usually dropped entirely. 行かなきゃ on its own is a "
+                    + "complete, natural sentence — \"I've got to go\".",
+                headers: ["Full", "Casual", "In speech"],
+                rows: [
+                    CheatRow("〜なければ", "〜なきゃ", "行かなきゃ"),
+                    CheatRow("〜なくては", "〜なくちゃ", "行かなくちゃ"),
+                    CheatRow("〜てはいけない", "〜ちゃだめ", "食べちゃだめ"),
+                    CheatRow("〜ではいけない", "〜じゃだめ", "飲んじゃだめ"),
+                ]),
+        ])
+
+    // MARK: Comparisons
+
+    static let comparisons = CheatSheet(
+        id: "comparisons", title: "Comparing Things", subtitle: "より・ほう・一番",
+        icon: "arrow.up.arrow.down", tintIndex: 8,
+        keywords: ["comparison", "より", "ほう", "一番", "same", "same as", "どちら",
+                   "ichiban", "yori", "hou", "than", "most", "best"],
+        sections: [
+            CheatSection(
+                title: "The patterns",
+                note: "Japanese has no -er or -est. The adjective never changes; the sentence "
+                    + "does the comparing.",
+                headers: ["Meaning", "Pattern", "Example"],
+                rows: [
+                    CheatRow("A is more ~\nthan B", "A は B より ~", "日本は韓国より大きい\nJapan is bigger than Korea"),
+                    CheatRow("B is the\nmore ~ one", "A より B の ほうが ~", "紅茶よりコーヒーのほうが好き\nI prefer coffee to tea"),
+                    CheatRow("the most ~", "〜の中で 一番 ~", "クラスで一番背が高い\nthe tallest in the class"),
+                    CheatRow("as ~ as", "A は B と 同じくらい ~", "兄と同じくらい高い\nas tall as my brother"),
+                    CheatRow("not as ~ as", "A は B ほど ~ない", "日本はロシアほど大きくない\nJapan isn't as big as Russia"),
+                ]),
+
+            CheatSection(
+                title: "Asking, and answering",
+                note: "どちら for a choice between two; 一番 with a group. Note that the answer "
+                    + "to a どちら question almost always comes back with ほう.",
+                headers: ["Question", "Answer"],
+                rows: [
+                    CheatRow("犬と猫とどちらが好きですか\nDogs or cats?", "猫のほうが好きです\nI prefer cats"),
+                    CheatRow("果物の中で何が一番好きですか\nFavourite fruit?", "りんごが一番好きです\nApples, most of all"),
+                ]),
+
+            CheatSection(
+                title: "Catches", columns: 1, items: [
+                CheatItem("ほど needs a negative", "〜ほど〜ない only works in the negative. For the positive, use より."),
+                CheatItem("The group takes で or の中で", "クラスで一番 — in the class. 果物の中で — among fruits. Both are common; の中で is clearer with a plain noun."),
+                CheatItem("どちら, not どれ, for two", "どれ is for three or more. Spoken casually, どちら becomes どっち."),
+            ]),
+        ])
+
+    // MARK: Eating out
+
+    static let restaurant = CheatSheet(
+        id: "restaurant", title: "Eating Out", subtitle: "Ordering, paying, and what to expect",
+        icon: "fork.knife", tintIndex: 10,
+        keywords: ["restaurant", "food", "order", "menu", "bill", "cheque", "check",
+                   "いらっしゃいませ", "お会計", "定食", "お通し", "izakaya"],
+        sections: [
+            CheatSection(title: "What the staff will say first", columns: 1, items: [
+                CheatItem("いらっしゃいませ", "Welcome — said to everyone who walks in. No reply is expected.", symbol: "hand.wave.fill"),
+                CheatItem("何名様ですか\nなんめいさまですか", "How many in your party?", symbol: "person.2.fill"),
+                CheatItem("こちらへどうぞ", "This way, please.", symbol: "arrow.forward"),
+                CheatItem("ご注文はお決まりですか\nごちゅうもんはおきまりですか", "Are you ready to order?", symbol: "list.bullet.clipboard.fill"),
+            ]),
+
+            CheatSection(title: "What you say", columns: 2, items: [
+                CheatItem("二人です\nふたりです", "Two of us"),
+                CheatItem("すみません", "how you call a waiter over"),
+                CheatItem("メニューをください", "The menu, please"),
+                CheatItem("これをください", "This one, please — pointing works"),
+                CheatItem("おすすめは何ですか", "What do you recommend?"),
+                CheatItem("〜はありますか", "Do you have ~?"),
+                CheatItem("お水をください\nおみずをください", "Water, please"),
+                CheatItem("お会計をお願いします\nおかいけい", "The bill, please"),
+                CheatItem("別々でお願いします\nべつべつ", "Separate bills, please"),
+                CheatItem("カードは使えますか\nつかえますか", "Can I pay by card?"),
+            ]),
+
+            CheatSection(title: "On the menu", columns: 2, items: [
+                CheatItem("定食\nていしょく", "a set meal — main, rice, soup, pickles"),
+                CheatItem("大盛り\nおおもり", "large portion, usually free or cheap"),
+                CheatItem("替え玉\nかえだま", "a second helping of noodles, ramen only"),
+                CheatItem("食べ放題\nたべほうだい", "all you can eat"),
+                CheatItem("飲み放題\nのみほうだい", "all you can drink"),
+                CheatItem("おかわり", "a refill, or seconds"),
+                CheatItem("お持ち帰り\nおもちかえり", "takeaway"),
+                CheatItem("辛い\nからい", "spicy — worth knowing before you order"),
+            ]),
+
+            CheatSection(
+                title: "Things that surprise people",
+                columns: 1, items: [
+                CheatItem("お通し  おとおし", "At an izakaya a small dish arrives that you didn't order, and it appears on the bill. It isn't a scam — it's effectively a seat charge, and refusing it is awkward.", symbol: "exclamationmark.circle.fill"),
+                CheatItem("No tipping", "There is no tipping in Japan, in any restaurant. Leaving money on the table will get it chased down the street after you.", symbol: "yensign.circle.fill"),
+                CheatItem("Pay at the register", "In most places you take the slip from your table to the till by the door rather than paying where you sat.", symbol: "creditcard.fill"),
+                CheatItem("いただきます / ごちそうさまでした", "Said before and after eating. Not religious, and not optional in company — closer to \"right then\" and \"that was lovely\".", symbol: "hands.sparkles.fill"),
             ]),
         ])
 

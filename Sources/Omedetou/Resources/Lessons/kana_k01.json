@@ -4,6 +4,42 @@
   "title": "Katakana Vowels — ア イ ウ エ オ",
   "points": [
     {
+      "id": "k01_intro",
+      "name": "Why katakana exists",
+      "shortDescription": "The same sounds as hiragana, doing a completely different job.",
+      "formation": "外来語[がいらいご] ・ 擬音語[ぎおんご] ・ 強調[きょうちょう]",
+      "explanation": "Katakana is the same set of sounds you have already learned, wearing a different coat. There is no new pronunciation here — ア is あ, カ is か, and so on the whole way through. What changes is the job.\n\nWhere hiragana came from cursive, flowing kanji, katakana came from fragments: Buddhist monks annotating Chinese texts would jot down a piece of a character — a corner, a couple of strokes — as a reminder of how to pronounce something. Those shorthand marks hardened into a second syllabary. That history is still visible. Hiragana curves; katakana is straight, sharp and clipped, because it started life as scaffolding scribbled in a margin.\n\nFor centuries katakana was the formal script — used in official documents, legal texts and telegrams, with hiragana treated as the everyday one. After the Second World War the roles swapped, and hiragana became the default. Katakana kept a narrower and more interesting job: marking a word as not quite native.\n\nToday you will see it for words borrowed from other languages, for foreign names and places, for sound effects and animal noises, and for emphasis — roughly where English would reach for italics. It also turns up in the scientific names of plants and animals, which is why a biology textbook writes ネコ where a novel writes 猫.\n\nA warning worth having early: most learners find katakana harder than hiragana, and are surprised by it. There are three reasons. Borrowed words are reshaped to fit Japanese sounds, sometimes past the point of recognition — you will meet words that are unmistakably English once you know them and unguessable until you do. Several characters look alike, particularly シ and ツ, and ソ and ン. And because most text is hiragana and kanji, you simply see katakana less, so it fades faster.\n\nNone of that is a reason to worry. It is a reason to expect katakana to need more repetition than hiragana did, and to not conclude anything is wrong with you when it does.",
+      "rules": [
+        "Loanwords — anything borrowed from another language: コーヒー (coffee), テレビ (television), パン (bread, from Portuguese).",
+        "Foreign names and places — アメリカ (America), トム (Tom). Japanese names stay in kanji.",
+        "Sound effects and animal noises — ワンワン (a dog barking), ドキドキ (a pounding heart).",
+        "Emphasis — where English would use italics or capitals.",
+        "Scientific names of plants and animals — ネコ for the species, 猫 in ordinary writing.",
+        "Watch シ against ツ, and ソ against ン. The short strokes sit lower and flatter on シ and ン, higher and more upright on ツ and ソ.",
+        "Katakana also uses a long-vowel mark, ー, instead of repeating a vowel. You will meet it properly later in these lessons."
+      ],
+      "examples": [
+        {
+          "japanese": "コーヒー",
+          "romaji": "kōhī",
+          "english": "Coffee — a loanword, with ー holding the long vowels."
+        },
+        {
+          "japanese": "アメリカに住[す]んでいます。",
+          "romaji": "Amerika ni sunde imasu",
+          "english": "I live in America. — the place name in katakana, everything else in kanji and hiragana."
+        },
+        {
+          "japanese": "犬[いぬ]がワンワンと鳴[な]いています。",
+          "romaji": "inu ga wanwan to naite imasu",
+          "english": "The dog is barking. — the sound itself is written in katakana."
+        }
+      ],
+      "flashcardHeader": "When is katakana used instead of hiragana?",
+      "flashcardAnswer": "For words marked as foreign or set apart — loanwords, foreign names, sound effects and emphasis. The sounds are identical to hiragana.",
+      "practice": null
+    },
+    {
       "id": "k01_a",
       "pointType": "kana",
       "name": "ア",
@@ -16,10 +52,26 @@
         "Katakana is used for foreign loanwords, foreign names, onomatopoeia, and emphasis."
       ],
       "examples": [
-        {"japanese": "アメリカ", "romaji": "Amerika", "english": "America"},
-        {"japanese": "アイスクリーム", "romaji": "aisu kuriimu", "english": "ice cream"},
-        {"japanese": "アニメ", "romaji": "anime", "english": "anime (animated film/series)"},
-        {"japanese": "アジア", "romaji": "Ajia", "english": "Asia"}
+        {
+          "japanese": "アメリカ",
+          "romaji": "Amerika",
+          "english": "America"
+        },
+        {
+          "japanese": "アイスクリーム",
+          "romaji": "aisu kuriimu",
+          "english": "ice cream"
+        },
+        {
+          "japanese": "アニメ",
+          "romaji": "anime",
+          "english": "anime (animated film/series)"
+        },
+        {
+          "japanese": "アジア",
+          "romaji": "Ajia",
+          "english": "Asia"
+        }
       ],
       "flashcardHeader": "ア",
       "flashcardAnswer": "a — same sound as あ, like 'a' in 'father'",
@@ -38,10 +90,26 @@
         "A memory trick: イ looks like a Roman 'I' with an accent — both make the 'ee' sound!"
       ],
       "examples": [
-        {"japanese": "イギリス", "romaji": "Igirisu", "english": "England / United Kingdom"},
-        {"japanese": "イタリア", "romaji": "Itaria", "english": "Italy"},
-        {"japanese": "インターネット", "romaji": "intaanetto", "english": "internet"},
-        {"japanese": "アイスクリーム", "romaji": "aisu kuriimu", "english": "ice cream (notice ア+イ)"}
+        {
+          "japanese": "イギリス",
+          "romaji": "Igirisu",
+          "english": "England / United Kingdom"
+        },
+        {
+          "japanese": "イタリア",
+          "romaji": "Itaria",
+          "english": "Italy"
+        },
+        {
+          "japanese": "インターネット",
+          "romaji": "intaanetto",
+          "english": "internet"
+        },
+        {
+          "japanese": "アイスクリーム",
+          "romaji": "aisu kuriimu",
+          "english": "ice cream (notice ア+イ)"
+        }
       ],
       "flashcardHeader": "イ",
       "flashcardAnswer": "i — same sound as い, like 'ee' in 'feet'",
@@ -60,10 +128,26 @@
         "ウ is often the start of borrowed words from 'W' words in English: ウイスキー (whiskey), ウール (wool)."
       ],
       "examples": [
-        {"japanese": "ウイスキー", "romaji": "uisukii", "english": "whiskey"},
-        {"japanese": "ウール", "romaji": "uuru", "english": "wool"},
-        {"japanese": "ウエア", "romaji": "uea", "english": "wear / clothing"},
-        {"japanese": "ウイルス", "romaji": "uirusu", "english": "virus (from German 'Virus')"}
+        {
+          "japanese": "ウイスキー",
+          "romaji": "uisukii",
+          "english": "whiskey"
+        },
+        {
+          "japanese": "ウール",
+          "romaji": "uuru",
+          "english": "wool"
+        },
+        {
+          "japanese": "ウエア",
+          "romaji": "uea",
+          "english": "wear / clothing"
+        },
+        {
+          "japanese": "ウイルス",
+          "romaji": "uirusu",
+          "english": "virus (from German 'Virus')"
+        }
       ],
       "flashcardHeader": "ウ",
       "flashcardAnswer": "u — same sound as う, unrounded 'u' (not 'oo')",
@@ -82,10 +166,26 @@
         "Many technology and modern life words use エ: エアコン (AC), エネルギー (energy), エンジン (engine)."
       ],
       "examples": [
-        {"japanese": "エアコン", "romaji": "eakon", "english": "air conditioner"},
-        {"japanese": "エレベーター", "romaji": "erebeetaa", "english": "elevator"},
-        {"japanese": "エネルギー", "romaji": "enerugii", "english": "energy"},
-        {"japanese": "エスカレーター", "romaji": "esukareetaa", "english": "escalator"}
+        {
+          "japanese": "エアコン",
+          "romaji": "eakon",
+          "english": "air conditioner"
+        },
+        {
+          "japanese": "エレベーター",
+          "romaji": "erebeetaa",
+          "english": "elevator"
+        },
+        {
+          "japanese": "エネルギー",
+          "romaji": "enerugii",
+          "english": "energy"
+        },
+        {
+          "japanese": "エスカレーター",
+          "romaji": "esukareetaa",
+          "english": "escalator"
+        }
       ],
       "flashcardHeader": "エ",
       "flashcardAnswer": "e — same sound as え, like 'e' in 'bed'",
@@ -104,10 +204,26 @@
         "The elongation mark ー after a vowel katakana extends it by one beat: オー = 'oo' (two beats)."
       ],
       "examples": [
-        {"japanese": "オレンジ", "romaji": "orenji", "english": "orange"},
-        {"japanese": "オフィス", "romaji": "ofisu", "english": "office"},
-        {"japanese": "オーストラリア", "romaji": "Oosutoraria", "english": "Australia"},
-        {"japanese": "オーケストラ", "romaji": "ookesutora", "english": "orchestra"}
+        {
+          "japanese": "オレンジ",
+          "romaji": "orenji",
+          "english": "orange"
+        },
+        {
+          "japanese": "オフィス",
+          "romaji": "ofisu",
+          "english": "office"
+        },
+        {
+          "japanese": "オーストラリア",
+          "romaji": "Oosutoraria",
+          "english": "Australia"
+        },
+        {
+          "japanese": "オーケストラ",
+          "romaji": "ookesutora",
+          "english": "orchestra"
+        }
       ],
       "flashcardHeader": "オ",
       "flashcardAnswer": "o — same sound as お, like 'o' in 'open'",
@@ -120,7 +236,12 @@
       "type": "multiple_choice",
       "prompt": "What sound does this katakana make?",
       "japanese": "エ",
-      "choices": ["a", "i", "u", "e"],
+      "choices": [
+        "a",
+        "i",
+        "u",
+        "e"
+      ],
       "correctIndex": 3,
       "explanation": "エ makes the 'e' sound (like 'bed'). It looks just like a Roman capital 'I' or I-beam shape. エ = え in sound — same vowel, different writing system."
     },
@@ -129,7 +250,12 @@
       "type": "multiple_choice",
       "prompt": "Which hiragana makes the same sound as ウ?",
       "japanese": "ウ",
-      "choices": ["あ", "い", "う", "え"],
+      "choices": [
+        "あ",
+        "い",
+        "う",
+        "え"
+      ],
       "correctIndex": 2,
       "explanation": "ウ and う make the same sound — the Japanese unrounded 'u'. Katakana and hiragana always pair up: ア=あ, イ=い, ウ=う, エ=え, オ=お."
     },
@@ -138,7 +264,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "アニメ",
-      "choices": ["animal", "anime (animation)", "America", "area"],
+      "choices": [
+        "animal",
+        "anime (animation)",
+        "America",
+        "area"
+      ],
       "correctIndex": 1,
       "explanation": "アニメ (anime) means Japanese animation. ア (a) + ニ (ni) + メ (me) = anime. This loanword came from the English word 'animation' and is now used worldwide."
     },
@@ -147,7 +278,12 @@
       "type": "multiple_choice",
       "prompt": "What does this katakana word mean?",
       "japanese": "エアコン",
-      "choices": ["elevator", "escalator", "air conditioner", "engine"],
+      "choices": [
+        "elevator",
+        "escalator",
+        "air conditioner",
+        "engine"
+      ],
       "correctIndex": 2,
       "explanation": "エアコン (eakon) means 'air conditioner' — shortened from 'air conditioner' in English. エ (e) + ア (a) + コ (ko) + ン (n) = eakon. Japanese loanwords are often abbreviated like this."
     }

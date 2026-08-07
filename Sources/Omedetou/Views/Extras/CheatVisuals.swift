@@ -202,50 +202,122 @@ struct ClockFace: View {
     private let readings = ["いちじ", "にじ", "さんじ", "よじ", "ごじ", "ろくじ",
                             "しちじ", "はちじ", "くじ", "じゅうじ",
                             "じゅういちじ", "じゅうにじ"]
+    /// How the hour is actually written. The numeral tells you where you are on
+    /// the dial; this is what you'd meet on a timetable or a shop sign.
+    private let written = ["一時", "二時", "三時", "四時", "五時", "六時",
+                           "七時", "八時", "九時", "十時", "十一時", "十二時"]
+    /// 4, 7 and 9 don't take the reading you'd predict from the number.
     private let irregular: Set<Int> = [4, 7, 9]
 
+    /// The hands are parked at half past four, which is doing two jobs: 4時 is the
+    /// most-mistaken hour (よじ, never しじ), and 半 is how you say the half hour.
+    /// A dial with no hands is just numbers arranged in a circle.
+    private let showHour = 4
+    private let showMinute = 30
+
+    private func angle(_ turns: Double) -> Double { turns * 2 * .pi - .pi / 2 }
+
     var body: some View {
+        VStack(spacing: 10) {
+            dial
+            // What the hands actually say — the point of drawing them at all.
+            HStack(spacing: 6) {
+                Text("4時半").font(.system(size: 15, weight: .bold)).foregroundColor(.appText)
+                Text("よじはん").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+                Text("· half past four").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+            }
+            .padding(.horizontal, 12).padding(.vertical, 5)
+            .background(Capsule().fill(tint.opacity(0.14)))
+        }
+    }
+
+    private var dial: some View {
         GeometryReader { geo in
             let side = min(geo.size.width, geo.size.height)
-            let r = side / 2 - 30
+            let c = CGPoint(x: geo.size.width / 2, y: side / 2)
+            let ring = side / 2 - 6          // the face itself
+            let numberRing = ring - 34       // labels sit well inside the stroke
+            let minuteHand = ring - 62
+            let hourHand = ring - 82
+
             ZStack {
                 Circle()
-                    .strokeBorder(tint.opacity(0.35), lineWidth: 2)
-                    .frame(width: r * 2, height: r * 2)
+                    .fill(tint.opacity(0.06))
+                    .frame(width: ring * 2, height: ring * 2)
+                    .position(c)
+                Circle()
+                    .strokeBorder(tint.opacity(0.40), lineWidth: 2)
+                    .frame(width: ring * 2, height: ring * 2)
+                    .position(c)
 
-                ForEach(1...12, id: \.self) { h in
-                    // 12 at the top, clockwise.
-                    let angle = Double(h) / 12 * 2 * .pi - .pi / 2
-                    let isOdd = irregular.contains(h)
-                    VStack(spacing: 0) {
-                        Text("\(h)")
-                            .font(.system(size: 15, weight: .bold))
-                            .foregroundColor(isOdd ? Color.readableOnPage(tint) : .appText)
-                        Text(readings[h - 1])
-                            .font(.system(size: 8, weight: isOdd ? .bold : .regular))
-                            .foregroundColor(isOdd ? Color.readableOnPage(tint) : .appTextSecondary)
+                // Sixty ticks, with the twelve hour marks drawn longer and darker,
+                // so the eye can count minutes as well as hours.
+                ForEach(0..<60, id: \.self) { i in
+                    let isHour = i % 5 == 0
+                    let a = angle(Double(i) / 60)
+                    let outer = ring - 3
+                    let inner = ring - (isHour ? 12 : 6)
+                    Path { p in
+                        p.move(to: CGPoint(x: c.x + cos(a) * outer, y: c.y + sin(a) * outer))
+                        p.addLine(to: CGPoint(x: c.x + cos(a) * inner, y: c.y + sin(a) * inner))
                     }
-                    .padding(.horizontal, 3)
+                    .stroke(tint.opacity(isHour ? 0.55 : 0.22),
+                            lineWidth: isHour ? 2 : 1)
+                }
+
+                // Hands, stopping short of the numbers so nothing is obscured.
+                let hourAngle = angle((Double(showHour) + Double(showMinute) / 60) / 12)
+                let minuteAngle = angle(Double(showMinute) / 60)
+                Path { p in
+                    p.move(to: c)
+                    p.addLine(to: CGPoint(x: c.x + cos(hourAngle) * hourHand,
+                                          y: c.y + sin(hourAngle) * hourHand))
+                }
+                .stroke(Color.readableOnPage(tint), style: StrokeStyle(lineWidth: 4.5, lineCap: .round))
+                Path { p in
+                    p.move(to: c)
+                    p.addLine(to: CGPoint(x: c.x + cos(minuteAngle) * minuteHand,
+                                          y: c.y + sin(minuteAngle) * minuteHand))
+                }
+                .stroke(Color.readableOnPage(tint), style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                Circle()
+                    .fill(Color.appBackground)
+                    .overlay(Circle().strokeBorder(Color.readableOnPage(tint), lineWidth: 3))
+                    .frame(width: 11, height: 11)
+                    .position(c)
+
+                // Hours. 12 at the top, clockwise.
+                ForEach(1...12, id: \.self) { h in
+                    let a = angle(Double(h) / 12)
+                    let odd = irregular.contains(h)
+                    VStack(spacing: -1) {
+                        Text("\(h)")
+                            .font(.system(size: 13, weight: .bold))
+                            .foregroundColor(odd ? .white : .appText)
+                        Text(written[h - 1])
+                            .font(.system(size: 11, weight: .semibold))
+                            .foregroundColor(odd ? .white : .appText)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.7)
+                        Text(readings[h - 1])
+                            .font(.system(size: 7, weight: odd ? .bold : .regular))
+                            .foregroundColor(odd ? .white : .appTextSecondary)
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.55)
+                    }
+                    .frame(width: 52, height: 44)
                     .background(
-                        RoundedRectangle(cornerRadius: 5)
-                            .fill(isOdd ? tint.opacity(0.18) : Color.clear)
+                        Capsule().fill(odd ? Color.readableOnPage(tint) : .clear)
                     )
-                    .position(x: side / 2 + CGFloat(cos(angle)) * r,
-                              y: side / 2 + CGFloat(sin(angle)) * r)
+                    .position(x: c.x + cos(a) * numberRing,
+                              y: c.y + sin(a) * numberRing)
                 }
             }
-            .frame(width: side, height: side)
-            .frame(maxWidth: .infinity)
         }
-        .frame(height: 260)
+        .frame(height: 320)
     }
 }
 
-// MARK: - Compass
-
-/// A compass rose. The four cardinals sit large on the axes; the four ordinals sit
-/// small on the diagonals, so the basic set reads first and the compounds are
-/// visibly built from them.
 struct CompassRose: View {
     let tint: Color
 
@@ -265,6 +337,20 @@ struct CompassRose: View {
     ]
 
     var body: some View {
+        VStack(spacing: 10) {
+            dial
+            // What the hands actually say — the point of drawing them at all.
+            HStack(spacing: 6) {
+                Text("4時半").font(.system(size: 15, weight: .bold)).foregroundColor(.appText)
+                Text("よじはん").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+                Text("· half past four").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+            }
+            .padding(.horizontal, 12).padding(.vertical, 5)
+            .background(Capsule().fill(tint.opacity(0.14)))
+        }
+    }
+
+    private var dial: some View {
         GeometryReader { geo in
             let side = min(geo.size.width, geo.size.height)
             let c = CGPoint(x: geo.size.width / 2, y: side / 2)
@@ -493,5 +579,111 @@ struct FaceIcons: View {
                     .strokeBorder(tint.opacity(0.35), lineWidth: 1))
             }
         }
+    }
+}
+
+// MARK: - Family tree
+
+/// Five generations, drawn to make the one thing English speakers keep tripping
+/// over impossible to miss: Japanese splits siblings by age. There is no word for
+/// "brother" — only 兄 and 弟 — so the middle row puts older on the left, you in
+/// the centre, and younger on the right.
+///
+/// These are the plain forms, the ones you use about your own family. The polite
+/// forms for someone else's are the table underneath.
+struct FamilyTree: View {
+    let tint: Color
+
+    private struct Node: View {
+        let kanji: String
+        let kana: String
+        let english: String
+        let tint: Color
+        var emphasised: Bool = false
+
+        var body: some View {
+            VStack(spacing: 1) {
+                Text(kanji)
+                    .font(.system(size: 16, weight: emphasised ? .heavy : .semibold))
+                    .foregroundColor(.appText)
+                Text(kana)
+                    .font(.system(size: 9.5))
+                    .foregroundColor(.appTextSecondary)
+                Text(english)
+                    .font(.system(size: 8.5))
+                    .foregroundColor(.appTextSecondary.opacity(0.75))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.vertical, 6)
+            .padding(.horizontal, 2)
+            .background(
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .fill(tint.opacity(emphasised ? 0.26 : 0.12))
+            )
+        }
+    }
+
+    /// The vertical thread between generations.
+    private var link: some View {
+        Rectangle()
+            .fill(tint.opacity(0.35))
+            .frame(width: 2, height: 12)
+    }
+
+    /// A labelled pair — used for the sibling groups, where the grouping *is* the
+    /// lesson: two words on one side of you, two on the other.
+    private func group(_ label: String, _ nodes: [Node]) -> some View {
+        VStack(spacing: 3) {
+            HStack(spacing: 4) { ForEach(0..<nodes.count, id: \.self) { nodes[$0] } }
+            Text(label)
+                .font(.system(size: 8.5, weight: .semibold))
+                .foregroundColor(tint)
+                .textCase(.uppercase)
+        }
+    }
+
+    var body: some View {
+        VStack(spacing: 0) {
+            HStack(spacing: 6) {
+                Node(kanji: "祖父", kana: "そふ", english: "grandfather", tint: tint)
+                Node(kanji: "祖母", kana: "そぼ", english: "grandmother", tint: tint)
+            }
+            link
+
+            HStack(spacing: 5) {
+                Node(kanji: "おじ", kana: "伯父・叔父", english: "uncle", tint: tint)
+                Node(kanji: "父", kana: "ちち", english: "father", tint: tint)
+                Node(kanji: "母", kana: "はは", english: "mother", tint: tint)
+                Node(kanji: "おば", kana: "伯母・叔母", english: "aunt", tint: tint)
+            }
+            link
+
+            HStack(alignment: .top, spacing: 6) {
+                group("older", [Node(kanji: "兄", kana: "あに", english: "big brother", tint: tint),
+                                Node(kanji: "姉", kana: "あね", english: "big sister", tint: tint)])
+                VStack(spacing: 3) {
+                    Node(kanji: "私", kana: "わたし", english: "me", tint: tint, emphasised: true)
+                    Text(" ").font(.system(size: 8.5))
+                }
+                .frame(width: 62)
+                group("younger", [Node(kanji: "弟", kana: "おとうと", english: "lil brother", tint: tint),
+                                  Node(kanji: "妹", kana: "いもうと", english: "lil sister", tint: tint)])
+            }
+            link
+
+            HStack(spacing: 6) {
+                Node(kanji: "息子", kana: "むすこ", english: "son", tint: tint)
+                Node(kanji: "娘", kana: "むすめ", english: "daughter", tint: tint)
+                Node(kanji: "甥", kana: "おい", english: "nephew", tint: tint)
+                Node(kanji: "姪", kana: "めい", english: "niece", tint: tint)
+            }
+            link
+
+            Node(kanji: "孫", kana: "まご", english: "grandchild", tint: tint)
+                .frame(width: 96)
+        }
+        .padding(.vertical, 4)
     }
 }

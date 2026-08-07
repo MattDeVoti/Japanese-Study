@@ -34,6 +34,13 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou
         INFOPLIST_FILE: Sources/Omedetou/Info.plist
+        # iPhone only, and it has to be set HERE rather than in the project-wide
+        # settings above: XcodeGen writes "1,2" into every iOS target as a
+        # default, and a target-level value beats a project-level one. With the
+        # project-level setting alone the bundle shipped as iPhone+iPad, which
+        # made App Store validation demand all four orientations for iPad
+        # multitasking and rejected the upload.
+        TARGETED_DEVICE_FAMILY: "1"
         # --- Cross-device sync (ON) ---------------------------------------
         # Needs a PAID Apple Developer Program membership, which is now in
         # place. This file also carries the App Group the widget reads its
@@ -74,6 +81,8 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou.widgets
         INFOPLIST_FILE: Sources/OmedetouWidgets/Info.plist
+        # Must match the app — an extension wider than its host is rejected.
+        TARGETED_DEVICE_FAMILY: "1"
         CODE_SIGN_ENTITLEMENTS: Sources/OmedetouWidgets/OmedetouWidgets.entitlements
         GENERATE_INFOPLIST_FILE: "NO"
         SKIP_INSTALL: "YES"

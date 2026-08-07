@@ -27,6 +27,63 @@ struct DictionaryDetailView: View {
         GameUnlocks.shared.unlock(.shiritori)
     }
 
+    /// "See also" — words with the same sense, and words with the opposite one.
+    /// Absent entirely when there is nothing to show, which is most entries: the
+    /// synonym rule is deliberately strict, so an empty footer is the normal case
+    /// rather than a sign something failed.
+    @ViewBuilder
+    private var relatedSection: some View {
+        let synonyms = RelatedWords.synonyms(for: entry)
+        let antonyms = RelatedWords.antonyms(for: entry)
+
+        if !synonyms.isEmpty || !antonyms.isEmpty {
+            VStack(alignment: .leading, spacing: 14) {
+                if !synonyms.isEmpty { relatedGroup("Similar meaning", synonyms) }
+                if !antonyms.isEmpty { relatedGroup("Opposite", antonyms) }
+            }
+            .padding(.horizontal, 20)
+            .padding(.top, 4)
+            .padding(.bottom, 28)
+        }
+    }
+
+    private func relatedGroup(_ title: String, _ entries: [DictionaryEntry]) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(title.uppercased())
+                .font(.system(size: 11, weight: .bold))
+                .tracking(0.6)
+                .foregroundColor(.appTextSecondary)
+
+            // Wrapping rows rather than a scroller: these are meant to be seen at
+            // a glance, and a horizontal strip hides whatever doesn't fit.
+            FlowLayout(spacing: 8) {
+                ForEach(entries) { other in
+                    NavigationLink {
+                        DictionaryDetailView(entry: other)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 1) {
+                            Text(other.word)
+                                .font(.system(size: 15, weight: .semibold))
+                                .foregroundColor(.appText)
+                            if let r = other.reading, r != other.word {
+                                Text(r)
+                                    .font(.system(size: 10))
+                                    .foregroundColor(.appTextSecondary)
+                            }
+                        }
+                        .padding(.horizontal, 11)
+                        .padding(.vertical, 6)
+                        .background(RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .fill(Color.appSurface))
+                        .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .strokeBorder(Color.appHairline, lineWidth: 1))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+    }
+
     var body: some View {
         ZStack {
             AppBackground()
@@ -142,6 +199,8 @@ struct DictionaryDetailView: View {
                         }
                         .padding(.bottom, 16)
                     }
+
+                    relatedSection
                 }
             }
         }

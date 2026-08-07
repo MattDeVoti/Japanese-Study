@@ -170,6 +170,7 @@ struct CheatSheetDetailView: View {
                             case .compass:        CompassRose(tint: sheet.tint)
                             case .body:           BodyDiagram(tint: sheet.tint)
                             case .face:           FaceIcons(tint: sheet.tint)
+                            case .familyTree:     FamilyTree(tint: sheet.tint)
                             case .none:           EmptyView()
                             }
                             if section.isTable {

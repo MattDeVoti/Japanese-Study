@@ -58,6 +58,19 @@ final class LessonsService {
         return manifest?.levels.flatMap(\.chapters).first { $0.id == chapterId }?.pointCount ?? 0
     }
 
+    /// How many actual characters a kana chapter teaches.
+    ///
+    /// Separate from `pointCount` because a kana chapter may also carry points
+    /// that aren't characters — the writing-system introduction in kana_h01, for
+    /// one. Counting those would have the chapter list advertise "6 characters"
+    /// for the five vowels. `loadChapter` is cached, so this costs one decode per
+    /// chapter however many rows ask for it.
+    func characterCount(for chapterId: String) -> Int {
+        guard let chapter = loadChapter(chapterId) else { return pointCount(for: chapterId) }
+        let characters = chapter.points.filter { $0.pointType == "kana" }.count
+        return characters > 0 ? characters : chapter.points.count
+    }
+
     /// Resolves a vocab word by its (global) id, building a one-time index over
     /// every chapter's vocab on first use. Custom lessons store only word ids, so
     /// they lean on this to render and study the actual words.

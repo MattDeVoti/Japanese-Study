@@ -27,6 +27,7 @@
 		17BC0F243A199D89007AD1A7 /* kanji_data.json in Resources */ = {isa = PBXBuildFile; fileRef = C17C3633279D7F9797ABD52D /* kanji_data.json */; };
 		1930B7ED5401DE568F5577F0 /* ch02.json in Resources */ = {isa = PBXBuildFile; fileRef = 10993B1F8DAADC4A29BF4C85 /* ch02.json */; };
 		199A29EDB5B27E4DAF91AD96 /* WidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F93194F0A77FE0956CF78 /* WidgetViews.swift */; };
+		1A746550B1EA905A74A06FBB /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E486D08F22E4A8E8AD2E27 /* FlowLayout.swift */; };
 		1A838A502D074DEE1F7678DF /* TextSizeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304484366B7AB80F21E22E4 /* TextSizeSettings.swift */; };
 		1AA1FAC0FFB3EA0A7752364A /* ch31.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DE8D116FF927D7B650C7922 /* ch31.json */; };
 		1BA87BCA65EBBDC90A869FCE /* WidgetDeepLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90049F7339FC6FD8D5F9CFB2 /* WidgetDeepLinkView.swift */; };
@@ -119,6 +120,7 @@
 		80B401AA6595092D4F7579AF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593A217229DB2E540817DA3C /* NotificationService.swift */; };
 		83155C60B02DF167E4CD6E21 /* CheatSheetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22048B980ACABE984C095A51 /* CheatSheetData.swift */; };
 		83F66203B1E5922D5CA8244B /* ReadingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E624B9756D290C6F04EE89D /* ReadingViews.swift */; };
+		851464FB685B3FD1EEA781BE /* RelatedWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B770435617E4ADFDC4A5D /* RelatedWords.swift */; };
 		854CFCE8AA55B0D2DE6A1EC7 /* ch34.json in Resources */ = {isa = PBXBuildFile; fileRef = 905EA4A9D0CCC22CE508F978 /* ch34.json */; };
 		859F1AB62388E827BE197715 /* grammar_quiz_n1.json in Resources */ = {isa = PBXBuildFile; fileRef = FD02A76B8867D554AC5D99A9 /* grammar_quiz_n1.json */; };
 		89F1C025ECB12DBC8A7DCFD3 /* ch43.json in Resources */ = {isa = PBXBuildFile; fileRef = D8AFA12A694621FF702924A6 /* ch43.json */; };
@@ -336,6 +338,7 @@
 		64686319A090D5BD18317C25 /* ShiritoriGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiritoriGame.swift; sourceTree = "<group>"; };
 		64E57E1DD371386D38459520 /* VocabFlashcardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabFlashcardsView.swift; sourceTree = "<group>"; };
 		65D0BF866A2023FA46ACEEBF /* StudyFeatureTiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyFeatureTiles.swift; sourceTree = "<group>"; };
+		67E486D08F22E4A8E8AD2E27 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		68AE567BBF6B516539382A4B /* GrammarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarMenuView.swift; sourceTree = "<group>"; };
 		6A21CAA777FADB577F3F2465 /* SRSCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRSCatalogue.swift; sourceTree = "<group>"; };
 		6D3E7F826D0FECA195DDF801 /* DictationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationService.swift; sourceTree = "<group>"; };
@@ -357,6 +360,7 @@
 		7D99D34B0A02C8BECEB6CE35 /* ch42.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch42.json; sourceTree = "<group>"; };
 		80411C6C2F5449FFAE0AE094 /* kana_k01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_k01.json; sourceTree = "<group>"; };
 		85CE19DE1B53F8558B0D0BD1 /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
+		897B770435617E4ADFDC4A5D /* RelatedWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedWords.swift; sourceTree = "<group>"; };
 		8ABF4673CEEC3F2625CF74C0 /* DeckProgressCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckProgressCount.swift; sourceTree = "<group>"; };
 		8B7AA52447AD7420FB8D878F /* kana_h02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h02.json; sourceTree = "<group>"; };
 		8B98B6895CC354E96E28C9BF /* kana_h07.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h07.json; sourceTree = "<group>"; };
@@ -576,6 +580,7 @@
 				B0A2B82E362981B80E13B4F8 /* LessonsService.swift */,
 				593A217229DB2E540817DA3C /* NotificationService.swift */,
 				1BAF3DC9F4E9D651A80A864D /* ReadingsService.swift */,
+				897B770435617E4ADFDC4A5D /* RelatedWords.swift */,
 				B459AA3806A9905AC49166FF /* SimilarKanji.swift */,
 				7D83CB2E2B3794CAC15F851D /* SpeechService.swift */,
 				6A21CAA777FADB577F3F2465 /* SRSCatalogue.swift */,
@@ -645,6 +650,7 @@
 				85CE19DE1B53F8558B0D0BD1 /* BackupView.swift */,
 				8ABF4673CEEC3F2625CF74C0 /* DeckProgressCount.swift */,
 				EC16CF23C2A812C0CCBCD680 /* FeedbackView.swift */,
+				67E486D08F22E4A8E8AD2E27 /* FlowLayout.swift */,
 				469D9B0F1C041B79A537F6A8 /* FuriganaText.swift */,
 				C0F53E8AD13B1498463F39A0 /* HelpView.swift */,
 				5D120B6465036B0AD8AED5FD /* ItemDetailSheet.swift */,
@@ -1154,6 +1160,7 @@
 				538304380C686BD6188AA5D7 /* FeedbackService.swift in Sources */,
 				5803ECDAEF030A951E6A475E /* FeedbackView.swift in Sources */,
 				685024B80A081076B04DDFAE /* FileStore.swift in Sources */,
+				1A746550B1EA905A74A06FBB /* FlowLayout.swift in Sources */,
 				309E33E1BE86DEE7DDDC492E /* FreeTier.swift in Sources */,
 				BC9EE89961739A05491ADC35 /* FuriganaText.swift in Sources */,
 				4E22CFDF3D00617986E14E53 /* GamesMenu.swift in Sources */,
@@ -1190,6 +1197,7 @@
 				459640EA3E64BBCDD5ADFFB9 /* ReadingModels.swift in Sources */,
 				83F66203B1E5922D5CA8244B /* ReadingViews.swift in Sources */,
 				B3EE983D697574044694DD2B /* ReadingsService.swift in Sources */,
+				851464FB685B3FD1EEA781BE /* RelatedWords.swift in Sources */,
 				29A912D1E0D201B70207668B /* ReportCardView.swift in Sources */,
 				298CE2402754A4ED75FCAF39 /* ReviewHomeCard.swift in Sources */,
 				7B3A98151A0D90C2AEF6F3AF /* ReviewSessionView.swift in Sources */,
@@ -1261,7 +1269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ICLOUD_SYNC";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1280,7 +1288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou.widgets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1299,7 +1307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou.widgets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1320,7 +1328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ICLOUD_SYNC";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
