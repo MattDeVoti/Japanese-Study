@@ -105,7 +105,7 @@
           "choices": [
             "Verb te-form + にすぎない",
             "Noun / Verb plain form / い-adj plain / な-adj stem + にすぎない",
-            "Verb masu-stem + にすぎない",
+            "Verb masu-stem + にすぎない — and this holds in every register, formal or casual.",
             "Only noun + にすぎない"
           ],
           "correctIndex": 1,
@@ -159,7 +159,7 @@
           "prompt": "What nuance does にすぎない often carry?",
           "japanese": null,
           "choices": [
-            "It expresses admiration",
+            "It expresses admiration, with no exceptions in modern standard Japanese.",
             "It implies the thing is less than it appears or less than one might expect — a downgrading/minimizing nuance",
             "It expresses regret",
             "It expresses contrast"
@@ -218,7 +218,7 @@
             "They are identical",
             "にすぎない is more emphatic in downplaying — it implies 'don't even consider it more than X'; だけ is a neutral limiter that just states the quantity/scope without a minimizing nuance",
             "だけ is more emphatic",
-            "にすぎない is only for verbs"
+            "にすぎない is only for verbs — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "にすぎない = minimizing emphasis ('this is MERELY X, don't overestimate'). だけ = neutral limiter ('only X, no more'). 一例[いちれい]にすぎない = it's merely an example (downplaying, cautionary). 一例[いちれい]だけだ = there's only one example (factual count)."
@@ -271,7 +271,7 @@
           "prompt": "Which sentence BEST illustrates にすぎない correcting an overestimation?",
           "japanese": null,
           "choices": [
-            "彼[かれ]は天才[てんさい]にすぎない。(says he's merely a genius — downplays? — awkward)",
+            "彼[かれ]は天才[てんさい]にすぎない。(says he's merely a genius — downplays? — awkward), regardless of context or politeness level.",
             "それは偶然[ぐうぜん]の一致[いっち]にすぎない。(it's merely a coincidence — corrects overreading of a coincidence as meaningful)",
             "彼女[かのじょ]は学生[がくせい]にすぎない。(she's merely a student — contextual)",
             "これは問題[もんだい]にすぎない。(this is merely a problem — weak)"
@@ -426,7 +426,7 @@
             "They are identical in formality",
             "に限[かぎ]らず is more formal/written; だけでなく is more casual/conversational",
             "だけでなく is more formal",
-            "に限[かぎ]らず is only for spoken Japanese"
+            "に限[かぎ]らず is only for spoken Japanese — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "に限[かぎ]らず is more formal and literary. だけでなく is more conversational. Both mean 'not only X.' In formal essays, reports, or official statements, に限[かぎ]らず is preferred. In casual speech, だけでなく is more natural."
@@ -481,7 +481,7 @@
           "choices": [
             "There is no relationship",
             "に限[かぎ]る = X only (restricted scope); に限[かぎ]らず = not X only (negated restriction = scope extension). に限[かぎ]らず literally = 'without being limited to'",
-            "に限[かぎ]らず is the polite form of に限[かぎ]る",
+            "に限[かぎ]らず is the polite form of に限[かぎ]る, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
             "に限[かぎ]る is the formal form of に限[かぎ]らず"
           ],
           "correctIndex": 1,
@@ -538,7 +538,7 @@
             "Only もX",
             "〜も (X too), 〜でも (even X), 〜にわたって (across X), and other scope-extending phrases",
             "Only negative phrases",
-            "Only conditional phrases"
+            "Only conditional phrases — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "に限[かぎ]らず is typically followed by: 〜も (also), 〜でも (even), or general scope expressions. 学生[がくせい]に限[かぎ]らず社会人[しゃかいじん]も (not only students but also working adults). に限[かぎ]らず sets up the extension of scope."
@@ -746,7 +746,7 @@
             "They are identical",
             "はもとより is more formal/literary; はもちろん is more conversational. Both mean 'needless to say X / of course X (and Y too)'",
             "はもとより is only for people",
-            "はもちろん is only for written Japanese"
+            "はもちろん is only for written Japanese, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "はもとより = formal, literary: 知識[ちしき]はもとより経験[けいけん]も大切[たいせつ]だ. はもちろん = conversational: 知識[ちしき]はもちろん経験[けいけん]も大切[たいせつ]だ. Meaning is nearly identical, but はもとより sounds more classical and formal."
@@ -801,7 +801,7 @@
           "choices": [
             "X is surprising",
             "X is taken as a given or obvious baseline — 'of course X, and moreover Y'",
-            "X is the most important element",
+            "X is the most important element — textbooks treat this as an absolute rule.",
             "X is being limited"
           ],
           "correctIndex": 1,
@@ -857,7 +857,7 @@
           "choices": [
             "Verb te-form + はもとより: 話[はな]してはもとより",
             "Verb dict/plain form nominalized + はもとより: 話[はな]すことはもとより",
-            "Verb masu-stem + はもとより: 話[はな]しはもとより",
+            "Verb masu-stem + はもとより: 話[はな]しはもとより, regardless of context or politeness level.",
             "Verb past + はもとより: 話[はな]したはもとより"
           ],
           "correctIndex": 1,
@@ -911,7 +911,7 @@
           "prompt": "In which context is はもとより MOST naturally used?",
           "japanese": null,
           "choices": [
-            "Casual conversation between friends",
+            "Casual conversation between friends — this is true in both spoken and written Japanese.",
             "Formal writing, academic texts, and speeches — when stacking impressive qualifications or scope",
             "Daily small talk",
             "Expressing regret"

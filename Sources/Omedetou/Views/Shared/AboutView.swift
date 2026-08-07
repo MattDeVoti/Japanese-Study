@@ -83,10 +83,10 @@ struct AboutView: View {
 
             Section {
                 VStack(alignment: .leading, spacing: 10) {
-                    Text("The dictionary and kanji information in this app come from the JMdict/EDICT and KANJIDIC projects.")
+                    Text("The dictionary and kanji information in this app come from the JMdict/EDICT and KANJIDIC projects, and the dictionary's example sentences from the Tanaka Corpus.")
                         .font(.system(size: 14))
                         .foregroundColor(.appText)
-                    Text("These files are copyright © the Electronic Dictionary Research and Development Group and are used under the Creative Commons Attribution-ShareAlike 4.0 licence. This app claims no copyright over that material.")
+                    Text("These files are copyright © the Electronic Dictionary Research and Development Group and are used under the Creative Commons Attribution-ShareAlike 4.0 licence. The example sentences come from the Tanaka Corpus, used under Creative Commons Attribution 2.0 France. This app claims no copyright over any of that material.")
                         .font(.system(size: 13))
                         .foregroundColor(.appTextSecondary)
                 }
@@ -115,6 +115,9 @@ struct AboutView: View {
                 }
                 Link(destination: URL(string: "https://creativecommons.org/licenses/by-sa/4.0/")!) {
                     Label("CC BY-SA 4.0", systemImage: "arrow.up.right.square")
+                }
+                Link(destination: URL(string: "https://www.edrdg.org/wiki/index.php/Tanaka_Corpus")!) {
+                    Label("Tanaka Corpus", systemImage: "arrow.up.right.square")
                 }
             } header: {
                 Label("Dictionary data", systemImage: "character.book.closed.fill")

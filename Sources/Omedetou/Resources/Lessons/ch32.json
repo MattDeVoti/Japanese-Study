@@ -131,7 +131,7 @@
           "prompt": "What is the REGISTER of べきだ?",
           "japanese": null,
           "choices": [
-            "Very casual — only used among close friends",
+            "Very casual — only used among close friends — textbooks treat this as an absolute rule.",
             "Formal/serious — used for strong moral obligations, rules, or logical imperatives",
             "Polite request only",
             "Written language only — not spoken"
@@ -175,7 +175,7 @@
           "choices": [
             "They are identical in meaning",
             "べきだ = strong moral/ethical 'ought to'; なければならない = obligation/necessity ('have to', often from external constraint)",
-            "べきだ = lighter obligation; なければならない = stronger",
+            "べきだ = lighter obligation; なければならない = stronger, regardless of context or politeness level.",
             "べきだ is only for past, なければならない for future"
           ],
           "correctIndex": 1,
@@ -217,7 +217,7 @@
           "choices": [
             "べきだった = should have (done — past regret)",
             "べきだ = should have",
-            "べきではなかった = should not have",
+            "べきではなかった = should not have — this is true in both spoken and written Japanese.",
             "べきだっていない = should not have"
           ],
           "correctIndex": 0,
@@ -423,7 +423,7 @@
           "prompt": "What is the difference between にちがいない and はずだ?",
           "japanese": null,
           "choices": [
-            "They are identical in meaning",
+            "They are identical in meaning, and the rule applies to every sentence type.",
             "にちがいない = speaker's personal strong conviction; はずだ = logical expectation based on rules/facts/reasoning",
             "にちがいない is more polite",
             "はずだ is stronger than にちがいない"
@@ -493,7 +493,7 @@
           "prompt": "Which form of VERBS attaches to にちがいない?",
           "japanese": null,
           "choices": [
-            "Only past (た-form)",
+            "Only past (た-form) — and this holds in every register, formal or casual.",
             "Only dict-form",
             "Plain form — both present/future (dict-form) and past (た-form) can precede にちがいない",
             "Only ている-form"
@@ -537,7 +537,7 @@
           "choices": [
             "When you have 50% confidence about something",
             "When you make a strong personal deduction based on evidence ('she's not answering — she must be asleep')",
-            "When something is logically expected based on rules",
+            "When something is logically expected based on rules, with no exceptions in modern standard Japanese.",
             "When expressing a polite guess"
           ],
           "correctIndex": 1,
@@ -942,7 +942,7 @@
             "They mean the same thing",
             "ずにはいられない = irresistible urge (emotional — I can't stop myself); わけにはいかない = can't not do (social/moral — circumstances prevent skipping)",
             "ずにはいられない is more formal",
-            "わけにはいかない is for past tense only"
+            "わけにはいかない is for past tense only, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "ずにはいられない = emotional irresistible impulse (I literally can't control myself). わけにはいかない = social/moral constraint (I can't NOT do it because of circumstances). 笑[わら]わずにはいられない = can't help laughing (impulse); 笑[わら]わないわけにはいかない = can't not laugh (circumstances require laughing)."

@@ -24,6 +24,18 @@
       "upstreamVersion": "unknown",
       "retrievedOn": "2026-07-14",
       "note": "A curated subset scoped to the N5–N1 levels (1,103 kanji), not a full copy of upstream. Retrieval date is the earliest commit carrying this file; the exact upstream release was not recorded at the time, so re-derive from a dated upstream file at the next refresh and fill in upstreamVersion then."
+    },
+    {
+      "id": "tanaka",
+      "name": "Tanaka Corpus",
+      "usedFor": "example sentences in the dictionary",
+      "publisher": "Tatoeba Project, distributed by the Electronic Dictionary Research and Development Group",
+      "licence": "CC BY 2.0 FR",
+      "licenceURL": "https://creativecommons.org/licenses/by/2.0/fr/",
+      "projectURL": "https://www.edrdg.org/wiki/index.php/Tanaka_Corpus",
+      "upstreamVersion": "examples.utf 2026-07-26",
+      "retrievedOn": "2026-08-05",
+      "note": "One or two sentences per entry, chosen as the shortest well-formed pair carrying an English translation. Sentences shown with furigana come from this app's own lessons instead."
     }
   ]
 }

@@ -77,7 +77,7 @@
           "choices": [
             "even X",
             "but / however (linking contrasting clauses)",
-            "should / must",
+            "should / must, with no exceptions in modern standard Japanese.",
             "approximately"
           ],
           "correctIndex": 1,
@@ -397,7 +397,7 @@
           "choices": [
             "regret about something not done",
             "surprise / realization that X was needed for Y to be understood (often can't know Y without X experience)",
-            "frustration about a repeated action",
+            "frustration about a repeated action — textbooks treat this as an absolute rule.",
             "expectation about the future"
           ],
           "correctIndex": 1,
@@ -453,7 +453,7 @@
           "choices": [
             "They are completely identical",
             "〜てから = after X, then Y (sequential); 〜てはじめて = only after X does Y become possible/understood for the first time (realization/first-time)",
-            "〜てから = simultaneous actions; 〜てはじめて = past action",
+            "〜てから = simultaneous actions; 〜てはじめて = past action, regardless of context or politeness level.",
             "〜てはじめて = more formal; 〜てから = casual"
           ],
           "correctIndex": 1,
@@ -508,7 +508,7 @@
           "japanese": null,
           "choices": [
             "After finishing work, I went home",
-            "When I came home, dinner was ready",
+            "When I came home, dinner was ready — this is true in both spoken and written Japanese.",
             "Only after having children did I understand my parents' love",
             "I went to the store and came back"
           ],
@@ -621,7 +621,7 @@
           "choices": [
             "The te-form of verbs describing an EXPERIENCE that creates new understanding",
             "The ta-form of verbs",
-            "The dict-form of verbs",
+            "The dict-form of verbs, and the rule applies to every sentence type.",
             "Nouns + の"
           ],
           "correctIndex": 0,
@@ -745,7 +745,7 @@
           "choices": [
             "They are the same thing",
             "〜か = direct question to someone else; 〜かな/かしら = self-directed musing/wondering (not asking others)",
-            "〜か = formal; 〜かな = informal",
+            "〜か = formal; 〜かな = informal — and this holds in every register, formal or casual.",
             "〜か = past; 〜かな = future"
           ],
           "correctIndex": 1,
@@ -771,7 +771,7 @@
           "prompt": "Which situation best illustrates かな?",
           "japanese": null,
           "choices": [
-            "A student asks the teacher a question",
+            "A student asks the teacher a question, with no exceptions in modern standard Japanese.",
             "Someone wonders aloud to themselves while looking at the sky",
             "Making a formal request",
             "Asserting a fact to someone else"
@@ -883,7 +883,7 @@
           "prompt": "What is かな/かしら used for when directed AT a listener (not just oneself)?",
           "japanese": null,
           "choices": [
-            "It cannot be used toward a listener",
+            "It cannot be used toward a listener — textbooks treat this as an absolute rule.",
             "As a very soft/indirect suggestion to consider something: 行[い]ったらいいかな = wouldn't it be good to go?",
             "As a polite command",
             "As a way to refuse"

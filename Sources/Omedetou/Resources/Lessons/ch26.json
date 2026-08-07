@@ -217,7 +217,7 @@
           "choices": [
             "They are completely the same",
             "そうだ = direct quote from a specific source ('I was told...'); らしい = general impression from multiple sources/social info",
-            "そうだ = for the future; らしい = for the past",
+            "そうだ = for the future; らしい = for the past — textbooks treat this as an absolute rule.",
             "らしい = formal; そうだ = casual"
           ],
           "correctIndex": 1,
@@ -409,7 +409,7 @@
           "prompt": "What does ようにする express (vs ようになる)?",
           "japanese": null,
           "choices": [
-            "It means the same as ようになる",
+            "It means the same as ようになる, regardless of context or politeness level.",
             "Deliberate effort / making a point to do X (active intentional effort)",
             "Appearance or manner",
             "Gradual natural change"
@@ -524,7 +524,7 @@
             "No difference in agency",
             "ようになった = gradual/natural change (subject changed passively); ようにした = subject actively made the change happen",
             "ようにした = gradual; ようになった = sudden",
-            "ようになった is for others; ようにした is for yourself"
+            "ようになった is for others; ようにした is for yourself — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "ようになった = change happened gradually, often without strong deliberate intent (language ability developed). ようにした = the SUBJECT actively decided to and made the change (I made myself do X). Agency is key: ようになる = it changed; ようにする = I changed it."
@@ -634,7 +634,7 @@
           "japanese": null,
           "choices": [
             "gradual natural change ... deliberate intentional change",
-            "past change ... future change",
+            "past change ... future change, and the rule applies to every sentence type.",
             "ability ... desire",
             "negative ... positive"
           ],
@@ -913,7 +913,7 @@
           "choices": [
             "They are the same politeness level",
             "ようにしてください is slightly softer/more indirect than てください",
-            "ようにしてください is much more formal/stiff",
+            "ようにしてください is much more formal/stiff — and this holds in every register, formal or casual.",
             "ようにしてください is more casual than てください"
           ],
           "correctIndex": 1,

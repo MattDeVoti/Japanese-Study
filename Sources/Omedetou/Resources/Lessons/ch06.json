@@ -8,13 +8,14 @@
       "name": "Te-form (〜て form) — connecting verbs",
       "shortDescription": "The て-form connects actions in sequence or enables many grammatical patterns.",
       "formation": "Group 1 (u-verbs): various sound changes + て/で  |  Group 2 (ru-verbs): stem + て  |  Irregular: して, きて",
-      "explanation": "The て-form is the Swiss Army knife of Japanese verb forms — it unlocks more grammar patterns than any other form you will learn. It is the gateway to ている (ongoing actions), てください (requests), てもいい (permission), and many more. Before any of that, its most basic role is connecting two actions in sequence: 食[た]べて寝[ね]ます means \"I eat and then sleep.\" The て-form itself has no tense — tense is set by whatever final verb closes the sentence.\n\nThe conjugation rules depend on the verb group:\n- Group 2 (る-verbs): drop る and add て — 食[た]べる → 食[た]べて\n- Group 1 (う-verbs), う・つ・る → って — 買[か]う → 買[か]って\n- Group 1, む・ぶ・ぬ → んで — 飲[の]む → 飲[の]んで\n- Group 1, く → いて — 書[か]く → 書[か]いて\n- Group 1, ぐ → いで — 泳[およ]ぐ → 泳[およ]いで\n- Group 1, す → して — 話[はな]す → 話[はな]して\n- Irregular (memorize): する → して、くる → きて\n\nMastering these て-form rules thoroughly now will pay dividends across every subsequent chapter.",
+      "explanation": "The て-form is the Swiss Army knife of Japanese verb forms — it unlocks more grammar patterns than any other form you will learn. It is the gateway to ている (ongoing actions), てください (requests), てもいい (permission), and many more. Before any of that, its most basic role is connecting two actions in sequence: 食[た]べて寝[ね]ます means \"I eat and then sleep.\" The て-form itself has no tense — tense is set by whatever final verb closes the sentence.\n\nThe conjugation rules depend on the verb group:\n- Group 2 (る-verbs): drop る and add て — 食[た]べる → 食[た]べて\n- Group 1 (う-verbs), う・つ・る → って — 買[か]う → 買[か]って\n- Group 1, む・ぶ・ぬ → んで — 飲[の]む → 飲[の]んで\n- Group 1, く → いて — 書[か]く → 書[か]いて\n- Group 1, ぐ → いで — 泳[およ]ぐ → 泳[およ]いで\n- Group 1, す → して — 話[はな]す → 話[はな]して\n- One crucial exception: 行[い]く → 行[い]って — not ✗行[い]いて. The most common motion verb breaks the く rule, so memorize it with the irregulars.\n- Irregular (memorize): する → して、くる → きて\n\nMastering these て-form rules thoroughly now will pay dividends across every subsequent chapter.",
       "rules": [
         "Group 2 (る-verbs): drop る and add て（食[た]べる → 食[た]べて）",
         "Group 1 (う-verbs) — the final sound changes a set way, one ending at a time:",
         "う・つ・る → って（買[か]う → 買[か]って）",
         "む・ぶ・ぬ → んで（飲[の]む → 飲[の]んで）",
         "く → いて（書[か]く → 書[か]いて）",
+        "⚠️ Exception: 行[い]く → 行[い]って (not ✗行[い]いて) — the one く-verb that breaks the rule",
         "ぐ → いで（泳[およ]ぐ → 泳[およ]いで）",
         "す → して（話[はな]す → 話[はな]して）",
         "Irregular (memorize these two): する → して、くる → きて",
@@ -846,7 +847,7 @@
           "japanese": null,
           "choices": [
             "No difference — both mean eating now.",
-            "食[た]べていました means will eat; 食[た]べています means ate.",
+            "食[た]べていました means will eat; 食[た]べています means ate — textbooks treat this as an absolute rule.",
             "食[た]べていました is more polite than 食[た]べています.",
             "食[た]べています means is currently eating; 食[た]べていました means was eating (past ongoing)."
           ],
@@ -1525,7 +1526,7 @@
           "prompt": "A teacher says '廊下[ろうか]で走[はし]らないでください.' Compared to 走[はし]ってはいけません, what nuance does this carry?",
           "japanese": null,
           "choices": [
-            "走[はし]らないでください is more formal and stronger than てはいけません.",
+            "走[はし]らないでください is more formal and stronger than てはいけません, regardless of context or politeness level.",
             "Both are identical in meaning and formality.",
             "走[はし]らないでください is a polite personal request; 走[はし]ってはいけません is a firm rule-level prohibition.",
             "走[はし]らないでください is only used on official posted signs."

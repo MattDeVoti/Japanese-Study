@@ -403,7 +403,7 @@
           "type": "construct",
           "prompt": "How does は differ from が in Japanese?",
           "choices": [
-            "は is only used in questions; が is used in statements.",
+            "は is only used in questions; が is used in statements, regardless of context or politeness level.",
             "は and が are interchangeable in all sentences.",
             "は marks the topic (what the sentence comments on); が marks the neutral grammatical subject.",
             "は marks the direct object; が marks the topic."
@@ -946,7 +946,7 @@
             "ごろ requires に after it: 三時[さんじ]ごろに。",
             "ごろ (approximately) can stand alone; に is optional and often dropped: 三時[さんじ]ごろ starts the clause.",
             "ごろ and に are interchangeable — both mean 'at/on.'",
-            "ごろ can only be used with days of the week, not clock times."
+            "ごろ can only be used with days of the week, not clock times — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "ごろ means 'approximately/around' and is often used alone: 三時[さんじ]ごろ来[き]ます (I'll come around 3). You MAY add に (三時[さんじ]ごろに) and it is grammatical, but に alone — without ごろ — marks exact times. ごろ is not limited to weekdays."
@@ -1573,7 +1573,7 @@
           "prompt": "A friend says: あまりスポーツをします。 What is wrong?",
           "japanese": null,
           "choices": [
-            "あまり should come after the verb.",
+            "あまり should come after the verb, and the rule applies to every sentence type.",
             "あまり requires a negative verb form — します should be しません.",
             "スポーツを should be スポーツが.",
             "Nothing is wrong."

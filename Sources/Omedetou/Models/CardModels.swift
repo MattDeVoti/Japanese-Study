@@ -80,3 +80,16 @@ struct DictionaryEntry: Identifiable {
     let sortKeyEn: String
     let sortKeyJp: String
 }
+
+/// One example sentence attached to a dictionary entry.
+///
+/// `fromLesson` marks the ones taken from the app's own chapters. Those carry
+/// furigana in the 漢字[かんじ] form and can be rendered with FuriganaText;
+/// corpus sentences are plain text and have to be drawn as-is, which is why the
+/// two are told apart rather than merged.
+struct DictionaryExample: Identifiable {
+    let id = UUID()
+    let japanese: String
+    let english: String
+    let fromLesson: Bool
+}

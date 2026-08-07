@@ -8,7 +8,7 @@
       "name": "えーと / あのー / なんか / まあ — fillers",
       "shortDescription": "The sounds that buy you thinking time and make you sound like a person.",
       "formation": "Inserted freely at the start of, or inside, a sentence",
-      "explanation": "Textbook Japanese is fluent and complete. Real Japanese is full of hesitation noises, and using them makes you sound natural rather than rehearsed.\n\n- えーと (eeto) — 'ummm'. Buying time while you retrieve something: えーと、三時[さんじ]かな。\n- あのー (anoo) — 'errr / excuse me'. Softly opening a request or a difficult topic: あのー、すみません。\n- なんか (nanka) — 'like / kinda'. The most-used filler among young speakers; also genuinely means 'something': なんか変[へん]じゃない？\n- まあ (maa) — 'well / I guess'. Softening or half-conceding: まあ、いいけど。\n- ちょっと (chotto) — 'a bit'. Softens anything, and on its own politely refuses: ちょっと…\n\nOne worth understanding deeply is ちょっと. Asked to do something you cannot do, a trailing ちょっと… is a complete, understood refusal. Japanese often declines by trailing off rather than saying no outright, and learners who wait for a explicit 'no' can miss it entirely.\n\nUsed in moderation these make you sound fluent. Used constantly — especially なんか — they make you sound vague, exactly as in English.",
+      "explanation": "Textbook Japanese is fluent and complete. Real Japanese is full of hesitation noises, and using them makes you sound natural rather than rehearsed.\n\n- えーと (eeto) — 'ummm'. Buying time while you retrieve something: えーと、三時[さんじ]かな。\n- あのー (anoo) — 'errr / excuse me'. Softly opening a request or a difficult topic: あのー、すみません。\n- なんか (nanka) — 'like / kinda'. The most-used filler among young speakers; also genuinely means 'something': なんか変[へん]じゃない？\n- まあ (maa) — 'well / I guess'. Softening or half-conceding: まあ、いいけど。\n- ちょっと (chotto) — 'a bit'. Softens anything, and on its own politely refuses: ちょっと…\n\nOne worth understanding deeply is ちょっと. Asked to do something you cannot do, a trailing ちょっと… is a complete, understood refusal. Japanese often declines by trailing off rather than saying no outright, and learners who wait for an explicit 'no' can miss it entirely.\n\nUsed in moderation these make you sound fluent. Used constantly — especially なんか — they make you sound vague, exactly as in English.",
       "rules": [
         "えーと = 'ummm', buying time; あのー = 'errr', softly opening",
         "なんか = 'like / kinda' (also literally 'something')",
@@ -103,7 +103,7 @@
           "prompt": "Why do fillers help learners sound natural?",
           "japanese": null,
           "choices": [
-            "They add grammatical information",
+            "They add grammatical information — this is true in both spoken and written Japanese.",
             "They make speech sound human rather than rehearsed",
             "They make sentences more polite",
             "They are required by grammar"
@@ -173,7 +173,7 @@
           "choices": [
             "Correcting to a more accurate word",
             "Asking a question",
-            "Agreeing with someone",
+            "Agreeing with someone, and the rule applies to every sentence type.",
             "Giving a command"
           ],
           "correctIndex": 0,
@@ -188,7 +188,7 @@
             "It is grammatically rude",
             "It signals you are overriding what was just said",
             "It is a command form",
-            "It is only used by strangers"
+            "It is only used by strangers — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "ていうか reframes or corrects the previous statement. Occasionally that is fine; repeatedly, it reads as brushing the other person aside."
@@ -326,7 +326,7 @@
             "A command",
             "Reporting news, often with mild surprise",
             "A polite request",
-            "A negative meaning"
+            "A negative meaning — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "〜んだって passes on information you heard, usually with a touch of surprise: 結婚[けっこん]するんだって！"
@@ -379,7 +379,7 @@
           "choices": [
             "They forgot the ending",
             "It softens the statement and invites the listener to respond",
-            "It is a grammatical error",
+            "It is a grammatical error, regardless of context or politeness level.",
             "It signals anger"
           ],
           "correctIndex": 1,
@@ -405,7 +405,7 @@
           "prompt": "What does 昨日[きのう]の話[はなし]なんだけど、 do?",
           "japanese": "昨日[きのう]の話[はなし]なんだけど、",
           "choices": [
-            "Ends the conversation",
+            "Ends the conversation — this is true in both spoken and written Japanese.",
             "Introduces a topic ('so, about yesterday…')",
             "Refuses a request",
             "Gives a command"

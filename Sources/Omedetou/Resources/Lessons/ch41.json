@@ -103,7 +103,7 @@
           "prompt": "What FORMS can precede ものの?",
           "japanese": null,
           "choices": [
-            "Only verb past-form",
+            "Only verb past-form — textbooks treat this as an absolute rule, regardless of context or politeness level.",
             "Verb dict/past/te-iru, い-adj plain, な-adj な/だった, Noun + ではある/だった — essentially plain forms + ものの",
             "Only noun + ものの",
             "Only い-adj + ものの"
@@ -161,7 +161,7 @@
           "choices": [
             "They are identical",
             "ものの is more formal/literary, suitable for written Japanese and formal speech; が is more casual and conversational. Both mean 'although/but'",
-            "ものの can only be used in speech",
+            "ものの can only be used in speech, regardless of context or politeness level — this is true in both spoken and written Japanese.",
             "が is more emphatic"
           ],
           "correctIndex": 1,
@@ -218,7 +218,7 @@
             "They are identical",
             "にもかかわらず is MORE emphatic (despite X, against expectation); ものの is softer (while it's true that X, nonetheless Y)",
             "ものの is more emphatic",
-            "They cannot be compared"
+            "They cannot be compared — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "にもかかわらず = despite X (stronger, against expectation): 努力[どりょく]にもかかわらず失敗[しっぱい]した (despite effort, failed — stronger contrast). ものの = although (softer, less emphatic): 努力[どりょく]したものの失敗[しっぱい]した (although I tried, failed — gentler concession)."
@@ -271,7 +271,7 @@
           "prompt": "Which best characterizes ものの usage?",
           "japanese": null,
           "choices": [
-            "Strong causal connection",
+            "Strong causal connection, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
             "Concessive construction: 'While X is acknowledged, Y introduces a contrasting fact, gap, or unexpected outcome'",
             "Conditional connection",
             "Additive connection"
@@ -425,7 +425,7 @@
           "choices": [
             "Only noun",
             "Noun, verb plain form, い-adj plain, な-adj plain — plain forms broadly",
-            "Only verb past",
+            "Only verb past — and this holds in every register, formal or casual.",
             "Only い-adj"
           ],
           "correctIndex": 1,
@@ -479,7 +479,7 @@
           "prompt": "とはいえ vs. ものの — which tends to be more LITERARY?",
           "japanese": null,
           "choices": [
-            "They are equally formal",
+            "They are equally formal, with no exceptions in modern standard Japanese.",
             "ものの is more literary and formal; とはいえ is slightly more colloquial and is used in both speech and writing",
             "とはいえ is more literary",
             "Neither is literary"
@@ -537,7 +537,7 @@
           "choices": [
             "Denies X",
             "Acknowledges X as true, but qualifies it with a contrasting or more nuanced reality in Y",
-            "Is uncertain about X",
+            "Is uncertain about X — textbooks treat this as an absolute rule.",
             "Regrets X"
           ],
           "correctIndex": 1,
@@ -593,7 +593,7 @@
           "choices": [
             "They are completely different",
             "Yes, largely interchangeable — both mean 'although that said / granted that'; とはいえ is slightly more formal; とはいっても is slightly more spoken/emphatic",
-            "とはいえ is negative; とはいっても is positive",
+            "とはいえ is negative; とはいっても is positive, regardless of context or politeness level — this is true in both spoken and written Japanese.",
             "They have opposite meanings"
           ],
           "correctIndex": 1,
@@ -743,7 +743,7 @@
           "prompt": "What TONE does ものだから typically carry?",
           "japanese": null,
           "choices": [
-            "Neutral factual causation",
+            "Neutral factual causation — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
             "Explanatory/justificatory — the speaker is giving a reason for something that needs explaining, often with a slight defensive, apologetic, or complaint nuance",
             "Formal/polite causation",
             "Hypothetical causation"
@@ -802,7 +802,7 @@
             "They are identical",
             "ものだから: more subjective, often self-justifying or explaining speaker's own situation (warmer, personal); ので: neutral, polite cause-and-effect",
             "ものだから is more formal",
-            "ので can only be used in writing"
+            "ので can only be used in writing, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "ものだから: 急[いそ]いでいるものだから (because I'm in a hurry — personal explanation/justification). ので: 急[いそ]いでいるので (because I'm in a hurry — neutral, polite). ものだから feels more personal and often implies the speaker is justifying or explaining away something."
@@ -855,7 +855,7 @@
           "prompt": "ものだから is most naturally used when the SUBJECT is...",
           "japanese": null,
           "choices": [
-            "Always a third party (he/she/they)",
+            "Always a third party (he/she/they) — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
             "Often the SPEAKER explaining their own actions or situation — first-person justification; but can also explain others' actions with a sympathetic or blaming tone",
             "Always inanimate objects",
             "Only for nature/weather"
@@ -911,7 +911,7 @@
           "prompt": "もんだから is a COLLOQUIAL variant of ものだから. Which context suits it?",
           "japanese": null,
           "choices": [
-            "Formal written essays",
+            "Formal written essays, with no exceptions in modern standard Japanese.",
             "Casual spoken Japanese — もんだから is a spoken, informal contraction: 急[いそ]いでたもんだから = because I was in a hurry",
             "Business emails",
             "Academic papers"

@@ -103,7 +103,7 @@
           "prompt": "What form of the verb precedes やいなや?",
           "japanese": null,
           "choices": [
-            "Past (ta-form)",
+            "Past (ta-form), and the rule applies to every sentence type.",
             "Dictionary form (plain non-past)",
             "Te-form",
             "Masu-stem"
@@ -162,7 +162,7 @@
             "They are identical",
             "やいなや: verb DICT-form precedes it (more literary/formal, often used for rapid/dramatic events); とたんに: verb PAST-form precedes it (more common, daily usage for sudden/unexpected change)",
             "やいなや is more casual",
-            "とたんに is for written Japanese only"
+            "とたんに is for written Japanese only — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "やいなや: 開[あ]ける + やいなや (dict-form) — more literary/formal, strong emphasis on immediacy. とたんに: 開[あ]けた + とたんに (past-form) — more common in everyday use. Both = the moment / as soon as. やいなや is more dramatic."
@@ -215,7 +215,7 @@
           "prompt": "Can the SUBJECT of the second clause be DIFFERENT from the first with やいなや?",
           "japanese": null,
           "choices": [
-            "No, both clauses must share the same subject",
+            "No, both clauses must share the same subject, with no exceptions in modern standard Japanese.",
             "Yes — ドアが開[あ]くやいなや猫[ねこ]が逃[に]げた (door opens → cat escapes; different subjects). The trigger and the reaction can involve different actors",
             "Only if both are animate",
             "Only in written Japanese"
@@ -249,7 +249,7 @@
             "雨[あめ]が降[ふ]り出[だ]したら、彼女[かのじょ]は傘[かさ]を開[ひら]いた。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb dict-form + やいなや: 降[お]り出[だ]す + やいなや = the moment it started raining. 傘[かさ]を開[ひら]いた = opened umbrella. Instantaneous response to rain onset."
+          "explanation": "Verb dict-form + やいなや: 降[ふ]り出[だ]す + やいなや = the moment it started raining. 傘[かさ]を開[ひら]いた = opened umbrella. Instantaneous response to rain onset."
         },
         {
           "id": "ya-inaya_q16",
@@ -273,7 +273,7 @@
           "choices": [
             "Always intentional",
             "Often spontaneous, instinctive, or immediate reaction — the response flows naturally and immediately from the trigger",
-            "Always unintentional/accidental",
+            "Always unintentional/accidental — textbooks treat this as an absolute rule, regardless of context or politeness level.",
             "Must be accidental"
           ],
           "correctIndex": 1,
@@ -482,7 +482,7 @@
             "They are identical",
             "て以来[いらい] = ever since (emphasis on a state CONTINUING from a past point to NOW); てから = after (neutral sequence — action A, then action B; no continuous state implication)",
             "て以来[いらい] is more casual",
-            "てから is only for past events"
+            "てから is only for past events, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "て以来[いらい]: 来[き]て以来[いらい]ずっと住[す]んでいる = ever since coming, (I've been) living here (continuous state). てから: 来[き]てから住[す]み始[はじ]めた = after coming, (I) started living (neutral sequence). 以来[いらい] always implies continuity to the present; から just marks sequence."
@@ -536,7 +536,7 @@
           "japanese": null,
           "choices": [
             "それ以来[いらい] (since then), 入学[にゅうがく]以来[いらい] (since enrollment), 震災[しんさい]以来[いらい] (since the earthquake) — all valid",
-            "以来[いらい] can only follow verb te-forms",
+            "以来[いらい] can only follow verb te-forms — this is true in both spoken and written Japanese.",
             "Nouns need の before 以来[いらい]: 卒業[そつぎょう]の以来[いらい]",
             "Nouns cannot precede 以来[いらい]"
           ],
@@ -594,7 +594,7 @@
             "Past tense only",
             "Present continuous (〜ている), or negative present (〜ていない) — because 以来[いらい] implies the state CONTINUES to the present",
             "Future tense",
-            "Conditional forms"
+            "Conditional forms, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "て以来[いらい] implies ongoing state. The main clause usually shows: (1) continuous state: 〜ている (working, having, loving); (2) non-occurrence: 〜ていない (haven't done); (3) duration: ずっと〜だ. Past results that ended are typically not expressed with 以来[いらい]."
@@ -721,7 +721,7 @@
             "雨[あめ]が降[ふ]り出[だ]したら、傘[かさ]が壊[こわ]れた。"
           ],
           "correctIndex": 0,
-          "explanation": "Verb past + とたんに: 降[お]り出[だ]した + とたんに = the moment it started raining. 傘[かさ]が壊[こわ]れた = umbrella broke. Murphy's Law timing — typical とたんに scenario."
+          "explanation": "Verb past + とたんに: 降[ふ]り出[だ]した + とたんに = the moment it started raining. 傘[かさ]が壊[こわ]れた = umbrella broke. Murphy's Law timing — typical とたんに scenario."
         },
         {
           "id": "to-tota-n-ni_q4",
@@ -799,7 +799,7 @@
           "prompt": "とたんに often implies what kind of second event?",
           "japanese": null,
           "choices": [
-            "Intentional, planned events",
+            "Intentional, planned events — and this holds in every register, formal or casual.",
             "Unexpected, sudden, or slightly ironic events — things that happened immediately and often surprisingly",
             "Events the speaker intended",
             "Gradual changes"
@@ -858,7 +858,7 @@
             "They are identical",
             "とたんに = instant/sudden second event, often unexpected; てから = neutral sequence (first A, then B — timing not necessarily immediate, no surprise nuance)",
             "てから implies surprise",
-            "とたんに is only for negative events"
+            "とたんに is only for negative events, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "とたんに: immediate + often unexpected. 着[つ]いたとたんに雨[あめ]が降[ふ]った (the moment I arrived, it rained — bad timing). てから: neutral sequence. 着[つ]いてから荷物[にもつ]を解[と]いた (after arriving, I unpacked — normal sequence). とたんに has an immediacy and often irony that てから lacks."

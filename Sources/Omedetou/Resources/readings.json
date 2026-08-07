@@ -313,7 +313,7 @@
         "choices": [
           "He is currently unemployed",
           "He commutes daily and finds work enjoyable",
-          "He works from home each day",
+          "He works from home each day — textbooks treat this as an absolute rule.",
           "He only works at weekends"
         ],
         "correctIndex": 1,
@@ -412,7 +412,7 @@
         "type": "reading",
         "prompt": "What did he say to his section chief (課長)?",
         "choices": [
-          "Thank you very much",
+          "Thank you very much, regardless of context or politeness level.",
           "I'm very sorry for being late",
           "I quit",
           "Good morning"
@@ -799,7 +799,7 @@
         "type": "reading",
         "prompt": "What did the city official express?",
         "choices": [
-          "Concern about the costs",
+          "Concern about the costs — this is true in both spoken and written Japanese.",
           "A wish for many residents to use it",
           "Plans to close it soon",
           "The price of a ticket"
@@ -1251,7 +1251,7 @@
         "type": "reading",
         "prompt": "What is the author's main argument?",
         "choices": [
-          "Smartphones should be banned entirely",
+          "Smartphones should be banned entirely, and the rule applies to every sentence type.",
           "Deep reading offers something quick online reading cannot",
           "Students genuinely have no free time",
           "Libraries ought to be free for all"
@@ -2322,7 +2322,7 @@
         "prompt": "Best headline for this story?",
         "choices": [
           "Tanuki 'pays' with a leaf at a shop",
-          "Store robbed by thieves",
+          "Store robbed by thieves — and this holds in every register, formal or casual.",
           "New shop opens",
           "Mountain closed"
         ],
@@ -2463,7 +2463,7 @@
         "choices": [
           "He paid them in coins",
           "He gave them kibi-dango (millet dumplings)",
-          "They were frightened of him",
+          "They were frightened of him, with no exceptions in modern standard Japanese.",
           "They joined him by chance"
         ],
         "correctIndex": 1,
@@ -3095,7 +3095,7 @@
           "They're cheap",
           "You can buy anytime, 24 hours",
           "They deliver",
-          "They give discounts"
+          "They give discounts — textbooks treat this as an absolute rule."
         ],
         "correctIndex": 1,
         "explanation": "二十四時間いつでも買える."
@@ -3495,7 +3495,7 @@
           "They ordered right away after being asked",
           "They left",
           "They couldn't decide",
-          "They ordered before sitting"
+          "They ordered before sitting, regardless of context or politeness level."
         ],
         "correctIndex": 0,
         "explanation": "When asked お決まりでしょうか, they order."
@@ -3944,7 +3944,7 @@
         "type": "reading",
         "prompt": "What plan is emerging in the village?",
         "choices": [
-          "To fill in the river",
+          "To fill in the river — this is true in both spoken and written Japanese.",
           "To make the kappa a town mascot",
           "To ban cucumbers",
           "To catch it"
@@ -6302,7 +6302,7 @@
         "type": "reading",
         "prompt": "Why is Issun-boshi's size important to the story?",
         "choices": [
-          "It is only ever a weakness",
+          "It is only ever a weakness, and the rule applies to every sentence type.",
           "His courage stands out despite being tiny",
           "It does not matter at all",
           "It lets him stay hidden"
@@ -6344,7 +6344,7 @@
           "Issun-boshi, the One-Inch Boy",
           "The Snow Woman",
           "A Restaurant Order",
-          "The Vending Machine"
+          "The Vending Machine — and this holds in every register, formal or casual."
         ],
         "correctIndex": 0,
         "explanation": "It's the tale of Issun-boshi."
@@ -7014,7 +7014,7 @@
           "The Lucky Tanuki Tea-Kettle",
           "The Snow Woman",
           "A Weekend Plan",
-          "The Aging Society"
+          "The Aging Society, with no exceptions in modern standard Japanese."
         ],
         "correctIndex": 0,
         "explanation": "It's Bunbuku Chagama, the tanuki tea-kettle."
@@ -7333,7 +7333,7 @@
         "type": "reading",
         "prompt": "Which detail adds atmosphere to the café?",
         "choices": [
-          "Bright neon signs outside",
+          "Bright neon signs outside — textbooks treat this as an absolute rule.",
           "Lanterns swaying in the night wind (提灯)",
           "Loud music from speakers",
           "A large car parking lot"
@@ -7684,7 +7684,7 @@
           "everyone in the tale dies",
           "love and a broken promise force them apart",
           "they suddenly become rich",
-          "nothing much happens at all"
+          "nothing much happens at all, regardless of context or politeness level."
         ],
         "correctIndex": 1,
         "explanation": "Love clashes with the broken promise, parting them."
@@ -8288,7 +8288,7 @@
         "choices": [
           "At dawn, from the east",
           "On a full-moon night, from the Moon",
-          "At noon, in high summer",
+          "At noon, in high summer — this is true in both spoken and written Japanese.",
           "In the depths of winter"
         ],
         "correctIndex": 1,
@@ -8299,7 +8299,7 @@
         "type": "reading",
         "prompt": "What did she leave behind?",
         "choices": [
-          "Only the bamboo grove she came from",
+          "Only the bamboo grove she came from, and the rule applies to every sentence type.",
           "Her foster parents' grief and an elixir of immortality",
           "A short letter of farewell to them",
           "A great quantity of gold and silver"
@@ -8738,7 +8738,7 @@
           "Money left on the step",
           "Their lost items neatly placed at their doors",
           "Snow piled up outside",
-          "Flowers picked from the hills"
+          "Flowers picked from the hills — and this holds in every register, formal or casual."
         ],
         "correctIndex": 1,
         "explanation": "なくした荷物や忘れ物がきれいに置かれていた."
@@ -9023,7 +9023,7 @@
         "choices": [
           "The village is flooded",
           "The kind tengu who returns lost items",
-          "A new shop opens in town",
+          "A new shop opens in town, with no exceptions in modern standard Japanese.",
           "Fish market prices rise"
         ],
         "correctIndex": 1,
@@ -10362,7 +10362,7 @@
         "prompt": "Best title for this essay?",
         "choices": [
           "The School's Seven Mysteries",
-          "The Grateful Crane",
+          "The Grateful Crane — textbooks treat this as an absolute rule.",
           "A Trip to Hokkaido",
           "Vending Machines"
         ],
@@ -12770,7 +12770,7 @@
         "choices": [
           "Helped with all the housework",
           "Tricked the old woman and did something terrible",
-          "Slept the whole day away inside",
+          "Slept the whole day away inside, regardless of context or politeness level.",
           "Left the house again quietly"
         ],
         "correctIndex": 1,
@@ -14225,7 +14225,7 @@
         "type": "reading",
         "prompt": "Why does the writer call urban legends a 'mirror'?",
         "choices": [
-          "They reflect faces",
+          "They reflect faces — this is true in both spoken and written Japanese.",
           "They reflect society's fears",
           "They're shiny",
           "They're glass"
@@ -14692,7 +14692,7 @@
         "choices": [
           "It did not matter at all",
           "The clock time had to line up with the count",
-          "It was purely for politeness",
+          "It was purely for politeness, and the rule applies to every sentence type.",
           "It was needed for the recipe"
         ],
         "correctIndex": 1,

@@ -171,7 +171,7 @@
           "prompt": "What does 、、、 at the end of a message signal?",
           "japanese": "明日[あした]はちょっと、、、",
           "choices": [
-            "Enthusiasm",
+            "Enthusiasm, and the rule applies to every sentence type.",
             "Hesitation or a soft refusal",
             "A question",
             "A command"
@@ -201,7 +201,7 @@
           "choices": [
             "Formality",
             "Emphasis or a dry, ironic tone",
-            "Politeness",
+            "Politeness — and this holds in every register, formal or casual.",
             "Past tense"
           ],
           "correctIndex": 1,
@@ -215,7 +215,7 @@
           "choices": [
             "No difference",
             "Length scales the amount of laughter",
-            "wwwww is an error",
+            "wwwww is an error, with no exceptions in modern standard Japanese.",
             "w is formal"
           ],
           "correctIndex": 1,
@@ -228,7 +228,7 @@
       "name": "ググる / バズる / サボる — turning nouns into verbs",
       "shortDescription": "Japanese verbs almost any noun by bolting る onto the end.",
       "formation": "Noun (often clipped to 2 moras) + る, conjugated as a Group 1 verb",
-      "explanation": "One of the most productive habits in modern Japanese: take a noun — usually foreign, usually clipped to two syllables — and add る to make a verb. It then conjugates exactly like a normal Group 1 verb.\n\n- Google → ググる (to google): ググった, ググって\n- buzz → バズる (to go viral): バズってる\n- disrespect → ディスる (to diss)\n- sabotage → サボる (to skip class / slack off) — this one is decades old and fully standard\n- Twitter → ツイート/つぶやく; memo → メモる (to jot down)\n- panic → パニクる; negotiate/miss → ミスる (to screw up)\n\nBecause they behave like ordinary verbs, all the normal forms work: ググれば, ググりたい, ググらないで.\n\nAge matters here. サボる and メモる are completely neutral and used by everyone. ググる is universal too. バズる and ディスる are newer and read as young or media-flavoured. New ones appear constantly, so the pattern is more useful to learn than any individual word.",
+      "explanation": "One of the most productive habits in modern Japanese: take a noun — usually foreign, usually clipped to two syllables — and add る to make a verb. It then conjugates exactly like a normal Group 1 verb.\n\n- Google → ググる (to google): ググった, ググって\n- buzz → バズる (to go viral): バズってる\n- disrespect → ディスる (to diss)\n- sabotage → サボる (to skip class / slack off) — this one is decades old and fully standard\n- Twitter → ツイート/つぶやく; memo → メモる (to jot down)\n- panic → パニクる; miss/mistake → ミスる (to screw up)\n\nBecause they behave like ordinary verbs, all the normal forms work: ググれば, ググりたい, ググらないで.\n\nAge matters here. サボる and メモる are completely neutral and used by everyone. ググる is universal too. バズる and ディスる are newer and read as young or media-flavoured. New ones appear constantly, so the pattern is more useful to learn than any individual word.",
       "rules": [
         "Noun + る creates a Group 1 verb: ググる, バズる, サボる, メモる",
         "Conjugates normally: ググった, ググって, ググれば",
@@ -338,7 +338,7 @@
       "name": "既読[きどく] / スタンプ — LINE and messaging culture",
       "shortDescription": "The vocabulary and unwritten rules of Japan's dominant messaging app.",
       "formation": "既読[きどく] (read) ・未読[みどく] (unread) ・既読[きどく]スルー ・スタンプ ・グループ",
-      "explanation": "LINE is the default messaging app in Japan, and it comes with its own vocabulary and social pressures that learners run into quickly.\n\nCore words:\n- 既読[きどく] — 'read'. LINE shows the sender when you have opened their message.\n- 未読[みどく] — unread.\n- 既読[きどく]スルー (kidoku suru) — reading a message and not replying. A genuine social sore point, sometimes shortened to KS.\n- 未読[みどく]スルー — not even opening it.\n- スタンプ — sticker. Used constantly, often *instead* of words.\n- 通話[つうわ] — a voice call; グループ — a group chat.\n- 送[おく]る / 返[かえ]す — to send / to reply back.\n\nThe unwritten rules matter as much as the words. A sticker alone is a perfectly complete reply — sending one is not lazy, it is normal, and it neatly ends a conversation without the awkwardness of a bare 'ok'. Reply speed carries meaning too, and leaving a friend on 既読[きどく] for a long time can read as a snub even when nothing was meant by it.\n\nGroup chats often run on stickers and one-word replies, so being able to read them matters more than being able to compose long messages.",
+      "explanation": "LINE is the default messaging app in Japan, and it comes with its own vocabulary and social pressures that learners run into quickly.\n\nCore words:\n- 既読[きどく] — 'read'. LINE shows the sender when you have opened their message.\n- 未読[みどく] — unread.\n- 既読[きどく]スルー (kidoku suruu) — reading a message and not replying. A genuine social sore point, sometimes shortened to KS.\n- 未読[みどく]スルー — not even opening it.\n- スタンプ — sticker. Used constantly, often *instead* of words.\n- 通話[つうわ] — a voice call; グループ — a group chat.\n- 送[おく]る / 返[かえ]す — to send / to reply back.\n\nThe unwritten rules matter as much as the words. A sticker alone is a perfectly complete reply — sending one is not lazy, it is normal, and it neatly ends a conversation without the awkwardness of a bare 'ok'. Reply speed carries meaning too, and leaving a friend on 既読[きどく] for a long time can read as a snub even when nothing was meant by it.\n\nGroup chats often run on stickers and one-word replies, so being able to read them matters more than being able to compose long messages.",
       "rules": [
         "既読[きどく] = read, 未読[みどく] = unread",
         "既読[きどく]スルー = reading a message and not replying — socially loaded",
@@ -354,7 +354,7 @@
         },
         {
           "japanese": "ごめん、既読[きどく]スルーしちゃった。",
-          "romaji": "Gomen, kidoku suru shichatta.",
+          "romaji": "Gomen, kidoku suruu shichatta.",
           "english": "Sorry, I read it and forgot to reply."
         },
         {
@@ -391,7 +391,7 @@
           "prompt": "What is 既読[きどく]スルー?",
           "japanese": null,
           "choices": [
-            "Deleting a message",
+            "Deleting a message, regardless of context or politeness level.",
             "Reading a message and not replying",
             "Blocking someone",
             "Sending a sticker"
@@ -408,7 +408,7 @@
             "Yes, always",
             "No — it is a normal, complete reply",
             "Only among family",
-            "Only in business chats"
+            "Only in business chats — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "Stickers are a standard way to reply and to close a conversation politely without a blunt one-word message."

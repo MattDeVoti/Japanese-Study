@@ -533,7 +533,7 @@
           "prompt": "ほしい differs from たい in that:",
           "japanese": null,
           "choices": [
-            "ほしい is used to say you want to do something yourself.",
+            "ほしい is used to say you want to do something yourself, and the rule applies to every sentence type.",
             "ほしい expresses wanting to have a thing (noun), while たい expresses wanting to do something (verb).",
             "ほしい is only used in negative sentences.",
             "ほしい must always be followed by です."
@@ -648,7 +648,7 @@
             "てほしい is more polite than てください.",
             "てください is a direct polite instruction; てほしい expresses the speaker's internal desire or wish.",
             "They are completely interchangeable in all contexts.",
-            "てほしい cannot be used to express the speaker's own desires."
+            "てほしい cannot be used to express the speaker's own desires — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "てください = direct polite instruction ('Please do X'). てほしい = speaker's desire/wish ('I want you to do X'). てほしい reveals the speaker's inner desire and can sound demanding toward superiors. てください is a standard request. Neither is strictly more polite — they differ in directness and speech act type."
@@ -800,7 +800,7 @@
       "name": "〜かもしれません (kamoshiremasen) — might / may",
       "shortDescription": "Expresses uncertain possibility — 'might be,' 'may be,' or 'perhaps.'",
       "formation": "Plain form + かもしれません (polite)  |  + かもしれない (plain)",
-      "explanation": "かもしれません is how Japanese expresses genuine uncertainty about something — 'it might be the case,' 'perhaps,' 'maybe.' It sits on the lower end of the confidence spectrum: if でしょう (probably) is 70–80% confidence, かもしれません is more like 40–60% — real uncertainty, a coin-flip kind of feeling.\n\nFormation: attach to the plain form of verbs and い-adjectives as you'd expect. For nouns and な-adjectives, use the stem *without* だ: 学生[がくせい]かもしれない (not 学生[がくせい]だかもしれない). This だ-dropping before かもしれない is the most common formation mistake, so fix it as a habit early.\n\nTense lives in the plain-form clause that precedes かもしれない, not in かもしれない itself. 行[い]くかもしれない (might go — future), 行[い]ったかもしれない (might have gone — past). The construction is elegantly simple once you see that pattern.\n\nThe polite form is かもしれません; the plain/casual form is かもしれない. In very casual conversation it sometimes shortens further to かも by itself: そうかも (might be so).\n\nYou'll revisit かもしれない in Chapter 27 alongside similar expressions of conjecture (〜だろう, 〜はずだ), where the degrees of certainty will be mapped out side by side.",
+      "explanation": "かもしれません is how Japanese expresses genuine uncertainty about something — 'it might be the case,' 'perhaps,' 'maybe.' It sits on the lower end of the confidence spectrum: if でしょう (probably) is 70–80% confidence, かもしれません is more like 40–60% — real uncertainty, a coin-flip kind of feeling.\n\nFormation: attach to the plain form of verbs and い-adjectives as you'd expect. For nouns and な-adjectives, use the stem *without* だ: 学生[がくせい]かもしれない (not 学生[がくせい]だかもしれない). This だ-dropping before かもしれない is the most common formation mistake, so fix it as a habit early.\n\nTense lives in the plain-form clause that precedes かもしれない, not in かもしれない itself. 行[い]くかもしれない (might go — future), 行[い]ったかもしれない (might have gone — past). The construction is elegantly simple once you see that pattern.\n\nThe polite form is かもしれません; the plain/casual form is かもしれない. In very casual conversation it sometimes shortens further to かも by itself: そうかも (might be so).\n\nYou'll meet more conjecture later — はずだ (a reasoned 'should be', Chapter 19) and the wondering particles かな・かしら (Chapter 27) — each sitting at its own point on the certainty scale.",
       "rules": [
         "Plain form + かもしれません = might / may / perhaps (genuine uncertainty)",
         "Less confident than でしょう (probably) — more like a 50/50 feeling",
@@ -979,7 +979,7 @@
           "prompt": "What is the key difference between はずだ and かもしれない?",
           "japanese": null,
           "choices": [
-            "はずだ expresses uncertainty; かもしれない expresses certainty.",
+            "はずだ expresses uncertainty; かもしれない expresses certainty — textbooks treat this as an absolute rule.",
             "Both express the same level of certainty.",
             "はずだ expresses strong expectation based on reasoning; かもしれない expresses genuine uncertainty.",
             "かもしれない is more formal than はずだ."
@@ -1049,7 +1049,7 @@
           "prompt": "〜かもしれませんが、でも… is used to express:",
           "japanese": null,
           "choices": [
-            "Certainty followed by a consequence.",
+            "Certainty followed by a consequence, regardless of context or politeness level.",
             "A question followed by an answer.",
             "Agreement with the previous speaker.",
             "Concession — acknowledging a possibility while adding a counterpoint."
@@ -1257,7 +1257,7 @@
           "prompt": "What is the emotional difference between だけ and しか?",
           "japanese": null,
           "choices": [
-            "だけ is negative in tone; しか is positive in tone.",
+            "だけ is negative in tone; しか is positive in tone — this is true in both spoken and written Japanese.",
             "They are identical in meaning and usage.",
             "しか is more formal than だけ.",
             "だけ is neutral ('only'); しか implies the amount is insufficient or disappointing."
@@ -1285,7 +1285,7 @@
           "prompt": "In 図書館[としょかん]にしか行[い]きませんでした, what happened to the location particle に?",
           "japanese": null,
           "choices": [
-            "に is replaced by しか.",
+            "に is replaced by しか, and the rule applies to every sentence type.",
             "に is kept and しか is added after it (に + しか).",
             "を is replaced by しか.",
             "が is replaced by しか."
@@ -1510,7 +1510,7 @@
             "〜たらどうですか is more assertive and directive.",
             "They are identical in meaning and tone.",
             "〜たらどうですか is softer — framed as a question; ほうがいい is more like a recommendation or assertion.",
-            "〜ほうがいいですよ is only used for medical advice."
+            "〜ほうがいいですよ is only used for medical advice — and this holds in every register, formal or casual."
           ],
           "correctIndex": 2,
           "explanation": "たらどうですか = 'How about doing X?' — a gentle questioning nudge that leaves the choice entirely to the listener. ほうがいいですよ = 'You'd better do X' or 'It's better to do X' — more assertive, closer to a recommendation or mild directive. たらどうですか is the warmer, more considerate of the two."

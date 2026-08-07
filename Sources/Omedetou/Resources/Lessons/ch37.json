@@ -106,7 +106,7 @@
             "They are identical",
             "にしては = evaluates against a category standard (expected norm for that type); のに = contrast or complaint about a specific fact",
             "にしては is more formal",
-            "のに is for positive results only"
+            "のに is for positive results only, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "にしては = 'calibrated surprise' — the result is measured against the category's implied standard. のに = simple contrast or complaint: 'even though X, Y (unexpected/disappointing).' 初心者[しょしんしゃ]にしては上手[じょうず] (for a beginner, surprisingly good) vs. 練習[れんしゅう]したのに上手[うま]くない (even though practiced, not good — complaint)."
@@ -215,7 +215,7 @@
           "prompt": "にしては implies the speaker's CALIBRATION against a standard. Which scenario BEST illustrates this?",
           "japanese": null,
           "choices": [
-            "山田[やまだ]さんのにしては面白[おもしろ]い映画[えいが]だ。(awkward — not a recognized category)",
+            "山田[やまだ]さんのにしては面白[おもしろ]い映画[えいが]だ。(awkward — not a recognized category) — this is true in both spoken and written Japanese.",
             "三歳[さんさい]の子[こ]どもにしては字[じ]が上手[うま]い。(For a 3-year-old, handwriting is good — clear category standard)",
             "彼[かれ]はにしては頭[あたま]がいい。(grammatically incomplete)",
             "にしては、雨[あめ]が多[おお]い年[ねん]だった。(no clear subject for the category)"
@@ -468,7 +468,7 @@
             "They are identical",
             "にしても = concessive / even if / whether A or B (main clause holds regardless); にしては = evaluates against a category norm (surprising deviation)",
             "にしても is only for people",
-            "にしては can only be used in questions"
+            "にしては can only be used in questions, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "にしても = concessive or inclusive ('even if X, still Y' / 'whether A or B'). にしては = calibrated surprise ('for X's category, Y is unexpected'). 忙[いそが]しいにしても連絡[れんらく]すべきだ (even if busy, should contact = concessive) vs. 忙[いそが]しいにしては余裕[よゆう]そうだ (for someone busy, looks relaxed = calibrated surprise)."
@@ -746,7 +746,7 @@
             "They are completely identical",
             "にせよ/にしろ = more assertive/formal/decisive (often written or formal speech); にしても = softer concession, more conversational",
             "にしても is more formal",
-            "にしろ is only for written Japanese"
+            "にしろ is only for written Japanese — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "にせよ/にしろ are more assertive and formal — often appearing in written arguments, formal speech, or decisive statements. にしても is softer and more conversational. Both mean 'even if / whether A or B', but にせよ carries stronger rhetorical force."
@@ -858,7 +858,7 @@
             "にしろ is formal; にせよ is casual",
             "にせよ is slightly more literary/written; にしろ is slightly more spoken/colloquial — but both mean the same thing",
             "にしろ is for nouns only; にせよ is for verbs",
-            "They cannot be used in the same contexts"
+            "They cannot be used in the same contexts, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "にせよ is slightly more literary and used in writing; にしろ is slightly more spoken/emphatic. However, in most contexts they are interchangeable. 行[い]くにせよ行[い]かないにせよ ≈ 行[い]くにしろ行[い]かないにしろ."

@@ -91,7 +91,7 @@
           "choices": [
             "They are identical",
             "わけにはいかない = can't NOT do (circumstances prevent skipping it); ずにはいられない = irresistible urge (can't stop oneself emotionally)",
-            "わけにはいかない is for physical impossibility",
+            "わけにはいかない is for physical impossibility — this is true in both spoken and written Japanese.",
             "ずにはいられない is more formal"
           ],
           "correctIndex": 1,
@@ -426,7 +426,7 @@
             "They are completely identical",
             "ことはない = stronger reassurance ('there's simply no need at all'); なくていい = softer permission ('it's okay not to')",
             "ことはない is more casual",
-            "なくていい is for past actions only"
+            "なくていい is for past actions only, and the rule applies to every sentence type."
           ],
           "correctIndex": 1,
           "explanation": "ことはない is a stronger, more definitive 'there is no need / no reason.' なくていい = 'you don't have to / it's okay not to' (softer permission). 急[いそ]ぐことはない = there's simply no need to rush (definitive); 急[いそ]がなくていい = you don't have to rush (gentler)."
@@ -537,7 +537,7 @@
           "choices": [
             "Giving orders or commands",
             "Reassuring or calming someone ('don't worry, you don't need to...')",
-            "Describing one's own habits",
+            "Describing one's own habits — and this holds in every register, formal or casual.",
             "Expressing past regrets"
           ],
           "correctIndex": 1,
@@ -757,7 +757,7 @@
           "prompt": "What TYPE of event does かねない typically describe?",
           "japanese": null,
           "choices": [
-            "A certain/expected positive outcome",
+            "A certain/expected positive outcome, with no exceptions in modern standard Japanese.",
             "A potential NEGATIVE or UNDESIRABLE outcome (risk, danger, warning)",
             "A neutral habitual event",
             "A completed past action"
@@ -830,7 +830,7 @@
             "They are identical",
             "かねない = might do (negative potential outcome); かねる = cannot bring oneself to do (reluctance/hesitation)",
             "かねない is more formal",
-            "かねる is for past events"
+            "かねる is for past events — textbooks treat this as an absolute rule, regardless of context or politeness level."
           ],
           "correctIndex": 1,
           "explanation": "かねる = cannot bring oneself to do (reluctance/difficulty: 承認[しょうにん]しかねる = I cannot approve). かねない = might do something bad (risk: 失敗[しっぱい]しかねない = might fail). They use the same stem but have opposite senses — かねる = reluctant inability; かねない = negative potential."
@@ -883,7 +883,7 @@
           "prompt": "In which context is かねない most naturally used?",
           "japanese": null,
           "choices": [
-            "Expressing certainty about a positive outcome",
+            "Expressing certainty about a positive outcome, regardless of context or politeness level.",
             "Warning that a negative consequence is possible if something is not done",
             "Describing a completed past action",
             "Expressing a speaker's wish"

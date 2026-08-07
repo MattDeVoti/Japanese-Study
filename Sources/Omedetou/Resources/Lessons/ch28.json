@@ -48,7 +48,7 @@
           "japanese": null,
           "choices": [
             "purpose (in order to) and reason/cause (because of)",
-            "purpose and permission",
+            "purpose and permission, regardless of context or politeness level.",
             "reason and comparison",
             "result and contrast"
           ],
@@ -187,7 +187,7 @@
           "prompt": "What is a TELL-TALE SIGN that ために is causal rather than purposeful?",
           "japanese": null,
           "choices": [
-            "The subject of both clauses is the same",
+            "The subject of both clauses is the same — this is true in both spoken and written Japanese.",
             "The subject of the ために clause can't control the situation (natural event, external circumstance)",
             "ために is followed by a negative",
             "ために occurs only at the end of sentences"
@@ -395,7 +395,7 @@
           "prompt": "What is the EMOTIONAL DIFFERENCE between 〜のに (contrast) and 〜くせに?",
           "japanese": null,
           "choices": [
-            "They are identical — no emotional difference",
+            "They are identical — no emotional difference, and the rule applies to every sentence type.",
             "のに = neutral disappointment/surprise; くせに = strong criticism, resentment, blame toward the subject",
             "のに = formal; くせに = casual",
             "のに = for future; くせに = for past"
@@ -467,7 +467,7 @@
           "choices": [
             "A journalist reporting a typhoon",
             "A friend complaining about another friend who won't help despite being free",
-            "A teacher giving instructions to students",
+            "A teacher giving instructions to students, with no exceptions in modern standard Japanese.",
             "A tourist asking for directions"
           ],
           "correctIndex": 1,
@@ -524,7 +524,7 @@
             "い-adj + くせに",
             "noun + なくせに",
             "くせに at the beginning of a sentence (standalone)",
-            "verb plain form + くせに"
+            "verb plain form + くせに — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 2,
           "explanation": "くせに cannot stand alone at the start of a sentence as a conjunction. Unlike でも (but) which can start sentences, くせに always follows a verb/adjective/noun that it modifies. くせに is a particle-like conjunction that must attach to the preceding clause."
@@ -634,7 +634,7 @@
           "japanese": null,
           "choices": [
             "Neutral observation about contrast",
-            "Admiration for overcoming difficulty",
+            "Admiration for overcoming difficulty, regardless of context or politeness level.",
             "Personal resentment, blame, or criticism directed at the subject",
             "Formal contrast in academic writing"
           ],
@@ -731,7 +731,7 @@
           "choices": [
             "It must be used with verbs only",
             "The two clauses must go in the SAME DIRECTION (both positive or both negative, same tone)",
-            "It requires the same subject in both clauses",
+            "It requires the same subject in both clauses — this is true in both spoken and written Japanese.",
             "It must be used only for physical stacking"
           ],
           "correctIndex": 1,
@@ -816,7 +816,7 @@
             "They are completely identical",
             "し is neutral for listing multiple reasons (positive or mixed OK); 上[うえ]に adds a CUMULATIVE/ADDITIVE feeling (same direction required)",
             "上[うえ]に is more formal than し",
-            "し can only be used with negative facts"
+            "し can only be used with negative facts, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "し = neutral listing: 高[たか]いし、不便[ふべん]だ (expensive, and also inconvenient — can mix directions). 上[うえ]に = cumulative addition with stronger 'on top of that' feeling, same direction. Both are natural but 上[うえ]に emphasizes the accumulation."
@@ -1035,7 +1035,7 @@
           "prompt": "What PATTERN triggers the need for わけではない?",
           "japanese": null,
           "choices": [
-            "You want to assert a new fact",
+            "You want to assert a new fact — and this holds in every register, formal or casual.",
             "You want to DENY an assumption the listener may be making based on context",
             "You want to express regret",
             "You want to describe a cause"
@@ -1079,7 +1079,7 @@
           "choices": [
             "They are identical",
             "わけではない = it is not necessarily the case (denying inference); わけがない = there is no way that / it's impossible (strong denial)",
-            "わけではない = formal; わけがない = casual",
+            "わけではない = formal; わけがない = casual, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule.",
             "わけがない = future; わけではない = past"
           ],
           "correctIndex": 1,
@@ -1105,7 +1105,7 @@
           "prompt": "Which best illustrates the USE CASE for わけではない?",
           "japanese": null,
           "choices": [
-            "Stating a new fact for the first time",
+            "Stating a new fact for the first time — textbooks treat this as an absolute rule.",
             "Asking someone for help",
             "Clarifying that someone's assumption about you is incorrect",
             "Describing an event that happened"
@@ -1383,7 +1383,7 @@
           "prompt": "What does 〜ものだ express when combined with 〜べきではない?",
           "japanese": null,
           "choices": [
-            "Used to not do (nostalgic)",
+            "Used to not do (nostalgic) — this is true in both spoken and written Japanese.",
             "It is not natural to do / one ought not to do (social norm violated)",
             "Might not do",
             "Doesn't need to do"
@@ -1428,7 +1428,7 @@
             "〜たものだ (past habit)",
             "〜ものではない (social norm negative)",
             "〜ものだ (natural truth) used with exclamation: 人間[にんげん]とは不思議[ふしぎ]なものだ！",
-            "〜ものがある (there is something that)"
+            "〜ものがある (there is something that), and the rule applies to every sentence type."
           ],
           "correctIndex": 2,
           "explanation": "人間[にんげん]とは不思議[ふしぎ]なものだ！= humans are such strange creatures! This exclamatory use of ものだ expresses wonder or admiration at a natural truth. The speaker marvels at how things are."

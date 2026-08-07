@@ -649,14 +649,14 @@
       "name": "〜そうです (looks like / seems) — appearance-based inference",
       "shortDescription": "Expresses a direct-observation impression — 'looks like' or 'seems' based on what you can see right now.",
       "formation": "い-adj stem (drop い) + そうです  |  な-adj stem + そうです  |  Verb stem + そうです",
-      "explanation": "〜そうです is your grammar for first impressions. It expresses what something appears to be based on direct sensory evidence — usually what you're seeing in the moment. The key word is *direct*: you're reacting to what's in front of you, not reporting something you heard or read.\n\nFormation is the part that catches people out. For い-adjectives, drop the final い before adding そう: おいしい → おいしそう (looks delicious), 難[むずか]しい → 難[むずか]しそう (looks difficult). For な-adjectives, drop な: 元気[げんき]な → 元気[げんき]そう (looks healthy/well). For verbs, use the verb stem (the ます-form base): 降[お]ります → 降[お]りそう, giving us 雨[あめ]が降[ふ]りそうです (It looks like it's going to rain).\n\nTwo exceptions are worth memorizing cold: いい (good) becomes よさそう — *not* いそう — and ない becomes なさそう — *not* なそう. These are the irregulars that trip up intermediate learners.\n\nKeep in mind: there's a completely different そうです that means 'I heard that…' and attaches to a full plain form. You'll study that version in Chapter 20. The key distinction: appearance そうです attaches to adjective/verb *stems*; hearsay そうです attaches to *complete plain-form clauses*.",
+      "explanation": "〜そうです is your grammar for first impressions. It expresses what something appears to be based on direct sensory evidence — usually what you're seeing in the moment. The key word is *direct*: you're reacting to what's in front of you, not reporting something you heard or read.\n\nFormation is the part that catches people out. For い-adjectives, drop the final い before adding そう: おいしい → おいしそう (looks delicious), 難[むずか]しい → 難[むずか]しそう (looks difficult). For な-adjectives, drop な: 元気[げんき]な → 元気[げんき]そう (looks healthy/well). For verbs, use the verb stem (the ます-form base): 降[ふ]ります → 降[ふ]りそう, giving us 雨[あめ]が降[ふ]りそうです (It looks like it's going to rain).\n\nTwo exceptions are worth memorizing cold: いい (good) becomes よさそう — *not* いそう — and ない becomes なさそう — *not* なそう. These are the irregulars that trip up intermediate learners.\n\nKeep in mind: there's a completely different そうです that means 'I heard that…' and attaches to a full plain-form clause: 雨[あめ]が降[ふ]るそうです = 'I hear it will rain.' The key distinction: appearance そうです attaches to adjective/verb *stems*; hearsay そうです attaches to *complete plain-form clauses*.",
       "rules": [
         "い-adj: drop い + そう (おいしい → おいしそう = looks delicious)",
         "な-adj: stem only + そう (元気[げんき] → 元気[げんき]そう = looks healthy)",
-        "Verb stem (ます-base) + そう (降[お]り → 降[お]りそう = looks like it will rain)",
+        "Verb stem (ます-base) + そう (降[ふ]り → 降[ふ]りそう = looks like it will rain)",
         "Irregular exceptions: いい → よさそう; ない → なさそう",
         "Based on direct visual/sensory evidence — reacting to what you perceive right now",
-        "Different from hearsay そうです (Chapter 20) — that attaches to full plain-form clauses"
+        "Different from hearsay そうです (降[ふ]るそうだ = I hear it will rain) — that attaches to full plain-form clauses"
       ],
       "examples": [
         {
@@ -737,7 +737,7 @@
             "雨[あめ]が降[ふ]りそうです。"
           ],
           "correctIndex": 3,
-          "explanation": "Verb masu-stem + そう: 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. This expresses direct visual observation (e.g., dark sky). 降[ふ]るそうです = hearsay 'I heard it will rain' (plain form + そうだ). 降[ふ]ってそうです is non-standard. 降[お]りますそうです incorrectly adds そう to the full polite form."
+          "explanation": "Verb masu-stem + そう: 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. This expresses direct visual observation (e.g., dark sky). 降[ふ]るそうです = hearsay 'I heard it will rain' (plain form + そうだ). 降[ふ]ってそうです is non-standard. 降[ふ]りますそうです incorrectly adds そう to the full polite form."
         },
         {
           "id": "sou-desu-appearance_q5",
@@ -817,7 +817,7 @@
           "choices": [
             "Appearance そうです is more formal; hearsay そうです is more casual",
             "Appearance そうです attaches to adjective/verb stems; hearsay そうです attaches to full plain-form clauses",
-            "Both attach to plain-form; only the surrounding context differs",
+            "Both attach to plain-form; only the surrounding context differs, with no exceptions in modern standard Japanese.",
             "Appearance そうです uses で; hearsay そうです uses に"
           ],
           "correctIndex": 1,
@@ -955,13 +955,13 @@
           "prompt": "Which correctly identifies whether そうです is appearance or hearsay in each sentence?",
           "japanese": null,
           "choices": [
-            "雨[あめ]が降[ふ]りそうです (hearsay) vs 雨[あめ]が降[ふ]るそうです (appearance)",
-            "Both 降[お]りそうです and 降[ふ]るそうです express appearance",
-            "Both 降[お]りそうです and 降[ふ]るそうです express hearsay",
+            "雨[あめ]が降[ふ]りそうです (hearsay) vs 雨[あめ]が降[ふ]るそうです (appearance) — textbooks treat this as an absolute rule.",
+            "Both 降[ふ]りそうです and 降[ふ]るそうです express appearance",
+            "Both 降[ふ]りそうです and 降[ふ]るそうです express hearsay",
             "雨[あめ]が降[ふ]りそうです (appearance: masu-stem + そう) vs 雨[あめ]が降[ふ]るそうです (hearsay: plain form + そう)"
           ],
           "correctIndex": 3,
-          "explanation": "The formation is the key: appearance そう uses the masu-stem (降[お]り + そう) → 降[お]りそうです = 'looks like it will rain' (your observation of dark clouds). Hearsay そう uses the full plain dictionary form (降[ふ]る + そう) → 降[ふ]るそうです = 'I heard it will rain' (someone told you). Same word, opposite information source."
+          "explanation": "The formation is the key: appearance そう uses the masu-stem (降[ふ]り + そう) → 降[ふ]りそうです = 'looks like it will rain' (your observation of dark clouds). Hearsay そう uses the full plain dictionary form (降[ふ]る + そう) → 降[ふ]るそうです = 'I heard it will rain' (someone told you). Same word, opposite information source."
         }
       ]
     },
@@ -1401,7 +1401,7 @@
           "choices": [
             "てみる implies the action succeeded; ようとする implies it failed",
             "てみる = try experimentally to see how it goes; ようとする = attempt (may be effortful or incomplete)",
-            "ようとする is for Group 2 verbs only; てみる is for all verb groups",
+            "ようとする is for Group 2 verbs only; てみる is for all verb groups, regardless of context or politeness level.",
             "Both are completely interchangeable"
           ],
           "correctIndex": 1,
@@ -1554,7 +1554,7 @@
           "japanese": null,
           "choices": [
             "Using the dictionary form directly before みる (e.g., 食[た]べるみる) instead of the te-form (食[た]べてみる)",
-            "Placing the te-form before みる",
+            "Placing the te-form before みる — this is true in both spoken and written Japanese.",
             "Making みる negative: 食[た]べてみない",
             "Applying てみる to する verbs"
           ],

@@ -328,14 +328,14 @@
       "name": "〜たら (tara) — when/if (conditional)",
       "shortDescription": "A versatile conditional: 'when' for certain events, 'if' for hypotheticals, and discovery upon arrival.",
       "formation": "Verb/Adj (た-form) + ら  |  Noun / な-adj + だったら",
-      "explanation": "たら is the Swiss Army knife of Japanese conditionals — it covers more territory than any other conditional, which is why it's the one to master first.\n\nFormation: take the plain past (た-form) of any verb or adjective and add ら. 食[た]べた → 食[た]べたら. For nouns and な-adjectives, use だったら.\n\nThree distinct uses, all formed the same way:\n\n1. Future-as-certain 'when': when the condition is something that will definitely happen, たら means 'when': 家[いえ]に帰[かえ]ったら、電話[でんわ]します (When I get home, I'll call you). This is extremely common for instructions, promises, and plans.\n\n2. Hypothetical 'if': when the condition is uncertain or counterfactual, たら means 'if': もし百万[まん]円[えん]あったら、旅行[りょこう]したい (If I had a million yen, I'd travel). もし (if) often signals this usage.\n\n3. Discovery upon completion: one of たら's most distinctive uses is expressing surprised discovery when you do something and find an unexpected state: 窓[まど]を開[あ]けたら、雪[ゆき]が降[ふ]っていた (When I opened the window — there was snow). The discovery 'and then I found that…' feel is uniquely たら.\n\nImportant rule: when たら expresses a temporal sequence (uses 1 and 3), the main clause cannot be a command or request — 〜たら、〜てください is not natural for temporal 'when'; reserve that for the hypothetical 'if' use.",
+      "explanation": "たら is the Swiss Army knife of Japanese conditionals — it covers more territory than any other conditional, which is why it's the one to master first.\n\nFormation: take the plain past (た-form) of any verb or adjective and add ら. 食[た]べた → 食[た]べたら. For nouns and な-adjectives, use だったら.\n\nThree distinct uses, all formed the same way:\n\n1. Future-as-certain 'when': when the condition is something that will definitely happen, たら means 'when': 家[いえ]に帰[かえ]ったら、電話[でんわ]します (When I get home, I'll call you). This is extremely common for instructions, promises, and plans.\n\n2. Hypothetical 'if': when the condition is uncertain or counterfactual, たら means 'if': もし百万[まん]円[えん]あったら、旅行[りょこう]したい (If I had a million yen, I'd travel). もし (if) often signals this usage.\n\n3. Discovery upon completion: one of たら's most distinctive uses is expressing surprised discovery when you do something and find an unexpected state: 窓[まど]を開[あ]けたら、雪[ゆき]が降[ふ]っていた (When I opened the window — there was snow). The discovery 'and then I found that…' feel is uniquely たら.\n\nOne of たら's strengths: unlike と, the main clause CAN be a request, command, or invitation — 家[いえ]に着[つ]いたら、電話[でんわ]してください (When you arrive, please call) is completely natural. When you need a conditional before an instruction, たら is the one to reach for.",
       "rules": [
         "た-form + ら = conditional: 'when' (definite future) or 'if' (hypothetical)",
         "Noun / な-adj + だったら = if it is / if it were [noun/な-adj]",
         "Use 1 — definite 'when': 家[いえ]に帰[かえ]ったら、連絡[れんらく]します (sequential, expected events)",
         "Use 2 — hypothetical 'if': もし〜たら (uncertain or counterfactual conditions)",
         "Use 3 — discovery: 〜たら、unexpected result (and then I found / when I did X, Y was the case)",
-        "Temporal たら (uses 1 & 3): main clause is usually a statement, not a request/command"
+        "Unlike と, たら happily takes requests/commands in the main clause: 着[つ]いたら電話[でんわ]してください"
       ],
       "examples": [
         {
@@ -494,7 +494,7 @@
           "prompt": "What does もし do when used with たら?",
           "japanese": null,
           "choices": [
-            "It changes the meaning to 'even if'",
+            "It changes the meaning to 'even if', and the rule applies to every sentence type.",
             "It signals the condition is hypothetical / not certain",
             "It makes the condition more polite",
             "It replaces たら with ば"
@@ -1497,7 +1497,7 @@
             "あいだ is for nouns; あいだに is for verbs",
             "あいだ = throughout the whole period; あいだに = at some point during the period",
             "あいだ = more casual; あいだに = more formal",
-            "あいだ = past only; あいだに = present or future"
+            "あいだ = past only; あいだに = present or future — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "あいだ (no に) = the action/state lasts THROUGHOUT the duration. あいだに (with に) = something happens AT SOME POINT during the duration. 眠[ねむ]っているあいだ、夢[ゆめ]を見[み]た (dreamed throughout) vs あいだに泥棒[どろぼう]が入[はい]った (thief entered at some point)."
@@ -1524,7 +1524,7 @@
           "choices": [
             "ながら = two events; あいだに = one event only",
             "ながら = any length; あいだに = brief moments only",
-            "ながら = can be different actors; あいだに = always same actor",
+            "ながら = can be different actors; あいだに = always same actor, with no exceptions in modern standard Japanese.",
             "ながら = same actor doing two things; あいだに = different events can involve different people"
           ],
           "correctIndex": 3,

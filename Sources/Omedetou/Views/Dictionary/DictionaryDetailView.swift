@@ -27,6 +27,63 @@ struct DictionaryDetailView: View {
         GameUnlocks.shared.unlock(.shiritori)
     }
 
+    /// Example sentences, each with its own speaker button.
+    ///
+    /// Lesson sentences are drawn with FuriganaText so their readings show;
+    /// corpus sentences have no readings, so they're plain — which is exactly why
+    /// the speaker button matters more for those, not less. A learner who can't
+    /// read every kanji can still hear the sentence.
+    @ViewBuilder
+    private var examplesSection: some View {
+        let examples = DictionaryService.shared.examples(for: entry.id)
+        if !examples.isEmpty {
+            VStack(alignment: .leading, spacing: 10) {
+                Text("EXAMPLES")
+                    .font(.system(size: 11, weight: .bold))
+                    .tracking(0.6)
+                    .foregroundColor(.appTextSecondary)
+
+                ForEach(examples) { ex in
+                    HStack(alignment: .top, spacing: 10) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            if ex.fromLesson {
+                                FuriganaText(text: ex.japanese, fontSize: 16, color: .appText)
+                            } else {
+                                Text(ex.japanese)
+                                    .font(.system(size: 16))
+                                    .foregroundColor(.appText)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                            // Sentences taken from the reading passages have no
+                            // translation of their own — the entry above already
+                            // gives the meaning, so an empty line is just omitted.
+                            if !ex.english.isEmpty {
+                                Text(ex.english)
+                                    .font(.system(size: 13))
+                                    .foregroundColor(.appTextSecondary)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+                        }
+                        Spacer(minLength: 4)
+                        // Read the sentence, not the headword — the furigana
+                        // brackets have to come out first or they get spoken.
+                        SpeakButton(text: ex.japanese.replacingOccurrences(
+                                        of: "\\[[^\\]]*\\]", with: "",
+                                        options: .regularExpression), size: 18)
+                    }
+                    .padding(12)
+                    .background(RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(Color.appSurface))
+                    .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .strokeBorder(Color.appHairline, lineWidth: 1))
+                }
+            }
+            .padding(.horizontal, 20)
+            .padding(.top, 8)
+            .padding(.bottom, 4)
+        }
+    }
+
     /// "See also" — words with the same sense, and words with the opposite one.
     /// Absent entirely when there is nothing to show, which is most entries: the
     /// synonym rule is deliberately strict, so an empty footer is the normal case
@@ -199,6 +256,8 @@ struct DictionaryDetailView: View {
                         }
                         .padding(.bottom, 16)
                     }
+
+                    examplesSection
 
                     relatedSection
                 }

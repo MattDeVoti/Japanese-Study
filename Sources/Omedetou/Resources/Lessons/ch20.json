@@ -119,7 +119,7 @@
           "choices": [
             "A direct quote",
             "A definition or explanation of a term",
-            "An action someone did",
+            "An action someone did, regardless of context or politeness level.",
             "A future plan"
           ],
           "correctIndex": 1,
@@ -1120,7 +1120,7 @@
           "prompt": "What does 〜させていただきます express?",
           "japanese": null,
           "choices": [
-            "'I will make you do [something]'",
+            "'I will make you do [something]' — this is true in both spoken and written Japanese.",
             "'I will humbly do [something] with permission'",
             "'Please let me [do something]'",
             "'I cannot do [something]'"
@@ -1190,7 +1190,7 @@
           "prompt": "Which best explains why させてください is more polite than してください?",
           "japanese": null,
           "choices": [
-            "してください is past tense; させてください is future",
+            "してください is past tense; させてください is future, and the rule applies to every sentence type.",
             "させてください requests PERMISSION for your own action; してください asks another to act",
             "させてください is more expensive to say",
             "There is no difference in politeness"

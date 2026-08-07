@@ -16,10 +16,26 @@
         "か is also the question particle: adding か to the end of a sentence makes it a yes-or-no question."
       ],
       "examples": [
-        {"japanese": "かお", "romaji": "kao", "english": "face"},
-        {"japanese": "あか", "romaji": "aka", "english": "red"},
-        {"japanese": "かう", "romaji": "kau", "english": "to buy"},
-        {"japanese": "えかき", "romaji": "ekaki", "english": "painter / artist"}
+        {
+          "japanese": "かお",
+          "romaji": "kao",
+          "english": "face"
+        },
+        {
+          "japanese": "あか",
+          "romaji": "aka",
+          "english": "red"
+        },
+        {
+          "japanese": "かう",
+          "romaji": "kau",
+          "english": "to buy"
+        },
+        {
+          "japanese": "えかき",
+          "romaji": "ekaki",
+          "english": "painter / artist"
+        }
       ],
       "flashcardHeader": "か",
       "flashcardAnswer": "ka — like the 'ka' in 'karate'",
@@ -38,10 +54,26 @@
         "き can appear alone as a word meaning 'tree' or 'spirit / energy' depending on context."
       ],
       "examples": [
-        {"japanese": "いき", "romaji": "iki", "english": "breath"},
-        {"japanese": "きく", "romaji": "kiku", "english": "to listen / chrysanthemum"},
-        {"japanese": "おき", "romaji": "oki", "english": "offshore / open sea"},
-        {"japanese": "あき", "romaji": "aki", "english": "autumn"}
+        {
+          "japanese": "いき",
+          "romaji": "iki",
+          "english": "breath"
+        },
+        {
+          "japanese": "きく",
+          "romaji": "kiku",
+          "english": "to listen / chrysanthemum"
+        },
+        {
+          "japanese": "おき",
+          "romaji": "oki",
+          "english": "offshore / open sea"
+        },
+        {
+          "japanese": "あき",
+          "romaji": "aki",
+          "english": "autumn"
+        }
       ],
       "flashcardHeader": "き",
       "flashcardAnswer": "ki — like 'key'",
@@ -60,10 +92,26 @@
         "く frequently appears as an adverb-forming suffix on adjectives."
       ],
       "examples": [
-        {"japanese": "いく", "romaji": "iku", "english": "to go"},
-        {"japanese": "あく", "romaji": "aku", "english": "to open (intransitive)"},
-        {"japanese": "くう", "romaji": "kuu", "english": "to eat (casual)"},
-        {"japanese": "きく", "romaji": "kiku", "english": "to listen / chrysanthemum"}
+        {
+          "japanese": "いく",
+          "romaji": "iku",
+          "english": "to go"
+        },
+        {
+          "japanese": "あく",
+          "romaji": "aku",
+          "english": "to open (intransitive)"
+        },
+        {
+          "japanese": "くう",
+          "romaji": "kuu",
+          "english": "to eat (casual)"
+        },
+        {
+          "japanese": "きく",
+          "romaji": "kiku",
+          "english": "to listen / chrysanthemum"
+        }
       ],
       "flashcardHeader": "く",
       "flashcardAnswer": "ku — 'k' + Japanese 'u' (flat, unrounded lips)",
@@ -79,13 +127,29 @@
       "rules": [
         "Same clean, unaspirated 'k' as all other か-row characters.",
         "The vowel is a pure 'eh' sound — like the 'e' in 'bed', not the 'ay' in 'cake'.",
-        "Watch the shape of け carefully: it looks similar to け-type strokes and should not be confused with は."
+        "Watch the shape of け carefully — don't confuse it with は or ほ."
       ],
       "examples": [
-        {"japanese": "いけ", "romaji": "ike", "english": "pond"},
-        {"japanese": "おけ", "romaji": "oke", "english": "bucket / tub"},
-        {"japanese": "うけ", "romaji": "uke", "english": "receiving / the receiver"},
-        {"japanese": "きけ", "romaji": "kike", "english": "listen! (imperative)"}
+        {
+          "japanese": "いけ",
+          "romaji": "ike",
+          "english": "pond"
+        },
+        {
+          "japanese": "おけ",
+          "romaji": "oke",
+          "english": "bucket / tub"
+        },
+        {
+          "japanese": "うけ",
+          "romaji": "uke",
+          "english": "receiving / the receiver"
+        },
+        {
+          "japanese": "きけ",
+          "romaji": "kike",
+          "english": "listen! (imperative)"
+        }
       ],
       "flashcardHeader": "け",
       "flashcardAnswer": "ke — like the 'ke' in 'kettle'",
@@ -104,10 +168,26 @@
         "こ is the basis for 'here' (ここ), 'this' (これ/この), and many other key demonstratives."
       ],
       "examples": [
-        {"japanese": "こえ", "romaji": "koe", "english": "voice"},
-        {"japanese": "こい", "romaji": "koi", "english": "love / carp (fish)"},
-        {"japanese": "ここ", "romaji": "koko", "english": "here"},
-        {"japanese": "おこ", "romaji": "oko", "english": "angry (casual shortening of おこる)"}
+        {
+          "japanese": "こえ",
+          "romaji": "koe",
+          "english": "voice"
+        },
+        {
+          "japanese": "こい",
+          "romaji": "koi",
+          "english": "love / carp (fish)"
+        },
+        {
+          "japanese": "ここ",
+          "romaji": "koko",
+          "english": "here"
+        },
+        {
+          "japanese": "おこ",
+          "romaji": "oko",
+          "english": "angry (casual shortening of おこる)"
+        }
       ],
       "flashcardHeader": "こ",
       "flashcardAnswer": "ko — like the 'co' in 'cold'",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "What sound does this character make?",
       "japanese": "か",
-      "choices": ["ka", "ki", "sa", "ta"],
+      "choices": [
+        "ka",
+        "ki",
+        "sa",
+        "ta"
+      ],
       "correctIndex": 0,
       "explanation": "か makes the 'ka' sound, like the 'ka' in 'karate'. It's the first character of the K-row."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which character makes the 'ko' sound (like 'co' in 'cold')?",
       "japanese": null,
-      "choices": ["か", "き", "く", "こ"],
+      "choices": [
+        "か",
+        "き",
+        "く",
+        "こ"
+      ],
       "correctIndex": 3,
       "explanation": "こ makes the 'ko' sound. Notice its two simple horizontal strokes — one of the most recognizable hiragana characters."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this word mean?",
       "japanese": "かお",
-      "choices": ["face", "voice", "pond", "autumn"],
+      "choices": [
+        "face",
+        "voice",
+        "pond",
+        "autumn"
+      ],
       "correctIndex": 0,
       "explanation": "かお (kao) means 'face'. It uses か (ka) + お (o). You'll use this word when talking about people's expressions."
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this word mean?",
       "japanese": "いく",
-      "choices": ["to come", "to go", "to eat", "to open"],
+      "choices": [
+        "to come",
+        "to go",
+        "to eat",
+        "to open"
+      ],
       "correctIndex": 1,
       "explanation": "いく (iku) means 'to go'. It's one of the first verbs learners pick up, pairing い (i) + く (ku)."
     }

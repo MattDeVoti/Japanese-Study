@@ -16,10 +16,26 @@
         "Don't confuse な with ね — both end in vowels of similar shape, but な has a more complex structure."
       ],
       "examples": [
-        {"japanese": "なか", "romaji": "naka", "english": "inside / middle"},
-        {"japanese": "なつ", "romaji": "natsu", "english": "summer"},
-        {"japanese": "なに", "romaji": "nani", "english": "what"},
-        {"japanese": "おなか", "romaji": "onaka", "english": "stomach / belly (polite)"}
+        {
+          "japanese": "なか",
+          "romaji": "naka",
+          "english": "inside / middle"
+        },
+        {
+          "japanese": "なつ",
+          "romaji": "natsu",
+          "english": "summer"
+        },
+        {
+          "japanese": "なに",
+          "romaji": "nani",
+          "english": "what"
+        },
+        {
+          "japanese": "おなか",
+          "romaji": "onaka",
+          "english": "stomach / belly (polite)"
+        }
       ],
       "flashcardHeader": "な",
       "flashcardAnswer": "na — like the 'na' in 'nah'",
@@ -35,13 +51,29 @@
       "rules": [
         "Clean 'n' + bright 'ee' vowel — very natural for English speakers.",
         "に is the location/destination/time particle — essential Japanese grammar.",
-        "に alone means 'two' in the native Japanese number system (ひとつ、ふたつ、みっつ... but に is the pure stem)."
+        "に is also the number 'two' in the Sino-Japanese counting system (いち、に、さん…)."
       ],
       "examples": [
-        {"japanese": "にく", "romaji": "niku", "english": "meat"},
-        {"japanese": "にし", "romaji": "nishi", "english": "west"},
-        {"japanese": "なに", "romaji": "nani", "english": "what"},
-        {"japanese": "にほん", "romaji": "nihon", "english": "Japan"}
+        {
+          "japanese": "にく",
+          "romaji": "niku",
+          "english": "meat"
+        },
+        {
+          "japanese": "にし",
+          "romaji": "nishi",
+          "english": "west"
+        },
+        {
+          "japanese": "なに",
+          "romaji": "nani",
+          "english": "what"
+        },
+        {
+          "japanese": "にほん",
+          "romaji": "nihon",
+          "english": "Japan"
+        }
       ],
       "flashcardHeader": "に",
       "flashcardAnswer": "ni — like the 'ni' in 'need'",
@@ -60,10 +92,26 @@
         "Be careful not to confuse ぬ with め — they look similar but are different characters."
       ],
       "examples": [
-        {"japanese": "いぬ", "romaji": "inu", "english": "dog"},
-        {"japanese": "ぬの", "romaji": "nuno", "english": "cloth / fabric"},
-        {"japanese": "てぬき", "romaji": "tenuki", "english": "cutting corners / careless work"},
-        {"japanese": "ぬく", "romaji": "nuku", "english": "to pull out / to remove"}
+        {
+          "japanese": "いぬ",
+          "romaji": "inu",
+          "english": "dog"
+        },
+        {
+          "japanese": "ぬの",
+          "romaji": "nuno",
+          "english": "cloth / fabric"
+        },
+        {
+          "japanese": "てぬき",
+          "romaji": "tenuki",
+          "english": "cutting corners / careless work"
+        },
+        {
+          "japanese": "ぬく",
+          "romaji": "nuku",
+          "english": "to pull out / to remove"
+        }
       ],
       "flashcardHeader": "ぬ",
       "flashcardAnswer": "nu — 'n' + Japanese 'u' (flat, unrounded lips)",
@@ -82,10 +130,26 @@
         "Don't confuse ね with わ or ぬ — all three have similar looping elements in their lower halves."
       ],
       "examples": [
-        {"japanese": "ねこ", "romaji": "neko", "english": "cat"},
-        {"japanese": "ねつ", "romaji": "netsu", "english": "fever / heat / enthusiasm"},
-        {"japanese": "ねた", "romaji": "neta", "english": "material / source / punchline of a joke"},
-        {"japanese": "うね", "romaji": "une", "english": "ridge (in a field) / wave"}
+        {
+          "japanese": "ねこ",
+          "romaji": "neko",
+          "english": "cat"
+        },
+        {
+          "japanese": "ねつ",
+          "romaji": "netsu",
+          "english": "fever / heat / enthusiasm"
+        },
+        {
+          "japanese": "ねた",
+          "romaji": "neta",
+          "english": "material / source / punchline of a joke"
+        },
+        {
+          "japanese": "うね",
+          "romaji": "une",
+          "english": "ridge (in a field) / wave"
+        }
       ],
       "flashcardHeader": "ね",
       "flashcardAnswer": "ne — like the 'ne' in 'net'",
@@ -104,10 +168,26 @@
         "The character の is just a simple loop — one stroke going counterclockwise. Many people find it the easiest hiragana to write."
       ],
       "examples": [
-        {"japanese": "この", "romaji": "kono", "english": "this (before a noun)"},
-        {"japanese": "その", "romaji": "sono", "english": "that (before a noun)"},
-        {"japanese": "あの", "romaji": "ano", "english": "that over there (before a noun)"},
-        {"japanese": "のき", "romaji": "noki", "english": "eaves (of a roof)"}
+        {
+          "japanese": "この",
+          "romaji": "kono",
+          "english": "this (before a noun)"
+        },
+        {
+          "japanese": "その",
+          "romaji": "sono",
+          "english": "that (before a noun)"
+        },
+        {
+          "japanese": "あの",
+          "romaji": "ano",
+          "english": "that over there (before a noun)"
+        },
+        {
+          "japanese": "のき",
+          "romaji": "noki",
+          "english": "eaves (of a roof)"
+        }
       ],
       "flashcardHeader": "の",
       "flashcardAnswer": "no — like the 'no' in 'note'",
@@ -120,7 +200,12 @@
       "type": "multiple_choice",
       "prompt": "What sound does this character make?",
       "japanese": "の",
-      "choices": ["na", "ni", "nu", "no"],
+      "choices": [
+        "na",
+        "ni",
+        "nu",
+        "no"
+      ],
       "correctIndex": 3,
       "explanation": "の makes the 'no' sound. As a particle, の shows possession — like the English apostrophe-s. It's written as a single counterclockwise loop."
     },
@@ -129,7 +214,12 @@
       "type": "multiple_choice",
       "prompt": "Which character makes the 'ni' sound?",
       "japanese": null,
-      "choices": ["な", "に", "ぬ", "ね"],
+      "choices": [
+        "な",
+        "に",
+        "ぬ",
+        "ね"
+      ],
       "correctIndex": 1,
       "explanation": "に makes the 'ni' sound (like 'need'). It's also the crucial location/destination particle in Japanese grammar."
     },
@@ -138,7 +228,12 @@
       "type": "multiple_choice",
       "prompt": "What does this word mean?",
       "japanese": "いぬ",
-      "choices": ["cat", "dog", "rabbit", "bird"],
+      "choices": [
+        "cat",
+        "dog",
+        "rabbit",
+        "bird"
+      ],
       "correctIndex": 1,
       "explanation": "いぬ (inu) means 'dog'. い (i) + ぬ (nu) = inu. One of the first animals most Japanese learners pick up!"
     },
@@ -147,7 +242,12 @@
       "type": "multiple_choice",
       "prompt": "What does this word mean?",
       "japanese": "ねこ",
-      "choices": ["fever", "cat", "sound", "summer"],
+      "choices": [
+        "fever",
+        "cat",
+        "sound",
+        "summer"
+      ],
       "correctIndex": 1,
       "explanation": "ねこ (neko) means 'cat'. ね (ne) + こ (ko) = neko. The internet's favorite Japanese word."
     }

@@ -24,7 +24,7 @@
         },
         {
           "japanese": "ごはん作[つく]っとくね。",
-          "romaji": "Gohan tsukutoku ne.",
+          "romaji": "Gohan tsukuttoku ne.",
           "english": "I'll go ahead and make dinner (in advance)."
         },
         {
@@ -244,7 +244,7 @@
             "It is grammatically wrong",
             "Plain form + か sounds blunt or interrogating",
             "It is far too polite",
-            "か can only be used in writing"
+            "か can only be used in writing, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "With plain forms, か comes across as blunt, challenging, or like an interrogation. Casual questions simply use rising pitch: 行[い]く？"
@@ -285,7 +285,7 @@
           "choices": [
             "A dropped particle and the small pause where it was",
             "The end of the sentence",
-            "A polite pause before a superior",
+            "A polite pause before a superior — textbooks treat this as an absolute rule.",
             "A quotation"
           ],
           "correctIndex": 0,
@@ -409,7 +409,7 @@
           "choices": [
             "Asking a question",
             "Acting as filler that breaks the sentence into beats",
-            "Making the sentence polite",
+            "Making the sentence polite, regardless of context or politeness level.",
             "Marking the object"
           ],
           "correctIndex": 1,
@@ -809,7 +809,7 @@
           "choices": [
             "Short reactions showing you are listening",
             "A formal greeting",
-            "A type of question particle",
+            "A type of question particle — this is true in both spoken and written Japanese.",
             "A written punctuation mark"
           ],
           "correctIndex": 0,
@@ -851,7 +851,7 @@
           "choices": [
             "It is grammatically incorrect",
             "It can sound like you are evaluating their explanation",
-            "It is too casual to be understood",
+            "It is too casual to be understood, and the rule applies to every sentence type.",
             "It means you disagree"
           ],
           "correctIndex": 1,

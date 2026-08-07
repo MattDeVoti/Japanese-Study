@@ -109,6 +109,32 @@ final class DictionaryService: ObservableObject {
 
     /// Exact entry by row id — used where something already knows which entry
     /// it means and must not risk matching a homophone.
+    /// Example sentences for an entry, best first.
+    ///
+    /// Two sources, and the order matters. Sentences lifted from the app's own
+    /// lessons come first because they carry furigana brackets and have already
+    /// been through the content accuracy passes. Everything else comes from the
+    /// Tanaka Corpus, which is human-written but has no readings attached — so a
+    /// lesson sentence is strictly more useful to a beginner where one exists.
+    func examples(for entryId: Int) -> [DictionaryExample] {
+        guard let db else { return [] }
+        var stmt: OpaquePointer?
+        let sql = "SELECT japanese, english, source FROM examples WHERE entry_id=? ORDER BY ord LIMIT 3"
+        guard sqlite3_prepare_v2(db, sql, -1, &stmt, nil) == SQLITE_OK else { return [] }
+        defer { sqlite3_finalize(stmt) }
+        sqlite3_bind_int64(stmt, 1, Int64(entryId))
+
+        var out: [DictionaryExample] = []
+        while sqlite3_step(stmt) == SQLITE_ROW {
+            let jp  = String(cString: sqlite3_column_text(stmt, 0))
+            let en  = String(cString: sqlite3_column_text(stmt, 1))
+            let src = sqlite3_column_text(stmt, 2).map { String(cString: $0) } ?? ""
+            out.append(DictionaryExample(japanese: jp, english: en,
+                                         fromLesson: src == "lesson"))
+        }
+        return out
+    }
+
     func entry(id: Int) -> DictionaryEntry? {
         let cols = "id,word,reading,definitions,parts_of_speech,sort_key_en,sort_key_jp"
         return run("SELECT \(cols) FROM entries WHERE id=? LIMIT 1", [id]).first

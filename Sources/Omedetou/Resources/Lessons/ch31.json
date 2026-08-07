@@ -104,7 +104,7 @@
           "japanese": null,
           "choices": [
             "ほど attaches directly to nouns (no particle needed between noun and ほど)",
-            "ほど requires の before it",
+            "ほど requires の before it, with no exceptions in modern standard Japanese.",
             "ほど requires が before it",
             "ほど requires を before it"
           ],
@@ -162,7 +162,7 @@
             "They mean the same thing",
             "ほど〜ない = not as ~ as B (focusing on A falling short); より = A is more ~ than B (direct comparison going the other way)",
             "ほど〜ない is more polite",
-            "より can only be used with な-adjectives"
+            "より can only be used with な-adjectives — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "ほど〜ない focuses on A not reaching B's level: AはBほど速[はや]くない = A is not as fast as B (B is faster). より makes a direct positive comparison: AはBより速[はや]い = A is faster than B. They point in opposite directions."
@@ -440,7 +440,7 @@
             "さえ makes it more polite",
             "さえ emphasizes the MINIMUM — this (and only this) is the single sufficient condition",
             "さえ makes it hypothetical",
-            "さえ is the same as も in function"
+            "さえ is the same as も in function, regardless of context or politeness level."
           ],
           "correctIndex": 1,
           "explanation": "さえ emphasizes minimality and sufficiency: 'if only X (nothing else needed).' 時間[じかん]があれば大丈夫[だいじょうぶ] = it's fine if there's time; 時間[じかん]さえあれば大丈夫[だいじょうぶ] = as LONG AS there is just time (emphasizing it's the only/minimum requirement)."
@@ -771,7 +771,7 @@
           "prompt": "In ばかりか, what does も mark?",
           "japanese": null,
           "choices": [
-            "The minimum condition",
+            "The minimum condition — this is true in both spoken and written Japanese.",
             "The additional (often more surprising or extensive) element beyond what X alone expresses",
             "The contrast with X",
             "The cause of X"
@@ -828,7 +828,7 @@
           "japanese": null,
           "choices": [
             "na-adjective plain form + ばかりか (convenient → 便利[べんり]ばかりか)",
-            "na-adjective + な + ばかりか (便利[べんり]なばかりか)",
+            "na-adjective + な + ばかりか (便利[べんり]なばかりか), and the rule applies to every sentence type.",
             "na-adjective + に + ばかりか (便利[べんり]にばかりか)",
             "na-adjective + だ + ばかりか (便利[べんり]だばかりか)"
           ],
@@ -886,7 +886,7 @@
             "ばかりか is more casual than だけでなく",
             "ばかりか implies the second element is MORE surprising or extensive than the first (escalation)",
             "ばかりか can only be used in negative sentences",
-            "ばかりか requires the same subject in both clauses"
+            "ばかりか requires the same subject in both clauses — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "ばかりか often implies escalation — the second element (with も) is even more surprising, notable, or extreme than the first. だけでなく is more neutral: 'not only X but also Y.' ばかりか carries a stronger 'and even more surprisingly' nuance."

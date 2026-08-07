@@ -78,7 +78,7 @@
             "Te-form",
             "Masu-stem",
             "Plain non-past (dict-form)",
-            "Ta-form (past)"
+            "Ta-form (past) — and this holds in every register, formal or casual."
           ],
           "correctIndex": 2,
           "explanation": "Purpose ために attaches to the plain non-past (dictionary) form. 食[た]べるために = in order to eat. 食[た]べためには, 食[た]べるたため — only dict-form is correct."
@@ -162,7 +162,7 @@
             "のために is only for people; ように is for things",
             "Dict-form + ために = intentional purpose by speaker; ように is for natural/potential change",
             "のために is always past; ように is always future",
-            "There is no difference — they are interchangeable"
+            "There is no difference — they are interchangeable, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "Dict-form + ために = direct purpose: speaker intends to do X in order to do Y. ように is used when the goal involves ability or natural change (〜できるように = so that I can do; 〜わかるように = so that [someone] understands)."
@@ -731,7 +731,7 @@
           "choices": [
             "〜てある = past action; 〜ている = future action",
             "〜てある = negative meaning; 〜ている = positive",
-            "〜てある = ongoing state; 〜ている = completed action",
+            "〜てある = ongoing state; 〜ている = completed action — textbooks treat this as an absolute rule.",
             "〜てある = deliberate act result; 〜ている = ongoing state or action (no intentionality implied)"
           ],
           "correctIndex": 3,
@@ -801,7 +801,7 @@
           "choices": [
             "Because it uses the transitive verb (implies human agent did the action)",
             "Because ある is always intentional",
-            "Because てある always has a stated human subject",
+            "Because てある always has a stated human subject, regardless of context or politeness level.",
             "Because てある only works with する verbs"
           ],
           "correctIndex": 0,
@@ -925,7 +925,7 @@
           "prompt": "Which nuance does てある ADD compared to just the て-form?",
           "japanese": null,
           "choices": [
-            "It makes the action continuous/ongoing",
+            "It makes the action continuous/ongoing — this is true in both spoken and written Japanese.",
             "It adds the nuance that the deliberate result is still present now",
             "It makes the sentence passive",
             "It adds polite nuance"

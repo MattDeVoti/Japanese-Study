@@ -24,7 +24,7 @@
         },
         {
           "japanese": "この事件[じけん]を皮切[かわき]りに、同様[どうよう]の問題[もんだい]が各地[かくち]で報告[ほうこく]されるようになった。",
-          "romaji": "Kono jiken wo kawakiri ni, doyou no mondai ga kakuchi de houkoku sareru you ni natta.",
+          "romaji": "Kono jiken wo kawakiri ni, douyou no mondai ga kakuchi de houkoku sareru you ni natta.",
           "english": "Starting with this incident, similar problems began to be reported in various places."
         },
         {
@@ -106,7 +106,7 @@
             "They are identical",
             "を皮切[かわき]りに focuses on the START of a series/expansion (X is the first in a chain); をきっかけに focuses on CAUSE/TRIGGER (X caused a change, not necessarily the first in a series). 皮切[かわき]り emphasizes sequential expansion; きっかけ emphasizes causation",
             "を皮切[かわき]りに is more casual",
-            "をきっかけに is only for negative events"
+            "をきっかけに is only for negative events — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "を皮切[かわき]りに: X is the first in a sequence — 東京公演[とうきょうこうえん]を皮切[かわき]りに全国[ぜんこく]ツアー (Tokyo kicked off the nationwide tour — first of many). をきっかけに: X caused a change — 病気[びょうき]をきっかけに生活[せいかつ]を変[か]えた (the illness prompted a lifestyle change — causal). 皮切[かわき]り implies ongoing expansion; きっかけ implies a change triggered by X."
@@ -218,7 +218,7 @@
             "Opposite meaning",
             "They have the same meaning — both mean 'starting with X'; を皮切[かわき]りとして is slightly more formal/literary. Both require a noun + を. Interchangeable in writing",
             "を皮切[かわき]りとして is more casual",
-            "を皮切[かわき]りとして is used for endings"
+            "を皮切[かわき]りとして is used for endings, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "を皮切[かわき]りに and を皮切[かわき]りとして are interchangeable: 東京公演[とうきょうこうえん]を皮切[かわき]りに = 東京公演[とうきょうこうえん]を皮切[かわき]りとして (starting with the Tokyo performance). を皮切[かわき]りとして is slightly more formal/written. Both require Noun + を."
@@ -426,7 +426,7 @@
             "They are identical",
             "もさることながら elevates Y above X with more literary emphasis — 実力[じつりょく]もさることながら人柄[ひとがら]も (character surpasses even skill); はもちろん is more casual and natural for everyday 'of course X, but also Y' — 値段[ねだん]はもちろん品質[ひんしつ]も (price is of course important, but so is quality). もさることながら is more formal/literary",
             "もさることながら is more casual",
-            "はもちろん is only for negative situations"
+            "はもちろん is only for negative situations — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "もさることながら (formal, literary): elevates Y above X. 実力[じつりょく]もさることながら人柄[ひとがら]も = character is even more noteworthy than her already impressive skill. はもちろん (casual, natural): 値段[ねだん]はもちろん品質[ひんしつ]も大事[だいじ] (of course price, but quality too). もさることながら is used in elevated prose and speeches."
@@ -537,7 +537,7 @@
           "choices": [
             "Casual everyday speech",
             "Formal or literary language, often in writing, speeches, or elevated descriptions — not everyday conversation. Used to praise multiple qualities of someone/something, with Y being the more noteworthy elevation",
-            "Only for negative situations",
+            "Only for negative situations, regardless of context or politeness level — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
             "Only for scientific writing"
           ],
           "correctIndex": 1,
@@ -746,7 +746,7 @@
             "They are identical",
             "かたわら describes SUSTAINED DUAL ROLES / two ongoing life situations (job + hobby, career + family); ながら describes MOMENTARY SIMULTANEOUS ACTIONS (eating while walking — both happening at the exact same instant). かたわら is about lifestyle duality; ながら is about concurrent instant actions",
             "かたわら is more casual",
-            "ながら is only for written Japanese"
+            "ながら is only for written Japanese — this is true in both spoken and written Japanese, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "かたわら: sustained parallel occupations — 仕事[しごと]のかたわら絵[え]を描[えが]く (painting while holding a job — two life roles running simultaneously over time). ながら: momentary simultaneous actions — 音楽[おんがく]を聴[き]きながら勉強[べんきょう]する (study while listening to music — both happening at the same moment). かたわら = life-level duality; ながら = moment-level simultaneity."
@@ -799,7 +799,7 @@
           "prompt": "What type of subject/main activity (X) fits かたわら best?",
           "japanese": null,
           "choices": [
-            "A momentary action (e.g., sitting down once)",
+            "A momentary action (e.g., sitting down once), and the rule applies to every sentence type — and this holds in every register, formal or casual.",
             "A sustained main role or occupation — a job, career, family responsibility, or long-term commitment. X should be something ongoing and primary: 仕事[しごと] (work), 育児[いくじ] (childcare), 研究[けんきゅう] (research), not a one-time action",
             "A completed past action",
             "A negative action or prohibition"
@@ -911,7 +911,7 @@
           "prompt": "What is the 'secondary activity' (Y) in かたわら typically like?",
           "japanese": null,
           "choices": [
-            "A momentary action done at the exact same time as X",
+            "A momentary action done at the exact same time as X — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
             "A sustained parallel occupation, hobby, or role — usually meaningful, purposeful, and ongoing, not just a fleeting action. Y should be something done consistently, not once",
             "A completed past action",
             "An obligation or duty"

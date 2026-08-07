@@ -8,7 +8,7 @@
       "name": "〜はじめる / 〜おわる / 〜つづける — begin / finish / continue doing",
       "shortDescription": "Compound verbs for the arc of an action — begin doing, finish doing, keep doing.",
       "formation": "Verb stem + はじめる / おわる / つづける",
-      "explanation": "Japanese builds compound verbs by attaching one verb's meaning directly onto another's stem. Three of the most useful compounds cover the arc of any action: where it starts, where it ends, and what happens in between.\n\nVerb stem + はじめる: begin doing X. 食[た]べはじめる (start eating), 降[お]りはじめる (start falling — for rain or snow), 勉強[べんきょう]しはじめる (start studying).\n\nVerb stem + おわる: finish doing X. 食[た]べおわる (finish eating), 書[か]きおわる (finish writing). This is transitive — it's *you* finishing the action.\n\nVerb stem + つづける: continue doing X without stopping. 走[はし]りつづける (keep running), 学[まな]びつづける (keep learning). The perseverance nuance in つづける can feel inspiring or exhausting depending on context.\n\nAll three form Group 2 compound verbs and conjugate accordingly.\n\nOne important distinction: はじめる and おわる are transitive — *you* start or finish something. The intransitive counterparts 始[はじ]まる / 終[お]わる describe things that start or end by themselves:\n勉強[べんきょう]しはじめました: 'I started studying.' (your action)\n授業[じゅぎょう]が始[はじ]まりました: 'The class started.' (the class itself)\n\nBonus: verb stem + 出[だ]す (だす) expresses a sudden beginning or outburst — 泣[な]き出[だ]す (burst into tears), 走[はし]り出[だ]す (break into a run). Same construction, different second-verb meaning.",
+      "explanation": "Japanese builds compound verbs by attaching one verb's meaning directly onto another's stem. Three of the most useful compounds cover the arc of any action: where it starts, where it ends, and what happens in between.\n\nVerb stem + はじめる: begin doing X. 食[た]べはじめる (start eating), 降[ふ]りはじめる (start falling — for rain or snow), 勉強[べんきょう]しはじめる (start studying).\n\nVerb stem + おわる: finish doing X. 食[た]べおわる (finish eating), 書[か]きおわる (finish writing). This is transitive — it's *you* finishing the action.\n\nVerb stem + つづける: continue doing X without stopping. 走[はし]りつづける (keep running), 学[まな]びつづける (keep learning). The perseverance nuance in つづける can feel inspiring or exhausting depending on context.\n\nAll three form Group 2 compound verbs and conjugate accordingly.\n\nOne important distinction: はじめる and おわる are transitive — *you* start or finish something. The intransitive counterparts 始[はじ]まる / 終[お]わる describe things that start or end by themselves:\n勉強[べんきょう]しはじめました: 'I started studying.' (your action)\n授業[じゅぎょう]が始[はじ]まりました: 'The class started.' (the class itself)\n\nBonus: verb stem + 出[だ]す (だす) expresses a sudden beginning or outburst — 泣[な]き出[だ]す (burst into tears), 走[はし]り出[だ]す (break into a run). Same construction, different second-verb meaning.",
       "rules": [
         "Verb stem + はじめる = begin doing X (start of action)",
         "Verb stem + おわる = finish doing X (completion — transitive: you finish it)",
@@ -96,7 +96,7 @@
             "降[ふ]ら"
           ],
           "correctIndex": 2,
-          "explanation": "降[ふ]る (Group 1): masu-form is 降[お]ります → masu-stem is 降[お]り. 降[お]り + はじめた = 降[お]りはじめた = started falling/raining."
+          "explanation": "降[ふ]る (Group 1): masu-form is 降[ふ]ります → masu-stem is 降[ふ]り. 降[ふ]り + はじめた = 降[ふ]りはじめた = started falling/raining."
         },
         {
           "id": "hajimeru-owaru_q5",
@@ -110,7 +110,7 @@
             "雨[あめ]が降[ふ]りだしました。"
           ],
           "correctIndex": 1,
-          "explanation": "降[お]り (masu-stem) + はじめました = 降[お]りはじめました = started raining. Also correct: 降[お]りだした (〜だす = suddenly start). 降[お]りはじめた is more gradual; 降[お]りだした is more sudden."
+          "explanation": "降[ふ]り (masu-stem) + はじめました = 降[ふ]りはじめました = started raining. Also correct: 降[ふ]りだした (〜だす = suddenly start). 降[ふ]りはじめた is more gradual; 降[お]りだした is more sudden."
         },
         {
           "id": "hajimeru-owaru_q6",
@@ -1039,7 +1039,7 @@
             "They are completely identical",
             "たところ = just this moment (seconds ago); たばかり = just/recently (broader — within hours, days)",
             "たばかり = formal; たところ = casual",
-            "たところ = for events; たばかり = for states"
+            "たところ = for events; たばかり = for states, and the rule applies to every sentence type."
           ],
           "correctIndex": 1,
           "explanation": "たところ = just now (literally just this instant — seconds/minutes ago). たばかり = recently / just (broader — could be within minutes to days). 生[う]まれたばかりの赤[あか]ちゃん = a just-born baby (within days). たところ wouldn't fit there."
@@ -1148,7 +1148,7 @@
           "prompt": "What is ばかりか used for?",
           "japanese": null,
           "choices": [
-            "Just completed something",
+            "Just completed something — and this holds in every register, formal or casual.",
             "Not only X, but also Y (addition beyond expectation)",
             "Always does X",
             "Will do X soon"
@@ -1263,7 +1263,7 @@
             "Just recently ate",
             "Ate everything",
             "All [someone] does is eat (repetitive/excessive action)",
-            "Ate while standing"
+            "Ate while standing, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 2,
           "explanation": "Te-form + ばかり + いる = all  does is / keeps doing nothing but. 食[た]べてばかりいる = all they do is eat (implying excess/criticism). Different from たばかり (just completed)."

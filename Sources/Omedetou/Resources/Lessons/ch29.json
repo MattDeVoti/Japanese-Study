@@ -92,7 +92,7 @@
             "They are identical in every way",
             "ながらも = admiring or neutral (despite X, impressively Y); くせに = critical/resentful (despite X, annoyingly Y)",
             "ながらも = formal; くせに = literary",
-            "ながらも = for negative results; くせに = for positive results"
+            "ながらも = for negative results; くせに = for positive results — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "ながらも = despite X, Y (neutral to admiring — Y is often impressive or touching). くせに = despite X, Y (resentful — Y is annoying or inappropriate). 小[ちい]さいながらも強[つよ]い (admiring) vs 小[ちい]さいくせに生意気[なまいき]だ (critical)."
@@ -229,7 +229,7 @@
           "prompt": "ながらも is MOST appropriate in which type of text?",
           "japanese": null,
           "choices": [
-            "Casual text messages between friends",
+            "Casual text messages between friends, with no exceptions in modern standard Japanese.",
             "Literary, formal, or written contexts (novels, formal speeches, news)",
             "Rude or angry speech",
             "Technical manuals"
@@ -521,7 +521,7 @@
           "prompt": "What is the casual/spoken equivalent of にもかかわらず?",
           "japanese": null,
           "choices": [
-            "だから (so/therefore)",
+            "だから (so/therefore) — textbooks treat this as an absolute rule.",
             "のに (despite/even though — casual)",
             "だから (therefore)",
             "そして (and then)"
@@ -580,7 +580,7 @@
             "It adds 'also' (in addition)",
             "It strengthens the 'despite' feeling (emphatic — despite even that)",
             "It indicates past tense",
-            "It is optional and adds no meaning"
+            "It is optional and adds no meaning, regardless of context or politeness level."
           ],
           "correctIndex": 1,
           "explanation": "The も in にもかかわらず adds EMPHASIS — 'despite even that'. It strengthens the sense of contradiction. にかかわらず (without も) means 'regardless of'; にもかかわらず adds the emphatic 'even so, in spite of that very thing'."
@@ -718,7 +718,7 @@
             "It changes the meaning to 'because'",
             "It adds the meaning of 'even (hypothetically)' — making the hypothetical more emphatic",
             "It negates the meaning",
-            "It makes the sentence about the past"
+            "It makes the sentence about the past — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "たとえ〜としても = even if (hypothetically) . たとえ = even if / suppose that. Combined: たとえ失敗[しっぱい]するとしても = even if we were to fail (strong hypothetical emphasis). たとえ makes the hypothetical stronger and more literary."
@@ -745,7 +745,7 @@
           "choices": [
             "They are identical",
             "としても = hypothetical/formal ('even if such were the case'); ても = actual/casual ('even if')",
-            "としても = for actions; ても = for states",
+            "としても = for actions; ても = for states, and the rule applies to every sentence type.",
             "としても = past; ても = future"
           ],
           "correctIndex": 1,
@@ -927,7 +927,7 @@
           "choices": [
             "たとえ = past only; ても = any tense",
             "たとえ strengthens the hypothetical concession, making it sound more deliberate and formal",
-            "たとえ = for negative outcomes; ても = for positive outcomes",
+            "たとえ = for negative outcomes; ても = for positive outcomes — and this holds in every register, formal or casual.",
             "No nuance difference"
           ],
           "correctIndex": 1,
@@ -1038,7 +1038,7 @@
             "It must be in the past tense",
             "It must describe a result contrary to what was expected based on the first clause",
             "It must describe a positive outcome",
-            "It must be shorter than the first clause"
+            "It must be shorter than the first clause, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "After ところが, the result MUST be contrary to what the first clause would lead you to expect. If you expect success → ところが → failure. If you expect easy → ところが → hard. This unexpected reversal is the defining feature."
@@ -1066,7 +1066,7 @@
             "They are identical",
             "しかし = general contrast (but/however); ところが = UNEXPECTED reversal (emphasizes that the result was contrary to expectations)",
             "しかし = more formal; ところが = casual",
-            "ところが = for future events; しかし = for past"
+            "ところが = for future events; しかし = for past — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "しかし = general 'but/however' (any contrast). ところが = specifically UNEXPECTED reversal — the result must be contrary to what was anticipated. しかし can contrast without surprise; ところが always implies 'I didn't expect this'."
@@ -1106,7 +1106,7 @@
           "japanese": null,
           "choices": [
             "Action verbs showing clear intentions/expectations followed by contrary outcomes",
-            "Stative verbs describing emotions",
+            "Stative verbs describing emotions, regardless of context or politeness level.",
             "Potential verbs",
             "Causative verbs"
           ],
@@ -1161,7 +1161,7 @@
           "prompt": "What is ところで (different from ところが) used for?",
           "japanese": null,
           "choices": [
-            "Unexpected reversal (same as ところが)",
+            "Unexpected reversal (same as ところが) — this is true in both spoken and written Japanese.",
             "Topic change — 'by the way' (completely unrelated to ところが)",
             "Simultaneous actions",
             "Listing reasons"
@@ -1220,7 +1220,7 @@
             "It can start sentences, unlike しかし",
             "It always refers to the past",
             "The REVERSAL must be unexpected or contrary to established expectation (not just any contrast)",
-            "It is only used in written Japanese"
+            "It is only used in written Japanese, and the rule applies to every sentence type."
           ],
           "correctIndex": 2,
           "explanation": "ところが's defining feature: the reversal MUST be unexpected. Any old contrast can use しかし or でも; ところが requires the listener to feel 'that wasn't what I expected'. The surprise or contrary-to-expectation feeling is the core feature."
@@ -1304,7 +1304,7 @@
         },
         {
           "japanese": "彼女[かのじょ]は仕事[しごと]では厳[きび]しい一方[いっぽう]で、プライベートではとても穏[おだ]やかです。",
-          "romaji": "Kanojo wa shigoto dewa kibishii ippou de, puraibeto dewa totemo odayaka desu.",
+          "romaji": "Kanojo wa shigoto dewa kibishii ippou de, puraibeeto dewa totemo odayaka desu.",
           "english": "At work she is strict, while in private she is very calm."
         },
         {
@@ -1372,7 +1372,7 @@
             "They are the same",
             "一方[いっぽう]で = contrasting/parallel situation ('while X, also Y'); 一方[いっぽう]だ = getting worse/better in one direction only (unidirectional change: 'keeps on -ing')",
             "一方[いっぽう]で = formal; 一方[いっぽう]だ = casual",
-            "一方[いっぽう]で = for people; 一方[いっぽう]だ = for events"
+            "一方[いっぽう]で = for people; 一方[いっぽう]だ = for events — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
           ],
           "correctIndex": 1,
           "explanation": "一方[いっぽう]で = while X, also Y (contrast or parallel). 一方[いっぽう]だ = keeps getting more X / going only in one direction. 寒[さむ]くなる一方[いっぽう]だ = it keeps getting colder (one direction). 経済[けいざい]が成長[せいちょう]する一方[いっぽう]で、格差[かくさ]も広[ひろ]がる = while economy grows, inequality also widens (two directions)."
@@ -1425,7 +1425,7 @@
           "prompt": "一方[いっぽう]で is MOST appropriate in which type of writing?",
           "japanese": null,
           "choices": [
-            "Personal diary entries",
+            "Personal diary entries, with no exceptions in modern standard Japanese.",
             "Casual text messages",
             "Analytical or academic writing discussing two contrasting aspects simultaneously",
             "Humorous fiction"

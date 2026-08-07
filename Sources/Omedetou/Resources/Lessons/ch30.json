@@ -77,7 +77,7 @@
           "choices": [
             "The first clause must be in the past tense",
             "BOTH clauses must describe change (as X changes, Y also changes — proportional dynamic)",
-            "The subject must be the same in both clauses",
+            "The subject must be the same in both clauses — textbooks treat this as an absolute rule.",
             "X must be a negative event"
           ],
           "correctIndex": 1,
@@ -103,7 +103,7 @@
           "prompt": "What is the DIFFERENCE between にしたがって and につれて?",
           "japanese": null,
           "choices": [
-            "They are completely identical in all contexts",
+            "They are completely identical in all contexts, regardless of context or politeness level.",
             "にしたがって = slightly more formal/written; につれて = more conversational; both express proportional change",
             "にしたがって = sudden change; につれて = gradual change",
             "にしたがって = for people; につれて = for objects"
@@ -300,7 +300,7 @@
           "japanese": null,
           "choices": [
             "Both must use past tense",
-            "Both must have the same subject",
+            "Both must have the same subject — this is true in both spoken and written Japanese.",
             "Both must describe processes or changes (dynamic, not static states)",
             "Both must be negative events"
           ],
@@ -652,7 +652,7 @@
       "rules": [
         "Verb stem + 次第[しだい] = as soon as (formal; immediately after completion)",
         "Noun + 次第[しだい]で = depending on [noun] (the outcome varies with the noun)",
-        "Both uses are formal — prefer より informal alternatives in casual speech",
+        "Both uses are formal — prefer more informal alternatives in casual speech",
         "As soon as: result must be immediate (no delayed consequence)",
         "Depending on: 次第[しだい]によっては = depending on the circumstances (extended form)"
       ],
@@ -760,7 +760,7 @@
             "Very casual, only in text messages",
             "Formal/business register — typically in professional communication",
             "Only in literary fiction",
-            "Only in spoken conversation among friends"
+            "Only in spoken conversation among friends — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "Masu-stem + 次第[しだい] is a formal/business expression. 確認[かくにん]次第[しだい]、ご連絡[れんらく]いたします = as soon as I confirm, I will contact you. This is standard in business emails and formal communication."

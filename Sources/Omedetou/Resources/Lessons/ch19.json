@@ -8,13 +8,13 @@
       "name": "Respectful verbs (sonkeigo — 尊敬語[そんけいご])",
       "shortDescription": "Respectful verbs (sonkeigo) — used for the actions of people you respect, never for yourself.",
       "formation": "Replace standard verbs with respectful equivalents (いらっしゃる, おっしゃる, etc.)",
-      "explanation": "Japanese honorific speech (敬語[けいご] — keigo) is one of the most distinctive features of the language, and it's built on a core principle: the status of the people involved in a conversation shapes which words you use. Sonkeigo (尊敬語[そんけいご] — respectful language) elevates the actions of your listeners, customers, teachers, and superiors by replacing ordinary verbs with special respectful counterparts.\n\nThese are not suffixes or particles you add — they are completely separate vocabulary items that must be memorized. The most important ones:\n• いる / 行[い]く / 来[く]る → いらっしゃる (all three collapse into one respectful form)\n• する → なさる (to do)\n• 言[い]う → おっしゃる (to say)\n• 食[た]べる / 飲[の]む → 召[め]し上[あ]がる (to eat / drink)\n• 知[し]っている → ご存知[ぞんじ]だ (to know)\n• くれる → くださる (to give to me/us)\n\nA note on conjugation: いらっしゃる, おっしゃる, なさる, and くださる are Group 1 verbs but have a slightly irregular ます-form: they drop the final る and take います directly (いらっしゃいます, not いらっしゃります).\n\nThe golden rule of keigo: sonkeigo is *only* for other people's actions. Use it for what the teacher, customer, or boss does. For your own actions in the same conversation, you use humble forms (kensongo) — covered next.",
+      "explanation": "Japanese honorific speech (敬語[けいご] — keigo) is one of the most distinctive features of the language, and it's built on a core principle: the status of the people involved in a conversation shapes which words you use. Sonkeigo (尊敬語[そんけいご] — respectful language) elevates the actions of your listeners, customers, teachers, and superiors by replacing ordinary verbs with special respectful counterparts.\n\nThese are not suffixes or particles you add — they are completely separate vocabulary items that must be memorized. The most important ones:\n• いる / 行[い]く / 来[く]る → いらっしゃる (all three collapse into one respectful form)\n• する → なさる (to do)\n• 言[い]う → おっしゃる (to say)\n• 食[た]べる / 飲[の]む → 召[め]し上[あ]がる (to eat / drink)\n• 知[し]っている → ご存知[ぞんじ]だ (to know)\n• くれる → くださる (to give to me/us)\n\nA note on conjugation: いらっしゃる, おっしゃる, なさる, and くださる are Group 1 verbs but have a slightly irregular ます-form: they drop the final る and take います directly (いらっしゃいます, not いらっしゃります).\n\nThe golden rule of keigo: sonkeigo is *only* for other people's actions. Use it for what the teacher, customer, or boss does. For your own actions in the same conversation, you use humble forms (kenjougo) — covered next.",
       "rules": [
         "Sonkeigo is for the actions of respected others — never for your own actions",
         "いる/行[い]く/来[く]る → いらっしゃる; する → なさる; 言[い]う → おっしゃる",
         "食[た]べる/飲[の]む → 召[め]し上[あ]がる; 知[し]っている → ご存知[ぞんじ]だ; くれる → くださる",
         "Irregular ます-forms: いらっしゃいます (not いらっしゃります), おっしゃいます, なさいます",
-        "For your own actions when speaking to superiors, use kensongo (humble) — see next point"
+        "For your own actions when speaking to superiors, use kenjougo (humble) — see next point"
       ],
       "examples": [
         {
@@ -173,7 +173,7 @@
           "prompt": "When would you use くださる instead of あげる?",
           "japanese": null,
           "choices": [
-            "When you give something to a superior",
+            "When you give something to a superior, and the rule applies to every sentence type.",
             "When a superior or respected person gives something to you",
             "When you give to an equal",
             "When neither person is present"
@@ -328,7 +328,7 @@
       "name": "〜はずだ (hazu da) — should be / supposed to",
       "shortDescription": "A logical expectation — 'should be' or 'supposed to' based on reasoning, not guesswork.",
       "formation": "Plain form + はずです  |  Noun + の + はずです",
-      "explanation": "はずだ is the grammar of logical confidence. When you have a reason to expect something — a schedule, a known rule, something someone told you — はずだ is how you express that reasoned expectation.\n\nThe key distinction: はずだ is not a guess. It's a conclusion from evidence. If the timetable says the train arrives at 3pm, you say 三時[さんじ]に着[つ]くはずです — 'It should arrive at 3' — because you have a logical basis. If you were just guessing with no particular reason, you'd use a different expression. (かもしれない, which you studied in Chapter 14, is for genuine uncertainty. The degree-of-confidence spectrum will be mapped more fully in Chapter 27.)\n\nFormation: plain form + はずです. For nouns: Noun + の + はずです. For な-adjectives: stem + な + はずです (静[しず]かなはずです = it should be quiet).\n\nThe negative form deserves special attention: はずがない (or はずがありません) is a strong denial of logic — 'there is no way that.' 彼女[かのじょ]がそんなことをするはずがない: 'There's no way she would do that.' It's not 'I don't think so' — it's 'logically it can't be so.'\n\nThe regret form: 〜はずだったのに means 'it was supposed to happen, but it didn't.' The のに at the end carries the sense of disappointment at the expectation not being met.",
+      "explanation": "はずだ is the grammar of logical confidence. When you have a reason to expect something — a schedule, a known rule, something someone told you — はずだ is how you express that reasoned expectation.\n\nThe key distinction: はずだ is not a guess. It's a conclusion from evidence. If the timetable says the train arrives at 3pm, you say 三時[さんじ]に着[つ]くはずです — 'It should arrive at 3' — because you have a logical basis. If you were just guessing with no particular reason, you'd use a different expression. (かもしれない, which you studied in Chapter 14, is for genuine uncertainty. The wondering particles かな・かしら in Chapter 27 add one more shade to this scale.)\n\nFormation: plain form + はずです. For nouns: Noun + の + はずです. For な-adjectives: stem + な + はずです (静[しず]かなはずです = it should be quiet).\n\nThe negative form deserves special attention: はずがない (or はずがありません) is a strong denial of logic — 'there is no way that.' 彼女[かのじょ]がそんなことをするはずがない: 'There's no way she would do that.' It's not 'I don't think so' — it's 'logically it can't be so.'\n\nThe regret form: 〜はずだったのに means 'it was supposed to happen, but it didn't.' The のに at the end carries the sense of disappointment at the expectation not being met.",
       "rules": [
         "Plain form + はずです = should be / supposed to (logical expectation with a basis)",
         "Noun + の + はずです; な-adj stem + な + はずです",
@@ -384,7 +384,7 @@
             "Te-form",
             "Masu-stem",
             "Plain form (dict or ta-form)",
-            "Nai-form only"
+            "Nai-form only — and this holds in every register, formal or casual."
           ],
           "correctIndex": 2,
           "explanation": "Plain form + はずだ. Dict-form + はずだ = expected to do. Ta-form + はずだ = expected to have done. Both affirmative and negative plain forms can precede はずだ."
@@ -551,7 +551,7 @@
           "choices": [
             "はずだ = past only; にちがいない = future only",
             "はずだ = expectation from logic/facts; にちがいない = strong certainty (near conviction)",
-            "はずだ = moral 'should'; にちがいない = logical 'should'",
+            "はずだ = moral 'should'; にちがいない = logical 'should', with no exceptions in modern standard Japanese.",
             "They are completely the same"
           ],
           "correctIndex": 1,
@@ -645,16 +645,16 @@
     },
     {
       "id": "kensongo",
-      "name": "Humble expressions (kensongo — 謙譲語[けんじょうご])",
-      "shortDescription": "Humble speech (kensongo) — used to lower your own actions as a show of respect toward others.",
+      "name": "Humble expressions (kenjougo — 謙譲語[けんじょうご])",
+      "shortDescription": "Humble speech (kenjougo) — used to lower your own actions as a show of respect toward others.",
       "formation": "Replace standard verbs with humble equivalents (いたす, 参[まい]る, 申[もう]す, etc.)",
-      "explanation": "If sonkeigo lifts others up, kensongo (謙譲語[けんじょうご] — humble language) lowers yourself down. The two work together to create social distance in the right direction: your superior is elevated, you are humbled. Together they create the respectful register of Japanese professional and formal life.\n\nThe key humble verbs:\n• いる → おります (to be/exist)\n• 行[い]く / 来[く]る → 参[まい]る (to go/come) — general; 伺[うかが]う (to visit/go to see) — directed toward a superior's location\n• する → いたす (to do)\n• 言[い]う → 申[もう]す (to say) — 山田[やまだ]と申[もう]します: 'I am called Yamada'\n• もらう / 食[た]べる / 飲[の]む → いただく (to receive; to eat/drink humbly)\n• あげる → 差[さ]し上[あ]げる (to give to someone respected)\n\nBeyond individual verbs, there's a productive pattern for making any action humble: お + verb stem + する, or ご + [Sino-Japanese noun] + する. お届[とど]けします (I will deliver), ご連絡[れんらく]いたします (I will contact you). This pattern covers countless workplace actions and is essential for business Japanese.\n\nThe critical rule: use kensongo for YOUR OWN actions, never for others'. Using humble forms for a customer's actions is an insulting mistake. Use sonkeigo for what they do; use kensongo for what you do.",
+      "explanation": "If sonkeigo lifts others up, kenjougo (謙譲語[けんじょうご] — humble language) lowers yourself down. The two work together to create social distance in the right direction: your superior is elevated, you are humbled. Together they create the respectful register of Japanese professional and formal life.\n\nThe key humble verbs:\n• いる → おります (to be/exist)\n• 行[い]く / 来[く]る → 参[まい]る (to go/come) — general; 伺[うかが]う (to visit/go to see) — directed toward a superior's location\n• する → いたす (to do)\n• 言[い]う → 申[もう]す (to say) — 山田[やまだ]と申[もう]します: 'I am called Yamada'\n• もらう / 食[た]べる / 飲[の]む → いただく (to receive; to eat/drink humbly)\n• あげる → 差[さ]し上[あ]げる (to give to someone respected)\n\nBeyond individual verbs, there's a productive pattern for making any action humble: お + verb stem + する, or ご + [Sino-Japanese noun] + する. お届[とど]けします (I will deliver), ご連絡[れんらく]いたします (I will contact you). This pattern covers countless workplace actions and is essential for business Japanese.\n\nThe critical rule: use kenjougo for YOUR OWN actions, never for others'. Using humble forms for a customer's actions is an insulting mistake. Use sonkeigo for what they do; use kenjougo for what you do.",
       "rules": [
-        "Kensongo lowers the speaker's own actions — never used for other people's actions",
+        "Kenjougo lowers the speaker's own actions — never used for other people's actions",
         "Key humble verbs: いる→おります; 行[い]く/来[く]る→参[まい]る/伺[うかが]う; する→いたす; 言[い]う→申[もう]す",
         "もらう/食[た]べる/飲[の]む → いただく; あげる → 差[さ]し上[あ]げる",
         "Productive pattern: お + verb stem + する (お届[とど]けします), ご + noun + する (ご連絡[れんらく]します)",
-        "Pair with sonkeigo: use sonkeigo for what respected others do; kensongo for what you do"
+        "Pair with sonkeigo: use sonkeigo for what respected others do; kenjougo for what you do"
       ],
       "examples": [
         {
@@ -678,7 +678,7 @@
           "english": "I treasure the book I received from my teacher."
         }
       ],
-      "flashcardHeader": "Humble expressions (kensongo",
+      "flashcardHeader": "Humble expressions (kenjougo",
       "flashcardAnswer": "Humble verbs for your own actions — lowers the speaker to show respect toward the other party.",
       "practice": [
         {
@@ -1079,7 +1079,7 @@
           "choices": [
             "てよかった = past; ばよかった = future",
             "てよかった = I'm glad I did (satisfaction); ばよかった = I should have done (regret)",
-            "てよかった = for others; ばよかった = for yourself",
+            "てよかった = for others; ばよかった = for yourself — textbooks treat this as an absolute rule.",
             "There is no difference"
           ],
           "correctIndex": 1,

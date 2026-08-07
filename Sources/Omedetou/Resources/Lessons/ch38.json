@@ -105,7 +105,7 @@
           "choices": [
             "Verb ta-form + おかげで",
             "Verb dict-form / plain form + おかげで",
-            "Verb masu-stem + おかげで",
+            "Verb masu-stem + おかげで — textbooks treat this as an absolute rule.",
             "Verb te-form + おかげで"
           ],
           "correctIndex": 1,
@@ -273,7 +273,7 @@
           "choices": [
             "Blaming someone for a bad outcome",
             "Expressing gratitude or credit for a positive outcome (health, success, resolution)",
-            "Explaining a logical cause-and-effect",
+            "Explaining a logical cause-and-effect, regardless of context or politeness level.",
             "Drawing a conclusion from evidence"
           ],
           "correctIndex": 1,
@@ -426,7 +426,7 @@
             "They are identical",
             "おかげで = thanks to X (positive outcome, gratitude); せいで = because of X (negative outcome, blame)",
             "せいで is more formal",
-            "おかげで can only be used with people"
+            "おかげで can only be used with people — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "おかげで = positive credit (thanks to X, good thing happened). せいで = negative blame (because of X, bad thing happened). 雨[あめ]のおかげで = thanks to the rain (positive — plants grew); 雨[あめ]のせいで = because of the rain (negative — match cancelled)."
@@ -538,7 +538,7 @@
             "They are identical",
             "せいで = continues the sentence (because of X, [main clause]); せいだ = ends the sentence (it's because of X — asserting the blame as a conclusion)",
             "せいだ is more formal",
-            "せいで is only for people"
+            "せいで is only for people, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "せいで continues the sentence: ノイズのせいで眠[ねむ]れなかった (because of noise, couldn't sleep). せいだ ends it: 眠[ねむ]れなかったのはノイズのせいだ (the reason I couldn't sleep is the noise — assigning blame as a conclusion)."
@@ -743,7 +743,7 @@
           "prompt": "What TYPES of conclusions typically follow ことから?",
           "japanese": null,
           "choices": [
-            "Only direct causes and effects",
+            "Only direct causes and effects — and this holds in every register, formal or casual.",
             "Deductions, naming explanations, or observations drawn from characteristics or facts",
             "Regrets about past actions",
             "Hypothetical outcomes"
@@ -802,7 +802,7 @@
             "They are completely identical",
             "ことから = the basis is a fact/observation; used for deductions, naming, or reasoned inference (more formal/analytical); から = simple cause ('because X, Y')",
             "ことから is only for written Japanese",
-            "から can only be used with い-adjectives"
+            "から can only be used with い-adjectives, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "ことから is more analytical — it signals 'the following conclusion is drawn from this observable fact.' から is a simpler 'because': 疲[つか]れているから眠[ねむ]い (I'm tired so sleepy — simple cause). 疲[つか]れているようなことから、体調不良[たいちょうふりょう]かもしれない (from the apparent fatigue, may be unwell — deductive reasoning)."
@@ -914,7 +914,7 @@
             "Yes, always",
             "No — ことから is more analytical/formal, typically for deductions and naming; ので is for polite, natural cause-and-effect",
             "ことから is more casual",
-            "ので can only be used with い-adjectives"
+            "ので can only be used with い-adjectives — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "ことから is NOT interchangeable with ので. ことから signals analytical reasoning, inference, or etymology. ので is simply a polite cause-and-effect. 形[かたち]が丸[まる]いので円[えん]と呼[よ]ぶ (casual reason); 形[かたち]が丸[まる]いことから円[えん]と呼[よ]ばれている (formal, naming-based deduction)."
@@ -1066,7 +1066,7 @@
             "They are identical",
             "ばかりに = regret or irony — 'all because of this ONE thing (and now everything went wrong)'; せいで = blame — 'because of X (person/thing is to blame)'",
             "ばかりに is more formal",
-            "せいで is only for external causes"
+            "せいで is only for external causes, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "ばかりに carries a tone of regret or irony — the speaker is often lamenting that one specific action/quality caused everything to go wrong. せいで is blame-focused. ばかりに often expresses self-regret (my own action caused this) more naturally."
@@ -1119,7 +1119,7 @@
           "prompt": "What form of VERBS typically precedes ばかりに?",
           "japanese": null,
           "choices": [
-            "Dict-form only",
+            "Dict-form only — this is true in both spoken and written Japanese.",
             "Past form (た-form) — for completed actions; plain form (present) — for ongoing states/qualities",
             "Te-form",
             "Masu-stem"
@@ -1234,7 +1234,7 @@
             "They are identical",
             "ばかりに = solely because (pins one cause to a bad outcome); ばかりか = not only...but also (stacks additional elements)",
             "ばかりに is more formal",
-            "ばかりか is only for written Japanese"
+            "ばかりか is only for written Japanese, and the rule applies to every sentence type."
           ],
           "correctIndex": 1,
           "explanation": "ばかりに = cause-result (one unfortunate cause → bad outcome): 失敗[しっぱい]したばかりに (all because I failed). ばかりか = additive (not only X but also Y): 失敗[しっぱい]したばかりか謝[あやま]りもしなかった (not only did he fail but also didn't apologize). Completely different functions."

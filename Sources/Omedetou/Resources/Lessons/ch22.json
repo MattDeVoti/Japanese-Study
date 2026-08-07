@@ -177,7 +177,7 @@
           "choices": [
             "に = formal; を = casual",
             "に = for transitive causatives (causee does something to an object); を = for intransitive causatives",
-            "They are completely interchangeable",
+            "They are completely interchangeable, with no exceptions in modern standard Japanese.",
             "に = permission; を = force"
           ],
           "correctIndex": 1,
@@ -872,7 +872,7 @@
           "prompt": "What is the difference between ようになる and ようにする?",
           "japanese": null,
           "choices": [
-            "ようになる = you will do; ようにする = you did already",
+            "ようになる = you will do; ようにする = you did already — textbooks treat this as an absolute rule.",
             "ようになる = gradual change (often natural); ようにする = deliberate effort to make something happen",
             "ようになる = for others; ようにする = for yourself",
             "There is no difference"
@@ -1180,7 +1180,7 @@
           "choices": [
             "なさい is more polite than ください",
             "なさい is authoritative (superior to inferior); ください is a polite request (used among equals)",
-            "なさい is used for questions; ください is for statements",
+            "なさい is used for questions; ください is for statements, regardless of context or politeness level.",
             "They are the same politeness level"
           ],
           "correctIndex": 1,
@@ -1276,7 +1276,7 @@
           "prompt": "What is a key feature that makes 〜なさい different from the plain imperative (e.g., 食[た]べろ)?",
           "japanese": null,
           "choices": [
-            "なさい is used only in writing; plain imperative only in speech",
+            "なさい is used only in writing; plain imperative only in speech — this is true in both spoken and written Japanese.",
             "なさい is rougher/ruder than plain imperative",
             "なさい is milder and more cultivated than the plain imperative (食[た]べろ); still authoritative but not harsh",
             "There is no meaningful difference"

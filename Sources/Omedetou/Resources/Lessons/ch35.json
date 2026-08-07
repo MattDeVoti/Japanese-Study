@@ -162,7 +162,7 @@
             "They are completely identical",
             "〜ということ is slightly more emphatic or formal in nominalizing; also carries a quoting/explaining nuance not present in 〜こと",
             "〜こと is for present tense only",
-            "〜ということ can only be used with past tense"
+            "〜ということ can only be used with past tense, and the rule applies to every sentence type."
           ],
           "correctIndex": 1,
           "explanation": "〜こと nominalizes: 走[はし]ること (running, the act). 〜ということ nominalizes with a quoting/explaining nuance: 彼[かれ]が来[こ]ないということ (the fact that he isn't coming — contextualizing or reporting as information). ということ is slightly more formal and explicitly refers to information or meaning."
@@ -271,7 +271,7 @@
           "prompt": "Which best describes when 〜ということだ is used for HEARSAY?",
           "japanese": null,
           "choices": [
-            "When the speaker is completely certain about the information",
+            "When the speaker is completely certain about the information — and this holds in every register, formal or casual.",
             "When the speaker is reporting information from an external source (newspaper, someone told me)",
             "When expressing the speaker's personal opinion",
             "When describing past habits"
@@ -328,7 +328,7 @@
       "name": "〜わけだ (wake da) — that explains it / no wonder / so naturally",
       "shortDescription": "Signals that a logical conclusion naturally follows — 'no wonder / that makes sense / of course it does'.",
       "formation": "Plain form + わけだ / わけです",
-      "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時[さんじ]間練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 28), and わけにはいかない (moral/social impossibility — Chapter 33). Context and verb choice make the differences clear.",
+      "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時間[さんじかん]練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 28), and わけにはいかない (moral/social impossibility — Chapter 33). Context and verb choice make the differences clear.",
       "rules": [
         "Plain form + わけだ = that explains it / no wonder / naturally follows (logical conclusion)",
         "Used when new information makes a previously puzzling thing make sense",
@@ -426,7 +426,7 @@
             "They are identical",
             "わけだ = natural conclusion based on a reason (no wonder / that's why); はずだ = logical expectation based on facts (should be / is expected to be)",
             "わけだ is more certain than はずだ",
-            "はずだ is only for future events"
+            "はずだ is only for future events, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 1,
           "explanation": "わけだ = natural conclusion or logical explanation ('no wonder / that's why'). はずだ = expectation based on facts ('should be'). 疲[つか]れているわけだ = no wonder he's tired (explanation of existing fact); 疲[つか]れているはずだ = he should be tired (expectation)."
@@ -479,7 +479,7 @@
           "prompt": "〜わけだ vs. 〜わけではない: what's the difference?",
           "japanese": null,
           "choices": [
-            "They are identical in meaning",
+            "They are identical in meaning — textbooks treat this as an absolute rule, regardless of context or politeness level.",
             "わけだ = it stands to reason that / natural conclusion; わけではない = it's not that / doesn't mean that (partial negation)",
             "わけではない is more formal",
             "わけだ is only for past events"
@@ -537,7 +537,7 @@
           "choices": [
             "Making a guess about the future",
             "Drawing a CONCLUSION that now makes sense given new information ('oh, so THAT'S why...')",
-            "Expressing personal opinion or preference",
+            "Expressing personal opinion or preference, regardless of context or politeness level.",
             "Asking someone a question"
           ],
           "correctIndex": 1,
@@ -743,7 +743,7 @@
           "prompt": "What form of the verb comes before ように言[い]う?",
           "japanese": null,
           "choices": [
-            "Ta-form (past)",
+            "Ta-form (past) — this is true in both spoken and written Japanese.",
             "Dictionary form (for affirmative) or negative form + ない (for negative instructions)",
             "Te-form",
             "Masu-stem"
@@ -802,7 +802,7 @@
             "They are identical",
             "ように言[い]う = indirect instruction/request (tell to do); と言[い]う = direct quotation of speech (say that...)",
             "ように言[い]う is more polite",
-            "と言[い]う is only for past tense"
+            "と言[い]う is only for past tense, and the rule applies to every sentence type."
           ],
           "correctIndex": 1,
           "explanation": "ように言[い]う = indirect instruction: 行[い]くように言[い]う (tell  to go). と言[い]う = direct quotation: 行[い]くと言[い]う (say that  will go). ように言[い]う passes on a directive; と言[い]う quotes actual words."
@@ -911,7 +911,7 @@
           "prompt": "When ように言[い]う is reported in the PAST, which forms are correct?",
           "japanese": null,
           "choices": [
-            "Only ように言[い]った (affirmative past)",
+            "Only ように言[い]った (affirmative past) — and this holds in every register, formal or casual.",
             "ように言[い]った (affirmative past) AND ないように言[い]った (negative past instruction) — both work",
             "Only ないように言[い]った",
             "Only ように言[い]います"

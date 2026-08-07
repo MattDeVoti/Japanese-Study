@@ -8,7 +8,7 @@
       "name": "〜べく (beku) — in order to / with the intention of (formal purpose)",
       "shortDescription": "A formal, literary expression of serious purposeful intent — the elevated classical equivalent of ために, alive today in official writing and speeches.",
       "formation": "Verb (dictionary form) + べく  |  する → すべく",
-      "explanation": "〜べく is the grammar of deliberate, elevated purpose — archaic in origin but very much alive today in formal writing, official announcements, and literary prose. It is the adverbial form (連用[よう]形[かたち]) of the classical auxiliary べし (meaning 'should / must / ought to'), and when used as べく, it expresses purpose: 'in order to,' 'with the aim of,' 'with the intent of achieving.' 目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます means 'Working as one, with the aim of achieving the goal' — and you feel the gravity of the commitment.\n\nThe formation attaches to the dictionary (plain non-past) form of the verb, with する contracting to the standard form すべく (するべく is occasionally seen, but すべく is the accepted standard form). Do not expect to hear べく in daily conversation — it would sound theatrical, almost comic.\n\nBut in a company mission statement, a newspaper editorial, a formal speech, or literary prose, it fits naturally and carries a distinctly resolved, purposeful tone. Think of it as the ために of the boardroom or the ballot box — the same logical relationship, but elevated by a register that signals seriousness of purpose.",
+      "explanation": "〜べく is the grammar of deliberate, elevated purpose — archaic in origin but very much alive today in formal writing, official announcements, and literary prose. It is the adverbial form (連用形[れんようけい]) of the classical auxiliary べし (meaning 'should / must / ought to'), and when used as べく, it expresses purpose: 'in order to,' 'with the aim of,' 'with the intent of achieving.' 目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます means 'Working as one, with the aim of achieving the goal' — and you feel the gravity of the commitment.\n\nThe formation attaches to the dictionary (plain non-past) form of the verb, with する contracting to the standard form すべく (するべく is occasionally seen, but すべく is the accepted standard form). Do not expect to hear べく in daily conversation — it would sound theatrical, almost comic.\n\nBut in a company mission statement, a newspaper editorial, a formal speech, or literary prose, it fits naturally and carries a distinctly resolved, purposeful tone. Think of it as the ために of the boardroom or the ballot box — the same logical relationship, but elevated by a register that signals seriousness of purpose.",
       "rules": [
         "Verb (dict) + べく = in order to / with the aim of (formal, literary purpose)",
         "する → すべく (contracted standard form; するべく is occasionally seen but すべく is standard)",
@@ -103,7 +103,7 @@
           "prompt": "What is special about する (to do) + べく?",
           "japanese": null,
           "choices": [
-            "するべく is the only correct form",
+            "するべく is the only correct form — textbooks treat this as an absolute rule, regardless of context or politeness level.",
             "する → すべく (irregular): the expected するべく exists but すべく is the classical form and commonly used in formal writing",
             "するべく is incorrect",
             "べく cannot follow する"
@@ -162,7 +162,7 @@
             "They are identical",
             "べく is more literary/formal (used in written Japanese, formal speeches); ために is more neutral and used in both spoken and written contexts",
             "べく is more casual",
-            "ために is only for negative purposes"
+            "ために is only for negative purposes, regardless of context or politeness level — this is true in both spoken and written Japanese."
           ],
           "correctIndex": 1,
           "explanation": "べく: literary/formal purpose: 夢[ゆめ]を実現[じつげん]すべく努力[どりょく]した (worked hard in order to realize the dream — formal). ために: neutral purpose: 夢[ゆめ]を実現[じつげん]するために努力[どりょく]した (worked hard to realize the dream — everyday usage). Same meaning, different register."
@@ -217,7 +217,7 @@
           "choices": [
             "Casual everyday conversation",
             "Formal written language: news articles, official documents, literary works, formal speeches",
-            "Only classical Japanese texts",
+            "Only classical Japanese texts — this is true in both spoken and written Japanese.",
             "Online chat and social media"
           ],
           "correctIndex": 1,
@@ -426,7 +426,7 @@
             "It negates から",
             "こそ is an emphatic/focusing particle — it singles out X as THE specific, defining reason (not coincidental, not one of many — exclusively because of X)",
             "It softens から",
-            "It is just a filler with no meaning"
+            "It is just a filler with no meaning, and the rule applies to every sentence type — and this holds in every register, formal or casual."
           ],
           "correctIndex": 1,
           "explanation": "こそ is a focusing particle that singles out X as the definitive reason. からこそ = 'it is specifically because of X (and no other reason) that Y.' Without こそ: から = because (neutral). With こそ: からこそ = precisely/exactly because (emphatic, X is singled out as the key reason)."
@@ -481,7 +481,7 @@
           "choices": [
             "Y = negative result (から negated by こそ)",
             "X (cause) + からこそ + Y (positive or emphatic result/revelation) — Y is often a surprising or counter-intuitive truth or a strong assertion",
-            "X (cause) + からこそ + Y = wishful thinking",
+            "X (cause) + からこそ + Y = wishful thinking — and this holds in every register, formal or casual.",
             "Only for rhetorical questions"
           ],
           "correctIndex": 1,
@@ -535,7 +535,7 @@
           "prompt": "からこそ is often used to explain WHY something seemingly contradictory or paradoxical is true. Which example shows this?",
           "japanese": null,
           "choices": [
-            "暑[あつ]いから水[みず]を飲[の]む (because it's hot, drink water — simple causation, no paradox)",
+            "暑[あつ]いから水[みず]を飲[の]む (because it's hot, drink water — simple causation, no paradox), with no exceptions in modern standard Japanese.",
             "離[はな]れているからこそ、恋[こい]しくなる (precisely because we're apart, I miss you — separation causes longing; the apart-ness IS the reason for the longing)",
             "寒[さむ]いから上着[うわぎ]を着[き]た (because it was cold, wore a jacket — simple causation)",
             "疲[つか]れたから休[やす]んだ (because I was tired, I rested — simple causation)"
@@ -746,7 +746,7 @@
             "Only eru (える) is correct",
             "Only uru (うる) is correct",
             "Both uru (うる) and eru (える) are correct — uru is classical/literary; eru is standard; both appear in formal contexts",
-            "Neither — 得[え]る is always read as とく"
+            "Neither — 得[え]る is always read as とく — textbooks treat this as an absolute rule."
           ],
           "correctIndex": 2,
           "explanation": "得[え]る has two readings: うる (uru — classical/literary: 考[かんが]えうる, 起[お]こりうる) and える (eru — modern standard: 考[かんが]えられる isn't the same, but 得[え]る = える in formal usage). Both forms appear in formal writing. あり得[え]る is common: ありうる or ありえる, both accepted."
@@ -801,7 +801,7 @@
           "choices": [
             "They are identical",
             "得[え]る is more formal/literary, often expresses 'theoretically possible in principle'; られる is neutral potential 'can do' in everyday usage",
-            "得[え]る is only for negative sentences",
+            "得[え]る is only for negative sentences, regardless of context or politeness level — this is true in both spoken and written Japanese.",
             "られる is more formal"
           ],
           "correctIndex": 1,
