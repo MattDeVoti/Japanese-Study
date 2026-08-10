@@ -1287,48 +1287,263 @@
     }
   ],
   "kanji": [
-    "米",
-    "戦",
-    "最",
-    "都",
-    "続",
-    "初",
-    "向",
-    "在",
-    "次",
-    "増",
-    "情",
-    "変",
-    "歳",
-    "過",
-    "状",
-    "由",
-    "乗",
-    "伝",
-    "末",
-    "申",
-    "様",
-    "達",
-    "登",
-    "存",
-    "園",
-    "未",
-    "亡",
-    "途",
-    "喜",
-    "老",
-    "遅",
-    "刻",
-    "遠",
-    "戻",
-    "折",
-    "雪",
-    "礼",
-    "昔",
-    "頂",
-    "才",
-    "猫",
-    "幾",
-    "形"
+    {
+      "char": "米",
+      "word": "米",
+      "reading": "こめ",
+      "meaning": "rice"
+    },
+    {
+      "char": "戦",
+      "word": "戦後",
+      "reading": "せんご",
+      "meaning": "the postwar period"
+    },
+    {
+      "char": "最",
+      "word": "最近",
+      "reading": "さいきん",
+      "meaning": "recently; lately"
+    },
+    {
+      "char": "都",
+      "word": "都",
+      "reading": "みやこ",
+      "meaning": "capital (esp. Kyoto, Japan's former capital)"
+    },
+    {
+      "char": "続",
+      "word": "続く",
+      "reading": "つづく",
+      "meaning": "to continue (intransitive)"
+    },
+    {
+      "char": "初",
+      "word": "初めて",
+      "reading": "はじめて",
+      "meaning": "for the first time"
+    },
+    {
+      "char": "向",
+      "word": "向こう",
+      "reading": "むこう",
+      "meaning": "opposite side"
+    },
+    {
+      "char": "在",
+      "word": "現在",
+      "reading": "げんざい",
+      "meaning": "the present"
+    },
+    {
+      "char": "次",
+      "word": "次",
+      "reading": "つぎ",
+      "meaning": "next"
+    },
+    {
+      "char": "増",
+      "word": "増える",
+      "reading": "ふえる",
+      "meaning": "to increase"
+    },
+    {
+      "char": "情",
+      "word": "情",
+      "reading": "じょう",
+      "meaning": "feelings"
+    },
+    {
+      "char": "変",
+      "word": "変わる",
+      "reading": "かわる",
+      "meaning": "to change (intransitive)"
+    },
+    {
+      "char": "歳",
+      "word": "歳",
+      "reading": "さい",
+      "meaning": "-years-old"
+    },
+    {
+      "char": "過",
+      "word": "過去",
+      "reading": "かこ",
+      "meaning": "the past"
+    },
+    {
+      "char": "状",
+      "word": "状況",
+      "reading": "じょうきょう",
+      "meaning": "situation"
+    },
+    {
+      "char": "由",
+      "word": "由",
+      "reading": "よし",
+      "meaning": "reason"
+    },
+    {
+      "char": "乗",
+      "word": "乗り",
+      "reading": "のり",
+      "meaning": "riding"
+    },
+    {
+      "char": "伝",
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey"
+    },
+    {
+      "char": "末",
+      "word": "末",
+      "reading": "すえ",
+      "meaning": "end"
+    },
+    {
+      "char": "申",
+      "word": "申す",
+      "reading": "もうす",
+      "meaning": "to say"
+    },
+    {
+      "char": "様",
+      "word": "様",
+      "reading": "さま",
+      "meaning": "Mr."
+    },
+    {
+      "char": "達",
+      "word": "達",
+      "reading": "たち",
+      "meaning": "pluralizing suffix (esp. for people and animals; formerly honorific)"
+    },
+    {
+      "char": "登",
+      "word": "登",
+      "reading": "のぼる",
+      "meaning": "ascend"
+    },
+    {
+      "char": "存",
+      "word": "存じる",
+      "reading": "ぞんじる",
+      "meaning": "to think, feel, consider, know, etc."
+    },
+    {
+      "char": "園",
+      "word": "園",
+      "reading": "その",
+      "meaning": "garden (esp. man-made)"
+    },
+    {
+      "char": "未",
+      "word": "未だ",
+      "reading": "まだ",
+      "meaning": "still"
+    },
+    {
+      "char": "亡",
+      "word": "亡くなる",
+      "reading": "なくなる",
+      "meaning": "to die"
+    },
+    {
+      "char": "途",
+      "word": "途",
+      "reading": "と",
+      "meaning": "way"
+    },
+    {
+      "char": "喜",
+      "word": "喜ぶ",
+      "reading": "よろこぶ",
+      "meaning": "to be delighted"
+    },
+    {
+      "char": "老",
+      "word": "老いる",
+      "reading": "おいる",
+      "meaning": "to age"
+    },
+    {
+      "char": "遅",
+      "word": "遅い",
+      "reading": "おそい",
+      "meaning": "slow"
+    },
+    {
+      "char": "刻",
+      "word": "刻",
+      "reading": "こく",
+      "meaning": "period of time (usu. a period of approx. two hours corresponding to one of the signs of the Chinese zodiac)"
+    },
+    {
+      "char": "遠",
+      "word": "遠く",
+      "reading": "とおく",
+      "meaning": "far away"
+    },
+    {
+      "char": "戻",
+      "word": "戻る",
+      "reading": "もどる",
+      "meaning": "to turn back (e.g. half-way)"
+    },
+    {
+      "char": "折",
+      "word": "折",
+      "reading": "おり",
+      "meaning": "opportunity"
+    },
+    {
+      "char": "雪",
+      "word": "雪",
+      "reading": "ゆき",
+      "meaning": "snow"
+    },
+    {
+      "char": "礼",
+      "word": "礼",
+      "reading": "れい",
+      "meaning": "thanks"
+    },
+    {
+      "char": "昔",
+      "word": "昔",
+      "reading": "むかし",
+      "meaning": "long ago; the old days"
+    },
+    {
+      "char": "頂",
+      "word": "頂く",
+      "reading": "いただく",
+      "meaning": "to receive"
+    },
+    {
+      "char": "才",
+      "word": "才",
+      "reading": "さい",
+      "meaning": "ability"
+    },
+    {
+      "char": "猫",
+      "word": "猫",
+      "reading": "ねこ",
+      "meaning": "cat (esp. the domestic cat, Felis catus)"
+    },
+    {
+      "char": "幾",
+      "word": "幾",
+      "reading": "いく",
+      "meaning": "some"
+    },
+    {
+      "char": "形",
+      "word": "形",
+      "reading": "かたち",
+      "meaning": "form"
+    }
   ]
 }

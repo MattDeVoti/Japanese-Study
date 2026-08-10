@@ -1287,52 +1287,287 @@
     }
   ],
   "kanji": [
-    "協",
-    "区",
-    "査",
-    "輸",
-    "線",
-    "域",
-    "額",
-    "準",
-    "低",
-    "録",
-    "券",
-    "並",
-    "採",
-    "林",
-    "短",
-    "均",
-    "陸",
-    "豊",
-    "練",
-    "軽",
-    "層",
-    "績",
-    "刊",
-    "震",
-    "枚",
-    "届",
-    "雇",
-    "贈",
-    "翌",
-    "荒",
-    "訓",
-    "胸",
-    "柔",
-    "零",
-    "浅",
-    "乳",
-    "勇",
-    "虫",
-    "孫",
-    "氷",
-    "銅",
-    "湿",
-    "磨",
-    "畳",
-    "菓",
-    "皿",
-    "伺"
+    {
+      "char": "協",
+      "word": "妥協",
+      "reading": "だきょう",
+      "meaning": "compromise"
+    },
+    {
+      "char": "区",
+      "word": "区",
+      "reading": "く",
+      "meaning": "ward"
+    },
+    {
+      "char": "査",
+      "word": "審査",
+      "reading": "しんさ",
+      "meaning": "examination; screening"
+    },
+    {
+      "char": "輸",
+      "word": "輸",
+      "reading": "ゆ",
+      "meaning": "transport"
+    },
+    {
+      "char": "線",
+      "word": "線",
+      "reading": "せん",
+      "meaning": "line"
+    },
+    {
+      "char": "域",
+      "word": "域",
+      "reading": "いき",
+      "meaning": "range"
+    },
+    {
+      "char": "額",
+      "word": "額",
+      "reading": "がく",
+      "meaning": "(picture) frame"
+    },
+    {
+      "char": "準",
+      "word": "標準",
+      "reading": "ひょうじゅん",
+      "meaning": "standard"
+    },
+    {
+      "char": "低",
+      "word": "低い",
+      "reading": "ひくい",
+      "meaning": "low (rank, degree, value, content, quality, etc.)"
+    },
+    {
+      "char": "録",
+      "word": "録",
+      "reading": "しるす",
+      "meaning": "record"
+    },
+    {
+      "char": "券",
+      "word": "券",
+      "reading": "けん",
+      "meaning": "ticket"
+    },
+    {
+      "char": "並",
+      "word": "並べる",
+      "reading": "ならべる",
+      "meaning": "to line up"
+    },
+    {
+      "char": "採",
+      "word": "採点",
+      "reading": "さいてん",
+      "meaning": "grading; scoring"
+    },
+    {
+      "char": "林",
+      "word": "林",
+      "reading": "はやし",
+      "meaning": "wood"
+    },
+    {
+      "char": "短",
+      "word": "短い",
+      "reading": "みじかい",
+      "meaning": "short"
+    },
+    {
+      "char": "均",
+      "word": "均",
+      "reading": "ならす",
+      "meaning": "level"
+    },
+    {
+      "char": "陸",
+      "word": "陸",
+      "reading": "りく",
+      "meaning": "land"
+    },
+    {
+      "char": "豊",
+      "word": "豊か",
+      "reading": "ゆたか",
+      "meaning": "abundant"
+    },
+    {
+      "char": "練",
+      "word": "練り",
+      "reading": "ねり",
+      "meaning": "kneading"
+    },
+    {
+      "char": "軽",
+      "word": "軽い",
+      "reading": "かるい",
+      "meaning": "light (i.e. not heavy)"
+    },
+    {
+      "char": "層",
+      "word": "層",
+      "reading": "そう",
+      "meaning": "layer; stratum"
+    },
+    {
+      "char": "績",
+      "word": "実績",
+      "reading": "じっせき",
+      "meaning": "track record; results"
+    },
+    {
+      "char": "刊",
+      "word": "刊",
+      "reading": "かん",
+      "meaning": "publish"
+    },
+    {
+      "char": "震",
+      "word": "震える",
+      "reading": "ふるえる",
+      "meaning": "to shiver"
+    },
+    {
+      "char": "枚",
+      "word": "枚",
+      "reading": "まい",
+      "meaning": "counter for flat objects (e.g. sheets of paper)"
+    },
+    {
+      "char": "届",
+      "word": "届く",
+      "reading": "とどく",
+      "meaning": "to reach"
+    },
+    {
+      "char": "雇",
+      "word": "雇う",
+      "reading": "やとう",
+      "meaning": "to employ"
+    },
+    {
+      "char": "贈",
+      "word": "贈る",
+      "reading": "おくる",
+      "meaning": "to give (as a gift)"
+    },
+    {
+      "char": "翌",
+      "word": "翌",
+      "reading": "よく",
+      "meaning": "the following"
+    },
+    {
+      "char": "荒",
+      "word": "荒らす",
+      "reading": "あらす",
+      "meaning": "to lay waste"
+    },
+    {
+      "char": "訓",
+      "word": "訓",
+      "reading": "くん",
+      "meaning": "native Japanese reading of a Chinese character"
+    },
+    {
+      "char": "胸",
+      "word": "胸",
+      "reading": "むね",
+      "meaning": "chest"
+    },
+    {
+      "char": "柔",
+      "word": "柔らかい",
+      "reading": "やわらかい",
+      "meaning": "soft"
+    },
+    {
+      "char": "零",
+      "word": "零",
+      "reading": "れい",
+      "meaning": "zero"
+    },
+    {
+      "char": "浅",
+      "word": "浅い",
+      "reading": "あさい",
+      "meaning": "shallow"
+    },
+    {
+      "char": "乳",
+      "word": "乳",
+      "reading": "ちち",
+      "meaning": "milk"
+    },
+    {
+      "char": "勇",
+      "word": "勇ましい",
+      "reading": "いさましい",
+      "meaning": "brave"
+    },
+    {
+      "char": "虫",
+      "word": "虫",
+      "reading": "むし",
+      "meaning": "insect"
+    },
+    {
+      "char": "孫",
+      "word": "孫",
+      "reading": "まご",
+      "meaning": "grandchild"
+    },
+    {
+      "char": "氷",
+      "word": "氷",
+      "reading": "こおり",
+      "meaning": "ice"
+    },
+    {
+      "char": "銅",
+      "word": "銅",
+      "reading": "どう",
+      "meaning": "copper (Cu)"
+    },
+    {
+      "char": "湿",
+      "word": "湿っぽい",
+      "reading": "しめっぽい",
+      "meaning": "damp"
+    },
+    {
+      "char": "磨",
+      "word": "磨く",
+      "reading": "みがく",
+      "meaning": "to polish"
+    },
+    {
+      "char": "畳",
+      "word": "畳",
+      "reading": "じょう",
+      "meaning": "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)"
+    },
+    {
+      "char": "菓",
+      "word": "菓",
+      "reading": "か",
+      "meaning": "candy"
+    },
+    {
+      "char": "皿",
+      "word": "皿",
+      "reading": "さら",
+      "meaning": "plate"
+    },
+    {
+      "char": "伺",
+      "word": "伺う",
+      "reading": "うかがう",
+      "meaning": "to ask"
+    }
   ]
 }

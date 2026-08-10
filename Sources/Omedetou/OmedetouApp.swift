@@ -58,9 +58,16 @@ struct OmedetouApp: App {
                 }
                 // Leaving the app counts as leaving the page — and a microphone
                 // left live behind a backgrounded app is worse than rude.
+                //
+                // The exception is a hands-free study run, which exists to be
+                // listened to with the screen off. Silencing it here would make
+                // the mode useless the moment the phone locked.
                 if phase != .active {
-                    SpeechService.shared.stop()
+                    if !VocalStudySettings.shared.handsFreeRunning {
+                        SpeechService.shared.stop()
+                    }
                     DictationService.shared.stop()
+                    VocalAnswerListener.shared.cancel()
                 }
                 guard phase == .active else { return }
                 // A day may have rolled over while the app was backgrounded, and the

@@ -479,6 +479,8 @@ struct HomeOptionsSheet: View {
                     }
                 }
 
+                VocalOptionsSection()
+
                 // Only shown once something has actually been found — listing it
                 // beforehand would give away that there are games to look for.
                 if unlocks.hasAny {
@@ -757,6 +759,46 @@ private extension HomeOptionsSheet {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// MARK: - Vocal flashcard options
+
+/// Broken out of the options sheet so the settings that govern a spoken session
+/// live next to each other rather than three hundred lines apart.
+private struct VocalOptionsSection: View {
+    @ObservedObject private var vocal = VocalStudySettings.shared
+
+    var body: some View {
+        Section {
+            VStack(alignment: .leading, spacing: 6) {
+                HStack {
+                    Text("Time to answer")
+                    Spacer()
+                    Text("\(Int(vocal.answerSeconds)) seconds")
+                        .foregroundColor(.appTextSecondary)
+                        .monospacedDigit()
+                }
+                Slider(value: $vocal.answerSeconds,
+                       in: VocalStudySettings.secondsRange,
+                       step: 1)
+                    .tint(.appAccent)
+            }
+        } header: {
+            Label("Audio Flash Cards", systemImage: "waveform.and.mic")
+        } footer: {
+            Text("How long the microphone stays open after each word is read out. Answering early moves straight on, so a longer window only costs you when you're stuck.")
+        }
+    }
+}
 
 
 

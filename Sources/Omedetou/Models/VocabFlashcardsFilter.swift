@@ -10,7 +10,25 @@ struct VocabFlashCard: Identifiable {
     let accentColor: Color
 }
 
-final class VocabFlashcardsFilter: ObservableObject {
+/// What the filter sheet needs from a deck filter. Two conformers: the written
+/// flashcards' filter, and the vocal deck's — same sheet, independent selections.
+protocol VocabFiltering: AnyObject {
+    var selectedChapterIds: Set<String> { get set }
+    var selectedWordIds: Set<String> { get set }
+    var showFavoritesOnly: Bool { get set }
+    var hasActiveFilter: Bool { get }
+    func reset()
+    func clearWeights()
+    func clearExclusions(for wordIds: [String]?)
+}
+
+extension VocabFiltering {
+    /// Protocols can't carry default arguments; both conformers' call sites use
+    /// the bare form for "clear everything".
+    func clearExclusions() { clearExclusions(for: nil) }
+}
+
+final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     /// Shared source of truth so the Study section and a chapter's Study Vocab
     /// read the same favorites, weights, and checkmarks — a change on one side is
     /// live on the other.
@@ -98,7 +116,31 @@ final class VocabFlashcardsFilter: ObservableObject {
     // Both tallies are recorded on every answer, whatever the priority mode is set
     // to — the mode only decides how the counts are *used* when picking a card.
 
-    func markNeedsWork(_ wordId: String) { needsWorkCounts[wordId, default: 0] += 1; saveWeights() }
+    /// Records a "Needs Work", and clears the word's checkmark if it had one.
+    ///
+    /// A checkmark means "done with this"; Needs Work means the opposite. In
+    /// Prioritize Needs Work mode checked-off words stay in rotation, so it is
+    /// entirely possible to be shown one and realise you don't know it after
+    /// all — and leaving it checked would retire it again the moment priority
+    /// was switched off. Returns whether a checkmark was cleared, so the deck's
+    /// back button can put it back.
+    @discardableResult
+    func markNeedsWork(_ wordId: String) -> Bool {
+        needsWorkCounts[wordId, default: 0] += 1
+        saveWeights()
+        guard excludedWordIds.contains(wordId) else { return false }
+        excludedWordIds.remove(wordId)
+        saveExcluded()
+        return true
+    }
+
+    /// Clears checkmarks on several words at once — one save, not one per word.
+    func unexclude(_ wordIds: [String]) {
+        let removals = excludedWordIds.intersection(wordIds)
+        guard !removals.isEmpty else { return }
+        excludedWordIds.subtract(removals)
+        saveExcluded()
+    }
     /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
     func unmarkNeedsWork(_ wordId: String) {
         guard let c = needsWorkCounts[wordId], c > 0 else { return }
@@ -116,6 +158,28 @@ final class VocabFlashcardsFilter: ObservableObject {
         saveWeights()
     }
     func clearWeights() { needsWorkCounts = [:]; confidentCounts = [:]; saveWeights() }
+
+    /// Adds a whole session's tallies in one go.
+    ///
+    /// Batched deliberately: the vocal summary can carry forty words, and going
+    /// through `markConfident`/`markNeedsWork` one answer at a time would write
+    /// the whole weights blob to disk once per answer.
+    func addWeights(_ tallies: [(wordId: String, confident: Int, needsWork: Int)]) {
+        var changed = false
+        for t in tallies {
+            if t.confident > 0 { confidentCounts[t.wordId, default: 0] += t.confident; changed = true }
+            if t.needsWork > 0 { needsWorkCounts[t.wordId, default: 0] += t.needsWork; changed = true }
+        }
+        if changed { saveWeights() }
+    }
+
+    /// Checks off several words at once — one save rather than one per word.
+    func exclude(_ wordIds: [String]) {
+        let additions = Set(wordIds).subtracting(excludedWordIds)
+        guard !additions.isEmpty else { return }
+        excludedWordIds.formUnion(additions)
+        saveExcluded()
+    }
 
     /// Picks a card, biasing toward "Needs Work" words when the app-wide
     /// StudyWeightSettings has prioritization on. Shared logic with the other decks.
@@ -216,5 +280,102 @@ final class VocabFlashcardsFilter: ObservableObject {
     private func persistSelection() {
         guard didLoad else { return }   // don't persist during init's loadSelection()
         UserDefaults.standard.encode(SelectionData(selected: selectedChapterIds, autoSelected: autoSelectedChapterIds), forKey: selectionKey)
+    }
+}
+
+// MARK: - The vocal deck's filter
+
+/// Filter selections for the vocal flashcards, independent of the written deck's.
+///
+/// Only the *selections* fork — which chapters, which words, favorites-only.
+/// Everything that is data rather than a choice of view (which words are
+/// favorites, which are checked off, the needs-work tallies) forwards to the
+/// shared store: a word marked Confident from a vocal summary must be the same
+/// Confident the written deck sees, or the two modes would drift into separate
+/// records of the same learner.
+final class VocalDeckFilter: ObservableObject, VocabFiltering {
+    static let shared = VocalDeckFilter()
+
+    /// The shared data behind both decks.
+    private var store: VocabFlashcardsFilter { .shared }
+
+    @Published var selectedChapterIds: Set<String> = [] { didSet { persist() } }
+    @Published var selectedWordIds: Set<String> = []
+    @Published var showFavoritesOnly = false
+
+    private let selectionKey = "VocalDeckSelectedChapters"
+    private var didLoad = false
+
+    private init() {
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: selectionKey) {
+            selectedChapterIds = ids
+        }
+        didLoad = true
+    }
+
+    var hasActiveFilter: Bool {
+        !selectedChapterIds.isEmpty || !selectedWordIds.isEmpty || showFavoritesOnly
+    }
+
+    /// The one-tap match-up: adopt whatever the written flashcards are filtered to.
+    func copyFromFlashcards() {
+        selectedChapterIds = store.selectedChapterIds
+        selectedWordIds = store.selectedWordIds
+        showFavoritesOnly = store.showFavoritesOnly
+    }
+
+    func reset() {
+        selectedChapterIds = []
+        selectedWordIds = []
+        showFavoritesOnly = false
+    }
+
+    // MARK: Forwarded data operations (shared with the written deck)
+
+    func isFavorite(_ wordId: String) -> Bool { store.isFavorite(wordId) }
+    func toggleFavorite(_ wordId: String) { store.toggleFavorite(wordId) }
+    func isExcluded(_ wordId: String) -> Bool { store.isExcluded(wordId) }
+    func toggleExcluded(_ wordId: String) { store.toggleExcluded(wordId) }
+    func clearExclusions(for wordIds: [String]? = nil) { store.clearExclusions(for: wordIds) }
+    @discardableResult
+    func markNeedsWork(_ wordId: String) -> Bool { store.markNeedsWork(wordId) }
+    func unexclude(_ wordIds: [String]) { store.unexclude(wordIds) }
+    func markConfident(_ wordId: String) { store.markConfident(wordId) }
+    func clearWeights() { store.clearWeights() }
+    func addWeights(_ tallies: [(wordId: String, confident: Int, needsWork: Int)]) {
+        store.addWeights(tallies)
+    }
+    func exclude(_ wordIds: [String]) { store.exclude(wordIds) }
+
+    // MARK: Pool
+
+    /// Same shape as the written deck's `apply`, but reading this filter's
+    /// selections against the shared favorites/checkmark data.
+    func apply(to cards: [VocabFlashCard]) -> [VocabFlashCard] {
+        var result = cards
+        if !selectedChapterIds.isEmpty {
+            result = result.filter { selectedChapterIds.contains($0.chapterId) }
+        }
+        if !selectedWordIds.isEmpty {
+            result = result.filter { selectedWordIds.contains($0.word.id) }
+        }
+        if showFavoritesOnly {
+            let favs = result.filter { store.isFavorite($0.word.id) }
+            if !favs.isEmpty { result = favs }
+        }
+        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return result }
+        return result.filter { !store.isExcluded($0.word.id) }
+    }
+
+    func selectNext(from cards: [VocabFlashCard],
+                    using sequencer: DeckSequencer) -> VocabFlashCard? {
+        sequencer.next(from: cards,
+                       key: { $0.word.id },
+                       needsWork: { [weak self] in self?.store.needsWorkCounts[$0.word.id] ?? 0 })
+    }
+
+    private func persist() {
+        guard didLoad else { return }
+        UserDefaults.standard.encode(selectedChapterIds, forKey: selectionKey)
     }
 }

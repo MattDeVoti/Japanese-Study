@@ -147,6 +147,8 @@ class CardStore: ObservableObject {
             let onyomi: [KanjiReading]?
             let kunyomi: [KanjiReading]?
             let commonWords: [KanjiCommonWord]?
+            let components: [KanjiComponent]?
+            let mnemonic: String?
         }
 
         guard let entries = try? JSONDecoder().decode([KanjiJSON].self, from: raw) else { return [] }
@@ -161,6 +163,8 @@ class CardStore: ObservableObject {
                 onyomi: json.onyomi ?? [],
                 kunyomi: json.kunyomi ?? [],
                 commonWords: json.commonWords ?? [],
+                components: json.components ?? [],
+                mnemonic: json.mnemonic ?? "",
                 isFavorite: data.favorites.contains(json.kanji),
                 needsWorkCount: data.needsWorkCounts[json.kanji] ?? 0,
                 confidentCount: data.confidentCounts[json.kanji] ?? 0
@@ -209,11 +213,22 @@ class CardStore: ObservableObject {
         persist()
     }
 
-    func incrementNeedsWork(cardId: String) {
+    /// Records a "Needs Work", and clears the card's checkmark if it had one.
+    /// A checkmark means "done with this" and Needs Work means the opposite, so
+    /// the two must never both be true. Returns whether one was cleared, so the
+    /// back button can restore it.
+    @discardableResult
+    func incrementNeedsWork(cardId: String) -> Bool {
         data.needsWorkCounts[cardId, default: 0] += 1
         let n = data.needsWorkCounts[cardId]!
         mutateCard(cardId, kanji: { $0.needsWorkCount = n }, grammar: { $0.needsWorkCount = n })
+        let wasChecked = excludedKanjiIds.contains(cardId)
+        if wasChecked {
+            excludedKanjiIds.remove(cardId)
+            data.excludedKanji = excludedKanjiIds
+        }
         persist()
+        return wasChecked
     }
 
     /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.

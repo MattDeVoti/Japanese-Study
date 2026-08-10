@@ -1287,46 +1287,251 @@
     }
   ],
   "kanji": [
-    "連",
-    "対",
-    "合",
-    "関",
-    "数",
-    "交",
-    "際",
-    "面",
-    "信",
-    "側",
-    "係",
-    "放",
-    "付",
-    "断",
-    "宅",
-    "席",
-    "声",
-    "落",
-    "好",
-    "福",
-    "港",
-    "良",
-    "値",
-    "否",
-    "除",
-    "迎",
-    "因",
-    "愛",
-    "余",
-    "背",
-    "宿",
-    "頼",
-    "婚",
-    "幸",
-    "招",
-    "欲",
-    "閉",
-    "掛",
-    "慣",
-    "疲",
-    "恥"
+    {
+      "char": "連",
+      "word": "連れる",
+      "reading": "つれる",
+      "meaning": "to take (someone) with one"
+    },
+    {
+      "char": "対",
+      "word": "対立",
+      "reading": "たいりつ",
+      "meaning": "conflict; confrontation"
+    },
+    {
+      "char": "合",
+      "word": "合う",
+      "reading": "あう",
+      "meaning": "to match; to fit"
+    },
+    {
+      "char": "関",
+      "word": "関係",
+      "reading": "かんけい",
+      "meaning": "relationship"
+    },
+    {
+      "char": "数",
+      "word": "数える",
+      "reading": "かぞえる",
+      "meaning": "to count"
+    },
+    {
+      "char": "交",
+      "word": "交際",
+      "reading": "こうさい",
+      "meaning": "dating; association"
+    },
+    {
+      "char": "際",
+      "word": "際",
+      "reading": "さい",
+      "meaning": "on the occasion of"
+    },
+    {
+      "char": "面",
+      "word": "面する",
+      "reading": "めんする",
+      "meaning": "to face on"
+    },
+    {
+      "char": "信",
+      "word": "信頼",
+      "reading": "しんらい",
+      "meaning": "trust"
+    },
+    {
+      "char": "側",
+      "word": "側",
+      "reading": "そば",
+      "meaning": "near"
+    },
+    {
+      "char": "係",
+      "word": "係",
+      "reading": "かかり",
+      "meaning": "charge"
+    },
+    {
+      "char": "放",
+      "word": "放す",
+      "reading": "はなす",
+      "meaning": "to release"
+    },
+    {
+      "char": "付",
+      "word": "付ける",
+      "reading": "つける",
+      "meaning": "to attach"
+    },
+    {
+      "char": "断",
+      "word": "断る",
+      "reading": "ことわる",
+      "meaning": "to refuse; to decline"
+    },
+    {
+      "char": "宅",
+      "word": "宅",
+      "reading": "たく",
+      "meaning": "house"
+    },
+    {
+      "char": "席",
+      "word": "席",
+      "reading": "せき",
+      "meaning": "seat"
+    },
+    {
+      "char": "声",
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice"
+    },
+    {
+      "char": "落",
+      "word": "落ちる",
+      "reading": "おちる",
+      "meaning": "to fall down"
+    },
+    {
+      "char": "好",
+      "word": "好",
+      "reading": "す",
+      "meaning": "fond"
+    },
+    {
+      "char": "福",
+      "word": "福",
+      "reading": "ふく",
+      "meaning": "good fortune"
+    },
+    {
+      "char": "港",
+      "word": "港",
+      "reading": "みなと",
+      "meaning": "harbour"
+    },
+    {
+      "char": "良",
+      "word": "良い",
+      "reading": "よい",
+      "meaning": "good"
+    },
+    {
+      "char": "値",
+      "word": "値",
+      "reading": "あたい",
+      "meaning": "price"
+    },
+    {
+      "char": "否",
+      "word": "否",
+      "reading": "ひ",
+      "meaning": "no"
+    },
+    {
+      "char": "除",
+      "word": "除いて",
+      "reading": "のぞいて",
+      "meaning": "except"
+    },
+    {
+      "char": "迎",
+      "word": "迎える",
+      "reading": "むかえる",
+      "meaning": "to go out to meet"
+    },
+    {
+      "char": "因",
+      "word": "因る",
+      "reading": "よる",
+      "meaning": "to be due to"
+    },
+    {
+      "char": "愛",
+      "word": "愛",
+      "reading": "あい",
+      "meaning": "love"
+    },
+    {
+      "char": "余",
+      "word": "余る",
+      "reading": "あまる",
+      "meaning": "to remain"
+    },
+    {
+      "char": "背",
+      "word": "背",
+      "reading": "せい",
+      "meaning": "height"
+    },
+    {
+      "char": "宿",
+      "word": "宿",
+      "reading": "やど",
+      "meaning": "lodging"
+    },
+    {
+      "char": "頼",
+      "word": "頼る",
+      "reading": "たよる",
+      "meaning": "to rely on"
+    },
+    {
+      "char": "婚",
+      "word": "離婚",
+      "reading": "りこん",
+      "meaning": "divorce"
+    },
+    {
+      "char": "幸",
+      "word": "幸",
+      "reading": "しあわ",
+      "meaning": "happiness"
+    },
+    {
+      "char": "招",
+      "word": "招く",
+      "reading": "まねく",
+      "meaning": "to invite"
+    },
+    {
+      "char": "欲",
+      "word": "欲",
+      "reading": "よく",
+      "meaning": "greed"
+    },
+    {
+      "char": "閉",
+      "word": "閉める",
+      "reading": "しめる",
+      "meaning": "to close"
+    },
+    {
+      "char": "掛",
+      "word": "掛ける",
+      "reading": "かける",
+      "meaning": "to hang up (e.g. a coat, a picture on the wall)"
+    },
+    {
+      "char": "慣",
+      "word": "慣れる",
+      "reading": "なれる",
+      "meaning": "to get used to"
+    },
+    {
+      "char": "疲",
+      "word": "疲",
+      "reading": "つか",
+      "meaning": "exhausted"
+    },
+    {
+      "char": "恥",
+      "word": "恥",
+      "reading": "はじ",
+      "meaning": "shame"
+    }
   ]
 }

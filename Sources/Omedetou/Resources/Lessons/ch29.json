@@ -1927,46 +1927,251 @@
     }
   ],
   "kanji": [
-    "市",
-    "経",
-    "約",
-    "取",
-    "支",
-    "産",
-    "済",
-    "資",
-    "利",
-    "引",
-    "投",
-    "直",
-    "争",
-    "供",
-    "費",
-    "収",
-    "消",
-    "商",
-    "景",
-    "渡",
-    "失",
-    "財",
-    "満",
-    "師",
-    "易",
-    "給",
-    "彼",
-    "妻",
-    "船",
-    "静",
-    "倒",
-    "困",
-    "願",
-    "列",
-    "迷",
-    "悲",
-    "御",
-    "洗",
-    "杯",
-    "怖",
-    "靴"
+    {
+      "char": "市",
+      "word": "市",
+      "reading": "いち",
+      "meaning": "market"
+    },
+    {
+      "char": "経",
+      "word": "経済",
+      "reading": "けいざい",
+      "meaning": "economy"
+    },
+    {
+      "char": "約",
+      "word": "約",
+      "reading": "やく",
+      "meaning": "approximately"
+    },
+    {
+      "char": "取",
+      "word": "取引",
+      "reading": "とりひき",
+      "meaning": "transaction; dealings"
+    },
+    {
+      "char": "支",
+      "word": "支出",
+      "reading": "ししゅつ",
+      "meaning": "expenditure"
+    },
+    {
+      "char": "産",
+      "word": "産業",
+      "reading": "さんぎょう",
+      "meaning": "industry"
+    },
+    {
+      "char": "済",
+      "word": "済む",
+      "reading": "すむ",
+      "meaning": "to finish"
+    },
+    {
+      "char": "資",
+      "word": "資金",
+      "reading": "しきん",
+      "meaning": "funds"
+    },
+    {
+      "char": "利",
+      "word": "利益",
+      "reading": "りえき",
+      "meaning": "profit"
+    },
+    {
+      "char": "引",
+      "word": "引",
+      "reading": "ひ",
+      "meaning": "pull"
+    },
+    {
+      "char": "投",
+      "word": "投資",
+      "reading": "とうし",
+      "meaning": "investment"
+    },
+    {
+      "char": "直",
+      "word": "直し",
+      "reading": "なおし",
+      "meaning": "correction"
+    },
+    {
+      "char": "争",
+      "word": "争い",
+      "reading": "あらそい",
+      "meaning": "dispute"
+    },
+    {
+      "char": "供",
+      "word": "供給",
+      "reading": "きょうきゅう",
+      "meaning": "supply"
+    },
+    {
+      "char": "費",
+      "word": "費",
+      "reading": "ひ",
+      "meaning": "cost"
+    },
+    {
+      "char": "収",
+      "word": "収入",
+      "reading": "しゅうにゅう",
+      "meaning": "income"
+    },
+    {
+      "char": "消",
+      "word": "消",
+      "reading": "き",
+      "meaning": "extinguish"
+    },
+    {
+      "char": "商",
+      "word": "商売",
+      "reading": "しょうばい",
+      "meaning": "business; trade"
+    },
+    {
+      "char": "景",
+      "word": "景気",
+      "reading": "けいき",
+      "meaning": "economic conditions"
+    },
+    {
+      "char": "渡",
+      "word": "渡る",
+      "reading": "わたる",
+      "meaning": "to cross over"
+    },
+    {
+      "char": "失",
+      "word": "損失",
+      "reading": "そんしつ",
+      "meaning": "loss"
+    },
+    {
+      "char": "財",
+      "word": "財産",
+      "reading": "ざいさん",
+      "meaning": "assets; property"
+    },
+    {
+      "char": "満",
+      "word": "満たす",
+      "reading": "みたす",
+      "meaning": "to satisfy (conditions, one's appetite, etc.)"
+    },
+    {
+      "char": "師",
+      "word": "師",
+      "reading": "いくさ",
+      "meaning": "expert"
+    },
+    {
+      "char": "易",
+      "word": "易しい",
+      "reading": "やさしい",
+      "meaning": "easy"
+    },
+    {
+      "char": "給",
+      "word": "供給",
+      "reading": "きょうきゅう",
+      "meaning": "supply"
+    },
+    {
+      "char": "彼",
+      "word": "彼",
+      "reading": "かれ",
+      "meaning": "he"
+    },
+    {
+      "char": "妻",
+      "word": "妻",
+      "reading": "つま",
+      "meaning": "wife"
+    },
+    {
+      "char": "船",
+      "word": "船",
+      "reading": "ふね",
+      "meaning": "ship"
+    },
+    {
+      "char": "静",
+      "word": "静か",
+      "reading": "しずか",
+      "meaning": "quiet"
+    },
+    {
+      "char": "倒",
+      "word": "倒産",
+      "reading": "とうさん",
+      "meaning": "bankruptcy"
+    },
+    {
+      "char": "困",
+      "word": "困る",
+      "reading": "こまる",
+      "meaning": "to be troubled"
+    },
+    {
+      "char": "願",
+      "word": "願う",
+      "reading": "ねがう",
+      "meaning": "to desire"
+    },
+    {
+      "char": "列",
+      "word": "列",
+      "reading": "れつ",
+      "meaning": "row"
+    },
+    {
+      "char": "迷",
+      "word": "迷い",
+      "reading": "まよい",
+      "meaning": "hesitation"
+    },
+    {
+      "char": "悲",
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meaning": "sad"
+    },
+    {
+      "char": "御",
+      "word": "御",
+      "reading": "おん",
+      "meaning": "honorable"
+    },
+    {
+      "char": "洗",
+      "word": "洗う",
+      "reading": "あらう",
+      "meaning": "to wash"
+    },
+    {
+      "char": "杯",
+      "word": "杯",
+      "reading": "さかずき",
+      "meaning": "sake cup"
+    },
+    {
+      "char": "怖",
+      "word": "怖",
+      "reading": "こわ",
+      "meaning": "dreadful"
+    },
+    {
+      "char": "靴",
+      "word": "靴",
+      "reading": "くつ",
+      "meaning": "shoe"
+    }
   ]
 }

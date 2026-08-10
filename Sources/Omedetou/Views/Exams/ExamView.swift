@@ -17,7 +17,7 @@ struct ExamView: View {
     @State private var submitted = false
     @State private var result: ExamAttempt?
     @State private var missedCount = 0
-    @State private var showConfirmSubmit = false
+    @State private var showQuestionList = false
 
     private var accent: Color { .themeTile(11) }
 
@@ -45,6 +45,22 @@ struct ExamView: View {
     // MARK: - Paper
 
     private var current: ExamQuestion { questions[min(index, questions.count - 1)] }
+
+    private var allAnswered: Bool {
+        !questions.isEmpty && questions.allSatisfy { answers[$0.id] != nil }
+    }
+
+    /// Where Next goes: the first blank question after this one, wrapping past
+    /// the end to catch anything skipped on the way down.
+    ///
+    /// Nil only when the last blank question is the one already on screen —
+    /// there is nowhere to send you, so Next greys out and answering it turns
+    /// the button into Submit.
+    private var nextUnanswered: Int? {
+        guard !questions.isEmpty else { return nil }
+        let order = (index + 1..<questions.count).map { $0 } + (0..<index).map { $0 }
+        return order.first { answers[questions[$0].id] == nil }
+    }
 
     private var paper: some View {
         VStack(spacing: 0) {
@@ -168,27 +184,43 @@ struct ExamView: View {
             .buttonStyle(.plain)
             .disabled(index == 0)
 
-            if index == questions.count - 1 {
+            if allAnswered {
                 AccentActionButton(title: "Submit", icon: "checkmark", color: accent) {
-                    if answers.count < questions.count { showConfirmSubmit = true }
-                    else { submit() }
+                    submit()
                 }
                 .frame(maxWidth: .infinity)
             } else {
+                // Next never runs out: past the last question it doubles back to
+                // whatever is still blank, so the only way to reach Submit is to
+                // have answered everything.
                 AccentActionButton(title: "Next", icon: "chevron.right", color: accent) {
-                    index += 1
+                    if let next = nextUnanswered { index = next }
                 }
                 .frame(maxWidth: .infinity)
+                .disabled(nextUnanswered == nil)
+                .opacity(nextUnanswered == nil ? 0.45 : 1)
             }
+
+            // Jump to any question. Sized to match the back button so the
+            // primary action sits centred between two equal circles.
+            Button { showQuestionList = true } label: {
+                Image(systemName: "line.3.horizontal")
+                    .font(.system(size: 16, weight: .bold))
+                    .foregroundColor(accent)
+                    .frame(width: 48, height: 48)
+                    .background(Circle().fill(Color.appSurface))
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("All questions")
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 24)
-        .confirmationDialog("Submit with \(questions.count - answers.count) unanswered?",
-                            isPresented: $showConfirmSubmit, titleVisibility: .visible) {
-            Button("Submit anyway", role: .destructive) { submit() }
-            Button("Keep working", role: .cancel) {}
-        } message: {
-            Text("Unanswered questions are marked wrong.")
+        .sheet(isPresented: $showQuestionList) {
+            ExamQuestionList(questions: questions, answers: answers,
+                             current: index, accent: accent) { picked in
+                index = picked
+                showQuestionList = false
+            }
         }
     }
 
@@ -229,5 +261,106 @@ struct ExamView: View {
         missedCount = enrolled.count
         result = attempt
         withAnimation { submitted = true }
+    }
+}
+
+// MARK: - Question list
+
+/// Every question in the test, with the answer you gave under each one you've
+/// answered. Tapping a row jumps straight to it.
+///
+/// Only the chosen answer is shown, never the other options: this is a way to
+/// find your place and check what you put, and listing all four choices would
+/// turn it into a second, scrollable copy of the test.
+private struct ExamQuestionList: View {
+    let questions: [ExamQuestion]
+    let answers: [String: Int]
+    let current: Int
+    let accent: Color
+    let onPick: (Int) -> Void
+
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ScrollViewReader { proxy in
+                ScrollView {
+                    LazyVStack(spacing: 0) {
+                        ForEach(Array(questions.enumerated()), id: \.element.id) { i, q in
+                            row(i, q)
+                                .id(i)
+                            Divider().padding(.leading, 52)
+                        }
+                    }
+                }
+                .background(AppBackground())
+                .onAppear { proxy.scrollTo(current, anchor: .center) }
+            }
+            .navigationTitle("\(answers.count) of \(questions.count) answered")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                }
+            }
+            .toolbarBackground(Color.appNavBar, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+        }
+    }
+
+    /// Furigana markup reads as noise at this size — 二時[にじ] rather than 二時.
+    private func plain(_ text: String?) -> String {
+        guard let text else { return "" }
+        return text.replacingOccurrences(of: "\\[[^\\]]*\\]", with: "",
+                                         options: .regularExpression)
+    }
+
+    private func row(_ i: Int, _ q: ExamQuestion) -> some View {
+        let chosen = answers[q.id].flatMap { q.choices.indices.contains($0) ? plain(q.choices[$0]) : nil }
+        return Button { onPick(i) } label: {
+            HStack(alignment: .top, spacing: 12) {
+                Text("\(i + 1)")
+                    .font(.system(size: 13, weight: .bold))
+                    .foregroundColor(chosen == nil ? .appTextSecondary : .white)
+                    .frame(width: 28, height: 28)
+                    .background(Circle().fill(chosen == nil ? Color.appSurfaceHigh : accent))
+
+                VStack(alignment: .leading, spacing: 3) {
+                    // The subject is the Japanese being asked about; the prompt
+                    // alone ("What does this mean?") wouldn't tell them apart.
+                    // Furigana markup is stripped — these rows are one line each.
+                    Text(plain(q.subject).isEmpty ? q.prompt : plain(q.subject))
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundColor(.appText)
+                        .multilineTextAlignment(.leading)
+                        .fixedSize(horizontal: false, vertical: true)
+                    if let chosen {
+                        Text(chosen)
+                            .font(.system(size: 12))
+                            .foregroundColor(.appTextSecondary)
+                            .multilineTextAlignment(.leading)
+                            .fixedSize(horizontal: false, vertical: true)
+                    } else {
+                        Text("Not answered")
+                            .font(.system(size: 12))
+                            .foregroundColor(.appTextSecondary.opacity(0.7))
+                            .italic()
+                    }
+                }
+                Spacer(minLength: 4)
+                if i == current {
+                    Image(systemName: "location.fill")
+                        .font(.system(size: 11, weight: .bold))
+                        .foregroundColor(accent)
+                        .padding(.top, 4)
+                }
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 11)
+            .background(i == current ? accent.opacity(0.08) : Color.clear)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
     }
 }

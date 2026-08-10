@@ -222,7 +222,8 @@ struct StudyListView: View {
                 }
             }
 
-            if let kanji = chapter.kanji, !kanji.isEmpty {
+            let kanji = chapter.kanjiChars
+            if !kanji.isEmpty {
                 section("Kanji (\(kanji.count))", .kanjiColor) {
                     let wanted = Set(kanji)
                     let cards = cardStore.kanjiCards.filter { wanted.contains($0.kanji) }

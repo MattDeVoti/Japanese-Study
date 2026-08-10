@@ -1287,52 +1287,287 @@
     }
   ],
   "kanji": [
-    "設",
-    "結",
-    "島",
-    "再",
-    "比",
-    "境",
-    "象",
-    "門",
-    "湾",
-    "橋",
-    "戸",
-    "竹",
-    "歴",
-    "河",
-    "児",
-    "印",
-    "署",
-    "帯",
-    "則",
-    "承",
-    "絡",
-    "裏",
-    "星",
-    "坂",
-    "触",
-    "札",
-    "骨",
-    "預",
-    "秒",
-    "双",
-    "敬",
-    "漁",
-    "兆",
-    "殿",
-    "泊",
-    "雲",
-    "掘",
-    "珍",
-    "湯",
-    "塗",
-    "拾",
-    "咲",
-    "耕",
-    "筒",
-    "膚",
-    "涼",
-    "畜"
+    {
+      "char": "設",
+      "word": "設ける",
+      "reading": "もうける",
+      "meaning": "to prepare"
+    },
+    {
+      "char": "結",
+      "word": "結論",
+      "reading": "けつろん",
+      "meaning": "conclusion"
+    },
+    {
+      "char": "島",
+      "word": "島",
+      "reading": "しま",
+      "meaning": "island"
+    },
+    {
+      "char": "再",
+      "word": "再び",
+      "reading": "ふたたび",
+      "meaning": "again"
+    },
+    {
+      "char": "比",
+      "word": "比較",
+      "reading": "ひかく",
+      "meaning": "comparison"
+    },
+    {
+      "char": "境",
+      "word": "境",
+      "reading": "さかい",
+      "meaning": "border"
+    },
+    {
+      "char": "象",
+      "word": "象",
+      "reading": "しょう",
+      "meaning": "form"
+    },
+    {
+      "char": "門",
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate"
+    },
+    {
+      "char": "湾",
+      "word": "湾",
+      "reading": "わん",
+      "meaning": "bay"
+    },
+    {
+      "char": "橋",
+      "word": "橋",
+      "reading": "はし",
+      "meaning": "bridge"
+    },
+    {
+      "char": "戸",
+      "word": "戸",
+      "reading": "と",
+      "meaning": "door (esp. Japanese-style)"
+    },
+    {
+      "char": "竹",
+      "word": "竹",
+      "reading": "たけ",
+      "meaning": "bamboo (any grass of subfamily Bambusoideae)"
+    },
+    {
+      "char": "歴",
+      "word": "歴",
+      "reading": "れき",
+      "meaning": "curriculum"
+    },
+    {
+      "char": "河",
+      "word": "河",
+      "reading": "かわ",
+      "meaning": "river"
+    },
+    {
+      "char": "児",
+      "word": "児",
+      "reading": "こ",
+      "meaning": "newborn babe"
+    },
+    {
+      "char": "印",
+      "word": "印",
+      "reading": "しるし",
+      "meaning": "mark"
+    },
+    {
+      "char": "署",
+      "word": "署",
+      "reading": "しょ",
+      "meaning": "signature"
+    },
+    {
+      "char": "帯",
+      "word": "帯",
+      "reading": "おび",
+      "meaning": "obi"
+    },
+    {
+      "char": "則",
+      "word": "則",
+      "reading": "のっとる",
+      "meaning": "rule"
+    },
+    {
+      "char": "承",
+      "word": "承る",
+      "reading": "うけたまわる",
+      "meaning": "to hear"
+    },
+    {
+      "char": "絡",
+      "word": "絡む",
+      "reading": "からむ",
+      "meaning": "to entangle"
+    },
+    {
+      "char": "裏",
+      "word": "裏",
+      "reading": "うら",
+      "meaning": "opposite side"
+    },
+    {
+      "char": "星",
+      "word": "星",
+      "reading": "ほし",
+      "meaning": "star (usu. not including the Sun)"
+    },
+    {
+      "char": "坂",
+      "word": "坂",
+      "reading": "さか",
+      "meaning": "slope"
+    },
+    {
+      "char": "触",
+      "word": "触る",
+      "reading": "さわる",
+      "meaning": "to touch"
+    },
+    {
+      "char": "札",
+      "word": "札",
+      "reading": "さつ",
+      "meaning": "banknote"
+    },
+    {
+      "char": "骨",
+      "word": "骨",
+      "reading": "ほね",
+      "meaning": "bone"
+    },
+    {
+      "char": "預",
+      "word": "預かり",
+      "reading": "あずかり",
+      "meaning": "under custody"
+    },
+    {
+      "char": "秒",
+      "word": "秒",
+      "reading": "びょう",
+      "meaning": "second (unit of time)"
+    },
+    {
+      "char": "双",
+      "word": "双",
+      "reading": "そう",
+      "meaning": "pair"
+    },
+    {
+      "char": "敬",
+      "word": "敬う",
+      "reading": "うやまう",
+      "meaning": "to show respect for"
+    },
+    {
+      "char": "漁",
+      "word": "漁",
+      "reading": "りょう",
+      "meaning": "fishing"
+    },
+    {
+      "char": "兆",
+      "word": "兆",
+      "reading": "ちょう",
+      "meaning": "10^12"
+    },
+    {
+      "char": "殿",
+      "word": "殿",
+      "reading": "どの",
+      "meaning": "Mr."
+    },
+    {
+      "char": "泊",
+      "word": "泊まる",
+      "reading": "とまる",
+      "meaning": "to stay at (e.g. hotel)"
+    },
+    {
+      "char": "雲",
+      "word": "雲",
+      "reading": "くも",
+      "meaning": "cloud"
+    },
+    {
+      "char": "掘",
+      "word": "掘る",
+      "reading": "ほる",
+      "meaning": "to dig"
+    },
+    {
+      "char": "珍",
+      "word": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "unusual"
+    },
+    {
+      "char": "湯",
+      "word": "湯",
+      "reading": "ゆ",
+      "meaning": "hot water"
+    },
+    {
+      "char": "塗",
+      "word": "塗る",
+      "reading": "ぬる",
+      "meaning": "to paint"
+    },
+    {
+      "char": "拾",
+      "word": "拾う",
+      "reading": "ひろう",
+      "meaning": "to pick up"
+    },
+    {
+      "char": "咲",
+      "word": "咲く",
+      "reading": "さく",
+      "meaning": "to bloom"
+    },
+    {
+      "char": "耕",
+      "word": "耕す",
+      "reading": "たがやす",
+      "meaning": "to till"
+    },
+    {
+      "char": "筒",
+      "word": "筒",
+      "reading": "つつ",
+      "meaning": "pipe"
+    },
+    {
+      "char": "膚",
+      "word": "膚",
+      "reading": "はだ",
+      "meaning": "skin"
+    },
+    {
+      "char": "涼",
+      "word": "涼しい",
+      "reading": "すずしい",
+      "meaning": "cool"
+    },
+    {
+      "char": "畜",
+      "word": "畜",
+      "reading": "ちく",
+      "meaning": "livestock"
+    }
   ]
 }

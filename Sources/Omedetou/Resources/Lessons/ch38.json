@@ -1607,52 +1607,287 @@
     }
   ],
   "kanji": [
-    "領",
-    "保",
-    "改",
-    "減",
-    "防",
-    "補",
-    "担",
-    "被",
-    "況",
-    "岸",
-    "周",
-    "超",
-    "療",
-    "介",
-    "禁",
-    "暴",
-    "爆",
-    "延",
-    "乱",
-    "厚",
-    "齢",
-    "損",
-    "昇",
-    "寺",
-    "依",
-    "傾",
-    "巻",
-    "弱",
-    "律",
-    "泉",
-    "硬",
-    "柱",
-    "砂",
-    "濃",
-    "荷",
-    "捨",
-    "腰",
-    "卵",
-    "溶",
-    "軒",
-    "糸",
-    "召",
-    "鈍",
-    "鼻",
-    "濯",
-    "舟",
-    "坊"
+    {
+      "char": "領",
+      "word": "領",
+      "reading": "えり",
+      "meaning": "jurisdiction"
+    },
+    {
+      "char": "保",
+      "word": "保険",
+      "reading": "ほけん",
+      "meaning": "insurance"
+    },
+    {
+      "char": "改",
+      "word": "改善",
+      "reading": "かいぜん",
+      "meaning": "improvement"
+    },
+    {
+      "char": "減",
+      "word": "減る",
+      "reading": "へる",
+      "meaning": "to decrease (in size or number)"
+    },
+    {
+      "char": "防",
+      "word": "防ぐ",
+      "reading": "ふせぐ",
+      "meaning": "to defend against"
+    },
+    {
+      "char": "補",
+      "word": "補助",
+      "reading": "ほじょ",
+      "meaning": "subsidy; assistance"
+    },
+    {
+      "char": "担",
+      "word": "負担",
+      "reading": "ふたん",
+      "meaning": "burden"
+    },
+    {
+      "char": "被",
+      "word": "被災",
+      "reading": "ひさい",
+      "meaning": "being disaster-stricken"
+    },
+    {
+      "char": "況",
+      "word": "況して",
+      "reading": "まして",
+      "meaning": "still more"
+    },
+    {
+      "char": "岸",
+      "word": "岸",
+      "reading": "きし",
+      "meaning": "bank"
+    },
+    {
+      "char": "周",
+      "word": "周",
+      "reading": "まわ",
+      "meaning": "circumference"
+    },
+    {
+      "char": "超",
+      "word": "超",
+      "reading": "ちょう",
+      "meaning": "super-"
+    },
+    {
+      "char": "療",
+      "word": "医療費",
+      "reading": "いりょうひ",
+      "meaning": "medical expenses"
+    },
+    {
+      "char": "介",
+      "word": "介護",
+      "reading": "かいご",
+      "meaning": "nursing care"
+    },
+    {
+      "char": "禁",
+      "word": "禁じる",
+      "reading": "きんじる",
+      "meaning": "to prohibit"
+    },
+    {
+      "char": "暴",
+      "word": "暴力",
+      "reading": "ぼうりょく",
+      "meaning": "violence"
+    },
+    {
+      "char": "爆",
+      "word": "爆",
+      "reading": "はぜる",
+      "meaning": "bomb"
+    },
+    {
+      "char": "延",
+      "word": "延べ",
+      "reading": "のべ",
+      "meaning": "futures"
+    },
+    {
+      "char": "乱",
+      "word": "乱す",
+      "reading": "みだす",
+      "meaning": "to throw into disorder"
+    },
+    {
+      "char": "厚",
+      "word": "厚い",
+      "reading": "あつい",
+      "meaning": "thick"
+    },
+    {
+      "char": "齢",
+      "word": "齢",
+      "reading": "よわい",
+      "meaning": "(one's) age"
+    },
+    {
+      "char": "損",
+      "word": "損",
+      "reading": "そん",
+      "meaning": "loss"
+    },
+    {
+      "char": "昇",
+      "word": "昇",
+      "reading": "のぼる",
+      "meaning": "rise up"
+    },
+    {
+      "char": "寺",
+      "word": "寺",
+      "reading": "てら",
+      "meaning": "temple (Buddhist)"
+    },
+    {
+      "char": "依",
+      "word": "依",
+      "reading": "よる",
+      "meaning": "reliant"
+    },
+    {
+      "char": "傾",
+      "word": "傾ける",
+      "reading": "かたむける",
+      "meaning": "to incline"
+    },
+    {
+      "char": "巻",
+      "word": "巻",
+      "reading": "まき",
+      "meaning": "roll (e.g. of cloth)"
+    },
+    {
+      "char": "弱",
+      "word": "弱い",
+      "reading": "よわい",
+      "meaning": "weak"
+    },
+    {
+      "char": "律",
+      "word": "律",
+      "reading": "りつ",
+      "meaning": "rhythm"
+    },
+    {
+      "char": "泉",
+      "word": "泉",
+      "reading": "いずみ",
+      "meaning": "spring"
+    },
+    {
+      "char": "硬",
+      "word": "硬い",
+      "reading": "かたい",
+      "meaning": "hard"
+    },
+    {
+      "char": "柱",
+      "word": "柱",
+      "reading": "はしら",
+      "meaning": "pillar"
+    },
+    {
+      "char": "砂",
+      "word": "砂",
+      "reading": "すな",
+      "meaning": "sand"
+    },
+    {
+      "char": "濃",
+      "word": "濃い",
+      "reading": "こい",
+      "meaning": "deep (colour)"
+    },
+    {
+      "char": "荷",
+      "word": "荷",
+      "reading": "に",
+      "meaning": "load"
+    },
+    {
+      "char": "捨",
+      "word": "捨てる",
+      "reading": "すてる",
+      "meaning": "to throw away"
+    },
+    {
+      "char": "腰",
+      "word": "腰",
+      "reading": "こし",
+      "meaning": "lower back"
+    },
+    {
+      "char": "卵",
+      "word": "卵",
+      "reading": "たまご",
+      "meaning": "eggs"
+    },
+    {
+      "char": "溶",
+      "word": "溶ける",
+      "reading": "とける",
+      "meaning": "to melt"
+    },
+    {
+      "char": "軒",
+      "word": "軒",
+      "reading": "のき",
+      "meaning": "eaves"
+    },
+    {
+      "char": "糸",
+      "word": "糸",
+      "reading": "いと",
+      "meaning": "thread"
+    },
+    {
+      "char": "召",
+      "word": "召",
+      "reading": "めす",
+      "meaning": "seduce"
+    },
+    {
+      "char": "鈍",
+      "word": "鈍い",
+      "reading": "にぶい",
+      "meaning": "dull (e.g. a knife)"
+    },
+    {
+      "char": "鼻",
+      "word": "鼻",
+      "reading": "はな",
+      "meaning": "nose"
+    },
+    {
+      "char": "濯",
+      "word": "濯",
+      "reading": "すすぐ",
+      "meaning": "laundry"
+    },
+    {
+      "char": "舟",
+      "word": "舟",
+      "reading": "ふね",
+      "meaning": "boat; small craft"
+    },
+    {
+      "char": "坊",
+      "word": "坊さん",
+      "reading": "ぼうさん",
+      "meaning": "Buddhist priest"
+    }
   ]
 }

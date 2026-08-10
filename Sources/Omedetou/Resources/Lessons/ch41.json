@@ -1287,52 +1287,287 @@
     }
   ],
   "kanji": [
-    "党",
-    "各",
-    "勢",
-    "農",
-    "辺",
-    "脳",
-    "針",
-    "史",
-    "省",
-    "材",
-    "央",
-    "販",
-    "講",
-    "航",
-    "輪",
-    "倍",
-    "玉",
-    "固",
-    "岩",
-    "患",
-    "募",
-    "血",
-    "誌",
-    "像",
-    "希",
-    "複",
-    "駐",
-    "焼",
-    "刺",
-    "快",
-    "悩",
-    "封",
-    "腕",
-    "肩",
-    "甘",
-    "凍",
-    "冊",
-    "干",
-    "匹",
-    "拝",
-    "祈",
-    "脂",
-    "灯",
-    "机",
-    "灰",
-    "憎",
-    "滴"
+    {
+      "char": "党",
+      "word": "党",
+      "reading": "とう",
+      "meaning": "party (political)"
+    },
+    {
+      "char": "各",
+      "word": "各",
+      "reading": "かく",
+      "meaning": "each"
+    },
+    {
+      "char": "勢",
+      "word": "勢い",
+      "reading": "いきおい",
+      "meaning": "force"
+    },
+    {
+      "char": "農",
+      "word": "農",
+      "reading": "のう",
+      "meaning": "farming"
+    },
+    {
+      "char": "辺",
+      "word": "辺",
+      "reading": "へん",
+      "meaning": "area"
+    },
+    {
+      "char": "脳",
+      "word": "脳",
+      "reading": "のう",
+      "meaning": "brain"
+    },
+    {
+      "char": "針",
+      "word": "針",
+      "reading": "はり",
+      "meaning": "needle"
+    },
+    {
+      "char": "史",
+      "word": "史",
+      "reading": "し",
+      "meaning": "history"
+    },
+    {
+      "char": "省",
+      "word": "省く",
+      "reading": "はぶく",
+      "meaning": "to omit"
+    },
+    {
+      "char": "材",
+      "word": "材",
+      "reading": "ざい",
+      "meaning": "lumber"
+    },
+    {
+      "char": "央",
+      "word": "央",
+      "reading": "おう",
+      "meaning": "center"
+    },
+    {
+      "char": "販",
+      "word": "販",
+      "reading": "はん",
+      "meaning": "marketing"
+    },
+    {
+      "char": "講",
+      "word": "講ずる",
+      "reading": "こうずる",
+      "meaning": "to take measures"
+    },
+    {
+      "char": "航",
+      "word": "航",
+      "reading": "こう",
+      "meaning": "navigate"
+    },
+    {
+      "char": "輪",
+      "word": "輪",
+      "reading": "わ",
+      "meaning": "ring"
+    },
+    {
+      "char": "倍",
+      "word": "倍",
+      "reading": "ばい",
+      "meaning": "twice"
+    },
+    {
+      "char": "玉",
+      "word": "玉",
+      "reading": "たま",
+      "meaning": "ball"
+    },
+    {
+      "char": "固",
+      "word": "固め",
+      "reading": "かため",
+      "meaning": "hardening"
+    },
+    {
+      "char": "岩",
+      "word": "岩",
+      "reading": "いわ",
+      "meaning": "rock"
+    },
+    {
+      "char": "患",
+      "word": "患う",
+      "reading": "わずらう",
+      "meaning": "to be ill"
+    },
+    {
+      "char": "募",
+      "word": "募る",
+      "reading": "つのる",
+      "meaning": "to become stronger"
+    },
+    {
+      "char": "血",
+      "word": "血",
+      "reading": "ち",
+      "meaning": "blood"
+    },
+    {
+      "char": "誌",
+      "word": "誌",
+      "reading": "し",
+      "meaning": "magazine"
+    },
+    {
+      "char": "像",
+      "word": "像",
+      "reading": "ぞう",
+      "meaning": "image"
+    },
+    {
+      "char": "希",
+      "word": "希",
+      "reading": "まれ",
+      "meaning": "hope"
+    },
+    {
+      "char": "複",
+      "word": "複",
+      "reading": "ふく",
+      "meaning": "duplicate"
+    },
+    {
+      "char": "駐",
+      "word": "駐",
+      "reading": "ちゅう",
+      "meaning": "stop-over"
+    },
+    {
+      "char": "焼",
+      "word": "焼く",
+      "reading": "やく",
+      "meaning": "to burn"
+    },
+    {
+      "char": "刺",
+      "word": "刺激",
+      "reading": "しげき",
+      "meaning": "stimulation; stimulus"
+    },
+    {
+      "char": "快",
+      "word": "快感",
+      "reading": "かいかん",
+      "meaning": "pleasant feeling"
+    },
+    {
+      "char": "悩",
+      "word": "悩む",
+      "reading": "なやむ",
+      "meaning": "to worry; to agonize"
+    },
+    {
+      "char": "封",
+      "word": "封",
+      "reading": "ふう",
+      "meaning": "seal"
+    },
+    {
+      "char": "腕",
+      "word": "腕",
+      "reading": "うで",
+      "meaning": "arm"
+    },
+    {
+      "char": "肩",
+      "word": "肩",
+      "reading": "かた",
+      "meaning": "shoulder"
+    },
+    {
+      "char": "甘",
+      "word": "甘い",
+      "reading": "あまい",
+      "meaning": "sweet-tasting"
+    },
+    {
+      "char": "凍",
+      "word": "凍",
+      "reading": "こご",
+      "meaning": "frozen"
+    },
+    {
+      "char": "冊",
+      "word": "冊",
+      "reading": "さつ",
+      "meaning": "counter for books"
+    },
+    {
+      "char": "干",
+      "word": "干す",
+      "reading": "ほす",
+      "meaning": "to air"
+    },
+    {
+      "char": "匹",
+      "word": "匹",
+      "reading": "ひき",
+      "meaning": "counter for small animals"
+    },
+    {
+      "char": "拝",
+      "word": "拝む",
+      "reading": "おがむ",
+      "meaning": "to assume the posture of praying"
+    },
+    {
+      "char": "祈",
+      "word": "祈る",
+      "reading": "いのる",
+      "meaning": "to pray"
+    },
+    {
+      "char": "脂",
+      "word": "脂",
+      "reading": "あぶら",
+      "meaning": "fat"
+    },
+    {
+      "char": "灯",
+      "word": "灯",
+      "reading": "ひ",
+      "meaning": "light"
+    },
+    {
+      "char": "机",
+      "word": "机",
+      "reading": "つくえ",
+      "meaning": "desk"
+    },
+    {
+      "char": "灰",
+      "word": "灰",
+      "reading": "はい",
+      "meaning": "ash"
+    },
+    {
+      "char": "憎",
+      "word": "憎む",
+      "reading": "にくむ",
+      "meaning": "to hate"
+    },
+    {
+      "char": "滴",
+      "word": "滴",
+      "reading": "しずく",
+      "meaning": "drop (e.g. of water)"
+    }
   ]
 }

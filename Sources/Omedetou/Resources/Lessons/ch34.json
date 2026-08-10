@@ -1607,46 +1607,251 @@
     }
   ],
   "kanji": [
-    "政",
-    "議",
-    "民",
-    "首",
-    "制",
-    "平",
-    "権",
-    "報",
-    "勝",
-    "反",
-    "判",
-    "認",
-    "参",
-    "官",
-    "両",
-    "式",
-    "局",
-    "与",
-    "難",
-    "警",
-    "働",
-    "差",
-    "他",
-    "速",
-    "降",
-    "馬",
-    "込",
-    "顔",
-    "薬",
-    "等",
-    "徒",
-    "賛",
-    "越",
-    "君",
-    "到",
-    "忘",
-    "窓",
-    "耳",
-    "箱",
-    "押",
-    "鳴"
+    {
+      "char": "政",
+      "word": "政治",
+      "reading": "せいじ",
+      "meaning": "politics"
+    },
+    {
+      "char": "議",
+      "word": "議会",
+      "reading": "ぎかい",
+      "meaning": "parliament; assembly"
+    },
+    {
+      "char": "民",
+      "word": "民",
+      "reading": "たみ",
+      "meaning": "people"
+    },
+    {
+      "char": "首",
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    },
+    {
+      "char": "制",
+      "word": "制度",
+      "reading": "せいど",
+      "meaning": "system; institution"
+    },
+    {
+      "char": "平",
+      "word": "平等",
+      "reading": "びょうどう",
+      "meaning": "equality"
+    },
+    {
+      "char": "権",
+      "word": "権力",
+      "reading": "けんりょく",
+      "meaning": "(political) power"
+    },
+    {
+      "char": "報",
+      "word": "報道",
+      "reading": "ほうどう",
+      "meaning": "news reporting"
+    },
+    {
+      "char": "勝",
+      "word": "勝つ",
+      "reading": "かつ",
+      "meaning": "to win"
+    },
+    {
+      "char": "反",
+      "word": "反",
+      "reading": "はん",
+      "meaning": "anti-"
+    },
+    {
+      "char": "判",
+      "word": "判",
+      "reading": "はん",
+      "meaning": "seal"
+    },
+    {
+      "char": "認",
+      "word": "認める",
+      "reading": "みとめる",
+      "meaning": "to recognize"
+    },
+    {
+      "char": "参",
+      "word": "参る",
+      "reading": "まいる",
+      "meaning": "to go"
+    },
+    {
+      "char": "官",
+      "word": "官",
+      "reading": "かん",
+      "meaning": "bureaucrat"
+    },
+    {
+      "char": "両",
+      "word": "両",
+      "reading": "てる",
+      "meaning": "both"
+    },
+    {
+      "char": "式",
+      "word": "式",
+      "reading": "しき",
+      "meaning": "equation"
+    },
+    {
+      "char": "局",
+      "word": "局",
+      "reading": "きょく",
+      "meaning": "bureau"
+    },
+    {
+      "char": "与",
+      "word": "与党",
+      "reading": "よとう",
+      "meaning": "ruling party"
+    },
+    {
+      "char": "難",
+      "word": "難",
+      "reading": "むずか",
+      "meaning": "difficult"
+    },
+    {
+      "char": "警",
+      "word": "警",
+      "reading": "いましめる",
+      "meaning": "admonish"
+    },
+    {
+      "char": "働",
+      "word": "働",
+      "reading": "はたら",
+      "meaning": "work"
+    },
+    {
+      "char": "差",
+      "word": "差",
+      "reading": "さ",
+      "meaning": "difference"
+    },
+    {
+      "char": "他",
+      "word": "他",
+      "reading": "ほか",
+      "meaning": "other (place, thing, person)"
+    },
+    {
+      "char": "速",
+      "word": "速やか",
+      "reading": "すみやか",
+      "meaning": "quick"
+    },
+    {
+      "char": "降",
+      "word": "降りる",
+      "reading": "おりる",
+      "meaning": "to descend (e.g. a mountain)"
+    },
+    {
+      "char": "馬",
+      "word": "馬",
+      "reading": "うま",
+      "meaning": "horse"
+    },
+    {
+      "char": "込",
+      "word": "込む",
+      "reading": "こむ",
+      "meaning": "to be crowded"
+    },
+    {
+      "char": "顔",
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    },
+    {
+      "char": "薬",
+      "word": "薬",
+      "reading": "くすり",
+      "meaning": "medicine"
+    },
+    {
+      "char": "等",
+      "word": "等しい",
+      "reading": "ひとしい",
+      "meaning": "equal"
+    },
+    {
+      "char": "徒",
+      "word": "徒",
+      "reading": "いたずら",
+      "meaning": "on foot"
+    },
+    {
+      "char": "賛",
+      "word": "賛",
+      "reading": "さん",
+      "meaning": "praise"
+    },
+    {
+      "char": "越",
+      "word": "越し",
+      "reading": "ごし",
+      "meaning": "across"
+    },
+    {
+      "char": "君",
+      "word": "君",
+      "reading": "きみ",
+      "meaning": "you"
+    },
+    {
+      "char": "到",
+      "word": "到",
+      "reading": "いたる",
+      "meaning": "arrival"
+    },
+    {
+      "char": "忘",
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    },
+    {
+      "char": "窓",
+      "word": "窓",
+      "reading": "まど",
+      "meaning": "window"
+    },
+    {
+      "char": "耳",
+      "word": "耳",
+      "reading": "みみ",
+      "meaning": "ear"
+    },
+    {
+      "char": "箱",
+      "word": "箱",
+      "reading": "はこ",
+      "meaning": "box"
+    },
+    {
+      "char": "押",
+      "word": "押す",
+      "reading": "おす",
+      "meaning": "to push"
+    },
+    {
+      "char": "鳴",
+      "word": "鳴る",
+      "reading": "なる",
+      "meaning": "to sound"
+    }
   ]
 }

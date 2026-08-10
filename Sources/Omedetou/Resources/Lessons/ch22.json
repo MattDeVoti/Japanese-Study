@@ -1610,21 +1610,101 @@
     }
   ],
   "kanji": [
-    "地",
-    "場",
-    "京",
-    "田",
-    "文",
-    "海",
-    "物",
-    "口",
-    "町",
-    "店",
-    "族",
-    "館",
-    "色",
-    "堂",
-    "弟",
-    "兄"
+    {
+      "char": "地",
+      "word": "地域",
+      "reading": "ちいき",
+      "meaning": "region; area"
+    },
+    {
+      "char": "場",
+      "word": "場",
+      "reading": "ば",
+      "meaning": "place"
+    },
+    {
+      "char": "京",
+      "word": "京",
+      "reading": "きょう",
+      "meaning": "imperial capital (esp. Kyoto)"
+    },
+    {
+      "char": "田",
+      "word": "田舎",
+      "reading": "いなか",
+      "meaning": "countryside"
+    },
+    {
+      "char": "文",
+      "word": "文",
+      "reading": "ふみ",
+      "meaning": "letter"
+    },
+    {
+      "char": "海",
+      "word": "海",
+      "reading": "うみ",
+      "meaning": "sea"
+    },
+    {
+      "char": "物",
+      "word": "物",
+      "reading": "もの",
+      "meaning": "thing"
+    },
+    {
+      "char": "口",
+      "word": "口",
+      "reading": "くち",
+      "meaning": "mouth"
+    },
+    {
+      "char": "町",
+      "word": "町",
+      "reading": "まち",
+      "meaning": "town"
+    },
+    {
+      "char": "店",
+      "word": "店",
+      "reading": "みせ",
+      "meaning": "store"
+    },
+    {
+      "char": "族",
+      "word": "族",
+      "reading": "ぞく",
+      "meaning": "tribe"
+    },
+    {
+      "char": "館",
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library"
+    },
+    {
+      "char": "色",
+      "word": "色",
+      "reading": "いろ",
+      "meaning": "colour"
+    },
+    {
+      "char": "堂",
+      "word": "堂",
+      "reading": "どう",
+      "meaning": "temple"
+    },
+    {
+      "char": "弟",
+      "word": "弟",
+      "reading": "おとうと",
+      "meaning": "younger brother"
+    },
+    {
+      "char": "兄",
+      "word": "兄",
+      "reading": "あに",
+      "meaning": "older brother"
+    }
   ]
 }

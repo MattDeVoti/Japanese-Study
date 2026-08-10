@@ -1287,52 +1287,287 @@
     }
   ],
   "kanji": [
-    "県",
-    "団",
-    "村",
-    "税",
-    "導",
-    "造",
-    "型",
-    "谷",
-    "階",
-    "管",
-    "細",
-    "競",
-    "貿",
-    "装",
-    "久",
-    "植",
-    "停",
-    "羽",
-    "卒",
-    "順",
-    "了",
-    "池",
-    "永",
-    "宇",
-    "汚",
-    "板",
-    "包",
-    "紹",
-    "詰",
-    "皮",
-    "袋",
-    "宝",
-    "祝",
-    "衣",
-    "臣",
-    "沈",
-    "踊",
-    "械",
-    "涙",
-    "叫",
-    "汗",
-    "隻",
-    "隅",
-    "胃",
-    "沸",
-    "符",
-    "曇"
+    {
+      "char": "県",
+      "word": "県",
+      "reading": "けん",
+      "meaning": "prefecture (Japan)"
+    },
+    {
+      "char": "団",
+      "word": "団",
+      "reading": "かたまり",
+      "meaning": "group"
+    },
+    {
+      "char": "村",
+      "word": "村",
+      "reading": "むら",
+      "meaning": "village"
+    },
+    {
+      "char": "税",
+      "word": "税",
+      "reading": "ぜい",
+      "meaning": "tax"
+    },
+    {
+      "char": "導",
+      "word": "導入",
+      "reading": "どうにゅう",
+      "meaning": "introduction; adoption"
+    },
+    {
+      "char": "造",
+      "word": "構造",
+      "reading": "こうぞう",
+      "meaning": "structure"
+    },
+    {
+      "char": "型",
+      "word": "型",
+      "reading": "かた",
+      "meaning": "model"
+    },
+    {
+      "char": "谷",
+      "word": "谷",
+      "reading": "たに",
+      "meaning": "valley"
+    },
+    {
+      "char": "階",
+      "word": "階",
+      "reading": "かい",
+      "meaning": "storey"
+    },
+    {
+      "char": "管",
+      "word": "管",
+      "reading": "かん",
+      "meaning": "pipe"
+    },
+    {
+      "char": "細",
+      "word": "細い",
+      "reading": "ほそい",
+      "meaning": "thin"
+    },
+    {
+      "char": "競",
+      "word": "競う",
+      "reading": "きそう",
+      "meaning": "to compete"
+    },
+    {
+      "char": "貿",
+      "word": "貿",
+      "reading": "ぼう",
+      "meaning": "trade"
+    },
+    {
+      "char": "装",
+      "word": "装置",
+      "reading": "そうち",
+      "meaning": "device; apparatus"
+    },
+    {
+      "char": "久",
+      "word": "久しぶり",
+      "reading": "ひさしぶり",
+      "meaning": "a long time (since the last time)"
+    },
+    {
+      "char": "植",
+      "word": "植える",
+      "reading": "うえる",
+      "meaning": "to plant"
+    },
+    {
+      "char": "停",
+      "word": "停止",
+      "reading": "ていし",
+      "meaning": "stopping; suspension"
+    },
+    {
+      "char": "羽",
+      "word": "羽",
+      "reading": "はね",
+      "meaning": "feather"
+    },
+    {
+      "char": "卒",
+      "word": "卒",
+      "reading": "そっする",
+      "meaning": "graduate"
+    },
+    {
+      "char": "順",
+      "word": "順序",
+      "reading": "じゅんじょ",
+      "meaning": "order; sequence"
+    },
+    {
+      "char": "了",
+      "word": "了",
+      "reading": "りょう",
+      "meaning": "finish"
+    },
+    {
+      "char": "池",
+      "word": "池",
+      "reading": "いけ",
+      "meaning": "pond"
+    },
+    {
+      "char": "永",
+      "word": "永",
+      "reading": "ながい",
+      "meaning": "eternity"
+    },
+    {
+      "char": "宇",
+      "word": "宇",
+      "reading": "う",
+      "meaning": "eaves"
+    },
+    {
+      "char": "汚",
+      "word": "汚れ",
+      "reading": "よごれ",
+      "meaning": "dirt"
+    },
+    {
+      "char": "板",
+      "word": "板",
+      "reading": "いた",
+      "meaning": "board"
+    },
+    {
+      "char": "包",
+      "word": "包む",
+      "reading": "つつむ",
+      "meaning": "to wrap up"
+    },
+    {
+      "char": "紹",
+      "word": "紹",
+      "reading": "しょう",
+      "meaning": "introduce"
+    },
+    {
+      "char": "詰",
+      "word": "詰まり",
+      "reading": "つまり",
+      "meaning": "that is to say"
+    },
+    {
+      "char": "皮",
+      "word": "皮",
+      "reading": "かわ",
+      "meaning": "skin"
+    },
+    {
+      "char": "袋",
+      "word": "袋",
+      "reading": "ふくろ",
+      "meaning": "bag"
+    },
+    {
+      "char": "宝",
+      "word": "宝",
+      "reading": "たから",
+      "meaning": "treasure"
+    },
+    {
+      "char": "祝",
+      "word": "祝い",
+      "reading": "いわい",
+      "meaning": "congratulation"
+    },
+    {
+      "char": "衣",
+      "word": "衣",
+      "reading": "ころも",
+      "meaning": "clothes"
+    },
+    {
+      "char": "臣",
+      "word": "臣",
+      "reading": "しん",
+      "meaning": "retainer"
+    },
+    {
+      "char": "沈",
+      "word": "沈む",
+      "reading": "しずむ",
+      "meaning": "to sink"
+    },
+    {
+      "char": "踊",
+      "word": "踊る",
+      "reading": "おどる",
+      "meaning": "to dance (orig. a hopping dance)"
+    },
+    {
+      "char": "械",
+      "word": "機械",
+      "reading": "きかい",
+      "meaning": "machine"
+    },
+    {
+      "char": "涙",
+      "word": "涙",
+      "reading": "なみだ",
+      "meaning": "tear"
+    },
+    {
+      "char": "叫",
+      "word": "叫ぶ",
+      "reading": "さけぶ",
+      "meaning": "to shout"
+    },
+    {
+      "char": "汗",
+      "word": "汗",
+      "reading": "あせ",
+      "meaning": "sweat"
+    },
+    {
+      "char": "隻",
+      "word": "隻",
+      "reading": "せき",
+      "meaning": "vessels"
+    },
+    {
+      "char": "隅",
+      "word": "隅",
+      "reading": "すみ",
+      "meaning": "corner"
+    },
+    {
+      "char": "胃",
+      "word": "胃",
+      "reading": "い",
+      "meaning": "stomach"
+    },
+    {
+      "char": "沸",
+      "word": "沸く",
+      "reading": "わく",
+      "meaning": "to grow hot (e.g. water)"
+    },
+    {
+      "char": "符",
+      "word": "符",
+      "reading": "ふ",
+      "meaning": "token"
+    },
+    {
+      "char": "曇",
+      "word": "曇り",
+      "reading": "くもり",
+      "meaning": "cloudiness"
+    }
   ]
 }

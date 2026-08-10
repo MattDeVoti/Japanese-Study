@@ -87,13 +87,27 @@ struct GrammarMenuView: View {
                             .buttonStyle(.plain)
                             .locked(true, feature: "Kanji flashcards")
                         }
+
+                        // Full width under the two squares: the artwork is a
+                        // left-to-right loop and needs the run.
+                        NavigationLink { VocalFlashcardsView() } label: {
+                            VocalDeckTile(color: .themeTile(1))
+                        }
+                        .buttonStyle(.plain)
+                        .locked(true, feature: "Audio flash cards")
+                        .padding(.top, 12)
                     }
 
                     // MARK: Conjugation & reading
                     // Full width rather than squares: both animate, and the motion
                     // needs room to read.
                     SectionStack(header: "Practice") {
-                        VStack(spacing: 12) {
+                        // Lazy on purpose: these tiles animate (timers, repeating
+                        // offsets), and a lazy container tears down whatever is
+                        // scrolled out of view, which stops their clocks with it.
+                        // A plain VStack keeps every tile ticking for as long as
+                        // the menu is open, visible or not.
+                        LazyVStack(spacing: 12) {
                             NavigationLink { ConjugationDrillView() } label: {
                                 ConjugationTile(color: .themeTile(2))
                             }
@@ -116,7 +130,9 @@ struct GrammarMenuView: View {
                     // MARK: Grammar quizzes
                     // One per line at the same size as Conjugation and Reading.
                     SectionStack(header: "Grammar Quizzes") {
-                        VStack(spacing: 12) {
+                        // Lazy for the same reason as Practice: six TimelineViews
+                        // shouldn't sample the clock from below the fold.
+                        LazyVStack(spacing: 12) {
                             ForEach([5, 4, 3, 2, 1], id: \.self) { level in
                                 NavigationLink {
                                     GrammarPracticeView(pointName: "\(levelName(level)) Grammar",

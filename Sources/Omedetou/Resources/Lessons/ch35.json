@@ -1287,45 +1287,245 @@
     }
   ],
   "kanji": [
-    "決",
-    "表",
-    "法",
-    "和",
-    "記",
-    "原",
-    "得",
-    "解",
-    "論",
-    "演",
-    "談",
-    "格",
-    "構",
-    "説",
-    "規",
-    "備",
-    "育",
-    "例",
-    "頭",
-    "段",
-    "横",
-    "識",
-    "突",
-    "積",
-    "捕",
-    "辞",
-    "冷",
-    "険",
-    "許",
-    "便",
-    "曲",
-    "犯",
-    "絵",
-    "遊",
-    "緒",
-    "暗",
-    "娘",
-    "貧",
-    "怒",
-    "寒"
+    {
+      "char": "決",
+      "word": "決める",
+      "reading": "きめる",
+      "meaning": "to decide"
+    },
+    {
+      "char": "表",
+      "word": "表",
+      "reading": "ひょう",
+      "meaning": "chart; table"
+    },
+    {
+      "char": "法",
+      "word": "法",
+      "reading": "ほう",
+      "meaning": "law"
+    },
+    {
+      "char": "和",
+      "word": "和",
+      "reading": "わ",
+      "meaning": "sum"
+    },
+    {
+      "char": "記",
+      "word": "暗記",
+      "reading": "あんき",
+      "meaning": "memorization"
+    },
+    {
+      "char": "原",
+      "word": "原",
+      "reading": "はら",
+      "meaning": "field"
+    },
+    {
+      "char": "得",
+      "word": "得",
+      "reading": "とく",
+      "meaning": "profit"
+    },
+    {
+      "char": "解",
+      "word": "解説",
+      "reading": "かいせつ",
+      "meaning": "commentary; explanation"
+    },
+    {
+      "char": "論",
+      "word": "論じる",
+      "reading": "ろんじる",
+      "meaning": "to discuss"
+    },
+    {
+      "char": "演",
+      "word": "講演",
+      "reading": "こうえん",
+      "meaning": "lecture; talk"
+    },
+    {
+      "char": "談",
+      "word": "談",
+      "reading": "だん",
+      "meaning": "discuss"
+    },
+    {
+      "char": "格",
+      "word": "格",
+      "reading": "かく",
+      "meaning": "status"
+    },
+    {
+      "char": "構",
+      "word": "構う",
+      "reading": "かまう",
+      "meaning": "to mind"
+    },
+    {
+      "char": "説",
+      "word": "説得",
+      "reading": "せっとく",
+      "meaning": "persuasion"
+    },
+    {
+      "char": "規",
+      "word": "規",
+      "reading": "き",
+      "meaning": "standard"
+    },
+    {
+      "char": "備",
+      "word": "備え",
+      "reading": "そなえ",
+      "meaning": "preparation"
+    },
+    {
+      "char": "育",
+      "word": "育てる",
+      "reading": "そだてる",
+      "meaning": "to raise"
+    },
+    {
+      "char": "例",
+      "word": "例",
+      "reading": "れい",
+      "meaning": "example"
+    },
+    {
+      "char": "頭",
+      "word": "頭",
+      "reading": "あたま",
+      "meaning": "head"
+    },
+    {
+      "char": "段",
+      "word": "段",
+      "reading": "だん",
+      "meaning": "step"
+    },
+    {
+      "char": "横",
+      "word": "横",
+      "reading": "よこ",
+      "meaning": "horizontal (as opposed to vertical)"
+    },
+    {
+      "char": "識",
+      "word": "知識",
+      "reading": "ちしき",
+      "meaning": "knowledge"
+    },
+    {
+      "char": "突",
+      "word": "突き",
+      "reading": "つき",
+      "meaning": "thrust"
+    },
+    {
+      "char": "積",
+      "word": "積",
+      "reading": "せき",
+      "meaning": "product"
+    },
+    {
+      "char": "捕",
+      "word": "捕まる",
+      "reading": "つかまる",
+      "meaning": "to be caught"
+    },
+    {
+      "char": "辞",
+      "word": "辞める",
+      "reading": "やめる",
+      "meaning": "to resign"
+    },
+    {
+      "char": "冷",
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meaning": "cold (to the touch)"
+    },
+    {
+      "char": "険",
+      "word": "険しい",
+      "reading": "けわしい",
+      "meaning": "precipitous"
+    },
+    {
+      "char": "許",
+      "word": "許す",
+      "reading": "ゆるす",
+      "meaning": "to permit"
+    },
+    {
+      "char": "便",
+      "word": "便",
+      "reading": "びん",
+      "meaning": "flight (e.g. airline flight)"
+    },
+    {
+      "char": "曲",
+      "word": "曲がる",
+      "reading": "まがる",
+      "meaning": "to bend"
+    },
+    {
+      "char": "犯",
+      "word": "犯す",
+      "reading": "おかす",
+      "meaning": "to commit (e.g. crime)"
+    },
+    {
+      "char": "絵",
+      "word": "絵",
+      "reading": "え",
+      "meaning": "picture"
+    },
+    {
+      "char": "遊",
+      "word": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning": "to play (games, sports)"
+    },
+    {
+      "char": "緒",
+      "word": "緒",
+      "reading": "お",
+      "meaning": "cord"
+    },
+    {
+      "char": "暗",
+      "word": "暗",
+      "reading": "くら",
+      "meaning": "darkness"
+    },
+    {
+      "char": "娘",
+      "word": "娘",
+      "reading": "むすめ",
+      "meaning": "daughter"
+    },
+    {
+      "char": "貧",
+      "word": "貧しい",
+      "reading": "まずしい",
+      "meaning": "poor"
+    },
+    {
+      "char": "怒",
+      "word": "怒る",
+      "reading": "おこる",
+      "meaning": "to get angry"
+    },
+    {
+      "char": "寒",
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "cold (e.g. weather)"
+    }
   ]
 }

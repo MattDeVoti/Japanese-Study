@@ -1287,46 +1287,251 @@
     }
   ],
   "kanji": [
-    "部",
-    "相",
-    "全",
-    "当",
-    "性",
-    "的",
-    "要",
-    "機",
-    "件",
-    "確",
-    "必",
-    "位",
-    "常",
-    "割",
-    "訪",
-    "想",
-    "然",
-    "若",
-    "種",
-    "阪",
-    "程",
-    "客",
-    "単",
-    "具",
-    "適",
-    "類",
-    "散",
-    "払",
-    "雑",
-    "恐",
-    "笑",
-    "似",
-    "酒",
-    "晴",
-    "誤",
-    "泳",
-    "煙",
-    "髪",
-    "偶",
-    "深",
-    "危"
+    {
+      "char": "部",
+      "word": "部分",
+      "reading": "ぶぶん",
+      "meaning": "part; portion"
+    },
+    {
+      "char": "相",
+      "word": "相当",
+      "reading": "そうとう",
+      "meaning": "considerable; substantial"
+    },
+    {
+      "char": "全",
+      "word": "全",
+      "reading": "すべ",
+      "meaning": "whole"
+    },
+    {
+      "char": "当",
+      "word": "当然",
+      "reading": "とうぜん",
+      "meaning": "natural; obvious"
+    },
+    {
+      "char": "性",
+      "word": "性質",
+      "reading": "せいしつ",
+      "meaning": "nature; property"
+    },
+    {
+      "char": "的",
+      "word": "的",
+      "reading": "てき",
+      "meaning": "-ical"
+    },
+    {
+      "char": "要",
+      "word": "要素",
+      "reading": "ようそ",
+      "meaning": "element; factor"
+    },
+    {
+      "char": "機",
+      "word": "機",
+      "reading": "はた",
+      "meaning": "loom"
+    },
+    {
+      "char": "件",
+      "word": "件",
+      "reading": "けん",
+      "meaning": "matter"
+    },
+    {
+      "char": "確",
+      "word": "確実",
+      "reading": "かくじつ",
+      "meaning": "certain; reliable"
+    },
+    {
+      "char": "必",
+      "word": "必",
+      "reading": "かなら",
+      "meaning": "invariably"
+    },
+    {
+      "char": "位",
+      "word": "位",
+      "reading": "くらい",
+      "meaning": "throne"
+    },
+    {
+      "char": "常",
+      "word": "常に",
+      "reading": "つねに",
+      "meaning": "always"
+    },
+    {
+      "char": "割",
+      "word": "割合",
+      "reading": "わりあい",
+      "meaning": "proportion; ratio"
+    },
+    {
+      "char": "訪",
+      "word": "訪れる",
+      "reading": "おとずれる",
+      "meaning": "to visit"
+    },
+    {
+      "char": "想",
+      "word": "理想",
+      "reading": "りそう",
+      "meaning": "ideal"
+    },
+    {
+      "char": "然",
+      "word": "然し",
+      "reading": "しかし",
+      "meaning": "however"
+    },
+    {
+      "char": "若",
+      "word": "若",
+      "reading": "わか",
+      "meaning": "young"
+    },
+    {
+      "char": "種",
+      "word": "種類",
+      "reading": "しゅるい",
+      "meaning": "kind; type"
+    },
+    {
+      "char": "阪",
+      "word": "阪",
+      "reading": "さか",
+      "meaning": "heights"
+    },
+    {
+      "char": "程",
+      "word": "程度",
+      "reading": "ていど",
+      "meaning": "degree; extent"
+    },
+    {
+      "char": "客",
+      "word": "客",
+      "reading": "きゃく",
+      "meaning": "guest"
+    },
+    {
+      "char": "単",
+      "word": "単純",
+      "reading": "たんじゅん",
+      "meaning": "simple"
+    },
+    {
+      "char": "具",
+      "word": "具",
+      "reading": "ぐ",
+      "meaning": "tool"
+    },
+    {
+      "char": "適",
+      "word": "適当",
+      "reading": "てきとう",
+      "meaning": "suitable; (also) haphazard"
+    },
+    {
+      "char": "類",
+      "word": "類",
+      "reading": "るい",
+      "meaning": "kind"
+    },
+    {
+      "char": "散",
+      "word": "散らし",
+      "reading": "ちらし",
+      "meaning": "scattering"
+    },
+    {
+      "char": "払",
+      "word": "払う",
+      "reading": "はらう",
+      "meaning": "to pay (e.g. money, bill)"
+    },
+    {
+      "char": "雑",
+      "word": "雑",
+      "reading": "ざつ",
+      "meaning": "rough"
+    },
+    {
+      "char": "恐",
+      "word": "恐らく",
+      "reading": "おそらく",
+      "meaning": "perhaps"
+    },
+    {
+      "char": "笑",
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "to laugh"
+    },
+    {
+      "char": "似",
+      "word": "似る",
+      "reading": "にる",
+      "meaning": "to resemble"
+    },
+    {
+      "char": "酒",
+      "word": "酒",
+      "reading": "さけ",
+      "meaning": "alcohol"
+    },
+    {
+      "char": "晴",
+      "word": "晴れ",
+      "reading": "はれ",
+      "meaning": "clear weather"
+    },
+    {
+      "char": "誤",
+      "word": "誤り",
+      "reading": "あやまり",
+      "meaning": "error"
+    },
+    {
+      "char": "泳",
+      "word": "泳ぐ",
+      "reading": "およぐ",
+      "meaning": "to swim"
+    },
+    {
+      "char": "煙",
+      "word": "煙",
+      "reading": "けむり",
+      "meaning": "smoke"
+    },
+    {
+      "char": "髪",
+      "word": "髪",
+      "reading": "かみ",
+      "meaning": "hair (on the head)"
+    },
+    {
+      "char": "偶",
+      "word": "偶然",
+      "reading": "ぐうぜん",
+      "meaning": "coincidence; by chance"
+    },
+    {
+      "char": "深",
+      "word": "深い",
+      "reading": "ふかい",
+      "meaning": "deep"
+    },
+    {
+      "char": "危",
+      "word": "危ない",
+      "reading": "あぶない",
+      "meaning": "dangerous"
+    }
   ]
 }

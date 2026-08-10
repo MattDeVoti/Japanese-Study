@@ -43,7 +43,7 @@ struct ChapterDetailView: View {
             if let chapter = chapter {
                 let points = chapter.points.filter(pointMatches)
                 let vocab = (chapter.vocab ?? []).filter(wordMatches)
-                let kanjiChars = (chapter.kanji ?? []).filter(kanjiMatches)
+                let kanjiChars = chapter.kanjiChars.filter(kanjiMatches)
 
                 VStack(spacing: 0) {
                     SearchBar(text: $query, placeholder: "Search this lesson…")
@@ -228,18 +228,32 @@ struct KanjiExcludeCell: View {
 struct ChapterKanjiCell: View {
     let card: KanjiCard
 
+    /// How this chapter teaches the character — the reading and meaning the
+    /// tests and reviews will ask for, shown here so the three agree.
+    private var taught: ChapterKanji? { LessonsService.shared.kanjiEntry(card.kanji) }
+
     private var gloss: String {
-        card.definition
+        if let taught { return taught.meaning }
+        return card.definition
             .split(whereSeparator: { $0 == "," || $0 == ";" })
             .first
             .map { $0.trimmingCharacters(in: .whitespaces) } ?? card.definition
     }
 
     var body: some View {
-        VStack(spacing: 3) {
+        VStack(spacing: 2) {
             Text(card.kanji)
                 .font(.system(size: 30, weight: .semibold))
                 .foregroundColor(nLevelColor(card.nLevel))
+            if let taught, !taught.reading.isEmpty {
+                // The word form too when it differs — 高い is what you learned,
+                // and a bare 高 above たかい reads as a mismatch.
+                Text(taught.word == taught.char ? taught.reading : "\(taught.word)  \(taught.reading)")
+                    .font(.system(size: 9, weight: .medium))
+                    .foregroundColor(nLevelColor(card.nLevel).opacity(0.85))
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.6)
+            }
             Text(gloss)
                 .font(.system(size: 9))
                 .foregroundColor(.appTextSecondary)

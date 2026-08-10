@@ -129,7 +129,8 @@ private struct AddItemPicker: View {
                         }
                     }
                 }
-                if let kanji = chapter.kanji, !kanji.isEmpty {
+                let kanji = chapter.kanjiChars
+                if !kanji.isEmpty {
                     Section("Kanji") {
                         ForEach(kanji, id: \.self) { kc in
                             row(.kanji(char: kc),
@@ -138,7 +139,7 @@ private struct AddItemPicker: View {
                         }
                     }
                 }
-                if points.isEmpty && (chapter.vocab ?? []).isEmpty && (chapter.kanji ?? []).isEmpty {
+                if points.isEmpty && (chapter.vocab ?? []).isEmpty && chapter.kanjiChars.isEmpty {
                     Text("Nothing to add in this chapter.")
                         .foregroundColor(.secondary)
                 }

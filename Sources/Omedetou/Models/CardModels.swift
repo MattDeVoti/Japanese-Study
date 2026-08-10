@@ -21,6 +21,13 @@ struct KanjiCommonWord: Codable, Hashable {
     let meaning: String
 }
 
+/// One visual piece of a kanji, as decomposed by KRADFILE: the glyph to show
+/// and a short learner-facing name ("water (left)", "roof", "heart").
+struct KanjiComponent: Codable, Hashable {
+    let glyph: String
+    let name: String
+}
+
 struct KanjiCard: FlashCardProtocol, Hashable {
     let kanjiId: String
     let kanji: String
@@ -29,6 +36,8 @@ struct KanjiCard: FlashCardProtocol, Hashable {
     let onyomi: [KanjiReading]
     let kunyomi: [KanjiReading]
     let commonWords: [KanjiCommonWord]
+    let components: [KanjiComponent]
+    let mnemonic: String
     var isFavorite: Bool
     var needsWorkCount: Int
     var confidentCount: Int

@@ -8,10 +8,38 @@ final class LessonsService {
     private var pointIdsCache: [String: [String]] = [:]
     private var chapterCache: [String: LessonChapter] = [:]
     private var vocabIndex: [String: LessonVocabWord]?
+    private var kanjiIndex: [String: ChapterKanji]?
 
     func loadIfNeeded() {
         guard manifest == nil else { return }
         manifest = Bundle.main.decodeJSON(LessonManifest.self, resource: "lessons")
+    }
+
+    /// Every chapter kanji entry in the course — the distractor pool for kanji
+    /// questions, so wrong answers are also things the learner has been taught.
+    func allKanjiEntries() -> [ChapterKanji] {
+        _ = kanjiEntry("")          // warms the index
+        return Array(kanjiIndex?.values ?? [:].values)
+    }
+
+    /// How a chapter teaches this character, wherever it was assigned.
+    ///
+    /// Every kanji belongs to exactly one chapter, so this is unambiguous. Used
+    /// by reviews and tests, which know a character but not where it came from.
+    func kanjiEntry(_ char: String) -> ChapterKanji? {
+        if kanjiIndex == nil {
+            loadIfNeeded()
+            var index: [String: ChapterKanji] = [:]
+            for level in manifest?.levels ?? [] {
+                for summary in level.chapters {
+                    for entry in loadChapter(summary.id)?.kanji ?? [] {
+                        index[entry.char] = entry
+                    }
+                }
+            }
+            kanjiIndex = index
+        }
+        return kanjiIndex?[char]
     }
 
     /// Chapters are static bundled data, so each is decoded at most once.

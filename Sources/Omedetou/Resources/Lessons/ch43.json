@@ -1287,51 +1287,281 @@
     }
   ],
   "kanji": [
-    "派",
-    "策",
-    "述",
-    "武",
-    "賞",
-    "技",
-    "復",
-    "移",
-    "個",
-    "接",
-    "旧",
-    "編",
-    "諸",
-    "劇",
-    "油",
-    "億",
-    "芸",
-    "測",
-    "庁",
-    "版",
-    "仏",
-    "温",
-    "香",
-    "布",
-    "巨",
-    "仲",
-    "替",
-    "章",
-    "薄",
-    "群",
-    "祭",
-    "筆",
-    "塩",
-    "床",
-    "緑",
-    "恋",
-    "紅",
-    "喫",
-    "鋭",
-    "乾",
-    "粉",
-    "蒸",
-    "辛",
-    "詞",
-    "帽",
-    "肯"
+    {
+      "char": "派",
+      "word": "派",
+      "reading": "は",
+      "meaning": "clique"
+    },
+    {
+      "char": "策",
+      "word": "策",
+      "reading": "さく",
+      "meaning": "plan"
+    },
+    {
+      "char": "述",
+      "word": "述べる",
+      "reading": "のべる",
+      "meaning": "to state"
+    },
+    {
+      "char": "武",
+      "word": "武",
+      "reading": "たけ",
+      "meaning": "warrior"
+    },
+    {
+      "char": "賞",
+      "word": "賞",
+      "reading": "しょう",
+      "meaning": "prize"
+    },
+    {
+      "char": "技",
+      "word": "技",
+      "reading": "わざ",
+      "meaning": "technique"
+    },
+    {
+      "char": "復",
+      "word": "復",
+      "reading": "また",
+      "meaning": "restore"
+    },
+    {
+      "char": "移",
+      "word": "移す",
+      "reading": "うつす",
+      "meaning": "to change"
+    },
+    {
+      "char": "個",
+      "word": "個",
+      "reading": "こ",
+      "meaning": "counter for articles"
+    },
+    {
+      "char": "接",
+      "word": "接する",
+      "reading": "せっする",
+      "meaning": "to touch"
+    },
+    {
+      "char": "旧",
+      "word": "旧",
+      "reading": "きゅう",
+      "meaning": "old"
+    },
+    {
+      "char": "編",
+      "word": "編む",
+      "reading": "あむ",
+      "meaning": "to knit"
+    },
+    {
+      "char": "諸",
+      "word": "諸",
+      "reading": "しょ",
+      "meaning": "various"
+    },
+    {
+      "char": "劇",
+      "word": "劇",
+      "reading": "げき",
+      "meaning": "drama"
+    },
+    {
+      "char": "油",
+      "word": "油",
+      "reading": "あぶら",
+      "meaning": "oil"
+    },
+    {
+      "char": "億",
+      "word": "億",
+      "reading": "おく",
+      "meaning": "10^8"
+    },
+    {
+      "char": "芸",
+      "word": "芸術",
+      "reading": "げいじゅつ",
+      "meaning": "art"
+    },
+    {
+      "char": "測",
+      "word": "測",
+      "reading": "はかる",
+      "meaning": "fathom"
+    },
+    {
+      "char": "庁",
+      "word": "庁",
+      "reading": "ちょう",
+      "meaning": "government office"
+    },
+    {
+      "char": "版",
+      "word": "版",
+      "reading": "はん",
+      "meaning": "edition"
+    },
+    {
+      "char": "仏",
+      "word": "仏",
+      "reading": "ほとけ",
+      "meaning": "Buddha"
+    },
+    {
+      "char": "温",
+      "word": "温い",
+      "reading": "ぬるい",
+      "meaning": "lukewarm"
+    },
+    {
+      "char": "香",
+      "word": "香り",
+      "reading": "かおり",
+      "meaning": "aroma"
+    },
+    {
+      "char": "布",
+      "word": "布",
+      "reading": "ぬの",
+      "meaning": "cloth"
+    },
+    {
+      "char": "巨",
+      "word": "巨匠",
+      "reading": "きょしょう",
+      "meaning": "master; virtuoso"
+    },
+    {
+      "char": "仲",
+      "word": "仲",
+      "reading": "なか",
+      "meaning": "relation"
+    },
+    {
+      "char": "替",
+      "word": "替え",
+      "reading": "かえ",
+      "meaning": "change"
+    },
+    {
+      "char": "章",
+      "word": "章",
+      "reading": "しょう",
+      "meaning": "chapter"
+    },
+    {
+      "char": "薄",
+      "word": "薄い",
+      "reading": "うすい",
+      "meaning": "thin"
+    },
+    {
+      "char": "群",
+      "word": "群",
+      "reading": "ぐん",
+      "meaning": "group"
+    },
+    {
+      "char": "祭",
+      "word": "祭り",
+      "reading": "まつり",
+      "meaning": "festival"
+    },
+    {
+      "char": "筆",
+      "word": "筆",
+      "reading": "ふで",
+      "meaning": "writing brush"
+    },
+    {
+      "char": "塩",
+      "word": "塩",
+      "reading": "しお",
+      "meaning": "salt"
+    },
+    {
+      "char": "床",
+      "word": "床",
+      "reading": "とこ",
+      "meaning": "bed"
+    },
+    {
+      "char": "緑",
+      "word": "緑",
+      "reading": "みどり",
+      "meaning": "green"
+    },
+    {
+      "char": "恋",
+      "word": "恋",
+      "reading": "こい",
+      "meaning": "(romantic) love"
+    },
+    {
+      "char": "紅",
+      "word": "紅",
+      "reading": "くれない",
+      "meaning": "deep red"
+    },
+    {
+      "char": "喫",
+      "word": "喫する",
+      "reading": "きっする",
+      "meaning": "to eat"
+    },
+    {
+      "char": "鋭",
+      "word": "鋭い",
+      "reading": "するどい",
+      "meaning": "sharp (blade)"
+    },
+    {
+      "char": "乾",
+      "word": "乾く",
+      "reading": "かわく",
+      "meaning": "to get dry"
+    },
+    {
+      "char": "粉",
+      "word": "粉",
+      "reading": "こな",
+      "meaning": "flour"
+    },
+    {
+      "char": "蒸",
+      "word": "蒸す",
+      "reading": "むす",
+      "meaning": "to steam (food, towel, etc.)"
+    },
+    {
+      "char": "辛",
+      "word": "辛い",
+      "reading": "からい",
+      "meaning": "spicy"
+    },
+    {
+      "char": "詞",
+      "word": "詞",
+      "reading": "ことば",
+      "meaning": "part of speech"
+    },
+    {
+      "char": "帽",
+      "word": "帽",
+      "reading": "ずきん",
+      "meaning": "cap"
+    },
+    {
+      "char": "肯",
+      "word": "肯",
+      "reading": "がえんじる",
+      "meaning": "agreement"
+    }
   ]
 }

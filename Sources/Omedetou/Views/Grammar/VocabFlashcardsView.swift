@@ -189,11 +189,12 @@ struct VocabFlashcardsView: View {
             // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
                 Button {
-                    filter.markNeedsWork(card.word.id)
+                    let didUncheck = filter.markNeedsWork(card.word.id)
                     // Studying a card is a review: this both enrols it in the
                     // schedule and books its next showing.
                     SRSStore.shared.grade(.vocab(card.word.id), .again)
-                    history.append(VocabStudyHistoryEntry(card: card, action: .needsWork))
+                    history.append(VocabStudyHistoryEntry(card: card,
+                                                         action: .needsWork(didUncheck: didUncheck)))
                     pickNext()
                 } label: {
                     Text("Needs Work")
@@ -289,27 +290,9 @@ struct VocabFlashcardsView: View {
             return
         }
 
-        guard let manifest = LessonsService.shared.manifest else { isLoading = false; return }
-
-        var result: [VocabFlashCard] = []
-        for level in manifest.levels {
-            let color = levelAccentColor(level.levelId)
-            for summary in level.chapters {
-                guard let chapter = LessonsService.shared.loadChapter(summary.id),
-                      let words = chapter.vocab else { continue }
-                for word in words {
-                    result.append(VocabFlashCard(
-                        word: word,
-                        chapterId: summary.id,
-                        chapterNumber: summary.chapterNumber,
-                        chapterTitle: chapter.title,
-                        accentColor: color
-                    ))
-                }
-            }
-        }
-
-        allCards = result.shuffled()
+        // Shared with the vocal flashcards, so both decks are provably the same
+        // set of words.
+        allCards = VocabDeck.allCards().shuffled()
         sequencer.reset()
         isLoading = false
         syncCompletedChapters()
@@ -361,8 +344,9 @@ struct VocabFlashcardsView: View {
     private func goBack() {
         guard let last = history.popLast() else { return }
         switch last.action {
-        case .needsWork:
+        case .needsWork(let didUncheck):
             filter.unmarkNeedsWork(last.card.word.id)
+            if didUncheck { filter.toggleExcluded(last.card.word.id) }
         case .confident(let didCheck):
             filter.unmarkConfident(last.card.word.id)
             if didCheck { filter.toggleExcluded(last.card.word.id) }
@@ -377,7 +361,7 @@ struct VocabFlashcardsView: View {
 // MARK: - Back-button undo history
 
 private enum VocabStudyAction {
-    case needsWork
+    case needsWork(didUncheck: Bool)
     case confident(didCheck: Bool)
 }
 
@@ -388,9 +372,13 @@ private struct VocabStudyHistoryEntry {
 
 // MARK: - Filter Sheet
 
-private struct VocabFilterSheet: View {
-    @ObservedObject var filter: VocabFlashcardsFilter
+/// Shared with the vocal flashcards: generic over the filter so each deck can
+/// carry its own selections through one identical sheet.
+struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
+    @ObservedObject var filter: F
     let allCards: [VocabFlashCard]
+    /// Set by the vocal deck: one tap adopts the written flashcards' selections.
+    var copyFromFlashcards: (() -> Void)? = nil
     @Environment(\.dismiss) private var dismiss
 
     private var manifest: LessonManifest? { LessonsService.shared.manifest }
@@ -413,6 +401,25 @@ private struct VocabFilterSheet: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
+                    if let copy = copyFromFlashcards {
+                        Button {
+                            copy()
+                        } label: {
+                            Label("Copy from Flash Card Filters", systemImage: "doc.on.doc")
+                                .font(.system(size: 15, weight: .semibold))
+                                .foregroundColor(Color.readableOnPage(.appAccent))
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 12)
+                                .background(RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .fill(Color.appSurfaceHigh))
+                                .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous)
+                                    .strokeBorder(Color.appHairline, lineWidth: 1))
+                        }
+                        .buttonStyle(.plain)
+
+                        Divider()
+                    }
+
                     // Favorites
                     Toggle(isOn: $filter.showFavoritesOnly) {
                         Label("Favorites Only", systemImage: "star.fill")

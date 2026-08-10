@@ -924,7 +924,7 @@ struct ChapterProgress {
         p.vocabTotal = words.count
         p.vocabDone = words.filter { VocabFlashcardsFilter.shared.isExcluded($0.id) }.count
 
-        let kanjiCards = (chapter.kanji ?? []).compactMap { cardStore.kanjiCard(for: $0) }
+        let kanjiCards = chapter.kanjiChars.compactMap { cardStore.kanjiCard(for: $0) }
         p.kanjiTotal = kanjiCards.count
         p.kanjiDone = kanjiCards.filter { cardStore.isKanjiExcluded($0.id) }.count
 

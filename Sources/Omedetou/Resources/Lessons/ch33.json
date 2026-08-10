@@ -1287,46 +1287,251 @@
     }
   ],
   "kanji": [
-    "内",
-    "回",
-    "調",
-    "治",
-    "加",
-    "予",
-    "告",
-    "所",
-    "感",
-    "容",
-    "疑",
-    "優",
-    "夫",
-    "違",
-    "神",
-    "害",
-    "葉",
-    "守",
-    "望",
-    "非",
-    "呼",
-    "科",
-    "処",
-    "殺",
-    "苦",
-    "舞",
-    "婦",
-    "熱",
-    "浮",
-    "庭",
-    "欠",
-    "息",
-    "痛",
-    "夢",
-    "草",
-    "寝",
-    "吸",
-    "歯",
-    "腹",
-    "誰",
-    "光"
+    {
+      "char": "内",
+      "word": "内科",
+      "reading": "ないか",
+      "meaning": "internal medicine"
+    },
+    {
+      "char": "回",
+      "word": "回復",
+      "reading": "かいふく",
+      "meaning": "recovery"
+    },
+    {
+      "char": "調",
+      "word": "体調",
+      "reading": "たいちょう",
+      "meaning": "physical condition"
+    },
+    {
+      "char": "治",
+      "word": "治療",
+      "reading": "ちりょう",
+      "meaning": "treatment"
+    },
+    {
+      "char": "加",
+      "word": "加",
+      "reading": "か",
+      "meaning": "addition"
+    },
+    {
+      "char": "予",
+      "word": "予防",
+      "reading": "よぼう",
+      "meaning": "prevention"
+    },
+    {
+      "char": "告",
+      "word": "告げる",
+      "reading": "つげる",
+      "meaning": "to tell"
+    },
+    {
+      "char": "所",
+      "word": "所",
+      "reading": "ところ",
+      "meaning": "place"
+    },
+    {
+      "char": "感",
+      "word": "感染",
+      "reading": "かんせん",
+      "meaning": "infection"
+    },
+    {
+      "char": "容",
+      "word": "容",
+      "reading": "いれる",
+      "meaning": "contain"
+    },
+    {
+      "char": "疑",
+      "word": "疑い",
+      "reading": "うたがい",
+      "meaning": "doubt"
+    },
+    {
+      "char": "優",
+      "word": "優しい",
+      "reading": "やさしい",
+      "meaning": "tender"
+    },
+    {
+      "char": "夫",
+      "word": "夫",
+      "reading": "おっと",
+      "meaning": "husband"
+    },
+    {
+      "char": "違",
+      "word": "違い",
+      "reading": "ちがい",
+      "meaning": "difference"
+    },
+    {
+      "char": "神",
+      "word": "神経",
+      "reading": "しんけい",
+      "meaning": "nerve"
+    },
+    {
+      "char": "害",
+      "word": "害",
+      "reading": "がい",
+      "meaning": "injury"
+    },
+    {
+      "char": "葉",
+      "word": "葉",
+      "reading": "は",
+      "meaning": "leaf"
+    },
+    {
+      "char": "守",
+      "word": "守る",
+      "reading": "まもる",
+      "meaning": "to protect"
+    },
+    {
+      "char": "望",
+      "word": "望む",
+      "reading": "のぞむ",
+      "meaning": "to desire"
+    },
+    {
+      "char": "非",
+      "word": "非",
+      "reading": "ひ",
+      "meaning": "fault"
+    },
+    {
+      "char": "呼",
+      "word": "呼ぶ",
+      "reading": "よぶ",
+      "meaning": "to call out (to)"
+    },
+    {
+      "char": "科",
+      "word": "科",
+      "reading": "か",
+      "meaning": "department"
+    },
+    {
+      "char": "処",
+      "word": "処方",
+      "reading": "しょほう",
+      "meaning": "prescription"
+    },
+    {
+      "char": "殺",
+      "word": "殺す",
+      "reading": "ころす",
+      "meaning": "to kill"
+    },
+    {
+      "char": "苦",
+      "word": "苦しい",
+      "reading": "くるしい",
+      "meaning": "painful; distressing"
+    },
+    {
+      "char": "舞",
+      "word": "舞",
+      "reading": "まい",
+      "meaning": "dancing"
+    },
+    {
+      "char": "婦",
+      "word": "婦",
+      "reading": "よめ",
+      "meaning": "lady"
+    },
+    {
+      "char": "熱",
+      "word": "熱",
+      "reading": "ねつ",
+      "meaning": "heat"
+    },
+    {
+      "char": "浮",
+      "word": "浮かぶ",
+      "reading": "うかぶ",
+      "meaning": "to float"
+    },
+    {
+      "char": "庭",
+      "word": "庭",
+      "reading": "にわ",
+      "meaning": "garden"
+    },
+    {
+      "char": "欠",
+      "word": "欠く",
+      "reading": "かく",
+      "meaning": "to chip"
+    },
+    {
+      "char": "息",
+      "word": "息",
+      "reading": "いき",
+      "meaning": "breath"
+    },
+    {
+      "char": "痛",
+      "word": "痛い",
+      "reading": "いたい",
+      "meaning": "painful"
+    },
+    {
+      "char": "夢",
+      "word": "夢",
+      "reading": "ゆめ",
+      "meaning": "dream"
+    },
+    {
+      "char": "草",
+      "word": "草",
+      "reading": "くさ",
+      "meaning": "grass"
+    },
+    {
+      "char": "寝",
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning": "to sleep (lying down)"
+    },
+    {
+      "char": "吸",
+      "word": "吸う",
+      "reading": "すう",
+      "meaning": "to smoke"
+    },
+    {
+      "char": "歯",
+      "word": "歯",
+      "reading": "は",
+      "meaning": "tooth"
+    },
+    {
+      "char": "腹",
+      "word": "腹",
+      "reading": "はら",
+      "meaning": "abdomen"
+    },
+    {
+      "char": "誰",
+      "word": "誰",
+      "reading": "だれ",
+      "meaning": "who"
+    },
+    {
+      "char": "光",
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine"
+    }
   ]
 }

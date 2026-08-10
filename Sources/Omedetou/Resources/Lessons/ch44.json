@@ -967,51 +967,281 @@
     }
   ],
   "kanji": [
-    "総",
-    "第",
-    "革",
-    "欧",
-    "課",
-    "極",
-    "含",
-    "専",
-    "効",
-    "丸",
-    "捜",
-    "根",
-    "幅",
-    "般",
-    "逆",
-    "圧",
-    "波",
-    "普",
-    "城",
-    "令",
-    "築",
-    "季",
-    "著",
-    "底",
-    "栄",
-    "燃",
-    "簡",
-    "照",
-    "純",
-    "貯",
-    "浴",
-    "賢",
-    "尊",
-    "幼",
-    "掃",
-    "郊",
-    "菜",
-    "刷",
-    "枝",
-    "棒",
-    "瓶",
-    "肌",
-    "麦",
-    "姓",
-    "枯",
-    "燥"
+    {
+      "char": "総",
+      "word": "総",
+      "reading": "そう",
+      "meaning": "whole"
+    },
+    {
+      "char": "第",
+      "word": "第",
+      "reading": "だい",
+      "meaning": "No."
+    },
+    {
+      "char": "革",
+      "word": "革",
+      "reading": "かわ",
+      "meaning": "leather"
+    },
+    {
+      "char": "欧",
+      "word": "欧",
+      "reading": "うたう",
+      "meaning": "Europe"
+    },
+    {
+      "char": "課",
+      "word": "課",
+      "reading": "か",
+      "meaning": "lesson"
+    },
+    {
+      "char": "極",
+      "word": "極めて",
+      "reading": "きわめて",
+      "meaning": "extremely"
+    },
+    {
+      "char": "含",
+      "word": "含む",
+      "reading": "ふくむ",
+      "meaning": "to contain"
+    },
+    {
+      "char": "専",
+      "word": "専ら",
+      "reading": "もっぱら",
+      "meaning": "wholly"
+    },
+    {
+      "char": "効",
+      "word": "有効",
+      "reading": "ゆうこう",
+      "meaning": "valid; effective"
+    },
+    {
+      "char": "丸",
+      "word": "丸",
+      "reading": "まる",
+      "meaning": "circle"
+    },
+    {
+      "char": "捜",
+      "word": "捜",
+      "reading": "さがす",
+      "meaning": "search"
+    },
+    {
+      "char": "根",
+      "word": "根本",
+      "reading": "こんぽん",
+      "meaning": "root; foundation"
+    },
+    {
+      "char": "幅",
+      "word": "幅",
+      "reading": "はば",
+      "meaning": "width"
+    },
+    {
+      "char": "般",
+      "word": "全般",
+      "reading": "ぜんぱん",
+      "meaning": "the whole; overall"
+    },
+    {
+      "char": "逆",
+      "word": "逆に",
+      "reading": "ぎゃくに",
+      "meaning": "conversely; on the contrary"
+    },
+    {
+      "char": "圧",
+      "word": "圧倒的",
+      "reading": "あっとうてき",
+      "meaning": "overwhelming"
+    },
+    {
+      "char": "波",
+      "word": "波",
+      "reading": "なみ",
+      "meaning": "wave"
+    },
+    {
+      "char": "普",
+      "word": "普",
+      "reading": "あまねく",
+      "meaning": "universal"
+    },
+    {
+      "char": "城",
+      "word": "城",
+      "reading": "しろ",
+      "meaning": "castle"
+    },
+    {
+      "char": "令",
+      "word": "令",
+      "reading": "れい",
+      "meaning": "command"
+    },
+    {
+      "char": "築",
+      "word": "築く",
+      "reading": "きずく",
+      "meaning": "to build"
+    },
+    {
+      "char": "季",
+      "word": "季",
+      "reading": "き",
+      "meaning": "seasons"
+    },
+    {
+      "char": "著",
+      "word": "著しい",
+      "reading": "いちじるしい",
+      "meaning": "striking"
+    },
+    {
+      "char": "底",
+      "word": "底",
+      "reading": "そこ",
+      "meaning": "bottom"
+    },
+    {
+      "char": "栄",
+      "word": "栄える",
+      "reading": "さかえる",
+      "meaning": "to prosper"
+    },
+    {
+      "char": "燃",
+      "word": "燃える",
+      "reading": "もえる",
+      "meaning": "to burn"
+    },
+    {
+      "char": "簡",
+      "word": "簡",
+      "reading": "えらぶ",
+      "meaning": "simplicity"
+    },
+    {
+      "char": "照",
+      "word": "照らす",
+      "reading": "てらす",
+      "meaning": "to shine on"
+    },
+    {
+      "char": "純",
+      "word": "純",
+      "reading": "じゅん",
+      "meaning": "innocent"
+    },
+    {
+      "char": "貯",
+      "word": "貯",
+      "reading": "ためる",
+      "meaning": "savings"
+    },
+    {
+      "char": "浴",
+      "word": "浴びる",
+      "reading": "あびる",
+      "meaning": "to dash over oneself (e.g. water)"
+    },
+    {
+      "char": "賢",
+      "word": "賢い",
+      "reading": "かしこい",
+      "meaning": "wise"
+    },
+    {
+      "char": "尊",
+      "word": "尊い",
+      "reading": "とうとい",
+      "meaning": "precious"
+    },
+    {
+      "char": "幼",
+      "word": "幼い",
+      "reading": "おさない",
+      "meaning": "very young"
+    },
+    {
+      "char": "掃",
+      "word": "掃く",
+      "reading": "はく",
+      "meaning": "to sweep"
+    },
+    {
+      "char": "郊",
+      "word": "郊",
+      "reading": "こう",
+      "meaning": "outskirts"
+    },
+    {
+      "char": "菜",
+      "word": "菜",
+      "reading": "な",
+      "meaning": "vegetable"
+    },
+    {
+      "char": "刷",
+      "word": "刷る",
+      "reading": "する",
+      "meaning": "to print"
+    },
+    {
+      "char": "枝",
+      "word": "枝",
+      "reading": "えだ",
+      "meaning": "branch"
+    },
+    {
+      "char": "棒",
+      "word": "棒",
+      "reading": "ぼう",
+      "meaning": "pole"
+    },
+    {
+      "char": "瓶",
+      "word": "瓶",
+      "reading": "びん",
+      "meaning": "bottle"
+    },
+    {
+      "char": "肌",
+      "word": "肌",
+      "reading": "はだ",
+      "meaning": "skin"
+    },
+    {
+      "char": "麦",
+      "word": "麦",
+      "reading": "むぎ",
+      "meaning": "wheat"
+    },
+    {
+      "char": "姓",
+      "word": "姓",
+      "reading": "せい",
+      "meaning": "surname"
+    },
+    {
+      "char": "枯",
+      "word": "枯れる",
+      "reading": "かれる",
+      "meaning": "to wither (of a plant)"
+    },
+    {
+      "char": "燥",
+      "word": "燥ぐ",
+      "reading": "はしゃぐ",
+      "meaning": "to make merry"
+    }
   ]
 }

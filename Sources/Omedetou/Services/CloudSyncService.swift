@@ -68,9 +68,20 @@ final class CloudSyncService: ObservableObject {
 
     // MARK: - Entry points
 
-    /// Safe to call on every foreground: it no-ops while a sync is in flight.
+    /// A finished automatic sync holds for this long before another may start.
+    private static let cooldown: TimeInterval = 30
+    private var lastFinished: Date?
+
+    /// Safe to call on every foreground: it no-ops while a sync is in flight,
+    /// and for a short while after one finishes. The scene-phase handler fires
+    /// for every flicker of foregrounding — pulling down the notification shade,
+    /// glancing at the app switcher — and each of those was a full CloudKit
+    /// round trip on the radio, which is exactly the kind of repeated network
+    /// wake that drains a battery. The manual "Sync now" button calls `sync()`
+    /// directly and is never held back.
     func syncInBackground() {
         guard CloudCapability.hasICloud, !syncing else { return }
+        if let last = lastFinished, Date().timeIntervalSince(last) < Self.cooldown { return }
         Task { await sync() }
     }
 
@@ -84,7 +95,12 @@ final class CloudSyncService: ObservableObject {
         guard !syncing else { return }
         syncing = true
         status = .syncing
-        defer { syncing = false }
+        defer {
+            syncing = false
+            // Applies to failures too: a sync that couldn't reach the network is
+            // the last thing that should be retried on every phase flicker.
+            lastFinished = Date()
+        }
 
         do {
             let account = try await CKContainer.default().accountStatus()

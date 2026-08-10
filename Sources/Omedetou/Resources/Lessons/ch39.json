@@ -1287,52 +1287,287 @@
     }
   ],
   "kanji": [
-    "府",
-    "委",
-    "軍",
-    "案",
-    "営",
-    "副",
-    "算",
-    "州",
-    "蔵",
-    "量",
-    "兵",
-    "森",
-    "将",
-    "鉄",
-    "換",
-    "占",
-    "清",
-    "伸",
-    "囲",
-    "略",
-    "角",
-    "貨",
-    "混",
-    "庫",
-    "籍",
-    "郵",
-    "跡",
-    "臓",
-    "奥",
-    "片",
-    "埋",
-    "童",
-    "毛",
-    "液",
-    "黄",
-    "軟",
-    "炭",
-    "湖",
-    "鉱",
-    "毒",
-    "綿",
-    "缶",
-    "泥",
-    "粒",
-    "塔",
-    "貝",
-    "挟"
+    {
+      "char": "府",
+      "word": "府",
+      "reading": "ふ",
+      "meaning": "borough"
+    },
+    {
+      "char": "委",
+      "word": "委ねる",
+      "reading": "ゆだねる",
+      "meaning": "to entrust (a matter) to"
+    },
+    {
+      "char": "軍",
+      "word": "軍",
+      "reading": "ぐん",
+      "meaning": "army"
+    },
+    {
+      "char": "案",
+      "word": "案",
+      "reading": "あん",
+      "meaning": "idea"
+    },
+    {
+      "char": "営",
+      "word": "運営",
+      "reading": "うんえい",
+      "meaning": "operation; administration"
+    },
+    {
+      "char": "副",
+      "word": "副",
+      "reading": "ふく",
+      "meaning": "assistant"
+    },
+    {
+      "char": "算",
+      "word": "決算",
+      "reading": "けっさん",
+      "meaning": "financial results; settlement"
+    },
+    {
+      "char": "州",
+      "word": "州",
+      "reading": "しゅう",
+      "meaning": "state (US, Australia, India, Germany, etc.)"
+    },
+    {
+      "char": "蔵",
+      "word": "蔵",
+      "reading": "くら",
+      "meaning": "warehouse"
+    },
+    {
+      "char": "量",
+      "word": "量",
+      "reading": "りょう",
+      "meaning": "quantity"
+    },
+    {
+      "char": "兵",
+      "word": "兵",
+      "reading": "へい",
+      "meaning": "(common) soldier"
+    },
+    {
+      "char": "森",
+      "word": "森",
+      "reading": "もり",
+      "meaning": "forest"
+    },
+    {
+      "char": "将",
+      "word": "将",
+      "reading": "しょう",
+      "meaning": "commander"
+    },
+    {
+      "char": "鉄",
+      "word": "鉄",
+      "reading": "てつ",
+      "meaning": "iron (Fe)"
+    },
+    {
+      "char": "換",
+      "word": "換える",
+      "reading": "かえる",
+      "meaning": "to replace"
+    },
+    {
+      "char": "占",
+      "word": "占める",
+      "reading": "しめる",
+      "meaning": "to occupy"
+    },
+    {
+      "char": "清",
+      "word": "清らか",
+      "reading": "きよらか",
+      "meaning": "clean"
+    },
+    {
+      "char": "伸",
+      "word": "伸ばす",
+      "reading": "のばす",
+      "meaning": "to grow long (e.g. hair, nails)"
+    },
+    {
+      "char": "囲",
+      "word": "囲い",
+      "reading": "かこい",
+      "meaning": "enclosure"
+    },
+    {
+      "char": "略",
+      "word": "略す",
+      "reading": "りゃくす",
+      "meaning": "to abbreviate"
+    },
+    {
+      "char": "角",
+      "word": "角",
+      "reading": "かく",
+      "meaning": "angle"
+    },
+    {
+      "char": "貨",
+      "word": "貨",
+      "reading": "たから",
+      "meaning": "freight"
+    },
+    {
+      "char": "混",
+      "word": "混ぜる",
+      "reading": "まぜる",
+      "meaning": "to mix"
+    },
+    {
+      "char": "庫",
+      "word": "在庫",
+      "reading": "ざいこ",
+      "meaning": "stock; inventory"
+    },
+    {
+      "char": "籍",
+      "word": "籍",
+      "reading": "せき",
+      "meaning": "one's family register"
+    },
+    {
+      "char": "郵",
+      "word": "郵",
+      "reading": "ゆう",
+      "meaning": "mail"
+    },
+    {
+      "char": "跡",
+      "word": "跡",
+      "reading": "あと",
+      "meaning": "trace"
+    },
+    {
+      "char": "臓",
+      "word": "臓",
+      "reading": "はらわた",
+      "meaning": "entrails"
+    },
+    {
+      "char": "奥",
+      "word": "奥さん",
+      "reading": "おくさん",
+      "meaning": "wife"
+    },
+    {
+      "char": "片",
+      "word": "片",
+      "reading": "かた",
+      "meaning": "one-sided"
+    },
+    {
+      "char": "埋",
+      "word": "埋める",
+      "reading": "うずめる",
+      "meaning": "to cover"
+    },
+    {
+      "char": "童",
+      "word": "童",
+      "reading": "わらべ",
+      "meaning": "juvenile"
+    },
+    {
+      "char": "毛",
+      "word": "毛",
+      "reading": "け",
+      "meaning": "hair"
+    },
+    {
+      "char": "液",
+      "word": "液",
+      "reading": "えき",
+      "meaning": "liquid"
+    },
+    {
+      "char": "黄",
+      "word": "黄",
+      "reading": "き",
+      "meaning": "yellow"
+    },
+    {
+      "char": "軟",
+      "word": "軟",
+      "reading": "やわらか",
+      "meaning": "soft"
+    },
+    {
+      "char": "炭",
+      "word": "炭",
+      "reading": "すみ",
+      "meaning": "charcoal"
+    },
+    {
+      "char": "湖",
+      "word": "湖",
+      "reading": "みずうみ",
+      "meaning": "lake"
+    },
+    {
+      "char": "鉱",
+      "word": "鉱",
+      "reading": "あらがね",
+      "meaning": "mineral"
+    },
+    {
+      "char": "毒",
+      "word": "毒",
+      "reading": "どく",
+      "meaning": "poison"
+    },
+    {
+      "char": "綿",
+      "word": "綿",
+      "reading": "めん",
+      "meaning": "cotton"
+    },
+    {
+      "char": "缶",
+      "word": "缶",
+      "reading": "かん",
+      "meaning": "can"
+    },
+    {
+      "char": "泥",
+      "word": "泥",
+      "reading": "どろ",
+      "meaning": "mud"
+    },
+    {
+      "char": "粒",
+      "word": "粒",
+      "reading": "つぶ",
+      "meaning": "grain"
+    },
+    {
+      "char": "塔",
+      "word": "塔",
+      "reading": "とう",
+      "meaning": "tower"
+    },
+    {
+      "char": "貝",
+      "word": "貝",
+      "reading": "かい",
+      "meaning": "shellfish"
+    },
+    {
+      "char": "挟",
+      "word": "挟む",
+      "reading": "はさむ",
+      "meaning": "to hold between (e.g. one's fingers, chopsticks)"
+    }
   ]
 }

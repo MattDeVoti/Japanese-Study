@@ -1287,46 +1287,251 @@
     }
   ],
   "kanji": [
-    "定",
-    "務",
-    "成",
-    "期",
-    "受",
-    "指",
-    "点",
-    "組",
-    "任",
-    "求",
-    "示",
-    "果",
-    "能",
-    "職",
-    "役",
-    "残",
-    "助",
-    "労",
-    "限",
-    "退",
-    "負",
-    "命",
-    "敗",
-    "号",
-    "完",
-    "責",
-    "寄",
-    "返",
-    "抜",
-    "罪",
-    "努",
-    "絶",
-    "勤",
-    "抱",
-    "互",
-    "逃",
-    "吹",
-    "皆",
-    "晩",
-    "偉",
-    "飛"
+    {
+      "char": "定",
+      "word": "予定",
+      "reading": "よてい",
+      "meaning": "plan; schedule"
+    },
+    {
+      "char": "務",
+      "word": "務める",
+      "reading": "つとめる",
+      "meaning": "to serve as; to fill a role"
+    },
+    {
+      "char": "成",
+      "word": "成功",
+      "reading": "せいこう",
+      "meaning": "success"
+    },
+    {
+      "char": "期",
+      "word": "期限",
+      "reading": "きげん",
+      "meaning": "deadline; time limit"
+    },
+    {
+      "char": "受",
+      "word": "受ける",
+      "reading": "うける",
+      "meaning": "to receive"
+    },
+    {
+      "char": "指",
+      "word": "指",
+      "reading": "ゆび",
+      "meaning": "finger"
+    },
+    {
+      "char": "点",
+      "word": "点",
+      "reading": "てん",
+      "meaning": "dot"
+    },
+    {
+      "char": "組",
+      "word": "組",
+      "reading": "く",
+      "meaning": "association"
+    },
+    {
+      "char": "任",
+      "word": "任せる",
+      "reading": "まかせる",
+      "meaning": "to entrust"
+    },
+    {
+      "char": "求",
+      "word": "求める",
+      "reading": "もとめる",
+      "meaning": "to seek; to demand"
+    },
+    {
+      "char": "示",
+      "word": "示す",
+      "reading": "しめす",
+      "meaning": "to (take out and) show"
+    },
+    {
+      "char": "果",
+      "word": "果たす",
+      "reading": "はたす",
+      "meaning": "to fulfill; to carry out"
+    },
+    {
+      "char": "能",
+      "word": "能力",
+      "reading": "のうりょく",
+      "meaning": "ability"
+    },
+    {
+      "char": "職",
+      "word": "職",
+      "reading": "しょく",
+      "meaning": "job"
+    },
+    {
+      "char": "役",
+      "word": "役割",
+      "reading": "やくわり",
+      "meaning": "role"
+    },
+    {
+      "char": "残",
+      "word": "残る",
+      "reading": "のこる",
+      "meaning": "to remain"
+    },
+    {
+      "char": "助",
+      "word": "助ける",
+      "reading": "たすける",
+      "meaning": "to save"
+    },
+    {
+      "char": "労",
+      "word": "労",
+      "reading": "ろう",
+      "meaning": "labor"
+    },
+    {
+      "char": "限",
+      "word": "限る",
+      "reading": "かぎる",
+      "meaning": "to restrict"
+    },
+    {
+      "char": "退",
+      "word": "退ける",
+      "reading": "のける",
+      "meaning": "to put something out of the way"
+    },
+    {
+      "char": "負",
+      "word": "負ける",
+      "reading": "まける",
+      "meaning": "to lose"
+    },
+    {
+      "char": "命",
+      "word": "命",
+      "reading": "いのち",
+      "meaning": "life"
+    },
+    {
+      "char": "敗",
+      "word": "失敗",
+      "reading": "しっぱい",
+      "meaning": "failure"
+    },
+    {
+      "char": "号",
+      "word": "号",
+      "reading": "ごう",
+      "meaning": "number"
+    },
+    {
+      "char": "完",
+      "word": "完成",
+      "reading": "かんせい",
+      "meaning": "completion"
+    },
+    {
+      "char": "責",
+      "word": "責める",
+      "reading": "せめる",
+      "meaning": "to blame"
+    },
+    {
+      "char": "寄",
+      "word": "寄る",
+      "reading": "よる",
+      "meaning": "to approach"
+    },
+    {
+      "char": "返",
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return (something)"
+    },
+    {
+      "char": "抜",
+      "word": "抜く",
+      "reading": "ぬく",
+      "meaning": "to pull out"
+    },
+    {
+      "char": "罪",
+      "word": "罪",
+      "reading": "つみ",
+      "meaning": "crime"
+    },
+    {
+      "char": "努",
+      "word": "努力",
+      "reading": "どりょく",
+      "meaning": "effort"
+    },
+    {
+      "char": "絶",
+      "word": "絶えず",
+      "reading": "たえず",
+      "meaning": "constantly"
+    },
+    {
+      "char": "勤",
+      "word": "勤める",
+      "reading": "つとめる",
+      "meaning": "to work (for)"
+    },
+    {
+      "char": "抱",
+      "word": "抱",
+      "reading": "だ",
+      "meaning": "embrace"
+    },
+    {
+      "char": "互",
+      "word": "互い",
+      "reading": "たがい",
+      "meaning": "each other"
+    },
+    {
+      "char": "逃",
+      "word": "逃げる",
+      "reading": "にげる",
+      "meaning": "to escape"
+    },
+    {
+      "char": "吹",
+      "word": "吹く",
+      "reading": "ふく",
+      "meaning": "to blow (of the wind)"
+    },
+    {
+      "char": "皆",
+      "word": "皆さん",
+      "reading": "みなさん",
+      "meaning": "all"
+    },
+    {
+      "char": "晩",
+      "word": "晩",
+      "reading": "ばん",
+      "meaning": "evening"
+    },
+    {
+      "char": "偉",
+      "word": "偉い",
+      "reading": "えらい",
+      "meaning": "great"
+    },
+    {
+      "char": "飛",
+      "word": "飛ぶ",
+      "reading": "とぶ",
+      "meaning": "to fly"
+    }
   ]
 }

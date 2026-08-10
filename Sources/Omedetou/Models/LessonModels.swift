@@ -24,8 +24,29 @@ struct LessonChapter: Codable, Identifiable {
     let title: String
     let points: [GrammarPoint]
     let vocab: [LessonVocabWord]?
-    let kanji: [String]?                       // kanji assigned to this chapter (same N-level)
+    let kanji: [ChapterKanji]?                 // kanji assigned to this chapter (same N-level)
     let chapterPractice: [PracticeQuestion]?  // chapter-level practice (used by kana lessons)
+
+    /// Just the characters, for the several places that only need the list.
+    var kanjiChars: [String] { (kanji ?? []).map(\.char) }
+}
+
+/// A kanji as a chapter teaches it.
+///
+/// The card in the kanji deck carries everything a character can mean and every
+/// way it can be read; a chapter teaches exactly one of each. 分 in Telling Time
+/// is ふん, "minute" — not 分ける, which is true of the character and useless to
+/// someone who has just learned to read a clock. Tests and reviews ask from
+/// here so that what they ask is what was taught.
+struct ChapterKanji: Codable, Hashable, Identifiable {
+    let char: String
+    /// The form the learner meets it in — 高い rather than a bare 高.
+    let word: String
+    /// Reading of `word`.
+    let reading: String
+    let meaning: String
+
+    var id: String { char }
 }
 
 struct LessonVocabWord: Codable, Identifiable {

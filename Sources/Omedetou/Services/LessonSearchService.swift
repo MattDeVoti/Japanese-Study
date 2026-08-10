@@ -81,7 +81,7 @@ final class LessonSearchService {
                     out.append(make(.vocab(w), "v:\(w.id)",
                                     w.kanji, w.definition, "\(w.kana) \(w.romaji) \(w.partOfSpeech)"))
                 }
-                for k in chapter.kanji ?? [] {
+                for k in chapter.kanjiChars {
                     let card = cardStore.kanjiCard(for: k)
                     let readings = ((card?.onyomi ?? []) + (card?.kunyomi ?? []))
                         .map { "\($0.kana) \($0.romaji)" }.joined(separator: " ")

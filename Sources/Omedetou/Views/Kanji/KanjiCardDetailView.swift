@@ -71,14 +71,49 @@ struct KanjiCardHeader: View {
 struct KanjiCardBody: View {
     let card: KanjiCard
 
+    @State private var showInsight = false
+
+    private var hasInsight: Bool {
+        !card.components.isEmpty || !card.mnemonic.isEmpty
+    }
+
     var body: some View {
         VStack(spacing: 20) {
             if !card.definition.isEmpty {
-                Text(card.definition)
-                    .font(.system(size: 16))
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.appText)
-                    .padding(.horizontal, 20)
+                HStack(alignment: .center, spacing: 8) {
+                    // Ghost chevron balances the real one so the text stays centred.
+                    if hasInsight {
+                        Image(systemName: "chevron.down").font(.system(size: 15, weight: .semibold)).opacity(0)
+                    }
+                    Text(card.definition)
+                        .font(.system(size: 16))
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.appText)
+                    if hasInsight {
+                        Button {
+                            withAnimation(.spring(response: 0.32, dampingFraction: 0.86)) {
+                                showInsight.toggle()
+                            }
+                        } label: {
+                            Image(systemName: "chevron.down")
+                                .font(.system(size: 15, weight: .semibold))
+                                .foregroundColor(Color.readableOnPage(.appAccent))
+                                .rotationEffect(.degrees(showInsight ? 180 : 0))
+                                .frame(width: 34, height: 34)
+                                .background(Circle().fill(Color.appSurfaceHigh))
+                                .overlay(Circle().strokeBorder(Color.appHairline, lineWidth: 1))
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityLabel(showInsight ? "Hide kanji breakdown" : "Show kanji breakdown")
+                    }
+                }
+                .padding(.horizontal, 20)
+
+                if showInsight {
+                    KanjiInsightPanel(card: card)
+                        .padding(.horizontal, 16)
+                        .transition(.opacity.combined(with: .move(edge: .top)))
+                }
             }
 
             if !card.onyomi.isEmpty || !card.kunyomi.isEmpty {
@@ -176,6 +211,57 @@ struct WordCardBody: View {
                 }
             }
         }
+    }
+}
+
+// MARK: - Insight panel (components + memory aid)
+
+/// The drop-down behind the chevron next to the definition: what the kanji is
+/// built from (KRADFILE decomposition) and a short way to remember it.
+struct KanjiInsightPanel: View {
+    let card: KanjiCard
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            if !card.components.isEmpty {
+                Text("INSIDE THIS KANJI")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundColor(.appTextSecondary)
+
+                FlowLayout(spacing: 8) {
+                    ForEach(card.components, id: \.self) { comp in
+                        HStack(spacing: 6) {
+                            Text(comp.glyph)
+                                .font(.system(size: 20, weight: .semibold))
+                                .foregroundColor(.appText)
+                            Text(comp.name)
+                                .font(.system(size: 12))
+                                .foregroundColor(.appTextSecondary)
+                        }
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 6)
+                        .background(Capsule().fill(Color.appSurfaceHigh))
+                        .overlay(Capsule().strokeBorder(Color.appHairline, lineWidth: 1))
+                    }
+                }
+            }
+
+            if !card.mnemonic.isEmpty {
+                Text("HOW TO REMEMBER IT")
+                    .font(.system(size: 11, weight: .bold))
+                    .foregroundColor(.appTextSecondary)
+                    .padding(.top, card.components.isEmpty ? 0 : 2)
+
+                Text(card.mnemonic)
+                    .font(.system(size: 14))
+                    .foregroundColor(.appText)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding(14)
+        .background(RoundedRectangle(cornerRadius: 12, style: .continuous).fill(Color.appSurface))
+        .overlay(RoundedRectangle(cornerRadius: 12, style: .continuous).strokeBorder(Color.appHairline, lineWidth: 1))
     }
 }
 

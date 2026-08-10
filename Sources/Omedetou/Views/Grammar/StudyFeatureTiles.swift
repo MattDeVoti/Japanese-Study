@@ -151,6 +151,64 @@ struct VocabDeckTile: View {
     }
 }
 
+/// A card with sound leaving it and a mic waiting — the loop the mode runs.
+struct VocalDeckTile: View {
+    let color: Color
+    @State private var animating = false
+
+    var body: some View {
+        FeatureCard(color: color, title: "Audio", subtitle: "Listen and answer", square: false) {
+            HStack(spacing: 0) {
+                Spacer()
+
+                // The card speaks…
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .fill(color.opacity(0.95))
+                    .overlay(RoundedRectangle(cornerRadius: 9, style: .continuous)
+                        .strokeBorder(color.opacity(0.7), lineWidth: 1))
+                    .frame(width: 46, height: 60)
+                    .overlay(
+                        Text("聞")
+                            .font(.system(size: 24, weight: .bold))
+                            .foregroundColor(Color.appSurface)
+                    )
+
+                // …the sound travels…
+                HStack(spacing: 4) {
+                    ForEach(0..<3, id: \.self) { i in
+                        Capsule()
+                            .fill(color.opacity(0.75))
+                            .frame(width: 3, height: animating ? [14, 22, 11][i] : 5)
+                            .animation(.easeInOut(duration: 0.5)
+                                .repeatForever(autoreverses: true)
+                                .delay(Double(i) * 0.14), value: animating)
+                    }
+                }
+                .frame(width: 30)
+                .padding(.horizontal, 10)
+
+                // …and the mic is listening.
+                ZStack {
+                    Circle()
+                        .stroke(color.opacity(0.45), lineWidth: 2)
+                        .frame(width: 50, height: 50)
+                        .scaleEffect(animating ? 1.12 : 0.9)
+                        .opacity(animating ? 0 : 0.9)
+                        .animation(.easeOut(duration: 1.5).repeatForever(autoreverses: false),
+                                   value: animating)
+                    Image(systemName: "mic.fill")
+                        .font(.system(size: 24))
+                        .foregroundColor(color)
+                }
+                .frame(width: 54)
+                .padding(.trailing, 16)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .onAppear { animating = true }
+    }
+}
+
 /// A single card turning over, front to meaning — what a kanji card actually does.
 struct KanjiFlipTile: View {
     let color: Color
@@ -312,8 +370,14 @@ struct KanjiMatchTile: View {
 
 // MARK: - Reading
 
-/// Lines of text creeping upward, then snapping back to the top — a page being
-/// read, on a loop.
+/// Lines of text creeping upward on a seamless loop — a page being read.
+///
+/// Driven by one repeat-forever Core Animation pass rather than a TimelineView:
+/// `.animation` timelines re-evaluate the body at display rate (up to 120 times
+/// a second on ProMotion) for as long as the menu is open, which made this
+/// decoration the single most expensive thing on the Study screen. A linear
+/// repeating offset renders out-of-process on the render server and costs the
+/// CPU nothing after the first frame.
 struct ReadingTile: View {
     let color: Color
 
@@ -325,46 +389,44 @@ struct ReadingTile: View {
     /// overflows instead of appearing to scroll through an opening.
     private let window: CGFloat = 66
 
+    @State private var scrolled = false
+
     private var blockHeight: CGFloat { CGFloat(widths.count) * (lineHeight + gap) }
 
     var body: some View {
         FeatureCard(color: color, title: "Reading",
                     subtitle: "Passages & questions", square: false) {
-            TimelineView(.animation) { timeline in
-                let t = timeline.date.timeIntervalSinceReferenceDate
-                let cycle = 5.4
-                let phase = t.truncatingRemainder(dividingBy: cycle) / cycle
-                // Creep up for most of the cycle, then flick back to the top.
-                let scrolled: CGFloat = phase < 0.86
-                    ? CGFloat(phase / 0.86) * blockHeight
-                    : blockHeight * CGFloat(1 - (phase - 0.86) / 0.14)
-
-                VStack(alignment: .leading, spacing: gap) {
-                    // Two copies so the wrap point never shows a gap.
-                    ForEach(0..<2, id: \.self) { copy in
-                        ForEach(Array(widths.enumerated()), id: \.offset) { _, frac in
-                            Capsule()
-                                .fill(color.opacity(copy == 0 ? 0.85 : 0.55))
-                                .frame(width: 168 * frac, height: lineHeight)
-                        }
+            VStack(alignment: .leading, spacing: gap) {
+                // Two identical copies: the loop jumps back one block-height
+                // exactly when copy two reaches where copy one began, so the
+                // wrap is invisible. (They must match in opacity for that —
+                // a dimmer second copy would flash at the seam.)
+                ForEach(0..<2, id: \.self) { _ in
+                    ForEach(Array(widths.enumerated()), id: \.offset) { _, frac in
+                        Capsule()
+                            .fill(color.opacity(0.85))
+                            .frame(width: 168 * frac, height: lineHeight)
                     }
                 }
-                .frame(width: 168, alignment: .leading)
-                .offset(y: -scrolled)
-                .frame(width: 168, height: window, alignment: .top)
-                .clipped()
-                // Fades at both ends, so it reads as a window onto a longer page.
-                .mask(
-                    LinearGradient(stops: [
-                        .init(color: .clear, location: 0),
-                        .init(color: .black, location: 0.2),
-                        .init(color: .black, location: 0.8),
-                        .init(color: .clear, location: 1),
-                    ], startPoint: .top, endPoint: .bottom)
-                )
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
-                .padding(.trailing, 18)
             }
+            .frame(width: 168, alignment: .leading)
+            .offset(y: scrolled ? -blockHeight : 0)
+            .animation(.linear(duration: 5.4).repeatForever(autoreverses: false),
+                       value: scrolled)
+            .frame(width: 168, height: window, alignment: .top)
+            .clipped()
+            // Fades at both ends, so it reads as a window onto a longer page.
+            .mask(
+                LinearGradient(stops: [
+                    .init(color: .clear, location: 0),
+                    .init(color: .black, location: 0.2),
+                    .init(color: .black, location: 0.8),
+                    .init(color: .clear, location: 1),
+                ], startPoint: .top, endPoint: .bottom)
+            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .trailing)
+            .padding(.trailing, 18)
+            .onAppear { scrolled = true }
         }
     }
 }
@@ -408,9 +470,11 @@ struct LevelQuizTile: View {
     }
 
     var body: some View {
-        // Coarse tick: the highlight only changes every 2.4s, so there's no reason
-        // to redraw at display rate.
-        TimelineView(.periodic(from: .now, by: 0.4)) { timeline in
+        // Coarse tick: the highlight only changes every 2.4s, so redraw as rarely
+        // as the phase offsets allow. Six of these sit on one screen, and each
+        // sample wakes the display pipeline — at 0.8s a boundary is caught at
+        // worst a third of a dwell late, which decoration can afford.
+        TimelineView(.periodic(from: .now, by: 0.8)) { timeline in
             let t = timeline.date.timeIntervalSinceReferenceDate + phase
             let step = Int((t / 2.4).rounded(.down)) % 3
             card(selected: step)

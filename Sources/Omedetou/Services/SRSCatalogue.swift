@@ -40,6 +40,17 @@ enum SRSCatalogue {
                               extra: [w.partOfSpeech, w.romaji].joined(separator: " · "))
         case .kanji:
             guard let c = cardStore.kanjiCards.first(where: { $0.id == id.key }) else { return nil }
+            // Reviewed as the chapter taught it. Falling back to the card's full
+            // reference entry is what put 分ける on the back of 分 — right about
+            // the character, wrong for someone who learned it as ふん.
+            if let taught = LessonsService.shared.kanjiEntry(c.kanji) {
+                return ReviewCard(id: id,
+                                  front: taught.word,
+                                  reading: taught.reading,
+                                  back: taught.meaning,
+                                  extra: taught.word == taught.char ? nil : taught.char,
+                                  isSingleGlyph: taught.word.count <= 2)
+            }
             let on = c.onyomi.map(\.kana).joined(separator: "、")
             let kun = c.kunyomi.map(\.kana).joined(separator: "、")
             var readings: [String] = []

@@ -53,9 +53,16 @@
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Omedetou listens so you can look a word up by saying it instead of typing it.</string>
+	<string>Omedetou listens so you can look a word up by saying it instead of typing it, and so you can answer audio flash cards out loud.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>What you say is turned into text so it can be searched. Recognition runs on your device where the Japanese language pack is installed, nothing you say is stored, and your pronunciation is never scored.</string>
+	<string>What you say is turned into text: to search the dictionary, and to check the meaning you give for a word in audio flash cards. Recognition runs on your device wherever the language pack is installed, and nothing you say is stored. Your pronunciation is never scored — only whether the English meaning you gave matches the word.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<!-- Audio Flash Cards' hands-free mode reads words and meanings aloud
+		     on a loop; without this the run is killed the moment the screen
+		     locks, which is exactly when someone is using it. -->
+		<string>audio</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

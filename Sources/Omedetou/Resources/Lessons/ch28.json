@@ -1927,46 +1927,251 @@
     }
   ],
   "kanji": [
-    "選",
-    "実",
-    "現",
-    "化",
-    "進",
-    "活",
-    "共",
-    "昨",
-    "打",
-    "置",
-    "流",
-    "球",
-    "身",
-    "石",
-    "番",
-    "術",
-    "配",
-    "追",
-    "美",
-    "観",
-    "察",
-    "候",
-    "路",
-    "太",
-    "座",
-    "破",
-    "富",
-    "王",
-    "覚",
-    "留",
-    "精",
-    "居",
-    "更",
-    "束",
-    "探",
-    "暮",
-    "盗",
-    "陽",
-    "祖",
-    "眠",
-    "忙"
+    {
+      "char": "選",
+      "word": "選",
+      "reading": "えらぶ",
+      "meaning": "elect"
+    },
+    {
+      "char": "実",
+      "word": "実験",
+      "reading": "じっけん",
+      "meaning": "experiment"
+    },
+    {
+      "char": "現",
+      "word": "現象",
+      "reading": "げんしょう",
+      "meaning": "phenomenon"
+    },
+    {
+      "char": "化",
+      "word": "化ける",
+      "reading": "ばける",
+      "meaning": "to take the form of (esp. in ref. to a spirit, fox, raccoon dog, etc.)"
+    },
+    {
+      "char": "進",
+      "word": "進む",
+      "reading": "すすむ",
+      "meaning": "to advance"
+    },
+    {
+      "char": "活",
+      "word": "活",
+      "reading": "いきる",
+      "meaning": "lively"
+    },
+    {
+      "char": "共",
+      "word": "共に",
+      "reading": "ともに",
+      "meaning": "together"
+    },
+    {
+      "char": "昨",
+      "word": "昨",
+      "reading": "さく",
+      "meaning": "yesterday"
+    },
+    {
+      "char": "打",
+      "word": "打",
+      "reading": "ダース",
+      "meaning": "dozen"
+    },
+    {
+      "char": "置",
+      "word": "置く",
+      "reading": "おく",
+      "meaning": "to put"
+    },
+    {
+      "char": "流",
+      "word": "流れ",
+      "reading": "ながれ",
+      "meaning": "flow (of a fluid or gas)"
+    },
+    {
+      "char": "球",
+      "word": "球",
+      "reading": "きゅう",
+      "meaning": "sphere"
+    },
+    {
+      "char": "身",
+      "word": "身",
+      "reading": "み",
+      "meaning": "body"
+    },
+    {
+      "char": "石",
+      "word": "石",
+      "reading": "いし",
+      "meaning": "stone"
+    },
+    {
+      "char": "番",
+      "word": "番",
+      "reading": "つがい",
+      "meaning": "turn"
+    },
+    {
+      "char": "術",
+      "word": "術",
+      "reading": "じゅつ",
+      "meaning": "art"
+    },
+    {
+      "char": "配",
+      "word": "配る",
+      "reading": "くばる",
+      "meaning": "to distribute"
+    },
+    {
+      "char": "追",
+      "word": "追う",
+      "reading": "おう",
+      "meaning": "to chase"
+    },
+    {
+      "char": "美",
+      "word": "美",
+      "reading": "び",
+      "meaning": "beauty"
+    },
+    {
+      "char": "観",
+      "word": "観察",
+      "reading": "かんさつ",
+      "meaning": "observation"
+    },
+    {
+      "char": "察",
+      "word": "察する",
+      "reading": "さっする",
+      "meaning": "to guess"
+    },
+    {
+      "char": "候",
+      "word": "気候",
+      "reading": "きこう",
+      "meaning": "climate"
+    },
+    {
+      "char": "路",
+      "word": "路",
+      "reading": "じ",
+      "meaning": "path"
+    },
+    {
+      "char": "太",
+      "word": "太陽系",
+      "reading": "たいようけい",
+      "meaning": "the solar system"
+    },
+    {
+      "char": "座",
+      "word": "座る",
+      "reading": "すわる",
+      "meaning": "to sit"
+    },
+    {
+      "char": "破",
+      "word": "破壊",
+      "reading": "はかい",
+      "meaning": "destruction"
+    },
+    {
+      "char": "富",
+      "word": "富",
+      "reading": "とみ",
+      "meaning": "riches"
+    },
+    {
+      "char": "王",
+      "word": "王",
+      "reading": "おう",
+      "meaning": "king"
+    },
+    {
+      "char": "覚",
+      "word": "覚",
+      "reading": "おぼ",
+      "meaning": "memorize"
+    },
+    {
+      "char": "留",
+      "word": "留める",
+      "reading": "とどめる",
+      "meaning": "to stop"
+    },
+    {
+      "char": "精",
+      "word": "精",
+      "reading": "せい",
+      "meaning": "spirit"
+    },
+    {
+      "char": "居",
+      "word": "居る",
+      "reading": "いる",
+      "meaning": "to be (of animate objects)"
+    },
+    {
+      "char": "更",
+      "word": "更に",
+      "reading": "さらに",
+      "meaning": "furthermore"
+    },
+    {
+      "char": "束",
+      "word": "束",
+      "reading": "たば",
+      "meaning": "bundle"
+    },
+    {
+      "char": "探",
+      "word": "探す",
+      "reading": "さがす",
+      "meaning": "to search for"
+    },
+    {
+      "char": "暮",
+      "word": "暮らし",
+      "reading": "くらし",
+      "meaning": "life"
+    },
+    {
+      "char": "盗",
+      "word": "盗む",
+      "reading": "ぬすむ",
+      "meaning": "to steal"
+    },
+    {
+      "char": "陽",
+      "word": "陽",
+      "reading": "よう",
+      "meaning": "(the) positive"
+    },
+    {
+      "char": "祖",
+      "word": "祖",
+      "reading": "そ",
+      "meaning": "ancestor"
+    },
+    {
+      "char": "眠",
+      "word": "眠",
+      "reading": "ねむ",
+      "meaning": "sleep"
+    },
+    {
+      "char": "忙",
+      "word": "忙",
+      "reading": "いそが",
+      "meaning": "busy"
+    }
   ]
 }

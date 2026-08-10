@@ -168,45 +168,50 @@ enum ExamBuilder {
 
     // MARK: - Kanji
 
-    private static func kanjiQuestions(kanji: [String], cardStore: CardStore,
+    /// Kanji questions, asked from what the chapter taught.
+    ///
+    /// Everything here comes from the chapter's own entry rather than the kanji
+    /// card. The card is a reference work — every reading the character has, and
+    /// a definition covering all of them — and asking from it produced questions
+    /// that were true but unrecognisable: 分, learned as ふん in Telling Time,
+    /// answered 分ける. The chapter knows it taught ふん, "minute", so that is
+    /// what is asked, and the wrong answers are drawn from what other chapters
+    /// taught, which keeps every option something the learner has actually seen.
+    private static func kanjiQuestions(kanji: [ChapterKanji], cardStore: CardStore,
                                        count: Int) -> [ExamQuestion] {
         guard count > 0, !kanji.isEmpty else { return [] }
-        let wanted = Set(kanji)
-        let cards = cardStore.kanjiCards.filter { wanted.contains($0.kanji) }
-        guard cards.count >= 4 else { return [] }
 
-        func readings(_ c: KanjiCard) -> [String] {
-            (c.onyomi + c.kunyomi).map(\.kana).filter { !$0.isEmpty }
-        }
+        // Distractors come from the whole course, so a four-kanji chapter still
+        // has a pool — but never from a chapter entry sharing this character.
+        let everything = LessonsService.shared.allKanjiEntries()
 
         var out: [ExamQuestion] = []
-        for card in cards.shuffled().prefix(count) {
-            let others = cards.filter { $0.kanji != card.kanji }
-            let mine = readings(card)
-            let askReading = Bool.random() && !mine.isEmpty
-            if askReading, let reading = mine.randomElement() {
-                // Every reading this kanji has, not just the one being asked, has
-                // to come out of the pool. 山 is サン *and* セン, so offering セン
-                // (borrowed from 川) as a wrong answer made two options correct.
-                // 378 kanji across the chapters were affected.
-                let ownReadings = Set(mine)
-                let pool = others.flatMap(readings).filter { !ownReadings.contains($0) }
-                guard let choices = pick(distractors: pool, correct: reading) else { continue }
+        for entry in kanji.shuffled().prefix(count) {
+            let others = everything.filter { $0.char != entry.char }
+            // The subject is the form it was taught in: 高い, not a bare 高.
+            let subject = entry.word
+
+            if Bool.random(), !entry.reading.isEmpty {
+                // Any other chapter that teaches this same reading has to come
+                // out of the pool, or two options would be right at once.
+                let pool = others.map(\.reading)
+                    .filter { !$0.isEmpty && $0 != entry.reading }
+                guard let choices = pick(distractors: pool, correct: entry.reading) else { continue }
                 out.append(ExamQuestion(
-                    id: "k:\(card.kanji):r", section: .kanji,
-                    prompt: "Which is a reading of this kanji?", subject: card.kanji,
-                    choices: choices, correctIndex: choices.firstIndex(of: reading) ?? 0,
-                    explanation: "\(card.kanji) — \(card.definition)",
-                    reviewItem: .kanji(card.id)))
+                    id: "k:\(entry.char):r", section: .kanji,
+                    prompt: "How is this read?", subject: subject,
+                    choices: choices, correctIndex: choices.firstIndex(of: entry.reading) ?? 0,
+                    explanation: "\(subject) (\(entry.reading)) — \(entry.meaning)",
+                    reviewItem: .kanji(entry.char)))
             } else {
-                guard let choices = pick(distractors: others.map(\.definition),
-                                         correct: card.definition) else { continue }
+                let pool = others.map(\.meaning).filter { !$0.isEmpty && $0 != entry.meaning }
+                guard let choices = pick(distractors: pool, correct: entry.meaning) else { continue }
                 out.append(ExamQuestion(
-                    id: "k:\(card.kanji):m", section: .kanji,
-                    prompt: "What does this kanji mean?", subject: card.kanji,
-                    choices: choices, correctIndex: choices.firstIndex(of: card.definition) ?? 0,
-                    explanation: "\(card.kanji) — \(card.definition)",
-                    reviewItem: .kanji(card.id)))
+                    id: "k:\(entry.char):m", section: .kanji,
+                    prompt: "What does this mean?", subject: subject,
+                    choices: choices, correctIndex: choices.firstIndex(of: entry.meaning) ?? 0,
+                    explanation: "\(subject) (\(entry.reading)) — \(entry.meaning)",
+                    reviewItem: .kanji(entry.char)))
             }
         }
         return out

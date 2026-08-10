@@ -163,10 +163,11 @@ struct KanjiStudyView: View {
             // Needs Work / back / Confident — always visible
             HStack(spacing: 12) {
                 Button {
-                    store.incrementNeedsWork(cardId: card.id)
+                    let didUncheck = store.incrementNeedsWork(cardId: card.id)
                     // Enrols the kanji and books its next showing.
                     SRSStore.shared.grade(.kanji(card.id), .again)
-                    history.append(KanjiStudyHistoryEntry(card: card, action: .needsWork))
+                    history.append(KanjiStudyHistoryEntry(card: card,
+                                                         action: .needsWork(didUncheck: didUncheck)))
                     pickNext()
                 } label: {
                     Text("Needs Work")
@@ -287,8 +288,9 @@ struct KanjiStudyView: View {
     private func goBack() {
         guard let last = history.popLast() else { return }
         switch last.action {
-        case .needsWork:
+        case .needsWork(let didUncheck):
             store.decrementNeedsWork(cardId: last.card.id)
+            if didUncheck { store.toggleKanjiExcluded(cardId: last.card.id) }
         case .confident(let didCheck):
             store.decrementConfident(cardId: last.card.id)
             if didCheck { store.toggleKanjiExcluded(cardId: last.card.id) }
@@ -303,7 +305,7 @@ struct KanjiStudyView: View {
 // MARK: - Back-button undo history
 
 private enum KanjiStudyAction {
-    case needsWork
+    case needsWork(didUncheck: Bool)
     case confident(didCheck: Bool)
 }
 
