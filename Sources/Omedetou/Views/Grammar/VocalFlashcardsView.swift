@@ -321,12 +321,6 @@ struct VocalFlashcardsView: View {
                     }
                 }
                 Spacer()
-                Button { finishEarly() } label: {
-                    Text("Finish")
-                        .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(Color.readableOnPage(.appAccent))
-                }
-                .buttonStyle(.plain)
             }
             .font(.system(size: 13, weight: .semibold))
             .padding(.horizontal, 22)
@@ -357,7 +351,38 @@ struct VocalFlashcardsView: View {
                 .frame(height: 210)
 
             Spacer()
+
+            // Ending a run is a deliberate act, so the control for it sits where
+            // a deliberate tap lands rather than tucked in a corner.
+            //
+            // It hides — rather than moves — while "I was right" is up. Those two
+            // land a thumb's width apart, and hitting Finish when you meant to
+            // overrule a misheard answer ends the whole session. Opacity rather
+            // than removal keeps the layout still, so nothing shifts under a
+            // thumb already on its way down.
+            Button { finishEarly() } label: {
+                Text("Finish")
+                    .font(.system(size: 15, weight: .semibold))
+                    .foregroundColor(Color.readableOnPage(.appAccent))
+                    .padding(.horizontal, 30)
+                    .padding(.vertical, 11)
+                    .background(Capsule().fill(Color.appSurface))
+                    .overlay(Capsule().strokeBorder(Color.appHairline, lineWidth: 1))
+            }
+            .buttonStyle(.plain)
+            .opacity(overruleVisible ? 0 : 1)
+            .allowsHitTesting(!overruleVisible)
+            .animation(.easeInOut(duration: 0.18), value: overruleVisible)
+            .padding(.bottom, 26)
         }
+    }
+
+    /// True while the "I was right" button is on screen.
+    private var overruleVisible: Bool {
+        if case .judged(let verdict) = phase {
+            return verdict != .correct && verdict != .skipped
+        }
+        return false
     }
 
     @ViewBuilder
