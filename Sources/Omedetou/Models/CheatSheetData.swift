@@ -112,7 +112,7 @@ enum CheatSheetLibrary {
         out += [onomatopoeia, teHelpers, voices, obligation, comparisons]
         out += [restaurant]
         // Specialist or late-stage.
-        out += [weather, body, keigo]
+        out += [weather, body, keigo, names]
         return out
     }()
 
@@ -1409,6 +1409,136 @@ enum CheatSheetLibrary {
             CheatSection(title: "Group 3 — the two irregulars", columns: 2, items: [
                 CheatItem("する", "します · して · した · しない", irregular: true),
                 CheatItem("来る", "きます · きて · きた · こない", irregular: true),
+            ]),
+        ])
+
+    // MARK: Names
+
+    /// Every name and reading below was checked against JMnedict (EDRDG's name
+    /// dictionary) before shipping. Names are the one area where a plausible
+    /// guess is worthless: 大和 is やまと and not だいわ, and no amount of knowing
+    /// the on/kun readings will tell you that.
+    static let names = CheatSheet(
+        id: "names", title: "Japanese Names", subtitle: "Surnames, given names, and how to read them",
+        icon: "person.text.rectangle.fill", tintIndex: 4,
+        keywords: ["name", "names", "surname", "family name", "given name", "namae", "名前",
+                   "myouji", "苗字", "nanori", "名乗り", "san", "kun", "chan", "sama", "honorific"],
+        sections: [
+            CheatSection(title: "How a name is built", columns: 1, items: [
+                CheatItem("山田 太郎", "やまだ たろう — surname first, always. Japan's \"John Smith\"."),
+                CheatItem("Address by surname", "山田さん. First names are for family and close friends."),
+                CheatItem("Never 〜さん yourself", "You are just 山田です. Adding さん to your own name is the classic learner slip.", irregular: true),
+            ]),
+            CheatSection(title: "Honorifics", columns: 2, items: [
+                CheatItem("〜さん", "the default, any adult, any gender"),
+                CheatItem("〜さま", "customers, deities, addresses on envelopes"),
+                CheatItem("〜くん", "boys, juniors at work"),
+                CheatItem("〜ちゃん", "small children, close friends, pets"),
+                CheatItem("〜先生", "teachers, doctors, lawyers — never with さん"),
+                CheatItem("呼び捨て", "よびすて — no suffix at all. Intimate, or rude.", irregular: true),
+            ]),
+            CheatSection(title: "The twenty commonest surnames",
+                         note: "Roughly in national order. Notice how many are simple geography — "
+                             + "most Japanese surnames were only fixed in 1875, when ordinary "
+                             + "families were made to register one and many named themselves "
+                             + "after what they could see.",
+                         columns: 2, items: [
+                CheatItem("佐藤", "さとう · Fujiwara branch"),
+                CheatItem("鈴木", "すずき · bell tree"),
+                CheatItem("高橋", "たかはし · tall bridge"),
+                CheatItem("田中", "たなか · middle of the rice field"),
+                CheatItem("伊藤", "いとう · Fujiwara of Ise"),
+                CheatItem("渡辺", "わたなべ · by the crossing"),
+                CheatItem("山本", "やまもと · base of the mountain"),
+                CheatItem("中村", "なかむら · middle village"),
+                CheatItem("小林", "こばやし · small grove"),
+                CheatItem("加藤", "かとう · Fujiwara of Kaga"),
+                CheatItem("吉田", "よしだ · lucky field"),
+                CheatItem("山田", "やまだ · mountain field"),
+                CheatItem("佐々木", "ささき · bamboo-grass trees"),
+                CheatItem("山口", "やまぐち · mouth of the mountain"),
+                CheatItem("松本", "まつもと · base of the pine"),
+                CheatItem("井上", "いのうえ · above the well"),
+                CheatItem("木村", "きむら · tree village"),
+                CheatItem("林", "はやし · grove"),
+                CheatItem("清水", "しみず · clear water"),
+                CheatItem("山崎", "やまざき · mountain cape"),
+            ]),
+            CheatSection(title: "The 藤 clue",
+                         note: "藤 (fuji, wisteria) in a surname almost always means a branch of "
+                             + "the Fujiwara — the family that ran the imperial court for "
+                             + "centuries. Branches took a province name and bolted 藤 on the end, "
+                             + "so the surname still says where they came from.",
+                         columns: 2, items: [
+                CheatItem("伊藤", "いとう · 伊勢 Ise + 藤"),
+                CheatItem("加藤", "かとう · 加賀 Kaga + 藤"),
+                CheatItem("近藤", "こんどう · 近江 Ōmi + 藤"),
+                CheatItem("遠藤", "えんどう · 遠江 Tōtōmi + 藤"),
+                CheatItem("後藤", "ごとう · 後 + 藤"),
+                CheatItem("斎藤", "さいとう · 斎宮 + 藤"),
+            ]),
+            CheatSection(title: "More surnames you'll meet", columns: 2, items: [
+                CheatItem("森", "もり"), CheatItem("池田", "いけだ"),
+                CheatItem("橋本", "はしもと"), CheatItem("阿部", "あべ"),
+                CheatItem("石川", "いしかわ"), CheatItem("山下", "やました"),
+                CheatItem("中島", "なかじま"), CheatItem("石井", "いしい"),
+                CheatItem("小川", "おがわ"), CheatItem("前田", "まえだ"),
+                CheatItem("岡田", "おかだ"), CheatItem("長谷川", "はせがわ", irregular: true),
+                CheatItem("藤田", "ふじた"), CheatItem("村上", "むらかみ"),
+                CheatItem("青木", "あおき"), CheatItem("坂本", "さかもと"),
+            ]),
+            CheatSection(title: "Given names — masculine",
+                         note: "The top of this list turns over fast. 太郎 and 一郎 are the "
+                             + "storybook names now, roughly like Albert.",
+                         columns: 2, items: [
+                CheatItem("蓮", "れん"), CheatItem("湊", "みなと"),
+                CheatItem("大翔", "ひろと"), CheatItem("陽翔", "はると"),
+                CheatItem("悠真", "ゆうま"), CheatItem("大和", "やまと", irregular: true),
+                CheatItem("翔太", "しょうた"), CheatItem("健太", "けんた"),
+                CheatItem("拓也", "たくや"), CheatItem("直樹", "なおき"),
+                CheatItem("太郎", "たろう · \"eldest son\""), CheatItem("一郎", "いちろう · \"first son\""),
+            ]),
+            CheatSection(title: "Given names — feminine", columns: 2, items: [
+                CheatItem("葵", "あおい"), CheatItem("凛", "りん"),
+                CheatItem("陽菜", "ひな"), CheatItem("結愛", "ゆあ"),
+                CheatItem("結衣", "ゆい"), CheatItem("美咲", "みさき"),
+                CheatItem("愛", "あい"), CheatItem("恵", "めぐみ"),
+                CheatItem("百合", "ゆり · lily"), CheatItem("翠", "みどり"),
+                CheatItem("優子", "ゆうこ"), CheatItem("陽子", "ようこ"),
+                CheatItem("花子", "はなこ · the storybook girl's name"),
+            ]),
+            CheatSection(title: "Names that go either way",
+                         note: "Not every name tells you a gender, and assuming can be worse "
+                             + "than asking.",
+                         columns: 2, items: [
+                CheatItem("直美", "なおみ · either"),
+                CheatItem("誠", "まこと · either"),
+                CheatItem("樹", "いつき · either"),
+                CheatItem("蓮", "れん · either"),
+            ]),
+            CheatSection(title: "Endings that give it away", columns: 2, items: [
+                CheatItem("〜子", "こ · feminine. 陽子, 優子. Dated now — peaked mid-century."),
+                CheatItem("〜美", "み · feminine. 直美, 恵美."),
+                CheatItem("〜郎", "ろう · masculine, \"son\". 太郎, 一郎."),
+                CheatItem("〜太", "た · masculine, \"big\". 健太, 翔太."),
+            ]),
+            CheatSection(title: "Why you can't sound names out",
+                         note: "Names use 名乗り (nanori) — readings that exist only in names and "
+                             + "appear in no dictionary entry for the word. This is the single "
+                             + "reason Japanese business cards print furigana, and why asking "
+                             + "how someone reads their own name is completely normal.",
+                         columns: 1, items: [
+                CheatItem("大和 → やまと", "Not だいわ. The reading has nothing to do with the characters.", irregular: true),
+                CheatItem("長谷川 → はせがわ", "長谷 is はせ only in names.", irregular: true),
+                CheatItem("一 in names", "かず as often as いち — 一郎 いちろう but 一美 かずみ.", irregular: true),
+                CheatItem("Same sound, many spellings", "こうじ can be 浩二, 幸治, 康司, 光司 …"),
+                CheatItem("Same spelling, many sounds", "和子 is かずこ or わこ; 洋子 ようこ or ひろこ."),
+            ]),
+            CheatSection(title: "Reading a card", columns: 1, items: [
+                CheatItem("お名前は？", "おなまえは — \"your name?\" The polite お is part of it."),
+                CheatItem("何とお読みしますか", "なんとおよみしますか — \"how is this read?\" Perfectly polite to ask."),
+                CheatItem("苗字 / 名字", "みょうじ — surname. 名前 なまえ is the given name, or the full name."),
+                CheatItem("ふりがな", "The kana printed above a name so you can read it at all."),
             ]),
         ])
 }

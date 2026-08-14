@@ -37,6 +37,7 @@ struct VocalFlashcardsView: View {
     /// The card the watchdog has already rescued once, so a second failure ends
     /// the run instead of looping silently.
     @State private var rescued: String?
+    @State private var cardDirection: CardDirection = .japaneseToEnglish
 
     private enum Phase: Equatable {
         case ready
@@ -53,6 +54,8 @@ struct VocalFlashcardsView: View {
     private struct Answer {
         let card: VocabFlashCard
         var verdict: VocalVerdict
+        /// The direction this card was actually asked in — never `.random`.
+        let direction: CardDirection
     }
 
     private enum Mark: CaseIterable {
@@ -87,6 +90,10 @@ struct VocalFlashcardsView: View {
     private var pool: [VocabFlashCard] {
         filter.apply(to: allCards)
     }
+
+    /// Which half leads for the card on screen. Resolved once when the card is
+    /// dealt and held, so a Random run can't flip direction mid-question.
+    private var reversed: Bool { cardDirection.isReversed }
 
     private var rightCount: Int { answers.filter { $0.verdict == .correct }.count }
     private var skippedCount: Int { answers.filter { $0.verdict == .skipped }.count }
@@ -206,7 +213,9 @@ struct VocalFlashcardsView: View {
                 .foregroundColor(Color.readableOnPage(.appAccent))
 
             VStack(spacing: 8) {
-                Text(settings.audioOnly ? "Listen and answer in your head" : "Say what it means")
+                Text(settings.audioOnly
+                     ? "Listen and answer in your head"
+                     : reversed ? "Say the Japanese" : "Say what it means")
                     .font(.system(size: 22, weight: .bold))
                     .foregroundColor(.appText)
                     .multilineTextAlignment(.center)
@@ -214,8 +223,12 @@ struct VocalFlashcardsView: View {
                 Text(pool.isEmpty
                      ? "No words match your filters."
                      : settings.audioOnly
-                       ? "Each word, a pause, then its meaning. No microphone."
-                       : "Hear a word, say any one of its meanings.")
+                       ? (reversed
+                          ? "Each meaning, a pause, then the Japanese. No microphone."
+                          : "Each word, a pause, then its meaning. No microphone.")
+                       : reversed
+                         ? "Hear the meaning, say the Japanese word."
+                         : "Hear a word, say any one of its meanings.")
                     .font(.system(size: 14))
                     .foregroundColor(.secondary)
                     .multilineTextAlignment(.center)
@@ -227,9 +240,13 @@ struct VocalFlashcardsView: View {
             // are two ways to study or that tapping changes anything.
             VStack(spacing: 8) {
                 modeChoice(audioOnly: true, title: "Audio Only",
-                           detail: "No microphone. Hear the word, then its meaning.")
+                           detail: reversed
+                                   ? "No microphone. Hear the meaning, then the Japanese."
+                                   : "No microphone. Hear the word, then its meaning.")
                 modeChoice(audioOnly: false, title: "Audio and Voice Response",
-                           detail: "Say the meaning out loud and it's marked.")
+                           detail: reversed
+                                   ? "Say the Japanese out loud and it's marked."
+                                   : "Say the meaning out loud and it's marked.")
             }
             .padding(.horizontal, 24)
 
@@ -500,7 +517,8 @@ struct VocalFlashcardsView: View {
 
     private var heardOrPrompt: String {
         let live = listener.partial.isEmpty ? heard : listener.partial
-        return live.isEmpty ? "Say the meaning…" : "“\(live)”"
+        if live.isEmpty { return reversed ? "Say the Japanese…" : "Say the meaning…" }
+        return "“\(live)”"
     }
 
     private func verdictArea(_ verdict: VocalVerdict) -> some View {
@@ -513,7 +531,7 @@ struct VocalFlashcardsView: View {
                 .foregroundColor(right ? .green : skipped ? .gray : .red)
 
             if let card = current {
-                Text(card.word.definition)
+                Text(reversed ? "\(card.word.kanji)  （\(card.word.kana)）" : card.word.definition)
                     .font(.system(size: 17, weight: .semibold))
                     .foregroundColor(.appText)
                     .multilineTextAlignment(.center)
@@ -596,7 +614,7 @@ struct VocalFlashcardsView: View {
                             .padding(.horizontal, 30)
 
                         VStack(spacing: 0) {
-                            ForEach(Array(rows.enumerated()), id: \.element.card.word.id) { idx, row in
+                            ForEach(Array(rows.enumerated()), id: \.element.key) { idx, row in
                                 summaryRow(row, striped: idx % 2 == 0)
                             }
                         }
@@ -637,9 +655,9 @@ struct VocalFlashcardsView: View {
     }
 
     private func summaryRow(_ row: TallyRow, striped: Bool) -> some View {
-        let mark = marks[row.card.word.id] ?? .leave
+        let mark = marks[row.key] ?? .leave
         return Button {
-            marks[row.card.word.id] = mark.next
+            marks[row.key] = mark.next
         } label: {
             HStack(spacing: 10) {
                 VStack(alignment: .leading, spacing: 2) {
@@ -694,9 +712,13 @@ struct VocalFlashcardsView: View {
 
     private struct TallyRow {
         let card: VocabFlashCard
+        let direction: CardDirection
         var right = 0
         var wrong = 0
         var skips = 0
+
+        /// Unique per word *and* direction.
+        var key: String { "\(card.word.id)|\(direction.rawValue)" }
     }
 
     /// One row per word, however many times it came up.
@@ -704,9 +726,11 @@ struct VocalFlashcardsView: View {
         var order: [String] = []
         var rows: [String: TallyRow] = [:]
         for answer in answers {
-            let id = answer.card.word.id
+            // Keyed by word *and* direction: a Random run can ask the same word
+            // both ways, and those are two different things to have learned.
+            let id = "\(answer.card.word.id)|\(answer.direction.rawValue)"
             if rows[id] == nil {
-                rows[id] = TallyRow(card: answer.card)
+                rows[id] = TallyRow(card: answer.card, direction: answer.direction)
                 order.append(id)
             }
             switch answer.verdict {
@@ -746,16 +770,21 @@ struct VocalFlashcardsView: View {
         // One grade per word, not one per answer: the schedule is about when to
         // see the word next, and it only needs to know how the session went.
         for row in marked {
-            let confident = (marks[row.card.word.id] ?? .leave) == .confident
+            let confident = (marks[row.key] ?? .leave) == .confident
             SRSStore.shared.grade(.vocab(row.card.word.id), confident ? .good : .again)
         }
 
-        filter.exclude(marked.filter { marks[$0.card.word.id] == .confident }
-                             .map { $0.card.word.id })
-        // Needs Work and a checkmark contradict each other, so marking a word
-        // here clears one it already had.
-        filter.unexclude(marked.filter { marks[$0.card.word.id] == .needsWork }
-                               .map { $0.card.word.id })
+        // Checkmarks belong to a direction: knowing 食[た]べる → "to eat" says
+        // nothing about producing 食[た]べる from "to eat". A Random run mixes
+        // both within one session, so each is applied to its own half.
+        for direction in CardDirection.asked {
+            let inDirection = marked.filter { $0.direction == direction }
+            filter.exclude(inDirection.filter { marks[$0.key] == .confident }
+                                      .map { $0.card.word.id }, direction: direction)
+            // Needs Work and a checkmark contradict each other.
+            filter.unexclude(inDirection.filter { marks[$0.key] == .needsWork }
+                                        .map { $0.card.word.id }, direction: direction)
+        }
         phase = .ready
     }
 
@@ -801,6 +830,7 @@ struct VocalFlashcardsView: View {
             return
         }
         current = card
+        cardDirection = filter.resolvedDirection(for: card.word.id)
         asked += 1
         heard = ""
         if settings.audioOnly { runAudioOnly(card); return }
@@ -814,7 +844,12 @@ struct VocalFlashcardsView: View {
         // and a stopped utterance would never hand control back. Words can repeat
         // in a long run, so the counter — not the word — has to make it unique.
         let tail = speech.tailBeforeRecording
-        speech.speak(card.word.kana, id: "vocal-\(asked)-\(card.word.id)") {
+        let prompt = reversed ? card.word.definition : card.word.kana
+        let speakPrompt: (@escaping () -> Void) -> Void = { done in
+            if reversed { speech.speakEnglish(prompt, id: "vocal-\(asked)", completion: done) }
+            else { speech.speak(prompt, id: "vocal-\(asked)-\(card.word.id)", completion: done) }
+        }
+        speakPrompt {
             // Let the word actually finish reaching the speaker before the mic
             // claims the route — see `tailBeforeRecording`. Without this the
             // last syllable is clipped on Bluetooth, which in a car is most of
@@ -826,7 +861,7 @@ struct VocalFlashcardsView: View {
         }
         // Only covers the prompt and the gap after it: once the mic is open the
         // listener runs its own window, which cannot hang.
-        armWatchdog(20 + tail, card: card)
+        armWatchdog(14 + tail, card: card)
     }
 
     /// Word, pause, meaning, beat, next — with the microphone never opened.
@@ -844,21 +879,23 @@ struct VocalFlashcardsView: View {
         thinkingUntil = nil
 
         speech.speakCard(
-            japanese: card.word.kana,
+            prompt: reversed ? card.word.definition : card.word.kana,
+            promptIsJapanese: !reversed,
             gap: VocalStudySettings.audioOnlyThink,
-            english: card.word.definition,
+            answer: reversed ? card.word.kana : card.word.definition,
+            answerIsJapanese: reversed,
             trailing: VocalStudySettings.audioOnlyGap,
             onGapStart: {
                 phase = .thinking
                 thinkingUntil = Date().addingTimeInterval(VocalStudySettings.audioOnlyThink)
             },
-            onEnglishStart: { phase = .reveal },
+            onAnswerStart: { phase = .reveal },
             completion: {
                 cancelWatchdog()
                 step()
             })
         // Japanese + gap + English + tail, plus generous slack for a slow voice.
-        armWatchdog(VocalStudySettings.audioOnlyThink + VocalStudySettings.audioOnlyGap + 25,
+        armWatchdog(VocalStudySettings.audioOnlyThink + VocalStudySettings.audioOnlyGap + 16,
                     card: card)
     }
 
@@ -900,7 +937,10 @@ struct VocalFlashcardsView: View {
         guard phase == .prompting, current != nil else { return }
         phase = .listening
         listeningUntil = Date().addingTimeInterval(settings.answerSeconds)
-        listener.listen(seconds: settings.answerSeconds) { text in
+        // Japanese answers need a Japanese recogniser; an en-US one hears たべる
+              // as nonsense syllables and would mark every answer wrong.
+        listener.listen(seconds: settings.answerSeconds,
+                        locale: reversed ? "ja-JP" : "en-US") { text in
             guard phase == .listening else { return }
             heard = text
             judge(text)
@@ -909,7 +949,10 @@ struct VocalFlashcardsView: View {
 
     private func judge(_ text: String) {
         guard let card = current, listener.problem == nil else { return }
-        let verdict = VocalAnswerMatcher.judge(heard: text, definition: card.word.definition)
+        let verdict = reversed
+            ? VocalAnswerMatcher.judgeJapanese(heard: text, word: card.word.kanji,
+                                               kana: card.word.kana)
+            : VocalAnswerMatcher.judge(heard: text, definition: card.word.definition)
 
         // "Stop" ends the run and goes straight to the results. Nothing is
         // recorded for this word: it was never attempted, and counting it wrong
@@ -920,7 +963,7 @@ struct VocalFlashcardsView: View {
             return
         }
 
-        answers.append(Answer(card: card, verdict: verdict))
+        answers.append(Answer(card: card, verdict: verdict, direction: cardDirection))
         phase = .judged(verdict)
 
         switch verdict {
@@ -931,14 +974,14 @@ struct VocalFlashcardsView: View {
             // The learner asked to move on, so no buzz — a skip isn't a mistake.
             // The answer is still spoken: saying "skip" means "tell me", and the
             // shorter tail keeps the pace they asked for.
-            speech.speakEnglish(card.word.definition, id: "vocal-def-\(asked)") {
+            speakAnswer(card) {
                 schedule(after: 0.7) { step() }
             }
         default:
             FeedbackSounds.shared.play(.incorrect)
             // Let the cue finish before the voice starts, or the two collide.
             schedule(after: 0.45) {
-                speech.speakEnglish(card.word.definition, id: "vocal-def-\(asked)") {
+                speakAnswer(card) {
                     // A real pause after hearing the answer. Rolling straight into
                     // the next word gives you no moment to take it in, and that
                     // moment is where the learning happens.
@@ -946,6 +989,12 @@ struct VocalFlashcardsView: View {
                 }
             }
         }
+    }
+
+    /// Reads the half that was hidden, in its own language.
+    private func speakAnswer(_ card: VocabFlashCard, then done: @escaping () -> Void) {
+        if reversed { speech.speak(card.word.kana, id: "vocal-ans-\(asked)", completion: done) }
+        else { speech.speakEnglish(card.word.definition, id: "vocal-ans-\(asked)", completion: done) }
     }
 
     /// Flips the last answer to correct — the recogniser, not the learner, was
@@ -984,7 +1033,7 @@ struct VocalFlashcardsView: View {
         // and wrong once is not knowing it. A skip counts on the wrong side
         // here: "I didn't know it" is exactly what Needs Work is for.
         for row in tally() {
-            marks[row.card.word.id] = row.right > row.wrong + row.skips ? .confident : .needsWork
+            marks[row.key] = row.right > row.wrong + row.skips ? .confident : .needsWork
         }
         phase = answers.isEmpty ? .ready : .summary
     }

@@ -48,6 +48,18 @@
       "upstreamVersion": "2026-08-07 snapshot",
       "retrievedOn": "2026-08-07",
       "note": "Component glyphs are mapped from KRADFILE’s surrogate characters to their proper radical forms for display; component names and memory aids are original to this app."
+    },
+    {
+      "id": "jmnedict",
+      "name": "JMnedict / ENAMDICT",
+      "usedFor": "Verifying the names and readings on the Japanese Names cheat sheet",
+      "publisher": "Electronic Dictionary Research and Development Group",
+      "licence": "CC BY-SA 4.0",
+      "licenceURL": "https://www.edrdg.org/edrdg/licence.html",
+      "projectURL": "https://www.edrdg.org/enamdict/enamdict_doc.html",
+      "upstreamVersion": "2026-08-08 snapshot",
+      "retrievedOn": "2026-08-08",
+      "note": "Used only to check that every name/reading pair shown is real; no entries are bundled."
     }
   ]
 }

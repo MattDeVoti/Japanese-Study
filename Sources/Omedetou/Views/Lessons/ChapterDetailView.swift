@@ -10,6 +10,12 @@ struct ChapterDetailView: View {
     @EnvironmentObject private var cardStore: CardStore
     @State private var chapter: LessonChapter?
     @State private var query = ""
+    /// Where the search looks. Defaults to the whole textbook: someone who opens
+    /// a lesson and searches is usually looking for something they can't find,
+    /// and scoping them to the one lesson they're already in is the least
+    /// helpful place to start.
+    @State private var searchAllLessons = true
+    @State private var globalResults: [LessonSearchResult] = []
 
     private var isSearching: Bool {
         !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
@@ -46,9 +52,21 @@ struct ChapterDetailView: View {
                 let kanjiChars = chapter.kanjiChars.filter(kanjiMatches)
 
                 VStack(spacing: 0) {
-                    SearchBar(text: $query, placeholder: "Search this lesson…")
+                    SearchBar(text: $query,
+                              placeholder: searchAllLessons ? "Search all lessons…"
+                                                            : "Search this lesson…")
 
-                    if isSearching && points.isEmpty && vocab.isEmpty && kanjiChars.isEmpty {
+                    Picker("", selection: $searchAllLessons) {
+                        Text("All lessons").tag(true)
+                        Text("This lesson").tag(false)
+                    }
+                    .pickerStyle(.segmented)
+                    .padding(.horizontal, 16)
+                    .padding(.bottom, 8)
+
+                    if isSearching && searchAllLessons {
+                        LessonSearchResultsView(results: globalResults, query: query)
+                    } else if isSearching && points.isEmpty && vocab.isEmpty && kanjiChars.isEmpty {
                         noMatches
                     } else {
                         chapterBody(chapter, points: points, vocab: vocab, kanjiChars: kanjiChars)
@@ -63,6 +81,14 @@ struct ChapterDetailView: View {
             if chapter == nil {
                 chapter = LessonsService.shared.loadChapter(summary.id)
             }
+        }
+        .onChange(of: query) { q in
+            guard searchAllLessons else { return }
+            globalResults = LessonSearchService.shared.search(q, cardStore: cardStore)
+        }
+        .onChange(of: searchAllLessons) { _ in
+            guard searchAllLessons, isSearching else { return }
+            globalResults = LessonSearchService.shared.search(query, cardStore: cardStore)
         }
     }
 
@@ -320,7 +346,12 @@ struct GrammarPointCard: View {
                     }
                     .contentShape(Rectangle())
                 }
-                .buttonStyle(.plain)
+                // Not `.plain`: that style dims while pressed, and this header
+                // sits inside a `.contextMenu`. A long press hands the gesture to
+                // the menu and the button never receives a touch-up, so the dim
+                // had nothing to clear it — the card stayed grey until you left
+                // the screen. Expanding is its own feedback; it needs no tint.
+                .buttonStyle(UndimmedButtonStyle())
 
                 Spacer(minLength: 8)
 
@@ -482,10 +513,26 @@ struct SectionLabel: View {
     }
 }
 
+/// A button style that leaves no pressed appearance.
+///
+/// For controls that live inside a `.contextMenu`: a long press is stolen by the
+/// menu without a matching touch-up, and any style that tints on press stays
+/// tinted afterwards.
+struct UndimmedButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View { configuration.label }
+}
+
 struct ExampleCard: View {
     let example: GrammarExample
 
     var body: some View {
+        // The speaker is pinned to a fixed width and the text column claims the
+        // rest. Both matter: `FuriganaText` measures its height for whatever
+        // width it is offered, and with a flexible speaker beside it the offered
+        // width was larger than the width it was finally drawn at — so it
+        // measured few lines, was laid out narrower, wrapped to more, and the
+        // last line was cut off. Pinning the speaker makes the text width
+        // deterministic, so the measured height is the drawn height.
         HStack(alignment: .top, spacing: 6) {
             VStack(alignment: .leading, spacing: 3) {
                 FuriganaText(text: example.japanese, fontSize: 15)
@@ -494,12 +541,16 @@ struct ExampleCard: View {
                     .font(.system(size: 12))
                     .foregroundColor(.appTextSecondary)
                     .italic()
+                    .fixedSize(horizontal: false, vertical: true)
                 Text(example.english)
                     .font(.system(size: 12, weight: .medium))
                     .foregroundColor(.appTextSecondary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+            .layoutPriority(1)
             // The sentence's own furigana drives the pronunciation.
             SpeakButton(text: example.japanese, size: 17)
+                .frame(width: 34)
         }
         .padding(10)
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -537,6 +588,28 @@ struct VocabWordRow: View {
     let accentColor: Color
     @ObservedObject private var vocabFilter = VocabFlashcardsFilter.shared
 
+    private func directionMark(_ direction: CardDirection, label: String) -> some View {
+        let on = vocabFilter.isExcluded(word.id, direction: direction)
+        return Button {
+            vocabFilter.toggleExcluded(word.id, direction: direction)
+        } label: {
+            VStack(spacing: 1) {
+                Image(systemName: on ? "checkmark.circle.fill" : "checkmark.circle")
+                    .font(.system(size: 18))
+                    .foregroundColor(on ? .vocabColor : Color.secondary.opacity(0.4))
+                Text(label)
+                    .font(.system(size: 8, weight: .semibold))
+                    .foregroundColor(on ? .vocabColor : Color.secondary.opacity(0.55))
+            }
+            .frame(width: 30)
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(direction.isReversed
+                            ? "Checked off for English to Japanese"
+                            : "Checked off for Japanese to English")
+    }
+
     var body: some View {
         HStack(spacing: 10) {
             NavigationLink {
@@ -546,14 +619,15 @@ struct VocabWordRow: View {
             }
             .buttonStyle(.plain)
 
-            Button {
-                vocabFilter.toggleExcluded(word.id)
-            } label: {
-                Image(systemName: vocabFilter.isExcluded(word.id) ? "checkmark.circle.fill" : "checkmark.circle")
-                    .font(.system(size: 20))
-                    .foregroundColor(vocabFilter.isExcluded(word.id) ? .vocabColor : Color.secondary.opacity(0.4))
+            // One mark per direction. Reading a word and producing it are two
+            // different pieces of knowledge, and the chapter only counts a word
+            // once both are ticked — so both have to be visible and separately
+            // tappable. Labelled あ→A / A→あ rather than with words: at this size
+            // nothing else fits, and the arrows say it without a language.
+            HStack(spacing: 6) {
+                directionMark(.japaneseToEnglish, label: "あ→A")
+                directionMark(.englishToJapanese, label: "A→あ")
             }
-            .buttonStyle(.plain)
         }
         .padding(.horizontal, 12)
         .padding(.vertical, 9)

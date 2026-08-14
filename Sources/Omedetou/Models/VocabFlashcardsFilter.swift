@@ -10,12 +10,33 @@ struct VocabFlashCard: Identifiable {
     let accentColor: Color
 }
 
+/// Which way round a card is asked.
+enum CardDirection: String, Codable, CaseIterable {
+    /// Shown the Japanese, recall the meaning. Recognition.
+    case japaneseToEnglish
+    /// Shown the meaning, recall the Japanese. Production — much harder, and
+    /// the direction that actually gets a word into your mouth.
+    case englishToJapanese
+    /// Either way, decided per card. Prefers whichever direction you haven't
+    /// checked off yet, so a half-known word is asked the half you're missing.
+    case random
+
+    var isReversed: Bool { self == .englishToJapanese }
+
+    /// The two real directions a card can be asked in. `.random` resolves to one
+    /// of these before anything is shown.
+    static let asked: [CardDirection] = [.japaneseToEnglish, .englishToJapanese]
+}
+
 /// What the filter sheet needs from a deck filter. Two conformers: the written
 /// flashcards' filter, and the vocal deck's — same sheet, independent selections.
 protocol VocabFiltering: AnyObject {
     var selectedChapterIds: Set<String> { get set }
     var selectedWordIds: Set<String> { get set }
     var showFavoritesOnly: Bool { get set }
+    /// Per-deck, deliberately: the written cards and the audio cards are
+    /// different exercises and there is no reason one should follow the other.
+    var direction: CardDirection { get set }
     var hasActiveFilter: Bool { get }
     func reset()
     func clearWeights()
@@ -37,11 +58,19 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     @Published var selectedChapterIds: Set<String> = [] { didSet { persistSelection() } }
     @Published var selectedWordIds: Set<String> = []
     @Published var showFavoritesOnly: Bool = false
+    @Published var direction: CardDirection = .japaneseToEnglish {
+        didSet { UserDefaults.standard.set(direction.rawValue, forKey: directionKey) }
+    }
     @Published private(set) var favoriteWordIds: Set<String> = []
 
-    /// Word ids the user has "checked off" — excluded from the flashcard lineup
-    /// (Study section and any chapter's Study Vocab).
+    /// Word ids checked off for Japanese → English.
+    ///
+    /// Keeps the original key: every checkmark earned before a card could be
+    /// asked both ways was earned reading Japanese, so that is what it means.
     @Published private(set) var excludedWordIds: Set<String> = []
+    /// Word ids checked off for English → Japanese — the harder direction, and a
+    /// separate piece of knowledge. A word is only finished when both are set.
+    @Published private(set) var excludedReverseWordIds: Set<String> = []
 
     /// Chapters auto-selected because their lesson was completed. Tracked so a
     /// chapter the user manually deselects is not re-added on the next sync.
@@ -56,9 +85,13 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     private let weightsKey = "VocabWordWeights"
     private let selectionKey = "VocabSelectionData"
     private let excludedKey = "VocabExcludedWordIds"
+    private let excludedReverseKey = "VocabExcludedReverseWordIds"
+    private let directionKey = "VocabCardDirection"
     private var didLoad = false
 
     init() {
+        if let raw = UserDefaults.standard.string(forKey: directionKey),
+           let d = CardDirection(rawValue: raw) { direction = d }
         loadFavorites()
         loadWeights()
         loadSelection()
@@ -82,19 +115,44 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
 
     // MARK: - Flashcard exclusion (green checkmark)
 
-    func isExcluded(_ wordId: String) -> Bool { excludedWordIds.contains(wordId) }
+    /// Checked off in a specific direction.
+    func isExcluded(_ wordId: String, direction: CardDirection) -> Bool {
+        direction.isReversed ? excludedReverseWordIds.contains(wordId)
+                             : excludedWordIds.contains(wordId)
+    }
 
-    func toggleExcluded(_ wordId: String) {
-        if excludedWordIds.contains(wordId) { excludedWordIds.remove(wordId) }
-        else { excludedWordIds.insert(wordId) }
+    /// Both directions — what "done with this word" means, and the only thing
+    /// that counts towards a chapter.
+    func isFullyExcluded(_ wordId: String) -> Bool {
+        excludedWordIds.contains(wordId) && excludedReverseWordIds.contains(wordId)
+    }
+
+    /// Either direction — used where a single mark still reads as "started".
+    func isExcluded(_ wordId: String) -> Bool {
+        excludedWordIds.contains(wordId) || excludedReverseWordIds.contains(wordId)
+    }
+
+    func toggleExcluded(_ wordId: String, direction: CardDirection) {
+        if direction.isReversed {
+            if excludedReverseWordIds.contains(wordId) { excludedReverseWordIds.remove(wordId) }
+            else { excludedReverseWordIds.insert(wordId) }
+        } else {
+            if excludedWordIds.contains(wordId) { excludedWordIds.remove(wordId) }
+            else { excludedWordIds.insert(wordId) }
+        }
         saveExcluded()
     }
 
     /// Clears checkmarks. Pass a set of ids (e.g. one chapter's words) to clear
     /// only those, or nil to clear every vocab checkmark.
     func clearExclusions(for wordIds: [String]? = nil) {
-        if let wordIds = wordIds { excludedWordIds.subtract(wordIds) }
-        else { excludedWordIds.removeAll() }
+        if let wordIds = wordIds {
+            excludedWordIds.subtract(wordIds)
+            excludedReverseWordIds.subtract(wordIds)
+        } else {
+            excludedWordIds.removeAll()
+            excludedReverseWordIds.removeAll()
+        }
         saveExcluded()
     }
 
@@ -128,17 +186,23 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     func markNeedsWork(_ wordId: String) -> Bool {
         needsWorkCounts[wordId, default: 0] += 1
         saveWeights()
-        guard excludedWordIds.contains(wordId) else { return false }
+        guard excludedWordIds.contains(wordId) || excludedReverseWordIds.contains(wordId)
+        else { return false }
         excludedWordIds.remove(wordId)
+        excludedReverseWordIds.remove(wordId)
         saveExcluded()
         return true
     }
 
     /// Clears checkmarks on several words at once — one save, not one per word.
-    func unexclude(_ wordIds: [String]) {
-        let removals = excludedWordIds.intersection(wordIds)
-        guard !removals.isEmpty else { return }
-        excludedWordIds.subtract(removals)
+    func unexclude(_ wordIds: [String], direction: CardDirection) {
+        if direction.isReversed {
+            guard !excludedReverseWordIds.intersection(wordIds).isEmpty else { return }
+            excludedReverseWordIds.subtract(wordIds)
+        } else {
+            guard !excludedWordIds.intersection(wordIds).isEmpty else { return }
+            excludedWordIds.subtract(wordIds)
+        }
         saveExcluded()
     }
     /// Undo one "Needs Work" tally (used by the flashcard back button). Floors at 0.
@@ -174,10 +238,9 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     }
 
     /// Checks off several words at once — one save rather than one per word.
-    func exclude(_ wordIds: [String]) {
-        let additions = Set(wordIds).subtracting(excludedWordIds)
-        guard !additions.isEmpty else { return }
-        excludedWordIds.formUnion(additions)
+    func exclude(_ wordIds: [String], direction: CardDirection) {
+        if direction.isReversed { excludedReverseWordIds.formUnion(wordIds) }
+        else { excludedWordIds.formUnion(wordIds) }
         saveExcluded()
     }
 
@@ -219,7 +282,21 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     func apply(to cards: [VocabFlashCard]) -> [VocabFlashCard] {
         let result = selection(in: cards)
         guard StudyWeightSettings.shared.filtersOutCheckedCards else { return result }
-        return result.filter { !excludedWordIds.contains($0.word.id) }
+        // Random keeps a card until *both* halves are done; a fixed direction
+        // only cares about its own.
+        return result.filter {
+            direction == .random ? !isFullyExcluded($0.word.id)
+                                 : !isExcluded($0.word.id, direction: direction)
+        }
+    }
+
+    /// Which way to ask this particular card.
+    func resolvedDirection(for wordId: String) -> CardDirection {
+        guard direction == .random else { return direction }
+        let forward = excludedWordIds.contains(wordId)
+        let back = excludedReverseWordIds.contains(wordId)
+        if forward != back { return forward ? .englishToJapanese : .japaneseToEnglish }
+        return Bool.random() ? .japaneseToEnglish : .englishToJapanese
     }
 
     func reset() {
@@ -245,10 +322,14 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
         if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: excludedKey) {
             excludedWordIds = ids
         }
+        if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: excludedReverseKey) {
+            excludedReverseWordIds = ids
+        }
     }
 
     private func saveExcluded() {
         UserDefaults.standard.encode(excludedWordIds, forKey: excludedKey)
+        UserDefaults.standard.encode(excludedReverseWordIds, forKey: excludedReverseKey)
     }
 
     private struct WeightData: Codable {
@@ -302,14 +383,20 @@ final class VocalDeckFilter: ObservableObject, VocabFiltering {
     @Published var selectedChapterIds: Set<String> = [] { didSet { persist() } }
     @Published var selectedWordIds: Set<String> = []
     @Published var showFavoritesOnly = false
+    @Published var direction: CardDirection = .japaneseToEnglish {
+        didSet { UserDefaults.standard.set(direction.rawValue, forKey: directionKey) }
+    }
 
     private let selectionKey = "VocalDeckSelectedChapters"
+    private let directionKey = "VocalDeckDirection"
     private var didLoad = false
 
     private init() {
         if let ids = UserDefaults.standard.decode(Set<String>.self, forKey: selectionKey) {
             selectedChapterIds = ids
         }
+        if let raw = UserDefaults.standard.string(forKey: directionKey),
+           let d = CardDirection(rawValue: raw) { direction = d }
         didLoad = true
     }
 
@@ -334,18 +421,27 @@ final class VocalDeckFilter: ObservableObject, VocabFiltering {
 
     func isFavorite(_ wordId: String) -> Bool { store.isFavorite(wordId) }
     func toggleFavorite(_ wordId: String) { store.toggleFavorite(wordId) }
-    func isExcluded(_ wordId: String) -> Bool { store.isExcluded(wordId) }
-    func toggleExcluded(_ wordId: String) { store.toggleExcluded(wordId) }
+    func isExcluded(_ wordId: String, direction: CardDirection) -> Bool {
+        store.isExcluded(wordId, direction: direction)
+    }
+    func isFullyExcluded(_ wordId: String) -> Bool { store.isFullyExcluded(wordId) }
+    func toggleExcluded(_ wordId: String, direction: CardDirection) {
+        store.toggleExcluded(wordId, direction: direction)
+    }
     func clearExclusions(for wordIds: [String]? = nil) { store.clearExclusions(for: wordIds) }
     @discardableResult
     func markNeedsWork(_ wordId: String) -> Bool { store.markNeedsWork(wordId) }
-    func unexclude(_ wordIds: [String]) { store.unexclude(wordIds) }
+    func unexclude(_ wordIds: [String], direction: CardDirection) {
+        store.unexclude(wordIds, direction: direction)
+    }
     func markConfident(_ wordId: String) { store.markConfident(wordId) }
     func clearWeights() { store.clearWeights() }
     func addWeights(_ tallies: [(wordId: String, confident: Int, needsWork: Int)]) {
         store.addWeights(tallies)
     }
-    func exclude(_ wordIds: [String]) { store.exclude(wordIds) }
+    func exclude(_ wordIds: [String], direction: CardDirection) {
+        store.exclude(wordIds, direction: direction)
+    }
 
     // MARK: Pool
 
@@ -364,7 +460,19 @@ final class VocalDeckFilter: ObservableObject, VocabFiltering {
             if !favs.isEmpty { result = favs }
         }
         guard StudyWeightSettings.shared.filtersOutCheckedCards else { return result }
-        return result.filter { !store.isExcluded($0.word.id) }
+        return result.filter {
+            direction == .random ? !store.isFullyExcluded($0.word.id)
+                                 : !store.isExcluded($0.word.id, direction: direction)
+        }
+    }
+
+    /// Which way to ask this particular card. See the written deck's copy.
+    func resolvedDirection(for wordId: String) -> CardDirection {
+        guard direction == .random else { return direction }
+        let forward = store.isExcluded(wordId, direction: .japaneseToEnglish)
+        let back = store.isExcluded(wordId, direction: .englishToJapanese)
+        if forward != back { return forward ? .englishToJapanese : .japaneseToEnglish }
+        return Bool.random() ? .japaneseToEnglish : .englishToJapanese
     }
 
     func selectNext(from cards: [VocabFlashCard],

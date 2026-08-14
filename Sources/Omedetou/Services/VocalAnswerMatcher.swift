@@ -87,6 +87,53 @@ enum VocalAnswerMatcher {
         }
     }
 
+    /// Judges a spoken *Japanese* answer against the word it should have been.
+    ///
+    /// A different problem from the English direction, and a more delicate one.
+    /// Recognition is trained on native speakers, so a learner's pronunciation
+    /// will sometimes miss through no fault of their own — which is exactly why
+    /// this errs generous. Both the written form and the kana are accepted, and
+    /// a containment match counts, because recognition returns 食べる for
+    /// "たべる" as often as not and pads answers with particles and stray sounds.
+    /// The session's "I was right" button is the backstop for the rest.
+    static func judgeJapanese(heard: String, word: String, kana: String) -> VocalVerdict {
+        if japanese(heard).isEmpty, normalise(heard).isEmpty { return .silent }
+        if isGivingUp(heard) { return .skipped }
+
+        let said = japanese(heard)
+        let targets = [word, kana].map(japanese).filter { $0.count >= 1 }
+        if !said.isEmpty {
+            for target in targets where said == target || said.contains(target) {
+                return .correct
+            }
+        }
+
+        // Commands come last for the same reason as in the English direction:
+        // the answer is checked before anything is read as an instruction.
+        let plain = normalise(heard)
+        if endPhrases.contains(plain) { return .stopped }
+        if moveOnPhrases.contains(plain) { return .skipped }
+        return .incorrect
+    }
+
+    /// Kana and kanji only, with katakana folded to hiragana — so ライス and
+    /// らいす compare equal, and spacing or punctuation the recogniser invents
+    /// can't decide an answer.
+    private static func japanese(_ text: String) -> String {
+        String(text.unicodeScalars.compactMap { scalar -> Character? in
+            let v = scalar.value
+            if (0x30A1...0x30F6).contains(v) {                 // katakana → hiragana
+                return Character(UnicodeScalar(v - 0x60)!)
+            }
+            if (0x3041...0x3096).contains(v)                    // hiragana
+                || (0x4E00...0x9FFF).contains(v)                // kanji
+                || v == 0x30FC {                                // ー
+                return Character(scalar)
+            }
+            return nil
+        })
+    }
+
     // MARK: - Gloss matching
 
     /// True when everything the gloss genuinely rests on was said.
