@@ -15,7 +15,8 @@ struct ChapterSummary: Codable, Identifiable {
     let chapterNumber: Int
     let title: String
     let pointCount: Int
-    let chapterType: String?  // "kana" for hiragana/katakana character chapters
+    /// Raw value from the JSON. Read it through `isKanaChapter` — see `LessonKind`.
+    let chapterType: String?
 }
 
 struct LessonChapter: Codable, Identifiable {
@@ -60,7 +61,8 @@ struct LessonVocabWord: Codable, Identifiable {
 
 struct GrammarPoint: Codable, Identifiable {
     let id: String
-    let pointType: String?  // "kana" for hiragana/katakana character cards
+    /// Raw value from the JSON. Read it through `isKanaCharacter` — see `LessonKind`.
+    let pointType: String?
     let name: String
     let shortDescription: String
     let formation: String
@@ -86,4 +88,38 @@ struct GrammarExample: Codable {
     let japanese: String
     let romaji: String
     let english: String
+}
+
+// MARK: - What a lesson or point actually is
+
+/// Whether a chapter or point teaches a single kana character or a grammar
+/// pattern. The two render, search, review and get counted differently.
+///
+/// The JSON stores this as a bare string, and comparing against `"kana"` was
+/// spread across seven files — one typo away from a card silently rendering as
+/// the wrong kind, with nothing to catch it. Decoding stays string-based so the
+/// bundled lessons are untouched; every reader goes through the accessors below.
+enum LessonKind: String {
+    /// A single character — あ, シ — taught as a character, not a pattern.
+    case kana
+    /// An ordinary grammar point or chapter.
+    case grammar
+
+    /// Anything unrecognised is ordinary grammar: a new kind in the data should
+    /// render as a normal point rather than vanish.
+    init(raw: String?) {
+        self = LessonKind(rawValue: raw ?? "") ?? .grammar
+    }
+}
+
+extension GrammarPoint {
+    var kind: LessonKind { LessonKind(raw: pointType) }
+    /// True for the single-character kana cards.
+    var isKanaCharacter: Bool { kind == .kana }
+}
+
+extension ChapterSummary {
+    var kind: LessonKind { LessonKind(raw: chapterType) }
+    /// True for the hiragana and katakana chapters.
+    var isKanaChapter: Bool { kind == .kana }
 }

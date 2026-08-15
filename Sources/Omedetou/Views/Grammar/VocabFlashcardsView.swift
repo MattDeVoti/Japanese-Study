@@ -31,6 +31,9 @@ struct VocabFlashcardsView: View {
     @State private var showConfidentPop = false
     /// Undo history for the back button — each answered card + what to reverse.
     @State private var history: [VocabStudyHistoryEntry] = []
+    /// The direction the card on screen is being asked in — resolved when it's
+    /// dealt, so a Random run can't flip it under the learner mid-card.
+    @State private var cardDirection: CardDirection = .japaneseToEnglish
     @Namespace private var wordNS
 
     /// The chapter's word ids (locked mode only) — used to scope "clear checkmarks".
@@ -39,7 +42,10 @@ struct VocabFlashcardsView: View {
     private var pool: [VocabFlashCard] {
         if lockedChapter == nil { return filter.apply(to: allCards) }
         guard StudyWeightSettings.shared.filtersOutCheckedCards else { return allCards }
-        return allCards.filter { !filter.isExcluded($0.word.id) }
+        return allCards.filter {
+            filter.direction == .random ? !filter.isFullyExcluded($0.word.id)
+                                        : !filter.isExcluded($0.word.id, direction: filter.direction)
+        }
     }
 
     /// How much of this set has been checked off, for the counter on the card.
@@ -71,6 +77,7 @@ struct VocabFlashcardsView: View {
         .onChange(of: filter.selectedWordIds) { _ in if lockedChapter == nil { pickNext() } }
         .onChange(of: filter.showFavoritesOnly) { _ in if lockedChapter == nil { pickNext() } }
         .onChange(of: weightSettings.mode) { _ in pickNext() }
+        .onChange(of: filter.direction) { _ in pickNext() }
         .sheet(isPresented: $showFilter) {
             VocabFilterSheet(filter: filter, allCards: allCards)
         }
@@ -81,7 +88,10 @@ struct VocabFlashcardsView: View {
     private func cardView(_ card: VocabFlashCard) -> some View {
         let isFav = filter.isFavorite(card.word.id)
 
-        // Word block, shared by both faces so it slides between them.
+        let reversed = cardDirection.isReversed
+
+        // The prompt: shared by both faces so it slides between them. Going the
+        // other way it's the meaning that leads and the Japanese that's hidden.
         let wordBlock = VStack(spacing: 10) {
             Text(card.word.partOfSpeech)
                 .font(.system(size: 12, weight: .semibold))
@@ -91,15 +101,25 @@ struct VocabFlashcardsView: View {
                 .background(card.accentColor.opacity(0.12))
                 .cornerRadius(6)
 
-            Text(card.word.kanji)
-                .font(.system(size: 48, weight: .bold))
-                .foregroundColor(.appText)
-                .multilineTextAlignment(.center)
+            if reversed {
+                // Set smaller than the Japanese: a definition is a phrase, and
+                // 48pt turns "to be in time for" into three lines.
+                Text(card.word.definition)
+                    .font(.system(size: 28, weight: .bold))
+                    .foregroundColor(.appText)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+            } else {
+                Text(card.word.kanji)
+                    .font(.system(size: 48, weight: .bold))
+                    .foregroundColor(.appText)
+                    .multilineTextAlignment(.center)
 
-            if card.word.kanji != card.word.kana {
-                Text(card.word.kana)
-                    .font(.system(size: 20))
-                    .foregroundColor(.secondary)
+                if card.word.kanji != card.word.kana {
+                    Text(card.word.kana)
+                        .font(.system(size: 20))
+                        .foregroundColor(.secondary)
+                }
             }
         }
         .padding(.horizontal, 24)
@@ -121,7 +141,11 @@ struct VocabFlashcardsView: View {
                     .buttonStyle(.plain)
                     Spacer()
                     // Speak the kana, which is the word's authoritative reading.
-                    SpeakButton(text: card.word.kana, size: 24, tint: card.accentColor)
+                    // Hidden before the reveal when the Japanese *is* the answer —
+                    // otherwise the card reads itself out.
+                    if !reversed || isRevealed {
+                        SpeakButton(text: card.word.kana, size: 24, tint: card.accentColor)
+                    }
                 }
                 .deckProgress(checkedProgress)
                 .padding(.horizontal, 20)
@@ -133,16 +157,31 @@ struct VocabFlashcardsView: View {
                             wordBlock
                                 .padding(.top, 8)
 
-                            // Answer box
+                            // Answer box — whichever half wasn't the prompt.
                             VStack(alignment: .leading, spacing: 6) {
-                                Text(card.word.romaji)
-                                    .font(.system(size: 14))
-                                    .foregroundColor(card.accentColor)
-                                    .italic()
-                                Text(card.word.definition)
-                                    .font(.system(size: 17, weight: .medium))
-                                    .foregroundColor(.appText)
-                                    .fixedSize(horizontal: false, vertical: true)
+                                if reversed {
+                                    Text(card.word.kanji)
+                                        .font(.system(size: 30, weight: .bold))
+                                        .foregroundColor(.appText)
+                                    if card.word.kanji != card.word.kana {
+                                        Text(card.word.kana)
+                                            .font(.system(size: 17))
+                                            .foregroundColor(.appText)
+                                    }
+                                    Text(card.word.romaji)
+                                        .font(.system(size: 14))
+                                        .foregroundColor(card.accentColor)
+                                        .italic()
+                                } else {
+                                    Text(card.word.romaji)
+                                        .font(.system(size: 14))
+                                        .foregroundColor(card.accentColor)
+                                        .italic()
+                                    Text(card.word.definition)
+                                        .font(.system(size: 17, weight: .medium))
+                                        .foregroundColor(.appText)
+                                        .fixedSize(horizontal: false, vertical: true)
+                                }
                             }
                             .padding(14)
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -189,11 +228,11 @@ struct VocabFlashcardsView: View {
             // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
                 Button {
-                    let didUncheck = filter.markNeedsWork(card.word.id)
+                    let didUncheck = filter.markNeedsWork(card.word.id, direction: cardDirection)
                     // Studying a card is a review: this both enrols it in the
                     // schedule and books its next showing.
                     SRSStore.shared.grade(.vocab(card.word.id), .again)
-                    history.append(VocabStudyHistoryEntry(card: card,
+                    history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                                          action: .needsWork(didUncheck: didUncheck)))
                     pickNext()
                 } label: {
@@ -246,7 +285,10 @@ struct VocabFlashcardsView: View {
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
-        .vocabNavBar(title: card.word.kanji, filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
+        // The title would otherwise print the answer above a card that is asking
+        // for it. Only safe to show once the card is turned over.
+        .vocabNavBar(title: (reversed && !isRevealed) ? "Vocab Flash Cards" : card.word.kanji,
+                     filter: filter, showFilter: $showFilter, locked: lockedChapter, chapterWordIds: chapterWordIds, onAfterClear: { pickNext() })
     }
 
     // MARK: - Empty
@@ -322,6 +364,9 @@ struct VocabFlashcardsView: View {
         guard !p.isEmpty else { current = nil; return }
         isRevealed = false
         current = filter.selectNext(from: p, using: sequencer)
+        if let picked = current {
+            cardDirection = filter.resolvedDirection(for: picked.word.id)
+        }
     }
 
     /// "Confident" activates the word's checkmark (excludes it from the lineup),
@@ -330,9 +375,10 @@ struct VocabFlashcardsView: View {
         guard !showConfidentPop else { return }
         filter.markConfident(card.word.id)
         SRSStore.shared.grade(.vocab(card.word.id), .good)
-        let wasChecked = filter.isExcluded(card.word.id)
-        if !wasChecked { filter.toggleExcluded(card.word.id) }
-        history.append(VocabStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
+        let wasChecked = filter.isExcluded(card.word.id, direction: cardDirection)
+        if !wasChecked { filter.toggleExcluded(card.word.id, direction: cardDirection) }
+        history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
+                                             action: .confident(didCheck: !wasChecked)))
         withAnimation(.spring(response: 0.3, dampingFraction: 0.55)) { showConfidentPop = true }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
             withAnimation(.easeOut(duration: 0.2)) { showConfidentPop = false }
@@ -346,13 +392,14 @@ struct VocabFlashcardsView: View {
         switch last.action {
         case .needsWork(let didUncheck):
             filter.unmarkNeedsWork(last.card.word.id)
-            if didUncheck { filter.toggleExcluded(last.card.word.id) }
+            if didUncheck { filter.toggleExcluded(last.card.word.id, direction: last.direction) }
         case .confident(let didCheck):
             filter.unmarkConfident(last.card.word.id)
-            if didCheck { filter.toggleExcluded(last.card.word.id) }
+            if didCheck { filter.toggleExcluded(last.card.word.id, direction: last.direction) }
         }
         isRevealed = false
         current = last.card
+        cardDirection = last.direction
         // So the next draw doesn't hand back the card we just returned to.
         sequencer.note(last.card.word.id)
     }
@@ -367,6 +414,7 @@ private enum VocabStudyAction {
 
 private struct VocabStudyHistoryEntry {
     let card: VocabFlashCard
+    let direction: CardDirection
     let action: VocabStudyAction
 }
 
@@ -419,6 +467,33 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
 
                         Divider()
                     }
+
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Card Direction")
+                            .font(.headline)
+                            .foregroundColor(.appText)
+                        Picker("", selection: $filter.direction) {
+                            Text("日本語 → English").tag(CardDirection.japaneseToEnglish)
+                            Text("English → 日本語").tag(CardDirection.englishToJapanese)
+                            Text("Random").tag(CardDirection.random)
+                        }
+                        .pickerStyle(.segmented)
+                        Text({
+                            switch filter.direction {
+                            case .japaneseToEnglish:
+                                return "You're shown the Japanese and recall the meaning."
+                            case .englishToJapanese:
+                                return "You're shown the meaning and recall the Japanese."
+                            case .random:
+                                return "Mixed per card, favouring the half you haven't checked off."
+                            }
+                        }())
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+
+                    Divider()
 
                     // Favorites
                     Toggle(isOn: $filter.showFavoritesOnly) {
@@ -710,6 +785,16 @@ private struct VocabNavBar: ViewModifier {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     if locked != nil {
                         Menu {
+                            // Chapter study is the written deck scoped to one
+                            // chapter, so it shares that deck's direction — the
+                            // filter sheet just isn't reachable from here, which
+                            // left the setting applied but unchangeable.
+                            Picker("Direction", selection: $filter.direction) {
+                                Text("日本語 → English").tag(CardDirection.japaneseToEnglish)
+                                Text("English → 日本語").tag(CardDirection.englishToJapanese)
+                                Text("Random").tag(CardDirection.random)
+                            }
+                            Divider()
                             Picker("Priority", selection: $weightSettings.mode) {
                                 Text("No Priority").tag(WeightMode.none)
                                 Text("Prioritize Needs Work").tag(WeightMode.needsWork)

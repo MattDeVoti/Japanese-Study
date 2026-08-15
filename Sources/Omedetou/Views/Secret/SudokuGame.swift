@@ -387,14 +387,24 @@ struct SudokuGame: View {
     }
 
     private func noteGrid(_ mask: Int, size: CGFloat) -> some View {
-        VStack(spacing: 0) {
+        // The digit sitting in the selected cell, if it holds one. Selecting a 五
+        // thickens every pencilled 五 on the board, which is how you actually
+        // scan for where a digit can still go.
+        let focus = model.selected.map { model.value($0) } ?? 0
+        return VStack(spacing: 0) {
             ForEach(0..<3, id: \.self) { r in
                 HStack(spacing: 0) {
                     ForEach(0..<3, id: \.self) { c in
                         let d = r * 3 + c + 1
+                        let lit = (d == focus)
                         Text(mask & (1 << (d - 1)) != 0 ? sudokuKanji[d] : " ")
-                            .font(.system(size: size * 0.24, weight: .medium))
-                            .foregroundColor(SudokuTheme.note)
+                            .font(.system(size: size * 0.24,
+                                          weight: lit ? .black : .medium))
+                            // `ink` rather than a true black: it's the same
+                            // near-black the given numbers are printed in, so a
+                            // lit note reads as firmly on the page instead of
+                            // fighting the aged-paper background.
+                            .foregroundColor(lit ? SudokuTheme.ink : SudokuTheme.note)
                             .frame(maxWidth: .infinity, maxHeight: .infinity)
                     }
                 }

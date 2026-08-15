@@ -922,7 +922,10 @@ struct ChapterProgress {
 
         let words = chapter.vocab ?? []
         p.vocabTotal = words.count
-        p.vocabDone = words.filter { VocabFlashcardsFilter.shared.isExcluded($0.id) }.count
+        // Both halves, deliberately: a word you can read but not produce is not
+        // finished, and counting it would let a chapter read 100% on half the
+        // knowledge.
+        p.vocabDone = words.filter { VocabFlashcardsFilter.shared.isFullyExcluded($0.id) }.count
 
         let kanjiCards = chapter.kanjiChars.compactMap { cardStore.kanjiCard(for: $0) }
         p.kanjiTotal = kanjiCards.count

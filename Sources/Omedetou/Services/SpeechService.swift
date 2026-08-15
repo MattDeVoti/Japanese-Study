@@ -26,6 +26,7 @@ final class SpeechService: NSObject, ObservableObject {
     private enum Keys {
         static let enabled = "SpeechEnabled"
         static let rate = "SpeechRate"
+        static let voice = "SpeechVoiceIdentifier"
     }
 
     private let synth = AVSpeechSynthesizer()
@@ -52,9 +53,54 @@ final class SpeechService: NSObject, ObservableObject {
     /// utterance early. Switching modes mid-card did exactly that. Anything not
     /// in this set is a ghost from a cancelled request and is ignored.
     private var live: Set<ObjectIdentifier> = []
+    /// Fires when a request makes no sound at all. See `armStartGuard`.
+    private var startGuard: DispatchWorkItem?
+    /// Speech should begin well inside this; anything longer means it never will.
+    private static let mustStartWithin: TimeInterval = 3.5
 
-    /// The best available Japanese voice, or nil if the device has none.
-    private(set) lazy var voice: AVSpeechSynthesisVoice? = Self.bestJapaneseVoice()
+    /// Every Japanese voice installed on this device, best quality first.
+    ///
+    /// Enumerated once: `speechVoices()` walks the installed set, and `voice` is
+    /// read for every utterance.
+    private(set) lazy var japaneseVoices: [AVSpeechSynthesisVoice] = {
+        AVSpeechSynthesisVoice.speechVoices()
+            .filter { $0.language.hasPrefix("ja") }
+            .sorted { a, b in
+                a.quality.rawValue != b.quality.rawValue
+                    ? a.quality.rawValue > b.quality.rawValue
+                    : a.name < b.name
+            }
+    }()
+
+    /// The chosen voice, or nil to follow whatever the best installed one is.
+    ///
+    /// Stored as an identifier rather than an object so the choice survives a
+    /// relaunch — and so a voice the user later deletes simply falls back to the
+    /// best remaining one instead of leaving the app mute.
+    @Published var voiceIdentifier: String? {
+        didSet {
+            stop()
+            UserDefaults.standard.set(voiceIdentifier, forKey: Keys.voice)
+        }
+    }
+
+    /// The voice actually used. Computed, so picking a new one in Options takes
+    /// effect on the very next utterance with nothing to invalidate.
+    var voice: AVSpeechSynthesisVoice? {
+        if let id = voiceIdentifier,
+           let chosen = japaneseVoices.first(where: { $0.identifier == id }) { return chosen }
+        return japaneseVoices.first
+    }
+
+    /// A voice's name with its quality, where the system offers more than the
+    /// compact default — that difference is the whole reason to choose.
+    func label(for v: AVSpeechSynthesisVoice) -> String {
+        switch v.quality {
+        case .premium:  return "\(v.name) · Premium"
+        case .enhanced: return "\(v.name) · Enhanced"
+        default:        return v.name
+        }
+    }
 
     /// An English voice, for reading a definition back. Separate from `voice`
     /// because the Japanese synthesiser reads English as if it were romaji.
@@ -70,6 +116,7 @@ final class SpeechService: NSObject, ObservableObject {
         let d = UserDefaults.standard
         isEnabled = d.object(forKey: Keys.enabled) as? Bool ?? true
         rate = d.object(forKey: Keys.rate) as? Double ?? 0.42
+        voiceIdentifier = d.string(forKey: Keys.voice)
         super.init()
         synth.delegate = self
 
@@ -89,25 +136,15 @@ final class SpeechService: NSObject, ObservableObject {
         sessionReady = false
     }
 
-    @objc private func audioInterrupted(_ note: Notification) {
-        guard let raw = note.userInfo?[AVAudioSessionInterruptionTypeKey] as? UInt,
-              let type = AVAudioSession.InterruptionType(rawValue: raw) else { return }
-        // An interruption silences the synthesiser without telling its delegate,
-        // so whatever was waiting on a completion is already stranded. The
-        // session's own watchdog recovers it; all this has to do is make sure the
-        // next utterance reconfigures rather than talking into a dead session.
-        if type == .ended { sessionReady = false }
-    }
 
-    /// Prefers the highest-quality Japanese voice the user has installed —
-    /// Siri/premium voices sound markedly better than the compact default.
-    private static func bestJapaneseVoice() -> AVSpeechSynthesisVoice? {
-        let japanese = AVSpeechSynthesisVoice.speechVoices().filter {
-            $0.language.hasPrefix("ja")
-        }
-        return japanese.max { a, b in
-            a.quality.rawValue < b.quality.rawValue
-        }
+    /// Either edge of an interruption invalidates the session.
+    ///
+    /// Both, deliberately: `.began` means the synthesiser has been silenced
+    /// without telling its delegate, and `.ended` means the session we had is no
+    /// longer the one the system is offering. Marking it unready on either edge
+    /// costs one reconfiguration and removes a whole class of silent failure.
+    @objc private func audioInterrupted(_ note: Notification) {
+        sessionReady = false
     }
 
     // MARK: - Speaking
@@ -117,7 +154,8 @@ final class SpeechService: NSObject, ObservableObject {
     /// `completion` runs when the last utterance finishes, and also on every path
     /// that declines to speak — a caller waiting on audio to advance must never
     /// be stranded by a muted device or an empty string.
-    func speak(_ text: String, id: String? = nil, completion: (() -> Void)? = nil) {
+    func speak(_ text: String, id: String? = nil, attempt: Int = 1,
+               completion: (() -> Void)? = nil) {
         guard isEnabled, voice != nil else { completion?(); return }
         let key = id ?? text
         if speakingID == key {
@@ -147,6 +185,12 @@ final class SpeechService: NSObject, ObservableObject {
             let u = utterance(for: sentence, isLast: i == sentences.count - 1)
             live.insert(ObjectIdentifier(u))
             synth.speak(u)
+        }
+        armStartGuard(attempt: attempt) { [weak self] in
+            // Clear the id first: `speak` reads a repeat of the same id as a
+            // request to stop, which would turn the retry into a cancel.
+            self?.speakingID = nil
+            self?.speak(text, id: id, attempt: attempt + 1, completion: completion)
         }
     }
 
@@ -197,47 +241,68 @@ final class SpeechService: NSObject, ObservableObject {
     /// seconds into the first word. Holding the pause inside the synthesiser
     /// keeps audio "playing" throughout, which is what lets the session run on
     /// with the phone in a pocket.
-    func speakCard(japanese: String, gap: TimeInterval,
-                   english: String, trailing: TimeInterval,
+    func speakCard(prompt: String, promptIsJapanese: Bool, gap: TimeInterval,
+                   answer: String, answerIsJapanese: Bool, trailing: TimeInterval,
+                   attempt: Int = 1,
                    onGapStart: (() -> Void)? = nil,
-                   onEnglishStart: (() -> Void)? = nil,
+                   onAnswerStart: (() -> Void)? = nil,
                    completion: (() -> Void)? = nil) {
-        let meaning = english.trimmingCharacters(in: .whitespacesAndNewlines)
         guard isEnabled, voice != nil else { completion?(); return }
+        let answerText = answer.trimmingCharacters(in: .whitespacesAndNewlines)
         stop()
         prepareSession()
         onFinish = completion
         self.onGapStart = onGapStart
-        self.onEnglishStart = onEnglishStart
+        self.onEnglishStart = onAnswerStart
 
-        let spoken = FuriganaAnnotator.spokenText(japanese)
-        let ja = AVSpeechUtterance(string: spoken)
-        ja.voice = voice
-        let lo = AVSpeechUtteranceMinimumSpeechRate
-        let hi = AVSpeechUtteranceDefaultSpeechRate
-        ja.rate = lo + Float(rate) * (hi - lo)
-        ja.postUtteranceDelay = gap
-        ja.prefersAssistiveTechnologySettings = false
-
+        let first = cardUtterance(prompt, japanese: promptIsJapanese, delay: gap)
         speakingID = "card"
-        pending = meaning.isEmpty ? 1 : 2
-        japaneseUtterance = ja
-        live = [ObjectIdentifier(ja)]
-        synth.speak(ja)
+        pending = answerText.isEmpty ? 1 : 2
+        japaneseUtterance = first          // "the prompt half", whichever language
+        live = [ObjectIdentifier(first)]
+        synth.speak(first)
 
-        guard !meaning.isEmpty else { return }
-        let en = AVSpeechUtterance(string: meaning)
-        en.voice = englishVoice
-        en.rate = AVSpeechUtteranceDefaultSpeechRate * 0.94
-        en.postUtteranceDelay = trailing
-        en.prefersAssistiveTechnologySettings = false
-        englishUtterance = en
-        live.insert(ObjectIdentifier(en))
-        synth.speak(en)
+        let guardReplay: () -> Void = { [weak self] in
+            self?.speakCard(prompt: prompt, promptIsJapanese: promptIsJapanese, gap: gap,
+                            answer: answer, answerIsJapanese: answerIsJapanese,
+                            trailing: trailing, attempt: attempt + 1,
+                            onGapStart: onGapStart, onAnswerStart: onAnswerStart,
+                            completion: completion)
+        }
+
+        guard !answerText.isEmpty else {
+            armStartGuard(attempt: attempt, replay: guardReplay)
+            return
+        }
+        let second = cardUtterance(answerText, japanese: answerIsJapanese, delay: trailing)
+        englishUtterance = second          // "the answer half"
+        live.insert(ObjectIdentifier(second))
+        synth.speak(second)
+        armStartGuard(attempt: attempt, replay: guardReplay)
+    }
+
+    /// One half of a card, in whichever language it belongs to.
+    private func cardUtterance(_ text: String, japanese: Bool,
+                               delay: TimeInterval) -> AVSpeechUtterance {
+        let body = japanese ? FuriganaAnnotator.spokenText(text) : text
+        let u = AVSpeechUtterance(string: body)
+        if japanese {
+            u.voice = voice
+            let lo = AVSpeechUtteranceMinimumSpeechRate
+            let hi = AVSpeechUtteranceDefaultSpeechRate
+            u.rate = lo + Float(rate) * (hi - lo)
+        } else {
+            u.voice = englishVoice
+            u.rate = AVSpeechUtteranceDefaultSpeechRate * 0.94
+        }
+        u.postUtteranceDelay = delay
+        u.prefersAssistiveTechnologySettings = false
+        return u
     }
 
     /// Reads English aloud, for saying a definition back after a missed answer.
-    func speakEnglish(_ text: String, id: String? = nil, completion: (() -> Void)? = nil) {
+    func speakEnglish(_ text: String, id: String? = nil, attempt: Int = 1,
+                      completion: (() -> Void)? = nil) {
         let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard isEnabled, let englishVoice, !trimmed.isEmpty else { completion?(); return }
         stop()
@@ -253,9 +318,14 @@ final class SpeechService: NSObject, ObservableObject {
         u.rate = AVSpeechUtteranceDefaultSpeechRate * 0.94
         u.prefersAssistiveTechnologySettings = false
         synth.speak(u)
+        armStartGuard(attempt: attempt) { [weak self] in
+            self?.speakingID = nil
+            self?.speakEnglish(text, id: id, attempt: attempt + 1, completion: completion)
+        }
     }
 
     func stop() {
+        cancelStartGuard()
         pending = 0
         onFinish = nil
         japaneseUtterance = nil
@@ -301,18 +371,83 @@ final class SpeechService: NSObject, ObservableObject {
     /// A language app is expected to make sound even with the ringer switched
     /// off, so this uses .playback rather than .ambient — but ducks rather than
     /// interrupting whatever else is playing.
-    private func prepareSession() {
-        guard !sessionReady else { return }
-        sessionReady = true
+    @discardableResult
+    private func prepareSession() -> Bool {
+        if sessionReady { return true }
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
-        try? session.setActive(true, options: [])
+        do {
+            try session.setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
+            try session.setActive(true, options: [])
+            sessionReady = true
+            return true
+        } catch {
+            // Deliberately left un-latched. Activation fails routinely while a
+            // car's Bluetooth link is still negotiating, and the old code marked
+            // the session ready *before* trying — so one failed activation while
+            // pulling out of a driveway left every later utterance speaking into
+            // a dead session, silently, for the rest of the launch.
+            sessionReady = false
+            return false
+        }
+    }
+
+    /// Tear the session down and build it again from nothing.
+    private func rebuildSession() {
+        sessionReady = false
+        synth.stopSpeaking(at: .immediate)
+        live = []
+        try? AVAudioSession.sharedInstance()
+            .setActive(false, options: .notifyOthersOnDeactivation)
+        prepareSession()
+    }
+
+    // MARK: - Never-started guard
+
+    /// Watches for the case where a request produces no sound at all.
+    ///
+    /// `didStart` is the only proof that audio is really coming out. When it
+    /// doesn't arrive, nothing else ever will either — no `didFinish`, no
+    /// completion — and a session driven by those callbacks simply stops. So
+    /// each request is guarded: rebuild the session and try once more, and if
+    /// that is also silent, release the caller rather than leave it waiting.
+    private func armStartGuard(attempt: Int, replay: @escaping () -> Void) {
+        startGuard?.cancel()
+        let work = DispatchWorkItem { [weak self] in
+            guard let self else { return }
+            guard attempt < 2 else { self.finishStranded(); return }
+            self.rebuildSession()
+            replay()
+        }
+        startGuard = work
+        DispatchQueue.main.asyncAfter(deadline: .now() + Self.mustStartWithin, execute: work)
+    }
+
+    private func cancelStartGuard() {
+        startGuard?.cancel()
+        startGuard = nil
+    }
+
+    /// No audio is coming. Release whoever is waiting so their session can move
+    /// on instead of sitting on a silent card.
+    private func finishStranded() {
+        cancelStartGuard()
+        let block = onFinish
+        onFinish = nil
+        onGapStart = nil
+        onEnglishStart = nil
+        pending = 0
+        speakingID = nil
+        live = []
+        block?()
     }
 }
 
 extension SpeechService: AVSpeechSynthesizerDelegate {
     func speechSynthesizer(_ s: AVSpeechSynthesizer, didStart u: AVSpeechUtterance) {
-        guard live.contains(ObjectIdentifier(u)), u === englishUtterance else { return }
+        guard live.contains(ObjectIdentifier(u)) else { return }
+        // Sound is actually coming out, so the session is healthy.
+        cancelStartGuard()
+        guard u === englishUtterance else { return }
         let block = onEnglishStart
         onEnglishStart = nil
         block?()
@@ -354,6 +489,9 @@ struct SpeakButton: View {
     let text: String
     var size: CGFloat = 22
     var tint: Color? = nil
+    /// Which voice reads it. Japanese unless told otherwise — the one caller
+    /// that passes false is the audio deck replaying an English prompt.
+    var isJapanese: Bool = true
 
     @ObservedObject private var speech = SpeechService.shared
 
@@ -363,7 +501,8 @@ struct SpeakButton: View {
     var body: some View {
         if speech.isAvailable && speech.isEnabled {
             Button {
-                speech.speak(text, id: key)
+                if isJapanese { speech.speak(text, id: key) }
+                else { speech.speakEnglish(text, id: key) }
             } label: {
                 Image(systemName: isSpeaking ? "speaker.wave.2.fill" : "speaker.wave.2")
                     .font(.system(size: size, weight: .medium))

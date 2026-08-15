@@ -18,8 +18,7 @@ final class LessonsService {
     /// Every chapter kanji entry in the course — the distractor pool for kanji
     /// questions, so wrong answers are also things the learner has been taught.
     func allKanjiEntries() -> [ChapterKanji] {
-        _ = kanjiEntry("")          // warms the index
-        return Array(kanjiIndex?.values ?? [:].values)
+        Array(kanjiIndexBuildingIfNeeded().values)
     }
 
     /// How a chapter teaches this character, wherever it was assigned.
@@ -27,19 +26,27 @@ final class LessonsService {
     /// Every kanji belongs to exactly one chapter, so this is unambiguous. Used
     /// by reviews and tests, which know a character but not where it came from.
     func kanjiEntry(_ char: String) -> ChapterKanji? {
-        if kanjiIndex == nil {
-            loadIfNeeded()
-            var index: [String: ChapterKanji] = [:]
-            for level in manifest?.levels ?? [] {
-                for summary in level.chapters {
-                    for entry in loadChapter(summary.id)?.kanji ?? [] {
-                        index[entry.char] = entry
-                    }
+        kanjiIndexBuildingIfNeeded()[char]
+    }
+
+    /// Character → how its chapter teaches it, built once on first use.
+    ///
+    /// Building it means decoding every chapter, so it is deliberately lazy
+    /// rather than done at launch — most sessions never ask.
+    @discardableResult
+    private func kanjiIndexBuildingIfNeeded() -> [String: ChapterKanji] {
+        if let kanjiIndex { return kanjiIndex }
+        loadIfNeeded()
+        var index: [String: ChapterKanji] = [:]
+        for level in manifest?.levels ?? [] {
+            for summary in level.chapters {
+                for entry in loadChapter(summary.id)?.kanji ?? [] {
+                    index[entry.char] = entry
                 }
             }
-            kanjiIndex = index
         }
-        return kanjiIndex?[char]
+        kanjiIndex = index
+        return index
     }
 
     /// Chapters are static bundled data, so each is decoded at most once.
@@ -95,7 +102,7 @@ final class LessonsService {
     /// chapter however many rows ask for it.
     func characterCount(for chapterId: String) -> Int {
         guard let chapter = loadChapter(chapterId) else { return pointCount(for: chapterId) }
-        let characters = chapter.points.filter { $0.pointType == "kana" }.count
+        let characters = chapter.points.filter(\.isKanaCharacter).count
         return characters > 0 ? characters : chapter.points.count
     }
 

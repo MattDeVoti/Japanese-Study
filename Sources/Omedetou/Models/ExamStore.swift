@@ -136,10 +136,36 @@ final class ExamStore: ObservableObject {
         attempts(for: lessonId).map(\.grade).max()
     }
 
-    /// What the report card counts. A test whose deadline passed without being sat
-    /// stands at zero until it's actually taken.
+    /// The grade a cleared test-out confers on the parts it stood in for.
+    ///
+    /// Sitting the Hiragana or Katakana test-out demonstrates the whole syllabary
+    /// in one paper, so each part inherits that result rather than sitting blank.
+    /// It also stops a part scoring an overdue zero for a paper the learner has
+    /// already proved they don't need to sit — which is the sharper problem,
+    /// since that zero would drag the average down after a demonstration of
+    /// mastery.
+    ///
+    /// Read from `bestGrade` rather than `clears`, which routes back through
+    /// `effectiveGrade`; a test-out never inherits from anything, so there is no
+    /// cycle either way, but taking the short path makes that obvious.
+    private func inheritedGrade(for lesson: ExamLesson) -> Grade? {
+        guard !lesson.isTestOut,
+              let out = testOut(for: lesson.levelId),
+              let earned = bestGrade(for: out.id),
+              earned.meets(out.requiredMark) else { return nil }
+        return earned
+    }
+
+    /// What the report card counts.
+    ///
+    /// The best of what was actually sat and what a cleared test-out confers —
+    /// so sitting a part later can only ever raise the mark, never undo the
+    /// test-out. A test whose deadline passed with neither stands at zero until
+    /// it's actually taken.
     func effectiveGrade(for lessonId: String) -> Grade? {
-        if let g = bestGrade(for: lessonId) { return g }
+        let sat = bestGrade(for: lessonId)
+        let inherited = track.first { $0.id == lessonId }.flatMap(inheritedGrade)
+        if let best = [sat, inherited].compactMap({ $0 }).max() { return best }
         return isOverdue(lessonId) ? Grade(percent: 0) : nil
     }
 

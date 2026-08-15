@@ -39,9 +39,9 @@ final class VocalAnswerListener: NSObject, ObservableObject {
             case .denied:
                 return "Omedetou needs the microphone and speech recognition to hear your answers. Turn both on for Omedetou in Settings ▸ Privacy & Security."
             case .noRecogniser:
-                return "This device doesn't have English speech recognition available."
+                return "This device doesn't have speech recognition available for that language."
             case .unavailable:
-                return "Speech recognition isn't available right now. It needs either the English dictation language downloaded on this device, or a connection."
+                return "Speech recognition isn't available right now. It needs either that dictation language downloaded on this device, or a connection."
             case .failed(let why):
                 return "Couldn't start listening — \(why)"
             }
@@ -72,7 +72,8 @@ final class VocalAnswerListener: NSObject, ObservableObject {
 
     /// Opens the mic for `seconds`, then calls `onFinish` exactly once with the
     /// transcript — empty if nothing was said.
-    func listen(seconds: TimeInterval, onFinish: @escaping (String) -> Void) {
+    func listen(seconds: TimeInterval, locale: String = "en-US",
+                onFinish: @escaping (String) -> Void) {
         guard !isListening, !starting else { return }
         starting = true
         authorize { [weak self] ok in
@@ -83,7 +84,7 @@ final class VocalAnswerListener: NSObject, ObservableObject {
                 onFinish("")
                 return
             }
-            self.begin(seconds: seconds, onFinish: onFinish)
+            self.begin(seconds: seconds, locale: locale, onFinish: onFinish)
         }
     }
 
@@ -133,8 +134,9 @@ final class VocalAnswerListener: NSObject, ObservableObject {
 
     // MARK: - Listening
 
-    private func begin(seconds: TimeInterval, onFinish: @escaping (String) -> Void) {
-        guard let recogniser = SFSpeechRecognizer(locale: Locale(identifier: "en-US")) else {
+    private func begin(seconds: TimeInterval, locale: String,
+                       onFinish: @escaping (String) -> Void) {
+        guard let recogniser = SFSpeechRecognizer(locale: Locale(identifier: locale)) else {
             problem = .noRecogniser
             onFinish("")
             return

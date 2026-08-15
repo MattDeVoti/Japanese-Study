@@ -22,7 +22,8 @@ struct Grade: Codable, Equatable, Comparable {
 
     var letter: String {
         switch percent {
-        case 93...:     return "A"
+        case 97...:     return "A+"
+        case 93..<97:   return "A"
         case 90..<93:   return "A-"
         case 87..<90:   return "B+"
         case 83..<87:   return "B"
@@ -40,6 +41,11 @@ struct Grade: Codable, Equatable, Comparable {
     /// 4.0-scale value, for the report card average.
     var points: Double {
         switch letter {
+        // A+ is worth the same 4.0 as an A. Capping there keeps the report card
+        // on a 4.0 scale — a GPA reading 4.1 invites the question of what the
+        // maximum is — so the tier is recognition rather than extra credit, and
+        // adding it moved nobody's existing average.
+        case "A+": return 4.0
         case "A":  return 4.0
         case "A-": return 3.7
         case "B+": return 3.3

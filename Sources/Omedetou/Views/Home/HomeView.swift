@@ -457,11 +457,23 @@ struct HomeOptionsSheet: View {
                             Slider(value: $speech.rate, in: 0...1)
                                 .tint(.appAccent)
                         }
-                        HStack {
-                            Text("Voice")
-                            Spacer()
-                            Text(speech.voiceName)
-                                .foregroundColor(.appTextSecondary)
+                        // A picker only where there's a choice: most devices ship
+                        // one Japanese voice, and a one-item picker is a control
+                        // that does nothing.
+                        if speech.japaneseVoices.count > 1 {
+                            Picker("Voice", selection: $speech.voiceIdentifier) {
+                                Text("Best installed").tag(String?.none)
+                                ForEach(speech.japaneseVoices, id: \.identifier) { v in
+                                    Text(speech.label(for: v)).tag(String?.some(v.identifier))
+                                }
+                            }
+                        } else {
+                            HStack {
+                                Text("Voice")
+                                Spacer()
+                                Text(speech.voiceName)
+                                    .foregroundColor(.appTextSecondary)
+                            }
                         }
                         Button {
                             speech.speak("日本語[にほんご]を勉強[べんきょう]しましょう。", id: "options-sample")
@@ -799,6 +811,12 @@ private struct VocalOptionsSection: View {
         }
     }
 }
+
+
+
+
+
+
 
 
 

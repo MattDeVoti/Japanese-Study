@@ -227,7 +227,7 @@ enum ExamBuilder {
 
         for id in lesson.chapterIds {
             guard let ch = LessonsService.shared.loadChapter(id) else { continue }
-            for p in ch.points where p.pointType == "kana" {
+            for p in ch.points where p.isKanaCharacter {
                 characters.append((id, p))
             }
             for q in (ch.chapterPractice ?? []) {

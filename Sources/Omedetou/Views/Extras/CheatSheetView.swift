@@ -139,7 +139,8 @@ struct CheatSheetDetailView: View {
     @ObservedObject private var unlocks = GameUnlocks.shared
 
     private func sudokuHint(_ main: String) -> Int? {
-        guard sheet.id == "numbers", !unlocks.isUnlocked(.sudoku) else { return nil }
+        guard sheet.id == CheatSheetLibrary.sudokuHostSheetId,
+              !unlocks.isUnlocked(.sudoku) else { return nil }
         return sudokuOrder.firstIndex(of: main)
     }
 
@@ -318,7 +319,7 @@ struct CheatSheetDetailView: View {
     }
 
     private func noteNumber(_ main: String) {
-        guard sheet.id == "numbers" else { return }
+        guard sheet.id == CheatSheetLibrary.sudokuHostSheetId else { return }
         if main == sudokuOrder[numberProgress] {
             numberProgress += 1
             if numberProgress == sudokuOrder.count {
