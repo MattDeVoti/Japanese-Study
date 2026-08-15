@@ -228,7 +228,7 @@ struct VocabFlashcardsView: View {
             // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
                 Button {
-                    let didUncheck = filter.markNeedsWork(card.word.id)
+                    let didUncheck = filter.markNeedsWork(card.word.id, direction: cardDirection)
                     // Studying a card is a review: this both enrols it in the
                     // schedule and books its next showing.
                     SRSStore.shared.grade(.vocab(card.word.id), .again)

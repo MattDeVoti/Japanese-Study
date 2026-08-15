@@ -114,7 +114,7 @@ struct ChapterDetailView: View {
                 VStack(alignment: .leading, spacing: 12) {
                     ForEach(points) { point in
                         Group {
-                            if point.pointType == "kana" {
+                            if point.isKanaCharacter {
                                 KanaCharacterCard(point: point, chapterId: summary.id, accentColor: accentColor)
                             } else {
                                 GrammarPointCard(point: point, chapterId: summary.id, accentColor: accentColor,

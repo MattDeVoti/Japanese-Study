@@ -275,7 +275,7 @@ private struct ChapterRow: View {
     @ObservedObject private var vocabFilter = VocabFlashcardsFilter.shared
     @EnvironmentObject private var cardStore: CardStore
 
-    private var isKana: Bool { summary.chapterType == "kana" }
+    private var isKana: Bool { summary.isKanaChapter }
     private var progress: ChapterProgress {
         ChapterProgress.of(chapterId: summary.id, cardStore: cardStore)
     }

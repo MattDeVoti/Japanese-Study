@@ -174,22 +174,34 @@ final class VocabFlashcardsFilter: ObservableObject, VocabFiltering {
     // Both tallies are recorded on every answer, whatever the priority mode is set
     // to — the mode only decides how the counts are *used* when picking a card.
 
-    /// Records a "Needs Work", and clears the word's checkmark if it had one.
+    /// Records a "Needs Work", and clears that direction's checkmark if it had one.
     ///
     /// A checkmark means "done with this"; Needs Work means the opposite. In
     /// Prioritize Needs Work mode checked-off words stay in rotation, so it is
     /// entirely possible to be shown one and realise you don't know it after
     /// all — and leaving it checked would retire it again the moment priority
-    /// was switched off. Returns whether a checkmark was cleared, so the deck's
-    /// back button can put it back.
+    /// was switched off.
+    ///
+    /// Only ever the direction that was actually tested. Failing to recall the
+    /// Japanese from the English says nothing about whether you can still read
+    /// it, so clearing both halves would throw away a demonstrated skill on the
+    /// strength of a different one. `direction` is nil where no direction was
+    /// involved — a review session — and then no checkmark is touched at all.
+    ///
+    /// Returns whether a checkmark was cleared, so the deck's back button can
+    /// put it back.
     @discardableResult
-    func markNeedsWork(_ wordId: String) -> Bool {
+    func markNeedsWork(_ wordId: String, direction: CardDirection? = nil) -> Bool {
         needsWorkCounts[wordId, default: 0] += 1
         saveWeights()
-        guard excludedWordIds.contains(wordId) || excludedReverseWordIds.contains(wordId)
-        else { return false }
-        excludedWordIds.remove(wordId)
-        excludedReverseWordIds.remove(wordId)
+        guard let direction else { return false }
+        if direction.isReversed {
+            guard excludedReverseWordIds.contains(wordId) else { return false }
+            excludedReverseWordIds.remove(wordId)
+        } else {
+            guard excludedWordIds.contains(wordId) else { return false }
+            excludedWordIds.remove(wordId)
+        }
         saveExcluded()
         return true
     }
@@ -430,7 +442,9 @@ final class VocalDeckFilter: ObservableObject, VocabFiltering {
     }
     func clearExclusions(for wordIds: [String]? = nil) { store.clearExclusions(for: wordIds) }
     @discardableResult
-    func markNeedsWork(_ wordId: String) -> Bool { store.markNeedsWork(wordId) }
+    func markNeedsWork(_ wordId: String, direction: CardDirection? = nil) -> Bool {
+        store.markNeedsWork(wordId, direction: direction)
+    }
     func unexclude(_ wordIds: [String], direction: CardDirection) {
         store.unexclude(wordIds, direction: direction)
     }

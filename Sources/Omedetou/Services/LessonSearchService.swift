@@ -21,7 +21,7 @@ struct LessonSearchResult: Identifiable {
 
         var label: String {
             switch self {
-            case let .grammar(p): return p.pointType == "kana" ? "Kana" : "Grammar"
+            case let .grammar(p): return p.isKanaCharacter ? "Kana" : "Grammar"
             case .vocab:          return "Vocab"
             case .kanji:          return "Kanji"
             case .culture:        return "Culture"

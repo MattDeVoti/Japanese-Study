@@ -489,6 +489,9 @@ struct SpeakButton: View {
     let text: String
     var size: CGFloat = 22
     var tint: Color? = nil
+    /// Which voice reads it. Japanese unless told otherwise — the one caller
+    /// that passes false is the audio deck replaying an English prompt.
+    var isJapanese: Bool = true
 
     @ObservedObject private var speech = SpeechService.shared
 
@@ -498,7 +501,8 @@ struct SpeakButton: View {
     var body: some View {
         if speech.isAvailable && speech.isEnabled {
             Button {
-                speech.speak(text, id: key)
+                if isJapanese { speech.speak(text, id: key) }
+                else { speech.speakEnglish(text, id: key) }
             } label: {
                 Image(systemName: isSpeaking ? "speaker.wave.2.fill" : "speaker.wave.2")
                     .font(.system(size: size, weight: .medium))

@@ -197,7 +197,7 @@ struct StudyListView: View {
             }
 
             if !chapter.points.isEmpty {
-                let isKana = chapter.points.first?.pointType == "kana"
+                let isKana = chapter.points.first?.isKanaCharacter == true
                 section(isKana ? "Characters" : "Grammar",
                         isKana ? .hiraganaColor : .grammarColor) {
                     ForEach(chapter.points, id: \.id) { p in

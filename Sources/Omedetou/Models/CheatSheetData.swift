@@ -99,6 +99,11 @@ struct CheatSheet: Identifiable {
 enum CheatSheetLibrary {
     /// Built in chunks: a single 22-element literal is more than the type checker
     /// will infer in reasonable time.
+    /// The sheet that hides the sudoku. Named rather than spelled out at each
+    /// use: two separate views test for it, and a sheet id typo would silently
+    /// remove the game with nothing failing to say so.
+    static let sudokuHostSheetId = "numbers"
+
     static let all: [CheatSheet] = {
         var out: [CheatSheet] = []
         // Reached for constantly, from day one.

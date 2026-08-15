@@ -70,7 +70,7 @@ enum SRSCatalogue {
 
             // Kana characters are stored as grammar points but behave like kanji
             // cards: one glyph on the front, its sound on the back.
-            if p.pointType == "kana" {
+            if p.isKanaCharacter {
                 let isKatakana = p.name.unicodeScalars.first.map { $0.value >= 0x30A0 } ?? false
                 return ReviewCard(id: id,
                                   front: p.name,

@@ -110,7 +110,7 @@ private struct AddItemPicker: View {
     var body: some View {
         List {
             if let chapter = chapter {
-                let points = chapter.points.filter { $0.pointType != "kana" }
+                let points = chapter.points.filter { !$0.isKanaCharacter }
                 if !points.isEmpty {
                     Section("Grammar") {
                         ForEach(points) { p in

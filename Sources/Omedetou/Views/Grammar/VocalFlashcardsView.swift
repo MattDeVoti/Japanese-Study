@@ -39,6 +39,12 @@ struct VocalFlashcardsView: View {
     @State private var rescued: String?
     @State private var cardDirection: CardDirection = .japaneseToEnglish
 
+    /// Height reserved for the middle of the session screen, whichever phase is
+    /// showing. Fixed so the word above it holds still as the run moves from
+    /// listening to judged to the next card. Sized for the tallest case: a wrong
+    /// answer with a two-line meaning, the circle, Next, and the "You said" line.
+    private static let stateAreaHeight: CGFloat = 342
+
     private enum Phase: Equatable {
         case ready
         case prompting
@@ -345,19 +351,35 @@ struct VocalFlashcardsView: View {
 
             Spacer()
 
+            // Whatever is being read aloud is what stands here — the two are the
+            // same question asked twice. Going English → Japanese that means the
+            // meaning, not the word: printing the Japanese would contradict the
+            // audio and hand over the answer the learner is being asked for.
+            // Mirrors `speakCard`'s prompt exactly; change one, change both.
             if let card = current {
                 VStack(spacing: 10) {
-                    Text(card.word.kanji)
-                        .font(.system(size: 46, weight: .bold))
-                        .foregroundColor(.appText)
-                        .multilineTextAlignment(.center)
-                    if card.word.kanji != card.word.kana {
-                        Text(card.word.kana)
-                            .font(.system(size: 19))
-                            .foregroundColor(.secondary)
+                    if reversed {
+                        Text(card.word.definition)
+                            .font(.system(size: 28, weight: .bold))
+                            .foregroundColor(.appText)
+                            .multilineTextAlignment(.center)
+                            .fixedSize(horizontal: false, vertical: true)
+                        SpeakButton(text: card.word.definition, size: 20,
+                                    tint: card.accentColor, isJapanese: false)
+                            .padding(.top, 2)
+                    } else {
+                        Text(card.word.kanji)
+                            .font(.system(size: 46, weight: .bold))
+                            .foregroundColor(.appText)
+                            .multilineTextAlignment(.center)
+                        if card.word.kanji != card.word.kana {
+                            Text(card.word.kana)
+                                .font(.system(size: 19))
+                                .foregroundColor(.secondary)
+                        }
+                        SpeakButton(text: card.word.kana, size: 20, tint: card.accentColor)
+                            .padding(.top, 2)
                     }
-                    SpeakButton(text: card.word.kana, size: 20, tint: card.accentColor)
-                        .padding(.top, 2)
                 }
                 .padding(.horizontal, 24)
             }
@@ -365,7 +387,7 @@ struct VocalFlashcardsView: View {
             Spacer()
 
             stateArea
-                .frame(height: 210)
+                .frame(height: Self.stateAreaHeight)
 
             Spacer()
 
@@ -503,8 +525,12 @@ struct VocalFlashcardsView: View {
                 .foregroundColor(Color.readableOnPage(.appAccent))
                 .symbolEffectPulse(true)
 
+            // Matches `speakCard`'s answer, the same way the prompt matches its
+            // question: going English → Japanese the answer being read out is
+            // the word, not the meaning.
             if let card = current {
-                Text(card.word.definition)
+                Text(reversed ? "\(card.word.kanji)  （\(card.word.kana)）"
+                              : card.word.definition)
                     .font(.system(size: 19, weight: .semibold))
                     .foregroundColor(.appText)
                     .multilineTextAlignment(.center)
@@ -512,7 +538,7 @@ struct VocalFlashcardsView: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
         }
-        .frame(height: 210)
+        .frame(height: Self.stateAreaHeight)
     }
 
     private var heardOrPrompt: String {
@@ -541,34 +567,49 @@ struct VocalFlashcardsView: View {
 
             if skipped {
                 Text("Skipped")
-                    .font(.system(size: 12))
+                    .font(.system(size: 14))
                     .foregroundColor(.appTextSecondary)
             } else if !heard.isEmpty {
                 Text("You said “\(heard)”")
-                    .font(.system(size: 12))
+                    .font(.system(size: 14))
                     .foregroundColor(.appTextSecondary)
                     .lineLimit(1)
                     .padding(.horizontal, 24)
             } else if verdict == .silent {
                 Text("Nothing heard")
-                    .font(.system(size: 12))
+                    .font(.system(size: 14))
                     .foregroundColor(.appTextSecondary)
             }
 
-            HStack(spacing: 10) {
-                // Recognition mishears; overruling it has to be cheap and easy to
-                // hit — this is the only place the learner can say so, and it's a
-                // moving target on a timer. A skip was the learner's own call, so
-                // there's nothing to overrule there.
+            // Stacked rather than side by side, and sized far apart on purpose.
+            // Overruling a misheard answer is the urgent one — it's the only
+            // place the learner can correct the recogniser, and it's on a timer
+            // that will advance without them. Next is the one that costs
+            // nothing to miss, so it's small and sits underneath, out of the
+            // path of a thumb reaching for the big target above it.
+            VStack(spacing: 12) {
+                // A skip was the learner's own call, so there's nothing to
+                // overrule there.
                 if !right && !skipped {
                     Button { overrule() } label: {
-                        Text("I was right")
-                            .font(.system(size: 16, weight: .bold))
-                            .foregroundColor(.green)
-                            .padding(.horizontal, 24)
-                            .padding(.vertical, 13)
-                            .background(Capsule().fill(Color.green.opacity(0.14)))
-                            .overlay(Capsule().strokeBorder(Color.green.opacity(0.5), lineWidth: 1.5))
+                        VStack(spacing: 3) {
+                            Image(systemName: "checkmark")
+                                .font(.system(size: 30, weight: .bold))
+                            // Wrapped by hand: at this size the line break is
+                            // part of the layout, not something to leave to
+                            // whatever width the circle happens to offer.
+                            Text("I was\nright")
+                                .font(.system(size: 17, weight: .bold))
+                                .multilineTextAlignment(.center)
+                        }
+                        .foregroundColor(.green)
+                        .frame(width: 132, height: 132)
+                        .background(
+                            Circle()
+                                .fill(Color.appSurface)
+                                .overlay(Circle().fill(Color.green.opacity(0.17)))
+                        )
+                        .overlay(Circle().strokeBorder(Color.green.opacity(0.55), lineWidth: 2.5))
                     }
                     .buttonStyle(.plain)
                 }
@@ -584,7 +625,7 @@ struct VocalFlashcardsView: View {
                 }
                 .buttonStyle(.plain)
             }
-            .padding(.top, 2)
+            .padding(.top, 22)
         }
     }
 
@@ -743,7 +784,7 @@ struct VocalFlashcardsView: View {
     }
 
     private func applyLabel(_ rows: [TallyRow]) -> String {
-        let count = rows.filter { (marks[$0.card.word.id] ?? .leave) != .leave }.count
+        let count = rows.filter { (marks[$0.key] ?? .leave) != .leave }.count
         return count == 0 ? "Done" : "Mark \(count) word\(count == 1 ? "" : "s")"
     }
 
@@ -760,7 +801,7 @@ struct VocalFlashcardsView: View {
     /// without this a word you skipped three times and never answered would
     /// record nothing at all.
     private func applyMarks(_ rows: [TallyRow]) {
-        let marked = rows.filter { (marks[$0.card.word.id] ?? .leave) != .leave }
+        let marked = rows.filter { (marks[$0.key] ?? .leave) != .leave }
         guard !marked.isEmpty else { phase = .ready; return }
 
         filter.addWeights(marked.map {
