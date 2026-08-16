@@ -40,8 +40,8 @@ struct HomeView: View {
                         showGame = true
                     }
                     Text("OMEDETOU")
-                        .font(.system(size: 16.5, weight: .heavy))
-                        .tracking(6.6)
+                        .font(.system(size: 19.8, weight: .heavy))
+                        .tracking(7.92)
                         .foregroundStyle(LinearGradient.appAccentSweep)
                         .opacity(0.85)
                 }
@@ -201,7 +201,6 @@ private struct HomeCornerButton: View {
 
 struct HomeOptionsSheet: View {
     @Environment(\.dismiss) private var dismiss
-    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @ObservedObject private var unlocks = GameUnlocks.shared
     @ObservedObject private var cloud = CloudSyncService.shared
     @ObservedObject private var speech = SpeechService.shared
@@ -315,28 +314,11 @@ struct HomeOptionsSheet: View {
                          : "Your progress is kept on this device and copied to your own iCloud account, so picking up another iPhone or iPad carries on where you left off. Work done on two devices at once is merged rather than overwritten. Nothing is sent anywhere else, and the app works normally without iCloud.")
                 }
                 Section {
-                    Picker("Priority", selection: $weightSettings.mode) {
-                        Text("No Priority").tag(WeightMode.none)
-                        Text("Prioritize Needs Work").tag(WeightMode.needsWork)
-                    }
-                    .pickerStyle(.segmented)
-
-                    if weightSettings.mode == .needsWork {
-                        VStack(alignment: .leading, spacing: 6) {
-                            HStack {
-                                Text("Priority Level")
-                                Spacer()
-                                Text("\(Int((weightSettings.strength * 100).rounded()))%")
-                                    .foregroundColor(.appTextSecondary)
-                            }
-                            Slider(value: $weightSettings.strength, in: 0.05...1.0)
-                                .tint(.orange)
-                        }
-                    }
+                    WeightPrioritySection()
                 } header: {
                     Label("Flashcard Priority", systemImage: "rectangle.stack.fill")
                 } footer: {
-                    Text("Applies to every flashcard deck. No Priority shuffles evenly and hides cards you’ve checked off; Prioritize Needs Work keeps every card in rotation but shows ones you’ve marked “Needs Work” more often.")
+                    Text("Applies to every flashcard deck — vocab, kanji and grammar.")
                 }
 
                 Section {

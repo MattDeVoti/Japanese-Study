@@ -128,9 +128,16 @@ final class GameUnlocks: ObservableObject {
     }
 
     func unlock(_ game: SecretGameID) {
+        // The guard is what makes this the right place for the sound. Callers
+        // fire on the triggering action, not on the transition — opening the
+        // しりとり entry calls this every time — so only a genuinely new unlock
+        // gets past here. `reloadFromDefaults` sets the set directly and so
+        // stays silent, which is right: a game unlocked on an iPad shouldn't
+        // announce itself when this device syncs.
         guard !unlocked.contains(game.rawValue) else { return }
         unlocked.insert(game.rawValue)
         UserDefaults.standard.set(Array(unlocked), forKey: key)
+        FeedbackSounds.shared.play(.unlock)
     }
 }
 

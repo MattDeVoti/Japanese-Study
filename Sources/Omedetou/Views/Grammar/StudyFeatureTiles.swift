@@ -318,7 +318,7 @@ struct KanjiMatchTile: View {
 
     var body: some View {
         FeatureCard(color: color, title: "Look-alikes",
-                    subtitle: "Match kanji you keep mixing up", square: false) {
+                    subtitle: "Match kanji that are easy to mix up", square: false) {
             HStack(spacing: 0) {
                 Spacer()
                 ZStack {

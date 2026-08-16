@@ -115,6 +115,24 @@ final class VocalAnswerListener: NSObject, ObservableObject {
         teardown()
     }
 
+    /// The "go" chime, played the instant the microphone is actually capturing.
+    ///
+    /// Without it the only cue that the window has opened is the word stopping,
+    /// and the gap after that is long enough to start answering into a mic that
+    /// isn't listening yet.
+    ///
+    /// Loaded here rather than going through `FeedbackSounds`, which claims
+    /// `.playback` on every play — mid-window that would drop the microphone.
+    private lazy var micCue: AVAudioPlayer? = {
+        guard let url = Bundle.main.url(forResource: "notification", withExtension: "wav"),
+              let player = try? AVAudioPlayer(contentsOf: url) else { return nil }
+        // Full volume: this is a cue that has to cut through whatever the
+        // learner is doing — driving, walking — and it is short.
+        player.volume = 1.0
+        player.prepareToPlay()
+        return player
+    }()
+
     // MARK: - Permission
 
     private func authorize(_ done: @escaping (Bool) -> Void) {
@@ -153,7 +171,24 @@ final class VocalAnswerListener: NSObject, ObservableObject {
 
         let session = AVAudioSession.sharedInstance()
         do {
-            try session.setCategory(.record, mode: .measurement, options: [.duckOthers])
+            // Two departures from the original `.record` / `.measurement`, both
+            // for the go-chime, and both worth understanding before changing.
+            //
+            // `.playAndRecord` because a record-only category has no output
+            // route at all, so nothing could be played during a window. Input is
+            // unaffected: without `.allowBluetooth` it stays on the built-in
+            // microphone, exactly as before.
+            //
+            // `.default` rather than `.measurement` because measurement mode
+            // "minimizes the amount of system-supplied signal processing" — and
+            // stripping it from the *output* removes the speaker EQ and loudness
+            // compensation, which left the chime almost inaudible. The cost is
+            // that input now gets the system's standard processing rather than
+            // raw samples. If recognition ever seems worse than it used to be,
+            // this word is the first thing to put back.
+            try session.setCategory(.playAndRecord, mode: .default,
+                                    options: [.duckOthers, .defaultToSpeaker,
+                                              .allowBluetoothA2DP])
             try session.setActive(true, options: .notifyOthersOnDeactivation)
         } catch {
             problem = .failed(error.localizedDescription)
@@ -190,6 +225,10 @@ final class VocalAnswerListener: NSObject, ObservableObject {
         partial = ""
         finish = onFinish
         isListening = true
+        // The engine is running and the tap installed, so this is the first
+        // instant anything said would actually be captured.
+        micCue?.currentTime = 0
+        micCue?.play()
 
         task = recogniser.recognitionTask(with: request) { [weak self] result, error in
             DispatchQueue.main.async {
