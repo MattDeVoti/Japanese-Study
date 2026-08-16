@@ -1024,7 +1024,7 @@ struct VocalFlashcardsView: View {
 
         switch verdict {
         case .correct:
-            FeedbackSounds.shared.play(.correct)
+            FeedbackSounds.shared.playCorrectVariation()
             schedule(after: 1.1) { step() }
         case .skipped:
             // The learner asked to move on, so no buzz — a skip isn't a mistake.
@@ -1061,7 +1061,7 @@ struct VocalFlashcardsView: View {
         speech.stop()
         answers[answers.count - 1].verdict = .correct
         phase = .judged(.correct)
-        FeedbackSounds.shared.play(.correct)
+        FeedbackSounds.shared.playCorrectVariation()
         schedule(after: 0.7) { step() }
     }
 
