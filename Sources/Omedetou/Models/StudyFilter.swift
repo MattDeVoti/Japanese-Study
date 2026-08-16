@@ -4,6 +4,27 @@ import Combine
 enum WeightMode: String, CaseIterable {
     case none = "NONE"
     case needsWork = "NEEDS_WORK"
+
+    /// What the learner sees. Deliberately separate from the raw value, which is
+    /// what gets persisted — renaming a mode must never invalidate saved
+    /// settings, and these two have been renamed once already.
+    var displayName: String {
+        switch self {
+        case .none:     return "Standard"
+        case .needsWork: return "Priority Study"
+        }
+    }
+
+    /// Shown wherever the mode can be changed, so the choice never has to be
+    /// guessed at from the name.
+    var explanation: String {
+        switch self {
+        case .none:
+            return "An even shuffle, with anything you\u{2019}ve checked off hidden. The deck shrinks as you work through it, so this is what clears new material."
+        case .needsWork:
+            return "Everything stays in rotation, including cards you\u{2019}ve checked off, and ones you\u{2019}ve marked Needs Work come up more often. This is what brings old words back."
+        }
+    }
 }
 
 class StudyFilter: ObservableObject {

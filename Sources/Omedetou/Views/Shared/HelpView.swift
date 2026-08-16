@@ -194,8 +194,9 @@ struct HelpView: View {
                   summary: "What appears in your decks",
                   body: [
                     "In **Options ▸ Flashcard Priority** there are two modes, and they apply to every deck.",
-                    "**No Priority** — an even shuffle, and anything you've checked off is hidden. Good for clearing new material.",
-                    "**Prioritize Needs Work** — everything stays in rotation, including checked items, but cards you've marked Needs Work come up more often. The slider controls how much more.",
+                    "**Smart Study** — picks your chapter and switches between the two modes below for you, working through a chapter and then mixing older words back in as you move on.",
+                    "**Standard** — an even shuffle, and anything you've checked off is hidden. Good for clearing new material.",
+                    "**Priority Study** — everything stays in rotation, including checked items, but cards you've marked Needs Work come up more often. The slider controls how much more.",
                   ]),
 
                         Topic(id: "widgets", icon: "square.grid.2x2.fill", color: .themeTile(1),

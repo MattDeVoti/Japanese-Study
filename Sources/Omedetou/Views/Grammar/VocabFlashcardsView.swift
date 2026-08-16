@@ -39,6 +39,17 @@ struct VocabFlashcardsView: View {
     /// The chapter's word ids (locked mode only) — used to scope "clear checkmarks".
     private var chapterWordIds: [String] { lockedChapter == nil ? [] : allCards.map(\.word.id) }
 
+    // MARK: - Smart Study
+    //
+    // This deck is one of the two `SmartStudyEngine` drives — see that file's
+    // "Integration contract" for the ordering rules the calls below follow.
+    //
+    // Every call is guarded on `lockedChapter == nil`. A chapter-locked session
+    // ("Study Vocab" from a chapter) has a pool the learner pinned deliberately,
+    // and the whole point of the programme is choosing the pool for them, so it
+    // stays out of those entirely — including its mode switching, which would
+    // otherwise pull in words from outside the chapter they opened.
+
     private var pool: [VocabFlashCard] {
         if lockedChapter == nil { return filter.apply(to: allCards) }
         guard StudyWeightSettings.shared.filtersOutCheckedCards else { return allCards }
@@ -52,6 +63,9 @@ struct VocabFlashcardsView: View {
     /// Nil outside No-Priority mode, where checking a word doesn't retire it and
     /// there's no set to work through.
     private var checkedProgress: (done: Int, total: Int)? {
+        if weightSettings.smartStudy, lockedChapter == nil {
+            return SmartStudyEngine.written.progress(cards: allCards, filter: filter)
+        }
         guard weightSettings.filtersOutCheckedCards else { return nil }
         let total = lockedChapter == nil ? filter.selection(in: allCards).count : allCards.count
         guard total > 0 else { return nil }
@@ -72,11 +86,33 @@ struct VocabFlashcardsView: View {
                 emptyState
             }
         }
+        .smartStudyDebug(SmartStudyEngine.written, cards: allCards,
+                         filter: filter, topPadding: 54)
+        // Draws nothing unless SmartStudyDebugOverlay.isEnabled is flipped on.
         .onAppear(perform: load)
-        .onChange(of: filter.selectedChapterIds) { _ in if lockedChapter == nil { pickNext() } }
+        // A changed selection means a changed pool, so the card on screen may no
+        // longer belong — except when Smart Study made the change itself, having
+        // just dealt the next card. Re-dealing there would replace a card the
+        // learner never got to see.
+        .onChange(of: filter.selectedChapterIds) { _ in
+            guard lockedChapter == nil else { return }
+            guard !SmartStudyEngine.written.consumeSelfAppliedChange() else { return }
+            pickNext()
+        }
         .onChange(of: filter.selectedWordIds) { _ in if lockedChapter == nil { pickNext() } }
         .onChange(of: filter.showFavoritesOnly) { _ in if lockedChapter == nil { pickNext() } }
-        .onChange(of: weightSettings.mode) { _ in pickNext() }
+        // Smart Study rewrites the mode as part of dealing, so reacting to it
+        // here would deal a second card on top of the one it just dealt. Only a
+        // human flipping the switch should re-deal.
+        .onChange(of: weightSettings.mode) { _ in if !weightSettings.smartStudy { pickNext() } }
+        // Handing the deck to the programme, or taking it back. Either way the
+        // pool changes, so re-deal.
+        .onChange(of: weightSettings.smartStudy) { on in
+            guard lockedChapter == nil else { return }
+            if on { SmartStudyEngine.written.prepare(cards: allCards, filter: filter) }
+            else { SmartStudyEngine.written.release() }
+            pickNext()
+        }
         .onChange(of: filter.direction) { _ in pickNext() }
         .sheet(isPresented: $showFilter) {
             VocabFilterSheet(filter: filter, allCards: allCards)
@@ -234,6 +270,11 @@ struct VocabFlashcardsView: View {
                     SRSStore.shared.grade(.vocab(card.word.id), .again)
                     history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                                          action: .needsWork(didUncheck: didUncheck)))
+                    // Counted before the next deal, and never mind the verdict:
+                    // the programme tracks cards seen, not cards got right.
+                    if lockedChapter == nil {
+                        SmartStudyEngine.written.cardAnswered(cards: allCards, filter: filter)
+                    }
                     pickNext()
                 } label: {
                     Text("Needs Work")
@@ -338,6 +379,9 @@ struct VocabFlashcardsView: View {
         sequencer.reset()
         isLoading = false
         syncCompletedChapters()
+        // Seeds the tour on a cold start, or adopts the chapters already
+        // selected. No-op unless Smart Study is switched on.
+        SmartStudyEngine.written.prepare(cards: allCards, filter: filter)
         pickNext()
     }
 
@@ -360,6 +404,11 @@ struct VocabFlashcardsView: View {
     }
 
     private func pickNext() {
+        // Before `pool`, never after: the mode decides whether checked-off cards
+        // are in the pool at all.
+        if lockedChapter == nil {
+            SmartStudyEngine.written.applyMode(cards: allCards, filter: filter)
+        }
         let p = pool
         guard !p.isEmpty else { current = nil; return }
         isRevealed = false
@@ -379,6 +428,13 @@ struct VocabFlashcardsView: View {
         if !wasChecked { filter.toggleExcluded(card.word.id, direction: cardDirection) }
         history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                              action: .confident(didCheck: !wasChecked)))
+        // Counted now rather than inside the delayed block below, so leaving the
+        // deck mid-animation can't lose the card. `cardAnswered` settles the
+        // next card's mode itself, so the readout stays consistent across the
+        // 0.55s the green check is on screen.
+        if lockedChapter == nil {
+            SmartStudyEngine.written.cardAnswered(cards: allCards, filter: filter)
+        }
         withAnimation(.spring(response: 0.3, dampingFraction: 0.55)) { showConfidentPop = true }
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
             withAnimation(.easeOut(duration: 0.2)) { showConfidentPop = false }
@@ -400,6 +456,9 @@ struct VocabFlashcardsView: View {
         isRevealed = false
         current = last.card
         cardDirection = last.direction
+        // Un-count the answer being undone, so backing out can't quietly push
+        // the learner toward the next chapter.
+        if lockedChapter == nil { SmartStudyEngine.written.cardUndone() }
         // So the next draw doesn't hand back the card we just returned to.
         sequencer.note(last.card.word.id)
     }
@@ -424,6 +483,7 @@ private struct VocabStudyHistoryEntry {
 /// carry its own selections through one identical sheet.
 struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
     @ObservedObject var filter: F
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     let allCards: [VocabFlashCard]
     /// Set by the vocal deck: one tap adopts the written flashcards' selections.
     var copyFromFlashcards: (() -> Void)? = nil
@@ -473,9 +533,9 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                             .font(.headline)
                             .foregroundColor(.appText)
                         Picker("", selection: $filter.direction) {
-                            Text("日本語 → English").tag(CardDirection.japaneseToEnglish)
-                            Text("English → 日本語").tag(CardDirection.englishToJapanese)
-                            Text("Random").tag(CardDirection.random)
+                            ForEach(CardDirection.allCases, id: \.self) { direction in
+                                Text(direction.displayName).tag(direction)
+                            }
                         }
                         .pickerStyle(.segmented)
                         Text({
@@ -485,7 +545,7 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                             case .englishToJapanese:
                                 return "You're shown the meaning and recall the Japanese."
                             case .random:
-                                return "Mixed per card, favouring the half you haven't checked off."
+                                return "Both ways, favouring the half you haven't checked off."
                             }
                         }())
                             .font(.caption)
@@ -511,6 +571,13 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                     checkmarksSection
 
                     Divider()
+
+                    if weightSettings.smartStudy {
+                        Label(StudyPriorityCopy.smartOwnsPool, systemImage: "wand.and.stars")
+                            .font(.system(size: 12))
+                            .foregroundColor(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
 
                     chaptersSection
 
@@ -566,7 +633,7 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
             Text("Checkmarks")
                 .font(.headline)
                 .foregroundColor(.appText)
-            Text("In No Priority mode, checked-off words are hidden from the flashcard lineup (here and in their chapter). In Prioritize Needs Work mode they stay in rotation.")
+            Text("In Standard mode, checked-off words are hidden from the flashcard lineup (here and in their chapter). In Priority Study they stay in rotation.")
                 .font(.caption)
                 .foregroundColor(.secondary)
             Button { filter.clearExclusions() } label: {
@@ -750,7 +817,6 @@ private struct ChapterSquare: View {
 private struct VocabNavBar: ViewModifier {
     let title: String
     @ObservedObject var filter: VocabFlashcardsFilter
-    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @Binding var showFilter: Bool
     /// nil for the global Study section; set for a chapter's Study Vocab session.
     let locked: LockedVocabChapter?
@@ -790,15 +856,12 @@ private struct VocabNavBar: ViewModifier {
                             // filter sheet just isn't reachable from here, which
                             // left the setting applied but unchangeable.
                             Picker("Direction", selection: $filter.direction) {
-                                Text("日本語 → English").tag(CardDirection.japaneseToEnglish)
-                                Text("English → 日本語").tag(CardDirection.englishToJapanese)
-                                Text("Random").tag(CardDirection.random)
+                                ForEach(CardDirection.allCases, id: \.self) { direction in
+                                    Text(direction.displayName).tag(direction)
+                                }
                             }
                             Divider()
-                            Picker("Priority", selection: $weightSettings.mode) {
-                                Text("No Priority").tag(WeightMode.none)
-                                Text("Prioritize Needs Work").tag(WeightMode.needsWork)
-                            }
+                            WeightPriorityMenuItems()
                             Divider()
                             Button(role: .destructive) {
                                 filter.clearExclusions(for: chapterWordIds)

@@ -13,6 +13,7 @@ struct VocalFlashcardsView: View {
     /// favorites still land in the shared store behind it.
     @ObservedObject private var filter = VocalDeckFilter.shared
     @ObservedObject private var settings = VocalStudySettings.shared
+    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @ObservedObject private var speech = SpeechService.shared
     @ObservedObject private var listener = VocalAnswerListener.shared
     @Environment(\.scenePhase) private var scenePhase
@@ -121,6 +122,9 @@ struct VocalFlashcardsView: View {
                 }
             }
         }
+        .smartStudyDebug(SmartStudyEngine.audio, cards: allCards,
+                         filter: filter, topPadding: 46)
+        // Draws nothing unless SmartStudyDebugOverlay.isEnabled is flipped on.
         .standardNavBar("Audio Flash Cards")
         // The same filter sheet as the written deck — same pool, same controls.
         // Every section of it shapes what this mode deals, so nothing is hidden.
@@ -169,6 +173,15 @@ struct VocalFlashcardsView: View {
         }
         .onAppear {
             if allCards.isEmpty { allCards = VocabDeck.allCards() }
+            // This deck runs its own Smart Study programme, separate from the
+            // written deck's — see `SmartStudyEngine` for why, and for the
+            // ordering rules the calls in `drawNext` and `step` follow. No-op
+            // unless the toggle is on.
+            SmartStudyEngine.audio.prepare(cards: allCards, filter: filter)
+        }
+        .onChange(of: weightSettings.smartStudy) { on in
+            if on { SmartStudyEngine.audio.prepare(cards: allCards, filter: filter) }
+            else { SmartStudyEngine.audio.release() }
         }
         .onDisappear {
             advance?.cancel()
@@ -866,6 +879,8 @@ struct VocalFlashcardsView: View {
     /// which brings the priority weighting across with it. The run has no end —
     /// it keeps dealing until Finish is tapped.
     private func drawNext() {
+        // Before `pool` is read, for the same reason as the written deck.
+        SmartStudyEngine.audio.applyMode(cards: allCards, filter: filter)
         guard let card = filter.selectNext(from: pool, using: sequencer) else {
             finishEarly()
             return
@@ -1057,6 +1072,12 @@ struct VocalFlashcardsView: View {
     }
 
     private func step() {
+        // A card has been through the whole cycle — asked, answered, revealed.
+        // That is what the programme counts, whatever the verdict was, and it
+        // counts here rather than at the summary: this deck defers its
+        // Confident/Needs Work marks to the end of a session, but the cards
+        // themselves have still gone past.
+        SmartStudyEngine.audio.cardAnswered(cards: allCards, filter: filter)
         drawNext()
     }
 

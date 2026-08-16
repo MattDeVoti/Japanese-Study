@@ -392,6 +392,17 @@ final class SpeechService: NSObject, ObservableObject {
     }
 
     /// Tear the session down and build it again from nothing.
+    /// Forces the next utterance to reconfigure the audio session.
+    ///
+    /// The session is shared with the rest of the app. Anything that changes its
+    /// category — Kanji Invaders switches to `.ambient` so the bell switch mutes
+    /// it — leaves `sessionReady` claiming a `.playback` setup that is no longer
+    /// in place, and speech would then be silenced along with the game. Callers
+    /// that borrow the session call this when they hand it back.
+    func invalidateSession() {
+        sessionReady = false
+    }
+
     private func rebuildSession() {
         sessionReady = false
         synth.stopSpeaking(at: .immediate)

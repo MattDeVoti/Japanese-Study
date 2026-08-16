@@ -27,10 +27,16 @@ struct GlowingTitle: View {
     private var hinting: Bool { !unlocks.isUnlocked(.kanjiInvaders) }
 
     var body: some View {
-        HStack(spacing: 2) {
+        HStack(spacing: 0) {
             ForEach(letters.indices, id: \.self) { i in
                 Text(letters[i])
-                    .font(.system(size: 68, weight: .heavy))
+                    // This is the size actually drawn. It used not to be: a
+                    // `minimumScaleFactor` on the enclosing HStack pinned every
+                    // letter at its floor, so the title rendered at half
+                    // whatever was asked for and raising the number did almost
+                    // nothing. Five kana at 54pt come to ~245pt, which clears
+                    // even the narrowest supported screen by a wide margin.
+                    .font(.system(size: 54, weight: .heavy))
                     // Each letter takes its slice of one gradient, so the sweep
                     // runs across the whole word.
                     .foregroundColor(Color.appAccentSweepSample(
@@ -47,7 +53,19 @@ struct GlowingTitle: View {
             }
         }
         .lineLimit(1)
-        .minimumScaleFactor(0.5)
+        // No `minimumScaleFactor` here. On an HStack it is proposed to each
+        // child separately and they collapse to the floor rather than to a fit,
+        // which is what was halving the title. The word is five fixed glyphs at
+        // a fixed size, so there is nothing to scale to anyway.
+        //
+        // Height pinned to the line box this word had at 45pt, so the type can
+        // be resized without shifting the home screen underneath it. The gap
+        // below the title is nearly at its minimum — there is no slack left for
+        // a taller line box to eat — so an unpinned title pushes everything from
+        // the next-test bar downwards. Kana sit well inside their em box, so the
+        // larger glyphs overflow this frame by a few points into empty space
+        // rather than clipping.
+        .frame(height: 54)
         // Same schedule the rest of the hints run on: one sweep shortly after
         // the screen settles, then every thirty seconds. Keyed on `hinting`, so
         // unlocking the game cancels it mid-session rather than at next launch.
@@ -792,6 +810,10 @@ struct KanjiInvadersGame: View {
             .onChange(of: geo.size) { setup($0) }
         }
         .onReceive(tick) { _ in step() }
+        // Loads the players up front so the first shot isn't delayed by decoding,
+        // and hands the shared audio session back on the way out.
+        .onAppear { GameSounds.shared.prepare() }
+        .onDisappear { GameSounds.shared.finish() }
         .statusBarHidden(true)
     }
 
@@ -854,6 +876,9 @@ struct KanjiInvadersGame: View {
     ///   level 3 → ◯   ◐   ●   ◑   ◯      4  (+ inner, alternating)
     ///   level 4 → ◯   ◯   ●   ◯   ◯      5  (inner pair)
     private func fire() {
+        // One shot per volley. A spread firing five bullets is still one trigger
+        // pull, and five overlapping copies of the same sample just sounds loud.
+        GameSounds.shared.play(.laser)
         let y = size.height - 76
         let l = level(.spread)
 
@@ -909,6 +934,10 @@ struct KanjiInvadersGame: View {
     }
 
     private func collect(_ p: Power) {
+        // 命 only earns the new-life sound when it actually grants one. At the
+        // life cap it scrambles a wingman instead, which is an upgrade like any
+        // other — and this has to be read before the `lives += 1` below.
+        GameSounds.shared.play(p == .life && lives < p.maxLevel ? .extraLife : .powerUp)
         switch p {
         case .barrier:
             // Three plates, spread across the lane in front of the ship.
@@ -1001,6 +1030,7 @@ struct KanjiInvadersGame: View {
             if frame % every == 0,
                let shooter = enemies.filter({ $0.y > 0 && $0.y < size.height * 0.72 }).randomElement() {
                 foeShotCount += 1
+                GameSounds.shared.play(.enemyLaser)
                 // Last escalation of all: occasionally the shot is a fan of five.
                 let sprayEvery = seconds > Self.foeSprayFast ? 25 : 50
                 if seconds > Self.foeSprayStart && foeShotCount % sprayEvery == 0 {
@@ -1075,6 +1105,7 @@ struct KanjiInvadersGame: View {
                     }
 
                     deadEnemies.insert(e.id)
+                    GameSounds.shared.play(.explosion)
                     score += Int((Double(10 * e.reading.count) * scoreMultiplier).rounded())
                     for (k, ch) in e.reading.enumerated() {
                         particles.append(Particle(

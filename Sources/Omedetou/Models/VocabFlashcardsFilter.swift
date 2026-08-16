@@ -14,14 +14,26 @@ struct VocabFlashCard: Identifiable {
 enum CardDirection: String, Codable, CaseIterable {
     /// Shown the Japanese, recall the meaning. Recognition.
     case japaneseToEnglish
+    /// Either way, decided per card. Prefers whichever direction you haven't
+    /// checked off yet, so a half-known word is asked the half you're missing.
+    ///
+    /// Sits between the two one-way cases because that is where it belongs on
+    /// the picker — the middle of the two things it mixes. The raw value stays
+    /// `random` so settings saved before it was renamed still load.
+    case random
     /// Shown the meaning, recall the Japanese. Production — much harder, and
     /// the direction that actually gets a word into your mouth.
     case englishToJapanese
-    /// Either way, decided per card. Prefers whichever direction you haven't
-    /// checked off yet, so a half-known word is asked the half you're missing.
-    case random
 
     var isReversed: Bool { self == .englishToJapanese }
+
+    var displayName: String {
+        switch self {
+        case .japaneseToEnglish: return "日本語 → English"
+        case .random:            return "Both"
+        case .englishToJapanese: return "English → 日本語"
+        }
+    }
 
     /// The two real directions a card can be asked in. `.random` resolves to one
     /// of these before anything is shown.

@@ -320,7 +320,6 @@ private struct KanjiOptionsBar: ViewModifier {
     let locked: LockedKanjiChapter?
     @ObservedObject var filter: KanjiFilter
     @ObservedObject var store: CardStore
-    @ObservedObject private var weightSettings = StudyWeightSettings.shared
     @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     let chapterCardIds: [String]
     let onAfterClear: () -> Void
@@ -331,10 +330,7 @@ private struct KanjiOptionsBar: ViewModifier {
             content.toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Picker("Priority", selection: $weightSettings.mode) {
-                            Text("No Priority").tag(WeightMode.none)
-                            Text("Prioritize Needs Work").tag(WeightMode.needsWork)
-                        }
+                        WeightPriorityMenuItems()
                         Divider()
                         Toggle(isOn: $kanjiSettings.includeCommonWords) {
                             Label("Include Example Words", systemImage: "text.book.closed")
