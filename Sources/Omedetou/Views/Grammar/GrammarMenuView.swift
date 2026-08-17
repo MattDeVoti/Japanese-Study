@@ -24,9 +24,8 @@ struct GrammarMenuView: View {
                 VStack(alignment: .leading, spacing: 34) {
 
                     // MARK: Progress
-                    // One entry, shaped like a document rather than a drill tile.
-                    // Reviews live inside it — the home bar surfaces them when any
-                    // are due, and they're test prep rather than a drill of their own.
+                    // One entry, shaped like a document rather than a drill tile:
+                    // it's a record of what you've sat, not another drill.
                     VStack(alignment: .leading, spacing: 12) {
                         Text("Progress")
                             .font(.system(size: 20, weight: .bold))

@@ -30,7 +30,7 @@ struct KanjiMatchView: View {
     /// first one's 0.45s window doesn't cut its own flash short.
     @State private var flashSeq = 0
     @State private var showSummary = false
-    @State private var inspecting: SRSItemID?
+    @State private var inspecting: StudyItemRef?
 
     private struct Attempt: Identifiable {
         let id = UUID()

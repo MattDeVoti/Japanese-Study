@@ -36,10 +36,8 @@ struct ChapterDetailView: View {
         matches([w.kanji, w.kana, w.romaji, w.definition, w.partOfSpeech])
     }
 
-    private func kanjiMatches(_ k: String) -> Bool {
-        let card = cardStore.kanjiCard(for: k)
-        let readings = ((card?.onyomi ?? []) + (card?.kunyomi ?? [])).flatMap { [$0.kana, $0.romaji] }
-        return matches([k, card?.definition ?? ""] + readings)
+    private func kanjiWordMatches(_ w: ChapterKanjiWord) -> Bool {
+        matches([w.word, w.kana, w.romaji, w.meaning] + w.chars)
     }
 
     var body: some View {
@@ -49,7 +47,7 @@ struct ChapterDetailView: View {
             if let chapter = chapter {
                 let points = chapter.points.filter(pointMatches)
                 let vocab = (chapter.vocab ?? []).filter(wordMatches)
-                let kanjiChars = chapter.kanjiChars.filter(kanjiMatches)
+                let kanjiWords = (chapter.kanjiWords ?? []).filter(kanjiWordMatches)
 
                 VStack(spacing: 0) {
                     SearchBar(text: $query,
@@ -66,10 +64,10 @@ struct ChapterDetailView: View {
 
                     if isSearching && searchAllLessons {
                         LessonSearchResultsView(results: globalResults, query: query)
-                    } else if isSearching && points.isEmpty && vocab.isEmpty && kanjiChars.isEmpty {
+                    } else if isSearching && points.isEmpty && vocab.isEmpty && kanjiWords.isEmpty {
                         noMatches
                     } else {
-                        chapterBody(chapter, points: points, vocab: vocab, kanjiChars: kanjiChars)
+                        chapterBody(chapter, points: points, vocab: vocab, kanjiWords: kanjiWords)
                     }
                 }
             } else {
@@ -108,7 +106,7 @@ struct ChapterDetailView: View {
     }
 
     private func chapterBody(_ chapter: LessonChapter, points: [GrammarPoint],
-                             vocab: [LessonVocabWord], kanjiChars: [String]) -> some View {
+                             vocab: [LessonVocabWord], kanjiWords: [ChapterKanjiWord]) -> some View {
         ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
@@ -174,28 +172,28 @@ struct ChapterDetailView: View {
                             }
                         }
 
-                        // Kanji for this chapter (same N-level), shown below the vocab.
-                        if !kanjiChars.isEmpty {
+                        // Kanji for this chapter, taught as words: the reading
+                        // practice for the same vocabulary the chapter teaches,
+                        // plus the essential words of its kanji.
+                        if !kanjiWords.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
-                                SectionHeading("Kanji")
+                                SectionHeading("Kanji Words")
                                     .padding(.top, 10)
 
                                 LazyVGrid(
-                                    columns: [GridItem(.adaptive(minimum: 78), spacing: 8)],
+                                    columns: [GridItem(.adaptive(minimum: 108), spacing: 8)],
                                     alignment: .leading, spacing: 8
                                 ) {
-                                    ForEach(kanjiChars, id: \.self) { kc in
-                                        if let card = cardStore.kanjiCard(for: kc) {
-                                            KanjiExcludeCell(card: card)
-                                                .addToCustomLesson(.kanji(char: card.kanji))
-                                        }
+                                    ForEach(kanjiWords) { entry in
+                                        KanjiWordExcludeCell(entry: entry)
+                                            .addToCustomLessonKanji(chars: entry.chars)
                                     }
                                 }
 
                                 if !isSearching {
                                     NavigationLink {
                                         KanjiStudyView(lockedChapter: LockedKanjiChapter(
-                                            title: chapter.title, kanji: kanjiChars))
+                                            title: chapter.title, words: chapter.kanjiWords ?? []))
                                     } label: {
                                         StudyButtonLabel(title: "Study Kanji", accent: accentColor)
                                     }

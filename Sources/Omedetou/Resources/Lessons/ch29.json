@@ -1,2177 +1,2778 @@
 {
-  "id": "ch29",
-  "chapterNumber": 31,
-  "title": "Contrast and Concession",
-  "points": [
+ "id": "ch29",
+ "chapterNumber": 31,
+ "title": "Contrast and Concession",
+ "points": [
+  {
+   "id": "nagara-mo",
+   "name": "〜ながらも (nagara mo) — despite / even while",
+   "shortDescription": "A formal concessive — 'despite the fact that X, still Y' — where X would normally prevent or contradict Y.",
+   "formation": "Verb stem / い-adj / な-adj stem / Noun + ながら(も)",
+   "explanation": "ながらも wears a formal suit and carries genuine literary weight. Before engaging with it, make sure you're thinking of the right ながら: this is not the ながら you know for simultaneous actions (食[た]べながら話[はな]す = talking while eating). That ながら connects two actions happening at the same time; this ながらも connects contradicting states — where the state before ながらも would normally predict the opposite of what follows.\n\n小[ちい]さいながらも、力強[ちからづよ]いです: smallness predicts weakness, but that prediction is wrong here. 初心者[しょしんしゃ]ながらも、立派[りっぱ]な発表[はっぴょう]をした: beginners normally don't give splendid presentations — this one did. ながらも gravitates naturally toward admirable contradictions: the small thing that punches above its weight, the newcomer who shines anyway. The も adds a touch of emphasis — 'even in spite of that.'\n\nMore literary and formal than のに or ても, ながらも lives in writing, formal speeches, and literature. In conversation, reach for のに or ても instead.",
+   "rules": [
+    "Verb stem / い-adj / な-adj stem / Noun + ながら(も) = despite / even while in that state",
+    "Expresses contradiction — the state before ながらも would normally prevent what follows",
+    "More formal/literary than のに or ても",
+    "The も adds emphasis to the concessive nuance",
+    "Often used for admirable contradictions: small but powerful, poor but happy"
+   ],
+   "examples": [
     {
-      "id": "nagara-mo",
-      "name": "〜ながらも (nagara mo) — despite / even while",
-      "shortDescription": "A formal concessive — 'despite the fact that X, still Y' — where X would normally prevent or contradict Y.",
-      "formation": "Verb stem / い-adj / な-adj stem / Noun + ながら(も)",
-      "explanation": "ながらも wears a formal suit and carries genuine literary weight. Before engaging with it, make sure you're thinking of the right ながら: this is not the ながら you know for simultaneous actions (食[た]べながら話[はな]す = talking while eating). That ながら connects two actions happening at the same time; this ながらも connects contradicting states — where the state before ながらも would normally predict the opposite of what follows.\n\n小[ちい]さいながらも、力強[ちからづよ]いです: smallness predicts weakness, but that prediction is wrong here. 初心者[しょしんしゃ]ながらも、立派[りっぱ]な発表[はっぴょう]をした: beginners normally don't give splendid presentations — this one did. ながらも gravitates naturally toward admirable contradictions: the small thing that punches above its weight, the newcomer who shines anyway. The も adds a touch of emphasis — 'even in spite of that.'\n\nMore literary and formal than のに or ても, ながらも lives in writing, formal speeches, and literature. In conversation, reach for のに or ても instead.",
-      "rules": [
-        "Verb stem / い-adj / な-adj stem / Noun + ながら(も) = despite / even while in that state",
-        "Expresses contradiction — the state before ながらも would normally prevent what follows",
-        "More formal/literary than のに or ても",
-        "The も adds emphasis to the concessive nuance",
-        "Often used for admirable contradictions: small but powerful, poor but happy"
-      ],
-      "examples": [
-        {
-          "japanese": "小[ちい]さいながらも、このカフェは有名[ゆうめい]です。",
-          "romaji": "Chiisai nagara mo, kono kafe wa yuumei desu.",
-          "english": "Despite being small, this café is famous."
-        },
-        {
-          "japanese": "初心者[しょしんしゃ]ながらも、立派[りっぱ]な発表[はっぴょう]をしましたね。",
-          "romaji": "Shoshinsha nagara mo, rippa na happyou wo shimashita ne.",
-          "english": "Despite being a beginner, you gave a splendid presentation."
-        },
-        {
-          "japanese": "残念[ざんねん]ながら、今回[こんかい]はお断[ことわ]りしなければなりません。",
-          "romaji": "Zannen nagara, konkai wa okotowari shinakereba narimasen.",
-          "english": "Unfortunately / despite my regret, I must decline this time."
-        },
-        {
-          "japanese": "忙[いそが]しいながらも、毎日[まいにち]運動[うんどう]するようにしています。",
-          "romaji": "Isogashii nagara mo, mainichi undou suru you ni shite imasu.",
-          "english": "Despite being busy, I make an effort to exercise every day."
-        }
-      ],
-      "flashcardHeader": "〜ながらも",
-      "flashcardAnswer": "Expresses that Y is true even though X would normally prevent or contradict it.",
-      "practice": [
-        {
-          "id": "nagara-mo_q1",
-          "type": "usage",
-          "prompt": "What does 〜ながらも mean?",
-          "japanese": null,
-          "choices": [
-            "while doing X simultaneously",
-            "despite / even though (concurrent state with unexpected result)",
-            "after doing X",
-            "although X is not done"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ながらも = despite / even though (concurrent state with paradoxical or unexpected result). 小[ちい]さいながらも、強[つよ]い = despite being small,  is strong. ながらも is more formal/literary than のに or くせに."
-        },
-        {
-          "id": "nagara-mo_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being a beginner, she performed brilliantly'?",
-          "japanese": null,
-          "choices": [
-            "初心者[しょしんしゃ]ながらも、見事[みごと]な演技[えんぎ]をした。",
-            "初心者[しょしんしゃ]なのに、見事[みごと]な演技[えんぎ]をした。",
-            "初心者[しょしんしゃ]くせに、見事[みごと]な演技[えんぎ]をした。",
-            "初心者[しょしんしゃ]だが、見事[みごと]な演技[えんぎ]をした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ながらも = despite being . 初心者[しょしんしゃ] + ながらも = despite being a beginner. 見事[みごと]な演技[えんぎ]をした = performed brilliantly. ながらも is more literary/admiring than のに (neutral) or くせに (critical)."
-        },
-        {
-          "id": "nagara-mo_q3",
-          "type": "construct",
-          "prompt": "What form attaches before ながらも for い-adjectives?",
-          "japanese": null,
-          "choices": [
-            "い-adj plain form + ながらも",
-            "い-adj stem + ながらも",
-            "い-adj + なながらも",
-            "い-adj + のながらも"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj plain form + ながらも: 小[ちい]さいながらも = despite being small; 弱[よわ]いながらも = despite being weak. No form change needed for い-adjectives — attach ながらも directly to the plain form."
-        },
-        {
-          "id": "nagara-mo_q4",
-          "type": "usage",
-          "prompt": "How does ながらも differ from くせに emotionally?",
-          "japanese": null,
-          "choices": [
-            "They are identical in every way",
-            "ながらも = admiring or neutral (despite X, impressively Y); くせに = critical/resentful (despite X, annoyingly Y)",
-            "ながらも = formal; くせに = literary",
-            "ながらも = for negative results; くせに = for positive results — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "ながらも = despite X, Y (neutral to admiring — Y is often impressive or touching). くせに = despite X, Y (resentful — Y is annoying or inappropriate). 小[ちい]さいながらも強[つよ]い (admiring) vs 小[ちい]さいくせに生意気[なまいき]だ (critical)."
-        },
-        {
-          "id": "nagara-mo_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being poor, they were happy'?",
-          "japanese": null,
-          "choices": [
-            "貧[まず]しいながらも、幸[しあわ]せだった。",
-            "貧[まず]しいなのに、幸[しあわ]せだった。",
-            "貧[まず]しいくせに、幸[しあわ]せだった。",
-            "貧[まず]しいが、幸[しあわ]せだった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + ながらも: 貧[まず]しい + ながらも = despite being poor. 幸[しあわ]せだった = were happy. 貧[まず]しいながらも幸[しあわ]せだった = despite being poor, they were happy (touched/admiring tone)."
-        },
-        {
-          "id": "nagara-mo_q6",
-          "type": "construct",
-          "prompt": "What form attaches before ながらも for VERBS?",
-          "japanese": null,
-          "choices": [
-            "dict-form + ながらも",
-            "te-form + ながらも",
-            "masu-stem + ながらも",
-            "ta-form + ながらも"
-          ],
-          "correctIndex": 2,
-          "explanation": "Masu-stem + ながらも for verbs: 知[し]りながらも (despite knowing), 思[おも]いながらも (despite thinking). 知[し]る → 知[し]り + ながらも = despite knowing. Same stem as the simultaneous ながら."
-        },
-        {
-          "id": "nagara-mo_q7",
-          "type": "translation",
-          "prompt": "Which means 'Despite knowing the truth, he said nothing'?",
-          "japanese": null,
-          "choices": [
-            "真実[しんじつ]を知[し]っているのに、何[なに]も言[い]わなかった。",
-            "真実[しんじつ]を知[し]りながらも、何[なに]も言[い]わなかった。",
-            "真実[しんじつ]を知[し]っているくせに、何[なに]も言[い]わなかった。",
-            "真実[しんじつ]を知[し]ったが、何[なに]も言[い]わなかった。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Masu-stem + ながらも: 知[し]り + ながらも = despite knowing. 何[なに]も言[い]わなかった = said nothing. 真実[しんじつ]を知[し]りながらも、何[なに]も言[い]わなかった = despite knowing the truth, he said nothing (literary/neutral tone)."
-        },
-        {
-          "id": "nagara-mo_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being small, the company is influential'?",
-          "japanese": null,
-          "choices": [
-            "小[ちい]さいながらも、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
-            "小[ちい]さいなのに、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
-            "小[ちい]さいくせに、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
-            "小[ちい]さいでも、影響力[えいきょうりょく]がある会社[かいしゃ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + ながらも: 小[ちい]さい + ながらも = despite being small. 影響力[えいきょうりょく]がある = is influential. ながらも here is admiring — the small size makes the influence more impressive."
-        },
-        {
-          "id": "nagara-mo_q9",
-          "type": "usage",
-          "prompt": "Which situation best fits ながらも (not くせに or のに)?",
-          "japanese": null,
-          "choices": [
-            "A friend who has money but never helps others (critical)",
-            "A student who studied but still failed (disappointing)",
-            "A young artist who created amazing work despite inexperience (admiring/touching)",
-            "A child who knows the rules but breaks them (critical)"
-          ],
-          "correctIndex": 2,
-          "explanation": "ながらも fits admiring or touching contrast: despite inexperience (ながらも), the work is amazing. くせに fits criticism (option 1, 4). のに fits disappointment (option 2). ながらも = 'all the more impressive given the circumstances'."
-        },
-        {
-          "id": "nagara-mo_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being tired, she continued working'?",
-          "japanese": null,
-          "choices": [
-            "疲[つか]れながらも、仕事[しごと]を続[つづ]けた。",
-            "疲[つか]れているながらも、仕事[しごと]を続[つづ]けた。",
-            "疲[つか]れているのに、仕事[しごと]を続[つづ]けた。",
-            "疲[つか]れているくせに、仕事[しごと]を続[つづ]けた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + ながらも: 疲[つか]れ + ながらも = despite being tired. 仕事[しごと]を続[つづ]けた = continued working. 疲[つか]れながらも、仕事[しごと]を続[つづ]けた = despite being tired, she kept working."
-        },
-        {
-          "id": "nagara-mo_q11",
-          "type": "construct",
-          "prompt": "What is the correct form for な-adjectives before ながらも?",
-          "japanese": null,
-          "choices": [
-            "な-adj + ながらも",
-            "な-adj + な + ながらも",
-            "な-adj + の + ながらも",
-            "な-adj + だ + ながらも"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj stem + ながらも: 不便[ふべん]ながらも = despite being inconvenient; 不安[ふあん]ながらも = despite being anxious. No の or な needed — attach ながらも directly to the stem."
-        },
-        {
-          "id": "nagara-mo_q12",
-          "type": "translation",
-          "prompt": "Which means 'Despite being anxious, she smiled'?",
-          "japanese": null,
-          "choices": [
-            "不安[ふあん]ながらも、笑顔[えがお]を見[み]せた。",
-            "不安[ふあん]なのに、笑顔[えがお]を見[み]せた。",
-            "不安[ふあん]くせに、笑顔[えがお]を見[み]せた。",
-            "不安[ふあん]でも、笑顔[えがお]を見[み]せた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + ながらも: 不安[ふあん] (anxious) + ながらも = despite being anxious. 笑顔[えがお]を見[み]せた = showed a smile. ながらも is literary and touching here — her bravery is implied."
-        },
-        {
-          "id": "nagara-mo_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite regretting it, he couldn't apologize'?",
-          "japanese": null,
-          "choices": [
-            "後悔[こうかい]しながらも、謝[あやま]ることができなかった。",
-            "後悔[こうかい]するながらも、謝[あやま]ることができなかった。",
-            "後悔[こうかい]しているながらも、謝[あやま]ることができなかった。",
-            "後悔[こうかい]したながらも、謝[あやま]ることができなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + ながらも: 後悔[こうかい]し + ながらも = despite regretting. 謝[あやま]ることができなかった = couldn't apologize. 後悔[こうかい]しながらも謝[あやま]ることができなかった = despite regretting it, he couldn't apologize."
-        },
-        {
-          "id": "nagara-mo_q14",
-          "type": "usage",
-          "prompt": "ながらも is MOST appropriate in which type of text?",
-          "japanese": null,
-          "choices": [
-            "Casual text messages between friends, with no exceptions in modern standard Japanese.",
-            "Literary, formal, or written contexts (novels, formal speeches, news)",
-            "Rude or angry speech",
-            "Technical manuals"
-          ],
-          "correctIndex": 1,
-          "explanation": "ながらも is more literary/formal than のに or くせに. It's most at home in written Japanese (novels, formal essays, news articles, speeches) or slightly elevated spoken registers. In casual speech, のに or でも are more common."
-        },
-        {
-          "id": "nagara-mo_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite its imperfections, this work is moving'?",
-          "japanese": null,
-          "choices": [
-            "不完全[ふかんぜん]ながらも、この作品[さくひん]は感動的[かんどうてき]だ。",
-            "不完全[ふかんぜん]なのに、この作品[さくひん]は感動的[かんどうてき]だ。",
-            "不完全[ふかんぜん]くせに、この作品[さくひん]は感動的[かんどうてき]だ。",
-            "不完全[ふかんぜん]だが、この作品[さくひん]は感動的[かんどうてき]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + ながらも: 不完全[ふかんぜん] (imperfect) + ながらも = despite being imperfect. 感動的[かんどうてき]だ = is moving. ながらも here conveys admiration — the imperfections make the emotion more genuine."
-        },
-        {
-          "id": "nagara-mo_q16",
-          "type": "translation",
-          "prompt": "Which means 'Despite being uncertain, she stepped forward'?",
-          "japanese": null,
-          "choices": [
-            "確信[かくしん]がないながらも、一歩[いっぽ]を踏[ふ]み出[だ]した。",
-            "確信[かくしん]がないのに、一歩[いっぽ]を踏[ふ]み出[だ]した。",
-            "確信[かくしん]がないくせに、一歩[いっぽ]を踏[ふ]み出[だ]した。",
-            "確信[かくしん]がないでも、一歩[いっぽ]を踏[ふ]み出[だ]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ながらも: 確信[かくしん]がない (not certain) + ながらも = despite being uncertain. 一歩[いっぽ]を踏[ふ]み出[だ]した = stepped forward. ながらも in a literary/admiring context — her courage despite uncertainty."
-        },
-        {
-          "id": "nagara-mo_q17",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being old, the tradition continues'?",
-          "japanese": null,
-          "choices": [
-            "古[ふる]いながらも、伝統[でんとう]が続[つづ]いている。",
-            "古[ふる]いのに、伝統[でんとう]が続[つづ]いている。",
-            "古[ふる]いくせに、伝統[でんとう]が続[つづ]いている。",
-            "古[ふる]くても、伝統[でんとう]が続[つづ]いている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + ながらも: 古[ふる]い + ながらも = despite being old. 伝統[でんとう]が続[つづ]いている = the tradition continues. ながらも in a neutral-admiring literary context."
-        },
-        {
-          "id": "nagara-mo_q18",
-          "type": "usage",
-          "prompt": "Which CORRECTLY shows the contrast between ながらも (admiring) and くせに (critical)?",
-          "japanese": null,
-          "choices": [
-            "若[わか]いながらも優秀[ゆうしゅう]だ (admiringly: young but capable) / 若[わか]いくせに何[なに]もできない (critically: young and useless)",
-            "若[わか]いながらも何[なに]もできない (critically: young and useless) / 若[わか]いくせに優秀[ゆうしゅう]だ (admiringly: young but capable)",
-            "They cannot be used with the same adjective",
-            "ながらも is never admiring; くせに is never critical"
-          ],
-          "correctIndex": 0,
-          "explanation": "若[わか]いながらも優秀[ゆうしゅう]だ = admiring: despite being young, capable. 若[わか]いくせに何[なに]もできない = critical: despite being young (and supposedly energetic), can't do anything. Same adjective (若[わか]い), opposite emotional tones."
-        },
-        {
-          "id": "nagara-mo_q19",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being afraid, he jumped in'?",
-          "japanese": null,
-          "choices": [
-            "怖[こわ]いながらも、飛[と]び込[こ]んだ。",
-            "怖[こわ]いのに、飛[と]び込[こ]んだ。",
-            "怖[こわ]いくせに、飛[と]び込[こ]んだ。",
-            "怖[こわ]くても、飛[と]び込[こ]んだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + ながらも: 怖[こわ]い + ながらも = despite being afraid. 飛[と]び込[こ]んだ = jumped in. ながらも here is admiring of the bravery."
-        },
-        {
-          "id": "nagara-mo_q20",
-          "type": "translation",
-          "prompt": "Which means 'Despite knowing the difficulty, they accepted the challenge'?",
-          "japanese": null,
-          "choices": [
-            "困難[こんなん]を知[し]りながらも、挑戦[ちょうせん]を受[う]け入[い]れた。",
-            "困難[こんなん]を知[し]っているのに、挑戦[ちょうせん]を受[う]け入[い]れた。",
-            "困難[こんなん]を知[し]っているくせに、挑戦[ちょうせん]を受[う]け入[い]れた。",
-            "困難[こんなん]を知[し]って、挑戦[ちょうせん]を受[う]け入[い]れた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + ながらも: 知[し]り + ながらも = despite knowing. 困難[こんなん]を知[し]りながらも = despite knowing the difficulty. 挑戦[ちょうせん]を受[う]け入[い]れた = accepted the challenge. ながらも conveys admiration for their decision."
-        }
-      ]
+     "japanese": "小[ちい]さいながらも、このカフェは有名[ゆうめい]です。",
+     "romaji": "Chiisai nagara mo, kono kafe wa yuumei desu.",
+     "english": "Despite being small, this café is famous."
     },
     {
-      "id": "ni-mo-kakawarazu",
-      "name": "〜にもかかわらず (ni mo kakawarazu) — despite / in spite of",
-      "shortDescription": "A formal, high-register 'despite' — 'in spite of X, still Y' — preferred in writing and official contexts.",
-      "formation": "Verb/い-adj (plain form) + にもかかわらず  |  Noun / な-adj + であるにもかかわらず",
-      "explanation": "にもかかわらず is dressed for a formal occasion. Etymologically, it comes from 関[かか]わる (to be involved/connected) in a classical negative construction, giving a literal sense of 'without regard to' or 'irrespective of.' That formal origin is still present in how it feels: authoritative, measured, official.\n\n努力[どりょく]したにもかかわらず、失敗[しっぱい]してしまいました: despite putting in real effort, failure came anyway — the kind of sentence you'd see in a report or read in a newspaper. のに covers the same semantic ground but brings emotional color — personal disappointment or frustration. にもかかわらず is more detached and objective.\n\nThe practical test: if you'd write it in an official document or say it in a speech, にもかかわらず belongs there. If you'd say it to a friend at dinner, のに or ても are more natural. The standalone form それにもかかわらず (nevertheless / even so) is a handy formal sentence opener.",
-      "rules": [
-        "Plain form + にもかかわらず = despite / in spite of the fact that (formal)",
-        "Noun/な-adj: + であるにもかかわらず (more formal) or just + にもかかわらず",
-        "Very formal — preferred in writing, news, official contexts; のに for conversation",
-        "Highlights a contrast where expected outcome didn't happen",
-        "Similar: それにもかかわらず = nevertheless (at the start of a sentence)"
-      ],
-      "examples": [
-        {
-          "japanese": "一生懸命[いっしょうけんめい]練習[れんしゅう]したにもかかわらず、試合[しあい]に負[ま]けてしまいました。",
-          "romaji": "Isshoukenmei renshuu shita ni mo kakawarazu, shiai ni makete shimaimashita.",
-          "english": "Despite having practiced very hard, we ended up losing the match."
-        },
-        {
-          "japanese": "悪天候[あくてんこう]にもかかわらず、多[おお]くの観客[かんきゃく]が集[あつ]まりました。",
-          "romaji": "Akutenkou ni mo kakawarazu, ooku no kankyaku ga atsumarimashita.",
-          "english": "Despite the bad weather, many spectators gathered."
-        },
-        {
-          "japanese": "警告[けいこく]にもかかわらず、彼[かれ]は危険[きけん]な行動[こうどう]を続[つづ]けました。",
-          "romaji": "Keikoku ni mo kakawarazu, kare wa kiken na koudou wo tsuzukemashita.",
-          "english": "Despite the warning, he continued his dangerous behavior."
-        },
-        {
-          "japanese": "年齢[ねんれい]にもかかわらず、彼女[かのじょ]の演奏[えんそう]は素晴[すば]らしかったです。",
-          "romaji": "Nenrei ni mo kakawarazu, kanojo no ensou wa subarashikatta desu.",
-          "english": "Despite her age, her performance was wonderful."
-        }
-      ],
-      "flashcardHeader": "〜にもかかわらず",
-      "flashcardAnswer": "A formal, high-register 'despite' or 'in spite of' — similar to のに but more literary and objective.",
-      "practice": [
-        {
-          "id": "ni-mo-kakawarazu_q1",
-          "type": "usage",
-          "prompt": "What does 〜にもかかわらず mean?",
-          "japanese": null,
-          "choices": [
-            "because of / owing to",
-            "despite / in spite of (formal/written; stronger than のに)",
-            "while doing",
-            "unless"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜にもかかわらず = despite / in spite of (formal/written, stronger and more emphatic than のに). 悪天候[あくてんこう]にもかかわらず = despite bad weather. More formal and emphatic than casual のに or でも."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite the bad weather, the event went ahead'?",
-          "japanese": null,
-          "choices": [
-            "悪天候[あくてんこう]にもかかわらず、イベントが開催[かいさい]された。",
-            "悪天候[あくてんこう]なのに、イベントが開催[かいさい]された。",
-            "悪天候[あくてんこう]ながらも、イベントが開催[かいさい]された。",
-            "悪天候[あくてんこう]にもかかわらないで、イベントが開催[かいさい]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず = despite . 悪天候[あくてんこう] (bad weather) + にもかかわらず = despite bad weather. イベントが開催[かいさい]された = the event was held. Formal/written nuance."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q3",
-          "type": "usage",
-          "prompt": "What is the register/formality of にもかかわらず compared to のに?",
-          "japanese": null,
-          "choices": [
-            "にもかかわらず is much more casual than のに",
-            "にもかかわらず is more formal/written; のに is casual/spoken",
-            "They are identical in register",
-            "にもかかわらず is only used in spoken Japanese"
-          ],
-          "correctIndex": 1,
-          "explanation": "にもかかわらず = formal/written register (business documents, news, formal reports). のに = casual spoken contrast. Both mean 'despite', but にもかかわらず is significantly more formal and emphatic."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q4",
-          "type": "construct",
-          "prompt": "What form attaches before にもかかわらず for VERBS?",
-          "japanese": null,
-          "choices": [
-            "dict-form + にもかかわらず",
-            "te-form + にもかかわらず",
-            "masu-stem + にもかかわらず",
-            "ta-form + にもかかわらず"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form (or ta-form) + にもかかわらず for verbs: 知[し]っているにもかかわらず = despite knowing; 努力[どりょく]したにもかかわらず = despite having tried hard. Both present and past plain forms work."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q5",
-          "type": "translation",
-          "prompt": "Which means 'Despite his many years of experience, he made a mistake'?",
-          "japanese": null,
-          "choices": [
-            "長年[ながねん]の経験[けいけん]にもかかわらず、彼[かれ]はミスをした。",
-            "長年[ながねん]の経験[けいけん]なのに、彼[かれ]はミスをした。",
-            "長年[ながねん]の経験[けいけん]ながらも、彼[かれ]はミスをした。",
-            "長年[ながねん]の経験[けいけん]でも、彼[かれ]はミスをした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 長年[ながねん]の経験[けいけん] (many years of experience) + にもかかわらず = despite the experience. ミスをした = made a mistake. Formal/written register."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite many warnings, he ignored them'?",
-          "japanese": null,
-          "choices": [
-            "多[おお]くの警告[けいこく]にもかかわらず、彼[かれ]は無視[むし]した。",
-            "多[おお]くの警告[けいこく]なのに、彼[かれ]は無視[むし]した。",
-            "多[おお]くの警告[けいこく]ながらも、彼[かれ]は無視[むし]した。",
-            "多[おお]くの警告[けいこく]でも、彼[かれ]は無視[むし]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 多[おお]くの警告[けいこく] (many warnings) + にもかかわらず = despite many warnings. 無視[むし]した = ignored. Formal and emphatic."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q7",
-          "type": "usage",
-          "prompt": "In what context would you MOST likely see にもかかわらず?",
-          "japanese": null,
-          "choices": [
-            "A casual text message to a friend",
-            "A formal business report or news article",
-            "A conversation between students",
-            "A children's book"
-          ],
-          "correctIndex": 1,
-          "explanation": "にもかかわらず is characteristic of formal written Japanese — business reports, news articles, academic papers, official announcements. It's rarely used in casual conversation."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite the company's efforts, sales declined'?",
-          "japanese": null,
-          "choices": [
-            "会社[かいしゃ]の努力[どりょく]にもかかわらず、売上[うりあげ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]なのに、売上[うりあげ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]ながらも、売上[うりあげ]が落[お]ちた。",
-            "会社[かいしゃ]の努力[どりょく]のため、売上[うりあげ]が落[お]ちた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 会社[かいしゃ]の努力[どりょく] (company efforts) + にもかかわらず = despite the efforts. 売上[うりあげ]が落[お]ちた = sales declined. Formal business context — にもかかわらず is ideal."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q9",
-          "type": "construct",
-          "prompt": "What is the INCORRECT form of にもかかわらず?",
-          "japanese": null,
-          "choices": [
-            "にもかかわらず",
-            "にかかわらず",
-            "にもかかわりなく",
-            "にもかかわりず"
-          ],
-          "correctIndex": 3,
-          "explanation": "にもかかわりず does not exist — the correct forms are にもかかわらず or にかかわらず. にもかかわりなく is also a formal variant (regardless of). にもかかわりず is not a word."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q10",
-          "type": "translation",
-          "prompt": "Which means 'Despite having worked hard, she couldn't pass the exam'?",
-          "japanese": null,
-          "choices": [
-            "一生懸命[いっしょうけんめい]頑張[がんば]ったにもかかわらず、試験[しけん]に合格[ごうかく]できなかった。",
-            "一生懸命[いっしょうけんめい]頑張[がんば]ったのに、試験[しけん]に合格[ごうかく]できなかった。",
-            "一生懸命[いっしょうけんめい]頑張[がんば]ったながらも、試験[しけん]に合格[ごうかく]できなかった。",
-            "一生懸命[いっしょうけんめい]頑張[がんば]ったでも、試験[しけん]に合格[ごうかく]できなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Ta-form + にもかかわらず: 頑張[がんば]った + にもかかわらず = despite having worked hard. 合格[ごうかく]できなかった = couldn't pass. Formal/written expression of disappointing contrast."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q11",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite the doctor's advice, he continued smoking'?",
-          "japanese": null,
-          "choices": [
-            "医師[いし]のアドバイスにもかかわらず、喫煙[きつえん]を続[つづ]けた。",
-            "医師[いし]のアドバイスなのに、喫煙[きつえん]を続[つづ]けた。",
-            "医師[いし]のアドバイスながらも、喫煙[きつえん]を続[つづ]けた。",
-            "医師[いし]のアドバイスのため、喫煙[きつえん]を続[つづ]けた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 医師[いし]のアドバイス (doctor's advice) + にもかかわらず = despite the doctor's advice. 喫煙[きつえん]を続[つづ]けた = continued smoking. Formal register."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q12",
-          "type": "usage",
-          "prompt": "What is the casual/spoken equivalent of にもかかわらず?",
-          "japanese": null,
-          "choices": [
-            "だから (so/therefore) — textbooks treat this as an absolute rule.",
-            "のに (despite/even though — casual)",
-            "だから (therefore)",
-            "そして (and then)"
-          ],
-          "correctIndex": 1,
-          "explanation": "のに is the casual/spoken equivalent of にもかかわらず for expressing 'despite / even though'. テストに合格[ごうかく]したのに = even though I passed the test (casual disappointment). にもかかわらず = same idea but formal/written."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite being an adult, he cried'?",
-          "japanese": null,
-          "choices": [
-            "大人[おとな]にもかかわらず、彼[かれ]は泣[な]いた。",
-            "大人[おとな]なのに、彼[かれ]は泣[な]いた。",
-            "大人[おとな]ながらも、彼[かれ]は泣[な]いた。",
-            "大人[おとな]であるにもかかわらず、彼[かれ]は泣[な]いた。"
-          ],
-          "correctIndex": 3,
-          "explanation": "For nouns with copula: 大人[おとな]である + にもかかわらず = despite being an adult (more formal). 大人[おとな]にもかかわらず (without である) is also acceptable but slightly less formal. Both options 1 and 4 can work; 4 is more formally correct."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q14",
-          "type": "translation",
-          "prompt": "Which means 'Despite repeated requests, the noise continued'?",
-          "japanese": null,
-          "choices": [
-            "度重[たびかさ]なる要求[ようきゅう]にもかかわらず、騒音[そうおん]が続[つづ]いた。",
-            "度重[たびかさ]なる要求[ようきゅう]なのに、騒音[そうおん]が続[つづ]いた。",
-            "度重[たびかさ]なる要求[ようきゅう]ながらも、騒音[そうおん]が続[つづ]いた。",
-            "度重[たびかさ]なる要求[ようきゅう]のため、騒音[そうおん]が続[つづ]いた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 度重[たびかさ]なる要求[ようきゅう] (repeated requests) + にもかかわらず = despite repeated requests. 騒音[そうおん]が続[つづ]いた = noise continued. Formal written register."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite the government's policy, inequality grew'?",
-          "japanese": null,
-          "choices": [
-            "政府[せいふ]の政策[せいさく]にもかかわらず、格差[かくさ]が広[ひろ]がった。",
-            "政府[せいふ]の政策[せいさく]なのに、格差[かくさ]が広[ひろ]がった。",
-            "政府[せいふ]の政策[せいさく]ながらも、格差[かくさ]が広[ひろ]がった。",
-            "政府[せいふ]の政策[せいさく]のせいで、格差[かくさ]が広[ひろ]がった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 政府[せいふ]の政策[せいさく] (government policy) + にもかかわらず = despite the policy. 格差[かくさ]が広[ひろ]がった = inequality grew. Formal academic/news register."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q16",
-          "type": "usage",
-          "prompt": "What does the も in にもかかわらず add?",
-          "japanese": null,
-          "choices": [
-            "It adds 'also' (in addition)",
-            "It strengthens the 'despite' feeling (emphatic — despite even that)",
-            "It indicates past tense",
-            "It is optional and adds no meaning, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "The も in にもかかわらず adds EMPHASIS — 'despite even that'. It strengthens the sense of contradiction. にかかわらず (without も) means 'regardless of'; にもかかわらず adds the emphatic 'even so, in spite of that very thing'."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q17",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite the agreement, both sides continued to fight'?",
-          "japanese": null,
-          "choices": [
-            "合意[ごうい]にもかかわらず、双方[そうほう]は戦[たたか]い続[つづ]けた。",
-            "合意[ごうい]なのに、双方[そうほう]は戦[たたか]い続[つづ]けた。",
-            "合意[ごうい]ながらも、双方[そうほう]は戦[たたか]い続[つづ]けた。",
-            "合意[ごうい]のせいで、双方[そうほう]は戦[たたか]い続[つづ]けた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 合意[ごうい] (agreement) + にもかかわらず = despite the agreement. 双方[そうほう]は戦[たたか]い続[つづ]けた = both sides continued fighting. Formal/journalistic register."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q18",
-          "type": "translation",
-          "prompt": "Which means 'Despite his talent, he didn't practice enough'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の才能[さいのう]にもかかわらず、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[かれ]の才能[さいのう]なのに、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[かれ]の才能[さいのう]ながらも、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
-            "彼[かれ]の才能[さいのう]のおかげで、練習[れんしゅう]が十分[じゅうぶん]ではなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にもかかわらず: 才能[さいのう] (talent) + にもかかわらず = despite the talent. 練習[れんしゅう]が十分[じゅうぶん]ではなかった = didn't practice enough. Formal expression."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q19",
-          "type": "construct",
-          "prompt": "Which correctly says 'Despite multiple chances, he didn't change'?",
-          "japanese": null,
-          "choices": [
-            "何度[なんど]もチャンスがあったにもかかわらず、彼[かれ]は変[か]わらなかった。",
-            "何度[なんど]もチャンスがあったのに、彼[かれ]は変[か]わらなかった。",
-            "何度[なんど]もチャンスがあったながらも、彼[かれ]は変[か]わらなかった。",
-            "何度[なんど]もチャンスがあっても、彼[かれ]は変[か]わらなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Ta-form + にもかかわらず: あった + にもかかわらず = despite there having been. にもかかわらず is formal/written; the others (のに, ながらも, ても) are all progressively less formal alternatives."
-        },
-        {
-          "id": "ni-mo-kakawarazu_q20",
-          "type": "usage",
-          "prompt": "Which sentence CORRECTLY uses にもかかわらず in a formal context?",
-          "japanese": null,
-          "choices": [
-            "ねえ、雨[あめ]なのにかかわらず来[き]たんだね。",
-            "本[ほん]プロジェクトは予算不足[よさんぶそく]にもかかわらず、完遂[かんすい]された。",
-            "あいつは練習[れんしゅう]したにもかかわらず下手[へた]だよ。",
-            "にもかかわらず、彼[かれ]は来[き]た。"
-          ],
-          "correctIndex": 1,
-          "explanation": "本[ほん]プロジェクトは予算不足[よさんぶそく]にもかかわらず、完遂[かんすい]された = the project was completed despite the budget shortfall. Formal written Japanese (project report). Options 1, 3 are too casual; option 4 lacks the first clause."
-        }
-      ]
+     "japanese": "初心者[しょしんしゃ]ながらも、立派[りっぱ]な発表[はっぴょう]をしましたね。",
+     "romaji": "Shoshinsha nagara mo, rippa na happyou wo shimashita ne.",
+     "english": "Despite being a beginner, you gave a splendid presentation."
     },
     {
-      "id": "to-shite-mo",
-      "name": "〜としても (to shite mo) — even if / even assuming that",
-      "shortDescription": "Hypothetically grants a condition as true — 'even if we assume X' — then argues the conclusion still holds.",
-      "formation": "Plain form + としても  |  Noun + だ + としても",
-      "explanation": "としても is the grammar of the careful debater. It means 'even if we assume X is true' — the speaker concedes a point hypothetically, for the sake of argument, and then argues that the main conclusion holds regardless.\n\nそれが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません: 'Even if that's true' — the speaker isn't necessarily agreeing it is true, just granting it as a hypothetical — 'his behavior still cannot be forgiven.' The key is that hypothetical 'even if.' としても doesn't claim X is true; it says 'let's grant it as true and see whether that changes anything.' Often, it doesn't.\n\nThis is analytically more precise than simple ても (even if), which is broader and more general. としても signals a deliberate logical concession: 'I'll grant you this point — but my conclusion is unchanged.' It appears often in debates, academic writing, and careful reasoning — anywhere that logical precision matters.",
-      "rules": [
-        "Plain form + としても = even if (I grant that / even assuming that) X, still Y",
-        "Noun + だ + としても = even if it is the case that [noun]",
-        "Speaker hypothetically concedes the condition to argue the main clause still holds",
-        "More analytical/argumentative than ても; suggests reasoned concession",
-        "Related: 〜にしても = even taking [noun/situation] into account"
-      ],
-      "examples": [
-        {
-          "japanese": "それが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません。",
-          "romaji": "Sore ga hontou da to shite mo, kare no koudou wa yurusaremasen.",
-          "english": "Even if that's true, his behavior cannot be forgiven."
-        },
-        {
-          "japanese": "間[ま]に合[あ]わないとしても、行[い]くだけ行[い]ってみよう。",
-          "romaji": "Ma ni awanai to shite mo, iku dake itte miyou.",
-          "english": "Even if we won't make it in time, let's at least try to go."
-        },
-        {
-          "japanese": "失敗[しっぱい]するとしても、挑戦[ちょうせん]することに意味[いみ]があります。",
-          "romaji": "Shippai suru to shite mo, chousen suru koto ni imi ga arimasu.",
-          "english": "Even if you fail, there is meaning in making the attempt."
-        },
-        {
-          "japanese": "冗談[じょうだん]だとしても、そういう言[い]い方[かた]はよくないですよ。",
-          "romaji": "Joudan da to shite mo, sou iu iikata wa yoku nai desu yo.",
-          "english": "Even if it's a joke, that way of saying it is not good."
-        }
-      ],
-      "flashcardHeader": "〜としても",
-      "flashcardAnswer": "Grants a hypothetical as true for the sake of argument, then asserts the main outcome still holds.",
-      "practice": [
-        {
-          "id": "to-shite-mo_q1",
-          "type": "usage",
-          "prompt": "What does 〜としても mean?",
-          "japanese": null,
-          "choices": [
-            "even if / even assuming that (hypothetical concession)",
-            "because / since",
-            "while doing simultaneously",
-            "in the role of / as"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜としても = even if / even assuming that (hypothetical). たとえ失敗[しっぱい]するとしても = even if I were to fail. としても presents a hypothetical concession and says the result would be the same or an action would still proceed."
-        },
-        {
-          "id": "to-shite-mo_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if that's true, it doesn't change anything'?",
-          "japanese": null,
-          "choices": [
-            "それが本当[ほんとう]だとしても、何[なに]も変[か]わらない。",
-            "それが本当[ほんとう]なのに、何[なに]も変[か]わらない。",
-            "それが本当[ほんとう]でも、何[なに]も変[か]わらない。",
-            "それが本当[ほんとう]ながらも、何[なに]も変[か]わらない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + としても: 本当[ほんとう]だ → 本当[ほんとう]だ + としても = even if that's true (hypothetical). 何[なに]も変[か]わらない = nothing changes. としても more formal/hypothetical; でも more casual."
-        },
-        {
-          "id": "to-shite-mo_q3",
-          "type": "construct",
-          "prompt": "What does たとえ do when used before としても?",
-          "japanese": null,
-          "choices": [
-            "It changes the meaning to 'because'",
-            "It adds the meaning of 'even (hypothetically)' — making the hypothetical more emphatic",
-            "It negates the meaning",
-            "It makes the sentence about the past — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "たとえ〜としても = even if (hypothetically) . たとえ = even if / suppose that. Combined: たとえ失敗[しっぱい]するとしても = even if we were to fail (strong hypothetical emphasis). たとえ makes the hypothetical stronger and more literary."
-        },
-        {
-          "id": "to-shite-mo_q4",
-          "type": "translation",
-          "prompt": "Which means 'Even if I make a mistake, I'll try again'?",
-          "japanese": null,
-          "choices": [
-            "たとえ失敗[しっぱい]するとしても、もう一度[いちど]挑戦[ちょうせん]する。",
-            "たとえ失敗[しっぱい]するとしたら、もう一度[いちど]挑戦[ちょうせん]する。",
-            "たとえ失敗[しっぱい]するとすれば、もう一度[いちど]挑戦[ちょうせん]する。",
-            "たとえ失敗[しっぱい]するとして、もう一度[いちど]挑戦[ちょうせん]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "たとえ + plain form + としても: 失敗[しっぱい]する + としても = even if I were to fail. もう一度[いちど]挑戦[ちょうせん]する = will try again. たとえ〜としても = the standard strong hypothetical concession pattern."
-        },
-        {
-          "id": "to-shite-mo_q5",
-          "type": "usage",
-          "prompt": "What is the difference between 〜としても and 〜ても?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "としても = hypothetical/formal ('even if such were the case'); ても = actual/casual ('even if')",
-            "としても = for actions; ても = for states, and the rule applies to every sentence type.",
-            "としても = past; ても = future"
-          ],
-          "correctIndex": 1,
-          "explanation": "ても = even if (real or likely condition, casual). としても = even if (more hypothetical, formal, 'even assuming that such were the case'). 雨[あめ]が降[ふ]っても = even if it rains (real possibility). 宇宙人[うちゅうじん]がいるとしても = even if extraterrestrials existed (hypothetical)."
-        },
-        {
-          "id": "to-shite-mo_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it is expensive, I want to buy it'?",
-          "japanese": null,
-          "choices": [
-            "高[たか]いとしても、買[か]いたい。",
-            "高[たか]くても、買[か]いたい。",
-            "高[たか]いでも、買[か]いたい。",
-            "高[たか]いながらも、買[か]いたい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + としても: 高[たか]い + としても = even if it were expensive (hypothetical). 高[たか]くても is also correct but more casual/less hypothetical. としても is slightly more formal and hypothetical."
-        },
-        {
-          "id": "to-shite-mo_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if you beg, I won't change my mind'?",
-          "japanese": null,
-          "choices": [
-            "頼[たの]まれるとしても、考[かんが]えを変[か]えない。",
-            "いくら頼[たの]まれるとしても、考[かんが]えを変[か]えない。",
-            "いくら頼[たの]んでも、考[かんが]えを変[か]えない。",
-            "頼[たの]まれるとはいえ、考[かんが]えを変[か]えない。"
-          ],
-          "correctIndex": 1,
-          "explanation": "いくら〜としても = no matter how much / even if (emphasizing degree). いくら頼[たの]まれるとしても = no matter how much I'm asked / even if I were repeatedly begged. 考[かんが]えを変[か]えない = won't change my mind."
-        },
-        {
-          "id": "to-shite-mo_q8",
-          "type": "translation",
-          "prompt": "Which means 'Even assuming this plan succeeds, there will be problems'?",
-          "japanese": null,
-          "choices": [
-            "このプランが成功[せいこう]するとしても、問題[もんだい]は残[のこ]る。",
-            "このプランが成功[せいこう]するなら、問題[もんだい]は残[のこ]る。",
-            "このプランが成功[せいこう]しても、問題[もんだい]は残[のこ]る。",
-            "このプランが成功[せいこう]すれば、問題[もんだい]は残[のこ]る。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜としても = even assuming that / even if hypothetically. 成功[せいこう]する + としても = even assuming it succeeds (hypothetical concession). 問題[もんだい]は残[のこ]る = problems will remain. としても adds the 'even assuming' hypothetical nuance."
-        },
-        {
-          "id": "to-shite-mo_q9",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it were possible, it would take too long'?",
-          "japanese": null,
-          "choices": [
-            "可能[かのう]だとしても、時間[じかん]がかかりすぎる。",
-            "可能[かのう]なのに、時間[じかん]がかかりすぎる。",
-            "可能[かのう]なら、時間[じかん]がかかりすぎる。",
-            "可能[かのう]であれば、時間[じかん]がかかりすぎる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj/noun + だとしても: 可能[かのう]だ + としても = even if it were possible. 時間[じかん]がかかりすぎる = would take too long. Hypothetical concession — even in the best case, problems remain."
-        },
-        {
-          "id": "to-shite-mo_q10",
-          "type": "usage",
-          "prompt": "Which BEST demonstrates the hypothetical nature of としても?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]雨[あめ]が降[ふ]っても、行[い]きます。(real possibility)",
-            "もし宇宙人[うちゅうじん]がいるとしても、証拠[しょうこ]が必要[ひつよう]だ。(pure hypothetical)",
-            "彼女[かのじょ]が怒[おこ]っても、無視[むし]する。(likely situation)",
-            "試験[しけん]に落[お]ちても、諦[あきら]めない。(real risk)"
-          ],
-          "correctIndex": 1,
-          "explanation": "もし宇宙人[うちゅうじん]がいるとしても = even if extraterrestrials existed (pure hypothetical — we're assuming something that may not be true). としても is perfect for hypothetical/counterfactual conditions, unlike ても which is for real/likely possibilities."
-        },
-        {
-          "id": "to-shite-mo_q11",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if he apologizes, I won't forgive him'?",
-          "japanese": null,
-          "choices": [
-            "たとえ謝[あやま]るとしても、許[ゆる]さない。",
-            "たとえ謝[あやま]っても、許[ゆる]さない。",
-            "たとえ謝[あやま]るとしたら、許[ゆる]さない。",
-            "たとえ謝[あやま]ったとしても、許[ゆる]さない。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Ta-form + としても: 謝[あやま]った + としても = even if he were to apologize (or even having apologized). たとえ〜としても = emphatic even-if hypothetical. 許[ゆる]さない = won't forgive."
-        },
-        {
-          "id": "to-shite-mo_q12",
-          "type": "translation",
-          "prompt": "Which means 'Even if you knew the answer, you couldn't tell'?",
-          "japanese": null,
-          "choices": [
-            "答[こた]えを知[し]っているとしても、言[い]えない。",
-            "答[こた]えを知[し]っているのに、言[い]えない。",
-            "答[こた]えを知[し]っているとはいえ、言[い]えない。",
-            "答[こた]えを知[し]っているながらも、言[い]えない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ているとしても: 知[し]っている + としても = even if you knew (hypothetical concession). 言[い]えない = can't say. としても + negative result = even in the favorable case, the conclusion is still X."
-        },
-        {
-          "id": "to-shite-mo_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if the situation changes, the principle remains'?",
-          "japanese": null,
-          "choices": [
-            "状況[じょうきょう]が変[か]わるとしても、原則[げんそく]は変[か]わらない。",
-            "状況[じょうきょう]が変[か]わっても、原則[げんそく]は変[か]わらない。",
-            "状況[じょうきょう]が変[か]わるなら、原則[げんそく]は変[か]わらない。",
-            "状況[じょうきょう]が変[か]われば、原則[げんそく]は変[か]わらない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + としても = even if (formal/hypothetical). 変[か]わる + としても = even if  changes. 原則[げんそく]は変[か]わらない = the principle remains unchanged. としても is natural in formal principle statements."
-        },
-        {
-          "id": "to-shite-mo_q14",
-          "type": "usage",
-          "prompt": "Which sentence uses としても INCORRECTLY?",
-          "japanese": null,
-          "choices": [
-            "たとえ雨[あめ]が降[ふ]るとしても、試合[しあい]は続[つづ]ける。",
-            "彼[かれ]が正[ただ]しいとしても、方法[ほうほう]が問題[もんだい]だ。",
-            "昨日[きのう]行[い]ったとしても、何[なに]も見[み]つからなかった。",
-            "としても、彼[かれ]は来[き]た。"
-          ],
-          "correctIndex": 3,
-          "explanation": "としても cannot start a sentence alone as a conjunction (unlike でも which can). としても must follow the hypothetical clause. としても、彼[かれ]は来[き]た has no first clause — ungrammatical. All other options correctly have a full first clause."
-        },
-        {
-          "id": "to-shite-mo_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if we hurry, we won't make it in time'?",
-          "japanese": null,
-          "choices": [
-            "たとえ急[いそ]いでも、間[ま]に合[あ]わない。",
-            "たとえ急[いそ]ぐとしても、間[ま]に合[あ]わない。",
-            "たとえ急[いそ]げば、間[ま]に合[あ]わない。",
-            "たとえ急[いそ]いだとしても、間[ま]に合[あ]わない。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Dict-form + としても: 急[いそ]ぐ + としても = even if we hurry (hypothetical). 間[ま]に合[あ]わない = won't make it. たとえ〜としても = strong hypothetical. (Option 4 ta-form is also correct: 急[いそ]いだとしても = even if we were to hurry.)"
-        },
-        {
-          "id": "to-shite-mo_q16",
-          "type": "translation",
-          "prompt": "Which means 'Even if technology advances, human connection is important'?",
-          "japanese": null,
-          "choices": [
-            "テクノロジーが進化[しんか]するとしても、人間[にんげん]のつながりは大切[たいせつ]だ。",
-            "テクノロジーが進化[しんか]しても、人間[にんげん]のつながりは大切[たいせつ]だ。",
-            "テクノロジーが進化[しんか]するなら、人間[にんげん]のつながりは大切[たいせつ]だ。",
-            "テクノロジーが進化[しんか]すれば、人間[にんげん]のつながりは大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + としても for hypothetical: 進化[しんか]する + としても = even if technology advances (hypothetical/formal). 人間[にんげん]のつながりは大切[たいせつ]だ = human connection is important. としても suggests 'even assuming the best-case progress'."
-        },
-        {
-          "id": "to-shite-mo_q17",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if she were here, the problem wouldn't be solved'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]がいるとしても、問題[もんだい]は解決[かいけつ]しない。",
-            "彼女[かのじょ]がいても、問題[もんだい]は解決[かいけつ]しない。",
-            "彼女[かのじょ]がいれば、問題[もんだい]は解決[かいけつ]しない。",
-            "彼女[かのじょ]がいるなら、問題[もんだい]は解決[かいけつ]しない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ているとしても (but here: いる + としても = even if she were here). としても for a hypothetical about someone's presence. 問題[もんだい]は解決[かいけつ]しない = the problem wouldn't be solved."
-        },
-        {
-          "id": "to-shite-mo_q18",
-          "type": "usage",
-          "prompt": "What is the nuance of たとえ〜としても vs simply 〜ても?",
-          "japanese": null,
-          "choices": [
-            "たとえ = past only; ても = any tense",
-            "たとえ strengthens the hypothetical concession, making it sound more deliberate and formal",
-            "たとえ = for negative outcomes; ても = for positive outcomes — and this holds in every register, formal or casual.",
-            "No nuance difference"
-          ],
-          "correctIndex": 1,
-          "explanation": "たとえ〜としても = even IF (strongly hypothetical, deliberate, often literary or persuasive). 〜ても = even if (casual, real or hypothetical). たとえ strengthens the concessive feeling and makes the statement sound more considered/formal."
-        },
-        {
-          "id": "to-shite-mo_q19",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if they offered more salary, I wouldn't take the job'?",
-          "japanese": null,
-          "choices": [
-            "給料[きゅうりょう]をもっと上[あ]げてくれるとしても、その仕事[しごと]はしない。",
-            "給料[きゅうりょう]をもっと上[あ]げてくれても、その仕事[しごと]はしない。",
-            "給料[きゅうりょう]をもっと上[あ]げてくれるなら、その仕事[しごと]はしない。",
-            "給料[きゅうりょう]をもっと上[あ]げてくれれば、その仕事[しごと]はしない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜てくれるとしても: 上[あ]げてくれる + としても = even if they were to raise (hypothetical). その仕事[しごと]はしない = wouldn't take the job. としても for hypothetical offer scenario."
-        },
-        {
-          "id": "to-shite-mo_q20",
-          "type": "translation",
-          "prompt": "Which means 'Even if only for a moment, I want to see her'?",
-          "japanese": null,
-          "choices": [
-            "たとえ一瞬[いっしゅん]でも、彼女[かのじょ]に会[あ]いたい。",
-            "たとえ一瞬[いっしゅん]だとしても、彼女[かのじょ]に会[あ]いたい。",
-            "たとえ一瞬[いっしゅん]としても、彼女[かのじょ]に会[あ]いたい。",
-            "一瞬[いっしゅん]なのに、彼女[かのじょ]に会[あ]いたい。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜だとしても: 一瞬[いっしゅん]だ + としても = even if only for a moment (hypothetical). たとえ一瞬[いっしゅん]だとしても = even if it were only for an instant. 彼女[かのじょ]に会[あ]いたい = want to see her. Strong emotional hypothetical."
-        }
-      ]
+     "japanese": "残念[ざんねん]ながら、今回[こんかい]はお断[ことわ]りしなければなりません。",
+     "romaji": "Zannen nagara, konkai wa okotowari shinakereba narimasen.",
+     "english": "Unfortunately / despite my regret, I must decline this time."
     },
     {
-      "id": "tokoro-ga",
-      "name": "〜ところが (tokoro ga) — however / but (unexpected reversal)",
-      "shortDescription": "Signals a surprising reversal of what the first clause led you to expect — 'but then, unexpectedly...'.",
-      "formation": "Statement. ところが + unexpected result / contrast",
-      "explanation": "ところが is the plot-twist connector. It joins two sentences where the first sets up an expectation, and ところが announces that expectation was violated. たくさん練習[れんしゅう]しました。ところが、本番[ほんばん]では全然[ぜんぜん]うまくできませんでした: all that preparation leads you to expect good results — ところが says: wrong.\n\nWhat sets ところが apart from simple が (but) is precisely that element of violated expectation. が merely marks contrast; ところが specifically marks surprise. And what distinguishes it from のに (even though) is register and focus: のに is personal and often carries frustration or disappointment; ところが is more narrative and objective, perfect for storytelling or recounting events where something unexpected happened. Think of it as the 'however' you use when you're telling a story and need to signal a surprising turn. It almost always appears at the start of the second sentence or clause, like a pivot in a narrative.",
-      "rules": [
-        "ところが = 'however' for unexpected reversals — the result contradicts expectations",
-        "Stronger than が (but); more objective than のに (even though — emotional)",
-        "Typically appears at the beginning of the second sentence/clause",
-        "The first clause sets up an expectation; ところが introduces the surprising contradiction",
-        "Common in storytelling, recounting experiences, and explaining outcomes"
-      ],
-      "examples": [
-        {
-          "japanese": "たくさん練習[れんしゅう]しました。ところが、本番[ほんばん]では全然[ぜんぜん]うまくできませんでした。",
-          "romaji": "Takusan renshuu shimashita. Tokoro ga, honban dewa zenzen umaku dekimasen deshita.",
-          "english": "I practiced a lot. However, when it came to the real thing, I couldn't do it well at all."
-        },
-        {
-          "japanese": "絶対[ぜったい]に合格[ごうかく]できると思[おも]っていました。ところが、結果[けっか]は不合格[ふごうかく]でした。",
-          "romaji": "Zettai ni goukaku dekiru to omotte imashita. Tokoro ga, kekka wa fugoukaku deshita.",
-          "english": "I was sure I would pass. However, the result was a failure."
-        },
-        {
-          "japanese": "急[いそ]いで駅[えき]に向[む]かいました。ところが、財布[さいふ]を忘[わす]れてきたことに気[き]づきました。",
-          "romaji": "Isoide eki ni mukaimashita. Tokoro ga, saifu wo wasurete kita koto ni kizukimashita.",
-          "english": "I hurried toward the station. But then I realized I had left my wallet behind."
-        },
-        {
-          "japanese": "昨日[きのう]は雨[あめ]が降[ふ]るだろうと思[おも]っていました。ところが、朝[あさ]から晴[は]れていました。",
-          "romaji": "Kinou wa ame ga furu darou to omotte imashita. Tokoro ga, asa kara harete imashita.",
-          "english": "I thought it would rain yesterday. However, it was sunny from morning."
-        }
-      ],
-      "flashcardHeader": "〜ところが",
-      "flashcardAnswer": "Introduces an unexpected or surprising reversal of what was expected.",
-      "practice": [
-        {
-          "id": "tokoro-ga_q1",
-          "type": "usage",
-          "prompt": "What does 〜ところが mean (as a CONJUNCTION)?",
-          "japanese": null,
-          "choices": [
-            "while / at the moment when",
-            "however / but (unexpected reversal — contrary to expectation)",
-            "therefore / so",
-            "in addition / moreover"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ところが = however / but (strong unexpected reversal). It expresses that the result or situation was CONTRARY to expectation. 連絡[れんらく]しようとした。ところが、電話[でんわ]が壊[こわ]れていた = I tried to contact . However, my phone was broken."
-        },
-        {
-          "id": "tokoro-ga_q2",
-          "type": "construct",
-          "prompt": "Which correctly uses ところが for unexpected reversal?",
-          "japanese": null,
-          "choices": [
-            "試験[しけん]は難[むずか]しかった。ところが、不合格[ふごうかく]だった。",
-            "試験[しけん]は難[むずか]しかった。だから、不合格[ふごうかく]だった。",
-            "試験[しけん]は難[むずか]しかった。ところが、合格[ごうかく]した。",
-            "試験[しけん]は簡単[かんたん]だった。ところが、合格[ごうかく]した。"
-          ],
-          "correctIndex": 2,
-          "explanation": "ところが = unexpected result. 試験[しけん]は難[むずか]しかった = the exam was hard (expectation: fail). ところが = but/however. 合格[ごうかく]した = passed. This is the classic ところが use: expected to fail, but unexpectedly passed."
-        },
-        {
-          "id": "tokoro-ga_q3",
-          "type": "usage",
-          "prompt": "What MUST be true about the result clause after ところが?",
-          "japanese": null,
-          "choices": [
-            "It must be in the past tense",
-            "It must describe a result contrary to what was expected based on the first clause",
-            "It must describe a positive outcome",
-            "It must be shorter than the first clause, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "After ところが, the result MUST be contrary to what the first clause would lead you to expect. If you expect success → ところが → failure. If you expect easy → ところが → hard. This unexpected reversal is the defining feature."
-        },
-        {
-          "id": "tokoro-ga_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought it would be difficult, but it was easy'?",
-          "japanese": null,
-          "choices": [
-            "難[むずか]しいと思[おも]った。だから、簡単[かんたん]だった。",
-            "難[むずか]しいと思[おも]った。ところが、簡単[かんたん]だった。",
-            "難[むずか]しいと思[おも]った。しかし、簡単[かんたん]だった。",
-            "難[むずか]しいと思[おも]った。ところで、簡単[かんたん]だった。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Expectation: thought it would be difficult. ところが = unexpected reversal. Result: was easy (contrary to expectation). 難[むずか]しいと思[おも]った。ところが、簡単[かんたん]だった = I thought it would be hard, but it turned out to be easy."
-        },
-        {
-          "id": "tokoro-ga_q5",
-          "type": "usage",
-          "prompt": "What is the difference between ところが and しかし?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "しかし = general contrast (but/however); ところが = UNEXPECTED reversal (emphasizes that the result was contrary to expectations)",
-            "しかし = more formal; ところが = casual",
-            "ところが = for future events; しかし = for past — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "しかし = general 'but/however' (any contrast). ところが = specifically UNEXPECTED reversal — the result must be contrary to what was anticipated. しかし can contrast without surprise; ところが always implies 'I didn't expect this'."
-        },
-        {
-          "id": "tokoro-ga_q6",
-          "type": "construct",
-          "prompt": "Which correctly uses ところが for unexpected positive outcome?",
-          "japanese": null,
-          "choices": [
-            "新[あたら]しいレストランに行[い]ってみた。ところが、とても美味[おい]しかった。",
-            "新[あたら]しいレストランに行[い]ってみた。しかし、とても美味[おい]しかった。",
-            "新[あたら]しいレストランに行[い]ってみた。だから、とても美味[おい]しかった。",
-            "新[あたら]しいレストランに行[い]ってみた。ところで、とても美味[おい]しかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: new restaurant = uncertain (might not be good). ところが = unexpected reversal. Result: was delicious (unexpectedly good). 新[あたら]しいレストランに行[い]ってみた。ところが、とても美味[おい]しかった = tried the new restaurant; it was surprisingly delicious!"
-        },
-        {
-          "id": "tokoro-ga_q7",
-          "type": "construct",
-          "prompt": "Which correctly uses ところが for unexpected negative outcome?",
-          "japanese": null,
-          "choices": [
-            "薬[くすり]を飲[の]んだ。ところが、頭痛[ずつう]がひどくなった。",
-            "薬[くすり]を飲[の]んだ。だから、頭痛[ずつう]がひどくなった。",
-            "薬[くすり]を飲[の]んだ。そして、頭痛[ずつう]がひどくなった。",
-            "薬[くすり]を飲[の]んだ。また、頭痛[ずつう]がひどくなった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: took medicine = should feel better. ところが = unexpected reversal. Result: headache got worse (contrary to expectation). 薬[くすり]を飲[の]んだ。ところが、頭痛[ずつう]がひどくなった = I took medicine; however, my headache got worse."
-        },
-        {
-          "id": "tokoro-ga_q8",
-          "type": "usage",
-          "prompt": "ところが is MOST natural when used with which verb type?",
-          "japanese": null,
-          "choices": [
-            "Action verbs showing clear intentions/expectations followed by contrary outcomes",
-            "Stative verbs describing emotions, regardless of context or politeness level.",
-            "Potential verbs",
-            "Causative verbs"
-          ],
-          "correctIndex": 0,
-          "explanation": "ところが is most natural after action verbs expressing intention or attempt: 試[ため]した、行[い]った、連絡[れんらく]した etc. (I tried, I went, I contacted) → ところが → unexpected result. The action's expected outcome is reversed."
-        },
-        {
-          "id": "tokoro-ga_q9",
-          "type": "construct",
-          "prompt": "Which correctly uses ところが: 'I waited for an hour; nobody came'?",
-          "japanese": null,
-          "choices": [
-            "1時間待[じかんまち]った。ところが、誰[だれ]も来[こ]なかった。",
-            "1時間待[じかんまち]った。だから、誰[だれ]も来[こ]なかった。",
-            "1時間待[じかんまち]った。ところで、誰[だれ]も来[こ]なかった。",
-            "1時間待[じかんまち]った。なぜなら、誰[だれ]も来[こ]なかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: waited an hour = someone should come. ところが = unexpected reversal. Result: nobody came (contrary to expectation). 1時間待[じかんまち]った。ところが、誰[だれ]も来[こ]なかった = I waited an hour; however, nobody came."
-        },
-        {
-          "id": "tokoro-ga_q10",
-          "type": "translation",
-          "prompt": "Which means 'I thought I had lost my wallet, but it was in my bag'?",
-          "japanese": null,
-          "choices": [
-            "財布[さいふ]をなくしたと思[おも]った。ところが、バッグの中[なか]にあった。",
-            "財布[さいふ]をなくしたと思[おも]った。だから、バッグの中[なか]にあった。",
-            "財布[さいふ]をなくしたと思[おも]った。ところで、バッグの中[なか]にあった。",
-            "財布[さいふ]をなくしたと思[おも]った。しかし、バッグの中[なか]にあった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: thought I lost my wallet (bad). ところが = unexpected reversal. Result: it was in my bag (unexpectedly good). ところが = relief after unexpected positive reversal. しかし (option 4) is weaker and doesn't capture the surprise as well."
-        },
-        {
-          "id": "tokoro-ga_q11",
-          "type": "construct",
-          "prompt": "Which INCORRECTLY uses ところが (result is NOT unexpected)?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]が走[はし]った。ところが、疲[つか]れた。",
-            "たくさん食[た]べた。ところが、お腹[なか]が空[す]いた。",
-            "一生懸命[いっしょうけんめい]練習[れんしゅう]した。ところが、優勝[ゆうしょう]した。",
-            "急[いそ]いだ。ところが、遅刻[ちこく]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "彼[かれ]が走[はし]った。ところが、疲[つか]れた = he ran; however, he got tired. Getting tired from running is EXPECTED, not unexpected. ところが requires an UNEXPECTED reversal. The other options all have genuine reversals of expectations."
-        },
-        {
-          "id": "tokoro-ga_q12",
-          "type": "usage",
-          "prompt": "What is ところで (different from ところが) used for?",
-          "japanese": null,
-          "choices": [
-            "Unexpected reversal (same as ところが) — this is true in both spoken and written Japanese.",
-            "Topic change — 'by the way' (completely unrelated to ところが)",
-            "Simultaneous actions",
-            "Listing reasons"
-          ],
-          "correctIndex": 1,
-          "explanation": "ところで = 'by the way' (topic change). ところが = 'however' (unexpected reversal). These are completely different. Don't confuse them! ところで、今[いま]何時[なんじ]ですか = by the way, what time is it? ところが、結果[けっか]は反対[はんたい]だった = however, the result was opposite."
-        },
-        {
-          "id": "tokoro-ga_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'I tried to quit smoking, but I failed'?",
-          "japanese": null,
-          "choices": [
-            "タバコをやめようとした。ところが、失敗[しっぱい]した。",
-            "タバコをやめようとした。だから、失敗[しっぱい]した。",
-            "タバコをやめようとした。ところで、失敗[しっぱい]した。",
-            "タバコをやめようとした。しかし、失敗[しっぱい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ところが = unexpected failure: tried to quit → expected to succeed → ところが → failed. 失敗[しっぱい]した (failed) is contrary to the hope of quitting successfully. ところが is the best fit for this disappointed reversal."
-        },
-        {
-          "id": "tokoro-ga_q14",
-          "type": "translation",
-          "prompt": "Which means 'The project seemed to be going well, but problems arose'?",
-          "japanese": null,
-          "choices": [
-            "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。ところが、問題[もんだい]が発生[はっせい]した。",
-            "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。だから、問題[もんだい]が発生[はっせい]した。",
-            "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。ところで、問題[もんだい]が発生[はっせい]した。",
-            "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。そして、問題[もんだい]が発生[はっせい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: project going smoothly = expected to succeed. ところが = unexpected reversal. Result: problems arose (contrary to expectation). ところが is ideal for this business/formal unexpected complication."
-        },
-        {
-          "id": "tokoro-ga_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'Everyone said the film was boring; I thought it was excellent'?",
-          "japanese": null,
-          "choices": [
-            "みんながつまらないと言[い]った。ところが、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
-            "みんながつまらないと言[い]った。だから、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
-            "みんながつまらないと言[い]った。ところで、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
-            "みんながつまらないと言[い]った。しかし、私[わたし]はとても面白[おもしろ]いと思[おも]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation from others' comments: boring. ところが = unexpected reversal (the speaker's personal experience was contrary). 私[わたし]はとても面白[おもしろ]いと思[おも]った = I thought it was very good. Subjectivity reversal."
-        },
-        {
-          "id": "tokoro-ga_q16",
-          "type": "usage",
-          "prompt": "Which BEST describes what makes ところが unique among contrasting conjunctions?",
-          "japanese": null,
-          "choices": [
-            "It can start sentences, unlike しかし",
-            "It always refers to the past",
-            "The REVERSAL must be unexpected or contrary to established expectation (not just any contrast)",
-            "It is only used in written Japanese, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 2,
-          "explanation": "ところが's defining feature: the reversal MUST be unexpected. Any old contrast can use しかし or でも; ところが requires the listener to feel 'that wasn't what I expected'. The surprise or contrary-to-expectation feeling is the core feature."
-        },
-        {
-          "id": "tokoro-ga_q17",
-          "type": "construct",
-          "prompt": "Which correctly uses ところが: 'I expected to fail; I passed'?",
-          "japanese": null,
-          "choices": [
-            "落[お]ちると思[おも]った。ところが、合格[ごうかく]した。",
-            "落[お]ちると思[おも]った。だから、合格[ごうかく]した。",
-            "落[お]ちると思[おも]った。ところで、合格[ごうかく]した。",
-            "落[お]ちると思[おも]った。なので、合格[ごうかく]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: thought I'd fail. ところが = unexpected positive reversal. 合格[ごうかく]した = passed. 落[お]ちると思[おも]った。ところが、合格[ごうかく]した = I expected to fail, but I passed. Classic ところが surprise."
-        },
-        {
-          "id": "tokoro-ga_q18",
-          "type": "translation",
-          "prompt": "Which means 'I called him; however, there was no answer'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]に電話[でんわ]した。ところが、出[で]なかった。",
-            "彼[かれ]に電話[でんわ]した。だから、出[で]なかった。",
-            "彼[かれ]に電話[でんわ]した。ところで、出[で]なかった。",
-            "彼[かれ]に電話[でんわ]した。そして、出[で]なかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Expectation: called him = expected answer. ところが = unexpected reversal. 出[で]なかった = didn't answer (contrary to expectation). 電話[でんわ]した。ところが、出[で]なかった = I called him; however, there was no answer."
-        },
-        {
-          "id": "tokoro-ga_q19",
-          "type": "construct",
-          "prompt": "Which INCORRECTLY uses ところが (result IS expected)?",
-          "japanese": null,
-          "choices": [
-            "頑張[がんば]った。ところが、うまくいかなかった。",
-            "雨[あめ]が降[ふ]った。ところが、傘[かさ]を忘[わす]れた。",
-            "宿題[しゅくだい]をしたら、先生[せんせい]に褒[ほ]められた。ところが、クラスの雰囲気[ふんいき]が悪[わる]くなった。",
-            "毎日[まいにち]練習[れんしゅう]した。ところが、上手[じょうず]になれなかった。"
-          ],
-          "correctIndex": 1,
-          "explanation": "雨[あめ]が降[ふ]った。ところが、傘[かさ]を忘[わす]れた = it rained; however, I forgot my umbrella. Forgetting an umbrella on a rainy day is unfortunate but NOT contrary to expectation caused by the rain. ところが requires the result to be contrary to what the first clause implies, not just unfortunate."
-        },
-        {
-          "id": "tokoro-ga_q20",
-          "type": "usage",
-          "prompt": "Which sentence BEST shows ところが's unexpected reversal?",
-          "japanese": null,
-          "choices": [
-            "電車[でんしゃ]に乗[の]った。ところが、到着[とうちゃく]した。",
-            "簡単[かんたん]だと聞[き]いていた。ところが、非常[ひじょう]に難[むずか]しかった。",
-            "勉強[べんきょう]した。ところが、勉強[べんきょう]した。",
-            "寝[ね]た。ところが、朝[あさ]になった。"
-          ],
-          "correctIndex": 1,
-          "explanation": "簡単[かんたん]だと聞[き]いていた = I was told it was easy (expectation: should be easy). ところが = unexpected reversal. 非常[ひじょう]に難[むずか]しかった = it was extremely difficult (completely contrary to the expectation). Classic ところが usage."
-        }
-      ]
-    },
-    {
-      "id": "ippou-de",
-      "name": "〜一方[いっぽう]で (ippou de) — on the other hand / while / at the same time",
-      "shortDescription": "Holds two contrasting or coexisting realities in balance — 'while / on the other hand / at the same time'.",
-      "formation": "Verb/adj (plain form) + 一方[いっぽう](で)  |  Noun + で + ある + 一方[いっぽう](で)",
-      "explanation": "一方[いっぽう]で (literally 'on one side') doesn't choose sides. It holds two aspects of a situation up together and presents both with equal weight. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっています: the economy is growing AND inequality is widening — both are true, both matter equally.\n\nThat balance is what makes 一方[いっぽう]で different from しかし (which pivots decisively in one direction) or でも (which minimizes the first clause). 一方[いっぽう]で says: these two realities coexist, and both deserve acknowledgment. It's the grammar of nuance, of honest complexity — which is why it lives in journalism, academic writing, and serious analysis.\n\nIt also works for describing a person with contrasting sides: 厳[きび]しい一方[いっぽう]で、とても優[やさ]しいところもある (strict on one side, but genuinely kind too). Whenever you want to give a balanced 'on the one hand... on the other hand' framing, 一方[いっぽう]で is your structure.",
-      "rules": [
-        "Plain form + 一方[いっぽう](で) = while / on the other hand / at the same time (coexisting contrast)",
-        "Noun + の + 一方[いっぽう](で) = on the [noun] side / while on the [noun] front",
-        "Presents two simultaneous aspects with equal weight — not a simple reversal",
-        "More formal and balanced than しかし (however) or でも (but)",
-        "一方[いっぽう] alone can mean 'on one side/hand'; 一方[いっぽう]で introduces the contrast"
-      ],
-      "examples": [
-        {
-          "japanese": "人口[じんこう]が増[ふ]えている一方[いっぽう]で、食料[しょくりょう]不足[ぶそく]が深刻[しんこく]になっています。",
-          "romaji": "Jinkou ga fuete iru ippou de, shokuryou busoku ga shinkoku ni natte imasu.",
-          "english": "While the population is growing, food shortages are becoming more serious."
-        },
-        {
-          "japanese": "彼女[かのじょ]は仕事[しごと]では厳[きび]しい一方[いっぽう]で、プライベートではとても穏[おだ]やかです。",
-          "romaji": "Kanojo wa shigoto dewa kibishii ippou de, puraibeeto dewa totemo odayaka desu.",
-          "english": "At work she is strict, while in private she is very calm."
-        },
-        {
-          "japanese": "都市化[としか]が進[すす]む一方[いっぽう]で、農村[のうそん]地域[ちいき]は過疎[かそ]化[か]が問題[もんだい]になっています。",
-          "romaji": "Toshika ga susumu ippou de, nousonchiiki wa kasoka ga mondai ni natte imasu.",
-          "english": "While urbanization progresses, rural areas are facing the problem of depopulation."
-        },
-        {
-          "japanese": "勉強[べんきょう]が楽[たの]しい一方[いっぽう]で、プレッシャーも大[おお]きいです。",
-          "romaji": "Benkyou ga tanoshii ippou de, puresshaa mo ookii desu.",
-          "english": "While studying is enjoyable, the pressure is also great."
-        }
-      ],
-      "flashcardHeader": "〜一方で",
-      "flashcardAnswer": "Presents two contrasting or coexisting aspects of a situation with equal weight.",
-      "practice": [
-        {
-          "id": "ippou-de_q1",
-          "type": "usage",
-          "prompt": "What does 〜一方[いっぽう]で mean?",
-          "japanese": null,
-          "choices": [
-            "on the other hand / while / at the same time (comparing two contrasting aspects or parallel situations)",
-            "however / but (unexpected result)",
-            "moreover / in addition to that",
-            "because of / due to"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜一方[いっぽう]で = on the other hand / while / at the same time. It introduces a CONTRASTING or PARALLEL aspect. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっている = while the economy is growing, inequality is also widening."
-        },
-        {
-          "id": "ippou-de_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'While the city is developing, the environment is also deteriorating'?",
-          "japanese": null,
-          "choices": [
-            "都市[とし]が発展[はってん]している一方[いっぽう]で、環境[かんきょう]が悪化[あっか]している。",
-            "都市[とし]が発展[はってん]しているのに、環境[かんきょう]が悪化[あっか]している。",
-            "都市[とし]が発展[はってん]しているところが、環境[かんきょう]が悪化[あっか]している。",
-            "都市[とし]が発展[はってん]しているながらも、環境[かんきょう]が悪化[あっか]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で = while / on the other hand. 発展[はってん]している + 一方[いっぽう]で = while developing. 環境[かんきょう]が悪化[あっか]している = environment is deteriorating. Two simultaneous but contrasting trends."
-        },
-        {
-          "id": "ippou-de_q3",
-          "type": "construct",
-          "prompt": "What form attaches before 一方[いっぽう]で for VERBS?",
-          "japanese": null,
-          "choices": [
-            "te-form + 一方[いっぽう]で",
-            "plain form + 一方[いっぽう]で",
-            "masu-stem + 一方[いっぽう]で",
-            "ta-form + 一方[いっぽう]で"
-          ],
-          "correctIndex": 1,
-          "explanation": "Plain form (dict or ている form) + 一方[いっぽう]で. 経済[けいざい]が成長[せいちょう]する一方[いっぽう]で = while the economy grows. 物価[ぶっか]が上[あ]がっている一方[いっぽう]で = while prices are rising. Plain form before 一方[いっぽう]で."
-        },
-        {
-          "id": "ippou-de_q4",
-          "type": "usage",
-          "prompt": "What distinguishes 一方[いっぽう]で from 一方[いっぽう]だ?",
-          "japanese": null,
-          "choices": [
-            "They are the same",
-            "一方[いっぽう]で = contrasting/parallel situation ('while X, also Y'); 一方[いっぽう]だ = getting worse/better in one direction only (unidirectional change: 'keeps on -ing')",
-            "一方[いっぽう]で = formal; 一方[いっぽう]だ = casual",
-            "一方[いっぽう]で = for people; 一方[いっぽう]だ = for events — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "一方[いっぽう]で = while X, also Y (contrast or parallel). 一方[いっぽう]だ = keeps getting more X / going only in one direction. 寒[さむ]くなる一方[いっぽう]だ = it keeps getting colder (one direction). 経済[けいざい]が成長[せいちょう]する一方[いっぽう]で、格差[かくさ]も広[ひろ]がる = while economy grows, inequality also widens (two directions)."
-        },
-        {
-          "id": "ippou-de_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'While she works hard, her colleague barely does anything'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]く一方[いっぽう]で、同僚[どうりょう]はほとんど何[なに]もしない。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]くのに、同僚[どうりょう]はほとんど何[なに]もしない。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]くところが、同僚[どうりょう]はほとんど何[なに]もしない。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]きながら、同僚[どうりょう]はほとんど何[なに]もしない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + 一方[いっぽう]で: 働[はたら]く + 一方[いっぽう]で = while working. 同僚[どうりょう]はほとんど何[なに]もしない = colleague barely does anything. Two contrasting situations happening at the same time."
-        },
-        {
-          "id": "ippou-de_q6",
-          "type": "translation",
-          "prompt": "Which means 'While smartphones are convenient, they also cause problems'?",
-          "japanese": null,
-          "choices": [
-            "スマートフォンは便利[べんり]な一方[いっぽう]で、問題[もんだい]も引[ひ]き起[お]こす。",
-            "スマートフォンは便利[べんり]なのに、問題[もんだい]も引[ひ]き起[お]こす。",
-            "スマートフォンは便利[べんり]なところが、問題[もんだい]も引[ひ]き起[お]こす。",
-            "スマートフォンは便利[べんり]ながらも、問題[もんだい]も引[ひ]き起[お]こす。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + な + 一方[いっぽう]で: 便利[べんり]な + 一方[いっぽう]で = while convenient. 問題[もんだい]も引[ひ]き起[お]こす = also causes problems. Two coexisting aspects (positive and negative) of smartphones."
-        },
-        {
-          "id": "ippou-de_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'On the one hand, technology improves our lives; on the other hand, it isolates us'?",
-          "japanese": null,
-          "choices": [
-            "テクノロジーは生活[せいかつ]を向上[こうじょう]させる一方[いっぽう]で、孤立[こりつ]をもたらす。",
-            "テクノロジーは生活[せいかつ]を向上[こうじょう]させるのに、孤立[こりつ]をもたらす。",
-            "テクノロジーは生活[せいかつ]を向上[こうじょう]させながら、孤立[こりつ]をもたらす。",
-            "テクノロジーは生活[せいかつ]を向上[こうじょう]させているが、孤立[こりつ]をもたらす。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で = 'on one hand / while X, also Y'. 向上[こうじょう]させる + 一方[いっぽう]で = while improving. 孤立[こりつ]をもたらす = brings isolation. Two coexisting aspects of technology."
-        },
-        {
-          "id": "ippou-de_q8",
-          "type": "usage",
-          "prompt": "一方[いっぽう]で is MOST appropriate in which type of writing?",
-          "japanese": null,
-          "choices": [
-            "Personal diary entries, with no exceptions in modern standard Japanese.",
-            "Casual text messages",
-            "Analytical or academic writing discussing two contrasting aspects simultaneously",
-            "Humorous fiction"
-          ],
-          "correctIndex": 2,
-          "explanation": "一方[いっぽう]で is characteristic of analytical/academic/news writing where two aspects of a situation are compared or contrasted. 経済成長[けいざいせいちょう]の一方[いっぽう]で環境問題[かんきょうもんだい]が悪化[あっか]している = a typical 一方[いっぽう]で usage in news/academic text."
-        },
-        {
-          "id": "ippou-de_q9",
-          "type": "construct",
-          "prompt": "Which correctly says 'While working, she studies at night school'?",
-          "japanese": null,
-          "choices": [
-            "働[はたら]きながら、夜学[やがく]で勉強[べんきょう]している。",
-            "働[はたら]く一方[いっぽう]で、夜学[やがく]で勉強[べんきょう]している。",
-            "働[はたら]いているのに、夜学[やがく]で勉強[べんきょう]している。",
-            "働[はたら]いているところが、夜学[やがく]で勉強[べんきょう]している。"
-          ],
-          "correctIndex": 1,
-          "explanation": "一方[いっぽう]で for parallel activities of the same person. 働[はたら]く + 一方[いっぽう]で = while working (also doing something else). 夜学[やがく]で勉強[べんきょう]している = studies at night school. Two activities running simultaneously. (ながら = same-moment; 一方[いっぽう]で = broader parallel activities.)"
-        },
-        {
-          "id": "ippou-de_q10",
-          "type": "translation",
-          "prompt": "Which means 'While the population is decreasing, the birth rate is also falling'?",
-          "japanese": null,
-          "choices": [
-            "人口[じんこう]が減少[げんしょう]している一方[いっぽう]で、出生率[しゅっせいりつ]も低下[ていか]している。",
-            "人口[じんこう]が減少[げんしょう]しているのに、出生率[しゅっせいりつ]も低下[ていか]している。",
-            "人口[じんこう]が減少[げんしょう]しているながらも、出生率[しゅっせいりつ]も低下[ていか]している。",
-            "人口[じんこう]が減少[げんしょう]しているところが、出生率[しゅっせいりつ]も低下[ていか]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で = while / parallel trend. 減少[げんしょう]している + 一方[いっぽう]で = while declining. 出生率[しゅっせいりつ]も低下[ていか]している = birth rate is also declining. Two parallel demographic trends."
-        },
-        {
-          "id": "ippou-de_q11",
-          "type": "construct",
-          "prompt": "Which correctly uses 一方[いっぽう]だ (NOT 一方[いっぽう]で): 'Traffic keeps getting worse'?",
-          "japanese": null,
-          "choices": [
-            "交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]で、道路[どうろ]が増[ふ]えた。",
-            "交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]だ。",
-            "交通渋滞[こうつうじゅうたい]がひどくなった一方[いっぽう]で、道路[どうろ]が増[ふ]えた。",
-            "交通渋滞[こうつうじゅうたい]がひどくなる。一方[いっぽう]だ。"
-          ],
-          "correctIndex": 1,
-          "explanation": "一方[いっぽう]だ (not 一方[いっぽう]で): 一方[いっぽう]だ = gets worse and worse / keeps going in one direction. 交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]だ = traffic keeps getting worse and worse (no end in sight). 一方[いっぽう]で = contrastive (two things simultaneously)."
-        },
-        {
-          "id": "ippou-de_q12",
-          "type": "usage",
-          "prompt": "Which best shows the PARALLEL use of 一方[いっぽう]で (same subject, two simultaneous aspects)?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は英語[えいご]を教[おし]える一方[いっぽう]で、日本語[にほんご]を学[まな]んでいる。",
-            "英語[えいご]が難[むずか]しいながらも、彼[かれ]は学[まな]んでいる。",
-            "英語[えいご]を勉強[べんきょう]したところが、テストに落[お]ちた。",
-            "英語[えいご]が得意[とくい]なのに、話[はな]せない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "彼[かれ]は英語[えいご]を教[おし]える一方[いっぽう]で、日本語[にほんご]を学[まな]んでいる = while he teaches English, he's also learning Japanese. Same subject (him), two simultaneous activities — 一方[いっぽう]で for PARALLEL activities of same person."
-        },
-        {
-          "id": "ippou-de_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'While exports are increasing, domestic demand is shrinking'?",
-          "japanese": null,
-          "choices": [
-            "輸出[ゆしゅつ]が増加[ぞうか]している一方[いっぽう]で、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
-            "輸出[ゆしゅつ]が増加[ぞうか]しているのに、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
-            "輸出[ゆしゅつ]が増加[ぞうか]しているところが、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
-            "輸出[ゆしゅつ]が増加[ぞうか]しているながらも、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で for two contrasting economic trends: 増加[ぞうか]している + 一方[いっぽう]で = while increasing. 国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している = domestic demand is shrinking. Classic analytical two-trend contrast."
-        },
-        {
-          "id": "ippou-de_q14",
-          "type": "translation",
-          "prompt": "Which means 'While some people like city life, others prefer the countryside'?",
-          "japanese": null,
-          "choices": [
-            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいる一方[いっぽう]で、田舎[いなか]を好[この]む人[ひと]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるのに、田舎[いなか]を好[この]む人[ひと]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるところが、田舎[いなか]を好[この]む人[ひと]もいる。",
-            "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるながらも、田舎[いなか]を好[この]む人[ひと]もいる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で for contrasting groups/preferences: 好[す]きな人[ひと]がいる + 一方[いっぽう]で = while some people like. 田舎[いなか]を好[この]む人[ひと]もいる = others prefer countryside. Two contrasting groups simultaneously."
-        },
-        {
-          "id": "ippou-de_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'While new jobs are created, old industries are disappearing'?",
-          "japanese": null,
-          "choices": [
-            "新[あたら]しい仕事[しごと]が生[う]まれる一方[いっぽう]で、古[ふる]い産業[さんぎょう]が消[き]えていく。",
-            "新[あたら]しい仕事[しごと]が生[う]まれているのに、古[ふる]い産業[さんぎょう]が消[き]えていく。",
-            "新[あたら]しい仕事[しごと]が生[う]まれているながらも、古[ふる]い産業[さんぎょう]が消[き]えていく。",
-            "新[あたら]しい仕事[しごと]が生[う]まれているところが、古[ふる]い産業[さんぎょう]が消[き]えていく。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で = while X, simultaneously Y. 生[う]まれる + 一方[いっぽう]で = while being created. 古[ふる]い産業[さんぎょう]が消[き]えていく = old industries are disappearing. Two simultaneous opposing economic trends."
-        },
-        {
-          "id": "ippou-de_q16",
-          "type": "usage",
-          "prompt": "Which correctly uses 一方[いっぽう]だ (unidirectional worsening)?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の成績[せいせき]が悪[わる]くなる一方[いっぽう]だ。(His grades keep getting worse)",
-            "彼[かれ]の成績[せいせき]が悪[わる]い一方[いっぽう]で、出席率[しゅっせきりつ]は良[よ]い。(While grades are bad, attendance is good)",
-            "彼[かれ]の成績[せいせき]は良[よ]くない一方[いっぽう]だった。",
-            "彼[かれ]の成績[せいせき]は悪[わる]くなった一方[いっぽう]で、彼[かれ]は努力[どりょく]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]だ for unidirectional change: 悪[わる]くなる一方[いっぽう]だ = keeps getting worse / only getting worse. This expresses continuous deterioration in one direction. 一方[いっぽう]で (option 2) would add a contrasting aspect."
-        },
-        {
-          "id": "ippou-de_q17",
-          "type": "construct",
-          "prompt": "Which correctly says 'While she enjoys her work, the commute is hard on her'?",
-          "japanese": null,
-          "choices": [
-            "仕事[しごと]を楽[たの]しんでいる一方[いっぽう]で、通勤[つうきん]が辛[つら]い。",
-            "仕事[しごと]を楽[たの]しんでいるのに、通勤[つうきん]が辛[つら]い。",
-            "仕事[しごと]を楽[たの]しんでいるながらも、通勤[つうきん]が辛[つら]い。",
-            "仕事[しごと]を楽[たの]しんでいるところが、通勤[つうきん]が辛[つら]い。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で = while X, also Y (coexisting aspects). 楽[たの]しんでいる + 一方[いっぽう]で = while enjoying. 通勤[つうきん]が辛[つら]い = commute is hard. Two coexisting aspects of her work situation (positive and negative)."
-        },
-        {
-          "id": "ippou-de_q18",
-          "type": "translation",
-          "prompt": "Which means 'While the rich get richer, the poor get poorer'?",
-          "japanese": null,
-          "choices": [
-            "金持[かねも]ちがますます豊[ゆた]かになる一方[いっぽう]で、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるのに、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるながらも、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
-            "金持[かねも]ちがますます豊[ゆた]かになるところが、貧[まず]しい人[ひと]はますます貧[まず]しくなる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "一方[いっぽう]で for contrasting trends: 豊[ゆた]かになる + 一方[いっぽう]で = while getting richer. 貧[まず]しい人[ひと]はますます貧[まず]しくなる = poor people get poorer. Classic social inequality two-trend statement."
-        },
-        {
-          "id": "ippou-de_q19",
-          "type": "construct",
-          "prompt": "Which correctly says 'While he succeeded abroad, he failed in Japan'?",
-          "japanese": null,
-          "choices": [
-            "海外[かいがい]で成功[せいこう]した一方[いっぽう]で、日本[にほん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したのに、日本[にほん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したながらも、日本[にほん]では失敗[しっぱい]した。",
-            "海外[かいがい]で成功[せいこう]したところが、日本[にほん]では失敗[しっぱい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Ta-form + 一方[いっぽう]で: 成功[せいこう]した + 一方[いっぽう]で = while succeeding (in one place). 日本[にほん]では失敗[しっぱい]した = failed in Japan. Two contrasting outcomes in different contexts."
-        },
-        {
-          "id": "ippou-de_q20",
-          "type": "usage",
-          "prompt": "Which CORRECTLY pairs 一方[いっぽう]で (contrast) with 一方[いっぽう]だ (unidirectional trend)?",
-          "japanese": null,
-          "choices": [
-            "物価[ぶっか]が上[あ]がる一方[いっぽう]で = prices keep rising unidirectionally; 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices rise while something else falls",
-            "物価[ぶっか]が上[あ]がる一方[いっぽう]で = while prices rise (something else too); 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices just keep rising (unidirectional)",
-            "They have the same meaning",
-            "物価[ぶっか]が上[あ]がる一方[いっぽう]で = formal; 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = casual"
-          ],
-          "correctIndex": 1,
-          "explanation": "物価[ぶっか]が上[あ]がる一方[いっぽう]で = while prices are rising (context: something else also happening). 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices just keep going up (unidirectional, no end, no contrast). 一方[いっぽう]で (+ follow-up clause) = contrasting; 一方[いっぽう]だ (end of sentence) = one-directional worsening."
-        }
-      ]
+     "japanese": "忙[いそが]しいながらも、毎日[まいにち]運動[うんどう]するようにしています。",
+     "romaji": "Isogashii nagara mo, mainichi undou suru you ni shite imasu.",
+     "english": "Despite being busy, I make an effort to exercise every day."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜ながらも",
+   "flashcardAnswer": "Expresses that Y is true even though X would normally prevent or contradict it.",
+   "practice": [
     {
-      "id": "ch29_v01",
-      "partOfSpeech": "noun",
-      "kanji": "経済",
-      "kana": "けいざい",
-      "romaji": "keizai",
-      "definition": "economy"
+     "id": "nagara-mo_q1",
+     "type": "usage",
+     "prompt": "What does 〜ながらも mean?",
+     "japanese": null,
+     "choices": [
+      "while doing X simultaneously",
+      "despite / even though (concurrent state with unexpected result)",
+      "after doing X",
+      "although X is not done"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ながらも = despite / even though (concurrent state with paradoxical or unexpected result). 小[ちい]さいながらも、強[つよ]い = despite being small,  is strong. ながらも is more formal/literary than のに or くせに."
     },
     {
-      "id": "ch29_v02",
-      "partOfSpeech": "noun",
-      "kanji": "景気",
-      "kana": "けいき",
-      "romaji": "keiki",
-      "definition": "economic conditions"
+     "id": "nagara-mo_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being a beginner, she performed brilliantly'?",
+     "japanese": null,
+     "choices": [
+      "初心者[しょしんしゃ]ながらも、見事[みごと]な演技[えんぎ]をした。",
+      "初心者[しょしんしゃ]なのに、見事[みごと]な演技[えんぎ]をした。",
+      "初心者[しょしんしゃ]くせに、見事[みごと]な演技[えんぎ]をした。",
+      "初心者[しょしんしゃ]だが、見事[みごと]な演技[えんぎ]をした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ながらも = despite being . 初心者[しょしんしゃ] + ながらも = despite being a beginner. 見事[みごと]な演技[えんぎ]をした = performed brilliantly. ながらも is more literary/admiring than のに (neutral) or くせに (critical)."
     },
     {
-      "id": "ch29_v03",
-      "partOfSpeech": "noun",
-      "kanji": "産業",
-      "kana": "さんぎょう",
-      "romaji": "sangyou",
-      "definition": "industry"
+     "id": "nagara-mo_q3",
+     "type": "construct",
+     "prompt": "What form attaches before ながらも for い-adjectives?",
+     "japanese": null,
+     "choices": [
+      "い-adj plain form + ながらも",
+      "い-adj stem + ながらも",
+      "い-adj + なながらも",
+      "い-adj + のながらも"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj plain form + ながらも: 小[ちい]さいながらも = despite being small; 弱[よわ]いながらも = despite being weak. No form change needed for い-adjectives — attach ながらも directly to the plain form."
     },
     {
-      "id": "ch29_v04",
-      "partOfSpeech": "noun",
-      "kanji": "企業",
-      "kana": "きぎょう",
-      "romaji": "kigyou",
-      "definition": "enterprise; corporation"
+     "id": "nagara-mo_q4",
+     "type": "usage",
+     "prompt": "How does ながらも differ from くせに emotionally?",
+     "japanese": null,
+     "choices": [
+      "They are identical in every way",
+      "ながらも = admiring or neutral (despite X, impressively Y); くせに = critical/resentful (despite X, annoyingly Y)",
+      "ながらも = formal; くせに = literary",
+      "ながらも = for negative results; くせに = for positive results — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "ながらも = despite X, Y (neutral to admiring — Y is often impressive or touching). くせに = despite X, Y (resentful — Y is annoying or inappropriate). 小[ちい]さいながらも強[つよ]い (admiring) vs 小[ちい]さいくせに生意気[なまいき]だ (critical)."
     },
     {
-      "id": "ch29_v05",
-      "partOfSpeech": "noun",
-      "kanji": "商売",
-      "kana": "しょうばい",
-      "romaji": "shoubai",
-      "definition": "business; trade"
+     "id": "nagara-mo_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being poor, they were happy'?",
+     "japanese": null,
+     "choices": [
+      "貧[まず]しいながらも、幸[しあわ]せだった。",
+      "貧[まず]しいなのに、幸[しあわ]せだった。",
+      "貧[まず]しいくせに、幸[しあわ]せだった。",
+      "貧[まず]しいが、幸[しあわ]せだった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + ながらも: 貧[まず]しい + ながらも = despite being poor. 幸[しあわ]せだった = were happy. 貧[まず]しいながらも幸[しあわ]せだった = despite being poor, they were happy (touched/admiring tone)."
     },
     {
-      "id": "ch29_v06",
-      "partOfSpeech": "noun",
-      "kanji": "貿易",
-      "kana": "ぼうえき",
-      "romaji": "boueki",
-      "definition": "trade (international)"
+     "id": "nagara-mo_q6",
+     "type": "construct",
+     "prompt": "What form attaches before ながらも for VERBS?",
+     "japanese": null,
+     "choices": [
+      "dict-form + ながらも",
+      "te-form + ながらも",
+      "masu-stem + ながらも",
+      "ta-form + ながらも"
+     ],
+     "correctIndex": 2,
+     "explanation": "Masu-stem + ながらも for verbs: 知[し]りながらも (despite knowing), 思[おも]いながらも (despite thinking). 知[し]る → 知[し]り + ながらも = despite knowing. Same stem as the simultaneous ながら."
     },
     {
-      "id": "ch29_v07",
-      "partOfSpeech": "noun",
-      "kanji": "輸出",
-      "kana": "ゆしゅつ",
-      "romaji": "yushutsu",
-      "definition": "export"
+     "id": "nagara-mo_q7",
+     "type": "translation",
+     "prompt": "Which means 'Despite knowing the truth, he said nothing'?",
+     "japanese": null,
+     "choices": [
+      "真実[しんじつ]を知[し]っているのに、何[なに]も言[い]わなかった。",
+      "真実[しんじつ]を知[し]りながらも、何[なに]も言[い]わなかった。",
+      "真実[しんじつ]を知[し]っているくせに、何[なに]も言[い]わなかった。",
+      "真実[しんじつ]を知[し]ったが、何[なに]も言[い]わなかった。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Masu-stem + ながらも: 知[し]り + ながらも = despite knowing. 何[なに]も言[い]わなかった = said nothing. 真実[しんじつ]を知[し]りながらも、何[なに]も言[い]わなかった = despite knowing the truth, he said nothing (literary/neutral tone)."
     },
     {
-      "id": "ch29_v08",
-      "partOfSpeech": "noun",
-      "kanji": "輸入",
-      "kana": "ゆにゅう",
-      "romaji": "yunyuu",
-      "definition": "import"
+     "id": "nagara-mo_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being small, the company is influential'?",
+     "japanese": null,
+     "choices": [
+      "小[ちい]さいながらも、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
+      "小[ちい]さいなのに、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
+      "小[ちい]さいくせに、影響力[えいきょうりょく]がある会社[かいしゃ]だ。",
+      "小[ちい]さいでも、影響力[えいきょうりょく]がある会社[かいしゃ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + ながらも: 小[ちい]さい + ながらも = despite being small. 影響力[えいきょうりょく]がある = is influential. ながらも here is admiring — the small size makes the influence more impressive."
     },
     {
-      "id": "ch29_v09",
-      "partOfSpeech": "noun",
-      "kanji": "生産",
-      "kana": "せいさん",
-      "romaji": "seisan",
-      "definition": "production"
+     "id": "nagara-mo_q9",
+     "type": "usage",
+     "prompt": "Which situation best fits ながらも (not くせに or のに)?",
+     "japanese": null,
+     "choices": [
+      "A friend who has money but never helps others (critical)",
+      "A student who studied but still failed (disappointing)",
+      "A young artist who created amazing work despite inexperience (admiring/touching)",
+      "A child who knows the rules but breaks them (critical)"
+     ],
+     "correctIndex": 2,
+     "explanation": "ながらも fits admiring or touching contrast: despite inexperience (ながらも), the work is amazing. くせに fits criticism (option 1, 4). のに fits disappointment (option 2). ながらも = 'all the more impressive given the circumstances'."
     },
     {
-      "id": "ch29_v10",
-      "partOfSpeech": "noun",
-      "kanji": "消費",
-      "kana": "しょうひ",
-      "romaji": "shouhi",
-      "definition": "consumption"
+     "id": "nagara-mo_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being tired, she continued working'?",
+     "japanese": null,
+     "choices": [
+      "疲[つか]れながらも、仕事[しごと]を続[つづ]けた。",
+      "疲[つか]れているながらも、仕事[しごと]を続[つづ]けた。",
+      "疲[つか]れているのに、仕事[しごと]を続[つづ]けた。",
+      "疲[つか]れているくせに、仕事[しごと]を続[つづ]けた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + ながらも: 疲[つか]れ + ながらも = despite being tired. 仕事[しごと]を続[つづ]けた = continued working. 疲[つか]れながらも、仕事[しごと]を続[つづ]けた = despite being tired, she kept working."
     },
     {
-      "id": "ch29_v11",
-      "partOfSpeech": "noun",
-      "kanji": "需要",
-      "kana": "じゅよう",
-      "romaji": "juyou",
-      "definition": "demand"
+     "id": "nagara-mo_q11",
+     "type": "construct",
+     "prompt": "What is the correct form for な-adjectives before ながらも?",
+     "japanese": null,
+     "choices": [
+      "な-adj + ながらも",
+      "な-adj + な + ながらも",
+      "な-adj + の + ながらも",
+      "な-adj + だ + ながらも"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj stem + ながらも: 不便[ふべん]ながらも = despite being inconvenient; 不安[ふあん]ながらも = despite being anxious. No の or な needed — attach ながらも directly to the stem."
     },
     {
-      "id": "ch29_v12",
-      "partOfSpeech": "noun",
-      "kanji": "供給",
-      "kana": "きょうきゅう",
-      "romaji": "kyoukyuu",
-      "definition": "supply"
+     "id": "nagara-mo_q12",
+     "type": "translation",
+     "prompt": "Which means 'Despite being anxious, she smiled'?",
+     "japanese": null,
+     "choices": [
+      "不安[ふあん]ながらも、笑顔[えがお]を見[み]せた。",
+      "不安[ふあん]なのに、笑顔[えがお]を見[み]せた。",
+      "不安[ふあん]くせに、笑顔[えがお]を見[み]せた。",
+      "不安[ふあん]でも、笑顔[えがお]を見[み]せた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + ながらも: 不安[ふあん] (anxious) + ながらも = despite being anxious. 笑顔[えがお]を見[み]せた = showed a smile. ながらも is literary and touching here — her bravery is implied."
     },
     {
-      "id": "ch29_v13",
-      "partOfSpeech": "noun",
-      "kanji": "販売",
-      "kana": "はんばい",
-      "romaji": "hanbai",
-      "definition": "sales"
+     "id": "nagara-mo_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite regretting it, he couldn't apologize'?",
+     "japanese": null,
+     "choices": [
+      "後悔[こうかい]しながらも、謝[あやま]ることができなかった。",
+      "後悔[こうかい]するながらも、謝[あやま]ることができなかった。",
+      "後悔[こうかい]しているながらも、謝[あやま]ることができなかった。",
+      "後悔[こうかい]したながらも、謝[あやま]ることができなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + ながらも: 後悔[こうかい]し + ながらも = despite regretting. 謝[あやま]ることができなかった = couldn't apologize. 後悔[こうかい]しながらも謝[あやま]ることができなかった = despite regretting it, he couldn't apologize."
     },
     {
-      "id": "ch29_v14",
-      "partOfSpeech": "noun",
-      "kanji": "利益",
-      "kana": "りえき",
-      "romaji": "rieki",
-      "definition": "profit"
+     "id": "nagara-mo_q14",
+     "type": "usage",
+     "prompt": "ながらも is MOST appropriate in which type of text?",
+     "japanese": null,
+     "choices": [
+      "Casual text messages between friends, with no exceptions in modern standard Japanese.",
+      "Literary, formal, or written contexts (novels, formal speeches, news)",
+      "Rude or angry speech",
+      "Technical manuals"
+     ],
+     "correctIndex": 1,
+     "explanation": "ながらも is more literary/formal than のに or くせに. It's most at home in written Japanese (novels, formal essays, news articles, speeches) or slightly elevated spoken registers. In casual speech, のに or でも are more common."
     },
     {
-      "id": "ch29_v15",
-      "partOfSpeech": "noun",
-      "kanji": "損失",
-      "kana": "そんしつ",
-      "romaji": "sonshitsu",
-      "definition": "loss"
+     "id": "nagara-mo_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite its imperfections, this work is moving'?",
+     "japanese": null,
+     "choices": [
+      "不完全[ふかんぜん]ながらも、この作品[さくひん]は感動的[かんどうてき]だ。",
+      "不完全[ふかんぜん]なのに、この作品[さくひん]は感動的[かんどうてき]だ。",
+      "不完全[ふかんぜん]くせに、この作品[さくひん]は感動的[かんどうてき]だ。",
+      "不完全[ふかんぜん]だが、この作品[さくひん]は感動的[かんどうてき]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + ながらも: 不完全[ふかんぜん] (imperfect) + ながらも = despite being imperfect. 感動的[かんどうてき]だ = is moving. ながらも here conveys admiration — the imperfections make the emotion more genuine."
     },
     {
-      "id": "ch29_v16",
-      "partOfSpeech": "noun",
-      "kanji": "投資",
-      "kana": "とうし",
-      "romaji": "toushi",
-      "definition": "investment"
+     "id": "nagara-mo_q16",
+     "type": "translation",
+     "prompt": "Which means 'Despite being uncertain, she stepped forward'?",
+     "japanese": null,
+     "choices": [
+      "確信[かくしん]がないながらも、一歩[いっぽ]を踏[ふ]み出[だ]した。",
+      "確信[かくしん]がないのに、一歩[いっぽ]を踏[ふ]み出[だ]した。",
+      "確信[かくしん]がないくせに、一歩[いっぽ]を踏[ふ]み出[だ]した。",
+      "確信[かくしん]がないでも、一歩[いっぽ]を踏[ふ]み出[だ]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ながらも: 確信[かくしん]がない (not certain) + ながらも = despite being uncertain. 一歩[いっぽ]を踏[ふ]み出[だ]した = stepped forward. ながらも in a literary/admiring context — her courage despite uncertainty."
     },
     {
-      "id": "ch29_v17",
-      "partOfSpeech": "noun",
-      "kanji": "株",
-      "kana": "かぶ",
-      "romaji": "kabu",
-      "definition": "stock; shares"
+     "id": "nagara-mo_q17",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being old, the tradition continues'?",
+     "japanese": null,
+     "choices": [
+      "古[ふる]いながらも、伝統[でんとう]が続[つづ]いている。",
+      "古[ふる]いのに、伝統[でんとう]が続[つづ]いている。",
+      "古[ふる]いくせに、伝統[でんとう]が続[つづ]いている。",
+      "古[ふる]くても、伝統[でんとう]が続[つづ]いている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + ながらも: 古[ふる]い + ながらも = despite being old. 伝統[でんとう]が続[つづ]いている = the tradition continues. ながらも in a neutral-admiring literary context."
     },
     {
-      "id": "ch29_v18",
-      "partOfSpeech": "noun",
-      "kanji": "金融",
-      "kana": "きんゆう",
-      "romaji": "kin'yuu",
-      "definition": "finance"
+     "id": "nagara-mo_q18",
+     "type": "usage",
+     "prompt": "Which CORRECTLY shows the contrast between ながらも (admiring) and くせに (critical)?",
+     "japanese": null,
+     "choices": [
+      "若[わか]いながらも優秀[ゆうしゅう]だ (admiringly: young but capable) / 若[わか]いくせに何[なに]もできない (critically: young and useless)",
+      "若[わか]いながらも何[なに]もできない (critically: young and useless) / 若[わか]いくせに優秀[ゆうしゅう]だ (admiringly: young but capable)",
+      "They cannot be used with the same adjective",
+      "ながらも is never admiring; くせに is never critical"
+     ],
+     "correctIndex": 0,
+     "explanation": "若[わか]いながらも優秀[ゆうしゅう]だ = admiring: despite being young, capable. 若[わか]いくせに何[なに]もできない = critical: despite being young (and supposedly energetic), can't do anything. Same adjective (若[わか]い), opposite emotional tones."
     },
     {
-      "id": "ch29_v19",
-      "partOfSpeech": "noun",
-      "kanji": "経営",
-      "kana": "けいえい",
-      "romaji": "keiei",
-      "definition": "management"
+     "id": "nagara-mo_q19",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being afraid, he jumped in'?",
+     "japanese": null,
+     "choices": [
+      "怖[こわ]いながらも、飛[と]び込[こ]んだ。",
+      "怖[こわ]いのに、飛[と]び込[こ]んだ。",
+      "怖[こわ]いくせに、飛[と]び込[こ]んだ。",
+      "怖[こわ]くても、飛[と]び込[こ]んだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + ながらも: 怖[こわ]い + ながらも = despite being afraid. 飛[と]び込[こ]んだ = jumped in. ながらも here is admiring of the bravery."
     },
     {
-      "id": "ch29_v20",
-      "partOfSpeech": "noun",
-      "kanji": "倒産",
-      "kana": "とうさん",
-      "romaji": "tousan",
-      "definition": "bankruptcy"
-    },
-    {
-      "id": "ch29_v21",
-      "partOfSpeech": "noun",
-      "kanji": "不況",
-      "kana": "ふきょう",
-      "romaji": "fukyou",
-      "definition": "recession"
-    },
-    {
-      "id": "ch29_v22",
-      "partOfSpeech": "noun",
-      "kanji": "物価",
-      "kana": "ぶっか",
-      "romaji": "bukka",
-      "definition": "(commodity) prices"
-    },
-    {
-      "id": "ch29_v23",
-      "partOfSpeech": "noun",
-      "kanji": "収入",
-      "kana": "しゅうにゅう",
-      "romaji": "shuunyuu",
-      "definition": "income"
-    },
-    {
-      "id": "ch29_v24",
-      "partOfSpeech": "noun",
-      "kanji": "支出",
-      "kana": "ししゅつ",
-      "romaji": "shishutsu",
-      "definition": "expenditure"
-    },
-    {
-      "id": "ch29_v25",
-      "partOfSpeech": "noun",
-      "kanji": "賃金",
-      "kana": "ちんぎん",
-      "romaji": "chingin",
-      "definition": "wages"
-    },
-    {
-      "id": "ch29_v26",
-      "partOfSpeech": "noun",
-      "kanji": "為替",
-      "kana": "かわせ",
-      "romaji": "kawase",
-      "definition": "exchange rate"
-    },
-    {
-      "id": "ch29_v27",
-      "partOfSpeech": "noun",
-      "kanji": "円高",
-      "kana": "えんだか",
-      "romaji": "endaka",
-      "definition": "strong yen"
-    },
-    {
-      "id": "ch29_v28",
-      "partOfSpeech": "noun",
-      "kanji": "円安",
-      "kana": "えんやす",
-      "romaji": "en'yasu",
-      "definition": "weak yen"
-    },
-    {
-      "id": "ch29_v29",
-      "partOfSpeech": "noun",
-      "kanji": "成長",
-      "kana": "せいちょう",
-      "romaji": "seichou",
-      "definition": "growth"
-    },
-    {
-      "id": "ch29_v30",
-      "partOfSpeech": "noun",
-      "kanji": "発展",
-      "kana": "はってん",
-      "romaji": "hatten",
-      "definition": "development; expansion"
-    },
-    {
-      "id": "ch29_v31",
-      "partOfSpeech": "noun",
-      "kanji": "競争",
-      "kana": "きょうそう",
-      "romaji": "kyousou",
-      "definition": "competition"
-    },
-    {
-      "id": "ch29_v32",
-      "partOfSpeech": "noun",
-      "kanji": "契約",
-      "kana": "けいやく",
-      "romaji": "keiyaku",
-      "definition": "contract"
-    },
-    {
-      "id": "ch29_v33",
-      "partOfSpeech": "noun",
-      "kanji": "取引",
-      "kana": "とりひき",
-      "romaji": "torihiki",
-      "definition": "transaction; dealings"
-    },
-    {
-      "id": "ch29_v34",
-      "partOfSpeech": "noun",
-      "kanji": "顧客",
-      "kana": "こきゃく",
-      "romaji": "kokyaku",
-      "definition": "client; customer"
-    },
-    {
-      "id": "ch29_v35",
-      "partOfSpeech": "noun",
-      "kanji": "資金",
-      "kana": "しきん",
-      "romaji": "shikin",
-      "definition": "funds"
-    },
-    {
-      "id": "ch29_v36",
-      "partOfSpeech": "noun",
-      "kanji": "財産",
-      "kana": "ざいさん",
-      "romaji": "zaisan",
-      "definition": "assets; property"
-    },
-    {
-      "id": "ch29_v37",
-      "partOfSpeech": "noun",
-      "kanji": "経費",
-      "kana": "けいひ",
-      "romaji": "keihi",
-      "definition": "expenses"
-    },
-    {
-      "id": "ch29_v38",
-      "partOfSpeech": "noun",
-      "kanji": "効率",
-      "kana": "こうりつ",
-      "romaji": "kouritsu",
-      "definition": "efficiency"
-    },
-    {
-      "id": "ch29_v39",
-      "partOfSpeech": "noun",
-      "kanji": "業界",
-      "kana": "ぎょうかい",
-      "romaji": "gyoukai",
-      "definition": "industry; the trade"
-    },
-    {
-      "id": "ch29_v40",
-      "partOfSpeech": "noun",
-      "kanji": "消費者",
-      "kana": "しょうひしゃ",
-      "romaji": "shouhisha",
-      "definition": "consumer"
+     "id": "nagara-mo_q20",
+     "type": "translation",
+     "prompt": "Which means 'Despite knowing the difficulty, they accepted the challenge'?",
+     "japanese": null,
+     "choices": [
+      "困難[こんなん]を知[し]りながらも、挑戦[ちょうせん]を受[う]け入[い]れた。",
+      "困難[こんなん]を知[し]っているのに、挑戦[ちょうせん]を受[う]け入[い]れた。",
+      "困難[こんなん]を知[し]っているくせに、挑戦[ちょうせん]を受[う]け入[い]れた。",
+      "困難[こんなん]を知[し]って、挑戦[ちょうせん]を受[う]け入[い]れた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + ながらも: 知[し]り + ながらも = despite knowing. 困難[こんなん]を知[し]りながらも = despite knowing the difficulty. 挑戦[ちょうせん]を受[う]け入[い]れた = accepted the challenge. ながらも conveys admiration for their decision."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "ni-mo-kakawarazu",
+   "name": "〜にもかかわらず (ni mo kakawarazu) — despite / in spite of",
+   "shortDescription": "A formal, high-register 'despite' — 'in spite of X, still Y' — preferred in writing and official contexts.",
+   "formation": "Verb/い-adj (plain form) + にもかかわらず  |  Noun / な-adj + であるにもかかわらず",
+   "explanation": "にもかかわらず is dressed for a formal occasion. Etymologically, it comes from 関[かか]わる (to be involved/connected) in a classical negative construction, giving a literal sense of 'without regard to' or 'irrespective of.' That formal origin is still present in how it feels: authoritative, measured, official.\n\n努力[どりょく]したにもかかわらず、失敗[しっぱい]してしまいました: despite putting in real effort, failure came anyway — the kind of sentence you'd see in a report or read in a newspaper. のに covers the same semantic ground but brings emotional color — personal disappointment or frustration. にもかかわらず is more detached and objective.\n\nThe practical test: if you'd write it in an official document or say it in a speech, にもかかわらず belongs there. If you'd say it to a friend at dinner, のに or ても are more natural. The standalone form それにもかかわらず (nevertheless / even so) is a handy formal sentence opener.",
+   "rules": [
+    "Plain form + にもかかわらず = despite / in spite of the fact that (formal)",
+    "Noun/な-adj: + であるにもかかわらず (more formal) or just + にもかかわらず",
+    "Very formal — preferred in writing, news, official contexts; のに for conversation",
+    "Highlights a contrast where expected outcome didn't happen",
+    "Similar: それにもかかわらず = nevertheless (at the start of a sentence)"
+   ],
+   "examples": [
     {
-      "char": "市",
-      "word": "市",
-      "reading": "いち",
-      "meaning": "market"
+     "japanese": "一生懸命[いっしょうけんめい]練習[れんしゅう]したにもかかわらず、試合[しあい]に負[ま]けてしまいました。",
+     "romaji": "Isshoukenmei renshuu shita ni mo kakawarazu, shiai ni makete shimaimashita.",
+     "english": "Despite having practiced very hard, we ended up losing the match."
     },
     {
-      "char": "経",
-      "word": "経済",
-      "reading": "けいざい",
-      "meaning": "economy"
+     "japanese": "悪天候[あくてんこう]にもかかわらず、多[おお]くの観客[かんきゃく]が集[あつ]まりました。",
+     "romaji": "Akutenkou ni mo kakawarazu, ooku no kankyaku ga atsumarimashita.",
+     "english": "Despite the bad weather, many spectators gathered."
     },
     {
-      "char": "約",
-      "word": "約",
-      "reading": "やく",
-      "meaning": "approximately"
+     "japanese": "警告[けいこく]にもかかわらず、彼[かれ]は危険[きけん]な行動[こうどう]を続[つづ]けました。",
+     "romaji": "Keikoku ni mo kakawarazu, kare wa kiken na koudou wo tsuzukemashita.",
+     "english": "Despite the warning, he continued his dangerous behavior."
     },
     {
-      "char": "取",
-      "word": "取引",
-      "reading": "とりひき",
-      "meaning": "transaction; dealings"
-    },
-    {
-      "char": "支",
-      "word": "支出",
-      "reading": "ししゅつ",
-      "meaning": "expenditure"
-    },
-    {
-      "char": "産",
-      "word": "産業",
-      "reading": "さんぎょう",
-      "meaning": "industry"
-    },
-    {
-      "char": "済",
-      "word": "済む",
-      "reading": "すむ",
-      "meaning": "to finish"
-    },
-    {
-      "char": "資",
-      "word": "資金",
-      "reading": "しきん",
-      "meaning": "funds"
-    },
-    {
-      "char": "利",
-      "word": "利益",
-      "reading": "りえき",
-      "meaning": "profit"
-    },
-    {
-      "char": "引",
-      "word": "引",
-      "reading": "ひ",
-      "meaning": "pull"
-    },
-    {
-      "char": "投",
-      "word": "投資",
-      "reading": "とうし",
-      "meaning": "investment"
-    },
-    {
-      "char": "直",
-      "word": "直し",
-      "reading": "なおし",
-      "meaning": "correction"
-    },
-    {
-      "char": "争",
-      "word": "争い",
-      "reading": "あらそい",
-      "meaning": "dispute"
-    },
-    {
-      "char": "供",
-      "word": "供給",
-      "reading": "きょうきゅう",
-      "meaning": "supply"
-    },
-    {
-      "char": "費",
-      "word": "費",
-      "reading": "ひ",
-      "meaning": "cost"
-    },
-    {
-      "char": "収",
-      "word": "収入",
-      "reading": "しゅうにゅう",
-      "meaning": "income"
-    },
-    {
-      "char": "消",
-      "word": "消",
-      "reading": "き",
-      "meaning": "extinguish"
-    },
-    {
-      "char": "商",
-      "word": "商売",
-      "reading": "しょうばい",
-      "meaning": "business; trade"
-    },
-    {
-      "char": "景",
-      "word": "景気",
-      "reading": "けいき",
-      "meaning": "economic conditions"
-    },
-    {
-      "char": "渡",
-      "word": "渡る",
-      "reading": "わたる",
-      "meaning": "to cross over"
-    },
-    {
-      "char": "失",
-      "word": "損失",
-      "reading": "そんしつ",
-      "meaning": "loss"
-    },
-    {
-      "char": "財",
-      "word": "財産",
-      "reading": "ざいさん",
-      "meaning": "assets; property"
-    },
-    {
-      "char": "満",
-      "word": "満たす",
-      "reading": "みたす",
-      "meaning": "to satisfy (conditions, one's appetite, etc.)"
-    },
-    {
-      "char": "師",
-      "word": "師",
-      "reading": "いくさ",
-      "meaning": "expert"
-    },
-    {
-      "char": "易",
-      "word": "易しい",
-      "reading": "やさしい",
-      "meaning": "easy"
-    },
-    {
-      "char": "給",
-      "word": "供給",
-      "reading": "きょうきゅう",
-      "meaning": "supply"
-    },
-    {
-      "char": "彼",
-      "word": "彼",
-      "reading": "かれ",
-      "meaning": "he"
-    },
-    {
-      "char": "妻",
-      "word": "妻",
-      "reading": "つま",
-      "meaning": "wife"
-    },
-    {
-      "char": "船",
-      "word": "船",
-      "reading": "ふね",
-      "meaning": "ship"
-    },
-    {
-      "char": "静",
-      "word": "静か",
-      "reading": "しずか",
-      "meaning": "quiet"
-    },
-    {
-      "char": "倒",
-      "word": "倒産",
-      "reading": "とうさん",
-      "meaning": "bankruptcy"
-    },
-    {
-      "char": "困",
-      "word": "困る",
-      "reading": "こまる",
-      "meaning": "to be troubled"
-    },
-    {
-      "char": "願",
-      "word": "願う",
-      "reading": "ねがう",
-      "meaning": "to desire"
-    },
-    {
-      "char": "列",
-      "word": "列",
-      "reading": "れつ",
-      "meaning": "row"
-    },
-    {
-      "char": "迷",
-      "word": "迷い",
-      "reading": "まよい",
-      "meaning": "hesitation"
-    },
-    {
-      "char": "悲",
-      "word": "悲しい",
-      "reading": "かなしい",
-      "meaning": "sad"
-    },
-    {
-      "char": "御",
-      "word": "御",
-      "reading": "おん",
-      "meaning": "honorable"
-    },
-    {
-      "char": "洗",
-      "word": "洗う",
-      "reading": "あらう",
-      "meaning": "to wash"
-    },
-    {
-      "char": "杯",
-      "word": "杯",
-      "reading": "さかずき",
-      "meaning": "sake cup"
-    },
-    {
-      "char": "怖",
-      "word": "怖",
-      "reading": "こわ",
-      "meaning": "dreadful"
-    },
-    {
-      "char": "靴",
-      "word": "靴",
-      "reading": "くつ",
-      "meaning": "shoe"
+     "japanese": "年齢[ねんれい]にもかかわらず、彼女[かのじょ]の演奏[えんそう]は素晴[すば]らしかったです。",
+     "romaji": "Nenrei ni mo kakawarazu, kanojo no ensou wa subarashikatta desu.",
+     "english": "Despite her age, her performance was wonderful."
     }
-  ]
+   ],
+   "flashcardHeader": "〜にもかかわらず",
+   "flashcardAnswer": "A formal, high-register 'despite' or 'in spite of' — similar to のに but more literary and objective.",
+   "practice": [
+    {
+     "id": "ni-mo-kakawarazu_q1",
+     "type": "usage",
+     "prompt": "What does 〜にもかかわらず mean?",
+     "japanese": null,
+     "choices": [
+      "because of / owing to",
+      "despite / in spite of (formal/written; stronger than のに)",
+      "while doing",
+      "unless"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜にもかかわらず = despite / in spite of (formal/written, stronger and more emphatic than のに). 悪天候[あくてんこう]にもかかわらず = despite bad weather. More formal and emphatic than casual のに or でも."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite the bad weather, the event went ahead'?",
+     "japanese": null,
+     "choices": [
+      "悪天候[あくてんこう]にもかかわらず、イベントが開催[かいさい]された。",
+      "悪天候[あくてんこう]なのに、イベントが開催[かいさい]された。",
+      "悪天候[あくてんこう]ながらも、イベントが開催[かいさい]された。",
+      "悪天候[あくてんこう]にもかかわらないで、イベントが開催[かいさい]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず = despite . 悪天候[あくてんこう] (bad weather) + にもかかわらず = despite bad weather. イベントが開催[かいさい]された = the event was held. Formal/written nuance."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q3",
+     "type": "usage",
+     "prompt": "What is the register/formality of にもかかわらず compared to のに?",
+     "japanese": null,
+     "choices": [
+      "にもかかわらず is much more casual than のに",
+      "にもかかわらず is more formal/written; のに is casual/spoken",
+      "They are identical in register",
+      "にもかかわらず is only used in spoken Japanese"
+     ],
+     "correctIndex": 1,
+     "explanation": "にもかかわらず = formal/written register (business documents, news, formal reports). のに = casual spoken contrast. Both mean 'despite', but にもかかわらず is significantly more formal and emphatic."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q4",
+     "type": "construct",
+     "prompt": "What form attaches before にもかかわらず for VERBS?",
+     "japanese": null,
+     "choices": [
+      "dict-form + にもかかわらず",
+      "te-form + にもかかわらず",
+      "masu-stem + にもかかわらず",
+      "ta-form + にもかかわらず"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form (or ta-form) + にもかかわらず for verbs: 知[し]っているにもかかわらず = despite knowing; 努力[どりょく]したにもかかわらず = despite having tried hard. Both present and past plain forms work."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q5",
+     "type": "translation",
+     "prompt": "Which means 'Despite his many years of experience, he made a mistake'?",
+     "japanese": null,
+     "choices": [
+      "長年[ながねん]の経験[けいけん]にもかかわらず、彼[かれ]はミスをした。",
+      "長年[ながねん]の経験[けいけん]なのに、彼[かれ]はミスをした。",
+      "長年[ながねん]の経験[けいけん]ながらも、彼[かれ]はミスをした。",
+      "長年[ながねん]の経験[けいけん]でも、彼[かれ]はミスをした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 長年[ながねん]の経験[けいけん] (many years of experience) + にもかかわらず = despite the experience. ミスをした = made a mistake. Formal/written register."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite many warnings, he ignored them'?",
+     "japanese": null,
+     "choices": [
+      "多[おお]くの警告[けいこく]にもかかわらず、彼[かれ]は無視[むし]した。",
+      "多[おお]くの警告[けいこく]なのに、彼[かれ]は無視[むし]した。",
+      "多[おお]くの警告[けいこく]ながらも、彼[かれ]は無視[むし]した。",
+      "多[おお]くの警告[けいこく]でも、彼[かれ]は無視[むし]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 多[おお]くの警告[けいこく] (many warnings) + にもかかわらず = despite many warnings. 無視[むし]した = ignored. Formal and emphatic."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q7",
+     "type": "usage",
+     "prompt": "In what context would you MOST likely see にもかかわらず?",
+     "japanese": null,
+     "choices": [
+      "A casual text message to a friend",
+      "A formal business report or news article",
+      "A conversation between students",
+      "A children's book"
+     ],
+     "correctIndex": 1,
+     "explanation": "にもかかわらず is characteristic of formal written Japanese — business reports, news articles, academic papers, official announcements. It's rarely used in casual conversation."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite the company's efforts, sales declined'?",
+     "japanese": null,
+     "choices": [
+      "会社[かいしゃ]の努力[どりょく]にもかかわらず、売上[うりあげ]が落[お]ちた。",
+      "会社[かいしゃ]の努力[どりょく]なのに、売上[うりあげ]が落[お]ちた。",
+      "会社[かいしゃ]の努力[どりょく]ながらも、売上[うりあげ]が落[お]ちた。",
+      "会社[かいしゃ]の努力[どりょく]のため、売上[うりあげ]が落[お]ちた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 会社[かいしゃ]の努力[どりょく] (company efforts) + にもかかわらず = despite the efforts. 売上[うりあげ]が落[お]ちた = sales declined. Formal business context — にもかかわらず is ideal."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q9",
+     "type": "construct",
+     "prompt": "What is the INCORRECT form of にもかかわらず?",
+     "japanese": null,
+     "choices": [
+      "にもかかわらず",
+      "にかかわらず",
+      "にもかかわりなく",
+      "にもかかわりず"
+     ],
+     "correctIndex": 3,
+     "explanation": "にもかかわりず does not exist — the correct forms are にもかかわらず or にかかわらず. にもかかわりなく is also a formal variant (regardless of). にもかかわりず is not a word."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q10",
+     "type": "translation",
+     "prompt": "Which means 'Despite having worked hard, she couldn't pass the exam'?",
+     "japanese": null,
+     "choices": [
+      "一生懸命[いっしょうけんめい]頑張[がんば]ったにもかかわらず、試験[しけん]に合格[ごうかく]できなかった。",
+      "一生懸命[いっしょうけんめい]頑張[がんば]ったのに、試験[しけん]に合格[ごうかく]できなかった。",
+      "一生懸命[いっしょうけんめい]頑張[がんば]ったながらも、試験[しけん]に合格[ごうかく]できなかった。",
+      "一生懸命[いっしょうけんめい]頑張[がんば]ったでも、試験[しけん]に合格[ごうかく]できなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Ta-form + にもかかわらず: 頑張[がんば]った + にもかかわらず = despite having worked hard. 合格[ごうかく]できなかった = couldn't pass. Formal/written expression of disappointing contrast."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q11",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite the doctor's advice, he continued smoking'?",
+     "japanese": null,
+     "choices": [
+      "医師[いし]のアドバイスにもかかわらず、喫煙[きつえん]を続[つづ]けた。",
+      "医師[いし]のアドバイスなのに、喫煙[きつえん]を続[つづ]けた。",
+      "医師[いし]のアドバイスながらも、喫煙[きつえん]を続[つづ]けた。",
+      "医師[いし]のアドバイスのため、喫煙[きつえん]を続[つづ]けた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 医師[いし]のアドバイス (doctor's advice) + にもかかわらず = despite the doctor's advice. 喫煙[きつえん]を続[つづ]けた = continued smoking. Formal register."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q12",
+     "type": "usage",
+     "prompt": "What is the casual/spoken equivalent of にもかかわらず?",
+     "japanese": null,
+     "choices": [
+      "だから (so/therefore) — textbooks treat this as an absolute rule.",
+      "のに (despite/even though — casual)",
+      "だから (therefore)",
+      "そして (and then)"
+     ],
+     "correctIndex": 1,
+     "explanation": "のに is the casual/spoken equivalent of にもかかわらず for expressing 'despite / even though'. テストに合格[ごうかく]したのに = even though I passed the test (casual disappointment). にもかかわらず = same idea but formal/written."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite being an adult, he cried'?",
+     "japanese": null,
+     "choices": [
+      "大人[おとな]にもかかわらず、彼[かれ]は泣[な]いた。",
+      "大人[おとな]なのに、彼[かれ]は泣[な]いた。",
+      "大人[おとな]ながらも、彼[かれ]は泣[な]いた。",
+      "大人[おとな]であるにもかかわらず、彼[かれ]は泣[な]いた。"
+     ],
+     "correctIndex": 3,
+     "explanation": "For nouns with copula: 大人[おとな]である + にもかかわらず = despite being an adult (more formal). 大人[おとな]にもかかわらず (without である) is also acceptable but slightly less formal. Both options 1 and 4 can work; 4 is more formally correct."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q14",
+     "type": "translation",
+     "prompt": "Which means 'Despite repeated requests, the noise continued'?",
+     "japanese": null,
+     "choices": [
+      "度重[たびかさ]なる要求[ようきゅう]にもかかわらず、騒音[そうおん]が続[つづ]いた。",
+      "度重[たびかさ]なる要求[ようきゅう]なのに、騒音[そうおん]が続[つづ]いた。",
+      "度重[たびかさ]なる要求[ようきゅう]ながらも、騒音[そうおん]が続[つづ]いた。",
+      "度重[たびかさ]なる要求[ようきゅう]のため、騒音[そうおん]が続[つづ]いた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 度重[たびかさ]なる要求[ようきゅう] (repeated requests) + にもかかわらず = despite repeated requests. 騒音[そうおん]が続[つづ]いた = noise continued. Formal written register."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite the government's policy, inequality grew'?",
+     "japanese": null,
+     "choices": [
+      "政府[せいふ]の政策[せいさく]にもかかわらず、格差[かくさ]が広[ひろ]がった。",
+      "政府[せいふ]の政策[せいさく]なのに、格差[かくさ]が広[ひろ]がった。",
+      "政府[せいふ]の政策[せいさく]ながらも、格差[かくさ]が広[ひろ]がった。",
+      "政府[せいふ]の政策[せいさく]のせいで、格差[かくさ]が広[ひろ]がった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 政府[せいふ]の政策[せいさく] (government policy) + にもかかわらず = despite the policy. 格差[かくさ]が広[ひろ]がった = inequality grew. Formal academic/news register."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q16",
+     "type": "usage",
+     "prompt": "What does the も in にもかかわらず add?",
+     "japanese": null,
+     "choices": [
+      "It adds 'also' (in addition)",
+      "It strengthens the 'despite' feeling (emphatic — despite even that)",
+      "It indicates past tense",
+      "It is optional and adds no meaning, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "The も in にもかかわらず adds EMPHASIS — 'despite even that'. It strengthens the sense of contradiction. にかかわらず (without も) means 'regardless of'; にもかかわらず adds the emphatic 'even so, in spite of that very thing'."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q17",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite the agreement, both sides continued to fight'?",
+     "japanese": null,
+     "choices": [
+      "合意[ごうい]にもかかわらず、双方[そうほう]は戦[たたか]い続[つづ]けた。",
+      "合意[ごうい]なのに、双方[そうほう]は戦[たたか]い続[つづ]けた。",
+      "合意[ごうい]ながらも、双方[そうほう]は戦[たたか]い続[つづ]けた。",
+      "合意[ごうい]のせいで、双方[そうほう]は戦[たたか]い続[つづ]けた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 合意[ごうい] (agreement) + にもかかわらず = despite the agreement. 双方[そうほう]は戦[たたか]い続[つづ]けた = both sides continued fighting. Formal/journalistic register."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q18",
+     "type": "translation",
+     "prompt": "Which means 'Despite his talent, he didn't practice enough'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の才能[さいのう]にもかかわらず、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+      "彼[かれ]の才能[さいのう]なのに、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+      "彼[かれ]の才能[さいのう]ながらも、練習[れんしゅう]が十分[じゅうぶん]ではなかった。",
+      "彼[かれ]の才能[さいのう]のおかげで、練習[れんしゅう]が十分[じゅうぶん]ではなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にもかかわらず: 才能[さいのう] (talent) + にもかかわらず = despite the talent. 練習[れんしゅう]が十分[じゅうぶん]ではなかった = didn't practice enough. Formal expression."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q19",
+     "type": "construct",
+     "prompt": "Which correctly says 'Despite multiple chances, he didn't change'?",
+     "japanese": null,
+     "choices": [
+      "何度[なんど]もチャンスがあったにもかかわらず、彼[かれ]は変[か]わらなかった。",
+      "何度[なんど]もチャンスがあったのに、彼[かれ]は変[か]わらなかった。",
+      "何度[なんど]もチャンスがあったながらも、彼[かれ]は変[か]わらなかった。",
+      "何度[なんど]もチャンスがあっても、彼[かれ]は変[か]わらなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Ta-form + にもかかわらず: あった + にもかかわらず = despite there having been. にもかかわらず is formal/written; the others (のに, ながらも, ても) are all progressively less formal alternatives."
+    },
+    {
+     "id": "ni-mo-kakawarazu_q20",
+     "type": "usage",
+     "prompt": "Which sentence CORRECTLY uses にもかかわらず in a formal context?",
+     "japanese": null,
+     "choices": [
+      "ねえ、雨[あめ]なのにかかわらず来[き]たんだね。",
+      "本[ほん]プロジェクトは予算不足[よさんぶそく]にもかかわらず、完遂[かんすい]された。",
+      "あいつは練習[れんしゅう]したにもかかわらず下手[へた]だよ。",
+      "にもかかわらず、彼[かれ]は来[き]た。"
+     ],
+     "correctIndex": 1,
+     "explanation": "本[ほん]プロジェクトは予算不足[よさんぶそく]にもかかわらず、完遂[かんすい]された = the project was completed despite the budget shortfall. Formal written Japanese (project report). Options 1, 3 are too casual; option 4 lacks the first clause."
+    }
+   ]
+  },
+  {
+   "id": "to-shite-mo",
+   "name": "〜としても (to shite mo) — even if / even assuming that",
+   "shortDescription": "Hypothetically grants a condition as true — 'even if we assume X' — then argues the conclusion still holds.",
+   "formation": "Plain form + としても  |  Noun + だ + としても",
+   "explanation": "としても is the grammar of the careful debater. It means 'even if we assume X is true' — the speaker concedes a point hypothetically, for the sake of argument, and then argues that the main conclusion holds regardless.\n\nそれが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません: 'Even if that's true' — the speaker isn't necessarily agreeing it is true, just granting it as a hypothetical — 'his behavior still cannot be forgiven.' The key is that hypothetical 'even if.' としても doesn't claim X is true; it says 'let's grant it as true and see whether that changes anything.' Often, it doesn't.\n\nThis is analytically more precise than simple ても (even if), which is broader and more general. としても signals a deliberate logical concession: 'I'll grant you this point — but my conclusion is unchanged.' It appears often in debates, academic writing, and careful reasoning — anywhere that logical precision matters.",
+   "rules": [
+    "Plain form + としても = even if (I grant that / even assuming that) X, still Y",
+    "Noun + だ + としても = even if it is the case that [noun]",
+    "Speaker hypothetically concedes the condition to argue the main clause still holds",
+    "More analytical/argumentative than ても; suggests reasoned concession",
+    "Related: 〜にしても = even taking [noun/situation] into account"
+   ],
+   "examples": [
+    {
+     "japanese": "それが本当[ほんとう]だとしても、彼[かれ]の行動[こうどう]は許[ゆる]されません。",
+     "romaji": "Sore ga hontou da to shite mo, kare no koudou wa yurusaremasen.",
+     "english": "Even if that's true, his behavior cannot be forgiven."
+    },
+    {
+     "japanese": "間[ま]に合[あ]わないとしても、行[い]くだけ行[い]ってみよう。",
+     "romaji": "Ma ni awanai to shite mo, iku dake itte miyou.",
+     "english": "Even if we won't make it in time, let's at least try to go."
+    },
+    {
+     "japanese": "失敗[しっぱい]するとしても、挑戦[ちょうせん]することに意味[いみ]があります。",
+     "romaji": "Shippai suru to shite mo, chousen suru koto ni imi ga arimasu.",
+     "english": "Even if you fail, there is meaning in making the attempt."
+    },
+    {
+     "japanese": "冗談[じょうだん]だとしても、そういう言[い]い方[かた]はよくないですよ。",
+     "romaji": "Joudan da to shite mo, sou iu iikata wa yoku nai desu yo.",
+     "english": "Even if it's a joke, that way of saying it is not good."
+    }
+   ],
+   "flashcardHeader": "〜としても",
+   "flashcardAnswer": "Grants a hypothetical as true for the sake of argument, then asserts the main outcome still holds.",
+   "practice": [
+    {
+     "id": "to-shite-mo_q1",
+     "type": "usage",
+     "prompt": "What does 〜としても mean?",
+     "japanese": null,
+     "choices": [
+      "even if / even assuming that (hypothetical concession)",
+      "because / since",
+      "while doing simultaneously",
+      "in the role of / as"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜としても = even if / even assuming that (hypothetical). たとえ失敗[しっぱい]するとしても = even if I were to fail. としても presents a hypothetical concession and says the result would be the same or an action would still proceed."
+    },
+    {
+     "id": "to-shite-mo_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if that's true, it doesn't change anything'?",
+     "japanese": null,
+     "choices": [
+      "それが本当[ほんとう]だとしても、何[なに]も変[か]わらない。",
+      "それが本当[ほんとう]なのに、何[なに]も変[か]わらない。",
+      "それが本当[ほんとう]でも、何[なに]も変[か]わらない。",
+      "それが本当[ほんとう]ながらも、何[なに]も変[か]わらない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + としても: 本当[ほんとう]だ → 本当[ほんとう]だ + としても = even if that's true (hypothetical). 何[なに]も変[か]わらない = nothing changes. としても more formal/hypothetical; でも more casual."
+    },
+    {
+     "id": "to-shite-mo_q3",
+     "type": "construct",
+     "prompt": "What does たとえ do when used before としても?",
+     "japanese": null,
+     "choices": [
+      "It changes the meaning to 'because'",
+      "It adds the meaning of 'even (hypothetically)' — making the hypothetical more emphatic",
+      "It negates the meaning",
+      "It makes the sentence about the past — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "たとえ〜としても = even if (hypothetically) . たとえ = even if / suppose that. Combined: たとえ失敗[しっぱい]するとしても = even if we were to fail (strong hypothetical emphasis). たとえ makes the hypothetical stronger and more literary."
+    },
+    {
+     "id": "to-shite-mo_q4",
+     "type": "translation",
+     "prompt": "Which means 'Even if I make a mistake, I'll try again'?",
+     "japanese": null,
+     "choices": [
+      "たとえ失敗[しっぱい]するとしても、もう一度[いちど]挑戦[ちょうせん]する。",
+      "たとえ失敗[しっぱい]するとしたら、もう一度[いちど]挑戦[ちょうせん]する。",
+      "たとえ失敗[しっぱい]するとすれば、もう一度[いちど]挑戦[ちょうせん]する。",
+      "たとえ失敗[しっぱい]するとして、もう一度[いちど]挑戦[ちょうせん]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "たとえ + plain form + としても: 失敗[しっぱい]する + としても = even if I were to fail. もう一度[いちど]挑戦[ちょうせん]する = will try again. たとえ〜としても = the standard strong hypothetical concession pattern."
+    },
+    {
+     "id": "to-shite-mo_q5",
+     "type": "usage",
+     "prompt": "What is the difference between 〜としても and 〜ても?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "としても = hypothetical/formal ('even if such were the case'); ても = actual/casual ('even if')",
+      "としても = for actions; ても = for states, and the rule applies to every sentence type.",
+      "としても = past; ても = future"
+     ],
+     "correctIndex": 1,
+     "explanation": "ても = even if (real or likely condition, casual). としても = even if (more hypothetical, formal, 'even assuming that such were the case'). 雨[あめ]が降[ふ]っても = even if it rains (real possibility). 宇宙人[うちゅうじん]がいるとしても = even if extraterrestrials existed (hypothetical)."
+    },
+    {
+     "id": "to-shite-mo_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it is expensive, I want to buy it'?",
+     "japanese": null,
+     "choices": [
+      "高[たか]いとしても、買[か]いたい。",
+      "高[たか]くても、買[か]いたい。",
+      "高[たか]いでも、買[か]いたい。",
+      "高[たか]いながらも、買[か]いたい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + としても: 高[たか]い + としても = even if it were expensive (hypothetical). 高[たか]くても is also correct but more casual/less hypothetical. としても is slightly more formal and hypothetical."
+    },
+    {
+     "id": "to-shite-mo_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if you beg, I won't change my mind'?",
+     "japanese": null,
+     "choices": [
+      "頼[たの]まれるとしても、考[かんが]えを変[か]えない。",
+      "いくら頼[たの]まれるとしても、考[かんが]えを変[か]えない。",
+      "いくら頼[たの]んでも、考[かんが]えを変[か]えない。",
+      "頼[たの]まれるとはいえ、考[かんが]えを変[か]えない。"
+     ],
+     "correctIndex": 1,
+     "explanation": "いくら〜としても = no matter how much / even if (emphasizing degree). いくら頼[たの]まれるとしても = no matter how much I'm asked / even if I were repeatedly begged. 考[かんが]えを変[か]えない = won't change my mind."
+    },
+    {
+     "id": "to-shite-mo_q8",
+     "type": "translation",
+     "prompt": "Which means 'Even assuming this plan succeeds, there will be problems'?",
+     "japanese": null,
+     "choices": [
+      "このプランが成功[せいこう]するとしても、問題[もんだい]は残[のこ]る。",
+      "このプランが成功[せいこう]するなら、問題[もんだい]は残[のこ]る。",
+      "このプランが成功[せいこう]しても、問題[もんだい]は残[のこ]る。",
+      "このプランが成功[せいこう]すれば、問題[もんだい]は残[のこ]る。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜としても = even assuming that / even if hypothetically. 成功[せいこう]する + としても = even assuming it succeeds (hypothetical concession). 問題[もんだい]は残[のこ]る = problems will remain. としても adds the 'even assuming' hypothetical nuance."
+    },
+    {
+     "id": "to-shite-mo_q9",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it were possible, it would take too long'?",
+     "japanese": null,
+     "choices": [
+      "可能[かのう]だとしても、時間[じかん]がかかりすぎる。",
+      "可能[かのう]なのに、時間[じかん]がかかりすぎる。",
+      "可能[かのう]なら、時間[じかん]がかかりすぎる。",
+      "可能[かのう]であれば、時間[じかん]がかかりすぎる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj/noun + だとしても: 可能[かのう]だ + としても = even if it were possible. 時間[じかん]がかかりすぎる = would take too long. Hypothetical concession — even in the best case, problems remain."
+    },
+    {
+     "id": "to-shite-mo_q10",
+     "type": "usage",
+     "prompt": "Which BEST demonstrates the hypothetical nature of としても?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]雨[あめ]が降[ふ]っても、行[い]きます。(real possibility)",
+      "もし宇宙人[うちゅうじん]がいるとしても、証拠[しょうこ]が必要[ひつよう]だ。(pure hypothetical)",
+      "彼女[かのじょ]が怒[おこ]っても、無視[むし]する。(likely situation)",
+      "試験[しけん]に落[お]ちても、諦[あきら]めない。(real risk)"
+     ],
+     "correctIndex": 1,
+     "explanation": "もし宇宙人[うちゅうじん]がいるとしても = even if extraterrestrials existed (pure hypothetical — we're assuming something that may not be true). としても is perfect for hypothetical/counterfactual conditions, unlike ても which is for real/likely possibilities."
+    },
+    {
+     "id": "to-shite-mo_q11",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if he apologizes, I won't forgive him'?",
+     "japanese": null,
+     "choices": [
+      "たとえ謝[あやま]るとしても、許[ゆる]さない。",
+      "たとえ謝[あやま]っても、許[ゆる]さない。",
+      "たとえ謝[あやま]るとしたら、許[ゆる]さない。",
+      "たとえ謝[あやま]ったとしても、許[ゆる]さない。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Ta-form + としても: 謝[あやま]った + としても = even if he were to apologize (or even having apologized). たとえ〜としても = emphatic even-if hypothetical. 許[ゆる]さない = won't forgive."
+    },
+    {
+     "id": "to-shite-mo_q12",
+     "type": "translation",
+     "prompt": "Which means 'Even if you knew the answer, you couldn't tell'?",
+     "japanese": null,
+     "choices": [
+      "答[こた]えを知[し]っているとしても、言[い]えない。",
+      "答[こた]えを知[し]っているのに、言[い]えない。",
+      "答[こた]えを知[し]っているとはいえ、言[い]えない。",
+      "答[こた]えを知[し]っているながらも、言[い]えない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ているとしても: 知[し]っている + としても = even if you knew (hypothetical concession). 言[い]えない = can't say. としても + negative result = even in the favorable case, the conclusion is still X."
+    },
+    {
+     "id": "to-shite-mo_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if the situation changes, the principle remains'?",
+     "japanese": null,
+     "choices": [
+      "状況[じょうきょう]が変[か]わるとしても、原則[げんそく]は変[か]わらない。",
+      "状況[じょうきょう]が変[か]わっても、原則[げんそく]は変[か]わらない。",
+      "状況[じょうきょう]が変[か]わるなら、原則[げんそく]は変[か]わらない。",
+      "状況[じょうきょう]が変[か]われば、原則[げんそく]は変[か]わらない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + としても = even if (formal/hypothetical). 変[か]わる + としても = even if  changes. 原則[げんそく]は変[か]わらない = the principle remains unchanged. としても is natural in formal principle statements."
+    },
+    {
+     "id": "to-shite-mo_q14",
+     "type": "usage",
+     "prompt": "Which sentence uses としても INCORRECTLY?",
+     "japanese": null,
+     "choices": [
+      "たとえ雨[あめ]が降[ふ]るとしても、試合[しあい]は続[つづ]ける。",
+      "彼[かれ]が正[ただ]しいとしても、方法[ほうほう]が問題[もんだい]だ。",
+      "昨日[きのう]行[い]ったとしても、何[なに]も見[み]つからなかった。",
+      "としても、彼[かれ]は来[き]た。"
+     ],
+     "correctIndex": 3,
+     "explanation": "としても cannot start a sentence alone as a conjunction (unlike でも which can). としても must follow the hypothetical clause. としても、彼[かれ]は来[き]た has no first clause — ungrammatical. All other options correctly have a full first clause."
+    },
+    {
+     "id": "to-shite-mo_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if we hurry, we won't make it in time'?",
+     "japanese": null,
+     "choices": [
+      "たとえ急[いそ]いでも、間[ま]に合[あ]わない。",
+      "たとえ急[いそ]ぐとしても、間[ま]に合[あ]わない。",
+      "たとえ急[いそ]げば、間[ま]に合[あ]わない。",
+      "たとえ急[いそ]いだとしても、間[ま]に合[あ]わない。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Dict-form + としても: 急[いそ]ぐ + としても = even if we hurry (hypothetical). 間[ま]に合[あ]わない = won't make it. たとえ〜としても = strong hypothetical. (Option 4 ta-form is also correct: 急[いそ]いだとしても = even if we were to hurry.)"
+    },
+    {
+     "id": "to-shite-mo_q16",
+     "type": "translation",
+     "prompt": "Which means 'Even if technology advances, human connection is important'?",
+     "japanese": null,
+     "choices": [
+      "テクノロジーが進化[しんか]するとしても、人間[にんげん]のつながりは大切[たいせつ]だ。",
+      "テクノロジーが進化[しんか]しても、人間[にんげん]のつながりは大切[たいせつ]だ。",
+      "テクノロジーが進化[しんか]するなら、人間[にんげん]のつながりは大切[たいせつ]だ。",
+      "テクノロジーが進化[しんか]すれば、人間[にんげん]のつながりは大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + としても for hypothetical: 進化[しんか]する + としても = even if technology advances (hypothetical/formal). 人間[にんげん]のつながりは大切[たいせつ]だ = human connection is important. としても suggests 'even assuming the best-case progress'."
+    },
+    {
+     "id": "to-shite-mo_q17",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if she were here, the problem wouldn't be solved'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]がいるとしても、問題[もんだい]は解決[かいけつ]しない。",
+      "彼女[かのじょ]がいても、問題[もんだい]は解決[かいけつ]しない。",
+      "彼女[かのじょ]がいれば、問題[もんだい]は解決[かいけつ]しない。",
+      "彼女[かのじょ]がいるなら、問題[もんだい]は解決[かいけつ]しない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ているとしても (but here: いる + としても = even if she were here). としても for a hypothetical about someone's presence. 問題[もんだい]は解決[かいけつ]しない = the problem wouldn't be solved."
+    },
+    {
+     "id": "to-shite-mo_q18",
+     "type": "usage",
+     "prompt": "What is the nuance of たとえ〜としても vs simply 〜ても?",
+     "japanese": null,
+     "choices": [
+      "たとえ = past only; ても = any tense",
+      "たとえ strengthens the hypothetical concession, making it sound more deliberate and formal",
+      "たとえ = for negative outcomes; ても = for positive outcomes — and this holds in every register, formal or casual.",
+      "No nuance difference"
+     ],
+     "correctIndex": 1,
+     "explanation": "たとえ〜としても = even IF (strongly hypothetical, deliberate, often literary or persuasive). 〜ても = even if (casual, real or hypothetical). たとえ strengthens the concessive feeling and makes the statement sound more considered/formal."
+    },
+    {
+     "id": "to-shite-mo_q19",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if they offered more salary, I wouldn't take the job'?",
+     "japanese": null,
+     "choices": [
+      "給料[きゅうりょう]をもっと上[あ]げてくれるとしても、その仕事[しごと]はしない。",
+      "給料[きゅうりょう]をもっと上[あ]げてくれても、その仕事[しごと]はしない。",
+      "給料[きゅうりょう]をもっと上[あ]げてくれるなら、その仕事[しごと]はしない。",
+      "給料[きゅうりょう]をもっと上[あ]げてくれれば、その仕事[しごと]はしない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜てくれるとしても: 上[あ]げてくれる + としても = even if they were to raise (hypothetical). その仕事[しごと]はしない = wouldn't take the job. としても for hypothetical offer scenario."
+    },
+    {
+     "id": "to-shite-mo_q20",
+     "type": "translation",
+     "prompt": "Which means 'Even if only for a moment, I want to see her'?",
+     "japanese": null,
+     "choices": [
+      "たとえ一瞬[いっしゅん]でも、彼女[かのじょ]に会[あ]いたい。",
+      "たとえ一瞬[いっしゅん]だとしても、彼女[かのじょ]に会[あ]いたい。",
+      "たとえ一瞬[いっしゅん]としても、彼女[かのじょ]に会[あ]いたい。",
+      "一瞬[いっしゅん]なのに、彼女[かのじょ]に会[あ]いたい。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜だとしても: 一瞬[いっしゅん]だ + としても = even if only for a moment (hypothetical). たとえ一瞬[いっしゅん]だとしても = even if it were only for an instant. 彼女[かのじょ]に会[あ]いたい = want to see her. Strong emotional hypothetical."
+    }
+   ]
+  },
+  {
+   "id": "tokoro-ga",
+   "name": "〜ところが (tokoro ga) — however / but (unexpected reversal)",
+   "shortDescription": "Signals a surprising reversal of what the first clause led you to expect — 'but then, unexpectedly...'.",
+   "formation": "Statement. ところが + unexpected result / contrast",
+   "explanation": "ところが is the plot-twist connector. It joins two sentences where the first sets up an expectation, and ところが announces that expectation was violated. たくさん練習[れんしゅう]しました。ところが、本番[ほんばん]では全然[ぜんぜん]うまくできませんでした: all that preparation leads you to expect good results — ところが says: wrong.\n\nWhat sets ところが apart from simple が (but) is precisely that element of violated expectation. が merely marks contrast; ところが specifically marks surprise. And what distinguishes it from のに (even though) is register and focus: のに is personal and often carries frustration or disappointment; ところが is more narrative and objective, perfect for storytelling or recounting events where something unexpected happened. Think of it as the 'however' you use when you're telling a story and need to signal a surprising turn. It almost always appears at the start of the second sentence or clause, like a pivot in a narrative.",
+   "rules": [
+    "ところが = 'however' for unexpected reversals — the result contradicts expectations",
+    "Stronger than が (but); more objective than のに (even though — emotional)",
+    "Typically appears at the beginning of the second sentence/clause",
+    "The first clause sets up an expectation; ところが introduces the surprising contradiction",
+    "Common in storytelling, recounting experiences, and explaining outcomes"
+   ],
+   "examples": [
+    {
+     "japanese": "たくさん練習[れんしゅう]しました。ところが、本番[ほんばん]では全然[ぜんぜん]うまくできませんでした。",
+     "romaji": "Takusan renshuu shimashita. Tokoro ga, honban dewa zenzen umaku dekimasen deshita.",
+     "english": "I practiced a lot. However, when it came to the real thing, I couldn't do it well at all."
+    },
+    {
+     "japanese": "絶対[ぜったい]に合格[ごうかく]できると思[おも]っていました。ところが、結果[けっか]は不合格[ふごうかく]でした。",
+     "romaji": "Zettai ni goukaku dekiru to omotte imashita. Tokoro ga, kekka wa fugoukaku deshita.",
+     "english": "I was sure I would pass. However, the result was a failure."
+    },
+    {
+     "japanese": "急[いそ]いで駅[えき]に向[む]かいました。ところが、財布[さいふ]を忘[わす]れてきたことに気[き]づきました。",
+     "romaji": "Isoide eki ni mukaimashita. Tokoro ga, saifu wo wasurete kita koto ni kizukimashita.",
+     "english": "I hurried toward the station. But then I realized I had left my wallet behind."
+    },
+    {
+     "japanese": "昨日[きのう]は雨[あめ]が降[ふ]るだろうと思[おも]っていました。ところが、朝[あさ]から晴[は]れていました。",
+     "romaji": "Kinou wa ame ga furu darou to omotte imashita. Tokoro ga, asa kara harete imashita.",
+     "english": "I thought it would rain yesterday. However, it was sunny from morning."
+    }
+   ],
+   "flashcardHeader": "〜ところが",
+   "flashcardAnswer": "Introduces an unexpected or surprising reversal of what was expected.",
+   "practice": [
+    {
+     "id": "tokoro-ga_q1",
+     "type": "usage",
+     "prompt": "What does 〜ところが mean (as a CONJUNCTION)?",
+     "japanese": null,
+     "choices": [
+      "while / at the moment when",
+      "however / but (unexpected reversal — contrary to expectation)",
+      "therefore / so",
+      "in addition / moreover"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ところが = however / but (strong unexpected reversal). It expresses that the result or situation was CONTRARY to expectation. 連絡[れんらく]しようとした。ところが、電話[でんわ]が壊[こわ]れていた = I tried to contact . However, my phone was broken."
+    },
+    {
+     "id": "tokoro-ga_q2",
+     "type": "construct",
+     "prompt": "Which correctly uses ところが for unexpected reversal?",
+     "japanese": null,
+     "choices": [
+      "試験[しけん]は難[むずか]しかった。ところが、不合格[ふごうかく]だった。",
+      "試験[しけん]は難[むずか]しかった。だから、不合格[ふごうかく]だった。",
+      "試験[しけん]は難[むずか]しかった。ところが、合格[ごうかく]した。",
+      "試験[しけん]は簡単[かんたん]だった。ところが、合格[ごうかく]した。"
+     ],
+     "correctIndex": 2,
+     "explanation": "ところが = unexpected result. 試験[しけん]は難[むずか]しかった = the exam was hard (expectation: fail). ところが = but/however. 合格[ごうかく]した = passed. This is the classic ところが use: expected to fail, but unexpectedly passed."
+    },
+    {
+     "id": "tokoro-ga_q3",
+     "type": "usage",
+     "prompt": "What MUST be true about the result clause after ところが?",
+     "japanese": null,
+     "choices": [
+      "It must be in the past tense",
+      "It must describe a result contrary to what was expected based on the first clause",
+      "It must describe a positive outcome",
+      "It must be shorter than the first clause, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "After ところが, the result MUST be contrary to what the first clause would lead you to expect. If you expect success → ところが → failure. If you expect easy → ところが → hard. This unexpected reversal is the defining feature."
+    },
+    {
+     "id": "tokoro-ga_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought it would be difficult, but it was easy'?",
+     "japanese": null,
+     "choices": [
+      "難[むずか]しいと思[おも]った。だから、簡単[かんたん]だった。",
+      "難[むずか]しいと思[おも]った。ところが、簡単[かんたん]だった。",
+      "難[むずか]しいと思[おも]った。しかし、簡単[かんたん]だった。",
+      "難[むずか]しいと思[おも]った。ところで、簡単[かんたん]だった。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Expectation: thought it would be difficult. ところが = unexpected reversal. Result: was easy (contrary to expectation). 難[むずか]しいと思[おも]った。ところが、簡単[かんたん]だった = I thought it would be hard, but it turned out to be easy."
+    },
+    {
+     "id": "tokoro-ga_q5",
+     "type": "usage",
+     "prompt": "What is the difference between ところが and しかし?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "しかし = general contrast (but/however); ところが = UNEXPECTED reversal (emphasizes that the result was contrary to expectations)",
+      "しかし = more formal; ところが = casual",
+      "ところが = for future events; しかし = for past — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "しかし = general 'but/however' (any contrast). ところが = specifically UNEXPECTED reversal — the result must be contrary to what was anticipated. しかし can contrast without surprise; ところが always implies 'I didn't expect this'."
+    },
+    {
+     "id": "tokoro-ga_q6",
+     "type": "construct",
+     "prompt": "Which correctly uses ところが for unexpected positive outcome?",
+     "japanese": null,
+     "choices": [
+      "新[あたら]しいレストランに行[い]ってみた。ところが、とても美味[おい]しかった。",
+      "新[あたら]しいレストランに行[い]ってみた。しかし、とても美味[おい]しかった。",
+      "新[あたら]しいレストランに行[い]ってみた。だから、とても美味[おい]しかった。",
+      "新[あたら]しいレストランに行[い]ってみた。ところで、とても美味[おい]しかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: new restaurant = uncertain (might not be good). ところが = unexpected reversal. Result: was delicious (unexpectedly good). 新[あたら]しいレストランに行[い]ってみた。ところが、とても美味[おい]しかった = tried the new restaurant; it was surprisingly delicious!"
+    },
+    {
+     "id": "tokoro-ga_q7",
+     "type": "construct",
+     "prompt": "Which correctly uses ところが for unexpected negative outcome?",
+     "japanese": null,
+     "choices": [
+      "薬[くすり]を飲[の]んだ。ところが、頭痛[ずつう]がひどくなった。",
+      "薬[くすり]を飲[の]んだ。だから、頭痛[ずつう]がひどくなった。",
+      "薬[くすり]を飲[の]んだ。そして、頭痛[ずつう]がひどくなった。",
+      "薬[くすり]を飲[の]んだ。また、頭痛[ずつう]がひどくなった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: took medicine = should feel better. ところが = unexpected reversal. Result: headache got worse (contrary to expectation). 薬[くすり]を飲[の]んだ。ところが、頭痛[ずつう]がひどくなった = I took medicine; however, my headache got worse."
+    },
+    {
+     "id": "tokoro-ga_q8",
+     "type": "usage",
+     "prompt": "ところが is MOST natural when used with which verb type?",
+     "japanese": null,
+     "choices": [
+      "Action verbs showing clear intentions/expectations followed by contrary outcomes",
+      "Stative verbs describing emotions, regardless of context or politeness level.",
+      "Potential verbs",
+      "Causative verbs"
+     ],
+     "correctIndex": 0,
+     "explanation": "ところが is most natural after action verbs expressing intention or attempt: 試[ため]した、行[い]った、連絡[れんらく]した etc. (I tried, I went, I contacted) → ところが → unexpected result. The action's expected outcome is reversed."
+    },
+    {
+     "id": "tokoro-ga_q9",
+     "type": "construct",
+     "prompt": "Which correctly uses ところが: 'I waited for an hour; nobody came'?",
+     "japanese": null,
+     "choices": [
+      "1時間待[じかんまち]った。ところが、誰[だれ]も来[こ]なかった。",
+      "1時間待[じかんまち]った。だから、誰[だれ]も来[こ]なかった。",
+      "1時間待[じかんまち]った。ところで、誰[だれ]も来[こ]なかった。",
+      "1時間待[じかんまち]った。なぜなら、誰[だれ]も来[こ]なかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: waited an hour = someone should come. ところが = unexpected reversal. Result: nobody came (contrary to expectation). 1時間待[じかんまち]った。ところが、誰[だれ]も来[こ]なかった = I waited an hour; however, nobody came."
+    },
+    {
+     "id": "tokoro-ga_q10",
+     "type": "translation",
+     "prompt": "Which means 'I thought I had lost my wallet, but it was in my bag'?",
+     "japanese": null,
+     "choices": [
+      "財布[さいふ]をなくしたと思[おも]った。ところが、バッグの中[なか]にあった。",
+      "財布[さいふ]をなくしたと思[おも]った。だから、バッグの中[なか]にあった。",
+      "財布[さいふ]をなくしたと思[おも]った。ところで、バッグの中[なか]にあった。",
+      "財布[さいふ]をなくしたと思[おも]った。しかし、バッグの中[なか]にあった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: thought I lost my wallet (bad). ところが = unexpected reversal. Result: it was in my bag (unexpectedly good). ところが = relief after unexpected positive reversal. しかし (option 4) is weaker and doesn't capture the surprise as well."
+    },
+    {
+     "id": "tokoro-ga_q11",
+     "type": "construct",
+     "prompt": "Which INCORRECTLY uses ところが (result is NOT unexpected)?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]が走[はし]った。ところが、疲[つか]れた。",
+      "たくさん食[た]べた。ところが、お腹[なか]が空[す]いた。",
+      "一生懸命[いっしょうけんめい]練習[れんしゅう]した。ところが、優勝[ゆうしょう]した。",
+      "急[いそ]いだ。ところが、遅刻[ちこく]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "彼[かれ]が走[はし]った。ところが、疲[つか]れた = he ran; however, he got tired. Getting tired from running is EXPECTED, not unexpected. ところが requires an UNEXPECTED reversal. The other options all have genuine reversals of expectations."
+    },
+    {
+     "id": "tokoro-ga_q12",
+     "type": "usage",
+     "prompt": "What is ところで (different from ところが) used for?",
+     "japanese": null,
+     "choices": [
+      "Unexpected reversal (same as ところが) — this is true in both spoken and written Japanese.",
+      "Topic change — 'by the way' (completely unrelated to ところが)",
+      "Simultaneous actions",
+      "Listing reasons"
+     ],
+     "correctIndex": 1,
+     "explanation": "ところで = 'by the way' (topic change). ところが = 'however' (unexpected reversal). These are completely different. Don't confuse them! ところで、今[いま]何時[なんじ]ですか = by the way, what time is it? ところが、結果[けっか]は反対[はんたい]だった = however, the result was opposite."
+    },
+    {
+     "id": "tokoro-ga_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'I tried to quit smoking, but I failed'?",
+     "japanese": null,
+     "choices": [
+      "タバコをやめようとした。ところが、失敗[しっぱい]した。",
+      "タバコをやめようとした。だから、失敗[しっぱい]した。",
+      "タバコをやめようとした。ところで、失敗[しっぱい]した。",
+      "タバコをやめようとした。しかし、失敗[しっぱい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ところが = unexpected failure: tried to quit → expected to succeed → ところが → failed. 失敗[しっぱい]した (failed) is contrary to the hope of quitting successfully. ところが is the best fit for this disappointed reversal."
+    },
+    {
+     "id": "tokoro-ga_q14",
+     "type": "translation",
+     "prompt": "Which means 'The project seemed to be going well, but problems arose'?",
+     "japanese": null,
+     "choices": [
+      "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。ところが、問題[もんだい]が発生[はっせい]した。",
+      "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。だから、問題[もんだい]が発生[はっせい]した。",
+      "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。ところで、問題[もんだい]が発生[はっせい]した。",
+      "プロジェクトは順調[じゅんちょう]に進[すす]んでいた。そして、問題[もんだい]が発生[はっせい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: project going smoothly = expected to succeed. ところが = unexpected reversal. Result: problems arose (contrary to expectation). ところが is ideal for this business/formal unexpected complication."
+    },
+    {
+     "id": "tokoro-ga_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'Everyone said the film was boring; I thought it was excellent'?",
+     "japanese": null,
+     "choices": [
+      "みんながつまらないと言[い]った。ところが、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
+      "みんながつまらないと言[い]った。だから、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
+      "みんながつまらないと言[い]った。ところで、私[わたし]はとても面白[おもしろ]いと思[おも]った。",
+      "みんながつまらないと言[い]った。しかし、私[わたし]はとても面白[おもしろ]いと思[おも]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation from others' comments: boring. ところが = unexpected reversal (the speaker's personal experience was contrary). 私[わたし]はとても面白[おもしろ]いと思[おも]った = I thought it was very good. Subjectivity reversal."
+    },
+    {
+     "id": "tokoro-ga_q16",
+     "type": "usage",
+     "prompt": "Which BEST describes what makes ところが unique among contrasting conjunctions?",
+     "japanese": null,
+     "choices": [
+      "It can start sentences, unlike しかし",
+      "It always refers to the past",
+      "The REVERSAL must be unexpected or contrary to established expectation (not just any contrast)",
+      "It is only used in written Japanese, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 2,
+     "explanation": "ところが's defining feature: the reversal MUST be unexpected. Any old contrast can use しかし or でも; ところが requires the listener to feel 'that wasn't what I expected'. The surprise or contrary-to-expectation feeling is the core feature."
+    },
+    {
+     "id": "tokoro-ga_q17",
+     "type": "construct",
+     "prompt": "Which correctly uses ところが: 'I expected to fail; I passed'?",
+     "japanese": null,
+     "choices": [
+      "落[お]ちると思[おも]った。ところが、合格[ごうかく]した。",
+      "落[お]ちると思[おも]った。だから、合格[ごうかく]した。",
+      "落[お]ちると思[おも]った。ところで、合格[ごうかく]した。",
+      "落[お]ちると思[おも]った。なので、合格[ごうかく]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: thought I'd fail. ところが = unexpected positive reversal. 合格[ごうかく]した = passed. 落[お]ちると思[おも]った。ところが、合格[ごうかく]した = I expected to fail, but I passed. Classic ところが surprise."
+    },
+    {
+     "id": "tokoro-ga_q18",
+     "type": "translation",
+     "prompt": "Which means 'I called him; however, there was no answer'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]に電話[でんわ]した。ところが、出[で]なかった。",
+      "彼[かれ]に電話[でんわ]した。だから、出[で]なかった。",
+      "彼[かれ]に電話[でんわ]した。ところで、出[で]なかった。",
+      "彼[かれ]に電話[でんわ]した。そして、出[で]なかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Expectation: called him = expected answer. ところが = unexpected reversal. 出[で]なかった = didn't answer (contrary to expectation). 電話[でんわ]した。ところが、出[で]なかった = I called him; however, there was no answer."
+    },
+    {
+     "id": "tokoro-ga_q19",
+     "type": "construct",
+     "prompt": "Which INCORRECTLY uses ところが (result IS expected)?",
+     "japanese": null,
+     "choices": [
+      "頑張[がんば]った。ところが、うまくいかなかった。",
+      "雨[あめ]が降[ふ]った。ところが、傘[かさ]を忘[わす]れた。",
+      "宿題[しゅくだい]をしたら、先生[せんせい]に褒[ほ]められた。ところが、クラスの雰囲気[ふんいき]が悪[わる]くなった。",
+      "毎日[まいにち]練習[れんしゅう]した。ところが、上手[じょうず]になれなかった。"
+     ],
+     "correctIndex": 1,
+     "explanation": "雨[あめ]が降[ふ]った。ところが、傘[かさ]を忘[わす]れた = it rained; however, I forgot my umbrella. Forgetting an umbrella on a rainy day is unfortunate but NOT contrary to expectation caused by the rain. ところが requires the result to be contrary to what the first clause implies, not just unfortunate."
+    },
+    {
+     "id": "tokoro-ga_q20",
+     "type": "usage",
+     "prompt": "Which sentence BEST shows ところが's unexpected reversal?",
+     "japanese": null,
+     "choices": [
+      "電車[でんしゃ]に乗[の]った。ところが、到着[とうちゃく]した。",
+      "簡単[かんたん]だと聞[き]いていた。ところが、非常[ひじょう]に難[むずか]しかった。",
+      "勉強[べんきょう]した。ところが、勉強[べんきょう]した。",
+      "寝[ね]た。ところが、朝[あさ]になった。"
+     ],
+     "correctIndex": 1,
+     "explanation": "簡単[かんたん]だと聞[き]いていた = I was told it was easy (expectation: should be easy). ところが = unexpected reversal. 非常[ひじょう]に難[むずか]しかった = it was extremely difficult (completely contrary to the expectation). Classic ところが usage."
+    }
+   ]
+  },
+  {
+   "id": "ippou-de",
+   "name": "〜一方[いっぽう]で (ippou de) — on the other hand / while / at the same time",
+   "shortDescription": "Holds two contrasting or coexisting realities in balance — 'while / on the other hand / at the same time'.",
+   "formation": "Verb/adj (plain form) + 一方[いっぽう](で)  |  Noun + で + ある + 一方[いっぽう](で)",
+   "explanation": "一方[いっぽう]で (literally 'on one side') doesn't choose sides. It holds two aspects of a situation up together and presents both with equal weight. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっています: the economy is growing AND inequality is widening — both are true, both matter equally.\n\nThat balance is what makes 一方[いっぽう]で different from しかし (which pivots decisively in one direction) or でも (which minimizes the first clause). 一方[いっぽう]で says: these two realities coexist, and both deserve acknowledgment. It's the grammar of nuance, of honest complexity — which is why it lives in journalism, academic writing, and serious analysis.\n\nIt also works for describing a person with contrasting sides: 厳[きび]しい一方[いっぽう]で、とても優[やさ]しいところもある (strict on one side, but genuinely kind too). Whenever you want to give a balanced 'on the one hand... on the other hand' framing, 一方[いっぽう]で is your structure.",
+   "rules": [
+    "Plain form + 一方[いっぽう](で) = while / on the other hand / at the same time (coexisting contrast)",
+    "Noun + の + 一方[いっぽう](で) = on the [noun] side / while on the [noun] front",
+    "Presents two simultaneous aspects with equal weight — not a simple reversal",
+    "More formal and balanced than しかし (however) or でも (but)",
+    "一方[いっぽう] alone can mean 'on one side/hand'; 一方[いっぽう]で introduces the contrast"
+   ],
+   "examples": [
+    {
+     "japanese": "人口[じんこう]が増[ふ]えている一方[いっぽう]で、食料[しょくりょう]不足[ぶそく]が深刻[しんこく]になっています。",
+     "romaji": "Jinkou ga fuete iru ippou de, shokuryou busoku ga shinkoku ni natte imasu.",
+     "english": "While the population is growing, food shortages are becoming more serious."
+    },
+    {
+     "japanese": "彼女[かのじょ]は仕事[しごと]では厳[きび]しい一方[いっぽう]で、プライベートではとても穏[おだ]やかです。",
+     "romaji": "Kanojo wa shigoto dewa kibishii ippou de, puraibeeto dewa totemo odayaka desu.",
+     "english": "At work she is strict, while in private she is very calm."
+    },
+    {
+     "japanese": "都市化[としか]が進[すす]む一方[いっぽう]で、農村[のうそん]地域[ちいき]は過疎[かそ]化[か]が問題[もんだい]になっています。",
+     "romaji": "Toshika ga susumu ippou de, nousonchiiki wa kasoka ga mondai ni natte imasu.",
+     "english": "While urbanization progresses, rural areas are facing the problem of depopulation."
+    },
+    {
+     "japanese": "勉強[べんきょう]が楽[たの]しい一方[いっぽう]で、プレッシャーも大[おお]きいです。",
+     "romaji": "Benkyou ga tanoshii ippou de, puresshaa mo ookii desu.",
+     "english": "While studying is enjoyable, the pressure is also great."
+    }
+   ],
+   "flashcardHeader": "〜一方で",
+   "flashcardAnswer": "Presents two contrasting or coexisting aspects of a situation with equal weight.",
+   "practice": [
+    {
+     "id": "ippou-de_q1",
+     "type": "usage",
+     "prompt": "What does 〜一方[いっぽう]で mean?",
+     "japanese": null,
+     "choices": [
+      "on the other hand / while / at the same time (comparing two contrasting aspects or parallel situations)",
+      "however / but (unexpected result)",
+      "moreover / in addition to that",
+      "because of / due to"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜一方[いっぽう]で = on the other hand / while / at the same time. It introduces a CONTRASTING or PARALLEL aspect. 経済[けいざい]は成長[せいちょう]している一方[いっぽう]で、格差[かくさ]も広[ひろ]がっている = while the economy is growing, inequality is also widening."
+    },
+    {
+     "id": "ippou-de_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'While the city is developing, the environment is also deteriorating'?",
+     "japanese": null,
+     "choices": [
+      "都市[とし]が発展[はってん]している一方[いっぽう]で、環境[かんきょう]が悪化[あっか]している。",
+      "都市[とし]が発展[はってん]しているのに、環境[かんきょう]が悪化[あっか]している。",
+      "都市[とし]が発展[はってん]しているところが、環境[かんきょう]が悪化[あっか]している。",
+      "都市[とし]が発展[はってん]しているながらも、環境[かんきょう]が悪化[あっか]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で = while / on the other hand. 発展[はってん]している + 一方[いっぽう]で = while developing. 環境[かんきょう]が悪化[あっか]している = environment is deteriorating. Two simultaneous but contrasting trends."
+    },
+    {
+     "id": "ippou-de_q3",
+     "type": "construct",
+     "prompt": "What form attaches before 一方[いっぽう]で for VERBS?",
+     "japanese": null,
+     "choices": [
+      "te-form + 一方[いっぽう]で",
+      "plain form + 一方[いっぽう]で",
+      "masu-stem + 一方[いっぽう]で",
+      "ta-form + 一方[いっぽう]で"
+     ],
+     "correctIndex": 1,
+     "explanation": "Plain form (dict or ている form) + 一方[いっぽう]で. 経済[けいざい]が成長[せいちょう]する一方[いっぽう]で = while the economy grows. 物価[ぶっか]が上[あ]がっている一方[いっぽう]で = while prices are rising. Plain form before 一方[いっぽう]で."
+    },
+    {
+     "id": "ippou-de_q4",
+     "type": "usage",
+     "prompt": "What distinguishes 一方[いっぽう]で from 一方[いっぽう]だ?",
+     "japanese": null,
+     "choices": [
+      "They are the same",
+      "一方[いっぽう]で = contrasting/parallel situation ('while X, also Y'); 一方[いっぽう]だ = getting worse/better in one direction only (unidirectional change: 'keeps on -ing')",
+      "一方[いっぽう]で = formal; 一方[いっぽう]だ = casual",
+      "一方[いっぽう]で = for people; 一方[いっぽう]だ = for events — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "一方[いっぽう]で = while X, also Y (contrast or parallel). 一方[いっぽう]だ = keeps getting more X / going only in one direction. 寒[さむ]くなる一方[いっぽう]だ = it keeps getting colder (one direction). 経済[けいざい]が成長[せいちょう]する一方[いっぽう]で、格差[かくさ]も広[ひろ]がる = while economy grows, inequality also widens (two directions)."
+    },
+    {
+     "id": "ippou-de_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'While she works hard, her colleague barely does anything'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]く一方[いっぽう]で、同僚[どうりょう]はほとんど何[なに]もしない。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]くのに、同僚[どうりょう]はほとんど何[なに]もしない。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]くところが、同僚[どうりょう]はほとんど何[なに]もしない。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]働[はたら]きながら、同僚[どうりょう]はほとんど何[なに]もしない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + 一方[いっぽう]で: 働[はたら]く + 一方[いっぽう]で = while working. 同僚[どうりょう]はほとんど何[なに]もしない = colleague barely does anything. Two contrasting situations happening at the same time."
+    },
+    {
+     "id": "ippou-de_q6",
+     "type": "translation",
+     "prompt": "Which means 'While smartphones are convenient, they also cause problems'?",
+     "japanese": null,
+     "choices": [
+      "スマートフォンは便利[べんり]な一方[いっぽう]で、問題[もんだい]も引[ひ]き起[お]こす。",
+      "スマートフォンは便利[べんり]なのに、問題[もんだい]も引[ひ]き起[お]こす。",
+      "スマートフォンは便利[べんり]なところが、問題[もんだい]も引[ひ]き起[お]こす。",
+      "スマートフォンは便利[べんり]ながらも、問題[もんだい]も引[ひ]き起[お]こす。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + な + 一方[いっぽう]で: 便利[べんり]な + 一方[いっぽう]で = while convenient. 問題[もんだい]も引[ひ]き起[お]こす = also causes problems. Two coexisting aspects (positive and negative) of smartphones."
+    },
+    {
+     "id": "ippou-de_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'On the one hand, technology improves our lives; on the other hand, it isolates us'?",
+     "japanese": null,
+     "choices": [
+      "テクノロジーは生活[せいかつ]を向上[こうじょう]させる一方[いっぽう]で、孤立[こりつ]をもたらす。",
+      "テクノロジーは生活[せいかつ]を向上[こうじょう]させるのに、孤立[こりつ]をもたらす。",
+      "テクノロジーは生活[せいかつ]を向上[こうじょう]させながら、孤立[こりつ]をもたらす。",
+      "テクノロジーは生活[せいかつ]を向上[こうじょう]させているが、孤立[こりつ]をもたらす。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で = 'on one hand / while X, also Y'. 向上[こうじょう]させる + 一方[いっぽう]で = while improving. 孤立[こりつ]をもたらす = brings isolation. Two coexisting aspects of technology."
+    },
+    {
+     "id": "ippou-de_q8",
+     "type": "usage",
+     "prompt": "一方[いっぽう]で is MOST appropriate in which type of writing?",
+     "japanese": null,
+     "choices": [
+      "Personal diary entries, with no exceptions in modern standard Japanese.",
+      "Casual text messages",
+      "Analytical or academic writing discussing two contrasting aspects simultaneously",
+      "Humorous fiction"
+     ],
+     "correctIndex": 2,
+     "explanation": "一方[いっぽう]で is characteristic of analytical/academic/news writing where two aspects of a situation are compared or contrasted. 経済成長[けいざいせいちょう]の一方[いっぽう]で環境問題[かんきょうもんだい]が悪化[あっか]している = a typical 一方[いっぽう]で usage in news/academic text."
+    },
+    {
+     "id": "ippou-de_q9",
+     "type": "construct",
+     "prompt": "Which correctly says 'While working, she studies at night school'?",
+     "japanese": null,
+     "choices": [
+      "働[はたら]きながら、夜学[やがく]で勉強[べんきょう]している。",
+      "働[はたら]く一方[いっぽう]で、夜学[やがく]で勉強[べんきょう]している。",
+      "働[はたら]いているのに、夜学[やがく]で勉強[べんきょう]している。",
+      "働[はたら]いているところが、夜学[やがく]で勉強[べんきょう]している。"
+     ],
+     "correctIndex": 1,
+     "explanation": "一方[いっぽう]で for parallel activities of the same person. 働[はたら]く + 一方[いっぽう]で = while working (also doing something else). 夜学[やがく]で勉強[べんきょう]している = studies at night school. Two activities running simultaneously. (ながら = same-moment; 一方[いっぽう]で = broader parallel activities.)"
+    },
+    {
+     "id": "ippou-de_q10",
+     "type": "translation",
+     "prompt": "Which means 'While the population is decreasing, the birth rate is also falling'?",
+     "japanese": null,
+     "choices": [
+      "人口[じんこう]が減少[げんしょう]している一方[いっぽう]で、出生率[しゅっせいりつ]も低下[ていか]している。",
+      "人口[じんこう]が減少[げんしょう]しているのに、出生率[しゅっせいりつ]も低下[ていか]している。",
+      "人口[じんこう]が減少[げんしょう]しているながらも、出生率[しゅっせいりつ]も低下[ていか]している。",
+      "人口[じんこう]が減少[げんしょう]しているところが、出生率[しゅっせいりつ]も低下[ていか]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で = while / parallel trend. 減少[げんしょう]している + 一方[いっぽう]で = while declining. 出生率[しゅっせいりつ]も低下[ていか]している = birth rate is also declining. Two parallel demographic trends."
+    },
+    {
+     "id": "ippou-de_q11",
+     "type": "construct",
+     "prompt": "Which correctly uses 一方[いっぽう]だ (NOT 一方[いっぽう]で): 'Traffic keeps getting worse'?",
+     "japanese": null,
+     "choices": [
+      "交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]で、道路[どうろ]が増[ふ]えた。",
+      "交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]だ。",
+      "交通渋滞[こうつうじゅうたい]がひどくなった一方[いっぽう]で、道路[どうろ]が増[ふ]えた。",
+      "交通渋滞[こうつうじゅうたい]がひどくなる。一方[いっぽう]だ。"
+     ],
+     "correctIndex": 1,
+     "explanation": "一方[いっぽう]だ (not 一方[いっぽう]で): 一方[いっぽう]だ = gets worse and worse / keeps going in one direction. 交通渋滞[こうつうじゅうたい]がひどくなる一方[いっぽう]だ = traffic keeps getting worse and worse (no end in sight). 一方[いっぽう]で = contrastive (two things simultaneously)."
+    },
+    {
+     "id": "ippou-de_q12",
+     "type": "usage",
+     "prompt": "Which best shows the PARALLEL use of 一方[いっぽう]で (same subject, two simultaneous aspects)?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は英語[えいご]を教[おし]える一方[いっぽう]で、日本語[にほんご]を学[まな]んでいる。",
+      "英語[えいご]が難[むずか]しいながらも、彼[かれ]は学[まな]んでいる。",
+      "英語[えいご]を勉強[べんきょう]したところが、テストに落[お]ちた。",
+      "英語[えいご]が得意[とくい]なのに、話[はな]せない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "彼[かれ]は英語[えいご]を教[おし]える一方[いっぽう]で、日本語[にほんご]を学[まな]んでいる = while he teaches English, he's also learning Japanese. Same subject (him), two simultaneous activities — 一方[いっぽう]で for PARALLEL activities of same person."
+    },
+    {
+     "id": "ippou-de_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'While exports are increasing, domestic demand is shrinking'?",
+     "japanese": null,
+     "choices": [
+      "輸出[ゆしゅつ]が増加[ぞうか]している一方[いっぽう]で、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
+      "輸出[ゆしゅつ]が増加[ぞうか]しているのに、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
+      "輸出[ゆしゅつ]が増加[ぞうか]しているところが、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。",
+      "輸出[ゆしゅつ]が増加[ぞうか]しているながらも、国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で for two contrasting economic trends: 増加[ぞうか]している + 一方[いっぽう]で = while increasing. 国内[こくない]需要[じゅよう]は縮小[しゅくしょう]している = domestic demand is shrinking. Classic analytical two-trend contrast."
+    },
+    {
+     "id": "ippou-de_q14",
+     "type": "translation",
+     "prompt": "Which means 'While some people like city life, others prefer the countryside'?",
+     "japanese": null,
+     "choices": [
+      "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいる一方[いっぽう]で、田舎[いなか]を好[この]む人[ひと]もいる。",
+      "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるのに、田舎[いなか]を好[この]む人[ひと]もいる。",
+      "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるところが、田舎[いなか]を好[この]む人[ひと]もいる。",
+      "都市[とし]生活[せいかつ]が好[す]きな人[ひと]がいるながらも、田舎[いなか]を好[この]む人[ひと]もいる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で for contrasting groups/preferences: 好[す]きな人[ひと]がいる + 一方[いっぽう]で = while some people like. 田舎[いなか]を好[この]む人[ひと]もいる = others prefer countryside. Two contrasting groups simultaneously."
+    },
+    {
+     "id": "ippou-de_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'While new jobs are created, old industries are disappearing'?",
+     "japanese": null,
+     "choices": [
+      "新[あたら]しい仕事[しごと]が生[う]まれる一方[いっぽう]で、古[ふる]い産業[さんぎょう]が消[き]えていく。",
+      "新[あたら]しい仕事[しごと]が生[う]まれているのに、古[ふる]い産業[さんぎょう]が消[き]えていく。",
+      "新[あたら]しい仕事[しごと]が生[う]まれているながらも、古[ふる]い産業[さんぎょう]が消[き]えていく。",
+      "新[あたら]しい仕事[しごと]が生[う]まれているところが、古[ふる]い産業[さんぎょう]が消[き]えていく。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で = while X, simultaneously Y. 生[う]まれる + 一方[いっぽう]で = while being created. 古[ふる]い産業[さんぎょう]が消[き]えていく = old industries are disappearing. Two simultaneous opposing economic trends."
+    },
+    {
+     "id": "ippou-de_q16",
+     "type": "usage",
+     "prompt": "Which correctly uses 一方[いっぽう]だ (unidirectional worsening)?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の成績[せいせき]が悪[わる]くなる一方[いっぽう]だ。(His grades keep getting worse)",
+      "彼[かれ]の成績[せいせき]が悪[わる]い一方[いっぽう]で、出席率[しゅっせきりつ]は良[よ]い。(While grades are bad, attendance is good)",
+      "彼[かれ]の成績[せいせき]は良[よ]くない一方[いっぽう]だった。",
+      "彼[かれ]の成績[せいせき]は悪[わる]くなった一方[いっぽう]で、彼[かれ]は努力[どりょく]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]だ for unidirectional change: 悪[わる]くなる一方[いっぽう]だ = keeps getting worse / only getting worse. This expresses continuous deterioration in one direction. 一方[いっぽう]で (option 2) would add a contrasting aspect."
+    },
+    {
+     "id": "ippou-de_q17",
+     "type": "construct",
+     "prompt": "Which correctly says 'While she enjoys her work, the commute is hard on her'?",
+     "japanese": null,
+     "choices": [
+      "仕事[しごと]を楽[たの]しんでいる一方[いっぽう]で、通勤[つうきん]が辛[つら]い。",
+      "仕事[しごと]を楽[たの]しんでいるのに、通勤[つうきん]が辛[つら]い。",
+      "仕事[しごと]を楽[たの]しんでいるながらも、通勤[つうきん]が辛[つら]い。",
+      "仕事[しごと]を楽[たの]しんでいるところが、通勤[つうきん]が辛[つら]い。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で = while X, also Y (coexisting aspects). 楽[たの]しんでいる + 一方[いっぽう]で = while enjoying. 通勤[つうきん]が辛[つら]い = commute is hard. Two coexisting aspects of her work situation (positive and negative)."
+    },
+    {
+     "id": "ippou-de_q18",
+     "type": "translation",
+     "prompt": "Which means 'While the rich get richer, the poor get poorer'?",
+     "japanese": null,
+     "choices": [
+      "金持[かねも]ちがますます豊[ゆた]かになる一方[いっぽう]で、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+      "金持[かねも]ちがますます豊[ゆた]かになるのに、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+      "金持[かねも]ちがますます豊[ゆた]かになるながらも、貧[まず]しい人[ひと]はますます貧[まず]しくなる。",
+      "金持[かねも]ちがますます豊[ゆた]かになるところが、貧[まず]しい人[ひと]はますます貧[まず]しくなる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "一方[いっぽう]で for contrasting trends: 豊[ゆた]かになる + 一方[いっぽう]で = while getting richer. 貧[まず]しい人[ひと]はますます貧[まず]しくなる = poor people get poorer. Classic social inequality two-trend statement."
+    },
+    {
+     "id": "ippou-de_q19",
+     "type": "construct",
+     "prompt": "Which correctly says 'While he succeeded abroad, he failed in Japan'?",
+     "japanese": null,
+     "choices": [
+      "海外[かいがい]で成功[せいこう]した一方[いっぽう]で、日本[にほん]では失敗[しっぱい]した。",
+      "海外[かいがい]で成功[せいこう]したのに、日本[にほん]では失敗[しっぱい]した。",
+      "海外[かいがい]で成功[せいこう]したながらも、日本[にほん]では失敗[しっぱい]した。",
+      "海外[かいがい]で成功[せいこう]したところが、日本[にほん]では失敗[しっぱい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Ta-form + 一方[いっぽう]で: 成功[せいこう]した + 一方[いっぽう]で = while succeeding (in one place). 日本[にほん]では失敗[しっぱい]した = failed in Japan. Two contrasting outcomes in different contexts."
+    },
+    {
+     "id": "ippou-de_q20",
+     "type": "usage",
+     "prompt": "Which CORRECTLY pairs 一方[いっぽう]で (contrast) with 一方[いっぽう]だ (unidirectional trend)?",
+     "japanese": null,
+     "choices": [
+      "物価[ぶっか]が上[あ]がる一方[いっぽう]で = prices keep rising unidirectionally; 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices rise while something else falls",
+      "物価[ぶっか]が上[あ]がる一方[いっぽう]で = while prices rise (something else too); 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices just keep rising (unidirectional)",
+      "They have the same meaning",
+      "物価[ぶっか]が上[あ]がる一方[いっぽう]で = formal; 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = casual"
+     ],
+     "correctIndex": 1,
+     "explanation": "物価[ぶっか]が上[あ]がる一方[いっぽう]で = while prices are rising (context: something else also happening). 物価[ぶっか]が上[あ]がる一方[いっぽう]だ = prices just keep going up (unidirectional, no end, no contrast). 一方[いっぽう]で (+ follow-up clause) = contrasting; 一方[いっぽう]だ (end of sentence) = one-directional worsening."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch29_v01",
+   "partOfSpeech": "noun",
+   "kanji": "経済",
+   "kana": "けいざい",
+   "romaji": "keizai",
+   "definition": "economy"
+  },
+  {
+   "id": "ch29_v02",
+   "partOfSpeech": "noun",
+   "kanji": "景気",
+   "kana": "けいき",
+   "romaji": "keiki",
+   "definition": "economic conditions"
+  },
+  {
+   "id": "ch29_v03",
+   "partOfSpeech": "noun",
+   "kanji": "産業",
+   "kana": "さんぎょう",
+   "romaji": "sangyou",
+   "definition": "industry"
+  },
+  {
+   "id": "ch29_v04",
+   "partOfSpeech": "noun",
+   "kanji": "企業",
+   "kana": "きぎょう",
+   "romaji": "kigyou",
+   "definition": "enterprise; corporation"
+  },
+  {
+   "id": "ch29_v05",
+   "partOfSpeech": "noun",
+   "kanji": "商売",
+   "kana": "しょうばい",
+   "romaji": "shoubai",
+   "definition": "business; trade"
+  },
+  {
+   "id": "ch29_v06",
+   "partOfSpeech": "noun",
+   "kanji": "貿易",
+   "kana": "ぼうえき",
+   "romaji": "boueki",
+   "definition": "trade (international)"
+  },
+  {
+   "id": "ch29_v07",
+   "partOfSpeech": "noun",
+   "kanji": "輸出",
+   "kana": "ゆしゅつ",
+   "romaji": "yushutsu",
+   "definition": "export"
+  },
+  {
+   "id": "ch29_v08",
+   "partOfSpeech": "noun",
+   "kanji": "輸入",
+   "kana": "ゆにゅう",
+   "romaji": "yunyuu",
+   "definition": "import"
+  },
+  {
+   "id": "ch29_v09",
+   "partOfSpeech": "noun",
+   "kanji": "生産",
+   "kana": "せいさん",
+   "romaji": "seisan",
+   "definition": "production"
+  },
+  {
+   "id": "ch29_v10",
+   "partOfSpeech": "noun",
+   "kanji": "消費",
+   "kana": "しょうひ",
+   "romaji": "shouhi",
+   "definition": "consumption"
+  },
+  {
+   "id": "ch29_v11",
+   "partOfSpeech": "noun",
+   "kanji": "需要",
+   "kana": "じゅよう",
+   "romaji": "juyou",
+   "definition": "demand"
+  },
+  {
+   "id": "ch29_v12",
+   "partOfSpeech": "noun",
+   "kanji": "供給",
+   "kana": "きょうきゅう",
+   "romaji": "kyoukyuu",
+   "definition": "supply"
+  },
+  {
+   "id": "ch29_v13",
+   "partOfSpeech": "noun",
+   "kanji": "販売",
+   "kana": "はんばい",
+   "romaji": "hanbai",
+   "definition": "sales"
+  },
+  {
+   "id": "ch29_v14",
+   "partOfSpeech": "noun",
+   "kanji": "利益",
+   "kana": "りえき",
+   "romaji": "rieki",
+   "definition": "profit"
+  },
+  {
+   "id": "ch29_v15",
+   "partOfSpeech": "noun",
+   "kanji": "損失",
+   "kana": "そんしつ",
+   "romaji": "sonshitsu",
+   "definition": "loss"
+  },
+  {
+   "id": "ch29_v16",
+   "partOfSpeech": "noun",
+   "kanji": "投資",
+   "kana": "とうし",
+   "romaji": "toushi",
+   "definition": "investment"
+  },
+  {
+   "id": "ch29_v17",
+   "partOfSpeech": "noun",
+   "kanji": "株",
+   "kana": "かぶ",
+   "romaji": "kabu",
+   "definition": "stock; shares"
+  },
+  {
+   "id": "ch29_v18",
+   "partOfSpeech": "noun",
+   "kanji": "金融",
+   "kana": "きんゆう",
+   "romaji": "kin'yuu",
+   "definition": "finance"
+  },
+  {
+   "id": "ch29_v19",
+   "partOfSpeech": "noun",
+   "kanji": "経営",
+   "kana": "けいえい",
+   "romaji": "keiei",
+   "definition": "management"
+  },
+  {
+   "id": "ch29_v20",
+   "partOfSpeech": "noun",
+   "kanji": "倒産",
+   "kana": "とうさん",
+   "romaji": "tousan",
+   "definition": "bankruptcy"
+  },
+  {
+   "id": "ch29_v21",
+   "partOfSpeech": "noun",
+   "kanji": "不況",
+   "kana": "ふきょう",
+   "romaji": "fukyou",
+   "definition": "recession"
+  },
+  {
+   "id": "ch29_v22",
+   "partOfSpeech": "noun",
+   "kanji": "物価",
+   "kana": "ぶっか",
+   "romaji": "bukka",
+   "definition": "(commodity) prices"
+  },
+  {
+   "id": "ch29_v23",
+   "partOfSpeech": "noun",
+   "kanji": "収入",
+   "kana": "しゅうにゅう",
+   "romaji": "shuunyuu",
+   "definition": "income"
+  },
+  {
+   "id": "ch29_v24",
+   "partOfSpeech": "noun",
+   "kanji": "支出",
+   "kana": "ししゅつ",
+   "romaji": "shishutsu",
+   "definition": "expenditure"
+  },
+  {
+   "id": "ch29_v25",
+   "partOfSpeech": "noun",
+   "kanji": "賃金",
+   "kana": "ちんぎん",
+   "romaji": "chingin",
+   "definition": "wages"
+  },
+  {
+   "id": "ch29_v26",
+   "partOfSpeech": "noun",
+   "kanji": "為替",
+   "kana": "かわせ",
+   "romaji": "kawase",
+   "definition": "exchange rate"
+  },
+  {
+   "id": "ch29_v27",
+   "partOfSpeech": "noun",
+   "kanji": "円高",
+   "kana": "えんだか",
+   "romaji": "endaka",
+   "definition": "strong yen"
+  },
+  {
+   "id": "ch29_v28",
+   "partOfSpeech": "noun",
+   "kanji": "円安",
+   "kana": "えんやす",
+   "romaji": "en'yasu",
+   "definition": "weak yen"
+  },
+  {
+   "id": "ch29_v29",
+   "partOfSpeech": "noun",
+   "kanji": "成長",
+   "kana": "せいちょう",
+   "romaji": "seichou",
+   "definition": "growth"
+  },
+  {
+   "id": "ch29_v30",
+   "partOfSpeech": "noun",
+   "kanji": "発展",
+   "kana": "はってん",
+   "romaji": "hatten",
+   "definition": "development; expansion"
+  },
+  {
+   "id": "ch29_v31",
+   "partOfSpeech": "noun",
+   "kanji": "競争",
+   "kana": "きょうそう",
+   "romaji": "kyousou",
+   "definition": "competition"
+  },
+  {
+   "id": "ch29_v32",
+   "partOfSpeech": "noun",
+   "kanji": "契約",
+   "kana": "けいやく",
+   "romaji": "keiyaku",
+   "definition": "contract"
+  },
+  {
+   "id": "ch29_v33",
+   "partOfSpeech": "noun",
+   "kanji": "取引",
+   "kana": "とりひき",
+   "romaji": "torihiki",
+   "definition": "transaction; dealings"
+  },
+  {
+   "id": "ch29_v34",
+   "partOfSpeech": "noun",
+   "kanji": "顧客",
+   "kana": "こきゃく",
+   "romaji": "kokyaku",
+   "definition": "client; customer"
+  },
+  {
+   "id": "ch29_v35",
+   "partOfSpeech": "noun",
+   "kanji": "資金",
+   "kana": "しきん",
+   "romaji": "shikin",
+   "definition": "funds"
+  },
+  {
+   "id": "ch29_v36",
+   "partOfSpeech": "noun",
+   "kanji": "財産",
+   "kana": "ざいさん",
+   "romaji": "zaisan",
+   "definition": "assets; property"
+  },
+  {
+   "id": "ch29_v37",
+   "partOfSpeech": "noun",
+   "kanji": "経費",
+   "kana": "けいひ",
+   "romaji": "keihi",
+   "definition": "expenses"
+  },
+  {
+   "id": "ch29_v38",
+   "partOfSpeech": "noun",
+   "kanji": "効率",
+   "kana": "こうりつ",
+   "romaji": "kouritsu",
+   "definition": "efficiency"
+  },
+  {
+   "id": "ch29_v39",
+   "partOfSpeech": "noun",
+   "kanji": "業界",
+   "kana": "ぎょうかい",
+   "romaji": "gyoukai",
+   "definition": "industry; the trade"
+  },
+  {
+   "id": "ch29_v40",
+   "partOfSpeech": "noun",
+   "kanji": "消費者",
+   "kana": "しょうひしゃ",
+   "romaji": "shouhisha",
+   "definition": "consumer"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "市",
+   "word": "市",
+   "reading": "いち",
+   "meaning": "market"
+  },
+  {
+   "char": "経",
+   "word": "経済",
+   "reading": "けいざい",
+   "meaning": "economy"
+  },
+  {
+   "char": "約",
+   "word": "約",
+   "reading": "やく",
+   "meaning": "approximately"
+  },
+  {
+   "char": "取",
+   "word": "取引",
+   "reading": "とりひき",
+   "meaning": "transaction; dealings"
+  },
+  {
+   "char": "支",
+   "word": "支出",
+   "reading": "ししゅつ",
+   "meaning": "expenditure"
+  },
+  {
+   "char": "産",
+   "word": "産業",
+   "reading": "さんぎょう",
+   "meaning": "industry"
+  },
+  {
+   "char": "済",
+   "word": "済む",
+   "reading": "すむ",
+   "meaning": "to finish"
+  },
+  {
+   "char": "資",
+   "word": "資金",
+   "reading": "しきん",
+   "meaning": "funds"
+  },
+  {
+   "char": "利",
+   "word": "利益",
+   "reading": "りえき",
+   "meaning": "profit"
+  },
+  {
+   "char": "引",
+   "word": "引",
+   "reading": "ひ",
+   "meaning": "pull"
+  },
+  {
+   "char": "投",
+   "word": "投資",
+   "reading": "とうし",
+   "meaning": "investment"
+  },
+  {
+   "char": "直",
+   "word": "直し",
+   "reading": "なおし",
+   "meaning": "correction"
+  },
+  {
+   "char": "争",
+   "word": "争い",
+   "reading": "あらそい",
+   "meaning": "dispute"
+  },
+  {
+   "char": "供",
+   "word": "供給",
+   "reading": "きょうきゅう",
+   "meaning": "supply"
+  },
+  {
+   "char": "費",
+   "word": "費",
+   "reading": "ひ",
+   "meaning": "cost"
+  },
+  {
+   "char": "収",
+   "word": "収入",
+   "reading": "しゅうにゅう",
+   "meaning": "income"
+  },
+  {
+   "char": "消",
+   "word": "消",
+   "reading": "き",
+   "meaning": "extinguish"
+  },
+  {
+   "char": "商",
+   "word": "商売",
+   "reading": "しょうばい",
+   "meaning": "business; trade"
+  },
+  {
+   "char": "景",
+   "word": "景気",
+   "reading": "けいき",
+   "meaning": "economic conditions"
+  },
+  {
+   "char": "渡",
+   "word": "渡る",
+   "reading": "わたる",
+   "meaning": "to cross over"
+  },
+  {
+   "char": "失",
+   "word": "損失",
+   "reading": "そんしつ",
+   "meaning": "loss"
+  },
+  {
+   "char": "財",
+   "word": "財産",
+   "reading": "ざいさん",
+   "meaning": "assets; property"
+  },
+  {
+   "char": "満",
+   "word": "満たす",
+   "reading": "みたす",
+   "meaning": "to satisfy (conditions, one's appetite, etc.)"
+  },
+  {
+   "char": "師",
+   "word": "師",
+   "reading": "いくさ",
+   "meaning": "expert"
+  },
+  {
+   "char": "易",
+   "word": "易しい",
+   "reading": "やさしい",
+   "meaning": "easy"
+  },
+  {
+   "char": "給",
+   "word": "供給",
+   "reading": "きょうきゅう",
+   "meaning": "supply"
+  },
+  {
+   "char": "彼",
+   "word": "彼",
+   "reading": "かれ",
+   "meaning": "he"
+  },
+  {
+   "char": "妻",
+   "word": "妻",
+   "reading": "つま",
+   "meaning": "wife"
+  },
+  {
+   "char": "船",
+   "word": "船",
+   "reading": "ふね",
+   "meaning": "ship"
+  },
+  {
+   "char": "静",
+   "word": "静か",
+   "reading": "しずか",
+   "meaning": "quiet"
+  },
+  {
+   "char": "倒",
+   "word": "倒産",
+   "reading": "とうさん",
+   "meaning": "bankruptcy"
+  },
+  {
+   "char": "困",
+   "word": "困る",
+   "reading": "こまる",
+   "meaning": "to be troubled"
+  },
+  {
+   "char": "願",
+   "word": "願う",
+   "reading": "ねがう",
+   "meaning": "to desire"
+  },
+  {
+   "char": "列",
+   "word": "列",
+   "reading": "れつ",
+   "meaning": "row"
+  },
+  {
+   "char": "迷",
+   "word": "迷い",
+   "reading": "まよい",
+   "meaning": "hesitation"
+  },
+  {
+   "char": "悲",
+   "word": "悲しい",
+   "reading": "かなしい",
+   "meaning": "sad"
+  },
+  {
+   "char": "御",
+   "word": "御",
+   "reading": "おん",
+   "meaning": "honorable"
+  },
+  {
+   "char": "洗",
+   "word": "洗う",
+   "reading": "あらう",
+   "meaning": "to wash"
+  },
+  {
+   "char": "杯",
+   "word": "杯",
+   "reading": "さかずき",
+   "meaning": "sake cup"
+  },
+  {
+   "char": "怖",
+   "word": "怖",
+   "reading": "こわ",
+   "meaning": "dreadful"
+  },
+  {
+   "char": "靴",
+   "word": "靴",
+   "reading": "くつ",
+   "meaning": "shoe"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "市",
+   "kana": "いち",
+   "romaji": "ichi",
+   "meaning": "market",
+   "chars": [
+    "市"
+   ]
+  },
+  {
+   "word": "経済",
+   "kana": "けいざい",
+   "romaji": "keizai",
+   "meaning": "economy",
+   "chars": [
+    "経",
+    "済"
+   ]
+  },
+  {
+   "word": "約",
+   "kana": "やく",
+   "romaji": "yaku",
+   "meaning": "approximately",
+   "chars": [
+    "約"
+   ]
+  },
+  {
+   "word": "取引",
+   "kana": "とりひき",
+   "romaji": "torihiki",
+   "meaning": "transaction; dealings",
+   "chars": [
+    "取",
+    "引"
+   ]
+  },
+  {
+   "word": "支出",
+   "kana": "ししゅつ",
+   "romaji": "shishutsu",
+   "meaning": "expenditure",
+   "chars": [
+    "支",
+    "出"
+   ]
+  },
+  {
+   "word": "産業",
+   "kana": "さんぎょう",
+   "romaji": "sangyou",
+   "meaning": "industry",
+   "chars": [
+    "産",
+    "業"
+   ]
+  },
+  {
+   "word": "済む",
+   "kana": "すむ",
+   "romaji": "sumu",
+   "meaning": "to finish",
+   "chars": [
+    "済"
+   ]
+  },
+  {
+   "word": "資金",
+   "kana": "しきん",
+   "romaji": "shikin",
+   "meaning": "funds",
+   "chars": [
+    "資",
+    "金"
+   ]
+  },
+  {
+   "word": "利益",
+   "kana": "りえき",
+   "romaji": "rieki",
+   "meaning": "profit",
+   "chars": [
+    "利"
+   ]
+  },
+  {
+   "word": "引",
+   "kana": "ひ",
+   "romaji": "hi",
+   "meaning": "pull",
+   "chars": [
+    "引"
+   ]
+  },
+  {
+   "word": "投資",
+   "kana": "とうし",
+   "romaji": "toushi",
+   "meaning": "investment",
+   "chars": [
+    "投",
+    "資"
+   ]
+  },
+  {
+   "word": "直し",
+   "kana": "なおし",
+   "romaji": "naoshi",
+   "meaning": "correction",
+   "chars": [
+    "直"
+   ]
+  },
+  {
+   "word": "争い",
+   "kana": "あらそい",
+   "romaji": "arasoi",
+   "meaning": "dispute",
+   "chars": [
+    "争"
+   ]
+  },
+  {
+   "word": "供給",
+   "kana": "きょうきゅう",
+   "romaji": "kyoukyuu",
+   "meaning": "supply",
+   "chars": [
+    "供",
+    "給"
+   ]
+  },
+  {
+   "word": "費",
+   "kana": "ひ",
+   "romaji": "hi",
+   "meaning": "cost",
+   "chars": [
+    "費"
+   ]
+  },
+  {
+   "word": "収入",
+   "kana": "しゅうにゅう",
+   "romaji": "shuunyuu",
+   "meaning": "income",
+   "chars": [
+    "収",
+    "入"
+   ]
+  },
+  {
+   "word": "消",
+   "kana": "き",
+   "romaji": "ki",
+   "meaning": "extinguish",
+   "chars": [
+    "消"
+   ]
+  },
+  {
+   "word": "商売",
+   "kana": "しょうばい",
+   "romaji": "shoubai",
+   "meaning": "business; trade",
+   "chars": [
+    "商",
+    "売"
+   ]
+  },
+  {
+   "word": "景気",
+   "kana": "けいき",
+   "romaji": "keiki",
+   "meaning": "economic conditions",
+   "chars": [
+    "景",
+    "気"
+   ]
+  },
+  {
+   "word": "渡る",
+   "kana": "わたる",
+   "romaji": "wataru",
+   "meaning": "to cross over",
+   "chars": [
+    "渡"
+   ]
+  },
+  {
+   "word": "損失",
+   "kana": "そんしつ",
+   "romaji": "sonshitsu",
+   "meaning": "loss",
+   "chars": [
+    "損",
+    "失"
+   ]
+  },
+  {
+   "word": "財産",
+   "kana": "ざいさん",
+   "romaji": "zaisan",
+   "meaning": "assets; property",
+   "chars": [
+    "財",
+    "産"
+   ]
+  },
+  {
+   "word": "満たす",
+   "kana": "みたす",
+   "romaji": "mitasu",
+   "meaning": "to satisfy (conditions, one's appetite, etc.)",
+   "chars": [
+    "満"
+   ]
+  },
+  {
+   "word": "師",
+   "kana": "いくさ",
+   "romaji": "ikusa",
+   "meaning": "expert",
+   "chars": [
+    "師"
+   ]
+  },
+  {
+   "word": "易しい",
+   "kana": "やさしい",
+   "romaji": "yasashii",
+   "meaning": "easy",
+   "chars": [
+    "易"
+   ]
+  },
+  {
+   "word": "彼",
+   "kana": "かれ",
+   "romaji": "kare",
+   "meaning": "he",
+   "chars": [
+    "彼"
+   ]
+  },
+  {
+   "word": "妻",
+   "kana": "つま",
+   "romaji": "tsuma",
+   "meaning": "wife",
+   "chars": [
+    "妻"
+   ]
+  },
+  {
+   "word": "船",
+   "kana": "ふね",
+   "romaji": "fune",
+   "meaning": "ship",
+   "chars": [
+    "船"
+   ]
+  },
+  {
+   "word": "静か",
+   "kana": "しずか",
+   "romaji": "shizuka",
+   "meaning": "quiet",
+   "chars": [
+    "静"
+   ]
+  },
+  {
+   "word": "倒産",
+   "kana": "とうさん",
+   "romaji": "tousan",
+   "meaning": "bankruptcy",
+   "chars": [
+    "倒",
+    "産"
+   ]
+  },
+  {
+   "word": "困る",
+   "kana": "こまる",
+   "romaji": "komaru",
+   "meaning": "to be troubled",
+   "chars": [
+    "困"
+   ]
+  },
+  {
+   "word": "願う",
+   "kana": "ねがう",
+   "romaji": "negau",
+   "meaning": "to desire",
+   "chars": [
+    "願"
+   ]
+  },
+  {
+   "word": "列",
+   "kana": "れつ",
+   "romaji": "retsu",
+   "meaning": "row",
+   "chars": [
+    "列"
+   ]
+  },
+  {
+   "word": "迷い",
+   "kana": "まよい",
+   "romaji": "mayoi",
+   "meaning": "hesitation",
+   "chars": [
+    "迷"
+   ]
+  },
+  {
+   "word": "悲しい",
+   "kana": "かなしい",
+   "romaji": "kanashii",
+   "meaning": "sad",
+   "chars": [
+    "悲"
+   ]
+  },
+  {
+   "word": "御",
+   "kana": "おん",
+   "romaji": "on",
+   "meaning": "honorable",
+   "chars": [
+    "御"
+   ]
+  },
+  {
+   "word": "洗う",
+   "kana": "あらう",
+   "romaji": "arau",
+   "meaning": "to wash",
+   "chars": [
+    "洗"
+   ]
+  },
+  {
+   "word": "杯",
+   "kana": "さかずき",
+   "romaji": "sakazuki",
+   "meaning": "sake cup",
+   "chars": [
+    "杯"
+   ]
+  },
+  {
+   "word": "怖",
+   "kana": "こわ",
+   "romaji": "kowa",
+   "meaning": "dreadful",
+   "chars": [
+    "怖"
+   ]
+  },
+  {
+   "word": "靴",
+   "kana": "くつ",
+   "romaji": "kutsu",
+   "meaning": "shoe",
+   "chars": [
+    "靴"
+   ]
+  },
+  {
+   "word": "経営",
+   "kana": "けいえい",
+   "romaji": "keiei",
+   "meaning": "management",
+   "chars": [
+    "経",
+    "営"
+   ]
+  },
+  {
+   "word": "経つ",
+   "kana": "たつ",
+   "romaji": "tatsu",
+   "meaning": "to pass (of time)",
+   "chars": [
+    "経"
+   ]
+  },
+  {
+   "word": "投げる",
+   "kana": "なげる",
+   "romaji": "nageru",
+   "meaning": "to throw",
+   "chars": [
+    "投"
+   ]
+  },
+  {
+   "word": "競争",
+   "kana": "きょうそう",
+   "romaji": "kyousou",
+   "meaning": "competition",
+   "chars": [
+    "競",
+    "争"
+   ]
+  },
+  {
+   "word": "消える",
+   "kana": "きえる",
+   "romaji": "kieru",
+   "meaning": "to go out",
+   "chars": [
+    "消"
+   ]
+  },
+  {
+   "word": "渡す",
+   "kana": "わたす",
+   "romaji": "watasu",
+   "meaning": "to ferry across (e.g. a river)",
+   "chars": [
+    "渡"
+   ]
+  },
+  {
+   "word": "渡し",
+   "kana": "わたし",
+   "romaji": "watashi",
+   "meaning": "ferry (crossing)",
+   "chars": [
+    "渡"
+   ]
+  },
+  {
+   "word": "渡り",
+   "kana": "わたり",
+   "romaji": "watari",
+   "meaning": "crossing",
+   "chars": [
+    "渡"
+   ]
+  },
+  {
+   "word": "失う",
+   "kana": "うしなう",
+   "romaji": "ushinau",
+   "meaning": "to lose",
+   "chars": [
+    "失"
+   ]
+  },
+  {
+   "word": "貿易",
+   "kana": "ぼうえき",
+   "romaji": "boueki",
+   "meaning": "trade (foreign)",
+   "chars": [
+    "貿",
+    "易"
+   ]
+  },
+  {
+   "word": "彼ら",
+   "kana": "かれら",
+   "romaji": "karera",
+   "meaning": "they",
+   "chars": [
+    "彼"
+   ]
+  },
+  {
+   "word": "静けさ",
+   "kana": "しずけさ",
+   "romaji": "shizukesa",
+   "meaning": "stillness",
+   "chars": [
+    "静"
+   ]
+  },
+  {
+   "word": "倒す",
+   "kana": "たおす",
+   "romaji": "taosu",
+   "meaning": "to throw down",
+   "chars": [
+    "倒"
+   ]
+  },
+  {
+   "word": "願い",
+   "kana": "ねがい",
+   "romaji": "negai",
+   "meaning": "desire",
+   "chars": [
+    "願"
+   ]
+  },
+  {
+   "word": "悲しむ",
+   "kana": "かなしむ",
+   "romaji": "kanashimu",
+   "meaning": "to be sad",
+   "chars": [
+    "悲"
+   ]
+  },
+  {
+   "word": "業界",
+   "kana": "ぎょうかい",
+   "romaji": "gyoukai",
+   "meaning": "business world",
+   "chars": [
+    "業",
+    "界"
+   ]
+  },
+  {
+   "word": "物価",
+   "kana": "ぶっか",
+   "romaji": "bukka",
+   "meaning": "prices of commodities",
+   "chars": [
+    "物"
+   ]
+  },
+  {
+   "word": "輸入",
+   "kana": "ゆにゅう",
+   "romaji": "yunyuu",
+   "meaning": "import",
+   "chars": [
+    "輸",
+    "入"
+   ]
+  },
+  {
+   "word": "輸出",
+   "kana": "ゆしゅつ",
+   "romaji": "yushutsu",
+   "meaning": "export",
+   "chars": [
+    "輸",
+    "出"
+   ]
+  },
+  {
+   "word": "効率",
+   "kana": "こうりつ",
+   "romaji": "kouritsu",
+   "meaning": "efficiency",
+   "chars": [
+    "効"
+   ]
+  },
+  {
+   "word": "販売",
+   "kana": "はんばい",
+   "romaji": "hanbai",
+   "meaning": "sales",
+   "chars": [
+    "販",
+    "売"
+   ]
+  },
+  {
+   "word": "円高",
+   "kana": "えんだか",
+   "romaji": "endaka",
+   "meaning": "appreciation of the yen",
+   "chars": [
+    "円",
+    "高"
+   ]
+  },
+  {
+   "word": "円安",
+   "kana": "えんやす",
+   "romaji": "enyasu",
+   "meaning": "cheap yen",
+   "chars": [
+    "円",
+    "安"
+   ]
+  },
+  {
+   "word": "顧客",
+   "kana": "こきゃく",
+   "romaji": "kokyaku",
+   "meaning": "customer, client",
+   "chars": [
+    "顧",
+    "客"
+   ]
+  }
+ ]
 }

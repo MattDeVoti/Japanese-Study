@@ -1,177 +1,293 @@
 {
-  "id": "kana_k14",
-  "chapterNumber": 14,
-  "title": "Katakana Semi-Voiced H-Row — パ ピ プ ペ ポ",
-  "points": [
+ "id": "kana_k14",
+ "chapterNumber": 14,
+ "title": "Katakana Semi-Voiced H-Row — パ ピ プ ペ ポ",
+ "points": [
+  {
+   "id": "k14_intro",
+   "pointType": "kana",
+   "name": "゜",
+   "shortDescription": "The small circle that creates P sounds from the H-row",
+   "formation": "handakuten",
+   "explanation": "Just as in hiragana, the handakuten (゜) — the small circle placed at the top-right of H-row katakana — transforms them into P sounds. ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ. The P-row katakana are extremely common in loanwords from English and other European languages, since 'p' sounds are abundant in those languages. You'll encounter P-row characters constantly in katakana reading: パン (bread), ピアノ (piano), プール (pool), ペン (pen), and ポスター (poster) are just the beginning.",
+   "rules": [
+    "Handakuten (゜) = small circle top-right = H-row becomes P-row.",
+    "ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ — applies only to the H-row.",
+    "P-row is extremely common in katakana because English has many 'p' sounds."
+   ],
+   "examples": [
     {
-      "id": "k14_intro",
-      "pointType": "kana",
-      "name": "゜",
-      "shortDescription": "The small circle that creates P sounds from the H-row",
-      "formation": "handakuten",
-      "explanation": "Just as in hiragana, the handakuten (゜) — the small circle placed at the top-right of H-row katakana — transforms them into P sounds. ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ. The P-row katakana are extremely common in loanwords from English and other European languages, since 'p' sounds are abundant in those languages. You'll encounter P-row characters constantly in katakana reading: パン (bread), ピアノ (piano), プール (pool), ペン (pen), and ポスター (poster) are just the beginning.",
-      "rules": [
-        "Handakuten (゜) = small circle top-right = H-row becomes P-row.",
-        "ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ — applies only to the H-row.",
-        "P-row is extremely common in katakana because English has many 'p' sounds."
-      ],
-      "examples": [
-        {"japanese": "ハ→パ", "romaji": "ha→pa", "english": "H + handakuten = P"},
-        {"japanese": "ヒ→ピ", "romaji": "hi→pi", "english": "HI becomes PI"},
-        {"japanese": "フ→プ", "romaji": "fu→pu", "english": "FU becomes PU"},
-        {"japanese": "ホ→ポ", "romaji": "ho→po", "english": "HO becomes PO"}
-      ],
-      "flashcardHeader": "゜",
-      "flashcardAnswer": "handakuten — small circle converts H-row to P-row (パピプペポ)",
-      "practice": null
+     "japanese": "ハ→パ",
+     "romaji": "ha→pa",
+     "english": "H + handakuten = P"
     },
     {
-      "id": "k14_pa",
-      "pointType": "kana",
-      "name": "パ",
-      "shortDescription": "Same sound as ぱ — 'pa'; handakuten version of ハ",
-      "formation": "pa / ぱ",
-      "explanation": "パ makes the same 'pa' sound as hiragana ぱ — unaspirated 'p' before 'ah'. It's ハ plus the handakuten circle. パ appears in some of the most common katakana words: パン (bread — still from Portuguese 'pão'), パーティー (party), パスポート (passport), and パソコン (personal computer — a Japanese coinage from 'personal computer'). パソコン is a perfect example of Japan's creative word-shortening: 'personal' + 'computer' → パーソナルコンピューター → パソコン. This type of shortening is extremely common.",
-      "rules": [
-        "パ = ハ + handakuten; unaspirated 'p' before 'ah'.",
-        "パソコン (personal computer) = パーソナル (personal) + コンピューター (computer) → abbreviated to パソコン.",
-        "Japanese frequently abbreviates long katakana words: パソコン, スマホ, コンビニ, etc."
-      ],
-      "examples": [
-        {"japanese": "パン", "romaji": "pan", "english": "bread (from Portuguese 'pão')"},
-        {"japanese": "パーティー", "romaji": "paatii", "english": "party"},
-        {"japanese": "パスポート", "romaji": "pasupooto", "english": "passport"},
-        {"japanese": "パソコン", "romaji": "pasokon", "english": "personal computer (PC)"}
-      ],
-      "flashcardHeader": "パ",
-      "flashcardAnswer": "pa — handakuten version of ハ; like 'pa' in 'party'",
-      "practice": null
+     "japanese": "ヒ→ピ",
+     "romaji": "hi→pi",
+     "english": "HI becomes PI"
     },
     {
-      "id": "k14_pi",
-      "pointType": "kana",
-      "name": "ピ",
-      "shortDescription": "Same sound as ぴ — 'pi'; handakuten version of ヒ",
-      "formation": "pi / ぴ",
-      "explanation": "ピ makes the same 'pi' sound as hiragana ぴ — unaspirated 'p' before bright 'ee'. It's ヒ plus the handakuten. ピ appears in ピアノ (piano), ピザ (pizza), ピンク (pink), and ピーマン (green pepper — from French 'piment'). ピアノ is iconic — Japan has an extremely strong piano culture, with many children learning piano from a young age. ピーマン is another French-origin word (like ズボン) from the Meiji era. Japan's vocabulary is a fascinating collage of historical borrowing from Portuguese, Dutch, German, French, English, and Chinese.",
-      "rules": [
-        "ピ = ヒ + handakuten; unaspirated 'p' before 'ee'.",
-        "ピアノ (piano) is culturally significant — Japan has one of the world's highest piano lesson participation rates.",
-        "ピーマン (green bell pepper) is from French 'piment' — another Meiji-era French borrowing."
-      ],
-      "examples": [
-        {"japanese": "ピアノ", "romaji": "piano", "english": "piano"},
-        {"japanese": "ピザ", "romaji": "piza", "english": "pizza"},
-        {"japanese": "ピンク", "romaji": "pinku", "english": "pink (color)"},
-        {"japanese": "ピーマン", "romaji": "piiman", "english": "green bell pepper (from French 'piment')"}
-      ],
-      "flashcardHeader": "ピ",
-      "flashcardAnswer": "pi — handakuten version of ヒ; like 'pi' in 'piano'",
-      "practice": null
+     "japanese": "フ→プ",
+     "romaji": "fu→pu",
+     "english": "FU becomes PU"
     },
     {
-      "id": "k14_pu",
-      "pointType": "kana",
-      "name": "プ",
-      "shortDescription": "Same sound as ぷ — 'pu'; handakuten version of フ",
-      "formation": "pu / ぷ",
-      "explanation": "プ makes the same 'pu' sound as hiragana ぷ — unaspirated 'p' before the flat, unrounded Japanese 'u'. It's フ plus the handakuten, transforming the bilabial fricative into a bilabial stop. プ appears in プール (pool), プリン (pudding / flan — a hugely popular convenience store dessert in Japan), プレゼント (present / gift), and プロ (professional). プリン (from English 'pudding' via French 'pudding') refers specifically to the caramel-topped egg custard dessert found in every Japanese convenience store. It's become a beloved cultural icon.",
-      "rules": [
-        "プ = フ + handakuten; bilabial fricative 'f' becomes bilabial stop 'p'.",
-        "プリン (pudding = Japanese caramel custard) is one of Japan's most beloved convenience store desserts.",
-        "プレゼント (present/gift) is one of the most socially important words — Japan has elaborate gifting culture."
-      ],
-      "examples": [
-        {"japanese": "プール", "romaji": "puuru", "english": "pool (swimming pool)"},
-        {"japanese": "プリン", "romaji": "purin", "english": "pudding (Japanese caramel custard dessert)"},
-        {"japanese": "プレゼント", "romaji": "purezento", "english": "present / gift"},
-        {"japanese": "プロ", "romaji": "puro", "english": "professional / pro"}
-      ],
-      "flashcardHeader": "プ",
-      "flashcardAnswer": "pu — handakuten version of フ; like 'pu' in 'pool'",
-      "practice": null
-    },
-    {
-      "id": "k14_pe",
-      "pointType": "kana",
-      "name": "ペ",
-      "shortDescription": "Same sound as ぺ — 'pe'; handakuten version of ヘ",
-      "formation": "pe / ぺ",
-      "explanation": "ペ makes the same 'pe' sound as hiragana ぺ — unaspirated 'p' before 'eh'. It's ヘ plus the handakuten. Since ヘ and へ are nearly identical visually, ペ and ぺ are also close pairs. ペ appears in ペン (pen), ペット (pet), ページ (page), and ペットボトル (plastic bottle — literally 'PET bottle', from the plastic material PET/polyethylene terephthalate). ペットボトル is widely used in Japan because plastic bottles are ubiquitous, and the word is used on recycling bins and in everyday conversation about recycling.",
-      "rules": [
-        "ペ = ヘ + handakuten; since ヘ ≈ へ, ペ ≈ ぺ visually.",
-        "ペン (pen) and ペット (pet) are among the most common everyday ペ words.",
-        "ペットボトル (plastic bottle) is important vocabulary for Japan's recycling culture."
-      ],
-      "examples": [
-        {"japanese": "ペン", "romaji": "pen", "english": "pen"},
-        {"japanese": "ペット", "romaji": "petto", "english": "pet (animal companion)"},
-        {"japanese": "ページ", "romaji": "peeji", "english": "page"},
-        {"japanese": "ペットボトル", "romaji": "petto botoru", "english": "plastic bottle (PET bottle)"}
-      ],
-      "flashcardHeader": "ペ",
-      "flashcardAnswer": "pe — handakuten version of ヘ; like 'pe' in 'pep'",
-      "practice": null
-    },
-    {
-      "id": "k14_po",
-      "pointType": "kana",
-      "name": "ポ",
-      "shortDescription": "Same sound as ぽ — 'po'; handakuten version of ホ",
-      "formation": "po / ぽ",
-      "explanation": "ポ makes the same 'po' sound as hiragana ぽ — unaspirated 'p' before 'oh'. It's ホ plus the handakuten. ポ appears in ポスター (poster), ポテト (potato — especially French fries, as in マクドナルドのポテト = McDonald's fries), ポケット (pocket), and ポイント (point — including loyalty points, which are huge in Japan's retail culture). Japan's ポイントシステム (point/loyalty system) is extraordinarily developed — nearly every store has a point card, and collecting ポイント is a regular part of daily shopping.",
-      "rules": [
-        "ポ = ホ + handakuten; 'h' becomes 'p' before 'oh'.",
-        "ポテト in Japan often specifically means French fries, not raw potato (which is じゃがいも).",
-        "ポイント (points/loyalty points) is central to Japan's retail culture — every store wants you to join their ポイントカード."
-      ],
-      "examples": [
-        {"japanese": "ポスター", "romaji": "posutaa", "english": "poster"},
-        {"japanese": "ポテト", "romaji": "poteto", "english": "potato / French fries"},
-        {"japanese": "ポケット", "romaji": "poketto", "english": "pocket"},
-        {"japanese": "ポイント", "romaji": "pointo", "english": "point / loyalty point"}
-      ],
-      "flashcardHeader": "ポ",
-      "flashcardAnswer": "po — handakuten version of ホ; like 'po' in 'post'",
-      "practice": null
+     "japanese": "ホ→ポ",
+     "romaji": "ho→po",
+     "english": "HO becomes PO"
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "゜",
+   "flashcardAnswer": "handakuten — small circle converts H-row to P-row (パピプペポ)",
+   "practice": null
+  },
+  {
+   "id": "k14_pa",
+   "pointType": "kana",
+   "name": "パ",
+   "shortDescription": "Same sound as ぱ — 'pa'; handakuten version of ハ",
+   "formation": "pa / ぱ",
+   "explanation": "パ makes the same 'pa' sound as hiragana ぱ — unaspirated 'p' before 'ah'. It's ハ plus the handakuten circle. パ appears in some of the most common katakana words: パン (bread — still from Portuguese 'pão'), パーティー (party), パスポート (passport), and パソコン (personal computer — a Japanese coinage from 'personal computer'). パソコン is a perfect example of Japan's creative word-shortening: 'personal' + 'computer' → パーソナルコンピューター → パソコン. This type of shortening is extremely common.",
+   "rules": [
+    "パ = ハ + handakuten; unaspirated 'p' before 'ah'.",
+    "パソコン (personal computer) = パーソナル (personal) + コンピューター (computer) → abbreviated to パソコン.",
+    "Japanese frequently abbreviates long katakana words: パソコン, スマホ, コンビニ, etc."
+   ],
+   "examples": [
     {
-      "id": "k14_q1",
-      "type": "multiple_choice",
-      "prompt": "The P-row (パピプペポ) uses the handakuten ゜. Which row does it transform?",
-      "japanese": "ハ→パ / ホ→ポ",
-      "choices": ["K-row (カ row)", "S-row (サ row)", "H-row (ハ row)", "T-row (タ row)"],
-      "correctIndex": 2,
-      "explanation": "The handakuten ゜ only applies to the H-row: ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ. No other katakana row has a handakuten form. The P-row is important because English loanwords frequently contain 'p' sounds."
+     "japanese": "パン",
+     "romaji": "pan",
+     "english": "bread (from Portuguese 'pão')"
     },
     {
-      "id": "k14_q2",
-      "type": "multiple_choice",
-      "prompt": "Which hiragana matches the katakana ピ?",
-      "japanese": "ピ",
-      "choices": ["ぱ", "ぴ", "ぷ", "ぺ"],
-      "correctIndex": 1,
-      "explanation": "ピ and ぴ both make the 'pi' sound. Katakana ピ is ヒ (hi) with a handakuten; hiragana ぴ is ひ (hi) with a handakuten. Same logic, both scripts."
+     "japanese": "パーティー",
+     "romaji": "paatii",
+     "english": "party"
     },
     {
-      "id": "k14_q3",
-      "type": "multiple_choice",
-      "prompt": "What does this katakana word mean?",
-      "japanese": "プレゼント",
-      "choices": ["present (time)", "present / gift", "president", "presentation"],
-      "correctIndex": 1,
-      "explanation": "プレゼント (purezento) means 'present' or 'gift'. プ (pu) + レ (re) + ゼ (ze) + ン (n) + ト (to) = purezento. Japan has an elaborate gift-giving culture — プレゼントをあげる (to give a gift) and プレゼントをもらう (to receive a gift) are essential vocabulary."
+     "japanese": "パスポート",
+     "romaji": "pasupooto",
+     "english": "passport"
     },
     {
-      "id": "k14_q4",
-      "type": "multiple_choice",
-      "prompt": "What does this katakana word mean?",
-      "japanese": "ポイント",
-      "choices": ["point / loyalty reward point", "poison", "appointment", "paint"],
-      "correctIndex": 0,
-      "explanation": "ポイント (pointo) means 'point' — including the loyalty reward points that are a cornerstone of Japanese retail culture. ポ (po) + イ (i) + ン (n) + ト (to) = pointo. Congratulations — you've now completed all of the katakana characters!"
+     "japanese": "パソコン",
+     "romaji": "pasokon",
+     "english": "personal computer (PC)"
     }
-  ]
+   ],
+   "flashcardHeader": "パ",
+   "flashcardAnswer": "pa — handakuten version of ハ; like 'pa' in 'party'",
+   "practice": null
+  },
+  {
+   "id": "k14_pi",
+   "pointType": "kana",
+   "name": "ピ",
+   "shortDescription": "Same sound as ぴ — 'pi'; handakuten version of ヒ",
+   "formation": "pi / ぴ",
+   "explanation": "ピ makes the same 'pi' sound as hiragana ぴ — unaspirated 'p' before bright 'ee'. It's ヒ plus the handakuten. ピ appears in ピアノ (piano), ピザ (pizza), ピンク (pink), and ピーマン (green pepper — from French 'piment'). ピアノ is iconic — Japan has an extremely strong piano culture, with many children learning piano from a young age. ピーマン is another French-origin word (like ズボン) from the Meiji era. Japan's vocabulary is a fascinating collage of historical borrowing from Portuguese, Dutch, German, French, English, and Chinese.",
+   "rules": [
+    "ピ = ヒ + handakuten; unaspirated 'p' before 'ee'.",
+    "ピアノ (piano) is culturally significant — Japan has one of the world's highest piano lesson participation rates.",
+    "ピーマン (green bell pepper) is from French 'piment' — another Meiji-era French borrowing."
+   ],
+   "examples": [
+    {
+     "japanese": "ピアノ",
+     "romaji": "piano",
+     "english": "piano"
+    },
+    {
+     "japanese": "ピザ",
+     "romaji": "piza",
+     "english": "pizza"
+    },
+    {
+     "japanese": "ピンク",
+     "romaji": "pinku",
+     "english": "pink (color)"
+    },
+    {
+     "japanese": "ピーマン",
+     "romaji": "piiman",
+     "english": "green bell pepper (from French 'piment')"
+    }
+   ],
+   "flashcardHeader": "ピ",
+   "flashcardAnswer": "pi — handakuten version of ヒ; like 'pi' in 'piano'",
+   "practice": null
+  },
+  {
+   "id": "k14_pu",
+   "pointType": "kana",
+   "name": "プ",
+   "shortDescription": "Same sound as ぷ — 'pu'; handakuten version of フ",
+   "formation": "pu / ぷ",
+   "explanation": "プ makes the same 'pu' sound as hiragana ぷ — unaspirated 'p' before the flat, unrounded Japanese 'u'. It's フ plus the handakuten, transforming the bilabial fricative into a bilabial stop. プ appears in プール (pool), プリン (pudding / flan — a hugely popular convenience store dessert in Japan), プレゼント (present / gift), and プロ (professional). プリン (from English 'pudding' via French 'pudding') refers specifically to the caramel-topped egg custard dessert found in every Japanese convenience store. It's become a beloved cultural icon.",
+   "rules": [
+    "プ = フ + handakuten; bilabial fricative 'f' becomes bilabial stop 'p'.",
+    "プリン (pudding = Japanese caramel custard) is one of Japan's most beloved convenience store desserts.",
+    "プレゼント (present/gift) is one of the most socially important words — Japan has elaborate gifting culture."
+   ],
+   "examples": [
+    {
+     "japanese": "プール",
+     "romaji": "puuru",
+     "english": "pool (swimming pool)"
+    },
+    {
+     "japanese": "プリン",
+     "romaji": "purin",
+     "english": "pudding (Japanese caramel custard dessert)"
+    },
+    {
+     "japanese": "プレゼント",
+     "romaji": "purezento",
+     "english": "present / gift"
+    },
+    {
+     "japanese": "プロ",
+     "romaji": "puro",
+     "english": "professional / pro"
+    }
+   ],
+   "flashcardHeader": "プ",
+   "flashcardAnswer": "pu — handakuten version of フ; like 'pu' in 'pool'",
+   "practice": null
+  },
+  {
+   "id": "k14_pe",
+   "pointType": "kana",
+   "name": "ペ",
+   "shortDescription": "Same sound as ぺ — 'pe'; handakuten version of ヘ",
+   "formation": "pe / ぺ",
+   "explanation": "ペ makes the same 'pe' sound as hiragana ぺ — unaspirated 'p' before 'eh'. It's ヘ plus the handakuten. Since ヘ and へ are nearly identical visually, ペ and ぺ are also close pairs. ペ appears in ペン (pen), ペット (pet), ページ (page), and ペットボトル (plastic bottle — literally 'PET bottle', from the plastic material PET/polyethylene terephthalate). ペットボトル is widely used in Japan because plastic bottles are ubiquitous, and the word is used on recycling bins and in everyday conversation about recycling.",
+   "rules": [
+    "ペ = ヘ + handakuten; since ヘ ≈ へ, ペ ≈ ぺ visually.",
+    "ペン (pen) and ペット (pet) are among the most common everyday ペ words.",
+    "ペットボトル (plastic bottle) is important vocabulary for Japan's recycling culture."
+   ],
+   "examples": [
+    {
+     "japanese": "ペン",
+     "romaji": "pen",
+     "english": "pen"
+    },
+    {
+     "japanese": "ペット",
+     "romaji": "petto",
+     "english": "pet (animal companion)"
+    },
+    {
+     "japanese": "ページ",
+     "romaji": "peeji",
+     "english": "page"
+    },
+    {
+     "japanese": "ペットボトル",
+     "romaji": "petto botoru",
+     "english": "plastic bottle (PET bottle)"
+    }
+   ],
+   "flashcardHeader": "ペ",
+   "flashcardAnswer": "pe — handakuten version of ヘ; like 'pe' in 'pep'",
+   "practice": null
+  },
+  {
+   "id": "k14_po",
+   "pointType": "kana",
+   "name": "ポ",
+   "shortDescription": "Same sound as ぽ — 'po'; handakuten version of ホ",
+   "formation": "po / ぽ",
+   "explanation": "ポ makes the same 'po' sound as hiragana ぽ — unaspirated 'p' before 'oh'. It's ホ plus the handakuten. ポ appears in ポスター (poster), ポテト (potato — especially French fries, as in マクドナルドのポテト = McDonald's fries), ポケット (pocket), and ポイント (point — including loyalty points, which are huge in Japan's retail culture). Japan's ポイントシステム (point/loyalty system) is extraordinarily developed — nearly every store has a point card, and collecting ポイント is a regular part of daily shopping.",
+   "rules": [
+    "ポ = ホ + handakuten; 'h' becomes 'p' before 'oh'.",
+    "ポテト in Japan often specifically means French fries, not raw potato (which is じゃがいも).",
+    "ポイント (points/loyalty points) is central to Japan's retail culture — every store wants you to join their ポイントカード."
+   ],
+   "examples": [
+    {
+     "japanese": "ポスター",
+     "romaji": "posutaa",
+     "english": "poster"
+    },
+    {
+     "japanese": "ポテト",
+     "romaji": "poteto",
+     "english": "potato / French fries"
+    },
+    {
+     "japanese": "ポケット",
+     "romaji": "poketto",
+     "english": "pocket"
+    },
+    {
+     "japanese": "ポイント",
+     "romaji": "pointo",
+     "english": "point / loyalty point"
+    }
+   ],
+   "flashcardHeader": "ポ",
+   "flashcardAnswer": "po — handakuten version of ホ; like 'po' in 'post'",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "k14_q1",
+   "type": "multiple_choice",
+   "prompt": "The P-row (パピプペポ) uses the handakuten ゜. Which row does it transform?",
+   "japanese": "ハ→パ / ホ→ポ",
+   "choices": [
+    "K-row (カ row)",
+    "S-row (サ row)",
+    "H-row (ハ row)",
+    "T-row (タ row)"
+   ],
+   "correctIndex": 2,
+   "explanation": "The handakuten ゜ only applies to the H-row: ハ→パ, ヒ→ピ, フ→プ, ヘ→ペ, ホ→ポ. No other katakana row has a handakuten form. The P-row is important because English loanwords frequently contain 'p' sounds."
+  },
+  {
+   "id": "k14_q2",
+   "type": "multiple_choice",
+   "prompt": "Which hiragana matches the katakana ピ?",
+   "japanese": "ピ",
+   "choices": [
+    "ぱ",
+    "ぴ",
+    "ぷ",
+    "ぺ"
+   ],
+   "correctIndex": 1,
+   "explanation": "ピ and ぴ both make the 'pi' sound. Katakana ピ is ヒ (hi) with a handakuten; hiragana ぴ is ひ (hi) with a handakuten. Same logic, both scripts."
+  },
+  {
+   "id": "k14_q3",
+   "type": "multiple_choice",
+   "prompt": "What does this katakana word mean?",
+   "japanese": "プレゼント",
+   "choices": [
+    "present (time)",
+    "present / gift",
+    "president",
+    "presentation"
+   ],
+   "correctIndex": 1,
+   "explanation": "プレゼント (purezento) means 'present' or 'gift'. プ (pu) + レ (re) + ゼ (ze) + ン (n) + ト (to) = purezento. Japan has an elaborate gift-giving culture — プレゼントをあげる (to give a gift) and プレゼントをもらう (to receive a gift) are essential vocabulary."
+  },
+  {
+   "id": "k14_q4",
+   "type": "multiple_choice",
+   "prompt": "What does this katakana word mean?",
+   "japanese": "ポイント",
+   "choices": [
+    "point / loyalty reward point",
+    "poison",
+    "appointment",
+    "paint"
+   ],
+   "correctIndex": 0,
+   "explanation": "ポイント (pointo) means 'point' — including the loyalty reward points that are a cornerstone of Japanese retail culture. ポ (po) + イ (i) + ン (n) + ト (to) = pointo. Congratulations — you've now completed all of the katakana characters!"
+  }
+ ]
 }

@@ -898,14 +898,27 @@ private struct OptionalAspect: ViewModifier {
 /// How much of a lesson's grammar / vocab / kanji has been checked off.
 /// Grammar uses the per-point completion circles; vocab and kanji use their
 /// green "checked off" marks (the same ones that retire a card from the decks).
+///
+/// Every total is counted from the chapter file itself, never from a stored
+/// number. That is what lets a chapter notice when its own contents change:
+/// when kanji moved from characters to words, chapters that had been finished
+/// correctly stopped being finished, because the denominator grew with the
+/// content rather than staying at whatever it was when the badge was earned.
 struct ChapterProgress {
     var grammarDone = 0, grammarTotal = 0
     var vocabDone = 0,  vocabTotal = 0
     var kanjiDone = 0,  kanjiTotal = 0
 
+    /// Set when the chapter file couldn't be read. Nothing was counted, so no
+    /// claim is made either way — see `isComplete`.
+    var isUnknown = false
+
     /// True when every category the chapter actually has is fully checked off.
-    /// A chapter with no items at all is not "complete" — there is nothing to finish.
+    /// A chapter with no items at all is not "complete" — there is nothing to
+    /// finish — and neither is one whose contents couldn't be read, which would
+    /// otherwise show a gold badge for a chapter nobody counted.
     var isComplete: Bool {
+        guard !isUnknown else { return false }
         let present = [(grammarDone, grammarTotal), (vocabDone, vocabTotal), (kanjiDone, kanjiTotal)]
             .filter { $0.1 > 0 }
         return !present.isEmpty && present.allSatisfy { $0.0 == $0.1 }
@@ -914,11 +927,16 @@ struct ChapterProgress {
     static func of(chapterId: String, cardStore: CardStore) -> ChapterProgress {
         var p = ChapterProgress()
 
-        let pointIds = LessonsService.shared.pointIds(for: chapterId)
-        p.grammarTotal = LessonsService.shared.pointCount(for: chapterId)
-        p.grammarDone = LessonsProgressStore.shared.completedCount(chapterId: chapterId, among: pointIds)
+        guard let chapter = LessonsService.shared.loadChapter(chapterId) else {
+            p.isUnknown = true
+            return p
+        }
 
-        guard let chapter = LessonsService.shared.loadChapter(chapterId) else { return p }
+        // Counted from the chapter's own points, not the manifest's `pointCount`,
+        // which is a number written down separately and can fall out of date.
+        let pointIds = chapter.points.map(\.id)
+        p.grammarTotal = pointIds.count
+        p.grammarDone = LessonsProgressStore.shared.completedCount(chapterId: chapterId, among: pointIds)
 
         let words = chapter.vocab ?? []
         p.vocabTotal = words.count
@@ -927,9 +945,11 @@ struct ChapterProgress {
         // knowledge.
         p.vocabDone = words.filter { VocabFlashcardsFilter.shared.isFullyExcluded($0.id) }.count
 
-        let kanjiCards = chapter.kanjiChars.compactMap { cardStore.kanjiCard(for: $0) }
-        p.kanjiTotal = kanjiCards.count
-        p.kanjiDone = kanjiCards.filter { cardStore.isKanjiExcluded($0.id) }.count
+        // The chapter's kanji *words* — the same list the lesson shows and the
+        // deck deals, so the badge can never disagree with either.
+        let kanjiWords = chapter.kanjiWords ?? []
+        p.kanjiTotal = kanjiWords.count
+        p.kanjiDone = kanjiWords.filter { cardStore.isKanjiExcluded($0.id) }.count
 
         return p
     }

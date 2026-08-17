@@ -51,8 +51,26 @@ class StudyFilter: ObservableObject {
 
 // Distinct subclasses so @EnvironmentObject can resolve them independently
 final class KanjiFilter: StudyFilter {
-    @Published var selectedKanjiIds: Set<String> = []
-    init() { super.init(type: .kanji) }
+    /// The chapters whose kanji words the study deck deals — the kanji deck's
+    /// version of the vocab deck's chapter filter. Empty means every chapter.
+    /// Persisted, like the vocab selection, so the deck opens where it was left.
+    @Published var selectedChapterIds: Set<String> = [] {
+        didSet {
+            guard didLoad else { return }
+            UserDefaults.standard.encode(selectedChapterIds, forKey: Self.chaptersKey)
+        }
+    }
+
+    private static let chaptersKey = "KanjiSelectedChapterIds"
+    private var didLoad = false
+
+    init() {
+        super.init(type: .kanji)
+        if let saved = UserDefaults.standard.decode(Set<String>.self, forKey: Self.chaptersKey) {
+            selectedChapterIds = saved
+        }
+        didLoad = true
+    }
 }
 
 final class GrammarFilter: StudyFilter {

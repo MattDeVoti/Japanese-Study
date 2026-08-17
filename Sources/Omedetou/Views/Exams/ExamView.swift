@@ -250,15 +250,8 @@ struct ExamView: View {
 
         exams.record(attempt)
 
-        // Everything missed goes into the review schedule, so preparing for the
-        // retake is exactly what reviewing does.
-        var enrolled = Set<String>()
-        for q in missed {
-            guard let item = q.reviewItem, !enrolled.contains(item.storageKey) else { continue }
-            SRSStore.shared.grade(item, .again)
-            enrolled.insert(item.storageKey)
-        }
-        missedCount = enrolled.count
+        // Distinct items missed, for the result screen's summary line.
+        missedCount = Set(missed.compactMap(\.reviewItem?.id)).count
         result = attempt
         withAnimation { submitted = true }
     }

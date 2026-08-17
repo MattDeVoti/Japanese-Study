@@ -5,6 +5,12 @@ import AVFoundation
 /// All are bundled as WAVs rather than synthesised, so they can be swapped for
 /// different recordings by replacing the files in Resources/Audio — nothing here
 /// needs to change.
+///
+/// Two audio-session categories live here, per cue — see `Cue.respectsBell`.
+/// Study cues play *through* the Ring/Silent switch, because someone drilling
+/// vocab on a muted phone still wants to hear whether they got it right. The
+/// unlock jingle is a celebration rather than feedback, so it follows the games'
+/// rule instead: silent means silent.
 final class FeedbackSounds {
     static let shared = FeedbackSounds()
 
@@ -14,6 +20,14 @@ final class FeedbackSounds {
         /// A secret game has just been found. Rare and one-off, so unlike the
         /// answer cues it is loaded on demand rather than kept ready.
         case unlock
+
+        /// Whether the Ring/Silent switch should be able to mute this cue.
+        ///
+        /// Nothing reads the switch — iOS exposes no API for it, and none is
+        /// needed: `.ambient` makes the system do the muting, exactly as
+        /// `GameSounds` does for Kanji Invaders. Answer cues stay on `.playback`
+        /// and are deliberately heard on a muted phone.
+        var respectsBell: Bool { self == .unlock }
     }
 
     /// The piano stings the audio flashcards use instead of the plain `correct`
@@ -51,7 +65,7 @@ final class FeedbackSounds {
     }
 
     func play(_ cue: Cue) {
-        play(named: cue.rawValue)
+        play(named: cue.rawValue, respectsBell: cue.respectsBell)
     }
 
     /// A different piano sting each time something is answered correctly in the
@@ -88,16 +102,31 @@ final class FeedbackSounds {
     }
     // END-BAG
 
-    private func play(named name: String) {
+    private func play(named name: String, respectsBell: Bool = false) {
         // The session may have been left in a recording category by the listener,
-        // in which case playback is silent. Claiming it back here keeps the cue
-        // independent of whatever ran before it.
+        // or on `.ambient` by the game, in which case playback is silent or
+        // muted. Claiming it back here keeps the cue independent of whatever ran
+        // before it.
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(.playback, mode: .default, options: [.duckOthers])
+        if respectsBell {
+            // Mixes rather than ducks, so a celebration doesn't dip someone's
+            // music — same choice the game makes.
+            try? session.setCategory(.ambient, mode: .default, options: [.mixWithOthers])
+        } else {
+            try? session.setCategory(.playback, mode: .default, options: [.duckOthers])
+        }
         try? session.setActive(true, options: [])
 
         guard let player = load(name) else { return }
         player.currentTime = 0
         player.play()
+
+        // Hand the session back. `SpeechService` caches that it once configured
+        // `.playback` and won't re-set it, so leaving the session on `.ambient`
+        // would silence the next thing the app said whenever the bell was off —
+        // and two of the four unlocks fire in the dictionary and the cheat
+        // sheets, where the very next tap is likely to be a speaker button.
+        // Only clears the cached flag, so the cue itself plays out normally.
+        if respectsBell { SpeechService.shared.invalidateSession() }
     }
 }

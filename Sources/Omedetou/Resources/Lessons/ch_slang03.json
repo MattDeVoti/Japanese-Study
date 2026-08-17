@@ -1,514 +1,514 @@
 {
-  "id": "ch_slang03",
-  "chapterNumber": 3,
-  "title": "Fillers and Conversation Flow",
-  "points": [
+ "id": "ch_slang03",
+ "chapterNumber": 3,
+ "title": "Fillers and Conversation Flow",
+ "points": [
+  {
+   "id": "fillers",
+   "name": "えーと / あのー / なんか / まあ — fillers",
+   "shortDescription": "The sounds that buy you thinking time and make you sound like a person.",
+   "formation": "Inserted freely at the start of, or inside, a sentence",
+   "explanation": "Textbook Japanese is fluent and complete. Real Japanese is full of hesitation noises, and using them makes you sound natural rather than rehearsed.\n\n- えーと (eeto) — 'ummm'. Buying time while you retrieve something: えーと、三時[さんじ]かな。\n- あのー (anoo) — 'errr / excuse me'. Softly opening a request or a difficult topic: あのー、すみません。\n- なんか (nanka) — 'like / kinda'. The most-used filler among young speakers; also genuinely means 'something': なんか変[へん]じゃない？\n- まあ (maa) — 'well / I guess'. Softening or half-conceding: まあ、いいけど。\n- ちょっと (chotto) — 'a bit'. Softens anything, and on its own politely refuses: ちょっと…\n\nOne worth understanding deeply is ちょっと. Asked to do something you cannot do, a trailing ちょっと… is a complete, understood refusal. Japanese often declines by trailing off rather than saying no outright, and learners who wait for an explicit 'no' can miss it entirely.\n\nUsed in moderation these make you sound fluent. Used constantly — especially なんか — they make you sound vague, exactly as in English.",
+   "rules": [
+    "えーと = 'ummm', buying time; あのー = 'errr', softly opening",
+    "なんか = 'like / kinda' (also literally 'something')",
+    "まあ = 'well / I guess', softening or conceding",
+    "A trailing ちょっと… is a complete, polite refusal",
+    "Moderation matters — constant なんか sounds vague, just like 'like' in English"
+   ],
+   "examples": [
     {
-      "id": "fillers",
-      "name": "えーと / あのー / なんか / まあ — fillers",
-      "shortDescription": "The sounds that buy you thinking time and make you sound like a person.",
-      "formation": "Inserted freely at the start of, or inside, a sentence",
-      "explanation": "Textbook Japanese is fluent and complete. Real Japanese is full of hesitation noises, and using them makes you sound natural rather than rehearsed.\n\n- えーと (eeto) — 'ummm'. Buying time while you retrieve something: えーと、三時[さんじ]かな。\n- あのー (anoo) — 'errr / excuse me'. Softly opening a request or a difficult topic: あのー、すみません。\n- なんか (nanka) — 'like / kinda'. The most-used filler among young speakers; also genuinely means 'something': なんか変[へん]じゃない？\n- まあ (maa) — 'well / I guess'. Softening or half-conceding: まあ、いいけど。\n- ちょっと (chotto) — 'a bit'. Softens anything, and on its own politely refuses: ちょっと…\n\nOne worth understanding deeply is ちょっと. Asked to do something you cannot do, a trailing ちょっと… is a complete, understood refusal. Japanese often declines by trailing off rather than saying no outright, and learners who wait for an explicit 'no' can miss it entirely.\n\nUsed in moderation these make you sound fluent. Used constantly — especially なんか — they make you sound vague, exactly as in English.",
-      "rules": [
-        "えーと = 'ummm', buying time; あのー = 'errr', softly opening",
-        "なんか = 'like / kinda' (also literally 'something')",
-        "まあ = 'well / I guess', softening or conceding",
-        "A trailing ちょっと… is a complete, polite refusal",
-        "Moderation matters — constant なんか sounds vague, just like 'like' in English"
-      ],
-      "examples": [
-        {
-          "japanese": "えーと、たしか三時[さんじ]だったかな。",
-          "romaji": "Eeto, tashika sanji datta kana.",
-          "english": "Umm, I think it was three o'clock."
-        },
-        {
-          "japanese": "あのー、すみません。",
-          "romaji": "Anoo, sumimasen.",
-          "english": "Er, excuse me."
-        },
-        {
-          "japanese": "なんか、疲[つか]れた。",
-          "romaji": "Nanka, tsukareta.",
-          "english": "I'm, like, worn out."
-        },
-        {
-          "japanese": "「明日[あした]どう？」「明日[あした]はちょっと…」",
-          "romaji": "\"Ashita dou?\" \"Ashita wa chotto…\"",
-          "english": "\"How about tomorrow?\" \"Tomorrow is a bit…\" (= no)"
-        }
-      ],
-      "flashcardHeader": "えーと / あのー / なんか / まあ",
-      "flashcardAnswer": "Fillers that buy time and soften speech. A trailing ちょっと… is a complete refusal.",
-      "practice": [
-        {
-          "id": "fill_q1",
-          "type": "usage",
-          "prompt": "Someone invites you out and you answer 明日[あした]はちょっと… What have you communicated?",
-          "japanese": "明日[あした]はちょっと…",
-          "choices": [
-            "Yes, definitely",
-            "A polite no",
-            "Ask me again later",
-            "I don't understand"
-          ],
-          "correctIndex": 1,
-          "explanation": "Trailing off with ちょっと is a complete, understood refusal in Japanese — softer than saying いいえ outright."
-        },
-        {
-          "id": "fill_q2",
-          "type": "usage",
-          "prompt": "Which filler is closest to English 'like / kinda'?",
-          "japanese": null,
-          "choices": [
-            "なんか",
-            "えーと",
-            "まあ",
-            "あのー"
-          ],
-          "correctIndex": 0,
-          "explanation": "なんか is the classic young-speaker filler, used much like 'like' in English — and equally overusable."
-        },
-        {
-          "id": "fill_q3",
-          "type": "usage",
-          "prompt": "Which filler best opens a request to a stranger?",
-          "japanese": null,
-          "choices": [
-            "なんか",
-            "あのー",
-            "まあ",
-            "ちょっと待[ま]て"
-          ],
-          "correctIndex": 1,
-          "explanation": "あのー softly gets someone's attention before a request: あのー、すみません."
-        },
-        {
-          "id": "fill_q4",
-          "type": "translation",
-          "prompt": "What does まあ、いいけど convey?",
-          "japanese": "まあ、いいけど。",
-          "choices": [
-            "Absolutely not",
-            "Well… I guess it's fine",
-            "That's wonderful",
-            "Please explain again"
-          ],
-          "correctIndex": 1,
-          "explanation": "まあ softens and half-concedes, and the trailing けど leaves a slight reservation hanging: 'well, I guess that's okay…'"
-        },
-        {
-          "id": "fill_q5",
-          "type": "usage",
-          "prompt": "Why do fillers help learners sound natural?",
-          "japanese": null,
-          "choices": [
-            "They add grammatical information — this is true in both spoken and written Japanese.",
-            "They make speech sound human rather than rehearsed",
-            "They make sentences more polite",
-            "They are required by grammar"
-          ],
-          "correctIndex": 1,
-          "explanation": "Perfectly fluent, filler-free speech sounds scripted. Natural hesitation makes conversation feel real — in moderation."
-        }
-      ]
+     "japanese": "えーと、たしか三時[さんじ]だったかな。",
+     "romaji": "Eeto, tashika sanji datta kana.",
+     "english": "Umm, I think it was three o'clock."
     },
     {
-      "id": "teiuka",
-      "name": "ていうか / ってか — 'or rather / actually'",
-      "shortDescription": "The all-purpose pivot for correcting, redirecting, or changing the subject.",
-      "formation": "というか → ていうか → つーか / ってか  (progressively more casual)",
-      "explanation": "ていうか literally means 'or should I say', and it has become one of the most useful conversational tools in casual Japanese.\n\nIt does three jobs:\n\n1. Correcting yourself mid-sentence — 疲[つか]れた、ていうか眠[ねむ]い (I'm tired — or rather, sleepy).\n2. Pushing back on what someone just said — ていうか、それ違[ちが]うよ (Actually, that's not right).\n3. Changing the subject entirely — ていうか、お腹[なか]すいた (Anyway — I'm hungry).\n\nThe forms run from the full というか down through ていうか to つーか and ってか, getting rougher as they shorten. ってか is common in texting.\n\nBe aware of the pushback flavour. Starting a sentence with ていうか signals that you are overriding or correcting what came before, so used repeatedly at someone it can sound dismissive. Among friends it is completely normal; with a superior, use むしろ or a softer phrase instead.",
-      "rules": [
-        "というか → ていうか → つーか / ってか, increasingly casual",
-        "Job 1: self-correction — 疲[つか]れた、ていうか眠[ねむ]い",
-        "Job 2: pushing back — ていうか、それ違[ちが]うよ",
-        "Job 3: changing the subject — ていうか、お腹[なか]すいた",
-        "It overrides what came before, so it can sound dismissive if repeated"
-      ],
-      "examples": [
-        {
-          "japanese": "眠[ねむ]い。ていうか、もう寝[ね]る。",
-          "romaji": "Nemui. Te iu ka, mou neru.",
-          "english": "I'm sleepy. Actually, I'm just going to bed."
-        },
-        {
-          "japanese": "ていうか、それ本当[ほんとう]？",
-          "romaji": "Te iu ka, sore hontou?",
-          "english": "Wait, actually — is that true?"
-        },
-        {
-          "japanese": "ってか、お腹[なか]すいた。",
-          "romaji": "Tte ka, onaka suita.",
-          "english": "Anyway, I'm hungry."
-        },
-        {
-          "japanese": "暑[あつ]い、ていうか暑[あつ]すぎ。",
-          "romaji": "Atsui, te iu ka atsusugi.",
-          "english": "It's hot — or rather, way too hot."
-        }
-      ],
-      "flashcardHeader": "ていうか / ってか",
-      "flashcardAnswer": "'Or rather / actually' — corrects yourself, pushes back, or changes the subject. Casual; can sound dismissive.",
-      "practice": [
-        {
-          "id": "teiuka_q1",
-          "type": "usage",
-          "prompt": "Which is the most casual form?",
-          "japanese": null,
-          "choices": [
-            "というか",
-            "ていうか",
-            "ってか",
-            "と言[い]いますと"
-          ],
-          "correctIndex": 2,
-          "explanation": "The chain runs というか → ていうか → つーか／ってか, getting shorter and rougher. ってか is very common in texts."
-        },
-        {
-          "id": "teiuka_q2",
-          "type": "translation",
-          "prompt": "What is happening in 疲[つか]れた、ていうか眠[ねむ]い?",
-          "japanese": "疲[つか]れた、ていうか眠[ねむ]い。",
-          "choices": [
-            "Correcting to a more accurate word",
-            "Asking a question",
-            "Agreeing with someone, and the rule applies to every sentence type.",
-            "Giving a command"
-          ],
-          "correctIndex": 0,
-          "explanation": "The speaker replaces 'tired' with the more precise 'sleepy'. This self-correction is ていうか's most basic job."
-        },
-        {
-          "id": "teiuka_q3",
-          "type": "usage",
-          "prompt": "Why can starting sentences with ていうか sound dismissive?",
-          "japanese": null,
-          "choices": [
-            "It is grammatically rude",
-            "It signals you are overriding what was just said",
-            "It is a command form",
-            "It is only used by strangers — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "ていうか reframes or corrects the previous statement. Occasionally that is fine; repeatedly, it reads as brushing the other person aside."
-        },
-        {
-          "id": "teiuka_q4",
-          "type": "usage",
-          "prompt": "You want to change the topic with friends. Which fits?",
-          "japanese": null,
-          "choices": [
-            "ていうか、お腹[なか]すいた",
-            "失礼[しつれい]いたします",
-            "よろしくお願[ねが]いします",
-            "お疲[つか]れさまでした"
-          ],
-          "correctIndex": 0,
-          "explanation": "ていうか pivots cleanly to a new subject: 'anyway — I'm hungry'. The others are set formal phrases."
-        },
-        {
-          "id": "teiuka_q5",
-          "type": "usage",
-          "prompt": "What should you use instead when speaking with a superior?",
-          "japanese": null,
-          "choices": [
-            "ってか",
-            "つーか",
-            "むしろ or a softer phrase",
-            "ていうかさ"
-          ],
-          "correctIndex": 2,
-          "explanation": "むしろ ('rather') carries the same corrective sense without the casual, dismissive edge of ていうか and its shortened forms."
-        }
-      ]
+     "japanese": "あのー、すみません。",
+     "romaji": "Anoo, sumimasen.",
+     "english": "Er, excuse me."
     },
     {
-      "id": "quotative-tte",
-      "name": "〜って — the everyday quote and topic marker",
-      "shortDescription": "One tiny particle replaces と言[い]う, という, and often は.",
-      "formation": "[quote] + って + (言[い]う / 思[おも]う)  |  [noun] + って = 'the thing called / as for'",
-      "explanation": "って is the hardest-working particle in casual Japanese, and it does two separate jobs.\n\nAs a quote marker it replaces と:\n- 田中[たなか]さんが来[く]るって言[い]ってた → Tanaka said he's coming\n- 明日[あした]、雨[あめ]だって → Apparently it's going to rain tomorrow\n\nNotice the second one: the 言[い]う can simply be dropped. A sentence ending in って means 'I heard / they say' with nothing else needed.\n\nAs a topic marker it replaces は or という:\n- 日本語[にほんご]って難[むずか]しい → Japanese is hard (as for Japanese…)\n- 田中[たなか]って人[ひと] → a person called Tanaka\n\nSo って can introduce a topic, name a thing, or report speech, and context tells you which.\n\nTwo variants worth knowing: 〜んだって ('apparently', reporting with a bit of surprise) and 〜だってさ (reporting with a shrug). Both are extremely common when passing on news.",
-      "rules": [
-        "Quote: って replaces と — 来[く]るって言[い]ってた",
-        "Ending a sentence with って alone = 'I hear / apparently'",
-        "Topic: って replaces は — 日本語[にほんご]って難[むずか]しい",
-        "Naming: [noun] + って + noun — 田中[たなか]って人[ひと] ('a guy called Tanaka')",
-        "〜んだって and 〜だってさ report news casually"
-      ],
-      "examples": [
-        {
-          "japanese": "明日[あした]、雨[あめ]だって。",
-          "romaji": "Ashita, ame datte.",
-          "english": "Apparently it's going to rain tomorrow."
-        },
-        {
-          "japanese": "日本語[にほんご]って難[むずか]しいね。",
-          "romaji": "Nihongo tte muzukashii ne.",
-          "english": "Japanese is hard, huh."
-        },
-        {
-          "japanese": "田中[たなか]って人[ひと]、知[し]ってる？",
-          "romaji": "Tanaka tte hito, shitteru?",
-          "english": "Do you know a guy called Tanaka?"
-        },
-        {
-          "japanese": "行[い]けないって言[い]ってたよ。",
-          "romaji": "Ikenai tte itteta yo.",
-          "english": "They said they can't go."
-        }
-      ],
-      "flashcardHeader": "〜って",
-      "flashcardAnswer": "Casual quote marker (replaces と) and topic marker (replaces は). Ending in って alone = 'apparently'.",
-      "practice": [
-        {
-          "id": "tte_q1",
-          "type": "translation",
-          "prompt": "What does 明日[あした]、雨[あめ]だって mean?",
-          "japanese": "明日[あした]、雨[あめ]だって。",
-          "choices": [
-            "It rained yesterday.",
-            "Apparently it'll rain tomorrow.",
-            "I hope it rains tomorrow.",
-            "It won't rain tomorrow."
-          ],
-          "correctIndex": 1,
-          "explanation": "A sentence ending in って reports hearsay with the 言[い]う dropped: 'they say / apparently'."
-        },
-        {
-          "id": "tte_q2",
-          "type": "usage",
-          "prompt": "In 日本語[にほんご]って難[むずか]しい, what is って replacing?",
-          "japanese": "日本語[にほんご]って難[むずか]しい。",
-          "choices": [
-            "は",
-            "を",
-            "に",
-            "から"
-          ],
-          "correctIndex": 0,
-          "explanation": "Here って is a casual topic marker standing in for は — 'as for Japanese, it's hard'."
-        },
-        {
-          "id": "tte_q3",
-          "type": "usage",
-          "prompt": "What does 田中[たなか]って人[ひと] mean?",
-          "japanese": "田中[たなか]って人[ひと]",
-          "choices": [
-            "Tanaka's person",
-            "A person called Tanaka",
-            "Tanaka said the person",
-            "Tanaka's friend"
-          ],
-          "correctIndex": 1,
-          "explanation": "[Noun] + って + noun names something — the casual equivalent of 田中[たなか]という人[ひと]."
-        },
-        {
-          "id": "tte_q4",
-          "type": "construct",
-          "prompt": "Make this casual: 来[く]ると言[い]っていました",
-          "japanese": "来[く]ると言[い]っていました",
-          "choices": [
-            "来[く]るって言[い]ってた",
-            "来[く]るのだ",
-            "来[く]るなよ",
-            "来[く]るでしょう"
-          ],
-          "correctIndex": 0,
-          "explanation": "と becomes って and 言[い]っていました contracts to 言[い]ってた: 来[く]るって言[い]ってた."
-        },
-        {
-          "id": "tte_q5",
-          "type": "usage",
-          "prompt": "What does 〜んだって add?",
-          "japanese": null,
-          "choices": [
-            "A command",
-            "Reporting news, often with mild surprise",
-            "A polite request",
-            "A negative meaning — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "〜んだって passes on information you heard, usually with a touch of surprise: 結婚[けっこん]するんだって！"
-        }
-      ]
+     "japanese": "なんか、疲[つか]れた。",
+     "romaji": "Nanka, tsukareta.",
+     "english": "I'm, like, worn out."
     },
     {
-      "id": "trailing-kedo",
-      "name": "〜けど / 〜んだけど — trailing off",
-      "shortDescription": "Leaving a sentence unfinished is polite, not lazy — it hands the floor over.",
-      "formation": "Plain form + けど (＋が, more formal)  |  〜んだけど to open a topic",
-      "explanation": "English speakers finish their sentences. Japanese speakers frequently do not, and the unfinished ending is doing real work.\n\nけど means 'but', yet a sentence that simply stops after it is not incomplete — it is softened. The listener fills in what was left unsaid, which is gentler than stating it.\n\n- ちょっと聞[き]きたいことがあるんだけど… — I have something I'd like to ask… (so, can I?)\n- 行[い]きたいんだけど… — I'd like to go… (but there's a problem / can you help?)\n- すみません、予約[よやく]したいんですけど… — Hi, I'd like to make a reservation… (please assist me)\n\nThat last pattern is the standard way to open a request with staff or strangers: state your want with 〜んですけど and let them take over.\n\n〜んだけど is also the normal way to *introduce* a topic: 昨日[きのう]の話[はなし]なんだけど、… ('so, about yesterday…').\n\nFinishing such a sentence bluntly can actually sound harsher than trailing off. Learning to leave the ending hanging is one of the clearest markers of natural Japanese.",
-      "rules": [
-        "けど = 'but', but a trailing けど softens rather than contradicts",
-        "〜んだけど… opens a request or topic: 聞[き]きたいことがあるんだけど…",
-        "Polite version 〜んですけど… is the standard way to address staff",
-        "The listener is expected to complete the thought",
-        "が is the more formal equivalent of けど"
-      ],
-      "examples": [
-        {
-          "japanese": "ちょっと聞[き]きたいことがあるんだけど…",
-          "romaji": "Chotto kikitai koto ga aru n da kedo…",
-          "english": "There's something I'd like to ask…"
-        },
-        {
-          "japanese": "すみません、予約[よやく]したいんですけど…",
-          "romaji": "Sumimasen, yoyaku shitai n desu kedo…",
-          "english": "Excuse me, I'd like to make a reservation…"
-        },
-        {
-          "japanese": "昨日[きのう]の話[はなし]なんだけど、",
-          "romaji": "Kinou no hanashi na n da kedo,",
-          "english": "So, about yesterday…"
-        },
-        {
-          "japanese": "行[い]きたいんだけど、時間[じかん]がない。",
-          "romaji": "Ikitai n da kedo, jikan ga nai.",
-          "english": "I want to go, but I don't have time."
-        }
-      ],
-      "flashcardHeader": "〜けど / 〜んだけど",
-      "flashcardAnswer": "Trailing けど softens and hands the floor to the listener. 〜んですけど… is the standard way to open a request.",
-      "practice": [
-        {
-          "id": "kedo_q1",
-          "type": "usage",
-          "prompt": "Why do Japanese speakers leave sentences hanging after けど?",
-          "japanese": null,
-          "choices": [
-            "They forgot the ending",
-            "It softens the statement and invites the listener to respond",
-            "It is a grammatical error, regardless of context or politeness level.",
-            "It signals anger"
-          ],
-          "correctIndex": 1,
-          "explanation": "The unfinished ending is deliberate: it avoids stating something bluntly and hands the floor to the listener."
-        },
-        {
-          "id": "kedo_q2",
-          "type": "usage",
-          "prompt": "You approach a restaurant host. Which opening is most natural?",
-          "japanese": null,
-          "choices": [
-            "予約[よやく]しろ",
-            "予約[よやく]したいんですけど…",
-            "予約[よやく]するな",
-            "予約[よやく]するって"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜んですけど… is the standard polite opener: you state your need and let the staff take it from there."
-        },
-        {
-          "id": "kedo_q3",
-          "type": "translation",
-          "prompt": "What does 昨日[きのう]の話[はなし]なんだけど、 do?",
-          "japanese": "昨日[きのう]の話[はなし]なんだけど、",
-          "choices": [
-            "Ends the conversation — this is true in both spoken and written Japanese.",
-            "Introduces a topic ('so, about yesterday…')",
-            "Refuses a request",
-            "Gives a command"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜んだけど is a standard way to raise a topic before saying what you want about it."
-        },
-        {
-          "id": "kedo_q4",
-          "type": "usage",
-          "prompt": "Which is the more formal equivalent of けど?",
-          "japanese": null,
-          "choices": [
-            "が",
-            "ね",
-            "よ",
-            "な"
-          ],
-          "correctIndex": 0,
-          "explanation": "が carries the same 'but / and' pivot in more formal speech and writing: 〜したいのですが…"
-        },
-        {
-          "id": "kedo_q5",
-          "type": "usage",
-          "prompt": "How does finishing the sentence bluntly compare with trailing off?",
-          "japanese": null,
-          "choices": [
-            "It is more polite",
-            "It can sound harsher",
-            "It is identical",
-            "It is grammatically required"
-          ],
-          "correctIndex": 1,
-          "explanation": "Spelling out the whole demand removes the softening. Trailing off leaves the listener room, which is the gentler choice."
-        }
-      ]
+     "japanese": "「明日[あした]どう？」「明日[あした]はちょっと…」",
+     "romaji": "\"Ashita dou?\" \"Ashita wa chotto…\"",
+     "english": "\"How about tomorrow?\" \"Tomorrow is a bit…\" (= no)"
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "えーと / あのー / なんか / まあ",
+   "flashcardAnswer": "Fillers that buy time and soften speech. A trailing ちょっと… is a complete refusal.",
+   "practice": [
     {
-      "id": "slang3_v01",
-      "partOfSpeech": "expression",
-      "kanji": "えーと",
-      "kana": "えーと",
-      "romaji": "eeto",
-      "definition": "umm (filler)"
+     "id": "fill_q1",
+     "type": "usage",
+     "prompt": "Someone invites you out and you answer 明日[あした]はちょっと… What have you communicated?",
+     "japanese": "明日[あした]はちょっと…",
+     "choices": [
+      "Yes, definitely",
+      "A polite no",
+      "Ask me again later",
+      "I don't understand"
+     ],
+     "correctIndex": 1,
+     "explanation": "Trailing off with ちょっと is a complete, understood refusal in Japanese — softer than saying いいえ outright."
     },
     {
-      "id": "slang3_v02",
-      "partOfSpeech": "expression",
-      "kanji": "あのー",
-      "kana": "あのー",
-      "romaji": "anoo",
-      "definition": "err; excuse me (filler)"
+     "id": "fill_q2",
+     "type": "usage",
+     "prompt": "Which filler is closest to English 'like / kinda'?",
+     "japanese": null,
+     "choices": [
+      "なんか",
+      "えーと",
+      "まあ",
+      "あのー"
+     ],
+     "correctIndex": 0,
+     "explanation": "なんか is the classic young-speaker filler, used much like 'like' in English — and equally overusable."
     },
     {
-      "id": "slang3_v03",
-      "partOfSpeech": "adverb",
-      "kanji": "なんか",
-      "kana": "なんか",
-      "romaji": "nanka",
-      "definition": "like; kinda; somehow"
+     "id": "fill_q3",
+     "type": "usage",
+     "prompt": "Which filler best opens a request to a stranger?",
+     "japanese": null,
+     "choices": [
+      "なんか",
+      "あのー",
+      "まあ",
+      "ちょっと待[ま]て"
+     ],
+     "correctIndex": 1,
+     "explanation": "あのー softly gets someone's attention before a request: あのー、すみません."
     },
     {
-      "id": "slang3_v04",
-      "partOfSpeech": "adverb",
-      "kanji": "まあ",
-      "kana": "まあ",
-      "romaji": "maa",
-      "definition": "well; I guess"
+     "id": "fill_q4",
+     "type": "translation",
+     "prompt": "What does まあ、いいけど convey?",
+     "japanese": "まあ、いいけど。",
+     "choices": [
+      "Absolutely not",
+      "Well… I guess it's fine",
+      "That's wonderful",
+      "Please explain again"
+     ],
+     "correctIndex": 1,
+     "explanation": "まあ softens and half-concedes, and the trailing けど leaves a slight reservation hanging: 'well, I guess that's okay…'"
     },
     {
-      "id": "slang3_v05",
-      "partOfSpeech": "expression",
-      "kanji": "ていうか",
-      "kana": "ていうか",
-      "romaji": "te iu ka",
-      "definition": "or rather; actually"
-    },
-    {
-      "id": "slang3_v06",
-      "partOfSpeech": "expression",
-      "kanji": "ってか",
-      "kana": "ってか",
-      "romaji": "tte ka",
-      "definition": "anyway; actually (very casual)"
-    },
-    {
-      "id": "slang3_v07",
-      "partOfSpeech": "particle",
-      "kanji": "って",
-      "kana": "って",
-      "romaji": "tte",
-      "definition": "casual quote / topic marker"
-    },
-    {
-      "id": "slang3_v08",
-      "partOfSpeech": "adverb",
-      "kanji": "むしろ",
-      "kana": "むしろ",
-      "romaji": "mushiro",
-      "definition": "rather; if anything"
+     "id": "fill_q5",
+     "type": "usage",
+     "prompt": "Why do fillers help learners sound natural?",
+     "japanese": null,
+     "choices": [
+      "They add grammatical information — this is true in both spoken and written Japanese.",
+      "They make speech sound human rather than rehearsed",
+      "They make sentences more polite",
+      "They are required by grammar"
+     ],
+     "correctIndex": 1,
+     "explanation": "Perfectly fluent, filler-free speech sounds scripted. Natural hesitation makes conversation feel real — in moderation."
     }
-  ],
-  "kanji": null
+   ]
+  },
+  {
+   "id": "teiuka",
+   "name": "ていうか / ってか — 'or rather / actually'",
+   "shortDescription": "The all-purpose pivot for correcting, redirecting, or changing the subject.",
+   "formation": "というか → ていうか → つーか / ってか  (progressively more casual)",
+   "explanation": "ていうか literally means 'or should I say', and it has become one of the most useful conversational tools in casual Japanese.\n\nIt does three jobs:\n\n1. Correcting yourself mid-sentence — 疲[つか]れた、ていうか眠[ねむ]い (I'm tired — or rather, sleepy).\n2. Pushing back on what someone just said — ていうか、それ違[ちが]うよ (Actually, that's not right).\n3. Changing the subject entirely — ていうか、お腹[なか]すいた (Anyway — I'm hungry).\n\nThe forms run from the full というか down through ていうか to つーか and ってか, getting rougher as they shorten. ってか is common in texting.\n\nBe aware of the pushback flavour. Starting a sentence with ていうか signals that you are overriding or correcting what came before, so used repeatedly at someone it can sound dismissive. Among friends it is completely normal; with a superior, use むしろ or a softer phrase instead.",
+   "rules": [
+    "というか → ていうか → つーか / ってか, increasingly casual",
+    "Job 1: self-correction — 疲[つか]れた、ていうか眠[ねむ]い",
+    "Job 2: pushing back — ていうか、それ違[ちが]うよ",
+    "Job 3: changing the subject — ていうか、お腹[なか]すいた",
+    "It overrides what came before, so it can sound dismissive if repeated"
+   ],
+   "examples": [
+    {
+     "japanese": "眠[ねむ]い。ていうか、もう寝[ね]る。",
+     "romaji": "Nemui. Te iu ka, mou neru.",
+     "english": "I'm sleepy. Actually, I'm just going to bed."
+    },
+    {
+     "japanese": "ていうか、それ本当[ほんとう]？",
+     "romaji": "Te iu ka, sore hontou?",
+     "english": "Wait, actually — is that true?"
+    },
+    {
+     "japanese": "ってか、お腹[なか]すいた。",
+     "romaji": "Tte ka, onaka suita.",
+     "english": "Anyway, I'm hungry."
+    },
+    {
+     "japanese": "暑[あつ]い、ていうか暑[あつ]すぎ。",
+     "romaji": "Atsui, te iu ka atsusugi.",
+     "english": "It's hot — or rather, way too hot."
+    }
+   ],
+   "flashcardHeader": "ていうか / ってか",
+   "flashcardAnswer": "'Or rather / actually' — corrects yourself, pushes back, or changes the subject. Casual; can sound dismissive.",
+   "practice": [
+    {
+     "id": "teiuka_q1",
+     "type": "usage",
+     "prompt": "Which is the most casual form?",
+     "japanese": null,
+     "choices": [
+      "というか",
+      "ていうか",
+      "ってか",
+      "と言[い]いますと"
+     ],
+     "correctIndex": 2,
+     "explanation": "The chain runs というか → ていうか → つーか／ってか, getting shorter and rougher. ってか is very common in texts."
+    },
+    {
+     "id": "teiuka_q2",
+     "type": "translation",
+     "prompt": "What is happening in 疲[つか]れた、ていうか眠[ねむ]い?",
+     "japanese": "疲[つか]れた、ていうか眠[ねむ]い。",
+     "choices": [
+      "Correcting to a more accurate word",
+      "Asking a question",
+      "Agreeing with someone, and the rule applies to every sentence type.",
+      "Giving a command"
+     ],
+     "correctIndex": 0,
+     "explanation": "The speaker replaces 'tired' with the more precise 'sleepy'. This self-correction is ていうか's most basic job."
+    },
+    {
+     "id": "teiuka_q3",
+     "type": "usage",
+     "prompt": "Why can starting sentences with ていうか sound dismissive?",
+     "japanese": null,
+     "choices": [
+      "It is grammatically rude",
+      "It signals you are overriding what was just said",
+      "It is a command form",
+      "It is only used by strangers — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "ていうか reframes or corrects the previous statement. Occasionally that is fine; repeatedly, it reads as brushing the other person aside."
+    },
+    {
+     "id": "teiuka_q4",
+     "type": "usage",
+     "prompt": "You want to change the topic with friends. Which fits?",
+     "japanese": null,
+     "choices": [
+      "ていうか、お腹[なか]すいた",
+      "失礼[しつれい]いたします",
+      "よろしくお願[ねが]いします",
+      "お疲[つか]れさまでした"
+     ],
+     "correctIndex": 0,
+     "explanation": "ていうか pivots cleanly to a new subject: 'anyway — I'm hungry'. The others are set formal phrases."
+    },
+    {
+     "id": "teiuka_q5",
+     "type": "usage",
+     "prompt": "What should you use instead when speaking with a superior?",
+     "japanese": null,
+     "choices": [
+      "ってか",
+      "つーか",
+      "むしろ or a softer phrase",
+      "ていうかさ"
+     ],
+     "correctIndex": 2,
+     "explanation": "むしろ ('rather') carries the same corrective sense without the casual, dismissive edge of ていうか and its shortened forms."
+    }
+   ]
+  },
+  {
+   "id": "quotative-tte",
+   "name": "〜って — the everyday quote and topic marker",
+   "shortDescription": "One tiny particle replaces と言[い]う, という, and often は.",
+   "formation": "[quote] + って + (言[い]う / 思[おも]う)  |  [noun] + って = 'the thing called / as for'",
+   "explanation": "って is the hardest-working particle in casual Japanese, and it does two separate jobs.\n\nAs a quote marker it replaces と:\n- 田中[たなか]さんが来[く]るって言[い]ってた → Tanaka said he's coming\n- 明日[あした]、雨[あめ]だって → Apparently it's going to rain tomorrow\n\nNotice the second one: the 言[い]う can simply be dropped. A sentence ending in って means 'I heard / they say' with nothing else needed.\n\nAs a topic marker it replaces は or という:\n- 日本語[にほんご]って難[むずか]しい → Japanese is hard (as for Japanese…)\n- 田中[たなか]って人[ひと] → a person called Tanaka\n\nSo って can introduce a topic, name a thing, or report speech, and context tells you which.\n\nTwo variants worth knowing: 〜んだって ('apparently', reporting with a bit of surprise) and 〜だってさ (reporting with a shrug). Both are extremely common when passing on news.",
+   "rules": [
+    "Quote: って replaces と — 来[く]るって言[い]ってた",
+    "Ending a sentence with って alone = 'I hear / apparently'",
+    "Topic: って replaces は — 日本語[にほんご]って難[むずか]しい",
+    "Naming: [noun] + って + noun — 田中[たなか]って人[ひと] ('a guy called Tanaka')",
+    "〜んだって and 〜だってさ report news casually"
+   ],
+   "examples": [
+    {
+     "japanese": "明日[あした]、雨[あめ]だって。",
+     "romaji": "Ashita, ame datte.",
+     "english": "Apparently it's going to rain tomorrow."
+    },
+    {
+     "japanese": "日本語[にほんご]って難[むずか]しいね。",
+     "romaji": "Nihongo tte muzukashii ne.",
+     "english": "Japanese is hard, huh."
+    },
+    {
+     "japanese": "田中[たなか]って人[ひと]、知[し]ってる？",
+     "romaji": "Tanaka tte hito, shitteru?",
+     "english": "Do you know a guy called Tanaka?"
+    },
+    {
+     "japanese": "行[い]けないって言[い]ってたよ。",
+     "romaji": "Ikenai tte itteta yo.",
+     "english": "They said they can't go."
+    }
+   ],
+   "flashcardHeader": "〜って",
+   "flashcardAnswer": "Casual quote marker (replaces と) and topic marker (replaces は). Ending in って alone = 'apparently'.",
+   "practice": [
+    {
+     "id": "tte_q1",
+     "type": "translation",
+     "prompt": "What does 明日[あした]、雨[あめ]だって mean?",
+     "japanese": "明日[あした]、雨[あめ]だって。",
+     "choices": [
+      "It rained yesterday.",
+      "Apparently it'll rain tomorrow.",
+      "I hope it rains tomorrow.",
+      "It won't rain tomorrow."
+     ],
+     "correctIndex": 1,
+     "explanation": "A sentence ending in って reports hearsay with the 言[い]う dropped: 'they say / apparently'."
+    },
+    {
+     "id": "tte_q2",
+     "type": "usage",
+     "prompt": "In 日本語[にほんご]って難[むずか]しい, what is って replacing?",
+     "japanese": "日本語[にほんご]って難[むずか]しい。",
+     "choices": [
+      "は",
+      "を",
+      "に",
+      "から"
+     ],
+     "correctIndex": 0,
+     "explanation": "Here って is a casual topic marker standing in for は — 'as for Japanese, it's hard'."
+    },
+    {
+     "id": "tte_q3",
+     "type": "usage",
+     "prompt": "What does 田中[たなか]って人[ひと] mean?",
+     "japanese": "田中[たなか]って人[ひと]",
+     "choices": [
+      "Tanaka's person",
+      "A person called Tanaka",
+      "Tanaka said the person",
+      "Tanaka's friend"
+     ],
+     "correctIndex": 1,
+     "explanation": "[Noun] + って + noun names something — the casual equivalent of 田中[たなか]という人[ひと]."
+    },
+    {
+     "id": "tte_q4",
+     "type": "construct",
+     "prompt": "Make this casual: 来[く]ると言[い]っていました",
+     "japanese": "来[く]ると言[い]っていました",
+     "choices": [
+      "来[く]るって言[い]ってた",
+      "来[く]るのだ",
+      "来[く]るなよ",
+      "来[く]るでしょう"
+     ],
+     "correctIndex": 0,
+     "explanation": "と becomes って and 言[い]っていました contracts to 言[い]ってた: 来[く]るって言[い]ってた."
+    },
+    {
+     "id": "tte_q5",
+     "type": "usage",
+     "prompt": "What does 〜んだって add?",
+     "japanese": null,
+     "choices": [
+      "A command",
+      "Reporting news, often with mild surprise",
+      "A polite request",
+      "A negative meaning — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "〜んだって passes on information you heard, usually with a touch of surprise: 結婚[けっこん]するんだって！"
+    }
+   ]
+  },
+  {
+   "id": "trailing-kedo",
+   "name": "〜けど / 〜んだけど — trailing off",
+   "shortDescription": "Leaving a sentence unfinished is polite, not lazy — it hands the floor over.",
+   "formation": "Plain form + けど (＋が, more formal)  |  〜んだけど to open a topic",
+   "explanation": "English speakers finish their sentences. Japanese speakers frequently do not, and the unfinished ending is doing real work.\n\nけど means 'but', yet a sentence that simply stops after it is not incomplete — it is softened. The listener fills in what was left unsaid, which is gentler than stating it.\n\n- ちょっと聞[き]きたいことがあるんだけど… — I have something I'd like to ask… (so, can I?)\n- 行[い]きたいんだけど… — I'd like to go… (but there's a problem / can you help?)\n- すみません、予約[よやく]したいんですけど… — Hi, I'd like to make a reservation… (please assist me)\n\nThat last pattern is the standard way to open a request with staff or strangers: state your want with 〜んですけど and let them take over.\n\n〜んだけど is also the normal way to *introduce* a topic: 昨日[きのう]の話[はなし]なんだけど、… ('so, about yesterday…').\n\nFinishing such a sentence bluntly can actually sound harsher than trailing off. Learning to leave the ending hanging is one of the clearest markers of natural Japanese.",
+   "rules": [
+    "けど = 'but', but a trailing けど softens rather than contradicts",
+    "〜んだけど… opens a request or topic: 聞[き]きたいことがあるんだけど…",
+    "Polite version 〜んですけど… is the standard way to address staff",
+    "The listener is expected to complete the thought",
+    "が is the more formal equivalent of けど"
+   ],
+   "examples": [
+    {
+     "japanese": "ちょっと聞[き]きたいことがあるんだけど…",
+     "romaji": "Chotto kikitai koto ga aru n da kedo…",
+     "english": "There's something I'd like to ask…"
+    },
+    {
+     "japanese": "すみません、予約[よやく]したいんですけど…",
+     "romaji": "Sumimasen, yoyaku shitai n desu kedo…",
+     "english": "Excuse me, I'd like to make a reservation…"
+    },
+    {
+     "japanese": "昨日[きのう]の話[はなし]なんだけど、",
+     "romaji": "Kinou no hanashi na n da kedo,",
+     "english": "So, about yesterday…"
+    },
+    {
+     "japanese": "行[い]きたいんだけど、時間[じかん]がない。",
+     "romaji": "Ikitai n da kedo, jikan ga nai.",
+     "english": "I want to go, but I don't have time."
+    }
+   ],
+   "flashcardHeader": "〜けど / 〜んだけど",
+   "flashcardAnswer": "Trailing けど softens and hands the floor to the listener. 〜んですけど… is the standard way to open a request.",
+   "practice": [
+    {
+     "id": "kedo_q1",
+     "type": "usage",
+     "prompt": "Why do Japanese speakers leave sentences hanging after けど?",
+     "japanese": null,
+     "choices": [
+      "They forgot the ending",
+      "It softens the statement and invites the listener to respond",
+      "It is a grammatical error, regardless of context or politeness level.",
+      "It signals anger"
+     ],
+     "correctIndex": 1,
+     "explanation": "The unfinished ending is deliberate: it avoids stating something bluntly and hands the floor to the listener."
+    },
+    {
+     "id": "kedo_q2",
+     "type": "usage",
+     "prompt": "You approach a restaurant host. Which opening is most natural?",
+     "japanese": null,
+     "choices": [
+      "予約[よやく]しろ",
+      "予約[よやく]したいんですけど…",
+      "予約[よやく]するな",
+      "予約[よやく]するって"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜んですけど… is the standard polite opener: you state your need and let the staff take it from there."
+    },
+    {
+     "id": "kedo_q3",
+     "type": "translation",
+     "prompt": "What does 昨日[きのう]の話[はなし]なんだけど、 do?",
+     "japanese": "昨日[きのう]の話[はなし]なんだけど、",
+     "choices": [
+      "Ends the conversation — this is true in both spoken and written Japanese.",
+      "Introduces a topic ('so, about yesterday…')",
+      "Refuses a request",
+      "Gives a command"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜んだけど is a standard way to raise a topic before saying what you want about it."
+    },
+    {
+     "id": "kedo_q4",
+     "type": "usage",
+     "prompt": "Which is the more formal equivalent of けど?",
+     "japanese": null,
+     "choices": [
+      "が",
+      "ね",
+      "よ",
+      "な"
+     ],
+     "correctIndex": 0,
+     "explanation": "が carries the same 'but / and' pivot in more formal speech and writing: 〜したいのですが…"
+    },
+    {
+     "id": "kedo_q5",
+     "type": "usage",
+     "prompt": "How does finishing the sentence bluntly compare with trailing off?",
+     "japanese": null,
+     "choices": [
+      "It is more polite",
+      "It can sound harsher",
+      "It is identical",
+      "It is grammatically required"
+     ],
+     "correctIndex": 1,
+     "explanation": "Spelling out the whole demand removes the softening. Trailing off leaves the listener room, which is the gentler choice."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "slang3_v01",
+   "partOfSpeech": "expression",
+   "kanji": "えーと",
+   "kana": "えーと",
+   "romaji": "eeto",
+   "definition": "umm (filler)"
+  },
+  {
+   "id": "slang3_v02",
+   "partOfSpeech": "expression",
+   "kanji": "あのー",
+   "kana": "あのー",
+   "romaji": "anoo",
+   "definition": "err; excuse me (filler)"
+  },
+  {
+   "id": "slang3_v03",
+   "partOfSpeech": "adverb",
+   "kanji": "なんか",
+   "kana": "なんか",
+   "romaji": "nanka",
+   "definition": "like; kinda; somehow"
+  },
+  {
+   "id": "slang3_v04",
+   "partOfSpeech": "adverb",
+   "kanji": "まあ",
+   "kana": "まあ",
+   "romaji": "maa",
+   "definition": "well; I guess"
+  },
+  {
+   "id": "slang3_v05",
+   "partOfSpeech": "expression",
+   "kanji": "ていうか",
+   "kana": "ていうか",
+   "romaji": "te iu ka",
+   "definition": "or rather; actually"
+  },
+  {
+   "id": "slang3_v06",
+   "partOfSpeech": "expression",
+   "kanji": "ってか",
+   "kana": "ってか",
+   "romaji": "tte ka",
+   "definition": "anyway; actually (very casual)"
+  },
+  {
+   "id": "slang3_v07",
+   "partOfSpeech": "particle",
+   "kanji": "って",
+   "kana": "って",
+   "romaji": "tte",
+   "definition": "casual quote / topic marker"
+  },
+  {
+   "id": "slang3_v08",
+   "partOfSpeech": "adverb",
+   "kanji": "むしろ",
+   "kana": "むしろ",
+   "romaji": "mushiro",
+   "definition": "rather; if anything"
+  }
+ ],
+ "kanji": null
 }

@@ -1,290 +1,290 @@
 {
-  "id": "kana_h01",
-  "chapterNumber": 1,
-  "title": "Vowels — あ い う え お",
-  "points": [
+ "id": "kana_h01",
+ "chapterNumber": 1,
+ "title": "Vowels — あ い う え お",
+ "points": [
+  {
+   "id": "h01_intro",
+   "name": "The Japanese writing system",
+   "shortDescription": "Three scripts, one language — where they came from and what each one does.",
+   "formation": "漢字 ＋ ひらがな ＋ カタカナ",
+   "explanation": "Japanese is written with three scripts at once, plus the Latin alphabet when it suits. That sounds like a lot, and it is — but each has a job, and once you can tell them apart, a page of Japanese stops looking like noise.\n\nJapan had no writing of its own. Chinese characters — 漢字, kanji, literally 'Han characters' — arrived from the mainland around the fifth century, carried by scholars and Buddhist texts. They had been built for Chinese, a language with different grammar and different sounds, and they fitted Japanese badly. Chinese barely inflects; Japanese inflects constantly. There was no good way to write the difference between 'eat' and 'ate'.\n\nThe first workaround was to use kanji purely for their sounds and ignore their meanings — a system now called 万葉仮名 (man'yōgana), named for the Man'yōshū, the eighth-century poetry anthology that leans on it heavily. It worked, but it was unwieldy: every syllable cost a whole character, and a reader had to work out whether a given character stood for a sound or a meaning.\n\nDuring the Heian period, scribes writing man'yōgana quickly and cursively wore those characters down into simpler, rounder shapes. Those became ひらがな (hiragana). Separately, Buddhist monks annotating Chinese texts took to jotting abbreviated fragments of characters beside the lines as pronunciation aids — a piece of a character standing in for the whole. Those became カタカナ (katakana), which is why katakana still looks angular and clipped where hiragana looks flowing. Both settled into roughly their modern forms by around the tenth century.\n\nHiragana was, for a time, associated with women's writing, since men at court were expected to write in Chinese. The result is one of the happier accidents of literary history: because women wrote in their own language rather than a borrowed one, the earliest great works of Japanese prose are theirs. The Tale of Genji and The Pillow Book were both written in hiragana around the year 1000.\n\nStandardisation came much later. School reforms in 1900 cut the many competing hiragana forms down to one per sound, and a further reform in 1946 brought spelling into line with modern pronunciation.\n\nToday the division of labour is fairly clean. Kanji carry meaning — the stems of nouns, verbs and adjectives. Hiragana carries grammar — particles, verb endings, and any word without a common kanji. Katakana marks a word as foreign or otherwise set apart. Roman letters turn up in acronyms, brand names and signs meant for visitors.\n\nThere are no spaces between words, which sounds impossible until you see why it works: the mixture is the spacing. A block of kanji followed by hiragana is almost always a word followed by its grammar, so the change of script marks the seam. This is also why Japanese written entirely in hiragana — which beginners sometimes wish for — is genuinely harder to read, not easier.\n\nYou will learn hiragana first, then katakana. Each has 46 basic characters, extending to about a hundred sounds with a couple of small marks and a few combinations. Kanji come afterwards, and they come slowly — but every kanji you meet will have its reading written in kana you already know.",
+   "rules": [
+    "漢字 (kanji) — meaning. The stems of nouns, verbs and adjectives: 山 (mountain), 食べる (to eat).",
+    "ひらがな (hiragana) — grammar. Particles, verb endings, and words with no common kanji. This is what you are about to learn.",
+    "カタカナ (katakana) — foreign or set apart. Loanwords, foreign names, sound effects, and the scientific names of plants and animals.",
+    "ローマ字 (rōmaji) — the Latin alphabet, for acronyms, brand names and signage aimed at visitors.",
+    "No spaces between words. The switch from one script to the next does that job instead.",
+    "Japanese runs left to right in horizontal lines, or top to bottom in columns read right to left. Books and newspapers still use both."
+   ],
+   "examples": [
     {
-      "id": "h01_intro",
-      "name": "The Japanese writing system",
-      "shortDescription": "Three scripts, one language — where they came from and what each one does.",
-      "formation": "漢字 ＋ ひらがな ＋ カタカナ",
-      "explanation": "Japanese is written with three scripts at once, plus the Latin alphabet when it suits. That sounds like a lot, and it is — but each has a job, and once you can tell them apart, a page of Japanese stops looking like noise.\n\nJapan had no writing of its own. Chinese characters — 漢字, kanji, literally 'Han characters' — arrived from the mainland around the fifth century, carried by scholars and Buddhist texts. They had been built for Chinese, a language with different grammar and different sounds, and they fitted Japanese badly. Chinese barely inflects; Japanese inflects constantly. There was no good way to write the difference between 'eat' and 'ate'.\n\nThe first workaround was to use kanji purely for their sounds and ignore their meanings — a system now called 万葉仮名 (man'yōgana), named for the Man'yōshū, the eighth-century poetry anthology that leans on it heavily. It worked, but it was unwieldy: every syllable cost a whole character, and a reader had to work out whether a given character stood for a sound or a meaning.\n\nDuring the Heian period, scribes writing man'yōgana quickly and cursively wore those characters down into simpler, rounder shapes. Those became ひらがな (hiragana). Separately, Buddhist monks annotating Chinese texts took to jotting abbreviated fragments of characters beside the lines as pronunciation aids — a piece of a character standing in for the whole. Those became カタカナ (katakana), which is why katakana still looks angular and clipped where hiragana looks flowing. Both settled into roughly their modern forms by around the tenth century.\n\nHiragana was, for a time, associated with women's writing, since men at court were expected to write in Chinese. The result is one of the happier accidents of literary history: because women wrote in their own language rather than a borrowed one, the earliest great works of Japanese prose are theirs. The Tale of Genji and The Pillow Book were both written in hiragana around the year 1000.\n\nStandardisation came much later. School reforms in 1900 cut the many competing hiragana forms down to one per sound, and a further reform in 1946 brought spelling into line with modern pronunciation.\n\nToday the division of labour is fairly clean. Kanji carry meaning — the stems of nouns, verbs and adjectives. Hiragana carries grammar — particles, verb endings, and any word without a common kanji. Katakana marks a word as foreign or otherwise set apart. Roman letters turn up in acronyms, brand names and signs meant for visitors.\n\nThere are no spaces between words, which sounds impossible until you see why it works: the mixture is the spacing. A block of kanji followed by hiragana is almost always a word followed by its grammar, so the change of script marks the seam. This is also why Japanese written entirely in hiragana — which beginners sometimes wish for — is genuinely harder to read, not easier.\n\nYou will learn hiragana first, then katakana. Each has 46 basic characters, extending to about a hundred sounds with a couple of small marks and a few combinations. Kanji come afterwards, and they come slowly — but every kanji you meet will have its reading written in kana you already know.",
-      "rules": [
-        "漢字 (kanji) — meaning. The stems of nouns, verbs and adjectives: 山 (mountain), 食べる (to eat).",
-        "ひらがな (hiragana) — grammar. Particles, verb endings, and words with no common kanji. This is what you are about to learn.",
-        "カタカナ (katakana) — foreign or set apart. Loanwords, foreign names, sound effects, and the scientific names of plants and animals.",
-        "ローマ字 (rōmaji) — the Latin alphabet, for acronyms, brand names and signage aimed at visitors.",
-        "No spaces between words. The switch from one script to the next does that job instead.",
-        "Japanese runs left to right in horizontal lines, or top to bottom in columns read right to left. Books and newspapers still use both."
-      ],
-      "examples": [
-        {
-          "japanese": "私[わたし]はコーヒーを飲[の]みます。",
-          "romaji": "watashi wa kōhī o nomimasu",
-          "english": "I drink coffee. — kanji for the meanings, hiragana for the grammar, katakana for the loanword."
-        },
-        {
-          "japanese": "山田[やまだ]さんはアメリカに行[い]きました。",
-          "romaji": "Yamada-san wa Amerika ni ikimashita",
-          "english": "Mr Yamada went to America. — a Japanese name in kanji, a foreign one in katakana."
-        },
-        {
-          "japanese": "猫[ねこ]・ねこ・ネコ",
-          "romaji": "neko",
-          "english": "Cat, written three ways. All are correct; the choice sets the tone."
-        }
-      ],
-      "flashcardHeader": "Which script carries the grammar — particles and verb endings?",
-      "flashcardAnswer": "ひらがな (hiragana). Kanji carry meaning; katakana marks foreign or set-apart words.",
-      "practice": null
+     "japanese": "私[わたし]はコーヒーを飲[の]みます。",
+     "romaji": "watashi wa kōhī o nomimasu",
+     "english": "I drink coffee. — kanji for the meanings, hiragana for the grammar, katakana for the loanword."
     },
     {
-      "id": "h01_a",
-      "pointType": "kana",
-      "name": "あ",
-      "shortDescription": "Like the 'a' in 'father'",
-      "formation": "a",
-      "explanation": "The vowel あ is the very first character in the hiragana syllabary, and it's one of the most satisfying sounds to get right immediately. Pronounce it like the 'a' in 'father' or 'spa' — a wide-open, relaxed sound produced at the back of the mouth. Unlike English, where the letter 'a' has a dozen different pronunciations (think 'cat', 'cake', 'care', 'sofa'), Japanese あ never changes: it sounds exactly the same in every single word, every time. This consistency is one of the great joys of Japanese — once you learn the five vowels, you can sound out virtually any hiragana word and be understood. あ kicks off the vowel row that anchors the entire kana chart.",
-      "rules": [
-        "Open your mouth wide and relax your jaw — think of saying 'ah' at the doctor's office.",
-        "Don't tense or round your lips; this is a pure, open vowel with no glide into another sound.",
-        "Length matters: short あ is one beat, but ああ (written doubled) is two beats — always keep it crisp unless you see it doubled."
-      ],
-      "examples": [
-        {
-          "japanese": "あい",
-          "romaji": "ai",
-          "english": "love"
-        },
-        {
-          "japanese": "あお",
-          "romaji": "ao",
-          "english": "blue (noun)"
-        },
-        {
-          "japanese": "あおい",
-          "romaji": "aoi",
-          "english": "blue (adjective)"
-        },
-        {
-          "japanese": "ああ",
-          "romaji": "aa",
-          "english": "oh! / alas"
-        }
-      ],
-      "flashcardHeader": "あ",
-      "flashcardAnswer": "a — like the 'a' in 'father'",
-      "practice": null
+     "japanese": "山田[やまだ]さんはアメリカに行[い]きました。",
+     "romaji": "Yamada-san wa Amerika ni ikimashita",
+     "english": "Mr Yamada went to America. — a Japanese name in kanji, a foreign one in katakana."
     },
     {
-      "id": "h01_i",
-      "pointType": "kana",
-      "name": "い",
-      "shortDescription": "Like the 'ee' in 'feet'",
-      "formation": "i",
-      "explanation": "The vowel い produces a bright, forward 'ee' sound, exactly like the vowel in 'feet' or 'see'. To hit it correctly, spread your lips slightly as if you're beginning a small smile — your tongue rises naturally toward the front of the roof of your mouth. Japanese speakers keep い short and pure, without the slight 'y' glide that English speakers often add unconsciously (English 'see' actually ends with a tiny 'y' sound; Japanese い does not). You will encounter い constantly in Japanese: it ends most adjectives, appears in grammatical structures everywhere, and is one of the most frequent sounds in the entire language.",
-      "rules": [
-        "Smile gently — this positions your lips and tongue correctly for the bright 'ee' quality.",
-        "Stop cleanly at the end; resist adding any 'y' glide after the vowel.",
-        "In fast speech い can become nearly silent between certain consonants, but focus on its full 'ee' sound for now."
-      ],
-      "examples": [
-        {
-          "japanese": "いえ",
-          "romaji": "ie",
-          "english": "house / home"
-        },
-        {
-          "japanese": "いいえ",
-          "romaji": "iie",
-          "english": "no"
-        },
-        {
-          "japanese": "あい",
-          "romaji": "ai",
-          "english": "love"
-        },
-        {
-          "japanese": "いい",
-          "romaji": "ii",
-          "english": "good / fine"
-        }
-      ],
-      "flashcardHeader": "い",
-      "flashcardAnswer": "i — like the 'ee' in 'feet'",
-      "practice": null
-    },
-    {
-      "id": "h01_u",
-      "pointType": "kana",
-      "name": "う",
-      "shortDescription": "Like 'oo' in 'food' but with relaxed, flat lips",
-      "formation": "u",
-      "explanation": "The vowel う is the trickiest of the five Japanese vowels for English speakers because it doesn't match any English vowel exactly. It's similar to the 'oo' in 'food', but the critical difference is that your lips should be relaxed and nearly flat — not rounded and pushed forward as in English 'oo'. Think of what your mouth does when you say 'hmm' in a neutral tone, then raise the back of your tongue slightly. Some teachers describe it as a 'dull oo' or 'compressed oo'. This unrounded quality is distinctive to Japanese (and a few other East Asian languages) and will take a bit of practice to produce naturally.",
-      "rules": [
-        "Do NOT round or push out your lips — this is the single biggest difference from English 'oo'.",
-        "Keep your lips relaxed and nearly flat while the back of your tongue rises.",
-        "う is short by default; only lengthen it when you see うう or a long-vowel marker."
-      ],
-      "examples": [
-        {
-          "japanese": "うえ",
-          "romaji": "ue",
-          "english": "above / up / top"
-        },
-        {
-          "japanese": "あう",
-          "romaji": "au",
-          "english": "to meet / to match"
-        },
-        {
-          "japanese": "うお",
-          "romaji": "uo",
-          "english": "fish (formal/literary)"
-        },
-        {
-          "japanese": "いう",
-          "romaji": "iu",
-          "english": "to say"
-        }
-      ],
-      "flashcardHeader": "う",
-      "flashcardAnswer": "u — like 'oo' in 'food' but with relaxed, flat lips",
-      "practice": null
-    },
-    {
-      "id": "h01_e",
-      "pointType": "kana",
-      "name": "え",
-      "shortDescription": "Like the 'e' in 'bed'",
-      "formation": "e",
-      "explanation": "The vowel え sounds like the 'e' in 'bed' or 'set' — a clean mid-front vowel that English speakers can nail right away. Your mouth opens to a medium width, and your tongue sits at a middle height in your mouth, neither too high nor too low. Unlike the English 'ay' in 'late' (which glides into a 'y' sound), Japanese え is pure and stationary — the sound starts and stops cleanly with no movement. You will encounter え frequently in Japanese grammar and everyday vocabulary, including as part of the direction particle meaning 'toward'.",
-      "rules": [
-        "Medium mouth opening — wider than い but not as wide as あ.",
-        "Keep it pure: no 'y' glide or movement at the end, unlike the English 'ay' in 'say'.",
-        "Think 'eh' rather than 'ay' — flat and brief, like a short version of the 'e' in 'bed'."
-      ],
-      "examples": [
-        {
-          "japanese": "ええ",
-          "romaji": "ee",
-          "english": "yes / well (casual)"
-        },
-        {
-          "japanese": "いえ",
-          "romaji": "ie",
-          "english": "house / home"
-        },
-        {
-          "japanese": "うえ",
-          "romaji": "ue",
-          "english": "above / up"
-        },
-        {
-          "japanese": "えい",
-          "romaji": "ei",
-          "english": "stingray / yes (formal exclamation)"
-        }
-      ],
-      "flashcardHeader": "え",
-      "flashcardAnswer": "e — like the 'e' in 'bed'",
-      "practice": null
-    },
-    {
-      "id": "h01_o",
-      "pointType": "kana",
-      "name": "お",
-      "shortDescription": "Like the 'o' in 'open'",
-      "formation": "o",
-      "explanation": "The vowel お produces a round, mid-back 'oh' sound, close to the 'o' in 'open' or 'go' — but without the glide that English speakers naturally add. In English, 'go' actually sounds more like 'goh-w', ending with a hint of 'w' as the lips round further. Japanese お stops cleanly without that movement. Round your lips moderately and let the sound ring steady. You will hear お constantly in Japanese, including in the honorific prefix お- that makes everyday words polite — so mastering this vowel is immediately useful.",
-      "rules": [
-        "Round your lips moderately, but don't push them far forward into an 'oo' shape.",
-        "Stop cleanly without your lips spreading or moving toward a 'w' sound at the end.",
-        "Watch for long vowels: both おお and おう indicate a lengthened 'o' sound, spoken as two beats."
-      ],
-      "examples": [
-        {
-          "japanese": "おい",
-          "romaji": "oi",
-          "english": "hey! / nephew"
-        },
-        {
-          "japanese": "おう",
-          "romaji": "ou",
-          "english": "to chase / to follow"
-        },
-        {
-          "japanese": "あおい",
-          "romaji": "aoi",
-          "english": "blue (adjective)"
-        },
-        {
-          "japanese": "おお",
-          "romaji": "oo",
-          "english": "oh! (exclamation)"
-        }
-      ],
-      "flashcardHeader": "お",
-      "flashcardAnswer": "o — like the 'o' in 'open'",
-      "practice": null
+     "japanese": "猫[ねこ]・ねこ・ネコ",
+     "romaji": "neko",
+     "english": "Cat, written three ways. All are correct; the choice sets the tone."
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "Which script carries the grammar — particles and verb endings?",
+   "flashcardAnswer": "ひらがな (hiragana). Kanji carry meaning; katakana marks foreign or set-apart words.",
+   "practice": null
+  },
+  {
+   "id": "h01_a",
+   "pointType": "kana",
+   "name": "あ",
+   "shortDescription": "Like the 'a' in 'father'",
+   "formation": "a",
+   "explanation": "The vowel あ is the very first character in the hiragana syllabary, and it's one of the most satisfying sounds to get right immediately. Pronounce it like the 'a' in 'father' or 'spa' — a wide-open, relaxed sound produced at the back of the mouth. Unlike English, where the letter 'a' has a dozen different pronunciations (think 'cat', 'cake', 'care', 'sofa'), Japanese あ never changes: it sounds exactly the same in every single word, every time. This consistency is one of the great joys of Japanese — once you learn the five vowels, you can sound out virtually any hiragana word and be understood. あ kicks off the vowel row that anchors the entire kana chart.",
+   "rules": [
+    "Open your mouth wide and relax your jaw — think of saying 'ah' at the doctor's office.",
+    "Don't tense or round your lips; this is a pure, open vowel with no glide into another sound.",
+    "Length matters: short あ is one beat, but ああ (written doubled) is two beats — always keep it crisp unless you see it doubled."
+   ],
+   "examples": [
     {
-      "id": "h01_q1",
-      "type": "multiple_choice",
-      "prompt": "What sound does this character make?",
-      "japanese": "あ",
-      "choices": [
-        "a (like 'ah')",
-        "i (like 'ee')",
-        "u (like 'oo')",
-        "e (like 'eh')"
-      ],
-      "correctIndex": 0,
-      "explanation": "あ makes the 'a' sound, like the 'a' in 'father'. It's the first vowel in Japanese and has a wide-open, pure sound."
+     "japanese": "あい",
+     "romaji": "ai",
+     "english": "love"
     },
     {
-      "id": "h01_q2",
-      "type": "multiple_choice",
-      "prompt": "Which character makes the 'e' sound (like the 'e' in 'bed')?",
-      "japanese": null,
-      "choices": [
-        "あ",
-        "う",
-        "え",
-        "お"
-      ],
-      "correctIndex": 2,
-      "explanation": "え makes the 'e' sound, like the 'e' in 'bed'. It's a clean mid-front vowel with no glide."
+     "japanese": "あお",
+     "romaji": "ao",
+     "english": "blue (noun)"
     },
     {
-      "id": "h01_q3",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "あい",
-      "choices": [
-        "love",
-        "house",
-        "above",
-        "good"
-      ],
-      "correctIndex": 0,
-      "explanation": "あい (ai) means 'love' in Japanese. You can hear both vowels clearly: あ (a) + い (i)."
+     "japanese": "あおい",
+     "romaji": "aoi",
+     "english": "blue (adjective)"
     },
     {
-      "id": "h01_q4",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "うえ",
-      "choices": [
-        "below",
-        "inside",
-        "above / up",
-        "outside"
-      ],
-      "correctIndex": 2,
-      "explanation": "うえ (ue) means 'above' or 'up'. It combines う (u) + え (e) — two of the five Japanese vowels."
+     "japanese": "ああ",
+     "romaji": "aa",
+     "english": "oh! / alas"
     }
-  ]
+   ],
+   "flashcardHeader": "あ",
+   "flashcardAnswer": "a — like the 'a' in 'father'",
+   "practice": null
+  },
+  {
+   "id": "h01_i",
+   "pointType": "kana",
+   "name": "い",
+   "shortDescription": "Like the 'ee' in 'feet'",
+   "formation": "i",
+   "explanation": "The vowel い produces a bright, forward 'ee' sound, exactly like the vowel in 'feet' or 'see'. To hit it correctly, spread your lips slightly as if you're beginning a small smile — your tongue rises naturally toward the front of the roof of your mouth. Japanese speakers keep い short and pure, without the slight 'y' glide that English speakers often add unconsciously (English 'see' actually ends with a tiny 'y' sound; Japanese い does not). You will encounter い constantly in Japanese: it ends most adjectives, appears in grammatical structures everywhere, and is one of the most frequent sounds in the entire language.",
+   "rules": [
+    "Smile gently — this positions your lips and tongue correctly for the bright 'ee' quality.",
+    "Stop cleanly at the end; resist adding any 'y' glide after the vowel.",
+    "In fast speech い can become nearly silent between certain consonants, but focus on its full 'ee' sound for now."
+   ],
+   "examples": [
+    {
+     "japanese": "いえ",
+     "romaji": "ie",
+     "english": "house / home"
+    },
+    {
+     "japanese": "いいえ",
+     "romaji": "iie",
+     "english": "no"
+    },
+    {
+     "japanese": "あい",
+     "romaji": "ai",
+     "english": "love"
+    },
+    {
+     "japanese": "いい",
+     "romaji": "ii",
+     "english": "good / fine"
+    }
+   ],
+   "flashcardHeader": "い",
+   "flashcardAnswer": "i — like the 'ee' in 'feet'",
+   "practice": null
+  },
+  {
+   "id": "h01_u",
+   "pointType": "kana",
+   "name": "う",
+   "shortDescription": "Like 'oo' in 'food' but with relaxed, flat lips",
+   "formation": "u",
+   "explanation": "The vowel う is the trickiest of the five Japanese vowels for English speakers because it doesn't match any English vowel exactly. It's similar to the 'oo' in 'food', but the critical difference is that your lips should be relaxed and nearly flat — not rounded and pushed forward as in English 'oo'. Think of what your mouth does when you say 'hmm' in a neutral tone, then raise the back of your tongue slightly. Some teachers describe it as a 'dull oo' or 'compressed oo'. This unrounded quality is distinctive to Japanese (and a few other East Asian languages) and will take a bit of practice to produce naturally.",
+   "rules": [
+    "Do NOT round or push out your lips — this is the single biggest difference from English 'oo'.",
+    "Keep your lips relaxed and nearly flat while the back of your tongue rises.",
+    "う is short by default; only lengthen it when you see うう or a long-vowel marker."
+   ],
+   "examples": [
+    {
+     "japanese": "うえ",
+     "romaji": "ue",
+     "english": "above / up / top"
+    },
+    {
+     "japanese": "あう",
+     "romaji": "au",
+     "english": "to meet / to match"
+    },
+    {
+     "japanese": "うお",
+     "romaji": "uo",
+     "english": "fish (formal/literary)"
+    },
+    {
+     "japanese": "いう",
+     "romaji": "iu",
+     "english": "to say"
+    }
+   ],
+   "flashcardHeader": "う",
+   "flashcardAnswer": "u — like 'oo' in 'food' but with relaxed, flat lips",
+   "practice": null
+  },
+  {
+   "id": "h01_e",
+   "pointType": "kana",
+   "name": "え",
+   "shortDescription": "Like the 'e' in 'bed'",
+   "formation": "e",
+   "explanation": "The vowel え sounds like the 'e' in 'bed' or 'set' — a clean mid-front vowel that English speakers can nail right away. Your mouth opens to a medium width, and your tongue sits at a middle height in your mouth, neither too high nor too low. Unlike the English 'ay' in 'late' (which glides into a 'y' sound), Japanese え is pure and stationary — the sound starts and stops cleanly with no movement. You will encounter え frequently in Japanese grammar and everyday vocabulary, including as part of the direction particle meaning 'toward'.",
+   "rules": [
+    "Medium mouth opening — wider than い but not as wide as あ.",
+    "Keep it pure: no 'y' glide or movement at the end, unlike the English 'ay' in 'say'.",
+    "Think 'eh' rather than 'ay' — flat and brief, like a short version of the 'e' in 'bed'."
+   ],
+   "examples": [
+    {
+     "japanese": "ええ",
+     "romaji": "ee",
+     "english": "yes / well (casual)"
+    },
+    {
+     "japanese": "いえ",
+     "romaji": "ie",
+     "english": "house / home"
+    },
+    {
+     "japanese": "うえ",
+     "romaji": "ue",
+     "english": "above / up"
+    },
+    {
+     "japanese": "えい",
+     "romaji": "ei",
+     "english": "stingray / yes (formal exclamation)"
+    }
+   ],
+   "flashcardHeader": "え",
+   "flashcardAnswer": "e — like the 'e' in 'bed'",
+   "practice": null
+  },
+  {
+   "id": "h01_o",
+   "pointType": "kana",
+   "name": "お",
+   "shortDescription": "Like the 'o' in 'open'",
+   "formation": "o",
+   "explanation": "The vowel お produces a round, mid-back 'oh' sound, close to the 'o' in 'open' or 'go' — but without the glide that English speakers naturally add. In English, 'go' actually sounds more like 'goh-w', ending with a hint of 'w' as the lips round further. Japanese お stops cleanly without that movement. Round your lips moderately and let the sound ring steady. You will hear お constantly in Japanese, including in the honorific prefix お- that makes everyday words polite — so mastering this vowel is immediately useful.",
+   "rules": [
+    "Round your lips moderately, but don't push them far forward into an 'oo' shape.",
+    "Stop cleanly without your lips spreading or moving toward a 'w' sound at the end.",
+    "Watch for long vowels: both おお and おう indicate a lengthened 'o' sound, spoken as two beats."
+   ],
+   "examples": [
+    {
+     "japanese": "おい",
+     "romaji": "oi",
+     "english": "hey! / nephew"
+    },
+    {
+     "japanese": "おう",
+     "romaji": "ou",
+     "english": "to chase / to follow"
+    },
+    {
+     "japanese": "あおい",
+     "romaji": "aoi",
+     "english": "blue (adjective)"
+    },
+    {
+     "japanese": "おお",
+     "romaji": "oo",
+     "english": "oh! (exclamation)"
+    }
+   ],
+   "flashcardHeader": "お",
+   "flashcardAnswer": "o — like the 'o' in 'open'",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "h01_q1",
+   "type": "multiple_choice",
+   "prompt": "What sound does this character make?",
+   "japanese": "あ",
+   "choices": [
+    "a (like 'ah')",
+    "i (like 'ee')",
+    "u (like 'oo')",
+    "e (like 'eh')"
+   ],
+   "correctIndex": 0,
+   "explanation": "あ makes the 'a' sound, like the 'a' in 'father'. It's the first vowel in Japanese and has a wide-open, pure sound."
+  },
+  {
+   "id": "h01_q2",
+   "type": "multiple_choice",
+   "prompt": "Which character makes the 'e' sound (like the 'e' in 'bed')?",
+   "japanese": null,
+   "choices": [
+    "あ",
+    "う",
+    "え",
+    "お"
+   ],
+   "correctIndex": 2,
+   "explanation": "え makes the 'e' sound, like the 'e' in 'bed'. It's a clean mid-front vowel with no glide."
+  },
+  {
+   "id": "h01_q3",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "あい",
+   "choices": [
+    "love",
+    "house",
+    "above",
+    "good"
+   ],
+   "correctIndex": 0,
+   "explanation": "あい (ai) means 'love' in Japanese. You can hear both vowels clearly: あ (a) + い (i)."
+  },
+  {
+   "id": "h01_q4",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "うえ",
+   "choices": [
+    "below",
+    "inside",
+    "above / up",
+    "outside"
+   ],
+   "correctIndex": 2,
+   "explanation": "うえ (ue) means 'above' or 'up'. It combines う (u) + え (e) — two of the five Japanese vowels."
+  }
+ ]
 }

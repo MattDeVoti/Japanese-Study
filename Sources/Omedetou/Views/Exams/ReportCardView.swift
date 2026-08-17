@@ -140,7 +140,6 @@ private struct RuledPaper: View {
 struct ReportCardView: View {
     @EnvironmentObject private var cardStore: CardStore
     @ObservedObject private var exams = ExamStore.shared
-    @ObservedObject private var srs = SRSStore.shared
     @State private var expanded: Set<String> = []
     @State private var sitting: ExamLesson?
 
@@ -151,7 +150,6 @@ struct ReportCardView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
                     overallCard
-                    reviewsRow
 
                     ForEach(exams.levelOrder, id: \.self) { level in
                         levelSection(level)
@@ -202,53 +200,6 @@ struct ReportCardView: View {
         }
         .padding(16)
         .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
-    }
-
-    /// Reviews are prep for these tests, so they hang off the record rather than
-    /// sitting in the Study grid as if they were another drill.
-    private var reviewsRow: some View {
-        // Unlike the home bar, this is a fixed menu entry — removing it for an
-        // hour would just look broken. It goes quiet and says why instead.
-        let ready = srs.reviewAvailable()
-        return NavigationLink {
-            ReviewSessionView()
-        } label: {
-            HStack(spacing: 12) {
-                Image(systemName: "bolt.fill")
-                    .font(.system(size: 14, weight: .bold))
-                    .foregroundColor(.appAccent)
-                    .frame(width: 30, height: 30)
-                    .background(Circle().fill(Color.appAccent.opacity(0.15)))
-                VStack(alignment: .leading, spacing: 1) {
-                    Text("Reviews")
-                        .font(.system(size: 15, weight: .semibold))
-                        .foregroundColor(.appText)
-                    Text(reviewDetail)
-                        .font(.system(size: 11))
-                        .foregroundColor(.appTextSecondary)
-                }
-                Spacer()
-                Image(systemName: "chevron.right")
-                    .font(.system(size: 12, weight: .bold))
-                    .foregroundColor(.appTextSecondary)
-            }
-            .padding(14)
-            .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
-            .opacity(ready ? 1 : 0.5)
-        }
-        .buttonStyle(.plain)
-        .disabled(!ready)
-    }
-
-    private var reviewDetail: String {
-        if let wait = srs.reviewWait() {
-            let mins = max(1, Int((wait / 60).rounded(.up)))
-            return mins >= 60 ? "Next round in about an hour"
-                              : "Next round in \(mins) min"
-        }
-        return srs.enrolledCount > 0
-            ? "\(SRSStore.reviewLength) cards on what you've been getting wrong"
-            : "Builds as you study and take tests"
     }
 
     // MARK: - Levels

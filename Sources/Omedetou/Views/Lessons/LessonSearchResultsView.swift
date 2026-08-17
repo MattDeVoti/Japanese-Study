@@ -141,7 +141,7 @@ private struct SearchResultRow: View {
         switch result.kind {
         case .grammar: return levelAccentColor(result.levelId)
         case .vocab:   return .vocabColor
-        case .kanji:   return .kanjiColor
+        case .kanji, .kanjiWord: return .kanjiColor
         case .culture: return CultureContent.accent
         }
     }
@@ -161,6 +161,8 @@ private struct SearchResultRow: View {
             if let card = cardStore.kanjiCard(for: char) {
                 KanjiCardDetailView(card: card)
             }
+        case let .kanjiWord(entry):
+            KanjiWordDetailView(entry: entry)
         case .culture:
             CultureChapterView()
         }

@@ -36,7 +36,10 @@ enum WidgetSnapshotWriter {
     private static func kanjiWords(_ store: CardStore) -> [WidgetItem] {
         var out: [WidgetItem] = []
         for card in store.kanjiCards.shuffled() {
-            guard let w = card.commonWords.randomElement(),
+            // Essential words first — the widget should surface words worth
+            // learning, not the card's bonus reference entries.
+            guard let w = (card.commonWords.filter(\.essential).randomElement()
+                            ?? card.commonWords.randomElement()),
                   !w.kanji.isEmpty, !w.meaning.isEmpty else { continue }
             out.append(WidgetItem(kind: .kanji, targetId: card.id, word: w.kanji,
                                   kana: w.kana, meaning: w.meaning,

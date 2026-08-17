@@ -80,6 +80,7 @@ final class DictionaryViewModel: ObservableObject {
     func reset(clearLetterMap: Bool = false) {
         searchTask?.cancel()
         pageTask?.cancel()
+        lastSearchedQuery = nil
         rows = []
         entries = []
         browseOffset = 0
@@ -98,21 +99,40 @@ final class DictionaryViewModel: ObservableObject {
 
     // MARK: Search
 
-    func onSearchChanged(_ query: String) {
+    func onSearchChanged(_ rawQuery: String) {
         searchTask?.cancel()
-        if query.isEmpty { reset(); return }
+        // Trimmed once here so every consumer sees the same query. A leading or
+        // trailing space — easy to leave behind on a phone keyboard, and the
+        // Japanese keyboard's full-width space counts too — used to reach the
+        // database as part of the LIKE pattern, so " 食" matched nothing.
+        let query = rawQuery.trimmingCharacters(in: .whitespacesAndNewlines)
+        if query.isEmpty {
+            // Whitespace-only is not a search. Only rebuild the browse list if
+            // it isn't already showing, or every space typed would blank it.
+            if lastSearchedQuery != nil { reset() }
+            lastSearchedQuery = nil
+            return
+        }
+        // The same query with different padding is not a new search.
+        guard query != lastSearchedQuery else { return }
 
         searchTask = Task {
             try? await Task.sleep(nanoseconds: 300_000_000)
             guard !Task.isCancelled else { return }
-            let q = query
             let results = await Task.detached(priority: .userInitiated) {
-                DictionaryService.shared.searchCombined(q)
+                DictionaryService.shared.searchCombined(query)
             }.value
+            guard !Task.isCancelled else { return }
+            self.lastSearchedQuery = query
             self.rows = results.map { .entry($0) }
             self.entries = results
         }
     }
+
+    /// The trimmed query the current rows answer, or nil while browsing. Lets a
+    /// change that only adds or removes padding be ignored, and tells the view
+    /// whether an empty list means "no matches" or "still loading".
+    @Published private(set) var lastSearchedQuery: String?
 
     // MARK: Kana jump
 
@@ -247,7 +267,26 @@ struct DictionaryView: View {
                 ZStack(alignment: .trailing) {
                     if vm.rows.isEmpty && !vm.isLoading {
                         Color.clear
-                        Text("Loading…").foregroundColor(.secondary)
+                        // An empty list is one of three things, and it used to
+                        // say "Loading…" for all of them — including a search
+                        // that simply had no matches, which then looked hung.
+                        if vm.lastSearchedQuery != nil {
+                            VStack(spacing: 6) {
+                                Text("No matches")
+                                    .font(.system(size: 16, weight: .semibold))
+                                    .foregroundColor(.appText)
+                                Text("Try the kana reading, or a shorter English word.")
+                                    .font(.system(size: 13))
+                                    .foregroundColor(.secondary)
+                                    .multilineTextAlignment(.center)
+                            }
+                            .padding(.horizontal, 32)
+                        } else if !vm.searchText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                            // Typed, debounce still running.
+                            ProgressView()
+                        } else {
+                            Text("Loading…").foregroundColor(.secondary)
+                        }
                     } else {
                         ScrollViewReader { proxy in
                             List {

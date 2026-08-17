@@ -1,155 +1,255 @@
 {
-  "id": "kana_h07",
-  "chapterNumber": 7,
-  "title": "M-Row — ま み む め も",
-  "points": [
+ "id": "kana_h07",
+ "chapterNumber": 7,
+ "title": "M-Row — ま み む め も",
+ "points": [
+  {
+   "id": "h07_ma",
+   "pointType": "kana",
+   "name": "ま",
+   "shortDescription": "Like the 'ma' in 'mama'",
+   "formation": "ma",
+   "explanation": "The syllable ま combines 'm' with the vowel あ, producing a warm 'ma' sound exactly as in 'mama' or 'mark'. Japanese 'm' is formed by pressing both lips together, just like English 'm', making this one of the most natural consonants for English speakers to produce. ま appears in everyday vocabulary like まち (town), まつ (to wait), and まえ (in front / before). It's also the basis of many common expressions, including まあ ('well...', used as a softening filler) and まだ ('not yet', though だ won't be introduced until Chapter 12).",
+   "rules": [
+    "Both lips close together for 'm' — same as English, no adjustment needed.",
+    "ま is used in まち (town), まえ (front), and まつ (to wait) — all high-frequency words.",
+    "まあ is a common filler word meaning 'well...' or 'I suppose', used to soften statements."
+   ],
+   "examples": [
     {
-      "id": "h07_ma",
-      "pointType": "kana",
-      "name": "ま",
-      "shortDescription": "Like the 'ma' in 'mama'",
-      "formation": "ma",
-      "explanation": "The syllable ま combines 'm' with the vowel あ, producing a warm 'ma' sound exactly as in 'mama' or 'mark'. Japanese 'm' is formed by pressing both lips together, just like English 'm', making this one of the most natural consonants for English speakers to produce. ま appears in everyday vocabulary like まち (town), まつ (to wait), and まえ (in front / before). It's also the basis of many common expressions, including まあ ('well...', used as a softening filler) and まだ ('not yet', though だ won't be introduced until Chapter 12).",
-      "rules": [
-        "Both lips close together for 'm' — same as English, no adjustment needed.",
-        "ま is used in まち (town), まえ (front), and まつ (to wait) — all high-frequency words.",
-        "まあ is a common filler word meaning 'well...' or 'I suppose', used to soften statements."
-      ],
-      "examples": [
-        {"japanese": "まち", "romaji": "machi", "english": "town / city"},
-        {"japanese": "まえ", "romaji": "mae", "english": "in front / before"},
-        {"japanese": "まつ", "romaji": "matsu", "english": "to wait / pine tree"},
-        {"japanese": "まこと", "romaji": "makoto", "english": "truth / sincerity (literary)"}
-      ],
-      "flashcardHeader": "ま",
-      "flashcardAnswer": "ma — like the 'ma' in 'mama'",
-      "practice": null
+     "japanese": "まち",
+     "romaji": "machi",
+     "english": "town / city"
     },
     {
-      "id": "h07_mi",
-      "pointType": "kana",
-      "name": "み",
-      "shortDescription": "Like the 'mi' in 'meet'",
-      "formation": "mi",
-      "explanation": "The syllable み combines 'm' with the bright vowel い, producing a 'mi' sound like the start of 'meet' or 'mirror'. Like all M-row sounds, the consonant is formed with both lips pressing together. み appears in essential vocabulary: みせ (shop / store), みち (path / road), みなみ (south), and みかた (ally / friend's side). The character み has a distinctive looping shape that's sometimes compared to a cursive English 'mi' — a fun coincidence that some learners use as a memory hook.",
-      "rules": [
-        "Both lips together for 'm', then spread slightly for the bright 'ee' vowel.",
-        "み appears in みせ (store) and みち (path) — extremely common vocabulary.",
-        "The character み looks a bit like a cursive 'mi' — a useful memory hook for English speakers."
-      ],
-      "examples": [
-        {"japanese": "みせ", "romaji": "mise", "english": "shop / store"},
-        {"japanese": "みち", "romaji": "michi", "english": "road / path"},
-        {"japanese": "みなみ", "romaji": "minami", "english": "south"},
-        {"japanese": "みかた", "romaji": "mikata", "english": "ally / one's side"}
-      ],
-      "flashcardHeader": "み",
-      "flashcardAnswer": "mi — like the 'mi' in 'meet'",
-      "practice": null
+     "japanese": "まえ",
+     "romaji": "mae",
+     "english": "in front / before"
     },
     {
-      "id": "h07_mu",
-      "pointType": "kana",
-      "name": "む",
-      "shortDescription": "Like 'moo' but with flat, relaxed lips",
-      "formation": "mu",
-      "explanation": "The syllable む pairs 'm' with the Japanese vowel う, making a 'mu' sound. Remember that Japanese う uses flat, unrounded lips — so む doesn't sound like English 'moo' (which rounds the lips). Instead, it's a short 'm' followed by that flat, back vowel. む appears in むし (insect/bug), むね (chest), and むかし (long ago / once upon a time — the classic story-opener). The character む has a complex shape with a loop at the top right that many learners find tricky to write at first.",
-      "rules": [
-        "Close lips for 'm', then open to flat, unrounded 'u' — don't round up into 'moo'.",
-        "むかし (once upon a time) is the classic fairy-tale opener in Japanese.",
-        "む is one of the more complex hiragana shapes — practice writing it several times."
-      ],
-      "examples": [
-        {"japanese": "むし", "romaji": "mushi", "english": "insect / bug"},
-        {"japanese": "むね", "romaji": "mune", "english": "chest / breast / heart (poetic)"},
-        {"japanese": "むかし", "romaji": "mukashi", "english": "long ago / once upon a time"},
-        {"japanese": "むすこ", "romaji": "musuko", "english": "son"}
-      ],
-      "flashcardHeader": "む",
-      "flashcardAnswer": "mu — 'm' + Japanese 'u' (flat, relaxed lips — not 'moo')",
-      "practice": null
+     "japanese": "まつ",
+     "romaji": "matsu",
+     "english": "to wait / pine tree"
     },
     {
-      "id": "h07_me",
-      "pointType": "kana",
-      "name": "め",
-      "shortDescription": "Like the 'me' in 'met'",
-      "formation": "me",
-      "explanation": "The syllable め pairs 'm' with the vowel え, producing a 'me' sound as in 'met' or 'men'. め is a beautiful, useful syllable: め alone means 'eye' (one of the most iconic single-kana words), and it appears in めし (meal — casual), めいし (business card), and かめ (turtle). The character め looks similar to ぬ — they share a looping structure — so take time to distinguish them. A useful tip: め has a slightly more angular look, while ぬ's loop is rounder and extends further to the right.",
-      "rules": [
-        "Both lips for 'm', then open to the clean 'eh' vowel.",
-        "め alone means 'eye' — a great single-character vocabulary word.",
-        "め and ぬ look similar — compare them side by side until you can reliably tell them apart."
-      ],
-      "examples": [
-        {"japanese": "めいし", "romaji": "meishi", "english": "business card"},
-        {"japanese": "かめ", "romaji": "kame", "english": "turtle / tortoise"},
-        {"japanese": "めし", "romaji": "meshi", "english": "meal / cooked rice (casual)"},
-        {"japanese": "まめ", "romaji": "mame", "english": "bean / diligent"}
-      ],
-      "flashcardHeader": "め",
-      "flashcardAnswer": "me — like the 'me' in 'met'",
-      "practice": null
-    },
-    {
-      "id": "h07_mo",
-      "pointType": "kana",
-      "name": "も",
-      "shortDescription": "Like the 'mo' in 'more'",
-      "formation": "mo",
-      "explanation": "The syllable も combines 'm' with the vowel お, making a 'mo' sound as in 'more' or 'mole'. も is one of the most useful particles in Japanese: it means 'also' or 'too', attaching to nouns to add them to a list or comparison. For example, わたしもいく means 'I'm going too'. As a word element, も appears in もの (thing / object), もも (peach), and もち (sticky rice cake — the basis of mochi). The character も is straightforward to write and remember: it looks like a simplified fish hook with two horizontal strokes.",
-      "rules": [
-        "Close lips for 'm', then open to a round but non-gliding 'oh' vowel.",
-        "も as a particle means 'also / too': わたしも = 'me too'.",
-        "もの (thing) and もち (mochi/rice cake) are high-frequency vocabulary words using も."
-      ],
-      "examples": [
-        {"japanese": "もの", "romaji": "mono", "english": "thing / object"},
-        {"japanese": "もも", "romaji": "momo", "english": "peach"},
-        {"japanese": "もち", "romaji": "mochi", "english": "rice cake / mochi"},
-        {"japanese": "とも", "romaji": "tomo", "english": "friend (literary) / together"}
-      ],
-      "flashcardHeader": "も",
-      "flashcardAnswer": "mo — like the 'mo' in 'more'",
-      "practice": null
+     "japanese": "まこと",
+     "romaji": "makoto",
+     "english": "truth / sincerity (literary)"
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "ま",
+   "flashcardAnswer": "ma — like the 'ma' in 'mama'",
+   "practice": null
+  },
+  {
+   "id": "h07_mi",
+   "pointType": "kana",
+   "name": "み",
+   "shortDescription": "Like the 'mi' in 'meet'",
+   "formation": "mi",
+   "explanation": "The syllable み combines 'm' with the bright vowel い, producing a 'mi' sound like the start of 'meet' or 'mirror'. Like all M-row sounds, the consonant is formed with both lips pressing together. み appears in essential vocabulary: みせ (shop / store), みち (path / road), みなみ (south), and みかた (ally / friend's side). The character み has a distinctive looping shape that's sometimes compared to a cursive English 'mi' — a fun coincidence that some learners use as a memory hook.",
+   "rules": [
+    "Both lips together for 'm', then spread slightly for the bright 'ee' vowel.",
+    "み appears in みせ (store) and みち (path) — extremely common vocabulary.",
+    "The character み looks a bit like a cursive 'mi' — a useful memory hook for English speakers."
+   ],
+   "examples": [
     {
-      "id": "h07_q1",
-      "type": "multiple_choice",
-      "prompt": "What sound does this character make?",
-      "japanese": "む",
-      "choices": ["mo", "mi", "mu", "me"],
-      "correctIndex": 2,
-      "explanation": "む makes the 'mu' sound — 'm' followed by the Japanese 'u' vowel (flat, unrounded lips). Think of it as a softer alternative to English 'moo'."
+     "japanese": "みせ",
+     "romaji": "mise",
+     "english": "shop / store"
     },
     {
-      "id": "h07_q2",
-      "type": "multiple_choice",
-      "prompt": "Which character makes the 'mo' sound AND functions as the 'also/too' particle?",
-      "japanese": null,
-      "choices": ["ま", "み", "め", "も"],
-      "correctIndex": 3,
-      "explanation": "も makes the 'mo' sound and is used as a particle meaning 'also' or 'too'. For example, わたしも means 'me too'."
+     "japanese": "みち",
+     "romaji": "michi",
+     "english": "road / path"
     },
     {
-      "id": "h07_q3",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "むし",
-      "choices": ["fish", "bird", "insect / bug", "flower"],
-      "correctIndex": 2,
-      "explanation": "むし (mushi) means 'insect' or 'bug'. む (mu) + し (shi) = mushi. This word also appears in むしあつい (muggy/humid), literally 'insect-hot'."
+     "japanese": "みなみ",
+     "romaji": "minami",
+     "english": "south"
     },
     {
-      "id": "h07_q4",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "みち",
-      "choices": ["store", "south", "ally", "road / path"],
-      "correctIndex": 3,
-      "explanation": "みち (michi) means 'road' or 'path'. み (mi) + ち (chi) = michi. It's also used metaphorically as 'the path' in philosophies and arts (like 道 in martial arts)."
+     "japanese": "みかた",
+     "romaji": "mikata",
+     "english": "ally / one's side"
     }
-  ]
+   ],
+   "flashcardHeader": "み",
+   "flashcardAnswer": "mi — like the 'mi' in 'meet'",
+   "practice": null
+  },
+  {
+   "id": "h07_mu",
+   "pointType": "kana",
+   "name": "む",
+   "shortDescription": "Like 'moo' but with flat, relaxed lips",
+   "formation": "mu",
+   "explanation": "The syllable む pairs 'm' with the Japanese vowel う, making a 'mu' sound. Remember that Japanese う uses flat, unrounded lips — so む doesn't sound like English 'moo' (which rounds the lips). Instead, it's a short 'm' followed by that flat, back vowel. む appears in むし (insect/bug), むね (chest), and むかし (long ago / once upon a time — the classic story-opener). The character む has a complex shape with a loop at the top right that many learners find tricky to write at first.",
+   "rules": [
+    "Close lips for 'm', then open to flat, unrounded 'u' — don't round up into 'moo'.",
+    "むかし (once upon a time) is the classic fairy-tale opener in Japanese.",
+    "む is one of the more complex hiragana shapes — practice writing it several times."
+   ],
+   "examples": [
+    {
+     "japanese": "むし",
+     "romaji": "mushi",
+     "english": "insect / bug"
+    },
+    {
+     "japanese": "むね",
+     "romaji": "mune",
+     "english": "chest / breast / heart (poetic)"
+    },
+    {
+     "japanese": "むかし",
+     "romaji": "mukashi",
+     "english": "long ago / once upon a time"
+    },
+    {
+     "japanese": "むすこ",
+     "romaji": "musuko",
+     "english": "son"
+    }
+   ],
+   "flashcardHeader": "む",
+   "flashcardAnswer": "mu — 'm' + Japanese 'u' (flat, relaxed lips — not 'moo')",
+   "practice": null
+  },
+  {
+   "id": "h07_me",
+   "pointType": "kana",
+   "name": "め",
+   "shortDescription": "Like the 'me' in 'met'",
+   "formation": "me",
+   "explanation": "The syllable め pairs 'm' with the vowel え, producing a 'me' sound as in 'met' or 'men'. め is a beautiful, useful syllable: め alone means 'eye' (one of the most iconic single-kana words), and it appears in めし (meal — casual), めいし (business card), and かめ (turtle). The character め looks similar to ぬ — they share a looping structure — so take time to distinguish them. A useful tip: め has a slightly more angular look, while ぬ's loop is rounder and extends further to the right.",
+   "rules": [
+    "Both lips for 'm', then open to the clean 'eh' vowel.",
+    "め alone means 'eye' — a great single-character vocabulary word.",
+    "め and ぬ look similar — compare them side by side until you can reliably tell them apart."
+   ],
+   "examples": [
+    {
+     "japanese": "めいし",
+     "romaji": "meishi",
+     "english": "business card"
+    },
+    {
+     "japanese": "かめ",
+     "romaji": "kame",
+     "english": "turtle / tortoise"
+    },
+    {
+     "japanese": "めし",
+     "romaji": "meshi",
+     "english": "meal / cooked rice (casual)"
+    },
+    {
+     "japanese": "まめ",
+     "romaji": "mame",
+     "english": "bean / diligent"
+    }
+   ],
+   "flashcardHeader": "め",
+   "flashcardAnswer": "me — like the 'me' in 'met'",
+   "practice": null
+  },
+  {
+   "id": "h07_mo",
+   "pointType": "kana",
+   "name": "も",
+   "shortDescription": "Like the 'mo' in 'more'",
+   "formation": "mo",
+   "explanation": "The syllable も combines 'm' with the vowel お, making a 'mo' sound as in 'more' or 'mole'. も is one of the most useful particles in Japanese: it means 'also' or 'too', attaching to nouns to add them to a list or comparison. For example, わたしもいく means 'I'm going too'. As a word element, も appears in もの (thing / object), もも (peach), and もち (sticky rice cake — the basis of mochi). The character も is straightforward to write and remember: it looks like a simplified fish hook with two horizontal strokes.",
+   "rules": [
+    "Close lips for 'm', then open to a round but non-gliding 'oh' vowel.",
+    "も as a particle means 'also / too': わたしも = 'me too'.",
+    "もの (thing) and もち (mochi/rice cake) are high-frequency vocabulary words using も."
+   ],
+   "examples": [
+    {
+     "japanese": "もの",
+     "romaji": "mono",
+     "english": "thing / object"
+    },
+    {
+     "japanese": "もも",
+     "romaji": "momo",
+     "english": "peach"
+    },
+    {
+     "japanese": "もち",
+     "romaji": "mochi",
+     "english": "rice cake / mochi"
+    },
+    {
+     "japanese": "とも",
+     "romaji": "tomo",
+     "english": "friend (literary) / together"
+    }
+   ],
+   "flashcardHeader": "も",
+   "flashcardAnswer": "mo — like the 'mo' in 'more'",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "h07_q1",
+   "type": "multiple_choice",
+   "prompt": "What sound does this character make?",
+   "japanese": "む",
+   "choices": [
+    "mo",
+    "mi",
+    "mu",
+    "me"
+   ],
+   "correctIndex": 2,
+   "explanation": "む makes the 'mu' sound — 'm' followed by the Japanese 'u' vowel (flat, unrounded lips). Think of it as a softer alternative to English 'moo'."
+  },
+  {
+   "id": "h07_q2",
+   "type": "multiple_choice",
+   "prompt": "Which character makes the 'mo' sound AND functions as the 'also/too' particle?",
+   "japanese": null,
+   "choices": [
+    "ま",
+    "み",
+    "め",
+    "も"
+   ],
+   "correctIndex": 3,
+   "explanation": "も makes the 'mo' sound and is used as a particle meaning 'also' or 'too'. For example, わたしも means 'me too'."
+  },
+  {
+   "id": "h07_q3",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "むし",
+   "choices": [
+    "fish",
+    "bird",
+    "insect / bug",
+    "flower"
+   ],
+   "correctIndex": 2,
+   "explanation": "むし (mushi) means 'insect' or 'bug'. む (mu) + し (shi) = mushi. This word also appears in むしあつい (muggy/humid), literally 'insect-hot'."
+  },
+  {
+   "id": "h07_q4",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "みち",
+   "choices": [
+    "store",
+    "south",
+    "ally",
+    "road / path"
+   ],
+   "correctIndex": 3,
+   "explanation": "みち (michi) means 'road' or 'path'. み (mi) + ち (chi) = michi. It's also used metaphorically as 'the path' in philosophies and arts (like 道 in martial arts)."
+  }
+ ]
 }

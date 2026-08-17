@@ -1,293 +1,293 @@
 {
-  "id": "kana_h14",
-  "chapterNumber": 14,
-  "title": "Semi-Voiced H-Row (Handakuten) — ぱ ぴ ぷ ぺ ぽ",
-  "points": [
+ "id": "kana_h14",
+ "chapterNumber": 14,
+ "title": "Semi-Voiced H-Row (Handakuten) — ぱ ぴ ぷ ぺ ぽ",
+ "points": [
+  {
+   "id": "h14_intro",
+   "pointType": "kana",
+   "name": "゜",
+   "shortDescription": "The small circle that makes 'p' sounds from the H-row",
+   "formation": "handakuten",
+   "explanation": "You've learned the dakuten (゛) — the two strokes that voice a consonant. Now meet the handakuten (゜): a small circle placed at the top right of H-row characters that turns them into 'p' sounds. So は (ha) becomes ぱ (pa), ひ (hi) becomes ぴ (pi), ふ (fu) becomes ぷ (pu), へ (he) becomes ぺ (pe), ほ (ho) becomes ぽ (po). The term 'semi-voiced' or 'half-voiced' (半[はん]濁点[てん], handakuten) refers to the fact that 'p' is not fully voiced like 'b', but not unvoiced like 'h' either — it sits in between. The P-row exists only for the H-row; no other row has a handakuten equivalent.",
+   "rules": [
+    "Handakuten (゜) = small circle top-right = H-row becomes P-row.",
+    "は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. Only the H-row gets handakuten.",
+    "P sounds are unvoiced stops — same lip movement as B sounds but WITHOUT vocal cord vibration."
+   ],
+   "examples": [
     {
-      "id": "h14_intro",
-      "pointType": "kana",
-      "name": "゜",
-      "shortDescription": "The small circle that makes 'p' sounds from the H-row",
-      "formation": "handakuten",
-      "explanation": "You've learned the dakuten (゛) — the two strokes that voice a consonant. Now meet the handakuten (゜): a small circle placed at the top right of H-row characters that turns them into 'p' sounds. So は (ha) becomes ぱ (pa), ひ (hi) becomes ぴ (pi), ふ (fu) becomes ぷ (pu), へ (he) becomes ぺ (pe), ほ (ho) becomes ぽ (po). The term 'semi-voiced' or 'half-voiced' (半[はん]濁点[てん], handakuten) refers to the fact that 'p' is not fully voiced like 'b', but not unvoiced like 'h' either — it sits in between. The P-row exists only for the H-row; no other row has a handakuten equivalent.",
-      "rules": [
-        "Handakuten (゜) = small circle top-right = H-row becomes P-row.",
-        "は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. Only the H-row gets handakuten.",
-        "P sounds are unvoiced stops — same lip movement as B sounds but WITHOUT vocal cord vibration."
-      ],
-      "examples": [
-        {
-          "japanese": "は→ぱ",
-          "romaji": "ha→pa",
-          "english": "H-row + handakuten = P-row"
-        },
-        {
-          "japanese": "ひ→ぴ",
-          "romaji": "hi→pi",
-          "english": "HI becomes PI"
-        },
-        {
-          "japanese": "ふ→ぷ",
-          "romaji": "fu→pu",
-          "english": "FU becomes PU"
-        },
-        {
-          "japanese": "ほ→ぽ",
-          "romaji": "ho→po",
-          "english": "HO becomes PO"
-        }
-      ],
-      "flashcardHeader": "゜",
-      "flashcardAnswer": "handakuten — small circle; H-row characters become P sounds (ぱぴぷぺぽ)",
-      "practice": null
+     "japanese": "は→ぱ",
+     "romaji": "ha→pa",
+     "english": "H-row + handakuten = P-row"
     },
     {
-      "id": "h14_pa",
-      "pointType": "kana",
-      "name": "ぱ",
-      "shortDescription": "Like the 'pa' in 'pasta'",
-      "formation": "pa",
-      "explanation": "The syllable ぱ produces a 'pa' sound as in 'pasta' or 'park'. It's the handakuten version of は, transforming the breathy 'h' into a crisp unvoiced 'p'. P sounds in Japanese are unaspirated — same as all Japanese stop consonants — so no puff of air follows the 'p'. ぱ appears mostly in loanwords and expressive words: ぱん (bread — from Portuguese 'pão', one of Japan's oldest loanwords), ぱっと (suddenly / instantly), and ぱちぱち (crackling / clapping sound). Sound-symbolic words (onomatopoeia) in Japanese frequently use P-row characters to convey bright, crisp, or light sensations.",
-      "rules": [
-        "ぱ = は + handakuten; the H-row's breathy 'h' becomes a clean, unaspirated 'p'.",
-        "ぱん (bread) is from Portuguese — one of Japan's oldest foreign loanwords, dating to the 16th century.",
-        "P-row sounds often appear in onomatopoeia: ぱちぱち (crackling), ぱっと (suddenly), ぴかぴか (shiny)."
-      ],
-      "examples": [
-        {
-          "japanese": "ぱん",
-          "romaji": "pan",
-          "english": "bread (from Portuguese 'pão')"
-        },
-        {
-          "japanese": "ぱっと",
-          "romaji": "patto",
-          "english": "suddenly / instantly / at a glance"
-        },
-        {
-          "japanese": "ぱちぱち",
-          "romaji": "pachipachi",
-          "english": "crackling / clapping / sparkling (sound)"
-        },
-        {
-          "japanese": "ぱたぱた",
-          "romaji": "patapata",
-          "english": "flapping / pattering (sound/movement)"
-        }
-      ],
-      "flashcardHeader": "ぱ",
-      "flashcardAnswer": "pa — like the 'pa' in 'pasta' (H-row + handakuten)",
-      "practice": null
+     "japanese": "ひ→ぴ",
+     "romaji": "hi→pi",
+     "english": "HI becomes PI"
     },
     {
-      "id": "h14_pi",
-      "pointType": "kana",
-      "name": "ぴ",
-      "shortDescription": "Like the 'pi' in 'peek'",
-      "formation": "pi",
-      "explanation": "The syllable ぴ produces a 'pi' sound as in 'peek' or 'piece' — a crisp, bright unvoiced 'p' before the 'ee' vowel. ぴ appears frequently in expressive and onomatopoeic words: ぴかぴか (sparkling / shining brightly — think Pikachu, whose name comes from this word!), ぴったり (exactly fitting / snug), ぴんと (taut / sharp / alert), and ぴよぴよ (the sound of a chick cheeping). The association with brightness, sharpness, and high-pitched sounds makes ぴ a very expressive syllable.",
-      "rules": [
-        "ぴ = ひ + handakuten; breathy 'hi' becomes crisp 'pi'.",
-        "ぴかぴか (sparkling) is the origin of Pikachu's name — a fun cultural connection!",
-        "P-row sounds, especially ぴ, are associated with brightness, sharpness, and small or delicate things."
-      ],
-      "examples": [
-        {
-          "japanese": "ぴかぴか",
-          "romaji": "pikapika",
-          "english": "sparkling / gleaming / shining brightly"
-        },
-        {
-          "japanese": "ぴったり",
-          "romaji": "pittari",
-          "english": "exactly / perfectly / snugly (fitting)"
-        },
-        {
-          "japanese": "ぴんと",
-          "romaji": "pinto",
-          "english": "taut / sharp / alert / in focus"
-        },
-        {
-          "japanese": "ぴよぴよ",
-          "romaji": "piyopiyo",
-          "english": "cheep cheep (sound a chick makes)"
-        }
-      ],
-      "flashcardHeader": "ぴ",
-      "flashcardAnswer": "pi — like the 'pi' in 'peek' (voiced version of ひ with handakuten)",
-      "practice": null
+     "japanese": "ふ→ぷ",
+     "romaji": "fu→pu",
+     "english": "FU becomes PU"
     },
     {
-      "id": "h14_pu",
-      "pointType": "kana",
-      "name": "ぷ",
-      "shortDescription": "Like 'pu' — unaspirated 'p' + Japanese 'u'",
-      "formation": "pu",
-      "explanation": "The syllable ぷ combines the unvoiced 'p' stop with the Japanese unrounded 'u' vowel. Keep lips flat after the 'p' — don't round them. ぷ is commonly found in loanwords borrowed from English and other languages: ぷーる (pool), ぷりん (pudding / flan), and in playful onomatopoeia: ぷかぷか (floating leisurely), ぷんぷん (fuming with anger — the visual of steam coming from someone's ears!), and ぷにぷに (soft and squishy). ぷにぷに is a beloved word in Japanese internet culture describing the irresistibly soft texture of baby cheeks and certain foods.",
-      "rules": [
-        "ぷ = ふ + handakuten; the bilabial 'f' of ふ becomes a bilabial stop 'p'.",
-        "Both ふ and ぷ use both lips — the difference is that ぷ fully stops the airflow, ふ lets it pass.",
-        "ぷ in onomatopoeia often suggests floating, puffing, or soft/squishy textures."
-      ],
-      "examples": [
-        {
-          "japanese": "ぷりん",
-          "romaji": "purin",
-          "english": "pudding / flan (loanword from English)"
-        },
-        {
-          "japanese": "ぷかぷか",
-          "romaji": "pukapuka",
-          "english": "floating leisurely / bobbing"
-        },
-        {
-          "japanese": "ぷんぷん",
-          "romaji": "punpun",
-          "english": "fuming / sulking / stinky (depending on context)"
-        },
-        {
-          "japanese": "ぷにぷに",
-          "romaji": "punipuni",
-          "english": "soft and squishy (tactile onomatopoeia)"
-        }
-      ],
-      "flashcardHeader": "ぷ",
-      "flashcardAnswer": "pu — 'p' + Japanese 'u' (flat lips)",
-      "practice": null
-    },
-    {
-      "id": "h14_pe",
-      "pointType": "kana",
-      "name": "ぺ",
-      "shortDescription": "Like the 'pe' in 'pep'",
-      "formation": "pe",
-      "explanation": "The syllable ぺ produces a 'pe' sound as in 'pep' or 'pepper'. It's the handakuten version of へ — the directional 'h' sound transformed into a crisp 'p'. ぺ appears in common loanwords: ぺん (pen), ぺーじ (page), ぺット (pet — though ペット in katakana is more common), and playful expressions like ぺこぺこ (very hungry / bowing repeatedly). ぺこぺこ is a delightful onomatopoeia for the empty-stomach grumble of hunger, and also describes someone bowing submissively — two very different meanings captured by the same sound-symbolic word.",
-      "rules": [
-        "ぺ = へ + handakuten; the direction particle 'h' sound becomes 'p'.",
-        "ぺん (pen) is a loanword — though the katakana form ペン is more common in writing.",
-        "ぺこぺこ (hungry / bowing repeatedly) is a fun dual-meaning onomatopoeia."
-      ],
-      "examples": [
-        {
-          "japanese": "ぺん",
-          "romaji": "pen",
-          "english": "pen (loanword from English)"
-        },
-        {
-          "japanese": "ぺこぺこ",
-          "romaji": "pekopeko",
-          "english": "very hungry / bowing repeatedly and submissively"
-        },
-        {
-          "japanese": "ぺらぺら",
-          "romaji": "perapera",
-          "english": "fluent (in a language) / flimsy / chatty"
-        },
-        {
-          "japanese": "ぺたぺた",
-          "romaji": "petapeta",
-          "english": "sticky / pasting things / flat-footed walking"
-        }
-      ],
-      "flashcardHeader": "ぺ",
-      "flashcardAnswer": "pe — like the 'pe' in 'pep'",
-      "practice": null
-    },
-    {
-      "id": "h14_po",
-      "pointType": "kana",
-      "name": "ぽ",
-      "shortDescription": "Like the 'po' in 'poke'",
-      "formation": "po",
-      "explanation": "The syllable ぽ is the final P-row character — 'p' before the 'oh' vowel, as in 'poke' or 'pole'. It's the handakuten version of ほ. ぽ appears in fun vocabulary: ぽかぽか (warm and cozy / thwacking sound), ぽっかり (gaping open / floating lightly), ぽかん (dumbfounded / open-mouthed), and the beloved word ぽてと (potato, from the loanword ポテト). Completing the P-row means you've now learned ALL of the basic hiragana — including voiced and semi-voiced characters. That's the entire hiragana syllabary!",
-      "rules": [
-        "ぽ = ほ + handakuten; the warm 'h' sound becomes a crisp 'p'.",
-        "ぽかぽか (warm and cozy) is a classic onomatopoeia for a gentle, sunny warmth.",
-        "Congratulations — ぽ is the last character in the basic hiragana chart! You've learned them all."
-      ],
-      "examples": [
-        {
-          "japanese": "ぽかぽか",
-          "romaji": "pokapoka",
-          "english": "warm and cozy (like sunlight) / thwacking"
-        },
-        {
-          "japanese": "ぽっかり",
-          "romaji": "pokkari",
-          "english": "gaping open / floating lightly / unexpectedly empty"
-        },
-        {
-          "japanese": "ぽかん",
-          "romaji": "pokan",
-          "english": "dumbfounded / open-mouthed / hollow thud"
-        },
-        {
-          "japanese": "ぽたぽた",
-          "romaji": "potapota",
-          "english": "dripping steadily (sound of drops falling)"
-        }
-      ],
-      "flashcardHeader": "ぽ",
-      "flashcardAnswer": "po — like the 'po' in 'poke' (the final hiragana character!)",
-      "practice": null
+     "japanese": "ほ→ぽ",
+     "romaji": "ho→po",
+     "english": "HO becomes PO"
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "゜",
+   "flashcardAnswer": "handakuten — small circle; H-row characters become P sounds (ぱぴぷぺぽ)",
+   "practice": null
+  },
+  {
+   "id": "h14_pa",
+   "pointType": "kana",
+   "name": "ぱ",
+   "shortDescription": "Like the 'pa' in 'pasta'",
+   "formation": "pa",
+   "explanation": "The syllable ぱ produces a 'pa' sound as in 'pasta' or 'park'. It's the handakuten version of は, transforming the breathy 'h' into a crisp unvoiced 'p'. P sounds in Japanese are unaspirated — same as all Japanese stop consonants — so no puff of air follows the 'p'. ぱ appears mostly in loanwords and expressive words: ぱん (bread — from Portuguese 'pão', one of Japan's oldest loanwords), ぱっと (suddenly / instantly), and ぱちぱち (crackling / clapping sound). Sound-symbolic words (onomatopoeia) in Japanese frequently use P-row characters to convey bright, crisp, or light sensations.",
+   "rules": [
+    "ぱ = は + handakuten; the H-row's breathy 'h' becomes a clean, unaspirated 'p'.",
+    "ぱん (bread) is from Portuguese — one of Japan's oldest foreign loanwords, dating to the 16th century.",
+    "P-row sounds often appear in onomatopoeia: ぱちぱち (crackling), ぱっと (suddenly), ぴかぴか (shiny)."
+   ],
+   "examples": [
     {
-      "id": "h14_q1",
-      "type": "multiple_choice",
-      "prompt": "What is the handakuten (゜) and which row does it apply to?",
-      "japanese": "゜",
-      "choices": [
-        "Two strokes that apply to the K-row",
-        "A circle that turns H-row into P-row",
-        "A circle that turns K-row into G-row",
-        "Two strokes that turn S-row into Z-row"
-      ],
-      "correctIndex": 1,
-      "explanation": "The handakuten (゜) is the small circle that transforms H-row characters into P sounds: は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. It only applies to the H-row."
+     "japanese": "ぱん",
+     "romaji": "pan",
+     "english": "bread (from Portuguese 'pão')"
     },
     {
-      "id": "h14_q2",
-      "type": "multiple_choice",
-      "prompt": "Which character makes the 'pu' sound?",
-      "japanese": null,
-      "choices": [
-        "ぱ",
-        "ぴ",
-        "ぷ",
-        "ぺ"
-      ],
-      "correctIndex": 2,
-      "explanation": "ぷ makes the 'pu' sound. It's the handakuten version of ふ. Both use both lips — but ぷ stops the airflow completely (a stop), while ふ lets air pass (a fricative)."
+     "japanese": "ぱっと",
+     "romaji": "patto",
+     "english": "suddenly / instantly / at a glance"
     },
     {
-      "id": "h14_q3",
-      "type": "multiple_choice",
-      "prompt": "What does the word ぱん mean, and where does it come from?",
-      "japanese": "ぱん",
-      "choices": [
-        "rice — from Chinese",
-        "bread — from Portuguese",
-        "noodle — from Chinese",
-        "cake — from English"
-      ],
-      "correctIndex": 1,
-      "explanation": "ぱん (pan) means 'bread' and comes from the Portuguese word 'pão'. Portuguese missionaries and traders introduced bread (and many other things) to Japan in the 16th century, and the word stuck."
+     "japanese": "ぱちぱち",
+     "romaji": "pachipachi",
+     "english": "crackling / clapping / sparkling (sound)"
     },
     {
-      "id": "h14_q4",
-      "type": "multiple_choice",
-      "prompt": "What does ぴかぴか mean?",
-      "japanese": "ぴかぴか",
-      "choices": [
-        "dark and gloomy",
-        "sparkling / shining brightly",
-        "loud and noisy",
-        "soft and fluffy"
-      ],
-      "correctIndex": 1,
-      "explanation": "ぴかぴか (pikapika) means 'sparkling' or 'shining brightly'. This is actually the origin of Pikachu's name — the 'pika' refers to the flash of electricity! Onomatopoeia like this is one of the most expressive features of Japanese."
+     "japanese": "ぱたぱた",
+     "romaji": "patapata",
+     "english": "flapping / pattering (sound/movement)"
     }
-  ]
+   ],
+   "flashcardHeader": "ぱ",
+   "flashcardAnswer": "pa — like the 'pa' in 'pasta' (H-row + handakuten)",
+   "practice": null
+  },
+  {
+   "id": "h14_pi",
+   "pointType": "kana",
+   "name": "ぴ",
+   "shortDescription": "Like the 'pi' in 'peek'",
+   "formation": "pi",
+   "explanation": "The syllable ぴ produces a 'pi' sound as in 'peek' or 'piece' — a crisp, bright unvoiced 'p' before the 'ee' vowel. ぴ appears frequently in expressive and onomatopoeic words: ぴかぴか (sparkling / shining brightly — think Pikachu, whose name comes from this word!), ぴったり (exactly fitting / snug), ぴんと (taut / sharp / alert), and ぴよぴよ (the sound of a chick cheeping). The association with brightness, sharpness, and high-pitched sounds makes ぴ a very expressive syllable.",
+   "rules": [
+    "ぴ = ひ + handakuten; breathy 'hi' becomes crisp 'pi'.",
+    "ぴかぴか (sparkling) is the origin of Pikachu's name — a fun cultural connection!",
+    "P-row sounds, especially ぴ, are associated with brightness, sharpness, and small or delicate things."
+   ],
+   "examples": [
+    {
+     "japanese": "ぴかぴか",
+     "romaji": "pikapika",
+     "english": "sparkling / gleaming / shining brightly"
+    },
+    {
+     "japanese": "ぴったり",
+     "romaji": "pittari",
+     "english": "exactly / perfectly / snugly (fitting)"
+    },
+    {
+     "japanese": "ぴんと",
+     "romaji": "pinto",
+     "english": "taut / sharp / alert / in focus"
+    },
+    {
+     "japanese": "ぴよぴよ",
+     "romaji": "piyopiyo",
+     "english": "cheep cheep (sound a chick makes)"
+    }
+   ],
+   "flashcardHeader": "ぴ",
+   "flashcardAnswer": "pi — like the 'pi' in 'peek' (voiced version of ひ with handakuten)",
+   "practice": null
+  },
+  {
+   "id": "h14_pu",
+   "pointType": "kana",
+   "name": "ぷ",
+   "shortDescription": "Like 'pu' — unaspirated 'p' + Japanese 'u'",
+   "formation": "pu",
+   "explanation": "The syllable ぷ combines the unvoiced 'p' stop with the Japanese unrounded 'u' vowel. Keep lips flat after the 'p' — don't round them. ぷ is commonly found in loanwords borrowed from English and other languages: ぷーる (pool), ぷりん (pudding / flan), and in playful onomatopoeia: ぷかぷか (floating leisurely), ぷんぷん (fuming with anger — the visual of steam coming from someone's ears!), and ぷにぷに (soft and squishy). ぷにぷに is a beloved word in Japanese internet culture describing the irresistibly soft texture of baby cheeks and certain foods.",
+   "rules": [
+    "ぷ = ふ + handakuten; the bilabial 'f' of ふ becomes a bilabial stop 'p'.",
+    "Both ふ and ぷ use both lips — the difference is that ぷ fully stops the airflow, ふ lets it pass.",
+    "ぷ in onomatopoeia often suggests floating, puffing, or soft/squishy textures."
+   ],
+   "examples": [
+    {
+     "japanese": "ぷりん",
+     "romaji": "purin",
+     "english": "pudding / flan (loanword from English)"
+    },
+    {
+     "japanese": "ぷかぷか",
+     "romaji": "pukapuka",
+     "english": "floating leisurely / bobbing"
+    },
+    {
+     "japanese": "ぷんぷん",
+     "romaji": "punpun",
+     "english": "fuming / sulking / stinky (depending on context)"
+    },
+    {
+     "japanese": "ぷにぷに",
+     "romaji": "punipuni",
+     "english": "soft and squishy (tactile onomatopoeia)"
+    }
+   ],
+   "flashcardHeader": "ぷ",
+   "flashcardAnswer": "pu — 'p' + Japanese 'u' (flat lips)",
+   "practice": null
+  },
+  {
+   "id": "h14_pe",
+   "pointType": "kana",
+   "name": "ぺ",
+   "shortDescription": "Like the 'pe' in 'pep'",
+   "formation": "pe",
+   "explanation": "The syllable ぺ produces a 'pe' sound as in 'pep' or 'pepper'. It's the handakuten version of へ — the directional 'h' sound transformed into a crisp 'p'. ぺ appears in common loanwords: ぺん (pen), ぺーじ (page), ぺット (pet — though ペット in katakana is more common), and playful expressions like ぺこぺこ (very hungry / bowing repeatedly). ぺこぺこ is a delightful onomatopoeia for the empty-stomach grumble of hunger, and also describes someone bowing submissively — two very different meanings captured by the same sound-symbolic word.",
+   "rules": [
+    "ぺ = へ + handakuten; the direction particle 'h' sound becomes 'p'.",
+    "ぺん (pen) is a loanword — though the katakana form ペン is more common in writing.",
+    "ぺこぺこ (hungry / bowing repeatedly) is a fun dual-meaning onomatopoeia."
+   ],
+   "examples": [
+    {
+     "japanese": "ぺん",
+     "romaji": "pen",
+     "english": "pen (loanword from English)"
+    },
+    {
+     "japanese": "ぺこぺこ",
+     "romaji": "pekopeko",
+     "english": "very hungry / bowing repeatedly and submissively"
+    },
+    {
+     "japanese": "ぺらぺら",
+     "romaji": "perapera",
+     "english": "fluent (in a language) / flimsy / chatty"
+    },
+    {
+     "japanese": "ぺたぺた",
+     "romaji": "petapeta",
+     "english": "sticky / pasting things / flat-footed walking"
+    }
+   ],
+   "flashcardHeader": "ぺ",
+   "flashcardAnswer": "pe — like the 'pe' in 'pep'",
+   "practice": null
+  },
+  {
+   "id": "h14_po",
+   "pointType": "kana",
+   "name": "ぽ",
+   "shortDescription": "Like the 'po' in 'poke'",
+   "formation": "po",
+   "explanation": "The syllable ぽ is the final P-row character — 'p' before the 'oh' vowel, as in 'poke' or 'pole'. It's the handakuten version of ほ. ぽ appears in fun vocabulary: ぽかぽか (warm and cozy / thwacking sound), ぽっかり (gaping open / floating lightly), ぽかん (dumbfounded / open-mouthed), and the beloved word ぽてと (potato, from the loanword ポテト). Completing the P-row means you've now learned ALL of the basic hiragana — including voiced and semi-voiced characters. That's the entire hiragana syllabary!",
+   "rules": [
+    "ぽ = ほ + handakuten; the warm 'h' sound becomes a crisp 'p'.",
+    "ぽかぽか (warm and cozy) is a classic onomatopoeia for a gentle, sunny warmth.",
+    "Congratulations — ぽ is the last character in the basic hiragana chart! You've learned them all."
+   ],
+   "examples": [
+    {
+     "japanese": "ぽかぽか",
+     "romaji": "pokapoka",
+     "english": "warm and cozy (like sunlight) / thwacking"
+    },
+    {
+     "japanese": "ぽっかり",
+     "romaji": "pokkari",
+     "english": "gaping open / floating lightly / unexpectedly empty"
+    },
+    {
+     "japanese": "ぽかん",
+     "romaji": "pokan",
+     "english": "dumbfounded / open-mouthed / hollow thud"
+    },
+    {
+     "japanese": "ぽたぽた",
+     "romaji": "potapota",
+     "english": "dripping steadily (sound of drops falling)"
+    }
+   ],
+   "flashcardHeader": "ぽ",
+   "flashcardAnswer": "po — like the 'po' in 'poke' (the final hiragana character!)",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "h14_q1",
+   "type": "multiple_choice",
+   "prompt": "What is the handakuten (゜) and which row does it apply to?",
+   "japanese": "゜",
+   "choices": [
+    "Two strokes that apply to the K-row",
+    "A circle that turns H-row into P-row",
+    "A circle that turns K-row into G-row",
+    "Two strokes that turn S-row into Z-row"
+   ],
+   "correctIndex": 1,
+   "explanation": "The handakuten (゜) is the small circle that transforms H-row characters into P sounds: は→ぱ, ひ→ぴ, ふ→ぷ, へ→ぺ, ほ→ぽ. It only applies to the H-row."
+  },
+  {
+   "id": "h14_q2",
+   "type": "multiple_choice",
+   "prompt": "Which character makes the 'pu' sound?",
+   "japanese": null,
+   "choices": [
+    "ぱ",
+    "ぴ",
+    "ぷ",
+    "ぺ"
+   ],
+   "correctIndex": 2,
+   "explanation": "ぷ makes the 'pu' sound. It's the handakuten version of ふ. Both use both lips — but ぷ stops the airflow completely (a stop), while ふ lets air pass (a fricative)."
+  },
+  {
+   "id": "h14_q3",
+   "type": "multiple_choice",
+   "prompt": "What does the word ぱん mean, and where does it come from?",
+   "japanese": "ぱん",
+   "choices": [
+    "rice — from Chinese",
+    "bread — from Portuguese",
+    "noodle — from Chinese",
+    "cake — from English"
+   ],
+   "correctIndex": 1,
+   "explanation": "ぱん (pan) means 'bread' and comes from the Portuguese word 'pão'. Portuguese missionaries and traders introduced bread (and many other things) to Japan in the 16th century, and the word stuck."
+  },
+  {
+   "id": "h14_q4",
+   "type": "multiple_choice",
+   "prompt": "What does ぴかぴか mean?",
+   "japanese": "ぴかぴか",
+   "choices": [
+    "dark and gloomy",
+    "sparkling / shining brightly",
+    "loud and noisy",
+    "soft and fluffy"
+   ],
+   "correctIndex": 1,
+   "explanation": "ぴかぴか (pikapika) means 'sparkling' or 'shining brightly'. This is actually the origin of Pikachu's name — the 'pika' refers to the flash of electricity! Onomatopoeia like this is one of the most expressive features of Japanese."
+  }
+ ]
 }

@@ -81,7 +81,7 @@ enum DataTransferService {
     /// Counts worth showing before someone overwrites their progress.
     static func summary() -> [String: Int] {
         [
-            "scheduled": SRSStore.shared.enrolledCount,
+            "checkedOffWords": VocabFlashcardsFilter.shared.excludedWordIds.count,
             "completedPoints": LessonsProgressStore.shared.completed.count,
             "favouritePoints": LessonsProgressStore.shared.favorites.count,
             "customLessons": CustomLessonsStore.shared.lessons.count,

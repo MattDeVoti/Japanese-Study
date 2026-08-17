@@ -1,1631 +1,1806 @@
 {
-  "id": "ch08",
-  "chapterNumber": 9,
-  "title": "Short Forms",
-  "points": [
+ "id": "ch08",
+ "chapterNumber": 9,
+ "title": "Short Forms",
+ "points": [
+  {
+   "id": "plain-forms",
+   "name": "Plain / short forms",
+   "shortDescription": "The four plain forms used in casual speech and embedded clauses.",
+   "formation": "Dict. form (pres aff) / ない-form (pres neg) / た-form (past aff) / なかった-form (past neg)",
+   "explanation": "Up to now you have used the polite ます/です forms for everything. Japanese also has a second, complete parallel set called plain forms (also \"short forms\" or \"dictionary forms\"). You need them for three reasons: they're used in casual speech; they appear inside embedded clauses (an inner sentence uses plain forms); and dozens of grammar patterns attach directly to them (と思[おも]う, から, のが, and many more ahead).\n\nThere are four plain forms:\n- Dictionary form (present / future affirmative): ends in an う-row sound — 食[た]べる, 飲[の]む, する, くる\n- ない-form (present / future negative): 食[た]べない, 飲[の]まない, しない, こない\n- た-form (past affirmative): the same sound changes as the て-form, but ending in た/だ — 食[た]べた, 飲[の]んだ, した, きた\n- なかった-form (past negative): add かった to the ない-form stem — 食[た]べなかった, 飲[の]まなかった\n\nAll four are fundamental to everything that follows.\n\nThe one exception to \"shift to the あ-row\": verbs whose dictionary form ends in a bare う take わ, not あ. 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない, 言[い]う → 言[い]わない. This is a survival of the old わ行 (wa-row), where う once alternated with わ. Applying the あ-row rule literally would give ✗買[か]あない — a form that does not exist.",
+   "rules": [
+    "Present affirmative = dictionary form (食[た]べる, 飲[の]む, する, くる)",
+    "Present negative = ない-form (食[た]べない, 飲[の]まない, しない, こない)",
+    "う-verbs ending in a bare う take わ: 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない (never ✗買[か]あない)",
+    "Past affirmative = た-form (食[た]べた, 飲[の]んだ, した, きた) — same pattern as て-form",
+    "Past negative = なかった-form (食[た]べなかった, 飲[の]まなかった, しなかった)",
+    "Plain forms appear in casual speech and before grammar patterns like と思[おも]う, から, のが"
+   ],
+   "examples": [
     {
-      "id": "plain-forms",
-      "name": "Plain / short forms",
-      "shortDescription": "The four plain forms used in casual speech and embedded clauses.",
-      "formation": "Dict. form (pres aff) / ない-form (pres neg) / た-form (past aff) / なかった-form (past neg)",
-      "explanation": "Up to now you have used the polite ます/です forms for everything. Japanese also has a second, complete parallel set called plain forms (also \"short forms\" or \"dictionary forms\"). You need them for three reasons: they're used in casual speech; they appear inside embedded clauses (an inner sentence uses plain forms); and dozens of grammar patterns attach directly to them (と思[おも]う, から, のが, and many more ahead).\n\nThere are four plain forms:\n- Dictionary form (present / future affirmative): ends in an う-row sound — 食[た]べる, 飲[の]む, する, くる\n- ない-form (present / future negative): 食[た]べない, 飲[の]まない, しない, こない\n- た-form (past affirmative): the same sound changes as the て-form, but ending in た/だ — 食[た]べた, 飲[の]んだ, した, きた\n- なかった-form (past negative): add かった to the ない-form stem — 食[た]べなかった, 飲[の]まなかった\n\nAll four are fundamental to everything that follows.\n\nThe one exception to \"shift to the あ-row\": verbs whose dictionary form ends in a bare う take わ, not あ. 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない, 言[い]う → 言[い]わない. This is a survival of the old わ行 (wa-row), where う once alternated with わ. Applying the あ-row rule literally would give ✗買[か]あない — a form that does not exist.",
-      "rules": [
-        "Present affirmative = dictionary form (食[た]べる, 飲[の]む, する, くる)",
-        "Present negative = ない-form (食[た]べない, 飲[の]まない, しない, こない)",
-        "う-verbs ending in a bare う take わ: 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない (never ✗買[か]あない)",
-        "Past affirmative = た-form (食[た]べた, 飲[の]んだ, した, きた) — same pattern as て-form",
-        "Past negative = なかった-form (食[た]べなかった, 飲[の]まなかった, しなかった)",
-        "Plain forms appear in casual speech and before grammar patterns like と思[おも]う, から, のが"
-      ],
-      "examples": [
-        {
-          "japanese": "明日[あした]は学校[がっこう]に行[い]かないと思[おも]います。",
-          "romaji": "Ashita wa gakkou ni ikanai to omoimasu.",
-          "english": "I think I won't go to school tomorrow."
-        },
-        {
-          "japanese": "昨日[きのう]、映画[えいが]を見[み]たよ。",
-          "romaji": "Kinou, eiga wo mita yo.",
-          "english": "I watched a movie yesterday, you know."
-        },
-        {
-          "japanese": "疲[つか]れたから、もう寝[ね]る。",
-          "romaji": "Tsukareta kara, mou neru.",
-          "english": "I'm tired, so I'm going to sleep now."
-        },
-        {
-          "japanese": "この問題[もんだい]は難[むずか]しくなかった。",
-          "romaji": "Kono mondai wa muzukashiku nakatta.",
-          "english": "This problem wasn't difficult."
-        }
-      ],
-      "flashcardHeader": "Plain / short forms",
-      "flashcardAnswer": "The four plain forms used in casual speech and embedded clauses.",
-      "practice": [
-        {
-          "id": "plain-forms_q1",
-          "type": "construct",
-          "prompt": "What is the plain past affirmative (た-form) of 食[た]べる?",
-          "japanese": null,
-          "choices": [
-            "食[た]べいた",
-            "食[た]べりた",
-            "食[た]べって",
-            "食[た]べた"
-          ],
-          "correctIndex": 3,
-          "explanation": "食[た]べる is a Group 2 verb: drop る and add た → 食[た]べた. The た-form follows the same sound patterns as the て-form, but ends in た/だ instead of て/で. So 食[た]べて → 食[た]べた."
-        },
-        {
-          "id": "plain-forms_q2",
-          "type": "construct",
-          "prompt": "What is the plain present negative (ない-form) of 飲[の]む?",
-          "japanese": null,
-          "choices": [
-            "飲[の]んない",
-            "飲[の]まない",
-            "飲[の]むない",
-            "飲[の]みない"
-          ],
-          "correctIndex": 1,
-          "explanation": "For Group 1 verbs ending in む, the ない-form changes む → まない. So 飲[の]む → 飲[の]まない. The vowel in the stem shifts to the あ-row before ない: む → ま."
-        },
-        {
-          "id": "plain-forms_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 疲[つか]れた___、もう寝[ね]る。(I'm tired, so I'm going to sleep.)",
-          "japanese": "疲[つか]れた___、もう寝[ね]る。",
-          "choices": [
-            "て",
-            "ので",
-            "から",
-            "が"
-          ],
-          "correctIndex": 2,
-          "explanation": "から (because) follows a plain form to give a reason. 疲[つか]れたから = because I'm tired. This is a common pattern: plain form + から + result clause. Note that both verbs here are in plain (casual) form."
-        },
-        {
-          "id": "plain-forms_q4",
-          "type": "translation",
-          "prompt": "Which sentence uses the plain past negative correctly?",
-          "japanese": null,
-          "choices": [
-            "この問題[もんだい]は難[むずか]しなかった。",
-            "この問題[もんだい]は難[むずか]しじゃなかった。",
-            "この問題[もんだい]は難[むずか]しいなかった。",
-            "この問題[もんだい]は難[むずか]しくなかった。"
-          ],
-          "correctIndex": 3,
-          "explanation": "For い-adjectives, the plain past negative drops い and adds くなかった. 難[むずか]しい → 難[むずか]しくなかった (wasn't difficult). This is the plain-form equivalent of 難[むずか]しくなかったです."
-        },
-        {
-          "id": "plain-forms_q5",
-          "type": "usage",
-          "prompt": "Which sentence correctly embeds a plain form clause inside a polite sentence?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]は学校[がっこう]に行[い]きませんと思[おも]います。",
-            "明日[あした]は学校[がっこう]に行[い]かないと思[おも]います。",
-            "明日[あした]は学校[がっこう]に行[い]かないと思[おも]いません。",
-            "明日[あした]は学校[がっこう]に行[い]きないと思[おも]います。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Inside an embedded clause before と思[おも]います, the inner verb must be in plain form. 行[い]く → plain negative: 行[い]かない → 行[い]かないと思[おも]います (I think I won't go). The politeness is set by 思[おも]います at the end."
-        },
-        {
-          "id": "plain-forms_q6",
-          "type": "construct",
-          "prompt": "What is the plain negative (ない-form) of 会[あ]う (to meet)?",
-          "japanese": null,
-          "choices": [
-            "会[あ]いない",
-            "会[あ]うない",
-            "会[あ]わない",
-            "会[かい]なない"
-          ],
-          "correctIndex": 2,
-          "explanation": "会[あ]う is a godan verb ending in う. For う-ending godan verbs, the ない-form uses わ, not う: う→わ+ない. So 会[あ]う → 会[あ]わない (not 会[あ]うない). This う→わ rule applies to all godan verbs ending in う."
-        },
-        {
-          "id": "plain-forms_q7",
-          "type": "construct",
-          "prompt": "What is the plain past affirmative (た-form) of 帰[かえ]る (to return home)?",
-          "japanese": null,
-          "choices": [
-            "帰[かえ]った",
-            "帰[かえ]いた",
-            "帰[かえ]りた",
-            "帰[かえ]た"
-          ],
-          "correctIndex": 0,
-          "explanation": "帰[かえ]る is a godan verb ending in る. The て-form of godan る-verbs uses って (e.g., 帰[かえ]って), so the た-form is 帰[かえ]った. Do not confuse with ichidan verbs like 食[た]べる where you simply drop る and add た."
-        },
-        {
-          "id": "plain-forms_q8",
-          "type": "construct",
-          "prompt": "What is the plain past negative (なかった-form) of 来[く]る (to come)?",
-          "japanese": null,
-          "choices": [
-            "来[く]るなかった",
-            "くなかった",
-            "こなかった",
-            "きなかった"
-          ],
-          "correctIndex": 2,
-          "explanation": "来[く]る is an irregular verb. Its ない-form is こない (not くない or きない), so the past negative is こなかった. Irregular: する→しない/した/しなかった; 来[く]る→こない/きた/こなかった."
-        },
-        {
-          "id": "plain-forms_q9",
-          "type": "construct",
-          "prompt": "What is the plain negative (ない-form) of する (to do)?",
-          "japanese": null,
-          "choices": [
-            "すない",
-            "せない",
-            "さない",
-            "しない"
-          ],
-          "correctIndex": 3,
-          "explanation": "する is an irregular verb. Its ない-form is しない — not すない or せない. Memorize: する→しない (present negative), した (past affirmative), しなかった (past negative)."
-        },
-        {
-          "id": "plain-forms_q10",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I think she will come tomorrow'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は明日[あした]来[き]ますと思[おも]います。",
-            "彼女[かのじょ]は明日[あした]くると思[おも]います。",
-            "彼女[かのじょ]は明日[あした]きると思[おも]います。",
-            "彼女[かのじょ]は明日[あした]来[く]るにと思[おも]います。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Before と思[おも]います, the embedded clause must use a plain form. 来[く]る (dictionary form) is the plain present affirmative of 来[く]る. The inner clause is in plain form; politeness comes from 思[おも]います at the end."
-        },
-        {
-          "id": "plain-forms_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 昨日[きのう]は何[なに]も___。(I didn't do anything yesterday.) ",
-          "japanese": "昨日[きのう]は何[なに]も___。",
-          "choices": [
-            "しませんでした",
-            "しなかった",
-            "しない",
-            "しなかって"
-          ],
-          "correctIndex": 1,
-          "explanation": "The plain past negative of する is しなかった. In casual speech, plain forms replace polite forms: しませんでした → しなかった. しない is present tense (don't do), not past (didn't do)."
-        },
-        {
-          "id": "plain-forms_q12",
-          "type": "construct",
-          "prompt": "What is the plain past affirmative (た-form) of 書[か]く (to write)?",
-          "japanese": null,
-          "choices": [
-            "書[か]った",
-            "書[か]いた",
-            "書[か]きた",
-            "書[か]くた"
-          ],
-          "correctIndex": 1,
-          "explanation": "書[か]く is a godan verb ending in く. The て-form is 書[か]いて, so the た-form follows the same pattern: 書[か]いた. Godan く-verbs: く→いた (e.g., 聞[き]く→聞[き]いた, 書[か]く→書[か]いた). Exception: 行[い]く→行[い]った."
-        },
-        {
-          "id": "plain-forms_q13",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: この映画[えいが]は面白[おもしろ]___と思[おも]う。(I think this movie is interesting.)",
-          "japanese": "この映画[えいが]は面白[おもしろ]___と思[おも]う。",
-          "choices": [
-            "です",
-            "いです",
-            "い",
-            "くて"
-          ],
-          "correctIndex": 2,
-          "explanation": "Before と思[おも]う, adjectives must be in plain form. 面白[おもしろ]い is already in plain form (the dictionary form of い-adjectives ends in い). So 面白[おもしろ]いと思[おも]う (I think it's interesting). Never use です inside the embedded clause."
-        },
-        {
-          "id": "plain-forms_q14",
-          "type": "usage",
-          "prompt": "A friend asks about your weekend plans. Which casual response uses the correct plain form?",
-          "japanese": null,
-          "choices": [
-            "友達[ともだち]と映画[えいが]を見[み]ますよ。",
-            "友達[ともだち]と映画[えいが]を見[み]るよ。",
-            "友達[ともだち]と映画[えいが]を見[み]てよ。",
-            "友達[ともだち]と映画[えいが]を見[み]いよ。"
-          ],
-          "correctIndex": 1,
-          "explanation": "In casual conversation, plain forms replace polite ます forms. 見[み]る (dictionary form) is the casual equivalent of 見[み]ます. Adding よ at the end signals new information. 見[み]ます is polite and would feel overly formal between close friends."
-        },
-        {
-          "id": "plain-forms_q15",
-          "type": "construct",
-          "prompt": "What is the plain past affirmative (た-form) of 飲[の]む (to drink)?",
-          "japanese": null,
-          "choices": [
-            "飲[の]みた",
-            "飲[の]むた",
-            "飲[の]んだ",
-            "飲[いん]った"
-          ],
-          "correctIndex": 2,
-          "explanation": "飲[の]む is a godan verb ending in む. The て-form is 飲[の]んで (む→んで), so the た-form follows: 飲[の]んだ (む→んだ). Godan む/ぬ/ぶ verbs use んだ for the た-form."
-        },
-        {
-          "id": "plain-forms_q16",
-          "type": "construct",
-          "prompt": "What is the plain negative (ない-form) of 来[く]る (to come)?",
-          "japanese": null,
-          "choices": [
-            "来[く]るない",
-            "くない",
-            "こない",
-            "きない"
-          ],
-          "correctIndex": 2,
-          "explanation": "来[く]る is irregular. Its ない-form is こない — the reading changes from 来[らい](く/き) to こ before ない. This is one of only two irregular Japanese verbs: 来[く]る→こない, する→しない."
-        },
-        {
-          "id": "plain-forms_q17",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'Because I studied, I understood'? (casual)",
-          "japanese": null,
-          "choices": [
-            "勉強[べんきょう]しましたから、分[わ]かりました。",
-            "勉強[べんきょう]したから、分[わ]かった。",
-            "勉強[べんきょう]してから、分[わ]かった。",
-            "勉強[べんきょう]しないから、分[わ]かった。"
-          ],
-          "correctIndex": 1,
-          "explanation": "In casual speech, use plain forms throughout. 勉強[べんきょう]した (plain past of する) + から (because) + 分[わ]かった (plain past of 分[わ]かる). Option A is correct grammar but polite, not casual. Option C (〜てから) means 'after doing,' not 'because.'"
-        },
-        {
-          "id": "plain-forms_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 宿題[しゅくだい]を___なかった。(I didn't do my homework.) ",
-          "japanese": "宿題[しゅくだい]を___なかった。",
-          "choices": [
-            "し",
-            "する",
-            "して",
-            "せ"
-          ],
-          "correctIndex": 0,
-          "explanation": "The plain past negative is ない-stem + なかった. The ない-form of する is しない, so its stem is し. Attach なかった: し+なかった = しなかった. The blank requires し (the ない-stem), since なかった follows directly."
-        },
-        {
-          "id": "plain-forms_q19",
-          "type": "usage",
-          "prompt": "Which sentence correctly embeds a past negative clause before と言[い]っていた (was saying that)?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は来[き]ませんでしたと言[い]っていた。",
-            "彼[かれ]は来[こ]ないでしたと言[い]っていた。",
-            "彼[かれ]はこなかったと言[い]っていた。",
-            "彼[かれ]はきなかったと言[い]っていた。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Before と言[い]っていた, the embedded clause must use a plain form. こなかった is the plain past negative of 来[く]る (irregular: 来[く]る→こない→こなかった). The politeness is carried by 言[い]っていた; the inner clause stays plain."
-        },
-        {
-          "id": "plain-forms_q20",
-          "type": "usage",
-          "prompt": "Which sentence uses all four plain forms correctly in context?",
-          "japanese": null,
-          "choices": [
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、明日[あした]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]る、今日[きょう]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
-            "毎日[まいにち]走[はし]る、昨日[きのう]走[そう]いた、今日[きょう]は走[そう]ない、先週[せんしゅう]も走[はし]らなかった。"
-          ],
-          "correctIndex": 2,
-          "explanation": "The four plain forms of 走[はし]る: dictionary form (走[はし]る), た-form (走[はし]った), ない-form (走[はし]らない), なかった-form (走[はし]らなかった). Option C uses all four correctly with natural time references: 毎日[まいにち](present), 昨日[きのう](past aff), 今日[きょう](present neg), 先週[せんしゅう](past neg). Options A/B have a tense error: 'tomorrow' with なかった (past)."
-        }
-      ]
+     "japanese": "明日[あした]は学校[がっこう]に行[い]かないと思[おも]います。",
+     "romaji": "Ashita wa gakkou ni ikanai to omoimasu.",
+     "english": "I think I won't go to school tomorrow."
     },
     {
-      "id": "nanika-nanimo",
-      "name": "何[なに]か / 何[なに]も / 誰[だれ]か / 誰[だれ]も (indefinite and negative pronouns)",
-      "shortDescription": "Indefinite pronouns (something, someone) and their negative counterparts (nothing, no one).",
-      "formation": "何[なに]か (something) / 何[なに]も + neg (nothing) / 誰[だれ]か (someone) / 誰[だれ]も + neg (no one)",
-      "explanation": "Japanese has a logical, consistent system for \"something / nothing\" and \"someone / no one\" — once you learn the pattern, it applies everywhere. The か version is used in positive sentences and questions: it signals an indefinite but existing thing or person. The も version, paired with a negative verb, creates total negation — \"nothing at all,\" \"no one at all.\"\n\nThe same pattern holds for every question word (the も form always needs a negative verb):\n- 何[なに]か = something  →  何[なに]も + negative = nothing\n- 誰[だれ]か = someone  →  誰[だれ]も + negative = no one\n- どこか = somewhere  →  どこも + negative = nowhere\n\nCompare the two directly:\n- 何[なに]か食[た]べましたか。 — Did you eat something?\n- 何[なに]も食[た]べませんでした。 — I did not eat anything.\n\nThe golden rule: 〜も is always paired with a negative verb — using も with a positive verb is a grammar error. Think of it as か = \"some-\" (open, indefinite) and も + negative = \"no-\" (complete absence).",
-      "rules": [
-        "〜か = indefinite (something, someone, somewhere) — used in positive/question contexts",
-        "〜も + negative verb = negative (nothing, no one, nowhere)",
-        "何[なに]か = something; 何[なに]も + neg = nothing / not anything",
-        "誰[だれ]か = someone; 誰[だれ]も + neg = no one / not anyone",
-        "どこか = somewhere; どこも + neg = nowhere / not anywhere",
-        "〜も MUST be paired with a negative verb — never affirmative"
-      ],
-      "examples": [
-        {
-          "japanese": "冷蔵庫[れいぞうこ]に何[なに]かありますか。",
-          "romaji": "Reizouko ni nanika arimasu ka.",
-          "english": "Is there something in the refrigerator?"
-        },
-        {
-          "japanese": "今日[きょう]は何[なに]も食[た]べませんでした。",
-          "romaji": "Kyou wa nanimo tabemasendeshita.",
-          "english": "I didn't eat anything today."
-        },
-        {
-          "japanese": "誰[だれ]か助[たす]けてください！",
-          "romaji": "Dareka tasukete kudasai!",
-          "english": "Someone please help!"
-        },
-        {
-          "japanese": "パーティーには誰[だれ]も来[き]ませんでした。",
-          "romaji": "Paatii ni wa daremo kimasendeshita.",
-          "english": "No one came to the party."
-        }
-      ],
-      "flashcardHeader": "何か / 何も / 誰か / 誰も",
-      "flashcardAnswer": "Indefinite pronouns (something, someone) and their negative counterparts (nothing, no one).",
-      "practice": [
-        {
-          "id": "nanika-nanimo_q1",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'Is there something in the refrigerator?'",
-          "japanese": null,
-          "choices": [
-            "冷蔵庫[れいぞうこ]に何[なに]もありますか。",
-            "冷蔵庫[れいぞうこ]に何[なに]かありませんか。",
-            "冷蔵庫[れいぞうこ]に何[なに]もありませんか。",
-            "冷蔵庫[れいぞうこ]に何[なに]かありますか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "何[なに]か (something) is used in positive and question sentences. 何[なに]かありますか = Is there something? Using 何[なに]も in a question would imply a negative context; 何[なに]かありますか is the natural question form."
-        },
-        {
-          "id": "nanika-nanimo_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 今日[きょう]は___食[た]べませんでした。(I didn't eat anything today.)",
-          "japanese": "今日[きょう]は___食[た]べませんでした。",
-          "choices": [
-            "誰[だれ]か",
-            "何[なに]か",
-            "誰[だれ]も",
-            "何[なに]も"
-          ],
-          "correctIndex": 3,
-          "explanation": "何[なに]も + negative verb = nothing. 何[なに]も食[た]べませんでした = didn't eat anything (literally 'ate nothing'). Using 何[なに]か would mean 'something' in an affirmative or question context, not a negative one."
-        },
-        {
-          "id": "nanika-nanimo_q3",
-          "type": "translation",
-          "prompt": "Which sentence means 'No one came to the party'?",
-          "japanese": null,
-          "choices": [
-            "パーティーには誰[だれ]か来[き]ませんでした。",
-            "パーティーには誰[だれ]か来[き]ました。",
-            "パーティーには誰[だれ]も来[き]ませんでした。",
-            "パーティーには誰[だれ]も来[き]ました。"
-          ],
-          "correctIndex": 2,
-          "explanation": "誰[だれ]も + negative verb = no one. 誰[だれ]も来[き]ませんでした = no one came. Critically, 誰[だれ]も must pair with a negative verb. 誰[だれ]も来[き]ました would be wrong — も with an affirmative verb creates a different meaning ('everyone came')."
-        },
-        {
-          "id": "nanika-nanimo_q4",
-          "type": "usage",
-          "prompt": "Which pair of sentences is used correctly?",
-          "japanese": null,
-          "choices": [
-            "何[なに]も食[た]べましたか / 何[なに]か食[た]べませんでした。",
-            "何[なに]か食[た]べましたか / 何[なに]か食[た]べませんでした。",
-            "何[なに]も食[た]べましたか / 何[なに]も食[た]べませんでした。",
-            "何[なに]か食[た]べましたか / 何[なに]も食[た]べませんでした。"
-          ],
-          "correctIndex": 3,
-          "explanation": "The rule: 何[なに]か is for questions and positive sentences; 何[なに]も pairs with a negative verb. 何[なに]か食[た]べましたか (Did you eat something?) and 何[なに]も食[た]べませんでした (I didn't eat anything) follow this rule perfectly."
-        },
-        {
-          "id": "nanika-nanimo_q5",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 冷蔵庫[れいぞうこ]に___ありません。",
-          "japanese": "冷蔵庫[れいぞうこ]に___ありません。",
-          "choices": [
-            "何[なに]か",
-            "何[なに]も",
-            "誰[だれ]か",
-            "どこか"
-          ],
-          "correctIndex": 1,
-          "explanation": "何[なに]も is used with a negative predicate to mean 'nothing.' 何[なに]か would need a positive predicate (something). The pattern: 何[なに]も + negative verb = nothing at all."
-        },
-        {
-          "id": "nanika-nanimo_q6",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'Let's go somewhere this weekend'?",
-          "japanese": null,
-          "choices": [
-            "今週末[こんしゅうまつ]、どこか行[い]きましょう。",
-            "今週末[こんしゅうまつ]、どこも行[い]きましょう。",
-            "今週末[こんしゅうまつ]、何[なに]か行[い]きましょう。",
-            "今週末[こんしゅうまつ]、誰[だれ]か行[い]きましょう。"
-          ],
-          "correctIndex": 0,
-          "explanation": "どこか = somewhere, used in positive sentences and questions. どこも must pair with a negative verb to mean 'nowhere.' 今週末[こんしゅうまつ]どこか行[い]きましょう = Let's go somewhere this weekend. どこも行[い]きましょう is wrong because も cannot pair with an affirmative verb in this pattern."
-        },
-        {
-          "id": "nanika-nanimo_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ドアの外[そと]に___います。(Someone is outside the door.)",
-          "japanese": "ドアの外[そと]に___います。",
-          "choices": [
-            "誰[だれ]も",
-            "誰[だれ]か",
-            "何[なに]か",
-            "どこか"
-          ],
-          "correctIndex": 1,
-          "explanation": "誰[だれ]か = someone, used in affirmative sentences and questions. 誰[だれ]もいます would be wrong — も must pair with a negative verb. 誰[だれ]かいます = There is someone. Compare: 誰[だれ]もいません = There is no one."
-        },
-        {
-          "id": "nanika-nanimo_q8",
-          "type": "usage",
-          "prompt": "Which pair forms a natural question-answer exchange?",
-          "japanese": null,
-          "choices": [
-            "何[なに]も食[た]べましたか → はい、何[なに]か食[た]べました。",
-            "何[なに]も食[た]べましたか → いいえ、何[なに]も食[た]べませんでした。",
-            "何[なに]か食[た]べましたか → はい、何[なに]も食[た]べました。",
-            "何[なに]か食[た]べましたか → いいえ、何[なに]も食[た]べませんでした。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Questions use 何[なに]か (something); negative answers use 何[なに]も + negative verb (nothing). 何[なに]か食[た]べましたか (Did you eat something?) → いいえ、何[なに]も食[た]べませんでした (No, I didn't eat anything). This is the classic か/も pair in conversation. 何[なに]も食[た]べましたか is wrong because も doesn't belong in an affirmative/question context this way."
-        },
-        {
-          "id": "nanika-nanimo_q9",
-          "type": "usage",
-          "prompt": "Which sentence is grammatically WRONG?",
-          "japanese": null,
-          "choices": [
-            "何[なに]か食[た]べましたか。",
-            "何[なに]も食[た]べませんでした。",
-            "何[なに]も食[た]べました。",
-            "何[なに]か飲[の]みましたか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "何[なに]も食[た]べました is wrong: も must always pair with a negative verb. 何[なに]も食[た]べました uses an affirmative verb — this is the most common mistake learners make. Correct forms: 何[なに]か食[た]べました (ate something) or 何[なに]も食[た]べませんでした (didn't eat anything)."
-        },
-        {
-          "id": "nanika-nanimo_q10",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 昨日[きのう]は___行[い]きませんでした。(I didn't go anywhere yesterday.)",
-          "japanese": "昨日[きのう]は___行[い]きませんでした。",
-          "choices": [
-            "どこか",
-            "何[なに]か",
-            "誰[だれ]か",
-            "どこも"
-          ],
-          "correctIndex": 3,
-          "explanation": "どこも + negative verb = nowhere / not anywhere. 昨日[きのう]はどこも行[い]きませんでした = I didn't go anywhere yesterday. どこか would need an affirmative verb: どこか行[い]きましたか (Did you go somewhere?)."
-        },
-        {
-          "id": "nanika-nanimo_q11",
-          "type": "translation",
-          "prompt": "Which sentence means 'There was no one at home'?",
-          "japanese": null,
-          "choices": [
-            "家[いえ]に誰[だれ]もいませんでした。",
-            "家[いえ]に誰[だれ]かいませんでした。",
-            "家[いえ]に誰[だれ]もいました。",
-            "家[いえ]に誰[だれ]かいました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "誰[だれ]も + negative verb = no one. 誰[だれ]もいませんでした = There was no one (literally 'no one existed'). 誰[だれ]かいました = Someone was there. 誰[だれ]もいました would be wrong because も must pair with a negative verb in this usage."
-        },
-        {
-          "id": "nanika-nanimo_q12",
-          "type": "construct",
-          "prompt": "Which sentence correctly means 'Is someone calling you?'",
-          "japanese": null,
-          "choices": [
-            "誰[だれ]もあなたを呼[よ]んでいますか。",
-            "誰[だれ]もがあなたを呼[よ]んでいますか。",
-            "誰[だれ]かがあなたを呼[よ]んでいますか。",
-            "誰[だれ]かあなたを呼[よ]んでいませんか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "誰[だれ]か = someone, used in questions. 誰[だれ]かがあなたを呼[よ]んでいますか = Is someone calling you? が marks 誰[だれ]か as the subject. 誰[だれ]も in an affirmative question is wrong — も must pair with a negative verb for the 'no one' meaning."
-        },
-        {
-          "id": "nanika-nanimo_q13",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 机[つくえ]の上[うえ]に___あります。(There is something on the desk.)",
-          "japanese": "机[つくえ]の上[うえ]に___あります。",
-          "choices": [
-            "何[なに]か",
-            "何[なに]も",
-            "誰[だれ]も",
-            "どこか"
-          ],
-          "correctIndex": 0,
-          "explanation": "何[なに]か = something, used in affirmative sentences. 何[なに]かあります = There is something. 何[なに]もあります would be wrong — も must pair with a negative verb: 何[なに]もありません = There is nothing."
-        },
-        {
-          "id": "nanika-nanimo_q14",
-          "type": "usage",
-          "prompt": "Which rule correctly describes when to use 何[なに]か vs. 何[なに]も?",
-          "japanese": null,
-          "choices": [
-            "何[なに]か is used only with negative verbs; 何[なに]も is used with positive verbs.",
-            "何[なに]か is used in positive sentences and questions; 何[なに]も must pair with a negative verb.",
-            "何[なに]か and 何[なに]も are completely interchangeable.",
-            "何[なに]も can be used with both positive and negative verbs."
-          ],
-          "correctIndex": 1,
-          "explanation": "The golden rule: 何[なに]か (something) appears in affirmative sentences and questions. 何[なに]も (nothing) must always pair with a negative verb — 何[なに]も with an affirmative verb is a grammar error. This か/も rule applies consistently to 誰[だれ]か/誰[だれ]も and どこか/どこも as well."
-        },
-        {
-          "id": "nanika-nanimo_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 週末[しゅうまつ]に___行[い]きますか。(Are you going somewhere this weekend?)",
-          "japanese": "週末[しゅうまつ]に___行[い]きますか。",
-          "choices": [
-            "誰[だれ]か",
-            "どこも",
-            "どこか",
-            "何[なに]も"
-          ],
-          "correctIndex": 2,
-          "explanation": "どこか = somewhere, used in questions. 週末[しゅうまつ]にどこか行[い]きますか = Are you going somewhere this weekend? どこも行[い]きますか would be wrong — どこも must pair with a negative verb to mean 'nowhere.'"
-        },
-        {
-          "id": "nanika-nanimo_q16",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I have something to tell you'?",
-          "japanese": null,
-          "choices": [
-            "あなたに何[なに]も言[い]いたいことがあります。",
-            "あなたにどこか言[い]いたいことがあります。",
-            "あなたに誰[だれ]も言[い]いたいことがあります。",
-            "あなたに何[なに]か言[い]いたいことがあります。"
-          ],
-          "correctIndex": 3,
-          "explanation": "何[なに]か = something, used in affirmative sentences. 何[なに]か言[い]いたいことがあります = there is something I want to say. 何[なに]も would require a negative verb: 何[なに]も言[い]いたいことがありません = there is nothing I want to say."
-        },
-        {
-          "id": "nanika-nanimo_q17",
-          "type": "construct",
-          "prompt": "Which pair is used correctly (question and matching negative answer)?",
-          "japanese": null,
-          "choices": [
-            "どこか行[い]きましたか → いいえ、どこか行[い]きませんでした。",
-            "どこか行[い]きましたか → いいえ、どこも行[い]きませんでした。",
-            "どこも行[い]きましたか → いいえ、どこも行[い]きませんでした。",
-            "どこも行[い]きましたか → いいえ、どこか行[い]きませんでした。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Questions use どこか (somewhere); negative answers use どこも + negative verb (nowhere). どこか行[い]きましたか (Did you go somewhere?) → いいえ、どこも行[い]きませんでした (No, I didn't go anywhere). This mirrors the 何[なに]か/何[なに]も and 誰[だれ]か/誰[だれ]も pattern."
-        },
-        {
-          "id": "nanika-nanimo_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 電話[でんわ]に___出[で]ませんでした。(Nobody answered the phone.)",
-          "japanese": "電話[でんわ]に___出[で]ませんでした。",
-          "choices": [
-            "誰[だれ]か",
-            "どこか",
-            "誰[だれ]も",
-            "何[なに]か"
-          ],
-          "correctIndex": 2,
-          "explanation": "誰[だれ]も + negative verb = no one / not anyone. 誰[だれ]も出[で]ませんでした = Nobody answered (literally 'no one came to the phone'). 誰[だれ]か出[で]ませんでした would be unnatural and grammatically odd — 誰[だれ]か pairs with positive or question contexts."
-        },
-        {
-          "id": "nanika-nanimo_q19",
-          "type": "usage",
-          "prompt": "Which sentence uses 誰[だれ]も, 何[なに]も, and どこも all correctly?",
-          "japanese": null,
-          "choices": [
-            "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]か食[た]べました、どこも行[い]きました。",
-            "昨日[きのう]は誰[だれ]か会[あ]いませんでした、何[なに]も食[た]べませんでした、どこか行[い]きませんでした。",
-            "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。",
-            "昨日[きのう]は誰[だれ]も会[あ]いませんでした、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。"
-          ],
-          "correctIndex": 3,
-          "explanation": "誰[だれ]も、何[なに]も、どこも all require negative verbs. Option D correctly uses all three: 誰[だれ]も会[あ]いませんでした (met no one), 何[なに]も食[た]べませんでした (ate nothing), どこも行[い]きませんでした (went nowhere). Option A wrongly pairs も forms with affirmative verbs. Options B and C mix か and も incorrectly."
-        },
-        {
-          "id": "nanika-nanimo_q20",
-          "type": "construct",
-          "prompt": "Your friend says 「お腹[なか]すいた。」(I'm hungry.) Which response correctly offers to go get something?",
-          "japanese": null,
-          "choices": [
-            "何[なに]か買[か]ってこようか？",
-            "何[なに]も買[か]ってこようか？",
-            "何[なに]か食[た]べませんでした？",
-            "何[なに]も食[た]べようか？"
-          ],
-          "correctIndex": 0,
-          "explanation": "何[なに]か (something) appears in positive and question contexts. 何[なに]か買[か]ってこようか = Shall I go get something (to eat)? 何[なに]も with an affirmative verb (何[なに]も買[か]ってこようか) is wrong. Note: 食[た]べませんか (Shall we eat?) is an invitation using negative form, which is a fixed polite pattern — different from the か/も rule."
-        }
-      ]
+     "japanese": "昨日[きのう]、映画[えいが]を見[み]たよ。",
+     "romaji": "Kinou, eiga wo mita yo.",
+     "english": "I watched a movie yesterday, you know."
     },
     {
-      "id": "no-ga-suki",
-      "name": "〜のが好[す]き / 上手[じょうず] / 下手[へた] (verb nominalization with の)",
-      "shortDescription": "Turns a verb phrase into a noun using の, allowing it to be used with particles.",
-      "formation": "Verb (plain form) + のが + 好[す]き / 嫌[きら]い / 上手[じょうず] / 下手[へた] / etc.",
-      "explanation": "In Japanese, verbs cannot directly take particles like が or を — only nouns can do that. So when you want to make a verb phrase into the subject or object of a sentence, you need to nominalize it — turn it into a noun-like thing. The simplest way is adding の after the plain form of the verb. This の transforms the whole verb phrase into something that can take particles. 読[よ]む (to read) + の = 読[よ]むの (the act of reading / reading-as-a-noun). Then attach particles: 読[よ]むのが好[す]きです (I like reading — literally 'reading is liked'). This pattern is especially common with 好[す]き, 嫌[きら]い, 上手[じょうず], and 下手[へた].\n\nA related nominalizer, こと, works similarly but sounds slightly more formal or abstract — in everyday conversation, の is the more natural and common choice. The verb before の must always be in plain form regardless of the tense or politeness of the overall sentence.",
-      "rules": [
-        "Verb (plain form) + の = noun phrase ('the act of doing X' / 'doing X')",
-        "Attach particles after の: 〜のが (subject), 〜のを (object)",
-        "Common uses: 〜のが好[す]き (like doing), 〜のが嫌[きら]い (hate doing), 〜のが上手[じょうず] (good at doing)",
-        "The verb before の must be in plain form",
-        "Compare: の (natural/conversational) vs こと (more formal/written)"
-      ],
-      "examples": [
-        {
-          "japanese": "音楽[おんがく]を聴[き]くのが好[す]きです。",
-          "romaji": "Ongaku wo kiku no ga suki desu.",
-          "english": "I like listening to music."
-        },
-        {
-          "japanese": "料理[りょうり]するのはあまり好[す]きじゃないです。",
-          "romaji": "Ryouri suru no wa amari suki ja nai desu.",
-          "english": "I don't really like cooking."
-        },
-        {
-          "japanese": "田中[たなか]さんはピアノを弾[ひ]くのが上手[じょうず]です。",
-          "romaji": "Tanaka-san wa piano wo hiku no ga jouzu desu.",
-          "english": "Tanaka-san is good at playing piano."
-        },
-        {
-          "japanese": "外国語[がいこくご]を話[はな]すのは難[むずか]しいですね。",
-          "romaji": "Gaikokugo wo hanasu no wa muzukashii desu ne.",
-          "english": "Speaking foreign languages is difficult, isn't it?"
-        }
-      ],
-      "flashcardHeader": "〜のが好き / 上手 / 下手 (verb nominalization with の)",
-      "flashcardAnswer": "Turns a verb phrase into a noun using の, allowing it to be used with particles.",
-      "practice": [
-        {
-          "id": "no-ga-suki_q1",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'I like listening to music'?",
-          "japanese": null,
-          "choices": [
-            "音楽[おんがく]を聴[き]くことのが好[す]きです。",
-            "音楽[おんがく]を聴[き]いてのが好[す]きです。",
-            "音楽[おんがく]を聴[き]くのが好[す]きです。",
-            "音楽[おんがく]を聴[き]きのが好[す]きです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "To nominalize a verb phrase, use plain form + の. 聴[き]く (dictionary form) + の + が + 好[す]きです = like listening to music. Using the stem (聴[き]き) or て-form before の is incorrect."
-        },
-        {
-          "id": "no-ga-suki_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 田中[たなか]さんはピアノを弾[ひ]く___上手[じょうず]です。",
-          "japanese": "田中[たなか]さんはピアノを弾[ひ]く___上手[じょうず]です。",
-          "choices": [
-            "が",
-            "での",
-            "をが",
-            "のが"
-          ],
-          "correctIndex": 3,
-          "explanation": "To say someone is good at doing something, use verb (plain form) + のが + 上手[じょうず]. の nominalizes the verb phrase, and が marks it as the subject of 上手[じょうず]. 弾[ひ]くのが上手[じょうず] = good at playing."
-        },
-        {
-          "id": "no-ga-suki_q3",
-          "type": "translation",
-          "prompt": "Which sentence means 'I don't really like cooking'?",
-          "japanese": null,
-          "choices": [
-            "料理[りょうり]するがあまり好[す]きじゃないです。",
-            "料理[りょうり]することがあまり好[す]きじゃないです。",
-            "料理[りょうり]するのはあまり好[す]きじゃないです。",
-            "料理[りょうり]してのはあまり好[す]きじゃないです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "料理[りょうり]する (plain form) + のは → the verb phrase becomes a topic using のは. あまり〜じゃない = not very much. Option D uses こと which is slightly more formal/written; の is more natural in conversation."
-        },
-        {
-          "id": "no-ga-suki_q4",
-          "type": "usage",
-          "prompt": "Which sentence uses verb nominalization with の correctly?",
-          "japanese": null,
-          "choices": [
-            "外国語[がいこくご]を話[はな]すがは難[むずか]しいですね。",
-            "外国語[がいこくご]を話[はな]してのは難[むずか]しいですね。",
-            "外国語[がいこくご]を話[はな]すのは難[むずか]しいですね。",
-            "外国語[がいこくご]を話[はな]しのは難[むずか]しいですね。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Plain form (話[はな]す) + のは turns the verb phrase into a topic. 外国語[がいこくご]を話[はな]すのは難[むずか]しい = Speaking foreign languages is difficult. The verb must be in plain form before の; using the stem or て-form is incorrect."
-        },
-        {
-          "id": "no-ga-suki_q5",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'Tanaka-san is bad at singing'?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんは歌[うた]いのが下手[へた]です。",
-            "田中[たなか]さんは歌[うた]うことのが下手[へた]です。",
-            "田中[たなか]さんは歌[うた]うのが下手[へた]です。",
-            "田中[たなか]さんは歌[うた]ってのが下手[へた]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Pattern: verb plain form + のが + 下手[へた]. 歌[うた]う (to sing, dictionary form) + のが + 下手[へた]です = is bad at singing. のが links the nominalized verb phrase to the adjective 下手[へた]."
-        },
-        {
-          "id": "no-ga-suki_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 私[わたし]は絵[え]を描[えが]く___得意[とくい]です。(I'm good at drawing pictures.)",
-          "japanese": "私[わたし]は絵[え]を描[えが]く___得意[とくい]です。",
-          "choices": [
-            "のが",
-            "のは",
-            "をが",
-            "での"
-          ],
-          "correctIndex": 0,
-          "explanation": "Pattern: verb plain form + のが + adjective. の nominalizes the verb phrase (描[えが]く → 描[えが]くの = the act of drawing), and が marks it as the subject of 得意[とくい]. 描[えが]くのが得意[とくい] = good at drawing. のは would make it a topic rather than subject, which changes the nuance slightly."
-        },
-        {
-          "id": "no-ga-suki_q7",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'I like swimming'?",
-          "japanese": null,
-          "choices": [
-            "泳[およ]ぎのが好[す]きです。",
-            "泳[およ]いでのが好[す]きです。",
-            "泳[およ]ぐのが好[す]きです。",
-            "泳[えい]くのが好[す]きです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Pattern: verb plain form (dictionary form) + のが + 好[す]き. 泳[およ]ぐ is the plain form of 'to swim.' 泳[およ]ぐのが好[す]きです = I like swimming. Using the stem 泳[およ]ぎ or て-form 泳[およ]いで before の is incorrect — の requires the plain form."
-        },
-        {
-          "id": "no-ga-suki_q8",
-          "type": "translation",
-          "prompt": "Which question correctly asks 'What do you like doing?'",
-          "japanese": null,
-          "choices": [
-            "何[なに]をするがのは好[す]きですか。",
-            "何[なに]をするのが好[す]きですか。",
-            "何[なに]をするのを好[す]きですか。",
-            "何[なん]のするのが好[す]きですか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "何[なに]をするのが好[す]きですか = What do you like doing? The structure is: 何[なに]を+する (what to do) → nominalized by の → のが好[す]きですか (is  liked?). The particle before 好[す]き must be が, not を, because 好[す]き is an adjective (not a verb): 〜のが好[す]き, not 〜のを好[す]き."
-        },
-        {
-          "id": "no-ga-suki_q9",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 早起[はやお]きする___嫌[きら]いです。(I hate getting up early.)",
-          "japanese": "早起[はやお]きする___嫌[きら]いです。",
-          "choices": [
-            "こと",
-            "での",
-            "を",
-            "のが"
-          ],
-          "correctIndex": 3,
-          "explanation": "Pattern: verb plain form + のが + 嫌[きら]い. 早起[はやお]きするのが嫌[きら]いです = I hate getting up early. Note: こと also nominalizes verbs and is grammatically correct (早起[はやお]きすることが嫌[きら]い), but の sounds more natural in spoken Japanese."
-        },
-        {
-          "id": "no-ga-suki_q10",
-          "type": "usage",
-          "prompt": "In spoken Japanese, which sentence is most natural for 'I like watching movies'?",
-          "japanese": null,
-          "choices": [
-            "映画[えいが]を見[み]るのが好[す]きです。",
-            "映画[えいが]を見[み]ることのが好[す]きです。",
-            "映画[えいが]を見[み]てのが好[す]きです。",
-            "映画[えいが]を見[み]るをが好[す]きです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "In conversation, の is the natural nominalizer. 映画[えいが]を見[み]るのが好[す]きです (I like watching movies) is natural and common. こと also works (映画[えいが]を見[み]ることが好[す]き) but sounds slightly more formal or written. Using ことの, てのが, or をが are all errors."
-        },
-        {
-          "id": "no-ga-suki_q11",
-          "type": "construct",
-          "prompt": "Which sentence correctly means 'I'm bad at cooking'?",
-          "japanese": null,
-          "choices": [
-            "料理[りょうり]するのが上手[じょうず]です。",
-            "料理[りょうり]してのが下手[へた]です。",
-            "料理[りょうり]するのが下手[へた]です。",
-            "料理[りょうり]しのが下手[へた]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Pattern: verb plain form + のが + 下手[へた]. 料理[りょうり]する (plain form of する compound) + のが + 下手[へた]です = I'm bad at cooking. 上手[じょうず] means 'good at' — the opposite. Using the て-form (料理[りょうり]して) or stem (料理[りょうり]し) before の is wrong; the plain form is required."
-        },
-        {
-          "id": "no-ga-suki_q12",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 走[はし]る___楽[たの]しいです。(Running is fun.)",
-          "japanese": "走[はし]る___楽[たの]しいです。",
-          "choices": [
-            "での",
-            "のが",
-            "をを",
-            "をが"
-          ],
-          "correctIndex": 1,
-          "explanation": "走[はし]るのが楽[たの]しいです = Running is fun. の nominalizes 走[はし]る, and が marks the nominalized phrase as the subject of 楽[たの]しい. Alternatively, のは could work (走[はし]るのは楽[たの]しい = As for running, it's fun), but のが is the standard pattern taught in this point."
-        },
-        {
-          "id": "no-ga-suki_q13",
-          "type": "usage",
-          "prompt": "Which sentence correctly means 'Not eating breakfast is not good for your health'?",
-          "japanese": null,
-          "choices": [
-            "朝[あさ]ごはんを食[た]べるのが体[からだ]によくないです。",
-            "朝[あさ]ごはんを食[た]べないことのが体[からだ]によくないです。",
-            "朝[あさ]ごはんを食[た]べなくてのは体[からだ]によくないです。",
-            "朝[あさ]ごはんを食[た]べないのは体[からだ]によくないです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "A negative plain form can also be nominalized with の. 食[た]べない (negative plain form) + のは = 'not eating (as a topic).' 朝[あさ]ごはんを食[た]べないのは体[からだ]によくない = Not eating breakfast is bad for your health. The verb before の must be in plain form — whether affirmative or negative."
-        },
-        {
-          "id": "no-ga-suki_q14",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I heard him playing the piano'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]がピアノを弾[ひ]くのを聞[き]きました。",
-            "彼[かれ]がピアノを弾[ひ]くのが聞[き]きました。",
-            "彼[かれ]がピアノを弾[ひ]くをが聞[き]きました。",
-            "彼[かれ]がピアノを弾[ひ]きのを聞[き]きました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "When の nominalizes a verb phrase as the object of a perception verb, use のを (not のが). 彼[かれ]がピアノを弾[ひ]くのを聞[き]きました = I heard him playing the piano. の turns the verb phrase into a noun; を marks it as the object of 聞[き]く. Using のが here is wrong because 聞[き]く is a verb, not an adjective."
-        },
-        {
-          "id": "no-ga-suki_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 姉[あね]はダンスを___のが上手[じょうず]です。(My older sister is good at dancing.)",
-          "japanese": "姉[あね]はダンスを___のが上手[じょうず]です。",
-          "choices": [
-            "踊[おど]りて",
-            "踊[おど]って",
-            "踊[おど]る",
-            "踊[おど]り"
-          ],
-          "correctIndex": 2,
-          "explanation": "The verb before の must be in plain (dictionary) form. 踊[おど]る (to dance, plain form) + のが + 上手[じょうず] = good at dancing. 踊[おど]って is the て-form; 踊[おど]り is the stem — neither can precede の. Only the plain form (dictionary form) works as a nominalizer with の."
-        },
-        {
-          "id": "no-ga-suki_q16",
-          "type": "construct",
-          "prompt": "Which sentence sounds more formal or written (compared to using の)?",
-          "japanese": null,
-          "choices": [
-            "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]するのは大切[たいせつ]です。",
-            "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]することは大切[たいせつ]です。",
-            "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]してのは大切[たいせつ]です。",
-            "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]するがは大切[たいせつ]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "こと is the more formal/written nominalizer. 毎日[まいにち]日本語[にほんご]を勉強[べんきょう]することは大切[たいせつ]です = Studying Japanese every day is important (formal). の sounds more conversational: 勉強[べんきょう]するのは大切[たいせつ]. Both are grammatically correct, but こと is preferred in essays, formal writing, and set expressions like 〜ことができる."
-        },
-        {
-          "id": "no-ga-suki_q17",
-          "type": "usage",
-          "prompt": "Which sentence correctly means 'I don't like waking up early'?",
-          "japanese": null,
-          "choices": [
-            "早起[はやお]きするのが好[す]きです。",
-            "早起[はやお]きしてのが好[す]きじゃないです。",
-            "早起[はやお]きするのが好[す]きじゃないです。",
-            "早起[はやお]きするがのは好[す]きじゃないです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Pattern: verb plain form + のが + 好[す]きじゃない (don't like). 早起[はやお]きするのが好[す]きじゃないです = I don't like getting up early. The の nominalizes the verb, が marks it as subject, and 好[す]きじゃない is the negative of 好[す]き. The plain form (早起[はやお]きする) before の is required."
-        },
-        {
-          "id": "no-ga-suki_q18",
-          "type": "translation",
-          "prompt": "Which sentence means 'She is not good at / weak at speaking in front of people'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが得意[とくい]です。",
-            "彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが苦手[にがて]です。",
-            "彼女[かのじょ]は人前[ひとまえ]で話[はな]してのが苦手[にがて]です。",
-            "彼女[かのじょ]は人前[ひとまえ]で話[はな]すをが苦手[にがて]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "苦手[にがて] means 'not good at' / 'weak at' — the opposite of 得意[とくい] (good at). 彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが苦手[にがて]です = She's weak at speaking in front of people. Plain form (話[はな]す) + のが + 苦手[にがて] is the pattern. 得意[とくい] would mean the opposite. Using the て-form (話[はな]して) or を+が before 苦手[にがて] is incorrect."
-        },
-        {
-          "id": "no-ga-suki_q19",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: この漢字[かんじ]を書[か]く___難[むずか]しいです。(Writing this kanji is difficult.)",
-          "japanese": "この漢字[かんじ]を書[か]く___難[むずか]しいです。",
-          "choices": [
-            "のが",
-            "での",
-            "のを",
-            "をが"
-          ],
-          "correctIndex": 0,
-          "explanation": "Pattern: verb plain form + のが + adjective. この漢字[かんじ]を書[か]く (writing this kanji) + のが (nominalizer + subject marker) + 難[むずか]しい = Writing this kanji is difficult. の turns the verb phrase into a noun; が marks it as the subject of 難[むずか]しい."
-        },
-        {
-          "id": "no-ga-suki_q20",
-          "type": "usage",
-          "prompt": "What is the correct response to 「何[なに]をするのが好[す]きですか？」(What do you like doing?)",
-          "japanese": null,
-          "choices": [
-            "音楽[おんがく]のが好[す]きです。",
-            "音楽[おんがく]を聴[き]いてのが好[す]きです。",
-            "音楽[おんがく]を聴[き]くがのが好[す]きです。",
-            "音楽[おんがく]を聴[き]くのが好[す]きです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Answer pattern: verb plain form + のが + 好[す]き. 音楽[おんがく]を聴[き]く (to listen to music, plain form) + のが + 好[す]きです = I like listening to music. This mirrors the question structure: 何[なに]をするのが好[す]きですか → 〜するのが好[す]きです. Using the て-form (聴[き]いて) or misplacing が before の are common errors."
-        }
-      ]
+     "japanese": "疲[つか]れたから、もう寝[ね]る。",
+     "romaji": "Tsukareta kara, mou neru.",
+     "english": "I'm tired, so I'm going to sleep now."
     },
     {
-      "id": "nai-de-kudasai",
-      "name": "〜ないでください (nai de kudasai) — please don't",
-      "shortDescription": "A polite request not to do something.",
-      "formation": "Verb (ない-form) + でください",
-      "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走[はし]る → 走[はし]らない → 走[はし]らないでください (Please don't run). 食[た]べる → 食[た]べない → 食[た]べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 6): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言[い]わないで (Don't say things like that).",
-      "rules": [
-        "Pattern: Verb (ない-form) + でください = Please don't do X",
-        "Keep the full ない-form: e.g., 食[た]べないでください (not 食[た]べないくださ)",
-        "Casual: ないで (drop ください) = for friends and casual situations",
-        "Stronger prohibition: 〜てはいけません (must not)",
-        "Softer alternative: 〜ないようにしてください (please try not to)"
-      ],
-      "examples": [
-        {
-          "japanese": "ここで写真[しゃしん]を撮[と]らないでください。",
-          "romaji": "Koko de shashin wo toranai de kudasai.",
-          "english": "Please don't take photos here."
-        },
-        {
-          "japanese": "廊下[ろうか]で走[はし]らないでください。",
-          "romaji": "Rouka de hashiranai de kudasai.",
-          "english": "Please don't run in the hallway."
-        },
-        {
-          "japanese": "そんなこと言[い]わないで。",
-          "romaji": "Sonna koto iwanai de.",
-          "english": "Don't say things like that."
-        },
-        {
-          "japanese": "食[た]べる前[まえ]に手[て]を洗[あら]わないでください。",
-          "romaji": "Taberu mae ni te wo arawanai de kudasai.",
-          "english": "Please don't eat without washing your hands first."
-        }
-      ],
-      "flashcardHeader": "〜ないでください",
-      "flashcardAnswer": "A polite request not to do something.",
-      "practice": [
-        {
-          "id": "nai-de-kudasai_q1",
-          "type": "construct",
-          "prompt": "Which sentence correctly means 'Please don't run in the hallway'?",
-          "japanese": null,
-          "choices": [
-            "廊下[ろうか]で走[そう]いないでください。",
-            "廊下[ろうか]で走[はし]らないでください。",
-            "廊下[ろうか]で走[そう]くないでください。",
-            "廊下[ろうか]で走[はし]てはいけません。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Pattern: ない-form + でください. 走[はし]る → ない-form: 走[はし]らない → 走[はし]らないでください (Please don't run). The ない ending stays intact — do not drop い before でください."
-        },
-        {
-          "id": "nai-de-kudasai_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ここで写真[しゃしん]を撮[と]ら___ください。(Please don't take photos here.)",
-          "japanese": "ここで写真[しゃしん]を撮[と]ら___ください。",
-          "choices": [
-            "なくて",
-            "くないで",
-            "らずに",
-            "ないで"
-          ],
-          "correctIndex": 3,
-          "explanation": "The pattern is ない-form + でください. 撮[と]る → 撮[と]らない → 撮[と]らないで + ください = 撮[と]らないでください. The でください immediately follows the full ない-form."
-        },
-        {
-          "id": "nai-de-kudasai_q3",
-          "type": "usage",
-          "prompt": "Which sentence is a polite request NOT to do something (softer than a prohibition)?",
-          "japanese": null,
-          "choices": [
-            "ここでたばこを吸[す]ってもいいです。",
-            "ここでたばこを吸[す]わないでください。",
-            "ここでたばこを吸[す]ってはいけません。",
-            "ここでたばこを吸[す]ってください。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ないでください is a polite request not to do something — softer than a rule. 〜てはいけません is a firm prohibition. A request to 'please not smoke here' uses ないでください; a strict 'no smoking' rule uses てはいけません."
-        },
-        {
-          "id": "nai-de-kudasai_q4",
-          "type": "translation",
-          "prompt": "Which sentence correctly translates 'Please don't eat without washing your hands'?",
-          "japanese": null,
-          "choices": [
-            "手[て]を洗[あら]うないでください。",
-            "手[て]を洗[あら]ってくないです。",
-            "手[て]を洗[あら]わなくてください。",
-            "手[て]を洗[あら]わないでください。"
-          ],
-          "correctIndex": 3,
-          "explanation": "洗[あら]う → ない-form: 洗[あら]わない → 洗[あら]わないでください (Please don't not wash... / Please wash). Here the sentence means: 'Please don't go without washing your hands.' The ない-form stays intact before でください."
-        },
-        {
-          "id": "nai-de-kudasai_q5",
-          "type": "construct",
-          "prompt": "Which sentence correctly means 'Please don't do that'?",
-          "japanese": null,
-          "choices": [
-            "それをするないでください。",
-            "それをしくないでください。",
-            "それをしなくてください。",
-            "それをしないでください。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Pattern: ない-form + でください. する is irregular: its ない-form is しない. Attach でください: しないでください = Please don't do. Common errors: するない (keeps dictionary form instead of ない-form), しなくて (て-form of negative — used for 'without doing,' not for requests)."
-        },
-        {
-          "id": "nai-de-kudasai_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 明日[あした]は___ください。(Please don't come tomorrow.)",
-          "japanese": "明日[あした]は___ください。",
-          "choices": [
-            "来[く]るないで",
-            "こないで",
-            "くるなくて",
-            "きないで"
-          ],
-          "correctIndex": 1,
-          "explanation": "来[く]る is irregular: its ない-form is こない (not くない or きない). Attach でください: こないでください = Please don't come. 来[く]るないで keeps the dictionary form — wrong. きないで is a common error mixing the readings of 来[らい]. The ない-form must be used, not the dictionary form."
-        },
-        {
-          "id": "nai-de-kudasai_q7",
-          "type": "usage",
-          "prompt": "A school posts a permanent rule: 'No running in the hallway.' Which phrasing best expresses a firm RULE (not just a polite request)?",
-          "japanese": null,
-          "choices": [
-            "廊下[ろうか]を走[はし]らないです。",
-            "廊下[ろうか]を走[はし]らないようにしてください。",
-            "廊下[ろうか]を走[はし]ってはいけません。",
-            "廊下[ろうか]を走[はし]らないでください。"
-          ],
-          "correctIndex": 2,
-          "explanation": "てはいけません = firm prohibition (must not, it is not allowed). ないでください = polite request (please don't). For a permanent rule or sign, てはいけません is stronger and more appropriate. ないでください is softer — used when asking someone nicely, not for official prohibitions. ないようにしてください = please try not to (even softer)."
-        },
-        {
-          "id": "nai-de-kudasai_q8",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: そんなこと___。(Don't say things like that.) [casual, between friends]",
-          "japanese": "そんなこと___。",
-          "choices": [
-            "言[い]わないで",
-            "言[い]いないで",
-            "言[い]わないください",
-            "言[い]わなくて"
-          ],
-          "correctIndex": 0,
-          "explanation": "Casual negative request = ない-form + で (drop ください). 言[い]う → ない-form: 言[い]わない → 言[い]わないで = Don't say. In casual speech between friends, dropping ください makes the request sound natural and less stiff. 言[い]わないでください would be polite but overly formal between close friends."
-        },
-        {
-          "id": "nai-de-kudasai_q9",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'Please don't talk in the library'?",
-          "japanese": null,
-          "choices": [
-            "図書館[としょかん]で話[はな]さないです。",
-            "図書館[としょかん]で話[はな]さないでください。",
-            "図書館[としょかん]で話[はな]してないでください。",
-            "図書館[としょかん]で話[はな]しないでください。"
-          ],
-          "correctIndex": 1,
-          "explanation": "話[はな]す → ない-form: 話[はな]さない → 話[はな]さないでください = Please don't talk. 図書館[としょかん]で話[はな]さないでください is a polite request appropriate for a library sign or a librarian asking visitors. 話[はな]しないでください is wrong (話[はな]し is the stem, not the ない-form base). 話[はな]さないです is not a request."
-        },
-        {
-          "id": "nai-de-kudasai_q10",
-          "type": "construct",
-          "prompt": "Which sentence is WRONG because ないでください cannot be used with い-adjectives?",
-          "japanese": null,
-          "choices": [
-            "うるさくないでください。",
-            "速[はや]く歩[ある]かないでください。",
-            "音楽[おんがく]を聴[き]かないでください。",
-            "ここで食[た]べないでください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ないでください attaches only to verb ない-forms, not adjectives. うるさい is an い-adjective — you cannot say うるさくないでください as a request not to be noisy. Instead say 静[しず]かにしてください (please be quiet) or うるさくしないでください (please don't make noise). The other options all have correct verb ない-forms."
-        },
-        {
-          "id": "nai-de-kudasai_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ここに名前[なまえ]を___ください。(Please don't write your name here.)",
-          "japanese": "ここに名前[なまえ]を___ください。",
-          "choices": [
-            "書[か]かなくて",
-            "書[か]くないで",
-            "書[か]きないで",
-            "書[か]かないで"
-          ],
-          "correctIndex": 3,
-          "explanation": "書[か]く → ない-form: 書[か]かない (godan く verb: く→か+ない) → 書[か]かないで + ください = 書[か]かないでください. The blank requires 書[か]かないで (the ない-form + で). 書[か]かなくて is the て-form of the negative — used for 'without writing,' not for a polite request."
-        },
-        {
-          "id": "nai-de-kudasai_q12",
-          "type": "usage",
-          "prompt": "Someone says 「静[しず]かにしてください。話[はな]さないでください。」Which is the best polite agreement?",
-          "japanese": null,
-          "choices": [
-            "はい、話[はな]します。",
-            "いいえ、話[はな]さないでください。",
-            "分[わ]かりました。話[はな]しません。",
-            "はい、話[はな]してください。"
-          ],
-          "correctIndex": 2,
-          "explanation": "To agree with a negative request, respond: 分[わ]かりました (understood) + the negative form of the verb. 話[はな]しません = I will not talk. Using はい、話[はな]します (yes, I will talk) accepts but does the opposite. Repeating ないでください back is not how you accept — you confirm with the plain negative."
-        },
-        {
-          "id": "nai-de-kudasai_q13",
-          "type": "construct",
-          "prompt": "Your friend keeps dropping by unannounced. Which casual request is correct?",
-          "japanese": null,
-          "choices": [
-            "急[きゅう]に来[く]るないで。",
-            "急[きゅう]にこないで。",
-            "急[きゅう]にきないで。",
-            "急[きゅう]に来[こ]なないで。"
-          ],
-          "correctIndex": 1,
-          "explanation": "来[く]る is irregular: ない-form = こない. Casual request drops ください: こないで = Don't come. 来[く]るないで keeps the dictionary form — wrong. きないで confuses the on-reading (き) with the irregular ない-form stem (こ). The irregular こない must be memorized: くる → こない → こないで."
-        },
-        {
-          "id": "nai-de-kudasai_q14",
-          "type": "translation",
-          "prompt": "Which sentence means 'Please don't open the window'?",
-          "japanese": null,
-          "choices": [
-            "窓[まど]を開[あ]けないでください。",
-            "窓[まど]を開[あ]けないです。",
-            "窓[まど]を開[あ]けなくてください。",
-            "窓[まど]を開[あ]けてないでください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "開[あ]ける is a Group 2 (ichidan) verb: drop る, add ない → 開[あ]けない → 開[あ]けないでください = Please don't open. 開[あ]けないです is a negative statement ('I won't open'), not a request. 開[あ]けなくて is the て-form of the negative. 開[あ]けてないで is ungrammatical for a negative request."
-        },
-        {
-          "id": "nai-de-kudasai_q15",
-          "type": "usage",
-          "prompt": "A hospital notice reads: 'Please don't use your phone here.' Which phrasing is a polite request (not a prohibition)?",
-          "japanese": null,
-          "choices": [
-            "ここで携帯[けいたい]を使[つか]ってはいけません。",
-            "ここで携帯[けいたい]を使[つか]うです。",
-            "ここで携帯[けいたい]を使[つか]いないでください。",
-            "ここで携帯[けいたい]を使[つか]わないでください。"
-          ],
-          "correctIndex": 3,
-          "explanation": "使[つか]う → ない-form: 使[つか]わない (godan う verb: う→わ+ない) → 使[つか]わないでください = Please don't use. This is a polite request, softer than 使[つか]ってはいけません (prohibition). 使[つか]いないでください is wrong (使[つか]い is the stem, not the ない-form base). ないでください is the appropriate form for a considerate request."
-        },
-        {
-          "id": "nai-de-kudasai_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 授業中[じゅぎょうちゅう]に飲[の]み物[もの]を___ください。(Please don't drink during class.)",
-          "japanese": "授業中[じゅぎょうちゅう]に飲[の]み物[もの]を___ください。",
-          "choices": [
-            "飲[の]むないで",
-            "飲[の]んないで",
-            "飲[の]まないで",
-            "飲[の]まなくて"
-          ],
-          "correctIndex": 2,
-          "explanation": "飲[の]む → ない-form: 飲[の]まない (godan む verb: む→ま+ない) → 飲[の]まないで + ください = 飲[の]まないでください. The blank requires 飲[の]まないで. 飲[の]むないで keeps the dictionary form — wrong. 飲[の]まなくて is the て-form of the negative, used for 'without drinking' in a causal clause, not a request."
-        },
-        {
-          "id": "nai-de-kudasai_q17",
-          "type": "construct",
-          "prompt": "Which sentence is the SOFTEST, most indirect way to say 'please try not to be late'?",
-          "japanese": null,
-          "choices": [
-            "遅[おく]れてはいけません。",
-            "遅[おく]れないようにしてください。",
-            "遅[おく]れないでください。",
-            "遅[おく]れないです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Ranked from firmest to softest: てはいけません (prohibition/must not) > ないでください (polite request: please don't) > ないようにしてください (please try not to — the softest, most indirect). ないようにしてください acknowledges the action might be hard to avoid and asks the person to make an effort."
-        },
-        {
-          "id": "nai-de-kudasai_q18",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'Please don't worry'?",
-          "japanese": null,
-          "choices": [
-            "心配[しんぱい]しないでください。",
-            "心配[しんぱい]するないでください。",
-            "心配[しんぱい]しくないでください。",
-            "心配[しんぱい]しなくてください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "心配[しんぱい]する is a する compound verb. する is irregular: ない-form = しない. 心配[しんぱい]しない + でください = 心配[しんぱい]しないでください = Please don't worry. 心配[しんぱい]するないで keeps the dictionary form — wrong. しくないで and しなくて are errors (the correct ない-form is しない, not しくない or して from なくて)."
-        },
-        {
-          "id": "nai-de-kudasai_q19",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses ないで to mean 'I went to school without eating breakfast'?",
-          "japanese": null,
-          "choices": [
-            "朝[あさ]ごはんを食[た]べなくて学校[がっこう]に行[い]きました。",
-            "朝[あさ]ごはんを食[た]べないを学校[がっこう]に行[い]きました。",
-            "朝[あさ]ごはんを食[た]べないくて学校[がっこう]に行[い]きました。",
-            "朝[あさ]ごはんを食[た]べないで学校[がっこう]に行[い]きました。"
-          ],
-          "correctIndex": 3,
-          "explanation": "ないで (mid-sentence, without でください) also means 'without doing X.' 朝[あさ]ごはんを食[た]べないで学校[がっこう]に行[い]きました = I went to school without eating breakfast. Here ないで connects two actions ('without doing A, did B'). なくて is also used for negation in connected clauses, but ないで is preferred when describing 'without doing' an action."
-        },
-        {
-          "id": "nai-de-kudasai_q20",
-          "type": "construct",
-          "prompt": "The teacher wants students to use Japanese only. Which sentence correctly means 'Please don't speak in English'?",
-          "japanese": null,
-          "choices": [
-            "英語[えいご]で話[はな]してください。",
-            "英語[えいご]で話[はな]してはいけます。",
-            "英語[えいご]で話[はな]さないでください。",
-            "英語[えいご]で話[はな]しないでください。"
-          ],
-          "correctIndex": 2,
-          "explanation": "話[はな]す → ない-form: 話[はな]さない (godan す verb: す→さ+ない) → 話[はな]さないでください = Please don't speak (in English). 話[はな]してください is the opposite (please speak in English). 話[はな]してはいけます is not a real form — the prohibition is てはいけません, not てはいけます. 話[はな]しないでください uses the stem (話[はな]し) instead of the ない-form base — wrong."
-        }
-      ]
+     "japanese": "この問題[もんだい]は難[むずか]しくなかった。",
+     "romaji": "Kono mondai wa muzukashiku nakatta.",
+     "english": "This problem wasn't difficult."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "Plain / short forms",
+   "flashcardAnswer": "The four plain forms used in casual speech and embedded clauses.",
+   "practice": [
     {
-      "id": "ch08_v01",
-      "partOfSpeech": "noun",
-      "kanji": "家族",
-      "kana": "かぞく",
-      "romaji": "kazoku",
-      "definition": "family"
+     "id": "plain-forms_q1",
+     "type": "construct",
+     "prompt": "What is the plain past affirmative (た-form) of 食[た]べる?",
+     "japanese": null,
+     "choices": [
+      "食[た]べいた",
+      "食[た]べりた",
+      "食[た]べって",
+      "食[た]べた"
+     ],
+     "correctIndex": 3,
+     "explanation": "食[た]べる is a Group 2 verb: drop る and add た → 食[た]べた. The た-form follows the same sound patterns as the て-form, but ends in た/だ instead of て/で. So 食[た]べて → 食[た]べた."
     },
     {
-      "id": "ch08_v02",
-      "partOfSpeech": "noun",
-      "kanji": "両親",
-      "kana": "りょうしん",
-      "romaji": "ryoushin",
-      "definition": "parents"
+     "id": "plain-forms_q2",
+     "type": "construct",
+     "prompt": "What is the plain present negative (ない-form) of 飲[の]む?",
+     "japanese": null,
+     "choices": [
+      "飲[の]んない",
+      "飲[の]まない",
+      "飲[の]むない",
+      "飲[の]みない"
+     ],
+     "correctIndex": 1,
+     "explanation": "For Group 1 verbs ending in む, the ない-form changes む → まない. So 飲[の]む → 飲[の]まない. The vowel in the stem shifts to the あ-row before ない: む → ま."
     },
     {
-      "id": "ch08_v03",
-      "partOfSpeech": "noun",
-      "kanji": "父",
-      "kana": "ちち",
-      "romaji": "chichi",
-      "definition": "(my) father"
+     "id": "plain-forms_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 疲[つか]れた___、もう寝[ね]る。(I'm tired, so I'm going to sleep.)",
+     "japanese": "疲[つか]れた___、もう寝[ね]る。",
+     "choices": [
+      "て",
+      "ので",
+      "から",
+      "が"
+     ],
+     "correctIndex": 2,
+     "explanation": "から (because) follows a plain form to give a reason. 疲[つか]れたから = because I'm tired. This is a common pattern: plain form + から + result clause. Note that both verbs here are in plain (casual) form."
     },
     {
-      "id": "ch08_v04",
-      "partOfSpeech": "noun",
-      "kanji": "母",
-      "kana": "はは",
-      "romaji": "haha",
-      "definition": "(my) mother"
+     "id": "plain-forms_q4",
+     "type": "translation",
+     "prompt": "Which sentence uses the plain past negative correctly?",
+     "japanese": null,
+     "choices": [
+      "この問題[もんだい]は難[むずか]しなかった。",
+      "この問題[もんだい]は難[むずか]しじゃなかった。",
+      "この問題[もんだい]は難[むずか]しいなかった。",
+      "この問題[もんだい]は難[むずか]しくなかった。"
+     ],
+     "correctIndex": 3,
+     "explanation": "For い-adjectives, the plain past negative drops い and adds くなかった. 難[むずか]しい → 難[むずか]しくなかった (wasn't difficult). This is the plain-form equivalent of 難[むずか]しくなかったです."
     },
     {
-      "id": "ch08_v05",
-      "partOfSpeech": "noun",
-      "kanji": "お父さん",
-      "kana": "おとうさん",
-      "romaji": "otousan",
-      "definition": "father (polite)"
+     "id": "plain-forms_q5",
+     "type": "usage",
+     "prompt": "Which sentence correctly embeds a plain form clause inside a polite sentence?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]は学校[がっこう]に行[い]きませんと思[おも]います。",
+      "明日[あした]は学校[がっこう]に行[い]かないと思[おも]います。",
+      "明日[あした]は学校[がっこう]に行[い]かないと思[おも]いません。",
+      "明日[あした]は学校[がっこう]に行[い]きないと思[おも]います。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Inside an embedded clause before と思[おも]います, the inner verb must be in plain form. 行[い]く → plain negative: 行[い]かない → 行[い]かないと思[おも]います (I think I won't go). The politeness is set by 思[おも]います at the end."
     },
     {
-      "id": "ch08_v06",
-      "partOfSpeech": "noun",
-      "kanji": "お母さん",
-      "kana": "おかあさん",
-      "romaji": "okaasan",
-      "definition": "mother (polite)"
+     "id": "plain-forms_q6",
+     "type": "construct",
+     "prompt": "What is the plain negative (ない-form) of 会[あ]う (to meet)?",
+     "japanese": null,
+     "choices": [
+      "会[あ]いない",
+      "会[あ]うない",
+      "会[あ]わない",
+      "会[かい]なない"
+     ],
+     "correctIndex": 2,
+     "explanation": "会[あ]う is a godan verb ending in う. For う-ending godan verbs, the ない-form uses わ, not う: う→わ+ない. So 会[あ]う → 会[あ]わない (not 会[あ]うない). This う→わ rule applies to all godan verbs ending in う."
     },
     {
-      "id": "ch08_v07",
-      "partOfSpeech": "noun",
-      "kanji": "兄",
-      "kana": "あに",
-      "romaji": "ani",
-      "definition": "(my) older brother"
+     "id": "plain-forms_q7",
+     "type": "construct",
+     "prompt": "What is the plain past affirmative (た-form) of 帰[かえ]る (to return home)?",
+     "japanese": null,
+     "choices": [
+      "帰[かえ]った",
+      "帰[かえ]いた",
+      "帰[かえ]りた",
+      "帰[かえ]た"
+     ],
+     "correctIndex": 0,
+     "explanation": "帰[かえ]る is a godan verb ending in る. The て-form of godan る-verbs uses って (e.g., 帰[かえ]って), so the た-form is 帰[かえ]った. Do not confuse with ichidan verbs like 食[た]べる where you simply drop る and add た."
     },
     {
-      "id": "ch08_v08",
-      "partOfSpeech": "noun",
-      "kanji": "姉",
-      "kana": "あね",
-      "romaji": "ane",
-      "definition": "(my) older sister"
+     "id": "plain-forms_q8",
+     "type": "construct",
+     "prompt": "What is the plain past negative (なかった-form) of 来[く]る (to come)?",
+     "japanese": null,
+     "choices": [
+      "来[く]るなかった",
+      "くなかった",
+      "こなかった",
+      "きなかった"
+     ],
+     "correctIndex": 2,
+     "explanation": "来[く]る is an irregular verb. Its ない-form is こない (not くない or きない), so the past negative is こなかった. Irregular: する→しない/した/しなかった; 来[く]る→こない/きた/こなかった."
     },
     {
-      "id": "ch08_v09",
-      "partOfSpeech": "noun",
-      "kanji": "弟",
-      "kana": "おとうと",
-      "romaji": "otouto",
-      "definition": "younger brother"
+     "id": "plain-forms_q9",
+     "type": "construct",
+     "prompt": "What is the plain negative (ない-form) of する (to do)?",
+     "japanese": null,
+     "choices": [
+      "すない",
+      "せない",
+      "さない",
+      "しない"
+     ],
+     "correctIndex": 3,
+     "explanation": "する is an irregular verb. Its ない-form is しない — not すない or せない. Memorize: する→しない (present negative), した (past affirmative), しなかった (past negative)."
     },
     {
-      "id": "ch08_v10",
-      "partOfSpeech": "noun",
-      "kanji": "妹",
-      "kana": "いもうと",
-      "romaji": "imouto",
-      "definition": "younger sister"
+     "id": "plain-forms_q10",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I think she will come tomorrow'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は明日[あした]来[き]ますと思[おも]います。",
+      "彼女[かのじょ]は明日[あした]くると思[おも]います。",
+      "彼女[かのじょ]は明日[あした]きると思[おも]います。",
+      "彼女[かのじょ]は明日[あした]来[く]るにと思[おも]います。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Before と思[おも]います, the embedded clause must use a plain form. 来[く]る (dictionary form) is the plain present affirmative of 来[く]る. The inner clause is in plain form; politeness comes from 思[おも]います at the end."
     },
     {
-      "id": "ch08_v11",
-      "partOfSpeech": "noun",
-      "kanji": "お兄さん",
-      "kana": "おにいさん",
-      "romaji": "oniisan",
-      "definition": "older brother (polite)"
+     "id": "plain-forms_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 昨日[きのう]は何[なに]も___。(I didn't do anything yesterday.) ",
+     "japanese": "昨日[きのう]は何[なに]も___。",
+     "choices": [
+      "しませんでした",
+      "しなかった",
+      "しない",
+      "しなかって"
+     ],
+     "correctIndex": 1,
+     "explanation": "The plain past negative of する is しなかった. In casual speech, plain forms replace polite forms: しませんでした → しなかった. しない is present tense (don't do), not past (didn't do)."
     },
     {
-      "id": "ch08_v12",
-      "partOfSpeech": "noun",
-      "kanji": "お姉さん",
-      "kana": "おねえさん",
-      "romaji": "oneesan",
-      "definition": "older sister (polite)"
+     "id": "plain-forms_q12",
+     "type": "construct",
+     "prompt": "What is the plain past affirmative (た-form) of 書[か]く (to write)?",
+     "japanese": null,
+     "choices": [
+      "書[か]った",
+      "書[か]いた",
+      "書[か]きた",
+      "書[か]くた"
+     ],
+     "correctIndex": 1,
+     "explanation": "書[か]く is a godan verb ending in く. The て-form is 書[か]いて, so the た-form follows the same pattern: 書[か]いた. Godan く-verbs: く→いた (e.g., 聞[き]く→聞[き]いた, 書[か]く→書[か]いた). Exception: 行[い]く→行[い]った."
     },
     {
-      "id": "ch08_v13",
-      "partOfSpeech": "noun",
-      "kanji": "祖父",
-      "kana": "そふ",
-      "romaji": "sofu",
-      "definition": "(my) grandfather"
+     "id": "plain-forms_q13",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: この映画[えいが]は面白[おもしろ]___と思[おも]う。(I think this movie is interesting.)",
+     "japanese": "この映画[えいが]は面白[おもしろ]___と思[おも]う。",
+     "choices": [
+      "です",
+      "いです",
+      "い",
+      "くて"
+     ],
+     "correctIndex": 2,
+     "explanation": "Before と思[おも]う, adjectives must be in plain form. 面白[おもしろ]い is already in plain form (the dictionary form of い-adjectives ends in い). So 面白[おもしろ]いと思[おも]う (I think it's interesting). Never use です inside the embedded clause."
     },
     {
-      "id": "ch08_v14",
-      "partOfSpeech": "noun",
-      "kanji": "祖母",
-      "kana": "そぼ",
-      "romaji": "sobo",
-      "definition": "(my) grandmother"
+     "id": "plain-forms_q14",
+     "type": "usage",
+     "prompt": "A friend asks about your weekend plans. Which casual response uses the correct plain form?",
+     "japanese": null,
+     "choices": [
+      "友達[ともだち]と映画[えいが]を見[み]ますよ。",
+      "友達[ともだち]と映画[えいが]を見[み]るよ。",
+      "友達[ともだち]と映画[えいが]を見[み]てよ。",
+      "友達[ともだち]と映画[えいが]を見[み]いよ。"
+     ],
+     "correctIndex": 1,
+     "explanation": "In casual conversation, plain forms replace polite ます forms. 見[み]る (dictionary form) is the casual equivalent of 見[み]ます. Adding よ at the end signals new information. 見[み]ます is polite and would feel overly formal between close friends."
     },
     {
-      "id": "ch08_v15",
-      "partOfSpeech": "noun",
-      "kanji": "おじいさん",
-      "kana": "おじいさん",
-      "romaji": "ojiisan",
-      "definition": "grandfather (polite)"
+     "id": "plain-forms_q15",
+     "type": "construct",
+     "prompt": "What is the plain past affirmative (た-form) of 飲[の]む (to drink)?",
+     "japanese": null,
+     "choices": [
+      "飲[の]みた",
+      "飲[の]むた",
+      "飲[の]んだ",
+      "飲[いん]った"
+     ],
+     "correctIndex": 2,
+     "explanation": "飲[の]む is a godan verb ending in む. The て-form is 飲[の]んで (む→んで), so the た-form follows: 飲[の]んだ (む→んだ). Godan む/ぬ/ぶ verbs use んだ for the た-form."
     },
     {
-      "id": "ch08_v16",
-      "partOfSpeech": "noun",
-      "kanji": "おばあさん",
-      "kana": "おばあさん",
-      "romaji": "obaasan",
-      "definition": "grandmother (polite)"
+     "id": "plain-forms_q16",
+     "type": "construct",
+     "prompt": "What is the plain negative (ない-form) of 来[く]る (to come)?",
+     "japanese": null,
+     "choices": [
+      "来[く]るない",
+      "くない",
+      "こない",
+      "きない"
+     ],
+     "correctIndex": 2,
+     "explanation": "来[く]る is irregular. Its ない-form is こない — the reading changes from 来[らい](く/き) to こ before ない. This is one of only two irregular Japanese verbs: 来[く]る→こない, する→しない."
     },
     {
-      "id": "ch08_v17",
-      "partOfSpeech": "noun",
-      "kanji": "おじ",
-      "kana": "おじ",
-      "romaji": "oji",
-      "definition": "uncle"
+     "id": "plain-forms_q17",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'Because I studied, I understood'? (casual)",
+     "japanese": null,
+     "choices": [
+      "勉強[べんきょう]しましたから、分[わ]かりました。",
+      "勉強[べんきょう]したから、分[わ]かった。",
+      "勉強[べんきょう]してから、分[わ]かった。",
+      "勉強[べんきょう]しないから、分[わ]かった。"
+     ],
+     "correctIndex": 1,
+     "explanation": "In casual speech, use plain forms throughout. 勉強[べんきょう]した (plain past of する) + から (because) + 分[わ]かった (plain past of 分[わ]かる). Option A is correct grammar but polite, not casual. Option C (〜てから) means 'after doing,' not 'because.'"
     },
     {
-      "id": "ch08_v18",
-      "partOfSpeech": "noun",
-      "kanji": "おば",
-      "kana": "おば",
-      "romaji": "oba",
-      "definition": "aunt"
+     "id": "plain-forms_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 宿題[しゅくだい]を___なかった。(I didn't do my homework.) ",
+     "japanese": "宿題[しゅくだい]を___なかった。",
+     "choices": [
+      "し",
+      "する",
+      "して",
+      "せ"
+     ],
+     "correctIndex": 0,
+     "explanation": "The plain past negative is ない-stem + なかった. The ない-form of する is しない, so its stem is し. Attach なかった: し+なかった = しなかった. The blank requires し (the ない-stem), since なかった follows directly."
     },
     {
-      "id": "ch08_v19",
-      "partOfSpeech": "noun",
-      "kanji": "夫",
-      "kana": "おっと",
-      "romaji": "otto",
-      "definition": "husband"
+     "id": "plain-forms_q19",
+     "type": "usage",
+     "prompt": "Which sentence correctly embeds a past negative clause before と言[い]っていた (was saying that)?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は来[き]ませんでしたと言[い]っていた。",
+      "彼[かれ]は来[こ]ないでしたと言[い]っていた。",
+      "彼[かれ]はこなかったと言[い]っていた。",
+      "彼[かれ]はきなかったと言[い]っていた。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Before と言[い]っていた, the embedded clause must use a plain form. こなかった is the plain past negative of 来[く]る (irregular: 来[く]る→こない→こなかった). The politeness is carried by 言[い]っていた; the inner clause stays plain."
     },
     {
-      "id": "ch08_v20",
-      "partOfSpeech": "noun",
-      "kanji": "妻",
-      "kana": "つま",
-      "romaji": "tsuma",
-      "definition": "wife"
-    },
-    {
-      "id": "ch08_v21",
-      "partOfSpeech": "noun",
-      "kanji": "主人",
-      "kana": "しゅじん",
-      "romaji": "shujin",
-      "definition": "(my) husband"
-    },
-    {
-      "id": "ch08_v22",
-      "partOfSpeech": "noun",
-      "kanji": "奥さん",
-      "kana": "おくさん",
-      "romaji": "okusan",
-      "definition": "(someone's) wife"
-    },
-    {
-      "id": "ch08_v23",
-      "partOfSpeech": "noun",
-      "kanji": "息子",
-      "kana": "むすこ",
-      "romaji": "musuko",
-      "definition": "son"
-    },
-    {
-      "id": "ch08_v24",
-      "partOfSpeech": "noun",
-      "kanji": "娘",
-      "kana": "むすめ",
-      "romaji": "musume",
-      "definition": "daughter"
-    },
-    {
-      "id": "ch08_v25",
-      "partOfSpeech": "noun",
-      "kanji": "孫",
-      "kana": "まご",
-      "romaji": "mago",
-      "definition": "grandchild"
-    },
-    {
-      "id": "ch08_v26",
-      "partOfSpeech": "noun",
-      "kanji": "いとこ",
-      "kana": "いとこ",
-      "romaji": "itoko",
-      "definition": "cousin"
-    },
-    {
-      "id": "ch08_v27",
-      "partOfSpeech": "noun",
-      "kanji": "親",
-      "kana": "おや",
-      "romaji": "oya",
-      "definition": "parent"
-    },
-    {
-      "id": "ch08_v28",
-      "partOfSpeech": "noun",
-      "kanji": "兄弟",
-      "kana": "きょうだい",
-      "romaji": "kyoudai",
-      "definition": "siblings; brothers"
-    },
-    {
-      "id": "ch08_v29",
-      "partOfSpeech": "noun",
-      "kanji": "姉妹",
-      "kana": "しまい",
-      "romaji": "shimai",
-      "definition": "sisters"
-    },
-    {
-      "id": "ch08_v30",
-      "partOfSpeech": "noun",
-      "kanji": "親戚",
-      "kana": "しんせき",
-      "romaji": "shinseki",
-      "definition": "relatives"
-    },
-    {
-      "id": "ch08_v31",
-      "partOfSpeech": "noun",
-      "kanji": "赤ちゃん",
-      "kana": "あかちゃん",
-      "romaji": "akachan",
-      "definition": "baby"
-    },
-    {
-      "id": "ch08_v32",
-      "partOfSpeech": "noun",
-      "kanji": "双子",
-      "kana": "ふたご",
-      "romaji": "futago",
-      "definition": "twins"
-    },
-    {
-      "id": "ch08_v33",
-      "partOfSpeech": "noun",
-      "kanji": "家庭",
-      "kana": "かてい",
-      "romaji": "katei",
-      "definition": "household; home life"
-    },
-    {
-      "id": "ch08_v34",
-      "partOfSpeech": "noun",
-      "kanji": "名字",
-      "kana": "みょうじ",
-      "romaji": "myouji",
-      "definition": "surname; family name"
-    },
-    {
-      "id": "ch08_v35",
-      "partOfSpeech": "noun",
-      "kanji": "実家",
-      "kana": "じっか",
-      "romaji": "jikka",
-      "definition": "one's parents' home"
-    },
-    {
-      "id": "ch08_v36",
-      "partOfSpeech": "noun",
-      "kanji": "一人っ子",
-      "kana": "ひとりっこ",
-      "romaji": "hitorikko",
-      "definition": "only child"
-    },
-    {
-      "id": "ch08_v37",
-      "partOfSpeech": "verb",
-      "kanji": "育てる",
-      "kana": "そだてる",
-      "romaji": "sodateru",
-      "definition": "to raise; to bring up"
-    },
-    {
-      "id": "ch08_v38",
-      "partOfSpeech": "verb",
-      "kanji": "生まれる",
-      "kana": "うまれる",
-      "romaji": "umareru",
-      "definition": "to be born"
-    },
-    {
-      "id": "ch08_v39",
-      "partOfSpeech": "verb",
-      "kanji": "似る",
-      "kana": "にる",
-      "romaji": "niru",
-      "definition": "to resemble"
-    },
-    {
-      "id": "ch08_v40",
-      "partOfSpeech": "noun",
-      "kanji": "結婚",
-      "kana": "けっこん",
-      "romaji": "kekkon",
-      "definition": "marriage"
+     "id": "plain-forms_q20",
+     "type": "usage",
+     "prompt": "Which sentence uses all four plain forms correctly in context?",
+     "japanese": null,
+     "choices": [
+      "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、明日[あした]も走[はし]らなかった。",
+      "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]る、今日[きょう]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
+      "毎日[まいにち]走[はし]る、昨日[きのう]走[はし]った、今日[きょう]は走[はし]らない、先週[せんしゅう]も走[はし]らなかった。",
+      "毎日[まいにち]走[はし]る、昨日[きのう]走[そう]いた、今日[きょう]は走[そう]ない、先週[せんしゅう]も走[はし]らなかった。"
+     ],
+     "correctIndex": 2,
+     "explanation": "The four plain forms of 走[はし]る: dictionary form (走[はし]る), た-form (走[はし]った), ない-form (走[はし]らない), なかった-form (走[はし]らなかった). Option C uses all four correctly with natural time references: 毎日[まいにち](present), 昨日[きのう](past aff), 今日[きょう](present neg), 先週[せんしゅう](past neg). Options A/B have a tense error: 'tomorrow' with なかった (past)."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "nanika-nanimo",
+   "name": "何[なに]か / 何[なに]も / 誰[だれ]か / 誰[だれ]も (indefinite and negative pronouns)",
+   "shortDescription": "Indefinite pronouns (something, someone) and their negative counterparts (nothing, no one).",
+   "formation": "何[なに]か (something) / 何[なに]も + neg (nothing) / 誰[だれ]か (someone) / 誰[だれ]も + neg (no one)",
+   "explanation": "Japanese has a logical, consistent system for \"something / nothing\" and \"someone / no one\" — once you learn the pattern, it applies everywhere. The か version is used in positive sentences and questions: it signals an indefinite but existing thing or person. The も version, paired with a negative verb, creates total negation — \"nothing at all,\" \"no one at all.\"\n\nThe same pattern holds for every question word (the も form always needs a negative verb):\n- 何[なに]か = something  →  何[なに]も + negative = nothing\n- 誰[だれ]か = someone  →  誰[だれ]も + negative = no one\n- どこか = somewhere  →  どこも + negative = nowhere\n\nCompare the two directly:\n- 何[なに]か食[た]べましたか。 — Did you eat something?\n- 何[なに]も食[た]べませんでした。 — I did not eat anything.\n\nThe golden rule: 〜も is always paired with a negative verb — using も with a positive verb is a grammar error. Think of it as か = \"some-\" (open, indefinite) and も + negative = \"no-\" (complete absence).",
+   "rules": [
+    "〜か = indefinite (something, someone, somewhere) — used in positive/question contexts",
+    "〜も + negative verb = negative (nothing, no one, nowhere)",
+    "何[なに]か = something; 何[なに]も + neg = nothing / not anything",
+    "誰[だれ]か = someone; 誰[だれ]も + neg = no one / not anyone",
+    "どこか = somewhere; どこも + neg = nowhere / not anywhere",
+    "〜も MUST be paired with a negative verb — never affirmative"
+   ],
+   "examples": [
     {
-      "char": "子",
-      "word": "子ども",
-      "reading": "こども",
-      "meaning": "child"
+     "japanese": "冷蔵庫[れいぞうこ]に何[なに]かありますか。",
+     "romaji": "Reizouko ni nanika arimasu ka.",
+     "english": "Is there something in the refrigerator?"
     },
     {
-      "char": "母",
-      "word": "母",
-      "reading": "はは",
-      "meaning": "(my) mother"
+     "japanese": "今日[きょう]は何[なに]も食[た]べませんでした。",
+     "romaji": "Kyou wa nanimo tabemasendeshita.",
+     "english": "I didn't eat anything today."
     },
     {
-      "char": "父",
-      "word": "父",
-      "reading": "ちち",
-      "meaning": "(my) father"
+     "japanese": "誰[だれ]か助[たす]けてください！",
+     "romaji": "Dareka tasukete kudasai!",
+     "english": "Someone please help!"
+    },
+    {
+     "japanese": "パーティーには誰[だれ]も来[き]ませんでした。",
+     "romaji": "Paatii ni wa daremo kimasendeshita.",
+     "english": "No one came to the party."
     }
-  ]
+   ],
+   "flashcardHeader": "何か / 何も / 誰か / 誰も",
+   "flashcardAnswer": "Indefinite pronouns (something, someone) and their negative counterparts (nothing, no one).",
+   "practice": [
+    {
+     "id": "nanika-nanimo_q1",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'Is there something in the refrigerator?'",
+     "japanese": null,
+     "choices": [
+      "冷蔵庫[れいぞうこ]に何[なに]もありますか。",
+      "冷蔵庫[れいぞうこ]に何[なに]かありませんか。",
+      "冷蔵庫[れいぞうこ]に何[なに]もありませんか。",
+      "冷蔵庫[れいぞうこ]に何[なに]かありますか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "何[なに]か (something) is used in positive and question sentences. 何[なに]かありますか = Is there something? Using 何[なに]も in a question would imply a negative context; 何[なに]かありますか is the natural question form."
+    },
+    {
+     "id": "nanika-nanimo_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 今日[きょう]は___食[た]べませんでした。(I didn't eat anything today.)",
+     "japanese": "今日[きょう]は___食[た]べませんでした。",
+     "choices": [
+      "誰[だれ]か",
+      "何[なに]か",
+      "誰[だれ]も",
+      "何[なに]も"
+     ],
+     "correctIndex": 3,
+     "explanation": "何[なに]も + negative verb = nothing. 何[なに]も食[た]べませんでした = didn't eat anything (literally 'ate nothing'). Using 何[なに]か would mean 'something' in an affirmative or question context, not a negative one."
+    },
+    {
+     "id": "nanika-nanimo_q3",
+     "type": "translation",
+     "prompt": "Which sentence means 'No one came to the party'?",
+     "japanese": null,
+     "choices": [
+      "パーティーには誰[だれ]か来[き]ませんでした。",
+      "パーティーには誰[だれ]か来[き]ました。",
+      "パーティーには誰[だれ]も来[き]ませんでした。",
+      "パーティーには誰[だれ]も来[き]ました。"
+     ],
+     "correctIndex": 2,
+     "explanation": "誰[だれ]も + negative verb = no one. 誰[だれ]も来[き]ませんでした = no one came. Critically, 誰[だれ]も must pair with a negative verb. 誰[だれ]も来[き]ました would be wrong — も with an affirmative verb creates a different meaning ('everyone came')."
+    },
+    {
+     "id": "nanika-nanimo_q4",
+     "type": "usage",
+     "prompt": "Which pair of sentences is used correctly?",
+     "japanese": null,
+     "choices": [
+      "何[なに]も食[た]べましたか / 何[なに]か食[た]べませんでした。",
+      "何[なに]か食[た]べましたか / 何[なに]か食[た]べませんでした。",
+      "何[なに]も食[た]べましたか / 何[なに]も食[た]べませんでした。",
+      "何[なに]か食[た]べましたか / 何[なに]も食[た]べませんでした。"
+     ],
+     "correctIndex": 3,
+     "explanation": "The rule: 何[なに]か is for questions and positive sentences; 何[なに]も pairs with a negative verb. 何[なに]か食[た]べましたか (Did you eat something?) and 何[なに]も食[た]べませんでした (I didn't eat anything) follow this rule perfectly."
+    },
+    {
+     "id": "nanika-nanimo_q5",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 冷蔵庫[れいぞうこ]に___ありません。",
+     "japanese": "冷蔵庫[れいぞうこ]に___ありません。",
+     "choices": [
+      "何[なに]か",
+      "何[なに]も",
+      "誰[だれ]か",
+      "どこか"
+     ],
+     "correctIndex": 1,
+     "explanation": "何[なに]も is used with a negative predicate to mean 'nothing.' 何[なに]か would need a positive predicate (something). The pattern: 何[なに]も + negative verb = nothing at all."
+    },
+    {
+     "id": "nanika-nanimo_q6",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'Let's go somewhere this weekend'?",
+     "japanese": null,
+     "choices": [
+      "今週末[こんしゅうまつ]、どこか行[い]きましょう。",
+      "今週末[こんしゅうまつ]、どこも行[い]きましょう。",
+      "今週末[こんしゅうまつ]、何[なに]か行[い]きましょう。",
+      "今週末[こんしゅうまつ]、誰[だれ]か行[い]きましょう。"
+     ],
+     "correctIndex": 0,
+     "explanation": "どこか = somewhere, used in positive sentences and questions. どこも must pair with a negative verb to mean 'nowhere.' 今週末[こんしゅうまつ]どこか行[い]きましょう = Let's go somewhere this weekend. どこも行[い]きましょう is wrong because も cannot pair with an affirmative verb in this pattern."
+    },
+    {
+     "id": "nanika-nanimo_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ドアの外[そと]に___います。(Someone is outside the door.)",
+     "japanese": "ドアの外[そと]に___います。",
+     "choices": [
+      "誰[だれ]も",
+      "誰[だれ]か",
+      "何[なに]か",
+      "どこか"
+     ],
+     "correctIndex": 1,
+     "explanation": "誰[だれ]か = someone, used in affirmative sentences and questions. 誰[だれ]もいます would be wrong — も must pair with a negative verb. 誰[だれ]かいます = There is someone. Compare: 誰[だれ]もいません = There is no one."
+    },
+    {
+     "id": "nanika-nanimo_q8",
+     "type": "usage",
+     "prompt": "Which pair forms a natural question-answer exchange?",
+     "japanese": null,
+     "choices": [
+      "何[なに]も食[た]べましたか → はい、何[なに]か食[た]べました。",
+      "何[なに]も食[た]べましたか → いいえ、何[なに]も食[た]べませんでした。",
+      "何[なに]か食[た]べましたか → はい、何[なに]も食[た]べました。",
+      "何[なに]か食[た]べましたか → いいえ、何[なに]も食[た]べませんでした。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Questions use 何[なに]か (something); negative answers use 何[なに]も + negative verb (nothing). 何[なに]か食[た]べましたか (Did you eat something?) → いいえ、何[なに]も食[た]べませんでした (No, I didn't eat anything). This is the classic か/も pair in conversation. 何[なに]も食[た]べましたか is wrong because も doesn't belong in an affirmative/question context this way."
+    },
+    {
+     "id": "nanika-nanimo_q9",
+     "type": "usage",
+     "prompt": "Which sentence is grammatically WRONG?",
+     "japanese": null,
+     "choices": [
+      "何[なに]か食[た]べましたか。",
+      "何[なに]も食[た]べませんでした。",
+      "何[なに]も食[た]べました。",
+      "何[なに]か飲[の]みましたか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "何[なに]も食[た]べました is wrong: も must always pair with a negative verb. 何[なに]も食[た]べました uses an affirmative verb — this is the most common mistake learners make. Correct forms: 何[なに]か食[た]べました (ate something) or 何[なに]も食[た]べませんでした (didn't eat anything)."
+    },
+    {
+     "id": "nanika-nanimo_q10",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 昨日[きのう]は___行[い]きませんでした。(I didn't go anywhere yesterday.)",
+     "japanese": "昨日[きのう]は___行[い]きませんでした。",
+     "choices": [
+      "どこか",
+      "何[なに]か",
+      "誰[だれ]か",
+      "どこも"
+     ],
+     "correctIndex": 3,
+     "explanation": "どこも + negative verb = nowhere / not anywhere. 昨日[きのう]はどこも行[い]きませんでした = I didn't go anywhere yesterday. どこか would need an affirmative verb: どこか行[い]きましたか (Did you go somewhere?)."
+    },
+    {
+     "id": "nanika-nanimo_q11",
+     "type": "translation",
+     "prompt": "Which sentence means 'There was no one at home'?",
+     "japanese": null,
+     "choices": [
+      "家[いえ]に誰[だれ]もいませんでした。",
+      "家[いえ]に誰[だれ]かいませんでした。",
+      "家[いえ]に誰[だれ]もいました。",
+      "家[いえ]に誰[だれ]かいました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "誰[だれ]も + negative verb = no one. 誰[だれ]もいませんでした = There was no one (literally 'no one existed'). 誰[だれ]かいました = Someone was there. 誰[だれ]もいました would be wrong because も must pair with a negative verb in this usage."
+    },
+    {
+     "id": "nanika-nanimo_q12",
+     "type": "construct",
+     "prompt": "Which sentence correctly means 'Is someone calling you?'",
+     "japanese": null,
+     "choices": [
+      "誰[だれ]もあなたを呼[よ]んでいますか。",
+      "誰[だれ]もがあなたを呼[よ]んでいますか。",
+      "誰[だれ]かがあなたを呼[よ]んでいますか。",
+      "誰[だれ]かあなたを呼[よ]んでいませんか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "誰[だれ]か = someone, used in questions. 誰[だれ]かがあなたを呼[よ]んでいますか = Is someone calling you? が marks 誰[だれ]か as the subject. 誰[だれ]も in an affirmative question is wrong — も must pair with a negative verb for the 'no one' meaning."
+    },
+    {
+     "id": "nanika-nanimo_q13",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 机[つくえ]の上[うえ]に___あります。(There is something on the desk.)",
+     "japanese": "机[つくえ]の上[うえ]に___あります。",
+     "choices": [
+      "何[なに]か",
+      "何[なに]も",
+      "誰[だれ]も",
+      "どこか"
+     ],
+     "correctIndex": 0,
+     "explanation": "何[なに]か = something, used in affirmative sentences. 何[なに]かあります = There is something. 何[なに]もあります would be wrong — も must pair with a negative verb: 何[なに]もありません = There is nothing."
+    },
+    {
+     "id": "nanika-nanimo_q14",
+     "type": "usage",
+     "prompt": "Which rule correctly describes when to use 何[なに]か vs. 何[なに]も?",
+     "japanese": null,
+     "choices": [
+      "何[なに]か is used only with negative verbs; 何[なに]も is used with positive verbs.",
+      "何[なに]か is used in positive sentences and questions; 何[なに]も must pair with a negative verb.",
+      "何[なに]か and 何[なに]も are completely interchangeable.",
+      "何[なに]も can be used with both positive and negative verbs."
+     ],
+     "correctIndex": 1,
+     "explanation": "The golden rule: 何[なに]か (something) appears in affirmative sentences and questions. 何[なに]も (nothing) must always pair with a negative verb — 何[なに]も with an affirmative verb is a grammar error. This か/も rule applies consistently to 誰[だれ]か/誰[だれ]も and どこか/どこも as well."
+    },
+    {
+     "id": "nanika-nanimo_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 週末[しゅうまつ]に___行[い]きますか。(Are you going somewhere this weekend?)",
+     "japanese": "週末[しゅうまつ]に___行[い]きますか。",
+     "choices": [
+      "誰[だれ]か",
+      "どこも",
+      "どこか",
+      "何[なに]も"
+     ],
+     "correctIndex": 2,
+     "explanation": "どこか = somewhere, used in questions. 週末[しゅうまつ]にどこか行[い]きますか = Are you going somewhere this weekend? どこも行[い]きますか would be wrong — どこも must pair with a negative verb to mean 'nowhere.'"
+    },
+    {
+     "id": "nanika-nanimo_q16",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I have something to tell you'?",
+     "japanese": null,
+     "choices": [
+      "あなたに何[なに]も言[い]いたいことがあります。",
+      "あなたにどこか言[い]いたいことがあります。",
+      "あなたに誰[だれ]も言[い]いたいことがあります。",
+      "あなたに何[なに]か言[い]いたいことがあります。"
+     ],
+     "correctIndex": 3,
+     "explanation": "何[なに]か = something, used in affirmative sentences. 何[なに]か言[い]いたいことがあります = there is something I want to say. 何[なに]も would require a negative verb: 何[なに]も言[い]いたいことがありません = there is nothing I want to say."
+    },
+    {
+     "id": "nanika-nanimo_q17",
+     "type": "construct",
+     "prompt": "Which pair is used correctly (question and matching negative answer)?",
+     "japanese": null,
+     "choices": [
+      "どこか行[い]きましたか → いいえ、どこか行[い]きませんでした。",
+      "どこか行[い]きましたか → いいえ、どこも行[い]きませんでした。",
+      "どこも行[い]きましたか → いいえ、どこも行[い]きませんでした。",
+      "どこも行[い]きましたか → いいえ、どこか行[い]きませんでした。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Questions use どこか (somewhere); negative answers use どこも + negative verb (nowhere). どこか行[い]きましたか (Did you go somewhere?) → いいえ、どこも行[い]きませんでした (No, I didn't go anywhere). This mirrors the 何[なに]か/何[なに]も and 誰[だれ]か/誰[だれ]も pattern."
+    },
+    {
+     "id": "nanika-nanimo_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 電話[でんわ]に___出[で]ませんでした。(Nobody answered the phone.)",
+     "japanese": "電話[でんわ]に___出[で]ませんでした。",
+     "choices": [
+      "誰[だれ]か",
+      "どこか",
+      "誰[だれ]も",
+      "何[なに]か"
+     ],
+     "correctIndex": 2,
+     "explanation": "誰[だれ]も + negative verb = no one / not anyone. 誰[だれ]も出[で]ませんでした = Nobody answered (literally 'no one came to the phone'). 誰[だれ]か出[で]ませんでした would be unnatural and grammatically odd — 誰[だれ]か pairs with positive or question contexts."
+    },
+    {
+     "id": "nanika-nanimo_q19",
+     "type": "usage",
+     "prompt": "Which sentence uses 誰[だれ]も, 何[なに]も, and どこも all correctly?",
+     "japanese": null,
+     "choices": [
+      "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]か食[た]べました、どこも行[い]きました。",
+      "昨日[きのう]は誰[だれ]か会[あ]いませんでした、何[なに]も食[た]べませんでした、どこか行[い]きませんでした。",
+      "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。",
+      "昨日[きのう]は誰[だれ]も会[あ]いませんでした、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。"
+     ],
+     "correctIndex": 3,
+     "explanation": "誰[だれ]も、何[なに]も、どこも all require negative verbs. Option D correctly uses all three: 誰[だれ]も会[あ]いませんでした (met no one), 何[なに]も食[た]べませんでした (ate nothing), どこも行[い]きませんでした (went nowhere). Option A wrongly pairs も forms with affirmative verbs. Options B and C mix か and も incorrectly."
+    },
+    {
+     "id": "nanika-nanimo_q20",
+     "type": "construct",
+     "prompt": "Your friend says 「お腹[なか]すいた。」(I'm hungry.) Which response correctly offers to go get something?",
+     "japanese": null,
+     "choices": [
+      "何[なに]か買[か]ってこようか？",
+      "何[なに]も買[か]ってこようか？",
+      "何[なに]か食[た]べませんでした？",
+      "何[なに]も食[た]べようか？"
+     ],
+     "correctIndex": 0,
+     "explanation": "何[なに]か (something) appears in positive and question contexts. 何[なに]か買[か]ってこようか = Shall I go get something (to eat)? 何[なに]も with an affirmative verb (何[なに]も買[か]ってこようか) is wrong. Note: 食[た]べませんか (Shall we eat?) is an invitation using negative form, which is a fixed polite pattern — different from the か/も rule."
+    }
+   ]
+  },
+  {
+   "id": "no-ga-suki",
+   "name": "〜のが好[す]き / 上手[じょうず] / 下手[へた] (verb nominalization with の)",
+   "shortDescription": "Turns a verb phrase into a noun using の, allowing it to be used with particles.",
+   "formation": "Verb (plain form) + のが + 好[す]き / 嫌[きら]い / 上手[じょうず] / 下手[へた] / etc.",
+   "explanation": "In Japanese, verbs cannot directly take particles like が or を — only nouns can do that. So when you want to make a verb phrase into the subject or object of a sentence, you need to nominalize it — turn it into a noun-like thing. The simplest way is adding の after the plain form of the verb. This の transforms the whole verb phrase into something that can take particles. 読[よ]む (to read) + の = 読[よ]むの (the act of reading / reading-as-a-noun). Then attach particles: 読[よ]むのが好[す]きです (I like reading — literally 'reading is liked'). This pattern is especially common with 好[す]き, 嫌[きら]い, 上手[じょうず], and 下手[へた].\n\nA related nominalizer, こと, works similarly but sounds slightly more formal or abstract — in everyday conversation, の is the more natural and common choice. The verb before の must always be in plain form regardless of the tense or politeness of the overall sentence.",
+   "rules": [
+    "Verb (plain form) + の = noun phrase ('the act of doing X' / 'doing X')",
+    "Attach particles after の: 〜のが (subject), 〜のを (object)",
+    "Common uses: 〜のが好[す]き (like doing), 〜のが嫌[きら]い (hate doing), 〜のが上手[じょうず] (good at doing)",
+    "The verb before の must be in plain form",
+    "Compare: の (natural/conversational) vs こと (more formal/written)"
+   ],
+   "examples": [
+    {
+     "japanese": "音楽[おんがく]を聴[き]くのが好[す]きです。",
+     "romaji": "Ongaku wo kiku no ga suki desu.",
+     "english": "I like listening to music."
+    },
+    {
+     "japanese": "料理[りょうり]するのはあまり好[す]きじゃないです。",
+     "romaji": "Ryouri suru no wa amari suki ja nai desu.",
+     "english": "I don't really like cooking."
+    },
+    {
+     "japanese": "田中[たなか]さんはピアノを弾[ひ]くのが上手[じょうず]です。",
+     "romaji": "Tanaka-san wa piano wo hiku no ga jouzu desu.",
+     "english": "Tanaka-san is good at playing piano."
+    },
+    {
+     "japanese": "外国語[がいこくご]を話[はな]すのは難[むずか]しいですね。",
+     "romaji": "Gaikokugo wo hanasu no wa muzukashii desu ne.",
+     "english": "Speaking foreign languages is difficult, isn't it?"
+    }
+   ],
+   "flashcardHeader": "〜のが好き / 上手 / 下手 (verb nominalization with の)",
+   "flashcardAnswer": "Turns a verb phrase into a noun using の, allowing it to be used with particles.",
+   "practice": [
+    {
+     "id": "no-ga-suki_q1",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'I like listening to music'?",
+     "japanese": null,
+     "choices": [
+      "音楽[おんがく]を聴[き]くことのが好[す]きです。",
+      "音楽[おんがく]を聴[き]いてのが好[す]きです。",
+      "音楽[おんがく]を聴[き]くのが好[す]きです。",
+      "音楽[おんがく]を聴[き]きのが好[す]きです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "To nominalize a verb phrase, use plain form + の. 聴[き]く (dictionary form) + の + が + 好[す]きです = like listening to music. Using the stem (聴[き]き) or て-form before の is incorrect."
+    },
+    {
+     "id": "no-ga-suki_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 田中[たなか]さんはピアノを弾[ひ]く___上手[じょうず]です。",
+     "japanese": "田中[たなか]さんはピアノを弾[ひ]く___上手[じょうず]です。",
+     "choices": [
+      "が",
+      "での",
+      "をが",
+      "のが"
+     ],
+     "correctIndex": 3,
+     "explanation": "To say someone is good at doing something, use verb (plain form) + のが + 上手[じょうず]. の nominalizes the verb phrase, and が marks it as the subject of 上手[じょうず]. 弾[ひ]くのが上手[じょうず] = good at playing."
+    },
+    {
+     "id": "no-ga-suki_q3",
+     "type": "translation",
+     "prompt": "Which sentence means 'I don't really like cooking'?",
+     "japanese": null,
+     "choices": [
+      "料理[りょうり]するがあまり好[す]きじゃないです。",
+      "料理[りょうり]することがあまり好[す]きじゃないです。",
+      "料理[りょうり]するのはあまり好[す]きじゃないです。",
+      "料理[りょうり]してのはあまり好[す]きじゃないです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "料理[りょうり]する (plain form) + のは → the verb phrase becomes a topic using のは. あまり〜じゃない = not very much. Option D uses こと which is slightly more formal/written; の is more natural in conversation."
+    },
+    {
+     "id": "no-ga-suki_q4",
+     "type": "usage",
+     "prompt": "Which sentence uses verb nominalization with の correctly?",
+     "japanese": null,
+     "choices": [
+      "外国語[がいこくご]を話[はな]すがは難[むずか]しいですね。",
+      "外国語[がいこくご]を話[はな]してのは難[むずか]しいですね。",
+      "外国語[がいこくご]を話[はな]すのは難[むずか]しいですね。",
+      "外国語[がいこくご]を話[はな]しのは難[むずか]しいですね。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Plain form (話[はな]す) + のは turns the verb phrase into a topic. 外国語[がいこくご]を話[はな]すのは難[むずか]しい = Speaking foreign languages is difficult. The verb must be in plain form before の; using the stem or て-form is incorrect."
+    },
+    {
+     "id": "no-ga-suki_q5",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'Tanaka-san is bad at singing'?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんは歌[うた]いのが下手[へた]です。",
+      "田中[たなか]さんは歌[うた]うことのが下手[へた]です。",
+      "田中[たなか]さんは歌[うた]うのが下手[へた]です。",
+      "田中[たなか]さんは歌[うた]ってのが下手[へた]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Pattern: verb plain form + のが + 下手[へた]. 歌[うた]う (to sing, dictionary form) + のが + 下手[へた]です = is bad at singing. のが links the nominalized verb phrase to the adjective 下手[へた]."
+    },
+    {
+     "id": "no-ga-suki_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 私[わたし]は絵[え]を描[えが]く___得意[とくい]です。(I'm good at drawing pictures.)",
+     "japanese": "私[わたし]は絵[え]を描[えが]く___得意[とくい]です。",
+     "choices": [
+      "のが",
+      "のは",
+      "をが",
+      "での"
+     ],
+     "correctIndex": 0,
+     "explanation": "Pattern: verb plain form + のが + adjective. の nominalizes the verb phrase (描[えが]く → 描[えが]くの = the act of drawing), and が marks it as the subject of 得意[とくい]. 描[えが]くのが得意[とくい] = good at drawing. のは would make it a topic rather than subject, which changes the nuance slightly."
+    },
+    {
+     "id": "no-ga-suki_q7",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'I like swimming'?",
+     "japanese": null,
+     "choices": [
+      "泳[およ]ぎのが好[す]きです。",
+      "泳[およ]いでのが好[す]きです。",
+      "泳[およ]ぐのが好[す]きです。",
+      "泳[えい]くのが好[す]きです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Pattern: verb plain form (dictionary form) + のが + 好[す]き. 泳[およ]ぐ is the plain form of 'to swim.' 泳[およ]ぐのが好[す]きです = I like swimming. Using the stem 泳[およ]ぎ or て-form 泳[およ]いで before の is incorrect — の requires the plain form."
+    },
+    {
+     "id": "no-ga-suki_q8",
+     "type": "translation",
+     "prompt": "Which question correctly asks 'What do you like doing?'",
+     "japanese": null,
+     "choices": [
+      "何[なに]をするがのは好[す]きですか。",
+      "何[なに]をするのが好[す]きですか。",
+      "何[なに]をするのを好[す]きですか。",
+      "何[なん]のするのが好[す]きですか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "何[なに]をするのが好[す]きですか = What do you like doing? The structure is: 何[なに]を+する (what to do) → nominalized by の → のが好[す]きですか (is  liked?). The particle before 好[す]き must be が, not を, because 好[す]き is an adjective (not a verb): 〜のが好[す]き, not 〜のを好[す]き."
+    },
+    {
+     "id": "no-ga-suki_q9",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 早起[はやお]きする___嫌[きら]いです。(I hate getting up early.)",
+     "japanese": "早起[はやお]きする___嫌[きら]いです。",
+     "choices": [
+      "こと",
+      "での",
+      "を",
+      "のが"
+     ],
+     "correctIndex": 3,
+     "explanation": "Pattern: verb plain form + のが + 嫌[きら]い. 早起[はやお]きするのが嫌[きら]いです = I hate getting up early. Note: こと also nominalizes verbs and is grammatically correct (早起[はやお]きすることが嫌[きら]い), but の sounds more natural in spoken Japanese."
+    },
+    {
+     "id": "no-ga-suki_q10",
+     "type": "usage",
+     "prompt": "In spoken Japanese, which sentence is most natural for 'I like watching movies'?",
+     "japanese": null,
+     "choices": [
+      "映画[えいが]を見[み]るのが好[す]きです。",
+      "映画[えいが]を見[み]ることのが好[す]きです。",
+      "映画[えいが]を見[み]てのが好[す]きです。",
+      "映画[えいが]を見[み]るをが好[す]きです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "In conversation, の is the natural nominalizer. 映画[えいが]を見[み]るのが好[す]きです (I like watching movies) is natural and common. こと also works (映画[えいが]を見[み]ることが好[す]き) but sounds slightly more formal or written. Using ことの, てのが, or をが are all errors."
+    },
+    {
+     "id": "no-ga-suki_q11",
+     "type": "construct",
+     "prompt": "Which sentence correctly means 'I'm bad at cooking'?",
+     "japanese": null,
+     "choices": [
+      "料理[りょうり]するのが上手[じょうず]です。",
+      "料理[りょうり]してのが下手[へた]です。",
+      "料理[りょうり]するのが下手[へた]です。",
+      "料理[りょうり]しのが下手[へた]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Pattern: verb plain form + のが + 下手[へた]. 料理[りょうり]する (plain form of する compound) + のが + 下手[へた]です = I'm bad at cooking. 上手[じょうず] means 'good at' — the opposite. Using the て-form (料理[りょうり]して) or stem (料理[りょうり]し) before の is wrong; the plain form is required."
+    },
+    {
+     "id": "no-ga-suki_q12",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 走[はし]る___楽[たの]しいです。(Running is fun.)",
+     "japanese": "走[はし]る___楽[たの]しいです。",
+     "choices": [
+      "での",
+      "のが",
+      "をを",
+      "をが"
+     ],
+     "correctIndex": 1,
+     "explanation": "走[はし]るのが楽[たの]しいです = Running is fun. の nominalizes 走[はし]る, and が marks the nominalized phrase as the subject of 楽[たの]しい. Alternatively, のは could work (走[はし]るのは楽[たの]しい = As for running, it's fun), but のが is the standard pattern taught in this point."
+    },
+    {
+     "id": "no-ga-suki_q13",
+     "type": "usage",
+     "prompt": "Which sentence correctly means 'Not eating breakfast is not good for your health'?",
+     "japanese": null,
+     "choices": [
+      "朝[あさ]ごはんを食[た]べるのが体[からだ]によくないです。",
+      "朝[あさ]ごはんを食[た]べないことのが体[からだ]によくないです。",
+      "朝[あさ]ごはんを食[た]べなくてのは体[からだ]によくないです。",
+      "朝[あさ]ごはんを食[た]べないのは体[からだ]によくないです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "A negative plain form can also be nominalized with の. 食[た]べない (negative plain form) + のは = 'not eating (as a topic).' 朝[あさ]ごはんを食[た]べないのは体[からだ]によくない = Not eating breakfast is bad for your health. The verb before の must be in plain form — whether affirmative or negative."
+    },
+    {
+     "id": "no-ga-suki_q14",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I heard him playing the piano'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]がピアノを弾[ひ]くのを聞[き]きました。",
+      "彼[かれ]がピアノを弾[ひ]くのが聞[き]きました。",
+      "彼[かれ]がピアノを弾[ひ]くをが聞[き]きました。",
+      "彼[かれ]がピアノを弾[ひ]きのを聞[き]きました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "When の nominalizes a verb phrase as the object of a perception verb, use のを (not のが). 彼[かれ]がピアノを弾[ひ]くのを聞[き]きました = I heard him playing the piano. の turns the verb phrase into a noun; を marks it as the object of 聞[き]く. Using のが here is wrong because 聞[き]く is a verb, not an adjective."
+    },
+    {
+     "id": "no-ga-suki_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 姉[あね]はダンスを___のが上手[じょうず]です。(My older sister is good at dancing.)",
+     "japanese": "姉[あね]はダンスを___のが上手[じょうず]です。",
+     "choices": [
+      "踊[おど]りて",
+      "踊[おど]って",
+      "踊[おど]る",
+      "踊[おど]り"
+     ],
+     "correctIndex": 2,
+     "explanation": "The verb before の must be in plain (dictionary) form. 踊[おど]る (to dance, plain form) + のが + 上手[じょうず] = good at dancing. 踊[おど]って is the て-form; 踊[おど]り is the stem — neither can precede の. Only the plain form (dictionary form) works as a nominalizer with の."
+    },
+    {
+     "id": "no-ga-suki_q16",
+     "type": "construct",
+     "prompt": "Which sentence sounds more formal or written (compared to using の)?",
+     "japanese": null,
+     "choices": [
+      "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]するのは大切[たいせつ]です。",
+      "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]することは大切[たいせつ]です。",
+      "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]してのは大切[たいせつ]です。",
+      "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]するがは大切[たいせつ]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "こと is the more formal/written nominalizer. 毎日[まいにち]日本語[にほんご]を勉強[べんきょう]することは大切[たいせつ]です = Studying Japanese every day is important (formal). の sounds more conversational: 勉強[べんきょう]するのは大切[たいせつ]. Both are grammatically correct, but こと is preferred in essays, formal writing, and set expressions like 〜ことができる."
+    },
+    {
+     "id": "no-ga-suki_q17",
+     "type": "usage",
+     "prompt": "Which sentence correctly means 'I don't like waking up early'?",
+     "japanese": null,
+     "choices": [
+      "早起[はやお]きするのが好[す]きです。",
+      "早起[はやお]きしてのが好[す]きじゃないです。",
+      "早起[はやお]きするのが好[す]きじゃないです。",
+      "早起[はやお]きするがのは好[す]きじゃないです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Pattern: verb plain form + のが + 好[す]きじゃない (don't like). 早起[はやお]きするのが好[す]きじゃないです = I don't like getting up early. The の nominalizes the verb, が marks it as subject, and 好[す]きじゃない is the negative of 好[す]き. The plain form (早起[はやお]きする) before の is required."
+    },
+    {
+     "id": "no-ga-suki_q18",
+     "type": "translation",
+     "prompt": "Which sentence means 'She is not good at / weak at speaking in front of people'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが得意[とくい]です。",
+      "彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが苦手[にがて]です。",
+      "彼女[かのじょ]は人前[ひとまえ]で話[はな]してのが苦手[にがて]です。",
+      "彼女[かのじょ]は人前[ひとまえ]で話[はな]すをが苦手[にがて]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "苦手[にがて] means 'not good at' / 'weak at' — the opposite of 得意[とくい] (good at). 彼女[かのじょ]は人前[ひとまえ]で話[はな]すのが苦手[にがて]です = She's weak at speaking in front of people. Plain form (話[はな]す) + のが + 苦手[にがて] is the pattern. 得意[とくい] would mean the opposite. Using the て-form (話[はな]して) or を+が before 苦手[にがて] is incorrect."
+    },
+    {
+     "id": "no-ga-suki_q19",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: この漢字[かんじ]を書[か]く___難[むずか]しいです。(Writing this kanji is difficult.)",
+     "japanese": "この漢字[かんじ]を書[か]く___難[むずか]しいです。",
+     "choices": [
+      "のが",
+      "での",
+      "のを",
+      "をが"
+     ],
+     "correctIndex": 0,
+     "explanation": "Pattern: verb plain form + のが + adjective. この漢字[かんじ]を書[か]く (writing this kanji) + のが (nominalizer + subject marker) + 難[むずか]しい = Writing this kanji is difficult. の turns the verb phrase into a noun; が marks it as the subject of 難[むずか]しい."
+    },
+    {
+     "id": "no-ga-suki_q20",
+     "type": "usage",
+     "prompt": "What is the correct response to 「何[なに]をするのが好[す]きですか？」(What do you like doing?)",
+     "japanese": null,
+     "choices": [
+      "音楽[おんがく]のが好[す]きです。",
+      "音楽[おんがく]を聴[き]いてのが好[す]きです。",
+      "音楽[おんがく]を聴[き]くがのが好[す]きです。",
+      "音楽[おんがく]を聴[き]くのが好[す]きです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Answer pattern: verb plain form + のが + 好[す]き. 音楽[おんがく]を聴[き]く (to listen to music, plain form) + のが + 好[す]きです = I like listening to music. This mirrors the question structure: 何[なに]をするのが好[す]きですか → 〜するのが好[す]きです. Using the て-form (聴[き]いて) or misplacing が before の are common errors."
+    }
+   ]
+  },
+  {
+   "id": "nai-de-kudasai",
+   "name": "〜ないでください (nai de kudasai) — please don't",
+   "shortDescription": "A polite request not to do something.",
+   "formation": "Verb (ない-form) + でください",
+   "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走[はし]る → 走[はし]らない → 走[はし]らないでください (Please don't run). 食[た]べる → 食[た]べない → 食[た]べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 6): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言[い]わないで (Don't say things like that).",
+   "rules": [
+    "Pattern: Verb (ない-form) + でください = Please don't do X",
+    "Keep the full ない-form: e.g., 食[た]べないでください (not 食[た]べないくださ)",
+    "Casual: ないで (drop ください) = for friends and casual situations",
+    "Stronger prohibition: 〜てはいけません (must not)",
+    "Softer alternative: 〜ないようにしてください (please try not to)"
+   ],
+   "examples": [
+    {
+     "japanese": "ここで写真[しゃしん]を撮[と]らないでください。",
+     "romaji": "Koko de shashin wo toranai de kudasai.",
+     "english": "Please don't take photos here."
+    },
+    {
+     "japanese": "廊下[ろうか]で走[はし]らないでください。",
+     "romaji": "Rouka de hashiranai de kudasai.",
+     "english": "Please don't run in the hallway."
+    },
+    {
+     "japanese": "そんなこと言[い]わないで。",
+     "romaji": "Sonna koto iwanai de.",
+     "english": "Don't say things like that."
+    },
+    {
+     "japanese": "食[た]べる前[まえ]に手[て]を洗[あら]わないでください。",
+     "romaji": "Taberu mae ni te wo arawanai de kudasai.",
+     "english": "Please don't eat without washing your hands first."
+    }
+   ],
+   "flashcardHeader": "〜ないでください",
+   "flashcardAnswer": "A polite request not to do something.",
+   "practice": [
+    {
+     "id": "nai-de-kudasai_q1",
+     "type": "construct",
+     "prompt": "Which sentence correctly means 'Please don't run in the hallway'?",
+     "japanese": null,
+     "choices": [
+      "廊下[ろうか]で走[そう]いないでください。",
+      "廊下[ろうか]で走[はし]らないでください。",
+      "廊下[ろうか]で走[そう]くないでください。",
+      "廊下[ろうか]で走[はし]てはいけません。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Pattern: ない-form + でください. 走[はし]る → ない-form: 走[はし]らない → 走[はし]らないでください (Please don't run). The ない ending stays intact — do not drop い before でください."
+    },
+    {
+     "id": "nai-de-kudasai_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ここで写真[しゃしん]を撮[と]ら___ください。(Please don't take photos here.)",
+     "japanese": "ここで写真[しゃしん]を撮[と]ら___ください。",
+     "choices": [
+      "なくて",
+      "くないで",
+      "らずに",
+      "ないで"
+     ],
+     "correctIndex": 3,
+     "explanation": "The pattern is ない-form + でください. 撮[と]る → 撮[と]らない → 撮[と]らないで + ください = 撮[と]らないでください. The でください immediately follows the full ない-form."
+    },
+    {
+     "id": "nai-de-kudasai_q3",
+     "type": "usage",
+     "prompt": "Which sentence is a polite request NOT to do something (softer than a prohibition)?",
+     "japanese": null,
+     "choices": [
+      "ここでたばこを吸[す]ってもいいです。",
+      "ここでたばこを吸[す]わないでください。",
+      "ここでたばこを吸[す]ってはいけません。",
+      "ここでたばこを吸[す]ってください。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ないでください is a polite request not to do something — softer than a rule. 〜てはいけません is a firm prohibition. A request to 'please not smoke here' uses ないでください; a strict 'no smoking' rule uses てはいけません."
+    },
+    {
+     "id": "nai-de-kudasai_q4",
+     "type": "translation",
+     "prompt": "Which sentence correctly translates 'Please don't eat without washing your hands'?",
+     "japanese": null,
+     "choices": [
+      "手[て]を洗[あら]うないでください。",
+      "手[て]を洗[あら]ってくないです。",
+      "手[て]を洗[あら]わなくてください。",
+      "手[て]を洗[あら]わないでください。"
+     ],
+     "correctIndex": 3,
+     "explanation": "洗[あら]う → ない-form: 洗[あら]わない → 洗[あら]わないでください (Please don't not wash... / Please wash). Here the sentence means: 'Please don't go without washing your hands.' The ない-form stays intact before でください."
+    },
+    {
+     "id": "nai-de-kudasai_q5",
+     "type": "construct",
+     "prompt": "Which sentence correctly means 'Please don't do that'?",
+     "japanese": null,
+     "choices": [
+      "それをするないでください。",
+      "それをしくないでください。",
+      "それをしなくてください。",
+      "それをしないでください。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Pattern: ない-form + でください. する is irregular: its ない-form is しない. Attach でください: しないでください = Please don't do. Common errors: するない (keeps dictionary form instead of ない-form), しなくて (て-form of negative — used for 'without doing,' not for requests)."
+    },
+    {
+     "id": "nai-de-kudasai_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 明日[あした]は___ください。(Please don't come tomorrow.)",
+     "japanese": "明日[あした]は___ください。",
+     "choices": [
+      "来[く]るないで",
+      "こないで",
+      "くるなくて",
+      "きないで"
+     ],
+     "correctIndex": 1,
+     "explanation": "来[く]る is irregular: its ない-form is こない (not くない or きない). Attach でください: こないでください = Please don't come. 来[く]るないで keeps the dictionary form — wrong. きないで is a common error mixing the readings of 来[らい]. The ない-form must be used, not the dictionary form."
+    },
+    {
+     "id": "nai-de-kudasai_q7",
+     "type": "usage",
+     "prompt": "A school posts a permanent rule: 'No running in the hallway.' Which phrasing best expresses a firm RULE (not just a polite request)?",
+     "japanese": null,
+     "choices": [
+      "廊下[ろうか]を走[はし]らないです。",
+      "廊下[ろうか]を走[はし]らないようにしてください。",
+      "廊下[ろうか]を走[はし]ってはいけません。",
+      "廊下[ろうか]を走[はし]らないでください。"
+     ],
+     "correctIndex": 2,
+     "explanation": "てはいけません = firm prohibition (must not, it is not allowed). ないでください = polite request (please don't). For a permanent rule or sign, てはいけません is stronger and more appropriate. ないでください is softer — used when asking someone nicely, not for official prohibitions. ないようにしてください = please try not to (even softer)."
+    },
+    {
+     "id": "nai-de-kudasai_q8",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: そんなこと___。(Don't say things like that.) [casual, between friends]",
+     "japanese": "そんなこと___。",
+     "choices": [
+      "言[い]わないで",
+      "言[い]いないで",
+      "言[い]わないください",
+      "言[い]わなくて"
+     ],
+     "correctIndex": 0,
+     "explanation": "Casual negative request = ない-form + で (drop ください). 言[い]う → ない-form: 言[い]わない → 言[い]わないで = Don't say. In casual speech between friends, dropping ください makes the request sound natural and less stiff. 言[い]わないでください would be polite but overly formal between close friends."
+    },
+    {
+     "id": "nai-de-kudasai_q9",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'Please don't talk in the library'?",
+     "japanese": null,
+     "choices": [
+      "図書館[としょかん]で話[はな]さないです。",
+      "図書館[としょかん]で話[はな]さないでください。",
+      "図書館[としょかん]で話[はな]してないでください。",
+      "図書館[としょかん]で話[はな]しないでください。"
+     ],
+     "correctIndex": 1,
+     "explanation": "話[はな]す → ない-form: 話[はな]さない → 話[はな]さないでください = Please don't talk. 図書館[としょかん]で話[はな]さないでください is a polite request appropriate for a library sign or a librarian asking visitors. 話[はな]しないでください is wrong (話[はな]し is the stem, not the ない-form base). 話[はな]さないです is not a request."
+    },
+    {
+     "id": "nai-de-kudasai_q10",
+     "type": "construct",
+     "prompt": "Which sentence is WRONG because ないでください cannot be used with い-adjectives?",
+     "japanese": null,
+     "choices": [
+      "うるさくないでください。",
+      "速[はや]く歩[ある]かないでください。",
+      "音楽[おんがく]を聴[き]かないでください。",
+      "ここで食[た]べないでください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ないでください attaches only to verb ない-forms, not adjectives. うるさい is an い-adjective — you cannot say うるさくないでください as a request not to be noisy. Instead say 静[しず]かにしてください (please be quiet) or うるさくしないでください (please don't make noise). The other options all have correct verb ない-forms."
+    },
+    {
+     "id": "nai-de-kudasai_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ここに名前[なまえ]を___ください。(Please don't write your name here.)",
+     "japanese": "ここに名前[なまえ]を___ください。",
+     "choices": [
+      "書[か]かなくて",
+      "書[か]くないで",
+      "書[か]きないで",
+      "書[か]かないで"
+     ],
+     "correctIndex": 3,
+     "explanation": "書[か]く → ない-form: 書[か]かない (godan く verb: く→か+ない) → 書[か]かないで + ください = 書[か]かないでください. The blank requires 書[か]かないで (the ない-form + で). 書[か]かなくて is the て-form of the negative — used for 'without writing,' not for a polite request."
+    },
+    {
+     "id": "nai-de-kudasai_q12",
+     "type": "usage",
+     "prompt": "Someone says 「静[しず]かにしてください。話[はな]さないでください。」Which is the best polite agreement?",
+     "japanese": null,
+     "choices": [
+      "はい、話[はな]します。",
+      "いいえ、話[はな]さないでください。",
+      "分[わ]かりました。話[はな]しません。",
+      "はい、話[はな]してください。"
+     ],
+     "correctIndex": 2,
+     "explanation": "To agree with a negative request, respond: 分[わ]かりました (understood) + the negative form of the verb. 話[はな]しません = I will not talk. Using はい、話[はな]します (yes, I will talk) accepts but does the opposite. Repeating ないでください back is not how you accept — you confirm with the plain negative."
+    },
+    {
+     "id": "nai-de-kudasai_q13",
+     "type": "construct",
+     "prompt": "Your friend keeps dropping by unannounced. Which casual request is correct?",
+     "japanese": null,
+     "choices": [
+      "急[きゅう]に来[く]るないで。",
+      "急[きゅう]にこないで。",
+      "急[きゅう]にきないで。",
+      "急[きゅう]に来[こ]なないで。"
+     ],
+     "correctIndex": 1,
+     "explanation": "来[く]る is irregular: ない-form = こない. Casual request drops ください: こないで = Don't come. 来[く]るないで keeps the dictionary form — wrong. きないで confuses the on-reading (き) with the irregular ない-form stem (こ). The irregular こない must be memorized: くる → こない → こないで."
+    },
+    {
+     "id": "nai-de-kudasai_q14",
+     "type": "translation",
+     "prompt": "Which sentence means 'Please don't open the window'?",
+     "japanese": null,
+     "choices": [
+      "窓[まど]を開[あ]けないでください。",
+      "窓[まど]を開[あ]けないです。",
+      "窓[まど]を開[あ]けなくてください。",
+      "窓[まど]を開[あ]けてないでください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "開[あ]ける is a Group 2 (ichidan) verb: drop る, add ない → 開[あ]けない → 開[あ]けないでください = Please don't open. 開[あ]けないです is a negative statement ('I won't open'), not a request. 開[あ]けなくて is the て-form of the negative. 開[あ]けてないで is ungrammatical for a negative request."
+    },
+    {
+     "id": "nai-de-kudasai_q15",
+     "type": "usage",
+     "prompt": "A hospital notice reads: 'Please don't use your phone here.' Which phrasing is a polite request (not a prohibition)?",
+     "japanese": null,
+     "choices": [
+      "ここで携帯[けいたい]を使[つか]ってはいけません。",
+      "ここで携帯[けいたい]を使[つか]うです。",
+      "ここで携帯[けいたい]を使[つか]いないでください。",
+      "ここで携帯[けいたい]を使[つか]わないでください。"
+     ],
+     "correctIndex": 3,
+     "explanation": "使[つか]う → ない-form: 使[つか]わない (godan う verb: う→わ+ない) → 使[つか]わないでください = Please don't use. This is a polite request, softer than 使[つか]ってはいけません (prohibition). 使[つか]いないでください is wrong (使[つか]い is the stem, not the ない-form base). ないでください is the appropriate form for a considerate request."
+    },
+    {
+     "id": "nai-de-kudasai_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 授業中[じゅぎょうちゅう]に飲[の]み物[もの]を___ください。(Please don't drink during class.)",
+     "japanese": "授業中[じゅぎょうちゅう]に飲[の]み物[もの]を___ください。",
+     "choices": [
+      "飲[の]むないで",
+      "飲[の]んないで",
+      "飲[の]まないで",
+      "飲[の]まなくて"
+     ],
+     "correctIndex": 2,
+     "explanation": "飲[の]む → ない-form: 飲[の]まない (godan む verb: む→ま+ない) → 飲[の]まないで + ください = 飲[の]まないでください. The blank requires 飲[の]まないで. 飲[の]むないで keeps the dictionary form — wrong. 飲[の]まなくて is the て-form of the negative, used for 'without drinking' in a causal clause, not a request."
+    },
+    {
+     "id": "nai-de-kudasai_q17",
+     "type": "construct",
+     "prompt": "Which sentence is the SOFTEST, most indirect way to say 'please try not to be late'?",
+     "japanese": null,
+     "choices": [
+      "遅[おく]れてはいけません。",
+      "遅[おく]れないようにしてください。",
+      "遅[おく]れないでください。",
+      "遅[おく]れないです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Ranked from firmest to softest: てはいけません (prohibition/must not) > ないでください (polite request: please don't) > ないようにしてください (please try not to — the softest, most indirect). ないようにしてください acknowledges the action might be hard to avoid and asks the person to make an effort."
+    },
+    {
+     "id": "nai-de-kudasai_q18",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'Please don't worry'?",
+     "japanese": null,
+     "choices": [
+      "心配[しんぱい]しないでください。",
+      "心配[しんぱい]するないでください。",
+      "心配[しんぱい]しくないでください。",
+      "心配[しんぱい]しなくてください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "心配[しんぱい]する is a する compound verb. する is irregular: ない-form = しない. 心配[しんぱい]しない + でください = 心配[しんぱい]しないでください = Please don't worry. 心配[しんぱい]するないで keeps the dictionary form — wrong. しくないで and しなくて are errors (the correct ない-form is しない, not しくない or して from なくて)."
+    },
+    {
+     "id": "nai-de-kudasai_q19",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses ないで to mean 'I went to school without eating breakfast'?",
+     "japanese": null,
+     "choices": [
+      "朝[あさ]ごはんを食[た]べなくて学校[がっこう]に行[い]きました。",
+      "朝[あさ]ごはんを食[た]べないを学校[がっこう]に行[い]きました。",
+      "朝[あさ]ごはんを食[た]べないくて学校[がっこう]に行[い]きました。",
+      "朝[あさ]ごはんを食[た]べないで学校[がっこう]に行[い]きました。"
+     ],
+     "correctIndex": 3,
+     "explanation": "ないで (mid-sentence, without でください) also means 'without doing X.' 朝[あさ]ごはんを食[た]べないで学校[がっこう]に行[い]きました = I went to school without eating breakfast. Here ないで connects two actions ('without doing A, did B'). なくて is also used for negation in connected clauses, but ないで is preferred when describing 'without doing' an action."
+    },
+    {
+     "id": "nai-de-kudasai_q20",
+     "type": "construct",
+     "prompt": "The teacher wants students to use Japanese only. Which sentence correctly means 'Please don't speak in English'?",
+     "japanese": null,
+     "choices": [
+      "英語[えいご]で話[はな]してください。",
+      "英語[えいご]で話[はな]してはいけます。",
+      "英語[えいご]で話[はな]さないでください。",
+      "英語[えいご]で話[はな]しないでください。"
+     ],
+     "correctIndex": 2,
+     "explanation": "話[はな]す → ない-form: 話[はな]さない (godan す verb: す→さ+ない) → 話[はな]さないでください = Please don't speak (in English). 話[はな]してください is the opposite (please speak in English). 話[はな]してはいけます is not a real form — the prohibition is てはいけません, not てはいけます. 話[はな]しないでください uses the stem (話[はな]し) instead of the ない-form base — wrong."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch08_v01",
+   "partOfSpeech": "noun",
+   "kanji": "家族",
+   "kana": "かぞく",
+   "romaji": "kazoku",
+   "definition": "family"
+  },
+  {
+   "id": "ch08_v02",
+   "partOfSpeech": "noun",
+   "kanji": "両親",
+   "kana": "りょうしん",
+   "romaji": "ryoushin",
+   "definition": "parents"
+  },
+  {
+   "id": "ch08_v03",
+   "partOfSpeech": "noun",
+   "kanji": "父",
+   "kana": "ちち",
+   "romaji": "chichi",
+   "definition": "(my) father"
+  },
+  {
+   "id": "ch08_v04",
+   "partOfSpeech": "noun",
+   "kanji": "母",
+   "kana": "はは",
+   "romaji": "haha",
+   "definition": "(my) mother"
+  },
+  {
+   "id": "ch08_v05",
+   "partOfSpeech": "noun",
+   "kanji": "お父さん",
+   "kana": "おとうさん",
+   "romaji": "otousan",
+   "definition": "father (polite)"
+  },
+  {
+   "id": "ch08_v06",
+   "partOfSpeech": "noun",
+   "kanji": "お母さん",
+   "kana": "おかあさん",
+   "romaji": "okaasan",
+   "definition": "mother (polite)"
+  },
+  {
+   "id": "ch08_v07",
+   "partOfSpeech": "noun",
+   "kanji": "兄",
+   "kana": "あに",
+   "romaji": "ani",
+   "definition": "(my) older brother"
+  },
+  {
+   "id": "ch08_v08",
+   "partOfSpeech": "noun",
+   "kanji": "姉",
+   "kana": "あね",
+   "romaji": "ane",
+   "definition": "(my) older sister"
+  },
+  {
+   "id": "ch08_v09",
+   "partOfSpeech": "noun",
+   "kanji": "弟",
+   "kana": "おとうと",
+   "romaji": "otouto",
+   "definition": "younger brother"
+  },
+  {
+   "id": "ch08_v10",
+   "partOfSpeech": "noun",
+   "kanji": "妹",
+   "kana": "いもうと",
+   "romaji": "imouto",
+   "definition": "younger sister"
+  },
+  {
+   "id": "ch08_v11",
+   "partOfSpeech": "noun",
+   "kanji": "お兄さん",
+   "kana": "おにいさん",
+   "romaji": "oniisan",
+   "definition": "older brother (polite)"
+  },
+  {
+   "id": "ch08_v12",
+   "partOfSpeech": "noun",
+   "kanji": "お姉さん",
+   "kana": "おねえさん",
+   "romaji": "oneesan",
+   "definition": "older sister (polite)"
+  },
+  {
+   "id": "ch08_v13",
+   "partOfSpeech": "noun",
+   "kanji": "祖父",
+   "kana": "そふ",
+   "romaji": "sofu",
+   "definition": "(my) grandfather"
+  },
+  {
+   "id": "ch08_v14",
+   "partOfSpeech": "noun",
+   "kanji": "祖母",
+   "kana": "そぼ",
+   "romaji": "sobo",
+   "definition": "(my) grandmother"
+  },
+  {
+   "id": "ch08_v15",
+   "partOfSpeech": "noun",
+   "kanji": "おじいさん",
+   "kana": "おじいさん",
+   "romaji": "ojiisan",
+   "definition": "grandfather (polite)"
+  },
+  {
+   "id": "ch08_v16",
+   "partOfSpeech": "noun",
+   "kanji": "おばあさん",
+   "kana": "おばあさん",
+   "romaji": "obaasan",
+   "definition": "grandmother (polite)"
+  },
+  {
+   "id": "ch08_v17",
+   "partOfSpeech": "noun",
+   "kanji": "おじ",
+   "kana": "おじ",
+   "romaji": "oji",
+   "definition": "uncle"
+  },
+  {
+   "id": "ch08_v18",
+   "partOfSpeech": "noun",
+   "kanji": "おば",
+   "kana": "おば",
+   "romaji": "oba",
+   "definition": "aunt"
+  },
+  {
+   "id": "ch08_v19",
+   "partOfSpeech": "noun",
+   "kanji": "夫",
+   "kana": "おっと",
+   "romaji": "otto",
+   "definition": "husband"
+  },
+  {
+   "id": "ch08_v20",
+   "partOfSpeech": "noun",
+   "kanji": "妻",
+   "kana": "つま",
+   "romaji": "tsuma",
+   "definition": "wife"
+  },
+  {
+   "id": "ch08_v21",
+   "partOfSpeech": "noun",
+   "kanji": "主人",
+   "kana": "しゅじん",
+   "romaji": "shujin",
+   "definition": "(my) husband"
+  },
+  {
+   "id": "ch08_v22",
+   "partOfSpeech": "noun",
+   "kanji": "奥さん",
+   "kana": "おくさん",
+   "romaji": "okusan",
+   "definition": "(someone's) wife"
+  },
+  {
+   "id": "ch08_v23",
+   "partOfSpeech": "noun",
+   "kanji": "息子",
+   "kana": "むすこ",
+   "romaji": "musuko",
+   "definition": "son"
+  },
+  {
+   "id": "ch08_v24",
+   "partOfSpeech": "noun",
+   "kanji": "娘",
+   "kana": "むすめ",
+   "romaji": "musume",
+   "definition": "daughter"
+  },
+  {
+   "id": "ch08_v25",
+   "partOfSpeech": "noun",
+   "kanji": "孫",
+   "kana": "まご",
+   "romaji": "mago",
+   "definition": "grandchild"
+  },
+  {
+   "id": "ch08_v26",
+   "partOfSpeech": "noun",
+   "kanji": "いとこ",
+   "kana": "いとこ",
+   "romaji": "itoko",
+   "definition": "cousin"
+  },
+  {
+   "id": "ch08_v27",
+   "partOfSpeech": "noun",
+   "kanji": "親",
+   "kana": "おや",
+   "romaji": "oya",
+   "definition": "parent"
+  },
+  {
+   "id": "ch08_v28",
+   "partOfSpeech": "noun",
+   "kanji": "兄弟",
+   "kana": "きょうだい",
+   "romaji": "kyoudai",
+   "definition": "siblings; brothers"
+  },
+  {
+   "id": "ch08_v29",
+   "partOfSpeech": "noun",
+   "kanji": "姉妹",
+   "kana": "しまい",
+   "romaji": "shimai",
+   "definition": "sisters"
+  },
+  {
+   "id": "ch08_v30",
+   "partOfSpeech": "noun",
+   "kanji": "親戚",
+   "kana": "しんせき",
+   "romaji": "shinseki",
+   "definition": "relatives"
+  },
+  {
+   "id": "ch08_v31",
+   "partOfSpeech": "noun",
+   "kanji": "赤ちゃん",
+   "kana": "あかちゃん",
+   "romaji": "akachan",
+   "definition": "baby"
+  },
+  {
+   "id": "ch08_v32",
+   "partOfSpeech": "noun",
+   "kanji": "双子",
+   "kana": "ふたご",
+   "romaji": "futago",
+   "definition": "twins"
+  },
+  {
+   "id": "ch08_v33",
+   "partOfSpeech": "noun",
+   "kanji": "家庭",
+   "kana": "かてい",
+   "romaji": "katei",
+   "definition": "household; home life"
+  },
+  {
+   "id": "ch08_v34",
+   "partOfSpeech": "noun",
+   "kanji": "名字",
+   "kana": "みょうじ",
+   "romaji": "myouji",
+   "definition": "surname; family name"
+  },
+  {
+   "id": "ch08_v35",
+   "partOfSpeech": "noun",
+   "kanji": "実家",
+   "kana": "じっか",
+   "romaji": "jikka",
+   "definition": "one's parents' home"
+  },
+  {
+   "id": "ch08_v36",
+   "partOfSpeech": "noun",
+   "kanji": "一人っ子",
+   "kana": "ひとりっこ",
+   "romaji": "hitorikko",
+   "definition": "only child"
+  },
+  {
+   "id": "ch08_v37",
+   "partOfSpeech": "verb",
+   "kanji": "育てる",
+   "kana": "そだてる",
+   "romaji": "sodateru",
+   "definition": "to raise; to bring up"
+  },
+  {
+   "id": "ch08_v38",
+   "partOfSpeech": "verb",
+   "kanji": "生まれる",
+   "kana": "うまれる",
+   "romaji": "umareru",
+   "definition": "to be born"
+  },
+  {
+   "id": "ch08_v39",
+   "partOfSpeech": "verb",
+   "kanji": "似る",
+   "kana": "にる",
+   "romaji": "niru",
+   "definition": "to resemble"
+  },
+  {
+   "id": "ch08_v40",
+   "partOfSpeech": "noun",
+   "kanji": "結婚",
+   "kana": "けっこん",
+   "romaji": "kekkon",
+   "definition": "marriage"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "子",
+   "word": "子ども",
+   "reading": "こども",
+   "meaning": "child"
+  },
+  {
+   "char": "母",
+   "word": "母",
+   "reading": "はは",
+   "meaning": "(my) mother"
+  },
+  {
+   "char": "父",
+   "word": "父",
+   "reading": "ちち",
+   "meaning": "(my) father"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "子ども",
+   "kana": "こども",
+   "romaji": "kodomo",
+   "meaning": "child",
+   "chars": [
+    "子"
+   ]
+  },
+  {
+   "word": "母",
+   "kana": "はは",
+   "romaji": "haha",
+   "meaning": "(my) mother",
+   "chars": [
+    "母"
+   ]
+  },
+  {
+   "word": "父",
+   "kana": "ちち",
+   "romaji": "chichi",
+   "meaning": "(my) father",
+   "chars": [
+    "父"
+   ]
+  },
+  {
+   "word": "息子",
+   "kana": "むすこ",
+   "romaji": "musuko",
+   "meaning": "son",
+   "chars": [
+    "息",
+    "子"
+   ]
+  },
+  {
+   "word": "双子",
+   "kana": "ふたご",
+   "romaji": "futago",
+   "meaning": "twins",
+   "chars": [
+    "双",
+    "子"
+   ]
+  },
+  {
+   "word": "子",
+   "kana": "こ",
+   "romaji": "ko",
+   "meaning": "child",
+   "chars": [
+    "子"
+   ]
+  },
+  {
+   "word": "女子",
+   "kana": "じょし",
+   "romaji": "joshi",
+   "meaning": "woman",
+   "chars": [
+    "女",
+    "子"
+   ]
+  },
+  {
+   "word": "男子",
+   "kana": "だんし",
+   "romaji": "danshi",
+   "meaning": "youth",
+   "chars": [
+    "男",
+    "子"
+   ]
+  },
+  {
+   "word": "祖母",
+   "kana": "そぼ",
+   "romaji": "sobo",
+   "meaning": "grandmother",
+   "chars": [
+    "祖",
+    "母"
+   ]
+  },
+  {
+   "word": "母さん",
+   "kana": "かあさん",
+   "romaji": "kaasan",
+   "meaning": "mother",
+   "chars": [
+    "母"
+   ]
+  },
+  {
+   "word": "母国語",
+   "kana": "ぼこくご",
+   "romaji": "bokokugo",
+   "meaning": "language of one's country",
+   "chars": [
+    "母",
+    "国",
+    "語"
+   ]
+  },
+  {
+   "word": "祖父",
+   "kana": "そふ",
+   "romaji": "sofu",
+   "meaning": "grandfather",
+   "chars": [
+    "祖",
+    "父"
+   ]
+  },
+  {
+   "word": "父さん",
+   "kana": "とうさん",
+   "romaji": "tousan",
+   "meaning": "father",
+   "chars": [
+    "父"
+   ]
+  },
+  {
+   "word": "親戚",
+   "kana": "しんせき",
+   "romaji": "shinseki",
+   "meaning": "relative",
+   "chars": [
+    "親"
+   ]
+  },
+  {
+   "word": "赤ちゃん",
+   "kana": "あかちゃん",
+   "romaji": "akachan",
+   "meaning": "baby",
+   "chars": [
+    "赤"
+   ]
+  },
+  {
+   "word": "兄弟",
+   "kana": "きょうだい",
+   "romaji": "kyoudai",
+   "meaning": "siblings",
+   "chars": [
+    "兄",
+    "弟"
+   ]
+  },
+  {
+   "word": "姉妹",
+   "kana": "しまい",
+   "romaji": "shimai",
+   "meaning": "sisters",
+   "chars": [
+    "姉",
+    "妹"
+   ]
+  },
+  {
+   "word": "実家",
+   "kana": "じっか",
+   "romaji": "jikka",
+   "meaning": "(one's parents') home",
+   "chars": [
+    "実",
+    "家"
+   ]
+  }
+ ]
 }

@@ -8,11 +8,12 @@ import SwiftUI
 // already exists for it, so tapping the prompt opens the same card you'd reach
 // from the dictionary or the textbook.
 //
-// Shared rather than written into the review screen, because the kanji matching
-// round wants exactly the same thing from its results list.
+// Shared rather than owned by one screen: the kanji matching round's results
+// list opens items this way, and anything else that needs to show one item can
+// too.
 
 struct ItemDetailSheet: View {
-    let id: SRSItemID
+    let id: StudyItemRef
     @EnvironmentObject private var cardStore: CardStore
     @Environment(\.dismiss) private var dismiss
 

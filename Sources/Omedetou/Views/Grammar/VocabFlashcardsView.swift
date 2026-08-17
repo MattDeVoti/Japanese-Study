@@ -265,9 +265,6 @@ struct VocabFlashcardsView: View {
             HStack(spacing: 12) {
                 Button {
                     let didUncheck = filter.markNeedsWork(card.word.id, direction: cardDirection)
-                    // Studying a card is a review: this both enrols it in the
-                    // schedule and books its next showing.
-                    SRSStore.shared.grade(.vocab(card.word.id), .again)
                     history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                                          action: .needsWork(didUncheck: didUncheck)))
                     // Counted before the next deal, and never mind the verdict:
@@ -423,7 +420,6 @@ struct VocabFlashcardsView: View {
     private func confirmConfident(_ card: VocabFlashCard) {
         guard !showConfidentPop else { return }
         filter.markConfident(card.word.id)
-        SRSStore.shared.grade(.vocab(card.word.id), .good)
         let wasChecked = filter.isExcluded(card.word.id, direction: cardDirection)
         if !wasChecked { filter.toggleExcluded(card.word.id, direction: cardDirection) }
         history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
@@ -487,6 +483,12 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
     let allCards: [VocabFlashCard]
     /// Set by the vocal deck: one tap adopts the written flashcards' selections.
     var copyFromFlashcards: (() -> Void)? = nil
+    /// Set by the audio deck. Its answer window is a property of a spoken
+    /// session, so it belongs in that deck's own options rather than in the
+    /// app-wide sheet where it used to sit — nothing about it applies to the
+    /// written cards.
+    var showsAudioOptions: Bool = false
+    @ObservedObject private var vocalSettings = VocalStudySettings.shared
     @Environment(\.dismiss) private var dismiss
 
     private var manifest: LessonManifest? { LessonsService.shared.manifest }
@@ -524,6 +526,31 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                                     .strokeBorder(Color.appHairline, lineWidth: 1))
                         }
                         .buttonStyle(.plain)
+
+                        Divider()
+                    }
+
+                    if showsAudioOptions {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Time to answer")
+                                .font(.headline)
+                                .foregroundColor(.appText)
+                            HStack {
+                                Text("\(Int(vocalSettings.answerSeconds)) seconds")
+                                    .font(.system(size: 15, weight: .semibold))
+                                    .foregroundColor(.appText)
+                                    .monospacedDigit()
+                                Spacer()
+                            }
+                            Slider(value: $vocalSettings.answerSeconds,
+                                   in: VocalStudySettings.secondsRange,
+                                   step: 1)
+                                .tint(.appAccent)
+                            Text("How long the microphone stays open after each word is read out. Answering early moves straight on, so a longer window only costs you when you're stuck.")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
 
                         Divider()
                     }
@@ -786,7 +813,9 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
 
 // MARK: - Chapter square
 
-private struct ChapterSquare: View {
+/// A numbered chapter tile in a filter's chapter grid. Shared by the vocab
+/// filter sheet and the kanji options sheet so the two pick chapters alike.
+struct ChapterSquare: View {
     let number: Int
     let color: Color
     let selected: Bool

@@ -1,10 +1,10 @@
 import SwiftUI
 
 /// Identifies a chapter when the kanji flashcards are opened from a lesson's
-/// "Study Kanji" button — the pool auto-filters to just that chapter's kanji.
+/// "Study Kanji" button — the pool is exactly that chapter's kanji words.
 struct LockedKanjiChapter {
     let title: String
-    let kanji: [String]
+    let words: [ChapterKanjiWord]
 }
 
 struct KanjiStudyView: View {
@@ -15,7 +15,6 @@ struct KanjiStudyView: View {
     @EnvironmentObject private var store: CardStore
     @EnvironmentObject private var filter: KanjiFilter
     @ObservedObject private var weightSettings = StudyWeightSettings.shared
-    @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     @State private var currentCard: KanjiStudyItem?
     @State private var isRevealed = false
     @StateObject private var sequencer = DeckSequencer()
@@ -25,32 +24,52 @@ struct KanjiStudyView: View {
     @State private var history: [KanjiStudyHistoryEntry] = []
     @Namespace private var glyphNS
 
-    /// Base kanji before checkmarks are applied — the study pool decides that per
-    /// item so a kanji's words survive the kanji itself being checked off.
-    private var baseCards: [KanjiCard] {
+    /// The deck before checkmarks are applied: kanji *words*, per the reworked
+    /// kanji teaching — a chapter's own words when locked, otherwise every
+    /// selected chapter's words (all chapters when none are picked).
+    private var baseItems: [KanjiStudyItem] {
         if let locked = lockedChapter {
-            return locked.kanji.compactMap { store.kanjiCard(for: $0) }
+            return locked.words.map { store.wordItem(from: $0) }
         }
-        return store.filteredKanjiCards(filter: filter, applyChecks: false)
+        var pool = LessonsService.shared.allKanjiWords()
+        if !filter.selectedChapterIds.isEmpty {
+            pool = pool.filter { filter.selectedChapterIds.contains($0.chapterId) }
+        }
+        var items = pool.map { store.wordItem(from: $0.word) }
+        if filter.showFavoritesOnly {
+            // A word is a favorite if any kanji it contains is starred.
+            let favs = items.filter { item in
+                if case let .word(w) = item {
+                    return w.parentIds.contains { store.kanjiCard(id: $0)?.isFavorite == true }
+                }
+                return false
+            }
+            if !favs.isEmpty { items = favs }
+        }
+        return items
     }
 
-    private var pool: [KanjiStudyItem] { store.kanjiStudyPool(from: baseCards) }
+    private var pool: [KanjiStudyItem] {
+        guard weightSettings.filtersOutCheckedCards else { return baseItems }
+        return baseItems.filter { !store.excludedKanjiIds.contains($0.id) }
+    }
 
     /// How much of this set has been checked off, for the counter on the card.
     /// Nil outside No-Priority mode, where checking a card doesn't retire it and
     /// there's no set to work through.
     private var checkedProgress: (done: Int, total: Int)? {
         guard weightSettings.filtersOutCheckedCards else { return nil }
-        let total = store.kanjiStudySet(from: baseCards).count
+        let total = baseItems.count
         guard total > 0 else { return nil }
         return (total - pool.count, total)
     }
 
-    /// Card ids for this chapter (locked mode) — scopes "clear checkmarks".
-    /// Includes the chapter's word cards so the option clears those too.
+    /// Ids scoped to this chapter for "clear checkmarks": its word cards, plus
+    /// the characters themselves so lookup-table checkmarks clear with them.
     private var lockedCardIds: [String] {
-        let cards = (lockedChapter?.kanji ?? []).compactMap { store.kanjiCard(for: $0) }
-        return cards.map(\.id) + store.wordCards(from: cards).map(\.id)
+        guard let locked = lockedChapter else { return [] }
+        return locked.words.map(\.id)
+            + locked.words.flatMap(\.chars).compactMap { store.kanjiCard(for: $0)?.id }
     }
 
     var body: some View {
@@ -62,11 +81,9 @@ struct KanjiStudyView: View {
             }
         }
         .onAppear { pickNext() }
-        .onChange(of: filter.selectedLevels) { _ in pickNext() }
         .onChange(of: filter.showFavoritesOnly) { _ in pickNext() }
-        .onChange(of: filter.selectedKanjiIds) { _ in pickNext() }
+        .onChange(of: filter.selectedChapterIds) { _ in pickNext() }
         .onChange(of: weightSettings.mode) { _ in pickNext() }
-        .onChange(of: kanjiSettings.includeCommonWords) { _ in pickNext() }
     }
 
     // MARK: - Study card
@@ -164,8 +181,6 @@ struct KanjiStudyView: View {
             HStack(spacing: 12) {
                 Button {
                     let didUncheck = store.incrementNeedsWork(cardId: card.id)
-                    // Enrols the kanji and books its next showing.
-                    SRSStore.shared.grade(.kanji(card.id), .again)
                     history.append(KanjiStudyHistoryEntry(card: card,
                                                          action: .needsWork(didUncheck: didUncheck)))
                     pickNext()
@@ -273,7 +288,6 @@ struct KanjiStudyView: View {
     private func confirmConfident(_ card: KanjiStudyItem) {
         guard !showConfidentPop else { return }
         store.incrementConfident(cardId: card.id)
-        SRSStore.shared.grade(.kanji(card.id), .good)
         let wasChecked = store.isKanjiExcluded(card.id)
         if !wasChecked { store.toggleKanjiExcluded(cardId: card.id) }
         history.append(KanjiStudyHistoryEntry(card: card, action: .confident(didCheck: !wasChecked)))
@@ -320,7 +334,6 @@ private struct KanjiOptionsBar: ViewModifier {
     let locked: LockedKanjiChapter?
     @ObservedObject var filter: KanjiFilter
     @ObservedObject var store: CardStore
-    @ObservedObject private var kanjiSettings = KanjiStudySettings.shared
     let chapterCardIds: [String]
     let onAfterClear: () -> Void
 
@@ -331,10 +344,6 @@ private struct KanjiOptionsBar: ViewModifier {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
                         WeightPriorityMenuItems()
-                        Divider()
-                        Toggle(isOn: $kanjiSettings.includeCommonWords) {
-                            Label("Include Example Words", systemImage: "text.book.closed")
-                        }
                         Divider()
                         Button(role: .destructive) {
                             store.clearKanjiExclusions(ids: chapterCardIds)

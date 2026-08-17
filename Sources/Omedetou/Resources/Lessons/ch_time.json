@@ -1,961 +1,1502 @@
 {
-  "id": "ch_time",
-  "chapterNumber": 5,
-  "title": "Time and Dates",
-  "points": [
+ "id": "ch_time",
+ "chapterNumber": 5,
+ "title": "Time and Dates",
+ "points": [
+  {
+   "id": "telling-time",
+   "name": "Telling Time — 〜時[じ] / 〜分[ふん]",
+   "shortDescription": "Reading the clock: hours, minutes, half past, and AM/PM.",
+   "formation": "Number + 時[じ] (o'clock) ＋ Number + 分[ふん] / 分[ぷん] (minutes)",
+   "explanation": "To tell time, attach 時[じ] to a number for the hour and 分[ふん] for the minutes. The numbers on the clock are your first big set of kanji — learn 一[いち] through 十二[じゅうに] here, because you'll read them constantly. The hours are mostly regular, but three break the pattern and must be memorized:\n- 一時[いちじ] (1:00)\n- 二時[にじ] (2:00)\n- 三時[さんじ] (3:00)\n- 四時[よじ] (4:00) — よ, never し\n- 五時[ごじ] (5:00)\n- 六時[ろくじ] (6:00)\n- 七時[しちじ] (7:00) — しち, not なな\n- 八時[はちじ] (8:00)\n- 九時[くじ] (9:00) — く, not きゅう\n- 十時[じゅうじ] (10:00)\n- 十一時[じゅういちじ] (11:00)\n- 十二時[じゅうにじ] (12:00)\n\nMinutes use 分, which becomes ぷん after some numbers: 一分[いっぷん], 三分[さんぷん], 六分[ろっぷん], 八分[はっぷん], 十分[じゅっぷん]. For a half hour, use 半[はん]: 三時半[さんじはん] (3:30). Japan uses both 12- and 24-hour clocks; to be clear in the 12-hour system, put 午前[ごぜん] (AM) or 午後[ごご] (PM) *before* the time — 午後[ごご]三時[さんじ] (3 PM). Ask the time with 何時[なんじ] (what time) or 何分[なんぷん] (how many minutes): 今[いま]何時[なんじ]ですか (What time is it now?).",
+   "rules": [
+    "〜時[じ] = the hour (o'clock); 〜分[ふん] / 分[ぷん] = minutes",
+    "Irregular hours: 四時[よじ] (4), 七時[しちじ] (7), 九時[くじ] (9)",
+    "半[はん] = half past: 三時半[さんじはん] = 3:30",
+    "午前[ごぜん] = AM, 午後[ごご] = PM — placed before the time",
+    "Ask with 何時[なんじ] (what time) / 何分[なんぷん] (how many minutes)"
+   ],
+   "examples": [
     {
-      "id": "telling-time",
-      "name": "Telling Time — 〜時[じ] / 〜分[ふん]",
-      "shortDescription": "Reading the clock: hours, minutes, half past, and AM/PM.",
-      "formation": "Number + 時[じ] (o'clock) ＋ Number + 分[ふん] / 分[ぷん] (minutes)",
-      "explanation": "To tell time, attach 時[じ] to a number for the hour and 分[ふん] for the minutes. The numbers on the clock are your first big set of kanji — learn 一[いち] through 十二[じゅうに] here, because you'll read them constantly. The hours are mostly regular, but three break the pattern and must be memorized:\n- 一時[いちじ] (1:00)\n- 二時[にじ] (2:00)\n- 三時[さんじ] (3:00)\n- 四時[よじ] (4:00) — よ, never し\n- 五時[ごじ] (5:00)\n- 六時[ろくじ] (6:00)\n- 七時[しちじ] (7:00) — しち, not なな\n- 八時[はちじ] (8:00)\n- 九時[くじ] (9:00) — く, not きゅう\n- 十時[じゅうじ] (10:00)\n- 十一時[じゅういちじ] (11:00)\n- 十二時[じゅうにじ] (12:00)\n\nMinutes use 分, which becomes ぷん after some numbers: 一分[いっぷん], 三分[さんぷん], 六分[ろっぷん], 八分[はっぷん], 十分[じゅっぷん]. For a half hour, use 半[はん]: 三時半[さんじはん] (3:30). Japan uses both 12- and 24-hour clocks; to be clear in the 12-hour system, put 午前[ごぜん] (AM) or 午後[ごご] (PM) *before* the time — 午後[ごご]三時[さんじ] (3 PM). Ask the time with 何時[なんじ] (what time) or 何分[なんぷん] (how many minutes): 今[いま]何時[なんじ]ですか (What time is it now?).",
-      "rules": [
-        "〜時[じ] = the hour (o'clock); 〜分[ふん] / 分[ぷん] = minutes",
-        "Irregular hours: 四時[よじ] (4), 七時[しちじ] (7), 九時[くじ] (9)",
-        "半[はん] = half past: 三時半[さんじはん] = 3:30",
-        "午前[ごぜん] = AM, 午後[ごご] = PM — placed before the time",
-        "Ask with 何時[なんじ] (what time) / 何分[なんぷん] (how many minutes)"
-      ],
-      "examples": [
-        {
-          "japanese": "今[いま]九時[くじ]です。",
-          "romaji": "Ima kuji desu.",
-          "english": "It's 9:00 now."
-        },
-        {
-          "japanese": "四時[よじ]半[はん]に会[あ]いましょう。",
-          "romaji": "Yoji han ni aimashou.",
-          "english": "Let's meet at 4:30."
-        },
-        {
-          "japanese": "午後[ごご]三時[さんじ]十五分[じゅうごふん]です。",
-          "romaji": "Gogo sanji juugofun desu.",
-          "english": "It's 3:15 PM."
-        },
-        {
-          "japanese": "毎朝[まいあさ]六時[ろくじ]に起[お]きます。",
-          "romaji": "Maiasa rokuji ni okimasu.",
-          "english": "I get up at 6 every morning."
-        }
-      ],
-      "flashcardHeader": "〜時 / 〜分 (telling time)",
-      "flashcardAnswer": "Reading the clock — hours, minutes, half past, and AM/PM.",
-      "practice": [
-        {
-          "id": "telling-time_q1",
-          "type": "fillBlank",
-          "prompt": "How do you read 4:00?",
-          "japanese": "四時[  ]です。",
-          "choices": [
-            "よじ",
-            "しじ",
-            "よんじ",
-            "しちじ"
-          ],
-          "correctIndex": 0,
-          "explanation": "4 o'clock is the irregular 四時[よじ] — 四 is read よ here, never し or よん."
-        },
-        {
-          "id": "telling-time_q2",
-          "type": "fillBlank",
-          "prompt": "How do you read 9:00?",
-          "japanese": "九時[  ]です。",
-          "choices": [
-            "くじ",
-            "きゅうじ",
-            "ここのじ",
-            "くうじ"
-          ],
-          "correctIndex": 0,
-          "explanation": "9 o'clock is 九時[くじ] — 九 is read く here, not きゅう."
-        },
-        {
-          "id": "telling-time_q3",
-          "type": "usage",
-          "prompt": "Which correctly reads 7:00?",
-          "japanese": null,
-          "choices": [
-            "七時[しちじ]",
-            "七時[ななじ]",
-            "七時[なのじ]",
-            "七時[しじ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "7 o'clock is 七時[しちじ]. In some counters 七 is なな, but for the hour it's しち."
-        },
-        {
-          "id": "telling-time_q4",
-          "type": "translation",
-          "prompt": "How do you say \"3:30\"?",
-          "japanese": null,
-          "choices": [
-            "三時半[さんじはん]",
-            "三半時[さんはんじ]",
-            "三時三十[さんじさんじゅう]",
-            "半三時[はんさんじ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Half past uses 半[はん] after the hour: 三時半[さんじはん] = 3:30."
-        },
-        {
-          "id": "telling-time_q5",
-          "type": "usage",
-          "prompt": "Which means \"3 PM\"?",
-          "japanese": null,
-          "choices": [
-            "午後[ごご]三時[さんじ]",
-            "三時[さんじ]午後[ごご]",
-            "午前[ごぜん]三時[さんじ]",
-            "三時[さんじ]半[はん]"
-          ],
-          "correctIndex": 0,
-          "explanation": "PM is 午後[ごご], placed before the time: 午後[ごご]三時[さんじ]. 午前[ごぜん] would be AM."
-        },
-        {
-          "id": "telling-time_q6",
-          "type": "fillBlank",
-          "prompt": "Read 10 minutes:",
-          "japanese": "十分[  ]",
-          "choices": [
-            "じゅっぷん",
-            "じゅうふん",
-            "じゅうぶん",
-            "とおふん"
-          ],
-          "correctIndex": 0,
-          "explanation": "分 becomes ぷん after 十: 十分[じゅっぷん] = ten minutes. (Note 十分[じゅうぶん] is a different word meaning \"enough.\")"
-        },
-        {
-          "id": "telling-time_q7",
-          "type": "translation",
-          "prompt": "How do you ask \"What time is it now?\"",
-          "japanese": null,
-          "choices": [
-            "今[いま]何時[なんじ]ですか。",
-            "今[いま]何分[なんぷん]ですか。",
-            "今[いま]いつですか。",
-            "今[いま]何[なに]ですか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "何時[なんじ] asks the hour/time. 何分[なんぷん] would ask specifically for the minutes."
-        },
-        {
-          "id": "telling-time_q8",
-          "type": "usage",
-          "prompt": "Which reads 12:00 correctly?",
-          "japanese": null,
-          "choices": [
-            "十二時[じゅうにじ]",
-            "十二時[じゅうにいじ]",
-            "一二時[いちにじ]",
-            "十二時[とじ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "12 o'clock is 十二時[じゅうにじ] — 十二 (12) read じゅうに + 時[じ]."
-        }
-      ]
+     "japanese": "今[いま]九時[くじ]です。",
+     "romaji": "Ima kuji desu.",
+     "english": "It's 9:00 now."
     },
     {
-      "id": "dates-months",
-      "name": "Dates — 〜月[がつ] / 〜日[にち]",
-      "shortDescription": "The months and the calendar days, with their special readings.",
-      "formation": "Number + 月[がつ] (month) ； Number + 日[にち] / 日[か] (day of the month)",
-      "explanation": "Months reuse the number kanji 一 through 十二 plus 月[がつ]. They're regular except for three that borrow the same irregular readings as the clock:\n- 一月[いちがつ] (January)\n- 二月[にがつ] (February)\n- 三月[さんがつ] (March)\n- 四月[しがつ] (April) — し, not よん\n- 五月[ごがつ] (May)\n- 六月[ろくがつ] (June)\n- 七月[しちがつ] (July) — しち, not なな\n- 八月[はちがつ] (August)\n- 九月[くがつ] (September) — く, not きゅう\n- 十月[じゅうがつ] (October)\n- 十一月[じゅういちがつ] (November)\n- 十二月[じゅうにがつ] (December)\n\nDays of the month are the trickiest readings in beginner Japanese. The 1st through the 10th use native numbers and must be memorized:\n- 一日[ついたち] (1st) — completely irregular\n- 二日[ふつか], 三日[みっか], 四日[よっか], 五日[いつか]\n- 六日[むいか], 七日[なのか], 八日[ようか], 九日[ここのか], 十日[とおか]\n\nFrom the 11th on they're mostly regular (十一日[じゅういちにち]), with a few holdouts: 十四日[じゅうよっか] (14th), 二十日[はつか] (20th), and 二十四日[にじゅうよっか] (24th). Ask with 何月[なんがつ] (which month) and 何日[なんにち] (which day).",
-      "rules": [
-        "〜月[がつ] = month; irregular: 四月[しがつ], 七月[しちがつ], 九月[くがつ]",
-        "Days 1–10 use native readings: 一日[ついたち], 二日[ふつか] … 十日[とおか]",
-        "一日[ついたち] (the 1st) is completely irregular — memorize it",
-        "Watch 十四日[じゅうよっか] (14), 二十日[はつか] (20), 二十四日[にじゅうよっか] (24)",
-        "Ask with 何月[なんがつ] (what month) / 何日[なんにち] (what day)"
-      ],
-      "examples": [
-        {
-          "japanese": "誕生日[たんじょうび]は五月[ごがつ]五日[いつか]です。",
-          "romaji": "Tanjoubi wa gogatsu itsuka desu.",
-          "english": "My birthday is May 5th."
-        },
-        {
-          "japanese": "四月[しがつ]一日[ついたち]に学校[がっこう]が始[はじ]まります。",
-          "romaji": "Shigatsu tsuitachi ni gakkou ga hajimarimasu.",
-          "english": "School starts on April 1st."
-        },
-        {
-          "japanese": "今日[きょう]は何月[なんがつ]何日[なんにち]ですか。",
-          "romaji": "Kyou wa nangatsu nannichi desu ka.",
-          "english": "What's the date today?"
-        },
-        {
-          "japanese": "九月[くがつ]二十日[はつか]に旅行[りょこう]します。",
-          "romaji": "Kugatsu hatsuka ni ryokou shimasu.",
-          "english": "I'll travel on September 20th."
-        }
-      ],
-      "flashcardHeader": "〜月 / 〜日 (months and dates)",
-      "flashcardAnswer": "Months and calendar days, with their special readings.",
-      "practice": [
-        {
-          "id": "dates-months_q1",
-          "type": "usage",
-          "prompt": "Which correctly reads April?",
-          "japanese": null,
-          "choices": [
-            "四月[しがつ]",
-            "四月[よんがつ]",
-            "四月[よがつ]",
-            "四月[しがつつ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "April is 四月[しがつ] — here 四 is read し, unlike the clock's 四時[よじ]."
-        },
-        {
-          "id": "dates-months_q2",
-          "type": "usage",
-          "prompt": "Which correctly reads September?",
-          "japanese": null,
-          "choices": [
-            "九月[くがつ]",
-            "九月[きゅうがつ]",
-            "九月[ここのがつ]",
-            "九月[くうがつ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "September is 九月[くがつ] — 九 read く, matching 九時[くじ]."
-        },
-        {
-          "id": "dates-months_q3",
-          "type": "fillBlank",
-          "prompt": "How do you read \"the 1st\" (of the month)?",
-          "japanese": "一日[  ]",
-          "choices": [
-            "ついたち",
-            "いちにち",
-            "ひとひ",
-            "いちび"
-          ],
-          "correctIndex": 0,
-          "explanation": "The 1st of the month is the fully irregular 一日[ついたち]. (一日[いちにち] instead means \"one day / a whole day.\")"
-        },
-        {
-          "id": "dates-months_q4",
-          "type": "usage",
-          "prompt": "Which correctly reads \"the 3rd\"?",
-          "japanese": null,
-          "choices": [
-            "三日[みっか]",
-            "三日[さんにち]",
-            "三日[さんび]",
-            "三日[みつにち]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Days 1–10 use native readings: the 3rd is 三日[みっか]."
-        },
-        {
-          "id": "dates-months_q5",
-          "type": "fillBlank",
-          "prompt": "How do you read \"the 20th\"?",
-          "japanese": "二十日[  ]",
-          "choices": [
-            "はつか",
-            "にじゅうにち",
-            "にじゅうか",
-            "はつにち"
-          ],
-          "correctIndex": 0,
-          "explanation": "The 20th is the irregular 二十日[はつか], not にじゅうにち."
-        },
-        {
-          "id": "dates-months_q6",
-          "type": "translation",
-          "prompt": "How do you ask \"What's today's date?\"",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]は何月[なんがつ]何日[なんにち]ですか。",
-            "今日[きょう]は何時[なんじ]ですか。",
-            "今日[きょう]は何曜日[なんようび]ですか。",
-            "今日[きょう]は何年[なんねん]ですか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "何月[なんがつ]何日[なんにち] asks the month and day. 何曜日[なんようび] asks the day of the week; 何時[なんじ] asks the time."
-        },
-        {
-          "id": "dates-months_q7",
-          "type": "usage",
-          "prompt": "Which reads \"the 8th\" correctly?",
-          "japanese": null,
-          "choices": [
-            "八日[ようか]",
-            "八日[はちにち]",
-            "八日[はちか]",
-            "八日[やっか]"
-          ],
-          "correctIndex": 0,
-          "explanation": "The 8th is 八日[ようか], one of the native-reading days from 1–10."
-        },
-        {
-          "id": "dates-months_q8",
-          "type": "fillBlank",
-          "prompt": "Read \"the 14th\":",
-          "japanese": "十四日[  ]",
-          "choices": [
-            "じゅうよっか",
-            "じゅうよんにち",
-            "じゅうしにち",
-            "じゅうよか"
-          ],
-          "correctIndex": 0,
-          "explanation": "The 14th keeps the native 四日[よっか] ending: 十四日[じゅうよっか]."
-        }
-      ]
+     "japanese": "四時[よじ]半[はん]に会[あ]いましょう。",
+     "romaji": "Yoji han ni aimashou.",
+     "english": "Let's meet at 4:30."
     },
     {
-      "id": "years-when",
-      "name": "Years & Scheduling — 〜年[ねん] and に",
-      "shortDescription": "Saying the year, relative times, and marking when things happen.",
-      "formation": "Number + 年[ねん] (year) ； specific time + に (at / on / in)",
-      "explanation": "Years attach 年[ねん] to a number: 2024年[ねん] (にせんにじゅうよねん). Ask which year with 何年[なんねん]. Relative years have their own words — 今年[ことし] (this year), 来年[らいねん] (next year), 去年[きょねん] (last year) — and the same 今／来／先 pattern runs through weeks and months:\n- 今週[こんしゅう] / 来週[らいしゅう] / 先週[せんしゅう] (this / next / last week)\n- 今月[こんげつ] / 来月[らいげつ] / 先月[せんげつ] (this / next / last month)\n- 毎[まい]〜 means \"every\": 毎日[まいにち], 毎週[まいしゅう], 毎年[まいとし]\n\nThe most important rule of the chapter is when to use the particle に for \"at / on / in.\" Use に with *specific, absolute* time points — clock times, dates, days of the week, months, and years:\n- 三時[さんじ]に (at 3:00), 月曜日[げつようび]に (on Monday), 五月[ごがつ]に (in May)\n\nBut do NOT use に with *relative* time words — today, tomorrow, this week, every day — because they're defined relative to now, not fixed on the calendar:\n- 今日[きょう], 明日[あした], 昨日[きのう], 毎日[まいにち], 来週[らいしゅう], 今年[ことし] — no に\n\nSo you say 月曜日[げつようび]に行[い]きます (I'll go on Monday) but 明日[あした]行[い]きます (I'll go tomorrow).",
-      "rules": [
-        "〜年[ねん] = year (2024年[ねん]); ask with 何年[なんねん]",
-        "Use に with specific times: 三時[さんじ]に, 月曜日[げつようび]に, 五月五日[ごがついつか]に",
-        "Do NOT use に with relative words: 今日[きょう], 明日[あした], 毎日[まいにち], 来週[らいしゅう]",
-        "今[こん]／来[らい]／先[せん] + 週[しゅう]／月[げつ] = this / next / last week or month",
-        "毎[まい]〜 = every: 毎日[まいにち], 毎週[まいしゅう], 毎年[まいとし]"
-      ],
-      "examples": [
-        {
-          "japanese": "来年[らいねん]日本[にほん]に行[い]きます。",
-          "romaji": "Rainen Nihon ni ikimasu.",
-          "english": "I'll go to Japan next year. (no に on 来年)"
-        },
-        {
-          "japanese": "月曜日[げつようび]に会議[かいぎ]があります。",
-          "romaji": "Getsuyoubi ni kaigi ga arimasu.",
-          "english": "There's a meeting on Monday."
-        },
-        {
-          "japanese": "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]します。",
-          "romaji": "Mainichi nihongo o benkyou shimasu.",
-          "english": "I study Japanese every day."
-        },
-        {
-          "japanese": "今年[ことし]は二千二十四年[にせんにじゅうよねん]です。",
-          "romaji": "Kotoshi wa nisen nijuu yo nen desu.",
-          "english": "This year is 2024."
-        }
-      ],
-      "flashcardHeader": "〜年 and に (years, relative time, scheduling)",
-      "flashcardAnswer": "Saying the year, relative times, and marking when things happen with に.",
-      "practice": [
-        {
-          "id": "years-when_q1",
-          "type": "usage",
-          "prompt": "Which is correct?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]行[い]きます。",
-            "明日[あした]に行[い]きます。",
-            "明日[あした]で行[い]きます。",
-            "明日[あした]を行[い]きます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "明日[あした] (tomorrow) is a relative time word, so it takes no particle: 明日[あした]行[い]きます."
-        },
-        {
-          "id": "years-when_q2",
-          "type": "fillBlank",
-          "prompt": "Fill the blank: 月曜日[げつようび]___テストがあります。",
-          "japanese": "月曜日[げつようび]___テストがあります。",
-          "choices": [
-            "に",
-            "で",
-            "を",
-            "（なし）"
-          ],
-          "correctIndex": 0,
-          "explanation": "A day of the week is a specific time point, so it takes に: 月曜日[げつようび]にテストがあります (There's a test on Monday)."
-        },
-        {
-          "id": "years-when_q3",
-          "type": "usage",
-          "prompt": "Which sentence uses に correctly?",
-          "japanese": null,
-          "choices": [
-            "三時[さんじ]に会[あ]いましょう。",
-            "今日[きょう]に会[あ]いましょう。",
-            "毎日[まいにち]に会[あ]いましょう。",
-            "来週[らいしゅう]に会[あ]いましょう。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A clock time (三時[さんじ]) is specific, so it takes に. 今日[きょう], 毎日[まいにち], and 来週[らいしゅう] are relative words and take no に."
-        },
-        {
-          "id": "years-when_q4",
-          "type": "translation",
-          "prompt": "How do you say \"next week\"?",
-          "japanese": null,
-          "choices": [
-            "来週[らいしゅう]",
-            "先週[せんしゅう]",
-            "今週[こんしゅう]",
-            "毎週[まいしゅう]"
-          ],
-          "correctIndex": 0,
-          "explanation": "来[らい] means \"coming/next,\" so next week is 来週[らいしゅう]. 先週[せんしゅう] is last week; 今週[こんしゅう] is this week."
-        },
-        {
-          "id": "years-when_q5",
-          "type": "usage",
-          "prompt": "Which means \"every day\"?",
-          "japanese": null,
-          "choices": [
-            "毎日[まいにち]",
-            "今日[きょう]",
-            "毎年[まいとし]",
-            "先日[せんじつ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "毎[まい] means \"every,\" so 毎日[まいにち] = every day. 毎年[まいとし] = every year."
-        },
-        {
-          "id": "years-when_q6",
-          "type": "usage",
-          "prompt": "Which correctly says \"last year\"?",
-          "japanese": null,
-          "choices": [
-            "去年[きょねん]",
-            "来年[らいねん]",
-            "今年[ことし]",
-            "毎年[まいとし]"
-          ],
-          "correctIndex": 0,
-          "explanation": "去年[きょねん] is last year. 来年[らいねん] is next year and 今年[ことし] is this year."
-        },
-        {
-          "id": "years-when_q7",
-          "type": "usage",
-          "prompt": "Pick the correct sentence.",
-          "japanese": null,
-          "choices": [
-            "五月[ごがつ]五日[いつか]に生[う]まれました。",
-            "五月[ごがつ]五日[いつか]生[う]まれました。",
-            "今日[きょう]に生[う]まれました。",
-            "明日[あした]に生[う]まれました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A full date is a specific time point, so it takes に: 五月[ごがつ]五日[いつか]に. Relative words like 今日[きょう]/明日[あした] wouldn't."
-        },
-        {
-          "id": "years-when_q8",
-          "type": "fillBlank",
-          "prompt": "Fill the blank: 毎朝[まいあさ]七時[しちじ]___起[お]きます。",
-          "japanese": "毎朝[まいあさ]七時[しちじ]___起[お]きます。",
-          "choices": [
-            "に",
-            "で",
-            "を",
-            "から"
-          ],
-          "correctIndex": 0,
-          "explanation": "The clock time 七時[しちじ] takes に (七時[しちじ]に起[お]きます). Note 毎朝[まいあさ] itself is relative and takes no particle."
-        }
-      ]
+     "japanese": "午後[ごご]三時[さんじ]十五分[じゅうごふん]です。",
+     "romaji": "Gogo sanji juugofun desu.",
+     "english": "It's 3:15 PM."
+    },
+    {
+     "japanese": "毎朝[まいあさ]六時[ろくじ]に起[お]きます。",
+     "romaji": "Maiasa rokuji ni okimasu.",
+     "english": "I get up at 6 every morning."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜時 / 〜分 (telling time)",
+   "flashcardAnswer": "Reading the clock — hours, minutes, half past, and AM/PM.",
+   "practice": [
     {
-      "id": "time_v1",
-      "partOfSpeech": "noun",
-      "kanji": "時計",
-      "kana": "とけい",
-      "romaji": "tokei",
-      "definition": "clock; watch"
+     "id": "telling-time_q1",
+     "type": "fillBlank",
+     "prompt": "How do you read 4:00?",
+     "japanese": "四時[  ]です。",
+     "choices": [
+      "よじ",
+      "しじ",
+      "よんじ",
+      "しちじ"
+     ],
+     "correctIndex": 0,
+     "explanation": "4 o'clock is the irregular 四時[よじ] — 四 is read よ here, never し or よん."
     },
     {
-      "id": "time_v2",
-      "partOfSpeech": "noun",
-      "kanji": "時間",
-      "kana": "じかん",
-      "romaji": "jikan",
-      "definition": "time; hour"
+     "id": "telling-time_q2",
+     "type": "fillBlank",
+     "prompt": "How do you read 9:00?",
+     "japanese": "九時[  ]です。",
+     "choices": [
+      "くじ",
+      "きゅうじ",
+      "ここのじ",
+      "くうじ"
+     ],
+     "correctIndex": 0,
+     "explanation": "9 o'clock is 九時[くじ] — 九 is read く here, not きゅう."
     },
     {
-      "id": "time_v3",
-      "partOfSpeech": "noun",
-      "kanji": "今",
-      "kana": "いま",
-      "romaji": "ima",
-      "definition": "now"
+     "id": "telling-time_q3",
+     "type": "usage",
+     "prompt": "Which correctly reads 7:00?",
+     "japanese": null,
+     "choices": [
+      "七時[しちじ]",
+      "七時[ななじ]",
+      "七時[なのじ]",
+      "七時[しじ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "7 o'clock is 七時[しちじ]. In some counters 七 is なな, but for the hour it's しち."
     },
     {
-      "id": "time_v4",
-      "partOfSpeech": "noun",
-      "kanji": "午前",
-      "kana": "ごぜん",
-      "romaji": "gozen",
-      "definition": "morning; AM"
+     "id": "telling-time_q4",
+     "type": "translation",
+     "prompt": "How do you say \"3:30\"?",
+     "japanese": null,
+     "choices": [
+      "三時半[さんじはん]",
+      "三半時[さんはんじ]",
+      "三時三十[さんじさんじゅう]",
+      "半三時[はんさんじ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Half past uses 半[はん] after the hour: 三時半[さんじはん] = 3:30."
     },
     {
-      "id": "time_v5",
-      "partOfSpeech": "noun",
-      "kanji": "午後",
-      "kana": "ごご",
-      "romaji": "gogo",
-      "definition": "afternoon; PM"
+     "id": "telling-time_q5",
+     "type": "usage",
+     "prompt": "Which means \"3 PM\"?",
+     "japanese": null,
+     "choices": [
+      "午後[ごご]三時[さんじ]",
+      "三時[さんじ]午後[ごご]",
+      "午前[ごぜん]三時[さんじ]",
+      "三時[さんじ]半[はん]"
+     ],
+     "correctIndex": 0,
+     "explanation": "PM is 午後[ごご], placed before the time: 午後[ごご]三時[さんじ]. 午前[ごぜん] would be AM."
     },
     {
-      "id": "time_v6",
-      "partOfSpeech": "noun",
-      "kanji": "半",
-      "kana": "はん",
-      "romaji": "han",
-      "definition": "half (past the hour)"
+     "id": "telling-time_q6",
+     "type": "fillBlank",
+     "prompt": "Read 10 minutes:",
+     "japanese": "十分[  ]",
+     "choices": [
+      "じゅっぷん",
+      "じゅうふん",
+      "じゅうぶん",
+      "とおふん"
+     ],
+     "correctIndex": 0,
+     "explanation": "分 becomes ぷん after 十: 十分[じゅっぷん] = ten minutes. (Note 十分[じゅうぶん] is a different word meaning \"enough.\")"
     },
     {
-      "id": "time_v7",
-      "partOfSpeech": "noun",
-      "kanji": "朝",
-      "kana": "あさ",
-      "romaji": "asa",
-      "definition": "morning"
+     "id": "telling-time_q7",
+     "type": "translation",
+     "prompt": "How do you ask \"What time is it now?\"",
+     "japanese": null,
+     "choices": [
+      "今[いま]何時[なんじ]ですか。",
+      "今[いま]何分[なんぷん]ですか。",
+      "今[いま]いつですか。",
+      "今[いま]何[なに]ですか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "何時[なんじ] asks the hour/time. 何分[なんぷん] would ask specifically for the minutes."
     },
     {
-      "id": "time_v8",
-      "partOfSpeech": "noun",
-      "kanji": "昼",
-      "kana": "ひる",
-      "romaji": "hiru",
-      "definition": "noon; daytime"
-    },
-    {
-      "id": "time_v9",
-      "partOfSpeech": "noun",
-      "kanji": "夜",
-      "kana": "よる",
-      "romaji": "yoru",
-      "definition": "night; evening"
-    },
-    {
-      "id": "time_v10",
-      "partOfSpeech": "noun",
-      "kanji": "今日",
-      "kana": "きょう",
-      "romaji": "kyou",
-      "definition": "today"
-    },
-    {
-      "id": "time_v11",
-      "partOfSpeech": "noun",
-      "kanji": "明日",
-      "kana": "あした",
-      "romaji": "ashita",
-      "definition": "tomorrow"
-    },
-    {
-      "id": "time_v12",
-      "partOfSpeech": "noun",
-      "kanji": "昨日",
-      "kana": "きのう",
-      "romaji": "kinou",
-      "definition": "yesterday"
-    },
-    {
-      "id": "time_v13",
-      "partOfSpeech": "noun",
-      "kanji": "毎日",
-      "kana": "まいにち",
-      "romaji": "mainichi",
-      "definition": "every day"
-    },
-    {
-      "id": "time_v14",
-      "partOfSpeech": "noun",
-      "kanji": "今週",
-      "kana": "こんしゅう",
-      "romaji": "konshuu",
-      "definition": "this week"
-    },
-    {
-      "id": "time_v15",
-      "partOfSpeech": "noun",
-      "kanji": "来週",
-      "kana": "らいしゅう",
-      "romaji": "raishuu",
-      "definition": "next week"
-    },
-    {
-      "id": "time_v16",
-      "partOfSpeech": "noun",
-      "kanji": "先週",
-      "kana": "せんしゅう",
-      "romaji": "senshuu",
-      "definition": "last week"
-    },
-    {
-      "id": "time_v17",
-      "partOfSpeech": "noun",
-      "kanji": "今月",
-      "kana": "こんげつ",
-      "romaji": "kongetsu",
-      "definition": "this month"
-    },
-    {
-      "id": "time_v18",
-      "partOfSpeech": "noun",
-      "kanji": "来月",
-      "kana": "らいげつ",
-      "romaji": "raigetsu",
-      "definition": "next month"
-    },
-    {
-      "id": "time_v19",
-      "partOfSpeech": "noun",
-      "kanji": "今年",
-      "kana": "ことし",
-      "romaji": "kotoshi",
-      "definition": "this year"
-    },
-    {
-      "id": "time_v20",
-      "partOfSpeech": "noun",
-      "kanji": "来年",
-      "kana": "らいねん",
-      "romaji": "rainen",
-      "definition": "next year"
-    },
-    {
-      "id": "time_v21",
-      "partOfSpeech": "noun",
-      "kanji": "去年",
-      "kana": "きょねん",
-      "romaji": "kyonen",
-      "definition": "last year"
-    },
-    {
-      "id": "time_v22",
-      "partOfSpeech": "noun",
-      "kanji": "月曜日",
-      "kana": "げつようび",
-      "romaji": "getsuyoubi",
-      "definition": "Monday"
-    },
-    {
-      "id": "time_v23",
-      "partOfSpeech": "noun",
-      "kanji": "火曜日",
-      "kana": "かようび",
-      "romaji": "kayoubi",
-      "definition": "Tuesday"
-    },
-    {
-      "id": "time_v24",
-      "partOfSpeech": "noun",
-      "kanji": "水曜日",
-      "kana": "すいようび",
-      "romaji": "suiyoubi",
-      "definition": "Wednesday"
-    },
-    {
-      "id": "time_v25",
-      "partOfSpeech": "noun",
-      "kanji": "木曜日",
-      "kana": "もくようび",
-      "romaji": "mokuyoubi",
-      "definition": "Thursday"
-    },
-    {
-      "id": "time_v26",
-      "partOfSpeech": "noun",
-      "kanji": "金曜日",
-      "kana": "きんようび",
-      "romaji": "kinyoubi",
-      "definition": "Friday"
-    },
-    {
-      "id": "time_v27",
-      "partOfSpeech": "noun",
-      "kanji": "土曜日",
-      "kana": "どようび",
-      "romaji": "doyoubi",
-      "definition": "Saturday"
-    },
-    {
-      "id": "time_v28",
-      "partOfSpeech": "noun",
-      "kanji": "日曜日",
-      "kana": "にちようび",
-      "romaji": "nichiyoubi",
-      "definition": "Sunday"
-    },
-    {
-      "id": "time_v29",
-      "partOfSpeech": "noun",
-      "kanji": "誕生日",
-      "kana": "たんじょうび",
-      "romaji": "tanjoubi",
-      "definition": "birthday"
-    },
-    {
-      "id": "time_v30",
-      "partOfSpeech": "noun",
-      "kanji": "休み",
-      "kana": "やすみ",
-      "romaji": "yasumi",
-      "definition": "holiday; day off; break"
-    },
-    {
-      "id": "time_v31",
-      "partOfSpeech": "noun",
-      "kanji": "祝日",
-      "kana": "しゅくじつ",
-      "romaji": "shukujitsu",
-      "definition": "public holiday"
-    },
-    {
-      "id": "time_v32",
-      "partOfSpeech": "noun",
-      "kanji": "お正月",
-      "kana": "おしょうがつ",
-      "romaji": "oshougatsu",
-      "definition": "New Year (holiday)"
-    },
-    {
-      "id": "time_v33",
-      "partOfSpeech": "noun",
-      "kanji": "夏休み",
-      "kana": "なつやすみ",
-      "romaji": "natsuyasumi",
-      "definition": "summer vacation"
-    },
-    {
-      "id": "time_v35",
-      "partOfSpeech": "noun",
-      "kanji": "クリスマス",
-      "kana": "クリスマス",
-      "romaji": "kurisumasu",
-      "definition": "Christmas"
-    },
-    {
-      "id": "time_v36",
-      "partOfSpeech": "noun",
-      "kanji": "晩",
-      "kana": "ばん",
-      "romaji": "ban",
-      "definition": "evening"
-    },
-    {
-      "id": "time_v37",
-      "partOfSpeech": "noun",
-      "kanji": "週末",
-      "kana": "しゅうまつ",
-      "romaji": "shuumatsu",
-      "definition": "weekend"
-    },
-    {
-      "id": "time_v38",
-      "partOfSpeech": "noun",
-      "kanji": "先月",
-      "kana": "せんげつ",
-      "romaji": "sengetsu",
-      "definition": "last month"
-    },
-    {
-      "id": "time_v39",
-      "partOfSpeech": "noun",
-      "kanji": "毎月",
-      "kana": "まいつき",
-      "romaji": "maitsuki",
-      "definition": "every month"
-    },
-    {
-      "id": "time_v40",
-      "partOfSpeech": "noun",
-      "kanji": "毎年",
-      "kana": "まいとし",
-      "romaji": "maitoshi",
-      "definition": "every year"
-    },
-    {
-      "id": "time_v41",
-      "partOfSpeech": "noun",
-      "kanji": "分",
-      "kana": "ふん",
-      "romaji": "fun",
-      "definition": "minute"
-    },
-    {
-      "id": "time_v42",
-      "partOfSpeech": "noun",
-      "kanji": "秒",
-      "kana": "びょう",
-      "romaji": "byou",
-      "definition": "second"
-    },
-    {
-      "id": "time_v43",
-      "partOfSpeech": "noun",
-      "kanji": "曜日",
-      "kana": "ようび",
-      "romaji": "youbi",
-      "definition": "day of the week"
-    },
-    {
-      "id": "time_v44",
-      "partOfSpeech": "noun",
-      "kanji": "予定",
-      "kana": "よてい",
-      "romaji": "yotei",
-      "definition": "plan; schedule"
+     "id": "telling-time_q8",
+     "type": "usage",
+     "prompt": "Which reads 12:00 correctly?",
+     "japanese": null,
+     "choices": [
+      "十二時[じゅうにじ]",
+      "十二時[じゅうにいじ]",
+      "一二時[いちにじ]",
+      "十二時[とじ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "12 o'clock is 十二時[じゅうにじ] — 十二 (12) read じゅうに + 時[じ]."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "dates-months",
+   "name": "Dates — 〜月[がつ] / 〜日[にち]",
+   "shortDescription": "The months and the calendar days, with their special readings.",
+   "formation": "Number + 月[がつ] (month) ； Number + 日[にち] / 日[か] (day of the month)",
+   "explanation": "Months reuse the number kanji 一 through 十二 plus 月[がつ]. They're regular except for three that borrow the same irregular readings as the clock:\n- 一月[いちがつ] (January)\n- 二月[にがつ] (February)\n- 三月[さんがつ] (March)\n- 四月[しがつ] (April) — し, not よん\n- 五月[ごがつ] (May)\n- 六月[ろくがつ] (June)\n- 七月[しちがつ] (July) — しち, not なな\n- 八月[はちがつ] (August)\n- 九月[くがつ] (September) — く, not きゅう\n- 十月[じゅうがつ] (October)\n- 十一月[じゅういちがつ] (November)\n- 十二月[じゅうにがつ] (December)\n\nDays of the month are the trickiest readings in beginner Japanese. The 1st through the 10th use native numbers and must be memorized:\n- 一日[ついたち] (1st) — completely irregular\n- 二日[ふつか], 三日[みっか], 四日[よっか], 五日[いつか]\n- 六日[むいか], 七日[なのか], 八日[ようか], 九日[ここのか], 十日[とおか]\n\nFrom the 11th on they're mostly regular (十一日[じゅういちにち]), with a few holdouts: 十四日[じゅうよっか] (14th), 二十日[はつか] (20th), and 二十四日[にじゅうよっか] (24th). Ask with 何月[なんがつ] (which month) and 何日[なんにち] (which day).",
+   "rules": [
+    "〜月[がつ] = month; irregular: 四月[しがつ], 七月[しちがつ], 九月[くがつ]",
+    "Days 1–10 use native readings: 一日[ついたち], 二日[ふつか] … 十日[とおか]",
+    "一日[ついたち] (the 1st) is completely irregular — memorize it",
+    "Watch 十四日[じゅうよっか] (14), 二十日[はつか] (20), 二十四日[にじゅうよっか] (24)",
+    "Ask with 何月[なんがつ] (what month) / 何日[なんにち] (what day)"
+   ],
+   "examples": [
     {
-      "char": "一",
-      "word": "一",
-      "reading": "いち",
-      "meaning": "one"
+     "japanese": "誕生日[たんじょうび]は五月[ごがつ]五日[いつか]です。",
+     "romaji": "Tanjoubi wa gogatsu itsuka desu.",
+     "english": "My birthday is May 5th."
     },
     {
-      "char": "二",
-      "word": "二",
-      "reading": "に",
-      "meaning": "two"
+     "japanese": "四月[しがつ]一日[ついたち]に学校[がっこう]が始[はじ]まります。",
+     "romaji": "Shigatsu tsuitachi ni gakkou ga hajimarimasu.",
+     "english": "School starts on April 1st."
     },
     {
-      "char": "三",
-      "word": "三",
-      "reading": "さん",
-      "meaning": "three"
+     "japanese": "今日[きょう]は何月[なんがつ]何日[なんにち]ですか。",
+     "romaji": "Kyou wa nangatsu nannichi desu ka.",
+     "english": "What's the date today?"
     },
     {
-      "char": "四",
-      "word": "四",
-      "reading": "よん",
-      "meaning": "four"
-    },
-    {
-      "char": "五",
-      "word": "五",
-      "reading": "ご",
-      "meaning": "five"
-    },
-    {
-      "char": "六",
-      "word": "六",
-      "reading": "ろく",
-      "meaning": "six"
-    },
-    {
-      "char": "七",
-      "word": "七",
-      "reading": "しち",
-      "meaning": "seven"
-    },
-    {
-      "char": "八",
-      "word": "八",
-      "reading": "はち",
-      "meaning": "eight"
-    },
-    {
-      "char": "九",
-      "word": "九",
-      "reading": "きゅう",
-      "meaning": "nine"
-    },
-    {
-      "char": "十",
-      "word": "十",
-      "reading": "じゅう",
-      "meaning": "ten"
-    },
-    {
-      "char": "百",
-      "word": "百",
-      "reading": "ひゃく",
-      "meaning": "hundred"
-    },
-    {
-      "char": "千",
-      "word": "千",
-      "reading": "せん",
-      "meaning": "1,000"
-    },
-    {
-      "char": "万",
-      "word": "万",
-      "reading": "まん",
-      "meaning": "10,000"
-    },
-    {
-      "char": "時",
-      "word": "時",
-      "reading": "じ",
-      "meaning": "time"
-    },
-    {
-      "char": "分",
-      "word": "分",
-      "reading": "ふん",
-      "meaning": "minute"
-    },
-    {
-      "char": "半",
-      "word": "半",
-      "reading": "はん",
-      "meaning": "half (past the hour)"
-    },
-    {
-      "char": "午",
-      "word": "午前",
-      "reading": "ごぜん",
-      "meaning": "morning; AM"
-    },
-    {
-      "char": "月",
-      "word": "月",
-      "reading": "がつ",
-      "meaning": "month"
-    },
-    {
-      "char": "日",
-      "word": "日",
-      "reading": "にち",
-      "meaning": "day"
-    },
-    {
-      "char": "年",
-      "word": "年",
-      "reading": "ねん",
-      "meaning": "year"
-    },
-    {
-      "char": "今",
-      "word": "今",
-      "reading": "いま",
-      "meaning": "now"
-    },
-    {
-      "char": "来",
-      "word": "来年",
-      "reading": "らいねん",
-      "meaning": "next year"
-    },
-    {
-      "char": "先",
-      "word": "先週",
-      "reading": "せんしゅう",
-      "meaning": "last week"
-    },
-    {
-      "char": "毎",
-      "word": "毎日",
-      "reading": "まいにち",
-      "meaning": "every day"
-    },
-    {
-      "char": "何",
-      "word": "何",
-      "reading": "なん",
-      "meaning": "what; how many"
+     "japanese": "九月[くがつ]二十日[はつか]に旅行[りょこう]します。",
+     "romaji": "Kugatsu hatsuka ni ryokou shimasu.",
+     "english": "I'll travel on September 20th."
     }
-  ]
+   ],
+   "flashcardHeader": "〜月 / 〜日 (months and dates)",
+   "flashcardAnswer": "Months and calendar days, with their special readings.",
+   "practice": [
+    {
+     "id": "dates-months_q1",
+     "type": "usage",
+     "prompt": "Which correctly reads April?",
+     "japanese": null,
+     "choices": [
+      "四月[しがつ]",
+      "四月[よんがつ]",
+      "四月[よがつ]",
+      "四月[しがつつ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "April is 四月[しがつ] — here 四 is read し, unlike the clock's 四時[よじ]."
+    },
+    {
+     "id": "dates-months_q2",
+     "type": "usage",
+     "prompt": "Which correctly reads September?",
+     "japanese": null,
+     "choices": [
+      "九月[くがつ]",
+      "九月[きゅうがつ]",
+      "九月[ここのがつ]",
+      "九月[くうがつ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "September is 九月[くがつ] — 九 read く, matching 九時[くじ]."
+    },
+    {
+     "id": "dates-months_q3",
+     "type": "fillBlank",
+     "prompt": "How do you read \"the 1st\" (of the month)?",
+     "japanese": "一日[  ]",
+     "choices": [
+      "ついたち",
+      "いちにち",
+      "ひとひ",
+      "いちび"
+     ],
+     "correctIndex": 0,
+     "explanation": "The 1st of the month is the fully irregular 一日[ついたち]. (一日[いちにち] instead means \"one day / a whole day.\")"
+    },
+    {
+     "id": "dates-months_q4",
+     "type": "usage",
+     "prompt": "Which correctly reads \"the 3rd\"?",
+     "japanese": null,
+     "choices": [
+      "三日[みっか]",
+      "三日[さんにち]",
+      "三日[さんび]",
+      "三日[みつにち]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Days 1–10 use native readings: the 3rd is 三日[みっか]."
+    },
+    {
+     "id": "dates-months_q5",
+     "type": "fillBlank",
+     "prompt": "How do you read \"the 20th\"?",
+     "japanese": "二十日[  ]",
+     "choices": [
+      "はつか",
+      "にじゅうにち",
+      "にじゅうか",
+      "はつにち"
+     ],
+     "correctIndex": 0,
+     "explanation": "The 20th is the irregular 二十日[はつか], not にじゅうにち."
+    },
+    {
+     "id": "dates-months_q6",
+     "type": "translation",
+     "prompt": "How do you ask \"What's today's date?\"",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]は何月[なんがつ]何日[なんにち]ですか。",
+      "今日[きょう]は何時[なんじ]ですか。",
+      "今日[きょう]は何曜日[なんようび]ですか。",
+      "今日[きょう]は何年[なんねん]ですか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "何月[なんがつ]何日[なんにち] asks the month and day. 何曜日[なんようび] asks the day of the week; 何時[なんじ] asks the time."
+    },
+    {
+     "id": "dates-months_q7",
+     "type": "usage",
+     "prompt": "Which reads \"the 8th\" correctly?",
+     "japanese": null,
+     "choices": [
+      "八日[ようか]",
+      "八日[はちにち]",
+      "八日[はちか]",
+      "八日[やっか]"
+     ],
+     "correctIndex": 0,
+     "explanation": "The 8th is 八日[ようか], one of the native-reading days from 1–10."
+    },
+    {
+     "id": "dates-months_q8",
+     "type": "fillBlank",
+     "prompt": "Read \"the 14th\":",
+     "japanese": "十四日[  ]",
+     "choices": [
+      "じゅうよっか",
+      "じゅうよんにち",
+      "じゅうしにち",
+      "じゅうよか"
+     ],
+     "correctIndex": 0,
+     "explanation": "The 14th keeps the native 四日[よっか] ending: 十四日[じゅうよっか]."
+    }
+   ]
+  },
+  {
+   "id": "years-when",
+   "name": "Years & Scheduling — 〜年[ねん] and に",
+   "shortDescription": "Saying the year, relative times, and marking when things happen.",
+   "formation": "Number + 年[ねん] (year) ； specific time + に (at / on / in)",
+   "explanation": "Years attach 年[ねん] to a number: 2024年[ねん] (にせんにじゅうよねん). Ask which year with 何年[なんねん]. Relative years have their own words — 今年[ことし] (this year), 来年[らいねん] (next year), 去年[きょねん] (last year) — and the same 今／来／先 pattern runs through weeks and months:\n- 今週[こんしゅう] / 来週[らいしゅう] / 先週[せんしゅう] (this / next / last week)\n- 今月[こんげつ] / 来月[らいげつ] / 先月[せんげつ] (this / next / last month)\n- 毎[まい]〜 means \"every\": 毎日[まいにち], 毎週[まいしゅう], 毎年[まいとし]\n\nThe most important rule of the chapter is when to use the particle に for \"at / on / in.\" Use に with *specific, absolute* time points — clock times, dates, days of the week, months, and years:\n- 三時[さんじ]に (at 3:00), 月曜日[げつようび]に (on Monday), 五月[ごがつ]に (in May)\n\nBut do NOT use に with *relative* time words — today, tomorrow, this week, every day — because they're defined relative to now, not fixed on the calendar:\n- 今日[きょう], 明日[あした], 昨日[きのう], 毎日[まいにち], 来週[らいしゅう], 今年[ことし] — no に\n\nSo you say 月曜日[げつようび]に行[い]きます (I'll go on Monday) but 明日[あした]行[い]きます (I'll go tomorrow).",
+   "rules": [
+    "〜年[ねん] = year (2024年[ねん]); ask with 何年[なんねん]",
+    "Use に with specific times: 三時[さんじ]に, 月曜日[げつようび]に, 五月五日[ごがついつか]に",
+    "Do NOT use に with relative words: 今日[きょう], 明日[あした], 毎日[まいにち], 来週[らいしゅう]",
+    "今[こん]／来[らい]／先[せん] + 週[しゅう]／月[げつ] = this / next / last week or month",
+    "毎[まい]〜 = every: 毎日[まいにち], 毎週[まいしゅう], 毎年[まいとし]"
+   ],
+   "examples": [
+    {
+     "japanese": "来年[らいねん]日本[にほん]に行[い]きます。",
+     "romaji": "Rainen Nihon ni ikimasu.",
+     "english": "I'll go to Japan next year. (no に on 来年)"
+    },
+    {
+     "japanese": "月曜日[げつようび]に会議[かいぎ]があります。",
+     "romaji": "Getsuyoubi ni kaigi ga arimasu.",
+     "english": "There's a meeting on Monday."
+    },
+    {
+     "japanese": "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]します。",
+     "romaji": "Mainichi nihongo o benkyou shimasu.",
+     "english": "I study Japanese every day."
+    },
+    {
+     "japanese": "今年[ことし]は二千二十四年[にせんにじゅうよねん]です。",
+     "romaji": "Kotoshi wa nisen nijuu yo nen desu.",
+     "english": "This year is 2024."
+    }
+   ],
+   "flashcardHeader": "〜年 and に (years, relative time, scheduling)",
+   "flashcardAnswer": "Saying the year, relative times, and marking when things happen with に.",
+   "practice": [
+    {
+     "id": "years-when_q1",
+     "type": "usage",
+     "prompt": "Which is correct?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]行[い]きます。",
+      "明日[あした]に行[い]きます。",
+      "明日[あした]で行[い]きます。",
+      "明日[あした]を行[い]きます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "明日[あした] (tomorrow) is a relative time word, so it takes no particle: 明日[あした]行[い]きます."
+    },
+    {
+     "id": "years-when_q2",
+     "type": "fillBlank",
+     "prompt": "Fill the blank: 月曜日[げつようび]___テストがあります。",
+     "japanese": "月曜日[げつようび]___テストがあります。",
+     "choices": [
+      "に",
+      "で",
+      "を",
+      "（なし）"
+     ],
+     "correctIndex": 0,
+     "explanation": "A day of the week is a specific time point, so it takes に: 月曜日[げつようび]にテストがあります (There's a test on Monday)."
+    },
+    {
+     "id": "years-when_q3",
+     "type": "usage",
+     "prompt": "Which sentence uses に correctly?",
+     "japanese": null,
+     "choices": [
+      "三時[さんじ]に会[あ]いましょう。",
+      "今日[きょう]に会[あ]いましょう。",
+      "毎日[まいにち]に会[あ]いましょう。",
+      "来週[らいしゅう]に会[あ]いましょう。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A clock time (三時[さんじ]) is specific, so it takes に. 今日[きょう], 毎日[まいにち], and 来週[らいしゅう] are relative words and take no に."
+    },
+    {
+     "id": "years-when_q4",
+     "type": "translation",
+     "prompt": "How do you say \"next week\"?",
+     "japanese": null,
+     "choices": [
+      "来週[らいしゅう]",
+      "先週[せんしゅう]",
+      "今週[こんしゅう]",
+      "毎週[まいしゅう]"
+     ],
+     "correctIndex": 0,
+     "explanation": "来[らい] means \"coming/next,\" so next week is 来週[らいしゅう]. 先週[せんしゅう] is last week; 今週[こんしゅう] is this week."
+    },
+    {
+     "id": "years-when_q5",
+     "type": "usage",
+     "prompt": "Which means \"every day\"?",
+     "japanese": null,
+     "choices": [
+      "毎日[まいにち]",
+      "今日[きょう]",
+      "毎年[まいとし]",
+      "先日[せんじつ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "毎[まい] means \"every,\" so 毎日[まいにち] = every day. 毎年[まいとし] = every year."
+    },
+    {
+     "id": "years-when_q6",
+     "type": "usage",
+     "prompt": "Which correctly says \"last year\"?",
+     "japanese": null,
+     "choices": [
+      "去年[きょねん]",
+      "来年[らいねん]",
+      "今年[ことし]",
+      "毎年[まいとし]"
+     ],
+     "correctIndex": 0,
+     "explanation": "去年[きょねん] is last year. 来年[らいねん] is next year and 今年[ことし] is this year."
+    },
+    {
+     "id": "years-when_q7",
+     "type": "usage",
+     "prompt": "Pick the correct sentence.",
+     "japanese": null,
+     "choices": [
+      "五月[ごがつ]五日[いつか]に生[う]まれました。",
+      "五月[ごがつ]五日[いつか]生[う]まれました。",
+      "今日[きょう]に生[う]まれました。",
+      "明日[あした]に生[う]まれました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A full date is a specific time point, so it takes に: 五月[ごがつ]五日[いつか]に. Relative words like 今日[きょう]/明日[あした] wouldn't."
+    },
+    {
+     "id": "years-when_q8",
+     "type": "fillBlank",
+     "prompt": "Fill the blank: 毎朝[まいあさ]七時[しちじ]___起[お]きます。",
+     "japanese": "毎朝[まいあさ]七時[しちじ]___起[お]きます。",
+     "choices": [
+      "に",
+      "で",
+      "を",
+      "から"
+     ],
+     "correctIndex": 0,
+     "explanation": "The clock time 七時[しちじ] takes に (七時[しちじ]に起[お]きます). Note 毎朝[まいあさ] itself is relative and takes no particle."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "time_v1",
+   "partOfSpeech": "noun",
+   "kanji": "時計",
+   "kana": "とけい",
+   "romaji": "tokei",
+   "definition": "clock; watch"
+  },
+  {
+   "id": "time_v2",
+   "partOfSpeech": "noun",
+   "kanji": "時間",
+   "kana": "じかん",
+   "romaji": "jikan",
+   "definition": "time; hour"
+  },
+  {
+   "id": "time_v3",
+   "partOfSpeech": "noun",
+   "kanji": "今",
+   "kana": "いま",
+   "romaji": "ima",
+   "definition": "now"
+  },
+  {
+   "id": "time_v4",
+   "partOfSpeech": "noun",
+   "kanji": "午前",
+   "kana": "ごぜん",
+   "romaji": "gozen",
+   "definition": "morning; AM"
+  },
+  {
+   "id": "time_v5",
+   "partOfSpeech": "noun",
+   "kanji": "午後",
+   "kana": "ごご",
+   "romaji": "gogo",
+   "definition": "afternoon; PM"
+  },
+  {
+   "id": "time_v6",
+   "partOfSpeech": "noun",
+   "kanji": "半",
+   "kana": "はん",
+   "romaji": "han",
+   "definition": "half (past the hour)"
+  },
+  {
+   "id": "time_v7",
+   "partOfSpeech": "noun",
+   "kanji": "朝",
+   "kana": "あさ",
+   "romaji": "asa",
+   "definition": "morning"
+  },
+  {
+   "id": "time_v8",
+   "partOfSpeech": "noun",
+   "kanji": "昼",
+   "kana": "ひる",
+   "romaji": "hiru",
+   "definition": "noon; daytime"
+  },
+  {
+   "id": "time_v9",
+   "partOfSpeech": "noun",
+   "kanji": "夜",
+   "kana": "よる",
+   "romaji": "yoru",
+   "definition": "night; evening"
+  },
+  {
+   "id": "time_v10",
+   "partOfSpeech": "noun",
+   "kanji": "今日",
+   "kana": "きょう",
+   "romaji": "kyou",
+   "definition": "today"
+  },
+  {
+   "id": "time_v11",
+   "partOfSpeech": "noun",
+   "kanji": "明日",
+   "kana": "あした",
+   "romaji": "ashita",
+   "definition": "tomorrow"
+  },
+  {
+   "id": "time_v12",
+   "partOfSpeech": "noun",
+   "kanji": "昨日",
+   "kana": "きのう",
+   "romaji": "kinou",
+   "definition": "yesterday"
+  },
+  {
+   "id": "time_v13",
+   "partOfSpeech": "noun",
+   "kanji": "毎日",
+   "kana": "まいにち",
+   "romaji": "mainichi",
+   "definition": "every day"
+  },
+  {
+   "id": "time_v14",
+   "partOfSpeech": "noun",
+   "kanji": "今週",
+   "kana": "こんしゅう",
+   "romaji": "konshuu",
+   "definition": "this week"
+  },
+  {
+   "id": "time_v15",
+   "partOfSpeech": "noun",
+   "kanji": "来週",
+   "kana": "らいしゅう",
+   "romaji": "raishuu",
+   "definition": "next week"
+  },
+  {
+   "id": "time_v16",
+   "partOfSpeech": "noun",
+   "kanji": "先週",
+   "kana": "せんしゅう",
+   "romaji": "senshuu",
+   "definition": "last week"
+  },
+  {
+   "id": "time_v17",
+   "partOfSpeech": "noun",
+   "kanji": "今月",
+   "kana": "こんげつ",
+   "romaji": "kongetsu",
+   "definition": "this month"
+  },
+  {
+   "id": "time_v18",
+   "partOfSpeech": "noun",
+   "kanji": "来月",
+   "kana": "らいげつ",
+   "romaji": "raigetsu",
+   "definition": "next month"
+  },
+  {
+   "id": "time_v19",
+   "partOfSpeech": "noun",
+   "kanji": "今年",
+   "kana": "ことし",
+   "romaji": "kotoshi",
+   "definition": "this year"
+  },
+  {
+   "id": "time_v20",
+   "partOfSpeech": "noun",
+   "kanji": "来年",
+   "kana": "らいねん",
+   "romaji": "rainen",
+   "definition": "next year"
+  },
+  {
+   "id": "time_v21",
+   "partOfSpeech": "noun",
+   "kanji": "去年",
+   "kana": "きょねん",
+   "romaji": "kyonen",
+   "definition": "last year"
+  },
+  {
+   "id": "time_v22",
+   "partOfSpeech": "noun",
+   "kanji": "月曜日",
+   "kana": "げつようび",
+   "romaji": "getsuyoubi",
+   "definition": "Monday"
+  },
+  {
+   "id": "time_v23",
+   "partOfSpeech": "noun",
+   "kanji": "火曜日",
+   "kana": "かようび",
+   "romaji": "kayoubi",
+   "definition": "Tuesday"
+  },
+  {
+   "id": "time_v24",
+   "partOfSpeech": "noun",
+   "kanji": "水曜日",
+   "kana": "すいようび",
+   "romaji": "suiyoubi",
+   "definition": "Wednesday"
+  },
+  {
+   "id": "time_v25",
+   "partOfSpeech": "noun",
+   "kanji": "木曜日",
+   "kana": "もくようび",
+   "romaji": "mokuyoubi",
+   "definition": "Thursday"
+  },
+  {
+   "id": "time_v26",
+   "partOfSpeech": "noun",
+   "kanji": "金曜日",
+   "kana": "きんようび",
+   "romaji": "kinyoubi",
+   "definition": "Friday"
+  },
+  {
+   "id": "time_v27",
+   "partOfSpeech": "noun",
+   "kanji": "土曜日",
+   "kana": "どようび",
+   "romaji": "doyoubi",
+   "definition": "Saturday"
+  },
+  {
+   "id": "time_v28",
+   "partOfSpeech": "noun",
+   "kanji": "日曜日",
+   "kana": "にちようび",
+   "romaji": "nichiyoubi",
+   "definition": "Sunday"
+  },
+  {
+   "id": "time_v29",
+   "partOfSpeech": "noun",
+   "kanji": "誕生日",
+   "kana": "たんじょうび",
+   "romaji": "tanjoubi",
+   "definition": "birthday"
+  },
+  {
+   "id": "time_v30",
+   "partOfSpeech": "noun",
+   "kanji": "休み",
+   "kana": "やすみ",
+   "romaji": "yasumi",
+   "definition": "holiday; day off; break"
+  },
+  {
+   "id": "time_v31",
+   "partOfSpeech": "noun",
+   "kanji": "祝日",
+   "kana": "しゅくじつ",
+   "romaji": "shukujitsu",
+   "definition": "public holiday"
+  },
+  {
+   "id": "time_v32",
+   "partOfSpeech": "noun",
+   "kanji": "お正月",
+   "kana": "おしょうがつ",
+   "romaji": "oshougatsu",
+   "definition": "New Year (holiday)"
+  },
+  {
+   "id": "time_v33",
+   "partOfSpeech": "noun",
+   "kanji": "夏休み",
+   "kana": "なつやすみ",
+   "romaji": "natsuyasumi",
+   "definition": "summer vacation"
+  },
+  {
+   "id": "time_v35",
+   "partOfSpeech": "noun",
+   "kanji": "クリスマス",
+   "kana": "クリスマス",
+   "romaji": "kurisumasu",
+   "definition": "Christmas"
+  },
+  {
+   "id": "time_v36",
+   "partOfSpeech": "noun",
+   "kanji": "晩",
+   "kana": "ばん",
+   "romaji": "ban",
+   "definition": "evening"
+  },
+  {
+   "id": "time_v37",
+   "partOfSpeech": "noun",
+   "kanji": "週末",
+   "kana": "しゅうまつ",
+   "romaji": "shuumatsu",
+   "definition": "weekend"
+  },
+  {
+   "id": "time_v38",
+   "partOfSpeech": "noun",
+   "kanji": "先月",
+   "kana": "せんげつ",
+   "romaji": "sengetsu",
+   "definition": "last month"
+  },
+  {
+   "id": "time_v39",
+   "partOfSpeech": "noun",
+   "kanji": "毎月",
+   "kana": "まいつき",
+   "romaji": "maitsuki",
+   "definition": "every month"
+  },
+  {
+   "id": "time_v40",
+   "partOfSpeech": "noun",
+   "kanji": "毎年",
+   "kana": "まいとし",
+   "romaji": "maitoshi",
+   "definition": "every year"
+  },
+  {
+   "id": "time_v41",
+   "partOfSpeech": "noun",
+   "kanji": "分",
+   "kana": "ふん",
+   "romaji": "fun",
+   "definition": "minute"
+  },
+  {
+   "id": "time_v42",
+   "partOfSpeech": "noun",
+   "kanji": "秒",
+   "kana": "びょう",
+   "romaji": "byou",
+   "definition": "second"
+  },
+  {
+   "id": "time_v43",
+   "partOfSpeech": "noun",
+   "kanji": "曜日",
+   "kana": "ようび",
+   "romaji": "youbi",
+   "definition": "day of the week"
+  },
+  {
+   "id": "time_v44",
+   "partOfSpeech": "noun",
+   "kanji": "予定",
+   "kana": "よてい",
+   "romaji": "yotei",
+   "definition": "plan; schedule"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "一",
+   "word": "一",
+   "reading": "いち",
+   "meaning": "one"
+  },
+  {
+   "char": "二",
+   "word": "二",
+   "reading": "に",
+   "meaning": "two"
+  },
+  {
+   "char": "三",
+   "word": "三",
+   "reading": "さん",
+   "meaning": "three"
+  },
+  {
+   "char": "四",
+   "word": "四",
+   "reading": "よん",
+   "meaning": "four"
+  },
+  {
+   "char": "五",
+   "word": "五",
+   "reading": "ご",
+   "meaning": "five"
+  },
+  {
+   "char": "六",
+   "word": "六",
+   "reading": "ろく",
+   "meaning": "six"
+  },
+  {
+   "char": "七",
+   "word": "七",
+   "reading": "しち",
+   "meaning": "seven"
+  },
+  {
+   "char": "八",
+   "word": "八",
+   "reading": "はち",
+   "meaning": "eight"
+  },
+  {
+   "char": "九",
+   "word": "九",
+   "reading": "きゅう",
+   "meaning": "nine"
+  },
+  {
+   "char": "十",
+   "word": "十",
+   "reading": "じゅう",
+   "meaning": "ten"
+  },
+  {
+   "char": "百",
+   "word": "百",
+   "reading": "ひゃく",
+   "meaning": "hundred"
+  },
+  {
+   "char": "千",
+   "word": "千",
+   "reading": "せん",
+   "meaning": "1,000"
+  },
+  {
+   "char": "万",
+   "word": "万",
+   "reading": "まん",
+   "meaning": "10,000"
+  },
+  {
+   "char": "時",
+   "word": "時",
+   "reading": "じ",
+   "meaning": "time"
+  },
+  {
+   "char": "分",
+   "word": "分",
+   "reading": "ふん",
+   "meaning": "minute"
+  },
+  {
+   "char": "半",
+   "word": "半",
+   "reading": "はん",
+   "meaning": "half (past the hour)"
+  },
+  {
+   "char": "午",
+   "word": "午前",
+   "reading": "ごぜん",
+   "meaning": "morning; AM"
+  },
+  {
+   "char": "月",
+   "word": "月",
+   "reading": "がつ",
+   "meaning": "month"
+  },
+  {
+   "char": "日",
+   "word": "日",
+   "reading": "にち",
+   "meaning": "day"
+  },
+  {
+   "char": "年",
+   "word": "年",
+   "reading": "ねん",
+   "meaning": "year"
+  },
+  {
+   "char": "今",
+   "word": "今",
+   "reading": "いま",
+   "meaning": "now"
+  },
+  {
+   "char": "来",
+   "word": "来年",
+   "reading": "らいねん",
+   "meaning": "next year"
+  },
+  {
+   "char": "先",
+   "word": "先週",
+   "reading": "せんしゅう",
+   "meaning": "last week"
+  },
+  {
+   "char": "毎",
+   "word": "毎日",
+   "reading": "まいにち",
+   "meaning": "every day"
+  },
+  {
+   "char": "何",
+   "word": "何",
+   "reading": "なん",
+   "meaning": "what; how many"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "一",
+   "kana": "いち",
+   "romaji": "ichi",
+   "meaning": "one",
+   "chars": [
+    "一"
+   ]
+  },
+  {
+   "word": "二",
+   "kana": "に",
+   "romaji": "ni",
+   "meaning": "two",
+   "chars": [
+    "二"
+   ]
+  },
+  {
+   "word": "三",
+   "kana": "さん",
+   "romaji": "san",
+   "meaning": "three",
+   "chars": [
+    "三"
+   ]
+  },
+  {
+   "word": "四",
+   "kana": "よん",
+   "romaji": "yon",
+   "meaning": "four",
+   "chars": [
+    "四"
+   ]
+  },
+  {
+   "word": "五",
+   "kana": "ご",
+   "romaji": "go",
+   "meaning": "five",
+   "chars": [
+    "五"
+   ]
+  },
+  {
+   "word": "六",
+   "kana": "ろく",
+   "romaji": "roku",
+   "meaning": "six",
+   "chars": [
+    "六"
+   ]
+  },
+  {
+   "word": "七",
+   "kana": "しち",
+   "romaji": "shichi",
+   "meaning": "seven",
+   "chars": [
+    "七"
+   ]
+  },
+  {
+   "word": "八",
+   "kana": "はち",
+   "romaji": "hachi",
+   "meaning": "eight",
+   "chars": [
+    "八"
+   ]
+  },
+  {
+   "word": "九",
+   "kana": "きゅう",
+   "romaji": "kyuu",
+   "meaning": "nine",
+   "chars": [
+    "九"
+   ]
+  },
+  {
+   "word": "十",
+   "kana": "じゅう",
+   "romaji": "juu",
+   "meaning": "ten",
+   "chars": [
+    "十"
+   ]
+  },
+  {
+   "word": "百",
+   "kana": "ひゃく",
+   "romaji": "hyaku",
+   "meaning": "hundred",
+   "chars": [
+    "百"
+   ]
+  },
+  {
+   "word": "千",
+   "kana": "せん",
+   "romaji": "sen",
+   "meaning": "1,000",
+   "chars": [
+    "千"
+   ]
+  },
+  {
+   "word": "万",
+   "kana": "まん",
+   "romaji": "man",
+   "meaning": "10,000",
+   "chars": [
+    "万"
+   ]
+  },
+  {
+   "word": "時",
+   "kana": "じ",
+   "romaji": "ji",
+   "meaning": "time",
+   "chars": [
+    "時"
+   ]
+  },
+  {
+   "word": "分",
+   "kana": "ふん",
+   "romaji": "fun",
+   "meaning": "minute",
+   "chars": [
+    "分"
+   ]
+  },
+  {
+   "word": "半",
+   "kana": "はん",
+   "romaji": "han",
+   "meaning": "half (past the hour)",
+   "chars": [
+    "半"
+   ]
+  },
+  {
+   "word": "午前",
+   "kana": "ごぜん",
+   "romaji": "gozen",
+   "meaning": "morning; AM",
+   "chars": [
+    "午",
+    "前"
+   ]
+  },
+  {
+   "word": "月",
+   "kana": "がつ",
+   "romaji": "gatsu",
+   "meaning": "month",
+   "chars": [
+    "月"
+   ]
+  },
+  {
+   "word": "日",
+   "kana": "にち",
+   "romaji": "nichi",
+   "meaning": "day",
+   "chars": [
+    "日"
+   ]
+  },
+  {
+   "word": "年",
+   "kana": "ねん",
+   "romaji": "nen",
+   "meaning": "year",
+   "chars": [
+    "年"
+   ]
+  },
+  {
+   "word": "今",
+   "kana": "いま",
+   "romaji": "ima",
+   "meaning": "now",
+   "chars": [
+    "今"
+   ]
+  },
+  {
+   "word": "来年",
+   "kana": "らいねん",
+   "romaji": "rainen",
+   "meaning": "next year",
+   "chars": [
+    "来",
+    "年"
+   ]
+  },
+  {
+   "word": "先週",
+   "kana": "せんしゅう",
+   "romaji": "senshuu",
+   "meaning": "last week",
+   "chars": [
+    "先",
+    "週"
+   ]
+  },
+  {
+   "word": "毎日",
+   "kana": "まいにち",
+   "romaji": "mainichi",
+   "meaning": "every day",
+   "chars": [
+    "毎",
+    "日"
+   ]
+  },
+  {
+   "word": "何",
+   "kana": "なん",
+   "romaji": "nan",
+   "meaning": "what; how many",
+   "chars": [
+    "何"
+   ]
+  },
+  {
+   "word": "二つ",
+   "kana": "ふたつ",
+   "romaji": "futatsu",
+   "meaning": "two",
+   "chars": [
+    "二"
+   ]
+  },
+  {
+   "word": "三つ",
+   "kana": "みっつ",
+   "romaji": "mittsu",
+   "meaning": "three",
+   "chars": [
+    "三"
+   ]
+  },
+  {
+   "word": "四つ",
+   "kana": "よっつ",
+   "romaji": "yottsu",
+   "meaning": "four",
+   "chars": [
+    "四"
+   ]
+  },
+  {
+   "word": "五つ",
+   "kana": "いつつ",
+   "romaji": "itsutsu",
+   "meaning": "five",
+   "chars": [
+    "五"
+   ]
+  },
+  {
+   "word": "六つ",
+   "kana": "むっつ",
+   "romaji": "muttsu",
+   "meaning": "six",
+   "chars": [
+    "六"
+   ]
+  },
+  {
+   "word": "七つ",
+   "kana": "ななつ",
+   "romaji": "nanatsu",
+   "meaning": "seven",
+   "chars": [
+    "七"
+   ]
+  },
+  {
+   "word": "八つ",
+   "kana": "やっつ",
+   "romaji": "yattsu",
+   "meaning": "eight",
+   "chars": [
+    "八"
+   ]
+  },
+  {
+   "word": "九つ",
+   "kana": "ここのつ",
+   "romaji": "kokonotsu",
+   "meaning": "nine",
+   "chars": [
+    "九"
+   ]
+  },
+  {
+   "word": "時間",
+   "kana": "じかん",
+   "romaji": "jikan",
+   "meaning": "time",
+   "chars": [
+    "時",
+    "間"
+   ]
+  },
+  {
+   "word": "時",
+   "kana": "とき",
+   "romaji": "toki",
+   "meaning": "time",
+   "chars": [
+    "時"
+   ]
+  },
+  {
+   "word": "時には",
+   "kana": "ときには",
+   "romaji": "tokiniha",
+   "meaning": "at times",
+   "chars": [
+    "時"
+   ]
+  },
+  {
+   "word": "分",
+   "kana": "ぶん",
+   "romaji": "bun",
+   "meaning": "part",
+   "chars": [
+    "分"
+   ]
+  },
+  {
+   "word": "分け",
+   "kana": "わけ",
+   "romaji": "wake",
+   "meaning": "sharing",
+   "chars": [
+    "分"
+   ]
+  },
+  {
+   "word": "分ける",
+   "kana": "わける",
+   "romaji": "wakeru",
+   "meaning": "to divide (into)",
+   "chars": [
+    "分"
+   ]
+  },
+  {
+   "word": "午後",
+   "kana": "ごご",
+   "romaji": "gogo",
+   "meaning": "afternoon",
+   "chars": [
+    "午",
+    "後"
+   ]
+  },
+  {
+   "word": "曜日",
+   "kana": "ようび",
+   "romaji": "youbi",
+   "meaning": "day of the week",
+   "chars": [
+    "曜",
+    "日"
+   ]
+  },
+  {
+   "word": "昨日",
+   "kana": "きのう",
+   "romaji": "kinou",
+   "meaning": "yesterday",
+   "chars": [
+    "昨",
+    "日"
+   ]
+  },
+  {
+   "word": "祝日",
+   "kana": "しゅくじつ",
+   "romaji": "shukujitsu",
+   "meaning": "national holiday",
+   "chars": [
+    "祝",
+    "日"
+   ]
+  },
+  {
+   "word": "日",
+   "kana": "ひ",
+   "romaji": "hi",
+   "meaning": "day",
+   "chars": [
+    "日"
+   ]
+  },
+  {
+   "word": "去年",
+   "kana": "きょねん",
+   "romaji": "kyonen",
+   "meaning": "last year",
+   "chars": [
+    "去",
+    "年"
+   ]
+  },
+  {
+   "word": "今月",
+   "kana": "こんげつ",
+   "romaji": "kongetsu",
+   "meaning": "this month",
+   "chars": [
+    "今",
+    "月"
+   ]
+  },
+  {
+   "word": "来週",
+   "kana": "らいしゅう",
+   "romaji": "raishuu",
+   "meaning": "next week",
+   "chars": [
+    "来",
+    "週"
+   ]
+  },
+  {
+   "word": "来月",
+   "kana": "らいげつ",
+   "romaji": "raigetsu",
+   "meaning": "next month",
+   "chars": [
+    "来",
+    "月"
+   ]
+  },
+  {
+   "word": "先月",
+   "kana": "せんげつ",
+   "romaji": "sengetsu",
+   "meaning": "last month",
+   "chars": [
+    "先",
+    "月"
+   ]
+  },
+  {
+   "word": "先",
+   "kana": "さっき",
+   "romaji": "sakki",
+   "meaning": "a short while ago",
+   "chars": [
+    "先"
+   ]
+  },
+  {
+   "word": "先に",
+   "kana": "さきに",
+   "romaji": "sakini",
+   "meaning": "previously",
+   "chars": [
+    "先"
+   ]
+  },
+  {
+   "word": "毎月",
+   "kana": "まいつき",
+   "romaji": "maitsuki",
+   "meaning": "every month",
+   "chars": [
+    "毎",
+    "月"
+   ]
+  },
+  {
+   "word": "何か",
+   "kana": "なにか",
+   "romaji": "nanika",
+   "meaning": "something",
+   "chars": [
+    "何"
+   ]
+  },
+  {
+   "word": "何とか",
+   "kana": "なんとか",
+   "romaji": "nantoka",
+   "meaning": "something",
+   "chars": [
+    "何"
+   ]
+  },
+  {
+   "word": "何だか",
+   "kana": "なんだか",
+   "romaji": "nandaka",
+   "meaning": "(a) little",
+   "chars": [
+    "何"
+   ]
+  },
+  {
+   "word": "週末",
+   "kana": "しゅうまつ",
+   "romaji": "shuumatsu",
+   "meaning": "weekend",
+   "chars": [
+    "週",
+    "末"
+   ]
+  },
+  {
+   "word": "夏休み",
+   "kana": "なつやすみ",
+   "romaji": "natsuyasumi",
+   "meaning": "summer vacation",
+   "chars": [
+    "夏",
+    "休"
+   ]
+  },
+  {
+   "word": "休み",
+   "kana": "やすみ",
+   "romaji": "yasumi",
+   "meaning": "rest",
+   "chars": [
+    "休"
+   ]
+  }
+ ]
 }

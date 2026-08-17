@@ -1,1531 +1,2132 @@
 {
-  "id": "ch35",
-  "chapterNumber": 37,
-  "title": "Meaning and Explanation",
-  "points": [
+ "id": "ch35",
+ "chapterNumber": 37,
+ "title": "Meaning and Explanation",
+ "points": [
+  {
+   "id": "to-iu-koto",
+   "name": "〜ということ / 〜というのは — the fact that / what is meant by",
+   "shortDescription": "Nominalizes a clause ('the fact that X') or introduces a definition or explanation ('what X means is...').",
+   "formation": "Plain form + ということ (that / the fact that)  |  Noun/phrase + というのは (what X means is...)",
+   "explanation": "ということ and というのは are two of the most useful explaining tools in the N3 toolkit, both built on the same foundation: という (called / that) plus the nominalizer こと. ということ turns an entire clause into a noun — specifically, the concept or fact described by that clause. 彼[かれ]が来[こ]ないということはわかりました: 'the fact that he won't come' becomes the grammatical subject of the sentence. Paired with つまり, it becomes a rephrasing tool: つまり、失敗[しっぱい]したということですか (In other words, does that mean you failed?) — one of the most natural ways to seek clarification or confirm your understanding.\n\nというのは introduces a definition: 辞書[じしょ]というのは、言葉[ことば]の意味[いみ]を調[しら]べるためのものです ('What a dictionary is — it's something for looking up word meanings'). Whenever you want to formally explain a term or concept, this is your structure. In casual speech, ということ softens to ってこと: 彼[かれ]が来[こ]ないってことか (So that means he won't come?). These patterns are workhorses of explanation, clarification, and logical rephrasing.",
+   "rules": [
+    "Plain form + ということ = the fact that / the thing called / (nominalizes clause)",
+    "〜というのは + explanation = what [X] is/means is... (introduces a definition)",
+    "つまり〜ということ = in other words / which means that (rephrasing/summarizing)",
+    "〜ということか = So that means...? (seeking confirmation of an interpretation)",
+    "ということ can be dropped in casual speech: 彼[かれ]が来[こ]ないってことか = That means he won't come?"
+   ],
+   "examples": [
     {
-      "id": "to-iu-koto",
-      "name": "〜ということ / 〜というのは — the fact that / what is meant by",
-      "shortDescription": "Nominalizes a clause ('the fact that X') or introduces a definition or explanation ('what X means is...').",
-      "formation": "Plain form + ということ (that / the fact that)  |  Noun/phrase + というのは (what X means is...)",
-      "explanation": "ということ and というのは are two of the most useful explaining tools in the N3 toolkit, both built on the same foundation: という (called / that) plus the nominalizer こと. ということ turns an entire clause into a noun — specifically, the concept or fact described by that clause. 彼[かれ]が来[こ]ないということはわかりました: 'the fact that he won't come' becomes the grammatical subject of the sentence. Paired with つまり, it becomes a rephrasing tool: つまり、失敗[しっぱい]したということですか (In other words, does that mean you failed?) — one of the most natural ways to seek clarification or confirm your understanding.\n\nというのは introduces a definition: 辞書[じしょ]というのは、言葉[ことば]の意味[いみ]を調[しら]べるためのものです ('What a dictionary is — it's something for looking up word meanings'). Whenever you want to formally explain a term or concept, this is your structure. In casual speech, ということ softens to ってこと: 彼[かれ]が来[こ]ないってことか (So that means he won't come?). These patterns are workhorses of explanation, clarification, and logical rephrasing.",
-      "rules": [
-        "Plain form + ということ = the fact that / the thing called / (nominalizes clause)",
-        "〜というのは + explanation = what [X] is/means is... (introduces a definition)",
-        "つまり〜ということ = in other words / which means that (rephrasing/summarizing)",
-        "〜ということか = So that means...? (seeking confirmation of an interpretation)",
-        "ということ can be dropped in casual speech: 彼[かれ]が来[こ]ないってことか = That means he won't come?"
-      ],
-      "examples": [
-        {
-          "japanese": "「居酒屋[いざかや]」というのは、お酒[さけ]が飲[の]める日本式[にほんしき]の飲[の]み屋[や]のことです。",
-          "romaji": "'Izakaya' to iu no wa, osake ga nomeru nihonshiki no nomiya no koto desu.",
-          "english": "What 'izakaya' means is a Japanese-style drinking establishment where you can drink alcohol."
-        },
-        {
-          "japanese": "彼女[かのじょ]が来[こ]ないということは、もう決定[けってい]しています。",
-          "romaji": "Kanojo ga konai to iu koto wa, mou kettei shite imasu.",
-          "english": "The fact that she won't come has already been decided."
-        },
-        {
-          "japanese": "つまり、私[わたし]の提案[ていあん]は受[う]け入[い]れられないということですか。",
-          "romaji": "Tsumari, watashi no teian wa ukeirerarenai to iu koto desu ka.",
-          "english": "In other words, does that mean my proposal cannot be accepted?"
-        },
-        {
-          "japanese": "仕事[しごと]が忙[いそが]しいということは、それだけ責任[せきにん]があるということです。",
-          "romaji": "Shigoto ga isogashii to iu koto wa, sore dake sekinin ga aru to iu koto desu.",
-          "english": "The fact that work is busy means that there is that much responsibility."
-        }
-      ],
-      "flashcardHeader": "〜ということ / 〜というのは",
-      "flashcardAnswer": "Nominalizes a clause ('the fact that X') or introduces a definition ('what X means is...').",
-      "practice": [
-        {
-          "id": "to-iu-koto_q1",
-          "type": "usage",
-          "prompt": "What does 〜ということ mean?",
-          "japanese": null,
-          "choices": [
-            "because of X",
-            "the fact that X / that X (nominalizes a clause — turns it into a noun concept)",
-            "X is decided",
-            "in order to do X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ということ = the fact that / that . It nominalizes a clause, making it a noun-like concept: 彼[かれ]が来[こ]ないということ = the fact that he isn't coming. Used to quote, explain, or refer to a situation as a concept."
-        },
-        {
-          "id": "to-iu-koto_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'I heard that the exam was cancelled'?",
-          "japanese": null,
-          "choices": [
-            "試験[しけん]が中止[ちゅうし]になったということを聞[き]いた。",
-            "試験[しけん]が中止[ちゅうし]になることを聞[き]いた。",
-            "試験[しけん]が中止[ちゅうし]になるということを聞[き]いた。",
-            "試験[しけん]が中止[ちゅうし]になったのに聞[き]いた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜たということ: 中止[ちゅうし]になった (was cancelled, past) + ということ = the fact that it was cancelled. を聞[き]いた = heard. This pattern quotes/reports information as a fact."
-        },
-        {
-          "id": "to-iu-koto_q3",
-          "type": "translation",
-          "prompt": "Which means 'The fact that he passed the exam is great news'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]が試験[しけん]に合格[ごうかく]したということは、すごいことだ。",
-            "彼[かれ]が試験[しけん]に合格[ごうかく]することは、すごいことだ。",
-            "彼[かれ]が試験[しけん]に合格[ごうかく]するということは、すごいことだ。",
-            "彼[かれ]が試験[しけん]に合格[ごうかく]したのは、すごいことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜たということ: 合格[ごうかく]した (passed, past) + ということ = the fact that he passed. は = topic marker (the fact is the topic). すごいことだ = is great news. ということ nominalizes the whole clause."
-        },
-        {
-          "id": "to-iu-koto_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'This means we have to start over'?",
-          "japanese": null,
-          "choices": [
-            "つまり、最初[さいしょ]からやり直[なお]すということだ。",
-            "つまり、最初[さいしょ]からやり直[なお]すことだ。",
-            "つまり、最初[さいしょ]からやり直[なお]すのだ。",
-            "つまり、最初[さいしょ]からやり直[なお]すことになる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ = this means that. つまり (in other words) + やり直[なお]す + ということだ = this means we have to start over. ということだ draws a conclusion or explains what something amounts to."
-        },
-        {
-          "id": "to-iu-koto_q5",
-          "type": "usage",
-          "prompt": "ということ can also mean 'I heard that' (hearsay/reported speech). Which shows this?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]は雨[あめ]だということだ。(I hear it's going to rain tomorrow.)",
-            "明日[あした]は雨[あめ]だことだ。(incorrect)",
-            "明日[あした]は雨[あめ]だのだ。(It's because it's raining tomorrow.)",
-            "明日[あした]は雨[あめ]だはずだ。(It should rain tomorrow.)"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ = I hear/am told that (hearsay). 明日[あした]は雨[あめ]だということだ = I hear tomorrow will be rainy. This quotes information from another source without the speaker's own certainty."
-        },
-        {
-          "id": "to-iu-koto_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'I didn't know that he was sick'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]が病気[びょうき]だということを知[し]らなかった。",
-            "彼[かれ]が病気[びょうき]なことを知[し]らなかった。",
-            "彼[かれ]が病気[びょうき]のことを知[し]らなかった。",
-            "彼[かれ]が病気[びょうき]だのに知[し]らなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜だということ: 病気[びょうき]だ (is sick, copula) + ということ = the fact that he is sick. を知[し]らなかった = didn't know. ということ nominalizes the copula clause."
-        },
-        {
-          "id": "to-iu-koto_q7",
-          "type": "translation",
-          "prompt": "Which means 'The problem is that no one understands Japanese'?",
-          "japanese": null,
-          "choices": [
-            "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないということだ。",
-            "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないことだ。",
-            "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないのだ。",
-            "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ for explanation: 分[わ]からない + ということだ = the fact/problem is that . This structure X は Y ということだ = X is the fact that Y."
-        },
-        {
-          "id": "to-iu-koto_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'In other words, this project has failed'?",
-          "japanese": null,
-          "choices": [
-            "つまり、このプロジェクトは失敗[しっぱい]したということだ。",
-            "つまり、このプロジェクトは失敗[しっぱい]したことだ。",
-            "つまり、このプロジェクトは失敗[しっぱい]するということだ。",
-            "つまり、このプロジェクトは失敗[しっぱい]しているのだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "つまり + ということだ = in other words, this means. 失敗[しっぱい]した (failed) + ということだ = this means it failed. ということだ draws a conclusion from evidence."
-        },
-        {
-          "id": "to-iu-koto_q9",
-          "type": "usage",
-          "prompt": "What is the difference between 〜こと and 〜ということ?",
-          "japanese": null,
-          "choices": [
-            "They are completely identical",
-            "〜ということ is slightly more emphatic or formal in nominalizing; also carries a quoting/explaining nuance not present in 〜こと",
-            "〜こと is for present tense only",
-            "〜ということ can only be used with past tense, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "〜こと nominalizes: 走[はし]ること (running, the act). 〜ということ nominalizes with a quoting/explaining nuance: 彼[かれ]が来[こ]ないということ (the fact that he isn't coming — contextualizing or reporting as information). ということ is slightly more formal and explicitly refers to information or meaning."
-        },
-        {
-          "id": "to-iu-koto_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Does this mean the store is closed today'?",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]は店[みせ]が閉[し]まっているということですか？",
-            "今日[きょう]は店[みせ]が閉[し]まっていることですか？",
-            "今日[きょう]は店[みせ]が閉[し]まっているのですか？",
-            "今日[きょう]は店[みせ]が閉[し]まるということですか？"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということですか = does this mean that? 閉[し]まっている (is closed, present) + ということですか = does this mean the store is closed? Seeking confirmation of the implied meaning."
-        },
-        {
-          "id": "to-iu-koto_q11",
-          "type": "translation",
-          "prompt": "Which means 'Passing the exam means your efforts paid off'?",
-          "japanese": null,
-          "choices": [
-            "試験[しけん]に合格[ごうかく]したということは、努力[どりょく]が報[むく]われたということだ。",
-            "試験[しけん]に合格[ごうかく]したことは、努力[どりょく]が報[むく]われたことだ。",
-            "試験[しけん]に合格[ごうかく]するということは、努力[どりょく]が報[むく]われるということだ。",
-            "試験[しけん]に合格[ごうかく]したということは、努力[どりょく]が報[むく]われたのだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということは、〜ということだ = the fact that X means Y. 合格[ごうかく]したということは = the fact that you passed means. 努力[どりょく]が報[むく]われたということだ = your efforts paid off."
-        },
-        {
-          "id": "to-iu-koto_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'I understand that he won't come tomorrow'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]が明日[あした]来[こ]ないということは分[わ]かりました。",
-            "彼[かれ]が明日[あした]来[こ]ないことは分[わ]かりました。",
-            "彼[かれ]が明日[あした]来[こ]ないのは分[わ]かりました。",
-            "彼[かれ]が明日[あした]来[く]るということは分[わ]かりました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ないということ: 来[こ]ない (won't come) + ということ = the fact that he won't come. は分[わ]かりました = understood/I now understand."
-        },
-        {
-          "id": "to-iu-koto_q13",
-          "type": "usage",
-          "prompt": "ということ after a sentence-final verb can summarize/paraphrase what was said. Which shows this?",
-          "japanese": null,
-          "choices": [
-            "つまり、彼[かれ]は行[い]かないということだ。(In other words, he won't go — summarizing)",
-            "つまり、彼[かれ]は行[い]かないことだ。(awkward)",
-            "つまり、彼[かれ]は行[い]かないのだ。(It's that he won't go — explaining)",
-            "つまり、彼[かれ]は行[い]かないわけだ。(That's why he won't go)"
-          ],
-          "correctIndex": 0,
-          "explanation": "ということだ after a clause summarizes or paraphrases: つまり、彼[かれ]は行[い]かないということだ = in other words, the point is that he won't go. Classic use of ということだ for concluding or summarizing a point."
-        },
-        {
-          "id": "to-iu-koto_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'This means we have to work harder'?",
-          "japanese": null,
-          "choices": [
-            "つまり、もっと頑張[がんば]らなければならないということだ。",
-            "つまり、もっと頑張[がんば]らなければならないことだ。",
-            "つまり、もっと頑張[がんば]らなければならないのだ。",
-            "つまり、もっと頑張[がんば]るということだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ as conclusion: もっと頑張[がんば]らなければならない + ということだ = this means we have to work harder. つまり sets up the conclusion."
-        },
-        {
-          "id": "to-iu-koto_q15",
-          "type": "translation",
-          "prompt": "Which means 'Apparently, the event was a big success'?",
-          "japanese": null,
-          "choices": [
-            "イベントは大成功[だいせいこう]だったということだ。",
-            "イベントは大成功[だいせいこう]なことだ。",
-            "イベントは大成功[だいせいこう]だったはずだ。",
-            "イベントは大成功[だいせいこう]だったのだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ for hearsay: 大成功[だいせいこう]だった + ということだ = apparently it was a great success (I heard/was told). The speaker is reporting information heard from others."
-        },
-        {
-          "id": "to-iu-koto_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'I was surprised to learn that she was getting married'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]が結婚[けっこん]するということを聞[き]いて驚[おどろ]いた。",
-            "彼女[かのじょ]が結婚[けっこん]することを聞[き]いて驚[おどろ]いた。",
-            "彼女[かのじょ]が結婚[けっこん]するのを聞[き]いて驚[おどろ]いた。",
-            "彼女[かのじょ]が結婚[けっこん]しているということを聞[き]いて驚[おどろ]いた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということ: 結婚[けっこん]する (will marry, dict-form) + ということ = the fact/news that she's getting married. を聞[き]いて驚[おどろ]いた = was surprised to hear. ということ frames it as reported information."
-        },
-        {
-          "id": "to-iu-koto_q17",
-          "type": "usage",
-          "prompt": "Which best describes when 〜ということだ is used for HEARSAY?",
-          "japanese": null,
-          "choices": [
-            "When the speaker is completely certain about the information — and this holds in every register, formal or casual.",
-            "When the speaker is reporting information from an external source (newspaper, someone told me)",
-            "When expressing the speaker's personal opinion",
-            "When describing past habits"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ということだ for hearsay = the speaker received information from an external source and is reporting it. 来週[らいしゅう]試験[しけん]があるということだ = I hear there's an exam next week (someone told me / I read it somewhere). The speaker doesn't take full personal responsibility for the info."
-        },
-        {
-          "id": "to-iu-koto_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'The problem is that time is running out'?",
-          "japanese": null,
-          "choices": [
-            "問題[もんだい]は、時間[じかん]が足[た]りなくなっているということだ。",
-            "問題[もんだい]は、時間[じかん]が足[た]りなくなっていることだ。",
-            "問題[もんだい]は、時間[じかん]が足[た]りなくなるのだ。",
-            "問題[もんだい]は、時間[じかん]が足[た]りなくなるはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということだ for identifying a problem: 時間[じかん]が足[た]りなくなっている (time is running short, progressive) + ということだ = the problem is that time is running out. 問題[もんだい]は〜ということだ = the problem is ."
-        },
-        {
-          "id": "to-iu-koto_q19",
-          "type": "translation",
-          "prompt": "Which means 'The fact that prices are rising is a serious problem'?",
-          "japanese": null,
-          "choices": [
-            "物価[ぶっか]が上[あ]がっているということは深刻[しんこく]な問題[もんだい]だ。",
-            "物価[ぶっか]が上[あ]がっていることは深刻[しんこく]な問題[もんだい]だ。",
-            "物価[ぶっか]が上[あ]がるということは深刻[しんこく]な問題[もんだい]だ。",
-            "物価[ぶっか]が上[あ]がっているのは深刻[しんこく]な問題[もんだい]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ということ: 上[あ]がっている (is rising, progressive) + ということ = the fact that prices are rising. は深刻[しんこく]な問題[もんだい]だ = is a serious problem. ということ nominalizes the clause as a formal fact."
-        },
-        {
-          "id": "to-iu-koto_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'So in short, this app is not safe to use'?",
-          "japanese": null,
-          "choices": [
-            "つまり、このアプリは安全[あんぜん]に使[つか]えないということだ。",
-            "つまり、このアプリは安全[あんぜん]に使[つか]えないことだ。",
-            "つまり、このアプリは安全[あんぜん]に使[つか]えないのだ。",
-            "つまり、このアプリは安全[あんぜん]に使[つか]えないわけだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "つまり + ということだ: 安全[あんぜん]に使[つか]えない (cannot use safely) + ということだ = in short, this means the app is not safe to use. ということだ summarizes the conclusion of reasoning."
-        }
-      ]
+     "japanese": "「居酒屋[いざかや]」というのは、お酒[さけ]が飲[の]める日本式[にほんしき]の飲[の]み屋[や]のことです。",
+     "romaji": "'Izakaya' to iu no wa, osake ga nomeru nihonshiki no nomiya no koto desu.",
+     "english": "What 'izakaya' means is a Japanese-style drinking establishment where you can drink alcohol."
     },
     {
-      "id": "wake-da",
-      "name": "〜わけだ (wake da) — that explains it / no wonder / so naturally",
-      "shortDescription": "Signals that a logical conclusion naturally follows — 'no wonder / that makes sense / of course it does'.",
-      "formation": "Plain form + わけだ / わけです",
-      "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時間[さんじかん]練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 28), and わけにはいかない (moral/social impossibility — Chapter 33). Context and verb choice make the differences clear.",
-      "rules": [
-        "Plain form + わけだ = that explains it / no wonder / naturally follows (logical conclusion)",
-        "Used when new information makes a previously puzzling thing make sense",
-        "Can state a logical deduction: if A is true → it follows (わけだ) that B is true",
-        "Contrast: わけではない (partial denial — Ch. 28); わけにはいかない (impossible due to circumstances — Ch. 33)",
-        "わけか expresses a new realization: ああ、そういうわけか (Ah, so that's why!)"
-      ],
-      "examples": [
-        {
-          "japanese": "毎日[まいにち]三時[さんじ]間[かん]も練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]ですよ。",
-          "romaji": "Mainichi sanjikan mo renshuu shite iru wake dakara, jouzu ni naru no mo touzen desu yo.",
-          "english": "If you're practicing three hours every day, it's only natural you'd improve."
-        },
-        {
-          "japanese": "ああ、そういうわけか。だから急[きゅう]に変更[へんこう]になったんですね。",
-          "romaji": "Aa, sou iu wake ka. Dakara kyuu ni henkou ni natta n desu ne.",
-          "english": "Ah, so that's why. That's why it was suddenly changed."
-        },
-        {
-          "japanese": "一年間[いちねんかん]日本[にほん]に住[す]んでいたなら、日本語[にほんご]が上手[じょうず]なのも納得[なっとく]できるわけです。",
-          "romaji": "Ichinenkan Nihon ni sunde ita nara, nihongo ga jouzu na no mo nattoku dekiru wake desu.",
-          "english": "If you lived in Japan for a year, it makes sense you'd be good at Japanese."
-        },
-        {
-          "japanese": "何[なに]も食[た]べていないわけだから、お腹[なか]が空[す]くのは当然[とうぜん]だ。",
-          "romaji": "Nani mo tabete inai wake dakara, onaka ga suku no wa touzen da.",
-          "english": "Since you haven't eaten anything, it's only natural you'd be hungry."
-        }
-      ],
-      "flashcardHeader": "〜わけだ",
-      "flashcardAnswer": "Signals that a logical conclusion naturally follows — 'no wonder / that explains it / of course'.",
-      "practice": [
-        {
-          "id": "wake-da_q1",
-          "type": "usage",
-          "prompt": "What does 〜わけだ mean?",
-          "japanese": null,
-          "choices": [
-            "might be",
-            "that's why / it stands to reason / no wonder (explains a conclusion or natural consequence)",
-            "should be",
-            "probably"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜わけだ = that's why / it stands to reason / no wonder. 彼[かれ]はずっと練習[れんしゅう]していたから、上手[うま]いわけだ = he's been practicing all along, so no wonder he's good. It states a NATURAL CONCLUSION or REASON that makes sense."
-        },
-        {
-          "id": "wake-da_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'No wonder he's tired — he worked all night'?",
-          "japanese": null,
-          "choices": [
-            "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているわけだ。",
-            "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているはずだ。",
-            "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているのだ。",
-            "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: 働[はたら]いていた (was working) + から (because) + 疲[つか]れているわけだ = that's why he's tired / no wonder. わけだ expresses that the conclusion naturally follows from the reason."
-        },
-        {
-          "id": "wake-da_q3",
-          "type": "translation",
-          "prompt": "Which means 'It's natural that she speaks Japanese well — she lived in Japan for 10 years'?",
-          "japanese": null,
-          "choices": [
-            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なわけだ。",
-            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なはずだ。",
-            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]にちがいない。",
-            "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なのだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: 住[す]んでいた (was living) + から + 日本語[にほんご]が上手[じょうず]なわけだ = no wonder her Japanese is good (natural conclusion from 10 years of living there). わけだ = the conclusion makes complete sense."
-        },
-        {
-          "id": "wake-da_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'So this explains why he didn't come'?",
-          "japanese": null,
-          "choices": [
-            "だから彼[かれ]が来[こ]なかったわけだ。",
-            "だから彼[かれ]が来[こ]なかったはずだ。",
-            "だから彼[かれ]が来[こ]なかったのだ。",
-            "だから彼[かれ]が来[こ]なかったわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だから + わけだ: 来[こ]なかった (didn't come) + わけだ = so THAT'S why he didn't come. だから sets up the cause; わけだ states that the conclusion naturally follows — everything clicks into place."
-        },
-        {
-          "id": "wake-da_q5",
-          "type": "usage",
-          "prompt": "What is the DIFFERENCE between わけだ and はずだ?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "わけだ = natural conclusion based on a reason (no wonder / that's why); はずだ = logical expectation based on facts (should be / is expected to be)",
-            "わけだ is more certain than はずだ",
-            "はずだ is only for future events, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "わけだ = natural conclusion or logical explanation ('no wonder / that's why'). はずだ = expectation based on facts ('should be'). 疲[つか]れているわけだ = no wonder he's tired (explanation of existing fact); 疲[つか]れているはずだ = he should be tired (expectation)."
-        },
-        {
-          "id": "wake-da_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'So that's why prices went up'?",
-          "japanese": null,
-          "choices": [
-            "だから値段[ねだん]が上[あ]がったわけだ。",
-            "だから値段[ねだん]が上[あ]がったはずだ。",
-            "だから値段[ねだん]が上[あ]がったのだ。",
-            "だから値段[ねだん]が上[あ]がったわけではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だから + わけだ: 上[あ]がった (went up) + わけだ = so THAT'S why prices went up. わけだ pulls together a chain of reasoning to explain why something happened."
-        },
-        {
-          "id": "wake-da_q7",
-          "type": "translation",
-          "prompt": "Which means 'It's no wonder the project succeeded — everyone worked so hard'?",
-          "japanese": null,
-          "choices": [
-            "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したわけだ。",
-            "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したはずだ。",
-            "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したのだ。",
-            "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: 頑張[がんば]った (worked hard) + から + 成功[せいこう]したわけだ = no wonder the project succeeded. The conclusion (success) naturally follows from everyone's hard work."
-        },
-        {
-          "id": "wake-da_q8",
-          "type": "construct",
-          "prompt": "わけだ can also be used after 'つまり' to RESTATE a conclusion. Which correctly shows this?",
-          "japanese": null,
-          "choices": [
-            "つまり、彼[かれ]は資格[しかく]を持[も]っていないわけだ。",
-            "つまり、彼[かれ]は資格[しかく]を持[も]っていないはずだ。",
-            "つまり、彼[かれ]は資格[しかく]を持[も]っていないのだ。",
-            "つまり、彼[かれ]は資格[しかく]を持[も]っていないわけではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "つまり + わけだ: 資格[しかく]を持[も]っていない (doesn't have qualifications) + わけだ = so in other words, he doesn't have qualifications. わけだ after つまり restates the logical conclusion of an argument."
-        },
-        {
-          "id": "wake-da_q9",
-          "type": "usage",
-          "prompt": "〜わけだ vs. 〜わけではない: what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical in meaning — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "わけだ = it stands to reason that / natural conclusion; わけではない = it's not that / doesn't mean that (partial negation)",
-            "わけではない is more formal",
-            "わけだ is only for past events"
-          ],
-          "correctIndex": 1,
-          "explanation": "わけだ = natural conclusion ('no wonder / that's why'). わけではない = it's not that / doesn't necessarily mean (used to deny an implication). 嫌[きら]いなわけではない = it's not that I don't like it (partial negation, denying an assumed conclusion)."
-        },
-        {
-          "id": "wake-da_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'So that explains why she knows French'?",
-          "japanese": null,
-          "choices": [
-            "だから彼女[かのじょ]がフランス語[ご]を知[し]っているわけだ。",
-            "だから彼女[かのじょ]がフランス語[ご]を知[し]っているはずだ。",
-            "だから彼女[かのじょ]がフランス語[ご]を知[し]っているのだ。",
-            "だから彼女[かのじょ]がフランス語[ご]を知[し]っているにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だから + わけだ: 知[し]っている (knows) + わけだ = so THAT explains why she knows French. The explanation (she lived in France / studied it) came before; わけだ closes the reasoning."
-        },
-        {
-          "id": "wake-da_q11",
-          "type": "translation",
-          "prompt": "Which means 'No wonder the room is dark — the lights are all off'?",
-          "japanese": null,
-          "choices": [
-            "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いわけだ。",
-            "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いはずだ。",
-            "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いのだ。",
-            "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: 電気[でんき]が全部[ぜんぶ]消[き]えている (all lights off) + から + 暗[くら]いわけだ = no wonder it's dark. The cause and the natural conclusion connect perfectly via わけだ."
-        },
-        {
-          "id": "wake-da_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'That's why the system crashed'?",
-          "japanese": null,
-          "choices": [
-            "それでシステムがクラッシュしたわけだ。",
-            "それでシステムがクラッシュしたはずだ。",
-            "それでシステムがクラッシュしたのだ。",
-            "それでシステムがクラッシュしたにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "それで (so that's why) + わけだ: クラッシュした (crashed) + わけだ = so THAT's why the system crashed. わけだ draws the conclusion from the technical reason just explained."
-        },
-        {
-          "id": "wake-da_q13",
-          "type": "usage",
-          "prompt": "Which context is MOST natural for わけだ?",
-          "japanese": null,
-          "choices": [
-            "Making a guess about the future",
-            "Drawing a CONCLUSION that now makes sense given new information ('oh, so THAT'S why...')",
-            "Expressing personal opinion or preference, regardless of context or politeness level.",
-            "Asking someone a question"
-          ],
-          "correctIndex": 1,
-          "explanation": "わけだ = 'oh, so that's why!' / 'it makes sense that...' It's used when you've received new information and it explains/resolves something that previously wasn't clear. Insight/realization + わけだ."
-        },
-        {
-          "id": "wake-da_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'No wonder she was crying — she lost her wallet'?",
-          "japanese": null,
-          "choices": [
-            "財布[さいふ]をなくしたから、泣[な]いていたわけだ。",
-            "財布[さいふ]をなくしたから、泣[な]いていたはずだ。",
-            "財布[さいふ]をなくしたから、泣[な]いていたのだ。",
-            "財布[さいふ]をなくしたから、泣[な]いていたにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: なくした (lost) + から + 泣[な]いていたわけだ = no wonder she was crying. The cause (losing wallet) explains the effect (crying) — わけだ makes the connection natural."
-        },
-        {
-          "id": "wake-da_q15",
-          "type": "translation",
-          "prompt": "Which means 'He's been studying English for 5 years, so of course he's good at it'?",
-          "japanese": null,
-          "choices": [
-            "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いわけだ。",
-            "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いはずだ。",
-            "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いのだ。",
-            "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜てきたから〜わけだ: 勉強[べんきょう]してきた (has been studying) + から + 上手[うま]いわけだ = of course he's good (natural conclusion from sustained study). わけだ closes the reasoning."
-        },
-        {
-          "id": "wake-da_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'So naturally the meeting was cancelled'?",
-          "japanese": null,
-          "choices": [
-            "だから会議[かいぎ]がキャンセルされたわけだ。",
-            "だから会議[かいぎ]がキャンセルされたはずだ。",
-            "だから会議[かいぎ]がキャンセルされたのだ。",
-            "だから会議[かいぎ]がキャンセルされたわけではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だから + わけだ: キャンセルされた + わけだ = so naturally/of course the meeting was cancelled. わけだ = natural consequence that now makes sense."
-        },
-        {
-          "id": "wake-da_q17",
-          "type": "usage",
-          "prompt": "Can わけだ be used in questions? Which shows a correct question form?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は来[こ]ないわけですか？(Is that why he isn't coming? / Does that mean he isn't coming?)",
-            "彼[かれ]は来[こ]ないわけ？(Casual version: does that mean he isn't coming?)",
-            "Both are correct question forms of わけだ",
-            "Neither is correct"
-          ],
-          "correctIndex": 2,
-          "explanation": "Both わけですか (formal question) and わけ？(casual) are correct question forms. 彼[かれ]は来[こ]ないわけですか = is that why he isn't coming? / does that mean he isn't coming? These confirm understanding or ask for clarification of the implication."
-        },
-        {
-          "id": "wake-da_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'So that's why the road was closed'?",
-          "japanese": null,
-          "choices": [
-            "だから道[みち]が閉鎖[へいさ]されたわけだ。",
-            "だから道[みち]が閉鎖[へいさ]されたはずだ。",
-            "だから道[みち]が閉鎖[へいさ]されたのだ。",
-            "だから道[みち]が閉鎖[へいさ]されたわけではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だから + わけだ: 閉鎖[へいさ]された (was closed) + わけだ = so THAT's why the road was closed. New information (accident/construction) + わけだ = 'ah, now I understand why.'"
-        },
-        {
-          "id": "wake-da_q19",
-          "type": "translation",
-          "prompt": "Which means 'No wonder they couldn't finish — there were only 2 people'?",
-          "japanese": null,
-          "choices": [
-            "2人[にん]しかいなかったから、終[お]わらなかったわけだ。",
-            "2人[にん]しかいなかったから、終[お]わらなかったはずだ。",
-            "2人[にん]しかいなかったから、終[お]わらなかったのだ。",
-            "2人[にん]しかいなかったから、終[お]わらなかったにちがいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜から〜わけだ: 2人[にん]しかいなかった (only 2 people) + から + 終[お]わらなかったわけだ = no wonder they couldn't finish. The insufficient number of people naturally explains the failure to complete."
-        },
-        {
-          "id": "wake-da_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'So in the end, this is what the problem amounts to'?",
-          "japanese": null,
-          "choices": [
-            "つまり、これが問題[もんだい]のわけだ。",
-            "つまり、これが問題[もんだい]のはずだ。",
-            "つまり、これが問題[もんだい]なのだ。",
-            "つまり、これが問題[もんだい]というわけだ。"
-          ],
-          "correctIndex": 3,
-          "explanation": "というわけだ: という + わけだ = which means / that's what it amounts to. つまり、これが問題[もんだい]というわけだ = in other words, this is what the problem amounts to. というわけだ is a natural conclusion-drawing expression."
-        }
-      ]
+     "japanese": "彼女[かのじょ]が来[こ]ないということは、もう決定[けってい]しています。",
+     "romaji": "Kanojo ga konai to iu koto wa, mou kettei shite imasu.",
+     "english": "The fact that she won't come has already been decided."
     },
     {
-      "id": "you-ni-iu",
-      "name": "〜ように言[い]う / 〜よう伝[つた]える — tell someone to / convey that",
-      "shortDescription": "Reports a directive or instruction in indirect speech: 'told someone to do / not to do X'.",
-      "formation": "Verb (dictionary/ない-form) + ように + 言[い]う / 伝[つた]える / 頼[たの]む",
-      "explanation": "〜ように言[い]う is the standard way to report instructions and directives in Japanese — and it's worth keeping distinct from 〜と言[い]う, which reports statements and facts. 田中[たなか]さんは早[はや]く来[く]るように言[い]いました: what's being reported here is not a belief or a fact, but an instruction. That's ように言[い]う's specialty. For negative instructions, switch to the ない-form: 遅[おく]れないように言[い]われました (I was told not to be late).\n\nThe pattern is flexible about what verb follows ように: 伝[つた]える (convey/pass along), 頼[たの]む (ask/request), 命[めい]じる (order), 注意[ちゅうい]する (caution) — each adds a different shade to the reported directive. And the person who was told takes に: 先生[せんせい]に〜するように言[い]われました (I was told by the teacher to...).\n\nThis structure is extremely practical for everyday use — it covers what teachers, doctors, managers, and parents routinely tell you to do, which comes up constantly. Whenever you're reporting someone else's instruction rather than their opinion, ように言[い]う is your construction.",
-      "rules": [
-        "Dict form + ように言[い]う = tell [someone] to do X",
-        "ない-form + ように言[い]う = tell [someone] not to do X",
-        "Verbs that combine: 伝[つた]える (convey), 頼[たの]む (ask), 命[めい]じる (order), 注意[ちゅうい]する (warn)",
-        "Contrast: 〜と言[い]う = reports statements/facts; 〜ように言[い]う = reports instructions/directives",
-        "The recipient (who was told) is marked with に: 先生[せんせい]に〜するように言[い]われました"
-      ],
-      "examples": [
-        {
-          "japanese": "先生[せんせい]に毎日[まいにち]単語[たんご]を覚[おぼ]えるように言[い]われました。",
-          "romaji": "Sensei ni mainichi tango wo oboeru you ni iwaremashita.",
-          "english": "I was told by the teacher to memorize vocabulary every day."
-        },
-        {
-          "japanese": "田中[たなか]さんに早[はや]めに来[く]るよう伝[つた]えてください。",
-          "romaji": "Tanaka-san ni hayame ni kuru you tsutaete kudasai.",
-          "english": "Please tell Tanaka-san to come a little early."
-        },
-        {
-          "japanese": "医者[いしゃ]に塩分[えんぶん]を控[ひか]えるように言[い]われています。",
-          "romaji": "Isha ni enbun wo hikaeru you ni iwarete imasu.",
-          "english": "I've been told by my doctor to reduce my salt intake."
-        },
-        {
-          "japanese": "遅[おく]れないように何度[なんど]も注意[ちゅうい]したのに、また遅刻[ちこく]した。",
-          "romaji": "Okurenai you ni nando mo chuui shita noni, mata chikoku shita.",
-          "english": "Even though I warned them many times not to be late, they were late again."
-        }
-      ],
-      "flashcardHeader": "〜ように言う / 〜よう伝える",
-      "flashcardAnswer": "Reports a directive or instruction in indirect speech: 'told someone to do / not to do X'.",
-      "practice": [
-        {
-          "id": "you-ni-iu_q1",
-          "type": "usage",
-          "prompt": "What does 〜ように言[い]う mean?",
-          "japanese": null,
-          "choices": [
-            "to say that [I did X]",
-            "to tell/ask someone to do X (indirect instruction or request — passing on a directive)",
-            "to explain how to do X",
-            "to say in the manner of X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ように言[い]う = to tell/ask  to do X. 先生[せんせい]は学生[がくせい]に静[しず]かにするように言[い]った = the teacher told the students to be quiet. It's used to report indirect commands, instructions, or requests."
-        },
-        {
-          "id": "you-ni-iu_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'The doctor told me to rest'?",
-          "japanese": null,
-          "choices": [
-            "医者[いしゃ]は私[わたし]に休[やす]むように言[い]った。",
-            "医者[いしゃ]は私[わたし]に休[やす]めと言[い]った。",
-            "医者[いしゃ]は私[わたし]に休[やす]みように言[い]った。",
-            "医者[いしゃ]は私[わたし]に休[やす]んだように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ように言[い]う: 休[やす]む (rest, dict-form) + ように言[い]った = told to rest. The structure is  に +  + ように言[い]う. Indirect/reported instruction."
-        },
-        {
-          "id": "you-ni-iu_q3",
-          "type": "translation",
-          "prompt": "Which means 'She asked me not to tell anyone'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないように言[い]った。",
-            "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]うように言[い]った。",
-            "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないと言[い]った。",
-            "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないように言[い]います。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative dict-form + ように言[い]う: 言[い]わない (not tell) + ように言[い]った = told not to tell. 誰[だれ]にも言[い]わないように = not to tell anyone. Negative instructions use ないように言[い]う."
-        },
-        {
-          "id": "you-ni-iu_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'The teacher told the students to submit by Friday'?",
-          "japanese": null,
-          "choices": [
-            "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]するように言[い]った。",
-            "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]しように言[い]った。",
-            "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]したように言[い]った。",
-            "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]してように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]う: 提出[ていしゅつ]する + ように言[い]った = told to submit. 先生[せんせい]は学生[がくせい]に〜ように言[い]った = the teacher told the students to . Dict-form before ように."
-        },
-        {
-          "id": "you-ni-iu_q5",
-          "type": "usage",
-          "prompt": "What form of the verb comes before ように言[い]う?",
-          "japanese": null,
-          "choices": [
-            "Ta-form (past) — this is true in both spoken and written Japanese.",
-            "Dictionary form (for affirmative) or negative form + ない (for negative instructions)",
-            "Te-form",
-            "Masu-stem"
-          ],
-          "correctIndex": 1,
-          "explanation": "Before ように言[い]う: dict-form for affirmative (早[はや]く来[く]るように言[い]う = tell to come quickly); negative form + ない for negative (来[こ]ないように言[い]う = tell not to come). Both dict-form and negative plain form work."
-        },
-        {
-          "id": "you-ni-iu_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'My mother told me to eat more vegetables'?",
-          "japanese": null,
-          "choices": [
-            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った。",
-            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べように言[い]った。",
-            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べたように言[い]った。",
-            "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べてように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]う: 食[た]べる + ように言[い]った = told to eat. 母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った = my mother told me to eat more vegetables."
-        },
-        {
-          "id": "you-ni-iu_q7",
-          "type": "translation",
-          "prompt": "Which means 'I was told not to be late'?",
-          "japanese": null,
-          "choices": [
-            "遅刻[ちこく]しないように言[い]われた。",
-            "遅刻[ちこく]するように言[い]われた。",
-            "遅刻[ちこく]しないと言[い]われた。",
-            "遅刻[ちこく]しないように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ないように言[い]われた = was told not to do. 遅刻[ちこく]しない (not be late) + ように言[い]われた = was told not to be late. The passive form 言[い]われた = was told (received the instruction)."
-        },
-        {
-          "id": "you-ni-iu_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'The boss told him to finish the report by tomorrow'?",
-          "japanese": null,
-          "choices": [
-            "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせるように言[い]った。",
-            "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせように言[い]った。",
-            "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせたように言[い]った。",
-            "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせてように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 上司[じょうし]は彼[かれ]に〜ように言[い]った = the boss told him to . Causative verb before ように."
-        },
-        {
-          "id": "you-ni-iu_q9",
-          "type": "usage",
-          "prompt": "What is the DIFFERENCE between ように言[い]う and と言[い]う?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "ように言[い]う = indirect instruction/request (tell to do); と言[い]う = direct quotation of speech (say that...)",
-            "ように言[い]う is more polite",
-            "と言[い]う is only for past tense, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "ように言[い]う = indirect instruction: 行[い]くように言[い]う (tell  to go). と言[い]う = direct quotation: 行[い]くと言[い]う (say that  will go). ように言[い]う passes on a directive; と言[い]う quotes actual words."
-        },
-        {
-          "id": "you-ni-iu_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Please tell him to call me'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]に電話[でんわ]するように言[い]ってください。",
-            "彼[かれ]に電話[でんわ]すると言[い]ってください。",
-            "彼[かれ]に電話[でんわ]するように言[い]いてください。",
-            "彼[かれ]に電話[でんわ]したように言[い]ってください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]ってください: 電話[でんわ]する + ように言[い]ってください = please tell  to call. 言[い]ってください is the request form of 言[い]う. 彼[かれ]に = to him."
-        },
-        {
-          "id": "you-ni-iu_q11",
-          "type": "translation",
-          "prompt": "Which means 'I was told to study more'?",
-          "japanese": null,
-          "choices": [
-            "もっと勉強[べんきょう]するように言[い]われた。",
-            "もっと勉強[べんきょう]しように言[い]われた。",
-            "もっと勉強[べんきょう]するように言[い]った。",
-            "もっと勉強[べんきょう]したように言[い]われた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]われた (passive = was told): 勉強[べんきょう]する + ように言[い]われた = was told to study. The passive 言[い]われた shifts the speaker to the receiver of the instruction."
-        },
-        {
-          "id": "you-ni-iu_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Tell her not to worry'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]に心配[しんぱい]しないように言[い]ってください。",
-            "彼女[かのじょ]に心配[しんぱい]するように言[い]ってください。",
-            "彼女[かのじょ]に心配[しんぱい]しないと言[い]ってください。",
-            "彼女[かのじょ]に心配[しんぱい]しないように言[い]います。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative + ように言[い]ってください: 心配[しんぱい]しない (not worry) + ように言[い]ってください = please tell  not to worry. Negative instruction via ないように言[い]う."
-        },
-        {
-          "id": "you-ni-iu_q13",
-          "type": "usage",
-          "prompt": "ように言[い]う can also use POTENTIAL or PROGRESSIVE forms before ように. Which shows a potential form example?",
-          "japanese": null,
-          "choices": [
-            "間[ま]に合[あ]うように早[はや]く来[く]るように言[い]った。(Told to come early so as to make it in time.)",
-            "話[はな]せるように練習[れんしゅう]するように言[い]った。(Told to practice so as to be able to speak.)",
-            "もっと練習[れんしゅう]するように言[い]った。(Told to practice more.)",
-            "急[いそ]いで来[く]るように言[い]った。(Told to come quickly.)"
-          ],
-          "correctIndex": 1,
-          "explanation": "話[はな]せるように練習[れんしゅう]するように言[い]った: there are two ように here — 話[はな]せるように (so that I can speak) and 練習[れんしゅう]するように言[い]った (was told to practice). This double-ように can occur when both a goal and an instruction are expressed together."
-        },
-        {
-          "id": "you-ni-iu_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'The coach told the players to run faster'?",
-          "japanese": null,
-          "choices": [
-            "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]るように言[い]った。",
-            "コーチは選手[せんしゅ]たちにもっと速[はや]く走[そう]ように言[い]った。",
-            "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]ったように言[い]った。",
-            "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]ってように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]う: 走[はし]る + ように言[い]った = told to run. コーチは選手[せんしゅ]たちに〜ように言[い]った = the coach told the players to . もっと速[はや]く = faster."
-        },
-        {
-          "id": "you-ni-iu_q15",
-          "type": "translation",
-          "prompt": "Which means 'She told me not to smoke in the house'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないように言[い]った。",
-            "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]うように言[い]った。",
-            "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないと言[い]った。",
-            "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないように言[い]います。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative dict-form + ように言[い]う: 吸[す]わない (not smoke) + ように言[い]った = told not to smoke. 家[いえ]の中[なか]で = in the house. Negative instruction: ないように言[い]う."
-        },
-        {
-          "id": "you-ni-iu_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Please tell the students to be quiet'?",
-          "japanese": null,
-          "choices": [
-            "学生[がくせい]たちに静[しず]かにするように言[い]ってください。",
-            "学生[がくせい]たちに静[しず]かにように言[い]ってください。",
-            "学生[がくせい]たちに静[しず]かにすると言[い]ってください。",
-            "学生[がくせい]たちに静[しず]かにするように言[い]います。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ように言[い]ってください: 静[しず]かにする (be quiet) + ように言[い]ってください = please tell  to be quiet. 学生[がくせい]たちに = to the students."
-        },
-        {
-          "id": "you-ni-iu_q17",
-          "type": "usage",
-          "prompt": "When ように言[い]う is reported in the PAST, which forms are correct?",
-          "japanese": null,
-          "choices": [
-            "Only ように言[い]った (affirmative past) — and this holds in every register, formal or casual.",
-            "ように言[い]った (affirmative past) AND ないように言[い]った (negative past instruction) — both work",
-            "Only ないように言[い]った",
-            "Only ように言[い]います"
-          ],
-          "correctIndex": 1,
-          "explanation": "Both affirmative and negative past forms work: 来[く]るように言[い]った (told to come); 来[こ]ないように言[い]った (told not to come). The verb before ように can be affirmative dict-form or negative plain form; 言[い]う conjugates as usual."
-        },
-        {
-          "id": "you-ni-iu_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'My friend told me to try applying for the job'?",
-          "japanese": null,
-          "choices": [
-            "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみるように言[い]った。",
-            "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみように言[い]った。",
-            "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみたように言[い]った。",
-            "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみてように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form (〜てみる) + ように言[い]う: 応募[おうぼ]してみる (try applying) + ように言[い]った = told to try applying. 〜てみる as a whole verb attaches ように directly."
-        },
-        {
-          "id": "you-ni-iu_q19",
-          "type": "translation",
-          "prompt": "Which means 'The nurse told me not to eat before the exam'?",
-          "japanese": null,
-          "choices": [
-            "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないように言[い]った。",
-            "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べるように言[い]った。",
-            "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないと言[い]った。",
-            "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないように言[い]います。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative + ように言[い]う: 食[た]べない + ように言[い]った = told not to eat. 検査前[けんさまえ]に = before the exam. Medical instruction: ないように言[い]う."
-        },
-        {
-          "id": "you-ni-iu_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'The manager told the team to finish by 5 PM'?",
-          "japanese": null,
-          "choices": [
-            "マネージャーはチームに5時[じ]までに終[お]わらせるように言[い]った。",
-            "マネージャーはチームに5時[じ]までに終[お]わらせように言[い]った。",
-            "マネージャーはチームに5時[じ]までに終[お]わらせたように言[い]った。",
-            "マネージャーはチームに5時[じ]までに終[お]わらせてように言[い]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 5時[じ]までに = by 5 PM. マネージャーはチームに〜ように言[い]った = the manager told the team to ."
-        }
-      ]
+     "japanese": "つまり、私[わたし]の提案[ていあん]は受[う]け入[い]れられないということですか。",
+     "romaji": "Tsumari, watashi no teian wa ukeirerarenai to iu koto desu ka.",
+     "english": "In other words, does that mean my proposal cannot be accepted?"
+    },
+    {
+     "japanese": "仕事[しごと]が忙[いそが]しいということは、それだけ責任[せきにん]があるということです。",
+     "romaji": "Shigoto ga isogashii to iu koto wa, sore dake sekinin ga aru to iu koto desu.",
+     "english": "The fact that work is busy means that there is that much responsibility."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜ということ / 〜というのは",
+   "flashcardAnswer": "Nominalizes a clause ('the fact that X') or introduces a definition ('what X means is...').",
+   "practice": [
     {
-      "id": "ch35_v01",
-      "partOfSpeech": "noun",
-      "kanji": "言語",
-      "kana": "げんご",
-      "romaji": "gengo",
-      "definition": "language"
+     "id": "to-iu-koto_q1",
+     "type": "usage",
+     "prompt": "What does 〜ということ mean?",
+     "japanese": null,
+     "choices": [
+      "because of X",
+      "the fact that X / that X (nominalizes a clause — turns it into a noun concept)",
+      "X is decided",
+      "in order to do X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ということ = the fact that / that . It nominalizes a clause, making it a noun-like concept: 彼[かれ]が来[こ]ないということ = the fact that he isn't coming. Used to quote, explain, or refer to a situation as a concept."
     },
     {
-      "id": "ch35_v02",
-      "partOfSpeech": "noun",
-      "kanji": "文法",
-      "kana": "ぶんぽう",
-      "romaji": "bunpou",
-      "definition": "grammar"
+     "id": "to-iu-koto_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'I heard that the exam was cancelled'?",
+     "japanese": null,
+     "choices": [
+      "試験[しけん]が中止[ちゅうし]になったということを聞[き]いた。",
+      "試験[しけん]が中止[ちゅうし]になることを聞[き]いた。",
+      "試験[しけん]が中止[ちゅうし]になるということを聞[き]いた。",
+      "試験[しけん]が中止[ちゅうし]になったのに聞[き]いた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜たということ: 中止[ちゅうし]になった (was cancelled, past) + ということ = the fact that it was cancelled. を聞[き]いた = heard. This pattern quotes/reports information as a fact."
     },
     {
-      "id": "ch35_v03",
-      "partOfSpeech": "noun",
-      "kanji": "単語",
-      "kana": "たんご",
-      "romaji": "tango",
-      "definition": "word; vocabulary"
+     "id": "to-iu-koto_q3",
+     "type": "translation",
+     "prompt": "Which means 'The fact that he passed the exam is great news'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]が試験[しけん]に合格[ごうかく]したということは、すごいことだ。",
+      "彼[かれ]が試験[しけん]に合格[ごうかく]することは、すごいことだ。",
+      "彼[かれ]が試験[しけん]に合格[ごうかく]するということは、すごいことだ。",
+      "彼[かれ]が試験[しけん]に合格[ごうかく]したのは、すごいことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜たということ: 合格[ごうかく]した (passed, past) + ということ = the fact that he passed. は = topic marker (the fact is the topic). すごいことだ = is great news. ということ nominalizes the whole clause."
     },
     {
-      "id": "ch35_v04",
-      "partOfSpeech": "noun",
-      "kanji": "発音",
-      "kana": "はつおん",
-      "romaji": "hatsuon",
-      "definition": "pronunciation"
+     "id": "to-iu-koto_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'This means we have to start over'?",
+     "japanese": null,
+     "choices": [
+      "つまり、最初[さいしょ]からやり直[なお]すということだ。",
+      "つまり、最初[さいしょ]からやり直[なお]すことだ。",
+      "つまり、最初[さいしょ]からやり直[なお]すのだ。",
+      "つまり、最初[さいしょ]からやり直[なお]すことになる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ = this means that. つまり (in other words) + やり直[なお]す + ということだ = this means we have to start over. ということだ draws a conclusion or explains what something amounts to."
     },
     {
-      "id": "ch35_v05",
-      "partOfSpeech": "noun",
-      "kanji": "文章",
-      "kana": "ぶんしょう",
-      "romaji": "bunshou",
-      "definition": "sentence; writing"
+     "id": "to-iu-koto_q5",
+     "type": "usage",
+     "prompt": "ということ can also mean 'I heard that' (hearsay/reported speech). Which shows this?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]は雨[あめ]だということだ。(I hear it's going to rain tomorrow.)",
+      "明日[あした]は雨[あめ]だことだ。(incorrect)",
+      "明日[あした]は雨[あめ]だのだ。(It's because it's raining tomorrow.)",
+      "明日[あした]は雨[あめ]だはずだ。(It should rain tomorrow.)"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ = I hear/am told that (hearsay). 明日[あした]は雨[あめ]だということだ = I hear tomorrow will be rainy. This quotes information from another source without the speaker's own certainty."
     },
     {
-      "id": "ch35_v06",
-      "partOfSpeech": "noun",
-      "kanji": "文字",
-      "kana": "もじ",
-      "romaji": "moji",
-      "definition": "letter; character"
+     "id": "to-iu-koto_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'I didn't know that he was sick'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]が病気[びょうき]だということを知[し]らなかった。",
+      "彼[かれ]が病気[びょうき]なことを知[し]らなかった。",
+      "彼[かれ]が病気[びょうき]のことを知[し]らなかった。",
+      "彼[かれ]が病気[びょうき]だのに知[し]らなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜だということ: 病気[びょうき]だ (is sick, copula) + ということ = the fact that he is sick. を知[し]らなかった = didn't know. ということ nominalizes the copula clause."
     },
     {
-      "id": "ch35_v07",
-      "partOfSpeech": "noun",
-      "kanji": "翻訳",
-      "kana": "ほんやく",
-      "romaji": "hon'yaku",
-      "definition": "translation"
+     "id": "to-iu-koto_q7",
+     "type": "translation",
+     "prompt": "Which means 'The problem is that no one understands Japanese'?",
+     "japanese": null,
+     "choices": [
+      "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないということだ。",
+      "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないことだ。",
+      "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないのだ。",
+      "問題[もんだい]は、誰[だれ]も日本語[にほんご]が分[わ]からないはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ for explanation: 分[わ]からない + ということだ = the fact/problem is that . This structure X は Y ということだ = X is the fact that Y."
     },
     {
-      "id": "ch35_v08",
-      "partOfSpeech": "noun",
-      "kanji": "解説",
-      "kana": "かいせつ",
-      "romaji": "kaisetsu",
-      "definition": "commentary; explanation"
+     "id": "to-iu-koto_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'In other words, this project has failed'?",
+     "japanese": null,
+     "choices": [
+      "つまり、このプロジェクトは失敗[しっぱい]したということだ。",
+      "つまり、このプロジェクトは失敗[しっぱい]したことだ。",
+      "つまり、このプロジェクトは失敗[しっぱい]するということだ。",
+      "つまり、このプロジェクトは失敗[しっぱい]しているのだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "つまり + ということだ = in other words, this means. 失敗[しっぱい]した (failed) + ということだ = this means it failed. ということだ draws a conclusion from evidence."
     },
     {
-      "id": "ch35_v09",
-      "partOfSpeech": "noun",
-      "kanji": "要約",
-      "kana": "ようやく",
-      "romaji": "youyaku",
-      "definition": "summary"
+     "id": "to-iu-koto_q9",
+     "type": "usage",
+     "prompt": "What is the difference between 〜こと and 〜ということ?",
+     "japanese": null,
+     "choices": [
+      "They are completely identical",
+      "〜ということ is slightly more emphatic or formal in nominalizing; also carries a quoting/explaining nuance not present in 〜こと",
+      "〜こと is for present tense only",
+      "〜ということ can only be used with past tense, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "〜こと nominalizes: 走[はし]ること (running, the act). 〜ということ nominalizes with a quoting/explaining nuance: 彼[かれ]が来[こ]ないということ (the fact that he isn't coming — contextualizing or reporting as information). ということ is slightly more formal and explicitly refers to information or meaning."
     },
     {
-      "id": "ch35_v10",
-      "partOfSpeech": "noun",
-      "kanji": "例",
-      "kana": "れい",
-      "romaji": "rei",
-      "definition": "example"
+     "id": "to-iu-koto_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Does this mean the store is closed today'?",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]は店[みせ]が閉[し]まっているということですか？",
+      "今日[きょう]は店[みせ]が閉[し]まっていることですか？",
+      "今日[きょう]は店[みせ]が閉[し]まっているのですか？",
+      "今日[きょう]は店[みせ]が閉[し]まるということですか？"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということですか = does this mean that? 閉[し]まっている (is closed, present) + ということですか = does this mean the store is closed? Seeking confirmation of the implied meaning."
     },
     {
-      "id": "ch35_v11",
-      "partOfSpeech": "noun",
-      "kanji": "例文",
-      "kana": "れいぶん",
-      "romaji": "reibun",
-      "definition": "example sentence"
+     "id": "to-iu-koto_q11",
+     "type": "translation",
+     "prompt": "Which means 'Passing the exam means your efforts paid off'?",
+     "japanese": null,
+     "choices": [
+      "試験[しけん]に合格[ごうかく]したということは、努力[どりょく]が報[むく]われたということだ。",
+      "試験[しけん]に合格[ごうかく]したことは、努力[どりょく]が報[むく]われたことだ。",
+      "試験[しけん]に合格[ごうかく]するということは、努力[どりょく]が報[むく]われるということだ。",
+      "試験[しけん]に合格[ごうかく]したということは、努力[どりょく]が報[むく]われたのだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということは、〜ということだ = the fact that X means Y. 合格[ごうかく]したということは = the fact that you passed means. 努力[どりょく]が報[むく]われたということだ = your efforts paid off."
     },
     {
-      "id": "ch35_v12",
-      "partOfSpeech": "noun",
-      "kanji": "定義",
-      "kana": "ていぎ",
-      "romaji": "teigi",
-      "definition": "definition"
+     "id": "to-iu-koto_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'I understand that he won't come tomorrow'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]が明日[あした]来[こ]ないということは分[わ]かりました。",
+      "彼[かれ]が明日[あした]来[こ]ないことは分[わ]かりました。",
+      "彼[かれ]が明日[あした]来[こ]ないのは分[わ]かりました。",
+      "彼[かれ]が明日[あした]来[く]るということは分[わ]かりました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ないということ: 来[こ]ない (won't come) + ということ = the fact that he won't come. は分[わ]かりました = understood/I now understand."
     },
     {
-      "id": "ch35_v13",
-      "partOfSpeech": "noun",
-      "kanji": "表",
-      "kana": "ひょう",
-      "romaji": "hyou",
-      "definition": "chart; table"
+     "id": "to-iu-koto_q13",
+     "type": "usage",
+     "prompt": "ということ after a sentence-final verb can summarize/paraphrase what was said. Which shows this?",
+     "japanese": null,
+     "choices": [
+      "つまり、彼[かれ]は行[い]かないということだ。(In other words, he won't go — summarizing)",
+      "つまり、彼[かれ]は行[い]かないことだ。(awkward)",
+      "つまり、彼[かれ]は行[い]かないのだ。(It's that he won't go — explaining)",
+      "つまり、彼[かれ]は行[い]かないわけだ。(That's why he won't go)"
+     ],
+     "correctIndex": 0,
+     "explanation": "ということだ after a clause summarizes or paraphrases: つまり、彼[かれ]は行[い]かないということだ = in other words, the point is that he won't go. Classic use of ということだ for concluding or summarizing a point."
     },
     {
-      "id": "ch35_v14",
-      "partOfSpeech": "noun",
-      "kanji": "グラフ",
-      "kana": "グラフ",
-      "romaji": "gurafu",
-      "definition": "graph"
+     "id": "to-iu-koto_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'This means we have to work harder'?",
+     "japanese": null,
+     "choices": [
+      "つまり、もっと頑張[がんば]らなければならないということだ。",
+      "つまり、もっと頑張[がんば]らなければならないことだ。",
+      "つまり、もっと頑張[がんば]らなければならないのだ。",
+      "つまり、もっと頑張[がんば]るということだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ as conclusion: もっと頑張[がんば]らなければならない + ということだ = this means we have to work harder. つまり sets up the conclusion."
     },
     {
-      "id": "ch35_v15",
-      "partOfSpeech": "noun",
-      "kanji": "教育",
-      "kana": "きょういく",
-      "romaji": "kyouiku",
-      "definition": "education"
+     "id": "to-iu-koto_q15",
+     "type": "translation",
+     "prompt": "Which means 'Apparently, the event was a big success'?",
+     "japanese": null,
+     "choices": [
+      "イベントは大成功[だいせいこう]だったということだ。",
+      "イベントは大成功[だいせいこう]なことだ。",
+      "イベントは大成功[だいせいこう]だったはずだ。",
+      "イベントは大成功[だいせいこう]だったのだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ for hearsay: 大成功[だいせいこう]だった + ということだ = apparently it was a great success (I heard/was told). The speaker is reporting information heard from others."
     },
     {
-      "id": "ch35_v16",
-      "partOfSpeech": "noun",
-      "kanji": "知識",
-      "kana": "ちしき",
-      "romaji": "chishiki",
-      "definition": "knowledge"
+     "id": "to-iu-koto_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'I was surprised to learn that she was getting married'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]が結婚[けっこん]するということを聞[き]いて驚[おどろ]いた。",
+      "彼女[かのじょ]が結婚[けっこん]することを聞[き]いて驚[おどろ]いた。",
+      "彼女[かのじょ]が結婚[けっこん]するのを聞[き]いて驚[おどろ]いた。",
+      "彼女[かのじょ]が結婚[けっこん]しているということを聞[き]いて驚[おどろ]いた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということ: 結婚[けっこん]する (will marry, dict-form) + ということ = the fact/news that she's getting married. を聞[き]いて驚[おどろ]いた = was surprised to hear. ということ frames it as reported information."
     },
     {
-      "id": "ch35_v17",
-      "partOfSpeech": "noun",
-      "kanji": "学問",
-      "kana": "がくもん",
-      "romaji": "gakumon",
-      "definition": "scholarship; learning"
+     "id": "to-iu-koto_q17",
+     "type": "usage",
+     "prompt": "Which best describes when 〜ということだ is used for HEARSAY?",
+     "japanese": null,
+     "choices": [
+      "When the speaker is completely certain about the information — and this holds in every register, formal or casual.",
+      "When the speaker is reporting information from an external source (newspaper, someone told me)",
+      "When expressing the speaker's personal opinion",
+      "When describing past habits"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ということだ for hearsay = the speaker received information from an external source and is reporting it. 来週[らいしゅう]試験[しけん]があるということだ = I hear there's an exam next week (someone told me / I read it somewhere). The speaker doesn't take full personal responsibility for the info."
     },
     {
-      "id": "ch35_v18",
-      "partOfSpeech": "noun",
-      "kanji": "理論",
-      "kana": "りろん",
-      "romaji": "riron",
-      "definition": "theory"
+     "id": "to-iu-koto_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'The problem is that time is running out'?",
+     "japanese": null,
+     "choices": [
+      "問題[もんだい]は、時間[じかん]が足[た]りなくなっているということだ。",
+      "問題[もんだい]は、時間[じかん]が足[た]りなくなっていることだ。",
+      "問題[もんだい]は、時間[じかん]が足[た]りなくなるのだ。",
+      "問題[もんだい]は、時間[じかん]が足[た]りなくなるはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということだ for identifying a problem: 時間[じかん]が足[た]りなくなっている (time is running short, progressive) + ということだ = the problem is that time is running out. 問題[もんだい]は〜ということだ = the problem is ."
     },
     {
-      "id": "ch35_v19",
-      "partOfSpeech": "noun",
-      "kanji": "論文",
-      "kana": "ろんぶん",
-      "romaji": "ronbun",
-      "definition": "thesis; paper"
+     "id": "to-iu-koto_q19",
+     "type": "translation",
+     "prompt": "Which means 'The fact that prices are rising is a serious problem'?",
+     "japanese": null,
+     "choices": [
+      "物価[ぶっか]が上[あ]がっているということは深刻[しんこく]な問題[もんだい]だ。",
+      "物価[ぶっか]が上[あ]がっていることは深刻[しんこく]な問題[もんだい]だ。",
+      "物価[ぶっか]が上[あ]がるということは深刻[しんこく]な問題[もんだい]だ。",
+      "物価[ぶっか]が上[あ]がっているのは深刻[しんこく]な問題[もんだい]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ということ: 上[あ]がっている (is rising, progressive) + ということ = the fact that prices are rising. は深刻[しんこく]な問題[もんだい]だ = is a serious problem. ということ nominalizes the clause as a formal fact."
     },
     {
-      "id": "ch35_v20",
-      "partOfSpeech": "noun",
-      "kanji": "講義",
-      "kana": "こうぎ",
-      "romaji": "kougi",
-      "definition": "(university) lecture"
-    },
-    {
-      "id": "ch35_v21",
-      "partOfSpeech": "noun",
-      "kanji": "講演",
-      "kana": "こうえん",
-      "romaji": "kouen",
-      "definition": "lecture; talk"
-    },
-    {
-      "id": "ch35_v22",
-      "partOfSpeech": "noun",
-      "kanji": "説得",
-      "kana": "せっとく",
-      "romaji": "settoku",
-      "definition": "persuasion"
-    },
-    {
-      "id": "ch35_v23",
-      "partOfSpeech": "noun",
-      "kanji": "敬語",
-      "kana": "けいご",
-      "romaji": "keigo",
-      "definition": "honorific language"
-    },
-    {
-      "id": "ch35_v24",
-      "partOfSpeech": "noun",
-      "kanji": "方言",
-      "kana": "ほうげん",
-      "romaji": "hougen",
-      "definition": "dialect"
-    },
-    {
-      "id": "ch35_v25",
-      "partOfSpeech": "noun",
-      "kanji": "標準語",
-      "kana": "ひょうじゅんご",
-      "romaji": "hyoujungo",
-      "definition": "standard language"
-    },
-    {
-      "id": "ch35_v26",
-      "partOfSpeech": "noun",
-      "kanji": "母語",
-      "kana": "ぼご",
-      "romaji": "bogo",
-      "definition": "native language"
-    },
-    {
-      "id": "ch35_v27",
-      "partOfSpeech": "noun",
-      "kanji": "外国語",
-      "kana": "がいこくご",
-      "romaji": "gaikokugo",
-      "definition": "foreign language"
-    },
-    {
-      "id": "ch35_v28",
-      "partOfSpeech": "noun",
-      "kanji": "読解",
-      "kana": "どっかい",
-      "romaji": "dokkai",
-      "definition": "reading comprehension"
-    },
-    {
-      "id": "ch35_v29",
-      "partOfSpeech": "noun",
-      "kanji": "作文",
-      "kana": "さくぶん",
-      "romaji": "sakubun",
-      "definition": "composition; essay"
-    },
-    {
-      "id": "ch35_v30",
-      "partOfSpeech": "noun",
-      "kanji": "暗記",
-      "kana": "あんき",
-      "romaji": "anki",
-      "definition": "memorization"
-    },
-    {
-      "id": "ch35_v31",
-      "partOfSpeech": "noun",
-      "kanji": "復習",
-      "kana": "ふくしゅう",
-      "romaji": "fukushuu",
-      "definition": "review"
-    },
-    {
-      "id": "ch35_v32",
-      "partOfSpeech": "noun",
-      "kanji": "予習",
-      "kana": "よしゅう",
-      "romaji": "yoshuu",
-      "definition": "preparation (for a lesson)"
-    },
-    {
-      "id": "ch35_v33",
-      "partOfSpeech": "verb",
-      "kanji": "表す",
-      "kana": "あらわす",
-      "romaji": "arawasu",
-      "definition": "to express; to represent"
-    },
-    {
-      "id": "ch35_v34",
-      "partOfSpeech": "verb",
-      "kanji": "述べる",
-      "kana": "のべる",
-      "romaji": "noberu",
-      "definition": "to state; to express"
-    },
-    {
-      "id": "ch35_v35",
-      "partOfSpeech": "verb",
-      "kanji": "伝わる",
-      "kana": "つたわる",
-      "romaji": "tsutawaru",
-      "definition": "to be conveyed"
-    },
-    {
-      "id": "ch35_v36",
-      "partOfSpeech": "verb",
-      "kanji": "訳す",
-      "kana": "やくす",
-      "romaji": "yakusu",
-      "definition": "to translate"
-    },
-    {
-      "id": "ch35_v37",
-      "partOfSpeech": "verb",
-      "kanji": "通じる",
-      "kana": "つうじる",
-      "romaji": "tsuujiru",
-      "definition": "to be understood; to get through"
-    },
-    {
-      "id": "ch35_v38",
-      "partOfSpeech": "verb",
-      "kanji": "略す",
-      "kana": "りゃくす",
-      "romaji": "ryakusu",
-      "definition": "to abbreviate"
-    },
-    {
-      "id": "ch35_v39",
-      "partOfSpeech": "noun",
-      "kanji": "語学",
-      "kana": "ごがく",
-      "romaji": "gogaku",
-      "definition": "language study"
-    },
-    {
-      "id": "ch35_v40",
-      "partOfSpeech": "noun",
-      "kanji": "意図",
-      "kana": "いと",
-      "romaji": "ito",
-      "definition": "intention"
+     "id": "to-iu-koto_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'So in short, this app is not safe to use'?",
+     "japanese": null,
+     "choices": [
+      "つまり、このアプリは安全[あんぜん]に使[つか]えないということだ。",
+      "つまり、このアプリは安全[あんぜん]に使[つか]えないことだ。",
+      "つまり、このアプリは安全[あんぜん]に使[つか]えないのだ。",
+      "つまり、このアプリは安全[あんぜん]に使[つか]えないわけだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "つまり + ということだ: 安全[あんぜん]に使[つか]えない (cannot use safely) + ということだ = in short, this means the app is not safe to use. ということだ summarizes the conclusion of reasoning."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "wake-da",
+   "name": "〜わけだ (wake da) — that explains it / no wonder / so naturally",
+   "shortDescription": "Signals that a logical conclusion naturally follows — 'no wonder / that makes sense / of course it does'.",
+   "formation": "Plain form + わけだ / わけです",
+   "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時間[さんじかん]練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 28), and わけにはいかない (moral/social impossibility — Chapter 33). Context and verb choice make the differences clear.",
+   "rules": [
+    "Plain form + わけだ = that explains it / no wonder / naturally follows (logical conclusion)",
+    "Used when new information makes a previously puzzling thing make sense",
+    "Can state a logical deduction: if A is true → it follows (わけだ) that B is true",
+    "Contrast: わけではない (partial denial — Ch. 28); わけにはいかない (impossible due to circumstances — Ch. 33)",
+    "わけか expresses a new realization: ああ、そういうわけか (Ah, so that's why!)"
+   ],
+   "examples": [
     {
-      "char": "決",
-      "word": "決める",
-      "reading": "きめる",
-      "meaning": "to decide"
+     "japanese": "毎日[まいにち]三時[さんじ]間[かん]も練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]ですよ。",
+     "romaji": "Mainichi sanjikan mo renshuu shite iru wake dakara, jouzu ni naru no mo touzen desu yo.",
+     "english": "If you're practicing three hours every day, it's only natural you'd improve."
     },
     {
-      "char": "表",
-      "word": "表",
-      "reading": "ひょう",
-      "meaning": "chart; table"
+     "japanese": "ああ、そういうわけか。だから急[きゅう]に変更[へんこう]になったんですね。",
+     "romaji": "Aa, sou iu wake ka. Dakara kyuu ni henkou ni natta n desu ne.",
+     "english": "Ah, so that's why. That's why it was suddenly changed."
     },
     {
-      "char": "法",
-      "word": "法",
-      "reading": "ほう",
-      "meaning": "law"
+     "japanese": "一年間[いちねんかん]日本[にほん]に住[す]んでいたなら、日本語[にほんご]が上手[じょうず]なのも納得[なっとく]できるわけです。",
+     "romaji": "Ichinenkan Nihon ni sunde ita nara, nihongo ga jouzu na no mo nattoku dekiru wake desu.",
+     "english": "If you lived in Japan for a year, it makes sense you'd be good at Japanese."
     },
     {
-      "char": "和",
-      "word": "和",
-      "reading": "わ",
-      "meaning": "sum"
-    },
-    {
-      "char": "記",
-      "word": "暗記",
-      "reading": "あんき",
-      "meaning": "memorization"
-    },
-    {
-      "char": "原",
-      "word": "原",
-      "reading": "はら",
-      "meaning": "field"
-    },
-    {
-      "char": "得",
-      "word": "得",
-      "reading": "とく",
-      "meaning": "profit"
-    },
-    {
-      "char": "解",
-      "word": "解説",
-      "reading": "かいせつ",
-      "meaning": "commentary; explanation"
-    },
-    {
-      "char": "論",
-      "word": "論じる",
-      "reading": "ろんじる",
-      "meaning": "to discuss"
-    },
-    {
-      "char": "演",
-      "word": "講演",
-      "reading": "こうえん",
-      "meaning": "lecture; talk"
-    },
-    {
-      "char": "談",
-      "word": "談",
-      "reading": "だん",
-      "meaning": "discuss"
-    },
-    {
-      "char": "格",
-      "word": "格",
-      "reading": "かく",
-      "meaning": "status"
-    },
-    {
-      "char": "構",
-      "word": "構う",
-      "reading": "かまう",
-      "meaning": "to mind"
-    },
-    {
-      "char": "説",
-      "word": "説得",
-      "reading": "せっとく",
-      "meaning": "persuasion"
-    },
-    {
-      "char": "規",
-      "word": "規",
-      "reading": "き",
-      "meaning": "standard"
-    },
-    {
-      "char": "備",
-      "word": "備え",
-      "reading": "そなえ",
-      "meaning": "preparation"
-    },
-    {
-      "char": "育",
-      "word": "育てる",
-      "reading": "そだてる",
-      "meaning": "to raise"
-    },
-    {
-      "char": "例",
-      "word": "例",
-      "reading": "れい",
-      "meaning": "example"
-    },
-    {
-      "char": "頭",
-      "word": "頭",
-      "reading": "あたま",
-      "meaning": "head"
-    },
-    {
-      "char": "段",
-      "word": "段",
-      "reading": "だん",
-      "meaning": "step"
-    },
-    {
-      "char": "横",
-      "word": "横",
-      "reading": "よこ",
-      "meaning": "horizontal (as opposed to vertical)"
-    },
-    {
-      "char": "識",
-      "word": "知識",
-      "reading": "ちしき",
-      "meaning": "knowledge"
-    },
-    {
-      "char": "突",
-      "word": "突き",
-      "reading": "つき",
-      "meaning": "thrust"
-    },
-    {
-      "char": "積",
-      "word": "積",
-      "reading": "せき",
-      "meaning": "product"
-    },
-    {
-      "char": "捕",
-      "word": "捕まる",
-      "reading": "つかまる",
-      "meaning": "to be caught"
-    },
-    {
-      "char": "辞",
-      "word": "辞める",
-      "reading": "やめる",
-      "meaning": "to resign"
-    },
-    {
-      "char": "冷",
-      "word": "冷たい",
-      "reading": "つめたい",
-      "meaning": "cold (to the touch)"
-    },
-    {
-      "char": "険",
-      "word": "険しい",
-      "reading": "けわしい",
-      "meaning": "precipitous"
-    },
-    {
-      "char": "許",
-      "word": "許す",
-      "reading": "ゆるす",
-      "meaning": "to permit"
-    },
-    {
-      "char": "便",
-      "word": "便",
-      "reading": "びん",
-      "meaning": "flight (e.g. airline flight)"
-    },
-    {
-      "char": "曲",
-      "word": "曲がる",
-      "reading": "まがる",
-      "meaning": "to bend"
-    },
-    {
-      "char": "犯",
-      "word": "犯す",
-      "reading": "おかす",
-      "meaning": "to commit (e.g. crime)"
-    },
-    {
-      "char": "絵",
-      "word": "絵",
-      "reading": "え",
-      "meaning": "picture"
-    },
-    {
-      "char": "遊",
-      "word": "遊ぶ",
-      "reading": "あそぶ",
-      "meaning": "to play (games, sports)"
-    },
-    {
-      "char": "緒",
-      "word": "緒",
-      "reading": "お",
-      "meaning": "cord"
-    },
-    {
-      "char": "暗",
-      "word": "暗",
-      "reading": "くら",
-      "meaning": "darkness"
-    },
-    {
-      "char": "娘",
-      "word": "娘",
-      "reading": "むすめ",
-      "meaning": "daughter"
-    },
-    {
-      "char": "貧",
-      "word": "貧しい",
-      "reading": "まずしい",
-      "meaning": "poor"
-    },
-    {
-      "char": "怒",
-      "word": "怒る",
-      "reading": "おこる",
-      "meaning": "to get angry"
-    },
-    {
-      "char": "寒",
-      "word": "寒い",
-      "reading": "さむい",
-      "meaning": "cold (e.g. weather)"
+     "japanese": "何[なに]も食[た]べていないわけだから、お腹[なか]が空[す]くのは当然[とうぜん]だ。",
+     "romaji": "Nani mo tabete inai wake dakara, onaka ga suku no wa touzen da.",
+     "english": "Since you haven't eaten anything, it's only natural you'd be hungry."
     }
-  ]
+   ],
+   "flashcardHeader": "〜わけだ",
+   "flashcardAnswer": "Signals that a logical conclusion naturally follows — 'no wonder / that explains it / of course'.",
+   "practice": [
+    {
+     "id": "wake-da_q1",
+     "type": "usage",
+     "prompt": "What does 〜わけだ mean?",
+     "japanese": null,
+     "choices": [
+      "might be",
+      "that's why / it stands to reason / no wonder (explains a conclusion or natural consequence)",
+      "should be",
+      "probably"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜わけだ = that's why / it stands to reason / no wonder. 彼[かれ]はずっと練習[れんしゅう]していたから、上手[うま]いわけだ = he's been practicing all along, so no wonder he's good. It states a NATURAL CONCLUSION or REASON that makes sense."
+    },
+    {
+     "id": "wake-da_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'No wonder he's tired — he worked all night'?",
+     "japanese": null,
+     "choices": [
+      "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているわけだ。",
+      "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているはずだ。",
+      "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているのだ。",
+      "一晩中[ひとばんじゅう]働[はたら]いていたから、疲[つか]れているわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: 働[はたら]いていた (was working) + から (because) + 疲[つか]れているわけだ = that's why he's tired / no wonder. わけだ expresses that the conclusion naturally follows from the reason."
+    },
+    {
+     "id": "wake-da_q3",
+     "type": "translation",
+     "prompt": "Which means 'It's natural that she speaks Japanese well — she lived in Japan for 10 years'?",
+     "japanese": null,
+     "choices": [
+      "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なわけだ。",
+      "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なはずだ。",
+      "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]にちがいない。",
+      "10年[ねん]も日本[にほん]に住[す]んでいたから、日本語[にほんご]が上手[じょうず]なのだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: 住[す]んでいた (was living) + から + 日本語[にほんご]が上手[じょうず]なわけだ = no wonder her Japanese is good (natural conclusion from 10 years of living there). わけだ = the conclusion makes complete sense."
+    },
+    {
+     "id": "wake-da_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'So this explains why he didn't come'?",
+     "japanese": null,
+     "choices": [
+      "だから彼[かれ]が来[こ]なかったわけだ。",
+      "だから彼[かれ]が来[こ]なかったはずだ。",
+      "だから彼[かれ]が来[こ]なかったのだ。",
+      "だから彼[かれ]が来[こ]なかったわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だから + わけだ: 来[こ]なかった (didn't come) + わけだ = so THAT'S why he didn't come. だから sets up the cause; わけだ states that the conclusion naturally follows — everything clicks into place."
+    },
+    {
+     "id": "wake-da_q5",
+     "type": "usage",
+     "prompt": "What is the DIFFERENCE between わけだ and はずだ?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "わけだ = natural conclusion based on a reason (no wonder / that's why); はずだ = logical expectation based on facts (should be / is expected to be)",
+      "わけだ is more certain than はずだ",
+      "はずだ is only for future events, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "わけだ = natural conclusion or logical explanation ('no wonder / that's why'). はずだ = expectation based on facts ('should be'). 疲[つか]れているわけだ = no wonder he's tired (explanation of existing fact); 疲[つか]れているはずだ = he should be tired (expectation)."
+    },
+    {
+     "id": "wake-da_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'So that's why prices went up'?",
+     "japanese": null,
+     "choices": [
+      "だから値段[ねだん]が上[あ]がったわけだ。",
+      "だから値段[ねだん]が上[あ]がったはずだ。",
+      "だから値段[ねだん]が上[あ]がったのだ。",
+      "だから値段[ねだん]が上[あ]がったわけではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だから + わけだ: 上[あ]がった (went up) + わけだ = so THAT'S why prices went up. わけだ pulls together a chain of reasoning to explain why something happened."
+    },
+    {
+     "id": "wake-da_q7",
+     "type": "translation",
+     "prompt": "Which means 'It's no wonder the project succeeded — everyone worked so hard'?",
+     "japanese": null,
+     "choices": [
+      "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したわけだ。",
+      "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したはずだ。",
+      "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したのだ。",
+      "みんながそんなに頑張[がんば]ったから、プロジェクトが成功[せいこう]したにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: 頑張[がんば]った (worked hard) + から + 成功[せいこう]したわけだ = no wonder the project succeeded. The conclusion (success) naturally follows from everyone's hard work."
+    },
+    {
+     "id": "wake-da_q8",
+     "type": "construct",
+     "prompt": "わけだ can also be used after 'つまり' to RESTATE a conclusion. Which correctly shows this?",
+     "japanese": null,
+     "choices": [
+      "つまり、彼[かれ]は資格[しかく]を持[も]っていないわけだ。",
+      "つまり、彼[かれ]は資格[しかく]を持[も]っていないはずだ。",
+      "つまり、彼[かれ]は資格[しかく]を持[も]っていないのだ。",
+      "つまり、彼[かれ]は資格[しかく]を持[も]っていないわけではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "つまり + わけだ: 資格[しかく]を持[も]っていない (doesn't have qualifications) + わけだ = so in other words, he doesn't have qualifications. わけだ after つまり restates the logical conclusion of an argument."
+    },
+    {
+     "id": "wake-da_q9",
+     "type": "usage",
+     "prompt": "〜わけだ vs. 〜わけではない: what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical in meaning — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "わけだ = it stands to reason that / natural conclusion; わけではない = it's not that / doesn't mean that (partial negation)",
+      "わけではない is more formal",
+      "わけだ is only for past events"
+     ],
+     "correctIndex": 1,
+     "explanation": "わけだ = natural conclusion ('no wonder / that's why'). わけではない = it's not that / doesn't necessarily mean (used to deny an implication). 嫌[きら]いなわけではない = it's not that I don't like it (partial negation, denying an assumed conclusion)."
+    },
+    {
+     "id": "wake-da_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'So that explains why she knows French'?",
+     "japanese": null,
+     "choices": [
+      "だから彼女[かのじょ]がフランス語[ご]を知[し]っているわけだ。",
+      "だから彼女[かのじょ]がフランス語[ご]を知[し]っているはずだ。",
+      "だから彼女[かのじょ]がフランス語[ご]を知[し]っているのだ。",
+      "だから彼女[かのじょ]がフランス語[ご]を知[し]っているにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だから + わけだ: 知[し]っている (knows) + わけだ = so THAT explains why she knows French. The explanation (she lived in France / studied it) came before; わけだ closes the reasoning."
+    },
+    {
+     "id": "wake-da_q11",
+     "type": "translation",
+     "prompt": "Which means 'No wonder the room is dark — the lights are all off'?",
+     "japanese": null,
+     "choices": [
+      "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いわけだ。",
+      "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いはずだ。",
+      "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いのだ。",
+      "電気[でんき]が全部[ぜんぶ]消[き]えているから、部屋[へや]が暗[くら]いにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: 電気[でんき]が全部[ぜんぶ]消[き]えている (all lights off) + から + 暗[くら]いわけだ = no wonder it's dark. The cause and the natural conclusion connect perfectly via わけだ."
+    },
+    {
+     "id": "wake-da_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'That's why the system crashed'?",
+     "japanese": null,
+     "choices": [
+      "それでシステムがクラッシュしたわけだ。",
+      "それでシステムがクラッシュしたはずだ。",
+      "それでシステムがクラッシュしたのだ。",
+      "それでシステムがクラッシュしたにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "それで (so that's why) + わけだ: クラッシュした (crashed) + わけだ = so THAT's why the system crashed. わけだ draws the conclusion from the technical reason just explained."
+    },
+    {
+     "id": "wake-da_q13",
+     "type": "usage",
+     "prompt": "Which context is MOST natural for わけだ?",
+     "japanese": null,
+     "choices": [
+      "Making a guess about the future",
+      "Drawing a CONCLUSION that now makes sense given new information ('oh, so THAT'S why...')",
+      "Expressing personal opinion or preference, regardless of context or politeness level.",
+      "Asking someone a question"
+     ],
+     "correctIndex": 1,
+     "explanation": "わけだ = 'oh, so that's why!' / 'it makes sense that...' It's used when you've received new information and it explains/resolves something that previously wasn't clear. Insight/realization + わけだ."
+    },
+    {
+     "id": "wake-da_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'No wonder she was crying — she lost her wallet'?",
+     "japanese": null,
+     "choices": [
+      "財布[さいふ]をなくしたから、泣[な]いていたわけだ。",
+      "財布[さいふ]をなくしたから、泣[な]いていたはずだ。",
+      "財布[さいふ]をなくしたから、泣[な]いていたのだ。",
+      "財布[さいふ]をなくしたから、泣[な]いていたにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: なくした (lost) + から + 泣[な]いていたわけだ = no wonder she was crying. The cause (losing wallet) explains the effect (crying) — わけだ makes the connection natural."
+    },
+    {
+     "id": "wake-da_q15",
+     "type": "translation",
+     "prompt": "Which means 'He's been studying English for 5 years, so of course he's good at it'?",
+     "japanese": null,
+     "choices": [
+      "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いわけだ。",
+      "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いはずだ。",
+      "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いのだ。",
+      "5年間[ねんかん]英語[えいご]を勉強[べんきょう]してきたから、上手[うま]いにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜てきたから〜わけだ: 勉強[べんきょう]してきた (has been studying) + から + 上手[うま]いわけだ = of course he's good (natural conclusion from sustained study). わけだ closes the reasoning."
+    },
+    {
+     "id": "wake-da_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'So naturally the meeting was cancelled'?",
+     "japanese": null,
+     "choices": [
+      "だから会議[かいぎ]がキャンセルされたわけだ。",
+      "だから会議[かいぎ]がキャンセルされたはずだ。",
+      "だから会議[かいぎ]がキャンセルされたのだ。",
+      "だから会議[かいぎ]がキャンセルされたわけではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だから + わけだ: キャンセルされた + わけだ = so naturally/of course the meeting was cancelled. わけだ = natural consequence that now makes sense."
+    },
+    {
+     "id": "wake-da_q17",
+     "type": "usage",
+     "prompt": "Can わけだ be used in questions? Which shows a correct question form?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は来[こ]ないわけですか？(Is that why he isn't coming? / Does that mean he isn't coming?)",
+      "彼[かれ]は来[こ]ないわけ？(Casual version: does that mean he isn't coming?)",
+      "Both are correct question forms of わけだ",
+      "Neither is correct"
+     ],
+     "correctIndex": 2,
+     "explanation": "Both わけですか (formal question) and わけ？(casual) are correct question forms. 彼[かれ]は来[こ]ないわけですか = is that why he isn't coming? / does that mean he isn't coming? These confirm understanding or ask for clarification of the implication."
+    },
+    {
+     "id": "wake-da_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'So that's why the road was closed'?",
+     "japanese": null,
+     "choices": [
+      "だから道[みち]が閉鎖[へいさ]されたわけだ。",
+      "だから道[みち]が閉鎖[へいさ]されたはずだ。",
+      "だから道[みち]が閉鎖[へいさ]されたのだ。",
+      "だから道[みち]が閉鎖[へいさ]されたわけではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だから + わけだ: 閉鎖[へいさ]された (was closed) + わけだ = so THAT's why the road was closed. New information (accident/construction) + わけだ = 'ah, now I understand why.'"
+    },
+    {
+     "id": "wake-da_q19",
+     "type": "translation",
+     "prompt": "Which means 'No wonder they couldn't finish — there were only 2 people'?",
+     "japanese": null,
+     "choices": [
+      "2人[にん]しかいなかったから、終[お]わらなかったわけだ。",
+      "2人[にん]しかいなかったから、終[お]わらなかったはずだ。",
+      "2人[にん]しかいなかったから、終[お]わらなかったのだ。",
+      "2人[にん]しかいなかったから、終[お]わらなかったにちがいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜から〜わけだ: 2人[にん]しかいなかった (only 2 people) + から + 終[お]わらなかったわけだ = no wonder they couldn't finish. The insufficient number of people naturally explains the failure to complete."
+    },
+    {
+     "id": "wake-da_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'So in the end, this is what the problem amounts to'?",
+     "japanese": null,
+     "choices": [
+      "つまり、これが問題[もんだい]のわけだ。",
+      "つまり、これが問題[もんだい]のはずだ。",
+      "つまり、これが問題[もんだい]なのだ。",
+      "つまり、これが問題[もんだい]というわけだ。"
+     ],
+     "correctIndex": 3,
+     "explanation": "というわけだ: という + わけだ = which means / that's what it amounts to. つまり、これが問題[もんだい]というわけだ = in other words, this is what the problem amounts to. というわけだ is a natural conclusion-drawing expression."
+    }
+   ]
+  },
+  {
+   "id": "you-ni-iu",
+   "name": "〜ように言[い]う / 〜よう伝[つた]える — tell someone to / convey that",
+   "shortDescription": "Reports a directive or instruction in indirect speech: 'told someone to do / not to do X'.",
+   "formation": "Verb (dictionary/ない-form) + ように + 言[い]う / 伝[つた]える / 頼[たの]む",
+   "explanation": "〜ように言[い]う is the standard way to report instructions and directives in Japanese — and it's worth keeping distinct from 〜と言[い]う, which reports statements and facts. 田中[たなか]さんは早[はや]く来[く]るように言[い]いました: what's being reported here is not a belief or a fact, but an instruction. That's ように言[い]う's specialty. For negative instructions, switch to the ない-form: 遅[おく]れないように言[い]われました (I was told not to be late).\n\nThe pattern is flexible about what verb follows ように: 伝[つた]える (convey/pass along), 頼[たの]む (ask/request), 命[めい]じる (order), 注意[ちゅうい]する (caution) — each adds a different shade to the reported directive. And the person who was told takes に: 先生[せんせい]に〜するように言[い]われました (I was told by the teacher to...).\n\nThis structure is extremely practical for everyday use — it covers what teachers, doctors, managers, and parents routinely tell you to do, which comes up constantly. Whenever you're reporting someone else's instruction rather than their opinion, ように言[い]う is your construction.",
+   "rules": [
+    "Dict form + ように言[い]う = tell [someone] to do X",
+    "ない-form + ように言[い]う = tell [someone] not to do X",
+    "Verbs that combine: 伝[つた]える (convey), 頼[たの]む (ask), 命[めい]じる (order), 注意[ちゅうい]する (warn)",
+    "Contrast: 〜と言[い]う = reports statements/facts; 〜ように言[い]う = reports instructions/directives",
+    "The recipient (who was told) is marked with に: 先生[せんせい]に〜するように言[い]われました"
+   ],
+   "examples": [
+    {
+     "japanese": "先生[せんせい]に毎日[まいにち]単語[たんご]を覚[おぼ]えるように言[い]われました。",
+     "romaji": "Sensei ni mainichi tango wo oboeru you ni iwaremashita.",
+     "english": "I was told by the teacher to memorize vocabulary every day."
+    },
+    {
+     "japanese": "田中[たなか]さんに早[はや]めに来[く]るよう伝[つた]えてください。",
+     "romaji": "Tanaka-san ni hayame ni kuru you tsutaete kudasai.",
+     "english": "Please tell Tanaka-san to come a little early."
+    },
+    {
+     "japanese": "医者[いしゃ]に塩分[えんぶん]を控[ひか]えるように言[い]われています。",
+     "romaji": "Isha ni enbun wo hikaeru you ni iwarete imasu.",
+     "english": "I've been told by my doctor to reduce my salt intake."
+    },
+    {
+     "japanese": "遅[おく]れないように何度[なんど]も注意[ちゅうい]したのに、また遅刻[ちこく]した。",
+     "romaji": "Okurenai you ni nando mo chuui shita noni, mata chikoku shita.",
+     "english": "Even though I warned them many times not to be late, they were late again."
+    }
+   ],
+   "flashcardHeader": "〜ように言う / 〜よう伝える",
+   "flashcardAnswer": "Reports a directive or instruction in indirect speech: 'told someone to do / not to do X'.",
+   "practice": [
+    {
+     "id": "you-ni-iu_q1",
+     "type": "usage",
+     "prompt": "What does 〜ように言[い]う mean?",
+     "japanese": null,
+     "choices": [
+      "to say that [I did X]",
+      "to tell/ask someone to do X (indirect instruction or request — passing on a directive)",
+      "to explain how to do X",
+      "to say in the manner of X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ように言[い]う = to tell/ask  to do X. 先生[せんせい]は学生[がくせい]に静[しず]かにするように言[い]った = the teacher told the students to be quiet. It's used to report indirect commands, instructions, or requests."
+    },
+    {
+     "id": "you-ni-iu_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'The doctor told me to rest'?",
+     "japanese": null,
+     "choices": [
+      "医者[いしゃ]は私[わたし]に休[やす]むように言[い]った。",
+      "医者[いしゃ]は私[わたし]に休[やす]めと言[い]った。",
+      "医者[いしゃ]は私[わたし]に休[やす]みように言[い]った。",
+      "医者[いしゃ]は私[わたし]に休[やす]んだように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ように言[い]う: 休[やす]む (rest, dict-form) + ように言[い]った = told to rest. The structure is  に +  + ように言[い]う. Indirect/reported instruction."
+    },
+    {
+     "id": "you-ni-iu_q3",
+     "type": "translation",
+     "prompt": "Which means 'She asked me not to tell anyone'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないように言[い]った。",
+      "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]うように言[い]った。",
+      "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないと言[い]った。",
+      "彼女[かのじょ]は私[わたし]に誰[だれ]にも言[い]わないように言[い]います。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative dict-form + ように言[い]う: 言[い]わない (not tell) + ように言[い]った = told not to tell. 誰[だれ]にも言[い]わないように = not to tell anyone. Negative instructions use ないように言[い]う."
+    },
+    {
+     "id": "you-ni-iu_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'The teacher told the students to submit by Friday'?",
+     "japanese": null,
+     "choices": [
+      "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]するように言[い]った。",
+      "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]しように言[い]った。",
+      "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]したように言[い]った。",
+      "先生[せんせい]は学生[がくせい]に金曜日[きんようび]までに提出[ていしゅつ]してように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]う: 提出[ていしゅつ]する + ように言[い]った = told to submit. 先生[せんせい]は学生[がくせい]に〜ように言[い]った = the teacher told the students to . Dict-form before ように."
+    },
+    {
+     "id": "you-ni-iu_q5",
+     "type": "usage",
+     "prompt": "What form of the verb comes before ように言[い]う?",
+     "japanese": null,
+     "choices": [
+      "Ta-form (past) — this is true in both spoken and written Japanese.",
+      "Dictionary form (for affirmative) or negative form + ない (for negative instructions)",
+      "Te-form",
+      "Masu-stem"
+     ],
+     "correctIndex": 1,
+     "explanation": "Before ように言[い]う: dict-form for affirmative (早[はや]く来[く]るように言[い]う = tell to come quickly); negative form + ない for negative (来[こ]ないように言[い]う = tell not to come). Both dict-form and negative plain form work."
+    },
+    {
+     "id": "you-ni-iu_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'My mother told me to eat more vegetables'?",
+     "japanese": null,
+     "choices": [
+      "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った。",
+      "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べように言[い]った。",
+      "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べたように言[い]った。",
+      "母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べてように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]う: 食[た]べる + ように言[い]った = told to eat. 母[はは]は私[わたし]にもっと野菜[やさい]を食[た]べるように言[い]った = my mother told me to eat more vegetables."
+    },
+    {
+     "id": "you-ni-iu_q7",
+     "type": "translation",
+     "prompt": "Which means 'I was told not to be late'?",
+     "japanese": null,
+     "choices": [
+      "遅刻[ちこく]しないように言[い]われた。",
+      "遅刻[ちこく]するように言[い]われた。",
+      "遅刻[ちこく]しないと言[い]われた。",
+      "遅刻[ちこく]しないように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ないように言[い]われた = was told not to do. 遅刻[ちこく]しない (not be late) + ように言[い]われた = was told not to be late. The passive form 言[い]われた = was told (received the instruction)."
+    },
+    {
+     "id": "you-ni-iu_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'The boss told him to finish the report by tomorrow'?",
+     "japanese": null,
+     "choices": [
+      "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせるように言[い]った。",
+      "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせように言[い]った。",
+      "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせたように言[い]った。",
+      "上司[じょうし]は彼[かれ]に明日[あした]までに報告書[ほうこくしょ]を終[お]わらせてように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 上司[じょうし]は彼[かれ]に〜ように言[い]った = the boss told him to . Causative verb before ように."
+    },
+    {
+     "id": "you-ni-iu_q9",
+     "type": "usage",
+     "prompt": "What is the DIFFERENCE between ように言[い]う and と言[い]う?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "ように言[い]う = indirect instruction/request (tell to do); と言[い]う = direct quotation of speech (say that...)",
+      "ように言[い]う is more polite",
+      "と言[い]う is only for past tense, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "ように言[い]う = indirect instruction: 行[い]くように言[い]う (tell  to go). と言[い]う = direct quotation: 行[い]くと言[い]う (say that  will go). ように言[い]う passes on a directive; と言[い]う quotes actual words."
+    },
+    {
+     "id": "you-ni-iu_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Please tell him to call me'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]に電話[でんわ]するように言[い]ってください。",
+      "彼[かれ]に電話[でんわ]すると言[い]ってください。",
+      "彼[かれ]に電話[でんわ]するように言[い]いてください。",
+      "彼[かれ]に電話[でんわ]したように言[い]ってください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]ってください: 電話[でんわ]する + ように言[い]ってください = please tell  to call. 言[い]ってください is the request form of 言[い]う. 彼[かれ]に = to him."
+    },
+    {
+     "id": "you-ni-iu_q11",
+     "type": "translation",
+     "prompt": "Which means 'I was told to study more'?",
+     "japanese": null,
+     "choices": [
+      "もっと勉強[べんきょう]するように言[い]われた。",
+      "もっと勉強[べんきょう]しように言[い]われた。",
+      "もっと勉強[べんきょう]するように言[い]った。",
+      "もっと勉強[べんきょう]したように言[い]われた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]われた (passive = was told): 勉強[べんきょう]する + ように言[い]われた = was told to study. The passive 言[い]われた shifts the speaker to the receiver of the instruction."
+    },
+    {
+     "id": "you-ni-iu_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Tell her not to worry'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]に心配[しんぱい]しないように言[い]ってください。",
+      "彼女[かのじょ]に心配[しんぱい]するように言[い]ってください。",
+      "彼女[かのじょ]に心配[しんぱい]しないと言[い]ってください。",
+      "彼女[かのじょ]に心配[しんぱい]しないように言[い]います。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative + ように言[い]ってください: 心配[しんぱい]しない (not worry) + ように言[い]ってください = please tell  not to worry. Negative instruction via ないように言[い]う."
+    },
+    {
+     "id": "you-ni-iu_q13",
+     "type": "usage",
+     "prompt": "ように言[い]う can also use POTENTIAL or PROGRESSIVE forms before ように. Which shows a potential form example?",
+     "japanese": null,
+     "choices": [
+      "間[ま]に合[あ]うように早[はや]く来[く]るように言[い]った。(Told to come early so as to make it in time.)",
+      "話[はな]せるように練習[れんしゅう]するように言[い]った。(Told to practice so as to be able to speak.)",
+      "もっと練習[れんしゅう]するように言[い]った。(Told to practice more.)",
+      "急[いそ]いで来[く]るように言[い]った。(Told to come quickly.)"
+     ],
+     "correctIndex": 1,
+     "explanation": "話[はな]せるように練習[れんしゅう]するように言[い]った: there are two ように here — 話[はな]せるように (so that I can speak) and 練習[れんしゅう]するように言[い]った (was told to practice). This double-ように can occur when both a goal and an instruction are expressed together."
+    },
+    {
+     "id": "you-ni-iu_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'The coach told the players to run faster'?",
+     "japanese": null,
+     "choices": [
+      "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]るように言[い]った。",
+      "コーチは選手[せんしゅ]たちにもっと速[はや]く走[そう]ように言[い]った。",
+      "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]ったように言[い]った。",
+      "コーチは選手[せんしゅ]たちにもっと速[はや]く走[はし]ってように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]う: 走[はし]る + ように言[い]った = told to run. コーチは選手[せんしゅ]たちに〜ように言[い]った = the coach told the players to . もっと速[はや]く = faster."
+    },
+    {
+     "id": "you-ni-iu_q15",
+     "type": "translation",
+     "prompt": "Which means 'She told me not to smoke in the house'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないように言[い]った。",
+      "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]うように言[い]った。",
+      "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないと言[い]った。",
+      "彼女[かのじょ]は私[わたし]に家[いえ]の中[なか]でタバコを吸[す]わないように言[い]います。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative dict-form + ように言[い]う: 吸[す]わない (not smoke) + ように言[い]った = told not to smoke. 家[いえ]の中[なか]で = in the house. Negative instruction: ないように言[い]う."
+    },
+    {
+     "id": "you-ni-iu_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Please tell the students to be quiet'?",
+     "japanese": null,
+     "choices": [
+      "学生[がくせい]たちに静[しず]かにするように言[い]ってください。",
+      "学生[がくせい]たちに静[しず]かにように言[い]ってください。",
+      "学生[がくせい]たちに静[しず]かにすると言[い]ってください。",
+      "学生[がくせい]たちに静[しず]かにするように言[い]います。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ように言[い]ってください: 静[しず]かにする (be quiet) + ように言[い]ってください = please tell  to be quiet. 学生[がくせい]たちに = to the students."
+    },
+    {
+     "id": "you-ni-iu_q17",
+     "type": "usage",
+     "prompt": "When ように言[い]う is reported in the PAST, which forms are correct?",
+     "japanese": null,
+     "choices": [
+      "Only ように言[い]った (affirmative past) — and this holds in every register, formal or casual.",
+      "ように言[い]った (affirmative past) AND ないように言[い]った (negative past instruction) — both work",
+      "Only ないように言[い]った",
+      "Only ように言[い]います"
+     ],
+     "correctIndex": 1,
+     "explanation": "Both affirmative and negative past forms work: 来[く]るように言[い]った (told to come); 来[こ]ないように言[い]った (told not to come). The verb before ように can be affirmative dict-form or negative plain form; 言[い]う conjugates as usual."
+    },
+    {
+     "id": "you-ni-iu_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'My friend told me to try applying for the job'?",
+     "japanese": null,
+     "choices": [
+      "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみるように言[い]った。",
+      "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみように言[い]った。",
+      "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみたように言[い]った。",
+      "友達[ともだち]はその仕事[しごと]に応募[おうぼ]してみてように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form (〜てみる) + ように言[い]う: 応募[おうぼ]してみる (try applying) + ように言[い]った = told to try applying. 〜てみる as a whole verb attaches ように directly."
+    },
+    {
+     "id": "you-ni-iu_q19",
+     "type": "translation",
+     "prompt": "Which means 'The nurse told me not to eat before the exam'?",
+     "japanese": null,
+     "choices": [
+      "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないように言[い]った。",
+      "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べるように言[い]った。",
+      "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないと言[い]った。",
+      "看護[かんご]師[し]は検査前[けんさまえ]に食[た]べないように言[い]います。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative + ように言[い]う: 食[た]べない + ように言[い]った = told not to eat. 検査前[けんさまえ]に = before the exam. Medical instruction: ないように言[い]う."
+    },
+    {
+     "id": "you-ni-iu_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'The manager told the team to finish by 5 PM'?",
+     "japanese": null,
+     "choices": [
+      "マネージャーはチームに5時[じ]までに終[お]わらせるように言[い]った。",
+      "マネージャーはチームに5時[じ]までに終[お]わらせように言[い]った。",
+      "マネージャーはチームに5時[じ]までに終[お]わらせたように言[い]った。",
+      "マネージャーはチームに5時[じ]までに終[お]わらせてように言[い]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative dict-form + ように言[い]う: 終[お]わらせる (make finish) + ように言[い]った = told to finish. 5時[じ]までに = by 5 PM. マネージャーはチームに〜ように言[い]った = the manager told the team to ."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch35_v01",
+   "partOfSpeech": "noun",
+   "kanji": "言語",
+   "kana": "げんご",
+   "romaji": "gengo",
+   "definition": "language"
+  },
+  {
+   "id": "ch35_v02",
+   "partOfSpeech": "noun",
+   "kanji": "文法",
+   "kana": "ぶんぽう",
+   "romaji": "bunpou",
+   "definition": "grammar"
+  },
+  {
+   "id": "ch35_v03",
+   "partOfSpeech": "noun",
+   "kanji": "単語",
+   "kana": "たんご",
+   "romaji": "tango",
+   "definition": "word; vocabulary"
+  },
+  {
+   "id": "ch35_v04",
+   "partOfSpeech": "noun",
+   "kanji": "発音",
+   "kana": "はつおん",
+   "romaji": "hatsuon",
+   "definition": "pronunciation"
+  },
+  {
+   "id": "ch35_v05",
+   "partOfSpeech": "noun",
+   "kanji": "文章",
+   "kana": "ぶんしょう",
+   "romaji": "bunshou",
+   "definition": "sentence; writing"
+  },
+  {
+   "id": "ch35_v06",
+   "partOfSpeech": "noun",
+   "kanji": "文字",
+   "kana": "もじ",
+   "romaji": "moji",
+   "definition": "letter; character"
+  },
+  {
+   "id": "ch35_v07",
+   "partOfSpeech": "noun",
+   "kanji": "翻訳",
+   "kana": "ほんやく",
+   "romaji": "hon'yaku",
+   "definition": "translation"
+  },
+  {
+   "id": "ch35_v08",
+   "partOfSpeech": "noun",
+   "kanji": "解説",
+   "kana": "かいせつ",
+   "romaji": "kaisetsu",
+   "definition": "commentary; explanation"
+  },
+  {
+   "id": "ch35_v09",
+   "partOfSpeech": "noun",
+   "kanji": "要約",
+   "kana": "ようやく",
+   "romaji": "youyaku",
+   "definition": "summary"
+  },
+  {
+   "id": "ch35_v10",
+   "partOfSpeech": "noun",
+   "kanji": "例",
+   "kana": "れい",
+   "romaji": "rei",
+   "definition": "example"
+  },
+  {
+   "id": "ch35_v11",
+   "partOfSpeech": "noun",
+   "kanji": "例文",
+   "kana": "れいぶん",
+   "romaji": "reibun",
+   "definition": "example sentence"
+  },
+  {
+   "id": "ch35_v12",
+   "partOfSpeech": "noun",
+   "kanji": "定義",
+   "kana": "ていぎ",
+   "romaji": "teigi",
+   "definition": "definition"
+  },
+  {
+   "id": "ch35_v13",
+   "partOfSpeech": "noun",
+   "kanji": "表",
+   "kana": "ひょう",
+   "romaji": "hyou",
+   "definition": "chart; table"
+  },
+  {
+   "id": "ch35_v14",
+   "partOfSpeech": "noun",
+   "kanji": "グラフ",
+   "kana": "グラフ",
+   "romaji": "gurafu",
+   "definition": "graph"
+  },
+  {
+   "id": "ch35_v15",
+   "partOfSpeech": "noun",
+   "kanji": "教育",
+   "kana": "きょういく",
+   "romaji": "kyouiku",
+   "definition": "education"
+  },
+  {
+   "id": "ch35_v16",
+   "partOfSpeech": "noun",
+   "kanji": "知識",
+   "kana": "ちしき",
+   "romaji": "chishiki",
+   "definition": "knowledge"
+  },
+  {
+   "id": "ch35_v17",
+   "partOfSpeech": "noun",
+   "kanji": "学問",
+   "kana": "がくもん",
+   "romaji": "gakumon",
+   "definition": "scholarship; learning"
+  },
+  {
+   "id": "ch35_v18",
+   "partOfSpeech": "noun",
+   "kanji": "理論",
+   "kana": "りろん",
+   "romaji": "riron",
+   "definition": "theory"
+  },
+  {
+   "id": "ch35_v19",
+   "partOfSpeech": "noun",
+   "kanji": "論文",
+   "kana": "ろんぶん",
+   "romaji": "ronbun",
+   "definition": "thesis; paper"
+  },
+  {
+   "id": "ch35_v20",
+   "partOfSpeech": "noun",
+   "kanji": "講義",
+   "kana": "こうぎ",
+   "romaji": "kougi",
+   "definition": "(university) lecture"
+  },
+  {
+   "id": "ch35_v21",
+   "partOfSpeech": "noun",
+   "kanji": "講演",
+   "kana": "こうえん",
+   "romaji": "kouen",
+   "definition": "lecture; talk"
+  },
+  {
+   "id": "ch35_v22",
+   "partOfSpeech": "noun",
+   "kanji": "説得",
+   "kana": "せっとく",
+   "romaji": "settoku",
+   "definition": "persuasion"
+  },
+  {
+   "id": "ch35_v23",
+   "partOfSpeech": "noun",
+   "kanji": "敬語",
+   "kana": "けいご",
+   "romaji": "keigo",
+   "definition": "honorific language"
+  },
+  {
+   "id": "ch35_v24",
+   "partOfSpeech": "noun",
+   "kanji": "方言",
+   "kana": "ほうげん",
+   "romaji": "hougen",
+   "definition": "dialect"
+  },
+  {
+   "id": "ch35_v25",
+   "partOfSpeech": "noun",
+   "kanji": "標準語",
+   "kana": "ひょうじゅんご",
+   "romaji": "hyoujungo",
+   "definition": "standard language"
+  },
+  {
+   "id": "ch35_v26",
+   "partOfSpeech": "noun",
+   "kanji": "母語",
+   "kana": "ぼご",
+   "romaji": "bogo",
+   "definition": "native language"
+  },
+  {
+   "id": "ch35_v27",
+   "partOfSpeech": "noun",
+   "kanji": "外国語",
+   "kana": "がいこくご",
+   "romaji": "gaikokugo",
+   "definition": "foreign language"
+  },
+  {
+   "id": "ch35_v28",
+   "partOfSpeech": "noun",
+   "kanji": "読解",
+   "kana": "どっかい",
+   "romaji": "dokkai",
+   "definition": "reading comprehension"
+  },
+  {
+   "id": "ch35_v29",
+   "partOfSpeech": "noun",
+   "kanji": "作文",
+   "kana": "さくぶん",
+   "romaji": "sakubun",
+   "definition": "composition; essay"
+  },
+  {
+   "id": "ch35_v30",
+   "partOfSpeech": "noun",
+   "kanji": "暗記",
+   "kana": "あんき",
+   "romaji": "anki",
+   "definition": "memorization"
+  },
+  {
+   "id": "ch35_v31",
+   "partOfSpeech": "noun",
+   "kanji": "復習",
+   "kana": "ふくしゅう",
+   "romaji": "fukushuu",
+   "definition": "review"
+  },
+  {
+   "id": "ch35_v32",
+   "partOfSpeech": "noun",
+   "kanji": "予習",
+   "kana": "よしゅう",
+   "romaji": "yoshuu",
+   "definition": "preparation (for a lesson)"
+  },
+  {
+   "id": "ch35_v33",
+   "partOfSpeech": "verb",
+   "kanji": "表す",
+   "kana": "あらわす",
+   "romaji": "arawasu",
+   "definition": "to express; to represent"
+  },
+  {
+   "id": "ch35_v34",
+   "partOfSpeech": "verb",
+   "kanji": "述べる",
+   "kana": "のべる",
+   "romaji": "noberu",
+   "definition": "to state; to express"
+  },
+  {
+   "id": "ch35_v35",
+   "partOfSpeech": "verb",
+   "kanji": "伝わる",
+   "kana": "つたわる",
+   "romaji": "tsutawaru",
+   "definition": "to be conveyed"
+  },
+  {
+   "id": "ch35_v36",
+   "partOfSpeech": "verb",
+   "kanji": "訳す",
+   "kana": "やくす",
+   "romaji": "yakusu",
+   "definition": "to translate"
+  },
+  {
+   "id": "ch35_v37",
+   "partOfSpeech": "verb",
+   "kanji": "通じる",
+   "kana": "つうじる",
+   "romaji": "tsuujiru",
+   "definition": "to be understood; to get through"
+  },
+  {
+   "id": "ch35_v38",
+   "partOfSpeech": "verb",
+   "kanji": "略す",
+   "kana": "りゃくす",
+   "romaji": "ryakusu",
+   "definition": "to abbreviate"
+  },
+  {
+   "id": "ch35_v39",
+   "partOfSpeech": "noun",
+   "kanji": "語学",
+   "kana": "ごがく",
+   "romaji": "gogaku",
+   "definition": "language study"
+  },
+  {
+   "id": "ch35_v40",
+   "partOfSpeech": "noun",
+   "kanji": "意図",
+   "kana": "いと",
+   "romaji": "ito",
+   "definition": "intention"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "決",
+   "word": "決める",
+   "reading": "きめる",
+   "meaning": "to decide"
+  },
+  {
+   "char": "表",
+   "word": "表",
+   "reading": "ひょう",
+   "meaning": "chart; table"
+  },
+  {
+   "char": "法",
+   "word": "法",
+   "reading": "ほう",
+   "meaning": "law"
+  },
+  {
+   "char": "和",
+   "word": "和",
+   "reading": "わ",
+   "meaning": "sum"
+  },
+  {
+   "char": "記",
+   "word": "暗記",
+   "reading": "あんき",
+   "meaning": "memorization"
+  },
+  {
+   "char": "原",
+   "word": "原",
+   "reading": "はら",
+   "meaning": "field"
+  },
+  {
+   "char": "得",
+   "word": "得",
+   "reading": "とく",
+   "meaning": "profit"
+  },
+  {
+   "char": "解",
+   "word": "解説",
+   "reading": "かいせつ",
+   "meaning": "commentary; explanation"
+  },
+  {
+   "char": "論",
+   "word": "論じる",
+   "reading": "ろんじる",
+   "meaning": "to discuss"
+  },
+  {
+   "char": "演",
+   "word": "講演",
+   "reading": "こうえん",
+   "meaning": "lecture; talk"
+  },
+  {
+   "char": "談",
+   "word": "談",
+   "reading": "だん",
+   "meaning": "discuss"
+  },
+  {
+   "char": "格",
+   "word": "格",
+   "reading": "かく",
+   "meaning": "status"
+  },
+  {
+   "char": "構",
+   "word": "構う",
+   "reading": "かまう",
+   "meaning": "to mind"
+  },
+  {
+   "char": "説",
+   "word": "説得",
+   "reading": "せっとく",
+   "meaning": "persuasion"
+  },
+  {
+   "char": "規",
+   "word": "規",
+   "reading": "き",
+   "meaning": "standard"
+  },
+  {
+   "char": "備",
+   "word": "備え",
+   "reading": "そなえ",
+   "meaning": "preparation"
+  },
+  {
+   "char": "育",
+   "word": "育てる",
+   "reading": "そだてる",
+   "meaning": "to raise"
+  },
+  {
+   "char": "例",
+   "word": "例",
+   "reading": "れい",
+   "meaning": "example"
+  },
+  {
+   "char": "頭",
+   "word": "頭",
+   "reading": "あたま",
+   "meaning": "head"
+  },
+  {
+   "char": "段",
+   "word": "段",
+   "reading": "だん",
+   "meaning": "step"
+  },
+  {
+   "char": "横",
+   "word": "横",
+   "reading": "よこ",
+   "meaning": "horizontal (as opposed to vertical)"
+  },
+  {
+   "char": "識",
+   "word": "知識",
+   "reading": "ちしき",
+   "meaning": "knowledge"
+  },
+  {
+   "char": "突",
+   "word": "突き",
+   "reading": "つき",
+   "meaning": "thrust"
+  },
+  {
+   "char": "積",
+   "word": "積",
+   "reading": "せき",
+   "meaning": "product"
+  },
+  {
+   "char": "捕",
+   "word": "捕まる",
+   "reading": "つかまる",
+   "meaning": "to be caught"
+  },
+  {
+   "char": "辞",
+   "word": "辞める",
+   "reading": "やめる",
+   "meaning": "to resign"
+  },
+  {
+   "char": "冷",
+   "word": "冷たい",
+   "reading": "つめたい",
+   "meaning": "cold (to the touch)"
+  },
+  {
+   "char": "険",
+   "word": "険しい",
+   "reading": "けわしい",
+   "meaning": "precipitous"
+  },
+  {
+   "char": "許",
+   "word": "許す",
+   "reading": "ゆるす",
+   "meaning": "to permit"
+  },
+  {
+   "char": "便",
+   "word": "便",
+   "reading": "びん",
+   "meaning": "flight (e.g. airline flight)"
+  },
+  {
+   "char": "曲",
+   "word": "曲がる",
+   "reading": "まがる",
+   "meaning": "to bend"
+  },
+  {
+   "char": "犯",
+   "word": "犯す",
+   "reading": "おかす",
+   "meaning": "to commit (e.g. crime)"
+  },
+  {
+   "char": "絵",
+   "word": "絵",
+   "reading": "え",
+   "meaning": "picture"
+  },
+  {
+   "char": "遊",
+   "word": "遊ぶ",
+   "reading": "あそぶ",
+   "meaning": "to play (games, sports)"
+  },
+  {
+   "char": "緒",
+   "word": "緒",
+   "reading": "お",
+   "meaning": "cord"
+  },
+  {
+   "char": "暗",
+   "word": "暗",
+   "reading": "くら",
+   "meaning": "darkness"
+  },
+  {
+   "char": "娘",
+   "word": "娘",
+   "reading": "むすめ",
+   "meaning": "daughter"
+  },
+  {
+   "char": "貧",
+   "word": "貧しい",
+   "reading": "まずしい",
+   "meaning": "poor"
+  },
+  {
+   "char": "怒",
+   "word": "怒る",
+   "reading": "おこる",
+   "meaning": "to get angry"
+  },
+  {
+   "char": "寒",
+   "word": "寒い",
+   "reading": "さむい",
+   "meaning": "cold (e.g. weather)"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "決める",
+   "kana": "きめる",
+   "romaji": "kimeru",
+   "meaning": "to decide",
+   "chars": [
+    "決"
+   ]
+  },
+  {
+   "word": "表",
+   "kana": "ひょう",
+   "romaji": "hyou",
+   "meaning": "chart; table",
+   "chars": [
+    "表"
+   ]
+  },
+  {
+   "word": "法",
+   "kana": "ほう",
+   "romaji": "hou",
+   "meaning": "law",
+   "chars": [
+    "法"
+   ]
+  },
+  {
+   "word": "和",
+   "kana": "わ",
+   "romaji": "wa",
+   "meaning": "sum",
+   "chars": [
+    "和"
+   ]
+  },
+  {
+   "word": "暗記",
+   "kana": "あんき",
+   "romaji": "anki",
+   "meaning": "memorization",
+   "chars": [
+    "暗",
+    "記"
+   ]
+  },
+  {
+   "word": "原",
+   "kana": "はら",
+   "romaji": "hara",
+   "meaning": "field",
+   "chars": [
+    "原"
+   ]
+  },
+  {
+   "word": "得",
+   "kana": "とく",
+   "romaji": "toku",
+   "meaning": "profit",
+   "chars": [
+    "得"
+   ]
+  },
+  {
+   "word": "解説",
+   "kana": "かいせつ",
+   "romaji": "kaisetsu",
+   "meaning": "commentary; explanation",
+   "chars": [
+    "解",
+    "説"
+   ]
+  },
+  {
+   "word": "論じる",
+   "kana": "ろんじる",
+   "romaji": "ronjiru",
+   "meaning": "to discuss",
+   "chars": [
+    "論"
+   ]
+  },
+  {
+   "word": "講演",
+   "kana": "こうえん",
+   "romaji": "kouen",
+   "meaning": "lecture; talk",
+   "chars": [
+    "講",
+    "演"
+   ]
+  },
+  {
+   "word": "談",
+   "kana": "だん",
+   "romaji": "dan",
+   "meaning": "discuss",
+   "chars": [
+    "談"
+   ]
+  },
+  {
+   "word": "格",
+   "kana": "かく",
+   "romaji": "kaku",
+   "meaning": "status",
+   "chars": [
+    "格"
+   ]
+  },
+  {
+   "word": "構う",
+   "kana": "かまう",
+   "romaji": "kamau",
+   "meaning": "to mind",
+   "chars": [
+    "構"
+   ]
+  },
+  {
+   "word": "説得",
+   "kana": "せっとく",
+   "romaji": "settoku",
+   "meaning": "persuasion",
+   "chars": [
+    "説",
+    "得"
+   ]
+  },
+  {
+   "word": "規",
+   "kana": "き",
+   "romaji": "ki",
+   "meaning": "standard",
+   "chars": [
+    "規"
+   ]
+  },
+  {
+   "word": "備え",
+   "kana": "そなえ",
+   "romaji": "sonae",
+   "meaning": "preparation",
+   "chars": [
+    "備"
+   ]
+  },
+  {
+   "word": "育てる",
+   "kana": "そだてる",
+   "romaji": "sodateru",
+   "meaning": "to raise",
+   "chars": [
+    "育"
+   ]
+  },
+  {
+   "word": "例",
+   "kana": "れい",
+   "romaji": "rei",
+   "meaning": "example",
+   "chars": [
+    "例"
+   ]
+  },
+  {
+   "word": "頭",
+   "kana": "あたま",
+   "romaji": "atama",
+   "meaning": "head",
+   "chars": [
+    "頭"
+   ]
+  },
+  {
+   "word": "段",
+   "kana": "だん",
+   "romaji": "dan",
+   "meaning": "step",
+   "chars": [
+    "段"
+   ]
+  },
+  {
+   "word": "横",
+   "kana": "よこ",
+   "romaji": "yoko",
+   "meaning": "horizontal (as opposed to vertical)",
+   "chars": [
+    "横"
+   ]
+  },
+  {
+   "word": "知識",
+   "kana": "ちしき",
+   "romaji": "chishiki",
+   "meaning": "knowledge",
+   "chars": [
+    "知",
+    "識"
+   ]
+  },
+  {
+   "word": "突き",
+   "kana": "つき",
+   "romaji": "tsuki",
+   "meaning": "thrust",
+   "chars": [
+    "突"
+   ]
+  },
+  {
+   "word": "積",
+   "kana": "せき",
+   "romaji": "seki",
+   "meaning": "product",
+   "chars": [
+    "積"
+   ]
+  },
+  {
+   "word": "捕まる",
+   "kana": "つかまる",
+   "romaji": "tsukamaru",
+   "meaning": "to be caught",
+   "chars": [
+    "捕"
+   ]
+  },
+  {
+   "word": "辞める",
+   "kana": "やめる",
+   "romaji": "yameru",
+   "meaning": "to resign",
+   "chars": [
+    "辞"
+   ]
+  },
+  {
+   "word": "冷たい",
+   "kana": "つめたい",
+   "romaji": "tsumetai",
+   "meaning": "cold (to the touch)",
+   "chars": [
+    "冷"
+   ]
+  },
+  {
+   "word": "険しい",
+   "kana": "けわしい",
+   "romaji": "kewashii",
+   "meaning": "precipitous",
+   "chars": [
+    "険"
+   ]
+  },
+  {
+   "word": "許す",
+   "kana": "ゆるす",
+   "romaji": "yurusu",
+   "meaning": "to permit",
+   "chars": [
+    "許"
+   ]
+  },
+  {
+   "word": "便",
+   "kana": "びん",
+   "romaji": "bin",
+   "meaning": "flight (e.g. airline flight)",
+   "chars": [
+    "便"
+   ]
+  },
+  {
+   "word": "曲がる",
+   "kana": "まがる",
+   "romaji": "magaru",
+   "meaning": "to bend",
+   "chars": [
+    "曲"
+   ]
+  },
+  {
+   "word": "犯す",
+   "kana": "おかす",
+   "romaji": "okasu",
+   "meaning": "to commit (e.g. crime)",
+   "chars": [
+    "犯"
+   ]
+  },
+  {
+   "word": "絵",
+   "kana": "え",
+   "romaji": "e",
+   "meaning": "picture",
+   "chars": [
+    "絵"
+   ]
+  },
+  {
+   "word": "遊ぶ",
+   "kana": "あそぶ",
+   "romaji": "asobu",
+   "meaning": "to play (games, sports)",
+   "chars": [
+    "遊"
+   ]
+  },
+  {
+   "word": "緒",
+   "kana": "お",
+   "romaji": "o",
+   "meaning": "cord",
+   "chars": [
+    "緒"
+   ]
+  },
+  {
+   "word": "暗",
+   "kana": "くら",
+   "romaji": "kura",
+   "meaning": "darkness",
+   "chars": [
+    "暗"
+   ]
+  },
+  {
+   "word": "娘",
+   "kana": "むすめ",
+   "romaji": "musume",
+   "meaning": "daughter",
+   "chars": [
+    "娘"
+   ]
+  },
+  {
+   "word": "貧しい",
+   "kana": "まずしい",
+   "romaji": "mazushii",
+   "meaning": "poor",
+   "chars": [
+    "貧"
+   ]
+  },
+  {
+   "word": "怒る",
+   "kana": "おこる",
+   "romaji": "okoru",
+   "meaning": "to get angry",
+   "chars": [
+    "怒"
+   ]
+  },
+  {
+   "word": "寒い",
+   "kana": "さむい",
+   "romaji": "samui",
+   "meaning": "cold (e.g. weather)",
+   "chars": [
+    "寒"
+   ]
+  },
+  {
+   "word": "表",
+   "kana": "おもて",
+   "romaji": "omote",
+   "meaning": "surface",
+   "chars": [
+    "表"
+   ]
+  },
+  {
+   "word": "表す",
+   "kana": "あらわす",
+   "romaji": "arawasu",
+   "meaning": "to represent",
+   "chars": [
+    "表"
+   ]
+  },
+  {
+   "word": "解く",
+   "kana": "とく",
+   "romaji": "toku",
+   "meaning": "to untie",
+   "chars": [
+    "解"
+   ]
+  },
+  {
+   "word": "解ける",
+   "kana": "とける",
+   "romaji": "tokeru",
+   "meaning": "to be solved",
+   "chars": [
+    "解"
+   ]
+  },
+  {
+   "word": "説く",
+   "kana": "とく",
+   "romaji": "toku",
+   "meaning": "to explain",
+   "chars": [
+    "説"
+   ]
+  },
+  {
+   "word": "教育",
+   "kana": "きょういく",
+   "romaji": "kyouiku",
+   "meaning": "education",
+   "chars": [
+    "教",
+    "育"
+   ]
+  },
+  {
+   "word": "育つ",
+   "kana": "そだつ",
+   "romaji": "sodatsu",
+   "meaning": "to be raised (e.g. child)",
+   "chars": [
+    "育"
+   ]
+  },
+  {
+   "word": "例文",
+   "kana": "れいぶん",
+   "romaji": "reibun",
+   "meaning": "example sentence",
+   "chars": [
+    "例",
+    "文"
+   ]
+  },
+  {
+   "word": "積む",
+   "kana": "つむ",
+   "romaji": "tsumu",
+   "meaning": "to pile up",
+   "chars": [
+    "積"
+   ]
+  },
+  {
+   "word": "積もる",
+   "kana": "つもる",
+   "romaji": "tsumoru",
+   "meaning": "to pile up",
+   "chars": [
+    "積"
+   ]
+  },
+  {
+   "word": "冷える",
+   "kana": "ひえる",
+   "romaji": "hieru",
+   "meaning": "to grow cold (from room temperature, e.g. in refrigerator)",
+   "chars": [
+    "冷"
+   ]
+  },
+  {
+   "word": "冷める",
+   "kana": "さめる",
+   "romaji": "sameru",
+   "meaning": "to cool down",
+   "chars": [
+    "冷"
+   ]
+  },
+  {
+   "word": "曲げる",
+   "kana": "まげる",
+   "romaji": "mageru",
+   "meaning": "to bend",
+   "chars": [
+    "曲"
+   ]
+  },
+  {
+   "word": "遊び",
+   "kana": "あそび",
+   "romaji": "asobi",
+   "meaning": "playing",
+   "chars": [
+    "遊"
+   ]
+  },
+  {
+   "word": "怒り",
+   "kana": "いかり",
+   "romaji": "ikari",
+   "meaning": "anger",
+   "chars": [
+    "怒"
+   ]
+  },
+  {
+   "word": "寒さ",
+   "kana": "さむさ",
+   "romaji": "samusa",
+   "meaning": "coldness",
+   "chars": [
+    "寒"
+   ]
+  },
+  {
+   "word": "発音",
+   "kana": "はつおん",
+   "romaji": "hatsuon",
+   "meaning": "pronunciation",
+   "chars": [
+    "発",
+    "音"
+   ]
+  },
+  {
+   "word": "方言",
+   "kana": "ほうげん",
+   "romaji": "hougen",
+   "meaning": "dialect",
+   "chars": [
+    "方",
+    "言"
+   ]
+  },
+  {
+   "word": "予習",
+   "kana": "よしゅう",
+   "romaji": "yoshuu",
+   "meaning": "preparation for a lesson",
+   "chars": [
+    "予",
+    "習"
+   ]
+  },
+  {
+   "word": "伝わる",
+   "kana": "つたわる",
+   "romaji": "tsutawaru",
+   "meaning": "to be handed down",
+   "chars": [
+    "伝"
+   ]
+  },
+  {
+   "word": "単語",
+   "kana": "たんご",
+   "romaji": "tango",
+   "meaning": "word",
+   "chars": [
+    "単",
+    "語"
+   ]
+  },
+  {
+   "word": "復習",
+   "kana": "ふくしゅう",
+   "romaji": "fukushuu",
+   "meaning": "review (of learned material)",
+   "chars": [
+    "復",
+    "習"
+   ]
+  },
+  {
+   "word": "講義",
+   "kana": "こうぎ",
+   "romaji": "kougi",
+   "meaning": "lecture",
+   "chars": [
+    "講"
+   ]
+  },
+  {
+   "word": "敬語",
+   "kana": "けいご",
+   "romaji": "keigo",
+   "meaning": "honorific",
+   "chars": [
+    "敬",
+    "語"
+   ]
+  },
+  {
+   "word": "語学",
+   "kana": "ごがく",
+   "romaji": "gogaku",
+   "meaning": "study of foreign languages",
+   "chars": [
+    "語",
+    "学"
+   ]
+  }
+ ]
 }

@@ -389,7 +389,11 @@ struct CustomLessonDetailView: View {
                     }
                 }
                 NavigationLink {
-                    KanjiStudyView(lockedChapter: LockedKanjiChapter(title: lesson?.name ?? "Custom", kanji: kanjiOrder))
+                    // A custom lesson stores bare characters; each is studied as
+                    // the word its home chapter teaches it in.
+                    KanjiStudyView(lockedChapter: LockedKanjiChapter(
+                        title: lesson?.name ?? "Custom",
+                        words: kanjiOrder.compactMap { LessonsService.shared.primaryWord(for: $0) }))
                 } label: {
                     StudyButtonLabel(title: "Study Kanji", accent: customAccent)
                 }

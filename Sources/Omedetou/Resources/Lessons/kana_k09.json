@@ -1,293 +1,293 @@
 {
-  "id": "kana_k09",
-  "chapterNumber": 9,
-  "title": "Y-Row, W-Row & N — ヤ ユ ヨ ワ ヲ ン",
-  "points": [
+ "id": "kana_k09",
+ "chapterNumber": 9,
+ "title": "Y-Row, W-Row & N — ヤ ユ ヨ ワ ヲ ン",
+ "points": [
+  {
+   "id": "k08_ya",
+   "pointType": "kana",
+   "name": "ヤ",
+   "shortDescription": "Same sound as や — 'ya'",
+   "formation": "ya / や",
+   "explanation": "ヤ makes the same 'ya' sound as hiragana や. Visually, ヤ is a compact two-stroke character: a diagonal going from upper-right to lower-center, with a second diagonal crossing through it from upper-left to lower-right. Some describe it as a simplified katakana version of the arrow pointing down, or an angular 'Y' shape. Compare to hiragana や, which has a more complex looping structure. ヤ appears in ヤード (yard), ヤング (young), and in the brand name ヤマハ (Yamaha). Small ャ (ya) is used in combination syllables like シャ (sha), チャ (cha), and キャ (kya).",
+   "rules": [
+    "Same 'ya' as や — 'y' glide into open 'ah' vowel.",
+    "Small ャ creates combination syllables: シャ (sha), チャ (cha), キャ (kya), ジャ (ja).",
+    "ヤマハ (Yamaha) is one of the most recognizable Japanese brand names worldwide."
+   ],
+   "examples": [
     {
-      "id": "k08_ya",
-      "pointType": "kana",
-      "name": "ヤ",
-      "shortDescription": "Same sound as や — 'ya'",
-      "formation": "ya / や",
-      "explanation": "ヤ makes the same 'ya' sound as hiragana や. Visually, ヤ is a compact two-stroke character: a diagonal going from upper-right to lower-center, with a second diagonal crossing through it from upper-left to lower-right. Some describe it as a simplified katakana version of the arrow pointing down, or an angular 'Y' shape. Compare to hiragana や, which has a more complex looping structure. ヤ appears in ヤード (yard), ヤング (young), and in the brand name ヤマハ (Yamaha). Small ャ (ya) is used in combination syllables like シャ (sha), チャ (cha), and キャ (kya).",
-      "rules": [
-        "Same 'ya' as や — 'y' glide into open 'ah' vowel.",
-        "Small ャ creates combination syllables: シャ (sha), チャ (cha), キャ (kya), ジャ (ja).",
-        "ヤマハ (Yamaha) is one of the most recognizable Japanese brand names worldwide."
-      ],
-      "examples": [
-        {
-          "japanese": "ヤード",
-          "romaji": "yaado",
-          "english": "yard (unit of measurement)"
-        },
-        {
-          "japanese": "ヤング",
-          "romaji": "yangu",
-          "english": "young"
-        },
-        {
-          "japanese": "ヒヤリング",
-          "romaji": "hiyaringu",
-          "english": "listening (as in listening comprehension)"
-        },
-        {
-          "japanese": "チャンス",
-          "romaji": "chansu",
-          "english": "chance (note small ャ combination)"
-        }
-      ],
-      "flashcardHeader": "ヤ",
-      "flashcardAnswer": "ya — same sound as や; also used as small ャ in combinations",
-      "practice": null
+     "japanese": "ヤード",
+     "romaji": "yaado",
+     "english": "yard (unit of measurement)"
     },
     {
-      "id": "k08_yu",
-      "pointType": "kana",
-      "name": "ユ",
-      "shortDescription": "Same sound as ゆ — 'yu'",
-      "formation": "yu / ゆ",
-      "explanation": "ユ makes the same 'yu' sound as hiragana ゆ — a 'y' glide into the flat, unrounded Japanese 'u'. Visually, ユ has a distinctive shape: it looks like a rectangular container or a box-bottom shape — a horizontal stroke at top, a vertical on the left, and a curving bottom stroke. Some describe it as a bucket or basket shape, which is quite memorable. Compare to hiragana ゆ, which has a complex tail-like structure. ユ appears in ユニフォーム (uniform), ユーモア (humor), and ユーザー (user). Small ュ is used in combination syllables like シュ (shu) and キュ (kyu).",
-      "rules": [
-        "Same 'yu' as ゆ — 'y' glide + flat, unrounded Japanese 'u'.",
-        "ユ looks like a rectangular container or bucket — a compact, boxy shape.",
-        "Small ュ creates combinations: シュ (shu), ジュ (ju), キュ (kyu), ニュ (nyu)."
-      ],
-      "examples": [
-        {
-          "japanese": "ユニフォーム",
-          "romaji": "yunifoomu",
-          "english": "uniform"
-        },
-        {
-          "japanese": "ユーモア",
-          "romaji": "yuumoa",
-          "english": "humor"
-        },
-        {
-          "japanese": "ユーザー",
-          "romaji": "yuuzaa",
-          "english": "user"
-        },
-        {
-          "japanese": "ジュース",
-          "romaji": "juusu",
-          "english": "juice (ジュ = voiced combination)"
-        }
-      ],
-      "flashcardHeader": "ユ",
-      "flashcardAnswer": "yu — same sound as ゆ; looks like a rectangular bucket shape",
-      "practice": null
+     "japanese": "ヤング",
+     "romaji": "yangu",
+     "english": "young"
     },
     {
-      "id": "k08_yo",
-      "pointType": "kana",
-      "name": "ヨ",
-      "shortDescription": "Same sound as よ — 'yo'",
-      "formation": "yo / よ",
-      "explanation": "ヨ makes the same 'yo' sound as hiragana よ. Visually, ヨ looks exactly like the Roman capital letter 'E' — three horizontal strokes (the middle one slightly shorter) attached to a vertical on the left. This is one of the easiest katakana characters to remember because of this resemblance. The 'E' shape → 'yo' sound connection is a coincidence, but a convenient one. ヨ appears in ヨーグルト (yogurt), ヨーロッパ (Europe), and ヨット (yacht). Small ョ creates combination syllables like ショ (sho), キョ (kyo), and チョ (cho) — important for reading many common loanwords.",
-      "rules": [
-        "Same 'yo' as よ — 'y' glide + 'oh' vowel.",
-        "ヨ looks exactly like the Roman letter 'E' — three horizontals on a vertical left side.",
-        "Small ョ creates: ショ (sho), キョ (kyo), チョ (cho), ジョ (jo), ニョ (nyo)."
-      ],
-      "examples": [
-        {
-          "japanese": "ヨーグルト",
-          "romaji": "yooguruto",
-          "english": "yogurt"
-        },
-        {
-          "japanese": "ヨーロッパ",
-          "romaji": "Yooroppa",
-          "english": "Europe"
-        },
-        {
-          "japanese": "ヨット",
-          "romaji": "yotto",
-          "english": "yacht"
-        },
-        {
-          "japanese": "ショッピング",
-          "romaji": "shoppingu",
-          "english": "shopping (note small ョ in ショ)"
-        }
-      ],
-      "flashcardHeader": "ヨ",
-      "flashcardAnswer": "yo — same sound as よ; looks just like the Roman letter 'E'",
-      "practice": null
+     "japanese": "ヒヤリング",
+     "romaji": "hiyaringu",
+     "english": "listening (as in listening comprehension)"
     },
     {
-      "id": "k09_wa",
-      "pointType": "kana",
-      "name": "ワ",
-      "shortDescription": "Same sound as わ — 'wa'",
-      "formation": "wa / わ",
-      "explanation": "ワ makes the same 'wa' sound as hiragana わ. Visually, ワ has two strokes: a short diagonal at the top-right, and a longer stroke that arcs down and to the right, curving upward at the end — creating a shape somewhat like the number '7' with a curving bottom, or a rounded 'J'. Compare to hiragana わ, which has a more compact, looping shape. A key comparison: ワ looks similar to ク (ku) — but ワ's lower stroke curves back inward to the left, while ク's sweeps out to the right. ワ appears in ワイン (wine), ワーク (work), and ワールド (world).",
-      "rules": [
-        "Same 'wa' as わ — gentle 'w' glide into open 'ah' vowel.",
-        "ワ vs ク: ワ's lower stroke curves BACK LEFT; ク's sweeps further RIGHT.",
-        "ワイン (wine) is one of the most useful ワ words — Japan has a strong wine culture."
-      ],
-      "examples": [
-        {
-          "japanese": "ワイン",
-          "romaji": "wain",
-          "english": "wine"
-        },
-        {
-          "japanese": "ワーク",
-          "romaji": "waaku",
-          "english": "work"
-        },
-        {
-          "japanese": "ワールド",
-          "romaji": "waarudo",
-          "english": "world"
-        },
-        {
-          "japanese": "ハワイ",
-          "romaji": "Hawai",
-          "english": "Hawaii"
-        }
-      ],
-      "flashcardHeader": "ワ",
-      "flashcardAnswer": "wa — same sound as わ; don't confuse with ク!",
-      "practice": null
-    },
-    {
-      "id": "k09_wo",
-      "pointType": "kana",
-      "name": "ヲ",
-      "shortDescription": "Pronounced 'o' — same as オ; the direct object particle in katakana texts",
-      "formation": "o (wo) / を",
-      "explanation": "ヲ makes the same sound as オ ('o') in modern Japanese — just like its hiragana counterpart を. ヲ is exceedingly rare in modern writing. It appears only as the direct object particle in certain formal or stylistic katakana contexts, and in older texts. In contemporary usage, you will essentially never need to write ヲ — the hiragana を handles that grammatical role. Some stylized or creative writing (such as in games or manga) uses ヲ for visual effect. Worth recognizing, but don't worry about writing it.",
-      "rules": [
-        "Pronounced 'o' (same as オ and お) — the 'w' has disappeared in modern pronunciation.",
-        "ヲ is extremely rare — appears only as a stylistic or archaic particle marker in katakana texts.",
-        "If you see ヲ, just read it as 'o'. You will almost never need to write it."
-      ],
-      "examples": [
-        {
-          "japanese": "ヲタク",
-          "romaji": "wotaku / otaku",
-          "english": "otaku (sometimes spelled with ヲ stylistically)"
-        },
-        {
-          "japanese": "アニメヲ",
-          "romaji": "anime wo",
-          "english": "(anime を — sometimes styled as ヲ in creative writing)"
-        },
-        {
-          "japanese": "ヲ (を)",
-          "romaji": "o (wo)",
-          "english": "direct object particle — same function as hiragana を"
-        },
-        {
-          "japanese": "ガンダムヲ",
-          "romaji": "Gandamu wo",
-          "english": "(Gundam を — stylistic use in fan writing)"
-        }
-      ],
-      "flashcardHeader": "ヲ",
-      "flashcardAnswer": "o — same as オ and を; rare and almost never written in modern Japanese",
-      "practice": null
-    },
-    {
-      "id": "k09_n",
-      "pointType": "kana",
-      "name": "ン",
-      "shortDescription": "Same sound as ん — syllabic 'n'",
-      "formation": "n / ん",
-      "explanation": "ン makes the same syllabic 'n' sound as hiragana ん — a consonant that counts as a full syllable beat without a vowel. ン appears at the end of very many katakana loanwords since English words ending in 'n', 'ng', or 'm' often become ン in Japanese. For example, 'design' → デザイン, 'Japan' → ジャパン, 'ramen' → ラーメン. Visually, ン is the famous lookalike of ソ — both have two strokes, one short and one longer. Critical rule: ン's longer stroke sweeps DOWN-LEFT and inward; ソ's sweeps DOWN-RIGHT. This distinction trips up many learners.",
-      "rules": [
-        "Same syllabic 'n' as ん — one full beat, varies in sound by context.",
-        "ン vs ソ: ン's long stroke curves DOWN-LEFT; ソ's goes DOWN-RIGHT. Master this distinction!",
-        "Many English words ending in 'n', 'ng', 'm' become ン in Japanese: design→デザイン, lemon→レモン."
-      ],
-      "examples": [
-        {
-          "japanese": "パン",
-          "romaji": "pan",
-          "english": "bread"
-        },
-        {
-          "japanese": "レモン",
-          "romaji": "remon",
-          "english": "lemon"
-        },
-        {
-          "japanese": "デザイン",
-          "romaji": "dezain",
-          "english": "design"
-        },
-        {
-          "japanese": "ランチ",
-          "romaji": "ranchi",
-          "english": "lunch"
-        }
-      ],
-      "flashcardHeader": "ン",
-      "flashcardAnswer": "n — same syllabic nasal as ん; ン strokes go DOWN-LEFT (vs ソ's DOWN-RIGHT)",
-      "practice": null
+     "japanese": "チャンス",
+     "romaji": "chansu",
+     "english": "chance (note small ャ combination)"
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "ヤ",
+   "flashcardAnswer": "ya — same sound as や; also used as small ャ in combinations",
+   "practice": null
+  },
+  {
+   "id": "k08_yu",
+   "pointType": "kana",
+   "name": "ユ",
+   "shortDescription": "Same sound as ゆ — 'yu'",
+   "formation": "yu / ゆ",
+   "explanation": "ユ makes the same 'yu' sound as hiragana ゆ — a 'y' glide into the flat, unrounded Japanese 'u'. Visually, ユ has a distinctive shape: it looks like a rectangular container or a box-bottom shape — a horizontal stroke at top, a vertical on the left, and a curving bottom stroke. Some describe it as a bucket or basket shape, which is quite memorable. Compare to hiragana ゆ, which has a complex tail-like structure. ユ appears in ユニフォーム (uniform), ユーモア (humor), and ユーザー (user). Small ュ is used in combination syllables like シュ (shu) and キュ (kyu).",
+   "rules": [
+    "Same 'yu' as ゆ — 'y' glide + flat, unrounded Japanese 'u'.",
+    "ユ looks like a rectangular container or bucket — a compact, boxy shape.",
+    "Small ュ creates combinations: シュ (shu), ジュ (ju), キュ (kyu), ニュ (nyu)."
+   ],
+   "examples": [
     {
-      "id": "k09yw_q1",
-      "type": "multiple_choice",
-      "prompt": "What sound does this katakana make?",
-      "japanese": "ヨ",
-      "choices": [
-        "ya",
-        "yu",
-        "yo",
-        "wa"
-      ],
-      "correctIndex": 2,
-      "explanation": "ヨ makes the 'yo' sound — same as hiragana よ. Its shape looks exactly like the Roman capital letter 'E', making it one of the most visually memorable katakana characters."
+     "japanese": "ユニフォーム",
+     "romaji": "yunifoomu",
+     "english": "uniform"
     },
     {
-      "id": "k09yw_q2",
-      "type": "multiple_choice",
-      "prompt": "Which katakana is the 'n' that ends words like ラーメン and パン?",
-      "japanese": null,
-      "choices": [
-        "ソ",
-        "ン",
-        "ツ",
-        "シ"
-      ],
-      "correctIndex": 1,
-      "explanation": "ン is the syllabic 'n'. It's easy to confuse with ソ, but you can always settle it from the word: ラーメン, パン and ワイン all end in the 'n' sound, so that character is ン. Reading the word is more reliable than judging the strokes."
+     "japanese": "ユーモア",
+     "romaji": "yuumoa",
+     "english": "humor"
     },
     {
-      "id": "k09yw_q3",
-      "type": "multiple_choice",
-      "prompt": "What does this katakana word mean?",
-      "japanese": "ヨーグルト",
-      "choices": [
-        "yogurt",
-        "Euro gold",
-        "yolk",
-        "yoga mat"
-      ],
-      "correctIndex": 0,
-      "explanation": "ヨーグルト (yooguruto) means 'yogurt'. ヨ (yo) + ー (long vowel) + グ (gu) + ル (ru) + ト (to). Japanese often adds a 'to' sound when borrowing words that end in consonants."
+     "japanese": "ユーザー",
+     "romaji": "yuuzaa",
+     "english": "user"
     },
     {
-      "id": "k09yw_q4",
-      "type": "multiple_choice",
-      "prompt": "What does this katakana word mean?",
-      "japanese": "ワイン",
-      "choices": [
-        "wine",
-        "vine",
-        "mine",
-        "line"
-      ],
-      "correctIndex": 0,
-      "explanation": "ワイン (wain) means 'wine'. ワ (wa) + イ (i) + ン (n). Japan has a strong wine culture, and you'll see ワイン on menus everywhere. Compare ワ (wa) to ク (ku) — they look similar, but ワ's lower stroke curves back left."
+     "japanese": "ジュース",
+     "romaji": "juusu",
+     "english": "juice (ジュ = voiced combination)"
     }
-  ]
+   ],
+   "flashcardHeader": "ユ",
+   "flashcardAnswer": "yu — same sound as ゆ; looks like a rectangular bucket shape",
+   "practice": null
+  },
+  {
+   "id": "k08_yo",
+   "pointType": "kana",
+   "name": "ヨ",
+   "shortDescription": "Same sound as よ — 'yo'",
+   "formation": "yo / よ",
+   "explanation": "ヨ makes the same 'yo' sound as hiragana よ. Visually, ヨ looks exactly like the Roman capital letter 'E' — three horizontal strokes (the middle one slightly shorter) attached to a vertical on the left. This is one of the easiest katakana characters to remember because of this resemblance. The 'E' shape → 'yo' sound connection is a coincidence, but a convenient one. ヨ appears in ヨーグルト (yogurt), ヨーロッパ (Europe), and ヨット (yacht). Small ョ creates combination syllables like ショ (sho), キョ (kyo), and チョ (cho) — important for reading many common loanwords.",
+   "rules": [
+    "Same 'yo' as よ — 'y' glide + 'oh' vowel.",
+    "ヨ looks exactly like the Roman letter 'E' — three horizontals on a vertical left side.",
+    "Small ョ creates: ショ (sho), キョ (kyo), チョ (cho), ジョ (jo), ニョ (nyo)."
+   ],
+   "examples": [
+    {
+     "japanese": "ヨーグルト",
+     "romaji": "yooguruto",
+     "english": "yogurt"
+    },
+    {
+     "japanese": "ヨーロッパ",
+     "romaji": "Yooroppa",
+     "english": "Europe"
+    },
+    {
+     "japanese": "ヨット",
+     "romaji": "yotto",
+     "english": "yacht"
+    },
+    {
+     "japanese": "ショッピング",
+     "romaji": "shoppingu",
+     "english": "shopping (note small ョ in ショ)"
+    }
+   ],
+   "flashcardHeader": "ヨ",
+   "flashcardAnswer": "yo — same sound as よ; looks just like the Roman letter 'E'",
+   "practice": null
+  },
+  {
+   "id": "k09_wa",
+   "pointType": "kana",
+   "name": "ワ",
+   "shortDescription": "Same sound as わ — 'wa'",
+   "formation": "wa / わ",
+   "explanation": "ワ makes the same 'wa' sound as hiragana わ. Visually, ワ has two strokes: a short diagonal at the top-right, and a longer stroke that arcs down and to the right, curving upward at the end — creating a shape somewhat like the number '7' with a curving bottom, or a rounded 'J'. Compare to hiragana わ, which has a more compact, looping shape. A key comparison: ワ looks similar to ク (ku) — but ワ's lower stroke curves back inward to the left, while ク's sweeps out to the right. ワ appears in ワイン (wine), ワーク (work), and ワールド (world).",
+   "rules": [
+    "Same 'wa' as わ — gentle 'w' glide into open 'ah' vowel.",
+    "ワ vs ク: ワ's lower stroke curves BACK LEFT; ク's sweeps further RIGHT.",
+    "ワイン (wine) is one of the most useful ワ words — Japan has a strong wine culture."
+   ],
+   "examples": [
+    {
+     "japanese": "ワイン",
+     "romaji": "wain",
+     "english": "wine"
+    },
+    {
+     "japanese": "ワーク",
+     "romaji": "waaku",
+     "english": "work"
+    },
+    {
+     "japanese": "ワールド",
+     "romaji": "waarudo",
+     "english": "world"
+    },
+    {
+     "japanese": "ハワイ",
+     "romaji": "Hawai",
+     "english": "Hawaii"
+    }
+   ],
+   "flashcardHeader": "ワ",
+   "flashcardAnswer": "wa — same sound as わ; don't confuse with ク!",
+   "practice": null
+  },
+  {
+   "id": "k09_wo",
+   "pointType": "kana",
+   "name": "ヲ",
+   "shortDescription": "Pronounced 'o' — same as オ; the direct object particle in katakana texts",
+   "formation": "o (wo) / を",
+   "explanation": "ヲ makes the same sound as オ ('o') in modern Japanese — just like its hiragana counterpart を. ヲ is exceedingly rare in modern writing. It appears only as the direct object particle in certain formal or stylistic katakana contexts, and in older texts. In contemporary usage, you will essentially never need to write ヲ — the hiragana を handles that grammatical role. Some stylized or creative writing (such as in games or manga) uses ヲ for visual effect. Worth recognizing, but don't worry about writing it.",
+   "rules": [
+    "Pronounced 'o' (same as オ and お) — the 'w' has disappeared in modern pronunciation.",
+    "ヲ is extremely rare — appears only as a stylistic or archaic particle marker in katakana texts.",
+    "If you see ヲ, just read it as 'o'. You will almost never need to write it."
+   ],
+   "examples": [
+    {
+     "japanese": "ヲタク",
+     "romaji": "wotaku / otaku",
+     "english": "otaku (sometimes spelled with ヲ stylistically)"
+    },
+    {
+     "japanese": "アニメヲ",
+     "romaji": "anime wo",
+     "english": "(anime を — sometimes styled as ヲ in creative writing)"
+    },
+    {
+     "japanese": "ヲ (を)",
+     "romaji": "o (wo)",
+     "english": "direct object particle — same function as hiragana を"
+    },
+    {
+     "japanese": "ガンダムヲ",
+     "romaji": "Gandamu wo",
+     "english": "(Gundam を — stylistic use in fan writing)"
+    }
+   ],
+   "flashcardHeader": "ヲ",
+   "flashcardAnswer": "o — same as オ and を; rare and almost never written in modern Japanese",
+   "practice": null
+  },
+  {
+   "id": "k09_n",
+   "pointType": "kana",
+   "name": "ン",
+   "shortDescription": "Same sound as ん — syllabic 'n'",
+   "formation": "n / ん",
+   "explanation": "ン makes the same syllabic 'n' sound as hiragana ん — a consonant that counts as a full syllable beat without a vowel. ン appears at the end of very many katakana loanwords since English words ending in 'n', 'ng', or 'm' often become ン in Japanese. For example, 'design' → デザイン, 'Japan' → ジャパン, 'ramen' → ラーメン. Visually, ン is the famous lookalike of ソ — both have two strokes, one short and one longer. Critical rule: ン's longer stroke sweeps DOWN-LEFT and inward; ソ's sweeps DOWN-RIGHT. This distinction trips up many learners.",
+   "rules": [
+    "Same syllabic 'n' as ん — one full beat, varies in sound by context.",
+    "ン vs ソ: ン's long stroke curves DOWN-LEFT; ソ's goes DOWN-RIGHT. Master this distinction!",
+    "Many English words ending in 'n', 'ng', 'm' become ン in Japanese: design→デザイン, lemon→レモン."
+   ],
+   "examples": [
+    {
+     "japanese": "パン",
+     "romaji": "pan",
+     "english": "bread"
+    },
+    {
+     "japanese": "レモン",
+     "romaji": "remon",
+     "english": "lemon"
+    },
+    {
+     "japanese": "デザイン",
+     "romaji": "dezain",
+     "english": "design"
+    },
+    {
+     "japanese": "ランチ",
+     "romaji": "ranchi",
+     "english": "lunch"
+    }
+   ],
+   "flashcardHeader": "ン",
+   "flashcardAnswer": "n — same syllabic nasal as ん; ン strokes go DOWN-LEFT (vs ソ's DOWN-RIGHT)",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "k09yw_q1",
+   "type": "multiple_choice",
+   "prompt": "What sound does this katakana make?",
+   "japanese": "ヨ",
+   "choices": [
+    "ya",
+    "yu",
+    "yo",
+    "wa"
+   ],
+   "correctIndex": 2,
+   "explanation": "ヨ makes the 'yo' sound — same as hiragana よ. Its shape looks exactly like the Roman capital letter 'E', making it one of the most visually memorable katakana characters."
+  },
+  {
+   "id": "k09yw_q2",
+   "type": "multiple_choice",
+   "prompt": "Which katakana is the 'n' that ends words like ラーメン and パン?",
+   "japanese": null,
+   "choices": [
+    "ソ",
+    "ン",
+    "ツ",
+    "シ"
+   ],
+   "correctIndex": 1,
+   "explanation": "ン is the syllabic 'n'. It's easy to confuse with ソ, but you can always settle it from the word: ラーメン, パン and ワイン all end in the 'n' sound, so that character is ン. Reading the word is more reliable than judging the strokes."
+  },
+  {
+   "id": "k09yw_q3",
+   "type": "multiple_choice",
+   "prompt": "What does this katakana word mean?",
+   "japanese": "ヨーグルト",
+   "choices": [
+    "yogurt",
+    "Euro gold",
+    "yolk",
+    "yoga mat"
+   ],
+   "correctIndex": 0,
+   "explanation": "ヨーグルト (yooguruto) means 'yogurt'. ヨ (yo) + ー (long vowel) + グ (gu) + ル (ru) + ト (to). Japanese often adds a 'to' sound when borrowing words that end in consonants."
+  },
+  {
+   "id": "k09yw_q4",
+   "type": "multiple_choice",
+   "prompt": "What does this katakana word mean?",
+   "japanese": "ワイン",
+   "choices": [
+    "wine",
+    "vine",
+    "mine",
+    "line"
+   ],
+   "correctIndex": 0,
+   "explanation": "ワイン (wain) means 'wine'. ワ (wa) + イ (i) + ン (n). Japan has a strong wine culture, and you'll see ワイン on menus everywhere. Compare ワ (wa) to ク (ku) — they look similar, but ワ's lower stroke curves back left."
+  }
+ ]
 }

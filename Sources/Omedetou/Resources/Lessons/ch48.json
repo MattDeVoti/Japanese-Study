@@ -1,1399 +1,1770 @@
 {
-  "id": "ch48",
-  "chapterNumber": 50,
-  "title": "Formal Conditions and Sequences",
-  "points": [
+ "id": "ch48",
+ "chapterNumber": 50,
+ "title": "Formal Conditions and Sequences",
+ "points": [
+  {
+   "id": "ikan-ni-yorazu",
+   "name": "〜いかんによらず / いかんにかかわらず — regardless of / irrespective of",
+   "shortDescription": "Highly formal: regardless of what X is or how X turns out — the outcome is fixed and unconditional.",
+   "formation": "Noun + いかんによらず / いかんにかかわらず  |  Noun + いかんで (determined by)",
+   "explanation": "いかん (如何) is a formal and literary word asking 'how is it?' or 'what is the nature of it?' — essentially a more official version of どう or どんな. In the pattern いかんによらず or いかんにかかわらず, it yields 'regardless of what X is / regardless of the nature of X.' 理由[りゆう]のいかんによらず、規則[きそく]は守[まも]らなければならない — 'Regardless of the nature of the reason, whatever form it takes, the rules must be observed.' The rule applies no matter what the reason turns out to be.\n\nThe contrasting form いかんで means 'depending on' or 'determined by': 結果[けっか]はあなたの努力[どりょく]いかんで決[き]まる — 'the result will be decided by how much effort you put in.' These patterns are strongly formal — characteristic of legal texts, bureaucratic documents, official regulations, and written policy statements. Outside of formal contexts they sound stiff or bureaucratic.\n\nThe いかん itself preserves a classical question word (如何 — 'how?') that survives in modern Japanese almost exclusively in these highly formal constructions.",
+   "rules": [
+    "Noun + いかんによらず = regardless of what [noun] is (no matter its nature or form)",
+    "Noun + いかんにかかわらず = irrespective of [noun] (same meaning, slightly different nuance)",
+    "Noun + いかんで = depending on / determined by [noun] (outcome varies with noun)",
+    "Highly formal and official — legal, administrative, and formal announcement register only",
+    "いかん alone = the nature/form of something: 状況[じょうきょう]いかんでは = depending on circumstances"
+   ],
+   "examples": [
     {
-      "id": "ikan-ni-yorazu",
-      "name": "〜いかんによらず / いかんにかかわらず — regardless of / irrespective of",
-      "shortDescription": "Highly formal: regardless of what X is or how X turns out — the outcome is fixed and unconditional.",
-      "formation": "Noun + いかんによらず / いかんにかかわらず  |  Noun + いかんで (determined by)",
-      "explanation": "いかん (如何) is a formal and literary word asking 'how is it?' or 'what is the nature of it?' — essentially a more official version of どう or どんな. In the pattern いかんによらず or いかんにかかわらず, it yields 'regardless of what X is / regardless of the nature of X.' 理由[りゆう]のいかんによらず、規則[きそく]は守[まも]らなければならない — 'Regardless of the nature of the reason, whatever form it takes, the rules must be observed.' The rule applies no matter what the reason turns out to be.\n\nThe contrasting form いかんで means 'depending on' or 'determined by': 結果[けっか]はあなたの努力[どりょく]いかんで決[き]まる — 'the result will be decided by how much effort you put in.' These patterns are strongly formal — characteristic of legal texts, bureaucratic documents, official regulations, and written policy statements. Outside of formal contexts they sound stiff or bureaucratic.\n\nThe いかん itself preserves a classical question word (如何 — 'how?') that survives in modern Japanese almost exclusively in these highly formal constructions.",
-      "rules": [
-        "Noun + いかんによらず = regardless of what [noun] is (no matter its nature or form)",
-        "Noun + いかんにかかわらず = irrespective of [noun] (same meaning, slightly different nuance)",
-        "Noun + いかんで = depending on / determined by [noun] (outcome varies with noun)",
-        "Highly formal and official — legal, administrative, and formal announcement register only",
-        "いかん alone = the nature/form of something: 状況[じょうきょう]いかんでは = depending on circumstances"
-      ],
-      "examples": [
-        {
-          "japanese": "理由[りゆう]のいかんにかかわらず、暴力[ぼうりょく]は一切[いっさい]認[みと]めません。",
-          "romaji": "Riyuu no ikan ni kakawarazu, bouryoku wa issai mitomemasen.",
-          "english": "Regardless of the reason, violence will not be tolerated under any circumstances."
-        },
-        {
-          "japanese": "結果[けっか]のいかんによらず、参加[さんか]したことには意味[いみ]があります。",
-          "romaji": "Kekka no ikan ni yorazu, sanka shita koto ni wa imi ga arimasu.",
-          "english": "Regardless of the result, there is meaning in having participated."
-        },
-        {
-          "japanese": "成否[せいひ]はあなたの準備[じゅんび]いかんで大[おお]きく変[か]わります。",
-          "romaji": "Seihi wa anata no junbi ikan de ookiku kawarimasu.",
-          "english": "Whether it succeeds or fails will change greatly depending on your level of preparation."
-        },
-        {
-          "japanese": "事情[じじょう]のいかんを問[と]わず、期限[きげん]内[ない]に提出[ていしゅつ]してください。",
-          "romaji": "Jijou no ikan wo towazu, kigen nai ni teishutsu shite kudasai.",
-          "english": "Regardless of the circumstances, please submit within the deadline."
-        }
-      ],
-      "flashcardHeader": "〜いかんによらず / いかんにかかわらず",
-      "flashcardAnswer": "Highly formal: regardless of what X is or how X turns out — the outcome is fixed and unconditional.",
-      "practice": [
-        {
-          "id": "ikan-ni-yorazu_q1",
-          "type": "usage",
-          "prompt": "What does 〜いかんによらず mean?",
-          "japanese": null,
-          "choices": [
-            "depending on X",
-            "regardless of X / irrespective of X — the outcome or action is the same whatever X turns out to be; X does not influence Y",
-            "because of X",
-            "similar to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜いかんによらず = regardless of / irrespective of. 理由[りゆう]のいかんによらず、ルールは守[まも]るべきだ = regardless of the reason, the rules should be followed. X (a noun or condition) does not change Y. Formal, often used in rules, regulations, and official statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of the reason, being late is not permitted'?",
-          "japanese": null,
-          "choices": [
-            "理由[りゆう]のいかんによらず、遅刻[ちこく]は許[ゆる]されない。",
-            "理由[りゆう]に関[かか]わらず、遅刻[ちこく]は許[ゆる]されない。",
-            "理由[りゆう]のいかんで、遅刻[ちこく]は許[ゆる]されない。",
-            "理由[りゆう]がどうであれ、遅刻[ちこく]は許[ゆる]されない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 理由[りゆう] + の + いかんによらず = regardless of the reason. 遅刻[ちこく]は許[ゆる]されない = being late is not permitted. いかんによらず is the formal version of 'regardless of.'"
-        },
-        {
-          "id": "ikan-ni-yorazu_q3",
-          "type": "translation",
-          "prompt": "Which means 'Regardless of nationality, all participants are treated equally'?",
-          "japanese": null,
-          "choices": [
-            "国籍[こくせき]のいかんによらず、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
-            "国籍[こくせき]に関[かか]わらず、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
-            "国籍[こくせき]のいかんで、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
-            "国籍[こくせき]がどうであれ、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 国籍[こくせき] + の + いかんによらず = regardless of nationality. 平等[びょうどう]に扱[あつか]われる = treated equally. いかんによらず in official/formal equal treatment statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of the situation, safety comes first'?",
-          "japanese": null,
-          "choices": [
-            "状況[じょうきょう]のいかんによらず、安全[あんぜん]が最優先[さいゆうせん]だ。",
-            "状況[じょうきょう]に関[かか]わらず、安全[あんぜん]が最優先[さいゆうせん]だ。",
-            "状況[じょうきょう]のいかんで、安全[あんぜん]が最優先[さいゆうせん]だ。",
-            "状況[じょうきょう]がどうであれ、安全[あんぜん]が最優先[さいゆうせん]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 状況[じょうきょう] + の + いかんによらず = regardless of the situation. 安全[あんぜん]が最優先[さいゆうせん]だ = safety comes first. いかんによらず in formal safety rules."
-        },
-        {
-          "id": "ikan-ni-yorazu_q5",
-          "type": "usage",
-          "prompt": "いかんによらず vs. いかんで — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "いかんによらず = regardless of X (X does NOT affect Y); いかんで = depending on X (X DOES determine Y)",
-            "いかんによらず is more casual",
-            "いかんで is only for negative situations, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "いかんによらず: 理由[りゆう]のいかんによらず罰[ばつ]する (punish regardless of the reason — reason doesn't matter). いかんで: 結果[けっか]のいかんで対応[たいおう]を変[か]える (adjust response depending on the result — result matters). によらず = regardless; で = depending on. Opposite nuances!"
-        },
-        {
-          "id": "ikan-ni-yorazu_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of the results, the effort was worthwhile'?",
-          "japanese": null,
-          "choices": [
-            "結果[けっか]のいかんによらず、努力[どりょく]には価値[かち]があった。",
-            "結果[けっか]に関[かか]わらず、努力[どりょく]には価値[かち]があった。",
-            "結果[けっか]のいかんで、努力[どりょく]には価値[かち]があった。",
-            "結果[けっか]がどうであれ、努力[どりょく]には価値[かち]があった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 結果[けっか] + の + いかんによらず = regardless of the result. 努力[どりょく]には価値[かち]があった = the effort was worthwhile. いかんによらず marks the result as irrelevant to the value of effort."
-        },
-        {
-          "id": "ikan-ni-yorazu_q7",
-          "type": "translation",
-          "prompt": "Which means 'Regardless of the circumstances, this agreement is binding'?",
-          "japanese": null,
-          "choices": [
-            "事情[じじょう]のいかんによらず、この合意[ごうい]は拘束力[こうそくりょく]がある。",
-            "事情[じじょう]に関[かか]わらず、この合意[ごうい]は拘束力[こうそくりょく]がある。",
-            "事情[じじょう]のいかんで、この合意[ごうい]は拘束力[こうそくりょく]がある。",
-            "事情[じじょう]がどうであれ、この合意[ごうい]は拘束力[こうそくりょく]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 事情[じじょう] + の + いかんによらず = regardless of the circumstances. この合意[ごうい]は拘束力[こうそくりょく]がある = this agreement is binding. いかんによらず in formal legal/contractual language."
-        },
-        {
-          "id": "ikan-ni-yorazu_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of age, everyone can participate in this event'?",
-          "japanese": null,
-          "choices": [
-            "年齢[ねんれい]のいかんによらず、誰[だれ]でもこのイベントに参加[さんか]できる。",
-            "年齢[ねんれい]に関[かか]わらず、誰[だれ]でもこのイベントに参加[さんか]できる。",
-            "年齢[ねんれい]のいかんで、誰[だれ]でもこのイベントに参加[さんか]できる。",
-            "年齢[ねんれい]がどうであれ、誰[だれ]でもこのイベントに参加[さんか]できる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 年齢[ねんれい] + の + いかんによらず = regardless of age. 誰[だれ]でも参加[さんか]できる = anyone can participate. いかんによらず in formal event/program eligibility statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q9",
-          "type": "usage",
-          "prompt": "いかんにかかわらず — how does this compare to いかんによらず?",
-          "japanese": null,
-          "choices": [
-            "They have opposite meanings",
-            "Almost identical meaning — both = 'regardless of X'; いかんにかかわらず uses かかわらず (regardless of) instead of によらず; same formal register, interchangeable",
-            "いかんにかかわらず is more casual",
-            "いかんにかかわらず is only for negative outcomes — this is true in both spoken and written Japanese, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "いかんによらず and いかんにかかわらず are interchangeable: 理由[りゆう]のいかんによらず = 理由[りゆう]のいかんにかかわらず (regardless of the reason). Both are formal, literary expressions. かかわらず (regardless of/irrespective of) = によらず in this context."
-        },
-        {
-          "id": "ikan-ni-yorazu_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of how small the error, we must report it'?",
-          "japanese": null,
-          "choices": [
-            "エラーのいかんによらず、大小[だいしょう]にかかわらず報告[ほうこく]しなければならない。",
-            "エラーのいかんによらず、報告[ほうこく]しなければならない。",
-            "エラーに関[かか]わらず、報告[ほうこく]しなければならない。",
-            "エラーがどうであれ、報告[ほうこく]しなければならない。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Noun + の + いかんによらず: エラー + の + いかんによらず = regardless of the nature/extent of the error. 報告[ほうこく]しなければならない = must report. いかんによらず marks all errors as equally reportable regardless of their characteristics."
-        },
-        {
-          "id": "ikan-ni-yorazu_q11",
-          "type": "translation",
-          "prompt": "Which means 'Regardless of personal opinions, the company policy must be followed'?",
-          "japanese": null,
-          "choices": [
-            "個人[こじん]の意見[いけん]のいかんによらず、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
-            "個人[こじん]の意見[いけん]に関[かか]わらず、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
-            "個人[こじん]の意見[いけん]のいかんで、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
-            "個人[こじん]の意見[いけん]がどうであれ、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 個人[こじん]の意見[いけん] + の + いかんによらず = regardless of personal opinions. 会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない = must follow company policy. いかんによらず in formal workplace compliance statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of experience level, the application process is the same for all'?",
-          "japanese": null,
-          "choices": [
-            "経験[けいけん]のいかんによらず、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
-            "経験[けいけん]に関[かか]わらず、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
-            "経験[けいけん]のいかんで、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
-            "経験[けいけん]がどうであれ、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 経験[けいけん] + の + いかんによらず = regardless of experience level. 応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じ = the application process is the same for all. いかんによらず in formal recruitment/administrative equality statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q13",
-          "type": "usage",
-          "prompt": "いかんによらず is primarily found in what register?",
-          "japanese": null,
-          "choices": [
-            "Casual conversation",
-            "Formal written language: legal documents, official regulations, corporate rules, formal announcements",
-            "Only classical Japanese texts, and the rule applies to every sentence type.",
-            "Casual social media posts"
-          ],
-          "correctIndex": 1,
-          "explanation": "いかんによらず is highly formal. It appears in: legal documents (理由[りゆう]のいかんによらず), corporate policy statements, official regulations, formal news reports. In casual speech, 〜に関[かか]わらず or どうあっても are more natural. いかんによらず signals serious, formal writing."
-        },
-        {
-          "id": "ikan-ni-yorazu_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of the method, the result is what matters'?",
-          "japanese": null,
-          "choices": [
-            "手段[しゅだん]のいかんによらず、結果[けっか]が重要[じゅうよう]だ。",
-            "手段[しゅだん]に関[かか]わらず、結果[けっか]が重要[じゅうよう]だ。",
-            "手段[しゅだん]のいかんで、結果[けっか]が重要[じゅうよう]だ。",
-            "手段[しゅだん]がどうであれ、結果[けっか]が重要[じゅうよう]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 手段[しゅだん] + の + いかんによらず = regardless of the method. 結果[けっか]が重要[じゅうよう]だ = the result is what matters. いかんによらず marks methods as irrelevant to the outcome's importance."
-        },
-        {
-          "id": "ikan-ni-yorazu_q15",
-          "type": "translation",
-          "prompt": "Which means 'Regardless of the content, all documents must be approved before submission'?",
-          "japanese": null,
-          "choices": [
-            "内容[ないよう]のいかんによらず、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
-            "内容[ないよう]に関[かか]わらず、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
-            "内容[ないよう]のいかんで、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
-            "内容[ないよう]がどうであれ、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 内容[ないよう] + の + いかんによらず = regardless of the content. 承認[しょうにん]が必要[ひつよう]だ = approval is required. いかんによらず in formal document management rules."
-        },
-        {
-          "id": "ikan-ni-yorazu_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of whether it is an emergency, the procedure must be followed'?",
-          "japanese": null,
-          "choices": [
-            "緊急[きんきゅう]かどうかのいかんによらず、手順[てじゅん]に従[したが]わなければならない。",
-            "緊急[きんきゅう]かどうかに関[かか]わらず、手順[てじゅん]に従[したが]わなければならない。",
-            "緊急[きんきゅう]かどうかのいかんで、手順[てじゅん]に従[したが]わなければならない。",
-            "緊急[きんきゅう]かどうかがどうであれ、手順[てじゅん]に従[したが]わなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun/condition + の + いかんによらず: 緊急[きんきゅう]かどうか + の + いかんによらず = regardless of whether it's an emergency. 手順[てじゅん]に従[したが]わなければならない = must follow the procedure. いかんによらず marks all situations as equally subject to protocol."
-        },
-        {
-          "id": "ikan-ni-yorazu_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses いかんで (depending on) rather than いかんによらず (regardless of)?",
-          "japanese": null,
-          "choices": [
-            "理由[りゆう]のいかんによらず対応[たいおう]する (respond regardless of reason)",
-            "結果[けっか]のいかんで評価[ひょうか]が変[か]わる (evaluation changes DEPENDING ON the result — いかんで = determined by)",
-            "年齢[ねんれい]のいかんによらず参加[さんか]できる (can participate regardless of age)",
-            "事情[じじょう]のいかんにかかわらず義務[ぎむ]がある (obligation regardless of circumstances)"
-          ],
-          "correctIndex": 1,
-          "explanation": "結果[けっか]のいかんで評価[ひょうか]が変[か]わる = evaluation changes depending on the result. いかんで = depending on X (the result determines the evaluation). This is the OPPOSITE of いかんによらず. いかんによらず: X doesn't matter. いかんで: X determines Y."
-        },
-        {
-          "id": "ikan-ni-yorazu_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of rank, safety procedures apply to everyone'?",
-          "japanese": null,
-          "choices": [
-            "職位[しょくい]のいかんによらず、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
-            "職位[しょくい]に関[かか]わらず、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
-            "職位[しょくい]のいかんで、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
-            "職位[しょくい]がどうであれ、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 職位[しょくい] + の + いかんによらず = regardless of rank/position. 安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される = safety procedures apply to all. いかんによらず in formal workplace safety statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q19",
-          "type": "translation",
-          "prompt": "Which means 'Regardless of the amount, all donations are gratefully received'?",
-          "japanese": null,
-          "choices": [
-            "金額[きんがく]のいかんによらず、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
-            "金額[きんがく]に関[かか]わらず、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
-            "金額[きんがく]のいかんで、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
-            "金額[きんがく]がどうであれ、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 金額[きんがく] + の + いかんによらず = regardless of the amount. すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る = all donations are gratefully received. いかんによらず in formal charitable statements."
-        },
-        {
-          "id": "ikan-ni-yorazu_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Regardless of the outcome, we are proud of our effort'?",
-          "japanese": null,
-          "choices": [
-            "結果[けっか]のいかんによらず、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
-            "結果[けっか]に関[かか]わらず、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
-            "結果[けっか]のいかんで、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
-            "結果[けっか]がどうであれ、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + の + いかんによらず: 結果[けっか] + の + いかんによらず = regardless of the outcome. 努力[どりょく]を誇[ほこ]りに思[おも]う = we are proud of our effort. いかんによらず: the result (win or lose) does not diminish pride in the effort."
-        }
-      ]
+     "japanese": "理由[りゆう]のいかんにかかわらず、暴力[ぼうりょく]は一切[いっさい]認[みと]めません。",
+     "romaji": "Riyuu no ikan ni kakawarazu, bouryoku wa issai mitomemasen.",
+     "english": "Regardless of the reason, violence will not be tolerated under any circumstances."
     },
     {
-      "id": "wo-motte",
-      "name": "〜をもって (wo motte) — by means of / as of / with (formal)",
-      "shortDescription": "Formal: indicates the method or instrument of an action, or marks a solemn temporal cutoff.",
-      "formation": "Noun + をもって + formal action or formal deadline",
-      "explanation": "をもって is formal Japanese's way of elevating the humble particle で — but the elevation carries weight. In its method-of-action use, it means 'by means of' or 'with' in a deliberately official register: 書面[しょめん]をもって通知[つうち]します — 'We will notify you by means of a written document' — sounds far more official and intentional than 書面[しょめん]で通知[つうち]します.\n\nIn its time-marker use, をもって marks a formal cutoff or solemn transition: 本日[ほんじつ]をもって退職[たいしょく]いたします — 'I am retiring as of today.' In this use, the word is doing more than simple sequencing — it declares the moment official, permanent, and formally recognized. You hear it at retirement ceremonies, closing announcements, and formal proceedings where the language itself must match the gravity of the occasion.\n\nこれをもって (with this / herewith) is a common closing formula in formal announcements. If you work in corporate or institutional Japanese, you will encounter をもって constantly — it is the connective tissue of formal ceremony.",
-      "rules": [
-        "Noun + をもって = by means of [noun] (formal method marker — formal equivalent of で)",
-        "Time noun + をもって = as of [time] / effective [date] (solemn cutoff or formal transition)",
-        "Highly formal — business correspondence, official announcements, ceremonies, and formal documents",
-        "Compare: で (casual or neutral means); をもって (official, deliberate, formal)",
-        "これをもって = with this / herewith — standard formal closing formula in announcements"
-      ],
-      "examples": [
-        {
-          "japanese": "本日[ほんじつ]をもって、当店[とうてん]は閉店[へいてん]いたします。",
-          "romaji": "Honjitsu wo motte, touten wa heiten itashimasu.",
-          "english": "As of today, our store will be closing."
-        },
-        {
-          "japanese": "書面[しょめん]をもってご連絡差[れんらくさ]し上[あ]げます。",
-          "romaji": "Shomen wo motte gorenraku sashiagemasu.",
-          "english": "We will contact you by means of a written document."
-        },
-        {
-          "japanese": "この会議[かいぎ]をもって、プロジェクトの第一[だいいち]フェーズを終了[しゅうりょう]します。",
-          "romaji": "Kono kaigi wo motte, purojekuto no dai-ichi feezu wo shuuryou shimasu.",
-          "english": "With this meeting, we conclude the first phase of the project."
-        },
-        {
-          "japanese": "行動[こうどう]をもって示[しめ]すことが、何[なに]より説得力[せっとくりょく]を持[も]ちます。",
-          "romaji": "Koudou wo motte shimesu koto ga, nani yori settokuryoku wo mochimasu.",
-          "english": "Showing through actions has more persuasive power than anything else."
-        }
-      ],
-      "flashcardHeader": "〜をもって",
-      "flashcardAnswer": "Formal: indicates the method or instrument of an action, or marks a solemn temporal cutoff — the elevated equivalent of で.",
-      "practice": [
-        {
-          "id": "wo-motte_q1",
-          "type": "usage",
-          "prompt": "What does 〜をもって mean?",
-          "japanese": null,
-          "choices": [
-            "despite X",
-            "by means of / with (formal) — uses X as the method, resource, or concluding event: (1) by means of X; (2) with X as the closing boundary ('as of X')",
-            "because of X",
-            "in addition to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜をもって has two main uses: (1) By means of/with X: 誠意[せいい]をもって対応[たいおう]する (respond with sincerity). (2) As of/with X (closing): 本日[ほんじつ]をもって閉店[へいてん]いたします (we will close as of today). Formal, often used in announcements and official statements."
-        },
-        {
-          "id": "wo-motte_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'The company will close as of today'?",
-          "japanese": null,
-          "choices": [
-            "本日[ほんじつ]をもって、会社[かいしゃ]を閉鎖[へいさ]いたします。",
-            "本日[ほんじつ]から、会社[かいしゃ]を閉鎖[へいさ]いたします。",
-            "本日[ほんじつ]で、会社[かいしゃ]を閉鎖[へいさ]いたします。",
-            "本日[ほんじつ]に、会社[かいしゃ]を閉鎖[へいさ]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (time) + をもって: 本日[ほんじつ] + をもって = as of today. 会社[かいしゃ]を閉鎖[へいさ]いたします = we will close the company. をもって marks today as the formal closing point — classic official announcement."
-        },
-        {
-          "id": "wo-motte_q3",
-          "type": "translation",
-          "prompt": "Which means 'We respond to all requests with sincerity'?",
-          "japanese": null,
-          "choices": [
-            "すべてのご要望[ようぼう]には誠意[せいい]をもって対応[たいおう]いたします。",
-            "すべてのご要望[ようぼう]には誠意[せいい]で対応[たいおう]いたします。",
-            "すべてのご要望[ようぼう]には誠意[せいい]から対応[たいおう]いたします。",
-            "すべてのご要望[ようぼう]には誠意[せいい]によって対応[たいおう]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 誠意[せいい] + をもって = with sincerity. 対応[たいおう]いたします = we will respond. をもって marks sincerity as the quality/means with which the response is made. Formal business language."
-        },
-        {
-          "id": "wo-motte_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'He replied with a firm refusal'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は断固[だんこ]たる拒否[きょひ]をもって返答[へんとう]した。",
-            "彼[かれ]は断固[だんこ]たる拒否[きょひ]で返答[へんとう]した。",
-            "彼[かれ]は断固[だんこ]たる拒否[きょひ]から返答[へんとう]した。",
-            "彼[かれ]は断固[だんこ]たる拒否[きょひ]によって返答[へんとう]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 断固[だんこ]たる拒否[きょひ] + をもって = with a firm refusal (as the means/stance). 返答[へんとう]した = replied. をもって marks the refusal as the instrument or manner of the reply. Formal."
-        },
-        {
-          "id": "wo-motte_q5",
-          "type": "usage",
-          "prompt": "をもって (closing/ending use) — what does it mark?",
-          "japanese": null,
-          "choices": [
-            "The start of something",
-            "The CLOSING POINT or terminal boundary — 本日[ほんじつ]をもって = as of today (ending); 今回[こんかい]の試合[しあい]をもって引退[いんたい] = retire as of this match",
-            "The reason for something",
-            "The exception to something — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "Closing use of をもって: 本日[ほんじつ]をもって閉店[へいてん] (closing as of today), 今期[こんき]をもって廃止[はいし] (discontinuing as of this term), この試合[しあい]をもって引退[いんたい] (retiring as of this match). The noun marks the endpoint — formal announcements of endings/retirements/closings."
-        },
-        {
-          "id": "wo-motte_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'The exhibition will conclude as of this weekend'?",
-          "japanese": null,
-          "choices": [
-            "今週末[こんしゅうまつ]をもって、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
-            "今週末[こんしゅうまつ]から、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
-            "今週末[こんしゅうまつ]で、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
-            "今週末[こんしゅうまつ]に、展覧会[てんらんかい]が終了[しゅうりょう]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (time) + をもって: 今週末[こんしゅうまつ] + をもって = as of this weekend. 展覧会[てんらんかい]が終了[しゅうりょう]いたします = the exhibition will conclude. をもって marks the weekend as the formal closing point."
-        },
-        {
-          "id": "wo-motte_q7",
-          "type": "translation",
-          "prompt": "Which means 'The agreement was reached with the signing of the contract'?",
-          "japanese": null,
-          "choices": [
-            "契約書[けいやくしょ]の署名[しょめい]をもって、合意[ごうい]が成立[せいりつ]した。",
-            "契約書[けいやくしょ]の署名[しょめい]で、合意[ごうい]が成立[せいりつ]した。",
-            "契約書[けいやくしょ]の署名[しょめい]から、合意[ごうい]が成立[せいりつ]した。",
-            "契約書[けいやくしょ]の署名[しょめい]によって、合意[ごうい]が成立[せいりつ]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (event/action) + をもって: 契約書[けいやくしょ]の署名[しょめい] + をもって = with/by means of the signing. 合意[ごうい]が成立[せいりつ]した = agreement was reached. をもって marks the signing as the means/event that formalized the agreement."
-        },
-        {
-          "id": "wo-motte_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'He greeted us with a warm smile'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は温[あたた]かい笑顔[えがお]をもって、私[わたし]たちを迎[むか]えた。",
-            "彼[かれ]は温[あたた]かい笑顔[えがお]で、私[わたし]たちを迎[むか]えた。",
-            "彼[かれ]は温[あたた]かい笑顔[えがお]から、私[わたし]たちを迎[むか]えた。",
-            "彼[かれ]は温[あたた]かい笑顔[えがお]によって、私[わたし]たちを迎[むか]えた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 温[あたた]かい笑顔[えがお] + をもって = with a warm smile (as the means of greeting). 迎[むか]えた = welcomed/greeted. をもって is more formal than で for 'with/by means of'; used in elevated writing."
-        },
-        {
-          "id": "wo-motte_q9",
-          "type": "usage",
-          "prompt": "をもって vs. で — when should をもって be preferred over で?",
-          "japanese": null,
-          "choices": [
-            "They are always interchangeable, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "をもって is preferred in formal/official contexts: announcements, legal documents, formal speeches — 本日[ほんじつ]をもって閉鎖[へいさ] (formal announcement). で is natural for informal 'with/by' — 笑顔[えがお]で (with a smile — casual)",
-            "をもって is more casual",
-            "で cannot be used for means"
-          ],
-          "correctIndex": 1,
-          "explanation": "で = casual/neutral 'with/by': 車[くるま]で行[い]く (go by car), 笑顔[えがお]で (with a smile). をもって = formal/official 'with/by means of / as of': 本日[ほんじつ]をもって閉店[へいてん] (formal announcement). Use をもって for official statements; で for everyday expressions."
-        },
-        {
-          "id": "wo-motte_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'As of this month, the membership fee will change'?",
-          "japanese": null,
-          "choices": [
-            "今月[こんげつ]をもって、会費[かいひ]が変更[へんこう]になります。",
-            "今月[こんげつ]から、会費[かいひ]が変更[へんこう]になります。",
-            "今月[こんげつ]で、会費[かいひ]が変更[へんこう]になります。",
-            "今月[こんげつ]に、会費[かいひ]が変更[へんこう]になります。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (time) + をもって: 今月[こんげつ] + をもって = as of this month. 会費[かいひ]が変更[へんこう]になります = the membership fee will change. をもって in formal service/subscription announcement."
-        },
-        {
-          "id": "wo-motte_q11",
-          "type": "translation",
-          "prompt": "Which means 'He retired as of his final game'?",
-          "japanese": null,
-          "choices": [
-            "最後[さいご]の試合[しあい]をもって、彼[かれ]は引退[いんたい]した。",
-            "最後[さいご]の試合[しあい]から、彼[かれ]は引退[いんたい]した。",
-            "最後[さいご]の試合[しあい]で、彼[かれ]は引退[いんたい]した。",
-            "最後[さいご]の試合[しあい]に、彼[かれ]は引退[いんたい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (event) + をもって: 最後[さいご]の試合[しあい] + をもって = as of the final game. 彼[かれ]は引退[いんたい]した = he retired. をもって marks the final game as the formal boundary of his career."
-        },
-        {
-          "id": "wo-motte_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'We aim to handle your inquiry with utmost care'?",
-          "japanese": null,
-          "choices": [
-            "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]をもって対応[たいおう]いたします。",
-            "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]で対応[たいおう]いたします。",
-            "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]から対応[たいおう]いたします。",
-            "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]によって対応[たいおう]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 最大[さいだい]の配慮[はいりょ] + をもって = with utmost care. 対応[たいおう]いたします = we will handle. をもって marks care as the formal standard of service — polite business/service language."
-        },
-        {
-          "id": "wo-motte_q13",
-          "type": "usage",
-          "prompt": "をもってしても means 'even with X / even using X.' Which example shows this?",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]をもって終了[しゅうりょう] (ending as of today — closing use)",
-            "最新技術[さいしんぎじゅつ]をもってしても解決[かいけつ]できなかった (even with the latest technology, could not be solved — even X isn't sufficient)",
-            "誠意[せいい]をもって対応[たいおう]する (respond with sincerity — means use)",
-            "笑顔[えがお]をもって迎[むか]える (welcome with a smile — means use)"
-          ],
-          "correctIndex": 1,
-          "explanation": "をもってしても = even with X (but even X wasn't enough): 最新技術[さいしんぎじゅつ]をもってしても治[なお]せない (even with the latest technology, cannot cure). This is a third use — the combined をもって + しても creates an emphatic 'even with X' meaning, often with an impossible/insufficient outcome."
-        },
-        {
-          "id": "wo-motte_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'This conference will close as of tonight'?",
-          "japanese": null,
-          "choices": [
-            "本日夜[ほんじつよる]をもって、この会議[かいぎ]は閉幕[へいまく]いたします。",
-            "本日夜[ほんじつよる]から、この会議[かいぎ]は閉幕[へいまく]いたします。",
-            "本日夜[ほんじつよる]で、この会議[かいぎ]は閉幕[へいまく]いたします。",
-            "本日夜[ほんじつよる]に、この会議[かいぎ]は閉幕[へいまく]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (time) + をもって: 本日夜[ほんじつよる] + をもって = as of tonight. 会議[かいぎ]は閉幕[へいまく]いたします = the conference will close. をもって in formal closing announcement for events/meetings."
-        },
-        {
-          "id": "wo-motte_q15",
-          "type": "translation",
-          "prompt": "Which means 'I dedicate this award to my teacher with deep gratitude'?",
-          "japanese": null,
-          "choices": [
-            "深[ふか]い感謝[かんしゃ]をもって、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
-            "深[ふか]い感謝[かんしゃ]で、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
-            "深[ふか]い感謝[かんしゃ]から、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
-            "深[ふか]い感謝[かんしゃ]によって、この賞[しょう]を恩師[おんし]に捧[ささ]げます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 深[ふか]い感謝[かんしゃ] + をもって = with deep gratitude. 恩師[おんし]に捧[ささ]げます = dedicate to my teacher. をもって marks gratitude as the sincere emotional basis of the dedication. Elevated, formal acceptance speech language."
-        },
-        {
-          "id": "wo-motte_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'The service will be terminated as of March 31'?",
-          "japanese": null,
-          "choices": [
-            "3月[がつ]31日[にち]をもって、サービスを終了[しゅうりょう]いたします。",
-            "3月[がつ]31日[にち]から、サービスを終了[しゅうりょう]いたします。",
-            "3月[がつ]31日[にち]で、サービスを終了[しゅうりょう]いたします。",
-            "3月[がつ]31日[にち]に、サービスを終了[しゅうりょう]いたします。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (date) + をもって: 3月[がつ]31日[にち] + をもって = as of March 31. サービスを終了[しゅうりょう]いたします = we will terminate the service. をもって in formal service termination announcements."
-        },
-        {
-          "id": "wo-motte_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses をもって in the 'by means of' sense (not closing)?",
-          "japanese": null,
-          "choices": [
-            "本日[ほんじつ]をもって辞任[じにん]いたします (I will resign as of today — closing)",
-            "誠心誠意[せいしんせいい]をもって対応[たいおう]する (respond with all sincerity — means)",
-            "今期[こんき]をもって廃止[はいし]する (discontinue as of this term — closing)",
-            "この試合[しあい]をもって引退[いんたい] (retire as of this match — closing)"
-          ],
-          "correctIndex": 1,
-          "explanation": "誠心誠意[せいしんせいい]をもって対応[たいおう]する = respond with all sincerity. をもって here marks sincerity as THE MEANS of response. This is the 'by means of / with' use — the quality (sincerity) is the instrument with which the action is performed."
-        },
-        {
-          "id": "wo-motte_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'The application period ends as of tomorrow'?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]をもって、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
-            "明日[あした]から、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
-            "明日[あした]で、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
-            "明日[あした]に、応募期間[おうぼきかん]が終了[しゅうりょう]します。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (time) + をもって: 明日[あした] + をもって = as of tomorrow. 応募期間[おうぼきかん]が終了[しゅうりょう]します = the application period ends. をもって in formal administrative deadline announcement."
-        },
-        {
-          "id": "wo-motte_q19",
-          "type": "translation",
-          "prompt": "Which means 'We accept the proposal with full respect for your opinion'?",
-          "japanese": null,
-          "choices": [
-            "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]し、提案[ていあん]をもって対応[たいおう]いたします。",
-            "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]した提案[ていあん]で対応[たいおう]いたします。",
-            "ご意見[いけん]への十分[じゅうぶん]な尊重[そんちょう]をもって、この提案[ていあん]を受[う]け入[い]れます。",
-            "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]するから、提案[ていあん]を受[う]け入[い]れます。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Noun + をもって: 十分[じゅうぶん]な尊重[そんちょう] + をもって = with full respect. 提案[ていあん]を受[う]け入[い]れます = accept the proposal. をもって marks respect as the formal means/attitude with which the acceptance is made."
-        },
-        {
-          "id": "wo-motte_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'He faced adversity with courage and composure'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さをもって、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
-            "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さで、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
-            "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さから、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
-            "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さによって、逆境[ぎゃっきょう]に立[た]ち向[む]かった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をもって: 勇気[ゆうき]と冷静[れいせい]さ + をもって = with courage and composure. 逆境[ぎゃっきょう]に立[た]ち向[む]かった = faced adversity. をもって marks these qualities as the instruments with which he confronted the difficulty. Formal, literary."
-        }
-      ]
+     "japanese": "結果[けっか]のいかんによらず、参加[さんか]したことには意味[いみ]があります。",
+     "romaji": "Kekka no ikan ni yorazu, sanka shita koto ni wa imi ga arimasu.",
+     "english": "Regardless of the result, there is meaning in having participated."
     },
     {
-      "id": "ni-sakidatte",
-      "name": "〜に先立[さきだ]って (ni sakidatte) — prior to / in advance of / before",
-      "shortDescription": "Formal: indicates a deliberate preparatory or ceremonial action taken in advance of a significant event.",
-      "formation": "Verb (dict form) + に先立[さきだ]って  |  Noun + に先立[さきだ]って / に先立[さきだ]ち",
-      "explanation": "に先立[さきだ]って means 'prior to' — but not in the casual sense of simply happening earlier. 先立[さきだ]つ (to precede, to go before) implies that the preceding action is deliberate, preparatory, or ceremonially appropriate before the main event. 会議[かいぎ]に先立[さきだ]って、資料[しりょう]をお配[くば]りします — 'Prior to the meeting, we will distribute materials' — the distribution is presented as a formal preparatory step, not just something that happens to be scheduled first.\n\nIn contrast to 前[まえ]に (before — simple temporal sequencing), に先立[さきだ]って suggests purpose and propriety: this is what should properly be done, formally, in advance of something significant. You hear it in formal proceedings, academic settings, surgical consultations, and official ceremonies — anywhere that taking proper preparatory steps reflects care and seriousness.\n\nに先立[さきだ]ち is the slightly more compressed written form, common in formal documents and announcements. When a speaker uses に先立[さきだ]って or に先立[さきだ]ち, they are signaling that what follows is treated with appropriate gravity.",
-      "rules": [
-        "Noun + に先立[さきだ]って = prior to / in advance of [noun] (formal preparatory action before significant event)",
-        "Verb (dict) + に先立[さきだ]って = prior to [verb action] (doing X formally before the main event)",
-        "に先立[さきだ]ち = more formal, written abbreviation of に先立[さきだ]って",
-        "The preceding action is deliberate preparation or a formal preliminary — not incidental sequencing",
-        "More formal than 前[まえ]に (before — general); common in ceremonies, official settings, and formal proceedings"
-      ],
-      "examples": [
-        {
-          "japanese": "会議[かいぎ]に先立[さきだ]って、資料[しりょう]をお配[くば]りします。",
-          "romaji": "Kaigi ni sakidatte, shiryou wo okubari shimasu.",
-          "english": "Prior to the meeting, we will distribute the materials."
-        },
-        {
-          "japanese": "開幕[かいまく]に先立[さきだ]ち、主催者[しゅさいしゃ]よりご挨拶[あいさつ]申[もう]し上[あ]げます。",
-          "romaji": "Kaimaku ni sakidachi, shusaisha yori goaisatsu moushiagemasu.",
-          "english": "Prior to the opening, we will have a greeting from the organizer."
-        },
-        {
-          "japanese": "手術[しゅじゅつ]に先立[さきだ]って、詳[くわ]しい説明[せつめい]と同意書[どういしょ]へのサインが必要[ひつよう]です。",
-          "romaji": "Shujutsu ni sakidatte, kuwashii setsumei to douisho e no sain ga hitsuyou desu.",
-          "english": "Prior to the surgery, a detailed explanation and signature on a consent form are required."
-        },
-        {
-          "japanese": "本格的[ほんかくてき]な交渉[こうしょう]に先立[さきだ]って、双方[そうほう]の立場[たちば]を確認[かくにん]し合[あ]いました。",
-          "romaji": "Honkakuteki na koushou ni sakidatte, souhou no tachiba wo kakunin shiaimashita.",
-          "english": "Prior to the formal negotiations, both sides confirmed each other's positions."
-        }
-      ],
-      "flashcardHeader": "〜に先立って",
-      "flashcardAnswer": "Formal: indicates a deliberate preparatory or ceremonial action taken in advance of a significant event.",
-      "practice": [
-        {
-          "id": "ni-sakidatte_q1",
-          "type": "usage",
-          "prompt": "What does 〜に先立[さきだ]って mean?",
-          "japanese": null,
-          "choices": [
-            "after X / following X",
-            "prior to / in advance of / before X — doing something as preparation or in anticipation of X",
-            "because of X",
-            "regardless of X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜に先立[さきだ]って = prior to / in advance of. 式典[しきてん]に先立[さきだ]って、リハーサルが行[おこな]われた = prior to the ceremony, a rehearsal was held. It marks Y as happening before X and typically as preparation for X. More formal than 〜の前[まえ]に."
-        },
-        {
-          "id": "ni-sakidatte_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the opening ceremony, a welcome reception was held'?",
-          "japanese": null,
-          "choices": [
-            "開会式[かいかいしき]に先立[さきだ]って、歓迎[かんげい]レセプションが開[ひら]かれた。",
-            "開会式[かいかいしき]の前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。",
-            "開会式[かいかいしき]に先立[さきだ]ち、歓迎[かんげい]レセプションが開[ひら]かれた。",
-            "開会式[かいかいしき]より前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 開会式[かいかいしき] + に先立[さきだ]って = prior to the opening ceremony. 歓迎[かんげい]レセプションが開[ひら]かれた = a welcome reception was held. に先立[さきだ]って is more formal than の前[まえ]に."
-        },
-        {
-          "id": "ni-sakidatte_q3",
-          "type": "translation",
-          "prompt": "Which means 'Prior to the experiment, safety checks were conducted'?",
-          "japanese": null,
-          "choices": [
-            "実験[じっけん]に先立[さきだ]って、安全確認[あんぜんかくにん]が行[おこな]われた。",
-            "実験[じっけん]の前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。",
-            "実験[じっけん]に先立[さきだ]ち、安全確認[あんぜんかくにん]が行[おこな]われた。",
-            "実験[じっけん]より前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 実験[じっけん] + に先立[さきだ]って = prior to the experiment. 安全確認[あんぜんかくにん]が行[おこな]われた = safety checks were conducted. に先立[さきだ]って marks the checks as formal pre-event preparation."
-        },
-        {
-          "id": "ni-sakidatte_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the release, a preview was shown to media'?",
-          "japanese": null,
-          "choices": [
-            "発売[はつばい]に先立[さきだ]って、メディアに試写会[ししゃかい]が行[おこな]われた。",
-            "発売[はつばい]の前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。",
-            "発売[はつばい]に先立[さきだ]ち、メディアに試写会[ししゃかい]が行[おこな]われた。",
-            "発売[はつばい]より前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 発売[はつばい] + に先立[さきだ]って = prior to the release. メディアに試写会[ししゃかい]が行[おこな]われた = a preview was shown to media. に先立[さきだ]って in formal media/event announcements."
-        },
-        {
-          "id": "ni-sakidatte_q5",
-          "type": "usage",
-          "prompt": "に先立[さきだ]って vs. の前[まえ]に — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "に先立[さきだ]って is more formal/literary, often implies the preliminary action is done IN PREPARATION FOR the main event; の前[まえ]に is neutral everyday 'before X'",
-            "に先立[さきだ]って is more casual",
-            "の前[まえ]に is only for written Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "に先立[さきだ]って: formal, implies preparation or anticipatory action: 試験[しけん]に先立[さきだ]って説明[せつめい]が行[おこな]われた (an explanation was given in advance of the exam — preparatory). の前[まえ]に: neutral: 試験[しけん]の前[まえ]に説明[せつめい]があった (there was an explanation before the exam — simple sequence). に先立[さきだ]って carries the nuance of doing Y in readiness for X."
-        },
-        {
-          "id": "ni-sakidatte_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the merger, due diligence was conducted'?",
-          "japanese": null,
-          "choices": [
-            "合併[がっぺい]に先立[さきだ]って、デューデリジェンスが実施[じっし]された。",
-            "合併[がっぺい]の前[まえ]に、デューデリジェンスが実施[じっし]された。",
-            "合併[がっぺい]に先立[さきだ]ち、デューデリジェンスが実施[じっし]された。",
-            "合併[がっぺい]より前[まえ]に、デューデリジェンスが実施[じっし]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 合併[がっぺい] + に先立[さきだ]って = prior to the merger. デューデリジェンスが実施[じっし]された = due diligence was conducted. に先立[さきだ]って in formal business/legal contexts."
-        },
-        {
-          "id": "ni-sakidatte_q7",
-          "type": "translation",
-          "prompt": "Which means 'Prior to the conference, all participants submitted their papers'?",
-          "japanese": null,
-          "choices": [
-            "会議[かいぎ]に先立[さきだ]って、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
-            "会議[かいぎ]の前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
-            "会議[かいぎ]に先立[さきだ]ち、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
-            "会議[かいぎ]より前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 会議[かいぎ] + に先立[さきだ]って = prior to the conference. 論文[ろんぶん]を提出[ていしゅつ]した = submitted papers. に先立[さきだ]って marks the paper submission as formal pre-conference preparation."
-        },
-        {
-          "id": "ni-sakidatte_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to leaving Japan, he visited his parents'?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]を離[はな]れるに先立[さきだ]って、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
-            "日本[にほん]を離[はな]れる前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
-            "日本[にほん]を離[はな]れるに先立[さきだ]ち、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
-            "日本[にほん]を離[はな]れるより前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + に先立[さきだ]って: 離[はな]れる + に先立[さきだ]って = prior to leaving. 両親[りょうしん]を訪[たず]ねた = visited his parents. Verb + に先立[さきだ]って (verbal form is also acceptable): the visit is a preparatory/farewell action before departure."
-        },
-        {
-          "id": "ni-sakidatte_q9",
-          "type": "usage",
-          "prompt": "に先立[さきだ]ち vs. に先立[さきだ]って — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They have different meanings",
-            "に先立[さきだ]ち is the conjunctive form (more formal, written); に先立[さきだ]って is the te-form (also formal, slightly more natural). Both mean 'prior to X.' に先立[さきだ]ち is often seen in formal documents; に先立[さきだ]って in speeches and general formal writing",
-            "に先立[さきだ]ち is more casual",
-            "に先立[さきだ]って can only be used with nouns, regardless of context or politeness level — this is true in both spoken and written Japanese, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "に先立[さきだ]ち (conjunctive): 会議[かいぎ]に先立[さきだ]ち (prior to the meeting — formal, written). に先立[さきだ]って (te-form): 会議[かいぎ]に先立[さきだ]って (prior to the meeting — formal, somewhat natural). Both are correct; に先立[さきだ]ち appears more often in official documents and formal announcements."
-        },
-        {
-          "id": "ni-sakidatte_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the interview, the candidate prepared thoroughly'?",
-          "japanese": null,
-          "choices": [
-            "面接[めんせつ]に先立[さきだ]って、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
-            "面接[めんせつ]の前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
-            "面接[めんせつ]に先立[さきだ]ち、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
-            "面接[めんせつ]より前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 面接[めんせつ] + に先立[さきだ]って = prior to the interview. 十分[じゅうぶん]に準備[じゅんび]した = prepared thoroughly. に先立[さきだ]って marks thorough preparation as the formal anticipatory action before the interview."
-        },
-        {
-          "id": "ni-sakidatte_q11",
-          "type": "translation",
-          "prompt": "Which means 'Prior to the launch, the rocket was thoroughly inspected'?",
-          "japanese": null,
-          "choices": [
-            "打[う]ち上[あ]げに先立[さきだ]って、ロケットが詳細[しょうさい]に点検[てんけん]された。",
-            "打[う]ち上[あ]げの前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。",
-            "打[う]ち上[あ]げに先立[さきだ]ち、ロケットが詳細[しょうさい]に点検[てんけん]された。",
-            "打[う]ち上[あ]げより前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 打[う]ち上[あ]げ + に先立[さきだ]って = prior to the launch. 詳細[しょうさい]に点検[てんけん]された = was thoroughly inspected. に先立[さきだ]って in formal space/technical pre-launch procedures."
-        },
-        {
-          "id": "ni-sakidatte_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the construction, the neighborhood was notified'?",
-          "japanese": null,
-          "choices": [
-            "工事[こうじ]に先立[さきだ]って、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
-            "工事[こうじ]の前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
-            "工事[こうじ]に先立[さきだ]ち、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
-            "工事[こうじ]より前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 工事[こうじ] + に先立[さきだ]って = prior to the construction. 近隣住民[きんりんじゅうみん]に通知[つうち]された = the neighborhood was notified. に先立[さきだ]って in formal notification procedures."
-        },
-        {
-          "id": "ni-sakidatte_q13",
-          "type": "usage",
-          "prompt": "に先立[さきだ]って — does it always suggest the pre-event action is PREPARATORY?",
-          "japanese": null,
-          "choices": [
-            "No — it simply means 'before' with no further nuance — this is true in both spoken and written Japanese.",
-            "Yes — に先立[さきだ]って typically implies the Y action is done IN ANTICIPATION of or IN PREPARATION for X; it's not just neutral sequence but meaningful prelude",
-            "に先立[さきだ]って only describes simultaneous events",
-            "に先立[さきだ]って is only for negative situations"
-          ],
-          "correctIndex": 1,
-          "explanation": "に先立[さきだ]って implies purposeful prelude — Y is done in readiness or anticipation of X: 式典[しきてん]に先立[さきだ]って準備[じゅんび]する (prepare in advance of the ceremony — purposeful). の前[まえ]に is neutral sequence with no preparation nuance. に先立[さきだ]って elevates the preparatory significance of Y."
-        },
-        {
-          "id": "ni-sakidatte_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the announcement, a press briefing was held'?",
-          "japanese": null,
-          "choices": [
-            "発表[はっぴょう]に先立[さきだ]って、記者会見[きしゃかいけん]が開催[かいさい]された。",
-            "発表[はっぴょう]の前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。",
-            "発表[はっぴょう]に先立[さきだ]ち、記者会見[きしゃかいけん]が開催[かいさい]された。",
-            "発表[はっぴょう]より前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 発表[はっぴょう] + に先立[さきだ]って = prior to the announcement. 記者会見[きしゃかいけん]が開催[かいさい]された = a press briefing was held. に先立[さきだ]って in formal media/communications procedures."
-        },
-        {
-          "id": "ni-sakidatte_q15",
-          "type": "translation",
-          "prompt": "Which means 'Prior to the wedding, the couple held an engagement party'?",
-          "japanese": null,
-          "choices": [
-            "結婚式[けっこんしき]に先立[さきだ]って、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
-            "結婚式[けっこんしき]の前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
-            "結婚式[けっこんしき]に先立[さきだ]ち、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
-            "結婚式[けっこんしき]より前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 結婚式[けっこんしき] + に先立[さきだ]って = prior to the wedding. 婚約[こんやく]パーティーを開[ひら]いた = held an engagement party. に先立[さきだ]って marks the party as a formal anticipatory celebration."
-        },
-        {
-          "id": "ni-sakidatte_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the election, all candidates submitted their manifestos'?",
-          "japanese": null,
-          "choices": [
-            "選挙[せんきょ]に先立[さきだ]って、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-            "選挙[せんきょ]の前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-            "選挙[せんきょ]に先立[さきだ]ち、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-            "選挙[せんきょ]より前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 選挙[せんきょ] + に先立[さきだ]って = prior to the election. マニフェストを提出[ていしゅつ]した = submitted their manifestos. に先立[さきだ]って in formal electoral procedures."
-        },
-        {
-          "id": "ni-sakidatte_q17",
-          "type": "usage",
-          "prompt": "に先立[さきだ]って is typically used in which register?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday conversation",
-            "Formal and semi-formal contexts: official announcements, events, academic/research settings, business communications",
-            "Only for royal/imperial contexts, and the rule applies to every sentence type.",
-            "Only scientific papers"
-          ],
-          "correctIndex": 1,
-          "explanation": "に先立[さきだ]って is formal, appearing in: official event programs (式典[しきてん]に先立[さきだ]って), business announcements (発売[はつばい]に先立[さきだ]って), academic contexts (研究[けんきゅう]に先立[さきだ]って), formal ceremonies. In casual speech, 〜の前[まえ]に is used. に先立[さきだ]って elevates the formality."
-        },
-        {
-          "id": "ni-sakidatte_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the debate, the rules were explained'?",
-          "japanese": null,
-          "choices": [
-            "討論[とうろん]に先立[さきだ]って、ルールが説明[せつめい]された。",
-            "討論[とうろん]の前[まえ]に、ルールが説明[せつめい]された。",
-            "討論[とうろん]に先立[さきだ]ち、ルールが説明[せつめい]された。",
-            "討論[とうろん]より前[まえ]に、ルールが説明[せつめい]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 討論[とうろん] + に先立[さきだ]って = prior to the debate. ルールが説明[せつめい]された = the rules were explained. に先立[さきだ]って in formal procedural settings."
-        },
-        {
-          "id": "ni-sakidatte_q19",
-          "type": "translation",
-          "prompt": "Which means 'Prior to the clinical trials, the drug was extensively tested in the lab'?",
-          "japanese": null,
-          "choices": [
-            "臨床[りんしょう]試験[しけん]に先立[さきだ]って、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
-            "臨床[りんしょう]試験[しけん]の前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
-            "臨床[りんしょう]試験[しけん]に先立[さきだ]ち、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
-            "臨床[りんしょう]試験[しけん]より前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 臨床[りんしょう]試験[しけん] + に先立[さきだ]って = prior to the clinical trials. 徹底的[てっていてき]にテストされた = was extensively tested. に先立[さきだ]って in formal medical/pharmaceutical research contexts."
-        },
-        {
-          "id": "ni-sakidatte_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Prior to the summit, bilateral talks were held'?",
-          "japanese": null,
-          "choices": [
-            "首脳[しゅのう]会談[かいだん]に先立[さきだ]って、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-            "首脳[しゅのう]会談[かいだん]の前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-            "首脳[しゅのう]会談[かいだん]に先立[さきだ]ち、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-            "首脳[しゅのう]会談[かいだん]より前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に先立[さきだ]って: 首脳[しゅのう]会談[かいだん] + に先立[さきだ]って = prior to the summit. 二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた = bilateral talks were held. に先立[さきだ]って in formal diplomatic contexts."
-        }
-      ]
+     "japanese": "成否[せいひ]はあなたの準備[じゅんび]いかんで大[おお]きく変[か]わります。",
+     "romaji": "Seihi wa anata no junbi ikan de ookiku kawarimasu.",
+     "english": "Whether it succeeds or fails will change greatly depending on your level of preparation."
+    },
+    {
+     "japanese": "事情[じじょう]のいかんを問[と]わず、期限[きげん]内[ない]に提出[ていしゅつ]してください。",
+     "romaji": "Jijou no ikan wo towazu, kigen nai ni teishutsu shite kudasai.",
+     "english": "Regardless of the circumstances, please submit within the deadline."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜いかんによらず / いかんにかかわらず",
+   "flashcardAnswer": "Highly formal: regardless of what X is or how X turns out — the outcome is fixed and unconditional.",
+   "practice": [
     {
-      "id": "ch48_v01",
-      "partOfSpeech": "noun",
-      "kanji": "統治",
-      "kana": "とうち",
-      "romaji": "touchi",
-      "definition": "governance; rule"
+     "id": "ikan-ni-yorazu_q1",
+     "type": "usage",
+     "prompt": "What does 〜いかんによらず mean?",
+     "japanese": null,
+     "choices": [
+      "depending on X",
+      "regardless of X / irrespective of X — the outcome or action is the same whatever X turns out to be; X does not influence Y",
+      "because of X",
+      "similar to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜いかんによらず = regardless of / irrespective of. 理由[りゆう]のいかんによらず、ルールは守[まも]るべきだ = regardless of the reason, the rules should be followed. X (a noun or condition) does not change Y. Formal, often used in rules, regulations, and official statements."
     },
     {
-      "id": "ch48_v02",
-      "partOfSpeech": "noun",
-      "kanji": "行政",
-      "kana": "ぎょうせい",
-      "romaji": "gyousei",
-      "definition": "(public) administration"
+     "id": "ikan-ni-yorazu_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of the reason, being late is not permitted'?",
+     "japanese": null,
+     "choices": [
+      "理由[りゆう]のいかんによらず、遅刻[ちこく]は許[ゆる]されない。",
+      "理由[りゆう]に関[かか]わらず、遅刻[ちこく]は許[ゆる]されない。",
+      "理由[りゆう]のいかんで、遅刻[ちこく]は許[ゆる]されない。",
+      "理由[りゆう]がどうであれ、遅刻[ちこく]は許[ゆる]されない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 理由[りゆう] + の + いかんによらず = regardless of the reason. 遅刻[ちこく]は許[ゆる]されない = being late is not permitted. いかんによらず is the formal version of 'regardless of.'"
     },
     {
-      "id": "ch48_v03",
-      "partOfSpeech": "noun",
-      "kanji": "官僚",
-      "kana": "かんりょう",
-      "romaji": "kanryou",
-      "definition": "bureaucrat"
+     "id": "ikan-ni-yorazu_q3",
+     "type": "translation",
+     "prompt": "Which means 'Regardless of nationality, all participants are treated equally'?",
+     "japanese": null,
+     "choices": [
+      "国籍[こくせき]のいかんによらず、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
+      "国籍[こくせき]に関[かか]わらず、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
+      "国籍[こくせき]のいかんで、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。",
+      "国籍[こくせき]がどうであれ、参加者全員[さんかしゃぜんいん]が平等[びょうどう]に扱[あつか]われる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 国籍[こくせき] + の + いかんによらず = regardless of nationality. 平等[びょうどう]に扱[あつか]われる = treated equally. いかんによらず in official/formal equal treatment statements."
     },
     {
-      "id": "ch48_v04",
-      "partOfSpeech": "noun",
-      "kanji": "規制",
-      "kana": "きせい",
-      "romaji": "kisei",
-      "definition": "regulation"
+     "id": "ikan-ni-yorazu_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of the situation, safety comes first'?",
+     "japanese": null,
+     "choices": [
+      "状況[じょうきょう]のいかんによらず、安全[あんぜん]が最優先[さいゆうせん]だ。",
+      "状況[じょうきょう]に関[かか]わらず、安全[あんぜん]が最優先[さいゆうせん]だ。",
+      "状況[じょうきょう]のいかんで、安全[あんぜん]が最優先[さいゆうせん]だ。",
+      "状況[じょうきょう]がどうであれ、安全[あんぜん]が最優先[さいゆうせん]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 状況[じょうきょう] + の + いかんによらず = regardless of the situation. 安全[あんぜん]が最優先[さいゆうせん]だ = safety comes first. いかんによらず in formal safety rules."
     },
     {
-      "id": "ch48_v05",
-      "partOfSpeech": "noun",
-      "kanji": "施策",
-      "kana": "しさく",
-      "romaji": "shisaku",
-      "definition": "policy; measure"
+     "id": "ikan-ni-yorazu_q5",
+     "type": "usage",
+     "prompt": "いかんによらず vs. いかんで — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "いかんによらず = regardless of X (X does NOT affect Y); いかんで = depending on X (X DOES determine Y)",
+      "いかんによらず is more casual",
+      "いかんで is only for negative situations, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "いかんによらず: 理由[りゆう]のいかんによらず罰[ばつ]する (punish regardless of the reason — reason doesn't matter). いかんで: 結果[けっか]のいかんで対応[たいおう]を変[か]える (adjust response depending on the result — result matters). によらず = regardless; で = depending on. Opposite nuances!"
     },
     {
-      "id": "ch48_v06",
-      "partOfSpeech": "noun",
-      "kanji": "政権",
-      "kana": "せいけん",
-      "romaji": "seiken",
-      "definition": "administration; regime"
+     "id": "ikan-ni-yorazu_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of the results, the effort was worthwhile'?",
+     "japanese": null,
+     "choices": [
+      "結果[けっか]のいかんによらず、努力[どりょく]には価値[かち]があった。",
+      "結果[けっか]に関[かか]わらず、努力[どりょく]には価値[かち]があった。",
+      "結果[けっか]のいかんで、努力[どりょく]には価値[かち]があった。",
+      "結果[けっか]がどうであれ、努力[どりょく]には価値[かち]があった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 結果[けっか] + の + いかんによらず = regardless of the result. 努力[どりょく]には価値[かち]があった = the effort was worthwhile. いかんによらず marks the result as irrelevant to the value of effort."
     },
     {
-      "id": "ch48_v07",
-      "partOfSpeech": "noun",
-      "kanji": "官庁",
-      "kana": "かんちょう",
-      "romaji": "kanchou",
-      "definition": "government agency"
+     "id": "ikan-ni-yorazu_q7",
+     "type": "translation",
+     "prompt": "Which means 'Regardless of the circumstances, this agreement is binding'?",
+     "japanese": null,
+     "choices": [
+      "事情[じじょう]のいかんによらず、この合意[ごうい]は拘束力[こうそくりょく]がある。",
+      "事情[じじょう]に関[かか]わらず、この合意[ごうい]は拘束力[こうそくりょく]がある。",
+      "事情[じじょう]のいかんで、この合意[ごうい]は拘束力[こうそくりょく]がある。",
+      "事情[じじょう]がどうであれ、この合意[ごうい]は拘束力[こうそくりょく]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 事情[じじょう] + の + いかんによらず = regardless of the circumstances. この合意[ごうい]は拘束力[こうそくりょく]がある = this agreement is binding. いかんによらず in formal legal/contractual language."
     },
     {
-      "id": "ch48_v08",
-      "partOfSpeech": "noun",
-      "kanji": "省庁",
-      "kana": "しょうちょう",
-      "romaji": "shouchou",
-      "definition": "ministries and agencies"
+     "id": "ikan-ni-yorazu_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of age, everyone can participate in this event'?",
+     "japanese": null,
+     "choices": [
+      "年齢[ねんれい]のいかんによらず、誰[だれ]でもこのイベントに参加[さんか]できる。",
+      "年齢[ねんれい]に関[かか]わらず、誰[だれ]でもこのイベントに参加[さんか]できる。",
+      "年齢[ねんれい]のいかんで、誰[だれ]でもこのイベントに参加[さんか]できる。",
+      "年齢[ねんれい]がどうであれ、誰[だれ]でもこのイベントに参加[さんか]できる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 年齢[ねんれい] + の + いかんによらず = regardless of age. 誰[だれ]でも参加[さんか]できる = anyone can participate. いかんによらず in formal event/program eligibility statements."
     },
     {
-      "id": "ch48_v09",
-      "partOfSpeech": "noun",
-      "kanji": "自治",
-      "kana": "じち",
-      "romaji": "jichi",
-      "definition": "self-government; autonomy"
+     "id": "ikan-ni-yorazu_q9",
+     "type": "usage",
+     "prompt": "いかんにかかわらず — how does this compare to いかんによらず?",
+     "japanese": null,
+     "choices": [
+      "They have opposite meanings",
+      "Almost identical meaning — both = 'regardless of X'; いかんにかかわらず uses かかわらず (regardless of) instead of によらず; same formal register, interchangeable",
+      "いかんにかかわらず is more casual",
+      "いかんにかかわらず is only for negative outcomes — this is true in both spoken and written Japanese, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "いかんによらず and いかんにかかわらず are interchangeable: 理由[りゆう]のいかんによらず = 理由[りゆう]のいかんにかかわらず (regardless of the reason). Both are formal, literary expressions. かかわらず (regardless of/irrespective of) = によらず in this context."
     },
     {
-      "id": "ch48_v10",
-      "partOfSpeech": "noun",
-      "kanji": "歳出",
-      "kana": "さいしゅつ",
-      "romaji": "saishutsu",
-      "definition": "(government) expenditure"
+     "id": "ikan-ni-yorazu_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of how small the error, we must report it'?",
+     "japanese": null,
+     "choices": [
+      "エラーのいかんによらず、大小[だいしょう]にかかわらず報告[ほうこく]しなければならない。",
+      "エラーのいかんによらず、報告[ほうこく]しなければならない。",
+      "エラーに関[かか]わらず、報告[ほうこく]しなければならない。",
+      "エラーがどうであれ、報告[ほうこく]しなければならない。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Noun + の + いかんによらず: エラー + の + いかんによらず = regardless of the nature/extent of the error. 報告[ほうこく]しなければならない = must report. いかんによらず marks all errors as equally reportable regardless of their characteristics."
     },
     {
-      "id": "ch48_v11",
-      "partOfSpeech": "noun",
-      "kanji": "歳入",
-      "kana": "さいにゅう",
-      "romaji": "sainyuu",
-      "definition": "(government) revenue"
+     "id": "ikan-ni-yorazu_q11",
+     "type": "translation",
+     "prompt": "Which means 'Regardless of personal opinions, the company policy must be followed'?",
+     "japanese": null,
+     "choices": [
+      "個人[こじん]の意見[いけん]のいかんによらず、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
+      "個人[こじん]の意見[いけん]に関[かか]わらず、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
+      "個人[こじん]の意見[いけん]のいかんで、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。",
+      "個人[こじん]の意見[いけん]がどうであれ、会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 個人[こじん]の意見[いけん] + の + いかんによらず = regardless of personal opinions. 会社[かいしゃ]の方針[ほうしん]に従[したが]わなければならない = must follow company policy. いかんによらず in formal workplace compliance statements."
     },
     {
-      "id": "ch48_v12",
-      "partOfSpeech": "noun",
-      "kanji": "徴収",
-      "kana": "ちょうしゅう",
-      "romaji": "choushuu",
-      "definition": "collection (of taxes)"
+     "id": "ikan-ni-yorazu_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of experience level, the application process is the same for all'?",
+     "japanese": null,
+     "choices": [
+      "経験[けいけん]のいかんによらず、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
+      "経験[けいけん]に関[かか]わらず、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
+      "経験[けいけん]のいかんで、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。",
+      "経験[けいけん]がどうであれ、応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 経験[けいけん] + の + いかんによらず = regardless of experience level. 応募[おうぼ]プロセスは全員[ぜんいん]同[おな]じ = the application process is the same for all. いかんによらず in formal recruitment/administrative equality statements."
     },
     {
-      "id": "ch48_v13",
-      "partOfSpeech": "noun",
-      "kanji": "納税",
-      "kana": "のうぜい",
-      "romaji": "nouzei",
-      "definition": "tax payment"
+     "id": "ikan-ni-yorazu_q13",
+     "type": "usage",
+     "prompt": "いかんによらず is primarily found in what register?",
+     "japanese": null,
+     "choices": [
+      "Casual conversation",
+      "Formal written language: legal documents, official regulations, corporate rules, formal announcements",
+      "Only classical Japanese texts, and the rule applies to every sentence type.",
+      "Casual social media posts"
+     ],
+     "correctIndex": 1,
+     "explanation": "いかんによらず is highly formal. It appears in: legal documents (理由[りゆう]のいかんによらず), corporate policy statements, official regulations, formal news reports. In casual speech, 〜に関[かか]わらず or どうあっても are more natural. いかんによらず signals serious, formal writing."
     },
     {
-      "id": "ch48_v14",
-      "partOfSpeech": "noun",
-      "kanji": "補償",
-      "kana": "ほしょう",
-      "romaji": "hoshou",
-      "definition": "compensation"
+     "id": "ikan-ni-yorazu_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of the method, the result is what matters'?",
+     "japanese": null,
+     "choices": [
+      "手段[しゅだん]のいかんによらず、結果[けっか]が重要[じゅうよう]だ。",
+      "手段[しゅだん]に関[かか]わらず、結果[けっか]が重要[じゅうよう]だ。",
+      "手段[しゅだん]のいかんで、結果[けっか]が重要[じゅうよう]だ。",
+      "手段[しゅだん]がどうであれ、結果[けっか]が重要[じゅうよう]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 手段[しゅだん] + の + いかんによらず = regardless of the method. 結果[けっか]が重要[じゅうよう]だ = the result is what matters. いかんによらず marks methods as irrelevant to the outcome's importance."
     },
     {
-      "id": "ch48_v15",
-      "partOfSpeech": "noun",
-      "kanji": "賠償",
-      "kana": "ばいしょう",
-      "romaji": "baishou",
-      "definition": "reparation; indemnity"
+     "id": "ikan-ni-yorazu_q15",
+     "type": "translation",
+     "prompt": "Which means 'Regardless of the content, all documents must be approved before submission'?",
+     "japanese": null,
+     "choices": [
+      "内容[ないよう]のいかんによらず、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
+      "内容[ないよう]に関[かか]わらず、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
+      "内容[ないよう]のいかんで、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。",
+      "内容[ないよう]がどうであれ、すべての書類[しょるい]は提出[ていしゅつ]前[まえ]に承認[しょうにん]が必要[ひつよう]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 内容[ないよう] + の + いかんによらず = regardless of the content. 承認[しょうにん]が必要[ひつよう]だ = approval is required. いかんによらず in formal document management rules."
     },
     {
-      "id": "ch48_v16",
-      "partOfSpeech": "noun",
-      "kanji": "訴訟",
-      "kana": "そしょう",
-      "romaji": "soshou",
-      "definition": "lawsuit; litigation"
+     "id": "ikan-ni-yorazu_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of whether it is an emergency, the procedure must be followed'?",
+     "japanese": null,
+     "choices": [
+      "緊急[きんきゅう]かどうかのいかんによらず、手順[てじゅん]に従[したが]わなければならない。",
+      "緊急[きんきゅう]かどうかに関[かか]わらず、手順[てじゅん]に従[したが]わなければならない。",
+      "緊急[きんきゅう]かどうかのいかんで、手順[てじゅん]に従[したが]わなければならない。",
+      "緊急[きんきゅう]かどうかがどうであれ、手順[てじゅん]に従[したが]わなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun/condition + の + いかんによらず: 緊急[きんきゅう]かどうか + の + いかんによらず = regardless of whether it's an emergency. 手順[てじゅん]に従[したが]わなければならない = must follow the procedure. いかんによらず marks all situations as equally subject to protocol."
     },
     {
-      "id": "ch48_v17",
-      "partOfSpeech": "noun",
-      "kanji": "起訴",
-      "kana": "きそ",
-      "romaji": "kiso",
-      "definition": "prosecution; indictment"
+     "id": "ikan-ni-yorazu_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses いかんで (depending on) rather than いかんによらず (regardless of)?",
+     "japanese": null,
+     "choices": [
+      "理由[りゆう]のいかんによらず対応[たいおう]する (respond regardless of reason)",
+      "結果[けっか]のいかんで評価[ひょうか]が変[か]わる (evaluation changes DEPENDING ON the result — いかんで = determined by)",
+      "年齢[ねんれい]のいかんによらず参加[さんか]できる (can participate regardless of age)",
+      "事情[じじょう]のいかんにかかわらず義務[ぎむ]がある (obligation regardless of circumstances)"
+     ],
+     "correctIndex": 1,
+     "explanation": "結果[けっか]のいかんで評価[ひょうか]が変[か]わる = evaluation changes depending on the result. いかんで = depending on X (the result determines the evaluation). This is the OPPOSITE of いかんによらず. いかんによらず: X doesn't matter. いかんで: X determines Y."
     },
     {
-      "id": "ch48_v18",
-      "partOfSpeech": "noun",
-      "kanji": "弁護",
-      "kana": "べんご",
-      "romaji": "bengo",
-      "definition": "(legal) defense"
+     "id": "ikan-ni-yorazu_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of rank, safety procedures apply to everyone'?",
+     "japanese": null,
+     "choices": [
+      "職位[しょくい]のいかんによらず、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
+      "職位[しょくい]に関[かか]わらず、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
+      "職位[しょくい]のいかんで、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。",
+      "職位[しょくい]がどうであれ、安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 職位[しょくい] + の + いかんによらず = regardless of rank/position. 安全[あんぜん]手順[てじゅん]は全員[ぜんいん]に適用[てきよう]される = safety procedures apply to all. いかんによらず in formal workplace safety statements."
     },
     {
-      "id": "ch48_v19",
-      "partOfSpeech": "noun",
-      "kanji": "判決",
-      "kana": "はんけつ",
-      "romaji": "hanketsu",
-      "definition": "(court) verdict"
+     "id": "ikan-ni-yorazu_q19",
+     "type": "translation",
+     "prompt": "Which means 'Regardless of the amount, all donations are gratefully received'?",
+     "japanese": null,
+     "choices": [
+      "金額[きんがく]のいかんによらず、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
+      "金額[きんがく]に関[かか]わらず、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
+      "金額[きんがく]のいかんで、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。",
+      "金額[きんがく]がどうであれ、すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 金額[きんがく] + の + いかんによらず = regardless of the amount. すべての寄付[きふ]は感謝[かんしゃ]して受[う]け取[と]る = all donations are gratefully received. いかんによらず in formal charitable statements."
     },
     {
-      "id": "ch48_v20",
-      "partOfSpeech": "noun",
-      "kanji": "有罪",
-      "kana": "ゆうざい",
-      "romaji": "yuuzai",
-      "definition": "guilty"
-    },
-    {
-      "id": "ch48_v21",
-      "partOfSpeech": "noun",
-      "kanji": "無罪",
-      "kana": "むざい",
-      "romaji": "muzai",
-      "definition": "innocent; not guilty"
-    },
-    {
-      "id": "ch48_v22",
-      "partOfSpeech": "noun",
-      "kanji": "刑罰",
-      "kana": "けいばつ",
-      "romaji": "keibatsu",
-      "definition": "punishment; penalty"
-    },
-    {
-      "id": "ch48_v23",
-      "partOfSpeech": "noun",
-      "kanji": "拘束",
-      "kana": "こうそく",
-      "romaji": "kousoku",
-      "definition": "restraint; detention"
-    },
-    {
-      "id": "ch48_v24",
-      "partOfSpeech": "noun",
-      "kanji": "権限",
-      "kana": "けんげん",
-      "romaji": "kengen",
-      "definition": "authority; jurisdiction"
-    },
-    {
-      "id": "ch48_v25",
-      "partOfSpeech": "noun",
-      "kanji": "主権",
-      "kana": "しゅけん",
-      "romaji": "shuken",
-      "definition": "sovereignty"
-    },
-    {
-      "id": "ch48_v26",
-      "partOfSpeech": "noun",
-      "kanji": "統一",
-      "kana": "とういつ",
-      "romaji": "touitsu",
-      "definition": "unification"
-    },
-    {
-      "id": "ch48_v27",
-      "partOfSpeech": "noun",
-      "kanji": "連携",
-      "kana": "れんけい",
-      "romaji": "renkei",
-      "definition": "cooperation; linkage"
-    },
-    {
-      "id": "ch48_v28",
-      "partOfSpeech": "noun",
-      "kanji": "協定",
-      "kana": "きょうてい",
-      "romaji": "kyoutei",
-      "definition": "agreement; pact"
-    },
-    {
-      "id": "ch48_v29",
-      "partOfSpeech": "noun",
-      "kanji": "条約",
-      "kana": "じょうやく",
-      "romaji": "jouyaku",
-      "definition": "treaty"
-    },
-    {
-      "id": "ch48_v30",
-      "partOfSpeech": "noun",
-      "kanji": "批准",
-      "kana": "ひじゅん",
-      "romaji": "hijun",
-      "definition": "ratification"
-    },
-    {
-      "id": "ch48_v31",
-      "partOfSpeech": "noun",
-      "kanji": "同盟",
-      "kana": "どうめい",
-      "romaji": "doumei",
-      "definition": "alliance"
-    },
-    {
-      "id": "ch48_v32",
-      "partOfSpeech": "noun",
-      "kanji": "制裁",
-      "kana": "せいさい",
-      "romaji": "seisai",
-      "definition": "sanctions"
-    },
-    {
-      "id": "ch48_v33",
-      "partOfSpeech": "noun",
-      "kanji": "紛争",
-      "kana": "ふんそう",
-      "romaji": "funsou",
-      "definition": "conflict; dispute"
-    },
-    {
-      "id": "ch48_v34",
-      "partOfSpeech": "noun",
-      "kanji": "情勢",
-      "kana": "じょうせい",
-      "romaji": "jousei",
-      "definition": "situation; state of affairs"
-    },
-    {
-      "id": "ch48_v35",
-      "partOfSpeech": "noun",
-      "kanji": "立法",
-      "kana": "りっぽう",
-      "romaji": "rippou",
-      "definition": "legislation"
-    },
-    {
-      "id": "ch48_v36",
-      "partOfSpeech": "noun",
-      "kanji": "司法",
-      "kana": "しほう",
-      "romaji": "shihou",
-      "definition": "the judiciary"
-    },
-    {
-      "id": "ch48_v37",
-      "partOfSpeech": "noun",
-      "kanji": "官民",
-      "kana": "かんみん",
-      "romaji": "kanmin",
-      "definition": "the public and private sectors"
-    },
-    {
-      "id": "ch48_v38",
-      "partOfSpeech": "noun",
-      "kanji": "選挙権",
-      "kana": "せんきょけん",
-      "romaji": "senkyoken",
-      "definition": "suffrage; the right to vote"
-    },
-    {
-      "id": "ch48_v39",
-      "partOfSpeech": "noun",
-      "kanji": "議決",
-      "kana": "ぎけつ",
-      "romaji": "giketsu",
-      "definition": "resolution; decision"
-    },
-    {
-      "id": "ch48_v40",
-      "partOfSpeech": "noun",
-      "kanji": "発令",
-      "kana": "はつれい",
-      "romaji": "hatsurei",
-      "definition": "official issuance (of an order)"
+     "id": "ikan-ni-yorazu_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Regardless of the outcome, we are proud of our effort'?",
+     "japanese": null,
+     "choices": [
+      "結果[けっか]のいかんによらず、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
+      "結果[けっか]に関[かか]わらず、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
+      "結果[けっか]のいかんで、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。",
+      "結果[けっか]がどうであれ、私[わたし]たちは努力[どりょく]を誇[ほこ]りに思[おも]う。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + の + いかんによらず: 結果[けっか] + の + いかんによらず = regardless of the outcome. 努力[どりょく]を誇[ほこ]りに思[おも]う = we are proud of our effort. いかんによらず: the result (win or lose) does not diminish pride in the effort."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "wo-motte",
+   "name": "〜をもって (wo motte) — by means of / as of / with (formal)",
+   "shortDescription": "Formal: indicates the method or instrument of an action, or marks a solemn temporal cutoff.",
+   "formation": "Noun + をもって + formal action or formal deadline",
+   "explanation": "をもって is formal Japanese's way of elevating the humble particle で — but the elevation carries weight. In its method-of-action use, it means 'by means of' or 'with' in a deliberately official register: 書面[しょめん]をもって通知[つうち]します — 'We will notify you by means of a written document' — sounds far more official and intentional than 書面[しょめん]で通知[つうち]します.\n\nIn its time-marker use, をもって marks a formal cutoff or solemn transition: 本日[ほんじつ]をもって退職[たいしょく]いたします — 'I am retiring as of today.' In this use, the word is doing more than simple sequencing — it declares the moment official, permanent, and formally recognized. You hear it at retirement ceremonies, closing announcements, and formal proceedings where the language itself must match the gravity of the occasion.\n\nこれをもって (with this / herewith) is a common closing formula in formal announcements. If you work in corporate or institutional Japanese, you will encounter をもって constantly — it is the connective tissue of formal ceremony.",
+   "rules": [
+    "Noun + をもって = by means of [noun] (formal method marker — formal equivalent of で)",
+    "Time noun + をもって = as of [time] / effective [date] (solemn cutoff or formal transition)",
+    "Highly formal — business correspondence, official announcements, ceremonies, and formal documents",
+    "Compare: で (casual or neutral means); をもって (official, deliberate, formal)",
+    "これをもって = with this / herewith — standard formal closing formula in announcements"
+   ],
+   "examples": [
     {
-      "char": "慎",
-      "word": "慎む",
-      "reading": "つつしむ",
-      "meaning": "to be discreet, refrain"
+     "japanese": "本日[ほんじつ]をもって、当店[とうてん]は閉店[へいてん]いたします。",
+     "romaji": "Honjitsu wo motte, touten wa heiten itashimasu.",
+     "english": "As of today, our store will be closing."
     },
     {
-      "char": "匂",
-      "word": "匂い",
-      "reading": "におい",
-      "meaning": "smell, scent, aroma"
+     "japanese": "書面[しょめん]をもってご連絡差[れんらくさ]し上[あ]げます。",
+     "romaji": "Shomen wo motte gorenraku sashiagemasu.",
+     "english": "We will contact you by means of a written document."
     },
     {
-      "char": "膝",
-      "word": "膝",
-      "reading": "ひざ",
-      "meaning": "knee, lap"
+     "japanese": "この会議[かいぎ]をもって、プロジェクトの第一[だいいち]フェーズを終了[しゅうりょう]します。",
+     "romaji": "Kono kaigi wo motte, purojekuto no dai-ichi feezu wo shuuryou shimasu.",
+     "english": "With this meeting, we conclude the first phase of the project."
     },
     {
-      "char": "唇",
-      "word": "唇",
-      "reading": "くちびる",
-      "meaning": "lips"
-    },
-    {
-      "char": "遮",
-      "word": "遮る",
-      "reading": "さえぎる",
-      "meaning": "to block, interrupt"
-    },
-    {
-      "char": "抑",
-      "word": "抑える",
-      "reading": "おさえる",
-      "meaning": "to hold down, suppress"
-    },
-    {
-      "char": "卑",
-      "word": "卑",
-      "reading": "いやしい",
-      "meaning": "lowly"
-    },
-    {
-      "char": "賠",
-      "word": "賠償",
-      "reading": "ばいしょう",
-      "meaning": "reparation; indemnity"
-    },
-    {
-      "char": "償",
-      "word": "補償",
-      "reading": "ほしょう",
-      "meaning": "compensation"
-    },
-    {
-      "char": "覇",
-      "word": "覇",
-      "reading": "は",
-      "meaning": "supremacy"
-    },
-    {
-      "char": "塊",
-      "word": "塊",
-      "reading": "かたまり",
-      "meaning": "lump, mass"
-    },
-    {
-      "char": "窟",
-      "word": "窟",
-      "reading": "くつ",
-      "meaning": "cave"
-    },
-    {
-      "char": "峠",
-      "word": "峠",
-      "reading": "とうげ",
-      "meaning": "mountain pass, peak (of a crisis)"
-    },
-    {
-      "char": "覆",
-      "word": "覆う",
-      "reading": "おおう",
-      "meaning": "to cover, conceal"
-    },
-    {
-      "char": "蔑",
-      "word": "蔑む",
-      "reading": "さげすむ",
-      "meaning": "to despise, look down on"
-    },
-    {
-      "char": "儀",
-      "word": "儀",
-      "reading": "ぎ",
-      "meaning": "ceremony"
-    },
-    {
-      "char": "擁",
-      "word": "擁",
-      "reading": "よう",
-      "meaning": "embrace"
-    },
-    {
-      "char": "凹",
-      "word": "凹",
-      "reading": "おう",
-      "meaning": "concave"
+     "japanese": "行動[こうどう]をもって示[しめ]すことが、何[なに]より説得力[せっとくりょく]を持[も]ちます。",
+     "romaji": "Koudou wo motte shimesu koto ga, nani yori settokuryoku wo mochimasu.",
+     "english": "Showing through actions has more persuasive power than anything else."
     }
-  ]
+   ],
+   "flashcardHeader": "〜をもって",
+   "flashcardAnswer": "Formal: indicates the method or instrument of an action, or marks a solemn temporal cutoff — the elevated equivalent of で.",
+   "practice": [
+    {
+     "id": "wo-motte_q1",
+     "type": "usage",
+     "prompt": "What does 〜をもって mean?",
+     "japanese": null,
+     "choices": [
+      "despite X",
+      "by means of / with (formal) — uses X as the method, resource, or concluding event: (1) by means of X; (2) with X as the closing boundary ('as of X')",
+      "because of X",
+      "in addition to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜をもって has two main uses: (1) By means of/with X: 誠意[せいい]をもって対応[たいおう]する (respond with sincerity). (2) As of/with X (closing): 本日[ほんじつ]をもって閉店[へいてん]いたします (we will close as of today). Formal, often used in announcements and official statements."
+    },
+    {
+     "id": "wo-motte_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'The company will close as of today'?",
+     "japanese": null,
+     "choices": [
+      "本日[ほんじつ]をもって、会社[かいしゃ]を閉鎖[へいさ]いたします。",
+      "本日[ほんじつ]から、会社[かいしゃ]を閉鎖[へいさ]いたします。",
+      "本日[ほんじつ]で、会社[かいしゃ]を閉鎖[へいさ]いたします。",
+      "本日[ほんじつ]に、会社[かいしゃ]を閉鎖[へいさ]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (time) + をもって: 本日[ほんじつ] + をもって = as of today. 会社[かいしゃ]を閉鎖[へいさ]いたします = we will close the company. をもって marks today as the formal closing point — classic official announcement."
+    },
+    {
+     "id": "wo-motte_q3",
+     "type": "translation",
+     "prompt": "Which means 'We respond to all requests with sincerity'?",
+     "japanese": null,
+     "choices": [
+      "すべてのご要望[ようぼう]には誠意[せいい]をもって対応[たいおう]いたします。",
+      "すべてのご要望[ようぼう]には誠意[せいい]で対応[たいおう]いたします。",
+      "すべてのご要望[ようぼう]には誠意[せいい]から対応[たいおう]いたします。",
+      "すべてのご要望[ようぼう]には誠意[せいい]によって対応[たいおう]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 誠意[せいい] + をもって = with sincerity. 対応[たいおう]いたします = we will respond. をもって marks sincerity as the quality/means with which the response is made. Formal business language."
+    },
+    {
+     "id": "wo-motte_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'He replied with a firm refusal'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は断固[だんこ]たる拒否[きょひ]をもって返答[へんとう]した。",
+      "彼[かれ]は断固[だんこ]たる拒否[きょひ]で返答[へんとう]した。",
+      "彼[かれ]は断固[だんこ]たる拒否[きょひ]から返答[へんとう]した。",
+      "彼[かれ]は断固[だんこ]たる拒否[きょひ]によって返答[へんとう]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 断固[だんこ]たる拒否[きょひ] + をもって = with a firm refusal (as the means/stance). 返答[へんとう]した = replied. をもって marks the refusal as the instrument or manner of the reply. Formal."
+    },
+    {
+     "id": "wo-motte_q5",
+     "type": "usage",
+     "prompt": "をもって (closing/ending use) — what does it mark?",
+     "japanese": null,
+     "choices": [
+      "The start of something",
+      "The CLOSING POINT or terminal boundary — 本日[ほんじつ]をもって = as of today (ending); 今回[こんかい]の試合[しあい]をもって引退[いんたい] = retire as of this match",
+      "The reason for something",
+      "The exception to something — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "Closing use of をもって: 本日[ほんじつ]をもって閉店[へいてん] (closing as of today), 今期[こんき]をもって廃止[はいし] (discontinuing as of this term), この試合[しあい]をもって引退[いんたい] (retiring as of this match). The noun marks the endpoint — formal announcements of endings/retirements/closings."
+    },
+    {
+     "id": "wo-motte_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'The exhibition will conclude as of this weekend'?",
+     "japanese": null,
+     "choices": [
+      "今週末[こんしゅうまつ]をもって、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
+      "今週末[こんしゅうまつ]から、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
+      "今週末[こんしゅうまつ]で、展覧会[てんらんかい]が終了[しゅうりょう]いたします。",
+      "今週末[こんしゅうまつ]に、展覧会[てんらんかい]が終了[しゅうりょう]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (time) + をもって: 今週末[こんしゅうまつ] + をもって = as of this weekend. 展覧会[てんらんかい]が終了[しゅうりょう]いたします = the exhibition will conclude. をもって marks the weekend as the formal closing point."
+    },
+    {
+     "id": "wo-motte_q7",
+     "type": "translation",
+     "prompt": "Which means 'The agreement was reached with the signing of the contract'?",
+     "japanese": null,
+     "choices": [
+      "契約書[けいやくしょ]の署名[しょめい]をもって、合意[ごうい]が成立[せいりつ]した。",
+      "契約書[けいやくしょ]の署名[しょめい]で、合意[ごうい]が成立[せいりつ]した。",
+      "契約書[けいやくしょ]の署名[しょめい]から、合意[ごうい]が成立[せいりつ]した。",
+      "契約書[けいやくしょ]の署名[しょめい]によって、合意[ごうい]が成立[せいりつ]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (event/action) + をもって: 契約書[けいやくしょ]の署名[しょめい] + をもって = with/by means of the signing. 合意[ごうい]が成立[せいりつ]した = agreement was reached. をもって marks the signing as the means/event that formalized the agreement."
+    },
+    {
+     "id": "wo-motte_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'He greeted us with a warm smile'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は温[あたた]かい笑顔[えがお]をもって、私[わたし]たちを迎[むか]えた。",
+      "彼[かれ]は温[あたた]かい笑顔[えがお]で、私[わたし]たちを迎[むか]えた。",
+      "彼[かれ]は温[あたた]かい笑顔[えがお]から、私[わたし]たちを迎[むか]えた。",
+      "彼[かれ]は温[あたた]かい笑顔[えがお]によって、私[わたし]たちを迎[むか]えた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 温[あたた]かい笑顔[えがお] + をもって = with a warm smile (as the means of greeting). 迎[むか]えた = welcomed/greeted. をもって is more formal than で for 'with/by means of'; used in elevated writing."
+    },
+    {
+     "id": "wo-motte_q9",
+     "type": "usage",
+     "prompt": "をもって vs. で — when should をもって be preferred over で?",
+     "japanese": null,
+     "choices": [
+      "They are always interchangeable, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "をもって is preferred in formal/official contexts: announcements, legal documents, formal speeches — 本日[ほんじつ]をもって閉鎖[へいさ] (formal announcement). で is natural for informal 'with/by' — 笑顔[えがお]で (with a smile — casual)",
+      "をもって is more casual",
+      "で cannot be used for means"
+     ],
+     "correctIndex": 1,
+     "explanation": "で = casual/neutral 'with/by': 車[くるま]で行[い]く (go by car), 笑顔[えがお]で (with a smile). をもって = formal/official 'with/by means of / as of': 本日[ほんじつ]をもって閉店[へいてん] (formal announcement). Use をもって for official statements; で for everyday expressions."
+    },
+    {
+     "id": "wo-motte_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'As of this month, the membership fee will change'?",
+     "japanese": null,
+     "choices": [
+      "今月[こんげつ]をもって、会費[かいひ]が変更[へんこう]になります。",
+      "今月[こんげつ]から、会費[かいひ]が変更[へんこう]になります。",
+      "今月[こんげつ]で、会費[かいひ]が変更[へんこう]になります。",
+      "今月[こんげつ]に、会費[かいひ]が変更[へんこう]になります。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (time) + をもって: 今月[こんげつ] + をもって = as of this month. 会費[かいひ]が変更[へんこう]になります = the membership fee will change. をもって in formal service/subscription announcement."
+    },
+    {
+     "id": "wo-motte_q11",
+     "type": "translation",
+     "prompt": "Which means 'He retired as of his final game'?",
+     "japanese": null,
+     "choices": [
+      "最後[さいご]の試合[しあい]をもって、彼[かれ]は引退[いんたい]した。",
+      "最後[さいご]の試合[しあい]から、彼[かれ]は引退[いんたい]した。",
+      "最後[さいご]の試合[しあい]で、彼[かれ]は引退[いんたい]した。",
+      "最後[さいご]の試合[しあい]に、彼[かれ]は引退[いんたい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (event) + をもって: 最後[さいご]の試合[しあい] + をもって = as of the final game. 彼[かれ]は引退[いんたい]した = he retired. をもって marks the final game as the formal boundary of his career."
+    },
+    {
+     "id": "wo-motte_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'We aim to handle your inquiry with utmost care'?",
+     "japanese": null,
+     "choices": [
+      "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]をもって対応[たいおう]いたします。",
+      "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]で対応[たいおう]いたします。",
+      "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]から対応[たいおう]いたします。",
+      "ご質問[しつもん]には最大[さいだい]の配慮[はいりょ]によって対応[たいおう]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 最大[さいだい]の配慮[はいりょ] + をもって = with utmost care. 対応[たいおう]いたします = we will handle. をもって marks care as the formal standard of service — polite business/service language."
+    },
+    {
+     "id": "wo-motte_q13",
+     "type": "usage",
+     "prompt": "をもってしても means 'even with X / even using X.' Which example shows this?",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]をもって終了[しゅうりょう] (ending as of today — closing use)",
+      "最新技術[さいしんぎじゅつ]をもってしても解決[かいけつ]できなかった (even with the latest technology, could not be solved — even X isn't sufficient)",
+      "誠意[せいい]をもって対応[たいおう]する (respond with sincerity — means use)",
+      "笑顔[えがお]をもって迎[むか]える (welcome with a smile — means use)"
+     ],
+     "correctIndex": 1,
+     "explanation": "をもってしても = even with X (but even X wasn't enough): 最新技術[さいしんぎじゅつ]をもってしても治[なお]せない (even with the latest technology, cannot cure). This is a third use — the combined をもって + しても creates an emphatic 'even with X' meaning, often with an impossible/insufficient outcome."
+    },
+    {
+     "id": "wo-motte_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'This conference will close as of tonight'?",
+     "japanese": null,
+     "choices": [
+      "本日夜[ほんじつよる]をもって、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "本日夜[ほんじつよる]から、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "本日夜[ほんじつよる]で、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "本日夜[ほんじつよる]に、この会議[かいぎ]は閉幕[へいまく]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (time) + をもって: 本日夜[ほんじつよる] + をもって = as of tonight. 会議[かいぎ]は閉幕[へいまく]いたします = the conference will close. をもって in formal closing announcement for events/meetings."
+    },
+    {
+     "id": "wo-motte_q15",
+     "type": "translation",
+     "prompt": "Which means 'I dedicate this award to my teacher with deep gratitude'?",
+     "japanese": null,
+     "choices": [
+      "深[ふか]い感謝[かんしゃ]をもって、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
+      "深[ふか]い感謝[かんしゃ]で、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
+      "深[ふか]い感謝[かんしゃ]から、この賞[しょう]を恩師[おんし]に捧[ささ]げます。",
+      "深[ふか]い感謝[かんしゃ]によって、この賞[しょう]を恩師[おんし]に捧[ささ]げます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 深[ふか]い感謝[かんしゃ] + をもって = with deep gratitude. 恩師[おんし]に捧[ささ]げます = dedicate to my teacher. をもって marks gratitude as the sincere emotional basis of the dedication. Elevated, formal acceptance speech language."
+    },
+    {
+     "id": "wo-motte_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'The service will be terminated as of March 31'?",
+     "japanese": null,
+     "choices": [
+      "3月[がつ]31日[にち]をもって、サービスを終了[しゅうりょう]いたします。",
+      "3月[がつ]31日[にち]から、サービスを終了[しゅうりょう]いたします。",
+      "3月[がつ]31日[にち]で、サービスを終了[しゅうりょう]いたします。",
+      "3月[がつ]31日[にち]に、サービスを終了[しゅうりょう]いたします。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (date) + をもって: 3月[がつ]31日[にち] + をもって = as of March 31. サービスを終了[しゅうりょう]いたします = we will terminate the service. をもって in formal service termination announcements."
+    },
+    {
+     "id": "wo-motte_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses をもって in the 'by means of' sense (not closing)?",
+     "japanese": null,
+     "choices": [
+      "本日[ほんじつ]をもって辞任[じにん]いたします (I will resign as of today — closing)",
+      "誠心誠意[せいしんせいい]をもって対応[たいおう]する (respond with all sincerity — means)",
+      "今期[こんき]をもって廃止[はいし]する (discontinue as of this term — closing)",
+      "この試合[しあい]をもって引退[いんたい] (retire as of this match — closing)"
+     ],
+     "correctIndex": 1,
+     "explanation": "誠心誠意[せいしんせいい]をもって対応[たいおう]する = respond with all sincerity. をもって here marks sincerity as THE MEANS of response. This is the 'by means of / with' use — the quality (sincerity) is the instrument with which the action is performed."
+    },
+    {
+     "id": "wo-motte_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'The application period ends as of tomorrow'?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]をもって、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
+      "明日[あした]から、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
+      "明日[あした]で、応募期間[おうぼきかん]が終了[しゅうりょう]します。",
+      "明日[あした]に、応募期間[おうぼきかん]が終了[しゅうりょう]します。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (time) + をもって: 明日[あした] + をもって = as of tomorrow. 応募期間[おうぼきかん]が終了[しゅうりょう]します = the application period ends. をもって in formal administrative deadline announcement."
+    },
+    {
+     "id": "wo-motte_q19",
+     "type": "translation",
+     "prompt": "Which means 'We accept the proposal with full respect for your opinion'?",
+     "japanese": null,
+     "choices": [
+      "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]し、提案[ていあん]をもって対応[たいおう]いたします。",
+      "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]した提案[ていあん]で対応[たいおう]いたします。",
+      "ご意見[いけん]への十分[じゅうぶん]な尊重[そんちょう]をもって、この提案[ていあん]を受[う]け入[い]れます。",
+      "ご意見[いけん]を十分[じゅうぶん]に尊重[そんちょう]するから、提案[ていあん]を受[う]け入[い]れます。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Noun + をもって: 十分[じゅうぶん]な尊重[そんちょう] + をもって = with full respect. 提案[ていあん]を受[う]け入[い]れます = accept the proposal. をもって marks respect as the formal means/attitude with which the acceptance is made."
+    },
+    {
+     "id": "wo-motte_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'He faced adversity with courage and composure'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さをもって、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
+      "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さで、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
+      "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さから、逆境[ぎゃっきょう]に立[た]ち向[む]かった。",
+      "彼[かれ]は勇気[ゆうき]と冷静[れいせい]さによって、逆境[ぎゃっきょう]に立[た]ち向[む]かった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をもって: 勇気[ゆうき]と冷静[れいせい]さ + をもって = with courage and composure. 逆境[ぎゃっきょう]に立[た]ち向[む]かった = faced adversity. をもって marks these qualities as the instruments with which he confronted the difficulty. Formal, literary."
+    }
+   ]
+  },
+  {
+   "id": "ni-sakidatte",
+   "name": "〜に先立[さきだ]って (ni sakidatte) — prior to / in advance of / before",
+   "shortDescription": "Formal: indicates a deliberate preparatory or ceremonial action taken in advance of a significant event.",
+   "formation": "Verb (dict form) + に先立[さきだ]って  |  Noun + に先立[さきだ]って / に先立[さきだ]ち",
+   "explanation": "に先立[さきだ]って means 'prior to' — but not in the casual sense of simply happening earlier. 先立[さきだ]つ (to precede, to go before) implies that the preceding action is deliberate, preparatory, or ceremonially appropriate before the main event. 会議[かいぎ]に先立[さきだ]って、資料[しりょう]をお配[くば]りします — 'Prior to the meeting, we will distribute materials' — the distribution is presented as a formal preparatory step, not just something that happens to be scheduled first.\n\nIn contrast to 前[まえ]に (before — simple temporal sequencing), に先立[さきだ]って suggests purpose and propriety: this is what should properly be done, formally, in advance of something significant. You hear it in formal proceedings, academic settings, surgical consultations, and official ceremonies — anywhere that taking proper preparatory steps reflects care and seriousness.\n\nに先立[さきだ]ち is the slightly more compressed written form, common in formal documents and announcements. When a speaker uses に先立[さきだ]って or に先立[さきだ]ち, they are signaling that what follows is treated with appropriate gravity.",
+   "rules": [
+    "Noun + に先立[さきだ]って = prior to / in advance of [noun] (formal preparatory action before significant event)",
+    "Verb (dict) + に先立[さきだ]って = prior to [verb action] (doing X formally before the main event)",
+    "に先立[さきだ]ち = more formal, written abbreviation of に先立[さきだ]って",
+    "The preceding action is deliberate preparation or a formal preliminary — not incidental sequencing",
+    "More formal than 前[まえ]に (before — general); common in ceremonies, official settings, and formal proceedings"
+   ],
+   "examples": [
+    {
+     "japanese": "会議[かいぎ]に先立[さきだ]って、資料[しりょう]をお配[くば]りします。",
+     "romaji": "Kaigi ni sakidatte, shiryou wo okubari shimasu.",
+     "english": "Prior to the meeting, we will distribute the materials."
+    },
+    {
+     "japanese": "開幕[かいまく]に先立[さきだ]ち、主催者[しゅさいしゃ]よりご挨拶[あいさつ]申[もう]し上[あ]げます。",
+     "romaji": "Kaimaku ni sakidachi, shusaisha yori goaisatsu moushiagemasu.",
+     "english": "Prior to the opening, we will have a greeting from the organizer."
+    },
+    {
+     "japanese": "手術[しゅじゅつ]に先立[さきだ]って、詳[くわ]しい説明[せつめい]と同意書[どういしょ]へのサインが必要[ひつよう]です。",
+     "romaji": "Shujutsu ni sakidatte, kuwashii setsumei to douisho e no sain ga hitsuyou desu.",
+     "english": "Prior to the surgery, a detailed explanation and signature on a consent form are required."
+    },
+    {
+     "japanese": "本格的[ほんかくてき]な交渉[こうしょう]に先立[さきだ]って、双方[そうほう]の立場[たちば]を確認[かくにん]し合[あ]いました。",
+     "romaji": "Honkakuteki na koushou ni sakidatte, souhou no tachiba wo kakunin shiaimashita.",
+     "english": "Prior to the formal negotiations, both sides confirmed each other's positions."
+    }
+   ],
+   "flashcardHeader": "〜に先立って",
+   "flashcardAnswer": "Formal: indicates a deliberate preparatory or ceremonial action taken in advance of a significant event.",
+   "practice": [
+    {
+     "id": "ni-sakidatte_q1",
+     "type": "usage",
+     "prompt": "What does 〜に先立[さきだ]って mean?",
+     "japanese": null,
+     "choices": [
+      "after X / following X",
+      "prior to / in advance of / before X — doing something as preparation or in anticipation of X",
+      "because of X",
+      "regardless of X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜に先立[さきだ]って = prior to / in advance of. 式典[しきてん]に先立[さきだ]って、リハーサルが行[おこな]われた = prior to the ceremony, a rehearsal was held. It marks Y as happening before X and typically as preparation for X. More formal than 〜の前[まえ]に."
+    },
+    {
+     "id": "ni-sakidatte_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the opening ceremony, a welcome reception was held'?",
+     "japanese": null,
+     "choices": [
+      "開会式[かいかいしき]に先立[さきだ]って、歓迎[かんげい]レセプションが開[ひら]かれた。",
+      "開会式[かいかいしき]の前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。",
+      "開会式[かいかいしき]に先立[さきだ]ち、歓迎[かんげい]レセプションが開[ひら]かれた。",
+      "開会式[かいかいしき]より前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 開会式[かいかいしき] + に先立[さきだ]って = prior to the opening ceremony. 歓迎[かんげい]レセプションが開[ひら]かれた = a welcome reception was held. に先立[さきだ]って is more formal than の前[まえ]に."
+    },
+    {
+     "id": "ni-sakidatte_q3",
+     "type": "translation",
+     "prompt": "Which means 'Prior to the experiment, safety checks were conducted'?",
+     "japanese": null,
+     "choices": [
+      "実験[じっけん]に先立[さきだ]って、安全確認[あんぜんかくにん]が行[おこな]われた。",
+      "実験[じっけん]の前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。",
+      "実験[じっけん]に先立[さきだ]ち、安全確認[あんぜんかくにん]が行[おこな]われた。",
+      "実験[じっけん]より前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 実験[じっけん] + に先立[さきだ]って = prior to the experiment. 安全確認[あんぜんかくにん]が行[おこな]われた = safety checks were conducted. に先立[さきだ]って marks the checks as formal pre-event preparation."
+    },
+    {
+     "id": "ni-sakidatte_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the release, a preview was shown to media'?",
+     "japanese": null,
+     "choices": [
+      "発売[はつばい]に先立[さきだ]って、メディアに試写会[ししゃかい]が行[おこな]われた。",
+      "発売[はつばい]の前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。",
+      "発売[はつばい]に先立[さきだ]ち、メディアに試写会[ししゃかい]が行[おこな]われた。",
+      "発売[はつばい]より前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 発売[はつばい] + に先立[さきだ]って = prior to the release. メディアに試写会[ししゃかい]が行[おこな]われた = a preview was shown to media. に先立[さきだ]って in formal media/event announcements."
+    },
+    {
+     "id": "ni-sakidatte_q5",
+     "type": "usage",
+     "prompt": "に先立[さきだ]って vs. の前[まえ]に — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "に先立[さきだ]って is more formal/literary, often implies the preliminary action is done IN PREPARATION FOR the main event; の前[まえ]に is neutral everyday 'before X'",
+      "に先立[さきだ]って is more casual",
+      "の前[まえ]に is only for written Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "に先立[さきだ]って: formal, implies preparation or anticipatory action: 試験[しけん]に先立[さきだ]って説明[せつめい]が行[おこな]われた (an explanation was given in advance of the exam — preparatory). の前[まえ]に: neutral: 試験[しけん]の前[まえ]に説明[せつめい]があった (there was an explanation before the exam — simple sequence). に先立[さきだ]って carries the nuance of doing Y in readiness for X."
+    },
+    {
+     "id": "ni-sakidatte_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the merger, due diligence was conducted'?",
+     "japanese": null,
+     "choices": [
+      "合併[がっぺい]に先立[さきだ]って、デューデリジェンスが実施[じっし]された。",
+      "合併[がっぺい]の前[まえ]に、デューデリジェンスが実施[じっし]された。",
+      "合併[がっぺい]に先立[さきだ]ち、デューデリジェンスが実施[じっし]された。",
+      "合併[がっぺい]より前[まえ]に、デューデリジェンスが実施[じっし]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 合併[がっぺい] + に先立[さきだ]って = prior to the merger. デューデリジェンスが実施[じっし]された = due diligence was conducted. に先立[さきだ]って in formal business/legal contexts."
+    },
+    {
+     "id": "ni-sakidatte_q7",
+     "type": "translation",
+     "prompt": "Which means 'Prior to the conference, all participants submitted their papers'?",
+     "japanese": null,
+     "choices": [
+      "会議[かいぎ]に先立[さきだ]って、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
+      "会議[かいぎ]の前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
+      "会議[かいぎ]に先立[さきだ]ち、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
+      "会議[かいぎ]より前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 会議[かいぎ] + に先立[さきだ]って = prior to the conference. 論文[ろんぶん]を提出[ていしゅつ]した = submitted papers. に先立[さきだ]って marks the paper submission as formal pre-conference preparation."
+    },
+    {
+     "id": "ni-sakidatte_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to leaving Japan, he visited his parents'?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]を離[はな]れるに先立[さきだ]って、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
+      "日本[にほん]を離[はな]れる前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
+      "日本[にほん]を離[はな]れるに先立[さきだ]ち、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
+      "日本[にほん]を離[はな]れるより前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + に先立[さきだ]って: 離[はな]れる + に先立[さきだ]って = prior to leaving. 両親[りょうしん]を訪[たず]ねた = visited his parents. Verb + に先立[さきだ]って (verbal form is also acceptable): the visit is a preparatory/farewell action before departure."
+    },
+    {
+     "id": "ni-sakidatte_q9",
+     "type": "usage",
+     "prompt": "に先立[さきだ]ち vs. に先立[さきだ]って — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They have different meanings",
+      "に先立[さきだ]ち is the conjunctive form (more formal, written); に先立[さきだ]って is the te-form (also formal, slightly more natural). Both mean 'prior to X.' に先立[さきだ]ち is often seen in formal documents; に先立[さきだ]って in speeches and general formal writing",
+      "に先立[さきだ]ち is more casual",
+      "に先立[さきだ]って can only be used with nouns, regardless of context or politeness level — this is true in both spoken and written Japanese, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "に先立[さきだ]ち (conjunctive): 会議[かいぎ]に先立[さきだ]ち (prior to the meeting — formal, written). に先立[さきだ]って (te-form): 会議[かいぎ]に先立[さきだ]って (prior to the meeting — formal, somewhat natural). Both are correct; に先立[さきだ]ち appears more often in official documents and formal announcements."
+    },
+    {
+     "id": "ni-sakidatte_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the interview, the candidate prepared thoroughly'?",
+     "japanese": null,
+     "choices": [
+      "面接[めんせつ]に先立[さきだ]って、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
+      "面接[めんせつ]の前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
+      "面接[めんせつ]に先立[さきだ]ち、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
+      "面接[めんせつ]より前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 面接[めんせつ] + に先立[さきだ]って = prior to the interview. 十分[じゅうぶん]に準備[じゅんび]した = prepared thoroughly. に先立[さきだ]って marks thorough preparation as the formal anticipatory action before the interview."
+    },
+    {
+     "id": "ni-sakidatte_q11",
+     "type": "translation",
+     "prompt": "Which means 'Prior to the launch, the rocket was thoroughly inspected'?",
+     "japanese": null,
+     "choices": [
+      "打[う]ち上[あ]げに先立[さきだ]って、ロケットが詳細[しょうさい]に点検[てんけん]された。",
+      "打[う]ち上[あ]げの前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。",
+      "打[う]ち上[あ]げに先立[さきだ]ち、ロケットが詳細[しょうさい]に点検[てんけん]された。",
+      "打[う]ち上[あ]げより前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 打[う]ち上[あ]げ + に先立[さきだ]って = prior to the launch. 詳細[しょうさい]に点検[てんけん]された = was thoroughly inspected. に先立[さきだ]って in formal space/technical pre-launch procedures."
+    },
+    {
+     "id": "ni-sakidatte_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the construction, the neighborhood was notified'?",
+     "japanese": null,
+     "choices": [
+      "工事[こうじ]に先立[さきだ]って、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
+      "工事[こうじ]の前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
+      "工事[こうじ]に先立[さきだ]ち、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
+      "工事[こうじ]より前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 工事[こうじ] + に先立[さきだ]って = prior to the construction. 近隣住民[きんりんじゅうみん]に通知[つうち]された = the neighborhood was notified. に先立[さきだ]って in formal notification procedures."
+    },
+    {
+     "id": "ni-sakidatte_q13",
+     "type": "usage",
+     "prompt": "に先立[さきだ]って — does it always suggest the pre-event action is PREPARATORY?",
+     "japanese": null,
+     "choices": [
+      "No — it simply means 'before' with no further nuance — this is true in both spoken and written Japanese.",
+      "Yes — に先立[さきだ]って typically implies the Y action is done IN ANTICIPATION of or IN PREPARATION for X; it's not just neutral sequence but meaningful prelude",
+      "に先立[さきだ]って only describes simultaneous events",
+      "に先立[さきだ]って is only for negative situations"
+     ],
+     "correctIndex": 1,
+     "explanation": "に先立[さきだ]って implies purposeful prelude — Y is done in readiness or anticipation of X: 式典[しきてん]に先立[さきだ]って準備[じゅんび]する (prepare in advance of the ceremony — purposeful). の前[まえ]に is neutral sequence with no preparation nuance. に先立[さきだ]って elevates the preparatory significance of Y."
+    },
+    {
+     "id": "ni-sakidatte_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the announcement, a press briefing was held'?",
+     "japanese": null,
+     "choices": [
+      "発表[はっぴょう]に先立[さきだ]って、記者会見[きしゃかいけん]が開催[かいさい]された。",
+      "発表[はっぴょう]の前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。",
+      "発表[はっぴょう]に先立[さきだ]ち、記者会見[きしゃかいけん]が開催[かいさい]された。",
+      "発表[はっぴょう]より前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 発表[はっぴょう] + に先立[さきだ]って = prior to the announcement. 記者会見[きしゃかいけん]が開催[かいさい]された = a press briefing was held. に先立[さきだ]って in formal media/communications procedures."
+    },
+    {
+     "id": "ni-sakidatte_q15",
+     "type": "translation",
+     "prompt": "Which means 'Prior to the wedding, the couple held an engagement party'?",
+     "japanese": null,
+     "choices": [
+      "結婚式[けっこんしき]に先立[さきだ]って、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
+      "結婚式[けっこんしき]の前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
+      "結婚式[けっこんしき]に先立[さきだ]ち、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
+      "結婚式[けっこんしき]より前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 結婚式[けっこんしき] + に先立[さきだ]って = prior to the wedding. 婚約[こんやく]パーティーを開[ひら]いた = held an engagement party. に先立[さきだ]って marks the party as a formal anticipatory celebration."
+    },
+    {
+     "id": "ni-sakidatte_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the election, all candidates submitted their manifestos'?",
+     "japanese": null,
+     "choices": [
+      "選挙[せんきょ]に先立[さきだ]って、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]の前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]に先立[さきだ]ち、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]より前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 選挙[せんきょ] + に先立[さきだ]って = prior to the election. マニフェストを提出[ていしゅつ]した = submitted their manifestos. に先立[さきだ]って in formal electoral procedures."
+    },
+    {
+     "id": "ni-sakidatte_q17",
+     "type": "usage",
+     "prompt": "に先立[さきだ]って is typically used in which register?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday conversation",
+      "Formal and semi-formal contexts: official announcements, events, academic/research settings, business communications",
+      "Only for royal/imperial contexts, and the rule applies to every sentence type.",
+      "Only scientific papers"
+     ],
+     "correctIndex": 1,
+     "explanation": "に先立[さきだ]って is formal, appearing in: official event programs (式典[しきてん]に先立[さきだ]って), business announcements (発売[はつばい]に先立[さきだ]って), academic contexts (研究[けんきゅう]に先立[さきだ]って), formal ceremonies. In casual speech, 〜の前[まえ]に is used. に先立[さきだ]って elevates the formality."
+    },
+    {
+     "id": "ni-sakidatte_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the debate, the rules were explained'?",
+     "japanese": null,
+     "choices": [
+      "討論[とうろん]に先立[さきだ]って、ルールが説明[せつめい]された。",
+      "討論[とうろん]の前[まえ]に、ルールが説明[せつめい]された。",
+      "討論[とうろん]に先立[さきだ]ち、ルールが説明[せつめい]された。",
+      "討論[とうろん]より前[まえ]に、ルールが説明[せつめい]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 討論[とうろん] + に先立[さきだ]って = prior to the debate. ルールが説明[せつめい]された = the rules were explained. に先立[さきだ]って in formal procedural settings."
+    },
+    {
+     "id": "ni-sakidatte_q19",
+     "type": "translation",
+     "prompt": "Which means 'Prior to the clinical trials, the drug was extensively tested in the lab'?",
+     "japanese": null,
+     "choices": [
+      "臨床[りんしょう]試験[しけん]に先立[さきだ]って、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
+      "臨床[りんしょう]試験[しけん]の前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
+      "臨床[りんしょう]試験[しけん]に先立[さきだ]ち、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
+      "臨床[りんしょう]試験[しけん]より前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 臨床[りんしょう]試験[しけん] + に先立[さきだ]って = prior to the clinical trials. 徹底的[てっていてき]にテストされた = was extensively tested. に先立[さきだ]って in formal medical/pharmaceutical research contexts."
+    },
+    {
+     "id": "ni-sakidatte_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Prior to the summit, bilateral talks were held'?",
+     "japanese": null,
+     "choices": [
+      "首脳[しゅのう]会談[かいだん]に先立[さきだ]って、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]の前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]に先立[さきだ]ち、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]より前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に先立[さきだ]って: 首脳[しゅのう]会談[かいだん] + に先立[さきだ]って = prior to the summit. 二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた = bilateral talks were held. に先立[さきだ]って in formal diplomatic contexts."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch48_v01",
+   "partOfSpeech": "noun",
+   "kanji": "統治",
+   "kana": "とうち",
+   "romaji": "touchi",
+   "definition": "governance; rule"
+  },
+  {
+   "id": "ch48_v02",
+   "partOfSpeech": "noun",
+   "kanji": "行政",
+   "kana": "ぎょうせい",
+   "romaji": "gyousei",
+   "definition": "(public) administration"
+  },
+  {
+   "id": "ch48_v03",
+   "partOfSpeech": "noun",
+   "kanji": "官僚",
+   "kana": "かんりょう",
+   "romaji": "kanryou",
+   "definition": "bureaucrat"
+  },
+  {
+   "id": "ch48_v04",
+   "partOfSpeech": "noun",
+   "kanji": "規制",
+   "kana": "きせい",
+   "romaji": "kisei",
+   "definition": "regulation"
+  },
+  {
+   "id": "ch48_v05",
+   "partOfSpeech": "noun",
+   "kanji": "施策",
+   "kana": "しさく",
+   "romaji": "shisaku",
+   "definition": "policy; measure"
+  },
+  {
+   "id": "ch48_v06",
+   "partOfSpeech": "noun",
+   "kanji": "政権",
+   "kana": "せいけん",
+   "romaji": "seiken",
+   "definition": "administration; regime"
+  },
+  {
+   "id": "ch48_v07",
+   "partOfSpeech": "noun",
+   "kanji": "官庁",
+   "kana": "かんちょう",
+   "romaji": "kanchou",
+   "definition": "government agency"
+  },
+  {
+   "id": "ch48_v08",
+   "partOfSpeech": "noun",
+   "kanji": "省庁",
+   "kana": "しょうちょう",
+   "romaji": "shouchou",
+   "definition": "ministries and agencies"
+  },
+  {
+   "id": "ch48_v09",
+   "partOfSpeech": "noun",
+   "kanji": "自治",
+   "kana": "じち",
+   "romaji": "jichi",
+   "definition": "self-government; autonomy"
+  },
+  {
+   "id": "ch48_v10",
+   "partOfSpeech": "noun",
+   "kanji": "歳出",
+   "kana": "さいしゅつ",
+   "romaji": "saishutsu",
+   "definition": "(government) expenditure"
+  },
+  {
+   "id": "ch48_v11",
+   "partOfSpeech": "noun",
+   "kanji": "歳入",
+   "kana": "さいにゅう",
+   "romaji": "sainyuu",
+   "definition": "(government) revenue"
+  },
+  {
+   "id": "ch48_v12",
+   "partOfSpeech": "noun",
+   "kanji": "徴収",
+   "kana": "ちょうしゅう",
+   "romaji": "choushuu",
+   "definition": "collection (of taxes)"
+  },
+  {
+   "id": "ch48_v13",
+   "partOfSpeech": "noun",
+   "kanji": "納税",
+   "kana": "のうぜい",
+   "romaji": "nouzei",
+   "definition": "tax payment"
+  },
+  {
+   "id": "ch48_v14",
+   "partOfSpeech": "noun",
+   "kanji": "補償",
+   "kana": "ほしょう",
+   "romaji": "hoshou",
+   "definition": "compensation"
+  },
+  {
+   "id": "ch48_v15",
+   "partOfSpeech": "noun",
+   "kanji": "賠償",
+   "kana": "ばいしょう",
+   "romaji": "baishou",
+   "definition": "reparation; indemnity"
+  },
+  {
+   "id": "ch48_v16",
+   "partOfSpeech": "noun",
+   "kanji": "訴訟",
+   "kana": "そしょう",
+   "romaji": "soshou",
+   "definition": "lawsuit; litigation"
+  },
+  {
+   "id": "ch48_v17",
+   "partOfSpeech": "noun",
+   "kanji": "起訴",
+   "kana": "きそ",
+   "romaji": "kiso",
+   "definition": "prosecution; indictment"
+  },
+  {
+   "id": "ch48_v18",
+   "partOfSpeech": "noun",
+   "kanji": "弁護",
+   "kana": "べんご",
+   "romaji": "bengo",
+   "definition": "(legal) defense"
+  },
+  {
+   "id": "ch48_v19",
+   "partOfSpeech": "noun",
+   "kanji": "判決",
+   "kana": "はんけつ",
+   "romaji": "hanketsu",
+   "definition": "(court) verdict"
+  },
+  {
+   "id": "ch48_v20",
+   "partOfSpeech": "noun",
+   "kanji": "有罪",
+   "kana": "ゆうざい",
+   "romaji": "yuuzai",
+   "definition": "guilty"
+  },
+  {
+   "id": "ch48_v21",
+   "partOfSpeech": "noun",
+   "kanji": "無罪",
+   "kana": "むざい",
+   "romaji": "muzai",
+   "definition": "innocent; not guilty"
+  },
+  {
+   "id": "ch48_v22",
+   "partOfSpeech": "noun",
+   "kanji": "刑罰",
+   "kana": "けいばつ",
+   "romaji": "keibatsu",
+   "definition": "punishment; penalty"
+  },
+  {
+   "id": "ch48_v23",
+   "partOfSpeech": "noun",
+   "kanji": "拘束",
+   "kana": "こうそく",
+   "romaji": "kousoku",
+   "definition": "restraint; detention"
+  },
+  {
+   "id": "ch48_v24",
+   "partOfSpeech": "noun",
+   "kanji": "権限",
+   "kana": "けんげん",
+   "romaji": "kengen",
+   "definition": "authority; jurisdiction"
+  },
+  {
+   "id": "ch48_v25",
+   "partOfSpeech": "noun",
+   "kanji": "主権",
+   "kana": "しゅけん",
+   "romaji": "shuken",
+   "definition": "sovereignty"
+  },
+  {
+   "id": "ch48_v26",
+   "partOfSpeech": "noun",
+   "kanji": "統一",
+   "kana": "とういつ",
+   "romaji": "touitsu",
+   "definition": "unification"
+  },
+  {
+   "id": "ch48_v27",
+   "partOfSpeech": "noun",
+   "kanji": "連携",
+   "kana": "れんけい",
+   "romaji": "renkei",
+   "definition": "cooperation; linkage"
+  },
+  {
+   "id": "ch48_v28",
+   "partOfSpeech": "noun",
+   "kanji": "協定",
+   "kana": "きょうてい",
+   "romaji": "kyoutei",
+   "definition": "agreement; pact"
+  },
+  {
+   "id": "ch48_v29",
+   "partOfSpeech": "noun",
+   "kanji": "条約",
+   "kana": "じょうやく",
+   "romaji": "jouyaku",
+   "definition": "treaty"
+  },
+  {
+   "id": "ch48_v30",
+   "partOfSpeech": "noun",
+   "kanji": "批准",
+   "kana": "ひじゅん",
+   "romaji": "hijun",
+   "definition": "ratification"
+  },
+  {
+   "id": "ch48_v31",
+   "partOfSpeech": "noun",
+   "kanji": "同盟",
+   "kana": "どうめい",
+   "romaji": "doumei",
+   "definition": "alliance"
+  },
+  {
+   "id": "ch48_v32",
+   "partOfSpeech": "noun",
+   "kanji": "制裁",
+   "kana": "せいさい",
+   "romaji": "seisai",
+   "definition": "sanctions"
+  },
+  {
+   "id": "ch48_v33",
+   "partOfSpeech": "noun",
+   "kanji": "紛争",
+   "kana": "ふんそう",
+   "romaji": "funsou",
+   "definition": "conflict; dispute"
+  },
+  {
+   "id": "ch48_v34",
+   "partOfSpeech": "noun",
+   "kanji": "情勢",
+   "kana": "じょうせい",
+   "romaji": "jousei",
+   "definition": "situation; state of affairs"
+  },
+  {
+   "id": "ch48_v35",
+   "partOfSpeech": "noun",
+   "kanji": "立法",
+   "kana": "りっぽう",
+   "romaji": "rippou",
+   "definition": "legislation"
+  },
+  {
+   "id": "ch48_v36",
+   "partOfSpeech": "noun",
+   "kanji": "司法",
+   "kana": "しほう",
+   "romaji": "shihou",
+   "definition": "the judiciary"
+  },
+  {
+   "id": "ch48_v37",
+   "partOfSpeech": "noun",
+   "kanji": "官民",
+   "kana": "かんみん",
+   "romaji": "kanmin",
+   "definition": "the public and private sectors"
+  },
+  {
+   "id": "ch48_v38",
+   "partOfSpeech": "noun",
+   "kanji": "選挙権",
+   "kana": "せんきょけん",
+   "romaji": "senkyoken",
+   "definition": "suffrage; the right to vote"
+  },
+  {
+   "id": "ch48_v39",
+   "partOfSpeech": "noun",
+   "kanji": "議決",
+   "kana": "ぎけつ",
+   "romaji": "giketsu",
+   "definition": "resolution; decision"
+  },
+  {
+   "id": "ch48_v40",
+   "partOfSpeech": "noun",
+   "kanji": "発令",
+   "kana": "はつれい",
+   "romaji": "hatsurei",
+   "definition": "official issuance (of an order)"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "慎",
+   "word": "慎む",
+   "reading": "つつしむ",
+   "meaning": "to be discreet, refrain"
+  },
+  {
+   "char": "匂",
+   "word": "匂い",
+   "reading": "におい",
+   "meaning": "smell, scent, aroma"
+  },
+  {
+   "char": "膝",
+   "word": "膝",
+   "reading": "ひざ",
+   "meaning": "knee, lap"
+  },
+  {
+   "char": "唇",
+   "word": "唇",
+   "reading": "くちびる",
+   "meaning": "lips"
+  },
+  {
+   "char": "遮",
+   "word": "遮る",
+   "reading": "さえぎる",
+   "meaning": "to block, interrupt"
+  },
+  {
+   "char": "抑",
+   "word": "抑える",
+   "reading": "おさえる",
+   "meaning": "to hold down, suppress"
+  },
+  {
+   "char": "卑",
+   "word": "卑",
+   "reading": "いやしい",
+   "meaning": "lowly"
+  },
+  {
+   "char": "賠",
+   "word": "賠償",
+   "reading": "ばいしょう",
+   "meaning": "reparation; indemnity"
+  },
+  {
+   "char": "償",
+   "word": "補償",
+   "reading": "ほしょう",
+   "meaning": "compensation"
+  },
+  {
+   "char": "覇",
+   "word": "覇",
+   "reading": "は",
+   "meaning": "supremacy"
+  },
+  {
+   "char": "塊",
+   "word": "塊",
+   "reading": "かたまり",
+   "meaning": "lump, mass"
+  },
+  {
+   "char": "窟",
+   "word": "窟",
+   "reading": "くつ",
+   "meaning": "cave"
+  },
+  {
+   "char": "峠",
+   "word": "峠",
+   "reading": "とうげ",
+   "meaning": "mountain pass, peak (of a crisis)"
+  },
+  {
+   "char": "覆",
+   "word": "覆う",
+   "reading": "おおう",
+   "meaning": "to cover, conceal"
+  },
+  {
+   "char": "蔑",
+   "word": "蔑む",
+   "reading": "さげすむ",
+   "meaning": "to despise, look down on"
+  },
+  {
+   "char": "儀",
+   "word": "儀",
+   "reading": "ぎ",
+   "meaning": "ceremony"
+  },
+  {
+   "char": "擁",
+   "word": "擁",
+   "reading": "よう",
+   "meaning": "embrace"
+  },
+  {
+   "char": "凹",
+   "word": "凹",
+   "reading": "おう",
+   "meaning": "concave"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "慎む",
+   "kana": "つつしむ",
+   "romaji": "tsutsushimu",
+   "meaning": "to be discreet, refrain",
+   "chars": [
+    "慎"
+   ]
+  },
+  {
+   "word": "匂い",
+   "kana": "におい",
+   "romaji": "nioi",
+   "meaning": "smell, scent, aroma",
+   "chars": [
+    "匂"
+   ]
+  },
+  {
+   "word": "膝",
+   "kana": "ひざ",
+   "romaji": "hiza",
+   "meaning": "knee, lap",
+   "chars": [
+    "膝"
+   ]
+  },
+  {
+   "word": "唇",
+   "kana": "くちびる",
+   "romaji": "kuchibiru",
+   "meaning": "lips",
+   "chars": [
+    "唇"
+   ]
+  },
+  {
+   "word": "遮る",
+   "kana": "さえぎる",
+   "romaji": "saegiru",
+   "meaning": "to block, interrupt",
+   "chars": [
+    "遮"
+   ]
+  },
+  {
+   "word": "抑える",
+   "kana": "おさえる",
+   "romaji": "osaeru",
+   "meaning": "to hold down, suppress",
+   "chars": [
+    "抑"
+   ]
+  },
+  {
+   "word": "卑",
+   "kana": "いやしい",
+   "romaji": "iyashii",
+   "meaning": "lowly",
+   "chars": [
+    "卑"
+   ]
+  },
+  {
+   "word": "賠償",
+   "kana": "ばいしょう",
+   "romaji": "baishou",
+   "meaning": "reparation; indemnity",
+   "chars": [
+    "賠",
+    "償"
+   ]
+  },
+  {
+   "word": "補償",
+   "kana": "ほしょう",
+   "romaji": "hoshou",
+   "meaning": "compensation",
+   "chars": [
+    "補",
+    "償"
+   ]
+  },
+  {
+   "word": "覇",
+   "kana": "は",
+   "romaji": "ha",
+   "meaning": "supremacy",
+   "chars": [
+    "覇"
+   ]
+  },
+  {
+   "word": "塊",
+   "kana": "かたまり",
+   "romaji": "katamari",
+   "meaning": "lump, mass",
+   "chars": [
+    "塊"
+   ]
+  },
+  {
+   "word": "窟",
+   "kana": "くつ",
+   "romaji": "kutsu",
+   "meaning": "cave",
+   "chars": [
+    "窟"
+   ]
+  },
+  {
+   "word": "峠",
+   "kana": "とうげ",
+   "romaji": "touge",
+   "meaning": "mountain pass, peak (of a crisis)",
+   "chars": [
+    "峠"
+   ]
+  },
+  {
+   "word": "覆う",
+   "kana": "おおう",
+   "romaji": "oou",
+   "meaning": "to cover, conceal",
+   "chars": [
+    "覆"
+   ]
+  },
+  {
+   "word": "蔑む",
+   "kana": "さげすむ",
+   "romaji": "sagesumu",
+   "meaning": "to despise, look down on",
+   "chars": [
+    "蔑"
+   ]
+  },
+  {
+   "word": "儀",
+   "kana": "ぎ",
+   "romaji": "gi",
+   "meaning": "ceremony",
+   "chars": [
+    "儀"
+   ]
+  },
+  {
+   "word": "擁",
+   "kana": "よう",
+   "romaji": "you",
+   "meaning": "embrace",
+   "chars": [
+    "擁"
+   ]
+  },
+  {
+   "word": "凹",
+   "kana": "おう",
+   "romaji": "ou",
+   "meaning": "concave",
+   "chars": [
+    "凹"
+   ]
+  },
+  {
+   "word": "卑劣",
+   "kana": "ひれつ",
+   "romaji": "hiretsu",
+   "meaning": "mean, base",
+   "chars": [
+    "卑"
+   ]
+  },
+  {
+   "word": "代償",
+   "kana": "だいしょう",
+   "romaji": "daishou",
+   "meaning": "compensation",
+   "chars": [
+    "代",
+    "償"
+   ]
+  },
+  {
+   "word": "礼儀",
+   "kana": "れいぎ",
+   "romaji": "reigi",
+   "meaning": "manners",
+   "chars": [
+    "礼",
+    "儀"
+   ]
+  },
+  {
+   "word": "行儀",
+   "kana": "ぎょうぎ",
+   "romaji": "gyougi",
+   "meaning": "manners",
+   "chars": [
+    "行",
+    "儀"
+   ]
+  },
+  {
+   "word": "起訴",
+   "kana": "きそ",
+   "romaji": "kiso",
+   "meaning": "prosecution",
+   "chars": [
+    "起"
+   ]
+  },
+  {
+   "word": "政権",
+   "kana": "せいけん",
+   "romaji": "seiken",
+   "meaning": "(political) administration",
+   "chars": [
+    "政",
+    "権"
+   ]
+  },
+  {
+   "word": "議決",
+   "kana": "ぎけつ",
+   "romaji": "giketsu",
+   "meaning": "resolution",
+   "chars": [
+    "議",
+    "決"
+   ]
+  },
+  {
+   "word": "連携",
+   "kana": "れんけい",
+   "romaji": "renkei",
+   "meaning": "cooperation",
+   "chars": [
+    "連"
+   ]
+  },
+  {
+   "word": "選挙権",
+   "kana": "せんきょけん",
+   "romaji": "senkyoken",
+   "meaning": "suffrage",
+   "chars": [
+    "選",
+    "権"
+   ]
+  },
+  {
+   "word": "制裁",
+   "kana": "せいさい",
+   "romaji": "seisai",
+   "meaning": "sanctions",
+   "chars": [
+    "制"
+   ]
+  },
+  {
+   "word": "権限",
+   "kana": "けんげん",
+   "romaji": "kengen",
+   "meaning": "power",
+   "chars": [
+    "権",
+    "限"
+   ]
+  },
+  {
+   "word": "判決",
+   "kana": "はんけつ",
+   "romaji": "hanketsu",
+   "meaning": "judicial decision",
+   "chars": [
+    "判",
+    "決"
+   ]
+  },
+  {
+   "word": "官僚",
+   "kana": "かんりょう",
+   "romaji": "kanryou",
+   "meaning": "bureaucrat",
+   "chars": [
+    "官"
+   ]
+  },
+  {
+   "word": "官庁",
+   "kana": "かんちょう",
+   "romaji": "kanchou",
+   "meaning": "government office",
+   "chars": [
+    "官",
+    "庁"
+   ]
+  },
+  {
+   "word": "官民",
+   "kana": "かんみん",
+   "romaji": "kanmin",
+   "meaning": "government and people",
+   "chars": [
+    "官",
+    "民"
+   ]
+  },
+  {
+   "word": "情勢",
+   "kana": "じょうせい",
+   "romaji": "jousei",
+   "meaning": "state of things",
+   "chars": [
+    "情",
+    "勢"
+   ]
+  },
+  {
+   "word": "歳入",
+   "kana": "さいにゅう",
+   "romaji": "sainyuu",
+   "meaning": "annual revenue (government)",
+   "chars": [
+    "歳",
+    "入"
+   ]
+  },
+  {
+   "word": "歳出",
+   "kana": "さいしゅつ",
+   "romaji": "saishutsu",
+   "meaning": "annual expenditure",
+   "chars": [
+    "歳",
+    "出"
+   ]
+  },
+  {
+   "word": "規制",
+   "kana": "きせい",
+   "romaji": "kisei",
+   "meaning": "regulation",
+   "chars": [
+    "規",
+    "制"
+   ]
+  },
+  {
+   "word": "協定",
+   "kana": "きょうてい",
+   "romaji": "kyoutei",
+   "meaning": "arrangement",
+   "chars": [
+    "協",
+    "定"
+   ]
+  },
+  {
+   "word": "省庁",
+   "kana": "しょうちょう",
+   "romaji": "shouchou",
+   "meaning": "ministries and government offices",
+   "chars": [
+    "省",
+    "庁"
+   ]
+  }
+ ]
 }

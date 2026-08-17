@@ -38,8 +38,43 @@ class CardStore: ObservableObject {
     init() {
         loadPersistedData()
         migrateKanjiIdsToCharacters()
+        migrateKanjiCharsToWords()
         excludedKanjiIds = data.excludedKanji
         loadAllCards()
+    }
+
+    /// Moves per-character progress onto the chapter's primary *word* for that
+    /// character, now that lessons and decks deal kanji words. 高 checked off
+    /// becomes 高い checked off — the exact form the chapter taught, so nothing
+    /// the user cleared comes back as "new".
+    ///
+    /// Character entries are left in place: the kanji lookup table still shows
+    /// per-character state, and clearing them would lose it.
+    private func migrateKanjiCharsToWords() {
+        let flag = "KanjiProgressOnWordsV1"
+        guard !UserDefaults.standard.bool(forKey: flag) else { return }
+        defer { UserDefaults.standard.set(true, forKey: flag) }
+
+        LessonsService.shared.loadIfNeeded()
+        var map: [String: String] = [:]   // char -> primary word id
+        for entry in LessonsService.shared.allKanjiEntries() {
+            map[entry.char] = "kw:\(entry.word)|\(entry.reading)"
+        }
+        guard !map.isEmpty else { return }
+
+        var moved = 0
+        for (char, wordId) in map {
+            if data.excludedKanji.contains(char), !data.excludedKanji.contains(wordId) {
+                data.excludedKanji.insert(wordId); moved += 1
+            }
+            if let n = data.needsWorkCounts[char], data.needsWorkCounts[wordId] == nil {
+                data.needsWorkCounts[wordId] = n; moved += 1
+            }
+            if let n = data.confidentCounts[char], data.confidentCounts[wordId] == nil {
+                data.confidentCounts[wordId] = n; moved += 1
+            }
+        }
+        if moved > 0 { persist() }
     }
 
     /// Moves progress saved under the old random `kanjiId` onto the character.
@@ -69,7 +104,6 @@ class CardStore: ObservableObject {
             }
             if data.excludedKanji.remove(old) != nil { data.excludedKanji.insert(new); moved += 1 }
         }
-        SRSStore.shared.migrateKanjiKeys(map)
         if moved > 0 { persist() }
     }
 
@@ -301,28 +335,6 @@ class CardStore: ObservableObject {
 
     // MARK: - Filtered Lists
 
-    /// Applies the study filter (levels, chosen kanji, favorites). `applyChecks`
-    /// additionally drops checked-off cards — the study pool skips that step so
-    /// it can decide per item, letting a kanji's words survive the kanji itself
-    /// being checked off.
-    func filteredKanjiCards(filter: StudyFilter, applyChecks: Bool = true) -> [KanjiCard] {
-        var cards = kanjiCards
-        if !filter.selectedLevels.isEmpty {
-            cards = cards.filter { filter.selectedLevels.contains($0.nLevel) }
-        }
-        if let kf = filter as? KanjiFilter, !kf.selectedKanjiIds.isEmpty {
-            cards = cards.filter { kf.selectedKanjiIds.contains($0.id) }
-        }
-        if filter.showFavoritesOnly {
-            let favs = cards.filter(\.isFavorite)
-            if !favs.isEmpty { cards = favs }
-        }
-        if applyChecks, StudyWeightSettings.shared.filtersOutCheckedCards {
-            cards = cards.filter { !excludedKanjiIds.contains($0.id) }
-        }
-        return pinNumberKanji(cards)
-    }
-
     /// Every kanji, number kanji pinned to the front — no study filter applied.
     /// Used by the Kanji lookup screen, which is driven only by its own search bar.
     func allKanjiCards() -> [KanjiCard] {
@@ -345,46 +357,16 @@ class CardStore: ObservableObject {
 
     // MARK: - Kanji study pool (kanji + their example words)
 
-    /// The example words belonging to `cards`, de-duplicated. Each word carries
-    /// every kanji card it appears under, so the flashcard can show them as tabs.
-    func wordCards(from cards: [KanjiCard]) -> [KanjiWordCard] {
-        var seen = Set<String>()
-        var out: [KanjiWordCard] = []
-        for card in cards {
-            for word in card.commonWords {
-                let id = KanjiWordCard.id(for: word)
-                guard !seen.contains(id) else { continue }
-                seen.insert(id)
-                let parents = wordParents[id] ?? [card.id]
-                // Easiest parent (N5 = 5) — where a learner meets the word first.
-                let level = parents.compactMap { kanjiCard(id: $0)?.nLevel }.max() ?? card.nLevel
-                out.append(KanjiWordCard(word: word, parentIds: parents, nLevel: level))
-            }
-        }
-        return out
-    }
-
-    /// Builds the full study pool from a set of base kanji: the kanji themselves,
-    /// plus their example words when that option is on. Checked-off cards drop
-    /// out only in No-Priority mode, matching the rest of the app.
-    /// Everything in the set, before checkmarks retire any of it — the deck's
-    /// full size, which doesn't shrink as you check cards off.
-    func kanjiStudySet(from cards: [KanjiCard]) -> [KanjiStudyItem] {
-        var items = cards.map { KanjiStudyItem.kanji($0) }
-        if KanjiStudySettings.shared.includeCommonWords {
-            items += wordCards(from: cards).map { KanjiStudyItem.word($0) }
-        }
-        return items
-    }
-
-    func kanjiStudyPool(from cards: [KanjiCard]) -> [KanjiStudyItem] {
-        let items = kanjiStudySet(from: cards)
-        guard StudyWeightSettings.shared.filtersOutCheckedCards else { return items }
-        return items.filter { !excludedKanjiIds.contains($0.id) }
-    }
-
-    func selectWeightedKanjiItem(from items: [KanjiStudyItem]) -> KanjiStudyItem? {
-        StudyWeightSettings.shared.pick(items) { needsWorkCount(forId: $0.id) }
+    /// A chapter kanji word as a study item, linked to every kanji card it
+    /// contains. The `KanjiWordCard` id matches the entry's, so checkmarks and
+    /// weights carry over unchanged.
+    func wordItem(from entry: ChapterKanjiWord) -> KanjiStudyItem {
+        let parents = entry.chars.compactMap { kanjiCard(for: $0)?.id }
+        let level = entry.chars.compactMap { kanjiCard(for: $0)?.nLevel }.max() ?? 5
+        let word = KanjiCommonWord(kanji: entry.word, kana: entry.kana,
+                                   romaji: entry.romaji, meaning: entry.meaning,
+                                   essential: true)
+        return .word(KanjiWordCard(word: word, parentIds: parents, nLevel: level))
     }
 
     /// The deck's own draw: same weighting, but it won't repeat the card just

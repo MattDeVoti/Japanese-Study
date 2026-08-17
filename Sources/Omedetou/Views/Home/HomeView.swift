@@ -56,7 +56,6 @@ struct HomeView: View {
                 // tool you use to prepare, not as an obligation of their own.
                 VStack(spacing: 8) {
                     ExamHomeCard()
-                    ReviewHomeCard()
                 }
                 // Match the tiles exactly. The square grid carries an extra inset,
                 // so without this the bars overhang the buttons they sit above.
@@ -204,7 +203,6 @@ struct HomeOptionsSheet: View {
     @ObservedObject private var unlocks = GameUnlocks.shared
     @ObservedObject private var cloud = CloudSyncService.shared
     @ObservedObject private var speech = SpeechService.shared
-    @ObservedObject private var srs = SRSStore.shared
     @ObservedObject private var reminders = NotificationService.shared
     @ObservedObject private var textSize = TextSizeSettings.shared
     @ObservedObject private var exams = ExamStore.shared
@@ -324,14 +322,14 @@ struct HomeOptionsSheet: View {
                 Section {
                     Toggle(isOn: $reminders.isEnabled) {
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("Offer me a daily practice round")
+                            Text("Remind me to study each day")
                             Text("Off unless you want it")
                                 .font(.system(size: 12))
                                 .foregroundColor(.appTextSecondary)
                         }
                     }
                     if reminders.isEnabled {
-                        DatePicker("Remind me at",
+                        DatePicker("Daily reminder at",
                                    selection: Binding(
                                     get: {
                                         var c = DateComponents()
@@ -342,7 +340,7 @@ struct HomeOptionsSheet: View {
                                     set: { newValue in
                                         let c = Calendar.current.dateComponents([.hour, .minute],
                                                                                from: newValue)
-                                        reminders.reminderMinutes = (c.hour ?? 19) * 60 + (c.minute ?? 0)
+                                        reminders.reminderMinutes = (c.hour ?? 12) * 60 + (c.minute ?? 30)
                                     }),
                                    displayedComponents: .hourAndMinute)
                         if reminders.authorization == .denied {
@@ -351,19 +349,10 @@ struct HomeOptionsSheet: View {
                                 .foregroundColor(.orange)
                         }
                     }
-
-                    if srs.enrolledCount > 0 {
-                        HStack {
-                            Text("Items in rotation")
-                            Spacer()
-                            Text("\(srs.enrolledCount)")
-                                .foregroundColor(.appTextSecondary)
-                        }
-                    }
                 } header: {
-                    Label("Practice", systemImage: "bolt.fill")
+                    Label("Study reminder", systemImage: "bell.fill")
                 } footer: {
-                    Text("A practice round is a handful of cards drawn from the grammar, words and kanji you’ve been getting wrong — the app keeps track quietly and picks for you. Turn the nudge on if a daily prompt helps; it never counts anything at you, and practice is there whenever you want it either way.")
+                    Text("A daily nudge to spend a few minutes on whatever your next test covers. Tapping it opens that chapter. It never counts anything at you, and the chapter is there whenever you want it either way.")
                 }
 
                 Section {
@@ -393,6 +382,36 @@ struct HomeOptionsSheet: View {
                                 .foregroundColor(.appTextSecondary)
                         }
                     }
+
+                    Toggle(isOn: $reminders.testRemindersEnabled) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Remind me before a test")
+                            Text("Off unless you want it")
+                                .font(.system(size: 12))
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                    if reminders.testRemindersEnabled {
+                        DatePicker("Test reminder at",
+                                   selection: Binding(
+                                    get: {
+                                        var c = DateComponents()
+                                        c.hour = reminders.testReminderMinutes / 60
+                                        c.minute = reminders.testReminderMinutes % 60
+                                        return Calendar.current.date(from: c) ?? Date()
+                                    },
+                                    set: { newValue in
+                                        let c = Calendar.current.dateComponents([.hour, .minute],
+                                                                               from: newValue)
+                                        reminders.testReminderMinutes = (c.hour ?? 7) * 60 + (c.minute ?? 0)
+                                    }),
+                                   displayedComponents: .hourAndMinute)
+                        if reminders.authorization == .denied {
+                            Text("Notifications are turned off for Omedetou in iOS Settings.")
+                                .font(.system(size: 12))
+                                .foregroundColor(.orange)
+                        }
+                    }
                     NavigationLink {
                         ReportCardView()
                     } label: {
@@ -401,7 +420,7 @@ struct HomeOptionsSheet: View {
                 } header: {
                     Label("Tests", systemImage: "graduationcap.fill")
                 } footer: {
-                    Text("Each test is due this many days after you finish the previous one — so sitting one early moves the next deadline earlier too. Miss a deadline and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.")
+                    Text("Each test is due this many days after you finish the previous one — so sitting one early moves the next deadline earlier too. Miss a deadline and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.\n\nReminders start a few days before a deadline and stop the moment you sit the test. Nothing arrives once a deadline has passed.")
                 }
 
                 Section {
@@ -472,8 +491,6 @@ struct HomeOptionsSheet: View {
                         Text("No Japanese voice is installed on this device. Add one in Settings ▸ Accessibility ▸ Spoken Content ▸ Voices ▸ Japanese.")
                     }
                 }
-
-                VocalOptionsSection()
 
                 // Only shown once something has actually been found — listing it
                 // beforehand would give away that there are games to look for.
@@ -764,35 +781,6 @@ private extension HomeOptionsSheet {
 
 
 
-// MARK: - Vocal flashcard options
-
-/// Broken out of the options sheet so the settings that govern a spoken session
-/// live next to each other rather than three hundred lines apart.
-private struct VocalOptionsSection: View {
-    @ObservedObject private var vocal = VocalStudySettings.shared
-
-    var body: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 6) {
-                HStack {
-                    Text("Time to answer")
-                    Spacer()
-                    Text("\(Int(vocal.answerSeconds)) seconds")
-                        .foregroundColor(.appTextSecondary)
-                        .monospacedDigit()
-                }
-                Slider(value: $vocal.answerSeconds,
-                       in: VocalStudySettings.secondsRange,
-                       step: 1)
-                    .tint(.appAccent)
-            }
-        } header: {
-            Label("Audio Flash Cards", systemImage: "waveform.and.mic")
-        } footer: {
-            Text("How long the microphone stays open after each word is read out. Answering early moves straight on, so a longer window only costs you when you're stuck.")
-        }
-    }
-}
 
 
 

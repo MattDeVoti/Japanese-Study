@@ -148,7 +148,8 @@ struct VocalFlashcardsView: View {
         }
         .sheet(isPresented: $showFilter) {
             VocabFilterSheet(filter: filter, allCards: allCards,
-                             copyFromFlashcards: { filter.copyFromFlashcards() })
+                             copyFromFlashcards: { filter.copyFromFlashcards() },
+                             showsAudioOptions: true)
         }
         // A sheet doesn't stop the view behind it, so without this the mic would
         // keep listening — and the session keep advancing — behind the filter.
@@ -820,13 +821,6 @@ struct VocalFlashcardsView: View {
         filter.addWeights(marked.map {
             (wordId: $0.card.word.id, confident: $0.right, needsWork: $0.wrong + $0.skips)
         })
-
-        // One grade per word, not one per answer: the schedule is about when to
-        // see the word next, and it only needs to know how the session went.
-        for row in marked {
-            let confident = (marks[row.key] ?? .leave) == .confident
-            SRSStore.shared.grade(.vocab(row.card.word.id), confident ? .good : .again)
-        }
 
         // Checkmarks belong to a direction: knowing 食[た]べる → "to eat" says
         // nothing about producing 食[た]べる from "to eat". A Random run mixes

@@ -1,1672 +1,2026 @@
 {
-  "id": "ch15",
-  "chapterNumber": 17,
-  "title": "Planning Ahead",
-  "points": [
+ "id": "ch15",
+ "chapterNumber": 17,
+ "title": "Planning Ahead",
+ "points": [
+  {
+   "id": "te-oku",
+   "name": "〜ておく (te oku) — do in advance / leave as is",
+   "shortDescription": "Do something now so the future is taken care of — preparation, or deliberately leaving something as is.",
+   "formation": "Verb (て-form) + おく / おきます",
+   "explanation": "〜ておく is the grammar of a well-prepared person. The core idea: you do something now so that a future situation is better, easier, or taken care of. The おく comes from the verb おく (to place/leave), so the image is 'do it and set it down for later.' 旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます: 'I'll make a hotel reservation ahead of time.' The reservation is done now so the future trip goes smoothly.\n\nThe second meaning follows the same 'leaving' logic but in reverse: deliberately leaving something in its current state. ドアを開[あ]けておいてください (Please leave the door open) — don't change it from what it is. The intentionality is key: 〜ておく is never passive or accidental. It's always a conscious choice.\n\nIn casual speech, 〜ておく contracts to 〜とく: 買[か]っておく → 買[か]っとく, しておく → しとく, 言[い]っておく → 言[い]っとく. You'll hear this constantly in everyday conversation, so train your ear to recognize it. In writing and formal contexts, use the full form.\n\nGrammatically: おく is a Group 1 verb, so the full construction conjugates through おく — ておきます (polite), ておきました (past), ておいて (て-form), ておかない (negative).",
+   "rules": [
+    "Verb (て-form) + おく = do X in advance / prepare by doing X",
+    "Secondary meaning: leave X in its current state deliberately",
+    "Casual contraction: 〜ておく → 〜とく (買[か]っとく, しとく) — very common in speech",
+    "おく is a Group 1 verb: ておきます, ておきました, ておいて, ておかない",
+    "Always conveys intentionality — the action has a clear future purpose"
+   ],
+   "examples": [
     {
-      "id": "te-oku",
-      "name": "〜ておく (te oku) — do in advance / leave as is",
-      "shortDescription": "Do something now so the future is taken care of — preparation, or deliberately leaving something as is.",
-      "formation": "Verb (て-form) + おく / おきます",
-      "explanation": "〜ておく is the grammar of a well-prepared person. The core idea: you do something now so that a future situation is better, easier, or taken care of. The おく comes from the verb おく (to place/leave), so the image is 'do it and set it down for later.' 旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます: 'I'll make a hotel reservation ahead of time.' The reservation is done now so the future trip goes smoothly.\n\nThe second meaning follows the same 'leaving' logic but in reverse: deliberately leaving something in its current state. ドアを開[あ]けておいてください (Please leave the door open) — don't change it from what it is. The intentionality is key: 〜ておく is never passive or accidental. It's always a conscious choice.\n\nIn casual speech, 〜ておく contracts to 〜とく: 買[か]っておく → 買[か]っとく, しておく → しとく, 言[い]っておく → 言[い]っとく. You'll hear this constantly in everyday conversation, so train your ear to recognize it. In writing and formal contexts, use the full form.\n\nGrammatically: おく is a Group 1 verb, so the full construction conjugates through おく — ておきます (polite), ておきました (past), ておいて (て-form), ておかない (negative).",
-      "rules": [
-        "Verb (て-form) + おく = do X in advance / prepare by doing X",
-        "Secondary meaning: leave X in its current state deliberately",
-        "Casual contraction: 〜ておく → 〜とく (買[か]っとく, しとく) — very common in speech",
-        "おく is a Group 1 verb: ておきます, ておきました, ておいて, ておかない",
-        "Always conveys intentionality — the action has a clear future purpose"
-      ],
-      "examples": [
-        {
-          "japanese": "旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます。",
-          "romaji": "Ryokou no mae ni hoteru wo yoyaku shite okimasu.",
-          "english": "I'll make a hotel reservation before the trip."
-        },
-        {
-          "japanese": "パーティーのために、食[た]べ物[もの]を買[か]っておきました。",
-          "romaji": "Paatii no tame ni, tabemono wo katte okimashita.",
-          "english": "I bought food in advance for the party."
-        },
-        {
-          "japanese": "寒[さむ]いから、窓[まど]を閉[し]めておいてください。",
-          "romaji": "Samui kara, mado wo shimete oite kudasai.",
-          "english": "It's cold, so please keep the window closed."
-        },
-        {
-          "japanese": "後[あと]で確認[かくにん]するから、そのファイルを残[のこ]しといて。",
-          "romaji": "Ato de kakunin suru kara, sono fairu wo nokoshitoite.",
-          "english": "Leave that file there because I'll check it later."
-        }
-      ],
-      "flashcardHeader": "〜ておく",
-      "flashcardAnswer": "Do X in advance or leave X as is — preparation or deliberate non-change.",
-      "practice": [
-        {
-          "id": "te-oku_q1",
-          "type": "usage",
-          "prompt": "Which sentence means 'I'll study in advance before the exam'?",
-          "japanese": null,
-          "choices": [
-            "試験[しけん]の前[まえ]に勉強[べんきょう]しておきます。",
-            "試験[しけん]の前[まえ]に勉強[べんきょう]してみます。",
-            "試験[しけん]の前[まえ]に勉強[べんきょう]してしまいます。",
-            "試験[しけん]の前[まえ]に勉強[べんきょう]してきます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ておく = do X now so the future is taken care of (preparation). 勉強[べんきょう]しておきます = I'll study ahead of time so I'm ready for the exam. 〜てみる = try doing; 〜てしまう = do completely/regrettably; 〜てくる = go and do then return."
-        },
-        {
-          "id": "te-oku_q2",
-          "type": "translation",
-          "prompt": "Which sentence means 'Please leave the window open'?",
-          "japanese": null,
-          "choices": [
-            "窓[まど]を開[あ]けてください。",
-            "窓[まど]を開[あ]けておいてください。",
-            "窓[まど]を開[あ]けてみてください。",
-            "窓[まど]を閉[し]めておいてください。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ておく has a second meaning: deliberately leave X in its current state. 開[あ]けておいてください = please keep it in the open state (don't change it). 開[あ]けてください (choice 0) simply means 'please open it' with no 'keep it that way' nuance."
-        },
-        {
-          "id": "te-oku_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete the sentence.",
-          "japanese": "寒[さむ]いから、コートを___おいてください。",
-          "choices": [
-            "着[き]る",
-            "着[ちゃく]ます",
-            "着[き]て",
-            "着[き]た"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜ておく requires the て-form of the preceding verb. 着[き]る (to wear) → て-form: 着[き]て. So 着[き]ておいてください = please keep your coat on (leave it in the worn state). Dictionary, polite, and past forms cannot attach directly to おく."
-        },
-        {
-          "id": "te-oku_q4",
-          "type": "translation",
-          "prompt": "Which sentence means 'I bought the ingredients in advance for tonight's dinner'?",
-          "japanese": null,
-          "choices": [
-            "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]いませんでした。",
-            "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]ってみました。",
-            "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]ってきました。",
-            "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]っておきました。"
-          ],
-          "correctIndex": 3,
-          "explanation": "〜ておきました is the past polite form of 〜ておく. 買[か]っておきました = I bought  in advance (preparation done earlier for future benefit). 〜てみました = tried buying; 〜てきました = went and bought then came back."
-        },
-        {
-          "id": "te-oku_q5",
-          "type": "translation",
-          "prompt": "Which sentence means 'Please make a restaurant reservation in advance'?",
-          "japanese": null,
-          "choices": [
-            "レストランを予約[よやく]しておいてください。",
-            "レストランを予約[よやく]してみてください。",
-            "レストランを予約[よやく]してしまってください。",
-            "レストランを予約[よやく]しないでください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ておいてください = please do X in advance / please do X and leave it done. This is the 〜ておく + ください construction for polite requests about preparatory action. 予約[よやく]しておいてください = please book it ahead of time."
-        },
-        {
-          "id": "te-oku_q6",
-          "type": "usage",
-          "prompt": "Which of the following is the correct casual spoken contraction of 読[よ]んでおく?",
-          "japanese": null,
-          "choices": [
-            "読[よ]んとく",
-            "読[よ]んどく",
-            "読[よ]みとく",
-            "読[よ]んおく"
-          ],
-          "correctIndex": 1,
-          "explanation": "When the て-form ends in 〜んで (voiced), the casual contraction becomes 〜んどく (voiced). So 読[よ]む → 読[よ]んで + おく → 読[よ]んどく. When the て-form ends in unvoiced 〜て (e.g., 書[か]いて), it becomes 〜とく (書[か]いとく). The voicing carries over."
-        },
-        {
-          "id": "te-oku_q7",
-          "type": "usage",
-          "prompt": "Which sentence uses 〜てある rather than 〜ておく to describe a result left by someone (focus on existing state, not on who did it)?",
-          "japanese": null,
-          "choices": [
-            "ドアを開[あ]けておきます。",
-            "晩[ばん]ご飯[はん]を作[つく]っておきました。",
-            "黒板[こくばん]に宿題[しゅくだい]が書[か]いてあります。",
-            "試験[しけん]のためにノートをまとめておきます。"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜てある describes a resulting state — something is in a certain condition because someone did it (focus on the state, not the doer). 黒板[こくばん]に宿題[しゅくだい]が書[か]いてあります = the homework is written on the board . 〜ておく by contrast emphasizes the speaker's intentional action for a future purpose."
-        },
-        {
-          "id": "te-oku_q8",
-          "type": "usage",
-          "prompt": "Which sentence expresses regret or finality about completing something, rather than preparation for the future?",
-          "japanese": null,
-          "choices": [
-            "辞書[じしょ]を買[か]っておきました。",
-            "レポートを書[か]いておきます。",
-            "電話番号[でんわばんごう]を覚[おぼ]えておいてください。",
-            "ケーキを全部[ぜんぶ]食[た]べてしまいました。"
-          ],
-          "correctIndex": 3,
-          "explanation": "〜てしまう expresses that something was done completely, often with a sense of regret or irreversibility. 食[た]べてしまいました = I ate it all up (done, possibly regrettable). 〜ておく (choices 0, 1, 2) expresses preparation for future benefit — the opposite nuance."
-        },
-        {
-          "id": "te-oku_q9",
-          "type": "translation",
-          "prompt": "Which sentence means 'I had already noted down his phone number in advance'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の電話番号[でんわばんごう]をメモしておきました。",
-            "彼[かれ]の電話番号[でんわばんごう]をメモしてみました。",
-            "彼[かれ]の電話番号[でんわばんごう]をメモしてきました。",
-            "彼[かれ]の電話番号[でんわばんごう]をメモしていました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ておきました = past polite of 〜ておく. メモしておきました = I noted it down in advance (intentional preparation). 〜ていました (choice 3) means 'I was in the middle of noting it' — a different grammar describing an action in progress, not preparation."
-        },
-        {
-          "id": "te-oku_q10",
-          "type": "usage",
-          "prompt": "Which is the plain-form negative of 〜ておく (meaning 'not do in advance')?",
-          "japanese": null,
-          "choices": [
-            "ておかなかった",
-            "ておかない",
-            "ておきません",
-            "ていない"
-          ],
-          "correctIndex": 1,
-          "explanation": "The plain-form negative of 〜ておく is 〜ておかない. This is formed from おく → おかない (negative plain). 〜ておきません is the polite negative. 〜ておかなかった is the plain past negative. 〜ていない uses a completely different grammar pattern (〜ている negative)."
-        },
-        {
-          "id": "te-oku_q11",
-          "type": "usage",
-          "prompt": "A student wants to say 'I'll review my notes before the test.' Which sentence is most natural?",
-          "japanese": null,
-          "choices": [
-            "テストの前[まえ]にノートを復習[ふくしゅう]してみます。",
-            "テストの前[まえ]にノートを復習[ふくしゅう]してしまいます。",
-            "テストの前[まえ]にノートを復習[ふくしゅう]しておきます。",
-            "テストの前[まえ]にノートを復習[ふくしゅう]してきます。"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜ておく = preparation for a future event. 復習[ふくしゅう]しておきます is most natural — I'll review in advance so I'm prepared for the test. 〜てみる (choice 0) implies trying it to see what happens; 〜てしまう (choice 1) implies completing it (with possible regret)."
-        },
-        {
-          "id": "te-oku_q12",
-          "type": "translation",
-          "prompt": "You want to tell someone 'Keep the door locked.' Which is correct?",
-          "japanese": null,
-          "choices": [
-            "ドアを鍵[かぎ]をかけてください。",
-            "ドアに鍵[かぎ]をかけてみてください。",
-            "ドアに鍵[かぎ]をかけてもいいです。",
-            "ドアに鍵[かぎ]をかけておいてください。"
-          ],
-          "correctIndex": 3,
-          "explanation": "ておいてください = please do X and maintain that state / please keep it that way. 鍵[かぎ]をかけておいてください = please lock it and keep it locked (leave it in the locked state). ていてください would work too, but ておいてください naturally conveys the 'leave as is' nuance."
-        },
-        {
-          "id": "te-oku_q13",
-          "type": "translation",
-          "prompt": "Which question asks 'Did you prepare the meeting materials in advance?'",
-          "japanese": null,
-          "choices": [
-            "会議[かいぎ]の資料[しりょう]を準備[じゅんび]しておきましたか。",
-            "会議[かいぎ]の資料[しりょう]を準備[じゅんび]しましたか。",
-            "会議[かいぎ]の資料[しりょう]を準備[じゅんび]していますか。",
-            "会議[かいぎ]の資料[しりょう]を準備[じゅんび]してみましたか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ておきましたか = past polite question asking whether X was done in advance (as preparation). Choice 1 (準備[じゅんび]しましたか) simply asks whether it was done — no preparatory nuance. Choice 2 asks if they're currently preparing. The ておく adds the 'did you get it done ahead of time?' implication."
-        },
-        {
-          "id": "te-oku_q14",
-          "type": "usage",
-          "prompt": "Which sentence best expresses leaving dinner out intentionally for someone coming home later?",
-          "japanese": null,
-          "choices": [
-            "夕飯[ゆうはん]を食[た]べてしまいました。",
-            "夕飯[ゆうはん]を出[だ]しておきました。",
-            "夕飯[ゆうはん]を出[だ]してきました。",
-            "夕飯[ゆうはん]を出[だ]してみました。"
-          ],
-          "correctIndex": 1,
-          "explanation": "出[だ]しておきました = I set the dinner out and left it there (the 'leave as is' or 'preparation' meaning of ておく). The food is left out intentionally. 〜てしまう (choice 0) means finished/ate it; 〜てくる implies coming back after doing something elsewhere; 〜てみる = tried doing."
-        },
-        {
-          "id": "te-oku_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete the sentence.",
-          "japanese": "パーティーの会場[かいじょう]を___おきます。",
-          "choices": [
-            "予約[よやく]する",
-            "予約[よやく]します",
-            "予約[よやく]して",
-            "予約[よやく]した"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜ておく requires the て-form of the preceding verb. 予約[よやく]する → て-form: 予約[よやく]して + おきます = I'll book the venue in advance. 予約[よやく]する (dictionary form), 予約[よやく]します (polite form), and 予約[よやく]した (past form) cannot directly precede おく."
-        },
-        {
-          "id": "te-oku_q16",
-          "type": "translation",
-          "prompt": "Which sentence means 'Leave that chair exactly as it is; don't move it'?",
-          "japanese": null,
-          "choices": [
-            "その椅子[いす]を動[うご]かしてください。",
-            "その椅子[いす]を動[うご]かしておいてください。",
-            "その椅子[いす]を片[かた]づけておいてください。",
-            "その椅子[いす]をそのままにしておいてください。"
-          ],
-          "correctIndex": 3,
-          "explanation": "そのままにしておく = leave something as-is (the deliberate 'leave in current state' meaning of ておく). そのままにしておいてください = please keep it exactly as it is. Choice 1 (動[うご]かしておく) = move it and leave it moved — the opposite meaning!"
-        },
-        {
-          "id": "te-oku_q17",
-          "type": "usage",
-          "prompt": "Which is the correct casual spoken contraction of 見[み]ておく?",
-          "japanese": null,
-          "choices": [
-            "見[み]とく",
-            "見[み]どく",
-            "見[けん]おく",
-            "見[み]ておかない"
-          ],
-          "correctIndex": 0,
-          "explanation": "見[み]る → 見[み]て + おく. When the て-form ends in unvoiced 〜て, the casual contraction is 〜とく. So 見[み]ておく → 見[み]とく. Voiced て-forms (〜んで, 〜いで) become 〜どく (e.g., 読[よ]んどく, 急[いそ]いどく). 見[み]どく (choice 1) incorrectly voices it."
-        },
-        {
-          "id": "te-oku_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete the sentence.",
-          "japanese": "友達[ともだち]に連絡[れんらく]を___おきます。",
-          "choices": [
-            "入[い]れる",
-            "入[い]れて",
-            "入[い]れた",
-            "入[い]れます"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ておく requires the て-form. 入[い]れる (to make contact / put in) → て-form: 入[い]れて + おきます = I'll contact my friend in advance. Dictionary, past, and polite forms cannot precede おく. The て-form is the only valid connector."
-        },
-        {
-          "id": "te-oku_q19",
-          "type": "usage",
-          "prompt": "Which best explains the difference between 〜ておく and 〜てみる?",
-          "japanese": null,
-          "choices": [
-            "〜ておく means you regret doing something; 〜てみる means you do it on purpose.",
-            "〜ておく means you try something experimentally; 〜てみる means you prepare in advance.",
-            "〜ておく means you do something for future benefit; 〜てみる means you try something to see what happens.",
-            "〜ておく and 〜てみる are interchangeable in most contexts."
-          ],
-          "correctIndex": 2,
-          "explanation": "〜ておく = do for a future purpose or preparation. 〜てみる = try doing to find out the result (experimental). 食[た]べておく (eat in advance, before you get hungry) vs 食[た]べてみる (try eating it to see how it tastes). They are not interchangeable."
-        },
-        {
-          "id": "te-oku_q20",
-          "type": "usage",
-          "prompt": "What is the difference between 電気[でんき]をつけてある and 電気[でんき]をつけておく?",
-          "japanese": null,
-          "choices": [
-            "They are identical — てある and ておく are interchangeable.",
-            "てある = I turned the light on intentionally; ておく = someone else turned it on — this is true in both spoken and written Japanese.",
-            "てある = the action is in progress; ておく = the action is completed.",
-            "てある = the light is on (resulting state, focus on state); ておく = I'll turn the light on for a future purpose (focus on intentional prep)."
-          ],
-          "correctIndex": 3,
-          "explanation": "〜てある describes a resulting state — the light is on, focusing on that current condition (the person who did it is unspecified or background). 〜ておく focuses on the speaker's intentional act of doing X in preparation for something. Same surface reality; different speaker perspective and purpose."
-        }
-      ]
+     "japanese": "旅行[りょこう]の前[まえ]にホテルを予約[よやく]しておきます。",
+     "romaji": "Ryokou no mae ni hoteru wo yoyaku shite okimasu.",
+     "english": "I'll make a hotel reservation before the trip."
     },
     {
-      "id": "volitional",
-      "name": "Volitional form — 〜よう / 〜しよう (let's / I will)",
-      "shortDescription": "The plain-speech 'let's' and 'I will' — the casual equivalent of 〜ましょう.",
-      "formation": "Group 2: stem + よう  |  Group 1: change final syllable to お-row + う  |  する → しよう  |  くる → こよう",
-      "explanation": "The volitional form is the plain-speech version of 〜ましょう, which you already know. 食[た]べましょう is polite; 食[た]べよう is casual. Both mean \"let's eat\" or \"I'm going to eat.\" The volitional also expresses the speaker's own resolve — a decision made in the moment: もう寝[ね]よう。(I'm going to sleep now.) That self-directed \"I will\" nuance is something ましょう lacks.\n\nFormation follows a clean pattern:\n- Group 2 (る-verbs): drop る, add よう — 食[た]べる → 食[た]べよう\n- Group 1 (う-verbs): shift the final syllable from the う-row to the お-row, then add う — 書[か]く → 書[か]こう, 飲[の]む → 飲[の]もう, 話[はな]す → 話[はな]そう, 帰[かえ]る → 帰[かえ]ろう\n- Irregular: する → しよう、くる → こよう\n\nThe volitional is essential for two compound patterns:\n- 〜ようと思[おも]っている: \"I'm thinking of doing X\" — a tentative plan you're mulling over.\n- 〜ようとする: \"try to do X\" / \"be about to do X.\" 電話[でんわ]しようとしたら、バッテリーが切[き]れていた (Just as I tried to call, the battery died).",
-      "rules": [
-        "Group 2 (ru-verb): stem + よう (食[た]べる → 食[た]べよう)",
-        "Group 1 (u-verb): shift to お-row + う (書[か]く→書[か]こう, 飲[の]む→飲[の]もう, 話[はな]す→話[はな]そう)",
-        "Irregular: する → しよう; くる → こよう",
-        "Plain equivalent of ましょう — also expresses the speaker's own resolve",
-        "〜ようと思[おも]っている = I'm thinking of doing X (tentative plan)",
-        "〜ようとする = try to do X / be on the verge of doing X"
-      ],
-      "examples": [
-        {
-          "japanese": "さあ、始[はじ]めよう！",
-          "romaji": "Saa, hajimeyou!",
-          "english": "Alright, let's start!"
-        },
-        {
-          "japanese": "来年[らいねん]、日本語[にほんご]の試験[しけん]を受[う]けようと思[おも]っています。",
-          "romaji": "Rainen, nihongo no shiken wo ukeyou to omotte imasu.",
-          "english": "I'm thinking of taking the Japanese exam next year."
-        },
-        {
-          "japanese": "もう寝[ね]よう。明日[あした]も早[はや]い。",
-          "romaji": "Mou neyou. Ashita mo hayai.",
-          "english": "Let's sleep now. We have to be up early tomorrow too."
-        },
-        {
-          "japanese": "電話[でんわ]しようとしたら、バッテリーが切[き]れていた。",
-          "romaji": "Denwa shiyou to shitara, batterii ga kirete ita.",
-          "english": "Just as I tried to call, the battery had died."
-        }
-      ],
-      "flashcardHeader": "Volitional form",
-      "flashcardAnswer": "The plain volitional form — 'let's do X' or 'I'm going to do X' (casual equivalent of ましょう).",
-      "practice": [
-        {
-          "id": "volitional_q1",
-          "type": "construct",
-          "prompt": "What is the volitional form of 書[か]く (to write)?",
-          "japanese": null,
-          "choices": [
-            "書[か]こう",
-            "書[か]けう",
-            "書[か]くよう",
-            "書[か]かう"
-          ],
-          "correctIndex": 0,
-          "explanation": "Group 1 く-verb: change く to こ + う. 書[か]く → 書[か]こう = let's write / I'll write."
-        },
-        {
-          "id": "volitional_q2",
-          "type": "construct",
-          "prompt": "What is the volitional form of 食[た]べる (to eat)?",
-          "japanese": null,
-          "choices": [
-            "食[た]べろう",
-            "食[た]べよう",
-            "食[た]べうよ",
-            "食[た]べおう"
-          ],
-          "correctIndex": 1,
-          "explanation": "Group 2 ru-verb: drop る + よう. 食[た]べる → 食[た]べよう = let's eat / I'll eat."
-        },
-        {
-          "id": "volitional_q3",
-          "type": "construct",
-          "prompt": "What is the volitional form of する (to do)?",
-          "japanese": null,
-          "choices": [
-            "すよう",
-            "しろう",
-            "しよう",
-            "するよう"
-          ],
-          "correctIndex": 2,
-          "explanation": "Irregular verb: する → しよう. This must be memorized as an exception."
-        },
-        {
-          "id": "volitional_q4",
-          "type": "translation",
-          "prompt": "Which sentence means 'Let's go together' (polite invitation)?",
-          "japanese": null,
-          "choices": [
-            "一緒[いっしょ]に行[い]こう。",
-            "一緒[いっしょ]に行[い]くよう。",
-            "一緒[いっしょ]に行[い]くましょう。",
-            "一緒[いっしょ]に行[い]きましょう。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Polite volitional (invitation): masu-stem + ましょう. 行[い]く → 行[い]き + ましょう = 行[い]きましょう. Plain 行[い]こう is casual."
-        },
-        {
-          "id": "volitional_q5",
-          "type": "construct",
-          "prompt": "What is the volitional form of 飲[の]む (to drink)?",
-          "japanese": null,
-          "choices": [
-            "飲[の]もう",
-            "飲[の]めう",
-            "飲[の]みよう",
-            "飲[の]むよう"
-          ],
-          "correctIndex": 0,
-          "explanation": "Group 1 む-verb: change む to も + う. 飲[の]む → 飲[の]もう = let's drink."
-        },
-        {
-          "id": "volitional_q6",
-          "type": "construct",
-          "prompt": "What is the volitional form of 起[お]きる (to wake up)?",
-          "japanese": null,
-          "choices": [
-            "起[お]きろう",
-            "起[お]きよう",
-            "起[お]きうよ",
-            "起[お]きおう"
-          ],
-          "correctIndex": 1,
-          "explanation": "Group 2 ru-verb: drop る + よう. 起[お]きる → 起[お]きよう = let's get up / I'll get up."
-        },
-        {
-          "id": "volitional_q7",
-          "type": "construct",
-          "prompt": "What is the volitional form of くる (to come)?",
-          "japanese": null,
-          "choices": [
-            "くるよう",
-            "くよう",
-            "こよう",
-            "きよう"
-          ],
-          "correctIndex": 2,
-          "explanation": "Irregular verb: くる → こよう. Both する and くる are irregular and must be memorized."
-        },
-        {
-          "id": "volitional_q8",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 財布[さいふ]を___としたら、お金[かね]がなかった。(When I tried to pay, there was no money.)",
-          "japanese": "財布[さいふ]を___としたら、お金[かね]がなかった。",
-          "choices": [
-            "払[はら]う",
-            "払[はら]って",
-            "払[はら]った",
-            "払[はら]おう"
-          ],
-          "correctIndex": 3,
-          "explanation": "Volitional + とする = tried to / was about to do. 払[はら]う → 払[はら]おう + とした = tried to pay. This pattern describes an attempted or interrupted action."
-        },
-        {
-          "id": "volitional_q9",
-          "type": "translation",
-          "prompt": "Which sentence means 'I'm thinking of studying Japanese'?",
-          "japanese": null,
-          "choices": [
-            "日本語[にほんご]を勉強[べんきょう]しようと思[おも]っています。",
-            "日本語[にほんご]を勉強[べんきょう]するようと思[おも]っています。",
-            "日本語[にほんご]を勉強[べんきょう]してと思[おも]っています。",
-            "日本語[にほんご]を勉強[べんきょう]したようと思[おも]っています。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Volitional + と思[おも]っている = ongoing intention. 勉強[べんきょう]する → 勉強[べんきょう]しよう + と思[おも]っています = I'm thinking of studying."
-        },
-        {
-          "id": "volitional_q10",
-          "type": "construct",
-          "prompt": "What is the volitional form of 話[はな]す (to speak)?",
-          "japanese": null,
-          "choices": [
-            "話[はな]しよう",
-            "話[はな]そう",
-            "話[はな]すよう",
-            "話[はな]せう"
-          ],
-          "correctIndex": 1,
-          "explanation": "Group 1 す-verb: change す to そ + う. 話[はな]す → 話[はな]そう = let's speak / I'll speak."
-        },
-        {
-          "id": "volitional_q11",
-          "type": "construct",
-          "prompt": "What is the volitional form of 帰[かえ]る (to go home)?",
-          "japanese": null,
-          "choices": [
-            "帰[かえ]りよう",
-            "帰[かえ]るよう",
-            "帰[かえ]ろう",
-            "帰[かえ]れう"
-          ],
-          "correctIndex": 2,
-          "explanation": "帰[かえ]る is a Group 1 verb (despite ending in る): change る to ろ + う. 帰[かえ]る → 帰[かえ]ろう = let's go home."
-        },
-        {
-          "id": "volitional_q12",
-          "type": "usage",
-          "prompt": "Which sentence is WRONG for expressing 'I think I'll go to bed early tonight'?",
-          "japanese": null,
-          "choices": [
-            "今夜[こんや]は早[はや]く寝[ね]ようと思[おも]います。",
-            "今夜[こんや]は早[はや]く寝[ね]ようと思[おも]っています。",
-            "今夜[こんや]は早[はや]く寝[ね]ようかなと思[おも]っています。",
-            "今夜[こんや]は早[はや]く寝[ね]るようと思[おも]います。"
-          ],
-          "correctIndex": 3,
-          "explanation": "寝[ね]るよう (dictionary form + よう) is the PURPOSE form (in order to), not the volitional. The volitional is 寝[ね]よう. 寝[ね]るようと思[おも]います is a common mix-up between purpose ように and volitional よう."
-        },
-        {
-          "id": "volitional_q13",
-          "type": "translation",
-          "prompt": "Which sentence means 'Let's do our best!' (casual, self-encouragement)?",
-          "japanese": null,
-          "choices": [
-            "頑張[がんば]ろう！",
-            "頑張[がんば]りましょうか！",
-            "頑張[がんば]ろうとする！",
-            "頑張[がんば]るよう！"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain volitional for casual self-motivation or peer encouragement. 頑張[がんば]る (Group 1) → 頑張[がんば]ろう. 頑張[がんば]りましょう is also correct but more formal/polite."
-        },
-        {
-          "id": "volitional_q14",
-          "type": "construct",
-          "prompt": "What is the volitional form of 待[ま]つ (to wait)?",
-          "japanese": null,
-          "choices": [
-            "待[ま]てう",
-            "待[ま]とう",
-            "待[ま]ちよう",
-            "待[ま]つよう"
-          ],
-          "correctIndex": 1,
-          "explanation": "Group 1 つ-verb: change つ to と + う. 待[ま]つ → 待[ま]とう = let's wait."
-        },
-        {
-          "id": "volitional_q15",
-          "type": "usage",
-          "prompt": "Your friend suggests going to the movies. Which is the most natural casual agreement?",
-          "japanese": null,
-          "choices": [
-            "行[い]きましょう！",
-            "行[い]くようにしよう！",
-            "いいね、行[い]こう！",
-            "行[い]くことにしよう！"
-          ],
-          "correctIndex": 2,
-          "explanation": "For casual mutual agreement or invitation, plain volitional 行[い]こう is most natural. 行[い]きましょう is grammatically correct but sounds more formal. いいね (sounds good) + 行[い]こう is the natural casual combination."
-        },
-        {
-          "id": "volitional_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。(I was about to leave the house when the phone rang.)",
-          "japanese": "家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。",
-          "choices": [
-            "て",
-            "た",
-            "る",
-            "よう"
-          ],
-          "correctIndex": 3,
-          "explanation": "Volitional + とする = was about to do. 出[で]る → 出[で]よう + とした = was about to leave. The volitional form before とする describes an interrupted or attempted action."
-        },
-        {
-          "id": "volitional_q17",
-          "type": "construct",
-          "prompt": "What is the volitional form of 行[い]く (to go)?",
-          "japanese": null,
-          "choices": [
-            "行[い]こう",
-            "行[い]けう",
-            "行[い]くよう",
-            "行[い]きよう"
-          ],
-          "correctIndex": 0,
-          "explanation": "Group 1 く-verb: く changes to こ + う. 行[い]く → 行[い]こう = let's go / I'll go."
-        },
-        {
-          "id": "volitional_q18",
-          "type": "usage",
-          "prompt": "Which of these is NOT a valid use of the volitional form?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり]で頑張[がんば]ろう (I'll do my best alone)",
-            "食[た]べようです (I will eat — polite)",
-            "食[た]べようとする (try to eat)",
-            "食[た]べようと思[おも]う (think I'll eat)"
-          ],
-          "correctIndex": 1,
-          "explanation": "Volitional + です is NOT grammatical. The polite form for invitations is 〜ましょう. 食[た]べようです is a common error; the correct polite equivalent is 食[た]べましょう or 食[た]べようと思[おも]います."
-        },
-        {
-          "id": "volitional_q19",
-          "type": "translation",
-          "prompt": "Which sentence means 'Shall we take a break?' (polite, to a colleague)?",
-          "japanese": null,
-          "choices": [
-            "休[やす]もう。",
-            "休[やす]むよう。",
-            "休[やす]みましょうか。",
-            "休[やす]もうか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Polite invitation/suggestion: masu-stem + ましょうか. 休[やす]む → 休[やす]み + ましょうか = Shall we rest? ましょうか is more polite than plain 休[やす]もうか (which is casual)."
-        },
-        {
-          "id": "volitional_q20",
-          "type": "usage",
-          "prompt": "You spontaneously decide to take a different route. Which sentence best expresses this on-the-spot decision?",
-          "japanese": null,
-          "choices": [
-            "この道[みち]にしようとする。",
-            "この道[みち]にすることにした。",
-            "この道[みち]にしようとした。",
-            "この道[みち]にしよう。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Plain volitional (しよう) expresses a spontaneous decision or intention. 〜ことにした = deliberately decided (more planned); 〜しようとする = is trying to/about to (in progress)."
-        }
-      ]
+     "japanese": "パーティーのために、食[た]べ物[もの]を買[か]っておきました。",
+     "romaji": "Paatii no tame ni, tabemono wo katte okimashita.",
+     "english": "I bought food in advance for the party."
     },
     {
-      "id": "yotei",
-      "name": "〜予定[よてい]だ (yotei da) — scheduled to / planned to",
-      "shortDescription": "States a fixed, pre-arranged plan or schedule — more official than personal intention.",
-      "formation": "Verb (plain form) + 予定[よてい]です  |  Noun + の + 予定[よてい]です",
-      "explanation": "予定[よてい] is 'schedule' as a noun, and 〜予定[よてい]です turns it into a grammar pattern meaning 'it is planned/scheduled that.' The feel is official and external: the plan exists as something on a calendar or itinerary, not just as a personal wish.\n\nCompare the two main ways to talk about future plans. 〜つもりです expresses personal intention — what you've decided in your own mind: 来年[らいねん]、日本語[にほんご]を勉強[べんきょう]するつもりです (I intend to study Japanese next year — that's my personal plan). 〜予定[よてい]です expresses a scheduled or pre-arranged event: 来週[らいしゅう]、東京[とうきょう]へ出張[しゅっちょう]する予定[よてい]です (I'm scheduled to travel to Tokyo next week — it's on the calendar). The line: つもり is your internal decision; 予定[よてい] is an external arrangement.\n\nFormation: verb in plain form + 予定[よてい]です, or noun + の + 予定[よてい]. 予定[よてい] also stands alone as a noun — 明日[あした]の予定[よてい] (tomorrow's schedule), 何[なに]か予定[よてい]はありますか (Do you have any plans?).\n\nIn Japanese workplace and social contexts, 予定[よてい] is everywhere: meeting invitations, project timelines, event announcements. Mastering this word unlocks a huge amount of everyday communication about time and coordination.",
-      "rules": [
-        "Verb (plain form) + 予定[よてい]です = it is planned/scheduled to do X",
-        "Noun + の + 予定[よてい] = plans/schedule for [noun] (旅行[りょこう]の予定[よてい] = travel plans)",
-        "More 'fixed' or 'official' than 〜つもり — refers to pre-arranged or scheduled events",
-        "予定[よてい] alone is a versatile noun: 明日[あした]の予定[よてい] (tomorrow's schedule), 予定[よてい]がある (have plans)",
-        "Question form: 何[なに]か予定[よてい]はありますか = Do you have any plans?"
-      ],
-      "examples": [
-        {
-          "japanese": "来週[らいしゅう]、大阪[おおさか]へ出張[しゅっちょう]する予定[よてい]です。",
-          "romaji": "Raishuu, Oosaka e shutchou suru yotei desu.",
-          "english": "I'm scheduled to go on a business trip to Osaka next week."
-        },
-        {
-          "japanese": "明日[あした]の午後[ごご]は何[なに]か予定[よてい]がありますか。",
-          "romaji": "Ashita no gogo wa nanika yotei ga arimasu ka.",
-          "english": "Do you have any plans for tomorrow afternoon?"
-        },
-        {
-          "japanese": "会議[かいぎ]は三時[さんじ]から始[はじ]まる予定[よてい]です。",
-          "romaji": "Kaigi wa sanji kara hajimaru yotei desu.",
-          "english": "The meeting is scheduled to start at three."
-        },
-        {
-          "japanese": "今年中[ことしじゅう]に新[あたら]しいアパートに引越[ひっこ]す予定[よてい]です。",
-          "romaji": "Kotoshi juu ni atarashii apaato ni hikkosu yotei desu.",
-          "english": "I'm planning to move to a new apartment by the end of this year."
-        }
-      ],
-      "flashcardHeader": "〜予定だ",
-      "flashcardAnswer": "States a fixed, pre-arranged plan or schedule — more official than personal intention.",
-      "practice": [
-        {
-          "id": "yotei_q1",
-          "type": "construct",
-          "prompt": "How do you express 'I am scheduled to meet a friend tomorrow' using 予定[よてい]?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]、友達[ともだち]に会[あ]う予定[よてい]です。",
-            "明日[あした]、友達[ともだち]に会[あ]った予定[よてい]です。",
-            "明日[あした]、友達[ともだち]に会[あ]い予定[よてい]です。",
-            "明日[あした]、友達[ともだち]の予定[よてい]です。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + 予定[よてい]です = scheduled/planned to do. 会[あ]う (dict-form) + 予定[よてい]です = am scheduled to meet. Never use た-form (past) before 予定[よてい] for a future plan."
-        },
-        {
-          "id": "yotei_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 来週[らいしゅう]は会議[かいぎ]___予定[よてい]があります。(There is a meeting planned next week.)",
-          "japanese": "来週[らいしゅう]は会議[かいぎ]___予定[よてい]があります。",
-          "choices": [
-            "が",
-            "の",
-            "を",
-            "で"
-          ],
-          "correctIndex": 1,
-          "explanation": "Noun + の + 予定[よてい] = plan/schedule for . 会議[かいぎ]の予定[よてい] = meeting schedule. の connects the noun to 予定[よてい]."
-        },
-        {
-          "id": "yotei_q3",
-          "type": "usage",
-          "prompt": "Which phrase correctly means 'I have no plans to go abroad'?",
-          "japanese": null,
-          "choices": [
-            "海外[かいがい]に行[い]く予定[よてい]がありました。",
-            "海外[かいがい]に行[い]かない予定[よてい]があります。",
-            "海外[かいがい]に行[い]く予定[よてい]はありません。",
-            "海外[かいがい]に行[い]く予定[よてい]ではありません。"
-          ],
-          "correctIndex": 2,
-          "explanation": "予定[よてい]はありません = there is no plan to do . The は+ない form naturally negates the existence of a plan. 海外[かいがい]に行[い]く予定[よてい]はありません = I have no plans to go abroad."
-        },
-        {
-          "id": "yotei_q4",
-          "type": "construct",
-          "prompt": "How do you ask 'Do you have plans to visit Japan?'",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]に来[く]る予定[よてい]があれば？",
-            "日本[にほん]に来[く]る予定[よてい]でしたか？",
-            "日本[にほん]に来[く]る予定[よてい]があれますか？",
-            "日本[にほん]に来[く]る予定[よてい]はありますか？"
-          ],
-          "correctIndex": 3,
-          "explanation": "〜予定[よてい]はありますか = Do you have plans to ? は marks the topic and ありますか asks about its existence. This is the standard way to inquire about someone's schedule."
-        },
-        {
-          "id": "yotei_q5",
-          "type": "usage",
-          "prompt": "Your trip was cancelled. Which sentence correctly describes the original plan?",
-          "japanese": null,
-          "choices": [
-            "旅行[りょこう]に行[い]く予定[よてい]でしたが、キャンセルされました。",
-            "旅行[りょこう]に行[い]く予定[よてい]ですが、キャンセルされました。",
-            "旅行[りょこう]に行[い]く予定[よてい]でしたから、キャンセルされました。",
-            "旅行[りょこう]に行[い]った予定[よてい]でしたが、キャンセルされました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Past tense 予定[よてい]でした = was scheduled to (but may not have happened). 〜予定[よてい]でしたが = was scheduled to, but... implies the plan was disrupted. が connects to the contrasting outcome."
-        },
-        {
-          "id": "yotei_q6",
-          "type": "usage",
-          "prompt": "Which is MOST appropriate for a firm, externally fixed appointment (dentist at 3pm)?",
-          "japanese": null,
-          "choices": [
-            "3時[じ]に歯医者[はいしゃ]に行[い]こうと思[おも]っています。",
-            "3時[じ]に歯医者[はいしゃ]に行[い]く予定[よてい]です。",
-            "3時[じ]に歯医者[はいしゃ]に行[い]くつもりです。",
-            "3時[じ]に歯医者[はいしゃ]に行[い]くかもしれません。"
-          ],
-          "correctIndex": 1,
-          "explanation": "予定[よてい] is best for fixed, calendar-level appointments. つもり = personal intention; と思[おも]っている = vaguer idea; かもしれない = uncertainty. A confirmed appointment is most precisely expressed with 予定[よてい]."
-        },
-        {
-          "id": "yotei_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 来年[らいねん]の春[はる]、大学[だいがく]を___予定[よてい]です。(I'm scheduled to graduate from university next spring.)",
-          "japanese": "来年[らいねん]の春[はる]、大学[だいがく]を___予定[よてい]です。",
-          "choices": [
-            "卒業[そつぎょう]した",
-            "卒業[そつぎょう]して",
-            "卒業[そつぎょう]する",
-            "卒業[そつぎょう]します"
-          ],
-          "correctIndex": 2,
-          "explanation": "Dict-form (plain non-past) + 予定[よてい]です for future scheduled events. 卒業[そつぎょう]する (dict-form) + 予定[よてい]です = scheduled to graduate. た-form or て-form before 予定[よてい] would be incorrect here."
-        },
-        {
-          "id": "yotei_q8",
-          "type": "translation",
-          "prompt": "In a business email, how would you write 'The meeting is scheduled for 2pm'?",
-          "japanese": null,
-          "choices": [
-            "会議[かいぎ]を2時[じ]にしようと思[おも]います。",
-            "会議[かいぎ]は2時[じ]のつもりです。",
-            "会議[かいぎ]は2時[じ]の予定[よてい]があります。",
-            "会議[かいぎ]は2時[じ]の予定[よてい]です。"
-          ],
-          "correctIndex": 3,
-          "explanation": "In business Japanese, 〜の予定[よてい]です is standard for schedules. 会議[かいぎ]は2時[じ]の予定[よてい]です = the meeting is scheduled for 2pm. This is formal and unambiguous."
-        },
-        {
-          "id": "yotei_q9",
-          "type": "construct",
-          "prompt": "How do you say 'The manager plans to attend the ceremony'?",
-          "japanese": null,
-          "choices": [
-            "部長[ぶちょう]は式[しき]に出席[しゅっせき]する予定[よてい]です。",
-            "部長[ぶちょう]は式[しき]に出席[しゅっせき]した予定[よてい]です。",
-            "部長[ぶちょう]は式[しき]の出席[しゅっせき]予定[よてい]です。",
-            "部長[ぶちょう]が式[しき]に出席[しゅっせき]するつもりです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + 予定[よてい]です for a scheduled action. 出席[しゅっせき]する (attend, dict-form) + 予定[よてい]です = is scheduled to attend. 予定[よてい] is preferred over つもり for formal/business announcements about official plans."
-        },
-        {
-          "id": "yotei_q10",
-          "type": "usage",
-          "prompt": "Which sentence naturally combines a conditional with 予定[よてい]?",
-          "japanese": null,
-          "choices": [
-            "予定[よてい]があったら、連絡[れんらく]してください。",
-            "天気[てんき]が良[よ]かったら、外[そと]で食[た]べる予定[よてい]です。",
-            "予定[よてい]じゃなかったら、来[き]てください。",
-            "明日[あした]の予定[よてい]が何[なに]かあれば、教[おし]えてください。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜たら、〜予定[よてい]です chains a condition with a scheduled plan. If the weather is good, we plan to eat outside. Conditionals naturally combine with 予定[よてい] to describe contingent plans."
-        },
-        {
-          "id": "yotei_q11",
-          "type": "translation",
-          "prompt": "How would you politely ask a colleague 'What are your plans for this weekend?'",
-          "japanese": null,
-          "choices": [
-            "この週末[しゅうまつ]は何[なん]の計画[けいかく]がありますか？",
-            "この週末[しゅうまつ]は何[なに]をしようと思[おも]っていますか？",
-            "この週末[しゅうまつ]のご予定[よてい]はいかがですか？",
-            "この週末[しゅうまつ]は何[なん]つもりですか？"
-          ],
-          "correctIndex": 2,
-          "explanation": "ご予定[よてい]はいかがですか is a polite way to ask about someone's schedule (ご is the honorific prefix). This is common in business and formal contexts. いかが = how/what (polite form of どう)."
-        },
-        {
-          "id": "yotei_q12",
-          "type": "usage",
-          "prompt": "You're making tentative plans that are not yet booked. Which expression is MOST appropriate?",
-          "japanese": null,
-          "choices": [
-            "来月[らいげつ]、旅行[りょこう]に行[い]く予定[よてい]です。",
-            "来月[らいげつ]、旅行[りょこう]の予定[よてい]があります。",
-            "来月[らいげつ]、旅行[りょこう]に行[い]く予定[よてい]でした。",
-            "来月[らいげつ]、旅行[りょこう]に行[い]こうと思[おも]っています。"
-          ],
-          "correctIndex": 3,
-          "explanation": "For tentative, unconfirmed plans, と思[おも]っている is more appropriate than 予定[よてい]. 予定[よてい] implies something is arranged or on the calendar. 思[おも]っている = I'm thinking of going (nothing booked yet)."
-        },
-        {
-          "id": "yotei_q13",
-          "type": "construct",
-          "prompt": "How do you say 'We plan to open a new branch next year'?",
-          "japanese": null,
-          "choices": [
-            "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]く予定[よてい]です。",
-            "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]いた予定[よてい]です。",
-            "来年[らいねん]、新[あたら]しい支店[してん]を開[あ]けた予定[よてい]です。",
-            "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]くつもりです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "開[ひら]く (dict-form, Group 1) + 予定[よてい]です = plan/schedule to open. This is a formal announcement of a business plan, where 予定[よてい] is preferred over the personal つもり."
-        },
-        {
-          "id": "yotei_q14",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 医者[いしゃ]に___予定[よてい]でしたが、急[きゅう]に仕事[しごと]が入[はい]ってしまいました。(I was scheduled to go to the doctor but work suddenly came up.)",
-          "japanese": "医者[いしゃ]に___予定[よてい]でしたが、急[きゅう]に仕事[しごと]が入[はい]ってしまいました。",
-          "choices": [
-            "行[い]った",
-            "行[い]く",
-            "行[い]き",
-            "行[い]って"
-          ],
-          "correctIndex": 1,
-          "explanation": "Dict-form + 予定[よてい]でした = was scheduled to . 行[い]く (dict) + 予定[よてい]でした = was scheduled to go. The past でした signals the original plan that got disrupted."
-        },
-        {
-          "id": "yotei_q15",
-          "type": "usage",
-          "prompt": "Which sentence contains a grammar error with 予定[よてい]?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]、友達[ともだち]と映画[えいが]を見[み]る予定[よてい]があります。",
-            "週末[しゅうまつ]に旅行[りょこう]する予定[よてい]です。",
-            "来月[らいげつ]、転職[てんしょく]した予定[よてい]です。",
-            "3月[がつ]に卒業[そつぎょう]する予定[よてい]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "転職[てんしょく]した (past tense) before 予定[よてい] is wrong for a future plan — you must use the dict-form: 転職[てんしょく]する + 予定[よてい]. 転職[てんしょく]した describes a completed action, not a future schedule."
-        },
-        {
-          "id": "yotei_q16",
-          "type": "translation",
-          "prompt": "Which sentence means 'The meeting is canceled — it was scheduled for today'?",
-          "japanese": null,
-          "choices": [
-            "会議[かいぎ]は今日[きょう]の予定[よてい]でした。でもキャンセルになりました。",
-            "会議[かいぎ]は今日[きょう]の予定[よてい]がありました。でもキャンセルになりました。",
-            "会議[かいぎ]は今日[きょう]するつもりでしたが、キャンセルになりました。",
-            "会議[かいぎ]は今日[きょう]の予定[よてい]でしたが、キャンセルになりました。"
-          ],
-          "correctIndex": 3,
-          "explanation": "〜の予定[よてい]でしたが = was scheduled for ~, but. The が naturally connects the cancelled plan to the actual outcome. This is the standard pattern for describing a plan that was disrupted."
-        },
-        {
-          "id": "yotei_q17",
-          "type": "construct",
-          "prompt": "How do you say 'I have a plan to go to the gym tomorrow morning'?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]の朝[あさ]、ジムに行[い]く予定[よてい]があります。",
-            "明日[あした]の朝[あさ]、ジムに行[い]った予定[よてい]があります。",
-            "明日[あした]の朝[あさ]、ジムの予定[よてい]があります。",
-            "明日[あした]の朝[あさ]、ジムに行[い]こうとする予定[よてい]があります。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + 予定[よてい]がある = to have a plan to do. 行[い]く (dict) + 予定[よてい]があります = I have plans to go. Both 予定[よてい]です and 予定[よてい]があります are natural expressions."
-        },
-        {
-          "id": "yotei_q18",
-          "type": "usage",
-          "prompt": "Which sentence best expresses 'I had planned to cook dinner but ended up buying it instead'?",
-          "japanese": null,
-          "choices": [
-            "夕食[ゆうしょく]を作[つく]ろうとしたが、買[か]ってしまいました。",
-            "夕食[ゆうしょく]を作[つく]る予定[よてい]でしたが、結局[けっきょく]買[か]いました。",
-            "夕食[ゆうしょく]を作[つく]る予定[よてい]ですが、買[か]いました。",
-            "夕食[ゆうしょく]を作[つく]るつもりですが、買[か]いました。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜予定[よてい]でしたが = was planned to do, but... The past でした signals the original plan that changed. 結局[けっきょく] (in the end / ultimately) emphasizes the actual outcome differed from the plan."
-        },
-        {
-          "id": "yotei_q19",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 出張[しゅっちょう]は___予定[よてい]ですか。(When is the business trip scheduled?)",
-          "japanese": "出張[しゅっちょう]は___予定[よてい]ですか。",
-          "choices": [
-            "どんな",
-            "何[なん]の",
-            "いつの",
-            "どこの"
-          ],
-          "correctIndex": 2,
-          "explanation": "いつ (when) + の + 予定[よてい] = when is  scheduled? いつの予定[よてい]ですか is the natural way to ask about the timing of a planned event."
-        },
-        {
-          "id": "yotei_q20",
-          "type": "usage",
-          "prompt": "Which expression would sound MOST unusual when reporting your schedule to your boss?",
-          "japanese": null,
-          "choices": [
-            "来週[らいしゅう]、出張[しゅっちょう]の予定[よてい]があります。",
-            "来週[らいしゅう]、東京[とうきょう]に行[い]く予定[よてい]です。",
-            "来月[らいげつ]の予定[よてい]を教[おし]えてください。",
-            "来週[らいしゅう]、東京[とうきょう]に行[い]くつもりです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "つもり expresses personal will/intention and can sound too casual or subjective for business contexts. When reporting your schedule to a superior, 予定[よてい] (which sounds more objective/arranged) is more appropriate than つもり."
-        }
-      ]
+     "japanese": "寒[さむ]いから、窓[まど]を閉[し]めておいてください。",
+     "romaji": "Samui kara, mado wo shimete oite kudasai.",
+     "english": "It's cold, so please keep the window closed."
     },
     {
-      "id": "to-omotte-iru",
-      "name": "〜と思[おも]う / 〜と思[おも]っている — I think / I'm thinking of",
-      "shortDescription": "Expresses opinions, beliefs, or tentative plans in progress.",
-      "formation": "Plain form + と思[おも]います (think that) / と思[おも]っています (am thinking / ongoing consideration)",
-      "explanation": "You already know 〜と思[おも]います for stating opinions (plain form + と思[おも]います = I think that X). This point goes deeper into how と思[おも]う extends to ongoing thoughts and plans.\n\n〜と思[おも]います is a snapshot: you state your view right now. 〜と思[おも]っています is an ongoing state: the thinking is in progress, not just a moment. This distinction creates two quite different uses.\n\nFirst, for tentative plans: volitional form + と思[おも]っています expresses an intention you're mulling over but haven't firmly committed to. 来年[らいねん]、日本語[にほんご]の学校[がっこう]に行[い]こうと思[おも]っています: 'I'm thinking of going to a Japanese language school next year.' It's softer and less committed than 行[い]く予定[よてい]です. It's the 'I'm considering it' space.\n\nSecond, for ongoing beliefs: plain form + と思[おも]っています expresses something you've believed for a while. ずっとそうだと思[おも]っていました (I had always believed/thought that). The 〜ている signals that the belief was continuous, not just a current opinion.\n\nOne consistent rule: the clause before と uses plain forms regardless of the overall politeness level. 「明日[あした]は雨[あめ]だと思[おも]います」 — the だ inside the quote stays as plain form even though the outer verb is polite ます.",
-      "rules": [
-        "Plain form + と思[おも]います = I think that X (stating a current opinion)",
-        "Volitional form + と思[おも]っています = I'm thinking of doing X (tentative, ongoing plan)",
-        "Plain form + と思[おも]っています = I have been thinking/believing that X (continuous belief)",
-        "The clause before と always uses plain forms, regardless of the outer politeness level",
-        "Softer and more tentative than 〜予定[よてい]です or 〜つもりです for expressing future plans"
-      ],
-      "examples": [
-        {
-          "japanese": "この映画[えいが]はおもしろいと思[おも]います。",
-          "romaji": "Kono eiga wa omoshiroi to omoimasu.",
-          "english": "I think this movie is interesting."
-        },
-        {
-          "japanese": "来年[らいねん]、日本語[にほんご]の学校[がっこう]に行[い]こうと思[おも]っています。",
-          "romaji": "Rainen, nihongo no gakkou ni ikou to omotte imasu.",
-          "english": "I'm thinking of going to a Japanese language school next year."
-        },
-        {
-          "japanese": "彼[かれ]は正[ただ]しいと思[おも]いますか。",
-          "romaji": "Kare wa tadashii to omoimasu ka.",
-          "english": "Do you think he is correct?"
-        },
-        {
-          "japanese": "もうちょっと練習[れんしゅう]してからにしようと思[おも]っています。",
-          "romaji": "Mou chotto renshuu shite kara ni shiyou to omotte imasu.",
-          "english": "I'm thinking of waiting until I've practiced a little more before doing it."
-        }
-      ],
-      "flashcardHeader": "〜と思う / 〜と思っている",
-      "flashcardAnswer": "Expresses opinions, beliefs, or tentative plans currently in progress.",
-      "practice": [
-        {
-          "id": "to-omotte-iru_q1",
-          "type": "translation",
-          "prompt": "Which sentence means 'I think this exam is difficult'?",
-          "japanese": null,
-          "choices": [
-            "このテストは難[むずか]しいと思[おも]います。",
-            "このテストは難[むずか]しくと思[おも]います。",
-            "このテストが難[むずか]しいと思[おも]えます。",
-            "このテストは難[むずか]しいと思[おも]っていました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj plain form (難[むずか]しい) + と思[おも]います = I think . Always use plain form before と思[おも]う, not て-form or polite -masu form."
-        },
-        {
-          "id": "to-omotte-iru_q2",
-          "type": "usage",
-          "prompt": "Which sentence means 'I've been thinking of changing jobs'?",
-          "japanese": null,
-          "choices": [
-            "転職[てんしょく]しようと思[おも]いました。",
-            "転職[てんしょく]しようと思[おも]っています。",
-            "転職[てんしょく]すると思[おも]っています。",
-            "転職[てんしょく]するとと思[おも]っています。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Volitional (転職[てんしょく]しよう) + と思[おも]っている = ongoing future intention. と思[おも]いました (past) = I thought of doing it at one moment. と思[おも]っている (present progressive) = I'm currently / have been thinking of it."
-        },
-        {
-          "id": "to-omotte-iru_q3",
-          "type": "translation",
-          "prompt": "How would you naturally express 'My friend thinks the movie was boring'?",
-          "japanese": null,
-          "choices": [
-            "友達[ともだち]は映画[えいが]がつまらないと思[おも]います。",
-            "友達[ともだち]は映画[えいが]がつまらいと思[おも]っています。",
-            "友達[ともだち]は映画[えいが]がつまらなかったと思[おも]っています。",
-            "友達[ともだち]を映画[えいが]がつまらないと思[おも]っています。"
-          ],
-          "correctIndex": 2,
-          "explanation": "For 3rd person (friend), と思[おも]っている is more natural than と思[おも]う alone — it describes their ongoing belief. Also, the past い-adj form is つまらなかった (was boring), not つまらない."
-        },
-        {
-          "id": "to-omotte-iru_q4",
-          "type": "construct",
-          "prompt": "How do you say 'I don't think it will rain today'?",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]いません。",
-            "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]いません。",
-            "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]わない。",
-            "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]います。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Negative opinion: 〜ないと思[おも]う = I think  won't. Put the negative form (降[ふ]らない) BEFORE と思[おも]う. 〜と思[おも]いません sounds like refusing to think, which is unnatural in Japanese."
-        },
-        {
-          "id": "to-omotte-iru_q5",
-          "type": "translation",
-          "prompt": "Which sentence means 'I thought you were a student' (single past moment)?",
-          "japanese": null,
-          "choices": [
-            "あなたは学生[がくせい]だと思[おも]いました。",
-            "あなたは学生[がくせい]だと思[おも]っています。",
-            "あなたは学生[がくせい]だと思[おも]っていました。",
-            "あなたは学生[がくせい]だと思[おも]いませんでした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "と思[おも]いました = I thought (single past moment). と思[おも]っていました = I had been thinking/assuming over time. For a single moment of past thought, 〜と思[おも]いました is the right choice."
-        },
-        {
-          "id": "to-omotte-iru_q6",
-          "type": "usage",
-          "prompt": "Which sentence expresses 'I had been assuming you would come' (ongoing past belief)?",
-          "japanese": null,
-          "choices": [
-            "あなたが来[く]ると思[おも]いました。",
-            "あなたが来[く]ると思[おも]っていました。",
-            "あなたが来[こ]ようと思[おも]っていました。",
-            "あなたが来[く]ると思[おも]ったことがあります。"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜と思[おも]っていた = had been thinking/assuming over time (past progressive of と思[おも]っている). This implies a belief that was held for a period, now changed. 思[おも]いました = single past moment."
-        },
-        {
-          "id": "to-omotte-iru_q7",
-          "type": "translation",
-          "prompt": "Which sentence uses と思[おも]います to politely express a business opinion?",
-          "japanese": null,
-          "choices": [
-            "このプランはいいです。",
-            "このプランがいいと言[い]います。",
-            "このプランがいいと思[おも]います。",
-            "このプランがいいとします。"
-          ],
-          "correctIndex": 2,
-          "explanation": "と思[おも]います softens direct statements and frames them as personal views rather than facts. 言[い]います = to say (reporting speech); とします = to assume/suppose; and the bare いいです is a direct statement."
-        },
-        {
-          "id": "to-omotte-iru_q8",
-          "type": "usage",
-          "prompt": "Your friend says they DEFINITELY plan to quit their job next month. Which expression best reflects that certainty?",
-          "japanese": null,
-          "choices": [
-            "来月[らいげつ]、仕事[しごと]をやめようと思[おも]っている。",
-            "来月[らいげつ]、仕事[しごと]をやめると思[おも]っている。",
-            "来月[らいげつ]、仕事[しごと]をやめようと思[おも]っていた。",
-            "来月[らいげつ]、仕事[しごと]をやめるつもりだ。"
-          ],
-          "correctIndex": 3,
-          "explanation": "For firm, definite personal intention, つもり is stronger than と思[おも]っている. と思[おも]っている = still considering; つもり = I have decided / I definitely intend to. For a stated certainty, つもり is most appropriate."
-        },
-        {
-          "id": "to-omotte-iru_q9",
-          "type": "construct",
-          "prompt": "How would you ask a friend 'What do you think about this restaurant?'",
-          "japanese": null,
-          "choices": [
-            "このレストランについてどう思[おも]いますか？",
-            "このレストランについて何[なに]を思[おも]いますか？",
-            "このレストランについてどう思[おも]っていますか？",
-            "このレストランについて何[なん]と思[おも]いますか？"
-          ],
-          "correctIndex": 0,
-          "explanation": "どう思[おも]いますか = What do you think? / How do you feel about? どう + 思[おも]いますか is the standard formula for asking opinions. 何[なに]を思[おも]う is less natural in this context."
-        },
-        {
-          "id": "to-omotte-iru_q10",
-          "type": "usage",
-          "prompt": "Your colleague believes (not just heard) that the president will resign. Which sentence describes her internal belief?",
-          "japanese": null,
-          "choices": [
-            "社長[しゃちょう]が辞[や]めると言[い]っています。",
-            "社長[しゃちょう]が辞[や]めると思[おも]っています。",
-            "社長[しゃちょう]が辞[や]めると聞[き]いています。",
-            "社長[しゃちょう]が辞[や]めたと思[おも]います。"
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]っている describes what someone believes internally. と言[い]っている = is saying (reported speech); と聞[き]いている = heard from someone (hearsay). For a personal belief, と思[おも]っている is correct."
-        },
-        {
-          "id": "to-omotte-iru_q11",
-          "type": "usage",
-          "prompt": "Which sentence has a grammar error?",
-          "japanese": null,
-          "choices": [
-            "明日[あした]晴[は]れると思[おも]います。",
-            "彼女[かのじょ]が来[こ]ないと思[おも]います。",
-            "早[はや]く帰[かえ]ってと思[おも]います。",
-            "もう寝[ね]ようと思[おも]います。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Te-form (帰[かえ]って) cannot precede と思[おも]います. You need the plain form: 早[はや]く帰[かえ]ると思[おも]います (I think they'll go home early). Te-form is for sequential actions or requests (〜てください), not for と思[おも]う."
-        },
-        {
-          "id": "to-omotte-iru_q12",
-          "type": "translation",
-          "prompt": "Which sentence means 'My mother thinks the trip is expensive'?",
-          "japanese": null,
-          "choices": [
-            "母[はは]が旅行[りょこう]を高[たか]いと思[おも]います。",
-            "母[はは]は旅行[りょこう]が高[たか]いと思[おも]いました。",
-            "母[はは]が旅行[りょこう]は高[たか]いと思[おも]います。",
-            "母[はは]は旅行[りょこう]が高[たか]いと思[おも]っています。"
-          ],
-          "correctIndex": 3,
-          "explanation": "For 3rd person ongoing belief: は (topic marker) + と思[おも]っている is most natural. 母[はは]は + 高[たか]いと思[おも]っている = my mother believes it's expensive (ongoing mental state). と思[おも]います alone reads as YOUR opinion."
-        },
-        {
-          "id": "to-omotte-iru_q13",
-          "type": "construct",
-          "prompt": "Which correctly expresses 'I think this is the right answer'?",
-          "japanese": null,
-          "choices": [
-            "これが正[ただ]しい答[こた]えだと思[おも]います。",
-            "これが正[ただ]しい答[こた]えると思[おも]います。",
-            "これが正[ただ]しい答[こた]えてと思[おも]います。",
-            "これが正[ただ]しい答[こた]えだとは思[おも]いません。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + だ + と思[おも]います = I think it is . 正[ただ]しい答[こた]えだ (plain copula) + と思[おも]います = I think this is the right answer. Use plain form (だ) before と思[おも]う, not the polite form (です)."
-        },
-        {
-          "id": "to-omotte-iru_q14",
-          "type": "usage",
-          "prompt": "You have a plane ticket booked. Which expression is MOST appropriate?",
-          "japanese": null,
-          "choices": [
-            "来週[らいしゅう]、大阪[おおさか]に行[い]こうと思[おも]っています。",
-            "来週[らいしゅう]、大阪[おおさか]に行[い]く予定[よてい]です。",
-            "来週[らいしゅう]、大阪[おおさか]に行[い]くつもりです。",
-            "来週[らいしゅう]、大阪[おおさか]に行[い]きたいと思[おも]っています。"
-          ],
-          "correctIndex": 1,
-          "explanation": "If a ticket is booked, it's a fixed plan → 予定[よてい] is most precise. と思[おも]っている = vaguer intention; つもり = personal commitment; たいと思[おも]っている = a desire, less fixed. Confirmed arrangements → 予定[よてい]."
-        },
-        {
-          "id": "to-omotte-iru_q15",
-          "type": "construct",
-          "prompt": "What is the natural way to say 'I don't think he will come'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]が来[く]ると思[おも]いません。",
-            "彼[かれ]が来[こ]ないと思[おも]いません。",
-            "彼[かれ]が来[こ]ないと思[おも]います。",
-            "彼[かれ]が来[く]ると思[おも]わないです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜ないと思[おも]う = I think  will not. Put ない BEFORE と思[おも]う. 〜と思[おも]いません (option 1) means 'I don't think ', which sounds like 'I refuse to think he'll come' — awkward."
-        },
-        {
-          "id": "to-omotte-iru_q16",
-          "type": "usage",
-          "prompt": "You've been considering learning Spanish for a while but haven't decided yet. Which is most natural?",
-          "japanese": null,
-          "choices": [
-            "スペイン語[ご]を勉強[べんきょう]しようとした。",
-            "スペイン語[ご]を勉強[べんきょう]すると思[おも]います。",
-            "スペイン語[ご]を勉強[べんきょう]する予定[よてい]です。",
-            "スペイン語[ご]を勉強[べんきょう]しようと思[おも]っています。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Volitional + と思[おも]っている = I've been thinking of doing (ongoing, not yet decided). 予定[よてい] implies something arranged; と思[おも]っている with the volitional is perfect for 'I've been considering / planning to start.'"
-        },
-        {
-          "id": "to-omotte-iru_q17",
-          "type": "translation",
-          "prompt": "In a meeting, your boss asks for your view. Which is most appropriate?",
-          "japanese": null,
-          "choices": [
-            "このアイデアは面白[おもしろ]いと思[おも]います。",
-            "このアイデアは面白[おもしろ]くと思[おも]います。",
-            "このアイデアは面白[おもしろ]いとします。",
-            "このアイデアが面白[おもしろ]いと思[おも]えます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain i-adj (面白[おもしろ]い) + と思[おも]います = I think it's interesting. と思[おも]います politely frames this as your personal view — appropriate for sharing opinions with a superior."
-        },
-        {
-          "id": "to-omotte-iru_q18",
-          "type": "usage",
-          "prompt": "Which best describes the difference between と思[おも]う and と思[おも]っている?",
-          "japanese": null,
-          "choices": [
-            "と思[おも]う = past thought; と思[おも]っている = future thought",
-            "と思[おも]う = single moment thought; と思[おも]っている = ongoing belief or intention",
-            "と思[おも]う = 1st person only; と思[おも]っている = 3rd person only",
-            "と思[おも]う = formal; と思[おも]っている = casual"
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]う = a thought at a single point in time; と思[おも]っている = an ongoing belief or current intention (state). For 1st person future plans, volitional+と思[おも]っている is used; for 3rd person, it describes their mental state."
-        },
-        {
-          "id": "to-omotte-iru_q19",
-          "type": "usage",
-          "prompt": "You changed your mind about eating sushi. Which means 'I was thinking of eating sushi but changed my mind'?",
-          "japanese": null,
-          "choices": [
-            "お寿司[すし]を食[た]べると思[おも]っていましたが、気[き]が変[か]わりました。",
-            "お寿司[すし]を食[た]べようとしましたが、気[き]が変[か]わりました。",
-            "お寿司[すし]を食[た]べようと思[おも]っていましたが、気[き]が変[か]わりました。",
-            "お寿司[すし]を食[た]べることを思[おも]っていましたが、気[き]が変[か]わりました。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Volitional + と思[おも]っていた = had been planning to do (past ongoing intention). 〜が、気[き]が変[か]わりました = but changed my mind. Option 2 (しようとした) = tried to eat (attempted action), not 'was planning to eat.'"
-        },
-        {
-          "id": "to-omotte-iru_q20",
-          "type": "construct",
-          "prompt": "How would you say 'If it's cheap, I think I'll buy it'?",
-          "japanese": null,
-          "choices": [
-            "安[やす]ければ、買[か]うと思[おも]う。",
-            "安[やす]いなら、買[か]おうとすると思[おも]っています。",
-            "安[やす]ければ、買[か]えると思[おも]っています。",
-            "安[やす]ければ、買[か]おうと思[おも]っています。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Conditional (安[やす]ければ = if it's cheap) + volitional + と思[おも]っています = if , I'm thinking of doing. 買[か]おう (volitional of 買[か]う) + と思[おも]っています = I'm thinking of buying  if cheap."
-        }
-      ]
+     "japanese": "後[あと]で確認[かくにん]するから、そのファイルを残[のこ]しといて。",
+     "romaji": "Ato de kakunin suru kara, sono fairu wo nokoshitoite.",
+     "english": "Leave that file there because I'll check it later."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜ておく",
+   "flashcardAnswer": "Do X in advance or leave X as is — preparation or deliberate non-change.",
+   "practice": [
     {
-      "id": "ch15_v01",
-      "partOfSpeech": "noun",
-      "kanji": "家事",
-      "kana": "かじ",
-      "romaji": "kaji",
-      "definition": "housework"
+     "id": "te-oku_q1",
+     "type": "usage",
+     "prompt": "Which sentence means 'I'll study in advance before the exam'?",
+     "japanese": null,
+     "choices": [
+      "試験[しけん]の前[まえ]に勉強[べんきょう]しておきます。",
+      "試験[しけん]の前[まえ]に勉強[べんきょう]してみます。",
+      "試験[しけん]の前[まえ]に勉強[べんきょう]してしまいます。",
+      "試験[しけん]の前[まえ]に勉強[べんきょう]してきます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ておく = do X now so the future is taken care of (preparation). 勉強[べんきょう]しておきます = I'll study ahead of time so I'm ready for the exam. 〜てみる = try doing; 〜てしまう = do completely/regrettably; 〜てくる = go and do then return."
     },
     {
-      "id": "ch15_v02",
-      "partOfSpeech": "noun",
-      "kanji": "掃除",
-      "kana": "そうじ",
-      "romaji": "souji",
-      "definition": "cleaning"
+     "id": "te-oku_q2",
+     "type": "translation",
+     "prompt": "Which sentence means 'Please leave the window open'?",
+     "japanese": null,
+     "choices": [
+      "窓[まど]を開[あ]けてください。",
+      "窓[まど]を開[あ]けておいてください。",
+      "窓[まど]を開[あ]けてみてください。",
+      "窓[まど]を閉[し]めておいてください。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ておく has a second meaning: deliberately leave X in its current state. 開[あ]けておいてください = please keep it in the open state (don't change it). 開[あ]けてください (choice 0) simply means 'please open it' with no 'keep it that way' nuance."
     },
     {
-      "id": "ch15_v03",
-      "partOfSpeech": "noun",
-      "kanji": "洗濯",
-      "kana": "せんたく",
-      "romaji": "sentaku",
-      "definition": "laundry"
+     "id": "te-oku_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete the sentence.",
+     "japanese": "寒[さむ]いから、コートを___おいてください。",
+     "choices": [
+      "着[き]る",
+      "着[ちゃく]ます",
+      "着[き]て",
+      "着[き]た"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜ておく requires the て-form of the preceding verb. 着[き]る (to wear) → て-form: 着[き]て. So 着[き]ておいてください = please keep your coat on (leave it in the worn state). Dictionary, polite, and past forms cannot attach directly to おく."
     },
     {
-      "id": "ch15_v04",
-      "partOfSpeech": "noun",
-      "kanji": "片付け",
-      "kana": "かたづけ",
-      "romaji": "katazuke",
-      "definition": "tidying up"
+     "id": "te-oku_q4",
+     "type": "translation",
+     "prompt": "Which sentence means 'I bought the ingredients in advance for tonight's dinner'?",
+     "japanese": null,
+     "choices": [
+      "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]いませんでした。",
+      "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]ってみました。",
+      "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]ってきました。",
+      "今晩[こんばん]の夕飯[ゆうはん]のために、材料[ざいりょう]を買[か]っておきました。"
+     ],
+     "correctIndex": 3,
+     "explanation": "〜ておきました is the past polite form of 〜ておく. 買[か]っておきました = I bought  in advance (preparation done earlier for future benefit). 〜てみました = tried buying; 〜てきました = went and bought then came back."
     },
     {
-      "id": "ch15_v05",
-      "partOfSpeech": "noun",
-      "kanji": "用事",
-      "kana": "ようじ",
-      "romaji": "youji",
-      "definition": "errand; task"
+     "id": "te-oku_q5",
+     "type": "translation",
+     "prompt": "Which sentence means 'Please make a restaurant reservation in advance'?",
+     "japanese": null,
+     "choices": [
+      "レストランを予約[よやく]しておいてください。",
+      "レストランを予約[よやく]してみてください。",
+      "レストランを予約[よやく]してしまってください。",
+      "レストランを予約[よやく]しないでください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ておいてください = please do X in advance / please do X and leave it done. This is the 〜ておく + ください construction for polite requests about preparatory action. 予約[よやく]しておいてください = please book it ahead of time."
     },
     {
-      "id": "ch15_v06",
-      "partOfSpeech": "noun",
-      "kanji": "洗濯機",
-      "kana": "せんたくき",
-      "romaji": "sentakuki",
-      "definition": "washing machine"
+     "id": "te-oku_q6",
+     "type": "usage",
+     "prompt": "Which of the following is the correct casual spoken contraction of 読[よ]んでおく?",
+     "japanese": null,
+     "choices": [
+      "読[よ]んとく",
+      "読[よ]んどく",
+      "読[よ]みとく",
+      "読[よ]んおく"
+     ],
+     "correctIndex": 1,
+     "explanation": "When the て-form ends in 〜んで (voiced), the casual contraction becomes 〜んどく (voiced). So 読[よ]む → 読[よ]んで + おく → 読[よ]んどく. When the て-form ends in unvoiced 〜て (e.g., 書[か]いて), it becomes 〜とく (書[か]いとく). The voicing carries over."
     },
     {
-      "id": "ch15_v07",
-      "partOfSpeech": "noun",
-      "kanji": "掃除機",
-      "kana": "そうじき",
-      "romaji": "soujiki",
-      "definition": "vacuum cleaner"
+     "id": "te-oku_q7",
+     "type": "usage",
+     "prompt": "Which sentence uses 〜てある rather than 〜ておく to describe a result left by someone (focus on existing state, not on who did it)?",
+     "japanese": null,
+     "choices": [
+      "ドアを開[あ]けておきます。",
+      "晩[ばん]ご飯[はん]を作[つく]っておきました。",
+      "黒板[こくばん]に宿題[しゅくだい]が書[か]いてあります。",
+      "試験[しけん]のためにノートをまとめておきます。"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜てある describes a resulting state — something is in a certain condition because someone did it (focus on the state, not the doer). 黒板[こくばん]に宿題[しゅくだい]が書[か]いてあります = the homework is written on the board . 〜ておく by contrast emphasizes the speaker's intentional action for a future purpose."
     },
     {
-      "id": "ch15_v08",
-      "partOfSpeech": "noun",
-      "kanji": "冷蔵庫",
-      "kana": "れいぞうこ",
-      "romaji": "reizouko",
-      "definition": "refrigerator"
+     "id": "te-oku_q8",
+     "type": "usage",
+     "prompt": "Which sentence expresses regret or finality about completing something, rather than preparation for the future?",
+     "japanese": null,
+     "choices": [
+      "辞書[じしょ]を買[か]っておきました。",
+      "レポートを書[か]いておきます。",
+      "電話番号[でんわばんごう]を覚[おぼ]えておいてください。",
+      "ケーキを全部[ぜんぶ]食[た]べてしまいました。"
+     ],
+     "correctIndex": 3,
+     "explanation": "〜てしまう expresses that something was done completely, often with a sense of regret or irreversibility. 食[た]べてしまいました = I ate it all up (done, possibly regrettable). 〜ておく (choices 0, 1, 2) expresses preparation for future benefit — the opposite nuance."
     },
     {
-      "id": "ch15_v09",
-      "partOfSpeech": "noun",
-      "kanji": "電子レンジ",
-      "kana": "でんしレンジ",
-      "romaji": "denshirenji",
-      "definition": "microwave oven"
+     "id": "te-oku_q9",
+     "type": "translation",
+     "prompt": "Which sentence means 'I had already noted down his phone number in advance'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の電話番号[でんわばんごう]をメモしておきました。",
+      "彼[かれ]の電話番号[でんわばんごう]をメモしてみました。",
+      "彼[かれ]の電話番号[でんわばんごう]をメモしてきました。",
+      "彼[かれ]の電話番号[でんわばんごう]をメモしていました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ておきました = past polite of 〜ておく. メモしておきました = I noted it down in advance (intentional preparation). 〜ていました (choice 3) means 'I was in the middle of noting it' — a different grammar describing an action in progress, not preparation."
     },
     {
-      "id": "ch15_v10",
-      "partOfSpeech": "noun",
-      "kanji": "炊飯器",
-      "kana": "すいはんき",
-      "romaji": "suihanki",
-      "definition": "rice cooker"
+     "id": "te-oku_q10",
+     "type": "usage",
+     "prompt": "Which is the plain-form negative of 〜ておく (meaning 'not do in advance')?",
+     "japanese": null,
+     "choices": [
+      "ておかなかった",
+      "ておかない",
+      "ておきません",
+      "ていない"
+     ],
+     "correctIndex": 1,
+     "explanation": "The plain-form negative of 〜ておく is 〜ておかない. This is formed from おく → おかない (negative plain). 〜ておきません is the polite negative. 〜ておかなかった is the plain past negative. 〜ていない uses a completely different grammar pattern (〜ている negative)."
     },
     {
-      "id": "ch15_v11",
-      "partOfSpeech": "noun",
-      "kanji": "食器",
-      "kana": "しょっき",
-      "romaji": "shokki",
-      "definition": "tableware; dishes"
+     "id": "te-oku_q11",
+     "type": "usage",
+     "prompt": "A student wants to say 'I'll review my notes before the test.' Which sentence is most natural?",
+     "japanese": null,
+     "choices": [
+      "テストの前[まえ]にノートを復習[ふくしゅう]してみます。",
+      "テストの前[まえ]にノートを復習[ふくしゅう]してしまいます。",
+      "テストの前[まえ]にノートを復習[ふくしゅう]しておきます。",
+      "テストの前[まえ]にノートを復習[ふくしゅう]してきます。"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜ておく = preparation for a future event. 復習[ふくしゅう]しておきます is most natural — I'll review in advance so I'm prepared for the test. 〜てみる (choice 0) implies trying it to see what happens; 〜てしまう (choice 1) implies completing it (with possible regret)."
     },
     {
-      "id": "ch15_v12",
-      "partOfSpeech": "noun",
-      "kanji": "洗剤",
-      "kana": "せんざい",
-      "romaji": "senzai",
-      "definition": "detergent"
+     "id": "te-oku_q12",
+     "type": "translation",
+     "prompt": "You want to tell someone 'Keep the door locked.' Which is correct?",
+     "japanese": null,
+     "choices": [
+      "ドアを鍵[かぎ]をかけてください。",
+      "ドアに鍵[かぎ]をかけてみてください。",
+      "ドアに鍵[かぎ]をかけてもいいです。",
+      "ドアに鍵[かぎ]をかけておいてください。"
+     ],
+     "correctIndex": 3,
+     "explanation": "ておいてください = please do X and maintain that state / please keep it that way. 鍵[かぎ]をかけておいてください = please lock it and keep it locked (leave it in the locked state). ていてください would work too, but ておいてください naturally conveys the 'leave as is' nuance."
     },
     {
-      "id": "ch15_v13",
-      "partOfSpeech": "noun",
-      "kanji": "ゴミ",
-      "kana": "ゴミ",
-      "romaji": "gomi",
-      "definition": "garbage; trash"
+     "id": "te-oku_q13",
+     "type": "translation",
+     "prompt": "Which question asks 'Did you prepare the meeting materials in advance?'",
+     "japanese": null,
+     "choices": [
+      "会議[かいぎ]の資料[しりょう]を準備[じゅんび]しておきましたか。",
+      "会議[かいぎ]の資料[しりょう]を準備[じゅんび]しましたか。",
+      "会議[かいぎ]の資料[しりょう]を準備[じゅんび]していますか。",
+      "会議[かいぎ]の資料[しりょう]を準備[じゅんび]してみましたか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ておきましたか = past polite question asking whether X was done in advance (as preparation). Choice 1 (準備[じゅんび]しましたか) simply asks whether it was done — no preparatory nuance. Choice 2 asks if they're currently preparing. The ておく adds the 'did you get it done ahead of time?' implication."
     },
     {
-      "id": "ch15_v14",
-      "partOfSpeech": "noun",
-      "kanji": "ゴミ箱",
-      "kana": "ゴミばこ",
-      "romaji": "gomibako",
-      "definition": "trash can"
+     "id": "te-oku_q14",
+     "type": "usage",
+     "prompt": "Which sentence best expresses leaving dinner out intentionally for someone coming home later?",
+     "japanese": null,
+     "choices": [
+      "夕飯[ゆうはん]を食[た]べてしまいました。",
+      "夕飯[ゆうはん]を出[だ]しておきました。",
+      "夕飯[ゆうはん]を出[だ]してきました。",
+      "夕飯[ゆうはん]を出[だ]してみました。"
+     ],
+     "correctIndex": 1,
+     "explanation": "出[だ]しておきました = I set the dinner out and left it there (the 'leave as is' or 'preparation' meaning of ておく). The food is left out intentionally. 〜てしまう (choice 0) means finished/ate it; 〜てくる implies coming back after doing something elsewhere; 〜てみる = tried doing."
     },
     {
-      "id": "ch15_v15",
-      "partOfSpeech": "noun",
-      "kanji": "布団",
-      "kana": "ふとん",
-      "romaji": "futon",
-      "definition": "futon"
+     "id": "te-oku_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete the sentence.",
+     "japanese": "パーティーの会場[かいじょう]を___おきます。",
+     "choices": [
+      "予約[よやく]する",
+      "予約[よやく]します",
+      "予約[よやく]して",
+      "予約[よやく]した"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜ておく requires the て-form of the preceding verb. 予約[よやく]する → て-form: 予約[よやく]して + おきます = I'll book the venue in advance. 予約[よやく]する (dictionary form), 予約[よやく]します (polite form), and 予約[よやく]した (past form) cannot directly precede おく."
     },
     {
-      "id": "ch15_v16",
-      "partOfSpeech": "noun",
-      "kanji": "枕",
-      "kana": "まくら",
-      "romaji": "makura",
-      "definition": "pillow"
+     "id": "te-oku_q16",
+     "type": "translation",
+     "prompt": "Which sentence means 'Leave that chair exactly as it is; don't move it'?",
+     "japanese": null,
+     "choices": [
+      "その椅子[いす]を動[うご]かしてください。",
+      "その椅子[いす]を動[うご]かしておいてください。",
+      "その椅子[いす]を片[かた]づけておいてください。",
+      "その椅子[いす]をそのままにしておいてください。"
+     ],
+     "correctIndex": 3,
+     "explanation": "そのままにしておく = leave something as-is (the deliberate 'leave in current state' meaning of ておく). そのままにしておいてください = please keep it exactly as it is. Choice 1 (動[うご]かしておく) = move it and leave it moved — the opposite meaning!"
     },
     {
-      "id": "ch15_v17",
-      "partOfSpeech": "noun",
-      "kanji": "毛布",
-      "kana": "もうふ",
-      "romaji": "moufu",
-      "definition": "blanket"
+     "id": "te-oku_q17",
+     "type": "usage",
+     "prompt": "Which is the correct casual spoken contraction of 見[み]ておく?",
+     "japanese": null,
+     "choices": [
+      "見[み]とく",
+      "見[み]どく",
+      "見[けん]おく",
+      "見[み]ておかない"
+     ],
+     "correctIndex": 0,
+     "explanation": "見[み]る → 見[み]て + おく. When the て-form ends in unvoiced 〜て, the casual contraction is 〜とく. So 見[み]ておく → 見[み]とく. Voiced て-forms (〜んで, 〜いで) become 〜どく (e.g., 読[よ]んどく, 急[いそ]いどく). 見[み]どく (choice 1) incorrectly voices it."
     },
     {
-      "id": "ch15_v18",
-      "partOfSpeech": "verb",
-      "kanji": "掃く",
-      "kana": "はく",
-      "romaji": "haku",
-      "definition": "to sweep"
+     "id": "te-oku_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete the sentence.",
+     "japanese": "友達[ともだち]に連絡[れんらく]を___おきます。",
+     "choices": [
+      "入[い]れる",
+      "入[い]れて",
+      "入[い]れた",
+      "入[い]れます"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ておく requires the て-form. 入[い]れる (to make contact / put in) → て-form: 入[い]れて + おきます = I'll contact my friend in advance. Dictionary, past, and polite forms cannot precede おく. The て-form is the only valid connector."
     },
     {
-      "id": "ch15_v19",
-      "partOfSpeech": "verb",
-      "kanji": "拭く",
-      "kana": "ふく",
-      "romaji": "fuku",
-      "definition": "to wipe"
+     "id": "te-oku_q19",
+     "type": "usage",
+     "prompt": "Which best explains the difference between 〜ておく and 〜てみる?",
+     "japanese": null,
+     "choices": [
+      "〜ておく means you regret doing something; 〜てみる means you do it on purpose.",
+      "〜ておく means you try something experimentally; 〜てみる means you prepare in advance.",
+      "〜ておく means you do something for future benefit; 〜てみる means you try something to see what happens.",
+      "〜ておく and 〜てみる are interchangeable in most contexts."
+     ],
+     "correctIndex": 2,
+     "explanation": "〜ておく = do for a future purpose or preparation. 〜てみる = try doing to find out the result (experimental). 食[た]べておく (eat in advance, before you get hungry) vs 食[た]べてみる (try eating it to see how it tastes). They are not interchangeable."
     },
     {
-      "id": "ch15_v20",
-      "partOfSpeech": "verb",
-      "kanji": "磨く",
-      "kana": "みがく",
-      "romaji": "migaku",
-      "definition": "to polish; to brush"
-    },
-    {
-      "id": "ch15_v21",
-      "partOfSpeech": "verb",
-      "kanji": "片付ける",
-      "kana": "かたづける",
-      "romaji": "katazukeru",
-      "definition": "to tidy up"
-    },
-    {
-      "id": "ch15_v22",
-      "partOfSpeech": "verb",
-      "kanji": "捨てる",
-      "kana": "すてる",
-      "romaji": "suteru",
-      "definition": "to throw away"
-    },
-    {
-      "id": "ch15_v23",
-      "partOfSpeech": "verb",
-      "kanji": "干す",
-      "kana": "ほす",
-      "romaji": "hosu",
-      "definition": "to hang out to dry"
-    },
-    {
-      "id": "ch15_v24",
-      "partOfSpeech": "verb",
-      "kanji": "たたむ",
-      "kana": "たたむ",
-      "romaji": "tatamu",
-      "definition": "to fold"
-    },
-    {
-      "id": "ch15_v25",
-      "partOfSpeech": "verb",
-      "kanji": "並べる",
-      "kana": "ならべる",
-      "romaji": "naraberu",
-      "definition": "to line up; to arrange"
-    },
-    {
-      "id": "ch15_v26",
-      "partOfSpeech": "verb",
-      "kanji": "沸かす",
-      "kana": "わかす",
-      "romaji": "wakasu",
-      "definition": "to boil (water)"
-    },
-    {
-      "id": "ch15_v27",
-      "partOfSpeech": "verb",
-      "kanji": "温める",
-      "kana": "あたためる",
-      "romaji": "atatameru",
-      "definition": "to warm up"
-    },
-    {
-      "id": "ch15_v28",
-      "partOfSpeech": "verb",
-      "kanji": "冷やす",
-      "kana": "ひやす",
-      "romaji": "hiyasu",
-      "definition": "to chill; to cool"
-    },
-    {
-      "id": "ch15_v29",
-      "partOfSpeech": "verb",
-      "kanji": "掛ける",
-      "kana": "かける",
-      "romaji": "kakeru",
-      "definition": "to hang"
-    },
-    {
-      "id": "ch15_v30",
-      "partOfSpeech": "verb",
-      "kanji": "しまう",
-      "kana": "しまう",
-      "romaji": "shimau",
-      "definition": "to put away"
-    },
-    {
-      "id": "ch15_v31",
-      "partOfSpeech": "verb",
-      "kanji": "汚れる",
-      "kana": "よごれる",
-      "romaji": "yogoreru",
-      "definition": "to get dirty"
-    },
-    {
-      "id": "ch15_v32",
-      "partOfSpeech": "verb",
-      "kanji": "汚す",
-      "kana": "よごす",
-      "romaji": "yogosu",
-      "definition": "to make dirty"
-    },
-    {
-      "id": "ch15_v33",
-      "partOfSpeech": "verb",
-      "kanji": "濡れる",
-      "kana": "ぬれる",
-      "romaji": "nureru",
-      "definition": "to get wet"
-    },
-    {
-      "id": "ch15_v34",
-      "partOfSpeech": "verb",
-      "kanji": "乾く",
-      "kana": "かわく",
-      "romaji": "kawaku",
-      "definition": "to dry; to become dry"
-    },
-    {
-      "id": "ch15_v35",
-      "partOfSpeech": "noun",
-      "kanji": "雑巾",
-      "kana": "ぞうきん",
-      "romaji": "zoukin",
-      "definition": "cleaning rag"
-    },
-    {
-      "id": "ch15_v36",
-      "partOfSpeech": "noun",
-      "kanji": "バケツ",
-      "kana": "バケツ",
-      "romaji": "baketsu",
-      "definition": "bucket"
-    },
-    {
-      "id": "ch15_v37",
-      "partOfSpeech": "noun",
-      "kanji": "棚",
-      "kana": "たな",
-      "romaji": "tana",
-      "definition": "shelf"
-    },
-    {
-      "id": "ch15_v38",
-      "partOfSpeech": "noun",
-      "kanji": "引き出し",
-      "kana": "ひきだし",
-      "romaji": "hikidashi",
-      "definition": "drawer"
-    },
-    {
-      "id": "ch15_v39",
-      "partOfSpeech": "noun",
-      "kanji": "押し入れ",
-      "kana": "おしいれ",
-      "romaji": "oshiire",
-      "definition": "closet (for bedding)"
-    },
-    {
-      "id": "ch15_v40",
-      "partOfSpeech": "noun",
-      "kanji": "蛇口",
-      "kana": "じゃぐち",
-      "romaji": "jaguchi",
-      "definition": "faucet; tap"
+     "id": "te-oku_q20",
+     "type": "usage",
+     "prompt": "What is the difference between 電気[でんき]をつけてある and 電気[でんき]をつけておく?",
+     "japanese": null,
+     "choices": [
+      "They are identical — てある and ておく are interchangeable.",
+      "てある = I turned the light on intentionally; ておく = someone else turned it on — this is true in both spoken and written Japanese.",
+      "てある = the action is in progress; ておく = the action is completed.",
+      "てある = the light is on (resulting state, focus on state); ておく = I'll turn the light on for a future purpose (focus on intentional prep)."
+     ],
+     "correctIndex": 3,
+     "explanation": "〜てある describes a resulting state — the light is on, focusing on that current condition (the person who did it is unspecified or background). 〜ておく focuses on the speaker's intentional act of doing X in preparation for something. Same surface reality; different speaker perspective and purpose."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "volitional",
+   "name": "Volitional form — 〜よう / 〜しよう (let's / I will)",
+   "shortDescription": "The plain-speech 'let's' and 'I will' — the casual equivalent of 〜ましょう.",
+   "formation": "Group 2: stem + よう  |  Group 1: change final syllable to お-row + う  |  する → しよう  |  くる → こよう",
+   "explanation": "The volitional form is the plain-speech version of 〜ましょう, which you already know. 食[た]べましょう is polite; 食[た]べよう is casual. Both mean \"let's eat\" or \"I'm going to eat.\" The volitional also expresses the speaker's own resolve — a decision made in the moment: もう寝[ね]よう。(I'm going to sleep now.) That self-directed \"I will\" nuance is something ましょう lacks.\n\nFormation follows a clean pattern:\n- Group 2 (る-verbs): drop る, add よう — 食[た]べる → 食[た]べよう\n- Group 1 (う-verbs): shift the final syllable from the う-row to the お-row, then add う — 書[か]く → 書[か]こう, 飲[の]む → 飲[の]もう, 話[はな]す → 話[はな]そう, 帰[かえ]る → 帰[かえ]ろう\n- Irregular: する → しよう、くる → こよう\n\nThe volitional is essential for two compound patterns:\n- 〜ようと思[おも]っている: \"I'm thinking of doing X\" — a tentative plan you're mulling over.\n- 〜ようとする: \"try to do X\" / \"be about to do X.\" 電話[でんわ]しようとしたら、バッテリーが切[き]れていた (Just as I tried to call, the battery died).",
+   "rules": [
+    "Group 2 (ru-verb): stem + よう (食[た]べる → 食[た]べよう)",
+    "Group 1 (u-verb): shift to お-row + う (書[か]く→書[か]こう, 飲[の]む→飲[の]もう, 話[はな]す→話[はな]そう)",
+    "Irregular: する → しよう; くる → こよう",
+    "Plain equivalent of ましょう — also expresses the speaker's own resolve",
+    "〜ようと思[おも]っている = I'm thinking of doing X (tentative plan)",
+    "〜ようとする = try to do X / be on the verge of doing X"
+   ],
+   "examples": [
     {
-      "char": "事",
-      "word": "事",
-      "reading": "こと",
-      "meaning": "thing"
+     "japanese": "さあ、始[はじ]めよう！",
+     "romaji": "Saa, hajimeyou!",
+     "english": "Alright, let's start!"
     },
     {
-      "char": "用",
-      "word": "用事",
-      "reading": "ようじ",
-      "meaning": "errand; task"
+     "japanese": "来年[らいねん]、日本語[にほんご]の試験[しけん]を受[う]けようと思[おも]っています。",
+     "romaji": "Rainen, nihongo no shiken wo ukeyou to omotte imasu.",
+     "english": "I'm thinking of taking the Japanese exam next year."
     },
     {
-      "char": "知",
-      "word": "知る",
-      "reading": "しる",
-      "meaning": "to be aware of"
+     "japanese": "もう寝[ね]よう。明日[あした]も早[はや]い。",
+     "romaji": "Mou neyou. Ashita mo hayai.",
+     "english": "Let's sleep now. We have to be up early tomorrow too."
     },
     {
-      "char": "英",
-      "word": "英",
-      "reading": "はなぶさ",
-      "meaning": "England"
-    },
-    {
-      "char": "字",
-      "word": "字",
-      "reading": "あざ",
-      "meaning": "character"
-    },
-    {
-      "char": "夜",
-      "word": "夜",
-      "reading": "よる",
-      "meaning": "evening"
-    },
-    {
-      "char": "悪",
-      "word": "悪い",
-      "reading": "わるい",
-      "meaning": "bad"
-    },
-    {
-      "char": "夕",
-      "word": "夕べ",
-      "reading": "ゆうべ",
-      "meaning": "evening"
-    },
-    {
-      "char": "飯",
-      "word": "飯",
-      "reading": "はん",
-      "meaning": "meal"
-    },
-    {
-      "char": "妹",
-      "word": "妹",
-      "reading": "いもうと",
-      "meaning": "younger sister"
+     "japanese": "電話[でんわ]しようとしたら、バッテリーが切[き]れていた。",
+     "romaji": "Denwa shiyou to shitara, batterii ga kirete ita.",
+     "english": "Just as I tried to call, the battery had died."
     }
-  ]
+   ],
+   "flashcardHeader": "Volitional form",
+   "flashcardAnswer": "The plain volitional form — 'let's do X' or 'I'm going to do X' (casual equivalent of ましょう).",
+   "practice": [
+    {
+     "id": "volitional_q1",
+     "type": "construct",
+     "prompt": "What is the volitional form of 書[か]く (to write)?",
+     "japanese": null,
+     "choices": [
+      "書[か]こう",
+      "書[か]けう",
+      "書[か]くよう",
+      "書[か]かう"
+     ],
+     "correctIndex": 0,
+     "explanation": "Group 1 く-verb: change く to こ + う. 書[か]く → 書[か]こう = let's write / I'll write."
+    },
+    {
+     "id": "volitional_q2",
+     "type": "construct",
+     "prompt": "What is the volitional form of 食[た]べる (to eat)?",
+     "japanese": null,
+     "choices": [
+      "食[た]べろう",
+      "食[た]べよう",
+      "食[た]べうよ",
+      "食[た]べおう"
+     ],
+     "correctIndex": 1,
+     "explanation": "Group 2 ru-verb: drop る + よう. 食[た]べる → 食[た]べよう = let's eat / I'll eat."
+    },
+    {
+     "id": "volitional_q3",
+     "type": "construct",
+     "prompt": "What is the volitional form of する (to do)?",
+     "japanese": null,
+     "choices": [
+      "すよう",
+      "しろう",
+      "しよう",
+      "するよう"
+     ],
+     "correctIndex": 2,
+     "explanation": "Irregular verb: する → しよう. This must be memorized as an exception."
+    },
+    {
+     "id": "volitional_q4",
+     "type": "translation",
+     "prompt": "Which sentence means 'Let's go together' (polite invitation)?",
+     "japanese": null,
+     "choices": [
+      "一緒[いっしょ]に行[い]こう。",
+      "一緒[いっしょ]に行[い]くよう。",
+      "一緒[いっしょ]に行[い]くましょう。",
+      "一緒[いっしょ]に行[い]きましょう。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Polite volitional (invitation): masu-stem + ましょう. 行[い]く → 行[い]き + ましょう = 行[い]きましょう. Plain 行[い]こう is casual."
+    },
+    {
+     "id": "volitional_q5",
+     "type": "construct",
+     "prompt": "What is the volitional form of 飲[の]む (to drink)?",
+     "japanese": null,
+     "choices": [
+      "飲[の]もう",
+      "飲[の]めう",
+      "飲[の]みよう",
+      "飲[の]むよう"
+     ],
+     "correctIndex": 0,
+     "explanation": "Group 1 む-verb: change む to も + う. 飲[の]む → 飲[の]もう = let's drink."
+    },
+    {
+     "id": "volitional_q6",
+     "type": "construct",
+     "prompt": "What is the volitional form of 起[お]きる (to wake up)?",
+     "japanese": null,
+     "choices": [
+      "起[お]きろう",
+      "起[お]きよう",
+      "起[お]きうよ",
+      "起[お]きおう"
+     ],
+     "correctIndex": 1,
+     "explanation": "Group 2 ru-verb: drop る + よう. 起[お]きる → 起[お]きよう = let's get up / I'll get up."
+    },
+    {
+     "id": "volitional_q7",
+     "type": "construct",
+     "prompt": "What is the volitional form of くる (to come)?",
+     "japanese": null,
+     "choices": [
+      "くるよう",
+      "くよう",
+      "こよう",
+      "きよう"
+     ],
+     "correctIndex": 2,
+     "explanation": "Irregular verb: くる → こよう. Both する and くる are irregular and must be memorized."
+    },
+    {
+     "id": "volitional_q8",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 財布[さいふ]を___としたら、お金[かね]がなかった。(When I tried to pay, there was no money.)",
+     "japanese": "財布[さいふ]を___としたら、お金[かね]がなかった。",
+     "choices": [
+      "払[はら]う",
+      "払[はら]って",
+      "払[はら]った",
+      "払[はら]おう"
+     ],
+     "correctIndex": 3,
+     "explanation": "Volitional + とする = tried to / was about to do. 払[はら]う → 払[はら]おう + とした = tried to pay. This pattern describes an attempted or interrupted action."
+    },
+    {
+     "id": "volitional_q9",
+     "type": "translation",
+     "prompt": "Which sentence means 'I'm thinking of studying Japanese'?",
+     "japanese": null,
+     "choices": [
+      "日本語[にほんご]を勉強[べんきょう]しようと思[おも]っています。",
+      "日本語[にほんご]を勉強[べんきょう]するようと思[おも]っています。",
+      "日本語[にほんご]を勉強[べんきょう]してと思[おも]っています。",
+      "日本語[にほんご]を勉強[べんきょう]したようと思[おも]っています。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Volitional + と思[おも]っている = ongoing intention. 勉強[べんきょう]する → 勉強[べんきょう]しよう + と思[おも]っています = I'm thinking of studying."
+    },
+    {
+     "id": "volitional_q10",
+     "type": "construct",
+     "prompt": "What is the volitional form of 話[はな]す (to speak)?",
+     "japanese": null,
+     "choices": [
+      "話[はな]しよう",
+      "話[はな]そう",
+      "話[はな]すよう",
+      "話[はな]せう"
+     ],
+     "correctIndex": 1,
+     "explanation": "Group 1 す-verb: change す to そ + う. 話[はな]す → 話[はな]そう = let's speak / I'll speak."
+    },
+    {
+     "id": "volitional_q11",
+     "type": "construct",
+     "prompt": "What is the volitional form of 帰[かえ]る (to go home)?",
+     "japanese": null,
+     "choices": [
+      "帰[かえ]りよう",
+      "帰[かえ]るよう",
+      "帰[かえ]ろう",
+      "帰[かえ]れう"
+     ],
+     "correctIndex": 2,
+     "explanation": "帰[かえ]る is a Group 1 verb (despite ending in る): change る to ろ + う. 帰[かえ]る → 帰[かえ]ろう = let's go home."
+    },
+    {
+     "id": "volitional_q12",
+     "type": "usage",
+     "prompt": "Which sentence is WRONG for expressing 'I think I'll go to bed early tonight'?",
+     "japanese": null,
+     "choices": [
+      "今夜[こんや]は早[はや]く寝[ね]ようと思[おも]います。",
+      "今夜[こんや]は早[はや]く寝[ね]ようと思[おも]っています。",
+      "今夜[こんや]は早[はや]く寝[ね]ようかなと思[おも]っています。",
+      "今夜[こんや]は早[はや]く寝[ね]るようと思[おも]います。"
+     ],
+     "correctIndex": 3,
+     "explanation": "寝[ね]るよう (dictionary form + よう) is the PURPOSE form (in order to), not the volitional. The volitional is 寝[ね]よう. 寝[ね]るようと思[おも]います is a common mix-up between purpose ように and volitional よう."
+    },
+    {
+     "id": "volitional_q13",
+     "type": "translation",
+     "prompt": "Which sentence means 'Let's do our best!' (casual, self-encouragement)?",
+     "japanese": null,
+     "choices": [
+      "頑張[がんば]ろう！",
+      "頑張[がんば]りましょうか！",
+      "頑張[がんば]ろうとする！",
+      "頑張[がんば]るよう！"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain volitional for casual self-motivation or peer encouragement. 頑張[がんば]る (Group 1) → 頑張[がんば]ろう. 頑張[がんば]りましょう is also correct but more formal/polite."
+    },
+    {
+     "id": "volitional_q14",
+     "type": "construct",
+     "prompt": "What is the volitional form of 待[ま]つ (to wait)?",
+     "japanese": null,
+     "choices": [
+      "待[ま]てう",
+      "待[ま]とう",
+      "待[ま]ちよう",
+      "待[ま]つよう"
+     ],
+     "correctIndex": 1,
+     "explanation": "Group 1 つ-verb: change つ to と + う. 待[ま]つ → 待[ま]とう = let's wait."
+    },
+    {
+     "id": "volitional_q15",
+     "type": "usage",
+     "prompt": "Your friend suggests going to the movies. Which is the most natural casual agreement?",
+     "japanese": null,
+     "choices": [
+      "行[い]きましょう！",
+      "行[い]くようにしよう！",
+      "いいね、行[い]こう！",
+      "行[い]くことにしよう！"
+     ],
+     "correctIndex": 2,
+     "explanation": "For casual mutual agreement or invitation, plain volitional 行[い]こう is most natural. 行[い]きましょう is grammatically correct but sounds more formal. いいね (sounds good) + 行[い]こう is the natural casual combination."
+    },
+    {
+     "id": "volitional_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。(I was about to leave the house when the phone rang.)",
+     "japanese": "家[いえ]を出[で]___としたとき、電話[でんわ]が鳴[な]った。",
+     "choices": [
+      "て",
+      "た",
+      "る",
+      "よう"
+     ],
+     "correctIndex": 3,
+     "explanation": "Volitional + とする = was about to do. 出[で]る → 出[で]よう + とした = was about to leave. The volitional form before とする describes an interrupted or attempted action."
+    },
+    {
+     "id": "volitional_q17",
+     "type": "construct",
+     "prompt": "What is the volitional form of 行[い]く (to go)?",
+     "japanese": null,
+     "choices": [
+      "行[い]こう",
+      "行[い]けう",
+      "行[い]くよう",
+      "行[い]きよう"
+     ],
+     "correctIndex": 0,
+     "explanation": "Group 1 く-verb: く changes to こ + う. 行[い]く → 行[い]こう = let's go / I'll go."
+    },
+    {
+     "id": "volitional_q18",
+     "type": "usage",
+     "prompt": "Which of these is NOT a valid use of the volitional form?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり]で頑張[がんば]ろう (I'll do my best alone)",
+      "食[た]べようです (I will eat — polite)",
+      "食[た]べようとする (try to eat)",
+      "食[た]べようと思[おも]う (think I'll eat)"
+     ],
+     "correctIndex": 1,
+     "explanation": "Volitional + です is NOT grammatical. The polite form for invitations is 〜ましょう. 食[た]べようです is a common error; the correct polite equivalent is 食[た]べましょう or 食[た]べようと思[おも]います."
+    },
+    {
+     "id": "volitional_q19",
+     "type": "translation",
+     "prompt": "Which sentence means 'Shall we take a break?' (polite, to a colleague)?",
+     "japanese": null,
+     "choices": [
+      "休[やす]もう。",
+      "休[やす]むよう。",
+      "休[やす]みましょうか。",
+      "休[やす]もうか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Polite invitation/suggestion: masu-stem + ましょうか. 休[やす]む → 休[やす]み + ましょうか = Shall we rest? ましょうか is more polite than plain 休[やす]もうか (which is casual)."
+    },
+    {
+     "id": "volitional_q20",
+     "type": "usage",
+     "prompt": "You spontaneously decide to take a different route. Which sentence best expresses this on-the-spot decision?",
+     "japanese": null,
+     "choices": [
+      "この道[みち]にしようとする。",
+      "この道[みち]にすることにした。",
+      "この道[みち]にしようとした。",
+      "この道[みち]にしよう。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Plain volitional (しよう) expresses a spontaneous decision or intention. 〜ことにした = deliberately decided (more planned); 〜しようとする = is trying to/about to (in progress)."
+    }
+   ]
+  },
+  {
+   "id": "yotei",
+   "name": "〜予定[よてい]だ (yotei da) — scheduled to / planned to",
+   "shortDescription": "States a fixed, pre-arranged plan or schedule — more official than personal intention.",
+   "formation": "Verb (plain form) + 予定[よてい]です  |  Noun + の + 予定[よてい]です",
+   "explanation": "予定[よてい] is 'schedule' as a noun, and 〜予定[よてい]です turns it into a grammar pattern meaning 'it is planned/scheduled that.' The feel is official and external: the plan exists as something on a calendar or itinerary, not just as a personal wish.\n\nCompare the two main ways to talk about future plans. 〜つもりです expresses personal intention — what you've decided in your own mind: 来年[らいねん]、日本語[にほんご]を勉強[べんきょう]するつもりです (I intend to study Japanese next year — that's my personal plan). 〜予定[よてい]です expresses a scheduled or pre-arranged event: 来週[らいしゅう]、東京[とうきょう]へ出張[しゅっちょう]する予定[よてい]です (I'm scheduled to travel to Tokyo next week — it's on the calendar). The line: つもり is your internal decision; 予定[よてい] is an external arrangement.\n\nFormation: verb in plain form + 予定[よてい]です, or noun + の + 予定[よてい]. 予定[よてい] also stands alone as a noun — 明日[あした]の予定[よてい] (tomorrow's schedule), 何[なに]か予定[よてい]はありますか (Do you have any plans?).\n\nIn Japanese workplace and social contexts, 予定[よてい] is everywhere: meeting invitations, project timelines, event announcements. Mastering this word unlocks a huge amount of everyday communication about time and coordination.",
+   "rules": [
+    "Verb (plain form) + 予定[よてい]です = it is planned/scheduled to do X",
+    "Noun + の + 予定[よてい] = plans/schedule for [noun] (旅行[りょこう]の予定[よてい] = travel plans)",
+    "More 'fixed' or 'official' than 〜つもり — refers to pre-arranged or scheduled events",
+    "予定[よてい] alone is a versatile noun: 明日[あした]の予定[よてい] (tomorrow's schedule), 予定[よてい]がある (have plans)",
+    "Question form: 何[なに]か予定[よてい]はありますか = Do you have any plans?"
+   ],
+   "examples": [
+    {
+     "japanese": "来週[らいしゅう]、大阪[おおさか]へ出張[しゅっちょう]する予定[よてい]です。",
+     "romaji": "Raishuu, Oosaka e shutchou suru yotei desu.",
+     "english": "I'm scheduled to go on a business trip to Osaka next week."
+    },
+    {
+     "japanese": "明日[あした]の午後[ごご]は何[なに]か予定[よてい]がありますか。",
+     "romaji": "Ashita no gogo wa nanika yotei ga arimasu ka.",
+     "english": "Do you have any plans for tomorrow afternoon?"
+    },
+    {
+     "japanese": "会議[かいぎ]は三時[さんじ]から始[はじ]まる予定[よてい]です。",
+     "romaji": "Kaigi wa sanji kara hajimaru yotei desu.",
+     "english": "The meeting is scheduled to start at three."
+    },
+    {
+     "japanese": "今年中[ことしじゅう]に新[あたら]しいアパートに引越[ひっこ]す予定[よてい]です。",
+     "romaji": "Kotoshi juu ni atarashii apaato ni hikkosu yotei desu.",
+     "english": "I'm planning to move to a new apartment by the end of this year."
+    }
+   ],
+   "flashcardHeader": "〜予定だ",
+   "flashcardAnswer": "States a fixed, pre-arranged plan or schedule — more official than personal intention.",
+   "practice": [
+    {
+     "id": "yotei_q1",
+     "type": "construct",
+     "prompt": "How do you express 'I am scheduled to meet a friend tomorrow' using 予定[よてい]?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]、友達[ともだち]に会[あ]う予定[よてい]です。",
+      "明日[あした]、友達[ともだち]に会[あ]った予定[よてい]です。",
+      "明日[あした]、友達[ともだち]に会[あ]い予定[よてい]です。",
+      "明日[あした]、友達[ともだち]の予定[よてい]です。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + 予定[よてい]です = scheduled/planned to do. 会[あ]う (dict-form) + 予定[よてい]です = am scheduled to meet. Never use た-form (past) before 予定[よてい] for a future plan."
+    },
+    {
+     "id": "yotei_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 来週[らいしゅう]は会議[かいぎ]___予定[よてい]があります。(There is a meeting planned next week.)",
+     "japanese": "来週[らいしゅう]は会議[かいぎ]___予定[よてい]があります。",
+     "choices": [
+      "が",
+      "の",
+      "を",
+      "で"
+     ],
+     "correctIndex": 1,
+     "explanation": "Noun + の + 予定[よてい] = plan/schedule for . 会議[かいぎ]の予定[よてい] = meeting schedule. の connects the noun to 予定[よてい]."
+    },
+    {
+     "id": "yotei_q3",
+     "type": "usage",
+     "prompt": "Which phrase correctly means 'I have no plans to go abroad'?",
+     "japanese": null,
+     "choices": [
+      "海外[かいがい]に行[い]く予定[よてい]がありました。",
+      "海外[かいがい]に行[い]かない予定[よてい]があります。",
+      "海外[かいがい]に行[い]く予定[よてい]はありません。",
+      "海外[かいがい]に行[い]く予定[よてい]ではありません。"
+     ],
+     "correctIndex": 2,
+     "explanation": "予定[よてい]はありません = there is no plan to do . The は+ない form naturally negates the existence of a plan. 海外[かいがい]に行[い]く予定[よてい]はありません = I have no plans to go abroad."
+    },
+    {
+     "id": "yotei_q4",
+     "type": "construct",
+     "prompt": "How do you ask 'Do you have plans to visit Japan?'",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]に来[く]る予定[よてい]があれば？",
+      "日本[にほん]に来[く]る予定[よてい]でしたか？",
+      "日本[にほん]に来[く]る予定[よてい]があれますか？",
+      "日本[にほん]に来[く]る予定[よてい]はありますか？"
+     ],
+     "correctIndex": 3,
+     "explanation": "〜予定[よてい]はありますか = Do you have plans to ? は marks the topic and ありますか asks about its existence. This is the standard way to inquire about someone's schedule."
+    },
+    {
+     "id": "yotei_q5",
+     "type": "usage",
+     "prompt": "Your trip was cancelled. Which sentence correctly describes the original plan?",
+     "japanese": null,
+     "choices": [
+      "旅行[りょこう]に行[い]く予定[よてい]でしたが、キャンセルされました。",
+      "旅行[りょこう]に行[い]く予定[よてい]ですが、キャンセルされました。",
+      "旅行[りょこう]に行[い]く予定[よてい]でしたから、キャンセルされました。",
+      "旅行[りょこう]に行[い]った予定[よてい]でしたが、キャンセルされました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Past tense 予定[よてい]でした = was scheduled to (but may not have happened). 〜予定[よてい]でしたが = was scheduled to, but... implies the plan was disrupted. が connects to the contrasting outcome."
+    },
+    {
+     "id": "yotei_q6",
+     "type": "usage",
+     "prompt": "Which is MOST appropriate for a firm, externally fixed appointment (dentist at 3pm)?",
+     "japanese": null,
+     "choices": [
+      "3時[じ]に歯医者[はいしゃ]に行[い]こうと思[おも]っています。",
+      "3時[じ]に歯医者[はいしゃ]に行[い]く予定[よてい]です。",
+      "3時[じ]に歯医者[はいしゃ]に行[い]くつもりです。",
+      "3時[じ]に歯医者[はいしゃ]に行[い]くかもしれません。"
+     ],
+     "correctIndex": 1,
+     "explanation": "予定[よてい] is best for fixed, calendar-level appointments. つもり = personal intention; と思[おも]っている = vaguer idea; かもしれない = uncertainty. A confirmed appointment is most precisely expressed with 予定[よてい]."
+    },
+    {
+     "id": "yotei_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 来年[らいねん]の春[はる]、大学[だいがく]を___予定[よてい]です。(I'm scheduled to graduate from university next spring.)",
+     "japanese": "来年[らいねん]の春[はる]、大学[だいがく]を___予定[よてい]です。",
+     "choices": [
+      "卒業[そつぎょう]した",
+      "卒業[そつぎょう]して",
+      "卒業[そつぎょう]する",
+      "卒業[そつぎょう]します"
+     ],
+     "correctIndex": 2,
+     "explanation": "Dict-form (plain non-past) + 予定[よてい]です for future scheduled events. 卒業[そつぎょう]する (dict-form) + 予定[よてい]です = scheduled to graduate. た-form or て-form before 予定[よてい] would be incorrect here."
+    },
+    {
+     "id": "yotei_q8",
+     "type": "translation",
+     "prompt": "In a business email, how would you write 'The meeting is scheduled for 2pm'?",
+     "japanese": null,
+     "choices": [
+      "会議[かいぎ]を2時[じ]にしようと思[おも]います。",
+      "会議[かいぎ]は2時[じ]のつもりです。",
+      "会議[かいぎ]は2時[じ]の予定[よてい]があります。",
+      "会議[かいぎ]は2時[じ]の予定[よてい]です。"
+     ],
+     "correctIndex": 3,
+     "explanation": "In business Japanese, 〜の予定[よてい]です is standard for schedules. 会議[かいぎ]は2時[じ]の予定[よてい]です = the meeting is scheduled for 2pm. This is formal and unambiguous."
+    },
+    {
+     "id": "yotei_q9",
+     "type": "construct",
+     "prompt": "How do you say 'The manager plans to attend the ceremony'?",
+     "japanese": null,
+     "choices": [
+      "部長[ぶちょう]は式[しき]に出席[しゅっせき]する予定[よてい]です。",
+      "部長[ぶちょう]は式[しき]に出席[しゅっせき]した予定[よてい]です。",
+      "部長[ぶちょう]は式[しき]の出席[しゅっせき]予定[よてい]です。",
+      "部長[ぶちょう]が式[しき]に出席[しゅっせき]するつもりです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + 予定[よてい]です for a scheduled action. 出席[しゅっせき]する (attend, dict-form) + 予定[よてい]です = is scheduled to attend. 予定[よてい] is preferred over つもり for formal/business announcements about official plans."
+    },
+    {
+     "id": "yotei_q10",
+     "type": "usage",
+     "prompt": "Which sentence naturally combines a conditional with 予定[よてい]?",
+     "japanese": null,
+     "choices": [
+      "予定[よてい]があったら、連絡[れんらく]してください。",
+      "天気[てんき]が良[よ]かったら、外[そと]で食[た]べる予定[よてい]です。",
+      "予定[よてい]じゃなかったら、来[き]てください。",
+      "明日[あした]の予定[よてい]が何[なに]かあれば、教[おし]えてください。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜たら、〜予定[よてい]です chains a condition with a scheduled plan. If the weather is good, we plan to eat outside. Conditionals naturally combine with 予定[よてい] to describe contingent plans."
+    },
+    {
+     "id": "yotei_q11",
+     "type": "translation",
+     "prompt": "How would you politely ask a colleague 'What are your plans for this weekend?'",
+     "japanese": null,
+     "choices": [
+      "この週末[しゅうまつ]は何[なん]の計画[けいかく]がありますか？",
+      "この週末[しゅうまつ]は何[なに]をしようと思[おも]っていますか？",
+      "この週末[しゅうまつ]のご予定[よてい]はいかがですか？",
+      "この週末[しゅうまつ]は何[なん]つもりですか？"
+     ],
+     "correctIndex": 2,
+     "explanation": "ご予定[よてい]はいかがですか is a polite way to ask about someone's schedule (ご is the honorific prefix). This is common in business and formal contexts. いかが = how/what (polite form of どう)."
+    },
+    {
+     "id": "yotei_q12",
+     "type": "usage",
+     "prompt": "You're making tentative plans that are not yet booked. Which expression is MOST appropriate?",
+     "japanese": null,
+     "choices": [
+      "来月[らいげつ]、旅行[りょこう]に行[い]く予定[よてい]です。",
+      "来月[らいげつ]、旅行[りょこう]の予定[よてい]があります。",
+      "来月[らいげつ]、旅行[りょこう]に行[い]く予定[よてい]でした。",
+      "来月[らいげつ]、旅行[りょこう]に行[い]こうと思[おも]っています。"
+     ],
+     "correctIndex": 3,
+     "explanation": "For tentative, unconfirmed plans, と思[おも]っている is more appropriate than 予定[よてい]. 予定[よてい] implies something is arranged or on the calendar. 思[おも]っている = I'm thinking of going (nothing booked yet)."
+    },
+    {
+     "id": "yotei_q13",
+     "type": "construct",
+     "prompt": "How do you say 'We plan to open a new branch next year'?",
+     "japanese": null,
+     "choices": [
+      "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]く予定[よてい]です。",
+      "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]いた予定[よてい]です。",
+      "来年[らいねん]、新[あたら]しい支店[してん]を開[あ]けた予定[よてい]です。",
+      "来年[らいねん]、新[あたら]しい支店[してん]を開[ひら]くつもりです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "開[ひら]く (dict-form, Group 1) + 予定[よてい]です = plan/schedule to open. This is a formal announcement of a business plan, where 予定[よてい] is preferred over the personal つもり."
+    },
+    {
+     "id": "yotei_q14",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 医者[いしゃ]に___予定[よてい]でしたが、急[きゅう]に仕事[しごと]が入[はい]ってしまいました。(I was scheduled to go to the doctor but work suddenly came up.)",
+     "japanese": "医者[いしゃ]に___予定[よてい]でしたが、急[きゅう]に仕事[しごと]が入[はい]ってしまいました。",
+     "choices": [
+      "行[い]った",
+      "行[い]く",
+      "行[い]き",
+      "行[い]って"
+     ],
+     "correctIndex": 1,
+     "explanation": "Dict-form + 予定[よてい]でした = was scheduled to . 行[い]く (dict) + 予定[よてい]でした = was scheduled to go. The past でした signals the original plan that got disrupted."
+    },
+    {
+     "id": "yotei_q15",
+     "type": "usage",
+     "prompt": "Which sentence contains a grammar error with 予定[よてい]?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]、友達[ともだち]と映画[えいが]を見[み]る予定[よてい]があります。",
+      "週末[しゅうまつ]に旅行[りょこう]する予定[よてい]です。",
+      "来月[らいげつ]、転職[てんしょく]した予定[よてい]です。",
+      "3月[がつ]に卒業[そつぎょう]する予定[よてい]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "転職[てんしょく]した (past tense) before 予定[よてい] is wrong for a future plan — you must use the dict-form: 転職[てんしょく]する + 予定[よてい]. 転職[てんしょく]した describes a completed action, not a future schedule."
+    },
+    {
+     "id": "yotei_q16",
+     "type": "translation",
+     "prompt": "Which sentence means 'The meeting is canceled — it was scheduled for today'?",
+     "japanese": null,
+     "choices": [
+      "会議[かいぎ]は今日[きょう]の予定[よてい]でした。でもキャンセルになりました。",
+      "会議[かいぎ]は今日[きょう]の予定[よてい]がありました。でもキャンセルになりました。",
+      "会議[かいぎ]は今日[きょう]するつもりでしたが、キャンセルになりました。",
+      "会議[かいぎ]は今日[きょう]の予定[よてい]でしたが、キャンセルになりました。"
+     ],
+     "correctIndex": 3,
+     "explanation": "〜の予定[よてい]でしたが = was scheduled for ~, but. The が naturally connects the cancelled plan to the actual outcome. This is the standard pattern for describing a plan that was disrupted."
+    },
+    {
+     "id": "yotei_q17",
+     "type": "construct",
+     "prompt": "How do you say 'I have a plan to go to the gym tomorrow morning'?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]の朝[あさ]、ジムに行[い]く予定[よてい]があります。",
+      "明日[あした]の朝[あさ]、ジムに行[い]った予定[よてい]があります。",
+      "明日[あした]の朝[あさ]、ジムの予定[よてい]があります。",
+      "明日[あした]の朝[あさ]、ジムに行[い]こうとする予定[よてい]があります。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + 予定[よてい]がある = to have a plan to do. 行[い]く (dict) + 予定[よてい]があります = I have plans to go. Both 予定[よてい]です and 予定[よてい]があります are natural expressions."
+    },
+    {
+     "id": "yotei_q18",
+     "type": "usage",
+     "prompt": "Which sentence best expresses 'I had planned to cook dinner but ended up buying it instead'?",
+     "japanese": null,
+     "choices": [
+      "夕食[ゆうしょく]を作[つく]ろうとしたが、買[か]ってしまいました。",
+      "夕食[ゆうしょく]を作[つく]る予定[よてい]でしたが、結局[けっきょく]買[か]いました。",
+      "夕食[ゆうしょく]を作[つく]る予定[よてい]ですが、買[か]いました。",
+      "夕食[ゆうしょく]を作[つく]るつもりですが、買[か]いました。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜予定[よてい]でしたが = was planned to do, but... The past でした signals the original plan that changed. 結局[けっきょく] (in the end / ultimately) emphasizes the actual outcome differed from the plan."
+    },
+    {
+     "id": "yotei_q19",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 出張[しゅっちょう]は___予定[よてい]ですか。(When is the business trip scheduled?)",
+     "japanese": "出張[しゅっちょう]は___予定[よてい]ですか。",
+     "choices": [
+      "どんな",
+      "何[なん]の",
+      "いつの",
+      "どこの"
+     ],
+     "correctIndex": 2,
+     "explanation": "いつ (when) + の + 予定[よてい] = when is  scheduled? いつの予定[よてい]ですか is the natural way to ask about the timing of a planned event."
+    },
+    {
+     "id": "yotei_q20",
+     "type": "usage",
+     "prompt": "Which expression would sound MOST unusual when reporting your schedule to your boss?",
+     "japanese": null,
+     "choices": [
+      "来週[らいしゅう]、出張[しゅっちょう]の予定[よてい]があります。",
+      "来週[らいしゅう]、東京[とうきょう]に行[い]く予定[よてい]です。",
+      "来月[らいげつ]の予定[よてい]を教[おし]えてください。",
+      "来週[らいしゅう]、東京[とうきょう]に行[い]くつもりです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "つもり expresses personal will/intention and can sound too casual or subjective for business contexts. When reporting your schedule to a superior, 予定[よてい] (which sounds more objective/arranged) is more appropriate than つもり."
+    }
+   ]
+  },
+  {
+   "id": "to-omotte-iru",
+   "name": "〜と思[おも]う / 〜と思[おも]っている — I think / I'm thinking of",
+   "shortDescription": "Expresses opinions, beliefs, or tentative plans in progress.",
+   "formation": "Plain form + と思[おも]います (think that) / と思[おも]っています (am thinking / ongoing consideration)",
+   "explanation": "You already know 〜と思[おも]います for stating opinions (plain form + と思[おも]います = I think that X). This point goes deeper into how と思[おも]う extends to ongoing thoughts and plans.\n\n〜と思[おも]います is a snapshot: you state your view right now. 〜と思[おも]っています is an ongoing state: the thinking is in progress, not just a moment. This distinction creates two quite different uses.\n\nFirst, for tentative plans: volitional form + と思[おも]っています expresses an intention you're mulling over but haven't firmly committed to. 来年[らいねん]、日本語[にほんご]の学校[がっこう]に行[い]こうと思[おも]っています: 'I'm thinking of going to a Japanese language school next year.' It's softer and less committed than 行[い]く予定[よてい]です. It's the 'I'm considering it' space.\n\nSecond, for ongoing beliefs: plain form + と思[おも]っています expresses something you've believed for a while. ずっとそうだと思[おも]っていました (I had always believed/thought that). The 〜ている signals that the belief was continuous, not just a current opinion.\n\nOne consistent rule: the clause before と uses plain forms regardless of the overall politeness level. 「明日[あした]は雨[あめ]だと思[おも]います」 — the だ inside the quote stays as plain form even though the outer verb is polite ます.",
+   "rules": [
+    "Plain form + と思[おも]います = I think that X (stating a current opinion)",
+    "Volitional form + と思[おも]っています = I'm thinking of doing X (tentative, ongoing plan)",
+    "Plain form + と思[おも]っています = I have been thinking/believing that X (continuous belief)",
+    "The clause before と always uses plain forms, regardless of the outer politeness level",
+    "Softer and more tentative than 〜予定[よてい]です or 〜つもりです for expressing future plans"
+   ],
+   "examples": [
+    {
+     "japanese": "この映画[えいが]はおもしろいと思[おも]います。",
+     "romaji": "Kono eiga wa omoshiroi to omoimasu.",
+     "english": "I think this movie is interesting."
+    },
+    {
+     "japanese": "来年[らいねん]、日本語[にほんご]の学校[がっこう]に行[い]こうと思[おも]っています。",
+     "romaji": "Rainen, nihongo no gakkou ni ikou to omotte imasu.",
+     "english": "I'm thinking of going to a Japanese language school next year."
+    },
+    {
+     "japanese": "彼[かれ]は正[ただ]しいと思[おも]いますか。",
+     "romaji": "Kare wa tadashii to omoimasu ka.",
+     "english": "Do you think he is correct?"
+    },
+    {
+     "japanese": "もうちょっと練習[れんしゅう]してからにしようと思[おも]っています。",
+     "romaji": "Mou chotto renshuu shite kara ni shiyou to omotte imasu.",
+     "english": "I'm thinking of waiting until I've practiced a little more before doing it."
+    }
+   ],
+   "flashcardHeader": "〜と思う / 〜と思っている",
+   "flashcardAnswer": "Expresses opinions, beliefs, or tentative plans currently in progress.",
+   "practice": [
+    {
+     "id": "to-omotte-iru_q1",
+     "type": "translation",
+     "prompt": "Which sentence means 'I think this exam is difficult'?",
+     "japanese": null,
+     "choices": [
+      "このテストは難[むずか]しいと思[おも]います。",
+      "このテストは難[むずか]しくと思[おも]います。",
+      "このテストが難[むずか]しいと思[おも]えます。",
+      "このテストは難[むずか]しいと思[おも]っていました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj plain form (難[むずか]しい) + と思[おも]います = I think . Always use plain form before と思[おも]う, not て-form or polite -masu form."
+    },
+    {
+     "id": "to-omotte-iru_q2",
+     "type": "usage",
+     "prompt": "Which sentence means 'I've been thinking of changing jobs'?",
+     "japanese": null,
+     "choices": [
+      "転職[てんしょく]しようと思[おも]いました。",
+      "転職[てんしょく]しようと思[おも]っています。",
+      "転職[てんしょく]すると思[おも]っています。",
+      "転職[てんしょく]するとと思[おも]っています。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Volitional (転職[てんしょく]しよう) + と思[おも]っている = ongoing future intention. と思[おも]いました (past) = I thought of doing it at one moment. と思[おも]っている (present progressive) = I'm currently / have been thinking of it."
+    },
+    {
+     "id": "to-omotte-iru_q3",
+     "type": "translation",
+     "prompt": "How would you naturally express 'My friend thinks the movie was boring'?",
+     "japanese": null,
+     "choices": [
+      "友達[ともだち]は映画[えいが]がつまらないと思[おも]います。",
+      "友達[ともだち]は映画[えいが]がつまらいと思[おも]っています。",
+      "友達[ともだち]は映画[えいが]がつまらなかったと思[おも]っています。",
+      "友達[ともだち]を映画[えいが]がつまらないと思[おも]っています。"
+     ],
+     "correctIndex": 2,
+     "explanation": "For 3rd person (friend), と思[おも]っている is more natural than と思[おも]う alone — it describes their ongoing belief. Also, the past い-adj form is つまらなかった (was boring), not つまらない."
+    },
+    {
+     "id": "to-omotte-iru_q4",
+     "type": "construct",
+     "prompt": "How do you say 'I don't think it will rain today'?",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]いません。",
+      "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]いません。",
+      "今日[きょう]は雨[あめ]が降[ふ]ると思[おも]わない。",
+      "今日[きょう]は雨[あめ]が降[ふ]らないと思[おも]います。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Negative opinion: 〜ないと思[おも]う = I think  won't. Put the negative form (降[ふ]らない) BEFORE と思[おも]う. 〜と思[おも]いません sounds like refusing to think, which is unnatural in Japanese."
+    },
+    {
+     "id": "to-omotte-iru_q5",
+     "type": "translation",
+     "prompt": "Which sentence means 'I thought you were a student' (single past moment)?",
+     "japanese": null,
+     "choices": [
+      "あなたは学生[がくせい]だと思[おも]いました。",
+      "あなたは学生[がくせい]だと思[おも]っています。",
+      "あなたは学生[がくせい]だと思[おも]っていました。",
+      "あなたは学生[がくせい]だと思[おも]いませんでした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "と思[おも]いました = I thought (single past moment). と思[おも]っていました = I had been thinking/assuming over time. For a single moment of past thought, 〜と思[おも]いました is the right choice."
+    },
+    {
+     "id": "to-omotte-iru_q6",
+     "type": "usage",
+     "prompt": "Which sentence expresses 'I had been assuming you would come' (ongoing past belief)?",
+     "japanese": null,
+     "choices": [
+      "あなたが来[く]ると思[おも]いました。",
+      "あなたが来[く]ると思[おも]っていました。",
+      "あなたが来[こ]ようと思[おも]っていました。",
+      "あなたが来[く]ると思[おも]ったことがあります。"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜と思[おも]っていた = had been thinking/assuming over time (past progressive of と思[おも]っている). This implies a belief that was held for a period, now changed. 思[おも]いました = single past moment."
+    },
+    {
+     "id": "to-omotte-iru_q7",
+     "type": "translation",
+     "prompt": "Which sentence uses と思[おも]います to politely express a business opinion?",
+     "japanese": null,
+     "choices": [
+      "このプランはいいです。",
+      "このプランがいいと言[い]います。",
+      "このプランがいいと思[おも]います。",
+      "このプランがいいとします。"
+     ],
+     "correctIndex": 2,
+     "explanation": "と思[おも]います softens direct statements and frames them as personal views rather than facts. 言[い]います = to say (reporting speech); とします = to assume/suppose; and the bare いいです is a direct statement."
+    },
+    {
+     "id": "to-omotte-iru_q8",
+     "type": "usage",
+     "prompt": "Your friend says they DEFINITELY plan to quit their job next month. Which expression best reflects that certainty?",
+     "japanese": null,
+     "choices": [
+      "来月[らいげつ]、仕事[しごと]をやめようと思[おも]っている。",
+      "来月[らいげつ]、仕事[しごと]をやめると思[おも]っている。",
+      "来月[らいげつ]、仕事[しごと]をやめようと思[おも]っていた。",
+      "来月[らいげつ]、仕事[しごと]をやめるつもりだ。"
+     ],
+     "correctIndex": 3,
+     "explanation": "For firm, definite personal intention, つもり is stronger than と思[おも]っている. と思[おも]っている = still considering; つもり = I have decided / I definitely intend to. For a stated certainty, つもり is most appropriate."
+    },
+    {
+     "id": "to-omotte-iru_q9",
+     "type": "construct",
+     "prompt": "How would you ask a friend 'What do you think about this restaurant?'",
+     "japanese": null,
+     "choices": [
+      "このレストランについてどう思[おも]いますか？",
+      "このレストランについて何[なに]を思[おも]いますか？",
+      "このレストランについてどう思[おも]っていますか？",
+      "このレストランについて何[なん]と思[おも]いますか？"
+     ],
+     "correctIndex": 0,
+     "explanation": "どう思[おも]いますか = What do you think? / How do you feel about? どう + 思[おも]いますか is the standard formula for asking opinions. 何[なに]を思[おも]う is less natural in this context."
+    },
+    {
+     "id": "to-omotte-iru_q10",
+     "type": "usage",
+     "prompt": "Your colleague believes (not just heard) that the president will resign. Which sentence describes her internal belief?",
+     "japanese": null,
+     "choices": [
+      "社長[しゃちょう]が辞[や]めると言[い]っています。",
+      "社長[しゃちょう]が辞[や]めると思[おも]っています。",
+      "社長[しゃちょう]が辞[や]めると聞[き]いています。",
+      "社長[しゃちょう]が辞[や]めたと思[おも]います。"
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]っている describes what someone believes internally. と言[い]っている = is saying (reported speech); と聞[き]いている = heard from someone (hearsay). For a personal belief, と思[おも]っている is correct."
+    },
+    {
+     "id": "to-omotte-iru_q11",
+     "type": "usage",
+     "prompt": "Which sentence has a grammar error?",
+     "japanese": null,
+     "choices": [
+      "明日[あした]晴[は]れると思[おも]います。",
+      "彼女[かのじょ]が来[こ]ないと思[おも]います。",
+      "早[はや]く帰[かえ]ってと思[おも]います。",
+      "もう寝[ね]ようと思[おも]います。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Te-form (帰[かえ]って) cannot precede と思[おも]います. You need the plain form: 早[はや]く帰[かえ]ると思[おも]います (I think they'll go home early). Te-form is for sequential actions or requests (〜てください), not for と思[おも]う."
+    },
+    {
+     "id": "to-omotte-iru_q12",
+     "type": "translation",
+     "prompt": "Which sentence means 'My mother thinks the trip is expensive'?",
+     "japanese": null,
+     "choices": [
+      "母[はは]が旅行[りょこう]を高[たか]いと思[おも]います。",
+      "母[はは]は旅行[りょこう]が高[たか]いと思[おも]いました。",
+      "母[はは]が旅行[りょこう]は高[たか]いと思[おも]います。",
+      "母[はは]は旅行[りょこう]が高[たか]いと思[おも]っています。"
+     ],
+     "correctIndex": 3,
+     "explanation": "For 3rd person ongoing belief: は (topic marker) + と思[おも]っている is most natural. 母[はは]は + 高[たか]いと思[おも]っている = my mother believes it's expensive (ongoing mental state). と思[おも]います alone reads as YOUR opinion."
+    },
+    {
+     "id": "to-omotte-iru_q13",
+     "type": "construct",
+     "prompt": "Which correctly expresses 'I think this is the right answer'?",
+     "japanese": null,
+     "choices": [
+      "これが正[ただ]しい答[こた]えだと思[おも]います。",
+      "これが正[ただ]しい答[こた]えると思[おも]います。",
+      "これが正[ただ]しい答[こた]えてと思[おも]います。",
+      "これが正[ただ]しい答[こた]えだとは思[おも]いません。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + だ + と思[おも]います = I think it is . 正[ただ]しい答[こた]えだ (plain copula) + と思[おも]います = I think this is the right answer. Use plain form (だ) before と思[おも]う, not the polite form (です)."
+    },
+    {
+     "id": "to-omotte-iru_q14",
+     "type": "usage",
+     "prompt": "You have a plane ticket booked. Which expression is MOST appropriate?",
+     "japanese": null,
+     "choices": [
+      "来週[らいしゅう]、大阪[おおさか]に行[い]こうと思[おも]っています。",
+      "来週[らいしゅう]、大阪[おおさか]に行[い]く予定[よてい]です。",
+      "来週[らいしゅう]、大阪[おおさか]に行[い]くつもりです。",
+      "来週[らいしゅう]、大阪[おおさか]に行[い]きたいと思[おも]っています。"
+     ],
+     "correctIndex": 1,
+     "explanation": "If a ticket is booked, it's a fixed plan → 予定[よてい] is most precise. と思[おも]っている = vaguer intention; つもり = personal commitment; たいと思[おも]っている = a desire, less fixed. Confirmed arrangements → 予定[よてい]."
+    },
+    {
+     "id": "to-omotte-iru_q15",
+     "type": "construct",
+     "prompt": "What is the natural way to say 'I don't think he will come'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]が来[く]ると思[おも]いません。",
+      "彼[かれ]が来[こ]ないと思[おも]いません。",
+      "彼[かれ]が来[こ]ないと思[おも]います。",
+      "彼[かれ]が来[く]ると思[おも]わないです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜ないと思[おも]う = I think  will not. Put ない BEFORE と思[おも]う. 〜と思[おも]いません (option 1) means 'I don't think ', which sounds like 'I refuse to think he'll come' — awkward."
+    },
+    {
+     "id": "to-omotte-iru_q16",
+     "type": "usage",
+     "prompt": "You've been considering learning Spanish for a while but haven't decided yet. Which is most natural?",
+     "japanese": null,
+     "choices": [
+      "スペイン語[ご]を勉強[べんきょう]しようとした。",
+      "スペイン語[ご]を勉強[べんきょう]すると思[おも]います。",
+      "スペイン語[ご]を勉強[べんきょう]する予定[よてい]です。",
+      "スペイン語[ご]を勉強[べんきょう]しようと思[おも]っています。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Volitional + と思[おも]っている = I've been thinking of doing (ongoing, not yet decided). 予定[よてい] implies something arranged; と思[おも]っている with the volitional is perfect for 'I've been considering / planning to start.'"
+    },
+    {
+     "id": "to-omotte-iru_q17",
+     "type": "translation",
+     "prompt": "In a meeting, your boss asks for your view. Which is most appropriate?",
+     "japanese": null,
+     "choices": [
+      "このアイデアは面白[おもしろ]いと思[おも]います。",
+      "このアイデアは面白[おもしろ]くと思[おも]います。",
+      "このアイデアは面白[おもしろ]いとします。",
+      "このアイデアが面白[おもしろ]いと思[おも]えます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain i-adj (面白[おもしろ]い) + と思[おも]います = I think it's interesting. と思[おも]います politely frames this as your personal view — appropriate for sharing opinions with a superior."
+    },
+    {
+     "id": "to-omotte-iru_q18",
+     "type": "usage",
+     "prompt": "Which best describes the difference between と思[おも]う and と思[おも]っている?",
+     "japanese": null,
+     "choices": [
+      "と思[おも]う = past thought; と思[おも]っている = future thought",
+      "と思[おも]う = single moment thought; と思[おも]っている = ongoing belief or intention",
+      "と思[おも]う = 1st person only; と思[おも]っている = 3rd person only",
+      "と思[おも]う = formal; と思[おも]っている = casual"
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]う = a thought at a single point in time; と思[おも]っている = an ongoing belief or current intention (state). For 1st person future plans, volitional+と思[おも]っている is used; for 3rd person, it describes their mental state."
+    },
+    {
+     "id": "to-omotte-iru_q19",
+     "type": "usage",
+     "prompt": "You changed your mind about eating sushi. Which means 'I was thinking of eating sushi but changed my mind'?",
+     "japanese": null,
+     "choices": [
+      "お寿司[すし]を食[た]べると思[おも]っていましたが、気[き]が変[か]わりました。",
+      "お寿司[すし]を食[た]べようとしましたが、気[き]が変[か]わりました。",
+      "お寿司[すし]を食[た]べようと思[おも]っていましたが、気[き]が変[か]わりました。",
+      "お寿司[すし]を食[た]べることを思[おも]っていましたが、気[き]が変[か]わりました。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Volitional + と思[おも]っていた = had been planning to do (past ongoing intention). 〜が、気[き]が変[か]わりました = but changed my mind. Option 2 (しようとした) = tried to eat (attempted action), not 'was planning to eat.'"
+    },
+    {
+     "id": "to-omotte-iru_q20",
+     "type": "construct",
+     "prompt": "How would you say 'If it's cheap, I think I'll buy it'?",
+     "japanese": null,
+     "choices": [
+      "安[やす]ければ、買[か]うと思[おも]う。",
+      "安[やす]いなら、買[か]おうとすると思[おも]っています。",
+      "安[やす]ければ、買[か]えると思[おも]っています。",
+      "安[やす]ければ、買[か]おうと思[おも]っています。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Conditional (安[やす]ければ = if it's cheap) + volitional + と思[おも]っています = if , I'm thinking of doing. 買[か]おう (volitional of 買[か]う) + と思[おも]っています = I'm thinking of buying  if cheap."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch15_v01",
+   "partOfSpeech": "noun",
+   "kanji": "家事",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "definition": "housework"
+  },
+  {
+   "id": "ch15_v02",
+   "partOfSpeech": "noun",
+   "kanji": "掃除",
+   "kana": "そうじ",
+   "romaji": "souji",
+   "definition": "cleaning"
+  },
+  {
+   "id": "ch15_v03",
+   "partOfSpeech": "noun",
+   "kanji": "洗濯",
+   "kana": "せんたく",
+   "romaji": "sentaku",
+   "definition": "laundry"
+  },
+  {
+   "id": "ch15_v04",
+   "partOfSpeech": "noun",
+   "kanji": "片付け",
+   "kana": "かたづけ",
+   "romaji": "katazuke",
+   "definition": "tidying up"
+  },
+  {
+   "id": "ch15_v05",
+   "partOfSpeech": "noun",
+   "kanji": "用事",
+   "kana": "ようじ",
+   "romaji": "youji",
+   "definition": "errand; task"
+  },
+  {
+   "id": "ch15_v06",
+   "partOfSpeech": "noun",
+   "kanji": "洗濯機",
+   "kana": "せんたくき",
+   "romaji": "sentakuki",
+   "definition": "washing machine"
+  },
+  {
+   "id": "ch15_v07",
+   "partOfSpeech": "noun",
+   "kanji": "掃除機",
+   "kana": "そうじき",
+   "romaji": "soujiki",
+   "definition": "vacuum cleaner"
+  },
+  {
+   "id": "ch15_v08",
+   "partOfSpeech": "noun",
+   "kanji": "冷蔵庫",
+   "kana": "れいぞうこ",
+   "romaji": "reizouko",
+   "definition": "refrigerator"
+  },
+  {
+   "id": "ch15_v09",
+   "partOfSpeech": "noun",
+   "kanji": "電子レンジ",
+   "kana": "でんしレンジ",
+   "romaji": "denshirenji",
+   "definition": "microwave oven"
+  },
+  {
+   "id": "ch15_v10",
+   "partOfSpeech": "noun",
+   "kanji": "炊飯器",
+   "kana": "すいはんき",
+   "romaji": "suihanki",
+   "definition": "rice cooker"
+  },
+  {
+   "id": "ch15_v11",
+   "partOfSpeech": "noun",
+   "kanji": "食器",
+   "kana": "しょっき",
+   "romaji": "shokki",
+   "definition": "tableware; dishes"
+  },
+  {
+   "id": "ch15_v12",
+   "partOfSpeech": "noun",
+   "kanji": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "definition": "detergent"
+  },
+  {
+   "id": "ch15_v13",
+   "partOfSpeech": "noun",
+   "kanji": "ゴミ",
+   "kana": "ゴミ",
+   "romaji": "gomi",
+   "definition": "garbage; trash"
+  },
+  {
+   "id": "ch15_v14",
+   "partOfSpeech": "noun",
+   "kanji": "ゴミ箱",
+   "kana": "ゴミばこ",
+   "romaji": "gomibako",
+   "definition": "trash can"
+  },
+  {
+   "id": "ch15_v15",
+   "partOfSpeech": "noun",
+   "kanji": "布団",
+   "kana": "ふとん",
+   "romaji": "futon",
+   "definition": "futon"
+  },
+  {
+   "id": "ch15_v16",
+   "partOfSpeech": "noun",
+   "kanji": "枕",
+   "kana": "まくら",
+   "romaji": "makura",
+   "definition": "pillow"
+  },
+  {
+   "id": "ch15_v17",
+   "partOfSpeech": "noun",
+   "kanji": "毛布",
+   "kana": "もうふ",
+   "romaji": "moufu",
+   "definition": "blanket"
+  },
+  {
+   "id": "ch15_v18",
+   "partOfSpeech": "verb",
+   "kanji": "掃く",
+   "kana": "はく",
+   "romaji": "haku",
+   "definition": "to sweep"
+  },
+  {
+   "id": "ch15_v19",
+   "partOfSpeech": "verb",
+   "kanji": "拭く",
+   "kana": "ふく",
+   "romaji": "fuku",
+   "definition": "to wipe"
+  },
+  {
+   "id": "ch15_v20",
+   "partOfSpeech": "verb",
+   "kanji": "磨く",
+   "kana": "みがく",
+   "romaji": "migaku",
+   "definition": "to polish; to brush"
+  },
+  {
+   "id": "ch15_v21",
+   "partOfSpeech": "verb",
+   "kanji": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "definition": "to tidy up"
+  },
+  {
+   "id": "ch15_v22",
+   "partOfSpeech": "verb",
+   "kanji": "捨てる",
+   "kana": "すてる",
+   "romaji": "suteru",
+   "definition": "to throw away"
+  },
+  {
+   "id": "ch15_v23",
+   "partOfSpeech": "verb",
+   "kanji": "干す",
+   "kana": "ほす",
+   "romaji": "hosu",
+   "definition": "to hang out to dry"
+  },
+  {
+   "id": "ch15_v24",
+   "partOfSpeech": "verb",
+   "kanji": "たたむ",
+   "kana": "たたむ",
+   "romaji": "tatamu",
+   "definition": "to fold"
+  },
+  {
+   "id": "ch15_v25",
+   "partOfSpeech": "verb",
+   "kanji": "並べる",
+   "kana": "ならべる",
+   "romaji": "naraberu",
+   "definition": "to line up; to arrange"
+  },
+  {
+   "id": "ch15_v26",
+   "partOfSpeech": "verb",
+   "kanji": "沸かす",
+   "kana": "わかす",
+   "romaji": "wakasu",
+   "definition": "to boil (water)"
+  },
+  {
+   "id": "ch15_v27",
+   "partOfSpeech": "verb",
+   "kanji": "温める",
+   "kana": "あたためる",
+   "romaji": "atatameru",
+   "definition": "to warm up"
+  },
+  {
+   "id": "ch15_v28",
+   "partOfSpeech": "verb",
+   "kanji": "冷やす",
+   "kana": "ひやす",
+   "romaji": "hiyasu",
+   "definition": "to chill; to cool"
+  },
+  {
+   "id": "ch15_v29",
+   "partOfSpeech": "verb",
+   "kanji": "掛ける",
+   "kana": "かける",
+   "romaji": "kakeru",
+   "definition": "to hang"
+  },
+  {
+   "id": "ch15_v30",
+   "partOfSpeech": "verb",
+   "kanji": "しまう",
+   "kana": "しまう",
+   "romaji": "shimau",
+   "definition": "to put away"
+  },
+  {
+   "id": "ch15_v31",
+   "partOfSpeech": "verb",
+   "kanji": "汚れる",
+   "kana": "よごれる",
+   "romaji": "yogoreru",
+   "definition": "to get dirty"
+  },
+  {
+   "id": "ch15_v32",
+   "partOfSpeech": "verb",
+   "kanji": "汚す",
+   "kana": "よごす",
+   "romaji": "yogosu",
+   "definition": "to make dirty"
+  },
+  {
+   "id": "ch15_v33",
+   "partOfSpeech": "verb",
+   "kanji": "濡れる",
+   "kana": "ぬれる",
+   "romaji": "nureru",
+   "definition": "to get wet"
+  },
+  {
+   "id": "ch15_v34",
+   "partOfSpeech": "verb",
+   "kanji": "乾く",
+   "kana": "かわく",
+   "romaji": "kawaku",
+   "definition": "to dry; to become dry"
+  },
+  {
+   "id": "ch15_v35",
+   "partOfSpeech": "noun",
+   "kanji": "雑巾",
+   "kana": "ぞうきん",
+   "romaji": "zoukin",
+   "definition": "cleaning rag"
+  },
+  {
+   "id": "ch15_v36",
+   "partOfSpeech": "noun",
+   "kanji": "バケツ",
+   "kana": "バケツ",
+   "romaji": "baketsu",
+   "definition": "bucket"
+  },
+  {
+   "id": "ch15_v37",
+   "partOfSpeech": "noun",
+   "kanji": "棚",
+   "kana": "たな",
+   "romaji": "tana",
+   "definition": "shelf"
+  },
+  {
+   "id": "ch15_v38",
+   "partOfSpeech": "noun",
+   "kanji": "引き出し",
+   "kana": "ひきだし",
+   "romaji": "hikidashi",
+   "definition": "drawer"
+  },
+  {
+   "id": "ch15_v39",
+   "partOfSpeech": "noun",
+   "kanji": "押し入れ",
+   "kana": "おしいれ",
+   "romaji": "oshiire",
+   "definition": "closet (for bedding)"
+  },
+  {
+   "id": "ch15_v40",
+   "partOfSpeech": "noun",
+   "kanji": "蛇口",
+   "kana": "じゃぐち",
+   "romaji": "jaguchi",
+   "definition": "faucet; tap"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "事",
+   "word": "事",
+   "reading": "こと",
+   "meaning": "thing"
+  },
+  {
+   "char": "用",
+   "word": "用事",
+   "reading": "ようじ",
+   "meaning": "errand; task"
+  },
+  {
+   "char": "知",
+   "word": "知る",
+   "reading": "しる",
+   "meaning": "to be aware of"
+  },
+  {
+   "char": "英",
+   "word": "英",
+   "reading": "はなぶさ",
+   "meaning": "England"
+  },
+  {
+   "char": "字",
+   "word": "字",
+   "reading": "あざ",
+   "meaning": "character"
+  },
+  {
+   "char": "夜",
+   "word": "夜",
+   "reading": "よる",
+   "meaning": "evening"
+  },
+  {
+   "char": "悪",
+   "word": "悪い",
+   "reading": "わるい",
+   "meaning": "bad"
+  },
+  {
+   "char": "夕",
+   "word": "夕べ",
+   "reading": "ゆうべ",
+   "meaning": "evening"
+  },
+  {
+   "char": "飯",
+   "word": "飯",
+   "reading": "はん",
+   "meaning": "meal"
+  },
+  {
+   "char": "妹",
+   "word": "妹",
+   "reading": "いもうと",
+   "meaning": "younger sister"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "事",
+   "kana": "こと",
+   "romaji": "koto",
+   "meaning": "thing",
+   "chars": [
+    "事"
+   ]
+  },
+  {
+   "word": "用事",
+   "kana": "ようじ",
+   "romaji": "youji",
+   "meaning": "errand; task",
+   "chars": [
+    "用",
+    "事"
+   ]
+  },
+  {
+   "word": "知る",
+   "kana": "しる",
+   "romaji": "shiru",
+   "meaning": "to be aware of",
+   "chars": [
+    "知"
+   ]
+  },
+  {
+   "word": "英",
+   "kana": "はなぶさ",
+   "romaji": "hanabusa",
+   "meaning": "England",
+   "chars": [
+    "英"
+   ]
+  },
+  {
+   "word": "字",
+   "kana": "あざ",
+   "romaji": "aza",
+   "meaning": "character",
+   "chars": [
+    "字"
+   ]
+  },
+  {
+   "word": "夜",
+   "kana": "よる",
+   "romaji": "yoru",
+   "meaning": "evening",
+   "chars": [
+    "夜"
+   ]
+  },
+  {
+   "word": "悪い",
+   "kana": "わるい",
+   "romaji": "warui",
+   "meaning": "bad",
+   "chars": [
+    "悪"
+   ]
+  },
+  {
+   "word": "夕べ",
+   "kana": "ゆうべ",
+   "romaji": "yuube",
+   "meaning": "evening",
+   "chars": [
+    "夕"
+   ]
+  },
+  {
+   "word": "飯",
+   "kana": "はん",
+   "romaji": "han",
+   "meaning": "meal",
+   "chars": [
+    "飯"
+   ]
+  },
+  {
+   "word": "妹",
+   "kana": "いもうと",
+   "romaji": "imouto",
+   "meaning": "younger sister",
+   "chars": [
+    "妹"
+   ]
+  },
+  {
+   "word": "用",
+   "kana": "よう",
+   "romaji": "you",
+   "meaning": "business",
+   "chars": [
+    "用"
+   ]
+  },
+  {
+   "word": "知恵",
+   "kana": "ちえ",
+   "romaji": "chie",
+   "meaning": "wisdom",
+   "chars": [
+    "知"
+   ]
+  },
+  {
+   "word": "知らせる",
+   "kana": "しらせる",
+   "romaji": "shiraseru",
+   "meaning": "to notify",
+   "chars": [
+    "知"
+   ]
+  },
+  {
+   "word": "知らせ",
+   "kana": "しらせ",
+   "romaji": "shirase",
+   "meaning": "news",
+   "chars": [
+    "知"
+   ]
+  },
+  {
+   "word": "知事",
+   "kana": "ちじ",
+   "romaji": "chiji",
+   "meaning": "prefectural governor",
+   "chars": [
+    "知",
+    "事"
+   ]
+  },
+  {
+   "word": "字幕",
+   "kana": "じまく",
+   "romaji": "jimaku",
+   "meaning": "subtitles",
+   "chars": [
+    "字"
+   ]
+  },
+  {
+   "word": "夜中",
+   "kana": "よなか",
+   "romaji": "yonaka",
+   "meaning": "middle of the night",
+   "chars": [
+    "夜",
+    "中"
+   ]
+  },
+  {
+   "word": "夕食",
+   "kana": "ゆうしょく",
+   "romaji": "yuushoku",
+   "meaning": "evening meal",
+   "chars": [
+    "夕",
+    "食"
+   ]
+  },
+  {
+   "word": "夕飯",
+   "kana": "ゆうはん",
+   "romaji": "yuuhan",
+   "meaning": "evening meal",
+   "chars": [
+    "夕",
+    "飯"
+   ]
+  },
+  {
+   "word": "夕日",
+   "kana": "ゆうひ",
+   "romaji": "yuuhi",
+   "meaning": "evening sun",
+   "chars": [
+    "夕",
+    "日"
+   ]
+  },
+  {
+   "word": "七夕",
+   "kana": "たなばた",
+   "romaji": "tanabata",
+   "meaning": "Star Festival (held in July or August)",
+   "chars": [
+    "七",
+    "夕"
+   ]
+  },
+  {
+   "word": "飯",
+   "kana": "めし",
+   "romaji": "meshi",
+   "meaning": "cooked rice",
+   "chars": [
+    "飯"
+   ]
+  },
+  {
+   "word": "冷やす",
+   "kana": "ひやす",
+   "romaji": "hiyasu",
+   "meaning": "to cool (from room temperature)",
+   "chars": [
+    "冷"
+   ]
+  },
+  {
+   "word": "押し入れ",
+   "kana": "おしいれ",
+   "romaji": "oshiire",
+   "meaning": "closet",
+   "chars": [
+    "押",
+    "入"
+   ]
+  },
+  {
+   "word": "雑巾",
+   "kana": "ぞうきん",
+   "romaji": "zoukin",
+   "meaning": "house-cloth",
+   "chars": [
+    "雑"
+   ]
+  },
+  {
+   "word": "洗濯",
+   "kana": "せんたく",
+   "romaji": "sentaku",
+   "meaning": "washing",
+   "chars": [
+    "洗",
+    "濯"
+   ]
+  },
+  {
+   "word": "洗濯機",
+   "kana": "せんたくき",
+   "romaji": "sentakuki",
+   "meaning": "washing machine (laundry)",
+   "chars": [
+    "洗",
+    "濯",
+    "機"
+   ]
+  },
+  {
+   "word": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "meaning": "detergent",
+   "chars": [
+    "洗"
+   ]
+  },
+  {
+   "word": "冷蔵庫",
+   "kana": "れいぞうこ",
+   "romaji": "reizouko",
+   "meaning": "refrigerator",
+   "chars": [
+    "冷",
+    "蔵",
+    "庫"
+   ]
+  },
+  {
+   "word": "布団",
+   "kana": "ふとん",
+   "romaji": "futon",
+   "meaning": "futon",
+   "chars": [
+    "布",
+    "団"
+   ]
+  },
+  {
+   "word": "汚す",
+   "kana": "よごす",
+   "romaji": "yogosu",
+   "meaning": "to pollute",
+   "chars": [
+    "汚"
+   ]
+  },
+  {
+   "word": "汚れる",
+   "kana": "よごれる",
+   "romaji": "yogoreru",
+   "meaning": "to get dirty",
+   "chars": [
+    "汚"
+   ]
+  },
+  {
+   "word": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "meaning": "to tidy up",
+   "chars": [
+    "片",
+    "付"
+   ]
+  },
+  {
+   "word": "毛布",
+   "kana": "もうふ",
+   "romaji": "moufu",
+   "meaning": "blanket",
+   "chars": [
+    "毛",
+    "布"
+   ]
+  },
+  {
+   "word": "掃除",
+   "kana": "そうじ",
+   "romaji": "souji",
+   "meaning": "cleaning",
+   "chars": [
+    "掃",
+    "除"
+   ]
+  },
+  {
+   "word": "掃除機",
+   "kana": "そうじき",
+   "romaji": "soujiki",
+   "meaning": "vacuum cleaner",
+   "chars": [
+    "掃",
+    "除",
+    "機"
+   ]
+  },
+  {
+   "word": "沸かす",
+   "kana": "わかす",
+   "romaji": "wakasu",
+   "meaning": "to boil",
+   "chars": [
+    "沸"
+   ]
+  }
+ ]
 }
