@@ -26,6 +26,11 @@ struct LessonChapter: Codable, Identifiable {
     let points: [GrammarPoint]
     let vocab: [LessonVocabWord]?
     let kanji: [ChapterKanji]?                 // kanji assigned to this chapter (same N-level)
+    /// The chapter's kanji taught as *words* — the unit the lessons, decks and
+    /// tests now work in. Generated from the kanji entries plus every essential
+    /// example word assigned to this chapter; `kanji` remains the char-level
+    /// truth of which characters this chapter introduces.
+    let kanjiWords: [ChapterKanjiWord]?
     let chapterPractice: [PracticeQuestion]?  // chapter-level practice (used by kana lessons)
 
     /// Just the characters, for the several places that only need the list.
@@ -39,6 +44,27 @@ struct LessonChapter: Codable, Identifiable {
 /// is ふん, "minute" — not 分ける, which is true of the character and useless to
 /// someone who has just learned to read a clock. Tests and reviews ask from
 /// here so that what they ask is what was taught.
+/// One kanji word a chapter teaches — the unit of the reworked kanji study.
+///
+/// Kanji are taught as parts of real words rather than as bare symbols: the
+/// flashcard front is the word, the reveal is its reading and meaning, and
+/// `chars` links back to the kanji card(s) it contains. A single character
+/// appears alone only when it *is* a word (車 the car), never as a fragment
+/// (no bare 食).
+struct ChapterKanjiWord: Codable, Hashable, Identifiable {
+    let word: String
+    let kana: String
+    let romaji: String
+    let meaning: String
+    /// The taught kanji appearing in the word, in word order — each resolves to
+    /// a kanji card the flashcard can open.
+    let chars: [String]
+
+    /// Shares the id space of `KanjiWordCard` (and so of kanji checkmarks and
+    /// study weights): the same word is the same card everywhere.
+    var id: String { "kw:\(word)|\(kana)" }
+}
+
 struct ChapterKanji: Codable, Hashable, Identifiable {
     let char: String
     /// The form the learner meets it in — 高い rather than a bare 高.

@@ -1,1537 +1,2158 @@
 {
-  "id": "ch31",
-  "chapterNumber": 33,
-  "title": "Degree and Extent",
-  "points": [
+ "id": "ch31",
+ "chapterNumber": 33,
+ "title": "Degree and Extent",
+ "points": [
+  {
+   "id": "hodo-nai",
+   "name": "〜ほど〜ない (hodo...nai) — not as...as",
+   "shortDescription": "Negative comparison stating A is not as [quality] as B — and a family of degree expressions built around extent.",
+   "formation": "A は B ほど + adjective + ない / Noun ほど + negative predicate",
+   "explanation": "ほど measures degree and extent, and 〜ほど〜ない is its negative comparison form: A は B ほど + negative adjective = A is not as [adj] as B. 今日[きょう]は昨日[きのう]ほど寒[さむ]くない: today doesn't reach yesterday's level of cold. Note the contrast with より, the positive comparison particle — 今日[きょう]は昨日[きのう]より暖[あたた]かい (today is warmer than yesterday).\n\nBut ほど's range goes well beyond simple comparison. In positive sentences, 死[し]ぬほど疲[つか]れた means 'tired to the point of dying' — an extreme degree expressed through a vivid benchmark. The proportional pattern 〜ば〜ほど (the more X, the more Y) shows degree tracking degree: 練習[れんしゅう]すればするほど、上手[じょうず]になる (the more you practice, the better you get). And これほど〜ない is a superlative denial — 'nothing reaches this degree of [adj].' All these patterns share ほど's core DNA: measuring how far something sits along a scale.",
+   "rules": [
+    "A は B ほど + negative adjective = A is not as [adj] as B",
+    "Positive extent: 〜ほど = to the extent of / as much as: 死[し]ぬほど疲[つか]れた",
+    "Proportional: 〜ば〜ほど = the more...the more... (degree increases proportionally)",
+    "Noun + ほど + negative = nothing is as [adj] as [noun]: これほど難[むずか]しいものはない",
+    "ほど marks the degree or extent — used in various sentence patterns"
+   ],
+   "examples": [
     {
-      "id": "hodo-nai",
-      "name": "〜ほど〜ない (hodo...nai) — not as...as",
-      "shortDescription": "Negative comparison stating A is not as [quality] as B — and a family of degree expressions built around extent.",
-      "formation": "A は B ほど + adjective + ない / Noun ほど + negative predicate",
-      "explanation": "ほど measures degree and extent, and 〜ほど〜ない is its negative comparison form: A は B ほど + negative adjective = A is not as [adj] as B. 今日[きょう]は昨日[きのう]ほど寒[さむ]くない: today doesn't reach yesterday's level of cold. Note the contrast with より, the positive comparison particle — 今日[きょう]は昨日[きのう]より暖[あたた]かい (today is warmer than yesterday).\n\nBut ほど's range goes well beyond simple comparison. In positive sentences, 死[し]ぬほど疲[つか]れた means 'tired to the point of dying' — an extreme degree expressed through a vivid benchmark. The proportional pattern 〜ば〜ほど (the more X, the more Y) shows degree tracking degree: 練習[れんしゅう]すればするほど、上手[じょうず]になる (the more you practice, the better you get). And これほど〜ない is a superlative denial — 'nothing reaches this degree of [adj].' All these patterns share ほど's core DNA: measuring how far something sits along a scale.",
-      "rules": [
-        "A は B ほど + negative adjective = A is not as [adj] as B",
-        "Positive extent: 〜ほど = to the extent of / as much as: 死[し]ぬほど疲[つか]れた",
-        "Proportional: 〜ば〜ほど = the more...the more... (degree increases proportionally)",
-        "Noun + ほど + negative = nothing is as [adj] as [noun]: これほど難[むずか]しいものはない",
-        "ほど marks the degree or extent — used in various sentence patterns"
-      ],
-      "examples": [
-        {
-          "japanese": "今日[きょう]は昨日[きのう]ほど寒[さむ]くないですね。",
-          "romaji": "Kyou wa kinou hodo samuku nai desu ne.",
-          "english": "Today is not as cold as yesterday, is it."
-        },
-        {
-          "japanese": "この映画[えいが]は思[おも]ったほどおもしろくなかったです。",
-          "romaji": "Kono eiga wa omotta hodo omoshiroku nakatta desu.",
-          "english": "This movie wasn't as interesting as I expected."
-        },
-        {
-          "japanese": "練習[れんしゅう]すればするほど、上手[じょうず]になりますよ。",
-          "romaji": "Renshuu sureba suru hodo, jouzu ni narimasu yo.",
-          "english": "The more you practice, the better you'll get."
-        },
-        {
-          "japanese": "これほど感動[かんどう]した映画[えいが]は今[いま]まで見[み]たことがありません。",
-          "romaji": "Kore hodo kandou shita eiga wa ima made mita koto ga arimasen.",
-          "english": "I have never seen a movie that moved me this much."
-        }
-      ],
-      "flashcardHeader": "〜ほど〜ない",
-      "flashcardAnswer": "Negative comparison: A is not as [quality] as B — and a family of degree expressions built around extent.",
-      "practice": [
-        {
-          "id": "hodo-nai_q1",
-          "type": "usage",
-          "prompt": "What does 〜ほど〜ない mean?",
-          "japanese": null,
-          "choices": [
-            "more than X",
-            "not as [much] as X (X is the upper comparison — Y is less than X)",
-            "just as much as X",
-            "more than even X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ほど〜ない = not as ~ as X. AはBほど〜ない = A is not as  as B (B is more). 東京[とうきょう]は大阪[おおさか]ほど暑[あつ]くない = Tokyo is not as hot as Osaka (Osaka is hotter)."
-        },
-        {
-          "id": "hodo-nai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'This test is not as hard as the last one'?",
-          "japanese": null,
-          "choices": [
-            "このテストは前[まえ]のテストほど難[むずか]しくない。",
-            "このテストは前[まえ]のテストよりほど難[むずか]しくない。",
-            "このテストは前[まえ]のテストほどに難[むずか]しくない。",
-            "このテストは前[まえ]のテストをほど難[むずか]しくない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + negative adjective: このテスト (A) + は + 前[まえ]のテスト (B) + ほど + 難[むずか]しくない (not hard). Pattern: A は B ほど〜ない."
-        },
-        {
-          "id": "hodo-nai_q3",
-          "type": "translation",
-          "prompt": "Which means 'Nothing is as important as health'?",
-          "japanese": null,
-          "choices": [
-            "健康[けんこう]ほど大切[たいせつ]なものはない。",
-            "健康[けんこう]はどんなものより大切[たいせつ]だ。",
-            "健康[けんこう]ほど大切[たいせつ]なものがある。",
-            "健康[けんこう]はどんなものほど大切[たいせつ]ではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Nothing is as ~ as X = Xほど〜なものはない. 健康[けんこう]ほど大切[たいせつ]なものはない = there is nothing as important as health. This is a strong emphatic pattern."
-        },
-        {
-          "id": "hodo-nai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'She doesn't eat as much as him'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は彼[かれ]ほどたくさん食[た]べない。",
-            "彼女[かのじょ]は彼[かれ]よりほどたくさん食[た]べない。",
-            "彼女[かのじょ]は彼[かれ]ほどにたくさん食[た]べない。",
-            "彼女[かのじょ]は彼[かれ]をほどたくさん食[た]べない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + negative verb/adj: 彼女[かのじょ] (A) + は + 彼[かれ] (B) + ほど + たくさん食[た]べない (doesn't eat much). Subject doesn't reach the comparison standard."
-        },
-        {
-          "id": "hodo-nai_q5",
-          "type": "usage",
-          "prompt": "What particle does ほど attach to in the comparison pattern 〜ほど〜ない?",
-          "japanese": null,
-          "choices": [
-            "ほど attaches directly to nouns (no particle needed between noun and ほど)",
-            "ほど requires の before it, with no exceptions in modern standard Japanese.",
-            "ほど requires が before it",
-            "ほど requires を before it"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ほど (directly, no particle): 日本語[にほんご]ほど難[むずか]しい言語[げんご]はない = there is no language as difficult as Japanese. ほど attaches directly to nouns in this pattern."
-        },
-        {
-          "id": "hodo-nai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'No one works as hard as him'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]ほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
-            "彼[かれ]よりほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
-            "彼[かれ]ほどに一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
-            "彼[かれ]をほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Xほど〜人[ひと]はいない = there is no person as ~ as X. 彼[かれ]ほど (as  him) + 一生懸命[いっしょうけんめい]働[はたら]く (works hard) + 人[ひと]はいない (no person). Strong emphatic."
-        },
-        {
-          "id": "hodo-nai_q7",
-          "type": "translation",
-          "prompt": "Which means 'Japanese winter is not as cold as Hokkaido'?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]くない。",
-            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]より寒[さむ]くない。",
-            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]い。",
-            "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]よりほど寒[さむ]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + negative adj: 日本[にほん]の冬[ふゆ] (A) + は + 北海道[ほっかいどう] (B) + ほど + 寒[さむ]くない (not cold). Hokkaido is colder."
-        },
-        {
-          "id": "hodo-nai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'The second floor is not as noisy as the first floor'?",
-          "japanese": null,
-          "choices": [
-            "二階[にかい]は一階[いっかい]ほどうるさくない。",
-            "二階[にかい]は一階[いっかい]よりほどうるさくない。",
-            "二階[にかい]は一階[いっかい]ほどにうるさくない。",
-            "二階[にかい]は一階[いっかい]をほどうるさくない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + neg adj: 二階[にかい] (A) + は + 一階[いっかい] (B) + ほど + うるさくない (not noisy). First floor is noisier."
-        },
-        {
-          "id": "hodo-nai_q9",
-          "type": "usage",
-          "prompt": "What is the difference between 〜ほど〜ない and 〜より?",
-          "japanese": null,
-          "choices": [
-            "They mean the same thing",
-            "ほど〜ない = not as ~ as B (focusing on A falling short); より = A is more ~ than B (direct comparison going the other way)",
-            "ほど〜ない is more polite",
-            "より can only be used with な-adjectives — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "ほど〜ない focuses on A not reaching B's level: AはBほど速[はや]くない = A is not as fast as B (B is faster). より makes a direct positive comparison: AはBより速[はや]い = A is faster than B. They point in opposite directions."
-        },
-        {
-          "id": "hodo-nai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Nothing is as scary as an earthquake'?",
-          "japanese": null,
-          "choices": [
-            "地震[じしん]ほど怖[こわ]いものはない。",
-            "地震[じしん]よりほど怖[こわ]いものはない。",
-            "地震[じしん]ほどに怖[こわ]いものはない。",
-            "地震[じしん]をほど怖[こわ]いものはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Xほど〜ものはない = nothing is as ~ as X (emphatic). 地震[じしん]ほど (as  an earthquake) + 怖[こわ]いものはない (there is no scary thing). Classic emphatic pattern."
-        },
-        {
-          "id": "hodo-nai_q11",
-          "type": "translation",
-          "prompt": "Which means 'My dog is not as big as yours'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]の犬[いぬ]はあなたの犬[いぬ]ほど大[おお]きくない。",
-            "私[わたし]の犬[いぬ]はあなたの犬[いぬ]より大[おお]きくない。",
-            "私[わたし]の犬[いぬ]はあなたの犬[いぬ]ほど大[おお]きい。",
-            "私[わたし]の犬[いぬ]はあなたの犬[いぬ]よりほど大[おお]きくない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + neg adj: 私[わたし]の犬[いぬ] (A) + は + あなたの犬[いぬ] (B) + ほど + 大[おお]きくない (not big). My dog doesn't reach your dog's size."
-        },
-        {
-          "id": "hodo-nai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'This movie is not as interesting as the book'?",
-          "japanese": null,
-          "choices": [
-            "この映画[えいが]は本[ほん]ほど面白[おもしろ]くない。",
-            "この映画[えいが]は本[ほん]よりほど面白[おもしろ]くない。",
-            "この映画[えいが]は本[ほん]ほどに面白[おもしろ]くない。",
-            "この映画[えいが]は本[ほん]をほど面白[おもしろ]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + neg adj: この映画[えいが] (A) + は + 本[ほん] (B) + ほど + 面白[おもしろ]くない. The book is more interesting."
-        },
-        {
-          "id": "hodo-nai_q13",
-          "type": "usage",
-          "prompt": "Which emphatic form means 'There is nothing as delicious as ramen'?",
-          "japanese": null,
-          "choices": [
-            "ラーメンほど美味[おい]しいものはない。",
-            "ラーメンよりも美味[おい]しいものはない。",
-            "ラーメンがほど美味[おい]しいものはない。",
-            "ラーメンをほど美味[おい]しいものはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Xほど〜ものはない: ラーメンほど (as delicious as ramen) + 美味[おい]しいものはない (there is no delicious thing). Emphatic: ramen is the ultimate delicious thing."
-        },
-        {
-          "id": "hodo-nai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Osaka is not as expensive as Tokyo'?",
-          "japanese": null,
-          "choices": [
-            "大阪[おおさか]は東京[とうきょう]ほど物価[ぶっか]が高[たか]くない。",
-            "大阪[おおさか]は東京[とうきょう]より物価[ぶっか]が高[たか]くない。",
-            "大阪[おおさか]は東京[とうきょう]ほどに物価[ぶっか]が高[たか]くない。",
-            "大阪[おおさか]は東京[とうきょう]をほど物価[ぶっか]が高[たか]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + neg expression: 大阪[おおさか] (A) + は + 東京[とうきょう] (B) + ほど + 物価[ぶっか]が高[たか]くない (prices not high). Tokyo is more expensive."
-        },
-        {
-          "id": "hodo-nai_q15",
-          "type": "translation",
-          "prompt": "Which means 'His Japanese is not as good as I thought'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の日本語[にほんご]は思[おも]ったほど上手[うま]くない。",
-            "彼[かれ]の日本語[にほんご]は思[おも]ったより上手[うま]くない。",
-            "彼[かれ]の日本語[にほんご]は思[おも]ったほどに上手[うま]くない。",
-            "彼[かれ]の日本語[にほんご]は思[おも]ったをほど上手[うま]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜たほど〜ない = not as ~ as I . 思[おも]ったほど = as  thought. 上手[うま]くない = not skilled. His Japanese fell short of my expectation."
-        },
-        {
-          "id": "hodo-nai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Kyoto is not as hot as Osaka in summer'?",
-          "japanese": null,
-          "choices": [
-            "京都[きょうと]は夏[なつ]、大阪[おおさか]ほど暑[あつ]くない。",
-            "京都[きょうと]は夏[なつ]、大阪[おおさか]より暑[あつ]くない。",
-            "京都[きょうと]は夏[なつ]、大阪[おおさか]ほどに暑[あつ]くない。",
-            "京都[きょうと]は夏[なつ]、大阪[おおさか]をほど暑[あつ]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + は + B + ほど + neg adj: 京都[きょうと] (A) + は + 大阪[おおさか] (B) + ほど + 暑[あつ]くない. Osaka is hotter in summer."
-        },
-        {
-          "id": "hodo-nai_q17",
-          "type": "usage",
-          "prompt": "Which pattern using ほど expresses 'the more you do X, the more Y'?",
-          "japanese": null,
-          "choices": [
-            "Xほど〜ない",
-            "Xほど〜Y",
-            "Xも〜ほど",
-            "Xがほど〜Y"
-          ],
-          "correctIndex": 1,
-          "explanation": "X ほど Y (with positive clauses, no ない) expresses 'the more X, the more Y': 勉強[べんきょう]するほど上手[うま]くなる = the more you study, the better you get. This is a DIFFERENT use from the comparison pattern. ほど can express both comparison (with ない) and proportional increase (without ない)."
-        },
-        {
-          "id": "hodo-nai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no friend as reliable as him'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]ほど頼[たよ]りになる友達[ともだち]はいない。",
-            "彼[かれ]よりほど頼[たよ]りになる友達[ともだち]はいない。",
-            "彼[かれ]ほどに頼[たよ]りになる友達[ともだち]はいない。",
-            "彼[かれ]をほど頼[たよ]りになる友達[ともだち]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Xほど〜人[ひと]/友達[ともだち]はいない = there is no person/friend as ~ as X. 彼[かれ]ほど (as reliable as him) + 頼[たよ]りになる (reliable) + 友達[ともだち]はいない (no friend). Emphatic comparison."
-        },
-        {
-          "id": "hodo-nai_q19",
-          "type": "translation",
-          "prompt": "Which means 'The weather wasn't as bad as I expected'?",
-          "japanese": null,
-          "choices": [
-            "天気[てんき]は思[おも]ったほど悪[わる]くなかった。",
-            "天気[てんき]は思[おも]ったより悪[わる]くなかった。",
-            "天気[てんき]は思[おも]ったほどに悪[わる]くなかった。",
-            "天気[てんき]は思[おも]ったをほど悪[わる]くなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜たほど〜なかった = wasn't as ~ as . 思[おも]ったほど = as bad as I thought. 悪[わる]くなかった = wasn't bad. The weather fell short of my bad expectation (it was better than feared)."
-        },
-        {
-          "id": "hodo-nai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'The homework was not as difficult as I imagined'?",
-          "japanese": null,
-          "choices": [
-            "宿題[しゅくだい]は思[おも]ったほど難[むずか]しくなかった。",
-            "宿題[しゅくだい]は思[おも]ったより難[むずか]しくなかった。",
-            "宿題[しゅくだい]は思[おも]ったほどに難[むずか]しくなかった。",
-            "宿題[しゅくだい]は思[おも]ったをほど難[むずか]しくなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜たほど〜なかった: 思[おも]った (thought) + ほど + 難[むずか]しくなかった (wasn't difficult). The homework fell short of the imagined difficulty. 思[おも]ったほど = not as ~ as I thought."
-        }
-      ]
+     "japanese": "今日[きょう]は昨日[きのう]ほど寒[さむ]くないですね。",
+     "romaji": "Kyou wa kinou hodo samuku nai desu ne.",
+     "english": "Today is not as cold as yesterday, is it."
     },
     {
-      "id": "sae-ba",
-      "name": "〜さえ〜ば (sae...ba) — if only / as long as",
-      "shortDescription": "Pinpoints one condition as all that's needed: 'if only X / as long as X, everything else follows'.",
-      "formation": "Noun + さえ + negative / ば-form  |  Verb stem + さえすれば  |  い-adj stem + くさえあれば",
-      "explanation": "さえ is a particle of focus — and in the さえ〜ば pattern, that focus sharpens to a single point: this one condition alone is all that stands between the present situation and the desired outcome. 時間[じかん]さえあれば、行[い]けるんですが: time is the only missing piece. Supply it and the problem resolves. 彼さえいれば、何[なん]でもできる: his presence alone is sufficient. The elegance of さえ〜ば is in the economy — you're not listing requirements, you're naming the keystone.\n\nさえ also lives a second life as 'even' (inclusive of extremes): 子[こ]どもさえ知[し]っている (even children know it). But in the さえ〜ば pattern, the focus is entirely on sufficiency, not inclusivity. Formation: nouns attach さえ directly; verbs use stem + さえすれば; い-adjectives use stem + くさえあれば. The negative 〜さえ〜なければ reverses the logic: 'as long as X doesn't exist — as long as we can avoid that one thing.'",
-      "rules": [
-        "Noun + さえ + ば-form = if only [noun condition] is met, X follows",
-        "Verb stem + さえすれば = if only [action] is done",
-        "Implies this one condition alone is sufficient — nothing else is needed",
-        "さえ alone = 'even' (inclusive of extreme): 子[こ]どもさえ知[し]っている",
-        "〜さえ〜なければ = as long as [condition] doesn't exist"
-      ],
-      "examples": [
-        {
-          "japanese": "時間[じかん]さえあれば、毎日[まいにち]日本語[にほんご]を勉強[べんきょう]したいです。",
-          "romaji": "Jikan sae areba, mainichi nihongo wo benkyou shitai desu.",
-          "english": "If only I had time, I'd want to study Japanese every day."
-        },
-        {
-          "japanese": "健康[けんこう]でさえあれば、他[ほか]には何[なに]もいりません。",
-          "romaji": "Kenkou de sae areba, hoka ni wa nani mo irimasen.",
-          "english": "As long as I'm healthy, I don't need anything else."
-        },
-        {
-          "japanese": "この道具[どうぐ]さえあれば、簡単[かんたん]に修理[しゅうり]できますよ。",
-          "romaji": "Kono dougu sae areba, kantan ni shuuri dekimasu yo.",
-          "english": "With just this tool, you can fix it easily."
-        },
-        {
-          "japanese": "あなたさえよければ、いつでも出発[しゅっぱつ]できます。",
-          "romaji": "Anata sae yokereba, itsudemo shuppatsu dekimasu.",
-          "english": "As long as you're ready, we can depart any time."
-        }
-      ],
-      "flashcardHeader": "〜さえ〜ば",
-      "flashcardAnswer": "Highlights one condition as the sole thing needed: 'if only X / as long as X'.",
-      "practice": [
-        {
-          "id": "sae-ba_q1",
-          "type": "usage",
-          "prompt": "What does 〜さえ〜ば mean?",
-          "japanese": null,
-          "choices": [
-            "not even if",
-            "as long as / if only (the minimum condition needed for Y to happen)",
-            "even though",
-            "whenever"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜さえ〜ば = as long as / if only . お金[かね]さえあれば、何[なん]でも買[か]える = if only I had money, I could buy anything. さえ marks the minimum sufficient condition."
-        },
-        {
-          "id": "sae-ba_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only you have time, it's fine'?",
-          "japanese": null,
-          "choices": [
-            "時間[じかん]さえあれば、大丈夫[だいじょうぶ]だ。",
-            "時間[じかん]もあれば、大丈夫[だいじょうぶ]だ。",
-            "時間[じかん]だけあれば、大丈夫[だいじょうぶ]だ。",
-            "時間[じかん]しかあれば、大丈夫[だいじょうぶ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + conditional: 時間[じかん] (time) + さえ + あれば (ば-conditional of ある) = 時間[じかん]さえあれば = if only there is time. さえ emphasizes the minimum required condition."
-        },
-        {
-          "id": "sae-ba_q3",
-          "type": "construct",
-          "prompt": "What is the ば-conditional form of 勉強[べんきょう]する for use with さえ?",
-          "japanese": null,
-          "choices": [
-            "勉強[べんきょう]するさえ",
-            "勉強[べんきょう]しさえすれば",
-            "勉強[べんきょう]しさえすれ",
-            "勉強[べんきょう]するさえすれば"
-          ],
-          "correctIndex": 1,
-          "explanation": "Verb + さえ: masu-stem + さえ + すれば (conditional of する). 勉強[べんきょう]する → 勉強[べんきょう]し + さえ + すれば = 勉強[べんきょう]しさえすれば = if only  study. The pattern for verbs is: masu-stem + さえ + すれば."
-        },
-        {
-          "id": "sae-ba_q4",
-          "type": "translation",
-          "prompt": "Which means 'If only I had health, nothing else matters'?",
-          "japanese": null,
-          "choices": [
-            "健康[けんこう]さえあれば、他[ほか]は何[なに]もいらない。",
-            "健康[けんこう]もあれば、他[ほか]は何[なに]もいらない。",
-            "健康[けんこう]だけあれば、他[ほか]は何[なに]もいらない。",
-            "健康[けんこう]があれば、他[ほか]は何[なに]もいらない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + あれば: 健康[けんこう] (health) + さえ + あれば = 健康[けんこう]さえあれば = if only there is health. 他[ほか]は何[なに]もいらない = nothing else is needed. さえ marks health as the only/minimum requirement."
-        },
-        {
-          "id": "sae-ba_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only you apologize, I'll forgive you'?",
-          "japanese": null,
-          "choices": [
-            "謝[あやま]りさえすれば、許[ゆる]してあげる。",
-            "謝[あやま]るさえすれば、許[ゆる]してあげる。",
-            "謝[あやま]りさえあれば、許[ゆる]してあげる。",
-            "謝[あやま]ることさえあれば、許[ゆる]してあげる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: 謝[あやま]る → 謝[あやま]り + さえ + すれば = 謝[あやま]りさえすれば = if only  apologize. すれば is the ば-conditional of する. Verb pattern: masu-stem + さえ + すれば."
-        },
-        {
-          "id": "sae-ba_q6",
-          "type": "usage",
-          "prompt": "What nuance does さえ add compared to just using ば alone?",
-          "japanese": null,
-          "choices": [
-            "さえ makes it more polite",
-            "さえ emphasizes the MINIMUM — this (and only this) is the single sufficient condition",
-            "さえ makes it hypothetical",
-            "さえ is the same as も in function, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "さえ emphasizes minimality and sufficiency: 'if only X (nothing else needed).' 時間[じかん]があれば大丈夫[だいじょうぶ] = it's fine if there's time; 時間[じかん]さえあれば大丈夫[だいじょうぶ] = as LONG AS there is just time (emphasizing it's the only/minimum requirement)."
-        },
-        {
-          "id": "sae-ba_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only I could speak Japanese, I'd be fine'?",
-          "japanese": null,
-          "choices": [
-            "日本語[にほんご]が話[はな]しさえすれば、大丈夫[だいじょうぶ]だ。",
-            "日本語[にほんご]さえ話[はな]せば、大丈夫[だいじょうぶ]だ。",
-            "日本語[にほんご]が話[はな]しさえあれば、大丈夫[だいじょうぶ]だ。",
-            "日本語[にほんご]を話[はな]しさえいれば、大丈夫[だいじょうぶ]だ。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Potential form + さえ + ば: 話[はな]せる → 話[はな]せ + ば = 話[はな]せば. 日本語[にほんご] + さえ + 話[はな]せば = 日本語[にほんご]さえ話[はな]せば = as long as I can speak Japanese. The noun takes さえ in this pattern."
-        },
-        {
-          "id": "sae-ba_q8",
-          "type": "translation",
-          "prompt": "Which means 'As long as you practice every day, you'll improve'?",
-          "japanese": null,
-          "choices": [
-            "毎日[まいにち]練習[れんしゅう]しさえすれば、上手[うま]くなる。",
-            "毎日[まいにち]練習[れんしゅう]するさえすれば、上手[うま]くなる。",
-            "毎日[まいにち]練習[れんしゅう]しさえあれば、上手[うま]くなる。",
-            "毎日[まいにち]練習[れんしゅう]さえすれば、上手[うま]くなる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: 練習[れんしゅう]する → 練習[れんしゅう]し + さえ + すれば = 練習[れんしゅう]しさえすれば = if only  practice. 毎日[まいにち]練習[れんしゅう]しさえすれば = as long as you practice every day."
-        },
-        {
-          "id": "sae-ba_q9",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only there was water, I could survive'?",
-          "japanese": null,
-          "choices": [
-            "水[みず]さえあれば、生[い]き延[の]びられる。",
-            "水[みず]もあれば、生[い]き延[の]びられる。",
-            "水[みず]だけあれば、生[い]き延[の]びられる。",
-            "水[みず]があれば、生[い]き延[の]びられる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + conditional: 水[みず] (water) + さえ + あれば = 水[みず]さえあれば = if only there is water. 生[い]き延[の]びられる = can survive. さえ emphasizes water as the minimum/only requirement."
-        },
-        {
-          "id": "sae-ba_q10",
-          "type": "usage",
-          "prompt": "Which correctly shows the verb pattern for さえ〜ば with 来[く]る (to come)?",
-          "japanese": null,
-          "choices": [
-            "来[こ]さえすれば",
-            "来[く]るさえすれば",
-            "きさえすれば",
-            "来[く]ることさえすれば"
-          ],
-          "correctIndex": 2,
-          "explanation": "Irregular verb 来[く]る: masu-stem is き. き + さえ + すれば = きさえすれば = if only  come. Masu-stem of 来[く]る is き, not 来[らい] or 来[く]る."
-        },
-        {
-          "id": "sae-ba_q11",
-          "type": "translation",
-          "prompt": "Which means 'As long as you try, you'll succeed'?",
-          "japanese": null,
-          "choices": [
-            "やりさえすれば、成功[せいこう]する。",
-            "やるさえすれば、成功[せいこう]する。",
-            "やりさえあれば、成功[せいこう]する。",
-            "やることさえあれば、成功[せいこう]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: やる → やり + さえ + すれば = やりさえすれば = if only  try/do. 成功[せいこう]する = succeed. As long as you make the effort, success follows."
-        },
-        {
-          "id": "sae-ba_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'As long as the key exists, I can open it'?",
-          "japanese": null,
-          "choices": [
-            "鍵[かぎ]さえあれば、開[あ]けられる。",
-            "鍵[かぎ]もあれば、開[あ]けられる。",
-            "鍵[かぎ]だけあれば、開[あ]けられる。",
-            "鍵[かぎ]があれば、開[あ]けられる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + あれば: 鍵[かぎ] (key) + さえ + あれば = 鍵[かぎ]さえあれば = as long as there is a key. 開[あ]けられる = can open. さえ emphasizes the key as the minimum sufficient condition."
-        },
-        {
-          "id": "sae-ba_q13",
-          "type": "usage",
-          "prompt": "さえ also has a meaning 'even / not even' (listing extreme examples). Which shows this 'even' meaning?",
-          "japanese": null,
-          "choices": [
-            "お金[かね]さえあれば、幸[しあわ]せだ。",
-            "子供[こども]さえ知[し]っている。(Even children know it.)",
-            "来[き]さえすれば、許[ゆる]す。",
-            "日本語[にほんご]さえ話[はな]せば、大丈夫[だいじょうぶ]。"
-          ],
-          "correctIndex": 1,
-          "explanation": "子供[こども]さえ知[し]っている = even children know it (implying it's so widely known, even children — the minimum expected to know — know it). This さえ = 'even' (indicating an extreme case). Options 1, 3, 4 are the さえ〜ば conditional pattern."
-        },
-        {
-          "id": "sae-ba_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only the weather clears up, the picnic will be fun'?",
-          "japanese": null,
-          "choices": [
-            "天気[てんき]さえ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
-            "天気[てんき]もさえ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
-            "天気[てんき]だけ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
-            "天気[てんき]が晴[は]れさえすれば、ピクニックは楽[たの]しいだろう。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + ば-conditional: 天気[てんき] (weather) + さえ + 晴[は]れれば (ば-conditional of 晴[は]れる) = 天気[てんき]さえ晴[は]れれば = as long as the weather clears. ピクニックは楽[たの]しいだろう = the picnic will probably be fun."
-        },
-        {
-          "id": "sae-ba_q15",
-          "type": "translation",
-          "prompt": "Which means 'If only you listen, you don't need to memorize'?",
-          "japanese": null,
-          "choices": [
-            "聞[き]きさえすれば、暗記[あんき]しなくていい。",
-            "聞[き]くさえすれば、暗記[あんき]しなくていい。",
-            "聞[き]きさえあれば、暗記[あんき]しなくていい。",
-            "聞[き]くことさえあれば、暗記[あんき]しなくていい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: 聞[き]く → 聞[き]き + さえ + すれば = 聞[き]きさえすれば = if only  listen. 暗記[あんき]しなくていい = don't need to memorize."
-        },
-        {
-          "id": "sae-ba_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only it's delicious, I'll eat anything'?",
-          "japanese": null,
-          "choices": [
-            "美味[おい]しさえすれば、何[なん]でも食[た]べる。",
-            "美味[おい]しいさえすれば、何[なん]でも食[た]べる。",
-            "美味[おい]しければさえ、何[なん]でも食[た]べる。",
-            "美味[おい]しくさえあれば、何[なん]でも食[た]べる。"
-          ],
-          "correctIndex": 3,
-          "explanation": "い-adj + さえ + あれば: 美味[おい]しい → 美味[おい]しく + さえ + あれば = 美味[おい]しくさえあれば = if only it's delicious. い-adjectives use the く-form before さえあれば."
-        },
-        {
-          "id": "sae-ba_q17",
-          "type": "usage",
-          "prompt": "What is the ば-conditional of な-adjective 元気[げんき]だ for use with さえ?",
-          "japanese": null,
-          "choices": [
-            "元気[げんき]さえあれば",
-            "元気[げんき]でさえあれば",
-            "元気[げんき]なさえあれば",
-            "元気[げんき]にさえあれば"
-          ],
-          "correctIndex": 1,
-          "explanation": "な-adj + さえ: 元気[げんき]だ → 元気[げんき]で + さえ + あれば = 元気[げんき]でさえあれば = if only  healthy/energetic. な-adjectives use the で-form before さえあれば."
-        },
-        {
-          "id": "sae-ba_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'If you only have a ticket, you can enter'?",
-          "japanese": null,
-          "choices": [
-            "チケットさえあれば、入[い]れる。",
-            "チケットもあれば、入[い]れる。",
-            "チケットだけあれば、入[い]れる。",
-            "チケットがさえあれば、入[い]れる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + さえ + あれば: チケット (ticket) + さえ + あれば = チケットさえあれば = if only there is a ticket. 入[い]れる = can enter. The ticket is the only/minimum requirement."
-        },
-        {
-          "id": "sae-ba_q19",
-          "type": "translation",
-          "prompt": "Which means 'If only you tell the truth, everything will be resolved'?",
-          "japanese": null,
-          "choices": [
-            "本当[ほんとう]のことを言[い]いさえすれば、全[すべ]て解決[かいけつ]する。",
-            "本当[ほんとう]のことを言[い]うさえすれば、全[すべ]て解決[かいけつ]する。",
-            "本当[ほんとう]のことを言[い]いさえあれば、全[すべ]て解決[かいけつ]する。",
-            "本当[ほんとう]のことを言[い]うことさえあれば、全[すべ]て解決[かいけつ]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: 言[い]う → 言[い]い + さえ + すれば = 言[い]いさえすれば = if only  tell. 本当[ほんとう]のことを言[い]いさえすれば = if only you tell the truth. 全[すべ]て解決[かいけつ]する = everything will be resolved."
-        },
-        {
-          "id": "sae-ba_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'If only you smile, anyone will like you'?",
-          "japanese": null,
-          "choices": [
-            "笑[わら]いさえすれば、誰[だれ]でも好[す]きになる。",
-            "笑[わら]うさえすれば、誰[だれ]でも好[す]きになる。",
-            "笑[わら]いさえあれば、誰[だれ]でも好[す]きになる。",
-            "笑[わら]うことさえあれば、誰[だれ]でも好[す]きになる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + さえ + すれば: 笑[わら]う → 笑[わら]い + さえ + すれば = 笑[わら]いさえすれば = if only  smile. 誰[だれ]でも好[す]きになる = anyone will like ."
-        }
-      ]
+     "japanese": "この映画[えいが]は思[おも]ったほどおもしろくなかったです。",
+     "romaji": "Kono eiga wa omotta hodo omoshiroku nakatta desu.",
+     "english": "This movie wasn't as interesting as I expected."
     },
     {
-      "id": "bakari-ka",
-      "name": "〜ばかりか〜も (bakari ka...mo) — not only...but also",
-      "shortDescription": "Not only X — but the even more striking Y as well: 'not only...but also (and that's remarkable)'.",
-      "formation": "Verb/adj (plain form) + ばかりか + も  |  Noun + ばかりか + も",
-      "explanation": "ばかりか〜も is the grammar of escalation. It announces: you thought X was the extent of it — there's more. 彼女[かのじょ]は英語[えいご]が話[はな]せるばかりか、フランス語[ご]も話[はな]せる: speaking English is already worth noting, and ばかりか reveals that French is stacked on top. The listener had an implicit ceiling for their expectations; ばかりか raises it.\n\nThe も in the second clause is doing real grammatical work — it means 'also,' reinforcing the additive structure. Both elements must move in the same direction (both positive or both negative — this is not a contrast pattern). When the direction is negative, the escalation becomes grim: その事故[じこ]は財産[ざいさん]ばかりか、多[おお]くの命[いのち]も奪[うば]いました (not only property, but lives).\n\nMore emphatic than だけでなく (not only... but also) and the 上[うえ]に from Chapter 28, ばかりか is most at home in formal writing and speech when the full, often surprising extent of something demands to be stated.",
-      "rules": [
-        "ばかりか + も = not only X, but also Y (Y is a surprising or extreme addition)",
-        "The second element (after ばかりか) is presented as a further, unexpected addition",
-        "More emphatic than だけでなく (not only) or 上[うえ]に (moreover — Chapter 28)",
-        "Preferred in formal/written contexts",
-        "Both elements are in the same direction (additive, not contrasting)"
-      ],
-      "examples": [
-        {
-          "japanese": "彼女[かのじょ]は英語[えいご]ばかりか、フランス語[ご]も話[はな]せます。",
-          "romaji": "Kanojo wa eigo bakari ka, furansugo mo hanasemasu.",
-          "english": "Not only can she speak English, but she can also speak French."
-        },
-        {
-          "japanese": "この料理[りょうり]はおいしいばかりか、体[からだ]にもいいです。",
-          "romaji": "Kono ryouri wa oishii bakari ka, karada ni mo ii desu.",
-          "english": "Not only is this dish delicious, it is also good for your health."
-        },
-        {
-          "japanese": "彼[かれ]は仕事[しごと]ができるばかりか、人望[じんぼう]もあります。",
-          "romaji": "Kare wa shigoto ga dekiru bakari ka, jinbou mo arimasu.",
-          "english": "Not only is he capable at work, he is also well-respected."
-        },
-        {
-          "japanese": "その事故[じこ]は財産[ざいさん]ばかりか、多[おお]くの命[いのち]も奪[うば]いました。",
-          "romaji": "Sono jiko wa zaisan bakari ka, ooku no inochi mo ubaimashita.",
-          "english": "That accident took not only property, but also many lives."
-        }
-      ],
-      "flashcardHeader": "〜ばかりか〜も",
-      "flashcardAnswer": "Not only X — but the even more striking Y as well: 'not only...but also'.",
-      "practice": [
-        {
-          "id": "bakari-ka_q1",
-          "type": "usage",
-          "prompt": "What does 〜ばかりか〜も mean?",
-          "japanese": null,
-          "choices": [
-            "only X, not Y",
-            "not only X but also Y (and Y is even more surprising/extensive than X)",
-            "because of X, Y follows",
-            "despite X, Y"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ばかりか〜も = not only X but also Y. 彼[かれ]は英語[えいご]ばかりか中国語[ちゅうごくご]も話[はな]せる = he can speak not only English but also Chinese. も marks the additional (often surprising) element."
-        },
-        {
-          "id": "bakari-ka_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only did it rain but it also thundered'?",
-          "japanese": null,
-          "choices": [
-            "雨[あめ]が降[ふ]ったばかりか、雷[かみなり]も鳴[な]った。",
-            "雨[あめ]が降[ふ]るばかりか、雷[かみなり]も鳴[な]った。",
-            "雨[あめ]が降[ふ]っているばかりか、雷[かみなり]も鳴[な]った。",
-            "雨[あめ]が降[ふ]るのばかりか、雷[かみなり]も鳴[な]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (plain) + ばかりか + も: 降[ふ]った (past) + ばかりか = not only did it rain. 雷[かみなり]も鳴[な]った = thunder also sounded. Both events happened, with the second being more notable."
-        },
-        {
-          "id": "bakari-ka_q3",
-          "type": "usage",
-          "prompt": "Which connecting pattern is similar in meaning to ばかりか?",
-          "japanese": null,
-          "choices": [
-            "〜のに",
-            "〜だけでなく〜も (not only X but also Y)",
-            "〜にもかかわらず",
-            "〜ながらも"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜だけでなく〜も and 〜ばかりか〜も both mean 'not only X but also Y'. ばかりか is slightly more formal/literary. だけでなく is more conversational. Both require も for the additional element."
-        },
-        {
-          "id": "bakari-ka_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'He is not only kind but also smart'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は優[やさ]しいばかりか、頭[あたま]もいい。",
-            "彼[かれ]は優[やさ]しいだけばかりか、頭[あたま]もいい。",
-            "彼[かれ]は優[やさ]しいのばかりか、頭[あたま]もいい。",
-            "彼[かれ]は優[やさ]しいでばかりか、頭[あたま]もいい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj (plain) + ばかりか + も: 優[やさ]しい + ばかりか = not only kind. 頭[あたま]もいい = also smart. い-adjectives attach ばかりか directly to their plain form."
-        },
-        {
-          "id": "bakari-ka_q5",
-          "type": "translation",
-          "prompt": "Which means 'Not only did she win first place but she also broke the record'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は優勝[ゆうしょう]したばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
-            "彼女[かのじょ]は優勝[ゆうしょう]するばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
-            "彼女[かのじょ]は優勝[ゆうしょう]しているばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
-            "彼女[かのじょ]は優勝[ゆうしょう]のばかりか、記録[きろく]も塗[ぬ]り替[か]えた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (past plain) + ばかりか + も: 優勝[ゆうしょう]した + ばかりか = not only won. 記録[きろく]も塗[ぬ]り替[か]えた = also broke the record. Second achievement is even more impressive."
-        },
-        {
-          "id": "bakari-ka_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only the students but also the teachers are excited'?",
-          "japanese": null,
-          "choices": [
-            "学生[がくせい]ばかりか、先生[せんせい]も楽[たの]しみにしている。",
-            "学生[がくせい]のばかりか、先生[せんせい]も楽[たの]しみにしている。",
-            "学生[がくせい]だけばかりか、先生[せんせい]も楽[たの]しみにしている。",
-            "学生[がくせい]でばかりか、先生[せんせい]も楽[たの]しみにしている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ばかりか + も: 学生[がくせい] (noun) + ばかりか = not only students. 先生[せんせい]も = teachers also. For nouns, ばかりか attaches directly."
-        },
-        {
-          "id": "bakari-ka_q7",
-          "type": "usage",
-          "prompt": "In ばかりか, what does も mark?",
-          "japanese": null,
-          "choices": [
-            "The minimum condition — this is true in both spoken and written Japanese.",
-            "The additional (often more surprising or extensive) element beyond what X alone expresses",
-            "The contrast with X",
-            "The cause of X"
-          ],
-          "correctIndex": 1,
-          "explanation": "も in ばかりか〜も marks the ADDITIONAL element that goes beyond X. It's often something more surprising, extensive, or extreme. 英語[えいご]ばかりか中国語[ちゅうごくご]も = not only English (already impressive) but also Chinese (even more so)."
-        },
-        {
-          "id": "bakari-ka_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only was the food good, but the service was also excellent'?",
-          "japanese": null,
-          "choices": [
-            "料理[りょうり]が美味[おい]しかったばかりか、サービスも素晴[すば]らしかった。",
-            "料理[りょうり]が美味[おい]しいばかりか、サービスも素晴[すば]らしかった。",
-            "料理[りょうり]が美味[おい]しいのばかりか、サービスも素晴[すば]らしかった。",
-            "料理[りょうり]が美味[おい]しくなかったばかりか、サービスも素晴[すば]らしかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj past (美味[おい]しかった) + ばかりか + も: 美味[おい]しかった (was good) + ばかりか = not only was it delicious. サービスも素晴[すば]らしかった = service was also excellent."
-        },
-        {
-          "id": "bakari-ka_q9",
-          "type": "translation",
-          "prompt": "Which means 'Not only is this hotel cheap, but the location is also great'?",
-          "japanese": null,
-          "choices": [
-            "このホテルは安[やす]いばかりか、場所[ばしょ]もいい。",
-            "このホテルは安[やす]くなかったばかりか、場所[ばしょ]もいい。",
-            "このホテルは安[やす]いのばかりか、場所[ばしょ]もいい。",
-            "このホテルは安[やす]くばかりか、場所[ばしょ]もいい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj (plain) + ばかりか + も: 安[やす]い + ばかりか = not only cheap. 場所[ばしょ]もいい = location is also good. Two positive qualities stacked."
-        },
-        {
-          "id": "bakari-ka_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only does he not apologize, he also blames others'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は謝[あやま]らないばかりか、人[ひと]のせいにもする。",
-            "彼[かれ]は謝[あやま]るばかりか、人[ひと]のせいにもする。",
-            "彼[かれ]は謝[あやま]ったばかりか、人[ひと]のせいにもする。",
-            "彼[かれ]は謝[あやま]らないのばかりか、人[ひと]のせいにもする。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative plain form + ばかりか + も: 謝[あやま]らない (doesn't apologize) + ばかりか = not only doesn't apologize. 人[ひと]のせいにもする = also blames others. Stacking negative behaviors."
-        },
-        {
-          "id": "bakari-ka_q11",
-          "type": "usage",
-          "prompt": "When using な-adjective before ばかりか, which form is used?",
-          "japanese": null,
-          "choices": [
-            "na-adjective plain form + ばかりか (convenient → 便利[べんり]ばかりか)",
-            "na-adjective + な + ばかりか (便利[べんり]なばかりか), and the rule applies to every sentence type.",
-            "na-adjective + に + ばかりか (便利[べんり]にばかりか)",
-            "na-adjective + だ + ばかりか (便利[べんり]だばかりか)"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + ばかりか: 便利[べんり]ばかりか (not only convenient). The な is dropped. Same pattern as nouns."
-        },
-        {
-          "id": "bakari-ka_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only is he famous, but he's also influential'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は有名[ゆうめい]ばかりか、影響力[えいきょうりょく]もある。",
-            "彼[かれ]は有名[ゆうめい]なばかりか、影響力[えいきょうりょく]もある。",
-            "彼[かれ]は有名[ゆうめい]でばかりか、影響力[えいきょうりょく]もある。",
-            "彼[かれ]は有名[ゆうめい]だばかりか、影響力[えいきょうりょく]もある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + ばかりか (drop な): 有名[ゆうめい] + ばかりか = not only famous. 影響力[えいきょうりょく]もある = also has influence. な is dropped before ばかりか."
-        },
-        {
-          "id": "bakari-ka_q13",
-          "type": "translation",
-          "prompt": "Which means 'Not only did she cry but she also screamed'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は泣[な]いたばかりか、叫[さけ]びもした。",
-            "彼女[かのじょ]は泣[な]くばかりか、叫[さけ]びもした。",
-            "彼女[かのじょ]は泣[な]いているばかりか、叫[さけ]びもした。",
-            "彼女[かのじょ]は泣[な]いてばかりか、叫[さけ]びもした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (past plain) + ばかりか + も: 泣[な]いた + ばかりか = not only cried. 叫[さけ]びもした = also screamed. The second action is more extreme/surprising."
-        },
-        {
-          "id": "bakari-ka_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only did he not show up, he also didn't call'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は来[こ]なかったばかりか、電話[でんわ]もしなかった。",
-            "彼[かれ]は来[く]るばかりか、電話[でんわ]もしなかった。",
-            "彼[かれ]は来[き]たばかりか、電話[でんわ]もしなかった。",
-            "彼[かれ]は来[こ]ないのばかりか、電話[でんわ]もしなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Negative past (来[こ]なかった) + ばかりか + も: 来[こ]なかった (didn't come) + ばかりか = not only didn't come. 電話[でんわ]もしなかった = also didn't call. Two failures stacked."
-        },
-        {
-          "id": "bakari-ka_q15",
-          "type": "usage",
-          "prompt": "What NUANCE does ばかりか add that だけでなく does NOT always have?",
-          "japanese": null,
-          "choices": [
-            "ばかりか is more casual than だけでなく",
-            "ばかりか implies the second element is MORE surprising or extensive than the first (escalation)",
-            "ばかりか can only be used in negative sentences",
-            "ばかりか requires the same subject in both clauses — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "ばかりか often implies escalation — the second element (with も) is even more surprising, notable, or extreme than the first. だけでなく is more neutral: 'not only X but also Y.' ばかりか carries a stronger 'and even more surprisingly' nuance."
-        },
-        {
-          "id": "bakari-ka_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only did he pass the exam, he got the highest score'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は試験[しけん]に合格[ごうかく]したばかりか、最高点[さいこうてん]も取[と]った。",
-            "彼[かれ]は試験[しけん]に合格[ごうかく]するばかりか、最高点[さいこうてん]も取[と]った。",
-            "彼[かれ]は試験[しけん]に合格[ごうかく]しているばかりか、最高点[さいこうてん]も取[と]った。",
-            "彼[かれ]は試験[しけん]に合格[ごうかく]したのばかりか、最高点[さいこうてん]も取[と]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + ばかりか + も: 合格[ごうかく]した + ばかりか = not only passed. 最高点[さいこうてん]も取[と]った = also got the highest score. The second achievement (highest score) escalates beyond just passing."
-        },
-        {
-          "id": "bakari-ka_q17",
-          "type": "translation",
-          "prompt": "Which means 'Not only is it fast but it's also accurate'?",
-          "japanese": null,
-          "choices": [
-            "速[はや]いばかりか、正確[せいかく]でもある。",
-            "速[はや]くなかったばかりか、正確[せいかく]でもある。",
-            "速[はや]いのばかりか、正確[せいかく]でもある。",
-            "速[はや]くばかりか、正確[せいかく]でもある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj (plain) + ばかりか + も/でも: 速[はや]い + ばかりか = not only fast. 正確[せいかく]でもある = also accurate (でもある = also is). Two positive qualities."
-        },
-        {
-          "id": "bakari-ka_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only did she study hard, she also volunteered'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]したばかりか、ボランティアもした。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]するばかりか、ボランティアもした。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]していたばかりか、ボランティアもした。",
-            "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]のばかりか、ボランティアもした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + ばかりか + も: 勉強[べんきょう]した + ばかりか = not only studied hard. ボランティアもした = also volunteered. Two admirable activities."
-        },
-        {
-          "id": "bakari-ka_q19",
-          "type": "usage",
-          "prompt": "Which position of も is CORRECT in a ばかりか sentence?",
-          "japanese": null,
-          "choices": [
-            "Aばかりか、Bも〜 (も comes after the second element B)",
-            "Aも、ばかりかB〜 (も comes at the start)",
-            "Aばかりか、もB〜 (も comes before the second element)",
-            "Aばかりも、B〜 (も attaches to ばかり)"
-          ],
-          "correctIndex": 0,
-          "explanation": "A + ばかりか、B + も + : the も comes AFTER the B element (the second item). 英語[えいご]ばかりか、中国語[ちゅうごくご]も話[はな]せる = not only English, Chinese also . The correct structure has も after the second noun/element."
-        },
-        {
-          "id": "bakari-ka_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only was it expensive, the quality was also bad'?",
-          "japanese": null,
-          "choices": [
-            "値段[ねだん]が高[たか]かったばかりか、品質[ひんしつ]も悪[わる]かった。",
-            "値段[ねだん]が高[たか]いばかりか、品質[ひんしつ]も悪[わる]かった。",
-            "値段[ねだん]が高[たか]いのばかりか、品質[ひんしつ]も悪[わる]かった。",
-            "値段[ねだん]が高[たか]くなかったばかりか、品質[ひんしつ]も悪[わる]かった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj past (高[たか]かった) + ばかりか + も: 高[たか]かった (was expensive) + ばかりか = not only expensive. 品質[ひんしつ]も悪[わる]かった = quality was also bad. Two negatives stacked (price and quality both bad)."
-        }
-      ]
+     "japanese": "練習[れんしゅう]すればするほど、上手[じょうず]になりますよ。",
+     "romaji": "Renshuu sureba suru hodo, jouzu ni narimasu yo.",
+     "english": "The more you practice, the better you'll get."
+    },
+    {
+     "japanese": "これほど感動[かんどう]した映画[えいが]は今[いま]まで見[み]たことがありません。",
+     "romaji": "Kore hodo kandou shita eiga wa ima made mita koto ga arimasen.",
+     "english": "I have never seen a movie that moved me this much."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜ほど〜ない",
+   "flashcardAnswer": "Negative comparison: A is not as [quality] as B — and a family of degree expressions built around extent.",
+   "practice": [
     {
-      "id": "ch31_v01",
-      "partOfSpeech": "noun",
-      "kanji": "関係",
-      "kana": "かんけい",
-      "romaji": "kankei",
-      "definition": "relationship"
+     "id": "hodo-nai_q1",
+     "type": "usage",
+     "prompt": "What does 〜ほど〜ない mean?",
+     "japanese": null,
+     "choices": [
+      "more than X",
+      "not as [much] as X (X is the upper comparison — Y is less than X)",
+      "just as much as X",
+      "more than even X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ほど〜ない = not as ~ as X. AはBほど〜ない = A is not as  as B (B is more). 東京[とうきょう]は大阪[おおさか]ほど暑[あつ]くない = Tokyo is not as hot as Osaka (Osaka is hotter)."
     },
     {
-      "id": "ch31_v02",
-      "partOfSpeech": "noun",
-      "kanji": "付き合い",
-      "kana": "つきあい",
-      "romaji": "tsukiai",
-      "definition": "association; socializing"
+     "id": "hodo-nai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'This test is not as hard as the last one'?",
+     "japanese": null,
+     "choices": [
+      "このテストは前[まえ]のテストほど難[むずか]しくない。",
+      "このテストは前[まえ]のテストよりほど難[むずか]しくない。",
+      "このテストは前[まえ]のテストほどに難[むずか]しくない。",
+      "このテストは前[まえ]のテストをほど難[むずか]しくない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + negative adjective: このテスト (A) + は + 前[まえ]のテスト (B) + ほど + 難[むずか]しくない (not hard). Pattern: A は B ほど〜ない."
     },
     {
-      "id": "ch31_v03",
-      "partOfSpeech": "noun",
-      "kanji": "恋愛",
-      "kana": "れんあい",
-      "romaji": "ren'ai",
-      "definition": "romance; love"
+     "id": "hodo-nai_q3",
+     "type": "translation",
+     "prompt": "Which means 'Nothing is as important as health'?",
+     "japanese": null,
+     "choices": [
+      "健康[けんこう]ほど大切[たいせつ]なものはない。",
+      "健康[けんこう]はどんなものより大切[たいせつ]だ。",
+      "健康[けんこう]ほど大切[たいせつ]なものがある。",
+      "健康[けんこう]はどんなものほど大切[たいせつ]ではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Nothing is as ~ as X = Xほど〜なものはない. 健康[けんこう]ほど大切[たいせつ]なものはない = there is nothing as important as health. This is a strong emphatic pattern."
     },
     {
-      "id": "ch31_v04",
-      "partOfSpeech": "noun",
-      "kanji": "恋人",
-      "kana": "こいびと",
-      "romaji": "koibito",
-      "definition": "lover; sweetheart"
+     "id": "hodo-nai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'She doesn't eat as much as him'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は彼[かれ]ほどたくさん食[た]べない。",
+      "彼女[かのじょ]は彼[かれ]よりほどたくさん食[た]べない。",
+      "彼女[かのじょ]は彼[かれ]ほどにたくさん食[た]べない。",
+      "彼女[かのじょ]は彼[かれ]をほどたくさん食[た]べない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + negative verb/adj: 彼女[かのじょ] (A) + は + 彼[かれ] (B) + ほど + たくさん食[た]べない (doesn't eat much). Subject doesn't reach the comparison standard."
     },
     {
-      "id": "ch31_v05",
-      "partOfSpeech": "noun",
-      "kanji": "友情",
-      "kana": "ゆうじょう",
-      "romaji": "yuujou",
-      "definition": "friendship"
+     "id": "hodo-nai_q5",
+     "type": "usage",
+     "prompt": "What particle does ほど attach to in the comparison pattern 〜ほど〜ない?",
+     "japanese": null,
+     "choices": [
+      "ほど attaches directly to nouns (no particle needed between noun and ほど)",
+      "ほど requires の before it, with no exceptions in modern standard Japanese.",
+      "ほど requires が before it",
+      "ほど requires を before it"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ほど (directly, no particle): 日本語[にほんご]ほど難[むずか]しい言語[げんご]はない = there is no language as difficult as Japanese. ほど attaches directly to nouns in this pattern."
     },
     {
-      "id": "ch31_v06",
-      "partOfSpeech": "noun",
-      "kanji": "信頼",
-      "kana": "しんらい",
-      "romaji": "shinrai",
-      "definition": "trust"
+     "id": "hodo-nai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'No one works as hard as him'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]ほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+      "彼[かれ]よりほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+      "彼[かれ]ほどに一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。",
+      "彼[かれ]をほど一生懸命[いっしょうけんめい]働[はたら]く人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Xほど〜人[ひと]はいない = there is no person as ~ as X. 彼[かれ]ほど (as  him) + 一生懸命[いっしょうけんめい]働[はたら]く (works hard) + 人[ひと]はいない (no person). Strong emphatic."
     },
     {
-      "id": "ch31_v07",
-      "partOfSpeech": "noun",
-      "kanji": "尊敬",
-      "kana": "そんけい",
-      "romaji": "sonkei",
-      "definition": "respect"
+     "id": "hodo-nai_q7",
+     "type": "translation",
+     "prompt": "Which means 'Japanese winter is not as cold as Hokkaido'?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]くない。",
+      "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]より寒[さむ]くない。",
+      "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]ほど寒[さむ]い。",
+      "日本[にほん]の冬[ふゆ]は北海道[ほっかいどう]よりほど寒[さむ]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + negative adj: 日本[にほん]の冬[ふゆ] (A) + は + 北海道[ほっかいどう] (B) + ほど + 寒[さむ]くない (not cold). Hokkaido is colder."
     },
     {
-      "id": "ch31_v08",
-      "partOfSpeech": "noun",
-      "kanji": "出会い",
-      "kana": "であい",
-      "romaji": "deai",
-      "definition": "encounter; meeting"
+     "id": "hodo-nai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'The second floor is not as noisy as the first floor'?",
+     "japanese": null,
+     "choices": [
+      "二階[にかい]は一階[いっかい]ほどうるさくない。",
+      "二階[にかい]は一階[いっかい]よりほどうるさくない。",
+      "二階[にかい]は一階[いっかい]ほどにうるさくない。",
+      "二階[にかい]は一階[いっかい]をほどうるさくない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + neg adj: 二階[にかい] (A) + は + 一階[いっかい] (B) + ほど + うるさくない (not noisy). First floor is noisier."
     },
     {
-      "id": "ch31_v09",
-      "partOfSpeech": "noun",
-      "kanji": "別れ",
-      "kana": "わかれ",
-      "romaji": "wakare",
-      "definition": "parting; separation"
+     "id": "hodo-nai_q9",
+     "type": "usage",
+     "prompt": "What is the difference between 〜ほど〜ない and 〜より?",
+     "japanese": null,
+     "choices": [
+      "They mean the same thing",
+      "ほど〜ない = not as ~ as B (focusing on A falling short); より = A is more ~ than B (direct comparison going the other way)",
+      "ほど〜ない is more polite",
+      "より can only be used with な-adjectives — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "ほど〜ない focuses on A not reaching B's level: AはBほど速[はや]くない = A is not as fast as B (B is faster). より makes a direct positive comparison: AはBより速[はや]い = A is faster than B. They point in opposite directions."
     },
     {
-      "id": "ch31_v10",
-      "partOfSpeech": "noun",
-      "kanji": "喧嘩",
-      "kana": "けんか",
-      "romaji": "kenka",
-      "definition": "quarrel; fight"
+     "id": "hodo-nai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Nothing is as scary as an earthquake'?",
+     "japanese": null,
+     "choices": [
+      "地震[じしん]ほど怖[こわ]いものはない。",
+      "地震[じしん]よりほど怖[こわ]いものはない。",
+      "地震[じしん]ほどに怖[こわ]いものはない。",
+      "地震[じしん]をほど怖[こわ]いものはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Xほど〜ものはない = nothing is as ~ as X (emphatic). 地震[じしん]ほど (as  an earthquake) + 怖[こわ]いものはない (there is no scary thing). Classic emphatic pattern."
     },
     {
-      "id": "ch31_v11",
-      "partOfSpeech": "noun",
-      "kanji": "仲",
-      "kana": "なか",
-      "romaji": "naka",
-      "definition": "relations; terms"
+     "id": "hodo-nai_q11",
+     "type": "translation",
+     "prompt": "Which means 'My dog is not as big as yours'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]の犬[いぬ]はあなたの犬[いぬ]ほど大[おお]きくない。",
+      "私[わたし]の犬[いぬ]はあなたの犬[いぬ]より大[おお]きくない。",
+      "私[わたし]の犬[いぬ]はあなたの犬[いぬ]ほど大[おお]きい。",
+      "私[わたし]の犬[いぬ]はあなたの犬[いぬ]よりほど大[おお]きくない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + neg adj: 私[わたし]の犬[いぬ] (A) + は + あなたの犬[いぬ] (B) + ほど + 大[おお]きくない (not big). My dog doesn't reach your dog's size."
     },
     {
-      "id": "ch31_v12",
-      "partOfSpeech": "noun",
-      "kanji": "仲間",
-      "kana": "なかま",
-      "romaji": "nakama",
-      "definition": "companions; peers"
+     "id": "hodo-nai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'This movie is not as interesting as the book'?",
+     "japanese": null,
+     "choices": [
+      "この映画[えいが]は本[ほん]ほど面白[おもしろ]くない。",
+      "この映画[えいが]は本[ほん]よりほど面白[おもしろ]くない。",
+      "この映画[えいが]は本[ほん]ほどに面白[おもしろ]くない。",
+      "この映画[えいが]は本[ほん]をほど面白[おもしろ]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + neg adj: この映画[えいが] (A) + は + 本[ほん] (B) + ほど + 面白[おもしろ]くない. The book is more interesting."
     },
     {
-      "id": "ch31_v13",
-      "partOfSpeech": "noun",
-      "kanji": "相手",
-      "kana": "あいて",
-      "romaji": "aite",
-      "definition": "partner; the other party"
+     "id": "hodo-nai_q13",
+     "type": "usage",
+     "prompt": "Which emphatic form means 'There is nothing as delicious as ramen'?",
+     "japanese": null,
+     "choices": [
+      "ラーメンほど美味[おい]しいものはない。",
+      "ラーメンよりも美味[おい]しいものはない。",
+      "ラーメンがほど美味[おい]しいものはない。",
+      "ラーメンをほど美味[おい]しいものはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Xほど〜ものはない: ラーメンほど (as delicious as ramen) + 美味[おい]しいものはない (there is no delicious thing). Emphatic: ramen is the ultimate delicious thing."
     },
     {
-      "id": "ch31_v14",
-      "partOfSpeech": "noun",
-      "kanji": "恋",
-      "kana": "こい",
-      "romaji": "koi",
-      "definition": "love; romance"
+     "id": "hodo-nai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Osaka is not as expensive as Tokyo'?",
+     "japanese": null,
+     "choices": [
+      "大阪[おおさか]は東京[とうきょう]ほど物価[ぶっか]が高[たか]くない。",
+      "大阪[おおさか]は東京[とうきょう]より物価[ぶっか]が高[たか]くない。",
+      "大阪[おおさか]は東京[とうきょう]ほどに物価[ぶっか]が高[たか]くない。",
+      "大阪[おおさか]は東京[とうきょう]をほど物価[ぶっか]が高[たか]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + neg expression: 大阪[おおさか] (A) + は + 東京[とうきょう] (B) + ほど + 物価[ぶっか]が高[たか]くない (prices not high). Tokyo is more expensive."
     },
     {
-      "id": "ch31_v15",
-      "partOfSpeech": "noun",
-      "kanji": "愛",
-      "kana": "あい",
-      "romaji": "ai",
-      "definition": "love"
+     "id": "hodo-nai_q15",
+     "type": "translation",
+     "prompt": "Which means 'His Japanese is not as good as I thought'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の日本語[にほんご]は思[おも]ったほど上手[うま]くない。",
+      "彼[かれ]の日本語[にほんご]は思[おも]ったより上手[うま]くない。",
+      "彼[かれ]の日本語[にほんご]は思[おも]ったほどに上手[うま]くない。",
+      "彼[かれ]の日本語[にほんご]は思[おも]ったをほど上手[うま]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜たほど〜ない = not as ~ as I . 思[おも]ったほど = as  thought. 上手[うま]くない = not skilled. His Japanese fell short of my expectation."
     },
     {
-      "id": "ch31_v16",
-      "partOfSpeech": "noun",
-      "kanji": "離婚",
-      "kana": "りこん",
-      "romaji": "rikon",
-      "definition": "divorce"
+     "id": "hodo-nai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Kyoto is not as hot as Osaka in summer'?",
+     "japanese": null,
+     "choices": [
+      "京都[きょうと]は夏[なつ]、大阪[おおさか]ほど暑[あつ]くない。",
+      "京都[きょうと]は夏[なつ]、大阪[おおさか]より暑[あつ]くない。",
+      "京都[きょうと]は夏[なつ]、大阪[おおさか]ほどに暑[あつ]くない。",
+      "京都[きょうと]は夏[なつ]、大阪[おおさか]をほど暑[あつ]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + は + B + ほど + neg adj: 京都[きょうと] (A) + は + 大阪[おおさか] (B) + ほど + 暑[あつ]くない. Osaka is hotter in summer."
     },
     {
-      "id": "ch31_v17",
-      "partOfSpeech": "noun",
-      "kanji": "交際",
-      "kana": "こうさい",
-      "romaji": "kousai",
-      "definition": "dating; association"
+     "id": "hodo-nai_q17",
+     "type": "usage",
+     "prompt": "Which pattern using ほど expresses 'the more you do X, the more Y'?",
+     "japanese": null,
+     "choices": [
+      "Xほど〜ない",
+      "Xほど〜Y",
+      "Xも〜ほど",
+      "Xがほど〜Y"
+     ],
+     "correctIndex": 1,
+     "explanation": "X ほど Y (with positive clauses, no ない) expresses 'the more X, the more Y': 勉強[べんきょう]するほど上手[うま]くなる = the more you study, the better you get. This is a DIFFERENT use from the comparison pattern. ほど can express both comparison (with ない) and proportional increase (without ない)."
     },
     {
-      "id": "ch31_v18",
-      "partOfSpeech": "noun",
-      "kanji": "縁",
-      "kana": "えん",
-      "romaji": "en",
-      "definition": "connection; fate"
+     "id": "hodo-nai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no friend as reliable as him'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]ほど頼[たよ]りになる友達[ともだち]はいない。",
+      "彼[かれ]よりほど頼[たよ]りになる友達[ともだち]はいない。",
+      "彼[かれ]ほどに頼[たよ]りになる友達[ともだち]はいない。",
+      "彼[かれ]をほど頼[たよ]りになる友達[ともだち]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Xほど〜人[ひと]/友達[ともだち]はいない = there is no person/friend as ~ as X. 彼[かれ]ほど (as reliable as him) + 頼[たよ]りになる (reliable) + 友達[ともだち]はいない (no friend). Emphatic comparison."
     },
     {
-      "id": "ch31_v19",
-      "partOfSpeech": "noun",
-      "kanji": "世話",
-      "kana": "せわ",
-      "romaji": "sewa",
-      "definition": "care; looking after"
+     "id": "hodo-nai_q19",
+     "type": "translation",
+     "prompt": "Which means 'The weather wasn't as bad as I expected'?",
+     "japanese": null,
+     "choices": [
+      "天気[てんき]は思[おも]ったほど悪[わる]くなかった。",
+      "天気[てんき]は思[おも]ったより悪[わる]くなかった。",
+      "天気[てんき]は思[おも]ったほどに悪[わる]くなかった。",
+      "天気[てんき]は思[おも]ったをほど悪[わる]くなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜たほど〜なかった = wasn't as ~ as . 思[おも]ったほど = as bad as I thought. 悪[わる]くなかった = wasn't bad. The weather fell short of my bad expectation (it was better than feared)."
     },
     {
-      "id": "ch31_v20",
-      "partOfSpeech": "noun",
-      "kanji": "協力",
-      "kana": "きょうりょく",
-      "romaji": "kyouryoku",
-      "definition": "cooperation"
-    },
-    {
-      "id": "ch31_v21",
-      "partOfSpeech": "noun",
-      "kanji": "応援",
-      "kana": "おうえん",
-      "romaji": "ouen",
-      "definition": "support; cheering"
-    },
-    {
-      "id": "ch31_v22",
-      "partOfSpeech": "noun",
-      "kanji": "憧れ",
-      "kana": "あこがれ",
-      "romaji": "akogare",
-      "definition": "longing; admiration"
-    },
-    {
-      "id": "ch31_v23",
-      "partOfSpeech": "noun",
-      "kanji": "嫉妬",
-      "kana": "しっと",
-      "romaji": "shitto",
-      "definition": "jealousy"
-    },
-    {
-      "id": "ch31_v24",
-      "partOfSpeech": "noun",
-      "kanji": "好意",
-      "kana": "こうい",
-      "romaji": "koui",
-      "definition": "goodwill; kindness"
-    },
-    {
-      "id": "ch31_v25",
-      "partOfSpeech": "noun",
-      "kanji": "悪口",
-      "kana": "わるぐち",
-      "romaji": "waruguchi",
-      "definition": "bad-mouthing; insult"
-    },
-    {
-      "id": "ch31_v26",
-      "partOfSpeech": "verb",
-      "kanji": "憎む",
-      "kana": "にくむ",
-      "romaji": "nikumu",
-      "definition": "to hate"
-    },
-    {
-      "id": "ch31_v27",
-      "partOfSpeech": "verb",
-      "kanji": "慰める",
-      "kana": "なぐさめる",
-      "romaji": "nagusameru",
-      "definition": "to comfort; to console"
-    },
-    {
-      "id": "ch31_v28",
-      "partOfSpeech": "verb",
-      "kanji": "励ます",
-      "kana": "はげます",
-      "romaji": "hagemasu",
-      "definition": "to encourage"
-    },
-    {
-      "id": "ch31_v29",
-      "partOfSpeech": "verb",
-      "kanji": "裏切る",
-      "kana": "うらぎる",
-      "romaji": "uragiru",
-      "definition": "to betray"
-    },
-    {
-      "id": "ch31_v30",
-      "partOfSpeech": "verb",
-      "kanji": "頼る",
-      "kana": "たよる",
-      "romaji": "tayoru",
-      "definition": "to rely on"
-    },
-    {
-      "id": "ch31_v31",
-      "partOfSpeech": "verb",
-      "kanji": "甘える",
-      "kana": "あまえる",
-      "romaji": "amaeru",
-      "definition": "to depend on; to act spoiled"
-    },
-    {
-      "id": "ch31_v32",
-      "partOfSpeech": "verb",
-      "kanji": "譲る",
-      "kana": "ゆずる",
-      "romaji": "yuzuru",
-      "definition": "to yield; to give way"
-    },
-    {
-      "id": "ch31_v33",
-      "partOfSpeech": "verb",
-      "kanji": "断る",
-      "kana": "ことわる",
-      "romaji": "kotowaru",
-      "definition": "to refuse; to decline"
-    },
-    {
-      "id": "ch31_v34",
-      "partOfSpeech": "verb",
-      "kanji": "誘う",
-      "kana": "さそう",
-      "romaji": "sasou",
-      "definition": "to invite"
-    },
-    {
-      "id": "ch31_v35",
-      "partOfSpeech": "verb",
-      "kanji": "慣れる",
-      "kana": "なれる",
-      "romaji": "nareru",
-      "definition": "to get used to"
-    },
-    {
-      "id": "ch31_v36",
-      "partOfSpeech": "i-adjective",
-      "kanji": "親しい",
-      "kana": "したしい",
-      "romaji": "shitashii",
-      "definition": "close; intimate"
-    },
-    {
-      "id": "ch31_v37",
-      "partOfSpeech": "noun",
-      "kanji": "仲良し",
-      "kana": "なかよし",
-      "romaji": "nakayoshi",
-      "definition": "good friends"
-    },
-    {
-      "id": "ch31_v38",
-      "partOfSpeech": "noun",
-      "kanji": "尊重",
-      "kana": "そんちょう",
-      "romaji": "sonchou",
-      "definition": "respect; esteem"
-    },
-    {
-      "id": "ch31_v39",
-      "partOfSpeech": "noun",
-      "kanji": "対立",
-      "kana": "たいりつ",
-      "romaji": "tairitsu",
-      "definition": "conflict; confrontation"
-    },
-    {
-      "id": "ch31_v40",
-      "partOfSpeech": "verb",
-      "kanji": "付き合う",
-      "kana": "つきあう",
-      "romaji": "tsukiau",
-      "definition": "to associate with; to date"
+     "id": "hodo-nai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'The homework was not as difficult as I imagined'?",
+     "japanese": null,
+     "choices": [
+      "宿題[しゅくだい]は思[おも]ったほど難[むずか]しくなかった。",
+      "宿題[しゅくだい]は思[おも]ったより難[むずか]しくなかった。",
+      "宿題[しゅくだい]は思[おも]ったほどに難[むずか]しくなかった。",
+      "宿題[しゅくだい]は思[おも]ったをほど難[むずか]しくなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜たほど〜なかった: 思[おも]った (thought) + ほど + 難[むずか]しくなかった (wasn't difficult). The homework fell short of the imagined difficulty. 思[おも]ったほど = not as ~ as I thought."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "sae-ba",
+   "name": "〜さえ〜ば (sae...ba) — if only / as long as",
+   "shortDescription": "Pinpoints one condition as all that's needed: 'if only X / as long as X, everything else follows'.",
+   "formation": "Noun + さえ + negative / ば-form  |  Verb stem + さえすれば  |  い-adj stem + くさえあれば",
+   "explanation": "さえ is a particle of focus — and in the さえ〜ば pattern, that focus sharpens to a single point: this one condition alone is all that stands between the present situation and the desired outcome. 時間[じかん]さえあれば、行[い]けるんですが: time is the only missing piece. Supply it and the problem resolves. 彼[かれ]さえいれば、何[なん]でもできる: his presence alone is sufficient. The elegance of さえ〜ば is in the economy — you're not listing requirements, you're naming the keystone.\n\nさえ also lives a second life as 'even' (inclusive of extremes): 子[こ]どもさえ知[し]っている (even children know it). But in the さえ〜ば pattern, the focus is entirely on sufficiency, not inclusivity. Formation: nouns attach さえ directly; verbs use stem + さえすれば; い-adjectives use stem + くさえあれば. The negative 〜さえ〜なければ reverses the logic: 'as long as X doesn't exist — as long as we can avoid that one thing.'",
+   "rules": [
+    "Noun + さえ + ば-form = if only [noun condition] is met, X follows",
+    "Verb stem + さえすれば = if only [action] is done",
+    "Implies this one condition alone is sufficient — nothing else is needed",
+    "さえ alone = 'even' (inclusive of extreme): 子[こ]どもさえ知[し]っている",
+    "〜さえ〜なければ = as long as [condition] doesn't exist"
+   ],
+   "examples": [
     {
-      "char": "連",
-      "word": "連れる",
-      "reading": "つれる",
-      "meaning": "to take (someone) with one"
+     "japanese": "時間[じかん]さえあれば、毎日[まいにち]日本語[にほんご]を勉強[べんきょう]したいです。",
+     "romaji": "Jikan sae areba, mainichi nihongo wo benkyou shitai desu.",
+     "english": "If only I had time, I'd want to study Japanese every day."
     },
     {
-      "char": "対",
-      "word": "対立",
-      "reading": "たいりつ",
-      "meaning": "conflict; confrontation"
+     "japanese": "健康[けんこう]でさえあれば、他[ほか]には何[なに]もいりません。",
+     "romaji": "Kenkou de sae areba, hoka ni wa nani mo irimasen.",
+     "english": "As long as I'm healthy, I don't need anything else."
     },
     {
-      "char": "合",
-      "word": "合う",
-      "reading": "あう",
-      "meaning": "to match; to fit"
+     "japanese": "この道具[どうぐ]さえあれば、簡単[かんたん]に修理[しゅうり]できますよ。",
+     "romaji": "Kono dougu sae areba, kantan ni shuuri dekimasu yo.",
+     "english": "With just this tool, you can fix it easily."
     },
     {
-      "char": "関",
-      "word": "関係",
-      "reading": "かんけい",
-      "meaning": "relationship"
-    },
-    {
-      "char": "数",
-      "word": "数える",
-      "reading": "かぞえる",
-      "meaning": "to count"
-    },
-    {
-      "char": "交",
-      "word": "交際",
-      "reading": "こうさい",
-      "meaning": "dating; association"
-    },
-    {
-      "char": "際",
-      "word": "際",
-      "reading": "さい",
-      "meaning": "on the occasion of"
-    },
-    {
-      "char": "面",
-      "word": "面する",
-      "reading": "めんする",
-      "meaning": "to face on"
-    },
-    {
-      "char": "信",
-      "word": "信頼",
-      "reading": "しんらい",
-      "meaning": "trust"
-    },
-    {
-      "char": "側",
-      "word": "側",
-      "reading": "そば",
-      "meaning": "near"
-    },
-    {
-      "char": "係",
-      "word": "係",
-      "reading": "かかり",
-      "meaning": "charge"
-    },
-    {
-      "char": "放",
-      "word": "放す",
-      "reading": "はなす",
-      "meaning": "to release"
-    },
-    {
-      "char": "付",
-      "word": "付ける",
-      "reading": "つける",
-      "meaning": "to attach"
-    },
-    {
-      "char": "断",
-      "word": "断る",
-      "reading": "ことわる",
-      "meaning": "to refuse; to decline"
-    },
-    {
-      "char": "宅",
-      "word": "宅",
-      "reading": "たく",
-      "meaning": "house"
-    },
-    {
-      "char": "席",
-      "word": "席",
-      "reading": "せき",
-      "meaning": "seat"
-    },
-    {
-      "char": "声",
-      "word": "声",
-      "reading": "こえ",
-      "meaning": "voice"
-    },
-    {
-      "char": "落",
-      "word": "落ちる",
-      "reading": "おちる",
-      "meaning": "to fall down"
-    },
-    {
-      "char": "好",
-      "word": "好",
-      "reading": "す",
-      "meaning": "fond"
-    },
-    {
-      "char": "福",
-      "word": "福",
-      "reading": "ふく",
-      "meaning": "good fortune"
-    },
-    {
-      "char": "港",
-      "word": "港",
-      "reading": "みなと",
-      "meaning": "harbour"
-    },
-    {
-      "char": "良",
-      "word": "良い",
-      "reading": "よい",
-      "meaning": "good"
-    },
-    {
-      "char": "値",
-      "word": "値",
-      "reading": "あたい",
-      "meaning": "price"
-    },
-    {
-      "char": "否",
-      "word": "否",
-      "reading": "ひ",
-      "meaning": "no"
-    },
-    {
-      "char": "除",
-      "word": "除いて",
-      "reading": "のぞいて",
-      "meaning": "except"
-    },
-    {
-      "char": "迎",
-      "word": "迎える",
-      "reading": "むかえる",
-      "meaning": "to go out to meet"
-    },
-    {
-      "char": "因",
-      "word": "因る",
-      "reading": "よる",
-      "meaning": "to be due to"
-    },
-    {
-      "char": "愛",
-      "word": "愛",
-      "reading": "あい",
-      "meaning": "love"
-    },
-    {
-      "char": "余",
-      "word": "余る",
-      "reading": "あまる",
-      "meaning": "to remain"
-    },
-    {
-      "char": "背",
-      "word": "背",
-      "reading": "せい",
-      "meaning": "height"
-    },
-    {
-      "char": "宿",
-      "word": "宿",
-      "reading": "やど",
-      "meaning": "lodging"
-    },
-    {
-      "char": "頼",
-      "word": "頼る",
-      "reading": "たよる",
-      "meaning": "to rely on"
-    },
-    {
-      "char": "婚",
-      "word": "離婚",
-      "reading": "りこん",
-      "meaning": "divorce"
-    },
-    {
-      "char": "幸",
-      "word": "幸",
-      "reading": "しあわ",
-      "meaning": "happiness"
-    },
-    {
-      "char": "招",
-      "word": "招く",
-      "reading": "まねく",
-      "meaning": "to invite"
-    },
-    {
-      "char": "欲",
-      "word": "欲",
-      "reading": "よく",
-      "meaning": "greed"
-    },
-    {
-      "char": "閉",
-      "word": "閉める",
-      "reading": "しめる",
-      "meaning": "to close"
-    },
-    {
-      "char": "掛",
-      "word": "掛ける",
-      "reading": "かける",
-      "meaning": "to hang up (e.g. a coat, a picture on the wall)"
-    },
-    {
-      "char": "慣",
-      "word": "慣れる",
-      "reading": "なれる",
-      "meaning": "to get used to"
-    },
-    {
-      "char": "疲",
-      "word": "疲",
-      "reading": "つか",
-      "meaning": "exhausted"
-    },
-    {
-      "char": "恥",
-      "word": "恥",
-      "reading": "はじ",
-      "meaning": "shame"
+     "japanese": "あなたさえよければ、いつでも出発[しゅっぱつ]できます。",
+     "romaji": "Anata sae yokereba, itsudemo shuppatsu dekimasu.",
+     "english": "As long as you're ready, we can depart any time."
     }
-  ]
+   ],
+   "flashcardHeader": "〜さえ〜ば",
+   "flashcardAnswer": "Highlights one condition as the sole thing needed: 'if only X / as long as X'.",
+   "practice": [
+    {
+     "id": "sae-ba_q1",
+     "type": "usage",
+     "prompt": "What does 〜さえ〜ば mean?",
+     "japanese": null,
+     "choices": [
+      "not even if",
+      "as long as / if only (the minimum condition needed for Y to happen)",
+      "even though",
+      "whenever"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜さえ〜ば = as long as / if only . お金[かね]さえあれば、何[なん]でも買[か]える = if only I had money, I could buy anything. さえ marks the minimum sufficient condition."
+    },
+    {
+     "id": "sae-ba_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only you have time, it's fine'?",
+     "japanese": null,
+     "choices": [
+      "時間[じかん]さえあれば、大丈夫[だいじょうぶ]だ。",
+      "時間[じかん]もあれば、大丈夫[だいじょうぶ]だ。",
+      "時間[じかん]だけあれば、大丈夫[だいじょうぶ]だ。",
+      "時間[じかん]しかあれば、大丈夫[だいじょうぶ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + conditional: 時間[じかん] (time) + さえ + あれば (ば-conditional of ある) = 時間[じかん]さえあれば = if only there is time. さえ emphasizes the minimum required condition."
+    },
+    {
+     "id": "sae-ba_q3",
+     "type": "construct",
+     "prompt": "What is the ば-conditional form of 勉強[べんきょう]する for use with さえ?",
+     "japanese": null,
+     "choices": [
+      "勉強[べんきょう]するさえ",
+      "勉強[べんきょう]しさえすれば",
+      "勉強[べんきょう]しさえすれ",
+      "勉強[べんきょう]するさえすれば"
+     ],
+     "correctIndex": 1,
+     "explanation": "Verb + さえ: masu-stem + さえ + すれば (conditional of する). 勉強[べんきょう]する → 勉強[べんきょう]し + さえ + すれば = 勉強[べんきょう]しさえすれば = if only  study. The pattern for verbs is: masu-stem + さえ + すれば."
+    },
+    {
+     "id": "sae-ba_q4",
+     "type": "translation",
+     "prompt": "Which means 'If only I had health, nothing else matters'?",
+     "japanese": null,
+     "choices": [
+      "健康[けんこう]さえあれば、他[ほか]は何[なに]もいらない。",
+      "健康[けんこう]もあれば、他[ほか]は何[なに]もいらない。",
+      "健康[けんこう]だけあれば、他[ほか]は何[なに]もいらない。",
+      "健康[けんこう]があれば、他[ほか]は何[なに]もいらない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + あれば: 健康[けんこう] (health) + さえ + あれば = 健康[けんこう]さえあれば = if only there is health. 他[ほか]は何[なに]もいらない = nothing else is needed. さえ marks health as the only/minimum requirement."
+    },
+    {
+     "id": "sae-ba_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only you apologize, I'll forgive you'?",
+     "japanese": null,
+     "choices": [
+      "謝[あやま]りさえすれば、許[ゆる]してあげる。",
+      "謝[あやま]るさえすれば、許[ゆる]してあげる。",
+      "謝[あやま]りさえあれば、許[ゆる]してあげる。",
+      "謝[あやま]ることさえあれば、許[ゆる]してあげる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: 謝[あやま]る → 謝[あやま]り + さえ + すれば = 謝[あやま]りさえすれば = if only  apologize. すれば is the ば-conditional of する. Verb pattern: masu-stem + さえ + すれば."
+    },
+    {
+     "id": "sae-ba_q6",
+     "type": "usage",
+     "prompt": "What nuance does さえ add compared to just using ば alone?",
+     "japanese": null,
+     "choices": [
+      "さえ makes it more polite",
+      "さえ emphasizes the MINIMUM — this (and only this) is the single sufficient condition",
+      "さえ makes it hypothetical",
+      "さえ is the same as も in function, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "さえ emphasizes minimality and sufficiency: 'if only X (nothing else needed).' 時間[じかん]があれば大丈夫[だいじょうぶ] = it's fine if there's time; 時間[じかん]さえあれば大丈夫[だいじょうぶ] = as LONG AS there is just time (emphasizing it's the only/minimum requirement)."
+    },
+    {
+     "id": "sae-ba_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only I could speak Japanese, I'd be fine'?",
+     "japanese": null,
+     "choices": [
+      "日本語[にほんご]が話[はな]しさえすれば、大丈夫[だいじょうぶ]だ。",
+      "日本語[にほんご]さえ話[はな]せば、大丈夫[だいじょうぶ]だ。",
+      "日本語[にほんご]が話[はな]しさえあれば、大丈夫[だいじょうぶ]だ。",
+      "日本語[にほんご]を話[はな]しさえいれば、大丈夫[だいじょうぶ]だ。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Potential form + さえ + ば: 話[はな]せる → 話[はな]せ + ば = 話[はな]せば. 日本語[にほんご] + さえ + 話[はな]せば = 日本語[にほんご]さえ話[はな]せば = as long as I can speak Japanese. The noun takes さえ in this pattern."
+    },
+    {
+     "id": "sae-ba_q8",
+     "type": "translation",
+     "prompt": "Which means 'As long as you practice every day, you'll improve'?",
+     "japanese": null,
+     "choices": [
+      "毎日[まいにち]練習[れんしゅう]しさえすれば、上手[うま]くなる。",
+      "毎日[まいにち]練習[れんしゅう]するさえすれば、上手[うま]くなる。",
+      "毎日[まいにち]練習[れんしゅう]しさえあれば、上手[うま]くなる。",
+      "毎日[まいにち]練習[れんしゅう]さえすれば、上手[うま]くなる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: 練習[れんしゅう]する → 練習[れんしゅう]し + さえ + すれば = 練習[れんしゅう]しさえすれば = if only  practice. 毎日[まいにち]練習[れんしゅう]しさえすれば = as long as you practice every day."
+    },
+    {
+     "id": "sae-ba_q9",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only there was water, I could survive'?",
+     "japanese": null,
+     "choices": [
+      "水[みず]さえあれば、生[い]き延[の]びられる。",
+      "水[みず]もあれば、生[い]き延[の]びられる。",
+      "水[みず]だけあれば、生[い]き延[の]びられる。",
+      "水[みず]があれば、生[い]き延[の]びられる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + conditional: 水[みず] (water) + さえ + あれば = 水[みず]さえあれば = if only there is water. 生[い]き延[の]びられる = can survive. さえ emphasizes water as the minimum/only requirement."
+    },
+    {
+     "id": "sae-ba_q10",
+     "type": "usage",
+     "prompt": "Which correctly shows the verb pattern for さえ〜ば with 来[く]る (to come)?",
+     "japanese": null,
+     "choices": [
+      "来[こ]さえすれば",
+      "来[く]るさえすれば",
+      "きさえすれば",
+      "来[く]ることさえすれば"
+     ],
+     "correctIndex": 2,
+     "explanation": "Irregular verb 来[く]る: masu-stem is き. き + さえ + すれば = きさえすれば = if only  come. Masu-stem of 来[く]る is き, not く or くる."
+    },
+    {
+     "id": "sae-ba_q11",
+     "type": "translation",
+     "prompt": "Which means 'As long as you try, you'll succeed'?",
+     "japanese": null,
+     "choices": [
+      "やりさえすれば、成功[せいこう]する。",
+      "やるさえすれば、成功[せいこう]する。",
+      "やりさえあれば、成功[せいこう]する。",
+      "やることさえあれば、成功[せいこう]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: やる → やり + さえ + すれば = やりさえすれば = if only  try/do. 成功[せいこう]する = succeed. As long as you make the effort, success follows."
+    },
+    {
+     "id": "sae-ba_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'As long as the key exists, I can open it'?",
+     "japanese": null,
+     "choices": [
+      "鍵[かぎ]さえあれば、開[あ]けられる。",
+      "鍵[かぎ]もあれば、開[あ]けられる。",
+      "鍵[かぎ]だけあれば、開[あ]けられる。",
+      "鍵[かぎ]があれば、開[あ]けられる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + あれば: 鍵[かぎ] (key) + さえ + あれば = 鍵[かぎ]さえあれば = as long as there is a key. 開[あ]けられる = can open. さえ emphasizes the key as the minimum sufficient condition."
+    },
+    {
+     "id": "sae-ba_q13",
+     "type": "usage",
+     "prompt": "さえ also has a meaning 'even / not even' (listing extreme examples). Which shows this 'even' meaning?",
+     "japanese": null,
+     "choices": [
+      "お金[かね]さえあれば、幸[しあわ]せだ。",
+      "子供[こども]さえ知[し]っている。(Even children know it.)",
+      "来[き]さえすれば、許[ゆる]す。",
+      "日本語[にほんご]さえ話[はな]せば、大丈夫[だいじょうぶ]。"
+     ],
+     "correctIndex": 1,
+     "explanation": "子供[こども]さえ知[し]っている = even children know it (implying it's so widely known, even children — the minimum expected to know — know it). This さえ = 'even' (indicating an extreme case). Options 1, 3, 4 are the さえ〜ば conditional pattern."
+    },
+    {
+     "id": "sae-ba_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only the weather clears up, the picnic will be fun'?",
+     "japanese": null,
+     "choices": [
+      "天気[てんき]さえ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
+      "天気[てんき]もさえ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
+      "天気[てんき]だけ晴[は]れれば、ピクニックは楽[たの]しいだろう。",
+      "天気[てんき]が晴[は]れさえすれば、ピクニックは楽[たの]しいだろう。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + ば-conditional: 天気[てんき] (weather) + さえ + 晴[は]れれば (ば-conditional of 晴[は]れる) = 天気[てんき]さえ晴[は]れれば = as long as the weather clears. ピクニックは楽[たの]しいだろう = the picnic will probably be fun."
+    },
+    {
+     "id": "sae-ba_q15",
+     "type": "translation",
+     "prompt": "Which means 'If only you listen, you don't need to memorize'?",
+     "japanese": null,
+     "choices": [
+      "聞[き]きさえすれば、暗記[あんき]しなくていい。",
+      "聞[き]くさえすれば、暗記[あんき]しなくていい。",
+      "聞[き]きさえあれば、暗記[あんき]しなくていい。",
+      "聞[き]くことさえあれば、暗記[あんき]しなくていい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: 聞[き]く → 聞[き]き + さえ + すれば = 聞[き]きさえすれば = if only  listen. 暗記[あんき]しなくていい = don't need to memorize."
+    },
+    {
+     "id": "sae-ba_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only it's delicious, I'll eat anything'?",
+     "japanese": null,
+     "choices": [
+      "美味[おい]しさえすれば、何[なん]でも食[た]べる。",
+      "美味[おい]しいさえすれば、何[なん]でも食[た]べる。",
+      "美味[おい]しければさえ、何[なん]でも食[た]べる。",
+      "美味[おい]しくさえあれば、何[なん]でも食[た]べる。"
+     ],
+     "correctIndex": 3,
+     "explanation": "い-adj + さえ + あれば: 美味[おい]しい → 美味[おい]しく + さえ + あれば = 美味[おい]しくさえあれば = if only it's delicious. い-adjectives use the く-form before さえあれば."
+    },
+    {
+     "id": "sae-ba_q17",
+     "type": "usage",
+     "prompt": "What is the ば-conditional of な-adjective 元気[げんき]だ for use with さえ?",
+     "japanese": null,
+     "choices": [
+      "元気[げんき]さえあれば",
+      "元気[げんき]でさえあれば",
+      "元気[げんき]なさえあれば",
+      "元気[げんき]にさえあれば"
+     ],
+     "correctIndex": 1,
+     "explanation": "な-adj + さえ: 元気[げんき]だ → 元気[げんき]で + さえ + あれば = 元気[げんき]でさえあれば = if only  healthy/energetic. な-adjectives use the で-form before さえあれば."
+    },
+    {
+     "id": "sae-ba_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'If you only have a ticket, you can enter'?",
+     "japanese": null,
+     "choices": [
+      "チケットさえあれば、入[い]れる。",
+      "チケットもあれば、入[い]れる。",
+      "チケットだけあれば、入[い]れる。",
+      "チケットがさえあれば、入[い]れる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + さえ + あれば: チケット (ticket) + さえ + あれば = チケットさえあれば = if only there is a ticket. 入[い]れる = can enter. The ticket is the only/minimum requirement."
+    },
+    {
+     "id": "sae-ba_q19",
+     "type": "translation",
+     "prompt": "Which means 'If only you tell the truth, everything will be resolved'?",
+     "japanese": null,
+     "choices": [
+      "本当[ほんとう]のことを言[い]いさえすれば、全[すべ]て解決[かいけつ]する。",
+      "本当[ほんとう]のことを言[い]うさえすれば、全[すべ]て解決[かいけつ]する。",
+      "本当[ほんとう]のことを言[い]いさえあれば、全[すべ]て解決[かいけつ]する。",
+      "本当[ほんとう]のことを言[い]うことさえあれば、全[すべ]て解決[かいけつ]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: 言[い]う → 言[い]い + さえ + すれば = 言[い]いさえすれば = if only  tell. 本当[ほんとう]のことを言[い]いさえすれば = if only you tell the truth. 全[すべ]て解決[かいけつ]する = everything will be resolved."
+    },
+    {
+     "id": "sae-ba_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'If only you smile, anyone will like you'?",
+     "japanese": null,
+     "choices": [
+      "笑[わら]いさえすれば、誰[だれ]でも好[す]きになる。",
+      "笑[わら]うさえすれば、誰[だれ]でも好[す]きになる。",
+      "笑[わら]いさえあれば、誰[だれ]でも好[す]きになる。",
+      "笑[わら]うことさえあれば、誰[だれ]でも好[す]きになる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + さえ + すれば: 笑[わら]う → 笑[わら]い + さえ + すれば = 笑[わら]いさえすれば = if only  smile. 誰[だれ]でも好[す]きになる = anyone will like ."
+    }
+   ]
+  },
+  {
+   "id": "bakari-ka",
+   "name": "〜ばかりか〜も (bakari ka...mo) — not only...but also",
+   "shortDescription": "Not only X — but the even more striking Y as well: 'not only...but also (and that's remarkable)'.",
+   "formation": "Verb/adj (plain form) + ばかりか + も  |  Noun + ばかりか + も",
+   "explanation": "ばかりか〜も is the grammar of escalation. It announces: you thought X was the extent of it — there's more. 彼女[かのじょ]は英語[えいご]が話[はな]せるばかりか、フランス語[ご]も話[はな]せる: speaking English is already worth noting, and ばかりか reveals that French is stacked on top. The listener had an implicit ceiling for their expectations; ばかりか raises it.\n\nThe も in the second clause is doing real grammatical work — it means 'also,' reinforcing the additive structure. Both elements must move in the same direction (both positive or both negative — this is not a contrast pattern). When the direction is negative, the escalation becomes grim: その事故[じこ]は財産[ざいさん]ばかりか、多[おお]くの命[いのち]も奪[うば]いました (not only property, but lives).\n\nMore emphatic than だけでなく (not only... but also) and the 上[うえ]に from Chapter 30, ばかりか is most at home in formal writing and speech when the full, often surprising extent of something demands to be stated.",
+   "rules": [
+    "ばかりか + も = not only X, but also Y (Y is a surprising or extreme addition)",
+    "The second element (after ばかりか) is presented as a further, unexpected addition",
+    "More emphatic than だけでなく (not only) or 上[うえ]に (moreover — Chapter 30)",
+    "Preferred in formal/written contexts",
+    "Both elements are in the same direction (additive, not contrasting)"
+   ],
+   "examples": [
+    {
+     "japanese": "彼女[かのじょ]は英語[えいご]ばかりか、フランス語[ご]も話[はな]せます。",
+     "romaji": "Kanojo wa eigo bakari ka, furansugo mo hanasemasu.",
+     "english": "Not only can she speak English, but she can also speak French."
+    },
+    {
+     "japanese": "この料理[りょうり]はおいしいばかりか、体[からだ]にもいいです。",
+     "romaji": "Kono ryouri wa oishii bakari ka, karada ni mo ii desu.",
+     "english": "Not only is this dish delicious, it is also good for your health."
+    },
+    {
+     "japanese": "彼[かれ]は仕事[しごと]ができるばかりか、人望[じんぼう]もあります。",
+     "romaji": "Kare wa shigoto ga dekiru bakari ka, jinbou mo arimasu.",
+     "english": "Not only is he capable at work, he is also well-respected."
+    },
+    {
+     "japanese": "その事故[じこ]は財産[ざいさん]ばかりか、多[おお]くの命[いのち]も奪[うば]いました。",
+     "romaji": "Sono jiko wa zaisan bakari ka, ooku no inochi mo ubaimashita.",
+     "english": "That accident took not only property, but also many lives."
+    }
+   ],
+   "flashcardHeader": "〜ばかりか〜も",
+   "flashcardAnswer": "Not only X — but the even more striking Y as well: 'not only...but also'.",
+   "practice": [
+    {
+     "id": "bakari-ka_q1",
+     "type": "usage",
+     "prompt": "What does 〜ばかりか〜も mean?",
+     "japanese": null,
+     "choices": [
+      "only X, not Y",
+      "not only X but also Y (and Y is even more surprising/extensive than X)",
+      "because of X, Y follows",
+      "despite X, Y"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ばかりか〜も = not only X but also Y. 彼[かれ]は英語[えいご]ばかりか中国語[ちゅうごくご]も話[はな]せる = he can speak not only English but also Chinese. も marks the additional (often surprising) element."
+    },
+    {
+     "id": "bakari-ka_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only did it rain but it also thundered'?",
+     "japanese": null,
+     "choices": [
+      "雨[あめ]が降[ふ]ったばかりか、雷[かみなり]も鳴[な]った。",
+      "雨[あめ]が降[ふ]るばかりか、雷[かみなり]も鳴[な]った。",
+      "雨[あめ]が降[ふ]っているばかりか、雷[かみなり]も鳴[な]った。",
+      "雨[あめ]が降[ふ]るのばかりか、雷[かみなり]も鳴[な]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (plain) + ばかりか + も: 降[ふ]った (past) + ばかりか = not only did it rain. 雷[かみなり]も鳴[な]った = thunder also sounded. Both events happened, with the second being more notable."
+    },
+    {
+     "id": "bakari-ka_q3",
+     "type": "usage",
+     "prompt": "Which connecting pattern is similar in meaning to ばかりか?",
+     "japanese": null,
+     "choices": [
+      "〜のに",
+      "〜だけでなく〜も (not only X but also Y)",
+      "〜にもかかわらず",
+      "〜ながらも"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜だけでなく〜も and 〜ばかりか〜も both mean 'not only X but also Y'. ばかりか is slightly more formal/literary. だけでなく is more conversational. Both require も for the additional element."
+    },
+    {
+     "id": "bakari-ka_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'He is not only kind but also smart'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は優[やさ]しいばかりか、頭[あたま]もいい。",
+      "彼[かれ]は優[やさ]しいだけばかりか、頭[あたま]もいい。",
+      "彼[かれ]は優[やさ]しいのばかりか、頭[あたま]もいい。",
+      "彼[かれ]は優[やさ]しいでばかりか、頭[あたま]もいい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj (plain) + ばかりか + も: 優[やさ]しい + ばかりか = not only kind. 頭[あたま]もいい = also smart. い-adjectives attach ばかりか directly to their plain form."
+    },
+    {
+     "id": "bakari-ka_q5",
+     "type": "translation",
+     "prompt": "Which means 'Not only did she win first place but she also broke the record'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は優勝[ゆうしょう]したばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
+      "彼女[かのじょ]は優勝[ゆうしょう]するばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
+      "彼女[かのじょ]は優勝[ゆうしょう]しているばかりか、記録[きろく]も塗[ぬ]り替[か]えた。",
+      "彼女[かのじょ]は優勝[ゆうしょう]のばかりか、記録[きろく]も塗[ぬ]り替[か]えた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (past plain) + ばかりか + も: 優勝[ゆうしょう]した + ばかりか = not only won. 記録[きろく]も塗[ぬ]り替[か]えた = also broke the record. Second achievement is even more impressive."
+    },
+    {
+     "id": "bakari-ka_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only the students but also the teachers are excited'?",
+     "japanese": null,
+     "choices": [
+      "学生[がくせい]ばかりか、先生[せんせい]も楽[たの]しみにしている。",
+      "学生[がくせい]のばかりか、先生[せんせい]も楽[たの]しみにしている。",
+      "学生[がくせい]だけばかりか、先生[せんせい]も楽[たの]しみにしている。",
+      "学生[がくせい]でばかりか、先生[せんせい]も楽[たの]しみにしている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ばかりか + も: 学生[がくせい] (noun) + ばかりか = not only students. 先生[せんせい]も = teachers also. For nouns, ばかりか attaches directly."
+    },
+    {
+     "id": "bakari-ka_q7",
+     "type": "usage",
+     "prompt": "In ばかりか, what does も mark?",
+     "japanese": null,
+     "choices": [
+      "The minimum condition — this is true in both spoken and written Japanese.",
+      "The additional (often more surprising or extensive) element beyond what X alone expresses",
+      "The contrast with X",
+      "The cause of X"
+     ],
+     "correctIndex": 1,
+     "explanation": "も in ばかりか〜も marks the ADDITIONAL element that goes beyond X. It's often something more surprising, extensive, or extreme. 英語[えいご]ばかりか中国語[ちゅうごくご]も = not only English (already impressive) but also Chinese (even more so)."
+    },
+    {
+     "id": "bakari-ka_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only was the food good, but the service was also excellent'?",
+     "japanese": null,
+     "choices": [
+      "料理[りょうり]が美味[おい]しかったばかりか、サービスも素晴[すば]らしかった。",
+      "料理[りょうり]が美味[おい]しいばかりか、サービスも素晴[すば]らしかった。",
+      "料理[りょうり]が美味[おい]しいのばかりか、サービスも素晴[すば]らしかった。",
+      "料理[りょうり]が美味[おい]しくなかったばかりか、サービスも素晴[すば]らしかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj past (美味[おい]しかった) + ばかりか + も: 美味[おい]しかった (was good) + ばかりか = not only was it delicious. サービスも素晴[すば]らしかった = service was also excellent."
+    },
+    {
+     "id": "bakari-ka_q9",
+     "type": "translation",
+     "prompt": "Which means 'Not only is this hotel cheap, but the location is also great'?",
+     "japanese": null,
+     "choices": [
+      "このホテルは安[やす]いばかりか、場所[ばしょ]もいい。",
+      "このホテルは安[やす]くなかったばかりか、場所[ばしょ]もいい。",
+      "このホテルは安[やす]いのばかりか、場所[ばしょ]もいい。",
+      "このホテルは安[やす]くばかりか、場所[ばしょ]もいい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj (plain) + ばかりか + も: 安[やす]い + ばかりか = not only cheap. 場所[ばしょ]もいい = location is also good. Two positive qualities stacked."
+    },
+    {
+     "id": "bakari-ka_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only does he not apologize, he also blames others'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は謝[あやま]らないばかりか、人[ひと]のせいにもする。",
+      "彼[かれ]は謝[あやま]るばかりか、人[ひと]のせいにもする。",
+      "彼[かれ]は謝[あやま]ったばかりか、人[ひと]のせいにもする。",
+      "彼[かれ]は謝[あやま]らないのばかりか、人[ひと]のせいにもする。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative plain form + ばかりか + も: 謝[あやま]らない (doesn't apologize) + ばかりか = not only doesn't apologize. 人[ひと]のせいにもする = also blames others. Stacking negative behaviors."
+    },
+    {
+     "id": "bakari-ka_q11",
+     "type": "usage",
+     "prompt": "When using な-adjective before ばかりか, which form is used?",
+     "japanese": null,
+     "choices": [
+      "na-adjective plain form + ばかりか (convenient → 便利[べんり]ばかりか)",
+      "na-adjective + な + ばかりか (便利[べんり]なばかりか), and the rule applies to every sentence type.",
+      "na-adjective + に + ばかりか (便利[べんり]にばかりか)",
+      "na-adjective + だ + ばかりか (便利[べんり]だばかりか)"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + ばかりか: 便利[べんり]ばかりか (not only convenient). The な is dropped. Same pattern as nouns."
+    },
+    {
+     "id": "bakari-ka_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only is he famous, but he's also influential'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は有名[ゆうめい]ばかりか、影響力[えいきょうりょく]もある。",
+      "彼[かれ]は有名[ゆうめい]なばかりか、影響力[えいきょうりょく]もある。",
+      "彼[かれ]は有名[ゆうめい]でばかりか、影響力[えいきょうりょく]もある。",
+      "彼[かれ]は有名[ゆうめい]だばかりか、影響力[えいきょうりょく]もある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + ばかりか (drop な): 有名[ゆうめい] + ばかりか = not only famous. 影響力[えいきょうりょく]もある = also has influence. な is dropped before ばかりか."
+    },
+    {
+     "id": "bakari-ka_q13",
+     "type": "translation",
+     "prompt": "Which means 'Not only did she cry but she also screamed'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は泣[な]いたばかりか、叫[さけ]びもした。",
+      "彼女[かのじょ]は泣[な]くばかりか、叫[さけ]びもした。",
+      "彼女[かのじょ]は泣[な]いているばかりか、叫[さけ]びもした。",
+      "彼女[かのじょ]は泣[な]いてばかりか、叫[さけ]びもした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (past plain) + ばかりか + も: 泣[な]いた + ばかりか = not only cried. 叫[さけ]びもした = also screamed. The second action is more extreme/surprising."
+    },
+    {
+     "id": "bakari-ka_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only did he not show up, he also didn't call'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は来[こ]なかったばかりか、電話[でんわ]もしなかった。",
+      "彼[かれ]は来[く]るばかりか、電話[でんわ]もしなかった。",
+      "彼[かれ]は来[き]たばかりか、電話[でんわ]もしなかった。",
+      "彼[かれ]は来[こ]ないのばかりか、電話[でんわ]もしなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Negative past (来[こ]なかった) + ばかりか + も: 来[こ]なかった (didn't come) + ばかりか = not only didn't come. 電話[でんわ]もしなかった = also didn't call. Two failures stacked."
+    },
+    {
+     "id": "bakari-ka_q15",
+     "type": "usage",
+     "prompt": "What NUANCE does ばかりか add that だけでなく does NOT always have?",
+     "japanese": null,
+     "choices": [
+      "ばかりか is more casual than だけでなく",
+      "ばかりか implies the second element is MORE surprising or extensive than the first (escalation)",
+      "ばかりか can only be used in negative sentences",
+      "ばかりか requires the same subject in both clauses — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "ばかりか often implies escalation — the second element (with も) is even more surprising, notable, or extreme than the first. だけでなく is more neutral: 'not only X but also Y.' ばかりか carries a stronger 'and even more surprisingly' nuance."
+    },
+    {
+     "id": "bakari-ka_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only did he pass the exam, he got the highest score'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は試験[しけん]に合格[ごうかく]したばかりか、最高点[さいこうてん]も取[と]った。",
+      "彼[かれ]は試験[しけん]に合格[ごうかく]するばかりか、最高点[さいこうてん]も取[と]った。",
+      "彼[かれ]は試験[しけん]に合格[ごうかく]しているばかりか、最高点[さいこうてん]も取[と]った。",
+      "彼[かれ]は試験[しけん]に合格[ごうかく]したのばかりか、最高点[さいこうてん]も取[と]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + ばかりか + も: 合格[ごうかく]した + ばかりか = not only passed. 最高点[さいこうてん]も取[と]った = also got the highest score. The second achievement (highest score) escalates beyond just passing."
+    },
+    {
+     "id": "bakari-ka_q17",
+     "type": "translation",
+     "prompt": "Which means 'Not only is it fast but it's also accurate'?",
+     "japanese": null,
+     "choices": [
+      "速[はや]いばかりか、正確[せいかく]でもある。",
+      "速[はや]くなかったばかりか、正確[せいかく]でもある。",
+      "速[はや]いのばかりか、正確[せいかく]でもある。",
+      "速[はや]くばかりか、正確[せいかく]でもある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj (plain) + ばかりか + も/でも: 速[はや]い + ばかりか = not only fast. 正確[せいかく]でもある = also accurate (でもある = also is). Two positive qualities."
+    },
+    {
+     "id": "bakari-ka_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only did she study hard, she also volunteered'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]したばかりか、ボランティアもした。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]するばかりか、ボランティアもした。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]していたばかりか、ボランティアもした。",
+      "彼女[かのじょ]は一生懸命[いっしょうけんめい]勉強[べんきょう]のばかりか、ボランティアもした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + ばかりか + も: 勉強[べんきょう]した + ばかりか = not only studied hard. ボランティアもした = also volunteered. Two admirable activities."
+    },
+    {
+     "id": "bakari-ka_q19",
+     "type": "usage",
+     "prompt": "Which position of も is CORRECT in a ばかりか sentence?",
+     "japanese": null,
+     "choices": [
+      "Aばかりか、Bも〜 (も comes after the second element B)",
+      "Aも、ばかりかB〜 (も comes at the start)",
+      "Aばかりか、もB〜 (も comes before the second element)",
+      "Aばかりも、B〜 (も attaches to ばかり)"
+     ],
+     "correctIndex": 0,
+     "explanation": "A + ばかりか、B + も + : the も comes AFTER the B element (the second item). 英語[えいご]ばかりか、中国語[ちゅうごくご]も話[はな]せる = not only English, Chinese also . The correct structure has も after the second noun/element."
+    },
+    {
+     "id": "bakari-ka_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only was it expensive, the quality was also bad'?",
+     "japanese": null,
+     "choices": [
+      "値段[ねだん]が高[たか]かったばかりか、品質[ひんしつ]も悪[わる]かった。",
+      "値段[ねだん]が高[たか]いばかりか、品質[ひんしつ]も悪[わる]かった。",
+      "値段[ねだん]が高[たか]いのばかりか、品質[ひんしつ]も悪[わる]かった。",
+      "値段[ねだん]が高[たか]くなかったばかりか、品質[ひんしつ]も悪[わる]かった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj past (高[たか]かった) + ばかりか + も: 高[たか]かった (was expensive) + ばかりか = not only expensive. 品質[ひんしつ]も悪[わる]かった = quality was also bad. Two negatives stacked (price and quality both bad)."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch31_v01",
+   "partOfSpeech": "noun",
+   "kanji": "関係",
+   "kana": "かんけい",
+   "romaji": "kankei",
+   "definition": "relationship"
+  },
+  {
+   "id": "ch31_v02",
+   "partOfSpeech": "noun",
+   "kanji": "付き合い",
+   "kana": "つきあい",
+   "romaji": "tsukiai",
+   "definition": "association; socializing"
+  },
+  {
+   "id": "ch31_v03",
+   "partOfSpeech": "noun",
+   "kanji": "恋愛",
+   "kana": "れんあい",
+   "romaji": "ren'ai",
+   "definition": "romance; love"
+  },
+  {
+   "id": "ch31_v04",
+   "partOfSpeech": "noun",
+   "kanji": "恋人",
+   "kana": "こいびと",
+   "romaji": "koibito",
+   "definition": "lover; sweetheart"
+  },
+  {
+   "id": "ch31_v05",
+   "partOfSpeech": "noun",
+   "kanji": "友情",
+   "kana": "ゆうじょう",
+   "romaji": "yuujou",
+   "definition": "friendship"
+  },
+  {
+   "id": "ch31_v06",
+   "partOfSpeech": "noun",
+   "kanji": "信頼",
+   "kana": "しんらい",
+   "romaji": "shinrai",
+   "definition": "trust"
+  },
+  {
+   "id": "ch31_v07",
+   "partOfSpeech": "noun",
+   "kanji": "尊敬",
+   "kana": "そんけい",
+   "romaji": "sonkei",
+   "definition": "respect"
+  },
+  {
+   "id": "ch31_v08",
+   "partOfSpeech": "noun",
+   "kanji": "出会い",
+   "kana": "であい",
+   "romaji": "deai",
+   "definition": "encounter; meeting"
+  },
+  {
+   "id": "ch31_v09",
+   "partOfSpeech": "noun",
+   "kanji": "別れ",
+   "kana": "わかれ",
+   "romaji": "wakare",
+   "definition": "parting; separation"
+  },
+  {
+   "id": "ch31_v10",
+   "partOfSpeech": "noun",
+   "kanji": "喧嘩",
+   "kana": "けんか",
+   "romaji": "kenka",
+   "definition": "quarrel; fight"
+  },
+  {
+   "id": "ch31_v11",
+   "partOfSpeech": "noun",
+   "kanji": "仲",
+   "kana": "なか",
+   "romaji": "naka",
+   "definition": "relations; terms"
+  },
+  {
+   "id": "ch31_v12",
+   "partOfSpeech": "noun",
+   "kanji": "仲間",
+   "kana": "なかま",
+   "romaji": "nakama",
+   "definition": "companions; peers"
+  },
+  {
+   "id": "ch31_v13",
+   "partOfSpeech": "noun",
+   "kanji": "相手",
+   "kana": "あいて",
+   "romaji": "aite",
+   "definition": "partner; the other party"
+  },
+  {
+   "id": "ch31_v14",
+   "partOfSpeech": "noun",
+   "kanji": "恋",
+   "kana": "こい",
+   "romaji": "koi",
+   "definition": "love; romance"
+  },
+  {
+   "id": "ch31_v15",
+   "partOfSpeech": "noun",
+   "kanji": "愛",
+   "kana": "あい",
+   "romaji": "ai",
+   "definition": "love"
+  },
+  {
+   "id": "ch31_v16",
+   "partOfSpeech": "noun",
+   "kanji": "離婚",
+   "kana": "りこん",
+   "romaji": "rikon",
+   "definition": "divorce"
+  },
+  {
+   "id": "ch31_v17",
+   "partOfSpeech": "noun",
+   "kanji": "交際",
+   "kana": "こうさい",
+   "romaji": "kousai",
+   "definition": "dating; association"
+  },
+  {
+   "id": "ch31_v18",
+   "partOfSpeech": "noun",
+   "kanji": "縁",
+   "kana": "えん",
+   "romaji": "en",
+   "definition": "connection; fate"
+  },
+  {
+   "id": "ch31_v19",
+   "partOfSpeech": "noun",
+   "kanji": "世話",
+   "kana": "せわ",
+   "romaji": "sewa",
+   "definition": "care; looking after"
+  },
+  {
+   "id": "ch31_v20",
+   "partOfSpeech": "noun",
+   "kanji": "協力",
+   "kana": "きょうりょく",
+   "romaji": "kyouryoku",
+   "definition": "cooperation"
+  },
+  {
+   "id": "ch31_v21",
+   "partOfSpeech": "noun",
+   "kanji": "応援",
+   "kana": "おうえん",
+   "romaji": "ouen",
+   "definition": "support; cheering"
+  },
+  {
+   "id": "ch31_v22",
+   "partOfSpeech": "noun",
+   "kanji": "憧れ",
+   "kana": "あこがれ",
+   "romaji": "akogare",
+   "definition": "longing; admiration"
+  },
+  {
+   "id": "ch31_v23",
+   "partOfSpeech": "noun",
+   "kanji": "嫉妬",
+   "kana": "しっと",
+   "romaji": "shitto",
+   "definition": "jealousy"
+  },
+  {
+   "id": "ch31_v24",
+   "partOfSpeech": "noun",
+   "kanji": "好意",
+   "kana": "こうい",
+   "romaji": "koui",
+   "definition": "goodwill; kindness"
+  },
+  {
+   "id": "ch31_v25",
+   "partOfSpeech": "noun",
+   "kanji": "悪口",
+   "kana": "わるぐち",
+   "romaji": "waruguchi",
+   "definition": "bad-mouthing; insult"
+  },
+  {
+   "id": "ch31_v26",
+   "partOfSpeech": "verb",
+   "kanji": "憎む",
+   "kana": "にくむ",
+   "romaji": "nikumu",
+   "definition": "to hate"
+  },
+  {
+   "id": "ch31_v27",
+   "partOfSpeech": "verb",
+   "kanji": "慰める",
+   "kana": "なぐさめる",
+   "romaji": "nagusameru",
+   "definition": "to comfort; to console"
+  },
+  {
+   "id": "ch31_v28",
+   "partOfSpeech": "verb",
+   "kanji": "励ます",
+   "kana": "はげます",
+   "romaji": "hagemasu",
+   "definition": "to encourage"
+  },
+  {
+   "id": "ch31_v29",
+   "partOfSpeech": "verb",
+   "kanji": "裏切る",
+   "kana": "うらぎる",
+   "romaji": "uragiru",
+   "definition": "to betray"
+  },
+  {
+   "id": "ch31_v30",
+   "partOfSpeech": "verb",
+   "kanji": "頼る",
+   "kana": "たよる",
+   "romaji": "tayoru",
+   "definition": "to rely on"
+  },
+  {
+   "id": "ch31_v31",
+   "partOfSpeech": "verb",
+   "kanji": "甘える",
+   "kana": "あまえる",
+   "romaji": "amaeru",
+   "definition": "to depend on; to act spoiled"
+  },
+  {
+   "id": "ch31_v32",
+   "partOfSpeech": "verb",
+   "kanji": "譲る",
+   "kana": "ゆずる",
+   "romaji": "yuzuru",
+   "definition": "to yield; to give way"
+  },
+  {
+   "id": "ch31_v33",
+   "partOfSpeech": "verb",
+   "kanji": "断る",
+   "kana": "ことわる",
+   "romaji": "kotowaru",
+   "definition": "to refuse; to decline"
+  },
+  {
+   "id": "ch31_v34",
+   "partOfSpeech": "verb",
+   "kanji": "誘う",
+   "kana": "さそう",
+   "romaji": "sasou",
+   "definition": "to invite"
+  },
+  {
+   "id": "ch31_v35",
+   "partOfSpeech": "verb",
+   "kanji": "慣れる",
+   "kana": "なれる",
+   "romaji": "nareru",
+   "definition": "to get used to"
+  },
+  {
+   "id": "ch31_v36",
+   "partOfSpeech": "i-adjective",
+   "kanji": "親しい",
+   "kana": "したしい",
+   "romaji": "shitashii",
+   "definition": "close; intimate"
+  },
+  {
+   "id": "ch31_v37",
+   "partOfSpeech": "noun",
+   "kanji": "仲良し",
+   "kana": "なかよし",
+   "romaji": "nakayoshi",
+   "definition": "good friends"
+  },
+  {
+   "id": "ch31_v38",
+   "partOfSpeech": "noun",
+   "kanji": "尊重",
+   "kana": "そんちょう",
+   "romaji": "sonchou",
+   "definition": "respect; esteem"
+  },
+  {
+   "id": "ch31_v39",
+   "partOfSpeech": "noun",
+   "kanji": "対立",
+   "kana": "たいりつ",
+   "romaji": "tairitsu",
+   "definition": "conflict; confrontation"
+  },
+  {
+   "id": "ch31_v40",
+   "partOfSpeech": "verb",
+   "kanji": "付き合う",
+   "kana": "つきあう",
+   "romaji": "tsukiau",
+   "definition": "to associate with; to date"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "連",
+   "word": "連れる",
+   "reading": "つれる",
+   "meaning": "to take (someone) with one"
+  },
+  {
+   "char": "対",
+   "word": "対立",
+   "reading": "たいりつ",
+   "meaning": "conflict; confrontation"
+  },
+  {
+   "char": "合",
+   "word": "合う",
+   "reading": "あう",
+   "meaning": "to match; to fit"
+  },
+  {
+   "char": "関",
+   "word": "関係",
+   "reading": "かんけい",
+   "meaning": "relationship"
+  },
+  {
+   "char": "数",
+   "word": "数える",
+   "reading": "かぞえる",
+   "meaning": "to count"
+  },
+  {
+   "char": "交",
+   "word": "交際",
+   "reading": "こうさい",
+   "meaning": "dating; association"
+  },
+  {
+   "char": "際",
+   "word": "際",
+   "reading": "さい",
+   "meaning": "on the occasion of"
+  },
+  {
+   "char": "面",
+   "word": "面する",
+   "reading": "めんする",
+   "meaning": "to face on"
+  },
+  {
+   "char": "信",
+   "word": "信頼",
+   "reading": "しんらい",
+   "meaning": "trust"
+  },
+  {
+   "char": "側",
+   "word": "側",
+   "reading": "そば",
+   "meaning": "near"
+  },
+  {
+   "char": "係",
+   "word": "係",
+   "reading": "かかり",
+   "meaning": "person in charge; duty"
+  },
+  {
+   "char": "放",
+   "word": "放す",
+   "reading": "はなす",
+   "meaning": "to release"
+  },
+  {
+   "char": "付",
+   "word": "付ける",
+   "reading": "つける",
+   "meaning": "to attach"
+  },
+  {
+   "char": "断",
+   "word": "断る",
+   "reading": "ことわる",
+   "meaning": "to refuse; to decline"
+  },
+  {
+   "char": "宅",
+   "word": "宅",
+   "reading": "たく",
+   "meaning": "house"
+  },
+  {
+   "char": "席",
+   "word": "席",
+   "reading": "せき",
+   "meaning": "seat"
+  },
+  {
+   "char": "声",
+   "word": "声",
+   "reading": "こえ",
+   "meaning": "voice"
+  },
+  {
+   "char": "落",
+   "word": "落ちる",
+   "reading": "おちる",
+   "meaning": "to fall down"
+  },
+  {
+   "char": "好",
+   "word": "好き",
+   "reading": "すき",
+   "meaning": "liked; fond of"
+  },
+  {
+   "char": "福",
+   "word": "福",
+   "reading": "ふく",
+   "meaning": "good fortune"
+  },
+  {
+   "char": "港",
+   "word": "港",
+   "reading": "みなと",
+   "meaning": "harbour"
+  },
+  {
+   "char": "良",
+   "word": "良い",
+   "reading": "よい",
+   "meaning": "good"
+  },
+  {
+   "char": "値",
+   "word": "値",
+   "reading": "あたい",
+   "meaning": "price"
+  },
+  {
+   "char": "否",
+   "word": "否定",
+   "reading": "ひてい",
+   "meaning": "denial"
+  },
+  {
+   "char": "除",
+   "word": "削除",
+   "reading": "さくじょ",
+   "meaning": "deletion; removal"
+  },
+  {
+   "char": "迎",
+   "word": "迎える",
+   "reading": "むかえる",
+   "meaning": "to go out to meet"
+  },
+  {
+   "char": "因",
+   "word": "因る",
+   "reading": "よる",
+   "meaning": "to be due to"
+  },
+  {
+   "char": "愛",
+   "word": "愛",
+   "reading": "あい",
+   "meaning": "love"
+  },
+  {
+   "char": "余",
+   "word": "余る",
+   "reading": "あまる",
+   "meaning": "to remain"
+  },
+  {
+   "char": "背",
+   "word": "背",
+   "reading": "せい",
+   "meaning": "height"
+  },
+  {
+   "char": "宿",
+   "word": "宿",
+   "reading": "やど",
+   "meaning": "lodging"
+  },
+  {
+   "char": "頼",
+   "word": "頼る",
+   "reading": "たよる",
+   "meaning": "to rely on"
+  },
+  {
+   "char": "婚",
+   "word": "離婚",
+   "reading": "りこん",
+   "meaning": "divorce"
+  },
+  {
+   "char": "幸",
+   "word": "幸せ",
+   "reading": "しあわせ",
+   "meaning": "happiness; happy"
+  },
+  {
+   "char": "招",
+   "word": "招く",
+   "reading": "まねく",
+   "meaning": "to invite"
+  },
+  {
+   "char": "欲",
+   "word": "欲",
+   "reading": "よく",
+   "meaning": "greed"
+  },
+  {
+   "char": "閉",
+   "word": "閉める",
+   "reading": "しめる",
+   "meaning": "to close"
+  },
+  {
+   "char": "掛",
+   "word": "掛ける",
+   "reading": "かける",
+   "meaning": "to hang up (e.g. a coat, a picture on the wall)"
+  },
+  {
+   "char": "慣",
+   "word": "慣れる",
+   "reading": "なれる",
+   "meaning": "to get used to"
+  },
+  {
+   "char": "疲",
+   "word": "疲れる",
+   "reading": "つかれる",
+   "meaning": "to get tired"
+  },
+  {
+   "char": "恥",
+   "word": "恥",
+   "reading": "はじ",
+   "meaning": "shame"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "連れる",
+   "kana": "つれる",
+   "romaji": "tsureru",
+   "meaning": "to take (someone) with one",
+   "chars": [
+    "連"
+   ]
+  },
+  {
+   "word": "対立",
+   "kana": "たいりつ",
+   "romaji": "tairitsu",
+   "meaning": "conflict; confrontation",
+   "chars": [
+    "対",
+    "立"
+   ]
+  },
+  {
+   "word": "合う",
+   "kana": "あう",
+   "romaji": "au",
+   "meaning": "to match; to fit",
+   "chars": [
+    "合"
+   ]
+  },
+  {
+   "word": "関係",
+   "kana": "かんけい",
+   "romaji": "kankei",
+   "meaning": "relationship",
+   "chars": [
+    "関",
+    "係"
+   ]
+  },
+  {
+   "word": "数える",
+   "kana": "かぞえる",
+   "romaji": "kazoeru",
+   "meaning": "to count",
+   "chars": [
+    "数"
+   ]
+  },
+  {
+   "word": "交際",
+   "kana": "こうさい",
+   "romaji": "kousai",
+   "meaning": "dating; association",
+   "chars": [
+    "交",
+    "際"
+   ]
+  },
+  {
+   "word": "際",
+   "kana": "さい",
+   "romaji": "sai",
+   "meaning": "on the occasion of",
+   "chars": [
+    "際"
+   ]
+  },
+  {
+   "word": "面する",
+   "kana": "めんする",
+   "romaji": "mensuru",
+   "meaning": "to face on",
+   "chars": [
+    "面"
+   ]
+  },
+  {
+   "word": "信頼",
+   "kana": "しんらい",
+   "romaji": "shinrai",
+   "meaning": "trust",
+   "chars": [
+    "信",
+    "頼"
+   ]
+  },
+  {
+   "word": "側",
+   "kana": "そば",
+   "romaji": "soba",
+   "meaning": "near",
+   "chars": [
+    "側"
+   ]
+  },
+  {
+   "word": "係",
+   "kana": "かかり",
+   "romaji": "kakari",
+   "meaning": "person in charge; duty",
+   "chars": [
+    "係"
+   ]
+  },
+  {
+   "word": "放す",
+   "kana": "はなす",
+   "romaji": "hanasu",
+   "meaning": "to release",
+   "chars": [
+    "放"
+   ]
+  },
+  {
+   "word": "付ける",
+   "kana": "つける",
+   "romaji": "tsukeru",
+   "meaning": "to attach",
+   "chars": [
+    "付"
+   ]
+  },
+  {
+   "word": "断る",
+   "kana": "ことわる",
+   "romaji": "kotowaru",
+   "meaning": "to refuse; to decline",
+   "chars": [
+    "断"
+   ]
+  },
+  {
+   "word": "宅",
+   "kana": "たく",
+   "romaji": "taku",
+   "meaning": "house",
+   "chars": [
+    "宅"
+   ]
+  },
+  {
+   "word": "席",
+   "kana": "せき",
+   "romaji": "seki",
+   "meaning": "seat",
+   "chars": [
+    "席"
+   ]
+  },
+  {
+   "word": "声",
+   "kana": "こえ",
+   "romaji": "koe",
+   "meaning": "voice",
+   "chars": [
+    "声"
+   ]
+  },
+  {
+   "word": "落ちる",
+   "kana": "おちる",
+   "romaji": "ochiru",
+   "meaning": "to fall down",
+   "chars": [
+    "落"
+   ]
+  },
+  {
+   "word": "好き",
+   "kana": "すき",
+   "romaji": "suki",
+   "meaning": "liked; fond of",
+   "chars": [
+    "好"
+   ]
+  },
+  {
+   "word": "福",
+   "kana": "ふく",
+   "romaji": "fuku",
+   "meaning": "good fortune",
+   "chars": [
+    "福"
+   ]
+  },
+  {
+   "word": "港",
+   "kana": "みなと",
+   "romaji": "minato",
+   "meaning": "harbour",
+   "chars": [
+    "港"
+   ]
+  },
+  {
+   "word": "良い",
+   "kana": "よい",
+   "romaji": "yoi",
+   "meaning": "good",
+   "chars": [
+    "良"
+   ]
+  },
+  {
+   "word": "値",
+   "kana": "あたい",
+   "romaji": "atai",
+   "meaning": "price",
+   "chars": [
+    "値"
+   ]
+  },
+  {
+   "word": "否定",
+   "kana": "ひてい",
+   "romaji": "hitei",
+   "meaning": "denial",
+   "chars": [
+    "否",
+    "定"
+   ]
+  },
+  {
+   "word": "削除",
+   "kana": "さくじょ",
+   "romaji": "sakujo",
+   "meaning": "deletion; removal",
+   "chars": [
+    "除"
+   ]
+  },
+  {
+   "word": "迎える",
+   "kana": "むかえる",
+   "romaji": "mukaeru",
+   "meaning": "to go out to meet",
+   "chars": [
+    "迎"
+   ]
+  },
+  {
+   "word": "因る",
+   "kana": "よる",
+   "romaji": "yoru",
+   "meaning": "to be due to",
+   "chars": [
+    "因"
+   ]
+  },
+  {
+   "word": "愛",
+   "kana": "あい",
+   "romaji": "ai",
+   "meaning": "love",
+   "chars": [
+    "愛"
+   ]
+  },
+  {
+   "word": "余る",
+   "kana": "あまる",
+   "romaji": "amaru",
+   "meaning": "to remain",
+   "chars": [
+    "余"
+   ]
+  },
+  {
+   "word": "背",
+   "kana": "せい",
+   "romaji": "sei",
+   "meaning": "height",
+   "chars": [
+    "背"
+   ]
+  },
+  {
+   "word": "宿",
+   "kana": "やど",
+   "romaji": "yado",
+   "meaning": "lodging",
+   "chars": [
+    "宿"
+   ]
+  },
+  {
+   "word": "頼る",
+   "kana": "たよる",
+   "romaji": "tayoru",
+   "meaning": "to rely on",
+   "chars": [
+    "頼"
+   ]
+  },
+  {
+   "word": "離婚",
+   "kana": "りこん",
+   "romaji": "rikon",
+   "meaning": "divorce",
+   "chars": [
+    "婚"
+   ]
+  },
+  {
+   "word": "幸せ",
+   "kana": "しあわせ",
+   "romaji": "shiawase",
+   "meaning": "happiness; happy",
+   "chars": [
+    "幸"
+   ]
+  },
+  {
+   "word": "招く",
+   "kana": "まねく",
+   "romaji": "maneku",
+   "meaning": "to invite",
+   "chars": [
+    "招"
+   ]
+  },
+  {
+   "word": "欲",
+   "kana": "よく",
+   "romaji": "yoku",
+   "meaning": "greed",
+   "chars": [
+    "欲"
+   ]
+  },
+  {
+   "word": "閉める",
+   "kana": "しめる",
+   "romaji": "shimeru",
+   "meaning": "to close",
+   "chars": [
+    "閉"
+   ]
+  },
+  {
+   "word": "掛ける",
+   "kana": "かける",
+   "romaji": "kakeru",
+   "meaning": "to hang up (e.g. a coat, a picture on the wall)",
+   "chars": [
+    "掛"
+   ]
+  },
+  {
+   "word": "慣れる",
+   "kana": "なれる",
+   "romaji": "nareru",
+   "meaning": "to get used to",
+   "chars": [
+    "慣"
+   ]
+  },
+  {
+   "word": "疲れる",
+   "kana": "つかれる",
+   "romaji": "tsukareru",
+   "meaning": "to get tired",
+   "chars": [
+    "疲"
+   ]
+  },
+  {
+   "word": "恥",
+   "kana": "はじ",
+   "romaji": "haji",
+   "meaning": "shame",
+   "chars": [
+    "恥"
+   ]
+  },
+  {
+   "word": "連れ",
+   "kana": "つれ",
+   "romaji": "tsure",
+   "meaning": "companion",
+   "chars": [
+    "連"
+   ]
+  },
+  {
+   "word": "付き合い",
+   "kana": "つきあい",
+   "romaji": "tsukiai",
+   "meaning": "association",
+   "chars": [
+    "付",
+    "合"
+   ]
+  },
+  {
+   "word": "付け",
+   "kana": "つけ",
+   "romaji": "tsuke",
+   "meaning": "bill",
+   "chars": [
+    "付"
+   ]
+  },
+  {
+   "word": "落ち",
+   "kana": "おち",
+   "romaji": "ochi",
+   "meaning": "slip",
+   "chars": [
+    "落"
+   ]
+  },
+  {
+   "word": "好意",
+   "kana": "こうい",
+   "romaji": "koui",
+   "meaning": "kindness",
+   "chars": [
+    "好",
+    "意"
+   ]
+  },
+  {
+   "word": "好み",
+   "kana": "このみ",
+   "romaji": "konomi",
+   "meaning": "liking",
+   "chars": [
+    "好"
+   ]
+  },
+  {
+   "word": "好む",
+   "kana": "このむ",
+   "romaji": "konomu",
+   "meaning": "to like",
+   "chars": [
+    "好"
+   ]
+  },
+  {
+   "word": "良さ",
+   "kana": "よさ",
+   "romaji": "yosa",
+   "meaning": "merit",
+   "chars": [
+    "良"
+   ]
+  },
+  {
+   "word": "恋愛",
+   "kana": "れんあい",
+   "romaji": "ren'ai",
+   "meaning": "love",
+   "chars": [
+    "恋",
+    "愛"
+   ]
+  },
+  {
+   "word": "頼む",
+   "kana": "たのむ",
+   "romaji": "tanomu",
+   "meaning": "to request",
+   "chars": [
+    "頼"
+   ]
+  },
+  {
+   "word": "招き",
+   "kana": "まねき",
+   "romaji": "maneki",
+   "meaning": "invitation",
+   "chars": [
+    "招"
+   ]
+  },
+  {
+   "word": "欲しい",
+   "kana": "ほしい",
+   "romaji": "hoshii",
+   "meaning": "wanted; desired",
+   "chars": [
+    "欲"
+   ]
+  },
+  {
+   "word": "閉まる",
+   "kana": "しまる",
+   "romaji": "shimaru",
+   "meaning": "to be shut",
+   "chars": [
+    "閉"
+   ]
+  },
+  {
+   "word": "閉じる",
+   "kana": "とじる",
+   "romaji": "tojiru",
+   "meaning": "to close (e.g. book, eyes, meeting, etc.)",
+   "chars": [
+    "閉"
+   ]
+  },
+  {
+   "word": "掛かる",
+   "kana": "かかる",
+   "romaji": "kakaru",
+   "meaning": "to take (a resource, e.g. time or money)",
+   "chars": [
+    "掛"
+   ]
+  },
+  {
+   "word": "親しい",
+   "kana": "したしい",
+   "romaji": "shitashii",
+   "meaning": "close (e.g. friend)",
+   "chars": [
+    "親"
+   ]
+  },
+  {
+   "word": "相手",
+   "kana": "あいて",
+   "romaji": "aite",
+   "meaning": "partner; the other party; opponent",
+   "chars": [
+    "相",
+    "手"
+   ]
+  },
+  {
+   "word": "裏切る",
+   "kana": "うらぎる",
+   "romaji": "uragiru",
+   "meaning": "to betray",
+   "chars": [
+    "裏",
+    "切"
+   ]
+  },
+  {
+   "word": "仲間",
+   "kana": "なかま",
+   "romaji": "nakama",
+   "meaning": "company",
+   "chars": [
+    "仲",
+    "間"
+   ]
+  },
+  {
+   "word": "尊敬",
+   "kana": "そんけい",
+   "romaji": "sonkei",
+   "meaning": "respect",
+   "chars": [
+    "尊",
+    "敬"
+   ]
+  },
+  {
+   "word": "尊重",
+   "kana": "そんちょう",
+   "romaji": "sonchou",
+   "meaning": "respect",
+   "chars": [
+    "尊",
+    "重"
+   ]
+  },
+  {
+   "word": "甘える",
+   "kana": "あまえる",
+   "romaji": "amaeru",
+   "meaning": "to behave like a spoiled child",
+   "chars": [
+    "甘"
+   ]
+  },
+  {
+   "word": "恋人",
+   "kana": "こいびと",
+   "romaji": "koibito",
+   "meaning": "lover",
+   "chars": [
+    "恋",
+    "人"
+   ]
+  },
+  {
+   "word": "出会い",
+   "kana": "であい",
+   "romaji": "deai",
+   "meaning": "meeting",
+   "chars": [
+    "出",
+    "会"
+   ]
+  },
+  {
+   "word": "友情",
+   "kana": "ゆうじょう",
+   "romaji": "yuujou",
+   "meaning": "friendship",
+   "chars": [
+    "友",
+    "情"
+   ]
+  },
+  {
+   "word": "憧れ",
+   "kana": "あこがれ",
+   "romaji": "akogare",
+   "meaning": "longing, yearning",
+   "chars": [
+    "憧"
+   ]
+  }
+ ]
 }

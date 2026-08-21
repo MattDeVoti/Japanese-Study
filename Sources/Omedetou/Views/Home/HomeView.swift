@@ -1,4 +1,5 @@
 import SwiftUI
+import StoreKit
 import WidgetKit
 
 struct HomeView: View {
@@ -23,7 +24,7 @@ struct HomeView: View {
 
     var body: some View {
         ZStack {
-            PatternedBackground(.home)
+            PatternedBackground(.home, glow: true)
 
             VStack(spacing: 0) {
                 // Capped, so the title sits a little below the status bar without
@@ -47,6 +48,7 @@ struct HomeView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.top, 14)
+                .settleIn(0)
 
                 // The only uncapped gap on the screen: spare height collects here,
                 // under the title, while the spacers above and below it are capped.
@@ -56,12 +58,12 @@ struct HomeView: View {
                 // tool you use to prepare, not as an obligation of their own.
                 VStack(spacing: 8) {
                     ExamHomeCard()
-                    ReviewHomeCard()
                 }
                 // Match the tiles exactly. The square grid carries an extra inset,
                 // so without this the bars overhang the buttons they sit above.
                 .padding(.horizontal, 24)
                 .padding(.bottom, 16)
+                .settleIn(1)
 
                 // Main navigation. Four destinations always, so the 2×2 grid is
                 // the permanent layout — Extras is no longer the reward for
@@ -83,6 +85,7 @@ struct HomeView: View {
                                 square: true, height: gridTileHeight) { ExtrasView() }
                 }
                 .padding(.horizontal, 24)
+                .settleIn(2)
 
                 Spacer().frame(minHeight: 18, maxHeight: 40)
 
@@ -100,30 +103,31 @@ struct HomeView: View {
                     } label: {
                         AccentGlyphButton(glyph: "あ", caption: "Hiragana", accent: chip)
                     }
-                    .buttonStyle(.plain)
+                    .pressable(scale: 0.94)
 
                     NavigationLink {
                         KanjiListView()
                     } label: {
                         AccentGlyphButton(glyph: "漢", caption: "Kanji", accent: chip)
                     }
-                    .buttonStyle(.plain)
+                    .pressable(scale: 0.94)
 
                     NavigationLink {
                         KanaChartView(isHiragana: false)
                     } label: {
                         AccentGlyphButton(glyph: "ア", caption: "Katakana", accent: chip)
                     }
-                    .buttonStyle(.plain)
+                    .pressable(scale: 0.94)
                 }
                 .padding(.bottom, 18)
+                .settleIn(3)
 
                 // Help and options ride the Particles line rather than taking a row
                 // of their own. The pill is narrow and that row was mostly empty
                 // margin, so this costs no height and keeps the two utility buttons
                 // out of the kana shortcuts' way.
                 HStack(spacing: 0) {
-                    Button { showHelp = true } label: {
+                    Button { FeedbackSounds.shared.playNavigate(); showHelp = true } label: {
                         HomeCornerButton(icon: "questionmark", accent: chip)
                             .frame(width: 46, height: 46)
                             .contentShape(Circle())
@@ -142,7 +146,7 @@ struct HomeView: View {
 
                     Spacer(minLength: 12)
 
-                    Button { showOptions = true } label: {
+                    Button { FeedbackSounds.shared.playNavigate(); showOptions = true } label: {
                         HomeCornerButton(icon: "gearshape.fill", accent: chip)
                             .frame(width: 46, height: 46)
                             .contentShape(Circle())
@@ -204,12 +208,14 @@ struct HomeOptionsSheet: View {
     @ObservedObject private var unlocks = GameUnlocks.shared
     @ObservedObject private var cloud = CloudSyncService.shared
     @ObservedObject private var speech = SpeechService.shared
-    @ObservedObject private var srs = SRSStore.shared
     @ObservedObject private var reminders = NotificationService.shared
     @ObservedObject private var textSize = TextSizeSettings.shared
     @ObservedObject private var exams = ExamStore.shared
     @ObservedObject private var entitlements = Entitlements.shared
+    @ObservedObject private var store = StoreService.shared
     @State private var showResetConfirm = false
+    @State private var showPaywall = false
+    @State private var showManageSubscription = false
 
     /// Says how the current access was come by, since the tier name alone doesn't
     /// distinguish "you bought this" from "you were here first".
@@ -226,16 +232,6 @@ struct HomeOptionsSheet: View {
 
     /// The platform rate band is non-linear, so describe it rather than showing a
     /// meaningless percentage.
-    private var speedLabel: String {
-        switch speech.rate {
-        case ..<0.25:  return "Very slow"
-        case ..<0.42:  return "Slow"
-        case ..<0.58:  return "Normal"
-        case ..<0.78:  return "Brisk"
-        default:       return "Fast"
-        }
-    }
-
     var body: some View {
         NavigationStack {
             List {
@@ -270,6 +266,39 @@ struct HomeOptionsSheet: View {
                             .font(.system(size: 14))
                             .foregroundColor(.appTextSecondary)
                     }
+
+                    // Anyone without access can buy from here, rather than
+                    // having to go and tap a locked thing to find the paywall.
+                    if !entitlements.isPro {
+                        Button {
+                            showPaywall = true
+                        } label: {
+                            Label("See plans", systemImage: "lock.open.fill")
+                        }
+                    }
+
+                    // Apple's own sheet, so cancelling and changing plan happen
+                    // where people expect. Keyed on whether a subscription is
+                    // actually running rather than on the tier: someone who
+                    // bought outright while subscribed resolves to `.full` and
+                    // is still being billed monthly until they cancel here.
+                    if store.hasActiveSubscription {
+                        Button {
+                            showManageSubscription = true
+                        } label: {
+                            Label("Manage subscription", systemImage: "creditcard.fill")
+                        }
+                    }
+
+                    // Restoring has to be reachable without buying anything
+                    // first: a new device, a reinstall, or a one-time purchase
+                    // made on someone's other phone.
+                    Button {
+                        Task { await StoreService.shared.restore() }
+                    } label: {
+                        Label("Restore purchases", systemImage: "arrow.clockwise")
+                    }
+                    .disabled(store.restoring)
                 } header: {
                     Label("Access", systemImage: "key.fill")
                 } footer: {
@@ -324,14 +353,14 @@ struct HomeOptionsSheet: View {
                 Section {
                     Toggle(isOn: $reminders.isEnabled) {
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("Offer me a daily practice round")
+                            Text("Remind me to study each day")
                             Text("Off unless you want it")
                                 .font(.system(size: 12))
                                 .foregroundColor(.appTextSecondary)
                         }
                     }
                     if reminders.isEnabled {
-                        DatePicker("Remind me at",
+                        DatePicker("Daily reminder at",
                                    selection: Binding(
                                     get: {
                                         var c = DateComponents()
@@ -342,7 +371,7 @@ struct HomeOptionsSheet: View {
                                     set: { newValue in
                                         let c = Calendar.current.dateComponents([.hour, .minute],
                                                                                from: newValue)
-                                        reminders.reminderMinutes = (c.hour ?? 19) * 60 + (c.minute ?? 0)
+                                        reminders.reminderMinutes = (c.hour ?? 12) * 60 + (c.minute ?? 30)
                                     }),
                                    displayedComponents: .hourAndMinute)
                         if reminders.authorization == .denied {
@@ -351,19 +380,10 @@ struct HomeOptionsSheet: View {
                                 .foregroundColor(.orange)
                         }
                     }
-
-                    if srs.enrolledCount > 0 {
-                        HStack {
-                            Text("Items in rotation")
-                            Spacer()
-                            Text("\(srs.enrolledCount)")
-                                .foregroundColor(.appTextSecondary)
-                        }
-                    }
                 } header: {
-                    Label("Practice", systemImage: "bolt.fill")
+                    Label("Study reminder", systemImage: "bell.fill")
                 } footer: {
-                    Text("A practice round is a handful of cards drawn from the grammar, words and kanji you’ve been getting wrong — the app keeps track quietly and picks for you. Turn the nudge on if a daily prompt helps; it never counts anything at you, and practice is there whenever you want it either way.")
+                    Text("A daily nudge to spend a few minutes on whatever your next test covers. Tapping it opens that chapter. It never counts anything at you, and the chapter is there whenever you want it either way.")
                 }
 
                 Section {
@@ -393,6 +413,36 @@ struct HomeOptionsSheet: View {
                                 .foregroundColor(.appTextSecondary)
                         }
                     }
+
+                    Toggle(isOn: $reminders.testRemindersEnabled) {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Remind me before a test")
+                            Text("Off unless you want it")
+                                .font(.system(size: 12))
+                                .foregroundColor(.appTextSecondary)
+                        }
+                    }
+                    if reminders.testRemindersEnabled {
+                        DatePicker("Test reminder at",
+                                   selection: Binding(
+                                    get: {
+                                        var c = DateComponents()
+                                        c.hour = reminders.testReminderMinutes / 60
+                                        c.minute = reminders.testReminderMinutes % 60
+                                        return Calendar.current.date(from: c) ?? Date()
+                                    },
+                                    set: { newValue in
+                                        let c = Calendar.current.dateComponents([.hour, .minute],
+                                                                               from: newValue)
+                                        reminders.testReminderMinutes = (c.hour ?? 7) * 60 + (c.minute ?? 0)
+                                    }),
+                                   displayedComponents: .hourAndMinute)
+                        if reminders.authorization == .denied {
+                            Text("Notifications are turned off for Omedetou in iOS Settings.")
+                                .font(.system(size: 12))
+                                .foregroundColor(.orange)
+                        }
+                    }
                     NavigationLink {
                         ReportCardView()
                     } label: {
@@ -401,7 +451,7 @@ struct HomeOptionsSheet: View {
                 } header: {
                     Label("Tests", systemImage: "graduationcap.fill")
                 } footer: {
-                    Text("Each test is due this many days after you finish the previous one — so sitting one early moves the next deadline earlier too. Miss a deadline and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.")
+                    Text("Each test is due this many days after you finish the previous one — so sitting one early moves the next deadline earlier too. Miss a deadline and that test scores 0 until you take it. Each syllabary can also be cleared in one go with its full test.\n\nReminders start a few days before a deadline and stop the moment you sit the test. Nothing arrives once a deadline has passed.")
                 }
 
                 Section {
@@ -429,16 +479,7 @@ struct HomeOptionsSheet: View {
                         Text("Japanese Audio")
                     }
                     if speech.isEnabled && speech.isAvailable {
-                        VStack(alignment: .leading, spacing: 6) {
-                            HStack {
-                                Text("Speed")
-                                Spacer()
-                                Text(speedLabel)
-                                    .foregroundColor(.appTextSecondary)
-                            }
-                            Slider(value: $speech.rate, in: 0...1)
-                                .tint(.appAccent)
-                        }
+                        VoiceSpeedSlider()
                         // A picker only where there's a choice: most devices ship
                         // one Japanese voice, and a one-item picker is a control
                         // that does nothing.
@@ -473,8 +514,6 @@ struct HomeOptionsSheet: View {
                     }
                 }
 
-                VocalOptionsSection()
-
                 // Only shown once something has actually been found — listing it
                 // beforehand would give away that there are games to look for.
                 if unlocks.hasAny {
@@ -493,7 +532,7 @@ struct HomeOptionsSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
                 }
             }
             .confirmationDialog("Reset games?", isPresented: $showResetConfirm, titleVisibility: .visible) {
@@ -504,6 +543,14 @@ struct HomeOptionsSheet: View {
                 Button("Cancel", role: .cancel) {}
             } message: {
                 Text("Every game goes back to being hidden, and you'll have to find them again.")
+            }
+            .sheet(isPresented: $showPaywall) { PaywallView() }
+            .manageSubscriptionsSheet(isPresented: $showManageSubscription)
+            .alert("Restore", isPresented: Binding(get: { store.lastError != nil },
+                                                   set: { if !$0 { store.lastError = nil } })) {
+                Button("OK", role: .cancel) { store.lastError = nil }
+            } message: {
+                Text(store.lastError ?? "")
             }
         }
     }
@@ -716,7 +763,9 @@ private struct HomeNavTile<Destination: View>: View {
                     .frame(height: height)
             }
         }
-        .buttonStyle(.plain)
+        // Plain keeps the tile's own look; pressable adds back the tap
+        // acknowledgement that plain removes.
+        .pressable()
     }
 }
 private extension HomeOptionsSheet {
@@ -764,35 +813,6 @@ private extension HomeOptionsSheet {
 
 
 
-// MARK: - Vocal flashcard options
-
-/// Broken out of the options sheet so the settings that govern a spoken session
-/// live next to each other rather than three hundred lines apart.
-private struct VocalOptionsSection: View {
-    @ObservedObject private var vocal = VocalStudySettings.shared
-
-    var body: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 6) {
-                HStack {
-                    Text("Time to answer")
-                    Spacer()
-                    Text("\(Int(vocal.answerSeconds)) seconds")
-                        .foregroundColor(.appTextSecondary)
-                        .monospacedDigit()
-                }
-                Slider(value: $vocal.answerSeconds,
-                       in: VocalStudySettings.secondsRange,
-                       step: 1)
-                    .tint(.appAccent)
-            }
-        } header: {
-            Label("Audio Flash Cards", systemImage: "waveform.and.mic")
-        } footer: {
-            Text("How long the microphone stays open after each word is read out. Answering early moves straight on, so a longer window only costs you when you're stuck.")
-        }
-    }
-}
 
 
 

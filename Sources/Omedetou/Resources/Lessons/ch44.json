@@ -1,1247 +1,1883 @@
 {
-  "id": "ch44",
-  "chapterNumber": 46,
-  "title": "Surprise and Assertion",
-  "points": [
+ "id": "ch44",
+ "chapterNumber": 46,
+ "title": "Surprise and Assertion",
+ "points": [
+  {
+   "id": "to-omoikiya",
+   "name": "〜と思[おも]いきや (to omoikiya) — I thought...but actually",
+   "shortDescription": "Sets up an expectation and then delivers a surprising, contradictory reality.",
+   "formation": "Plain form + と思[おも]いきや + surprising contradictory result",
+   "explanation": "と思[おも]いきや is the grammar of the dramatic reversal — 'I thought X, but in fact Y, and that was genuinely surprising.' 難[むずか]しいと思[おも]いきや、意外[いがい]と簡単[かんたん]に解[と]けた: 'I thought it would be difficult, but unexpectedly I solved it quite easily.' The expectation is established in the first clause; と思[おも]いきや announces that a real surprise is incoming; and the second clause delivers the plot twist.\n\nThe surprise must be genuine — without real unexpectedness, you'd just use が or のに, and と思[おも]いきや would be overkill. It's literary and expressive, living naturally in stories, personal anecdotes, and narrative writing where the moment of surprise is worth dramatizing. It's stronger and more theatrically charged than ところが (an unexpected reversal connector that's more matter-of-fact). Think of と思[おも]いきや as the story moment where things take a turn you didn't see coming — the speaker is sharing that moment of surprise with you directly.",
+   "rules": [
+    "Plain form + と思[おも]いきや = I thought X, but (surprising reality was Y instead)",
+    "Sets up an expectation clearly (first clause) then reveals a surprising contradiction",
+    "More literary/dramatic than ところが (unexpected reversal); used for stronger surprises",
+    "The speaker (or observer) genuinely expected the first outcome",
+    "Common in storytelling, personal anecdotes, and written narrative"
+   ],
+   "examples": [
     {
-      "id": "to-omoikiya",
-      "name": "〜と思[おも]いきや (to omoikiya) — I thought...but actually",
-      "shortDescription": "Sets up an expectation and then delivers a surprising, contradictory reality.",
-      "formation": "Plain form + と思[おも]いきや + surprising contradictory result",
-      "explanation": "と思[おも]いきや is the grammar of the dramatic reversal — 'I thought X, but in fact Y, and that was genuinely surprising.' 難[むずか]しいと思[おも]いきや、意外[いがい]と簡単[かんたん]に解[と]けた: 'I thought it would be difficult, but unexpectedly I solved it quite easily.' The expectation is established in the first clause; と思[おも]いきや announces that a real surprise is incoming; and the second clause delivers the plot twist.\n\nThe surprise must be genuine — without real unexpectedness, you'd just use が or のに, and と思[おも]いきや would be overkill. It's literary and expressive, living naturally in stories, personal anecdotes, and narrative writing where the moment of surprise is worth dramatizing. It's stronger and more theatrically charged than ところが (an unexpected reversal connector that's more matter-of-fact). Think of と思[おも]いきや as the story moment where things take a turn you didn't see coming — the speaker is sharing that moment of surprise with you directly.",
-      "rules": [
-        "Plain form + と思[おも]いきや = I thought X, but (surprising reality was Y instead)",
-        "Sets up an expectation clearly (first clause) then reveals a surprising contradiction",
-        "More literary/dramatic than ところが (unexpected reversal); used for stronger surprises",
-        "The speaker (or observer) genuinely expected the first outcome",
-        "Common in storytelling, personal anecdotes, and written narrative"
-      ],
-      "examples": [
-        {
-          "japanese": "難[むずか]しいと思[おも]いきや、意外[いがい]と簡単[かんたん]に解[と]くことができました。",
-          "romaji": "Muzukashii to omoikiya, igai to kantan ni toku koto ga dekimashita.",
-          "english": "I thought it would be difficult, but unexpectedly I was able to solve it quite easily."
-        },
-        {
-          "japanese": "もう終[お]わりかと思[おも]いきや、まだ続[つづ]きがあった。",
-          "romaji": "Mou owari ka to omoikiya, mada tsuzuki ga atta.",
-          "english": "I thought it was over, but there was still more to come."
-        },
-        {
-          "japanese": "彼[かれ]は厳[きび]しい人[ひと]かと思[おも]いきや、実[じつ]はとても優[やさ]しかったです。",
-          "romaji": "Kare wa kibishii hito ka to omoikiya, jitsu wa totemo yasashikatta desu.",
-          "english": "I thought he was a strict person, but he was actually very kind."
-        },
-        {
-          "japanese": "値段[ねだん]が高[たか]いと思[おも]いきや、セール中[ちゅう]でとても安[やす]かった。",
-          "romaji": "Nedan ga takai to omoikiya, seeru chuu de totemo yasukatta.",
-          "english": "I thought the price would be high, but there was a sale and it was very cheap."
-        }
-      ],
-      "flashcardHeader": "〜と思いきや",
-      "flashcardAnswer": "Sets up an expectation and then delivers a surprising, contradictory reality.",
-      "practice": [
-        {
-          "id": "to-omoikiya_q1",
-          "type": "usage",
-          "prompt": "What does 〜と思[おも]いきや mean?",
-          "japanese": null,
-          "choices": [
-            "I thought and so...",
-            "I thought X, but (contrary to expectation) Y — marks a surprising reversal; what one thought would happen didn't",
-            "I wish X",
-            "just when I thought X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜と思[おも]いきや = I thought X, but actually Y (surprising reversal). 晴[は]れると思[おも]いきや、突然[とつぜん]大雨[おおあめ]になった = I thought it would be sunny, but it suddenly poured. Always marks a surprising contradiction between expectation and reality."
-        },
-        {
-          "id": "to-omoikiya_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought it was cheap, but it turned out to be very expensive'?",
-          "japanese": null,
-          "choices": [
-            "安[やす]いと思[おも]いきや、とても高[たか]かった。",
-            "安[やす]いと思[おも]ったが、とても高[たか]かった。",
-            "安[やす]いと思[おも]ったら、とても高[たか]かった。",
-            "安[やす]いかと思[おも]えば、とても高[たか]かった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + と思[おも]いきや: 安[やす]い + と思[おも]いきや = I thought it was cheap. とても高[たか]かった = was very expensive. と思[おも]いきや marks the surprise reversal from the initial expectation."
-        },
-        {
-          "id": "to-omoikiya_q3",
-          "type": "translation",
-          "prompt": "Which means 'I thought the test was easy, but actually it was very difficult'?",
-          "japanese": null,
-          "choices": [
-            "試験[しけん]は簡単[かんたん]だと思[おも]いきや、実際[じっさい]にはとても難[むずか]しかった。",
-            "試験[しけん]は簡単[かんたん]だと思[おも]ったが、実際[じっさい]にはとても難[むずか]しかった。",
-            "試験[しけん]は簡単[かんたん]だと思[おも]ったら、実際[じっさい]にはとても難[むずか]しかった。",
-            "試験[しけん]は簡単[かんたん]かと思[おも]えば、実際[じっさい]にはとても難[むずか]しかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Copula plain + と思[おも]いきや: 簡単[かんたん]だ + と思[おも]いきや = I thought it was easy. 実際[じっさい]にはとても難[むずか]しかった = it was actually very difficult. と思[おも]いきや signals the complete reversal of expectation."
-        },
-        {
-          "id": "to-omoikiya_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought the weather would clear up, but it suddenly rained'?",
-          "japanese": null,
-          "choices": [
-            "晴[は]れると思[おも]いきや、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
-            "晴[は]れると思[おも]ったが、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
-            "晴[は]れると思[おも]ったら、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
-            "晴[は]れるかと思[おも]えば、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + と思[おも]いきや: 晴[は]れる + と思[おも]いきや = I thought it would clear up. 突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した = it suddenly started raining. と思[おも]いきや marks the abrupt weather reversal."
-        },
-        {
-          "id": "to-omoikiya_q5",
-          "type": "usage",
-          "prompt": "What is the TONE of と思[おも]いきや?",
-          "japanese": null,
-          "choices": [
-            "Neutral causation — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "Surprise, unexpectedness, or irony — the speaker had a belief and reality proved it completely wrong, often in a dramatic or ironic way",
-            "Regret",
-            "Admiration"
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]いきや always carries surprise and often irony. The structure dramatizes the gap between what one thought would happen and what actually happened. Often the result is dramatically opposite to the expectation."
-        },
-        {
-          "id": "to-omoikiya_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought he was strict, but he turned out to be very kind'?",
-          "japanese": null,
-          "choices": [
-            "厳[きび]しいと思[おも]いきや、とても優[やさ]しかった。",
-            "厳[きび]しいと思[おも]ったが、とても優[やさ]しかった。",
-            "厳[きび]しいと思[おも]ったら、とても優[やさ]しかった。",
-            "厳[きび]しいかと思[おも]えば、とても優[やさ]しかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + と思[おも]いきや: 厳[きび]しい + と思[おも]いきや = I thought he was strict. とても優[やさ]しかった = was very kind. と思[おも]いきや dramatizes the personality reversal from first impression to reality."
-        },
-        {
-          "id": "to-omoikiya_q7",
-          "type": "translation",
-          "prompt": "Which means 'I thought I had won, but it was actually a mistake'?",
-          "japanese": null,
-          "choices": [
-            "勝[か]ったと思[おも]いきや、実[じつ]はミスだった。",
-            "勝[か]ったと思[おも]ったが、実[じつ]はミスだった。",
-            "勝[か]ったと思[おも]ったら、実[じつ]はミスだった。",
-            "勝[か]ったかと思[おも]えば、実[じつ]はミスだった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + と思[おも]いきや: 勝[か]った + と思[おも]いきや = I thought I had won. 実[じつ]はミスだった = it was actually a mistake. と思[おも]いきや marks the devastating reversal."
-        },
-        {
-          "id": "to-omoikiya_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought it was a bargain, but there were hidden charges'?",
-          "japanese": null,
-          "choices": [
-            "お得[とく]だと思[おも]いきや、隠[かく]れた費用[ひよう]があった。",
-            "お得[とく]だと思[おも]ったが、隠[かく]れた費用[ひよう]があった。",
-            "お得[とく]だと思[おも]ったら、隠[かく]れた費用[ひよう]があった。",
-            "お得[とく]かと思[おも]えば、隠[かく]れた費用[ひよう]があった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + だ + と思[おも]いきや: お得[とく]だ + と思[おも]いきや = I thought it was a bargain. 隠[かく]れた費用[ひよう]があった = there were hidden charges. と思[おも]いきや marks the unexpected extra cost."
-        },
-        {
-          "id": "to-omoikiya_q9",
-          "type": "usage",
-          "prompt": "と思[おも]いきや vs. と思[おも]ったら — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "と思[おも]いきや: more literary/dramatic, stronger sense of surprise reversal; と思[おも]ったら: more colloquial, used for both surprises and natural discoveries after the fact",
-            "と思[おも]いきや is more casual, regardless of context or politeness level — this is true in both spoken and written Japanese.",
-            "と思[おも]ったら is more formal"
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]いきや: literary, dramatic reversal: 負[ま]けたと思[おも]いきや逆転[ぎゃくてん]した (thought I'd lost, but made a comeback — dramatic). と思[おも]ったら: more casual, immediate discovery: 静[しず]かだと思[おも]ったら犬[いぬ]が逃[に]げていた (I thought it was quiet, then realized the dog had escaped). と思[おも]いきや is more literary."
-        },
-        {
-          "id": "to-omoikiya_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought the restaurant would be crowded, but it was empty'?",
-          "japanese": null,
-          "choices": [
-            "レストランは混[こ]んでいると思[おも]いきや、がらがらだった。",
-            "レストランは混[こ]んでいると思[おも]ったが、がらがらだった。",
-            "レストランは混[こ]んでいると思[おも]ったら、がらがらだった。",
-            "レストランは混[こ]んでいるかと思[おも]えば、がらがらだった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb te-iru + と思[おも]いきや: 混[こ]んでいる + と思[おも]いきや = I thought it was crowded. がらがらだった = was empty. と思[おも]いきや marks the complete reversal from the crowd expectation."
-        },
-        {
-          "id": "to-omoikiya_q11",
-          "type": "translation",
-          "prompt": "Which means 'I thought the project would fail, but it succeeded surprisingly'?",
-          "japanese": null,
-          "choices": [
-            "プロジェクトは失敗[しっぱい]すると思[おも]いきや、驚[おどろ]くほど成功[せいこう]した。",
-            "プロジェクトは失敗[しっぱい]すると思[おも]ったが、驚[おどろ]くほど成功[せいこう]した。",
-            "プロジェクトは失敗[しっぱい]すると思[おも]ったら、驚[おどろ]くほど成功[せいこう]した。",
-            "プロジェクトは失敗[しっぱい]するかと思[おも]えば、驚[おどろ]くほど成功[せいこう]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + と思[おも]いきや: 失敗[しっぱい]する + と思[おも]いきや = I thought it would fail. 驚[おどろ]くほど成功[せいこう]した = succeeded surprisingly. と思[おも]いきや marks the dramatic unexpected success."
-        },
-        {
-          "id": "to-omoikiya_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought she was angry, but she was actually laughing'?",
-          "japanese": null,
-          "choices": [
-            "怒[おこ]っていると思[おも]いきや、実[じつ]は笑[わら]っていた。",
-            "怒[おこ]っていると思[おも]ったが、実[じつ]は笑[わら]っていた。",
-            "怒[おこ]っていると思[おも]ったら、実[じつ]は笑[わら]っていた。",
-            "怒[おこ]っているかと思[おも]えば、実[じつ]は笑[わら]っていた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb te-iru + と思[おも]いきや: 怒[おこ]っている + と思[おも]いきや = I thought she was angry. 実[じつ]は笑[わら]っていた = she was actually laughing. と思[おも]いきや marks the emotional reversal."
-        },
-        {
-          "id": "to-omoikiya_q13",
-          "type": "usage",
-          "prompt": "と思[おも]いきや is most commonly found in which register?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday conversation — this is true in both spoken and written Japanese.",
-            "Written language, essays, news stories, and literary contexts — it's a somewhat literary/formal expression",
-            "Only scientific writing",
-            "Only spoken Japanese"
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]いきや is literary and somewhat formal — it's more common in written narratives, news, literary works, and essays. In spoken Japanese, と思[おも]ったら or と思[おも]ったけど are more natural for the same concept."
-        },
-        {
-          "id": "to-omoikiya_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought the solution was simple, but it was quite complex'?",
-          "japanese": null,
-          "choices": [
-            "解決策[かいけつさく]は簡単[かんたん]だと思[おも]いきや、かなり複雑[ふくざつ]だった。",
-            "解決策[かいけつさく]は簡単[かんたん]だと思[おも]ったが、かなり複雑[ふくざつ]だった。",
-            "解決策[かいけつさく]は簡単[かんたん]だと思[おも]ったら、かなり複雑[ふくざつ]だった。",
-            "解決策[かいけつさく]は簡単[かんたん]かと思[おも]えば、かなり複雑[ふくざつ]だった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + だ + と思[おも]いきや: 簡単[かんたん]だ + と思[おも]いきや = I thought it was simple. かなり複雑[ふくざつ]だった = was quite complex. と思[おも]いきや marks the gap between expected simplicity and actual complexity."
-        },
-        {
-          "id": "to-omoikiya_q15",
-          "type": "translation",
-          "prompt": "Which means 'I thought the news would be bad, but it was actually good news'?",
-          "japanese": null,
-          "choices": [
-            "悪[わる]いニュースだと思[おも]いきや、実[じつ]はいいニュースだった。",
-            "悪[わる]いニュースだと思[おも]ったが、実[じつ]はいいニュースだった。",
-            "悪[わる]いニュースだと思[おも]ったら、実[じつ]はいいニュースだった。",
-            "悪[わる]いニュースかと思[おも]えば、実[じつ]はいいニュースだった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + だ + と思[おも]いきや: 悪[わる]いニュースだ + と思[おも]いきや = I thought it was bad news. 実[じつ]はいいニュースだった = it was actually good news. と思[おも]いきや marks the pleasant reversal."
-        },
-        {
-          "id": "to-omoikiya_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought the game was over, but the team made a dramatic comeback'?",
-          "japanese": null,
-          "choices": [
-            "試合[しあい]は終[お]わったと思[おも]いきや、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
-            "試合[しあい]は終[お]わったと思[おも]ったが、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
-            "試合[しあい]は終[お]わったと思[おも]ったら、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
-            "試合[しあい]は終[お]わったかと思[おも]えば、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + と思[おも]いきや: 終[お]わった + と思[おも]いきや = I thought it was over. 劇的[げきてき]な逆転[ぎゃくてん]をした = made a dramatic comeback. と思[おも]いきや perfectly captures the sports drama reversal."
-        },
-        {
-          "id": "to-omoikiya_q17",
-          "type": "usage",
-          "prompt": "Can と思[おも]いきや be used in FIRST or THIRD person?",
-          "japanese": null,
-          "choices": [
-            "First person only",
-            "Both first and third person — you can report your own expectation (私[わたし]は〜と思[おも]いきや) or someone else's (彼[かれ]は〜と思[おも]いきや)",
-            "Third person only",
-            "Only impersonal subjects, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "と思[おも]いきや can be first or third person: 私[わたし]は合格[ごうかく]したと思[おも]いきや不合格[ふごうかく]だった (I thought I passed, but failed). 彼[かれ]は逃[に]げると思[おも]いきや戦[たたか]った (I thought he'd flee, but he fought). The 'thinking' can be attributed to self or others."
-        },
-        {
-          "id": "to-omoikiya_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought it was a stranger, but it was my old friend'?",
-          "japanese": null,
-          "choices": [
-            "知[し]らない人[ひと]だと思[おも]いきや、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[ひと]だと思[おも]ったが、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[ひと]だと思[おも]ったら、昔[むかし]の友人[ゆうじん]だった。",
-            "知[し]らない人[ひと]かと思[おも]えば、昔[むかし]の友人[ゆうじん]だった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + だ + と思[おも]いきや: 知[し]らない人[ひと]だ + と思[おも]いきや = I thought it was a stranger. 昔[むかし]の友人[ゆうじん]だった = it was my old friend. と思[おも]いきや marks the identity reversal."
-        },
-        {
-          "id": "to-omoikiya_q19",
-          "type": "translation",
-          "prompt": "Which means 'I thought she had given up, but she kept fighting'?",
-          "japanese": null,
-          "choices": [
-            "諦[あきら]めたと思[おも]いきや、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
-            "諦[あきら]めたと思[おも]ったが、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
-            "諦[あきら]めたと思[おも]ったら、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
-            "諦[あきら]めたかと思[おも]えば、彼女[かのじょ]は戦[たたか]い続[つづ]けた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + と思[おも]いきや: 諦[あきら]めた + と思[おも]いきや = I thought she had given up. 戦[たたか]い続[つづ]けた = kept fighting. と思[おも]いきや marks the dramatic reversal from apparent defeat to continued resistance."
-        },
-        {
-          "id": "to-omoikiya_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'I thought the repair would be expensive, but it was free'?",
-          "japanese": null,
-          "choices": [
-            "修理代[しゅうりだい]は高[たか]いと思[おも]いきや、無料[むりょう]だった。",
-            "修理代[しゅうりだい]は高[たか]いと思[おも]ったが、無料[むりょう]だった。",
-            "修理代[しゅうりだい]は高[たか]いと思[おも]ったら、無料[むりょう]だった。",
-            "修理代[しゅうりだい]は高[たか]いかと思[おも]えば、無料[むりょう]だった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + と思[おも]いきや: 高[たか]い + と思[おも]いきや = I thought it would be expensive. 無料[むりょう]だった = it was free. と思[おも]いきや marks the pleasant reversal from feared cost to no cost."
-        }
-      ]
+     "japanese": "難[むずか]しいと思[おも]いきや、意外[いがい]と簡単[かんたん]に解[と]くことができました。",
+     "romaji": "Muzukashii to omoikiya, igai to kantan ni toku koto ga dekimashita.",
+     "english": "I thought it would be difficult, but unexpectedly I was able to solve it quite easily."
     },
     {
-      "id": "de-wa-nai-ka",
-      "name": "〜ではないか / ではあるまいか — isn't it? / could it be that?",
-      "shortDescription": "Seeks agreement or expresses a strong rhetorical assertion: 'isn't X true?' or 'could it be that X?'",
-      "formation": "Plain form + ではないか / じゃないか (casual)  |  Plain form + ではあるまいか (formal)",
-      "explanation": "ではないか and its more formal literary variant ではあるまいか are rhetorical tools, not genuine questions — they assert a point in question form to invite agreement rather than announcing the conclusion directly. もっと努力[どりょく]すべきではないか: 'Shouldn't we be making more effort?' isn't really asking whether you agree; it's asserting 'we should make more effort' while gesturing toward the listener to concur. This rhetorical question move is powerful in speeches, editorials, and arguments because it draws the audience in as co-reasoners rather than passive recipients.\n\nではあるまいか is the formal/literary variant used for tentative but weighty conjecture — 'could it possibly be that X?' — with a tone of careful, serious consideration: 彼[かれ]の行動[こうどう]の背後[はいご]には何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか ('Could it be that there are deep circumstances behind his behavior?'). The casual spoken form is じゃないか. One practical note: intonation matters significantly — rising pitch makes these feel more like genuine inquiry; flat or falling pitch emphasizes rhetorical assertion.",
-      "rules": [
-        "Plain form + ではないか = isn't it? / don't you think? (rhetorical — seeks agreement/assertion)",
-        "Casual: じゃないか (conversation); ではないか (formal speech, editorials)",
-        "ではあるまいか = could it possibly be that? (formal, literary — tentative but weighty conjecture)",
-        "Common in: debates, speeches, editorials, arguments where the speaker asserts a point",
-        "Intonation matters: rising = genuine inquiry; flat/falling = rhetorical force"
-      ],
-      "examples": [
-        {
-          "japanese": "私[わたし]たちはもっと環境問題[かんきょうもんだい]に真剣[しんけん]に向[む]き合[あ]うべきではないか。",
-          "romaji": "Watashitachi wa motto kankyou mondai ni shinken ni mukiaU beki dewa nai ka.",
-          "english": "Shouldn't we face environmental issues more seriously?"
-        },
-        {
-          "japanese": "この状況[じょうきょう]を改善[かいぜん]するには、まず話[はな]し合[あ]いが必要[ひつよう]ではないでしょうか。",
-          "romaji": "Kono joukyou wo kaizen suru ni wa, mazu hanashiai ga hitsuyou dewa nai deshou ka.",
-          "english": "In order to improve this situation, wouldn't dialogue be necessary first?"
-        },
-        {
-          "japanese": "彼[かれ]の行動[こうどう]の背後[はいご]には、何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか。",
-          "romaji": "Kare no koudou no haigo ni wa, nanika fukai jijou ga aru no dewa aru mai ka.",
-          "english": "Could it be that there is some deep circumstance behind his actions?"
-        },
-        {
-          "japanese": "こんなに毎日[まいにち]遅[おそ]くまで働[はたら]いていたら、体[からだ]を壊[こわ]すのではないか。",
-          "romaji": "Konna ni mainichi osoku made hataraite itara, karada wo kowasu no dewa nai ka.",
-          "english": "If you keep working so late every single day, won't you destroy your health?"
-        }
-      ],
-      "flashcardHeader": "〜ではないか / ではあるまいか",
-      "flashcardAnswer": "Seeks agreement or expresses a strong rhetorical assertion: 'isn't X true?' or 'could it be that X?'",
-      "practice": [
-        {
-          "id": "de-wa-nai-ka_q1",
-          "type": "usage",
-          "prompt": "What does 〜ではないか mean?",
-          "japanese": null,
-          "choices": [
-            "it is definitely X",
-            "isn't it? / isn't it the case that? — used for rhetorical questions, proposals, or sudden realizations; often seeks agreement or draws attention to something",
-            "it is not X",
-            "only if X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ではないか = isn't it? / could it be that? Multiple uses: (1) rhetorical question seeking agreement: こんなに美[うつく]しい景色[けしき]ではないか！(isn't this a beautiful view!); (2) proposals: 行[い]こうではないか (let's go, shall we?); (3) realizations: ああ、彼[かれ]ではないか！(oh, isn't that him?)."
-        },
-        {
-          "id": "de-wa-nai-ka_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Isn't this exactly what we were aiming for?'",
-          "japanese": null,
-          "choices": [
-            "これこそ私[わたし]たちが目指[めざ]していたものではないか。",
-            "これこそ私[わたし]たちが目指[めざ]していたものではない。",
-            "これこそ私[わたし]たちが目指[めざ]していたものだ。",
-            "これこそ私[わたし]たちが目指[めざ]していたものじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + ではないか: 目指[めざ]していたもの + ではないか = isn't this what we were aiming for? Rhetorical question expecting agreement. ではないか invites the listener to share the speaker's realization."
-        },
-        {
-          "id": "de-wa-nai-ka_q3",
-          "type": "translation",
-          "prompt": "Which means 'Isn't this the most important issue?'",
-          "japanese": null,
-          "choices": [
-            "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]ではないか。",
-            "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]ではない。",
-            "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]だ。",
-            "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 最[もっと]も重要[じゅうよう]な問題[もんだい] + ではないか = isn't this the most important issue? Rhetorical — the speaker is asserting this IS the most important issue by framing it as a question seeking agreement."
-        },
-        {
-          "id": "de-wa-nai-ka_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Let us challenge this together!' (proposal/call to action)?",
-          "japanese": null,
-          "choices": [
-            "一緒[いっしょ]にこれに挑戦[ちょうせん]しようではないか。",
-            "一緒[いっしょ]にこれに挑戦[ちょうせん]しようではない。",
-            "一緒[いっしょ]にこれに挑戦[ちょうせん]しよう。",
-            "一緒[いっしょ]にこれに挑戦[ちょうせん]しようじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb volitional + ではないか: 挑戦[ちょうせん]しよう + ではないか = let's challenge this, shall we! Proposal use of ではないか — like a stirring call to action. Often used in speeches and rhetoric."
-        },
-        {
-          "id": "de-wa-nai-ka_q5",
-          "type": "usage",
-          "prompt": "What are the THREE main uses of 〜ではないか?",
-          "japanese": null,
-          "choices": [
-            "Negation, doubt, and regret",
-            "(1) Rhetorical question seeking agreement ('isn't it?'); (2) Exclamation/realization ('oh, isn't that...!'); (3) Proposal/call to action ('let's..., shall we?')",
-            "Causation, contrast, and condition",
-            "Permission, obligation, and prohibition — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "ではないか has three uses: (1) rhetorical agreement: これが問題[もんだい]ではないか (isn't this the problem?); (2) exclamation/realization: ああ、あの人[ひと]が田中[たなか]さんではないか (oh, isn't that Mr. Tanaka!); (3) proposal: 行[い]こうではないか (let's go, shall we!). Context determines which use applies."
-        },
-        {
-          "id": "de-wa-nai-ka_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Oh, isn't that the president over there?'",
-          "japanese": null,
-          "choices": [
-            "ああ、あそこにいるのは社長[しゃちょう]ではないか。",
-            "ああ、あそこにいるのは社長[しゃちょう]ではない。",
-            "ああ、あそこにいるのは社長[しゃちょう]だ。",
-            "ああ、あそこにいるのは社長[しゃちょう]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 社長[しゃちょう] + ではないか = isn't that the president? Exclamation/realization use — sudden recognition. The speaker is surprised and seeks confirmation through the rhetorical question form."
-        },
-        {
-          "id": "de-wa-nai-ka_q7",
-          "type": "translation",
-          "prompt": "Which means 'Isn't this a matter that concerns everyone?'",
-          "japanese": null,
-          "choices": [
-            "これはみんなに関[かか]わることではないか。",
-            "これはみんなに関[かか]わることではない。",
-            "これはみんなに関[かか]わることだ。",
-            "これはみんなに関[かか]わることじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: みんなに関[かか]わること + ではないか = isn't this something that concerns everyone? Rhetorical question asserting universal relevance while inviting agreement."
-        },
-        {
-          "id": "de-wa-nai-ka_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Isn't it already time to change our approach?'",
-          "japanese": null,
-          "choices": [
-            "もう方針[ほうしん]を変[か]える時[とき]ではないか。",
-            "もう方針[ほうしん]を変[か]える時[とき]ではない。",
-            "もう方針[ほうしん]を変[か]える時[とき]だ。",
-            "もう方針[ほうしん]を変[か]える時[とき]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 時[とき] + ではないか = isn't it (already) time? Rhetorical question advocating for change. ではないか here makes the proposal more rhetorically engaging than a direct statement."
-        },
-        {
-          "id": "de-wa-nai-ka_q9",
-          "type": "usage",
-          "prompt": "ではないか vs. じゃないか — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They have opposite meanings",
-            "ではないか is formal/written; じゃないか is casual/spoken. Same meaning: 'isn't it?'",
-            "ではないか is for proposals only",
-            "じゃないか is for exclamations only, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "ではないか (formal, written): 素晴[すば]らしい景色[けしき]ではないか。じゃないか (casual, spoken): 素晴[すば]らしい景色[けしき]じゃないか。Both = 'isn't it?' The only difference is register — same grammar, same uses."
-        },
-        {
-          "id": "de-wa-nai-ka_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Isn't this the best season?'",
-          "japanese": null,
-          "choices": [
-            "これが一番[いちばん]いい季節[きせつ]ではないか。",
-            "これが一番[いちばん]いい季節[きせつ]ではない。",
-            "これが一番[いちばん]いい季節[きせつ]だ。",
-            "これが一番[いちばん]いい季節[きせつ]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 一番[いちばん]いい季節[きせつ] + ではないか = isn't this the best season? Rhetorical — the speaker asserts it IS the best season by seeking the listener's agreement through the question form."
-        },
-        {
-          "id": "de-wa-nai-ka_q11",
-          "type": "translation",
-          "prompt": "Which means 'Isn't this exactly what true friendship means?'",
-          "japanese": null,
-          "choices": [
-            "これこそ本当[ほんとう]の友情[ゆうじょう]というものではないか。",
-            "これこそ本当[ほんとう]の友情[ゆうじょう]というものではない。",
-            "これこそ本当[ほんとう]の友情[ゆうじょう]というものだ。",
-            "これこそ本当[ほんとう]の友情[ゆうじょう]というものじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 本当[ほんとう]の友情[ゆうじょう]というもの + ではないか = isn't this what true friendship means? Rhetorical assertion + invitation to agree. ではないか makes the philosophical point more engaging."
-        },
-        {
-          "id": "de-wa-nai-ka_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Let us work together for the future!' (call to action)?",
-          "japanese": null,
-          "choices": [
-            "未来[みらい]のために共[とも]に働[はたら]こうではないか。",
-            "未来[みらい]のために共[とも]に働[はたら]こうではない。",
-            "未来[みらい]のために共[とも]に働[はたら]こう。",
-            "未来[みらい]のために共[とも]に働[はたら]こうじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb volitional + ではないか: 働[はたら]こう + ではないか = let's work together, shall we! Proposal/call-to-action use. ではないか gives it a rhetorical, rousing quality — typical of speeches."
-        },
-        {
-          "id": "de-wa-nai-ka_q13",
-          "type": "usage",
-          "prompt": "ではあるまいか is a MORE FORMAL variant. What does it mean?",
-          "japanese": null,
-          "choices": [
-            "it is definitely",
-            "could it perhaps be? / might it not be? — more tentative and formal hypothesis than ではないか",
-            "it is impossible",
-            "it must not be"
-          ],
-          "correctIndex": 1,
-          "explanation": "ではあるまいか = could it perhaps be? (formal, written, slightly more tentative): これは重大[じゅうだい]な誤[あやま]りではあるまいか = could this not be a serious mistake? It's more hypothetical and formal than ではないか, commonly used in academic writing and formal essays."
-        },
-        {
-          "id": "de-wa-nai-ka_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Oh, isn't this the book I was looking for?'",
-          "japanese": null,
-          "choices": [
-            "ああ、これは私[わたし]が探[さが]していた本[ほん]ではないか。",
-            "ああ、これは私[わたし]が探[さが]していた本[ほん]ではない。",
-            "ああ、これは私[わたし]が探[さが]していた本[ほん]だ。",
-            "ああ、これは私[わたし]が探[さが]していた本[ほん]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 探[さが]していた本[ほん] + ではないか = isn't this the book I was looking for? Exclamation/realization use — the sudden discovery is expressed through the rhetorical question form."
-        },
-        {
-          "id": "de-wa-nai-ka_q15",
-          "type": "translation",
-          "prompt": "Which means 'Isn't it our responsibility to protect the environment?'",
-          "japanese": null,
-          "choices": [
-            "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]ではないか。",
-            "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]ではない。",
-            "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]だ。",
-            "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 責任[せきにん] + ではないか = isn't it our responsibility? Rhetorical question asserting that environmental protection IS our responsibility, while rhetorically inviting agreement."
-        },
-        {
-          "id": "de-wa-nai-ka_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Isn't this the historical moment we've been waiting for?'",
-          "japanese": null,
-          "choices": [
-            "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]ではないか。",
-            "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]ではない。",
-            "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]だ。",
-            "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 歴史的瞬間[れきしてきしゅんかん] + ではないか = isn't this the historic moment? Rhetorical question elevating the significance of the moment by framing the assertion as a shared realization."
-        },
-        {
-          "id": "de-wa-nai-ka_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses ではないか for a PROPOSAL (calling people to action)?",
-          "japanese": null,
-          "choices": [
-            "ああ、あの人[ひと]が山田[やまだ]さんではないか！(realization — 'isn't that Yamada?')",
-            "これが問題[もんだい]ではないか。(rhetorical — 'isn't this the problem?')",
-            "皆[みな]で取[と]り組[く]もうではないか！(proposal — 'let's all tackle this, shall we!')",
-            "これほど美[うつく]しい景色[けしき]はないではないか。(rhetorical — 'isn't there no view more beautiful?')"
-          ],
-          "correctIndex": 2,
-          "explanation": "皆[みな]で取[と]り組[く]もうではないか！ = let's all tackle this, shall we! This is the proposal/call-to-action use of ではないか. Verb volitional (〜よう/〜ましょう) + ではないか = stirring invitation to act together. Common in speeches and motivational contexts."
-        },
-        {
-          "id": "de-wa-nai-ka_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Isn't this truly a surprising result?'",
-          "japanese": null,
-          "choices": [
-            "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]ではないか。",
-            "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]ではない。",
-            "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]だ。",
-            "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]じゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではないか: 驚[おどろ]くべき結果[けっか] + ではないか = isn't this a surprising result? Rhetorical question asserting the surprising nature of the result while seeking the listener's agreement."
-        },
-        {
-          "id": "de-wa-nai-ka_q19",
-          "type": "translation",
-          "prompt": "Which means 'Could this perhaps be a violation of human rights?'",
-          "japanese": null,
-          "choices": [
-            "これは人権侵害[じんけんしんがい]ではあるまいか。",
-            "これは人権侵害[じんけんしんがい]ではないか。",
-            "これは人権侵害[じんけんしんがい]ではない。",
-            "これは人権侵害[じんけんしんがい]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ではあるまいか = could this perhaps be a human rights violation? ではあるまいか is more tentative and formal than ではないか — expressing a cautious hypothesis rather than an assertive rhetorical question. Suitable for academic/formal writing."
-        },
-        {
-          "id": "de-wa-nai-ka_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Let's move forward together, shall we?'",
-          "japanese": null,
-          "choices": [
-            "共[とも]に前進[ぜんしん]しようではないか。",
-            "共[とも]に前進[ぜんしん]しようではない。",
-            "共[とも]に前進[ぜんしん]しよう。",
-            "共[とも]に前進[ぜんしん]しようじゃないの。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb volitional + ではないか: 前進[ぜんしん]しよう + ではないか = let's move forward, shall we! Classic proposal use of ではないか — a rousing call to collective action, inviting shared commitment through the rhetorical question form."
-        }
-      ]
+     "japanese": "もう終[お]わりかと思[おも]いきや、まだ続[つづ]きがあった。",
+     "romaji": "Mou owari ka to omoikiya, mada tsuzuki ga atta.",
+     "english": "I thought it was over, but there was still more to come."
+    },
+    {
+     "japanese": "彼[かれ]は厳[きび]しい人[ひと]かと思[おも]いきや、実[じつ]はとても優[やさ]しかったです。",
+     "romaji": "Kare wa kibishii hito ka to omoikiya, jitsu wa totemo yasashikatta desu.",
+     "english": "I thought he was a strict person, but he was actually very kind."
+    },
+    {
+     "japanese": "値段[ねだん]が高[たか]いと思[おも]いきや、セール中[ちゅう]でとても安[やす]かった。",
+     "romaji": "Nedan ga takai to omoikiya, seeru chuu de totemo yasukatta.",
+     "english": "I thought the price would be high, but there was a sale and it was very cheap."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜と思いきや",
+   "flashcardAnswer": "Sets up an expectation and then delivers a surprising, contradictory reality.",
+   "practice": [
     {
-      "id": "ch44_v01",
-      "partOfSpeech": "noun",
-      "kanji": "本質",
-      "kana": "ほんしつ",
-      "romaji": "honshitsu",
-      "definition": "essence; true nature"
+     "id": "to-omoikiya_q1",
+     "type": "usage",
+     "prompt": "What does 〜と思[おも]いきや mean?",
+     "japanese": null,
+     "choices": [
+      "I thought and so...",
+      "I thought X, but (contrary to expectation) Y — marks a surprising reversal; what one thought would happen didn't",
+      "I wish X",
+      "just when I thought X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜と思[おも]いきや = I thought X, but actually Y (surprising reversal). 晴[は]れると思[おも]いきや、突然[とつぜん]大雨[おおあめ]になった = I thought it would be sunny, but it suddenly poured. Always marks a surprising contradiction between expectation and reality."
     },
     {
-      "id": "ch44_v02",
-      "partOfSpeech": "noun",
-      "kanji": "意義",
-      "kana": "いぎ",
-      "romaji": "igi",
-      "definition": "significance; meaning"
+     "id": "to-omoikiya_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought it was cheap, but it turned out to be very expensive'?",
+     "japanese": null,
+     "choices": [
+      "安[やす]いと思[おも]いきや、とても高[たか]かった。",
+      "安[やす]いと思[おも]ったが、とても高[たか]かった。",
+      "安[やす]いと思[おも]ったら、とても高[たか]かった。",
+      "安[やす]いかと思[おも]えば、とても高[たか]かった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + と思[おも]いきや: 安[やす]い + と思[おも]いきや = I thought it was cheap. とても高[たか]かった = was very expensive. と思[おも]いきや marks the surprise reversal from the initial expectation."
     },
     {
-      "id": "ch44_v03",
-      "partOfSpeech": "noun",
-      "kanji": "意味合い",
-      "kana": "いみあい",
-      "romaji": "imiai",
-      "definition": "nuance; implication"
+     "id": "to-omoikiya_q3",
+     "type": "translation",
+     "prompt": "Which means 'I thought the test was easy, but actually it was very difficult'?",
+     "japanese": null,
+     "choices": [
+      "試験[しけん]は簡単[かんたん]だと思[おも]いきや、実際[じっさい]にはとても難[むずか]しかった。",
+      "試験[しけん]は簡単[かんたん]だと思[おも]ったが、実際[じっさい]にはとても難[むずか]しかった。",
+      "試験[しけん]は簡単[かんたん]だと思[おも]ったら、実際[じっさい]にはとても難[むずか]しかった。",
+      "試験[しけん]は簡単[かんたん]かと思[おも]えば、実際[じっさい]にはとても難[むずか]しかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Copula plain + と思[おも]いきや: 簡単[かんたん]だ + と思[おも]いきや = I thought it was easy. 実際[じっさい]にはとても難[むずか]しかった = it was actually very difficult. と思[おも]いきや signals the complete reversal of expectation."
     },
     {
-      "id": "ch44_v04",
-      "partOfSpeech": "noun",
-      "kanji": "趣旨",
-      "kana": "しゅし",
-      "romaji": "shushi",
-      "definition": "gist; purport"
+     "id": "to-omoikiya_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought the weather would clear up, but it suddenly rained'?",
+     "japanese": null,
+     "choices": [
+      "晴[は]れると思[おも]いきや、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+      "晴[は]れると思[おも]ったが、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+      "晴[は]れると思[おも]ったら、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。",
+      "晴[は]れるかと思[おも]えば、突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + と思[おも]いきや: 晴[は]れる + と思[おも]いきや = I thought it would clear up. 突然[とつぜん]雨[あめ]が降[ふ]り出[だ]した = it suddenly started raining. と思[おも]いきや marks the abrupt weather reversal."
     },
     {
-      "id": "ch44_v05",
-      "partOfSpeech": "noun",
-      "kanji": "概要",
-      "kana": "がいよう",
-      "romaji": "gaiyou",
-      "definition": "outline; summary"
+     "id": "to-omoikiya_q5",
+     "type": "usage",
+     "prompt": "What is the TONE of と思[おも]いきや?",
+     "japanese": null,
+     "choices": [
+      "Neutral causation — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "Surprise, unexpectedness, or irony — the speaker had a belief and reality proved it completely wrong, often in a dramatic or ironic way",
+      "Regret",
+      "Admiration"
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]いきや always carries surprise and often irony. The structure dramatizes the gap between what one thought would happen and what actually happened. Often the result is dramatically opposite to the expectation."
     },
     {
-      "id": "ch44_v06",
-      "partOfSpeech": "noun",
-      "kanji": "要旨",
-      "kana": "ようし",
-      "romaji": "youshi",
-      "definition": "gist; summary"
+     "id": "to-omoikiya_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought he was strict, but he turned out to be very kind'?",
+     "japanese": null,
+     "choices": [
+      "厳[きび]しいと思[おも]いきや、とても優[やさ]しかった。",
+      "厳[きび]しいと思[おも]ったが、とても優[やさ]しかった。",
+      "厳[きび]しいと思[おも]ったら、とても優[やさ]しかった。",
+      "厳[きび]しいかと思[おも]えば、とても優[やさ]しかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + と思[おも]いきや: 厳[きび]しい + と思[おも]いきや = I thought he was strict. とても優[やさ]しかった = was very kind. と思[おも]いきや dramatizes the personality reversal from first impression to reality."
     },
     {
-      "id": "ch44_v07",
-      "partOfSpeech": "noun",
-      "kanji": "特質",
-      "kana": "とくしつ",
-      "romaji": "tokushitsu",
-      "definition": "special quality; trait"
+     "id": "to-omoikiya_q7",
+     "type": "translation",
+     "prompt": "Which means 'I thought I had won, but it was actually a mistake'?",
+     "japanese": null,
+     "choices": [
+      "勝[か]ったと思[おも]いきや、実[じつ]はミスだった。",
+      "勝[か]ったと思[おも]ったが、実[じつ]はミスだった。",
+      "勝[か]ったと思[おも]ったら、実[じつ]はミスだった。",
+      "勝[か]ったかと思[おも]えば、実[じつ]はミスだった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + と思[おも]いきや: 勝[か]った + と思[おも]いきや = I thought I had won. 実[じつ]はミスだった = it was actually a mistake. と思[おも]いきや marks the devastating reversal."
     },
     {
-      "id": "ch44_v08",
-      "partOfSpeech": "noun",
-      "kanji": "本来",
-      "kana": "ほんらい",
-      "romaji": "honrai",
-      "definition": "originally; essentially"
+     "id": "to-omoikiya_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought it was a bargain, but there were hidden charges'?",
+     "japanese": null,
+     "choices": [
+      "お得[とく]だと思[おも]いきや、隠[かく]れた費用[ひよう]があった。",
+      "お得[とく]だと思[おも]ったが、隠[かく]れた費用[ひよう]があった。",
+      "お得[とく]だと思[おも]ったら、隠[かく]れた費用[ひよう]があった。",
+      "お得[とく]かと思[おも]えば、隠[かく]れた費用[ひよう]があった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + だ + と思[おも]いきや: お得[とく]だ + と思[おも]いきや = I thought it was a bargain. 隠[かく]れた費用[ひよう]があった = there were hidden charges. と思[おも]いきや marks the unexpected extra cost."
     },
     {
-      "id": "ch44_v09",
-      "partOfSpeech": "noun",
-      "kanji": "根本",
-      "kana": "こんぽん",
-      "romaji": "konpon",
-      "definition": "root; foundation"
+     "id": "to-omoikiya_q9",
+     "type": "usage",
+     "prompt": "と思[おも]いきや vs. と思[おも]ったら — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "と思[おも]いきや: more literary/dramatic, stronger sense of surprise reversal; と思[おも]ったら: more colloquial, used for both surprises and natural discoveries after the fact",
+      "と思[おも]いきや is more casual, regardless of context or politeness level — this is true in both spoken and written Japanese.",
+      "と思[おも]ったら is more formal"
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]いきや: literary, dramatic reversal: 負[ま]けたと思[おも]いきや逆転[ぎゃくてん]した (thought I'd lost, but made a comeback — dramatic). と思[おも]ったら: more casual, immediate discovery: 静[しず]かだと思[おも]ったら犬[いぬ]が逃[に]げていた (I thought it was quiet, then realized the dog had escaped). と思[おも]いきや is more literary."
     },
     {
-      "id": "ch44_v10",
-      "partOfSpeech": "noun",
-      "kanji": "究極",
-      "kana": "きゅうきょく",
-      "romaji": "kyuukyoku",
-      "definition": "ultimate"
+     "id": "to-omoikiya_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought the restaurant would be crowded, but it was empty'?",
+     "japanese": null,
+     "choices": [
+      "レストランは混[こ]んでいると思[おも]いきや、がらがらだった。",
+      "レストランは混[こ]んでいると思[おも]ったが、がらがらだった。",
+      "レストランは混[こ]んでいると思[おも]ったら、がらがらだった。",
+      "レストランは混[こ]んでいるかと思[おも]えば、がらがらだった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb te-iru + と思[おも]いきや: 混[こ]んでいる + と思[おも]いきや = I thought it was crowded. がらがらだった = was empty. と思[おも]いきや marks the complete reversal from the crowd expectation."
     },
     {
-      "id": "ch44_v11",
-      "partOfSpeech": "na-adjective",
-      "kanji": "本格的",
-      "kana": "ほんかくてき",
-      "romaji": "honkakuteki",
-      "definition": "full-scale; authentic"
+     "id": "to-omoikiya_q11",
+     "type": "translation",
+     "prompt": "Which means 'I thought the project would fail, but it succeeded surprisingly'?",
+     "japanese": null,
+     "choices": [
+      "プロジェクトは失敗[しっぱい]すると思[おも]いきや、驚[おどろ]くほど成功[せいこう]した。",
+      "プロジェクトは失敗[しっぱい]すると思[おも]ったが、驚[おどろ]くほど成功[せいこう]した。",
+      "プロジェクトは失敗[しっぱい]すると思[おも]ったら、驚[おどろ]くほど成功[せいこう]した。",
+      "プロジェクトは失敗[しっぱい]するかと思[おも]えば、驚[おどろ]くほど成功[せいこう]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + と思[おも]いきや: 失敗[しっぱい]する + と思[おも]いきや = I thought it would fail. 驚[おどろ]くほど成功[せいこう]した = succeeded surprisingly. と思[おも]いきや marks the dramatic unexpected success."
     },
     {
-      "id": "ch44_v12",
-      "partOfSpeech": "na-adjective",
-      "kanji": "徹底的",
-      "kana": "てっていてき",
-      "romaji": "tetteiteki",
-      "definition": "thorough"
+     "id": "to-omoikiya_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought she was angry, but she was actually laughing'?",
+     "japanese": null,
+     "choices": [
+      "怒[おこ]っていると思[おも]いきや、実[じつ]は笑[わら]っていた。",
+      "怒[おこ]っていると思[おも]ったが、実[じつ]は笑[わら]っていた。",
+      "怒[おこ]っていると思[おも]ったら、実[じつ]は笑[わら]っていた。",
+      "怒[おこ]っているかと思[おも]えば、実[じつ]は笑[わら]っていた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb te-iru + と思[おも]いきや: 怒[おこ]っている + と思[おも]いきや = I thought she was angry. 実[じつ]は笑[わら]っていた = she was actually laughing. と思[おも]いきや marks the emotional reversal."
     },
     {
-      "id": "ch44_v13",
-      "partOfSpeech": "na-adjective",
-      "kanji": "画期的",
-      "kana": "かっきてき",
-      "romaji": "kakkiteki",
-      "definition": "groundbreaking"
+     "id": "to-omoikiya_q13",
+     "type": "usage",
+     "prompt": "と思[おも]いきや is most commonly found in which register?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday conversation — this is true in both spoken and written Japanese.",
+      "Written language, essays, news stories, and literary contexts — it's a somewhat literary/formal expression",
+      "Only scientific writing",
+      "Only spoken Japanese"
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]いきや is literary and somewhat formal — it's more common in written narratives, news, literary works, and essays. In spoken Japanese, と思[おも]ったら or と思[おも]ったけど are more natural for the same concept."
     },
     {
-      "id": "ch44_v14",
-      "partOfSpeech": "na-adjective",
-      "kanji": "圧倒的",
-      "kana": "あっとうてき",
-      "romaji": "attouteki",
-      "definition": "overwhelming"
+     "id": "to-omoikiya_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought the solution was simple, but it was quite complex'?",
+     "japanese": null,
+     "choices": [
+      "解決策[かいけつさく]は簡単[かんたん]だと思[おも]いきや、かなり複雑[ふくざつ]だった。",
+      "解決策[かいけつさく]は簡単[かんたん]だと思[おも]ったが、かなり複雑[ふくざつ]だった。",
+      "解決策[かいけつさく]は簡単[かんたん]だと思[おも]ったら、かなり複雑[ふくざつ]だった。",
+      "解決策[かいけつさく]は簡単[かんたん]かと思[おも]えば、かなり複雑[ふくざつ]だった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + だ + と思[おも]いきや: 簡単[かんたん]だ + と思[おも]いきや = I thought it was simple. かなり複雑[ふくざつ]だった = was quite complex. と思[おも]いきや marks the gap between expected simplicity and actual complexity."
     },
     {
-      "id": "ch44_v15",
-      "partOfSpeech": "noun",
-      "kanji": "総合",
-      "kana": "そうごう",
-      "romaji": "sougou",
-      "definition": "comprehensive; overall"
+     "id": "to-omoikiya_q15",
+     "type": "translation",
+     "prompt": "Which means 'I thought the news would be bad, but it was actually good news'?",
+     "japanese": null,
+     "choices": [
+      "悪[わる]いニュースだと思[おも]いきや、実[じつ]はいいニュースだった。",
+      "悪[わる]いニュースだと思[おも]ったが、実[じつ]はいいニュースだった。",
+      "悪[わる]いニュースだと思[おも]ったら、実[じつ]はいいニュースだった。",
+      "悪[わる]いニュースかと思[おも]えば、実[じつ]はいいニュースだった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + だ + と思[おも]いきや: 悪[わる]いニュースだ + と思[おも]いきや = I thought it was bad news. 実[じつ]はいいニュースだった = it was actually good news. と思[おも]いきや marks the pleasant reversal."
     },
     {
-      "id": "ch44_v16",
-      "partOfSpeech": "noun",
-      "kanji": "全般",
-      "kana": "ぜんぱん",
-      "romaji": "zenpan",
-      "definition": "the whole; overall"
+     "id": "to-omoikiya_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought the game was over, but the team made a dramatic comeback'?",
+     "japanese": null,
+     "choices": [
+      "試合[しあい]は終[お]わったと思[おも]いきや、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
+      "試合[しあい]は終[お]わったと思[おも]ったが、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
+      "試合[しあい]は終[お]わったと思[おも]ったら、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。",
+      "試合[しあい]は終[お]わったかと思[おも]えば、チームが劇的[げきてき]な逆転[ぎゃくてん]をした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + と思[おも]いきや: 終[お]わった + と思[おも]いきや = I thought it was over. 劇的[げきてき]な逆転[ぎゃくてん]をした = made a dramatic comeback. と思[おも]いきや perfectly captures the sports drama reversal."
     },
     {
-      "id": "ch44_v17",
-      "partOfSpeech": "na-adjective",
-      "kanji": "大幅",
-      "kana": "おおはば",
-      "romaji": "oohaba",
-      "definition": "substantial; drastic"
+     "id": "to-omoikiya_q17",
+     "type": "usage",
+     "prompt": "Can と思[おも]いきや be used in FIRST or THIRD person?",
+     "japanese": null,
+     "choices": [
+      "First person only",
+      "Both first and third person — you can report your own expectation (私[わたし]は〜と思[おも]いきや) or someone else's (彼[かれ]は〜と思[おも]いきや)",
+      "Third person only",
+      "Only impersonal subjects, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "と思[おも]いきや can be first or third person: 私[わたし]は合格[ごうかく]したと思[おも]いきや不合格[ふごうかく]だった (I thought I passed, but failed). 彼[かれ]は逃[に]げると思[おも]いきや戦[たたか]った (I thought he'd flee, but he fought). The 'thinking' can be attributed to self or others."
     },
     {
-      "id": "ch44_v18",
-      "partOfSpeech": "na-adjective",
-      "kanji": "極端",
-      "kana": "きょくたん",
-      "romaji": "kyokutan",
-      "definition": "extreme"
+     "id": "to-omoikiya_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought it was a stranger, but it was my old friend'?",
+     "japanese": null,
+     "choices": [
+      "知[し]らない人[ひと]だと思[おも]いきや、昔[むかし]の友人[ゆうじん]だった。",
+      "知[し]らない人[ひと]だと思[おも]ったが、昔[むかし]の友人[ゆうじん]だった。",
+      "知[し]らない人[ひと]だと思[おも]ったら、昔[むかし]の友人[ゆうじん]だった。",
+      "知[し]らない人[ひと]かと思[おも]えば、昔[むかし]の友人[ゆうじん]だった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + だ + と思[おも]いきや: 知[し]らない人[ひと]だ + と思[おも]いきや = I thought it was a stranger. 昔[むかし]の友人[ゆうじん]だった = it was my old friend. と思[おも]いきや marks the identity reversal."
     },
     {
-      "id": "ch44_v19",
-      "partOfSpeech": "na-adjective",
-      "kanji": "顕著",
-      "kana": "けんちょ",
-      "romaji": "kencho",
-      "definition": "remarkable; striking"
+     "id": "to-omoikiya_q19",
+     "type": "translation",
+     "prompt": "Which means 'I thought she had given up, but she kept fighting'?",
+     "japanese": null,
+     "choices": [
+      "諦[あきら]めたと思[おも]いきや、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
+      "諦[あきら]めたと思[おも]ったが、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
+      "諦[あきら]めたと思[おも]ったら、彼女[かのじょ]は戦[たたか]い続[つづ]けた。",
+      "諦[あきら]めたかと思[おも]えば、彼女[かのじょ]は戦[たたか]い続[つづ]けた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + と思[おも]いきや: 諦[あきら]めた + と思[おも]いきや = I thought she had given up. 戦[たたか]い続[つづ]けた = kept fighting. と思[おも]いきや marks the dramatic reversal from apparent defeat to continued resistance."
     },
     {
-      "id": "ch44_v20",
-      "partOfSpeech": "na-adjective",
-      "kanji": "明白",
-      "kana": "めいはく",
-      "romaji": "meihaku",
-      "definition": "obvious; clear"
-    },
-    {
-      "id": "ch44_v21",
-      "partOfSpeech": "na-adjective",
-      "kanji": "不可欠",
-      "kana": "ふかけつ",
-      "romaji": "fukaketsu",
-      "definition": "indispensable"
-    },
-    {
-      "id": "ch44_v22",
-      "partOfSpeech": "na-adjective",
-      "kanji": "有効",
-      "kana": "ゆうこう",
-      "romaji": "yuukou",
-      "definition": "valid; effective"
-    },
-    {
-      "id": "ch44_v23",
-      "partOfSpeech": "na-adjective",
-      "kanji": "無効",
-      "kana": "むこう",
-      "romaji": "mukou",
-      "definition": "invalid; void"
-    },
-    {
-      "id": "ch44_v24",
-      "partOfSpeech": "na-adjective",
-      "kanji": "重大",
-      "kana": "じゅうだい",
-      "romaji": "juudai",
-      "definition": "grave; serious"
-    },
-    {
-      "id": "ch44_v25",
-      "partOfSpeech": "na-adjective",
-      "kanji": "貴重",
-      "kana": "きちょう",
-      "romaji": "kichou",
-      "definition": "precious; valuable"
-    },
-    {
-      "id": "ch44_v26",
-      "partOfSpeech": "na-adjective",
-      "kanji": "膨大",
-      "kana": "ぼうだい",
-      "romaji": "boudai",
-      "definition": "enormous; vast"
-    },
-    {
-      "id": "ch44_v27",
-      "partOfSpeech": "na-adjective",
-      "kanji": "僅か",
-      "kana": "わずか",
-      "romaji": "wazuka",
-      "definition": "slight; a mere"
-    },
-    {
-      "id": "ch44_v28",
-      "partOfSpeech": "na-adjective",
-      "kanji": "相対的",
-      "kana": "そうたいてき",
-      "romaji": "soutaiteki",
-      "definition": "relative"
-    },
-    {
-      "id": "ch44_v29",
-      "partOfSpeech": "na-adjective",
-      "kanji": "絶対的",
-      "kana": "ぜったいてき",
-      "romaji": "zettaiteki",
-      "definition": "absolute"
-    },
-    {
-      "id": "ch44_v30",
-      "partOfSpeech": "adverb",
-      "kanji": "極めて",
-      "kana": "きわめて",
-      "romaji": "kiwamete",
-      "definition": "extremely"
-    },
-    {
-      "id": "ch44_v31",
-      "partOfSpeech": "adverb",
-      "kanji": "概して",
-      "kana": "がいして",
-      "romaji": "gaishite",
-      "definition": "generally; on the whole"
-    },
-    {
-      "id": "ch44_v32",
-      "partOfSpeech": "adverb",
-      "kanji": "果たして",
-      "kana": "はたして",
-      "romaji": "hatashite",
-      "definition": "really; as expected"
-    },
-    {
-      "id": "ch44_v33",
-      "partOfSpeech": "adverb",
-      "kanji": "恐らく",
-      "kana": "おそらく",
-      "romaji": "osoraku",
-      "definition": "probably; likely"
-    },
-    {
-      "id": "ch44_v34",
-      "partOfSpeech": "adverb",
-      "kanji": "仮に",
-      "kana": "かりに",
-      "romaji": "karini",
-      "definition": "supposing; hypothetically"
-    },
-    {
-      "id": "ch44_v35",
-      "partOfSpeech": "pre-noun",
-      "kanji": "いわゆる",
-      "kana": "いわゆる",
-      "romaji": "iwayuru",
-      "definition": "so-called"
-    },
-    {
-      "id": "ch44_v36",
-      "partOfSpeech": "noun",
-      "kanji": "一種",
-      "kana": "いっしゅ",
-      "romaji": "isshu",
-      "definition": "a kind; a sort"
-    },
-    {
-      "id": "ch44_v37",
-      "partOfSpeech": "adverb",
-      "kanji": "一斉に",
-      "kana": "いっせいに",
-      "romaji": "isseini",
-      "definition": "all at once; simultaneously"
-    },
-    {
-      "id": "ch44_v38",
-      "partOfSpeech": "adverb",
-      "kanji": "主に",
-      "kana": "おもに",
-      "romaji": "omoni",
-      "definition": "mainly; primarily"
-    },
-    {
-      "id": "ch44_v39",
-      "partOfSpeech": "pre-noun",
-      "kanji": "単なる",
-      "kana": "たんなる",
-      "romaji": "tannaru",
-      "definition": "mere; simple"
-    },
-    {
-      "id": "ch44_v40",
-      "partOfSpeech": "adverb",
-      "kanji": "逆に",
-      "kana": "ぎゃくに",
-      "romaji": "gyakuni",
-      "definition": "conversely; on the contrary"
+     "id": "to-omoikiya_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'I thought the repair would be expensive, but it was free'?",
+     "japanese": null,
+     "choices": [
+      "修理代[しゅうりだい]は高[たか]いと思[おも]いきや、無料[むりょう]だった。",
+      "修理代[しゅうりだい]は高[たか]いと思[おも]ったが、無料[むりょう]だった。",
+      "修理代[しゅうりだい]は高[たか]いと思[おも]ったら、無料[むりょう]だった。",
+      "修理代[しゅうりだい]は高[たか]いかと思[おも]えば、無料[むりょう]だった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + と思[おも]いきや: 高[たか]い + と思[おも]いきや = I thought it would be expensive. 無料[むりょう]だった = it was free. と思[おも]いきや marks the pleasant reversal from feared cost to no cost."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "de-wa-nai-ka",
+   "name": "〜ではないか / ではあるまいか — isn't it? / could it be that?",
+   "shortDescription": "Seeks agreement or expresses a strong rhetorical assertion: 'isn't X true?' or 'could it be that X?'",
+   "formation": "Plain form + ではないか / じゃないか (casual)  |  Plain form + ではあるまいか (formal)",
+   "explanation": "ではないか and its more formal literary variant ではあるまいか are rhetorical tools, not genuine questions — they assert a point in question form to invite agreement rather than announcing the conclusion directly. もっと努力[どりょく]すべきではないか: 'Shouldn't we be making more effort?' isn't really asking whether you agree; it's asserting 'we should make more effort' while gesturing toward the listener to concur. This rhetorical question move is powerful in speeches, editorials, and arguments because it draws the audience in as co-reasoners rather than passive recipients.\n\nではあるまいか is the formal/literary variant used for tentative but weighty conjecture — 'could it possibly be that X?' — with a tone of careful, serious consideration: 彼[かれ]の行動[こうどう]の背後[はいご]には何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか ('Could it be that there are deep circumstances behind his behavior?'). The casual spoken form is じゃないか. One practical note: intonation matters significantly — rising pitch makes these feel more like genuine inquiry; flat or falling pitch emphasizes rhetorical assertion.",
+   "rules": [
+    "Plain form + ではないか = isn't it? / don't you think? (rhetorical — seeks agreement/assertion)",
+    "Casual: じゃないか (conversation); ではないか (formal speech, editorials)",
+    "ではあるまいか = could it possibly be that? (formal, literary — tentative but weighty conjecture)",
+    "Common in: debates, speeches, editorials, arguments where the speaker asserts a point",
+    "Intonation matters: rising = genuine inquiry; flat/falling = rhetorical force"
+   ],
+   "examples": [
     {
-      "char": "総",
-      "word": "総",
-      "reading": "そう",
-      "meaning": "whole"
+     "japanese": "私[わたし]たちはもっと環境問題[かんきょうもんだい]に真剣[しんけん]に向[む]き合[あ]うべきではないか。",
+     "romaji": "Watashitachi wa motto kankyou mondai ni shinken ni mukiau beki dewa nai ka.",
+     "english": "Shouldn't we face environmental issues more seriously?"
     },
     {
-      "char": "第",
-      "word": "第",
-      "reading": "だい",
-      "meaning": "No."
+     "japanese": "この状況[じょうきょう]を改善[かいぜん]するには、まず話[はな]し合[あ]いが必要[ひつよう]ではないでしょうか。",
+     "romaji": "Kono joukyou wo kaizen suru ni wa, mazu hanashiai ga hitsuyou dewa nai deshou ka.",
+     "english": "In order to improve this situation, wouldn't dialogue be necessary first?"
     },
     {
-      "char": "革",
-      "word": "革",
-      "reading": "かわ",
-      "meaning": "leather"
+     "japanese": "彼[かれ]の行動[こうどう]の背後[はいご]には、何[なに]か深[ふか]い事情[じじょう]があるのではあるまいか。",
+     "romaji": "Kare no koudou no haigo ni wa, nanika fukai jijou ga aru no dewa aru mai ka.",
+     "english": "Could it be that there is some deep circumstance behind his actions?"
     },
     {
-      "char": "欧",
-      "word": "欧",
-      "reading": "うたう",
-      "meaning": "Europe"
-    },
-    {
-      "char": "課",
-      "word": "課",
-      "reading": "か",
-      "meaning": "lesson"
-    },
-    {
-      "char": "極",
-      "word": "極めて",
-      "reading": "きわめて",
-      "meaning": "extremely"
-    },
-    {
-      "char": "含",
-      "word": "含む",
-      "reading": "ふくむ",
-      "meaning": "to contain"
-    },
-    {
-      "char": "専",
-      "word": "専ら",
-      "reading": "もっぱら",
-      "meaning": "wholly"
-    },
-    {
-      "char": "効",
-      "word": "有効",
-      "reading": "ゆうこう",
-      "meaning": "valid; effective"
-    },
-    {
-      "char": "丸",
-      "word": "丸",
-      "reading": "まる",
-      "meaning": "circle"
-    },
-    {
-      "char": "捜",
-      "word": "捜",
-      "reading": "さがす",
-      "meaning": "search"
-    },
-    {
-      "char": "根",
-      "word": "根本",
-      "reading": "こんぽん",
-      "meaning": "root; foundation"
-    },
-    {
-      "char": "幅",
-      "word": "幅",
-      "reading": "はば",
-      "meaning": "width"
-    },
-    {
-      "char": "般",
-      "word": "全般",
-      "reading": "ぜんぱん",
-      "meaning": "the whole; overall"
-    },
-    {
-      "char": "逆",
-      "word": "逆に",
-      "reading": "ぎゃくに",
-      "meaning": "conversely; on the contrary"
-    },
-    {
-      "char": "圧",
-      "word": "圧倒的",
-      "reading": "あっとうてき",
-      "meaning": "overwhelming"
-    },
-    {
-      "char": "波",
-      "word": "波",
-      "reading": "なみ",
-      "meaning": "wave"
-    },
-    {
-      "char": "普",
-      "word": "普",
-      "reading": "あまねく",
-      "meaning": "universal"
-    },
-    {
-      "char": "城",
-      "word": "城",
-      "reading": "しろ",
-      "meaning": "castle"
-    },
-    {
-      "char": "令",
-      "word": "令",
-      "reading": "れい",
-      "meaning": "command"
-    },
-    {
-      "char": "築",
-      "word": "築く",
-      "reading": "きずく",
-      "meaning": "to build"
-    },
-    {
-      "char": "季",
-      "word": "季",
-      "reading": "き",
-      "meaning": "seasons"
-    },
-    {
-      "char": "著",
-      "word": "著しい",
-      "reading": "いちじるしい",
-      "meaning": "striking"
-    },
-    {
-      "char": "底",
-      "word": "底",
-      "reading": "そこ",
-      "meaning": "bottom"
-    },
-    {
-      "char": "栄",
-      "word": "栄える",
-      "reading": "さかえる",
-      "meaning": "to prosper"
-    },
-    {
-      "char": "燃",
-      "word": "燃える",
-      "reading": "もえる",
-      "meaning": "to burn"
-    },
-    {
-      "char": "簡",
-      "word": "簡",
-      "reading": "えらぶ",
-      "meaning": "simplicity"
-    },
-    {
-      "char": "照",
-      "word": "照らす",
-      "reading": "てらす",
-      "meaning": "to shine on"
-    },
-    {
-      "char": "純",
-      "word": "純",
-      "reading": "じゅん",
-      "meaning": "innocent"
-    },
-    {
-      "char": "貯",
-      "word": "貯",
-      "reading": "ためる",
-      "meaning": "savings"
-    },
-    {
-      "char": "浴",
-      "word": "浴びる",
-      "reading": "あびる",
-      "meaning": "to dash over oneself (e.g. water)"
-    },
-    {
-      "char": "賢",
-      "word": "賢い",
-      "reading": "かしこい",
-      "meaning": "wise"
-    },
-    {
-      "char": "尊",
-      "word": "尊い",
-      "reading": "とうとい",
-      "meaning": "precious"
-    },
-    {
-      "char": "幼",
-      "word": "幼い",
-      "reading": "おさない",
-      "meaning": "very young"
-    },
-    {
-      "char": "掃",
-      "word": "掃く",
-      "reading": "はく",
-      "meaning": "to sweep"
-    },
-    {
-      "char": "郊",
-      "word": "郊",
-      "reading": "こう",
-      "meaning": "outskirts"
-    },
-    {
-      "char": "菜",
-      "word": "菜",
-      "reading": "な",
-      "meaning": "vegetable"
-    },
-    {
-      "char": "刷",
-      "word": "刷る",
-      "reading": "する",
-      "meaning": "to print"
-    },
-    {
-      "char": "枝",
-      "word": "枝",
-      "reading": "えだ",
-      "meaning": "branch"
-    },
-    {
-      "char": "棒",
-      "word": "棒",
-      "reading": "ぼう",
-      "meaning": "pole"
-    },
-    {
-      "char": "瓶",
-      "word": "瓶",
-      "reading": "びん",
-      "meaning": "bottle"
-    },
-    {
-      "char": "肌",
-      "word": "肌",
-      "reading": "はだ",
-      "meaning": "skin"
-    },
-    {
-      "char": "麦",
-      "word": "麦",
-      "reading": "むぎ",
-      "meaning": "wheat"
-    },
-    {
-      "char": "姓",
-      "word": "姓",
-      "reading": "せい",
-      "meaning": "surname"
-    },
-    {
-      "char": "枯",
-      "word": "枯れる",
-      "reading": "かれる",
-      "meaning": "to wither (of a plant)"
-    },
-    {
-      "char": "燥",
-      "word": "燥ぐ",
-      "reading": "はしゃぐ",
-      "meaning": "to make merry"
+     "japanese": "こんなに毎日[まいにち]遅[おそ]くまで働[はたら]いていたら、体[からだ]を壊[こわ]すのではないか。",
+     "romaji": "Konna ni mainichi osoku made hataraite itara, karada wo kowasu no dewa nai ka.",
+     "english": "If you keep working so late every single day, won't you destroy your health?"
     }
-  ]
+   ],
+   "flashcardHeader": "〜ではないか / ではあるまいか",
+   "flashcardAnswer": "Seeks agreement or expresses a strong rhetorical assertion: 'isn't X true?' or 'could it be that X?'",
+   "practice": [
+    {
+     "id": "de-wa-nai-ka_q1",
+     "type": "usage",
+     "prompt": "What does 〜ではないか mean?",
+     "japanese": null,
+     "choices": [
+      "it is definitely X",
+      "isn't it? / isn't it the case that? — used for rhetorical questions, proposals, or sudden realizations; often seeks agreement or draws attention to something",
+      "it is not X",
+      "only if X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ではないか = isn't it? / could it be that? Multiple uses: (1) rhetorical question seeking agreement: こんなに美[うつく]しい景色[けしき]ではないか！(isn't this a beautiful view!); (2) proposals: 行[い]こうではないか (let's go, shall we?); (3) realizations: ああ、彼[かれ]ではないか！(oh, isn't that him?)."
+    },
+    {
+     "id": "de-wa-nai-ka_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Isn't this exactly what we were aiming for?'",
+     "japanese": null,
+     "choices": [
+      "これこそ私[わたし]たちが目指[めざ]していたものではないか。",
+      "これこそ私[わたし]たちが目指[めざ]していたものではない。",
+      "これこそ私[わたし]たちが目指[めざ]していたものだ。",
+      "これこそ私[わたし]たちが目指[めざ]していたものじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + ではないか: 目指[めざ]していたもの + ではないか = isn't this what we were aiming for? Rhetorical question expecting agreement. ではないか invites the listener to share the speaker's realization."
+    },
+    {
+     "id": "de-wa-nai-ka_q3",
+     "type": "translation",
+     "prompt": "Which means 'Isn't this the most important issue?'",
+     "japanese": null,
+     "choices": [
+      "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]ではないか。",
+      "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]ではない。",
+      "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]だ。",
+      "これこそが最[もっと]も重要[じゅうよう]な問題[もんだい]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 最[もっと]も重要[じゅうよう]な問題[もんだい] + ではないか = isn't this the most important issue? Rhetorical — the speaker is asserting this IS the most important issue by framing it as a question seeking agreement."
+    },
+    {
+     "id": "de-wa-nai-ka_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Let us challenge this together!' (proposal/call to action)?",
+     "japanese": null,
+     "choices": [
+      "一緒[いっしょ]にこれに挑戦[ちょうせん]しようではないか。",
+      "一緒[いっしょ]にこれに挑戦[ちょうせん]しようではない。",
+      "一緒[いっしょ]にこれに挑戦[ちょうせん]しよう。",
+      "一緒[いっしょ]にこれに挑戦[ちょうせん]しようじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb volitional + ではないか: 挑戦[ちょうせん]しよう + ではないか = let's challenge this, shall we! Proposal use of ではないか — like a stirring call to action. Often used in speeches and rhetoric."
+    },
+    {
+     "id": "de-wa-nai-ka_q5",
+     "type": "usage",
+     "prompt": "What are the THREE main uses of 〜ではないか?",
+     "japanese": null,
+     "choices": [
+      "Negation, doubt, and regret",
+      "(1) Rhetorical question seeking agreement ('isn't it?'); (2) Exclamation/realization ('oh, isn't that...!'); (3) Proposal/call to action ('let's..., shall we?')",
+      "Causation, contrast, and condition",
+      "Permission, obligation, and prohibition — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "ではないか has three uses: (1) rhetorical agreement: これが問題[もんだい]ではないか (isn't this the problem?); (2) exclamation/realization: ああ、あの人[ひと]が田中[たなか]さんではないか (oh, isn't that Mr. Tanaka!); (3) proposal: 行[い]こうではないか (let's go, shall we!). Context determines which use applies."
+    },
+    {
+     "id": "de-wa-nai-ka_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Oh, isn't that the president over there?'",
+     "japanese": null,
+     "choices": [
+      "ああ、あそこにいるのは社長[しゃちょう]ではないか。",
+      "ああ、あそこにいるのは社長[しゃちょう]ではない。",
+      "ああ、あそこにいるのは社長[しゃちょう]だ。",
+      "ああ、あそこにいるのは社長[しゃちょう]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 社長[しゃちょう] + ではないか = isn't that the president? Exclamation/realization use — sudden recognition. The speaker is surprised and seeks confirmation through the rhetorical question form."
+    },
+    {
+     "id": "de-wa-nai-ka_q7",
+     "type": "translation",
+     "prompt": "Which means 'Isn't this a matter that concerns everyone?'",
+     "japanese": null,
+     "choices": [
+      "これはみんなに関[かか]わることではないか。",
+      "これはみんなに関[かか]わることではない。",
+      "これはみんなに関[かか]わることだ。",
+      "これはみんなに関[かか]わることじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: みんなに関[かか]わること + ではないか = isn't this something that concerns everyone? Rhetorical question asserting universal relevance while inviting agreement."
+    },
+    {
+     "id": "de-wa-nai-ka_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Isn't it already time to change our approach?'",
+     "japanese": null,
+     "choices": [
+      "もう方針[ほうしん]を変[か]える時[とき]ではないか。",
+      "もう方針[ほうしん]を変[か]える時[とき]ではない。",
+      "もう方針[ほうしん]を変[か]える時[とき]だ。",
+      "もう方針[ほうしん]を変[か]える時[とき]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 時[とき] + ではないか = isn't it (already) time? Rhetorical question advocating for change. ではないか here makes the proposal more rhetorically engaging than a direct statement."
+    },
+    {
+     "id": "de-wa-nai-ka_q9",
+     "type": "usage",
+     "prompt": "ではないか vs. じゃないか — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They have opposite meanings",
+      "ではないか is formal/written; じゃないか is casual/spoken. Same meaning: 'isn't it?'",
+      "ではないか is for proposals only",
+      "じゃないか is for exclamations only, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "ではないか (formal, written): 素晴[すば]らしい景色[けしき]ではないか。じゃないか (casual, spoken): 素晴[すば]らしい景色[けしき]じゃないか。Both = 'isn't it?' The only difference is register — same grammar, same uses."
+    },
+    {
+     "id": "de-wa-nai-ka_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Isn't this the best season?'",
+     "japanese": null,
+     "choices": [
+      "これが一番[いちばん]いい季節[きせつ]ではないか。",
+      "これが一番[いちばん]いい季節[きせつ]ではない。",
+      "これが一番[いちばん]いい季節[きせつ]だ。",
+      "これが一番[いちばん]いい季節[きせつ]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 一番[いちばん]いい季節[きせつ] + ではないか = isn't this the best season? Rhetorical — the speaker asserts it IS the best season by seeking the listener's agreement through the question form."
+    },
+    {
+     "id": "de-wa-nai-ka_q11",
+     "type": "translation",
+     "prompt": "Which means 'Isn't this exactly what true friendship means?'",
+     "japanese": null,
+     "choices": [
+      "これこそ本当[ほんとう]の友情[ゆうじょう]というものではないか。",
+      "これこそ本当[ほんとう]の友情[ゆうじょう]というものではない。",
+      "これこそ本当[ほんとう]の友情[ゆうじょう]というものだ。",
+      "これこそ本当[ほんとう]の友情[ゆうじょう]というものじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 本当[ほんとう]の友情[ゆうじょう]というもの + ではないか = isn't this what true friendship means? Rhetorical assertion + invitation to agree. ではないか makes the philosophical point more engaging."
+    },
+    {
+     "id": "de-wa-nai-ka_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Let us work together for the future!' (call to action)?",
+     "japanese": null,
+     "choices": [
+      "未来[みらい]のために共[とも]に働[はたら]こうではないか。",
+      "未来[みらい]のために共[とも]に働[はたら]こうではない。",
+      "未来[みらい]のために共[とも]に働[はたら]こう。",
+      "未来[みらい]のために共[とも]に働[はたら]こうじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb volitional + ではないか: 働[はたら]こう + ではないか = let's work together, shall we! Proposal/call-to-action use. ではないか gives it a rhetorical, rousing quality — typical of speeches."
+    },
+    {
+     "id": "de-wa-nai-ka_q13",
+     "type": "usage",
+     "prompt": "ではあるまいか is a MORE FORMAL variant. What does it mean?",
+     "japanese": null,
+     "choices": [
+      "it is definitely",
+      "could it perhaps be? / might it not be? — more tentative and formal hypothesis than ではないか",
+      "it is impossible",
+      "it must not be"
+     ],
+     "correctIndex": 1,
+     "explanation": "ではあるまいか = could it perhaps be? (formal, written, slightly more tentative): これは重大[じゅうだい]な誤[あやま]りではあるまいか = could this not be a serious mistake? It's more hypothetical and formal than ではないか, commonly used in academic writing and formal essays."
+    },
+    {
+     "id": "de-wa-nai-ka_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Oh, isn't this the book I was looking for?'",
+     "japanese": null,
+     "choices": [
+      "ああ、これは私[わたし]が探[さが]していた本[ほん]ではないか。",
+      "ああ、これは私[わたし]が探[さが]していた本[ほん]ではない。",
+      "ああ、これは私[わたし]が探[さが]していた本[ほん]だ。",
+      "ああ、これは私[わたし]が探[さが]していた本[ほん]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 探[さが]していた本[ほん] + ではないか = isn't this the book I was looking for? Exclamation/realization use — the sudden discovery is expressed through the rhetorical question form."
+    },
+    {
+     "id": "de-wa-nai-ka_q15",
+     "type": "translation",
+     "prompt": "Which means 'Isn't it our responsibility to protect the environment?'",
+     "japanese": null,
+     "choices": [
+      "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]ではないか。",
+      "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]ではない。",
+      "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]だ。",
+      "環境[かんきょう]を守[まも]ることが私[わたし]たちの責任[せきにん]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 責任[せきにん] + ではないか = isn't it our responsibility? Rhetorical question asserting that environmental protection IS our responsibility, while rhetorically inviting agreement."
+    },
+    {
+     "id": "de-wa-nai-ka_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Isn't this the historical moment we've been waiting for?'",
+     "japanese": null,
+     "choices": [
+      "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]ではないか。",
+      "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]ではない。",
+      "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]だ。",
+      "これこそが私[わたし]たちが待[ま]ち望[のぞ]んでいた歴史的瞬間[れきしてきしゅんかん]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 歴史的瞬間[れきしてきしゅんかん] + ではないか = isn't this the historic moment? Rhetorical question elevating the significance of the moment by framing the assertion as a shared realization."
+    },
+    {
+     "id": "de-wa-nai-ka_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses ではないか for a PROPOSAL (calling people to action)?",
+     "japanese": null,
+     "choices": [
+      "ああ、あの人[ひと]が山田[やまだ]さんではないか！(realization — 'isn't that Yamada?')",
+      "これが問題[もんだい]ではないか。(rhetorical — 'isn't this the problem?')",
+      "皆[みな]で取[と]り組[く]もうではないか！(proposal — 'let's all tackle this, shall we!')",
+      "これほど美[うつく]しい景色[けしき]はないではないか。(rhetorical — 'isn't there no view more beautiful?')"
+     ],
+     "correctIndex": 2,
+     "explanation": "皆[みな]で取[と]り組[く]もうではないか！ = let's all tackle this, shall we! This is the proposal/call-to-action use of ではないか. Verb volitional (〜よう/〜ましょう) + ではないか = stirring invitation to act together. Common in speeches and motivational contexts."
+    },
+    {
+     "id": "de-wa-nai-ka_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Isn't this truly a surprising result?'",
+     "japanese": null,
+     "choices": [
+      "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]ではないか。",
+      "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]ではない。",
+      "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]だ。",
+      "これは本当[ほんとう]に驚[おどろ]くべき結果[けっか]じゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではないか: 驚[おどろ]くべき結果[けっか] + ではないか = isn't this a surprising result? Rhetorical question asserting the surprising nature of the result while seeking the listener's agreement."
+    },
+    {
+     "id": "de-wa-nai-ka_q19",
+     "type": "translation",
+     "prompt": "Which means 'Could this perhaps be a violation of human rights?'",
+     "japanese": null,
+     "choices": [
+      "これは人権侵害[じんけんしんがい]ではあるまいか。",
+      "これは人権侵害[じんけんしんがい]ではないか。",
+      "これは人権侵害[じんけんしんがい]ではない。",
+      "これは人権侵害[じんけんしんがい]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ではあるまいか = could this perhaps be a human rights violation? ではあるまいか is more tentative and formal than ではないか — expressing a cautious hypothesis rather than an assertive rhetorical question. Suitable for academic/formal writing."
+    },
+    {
+     "id": "de-wa-nai-ka_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Let's move forward together, shall we?'",
+     "japanese": null,
+     "choices": [
+      "共[とも]に前進[ぜんしん]しようではないか。",
+      "共[とも]に前進[ぜんしん]しようではない。",
+      "共[とも]に前進[ぜんしん]しよう。",
+      "共[とも]に前進[ぜんしん]しようじゃないの。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb volitional + ではないか: 前進[ぜんしん]しよう + ではないか = let's move forward, shall we! Classic proposal use of ではないか — a rousing call to collective action, inviting shared commitment through the rhetorical question form."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch44_v01",
+   "partOfSpeech": "noun",
+   "kanji": "本質",
+   "kana": "ほんしつ",
+   "romaji": "honshitsu",
+   "definition": "essence; true nature"
+  },
+  {
+   "id": "ch44_v02",
+   "partOfSpeech": "noun",
+   "kanji": "意義",
+   "kana": "いぎ",
+   "romaji": "igi",
+   "definition": "significance; meaning"
+  },
+  {
+   "id": "ch44_v03",
+   "partOfSpeech": "noun",
+   "kanji": "意味合い",
+   "kana": "いみあい",
+   "romaji": "imiai",
+   "definition": "nuance; implication"
+  },
+  {
+   "id": "ch44_v04",
+   "partOfSpeech": "noun",
+   "kanji": "趣旨",
+   "kana": "しゅし",
+   "romaji": "shushi",
+   "definition": "gist; purport"
+  },
+  {
+   "id": "ch44_v05",
+   "partOfSpeech": "noun",
+   "kanji": "概要",
+   "kana": "がいよう",
+   "romaji": "gaiyou",
+   "definition": "outline; summary"
+  },
+  {
+   "id": "ch44_v06",
+   "partOfSpeech": "noun",
+   "kanji": "要旨",
+   "kana": "ようし",
+   "romaji": "youshi",
+   "definition": "gist; summary"
+  },
+  {
+   "id": "ch44_v07",
+   "partOfSpeech": "noun",
+   "kanji": "特質",
+   "kana": "とくしつ",
+   "romaji": "tokushitsu",
+   "definition": "special quality; trait"
+  },
+  {
+   "id": "ch44_v08",
+   "partOfSpeech": "noun",
+   "kanji": "本来",
+   "kana": "ほんらい",
+   "romaji": "honrai",
+   "definition": "originally; essentially"
+  },
+  {
+   "id": "ch44_v09",
+   "partOfSpeech": "noun",
+   "kanji": "根本",
+   "kana": "こんぽん",
+   "romaji": "konpon",
+   "definition": "root; foundation"
+  },
+  {
+   "id": "ch44_v10",
+   "partOfSpeech": "noun",
+   "kanji": "究極",
+   "kana": "きゅうきょく",
+   "romaji": "kyuukyoku",
+   "definition": "ultimate"
+  },
+  {
+   "id": "ch44_v11",
+   "partOfSpeech": "na-adjective",
+   "kanji": "本格的",
+   "kana": "ほんかくてき",
+   "romaji": "honkakuteki",
+   "definition": "full-scale; authentic"
+  },
+  {
+   "id": "ch44_v12",
+   "partOfSpeech": "na-adjective",
+   "kanji": "徹底的",
+   "kana": "てっていてき",
+   "romaji": "tetteiteki",
+   "definition": "thorough"
+  },
+  {
+   "id": "ch44_v13",
+   "partOfSpeech": "na-adjective",
+   "kanji": "画期的",
+   "kana": "かっきてき",
+   "romaji": "kakkiteki",
+   "definition": "groundbreaking"
+  },
+  {
+   "id": "ch44_v14",
+   "partOfSpeech": "na-adjective",
+   "kanji": "圧倒的",
+   "kana": "あっとうてき",
+   "romaji": "attouteki",
+   "definition": "overwhelming"
+  },
+  {
+   "id": "ch44_v15",
+   "partOfSpeech": "noun",
+   "kanji": "総合",
+   "kana": "そうごう",
+   "romaji": "sougou",
+   "definition": "comprehensive; overall"
+  },
+  {
+   "id": "ch44_v16",
+   "partOfSpeech": "noun",
+   "kanji": "全般",
+   "kana": "ぜんぱん",
+   "romaji": "zenpan",
+   "definition": "the whole; overall"
+  },
+  {
+   "id": "ch44_v17",
+   "partOfSpeech": "na-adjective",
+   "kanji": "大幅",
+   "kana": "おおはば",
+   "romaji": "oohaba",
+   "definition": "substantial; drastic"
+  },
+  {
+   "id": "ch44_v18",
+   "partOfSpeech": "na-adjective",
+   "kanji": "極端",
+   "kana": "きょくたん",
+   "romaji": "kyokutan",
+   "definition": "extreme"
+  },
+  {
+   "id": "ch44_v19",
+   "partOfSpeech": "na-adjective",
+   "kanji": "顕著",
+   "kana": "けんちょ",
+   "romaji": "kencho",
+   "definition": "remarkable; striking"
+  },
+  {
+   "id": "ch44_v20",
+   "partOfSpeech": "na-adjective",
+   "kanji": "明白",
+   "kana": "めいはく",
+   "romaji": "meihaku",
+   "definition": "obvious; clear"
+  },
+  {
+   "id": "ch44_v21",
+   "partOfSpeech": "na-adjective",
+   "kanji": "不可欠",
+   "kana": "ふかけつ",
+   "romaji": "fukaketsu",
+   "definition": "indispensable"
+  },
+  {
+   "id": "ch44_v22",
+   "partOfSpeech": "na-adjective",
+   "kanji": "有効",
+   "kana": "ゆうこう",
+   "romaji": "yuukou",
+   "definition": "valid; effective"
+  },
+  {
+   "id": "ch44_v23",
+   "partOfSpeech": "na-adjective",
+   "kanji": "無効",
+   "kana": "むこう",
+   "romaji": "mukou",
+   "definition": "invalid; void"
+  },
+  {
+   "id": "ch44_v24",
+   "partOfSpeech": "na-adjective",
+   "kanji": "重大",
+   "kana": "じゅうだい",
+   "romaji": "juudai",
+   "definition": "grave; serious"
+  },
+  {
+   "id": "ch44_v25",
+   "partOfSpeech": "na-adjective",
+   "kanji": "貴重",
+   "kana": "きちょう",
+   "romaji": "kichou",
+   "definition": "precious; valuable"
+  },
+  {
+   "id": "ch44_v26",
+   "partOfSpeech": "na-adjective",
+   "kanji": "膨大",
+   "kana": "ぼうだい",
+   "romaji": "boudai",
+   "definition": "enormous; vast"
+  },
+  {
+   "id": "ch44_v27",
+   "partOfSpeech": "na-adjective",
+   "kanji": "僅か",
+   "kana": "わずか",
+   "romaji": "wazuka",
+   "definition": "slight; a mere"
+  },
+  {
+   "id": "ch44_v28",
+   "partOfSpeech": "na-adjective",
+   "kanji": "相対的",
+   "kana": "そうたいてき",
+   "romaji": "soutaiteki",
+   "definition": "relative"
+  },
+  {
+   "id": "ch44_v29",
+   "partOfSpeech": "na-adjective",
+   "kanji": "絶対的",
+   "kana": "ぜったいてき",
+   "romaji": "zettaiteki",
+   "definition": "absolute"
+  },
+  {
+   "id": "ch44_v30",
+   "partOfSpeech": "adverb",
+   "kanji": "極めて",
+   "kana": "きわめて",
+   "romaji": "kiwamete",
+   "definition": "extremely"
+  },
+  {
+   "id": "ch44_v31",
+   "partOfSpeech": "adverb",
+   "kanji": "概して",
+   "kana": "がいして",
+   "romaji": "gaishite",
+   "definition": "generally; on the whole"
+  },
+  {
+   "id": "ch44_v32",
+   "partOfSpeech": "adverb",
+   "kanji": "果たして",
+   "kana": "はたして",
+   "romaji": "hatashite",
+   "definition": "really; as expected"
+  },
+  {
+   "id": "ch44_v33",
+   "partOfSpeech": "adverb",
+   "kanji": "恐らく",
+   "kana": "おそらく",
+   "romaji": "osoraku",
+   "definition": "probably; likely"
+  },
+  {
+   "id": "ch44_v34",
+   "partOfSpeech": "adverb",
+   "kanji": "仮に",
+   "kana": "かりに",
+   "romaji": "karini",
+   "definition": "supposing; hypothetically"
+  },
+  {
+   "id": "ch44_v35",
+   "partOfSpeech": "pre-noun",
+   "kanji": "いわゆる",
+   "kana": "いわゆる",
+   "romaji": "iwayuru",
+   "definition": "so-called"
+  },
+  {
+   "id": "ch44_v36",
+   "partOfSpeech": "noun",
+   "kanji": "一種",
+   "kana": "いっしゅ",
+   "romaji": "isshu",
+   "definition": "a kind; a sort"
+  },
+  {
+   "id": "ch44_v37",
+   "partOfSpeech": "adverb",
+   "kanji": "一斉に",
+   "kana": "いっせいに",
+   "romaji": "isseini",
+   "definition": "all at once; simultaneously"
+  },
+  {
+   "id": "ch44_v38",
+   "partOfSpeech": "adverb",
+   "kanji": "主に",
+   "kana": "おもに",
+   "romaji": "omoni",
+   "definition": "mainly; primarily"
+  },
+  {
+   "id": "ch44_v39",
+   "partOfSpeech": "pre-noun",
+   "kanji": "単なる",
+   "kana": "たんなる",
+   "romaji": "tannaru",
+   "definition": "mere; simple"
+  },
+  {
+   "id": "ch44_v40",
+   "partOfSpeech": "adverb",
+   "kanji": "逆に",
+   "kana": "ぎゃくに",
+   "romaji": "gyakuni",
+   "definition": "conversely; on the contrary"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "総",
+   "word": "総理",
+   "reading": "そうり",
+   "meaning": "prime minister"
+  },
+  {
+   "char": "第",
+   "word": "第一",
+   "reading": "だいいち",
+   "meaning": "first; number one"
+  },
+  {
+   "char": "革",
+   "word": "革",
+   "reading": "かわ",
+   "meaning": "leather"
+  },
+  {
+   "char": "欧",
+   "word": "欧米",
+   "reading": "おうべい",
+   "meaning": "Europe and America; the West"
+  },
+  {
+   "char": "課",
+   "word": "課",
+   "reading": "か",
+   "meaning": "lesson"
+  },
+  {
+   "char": "極",
+   "word": "極めて",
+   "reading": "きわめて",
+   "meaning": "extremely"
+  },
+  {
+   "char": "含",
+   "word": "含む",
+   "reading": "ふくむ",
+   "meaning": "to contain"
+  },
+  {
+   "char": "専",
+   "word": "専ら",
+   "reading": "もっぱら",
+   "meaning": "wholly"
+  },
+  {
+   "char": "効",
+   "word": "有効",
+   "reading": "ゆうこう",
+   "meaning": "valid; effective"
+  },
+  {
+   "char": "丸",
+   "word": "丸",
+   "reading": "まる",
+   "meaning": "circle"
+  },
+  {
+   "char": "捜",
+   "word": "捜す",
+   "reading": "さがす",
+   "meaning": "to search for (something lost)"
+  },
+  {
+   "char": "根",
+   "word": "根本",
+   "reading": "こんぽん",
+   "meaning": "root; foundation"
+  },
+  {
+   "char": "幅",
+   "word": "幅",
+   "reading": "はば",
+   "meaning": "width"
+  },
+  {
+   "char": "般",
+   "word": "全般",
+   "reading": "ぜんぱん",
+   "meaning": "the whole; overall"
+  },
+  {
+   "char": "逆",
+   "word": "逆に",
+   "reading": "ぎゃくに",
+   "meaning": "conversely; on the contrary"
+  },
+  {
+   "char": "圧",
+   "word": "圧倒的",
+   "reading": "あっとうてき",
+   "meaning": "overwhelming"
+  },
+  {
+   "char": "波",
+   "word": "波",
+   "reading": "なみ",
+   "meaning": "wave"
+  },
+  {
+   "char": "普",
+   "word": "普通",
+   "reading": "ふつう",
+   "meaning": "normal; ordinary"
+  },
+  {
+   "char": "城",
+   "word": "城",
+   "reading": "しろ",
+   "meaning": "castle"
+  },
+  {
+   "char": "令",
+   "word": "命令",
+   "reading": "めいれい",
+   "meaning": "order; command"
+  },
+  {
+   "char": "築",
+   "word": "築く",
+   "reading": "きずく",
+   "meaning": "to build"
+  },
+  {
+   "char": "季",
+   "word": "季節",
+   "reading": "きせつ",
+   "meaning": "season"
+  },
+  {
+   "char": "著",
+   "word": "著しい",
+   "reading": "いちじるしい",
+   "meaning": "striking"
+  },
+  {
+   "char": "底",
+   "word": "底",
+   "reading": "そこ",
+   "meaning": "bottom"
+  },
+  {
+   "char": "栄",
+   "word": "栄える",
+   "reading": "さかえる",
+   "meaning": "to prosper"
+  },
+  {
+   "char": "燃",
+   "word": "燃える",
+   "reading": "もえる",
+   "meaning": "to burn"
+  },
+  {
+   "char": "簡",
+   "word": "簡単",
+   "reading": "かんたん",
+   "meaning": "simple"
+  },
+  {
+   "char": "照",
+   "word": "照らす",
+   "reading": "てらす",
+   "meaning": "to shine on"
+  },
+  {
+   "char": "純",
+   "word": "単純",
+   "reading": "たんじゅん",
+   "meaning": "simple"
+  },
+  {
+   "char": "貯",
+   "word": "貯金",
+   "reading": "ちょきん",
+   "meaning": "savings"
+  },
+  {
+   "char": "浴",
+   "word": "浴びる",
+   "reading": "あびる",
+   "meaning": "to dash over oneself (e.g. water)"
+  },
+  {
+   "char": "賢",
+   "word": "賢い",
+   "reading": "かしこい",
+   "meaning": "wise"
+  },
+  {
+   "char": "尊",
+   "word": "尊い",
+   "reading": "とうとい",
+   "meaning": "precious"
+  },
+  {
+   "char": "幼",
+   "word": "幼い",
+   "reading": "おさない",
+   "meaning": "very young"
+  },
+  {
+   "char": "掃",
+   "word": "掃く",
+   "reading": "はく",
+   "meaning": "to sweep"
+  },
+  {
+   "char": "郊",
+   "word": "郊外",
+   "reading": "こうがい",
+   "meaning": "suburb"
+  },
+  {
+   "char": "菜",
+   "word": "野菜",
+   "reading": "やさい",
+   "meaning": "vegetables"
+  },
+  {
+   "char": "刷",
+   "word": "刷る",
+   "reading": "する",
+   "meaning": "to print"
+  },
+  {
+   "char": "枝",
+   "word": "枝",
+   "reading": "えだ",
+   "meaning": "branch"
+  },
+  {
+   "char": "棒",
+   "word": "棒",
+   "reading": "ぼう",
+   "meaning": "pole"
+  },
+  {
+   "char": "瓶",
+   "word": "瓶",
+   "reading": "びん",
+   "meaning": "bottle"
+  },
+  {
+   "char": "肌",
+   "word": "肌",
+   "reading": "はだ",
+   "meaning": "skin"
+  },
+  {
+   "char": "麦",
+   "word": "麦",
+   "reading": "むぎ",
+   "meaning": "wheat"
+  },
+  {
+   "char": "姓",
+   "word": "姓",
+   "reading": "せい",
+   "meaning": "surname"
+  },
+  {
+   "char": "枯",
+   "word": "枯れる",
+   "reading": "かれる",
+   "meaning": "to wither (of a plant)"
+  },
+  {
+   "char": "燥",
+   "word": "乾燥",
+   "reading": "かんそう",
+   "meaning": "dryness; drying"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "総理",
+   "kana": "そうり",
+   "romaji": "souri",
+   "meaning": "prime minister",
+   "chars": [
+    "総",
+    "理"
+   ]
+  },
+  {
+   "word": "第一",
+   "kana": "だいいち",
+   "romaji": "daiichi",
+   "meaning": "first; number one",
+   "chars": [
+    "第",
+    "一"
+   ]
+  },
+  {
+   "word": "革",
+   "kana": "かわ",
+   "romaji": "kawa",
+   "meaning": "leather",
+   "chars": [
+    "革"
+   ]
+  },
+  {
+   "word": "欧米",
+   "kana": "おうべい",
+   "romaji": "oubei",
+   "meaning": "Europe and America; the West",
+   "chars": [
+    "欧",
+    "米"
+   ]
+  },
+  {
+   "word": "課",
+   "kana": "か",
+   "romaji": "ka",
+   "meaning": "lesson",
+   "chars": [
+    "課"
+   ]
+  },
+  {
+   "word": "極めて",
+   "kana": "きわめて",
+   "romaji": "kiwamete",
+   "meaning": "extremely",
+   "chars": [
+    "極"
+   ]
+  },
+  {
+   "word": "含む",
+   "kana": "ふくむ",
+   "romaji": "fukumu",
+   "meaning": "to contain",
+   "chars": [
+    "含"
+   ]
+  },
+  {
+   "word": "専ら",
+   "kana": "もっぱら",
+   "romaji": "moppara",
+   "meaning": "wholly",
+   "chars": [
+    "専"
+   ]
+  },
+  {
+   "word": "有効",
+   "kana": "ゆうこう",
+   "romaji": "yuukou",
+   "meaning": "valid; effective",
+   "chars": [
+    "有",
+    "効"
+   ]
+  },
+  {
+   "word": "丸",
+   "kana": "まる",
+   "romaji": "maru",
+   "meaning": "circle",
+   "chars": [
+    "丸"
+   ]
+  },
+  {
+   "word": "捜す",
+   "kana": "さがす",
+   "romaji": "sagasu",
+   "meaning": "to search for (something lost)",
+   "chars": [
+    "捜"
+   ]
+  },
+  {
+   "word": "根本",
+   "kana": "こんぽん",
+   "romaji": "konpon",
+   "meaning": "root; foundation",
+   "chars": [
+    "根",
+    "本"
+   ]
+  },
+  {
+   "word": "幅",
+   "kana": "はば",
+   "romaji": "haba",
+   "meaning": "width",
+   "chars": [
+    "幅"
+   ]
+  },
+  {
+   "word": "全般",
+   "kana": "ぜんぱん",
+   "romaji": "zenpan",
+   "meaning": "the whole; overall",
+   "chars": [
+    "全",
+    "般"
+   ]
+  },
+  {
+   "word": "逆に",
+   "kana": "ぎゃくに",
+   "romaji": "gyakuni",
+   "meaning": "conversely; on the contrary",
+   "chars": [
+    "逆"
+   ]
+  },
+  {
+   "word": "圧倒的",
+   "kana": "あっとうてき",
+   "romaji": "attouteki",
+   "meaning": "overwhelming",
+   "chars": [
+    "圧",
+    "倒",
+    "的"
+   ]
+  },
+  {
+   "word": "波",
+   "kana": "なみ",
+   "romaji": "nami",
+   "meaning": "wave",
+   "chars": [
+    "波"
+   ]
+  },
+  {
+   "word": "普通",
+   "kana": "ふつう",
+   "romaji": "futsuu",
+   "meaning": "normal; ordinary",
+   "chars": [
+    "普",
+    "通"
+   ]
+  },
+  {
+   "word": "城",
+   "kana": "しろ",
+   "romaji": "shiro",
+   "meaning": "castle",
+   "chars": [
+    "城"
+   ]
+  },
+  {
+   "word": "命令",
+   "kana": "めいれい",
+   "romaji": "meirei",
+   "meaning": "order; command",
+   "chars": [
+    "命",
+    "令"
+   ]
+  },
+  {
+   "word": "築く",
+   "kana": "きずく",
+   "romaji": "kizuku",
+   "meaning": "to build",
+   "chars": [
+    "築"
+   ]
+  },
+  {
+   "word": "季節",
+   "kana": "きせつ",
+   "romaji": "kisetsu",
+   "meaning": "season",
+   "chars": [
+    "季"
+   ]
+  },
+  {
+   "word": "著しい",
+   "kana": "いちじるしい",
+   "romaji": "ichijirushii",
+   "meaning": "striking",
+   "chars": [
+    "著"
+   ]
+  },
+  {
+   "word": "底",
+   "kana": "そこ",
+   "romaji": "soko",
+   "meaning": "bottom",
+   "chars": [
+    "底"
+   ]
+  },
+  {
+   "word": "栄える",
+   "kana": "さかえる",
+   "romaji": "sakaeru",
+   "meaning": "to prosper",
+   "chars": [
+    "栄"
+   ]
+  },
+  {
+   "word": "燃える",
+   "kana": "もえる",
+   "romaji": "moeru",
+   "meaning": "to burn",
+   "chars": [
+    "燃"
+   ]
+  },
+  {
+   "word": "照らす",
+   "kana": "てらす",
+   "romaji": "terasu",
+   "meaning": "to shine on",
+   "chars": [
+    "照"
+   ]
+  },
+  {
+   "word": "単純",
+   "kana": "たんじゅん",
+   "romaji": "tanjun",
+   "meaning": "simple",
+   "chars": [
+    "単",
+    "純"
+   ]
+  },
+  {
+   "word": "貯金",
+   "kana": "ちょきん",
+   "romaji": "chokin",
+   "meaning": "savings",
+   "chars": [
+    "貯",
+    "金"
+   ]
+  },
+  {
+   "word": "浴びる",
+   "kana": "あびる",
+   "romaji": "abiru",
+   "meaning": "to dash over oneself (e.g. water)",
+   "chars": [
+    "浴"
+   ]
+  },
+  {
+   "word": "賢い",
+   "kana": "かしこい",
+   "romaji": "kashikoi",
+   "meaning": "wise",
+   "chars": [
+    "賢"
+   ]
+  },
+  {
+   "word": "尊い",
+   "kana": "とうとい",
+   "romaji": "toutoi",
+   "meaning": "precious",
+   "chars": [
+    "尊"
+   ]
+  },
+  {
+   "word": "幼い",
+   "kana": "おさない",
+   "romaji": "osanai",
+   "meaning": "very young",
+   "chars": [
+    "幼"
+   ]
+  },
+  {
+   "word": "掃く",
+   "kana": "はく",
+   "romaji": "haku",
+   "meaning": "to sweep",
+   "chars": [
+    "掃"
+   ]
+  },
+  {
+   "word": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "meaning": "vegetables",
+   "chars": [
+    "野",
+    "菜"
+   ]
+  },
+  {
+   "word": "刷る",
+   "kana": "する",
+   "romaji": "suru",
+   "meaning": "to print",
+   "chars": [
+    "刷"
+   ]
+  },
+  {
+   "word": "枝",
+   "kana": "えだ",
+   "romaji": "eda",
+   "meaning": "branch",
+   "chars": [
+    "枝"
+   ]
+  },
+  {
+   "word": "棒",
+   "kana": "ぼう",
+   "romaji": "bou",
+   "meaning": "pole",
+   "chars": [
+    "棒"
+   ]
+  },
+  {
+   "word": "瓶",
+   "kana": "びん",
+   "romaji": "bin",
+   "meaning": "bottle",
+   "chars": [
+    "瓶"
+   ]
+  },
+  {
+   "word": "肌",
+   "kana": "はだ",
+   "romaji": "hada",
+   "meaning": "skin",
+   "chars": [
+    "肌"
+   ]
+  },
+  {
+   "word": "麦",
+   "kana": "むぎ",
+   "romaji": "mugi",
+   "meaning": "wheat",
+   "chars": [
+    "麦"
+   ]
+  },
+  {
+   "word": "姓",
+   "kana": "せい",
+   "romaji": "sei",
+   "meaning": "surname",
+   "chars": [
+    "姓"
+   ]
+  },
+  {
+   "word": "枯れる",
+   "kana": "かれる",
+   "romaji": "kareru",
+   "meaning": "to wither (of a plant)",
+   "chars": [
+    "枯"
+   ]
+  },
+  {
+   "word": "乾燥",
+   "kana": "かんそう",
+   "romaji": "kansou",
+   "meaning": "dryness; drying",
+   "chars": [
+    "乾",
+    "燥"
+   ]
+  },
+  {
+   "word": "放課後",
+   "kana": "ほうかご",
+   "romaji": "houkago",
+   "meaning": "after school (at the end of the day)",
+   "chars": [
+    "放",
+    "課",
+    "後"
+   ]
+  },
+  {
+   "word": "究極",
+   "kana": "きゅうきょく",
+   "romaji": "kyuukyoku",
+   "meaning": "ultimate",
+   "chars": [
+    "究",
+    "極"
+   ]
+  },
+  {
+   "word": "積極",
+   "kana": "せっきょく",
+   "romaji": "sekkyoku",
+   "meaning": "active",
+   "chars": [
+    "積",
+    "極"
+   ]
+  },
+  {
+   "word": "極端",
+   "kana": "きょくたん",
+   "romaji": "kyokutan",
+   "meaning": "extreme",
+   "chars": [
+    "極"
+   ]
+  },
+  {
+   "word": "専門",
+   "kana": "せんもん",
+   "romaji": "senmon",
+   "meaning": "speciality",
+   "chars": [
+    "専",
+    "門"
+   ]
+  },
+  {
+   "word": "専攻",
+   "kana": "せんこう",
+   "romaji": "senkou",
+   "meaning": "major subject",
+   "chars": [
+    "専"
+   ]
+  },
+  {
+   "word": "屋根",
+   "kana": "やね",
+   "romaji": "yane",
+   "meaning": "roof",
+   "chars": [
+    "屋",
+    "根"
+   ]
+  },
+  {
+   "word": "建築",
+   "kana": "けんちく",
+   "romaji": "kenchiku",
+   "meaning": "construction",
+   "chars": [
+    "建",
+    "築"
+   ]
+  },
+  {
+   "word": "構築",
+   "kana": "こうちく",
+   "romaji": "kouchiku",
+   "meaning": "construction",
+   "chars": [
+    "構",
+    "築"
+   ]
+  },
+  {
+   "word": "四季",
+   "kana": "しき",
+   "romaji": "shiki",
+   "meaning": "the four seasons",
+   "chars": [
+    "四",
+    "季"
+   ]
+  },
+  {
+   "word": "顕著",
+   "kana": "けんちょ",
+   "romaji": "kencho",
+   "meaning": "remarkable, striking",
+   "chars": [
+    "顕",
+    "著"
+   ]
+  },
+  {
+   "word": "簡単",
+   "kana": "かんたん",
+   "romaji": "kantan",
+   "meaning": "simple",
+   "chars": [
+    "簡",
+    "単"
+   ]
+  },
+  {
+   "word": "郊外",
+   "kana": "こうがい",
+   "romaji": "kougai",
+   "meaning": "suburb",
+   "chars": [
+    "郊",
+    "外"
+   ]
+  },
+  {
+   "word": "花瓶",
+   "kana": "かびん",
+   "romaji": "kabin",
+   "meaning": "(flower) vase",
+   "chars": [
+    "花",
+    "瓶"
+   ]
+  },
+  {
+   "word": "枯れ木",
+   "kana": "かれき",
+   "romaji": "kareki",
+   "meaning": "dead tree",
+   "chars": [
+    "枯",
+    "木"
+   ]
+  },
+  {
+   "word": "明白",
+   "kana": "めいはく",
+   "romaji": "meihaku",
+   "meaning": "obvious",
+   "chars": [
+    "明",
+    "白"
+   ]
+  },
+  {
+   "word": "主に",
+   "kana": "おもに",
+   "romaji": "omoni",
+   "meaning": "mainly",
+   "chars": [
+    "主"
+   ]
+  },
+  {
+   "word": "意義",
+   "kana": "いぎ",
+   "romaji": "igi",
+   "meaning": "meaning",
+   "chars": [
+    "意"
+   ]
+  },
+  {
+   "word": "不可欠",
+   "kana": "ふかけつ",
+   "romaji": "fukaketsu",
+   "meaning": "indispensable",
+   "chars": [
+    "不",
+    "欠"
+   ]
+  },
+  {
+   "word": "要旨",
+   "kana": "ようし",
+   "romaji": "youshi",
+   "meaning": "point",
+   "chars": [
+    "要"
+   ]
+  },
+  {
+   "word": "果たして",
+   "kana": "はたして",
+   "romaji": "hatashite",
+   "meaning": "as was expected",
+   "chars": [
+    "果"
+   ]
+  },
+  {
+   "word": "単なる",
+   "kana": "たんなる",
+   "romaji": "tannaru",
+   "meaning": "mere",
+   "chars": [
+    "単"
+   ]
+  },
+  {
+   "word": "概要",
+   "kana": "がいよう",
+   "romaji": "gaiyou",
+   "meaning": "outline, summary",
+   "chars": [
+    "概",
+    "要"
+   ]
+  }
+ ]
 }

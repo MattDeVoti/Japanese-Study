@@ -1,1348 +1,1515 @@
 {
-  "id": "ch01",
-  "chapterNumber": 1,
-  "title": "First Sentences",
-  "points": [
+ "id": "ch01",
+ "chapterNumber": 1,
+ "title": "First Sentences",
+ "points": [
+  {
+   "id": "desu",
+   "name": "です / だ (desu / da)",
+   "shortDescription": "The '=' sign of Japanese — links a topic to its description or identity.",
+   "formation": "Noun / な-adj + です  (polite)  |  + だ  (plain)",
+   "explanation": "です is one of the very first words you will learn in Japanese, and it is worth understanding deeply — everything builds on it.\n\nThink of です as the \"=\" sign of Japanese: it slots into any sentence of the form [topic] = [description]. So 私[わたし]は学生[がくせい]です is literally \"I = student.\" です connects the topic of your sentence to what you're saying about it, working like the English verb \"to be.\"\n\nです is the polite form; だ is its plain, casual equivalent. Here are the four core forms:\n- Present (polite) — です: 学生[がくせい]です (is a student)\n- Present (plain) — だ: 学生[がくせい]だ\n- Negative — じゃありません (polite) / じゃない (casual): is not\n- Past — でした (polite) / だった (plain): was\n\nOne liberating fact: です never changes for person. \"I am,\" \"you are,\" \"she is\" all use the same です — no conjugation headaches here.",
+   "rules": [
+    "Polite affirmative: Noun + です",
+    "Polite negative: Noun + じゃありません (or ではありません — more formal)",
+    "Polite past: Noun + でした",
+    "Plain forms: だ (aff) / じゃない (neg) / だった (past) / じゃなかった (past neg)",
+    "です does not change for person — it is the same for I, you, he, she, they"
+   ],
+   "examples": [
     {
-      "id": "desu",
-      "name": "です / だ (desu / da)",
-      "shortDescription": "The '=' sign of Japanese — links a topic to its description or identity.",
-      "formation": "Noun / な-adj + です  (polite)  |  + だ  (plain)",
-      "explanation": "です is one of the very first words you will learn in Japanese, and it is worth understanding deeply — everything builds on it.\n\nThink of です as the \"=\" sign of Japanese: it slots into any sentence of the form [topic] = [description]. So 私[わたし]は学生[がくせい]です is literally \"I = student.\" です connects the topic of your sentence to what you're saying about it, working like the English verb \"to be.\"\n\nです is the polite form; だ is its plain, casual equivalent. Here are the four core forms:\n- Present (polite) — です: 学生[がくせい]です (is a student)\n- Present (plain) — だ: 学生[がくせい]だ\n- Negative — じゃありません (polite) / じゃない (casual): is not\n- Past — でした (polite) / だった (plain): was\n\nOne liberating fact: です never changes for person. \"I am,\" \"you are,\" \"she is\" all use the same です — no conjugation headaches here.",
-      "rules": [
-        "Polite affirmative: Noun + です",
-        "Polite negative: Noun + じゃありません (or ではありません — more formal)",
-        "Polite past: Noun + でした",
-        "Plain forms: だ (aff) / じゃない (neg) / だった (past) / じゃなかった (past neg)",
-        "です does not change for person — it is the same for I, you, he, she, they"
-      ],
-      "examples": [
-        {
-          "japanese": "これは本[ほん]です。",
-          "romaji": "Kore wa hon desu.",
-          "english": "This is a book."
-        },
-        {
-          "japanese": "わたしは学生[がくせい]です。",
-          "romaji": "Watashi wa gakusei desu.",
-          "english": "I am a student."
-        },
-        {
-          "japanese": "田中[たなか]さんは先生[せんせい]じゃありません。",
-          "romaji": "Tanaka-san wa sensei ja arimasen.",
-          "english": "Tanaka-san is not a teacher."
-        },
-        {
-          "japanese": "昨日[きのう]は日曜日[にちようび]でした。",
-          "romaji": "Kinou wa nichiyoubi deshita.",
-          "english": "Yesterday was Sunday."
-        }
-      ],
-      "flashcardHeader": "です / だ",
-      "flashcardAnswer": "The '=' sign of Japanese, linking a topic to a description or noun.",
-      "practice": [
-        {
-          "id": "desu_q1",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "これは本[ほん]です。",
-          "choices": [
-            "That is a book.",
-            "This is not a book.",
-            "Is this a book?",
-            "This is a book."
-          ],
-          "correctIndex": 3,
-          "explanation": "です acts as '=' connecting これ (this) to 本[ほん] (book), forming the affirmative statement 'This is a book.' Adding か would make it a question; じゃありません would negate it."
-        },
-        {
-          "id": "desu_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete this polite affirmative sentence.",
-          "japanese": "わたしは学生[がくせい]___。",
-          "choices": [
-            "でした",
-            "だ",
-            "です",
-            "じゃありません"
-          ],
-          "correctIndex": 2,
-          "explanation": "です is the polite affirmative copula, making this 'I am a student.' でした is past tense, じゃありません is the polite negative, and だ is the plain (casual) equivalent of です."
-        },
-        {
-          "id": "desu_q3",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'Tanaka-san is not a teacher' in polite speech?",
-          "choices": [
-            "田中[たなか]さんは先生[せんせい]ではです。",
-            "田中[たなか]さんは先生[せんせい]もありません。",
-            "田中[たなか]さんは先生[せんせい]じゃありません。",
-            "田中[たなか]さんは先生[せんせい]でしたか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "じゃありません is the polite negative form of です — it negates the copula. じゃ is a contracted form of では. The other options combine endings incorrectly or use the wrong particle."
-        },
-        {
-          "id": "desu_q4",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "昨日[きのう]は日曜日[にちようび]でした。",
-          "choices": [
-            "Yesterday was Sunday.",
-            "Yesterday is Sunday.",
-            "Yesterday was not Sunday.",
-            "Tomorrow will be Sunday."
-          ],
-          "correctIndex": 0,
-          "explanation": "でした is the polite past form of です, meaning 'was.' 昨日[きのう] = yesterday; 日曜日[にちようび] = Sunday. The pattern  + は +  + でした gives 'Yesterday was Sunday.'"
-        },
-        {
-          "id": "desu_q5",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses です?",
-          "choices": [
-            "山田[やまだ]さんです医者[いしゃ]。",
-            "山田[やまだ]さんを医者[いしゃ]です。",
-            "山田[やまだ]さんは医者[いしゃ]です。",
-            "山田[やまだ]さんに医者[いしゃ]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "The correct pattern is [topic] + は + [noun] + です. を (object marker), に (direction/time), and putting です before the noun all break the grammar. は is the required topic particle before です."
-        },
-        {
-          "id": "desu_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete this plain-form (casual) sentence.",
-          "japanese": "あれは山[やま]___。",
-          "choices": [
-            "です",
-            "だ",
-            "でした",
-            "じゃない"
-          ],
-          "correctIndex": 1,
-          "explanation": "だ is the plain (casual) affirmative copula — the casual equivalent of the polite です. あれは山[やま]だ means 'That is a mountain.' Use だ with close friends and family; switch to です in formal or polite contexts."
-        },
-        {
-          "id": "desu_q7",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "田中[たなか]さんは医者[いしゃ]じゃありません。",
-          "choices": [
-            "Tanaka-san is a doctor.",
-            "Is Tanaka-san a doctor?",
-            "Tanaka-san is not a doctor.",
-            "Tanaka-san was not a doctor."
-          ],
-          "correctIndex": 2,
-          "explanation": "じゃありません is the polite negative copula (= is not). 田中[たなか]さんは sets the topic, 医者[いしゃ] is 'doctor,' and じゃありません negates it. To say 'was not a doctor' you would use じゃありませんでした."
-        },
-        {
-          "id": "desu_q8",
-          "type": "usage",
-          "prompt": "Which sentence correctly says 'Yamada-san was a student' in polite speech?",
-          "japanese": null,
-          "choices": [
-            "山田[やまだ]さんは学生[がくせい]です。",
-            "山田[やまだ]さんは学生[がくせい]じゃありません。",
-            "山田[やまだ]さんは学生[がくせい]ですか。",
-            "山田[やまだ]さんは学生[がくせい]でした。"
-          ],
-          "correctIndex": 3,
-          "explanation": "でした is the polite past tense of です, meaning 'was.' です (A) is present tense; じゃありません (B) is the present negative; ですか (C) is a question. Only でした correctly expresses a past state."
-        },
-        {
-          "id": "desu_q9",
-          "type": "construct",
-          "prompt": "Which sentence is the plain (casual) way to say 'This is not a book'?",
-          "japanese": null,
-          "choices": [
-            "これは本[ほん]じゃない。",
-            "これは本[ほん]じゃありません。",
-            "これは本[ほん]ではありません。",
-            "これは本[ほん]でした。"
-          ],
-          "correctIndex": 0,
-          "explanation": "じゃない is the plain (casual) negative copula. じゃありません (B) and ではありません (C) are polite negatives used in formal speech. でした (D) is the polite past affirmative — a completely different meaning."
-        },
-        {
-          "id": "desu_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "それは問題[もんだい]じゃありませんでした。",
-          "choices": [
-            "That is not a problem.",
-            "That was not a problem.",
-            "That was a problem.",
-            "Is that a problem?"
-          ],
-          "correctIndex": 1,
-          "explanation": "じゃありませんでした is the polite past negative: じゃありません (is not) with the past marker でした added = 'was not.' それは問題[もんだい] sets up 'that is a problem,' and the past negative ending converts it to 'that was not a problem.'"
-        },
-        {
-          "id": "desu_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'Tokyo is the capital' in polite Japanese.",
-          "japanese": "東京[とうきょう]は首都[しゅと]___。",
-          "choices": [
-            "だった",
-            "でした",
-            "です",
-            "じゃない"
-          ],
-          "correctIndex": 2,
-          "explanation": "です links the topic 東京[とうきょう] (Tokyo) to its identity 首都[しゅと] (capital) in a polite present-tense statement. だった and でした are past forms; じゃない is the casual negative. です is the correct polite affirmative here."
-        },
-        {
-          "id": "desu_q12",
-          "type": "usage",
-          "prompt": "A student wrote three incorrect sentences and one correct one. Which is correct?",
-          "japanese": null,
-          "choices": [
-            "わたしを学生[がくせい]です。",
-            "わたしが学生[がくせい]。",
-            "わたしに学生[がくせい]です。",
-            "わたしは学生[がくせい]です。"
-          ],
-          "correctIndex": 3,
-          "explanation": "The correct topic particle before です is は. を (A) marks direct objects; が (B) marks subjects but also omits です, making the sentence incomplete; に (C) marks direction, time, or location. Only は correctly introduces a topic before です."
-        },
-        {
-          "id": "desu_q13",
-          "type": "construct",
-          "prompt": "Which sentence means 'Yesterday was a holiday' in plain (casual) speech?",
-          "japanese": null,
-          "choices": [
-            "昨日[きのう]は休[やす]みだった。",
-            "昨日[きのう]は休[やす]みでした。",
-            "昨日[きのう]は休[やす]みじゃない。",
-            "昨日[きのう]は休[やす]みだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "だった is the plain past affirmative copula (casual equivalent of でした). でした (B) expresses the same meaning in polite speech. じゃない (C) is the casual present negative; だ (D) is the casual present affirmative."
-        },
-        {
-          "id": "desu_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "あれは私[わたし]の傘[かさ]じゃなかった。",
-          "choices": [
-            "That was my umbrella.",
-            "That was not my umbrella.",
-            "That is not my umbrella.",
-            "Is that my umbrella?"
-          ],
-          "correctIndex": 1,
-          "explanation": "じゃなかった is the plain past negative copula (= 'was not'). 私[わたし]の傘[かさ] means 'my umbrella,' and あれ means 'that over there.' For the polite equivalent, you would say じゃありませんでした."
-        },
-        {
-          "id": "desu_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'That is not a textbook.'",
-          "japanese": "それは教科書[きょうかしょ]___。",
-          "choices": [
-            "だった",
-            "でした",
-            "じゃありません",
-            "じゃなかった"
-          ],
-          "correctIndex": 2,
-          "explanation": "じゃありません is the polite present negative copula, meaning 'is not.' だった and じゃなかった are past forms (plain past affirmative and plain past negative respectively); でした is the polite past affirmative."
-        },
-        {
-          "id": "desu_q16",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "田中[たなか]さんは先生[せんせい]じゃありませんでした。",
-          "choices": [
-            "Tanaka-san is a teacher.",
-            "Tanaka-san was a teacher.",
-            "Tanaka-san is not a teacher.",
-            "Tanaka-san was not a teacher."
-          ],
-          "correctIndex": 3,
-          "explanation": "じゃありませんでした is the polite past negative: it combines じゃありません (is not) with the past marker でした to mean 'was not.' This rounds out all four copula forms: です (is), でした (was), じゃありません (is not), じゃありませんでした (was not)."
-        },
-        {
-          "id": "desu_q17",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank with the correct topic particle to say 'I am a doctor.'",
-          "japanese": "わたし___医者[いしゃ]です。",
-          "choices": [
-            "は",
-            "が",
-            "を",
-            "の"
-          ],
-          "correctIndex": 0,
-          "explanation": "は is the topic particle that sets up the subject of a です sentence. While が can mark a grammatical subject in other contexts, the standard pattern for [person] + は + [identity] + です requires は. を marks objects and の shows possession — neither belongs here."
-        },
-        {
-          "id": "desu_q18",
-          "type": "construct",
-          "prompt": "How do you say 'That person over there is Yamada-san' in polite Japanese?",
-          "japanese": null,
-          "choices": [
-            "山田[やまだ]さんはあの人[ひと]です。",
-            "あの人[ひと]は山田[やまだ]さんです。",
-            "山田[やまだ]さんを人[ひと]です。",
-            "あの人[ひと]が山田[やまだ]さんは。"
-          ],
-          "correctIndex": 1,
-          "explanation": "The topic (あの人[ひと] — that person over there) comes first, marked by は, then the identification (山田[やまだ]さん) before です. Option A reverses the topic and identification, which changes the nuance. Option C uses を (object marker) incorrectly. Option D misplaces both particles."
-        },
-        {
-          "id": "desu_q19",
-          "type": "usage",
-          "prompt": "You are meeting your professor for the first time and introducing yourself. Which sentence is most appropriate?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]だ。",
-            "田中[たなか]じゃない。",
-            "田中[たなか]です。",
-            "田中[たなか]だった。"
-          ],
-          "correctIndex": 2,
-          "explanation": "田中[たなか]です is polite and appropriate for formal situations like meeting a professor. 田中[たなか]だ (A) uses the plain form だ, which is too casual. 田中[たなか]じゃない (B) is a negation ('I'm not Tanaka'). 田中[たなか]だった (D) means 'I was Tanaka' — a past form that makes no sense for an introduction."
-        },
-        {
-          "id": "desu_q20",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'She was a student' in plain (casual) speech.",
-          "japanese": "彼女[かのじょ]は学生[がくせい]___。",
-          "choices": [
-            "です",
-            "でした",
-            "じゃなかった",
-            "だった"
-          ],
-          "correctIndex": 3,
-          "explanation": "だった is the plain past affirmative copula. です (A) is present polite; でした (B) is past polite; じゃなかった (C) is plain past negative ('was not a student'). Only だった expresses 'was' in plain casual speech."
-        }
-      ]
+     "japanese": "これは本[ほん]です。",
+     "romaji": "Kore wa hon desu.",
+     "english": "This is a book."
     },
     {
-      "id": "ka-question",
-      "name": "か (ka) — question particle",
-      "shortDescription": "Snap-on question marker — turns any statement into a question with zero word-order change.",
-      "formation": "Statement + か",
-      "explanation": "How do you turn a Japanese statement into a question? Add か to the end — and that genuinely is the whole story. No word-order flip, no auxiliary verb, no rearranging anything.\n\nCompare what English does: 'You are a student' becomes 'Are you a student?' — the words shuffle around. Japanese doesn't move a thing: わたしは学生[がくせい]です (I am a student) becomes わたしは学生[がくせい]ですか (Are you a student?) — just か added at the end.\n\nIn formal writing, か replaces the question mark entirely: you will see 「ですか。」with a regular period, not a question mark — か does the job of '?' on its own. In casual speech among close friends, か alone can sound blunt or even confrontational, so people often use a rising intonation instead. As a beginner, ～ですか and ～ますか are the safe and natural choice for virtually every situation you will encounter.",
-      "rules": [
-        "Add か to the end of a polite sentence to make it a question",
-        "No word-order change needed — Japanese questions match statement order",
-        "In formal writing, use か followed by 。 (period), not ？",
-        "Casual speech often drops か and uses rising intonation instead"
-      ],
-      "examples": [
-        {
-          "japanese": "これは本[ほん]ですか。",
-          "romaji": "Kore wa hon desu ka.",
-          "english": "Is this a book?"
-        },
-        {
-          "japanese": "学生[がくせい]ですか。",
-          "romaji": "Gakusei desu ka.",
-          "english": "Are you a student?"
-        },
-        {
-          "japanese": "田中[たなか]さんは先生[せんせい]ですか。",
-          "romaji": "Tanaka-san wa sensei desu ka.",
-          "english": "Is Tanaka-san a teacher?"
-        },
-        {
-          "japanese": "それは犬[いぬ]ですか、猫[ねこ]ですか。",
-          "romaji": "Sore wa inu desu ka, neko desu ka.",
-          "english": "Is that a dog or a cat?"
-        }
-      ],
-      "flashcardHeader": "か",
-      "flashcardAnswer": "Turns a statement into a yes/no question by attaching か to the end.",
-      "practice": [
-        {
-          "id": "ka-question_q1",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "これは本[ほん]ですか。",
-          "choices": [
-            "Is this a book?",
-            "This is not a book, is it?",
-            "This is a book.",
-            "What is this?"
-          ],
-          "correctIndex": 0,
-          "explanation": "Adding か to これは本[ほん]です (This is a book) converts it into a yes/no question with no word-order change. か alone signals the question — no reshuffling needed."
-        },
-        {
-          "id": "ka-question_q2",
-          "type": "construct",
-          "prompt": "How do you ask 'Are you a student?' in polite Japanese?",
-          "choices": [
-            "学生[がくせい]かです。",
-            "ですか学生[がくせい]。",
-            "学生[がくせい]ですか。",
-            "か学生[がくせい]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "か always attaches to the END of the polite sentence: 学生[がくせい]です + か = 学生[がくせい]ですか。Unlike English, Japanese never rearranges word order to form a question — the statement stays intact and か is appended."
-        },
-        {
-          "id": "ka-question_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask 'Is Tanaka-san a teacher?' in polite Japanese.",
-          "japanese": "田中[たなか]さんは先生[せんせい]___。",
-          "choices": [
-            "ですか",
-            "だか",
-            "でしたか",
-            "です。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ですか (です + か) is the polite question ending. だか is plain-form and sounds abrupt; です。 without か is a statement, not a question; でしたか would ask about the past ('Was Tanaka-san a teacher?')."
-        },
-        {
-          "id": "ka-question_q4",
-          "type": "usage",
-          "prompt": "Which sentence is a correctly formed Japanese yes/no question?",
-          "choices": [
-            "犬[いぬ]ですそれはか。",
-            "それは犬[いぬ]ですか。",
-            "それは？犬[いぬ]です。",
-            "ですかそれは犬[いぬ]。"
-          ],
-          "correctIndex": 1,
-          "explanation": "In Japanese questions, word order stays identical to statements — か is simply added at the end. Moving か mid-sentence or restructuring the word order produces ungrammatical Japanese."
-        },
-        {
-          "id": "ka-question_q5",
-          "type": "construct",
-          "prompt": "Your friend points at two animals. How do you ask 'Is that a dog or a cat?' in Japanese?",
-          "choices": [
-            "それは犬[いぬ]ですか、猫[ねこ]ですか。",
-            "それは犬[いぬ]か猫[ねこ]です。",
-            "犬[いぬ]ですか猫[ねこ]またはですか。",
-            "それは犬[いぬ]か、猫[ねこ]ですか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "To offer two alternatives as a question, use ですか after each option: 犬[いぬ]ですか、猫[ねこ]ですか。Both clauses need ですか to frame each as a possibility — dropping ですか from the first clause makes the sentence unbalanced."
-        },
-        {
-          "id": "ka-question_q6",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "山田[やまだ]さんは医者[いしゃ]ですか。",
-          "choices": [
-            "Is Yamada-san a doctor?",
-            "Yamada-san is a doctor.",
-            "Yamada-san is not a doctor.",
-            "Was Yamada-san a doctor?"
-          ],
-          "correctIndex": 0,
-          "explanation": "Adding か to the end of 山田[やまだ]さんは医者[いしゃ]です (Yamada-san is a doctor) converts it into a yes/no question with no word-order change. The period after か is correct — in Japanese questions, か itself signals the question and replaces the need for a question mark."
-        },
-        {
-          "id": "ka-question_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to turn this statement into a polite yes/no question.",
-          "japanese": "これは田中[たなか]さんの本[ほん]です___。",
-          "choices": [
-            "。",
-            "か。",
-            "か？",
-            "？"
-          ],
-          "correctIndex": 1,
-          "explanation": "か is the question particle — append か followed by 。 (period) to form a polite question. In formal Japanese writing, か replaces the question mark entirely; using ？ after か is non-standard, and a plain 。 without か leaves the sentence as a statement."
-        },
-        {
-          "id": "ka-question_q8",
-          "type": "construct",
-          "prompt": "Which sentence correctly asks 'Is this a pen or a pencil?' in Japanese?",
-          "japanese": null,
-          "choices": [
-            "これはペンですか鉛筆[えんぴつ]ですか？",
-            "これはペンか鉛筆[えんぴつ]ですか。",
-            "これはペンですか、鉛筆[えんぴつ]ですか。",
-            "ペンか鉛筆[えんぴつ]はこれですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "In an A-or-B question, attach ですか to each option and separate with a comma: ペンですか、鉛筆[えんぴつ]ですか. Both clauses need ですか to frame each as a possibility. Option B drops ですか from the first option, which is unbalanced. Option D incorrectly reverses the word order."
-        },
-        {
-          "id": "ka-question_q9",
-          "type": "usage",
-          "prompt": "Which pair correctly shows the same sentence as both a statement and a yes/no question?",
-          "japanese": null,
-          "choices": [
-            "学生[がくせい]ですか。/ 学生[がくせい]です？",
-            "学生[がくせい]か。/ 学生[がくせい]ですか。",
-            "学生[がくせい]か？ / 学生[がくせい]ですか。",
-            "学生[がくせい]です。/ 学生[がくせい]ですか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "The statement is 学生[がくせい]です。 and the yes/no question is 学生[がくせい]ですか。— the only difference is か added before the period. No word order changes. The other options use inconsistent punctuation or informal forms in place of the polite statement-question pair."
-        },
-        {
-          "id": "ka-question_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "田中[たなか]さんは先生[せんせい]じゃありませんか。",
-          "choices": [
-            "Isn't Tanaka-san a teacher?",
-            "Tanaka-san is not a teacher.",
-            "Is Tanaka-san a teacher?",
-            "Was Tanaka-san a teacher?"
-          ],
-          "correctIndex": 0,
-          "explanation": "じゃありませんか appends か to the polite negative じゃありません, forming a negative question: 'Isn't [X]...?' This often expresses surprise or seeks confirmation. Compare: じゃありません (is not) vs じゃありませんか (isn't it / don't you think?)."
-        },
-        {
-          "id": "ka-question_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask 'Was yesterday a holiday?'",
-          "japanese": "昨日[きのう]は休[やす]みでした___。",
-          "choices": [
-            "です",
-            "か。",
-            "か？",
-            "。"
-          ],
-          "correctIndex": 1,
-          "explanation": "Append か to the past-tense statement でした to form a past-tense question: でしたか. The period follows か (not a question mark) in standard Japanese. This gives 'Was yesterday a holiday?' — the past tense is preserved by keeping でした and just adding か."
-        },
-        {
-          "id": "ka-question_q12",
-          "type": "usage",
-          "prompt": "Which statement about using か in formal Japanese writing is correct?",
-          "japanese": null,
-          "choices": [
-            "か must always be followed by ？ (question mark) to signal a question.",
-            "か is only used in casual speech, not formal writing.",
-            "In formal writing, か is followed by 。 (period) — the question mark is not used.",
-            "か must appear at the beginning of the sentence to indicate a question."
-          ],
-          "correctIndex": 2,
-          "explanation": "In formal Japanese writing, か itself signals the question, so 。 (period) follows — no question mark is needed or conventional. Using ？ after か is non-standard in formal text. か always goes at the END of the sentence, not the beginning."
-        },
-        {
-          "id": "ka-question_q13",
-          "type": "construct",
-          "prompt": "How do you ask 'Isn't this a dictionary?' in polite Japanese?",
-          "japanese": null,
-          "choices": [
-            "これは辞書[じしょ]じゃありますか。",
-            "これは辞書[じしょ]ですか、じゃありませんか。",
-            "これは辞書[じしょ]じゃないですか。",
-            "これは辞書[じしょ]じゃありませんか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "To form a polite negative question, add か to the polite negative form: じゃありません + か = じゃありませんか. じゃありますか (A) is a common mistake — じゃある is not a standard form. じゃないですか (C) works in casual speech but じゃありませんか is the formally correct version."
-        },
-        {
-          "id": "ka-question_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "それは映画[えいが]ですか、ドラマですか。",
-          "choices": [
-            "Is that a movie or a TV drama?",
-            "That is a movie and a drama.",
-            "Was that a movie or a drama?",
-            "Is that a movie? Is it also a drama?"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ですか、〜ですか is the A-or-B question pattern: two options each followed by ですか, separated by a comma. This asks the listener to choose between 映画[えいが] (movie) and ドラマ (TV drama). It is a single question offering two choices, not two separate questions."
-        },
-        {
-          "id": "ka-question_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask 'Is that your coat?' in polite Japanese.",
-          "japanese": "それはあなたのコート___。",
-          "choices": [
-            "です。",
-            "ですか。",
-            "でしたか。",
-            "じゃありませんか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "ですか converts the statement 'That is your coat' into the yes/no question 'Is that your coat?' No word order change is needed — just append か before the period. でしたか (C) would ask 'Was that your coat?' (past tense); じゃありませんか (D) asks 'Isn't that your coat?'"
-        },
-        {
-          "id": "ka-question_q16",
-          "type": "construct",
-          "prompt": "A friend points at your drink. How do you ask 'Is that tea or coffee?'",
-          "japanese": null,
-          "choices": [
-            "それはお茶[ちゃ]かコーヒーです。",
-            "それはお茶[ちゃ]かコーヒーですか。",
-            "それはお茶[ちゃ]ですか、コーヒーですか。",
-            "それはお茶[ちゃ]、コーヒーですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "The A-or-B question pattern repeats ですか after each option: お茶[ちゃ]ですか、コーヒーですか. Option B uses か between nouns (noun か noun) which can work informally but is less explicit about the binary choice. Option A is a statement. Option D drops ですか from the first option, leaving it unbalanced."
-        },
-        {
-          "id": "ka-question_q17",
-          "type": "usage",
-          "prompt": "What is the ONLY structural difference between these two sentences: 'あれは図書館[としょかん]です。' and 'あれは図書館[としょかん]ですか。'?",
-          "japanese": null,
-          "choices": [
-            "The second sentence changes the word order to form a question.",
-            "The second sentence adds a different verb to ask a question.",
-            "The second sentence reverses the subject and predicate.",
-            "The second sentence adds か after です, turning a statement into a question."
-          ],
-          "correctIndex": 3,
-          "explanation": "Japanese questions require zero word-order changes. The statement あれは図書館[としょかん]です (That is a library) becomes あれは図書館[としょかん]ですか (Is that a library?) by simply appending か. This is a core feature of Japanese: questions are formed by adding か, not by restructuring the sentence."
-        },
-        {
-          "id": "ka-question_q18",
-          "type": "usage",
-          "prompt": "Which statement about casual questions in Japanese is true?",
-          "japanese": null,
-          "choices": [
-            "In casual conversation with close friends, rising intonation can replace か to signal a question.",
-            "か must always be used in questions, even in very casual speech — and this holds in every register, formal or casual.",
-            "Casual questions require replacing です with だ AND adding か.",
-            "In casual speech, か is moved to the beginning of the sentence."
-          ],
-          "correctIndex": 0,
-          "explanation": "In casual speech among close friends, Japanese speakers often drop か entirely and use a rising intonation instead. Using か alone in casual conversation can sound blunt or confrontational. For learners, ～ですか and ～ますか are the safe, natural choice in most situations."
-        },
-        {
-          "id": "ka-question_q19",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask 'Was Yamada-san a student?' in polite Japanese.",
-          "japanese": "山田[やまだ]さんは学生[がくせい]___。",
-          "choices": [
-            "ですか。",
-            "でしたか。",
-            "じゃありませんか。",
-            "だったか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "でしたか (= でした + か) forms a polite past-tense question: 'Was Yamada-san a student?' ですか (A) asks about the present. じゃありませんか (C) asks a negative question ('Isn't Yamada-san a student?'). だったか (D) is the plain past question form, too casual for polite speech."
-        },
-        {
-          "id": "ka-question_q20",
-          "type": "construct",
-          "prompt": "Which sentence is correctly formatted as a formal written question in Japanese?",
-          "japanese": null,
-          "choices": [
-            "これは本[ほん]ですか？",
-            "これは本[ほん]か。",
-            "これは本[ほん]ですか。",
-            "これは本[ほん]です？"
-          ],
-          "correctIndex": 2,
-          "explanation": "In formal Japanese writing, questions end with ですか followed by a regular period (。), not a question mark. か itself signals the question — the ? is unnecessary and non-standard. これは本[ほん]ですか。is the correct formal form. ですか？ (A) adds a redundant question mark; か alone (B) without です sounds too abrupt; です？ (D) is non-standard."
-        }
-      ]
+     "japanese": "わたしは学生[がくせい]です。",
+     "romaji": "Watashi wa gakusei desu.",
+     "english": "I am a student."
     },
     {
-      "id": "no-possessive",
-      "name": "の (no) — possessive / noun connector",
-      "shortDescription": "Links two nouns to show possession or describe a type — and can stand in for a noun already understood from context.",
-      "formation": "Noun A + の + Noun B",
-      "explanation": "の is one of the most versatile particles in Japanese, and its most basic job is showing possession — like the English apostrophe-s ('s). 山田[やまだ]さんの本[ほん] means 'Yamada-san's book,' with の gluing the owner to the owned.\n\nBut の does much more than simple possession — it also connects nouns to describe a category or type. 日本語[にほんご]の本[ほん] means 'a Japanese-language book.' You can even stack の links together: 大学[だいがく]の日本語[にほんご]の先生[せんせい] is 'a Japanese teacher at university' — three nouns joined by two の, and it works perfectly.\n\nOne elegant trick: the final noun can be dropped entirely when context makes it obvious. If someone asks 'whose bag is this?' you can answer わたしのです — 'It's mine.' The word 'bag' disappears and の holds its place. Native speakers use this dropped-noun shortcut constantly, and once you start noticing it, you will see it everywhere.",
-      "rules": [
-        "A の B = B that belongs to / is related to A",
-        "Shows possession: 私[わたし]の本[ほん] = my book",
-        "Shows category or type: 日本語[にほんご]の本[ほん] = a Japanese-language book",
-        "の can stack: 大学[だいがく]の日本語[にほんご]の先生[せんせい] = a Japanese teacher at university",
-        "The final noun can be dropped when clear from context: 私[わたし]のです (It's mine)"
-      ],
-      "examples": [
-        {
-          "japanese": "これはわたしの本[ほん]です。",
-          "romaji": "Kore wa watashi no hon desu.",
-          "english": "This is my book."
-        },
-        {
-          "japanese": "メアリーさんのかばんはどこですか。",
-          "romaji": "Mearii-san no kaban wa doko desu ka.",
-          "english": "Where is Mary's bag?"
-        },
-        {
-          "japanese": "大学[だいがく]の先生[せんせい]ですか。",
-          "romaji": "Daigaku no sensei desu ka.",
-          "english": "Are you a university teacher?"
-        },
-        {
-          "japanese": "これはだれのですか。—わたしのです。",
-          "romaji": "Kore wa dare no desu ka. — Watashi no desu.",
-          "english": "Whose is this? — It's mine."
-        }
-      ],
-      "flashcardHeader": "の",
-      "flashcardAnswer": "Connects two nouns to show possession or category; the final noun can be dropped when obvious from context.",
-      "practice": [
-        {
-          "id": "no-possessive_q1",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "これはわたしの本[ほん]です。",
-          "choices": [
-            "This is someone's book.",
-            "This is my book.",
-            "This is a Japanese book.",
-            "My book is this one over there."
-          ],
-          "correctIndex": 1,
-          "explanation": "わたしの means 'my' — の connects the possessor (わたし) to the possessed (本[ほん]). The full structure is これ (this) + は + わたしの本[ほん] (my book) + です = 'This is my book.'"
-        },
-        {
-          "id": "no-possessive_q2",
-          "type": "construct",
-          "prompt": "How do you say 'Mary's bag' in Japanese?",
-          "choices": [
-            "メアリーさんのかばん",
-            "かばんのメアリーさん",
-            "メアリーさんはかばん",
-            "のメアリーさんかばん"
-          ],
-          "correctIndex": 0,
-          "explanation": "の connects [possessor] + の + [possessed item]: メアリーさんのかばん. Reversing the order would mean 'a bag's Mary,' which is nonsense. は marks a topic, not possession, so it cannot substitute for の here."
-        },
-        {
-          "id": "no-possessive_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask 'Whose is this?'",
-          "japanese": "これはだれ___ですか。",
-          "choices": [
-            "に",
-            "を",
-            "の",
-            "が"
-          ],
-          "correctIndex": 2,
-          "explanation": "だれの means 'whose' — の follows the question word だれ (who) to create a possessive question. を marks direct objects, に marks time or location, and が marks subjects — none of these create possession."
-        },
-        {
-          "id": "no-possessive_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses の to describe a type or category?",
-          "choices": [
-            "本[ほん]の日本語[にほんご]があります。",
-            "日本語[にほんご]は本[ほん]のあります。",
-            "日本語[にほんご]の本[ほん]があります。",
-            "の日本語[にほんご]本[ほん]があります。"
-          ],
-          "correctIndex": 2,
-          "explanation": "の links a descriptor noun (日本語[にほんご]) to the main noun (本[ほん]): 日本語[にほんご]の本[ほん] = 'a book in Japanese.' The descriptor always comes first, then の, then the noun being described — reversing this order changes or destroys the meaning."
-        },
-        {
-          "id": "no-possessive_q5",
-          "type": "construct",
-          "prompt": "Someone asks これはだれのですか。How do you answer 'It's mine' without repeating the noun?",
-          "choices": [
-            "わたしのはです。",
-            "のわたしです。",
-            "わたしのです。",
-            "わたしですの。"
-          ],
-          "correctIndex": 2,
-          "explanation": "When the noun is understood from context, it can be dropped after の. わたしの (my/mine) + です forms a complete, natural answer — a very common shorthand in everyday Japanese. Rearranging の and です breaks both grammar and meaning."
-        },
-        {
-          "id": "no-possessive_q6",
-          "type": "translation",
-          "prompt": "What does this phrase mean?",
-          "japanese": "田中[たなか]さんの傘[かさ]",
-          "choices": [
-            "Tanaka-san's umbrella",
-            "an umbrella for everyone",
-            "Tanaka-san is an umbrella",
-            "the umbrella near Tanaka-san"
-          ],
-          "correctIndex": 0,
-          "explanation": "の between two nouns shows possession:  + の + . 田中[たなか]さんの傘[かさ] = 'Tanaka-san's umbrella.' The possessor always comes first, then の, then the possessed item — the reverse order of the English apostrophe-s construction."
-        },
-        {
-          "id": "no-possessive_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'an English book' (a book written in English).",
-          "japanese": "英語[えいご]___本[ほん]",
-          "choices": [
-            "は",
-            "の",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "の connects a descriptor noun (英語[えいご] — English) to the main noun (本[ほん] — book) to show category or type: 英語[えいご]の本[ほん] = 'a book in English.' は marks topics, が marks subjects, を marks objects — none of these create a noun-modifying relationship between two nouns."
-        },
-        {
-          "id": "no-possessive_q8",
-          "type": "construct",
-          "prompt": "How do you say 'my friend Tanaka-san' (identifying Tanaka as your friend) in Japanese?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんの友達[ともだち]",
-            "友達[ともだち]は田中[たなか]さん",
-            "友達[ともだち]の田中[たなか]さん",
-            "の田中[たなか]さん友達[ともだち]"
-          ],
-          "correctIndex": 2,
-          "explanation": "の can express apposition — identifying who someone is: 友達[ともだち]の田中[たなか]さん means 'Tanaka-san, who is my friend.' 田中[たなか]さんの友達[ともだち] (A) reverses the order and means 'Tanaka-san's friend' — a different person entirely. は marks a topic, not an identifying relationship between two nouns."
-        },
-        {
-          "id": "no-possessive_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses chained の to mean 'a Japanese-language teacher at university'?",
-          "japanese": null,
-          "choices": [
-            "大学[だいがく]が日本語[にほんご]の先生[せんせい]",
-            "日本語[にほんご]の先生[せんせい]の大学[だいがく]",
-            "の大学[だいがく]日本語[にほんご]の先生[せんせい]",
-            "大学[だいがく]の日本語[にほんご]の先生[せんせい]"
-          ],
-          "correctIndex": 3,
-          "explanation": "の can chain: 大学[だいがく]の (at university) + 日本語[にほんご]の (of Japanese language) + 先生[せんせい] (teacher) = 大学[だいがく]の日本語[にほんご]の先生[せんせい]. Each の links its preceding noun to the next, narrowing the meaning from left to right. Reversing the order in (B) produces 'the university of the Japanese teacher,' which is a different meaning entirely."
-        },
-        {
-          "id": "no-possessive_q10",
-          "type": "translation",
-          "prompt": "What does わたしのです mean in this exchange?",
-          "japanese": "これはだれのかばんですか。—わたしのです。",
-          "choices": [
-            "It's mine.",
-            "It belongs to someone.",
-            "That's mine over there.",
-            "I have one too."
-          ],
-          "correctIndex": 0,
-          "explanation": "In わたしのです, の acts as a pronoun standing in for かばん (bag) that was mentioned in the question. This noun-dropping shortcut is very common in Japanese: わたしの (my) + です = 'It's mine.' Once a noun is established in context, の holds its place so you don't have to repeat it."
-        },
-        {
-          "id": "no-possessive_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'This is Yamada-san's coat.'",
-          "japanese": "これは山田[やまだ]さん___コートです。",
-          "choices": [
-            "は",
-            "の",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "の connects the possessor 山田[やまだ]さん to the possessed item コート: 山田[やまだ]さんのコート = 'Yamada-san's coat.' は marks a topic (cannot show possession between two nouns), が marks a subject, and を marks a direct object — all wrong for showing ownership here."
-        },
-        {
-          "id": "no-possessive_q12",
-          "type": "construct",
-          "prompt": "How do you say 'a Japanese car' (a car made in Japan) in Japanese?",
-          "japanese": null,
-          "choices": [
-            "車[くるま]の日本[にほん]",
-            "日本[にほん]は車[くるま]です",
-            "日本[にほん]の車[くるま]",
-            "車[くるま]は日本[にほん]のです"
-          ],
-          "correctIndex": 2,
-          "explanation": "Descriptor noun + の + main noun: 日本[にほん]の車[くるま] = 'a Japanese car / a car from Japan.' The descriptor (日本[にほん] — Japan) always comes BEFORE の, and the main noun (車[くるま] — car) comes after. 車[くるま]の日本[にほん] (A) would mean 'Japan of the car,' which is nonsensical."
-        },
-        {
-          "id": "no-possessive_q13",
-          "type": "translation",
-          "prompt": "What does this phrase mean?",
-          "japanese": "私[わたし]の大学[だいがく]の友達[ともだち]",
-          "choices": [
-            "the university of my friend",
-            "my friend's college major",
-            "a friend from my friend's university",
-            "my friend at university / my college friend"
-          ],
-          "correctIndex": 3,
-          "explanation": "私[わたし]の大学[だいがく]の友達[ともだち] chains two の links: 私[わたし]の (my) modifies 大学[だいがく] (university), and 大学[だいがく]の then modifies 友達[ともだち] (friend) — giving 'a friend at my university.' Reading left to right: my → university → friend. Each の narrows down which friend is meant."
-        },
-        {
-          "id": "no-possessive_q14",
-          "type": "usage",
-          "prompt": "Which statement best describes how の and が interact inside a Japanese relative clause?",
-          "japanese": null,
-          "choices": [
-            "Inside a relative clause, の can replace が as the subject marker: 私[わたし]が書[か]いた本[ほん] and 私[わたし]の書[か]いた本[ほん] mean the same thing.",
-            "が and の are never interchangeable — の only shows possession, never marks a subject.",
-            "Inside a relative clause, の always replaces が and the two are identical in every context.",
-            "の marks objects inside relative clauses, while が marks subjects outside them."
-          ],
-          "correctIndex": 0,
-          "explanation": "Inside relative clauses, の can substitute for が as a subject marker: 私[わたし]が書[か]いた本[ほん] (the book that I wrote) and 私[わたし]の書[か]いた本[ほん] mean exactly the same thing. This の-for-が substitution only works INSIDE relative clauses — outside them, の marks possession and が marks subjects as usual."
-        },
-        {
-          "id": "no-possessive_q15",
-          "type": "fillBlank",
-          "prompt": "Someone asks 'Which car is yours?' Fill in the blank to say 'The red one' using の as a pronoun.",
-          "japanese": "赤[あか]い___がわたしのです。",
-          "choices": [
-            "は",
-            "の",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "の here acts as a pronoun, replacing the noun 車[くるま] (car) that both speakers already understand: 赤[あか]いの = 'the red one.' This の-pronoun usage is very common in everyday Japanese — once a noun is established in context, の stands in its place to avoid repetition."
-        },
-        {
-          "id": "no-possessive_q16",
-          "type": "translation",
-          "prompt": "What does this phrase mean?",
-          "japanese": "同僚[どうりょう]の鈴木[すずき]さん",
-          "choices": [
-            "Suzuki-san's colleague",
-            "a colleague who is Suzuki-san's",
-            "my colleague Suzuki-san",
-            "Suzuki-san's office"
-          ],
-          "correctIndex": 2,
-          "explanation": "同僚[どうりょう]の鈴木[すずき]さん uses の for apposition: 同僚[どうりょう]の (colleague) identifies the role 鈴木[すずき]さん plays — 'Suzuki-san, my colleague.' The pattern の introduces or identifies someone by their connection to you. 鈴木[すずき]さんの同僚[どうりょう] (A) reverses the order and means 'Suzuki-san's colleague' — a different person."
-        },
-        {
-          "id": "no-possessive_q17",
-          "type": "construct",
-          "prompt": "Someone asks あのかばんはだれのですか。How do you answer 'It's Tanaka-san's' without repeating かばん?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんのかばんです。",
-            "田中[たなか]さんはかばんです。",
-            "田中[たなか]さんがかばんです。",
-            "田中[たなか]さんのです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "When the noun (かばん — bag) is clear from context, drop it and let の hold the place: 田中[たなか]さんの + です = 田中[たなか]さんのです ('It's Tanaka-san's'). This is the の-pronoun pattern in action. Option A repeats かばん unnecessarily. Options B and C use は and が incorrectly in place of the possessive の."
-        },
-        {
-          "id": "no-possessive_q18",
-          "type": "usage",
-          "prompt": "Which rule correctly describes the word order with の?",
-          "japanese": null,
-          "choices": [
-            "The possessing or describing noun comes BEFORE の, and the noun being possessed or described comes AFTER.",
-            "The noun being described comes BEFORE の, and the descriptor comes AFTER.",
-            "Both nouns can appear on either side of の with no change in meaning.",
-            "の always follows the main noun and precedes any modifiers."
-          ],
-          "correctIndex": 0,
-          "explanation": "A の B always means 'B that belongs to / is related to A': the possessor or descriptor (A) comes BEFORE の, the possessed or described noun (B) comes AFTER. Reversing the order changes the meaning: 私[わたし]の本[ほん] (my book) vs 本[ほん]の私[わたし] ('I of the book' — nonsensical)."
-        },
-        {
-          "id": "no-possessive_q19",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to complete the chain: 'a teacher of Japanese language at university.'",
-          "japanese": "大学[だいがく]___日本語[にほんご]の先生[せんせい]",
-          "choices": [
-            "は",
-            "の",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "の chains the nouns: 大学[だいがく]の (at/of university) + 日本語[にほんご]の (of Japanese) + 先生[せんせい] (teacher) = 大学[だいがく]の日本語[にほんご]の先生[せんせい]. The blank needs の to link 大学[だいがく] to the next level of description. は would mark 大学[だいがく] as a sentence topic (completely changing the structure); が and を are subject and object markers that cannot connect nouns this way."
-        },
-        {
-          "id": "no-possessive_q20",
-          "type": "construct",
-          "prompt": "Which pair of sentences has the same meaning? (Both should mean 'the book that Tanaka-san wrote')",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんを書[か]いた本[ほん]",
-            "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんの本[ほん]を書[か]いた",
-            "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんの書[か]いた本[ほん]",
-            "田中[たなか]さんの書[か]いた本[ほん] / 田中[たなか]さんは書[か]いた本[ほん]"
-          ],
-          "correctIndex": 2,
-          "explanation": "Inside a relative clause (a verb phrase modifying a noun), の can replace が as the subject marker. 田中[たなか]さんが書[か]いた本[ほん] and 田中[たなか]さんの書[か]いた本[ほん] are both natural and mean exactly 'the book that Tanaka-san wrote.' This の-for-が swap only works INSIDE relative clauses — outside them, の and が have completely distinct roles."
-        }
-      ]
+     "japanese": "田中[たなか]さんは先生[せんせい]じゃありません。",
+     "romaji": "Tanaka-san wa sensei ja arimasen.",
+     "english": "Tanaka-san is not a teacher."
+    },
+    {
+     "japanese": "昨日[きのう]は日曜日[にちようび]でした。",
+     "romaji": "Kinou wa nichiyoubi deshita.",
+     "english": "Yesterday was Sunday."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "です / だ",
+   "flashcardAnswer": "The '=' sign of Japanese, linking a topic to a description or noun.",
+   "practice": [
     {
-      "id": "ch01_v01",
-      "partOfSpeech": "pronoun",
-      "kanji": "私",
-      "kana": "わたし",
-      "romaji": "watashi",
-      "definition": "I; me"
+     "id": "desu_q1",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "これは本[ほん]です。",
+     "choices": [
+      "That is a book.",
+      "This is not a book.",
+      "Is this a book?",
+      "This is a book."
+     ],
+     "correctIndex": 3,
+     "explanation": "です acts as '=' connecting これ (this) to 本[ほん] (book), forming the affirmative statement 'This is a book.' Adding か would make it a question; じゃありません would negate it."
     },
     {
-      "id": "ch01_v02",
-      "partOfSpeech": "pronoun",
-      "kanji": "あなた",
-      "kana": "あなた",
-      "romaji": "anata",
-      "definition": "you"
+     "id": "desu_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete this polite affirmative sentence.",
+     "japanese": "わたしは学生[がくせい]___。",
+     "choices": [
+      "でした",
+      "だ",
+      "です",
+      "じゃありません"
+     ],
+     "correctIndex": 2,
+     "explanation": "です is the polite affirmative copula, making this 'I am a student.' でした is past tense, じゃありません is the polite negative, and だ is the plain (casual) equivalent of です."
     },
     {
-      "id": "ch01_v03",
-      "partOfSpeech": "noun",
-      "kanji": "彼",
-      "kana": "かれ",
-      "romaji": "kare",
-      "definition": "he; boyfriend"
+     "id": "desu_q3",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'Tanaka-san is not a teacher' in polite speech?",
+     "choices": [
+      "田中[たなか]さんは先生[せんせい]ではです。",
+      "田中[たなか]さんは先生[せんせい]もありません。",
+      "田中[たなか]さんは先生[せんせい]じゃありません。",
+      "田中[たなか]さんは先生[せんせい]でしたか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "じゃありません is the polite negative form of です — it negates the copula. じゃ is a contracted form of では. The other options combine endings incorrectly or use the wrong particle."
     },
     {
-      "id": "ch01_v04",
-      "partOfSpeech": "noun",
-      "kanji": "彼女",
-      "kana": "かのじょ",
-      "romaji": "kanojo",
-      "definition": "she; girlfriend"
+     "id": "desu_q4",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "昨日[きのう]は日曜日[にちようび]でした。",
+     "choices": [
+      "Yesterday was Sunday.",
+      "Yesterday is Sunday.",
+      "Yesterday was not Sunday.",
+      "Tomorrow will be Sunday."
+     ],
+     "correctIndex": 0,
+     "explanation": "でした is the polite past form of です, meaning 'was.' 昨日[きのう] = yesterday; 日曜日[にちようび] = Sunday. The pattern  + は +  + でした gives 'Yesterday was Sunday.'"
     },
     {
-      "id": "ch01_v05",
-      "partOfSpeech": "noun",
-      "kanji": "人",
-      "kana": "ひと",
-      "romaji": "hito",
-      "definition": "person"
+     "id": "desu_q5",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses です?",
+     "choices": [
+      "山田[やまだ]さんです医者[いしゃ]。",
+      "山田[やまだ]さんを医者[いしゃ]です。",
+      "山田[やまだ]さんは医者[いしゃ]です。",
+      "山田[やまだ]さんに医者[いしゃ]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "The correct pattern is [topic] + は + [noun] + です. を (object marker), に (direction/time), and putting です before the noun all break the grammar. は is the required topic particle before です."
     },
     {
-      "id": "ch01_v06",
-      "partOfSpeech": "noun",
-      "kanji": "男の人",
-      "kana": "おとこのひと",
-      "romaji": "otokonohito",
-      "definition": "man"
+     "id": "desu_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete this plain-form (casual) sentence.",
+     "japanese": "あれは山[やま]___。",
+     "choices": [
+      "です",
+      "だ",
+      "でした",
+      "じゃない"
+     ],
+     "correctIndex": 1,
+     "explanation": "だ is the plain (casual) affirmative copula — the casual equivalent of the polite です. あれは山[やま]だ means 'That is a mountain.' Use だ with close friends and family; switch to です in formal or polite contexts."
     },
     {
-      "id": "ch01_v07",
-      "partOfSpeech": "noun",
-      "kanji": "女の人",
-      "kana": "おんなのひと",
-      "romaji": "onnanohito",
-      "definition": "woman"
+     "id": "desu_q7",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "田中[たなか]さんは医者[いしゃ]じゃありません。",
+     "choices": [
+      "Tanaka-san is a doctor.",
+      "Is Tanaka-san a doctor?",
+      "Tanaka-san is not a doctor.",
+      "Tanaka-san was not a doctor."
+     ],
+     "correctIndex": 2,
+     "explanation": "じゃありません is the polite negative copula (= is not). 田中[たなか]さんは sets the topic, 医者[いしゃ] is 'doctor,' and じゃありません negates it. To say 'was not a doctor' you would use じゃありませんでした."
     },
     {
-      "id": "ch01_v08",
-      "partOfSpeech": "noun",
-      "kanji": "男の子",
-      "kana": "おとこのこ",
-      "romaji": "otokonoko",
-      "definition": "boy"
+     "id": "desu_q8",
+     "type": "usage",
+     "prompt": "Which sentence correctly says 'Yamada-san was a student' in polite speech?",
+     "japanese": null,
+     "choices": [
+      "山田[やまだ]さんは学生[がくせい]です。",
+      "山田[やまだ]さんは学生[がくせい]じゃありません。",
+      "山田[やまだ]さんは学生[がくせい]ですか。",
+      "山田[やまだ]さんは学生[がくせい]でした。"
+     ],
+     "correctIndex": 3,
+     "explanation": "でした is the polite past tense of です, meaning 'was.' です (A) is present tense; じゃありません (B) is the present negative; ですか (C) is a question. Only でした correctly expresses a past state."
     },
     {
-      "id": "ch01_v09",
-      "partOfSpeech": "noun",
-      "kanji": "女の子",
-      "kana": "おんなのこ",
-      "romaji": "onnanoko",
-      "definition": "girl"
+     "id": "desu_q9",
+     "type": "construct",
+     "prompt": "Which sentence is the plain (casual) way to say 'This is not a book'?",
+     "japanese": null,
+     "choices": [
+      "これは本[ほん]じゃない。",
+      "これは本[ほん]じゃありません。",
+      "これは本[ほん]ではありません。",
+      "これは本[ほん]でした。"
+     ],
+     "correctIndex": 0,
+     "explanation": "じゃない is the plain (casual) negative copula. じゃありません (B) and ではありません (C) are polite negatives used in formal speech. でした (D) is the polite past affirmative — a completely different meaning."
     },
     {
-      "id": "ch01_v10",
-      "partOfSpeech": "noun",
-      "kanji": "子供",
-      "kana": "こども",
-      "romaji": "kodomo",
-      "definition": "child"
+     "id": "desu_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "それは問題[もんだい]じゃありませんでした。",
+     "choices": [
+      "That is not a problem.",
+      "That was not a problem.",
+      "That was a problem.",
+      "Is that a problem?"
+     ],
+     "correctIndex": 1,
+     "explanation": "じゃありませんでした is the polite past negative: じゃありません (is not) with the past marker でした added = 'was not.' それは問題[もんだい] sets up 'that is a problem,' and the past negative ending converts it to 'that was not a problem.'"
     },
     {
-      "id": "ch01_v11",
-      "partOfSpeech": "noun",
-      "kanji": "大人",
-      "kana": "おとな",
-      "romaji": "otona",
-      "definition": "adult"
+     "id": "desu_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'Tokyo is the capital' in polite Japanese.",
+     "japanese": "東京[とうきょう]は首都[しゅと]___。",
+     "choices": [
+      "だった",
+      "でした",
+      "です",
+      "じゃない"
+     ],
+     "correctIndex": 2,
+     "explanation": "です links the topic 東京[とうきょう] (Tokyo) to its identity 首都[しゅと] (capital) in a polite present-tense statement. だった and でした are past forms; じゃない is the casual negative. です is the correct polite affirmative here."
     },
     {
-      "id": "ch01_v12",
-      "partOfSpeech": "noun",
-      "kanji": "友達",
-      "kana": "ともだち",
-      "romaji": "tomodachi",
-      "definition": "friend"
+     "id": "desu_q12",
+     "type": "usage",
+     "prompt": "A student wrote three incorrect sentences and one correct one. Which is correct?",
+     "japanese": null,
+     "choices": [
+      "わたしを学生[がくせい]です。",
+      "わたしが学生[がくせい]。",
+      "わたしに学生[がくせい]です。",
+      "わたしは学生[がくせい]です。"
+     ],
+     "correctIndex": 3,
+     "explanation": "The correct topic particle before です is は. を (A) marks direct objects; が (B) marks subjects but also omits です, making the sentence incomplete; に (C) marks direction, time, or location. Only は correctly introduces a topic before です."
     },
     {
-      "id": "ch01_v13",
-      "partOfSpeech": "noun",
-      "kanji": "名前",
-      "kana": "なまえ",
-      "romaji": "namae",
-      "definition": "name"
+     "id": "desu_q13",
+     "type": "construct",
+     "prompt": "Which sentence means 'Yesterday was a holiday' in plain (casual) speech?",
+     "japanese": null,
+     "choices": [
+      "昨日[きのう]は休[やす]みだった。",
+      "昨日[きのう]は休[やす]みでした。",
+      "昨日[きのう]は休[やす]みじゃない。",
+      "昨日[きのう]は休[やす]みだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "だった is the plain past affirmative copula (casual equivalent of でした). でした (B) expresses the same meaning in polite speech. じゃない (C) is the casual present negative; だ (D) is the casual present affirmative."
     },
     {
-      "id": "ch01_v14",
-      "partOfSpeech": "noun",
-      "kanji": "学生",
-      "kana": "がくせい",
-      "romaji": "gakusei",
-      "definition": "student"
+     "id": "desu_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "あれは私[わたし]の傘[かさ]じゃなかった。",
+     "choices": [
+      "That was my umbrella.",
+      "That was not my umbrella.",
+      "That is not my umbrella.",
+      "Is that my umbrella?"
+     ],
+     "correctIndex": 1,
+     "explanation": "じゃなかった is the plain past negative copula (= 'was not'). 私[わたし]の傘[かさ] means 'my umbrella,' and あれ means 'that over there.' For the polite equivalent, you would say じゃありませんでした."
     },
     {
-      "id": "ch01_v15",
-      "partOfSpeech": "noun",
-      "kanji": "先生",
-      "kana": "せんせい",
-      "romaji": "sensei",
-      "definition": "teacher"
+     "id": "desu_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'That is not a textbook.'",
+     "japanese": "それは教科書[きょうかしょ]___。",
+     "choices": [
+      "だった",
+      "でした",
+      "じゃありません",
+      "じゃなかった"
+     ],
+     "correctIndex": 2,
+     "explanation": "じゃありません is the polite present negative copula, meaning 'is not.' だった and じゃなかった are past forms (plain past affirmative and plain past negative respectively); でした is the polite past affirmative."
     },
     {
-      "id": "ch01_v16",
-      "partOfSpeech": "noun",
-      "kanji": "医者",
-      "kana": "いしゃ",
-      "romaji": "isha",
-      "definition": "doctor"
+     "id": "desu_q16",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "田中[たなか]さんは先生[せんせい]じゃありませんでした。",
+     "choices": [
+      "Tanaka-san is a teacher.",
+      "Tanaka-san was a teacher.",
+      "Tanaka-san is not a teacher.",
+      "Tanaka-san was not a teacher."
+     ],
+     "correctIndex": 3,
+     "explanation": "じゃありませんでした is the polite past negative: it combines じゃありません (is not) with the past marker でした to mean 'was not.' This rounds out all four copula forms: です (is), でした (was), じゃありません (is not), じゃありませんでした (was not)."
     },
     {
-      "id": "ch01_v17",
-      "partOfSpeech": "noun",
-      "kanji": "会社員",
-      "kana": "かいしゃいん",
-      "romaji": "kaishain",
-      "definition": "company employee"
+     "id": "desu_q17",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank with the correct topic particle to say 'I am a doctor.'",
+     "japanese": "わたし___医者[いしゃ]です。",
+     "choices": [
+      "は",
+      "が",
+      "を",
+      "の"
+     ],
+     "correctIndex": 0,
+     "explanation": "は is the topic particle that sets up the subject of a です sentence. While が can mark a grammatical subject in other contexts, the standard pattern for [person] + は + [identity] + です requires は. を marks objects and の shows possession — neither belongs here."
     },
     {
-      "id": "ch01_v18",
-      "partOfSpeech": "noun",
-      "kanji": "店員",
-      "kana": "てんいん",
-      "romaji": "ten'in",
-      "definition": "store clerk"
+     "id": "desu_q18",
+     "type": "construct",
+     "prompt": "How do you say 'That person over there is Yamada-san' in polite Japanese?",
+     "japanese": null,
+     "choices": [
+      "山田[やまだ]さんはあの人[ひと]です。",
+      "あの人[ひと]は山田[やまだ]さんです。",
+      "山田[やまだ]さんを人[ひと]です。",
+      "あの人[ひと]が山田[やまだ]さんは。"
+     ],
+     "correctIndex": 1,
+     "explanation": "The topic (あの人[ひと] — that person over there) comes first, marked by は, then the identification (山田[やまだ]さん) before です. Option A reverses the topic and identification, which changes the nuance. Option C uses を (object marker) incorrectly. Option D misplaces both particles."
     },
     {
-      "id": "ch01_v19",
-      "partOfSpeech": "noun",
-      "kanji": "大学",
-      "kana": "だいがく",
-      "romaji": "daigaku",
-      "definition": "university"
+     "id": "desu_q19",
+     "type": "usage",
+     "prompt": "You are meeting your professor for the first time and introducing yourself. Which sentence is most appropriate?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]だ。",
+      "田中[たなか]じゃない。",
+      "田中[たなか]です。",
+      "田中[たなか]だった。"
+     ],
+     "correctIndex": 2,
+     "explanation": "田中[たなか]です is polite and appropriate for formal situations like meeting a professor. 田中[たなか]だ (A) uses the plain form だ, which is too casual. 田中[たなか]じゃない (B) is a negation ('I'm not Tanaka'). 田中[たなか]だった (D) means 'I was Tanaka' — a past form that makes no sense for an introduction."
     },
     {
-      "id": "ch01_v20",
-      "partOfSpeech": "noun",
-      "kanji": "会社",
-      "kana": "かいしゃ",
-      "romaji": "kaisha",
-      "definition": "company"
-    },
-    {
-      "id": "ch01_v21",
-      "partOfSpeech": "noun",
-      "kanji": "日本",
-      "kana": "にほん",
-      "romaji": "nihon",
-      "definition": "Japan"
-    },
-    {
-      "id": "ch01_v22",
-      "partOfSpeech": "noun",
-      "kanji": "日本人",
-      "kana": "にほんじん",
-      "romaji": "nihonjin",
-      "definition": "Japanese person"
-    },
-    {
-      "id": "ch01_v23",
-      "partOfSpeech": "noun",
-      "kanji": "アメリカ",
-      "kana": "アメリカ",
-      "romaji": "amerika",
-      "definition": "America"
-    },
-    {
-      "id": "ch01_v24",
-      "partOfSpeech": "noun",
-      "kanji": "アメリカ人",
-      "kana": "アメリカじん",
-      "romaji": "amerikajin",
-      "definition": "American (person)"
-    },
-    {
-      "id": "ch01_v25",
-      "partOfSpeech": "noun",
-      "kanji": "中国",
-      "kana": "ちゅうごく",
-      "romaji": "chuugoku",
-      "definition": "China"
-    },
-    {
-      "id": "ch01_v26",
-      "partOfSpeech": "noun",
-      "kanji": "英語",
-      "kana": "えいご",
-      "romaji": "eigo",
-      "definition": "English (language)"
-    },
-    {
-      "id": "ch01_v27",
-      "partOfSpeech": "noun",
-      "kanji": "日本語",
-      "kana": "にほんご",
-      "romaji": "nihongo",
-      "definition": "Japanese (language)"
-    },
-    {
-      "id": "ch01_v28",
-      "partOfSpeech": "noun",
-      "kanji": "国",
-      "kana": "くに",
-      "romaji": "kuni",
-      "definition": "country"
-    },
-    {
-      "id": "ch01_v29",
-      "partOfSpeech": "noun",
-      "kanji": "年",
-      "kana": "とし",
-      "romaji": "toshi",
-      "definition": "year; age"
-    },
-    {
-      "id": "ch01_v30",
-      "partOfSpeech": "noun",
-      "kanji": "名刺",
-      "kana": "めいし",
-      "romaji": "meishi",
-      "definition": "business card"
-    },
-    {
-      "id": "ch01_v31",
-      "partOfSpeech": "expression",
-      "kanji": "はじめまして",
-      "kana": "はじめまして",
-      "romaji": "hajimemashite",
-      "definition": "Nice to meet you"
-    },
-    {
-      "id": "ch01_v32",
-      "partOfSpeech": "expression",
-      "kanji": "よろしくお願いします",
-      "kana": "よろしくおねがいします",
-      "romaji": "yoroshikuonegaishimasu",
-      "definition": "Pleased to meet you"
-    },
-    {
-      "id": "ch01_v33",
-      "partOfSpeech": "expression",
-      "kanji": "こんにちは",
-      "kana": "こんにちは",
-      "romaji": "konnichiha",
-      "definition": "hello; good afternoon"
-    },
-    {
-      "id": "ch01_v34",
-      "partOfSpeech": "expression",
-      "kanji": "おはようございます",
-      "kana": "おはようございます",
-      "romaji": "ohayougozaimasu",
-      "definition": "good morning"
-    },
-    {
-      "id": "ch01_v35",
-      "partOfSpeech": "expression",
-      "kanji": "こんばんは",
-      "kana": "こんばんは",
-      "romaji": "konbanha",
-      "definition": "good evening"
-    },
-    {
-      "id": "ch01_v36",
-      "partOfSpeech": "expression",
-      "kanji": "さようなら",
-      "kana": "さようなら",
-      "romaji": "sayounara",
-      "definition": "goodbye"
-    },
-    {
-      "id": "ch01_v37",
-      "partOfSpeech": "expression",
-      "kanji": "はい",
-      "kana": "はい",
-      "romaji": "hai",
-      "definition": "yes"
-    },
-    {
-      "id": "ch01_v38",
-      "partOfSpeech": "expression",
-      "kanji": "いいえ",
-      "kana": "いいえ",
-      "romaji": "iie",
-      "definition": "no"
-    },
-    {
-      "id": "ch01_v39",
-      "partOfSpeech": "expression",
-      "kanji": "すみません",
-      "kana": "すみません",
-      "romaji": "sumimasen",
-      "definition": "excuse me; sorry"
-    },
-    {
-      "id": "ch01_v40",
-      "partOfSpeech": "expression",
-      "kanji": "ありがとうございます",
-      "kana": "ありがとうございます",
-      "romaji": "arigatougozaimasu",
-      "definition": "thank you"
+     "id": "desu_q20",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'She was a student' in plain (casual) speech.",
+     "japanese": "彼女[かのじょ]は学生[がくせい]___。",
+     "choices": [
+      "です",
+      "でした",
+      "じゃなかった",
+      "だった"
+     ],
+     "correctIndex": 3,
+     "explanation": "だった is the plain past affirmative copula. です (A) is present polite; でした (B) is past polite; じゃなかった (C) is plain past negative ('was not a student'). Only だった expresses 'was' in plain casual speech."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "ka-question",
+   "name": "か (ka) — question particle",
+   "shortDescription": "Snap-on question marker — turns any statement into a question with zero word-order change.",
+   "formation": "Statement + か",
+   "explanation": "How do you turn a Japanese statement into a question? Add か to the end — and that genuinely is the whole story. No word-order flip, no auxiliary verb, no rearranging anything.\n\nCompare what English does: 'You are a student' becomes 'Are you a student?' — the words shuffle around. Japanese doesn't move a thing: わたしは学生[がくせい]です (I am a student) becomes わたしは学生[がくせい]ですか (Are you a student?) — just か added at the end.\n\nIn formal writing, か replaces the question mark entirely: you will see 「ですか。」with a regular period, not a question mark — か does the job of '?' on its own. In casual speech among close friends, か alone can sound blunt or even confrontational, so people often use a rising intonation instead. As a beginner, ～ですか and ～ますか are the safe and natural choice for virtually every situation you will encounter.",
+   "rules": [
+    "Add か to the end of a polite sentence to make it a question",
+    "No word-order change needed — Japanese questions match statement order",
+    "In formal writing, use か followed by 。 (period), not ？",
+    "Casual speech often drops か and uses rising intonation instead"
+   ],
+   "examples": [
     {
-      "char": "国",
-      "word": "国",
-      "reading": "くに",
-      "meaning": "country"
+     "japanese": "これは本[ほん]ですか。",
+     "romaji": "Kore wa hon desu ka.",
+     "english": "Is this a book?"
     },
     {
-      "char": "人",
-      "word": "人",
-      "reading": "ひと",
-      "meaning": "person"
+     "japanese": "学生[がくせい]ですか。",
+     "romaji": "Gakusei desu ka.",
+     "english": "Are you a student?"
     },
     {
-      "char": "本",
-      "word": "本",
-      "reading": "ほん",
-      "meaning": "book"
+     "japanese": "田中[たなか]さんは先生[せんせい]ですか。",
+     "romaji": "Tanaka-san wa sensei desu ka.",
+     "english": "Is Tanaka-san a teacher?"
     },
     {
-      "char": "前",
-      "word": "前",
-      "reading": "まえ",
-      "meaning": "front; before"
-    },
-    {
-      "char": "生",
-      "word": "学生",
-      "reading": "がくせい",
-      "meaning": "student"
-    },
-    {
-      "char": "学",
-      "word": "学生",
-      "reading": "がくせい",
-      "meaning": "student"
-    },
-    {
-      "char": "女",
-      "word": "女",
-      "reading": "おんな",
-      "meaning": "woman"
-    },
-    {
-      "char": "名",
-      "word": "名前",
-      "reading": "なまえ",
-      "meaning": "name"
-    },
-    {
-      "char": "男",
-      "word": "男の人",
-      "reading": "おとこのひと",
-      "meaning": "man"
-    },
-    {
-      "char": "語",
-      "word": "日本語",
-      "reading": "にほんご",
-      "meaning": "Japanese (language)"
-    },
-    {
-      "char": "友",
-      "word": "友達",
-      "reading": "ともだち",
-      "meaning": "friend"
+     "japanese": "それは犬[いぬ]ですか、猫[ねこ]ですか。",
+     "romaji": "Sore wa inu desu ka, neko desu ka.",
+     "english": "Is that a dog or a cat?"
     }
-  ]
+   ],
+   "flashcardHeader": "か",
+   "flashcardAnswer": "Turns a statement into a yes/no question by attaching か to the end.",
+   "practice": [
+    {
+     "id": "ka-question_q1",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "これは本[ほん]ですか。",
+     "choices": [
+      "Is this a book?",
+      "This is not a book, is it?",
+      "This is a book.",
+      "What is this?"
+     ],
+     "correctIndex": 0,
+     "explanation": "Adding か to これは本[ほん]です (This is a book) converts it into a yes/no question with no word-order change. か alone signals the question — no reshuffling needed."
+    },
+    {
+     "id": "ka-question_q2",
+     "type": "construct",
+     "prompt": "How do you ask 'Are you a student?' in polite Japanese?",
+     "choices": [
+      "学生[がくせい]かです。",
+      "ですか学生[がくせい]。",
+      "学生[がくせい]ですか。",
+      "か学生[がくせい]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "か always attaches to the END of the polite sentence: 学生[がくせい]です + か = 学生[がくせい]ですか。Unlike English, Japanese never rearranges word order to form a question — the statement stays intact and か is appended."
+    },
+    {
+     "id": "ka-question_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask 'Is Tanaka-san a teacher?' in polite Japanese.",
+     "japanese": "田中[たなか]さんは先生[せんせい]___。",
+     "choices": [
+      "ですか",
+      "だか",
+      "でしたか",
+      "です。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ですか (です + か) is the polite question ending. だか is plain-form and sounds abrupt; です。 without か is a statement, not a question; でしたか would ask about the past ('Was Tanaka-san a teacher?')."
+    },
+    {
+     "id": "ka-question_q4",
+     "type": "usage",
+     "prompt": "Which sentence is a correctly formed Japanese yes/no question?",
+     "choices": [
+      "犬[いぬ]ですそれはか。",
+      "それは犬[いぬ]ですか。",
+      "それは？犬[いぬ]です。",
+      "ですかそれは犬[いぬ]。"
+     ],
+     "correctIndex": 1,
+     "explanation": "In Japanese questions, word order stays identical to statements — か is simply added at the end. Moving か mid-sentence or restructuring the word order produces ungrammatical Japanese."
+    },
+    {
+     "id": "ka-question_q5",
+     "type": "construct",
+     "prompt": "Your friend points at two animals. How do you ask 'Is that a dog or a cat?' in Japanese?",
+     "choices": [
+      "それは犬[いぬ]ですか、猫[ねこ]ですか。",
+      "それは犬[いぬ]か猫[ねこ]です。",
+      "犬[いぬ]ですか猫[ねこ]またはですか。",
+      "それは犬[いぬ]か、猫[ねこ]ですか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "To offer two alternatives as a question, use ですか after each option: 犬[いぬ]ですか、猫[ねこ]ですか。Both clauses need ですか to frame each as a possibility — dropping ですか from the first clause makes the sentence unbalanced."
+    },
+    {
+     "id": "ka-question_q6",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "山田[やまだ]さんは医者[いしゃ]ですか。",
+     "choices": [
+      "Is Yamada-san a doctor?",
+      "Yamada-san is a doctor.",
+      "Yamada-san is not a doctor.",
+      "Was Yamada-san a doctor?"
+     ],
+     "correctIndex": 0,
+     "explanation": "Adding か to the end of 山田[やまだ]さんは医者[いしゃ]です (Yamada-san is a doctor) converts it into a yes/no question with no word-order change. The period after か is correct — in Japanese questions, か itself signals the question and replaces the need for a question mark."
+    },
+    {
+     "id": "ka-question_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to turn this statement into a polite yes/no question.",
+     "japanese": "これは田中[たなか]さんの本[ほん]です___",
+     "choices": [
+      "。",
+      "か。",
+      "か？",
+      "？"
+     ],
+     "correctIndex": 1,
+     "explanation": "か is the question particle — append か followed by 。 (period) to form a polite question. In formal Japanese writing, か replaces the question mark entirely; using ？ after か is non-standard, and a plain 。 without か leaves the sentence as a statement."
+    },
+    {
+     "id": "ka-question_q8",
+     "type": "construct",
+     "prompt": "Which sentence correctly asks 'Is this a pen or a pencil?' in Japanese?",
+     "japanese": null,
+     "choices": [
+      "これはペンですか鉛筆[えんぴつ]ですか？",
+      "これはペンか鉛筆[えんぴつ]ですか。",
+      "これはペンですか、鉛筆[えんぴつ]ですか。",
+      "ペンか鉛筆[えんぴつ]はこれですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "In an A-or-B question, attach ですか to each option and separate with a comma: ペンですか、鉛筆[えんぴつ]ですか. Both clauses need ですか to frame each as a possibility. Option B drops ですか from the first option, which is unbalanced. Option D incorrectly reverses the word order."
+    },
+    {
+     "id": "ka-question_q9",
+     "type": "usage",
+     "prompt": "Which pair correctly shows the same sentence as both a statement and a yes/no question?",
+     "japanese": null,
+     "choices": [
+      "学生[がくせい]ですか。/ 学生[がくせい]です？",
+      "学生[がくせい]か。/ 学生[がくせい]ですか。",
+      "学生[がくせい]か？ / 学生[がくせい]ですか。",
+      "学生[がくせい]です。/ 学生[がくせい]ですか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "The statement is 学生[がくせい]です。 and the yes/no question is 学生[がくせい]ですか。— the only difference is か added before the period. No word order changes. The other options use inconsistent punctuation or informal forms in place of the polite statement-question pair."
+    },
+    {
+     "id": "ka-question_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "田中[たなか]さんは先生[せんせい]じゃありませんか。",
+     "choices": [
+      "Isn't Tanaka-san a teacher?",
+      "Tanaka-san is not a teacher.",
+      "Is Tanaka-san a teacher?",
+      "Was Tanaka-san a teacher?"
+     ],
+     "correctIndex": 0,
+     "explanation": "じゃありませんか appends か to the polite negative じゃありません, forming a negative question: 'Isn't [X]...?' This often expresses surprise or seeks confirmation. Compare: じゃありません (is not) vs じゃありませんか (isn't it / don't you think?)."
+    },
+    {
+     "id": "ka-question_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask 'Was yesterday a holiday?'",
+     "japanese": "昨日[きのう]は休[やす]みでした___",
+     "choices": [
+      "です",
+      "か。",
+      "か？",
+      "。"
+     ],
+     "correctIndex": 1,
+     "explanation": "Append か to the past-tense statement でした to form a past-tense question: でしたか. The period follows か (not a question mark) in standard Japanese. This gives 'Was yesterday a holiday?' — the past tense is preserved by keeping でした and just adding か."
+    },
+    {
+     "id": "ka-question_q12",
+     "type": "usage",
+     "prompt": "Which statement about using か in formal Japanese writing is correct?",
+     "japanese": null,
+     "choices": [
+      "か must always be followed by ？ (question mark) to signal a question.",
+      "か is only used in casual speech, not formal writing.",
+      "In formal writing, か is followed by 。 (period) — the question mark is not used.",
+      "か must appear at the beginning of the sentence to indicate a question."
+     ],
+     "correctIndex": 2,
+     "explanation": "In formal Japanese writing, か itself signals the question, so 。 (period) follows — no question mark is needed or conventional. Using ？ after か is non-standard in formal text. か always goes at the END of the sentence, not the beginning."
+    },
+    {
+     "id": "ka-question_q13",
+     "type": "construct",
+     "prompt": "How do you ask 'Isn't this a dictionary?' in polite Japanese?",
+     "japanese": null,
+     "choices": [
+      "これは辞書[じしょ]じゃありますか。",
+      "これは辞書[じしょ]ですか、じゃありませんか。",
+      "これは辞書[じしょ]じゃないですか。",
+      "これは辞書[じしょ]じゃありませんか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "To form a polite negative question, add か to the polite negative form: じゃありません + か = じゃありませんか. じゃありますか (A) is a common mistake — じゃある is not a standard form. じゃないですか (C) works in casual speech but じゃありませんか is the formally correct version."
+    },
+    {
+     "id": "ka-question_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "それは映画[えいが]ですか、ドラマですか。",
+     "choices": [
+      "Is that a movie or a TV drama?",
+      "That is a movie and a drama.",
+      "Was that a movie or a drama?",
+      "Is that a movie? Is it also a drama?"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ですか、〜ですか is the A-or-B question pattern: two options each followed by ですか, separated by a comma. This asks the listener to choose between 映画[えいが] (movie) and ドラマ (TV drama). It is a single question offering two choices, not two separate questions."
+    },
+    {
+     "id": "ka-question_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask 'Is that your coat?' in polite Japanese.",
+     "japanese": "それはあなたのコート___",
+     "choices": [
+      "です。",
+      "ですか。",
+      "でしたか。",
+      "じゃありませんか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "ですか converts the statement 'That is your coat' into the yes/no question 'Is that your coat?' No word order change is needed — just append か before the period. でしたか (C) would ask 'Was that your coat?' (past tense); じゃありませんか (D) asks 'Isn't that your coat?'"
+    },
+    {
+     "id": "ka-question_q16",
+     "type": "construct",
+     "prompt": "A friend points at your drink. How do you ask 'Is that tea or coffee?'",
+     "japanese": null,
+     "choices": [
+      "それはお茶[ちゃ]かコーヒーです。",
+      "それはお茶[ちゃ]かコーヒーですか。",
+      "それはお茶[ちゃ]ですか、コーヒーですか。",
+      "それはお茶[ちゃ]、コーヒーですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "The A-or-B question pattern repeats ですか after each option: お茶[ちゃ]ですか、コーヒーですか. Option B uses か between nouns (noun か noun) which can work informally but is less explicit about the binary choice. Option A is a statement. Option D drops ですか from the first option, leaving it unbalanced."
+    },
+    {
+     "id": "ka-question_q17",
+     "type": "usage",
+     "prompt": "What is the ONLY structural difference between these two sentences: 'あれは図書館[としょかん]です。' and 'あれは図書館[としょかん]ですか。'?",
+     "japanese": null,
+     "choices": [
+      "The second sentence changes the word order to form a question.",
+      "The second sentence adds a different verb to ask a question.",
+      "The second sentence reverses the subject and predicate.",
+      "The second sentence adds か after です, turning a statement into a question."
+     ],
+     "correctIndex": 3,
+     "explanation": "Japanese questions require zero word-order changes. The statement あれは図書館[としょかん]です (That is a library) becomes あれは図書館[としょかん]ですか (Is that a library?) by simply appending か. This is a core feature of Japanese: questions are formed by adding か, not by restructuring the sentence."
+    },
+    {
+     "id": "ka-question_q18",
+     "type": "usage",
+     "prompt": "Which statement about casual questions in Japanese is true?",
+     "japanese": null,
+     "choices": [
+      "In casual conversation with close friends, rising intonation can replace か to signal a question.",
+      "か must always be used in questions, even in very casual speech — and this holds in every register, formal or casual.",
+      "Casual questions require replacing です with だ AND adding か.",
+      "In casual speech, か is moved to the beginning of the sentence."
+     ],
+     "correctIndex": 0,
+     "explanation": "In casual speech among close friends, Japanese speakers often drop か entirely and use a rising intonation instead. Using か alone in casual conversation can sound blunt or confrontational. For learners, ～ですか and ～ますか are the safe, natural choice in most situations."
+    },
+    {
+     "id": "ka-question_q19",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask 'Was Yamada-san a student?' in polite Japanese.",
+     "japanese": "山田[やまだ]さんは学生[がくせい]___",
+     "choices": [
+      "ですか。",
+      "でしたか。",
+      "じゃありませんか。",
+      "だったか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "でしたか (= でした + か) forms a polite past-tense question: 'Was Yamada-san a student?' ですか (A) asks about the present. じゃありませんか (C) asks a negative question ('Isn't Yamada-san a student?'). だったか (D) is the plain past question form, too casual for polite speech."
+    },
+    {
+     "id": "ka-question_q20",
+     "type": "construct",
+     "prompt": "Which sentence is correctly formatted as a formal written question in Japanese?",
+     "japanese": null,
+     "choices": [
+      "これは本[ほん]ですか？",
+      "これは本[ほん]か。",
+      "これは本[ほん]ですか。",
+      "これは本[ほん]です？"
+     ],
+     "correctIndex": 2,
+     "explanation": "In formal Japanese writing, questions end with ですか followed by a regular period (。), not a question mark. か itself signals the question — the ? is unnecessary and non-standard. これは本[ほん]ですか。is the correct formal form. ですか？ (A) adds a redundant question mark; か alone (B) without です sounds too abrupt; です？ (D) is non-standard."
+    }
+   ]
+  },
+  {
+   "id": "no-possessive",
+   "name": "の (no) — possessive / noun connector",
+   "shortDescription": "Links two nouns to show possession or describe a type — and can stand in for a noun already understood from context.",
+   "formation": "Noun A + の + Noun B",
+   "explanation": "の is one of the most versatile particles in Japanese, and its most basic job is showing possession — like the English apostrophe-s ('s). 山田[やまだ]さんの本[ほん] means 'Yamada-san's book,' with の gluing the owner to the owned.\n\nBut の does much more than simple possession — it also connects nouns to describe a category or type. 日本語[にほんご]の本[ほん] means 'a Japanese-language book.' You can even stack の links together: 大学[だいがく]の日本語[にほんご]の先生[せんせい] is 'a Japanese teacher at university' — three nouns joined by two の, and it works perfectly.\n\nOne elegant trick: the final noun can be dropped entirely when context makes it obvious. If someone asks 'whose bag is this?' you can answer わたしのです — 'It's mine.' The word 'bag' disappears and の holds its place. Native speakers use this dropped-noun shortcut constantly, and once you start noticing it, you will see it everywhere.",
+   "rules": [
+    "A の B = B that belongs to / is related to A",
+    "Shows possession: 私[わたし]の本[ほん] = my book",
+    "Shows category or type: 日本語[にほんご]の本[ほん] = a Japanese-language book",
+    "の can stack: 大学[だいがく]の日本語[にほんご]の先生[せんせい] = a Japanese teacher at university",
+    "The final noun can be dropped when clear from context: 私[わたし]のです (It's mine)"
+   ],
+   "examples": [
+    {
+     "japanese": "これはわたしの本[ほん]です。",
+     "romaji": "Kore wa watashi no hon desu.",
+     "english": "This is my book."
+    },
+    {
+     "japanese": "メアリーさんのかばんはどこですか。",
+     "romaji": "Mearii-san no kaban wa doko desu ka.",
+     "english": "Where is Mary's bag?"
+    },
+    {
+     "japanese": "大学[だいがく]の先生[せんせい]ですか。",
+     "romaji": "Daigaku no sensei desu ka.",
+     "english": "Are you a university teacher?"
+    },
+    {
+     "japanese": "これはだれのですか。—わたしのです。",
+     "romaji": "Kore wa dare no desu ka. — Watashi no desu.",
+     "english": "Whose is this? — It's mine."
+    }
+   ],
+   "flashcardHeader": "の",
+   "flashcardAnswer": "Connects two nouns to show possession or category; the final noun can be dropped when obvious from context.",
+   "practice": [
+    {
+     "id": "no-possessive_q1",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "これはわたしの本[ほん]です。",
+     "choices": [
+      "This is someone's book.",
+      "This is my book.",
+      "This is a Japanese book.",
+      "My book is this one over there."
+     ],
+     "correctIndex": 1,
+     "explanation": "わたしの means 'my' — の connects the possessor (わたし) to the possessed (本[ほん]). The full structure is これ (this) + は + わたしの本[ほん] (my book) + です = 'This is my book.'"
+    },
+    {
+     "id": "no-possessive_q2",
+     "type": "construct",
+     "prompt": "How do you say 'Mary's bag' in Japanese?",
+     "choices": [
+      "メアリーさんのかばん",
+      "かばんのメアリーさん",
+      "メアリーさんはかばん",
+      "のメアリーさんかばん"
+     ],
+     "correctIndex": 0,
+     "explanation": "の connects [possessor] + の + [possessed item]: メアリーさんのかばん. Reversing the order would mean 'a bag's Mary,' which is nonsense. は marks a topic, not possession, so it cannot substitute for の here."
+    },
+    {
+     "id": "no-possessive_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask 'Whose is this?'",
+     "japanese": "これはだれ___ですか。",
+     "choices": [
+      "に",
+      "を",
+      "の",
+      "が"
+     ],
+     "correctIndex": 2,
+     "explanation": "だれの means 'whose' — の follows the question word だれ (who) to create a possessive question. を marks direct objects, に marks time or location, and が marks subjects — none of these create possession."
+    },
+    {
+     "id": "no-possessive_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses の to describe a type or category?",
+     "choices": [
+      "本[ほん]の日本語[にほんご]があります。",
+      "日本語[にほんご]は本[ほん]のあります。",
+      "日本語[にほんご]の本[ほん]があります。",
+      "の日本語[にほんご]本[ほん]があります。"
+     ],
+     "correctIndex": 2,
+     "explanation": "の links a descriptor noun (日本語[にほんご]) to the main noun (本[ほん]): 日本語[にほんご]の本[ほん] = 'a book in Japanese.' The descriptor always comes first, then の, then the noun being described — reversing this order changes or destroys the meaning."
+    },
+    {
+     "id": "no-possessive_q5",
+     "type": "construct",
+     "prompt": "Someone asks これはだれのですか。How do you answer 'It's mine' without repeating the noun?",
+     "choices": [
+      "わたしのはです。",
+      "のわたしです。",
+      "わたしのです。",
+      "わたしですの。"
+     ],
+     "correctIndex": 2,
+     "explanation": "When the noun is understood from context, it can be dropped after の. わたしの (my/mine) + です forms a complete, natural answer — a very common shorthand in everyday Japanese. Rearranging の and です breaks both grammar and meaning."
+    },
+    {
+     "id": "no-possessive_q6",
+     "type": "translation",
+     "prompt": "What does this phrase mean?",
+     "japanese": "田中[たなか]さんの傘[かさ]",
+     "choices": [
+      "Tanaka-san's umbrella",
+      "an umbrella for everyone",
+      "Tanaka-san is an umbrella",
+      "the umbrella near Tanaka-san"
+     ],
+     "correctIndex": 0,
+     "explanation": "の between two nouns shows possession:  + の + . 田中[たなか]さんの傘[かさ] = 'Tanaka-san's umbrella.' The possessor always comes first, then の, then the possessed item — the reverse order of the English apostrophe-s construction."
+    },
+    {
+     "id": "no-possessive_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'an English book' (a book written in English).",
+     "japanese": "英語[えいご]___本[ほん]",
+     "choices": [
+      "は",
+      "の",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "の connects a descriptor noun (英語[えいご] — English) to the main noun (本[ほん] — book) to show category or type: 英語[えいご]の本[ほん] = 'a book in English.' は marks topics, が marks subjects, を marks objects — none of these create a noun-modifying relationship between two nouns."
+    },
+    {
+     "id": "no-possessive_q8",
+     "type": "construct",
+     "prompt": "How do you say 'my friend Tanaka-san' (identifying Tanaka as your friend) in Japanese?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんの友達[ともだち]",
+      "友達[ともだち]は田中[たなか]さん",
+      "友達[ともだち]の田中[たなか]さん",
+      "の田中[たなか]さん友達[ともだち]"
+     ],
+     "correctIndex": 2,
+     "explanation": "の can express apposition — identifying who someone is: 友達[ともだち]の田中[たなか]さん means 'Tanaka-san, who is my friend.' 田中[たなか]さんの友達[ともだち] (A) reverses the order and means 'Tanaka-san's friend' — a different person entirely. は marks a topic, not an identifying relationship between two nouns."
+    },
+    {
+     "id": "no-possessive_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses chained の to mean 'a Japanese-language teacher at university'?",
+     "japanese": null,
+     "choices": [
+      "大学[だいがく]が日本語[にほんご]の先生[せんせい]",
+      "日本語[にほんご]の先生[せんせい]の大学[だいがく]",
+      "の大学[だいがく]日本語[にほんご]の先生[せんせい]",
+      "大学[だいがく]の日本語[にほんご]の先生[せんせい]"
+     ],
+     "correctIndex": 3,
+     "explanation": "の can chain: 大学[だいがく]の (at university) + 日本語[にほんご]の (of Japanese language) + 先生[せんせい] (teacher) = 大学[だいがく]の日本語[にほんご]の先生[せんせい]. Each の links its preceding noun to the next, narrowing the meaning from left to right. Reversing the order in (B) produces 'the university of the Japanese teacher,' which is a different meaning entirely."
+    },
+    {
+     "id": "no-possessive_q10",
+     "type": "translation",
+     "prompt": "What does わたしのです mean in this exchange?",
+     "japanese": "これはだれのかばんですか。—わたしのです。",
+     "choices": [
+      "It's mine.",
+      "It belongs to someone.",
+      "That's mine over there.",
+      "I have one too."
+     ],
+     "correctIndex": 0,
+     "explanation": "In わたしのです, の acts as a pronoun standing in for かばん (bag) that was mentioned in the question. This noun-dropping shortcut is very common in Japanese: わたしの (my) + です = 'It's mine.' Once a noun is established in context, の holds its place so you don't have to repeat it."
+    },
+    {
+     "id": "no-possessive_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'This is Yamada-san's coat.'",
+     "japanese": "これは山田[やまだ]さん___コートです。",
+     "choices": [
+      "は",
+      "の",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "の connects the possessor 山田[やまだ]さん to the possessed item コート: 山田[やまだ]さんのコート = 'Yamada-san's coat.' は marks a topic (cannot show possession between two nouns), が marks a subject, and を marks a direct object — all wrong for showing ownership here."
+    },
+    {
+     "id": "no-possessive_q12",
+     "type": "construct",
+     "prompt": "How do you say 'a Japanese car' (a car made in Japan) in Japanese?",
+     "japanese": null,
+     "choices": [
+      "車[くるま]の日本[にほん]",
+      "日本[にほん]は車[くるま]です",
+      "日本[にほん]の車[くるま]",
+      "車[くるま]は日本[にほん]のです"
+     ],
+     "correctIndex": 2,
+     "explanation": "Descriptor noun + の + main noun: 日本[にほん]の車[くるま] = 'a Japanese car / a car from Japan.' The descriptor (日本[にほん] — Japan) always comes BEFORE の, and the main noun (車[くるま] — car) comes after. 車[くるま]の日本[にほん] (A) would mean 'Japan of the car,' which is nonsensical."
+    },
+    {
+     "id": "no-possessive_q13",
+     "type": "translation",
+     "prompt": "What does this phrase mean?",
+     "japanese": "私[わたし]の大学[だいがく]の友達[ともだち]",
+     "choices": [
+      "the university of my friend",
+      "my friend's college major",
+      "a friend from my friend's university",
+      "my friend at university / my college friend"
+     ],
+     "correctIndex": 3,
+     "explanation": "私[わたし]の大学[だいがく]の友達[ともだち] chains two の links: 私[わたし]の (my) modifies 大学[だいがく] (university), and 大学[だいがく]の then modifies 友達[ともだち] (friend) — giving 'a friend at my university.' Reading left to right: my → university → friend. Each の narrows down which friend is meant."
+    },
+    {
+     "id": "no-possessive_q14",
+     "type": "usage",
+     "prompt": "Which statement best describes how の and が interact inside a Japanese relative clause?",
+     "japanese": null,
+     "choices": [
+      "Inside a relative clause, の can replace が as the subject marker: 私[わたし]が書[か]いた本[ほん] and 私[わたし]の書[か]いた本[ほん] mean the same thing.",
+      "が and の are never interchangeable — の only shows possession, never marks a subject.",
+      "Inside a relative clause, の always replaces が and the two are identical in every context.",
+      "の marks objects inside relative clauses, while が marks subjects outside them."
+     ],
+     "correctIndex": 0,
+     "explanation": "Inside relative clauses, の can substitute for が as a subject marker: 私[わたし]が書[か]いた本[ほん] (the book that I wrote) and 私[わたし]の書[か]いた本[ほん] mean exactly the same thing. This の-for-が substitution only works INSIDE relative clauses — outside them, の marks possession and が marks subjects as usual."
+    },
+    {
+     "id": "no-possessive_q15",
+     "type": "fillBlank",
+     "prompt": "Someone asks 'Which car is yours?' Fill in the blank to say 'The red one' using の as a pronoun.",
+     "japanese": "赤[あか]い___がわたしのです。",
+     "choices": [
+      "は",
+      "の",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "の here acts as a pronoun, replacing the noun 車[くるま] (car) that both speakers already understand: 赤[あか]いの = 'the red one.' This の-pronoun usage is very common in everyday Japanese — once a noun is established in context, の stands in its place to avoid repetition."
+    },
+    {
+     "id": "no-possessive_q16",
+     "type": "translation",
+     "prompt": "What does this phrase mean?",
+     "japanese": "同僚[どうりょう]の鈴木[すずき]さん",
+     "choices": [
+      "Suzuki-san's colleague",
+      "a colleague who is Suzuki-san's",
+      "my colleague Suzuki-san",
+      "Suzuki-san's office"
+     ],
+     "correctIndex": 2,
+     "explanation": "同僚[どうりょう]の鈴木[すずき]さん uses の for apposition: 同僚[どうりょう]の (colleague) identifies the role 鈴木[すずき]さん plays — 'Suzuki-san, my colleague.' The pattern の introduces or identifies someone by their connection to you. 鈴木[すずき]さんの同僚[どうりょう] (A) reverses the order and means 'Suzuki-san's colleague' — a different person."
+    },
+    {
+     "id": "no-possessive_q17",
+     "type": "construct",
+     "prompt": "Someone asks あのかばんはだれのですか。How do you answer 'It's Tanaka-san's' without repeating かばん?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんのかばんです。",
+      "田中[たなか]さんはかばんです。",
+      "田中[たなか]さんがかばんです。",
+      "田中[たなか]さんのです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "When the noun (かばん — bag) is clear from context, drop it and let の hold the place: 田中[たなか]さんの + です = 田中[たなか]さんのです ('It's Tanaka-san's'). This is the の-pronoun pattern in action. Option A repeats かばん unnecessarily. Options B and C use は and が incorrectly in place of the possessive の."
+    },
+    {
+     "id": "no-possessive_q18",
+     "type": "usage",
+     "prompt": "Which rule correctly describes the word order with の?",
+     "japanese": null,
+     "choices": [
+      "The possessing or describing noun comes BEFORE の, and the noun being possessed or described comes AFTER.",
+      "The noun being described comes BEFORE の, and the descriptor comes AFTER.",
+      "Both nouns can appear on either side of の with no change in meaning.",
+      "の always follows the main noun and precedes any modifiers."
+     ],
+     "correctIndex": 0,
+     "explanation": "A の B always means 'B that belongs to / is related to A': the possessor or descriptor (A) comes BEFORE の, the possessed or described noun (B) comes AFTER. Reversing the order changes the meaning: 私[わたし]の本[ほん] (my book) vs 本[ほん]の私[わたし] ('I of the book' — nonsensical)."
+    },
+    {
+     "id": "no-possessive_q19",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to complete the chain: 'a teacher of Japanese language at university.'",
+     "japanese": "大学[だいがく]___日本語[にほんご]の先生[せんせい]",
+     "choices": [
+      "は",
+      "の",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "の chains the nouns: 大学[だいがく]の (at/of university) + 日本語[にほんご]の (of Japanese) + 先生[せんせい] (teacher) = 大学[だいがく]の日本語[にほんご]の先生[せんせい]. The blank needs の to link 大学[だいがく] to the next level of description. は would mark 大学[だいがく] as a sentence topic (completely changing the structure); が and を are subject and object markers that cannot connect nouns this way."
+    },
+    {
+     "id": "no-possessive_q20",
+     "type": "construct",
+     "prompt": "Which pair of sentences has the same meaning? (Both should mean 'the book that Tanaka-san wrote')",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんを書[か]いた本[ほん]",
+      "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんの本[ほん]を書[か]いた",
+      "田中[たなか]さんが書[か]いた本[ほん] / 田中[たなか]さんの書[か]いた本[ほん]",
+      "田中[たなか]さんの書[か]いた本[ほん] / 田中[たなか]さんは書[か]いた本[ほん]"
+     ],
+     "correctIndex": 2,
+     "explanation": "Inside a relative clause (a verb phrase modifying a noun), の can replace が as the subject marker. 田中[たなか]さんが書[か]いた本[ほん] and 田中[たなか]さんの書[か]いた本[ほん] are both natural and mean exactly 'the book that Tanaka-san wrote.' This の-for-が swap only works INSIDE relative clauses — outside them, の and が have completely distinct roles."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch01_v01",
+   "partOfSpeech": "pronoun",
+   "kanji": "私",
+   "kana": "わたし",
+   "romaji": "watashi",
+   "definition": "I; me"
+  },
+  {
+   "id": "ch01_v02",
+   "partOfSpeech": "pronoun",
+   "kanji": "あなた",
+   "kana": "あなた",
+   "romaji": "anata",
+   "definition": "you"
+  },
+  {
+   "id": "ch01_v03",
+   "partOfSpeech": "noun",
+   "kanji": "彼",
+   "kana": "かれ",
+   "romaji": "kare",
+   "definition": "he; boyfriend"
+  },
+  {
+   "id": "ch01_v04",
+   "partOfSpeech": "noun",
+   "kanji": "彼女",
+   "kana": "かのじょ",
+   "romaji": "kanojo",
+   "definition": "she; girlfriend"
+  },
+  {
+   "id": "ch01_v05",
+   "partOfSpeech": "noun",
+   "kanji": "人",
+   "kana": "ひと",
+   "romaji": "hito",
+   "definition": "person"
+  },
+  {
+   "id": "ch01_v06",
+   "partOfSpeech": "noun",
+   "kanji": "男の人",
+   "kana": "おとこのひと",
+   "romaji": "otokonohito",
+   "definition": "man"
+  },
+  {
+   "id": "ch01_v07",
+   "partOfSpeech": "noun",
+   "kanji": "女の人",
+   "kana": "おんなのひと",
+   "romaji": "onnanohito",
+   "definition": "woman"
+  },
+  {
+   "id": "ch01_v08",
+   "partOfSpeech": "noun",
+   "kanji": "男の子",
+   "kana": "おとこのこ",
+   "romaji": "otokonoko",
+   "definition": "boy"
+  },
+  {
+   "id": "ch01_v09",
+   "partOfSpeech": "noun",
+   "kanji": "女の子",
+   "kana": "おんなのこ",
+   "romaji": "onnanoko",
+   "definition": "girl"
+  },
+  {
+   "id": "ch01_v10",
+   "partOfSpeech": "noun",
+   "kanji": "子供",
+   "kana": "こども",
+   "romaji": "kodomo",
+   "definition": "child"
+  },
+  {
+   "id": "ch01_v11",
+   "partOfSpeech": "noun",
+   "kanji": "大人",
+   "kana": "おとな",
+   "romaji": "otona",
+   "definition": "adult"
+  },
+  {
+   "id": "ch01_v12",
+   "partOfSpeech": "noun",
+   "kanji": "友達",
+   "kana": "ともだち",
+   "romaji": "tomodachi",
+   "definition": "friend"
+  },
+  {
+   "id": "ch01_v13",
+   "partOfSpeech": "noun",
+   "kanji": "名前",
+   "kana": "なまえ",
+   "romaji": "namae",
+   "definition": "name"
+  },
+  {
+   "id": "ch01_v14",
+   "partOfSpeech": "noun",
+   "kanji": "学生",
+   "kana": "がくせい",
+   "romaji": "gakusei",
+   "definition": "student"
+  },
+  {
+   "id": "ch01_v15",
+   "partOfSpeech": "noun",
+   "kanji": "先生",
+   "kana": "せんせい",
+   "romaji": "sensei",
+   "definition": "teacher"
+  },
+  {
+   "id": "ch01_v16",
+   "partOfSpeech": "noun",
+   "kanji": "医者",
+   "kana": "いしゃ",
+   "romaji": "isha",
+   "definition": "doctor"
+  },
+  {
+   "id": "ch01_v17",
+   "partOfSpeech": "noun",
+   "kanji": "会社員",
+   "kana": "かいしゃいん",
+   "romaji": "kaishain",
+   "definition": "company employee"
+  },
+  {
+   "id": "ch01_v18",
+   "partOfSpeech": "noun",
+   "kanji": "店員",
+   "kana": "てんいん",
+   "romaji": "ten'in",
+   "definition": "store clerk"
+  },
+  {
+   "id": "ch01_v19",
+   "partOfSpeech": "noun",
+   "kanji": "大学",
+   "kana": "だいがく",
+   "romaji": "daigaku",
+   "definition": "university"
+  },
+  {
+   "id": "ch01_v20",
+   "partOfSpeech": "noun",
+   "kanji": "会社",
+   "kana": "かいしゃ",
+   "romaji": "kaisha",
+   "definition": "company"
+  },
+  {
+   "id": "ch01_v21",
+   "partOfSpeech": "noun",
+   "kanji": "日本",
+   "kana": "にほん",
+   "romaji": "nihon",
+   "definition": "Japan"
+  },
+  {
+   "id": "ch01_v22",
+   "partOfSpeech": "noun",
+   "kanji": "日本人",
+   "kana": "にほんじん",
+   "romaji": "nihonjin",
+   "definition": "Japanese person"
+  },
+  {
+   "id": "ch01_v23",
+   "partOfSpeech": "noun",
+   "kanji": "アメリカ",
+   "kana": "アメリカ",
+   "romaji": "amerika",
+   "definition": "America"
+  },
+  {
+   "id": "ch01_v24",
+   "partOfSpeech": "noun",
+   "kanji": "アメリカ人",
+   "kana": "アメリカじん",
+   "romaji": "amerikajin",
+   "definition": "American (person)"
+  },
+  {
+   "id": "ch01_v25",
+   "partOfSpeech": "noun",
+   "kanji": "中国",
+   "kana": "ちゅうごく",
+   "romaji": "chuugoku",
+   "definition": "China"
+  },
+  {
+   "id": "ch01_v26",
+   "partOfSpeech": "noun",
+   "kanji": "英語",
+   "kana": "えいご",
+   "romaji": "eigo",
+   "definition": "English (language)"
+  },
+  {
+   "id": "ch01_v27",
+   "partOfSpeech": "noun",
+   "kanji": "日本語",
+   "kana": "にほんご",
+   "romaji": "nihongo",
+   "definition": "Japanese (language)"
+  },
+  {
+   "id": "ch01_v28",
+   "partOfSpeech": "noun",
+   "kanji": "国",
+   "kana": "くに",
+   "romaji": "kuni",
+   "definition": "country"
+  },
+  {
+   "id": "ch01_v29",
+   "partOfSpeech": "noun",
+   "kanji": "年",
+   "kana": "とし",
+   "romaji": "toshi",
+   "definition": "year; age"
+  },
+  {
+   "id": "ch01_v30",
+   "partOfSpeech": "noun",
+   "kanji": "名刺",
+   "kana": "めいし",
+   "romaji": "meishi",
+   "definition": "business card"
+  },
+  {
+   "id": "ch01_v31",
+   "partOfSpeech": "expression",
+   "kanji": "はじめまして",
+   "kana": "はじめまして",
+   "romaji": "hajimemashite",
+   "definition": "Nice to meet you"
+  },
+  {
+   "id": "ch01_v32",
+   "partOfSpeech": "expression",
+   "kanji": "よろしくお願いします",
+   "kana": "よろしくおねがいします",
+   "romaji": "yoroshikuonegaishimasu",
+   "definition": "Pleased to meet you"
+  },
+  {
+   "id": "ch01_v33",
+   "partOfSpeech": "expression",
+   "kanji": "こんにちは",
+   "kana": "こんにちは",
+   "romaji": "konnichiha",
+   "definition": "hello; good afternoon"
+  },
+  {
+   "id": "ch01_v34",
+   "partOfSpeech": "expression",
+   "kanji": "おはようございます",
+   "kana": "おはようございます",
+   "romaji": "ohayougozaimasu",
+   "definition": "good morning"
+  },
+  {
+   "id": "ch01_v35",
+   "partOfSpeech": "expression",
+   "kanji": "こんばんは",
+   "kana": "こんばんは",
+   "romaji": "konbanha",
+   "definition": "good evening"
+  },
+  {
+   "id": "ch01_v36",
+   "partOfSpeech": "expression",
+   "kanji": "さようなら",
+   "kana": "さようなら",
+   "romaji": "sayounara",
+   "definition": "goodbye"
+  },
+  {
+   "id": "ch01_v37",
+   "partOfSpeech": "expression",
+   "kanji": "はい",
+   "kana": "はい",
+   "romaji": "hai",
+   "definition": "yes"
+  },
+  {
+   "id": "ch01_v38",
+   "partOfSpeech": "expression",
+   "kanji": "いいえ",
+   "kana": "いいえ",
+   "romaji": "iie",
+   "definition": "no"
+  },
+  {
+   "id": "ch01_v39",
+   "partOfSpeech": "expression",
+   "kanji": "すみません",
+   "kana": "すみません",
+   "romaji": "sumimasen",
+   "definition": "excuse me; sorry"
+  },
+  {
+   "id": "ch01_v40",
+   "partOfSpeech": "expression",
+   "kanji": "ありがとうございます",
+   "kana": "ありがとうございます",
+   "romaji": "arigatougozaimasu",
+   "definition": "thank you"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "国",
+   "word": "国",
+   "reading": "くに",
+   "meaning": "country"
+  },
+  {
+   "char": "人",
+   "word": "人",
+   "reading": "ひと",
+   "meaning": "person"
+  },
+  {
+   "char": "本",
+   "word": "本",
+   "reading": "ほん",
+   "meaning": "book"
+  },
+  {
+   "char": "前",
+   "word": "前",
+   "reading": "まえ",
+   "meaning": "front; before"
+  },
+  {
+   "char": "生",
+   "word": "学生",
+   "reading": "がくせい",
+   "meaning": "student"
+  },
+  {
+   "char": "学",
+   "word": "学生",
+   "reading": "がくせい",
+   "meaning": "student"
+  },
+  {
+   "char": "女",
+   "word": "女",
+   "reading": "おんな",
+   "meaning": "woman"
+  },
+  {
+   "char": "名",
+   "word": "名前",
+   "reading": "なまえ",
+   "meaning": "name"
+  },
+  {
+   "char": "男",
+   "word": "男の人",
+   "reading": "おとこのひと",
+   "meaning": "man"
+  },
+  {
+   "char": "語",
+   "word": "日本語",
+   "reading": "にほんご",
+   "meaning": "Japanese (language)"
+  },
+  {
+   "char": "友",
+   "word": "友達",
+   "reading": "ともだち",
+   "meaning": "friend"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "国",
+   "kana": "くに",
+   "romaji": "kuni",
+   "meaning": "country",
+   "chars": [
+    "国"
+   ]
+  },
+  {
+   "word": "人",
+   "kana": "ひと",
+   "romaji": "hito",
+   "meaning": "person",
+   "chars": [
+    "人"
+   ]
+  },
+  {
+   "word": "本",
+   "kana": "ほん",
+   "romaji": "hon",
+   "meaning": "book",
+   "chars": [
+    "本"
+   ]
+  },
+  {
+   "word": "前",
+   "kana": "まえ",
+   "romaji": "mae",
+   "meaning": "front; before",
+   "chars": [
+    "前"
+   ]
+  },
+  {
+   "word": "学生",
+   "kana": "がくせい",
+   "romaji": "gakusei",
+   "meaning": "student",
+   "chars": [
+    "学",
+    "生"
+   ]
+  },
+  {
+   "word": "女",
+   "kana": "おんな",
+   "romaji": "onna",
+   "meaning": "woman",
+   "chars": [
+    "女"
+   ]
+  },
+  {
+   "word": "名前",
+   "kana": "なまえ",
+   "romaji": "namae",
+   "meaning": "name",
+   "chars": [
+    "名",
+    "前"
+   ]
+  },
+  {
+   "word": "男の人",
+   "kana": "おとこのひと",
+   "romaji": "otokonohito",
+   "meaning": "man",
+   "chars": [
+    "男",
+    "人"
+   ]
+  },
+  {
+   "word": "日本語",
+   "kana": "にほんご",
+   "romaji": "nihongo",
+   "meaning": "Japanese (language)",
+   "chars": [
+    "日",
+    "本",
+    "語"
+   ]
+  },
+  {
+   "word": "友達",
+   "kana": "ともだち",
+   "romaji": "tomodachi",
+   "meaning": "friend",
+   "chars": [
+    "友",
+    "達"
+   ]
+  },
+  {
+   "word": "彼女",
+   "kana": "かのじょ",
+   "romaji": "kanojo",
+   "meaning": "she",
+   "chars": [
+    "彼",
+    "女"
+   ]
+  },
+  {
+   "word": "女の子",
+   "kana": "おんなのこ",
+   "romaji": "onnanoko",
+   "meaning": "girl",
+   "chars": [
+    "女",
+    "子"
+   ]
+  },
+  {
+   "word": "男の子",
+   "kana": "おとこのこ",
+   "romaji": "otokonoko",
+   "meaning": "boy",
+   "chars": [
+    "男",
+    "子"
+   ]
+  },
+  {
+   "word": "英語",
+   "kana": "えいご",
+   "romaji": "eigo",
+   "meaning": "English (language)",
+   "chars": [
+    "英",
+    "語"
+   ]
+  },
+  {
+   "word": "店員",
+   "kana": "てんいん",
+   "romaji": "ten'in",
+   "meaning": "employee (of a store)",
+   "chars": [
+    "店",
+    "員"
+   ]
+  },
+  {
+   "word": "年",
+   "kana": "とし",
+   "romaji": "toshi",
+   "meaning": "year",
+   "chars": [
+    "年"
+   ]
+  },
+  {
+   "word": "子供",
+   "kana": "こども",
+   "romaji": "kodomo",
+   "meaning": "child",
+   "chars": [
+    "子",
+    "供"
+   ]
+  }
+ ]
 }

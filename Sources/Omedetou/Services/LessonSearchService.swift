@@ -7,15 +7,17 @@ struct LessonSearchResult: Identifiable {
         case grammar(GrammarPoint)
         case vocab(LessonVocabWord)
         case kanji(String)
+        case kanjiWord(ChapterKanjiWord)
         case culture(CultureTopic)
 
         /// Sort order within a chapter group.
         var rank: Int {
             switch self {
-            case .grammar: return 0
-            case .vocab:   return 1
-            case .kanji:   return 2
-            case .culture: return 3
+            case .grammar:   return 0
+            case .vocab:     return 1
+            case .kanjiWord: return 2
+            case .kanji:     return 3
+            case .culture:   return 4
             }
         }
 
@@ -23,6 +25,7 @@ struct LessonSearchResult: Identifiable {
             switch self {
             case let .grammar(p): return p.isKanaCharacter ? "Kana" : "Grammar"
             case .vocab:          return "Vocab"
+            case .kanjiWord:      return "Kanji Word"
             case .kanji:          return "Kanji"
             case .culture:        return "Culture"
             }
@@ -80,6 +83,10 @@ final class LessonSearchService {
                 for w in chapter.vocab ?? [] {
                     out.append(make(.vocab(w), "v:\(w.id)",
                                     w.kanji, w.definition, "\(w.kana) \(w.romaji) \(w.partOfSpeech)"))
+                }
+                for w in chapter.kanjiWords ?? [] {
+                    out.append(make(.kanjiWord(w), "kw:\(summary.id)/\(w.id)",
+                                    w.word, w.meaning, "\(w.kana) \(w.romaji)"))
                 }
                 for k in chapter.kanjiChars {
                     let card = cardStore.kanjiCard(for: k)

@@ -1,1411 +1,1658 @@
 {
-  "id": "ch47",
-  "chapterNumber": 49,
-  "title": "Commitment and Compulsion",
-  "points": [
+ "id": "ch47",
+ "chapterNumber": 49,
+ "title": "Commitment and Compulsion",
+ "points": [
+  {
+   "id": "kara-ni-wa",
+   "name": "〜からには (kara ni wa) — now that / since (commitment follows)",
+   "shortDescription": "Given that a situation is established, the speaker commits to a natural or necessary consequence — no backing out.",
+   "formation": "Plain form + からには / からは",
+   "explanation": "からには draws a line in the sand: once this fact is established, a certain commitment or consequence inevitably follows from it. The literal sense is 'now that / given that,' but the real weight is moral: the situation has been defined, and with it comes an obligation or resolution that cannot be avoided. やると決[き]めたからには、最後[さいご]まであきらめない — 'Now that I've decided to do it, I will not give up to the end.' The decision is the line; からには is the crossing of it.\n\nからには is stronger than のだから (since/because — which is more explanatory) because it implies the speaker genuinely feels bound — there's a Japanese-inflected sense of personal honor at stake: once you've said yes, backing down reflects poorly on your character.\n\nThe main clause characteristically expresses strong personal resolve, professional obligation, or a logical necessity: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or a volitional form. からは is a slightly shorter variant with the same meaning.",
+   "rules": [
+    "Plain form + からには = now that / since (established fact → obligation or commitment)",
+    "The main clause expresses a natural obligation, resolution, or logical consequence",
+    "Implies the speaker is genuinely bound by the established fact — stronger and more personal than のだから",
+    "Often followed by: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or volitional forms",
+    "からは = shorter variant; same meaning, slightly less common"
+   ],
+   "examples": [
     {
-      "id": "kara-ni-wa",
-      "name": "〜からには (kara ni wa) — now that / since (commitment follows)",
-      "shortDescription": "Given that a situation is established, the speaker commits to a natural or necessary consequence — no backing out.",
-      "formation": "Plain form + からには / からは",
-      "explanation": "からには draws a line in the sand: once this fact is established, a certain commitment or consequence inevitably follows from it. The literal sense is 'now that / given that,' but the real weight is moral: the situation has been defined, and with it comes an obligation or resolution that cannot be avoided. やると決[き]めたからには、最後[さいご]まであきらめない — 'Now that I've decided to do it, I will not give up to the end.' The decision is the line; からには is the crossing of it.\n\nからには is stronger than のだから (since/because — which is more explanatory) because it implies the speaker genuinely feels bound — there's a Japanese-inflected sense of personal honor at stake: once you've said yes, backing down reflects poorly on your character.\n\nThe main clause characteristically expresses strong personal resolve, professional obligation, or a logical necessity: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or a volitional form. からは is a slightly shorter variant with the same meaning.",
-      "rules": [
-        "Plain form + からには = now that / since (established fact → obligation or commitment)",
-        "The main clause expresses a natural obligation, resolution, or logical consequence",
-        "Implies the speaker is genuinely bound by the established fact — stronger and more personal than のだから",
-        "Often followed by: 〜なければならない, 〜べきだ, 〜ないわけにはいかない, or volitional forms",
-        "からは = shorter variant; same meaning, slightly less common"
-      ],
-      "examples": [
-        {
-          "japanese": "始[はじ]めたからには、最後[さいご]まで責任[せきにん]を持[も]って取[と]り組[く]みます。",
-          "romaji": "Hajimeta kara ni wa, saigo made sekinin wo motte torikumimasu.",
-          "english": "Now that I've started, I will see it through to the end with full responsibility."
-        },
-        {
-          "japanese": "プロになったからには、常[つね]に最高[さいこう]のパフォーマンスを目指[めざ]すべきです。",
-          "romaji": "Puro ni natta kara ni wa, tsune ni saikou no pafoomansu wo mezasu beki desu.",
-          "english": "Now that you've become a professional, you should always aim for the best performance."
-        },
-        {
-          "japanese": "引[ひ]き受[う]けたからには、途中[とちゅう]で投[な]げ出[だ]すわけにはいきません。",
-          "romaji": "Hikiuketa kara ni wa, tochuu de nagedasu wake ni wa ikimasen.",
-          "english": "Now that I've taken it on, there's no way I can drop it halfway."
-        },
-        {
-          "japanese": "ここまで来[き]たからには、もう後[あと]には退[ひ]けない。",
-          "romaji": "Koko made kita kara ni wa, mou ato ni wa hikenai.",
-          "english": "Now that we've come this far, there's no turning back."
-        }
-      ],
-      "flashcardHeader": "〜からには",
-      "flashcardAnswer": "Given that a situation is established, the speaker commits to a natural or necessary consequence — there is no backing out.",
-      "practice": [
-        {
-          "id": "kara-ni-wa_q1",
-          "type": "usage",
-          "prompt": "What does 〜からには mean?",
-          "japanese": null,
-          "choices": [
-            "although / despite",
-            "now that X / since X (with a commitment or obligation following) — given that X is true/done, Y (a decision, obligation, or strong expectation) follows",
-            "from the start",
-            "in order to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜からには = now that X / since X, therefore Y (with commitment). やると言[い]ったからには、やらなければならない = now that I've said I'll do it, I have to. Marks a point of no return — once X is established, Y naturally follows as an obligation or determination."
-        },
-        {
-          "id": "kara-ni-wa_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've started, I'll see it through to the end'?",
-          "japanese": null,
-          "choices": [
-            "始[はじ]めたからには、最後[さいご]までやり遂[と]げる。",
-            "始[はじ]めたから、最後[さいご]までやり遂[と]げる。",
-            "始[はじ]めたので、最後[さいご]までやり遂[と]げる。",
-            "始[はじ]めたなら、最後[さいご]までやり遂[と]げる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 始[はじ]めた + からには = now that I've started. 最後[さいご]までやり遂[と]げる = I'll see it through to the end. からには marks the commitment that follows from having started."
-        },
-        {
-          "id": "kara-ni-wa_q3",
-          "type": "translation",
-          "prompt": "Which means 'Now that you are part of the team, please give your best effort'?",
-          "japanese": null,
-          "choices": [
-            "チームに入[はい]ったからには、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[はい]ったから、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[はい]ったので、全力[ぜんりょく]で頑張[がんば]ってください。",
-            "チームに入[はい]ったなら、全力[ぜんりょく]で頑張[がんば]ってください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: チームに入[はい]った + からには = now that (you've) joined the team. 全力[ぜんりょく]で頑張[がんば]ってください = please give your best effort. からには establishes team membership as the basis for the commitment expectation."
-        },
-        {
-          "id": "kara-ni-wa_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've promised, I must keep my word'?",
-          "japanese": null,
-          "choices": [
-            "約束[やくそく]したからには、守[まも]らなければならない。",
-            "約束[やくそく]したから、守[まも]らなければならない。",
-            "約束[やくそく]したので、守[まも]らなければならない。",
-            "約束[やくそく]したなら、守[まも]らなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 約束[やくそく]した + からには = now that I've promised. 守[まも]らなければならない = must keep (the promise). からには marks the promise as a point of no return — obligation follows."
-        },
-        {
-          "id": "kara-ni-wa_q5",
-          "type": "usage",
-          "prompt": "What typically follows からには in the main clause?",
-          "japanese": null,
-          "choices": [
-            "A wish or hope (〜たい), regardless of context or politeness level — this is true in both spoken and written Japanese.",
-            "An obligation (〜なければならない), determination (〜つもり/〜ようと思[おも]う), or strong expectation — something that should or must follow from X",
-            "A question",
-            "A past event"
-          ],
-          "correctIndex": 1,
-          "explanation": "からには is followed by: obligation (〜ねばならない、〜べきだ), determination (〜つもりだ、〜ようとする), or expectation (〜はずだ). These all signal that X creates an irrevocable situation from which Y follows as a natural, necessary consequence."
-        },
-        {
-          "id": "kara-ni-wa_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've accepted the job, I will give my all'?",
-          "japanese": null,
-          "choices": [
-            "仕事[しごと]を引[ひ]き受[う]けたからには、全力[ぜんりょく]を尽[つ]くす。",
-            "仕事[しごと]を引[ひ]き受[う]けたから、全力[ぜんりょく]を尽[つ]くす。",
-            "仕事[しごと]を引[ひ]き受[う]けたので、全力[ぜんりょく]を尽[つ]くす。",
-            "仕事[しごと]を引[ひ]き受[う]けたなら、全力[ぜんりょく]を尽[つ]くす。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 引[ひ]き受[う]けた + からには = now that I've accepted. 全力[ぜんりょく]を尽[つ]くす = I will give my all. からには marks accepting the job as the commitment point."
-        },
-        {
-          "id": "kara-ni-wa_q7",
-          "type": "translation",
-          "prompt": "Which means 'Now that you've decided to study, do it properly'?",
-          "japanese": null,
-          "choices": [
-            "勉強[べんきょう]すると決[き]めたからには、ちゃんとやりなさい。",
-            "勉強[べんきょう]すると決[き]めたから、ちゃんとやりなさい。",
-            "勉強[べんきょう]すると決[き]めたので、ちゃんとやりなさい。",
-            "勉強[べんきょう]すると決[き]めたなら、ちゃんとやりなさい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 決[き]めた + からには = now that (you've) decided. ちゃんとやりなさい = do it properly. からには marks the decision as the basis for the directive expectation."
-        },
-        {
-          "id": "kara-ni-wa_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that we've entered the finals, we cannot lose'?",
-          "japanese": null,
-          "choices": [
-            "決勝[けっしょう]に進[すす]んだからには、負[ま]けるわけにはいかない。",
-            "決勝[けっしょう]に進[すす]んだから、負[ま]けるわけにはいかない。",
-            "決勝[けっしょう]に進[すす]んだので、負[ま]けるわけにはいかない。",
-            "決勝[けっしょう]に進[すす]んだなら、負[ま]けるわけにはいかない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 進[すす]んだ + からには = now that (we've) advanced to the finals. 負[ま]けるわけにはいかない = cannot afford to lose. からには marks reaching the finals as a point that prohibits losing."
-        },
-        {
-          "id": "kara-ni-wa_q9",
-          "type": "usage",
-          "prompt": "からには vs. からは — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are completely different in meaning — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
-            "Almost identical; からには adds more emphasis (〜には has a conditional/emphatic nuance); からは is slightly more direct. Both = 'now that / since X, Y'",
-            "からは is more formal",
-            "からには is only for past events"
-          ],
-          "correctIndex": 1,
-          "explanation": "からには and からは are nearly interchangeable. からには is more common and adds slight emphasis through には. Both mean 'now that X / since X (the following commitment/obligation holds).' やると言[い]ったからには (stronger emphasis). やると言[い]ったからは (slightly more direct). からには is preferred in modern usage."
-        },
-        {
-          "id": "kara-ni-wa_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that you've come all this way, make sure to see the sights'?",
-          "japanese": null,
-          "choices": [
-            "せっかくここまで来[き]たからには、観光[かんこう]をしっかり楽[たの]しんでください。",
-            "せっかくここまで来[き]たから、観光[かんこう]をしっかり楽[たの]しんでください。",
-            "せっかくここまで来[き]たので、観光[かんこう]をしっかり楽[たの]しんでください。",
-            "せっかくここまで来[き]たなら、観光[かんこう]をしっかり楽[たの]しんでください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 来[き]た + からには = now that (you've) come. 観光[かんこう]をしっかり楽[たの]しんでください = please enjoy the sights thoroughly. からには: the journey itself creates an expectation to make the most of it."
-        },
-        {
-          "id": "kara-ni-wa_q11",
-          "type": "translation",
-          "prompt": "Which means 'Now that I'm alive, I want to live to the fullest'?",
-          "japanese": null,
-          "choices": [
-            "生[い]きているからには、精一杯[せいいっぱい]生[い]きたい。",
-            "生[い]きているから、精一杯[せいいっぱい]生[い]きたい。",
-            "生[い]きているので、精一杯[せいいっぱい]生[い]きたい。",
-            "生[い]きているなら、精一杯[せいいっぱい]生[い]きたい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb te-iru + からには: 生[い]きている + からには = now that (I'm) alive. 精一杯[せいいっぱい]生[い]きたい = I want to live to the fullest. からには turns the very fact of being alive into a commitment to live fully."
-        },
-        {
-          "id": "kara-ni-wa_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that you've entered this company, you should respect the culture here'?",
-          "japanese": null,
-          "choices": [
-            "この会社[かいしゃ]に入[はい]ったからには、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[はい]ったから、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[はい]ったので、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
-            "この会社[かいしゃ]に入[はい]ったなら、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 入[はい]った + からには = now that (you've) joined. 文化[ぶんか]を尊重[そんちょう]すべきだ = should respect the culture. からには: joining the company creates an obligation to respect its values."
-        },
-        {
-          "id": "kara-ni-wa_q13",
-          "type": "usage",
-          "prompt": "からには — is X something that has already happened, or is it a condition?",
-          "japanese": null,
-          "choices": [
-            "Always a future condition",
-            "Typically something ALREADY DECIDED or DONE — a completed action, an established fact, or a made decision. からには marks it as a point of no return",
-            "Only hypothetical situations, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
-            "Only ongoing actions"
-          ],
-          "correctIndex": 1,
-          "explanation": "からには typically follows something already done/decided: やると言[い]ったからには (now that I've said I'll do it — already said). It can also follow present/general states: 生[い]きているからには (now that I'm alive — ongoing). The key is that X is established and から-には builds a commitment from that established fact."
-        },
-        {
-          "id": "kara-ni-wa_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've made up my mind to lose weight, I will exercise every day'?",
-          "japanese": null,
-          "choices": [
-            "ダイエットを決意[けつい]したからには、毎日[まいにち]運動[うんどう]する。",
-            "ダイエットを決意[けつい]したから、毎日[まいにち]運動[うんどう]する。",
-            "ダイエットを決意[けつい]したので、毎日[まいにち]運動[うんどう]する。",
-            "ダイエットを決意[けつい]したなら、毎日[まいにち]運動[うんどう]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 決意[けつい]した + からには = now that (I've) resolved. 毎日[まいにち]運動[うんどう]する = will exercise every day. からには marks the resolution as a commitment point for the daily exercise pledge."
-        },
-        {
-          "id": "kara-ni-wa_q15",
-          "type": "translation",
-          "prompt": "Which means 'Now that I've published the book, I take responsibility for its content'?",
-          "japanese": null,
-          "choices": [
-            "本[ほん]を出版[しゅっぱん]したからには、内容[ないよう]に責任[せきにん]を持[も]つ。",
-            "本[ほん]を出版[しゅっぱん]したから、内容[ないよう]に責任[せきにん]を持[も]つ。",
-            "本[ほん]を出版[しゅっぱん]したので、内容[ないよう]に責任[せきにん]を持[も]つ。",
-            "本[ほん]を出版[しゅっぱん]したなら、内容[ないよう]に責任[せきにん]を持[も]つ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 出版[しゅっぱん]した + からには = now that (I've) published. 内容[ないよう]に責任[せきにん]を持[も]つ = take responsibility for the content. からには: publication is the irrevocable act from which content responsibility follows."
-        },
-        {
-          "id": "kara-ni-wa_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that we've started the project, everyone must cooperate'?",
-          "japanese": null,
-          "choices": [
-            "プロジェクトを始[はじ]めたからには、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
-            "プロジェクトを始[はじ]めたから、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
-            "プロジェクトを始[はじ]めたので、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
-            "プロジェクトを始[はじ]めたなら、全員[ぜんいん]が協力[きょうりょく]しなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 始[はじ]めた + からには = now that (we've) started. 全員[ぜんいん]が協力[きょうりょく]しなければならない = everyone must cooperate. からには: starting the project creates a collective obligation."
-        },
-        {
-          "id": "kara-ni-wa_q17",
-          "type": "usage",
-          "prompt": "からには — which pair of sentences shows the 'point of no return' nuance?",
-          "japanese": null,
-          "choices": [
-            "雨[あめ]だから傘[かさ]を持[も]った (because of rain, took umbrella — simple causation)",
-            "競技[きょうぎ]に参加[さんか]したからには全力[ぜんりょく]でやるしかない (now that I've entered the competition, I can only give my all — point of no return)",
-            "遅[おく]れたから謝[あやま]った (because I was late, apologized — simple past causation) — and this holds in every register, formal or casual.",
-            "疲[つか]れたから休[やす]んだ (because I was tired, rested — simple causation)"
-          ],
-          "correctIndex": 1,
-          "explanation": "競技[きょうぎ]に参加[さんか]したからには全力[ぜんりょく]でやるしかない = now that I've entered the competition, I have no choice but to give my all. This shows the 'point of no return' — the act of entering (X) is irreversible and now creates an inescapable obligation (Y). からには captures this commitment."
-        },
-        {
-          "id": "kara-ni-wa_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've become a parent, I must be a good role model'?",
-          "japanese": null,
-          "choices": [
-            "親[おや]になったからには、いい手本[てほん]を見[み]せなければならない。",
-            "親[おや]になったから、いい手本[てほん]を見[み]せなければならない。",
-            "親[おや]になったので、いい手本[てほん]を見[み]せなければならない。",
-            "親[おや]になったなら、いい手本[てほん]を見[み]せなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 親[おや]になった + からには = now that (I've) become a parent. 手本[てほん]を見[み]せなければならない = must be a role model. からには: parenthood is the established status from which the obligation to model good behavior follows."
-        },
-        {
-          "id": "kara-ni-wa_q19",
-          "type": "translation",
-          "prompt": "Which means 'Now that I've been entrusted with this responsibility, I will not give up'?",
-          "japanese": null,
-          "choices": [
-            "この責任[せきにん]を任[まか]されたからには、諦[あきら]めない。",
-            "この責任[せきにん]を任[まか]されたから、諦[あきら]めない。",
-            "この責任[せきにん]を任[まか]されたので、諦[あきら]めない。",
-            "この責任[せきにん]を任[まか]されたなら、諦[あきら]めない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past (passive) + からには: 任[まか]された + からには = now that (I've) been entrusted. 諦[あきら]めない = will not give up. からには: the entrustment is the established fact from which the determination not to quit follows."
-        },
-        {
-          "id": "kara-ni-wa_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Now that I've decided to live abroad, I'll study the local culture'?",
-          "japanese": null,
-          "choices": [
-            "海外[かいがい]に住[す]むと決[き]めたからには、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
-            "海外[かいがい]に住[す]むと決[き]めたから、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
-            "海外[かいがい]に住[す]むと決[き]めたので、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
-            "海外[かいがい]に住[す]むと決[き]めたなら、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からには: 決[き]めた + からには = now that (I've) decided. 現地[げんち]の文化[ぶんか]を勉強[べんきょう]する = will study the local culture. からには: the decision to live abroad creates a commitment to cultural preparation."
-        }
-      ]
+     "japanese": "始[はじ]めたからには、最後[さいご]まで責任[せきにん]を持[も]って取[と]り組[く]みます。",
+     "romaji": "Hajimeta kara ni wa, saigo made sekinin wo motte torikumimasu.",
+     "english": "Now that I've started, I will see it through to the end with full responsibility."
     },
     {
-      "id": "zu-ni-wa-okanai",
-      "name": "〜ずにはおかない (zu ni wa okanai) — will definitely / cannot help but cause",
-      "shortDescription": "Expresses that something will inevitably cause a reaction, or that the speaker is absolutely determined to act.",
-      "formation": "Verb (ない-form, replace ない with ず) + にはおかない",
-      "explanation": "ずにはおかない is grammar with steel in it. It combines the classical negative ず (replacing ない on the verb stem) with には (conditional) and おかない (won't leave alone / won't let be), yielding: 'I will not leave without doing this' or 'this will not fail to cause that.' There are two distinct uses.\n\nThe first describes an effect that will inevitably be produced in anyone who encounters something: 涙[なみだ]せずにはおかない映画[えいが] — 'a film that will not fail to make anyone cry' — the film is so moving it cannot leave its audience unmoved; it refuses to let them go dry-eyed. The second expresses fierce personal determination: 必[かなら]ず真相[しんそう]を明[あき]らかにせずにはおかない — 'I will not rest until I bring the truth to light.'\n\nThis differs from ずにはいられない (which expresses an irresistible inner impulse you cannot suppress) in a crucial way: おかない is about will, force, and external causation; いられない is about an inner compulsion. A gripping novel doesn't merely make you want to cry — it refuses to let you go unmoved. The grammar reflects exactly that distinction. Note the irregular: する → せずにはおかない.",
-      "rules": [
-        "Verb ない-form (replace ない with ず) + にはおかない = will definitely / inevitably causes [reaction]",
-        "する → せずにはおかない (irregular classical negative form of する)",
-        "Use 1: X is so [quality] that it will inevitably produce reaction Y in any observer",
-        "Use 2: strong personal determination — the speaker will absolutely do/achieve X no matter what",
-        "More forceful than ずにはいられない (irresistible inner impulse); おかない is about will and causation"
-      ],
-      "examples": [
-        {
-          "japanese": "あのシーンは誰[だれ]でも涙[なみだ]せずにはおかない名場面[めいばめん]です。",
-          "romaji": "Ano shiin wa dare demo namida sezu ni wa okanai meibamen desu.",
-          "english": "That scene is a famous moment that will make anyone cry without fail."
-        },
-        {
-          "japanese": "必[かなら]ず真相[しんそう]を明[あき]らかにせずにはおかないと、彼[かれ]は固[かた]く誓[ちか]った。",
-          "romaji": "Kanarazu shinsou wo akiraka ni sezu ni wa okanai to, kare wa kataku chikatta.",
-          "english": "He swore firmly that he would definitely bring the truth to light."
-        },
-        {
-          "japanese": "その発言[はつげん]は聴衆[ちょうしゅう]を驚[おどろ]かせずにはおかないものでした。",
-          "romaji": "Sono hatsugen wa chouShuu wo odorokasezu ni wa okanai mono deshita.",
-          "english": "That statement was one that could not fail to astonish the audience."
-        },
-        {
-          "japanese": "この問題[もんだい]、必[かなら]ず解決[かいけつ]せずにはおかない。",
-          "romaji": "Kono mondai, kanarazu kaiketsu sezu ni wa okanai.",
-          "english": "This problem — I will definitely solve it without fail."
-        }
-      ],
-      "flashcardHeader": "〜ずにはおかない",
-      "flashcardAnswer": "Expresses that something will inevitably produce a reaction in others, or that the speaker is absolutely determined to see something through.",
-      "practice": [
-        {
-          "id": "zu-ni-wa-okanai_q1",
-          "type": "usage",
-          "prompt": "What does 〜ずにはおかない mean?",
-          "japanese": null,
-          "choices": [
-            "cannot help but X oneself",
-            "will definitely / inevitably cause X (in others) — the subject MAKES something happen (a feeling or action in others); OR: cannot help but do X (for self-directed uses)",
-            "should not X",
-            "must not X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ずにはおかない = will inevitably cause / cannot help but. Two uses: (1) Causative: その映画[えいが]は人[ひと]を感動[かんどう]させずにはおかない = that movie will inevitably move people (cause emotion). (2) Self-directed: 見[み]ずにはおかない = I cannot help but watch. Formal, literary."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'That news will inevitably surprise people'?",
-          "japanese": null,
-          "choices": [
-            "そのニュースは人[ひと]を驚[おどろ]かせずにはおかない。",
-            "そのニュースは人[ひと]を驚[おどろ]かせないわけにはいかない。",
-            "そのニュースは人[ひと]を驚[おどろ]かすに違[ちが]いない。",
-            "そのニュースは人[ひと]を驚[おどろ]かせずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative verb neg-stem + ずにはおかない: 驚[おどろ]かせ + ず + にはおかない = will inevitably cause (people to be) surprised. The subject (news) causes the effect (surprise in others). ずにはおかない = it will definitely make X happen."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q3",
-          "type": "translation",
-          "prompt": "Which means 'That speech will inevitably move the audience'?",
-          "japanese": null,
-          "choices": [
-            "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させずにはおかない。",
-            "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させないわけにはいかない。",
-            "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させるに違[ちが]いない。",
-            "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 感動[かんどう]させ + ずにはおかない = will inevitably cause (the audience to be) moved. The speech (subject) will definitely produce the emotion (effect on audience). Formal, literary expression."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'His performance will certainly captivate the audience'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]せずにはおかない。",
-            "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]しないわけにはいかない。",
-            "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]するに違[ちが]いない。",
-            "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]せずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative verb neg-stem + ずにはおかない: 魅了[みりょう]せ + ずにはおかない = will inevitably captivate. The performer's ability is so strong that the audience WILL be captured. Formal literary expression of an inevitable positive outcome."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q5",
-          "type": "usage",
-          "prompt": "What FORMATION does ずにはおかない use?",
-          "japanese": null,
-          "choices": [
-            "Verb masu-stem + ずにはおかない, with no exceptions in modern standard Japanese.",
-            "Verb nai-stem (the part before ない) + ずにはおかない: 読[よ]ま + ず + にはおかない (cannot help but read)",
-            "Verb dict-form + ずにはおかない",
-            "Verb te-form + ずにはおかない"
-          ],
-          "correctIndex": 1,
-          "explanation": "Verb NAI-STEM + ずにはおかない: 読[よ]まない → 読[よ]ま + ず + にはおかない = cannot help but read. Exception: する → せずにはおかない. ず is the classical negative form. The ない-stem is the part before ない in plain negative: 食[た]べない → 食[た]べ, 書[か]かない → 書[か]か."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'That tragedy will inevitably bring tears to everyone'?",
-          "japanese": null,
-          "choices": [
-            "その悲劇[ひげき]は誰[だれ]もを泣[な]かせずにはおかない。",
-            "その悲劇[ひげき]は誰[だれ]もを泣[な]かせないわけにはいかない。",
-            "その悲劇[ひげき]は誰[だれ]もを泣[な]かせるに違[ちが]いない。",
-            "その悲劇[ひげき]は誰[だれ]もを泣[な]かせずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 泣[な]かせ + ずにはおかない = will inevitably make (everyone) cry. The tragedy (subject) will certainly cause the emotional response. Classic causative use of ずにはおかない."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q7",
-          "type": "translation",
-          "prompt": "Which means 'That injustice will inevitably provoke anger in people'?",
-          "japanese": null,
-          "choices": [
-            "その不正[ふせい]は人々[ひとびと]を怒[いか]らせずにはおかない。",
-            "その不正[ふせい]は人々[ひとびと]を怒[いか]らせないわけにはいかない。",
-            "その不正[ふせい]は人々[ひとびと]を怒[いか]らせるに違[ちが]いない。",
-            "その不正[ふせい]は人々[ひとびと]を怒[いか]らせずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 怒[いか]らせ + ずにはおかない = will inevitably anger (people). The injustice (subject) will certainly cause outrage. ずにはおかない asserts the inevitability of the emotional effect."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'His brilliant ideas will inevitably impress people'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させずにはおかない。",
-            "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させないわけにはいかない。",
-            "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させるに違[ちが]いない。",
-            "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 感心[かんしん]させ + ずにはおかない = will inevitably impress. His ideas are so innovative that people WILL be impressed. The form asserts the inevitability of the impression."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q9",
-          "type": "usage",
-          "prompt": "ずにはおかない vs. ずにはいられない — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "ずにはおかない: external effect — subject inevitably causes X IN OTHERS (or is so powerful it compels); ずにはいられない: internal compulsion — speaker/subject CANNOT HELP BUT DO X (driven by internal feeling)",
-            "ずにはおかない is more casual",
-            "ずにはいられない is for external effects only — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "ずにはおかない: 彼[かれ]の笑顔[えがお]は皆[みな]を笑[わら]わせずにはおかない (his smile will inevitably make everyone laugh — external causation). ずにはいられない: 見[み]ずにはいられない (I cannot help but watch — internal compulsion). Former: external inevitable effect; latter: personal inability to refrain."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'That novel will inevitably captivate readers'?",
-          "japanese": null,
-          "choices": [
-            "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]せずにはおかない。",
-            "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]しないわけにはいかない。",
-            "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]するに違[ちが]いない。",
-            "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]せずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative verb (する→させ) + ずにはおかない: 魅了[みりょう]せ + ずにはおかない = will inevitably captivate. The novel (subject) will certainly enthrall its readers. せずにはおかない (for する-type verbs)."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q11",
-          "type": "translation",
-          "prompt": "Which means 'Those words will inevitably encourage anyone who hears them'?",
-          "japanese": null,
-          "choices": [
-            "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさずにはおかない。",
-            "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさないわけにはいかない。",
-            "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]ますに違[ちが]いない。",
-            "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative verb neg-stem + ずにはおかない: 励[はげ]ます → 励[はげ]まさ + ずにはおかない = will inevitably encourage. The words (subject) will certainly have an encouraging effect on listeners. ずにはおかない asserts inevitability."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'That scandal will inevitably shake the entire company'?",
-          "japanese": null,
-          "choices": [
-            "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさずにはおかない。",
-            "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさないわけにはいかない。",
-            "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがすに違[ちが]いない。",
-            "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb neg-stem + ずにはおかない: 揺[ゆ]るがす → 揺[ゆ]るがさ + ずにはおかない = will inevitably shake. The scandal (subject) will certainly destabilize the whole company. ずにはおかない marks the inevitable organizational impact."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q13",
-          "type": "usage",
-          "prompt": "ずにはおかない is most commonly used with what type of SUBJECT?",
-          "japanese": null,
-          "choices": [
-            "The speaker (first person)",
-            "A powerful force, event, or person (third person, often inanimate) that INEVITABLY produces an effect in others: その映画[えいが]は、その本[ほん]は、彼[かれ]の笑顔[えがお]は",
-            "Always inanimate objects only, regardless of context or politeness level — this is true in both spoken and written Japanese.",
-            "Always plural subjects"
-          ],
-          "correctIndex": 1,
-          "explanation": "ずにはおかない (causative use) typically has a powerful third-person subject: その映画[えいが] (that movie will inevitably move people), 彼[かれ]の演技[えんぎ] (his performance will inevitably captivate), あの歌[うた] (that song will inevitably touch hearts). The subject is so powerful it CANNOT HELP BUT produce the effect."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'His passionate plea will inevitably move the judges'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさずにはおかない。",
-            "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさないわけにはいかない。",
-            "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かすに違[ちが]いない。",
-            "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb neg-stem + ずにはおかない: 動[うご]かす → 動[うご]かさ + ずにはおかない = will inevitably move. His passionate speech (subject) will certainly affect the judges emotionally. ずにはおかない asserts the inevitability of the impact."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q15",
-          "type": "translation",
-          "prompt": "Which means 'That piece of music will inevitably inspire listeners'?",
-          "japanese": null,
-          "choices": [
-            "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]せずにはおかない。",
-            "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]しないわけにはいかない。",
-            "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]するに違[ちが]いない。",
-            "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]せずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative (する→させ/せ) + ずにはおかない: 鼓舞[こぶ]せ + ずにはおかない = will inevitably inspire. The music (subject) will certainly motivate listeners. せずにはおかない (する-verb) marks inevitable inspirational effect."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'The evidence will inevitably compel investigators to act'?",
-          "japanese": null,
-          "choices": [
-            "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさずにはおかない。",
-            "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさないわけにはいかない。",
-            "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かすに違[ちが]いない。",
-            "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb neg-stem + ずにはおかない: 動[うご]かさ + ずにはおかない = will inevitably compel (investigators to act). The evidence (subject) is so compelling that investigators WILL be moved to action. ずにはおかない marks the compelling force."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q17",
-          "type": "usage",
-          "prompt": "ずにはおかない is primarily found in which register?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday speech — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
-            "Literary/formal written language — news articles, essays, formal criticism, literary works. Very rarely in casual conversation",
-            "Only classical texts",
-            "Only academic papers"
-          ],
-          "correctIndex": 1,
-          "explanation": "ずにはおかない is a formal, literary expression. It appears in essays, literary criticism, formal writing, and journalistic writing (映画[えいが]評[ひょう], 文芸[ぶんげい]評[ひょう]). In casual speech, the equivalent might be 〜させずにはいられない or simply 〜に違[ちが]いない. ずにはおかない elevates the register significantly."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'The beautiful artwork will inevitably impress visitors'?",
-          "japanese": null,
-          "choices": [
-            "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させずにはおかない。",
-            "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させないわけにはいかない。",
-            "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させるに違[ちが]いない。",
-            "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 感動[かんどう]させ + ずにはおかない = will inevitably move (visitors). The artwork's beauty is so overwhelming it WILL impress all who see it. ずにはおかない asserts this with certainty."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q19",
-          "type": "translation",
-          "prompt": "Which means 'His humorous talk will inevitably make the audience laugh'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせずにはおかない。",
-            "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせないわけにはいかない。",
-            "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせるに違[ちが]いない。",
-            "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Causative + ずにはおかない: 笑[わら]わせ + ずにはおかない = will inevitably make (the audience) laugh. His humorous content is so effective that laughter is inevitable. ずにはおかない asserts the certainty of the comedic effect."
-        },
-        {
-          "id": "zu-ni-wa-okanai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'This tragedy will inevitably leave a deep impression on history'?",
-          "japanese": null,
-          "choices": [
-            "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さずにはおかない。",
-            "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さないわけにはいかない。",
-            "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]すに違[ちが]いない。",
-            "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さずにはいられない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb neg-stem + ずにはおかない: 残[のこ]す → 残[のこ]さ + ずにはおかない = will inevitably leave. The tragedy (subject) will certainly imprint itself on history. ずにはおかない asserts this with formal certainty."
-        }
-      ]
+     "japanese": "プロになったからには、常[つね]に最高[さいこう]のパフォーマンスを目指[めざ]すべきです。",
+     "romaji": "Puro ni natta kara ni wa, tsune ni saikou no pafoomansu wo mezasu beki desu.",
+     "english": "Now that you've become a professional, you should always aim for the best performance."
     },
     {
-      "id": "wo-yogi-naku-sareru",
-      "name": "〜を余儀[よぎ]なくされる (wo yogi naku sareru) — be forced to / be compelled to",
-      "shortDescription": "Describes being compelled by external circumstances with no alternative — passive, formal, and measured.",
-      "formation": "Noun (action nominalized) + を余儀[よぎ]なくされる  |  Often: Verb (こと) + を余儀[よぎ]なくされる",
-      "explanation": "を余儀[よぎ]なくされる is the passive grammar of having no choice. 余儀[よぎ]ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止[ちゅうし]を余儀[よぎ]なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態[じたい]の名詞 — nominalized actions): 中止[ちゅうし], 閉鎖[へいさ], 撤退[てったい], 辞任[じにん], 引退[いんたい] (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得[え]ない (no choice but to — more personal, emotional): を余儀[よぎ]なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
-      "rules": [
-        "Action noun + を余儀[よぎ]なくされる = be forced to / be compelled by unavoidable circumstances",
-        "Passive voice — external circumstances compel the subject; not the subject's own will or choice",
-        "Expresses helplessness or unavoidable acceptance — no alternative was available",
-        "Highly formal — common in news reports, official announcements, and business writing",
-        "Typical action nouns: 撤退[てったい], 中止[ちゅうし], 変更[へんこう], 辞任[じにん], 閉鎖[へいさ], 引退[いんたい] (withdrawal, cancellation, change, resignation, closure, retirement)"
-      ],
-      "examples": [
-        {
-          "japanese": "台風[たいふう]の影響[えいきょう]で、コンサートは中止[ちゅうし]を余儀[よぎ]なくされました。",
-          "romaji": "Taifuu no eikyou de, konsaato wa chuushi wo yogi naku saremashita.",
-          "english": "Due to the typhoon, the concert was forced to be cancelled."
-        },
-        {
-          "japanese": "経営難[けいえいなん]により、工場[こうじょう]は閉鎖[へいさ]を余儀[よぎ]なくされました。",
-          "romaji": "Keieinan ni yori, koujou wa heisa wo yogi naku saremashita.",
-          "english": "Due to management difficulties, the factory was forced to close."
-        },
-        {
-          "japanese": "怪我[けが]のため、彼女[かのじょ]は大会[たいかい]への出場[しゅつじょう]を断念[だんねん]せざるを得[え]ず、引退[いんたい]を余儀[よぎ]なくされた。",
-          "romaji": "Kega no tame, kanojo wa taikai e no shutsujou wo dannen sezaru wo ezu, intai wo yogi naku sareta.",
-          "english": "Due to injury, she was forced to retire, unable to give up on competing in the tournament."
-        },
-        {
-          "japanese": "急激[きゅうげき]な環境変化[かんきょうへんか]に対応[たいおう]できなかった企業[きぎょう]は、倒産[とうさん]を余儀[よぎ]なくされた。",
-          "romaji": "Kyuugeki na kankyou henka ni taiou dekinakatta kigyou wa, tousan wo yogi naku sareta.",
-          "english": "Companies that could not adapt to the rapid environmental changes were forced into bankruptcy."
-        }
-      ],
-      "flashcardHeader": "〜を余儀なくされる",
-      "flashcardAnswer": "Describes being compelled by external circumstances with no alternative — formal and measured, the language of official reporting.",
-      "practice": [
-        {
-          "id": "wo-yogi-naku-sareru_q1",
-          "type": "usage",
-          "prompt": "What does 〜を余儀[よぎ]なくされる mean?",
-          "japanese": null,
-          "choices": [
-            "be allowed to do voluntarily",
-            "be forced to / be compelled to (against one's will) — expresses that circumstances have left no choice; the subject is made to do X by external forces",
-            "be motivated to do",
-            "be encouraged to do"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜を余儀[よぎ]なくされる = be forced to / be compelled to (by circumstances). 撤退[てったい]を余儀[よぎ]なくされた = was forced to retreat. 余儀[よぎ]なく (unavoidably/inevitably) + される (passive) = made unavoidable by circumstances. Formal, often used for negative, unwanted forced actions."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to the disaster, residents were forced to evacuate'?",
-          "japanese": null,
-          "choices": [
-            "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]を余儀[よぎ]なくされた。",
-            "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]しなければならなかった。",
-            "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]させられた。",
-            "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 避難[ひなん] + を余儀[よぎ]なくされた = were forced to evacuate. Circumstances (disaster) left no choice. を余儀[よぎ]なくされた is the formal expression for unwanted forced actions."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q3",
-          "type": "translation",
-          "prompt": "Which means 'Due to budget cuts, the company was forced to lay off employees'?",
-          "japanese": null,
-          "choices": [
-            "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラを余儀[よぎ]なくされた。",
-            "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラしなければならなかった。",
-            "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラさせられた。",
-            "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラするように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: リストラ + を余儀[よぎ]なくされた = was forced to restructure/lay off. Budget cuts left the company no choice. を余儀[よぎ]なくされた emphasizes external compulsion."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to health reasons, he was compelled to retire'?",
-          "japanese": null,
-          "choices": [
-            "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]を余儀[よぎ]なくされた。",
-            "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]しなければならなかった。",
-            "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]させられた。",
-            "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 引退[いんたい] + を余儀[よぎ]なくされた = was compelled to retire. Health circumstances (external force) left no choice. を余儀[よぎ]なくされた expresses unwanted retirement."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q5",
-          "type": "usage",
-          "prompt": "を余儀[よぎ]なくされる — what is the AGENT forcing the action?",
-          "japanese": null,
-          "choices": [
-            "Always a specific person, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
-            "Typically CIRCUMSTANCES or external forces (disasters, economic conditions, health, political pressure) — not a person, but a situation",
-            "Always the weather",
-            "Always the government"
-          ],
-          "correctIndex": 1,
-          "explanation": "を余儀[よぎ]なくされる is typically caused by circumstances, not a person: 災害[さいがい] (disaster), 経済[けいざい]危機[きき] (economic crisis), 健康[けんこう]問題[もんだい] (health problems), 政情不安[せいじょうふあん] (political instability). A situation FORCES the action. If a person directly forces, stronger expressions (〜させる passive, 強[し]いる) are used."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to the pandemic, the event was forced to be cancelled'?",
-          "japanese": null,
-          "choices": [
-            "パンデミックにより、イベントは中止[ちゅうし]を余儀[よぎ]なくされた。",
-            "パンデミックにより、イベントは中止[ちゅうし]しなければならなかった。",
-            "パンデミックにより、イベントは中止[ちゅうし]させられた。",
-            "パンデミックにより、イベントは中止[ちゅうし]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 中止[ちゅうし] + を余儀[よぎ]なくされた = was forced to cancel. The pandemic (circumstances) left no choice but cancellation. を余儀[よぎ]なくされた in official/formal reporting."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q7",
-          "type": "translation",
-          "prompt": "Which means 'Due to the earthquake, thousands were forced to leave their homes'?",
-          "japanese": null,
-          "choices": [
-            "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]を余儀[よぎ]なくされた。",
-            "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]しなければならなかった。",
-            "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]させられた。",
-            "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 避難[ひなん] + を余儀[よぎ]なくされた = were forced to evacuate. The earthquake (external force) compelled thousands to flee. を余儀[よぎ]なくされた is standard formal Japanese for disaster-forced displacement."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to rising costs, the restaurant was forced to close'?",
-          "japanese": null,
-          "choices": [
-            "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]を余儀[よぎ]なくされた。",
-            "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]しなければならなかった。",
-            "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]させられた。",
-            "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 閉店[へいてん] + を余儀[よぎ]なくされた = was forced to close. Rising costs (circumstances) left the restaurant no viable option. を余儀[よぎ]なくされた marks the unwanted business closure."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q9",
-          "type": "usage",
-          "prompt": "FORMATION: Which is correct for を余儀[よぎ]なくされる?",
-          "japanese": null,
-          "choices": [
-            "Verb dict-form + を余儀[よぎ]なくされる: 撤退[てったい]する + を余儀[よぎ]なくされる — and this holds in every register, formal or casual.",
-            "Noun (action/nominalized verb) + を余儀[よぎ]なくされる: 撤退[てったい] + を余儀[よぎ]なくされる OR 撤退[てったい]すること + を余儀[よぎ]なくされる",
-            "Verb te-form + を余儀[よぎ]なくされる",
-            "Verb masu-stem + を余儀[よぎ]なくされる"
-          ],
-          "correctIndex": 1,
-          "explanation": "NOUN + を余儀[よぎ]なくされる: 撤退[てったい]を余儀[よぎ]なくされる (forced to retreat). The noun is typically an action noun: 撤退[てったい] (retreat), 閉店[へいてん] (closing), 避難[ひなん] (evacuation), 辞任[じにん] (resignation). Also: verb こと + を余儀[よぎ]なくされる (less common). Action nouns are the standard form."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to policy changes, the project was forced to be halted'?",
-          "japanese": null,
-          "choices": [
-            "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]を余儀[よぎ]なくされた。",
-            "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]しなければならなかった。",
-            "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]させられた。",
-            "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 中断[ちゅうだん] + を余儀[よぎ]なくされた = was forced to halt. Policy changes (external force) compelled the project suspension. を余儀[よぎ]なくされた in formal reporting on institutional decisions."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q11",
-          "type": "translation",
-          "prompt": "Which means 'Due to the flood, residents were forced to relocate'?",
-          "japanese": null,
-          "choices": [
-            "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]を余儀[よぎ]なくされた。",
-            "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]しなければならなかった。",
-            "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]させられた。",
-            "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 移転[いてん] + を余儀[よぎ]なくされた = were forced to relocate. The flood (natural disaster) compelled relocation. を余儀[よぎ]なくされた marks the unwanted displacement."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to economic hardship, the company was forced to scale down'?",
-          "japanese": null,
-          "choices": [
-            "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]を余儀[よぎ]なくされた。",
-            "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]しなければならなかった。",
-            "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]させられた。",
-            "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 縮小[しゅくしょう] + を余儀[よぎ]なくされた = was forced to scale down. Economic hardship (circumstances) left no option. を余儀[よぎ]なくされた marks the business contraction as forced by external economic pressure."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q13",
-          "type": "usage",
-          "prompt": "を余儀[よぎ]なくされる vs. させられる (causative passive) — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "を余儀[よぎ]なくされる: more formal/literary; emphasizes CIRCUMSTANCES as the compeller (impersonal external force); させられる: often implies a PERSON as the agent who directly forces",
-            "を余儀[よぎ]なくされる is more casual",
-            "させられる is only for positive actions, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "を余儀[よぎ]なくされる: formal, circumstances force: 経済[けいざい]危機[きき]で撤退[てったい]を余儀[よぎ]なくされた (forced to retreat by economic crisis — circumstances). させられる: often a person is the agent: 上司[じょうし]に残業[ざんぎょう]させられた (was made to work overtime by the boss — person forces). を余儀[よぎ]なくされる is more dignified and formal."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to diplomatic tensions, the ambassador was compelled to resign'?",
-          "japanese": null,
-          "choices": [
-            "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]を余儀[よぎ]なくされた。",
-            "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]しなければならなかった。",
-            "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]させられた。",
-            "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 辞任[じにん] + を余儀[よぎ]なくされた = was compelled to resign. Diplomatic tensions (circumstances) forced the resignation. を余儀[よぎ]なくされた in formal diplomatic reporting."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q15",
-          "type": "translation",
-          "prompt": "Which means 'Due to technical problems, the launch was forced to be postponed'?",
-          "japanese": null,
-          "choices": [
-            "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]を余儀[よぎ]なくされた。",
-            "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]しなければならなかった。",
-            "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]させられた。",
-            "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 延期[えんき] + を余儀[よぎ]なくされた = was forced to postpone. Technical problems (circumstances) compelled the delay. を余儀[よぎ]なくされた in official announcements about forced schedule changes."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to the harsh weather, the climbers were forced to turn back'?",
-          "japanese": null,
-          "choices": [
-            "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]を余儀[よぎ]なくされた。",
-            "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]しなければならなかった。",
-            "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]させられた。",
-            "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 撤退[てったい] + を余儀[よぎ]なくされた = were forced to turn back. Harsh weather (natural circumstance) left no safe option. を余儀[よぎ]なくされた marks the circumstance-forced retreat."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q17",
-          "type": "usage",
-          "prompt": "を余儀[よぎ]なくされる is most naturally found in which register?",
-          "japanese": null,
-          "choices": [
-            "Casual conversation between friends — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "Formal written language: news reports, official statements, academic papers — typically reporting on forced actions due to external circumstances",
-            "Children's picture books",
-            "Social media posts"
-          ],
-          "correctIndex": 1,
-          "explanation": "を余儀[よぎ]なくされる is formal and appears in: news reports (企業[きぎょう]は撤退[てったい]を余儀[よぎ]なくされた), official government statements, academic writing, and formal journalism. It's not used in casual speech — instead, one would say しなければならなかった or するしかなかった."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to the outbreak of war, many civilians were forced to flee'?",
-          "japanese": null,
-          "choices": [
-            "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]を余儀[よぎ]なくされた。",
-            "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]しなければならなかった。",
-            "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]させられた。",
-            "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 逃亡[とうぼう] + を余儀[よぎ]なくされた = were forced to flee. War outbreak (external catastrophe) compelled the civilians. を余儀[よぎ]なくされた in formal reporting on war displacement."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q19",
-          "type": "translation",
-          "prompt": "Which means 'Due to safety concerns, the facility was forced to suspend operations'?",
-          "japanese": null,
-          "choices": [
-            "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]を余儀[よぎ]なくされた。",
-            "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]しなければならなかった。",
-            "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]させられた。",
-            "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 操業[そうぎょう]停止[ていし] + を余儀[よぎ]なくされた = was forced to suspend operations. Safety concerns (regulatory/safety circumstance) compelled the halt. を余儀[よぎ]なくされた in formal industrial reporting."
-        },
-        {
-          "id": "wo-yogi-naku-sareru_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Due to financial difficulties, the university was forced to cut programs'?",
-          "japanese": null,
-          "choices": [
-            "財政難[ざいせいなん]により、大学[だいがく]はプログラムの廃止[はいし]を余儀[よぎ]なくされた。",
-            "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]しなければならなかった。",
-            "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]させられた。",
-            "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]するように強[し]いられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun (action) + を余儀[よぎ]なくされた: 廃止[はいし] + を余儀[よぎ]なくされた = was forced to abolish/cut. Financial difficulties (circumstances) left no option. を余儀[よぎ]なくされた in formal academic/institutional reporting on forced program cuts."
-        }
-      ]
+     "japanese": "引[ひ]き受[う]けたからには、途中[とちゅう]で投[な]げ出[だ]すわけにはいきません。",
+     "romaji": "Hikiuketa kara ni wa, tochuu de nagedasu wake ni wa ikimasen.",
+     "english": "Now that I've taken it on, there's no way I can drop it halfway."
+    },
+    {
+     "japanese": "ここまで来[き]たからには、もう後[あと]には退[ひ]けない。",
+     "romaji": "Koko made kita kara ni wa, mou ato ni wa hikenai.",
+     "english": "Now that we've come this far, there's no turning back."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜からには",
+   "flashcardAnswer": "Given that a situation is established, the speaker commits to a natural or necessary consequence — there is no backing out.",
+   "practice": [
     {
-      "id": "ch47_v01",
-      "partOfSpeech": "noun",
-      "kanji": "覚悟",
-      "kana": "かくご",
-      "romaji": "kakugo",
-      "definition": "resolve; readiness"
+     "id": "kara-ni-wa_q1",
+     "type": "usage",
+     "prompt": "What does 〜からには mean?",
+     "japanese": null,
+     "choices": [
+      "although / despite",
+      "now that X / since X (with a commitment or obligation following) — given that X is true/done, Y (a decision, obligation, or strong expectation) follows",
+      "from the start",
+      "in order to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜からには = now that X / since X, therefore Y (with commitment). やると言[い]ったからには、やらなければならない = now that I've said I'll do it, I have to. Marks a point of no return — once X is established, Y naturally follows as an obligation or determination."
     },
     {
-      "id": "ch47_v02",
-      "partOfSpeech": "noun",
-      "kanji": "決意",
-      "kana": "けつい",
-      "romaji": "ketsui",
-      "definition": "determination"
+     "id": "kara-ni-wa_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've started, I'll see it through to the end'?",
+     "japanese": null,
+     "choices": [
+      "始[はじ]めたからには、最後[さいご]までやり遂[と]げる。",
+      "始[はじ]めたから、最後[さいご]までやり遂[と]げる。",
+      "始[はじ]めたので、最後[さいご]までやり遂[と]げる。",
+      "始[はじ]めたなら、最後[さいご]までやり遂[と]げる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 始[はじ]めた + からには = now that I've started. 最後[さいご]までやり遂[と]げる = I'll see it through to the end. からには marks the commitment that follows from having started."
     },
     {
-      "id": "ch47_v03",
-      "partOfSpeech": "noun",
-      "kanji": "決断",
-      "kana": "けつだん",
-      "romaji": "ketsudan",
-      "definition": "decision; resolve"
+     "id": "kara-ni-wa_q3",
+     "type": "translation",
+     "prompt": "Which means 'Now that you are part of the team, please give your best effort'?",
+     "japanese": null,
+     "choices": [
+      "チームに入[はい]ったからには、全力[ぜんりょく]で頑張[がんば]ってください。",
+      "チームに入[はい]ったから、全力[ぜんりょく]で頑張[がんば]ってください。",
+      "チームに入[はい]ったので、全力[ぜんりょく]で頑張[がんば]ってください。",
+      "チームに入[はい]ったなら、全力[ぜんりょく]で頑張[がんば]ってください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: チームに入[はい]った + からには = now that (you've) joined the team. 全力[ぜんりょく]で頑張[がんば]ってください = please give your best effort. からには establishes team membership as the basis for the commitment expectation."
     },
     {
-      "id": "ch47_v04",
-      "partOfSpeech": "noun",
-      "kanji": "意地",
-      "kana": "いじ",
-      "romaji": "iji",
-      "definition": "willpower; stubbornness"
+     "id": "kara-ni-wa_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've promised, I must keep my word'?",
+     "japanese": null,
+     "choices": [
+      "約束[やくそく]したからには、守[まも]らなければならない。",
+      "約束[やくそく]したから、守[まも]らなければならない。",
+      "約束[やくそく]したので、守[まも]らなければならない。",
+      "約束[やくそく]したなら、守[まも]らなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 約束[やくそく]した + からには = now that I've promised. 守[まも]らなければならない = must keep (the promise). からには marks the promise as a point of no return — obligation follows."
     },
     {
-      "id": "ch47_v05",
-      "partOfSpeech": "noun",
-      "kanji": "執着",
-      "kana": "しゅうちゃく",
-      "romaji": "shuuchaku",
-      "definition": "attachment; obsession"
+     "id": "kara-ni-wa_q5",
+     "type": "usage",
+     "prompt": "What typically follows からには in the main clause?",
+     "japanese": null,
+     "choices": [
+      "A wish or hope (〜たい), regardless of context or politeness level — this is true in both spoken and written Japanese.",
+      "An obligation (〜なければならない), determination (〜つもり/〜ようと思[おも]う), or strong expectation — something that should or must follow from X",
+      "A question",
+      "A past event"
+     ],
+     "correctIndex": 1,
+     "explanation": "からには is followed by: obligation (〜ねばならない、〜べきだ), determination (〜つもりだ、〜ようとする), or expectation (〜はずだ). These all signal that X creates an irrevocable situation from which Y follows as a natural, necessary consequence."
     },
     {
-      "id": "ch47_v06",
-      "partOfSpeech": "noun",
-      "kanji": "情熱",
-      "kana": "じょうねつ",
-      "romaji": "jounetsu",
-      "definition": "passion"
+     "id": "kara-ni-wa_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've accepted the job, I will give my all'?",
+     "japanese": null,
+     "choices": [
+      "仕事[しごと]を引[ひ]き受[う]けたからには、全力[ぜんりょく]を尽[つ]くす。",
+      "仕事[しごと]を引[ひ]き受[う]けたから、全力[ぜんりょく]を尽[つ]くす。",
+      "仕事[しごと]を引[ひ]き受[う]けたので、全力[ぜんりょく]を尽[つ]くす。",
+      "仕事[しごと]を引[ひ]き受[う]けたなら、全力[ぜんりょく]を尽[つ]くす。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 引[ひ]き受[う]けた + からには = now that I've accepted. 全力[ぜんりょく]を尽[つ]くす = I will give my all. からには marks accepting the job as the commitment point."
     },
     {
-      "id": "ch47_v07",
-      "partOfSpeech": "noun",
-      "kanji": "衝動",
-      "kana": "しょうどう",
-      "romaji": "shoudou",
-      "definition": "impulse"
+     "id": "kara-ni-wa_q7",
+     "type": "translation",
+     "prompt": "Which means 'Now that you've decided to study, do it properly'?",
+     "japanese": null,
+     "choices": [
+      "勉強[べんきょう]すると決[き]めたからには、ちゃんとやりなさい。",
+      "勉強[べんきょう]すると決[き]めたから、ちゃんとやりなさい。",
+      "勉強[べんきょう]すると決[き]めたので、ちゃんとやりなさい。",
+      "勉強[べんきょう]すると決[き]めたなら、ちゃんとやりなさい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 決[き]めた + からには = now that (you've) decided. ちゃんとやりなさい = do it properly. からには marks the decision as the basis for the directive expectation."
     },
     {
-      "id": "ch47_v08",
-      "partOfSpeech": "noun",
-      "kanji": "未練",
-      "kana": "みれん",
-      "romaji": "miren",
-      "definition": "lingering attachment"
+     "id": "kara-ni-wa_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that we've entered the finals, we cannot lose'?",
+     "japanese": null,
+     "choices": [
+      "決勝[けっしょう]に進[すす]んだからには、負[ま]けるわけにはいかない。",
+      "決勝[けっしょう]に進[すす]んだから、負[ま]けるわけにはいかない。",
+      "決勝[けっしょう]に進[すす]んだので、負[ま]けるわけにはいかない。",
+      "決勝[けっしょう]に進[すす]んだなら、負[ま]けるわけにはいかない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 進[すす]んだ + からには = now that (we've) advanced to the finals. 負[ま]けるわけにはいかない = cannot afford to lose. からには marks reaching the finals as a point that prohibits losing."
     },
     {
-      "id": "ch47_v09",
-      "partOfSpeech": "noun",
-      "kanji": "後悔",
-      "kana": "こうかい",
-      "romaji": "koukai",
-      "definition": "regret"
+     "id": "kara-ni-wa_q9",
+     "type": "usage",
+     "prompt": "からには vs. からは — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are completely different in meaning — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
+      "Almost identical; からには adds more emphasis (〜には has a conditional/emphatic nuance); からは is slightly more direct. Both = 'now that / since X, Y'",
+      "からは is more formal",
+      "からには is only for past events"
+     ],
+     "correctIndex": 1,
+     "explanation": "からには and からは are nearly interchangeable. からには is more common and adds slight emphasis through には. Both mean 'now that X / since X (the following commitment/obligation holds).' やると言[い]ったからには (stronger emphasis). やると言[い]ったからは (slightly more direct). からには is preferred in modern usage."
     },
     {
-      "id": "ch47_v10",
-      "partOfSpeech": "noun",
-      "kanji": "反省",
-      "kana": "はんせい",
-      "romaji": "hansei",
-      "definition": "reflection; remorse"
+     "id": "kara-ni-wa_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that you've come all this way, make sure to see the sights'?",
+     "japanese": null,
+     "choices": [
+      "せっかくここまで来[き]たからには、観光[かんこう]をしっかり楽[たの]しんでください。",
+      "せっかくここまで来[き]たから、観光[かんこう]をしっかり楽[たの]しんでください。",
+      "せっかくここまで来[き]たので、観光[かんこう]をしっかり楽[たの]しんでください。",
+      "せっかくここまで来[き]たなら、観光[かんこう]をしっかり楽[たの]しんでください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 来[き]た + からには = now that (you've) come. 観光[かんこう]をしっかり楽[たの]しんでください = please enjoy the sights thoroughly. からには: the journey itself creates an expectation to make the most of it."
     },
     {
-      "id": "ch47_v11",
-      "partOfSpeech": "noun",
-      "kanji": "葛藤",
-      "kana": "かっとう",
-      "romaji": "kattou",
-      "definition": "(inner) conflict"
+     "id": "kara-ni-wa_q11",
+     "type": "translation",
+     "prompt": "Which means 'Now that I'm alive, I want to live to the fullest'?",
+     "japanese": null,
+     "choices": [
+      "生[い]きているからには、精一杯[せいいっぱい]生[い]きたい。",
+      "生[い]きているから、精一杯[せいいっぱい]生[い]きたい。",
+      "生[い]きているので、精一杯[せいいっぱい]生[い]きたい。",
+      "生[い]きているなら、精一杯[せいいっぱい]生[い]きたい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb te-iru + からには: 生[い]きている + からには = now that (I'm) alive. 精一杯[せいいっぱい]生[い]きたい = I want to live to the fullest. からには turns the very fact of being alive into a commitment to live fully."
     },
     {
-      "id": "ch47_v12",
-      "partOfSpeech": "noun",
-      "kanji": "苦悩",
-      "kana": "くのう",
-      "romaji": "kunou",
-      "definition": "anguish; suffering"
+     "id": "kara-ni-wa_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that you've entered this company, you should respect the culture here'?",
+     "japanese": null,
+     "choices": [
+      "この会社[かいしゃ]に入[はい]ったからには、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+      "この会社[かいしゃ]に入[はい]ったから、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+      "この会社[かいしゃ]に入[はい]ったので、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。",
+      "この会社[かいしゃ]に入[はい]ったなら、ここの文化[ぶんか]を尊重[そんちょう]すべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 入[はい]った + からには = now that (you've) joined. 文化[ぶんか]を尊重[そんちょう]すべきだ = should respect the culture. からには: joining the company creates an obligation to respect its values."
     },
     {
-      "id": "ch47_v13",
-      "partOfSpeech": "noun",
-      "kanji": "焦り",
-      "kana": "あせり",
-      "romaji": "aseri",
-      "definition": "impatience; anxiety"
+     "id": "kara-ni-wa_q13",
+     "type": "usage",
+     "prompt": "からには — is X something that has already happened, or is it a condition?",
+     "japanese": null,
+     "choices": [
+      "Always a future condition",
+      "Typically something ALREADY DECIDED or DONE — a completed action, an established fact, or a made decision. からには marks it as a point of no return",
+      "Only hypothetical situations, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
+      "Only ongoing actions"
+     ],
+     "correctIndex": 1,
+     "explanation": "からには typically follows something already done/decided: やると言[い]ったからには (now that I've said I'll do it — already said). It can also follow present/general states: 生[い]きているからには (now that I'm alive — ongoing). The key is that X is established and から-には builds a commitment from that established fact."
     },
     {
-      "id": "ch47_v14",
-      "partOfSpeech": "noun",
-      "kanji": "落胆",
-      "kana": "らくたん",
-      "romaji": "rakutan",
-      "definition": "disappointment; dejection"
+     "id": "kara-ni-wa_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've made up my mind to lose weight, I will exercise every day'?",
+     "japanese": null,
+     "choices": [
+      "ダイエットを決意[けつい]したからには、毎日[まいにち]運動[うんどう]する。",
+      "ダイエットを決意[けつい]したから、毎日[まいにち]運動[うんどう]する。",
+      "ダイエットを決意[けつい]したので、毎日[まいにち]運動[うんどう]する。",
+      "ダイエットを決意[けつい]したなら、毎日[まいにち]運動[うんどう]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 決意[けつい]した + からには = now that (I've) resolved. 毎日[まいにち]運動[うんどう]する = will exercise every day. からには marks the resolution as a commitment point for the daily exercise pledge."
     },
     {
-      "id": "ch47_v15",
-      "partOfSpeech": "noun",
-      "kanji": "絶望",
-      "kana": "ぜつぼう",
-      "romaji": "zetsubou",
-      "definition": "despair"
+     "id": "kara-ni-wa_q15",
+     "type": "translation",
+     "prompt": "Which means 'Now that I've published the book, I take responsibility for its content'?",
+     "japanese": null,
+     "choices": [
+      "本[ほん]を出版[しゅっぱん]したからには、内容[ないよう]に責任[せきにん]を持[も]つ。",
+      "本[ほん]を出版[しゅっぱん]したから、内容[ないよう]に責任[せきにん]を持[も]つ。",
+      "本[ほん]を出版[しゅっぱん]したので、内容[ないよう]に責任[せきにん]を持[も]つ。",
+      "本[ほん]を出版[しゅっぱん]したなら、内容[ないよう]に責任[せきにん]を持[も]つ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 出版[しゅっぱん]した + からには = now that (I've) published. 内容[ないよう]に責任[せきにん]を持[も]つ = take responsibility for the content. からには: publication is the irrevocable act from which content responsibility follows."
     },
     {
-      "id": "ch47_v16",
-      "partOfSpeech": "noun",
-      "kanji": "希望",
-      "kana": "きぼう",
-      "romaji": "kibou",
-      "definition": "hope"
+     "id": "kara-ni-wa_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that we've started the project, everyone must cooperate'?",
+     "japanese": null,
+     "choices": [
+      "プロジェクトを始[はじ]めたからには、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
+      "プロジェクトを始[はじ]めたから、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
+      "プロジェクトを始[はじ]めたので、全員[ぜんいん]が協力[きょうりょく]しなければならない。",
+      "プロジェクトを始[はじ]めたなら、全員[ぜんいん]が協力[きょうりょく]しなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 始[はじ]めた + からには = now that (we've) started. 全員[ぜんいん]が協力[きょうりょく]しなければならない = everyone must cooperate. からには: starting the project creates a collective obligation."
     },
     {
-      "id": "ch47_v17",
-      "partOfSpeech": "noun",
-      "kanji": "感激",
-      "kana": "かんげき",
-      "romaji": "kangeki",
-      "definition": "deep emotion; being moved"
+     "id": "kara-ni-wa_q17",
+     "type": "usage",
+     "prompt": "からには — which pair of sentences shows the 'point of no return' nuance?",
+     "japanese": null,
+     "choices": [
+      "雨[あめ]だから傘[かさ]を持[も]った (because of rain, took umbrella — simple causation)",
+      "競技[きょうぎ]に参加[さんか]したからには全力[ぜんりょく]でやるしかない (now that I've entered the competition, I can only give my all — point of no return)",
+      "遅[おく]れたから謝[あやま]った (because I was late, apologized — simple past causation) — and this holds in every register, formal or casual.",
+      "疲[つか]れたから休[やす]んだ (because I was tired, rested — simple causation)"
+     ],
+     "correctIndex": 1,
+     "explanation": "競技[きょうぎ]に参加[さんか]したからには全力[ぜんりょく]でやるしかない = now that I've entered the competition, I have no choice but to give my all. This shows the 'point of no return' — the act of entering (X) is irreversible and now creates an inescapable obligation (Y). からには captures this commitment."
     },
     {
-      "id": "ch47_v18",
-      "partOfSpeech": "noun",
-      "kanji": "感慨",
-      "kana": "かんがい",
-      "romaji": "kangai",
-      "definition": "deep emotion; strong feelings"
+     "id": "kara-ni-wa_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've become a parent, I must be a good role model'?",
+     "japanese": null,
+     "choices": [
+      "親[おや]になったからには、いい手本[てほん]を見[み]せなければならない。",
+      "親[おや]になったから、いい手本[てほん]を見[み]せなければならない。",
+      "親[おや]になったので、いい手本[てほん]を見[み]せなければならない。",
+      "親[おや]になったなら、いい手本[てほん]を見[み]せなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 親[おや]になった + からには = now that (I've) become a parent. 手本[てほん]を見[み]せなければならない = must be a role model. からには: parenthood is the established status from which the obligation to model good behavior follows."
     },
     {
-      "id": "ch47_v19",
-      "partOfSpeech": "noun",
-      "kanji": "郷愁",
-      "kana": "きょうしゅう",
-      "romaji": "kyoushuu",
-      "definition": "nostalgia"
+     "id": "kara-ni-wa_q19",
+     "type": "translation",
+     "prompt": "Which means 'Now that I've been entrusted with this responsibility, I will not give up'?",
+     "japanese": null,
+     "choices": [
+      "この責任[せきにん]を任[まか]されたからには、諦[あきら]めない。",
+      "この責任[せきにん]を任[まか]されたから、諦[あきら]めない。",
+      "この責任[せきにん]を任[まか]されたので、諦[あきら]めない。",
+      "この責任[せきにん]を任[まか]されたなら、諦[あきら]めない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past (passive) + からには: 任[まか]された + からには = now that (I've) been entrusted. 諦[あきら]めない = will not give up. からには: the entrustment is the established fact from which the determination not to quit follows."
     },
     {
-      "id": "ch47_v20",
-      "partOfSpeech": "noun",
-      "kanji": "哀愁",
-      "kana": "あいしゅう",
-      "romaji": "aishuu",
-      "definition": "sorrow; pathos"
-    },
-    {
-      "id": "ch47_v21",
-      "partOfSpeech": "na-adjective",
-      "kanji": "憂鬱",
-      "kana": "ゆううつ",
-      "romaji": "yuuutsu",
-      "definition": "melancholy; gloom"
-    },
-    {
-      "id": "ch47_v22",
-      "partOfSpeech": "noun",
-      "kanji": "憂い",
-      "kana": "うれい",
-      "romaji": "urei",
-      "definition": "grief; anxiety"
-    },
-    {
-      "id": "ch47_v23",
-      "partOfSpeech": "verb",
-      "kanji": "嘆く",
-      "kana": "なげく",
-      "romaji": "nageku",
-      "definition": "to grieve; to lament"
-    },
-    {
-      "id": "ch47_v24",
-      "partOfSpeech": "verb",
-      "kanji": "悼む",
-      "kana": "いたむ",
-      "romaji": "itamu",
-      "definition": "to mourn"
-    },
-    {
-      "id": "ch47_v25",
-      "partOfSpeech": "verb",
-      "kanji": "慕う",
-      "kana": "したう",
-      "romaji": "shitau",
-      "definition": "to yearn for; to adore"
-    },
-    {
-      "id": "ch47_v26",
-      "partOfSpeech": "verb",
-      "kanji": "惚れる",
-      "kana": "ほれる",
-      "romaji": "horeru",
-      "definition": "to fall in love"
-    },
-    {
-      "id": "ch47_v27",
-      "partOfSpeech": "verb",
-      "kanji": "憧れる",
-      "kana": "あこがれる",
-      "romaji": "akogareru",
-      "definition": "to long for; to admire"
-    },
-    {
-      "id": "ch47_v28",
-      "partOfSpeech": "verb",
-      "kanji": "見捨てる",
-      "kana": "みすてる",
-      "romaji": "misuteru",
-      "definition": "to abandon; to forsake"
-    },
-    {
-      "id": "ch47_v29",
-      "partOfSpeech": "verb",
-      "kanji": "尽くす",
-      "kana": "つくす",
-      "romaji": "tsukusu",
-      "definition": "to devote oneself"
-    },
-    {
-      "id": "ch47_v30",
-      "partOfSpeech": "verb",
-      "kanji": "貫く",
-      "kana": "つらぬく",
-      "romaji": "tsuranuku",
-      "definition": "to carry through; to persist"
-    },
-    {
-      "id": "ch47_v31",
-      "partOfSpeech": "verb",
-      "kanji": "耐える",
-      "kana": "たえる",
-      "romaji": "taeru",
-      "definition": "to endure; to withstand"
-    },
-    {
-      "id": "ch47_v32",
-      "partOfSpeech": "verb",
-      "kanji": "堪える",
-      "kana": "こらえる",
-      "romaji": "koraeru",
-      "definition": "to bear; to hold back"
-    },
-    {
-      "id": "ch47_v33",
-      "partOfSpeech": "verb",
-      "kanji": "屈する",
-      "kana": "くっする",
-      "romaji": "kussuru",
-      "definition": "to yield; to succumb"
-    },
-    {
-      "id": "ch47_v34",
-      "partOfSpeech": "noun",
-      "kanji": "決心",
-      "kana": "けっしん",
-      "romaji": "kesshin",
-      "definition": "determination; resolve"
-    },
-    {
-      "id": "ch47_v35",
-      "partOfSpeech": "na-adjective",
-      "kanji": "意欲的",
-      "kana": "いよくてき",
-      "romaji": "iyokuteki",
-      "definition": "motivated; eager"
-    },
-    {
-      "id": "ch47_v36",
-      "partOfSpeech": "noun",
-      "kanji": "献身",
-      "kana": "けんしん",
-      "romaji": "kenshin",
-      "definition": "devotion; dedication"
-    },
-    {
-      "id": "ch47_v37",
-      "partOfSpeech": "noun",
-      "kanji": "忍耐",
-      "kana": "にんたい",
-      "romaji": "nintai",
-      "definition": "perseverance; endurance"
-    },
-    {
-      "id": "ch47_v38",
-      "partOfSpeech": "noun",
-      "kanji": "執念",
-      "kana": "しゅうねん",
-      "romaji": "shuunen",
-      "definition": "tenacity; obsession"
-    },
-    {
-      "id": "ch47_v39",
-      "partOfSpeech": "noun",
-      "kanji": "感傷",
-      "kana": "かんしょう",
-      "romaji": "kanshou",
-      "definition": "sentimentality"
-    },
-    {
-      "id": "ch47_v40",
-      "partOfSpeech": "noun",
-      "kanji": "高揚",
-      "kana": "こうよう",
-      "romaji": "kouyou",
-      "definition": "elation; uplift"
+     "id": "kara-ni-wa_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Now that I've decided to live abroad, I'll study the local culture'?",
+     "japanese": null,
+     "choices": [
+      "海外[かいがい]に住[す]むと決[き]めたからには、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
+      "海外[かいがい]に住[す]むと決[き]めたから、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
+      "海外[かいがい]に住[す]むと決[き]めたので、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。",
+      "海外[かいがい]に住[す]むと決[き]めたなら、現地[げんち]の文化[ぶんか]を勉強[べんきょう]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からには: 決[き]めた + からには = now that (I've) decided. 現地[げんち]の文化[ぶんか]を勉強[べんきょう]する = will study the local culture. からには: the decision to live abroad creates a commitment to cultural preparation."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "zu-ni-wa-okanai",
+   "name": "〜ずにはおかない (zu ni wa okanai) — will definitely / cannot help but cause",
+   "shortDescription": "Expresses that something will inevitably cause a reaction, or that the speaker is absolutely determined to act.",
+   "formation": "Verb (ない-form, replace ない with ず) + にはおかない",
+   "explanation": "ずにはおかない is grammar with steel in it. It combines the classical negative ず (replacing ない on the verb stem) with には (conditional) and おかない (won't leave alone / won't let be), yielding: 'I will not leave without doing this' or 'this will not fail to cause that.' There are two distinct uses.\n\nThe first describes an effect that will inevitably be produced in anyone who encounters something: 涙[なみだ]せずにはおかない映画[えいが] — 'a film that will not fail to make anyone cry' — the film is so moving it cannot leave its audience unmoved; it refuses to let them go dry-eyed. The second expresses fierce personal determination: 必[かなら]ず真相[しんそう]を明[あき]らかにせずにはおかない — 'I will not rest until I bring the truth to light.'\n\nThis differs from ずにはいられない (which expresses an irresistible inner impulse you cannot suppress) in a crucial way: おかない is about will, force, and external causation; いられない is about an inner compulsion. A gripping novel doesn't merely make you want to cry — it refuses to let you go unmoved. The grammar reflects exactly that distinction. Note the irregular: する → せずにはおかない.",
+   "rules": [
+    "Verb ない-form (replace ない with ず) + にはおかない = will definitely / inevitably causes [reaction]",
+    "する → せずにはおかない (irregular classical negative form of する)",
+    "Use 1: X is so [quality] that it will inevitably produce reaction Y in any observer",
+    "Use 2: strong personal determination — the speaker will absolutely do/achieve X no matter what",
+    "More forceful than ずにはいられない (irresistible inner impulse); おかない is about will and causation"
+   ],
+   "examples": [
     {
-      "char": "憂",
-      "word": "憂い",
-      "reading": "うれい",
-      "meaning": "grief; anxiety"
+     "japanese": "あのシーンは誰[だれ]でも涙[なみだ]せずにはおかない名場面[めいばめん]です。",
+     "romaji": "Ano shiin wa dare demo namida sezu ni wa okanai meibamen desu.",
+     "english": "That scene is a famous moment that will make anyone cry without fail."
     },
     {
-      "char": "鬱",
-      "word": "憂鬱",
-      "reading": "ゆううつ",
-      "meaning": "melancholy; gloom"
+     "japanese": "必[かなら]ず真相[しんそう]を明[あき]らかにせずにはおかないと、彼[かれ]は固[かた]く誓[ちか]った。",
+     "romaji": "Kanarazu shinsou wo akiraka ni sezu ni wa okanai to, kare wa kataku chikatta.",
+     "english": "He swore firmly that he would definitely bring the truth to light."
     },
     {
-      "char": "憧",
-      "word": "憧れる",
-      "reading": "あこがれる",
-      "meaning": "to long for; to admire"
+     "japanese": "その発言[はつげん]は聴衆[ちょうしゅう]を驚[おどろ]かせずにはおかないものでした。",
+     "romaji": "Sono hatsugen wa choushuu wo odorokasezu ni wa okanai mono deshita.",
+     "english": "That statement was one that could not fail to astonish the audience."
     },
     {
-      "char": "悼",
-      "word": "悼む",
-      "reading": "いたむ",
-      "meaning": "to mourn"
-    },
-    {
-      "char": "諦",
-      "word": "諦",
-      "reading": "あきら",
-      "meaning": "give up"
-    },
-    {
-      "char": "慕",
-      "word": "慕う",
-      "reading": "したう",
-      "meaning": "to yearn for; to adore"
-    },
-    {
-      "char": "遂",
-      "word": "遂",
-      "reading": "と",
-      "meaning": "accomplish"
-    },
-    {
-      "char": "曖",
-      "word": "曖",
-      "reading": "あい",
-      "meaning": "obscure"
-    },
-    {
-      "char": "拶",
-      "word": "拶",
-      "reading": "さつ",
-      "meaning": "be imminent"
-    },
-    {
-      "char": "顧",
-      "word": "顧みる",
-      "reading": "かえりみる",
-      "meaning": "to look back on, heed"
-    },
-    {
-      "char": "憩",
-      "word": "憩い",
-      "reading": "いこい",
-      "meaning": "rest, relaxation"
-    },
-    {
-      "char": "崖",
-      "word": "崖",
-      "reading": "がけ",
-      "meaning": "cliff"
-    },
-    {
-      "char": "岬",
-      "word": "岬",
-      "reading": "みさき",
-      "meaning": "cape, headland"
-    },
-    {
-      "char": "藤",
-      "word": "藤",
-      "reading": "ふじ",
-      "meaning": "wisteria"
-    },
-    {
-      "char": "葛",
-      "word": "葛藤",
-      "reading": "かっとう",
-      "meaning": "(inner) conflict"
-    },
-    {
-      "char": "崇",
-      "word": "崇",
-      "reading": "あがめる",
-      "meaning": "revere"
-    },
-    {
-      "char": "藩",
-      "word": "藩",
-      "reading": "はん",
-      "meaning": "feudal domain, clan"
-    },
-    {
-      "char": "凸",
-      "word": "凸",
-      "reading": "とつ",
-      "meaning": "convex"
-    },
-    {
-      "char": "憬",
-      "word": "憬",
-      "reading": "けい",
-      "meaning": "yearn for"
-    },
-    {
-      "char": "慨",
-      "word": "感慨",
-      "reading": "かんがい",
-      "meaning": "deep emotion; strong feelings"
+     "japanese": "この問題[もんだい]、必[かなら]ず解決[かいけつ]せずにはおかない。",
+     "romaji": "Kono mondai, kanarazu kaiketsu sezu ni wa okanai.",
+     "english": "This problem — I will definitely solve it without fail."
     }
-  ]
+   ],
+   "flashcardHeader": "〜ずにはおかない",
+   "flashcardAnswer": "Expresses that something will inevitably produce a reaction in others, or that the speaker is absolutely determined to see something through.",
+   "practice": [
+    {
+     "id": "zu-ni-wa-okanai_q1",
+     "type": "usage",
+     "prompt": "What does 〜ずにはおかない mean?",
+     "japanese": null,
+     "choices": [
+      "cannot help but X oneself",
+      "will definitely / inevitably cause X (in others) — the subject MAKES something happen (a feeling or action in others); OR: cannot help but do X (for self-directed uses)",
+      "should not X",
+      "must not X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ずにはおかない = will inevitably cause / cannot help but. Two uses: (1) Causative: その映画[えいが]は人[ひと]を感動[かんどう]させずにはおかない = that movie will inevitably move people (cause emotion). (2) Self-directed: 見[み]ずにはおかない = I cannot help but watch. Formal, literary."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'That news will inevitably surprise people'?",
+     "japanese": null,
+     "choices": [
+      "そのニュースは人[ひと]を驚[おどろ]かせずにはおかない。",
+      "そのニュースは人[ひと]を驚[おどろ]かせないわけにはいかない。",
+      "そのニュースは人[ひと]を驚[おどろ]かすに違[ちが]いない。",
+      "そのニュースは人[ひと]を驚[おどろ]かせずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative verb neg-stem + ずにはおかない: 驚[おどろ]かせ + ず + にはおかない = will inevitably cause (people to be) surprised. The subject (news) causes the effect (surprise in others). ずにはおかない = it will definitely make X happen."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q3",
+     "type": "translation",
+     "prompt": "Which means 'That speech will inevitably move the audience'?",
+     "japanese": null,
+     "choices": [
+      "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させずにはおかない。",
+      "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させないわけにはいかない。",
+      "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させるに違[ちが]いない。",
+      "そのスピーチは聴衆[ちょうしゅう]を感動[かんどう]させずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 感動[かんどう]させ + ずにはおかない = will inevitably cause (the audience to be) moved. The speech (subject) will definitely produce the emotion (effect on audience). Formal, literary expression."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'His performance will certainly captivate the audience'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]せずにはおかない。",
+      "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]しないわけにはいかない。",
+      "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]するに違[ちが]いない。",
+      "彼[かれ]の演技[えんぎ]は観客[かんきゃく]を魅了[みりょう]せずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative verb neg-stem + ずにはおかない: 魅了[みりょう]せ + ずにはおかない = will inevitably captivate. The performer's ability is so strong that the audience WILL be captured. Formal literary expression of an inevitable positive outcome."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q5",
+     "type": "usage",
+     "prompt": "What FORMATION does ずにはおかない use?",
+     "japanese": null,
+     "choices": [
+      "Verb masu-stem + ずにはおかない, with no exceptions in modern standard Japanese.",
+      "Verb nai-stem (the part before ない) + ずにはおかない: 読[よ]ま + ず + にはおかない (cannot help but read)",
+      "Verb dict-form + ずにはおかない",
+      "Verb te-form + ずにはおかない"
+     ],
+     "correctIndex": 1,
+     "explanation": "Verb NAI-STEM + ずにはおかない: 読[よ]まない → 読[よ]ま + ず + にはおかない = cannot help but read. Exception: する → せずにはおかない. ず is the classical negative form. The ない-stem is the part before ない in plain negative: 食[た]べない → 食[た]べ, 書[か]かない → 書[か]か."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'That tragedy will inevitably bring tears to everyone'?",
+     "japanese": null,
+     "choices": [
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせずにはおかない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせないわけにはいかない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせるに違[ちが]いない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 泣[な]かせ + ずにはおかない = will inevitably make (everyone) cry. The tragedy (subject) will certainly cause the emotional response. Classic causative use of ずにはおかない."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q7",
+     "type": "translation",
+     "prompt": "Which means 'That injustice will inevitably provoke anger in people'?",
+     "japanese": null,
+     "choices": [
+      "その不正[ふせい]は人々[ひとびと]を怒[いか]らせずにはおかない。",
+      "その不正[ふせい]は人々[ひとびと]を怒[いか]らせないわけにはいかない。",
+      "その不正[ふせい]は人々[ひとびと]を怒[いか]らせるに違[ちが]いない。",
+      "その不正[ふせい]は人々[ひとびと]を怒[いか]らせずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 怒[いか]らせ + ずにはおかない = will inevitably anger (people). The injustice (subject) will certainly cause outrage. ずにはおかない asserts the inevitability of the emotional effect."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'His brilliant ideas will inevitably impress people'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させずにはおかない。",
+      "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させないわけにはいかない。",
+      "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させるに違[ちが]いない。",
+      "彼[かれ]の斬新[ざんしん]なアイデアは人々[ひとびと]を感心[かんしん]させずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 感心[かんしん]させ + ずにはおかない = will inevitably impress. His ideas are so innovative that people WILL be impressed. The form asserts the inevitability of the impression."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q9",
+     "type": "usage",
+     "prompt": "ずにはおかない vs. ずにはいられない — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "ずにはおかない: external effect — subject inevitably causes X IN OTHERS (or is so powerful it compels); ずにはいられない: internal compulsion — speaker/subject CANNOT HELP BUT DO X (driven by internal feeling)",
+      "ずにはおかない is more casual",
+      "ずにはいられない is for external effects only — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "ずにはおかない: 彼[かれ]の笑顔[えがお]は皆[みな]を笑[わら]わせずにはおかない (his smile will inevitably make everyone laugh — external causation). ずにはいられない: 見[み]ずにはいられない (I cannot help but watch — internal compulsion). Former: external inevitable effect; latter: personal inability to refrain."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'That novel will inevitably captivate readers'?",
+     "japanese": null,
+     "choices": [
+      "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]せずにはおかない。",
+      "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]しないわけにはいかない。",
+      "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]するに違[ちが]いない。",
+      "あの小説[しょうせつ]は読者[どくしゃ]を魅了[みりょう]せずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative verb (する→させ) + ずにはおかない: 魅了[みりょう]せ + ずにはおかない = will inevitably captivate. The novel (subject) will certainly enthrall its readers. せずにはおかない (for する-type verbs)."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q11",
+     "type": "translation",
+     "prompt": "Which means 'Those words will inevitably encourage anyone who hears them'?",
+     "japanese": null,
+     "choices": [
+      "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさずにはおかない。",
+      "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさないわけにはいかない。",
+      "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]ますに違[ちが]いない。",
+      "あの言葉[ことば]は聞[き]く人[ひと]を励[はげ]まさずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative verb neg-stem + ずにはおかない: 励[はげ]ます → 励[はげ]まさ + ずにはおかない = will inevitably encourage. The words (subject) will certainly have an encouraging effect on listeners. ずにはおかない asserts inevitability."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'That scandal will inevitably shake the entire company'?",
+     "japanese": null,
+     "choices": [
+      "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさずにはおかない。",
+      "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさないわけにはいかない。",
+      "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがすに違[ちが]いない。",
+      "そのスキャンダルは会社全体[かいしゃぜんたい]を揺[ゆ]るがさずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb neg-stem + ずにはおかない: 揺[ゆ]るがす → 揺[ゆ]るがさ + ずにはおかない = will inevitably shake. The scandal (subject) will certainly destabilize the whole company. ずにはおかない marks the inevitable organizational impact."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q13",
+     "type": "usage",
+     "prompt": "ずにはおかない is most commonly used with what type of SUBJECT?",
+     "japanese": null,
+     "choices": [
+      "The speaker (first person)",
+      "A powerful force, event, or person (third person, often inanimate) that INEVITABLY produces an effect in others: その映画[えいが]は、その本[ほん]は、彼[かれ]の笑顔[えがお]は",
+      "Always inanimate objects only, regardless of context or politeness level — this is true in both spoken and written Japanese.",
+      "Always plural subjects"
+     ],
+     "correctIndex": 1,
+     "explanation": "ずにはおかない (causative use) typically has a powerful third-person subject: その映画[えいが] (that movie will inevitably move people), 彼[かれ]の演技[えんぎ] (his performance will inevitably captivate), あの歌[うた] (that song will inevitably touch hearts). The subject is so powerful it CANNOT HELP BUT produce the effect."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'His passionate plea will inevitably move the judges'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさずにはおかない。",
+      "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさないわけにはいかない。",
+      "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かすに違[ちが]いない。",
+      "彼[かれ]の熱弁[ねつべん]は審査員[しんさいん]を動[うご]かさずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb neg-stem + ずにはおかない: 動[うご]かす → 動[うご]かさ + ずにはおかない = will inevitably move. His passionate speech (subject) will certainly affect the judges emotionally. ずにはおかない asserts the inevitability of the impact."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q15",
+     "type": "translation",
+     "prompt": "Which means 'That piece of music will inevitably inspire listeners'?",
+     "japanese": null,
+     "choices": [
+      "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]せずにはおかない。",
+      "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]しないわけにはいかない。",
+      "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]するに違[ちが]いない。",
+      "あの曲[きょく]は聴[き]く人[ひと]を鼓舞[こぶ]せずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative (する→させ/せ) + ずにはおかない: 鼓舞[こぶ]せ + ずにはおかない = will inevitably inspire. The music (subject) will certainly motivate listeners. せずにはおかない (する-verb) marks inevitable inspirational effect."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'The evidence will inevitably compel investigators to act'?",
+     "japanese": null,
+     "choices": [
+      "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさずにはおかない。",
+      "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさないわけにはいかない。",
+      "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かすに違[ちが]いない。",
+      "証拠[しょうこ]は捜査官[そうさかん]を動[うご]かさずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb neg-stem + ずにはおかない: 動[うご]かさ + ずにはおかない = will inevitably compel (investigators to act). The evidence (subject) is so compelling that investigators WILL be moved to action. ずにはおかない marks the compelling force."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q17",
+     "type": "usage",
+     "prompt": "ずにはおかない is primarily found in which register?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday speech — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
+      "Literary/formal written language — news articles, essays, formal criticism, literary works. Very rarely in casual conversation",
+      "Only classical texts",
+      "Only academic papers"
+     ],
+     "correctIndex": 1,
+     "explanation": "ずにはおかない is a formal, literary expression. It appears in essays, literary criticism, formal writing, and journalistic writing (映画[えいが]評[ひょう], 文芸[ぶんげい]評[ひょう]). In casual speech, the equivalent might be 〜させずにはいられない or simply 〜に違[ちが]いない. ずにはおかない elevates the register significantly."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'The beautiful artwork will inevitably impress visitors'?",
+     "japanese": null,
+     "choices": [
+      "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させずにはおかない。",
+      "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させないわけにはいかない。",
+      "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させるに違[ちが]いない。",
+      "その美[うつく]しい作品[さくひん]は訪問者[ほうもんしゃ]を感動[かんどう]させずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 感動[かんどう]させ + ずにはおかない = will inevitably move (visitors). The artwork's beauty is so overwhelming it WILL impress all who see it. ずにはおかない asserts this with certainty."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q19",
+     "type": "translation",
+     "prompt": "Which means 'His humorous talk will inevitably make the audience laugh'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせずにはおかない。",
+      "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせないわけにはいかない。",
+      "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせるに違[ちが]いない。",
+      "彼[かれ]の面白[おもしろ]い話[はなし]は聴衆[ちょうしゅう]を笑[わら]わせずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Causative + ずにはおかない: 笑[わら]わせ + ずにはおかない = will inevitably make (the audience) laugh. His humorous content is so effective that laughter is inevitable. ずにはおかない asserts the certainty of the comedic effect."
+    },
+    {
+     "id": "zu-ni-wa-okanai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'This tragedy will inevitably leave a deep impression on history'?",
+     "japanese": null,
+     "choices": [
+      "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さずにはおかない。",
+      "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さないわけにはいかない。",
+      "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]すに違[ちが]いない。",
+      "この悲劇[ひげき]は歴史[れきし]に深[ふか]い印象[いんしょう]を残[のこ]さずにはいられない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb neg-stem + ずにはおかない: 残[のこ]す → 残[のこ]さ + ずにはおかない = will inevitably leave. The tragedy (subject) will certainly imprint itself on history. ずにはおかない asserts this with formal certainty."
+    }
+   ]
+  },
+  {
+   "id": "wo-yogi-naku-sareru",
+   "name": "〜を余儀[よぎ]なくされる (wo yogi naku sareru) — be forced to / be compelled to",
+   "shortDescription": "Describes being compelled by external circumstances with no alternative — passive, formal, and measured.",
+   "formation": "Noun (action nominalized) + を余儀[よぎ]なくされる  |  Often: Verb (こと) + を余儀[よぎ]なくされる",
+   "explanation": "を余儀[よぎ]なくされる is the passive grammar of having no choice. 余儀[よぎ]ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止[ちゅうし]を余儀[よぎ]なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態[じたい]の名詞[めいし] — nominalized actions): 中止[ちゅうし], 閉鎖[へいさ], 撤退[てったい], 辞任[じにん], 引退[いんたい] (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得[え]ない (no choice but to — more personal, emotional): を余儀[よぎ]なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
+   "rules": [
+    "Action noun + を余儀[よぎ]なくされる = be forced to / be compelled by unavoidable circumstances",
+    "Passive voice — external circumstances compel the subject; not the subject's own will or choice",
+    "Expresses helplessness or unavoidable acceptance — no alternative was available",
+    "Highly formal — common in news reports, official announcements, and business writing",
+    "Typical action nouns: 撤退[てったい], 中止[ちゅうし], 変更[へんこう], 辞任[じにん], 閉鎖[へいさ], 引退[いんたい] (withdrawal, cancellation, change, resignation, closure, retirement)"
+   ],
+   "examples": [
+    {
+     "japanese": "台風[たいふう]の影響[えいきょう]で、コンサートは中止[ちゅうし]を余儀[よぎ]なくされました。",
+     "romaji": "Taifuu no eikyou de, konsaato wa chuushi wo yogi naku saremashita.",
+     "english": "Due to the typhoon, the concert was forced to be cancelled."
+    },
+    {
+     "japanese": "経営難[けいえいなん]により、工場[こうじょう]は閉鎖[へいさ]を余儀[よぎ]なくされました。",
+     "romaji": "Keieinan ni yori, koujou wa heisa wo yogi naku saremashita.",
+     "english": "Due to management difficulties, the factory was forced to close."
+    },
+    {
+     "japanese": "怪我[けが]のため、彼女[かのじょ]は大会[たいかい]への出場[しゅつじょう]を断念[だんねん]せざるを得[え]ず、引退[いんたい]を余儀[よぎ]なくされた。",
+     "romaji": "Kega no tame, kanojo wa taikai e no shutsujou wo dannen sezaru wo ezu, intai wo yogi naku sareta.",
+     "english": "Due to injury, she had no choice but to give up competing in the tournament, and was forced to retire."
+    },
+    {
+     "japanese": "急激[きゅうげき]な環境変化[かんきょうへんか]に対応[たいおう]できなかった企業[きぎょう]は、倒産[とうさん]を余儀[よぎ]なくされた。",
+     "romaji": "Kyuugeki na kankyou henka ni taiou dekinakatta kigyou wa, tousan wo yogi naku sareta.",
+     "english": "Companies that could not adapt to the rapid environmental changes were forced into bankruptcy."
+    }
+   ],
+   "flashcardHeader": "〜を余儀なくされる",
+   "flashcardAnswer": "Describes being compelled by external circumstances with no alternative — formal and measured, the language of official reporting.",
+   "practice": [
+    {
+     "id": "wo-yogi-naku-sareru_q1",
+     "type": "usage",
+     "prompt": "What does 〜を余儀[よぎ]なくされる mean?",
+     "japanese": null,
+     "choices": [
+      "be allowed to do voluntarily",
+      "be forced to / be compelled to (against one's will) — expresses that circumstances have left no choice; the subject is made to do X by external forces",
+      "be motivated to do",
+      "be encouraged to do"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜を余儀[よぎ]なくされる = be forced to / be compelled to (by circumstances). 撤退[てったい]を余儀[よぎ]なくされた = was forced to retreat. 余儀[よぎ]なく (unavoidably/inevitably) + される (passive) = made unavoidable by circumstances. Formal, often used for negative, unwanted forced actions."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to the disaster, residents were forced to evacuate'?",
+     "japanese": null,
+     "choices": [
+      "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]を余儀[よぎ]なくされた。",
+      "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]しなければならなかった。",
+      "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]させられた。",
+      "災害[さいがい]によって、住民[じゅうみん]は避難[ひなん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 避難[ひなん] + を余儀[よぎ]なくされた = were forced to evacuate. Circumstances (disaster) left no choice. を余儀[よぎ]なくされた is the formal expression for unwanted forced actions."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q3",
+     "type": "translation",
+     "prompt": "Which means 'Due to budget cuts, the company was forced to lay off employees'?",
+     "japanese": null,
+     "choices": [
+      "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラを余儀[よぎ]なくされた。",
+      "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラしなければならなかった。",
+      "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラさせられた。",
+      "予算削減[よさんさくげん]により、会社[かいしゃ]はリストラするように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: リストラ + を余儀[よぎ]なくされた = was forced to restructure/lay off. Budget cuts left the company no choice. を余儀[よぎ]なくされた emphasizes external compulsion."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to health reasons, he was compelled to retire'?",
+     "japanese": null,
+     "choices": [
+      "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]を余儀[よぎ]なくされた。",
+      "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]しなければならなかった。",
+      "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]させられた。",
+      "健康上[けんこうじょう]の理由[りゆう]で、彼[かれ]は引退[いんたい]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 引退[いんたい] + を余儀[よぎ]なくされた = was compelled to retire. Health circumstances (external force) left no choice. を余儀[よぎ]なくされた expresses unwanted retirement."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q5",
+     "type": "usage",
+     "prompt": "を余儀[よぎ]なくされる — what is the AGENT forcing the action?",
+     "japanese": null,
+     "choices": [
+      "Always a specific person, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
+      "Typically CIRCUMSTANCES or external forces (disasters, economic conditions, health, political pressure) — not a person, but a situation",
+      "Always the weather",
+      "Always the government"
+     ],
+     "correctIndex": 1,
+     "explanation": "を余儀[よぎ]なくされる is typically caused by circumstances, not a person: 災害[さいがい] (disaster), 経済[けいざい]危機[きき] (economic crisis), 健康[けんこう]問題[もんだい] (health problems), 政情不安[せいじょうふあん] (political instability). A situation FORCES the action. If a person directly forces, stronger expressions (〜させる passive, 強[し]いる) are used."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to the pandemic, the event was forced to be cancelled'?",
+     "japanese": null,
+     "choices": [
+      "パンデミックにより、イベントは中止[ちゅうし]を余儀[よぎ]なくされた。",
+      "パンデミックにより、イベントは中止[ちゅうし]しなければならなかった。",
+      "パンデミックにより、イベントは中止[ちゅうし]させられた。",
+      "パンデミックにより、イベントは中止[ちゅうし]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 中止[ちゅうし] + を余儀[よぎ]なくされた = was forced to cancel. The pandemic (circumstances) left no choice but cancellation. を余儀[よぎ]なくされた in official/formal reporting."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q7",
+     "type": "translation",
+     "prompt": "Which means 'Due to the earthquake, thousands were forced to leave their homes'?",
+     "japanese": null,
+     "choices": [
+      "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]を余儀[よぎ]なくされた。",
+      "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]しなければならなかった。",
+      "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]させられた。",
+      "地震[じしん]により、数千人[すうせんにん]が避難[ひなん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 避難[ひなん] + を余儀[よぎ]なくされた = were forced to evacuate. The earthquake (external force) compelled thousands to flee. を余儀[よぎ]なくされた is standard formal Japanese for disaster-forced displacement."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to rising costs, the restaurant was forced to close'?",
+     "japanese": null,
+     "choices": [
+      "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]を余儀[よぎ]なくされた。",
+      "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]しなければならなかった。",
+      "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]させられた。",
+      "コスト上昇[じょうしょう]により、レストランは閉店[へいてん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 閉店[へいてん] + を余儀[よぎ]なくされた = was forced to close. Rising costs (circumstances) left the restaurant no viable option. を余儀[よぎ]なくされた marks the unwanted business closure."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q9",
+     "type": "usage",
+     "prompt": "FORMATION: Which is correct for を余儀[よぎ]なくされる?",
+     "japanese": null,
+     "choices": [
+      "Verb dict-form + を余儀[よぎ]なくされる: 撤退[てったい]する + を余儀[よぎ]なくされる — and this holds in every register, formal or casual.",
+      "Noun (action/nominalized verb) + を余儀[よぎ]なくされる: 撤退[てったい] + を余儀[よぎ]なくされる OR 撤退[てったい]すること + を余儀[よぎ]なくされる",
+      "Verb te-form + を余儀[よぎ]なくされる",
+      "Verb masu-stem + を余儀[よぎ]なくされる"
+     ],
+     "correctIndex": 1,
+     "explanation": "NOUN + を余儀[よぎ]なくされる: 撤退[てったい]を余儀[よぎ]なくされる (forced to retreat). The noun is typically an action noun: 撤退[てったい] (retreat), 閉店[へいてん] (closing), 避難[ひなん] (evacuation), 辞任[じにん] (resignation). Also: verb こと + を余儀[よぎ]なくされる (less common). Action nouns are the standard form."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to policy changes, the project was forced to be halted'?",
+     "japanese": null,
+     "choices": [
+      "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]を余儀[よぎ]なくされた。",
+      "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]しなければならなかった。",
+      "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]させられた。",
+      "政策変更[せいさくへんこう]により、プロジェクトは中断[ちゅうだん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 中断[ちゅうだん] + を余儀[よぎ]なくされた = was forced to halt. Policy changes (external force) compelled the project suspension. を余儀[よぎ]なくされた in formal reporting on institutional decisions."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q11",
+     "type": "translation",
+     "prompt": "Which means 'Due to the flood, residents were forced to relocate'?",
+     "japanese": null,
+     "choices": [
+      "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]を余儀[よぎ]なくされた。",
+      "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]しなければならなかった。",
+      "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]させられた。",
+      "洪水[こうずい]により、住民[じゅうみん]は移転[いてん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 移転[いてん] + を余儀[よぎ]なくされた = were forced to relocate. The flood (natural disaster) compelled relocation. を余儀[よぎ]なくされた marks the unwanted displacement."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to economic hardship, the company was forced to scale down'?",
+     "japanese": null,
+     "choices": [
+      "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]を余儀[よぎ]なくされた。",
+      "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]しなければならなかった。",
+      "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]させられた。",
+      "経営難[けいえいなん]により、会社[かいしゃ]は縮小[しゅくしょう]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 縮小[しゅくしょう] + を余儀[よぎ]なくされた = was forced to scale down. Economic hardship (circumstances) left no option. を余儀[よぎ]なくされた marks the business contraction as forced by external economic pressure."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q13",
+     "type": "usage",
+     "prompt": "を余儀[よぎ]なくされる vs. させられる (causative passive) — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "を余儀[よぎ]なくされる: more formal/literary; emphasizes CIRCUMSTANCES as the compeller (impersonal external force); させられる: often implies a PERSON as the agent who directly forces",
+      "を余儀[よぎ]なくされる is more casual",
+      "させられる is only for positive actions, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "を余儀[よぎ]なくされる: formal, circumstances force: 経済[けいざい]危機[きき]で撤退[てったい]を余儀[よぎ]なくされた (forced to retreat by economic crisis — circumstances). させられる: often a person is the agent: 上司[じょうし]に残業[ざんぎょう]させられた (was made to work overtime by the boss — person forces). を余儀[よぎ]なくされる is more dignified and formal."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to diplomatic tensions, the ambassador was compelled to resign'?",
+     "japanese": null,
+     "choices": [
+      "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]を余儀[よぎ]なくされた。",
+      "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]しなければならなかった。",
+      "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]させられた。",
+      "外交的[がいこうてき]緊張[きんちょう]により、大使[たいし]は辞任[じにん]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 辞任[じにん] + を余儀[よぎ]なくされた = was compelled to resign. Diplomatic tensions (circumstances) forced the resignation. を余儀[よぎ]なくされた in formal diplomatic reporting."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q15",
+     "type": "translation",
+     "prompt": "Which means 'Due to technical problems, the launch was forced to be postponed'?",
+     "japanese": null,
+     "choices": [
+      "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]を余儀[よぎ]なくされた。",
+      "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]しなければならなかった。",
+      "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]させられた。",
+      "技術的問題[ぎじゅつてきもんだい]により、打[う]ち上[あ]げは延期[えんき]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 延期[えんき] + を余儀[よぎ]なくされた = was forced to postpone. Technical problems (circumstances) compelled the delay. を余儀[よぎ]なくされた in official announcements about forced schedule changes."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to the harsh weather, the climbers were forced to turn back'?",
+     "japanese": null,
+     "choices": [
+      "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]を余儀[よぎ]なくされた。",
+      "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]しなければならなかった。",
+      "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]させられた。",
+      "厳[きび]しい天候[てんこう]により、登山者[とざんしゃ]たちは撤退[てったい]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 撤退[てったい] + を余儀[よぎ]なくされた = were forced to turn back. Harsh weather (natural circumstance) left no safe option. を余儀[よぎ]なくされた marks the circumstance-forced retreat."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q17",
+     "type": "usage",
+     "prompt": "を余儀[よぎ]なくされる is most naturally found in which register?",
+     "japanese": null,
+     "choices": [
+      "Casual conversation between friends — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "Formal written language: news reports, official statements, academic papers — typically reporting on forced actions due to external circumstances",
+      "Children's picture books",
+      "Social media posts"
+     ],
+     "correctIndex": 1,
+     "explanation": "を余儀[よぎ]なくされる is formal and appears in: news reports (企業[きぎょう]は撤退[てったい]を余儀[よぎ]なくされた), official government statements, academic writing, and formal journalism. It's not used in casual speech — instead, one would say しなければならなかった or するしかなかった."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to the outbreak of war, many civilians were forced to flee'?",
+     "japanese": null,
+     "choices": [
+      "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]を余儀[よぎ]なくされた。",
+      "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]しなければならなかった。",
+      "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]させられた。",
+      "戦争[せんそう]勃発[ぼっぱつ]により、多[おお]くの市民[しみん]は逃亡[とうぼう]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 逃亡[とうぼう] + を余儀[よぎ]なくされた = were forced to flee. War outbreak (external catastrophe) compelled the civilians. を余儀[よぎ]なくされた in formal reporting on war displacement."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q19",
+     "type": "translation",
+     "prompt": "Which means 'Due to safety concerns, the facility was forced to suspend operations'?",
+     "japanese": null,
+     "choices": [
+      "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]を余儀[よぎ]なくされた。",
+      "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]しなければならなかった。",
+      "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]させられた。",
+      "安全上[あんぜんじょう]の懸念[けねん]から、施設[しせつ]は操業[そうぎょう]停止[ていし]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 操業[そうぎょう]停止[ていし] + を余儀[よぎ]なくされた = was forced to suspend operations. Safety concerns (regulatory/safety circumstance) compelled the halt. を余儀[よぎ]なくされた in formal industrial reporting."
+    },
+    {
+     "id": "wo-yogi-naku-sareru_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Due to financial difficulties, the university was forced to cut programs'?",
+     "japanese": null,
+     "choices": [
+      "財政難[ざいせいなん]により、大学[だいがく]はプログラムの廃止[はいし]を余儀[よぎ]なくされた。",
+      "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]しなければならなかった。",
+      "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]させられた。",
+      "財政難[ざいせいなん]により、大学[だいがく]はプログラムを廃止[はいし]するように強[し]いられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun (action) + を余儀[よぎ]なくされた: 廃止[はいし] + を余儀[よぎ]なくされた = was forced to abolish/cut. Financial difficulties (circumstances) left no option. を余儀[よぎ]なくされた in formal academic/institutional reporting on forced program cuts."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch47_v01",
+   "partOfSpeech": "noun",
+   "kanji": "覚悟",
+   "kana": "かくご",
+   "romaji": "kakugo",
+   "definition": "resolve; readiness"
+  },
+  {
+   "id": "ch47_v02",
+   "partOfSpeech": "noun",
+   "kanji": "決意",
+   "kana": "けつい",
+   "romaji": "ketsui",
+   "definition": "determination"
+  },
+  {
+   "id": "ch47_v03",
+   "partOfSpeech": "noun",
+   "kanji": "決断",
+   "kana": "けつだん",
+   "romaji": "ketsudan",
+   "definition": "decision; resolve"
+  },
+  {
+   "id": "ch47_v04",
+   "partOfSpeech": "noun",
+   "kanji": "意地",
+   "kana": "いじ",
+   "romaji": "iji",
+   "definition": "willpower; stubbornness"
+  },
+  {
+   "id": "ch47_v05",
+   "partOfSpeech": "noun",
+   "kanji": "執着",
+   "kana": "しゅうちゃく",
+   "romaji": "shuuchaku",
+   "definition": "attachment; obsession"
+  },
+  {
+   "id": "ch47_v06",
+   "partOfSpeech": "noun",
+   "kanji": "情熱",
+   "kana": "じょうねつ",
+   "romaji": "jounetsu",
+   "definition": "passion"
+  },
+  {
+   "id": "ch47_v07",
+   "partOfSpeech": "noun",
+   "kanji": "衝動",
+   "kana": "しょうどう",
+   "romaji": "shoudou",
+   "definition": "impulse"
+  },
+  {
+   "id": "ch47_v08",
+   "partOfSpeech": "noun",
+   "kanji": "未練",
+   "kana": "みれん",
+   "romaji": "miren",
+   "definition": "lingering attachment"
+  },
+  {
+   "id": "ch47_v09",
+   "partOfSpeech": "noun",
+   "kanji": "後悔",
+   "kana": "こうかい",
+   "romaji": "koukai",
+   "definition": "regret"
+  },
+  {
+   "id": "ch47_v10",
+   "partOfSpeech": "noun",
+   "kanji": "反省",
+   "kana": "はんせい",
+   "romaji": "hansei",
+   "definition": "reflection; remorse"
+  },
+  {
+   "id": "ch47_v11",
+   "partOfSpeech": "noun",
+   "kanji": "葛藤",
+   "kana": "かっとう",
+   "romaji": "kattou",
+   "definition": "(inner) conflict"
+  },
+  {
+   "id": "ch47_v12",
+   "partOfSpeech": "noun",
+   "kanji": "苦悩",
+   "kana": "くのう",
+   "romaji": "kunou",
+   "definition": "anguish; suffering"
+  },
+  {
+   "id": "ch47_v13",
+   "partOfSpeech": "noun",
+   "kanji": "焦り",
+   "kana": "あせり",
+   "romaji": "aseri",
+   "definition": "impatience; anxiety"
+  },
+  {
+   "id": "ch47_v14",
+   "partOfSpeech": "noun",
+   "kanji": "落胆",
+   "kana": "らくたん",
+   "romaji": "rakutan",
+   "definition": "disappointment; dejection"
+  },
+  {
+   "id": "ch47_v15",
+   "partOfSpeech": "noun",
+   "kanji": "絶望",
+   "kana": "ぜつぼう",
+   "romaji": "zetsubou",
+   "definition": "despair"
+  },
+  {
+   "id": "ch47_v16",
+   "partOfSpeech": "noun",
+   "kanji": "希望",
+   "kana": "きぼう",
+   "romaji": "kibou",
+   "definition": "hope"
+  },
+  {
+   "id": "ch47_v17",
+   "partOfSpeech": "noun",
+   "kanji": "感激",
+   "kana": "かんげき",
+   "romaji": "kangeki",
+   "definition": "deep emotion; being moved"
+  },
+  {
+   "id": "ch47_v18",
+   "partOfSpeech": "noun",
+   "kanji": "感慨",
+   "kana": "かんがい",
+   "romaji": "kangai",
+   "definition": "deep emotion; strong feelings"
+  },
+  {
+   "id": "ch47_v19",
+   "partOfSpeech": "noun",
+   "kanji": "郷愁",
+   "kana": "きょうしゅう",
+   "romaji": "kyoushuu",
+   "definition": "nostalgia"
+  },
+  {
+   "id": "ch47_v20",
+   "partOfSpeech": "noun",
+   "kanji": "哀愁",
+   "kana": "あいしゅう",
+   "romaji": "aishuu",
+   "definition": "sorrow; pathos"
+  },
+  {
+   "id": "ch47_v21",
+   "partOfSpeech": "na-adjective",
+   "kanji": "憂鬱",
+   "kana": "ゆううつ",
+   "romaji": "yuuutsu",
+   "definition": "melancholy; gloom"
+  },
+  {
+   "id": "ch47_v22",
+   "partOfSpeech": "noun",
+   "kanji": "憂い",
+   "kana": "うれい",
+   "romaji": "urei",
+   "definition": "grief; anxiety"
+  },
+  {
+   "id": "ch47_v23",
+   "partOfSpeech": "verb",
+   "kanji": "嘆く",
+   "kana": "なげく",
+   "romaji": "nageku",
+   "definition": "to grieve; to lament"
+  },
+  {
+   "id": "ch47_v24",
+   "partOfSpeech": "verb",
+   "kanji": "悼む",
+   "kana": "いたむ",
+   "romaji": "itamu",
+   "definition": "to mourn"
+  },
+  {
+   "id": "ch47_v25",
+   "partOfSpeech": "verb",
+   "kanji": "慕う",
+   "kana": "したう",
+   "romaji": "shitau",
+   "definition": "to yearn for; to adore"
+  },
+  {
+   "id": "ch47_v26",
+   "partOfSpeech": "verb",
+   "kanji": "惚れる",
+   "kana": "ほれる",
+   "romaji": "horeru",
+   "definition": "to fall in love"
+  },
+  {
+   "id": "ch47_v27",
+   "partOfSpeech": "verb",
+   "kanji": "憧れる",
+   "kana": "あこがれる",
+   "romaji": "akogareru",
+   "definition": "to long for; to admire"
+  },
+  {
+   "id": "ch47_v28",
+   "partOfSpeech": "verb",
+   "kanji": "見捨てる",
+   "kana": "みすてる",
+   "romaji": "misuteru",
+   "definition": "to abandon; to forsake"
+  },
+  {
+   "id": "ch47_v29",
+   "partOfSpeech": "verb",
+   "kanji": "尽くす",
+   "kana": "つくす",
+   "romaji": "tsukusu",
+   "definition": "to devote oneself"
+  },
+  {
+   "id": "ch47_v30",
+   "partOfSpeech": "verb",
+   "kanji": "貫く",
+   "kana": "つらぬく",
+   "romaji": "tsuranuku",
+   "definition": "to carry through; to persist"
+  },
+  {
+   "id": "ch47_v31",
+   "partOfSpeech": "verb",
+   "kanji": "耐える",
+   "kana": "たえる",
+   "romaji": "taeru",
+   "definition": "to endure; to withstand"
+  },
+  {
+   "id": "ch47_v32",
+   "partOfSpeech": "verb",
+   "kanji": "堪える",
+   "kana": "こらえる",
+   "romaji": "koraeru",
+   "definition": "to bear; to hold back"
+  },
+  {
+   "id": "ch47_v33",
+   "partOfSpeech": "verb",
+   "kanji": "屈する",
+   "kana": "くっする",
+   "romaji": "kussuru",
+   "definition": "to yield; to succumb"
+  },
+  {
+   "id": "ch47_v34",
+   "partOfSpeech": "noun",
+   "kanji": "決心",
+   "kana": "けっしん",
+   "romaji": "kesshin",
+   "definition": "determination; resolve"
+  },
+  {
+   "id": "ch47_v35",
+   "partOfSpeech": "na-adjective",
+   "kanji": "意欲的",
+   "kana": "いよくてき",
+   "romaji": "iyokuteki",
+   "definition": "motivated; eager"
+  },
+  {
+   "id": "ch47_v36",
+   "partOfSpeech": "noun",
+   "kanji": "献身",
+   "kana": "けんしん",
+   "romaji": "kenshin",
+   "definition": "devotion; dedication"
+  },
+  {
+   "id": "ch47_v37",
+   "partOfSpeech": "noun",
+   "kanji": "忍耐",
+   "kana": "にんたい",
+   "romaji": "nintai",
+   "definition": "perseverance; endurance"
+  },
+  {
+   "id": "ch47_v38",
+   "partOfSpeech": "noun",
+   "kanji": "執念",
+   "kana": "しゅうねん",
+   "romaji": "shuunen",
+   "definition": "tenacity; obsession"
+  },
+  {
+   "id": "ch47_v39",
+   "partOfSpeech": "noun",
+   "kanji": "感傷",
+   "kana": "かんしょう",
+   "romaji": "kanshou",
+   "definition": "sentimentality"
+  },
+  {
+   "id": "ch47_v40",
+   "partOfSpeech": "noun",
+   "kanji": "高揚",
+   "kana": "こうよう",
+   "romaji": "kouyou",
+   "definition": "elation; uplift"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "憂",
+   "word": "憂い",
+   "reading": "うれい",
+   "meaning": "grief; anxiety"
+  },
+  {
+   "char": "鬱",
+   "word": "憂鬱",
+   "reading": "ゆううつ",
+   "meaning": "melancholy; gloom"
+  },
+  {
+   "char": "憧",
+   "word": "憧れる",
+   "reading": "あこがれる",
+   "meaning": "to long for; to admire"
+  },
+  {
+   "char": "悼",
+   "word": "悼む",
+   "reading": "いたむ",
+   "meaning": "to mourn"
+  },
+  {
+   "char": "諦",
+   "word": "諦める",
+   "reading": "あきらめる",
+   "meaning": "to give up"
+  },
+  {
+   "char": "慕",
+   "word": "慕う",
+   "reading": "したう",
+   "meaning": "to yearn for; to adore"
+  },
+  {
+   "char": "遂",
+   "word": "遂げる",
+   "reading": "とげる",
+   "meaning": "to accomplish; to achieve"
+  },
+  {
+   "char": "曖",
+   "word": "曖昧",
+   "reading": "あいまい",
+   "meaning": "vague; ambiguous"
+  },
+  {
+   "char": "拶",
+   "word": "挨拶",
+   "reading": "あいさつ",
+   "meaning": "greeting"
+  },
+  {
+   "char": "顧",
+   "word": "顧みる",
+   "reading": "かえりみる",
+   "meaning": "to look back on, heed"
+  },
+  {
+   "char": "憩",
+   "word": "憩い",
+   "reading": "いこい",
+   "meaning": "rest, relaxation"
+  },
+  {
+   "char": "崖",
+   "word": "崖",
+   "reading": "がけ",
+   "meaning": "cliff"
+  },
+  {
+   "char": "岬",
+   "word": "岬",
+   "reading": "みさき",
+   "meaning": "cape, headland"
+  },
+  {
+   "char": "藤",
+   "word": "藤",
+   "reading": "ふじ",
+   "meaning": "wisteria"
+  },
+  {
+   "char": "葛",
+   "word": "葛藤",
+   "reading": "かっとう",
+   "meaning": "(inner) conflict"
+  },
+  {
+   "char": "崇",
+   "word": "崇拝",
+   "reading": "すうはい",
+   "meaning": "worship; adoration"
+  },
+  {
+   "char": "藩",
+   "word": "藩",
+   "reading": "はん",
+   "meaning": "feudal domain, clan"
+  },
+  {
+   "char": "凸",
+   "word": "凸凹",
+   "reading": "でこぼこ",
+   "meaning": "bumpy; uneven"
+  },
+  {
+   "char": "憬",
+   "word": "憧憬",
+   "reading": "どうけい",
+   "meaning": "longing; yearning"
+  },
+  {
+   "char": "慨",
+   "word": "感慨",
+   "reading": "かんがい",
+   "meaning": "deep emotion; strong feelings"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "憂い",
+   "kana": "うれい",
+   "romaji": "urei",
+   "meaning": "grief; anxiety",
+   "chars": [
+    "憂"
+   ]
+  },
+  {
+   "word": "憂鬱",
+   "kana": "ゆううつ",
+   "romaji": "yuuutsu",
+   "meaning": "melancholy; gloom",
+   "chars": [
+    "憂",
+    "鬱"
+   ]
+  },
+  {
+   "word": "憧れる",
+   "kana": "あこがれる",
+   "romaji": "akogareru",
+   "meaning": "to long for; to admire",
+   "chars": [
+    "憧"
+   ]
+  },
+  {
+   "word": "悼む",
+   "kana": "いたむ",
+   "romaji": "itamu",
+   "meaning": "to mourn",
+   "chars": [
+    "悼"
+   ]
+  },
+  {
+   "word": "諦める",
+   "kana": "あきらめる",
+   "romaji": "akirameru",
+   "meaning": "to give up",
+   "chars": [
+    "諦"
+   ]
+  },
+  {
+   "word": "慕う",
+   "kana": "したう",
+   "romaji": "shitau",
+   "meaning": "to yearn for; to adore",
+   "chars": [
+    "慕"
+   ]
+  },
+  {
+   "word": "遂げる",
+   "kana": "とげる",
+   "romaji": "togeru",
+   "meaning": "to accomplish; to achieve",
+   "chars": [
+    "遂"
+   ]
+  },
+  {
+   "word": "曖昧",
+   "kana": "あいまい",
+   "romaji": "aimai",
+   "meaning": "vague; ambiguous",
+   "chars": [
+    "曖",
+    "昧"
+   ]
+  },
+  {
+   "word": "挨拶",
+   "kana": "あいさつ",
+   "romaji": "aisatsu",
+   "meaning": "greeting",
+   "chars": [
+    "挨",
+    "拶"
+   ]
+  },
+  {
+   "word": "顧みる",
+   "kana": "かえりみる",
+   "romaji": "kaerimiru",
+   "meaning": "to look back on, heed",
+   "chars": [
+    "顧"
+   ]
+  },
+  {
+   "word": "憩い",
+   "kana": "いこい",
+   "romaji": "ikoi",
+   "meaning": "rest, relaxation",
+   "chars": [
+    "憩"
+   ]
+  },
+  {
+   "word": "崖",
+   "kana": "がけ",
+   "romaji": "gake",
+   "meaning": "cliff",
+   "chars": [
+    "崖"
+   ]
+  },
+  {
+   "word": "岬",
+   "kana": "みさき",
+   "romaji": "misaki",
+   "meaning": "cape, headland",
+   "chars": [
+    "岬"
+   ]
+  },
+  {
+   "word": "藤",
+   "kana": "ふじ",
+   "romaji": "fuji",
+   "meaning": "wisteria",
+   "chars": [
+    "藤"
+   ]
+  },
+  {
+   "word": "葛藤",
+   "kana": "かっとう",
+   "romaji": "kattou",
+   "meaning": "(inner) conflict",
+   "chars": [
+    "葛",
+    "藤"
+   ]
+  },
+  {
+   "word": "崇拝",
+   "kana": "すうはい",
+   "romaji": "suuhai",
+   "meaning": "worship; adoration",
+   "chars": [
+    "崇",
+    "拝"
+   ]
+  },
+  {
+   "word": "藩",
+   "kana": "はん",
+   "romaji": "han",
+   "meaning": "feudal domain, clan",
+   "chars": [
+    "藩"
+   ]
+  },
+  {
+   "word": "凸凹",
+   "kana": "でこぼこ",
+   "romaji": "dekoboko",
+   "meaning": "bumpy; uneven",
+   "chars": [
+    "凸",
+    "凹"
+   ]
+  },
+  {
+   "word": "憧憬",
+   "kana": "どうけい",
+   "romaji": "doukei",
+   "meaning": "longing; yearning",
+   "chars": [
+    "憧",
+    "憬"
+   ]
+  },
+  {
+   "word": "感慨",
+   "kana": "かんがい",
+   "romaji": "kangai",
+   "meaning": "deep emotion; strong feelings",
+   "chars": [
+    "感",
+    "慨"
+   ]
+  },
+  {
+   "word": "決意",
+   "kana": "けつい",
+   "romaji": "ketsui",
+   "meaning": "decision",
+   "chars": [
+    "決",
+    "意"
+   ]
+  },
+  {
+   "word": "感激",
+   "kana": "かんげき",
+   "romaji": "kangeki",
+   "meaning": "deep emotion",
+   "chars": [
+    "感"
+   ]
+  },
+  {
+   "word": "情熱",
+   "kana": "じょうねつ",
+   "romaji": "jounetsu",
+   "meaning": "passion",
+   "chars": [
+    "情",
+    "熱"
+   ]
+  },
+  {
+   "word": "覚悟",
+   "kana": "かくご",
+   "romaji": "kakugo",
+   "meaning": "readiness",
+   "chars": [
+    "覚"
+   ]
+  },
+  {
+   "word": "希望",
+   "kana": "きぼう",
+   "romaji": "kibou",
+   "meaning": "hope",
+   "chars": [
+    "希",
+    "望"
+   ]
+  },
+  {
+   "word": "後悔",
+   "kana": "こうかい",
+   "romaji": "koukai",
+   "meaning": "regret",
+   "chars": [
+    "後"
+   ]
+  }
+ ]
 }

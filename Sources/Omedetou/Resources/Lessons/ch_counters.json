@@ -1,878 +1,889 @@
 {
-  "id": "ch_counters",
-  "chapterNumber": 14,
-  "title": "Counters",
-  "points": [
+ "id": "ch_counters",
+ "chapterNumber": 14,
+ "title": "Counters",
+ "points": [
+  {
+   "id": "counters-tsu",
+   "name": "〜つ — the native counter (ひとつ・ふたつ…)",
+   "shortDescription": "The all-purpose native-Japanese counter for objects one through ten — the beginner's safe default.",
+   "formation": "ひとつ / ふたつ / みっつ … とお  (〜つ itself is the counter — add nothing else)",
+   "explanation": "Japanese actually has two number systems, and counting pulls from both. The native-Japanese 〜つ counter is the friendliest place to start: it works for almost any physical object — apples, boxes, chairs — without needing a specialized counter word. The catch is that it only runs from one to ten and the readings are irregular, so memorize them:\n- ひとつ (1)\n- ふたつ (2)\n- みっつ (3)\n- よっつ (4)\n- いつつ (5)\n- むっつ (6)\n- ななつ (7)\n- やっつ (8)\n- ここのつ (9)\n- とお (10) — the odd one out: no つ\n\nFrom eleven upward, drop 〜つ and switch to the Sino-Japanese numbers (じゅういち, じゅうに …) with a specific counter. To ask \"how many?\" in this system, use いくつ — which is also a polite way to ask someone's age (おいくつですか). Whenever you can't recall the specialized counter for something, 〜つ is a safe fallback for up to ten objects.",
+   "rules": [
+    "〜つ is the native counter for general objects — 1 to 10 only",
+    "The readings are irregular: ひとつ, ふたつ, みっつ … memorize them",
+    "とお (10) is the exception — it has no つ",
+    "いくつ = how many? (and politely, おいくつですか = how old are you?)",
+    "For 11 and up, use Sino-Japanese numbers + a specific counter"
+   ],
+   "examples": [
     {
-      "id": "counters-tsu",
-      "name": "〜つ — the native counter (ひとつ・ふたつ…)",
-      "shortDescription": "The all-purpose native-Japanese counter for objects one through ten — the beginner's safe default.",
-      "formation": "ひとつ / ふたつ / みっつ … とお  (〜つ itself is the counter — add nothing else)",
-      "explanation": "Japanese actually has two number systems, and counting pulls from both. The native-Japanese 〜つ counter is the friendliest place to start: it works for almost any physical object — apples, boxes, chairs — without needing a specialized counter word. The catch is that it only runs from one to ten and the readings are irregular, so memorize them:\n- ひとつ (1)\n- ふたつ (2)\n- みっつ (3)\n- よっつ (4)\n- いつつ (5)\n- むっつ (6)\n- ななつ (7)\n- やっつ (8)\n- ここのつ (9)\n- とお (10) — the odd one out: no つ\n\nFrom eleven upward, drop 〜つ and switch to the Sino-Japanese numbers (じゅういち, じゅうに …) with a specific counter. To ask \"how many?\" in this system, use いくつ — which is also a polite way to ask someone's age (おいくつですか). Whenever you can't recall the specialized counter for something, 〜つ is a safe fallback for up to ten objects.",
-      "rules": [
-        "〜つ is the native counter for general objects — 1 to 10 only",
-        "The readings are irregular: ひとつ, ふたつ, みっつ … memorize them",
-        "とお (10) is the exception — it has no つ",
-        "いくつ = how many? (and politely, おいくつですか = how old are you?)",
-        "For 11 and up, use Sino-Japanese numbers + a specific counter"
-      ],
-      "examples": [
-        {
-          "japanese": "りんごを二[ふた]つください。",
-          "romaji": "Ringo o futatsu kudasai.",
-          "english": "Two apples, please."
-        },
-        {
-          "japanese": "質問[しつもん]が三[みっ]つあります。",
-          "romaji": "Shitsumon ga mittsu arimasu.",
-          "english": "I have three questions."
-        },
-        {
-          "japanese": "ケーキはいくつありますか。",
-          "romaji": "Keeki wa ikutsu arimasu ka.",
-          "english": "How many cakes are there?"
-        },
-        {
-          "japanese": "「おいくつですか。」「三十[さんじゅう]です。」",
-          "romaji": "\"Oikutsu desu ka.\" \"Sanjuu desu.\"",
-          "english": "\"How old are you?\" \"Thirty.\""
-        }
-      ],
-      "flashcardHeader": "〜つ (native counter: ひとつ〜とお)",
-      "flashcardAnswer": "The all-purpose native-Japanese counter for general objects, one through ten.",
-      "practice": [
-        {
-          "id": "counters-tsu_q1",
-          "type": "fillBlank",
-          "prompt": "Count three apples with the native counter: りんごを___ください。",
-          "japanese": "りんごを___ください。",
-          "choices": [
-            "三[みっ]つ",
-            "三[さん]つ",
-            "三[み]つ",
-            "三個[さんこ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "The native counter for three is 三[みっ]つ (mittsu) — an irregular reading you memorize. さんつ / みつ are wrong readings, and 三個[さんこ] uses the Sino-Japanese 〜個 counter instead of the native 〜つ."
-        },
-        {
-          "id": "counters-tsu_q2",
-          "type": "usage",
-          "prompt": "Which is the native counter for \"two things\"?",
-          "japanese": null,
-          "choices": [
-            "二[ふた]つ",
-            "二人[ふたり]",
-            "二個[にこ]",
-            "二[に]つ"
-          ],
-          "correctIndex": 0,
-          "explanation": "二[ふた]つ (futatsu) is the native counter for two general objects. 二人[ふたり] counts people, 二個[にこ] uses 〜個, and につ is not a real reading."
-        },
-        {
-          "id": "counters-tsu_q3",
-          "type": "translation",
-          "prompt": "How do you ask \"how many are there?\" using the native system?",
-          "japanese": null,
-          "choices": [
-            "いくつありますか。",
-            "なんつありますか。",
-            "いくらありますか。",
-            "なんこありますか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "いくつ is the question word that pairs with the native 〜つ counter. なんつ is not used; いくら asks price; なんこ pairs with the 〜個 counter, not 〜つ."
-        },
-        {
-          "id": "counters-tsu_q4",
-          "type": "construct",
-          "prompt": "Which number breaks the 〜つ pattern by having no つ?",
-          "japanese": null,
-          "choices": [
-            "とお (10)",
-            "ここのつ (9)",
-            "やっつ (8)",
-            "ひとつ (1)"
-          ],
-          "correctIndex": 0,
-          "explanation": "とお (10) is the exception — every other native number from 1 to 9 ends in つ, but とお does not."
-        },
-        {
-          "id": "counters-tsu_q5",
-          "type": "fillBlank",
-          "prompt": "Say \"nine\" with the native counter:",
-          "japanese": null,
-          "choices": [
-            "ここのつ",
-            "きゅうつ",
-            "くつ",
-            "きゅうこ"
-          ],
-          "correctIndex": 0,
-          "explanation": "Nine is ここのつ (kokonotsu). きゅうつ / くつ are wrong readings, and きゅうこ uses 〜個."
-        },
-        {
-          "id": "counters-tsu_q6",
-          "type": "usage",
-          "prompt": "You can't remember the right counter for a box. What's a safe way to count one box?",
-          "japanese": null,
-          "choices": [
-            "一[ひと]つ",
-            "一本[いっぽん]",
-            "一台[いちだい]",
-            "一人[ひとり]"
-          ],
-          "correctIndex": 0,
-          "explanation": "When unsure, the native 一[ひと]つ works as a safe general count for objects up to ten. 一本 is for long thin things, 一台 for machines, and 一人 for people."
-        },
-        {
-          "id": "counters-tsu_q7",
-          "type": "translation",
-          "prompt": "\"Please give me five.\" (native counter)",
-          "japanese": null,
-          "choices": [
-            "五[いつ]つください。",
-            "五[ご]つください。",
-            "五個[ごこ]ください。",
-            "五[いつ]こください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Five is 五[いつ]つ (itsutsu). ごつ is a wrong reading, and 五個[ごこ] switches to the 〜個 counter."
-        }
-      ]
+     "japanese": "りんごを二[ふた]つください。",
+     "romaji": "Ringo o futatsu kudasai.",
+     "english": "Two apples, please."
     },
     {
-      "id": "counting-people",
-      "name": "People counters: ひとり・ふたり・〜人[にん] (nin)",
-      "shortDescription": "Counting people, with irregular forms for one and two.",
-      "formation": "一人[ひとり] (hitori) / 二人[ふたり] (futari) / 三人[さんにん] (sannin) / 四人[よにん] (yonin)...",
-      "explanation": "Japanese uses special counter words for different kinds of things, and people have their own: 〜人[にん] (nin). The first two numbers are completely irregular and must simply be memorized:\n- 一人[ひとり] = ひとり (one person) — not いちにん\n- 二人[ふたり] = ふたり (two people) — not ににん\n\nFrom three onward the pattern is regular:\n- 三人[さんにん] (3), 四人[よにん] (4 — note よ, not し), 五人[ごにん] (5)\n- 六人[ろくにん] (6), 七人[しちにん] / 七人[ななにん] (7), 八人[はちにん] (8)\n- 九人[きゅうにん] (9), 十人[じゅうにん] (10)\n\nOne expression to learn right away: 一人[ひとり]で means \"alone / by oneself\" and comes up constantly. To ask how many people, use 何人[なんにん]: 何人[なんにん]いますか (How many people are there?). For family size, 家族[かぞく]は〜人[にん]です is the natural, very common pattern.",
-      "rules": [
-        "Irregular: 一人[ひとり] = ひとり (one person), 二人[ふたり] = ふたり (two people)",
-        "Regular from three: 三人[さんにん] = さんにん, 四人[よにん] = よにん, 五人[ごにん] = ごにん",
-        "ひとりで = alone, by oneself (important standalone expression)",
-        "何人[なんにん] (なんにん) = how many people?",
-        "Counter attaches directly to the number: 三人[さんにん]の学生[がくせい] (three students)"
-      ],
-      "examples": [
-        {
-          "japanese": "家族[かぞく]は五人[ごにん]です。",
-          "romaji": "Kazoku wa gonin desu.",
-          "english": "There are five people in my family."
-        },
-        {
-          "japanese": "ひとりで旅行[りょこう]するのが好[す]きです。",
-          "romaji": "Hitori de ryokou suru no ga suki desu.",
-          "english": "I like traveling alone."
-        },
-        {
-          "japanese": "このクラスには何人[なんにん]いますか。",
-          "romaji": "Kono kurasu ni wa nannin imasu ka.",
-          "english": "How many people are in this class?"
-        },
-        {
-          "japanese": "友達[ともだち]と二人[ふたり]で映画[えいが]を見[み]に行[い]きました。",
-          "romaji": "Tomodachi to futari de eiga wo mi ni ikimashita.",
-          "english": "I went to see a movie with my friend, just the two of us."
-        }
-      ],
-      "flashcardHeader": "People counters: ひとり・ふたり・〜人",
-      "flashcardAnswer": "Counting people, with irregular forms for one and two.",
-      "practice": [
-        {
-          "id": "counting-people_q1",
-          "type": "construct",
-          "prompt": "How do you say 'two people' in Japanese?",
-          "japanese": null,
-          "choices": [
-            "にじん",
-            "にひと",
-            "ふたり",
-            "ににん"
-          ],
-          "correctIndex": 2,
-          "explanation": "Two people is ふたり — an irregular reading that must be memorized. ににん does not exist. From three onward the pattern becomes regular (さんにん, よにん...), but one and two are always ひとり and ふたり."
-        },
-        {
-          "id": "counting-people_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 家族[かぞく]は___です。(There are five people in my family.)",
-          "japanese": "家族[かぞく]は___です。",
-          "choices": [
-            "五[ご]じん",
-            "五[ご]ひとり",
-            "五人[ごにん]",
-            "五[ご]ひと"
-          ],
-          "correctIndex": 2,
-          "explanation": "From three people onward, the counter is regular: number + 人[ひと] (にん). Five people = 五人[ごにん] (ごにん). The irregular forms ひとり and ふたり only apply to one and two people."
-        },
-        {
-          "id": "counting-people_q3",
-          "type": "translation",
-          "prompt": "Which sentence means 'I like traveling alone'?",
-          "japanese": null,
-          "choices": [
-            "ひとりの旅行[りょこう]するのが好[す]きです。",
-            "ひとりで旅行[りょこう]するのが好[す]きです。",
-            "一人[ひとり]に旅行[りょこう]するのが好[す]きです。",
-            "一人[ひとり]を旅行[りょこう]するのが好[す]きです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "ひとりで means 'alone' or 'by oneself.' The particle で marks manner — it can be written 一人[ひとり]で or ひとりで, both correct. The other options use の, に and を, none of which mark manner."
-        },
-        {
-          "id": "counting-people_q4",
-          "type": "usage",
-          "prompt": "Which question correctly asks 'How many people are in this class?'",
-          "japanese": null,
-          "choices": [
-            "このクラスにはいくつ人[ひと]いますか。",
-            "このクラスには何[なに]ひとりいますか。",
-            "このクラスには何人[なんにん]いますか。",
-            "このクラスには何[な]にんですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "'How many people?' is 何人[なんにん] (なんにん). The verb いる (to exist, for people) is used in the question: 何人[なんにん]いますか. いくつ is for counting general objects, not people."
-        },
-        {
-          "id": "counting-people_q5",
-          "type": "translation",
-          "prompt": "What is the correct reading of 七人[しちにん]?",
-          "japanese": "七人[しちにん]",
-          "choices": [
-            "しちにん or ななにん",
-            "ひちにん",
-            "ふたにん",
-            "なにん"
-          ],
-          "correctIndex": 0,
-          "explanation": "Seven people can be read as しちにん or ななにん — both readings of 七[しち] are accepted. ひちにん is not a valid reading. なにん looks like 何人[なんにん] (how many people) and does not mean seven. From three people onward the pattern is Sino-Japanese number + にん, but 七[しち] has two acceptable readings."
-        },
-        {
-          "id": "counting-people_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: このクラスに学生[がくせい]が___います。(There are three students in this class.)",
-          "japanese": "このクラスに学生[がくせい]が___います。",
-          "choices": [
-            "みたり",
-            "三人[さんにん]",
-            "三[さん]ひとり",
-            "みっつ"
-          ],
-          "correctIndex": 1,
-          "explanation": "From three people onward, the counter is 〜人[ひと] (にん): 三人[さんにん] (さんにん). みたり does not exist as a people counter. 三[さん]ひとり is not a real form — ひとり only applies to 一人[ひとり]. みっつ counts general objects (three things), not people."
-        },
-        {
-          "id": "counting-people_q7",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'There are four people in my family'?",
-          "japanese": null,
-          "choices": [
-            "家族[かぞく]は四[し]じんです。",
-            "家族[かぞく]は四人[よにん]の人[ひと]です。",
-            "家族[かぞく]は四人[よにん]です。",
-            "家族[かぞく]はよっつです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Family size uses the pattern 家族[かぞく]は〜人[にん]です. Four people = 四人[よにん] (よにん). よっつ counts general things (four items), not people. 四[し]じん is not a word. 四人[よにん]の人[ひと] is redundant — 人[ひと] appears twice — and is unnatural."
-        },
-        {
-          "id": "counting-people_q8",
-          "type": "usage",
-          "prompt": "Which reading of 一人[ひとり] is correct?",
-          "japanese": "一人[ひとり]",
-          "choices": [
-            "いちにん",
-            "ひとにん",
-            "いちじん",
-            "ひとり"
-          ],
-          "correctIndex": 3,
-          "explanation": "One person is ひとり — an irregular form that does NOT follow the Sino-Japanese number + にん pattern. いちにん does not exist as a people counter. This is one of only two irregulars: 一人[ひとり] = ひとり (one person) and 二人[ふたり] = ふたり (two people). From 三人[さんにん] onward, the regular pattern applies."
-        },
-        {
-          "id": "counting-people_q9",
-          "type": "translation",
-          "prompt": "What does 何人[なんにん]いますか mean?",
-          "japanese": "何人[なんにん]いますか。",
-          "choices": [
-            "How many people are there?",
-            "Who is there?",
-            "How old is this person?",
-            "How many things are there?"
-          ],
-          "correctIndex": 0,
-          "explanation": "何人[なんにん] (なんにん) = how many people. いますか uses いる (to exist/be, used for animate beings like people). Together: 'How many people are there?' 何歳[なんさい]ですか asks how old someone is. いくつありますか counts general objects. 誰[だれ]がいますか asks who is there."
-        },
-        {
-          "id": "counting-people_q10",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 弟[おとうと]と___でプールに行[い]きました。(I went to the pool with my younger brother, just the two of us.)",
-          "japanese": "弟[おとうと]と___でプールに行[い]きました。",
-          "choices": [
-            "二[に]じん",
-            "二人[ふたり]",
-            "二[に]ひと",
-            "ふたりの"
-          ],
-          "correctIndex": 1,
-          "explanation": "Two people = 二人[ふたり] (ふたり). With the particle で, ふたりで means 'as two people' or 'the two of us together.' 弟[おとうと]と二人[ふたり]で = 'with my younger brother, the two of us.' 二[に]じん is not a word. ふたりの would be possessive ('of the two'), which does not fit here."
-        },
-        {
-          "id": "counting-people_q11",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'There are ten students in this room'?",
-          "japanese": null,
-          "choices": [
-            "この部屋[へや]に学生[がくせい]がじゅうつがいます。",
-            "この部屋[へや]に学生[がくせい]が十[じゅう]じんいます。",
-            "この部屋[へや]に学生[がくせい]が十人[じゅうにん]います。",
-            "この部屋[へや]に学生[がくせい]がとおりいます。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). The structure is  + が +  + います. じゅうつ does not exist for counting people. 十[じゅう]じん is not a word. とおり is not a people counter — the correct native Japanese word for ten things is とお, and for ten people you must use じゅうにん."
-        },
-        {
-          "id": "counting-people_q12",
-          "type": "usage",
-          "prompt": "Which number-person pair is INCORRECT?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり] → ひとり",
-            "三人[さんにん] → さんにん",
-            "五人[ごにん] → ごにん",
-            "二人[ふたり] → ににん"
-          ],
-          "correctIndex": 3,
-          "explanation": "二人[ふたり] is NOT ににん — that form does not exist. Two people is the irregular ふたり. Only 一人[ひとり] (ひとり) and 二人[ふたり] (ふたり) are irregular. From 三人[さんにん] (さんにん) onward the regular Sino-Japanese number + にん pattern applies, as shown in the other correct options."
-        },
-        {
-          "id": "counting-people_q13",
-          "type": "translation",
-          "prompt": "How many people does the word ふたり refer to?",
-          "japanese": "ふたり",
-          "choices": [
-            "Two people",
-            "One person",
-            "Three people",
-            "A few people (unspecified)"
-          ],
-          "correctIndex": 0,
-          "explanation": "ふたり (二人[ふたり]) = two people. It is one of two irregular forms you must memorize: ひとり = one person, ふたり = two people. ふたりで means 'the two of us together.' These native Japanese readings replace the Sino-Japanese いちにん and ににん, which do not exist."
-        },
-        {
-          "id": "counting-people_q14",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: このクラスには___いますか。(How many people are in this class?)",
-          "japanese": "このクラスには___いますか。",
-          "choices": [
-            "いくつ",
-            "何人[なんにん]",
-            "何人[なんにん]の",
-            "いく人[ひと]"
-          ],
-          "correctIndex": 1,
-          "explanation": "'How many people?' is 何人[なんにん] (なんにん). いくつ counts general objects or informally asks age, not people specifically. 何人[なんにん]の would precede a noun (e.g., 何人[なんにん]の学生[がくせい] = how many students), but not いますか directly. いく人[ひと] is not a real word."
-        },
-        {
-          "id": "counting-people_q15",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'Six students are studying in the library'?",
-          "japanese": null,
-          "choices": [
-            "図書館[としょかん]で学生[がくせい]が六[ろく]ひとが勉強[べんきょう]しています。",
-            "図書館[としょかん]で学生[がくせい]が六[ろく]じん勉強[べんきょう]しています。",
-            "図書館[としょかん]で学生[がくせい]が六人[ろくにん]勉強[べんきょう]しています。",
-            "図書館[としょかん]で学生[がくせい]がむっつ勉強[べんきょう]しています。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Six people = 六人[ろくにん] (ろくにん). The structure  + が +  is followed by the predicate. 六[ろく]ひと does not exist as a counter. 六[ろく]じん is not a word. むっつ is the native Japanese counter for six things — it counts objects, not people."
-        },
-        {
-          "id": "counting-people_q16",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses a people counter with います?",
-          "japanese": null,
-          "choices": [
-            "部屋[へや]に子[こ]どもがみっつがいます。",
-            "部屋[へや]に子[こ]どもがふたりにいます。",
-            "部屋[へや]に子[こ]どもがにんふたりいます。",
-            "部屋[へや]に子[こ]どもがふたりいます。"
-          ],
-          "correctIndex": 3,
-          "explanation": "子[こ]どもがふたりいます = 'there are two children.' The structure is  + が +  + います. ふたり is the irregular form for two people. みっつ in option 1 is for counting objects. Option 2 adds an extra に after ふたり (wrong). Option 3 puts にん before ふたり, reversing the order (wrong)."
-        },
-        {
-          "id": "counting-people_q17",
-          "type": "translation",
-          "prompt": "A friend says 家族[かぞく]は七人[しちにん]です. How many people are in their family?",
-          "japanese": "家族[かぞく]は七人[しちにん]です。",
-          "choices": [
-            "Seven people",
-            "Eight people",
-            "Six people",
-            "Nine people"
-          ],
-          "correctIndex": 0,
-          "explanation": "七人[しちにん] = しちにん or ななにん = seven people. 家族[かぞく]は七人[しちにん]です = 'There are seven people in my family.' The kanji 七[しち] can be read as しち or なな, both combined with にん (people counter). Eight = 八人[はちにん] (はちにん), six = 六人[ろくにん] (ろくにん), nine = 九[きゅう]人[にん] (きゅうにん)."
-        },
-        {
-          "id": "counting-people_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: パーティーに___来[き]ました。(Ten people came to the party.)",
-          "japanese": "パーティーに___来[き]ました。",
-          "choices": [
-            "十[じゅう]じん",
-            "十人[じゅうにん]",
-            "じゅうひとり",
-            "十[じゅう]つ"
-          ],
-          "correctIndex": 1,
-          "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). From three people onward, the regular pattern is Sino-Japanese number + 人[ひと] (にん). じゅうひとり is not a real form — ひとり only applies to one person. 十[じゅう]つ does not exist. 十[じゅう]じん is not a word."
-        },
-        {
-          "id": "counting-people_q19",
-          "type": "construct",
-          "prompt": "Which sentence correctly says 'I went to the park alone'?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり]に公園[こうえん]に行[い]きました。",
-            "一人[ひとり]の公園[こうえん]に行[い]きました。",
-            "ひとりで公園[こうえん]に行[い]きました。",
-            "ひとりに公園[こうえん]に行[い]きました。"
-          ],
-          "correctIndex": 2,
-          "explanation": "ひとりで means 'alone' or 'by oneself' — the particle で marks manner (how something is done). 一人[ひとり] and ひとり are the same word written differently; both are correct, but で is the essential particle. Using に after ひとり (options 1 and 4) is incorrect. の (option 2) is possessive and changes the meaning."
-        },
-        {
-          "id": "counting-people_q20",
-          "type": "usage",
-          "prompt": "Which pair shows the TWO irregular people counters that must be memorized?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり](いちにん) and 二人[ふたり](ににん)",
-            "一人[ひとり](ひとり) and 三人[さんにん](みたり)",
-            "二人[ふたり](ふたり) and 三人[さんにん](みたり)",
-            "一人[ひとり](ひとり) and 二人[ふたり](ふたり)"
-          ],
-          "correctIndex": 3,
-          "explanation": "The only two irregular people counters are 一人[ひとり] (ひとり) and 二人[ふたり] (ふたり). From 三人[さんにん] (さんにん) onward, all forms follow the regular Sino-Japanese number + にん pattern. いちにん, ににん, and みたり do not exist. These two irregulars use native Japanese (yamato kotoba) number words instead of Sino-Japanese ones."
-        }
-      ]
+     "japanese": "質問[しつもん]が三[みっ]つあります。",
+     "romaji": "Shitsumon ga mittsu arimasu.",
+     "english": "I have three questions."
     },
     {
-      "id": "counters-common",
-      "name": "Common counters: 〜個・枚・本・匹・台・冊・杯",
-      "shortDescription": "The specialized Sino-Japanese counters for everyday objects — and the sound changes that trip everyone up.",
-      "formation": "Number + Counter  (三枚[さんまい], 二匹[にひき], 一本[いっぽん] …)",
-      "explanation": "Beyond ten — and whenever you want to sound precise — Japanese picks a counter based on the shape or type of the thing, attached to a Sino-Japanese number. Here are the everyday workhorses:\n- 〜個[こ]: small, round, or general objects (apples, erasers) — the most flexible specific counter\n- 〜枚[まい]: flat, thin things (paper, shirts, plates, tickets)\n- 〜本[ほん]: long, thin things (pens, bottles, umbrellas)\n- 〜匹[ひき]: small animals (cats, dogs, fish, insects)\n- 〜台[だい]: machines and vehicles (cars, computers, TVs)\n- 〜冊[さつ]: bound things (books, magazines, notebooks)\n- 〜杯[はい]: cupfuls / glassfuls (coffee, rice, drinks)\n\nThe hard part isn't the counters themselves — it's the sound changes. Counters that begin with an h-sound (は行: 本, 匹, 杯) shift after 1, 3, 6, 8, and 10:\n- 〜本: 一本[いっぽん], 三本[さんぼん], 六本[ろっぽん], 八本[はっぽん], 十本[じゅっぽん]\n- 〜匹: 一匹[いっぴき], 三匹[さんびき], 六匹[ろっぴき], 八匹[はっぴき], 十匹[じゅっぴき]\n- 〜杯: 一杯[いっぱい], 三杯[さんばい], 六杯[ろっぱい], 八杯[はっぱい], 十杯[じゅっぱい]\n\n〜個 doubles the consonant at 1, 6, 8, 10 (一個[いっこ], 六個[ろっこ], 八個[はっこ], 十個[じゅっこ]); 〜冊 doubles at 1, 8, 10 but not 6 (一冊[いっさつ], 八冊[はっさつ], 十冊[じゅっさつ] — yet 六冊[ろくさつ]). 〜枚 and 〜台 are the easy ones — no changes at all (一枚[いちまい], 三台[さんだい]).",
-      "rules": [
-        "Choose the counter by shape/type: flat → 〜枚, long → 〜本, animal → 〜匹, machine → 〜台",
-        "〜個[こ] is the flexible catch-all for small or general objects",
-        "は行 counters (本・匹・杯) change sound after 1, 3, 6, 8, 10",
-        "〜本: いっぽん / さんぼん / ろっぽん / はっぽん / じゅっぽん",
-        "〜枚 and 〜台 never change: いちまい, にまい …／いちだい, にだい …",
-        "Ask \"how many?\" with 何[なん] + counter: 何枚[なんまい], 何本[なんぼん], 何匹[なんびき]"
-      ],
-      "examples": [
-        {
-          "japanese": "紙[かみ]を三枚[さんまい]ください。",
-          "romaji": "Kami o sanmai kudasai.",
-          "english": "Three sheets of paper, please."
-        },
-        {
-          "japanese": "ビールを二本[にほん]飲[の]みました。",
-          "romaji": "Biiru o nihon nomimashita.",
-          "english": "I drank two bottles of beer."
-        },
-        {
-          "japanese": "猫[ねこ]が三匹[さんびき]います。",
-          "romaji": "Neko ga sanbiki imasu.",
-          "english": "There are three cats."
-        },
-        {
-          "japanese": "車[くるま]は何台[なんだい]ありますか。",
-          "romaji": "Kuruma wa nandai arimasu ka.",
-          "english": "How many cars are there?"
-        }
-      ],
-      "flashcardHeader": "Common counters (個・枚・本・匹・台・冊・杯)",
-      "flashcardAnswer": "Specialized counters chosen by shape/type, plus their sound changes.",
-      "practice": [
-        {
-          "id": "counters-common_q1",
-          "type": "fillBlank",
-          "prompt": "Count three long thin objects (pens): 鉛筆[えんぴつ]を___",
-          "japanese": "鉛筆[えんぴつ]を___",
-          "choices": [
-            "三本[さんぼん]",
-            "三本[さんほん]",
-            "三枚[さんまい]",
-            "三匹[さんびき]"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜本 undergoes rendaku after 三: 三本[さんぼん] (not さんほん). 〜枚 is for flat things and 〜匹 for animals."
-        },
-        {
-          "id": "counters-common_q2",
-          "type": "usage",
-          "prompt": "How do you count one small animal (a cat)?",
-          "japanese": null,
-          "choices": [
-            "一匹[いっぴき]",
-            "一匹[いちひき]",
-            "一本[いっぽん]",
-            "一台[いちだい]"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜匹 changes after 1: 一匹[いっぴき] (not いちひき). 〜本 is for long things and 〜台 for machines."
-        },
-        {
-          "id": "counters-common_q3",
-          "type": "usage",
-          "prompt": "Which counter is correct for sheets of paper?",
-          "japanese": null,
-          "choices": [
-            "〜枚[まい]",
-            "〜本[ほん]",
-            "〜台[だい]",
-            "〜冊[さつ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Flat, thin things like paper, plates, and shirts take 〜枚[まい]. 〜本 is for long things, 〜台 for machines, 〜冊 for books."
-        },
-        {
-          "id": "counters-common_q4",
-          "type": "fillBlank",
-          "prompt": "Count six bottles of water: 水[みず]を___",
-          "japanese": "水[みず]を___",
-          "choices": [
-            "六本[ろっぽん]",
-            "六本[ろくほん]",
-            "六本[ろくぼん]",
-            "六枚[ろくまい]"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜本 becomes っ + ぽ after 6: 六本[ろっぽん]. It's one of the 1/3/6/8/10 sound-change spots."
-        },
-        {
-          "id": "counters-common_q5",
-          "type": "usage",
-          "prompt": "Which counter for two cars?",
-          "japanese": null,
-          "choices": [
-            "二台[にだい]",
-            "二本[にほん]",
-            "二個[にこ]",
-            "二匹[にひき]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Machines and vehicles take 〜台: 二台[にだい]. 〜台 conveniently has no sound changes."
-        },
-        {
-          "id": "counters-common_q6",
-          "type": "translation",
-          "prompt": "\"Two cups of coffee, please.\"",
-          "japanese": null,
-          "choices": [
-            "コーヒーを二杯[にはい]ください。",
-            "コーヒーを二本[にほん]ください。",
-            "コーヒーを二匹[にひき]ください。",
-            "コーヒーを二台[にだい]ください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Cupfuls and glassfuls take 〜杯: 二杯[にはい]. 〜本 would count bottles, not cups."
-        },
-        {
-          "id": "counters-common_q7",
-          "type": "usage",
-          "prompt": "How do you ask \"how many books?\"",
-          "japanese": null,
-          "choices": [
-            "何冊[なんさつ]",
-            "何枚[なんまい]",
-            "何本[なんぼん]",
-            "何個[なんこ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Books and other bound volumes use 〜冊, so \"how many books\" is 何冊[なんさつ]."
-        },
-        {
-          "id": "counters-common_q8",
-          "type": "fillBlank",
-          "prompt": "Count eight apples with 〜個: りんごを___",
-          "japanese": "りんごを___",
-          "choices": [
-            "八個[はっこ]",
-            "八個[はちこ]",
-            "八個[はっき]",
-            "八本[はっぽん]"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜個 doubles the consonant after 8: 八個[はっこ]. はちこ / はっき are wrong, and 〜本 is for long objects."
-        }
-      ]
+     "japanese": "ケーキはいくつありますか。",
+     "romaji": "Keeki wa ikutsu arimasu ka.",
+     "english": "How many cakes are there?"
     },
     {
-      "id": "counters-frequency-age",
-      "name": "Counting times, age, and order: 〜回・歳・番",
-      "shortDescription": "Counters for how often (〜回), how old (〜歳), and what position (〜番).",
-      "formation": "Number + 回[かい] (times) / 歳[さい] (years old) / 番[ばん] (order)",
-      "explanation": "Not everything you count is an object — you also count occurrences, ages, and rankings. Three counters cover most of this:\n- 〜回[かい]: number of times / frequency. It doubles the consonant at 1, 6, 8, 10 — 一回[いっかい], 六回[ろっかい], 八回[はっかい], 十回[じゅっかい]. Ask \"how often?\" with 何回[なんかい].\n- 〜歳[さい] (also written 〜才): age in years. 一歳[いっさい], 二歳[にさい] … and 何歳[なんさい] (how old?). Memorize the famous irregular: 20 years old is 二十歳[はたち], not にじゅっさい.\n- 〜番[ばん]: order, rank, or position in a sequence. 一番[いちばん], 二番[にばん], 三番[さんばん]. Note that 一番[いちばん] also means \"the most / the best\" in comparisons.\n\nWatch a look-alike: 〜階[かい] counts the floors of a building (三階[さんがい] = third floor) and shares 〜回's sound-change quirks. The kanji and context keep the two apart.",
-      "rules": [
-        "〜回[かい] = number of times; 何回[なんかい] = how many times / how often",
-        "〜回 doubles the consonant at 1, 6, 8, 10: いっかい, ろっかい, はっかい, じゅっかい",
-        "〜歳[さい] = years old; 何歳[なんさい] = how old",
-        "Irregular: 二十歳[はたち] = 20 years old (not にじゅっさい)",
-        "〜番[ばん] = order/rank; 一番[いちばん] also means \"the most / the best\""
-      ],
-      "examples": [
-        {
-          "japanese": "一年[いちねん]に二回[にかい]日本[にほん]へ行[い]きます。",
-          "romaji": "Ichinen ni nikai Nihon e ikimasu.",
-          "english": "I go to Japan twice a year."
-        },
-        {
-          "japanese": "妹[いもうと]は二十歳[はたち]です。",
-          "romaji": "Imouto wa hatachi desu.",
-          "english": "My little sister is twenty."
-        },
-        {
-          "japanese": "この店[みせ]のラーメンが一番[いちばん]おいしいです。",
-          "romaji": "Kono mise no raamen ga ichiban oishii desu.",
-          "english": "This shop's ramen is the best."
-        },
-        {
-          "japanese": "何回[なんかい]電話[でんわ]しましたか。",
-          "romaji": "Nankai denwa shimashita ka.",
-          "english": "How many times did you call?"
-        }
-      ],
-      "flashcardHeader": "〜回 / 〜歳 / 〜番 (times, age, order)",
-      "flashcardAnswer": "Counters for frequency, age in years, and rank or order.",
-      "practice": [
-        {
-          "id": "counters-frequency-age_q1",
-          "type": "usage",
-          "prompt": "How do you say \"twice\"?",
-          "japanese": null,
-          "choices": [
-            "二回[にかい]",
-            "二番[にばん]",
-            "二歳[にさい]",
-            "二本[にほん]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Number of times uses 〜回: 二回[にかい] = twice. 〜番 is order, 〜歳 is age, 〜本 counts long objects."
-        },
-        {
-          "id": "counters-frequency-age_q2",
-          "type": "fillBlank",
-          "prompt": "Count six times:",
-          "japanese": null,
-          "choices": [
-            "六回[ろっかい]",
-            "六回[ろくかい]",
-            "六回[ろっき]",
-            "六番[ろくばん]"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜回 doubles the consonant after 6: 六回[ろっかい] (not ろくかい)."
-        },
-        {
-          "id": "counters-frequency-age_q3",
-          "type": "translation",
-          "prompt": "How do you say \"20 years old\"?",
-          "japanese": null,
-          "choices": [
-            "二十歳[はたち]",
-            "二十歳[にじゅっさい]",
-            "二十才[にじゅさい]",
-            "二十歳[はたさい]"
-          ],
-          "correctIndex": 0,
-          "explanation": "20 years old is the irregular 二十歳[はたち]. にじゅっさい is a common learner mistake — memorize はたち."
-        },
-        {
-          "id": "counters-frequency-age_q4",
-          "type": "usage",
-          "prompt": "How do you ask \"how old are you?\" (standard)",
-          "japanese": null,
-          "choices": [
-            "何歳[なんさい]ですか。",
-            "何回[なんかい]ですか。",
-            "何番[なんばん]ですか。",
-            "いくらですか。"
-          ],
-          "correctIndex": 0,
-          "explanation": "何歳[なんさい]ですか is the standard \"how old are you?\" (おいくつですか is the more polite version). 何回 asks frequency and いくら asks price."
-        },
-        {
-          "id": "counters-frequency-age_q5",
-          "type": "usage",
-          "prompt": "\"This is the best\" uses which counter word?",
-          "japanese": null,
-          "choices": [
-            "一番[いちばん]",
-            "一回[いっかい]",
-            "一台[いちだい]",
-            "一冊[いっさつ]"
-          ],
-          "correctIndex": 0,
-          "explanation": "一番[いちばん] literally means \"number one\" and is used for \"the most / the best.\" The others count times, machines, and books."
-        },
-        {
-          "id": "counters-frequency-age_q6",
-          "type": "translation",
-          "prompt": "How do you say \"third floor\"?",
-          "japanese": null,
-          "choices": [
-            "三階[さんがい]",
-            "三回[さんかい]",
-            "三番[さんばん]",
-            "三台[さんだい]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Floors use 〜階, and 三 triggers rendaku: 三階[さんがい]. 三回[さんかい] means \"three times\" — same sound, different kanji."
-        },
-        {
-          "id": "counters-frequency-age_q7",
-          "type": "fillBlank",
-          "prompt": "\"I've been to Kyoto three times.\" 京都[きょうと]へ___行[い]ったことがあります。",
-          "japanese": "京都[きょうと]へ___行[い]ったことがあります。",
-          "choices": [
-            "三回[さんかい]",
-            "三番[さんばん]",
-            "三歳[さんさい]",
-            "三枚[さんまい]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Frequency of an experience uses 〜回: 三回[さんかい] = three times. The others mean rank, age, and flat-object count."
-        }
-      ]
+     "japanese": "「おいくつですか。」「三十[さんじゅう]です。」",
+     "romaji": "\"Oikutsu desu ka.\" \"Sanjuu desu.\"",
+     "english": "\"How old are you?\" \"Thirty.\""
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜つ (native counter: ひとつ〜とお)",
+   "flashcardAnswer": "The all-purpose native-Japanese counter for general objects, one through ten.",
+   "practice": [
     {
-      "id": "cnt_v1",
-      "partOfSpeech": "counter",
-      "kanji": "一つ",
-      "kana": "ひとつ",
-      "romaji": "hitotsu",
-      "definition": "one (thing); native counter"
+     "id": "counters-tsu_q1",
+     "type": "fillBlank",
+     "prompt": "Count three apples with the native counter: りんごを___ください。",
+     "japanese": "りんごを___ください。",
+     "choices": [
+      "三[みっ]つ",
+      "三[さん]つ",
+      "三[み]つ",
+      "三個[さんこ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "The native counter for three is 三[みっ]つ (mittsu) — an irregular reading you memorize. さんつ / みつ are wrong readings, and 三個[さんこ] uses the Sino-Japanese 〜個[こ] counter instead of the native 〜つ."
     },
     {
-      "id": "cnt_v2",
-      "partOfSpeech": "counter",
-      "kanji": "一人",
-      "kana": "ひとり",
-      "romaji": "hitori",
-      "definition": "one person; alone"
+     "id": "counters-tsu_q2",
+     "type": "usage",
+     "prompt": "Which is the native counter for \"two things\"?",
+     "japanese": null,
+     "choices": [
+      "二[ふた]つ",
+      "二人[ふたり]",
+      "二個[にこ]",
+      "二[に]つ"
+     ],
+     "correctIndex": 0,
+     "explanation": "二[ふた]つ (futatsu) is the native counter for two general objects. 二人[ふたり] counts people, 二個[にこ] uses 〜個[こ], and につ is not a real reading."
     },
     {
-      "id": "cnt_v3",
-      "partOfSpeech": "counter",
-      "kanji": "二人",
-      "kana": "ふたり",
-      "romaji": "futari",
-      "definition": "two people"
+     "id": "counters-tsu_q3",
+     "type": "translation",
+     "prompt": "How do you ask \"how many are there?\" using the native system?",
+     "japanese": null,
+     "choices": [
+      "いくつありますか。",
+      "なんつありますか。",
+      "いくらありますか。",
+      "なんこありますか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "いくつ is the question word that pairs with the native 〜つ counter. なんつ is not used; いくら asks price; なんこ pairs with the 〜個[こ] counter, not 〜つ."
     },
     {
-      "id": "cnt_v4",
-      "partOfSpeech": "counter",
-      "kanji": "一個",
-      "kana": "いっこ",
-      "romaji": "ikko",
-      "definition": "one (small/general object)"
+     "id": "counters-tsu_q4",
+     "type": "construct",
+     "prompt": "Which number breaks the 〜つ pattern by having no つ?",
+     "japanese": null,
+     "choices": [
+      "とお (10)",
+      "ここのつ (9)",
+      "やっつ (8)",
+      "ひとつ (1)"
+     ],
+     "correctIndex": 0,
+     "explanation": "とお (10) is the exception — every other native number from 1 to 9 ends in つ, but とお does not."
     },
     {
-      "id": "cnt_v5",
-      "partOfSpeech": "counter",
-      "kanji": "一枚",
-      "kana": "いちまい",
-      "romaji": "ichimai",
-      "definition": "one (flat thing: sheet, plate)"
+     "id": "counters-tsu_q5",
+     "type": "fillBlank",
+     "prompt": "Say \"nine\" with the native counter:",
+     "japanese": null,
+     "choices": [
+      "ここのつ",
+      "きゅうつ",
+      "くつ",
+      "きゅうこ"
+     ],
+     "correctIndex": 0,
+     "explanation": "Nine is ここのつ (kokonotsu). きゅうつ / くつ are wrong readings, and きゅうこ uses 〜個[こ]."
     },
     {
-      "id": "cnt_v6",
-      "partOfSpeech": "counter",
-      "kanji": "一本",
-      "kana": "いっぽん",
-      "romaji": "ippon",
-      "definition": "one (long thin thing)"
+     "id": "counters-tsu_q6",
+     "type": "usage",
+     "prompt": "You can't remember the right counter for a box. What's a safe way to count one box?",
+     "japanese": null,
+     "choices": [
+      "一[ひと]つ",
+      "一本[いっぽん]",
+      "一台[いちだい]",
+      "一人[ひとり]"
+     ],
+     "correctIndex": 0,
+     "explanation": "When unsure, the native 一[ひと]つ works as a safe general count for objects up to ten. 一本[いっぽん] is for long thin things, 一台[いちだい] for machines, and 一人[ひとり] for people."
     },
     {
-      "id": "cnt_v7",
-      "partOfSpeech": "counter",
-      "kanji": "一匹",
-      "kana": "いっぴき",
-      "romaji": "ippiki",
-      "definition": "one (small animal)"
-    },
-    {
-      "id": "cnt_v8",
-      "partOfSpeech": "counter",
-      "kanji": "一台",
-      "kana": "いちだい",
-      "romaji": "ichidai",
-      "definition": "one (machine, vehicle)"
-    },
-    {
-      "id": "cnt_v9",
-      "partOfSpeech": "counter",
-      "kanji": "一冊",
-      "kana": "いっさつ",
-      "romaji": "issatsu",
-      "definition": "one (book, magazine)"
-    },
-    {
-      "id": "cnt_v10",
-      "partOfSpeech": "counter",
-      "kanji": "一杯",
-      "kana": "いっぱい",
-      "romaji": "ippai",
-      "definition": "one cupful / glassful"
-    },
-    {
-      "id": "cnt_v11",
-      "partOfSpeech": "counter",
-      "kanji": "一回",
-      "kana": "いっかい",
-      "romaji": "ikkai",
-      "definition": "one time; once"
-    },
-    {
-      "id": "cnt_v12",
-      "partOfSpeech": "counter",
-      "kanji": "一番",
-      "kana": "いちばん",
-      "romaji": "ichiban",
-      "definition": "number one; the most / best"
-    },
-    {
-      "id": "cnt_v13",
-      "partOfSpeech": "question",
-      "kanji": "いくつ",
-      "kana": "いくつ",
-      "romaji": "ikutsu",
-      "definition": "how many; how old (polite)"
-    },
-    {
-      "id": "cnt_v14",
-      "partOfSpeech": "question",
-      "kanji": "何人",
-      "kana": "なんにん",
-      "romaji": "nannin",
-      "definition": "how many people"
-    },
-    {
-      "id": "cnt_v15",
-      "partOfSpeech": "counter",
-      "kanji": "二十歳",
-      "kana": "はたち",
-      "romaji": "hatachi",
-      "definition": "twenty years old (irregular)"
+     "id": "counters-tsu_q7",
+     "type": "translation",
+     "prompt": "\"Please give me five.\" (native counter)",
+     "japanese": null,
+     "choices": [
+      "五[いつ]つください。",
+      "五[ご]つください。",
+      "五個[ごこ]ください。",
+      "五[いつ]こください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Five is 五[いつ]つ (itsutsu). ごつ is a wrong reading, and 五個[ごこ] switches to the 〜個[こ] counter."
     }
-  ]
+   ]
+  },
+  {
+   "id": "counting-people",
+   "name": "People counters: ひとり・ふたり・〜人[にん] (nin)",
+   "shortDescription": "Counting people, with irregular forms for one and two.",
+   "formation": "一人[ひとり] (hitori) / 二人[ふたり] (futari) / 三人[さんにん] (sannin) / 四人[よにん] (yonin)...",
+   "explanation": "Japanese uses special counter words for different kinds of things, and people have their own: 〜人[にん] (nin). The first two numbers are completely irregular and must simply be memorized:\n- 一人[ひとり] = ひとり (one person) — not いちにん\n- 二人[ふたり] = ふたり (two people) — not ににん\n\nFrom three onward the pattern is regular:\n- 三人[さんにん] (3), 四人[よにん] (4 — note よ, not し), 五人[ごにん] (5)\n- 六人[ろくにん] (6), 七人[しちにん] / 七人[ななにん] (7), 八人[はちにん] (8)\n- 九人[きゅうにん] (9), 十人[じゅうにん] (10)\n\nOne expression to learn right away: 一人[ひとり]で means \"alone / by oneself\" and comes up constantly. To ask how many people, use 何人[なんにん]: 何人[なんにん]いますか (How many people are there?). For family size, 家族[かぞく]は〜人[にん]です is the natural, very common pattern.",
+   "rules": [
+    "Irregular: 一人[ひとり] = ひとり (one person), 二人[ふたり] = ふたり (two people)",
+    "Regular from three: 三人[さんにん] = さんにん, 四人[よにん] = よにん, 五人[ごにん] = ごにん",
+    "ひとりで = alone, by oneself (important standalone expression)",
+    "何人[なんにん] (なんにん) = how many people?",
+    "Counter attaches directly to the number: 三人[さんにん]の学生[がくせい] (three students)"
+   ],
+   "examples": [
+    {
+     "japanese": "家族[かぞく]は五人[ごにん]です。",
+     "romaji": "Kazoku wa gonin desu.",
+     "english": "There are five people in my family."
+    },
+    {
+     "japanese": "ひとりで旅行[りょこう]するのが好[す]きです。",
+     "romaji": "Hitori de ryokou suru no ga suki desu.",
+     "english": "I like traveling alone."
+    },
+    {
+     "japanese": "このクラスには何人[なんにん]いますか。",
+     "romaji": "Kono kurasu ni wa nannin imasu ka.",
+     "english": "How many people are in this class?"
+    },
+    {
+     "japanese": "友達[ともだち]と二人[ふたり]で映画[えいが]を見[み]に行[い]きました。",
+     "romaji": "Tomodachi to futari de eiga wo mi ni ikimashita.",
+     "english": "I went to see a movie with my friend, just the two of us."
+    }
+   ],
+   "flashcardHeader": "People counters: ひとり・ふたり・〜人",
+   "flashcardAnswer": "Counting people, with irregular forms for one and two.",
+   "practice": [
+    {
+     "id": "counting-people_q1",
+     "type": "construct",
+     "prompt": "How do you say 'two people' in Japanese?",
+     "japanese": null,
+     "choices": [
+      "にじん",
+      "にひと",
+      "ふたり",
+      "ににん"
+     ],
+     "correctIndex": 2,
+     "explanation": "Two people is ふたり — an irregular reading that must be memorized. ににん does not exist. From three onward the pattern becomes regular (さんにん, よにん...), but one and two are always ひとり and ふたり."
+    },
+    {
+     "id": "counting-people_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 家族[かぞく]は___です。(There are five people in my family.)",
+     "japanese": "家族[かぞく]は___です。",
+     "choices": [
+      "五[ご]じん",
+      "五[ご]ひとり",
+      "五人[ごにん]",
+      "五[ご]ひと"
+     ],
+     "correctIndex": 2,
+     "explanation": "From three people onward, the counter is regular: number + 人[ひと] (にん). Five people = 五人[ごにん] (ごにん). The irregular forms ひとり and ふたり only apply to one and two people."
+    },
+    {
+     "id": "counting-people_q3",
+     "type": "translation",
+     "prompt": "Which sentence means 'I like traveling alone'?",
+     "japanese": null,
+     "choices": [
+      "ひとりの旅行[りょこう]するのが好[す]きです。",
+      "ひとりで旅行[りょこう]するのが好[す]きです。",
+      "一人[ひとり]に旅行[りょこう]するのが好[す]きです。",
+      "一人[ひとり]を旅行[りょこう]するのが好[す]きです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "ひとりで means 'alone' or 'by oneself.' The particle で marks manner — it can be written 一人[ひとり]で or ひとりで, both correct. The other options use の, に and を, none of which mark manner."
+    },
+    {
+     "id": "counting-people_q4",
+     "type": "usage",
+     "prompt": "Which question correctly asks 'How many people are in this class?'",
+     "japanese": null,
+     "choices": [
+      "このクラスにはいくつ人[ひと]いますか。",
+      "このクラスには何[なに]ひとりいますか。",
+      "このクラスには何人[なんにん]いますか。",
+      "このクラスには何[な]にんですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "'How many people?' is 何人[なんにん] (なんにん). The verb いる (to exist, for people) is used in the question: 何人[なんにん]いますか. いくつ is for counting general objects, not people."
+    },
+    {
+     "id": "counting-people_q5",
+     "type": "translation",
+     "prompt": "What is the correct reading of 七人[しちにん]?",
+     "japanese": "七人[しちにん]",
+     "choices": [
+      "しちにん or ななにん",
+      "ひちにん",
+      "ふたにん",
+      "なにん"
+     ],
+     "correctIndex": 0,
+     "explanation": "Seven people can be read as しちにん or ななにん — both readings of 七[しち] are accepted. ひちにん is not a valid reading. なにん looks like 何人[なんにん] (how many people) and does not mean seven. From three people onward the pattern is Sino-Japanese number + にん, but 七[しち] has two acceptable readings."
+    },
+    {
+     "id": "counting-people_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: このクラスに学生[がくせい]が___います。(There are three students in this class.)",
+     "japanese": "このクラスに学生[がくせい]が___います。",
+     "choices": [
+      "みたり",
+      "三人[さんにん]",
+      "三[さん]ひとり",
+      "みっつ"
+     ],
+     "correctIndex": 1,
+     "explanation": "From three people onward, the counter is 〜人[ひと] (にん): 三人[さんにん] (さんにん). みたり does not exist as a people counter. 三[さん]ひとり is not a real form — ひとり only applies to 一人[ひとり]. みっつ counts general objects (three things), not people."
+    },
+    {
+     "id": "counting-people_q7",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'There are four people in my family'?",
+     "japanese": null,
+     "choices": [
+      "家族[かぞく]は四[し]じんです。",
+      "家族[かぞく]は四人[よにん]の人[ひと]です。",
+      "家族[かぞく]は四人[よにん]です。",
+      "家族[かぞく]はよっつです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Family size uses the pattern 家族[かぞく]は〜人[にん]です. Four people = 四人[よにん] (よにん). よっつ counts general things (four items), not people. 四[し]じん is not a word. 四人[よにん]の人[ひと] is redundant — 人[ひと] appears twice — and is unnatural."
+    },
+    {
+     "id": "counting-people_q8",
+     "type": "usage",
+     "prompt": "Which reading of 一人[ひとり] is correct?",
+     "japanese": "一人[ひとり]",
+     "choices": [
+      "いちにん",
+      "ひとにん",
+      "いちじん",
+      "ひとり"
+     ],
+     "correctIndex": 3,
+     "explanation": "One person is ひとり — an irregular form that does NOT follow the Sino-Japanese number + にん pattern. いちにん does not exist as a people counter. This is one of only two irregulars: 一人[ひとり] = ひとり (one person) and 二人[ふたり] = ふたり (two people). From 三人[さんにん] onward, the regular pattern applies."
+    },
+    {
+     "id": "counting-people_q9",
+     "type": "translation",
+     "prompt": "What does 何人[なんにん]いますか mean?",
+     "japanese": "何人[なんにん]いますか。",
+     "choices": [
+      "How many people are there?",
+      "Who is there?",
+      "How old is this person?",
+      "How many things are there?"
+     ],
+     "correctIndex": 0,
+     "explanation": "何人[なんにん] (なんにん) = how many people. いますか uses いる (to exist/be, used for animate beings like people). Together: 'How many people are there?' 何歳[なんさい]ですか asks how old someone is. いくつありますか counts general objects. 誰[だれ]がいますか asks who is there."
+    },
+    {
+     "id": "counting-people_q10",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 弟[おとうと]と___でプールに行[い]きました。(I went to the pool with my younger brother, just the two of us.)",
+     "japanese": "弟[おとうと]と___でプールに行[い]きました。",
+     "choices": [
+      "二[に]じん",
+      "二人[ふたり]",
+      "二[に]ひと",
+      "ふたりの"
+     ],
+     "correctIndex": 1,
+     "explanation": "Two people = 二人[ふたり] (ふたり). With the particle で, ふたりで means 'as two people' or 'the two of us together.' 弟[おとうと]と二人[ふたり]で = 'with my younger brother, the two of us.' 二[に]じん is not a word. ふたりの would be possessive ('of the two'), which does not fit here."
+    },
+    {
+     "id": "counting-people_q11",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'There are ten students in this room'?",
+     "japanese": null,
+     "choices": [
+      "この部屋[へや]に学生[がくせい]がじゅうつがいます。",
+      "この部屋[へや]に学生[がくせい]が十[じゅう]じんいます。",
+      "この部屋[へや]に学生[がくせい]が十人[じゅうにん]います。",
+      "この部屋[へや]に学生[がくせい]がとおりいます。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). The structure is  + が +  + います. じゅうつ does not exist for counting people. 十[じゅう]じん is not a word. とおり is not a people counter — the correct native Japanese word for ten things is とお, and for ten people you must use じゅうにん."
+    },
+    {
+     "id": "counting-people_q12",
+     "type": "usage",
+     "prompt": "Which number-person pair is INCORRECT?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり] → ひとり",
+      "三人[さんにん] → さんにん",
+      "五人[ごにん] → ごにん",
+      "二人[ふたり] → ににん"
+     ],
+     "correctIndex": 3,
+     "explanation": "二人[ふたり] is NOT ににん — that form does not exist. Two people is the irregular ふたり. Only 一人[ひとり] (ひとり) and 二人[ふたり] (ふたり) are irregular. From 三人[さんにん] (さんにん) onward the regular Sino-Japanese number + にん pattern applies, as shown in the other correct options."
+    },
+    {
+     "id": "counting-people_q13",
+     "type": "translation",
+     "prompt": "How many people does the word ふたり refer to?",
+     "japanese": "ふたり",
+     "choices": [
+      "Two people",
+      "One person",
+      "Three people",
+      "A few people (unspecified)"
+     ],
+     "correctIndex": 0,
+     "explanation": "ふたり (二人[ふたり]) = two people. It is one of two irregular forms you must memorize: ひとり = one person, ふたり = two people. ふたりで means 'the two of us together.' These native Japanese readings replace the Sino-Japanese いちにん and ににん, which do not exist."
+    },
+    {
+     "id": "counting-people_q14",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: このクラスには___いますか。(How many people are in this class?)",
+     "japanese": "このクラスには___いますか。",
+     "choices": [
+      "いくつ",
+      "何人[なんにん]",
+      "何人[なんにん]の",
+      "いく人[ひと]"
+     ],
+     "correctIndex": 1,
+     "explanation": "'How many people?' is 何人[なんにん] (なんにん). いくつ counts general objects or informally asks age, not people specifically. 何人[なんにん]の would precede a noun (e.g., 何人[なんにん]の学生[がくせい] = how many students), but not いますか directly. いく人[ひと] is not a real word."
+    },
+    {
+     "id": "counting-people_q15",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'Six students are studying in the library'?",
+     "japanese": null,
+     "choices": [
+      "図書館[としょかん]で学生[がくせい]が六[ろく]ひとが勉強[べんきょう]しています。",
+      "図書館[としょかん]で学生[がくせい]が六[ろく]じん勉強[べんきょう]しています。",
+      "図書館[としょかん]で学生[がくせい]が六人[ろくにん]勉強[べんきょう]しています。",
+      "図書館[としょかん]で学生[がくせい]がむっつ勉強[べんきょう]しています。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Six people = 六人[ろくにん] (ろくにん). The structure  + が +  is followed by the predicate. 六[ろく]ひと does not exist as a counter. 六[ろく]じん is not a word. むっつ is the native Japanese counter for six things — it counts objects, not people."
+    },
+    {
+     "id": "counting-people_q16",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses a people counter with います?",
+     "japanese": null,
+     "choices": [
+      "部屋[へや]に子[こ]どもがみっつがいます。",
+      "部屋[へや]に子[こ]どもがふたりにいます。",
+      "部屋[へや]に子[こ]どもがにんふたりいます。",
+      "部屋[へや]に子[こ]どもがふたりいます。"
+     ],
+     "correctIndex": 3,
+     "explanation": "子[こ]どもがふたりいます = 'there are two children.' The structure is  + が +  + います. ふたり is the irregular form for two people. みっつ in option 1 is for counting objects. Option 2 adds an extra に after ふたり (wrong). Option 3 puts にん before ふたり, reversing the order (wrong)."
+    },
+    {
+     "id": "counting-people_q17",
+     "type": "translation",
+     "prompt": "A friend says 家族[かぞく]は七人[しちにん]です. How many people are in their family?",
+     "japanese": "家族[かぞく]は七人[しちにん]です。",
+     "choices": [
+      "Seven people",
+      "Eight people",
+      "Six people",
+      "Nine people"
+     ],
+     "correctIndex": 0,
+     "explanation": "七人[しちにん] = しちにん or ななにん = seven people. 家族[かぞく]は七人[しちにん]です = 'There are seven people in my family.' The kanji 七[しち] can be read as しち or なな, both combined with にん (people counter). Eight = 八人[はちにん] (はちにん), six = 六人[ろくにん] (ろくにん), nine = 九[きゅう]人[にん] (きゅうにん)."
+    },
+    {
+     "id": "counting-people_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: パーティーに___来[き]ました。(Ten people came to the party.)",
+     "japanese": "パーティーに___来[き]ました。",
+     "choices": [
+      "十[じゅう]じん",
+      "十人[じゅうにん]",
+      "じゅうひとり",
+      "十[じゅう]つ"
+     ],
+     "correctIndex": 1,
+     "explanation": "Ten people = 十人[じゅうにん] (じゅうにん). From three people onward, the regular pattern is Sino-Japanese number + 人[ひと] (にん). じゅうひとり is not a real form — ひとり only applies to one person. 十[じゅう]つ does not exist. 十[じゅう]じん is not a word."
+    },
+    {
+     "id": "counting-people_q19",
+     "type": "construct",
+     "prompt": "Which sentence correctly says 'I went to the park alone'?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり]に公園[こうえん]に行[い]きました。",
+      "一人[ひとり]の公園[こうえん]に行[い]きました。",
+      "ひとりで公園[こうえん]に行[い]きました。",
+      "ひとりに公園[こうえん]に行[い]きました。"
+     ],
+     "correctIndex": 2,
+     "explanation": "ひとりで means 'alone' or 'by oneself' — the particle で marks manner (how something is done). 一人[ひとり] and ひとり are the same word written differently; both are correct, but で is the essential particle. Using に after ひとり (options 1 and 4) is incorrect. の (option 2) is possessive and changes the meaning."
+    },
+    {
+     "id": "counting-people_q20",
+     "type": "usage",
+     "prompt": "Which pair shows the TWO irregular people counters that must be memorized?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり](いちにん) and 二人[ふたり](ににん)",
+      "一人[ひとり](ひとり) and 三人[さんにん](みたり)",
+      "二人[ふたり](ふたり) and 三人[さんにん](みたり)",
+      "一人[ひとり](ひとり) and 二人[ふたり](ふたり)"
+     ],
+     "correctIndex": 3,
+     "explanation": "The only two irregular people counters are 一人[ひとり] (ひとり) and 二人[ふたり] (ふたり). From 三人[さんにん] (さんにん) onward, all forms follow the regular Sino-Japanese number + にん pattern. いちにん, ににん, and みたり do not exist. These two irregulars use native Japanese (yamato kotoba) number words instead of Sino-Japanese ones."
+    }
+   ]
+  },
+  {
+   "id": "counters-common",
+   "name": "Common counters: 〜個[こ]・枚[まい]・本[ほん]・匹[ひき]・台[だい]・冊[さつ]・杯[はい]",
+   "shortDescription": "The specialized Sino-Japanese counters for everyday objects — and the sound changes that trip everyone up.",
+   "formation": "Number + Counter  (三枚[さんまい], 二匹[にひき], 一本[いっぽん] …)",
+   "explanation": "Beyond ten — and whenever you want to sound precise — Japanese picks a counter based on the shape or type of the thing, attached to a Sino-Japanese number. Here are the everyday workhorses:\n- 〜個[こ]: small, round, or general objects (apples, erasers) — the most flexible specific counter\n- 〜枚[まい]: flat, thin things (paper, shirts, plates, tickets)\n- 〜本[ほん]: long, thin things (pens, bottles, umbrellas)\n- 〜匹[ひき]: small animals (cats, dogs, fish, insects)\n- 〜台[だい]: machines and vehicles (cars, computers, TVs)\n- 〜冊[さつ]: bound things (books, magazines, notebooks)\n- 〜杯[はい]: cupfuls / glassfuls (coffee, rice, drinks)\n\nThe hard part isn't the counters themselves — it's the sound changes. Counters that begin with an h-sound (は行[ぎょう]: 本[ほん], 匹[ひき], 杯[はい]) shift after 1, 3, 6, 8, and 10:\n- 〜本[ほん]: 一本[いっぽん], 三本[さんぼん], 六本[ろっぽん], 八本[はっぽん], 十本[じゅっぽん]\n- 〜匹[ひき]: 一匹[いっぴき], 三匹[さんびき], 六匹[ろっぴき], 八匹[はっぴき], 十匹[じゅっぴき]\n- 〜杯[はい]: 一杯[いっぱい], 三杯[さんばい], 六杯[ろっぱい], 八杯[はっぱい], 十杯[じゅっぱい]\n\n〜個[こ] doubles the consonant at 1, 6, 8, 10 (一個[いっこ], 六個[ろっこ], 八個[はっこ], 十個[じゅっこ]); 〜冊[さつ] doubles at 1, 8, 10 but not 6 (一冊[いっさつ], 八冊[はっさつ], 十冊[じゅっさつ] — yet 六冊[ろくさつ]). 〜枚[まい] and 〜台[だい] are the easy ones — no changes at all (一枚[いちまい], 三台[さんだい]).",
+   "rules": [
+    "Choose the counter by shape/type: flat → 〜枚[まい], long → 〜本[ほん], animal → 〜匹[ひき], machine → 〜台[だい]",
+    "〜個[こ] is the flexible catch-all for small or general objects",
+    "は行[ぎょう] counters (本[ほん]・匹[ひき]・杯[はい]) change sound after 1, 3, 6, 8, 10",
+    "〜本[ほん]: いっぽん / さんぼん / ろっぽん / はっぽん / じゅっぽん",
+    "〜枚[まい] and 〜台[だい] never change: いちまい, にまい …／いちだい, にだい …",
+    "Ask \"how many?\" with 何[なん] + counter: 何枚[なんまい], 何本[なんぼん], 何匹[なんびき]"
+   ],
+   "examples": [
+    {
+     "japanese": "紙[かみ]を三枚[さんまい]ください。",
+     "romaji": "Kami o sanmai kudasai.",
+     "english": "Three sheets of paper, please."
+    },
+    {
+     "japanese": "ビールを二本[にほん]飲[の]みました。",
+     "romaji": "Biiru o nihon nomimashita.",
+     "english": "I drank two bottles of beer."
+    },
+    {
+     "japanese": "猫[ねこ]が三匹[さんびき]います。",
+     "romaji": "Neko ga sanbiki imasu.",
+     "english": "There are three cats."
+    },
+    {
+     "japanese": "車[くるま]は何台[なんだい]ありますか。",
+     "romaji": "Kuruma wa nandai arimasu ka.",
+     "english": "How many cars are there?"
+    }
+   ],
+   "flashcardHeader": "Common counters (個・枚・本・匹・台・冊・杯)",
+   "flashcardAnswer": "Specialized counters chosen by shape/type, plus their sound changes.",
+   "practice": [
+    {
+     "id": "counters-common_q1",
+     "type": "fillBlank",
+     "prompt": "Count three long thin objects (pens): 鉛筆[えんぴつ]を___",
+     "japanese": "鉛筆[えんぴつ]を___",
+     "choices": [
+      "三本[さんぼん]",
+      "三本[さんほん]",
+      "三枚[さんまい]",
+      "三匹[さんびき]"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜本[ほん] undergoes rendaku after 三[さん]: 三本[さんぼん] (not さんほん). 〜枚[まい] is for flat things and 〜匹[ひき] for animals."
+    },
+    {
+     "id": "counters-common_q2",
+     "type": "usage",
+     "prompt": "How do you count one small animal (a cat)?",
+     "japanese": null,
+     "choices": [
+      "一匹[いっぴき]",
+      "一匹[いちひき]",
+      "一本[いっぽん]",
+      "一台[いちだい]"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜匹[ひき] changes after 1: 一匹[いっぴき] (not いちひき). 〜本[ほん] is for long things and 〜台[だい] for machines."
+    },
+    {
+     "id": "counters-common_q3",
+     "type": "usage",
+     "prompt": "Which counter is correct for sheets of paper?",
+     "japanese": null,
+     "choices": [
+      "〜枚[まい]",
+      "〜本[ほん]",
+      "〜台[だい]",
+      "〜冊[さつ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Flat, thin things like paper, plates, and shirts take 〜枚[まい]. 〜本[ほん] is for long things, 〜台[だい] for machines, 〜冊[さつ] for books."
+    },
+    {
+     "id": "counters-common_q4",
+     "type": "fillBlank",
+     "prompt": "Count six bottles of water: 水[みず]を___",
+     "japanese": "水[みず]を___",
+     "choices": [
+      "六本[ろっぽん]",
+      "六本[ろくほん]",
+      "六本[ろくぼん]",
+      "六枚[ろくまい]"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜本[ほん] becomes っ + ぽ after 6: 六本[ろっぽん]. It's one of the 1/3/6/8/10 sound-change spots."
+    },
+    {
+     "id": "counters-common_q5",
+     "type": "usage",
+     "prompt": "Which counter for two cars?",
+     "japanese": null,
+     "choices": [
+      "二台[にだい]",
+      "二本[にほん]",
+      "二個[にこ]",
+      "二匹[にひき]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Machines and vehicles take 〜台[だい]: 二台[にだい]. 〜台[だい] conveniently has no sound changes."
+    },
+    {
+     "id": "counters-common_q6",
+     "type": "translation",
+     "prompt": "\"Two cups of coffee, please.\"",
+     "japanese": null,
+     "choices": [
+      "コーヒーを二杯[にはい]ください。",
+      "コーヒーを二本[にほん]ください。",
+      "コーヒーを二匹[にひき]ください。",
+      "コーヒーを二台[にだい]ください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Cupfuls and glassfuls take 〜杯[はい]: 二杯[にはい]. 〜本[ほん] would count bottles, not cups."
+    },
+    {
+     "id": "counters-common_q7",
+     "type": "usage",
+     "prompt": "How do you ask \"how many books?\"",
+     "japanese": null,
+     "choices": [
+      "何冊[なんさつ]",
+      "何枚[なんまい]",
+      "何本[なんぼん]",
+      "何個[なんこ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Books and other bound volumes use 〜冊[さつ], so \"how many books\" is 何冊[なんさつ]."
+    },
+    {
+     "id": "counters-common_q8",
+     "type": "fillBlank",
+     "prompt": "Count eight apples with 〜個: りんごを___",
+     "japanese": "りんごを___",
+     "choices": [
+      "八個[はっこ]",
+      "八個[はちこ]",
+      "八個[はっき]",
+      "八本[はっぽん]"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜個[こ] doubles the consonant after 8: 八個[はっこ]. はちこ / はっき are wrong, and 〜本[ほん] is for long objects."
+    }
+   ]
+  },
+  {
+   "id": "counters-frequency-age",
+   "name": "Counting times, age, and order: 〜回[かい]・歳[さい]・番[ばん]",
+   "shortDescription": "Counters for how often (〜回), how old (〜歳), and what position (〜番).",
+   "formation": "Number + 回[かい] (times) / 歳[さい] (years old) / 番[ばん] (order)",
+   "explanation": "Not everything you count is an object — you also count occurrences, ages, and rankings. Three counters cover most of this:\n- 〜回[かい]: number of times / frequency. It doubles the consonant at 1, 6, 8, 10 — 一回[いっかい], 六回[ろっかい], 八回[はっかい], 十回[じゅっかい]. Ask \"how often?\" with 何回[なんかい].\n- 〜歳[さい] (also written 〜才[さい]): age in years. 一歳[いっさい], 二歳[にさい] … and 何歳[なんさい] (how old?). Memorize the famous irregular: 20 years old is 二十歳[はたち], not にじゅっさい.\n- 〜番[ばん]: order, rank, or position in a sequence. 一番[いちばん], 二番[にばん], 三番[さんばん]. Note that 一番[いちばん] also means \"the most / the best\" in comparisons.\n\nWatch a look-alike: 〜階[かい] counts the floors of a building (三階[さんがい] = third floor) and shares 〜回[かい]'s sound-change quirks. The kanji and context keep the two apart.",
+   "rules": [
+    "〜回[かい] = number of times; 何回[なんかい] = how many times / how often",
+    "〜回[かい] doubles the consonant at 1, 6, 8, 10: いっかい, ろっかい, はっかい, じゅっかい",
+    "〜歳[さい] = years old; 何歳[なんさい] = how old",
+    "Irregular: 二十歳[はたち] = 20 years old (not にじゅっさい)",
+    "〜番[ばん] = order/rank; 一番[いちばん] also means \"the most / the best\""
+   ],
+   "examples": [
+    {
+     "japanese": "一年[いちねん]に二回[にかい]日本[にほん]へ行[い]きます。",
+     "romaji": "Ichinen ni nikai Nihon e ikimasu.",
+     "english": "I go to Japan twice a year."
+    },
+    {
+     "japanese": "妹[いもうと]は二十歳[はたち]です。",
+     "romaji": "Imouto wa hatachi desu.",
+     "english": "My little sister is twenty."
+    },
+    {
+     "japanese": "この店[みせ]のラーメンが一番[いちばん]おいしいです。",
+     "romaji": "Kono mise no raamen ga ichiban oishii desu.",
+     "english": "This shop's ramen is the best."
+    },
+    {
+     "japanese": "何回[なんかい]電話[でんわ]しましたか。",
+     "romaji": "Nankai denwa shimashita ka.",
+     "english": "How many times did you call?"
+    }
+   ],
+   "flashcardHeader": "〜回 / 〜歳 / 〜番 (times, age, order)",
+   "flashcardAnswer": "Counters for frequency, age in years, and rank or order.",
+   "practice": [
+    {
+     "id": "counters-frequency-age_q1",
+     "type": "usage",
+     "prompt": "How do you say \"twice\"?",
+     "japanese": null,
+     "choices": [
+      "二回[にかい]",
+      "二番[にばん]",
+      "二歳[にさい]",
+      "二本[にほん]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Number of times uses 〜回[かい]: 二回[にかい] = twice. 〜番[ばん] is order, 〜歳[さい] is age, 〜本[ほん] counts long objects."
+    },
+    {
+     "id": "counters-frequency-age_q2",
+     "type": "fillBlank",
+     "prompt": "Count six times:",
+     "japanese": null,
+     "choices": [
+      "六回[ろっかい]",
+      "六回[ろくかい]",
+      "六回[ろっき]",
+      "六番[ろくばん]"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜回[かい] doubles the consonant after 6: 六回[ろっかい] (not ろくかい)."
+    },
+    {
+     "id": "counters-frequency-age_q3",
+     "type": "translation",
+     "prompt": "How do you say \"20 years old\"?",
+     "japanese": null,
+     "choices": [
+      "二十歳[はたち]",
+      "二十歳[にじゅっさい]",
+      "二十才[にじゅさい]",
+      "二十歳[はたさい]"
+     ],
+     "correctIndex": 0,
+     "explanation": "20 years old is the irregular 二十歳[はたち]. にじゅっさい is a common learner mistake — memorize はたち."
+    },
+    {
+     "id": "counters-frequency-age_q4",
+     "type": "usage",
+     "prompt": "How do you ask \"how old are you?\" (standard)",
+     "japanese": null,
+     "choices": [
+      "何歳[なんさい]ですか。",
+      "何回[なんかい]ですか。",
+      "何番[なんばん]ですか。",
+      "いくらですか。"
+     ],
+     "correctIndex": 0,
+     "explanation": "何歳[なんさい]ですか is the standard \"how old are you?\" (おいくつですか is the more polite version). 何回[なんかい] asks frequency and いくら asks price."
+    },
+    {
+     "id": "counters-frequency-age_q5",
+     "type": "usage",
+     "prompt": "\"This is the best\" uses which counter word?",
+     "japanese": null,
+     "choices": [
+      "一番[いちばん]",
+      "一回[いっかい]",
+      "一台[いちだい]",
+      "一冊[いっさつ]"
+     ],
+     "correctIndex": 0,
+     "explanation": "一番[いちばん] literally means \"number one\" and is used for \"the most / the best.\" The others count times, machines, and books."
+    },
+    {
+     "id": "counters-frequency-age_q6",
+     "type": "translation",
+     "prompt": "How do you say \"third floor\"?",
+     "japanese": null,
+     "choices": [
+      "三階[さんがい]",
+      "三回[さんかい]",
+      "三番[さんばん]",
+      "三台[さんだい]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Floors use 〜階[かい], and 三[さん] triggers rendaku: 三階[さんがい]. 三回[さんかい] means \"three times\" — same sound, different kanji."
+    },
+    {
+     "id": "counters-frequency-age_q7",
+     "type": "fillBlank",
+     "prompt": "\"I've been to Kyoto three times.\" 京都[きょうと]へ___行[い]ったことがあります。",
+     "japanese": "京都[きょうと]へ___行[い]ったことがあります。",
+     "choices": [
+      "三回[さんかい]",
+      "三番[さんばん]",
+      "三歳[さんさい]",
+      "三枚[さんまい]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Frequency of an experience uses 〜回[かい]: 三回[さんかい] = three times. The others mean rank, age, and flat-object count."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "cnt_v1",
+   "partOfSpeech": "counter",
+   "kanji": "一つ",
+   "kana": "ひとつ",
+   "romaji": "hitotsu",
+   "definition": "one (thing); native counter"
+  },
+  {
+   "id": "cnt_v2",
+   "partOfSpeech": "counter",
+   "kanji": "一人",
+   "kana": "ひとり",
+   "romaji": "hitori",
+   "definition": "one person; alone"
+  },
+  {
+   "id": "cnt_v3",
+   "partOfSpeech": "counter",
+   "kanji": "二人",
+   "kana": "ふたり",
+   "romaji": "futari",
+   "definition": "two people"
+  },
+  {
+   "id": "cnt_v4",
+   "partOfSpeech": "counter",
+   "kanji": "一個",
+   "kana": "いっこ",
+   "romaji": "ikko",
+   "definition": "one (small/general object)"
+  },
+  {
+   "id": "cnt_v5",
+   "partOfSpeech": "counter",
+   "kanji": "一枚",
+   "kana": "いちまい",
+   "romaji": "ichimai",
+   "definition": "one (flat thing: sheet, plate)"
+  },
+  {
+   "id": "cnt_v6",
+   "partOfSpeech": "counter",
+   "kanji": "一本",
+   "kana": "いっぽん",
+   "romaji": "ippon",
+   "definition": "one (long thin thing)"
+  },
+  {
+   "id": "cnt_v7",
+   "partOfSpeech": "counter",
+   "kanji": "一匹",
+   "kana": "いっぴき",
+   "romaji": "ippiki",
+   "definition": "one (small animal)"
+  },
+  {
+   "id": "cnt_v8",
+   "partOfSpeech": "counter",
+   "kanji": "一台",
+   "kana": "いちだい",
+   "romaji": "ichidai",
+   "definition": "one (machine, vehicle)"
+  },
+  {
+   "id": "cnt_v9",
+   "partOfSpeech": "counter",
+   "kanji": "一冊",
+   "kana": "いっさつ",
+   "romaji": "issatsu",
+   "definition": "one (book, magazine)"
+  },
+  {
+   "id": "cnt_v10",
+   "partOfSpeech": "counter",
+   "kanji": "一杯",
+   "kana": "いっぱい",
+   "romaji": "ippai",
+   "definition": "one cupful / glassful"
+  },
+  {
+   "id": "cnt_v11",
+   "partOfSpeech": "counter",
+   "kanji": "一回",
+   "kana": "いっかい",
+   "romaji": "ikkai",
+   "definition": "one time; once"
+  },
+  {
+   "id": "cnt_v12",
+   "partOfSpeech": "counter",
+   "kanji": "一番",
+   "kana": "いちばん",
+   "romaji": "ichiban",
+   "definition": "number one; the most / best"
+  },
+  {
+   "id": "cnt_v13",
+   "partOfSpeech": "question",
+   "kanji": "いくつ",
+   "kana": "いくつ",
+   "romaji": "ikutsu",
+   "definition": "how many; how old (polite)"
+  },
+  {
+   "id": "cnt_v14",
+   "partOfSpeech": "question",
+   "kanji": "何人",
+   "kana": "なんにん",
+   "romaji": "nannin",
+   "definition": "how many people"
+  },
+  {
+   "id": "cnt_v15",
+   "partOfSpeech": "counter",
+   "kanji": "二十歳",
+   "kana": "はたち",
+   "romaji": "hatachi",
+   "definition": "twenty years old (irregular)"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "一つ",
+   "kana": "ひとつ",
+   "romaji": "hitotsu",
+   "meaning": "one",
+   "chars": [
+    "一"
+   ]
+  }
+ ]
 }

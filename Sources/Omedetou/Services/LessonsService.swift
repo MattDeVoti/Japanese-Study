@@ -9,6 +9,7 @@ final class LessonsService {
     private var chapterCache: [String: LessonChapter] = [:]
     private var vocabIndex: [String: LessonVocabWord]?
     private var kanjiIndex: [String: ChapterKanji]?
+    private var kanjiWordIndex: [String: (word: ChapterKanjiWord, chapterId: String)]?
 
     func loadIfNeeded() {
         guard manifest == nil else { return }
@@ -46,6 +47,47 @@ final class LessonsService {
             }
         }
         kanjiIndex = index
+        return index
+    }
+
+    /// Every kanji word every chapter teaches, tagged with its chapter — the
+    /// exam builder's distractor pool, so wrong answers are always drawn from
+    /// words the course actually teaches.
+    func allKanjiWords() -> [(word: ChapterKanjiWord, chapterId: String)] {
+        Array(kanjiWordIndexBuildingIfNeeded().values)
+    }
+
+    /// Resolves a kanji-word id ("kw:word|kana") to the entry and its chapter.
+    /// Reviews use this the way vocab reviews use `vocabWord(id:)`.
+    func kanjiWord(id: String) -> (word: ChapterKanjiWord, chapterId: String)? {
+        kanjiWordIndexBuildingIfNeeded()[id]
+    }
+
+    /// The word a character's home chapter teaches it in, as a word entry —
+    /// how a custom lesson's bare kanji become word flashcards.
+    func primaryWord(for char: String) -> ChapterKanjiWord? {
+        guard let entry = kanjiEntry(char) else { return nil }
+        return kanjiWord(id: "kw:\(entry.word)|\(entry.reading)")?.word
+    }
+
+    /// The words a chapter teaches its kanji in. Cached via `loadChapter`.
+    func kanjiWords(for chapterId: String) -> [ChapterKanjiWord] {
+        loadChapter(chapterId)?.kanjiWords ?? []
+    }
+
+    @discardableResult
+    private func kanjiWordIndexBuildingIfNeeded() -> [String: (word: ChapterKanjiWord, chapterId: String)] {
+        if let kanjiWordIndex { return kanjiWordIndex }
+        loadIfNeeded()
+        var index: [String: (word: ChapterKanjiWord, chapterId: String)] = [:]
+        for level in manifest?.levels ?? [] {
+            for summary in level.chapters {
+                for entry in loadChapter(summary.id)?.kanjiWords ?? [] {
+                    index[entry.id] = (entry, summary.id)
+                }
+            }
+        }
+        kanjiWordIndex = index
         return index
     }
 

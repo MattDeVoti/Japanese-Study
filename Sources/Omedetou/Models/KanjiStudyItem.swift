@@ -56,27 +56,3 @@ enum KanjiStudyItem: Identifiable, Hashable {
         return false
     }
 }
-
-// MARK: - Settings
-
-/// Whether the kanji decks also drill each kanji's example words. Off by default,
-/// so the decks stay focused on the kanji themselves until the user opts in.
-/// Persisted app-wide, so the Study section and a chapter's Study Kanji stay in sync.
-final class KanjiStudySettings: ObservableObject {
-    static let shared = KanjiStudySettings()
-
-    private static let key = "KanjiIncludeCommonWords"
-
-    @Published var includeCommonWords: Bool = false {
-        didSet { if didLoad { UserDefaults.standard.set(includeCommonWords, forKey: Self.key) } }
-    }
-
-    private var didLoad = false
-
-    private init() {
-        if UserDefaults.standard.object(forKey: Self.key) != nil {
-            includeCommonWords = UserDefaults.standard.bool(forKey: Self.key)
-        }
-        didLoad = true
-    }
-}

@@ -492,6 +492,62 @@ private extension SpeechService {
     }
 }
 
+// MARK: - Voice speed
+
+/// The Japanese voice-speed control, wherever it appears.
+///
+/// Bound straight to `SpeechService.rate` — the one published, persisted value —
+/// so the copy in Options, the one in the audio deck's sheet and the one in
+/// Sentence Audio are the same control drawn three times: moving any of them
+/// moves the others, live.
+///
+/// Shipped as a component rather than copied because the label thresholds have
+/// to agree with each other; three hand-written copies is three chances for
+/// "Normal" to start at a different place.
+struct VoiceSpeedSlider: View {
+    /// Options draws this inside a `List` row, which supplies its own padding
+    /// and title styling; the study sheets need the heading drawn here.
+    var showsHeading = false
+
+    @ObservedObject private var speech = SpeechService.shared
+
+    /// Same thresholds everywhere the speed is described in words.
+    static func label(for rate: Double) -> String {
+        switch rate {
+        case ..<0.25:  return "Very slow"
+        case ..<0.42:  return "Slow"
+        case ..<0.58:  return "Normal"
+        case ..<0.78:  return "Brisk"
+        default:       return "Fast"
+        }
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: showsHeading ? 8 : 6) {
+            if showsHeading {
+                Text("Voice Speed")
+                    .font(.headline)
+                    .foregroundColor(.appText)
+            }
+            HStack {
+                if !showsHeading { Text("Speed") }
+                Text(Self.label(for: speech.rate))
+                    .font(showsHeading ? .system(size: 15, weight: .semibold) : nil)
+                    .foregroundColor(showsHeading ? .appText : .appTextSecondary)
+                Spacer()
+            }
+            Slider(value: $speech.rate, in: 0...1)
+                .tint(.appAccent)
+            if showsHeading {
+                Text("How fast the Japanese is read out. Shared with Options and every other audio mode.")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+        }
+    }
+}
+
 // MARK: - Speaker button
 
 /// Tap to hear the Japanese. Hides itself entirely when the device has no

@@ -156,6 +156,11 @@ struct ConjugationDrillView: View {
 
         return Button {
             guard picked == nil else { return }
+            if isAnswer {
+                FeedbackSounds.shared.playCorrectVariation()
+            } else {
+                FeedbackSounds.shared.play(.incorrect)
+            }
             picked = choice
             if isAnswer { correct += 1 }
         } label: {

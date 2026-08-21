@@ -1,155 +1,255 @@
 {
-  "id": "kana_h08",
-  "chapterNumber": 8,
-  "title": "R-Row — ら り る れ ろ",
-  "points": [
+ "id": "kana_h08",
+ "chapterNumber": 8,
+ "title": "R-Row — ら り る れ ろ",
+ "points": [
+  {
+   "id": "h08_ra",
+   "pointType": "kana",
+   "name": "ら",
+   "shortDescription": "Between English 'ra' and 'la' — a flap sound",
+   "formation": "ra",
+   "explanation": "The syllable ら is one of the most discussed sounds for English learners because the Japanese 'r' is neither an English 'r' nor an 'l'. It's a flap consonant — your tongue tip briefly and lightly taps the ridge just behind your upper front teeth, similar to the 'tt' in American English 'butter' or 'better' (when said quickly). The resulting sound lands somewhere between 'ra' and 'la'. To practice, say 'butter' quickly, isolate that middle flap, and use it at the start of ら. ら appears in らく (easy / comfort) and as part of さくら (cherry blossom).",
+   "rules": [
+    "A light, quick flap of the tongue tip against the alveolar ridge — not a full 'r' or 'l'.",
+    "Think of the American English 'tt' in 'butter' or 'better' — that brief flap is the Japanese 'r'.",
+    "Do not trill or curl your tongue back like some English 'r' sounds."
+   ],
+   "examples": [
     {
-      "id": "h08_ra",
-      "pointType": "kana",
-      "name": "ら",
-      "shortDescription": "Between English 'ra' and 'la' — a flap sound",
-      "formation": "ra",
-      "explanation": "The syllable ら is one of the most discussed sounds for English learners because the Japanese 'r' is neither an English 'r' nor an 'l'. It's a flap consonant — your tongue tip briefly and lightly taps the ridge just behind your upper front teeth, similar to the 'tt' in American English 'butter' or 'better' (when said quickly). The resulting sound lands somewhere between 'ra' and 'la'. To practice, say 'butter' quickly, isolate that middle flap, and use it at the start of ら. ら appears in らく (easy / comfort) and as part of さくら (cherry blossom).",
-      "rules": [
-        "A light, quick flap of the tongue tip against the alveolar ridge — not a full 'r' or 'l'.",
-        "Think of the American English 'tt' in 'butter' or 'better' — that brief flap is the Japanese 'r'.",
-        "Do not trill or curl your tongue back like some English 'r' sounds."
-      ],
-      "examples": [
-        {"japanese": "らく", "romaji": "raku", "english": "easy / comfortable / relaxed"},
-        {"japanese": "さら", "romaji": "sara", "english": "plate / dish / saucer"},
-        {"japanese": "おてら", "romaji": "otera", "english": "temple (Buddhist)"},
-        {"japanese": "さくら", "romaji": "sakura", "english": "cherry blossom"}
-      ],
-      "flashcardHeader": "ら",
-      "flashcardAnswer": "ra — a light tongue flap, between English 'ra' and 'la'",
-      "practice": null
+     "japanese": "らく",
+     "romaji": "raku",
+     "english": "easy / comfortable / relaxed"
     },
     {
-      "id": "h08_ri",
-      "pointType": "kana",
-      "name": "り",
-      "shortDescription": "Between 'ri' and 'li' — a flap before 'ee'",
-      "formation": "ri",
-      "explanation": "The syllable り pairs the Japanese flap consonant with the vowel い, producing a sound between 'ri' and 'li'. The same light tongue-tip flap you learned for ら applies here — quickly tap the alveolar ridge and move into the bright 'ee' vowel. り is one of the most aesthetically distinctive hiragana characters, with its two short strokes descending like a pair of legs. It appears in wonderful vocabulary: きり (mist / fog / paulownia), はしり (running / the act of running), and とり (bird / chicken).",
-      "rules": [
-        "Same light tongue flap as ら, but followed by the bright 'ee' vowel instead of 'ah'.",
-        "り is written with just two strokes — one of the simplest R-row characters to write.",
-        "り appears in many place names and personal names, making it important to recognize quickly."
-      ],
-      "examples": [
-        {"japanese": "きり", "romaji": "kiri", "english": "mist / fog / paulownia tree"},
-        {"japanese": "はしり", "romaji": "hashiri", "english": "running / the first seasonal produce"},
-        {"japanese": "とり", "romaji": "tori", "english": "bird / chicken (food)"},
-        {"japanese": "さより", "romaji": "sayori", "english": "halfbeak (a type of fish)"}
-      ],
-      "flashcardHeader": "り",
-      "flashcardAnswer": "ri — a light tongue flap + 'ee', between 'ri' and 'li'",
-      "practice": null
+     "japanese": "さら",
+     "romaji": "sara",
+     "english": "plate / dish / saucer"
     },
     {
-      "id": "h09_ru",
-      "pointType": "kana",
-      "name": "る",
-      "shortDescription": "Between 'ru' and 'lu' — a flap + 'u'",
-      "formation": "ru",
-      "explanation": "The syllable る pairs the Japanese flap consonant with the unrounded vowel う, creating a 'ru' sound between English 'ru' and 'lu'. Apply the same light tongue-tap technique from ら and り, then move into the flat Japanese 'u' (no lip rounding). る is critically important in Japanese grammar: it's the dictionary (plain present) form of Group 2 verbs and many common verbs end in る — for example, みる (to see), たべる (to eat), and くる (to come). If you're reading Japanese and you see る at the end of a word, there's a good chance it's a verb.",
-      "rules": [
-        "Light tongue flap + flat, unrounded 'u' vowel.",
-        "る frequently ends verbs: みる (to see), くる (to come), たべる (to eat).",
-        "The character る has a looping shape that's easy to write once you get the feel of the loop."
-      ],
-      "examples": [
-        {"japanese": "くる", "romaji": "kuru", "english": "to come"},
-        {"japanese": "みる", "romaji": "miru", "english": "to see / to look / to watch"},
-        {"japanese": "さる", "romaji": "saru", "english": "monkey / to leave (literary)"},
-        {"japanese": "かえる", "romaji": "kaeru", "english": "frog / to return home"}
-      ],
-      "flashcardHeader": "る",
-      "flashcardAnswer": "ru — a flap + Japanese 'u', between 'ru' and 'lu'",
-      "practice": null
+     "japanese": "おてら",
+     "romaji": "otera",
+     "english": "temple (Buddhist)"
     },
     {
-      "id": "h09_re",
-      "pointType": "kana",
-      "name": "れ",
-      "shortDescription": "Between 're' and 'le' — a flap + 'e'",
-      "formation": "re",
-      "explanation": "The syllable れ pairs the Japanese flap with the vowel え, making a 're' sound somewhere between English 're' and 'le'. れ is the basis for three essential demonstrative pronouns: これ (this thing), それ (that thing near you), and あれ (that thing over there). These three words are among the very first vocabulary items in any Japanese course, so you'll encounter れ in meaningful context right away. The character れ has a distinctive branching shape at the bottom that distinguishes it from ね, which it resembles.",
-      "rules": [
-        "Light tongue flap + clean 'eh' vowel.",
-        "これ (this), それ (that), あれ (that over there) — three essential words all using れ.",
-        "れ looks similar to ね — check the bottom: れ has a branching end, ね loops back."
-      ],
-      "examples": [
-        {"japanese": "これ", "romaji": "kore", "english": "this (thing)"},
-        {"japanese": "それ", "romaji": "sore", "english": "that (thing near you)"},
-        {"japanese": "あれ", "romaji": "are", "english": "that (thing over there)"},
-        {"japanese": "くれ", "romaji": "kure", "english": "give (me) — informal request"}
-      ],
-      "flashcardHeader": "れ",
-      "flashcardAnswer": "re — a flap + 'eh', between 're' and 'le'",
-      "practice": null
-    },
-    {
-      "id": "h09_ro",
-      "pointType": "kana",
-      "name": "ろ",
-      "shortDescription": "Between 'ro' and 'lo' — a flap + 'o'",
-      "formation": "ro",
-      "explanation": "The syllable ろ pairs the Japanese flap with the vowel お, making a 'ro' sound between English 'ro' and 'lo'. This is the last of the five R-row sounds. ろ appears in beautiful vocabulary: しろ (castle / white), ひろい (wide / spacious), ころも (garment / clothing — a more poetic word), and ころ (around / about / a time period). The character ろ looks like a backwards English 'J' — a coincidence English speakers often find helpful as a memory hook.",
-      "rules": [
-        "Light tongue flap + pure 'oh' vowel, no glide toward 'w'.",
-        "しろ (castle) and ひろい (spacious) are high-frequency words with ろ.",
-        "ろ resembles a backwards 'J' — a memory hook for English speakers."
-      ],
-      "examples": [
-        {"japanese": "しろ", "romaji": "shiro", "english": "castle / white"},
-        {"japanese": "ひろい", "romaji": "hiroi", "english": "wide / spacious"},
-        {"japanese": "ころも", "romaji": "koromo", "english": "garment / robe / batter (cooking)"},
-        {"japanese": "ころ", "romaji": "koro", "english": "around (a time) / period / time"}
-      ],
-      "flashcardHeader": "ろ",
-      "flashcardAnswer": "ro — a flap + 'oh', between 'ro' and 'lo'",
-      "practice": null
+     "japanese": "さくら",
+     "romaji": "sakura",
+     "english": "cherry blossom"
     }
-  ],
-  "chapterPractice": [
+   ],
+   "flashcardHeader": "ら",
+   "flashcardAnswer": "ra — a light tongue flap, between English 'ra' and 'la'",
+   "practice": null
+  },
+  {
+   "id": "h08_ri",
+   "pointType": "kana",
+   "name": "り",
+   "shortDescription": "Between 'ri' and 'li' — a flap before 'ee'",
+   "formation": "ri",
+   "explanation": "The syllable り pairs the Japanese flap consonant with the vowel い, producing a sound between 'ri' and 'li'. The same light tongue-tip flap you learned for ら applies here — quickly tap the alveolar ridge and move into the bright 'ee' vowel. り is one of the most aesthetically distinctive hiragana characters, with its two short strokes descending like a pair of legs. It appears in wonderful vocabulary: きり (mist / fog / paulownia), はしり (running / the act of running), and とり (bird / chicken).",
+   "rules": [
+    "Same light tongue flap as ら, but followed by the bright 'ee' vowel instead of 'ah'.",
+    "り is written with just two strokes — one of the simplest R-row characters to write.",
+    "り appears in many place names and personal names, making it important to recognize quickly."
+   ],
+   "examples": [
     {
-      "id": "h08r_q1",
-      "type": "multiple_choice",
-      "prompt": "What sound does this character make?",
-      "japanese": "ろ",
-      "choices": ["ra", "ri", "ru", "ro"],
-      "correctIndex": 3,
-      "explanation": "ろ makes the 'ro' sound — the Japanese tongue flap followed by the 'oh' vowel. ろ looks like a backwards 'J'. It appears in beautiful words like しろ (castle/white) and ひろい (spacious)."
+     "japanese": "きり",
+     "romaji": "kiri",
+     "english": "mist / fog / paulownia tree"
     },
     {
-      "id": "h08r_q2",
-      "type": "multiple_choice",
-      "prompt": "The Japanese 'r' (ら り る れ ろ) sounds most like which English sound?",
-      "japanese": null,
-      "choices": ["The 'r' in 'red'", "The 'l' in 'led'", "The 'tt' in 'butter'", "The 'd' in 'dog'"],
-      "correctIndex": 2,
-      "explanation": "The Japanese 'r' is a flap consonant — your tongue tip lightly taps the ridge just behind your upper teeth. The closest English equivalent is the quick 'tt' in American English 'butter' or 'better'. It's not a rolling 'r', not a curl-back 'r', and not an 'l'."
+     "japanese": "はしり",
+     "romaji": "hashiri",
+     "english": "running / the first seasonal produce"
     },
     {
-      "id": "h08r_q3",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "さくら",
-      "choices": ["cherry blossom", "umbrella", "summer", "mountain"],
-      "correctIndex": 0,
-      "explanation": "さくら (sakura) means 'cherry blossom' — Japan's most iconic flower. さ (sa) + く (ku) + ら (ra) = sakura. Notice how the Japanese 'r' in ら flows naturally here."
+     "japanese": "とり",
+     "romaji": "tori",
+     "english": "bird / chicken (food)"
     },
     {
-      "id": "h08r_q4",
-      "type": "multiple_choice",
-      "prompt": "What does this word mean?",
-      "japanese": "くる",
-      "choices": ["to come", "to leave", "to see", "to buy"],
-      "correctIndex": 0,
-      "explanation": "くる (kuru) means 'to come'. く (ku) + る (ru) = kuru. This is one of the most important verbs in Japanese — both characters come from the R-row!"
+     "japanese": "りす",
+     "romaji": "risu",
+     "english": "squirrel"
     }
-  ]
+   ],
+   "flashcardHeader": "り",
+   "flashcardAnswer": "ri — a light tongue flap + 'ee', between 'ri' and 'li'",
+   "practice": null
+  },
+  {
+   "id": "h09_ru",
+   "pointType": "kana",
+   "name": "る",
+   "shortDescription": "Between 'ru' and 'lu' — a flap + 'u'",
+   "formation": "ru",
+   "explanation": "The syllable る pairs the Japanese flap consonant with the unrounded vowel う, creating a 'ru' sound between English 'ru' and 'lu'. Apply the same light tongue-tap technique from ら and り, then move into the flat Japanese 'u' (no lip rounding). る is critically important in Japanese grammar: it's the dictionary (plain present) form of Group 2 verbs and many common verbs end in る — for example, みる (to see), たべる (to eat), and くる (to come). If you're reading Japanese and you see る at the end of a word, there's a good chance it's a verb.",
+   "rules": [
+    "Light tongue flap + flat, unrounded 'u' vowel.",
+    "る frequently ends verbs: みる (to see), くる (to come), たべる (to eat).",
+    "The character る has a looping shape that's easy to write once you get the feel of the loop."
+   ],
+   "examples": [
+    {
+     "japanese": "くる",
+     "romaji": "kuru",
+     "english": "to come"
+    },
+    {
+     "japanese": "みる",
+     "romaji": "miru",
+     "english": "to see / to look / to watch"
+    },
+    {
+     "japanese": "さる",
+     "romaji": "saru",
+     "english": "monkey / to leave (literary)"
+    },
+    {
+     "japanese": "かえる",
+     "romaji": "kaeru",
+     "english": "frog / to return home"
+    }
+   ],
+   "flashcardHeader": "る",
+   "flashcardAnswer": "ru — a flap + Japanese 'u', between 'ru' and 'lu'",
+   "practice": null
+  },
+  {
+   "id": "h09_re",
+   "pointType": "kana",
+   "name": "れ",
+   "shortDescription": "Between 're' and 'le' — a flap + 'e'",
+   "formation": "re",
+   "explanation": "The syllable れ pairs the Japanese flap with the vowel え, making a 're' sound somewhere between English 're' and 'le'. れ is the basis for three essential demonstrative pronouns: これ (this thing), それ (that thing near you), and あれ (that thing over there). These three words are among the very first vocabulary items in any Japanese course, so you'll encounter れ in meaningful context right away. The character れ ends in an outward flick where ね closes into a loop — that tail is what tells the two apart.",
+   "rules": [
+    "Light tongue flap + clean 'eh' vowel.",
+    "これ (this), それ (that), あれ (that over there) — three essential words all using れ.",
+    "れ looks similar to ね — check the bottom: れ has a branching end, ね loops back."
+   ],
+   "examples": [
+    {
+     "japanese": "これ",
+     "romaji": "kore",
+     "english": "this (thing)"
+    },
+    {
+     "japanese": "それ",
+     "romaji": "sore",
+     "english": "that (thing near you)"
+    },
+    {
+     "japanese": "あれ",
+     "romaji": "are",
+     "english": "that (thing over there)"
+    },
+    {
+     "japanese": "くれ",
+     "romaji": "kure",
+     "english": "give (me) — informal request"
+    }
+   ],
+   "flashcardHeader": "れ",
+   "flashcardAnswer": "re — a flap + 'eh', between 're' and 'le'",
+   "practice": null
+  },
+  {
+   "id": "h09_ro",
+   "pointType": "kana",
+   "name": "ろ",
+   "shortDescription": "Between 'ro' and 'lo' — a flap + 'o'",
+   "formation": "ro",
+   "explanation": "The syllable ろ pairs the Japanese flap with the vowel お, making a 'ro' sound between English 'ro' and 'lo'. This is the last of the five R-row sounds. ろ appears in beautiful vocabulary: しろ (castle / white), ひろい (wide / spacious), ころも (garment / clothing — a more poetic word), and ころ (around / about / a time period). The character ろ looks like a backwards English 'J' — a coincidence English speakers often find helpful as a memory hook.",
+   "rules": [
+    "Light tongue flap + pure 'oh' vowel, no glide toward 'w'.",
+    "しろ (castle) and ひろい (spacious) are high-frequency words with ろ.",
+    "ろ resembles a backwards 'J' — a memory hook for English speakers."
+   ],
+   "examples": [
+    {
+     "japanese": "しろ",
+     "romaji": "shiro",
+     "english": "castle / white"
+    },
+    {
+     "japanese": "ひろい",
+     "romaji": "hiroi",
+     "english": "wide / spacious"
+    },
+    {
+     "japanese": "ころも",
+     "romaji": "koromo",
+     "english": "garment / robe / batter (cooking)"
+    },
+    {
+     "japanese": "ころ",
+     "romaji": "koro",
+     "english": "around (a time) / period / time"
+    }
+   ],
+   "flashcardHeader": "ろ",
+   "flashcardAnswer": "ro — a flap + 'oh', between 'ro' and 'lo'",
+   "practice": null
+  }
+ ],
+ "chapterPractice": [
+  {
+   "id": "h08r_q1",
+   "type": "multiple_choice",
+   "prompt": "What sound does this character make?",
+   "japanese": "ろ",
+   "choices": [
+    "ra",
+    "ri",
+    "ru",
+    "ro"
+   ],
+   "correctIndex": 3,
+   "explanation": "ろ makes the 'ro' sound — the Japanese tongue flap followed by the 'oh' vowel. ろ looks like a backwards 'J'. It appears in beautiful words like しろ (castle/white) and ひろい (spacious)."
+  },
+  {
+   "id": "h08r_q2",
+   "type": "multiple_choice",
+   "prompt": "The Japanese 'r' (ら り る れ ろ) sounds most like which English sound?",
+   "japanese": null,
+   "choices": [
+    "The 'r' in 'red'",
+    "The 'l' in 'led'",
+    "The 'tt' in 'butter'",
+    "The 'd' in 'dog'"
+   ],
+   "correctIndex": 2,
+   "explanation": "The Japanese 'r' is a flap consonant — your tongue tip lightly taps the ridge just behind your upper teeth. The closest English equivalent is the quick 'tt' in American English 'butter' or 'better'. It's not a rolling 'r', not a curl-back 'r', and not an 'l'."
+  },
+  {
+   "id": "h08r_q3",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "さくら",
+   "choices": [
+    "cherry blossom",
+    "umbrella",
+    "summer",
+    "mountain"
+   ],
+   "correctIndex": 0,
+   "explanation": "さくら (sakura) means 'cherry blossom' — Japan's most iconic flower. さ (sa) + く (ku) + ら (ra) = sakura. Notice how the Japanese 'r' in ら flows naturally here."
+  },
+  {
+   "id": "h08r_q4",
+   "type": "multiple_choice",
+   "prompt": "What does this word mean?",
+   "japanese": "くる",
+   "choices": [
+    "to come",
+    "to leave",
+    "to see",
+    "to buy"
+   ],
+   "correctIndex": 0,
+   "explanation": "くる (kuru) means 'to come'. く (ku) + る (ru) = kuru. This is one of the most important verbs in Japanese — both characters come from the R-row!"
+  }
+ ]
 }

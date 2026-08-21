@@ -1,1537 +1,2137 @@
 {
-  "id": "ch33",
-  "chapterNumber": 35,
-  "title": "Possibility and Inability",
-  "points": [
+ "id": "ch33",
+ "chapterNumber": 35,
+ "title": "Possibility and Inability",
+ "points": [
+  {
+   "id": "wake-ni-wa-ikanai",
+   "name": "〜わけにはいかない — can't possibly / is out of the question",
+   "shortDescription": "Social or moral impossibility — 'I simply can't' — not a matter of ability, but of conscience or duty.",
+   "formation": "Verb (dictionary form) + わけにはいかない  |  Verb (ない-form) + わけにはいかない",
+   "explanation": "わけにはいかない draws a line — not because something is physically impossible (that's できない), but because doing it would violate a duty, social obligation, or personal conscience. みんなが頑張[がんば]っているのに、一人[ひとり]だけ帰[かえ]るわけにはいきません: leaving is physically possible. But it would be wrong — and that wrongness makes it feel impossible. This is the grammar of 'I couldn't live with myself if I did.'\n\nThe double negative form is equally important: ないわけにはいかない resolves two negatives into an obligation. 行[い]かないわけにはいかない: I can't very well not go — which means I have to go. It's an emphatic way to express duty through logical structure.\n\nThe practical test: if someone can't do something because they lack skill or resources, use できない. If someone could physically do it but their conscience or social situation won't allow it, use わけにはいかない. The difference is ability versus moral permissibility.",
+   "rules": [
+    "Dict form + わけにはいかない = can't possibly do X (social/moral impossibility, not ability)",
+    "ない-form + わけにはいかない = can't very well not do X (obligation by double negative)",
+    "The impossibility comes from duty, social norms, or conscience — not physical inability",
+    "Contrast: できない (inability); わけにはいかない (social/moral impossibility)",
+    "Negative: 〜ないわけにはいかない = I have to (double negative = obligation)"
+   ],
+   "examples": [
     {
-      "id": "wake-ni-wa-ikanai",
-      "name": "〜わけにはいかない — can't possibly / is out of the question",
-      "shortDescription": "Social or moral impossibility — 'I simply can't' — not a matter of ability, but of conscience or duty.",
-      "formation": "Verb (dictionary form) + わけにはいかない  |  Verb (ない-form) + わけにはいかない",
-      "explanation": "わけにはいかない draws a line — not because something is physically impossible (that's できない), but because doing it would violate a duty, social obligation, or personal conscience. みんなが頑張[がんば]っているのに、一人[ひとり]だけ帰[かえ]るわけにはいきません: leaving is physically possible. But it would be wrong — and that wrongness makes it feel impossible. This is the grammar of 'I couldn't live with myself if I did.'\n\nThe double negative form is equally important: ないわけにはいかない resolves two negatives into an obligation. 行[い]かないわけにはいかない: I can't very well not go — which means I have to go. It's an emphatic way to express duty through logical structure.\n\nThe practical test: if someone can't do something because they lack skill or resources, use できない. If someone could physically do it but their conscience or social situation won't allow it, use わけにはいかない. The difference is ability versus moral permissibility.",
-      "rules": [
-        "Dict form + わけにはいかない = can't possibly do X (social/moral impossibility, not ability)",
-        "ない-form + わけにはいかない = can't very well not do X (obligation by double negative)",
-        "The impossibility comes from duty, social norms, or conscience — not physical inability",
-        "Contrast: できない (inability); わけにはいかない (social/moral impossibility)",
-        "Negative: 〜ないわけにはいかない = I have to (double negative = obligation)"
-      ],
-      "examples": [
-        {
-          "japanese": "みんなが頑張[がんば]っているのに、一人[ひとり]だけ帰[かえ]るわけにはいきません。",
-          "romaji": "Minna ga ganbatte iru noni, hitori dake kaeru wake ni wa ikimasen.",
-          "english": "When everyone else is working hard, there's no way I can be the only one to leave."
-        },
-        {
-          "japanese": "大切[たいせつ]な約束[やくそく]があるから、休[やす]むわけにはいかない。",
-          "romaji": "Taisetsu na yakusoku ga aru kara, yasumu wake ni wa ikanai.",
-          "english": "I have an important commitment, so there's no way I can take a day off."
-        },
-        {
-          "japanese": "お世話[せわ]になった先生[せんせい]の結婚式[けっこんしき]に出[で]ないわけにはいかない。",
-          "romaji": "Osewa ni natta sensei no kekkonshiki ni denai wake ni wa ikanai.",
-          "english": "I can't very well not attend the wedding of a teacher who helped me so much."
-        },
-        {
-          "japanese": "証拠[しょうこ]があるのに、知[し]らないふりをするわけにはいかない。",
-          "romaji": "Shouko ga aru noni, shiranai furi wo suru wake ni wa ikanai.",
-          "english": "With evidence right there, I can't possibly pretend not to know."
-        }
-      ],
-      "flashcardHeader": "〜わけにはいかない",
-      "flashcardAnswer": "Social or moral impossibility — 'I simply can't' — not ability, but conscience or duty.",
-      "practice": [
-        {
-          "id": "wake-ni-wa-ikanai_q1",
-          "type": "usage",
-          "prompt": "What does 〜わけにはいかない mean?",
-          "japanese": null,
-          "choices": [
-            "cannot do X (physical impossibility)",
-            "cannot afford to do X / there's no way I can do X (social/moral constraint — circumstances make it impossible to do)",
-            "should not do X",
-            "do not want to do X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜わけにはいかない = can't bring oneself to do X / circumstances won't allow X. It's social/moral — not physical impossibility. 嘘[うそ]をつくわけにはいかない = I can't (morally) tell a lie. There are social reasons one cannot do it."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't just give up now'?",
-          "japanese": null,
-          "choices": [
-            "今[いま]さらあきらめるわけにはいかない。",
-            "今[いま]さらあきらめるわけではない。",
-            "今[いま]さらあきらめるはずがない。",
-            "今[いま]さらあきらめるわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: あきらめる + わけにはいかない = can't (just) give up. 今[いま]さら (at this late stage) emphasizes that circumstances (effort invested, social expectation) prevent giving up now."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q3",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't skip work for such a reason'?",
-          "japanese": null,
-          "choices": [
-            "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけにはいかない。",
-            "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけではない。",
-            "そんな理由[りゆう]で仕事[しごと]を休[やす]むはずがない。",
-            "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 休[やす]む + わけにはいかない = can't (afford to) skip. そんな理由[りゆう]で (for such a reason) = the reason would be insufficient to justify skipping — social/workplace constraint."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q4",
-          "type": "usage",
-          "prompt": "What is the difference between わけにはいかない and ずにはいられない?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "わけにはいかない = can't NOT do (circumstances prevent skipping it); ずにはいられない = irresistible urge (can't stop oneself emotionally)",
-            "わけにはいかない is for physical impossibility — this is true in both spoken and written Japanese.",
-            "ずにはいられない is more formal"
-          ],
-          "correctIndex": 1,
-          "explanation": "わけにはいかない = social/moral constraint preventing the action (or preventing NOT doing it). ずにはいられない = emotional urge you can't control. 断[ことわ]るわけにはいかない = I can't decline (social obligation); 笑[わら]わずにはいられない = can't help laughing (impulse)."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't lie to my parents'?",
-          "japanese": null,
-          "choices": [
-            "親[おや]に嘘[うそ]をつくわけにはいかない。",
-            "親[おや]に嘘[うそ]をつくわけではない。",
-            "親[おや]に嘘[うそ]をつくはずがない。",
-            "親[おや]に嘘[うそ]をつくことはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 嘘[うそ]をつく + わけにはいかない = can't lie (morally). 親[おや]に (to my parents) = the relationship creates the moral constraint — I simply cannot lie to them."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q6",
-          "type": "translation",
-          "prompt": "Which means 'I can't tell that secret to anyone'?",
-          "japanese": null,
-          "choices": [
-            "その秘密[ひみつ]を誰[だれ]にも話[はな]すわけにはいかない。",
-            "その秘密[ひみつ]を誰[だれ]にも話[はな]すわけではない。",
-            "その秘密[ひみつ]を誰[だれ]にも話[はな]すはずがない。",
-            "その秘密[ひみつ]を誰[だれ]にも話[はな]すことはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 話[はな]す + わけにはいかない = can't tell. 秘密[ひみつ] (secret) creates the social/moral constraint — revealing it would cause harm or break trust."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't forget the kindness you showed me'?",
-          "japanese": null,
-          "choices": [
-            "いただいた親切[しんせつ]を忘[わす]れるわけにはいかない。",
-            "いただいた親切[しんせつ]を忘[わす]れるわけではない。",
-            "いただいた親切[しんせつ]を忘[わす]れるはずがない。",
-            "いただいた親切[しんせつ]を忘[わす]れるわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 忘[わす]れる + わけにはいかない = can't (morally) forget. The kindness received creates a social/moral obligation not to forget — gratitude prevents it."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q8",
-          "type": "usage",
-          "prompt": "わけにはいかない can also be used with NEGATIVE forms (〜ないわけにはいかない). What does this mean?",
-          "japanese": null,
-          "choices": [
-            "Cannot not do X (= must do X — circumstances force you to do it)",
-            "Cannot do X",
-            "Should not do X",
-            "Do not want to do X"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ないわけにはいかない = cannot NOT do X = must do X. 行[い]かないわけにはいかない = I can't not go = I have to go. Double negative: 'not going' is impossible, so I must go. Circumstances force the action."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q9",
-          "type": "construct",
-          "prompt": "Which correctly says 'I have to go to the ceremony (can't not go)'?",
-          "japanese": null,
-          "choices": [
-            "式[しき]に行[い]かないわけにはいかない。",
-            "式[しき]に行[い]くわけにはいかない。",
-            "式[しき]に行[い]くわけではない。",
-            "式[しき]に行[い]かないはずがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ないわけにはいかない: 行[い]かない + わけにはいかない = can't not go = must go. 式[しき] (ceremony) + the social obligation makes 'not going' impossible. Must attend."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q10",
-          "type": "translation",
-          "prompt": "Which means 'As the boss, I can't show weakness'?",
-          "japanese": null,
-          "choices": [
-            "上司[じょうし]として、弱[よわ]みを見[み]せるわけにはいかない。",
-            "上司[じょうし]として、弱[よわ]みを見[み]せるわけではない。",
-            "上司[じょうし]として、弱[よわ]みを見[み]せるはずがない。",
-            "上司[じょうし]として、弱[よわ]みを見[み]せないわけにはいかない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 見[み]せる + わけにはいかない = can't show. 上司[じょうし]として (as the boss) = the role creates the constraint — showing weakness would undermine authority."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q11",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't decline this invitation'?",
-          "japanese": null,
-          "choices": [
-            "この誘[さそ]いを断[ことわ]るわけにはいかない。",
-            "この誘[さそ]いを断[ことわ]るわけではない。",
-            "この誘[さそ]いを断[ことわ]るはずがない。",
-            "この誘[さそ]いを断[ことわ]るわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 断[ことわ]る + わけにはいかない = can't decline. The invitation's source (important person, special occasion) creates the social constraint making refusal impossible."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q12",
-          "type": "usage",
-          "prompt": "What does the expression わけにはいかない literally break down to?",
-          "japanese": null,
-          "choices": [
-            "'reason goes not' — it cannot be that there's a reason for this to happen",
-            "'way to doesn't go' — there's no way to proceed (in this manner)",
-            "'cannot be that way' — it simply cannot be this way (won't work)",
-            "All of the above — it expresses impossibility of a situation"
-          ],
-          "correctIndex": 1,
-          "explanation": "わけ (way/reason/situation) + には (as for) + いかない (won't go/work) = 'it won't work out this way' / 'there's no way this can happen.' The expression means circumstances prevent it from being acceptable."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q13",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't leave the children alone'?",
-          "japanese": null,
-          "choices": [
-            "子供[こども]たちを一人[ひとり]にするわけにはいかない。",
-            "子供[こども]たちを一人[ひとり]にするわけではない。",
-            "子供[こども]たちを一人[ひとり]にするはずがない。",
-            "子供[こども]たちを一人[ひとり]にするわけがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 一人[ひとり]にする + わけにはいかない = can't leave  alone. Parental responsibility creates the moral constraint — leaving children alone is not acceptable."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q14",
-          "type": "translation",
-          "prompt": "Which means 'I can't keep this problem to myself any longer'?",
-          "japanese": null,
-          "choices": [
-            "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるわけにはいかない。",
-            "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるわけではない。",
-            "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるはずがない。",
-            "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えることはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 抱[かか]える (bear/hold) + わけにはいかない = can't keep holding . もう (anymore) + the situation's severity makes solo handling impossible."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q15",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't miss this exam'?",
-          "japanese": null,
-          "choices": [
-            "この試験[しけん]を休[やす]むわけにはいかない。",
-            "この試験[しけん]を休[やす]むわけではない。",
-            "この試験[しけん]を休[やす]むはずがない。",
-            "この試験[しけん]を休[やす]むことはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 休[やす]む (miss/skip) + わけにはいかない = can't skip. The importance of the exam creates the constraint — missing it has too many consequences."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q16",
-          "type": "usage",
-          "prompt": "Which BEST shows the social/moral constraint nuance of わけにはいかない?",
-          "japanese": null,
-          "choices": [
-            "石[いし]が空[そら]から落[お]ちるわけにはいかない。(Stones can't fall from the sky.)",
-            "友達[ともだち]を裏切[うらぎ]るわけにはいかない。(I can't betray my friend — loyalty prevents it.)",
-            "水[みず]が上[うえ]に流[なが]れるわけにはいかない。(Water can't flow upward.)",
-            "彼[かれ]は来[く]るわけにはいかない。(He can't come — schedule conflict.)"
-          ],
-          "correctIndex": 1,
-          "explanation": "友達[ともだち]を裏切[うらぎ]るわけにはいかない = I can't betray my friend — this is a MORAL/SOCIAL constraint (loyalty, ethics). Options 1 and 3 are physical impossibilities (not わけにはいかない's intended use). Option 4 is closer but less clear on the moral dimension."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q17",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't eat in front of someone who is starving'?",
-          "japanese": null,
-          "choices": [
-            "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけにはいかない。",
-            "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけではない。",
-            "飢[う]えている人[ひと]の前[まえ]で食[た]べるはずがない。",
-            "飢[う]えている人[ひと]の前[まえ]で食[た]べることはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 食[た]べる + わけにはいかない = can't eat . The social/moral situation (someone is starving) makes eating in front of them unacceptable — circumstances prevent it."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q18",
-          "type": "translation",
-          "prompt": "Which means 'As a doctor, I can't ignore an injured person'?",
-          "japanese": null,
-          "choices": [
-            "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するわけにはいかない。",
-            "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するわけではない。",
-            "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するはずがない。",
-            "医者[いしゃ]として、怪我人[けがにん]を無視[むし]することはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: 無視[むし]する + わけにはいかない = can't ignore. 医者[いしゃ]として (as a doctor) = professional/ethical obligation creates the constraint — ignoring an injured person violates the doctor's duty."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q19",
-          "type": "construct",
-          "prompt": "Which correctly says 'I have to study for the important exam (can't not study)'?",
-          "japanese": null,
-          "choices": [
-            "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないわけにはいかない。",
-            "大事[だいじ]な試験[しけん]のために勉強[べんきょう]するわけにはいかない。",
-            "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないわけではない。",
-            "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないはずがない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "〜ないわけにはいかない: 勉強[べんきょう]しない + わけにはいかない = can't not study = must study. The importance of the exam makes not-studying impossible."
-        },
-        {
-          "id": "wake-ni-wa-ikanai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'I can't take money from an elderly person'?",
-          "japanese": null,
-          "choices": [
-            "お年寄[としよ]りからお金[かね]をもらうわけにはいかない。",
-            "お年寄[としよ]りからお金[かね]をもらうわけではない。",
-            "お年寄[としよ]りからお金[かね]をもらうはずがない。",
-            "お年寄[としよ]りからお金[かね]をもらうことはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + わけにはいかない: もらう (receive) + わけにはいかない = can't receive/take. Taking money from an elderly person would be morally wrong — social/ethical constraint."
-        }
-      ]
+     "japanese": "みんなが頑張[がんば]っているのに、一人[ひとり]だけ帰[かえ]るわけにはいきません。",
+     "romaji": "Minna ga ganbatte iru noni, hitori dake kaeru wake ni wa ikimasen.",
+     "english": "When everyone else is working hard, there's no way I can be the only one to leave."
     },
     {
-      "id": "koto-wa-nai",
-      "name": "〜ことはない — no need to / it won't happen that",
-      "shortDescription": "There's no need to do X (reassurance), or X will never happen (strong assertion).",
-      "formation": "Verb (dictionary form) + ことはない",
-      "explanation": "ことはない is a genuinely reassuring pattern. Its most common use is 'there's no need to': 心配[しんぱい]することはないですよ — relax, worry is unnecessary here. 急[いそ]ぐことはありません — there's time, you don't need to rush. It's the grammar of the calm mentor: a quiet word that says 'that concern doesn't apply to this situation.'\n\nThe second use is a strong assertion that something will never occur: あの人[ひと]がそんなことをすることはない — that person would simply never do such a thing. Both uses share the same structure; only context tells you whether you're being reassured or receiving a firm denial.\n\nWhat makes ことはない feel different from just saying 'don't worry' is that it specifically addresses the necessity of an action and says: that action is not required here. It's precise and gentle at the same time — two qualities that work well together in Japanese communication.",
-      "rules": [
-        "Dict form + ことはない = there is no need to do X (reassuring)",
-        "Dict form + ことはない = it will never happen that X (strong assertion it won't occur)",
-        "Context distinguishes the two meanings — reassurance vs strong denial of possibility",
-        "Softer and more reassuring than imperative negatives",
-        "Common reassuring phrases: 心配[しんぱい]することはない, 急[いそ]ぐことはない"
-      ],
-      "examples": [
-        {
-          "japanese": "失敗[しっぱい]を恐[おそ]れることはありません。失敗[しっぱい]から学[まな]べばいいんです。",
-          "romaji": "Shippai wo osoreru koto wa arimasen. Shippai kara manabeba ii n desu.",
-          "english": "There's no need to fear failure. You just need to learn from it."
-        },
-        {
-          "japanese": "そんなに急[いそ]ぐことはないですよ。まだ時間[じかん]はあります。",
-          "romaji": "Sonna ni isogu koto wa nai desu yo. Mada jikan wa arimasu.",
-          "english": "There's no need to rush so much. There's still time."
-        },
-        {
-          "japanese": "彼女[かのじょ]がうそをつくことはないと思[おも]います。",
-          "romaji": "Kanojo ga uso wo tsuku koto wa nai to omoimasu.",
-          "english": "I don't think she would ever tell a lie."
-        },
-        {
-          "japanese": "この薬[くすり]を飲[の]めば、そんなに心配[しんぱい]することはないですよ。",
-          "romaji": "Kono kusuri wo nomeba, sonna ni shinpai suru koto wa nai desu yo.",
-          "english": "If you take this medicine, there's no need to worry so much."
-        }
-      ],
-      "flashcardHeader": "〜ことはない",
-      "flashcardAnswer": "There's no need to (reassurance), or it will never happen (strong assertion).",
-      "practice": [
-        {
-          "id": "koto-wa-nai_q1",
-          "type": "usage",
-          "prompt": "What does 〜ことはない mean?",
-          "japanese": null,
-          "choices": [
-            "have never done X",
-            "there's no need to do X / you don't have to do X (reassurance — it's unnecessary)",
-            "you must not do X",
-            "you cannot do X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ことはない = there's no need to do X / you don't have to. 心配[しんぱい]することはない = there's no need to worry. It REASSURES the listener that the action is unnecessary or excessive."
-        },
-        {
-          "id": "koto-wa-nai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'There's no need to hurry'?",
-          "japanese": null,
-          "choices": [
-            "急[いそ]ぐことはない。",
-            "急[いそ]ぐことがない。",
-            "急[いそ]ぐことではない。",
-            "急[いそ]ぐこともない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 急[いそ]ぐ + ことはない = no need to hurry. The は particle in ことはない is the topic marker emphasizing the negative: 'as for needing to hurry — there isn't any (need).'"
-        },
-        {
-          "id": "koto-wa-nai_q3",
-          "type": "translation",
-          "prompt": "Which means 'There's no need for you to apologize'?",
-          "japanese": null,
-          "choices": [
-            "謝[あやま]ることはない。",
-            "謝[あやま]ることがない。",
-            "謝[あやま]ることではない。",
-            "謝[あやま]ることもない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 謝[あやま]る + ことはない = no need to apologize. Reassurance: the situation doesn't require an apology. ことはない ends the sentence with a tone of 'don't worry, it's not necessary.'"
-        },
-        {
-          "id": "koto-wa-nai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't have to go all the way there'?",
-          "japanese": null,
-          "choices": [
-            "わざわざ行[い]くことはない。",
-            "わざわざ行[い]くことがない。",
-            "わざわざ行[い]くことではない。",
-            "わざわざ行[い]くこともない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 行[い]く + ことはない = no need to go. わざわざ (going out of one's way) + 行[い]くことはない = you don't have to go all the way there. Reassurance against excessive effort."
-        },
-        {
-          "id": "koto-wa-nai_q5",
-          "type": "usage",
-          "prompt": "What is the DIFFERENCE between ことはない and なくていい?",
-          "japanese": null,
-          "choices": [
-            "They are completely identical",
-            "ことはない = stronger reassurance ('there's simply no need at all'); なくていい = softer permission ('it's okay not to')",
-            "ことはない is more casual",
-            "なくていい is for past actions only, and the rule applies to every sentence type."
-          ],
-          "correctIndex": 1,
-          "explanation": "ことはない is a stronger, more definitive 'there is no need / no reason.' なくていい = 'you don't have to / it's okay not to' (softer permission). 急[いそ]ぐことはない = there's simply no need to rush (definitive); 急[いそ]がなくていい = you don't have to rush (gentler)."
-        },
-        {
-          "id": "koto-wa-nai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't have to worry about that'?",
-          "japanese": null,
-          "choices": [
-            "そんなことを心配[しんぱい]することはない。",
-            "そんなことを心配[しんぱい]することがない。",
-            "そんなことを心配[しんぱい]することではない。",
-            "そんなことを心配[しんぱい]することもない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 心配[しんぱい]する + ことはない = no need to worry. そんなこと = such a thing. Reassurance that the worry is unnecessary/unfounded."
-        },
-        {
-          "id": "koto-wa-nai_q7",
-          "type": "translation",
-          "prompt": "Which means 'There's no need to cry over such a small thing'?",
-          "japanese": null,
-          "choices": [
-            "そんな小[ちい]さなことで泣[な]くことはない。",
-            "そんな小[ちい]さなことで泣[な]くことがない。",
-            "そんな小[ちい]さなことで泣[な]くことではない。",
-            "そんな小[ちい]さなことで泣[な]くことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 泣[な]く + ことはない = no need to cry. そんな小[ちい]さなことで = over such a small thing. Reassurance: the situation doesn't warrant crying."
-        },
-        {
-          "id": "koto-wa-nai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't have to do it alone'?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり]でやることはない。",
-            "一人[ひとり]でやることがない。",
-            "一人[ひとり]でやることではない。",
-            "一人[ひとり]でやることもない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: やる + ことはない = no need to do. 一人[ひとり]で = alone. Reassurance: you don't have to handle it alone — help is available."
-        },
-        {
-          "id": "koto-wa-nai_q9",
-          "type": "usage",
-          "prompt": "ことはない can also mean 'have never done X' in a DIFFERENT pattern. Which shows this meaning?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は日本[にほん]に行[い]くことはない。(He has no need to go to Japan.)",
-            "彼[かれ]は日本[にほん]に行[い]ったことはない。(He has never been to Japan.)",
-            "彼[かれ]は日本[にほん]に行[い]くことがない。(He never goes to Japan — habit.)",
-            "彼[かれ]は日本[にほん]に行[い]かないことはない。(It's not that he never goes to Japan.)"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜たことはない = have never done X (experience). 行[い]ったことはない = have never been. This is a different pattern from 〜ことはない (no need). Context and the た-form distinguish the two uses."
-        },
-        {
-          "id": "koto-wa-nai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'There's no need to rush to a conclusion'?",
-          "japanese": null,
-          "choices": [
-            "結論[けつろん]を急[いそ]ぐことはない。",
-            "結論[けつろん]を急[いそ]ぐことがない。",
-            "結論[けつろん]を急[いそ]ぐことではない。",
-            "結論[けつろん]を急[いそ]ぐことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 急[いそ]ぐ + ことはない = no need to rush. 結論[けつろん] (conclusion) = there's no need to rush to a conclusion. Deliberation is allowed."
-        },
-        {
-          "id": "koto-wa-nai_q11",
-          "type": "translation",
-          "prompt": "Which means 'You don't have to be so formal'?",
-          "japanese": null,
-          "choices": [
-            "そんなに堅苦[かたくる]しくすることはない。",
-            "そんなに堅苦[かたくる]しくすることがない。",
-            "そんなに堅苦[かたくる]しくすることではない。",
-            "そんなに堅苦[かたくる]しくすることもない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 堅苦[かたくる]しくする (be formal/stiff) + ことはない = no need to be so formal. Reassurance to relax and be informal."
-        },
-        {
-          "id": "koto-wa-nai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'There's no need to push yourself so hard'?",
-          "japanese": null,
-          "choices": [
-            "そんなに無理[むり]することはない。",
-            "そんなに無理[むり]することがない。",
-            "そんなに無理[むり]することではない。",
-            "そんなに無理[むり]することだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 無理[むり]する (push oneself) + ことはない = no need to push yourself. 無理[むり] (unreasonable effort) = reassurance not to overdo it."
-        },
-        {
-          "id": "koto-wa-nai_q13",
-          "type": "usage",
-          "prompt": "In which context is ことはない most naturally used?",
-          "japanese": null,
-          "choices": [
-            "Giving orders or commands",
-            "Reassuring or calming someone ('don't worry, you don't need to...')",
-            "Describing one's own habits — and this holds in every register, formal or casual.",
-            "Expressing past regrets"
-          ],
-          "correctIndex": 1,
-          "explanation": "ことはない is primarily used to REASSURE. 大丈夫[だいじょうぶ]、心配[しんぱい]することはない = it's okay, there's no need to worry. 急[いそ]ぐことはない = no need to rush. The tone is 'take it easy, the action isn't necessary.'"
-        },
-        {
-          "id": "koto-wa-nai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't need to return this immediately'?",
-          "japanese": null,
-          "choices": [
-            "これをすぐに返[かえ]すことはない。",
-            "これをすぐに返[かえ]すことがない。",
-            "これをすぐに返[かえ]すことではない。",
-            "これをすぐに返[かえ]すことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 返[かえ]す (return) + ことはない = no need to return. すぐに (immediately) = there's no urgency — take your time."
-        },
-        {
-          "id": "koto-wa-nai_q15",
-          "type": "translation",
-          "prompt": "Which means 'You don't have to explain everything'?",
-          "japanese": null,
-          "choices": [
-            "すべてを説明[せつめい]することはない。",
-            "すべてを説明[せつめい]することがない。",
-            "すべてを説明[せつめい]することではない。",
-            "すべてを説明[せつめい]しないことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 説明[せつめい]する → 説明[せつめい]すること + はない = no need to explain everything. Reassurance that partial explanation suffices."
-        },
-        {
-          "id": "koto-wa-nai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'There's no need to give a gift'?",
-          "japanese": null,
-          "choices": [
-            "プレゼントをあげることはない。",
-            "プレゼントをあげることがない。",
-            "プレゼントをあげることではない。",
-            "プレゼントをあげることもない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: あげる + ことはない = no need to give. Reassurance: the occasion doesn't require a gift."
-        },
-        {
-          "id": "koto-wa-nai_q17",
-          "type": "usage",
-          "prompt": "Which sentence INCORRECTLY uses ことはない?",
-          "japanese": null,
-          "choices": [
-            "そんなに心配[しんぱい]することはない。",
-            "急[いそ]ぐことはない、時間[じかん]はある。",
-            "彼[かれ]は日本語[にほんご]を話[はな]すことはない。",
-            "昨日[きのう]食[た]べたことはない。"
-          ],
-          "correctIndex": 3,
-          "explanation": "昨日[きのう]食[た]べたことはない is awkward — the 'have never done X' pattern uses present tense events (日本[にほん]に行[い]ったことはない = have never been to Japan). 昨日[きのう]食[た]べた (ate yesterday — past specific) + ことはない is unnatural. You'd say 昨日[きのう]は何[なに]も食[た]べていない (didn't eat anything yesterday) instead."
-        },
-        {
-          "id": "koto-wa-nai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't have to go to the trouble of cooking'?",
-          "japanese": null,
-          "choices": [
-            "わざわざ料理[りょうり]することはない。",
-            "わざわざ料理[りょうり]することがない。",
-            "わざわざ料理[りょうり]することではない。",
-            "わざわざ料理[りょうり]することだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 料理[りょうり]する + ことはない = no need to cook. わざわざ (going to the trouble) = you don't need to go to all that trouble."
-        },
-        {
-          "id": "koto-wa-nai_q19",
-          "type": "translation",
-          "prompt": "Which means 'There's no need to give up just because you failed once'?",
-          "japanese": null,
-          "choices": [
-            "一度[いちど]失敗[しっぱい]したからといって、あきらめることはない。",
-            "一度[いちど]失敗[しっぱい]したからといって、あきらめることがない。",
-            "一度[いちど]失敗[しっぱい]したからといって、あきらめることではない。",
-            "一度[いちど]失敗[しっぱい]したから、あきらめることはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: あきらめる + ことはない = no need to give up. からといって (just because) = 'just because you failed once, there's no need to give up.' Motivational reassurance."
-        },
-        {
-          "id": "koto-wa-nai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'You don't need to attend that meeting'?",
-          "japanese": null,
-          "choices": [
-            "その会議[かいぎ]に出[で]ることはない。",
-            "その会議[かいぎ]に出[で]ることがない。",
-            "その会議[かいぎ]に出[で]ることではない。",
-            "その会議[かいぎ]に出[で]ることだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Dict-form + ことはない: 出[で]る + ことはない = no need to attend. Reassurance that the meeting's attendance is not required for this person."
-        }
-      ]
+     "japanese": "大切[たいせつ]な約束[やくそく]があるから、休[やす]むわけにはいかない。",
+     "romaji": "Taisetsu na yakusoku ga aru kara, yasumu wake ni wa ikanai.",
+     "english": "I have an important commitment, so there's no way I can take a day off."
     },
     {
-      "id": "kane-nai",
-      "name": "〜かねない (kane nai) — might possibly (negative outcome)",
-      "shortDescription": "A worried 'might' — signals that a negative or unwanted outcome is a real, concerning possibility.",
-      "formation": "Verb stem (ます-stem) + かねない",
-      "explanation": "かねない is the grammar of concern. Unlike the neutral かもしれない (might be), かねない is almost exclusively used for outcomes the speaker is worried about. このまま続[つづ]ければ、健康[けんこう]を害[がい]しかねない: there's a real risk, and the speaker is flagging it — please stop before it happens. Think of かねない as the warning light on a dashboard: the problem hasn't happened yet, but the conditions are ripe for it.\n\nThe pattern descends from かねる, a verb meaning 'difficult to do / cannot bring oneself to do': 言[い]いかねます (I find it difficult to say). かねない is its negative counterpart — not 'difficult to do,' but 'quite possibly going to do (something undesirable).' It's most at home in warnings, cautions, and risk assessments. For describing an established habitual tendency toward something negative — rather than a specific looming risk — see 〜がちだ, which will be covered in Chapter 36.",
-      "rules": [
-        "Verb stem + かねない = might / could very possibly (negative outcome the speaker worries about)",
-        "Used exclusively for negative or problematic outcomes",
-        "Contrast: かもしれない (neutral possible); かねない (specifically worrying negative possibility)",
-        "Often used as a warning: 〜かねないから、気[き]をつけてください",
-        "Relates to かねる (cannot bring oneself to / difficult to): 言[い]いかねる = difficult to say"
-      ],
-      "examples": [
-        {
-          "japanese": "このまま放置[ほうち]すれば、大[おお]きな問題[もんだい]になりかねません。",
-          "romaji": "Kono mama houchi sureba, ookina mondai ni nari kanemase n.",
-          "english": "If left as is, this could very well become a major problem."
-        },
-        {
-          "japanese": "そんな無茶[むちゃ]な食事[しょくじ]制限[せいげん]は、体[からだ]を壊[こわ]しかねません。",
-          "romaji": "Sonna mucha na shokuji seigen wa, karada wo kowashi kanemase n.",
-          "english": "Such an extreme dietary restriction could seriously damage your health."
-        },
-        {
-          "japanese": "不注意[ふちゅうい]な発言[はつげん]は、誤解[ごかい]を招[まね]きかねません。",
-          "romaji": "Fuchuui na hatsugen wa, gokai wo maneki kanemase n.",
-          "english": "Careless remarks can very possibly invite misunderstanding."
-        },
-        {
-          "japanese": "このペースで仕事[しごと]を続[つづ]けると、過労[かろう]で倒[たお]れかねないですよ。",
-          "romaji": "Kono peesu de shigoto wo tsuzukeru to, karou de taore kanenai desu yo.",
-          "english": "At this work pace, you could very likely collapse from overwork."
-        }
-      ],
-      "flashcardHeader": "〜かねない",
-      "flashcardAnswer": "A worried 'might' — signals that a negative or unwanted outcome is a real, concerning possibility.",
-      "practice": [
-        {
-          "id": "kane-nai_q1",
-          "type": "usage",
-          "prompt": "What does 〜かねない mean?",
-          "japanese": null,
-          "choices": [
-            "cannot do X (too difficult)",
-            "might possibly do X / there's a risk that X could happen (negative potential — a bad outcome is possible)",
-            "will definitely do X",
-            "has been doing X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜かねない = might / could possibly (do something negative). It expresses that a bad or undesirable outcome is possible/likely if care is not taken. 失敗[しっぱい]しかねない = might fail. Used as a WARNING about potential negative outcomes."
-        },
-        {
-          "id": "kane-nai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'He might lose his job'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は仕事[しごと]を失[うしな]いかねない。",
-            "彼[かれ]は仕事[しごと]を失[うしな]うかねない。",
-            "彼[かれ]は仕事[しごと]を失[うしな]いかねる。",
-            "彼[かれ]は仕事[しごと]を失[うしな]ってかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 失[うしな]う → 失[うしな]い (masu-stem) + かねない = 失[うしな]いかねない = might lose. かねない attaches to the MASU-STEM (not dict-form or て-form)."
-        },
-        {
-          "id": "kane-nai_q3",
-          "type": "construct",
-          "prompt": "What attaches before かねない?",
-          "japanese": null,
-          "choices": [
-            "Dict-form (plain form)",
-            "Masu-stem",
-            "Te-form",
-            "Ta-form (past)"
-          ],
-          "correctIndex": 1,
-          "explanation": "Masu-stem + かねない. This is the key formation rule. 失[うしな]う → 失[うしな]い; 失[うしな]い + かねない = 失[うしな]いかねない. Always use the masu-stem (not dict-form, te-form, or ta-form)."
-        },
-        {
-          "id": "kane-nai_q4",
-          "type": "translation",
-          "prompt": "Which means 'This could cause an accident'?",
-          "japanese": null,
-          "choices": [
-            "これは事故[じこ]を起[お]こしかねない。",
-            "これは事故[じこ]を起[お]こすかねない。",
-            "これは事故[じこ]を起[お]こしかねる。",
-            "これは事故[じこ]を起[お]こすかねる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 起[お]こす → 起[お]こし + かねない = 起[お]こしかねない = might cause. これは事故[じこ]を起[お]こしかねない = this might cause an accident (warning about a potential bad outcome)."
-        },
-        {
-          "id": "kane-nai_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'If we're not careful, prices might go up'?",
-          "japanese": null,
-          "choices": [
-            "気[き]をつけないと、値段[ねだん]が上[あ]がりかねない。",
-            "気[き]をつけないと、値段[ねだん]が上[あ]がるかねない。",
-            "気[き]をつけないと、値段[ねだん]が上[あ]がりかねる。",
-            "気[き]をつけないと、値段[ねだん]が上[あ]がってかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 上[あ]がる → 上[あ]がり + かねない = 上[あ]がりかねない = might go up. The 気[き]をつけないと condition sets up the risky scenario."
-        },
-        {
-          "id": "kane-nai_q6",
-          "type": "usage",
-          "prompt": "What TYPE of event does かねない typically describe?",
-          "japanese": null,
-          "choices": [
-            "A certain/expected positive outcome, with no exceptions in modern standard Japanese.",
-            "A potential NEGATIVE or UNDESIRABLE outcome (risk, danger, warning)",
-            "A neutral habitual event",
-            "A completed past action"
-          ],
-          "correctIndex": 1,
-          "explanation": "かねない almost always describes potential NEGATIVE outcomes — risks, dangers, bad results. 失敗[しっぱい]しかねない (might fail), 事故[じこ]を起[お]こしかねない (might cause an accident), 命[いのち]にかかわりかねない (might be life-threatening). It's a CAUTION about bad possibilities."
-        },
-        {
-          "id": "kane-nai_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'If you keep this up, you might get fired'?",
-          "japanese": null,
-          "choices": [
-            "そんなことを続[つづ]けると、首[くび]になりかねない。",
-            "そんなことを続[つづ]けると、首[くび]になるかねない。",
-            "そんなことを続[つづ]けると、首[くび]になりかねる。",
-            "そんなことを続[つづ]けると、首[くび]になってかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: なる → なり + かねない = なりかねない = might become. 首[くび]になる = get fired. Warning: continuing this behavior could lead to termination."
-        },
-        {
-          "id": "kane-nai_q8",
-          "type": "translation",
-          "prompt": "Which means 'This medicine could be dangerous'?",
-          "japanese": null,
-          "choices": [
-            "この薬[くすり]は危険[きけん]を招[まね]きかねない。",
-            "この薬[くすり]は危険[きけん]を招[まね]くかねない。",
-            "この薬[くすり]は危険[きけん]を招[まね]きかねる。",
-            "この薬[くすり]は危険[きけん]を招[まね]いてかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 招[まね]く (invite/bring about) → 招[まね]き + かねない = 招[まね]きかねない = might bring about. この薬[くすり]は危険[きけん]を招[まね]きかねない = this medicine might bring about danger."
-        },
-        {
-          "id": "kane-nai_q9",
-          "type": "construct",
-          "prompt": "What is the masu-stem of 壊[こわ]れる for use with かねない?",
-          "japanese": null,
-          "choices": [
-            "壊[こわ]れず",
-            "壊[こわ]れ",
-            "壊[こわ]れる",
-            "壊[こわ]れて"
-          ],
-          "correctIndex": 1,
-          "explanation": "壊[こわ]れる (Group 2) → masu-form 壊[こわ]れます → masu-stem 壊[こわ]れ. 壊[こわ]れ + かねない = 壊[こわ]れかねない = might break. Group 2 verbs: drop る and use the stem directly."
-        },
-        {
-          "id": "kane-nai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'That structure might collapse'?",
-          "japanese": null,
-          "choices": [
-            "あの建物[たてもの]は崩[くず]れかねない。",
-            "あの建物[たてもの]は崩[くず]れるかねない。",
-            "あの建物[たてもの]は崩[くず]れかねる。",
-            "あの建物[たてもの]は崩[くず]れてかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 崩[くず]れる → 崩[くず]れ + かねない = 崩[くず]れかねない = might collapse. Warning about a dangerous structural risk."
-        },
-        {
-          "id": "kane-nai_q11",
-          "type": "usage",
-          "prompt": "かねない vs. かねる: what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "かねない = might do (negative potential outcome); かねる = cannot bring oneself to do (reluctance/hesitation)",
-            "かねない is more formal",
-            "かねる is for past events — textbooks treat this as an absolute rule, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "かねる = cannot bring oneself to do (reluctance/difficulty: 承認[しょうにん]しかねる = I cannot approve). かねない = might do something bad (risk: 失敗[しっぱい]しかねない = might fail). They use the same stem but have opposite senses — かねる = reluctant inability; かねない = negative potential."
-        },
-        {
-          "id": "kane-nai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'If not handled carefully, this might get worse'?",
-          "japanese": null,
-          "choices": [
-            "ちゃんと対処[たいしょ]しないと、悪化[あっか]しかねない。",
-            "ちゃんと対処[たいしょ]しないと、悪化[あっか]するかねない。",
-            "ちゃんと対処[たいしょ]しないと、悪化[あっか]しかねる。",
-            "ちゃんと対処[たいしょ]しないと、悪化[あっか]してかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 悪化[あっか]する → 悪化[あっか]し + かねない = 悪化[あっか]しかねない = might worsen. Warning: without proper handling, the situation could deteriorate."
-        },
-        {
-          "id": "kane-nai_q13",
-          "type": "translation",
-          "prompt": "Which means 'Those rumors could damage the company'?",
-          "japanese": null,
-          "choices": [
-            "そのうわさは会社[かいしゃ]にダメージを与[あた]えかねない。",
-            "そのうわさは会社[かいしゃ]にダメージを与[あた]えるかねない。",
-            "そのうわさは会社[かいしゃ]にダメージを与[あた]えかねる。",
-            "そのうわさは会社[かいしゃ]にダメージを与[あた]えてかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 与[あた]える → 与[あた]え + かねない = 与[あた]えかねない = might give/cause. そのうわさ (those rumors) + ダメージを与[あた]えかねない = might cause damage. Warning about reputational risk."
-        },
-        {
-          "id": "kane-nai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'The patient might not recover'?",
-          "japanese": null,
-          "choices": [
-            "患者[かんじゃ]は回復[かいふく]しかねない。",
-            "患者[かんじゃ]は回復[かいふく]するかねない。",
-            "患者[かんじゃ]は回復[かいふく]しかねる。",
-            "患者[かんじゃ]は回復[かいふく]してかねない。"
-          ],
-          "correctIndex": 2,
-          "explanation": "CAREFUL: 回復[かいふく]しかねる = cannot recover / recovery is difficult (かねる = inability/reluctance). 回復[かいふく]しかねない = might not recover would actually be 回復[かいふく]できないかもしれない. So this question tests かねる (inability) vs. かねない (potential). 患者[かんじゃ]は回復[かいふく]しかねる = the patient cannot seem to recover."
-        },
-        {
-          "id": "kane-nai_q15",
-          "type": "usage",
-          "prompt": "In which context is かねない most naturally used?",
-          "japanese": null,
-          "choices": [
-            "Expressing certainty about a positive outcome, regardless of context or politeness level.",
-            "Warning that a negative consequence is possible if something is not done",
-            "Describing a completed past action",
-            "Expressing a speaker's wish"
-          ],
-          "correctIndex": 1,
-          "explanation": "かねない is used for WARNINGS: 'if you're not careful, this bad thing might happen.' 速度[そくど]を出[だ]しすぎると事故[じこ]を起[お]こしかねない = if you speed too much, you might cause an accident. Always points toward a negative potential outcome."
-        },
-        {
-          "id": "kane-nai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Your careless words might hurt someone'?",
-          "japanese": null,
-          "choices": [
-            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねない。",
-            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけるかねない。",
-            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねる。",
-            "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけてかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 傷[きず]つける → 傷[きず]つけ + かねない = 傷[きず]つけかねない = might hurt. 不用意[ふようい]な言葉[ことば] (careless words) = warning about the potential to wound others."
-        },
-        {
-          "id": "kane-nai_q17",
-          "type": "translation",
-          "prompt": "Which means 'That strategy might backfire'?",
-          "japanese": null,
-          "choices": [
-            "その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない。",
-            "その戦略[せんりゃく]は裏目[うらめ]に出[で]るかねない。",
-            "その戦略[せんりゃく]は裏目[うらめ]に出[で]かねる。",
-            "その戦略[せんりゃく]は裏目[うらめ]に出[で]てかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 出[で]る → 出[で] + かねない = 出[で]かねない = might come out. 裏目[うらめ]に出[で]る = backfire. その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない = that strategy might backfire."
-        },
-        {
-          "id": "kane-nai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'If you sleep in, you might miss the train'?",
-          "japanese": null,
-          "choices": [
-            "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れかねない。",
-            "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れるかねない。",
-            "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れかねる。",
-            "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れてかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: 乗[の]り遅[おく]れる → 乗[の]り遅[おく]れ + かねない = 乗[の]り遅[おく]れかねない = might miss. 寝坊[ねぼう]すると (if you oversleep) = the risky scenario leading to the bad outcome."
-        },
-        {
-          "id": "kane-nai_q19",
-          "type": "usage",
-          "prompt": "Which has the CLOSEST meaning to かねない?",
-          "japanese": null,
-          "choices": [
-            "〜はずだ (expected to)",
-            "〜かもしれない (might — neutral)",
-            "〜おそれがある (there's a risk/fear that — also used for negative outcomes)",
-            "〜にちがいない (must be — strong conviction)"
-          ],
-          "correctIndex": 2,
-          "explanation": "〜おそれがある is closest in meaning to かねない — both warn about potential negative outcomes. おそれがある is slightly more formal/written (used in official warnings). かねない is more spoken/conversational. Both: 事故[じこ]が起[お]きるおそれがある / 事故[じこ]を起[お]こしかねない = there's a risk of an accident."
-        },
-        {
-          "id": "kane-nai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'If you tell everyone, it might become a big problem'?",
-          "japanese": null,
-          "choices": [
-            "みんなに話[はな]すと、大[おお]きな問題[もんだい]になりかねない。",
-            "みんなに話[はな]すと、大[おお]きな問題[もんだい]になるかねない。",
-            "みんなに話[はな]すと、大[おお]きな問題[もんだい]になりかねる。",
-            "みんなに話[はな]すと、大[おお]きな問題[もんだい]になってかねない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Masu-stem + かねない: なる → なり + かねない = なりかねない = might become. みんなに話[はな]すと (if you tell everyone) = the action that risks causing the bad outcome."
-        }
-      ]
+     "japanese": "お世話[せわ]になった先生[せんせい]の結婚式[けっこんしき]に出[で]ないわけにはいかない。",
+     "romaji": "Osewa ni natta sensei no kekkonshiki ni denai wake ni wa ikanai.",
+     "english": "I can't very well not attend the wedding of a teacher who helped me so much."
+    },
+    {
+     "japanese": "証拠[しょうこ]があるのに、知[し]らないふりをするわけにはいかない。",
+     "romaji": "Shouko ga aru noni, shiranai furi wo suru wake ni wa ikanai.",
+     "english": "With evidence right there, I can't possibly pretend not to know."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜わけにはいかない",
+   "flashcardAnswer": "Social or moral impossibility — 'I simply can't' — not ability, but conscience or duty.",
+   "practice": [
     {
-      "id": "ch33_v01",
-      "partOfSpeech": "noun",
-      "kanji": "医学",
-      "kana": "いがく",
-      "romaji": "igaku",
-      "definition": "medicine (field)"
+     "id": "wake-ni-wa-ikanai_q1",
+     "type": "usage",
+     "prompt": "What does 〜わけにはいかない mean?",
+     "japanese": null,
+     "choices": [
+      "cannot do X (physical impossibility)",
+      "cannot afford to do X / there's no way I can do X (social/moral constraint — circumstances make it impossible to do)",
+      "should not do X",
+      "do not want to do X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜わけにはいかない = can't bring oneself to do X / circumstances won't allow X. It's social/moral — not physical impossibility. 嘘[うそ]をつくわけにはいかない = I can't (morally) tell a lie. There are social reasons one cannot do it."
     },
     {
-      "id": "ch33_v02",
-      "partOfSpeech": "noun",
-      "kanji": "医療",
-      "kana": "いりょう",
-      "romaji": "iryou",
-      "definition": "medical care"
+     "id": "wake-ni-wa-ikanai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't just give up now'?",
+     "japanese": null,
+     "choices": [
+      "今[いま]さらあきらめるわけにはいかない。",
+      "今[いま]さらあきらめるわけではない。",
+      "今[いま]さらあきらめるはずがない。",
+      "今[いま]さらあきらめるわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: あきらめる + わけにはいかない = can't (just) give up. 今[いま]さら (at this late stage) emphasizes that circumstances (effort invested, social expectation) prevent giving up now."
     },
     {
-      "id": "ch33_v03",
-      "partOfSpeech": "noun",
-      "kanji": "治療",
-      "kana": "ちりょう",
-      "romaji": "chiryou",
-      "definition": "treatment"
+     "id": "wake-ni-wa-ikanai_q3",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't skip work for such a reason'?",
+     "japanese": null,
+     "choices": [
+      "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけにはいかない。",
+      "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけではない。",
+      "そんな理由[りゆう]で仕事[しごと]を休[やす]むはずがない。",
+      "そんな理由[りゆう]で仕事[しごと]を休[やす]むわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 休[やす]む + わけにはいかない = can't (afford to) skip. そんな理由[りゆう]で (for such a reason) = the reason would be insufficient to justify skipping — social/workplace constraint."
     },
     {
-      "id": "ch33_v04",
-      "partOfSpeech": "noun",
-      "kanji": "手術",
-      "kana": "しゅじゅつ",
-      "romaji": "shujutsu",
-      "definition": "surgery"
+     "id": "wake-ni-wa-ikanai_q4",
+     "type": "usage",
+     "prompt": "What is the difference between わけにはいかない and ずにはいられない?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "わけにはいかない = can't NOT do (circumstances prevent skipping it); ずにはいられない = irresistible urge (can't stop oneself emotionally)",
+      "わけにはいかない is for physical impossibility — this is true in both spoken and written Japanese.",
+      "ずにはいられない is more formal"
+     ],
+     "correctIndex": 1,
+     "explanation": "わけにはいかない = social/moral constraint preventing the action (or preventing NOT doing it). ずにはいられない = emotional urge you can't control. 断[ことわ]るわけにはいかない = I can't decline (social obligation); 笑[わら]わずにはいられない = can't help laughing (impulse)."
     },
     {
-      "id": "ch33_v05",
-      "partOfSpeech": "noun",
-      "kanji": "診断",
-      "kana": "しんだん",
-      "romaji": "shindan",
-      "definition": "diagnosis"
+     "id": "wake-ni-wa-ikanai_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't lie to my parents'?",
+     "japanese": null,
+     "choices": [
+      "親[おや]に嘘[うそ]をつくわけにはいかない。",
+      "親[おや]に嘘[うそ]をつくわけではない。",
+      "親[おや]に嘘[うそ]をつくはずがない。",
+      "親[おや]に嘘[うそ]をつくことはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 嘘[うそ]をつく + わけにはいかない = can't lie (morally). 親[おや]に (to my parents) = the relationship creates the moral constraint — I simply cannot lie to them."
     },
     {
-      "id": "ch33_v06",
-      "partOfSpeech": "noun",
-      "kanji": "症状",
-      "kana": "しょうじょう",
-      "romaji": "shoujou",
-      "definition": "symptoms"
+     "id": "wake-ni-wa-ikanai_q6",
+     "type": "translation",
+     "prompt": "Which means 'I can't tell that secret to anyone'?",
+     "japanese": null,
+     "choices": [
+      "その秘密[ひみつ]を誰[だれ]にも話[はな]すわけにはいかない。",
+      "その秘密[ひみつ]を誰[だれ]にも話[はな]すわけではない。",
+      "その秘密[ひみつ]を誰[だれ]にも話[はな]すはずがない。",
+      "その秘密[ひみつ]を誰[だれ]にも話[はな]すことはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 話[はな]す + わけにはいかない = can't tell. 秘密[ひみつ] (secret) creates the social/moral constraint — revealing it would cause harm or break trust."
     },
     {
-      "id": "ch33_v07",
-      "partOfSpeech": "noun",
-      "kanji": "患者",
-      "kana": "かんじゃ",
-      "romaji": "kanja",
-      "definition": "patient"
+     "id": "wake-ni-wa-ikanai_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't forget the kindness you showed me'?",
+     "japanese": null,
+     "choices": [
+      "いただいた親切[しんせつ]を忘[わす]れるわけにはいかない。",
+      "いただいた親切[しんせつ]を忘[わす]れるわけではない。",
+      "いただいた親切[しんせつ]を忘[わす]れるはずがない。",
+      "いただいた親切[しんせつ]を忘[わす]れるわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 忘[わす]れる + わけにはいかない = can't (morally) forget. The kindness received creates a social/moral obligation not to forget — gratitude prevents it."
     },
     {
-      "id": "ch33_v08",
-      "partOfSpeech": "noun",
-      "kanji": "予防",
-      "kana": "よぼう",
-      "romaji": "yobou",
-      "definition": "prevention"
+     "id": "wake-ni-wa-ikanai_q8",
+     "type": "usage",
+     "prompt": "わけにはいかない can also be used with NEGATIVE forms (〜ないわけにはいかない). What does this mean?",
+     "japanese": null,
+     "choices": [
+      "Cannot not do X (= must do X — circumstances force you to do it)",
+      "Cannot do X",
+      "Should not do X",
+      "Do not want to do X"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ないわけにはいかない = cannot NOT do X = must do X. 行[い]かないわけにはいかない = I can't not go = I have to go. Double negative: 'not going' is impossible, so I must go. Circumstances force the action."
     },
     {
-      "id": "ch33_v09",
-      "partOfSpeech": "noun",
-      "kanji": "検査",
-      "kana": "けんさ",
-      "romaji": "kensa",
-      "definition": "examination; test"
+     "id": "wake-ni-wa-ikanai_q9",
+     "type": "construct",
+     "prompt": "Which correctly says 'I have to go to the ceremony (can't not go)'?",
+     "japanese": null,
+     "choices": [
+      "式[しき]に行[い]かないわけにはいかない。",
+      "式[しき]に行[い]くわけにはいかない。",
+      "式[しき]に行[い]くわけではない。",
+      "式[しき]に行[い]かないはずがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ないわけにはいかない: 行[い]かない + わけにはいかない = can't not go = must go. 式[しき] (ceremony) + the social obligation makes 'not going' impossible. Must attend."
     },
     {
-      "id": "ch33_v10",
-      "partOfSpeech": "noun",
-      "kanji": "血液",
-      "kana": "けつえき",
-      "romaji": "ketsueki",
-      "definition": "blood"
+     "id": "wake-ni-wa-ikanai_q10",
+     "type": "translation",
+     "prompt": "Which means 'As the boss, I can't show weakness'?",
+     "japanese": null,
+     "choices": [
+      "上司[じょうし]として、弱[よわ]みを見[み]せるわけにはいかない。",
+      "上司[じょうし]として、弱[よわ]みを見[み]せるわけではない。",
+      "上司[じょうし]として、弱[よわ]みを見[み]せるはずがない。",
+      "上司[じょうし]として、弱[よわ]みを見[み]せないわけにはいかない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 見[み]せる + わけにはいかない = can't show. 上司[じょうし]として (as the boss) = the role creates the constraint — showing weakness would undermine authority."
     },
     {
-      "id": "ch33_v11",
-      "partOfSpeech": "noun",
-      "kanji": "内科",
-      "kana": "ないか",
-      "romaji": "naika",
-      "definition": "internal medicine"
+     "id": "wake-ni-wa-ikanai_q11",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't decline this invitation'?",
+     "japanese": null,
+     "choices": [
+      "この誘[さそ]いを断[ことわ]るわけにはいかない。",
+      "この誘[さそ]いを断[ことわ]るわけではない。",
+      "この誘[さそ]いを断[ことわ]るはずがない。",
+      "この誘[さそ]いを断[ことわ]るわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 断[ことわ]る + わけにはいかない = can't decline. The invitation's source (important person, special occasion) creates the social constraint making refusal impossible."
     },
     {
-      "id": "ch33_v12",
-      "partOfSpeech": "noun",
-      "kanji": "外科",
-      "kana": "げか",
-      "romaji": "geka",
-      "definition": "surgery (department)"
+     "id": "wake-ni-wa-ikanai_q12",
+     "type": "usage",
+     "prompt": "What does the expression わけにはいかない literally break down to?",
+     "japanese": null,
+     "choices": [
+      "'reason goes not' — it cannot be that there's a reason for this to happen",
+      "'way to doesn't go' — there's no way to proceed (in this manner)",
+      "'cannot be that way' — it simply cannot be this way (won't work)",
+      "All of the above — it expresses impossibility of a situation"
+     ],
+     "correctIndex": 1,
+     "explanation": "わけ (way/reason/situation) + には (as for) + いかない (won't go/work) = 'it won't work out this way' / 'there's no way this can happen.' The expression means circumstances prevent it from being acceptable."
     },
     {
-      "id": "ch33_v13",
-      "partOfSpeech": "noun",
-      "kanji": "歯科",
-      "kana": "しか",
-      "romaji": "shika",
-      "definition": "dentistry"
+     "id": "wake-ni-wa-ikanai_q13",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't leave the children alone'?",
+     "japanese": null,
+     "choices": [
+      "子供[こども]たちを一人[ひとり]にするわけにはいかない。",
+      "子供[こども]たちを一人[ひとり]にするわけではない。",
+      "子供[こども]たちを一人[ひとり]にするはずがない。",
+      "子供[こども]たちを一人[ひとり]にするわけがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 一人[ひとり]にする + わけにはいかない = can't leave  alone. Parental responsibility creates the moral constraint — leaving children alone is not acceptable."
     },
     {
-      "id": "ch33_v14",
-      "partOfSpeech": "noun",
-      "kanji": "体力",
-      "kana": "たいりょく",
-      "romaji": "tairyoku",
-      "definition": "physical strength"
+     "id": "wake-ni-wa-ikanai_q14",
+     "type": "translation",
+     "prompt": "Which means 'I can't keep this problem to myself any longer'?",
+     "japanese": null,
+     "choices": [
+      "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるわけにはいかない。",
+      "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるわけではない。",
+      "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えるはずがない。",
+      "もうこの問題[もんだい]を一人[ひとり]で抱[かか]えることはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 抱[かか]える (bear/hold) + わけにはいかない = can't keep holding . もう (anymore) + the situation's severity makes solo handling impossible."
     },
     {
-      "id": "ch33_v15",
-      "partOfSpeech": "noun",
-      "kanji": "筋肉",
-      "kana": "きんにく",
-      "romaji": "kinniku",
-      "definition": "muscle"
+     "id": "wake-ni-wa-ikanai_q15",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't miss this exam'?",
+     "japanese": null,
+     "choices": [
+      "この試験[しけん]を休[やす]むわけにはいかない。",
+      "この試験[しけん]を休[やす]むわけではない。",
+      "この試験[しけん]を休[やす]むはずがない。",
+      "この試験[しけん]を休[やす]むことはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 休[やす]む (miss/skip) + わけにはいかない = can't skip. The importance of the exam creates the constraint — missing it has too many consequences."
     },
     {
-      "id": "ch33_v16",
-      "partOfSpeech": "noun",
-      "kanji": "神経",
-      "kana": "しんけい",
-      "romaji": "shinkei",
-      "definition": "nerve"
+     "id": "wake-ni-wa-ikanai_q16",
+     "type": "usage",
+     "prompt": "Which BEST shows the social/moral constraint nuance of わけにはいかない?",
+     "japanese": null,
+     "choices": [
+      "石[いし]が空[そら]から落[お]ちるわけにはいかない。(Stones can't fall from the sky.)",
+      "友達[ともだち]を裏切[うらぎ]るわけにはいかない。(I can't betray my friend — loyalty prevents it.)",
+      "水[みず]が上[うえ]に流[なが]れるわけにはいかない。(Water can't flow upward.)",
+      "彼[かれ]は来[く]るわけにはいかない。(He can't come — schedule conflict.)"
+     ],
+     "correctIndex": 1,
+     "explanation": "友達[ともだち]を裏切[うらぎ]るわけにはいかない = I can't betray my friend — this is a MORAL/SOCIAL constraint (loyalty, ethics). Options 1 and 3 are physical impossibilities (not わけにはいかない's intended use). Option 4 is closer but less clear on the moral dimension."
     },
     {
-      "id": "ch33_v17",
-      "partOfSpeech": "noun",
-      "kanji": "呼吸",
-      "kana": "こきゅう",
-      "romaji": "kokyuu",
-      "definition": "breathing; respiration"
+     "id": "wake-ni-wa-ikanai_q17",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't eat in front of someone who is starving'?",
+     "japanese": null,
+     "choices": [
+      "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけにはいかない。",
+      "飢[う]えている人[ひと]の前[まえ]で食[た]べるわけではない。",
+      "飢[う]えている人[ひと]の前[まえ]で食[た]べるはずがない。",
+      "飢[う]えている人[ひと]の前[まえ]で食[た]べることはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 食[た]べる + わけにはいかない = can't eat . The social/moral situation (someone is starving) makes eating in front of them unacceptable — circumstances prevent it."
     },
     {
-      "id": "ch33_v18",
-      "partOfSpeech": "noun",
-      "kanji": "血圧",
-      "kana": "けつあつ",
-      "romaji": "ketsuatsu",
-      "definition": "blood pressure"
+     "id": "wake-ni-wa-ikanai_q18",
+     "type": "translation",
+     "prompt": "Which means 'As a doctor, I can't ignore an injured person'?",
+     "japanese": null,
+     "choices": [
+      "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するわけにはいかない。",
+      "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するわけではない。",
+      "医者[いしゃ]として、怪我人[けがにん]を無視[むし]するはずがない。",
+      "医者[いしゃ]として、怪我人[けがにん]を無視[むし]することはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: 無視[むし]する + わけにはいかない = can't ignore. 医者[いしゃ]として (as a doctor) = professional/ethical obligation creates the constraint — ignoring an injured person violates the doctor's duty."
     },
     {
-      "id": "ch33_v19",
-      "partOfSpeech": "noun",
-      "kanji": "心臓",
-      "kana": "しんぞう",
-      "romaji": "shinzou",
-      "definition": "heart"
+     "id": "wake-ni-wa-ikanai_q19",
+     "type": "construct",
+     "prompt": "Which correctly says 'I have to study for the important exam (can't not study)'?",
+     "japanese": null,
+     "choices": [
+      "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないわけにはいかない。",
+      "大事[だいじ]な試験[しけん]のために勉強[べんきょう]するわけにはいかない。",
+      "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないわけではない。",
+      "大事[だいじ]な試験[しけん]のために勉強[べんきょう]しないはずがない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "〜ないわけにはいかない: 勉強[べんきょう]しない + わけにはいかない = can't not study = must study. The importance of the exam makes not-studying impossible."
     },
     {
-      "id": "ch33_v20",
-      "partOfSpeech": "noun",
-      "kanji": "胃",
-      "kana": "い",
-      "romaji": "i",
-      "definition": "stomach"
-    },
-    {
-      "id": "ch33_v21",
-      "partOfSpeech": "noun",
-      "kanji": "肺",
-      "kana": "はい",
-      "romaji": "hai",
-      "definition": "lungs"
-    },
-    {
-      "id": "ch33_v22",
-      "partOfSpeech": "noun",
-      "kanji": "内臓",
-      "kana": "ないぞう",
-      "romaji": "naizou",
-      "definition": "internal organs"
-    },
-    {
-      "id": "ch33_v23",
-      "partOfSpeech": "noun",
-      "kanji": "免疫",
-      "kana": "めんえき",
-      "romaji": "men'eki",
-      "definition": "immunity"
-    },
-    {
-      "id": "ch33_v24",
-      "partOfSpeech": "noun",
-      "kanji": "栄養",
-      "kana": "えいよう",
-      "romaji": "eiyou",
-      "definition": "nutrition"
-    },
-    {
-      "id": "ch33_v25",
-      "partOfSpeech": "noun",
-      "kanji": "診療所",
-      "kana": "しんりょうじょ",
-      "romaji": "shinryoujo",
-      "definition": "clinic"
-    },
-    {
-      "id": "ch33_v26",
-      "partOfSpeech": "noun",
-      "kanji": "救急",
-      "kana": "きゅうきゅう",
-      "romaji": "kyuukyuu",
-      "definition": "emergency (medical)"
-    },
-    {
-      "id": "ch33_v27",
-      "partOfSpeech": "noun",
-      "kanji": "感染",
-      "kana": "かんせん",
-      "romaji": "kansen",
-      "definition": "infection"
-    },
-    {
-      "id": "ch33_v28",
-      "partOfSpeech": "noun",
-      "kanji": "ウイルス",
-      "kana": "ウイルス",
-      "romaji": "uirusu",
-      "definition": "virus"
-    },
-    {
-      "id": "ch33_v29",
-      "partOfSpeech": "noun",
-      "kanji": "回復",
-      "kana": "かいふく",
-      "romaji": "kaifuku",
-      "definition": "recovery"
-    },
-    {
-      "id": "ch33_v30",
-      "partOfSpeech": "noun",
-      "kanji": "障害",
-      "kana": "しょうがい",
-      "romaji": "shougai",
-      "definition": "disability; obstacle"
-    },
-    {
-      "id": "ch33_v31",
-      "partOfSpeech": "i-adjective",
-      "kanji": "苦しい",
-      "kana": "くるしい",
-      "romaji": "kurushii",
-      "definition": "painful; distressing"
-    },
-    {
-      "id": "ch33_v32",
-      "partOfSpeech": "noun",
-      "kanji": "検診",
-      "kana": "けんしん",
-      "romaji": "kenshin",
-      "definition": "(medical) checkup"
-    },
-    {
-      "id": "ch33_v33",
-      "partOfSpeech": "noun",
-      "kanji": "処方",
-      "kana": "しょほう",
-      "romaji": "shohou",
-      "definition": "prescription"
-    },
-    {
-      "id": "ch33_v34",
-      "partOfSpeech": "noun",
-      "kanji": "副作用",
-      "kana": "ふくさよう",
-      "romaji": "fukusayou",
-      "definition": "side effect"
-    },
-    {
-      "id": "ch33_v35",
-      "partOfSpeech": "noun",
-      "kanji": "体調",
-      "kana": "たいちょう",
-      "romaji": "taichou",
-      "definition": "physical condition"
-    },
-    {
-      "id": "ch33_v36",
-      "partOfSpeech": "noun",
-      "kanji": "発熱",
-      "kana": "はつねつ",
-      "romaji": "hatsunetsu",
-      "definition": "(onset of) fever"
-    },
-    {
-      "id": "ch33_v37",
-      "partOfSpeech": "verb",
-      "kanji": "診る",
-      "kana": "みる",
-      "romaji": "miru",
-      "definition": "to (medically) examine"
-    },
-    {
-      "id": "ch33_v38",
-      "partOfSpeech": "verb",
-      "kanji": "効く",
-      "kana": "きく",
-      "romaji": "kiku",
-      "definition": "to be effective; to work"
-    },
-    {
-      "id": "ch33_v39",
-      "partOfSpeech": "verb",
-      "kanji": "防ぐ",
-      "kana": "ふせぐ",
-      "romaji": "fusegu",
-      "definition": "to prevent; to defend"
-    },
-    {
-      "id": "ch33_v40",
-      "partOfSpeech": "noun",
-      "kanji": "悪化",
-      "kana": "あっか",
-      "romaji": "akka",
-      "definition": "worsening; deterioration"
+     "id": "wake-ni-wa-ikanai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'I can't take money from an elderly person'?",
+     "japanese": null,
+     "choices": [
+      "お年寄[としよ]りからお金[かね]をもらうわけにはいかない。",
+      "お年寄[としよ]りからお金[かね]をもらうわけではない。",
+      "お年寄[としよ]りからお金[かね]をもらうはずがない。",
+      "お年寄[としよ]りからお金[かね]をもらうことはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + わけにはいかない: もらう (receive) + わけにはいかない = can't receive/take. Taking money from an elderly person would be morally wrong — social/ethical constraint."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "koto-wa-nai",
+   "name": "〜ことはない — no need to / it won't happen that",
+   "shortDescription": "There's no need to do X (reassurance), or X will never happen (strong assertion).",
+   "formation": "Verb (dictionary form) + ことはない",
+   "explanation": "ことはない is a genuinely reassuring pattern. Its most common use is 'there's no need to': 心配[しんぱい]することはないですよ — relax, worry is unnecessary here. 急[いそ]ぐことはありません — there's time, you don't need to rush. It's the grammar of the calm mentor: a quiet word that says 'that concern doesn't apply to this situation.'\n\nThe second use is a strong assertion that something will never occur: あの人[ひと]がそんなことをすることはない — that person would simply never do such a thing. Both uses share the same structure; only context tells you whether you're being reassured or receiving a firm denial.\n\nWhat makes ことはない feel different from just saying 'don't worry' is that it specifically addresses the necessity of an action and says: that action is not required here. It's precise and gentle at the same time — two qualities that work well together in Japanese communication.",
+   "rules": [
+    "Dict form + ことはない = there is no need to do X (reassuring)",
+    "Dict form + ことはない = it will never happen that X (strong assertion it won't occur)",
+    "Context distinguishes the two meanings — reassurance vs strong denial of possibility",
+    "Softer and more reassuring than imperative negatives",
+    "Common reassuring phrases: 心配[しんぱい]することはない, 急[いそ]ぐことはない"
+   ],
+   "examples": [
     {
-      "char": "内",
-      "word": "内科",
-      "reading": "ないか",
-      "meaning": "internal medicine"
+     "japanese": "失敗[しっぱい]を恐[おそ]れることはありません。失敗[しっぱい]から学[まな]べばいいんです。",
+     "romaji": "Shippai wo osoreru koto wa arimasen. Shippai kara manabeba ii n desu.",
+     "english": "There's no need to fear failure. You just need to learn from it."
     },
     {
-      "char": "回",
-      "word": "回復",
-      "reading": "かいふく",
-      "meaning": "recovery"
+     "japanese": "そんなに急[いそ]ぐことはないですよ。まだ時間[じかん]はあります。",
+     "romaji": "Sonna ni isogu koto wa nai desu yo. Mada jikan wa arimasu.",
+     "english": "There's no need to rush so much. There's still time."
     },
     {
-      "char": "調",
-      "word": "体調",
-      "reading": "たいちょう",
-      "meaning": "physical condition"
+     "japanese": "彼女[かのじょ]がうそをつくことはないと思[おも]います。",
+     "romaji": "Kanojo ga uso wo tsuku koto wa nai to omoimasu.",
+     "english": "I don't think she would ever tell a lie."
     },
     {
-      "char": "治",
-      "word": "治療",
-      "reading": "ちりょう",
-      "meaning": "treatment"
-    },
-    {
-      "char": "加",
-      "word": "加",
-      "reading": "か",
-      "meaning": "addition"
-    },
-    {
-      "char": "予",
-      "word": "予防",
-      "reading": "よぼう",
-      "meaning": "prevention"
-    },
-    {
-      "char": "告",
-      "word": "告げる",
-      "reading": "つげる",
-      "meaning": "to tell"
-    },
-    {
-      "char": "所",
-      "word": "所",
-      "reading": "ところ",
-      "meaning": "place"
-    },
-    {
-      "char": "感",
-      "word": "感染",
-      "reading": "かんせん",
-      "meaning": "infection"
-    },
-    {
-      "char": "容",
-      "word": "容",
-      "reading": "いれる",
-      "meaning": "contain"
-    },
-    {
-      "char": "疑",
-      "word": "疑い",
-      "reading": "うたがい",
-      "meaning": "doubt"
-    },
-    {
-      "char": "優",
-      "word": "優しい",
-      "reading": "やさしい",
-      "meaning": "tender"
-    },
-    {
-      "char": "夫",
-      "word": "夫",
-      "reading": "おっと",
-      "meaning": "husband"
-    },
-    {
-      "char": "違",
-      "word": "違い",
-      "reading": "ちがい",
-      "meaning": "difference"
-    },
-    {
-      "char": "神",
-      "word": "神経",
-      "reading": "しんけい",
-      "meaning": "nerve"
-    },
-    {
-      "char": "害",
-      "word": "害",
-      "reading": "がい",
-      "meaning": "injury"
-    },
-    {
-      "char": "葉",
-      "word": "葉",
-      "reading": "は",
-      "meaning": "leaf"
-    },
-    {
-      "char": "守",
-      "word": "守る",
-      "reading": "まもる",
-      "meaning": "to protect"
-    },
-    {
-      "char": "望",
-      "word": "望む",
-      "reading": "のぞむ",
-      "meaning": "to desire"
-    },
-    {
-      "char": "非",
-      "word": "非",
-      "reading": "ひ",
-      "meaning": "fault"
-    },
-    {
-      "char": "呼",
-      "word": "呼ぶ",
-      "reading": "よぶ",
-      "meaning": "to call out (to)"
-    },
-    {
-      "char": "科",
-      "word": "科",
-      "reading": "か",
-      "meaning": "department"
-    },
-    {
-      "char": "処",
-      "word": "処方",
-      "reading": "しょほう",
-      "meaning": "prescription"
-    },
-    {
-      "char": "殺",
-      "word": "殺す",
-      "reading": "ころす",
-      "meaning": "to kill"
-    },
-    {
-      "char": "苦",
-      "word": "苦しい",
-      "reading": "くるしい",
-      "meaning": "painful; distressing"
-    },
-    {
-      "char": "舞",
-      "word": "舞",
-      "reading": "まい",
-      "meaning": "dancing"
-    },
-    {
-      "char": "婦",
-      "word": "婦",
-      "reading": "よめ",
-      "meaning": "lady"
-    },
-    {
-      "char": "熱",
-      "word": "熱",
-      "reading": "ねつ",
-      "meaning": "heat"
-    },
-    {
-      "char": "浮",
-      "word": "浮かぶ",
-      "reading": "うかぶ",
-      "meaning": "to float"
-    },
-    {
-      "char": "庭",
-      "word": "庭",
-      "reading": "にわ",
-      "meaning": "garden"
-    },
-    {
-      "char": "欠",
-      "word": "欠く",
-      "reading": "かく",
-      "meaning": "to chip"
-    },
-    {
-      "char": "息",
-      "word": "息",
-      "reading": "いき",
-      "meaning": "breath"
-    },
-    {
-      "char": "痛",
-      "word": "痛い",
-      "reading": "いたい",
-      "meaning": "painful"
-    },
-    {
-      "char": "夢",
-      "word": "夢",
-      "reading": "ゆめ",
-      "meaning": "dream"
-    },
-    {
-      "char": "草",
-      "word": "草",
-      "reading": "くさ",
-      "meaning": "grass"
-    },
-    {
-      "char": "寝",
-      "word": "寝る",
-      "reading": "ねる",
-      "meaning": "to sleep (lying down)"
-    },
-    {
-      "char": "吸",
-      "word": "吸う",
-      "reading": "すう",
-      "meaning": "to smoke"
-    },
-    {
-      "char": "歯",
-      "word": "歯",
-      "reading": "は",
-      "meaning": "tooth"
-    },
-    {
-      "char": "腹",
-      "word": "腹",
-      "reading": "はら",
-      "meaning": "abdomen"
-    },
-    {
-      "char": "誰",
-      "word": "誰",
-      "reading": "だれ",
-      "meaning": "who"
-    },
-    {
-      "char": "光",
-      "word": "光る",
-      "reading": "ひかる",
-      "meaning": "to shine"
+     "japanese": "この薬[くすり]を飲[の]めば、そんなに心配[しんぱい]することはないですよ。",
+     "romaji": "Kono kusuri wo nomeba, sonna ni shinpai suru koto wa nai desu yo.",
+     "english": "If you take this medicine, there's no need to worry so much."
     }
-  ]
+   ],
+   "flashcardHeader": "〜ことはない",
+   "flashcardAnswer": "There's no need to (reassurance), or it will never happen (strong assertion).",
+   "practice": [
+    {
+     "id": "koto-wa-nai_q1",
+     "type": "usage",
+     "prompt": "What does 〜ことはない mean?",
+     "japanese": null,
+     "choices": [
+      "have never done X",
+      "there's no need to do X / you don't have to do X (reassurance — it's unnecessary)",
+      "you must not do X",
+      "you cannot do X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ことはない = there's no need to do X / you don't have to. 心配[しんぱい]することはない = there's no need to worry. It REASSURES the listener that the action is unnecessary or excessive."
+    },
+    {
+     "id": "koto-wa-nai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'There's no need to hurry'?",
+     "japanese": null,
+     "choices": [
+      "急[いそ]ぐことはない。",
+      "急[いそ]ぐことがない。",
+      "急[いそ]ぐことではない。",
+      "急[いそ]ぐこともない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 急[いそ]ぐ + ことはない = no need to hurry. The は particle in ことはない is the topic marker emphasizing the negative: 'as for needing to hurry — there isn't any (need).'"
+    },
+    {
+     "id": "koto-wa-nai_q3",
+     "type": "translation",
+     "prompt": "Which means 'There's no need for you to apologize'?",
+     "japanese": null,
+     "choices": [
+      "謝[あやま]ることはない。",
+      "謝[あやま]ることがない。",
+      "謝[あやま]ることではない。",
+      "謝[あやま]ることもない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 謝[あやま]る + ことはない = no need to apologize. Reassurance: the situation doesn't require an apology. ことはない ends the sentence with a tone of 'don't worry, it's not necessary.'"
+    },
+    {
+     "id": "koto-wa-nai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't have to go all the way there'?",
+     "japanese": null,
+     "choices": [
+      "わざわざ行[い]くことはない。",
+      "わざわざ行[い]くことがない。",
+      "わざわざ行[い]くことではない。",
+      "わざわざ行[い]くこともない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 行[い]く + ことはない = no need to go. わざわざ (going out of one's way) + 行[い]くことはない = you don't have to go all the way there. Reassurance against excessive effort."
+    },
+    {
+     "id": "koto-wa-nai_q5",
+     "type": "usage",
+     "prompt": "What is the DIFFERENCE between ことはない and なくていい?",
+     "japanese": null,
+     "choices": [
+      "They are completely identical",
+      "ことはない = stronger reassurance ('there's simply no need at all'); なくていい = softer permission ('it's okay not to')",
+      "ことはない is more casual",
+      "なくていい is for past actions only, and the rule applies to every sentence type."
+     ],
+     "correctIndex": 1,
+     "explanation": "ことはない is a stronger, more definitive 'there is no need / no reason.' なくていい = 'you don't have to / it's okay not to' (softer permission). 急[いそ]ぐことはない = there's simply no need to rush (definitive); 急[いそ]がなくていい = you don't have to rush (gentler)."
+    },
+    {
+     "id": "koto-wa-nai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't have to worry about that'?",
+     "japanese": null,
+     "choices": [
+      "そんなことを心配[しんぱい]することはない。",
+      "そんなことを心配[しんぱい]することがない。",
+      "そんなことを心配[しんぱい]することではない。",
+      "そんなことを心配[しんぱい]することもない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 心配[しんぱい]する + ことはない = no need to worry. そんなこと = such a thing. Reassurance that the worry is unnecessary/unfounded."
+    },
+    {
+     "id": "koto-wa-nai_q7",
+     "type": "translation",
+     "prompt": "Which means 'There's no need to cry over such a small thing'?",
+     "japanese": null,
+     "choices": [
+      "そんな小[ちい]さなことで泣[な]くことはない。",
+      "そんな小[ちい]さなことで泣[な]くことがない。",
+      "そんな小[ちい]さなことで泣[な]くことではない。",
+      "そんな小[ちい]さなことで泣[な]くことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 泣[な]く + ことはない = no need to cry. そんな小[ちい]さなことで = over such a small thing. Reassurance: the situation doesn't warrant crying."
+    },
+    {
+     "id": "koto-wa-nai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't have to do it alone'?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり]でやることはない。",
+      "一人[ひとり]でやることがない。",
+      "一人[ひとり]でやることではない。",
+      "一人[ひとり]でやることもない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: やる + ことはない = no need to do. 一人[ひとり]で = alone. Reassurance: you don't have to handle it alone — help is available."
+    },
+    {
+     "id": "koto-wa-nai_q9",
+     "type": "usage",
+     "prompt": "ことはない can also mean 'have never done X' in a DIFFERENT pattern. Which shows this meaning?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は日本[にほん]に行[い]くことはない。(He has no need to go to Japan.)",
+      "彼[かれ]は日本[にほん]に行[い]ったことはない。(He has never been to Japan.)",
+      "彼[かれ]は日本[にほん]に行[い]くことがない。(He never goes to Japan — habit.)",
+      "彼[かれ]は日本[にほん]に行[い]かないことはない。(It's not that he never goes to Japan.)"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜たことはない = have never done X (experience). 行[い]ったことはない = have never been. This is a different pattern from 〜ことはない (no need). Context and the た-form distinguish the two uses."
+    },
+    {
+     "id": "koto-wa-nai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'There's no need to rush to a conclusion'?",
+     "japanese": null,
+     "choices": [
+      "結論[けつろん]を急[いそ]ぐことはない。",
+      "結論[けつろん]を急[いそ]ぐことがない。",
+      "結論[けつろん]を急[いそ]ぐことではない。",
+      "結論[けつろん]を急[いそ]ぐことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 急[いそ]ぐ + ことはない = no need to rush. 結論[けつろん] (conclusion) = there's no need to rush to a conclusion. Deliberation is allowed."
+    },
+    {
+     "id": "koto-wa-nai_q11",
+     "type": "translation",
+     "prompt": "Which means 'You don't have to be so formal'?",
+     "japanese": null,
+     "choices": [
+      "そんなに堅苦[かたくる]しくすることはない。",
+      "そんなに堅苦[かたくる]しくすることがない。",
+      "そんなに堅苦[かたくる]しくすることではない。",
+      "そんなに堅苦[かたくる]しくすることもない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 堅苦[かたくる]しくする (be formal/stiff) + ことはない = no need to be so formal. Reassurance to relax and be informal."
+    },
+    {
+     "id": "koto-wa-nai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'There's no need to push yourself so hard'?",
+     "japanese": null,
+     "choices": [
+      "そんなに無理[むり]することはない。",
+      "そんなに無理[むり]することがない。",
+      "そんなに無理[むり]することではない。",
+      "そんなに無理[むり]することだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 無理[むり]する (push oneself) + ことはない = no need to push yourself. 無理[むり] (unreasonable effort) = reassurance not to overdo it."
+    },
+    {
+     "id": "koto-wa-nai_q13",
+     "type": "usage",
+     "prompt": "In which context is ことはない most naturally used?",
+     "japanese": null,
+     "choices": [
+      "Giving orders or commands",
+      "Reassuring or calming someone ('don't worry, you don't need to...')",
+      "Describing one's own habits — and this holds in every register, formal or casual.",
+      "Expressing past regrets"
+     ],
+     "correctIndex": 1,
+     "explanation": "ことはない is primarily used to REASSURE. 大丈夫[だいじょうぶ]、心配[しんぱい]することはない = it's okay, there's no need to worry. 急[いそ]ぐことはない = no need to rush. The tone is 'take it easy, the action isn't necessary.'"
+    },
+    {
+     "id": "koto-wa-nai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't need to return this immediately'?",
+     "japanese": null,
+     "choices": [
+      "これをすぐに返[かえ]すことはない。",
+      "これをすぐに返[かえ]すことがない。",
+      "これをすぐに返[かえ]すことではない。",
+      "これをすぐに返[かえ]すことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 返[かえ]す (return) + ことはない = no need to return. すぐに (immediately) = there's no urgency — take your time."
+    },
+    {
+     "id": "koto-wa-nai_q15",
+     "type": "translation",
+     "prompt": "Which means 'You don't have to explain everything'?",
+     "japanese": null,
+     "choices": [
+      "すべてを説明[せつめい]することはない。",
+      "すべてを説明[せつめい]することがない。",
+      "すべてを説明[せつめい]することではない。",
+      "すべてを説明[せつめい]しないことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 説明[せつめい]する → 説明[せつめい]すること + はない = no need to explain everything. Reassurance that partial explanation suffices."
+    },
+    {
+     "id": "koto-wa-nai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'There's no need to give a gift'?",
+     "japanese": null,
+     "choices": [
+      "プレゼントをあげることはない。",
+      "プレゼントをあげることがない。",
+      "プレゼントをあげることではない。",
+      "プレゼントをあげることもない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: あげる + ことはない = no need to give. Reassurance: the occasion doesn't require a gift."
+    },
+    {
+     "id": "koto-wa-nai_q17",
+     "type": "usage",
+     "prompt": "Which sentence INCORRECTLY uses ことはない?",
+     "japanese": null,
+     "choices": [
+      "そんなに心配[しんぱい]することはない。",
+      "急[いそ]ぐことはない、時間[じかん]はある。",
+      "彼[かれ]は日本語[にほんご]を話[はな]すことはない。",
+      "昨日[きのう]食[た]べたことはない。"
+     ],
+     "correctIndex": 3,
+     "explanation": "昨日[きのう]食[た]べたことはない is awkward — the 'have never done X' pattern uses present tense events (日本[にほん]に行[い]ったことはない = have never been to Japan). 昨日[きのう]食[た]べた (ate yesterday — past specific) + ことはない is unnatural. You'd say 昨日[きのう]は何[なに]も食[た]べていない (didn't eat anything yesterday) instead."
+    },
+    {
+     "id": "koto-wa-nai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't have to go to the trouble of cooking'?",
+     "japanese": null,
+     "choices": [
+      "わざわざ料理[りょうり]することはない。",
+      "わざわざ料理[りょうり]することがない。",
+      "わざわざ料理[りょうり]することではない。",
+      "わざわざ料理[りょうり]することだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 料理[りょうり]する + ことはない = no need to cook. わざわざ (going to the trouble) = you don't need to go to all that trouble."
+    },
+    {
+     "id": "koto-wa-nai_q19",
+     "type": "translation",
+     "prompt": "Which means 'There's no need to give up just because you failed once'?",
+     "japanese": null,
+     "choices": [
+      "一度[いちど]失敗[しっぱい]したからといって、あきらめることはない。",
+      "一度[いちど]失敗[しっぱい]したからといって、あきらめることがない。",
+      "一度[いちど]失敗[しっぱい]したからといって、あきらめることではない。",
+      "一度[いちど]失敗[しっぱい]したから、あきらめることはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: あきらめる + ことはない = no need to give up. からといって (just because) = 'just because you failed once, there's no need to give up.' Motivational reassurance."
+    },
+    {
+     "id": "koto-wa-nai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'You don't need to attend that meeting'?",
+     "japanese": null,
+     "choices": [
+      "その会議[かいぎ]に出[で]ることはない。",
+      "その会議[かいぎ]に出[で]ることがない。",
+      "その会議[かいぎ]に出[で]ることではない。",
+      "その会議[かいぎ]に出[で]ることだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Dict-form + ことはない: 出[で]る + ことはない = no need to attend. Reassurance that the meeting's attendance is not required for this person."
+    }
+   ]
+  },
+  {
+   "id": "kane-nai",
+   "name": "〜かねない (kane nai) — might possibly (negative outcome)",
+   "shortDescription": "A worried 'might' — signals that a negative or unwanted outcome is a real, concerning possibility.",
+   "formation": "Verb stem (ます-stem) + かねない",
+   "explanation": "かねない is the grammar of concern. Unlike the neutral かもしれない (might be), かねない is almost exclusively used for outcomes the speaker is worried about. このまま続[つづ]ければ、健康[けんこう]を害[がい]しかねない: there's a real risk, and the speaker is flagging it — please stop before it happens. Think of かねない as the warning light on a dashboard: the problem hasn't happened yet, but the conditions are ripe for it.\n\nThe pattern descends from かねる, a verb meaning 'difficult to do / cannot bring oneself to do': 言[い]いかねます (I find it difficult to say). かねない is its negative counterpart — not 'difficult to do,' but 'quite possibly going to do (something undesirable).' It's most at home in warnings, cautions, and risk assessments. For describing an established habitual tendency toward something negative — rather than a specific looming risk — see 〜がちだ, which will be covered in Chapter 38.",
+   "rules": [
+    "Verb stem + かねない = might / could very possibly (negative outcome the speaker worries about)",
+    "Used exclusively for negative or problematic outcomes",
+    "Contrast: かもしれない (neutral possible); かねない (specifically worrying negative possibility)",
+    "Often used as a warning: 〜かねないから、気[き]をつけてください",
+    "Relates to かねる (cannot bring oneself to / difficult to): 言[い]いかねる = difficult to say"
+   ],
+   "examples": [
+    {
+     "japanese": "このまま放置[ほうち]すれば、大[おお]きな問題[もんだい]になりかねません。",
+     "romaji": "Kono mama houchi sureba, ookina mondai ni nari kanemasen.",
+     "english": "If left as is, this could very well become a major problem."
+    },
+    {
+     "japanese": "そんな無茶[むちゃ]な食事[しょくじ]制限[せいげん]は、体[からだ]を壊[こわ]しかねません。",
+     "romaji": "Sonna mucha na shokuji seigen wa, karada wo kowashi kanemasen.",
+     "english": "Such an extreme dietary restriction could seriously damage your health."
+    },
+    {
+     "japanese": "不注意[ふちゅうい]な発言[はつげん]は、誤解[ごかい]を招[まね]きかねません。",
+     "romaji": "Fuchuui na hatsugen wa, gokai wo maneki kanemasen.",
+     "english": "Careless remarks can very possibly invite misunderstanding."
+    },
+    {
+     "japanese": "このペースで仕事[しごと]を続[つづ]けると、過労[かろう]で倒[たお]れかねないですよ。",
+     "romaji": "Kono peesu de shigoto wo tsuzukeru to, karou de taore kanenai desu yo.",
+     "english": "At this work pace, you could very likely collapse from overwork."
+    }
+   ],
+   "flashcardHeader": "〜かねない",
+   "flashcardAnswer": "A worried 'might' — signals that a negative or unwanted outcome is a real, concerning possibility.",
+   "practice": [
+    {
+     "id": "kane-nai_q1",
+     "type": "usage",
+     "prompt": "What does 〜かねない mean?",
+     "japanese": null,
+     "choices": [
+      "cannot do X (too difficult)",
+      "might possibly do X / there's a risk that X could happen (negative potential — a bad outcome is possible)",
+      "will definitely do X",
+      "has been doing X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜かねない = might / could possibly (do something negative). It expresses that a bad or undesirable outcome is possible/likely if care is not taken. 失敗[しっぱい]しかねない = might fail. Used as a WARNING about potential negative outcomes."
+    },
+    {
+     "id": "kane-nai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'He might lose his job'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は仕事[しごと]を失[うしな]いかねない。",
+      "彼[かれ]は仕事[しごと]を失[うしな]うかねない。",
+      "彼[かれ]は仕事[しごと]を失[うしな]いかねる。",
+      "彼[かれ]は仕事[しごと]を失[うしな]ってかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 失[うしな]う → 失[うしな]い (masu-stem) + かねない = 失[うしな]いかねない = might lose. かねない attaches to the MASU-STEM (not dict-form or て-form)."
+    },
+    {
+     "id": "kane-nai_q3",
+     "type": "construct",
+     "prompt": "What attaches before かねない?",
+     "japanese": null,
+     "choices": [
+      "Dict-form (plain form)",
+      "Masu-stem",
+      "Te-form",
+      "Ta-form (past)"
+     ],
+     "correctIndex": 1,
+     "explanation": "Masu-stem + かねない. This is the key formation rule. 失[うしな]う → 失[うしな]い; 失[うしな]い + かねない = 失[うしな]いかねない. Always use the masu-stem (not dict-form, te-form, or ta-form)."
+    },
+    {
+     "id": "kane-nai_q4",
+     "type": "translation",
+     "prompt": "Which means 'This could cause an accident'?",
+     "japanese": null,
+     "choices": [
+      "これは事故[じこ]を起[お]こしかねない。",
+      "これは事故[じこ]を起[お]こすかねない。",
+      "これは事故[じこ]を起[お]こしかねる。",
+      "これは事故[じこ]を起[お]こすかねる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 起[お]こす → 起[お]こし + かねない = 起[お]こしかねない = might cause. これは事故[じこ]を起[お]こしかねない = this might cause an accident (warning about a potential bad outcome)."
+    },
+    {
+     "id": "kane-nai_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'If we're not careful, prices might go up'?",
+     "japanese": null,
+     "choices": [
+      "気[き]をつけないと、値段[ねだん]が上[あ]がりかねない。",
+      "気[き]をつけないと、値段[ねだん]が上[あ]がるかねない。",
+      "気[き]をつけないと、値段[ねだん]が上[あ]がりかねる。",
+      "気[き]をつけないと、値段[ねだん]が上[あ]がってかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 上[あ]がる → 上[あ]がり + かねない = 上[あ]がりかねない = might go up. The 気[き]をつけないと condition sets up the risky scenario."
+    },
+    {
+     "id": "kane-nai_q6",
+     "type": "usage",
+     "prompt": "What TYPE of event does かねない typically describe?",
+     "japanese": null,
+     "choices": [
+      "A certain/expected positive outcome, with no exceptions in modern standard Japanese.",
+      "A potential NEGATIVE or UNDESIRABLE outcome (risk, danger, warning)",
+      "A neutral habitual event",
+      "A completed past action"
+     ],
+     "correctIndex": 1,
+     "explanation": "かねない almost always describes potential NEGATIVE outcomes — risks, dangers, bad results. 失敗[しっぱい]しかねない (might fail), 事故[じこ]を起[お]こしかねない (might cause an accident), 命[いのち]にかかわりかねない (might be life-threatening). It's a CAUTION about bad possibilities."
+    },
+    {
+     "id": "kane-nai_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'If you keep this up, you might get fired'?",
+     "japanese": null,
+     "choices": [
+      "そんなことを続[つづ]けると、首[くび]になりかねない。",
+      "そんなことを続[つづ]けると、首[くび]になるかねない。",
+      "そんなことを続[つづ]けると、首[くび]になりかねる。",
+      "そんなことを続[つづ]けると、首[くび]になってかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: なる → なり + かねない = なりかねない = might become. 首[くび]になる = get fired. Warning: continuing this behavior could lead to termination."
+    },
+    {
+     "id": "kane-nai_q8",
+     "type": "translation",
+     "prompt": "Which means 'This medicine could be dangerous'?",
+     "japanese": null,
+     "choices": [
+      "この薬[くすり]は危険[きけん]を招[まね]きかねない。",
+      "この薬[くすり]は危険[きけん]を招[まね]くかねない。",
+      "この薬[くすり]は危険[きけん]を招[まね]きかねる。",
+      "この薬[くすり]は危険[きけん]を招[まね]いてかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 招[まね]く (invite/bring about) → 招[まね]き + かねない = 招[まね]きかねない = might bring about. この薬[くすり]は危険[きけん]を招[まね]きかねない = this medicine might bring about danger."
+    },
+    {
+     "id": "kane-nai_q9",
+     "type": "construct",
+     "prompt": "What is the masu-stem of 壊[こわ]れる for use with かねない?",
+     "japanese": null,
+     "choices": [
+      "壊[こわ]れず",
+      "壊[こわ]れ",
+      "壊[こわ]れる",
+      "壊[こわ]れて"
+     ],
+     "correctIndex": 1,
+     "explanation": "壊[こわ]れる (Group 2) → masu-form 壊[こわ]れます → masu-stem 壊[こわ]れ. 壊[こわ]れ + かねない = 壊[こわ]れかねない = might break. Group 2 verbs: drop る and use the stem directly."
+    },
+    {
+     "id": "kane-nai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'That structure might collapse'?",
+     "japanese": null,
+     "choices": [
+      "あの建物[たてもの]は崩[くず]れかねない。",
+      "あの建物[たてもの]は崩[くず]れるかねない。",
+      "あの建物[たてもの]は崩[くず]れかねる。",
+      "あの建物[たてもの]は崩[くず]れてかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 崩[くず]れる → 崩[くず]れ + かねない = 崩[くず]れかねない = might collapse. Warning about a dangerous structural risk."
+    },
+    {
+     "id": "kane-nai_q11",
+     "type": "usage",
+     "prompt": "かねない vs. かねる: what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "かねない = might do (negative potential outcome); かねる = cannot bring oneself to do (reluctance/hesitation)",
+      "かねない is more formal",
+      "かねる is for past events — textbooks treat this as an absolute rule, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "かねる = cannot bring oneself to do (reluctance/difficulty: 承認[しょうにん]しかねる = I cannot approve). かねない = might do something bad (risk: 失敗[しっぱい]しかねない = might fail). They use the same stem but have opposite senses — かねる = reluctant inability; かねない = negative potential."
+    },
+    {
+     "id": "kane-nai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'If not handled carefully, this might get worse'?",
+     "japanese": null,
+     "choices": [
+      "ちゃんと対処[たいしょ]しないと、悪化[あっか]しかねない。",
+      "ちゃんと対処[たいしょ]しないと、悪化[あっか]するかねない。",
+      "ちゃんと対処[たいしょ]しないと、悪化[あっか]しかねる。",
+      "ちゃんと対処[たいしょ]しないと、悪化[あっか]してかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 悪化[あっか]する → 悪化[あっか]し + かねない = 悪化[あっか]しかねない = might worsen. Warning: without proper handling, the situation could deteriorate."
+    },
+    {
+     "id": "kane-nai_q13",
+     "type": "translation",
+     "prompt": "Which means 'Those rumors could damage the company'?",
+     "japanese": null,
+     "choices": [
+      "そのうわさは会社[かいしゃ]にダメージを与[あた]えかねない。",
+      "そのうわさは会社[かいしゃ]にダメージを与[あた]えるかねない。",
+      "そのうわさは会社[かいしゃ]にダメージを与[あた]えかねる。",
+      "そのうわさは会社[かいしゃ]にダメージを与[あた]えてかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 与[あた]える → 与[あた]え + かねない = 与[あた]えかねない = might give/cause. そのうわさ (those rumors) + ダメージを与[あた]えかねない = might cause damage. Warning about reputational risk."
+    },
+    {
+     "id": "kane-nai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'I cannot bring myself to agree to that' (using かねる)?",
+     "japanese": null,
+     "choices": [
+      "それには賛成[さんせい]しかねない。",
+      "それには賛成[さんせい]するかねない。",
+      "それには賛成[さんせい]しかねる。",
+      "それには賛成[さんせい]してかねない。"
+     ],
+     "correctIndex": 2,
+     "explanation": "かねる (masu-stem + かねる) = cannot bring oneself to / find it difficult to: 賛成[さんせい]しかねる = I cannot agree to that (a soft, formal refusal). Don't confuse it with かねない, which means 'might well (do something undesirable)': 賛成[さんせい]しかねない would mean 'might well agree' — the opposite idea. かねる and かねない both attach to the masu-stem, never to the dictionary or te-form."
+    },
+    {
+     "id": "kane-nai_q15",
+     "type": "usage",
+     "prompt": "In which context is かねない most naturally used?",
+     "japanese": null,
+     "choices": [
+      "Expressing certainty about a positive outcome, regardless of context or politeness level.",
+      "Warning that a negative consequence is possible if something is not done",
+      "Describing a completed past action",
+      "Expressing a speaker's wish"
+     ],
+     "correctIndex": 1,
+     "explanation": "かねない is used for WARNINGS: 'if you're not careful, this bad thing might happen.' 速度[そくど]を出[だ]しすぎると事故[じこ]を起[お]こしかねない = if you speed too much, you might cause an accident. Always points toward a negative potential outcome."
+    },
+    {
+     "id": "kane-nai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Your careless words might hurt someone'?",
+     "japanese": null,
+     "choices": [
+      "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねない。",
+      "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけるかねない。",
+      "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけかねる。",
+      "不用意[ふようい]な言葉[ことば]は人[ひと]を傷[きず]つけてかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 傷[きず]つける → 傷[きず]つけ + かねない = 傷[きず]つけかねない = might hurt. 不用意[ふようい]な言葉[ことば] (careless words) = warning about the potential to wound others."
+    },
+    {
+     "id": "kane-nai_q17",
+     "type": "translation",
+     "prompt": "Which means 'That strategy might backfire'?",
+     "japanese": null,
+     "choices": [
+      "その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない。",
+      "その戦略[せんりゃく]は裏目[うらめ]に出[で]るかねない。",
+      "その戦略[せんりゃく]は裏目[うらめ]に出[で]かねる。",
+      "その戦略[せんりゃく]は裏目[うらめ]に出[で]てかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 出[で]る → 出[で] + かねない = 出[で]かねない = might come out. 裏目[うらめ]に出[で]る = backfire. その戦略[せんりゃく]は裏目[うらめ]に出[で]かねない = that strategy might backfire."
+    },
+    {
+     "id": "kane-nai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'If you sleep in, you might miss the train'?",
+     "japanese": null,
+     "choices": [
+      "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れかねない。",
+      "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れるかねない。",
+      "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れかねる。",
+      "寝坊[ねぼう]すると、電車[でんしゃ]に乗[の]り遅[おく]れてかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: 乗[の]り遅[おく]れる → 乗[の]り遅[おく]れ + かねない = 乗[の]り遅[おく]れかねない = might miss. 寝坊[ねぼう]すると (if you oversleep) = the risky scenario leading to the bad outcome."
+    },
+    {
+     "id": "kane-nai_q19",
+     "type": "usage",
+     "prompt": "Which has the CLOSEST meaning to かねない?",
+     "japanese": null,
+     "choices": [
+      "〜はずだ (expected to)",
+      "〜かもしれない (might — neutral)",
+      "〜おそれがある (there's a risk/fear that — also used for negative outcomes)",
+      "〜にちがいない (must be — strong conviction)"
+     ],
+     "correctIndex": 2,
+     "explanation": "〜おそれがある is closest in meaning to かねない — both warn about potential negative outcomes. おそれがある is slightly more formal/written (used in official warnings). かねない is more spoken/conversational. Both: 事故[じこ]が起[お]きるおそれがある / 事故[じこ]を起[お]こしかねない = there's a risk of an accident."
+    },
+    {
+     "id": "kane-nai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'If you tell everyone, it might become a big problem'?",
+     "japanese": null,
+     "choices": [
+      "みんなに話[はな]すと、大[おお]きな問題[もんだい]になりかねない。",
+      "みんなに話[はな]すと、大[おお]きな問題[もんだい]になるかねない。",
+      "みんなに話[はな]すと、大[おお]きな問題[もんだい]になりかねる。",
+      "みんなに話[はな]すと、大[おお]きな問題[もんだい]になってかねない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Masu-stem + かねない: なる → なり + かねない = なりかねない = might become. みんなに話[はな]すと (if you tell everyone) = the action that risks causing the bad outcome."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch33_v01",
+   "partOfSpeech": "noun",
+   "kanji": "医学",
+   "kana": "いがく",
+   "romaji": "igaku",
+   "definition": "medicine (field)"
+  },
+  {
+   "id": "ch33_v02",
+   "partOfSpeech": "noun",
+   "kanji": "医療",
+   "kana": "いりょう",
+   "romaji": "iryou",
+   "definition": "medical care"
+  },
+  {
+   "id": "ch33_v03",
+   "partOfSpeech": "noun",
+   "kanji": "治療",
+   "kana": "ちりょう",
+   "romaji": "chiryou",
+   "definition": "treatment"
+  },
+  {
+   "id": "ch33_v04",
+   "partOfSpeech": "noun",
+   "kanji": "手術",
+   "kana": "しゅじゅつ",
+   "romaji": "shujutsu",
+   "definition": "surgery"
+  },
+  {
+   "id": "ch33_v05",
+   "partOfSpeech": "noun",
+   "kanji": "診断",
+   "kana": "しんだん",
+   "romaji": "shindan",
+   "definition": "diagnosis"
+  },
+  {
+   "id": "ch33_v06",
+   "partOfSpeech": "noun",
+   "kanji": "症状",
+   "kana": "しょうじょう",
+   "romaji": "shoujou",
+   "definition": "symptoms"
+  },
+  {
+   "id": "ch33_v07",
+   "partOfSpeech": "noun",
+   "kanji": "患者",
+   "kana": "かんじゃ",
+   "romaji": "kanja",
+   "definition": "patient"
+  },
+  {
+   "id": "ch33_v08",
+   "partOfSpeech": "noun",
+   "kanji": "予防",
+   "kana": "よぼう",
+   "romaji": "yobou",
+   "definition": "prevention"
+  },
+  {
+   "id": "ch33_v09",
+   "partOfSpeech": "noun",
+   "kanji": "検査",
+   "kana": "けんさ",
+   "romaji": "kensa",
+   "definition": "examination; test"
+  },
+  {
+   "id": "ch33_v10",
+   "partOfSpeech": "noun",
+   "kanji": "血液",
+   "kana": "けつえき",
+   "romaji": "ketsueki",
+   "definition": "blood"
+  },
+  {
+   "id": "ch33_v11",
+   "partOfSpeech": "noun",
+   "kanji": "内科",
+   "kana": "ないか",
+   "romaji": "naika",
+   "definition": "internal medicine"
+  },
+  {
+   "id": "ch33_v12",
+   "partOfSpeech": "noun",
+   "kanji": "外科",
+   "kana": "げか",
+   "romaji": "geka",
+   "definition": "surgery (department)"
+  },
+  {
+   "id": "ch33_v13",
+   "partOfSpeech": "noun",
+   "kanji": "歯科",
+   "kana": "しか",
+   "romaji": "shika",
+   "definition": "dentistry"
+  },
+  {
+   "id": "ch33_v14",
+   "partOfSpeech": "noun",
+   "kanji": "体力",
+   "kana": "たいりょく",
+   "romaji": "tairyoku",
+   "definition": "physical strength"
+  },
+  {
+   "id": "ch33_v15",
+   "partOfSpeech": "noun",
+   "kanji": "筋肉",
+   "kana": "きんにく",
+   "romaji": "kinniku",
+   "definition": "muscle"
+  },
+  {
+   "id": "ch33_v16",
+   "partOfSpeech": "noun",
+   "kanji": "神経",
+   "kana": "しんけい",
+   "romaji": "shinkei",
+   "definition": "nerve"
+  },
+  {
+   "id": "ch33_v17",
+   "partOfSpeech": "noun",
+   "kanji": "呼吸",
+   "kana": "こきゅう",
+   "romaji": "kokyuu",
+   "definition": "breathing; respiration"
+  },
+  {
+   "id": "ch33_v18",
+   "partOfSpeech": "noun",
+   "kanji": "血圧",
+   "kana": "けつあつ",
+   "romaji": "ketsuatsu",
+   "definition": "blood pressure"
+  },
+  {
+   "id": "ch33_v19",
+   "partOfSpeech": "noun",
+   "kanji": "心臓",
+   "kana": "しんぞう",
+   "romaji": "shinzou",
+   "definition": "heart"
+  },
+  {
+   "id": "ch33_v20",
+   "partOfSpeech": "noun",
+   "kanji": "胃",
+   "kana": "い",
+   "romaji": "i",
+   "definition": "stomach"
+  },
+  {
+   "id": "ch33_v21",
+   "partOfSpeech": "noun",
+   "kanji": "肺",
+   "kana": "はい",
+   "romaji": "hai",
+   "definition": "lungs"
+  },
+  {
+   "id": "ch33_v22",
+   "partOfSpeech": "noun",
+   "kanji": "内臓",
+   "kana": "ないぞう",
+   "romaji": "naizou",
+   "definition": "internal organs"
+  },
+  {
+   "id": "ch33_v23",
+   "partOfSpeech": "noun",
+   "kanji": "免疫",
+   "kana": "めんえき",
+   "romaji": "men'eki",
+   "definition": "immunity"
+  },
+  {
+   "id": "ch33_v24",
+   "partOfSpeech": "noun",
+   "kanji": "栄養",
+   "kana": "えいよう",
+   "romaji": "eiyou",
+   "definition": "nutrition"
+  },
+  {
+   "id": "ch33_v25",
+   "partOfSpeech": "noun",
+   "kanji": "診療所",
+   "kana": "しんりょうじょ",
+   "romaji": "shinryoujo",
+   "definition": "clinic"
+  },
+  {
+   "id": "ch33_v26",
+   "partOfSpeech": "noun",
+   "kanji": "救急",
+   "kana": "きゅうきゅう",
+   "romaji": "kyuukyuu",
+   "definition": "emergency (medical)"
+  },
+  {
+   "id": "ch33_v27",
+   "partOfSpeech": "noun",
+   "kanji": "感染",
+   "kana": "かんせん",
+   "romaji": "kansen",
+   "definition": "infection"
+  },
+  {
+   "id": "ch33_v28",
+   "partOfSpeech": "noun",
+   "kanji": "ウイルス",
+   "kana": "ウイルス",
+   "romaji": "uirusu",
+   "definition": "virus"
+  },
+  {
+   "id": "ch33_v29",
+   "partOfSpeech": "noun",
+   "kanji": "回復",
+   "kana": "かいふく",
+   "romaji": "kaifuku",
+   "definition": "recovery"
+  },
+  {
+   "id": "ch33_v30",
+   "partOfSpeech": "noun",
+   "kanji": "障害",
+   "kana": "しょうがい",
+   "romaji": "shougai",
+   "definition": "disability; obstacle"
+  },
+  {
+   "id": "ch33_v31",
+   "partOfSpeech": "i-adjective",
+   "kanji": "苦しい",
+   "kana": "くるしい",
+   "romaji": "kurushii",
+   "definition": "painful; distressing"
+  },
+  {
+   "id": "ch33_v32",
+   "partOfSpeech": "noun",
+   "kanji": "検診",
+   "kana": "けんしん",
+   "romaji": "kenshin",
+   "definition": "(medical) checkup"
+  },
+  {
+   "id": "ch33_v33",
+   "partOfSpeech": "noun",
+   "kanji": "処方",
+   "kana": "しょほう",
+   "romaji": "shohou",
+   "definition": "prescription"
+  },
+  {
+   "id": "ch33_v34",
+   "partOfSpeech": "noun",
+   "kanji": "副作用",
+   "kana": "ふくさよう",
+   "romaji": "fukusayou",
+   "definition": "side effect"
+  },
+  {
+   "id": "ch33_v35",
+   "partOfSpeech": "noun",
+   "kanji": "体調",
+   "kana": "たいちょう",
+   "romaji": "taichou",
+   "definition": "physical condition"
+  },
+  {
+   "id": "ch33_v36",
+   "partOfSpeech": "noun",
+   "kanji": "発熱",
+   "kana": "はつねつ",
+   "romaji": "hatsunetsu",
+   "definition": "(onset of) fever"
+  },
+  {
+   "id": "ch33_v37",
+   "partOfSpeech": "verb",
+   "kanji": "診る",
+   "kana": "みる",
+   "romaji": "miru",
+   "definition": "to (medically) examine"
+  },
+  {
+   "id": "ch33_v38",
+   "partOfSpeech": "verb",
+   "kanji": "効く",
+   "kana": "きく",
+   "romaji": "kiku",
+   "definition": "to be effective; to work"
+  },
+  {
+   "id": "ch33_v39",
+   "partOfSpeech": "verb",
+   "kanji": "防ぐ",
+   "kana": "ふせぐ",
+   "romaji": "fusegu",
+   "definition": "to prevent; to defend"
+  },
+  {
+   "id": "ch33_v40",
+   "partOfSpeech": "noun",
+   "kanji": "悪化",
+   "kana": "あっか",
+   "romaji": "akka",
+   "definition": "worsening; deterioration"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "内",
+   "word": "内科",
+   "reading": "ないか",
+   "meaning": "internal medicine"
+  },
+  {
+   "char": "回",
+   "word": "回復",
+   "reading": "かいふく",
+   "meaning": "recovery"
+  },
+  {
+   "char": "調",
+   "word": "体調",
+   "reading": "たいちょう",
+   "meaning": "physical condition"
+  },
+  {
+   "char": "治",
+   "word": "治療",
+   "reading": "ちりょう",
+   "meaning": "treatment"
+  },
+  {
+   "char": "加",
+   "word": "参加",
+   "reading": "さんか",
+   "meaning": "participation"
+  },
+  {
+   "char": "予",
+   "word": "予防",
+   "reading": "よぼう",
+   "meaning": "prevention"
+  },
+  {
+   "char": "告",
+   "word": "告げる",
+   "reading": "つげる",
+   "meaning": "to tell"
+  },
+  {
+   "char": "所",
+   "word": "所",
+   "reading": "ところ",
+   "meaning": "place"
+  },
+  {
+   "char": "感",
+   "word": "感染",
+   "reading": "かんせん",
+   "meaning": "infection"
+  },
+  {
+   "char": "容",
+   "word": "内容",
+   "reading": "ないよう",
+   "meaning": "contents; substance"
+  },
+  {
+   "char": "疑",
+   "word": "疑い",
+   "reading": "うたがい",
+   "meaning": "doubt"
+  },
+  {
+   "char": "優",
+   "word": "優しい",
+   "reading": "やさしい",
+   "meaning": "tender"
+  },
+  {
+   "char": "夫",
+   "word": "夫",
+   "reading": "おっと",
+   "meaning": "husband"
+  },
+  {
+   "char": "違",
+   "word": "違い",
+   "reading": "ちがい",
+   "meaning": "difference"
+  },
+  {
+   "char": "神",
+   "word": "神経",
+   "reading": "しんけい",
+   "meaning": "nerve"
+  },
+  {
+   "char": "害",
+   "word": "害",
+   "reading": "がい",
+   "meaning": "injury"
+  },
+  {
+   "char": "葉",
+   "word": "葉",
+   "reading": "は",
+   "meaning": "leaf"
+  },
+  {
+   "char": "守",
+   "word": "守る",
+   "reading": "まもる",
+   "meaning": "to protect"
+  },
+  {
+   "char": "望",
+   "word": "望む",
+   "reading": "のぞむ",
+   "meaning": "to desire"
+  },
+  {
+   "char": "非",
+   "word": "非常",
+   "reading": "ひじょう",
+   "meaning": "emergency; extreme"
+  },
+  {
+   "char": "呼",
+   "word": "呼ぶ",
+   "reading": "よぶ",
+   "meaning": "to call out (to)"
+  },
+  {
+   "char": "科",
+   "word": "科",
+   "reading": "か",
+   "meaning": "department"
+  },
+  {
+   "char": "処",
+   "word": "処方",
+   "reading": "しょほう",
+   "meaning": "prescription"
+  },
+  {
+   "char": "殺",
+   "word": "殺す",
+   "reading": "ころす",
+   "meaning": "to kill"
+  },
+  {
+   "char": "苦",
+   "word": "苦しい",
+   "reading": "くるしい",
+   "meaning": "painful; distressing"
+  },
+  {
+   "char": "舞",
+   "word": "舞",
+   "reading": "まい",
+   "meaning": "dancing"
+  },
+  {
+   "char": "婦",
+   "word": "主婦",
+   "reading": "しゅふ",
+   "meaning": "housewife"
+  },
+  {
+   "char": "熱",
+   "word": "熱",
+   "reading": "ねつ",
+   "meaning": "heat"
+  },
+  {
+   "char": "浮",
+   "word": "浮かぶ",
+   "reading": "うかぶ",
+   "meaning": "to float"
+  },
+  {
+   "char": "庭",
+   "word": "庭",
+   "reading": "にわ",
+   "meaning": "garden"
+  },
+  {
+   "char": "欠",
+   "word": "欠く",
+   "reading": "かく",
+   "meaning": "to chip"
+  },
+  {
+   "char": "息",
+   "word": "息",
+   "reading": "いき",
+   "meaning": "breath"
+  },
+  {
+   "char": "痛",
+   "word": "痛い",
+   "reading": "いたい",
+   "meaning": "painful"
+  },
+  {
+   "char": "夢",
+   "word": "夢",
+   "reading": "ゆめ",
+   "meaning": "dream"
+  },
+  {
+   "char": "草",
+   "word": "草",
+   "reading": "くさ",
+   "meaning": "grass"
+  },
+  {
+   "char": "寝",
+   "word": "寝る",
+   "reading": "ねる",
+   "meaning": "to sleep (lying down)"
+  },
+  {
+   "char": "吸",
+   "word": "吸う",
+   "reading": "すう",
+   "meaning": "to inhale; to suck; to smoke (a cigarette)"
+  },
+  {
+   "char": "歯",
+   "word": "歯",
+   "reading": "は",
+   "meaning": "tooth"
+  },
+  {
+   "char": "腹",
+   "word": "腹",
+   "reading": "はら",
+   "meaning": "abdomen"
+  },
+  {
+   "char": "誰",
+   "word": "誰",
+   "reading": "だれ",
+   "meaning": "who"
+  },
+  {
+   "char": "光",
+   "word": "光る",
+   "reading": "ひかる",
+   "meaning": "to shine"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "内科",
+   "kana": "ないか",
+   "romaji": "naika",
+   "meaning": "internal medicine",
+   "chars": [
+    "内",
+    "科"
+   ]
+  },
+  {
+   "word": "回復",
+   "kana": "かいふく",
+   "romaji": "kaifuku",
+   "meaning": "recovery",
+   "chars": [
+    "回",
+    "復"
+   ]
+  },
+  {
+   "word": "体調",
+   "kana": "たいちょう",
+   "romaji": "taichou",
+   "meaning": "physical condition",
+   "chars": [
+    "体",
+    "調"
+   ]
+  },
+  {
+   "word": "治療",
+   "kana": "ちりょう",
+   "romaji": "chiryou",
+   "meaning": "treatment",
+   "chars": [
+    "治",
+    "療"
+   ]
+  },
+  {
+   "word": "参加",
+   "kana": "さんか",
+   "romaji": "sanka",
+   "meaning": "participation",
+   "chars": [
+    "参",
+    "加"
+   ]
+  },
+  {
+   "word": "予防",
+   "kana": "よぼう",
+   "romaji": "yobou",
+   "meaning": "prevention",
+   "chars": [
+    "予",
+    "防"
+   ]
+  },
+  {
+   "word": "告げる",
+   "kana": "つげる",
+   "romaji": "tsugeru",
+   "meaning": "to tell",
+   "chars": [
+    "告"
+   ]
+  },
+  {
+   "word": "所",
+   "kana": "ところ",
+   "romaji": "tokoro",
+   "meaning": "place",
+   "chars": [
+    "所"
+   ]
+  },
+  {
+   "word": "感染",
+   "kana": "かんせん",
+   "romaji": "kansen",
+   "meaning": "infection",
+   "chars": [
+    "感"
+   ]
+  },
+  {
+   "word": "内容",
+   "kana": "ないよう",
+   "romaji": "naiyou",
+   "meaning": "contents; substance",
+   "chars": [
+    "内",
+    "容"
+   ]
+  },
+  {
+   "word": "疑い",
+   "kana": "うたがい",
+   "romaji": "utagai",
+   "meaning": "doubt",
+   "chars": [
+    "疑"
+   ]
+  },
+  {
+   "word": "優しい",
+   "kana": "やさしい",
+   "romaji": "yasashii",
+   "meaning": "tender",
+   "chars": [
+    "優"
+   ]
+  },
+  {
+   "word": "夫",
+   "kana": "おっと",
+   "romaji": "otto",
+   "meaning": "husband",
+   "chars": [
+    "夫"
+   ]
+  },
+  {
+   "word": "違い",
+   "kana": "ちがい",
+   "romaji": "chigai",
+   "meaning": "difference",
+   "chars": [
+    "違"
+   ]
+  },
+  {
+   "word": "神経",
+   "kana": "しんけい",
+   "romaji": "shinkei",
+   "meaning": "nerve",
+   "chars": [
+    "神",
+    "経"
+   ]
+  },
+  {
+   "word": "害",
+   "kana": "がい",
+   "romaji": "gai",
+   "meaning": "injury",
+   "chars": [
+    "害"
+   ]
+  },
+  {
+   "word": "葉",
+   "kana": "は",
+   "romaji": "ha",
+   "meaning": "leaf",
+   "chars": [
+    "葉"
+   ]
+  },
+  {
+   "word": "守る",
+   "kana": "まもる",
+   "romaji": "mamoru",
+   "meaning": "to protect",
+   "chars": [
+    "守"
+   ]
+  },
+  {
+   "word": "望む",
+   "kana": "のぞむ",
+   "romaji": "nozomu",
+   "meaning": "to desire",
+   "chars": [
+    "望"
+   ]
+  },
+  {
+   "word": "非常",
+   "kana": "ひじょう",
+   "romaji": "hijou",
+   "meaning": "emergency; extreme",
+   "chars": [
+    "非",
+    "常"
+   ]
+  },
+  {
+   "word": "呼ぶ",
+   "kana": "よぶ",
+   "romaji": "yobu",
+   "meaning": "to call out (to)",
+   "chars": [
+    "呼"
+   ]
+  },
+  {
+   "word": "科",
+   "kana": "か",
+   "romaji": "ka",
+   "meaning": "department",
+   "chars": [
+    "科"
+   ]
+  },
+  {
+   "word": "処方",
+   "kana": "しょほう",
+   "romaji": "shohou",
+   "meaning": "prescription",
+   "chars": [
+    "処",
+    "方"
+   ]
+  },
+  {
+   "word": "殺す",
+   "kana": "ころす",
+   "romaji": "korosu",
+   "meaning": "to kill",
+   "chars": [
+    "殺"
+   ]
+  },
+  {
+   "word": "苦しい",
+   "kana": "くるしい",
+   "romaji": "kurushii",
+   "meaning": "painful; distressing",
+   "chars": [
+    "苦"
+   ]
+  },
+  {
+   "word": "舞",
+   "kana": "まい",
+   "romaji": "mai",
+   "meaning": "dancing",
+   "chars": [
+    "舞"
+   ]
+  },
+  {
+   "word": "主婦",
+   "kana": "しゅふ",
+   "romaji": "shufu",
+   "meaning": "housewife",
+   "chars": [
+    "主",
+    "婦"
+   ]
+  },
+  {
+   "word": "熱",
+   "kana": "ねつ",
+   "romaji": "netsu",
+   "meaning": "heat",
+   "chars": [
+    "熱"
+   ]
+  },
+  {
+   "word": "浮かぶ",
+   "kana": "うかぶ",
+   "romaji": "ukabu",
+   "meaning": "to float",
+   "chars": [
+    "浮"
+   ]
+  },
+  {
+   "word": "庭",
+   "kana": "にわ",
+   "romaji": "niwa",
+   "meaning": "garden",
+   "chars": [
+    "庭"
+   ]
+  },
+  {
+   "word": "欠く",
+   "kana": "かく",
+   "romaji": "kaku",
+   "meaning": "to chip",
+   "chars": [
+    "欠"
+   ]
+  },
+  {
+   "word": "息",
+   "kana": "いき",
+   "romaji": "iki",
+   "meaning": "breath",
+   "chars": [
+    "息"
+   ]
+  },
+  {
+   "word": "痛い",
+   "kana": "いたい",
+   "romaji": "itai",
+   "meaning": "painful",
+   "chars": [
+    "痛"
+   ]
+  },
+  {
+   "word": "夢",
+   "kana": "ゆめ",
+   "romaji": "yume",
+   "meaning": "dream",
+   "chars": [
+    "夢"
+   ]
+  },
+  {
+   "word": "草",
+   "kana": "くさ",
+   "romaji": "kusa",
+   "meaning": "grass",
+   "chars": [
+    "草"
+   ]
+  },
+  {
+   "word": "寝る",
+   "kana": "ねる",
+   "romaji": "neru",
+   "meaning": "to sleep (lying down)",
+   "chars": [
+    "寝"
+   ]
+  },
+  {
+   "word": "吸う",
+   "kana": "すう",
+   "romaji": "suu",
+   "meaning": "to inhale; to suck; to smoke (a cigarette)",
+   "chars": [
+    "吸"
+   ]
+  },
+  {
+   "word": "歯",
+   "kana": "は",
+   "romaji": "ha",
+   "meaning": "tooth",
+   "chars": [
+    "歯"
+   ]
+  },
+  {
+   "word": "腹",
+   "kana": "はら",
+   "romaji": "hara",
+   "meaning": "abdomen",
+   "chars": [
+    "腹"
+   ]
+  },
+  {
+   "word": "誰",
+   "kana": "だれ",
+   "romaji": "dare",
+   "meaning": "who",
+   "chars": [
+    "誰"
+   ]
+  },
+  {
+   "word": "光る",
+   "kana": "ひかる",
+   "romaji": "hikaru",
+   "meaning": "to shine",
+   "chars": [
+    "光"
+   ]
+  },
+  {
+   "word": "回す",
+   "kana": "まわす",
+   "romaji": "mawasu",
+   "meaning": "to turn",
+   "chars": [
+    "回"
+   ]
+  },
+  {
+   "word": "感じ",
+   "kana": "かんじ",
+   "romaji": "kanji",
+   "meaning": "feeling",
+   "chars": [
+    "感"
+   ]
+  },
+  {
+   "word": "違う",
+   "kana": "ちがう",
+   "romaji": "chigau",
+   "meaning": "to differ (from)",
+   "chars": [
+    "違"
+   ]
+  },
+  {
+   "word": "言葉",
+   "kana": "ことば",
+   "romaji": "kotoba",
+   "meaning": "word; language",
+   "chars": [
+    "言",
+    "葉"
+   ]
+  },
+  {
+   "word": "呼吸",
+   "kana": "こきゅう",
+   "romaji": "kokyuu",
+   "meaning": "breathing",
+   "chars": [
+    "呼",
+    "吸"
+   ]
+  },
+  {
+   "word": "外科",
+   "kana": "げか",
+   "romaji": "geka",
+   "meaning": "surgery",
+   "chars": [
+    "外",
+    "科"
+   ]
+  },
+  {
+   "word": "殺し",
+   "kana": "ころし",
+   "romaji": "koroshi",
+   "meaning": "murder",
+   "chars": [
+    "殺"
+   ]
+  },
+  {
+   "word": "熱い",
+   "kana": "あつい",
+   "romaji": "atsui",
+   "meaning": "hot (thing)",
+   "chars": [
+    "熱"
+   ]
+  },
+  {
+   "word": "浮く",
+   "kana": "うく",
+   "romaji": "uku",
+   "meaning": "to float",
+   "chars": [
+    "浮"
+   ]
+  },
+  {
+   "word": "欠ける",
+   "kana": "かける",
+   "romaji": "kakeru",
+   "meaning": "to be chipped",
+   "chars": [
+    "欠"
+   ]
+  },
+  {
+   "word": "痛み",
+   "kana": "いたみ",
+   "romaji": "itami",
+   "meaning": "pain",
+   "chars": [
+    "痛"
+   ]
+  },
+  {
+   "word": "痛む",
+   "kana": "いたむ",
+   "romaji": "itamu",
+   "meaning": "to hurt",
+   "chars": [
+    "痛"
+   ]
+  },
+  {
+   "word": "歯科",
+   "kana": "しか",
+   "romaji": "shika",
+   "meaning": "dentistry",
+   "chars": [
+    "歯",
+    "科"
+   ]
+  },
+  {
+   "word": "誰か",
+   "kana": "だれか",
+   "romaji": "dareka",
+   "meaning": "someone",
+   "chars": [
+    "誰"
+   ]
+  },
+  {
+   "word": "光",
+   "kana": "ひかり",
+   "romaji": "hikari",
+   "meaning": "light",
+   "chars": [
+    "光"
+   ]
+  },
+  {
+   "word": "医学",
+   "kana": "いがく",
+   "romaji": "igaku",
+   "meaning": "medical science",
+   "chars": [
+    "医",
+    "学"
+   ]
+  },
+  {
+   "word": "悪化",
+   "kana": "あっか",
+   "romaji": "akka",
+   "meaning": "(suffer) deterioration",
+   "chars": [
+    "悪",
+    "化"
+   ]
+  },
+  {
+   "word": "副作用",
+   "kana": "ふくさよう",
+   "romaji": "fukusayou",
+   "meaning": "side effect",
+   "chars": [
+    "副",
+    "作",
+    "用"
+   ]
+  },
+  {
+   "word": "効く",
+   "kana": "きく",
+   "romaji": "kiku",
+   "meaning": "to be effective",
+   "chars": [
+    "効"
+   ]
+  },
+  {
+   "word": "患者",
+   "kana": "かんじゃ",
+   "romaji": "kanja",
+   "meaning": "patient",
+   "chars": [
+    "患",
+    "者"
+   ]
+  },
+  {
+   "word": "血液",
+   "kana": "けつえき",
+   "romaji": "ketsueki",
+   "meaning": "blood",
+   "chars": [
+    "血",
+    "液"
+   ]
+  },
+  {
+   "word": "血圧",
+   "kana": "けつあつ",
+   "romaji": "ketsuatsu",
+   "meaning": "blood pressure",
+   "chars": [
+    "血",
+    "圧"
+   ]
+  },
+  {
+   "word": "栄養",
+   "kana": "えいよう",
+   "romaji": "eiyou",
+   "meaning": "nutrition",
+   "chars": [
+    "栄"
+   ]
+  }
+ ]
 }

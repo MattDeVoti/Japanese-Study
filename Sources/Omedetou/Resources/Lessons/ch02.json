@@ -1,1960 +1,2062 @@
 {
-  "id": "ch02",
-  "chapterNumber": 2,
-  "title": "Pointing and Location",
-  "points": [
+ "id": "ch02",
+ "chapterNumber": 2,
+ "title": "Pointing and Location",
+ "points": [
+  {
+   "id": "ko-so-a-do-mono",
+   "name": "こ・そ・あ・ど series (objects): これ・それ・あれ・どれ",
+   "shortDescription": "Demonstrative pronouns that stand alone — this, that (near you), that over there, which.",
+   "formation": "これ / それ / あれ / どれ (stand alone as pronouns)",
+   "explanation": "Japanese has a beautifully organized system for pointing at things, and it all hinges on one question: where is the object relative to the speaker and the listener? これ refers to something close to the speaker — the person talking. それ refers to something close to the listener — the person being spoken to. あれ refers to something far from both people. どれ is the question form: 'which one?' used when choosing from three or more options.\n\nThese four words are pronouns — they stand alone and replace a noun entirely. You say これは本[ほん]です (This is a book), where これ stands in place of naming the object. This contrasts with この/その/あの/どの (covered in the next point), which are adjectives that must always be followed directly by a noun.\n\nA key note: when choosing between exactly two options, use どちら instead of どれ — saving どれ for three or more.",
+   "rules": [
+    "これ = this (near speaker), それ = that (near listener), あれ = that over there, どれ = which?",
+    "These are pronouns — they replace a noun, they do not go in front of one",
+    "Use どれ for choosing from three or more items; use どちら for exactly two",
+    "The こ/そ/あ/ど pattern is called the kosoado system and appears across many word families"
+   ],
+   "examples": [
     {
-      "id": "ko-so-a-do-mono",
-      "name": "こ・そ・あ・ど series (objects): これ・それ・あれ・どれ",
-      "shortDescription": "Demonstrative pronouns that stand alone — this, that (near you), that over there, which.",
-      "formation": "これ / それ / あれ / どれ (stand alone as pronouns)",
-      "explanation": "Japanese has a beautifully organized system for pointing at things, and it all hinges on one question: where is the object relative to the speaker and the listener? これ refers to something close to the speaker — the person talking. それ refers to something close to the listener — the person being spoken to. あれ refers to something far from both people. どれ is the question form: 'which one?' used when choosing from three or more options.\n\nThese four words are pronouns — they stand alone and replace a noun entirely. You say これは本[ほん]です (This is a book), where これ stands in place of naming the object. This contrasts with この/その/あの/どの (covered in the next point), which are adjectives that must always be followed directly by a noun.\n\nA key note: when choosing between exactly two options, use どちら instead of どれ — saving どれ for three or more.",
-      "rules": [
-        "これ = this (near speaker), それ = that (near listener), あれ = that over there, どれ = which?",
-        "These are pronouns — they replace a noun, they do not go in front of one",
-        "Use どれ for choosing from three or more items; use どちら for exactly two",
-        "The こ/そ/あ/ど pattern is called the kosoado system and appears across many word families"
-      ],
-      "examples": [
-        {
-          "japanese": "これは何[なん]ですか。",
-          "romaji": "Kore wa nan desu ka.",
-          "english": "What is this?"
-        },
-        {
-          "japanese": "それは犬[いぬ]です。",
-          "romaji": "Sore wa inu desu.",
-          "english": "That (near you) is a dog."
-        },
-        {
-          "japanese": "あれはわたしの学校[がっこう]です。",
-          "romaji": "Are wa watashi no gakkou desu.",
-          "english": "That over there is my school."
-        },
-        {
-          "japanese": "どれがあなたのかばんですか。",
-          "romaji": "Dore ga anata no kaban desu ka.",
-          "english": "Which one is your bag?"
-        }
-      ],
-      "flashcardHeader": "こ・そ・あ・ど series (objects): これ・それ・あれ・どれ",
-      "flashcardAnswer": "Demonstrative pronouns for objects: this, that, that over there, which.",
-      "practice": [
-        {
-          "id": "ko-so-a-do-mono_q1",
-          "type": "usage",
-          "prompt": "A speaker picks up an object near them and says 'This is a key.' Which word do they use for 'this'?",
-          "choices": [
-            "あれは鍵[かぎ]です。",
-            "それは鍵[かぎ]です。",
-            "これは鍵[かぎ]です。",
-            "どれは鍵[かぎ]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "これ refers to something near the speaker. The speaker is holding the key, so これ is correct. それ = near listener; あれ = far from both; どれ = 'which?' (a question word, not a statement)."
-        },
-        {
-          "id": "ko-so-a-do-mono_q2",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "これは何[なん]ですか。",
-          "choices": [
-            "What is that (near you)?",
-            "What is that over there?",
-            "What is this?",
-            "Which one is this?"
-          ],
-          "correctIndex": 2,
-          "explanation": "これ refers to something near the speaker; 何[なに] means 'what.' これは何[なん]ですか = 'What is this?' — asking about something close to the person speaking. それ would ask about something near the listener."
-        },
-        {
-          "id": "ko-so-a-do-mono_q3",
-          "type": "construct",
-          "prompt": "You and a friend are choosing from five different bags. How do you ask 'Which one is your bag?'",
-          "choices": [
-            "どちらがあなたのかばんですか。",
-            "これがあなたのかばんですか。",
-            "あれがあなたのかばんですか。",
-            "どれがあなたのかばんですか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "どれ is used when choosing from three or more options. For exactly two choices, どちら would be correct. これ and あれ refer to specific items, not a range of options to choose from."
-        },
-        {
-          "id": "ko-so-a-do-mono_q4",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you are pointing at something near the listener and asking if it is a dog.",
-          "japanese": "___は犬[いぬ]ですか。",
-          "choices": [
-            "どれ",
-            "これ",
-            "それ",
-            "あれ"
-          ],
-          "correctIndex": 2,
-          "explanation": "それ refers to something near the listener (the person being spoken to). これ = near speaker; あれ = far from both; どれ = which? (question word). Since the object is near the listener, それ is correct."
-        },
-        {
-          "id": "ko-so-a-do-mono_q5",
-          "type": "construct",
-          "prompt": "How do you say 'That over there is my school' in Japanese?",
-          "choices": [
-            "それはわたしの学校[がっこう]です。",
-            "あれはわたしの学校[がっこう]です。",
-            "これはわたしの学校[がっこう]です。",
-            "どれはわたしの学校[がっこう]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "あれ refers to something far from both speaker and listener — used when pointing at something in the distance. それ would mean the school is near the listener; これ would mean it's near the speaker. どれ asks a question."
-        },
-        {
-          "id": "ko-so-a-do-mono_q6",
-          "type": "translation",
-          "prompt": "What does それ refer to in this sentence?",
-          "japanese": "それはだれのかばんですか。",
-          "choices": [
-            "something near the listener",
-            "something near the speaker",
-            "something far from both",
-            "which thing"
-          ],
-          "correctIndex": 0,
-          "explanation": "それ refers to something near the listener (the person being spoken to). これ = near speaker; あれ = far from both; どれ = 'which?' (a question word, not a pointing word)."
-        },
-        {
-          "id": "ko-so-a-do-mono_q7",
-          "type": "usage",
-          "prompt": "You are sitting across from a friend. They have a notebook in front of them. Which sentence correctly asks 'Is that (near you) a notebook?'",
-          "japanese": null,
-          "choices": [
-            "これはノートですか。",
-            "それはノートですか。",
-            "あれはノートですか。",
-            "どれはノートですか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "それ is used for something near the listener. Since the notebook is in front of your friend (the listener), それ is correct. これ = near speaker; あれ = far from both; どれ asks 'which?' and cannot be used for a simple yes/no question this way."
-        },
-        {
-          "id": "ko-so-a-do-mono_q8",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: a museum building is in the far distance, far from both you and your companion.",
-          "japanese": "___は博物館[はくぶつかん]です。",
-          "choices": [
-            "それ",
-            "どれ",
-            "あれ",
-            "これ"
-          ],
-          "correctIndex": 2,
-          "explanation": "あれ refers to something far from both speaker and listener. それ = near listener; これ = near speaker; どれ asks 'which one?' — it is a question word, not a pointing word."
-        },
-        {
-          "id": "ko-so-a-do-mono_q9",
-          "type": "construct",
-          "prompt": "How do you ask 'Which one is yours?' when pointing at a row of five umbrellas?",
-          "japanese": null,
-          "choices": [
-            "あれがあなたのですか。",
-            "それがあなたのですか。",
-            "どちらがあなたのですか。",
-            "どれがあなたのですか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "どれ is used when choosing from three or more options. Since there are five umbrellas, どれ is correct. どちら would be used if there were only two umbrellas. これ and あれ point to specific items rather than asking which one."
-        },
-        {
-          "id": "ko-so-a-do-mono_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "あれは何[なん]ですか。",
-          "choices": [
-            "What is that over there?",
-            "What is that (near you)?",
-            "What is this?",
-            "Which one is what?"
-          ],
-          "correctIndex": 0,
-          "explanation": "あれ refers to something far from both speaker and listener. 何[なに] = what. あれは何[なん]ですか = 'What is that over there?' The speaker and listener are both looking at something in the distance."
-        },
-        {
-          "id": "ko-so-a-do-mono_q11",
-          "type": "usage",
-          "prompt": "A asks: 「これは何[なん]ですか。」(pointing to something near A). How would B naturally refer to the same object in their answer?",
-          "japanese": null,
-          "choices": [
-            "あれはペンです。",
-            "それはペンです。",
-            "どれはペンです。",
-            "これはペンです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "When A points to something near A and says これ, B sees that same object as being near A (B's listener), so B refers to it as それ. This これ/それ switch in question/answer pairs is a classic feature of the kosoado system."
-        },
-        {
-          "id": "ko-so-a-do-mono_q12",
-          "type": "fillBlank",
-          "prompt": "A is holding a pen and says: '___はペンです。' B replies: 'それはきれいですね。' Fill in A's blank.",
-          "japanese": "___はペンです。",
-          "choices": [
-            "どれ",
-            "あれ",
-            "これ",
-            "それ"
-          ],
-          "correctIndex": 2,
-          "explanation": "A is holding the pen, so A uses これ (near speaker). B then refers to the same pen as それ (near B's listener = near A). This question/answer shift demonstrates how これ and それ mirror each other in conversation."
-        },
-        {
-          "id": "ko-so-a-do-mono_q13",
-          "type": "construct",
-          "prompt": "Which of the following correctly identifies the grammatical role of これ・それ・あれ・どれ?",
-          "japanese": null,
-          "choices": [
-            "They are adjectives that must come directly before nouns.",
-            "They replace the particle は in sentences.",
-            "They can be combined with の to modify nouns, like この.",
-            "They are pronouns that stand alone and replace a noun entirely."
-          ],
-          "correctIndex": 3,
-          "explanation": "これ/それ/あれ/どれ are pronouns — they stand in place of a noun entirely. This distinguishes them from この/その/あの/どの, which are adjectives that must precede a noun. You say これは本[ほん]です (pronoun), not これ本[ほん] or これの本[ほん]."
-        },
-        {
-          "id": "ko-so-a-do-mono_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "これは新[あたら]しい時計[とけい]です。",
-          "choices": [
-            "This is a new watch.",
-            "That (near you) is a new watch.",
-            "That over there is a new watch.",
-            "Which one is the new watch?"
-          ],
-          "correctIndex": 0,
-          "explanation": "これ = this (near speaker); 新[あたら]しい = new; 時計[とけい] = watch; です = is. 'This is a new watch.' — the speaker is near the watch they are describing."
-        },
-        {
-          "id": "ko-so-a-do-mono_q15",
-          "type": "usage",
-          "prompt": "You are choosing between exactly two pens. Which word is more appropriate — どれ or どちら?",
-          "japanese": null,
-          "choices": [
-            "どれ — it works for any number of choices.",
-            "どちら — it is used when choosing between exactly two options.",
-            "どれ — どちら is only used for people, not objects.",
-            "どちら — only when one option is unknown."
-          ],
-          "correctIndex": 1,
-          "explanation": "どちら is used when choosing between exactly two options. どれ is reserved for three or more. This is a firm rule in Japanese: どちら (two), どれ (three or more). Both can refer to objects."
-        },
-        {
-          "id": "ko-so-a-do-mono_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you are picking up your wallet to show it to someone.",
-          "japanese": "___はわたしの財布[さいふ]です。",
-          "choices": [
-            "あれ",
-            "それ",
-            "これ",
-            "どれ"
-          ],
-          "correctIndex": 2,
-          "explanation": "You are holding the wallet — it is near you (the speaker). これ = near speaker. それ would mean it is near the listener; あれ = far from both; どれ = 'which?' (a question word, not a statement)."
-        },
-        {
-          "id": "ko-so-a-do-mono_q17",
-          "type": "construct",
-          "prompt": "How do you say 'That over there is a hospital' in Japanese?",
-          "japanese": null,
-          "choices": [
-            "これは病院[びょういん]です。",
-            "それは病院[びょういん]です。",
-            "どれは病院[びょういん]です。",
-            "あれは病院[びょういん]です。"
-          ],
-          "correctIndex": 3,
-          "explanation": "あれ refers to something far from both speaker and listener. Hospital buildings are typically pointed at from a distance, making あれ the correct choice. これ = near speaker; それ = near listener; どれ asks a question."
-        },
-        {
-          "id": "ko-so-a-do-mono_q18",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "それは高[たか]いですか。",
-          "choices": [
-            "Is that (near you) expensive?",
-            "Is this (near me) expensive?",
-            "Is that over there expensive?",
-            "Which one is expensive?"
-          ],
-          "correctIndex": 0,
-          "explanation": "それ refers to something near the listener. 高[たか]い = expensive; ですか = question marker. 'Is that (near you) expensive?' — the speaker is asking the listener about something by the listener."
-        },
-        {
-          "id": "ko-so-a-do-mono_q19",
-          "type": "usage",
-          "prompt": "A says 「あれはきれいですね。」(pointing at something far away). What does A's choice of demonstrative tell us?",
-          "japanese": null,
-          "choices": [
-            "The beautiful thing is near A.",
-            "あれ — the beautiful thing is far from both A and the listener.",
-            "The beautiful thing is near the listener.",
-            "A is asking which thing is pretty."
-          ],
-          "correctIndex": 1,
-          "explanation": "あれ points to something far from both the speaker and the listener. Since A used あれ, we know the beautiful thing (perhaps a mountain or building) is in the distance, away from both people in the conversation."
-        },
-        {
-          "id": "ko-so-a-do-mono_q20",
-          "type": "construct",
-          "prompt": "Complete the mini-dialogue. A holds up a key. A: 「___は鍵[かぎ]です。」B: 「___は古[ふる]いですか。」Choose the correct pair of blanks in order.",
-          "japanese": null,
-          "choices": [
-            "あれ / これ",
-            "どれ / それ",
-            "これ / それ",
-            "それ / これ"
-          ],
-          "correctIndex": 2,
-          "explanation": "A is holding the key (near A = speaker), so A uses これ. B sees the key as being near A (B's listener), so B uses それ. This これ/それ mirror pattern is fundamental to question/answer exchanges in Japanese."
-        }
-      ]
+     "japanese": "これは何[なん]ですか。",
+     "romaji": "Kore wa nan desu ka.",
+     "english": "What is this?"
     },
     {
-      "id": "ko-so-a-do-noun",
-      "name": "この・その・あの・どの (with nouns)",
-      "shortDescription": "Demonstrative adjectives placed directly before a noun.",
-      "formation": "この / その / あの / どの + Noun",
-      "explanation": "While これ/それ/あれ/どれ stand alone as pronouns, この/その/あの/どの must always be followed directly by a noun — they are adjectives, not pronouns. Think of it this way: if you name the object, use この/その/あの/どの. If you replace the object's name entirely, use これ/それ/あれ/どれ.\n\nこの本[ほん] means 'this book' — the adjective plus a named noun. これは本[ほん]です means 'This is a book' — the pronoun stands alone. The four follow the same near-speaker / near-listener / far / question pattern as the rest of the kosoado system.\n\nOne important detail: nothing can come between the adjective and its noun — この and その attach directly, with no particles or extra words inserted between them.",
-      "rules": [
-        "Must be immediately followed by a noun — never used alone",
-        "この = this [noun], その = that [noun] near listener, あの = that [noun] over there, どの = which [noun]?",
-        "Contrast: この本[ほん] (this book — adjective + noun) vs これは本[ほん] (This is a book — pronoun)"
-      ],
-      "examples": [
-        {
-          "japanese": "このかばんはいくらですか。",
-          "romaji": "Kono kaban wa ikura desu ka.",
-          "english": "How much is this bag?"
-        },
-        {
-          "japanese": "その本[ほん]はだれのですか。",
-          "romaji": "Sono hon wa dare no desu ka.",
-          "english": "Whose book is that (near you)?"
-        },
-        {
-          "japanese": "あの人[ひと]はだれですか。",
-          "romaji": "Ano hito wa dare desu ka.",
-          "english": "Who is that person over there?"
-        },
-        {
-          "japanese": "どの電車[でんしゃ]に乗[の]りますか。",
-          "romaji": "Dono densha ni norimasu ka.",
-          "english": "Which train will you ride?"
-        }
-      ],
-      "flashcardHeader": "この・その・あの・どの",
-      "flashcardAnswer": "Demonstrative adjectives placed directly before a noun.",
-      "practice": [
-        {
-          "id": "ko-so-a-do-noun_q1",
-          "type": "construct",
-          "prompt": "Which sentence is correctly formed using a demonstrative adjective before a noun?",
-          "choices": [
-            "この本[ほん]はおもしろいです。",
-            "この はおもしろい本[ほん]です。",
-            "これ本[ほん]はおもしろいです。",
-            "これの本[ほん]はおもしろいです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "この must be placed directly before its noun — この本[ほん] (this book). これ is a pronoun that stands alone; it cannot directly precede a noun. Nothing can be inserted between この and its noun."
-        },
-        {
-          "id": "ko-so-a-do-noun_q2",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "このかばんはいくらですか。",
-          "choices": [
-            "Where is this bag?",
-            "Is this bag expensive?",
-            "How much is this bag?",
-            "Whose bag is this?"
-          ],
-          "correctIndex": 2,
-          "explanation": "この = this (adjective + noun); かばん = bag; いくら = how much; ですか = question marker. Together: 'How much is this bag?' — a classic shopping question using the demonstrative adjective この."
-        },
-        {
-          "id": "ko-so-a-do-noun_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to ask about a person far from both speaker and listener.",
-          "japanese": "___人[ひと]はだれですか。",
-          "choices": [
-            "あの",
-            "その",
-            "どの",
-            "この"
-          ],
-          "correctIndex": 0,
-          "explanation": "あの + noun refers to someone or something far from both speaker and listener. この = near speaker; その = near listener; どの = 'which?' (question). Since the person is distant from everyone, あの is correct."
-        },
-        {
-          "id": "ko-so-a-do-noun_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses a demonstrative adjective?",
-          "choices": [
-            "電車[でんしゃ]どのに乗[の]りますか。",
-            "どれ電車[でんしゃ]に乗[の]りますか。",
-            "どの電車[でんしゃ]に乗[の]りますか。",
-            "どの乗[の]りますか電車[でんしゃ]に。"
-          ],
-          "correctIndex": 2,
-          "explanation": "どの is the demonstrative adjective and must come directly before a noun: どの電車[でんしゃ] (which train). どれ is a pronoun and cannot precede a noun. Word order in Japanese keeps the noun phrase together before the particle."
-        },
-        {
-          "id": "ko-so-a-do-noun_q5",
-          "type": "construct",
-          "prompt": "What is the key grammatical difference between これ and この?",
-          "choices": [
-            "これ is for nearby objects; この is only for faraway objects.",
-            "これ is a pronoun (stands alone); この is an adjective (must precede a noun).",
-            "これ is formal; この is casual.",
-            "これ always requires か; この does not."
-          ],
-          "correctIndex": 1,
-          "explanation": "これ replaces a noun entirely (pronoun): これは本[ほん]です (This is a book). この must be immediately followed by a noun (adjective): この本[ほん] (this book). The same near/far distinction applies to both sets."
-        },
-        {
-          "id": "ko-so-a-do-noun_q6",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "その人[ひと]はだれですか。",
-          "choices": [
-            "Who is that person (near you)?",
-            "Who is this person (near me)?",
-            "Who is that person over there?",
-            "Which person is it?"
-          ],
-          "correctIndex": 0,
-          "explanation": "その + noun refers to something near the listener. その人[ひと] = that person (near you); だれ = who; ですか = question. 'Who is that person (near you)?' — the speaker is asking about someone near the listener."
-        },
-        {
-          "id": "ko-so-a-do-noun_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you are describing a book that is near your friend (the listener).",
-          "japanese": "___本[ほん]はおもしろいですか。",
-          "choices": [
-            "この",
-            "その",
-            "あの",
-            "どの"
-          ],
-          "correctIndex": 1,
-          "explanation": "その + noun refers to something near the listener. Since the book is near your friend, その本[ほん] is correct. この = near speaker; あの = far from both; どの = 'which?' question form."
-        },
-        {
-          "id": "ko-so-a-do-noun_q8",
-          "type": "construct",
-          "prompt": "Which sentence correctly uses a demonstrative adjective to say 'That building over there is big'?",
-          "japanese": null,
-          "choices": [
-            "これは建物[たてもの]が大[おお]きいです。",
-            "あれの建物[たてもの]は大[おお]きいです。",
-            "あの建物[たてもの]は大[おお]きいです。",
-            "どの建物[たてもの]が大[おお]きいです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "あの directly precedes 建物[たてもの] (building) to form あの建物[たてもの] = that building over there. これ is a pronoun, not an adjective. あれの建物[たてもの] is ungrammatical — あれ cannot connect to a noun with の in this pattern. どの makes a question."
-        },
-        {
-          "id": "ko-so-a-do-noun_q9",
-          "type": "usage",
-          "prompt": "What is the critical rule that distinguishes この/その/あの/どの from これ/それ/あれ/どれ?",
-          "japanese": null,
-          "choices": [
-            "この/その/あの/どの cannot be used in questions.",
-            "この/その/あの/どの refer only to objects, not people.",
-            "この/その/あの/どの are only used in formal speech.",
-            "この/その/あの/どの must always be followed directly by a noun."
-          ],
-          "correctIndex": 3,
-          "explanation": "この/その/あの/どの are adjectives — they must always be immediately followed by a noun. これ/それ/あれ/どれ are pronouns that stand alone. You say この本[ほん] (this book, adjective + noun) but cannot use この alone with only a particle following it."
-        },
-        {
-          "id": "ko-so-a-do-noun_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "どの電車[でんしゃ]に乗[の]りますか。",
-          "choices": [
-            "Which train will you take?",
-            "Where is the train?",
-            "When does the train leave?",
-            "That train is crowded."
-          ],
-          "correctIndex": 0,
-          "explanation": "どの + noun asks 'which ?' — here どの電車[でんしゃ] = which train; 乗[の]りますか = will you ride/take? Together: 'Which train will you take?' — a practical question using the question demonstrative adjective."
-        },
-        {
-          "id": "ko-so-a-do-noun_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: a restaurant that is far from both speaker and listener.",
-          "japanese": "___レストランは有名[ゆうめい]ですか。",
-          "choices": [
-            "その",
-            "あの",
-            "この",
-            "どの"
-          ],
-          "correctIndex": 1,
-          "explanation": "あの + noun refers to something far from both speaker and listener. あの is placed directly before the noun レストラン (no particle between them). その = near listener; この = near speaker; どの = 'which?' question form."
-        },
-        {
-          "id": "ko-so-a-do-noun_q12",
-          "type": "construct",
-          "prompt": "A friend hands you a book from their lap. Now the book is in your hands. To ask 'Is this book interesting?' which sentence do you use?",
-          "japanese": null,
-          "choices": [
-            "あの本[ほん]はおもしろいですか。",
-            "どの本[ほん]はおもしろいですか。",
-            "この本[ほん]はおもしろいですか。",
-            "その本[ほん]はおもしろいですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Once your friend hands the book to you, it is now near you (the speaker), so この本[ほん] is correct. Before being handed it, while it was in your friend's lap (near the listener), その would have been correct. Location at the time of speaking determines the choice."
-        },
-        {
-          "id": "ko-so-a-do-noun_q13",
-          "type": "usage",
-          "prompt": "Choose the grammatically correct sentence.",
-          "japanese": null,
-          "choices": [
-            "どれ人[ひと]はだれですか。",
-            "これ電車[でんしゃ]はどれですか。",
-            "あれのバスはどこへ行[い]きますか。",
-            "どのバスはどこへ行[い]きますか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "どの must precede a noun: どのバス = which bus, followed by はどこへ行[い]きますか (where does it go?). どれ is a pronoun and cannot precede 人[ひと]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
-        },
-        {
-          "id": "ko-so-a-do-noun_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "このかさはだれのですか。",
-          "choices": [
-            "Whose umbrella is this?",
-            "Which umbrella is yours?",
-            "Is this umbrella expensive?",
-            "Where is this umbrella from?"
-          ],
-          "correctIndex": 0,
-          "explanation": "この = this (near speaker) + かさ = umbrella; だれ = who; の = possessive marker; ですか = question. 'Whose umbrella is this?' — the classic ownership question using the demonstrative adjective この."
-        },
-        {
-          "id": "ko-so-a-do-noun_q15",
-          "type": "usage",
-          "prompt": "You can see a car in the distance that belongs to your teacher. Which sentence correctly says 'That car over there is the teacher's'?",
-          "japanese": null,
-          "choices": [
-            "そのくるまはせんせいのです。",
-            "あのくるまはせんせいのです。",
-            "このくるまはせんせいのです。",
-            "どのくるまはせんせいのですか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "あの + noun refers to something far from both speaker and listener. Since the car is in the distance, あのくるま (that car over there) is correct. その = near listener; この = near speaker; どの makes it a question."
-        },
-        {
-          "id": "ko-so-a-do-noun_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you want to ask which bag someone prefers from a display of many bags in a store.",
-          "japanese": "___かばんがいいですか。",
-          "choices": [
-            "この",
-            "あの",
-            "どの",
-            "その"
-          ],
-          "correctIndex": 2,
-          "explanation": "どの + noun asks 'which [noun]?' — どのかばん = which bag. This is the question form for choosing among multiple options. この/その/あの all point to specific known bags rather than asking the listener to choose."
-        },
-        {
-          "id": "ko-so-a-do-noun_q17",
-          "type": "construct",
-          "prompt": "Why is 「これの本[ほん]は重[おも]いです。」ungrammatical?",
-          "japanese": null,
-          "choices": [
-            "これ cannot be used with books.",
-            "重[おも]い cannot follow は in this structure, with no exceptions in modern standard Japanese.",
-            "これ should be replaced with あの here.",
-            "これ is a pronoun and cannot precede a noun — use この instead."
-          ],
-          "correctIndex": 3,
-          "explanation": "これ is a pronoun and cannot directly precede a noun, even with の inserted. The correct form is この本[ほん] (this book) — an adjective + noun. の connects nouns to nouns (e.g., 先生[せんせい]の本[ほん]) but cannot rescue これ into an adjective role."
-        },
-        {
-          "id": "ko-so-a-do-noun_q18",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "あの山[やま]は高[たか]いですね。",
-          "choices": [
-            "That mountain over there is tall, isn't it?",
-            "This mountain here is tall.",
-            "Which mountain is tall?",
-            "Is that mountain (near you) tall?"
-          ],
-          "correctIndex": 0,
-          "explanation": "あの = that (over there, far from both); 山[やま] = mountain; 高[たか]い = tall; ですね = 'isn't it?' Together: 'That mountain over there is tall, isn't it?' — a typical observation about something in the distance."
-        },
-        {
-          "id": "ko-so-a-do-noun_q19",
-          "type": "usage",
-          "prompt": "Which pair correctly contrasts the pronoun and adjective forms of the demonstrative system?",
-          "japanese": null,
-          "choices": [
-            "これは車[くるま]です / これ車[くるま]は新[あたら]しいです",
-            "これは車[くるま]です / この車[くるま]は新[あたら]しいです",
-            "この車[くるま]です / これの車[くるま]は新[あたら]しいです",
-            "それ車[くるま]です / そのは車[くるま]です"
-          ],
-          "correctIndex": 1,
-          "explanation": "これは車[くるま]です uses これ as a pronoun (stands alone): 'This is a car.' この車[くるま]は新[あたら]しいです uses この as an adjective before 車[くるま]: 'This car is new.' The two forms cannot be swapped — これ cannot precede a noun directly."
-        },
-        {
-          "id": "ko-so-a-do-noun_q20",
-          "type": "construct",
-          "prompt": "How do you say 'That person near you is my friend' in Japanese?",
-          "japanese": null,
-          "choices": [
-            "あの人[ひと]はわたしの友達[ともだち]です。",
-            "この人[ひと]はわたしの友達[ともだち]です。",
-            "その人[ひと]はわたしの友達[ともだち]です。",
-            "どの人[ひと]はわたしの友達[ともだち]ですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "その + noun = that  near the listener. If the person is near the listener, その人[ひと] is correct. あの = far from both; この = near speaker; どの asks a question. その人[ひと]はわたしの友達[ともだち]です = 'That person (near you) is my friend.'"
-        }
-      ]
+     "japanese": "それは犬[いぬ]です。",
+     "romaji": "Sore wa inu desu.",
+     "english": "That (near you) is a dog."
     },
     {
-      "id": "ko-so-a-do-place",
-      "name": "ここ・そこ・あそこ・どこ (places)",
-      "shortDescription": "Demonstrative pronouns for places: here, there, over there, where.",
-      "formation": "ここ / そこ / あそこ / どこ (used as nouns for places)",
-      "explanation": "The kosoado system has pronouns for objects, adjectives for nouns — and a full set of place words too. ここ means 'here,' the speaker's location. そこ means 'there,' the listener's location. あそこ means 'over there,' far from both people. どこ means 'where?' These words function as nouns, so you attach particles to them just as you would to any place noun.\n\nThe particle に marks where something exists or is heading: ここに = 'at this place / to this place.' The particle で marks where an action takes place: そこで = 'doing something at that place.' Beginners often confuse the two — a helpful shortcut: に is for being or arriving, で is for doing. This に vs で distinction will become a cornerstone of Japanese particle usage throughout your studies.",
-      "rules": [
-        "ここ = here (speaker's location), そこ = there (listener's location), あそこ = over there, どこ = where?",
-        "Add に for location of existence or destination: ここにあります (It is here)",
-        "Add で for location of action: そこで食[た]べます (I'll eat there)",
-        "どこ is used in open-ended 'where' questions, not for choosing between options"
-      ],
-      "examples": [
-        {
-          "japanese": "トイレはどこですか。",
-          "romaji": "Toire wa doko desu ka.",
-          "english": "Where is the restroom?"
-        },
-        {
-          "japanese": "ここは学校[がっこう]です。",
-          "romaji": "Koko wa gakkou desu.",
-          "english": "This place is the school."
-        },
-        {
-          "japanese": "あそこにスーパーがあります。",
-          "romaji": "Asoko ni suupaa ga arimasu.",
-          "english": "There is a supermarket over there."
-        },
-        {
-          "japanese": "そこで待[ま]ってください。",
-          "romaji": "Soko de matte kudasai.",
-          "english": "Please wait there."
-        }
-      ],
-      "flashcardHeader": "ここ・そこ・あそこ・どこ",
-      "flashcardAnswer": "Demonstrative pronouns for places: here, there, over there, where.",
-      "practice": [
-        {
-          "id": "ko-so-a-do-place_q1",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "トイレはどこですか。",
-          "choices": [
-            "Where is the restroom?",
-            "The restroom is over there.",
-            "How far is the restroom?",
-            "Is there a restroom here?"
-          ],
-          "correctIndex": 0,
-          "explanation": "どこ is the place question word meaning 'where.' Combined with は and ですか, トイレはどこですか asks where the restroom is — one of the most practical sentences you will use in Japan."
-        },
-        {
-          "id": "ko-so-a-do-place_q2",
-          "type": "construct",
-          "prompt": "How do you say 'I'll eat there' — performing an action at the listener's location?",
-          "choices": [
-            "そこを食[た]べます。",
-            "そこに食[た]べます。",
-            "そこが食[た]べます。",
-            "そこで食[た]べます。"
-          ],
-          "correctIndex": 3,
-          "explanation": "で marks the place where an action takes place: そこで = 'at that place.' に marks location of existence or destination, not action. A helpful shortcut: に is for being or arriving; で is for doing."
-        },
-        {
-          "id": "ko-so-a-do-place_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: there is a supermarket far away from both you and your listener.",
-          "japanese": "___にスーパーがあります。",
-          "choices": [
-            "どこ",
-            "そこ",
-            "あそこ",
-            "ここ"
-          ],
-          "correctIndex": 2,
-          "explanation": "あそこ means 'over there' — far from both speaker and listener. ここ = here (speaker's location); そこ = there (listener's location); どこ = where (a question word, not a statement)."
-        },
-        {
-          "id": "ko-so-a-do-place_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses a place pronoun?",
-          "choices": [
-            "ここは学校[がっこう]です。",
-            "学校[がっこう]はここを。",
-            "ここの学校[がっこう]います。",
-            "ここで学校[がっこう]です。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ここは学校[がっこう]です follows the standard pattern: place pronoun + は + noun + です, meaning 'This place is the school.' で marks an action location; の connects nouns; を marks a direct object — none of these fit a simple identity statement."
-        },
-        {
-          "id": "ko-so-a-do-place_q5",
-          "type": "construct",
-          "prompt": "A dog is sitting at the listener's feet. Which sentence tells them 'There is a dog there'?",
-          "choices": [
-            "あそこに犬[いぬ]がいます。",
-            "そこに犬[いぬ]がいます。",
-            "ここに犬[いぬ]がいます。",
-            "どこに犬[いぬ]がいますか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "そこ refers to a location near the listener. Since the dog is at the listener's feet, そこに犬[いぬ]がいます is correct. ここ = near speaker; あそこ = far from both; どこ is a question word (makes the sentence a question, not a statement)."
-        },
-        {
-          "id": "ko-so-a-do-place_q6",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "ここは図書館[としょかん]です。",
-          "choices": [
-            "This place is the library.",
-            "That place (near you) is the library.",
-            "The library is over there.",
-            "Where is the library?"
-          ],
-          "correctIndex": 0,
-          "explanation": "ここ = here (speaker's location); 図書館[としょかん] = library; です = is. 'This place is the library.' — the speaker is standing at or pointing to the library's location."
-        },
-        {
-          "id": "ko-so-a-do-place_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: the station is at the listener's location.",
-          "japanese": "___が駅[えき]です。",
-          "choices": [
-            "ここ",
-            "そこ",
-            "あそこ",
-            "どこ"
-          ],
-          "correctIndex": 1,
-          "explanation": "そこ refers to a location near the listener. If the station is where the listener is, そこが駅[えき]です = 'That place (near you) is the station.' ここ = speaker's location; あそこ = far from both; どこ = where (question)."
-        },
-        {
-          "id": "ko-so-a-do-place_q8",
-          "type": "construct",
-          "prompt": "Which sentence correctly answers どこで勉強[べんきょう]しますか with 'I study over there (at that place in the distance)'?",
-          "japanese": null,
-          "choices": [
-            "あそこから勉強[べんきょう]します。",
-            "どこで勉強[べんきょう]しますか。",
-            "あそこで勉強[べんきょう]します。",
-            "ここに勉強[べんきょう]します。"
-          ],
-          "correctIndex": 2,
-          "explanation": "で marks the location of an action — あそこで = 'over there at that place.' から marks origin (from); に marks existence/destination, not action location. あそこで勉強[べんきょう]します = 'I study over there (at that place in the distance).'"
-        },
-        {
-          "id": "ko-so-a-do-place_q9",
-          "type": "usage",
-          "prompt": "What is the difference between に and で when used with place demonstratives like ここ・そこ・あそこ?",
-          "japanese": null,
-          "choices": [
-            "に is for questions; で is for statements.",
-            "に marks human presence; で marks object presence.",
-            "に and で are interchangeable in most sentences.",
-            "に marks location of existence/destination; で marks location of action."
-          ],
-          "correctIndex": 3,
-          "explanation": "に marks where something exists or is headed: ここにあります (it is here). で marks where an action takes place: そこで食[た]べます (I eat there). This に vs で distinction is one of the most important particle rules in Japanese."
-        },
-        {
-          "id": "ko-so-a-do-place_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "あそこから来[き]ましたか。",
-          "choices": [
-            "Did you come from over there?",
-            "Are you going over there?",
-            "Is there something over there?",
-            "Where did you come from?"
-          ],
-          "correctIndex": 0,
-          "explanation": "あそこ = over there (far from both); から = from; 来[き]ましたか = did you come? Together: 'Did you come from over there?' — から marks the starting point of movement, and あそこ specifies the distant origin."
-        },
-        {
-          "id": "ko-so-a-do-place_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you want to tell someone 'Please sit here' (at the speaker's location).",
-          "japanese": "___に座[すわ]ってください。",
-          "choices": [
-            "どこ",
-            "ここ",
-            "そこ",
-            "あそこ"
-          ],
-          "correctIndex": 1,
-          "explanation": "ここ = here (speaker's location). に marks the destination or point of arrival/presence. ここに座[すわ]ってください = 'Please sit here.' そこ = listener's location; あそこ = far from both; どこ = 'where?' (question word)."
-        },
-        {
-          "id": "ko-so-a-do-place_q12",
-          "type": "construct",
-          "prompt": "How do you ask 'Where is the park?' in Japanese?",
-          "japanese": null,
-          "choices": [
-            "公園[こうえん]はそこです。",
-            "あそこに公園[こうえん]があります。",
-            "公園[こうえん]はどこですか。",
-            "公園[こうえん]にどこですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "どこ is the place question word meaning 'where.' 公園[こうえん]はどこですか = 'Where is the park?' following the pattern: topic + は + どこ + ですか. そこ and あそこ point to specific locations rather than asking where something is."
-        },
-        {
-          "id": "ko-so-a-do-place_q13",
-          "type": "usage",
-          "prompt": "You are at a train station. A stranger walks up. They want to know your destination. Which sentence correctly asks 'Where are you going?'",
-          "japanese": null,
-          "choices": [
-            "あそこへ行[い]きますか。",
-            "ここへ行[い]きますか。",
-            "そこへ行[い]きますか。",
-            "どこへ行[い]きますか。"
-          ],
-          "correctIndex": 3,
-          "explanation": "どこ is the question word for places — 'where?' どこへ行[い]きますか = 'Where are you going?' へ marks direction of movement. ここ/そこ/あそこ all point to specific places rather than asking an open-ended question."
-        },
-        {
-          "id": "ko-so-a-do-place_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "そこで待[ま]ってください。",
-          "choices": [
-            "Please wait there (where you are).",
-            "Please come here.",
-            "Is someone waiting there?",
-            "Where should I wait?"
-          ],
-          "correctIndex": 0,
-          "explanation": "そこ = there (near the listener); で = particle marking location of action; 待[ま]ってください = please wait. 'Please wait there (where you are).' — the speaker tells the listener to stay in the listener's current location."
-        },
-        {
-          "id": "ko-so-a-do-place_q15",
-          "type": "usage",
-          "prompt": "A convenience store is in the far distance that both you and your friend can see. How do you say 'There is a convenience store over there'?",
-          "japanese": null,
-          "choices": [
-            "ここにコンビニがあります。",
-            "あそこにコンビニがあります。",
-            "そこにコンビニがいます。",
-            "どこにコンビニがありますか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "あそこ = over there (far from both speaker and listener). に marks where something exists: あそこにコンビニがあります = 'There is a convenience store over there.' Note: あります (not います) is used for non-living things; どこ would ask a question."
-        },
-        {
-          "id": "ko-so-a-do-place_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you are asking where the hospital is.",
-          "japanese": "病院[びょういん]は___ですか。",
-          "choices": [
-            "ここ",
-            "あそこ",
-            "どこ",
-            "そこ"
-          ],
-          "correctIndex": 2,
-          "explanation": "どこ is the question word for places. 病院[びょういん]はどこですか = 'Where is the hospital?' — an open question asking for the location. ここ/そこ/あそこ all point to specific known locations rather than asking where something is."
-        },
-        {
-          "id": "ko-so-a-do-place_q17",
-          "type": "construct",
-          "prompt": "How do you say 'Let's eat here' in Japanese? (eating is an action)",
-          "japanese": null,
-          "choices": [
-            "ここに食[た]べましょう。",
-            "ここを食[た]べましょう。",
-            "ここが食[た]べましょう。",
-            "ここで食[た]べましょう。"
-          ],
-          "correctIndex": 3,
-          "explanation": "で marks the location of an action: ここで食[た]べましょう = 'Let's eat here.' に marks existence or destination, not where an action occurs; を marks a direct object; が marks a subject. The に vs で distinction is central to Japanese particle usage."
-        },
-        {
-          "id": "ko-so-a-do-place_q18",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "駅[えき]はどこですか。",
-          "choices": [
-            "Where is the station?",
-            "The station is over there.",
-            "Is there a station here?",
-            "How far is the station?"
-          ],
-          "correctIndex": 0,
-          "explanation": "駅[えき] = station; は = topic marker; どこ = where; ですか = question. 'Where is the station?' — the most direct way to ask for a location using the question place demonstrative."
-        },
-        {
-          "id": "ko-so-a-do-place_q19",
-          "type": "usage",
-          "prompt": "Which sentence is INCORRECT?",
-          "japanese": null,
-          "choices": [
-            "ここで写真[しゃしん]を撮[と]ります。",
-            "ここに写真[しゃしん]を撮[と]ります。",
-            "あそこに公園[こうえん]があります。",
-            "そこで会議[かいぎ]があります。"
-          ],
-          "correctIndex": 1,
-          "explanation": "ここに写真[しゃしん]を撮[と]ります is incorrect because で (not に) marks the place where an action takes place. 写真[しゃしん]を撮[と]る (to take a photo) is an action, so で is required: ここで写真[しゃしん]を撮[と]ります. に is correct for existence (あります/います) or destination."
-        },
-        {
-          "id": "ko-so-a-do-place_q20",
-          "type": "construct",
-          "prompt": "Someone cannot find the bank. How do you point and say 'The bank is over there'?",
-          "japanese": null,
-          "choices": [
-            "銀行[ぎんこう]はそこです。",
-            "銀行[ぎんこう]はここです。",
-            "銀行[ぎんこう]はあそこです。",
-            "銀行[ぎんこう]はどこですか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "あそこ = over there, far from both speaker and listener. If you are pointing in the distance, あそこ is correct. そこ = near the listener; ここ = near the speaker; どこ asks a question rather than providing an answer."
-        }
-      ]
+     "japanese": "あれはわたしの学校[がっこう]です。",
+     "romaji": "Are wa watashi no gakkou desu.",
+     "english": "That over there is my school."
     },
     {
-      "id": "noun-mo",
-      "name": "〜も (mo) — also, too",
-      "shortDescription": "Replaces は or が/を to mean 'also' or 'too'.",
-      "formation": "Noun + も + Predicate",
-      "explanation": "も is a particle with a simple but powerful meaning: 'also' or 'too.' It works by replacing other particles. わたしは学生[がくせい]です (I am a student) → わたしも学生[がくせい]です (I am also a student): the は is swapped out for も. The same replacement works with が: 猫[ねこ]がいます → 猫[ねこ]もいます (There is also a cat).\n\nOne firm rule to remember: in negative sentences, も means 'either' or 'not...either.' わたしも行[い]きません means 'I won't go either.' The pattern 〜も + negative must be consistent — you cannot mix positive and negative within the same paired statements.\n\nTo say 'both A and B,' stack two も: AもBも. Think of も as an inclusion operator — whatever it attaches to gets added to the same category as what came before it.",
-      "rules": [
-        "も replaces は, が, or を to add the meaning of 'also/too'",
-        "Positive: 〜も〜です / 〜もVます = also is / also does",
-        "Negative: 〜も〜ない = ...not...either",
-        "A も B も = both A and B (stacking も)",
-        "Do not use は and も together on the same noun"
-      ],
-      "examples": [
-        {
-          "japanese": "山田[やまだ]さんも学生[がくせい]です。",
-          "romaji": "Yamada-san mo gakusei desu.",
-          "english": "Yamada-san is also a student."
-        },
-        {
-          "japanese": "わたしも犬[いぬ]が好[す]きです。",
-          "romaji": "Watashi mo inu ga suki desu.",
-          "english": "I also like dogs."
-        },
-        {
-          "japanese": "猫[ねこ]もいますか。",
-          "romaji": "Neko mo imasu ka.",
-          "english": "Is there a cat too?"
-        },
-        {
-          "japanese": "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。",
-          "romaji": "Nihongo mo chuugokugo mo muzukashii desu.",
-          "english": "Both Japanese and Chinese are difficult."
-        }
-      ],
-      "flashcardHeader": "〜も",
-      "flashcardAnswer": "Replaces は or が/を to mean 'also' or 'too'.",
-      "practice": [
-        {
-          "id": "noun-mo_q1",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "山田[やまだ]さんも学生[がくせい]です。",
-          "choices": [
-            "Yamada-san is a student, isn't it?",
-            "Only Yamada-san is a student.",
-            "Yamada-san is not a student either.",
-            "Yamada-san is also a student."
-          ],
-          "correctIndex": 3,
-          "explanation": "も replaces は to add the meaning 'also/too.' 山田[やまだ]さんも implies someone else has already been identified as a student, and Yamada-san shares that description. The positive verb form confirms it is 'also,' not 'either.'"
-        },
-        {
-          "id": "noun-mo_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 'I also like dogs' (someone else has already said they like dogs).",
-          "japanese": "わたし___犬[いぬ]が好[す]きです。",
-          "choices": [
-            "が",
-            "も",
-            "を",
-            "は"
-          ],
-          "correctIndex": 1,
-          "explanation": "も replaces は (or other particles) to add 'also/too.' Using は would state 'I like dogs' without the 'also' nuance. が and を serve different grammatical functions and cannot replace the topic/subject slot here to mean 'also.'"
-        },
-        {
-          "id": "noun-mo_q3",
-          "type": "construct",
-          "prompt": "How do you say 'I won't go either' when someone else has said they also won't go?",
-          "choices": [
-            "わたしは行[い]きません。",
-            "わたしも行[い]きます。",
-            "わたしもは行[い]きません。",
-            "わたしも行[い]きません。"
-          ],
-          "correctIndex": 3,
-          "explanation": "In negative sentences, も means 'not...either.' わたしも行[い]きません = 'I won't go either.' Using は instead of も removes the 'either' nuance; combining もは is ungrammatical — は and も cannot stack on the same noun."
-        },
-        {
-          "id": "noun-mo_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses も to mean 'both A and B'?",
-          "choices": [
-            "日本語[にほんご]はも難[むずか]しいです。",
-            "も日本語[にほんご]も難[むずか]しいです。",
-            "日本語[にほんご]も難[むずか]しいはです。",
-            "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Stacking も on two nouns (AもBも) means 'both A and B.' は and も cannot appear together on the same noun; も does not go sentence-initially here; and particles must stay in their correct position after nouns."
-        },
-        {
-          "id": "noun-mo_q5",
-          "type": "construct",
-          "prompt": "Your friend says「猫[ねこ]が好[す]きです。」You also like cats. What do you say?",
-          "choices": [
-            "わたしがも好[す]きです。",
-            "わたしもは好[す]きです。",
-            "わたしは好[す]きです。",
-            "わたしも好[す]きです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "も replaces は to add 'also.' Since context makes clear the topic is cats, わたしも好[す]きです naturally means 'I also like (them).' Using は would simply state 'I like (them)' without the 'also.' もは and がも are ungrammatical combinations."
-        },
-        {
-          "id": "noun-mo_q6",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "猫[ねこ]もいますか。",
-          "choices": [
-            "Is there a cat too?",
-            "Is there only a cat?",
-            "Where is the cat?",
-            "Is there no cat either?"
-          ],
-          "correctIndex": 0,
-          "explanation": "猫[ねこ] = cat; も = also/too; いますか = is there? 'Is there a cat too?' — も implies something else has already been mentioned (perhaps a dog), and the speaker is asking if a cat is also present."
-        },
-        {
-          "id": "noun-mo_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 'Tanaka-san won't come either' (someone else won't come).",
-          "japanese": "田中[たなか]さん___来[き]ません。",
-          "choices": [
-            "は",
-            "も",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "In negative sentences, も means 'not...either.' 田中[たなか]さんも来[き]ません = 'Tanaka-san won't come either.' Using は would simply state 'Tanaka-san won't come' without the 'either' nuance. が and を serve different grammatical roles."
-        },
-        {
-          "id": "noun-mo_q8",
-          "type": "construct",
-          "prompt": "How do you say 'Both coffee and tea are delicious'?",
-          "japanese": null,
-          "choices": [
-            "コーヒーもと紅茶[こうちゃ]もおいしいです。",
-            "コーヒーと紅茶[こうちゃ]がもおいしいです。",
-            "コーヒーも紅茶[こうちゃ]もおいしいです。",
-            "コーヒーは紅茶[こうちゃ]もおいしいです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Stacking も on two nouns (AもBも) means 'both A and B.' コーヒーも紅茶[こうちゃ]もおいしいです = 'Both coffee and tea are delicious.' は cannot be stacked with も on the same noun. と is a conjunctive particle, not a substitute for the AもBも pattern."
-        },
-        {
-          "id": "noun-mo_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses も in a positive addition context (someone else is also a teacher)?",
-          "japanese": null,
-          "choices": [
-            "山田[やまだ]さんはも先生[せんせい]です。",
-            "山田[やまだ]さんがも先生[せんせい]です。",
-            "も山田[やまだ]さんは先生[せんせい]です。",
-            "山田[やまだ]さんも先生[せんせい]です。"
-          ],
-          "correctIndex": 3,
-          "explanation": "も replaces は (or other particles) — it does not stack with them. 山田[やまだ]さんも先生[せんせい]です = 'Yamada-san is also a teacher.' はも and がも are ungrammatical. も at the start of a sentence in this position is also incorrect."
-        },
-        {
-          "id": "noun-mo_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。",
-          "choices": [
-            "Both Japanese and Chinese are difficult.",
-            "Japanese is more difficult than Chinese.",
-            "Japanese is difficult, but Chinese is not.",
-            "Either Japanese or Chinese is difficult."
-          ],
-          "correctIndex": 0,
-          "explanation": "AもBも = both A and B. 日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです = 'Both Japanese and Chinese are difficult.' This stacked も pattern is an efficient and very common way to group two things under the same description."
-        },
-        {
-          "id": "noun-mo_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 'I also went to the park' (someone else also went).",
-          "japanese": "わたし___公園[こうえん]に行[い]きました。",
-          "choices": [
-            "は",
-            "も",
-            "が",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "も replaces the topic particle は to mean 'also/too.' わたしも公園[こうえん]に行[い]きました = 'I also went to the park.' Using は would simply state 'I went to the park' without the 'also' nuance. が marks a subject; を marks a direct object."
-        },
-        {
-          "id": "noun-mo_q12",
-          "type": "construct",
-          "prompt": "Your friend says they don't like spicy food. You also dislike spicy food. What do you say?",
-          "japanese": null,
-          "choices": [
-            "わたしはからい食[た]べ物[もの]が好[す]きではありません。",
-            "わたしがも好[す]きではありません。",
-            "わたしも好[す]きではありません。",
-            "わたしはも好[す]きではありません。"
-          ],
-          "correctIndex": 2,
-          "explanation": "も replaces は in negative sentences to mean 'not...either.' わたしも好[す]きではありません = 'I don't like it either.' はも is ungrammatical; がも is also ungrammatical. The first option uses は, which lacks the 'either' nuance."
-        },
-        {
-          "id": "noun-mo_q13",
-          "type": "usage",
-          "prompt": "When does も mean 'either' rather than 'also'?",
-          "japanese": null,
-          "choices": [
-            "When it follows a question word like どれ or どこ.",
-            "When it follows a noun with の.",
-            "When the sentence ends with ですか.",
-            "When the verb or predicate is in negative form."
-          ],
-          "correctIndex": 3,
-          "explanation": "In positive sentences, も means 'also/too.' In negative sentences (〜ません / 〜ない / 〜ではありません), も shifts meaning to 'not...either.' The form of the predicate (positive vs negative) determines the translation of も."
-        },
-        {
-          "id": "noun-mo_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "田中[たなか]さんも学生[がくせい]ではありません。",
-          "choices": [
-            "Tanaka-san is not a student either.",
-            "Tanaka-san is also a student.",
-            "Only Tanaka-san is not a student.",
-            "Tanaka-san is neither a teacher nor a student."
-          ],
-          "correctIndex": 0,
-          "explanation": "も + negative predicate (ではありません) = 'not...either.' 田中[たなか]さんも学生[がくせい]ではありません = 'Tanaka-san is not a student either.' This implies someone else was also said to not be a student earlier in the conversation."
-        },
-        {
-          "id": "noun-mo_q15",
-          "type": "usage",
-          "prompt": "Why is 「わたしはも学生[がくせい]です。」ungrammatical?",
-          "japanese": null,
-          "choices": [
-            "も must come before は, not after.",
-            "は and も cannot appear together on the same noun — も replaces は.",
-            "学生[がくせい] requires が, not は or も.",
-            "The sentence needs ですか at the end to be grammatical."
-          ],
-          "correctIndex": 1,
-          "explanation": "も replaces は — they cannot coexist on the same noun. The correct form is わたしも学生[がくせい]です ('I am also a student'), where も takes the place of は. Stacking both particles on the same noun is ungrammatical in Japanese."
-        },
-        {
-          "id": "noun-mo_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 'Sato-san is also a doctor.'",
-          "japanese": "佐藤[さとう]さん___医者[いしゃ]です。",
-          "choices": [
-            "は",
-            "が",
-            "も",
-            "を"
-          ],
-          "correctIndex": 2,
-          "explanation": "も replaces は to add 'also/too.' 佐藤[さとう]さんも医者[いしゃ]です = 'Sato-san is also a doctor.' This implies someone else has already been identified as a doctor, and Sato-san is being added to that group."
-        },
-        {
-          "id": "noun-mo_q17",
-          "type": "construct",
-          "prompt": "How do you say 'I didn't eat breakfast either'?",
-          "japanese": null,
-          "choices": [
-            "わたしはも朝[あさ]ごはんを食[た]べませんでした。",
-            "わたしが朝[あさ]ごはんも食[た]べませんでした。",
-            "わたしは朝[あさ]ごはんを食[た]べませんでした。",
-            "わたしも朝[あさ]ごはんを食[た]べませんでした。"
-          ],
-          "correctIndex": 3,
-          "explanation": "も replaces は in the topic position: わたしも朝[あさ]ごはんを食[た]べませんでした = 'I didn't eat breakfast either.' The third option (は instead of も) lacks the 'either' nuance; はも is ungrammatical. This implies someone else also skipped breakfast."
-        },
-        {
-          "id": "noun-mo_q18",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "コーヒーもください。",
-          "choices": [
-            "Coffee too, please.",
-            "Only coffee, please.",
-            "No coffee either, please.",
-            "Which coffee would you like?"
-          ],
-          "correctIndex": 0,
-          "explanation": "コーヒー = coffee; も = also/too; ください = please give me. 'Coffee too, please.' — も indicates the person is requesting something in addition to what was already ordered. A common and practical ordering phrase."
-        },
-        {
-          "id": "noun-mo_q19",
-          "type": "usage",
-          "prompt": "A friend says「私[わたし]はりんごが好[す]きです。」You also like apples. What do you say?",
-          "japanese": null,
-          "choices": [
-            "わたしはりんごも好[す]きです。",
-            "わたしもりんごが好[す]きです。",
-            "わたしもりんごもが好[す]きです。",
-            "わたしがもりんごが好[す]きです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "も replaces は on the topic (わたし) to mean 'I also': わたしもりんごが好[す]きです = 'I also like apples.' Putting も after りんご would imply you like apples in addition to something else, changing the nuance. がも is ungrammatical."
-        },
-        {
-          "id": "noun-mo_q20",
-          "type": "construct",
-          "prompt": "Which sentence uses も correctly to mean 'This is also a cat'?",
-          "japanese": null,
-          "choices": [
-            "これはも猫[ねこ]です。",
-            "これがも猫[ねこ]です。",
-            "これも猫[ねこ]です。",
-            "も猫[ねこ]はこれです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "これも猫[ねこ]です = 'This is also a cat.' も replaces は in the pronoun + predicate pattern. は and も cannot appear on the same element (これはも is ungrammatical); が and も also cannot stack; も does not go sentence-initially in this pattern."
-        }
-      ]
-    },
-    {
-      "id": "ne-yo",
-      "name": "ね and よ — sentence-final particles",
-      "shortDescription": "ね seeks agreement; よ asserts information the listener doesn't know.",
-      "formation": "Sentence + ね  |  Sentence + よ  |  Sentence + よね",
-      "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日[きょう]はいい天気[てんき]ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
-      "rules": [
-        "ね = seeking agreement or shared feeling ('isn't it?', 'right?')",
-        "よ = asserting new information the listener may not know ('I'm telling you', 'you know')",
-        "よね = gentle assertion with confirmation-seeking ('It is..., right?')",
-        "Do not overuse よ — it can sound pushy or condescending if used too much",
-        "ね is softer and safer to use with people you don't know well"
-      ],
-      "examples": [
-        {
-          "japanese": "今日[きょう]はいい天気[てんき]ですね。",
-          "romaji": "Kyou wa ii tenki desu ne.",
-          "english": "The weather is nice today, isn't it?"
-        },
-        {
-          "japanese": "このケーキはおいしいですよ。",
-          "romaji": "Kono keeki wa oishii desu yo.",
-          "english": "This cake is delicious, I'm telling you."
-        },
-        {
-          "japanese": "それは高[たか]いですよね。",
-          "romaji": "Sore wa takai desu yo ne.",
-          "english": "That's expensive, right?"
-        },
-        {
-          "japanese": "もうすぐ春[はる]ですね。",
-          "romaji": "Mou sugu haru desu ne.",
-          "english": "Spring is coming soon, isn't it?"
-        }
-      ],
-      "flashcardHeader": "ね and よ",
-      "flashcardAnswer": "ね seeks agreement; よ asserts information the listener doesn't know.",
-      "practice": [
-        {
-          "id": "ne-yo_q1",
-          "type": "usage",
-          "prompt": "Which particle seeks agreement or invites shared feeling from the listener?",
-          "choices": [
-            "よ",
-            "は",
-            "ね",
-            "か"
-          ],
-          "correctIndex": 2,
-          "explanation": "ね invites the listener to agree or share a feeling — like 'isn't it?' or 'right?' in English. よ asserts new information to the listener; か makes a direct question; は is a topic marker, not a sentence-final particle."
-        },
-        {
-          "id": "ne-yo_q2",
-          "type": "construct",
-          "prompt": "You want to tell a friend something they don't know: 'This café is delicious!' Which sentence fits best?",
-          "choices": [
-            "このカフェはおいしいよね。",
-            "このカフェはおいしいですか。",
-            "このカフェはおいしいですね。",
-            "このカフェはおいしいですよ。"
-          ],
-          "correctIndex": 3,
-          "explanation": "よ asserts new information the listener doesn't know — perfect here since your friend hasn't been to this café. ね would assume they already agree; か turns it into a question; よね is a softer assertion that also seeks confirmation."
-        },
-        {
-          "id": "ne-yo_q3",
-          "type": "fillBlank",
-          "prompt": "You are commenting on the nice weather to someone beside you, expecting them to agree. Fill in the blank.",
-          "japanese": "今日[きょう]はいい天気[てんき]です___。",
-          "choices": [
-            "か",
-            "よ",
-            "を",
-            "ね"
-          ],
-          "correctIndex": 3,
-          "explanation": "ね is used when you assume the listener shares your observation — perfect for weather comments. よ would assert the weather as news the listener doesn't know; か would make it a direct yes/no question; を is an object particle with no role here."
-        },
-        {
-          "id": "ne-yo_q4",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "このケーキはおいしいですよ。",
-          "choices": [
-            "This cake is delicious, right?",
-            "This cake is delicious, I'm telling you.",
-            "This cake is also delicious.",
-            "Is this cake delicious?"
-          ],
-          "correctIndex": 1,
-          "explanation": "よ asserts information the listener may not know — capturing the 'I'm telling you / trust me' nuance. ね would give 'right?'; か would make it a question; も (also) is not present in the sentence."
-        },
-        {
-          "id": "ne-yo_q5",
-          "type": "construct",
-          "prompt": "What does よね express in a sentence?",
-          "choices": [
-            "A gentle assertion that also seeks confirmation from the listener.",
-            "Surprise at unexpected information.",
-            "A blunt assertion with no room for disagreement.",
-            "A neutral question with no emotional nuance."
-          ],
-          "correctIndex": 0,
-          "explanation": "よね combines よ (assertion of information) with ね (seeking agreement), creating a softer 'It is X, right?' It is less pushy than よ alone and more assertive than ね alone — a very natural and common combination."
-        },
-        {
-          "id": "ne-yo_q6",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "それは高[たか]いですよね。",
-          "choices": [
-            "That's expensive, right?",
-            "That's definitely expensive.",
-            "Is that expensive?",
-            "That's also expensive."
-          ],
-          "correctIndex": 0,
-          "explanation": "よね combines よ (assertion) and ね (seeking agreement): 'That's expensive, right?' — a gentle assertion that also invites the listener to confirm. よ alone would be more assertive; ね alone would assume they already agree; か would be a direct yes/no question."
-        },
-        {
-          "id": "ne-yo_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you just tasted something new and want to strongly assert to a friend 'This is delicious!'",
-          "japanese": "これはおいしい___。",
-          "choices": [
-            "ね",
-            "よ",
-            "か",
-            "を"
-          ],
-          "correctIndex": 1,
-          "explanation": "よ asserts new information to the listener — 'I'm telling you, this is delicious!' ね would assume the listener already knows or agrees; か makes it a question; を is an object particle with no role as a sentence-final particle."
-        },
-        {
-          "id": "ne-yo_q8",
-          "type": "construct",
-          "prompt": "You and a friend are both looking at autumn leaves together. You want to say 'The leaves are beautiful, aren't they?' Which sentence fits?",
-          "japanese": null,
-          "choices": [
-            "もみじがきれいですよ。",
-            "もみじがきれいですか。",
-            "もみじがきれいですね。",
-            "もみじがきれいです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "ね is used when you assume the listener shares your observation — perfect for a shared experience like looking at leaves together. よ would imply the beauty is news to the listener; か is a direct yes/no question; plain です makes a flat statement without social nuance."
-        },
-        {
-          "id": "ne-yo_q9",
-          "type": "usage",
-          "prompt": "Which sentence sounds most natural when you meet a friend outside on a cold winter day?",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]は寒[さむ]いですか。",
-            "今日[きょう]は寒[さむ]いです。",
-            "今日[きょう]は寒[さむ]いですよ。",
-            "今日[きょう]は寒[さむ]いですね。"
-          ],
-          "correctIndex": 3,
-          "explanation": "ね invites shared feeling — perfect for commenting on weather with someone who is experiencing the same cold. よ would assert the cold as new information (odd, since both are outside); ですか asks a yes/no question; plain です makes a flat statement without warmth."
-        },
-        {
-          "id": "ne-yo_q10",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "もうすぐ春[はる]ですね。",
-          "choices": [
-            "Spring is coming soon, isn't it?",
-            "Spring has already arrived!",
-            "Will spring come soon?",
-            "Spring is coming (I'm telling you)."
-          ],
-          "correctIndex": 0,
-          "explanation": "もうすぐ = soon; 春[はる] = spring; ですね = 'isn't it?' 'Spring is coming soon, isn't it?' — ね invites the listener to share in the anticipation of spring. よ would be used if the listener didn't know spring was approaching."
-        },
-        {
-          "id": "ne-yo_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you are recommending a restaurant to a friend who has never been there. 'This restaurant is delicious, I'm telling you!'",
-          "japanese": "このレストランはおいしい___。",
-          "choices": [
-            "ね",
-            "よ",
-            "か",
-            "も"
-          ],
-          "correctIndex": 1,
-          "explanation": "よ is used to share new information or assert something the listener doesn't know. Since your friend has never been, the restaurant's quality is new information — よ is the natural choice. ね would imply they already know it's delicious."
-        },
-        {
-          "id": "ne-yo_q12",
-          "type": "construct",
-          "prompt": "What is the nuance of よね as opposed to よ alone?",
-          "japanese": null,
-          "choices": [
-            "よね is more assertive and confrontational than よ — textbooks treat this as an absolute rule.",
-            "よね is used only in negative sentences.",
-            "よね gently asserts something while also seeking the listener's confirmation.",
-            "よね is an older, more formal version of ね."
-          ],
-          "correctIndex": 2,
-          "explanation": "よね combines よ (assertion) + ね (confirmation-seeking): a softened 'It is X, right?' よ alone can sound pushy; よね tones it down by inviting the listener to agree. It is not more assertive — it is actually softer than よ alone."
-        },
-        {
-          "id": "ne-yo_q13",
-          "type": "usage",
-          "prompt": "A native Japanese speaker overuses よ constantly in conversation. What social problem might this cause?",
-          "japanese": null,
-          "choices": [
-            "The speaker sounds too quiet and unsure of themselves.",
-            "The speaker comes across as too formal and distant.",
-            "The speaker sounds like they are asking too many questions.",
-            "The speaker may sound pushy or condescending — like constantly saying 'I'm telling you.'"
-          ],
-          "correctIndex": 3,
-          "explanation": "よ asserts information the listener doesn't know. Used too frequently, it implies the speaker always has new information to deliver — which can feel condescending, as if always correcting the listener. ね is the softer, safer default."
-        },
-        {
-          "id": "ne-yo_q14",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "あのレストランはおいしいですよ。",
-          "choices": [
-            "That restaurant over there is delicious, I'm telling you.",
-            "Is that restaurant delicious?",
-            "That restaurant is also delicious.",
-            "That restaurant is delicious, right?"
-          ],
-          "correctIndex": 0,
-          "explanation": "よ asserts new information to the listener: 'That restaurant is delicious — trust me.' The speaker is recommending somewhere the listener may not know about. ね would assume shared knowledge; か would make it a question; も would add 'also.'"
-        },
-        {
-          "id": "ne-yo_q15",
-          "type": "usage",
-          "prompt": "Someone tells you something you did not know. You want to react: 'Oh, is that so?' Which response fits?",
-          "japanese": null,
-          "choices": [
-            "そうですよ。",
-            "そうですか。",
-            "そうですね。",
-            "そうですよね。"
-          ],
-          "correctIndex": 1,
-          "explanation": "そうですか acknowledges newly received information: 'Oh, is that so?' / 'I see.' It signals that what you heard is new to you. そうですね would imply you already agreed; そうですよ would assert the information back (strange as a reaction to new info); よね seeks agreement."
-        },
-        {
-          "id": "ne-yo_q16",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: you and a coworker are both exhausted at the end of a long work week. 'This week was tough, wasn't it?'",
-          "japanese": "今週[こんしゅう]は大変[たいへん]でした___。",
-          "choices": [
-            "よ",
-            "か",
-            "ね",
-            "を"
-          ],
-          "correctIndex": 2,
-          "explanation": "ね invites shared feeling — both people lived through the same tough week, so ね naturally seeks the coworker's agreement. よ would assert the difficulty as news the listener doesn't know (odd, since they shared the experience); か makes it a yes/no question; を is an object particle."
-        },
-        {
-          "id": "ne-yo_q17",
-          "type": "construct",
-          "prompt": "How do you gently assert 'This movie is interesting, right?' — sharing your view while seeking agreement?",
-          "japanese": null,
-          "choices": [
-            "この映画[えいが]はおもしろいですか。",
-            "この映画[えいが]はおもしろいです。",
-            "この映画[えいが]はおもしろいですね。",
-            "この映画[えいが]はおもしろいですよね。"
-          ],
-          "correctIndex": 3,
-          "explanation": "よね = gentle assertion + confirmation-seeking: 'It's interesting, right?' — asserting your view (よ) while inviting the listener to agree (ね). ですね would assume they already know and agree; ですよ is more assertive without the invitation; ですか is a neutral question."
-        },
-        {
-          "id": "ne-yo_q18",
-          "type": "translation",
-          "prompt": "What does this sentence mean?",
-          "japanese": "明日[あした]は休[やす]みですよね。",
-          "choices": [
-            "Tomorrow is a holiday, right?",
-            "Tomorrow is definitely a holiday.",
-            "Is tomorrow a holiday?",
-            "Tomorrow is also a holiday."
-          ],
-          "correctIndex": 0,
-          "explanation": "よね = assertion + confirmation. 明日[あした]は休[やす]みですよね = 'Tomorrow is a holiday, right?' — the speaker believes tomorrow is a day off and is checking with the listener to confirm. よ alone would assert it more firmly without seeking confirmation; か would be a straight question."
-        },
-        {
-          "id": "ne-yo_q19",
-          "type": "usage",
-          "prompt": "Your friend recommended a dish and you both tried it. You want to say 'It really is delicious, isn't it?' Which sentence fits best?",
-          "japanese": null,
-          "choices": [
-            "これはおいしいですよ。",
-            "これはおいしいですね。",
-            "これはおいしいですか。",
-            "これもおいしいですよ。"
-          ],
-          "correctIndex": 1,
-          "explanation": "ね invites shared feeling between two people who have both tasted the food — 'It's delicious, isn't it?' This confirms a shared experience. よ would suggest the deliciousness is new information to the listener, which is odd since they recommended it first."
-        },
-        {
-          "id": "ne-yo_q20",
-          "type": "construct",
-          "prompt": "Which sentence uses よ correctly?",
-          "japanese": null,
-          "choices": [
-            "今日[きょう]は月曜日[げつようび]ですよ。(telling a coworker the day of the week they already know)",
-            "この道[みち]は危[あぶ]ないよね。(warning someone about a road you both pass daily)",
-            "この薬[くすり]は苦[にが]いですよ。(warning someone before they take medicine they haven't tried)",
-            "来年[らいねん]は暑[あつ]いですよね。(asserting future weather you both will experience)"
-          ],
-          "correctIndex": 2,
-          "explanation": "よ is correct when sharing new information the listener doesn't know. Warning someone before they take bitter medicine (この薬[くすり]は苦[にが]いですよ) is a perfect use — they haven't tried it yet, so it is truly new information. The other options describe situations where ね or よね would be more natural, since the information is shared or presumed."
-        }
-      ]
+     "japanese": "どれがあなたのかばんですか。",
+     "romaji": "Dore ga anata no kaban desu ka.",
+     "english": "Which one is your bag?"
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "こ・そ・あ・ど series (objects): これ・それ・あれ・どれ",
+   "flashcardAnswer": "Demonstrative pronouns for objects: this, that, that over there, which.",
+   "practice": [
     {
-      "id": "ch02_v01",
-      "partOfSpeech": "pronoun",
-      "kanji": "これ",
-      "kana": "これ",
-      "romaji": "kore",
-      "definition": "this (thing)"
+     "id": "ko-so-a-do-mono_q1",
+     "type": "usage",
+     "prompt": "A speaker picks up an object near them and says 'This is a key.' Which word do they use for 'this'?",
+     "choices": [
+      "あれは鍵[かぎ]です。",
+      "それは鍵[かぎ]です。",
+      "これは鍵[かぎ]です。",
+      "どれは鍵[かぎ]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "これ refers to something near the speaker. The speaker is holding the key, so これ is correct. それ = near listener; あれ = far from both; どれ = 'which?' (a question word, not a statement)."
     },
     {
-      "id": "ch02_v02",
-      "partOfSpeech": "pronoun",
-      "kanji": "それ",
-      "kana": "それ",
-      "romaji": "sore",
-      "definition": "that (thing near you)"
+     "id": "ko-so-a-do-mono_q2",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "これは何[なん]ですか。",
+     "choices": [
+      "What is that (near you)?",
+      "What is that over there?",
+      "What is this?",
+      "Which one is this?"
+     ],
+     "correctIndex": 2,
+     "explanation": "これ refers to something near the speaker; 何[なに] means 'what.' これは何[なん]ですか = 'What is this?' — asking about something close to the person speaking. それ would ask about something near the listener."
     },
     {
-      "id": "ch02_v03",
-      "partOfSpeech": "pronoun",
-      "kanji": "あれ",
-      "kana": "あれ",
-      "romaji": "are",
-      "definition": "that (over there)"
+     "id": "ko-so-a-do-mono_q3",
+     "type": "construct",
+     "prompt": "You and a friend are choosing from five different bags. How do you ask 'Which one is your bag?'",
+     "choices": [
+      "どちらがあなたのかばんですか。",
+      "これがあなたのかばんですか。",
+      "あれがあなたのかばんですか。",
+      "どれがあなたのかばんですか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "どれ is used when choosing from three or more options. For exactly two choices, どちら would be correct. これ and あれ refer to specific items, not a range of options to choose from."
     },
     {
-      "id": "ch02_v04",
-      "partOfSpeech": "pronoun",
-      "kanji": "どれ",
-      "kana": "どれ",
-      "romaji": "dore",
-      "definition": "which (one)"
+     "id": "ko-so-a-do-mono_q4",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you are pointing at something near the listener and asking if it is a dog.",
+     "japanese": "___は犬[いぬ]ですか。",
+     "choices": [
+      "どれ",
+      "これ",
+      "それ",
+      "あれ"
+     ],
+     "correctIndex": 2,
+     "explanation": "それ refers to something near the listener (the person being spoken to). これ = near speaker; あれ = far from both; どれ = which? (question word). Since the object is near the listener, それ is correct."
     },
     {
-      "id": "ch02_v05",
-      "partOfSpeech": "pre-noun",
-      "kanji": "この",
-      "kana": "この",
-      "romaji": "kono",
-      "definition": "this ~"
+     "id": "ko-so-a-do-mono_q5",
+     "type": "construct",
+     "prompt": "How do you say 'That over there is my school' in Japanese?",
+     "choices": [
+      "それはわたしの学校[がっこう]です。",
+      "あれはわたしの学校[がっこう]です。",
+      "これはわたしの学校[がっこう]です。",
+      "どれはわたしの学校[がっこう]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "あれ refers to something far from both speaker and listener — used when pointing at something in the distance. それ would mean the school is near the listener; これ would mean it's near the speaker. どれ asks a question."
     },
     {
-      "id": "ch02_v06",
-      "partOfSpeech": "pre-noun",
-      "kanji": "その",
-      "kana": "その",
-      "romaji": "sono",
-      "definition": "that ~"
+     "id": "ko-so-a-do-mono_q6",
+     "type": "translation",
+     "prompt": "What does それ refer to in this sentence?",
+     "japanese": "それはだれのかばんですか。",
+     "choices": [
+      "something near the listener",
+      "something near the speaker",
+      "something far from both",
+      "which thing"
+     ],
+     "correctIndex": 0,
+     "explanation": "それ refers to something near the listener (the person being spoken to). これ = near speaker; あれ = far from both; どれ = 'which?' (a question word, not a pointing word)."
     },
     {
-      "id": "ch02_v07",
-      "partOfSpeech": "pre-noun",
-      "kanji": "あの",
-      "kana": "あの",
-      "romaji": "ano",
-      "definition": "that ~ (over there)"
+     "id": "ko-so-a-do-mono_q7",
+     "type": "usage",
+     "prompt": "You are sitting across from a friend. They have a notebook in front of them. Which sentence correctly asks 'Is that (near you) a notebook?'",
+     "japanese": null,
+     "choices": [
+      "これはノートですか。",
+      "それはノートですか。",
+      "あれはノートですか。",
+      "どれはノートですか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "それ is used for something near the listener. Since the notebook is in front of your friend (the listener), それ is correct. これ = near speaker; あれ = far from both; どれ asks 'which?' and cannot be used for a simple yes/no question this way."
     },
     {
-      "id": "ch02_v08",
-      "partOfSpeech": "pre-noun",
-      "kanji": "どの",
-      "kana": "どの",
-      "romaji": "dono",
-      "definition": "which ~"
+     "id": "ko-so-a-do-mono_q8",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: a museum building is in the far distance, far from both you and your companion.",
+     "japanese": "___は博物館[はくぶつかん]です。",
+     "choices": [
+      "それ",
+      "どれ",
+      "あれ",
+      "これ"
+     ],
+     "correctIndex": 2,
+     "explanation": "あれ refers to something far from both speaker and listener. それ = near listener; これ = near speaker; どれ asks 'which one?' — it is a question word, not a pointing word."
     },
     {
-      "id": "ch02_v09",
-      "partOfSpeech": "noun",
-      "kanji": "ここ",
-      "kana": "ここ",
-      "romaji": "koko",
-      "definition": "here"
+     "id": "ko-so-a-do-mono_q9",
+     "type": "construct",
+     "prompt": "How do you ask 'Which one is yours?' when pointing at a row of five umbrellas?",
+     "japanese": null,
+     "choices": [
+      "あれがあなたのですか。",
+      "それがあなたのですか。",
+      "どちらがあなたのですか。",
+      "どれがあなたのですか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "どれ is used when choosing from three or more options. Since there are five umbrellas, どれ is correct. どちら would be used if there were only two umbrellas. これ and あれ point to specific items rather than asking which one."
     },
     {
-      "id": "ch02_v10",
-      "partOfSpeech": "noun",
-      "kanji": "そこ",
-      "kana": "そこ",
-      "romaji": "soko",
-      "definition": "there"
+     "id": "ko-so-a-do-mono_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "あれは何[なん]ですか。",
+     "choices": [
+      "What is that over there?",
+      "What is that (near you)?",
+      "What is this?",
+      "Which one is what?"
+     ],
+     "correctIndex": 0,
+     "explanation": "あれ refers to something far from both speaker and listener. 何[なに] = what. あれは何[なん]ですか = 'What is that over there?' The speaker and listener are both looking at something in the distance."
     },
     {
-      "id": "ch02_v11",
-      "partOfSpeech": "noun",
-      "kanji": "あそこ",
-      "kana": "あそこ",
-      "romaji": "asoko",
-      "definition": "over there"
+     "id": "ko-so-a-do-mono_q11",
+     "type": "usage",
+     "prompt": "A asks: 「これは何[なん]ですか。」(pointing to something near A). How would B naturally refer to the same object in their answer?",
+     "japanese": null,
+     "choices": [
+      "あれはペンです。",
+      "それはペンです。",
+      "どれはペンです。",
+      "これはペンです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "When A points to something near A and says これ, B sees that same object as being near A (B's listener), so B refers to it as それ. This これ/それ switch in question/answer pairs is a classic feature of the kosoado system."
     },
     {
-      "id": "ch02_v12",
-      "partOfSpeech": "noun",
-      "kanji": "どこ",
-      "kana": "どこ",
-      "romaji": "doko",
-      "definition": "where"
+     "id": "ko-so-a-do-mono_q12",
+     "type": "fillBlank",
+     "prompt": "A is holding a pen and says: '___はペンです。' B replies: 'それはきれいですね。' Fill in A's blank.",
+     "japanese": "___はペンです。",
+     "choices": [
+      "どれ",
+      "あれ",
+      "これ",
+      "それ"
+     ],
+     "correctIndex": 2,
+     "explanation": "A is holding the pen, so A uses これ (near speaker). B then refers to the same pen as それ (near B's listener = near A). This question/answer shift demonstrates how これ and それ mirror each other in conversation."
     },
     {
-      "id": "ch02_v13",
-      "partOfSpeech": "noun",
-      "kanji": "上",
-      "kana": "うえ",
-      "romaji": "ue",
-      "definition": "top; above; on"
+     "id": "ko-so-a-do-mono_q13",
+     "type": "construct",
+     "prompt": "Which of the following correctly identifies the grammatical role of これ・それ・あれ・どれ?",
+     "japanese": null,
+     "choices": [
+      "They are adjectives that must come directly before nouns.",
+      "They replace the particle は in sentences.",
+      "They can be combined with の to modify nouns, like この.",
+      "They are pronouns that stand alone and replace a noun entirely."
+     ],
+     "correctIndex": 3,
+     "explanation": "これ/それ/あれ/どれ are pronouns — they stand in place of a noun entirely. This distinguishes them from この/その/あの/どの, which are adjectives that must precede a noun. You say これは本[ほん]です (pronoun), not これ本[ほん] or これの本[ほん]."
     },
     {
-      "id": "ch02_v14",
-      "partOfSpeech": "noun",
-      "kanji": "下",
-      "kana": "した",
-      "romaji": "shita",
-      "definition": "bottom; below; under"
+     "id": "ko-so-a-do-mono_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "これは新[あたら]しい時計[とけい]です。",
+     "choices": [
+      "This is a new watch.",
+      "That (near you) is a new watch.",
+      "That over there is a new watch.",
+      "Which one is the new watch?"
+     ],
+     "correctIndex": 0,
+     "explanation": "これ = this (near speaker); 新[あたら]しい = new; 時計[とけい] = watch; です = is. 'This is a new watch.' — the speaker is near the watch they are describing."
     },
     {
-      "id": "ch02_v15",
-      "partOfSpeech": "noun",
-      "kanji": "前",
-      "kana": "まえ",
-      "romaji": "mae",
-      "definition": "front; before"
+     "id": "ko-so-a-do-mono_q15",
+     "type": "usage",
+     "prompt": "You are choosing between exactly two pens. Which word is more appropriate — どれ or どちら?",
+     "japanese": null,
+     "choices": [
+      "どれ — it works for any number of choices.",
+      "どちら — it is used when choosing between exactly two options.",
+      "どれ — どちら is only used for people, not objects.",
+      "どちら — only when one option is unknown."
+     ],
+     "correctIndex": 1,
+     "explanation": "どちら is used when choosing between exactly two options. どれ is reserved for three or more. This is a firm rule in Japanese: どちら (two), どれ (three or more). Both can refer to objects."
     },
     {
-      "id": "ch02_v16",
-      "partOfSpeech": "noun",
-      "kanji": "後ろ",
-      "kana": "うしろ",
-      "romaji": "ushiro",
-      "definition": "back; behind"
+     "id": "ko-so-a-do-mono_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you are picking up your wallet to show it to someone.",
+     "japanese": "___はわたしの財布[さいふ]です。",
+     "choices": [
+      "あれ",
+      "それ",
+      "これ",
+      "どれ"
+     ],
+     "correctIndex": 2,
+     "explanation": "You are holding the wallet — it is near you (the speaker). これ = near speaker. それ would mean it is near the listener; あれ = far from both; どれ = 'which?' (a question word, not a statement)."
     },
     {
-      "id": "ch02_v17",
-      "partOfSpeech": "noun",
-      "kanji": "中",
-      "kana": "なか",
-      "romaji": "naka",
-      "definition": "inside; middle"
+     "id": "ko-so-a-do-mono_q17",
+     "type": "construct",
+     "prompt": "How do you say 'That over there is a hospital' in Japanese?",
+     "japanese": null,
+     "choices": [
+      "これは病院[びょういん]です。",
+      "それは病院[びょういん]です。",
+      "どれは病院[びょういん]です。",
+      "あれは病院[びょういん]です。"
+     ],
+     "correctIndex": 3,
+     "explanation": "あれ refers to something far from both speaker and listener. Hospital buildings are typically pointed at from a distance, making あれ the correct choice. これ = near speaker; それ = near listener; どれ asks a question."
     },
     {
-      "id": "ch02_v18",
-      "partOfSpeech": "noun",
-      "kanji": "外",
-      "kana": "そと",
-      "romaji": "soto",
-      "definition": "outside"
+     "id": "ko-so-a-do-mono_q18",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "それは高[たか]いですか。",
+     "choices": [
+      "Is that (near you) expensive?",
+      "Is this (near me) expensive?",
+      "Is that over there expensive?",
+      "Which one is expensive?"
+     ],
+     "correctIndex": 0,
+     "explanation": "それ refers to something near the listener. 高[たか]い = expensive; ですか = question marker. 'Is that (near you) expensive?' — the speaker is asking the listener about something by the listener."
     },
     {
-      "id": "ch02_v19",
-      "partOfSpeech": "noun",
-      "kanji": "右",
-      "kana": "みぎ",
-      "romaji": "migi",
-      "definition": "right"
+     "id": "ko-so-a-do-mono_q19",
+     "type": "usage",
+     "prompt": "A says 「あれはきれいですね。」(pointing at something far away). What does A's choice of demonstrative tell us?",
+     "japanese": null,
+     "choices": [
+      "The beautiful thing is near A.",
+      "あれ — the beautiful thing is far from both A and the listener.",
+      "The beautiful thing is near the listener.",
+      "A is asking which thing is pretty."
+     ],
+     "correctIndex": 1,
+     "explanation": "あれ points to something far from both the speaker and the listener. Since A used あれ, we know the beautiful thing (perhaps a mountain or building) is in the distance, away from both people in the conversation."
     },
     {
-      "id": "ch02_v20",
-      "partOfSpeech": "noun",
-      "kanji": "左",
-      "kana": "ひだり",
-      "romaji": "hidari",
-      "definition": "left"
-    },
-    {
-      "id": "ch02_v21",
-      "partOfSpeech": "noun",
-      "kanji": "隣",
-      "kana": "となり",
-      "romaji": "tonari",
-      "definition": "next to; neighbor"
-    },
-    {
-      "id": "ch02_v22",
-      "partOfSpeech": "noun",
-      "kanji": "近く",
-      "kana": "ちかく",
-      "romaji": "chikaku",
-      "definition": "nearby; vicinity"
-    },
-    {
-      "id": "ch02_v23",
-      "partOfSpeech": "noun",
-      "kanji": "間",
-      "kana": "あいだ",
-      "romaji": "aida",
-      "definition": "between; interval"
-    },
-    {
-      "id": "ch02_v24",
-      "partOfSpeech": "noun",
-      "kanji": "横",
-      "kana": "よこ",
-      "romaji": "yoko",
-      "definition": "side; beside"
-    },
-    {
-      "id": "ch02_v25",
-      "partOfSpeech": "noun",
-      "kanji": "向こう",
-      "kana": "むこう",
-      "romaji": "mukou",
-      "definition": "over there; the other side"
-    },
-    {
-      "id": "ch02_v26",
-      "partOfSpeech": "noun",
-      "kanji": "東",
-      "kana": "ひがし",
-      "romaji": "higashi",
-      "definition": "east"
-    },
-    {
-      "id": "ch02_v27",
-      "partOfSpeech": "noun",
-      "kanji": "西",
-      "kana": "にし",
-      "romaji": "nishi",
-      "definition": "west"
-    },
-    {
-      "id": "ch02_v28",
-      "partOfSpeech": "noun",
-      "kanji": "南",
-      "kana": "みなみ",
-      "romaji": "minami",
-      "definition": "south"
-    },
-    {
-      "id": "ch02_v29",
-      "partOfSpeech": "noun",
-      "kanji": "北",
-      "kana": "きた",
-      "romaji": "kita",
-      "definition": "north"
-    },
-    {
-      "id": "ch02_v30",
-      "partOfSpeech": "pronoun",
-      "kanji": "こちら",
-      "kana": "こちら",
-      "romaji": "kochira",
-      "definition": "this way; this one (polite)"
-    },
-    {
-      "id": "ch02_v31",
-      "partOfSpeech": "pronoun",
-      "kanji": "そちら",
-      "kana": "そちら",
-      "romaji": "sochira",
-      "definition": "that way (polite)"
-    },
-    {
-      "id": "ch02_v32",
-      "partOfSpeech": "pronoun",
-      "kanji": "あちら",
-      "kana": "あちら",
-      "romaji": "achira",
-      "definition": "that way over there (polite)"
-    },
-    {
-      "id": "ch02_v33",
-      "partOfSpeech": "pronoun",
-      "kanji": "どちら",
-      "kana": "どちら",
-      "romaji": "dochira",
-      "definition": "which way (polite)"
-    },
-    {
-      "id": "ch02_v34",
-      "partOfSpeech": "noun",
-      "kanji": "場所",
-      "kana": "ばしょ",
-      "romaji": "basho",
-      "definition": "place; location"
-    },
-    {
-      "id": "ch02_v35",
-      "partOfSpeech": "noun",
-      "kanji": "所",
-      "kana": "ところ",
-      "romaji": "tokoro",
-      "definition": "place; spot"
-    },
-    {
-      "id": "ch02_v36",
-      "partOfSpeech": "noun",
-      "kanji": "方",
-      "kana": "ほう",
-      "romaji": "hou",
-      "definition": "direction; side"
-    },
-    {
-      "id": "ch02_v37",
-      "partOfSpeech": "noun",
-      "kanji": "真ん中",
-      "kana": "まんなか",
-      "romaji": "mannaka",
-      "definition": "the very middle; center"
-    },
-    {
-      "id": "ch02_v38",
-      "partOfSpeech": "noun",
-      "kanji": "角",
-      "kana": "かど",
-      "romaji": "kado",
-      "definition": "corner"
-    },
-    {
-      "id": "ch02_v39",
-      "partOfSpeech": "noun",
-      "kanji": "辺り",
-      "kana": "あたり",
-      "romaji": "atari",
-      "definition": "vicinity; around"
-    },
-    {
-      "id": "ch02_v40",
-      "partOfSpeech": "noun",
-      "kanji": "辺",
-      "kana": "へん",
-      "romaji": "hen",
-      "definition": "area; neighborhood"
+     "id": "ko-so-a-do-mono_q20",
+     "type": "construct",
+     "prompt": "Complete the mini-dialogue. A holds up a key. A: 「___は鍵[かぎ]です。」B: 「___は古[ふる]いですか。」Choose the correct pair of blanks in order.",
+     "japanese": null,
+     "choices": [
+      "あれ / これ",
+      "どれ / それ",
+      "これ / それ",
+      "それ / これ"
+     ],
+     "correctIndex": 2,
+     "explanation": "A is holding the key (near A = speaker), so A uses これ. B sees the key as being near A (B's listener), so B uses それ. This これ/それ mirror pattern is fundamental to question/answer exchanges in Japanese."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "ko-so-a-do-noun",
+   "name": "この・その・あの・どの (with nouns)",
+   "shortDescription": "Demonstrative adjectives placed directly before a noun.",
+   "formation": "この / その / あの / どの + Noun",
+   "explanation": "While これ/それ/あれ/どれ stand alone as pronouns, この/その/あの/どの must always be followed directly by a noun — they are adjectives, not pronouns. Think of it this way: if you name the object, use この/その/あの/どの. If you replace the object's name entirely, use これ/それ/あれ/どれ.\n\nこの本[ほん] means 'this book' — the adjective plus a named noun. これは本[ほん]です means 'This is a book' — the pronoun stands alone. The four follow the same near-speaker / near-listener / far / question pattern as the rest of the kosoado system.\n\nOne important detail: nothing can come between the adjective and its noun — この and その attach directly, with no particles or extra words inserted between them.",
+   "rules": [
+    "Must be immediately followed by a noun — never used alone",
+    "この = this [noun], その = that [noun] near listener, あの = that [noun] over there, どの = which [noun]?",
+    "Contrast: この本[ほん] (this book — adjective + noun) vs これは本[ほん] (This is a book — pronoun)"
+   ],
+   "examples": [
     {
-      "char": "中",
-      "word": "中",
-      "reading": "なか",
-      "meaning": "inside; middle"
+     "japanese": "このかばんはいくらですか。",
+     "romaji": "Kono kaban wa ikura desu ka.",
+     "english": "How much is this bag?"
     },
     {
-      "char": "後",
-      "word": "後ろ",
-      "reading": "うしろ",
-      "meaning": "back; behind"
+     "japanese": "その本[ほん]はだれのですか。",
+     "romaji": "Sono hon wa dare no desu ka.",
+     "english": "Whose book is that (near you)?"
     },
     {
-      "char": "東",
-      "word": "東",
-      "reading": "ひがし",
-      "meaning": "east"
+     "japanese": "あの人[ひと]はだれですか。",
+     "romaji": "Ano hito wa dare desu ka.",
+     "english": "Who is that person over there?"
     },
     {
-      "char": "北",
-      "word": "北",
-      "reading": "きた",
-      "meaning": "north"
-    },
-    {
-      "char": "西",
-      "word": "西",
-      "reading": "にし",
-      "meaning": "west"
-    },
-    {
-      "char": "南",
-      "word": "南",
-      "reading": "みなみ",
-      "meaning": "south"
-    },
-    {
-      "char": "右",
-      "word": "右",
-      "reading": "みぎ",
-      "meaning": "right"
-    },
-    {
-      "char": "左",
-      "word": "左",
-      "reading": "ひだり",
-      "meaning": "left"
+     "japanese": "どの電車[でんしゃ]に乗[の]りますか。",
+     "romaji": "Dono densha ni norimasu ka.",
+     "english": "Which train will you ride?"
     }
-  ]
+   ],
+   "flashcardHeader": "この・その・あの・どの",
+   "flashcardAnswer": "Demonstrative adjectives placed directly before a noun.",
+   "practice": [
+    {
+     "id": "ko-so-a-do-noun_q1",
+     "type": "construct",
+     "prompt": "Which sentence is correctly formed using a demonstrative adjective before a noun?",
+     "choices": [
+      "この本[ほん]はおもしろいです。",
+      "この はおもしろい本[ほん]です。",
+      "これ本[ほん]はおもしろいです。",
+      "これの本[ほん]はおもしろいです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "この must be placed directly before its noun — この本[ほん] (this book). これ is a pronoun that stands alone; it cannot directly precede a noun. Nothing can be inserted between この and its noun."
+    },
+    {
+     "id": "ko-so-a-do-noun_q2",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "このかばんはいくらですか。",
+     "choices": [
+      "Where is this bag?",
+      "Is this bag expensive?",
+      "How much is this bag?",
+      "Whose bag is this?"
+     ],
+     "correctIndex": 2,
+     "explanation": "この = this (adjective + noun); かばん = bag; いくら = how much; ですか = question marker. Together: 'How much is this bag?' — a classic shopping question using the demonstrative adjective この."
+    },
+    {
+     "id": "ko-so-a-do-noun_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to ask about a person far from both speaker and listener.",
+     "japanese": "___人[ひと]はだれですか。",
+     "choices": [
+      "あの",
+      "その",
+      "どの",
+      "この"
+     ],
+     "correctIndex": 0,
+     "explanation": "あの + noun refers to someone or something far from both speaker and listener. この = near speaker; その = near listener; どの = 'which?' (question). Since the person is distant from everyone, あの is correct."
+    },
+    {
+     "id": "ko-so-a-do-noun_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses a demonstrative adjective?",
+     "choices": [
+      "電車[でんしゃ]どのに乗[の]りますか。",
+      "どれ電車[でんしゃ]に乗[の]りますか。",
+      "どの電車[でんしゃ]に乗[の]りますか。",
+      "どの乗[の]りますか電車[でんしゃ]に。"
+     ],
+     "correctIndex": 2,
+     "explanation": "どの is the demonstrative adjective and must come directly before a noun: どの電車[でんしゃ] (which train). どれ is a pronoun and cannot precede a noun. Word order in Japanese keeps the noun phrase together before the particle."
+    },
+    {
+     "id": "ko-so-a-do-noun_q5",
+     "type": "construct",
+     "prompt": "What is the key grammatical difference between これ and この?",
+     "choices": [
+      "これ is for nearby objects; この is only for faraway objects.",
+      "これ is a pronoun (stands alone); この is an adjective (must precede a noun).",
+      "これ is formal; この is casual.",
+      "これ always requires か; この does not."
+     ],
+     "correctIndex": 1,
+     "explanation": "これ replaces a noun entirely (pronoun): これは本[ほん]です (This is a book). この must be immediately followed by a noun (adjective): この本[ほん] (this book). The same near/far distinction applies to both sets."
+    },
+    {
+     "id": "ko-so-a-do-noun_q6",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "その人[ひと]はだれですか。",
+     "choices": [
+      "Who is that person (near you)?",
+      "Who is this person (near me)?",
+      "Who is that person over there?",
+      "Which person is it?"
+     ],
+     "correctIndex": 0,
+     "explanation": "その + noun refers to something near the listener. その人[ひと] = that person (near you); だれ = who; ですか = question. 'Who is that person (near you)?' — the speaker is asking about someone near the listener."
+    },
+    {
+     "id": "ko-so-a-do-noun_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you are describing a book that is near your friend (the listener).",
+     "japanese": "___本[ほん]はおもしろいですか。",
+     "choices": [
+      "この",
+      "その",
+      "あの",
+      "どの"
+     ],
+     "correctIndex": 1,
+     "explanation": "その + noun refers to something near the listener. Since the book is near your friend, その本[ほん] is correct. この = near speaker; あの = far from both; どの = 'which?' question form."
+    },
+    {
+     "id": "ko-so-a-do-noun_q8",
+     "type": "construct",
+     "prompt": "Which sentence correctly uses a demonstrative adjective to say 'That building over there is big'?",
+     "japanese": null,
+     "choices": [
+      "これは建物[たてもの]が大[おお]きいです。",
+      "あれの建物[たてもの]は大[おお]きいです。",
+      "あの建物[たてもの]は大[おお]きいです。",
+      "どの建物[たてもの]が大[おお]きいです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "あの directly precedes 建物[たてもの] (building) to form あの建物[たてもの] = that building over there. これ is a pronoun, not an adjective. あれの建物[たてもの] is ungrammatical — あれ cannot connect to a noun with の in this pattern. どの makes a question."
+    },
+    {
+     "id": "ko-so-a-do-noun_q9",
+     "type": "usage",
+     "prompt": "What is the critical rule that distinguishes この/その/あの/どの from これ/それ/あれ/どれ?",
+     "japanese": null,
+     "choices": [
+      "この/その/あの/どの cannot be used in questions.",
+      "この/その/あの/どの refer only to objects, not people.",
+      "この/その/あの/どの are only used in formal speech.",
+      "この/その/あの/どの must always be followed directly by a noun."
+     ],
+     "correctIndex": 3,
+     "explanation": "この/その/あの/どの are adjectives — they must always be immediately followed by a noun. これ/それ/あれ/どれ are pronouns that stand alone. You say この本[ほん] (this book, adjective + noun) but cannot use この alone with only a particle following it."
+    },
+    {
+     "id": "ko-so-a-do-noun_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "どの電車[でんしゃ]に乗[の]りますか。",
+     "choices": [
+      "Which train will you take?",
+      "Where is the train?",
+      "When does the train leave?",
+      "That train is crowded."
+     ],
+     "correctIndex": 0,
+     "explanation": "どの + noun asks 'which ?' — here どの電車[でんしゃ] = which train; 乗[の]りますか = will you ride/take? Together: 'Which train will you take?' — a practical question using the question demonstrative adjective."
+    },
+    {
+     "id": "ko-so-a-do-noun_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: a restaurant that is far from both speaker and listener.",
+     "japanese": "___レストランは有名[ゆうめい]ですか。",
+     "choices": [
+      "その",
+      "あの",
+      "この",
+      "どの"
+     ],
+     "correctIndex": 1,
+     "explanation": "あの + noun refers to something far from both speaker and listener. あの is placed directly before the noun レストラン (no particle between them). その = near listener; この = near speaker; どの = 'which?' question form."
+    },
+    {
+     "id": "ko-so-a-do-noun_q12",
+     "type": "construct",
+     "prompt": "A friend hands you a book from their lap. Now the book is in your hands. To ask 'Is this book interesting?' which sentence do you use?",
+     "japanese": null,
+     "choices": [
+      "あの本[ほん]はおもしろいですか。",
+      "どの本[ほん]はおもしろいですか。",
+      "この本[ほん]はおもしろいですか。",
+      "その本[ほん]はおもしろいですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Once your friend hands the book to you, it is now near you (the speaker), so この本[ほん] is correct. Before being handed it, while it was in your friend's lap (near the listener), その would have been correct. Location at the time of speaking determines the choice."
+    },
+    {
+     "id": "ko-so-a-do-noun_q13",
+     "type": "usage",
+     "prompt": "Choose the grammatically correct sentence.",
+     "japanese": null,
+     "choices": [
+      "どれ人[ひと]はだれですか。",
+      "これ電車[でんしゃ]はどれですか。",
+      "あれのバスが駅[えき]へ行[い]きますか。",
+      "どのバスが駅[えき]へ行[い]きますか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "どの must precede a noun: どのバス = which bus. A question word that is the subject takes が (どのバスが), giving 'Which bus goes to the station?' どれ is a pronoun and cannot precede 人[ひと]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
+    },
+    {
+     "id": "ko-so-a-do-noun_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "このかさはだれのですか。",
+     "choices": [
+      "Whose umbrella is this?",
+      "Which umbrella is yours?",
+      "Is this umbrella expensive?",
+      "Where is this umbrella from?"
+     ],
+     "correctIndex": 0,
+     "explanation": "この = this (near speaker) + かさ = umbrella; だれ = who; の = possessive marker; ですか = question. 'Whose umbrella is this?' — the classic ownership question using the demonstrative adjective この."
+    },
+    {
+     "id": "ko-so-a-do-noun_q15",
+     "type": "usage",
+     "prompt": "You can see a car in the distance that belongs to your teacher. Which sentence correctly says 'That car over there is the teacher's'?",
+     "japanese": null,
+     "choices": [
+      "そのくるまはせんせいのです。",
+      "あのくるまはせんせいのです。",
+      "このくるまはせんせいのです。",
+      "どのくるまはせんせいのですか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "あの + noun refers to something far from both speaker and listener. Since the car is in the distance, あのくるま (that car over there) is correct. その = near listener; この = near speaker; どの makes it a question."
+    },
+    {
+     "id": "ko-so-a-do-noun_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you want to ask which bag someone prefers from a display of many bags in a store.",
+     "japanese": "___かばんがいいですか。",
+     "choices": [
+      "この",
+      "あの",
+      "どの",
+      "その"
+     ],
+     "correctIndex": 2,
+     "explanation": "どの + noun asks 'which [noun]?' — どのかばん = which bag. This is the question form for choosing among multiple options. この/その/あの all point to specific known bags rather than asking the listener to choose."
+    },
+    {
+     "id": "ko-so-a-do-noun_q17",
+     "type": "construct",
+     "prompt": "Why is 「これの本[ほん]は重[おも]いです。」ungrammatical?",
+     "japanese": null,
+     "choices": [
+      "これ cannot be used with books.",
+      "重[おも]い cannot follow は in this structure, with no exceptions in modern standard Japanese.",
+      "これ should be replaced with あの here.",
+      "これ is a pronoun and cannot precede a noun — use この instead."
+     ],
+     "correctIndex": 3,
+     "explanation": "これ is a pronoun and cannot directly precede a noun, even with の inserted. The correct form is この本[ほん] (this book) — an adjective + noun. の connects nouns to nouns (e.g., 先生[せんせい]の本[ほん]) but cannot rescue これ into an adjective role."
+    },
+    {
+     "id": "ko-so-a-do-noun_q18",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "あの山[やま]は高[たか]いですね。",
+     "choices": [
+      "That mountain over there is tall, isn't it?",
+      "This mountain here is tall.",
+      "Which mountain is tall?",
+      "Is that mountain (near you) tall?"
+     ],
+     "correctIndex": 0,
+     "explanation": "あの = that (over there, far from both); 山[やま] = mountain; 高[たか]い = tall; ですね = 'isn't it?' Together: 'That mountain over there is tall, isn't it?' — a typical observation about something in the distance."
+    },
+    {
+     "id": "ko-so-a-do-noun_q19",
+     "type": "usage",
+     "prompt": "Which pair correctly contrasts the pronoun and adjective forms of the demonstrative system?",
+     "japanese": null,
+     "choices": [
+      "これは車[くるま]です / これ車[くるま]は新[あたら]しいです",
+      "これは車[くるま]です / この車[くるま]は新[あたら]しいです",
+      "この車[くるま]です / これの車[くるま]は新[あたら]しいです",
+      "それ車[くるま]です / そのは車[くるま]です"
+     ],
+     "correctIndex": 1,
+     "explanation": "これは車[くるま]です uses これ as a pronoun (stands alone): 'This is a car.' この車[くるま]は新[あたら]しいです uses この as an adjective before 車[くるま]: 'This car is new.' The two forms cannot be swapped — これ cannot precede a noun directly."
+    },
+    {
+     "id": "ko-so-a-do-noun_q20",
+     "type": "construct",
+     "prompt": "How do you say 'That person near you is my friend' in Japanese?",
+     "japanese": null,
+     "choices": [
+      "あの人[ひと]はわたしの友達[ともだち]です。",
+      "この人[ひと]はわたしの友達[ともだち]です。",
+      "その人[ひと]はわたしの友達[ともだち]です。",
+      "どの人[ひと]はわたしの友達[ともだち]ですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "その + noun = that  near the listener. If the person is near the listener, その人[ひと] is correct. あの = far from both; この = near speaker; どの asks a question. その人[ひと]はわたしの友達[ともだち]です = 'That person (near you) is my friend.'"
+    }
+   ]
+  },
+  {
+   "id": "ko-so-a-do-place",
+   "name": "ここ・そこ・あそこ・どこ (places)",
+   "shortDescription": "Demonstrative pronouns for places: here, there, over there, where.",
+   "formation": "ここ / そこ / あそこ / どこ (used as nouns for places)",
+   "explanation": "The kosoado system has pronouns for objects, adjectives for nouns — and a full set of place words too. ここ means 'here,' the speaker's location. そこ means 'there,' the listener's location. あそこ means 'over there,' far from both people. どこ means 'where?' These words function as nouns, so you attach particles to them just as you would to any place noun.\n\nThe particle に marks where something exists or is heading: ここに = 'at this place / to this place.' The particle で marks where an action takes place: そこで = 'doing something at that place.' Beginners often confuse the two — a helpful shortcut: に is for being or arriving, で is for doing. This に vs で distinction will become a cornerstone of Japanese particle usage throughout your studies.",
+   "rules": [
+    "ここ = here (speaker's location), そこ = there (listener's location), あそこ = over there, どこ = where?",
+    "Add に for location of existence or destination: ここにあります (It is here)",
+    "Add で for location of action: そこで食[た]べます (I'll eat there)",
+    "どこ is used in open-ended 'where' questions, not for choosing between options"
+   ],
+   "examples": [
+    {
+     "japanese": "トイレはどこですか。",
+     "romaji": "Toire wa doko desu ka.",
+     "english": "Where is the restroom?"
+    },
+    {
+     "japanese": "ここは学校[がっこう]です。",
+     "romaji": "Koko wa gakkou desu.",
+     "english": "This place is the school."
+    },
+    {
+     "japanese": "あそこにスーパーがあります。",
+     "romaji": "Asoko ni suupaa ga arimasu.",
+     "english": "There is a supermarket over there."
+    },
+    {
+     "japanese": "そこで待[ま]ってください。",
+     "romaji": "Soko de matte kudasai.",
+     "english": "Please wait there."
+    }
+   ],
+   "flashcardHeader": "ここ・そこ・あそこ・どこ",
+   "flashcardAnswer": "Demonstrative pronouns for places: here, there, over there, where.",
+   "practice": [
+    {
+     "id": "ko-so-a-do-place_q1",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "トイレはどこですか。",
+     "choices": [
+      "Where is the restroom?",
+      "The restroom is over there.",
+      "How far is the restroom?",
+      "Is there a restroom here?"
+     ],
+     "correctIndex": 0,
+     "explanation": "どこ is the place question word meaning 'where.' Combined with は and ですか, トイレはどこですか asks where the restroom is — one of the most practical sentences you will use in Japan."
+    },
+    {
+     "id": "ko-so-a-do-place_q2",
+     "type": "construct",
+     "prompt": "How do you say 'I'll eat there' — performing an action at the listener's location?",
+     "choices": [
+      "そこを食[た]べます。",
+      "そこに食[た]べます。",
+      "そこが食[た]べます。",
+      "そこで食[た]べます。"
+     ],
+     "correctIndex": 3,
+     "explanation": "で marks the place where an action takes place: そこで = 'at that place.' に marks location of existence or destination, not action. A helpful shortcut: に is for being or arriving; で is for doing."
+    },
+    {
+     "id": "ko-so-a-do-place_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: there is a supermarket far away from both you and your listener.",
+     "japanese": "___にスーパーがあります。",
+     "choices": [
+      "どこ",
+      "そこ",
+      "あそこ",
+      "ここ"
+     ],
+     "correctIndex": 2,
+     "explanation": "あそこ means 'over there' — far from both speaker and listener. ここ = here (speaker's location); そこ = there (listener's location); どこ = where (a question word, not a statement)."
+    },
+    {
+     "id": "ko-so-a-do-place_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses a place pronoun?",
+     "choices": [
+      "ここは学校[がっこう]です。",
+      "学校[がっこう]はここを。",
+      "ここの学校[がっこう]います。",
+      "ここで学校[がっこう]です。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ここは学校[がっこう]です follows the standard pattern: place pronoun + は + noun + です, meaning 'This place is the school.' で marks an action location; の connects nouns; を marks a direct object — none of these fit a simple identity statement."
+    },
+    {
+     "id": "ko-so-a-do-place_q5",
+     "type": "construct",
+     "prompt": "A dog is sitting at the listener's feet. Which sentence tells them 'There is a dog there'?",
+     "choices": [
+      "あそこに犬[いぬ]がいます。",
+      "そこに犬[いぬ]がいます。",
+      "ここに犬[いぬ]がいます。",
+      "どこに犬[いぬ]がいますか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "そこ refers to a location near the listener. Since the dog is at the listener's feet, そこに犬[いぬ]がいます is correct. ここ = near speaker; あそこ = far from both; どこ is a question word (makes the sentence a question, not a statement)."
+    },
+    {
+     "id": "ko-so-a-do-place_q6",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "ここは図書館[としょかん]です。",
+     "choices": [
+      "This place is the library.",
+      "That place (near you) is the library.",
+      "The library is over there.",
+      "Where is the library?"
+     ],
+     "correctIndex": 0,
+     "explanation": "ここ = here (speaker's location); 図書館[としょかん] = library; です = is. 'This place is the library.' — the speaker is standing at or pointing to the library's location."
+    },
+    {
+     "id": "ko-so-a-do-place_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: the station is at the listener's location.",
+     "japanese": "___が駅[えき]です。",
+     "choices": [
+      "ここ",
+      "そこ",
+      "あそこ",
+      "どこ"
+     ],
+     "correctIndex": 1,
+     "explanation": "そこ refers to a location near the listener. If the station is where the listener is, そこが駅[えき]です = 'That place (near you) is the station.' ここ = speaker's location; あそこ = far from both; どこ = where (question)."
+    },
+    {
+     "id": "ko-so-a-do-place_q8",
+     "type": "construct",
+     "prompt": "Which sentence correctly answers どこで勉強[べんきょう]しますか with 'I study over there (at that place in the distance)'?",
+     "japanese": null,
+     "choices": [
+      "あそこから勉強[べんきょう]します。",
+      "どこで勉強[べんきょう]しますか。",
+      "あそこで勉強[べんきょう]します。",
+      "ここに勉強[べんきょう]します。"
+     ],
+     "correctIndex": 2,
+     "explanation": "で marks the location of an action — あそこで = 'over there at that place.' から marks origin (from); に marks existence/destination, not action location. あそこで勉強[べんきょう]します = 'I study over there (at that place in the distance).'"
+    },
+    {
+     "id": "ko-so-a-do-place_q9",
+     "type": "usage",
+     "prompt": "What is the difference between に and で when used with place demonstratives like ここ・そこ・あそこ?",
+     "japanese": null,
+     "choices": [
+      "に is for questions; で is for statements.",
+      "に marks human presence; で marks object presence.",
+      "に and で are interchangeable in most sentences.",
+      "に marks location of existence/destination; で marks location of action."
+     ],
+     "correctIndex": 3,
+     "explanation": "に marks where something exists or is headed: ここにあります (it is here). で marks where an action takes place: そこで食[た]べます (I eat there). This に vs で distinction is one of the most important particle rules in Japanese."
+    },
+    {
+     "id": "ko-so-a-do-place_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "あそこから来[き]ましたか。",
+     "choices": [
+      "Did you come from over there?",
+      "Are you going over there?",
+      "Is there something over there?",
+      "Where did you come from?"
+     ],
+     "correctIndex": 0,
+     "explanation": "あそこ = over there (far from both); から = from; 来[き]ましたか = did you come? Together: 'Did you come from over there?' — から marks the starting point of movement, and あそこ specifies the distant origin."
+    },
+    {
+     "id": "ko-so-a-do-place_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you want to tell someone 'Please sit here' (at the speaker's location).",
+     "japanese": "___に座[すわ]ってください。",
+     "choices": [
+      "どこ",
+      "ここ",
+      "そこ",
+      "あそこ"
+     ],
+     "correctIndex": 1,
+     "explanation": "ここ = here (speaker's location). に marks the destination or point of arrival/presence. ここに座[すわ]ってください = 'Please sit here.' そこ = listener's location; あそこ = far from both; どこ = 'where?' (question word)."
+    },
+    {
+     "id": "ko-so-a-do-place_q12",
+     "type": "construct",
+     "prompt": "How do you ask 'Where is the park?' in Japanese?",
+     "japanese": null,
+     "choices": [
+      "公園[こうえん]はそこです。",
+      "あそこに公園[こうえん]があります。",
+      "公園[こうえん]はどこですか。",
+      "公園[こうえん]にどこですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "どこ is the place question word meaning 'where.' 公園[こうえん]はどこですか = 'Where is the park?' following the pattern: topic + は + どこ + ですか. そこ and あそこ point to specific locations rather than asking where something is."
+    },
+    {
+     "id": "ko-so-a-do-place_q13",
+     "type": "usage",
+     "prompt": "You are at a train station. A stranger walks up. They want to know your destination. Which sentence correctly asks 'Where are you going?'",
+     "japanese": null,
+     "choices": [
+      "あそこへ行[い]きますか。",
+      "ここへ行[い]きますか。",
+      "そこへ行[い]きますか。",
+      "どこへ行[い]きますか。"
+     ],
+     "correctIndex": 3,
+     "explanation": "どこ is the question word for places — 'where?' どこへ行[い]きますか = 'Where are you going?' へ marks direction of movement. ここ/そこ/あそこ all point to specific places rather than asking an open-ended question."
+    },
+    {
+     "id": "ko-so-a-do-place_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "そこで待[ま]ってください。",
+     "choices": [
+      "Please wait there (where you are).",
+      "Please come here.",
+      "Is someone waiting there?",
+      "Where should I wait?"
+     ],
+     "correctIndex": 0,
+     "explanation": "そこ = there (near the listener); で = particle marking location of action; 待[ま]ってください = please wait. 'Please wait there (where you are).' — the speaker tells the listener to stay in the listener's current location."
+    },
+    {
+     "id": "ko-so-a-do-place_q15",
+     "type": "usage",
+     "prompt": "A convenience store is in the far distance that both you and your friend can see. How do you say 'There is a convenience store over there'?",
+     "japanese": null,
+     "choices": [
+      "ここにコンビニがあります。",
+      "あそこにコンビニがあります。",
+      "そこにコンビニがいます。",
+      "どこにコンビニがありますか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "あそこ = over there (far from both speaker and listener). に marks where something exists: あそこにコンビニがあります = 'There is a convenience store over there.' Note: あります (not います) is used for non-living things; どこ would ask a question."
+    },
+    {
+     "id": "ko-so-a-do-place_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you are asking where the hospital is.",
+     "japanese": "病院[びょういん]は___ですか。",
+     "choices": [
+      "ここ",
+      "あそこ",
+      "どこ",
+      "そこ"
+     ],
+     "correctIndex": 2,
+     "explanation": "どこ is the question word for places. 病院[びょういん]はどこですか = 'Where is the hospital?' — an open question asking for the location. ここ/そこ/あそこ all point to specific known locations rather than asking where something is."
+    },
+    {
+     "id": "ko-so-a-do-place_q17",
+     "type": "construct",
+     "prompt": "How do you say 'Let's eat here' in Japanese? (eating is an action)",
+     "japanese": null,
+     "choices": [
+      "ここに食[た]べましょう。",
+      "ここを食[た]べましょう。",
+      "ここが食[た]べましょう。",
+      "ここで食[た]べましょう。"
+     ],
+     "correctIndex": 3,
+     "explanation": "で marks the location of an action: ここで食[た]べましょう = 'Let's eat here.' に marks existence or destination, not where an action occurs; を marks a direct object; が marks a subject. The に vs で distinction is central to Japanese particle usage."
+    },
+    {
+     "id": "ko-so-a-do-place_q18",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "駅[えき]はどこですか。",
+     "choices": [
+      "Where is the station?",
+      "The station is over there.",
+      "Is there a station here?",
+      "How far is the station?"
+     ],
+     "correctIndex": 0,
+     "explanation": "駅[えき] = station; は = topic marker; どこ = where; ですか = question. 'Where is the station?' — the most direct way to ask for a location using the question place demonstrative."
+    },
+    {
+     "id": "ko-so-a-do-place_q19",
+     "type": "usage",
+     "prompt": "Which sentence is INCORRECT?",
+     "japanese": null,
+     "choices": [
+      "ここで写真[しゃしん]を撮[と]ります。",
+      "ここに写真[しゃしん]を撮[と]ります。",
+      "あそこに公園[こうえん]があります。",
+      "そこで会議[かいぎ]があります。"
+     ],
+     "correctIndex": 1,
+     "explanation": "ここに写真[しゃしん]を撮[と]ります is incorrect because で (not に) marks the place where an action takes place. 写真[しゃしん]を撮[と]る (to take a photo) is an action, so で is required: ここで写真[しゃしん]を撮[と]ります. に is correct for existence (あります/います) or destination."
+    },
+    {
+     "id": "ko-so-a-do-place_q20",
+     "type": "construct",
+     "prompt": "Someone cannot find the bank. How do you point and say 'The bank is over there'?",
+     "japanese": null,
+     "choices": [
+      "銀行[ぎんこう]はそこです。",
+      "銀行[ぎんこう]はここです。",
+      "銀行[ぎんこう]はあそこです。",
+      "銀行[ぎんこう]はどこですか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "あそこ = over there, far from both speaker and listener. If you are pointing in the distance, あそこ is correct. そこ = near the listener; ここ = near the speaker; どこ asks a question rather than providing an answer."
+    }
+   ]
+  },
+  {
+   "id": "noun-mo",
+   "name": "〜も (mo) — also, too",
+   "shortDescription": "Replaces は or が/を to mean 'also' or 'too'.",
+   "formation": "Noun + も + Predicate",
+   "explanation": "も is a particle with a simple but powerful meaning: 'also' or 'too.' It works by replacing other particles. わたしは学生[がくせい]です (I am a student) → わたしも学生[がくせい]です (I am also a student): the は is swapped out for も. The same replacement works with が: 猫[ねこ]がいます → 猫[ねこ]もいます (There is also a cat).\n\nOne firm rule to remember: in negative sentences, も means 'either' or 'not...either.' わたしも行[い]きません means 'I won't go either.' The pattern 〜も + negative must be consistent — you cannot mix positive and negative within the same paired statements.\n\nTo say 'both A and B,' stack two も: AもBも. Think of も as an inclusion operator — whatever it attaches to gets added to the same category as what came before it.",
+   "rules": [
+    "も replaces は, が, or を to add the meaning of 'also/too'",
+    "Positive: 〜も〜です / 〜もVます = also is / also does",
+    "Negative: 〜も〜ない = ...not...either",
+    "A も B も = both A and B (stacking も)",
+    "Do not use は and も together on the same noun"
+   ],
+   "examples": [
+    {
+     "japanese": "山田[やまだ]さんも学生[がくせい]です。",
+     "romaji": "Yamada-san mo gakusei desu.",
+     "english": "Yamada-san is also a student."
+    },
+    {
+     "japanese": "わたしも犬[いぬ]が好[す]きです。",
+     "romaji": "Watashi mo inu ga suki desu.",
+     "english": "I also like dogs."
+    },
+    {
+     "japanese": "猫[ねこ]もいますか。",
+     "romaji": "Neko mo imasu ka.",
+     "english": "Is there a cat too?"
+    },
+    {
+     "japanese": "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。",
+     "romaji": "Nihongo mo chuugokugo mo muzukashii desu.",
+     "english": "Both Japanese and Chinese are difficult."
+    }
+   ],
+   "flashcardHeader": "〜も",
+   "flashcardAnswer": "Replaces は or が/を to mean 'also' or 'too'.",
+   "practice": [
+    {
+     "id": "noun-mo_q1",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "山田[やまだ]さんも学生[がくせい]です。",
+     "choices": [
+      "Yamada-san is a student, isn't it?",
+      "Only Yamada-san is a student.",
+      "Yamada-san is not a student either.",
+      "Yamada-san is also a student."
+     ],
+     "correctIndex": 3,
+     "explanation": "も replaces は to add the meaning 'also/too.' 山田[やまだ]さんも implies someone else has already been identified as a student, and Yamada-san shares that description. The positive verb form confirms it is 'also,' not 'either.'"
+    },
+    {
+     "id": "noun-mo_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 'I also like dogs' (someone else has already said they like dogs).",
+     "japanese": "わたし___犬[いぬ]が好[す]きです。",
+     "choices": [
+      "が",
+      "も",
+      "を",
+      "は"
+     ],
+     "correctIndex": 1,
+     "explanation": "も replaces は (or other particles) to add 'also/too.' Using は would state 'I like dogs' without the 'also' nuance. が and を serve different grammatical functions and cannot replace the topic/subject slot here to mean 'also.'"
+    },
+    {
+     "id": "noun-mo_q3",
+     "type": "construct",
+     "prompt": "How do you say 'I won't go either' when someone else has said they also won't go?",
+     "choices": [
+      "わたしは行[い]きません。",
+      "わたしも行[い]きます。",
+      "わたしもは行[い]きません。",
+      "わたしも行[い]きません。"
+     ],
+     "correctIndex": 3,
+     "explanation": "In negative sentences, も means 'not...either.' わたしも行[い]きません = 'I won't go either.' Using は instead of も removes the 'either' nuance; combining もは is ungrammatical — は and も cannot stack on the same noun."
+    },
+    {
+     "id": "noun-mo_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses も to mean 'both A and B'?",
+     "choices": [
+      "日本語[にほんご]はも難[むずか]しいです。",
+      "も日本語[にほんご]も難[むずか]しいです。",
+      "日本語[にほんご]も難[むずか]しいはです。",
+      "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Stacking も on two nouns (AもBも) means 'both A and B.' は and も cannot appear together on the same noun; も does not go sentence-initially here; and particles must stay in their correct position after nouns."
+    },
+    {
+     "id": "noun-mo_q5",
+     "type": "construct",
+     "prompt": "Your friend says「猫[ねこ]が好[す]きです。」You also like cats. What do you say?",
+     "choices": [
+      "わたしがも好[す]きです。",
+      "わたしもは好[す]きです。",
+      "わたしは好[す]きです。",
+      "わたしも好[す]きです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "も replaces は to add 'also.' Since context makes clear the topic is cats, わたしも好[す]きです naturally means 'I also like (them).' Using は would simply state 'I like (them)' without the 'also.' もは and がも are ungrammatical combinations."
+    },
+    {
+     "id": "noun-mo_q6",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "猫[ねこ]もいますか。",
+     "choices": [
+      "Is there a cat too?",
+      "Is there only a cat?",
+      "Where is the cat?",
+      "Is there no cat either?"
+     ],
+     "correctIndex": 0,
+     "explanation": "猫[ねこ] = cat; も = also/too; いますか = is there? 'Is there a cat too?' — も implies something else has already been mentioned (perhaps a dog), and the speaker is asking if a cat is also present."
+    },
+    {
+     "id": "noun-mo_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 'Tanaka-san won't come either' (someone else won't come).",
+     "japanese": "田中[たなか]さん___来[き]ません。",
+     "choices": [
+      "は",
+      "も",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "In negative sentences, も means 'not...either.' 田中[たなか]さんも来[き]ません = 'Tanaka-san won't come either.' Using は would simply state 'Tanaka-san won't come' without the 'either' nuance. が and を serve different grammatical roles."
+    },
+    {
+     "id": "noun-mo_q8",
+     "type": "construct",
+     "prompt": "How do you say 'Both coffee and tea are delicious'?",
+     "japanese": null,
+     "choices": [
+      "コーヒーもと紅茶[こうちゃ]もおいしいです。",
+      "コーヒーと紅茶[こうちゃ]がもおいしいです。",
+      "コーヒーも紅茶[こうちゃ]もおいしいです。",
+      "コーヒーは紅茶[こうちゃ]もおいしいです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Stacking も on two nouns (AもBも) means 'both A and B.' コーヒーも紅茶[こうちゃ]もおいしいです = 'Both coffee and tea are delicious.' は cannot be stacked with も on the same noun. と is a conjunctive particle, not a substitute for the AもBも pattern."
+    },
+    {
+     "id": "noun-mo_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses も in a positive addition context (someone else is also a teacher)?",
+     "japanese": null,
+     "choices": [
+      "山田[やまだ]さんはも先生[せんせい]です。",
+      "山田[やまだ]さんがも先生[せんせい]です。",
+      "も山田[やまだ]さんは先生[せんせい]です。",
+      "山田[やまだ]さんも先生[せんせい]です。"
+     ],
+     "correctIndex": 3,
+     "explanation": "も replaces は (or other particles) — it does not stack with them. 山田[やまだ]さんも先生[せんせい]です = 'Yamada-san is also a teacher.' はも and がも are ungrammatical. も at the start of a sentence in this position is also incorrect."
+    },
+    {
+     "id": "noun-mo_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです。",
+     "choices": [
+      "Both Japanese and Chinese are difficult.",
+      "Japanese is more difficult than Chinese.",
+      "Japanese is difficult, but Chinese is not.",
+      "Either Japanese or Chinese is difficult."
+     ],
+     "correctIndex": 0,
+     "explanation": "AもBも = both A and B. 日本語[にほんご]も中国語[ちゅうごくご]も難[むずか]しいです = 'Both Japanese and Chinese are difficult.' This stacked も pattern is an efficient and very common way to group two things under the same description."
+    },
+    {
+     "id": "noun-mo_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 'I also went to the park' (someone else also went).",
+     "japanese": "わたし___公園[こうえん]に行[い]きました。",
+     "choices": [
+      "は",
+      "も",
+      "が",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "も replaces the topic particle は to mean 'also/too.' わたしも公園[こうえん]に行[い]きました = 'I also went to the park.' Using は would simply state 'I went to the park' without the 'also' nuance. が marks a subject; を marks a direct object."
+    },
+    {
+     "id": "noun-mo_q12",
+     "type": "construct",
+     "prompt": "Your friend says they don't like spicy food. You also dislike spicy food. What do you say?",
+     "japanese": null,
+     "choices": [
+      "わたしはからい食[た]べ物[もの]が好[す]きではありません。",
+      "わたしがも好[す]きではありません。",
+      "わたしも好[す]きではありません。",
+      "わたしはも好[す]きではありません。"
+     ],
+     "correctIndex": 2,
+     "explanation": "も replaces は in negative sentences to mean 'not...either.' わたしも好[す]きではありません = 'I don't like it either.' はも is ungrammatical; がも is also ungrammatical. The first option uses は, which lacks the 'either' nuance."
+    },
+    {
+     "id": "noun-mo_q13",
+     "type": "usage",
+     "prompt": "When does も mean 'either' rather than 'also'?",
+     "japanese": null,
+     "choices": [
+      "When it follows a question word like どれ or どこ.",
+      "When it follows a noun with の.",
+      "When the sentence ends with ですか.",
+      "When the verb or predicate is in negative form."
+     ],
+     "correctIndex": 3,
+     "explanation": "In positive sentences, も means 'also/too.' In negative sentences (〜ません / 〜ない / 〜ではありません), も shifts meaning to 'not...either.' The form of the predicate (positive vs negative) determines the translation of も."
+    },
+    {
+     "id": "noun-mo_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "田中[たなか]さんも学生[がくせい]ではありません。",
+     "choices": [
+      "Tanaka-san is not a student either.",
+      "Tanaka-san is also a student.",
+      "Only Tanaka-san is not a student.",
+      "Tanaka-san is neither a teacher nor a student."
+     ],
+     "correctIndex": 0,
+     "explanation": "も + negative predicate (ではありません) = 'not...either.' 田中[たなか]さんも学生[がくせい]ではありません = 'Tanaka-san is not a student either.' This implies someone else was also said to not be a student earlier in the conversation."
+    },
+    {
+     "id": "noun-mo_q15",
+     "type": "usage",
+     "prompt": "Why is 「わたしはも学生[がくせい]です。」ungrammatical?",
+     "japanese": null,
+     "choices": [
+      "も must come before は, not after.",
+      "は and も cannot appear together on the same noun — も replaces は.",
+      "学生[がくせい] requires が, not は or も.",
+      "The sentence needs ですか at the end to be grammatical."
+     ],
+     "correctIndex": 1,
+     "explanation": "も replaces は — they cannot coexist on the same noun. The correct form is わたしも学生[がくせい]です ('I am also a student'), where も takes the place of は. Stacking both particles on the same noun is ungrammatical in Japanese."
+    },
+    {
+     "id": "noun-mo_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 'Sato-san is also a doctor.'",
+     "japanese": "佐藤[さとう]さん___医者[いしゃ]です。",
+     "choices": [
+      "は",
+      "が",
+      "も",
+      "を"
+     ],
+     "correctIndex": 2,
+     "explanation": "も replaces は to add 'also/too.' 佐藤[さとう]さんも医者[いしゃ]です = 'Sato-san is also a doctor.' This implies someone else has already been identified as a doctor, and Sato-san is being added to that group."
+    },
+    {
+     "id": "noun-mo_q17",
+     "type": "construct",
+     "prompt": "How do you say 'I didn't eat breakfast either'?",
+     "japanese": null,
+     "choices": [
+      "わたしはも朝[あさ]ごはんを食[た]べませんでした。",
+      "わたしが朝[あさ]ごはんも食[た]べませんでした。",
+      "わたしは朝[あさ]ごはんを食[た]べませんでした。",
+      "わたしも朝[あさ]ごはんを食[た]べませんでした。"
+     ],
+     "correctIndex": 3,
+     "explanation": "も replaces は in the topic position: わたしも朝[あさ]ごはんを食[た]べませんでした = 'I didn't eat breakfast either.' The third option (は instead of も) lacks the 'either' nuance; はも is ungrammatical. This implies someone else also skipped breakfast."
+    },
+    {
+     "id": "noun-mo_q18",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "コーヒーもください。",
+     "choices": [
+      "Coffee too, please.",
+      "Only coffee, please.",
+      "No coffee either, please.",
+      "Which coffee would you like?"
+     ],
+     "correctIndex": 0,
+     "explanation": "コーヒー = coffee; も = also/too; ください = please give me. 'Coffee too, please.' — も indicates the person is requesting something in addition to what was already ordered. A common and practical ordering phrase."
+    },
+    {
+     "id": "noun-mo_q19",
+     "type": "usage",
+     "prompt": "A friend says「私[わたし]はりんごが好[す]きです。」You also like apples. What do you say?",
+     "japanese": null,
+     "choices": [
+      "わたしはりんごも好[す]きです。",
+      "わたしもりんごが好[す]きです。",
+      "わたしもりんごもが好[す]きです。",
+      "わたしがもりんごが好[す]きです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "も replaces は on the topic (わたし) to mean 'I also': わたしもりんごが好[す]きです = 'I also like apples.' Putting も after りんご would imply you like apples in addition to something else, changing the nuance. がも is ungrammatical."
+    },
+    {
+     "id": "noun-mo_q20",
+     "type": "construct",
+     "prompt": "Which sentence uses も correctly to mean 'This is also a cat'?",
+     "japanese": null,
+     "choices": [
+      "これはも猫[ねこ]です。",
+      "これがも猫[ねこ]です。",
+      "これも猫[ねこ]です。",
+      "も猫[ねこ]はこれです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "これも猫[ねこ]です = 'This is also a cat.' も replaces は in the pronoun + predicate pattern. は and も cannot appear on the same element (これはも is ungrammatical); が and も also cannot stack; も does not go sentence-initially in this pattern."
+    }
+   ]
+  },
+  {
+   "id": "ne-yo",
+   "name": "ね and よ — sentence-final particles",
+   "shortDescription": "ね seeks agreement; よ asserts information the listener doesn't know.",
+   "formation": "Sentence + ね  |  Sentence + よ  |  Sentence + よね",
+   "explanation": "Japanese sentence-final particles add emotional color and social nuance — two of the most important are ね and よ, and understanding the difference between them is essential. ね (sounds like 'neh') is the solidarity particle: use it when you think the listener already knows or will agree with what you are saying. It invites shared feeling — a bit like 'isn't it?' or 'right?' in English. 今日[きょう]はいい天気[てんき]ですね means 'Nice weather today, isn't it?' — you are assuming the listener agrees.\n\nよ (sounds like 'yo') is the information particle: use it to share something the listener does not know, or to assert something firmly — like saying 'I'm telling you.' これはおいしいですよ means 'This is delicious, trust me.'\n\nThe combination よね softens the assertion of よ by also seeking agreement — a gentle 'It's X, right?' Overusing よ can feel pushy; ね is generally the softer, safer choice with people you do not know well.",
+   "rules": [
+    "ね = seeking agreement or shared feeling ('isn't it?', 'right?')",
+    "よ = asserting new information the listener may not know ('I'm telling you', 'you know')",
+    "よね = gentle assertion with confirmation-seeking ('It is..., right?')",
+    "Do not overuse よ — it can sound pushy or condescending if used too much",
+    "ね is softer and safer to use with people you don't know well"
+   ],
+   "examples": [
+    {
+     "japanese": "今日[きょう]はいい天気[てんき]ですね。",
+     "romaji": "Kyou wa ii tenki desu ne.",
+     "english": "The weather is nice today, isn't it?"
+    },
+    {
+     "japanese": "このケーキはおいしいですよ。",
+     "romaji": "Kono keeki wa oishii desu yo.",
+     "english": "This cake is delicious, I'm telling you."
+    },
+    {
+     "japanese": "それは高[たか]いですよね。",
+     "romaji": "Sore wa takai desu yo ne.",
+     "english": "That's expensive, right?"
+    },
+    {
+     "japanese": "もうすぐ春[はる]ですね。",
+     "romaji": "Mou sugu haru desu ne.",
+     "english": "Spring is coming soon, isn't it?"
+    }
+   ],
+   "flashcardHeader": "ね and よ",
+   "flashcardAnswer": "ね seeks agreement; よ asserts information the listener doesn't know.",
+   "practice": [
+    {
+     "id": "ne-yo_q1",
+     "type": "usage",
+     "prompt": "Which particle seeks agreement or invites shared feeling from the listener?",
+     "choices": [
+      "よ",
+      "は",
+      "ね",
+      "か"
+     ],
+     "correctIndex": 2,
+     "explanation": "ね invites the listener to agree or share a feeling — like 'isn't it?' or 'right?' in English. よ asserts new information to the listener; か makes a direct question; は is a topic marker, not a sentence-final particle."
+    },
+    {
+     "id": "ne-yo_q2",
+     "type": "construct",
+     "prompt": "You want to tell a friend something they don't know: 'This café is delicious!' Which sentence fits best?",
+     "choices": [
+      "このカフェはおいしいよね。",
+      "このカフェはおいしいですか。",
+      "このカフェはおいしいですね。",
+      "このカフェはおいしいですよ。"
+     ],
+     "correctIndex": 3,
+     "explanation": "よ asserts new information the listener doesn't know — perfect here since your friend hasn't been to this café. ね would assume they already agree; か turns it into a question; よね is a softer assertion that also seeks confirmation."
+    },
+    {
+     "id": "ne-yo_q3",
+     "type": "fillBlank",
+     "prompt": "You are commenting on the nice weather to someone beside you, expecting them to agree. Fill in the blank.",
+     "japanese": "今日[きょう]はいい天気[てんき]です___。",
+     "choices": [
+      "か",
+      "よ",
+      "を",
+      "ね"
+     ],
+     "correctIndex": 3,
+     "explanation": "ね is used when you assume the listener shares your observation — perfect for weather comments. よ would assert the weather as news the listener doesn't know; か would make it a direct yes/no question; を is an object particle with no role here."
+    },
+    {
+     "id": "ne-yo_q4",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "このケーキはおいしいですよ。",
+     "choices": [
+      "This cake is delicious, right?",
+      "This cake is delicious, I'm telling you.",
+      "This cake is also delicious.",
+      "Is this cake delicious?"
+     ],
+     "correctIndex": 1,
+     "explanation": "よ asserts information the listener may not know — capturing the 'I'm telling you / trust me' nuance. ね would give 'right?'; か would make it a question; も (also) is not present in the sentence."
+    },
+    {
+     "id": "ne-yo_q5",
+     "type": "construct",
+     "prompt": "What does よね express in a sentence?",
+     "choices": [
+      "A gentle assertion that also seeks confirmation from the listener.",
+      "Surprise at unexpected information.",
+      "A blunt assertion with no room for disagreement.",
+      "A neutral question with no emotional nuance."
+     ],
+     "correctIndex": 0,
+     "explanation": "よね combines よ (assertion of information) with ね (seeking agreement), creating a softer 'It is X, right?' It is less pushy than よ alone and more assertive than ね alone — a very natural and common combination."
+    },
+    {
+     "id": "ne-yo_q6",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "それは高[たか]いですよね。",
+     "choices": [
+      "That's expensive, right?",
+      "That's definitely expensive.",
+      "Is that expensive?",
+      "That's also expensive."
+     ],
+     "correctIndex": 0,
+     "explanation": "よね combines よ (assertion) and ね (seeking agreement): 'That's expensive, right?' — a gentle assertion that also invites the listener to confirm. よ alone would be more assertive; ね alone would assume they already agree; か would be a direct yes/no question."
+    },
+    {
+     "id": "ne-yo_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you just tasted something new and want to strongly assert to a friend 'This is delicious!'",
+     "japanese": "これはおいしい___。",
+     "choices": [
+      "ね",
+      "よ",
+      "か",
+      "を"
+     ],
+     "correctIndex": 1,
+     "explanation": "よ asserts new information to the listener — 'I'm telling you, this is delicious!' ね would assume the listener already knows or agrees; か makes it a question; を is an object particle with no role as a sentence-final particle."
+    },
+    {
+     "id": "ne-yo_q8",
+     "type": "construct",
+     "prompt": "You and a friend are both looking at autumn leaves together. You want to say 'The leaves are beautiful, aren't they?' Which sentence fits?",
+     "japanese": null,
+     "choices": [
+      "もみじがきれいですよ。",
+      "もみじがきれいですか。",
+      "もみじがきれいですね。",
+      "もみじがきれいです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "ね is used when you assume the listener shares your observation — perfect for a shared experience like looking at leaves together. よ would imply the beauty is news to the listener; か is a direct yes/no question; plain です makes a flat statement without social nuance."
+    },
+    {
+     "id": "ne-yo_q9",
+     "type": "usage",
+     "prompt": "Which sentence sounds most natural when you meet a friend outside on a cold winter day?",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]は寒[さむ]いですか。",
+      "今日[きょう]は寒[さむ]いです。",
+      "今日[きょう]は寒[さむ]いですよ。",
+      "今日[きょう]は寒[さむ]いですね。"
+     ],
+     "correctIndex": 3,
+     "explanation": "ね invites shared feeling — perfect for commenting on weather with someone who is experiencing the same cold. よ would assert the cold as new information (odd, since both are outside); ですか asks a yes/no question; plain です makes a flat statement without warmth."
+    },
+    {
+     "id": "ne-yo_q10",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "もうすぐ春[はる]ですね。",
+     "choices": [
+      "Spring is coming soon, isn't it?",
+      "Spring has already arrived!",
+      "Will spring come soon?",
+      "Spring is coming (I'm telling you)."
+     ],
+     "correctIndex": 0,
+     "explanation": "もうすぐ = soon; 春[はる] = spring; ですね = 'isn't it?' 'Spring is coming soon, isn't it?' — ね invites the listener to share in the anticipation of spring. よ would be used if the listener didn't know spring was approaching."
+    },
+    {
+     "id": "ne-yo_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you are recommending a restaurant to a friend who has never been there. 'This restaurant is delicious, I'm telling you!'",
+     "japanese": "このレストランはおいしい___。",
+     "choices": [
+      "ね",
+      "よ",
+      "か",
+      "も"
+     ],
+     "correctIndex": 1,
+     "explanation": "よ is used to share new information or assert something the listener doesn't know. Since your friend has never been, the restaurant's quality is new information — よ is the natural choice. ね would imply they already know it's delicious."
+    },
+    {
+     "id": "ne-yo_q12",
+     "type": "construct",
+     "prompt": "What is the nuance of よね as opposed to よ alone?",
+     "japanese": null,
+     "choices": [
+      "よね is more assertive and confrontational than よ — textbooks treat this as an absolute rule.",
+      "よね is used only in negative sentences.",
+      "よね gently asserts something while also seeking the listener's confirmation.",
+      "よね is an older, more formal version of ね."
+     ],
+     "correctIndex": 2,
+     "explanation": "よね combines よ (assertion) + ね (confirmation-seeking): a softened 'It is X, right?' よ alone can sound pushy; よね tones it down by inviting the listener to agree. It is not more assertive — it is actually softer than よ alone."
+    },
+    {
+     "id": "ne-yo_q13",
+     "type": "usage",
+     "prompt": "A native Japanese speaker overuses よ constantly in conversation. What social problem might this cause?",
+     "japanese": null,
+     "choices": [
+      "The speaker sounds too quiet and unsure of themselves.",
+      "The speaker comes across as too formal and distant.",
+      "The speaker sounds like they are asking too many questions.",
+      "The speaker may sound pushy or condescending — like constantly saying 'I'm telling you.'"
+     ],
+     "correctIndex": 3,
+     "explanation": "よ asserts information the listener doesn't know. Used too frequently, it implies the speaker always has new information to deliver — which can feel condescending, as if always correcting the listener. ね is the softer, safer default."
+    },
+    {
+     "id": "ne-yo_q14",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "あのレストランはおいしいですよ。",
+     "choices": [
+      "That restaurant over there is delicious, I'm telling you.",
+      "Is that restaurant delicious?",
+      "That restaurant is also delicious.",
+      "That restaurant is delicious, right?"
+     ],
+     "correctIndex": 0,
+     "explanation": "よ asserts new information to the listener: 'That restaurant is delicious — trust me.' The speaker is recommending somewhere the listener may not know about. ね would assume shared knowledge; か would make it a question; も would add 'also.'"
+    },
+    {
+     "id": "ne-yo_q15",
+     "type": "usage",
+     "prompt": "Someone tells you something you did not know. You want to react: 'Oh, is that so?' Which response fits?",
+     "japanese": null,
+     "choices": [
+      "そうですよ。",
+      "そうですか。",
+      "そうですね。",
+      "そうですよね。"
+     ],
+     "correctIndex": 1,
+     "explanation": "そうですか acknowledges newly received information: 'Oh, is that so?' / 'I see.' It signals that what you heard is new to you. そうですね would imply you already agreed; そうですよ would assert the information back (strange as a reaction to new info); よね seeks agreement."
+    },
+    {
+     "id": "ne-yo_q16",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: you and a coworker are both exhausted at the end of a long work week. 'This week was tough, wasn't it?'",
+     "japanese": "今週[こんしゅう]は大変[たいへん]でした___。",
+     "choices": [
+      "よ",
+      "か",
+      "ね",
+      "を"
+     ],
+     "correctIndex": 2,
+     "explanation": "ね invites shared feeling — both people lived through the same tough week, so ね naturally seeks the coworker's agreement. よ would assert the difficulty as news the listener doesn't know (odd, since they shared the experience); か makes it a yes/no question; を is an object particle."
+    },
+    {
+     "id": "ne-yo_q17",
+     "type": "construct",
+     "prompt": "How do you gently assert 'This movie is interesting, right?' — sharing your view while seeking agreement?",
+     "japanese": null,
+     "choices": [
+      "この映画[えいが]はおもしろいですか。",
+      "この映画[えいが]はおもしろいです。",
+      "この映画[えいが]はおもしろいですね。",
+      "この映画[えいが]はおもしろいですよね。"
+     ],
+     "correctIndex": 3,
+     "explanation": "よね = gentle assertion + confirmation-seeking: 'It's interesting, right?' — asserting your view (よ) while inviting the listener to agree (ね). ですね would assume they already know and agree; ですよ is more assertive without the invitation; ですか is a neutral question."
+    },
+    {
+     "id": "ne-yo_q18",
+     "type": "translation",
+     "prompt": "What does this sentence mean?",
+     "japanese": "明日[あした]は休[やす]みですよね。",
+     "choices": [
+      "Tomorrow is a holiday, right?",
+      "Tomorrow is definitely a holiday.",
+      "Is tomorrow a holiday?",
+      "Tomorrow is also a holiday."
+     ],
+     "correctIndex": 0,
+     "explanation": "よね = assertion + confirmation. 明日[あした]は休[やす]みですよね = 'Tomorrow is a holiday, right?' — the speaker believes tomorrow is a day off and is checking with the listener to confirm. よ alone would assert it more firmly without seeking confirmation; か would be a straight question."
+    },
+    {
+     "id": "ne-yo_q19",
+     "type": "usage",
+     "prompt": "Your friend recommended a dish and you both tried it. You want to say 'It really is delicious, isn't it?' Which sentence fits best?",
+     "japanese": null,
+     "choices": [
+      "これはおいしいですよ。",
+      "これはおいしいですね。",
+      "これはおいしいですか。",
+      "これもおいしいですよ。"
+     ],
+     "correctIndex": 1,
+     "explanation": "ね invites shared feeling between two people who have both tasted the food — 'It's delicious, isn't it?' This confirms a shared experience. よ would suggest the deliciousness is new information to the listener, which is odd since they recommended it first."
+    },
+    {
+     "id": "ne-yo_q20",
+     "type": "construct",
+     "prompt": "Which sentence uses よ correctly?",
+     "japanese": null,
+     "choices": [
+      "今日[きょう]は月曜日[げつようび]ですよ。(telling a coworker the day of the week they already know)",
+      "この道[みち]は危[あぶ]ないよね。(warning someone about a road you both pass daily)",
+      "この薬[くすり]は苦[にが]いですよ。(warning someone before they take medicine they haven't tried)",
+      "来年[らいねん]は暑[あつ]いですよね。(asserting future weather you both will experience)"
+     ],
+     "correctIndex": 2,
+     "explanation": "よ is correct when sharing new information the listener doesn't know. Warning someone before they take bitter medicine (この薬[くすり]は苦[にが]いですよ) is a perfect use — they haven't tried it yet, so it is truly new information. The other options describe situations where ね or よね would be more natural, since the information is shared or presumed."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch02_v01",
+   "partOfSpeech": "pronoun",
+   "kanji": "これ",
+   "kana": "これ",
+   "romaji": "kore",
+   "definition": "this (thing)"
+  },
+  {
+   "id": "ch02_v02",
+   "partOfSpeech": "pronoun",
+   "kanji": "それ",
+   "kana": "それ",
+   "romaji": "sore",
+   "definition": "that (thing near you)"
+  },
+  {
+   "id": "ch02_v03",
+   "partOfSpeech": "pronoun",
+   "kanji": "あれ",
+   "kana": "あれ",
+   "romaji": "are",
+   "definition": "that (over there)"
+  },
+  {
+   "id": "ch02_v04",
+   "partOfSpeech": "pronoun",
+   "kanji": "どれ",
+   "kana": "どれ",
+   "romaji": "dore",
+   "definition": "which (one)"
+  },
+  {
+   "id": "ch02_v05",
+   "partOfSpeech": "pre-noun",
+   "kanji": "この",
+   "kana": "この",
+   "romaji": "kono",
+   "definition": "this ~"
+  },
+  {
+   "id": "ch02_v06",
+   "partOfSpeech": "pre-noun",
+   "kanji": "その",
+   "kana": "その",
+   "romaji": "sono",
+   "definition": "that ~"
+  },
+  {
+   "id": "ch02_v07",
+   "partOfSpeech": "pre-noun",
+   "kanji": "あの",
+   "kana": "あの",
+   "romaji": "ano",
+   "definition": "that ~ (over there)"
+  },
+  {
+   "id": "ch02_v08",
+   "partOfSpeech": "pre-noun",
+   "kanji": "どの",
+   "kana": "どの",
+   "romaji": "dono",
+   "definition": "which ~"
+  },
+  {
+   "id": "ch02_v09",
+   "partOfSpeech": "noun",
+   "kanji": "ここ",
+   "kana": "ここ",
+   "romaji": "koko",
+   "definition": "here"
+  },
+  {
+   "id": "ch02_v10",
+   "partOfSpeech": "noun",
+   "kanji": "そこ",
+   "kana": "そこ",
+   "romaji": "soko",
+   "definition": "there"
+  },
+  {
+   "id": "ch02_v11",
+   "partOfSpeech": "noun",
+   "kanji": "あそこ",
+   "kana": "あそこ",
+   "romaji": "asoko",
+   "definition": "over there"
+  },
+  {
+   "id": "ch02_v12",
+   "partOfSpeech": "noun",
+   "kanji": "どこ",
+   "kana": "どこ",
+   "romaji": "doko",
+   "definition": "where"
+  },
+  {
+   "id": "ch02_v13",
+   "partOfSpeech": "noun",
+   "kanji": "上",
+   "kana": "うえ",
+   "romaji": "ue",
+   "definition": "top; above; on"
+  },
+  {
+   "id": "ch02_v14",
+   "partOfSpeech": "noun",
+   "kanji": "下",
+   "kana": "した",
+   "romaji": "shita",
+   "definition": "bottom; below; under"
+  },
+  {
+   "id": "ch02_v15",
+   "partOfSpeech": "noun",
+   "kanji": "前",
+   "kana": "まえ",
+   "romaji": "mae",
+   "definition": "front; before"
+  },
+  {
+   "id": "ch02_v16",
+   "partOfSpeech": "noun",
+   "kanji": "後ろ",
+   "kana": "うしろ",
+   "romaji": "ushiro",
+   "definition": "back; behind"
+  },
+  {
+   "id": "ch02_v17",
+   "partOfSpeech": "noun",
+   "kanji": "中",
+   "kana": "なか",
+   "romaji": "naka",
+   "definition": "inside; middle"
+  },
+  {
+   "id": "ch02_v18",
+   "partOfSpeech": "noun",
+   "kanji": "外",
+   "kana": "そと",
+   "romaji": "soto",
+   "definition": "outside"
+  },
+  {
+   "id": "ch02_v19",
+   "partOfSpeech": "noun",
+   "kanji": "右",
+   "kana": "みぎ",
+   "romaji": "migi",
+   "definition": "right"
+  },
+  {
+   "id": "ch02_v20",
+   "partOfSpeech": "noun",
+   "kanji": "左",
+   "kana": "ひだり",
+   "romaji": "hidari",
+   "definition": "left"
+  },
+  {
+   "id": "ch02_v21",
+   "partOfSpeech": "noun",
+   "kanji": "隣",
+   "kana": "となり",
+   "romaji": "tonari",
+   "definition": "next to; neighbor"
+  },
+  {
+   "id": "ch02_v22",
+   "partOfSpeech": "noun",
+   "kanji": "近く",
+   "kana": "ちかく",
+   "romaji": "chikaku",
+   "definition": "nearby; vicinity"
+  },
+  {
+   "id": "ch02_v23",
+   "partOfSpeech": "noun",
+   "kanji": "間",
+   "kana": "あいだ",
+   "romaji": "aida",
+   "definition": "between; interval"
+  },
+  {
+   "id": "ch02_v24",
+   "partOfSpeech": "noun",
+   "kanji": "横",
+   "kana": "よこ",
+   "romaji": "yoko",
+   "definition": "side; beside"
+  },
+  {
+   "id": "ch02_v25",
+   "partOfSpeech": "noun",
+   "kanji": "向こう",
+   "kana": "むこう",
+   "romaji": "mukou",
+   "definition": "over there; the other side"
+  },
+  {
+   "id": "ch02_v26",
+   "partOfSpeech": "noun",
+   "kanji": "東",
+   "kana": "ひがし",
+   "romaji": "higashi",
+   "definition": "east"
+  },
+  {
+   "id": "ch02_v27",
+   "partOfSpeech": "noun",
+   "kanji": "西",
+   "kana": "にし",
+   "romaji": "nishi",
+   "definition": "west"
+  },
+  {
+   "id": "ch02_v28",
+   "partOfSpeech": "noun",
+   "kanji": "南",
+   "kana": "みなみ",
+   "romaji": "minami",
+   "definition": "south"
+  },
+  {
+   "id": "ch02_v29",
+   "partOfSpeech": "noun",
+   "kanji": "北",
+   "kana": "きた",
+   "romaji": "kita",
+   "definition": "north"
+  },
+  {
+   "id": "ch02_v30",
+   "partOfSpeech": "pronoun",
+   "kanji": "こちら",
+   "kana": "こちら",
+   "romaji": "kochira",
+   "definition": "this way; this one (polite)"
+  },
+  {
+   "id": "ch02_v31",
+   "partOfSpeech": "pronoun",
+   "kanji": "そちら",
+   "kana": "そちら",
+   "romaji": "sochira",
+   "definition": "that way (polite)"
+  },
+  {
+   "id": "ch02_v32",
+   "partOfSpeech": "pronoun",
+   "kanji": "あちら",
+   "kana": "あちら",
+   "romaji": "achira",
+   "definition": "that way over there (polite)"
+  },
+  {
+   "id": "ch02_v33",
+   "partOfSpeech": "pronoun",
+   "kanji": "どちら",
+   "kana": "どちら",
+   "romaji": "dochira",
+   "definition": "which way (polite)"
+  },
+  {
+   "id": "ch02_v34",
+   "partOfSpeech": "noun",
+   "kanji": "場所",
+   "kana": "ばしょ",
+   "romaji": "basho",
+   "definition": "place; location"
+  },
+  {
+   "id": "ch02_v35",
+   "partOfSpeech": "noun",
+   "kanji": "所",
+   "kana": "ところ",
+   "romaji": "tokoro",
+   "definition": "place; spot"
+  },
+  {
+   "id": "ch02_v36",
+   "partOfSpeech": "noun",
+   "kanji": "方",
+   "kana": "ほう",
+   "romaji": "hou",
+   "definition": "direction; side"
+  },
+  {
+   "id": "ch02_v37",
+   "partOfSpeech": "noun",
+   "kanji": "真ん中",
+   "kana": "まんなか",
+   "romaji": "mannaka",
+   "definition": "the very middle; center"
+  },
+  {
+   "id": "ch02_v38",
+   "partOfSpeech": "noun",
+   "kanji": "角",
+   "kana": "かど",
+   "romaji": "kado",
+   "definition": "corner"
+  },
+  {
+   "id": "ch02_v39",
+   "partOfSpeech": "noun",
+   "kanji": "辺り",
+   "kana": "あたり",
+   "romaji": "atari",
+   "definition": "vicinity; around"
+  },
+  {
+   "id": "ch02_v40",
+   "partOfSpeech": "noun",
+   "kanji": "辺",
+   "kana": "へん",
+   "romaji": "hen",
+   "definition": "area; neighborhood"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "中",
+   "word": "中",
+   "reading": "なか",
+   "meaning": "inside; middle"
+  },
+  {
+   "char": "後",
+   "word": "後ろ",
+   "reading": "うしろ",
+   "meaning": "back; behind"
+  },
+  {
+   "char": "東",
+   "word": "東",
+   "reading": "ひがし",
+   "meaning": "east"
+  },
+  {
+   "char": "北",
+   "word": "北",
+   "reading": "きた",
+   "meaning": "north"
+  },
+  {
+   "char": "西",
+   "word": "西",
+   "reading": "にし",
+   "meaning": "west"
+  },
+  {
+   "char": "南",
+   "word": "南",
+   "reading": "みなみ",
+   "meaning": "south"
+  },
+  {
+   "char": "右",
+   "word": "右",
+   "reading": "みぎ",
+   "meaning": "right"
+  },
+  {
+   "char": "左",
+   "word": "左",
+   "reading": "ひだり",
+   "meaning": "left"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "中",
+   "kana": "なか",
+   "romaji": "naka",
+   "meaning": "inside; middle",
+   "chars": [
+    "中"
+   ]
+  },
+  {
+   "word": "後ろ",
+   "kana": "うしろ",
+   "romaji": "ushiro",
+   "meaning": "back; behind",
+   "chars": [
+    "後"
+   ]
+  },
+  {
+   "word": "東",
+   "kana": "ひがし",
+   "romaji": "higashi",
+   "meaning": "east",
+   "chars": [
+    "東"
+   ]
+  },
+  {
+   "word": "北",
+   "kana": "きた",
+   "romaji": "kita",
+   "meaning": "north",
+   "chars": [
+    "北"
+   ]
+  },
+  {
+   "word": "西",
+   "kana": "にし",
+   "romaji": "nishi",
+   "meaning": "west",
+   "chars": [
+    "西"
+   ]
+  },
+  {
+   "word": "南",
+   "kana": "みなみ",
+   "romaji": "minami",
+   "meaning": "south",
+   "chars": [
+    "南"
+   ]
+  },
+  {
+   "word": "右",
+   "kana": "みぎ",
+   "romaji": "migi",
+   "meaning": "right",
+   "chars": [
+    "右"
+   ]
+  },
+  {
+   "word": "左",
+   "kana": "ひだり",
+   "romaji": "hidari",
+   "meaning": "left",
+   "chars": [
+    "左"
+   ]
+  },
+  {
+   "word": "後",
+   "kana": "あと",
+   "romaji": "ato",
+   "meaning": "behind",
+   "chars": [
+    "後"
+   ]
+  },
+  {
+   "word": "場所",
+   "kana": "ばしょ",
+   "romaji": "basho",
+   "meaning": "place",
+   "chars": [
+    "場",
+    "所"
+   ]
+  },
+  {
+   "word": "辺り",
+   "kana": "あたり",
+   "romaji": "atari",
+   "meaning": "(in the) neighbourhood",
+   "chars": [
+    "辺"
+   ]
+  }
+ ]
 }

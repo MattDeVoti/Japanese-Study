@@ -1,0 +1,93 @@
+{
+  "identifier": "8F3A1C77",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "119.99",
+      "familyShareable": false,
+      "internalID": "1000000001",
+      "localizations": [
+        {
+          "description": "Every chapter, the full study set and every appearance, with one payment.",
+          "displayName": "Full access",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.mattdevoti1.omedetou.pro.full",
+      "referenceName": "Full access",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "",
+    "_askToBuyEnabled": false,
+    "_billingIssuesEnabled": false,
+    "_developerTeamID": "H4VZM6PP4T",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_timeRate": 0
+  },
+  "subscriptionGroups": [
+    {
+      "id": "20000001",
+      "localizations": [
+        {
+          "description": "Full access to Omedetou",
+          "displayName": "Omedetou Pro",
+          "locale": "en_US"
+        }
+      ],
+      "name": "Omedetou Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "49.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "1000000003",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Every chapter, the full study set and every appearance.",
+              "displayName": "Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.mattdevoti1.omedetou.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Yearly",
+          "subscriptionGroupID": "20000001",
+          "type": "RecurringSubscription"
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "5.99",
+          "familyShareable": false,
+          "groupNumber": 2,
+          "internalID": "1000000002",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Every chapter, the full study set and every appearance.",
+              "displayName": "Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.mattdevoti1.omedetou.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Monthly",
+          "subscriptionGroupID": "20000001",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

@@ -91,7 +91,7 @@
     "choices": [
       "彼[かれ]はゲームばかりしている。",
       "彼[かれ]はゲームしたばかりだ。",
-      "彼[かれ]はゲームするばかりだ。",
+      "彼[かれ]はゲームしたばかりいる。",
       "彼[かれ]はゲームしたばかりに困[こま]った。"
     ],
     "correctIndex": 0,
@@ -131,10 +131,10 @@
     "prompt": "‘Even if I apologize now, it’s too late.’ (たところで = ‘even if’, futile)",
     "japanese": null,
     "choices": [
-      "今謝[あやま]ったところで、もう遅[おそ]い。",
-      "今謝[あやま]るところで、もう遅[おそ]い。",
-      "今謝[あやま]ったところに、もう遅[おそ]い。",
-      "今謝[あやま]るところに、もう遅[おそ]い。"
+      "今[いま]謝[あやま]ったところで、もう遅[おそ]い。",
+      "今[いま]謝[あやま]るところで、もう遅[おそ]い。",
+      "今[いま]謝[あやま]ったところに、もう遅[おそ]い。",
+      "今[いま]謝[あやま]るところに、もう遅[おそ]い。"
     ],
     "correctIndex": 0,
     "explanation": "～たところで = ‘even if… (it won’t help)’, expressing futility. It looks like the ‘just did’ ところ but the で + negative-outcome nuance makes it concessive."
@@ -146,12 +146,12 @@
     "japanese": null,
     "choices": [
       "熱[あつ]いうちに食[た]べてください。",
-      "熱[あつ]いあいだに食[た]べてください。",
+      "熱[あつ]くうちに食[た]べてください。",
       "熱[あつ]いうちで食[た]べてください。",
       "熱[あつ]いまでに食[た]べてください。"
     ],
     "correctIndex": 0,
-    "explanation": "～うちに = ‘while (before it changes)’, stressing you should act before the state ends. あいだに merely marks a span without the ‘before it’s too late’ urgency."
+    "explanation": "～うちに = ‘while (before it changes)’, stressing you should act before the state ends. うちに follows the plain adjective (熱い+うちに), never the く-form; で/までに do not mark ‘while’."
   },
   {
     "id": "n3_q012",
@@ -160,12 +160,12 @@
     "japanese": null,
     "choices": [
       "留守[るす]のあいだに、泥棒[どろぼう]が入[はい]った。",
-      "留守[るす]のうちに、泥棒[どろぼう]が入[はい]った。",
+      "留守[るす]なうちに、泥棒[どろぼう]が入[はい]った。",
       "留守[るす]のあいだで、泥棒[どろぼう]が入[はい]った。",
       "留守[るす]までに、泥棒[どろぼう]が入[はい]った。"
     ],
     "correctIndex": 0,
-    "explanation": "あいだに = at some point within a clearly bounded period (while away). うちに leans on ‘before it ends’; here the neutral ‘during’ reading fits あいだに."
+    "explanation": "あいだに = at some point within a clearly bounded period (while away). 留守 is a noun, so it takes の (留守のあいだに), never な; あいだで/までに mark the wrong relation."
   },
   {
     "id": "n3_q013",
@@ -244,12 +244,12 @@
     "japanese": null,
     "choices": [
       "このテーマについて質問[しつもん]があります。",
-      "このテーマに対して質問[しつもん]があります。",
+      "このテーマによると質問[しつもん]があります。",
       "このテーマにとって質問[しつもん]があります。",
       "このテーマによって質問[しつもん]があります。"
     ],
     "correctIndex": 0,
-    "explanation": "について = ‘about / concerning’ (topic of thought/speech). に対して = ‘toward / against’ (an attitude/action directed at someone), a different relationship."
+    "explanation": "について = ‘about / concerning’ (topic of thought/speech). によると = ‘according to (a source)’, にとって = ‘for’, によって = ‘by / depending on’ — none introduce a topic."
   },
   {
     "id": "n3_q019",
@@ -314,12 +314,12 @@
     "japanese": null,
     "choices": [
       "平日[へいじつ]だから、店[みせ]は開[あ]いているはずだ。",
-      "平日[へいじつ]だから、店[みせ]は開[あ]いているに違いない。",
+      "平日[へいじつ]だから、店[みせ]は開[あ]いているはずがない。",
       "平日[へいじつ]だから、店[みせ]は開[あ]いているかもしれない。",
       "平日[へいじつ]だから、店[みせ]は開[あ]いているらしい。"
     ],
     "correctIndex": 0,
-    "explanation": "はず = expectation based on reasoning/known facts (‘should, logically’). に違いない is stronger gut-certainty; the ‘reasoned expectation’ nuance here is はず."
+    "explanation": "はず = expectation based on reasoning/known facts (‘should, logically’). はずがない would flip it to ‘can’t possibly be open’, contradicting 平日だから; かもしれない/らしい are too weak or hearsay."
   },
   {
     "id": "n3_q024",
@@ -330,10 +330,10 @@
       "彼[かれ]は来[こ]ないみたいだ。",
       "彼[かれ]は来[こ]ないようだ。",
       "彼[かれ]は来[こ]ないらしい。",
-      "彼[かれ]は来[こ]なさそうだ。"
+      "彼[かれ]は来[こ]ないみたいなだ。"
     ],
     "correctIndex": 0,
-    "explanation": "みたい = the casual equivalent of ようだ (inference from evidence). All express ‘seems’, but みたい is the colloquial register being tested here (らしい relies on outside info)."
+    "explanation": "みたい = the casual equivalent of ようだ (inference from evidence). ようだ is the formal equivalent, らしい relies on outside information, and みたいなだ is ungrammatical (みたいだ, never みたいなだ)."
   },
   {
     "id": "n3_q025",
@@ -381,7 +381,7 @@
     "id": "n3_q028",
     "type": "fillBlank",
     "prompt": "Before a verb, ‘so that / like ~’ uses:",
-    "japanese": "みんなに聞[き]こえる＿＿大[おお]きな声[こえ]で話[はな]した。",
+    "japanese": "みんなに聞[き]こえる＿＿話[はな]してください。",
     "choices": [
       "ように",
       "ような",
@@ -389,7 +389,7 @@
       "ようの"
     ],
     "correctIndex": 0,
-    "explanation": "ように attaches to a verb/clause (聞こえるように話す = ‘spoke so as to be heard’). ような would need a noun after it."
+    "explanation": "ように attaches to a verb/clause (聞こえるように話す = ‘speak so as to be heard’). ような would need a noun after it."
   },
   {
     "id": "n3_q029",
@@ -412,12 +412,12 @@
     "japanese": null,
     "choices": [
       "水[みず]を出[だ]しっぱなしにした。",
-      "水[みず]を出[だ]したままにした。",
+      "水[みず]を出[だ]すっぱなしにした。",
       "水[みず]を出[だ]しておいた。",
       "水[みず]を出[だ]してしまった。"
     ],
     "correctIndex": 0,
-    "explanation": "～っぱなし = left in a state, often carelessly (‘left running’). It carries a ‘should have stopped it’ criticism that plain てある/ておく lack. まま is close but っぱなし adds the negligence nuance."
+    "explanation": "～っぱなし = left in a state, often carelessly (‘left running’). It carries a ‘should have stopped it’ criticism that plain てある/ておく lack. っぱなし attaches to the verb stem (出し+っぱなし), never to the dictionary form (出すっぱなし is wrong)."
   },
   {
     "id": "n3_q031",
@@ -469,11 +469,11 @@
     "choices": [
       "会議[かいぎ]の最中[さいちゅう]に、電話[でんわ]が鳴[な]った。",
       "会議[かいぎ]のうちに、電話[でんわ]が鳴[な]った。",
-      "会議[かいぎ]のあいだに、電話[でんわ]が鳴[な]った。",
+      "会議[かいぎ]のあいだで、電話[でんわ]が鳴[な]った。",
       "会議[かいぎ]のところに、電話[でんわ]が鳴[な]った。"
     ],
     "correctIndex": 0,
-    "explanation": "最中に = ‘right in the middle of (an ongoing action)’, stressing the peak of activity when interrupted. あいだに is a neutral ‘during’ without that ‘smack in the middle’ emphasis."
+    "explanation": "最中に = ‘right in the middle of (an ongoing action)’, stressing the peak of activity when interrupted. あいだで is wrong: a point in time inside a span takes に (あいだに), never で."
   },
   {
     "id": "n3_q035",
@@ -538,12 +538,12 @@
     "japanese": null,
     "choices": [
       "これは子供[こども]でも分[わ]かる。",
-      "これは子供[こども]さえ分[わ]かる。",
+      "これは子供[こども]さえに分[わ]かる。",
       "これは子供[こども]こそ分[わ]かる。",
       "これは子供[こども]しか分[わ]かる。"
     ],
     "correctIndex": 0,
-    "explanation": "でも gives an extreme/easy example (‘even a child’). さえ also means ‘even’ but is stronger/more emphatic and often needs specific structures; here the natural ‘even a child can’ uses でも. (しか needs a negative.)"
+    "explanation": "でも gives an extreme/easy example (‘even a child’). さえ can also mean ‘even’, but it follows the particle (子供にさえ / 子供でさえ), never precedes it — さえに is ungrammatical. (しか needs a negative.)"
   },
   {
     "id": "n3_q040",
@@ -552,12 +552,12 @@
     "japanese": null,
     "choices": [
       "水[みず]さえあれば、生[い]きられる。",
-      "水[みず]でもあれば、生[い]きられる。",
+      "水[みず]さえいれば、生[い]きられる。",
       "水[みず]しかあれば、生[い]きられる。",
       "水[みず]こそあれば、生[い]きられる。"
     ],
     "correctIndex": 0,
-    "explanation": "～さえ…ば = ‘if only… then’ (the one sufficient condition). でも can’t form this ‘if only X’ minimal-condition pattern; さえ…ば is fixed."
+    "explanation": "～さえ…ば = ‘if only… then’ (the one sufficient condition). さえ…ば is fixed; いれば is wrong because water is inanimate and takes ある (あれば), not いる."
   },
   {
     "id": "n3_q041",
@@ -1066,7 +1066,7 @@
   {
     "id": "n3_q077",
     "type": "usage",
-    "prompt": "‘There isn’t a single person who dislikes it.’ (一…として…ない)",
+    "prompt": "‘There isn’t a single person who opposes it.’ (一…として…ない)",
     "japanese": null,
     "choices": [
       "一人[ひとり]として反対[はんたい]する者[もの]はいない。",

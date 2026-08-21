@@ -106,7 +106,7 @@ struct FeedbackView: View {
             .disabled(!canSend)
 
             if status == .sent {
-                Button("Done") { dismiss() }
+                Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }
                     .font(.system(size: 15, weight: .semibold))
                     .foregroundColor(.appAccent)
             }

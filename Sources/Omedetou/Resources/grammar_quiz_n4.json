@@ -22,10 +22,10 @@
       "東京[とうきょう]に着[つ]くと、電話[でんわ]してください。",
       "東京[とうきょう]に着[つ]いたら、電話[でんわ]してください。",
       "東京[とうきょう]に着[つ]くなら、電話[でんわ]してください。",
-      "東京[とうきょう]に着[つ]けば、電話[でんわ]してください。"
+      "時間[じかん]があれば、電話[でんわ]してください。"
     ],
     "correctIndex": 0,
-    "explanation": "と cannot precede a request/command/volitional clause. たら is the natural choice for ‘when you arrive, please call’. (なら/ば are also awkward here, but と is outright ungrammatical with てください.)"
+    "explanation": "と cannot precede a request/command/volitional clause. たら is the natural choice for ‘when you arrive, please call’. ば allows a request when its clause is stative (時間があれば), and なら is acceptable, but と is outright ungrammatical with てください."
   },
   {
     "id": "n4_q003",
@@ -48,26 +48,26 @@
     "japanese": null,
     "choices": [
       "ドアを開[あ]けたら、猫[ねこ]がいました。",
-      "ドアを開[あ]けると、猫[ねこ]がいました。",
+      "ドアを開[あ]けるたら、猫[ねこ]がいました。",
       "ドアを開[あ]ければ、猫[ねこ]がいました。",
       "ドアを開[あ]けるなら、猫[ねこ]がいました。"
     ],
     "correctIndex": 0,
-    "explanation": "For a specific past event where the second clause is a discovery, use ～たら、～た. (と can also express past discovery, but with negatives/one-off surprises たら is the reliable, natural pick and pairs with the past result.)"
+    "explanation": "For a specific past event where the second clause is a discovery, use ～たら、～た (開けたら). ‘開けるたら’ is a conjugation error — たら attaches to the た-form; ば states a general hypothesis and なら a topic-based condition, so neither fits a one-off past discovery."
   },
   {
     "id": "n4_q005",
     "type": "fillBlank",
-    "prompt": "General hypothetical with a stative result: ‘If it’s cheap, I’ll buy it.’",
+    "prompt": "ば-form of the い-adjective 安[やす]い: ‘If it’s cheap, I’ll buy it.’",
     "japanese": "＿＿買[か]います。",
     "choices": [
       "安[やす]ければ",
-      "安[やす]いと",
-      "安[やす]いなら",
-      "安[やす]かったら"
+      "安[やす]いければ",
+      "安[やす]くれば",
+      "安[やす]いば"
     ],
     "correctIndex": 0,
-    "explanation": "ば forms a clean hypothetical condition, especially with adjectives (安ければ). All four can work in real speech, but the ば-form is the textbook ‘if (hypothetically)’ pattern being tested here."
+    "explanation": "い-adjective ば-form = drop い, add ければ: 安い→安ければ. ‘安いければ’ keeps the い, ‘安くれば’ borrows the verb pattern, and ‘安いば’ is not a form at all."
   },
   {
     "id": "n4_q006",
@@ -176,7 +176,7 @@
       "先生[せんせい]が来[こ]られます。",
       "先生[せんせい]を来[こ]られます。",
       "先生[せんせい]が来[こ]させます。",
-      "先生[せんせい]が来[こ]てもらいます。"
+      "先生[せんせい]が来[き]てもらいます。"
     ],
     "correctIndex": 0,
     "explanation": "られる also forms honorific language (respect toward the subject). Here it elevates the teacher, not passive/potential. 来させる (causative) would rudely mean ‘make the teacher come’."
@@ -259,7 +259,7 @@
     "choices": [
       "そうです",
       "らしいです",
-      "そうです（伝聞）",
+      "みたいです",
       "ということです"
     ],
     "correctIndex": 0,
@@ -287,11 +287,11 @@
     "choices": [
       "彼[かれ]はもう出[で]かけたようです。",
       "彼[かれ]はもう出[で]かけたそうです。",
-      "彼[かれ]はもう出[で]かけたらしいです。",
+      "彼[かれ]はもう出[で]かけたはずです。",
       "彼[かれ]はもう出[で]かけました。"
     ],
     "correctIndex": 0,
-    "explanation": "ようだ = your own reasoned inference from evidence. そうだ (hearsay) reports someone’s words; らしい relies more on outside information/rumor. ‘ようだ’ fits a personal deduction."
+    "explanation": "ようだ = your own reasoned inference from evidence. そうだ (hearsay) reports someone’s words; はず is a confident expectation, not a conclusion drawn from what you observe. ‘ようだ’ fits a personal deduction."
   },
   {
     "id": "n4_q022",
@@ -356,7 +356,7 @@
     "japanese": null,
     "choices": [
       "車[くるま]を買[か]うために、お金[かね]をためました。",
-      "車[くるま]を買[か]えるように、お金[かね]をためました。",
+      "車[くるま]を買[か]うように、お金[かね]をためました。",
       "車[くるま]を買[か]うので、お金[かね]をためました。",
       "車[くるま]を買[か]うのに、お金[かね]をためました。"
     ],
@@ -366,13 +366,13 @@
   {
     "id": "n4_q027",
     "type": "usage",
-    "prompt": "Purpose with a POTENTIAL verb: ‘So that I can hear well, I sat in front.’",
+    "prompt": "Purpose with a NON-VOLITIONAL verb: ‘So that I can hear well, I sat in front.’",
     "japanese": null,
     "choices": [
       "よく聞[き]こえるように、前[まえ]に座[すわ]りました。",
       "よく聞[き]こえるために、前[まえ]に座[すわ]りました。",
       "よく聞[き]くように、前[まえ]に座[すわ]りました。",
-      "よく聞[き]くために、前[まえ]に座[すわ]りました。"
+      "よく聞[き]こえるので、前[まえ]に座[すわ]りました。"
     ],
     "correctIndex": 0,
     "explanation": "ように pairs with non-volitional/potential verbs (聞こえる = ‘be audible’). ために needs a volitional verb, so 聞こえるために is unnatural."
@@ -384,7 +384,7 @@
     "japanese": "試験[しけん]に＿＿、勉強[べんきょう]してください。",
     "choices": [
       "合格[ごうかく]できるように",
-      "合格[ごうかく]するために",
+      "合格[ごうかく]できるために",
       "合格[ごうかく]するので",
       "合格[ごうかく]するのに"
     ],
@@ -400,7 +400,7 @@
       "安[やす]いし、おいしいし、この店[みせ]が好[す]きです。",
       "安[やす]いから、おいしいから、この店[みせ]が好[す]きです。",
       "安[やす]いと、おいしいと、この店[みせ]が好[す]きです。",
-      "安[やす]くて、おいしいし、この店[みせ]が好[す]きです。"
+      "安[やす]いので、おいしいので、この店[みせ]が好[す]きです。"
     ],
     "correctIndex": 0,
     "explanation": "し stacks several reasons (‘and what’s more…’), implying there are grounds beyond those listed. Repeating から is heavy and less natural for piling up reasons."
@@ -581,8 +581,8 @@
     "choices": [
       "明日[あした]は来[こ]なくてもいいです。",
       "明日[あした]は来[こ]なければなりません。",
-      "明日[あした]は来[こ]てはいけません。",
-      "明日[あした]は来[こ]たほうがいいです。"
+      "明日[あした]は来[き]てはいけません。",
+      "明日[あした]は来[き]たほうがいいです。"
     ],
     "correctIndex": 0,
     "explanation": "～なくてもいい = ‘don’t have to’. なければならない = ‘must’, てはいけない = ‘must not’, たほうがいい = ‘had better’ — all express obligation/prohibition, not its absence."
@@ -646,16 +646,16 @@
   {
     "id": "n4_q047",
     "type": "usage",
-    "prompt": "Unexpected contrast: ‘Even though it’s expensive, it doesn’t sell.’",
+    "prompt": "Unexpected contrast: ‘Even though it’s cheap, it doesn’t sell.’",
     "japanese": null,
     "choices": [
-      "高[たか]いのに、売[う]れません。",
-      "高[たか]いので、売[う]れません。",
-      "高[たか]いから、売[う]れません。",
-      "高[たか]くて、売[う]れません。"
+      "安[やす]いのに、売[う]れません。",
+      "安[やす]いので、売[う]れません。",
+      "安[やす]いから、売[う]れません。",
+      "安[やす]くて、売[う]れません。"
     ],
     "correctIndex": 0,
-    "explanation": "のに = ‘even though’ + an unexpected result. ので/から give a plain cause; here the low sales are surprising given the price, so のに fits."
+    "explanation": "のに = ‘even though’ + an unexpected result. ので/から/くて give a plain cause; low sales are surprising for a cheap product, so のに fits."
   },
   {
     "id": "n4_q048",
@@ -761,10 +761,10 @@
     "prompt": "‘Turn off your phone during the movie’ (soft rule with こと):",
     "japanese": null,
     "choices": [
-      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]ること。",
-      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るもの。",
-      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るため。",
-      "映画[えいが]の間[あいだ]は電話[でんわ]を切[き]るはず。"
+      "映画[えいが]の間[あいだ]は携帯[けいたい]の電源[でんげん]を切[き]ること。",
+      "映画[えいが]の間[あいだ]は携帯[けいたい]の電源[でんげん]を切[き]るもの。",
+      "映画[えいが]の間[あいだ]は携帯[けいたい]の電源[でんげん]を切[き]るため。",
+      "映画[えいが]の間[あいだ]は携帯[けいたい]の電源[でんげん]を切[き]るはず。"
     ],
     "correctIndex": 0,
     "explanation": "Dictionary form + こと as a sentence-ender gives a written rule/instruction (‘be sure to…’). はず/ため/もの don’t function as posted directives."
@@ -804,12 +804,12 @@
     "japanese": null,
     "choices": [
       "これはおいしくなさそうです。",
-      "これはおいしそうじゃないです。",
+      "これはおいしくないそうです。",
       "これはおいしくなそうです。",
       "これはおいしそうくないです。"
     ],
     "correctIndex": 0,
-    "explanation": "The appearance そう of an い-adjective negative is ～くなさそう (おいしい→おいしくなさそう). The なさ insertion is the key irregular point being tested."
+    "explanation": "The appearance そう of an い-adjective negative is ～くなさそう (おいしい→おいしくなさそう). The なさ insertion is the key irregular point being tested; おいしくないそうです would be hearsay (‘I hear it isn’t tasty’), not appearance."
   },
   {
     "id": "n4_q059",
@@ -884,7 +884,7 @@
   {
     "id": "n4_q064",
     "type": "usage",
-    "prompt": "Politely: ‘The teacher kindly explained it to me.’",
+    "prompt": "Using honorific (respectful) language: ‘The teacher kindly explained it to me.’",
     "japanese": null,
     "choices": [
       "先生[せんせい]が説明[せつめい]してくださいました。",
@@ -916,7 +916,7 @@
     "japanese": null,
     "choices": [
       "彼[かれ]が来[く]るかどうか分[わ]かりません。",
-      "彼[かれ]が来[く]るかどうかを知っています。",
+      "彼[かれ]が来[く]るかどうかを知[し]っています。",
       "彼[かれ]が来[く]るとどうか分[わ]かりません。",
       "彼[かれ]が来[く]るなら分[わ]かりません。"
     ],
@@ -1140,12 +1140,12 @@
     "japanese": null,
     "choices": [
       "時間[じかん]がなければ、来[こ]なくてもいいです。",
-      "時間[じかん]がないなら来[こ]なくてもいいです。",
+      "時間[じかん]がないければ、来[こ]なくてもいいです。",
       "時間[じかん]がなくても来[こ]なくてもいいです。",
       "時間[じかん]がないと来[こ]なくてもいいです。"
     ],
     "correctIndex": 0,
-    "explanation": "ば sets a clean hypothetical condition (‘if not…, then need not’). なら also works but reacts to a stated topic; と can’t precede the permission ‘てもいい’ naturally."
+    "explanation": "ば sets a clean hypothetical condition (‘if not…, then need not’); the ば-form of ない is なければ, never ないければ. ても means ‘even if’, and と can’t precede the permission ‘てもいい’ naturally."
   },
   {
     "id": "n4_q083",

@@ -18,6 +18,7 @@ struct KanjiCardDetailView: View {
                 VStack(alignment: .center, spacing: 20) {
                     KanjiCardHeader(card: card, isFavorite: isFavorite) {
                         store.toggleFavorite(cardId: card.id)
+                        FeedbackSounds.shared.playFavorite(isFavorite)
                     }
                     .padding(.top, 16)
 
@@ -91,6 +92,7 @@ struct KanjiCardBody: View {
                         .foregroundColor(.appText)
                     if hasInsight {
                         Button {
+                            FeedbackSounds.shared.play(.slide)
                             withAnimation(.spring(response: 0.32, dampingFraction: 0.86)) {
                                 showInsight.toggle()
                             }
@@ -315,6 +317,12 @@ struct ReadingsColumn: View {
 struct CommonWordsTable: View {
     let words: [KanjiCommonWord]
 
+    /// Essential words first, bonus after — both halves keeping their original
+    /// order. The bold rows are the ones to learn, so they lead.
+    private var sorted: [KanjiCommonWord] {
+        words.filter(\.essential) + words.filter { !$0.essential }
+    }
+
     var body: some View {
         VStack(spacing: 0) {
             HStack(spacing: 0) {
@@ -331,7 +339,7 @@ struct CommonWordsTable: View {
             .padding(.vertical, 8)
             .background(Color.appSurfaceHigh)
 
-            ForEach(Array(words.enumerated()), id: \.offset) { idx, word in
+            ForEach(Array(sorted.enumerated()), id: \.offset) { idx, word in
                 HStack(alignment: .top, spacing: 0) {
                     Text(word.kana)
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -341,7 +349,9 @@ struct CommonWordsTable: View {
                         .frame(maxWidth: .infinity, alignment: .trailing)
                         .multilineTextAlignment(.trailing)
                 }
-                .font(.system(size: 13))
+                // Bold rows are the essential words — the ones worth learning
+                // first. The rest are bonus reference material.
+                .font(.system(size: 13, weight: word.essential ? .bold : .regular))
                 .foregroundColor(.appText)
                 .padding(.horizontal, 12)
                 .padding(.vertical, 8)

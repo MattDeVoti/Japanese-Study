@@ -159,6 +159,7 @@ private struct AddItemPicker: View {
         let already = store.contains(item, in: lessonId)
         let picked = selection.contains(item)
         return Button {
+            FeedbackSounds.shared.play(.notification)
             selection.toggle(item)
         } label: {
             HStack(spacing: 12) {

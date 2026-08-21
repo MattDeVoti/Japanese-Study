@@ -19,7 +19,16 @@ final class ExamStore: ObservableObject {
     @Published private(set) var deadlines: [String: Date] = [:]
 
     /// How long you get to complete a test once it's in front of you.
-    @Published var intervalDays: Int = 7 { didSet { if loaded { persist() } } }
+    ///
+    /// Twelve days rather than a week: a chapter now carries its kanji as whole
+    /// words as well as its grammar and vocabulary, so there is materially more
+    /// to get through before sitting one. Adjustable in Options — this is only
+    /// the starting point, and an existing setting is left alone.
+    @Published var intervalDays: Int = ExamStore.defaultIntervalDays {
+        didSet { if loaded { persist() } }
+    }
+
+    static let defaultIntervalDays = 12
 
     private var loaded = false
     private static let file = "exams"
@@ -29,7 +38,7 @@ final class ExamStore: ObservableObject {
         var attempts: [ExamAttempt] = []
         var skipped: Set<String> = []
         var deadlines: [String: Date] = [:]
-        var intervalDays: Int = 7
+        var intervalDays: Int = ExamStore.defaultIntervalDays
     }
 
     private init() {
@@ -305,6 +314,12 @@ final class ExamStore: ObservableObject {
 
     private func persist() {
         FileStore.save(snapshot(), Self.file)
+        // Anything that changes the deadline picture — sitting a test, skipping
+        // one, moving to the next lesson, or changing how many days a test gets
+        // — changes which reminders are still valid. Rewriting them here means
+        // no caller has to remember to, and a reminder about a test you've
+        // already sat can't survive.
+        NotificationService.shared.rescheduleTestReminders()
     }
 
     // MARK: - Sync

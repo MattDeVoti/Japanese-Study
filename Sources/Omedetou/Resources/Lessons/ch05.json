@@ -1,2132 +1,2326 @@
 {
-  "id": "ch05",
-  "chapterNumber": 6,
-  "title": "Adjectives",
-  "points": [
+ "id": "ch05",
+ "chapterNumber": 6,
+ "title": "Adjectives",
+ "points": [
+  {
+   "id": "i-adjectives",
+   "name": "い-adjectives",
+   "shortDescription": "Adjectives ending in い that conjugate directly — changing their own ending for tense and negation.",
+   "formation": "い-adj (present aff)  |  〜くない (present neg)  |  〜かった (past aff)  |  〜くなかった (past neg)",
+   "explanation": "Japanese adjectives come in two types, and telling them apart is essential. い-adjectives are the self-sufficient type — they conjugate entirely on their own, changing their ending to express tense and negation without any help from です. They all end in the sound い: 大[おお]きい (big), 小[ちい]さい (small), 高[たか]い (expensive/tall), 安[やす]い (cheap), 新[あたら]しい (new), 難[むずか]しい (difficult), おいしい (delicious).\n\nConjugation — drop the final い and add the ending:\n- Negative: 〜くない — 大[おお]きい → 大[おお]きくない (not big)\n- Past: 〜かった — 大[おお]きい → 大[おお]きかった (was big)\n- Past negative: 〜くなかった — 大[おお]きい → 大[おお]きくなかった (was not big)\n\nThere is one famous exception every learner must memorize: いい (good) is irregular — it switches to よ the moment it conjugates:\n- Negative: よくない\n- Past: よかった\n- Past negative: よくなかった\n\nいい refuses to follow the standard rules, so commit its forms to memory early.",
+   "rules": [
+    "い-adjectives end in the sound/hiragana い",
+    "Negative: drop い → add くない (e.g., 高[たか]い → 高[たか]くない)",
+    "Past: drop い → add かった (e.g., 高[たか]い → 高[たか]かった)",
+    "Past negative: drop い → add くなかった",
+    "Exception: いい (good) → negative: よくない; past: よかった; past neg: よくなかった"
+   ],
+   "examples": [
     {
-      "id": "i-adjectives",
-      "name": "い-adjectives",
-      "shortDescription": "Adjectives ending in い that conjugate directly — changing their own ending for tense and negation.",
-      "formation": "い-adj (present aff)  |  〜くない (present neg)  |  〜かった (past aff)  |  〜くなかった (past neg)",
-      "explanation": "Japanese adjectives come in two types, and telling them apart is essential. い-adjectives are the self-sufficient type — they conjugate entirely on their own, changing their ending to express tense and negation without any help from です. They all end in the sound い: 大[おお]きい (big), 小[ちい]さい (small), 高[たか]い (expensive/tall), 安[やす]い (cheap), 新[あたら]しい (new), 難[むずか]しい (difficult), おいしい (delicious).\n\nConjugation — drop the final い and add the ending:\n- Negative: 〜くない — 大[おお]きい → 大[おお]きくない (not big)\n- Past: 〜かった — 大[おお]きい → 大[おお]きかった (was big)\n- Past negative: 〜くなかった — 大[おお]きい → 大[おお]きくなかった (was not big)\n\nThere is one famous exception every learner must memorize: いい (good) is irregular — it switches to よ the moment it conjugates:\n- Negative: よくない\n- Past: よかった\n- Past negative: よくなかった\n\nいい refuses to follow the standard rules, so commit its forms to memory early.",
-      "rules": [
-        "い-adjectives end in the sound/hiragana い",
-        "Negative: drop い → add くない (e.g., 高[たか]い → 高[たか]くない)",
-        "Past: drop い → add かった (e.g., 高[たか]い → 高[たか]かった)",
-        "Past negative: drop い → add くなかった",
-        "Exception: いい (good) → negative: よくない; past: よかった; past neg: よくなかった"
-      ],
-      "examples": [
-        {
-          "japanese": "この本[ほん]はおもしろいです。",
-          "romaji": "Kono hon wa omoshiroi desu.",
-          "english": "This book is interesting."
-        },
-        {
-          "japanese": "このスープはあまりおいしくないです。",
-          "romaji": "Kono suupu wa amari oishiku nai desu.",
-          "english": "This soup is not very delicious."
-        },
-        {
-          "japanese": "昨日[きのう]は寒[さむ]かったですね。",
-          "romaji": "Kinou wa samukatta desu ne.",
-          "english": "It was cold yesterday, wasn't it?"
-        },
-        {
-          "japanese": "テストはよくなかったです。",
-          "romaji": "Tesuto wa yoku nakatta desu.",
-          "english": "The test didn't go well."
-        }
-      ],
-      "flashcardHeader": "い-adjectives",
-      "flashcardAnswer": "Adjectives that end in い and conjugate directly without です changes.",
-      "practice": [
-        {
-          "id": "i-adjectives_q1",
-          "type": "construct",
-          "prompt": "Which is the correct negative form of 高[たか]い (expensive)?",
-          "japanese": null,
-          "choices": [
-            "高[たか]いじゃない",
-            "高[たか]くない",
-            "高[たか]なくない",
-            "高[こう]じゃない"
-          ],
-          "correctIndex": 1,
-          "explanation": "い-adjectives form their negative by dropping い and adding くない. So 高[たか]い → 高[たか]くない. Applying じゃない is a な-adjective pattern and does not work here."
-        },
-        {
-          "id": "i-adjectives_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank with the correct past form of 寒[さむ]い: 昨日[きのう]は___ですね。",
-          "japanese": "昨日[きのう]は___ですね。",
-          "choices": [
-            "寒[さむ]かった",
-            "寒[さむ]くない",
-            "寒[さむ]でした",
-            "寒[さむ]いでした"
-          ],
-          "correctIndex": 0,
-          "explanation": "Past affirmative of い-adjectives: drop い and add かった. So 寒[さむ]い → 寒[さむ]かった. い-adjectives never attach でした directly to their base form."
-        },
-        {
-          "id": "i-adjectives_q3",
-          "type": "construct",
-          "prompt": "What is the correct past negative form of いい (good)?",
-          "japanese": null,
-          "choices": [
-            "いくなかった",
-            "よくなかった",
-            "いいじゃなかった",
-            "よいじゃなかった"
-          ],
-          "correctIndex": 1,
-          "explanation": "いい is irregular: when conjugating, it shifts to よ. So the past negative is よくなかった. Treating いい as regular and producing いくなかった is a common mistake."
-        },
-        {
-          "id": "i-adjectives_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses an い-adjective in the past negative?",
-          "japanese": null,
-          "choices": [
-            "この映画[えいが]はおもしろいなかったです。",
-            "この映画[えいが]はおもしろなかったです。",
-            "この映画[えいが]はおもしろくなかったです。",
-            "この映画[えいが]はおもしろいじゃありませんでした。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Past negative of い-adjectives: drop い and add くなかった. おもしろい → おもしろくなかった. The other options apply な-adjective conjugation or forget to drop い before adding the suffix."
-        },
-        {
-          "id": "i-adjectives_q5",
-          "type": "translation",
-          "prompt": "Which sentence correctly translates 'This bag is very expensive'?",
-          "japanese": null,
-          "choices": [
-            "このかばんはとても高[たか]いです。",
-            "このかばんはとても高[たか]くないです。",
-            "このかばんはとても高[たか]いじゃないです。",
-            "このかばんはとても高[たか]かったです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Present affirmative of an い-adjective is simply the dictionary form + です. とても高[たか]いです = is very expensive. The other options are negative or past forms."
-        },
-        {
-          "id": "i-adjectives_q6",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'It was not cold yesterday'?",
-          "japanese": null,
-          "choices": [
-            "昨日[きのう]は寒[さむ]でなかったです。",
-            "昨日[きのう]は寒[さむ]くなかったじゃないです。",
-            "昨日[きのう]は寒[さむ]くなかったです。",
-            "昨日[きのう]は寒[さむ]くないでした。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Past negative of い-adjectives: drop い and add くなかった. 寒[さむ]い → 寒[さむ]くなかった. The form くないでした is incorrect — the past negative is the single suffix くなかった, not くない + でした."
-        },
-        {
-          "id": "i-adjectives_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'That movie was interesting': あの映画[えいが]はおもしろ___です。",
-          "japanese": "あの映画[えいが]はおもしろ___です。",
-          "choices": [
-            "かくない",
-            "かった",
-            "くなかった",
-            "いでした"
-          ],
-          "correctIndex": 1,
-          "explanation": "Past affirmative of い-adjectives: drop い and add かった. おもしろい → おもしろかった. い-adjectives never attach でした directly; the past suffix is かった, followed by です for politeness."
-        },
-        {
-          "id": "i-adjectives_q8",
-          "type": "construct",
-          "prompt": "Which is the correct present negative of 新[あたら]しい (new)?",
-          "japanese": null,
-          "choices": [
-            "新[あたら]しくない",
-            "新[あたら]しじゃない",
-            "新[あたら]しいくない",
-            "新[あたら]しなくない"
-          ],
-          "correctIndex": 0,
-          "explanation": "Present negative of い-adjectives: drop い and add くない. 新[あたら]しい → 新[あたら]しくない. Using じゃない is the な-adjective pattern. Keeping い before adding くない is also wrong — you must drop it first."
-        },
-        {
-          "id": "i-adjectives_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses an い-adjective directly before a noun?",
-          "japanese": null,
-          "choices": [
-            "古[こ]なビルを見[み]ました。",
-            "古[ふる]いなビルを見[み]ました。",
-            "古[こ]のビルを見[み]ました。",
-            "古[ふる]いビルを見[み]ました。"
-          ],
-          "correctIndex": 3,
-          "explanation": "い-adjectives go directly before the noun with no extra connector. 古[ふる]いビル (old building) is correct. Adding な, の, or using the bare stem without い before a noun are all errors."
-        },
-        {
-          "id": "i-adjectives_q10",
-          "type": "construct",
-          "prompt": "Which sentence is correctly formed using かわいい (cute)?",
-          "japanese": null,
-          "choices": [
-            "このねこはかわいいだです。",
-            "このねこはかわいいです。",
-            "このねこはかわいだです。",
-            "このねこはかわいくだです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "い-adjectives attach directly to です — no だ in between. かわいい + です = かわいいです. Inserting だ before です is a common mistake that only applies to nouns and な-adjectives, never to い-adjectives."
-        },
-        {
-          "id": "i-adjectives_q11",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'This soup was not delicious'?",
-          "japanese": null,
-          "choices": [
-            "このスープはおいしくないでした。",
-            "このスープはおいしいじゃなかったです。",
-            "このスープはおいしくなかったです。",
-            "このスープはおいしでなかったです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "Past negative of い-adjectives: drop い and add くなかった. おいしい → おいしくなかった. The form くないでした is incorrect — past negative is the single suffix くなかった. Option B applies な-adjective negation incorrectly."
-        },
-        {
-          "id": "i-adjectives_q12",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'That temple was old': あのお寺[てら]は___です。",
-          "japanese": "あのお寺[てら]は___です。",
-          "choices": [
-            "古[ふる]かった",
-            "古[ふる]い",
-            "古[ふる]くない",
-            "古[ふる]くなかった"
-          ],
-          "correctIndex": 0,
-          "explanation": "Past affirmative of い-adjectives: drop い and add かった. 古[ふる]い → 古[ふる]かった. When followed by です, the full polite past form is 古[ふる]かったです."
-        },
-        {
-          "id": "i-adjectives_q13",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses the irregular adjective いい in the past affirmative?",
-          "japanese": null,
-          "choices": [
-            "天気[てんき]はいかったです。",
-            "天気[てんき]はいいかったです。",
-            "天気[てんき]はよいかったです。",
-            "天気[てんき]はよかったです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "いい is irregular: the stem changes to よ before all conjugations. Past affirmative: よかった. The forms いかった and いいかった do not exist. よいかった is also wrong — the stem is よ, and the suffix かった replaces い directly."
-        },
-        {
-          "id": "i-adjectives_q14",
-          "type": "construct",
-          "prompt": "Which is the correct past affirmative form of 難[むずか]しい (difficult)?",
-          "japanese": null,
-          "choices": [
-            "難[むずか]しでした",
-            "難[むずか]しかった",
-            "難[むずか]しいかった",
-            "難[むずか]しくった"
-          ],
-          "correctIndex": 1,
-          "explanation": "Past affirmative of い-adjectives: drop い and add かった. 難[むずか]しい → 難[むずか]しかった. Never attach でした directly to the base form, and never leave い before adding かった."
-        },
-        {
-          "id": "i-adjectives_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'This book is not interesting': この本[ほん]はおもしろ___。",
-          "japanese": "この本[ほん]はおもしろ___。",
-          "choices": [
-            "くないです",
-            "じゃないです",
-            "いじゃないです",
-            "くないでした"
-          ],
-          "correctIndex": 0,
-          "explanation": "Present negative of い-adjectives: drop い and add くない(です). おもしろい → おもしろくないです. Using じゃないです is the な-adjective negative pattern and cannot be used with い-adjectives."
-        },
-        {
-          "id": "i-adjectives_q16",
-          "type": "usage",
-          "prompt": "Which pair uses 安[やす]い (cheap) correctly in both prenominal and predicate positions?",
-          "japanese": null,
-          "choices": [
-            "安[やす]の店[みせ] / このお店[みせ]は安[やす]いです",
-            "安[やす]な店[みせ] / このお店[みせ]は安[やす]いです",
-            "安[やす]い店[みせ] / このお店[みせ]は安[やす]いです",
-            "安[やす]い店[みせ] / このお店[みせ]は安[やす]だです"
-          ],
-          "correctIndex": 2,
-          "explanation": "い-adjectives work identically in both positions: go directly before the noun (安[やす]い店[みせ]) and attach to です in predicate position (安[やす]いです). No extra connector is needed in either case. Adding だ before です is a common error."
-        },
-        {
-          "id": "i-adjectives_q17",
-          "type": "translation",
-          "prompt": "Which sentence means 'The test was not difficult'?",
-          "japanese": null,
-          "choices": [
-            "テストは難[むずか]しくないです。",
-            "テストは難[むずか]しじゃなかったです。",
-            "テストは難[むずか]しいじゃありませんでした。",
-            "テストは難[むずか]しくなかったです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "Past negative: drop い and add くなかった. 難[むずか]しい → 難[むずか]しくなかった. Option A is present negative (not past). Options B and C apply な-adjective negation patterns incorrectly to an い-adjective."
-        },
-        {
-          "id": "i-adjectives_q18",
-          "type": "construct",
-          "prompt": "Which is the correct past negative form of いい (good)?",
-          "japanese": null,
-          "choices": [
-            "よくなかった",
-            "いくなかった",
-            "いいじゃなかった",
-            "よいじゃありませんでした"
-          ],
-          "correctIndex": 0,
-          "explanation": "いい is irregular: the stem changes to よ before all suffixes. Past negative: よ + くなかった = よくなかった. いくなかった ignores the stem change; いいじゃなかった applies な-adjective negation. Always remember: when conjugating いい, the base becomes よ."
-        },
-        {
-          "id": "i-adjectives_q19",
-          "type": "usage",
-          "prompt": "A student wrote: このへやは暑[あつ]いだです。What is the error?",
-          "japanese": "このへやは暑[あつ]いだです。",
-          "choices": [
-            "The adjective stem is wrong — it should be 暑[しょ] without い",
-            "だ cannot be inserted between an い-adjective and です",
-            "The topic particle は should be が in this sentence",
-            "暑[あつ]い should be 暑[あつ]かった to describe the room as hot"
-          ],
-          "correctIndex": 1,
-          "explanation": "い-adjectives attach directly to です with no だ in between: 暑[あつ]いです (not 暑[あつ]いだです). Adding だ is a common mistake borrowed from noun and な-adjective patterns, where だ is used. For い-adjectives, it is always adj + です, never adj + だ + です."
-        },
-        {
-          "id": "i-adjectives_q20",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'Last summer was hot': 去年[きょねん]の夏[なつ]はあつ___です。",
-          "japanese": "去年[きょねん]の夏[なつ]はあつ___です。",
-          "choices": [
-            "い",
-            "くない",
-            "かった",
-            "くなかった"
-          ],
-          "correctIndex": 2,
-          "explanation": "Past affirmative of い-adjectives: drop い and add かった. 暑[あつ]い → 暑[あつ]かった. The full polite sentence is 去年[きょねん]の夏[なつ]は暑[あつ]かったです (Last summer was hot)."
-        }
-      ]
+     "japanese": "この本[ほん]はおもしろいです。",
+     "romaji": "Kono hon wa omoshiroi desu.",
+     "english": "This book is interesting."
     },
     {
-      "id": "na-adjectives",
-      "name": "な-adjectives",
-      "shortDescription": "Adjectives that stay unchanged and borrow です for all their conjugation — with な required before any noun.",
-      "formation": "な-adj + な + Noun  |  な-adj + です / じゃありません / でした",
-      "explanation": "The second type of Japanese adjective is the な-adjective. Unlike い-adjectives, which do their own conjugating, な-adjectives outsource the job entirely to です — they keep their base form while です handles all the tense and negation work. Common な-adjectives include: きれい (pretty/clean), 好[す]き (like), 嫌[きら]い (dislike), 上手[じょうず] (skilled), 下手[へた] (unskilled), 有名[ゆうめい] (famous), 静[しず]か (quiet), 賑[にぎ]やか (lively), 便利[べんり] (convenient), and 大切[たいせつ] (important).\n\nTo negate: use じゃありません. For past: use でした. For past negative: use じゃありませんでした — exactly the same conjugation pattern as です itself.\n\nOne critical rule: when a な-adjective directly modifies a noun, you must insert な between the adjective and the noun. きれいな花[はな] (a pretty flower), 有名[ゆうめい]な人 (a famous person). Forgetting that な is one of the most common early mistakes — always add it. And watch out: きれい looks like it ends in い, but it is definitely a な-adjective, not an い-adjective.",
-      "rules": [
-        "な-adjectives do NOT end in い (or they are exceptions like きれい, 嫌[きら]い)",
-        "Before a noun: な-adj + な + Noun (e.g., きれいな花[はな])",
-        "In a predicate: な-adj + です/じゃありません/でした (conjugate like です)",
-        "Common ones: きれい, 好[す]き, 有名[ゆうめい], 静[しず]か, 便利[べんり], 大切[たいせつ], 上手[じょうず], 下手[へた]"
-      ],
-      "examples": [
-        {
-          "japanese": "この花[はな]はきれいです。",
-          "romaji": "Kono hana wa kirei desu.",
-          "english": "This flower is pretty."
-        },
-        {
-          "japanese": "ここは静[しず]かな図書館[としょかん]です。",
-          "romaji": "Koko wa shizuka na toshokan desu.",
-          "english": "This is a quiet library."
-        },
-        {
-          "japanese": "田中[たなか]さんは料理[りょうり]が上手[じょうず]です。",
-          "romaji": "Tanaka-san wa ryouri ga jouzu desu.",
-          "english": "Tanaka-san is good at cooking."
-        },
-        {
-          "japanese": "東京[とうきょう]は便利[べんり]な都市[とし]ですね。",
-          "romaji": "Toukyou wa benri na toshi desu ne.",
-          "english": "Tokyo is a convenient city, isn't it?"
-        }
-      ],
-      "flashcardHeader": "な-adjectives",
-      "flashcardAnswer": "Adjectives that require な before a noun and use です for conjugation.",
-      "practice": [
-        {
-          "id": "na-adjectives_q1",
-          "type": "construct",
-          "prompt": "Which phrase correctly means 'a quiet library'?",
-          "japanese": null,
-          "choices": [
-            "静[しず]かい図書館[としょかん]",
-            "静[しず]かの図書館[としょかん]",
-            "静[しず]か図書館[としょかん]",
-            "静[しず]かな図書館[としょかん]"
-          ],
-          "correctIndex": 3,
-          "explanation": "な-adjectives require な when placed before a noun. 静[しず]か is a な-adjective, so 静[しず]かな図書館[としょかん] is correct. Omitting な or substituting の or い are all errors."
-        },
-        {
-          "id": "na-adjectives_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'This room is not clean': このへやはきれい___。",
-          "japanese": "このへやはきれい___。",
-          "choices": [
-            "くない",
-            "なくない",
-            "じゃありません",
-            "くありません"
-          ],
-          "correctIndex": 2,
-          "explanation": "きれい is a な-adjective, so its negative is じゃありません (or ではありません). な-adjectives never use くない — that pattern is for い-adjectives only."
-        },
-        {
-          "id": "na-adjectives_q3",
-          "type": "translation",
-          "prompt": "Which sentence means 'Tokyo was a convenient city'?",
-          "japanese": null,
-          "choices": [
-            "東京[とうきょう]は便利[べんり]かった都市[とし]です。",
-            "東京[とうきょう]は便利[べんり]い都市[とし]でした。",
-            "東京[とうきょう]は便利[べんり]な都市[とし]でした。",
-            "東京[とうきょう]は便利[べんり]でした都市[とし]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "な-adjective past tense: adjective stays unchanged; です becomes でした. So 便利[べんり] + でした = 便利[べんり]でした. Options using かった or い incorrectly apply い-adjective rules."
-        },
-        {
-          "id": "na-adjectives_q4",
-          "type": "usage",
-          "prompt": "Which sentence uses 有名[ゆうめい] (famous) correctly before a noun?",
-          "japanese": null,
-          "choices": [
-            "有名[ゆうめい]な映画[えいが]を見[み]ました。",
-            "有名[ゆうめい]の映画[えいが]を見[み]ました。",
-            "有名[ゆうめい]い映画[えいが]を見[み]ました。",
-            "有名[ゆうめい]映画[えいが]を見[み]ました。"
-          ],
-          "correctIndex": 0,
-          "explanation": "有名[ゆうめい] is a な-adjective and needs な before any noun it modifies. 有名[ゆうめい]な映画[えいが] (a famous movie) is correct. Using い, の, or nothing between them are all errors."
-        },
-        {
-          "id": "na-adjectives_q5",
-          "type": "construct",
-          "prompt": "Which adjective in this list is a な-adjective (not an い-adjective)?",
-          "japanese": null,
-          "choices": [
-            "新[あたら]しい",
-            "おいしい",
-            "高[たか]い",
-            "きれい"
-          ],
-          "correctIndex": 3,
-          "explanation": "きれい looks like it ends in い, but it is a な-adjective — not an exception to い-adjective rules. All the others (おいしい, 高[たか]い, 新[あたら]しい) are genuine い-adjectives. This distinction must be memorized."
-        },
-        {
-          "id": "na-adjectives_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank with the polite past negative of 静[しず]か: このへやは静[しず]か___。",
-          "japanese": "このへやは静[しず]か___。",
-          "choices": [
-            "でした",
-            "でなかった",
-            "くありませんでした",
-            "じゃありませんでした"
-          ],
-          "correctIndex": 3,
-          "explanation": "な-adjective polite past negative: stem + じゃありませんでした. 静[しず]か → 静[しず]かじゃありませんでした. くありませんでした is the い-adjective polite negative pattern and cannot be used here."
-        },
-        {
-          "id": "na-adjectives_q7",
-          "type": "construct",
-          "prompt": "Which phrase correctly means 'a kind person'?",
-          "japanese": null,
-          "choices": [
-            "親切[しんせつ]な人[ひと]",
-            "親切[しんせつ]い人[ひと]",
-            "親切[しんせつ]の人[ひと]",
-            "親切[しんせつ]人[ひと]"
-          ],
-          "correctIndex": 0,
-          "explanation": "親切[しんせつ] (kind) is a な-adjective. Before a noun it requires な: 親切[しんせつ]な人[ひと]. Using い, の, or nothing between the adjective and noun is incorrect for な-adjectives."
-        },
-        {
-          "id": "na-adjectives_q8",
-          "type": "translation",
-          "prompt": "Which sentence means 'This park is not clean'?",
-          "japanese": null,
-          "choices": [
-            "このこうえんはきれいくないです。",
-            "このこうえんはきれいじゃありません。",
-            "このこうえんはきれいくありません。",
-            "このこうえんはきれいではでした。"
-          ],
-          "correctIndex": 1,
-          "explanation": "きれい is a な-adjective. Its negative is じゃありません (or ではありません). くない and くありません are い-adjective negative patterns and cannot be used with な-adjectives."
-        },
-        {
-          "id": "na-adjectives_q9",
-          "type": "usage",
-          "prompt": "Which phrase correctly uses 暇[ひま] (free/not busy) before a noun?",
-          "japanese": null,
-          "choices": [
-            "暇[ひま]い日[ひ]",
-            "暇[ひま]の日[ひ]",
-            "暇[ひま]な日[ひ]",
-            "暇[ひま]く日[ひ]"
-          ],
-          "correctIndex": 2,
-          "explanation": "暇[ひま] is a な-adjective and requires な before a noun: 暇[ひま]な日[ひ] (a free day). Adding い or く treats it like an い-adjective, which is wrong. の is also incorrect — の is used for nouns, not adjectives, when modifying another noun."
-        },
-        {
-          "id": "na-adjectives_q10",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank with the correct な-adjective: 田中[たなか]さんはとても___な人[ひと]です。(Tanaka-san is a very kind person.)",
-          "japanese": "田中[たなか]さんはとても___な人[ひと]です。",
-          "choices": [
-            "高[たか]い",
-            "大[おお]きい",
-            "古[ふる]い",
-            "親切[しんせつ]"
-          ],
-          "correctIndex": 3,
-          "explanation": "親切[しんせつ] (kind) is the only な-adjective in the list — it correctly uses な before 人[ひと]. The others (高[たか]い, 大[おお]きい, 古[ふる]い) are all い-adjectives that would not use な before a noun."
-        },
-        {
-          "id": "na-adjectives_q11",
-          "type": "construct",
-          "prompt": "Which is the correct polite past negative of 便利[べんり] (convenient)?",
-          "japanese": null,
-          "choices": [
-            "便利[べんり]じゃありませんでした",
-            "便利[べんり]くなかったです",
-            "便利[べんり]でなかったです",
-            "便利[べんり]ではいません"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adjective polite past negative: stem + じゃありませんでした. 便利[べんり] → 便利[べんり]じゃありませんでした. くなかった is the い-adjective past negative pattern and cannot be applied here."
-        },
-        {
-          "id": "na-adjectives_q12",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses にぎやか (lively) in the present negative?",
-          "japanese": null,
-          "choices": [
-            "東京[とうきょう]はにぎやかくないです。",
-            "東京[とうきょう]はにぎやかじゃないです。",
-            "東京[とうきょう]はにぎやかないです。",
-            "東京[とうきょう]はにぎやかくありません。"
-          ],
-          "correctIndex": 1,
-          "explanation": "にぎやか is a な-adjective, so its negative is じゃない(です) or じゃありません. にぎやかじゃないです is correct. くない and くありません are い-adjective patterns."
-        },
-        {
-          "id": "na-adjectives_q13",
-          "type": "translation",
-          "prompt": "Which sentence correctly says 'My teacher is kind'?",
-          "japanese": null,
-          "choices": [
-            "先生[せんせい]は親切[しんせつ]いです。",
-            "先生[せんせい]は親切[しんせつ]のです。",
-            "先生[せんせい]は親切[しんせつ]です。",
-            "先生[せんせい]は親切[しんせつ]なです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "な-adjectives in predicate position (at the end of a sentence) attach directly to です — no な needed. 親切[しんせつ]です is correct. な is only added when the adjective precedes a noun. Adding い, の, or な before です is wrong."
-        },
-        {
-          "id": "na-adjectives_q14",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: それは___本[ほん]です。(That is a famous book.)",
-          "japanese": "それは___本[ほん]です。",
-          "choices": [
-            "有名[ゆうめい]の",
-            "有名[ゆうめい]",
-            "有名[ゆうめい]い",
-            "有名[ゆうめい]な"
-          ],
-          "correctIndex": 3,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な when placed before a noun: 有名[ゆうめい]な本[ほん] (famous book). Omitting な or substituting の or い is incorrect."
-        },
-        {
-          "id": "na-adjectives_q15",
-          "type": "construct",
-          "prompt": "Which is the correct casual past negative of きれい (pretty/clean)?",
-          "japanese": null,
-          "choices": [
-            "きれいじゃなかった",
-            "きれいくなかった",
-            "きれいなかった",
-            "きれいでなかった"
-          ],
-          "correctIndex": 0,
-          "explanation": "Casual past negative of な-adjectives: stem + じゃなかった. きれいじゃなかった is correct. くなかった is the い-adjective past negative pattern. Remember that きれい, despite looking like it ends in い, is a な-adjective."
-        },
-        {
-          "id": "na-adjectives_q16",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses 静[しず]か (quiet) as a predicate adjective?",
-          "japanese": null,
-          "choices": [
-            "この図書館[としょかん]は静[しず]かいです。",
-            "この図書館[としょかん]は静[しず]かです。",
-            "この図書館[としょかん]は静[しず]かなです。",
-            "この図書館[としょかん]は静[しず]かのです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "な-adjectives in predicate position attach the stem directly to です: 静[しず]かです. There is no い, な, or の between the stem and です when used at the end of a sentence. な only appears when the adjective modifies a noun."
-        },
-        {
-          "id": "na-adjectives_q17",
-          "type": "translation",
-          "prompt": "Which sentence correctly asks 'Was that restaurant famous?'",
-          "japanese": null,
-          "choices": [
-            "あのレストランは有名[ゆうめい]かったですか。",
-            "あのレストランは有名[ゆうめい]いでしたか。",
-            "あのレストランは有名[ゆうめい]でしたか。",
-            "あのレストランは有名[ゆうめい]だったしたか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "な-adjective past affirmative: stem + でした. 有名[ゆうめい]でした is correct. Adding か makes it a question: 有名[ゆうめい]でしたか. Using かった or い incorrectly applies い-adjective rules."
-        },
-        {
-          "id": "na-adjectives_q18",
-          "type": "construct",
-          "prompt": "Which sentence correctly uses きれい before a noun?",
-          "japanese": null,
-          "choices": [
-            "きれいいカフェです。",
-            "きれいのカフェです。",
-            "きれいカフェです。",
-            "きれいなカフェです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "きれい is a な-adjective — despite looking like it ends in い, it is not an い-adjective. It requires な before a noun: きれいなカフェ (a pretty café). This is one of the most important exceptions to memorize."
-        },
-        {
-          "id": "na-adjectives_q19",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'This bus is not very convenient': このバスはあまり___。",
-          "japanese": "このバスはあまり___。",
-          "choices": [
-            "便利[べんり]じゃありません",
-            "便利[べんり]くありません",
-            "便利[べんり]くないです",
-            "便利[べんり]だじゃありません"
-          ],
-          "correctIndex": 0,
-          "explanation": "便利[べんり] is a な-adjective. Its negative is じゃありません: 便利[べんり]じゃありません (not convenient). くありません is the polite negative of い-adjectives and cannot be applied to な-adjectives."
-        },
-        {
-          "id": "na-adjectives_q20",
-          "type": "usage",
-          "prompt": "Which sentence correctly says 'Tanaka-san was not free yesterday'?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんは昨日[きのう]暇[ひま]くなかったです。",
-            "田中[たなか]さんは昨日[きのう]暇[ひま]じゃありませんでした。",
-            "田中[たなか]さんは昨日[きのう]暇[ひま]いじゃなかったです。",
-            "田中[たなか]さんは昨日[きのう]暇[ひま]でしたじゃない。"
-          ],
-          "correctIndex": 1,
-          "explanation": "暇[ひま] is a な-adjective. Past negative polite form: stem + じゃありませんでした. 暇[ひま]じゃありませんでした is correct. くなかった is the い-adjective past negative pattern. Options C and D are malformed."
-        }
-      ]
+     "japanese": "このスープはあまりおいしくないです。",
+     "romaji": "Kono suupu wa amari oishiku nai desu.",
+     "english": "This soup is not very delicious."
     },
     {
-      "id": "adj-noun",
-      "name": "Adjective + Noun (modifying nouns)",
-      "shortDescription": "Placing adjectives directly before nouns to describe them.",
-      "formation": "い-adj + Noun  |  な-adj + な + Noun",
-      "explanation": "Putting adjectives in front of nouns is wonderfully direct in Japanese — they go right before the noun, just as in English. The difference is how the two adjective types attach. い-adjectives slide directly in front of the noun with no extra word needed: 大[おお]きい犬[いぬ] (a big dog), 古[ふる]い本[ほん] (an old book), おいしいケーキ (a delicious cake).\n\nな-adjectives need な inserted as a bridge between the adjective and the noun: きれいな人 (a pretty person), 有名[ゆうめい]な先生[せんせい] (a famous teacher), 静[しず]かな部屋[へや] (a quiet room). Forgetting the な is the single most common adjective mistake at this stage — if you see a な-adjective sitting next to a noun with nothing between them, something has gone wrong.\n\nIn predicate position — at the end of a sentence — neither type needs an extra connector: 大[おお]きいです and きれいです both work fine as-is.",
-      "rules": [
-        "い-adjective directly before noun: 大[おお]きい犬[いぬ] (big dog) — no extra word needed",
-        "な-adjective before noun: きれいな花[はな] (pretty flower) — must include な",
-        "Predicate position (end of sentence): no extra word for either type",
-        "Multiple adjectives: each adjective modifies the noun in sequence"
-      ],
-      "examples": [
-        {
-          "japanese": "あの大[おお]きい犬[いぬ]はこわいです。",
-          "romaji": "Ano ookii inu wa kowai desu.",
-          "english": "That big dog is scary."
-        },
-        {
-          "japanese": "これはおいしいケーキです。",
-          "romaji": "Kore wa oishii keeki desu.",
-          "english": "This is a delicious cake."
-        },
-        {
-          "japanese": "きれいな花[はな]を買[か]いました。",
-          "romaji": "Kirei na hana wo kaimashita.",
-          "english": "I bought pretty flowers."
-        },
-        {
-          "japanese": "有名[ゆうめい]な映画[えいが]を見[み]ましたか。",
-          "romaji": "Yuumei na eiga wo mimashita ka.",
-          "english": "Did you see the famous movie?"
-        }
-      ],
-      "flashcardHeader": "Adjective + Noun",
-      "flashcardAnswer": "Placing adjectives directly before nouns to describe them.",
-      "practice": [
-        {
-          "id": "adj-noun_q1",
-          "type": "construct",
-          "prompt": "Which sentence correctly uses 大[おお]きい (big) before a noun?",
-          "japanese": null,
-          "choices": [
-            "大[おお]きいな犬[いぬ]です。",
-            "大[おお]きなな犬[いぬ]です。",
-            "大[おお]きい犬[いぬ]です。",
-            "大[おお]きの犬[いぬ]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "い-adjectives attach directly before a noun with no extra connector. 大[おお]きい犬[いぬ] is correct. Adding な or の after an い-adjective before a noun is a grammatical error."
-        },
-        {
-          "id": "adj-noun_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: きれい___花[はな]を買[か]いました。",
-          "japanese": "きれい___花[はな]を買[か]いました。",
-          "choices": [
-            "い",
-            "(nothing)",
-            "な",
-            "の"
-          ],
-          "correctIndex": 2,
-          "explanation": "きれい is a な-adjective, so な is required before the noun 花[はな]. Without な, the sentence is ungrammatical."
-        },
-        {
-          "id": "adj-noun_q3",
-          "type": "translation",
-          "prompt": "Which sentence correctly says 'Did you see the famous movie?'",
-          "japanese": null,
-          "choices": [
-            "有名[ゆうめい]映画[えいが]を見[み]ましたか。",
-            "有名[ゆうめい]の映画[えいが]を見[み]ましたか。",
-            "有名[ゆうめい]な映画[えいが]を見[み]ましたか。",
-            "有名[ゆうめい]い映画[えいが]を見[み]ましたか。"
-          ],
-          "correctIndex": 2,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 映画[えいが]. 有名[ゆうめい]な映画[えいが] is the correct noun phrase."
-        },
-        {
-          "id": "adj-noun_q4",
-          "type": "usage",
-          "prompt": "Which sentence uses both adjective types before nouns correctly?",
-          "japanese": null,
-          "choices": [
-            "おいしなケーキと有名[ゆうめい]いお店[みせ]です。",
-            "おいしいのケーキと有名[ゆうめい]なお店[みせ]です。",
-            "おいしいケーキと有名[ゆうめい]なお店[みせ]です。",
-            "おいしいなケーキと有名[ゆうめい]お店[みせ]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "い-adjectives (おいしい) go directly before the noun; な-adjectives (有名[ゆうめい]) add な. おいしいケーキ and 有名[ゆうめい]なお店[みせ] are both correct. The other options mix up the two patterns."
-        },
-        {
-          "id": "adj-noun_q5",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to mean 'a book that is not expensive': これは___本[ほん]です。",
-          "japanese": "これは___本[ほん]です。",
-          "choices": [
-            "高[こう]じゃない",
-            "高[たか]くないな",
-            "高[たか]くない",
-            "高[たか]ない"
-          ],
-          "correctIndex": 2,
-          "explanation": "The negative form of an い-adjective (くない) can directly precede a noun, just like the affirmative form. 高[たか]くない本[ほん] = a book that is not expensive. No connector is added between くない and the noun."
-        },
-        {
-          "id": "adj-noun_q6",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I want to eat delicious food'?",
-          "japanese": null,
-          "choices": [
-            "おいしいなたべものを食[た]べたいです。",
-            "おいしくないたべものを食[た]べたいです。",
-            "おいしのたべものを食[た]べたいです。",
-            "おいしいたべものを食[た]べたいです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "おいしい is an い-adjective and attaches directly before the noun たべもの. 美味[おい]しいたべもの (delicious food) — no connector needed. Options with な or の incorrectly treat it as a な-adjective."
-        },
-        {
-          "id": "adj-noun_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ___学校[がっこう]に行[い]きたいです。(I want to go to a convenient school.)",
-          "japanese": "___学校[がっこう]に行[い]きたいです。",
-          "choices": [
-            "便利[べんり]な",
-            "便利[べんり]い",
-            "便利[べんり]",
-            "便利[べんり]の"
-          ],
-          "correctIndex": 0,
-          "explanation": "便利[べんり] is a な-adjective and requires な when placed before a noun: 便利[べんり]な学校[がっこう] (convenient school). Omitting な or substituting い or の is incorrect."
-        },
-        {
-          "id": "adj-noun_q8",
-          "type": "usage",
-          "prompt": "Which adjective requires な before a noun?",
-          "japanese": null,
-          "choices": [
-            "暑[あつ]い",
-            "有名[ゆうめい]",
-            "安[やす]い",
-            "小[ちい]さい"
-          ],
-          "correctIndex": 1,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[ひと] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちい]さい — are all い-adjectives and attach directly before a noun with no connector."
-        },
-        {
-          "id": "adj-noun_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses both adjective types before their nouns?",
-          "japanese": null,
-          "choices": [
-            "大[おお]きい犬[いぬ]と静[しず]かな猫[ねこ]がいます。",
-            "大[おお]きなな犬[いぬ]と静[しず]か猫[ねこ]がいます。",
-            "大[おお]きいの犬[いぬ]と静[しず]かな猫[ねこ]がいます。",
-            "大[おお]きい犬[いぬ]と静[しず]か猫[ねこ]がいます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adjectives (大[おお]きい) attach directly before their noun; な-adjectives (静[しず]か) add な. 大[おお]きい犬[いぬ] and 静[しず]かな猫[ねこ] are both correct. Option D is missing な before 猫[ねこ]; options B and C add wrong connectors after 大[おお]きい."
-        },
-        {
-          "id": "adj-noun_q10",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ___人[ひと]がいっぱいいます。(There are many famous people.)",
-          "japanese": "___人[ひと]がいっぱいいます。",
-          "choices": [
-            "有名[ゆうめい]い",
-            "有名[ゆうめい]の",
-            "有名[ゆうめい]",
-            "有名[ゆうめい]な"
-          ],
-          "correctIndex": 3,
-          "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 人[ひと]: 有名[ゆうめい]な人[ひと] (famous people). Using い, の, or nothing between the adjective and noun is an error."
-        },
-        {
-          "id": "adj-noun_q11",
-          "type": "construct",
-          "prompt": "Which phrase correctly uses 面白[おもしろ]い (interesting) before a noun?",
-          "japanese": null,
-          "choices": [
-            "面白[おもしろ]な本[ほん]",
-            "面白[おもしろ]の本[ほん]",
-            "面白[おもしろ]く本[ほん]",
-            "面白[おもしろ]い本[ほん]"
-          ],
-          "correctIndex": 3,
-          "explanation": "面白[おもしろ]い is an い-adjective and goes directly before the noun: 面白[おもしろ]い本[ほん] (interesting book). Adding な, の, or the くform before the noun is incorrect. Only the full adjective form (面白[おもしろ]い) is used prenominally."
-        },
-        {
-          "id": "adj-noun_q12",
-          "type": "usage",
-          "prompt": "Which sentence uses an adjective incorrectly before a noun?",
-          "japanese": null,
-          "choices": [
-            "親切[しんせつ]な先生[せんせい]です。",
-            "暑[あつ]い夏[なつ]でした。",
-            "静[しず]かいへやです。",
-            "有名[ゆうめい]な先生[せんせい]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "静[しず]か is a な-adjective — it needs な, not い, before a noun. 静[しず]かなへや (quiet room) is correct; 静[しず]かいへや does not exist. This is a common error where students incorrectly apply い-adjective rules to a な-adjective."
-        },
-        {
-          "id": "adj-noun_q13",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: この___えんぴつをください。(Please give me a long pencil.)",
-          "japanese": "この___えんぴつをください。",
-          "choices": [
-            "長[ちょう]な",
-            "長[ちょう]",
-            "長[ちょう]の",
-            "長[なが]い"
-          ],
-          "correctIndex": 3,
-          "explanation": "長[なが]い (long) is an い-adjective and goes directly before the noun えんぴつ (pencil): 長[なが]いえんぴつ (long pencil). No connector is added between an い-adjective and the noun it modifies."
-        },
-        {
-          "id": "adj-noun_q14",
-          "type": "construct",
-          "prompt": "Which phrase correctly uses the negative form of 高[たか]い (expensive) to modify a noun?",
-          "japanese": null,
-          "choices": [
-            "高[たか]くないかばん",
-            "高[こう]じゃないかばん",
-            "高[たか]なくないかばん",
-            "高[たか]いじゃないかばん"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adjectives in their negative form (くない) can directly precede a noun. 高[たか]くないかばん = a bag that is not expensive. The negative form behaves just like the affirmative — attach directly with no connector."
-        },
-        {
-          "id": "adj-noun_q15",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses きれい to describe a flower?",
-          "japanese": null,
-          "choices": [
-            "これはきれいい花[はな]です。",
-            "これはきれいな花[はな]です。",
-            "これはきれい花[はな]です。",
-            "これはきれいの花[はな]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "きれい is a な-adjective, even though it appears to end in い. It requires な before a noun: きれいな花[はな] (pretty flower). The trailing い is part of the stem, not the い-adjective ending. Forgetting な here is one of the most common early mistakes."
-        },
-        {
-          "id": "adj-noun_q16",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I bought a new bag'?",
-          "japanese": null,
-          "choices": [
-            "新[あたら]しなかばんを買[か]いました。",
-            "新[あたら]しいなかばんを買[か]いました。",
-            "新[あたら]しいかばんを買[か]いました。",
-            "新[あたら]しのかばんを買[か]いました。"
-          ],
-          "correctIndex": 2,
-          "explanation": "新[あたら]しい (new) is an い-adjective and goes directly before the noun: 新[あたら]しいかばん (new bag). Adding な after an い-adjective before a noun is a very common error. い-adjectives never need な."
-        },
-        {
-          "id": "adj-noun_q17",
-          "type": "translation",
-          "prompt": "Which phrase correctly means 'a quiet room'?",
-          "japanese": null,
-          "choices": [
-            "静[しず]かいへや",
-            "静[しず]か部屋[へや]",
-            "静[しず]くなへや",
-            "静[しず]かなへや"
-          ],
-          "correctIndex": 3,
-          "explanation": "静[しず]か is a な-adjective and requires な before the noun へや: 静[しず]かなへや (quiet room). Omitting な or treating it as an い-adjective (静[しず]かい) are both errors. 静[しず]くな is also malformed."
-        },
-        {
-          "id": "adj-noun_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: ___映画[えいが]を見[み]ました。(I watched a boring movie.)",
-          "japanese": "___映画[えいが]を見[み]ました。",
-          "choices": [
-            "つまらない",
-            "つまらなな",
-            "つまらないな",
-            "つまらな"
-          ],
-          "correctIndex": 0,
-          "explanation": "つまらない (boring) is an い-adjective in its negative form (つまらない = not interesting/boring). It goes directly before the noun 映画[えいが] with no connector: つまらない映画[えいが] (boring movie)."
-        },
-        {
-          "id": "adj-noun_q19",
-          "type": "construct",
-          "prompt": "Which phrase correctly uses an adjective before a noun?",
-          "japanese": null,
-          "choices": [
-            "便利[べんり]い店[みせ]",
-            "上手[じょうず]な人[ひと]",
-            "むずかしな問題[もんだい]",
-            "おいしいな料理[りょうり]"
-          ],
-          "correctIndex": 1,
-          "explanation": "上手[じょうず] (skilled) is a な-adjective, so 上手[じょうず]な人[ひと] (a skilled person) is correct. 便利[べんり] is a な-adjective requiring な, not い. 難[むずか]しい is an い-adjective that needs no な. おいしい is an い-adjective — adding な after it is wrong."
-        },
-        {
-          "id": "adj-noun_q20",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses a negative い-adjective to modify a noun?",
-          "japanese": null,
-          "choices": [
-            "大[おお]きじゃない犬[いぬ]がいます。",
-            "大[おお]きいじゃない犬[いぬ]がいます。",
-            "大[おお]きくない犬[いぬ]がいます。",
-            "大[おお]きなくない犬[いぬ]がいます。"
-          ],
-          "correctIndex": 2,
-          "explanation": "The negative form of an い-adjective is くない, and this form can directly precede a noun. 大[おお]きくない犬[いぬ] (a dog that is not big) follows the same rule as the affirmative: attach directly with no connector. Using じゃない is the な-adjective pattern."
-        }
-      ]
+     "japanese": "昨日[きのう]は寒[さむ]かったですね。",
+     "romaji": "Kinou wa samukatta desu ne.",
+     "english": "It was cold yesterday, wasn't it?"
     },
     {
-      "id": "suki-kirai",
-      "name": "好[す]き / 嫌[きら]い (suki / kirai) — like / dislike",
-      "shortDescription": "Expressing likes and dislikes using these special な-adjectives.",
-      "formation": "Topic は Object が 好[す]き / 嫌[きら]い です",
-      "explanation": "好[す]き (like) and 嫌[きら]い (dislike) might feel like verbs in English — 'I like dogs,' 'I dislike coffee' — but in Japanese they are adjectives. This changes the sentence structure completely. Instead of 'I like dogs,' Japanese says 'As for me, dogs are likeable' — わたしは犬[いぬ]が好[す]きです. The thing you like is marked with が, not を. This は〜が pattern is one of the most important to internalize early.\n\nYou can intensify with とても (very): 犬[いぬ]がとても好[す]きです (I really like dogs). 大好[だいす]き adds 大 (big/great) to mean 'love,' and 大嫌[だいきら]い means 'hate.' Ask what someone likes with 何[なに]が好[す]きですか (What do you like?).",
-      "rules": [
-        "Pattern: [person] は [thing] が 好[す]きです / 嫌[きら]いです",
-        "The thing liked/disliked is marked with が (not を)",
-        "好[す]き and 嫌[きら]い are な-adjectives, not verbs",
-        "大好[だいす]き = love; 大嫌[だいきら]い = hate (adding 大 intensifies)",
-        "Use も instead of が for \"also\": 野菜[やさい]も好[す]き (I like vegetables too)"
-      ],
-      "examples": [
-        {
-          "japanese": "わたしは猫[ねこ]が好[す]きです。",
-          "romaji": "Watashi wa neko ga suki desu.",
-          "english": "I like cats."
-        },
-        {
-          "japanese": "何[なに]が好[す]きですか。",
-          "romaji": "Nani ga suki desu ka.",
-          "english": "What do you like?"
-        },
-        {
-          "japanese": "田中[たなか]さんはコーヒーが嫌[きら]いです。",
-          "romaji": "Tanaka-san wa koohii ga kirai desu.",
-          "english": "Tanaka-san dislikes coffee."
-        },
-        {
-          "japanese": "わたしは日本語[にほんご]が大好[だいす]きです！",
-          "romaji": "Watashi wa nihongo ga daisuki desu!",
-          "english": "I love Japanese!"
-        }
-      ],
-      "flashcardHeader": "好き / 嫌い",
-      "flashcardAnswer": "Expressing likes and dislikes using these special な-adjectives.",
-      "practice": [
-        {
-          "id": "suki-kirai_q1",
-          "type": "construct",
-          "prompt": "Which particle correctly fills the blank? わたしは猫[ねこ]___好[す]きです。",
-          "japanese": "わたしは猫[ねこ]___好[す]きです。",
-          "choices": [
-            "が",
-            "を",
-            "に",
-            "は"
-          ],
-          "correctIndex": 0,
-          "explanation": "好[す]き uses が to mark the thing liked. The pattern is  は  が 好[す]きです. Using を is a common error influenced by English 'I like cats' where 'cats' is the direct object."
-        },
-        {
-          "id": "suki-kirai_q2",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I love Japanese!'?",
-          "japanese": null,
-          "choices": [
-            "わたしは日本語[にほんご]がとても好[す]きです！",
-            "わたしは日本語[にほんご]は大好[だいす]きです！",
-            "わたしは日本語[にほんご]をすごく好[す]きです！",
-            "わたしは日本語[にほんご]が大好[だいす]きです！"
-          ],
-          "correctIndex": 3,
-          "explanation": "大好[だいす]き (大[だい] + 好[す]き) means 'love' and is the standard strong form. Both options A and B are natural, but 大好[だいす]き is the most common way to express strong liking in Japanese."
-        },
-        {
-          "id": "suki-kirai_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 何[なに]___好[す]きですか。(What do you like?)",
-          "japanese": "何[なに]___好[す]きですか。",
-          "choices": [
-            "を",
-            "が",
-            "は",
-            "に"
-          ],
-          "correctIndex": 1,
-          "explanation": "Because 好[す]き always takes が for the thing liked, the question word 何[なに] must also take が: 何[なに]が好[す]きですか. This が carries through from the statement pattern."
-        },
-        {
-          "id": "suki-kirai_q4",
-          "type": "usage",
-          "prompt": "Which sentence correctly says 'Tanaka-san dislikes coffee'?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんはコーヒーが嫌[きら]いです。",
-            "田中[たなか]さんにコーヒーが嫌[きら]いです。",
-            "田中[たなか]さんはコーヒーは嫌[きら]いです。",
-            "田中[たなか]さんはコーヒーを嫌[きら]いです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "嫌[きら]い follows the same pattern as 好[す]き:  は  が 嫌[きら]いです. The thing disliked takes が. Using を or は instead of が changes the sentence structure incorrectly."
-        },
-        {
-          "id": "suki-kirai_q5",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I dislike spicy food'?",
-          "japanese": null,
-          "choices": [
-            "わたしはからいたべものがすきです。",
-            "わたしはからいたべものがきらいじゃないです。",
-            "わたしはからいたべものが嫌[きら]いです。",
-            "わたしはからいたべものを嫌[きら]いです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "嫌[きら]い follows the pattern  は  が 嫌[きら]いです. The disliked thing takes が. Option A says 'like' instead of 'dislike.' Option D uses を incorrectly — 嫌[きら]い always takes が."
-        },
-        {
-          "id": "suki-kirai_q6",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: わたしはやさいも___です。(I also like vegetables.)",
-          "japanese": "わたしはやさいも___です。",
-          "choices": [
-            "大嫌[だいきら]い",
-            "嫌[きら]い",
-            "きらいです",
-            "好[す]き"
-          ],
-          "correctIndex": 3,
-          "explanation": "も replaces が when meaning 'also': やさいも好[す]きです = I like vegetables too. The も particle indicates addition — if cats are liked, vegetables are also liked. The blank needs 好[す]き to complete 好[す]きです."
-        },
-        {
-          "id": "suki-kirai_q7",
-          "type": "construct",
-          "prompt": "What does 大嫌[だいきら]い mean?",
-          "japanese": null,
-          "choices": [
-            "really dislike / hate strongly",
-            "somewhat dislike",
-            "love / really like",
-            "not very fond of"
-          ],
-          "correctIndex": 0,
-          "explanation": "大嫌[だいきら]い adds 大[だい] (big/great) to 嫌[きら]い (dislike) to intensify it: 'hate' or 'strongly dislike.' Similarly, 大好[だいす]き = love. The prefix 大[だい] turns ordinary liking/disliking into an intense feeling."
-        },
-        {
-          "id": "suki-kirai_q8",
-          "type": "usage",
-          "prompt": "Which sentence correctly asks 'Does Tanaka-san like sports?'",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんはスポーツを好[す]きですか。",
-            "田中[たなか]さんはスポーツが好[す]きですか。",
-            "田中[たなか]さんにスポーツが好[す]きですか。",
-            "田中[たなか]さんはスポーツの好[す]きですか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "好[す]き always takes が to mark the thing liked:  は  が 好[す]きですか. Option A uses を (direct object particle) — this is the most common mistake, influenced by the English 'like .' に and の are also wrong here."
-        },
-        {
-          "id": "suki-kirai_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly says 'I like cooking' (as a preference, not a skill)?",
-          "japanese": null,
-          "choices": [
-            "わたしは料理[りょうり]が上手[じょうず]です。",
-            "わたしは料理[りょうり]が好[この]みです。",
-            "わたしは料理[りょうり]が好[す]きです。",
-            "わたしは料理[りょうり]を好[す]きです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "好[す]き expresses preference (liking/enjoying). Option A uses 上手[じょうず], which expresses skill ('I am good at cooking'), not preference. Option D uses を instead of が. 好[す]きです is the correct way to say you enjoy something."
-        },
-        {
-          "id": "suki-kirai_q10",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: たなかさんはスポーツが___です。(Tanaka-san loves sports.)",
-          "japanese": "たなかさんはスポーツが___です。",
-          "choices": [
-            "大嫌[だいきら]い",
-            "嫌[きら]い",
-            "好[す]き",
-            "大好[だいす]き"
-          ],
-          "correctIndex": 3,
-          "explanation": "大好[だいす]き = love (intensified 好[す]き). スポーツが大好[だいす]きです = loves sports. 好[す]き is just 'like,' not 'love.' 大嫌[だいきら]い means 'hate,' the opposite of what the sentence means."
-        },
-        {
-          "id": "suki-kirai_q11",
-          "type": "construct",
-          "prompt": "Which sentence uses the correct particle with 嫌[きら]い?",
-          "japanese": null,
-          "choices": [
-            "ねこが嫌[きら]いです",
-            "ねこを嫌[きら]いです",
-            "ねこに嫌[きら]いです",
-            "ねこの嫌[きら]いです"
-          ],
-          "correctIndex": 0,
-          "explanation": "嫌[きら]い follows the same が pattern as 好[す]き: the disliked thing takes が. ねこが嫌[きら]いです (I dislike cats) is correct. Using を, に, or の instead of が is a grammar error — 嫌[きら]い is an adjective, not a verb, so it takes が, not を."
-        },
-        {
-          "id": "suki-kirai_q12",
-          "type": "translation",
-          "prompt": "Which sentence correctly says 'I hate spiders'?",
-          "japanese": null,
-          "choices": [
-            "わたしはくもが好[す]きじゃないです。",
-            "わたしはくもが大嫌[だいきら]いです。",
-            "わたしはくもをすごく嫌[きら]いです。",
-            "わたしにはくもが大嫌[だいきら]いです。"
-          ],
-          "correctIndex": 1,
-          "explanation": "大嫌[だいきら]い (大[だい] + 嫌[きら]い) expresses strong dislike — hate. The pattern remains  は  が 大嫌[だいきら]いです. Option A expresses 'don't like' (weaker). Option C uses を incorrectly with 嫌[きら]い. Option D uses に は which changes the nuance."
-        },
-        {
-          "id": "suki-kirai_q14",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: すみませんが、たぬきが___です。(I'm sorry, but I dislike tanuki.)",
-          "japanese": "すみませんが、たぬきが___です。",
-          "choices": [
-            "大好[だいす]き",
-            "好[す]き",
-            "上手[じょうず]",
-            "嫌[きら]い"
-          ],
-          "correctIndex": 3,
-          "explanation": "嫌[きら]いです expresses dislike following the pattern  が 嫌[きら]いです. たぬきが嫌[きら]いです = dislike tanuki. 大好[だいす]き and 好[す]き both express liking (the opposite). 上手[じょうず] means skilled, not dislike."
-        },
-        {
-          "id": "suki-kirai_q15",
-          "type": "construct",
-          "prompt": "Which sentence best expresses 'I don't really like natto'?",
-          "japanese": null,
-          "choices": [
-            "なっとうがあまり好[す]きじゃないです",
-            "なっとうをあまり好[す]きじゃないです",
-            "なっとうがぜんぜん好[す]きです",
-            "なっとうにあまり好[す]きじゃないです"
-          ],
-          "correctIndex": 0,
-          "explanation": "あまり + 好[す]きじゃない = don't really/very much like. The liked thing still takes が. Option B uses を incorrectly. Option C uses ぜんぜん with an affirmative predicate — ぜんぜん always requires a negative form. Option D uses に incorrectly."
-        },
-        {
-          "id": "suki-kirai_q17",
-          "type": "translation",
-          "prompt": "Which sentence correctly says 'I love cats but I hate dogs'?",
-          "japanese": null,
-          "choices": [
-            "ねこが大好[だいす]きですが、いぬも大好[だいす]きです。",
-            "ねこが大嫌[だいきら]いですが、いぬが大好[だいす]きです。",
-            "ねこが大好[だいす]きですが、いぬが大嫌[だいきら]いです。",
-            "ねこを大好[だいす]きですが、いぬが大嫌[だいきら]いです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "大好[だいす]き = love, 大嫌[だいきら]い = hate. Both use が to mark what is loved/hated. ねこが大好[だいす]きですが、いぬが大嫌[だいきら]いです correctly expresses both feelings. Option D uses を instead of が with 大好[だいす]き, which is incorrect."
-        },
-        {
-          "id": "suki-kirai_q18",
-          "type": "usage",
-          "prompt": "Which sentence uses 好[す]き incorrectly?",
-          "japanese": null,
-          "choices": [
-            "わたしは日本語[にほんご]が好[す]きです。",
-            "たなかさんはやきゅうが大好[だいす]きです。",
-            "何[なに]が好[す]きですか。",
-            "わたしはすしを好[す]きです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "好[す]き requires が to mark the thing liked, not を. わたしはすしを好[す]きです is incorrect — it should be すしが好[す]きです. Options A, B, and C all use the correct が pattern. This を error is the most common mistake with 好[す]き."
-        },
-        {
-          "id": "suki-kirai_q19",
-          "type": "construct",
-          "prompt": "Which sentence best expresses mild/soft dislike — 'I'm not really into sushi'?",
-          "japanese": null,
-          "choices": [
-            "すしがあまり好[す]きじゃないです",
-            "すしがぜんぜん好[す]きです",
-            "すしが大嫌[だいきら]いです",
-            "すしが嫌[きら]いです"
-          ],
-          "correctIndex": 0,
-          "explanation": "あまり + 好[す]きじゃない softens the negative: 'don't really like.' This is the polite way to express mild dislike. Option B uses ぜんぜん with an affirmative predicate — wrong. 大嫌[だいきら]い and 嫌[きら]い both express stronger or clearer dislike than 'not really into it.'"
-        }
-      ]
-    },
-    {
-      "id": "jouzu-heta",
-      "name": "上手[じょうず] / 下手[へた] (jouzu / heta) — good at / bad at",
-      "shortDescription": "Describing skill and lack of skill with the は〜が pattern — and when 得意 / 苦手 sound more natural.",
-      "formation": "Person は Skill が 上手[じょうず] / 下手[へた] です",
-      "explanation": "上手[じょうず] (good at / skilled) and 下手[へた] (bad at / unskilled) describe ability. Just like 好[す]き and 嫌[きら]い, they are な-adjectives, not verbs, so they take the same は〜が pattern: the person is the topic (marked with は) and the skill or activity is marked with が, never を. 田中[たなか]さんはピアノが上手[じょうず]です means \"Tanaka-san is good at piano\" — literally \"as for Tanaka-san, piano is skilled-at.\"\n\nKeep 上手[じょうず] and 好[す]き separate in your mind: 好[す]き is about whether you *like* something, while 上手[じょうず] is about whether you are *good at* it — you can love a hobby and still be terrible at it. There is also an etiquette point: 上手[じょうず] is used to praise *other* people, so it sounds odd (even boastful) about yourself. To describe your own strength, use 得意[とくい] (my strong point); to describe your own weakness gently, 苦手[にがて] (not my strong point) sounds much softer than bluntly calling yourself 下手[へた].",
-      "rules": [
-        "Pattern: Person は Skill が 上手[じょうず]です / 下手[へた]です",
-        "The skill or activity is marked with が, not を",
-        "上手[じょうず] and 下手[へた] are な-adjectives, not verbs",
-        "上手[じょうず] praises others — for your own strength, use 得意[とくい]",
-        "下手[へた] can sound harsh about yourself — 苦手[にがて] is softer",
-        "Skill (上手[じょうず]) is not the same as liking (好[す]き): you can enjoy something you are bad at"
-      ],
-      "examples": [
-        {
-          "japanese": "田中[たなか]さんはピアノが上手[じょうず]です。",
-          "romaji": "Tanaka-san wa piano ga jouzu desu.",
-          "english": "Tanaka-san is good at piano."
-        },
-        {
-          "japanese": "わたしは料理[りょうり]が下手[へた]です。",
-          "romaji": "Watashi wa ryouri ga heta desu.",
-          "english": "I'm bad at cooking."
-        },
-        {
-          "japanese": "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
-          "romaji": "Ane wa eigo ga totemo jouzu desu.",
-          "english": "My older sister is very good at English."
-        },
-        {
-          "japanese": "スポーツはちょっと苦手[にがて]です。",
-          "romaji": "Supootsu wa chotto nigate desu.",
-          "english": "I'm not really good at sports."
-        }
-      ],
-      "flashcardHeader": "上手 / 下手 (jouzu / heta)",
-      "flashcardAnswer": "Describing skill (good at) and lack of skill (bad at) with the は〜が pattern.",
-      "practice": [
-        {
-          "id": "jouzu-heta_q1",
-          "type": "usage",
-          "prompt": "Which sentence correctly says \"Tanaka-san is good at guitar\"?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんはギターが好[す]きです。",
-            "田中[たなか]さんはギターが上手[じょうず]です。",
-            "田中[たなか]さんはギターを上手[じょうず]です。",
-            "田中[たなか]さんにギターが上手[じょうず]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "上手[じょうず] uses the は〜が pattern: ギターが上手[じょうず]です. Option A says 好[す]き (likes guitar), not skill. Option C uses を and D uses に — 上手[じょうず] always takes が."
-        },
-        {
-          "id": "jouzu-heta_q2",
-          "type": "construct",
-          "prompt": "Which particle marks what someone is good at? わたしは水泳[すいえい]___上手[じょうず]です。",
-          "japanese": "わたしは水泳[すいえい]___上手[じょうず]です。",
-          "choices": [
-            "を",
-            "が",
-            "に",
-            "は"
-          ],
-          "correctIndex": 1,
-          "explanation": "上手[じょうず] marks the skill with が: 水泳[すいえい]が上手[じょうず]です (good at swimming). Using を is the most common mistake — 上手[じょうず] is an adjective, not a verb, so it never takes を."
-        },
-        {
-          "id": "jouzu-heta_q3",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: わたしは料理[りょうり]が___です。(I'm bad at cooking.)",
-          "japanese": "わたしは料理[りょうり]が___です。",
-          "choices": [
-            "上手[じょうず]",
-            "下手[へた]",
-            "好[す]き",
-            "大好[だいす]き"
-          ],
-          "correctIndex": 1,
-          "explanation": "下手[へた] means \"bad at / unskilled.\" 料理[りょうり]が下手[へた]です = I'm bad at cooking. 上手[じょうず] is the opposite (good at); 好[す]き / 大好[だいす]き describe liking, not skill."
-        },
-        {
-          "id": "jouzu-heta_q4",
-          "type": "usage",
-          "prompt": "Which pair correctly distinguishes liking from skill?",
-          "japanese": null,
-          "choices": [
-            "ピアノが好[す]きです = skilled at piano / ピアノが上手[じょうず]です = like piano",
-            "ピアノが好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
-            "ピアノを好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
-            "ピアノが好[す]きです = like piano / ピアノを上手[じょうず]です = skilled at piano"
-          ],
-          "correctIndex": 1,
-          "explanation": "好[す]き expresses preference (liking) and 上手[じょうず] expresses skill (being good at). Both take が. Option A reverses the meanings; C and D use を instead of が."
-        },
-        {
-          "id": "jouzu-heta_q5",
-          "type": "translation",
-          "prompt": "Which sentence means \"My older sister is very good at English\"?",
-          "japanese": null,
-          "choices": [
-            "姉[あね]は英語[えいご]をとても上手[じょうず]です。",
-            "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
-            "姉[あね]は英語[えいご]がとても好[す]きです。",
-            "姉[あね]に英語[えいご]がとても上手[じょうず]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "英語[えいご]がとても上手[じょうず]です = very good at English. Option A uses を (wrong — 上手[じょうず] takes が). Option C says 好[す]き (likes English). Option D uses に instead of the topic marker は + が."
-        },
-        {
-          "id": "jouzu-heta_q6",
-          "type": "usage",
-          "prompt": "Talking about your OWN skill, which sentence is most natural?",
-          "japanese": null,
-          "choices": [
-            "わたしはギターが上手[じょうず]です。",
-            "わたしはギターが得意[とくい]です。",
-            "わたしはギターを得意[とくい]です。",
-            "わたしにギターが上手[じょうず]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "上手[じょうず] is normally used to praise other people, so it sounds boastful about yourself. For your own strength, 得意[とくい] is the natural choice: ギターが得意[とくい]です. Option C uses を (should be が); D uses に."
-        },
-        {
-          "id": "jouzu-heta_q7",
-          "type": "usage",
-          "prompt": "You want to gently say you're not good at drawing. Which is most natural?",
-          "japanese": null,
-          "choices": [
-            "わたしは絵[え]を苦手[にがて]です。",
-            "わたしは絵[え]が苦手[にがて]です。",
-            "わたしは絵[え]が上手[じょうず]です。",
-            "わたしは絵[え]を下手[へた]です。"
-          ],
-          "correctIndex": 1,
-          "explanation": "苦手[にがて] (not my strong point) softens a self-criticism and is more natural than bluntly saying 下手[へた] about yourself. It takes が: 絵[え]が苦手[にがて]です. Options A and D use を; C says 上手[じょうず] (good at), the opposite."
-        },
-        {
-          "id": "jouzu-heta_q8",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: 田中[たなか]さんはピアノ___上手[じょうず]です。",
-          "japanese": "田中[たなか]さんはピアノ___上手[じょうず]です。",
-          "choices": [
-            "を",
-            "が",
-            "に",
-            "の"
-          ],
-          "correctIndex": 1,
-          "explanation": "ピアノが上手[じょうず]です — the thing you are skilled at is marked with が. を, に, and の are all incorrect here; 上手[じょうず] always pairs with が."
-        },
-        {
-          "id": "jouzu-heta_q9",
-          "type": "construct",
-          "prompt": "Which sentence is INCORRECT?",
-          "japanese": null,
-          "choices": [
-            "兄[あに]はサッカーが上手[じょうず]です。",
-            "わたしは歌[うた]が下手[へた]です。",
-            "母[はは]は料理[りょうり]を上手[じょうず]です。",
-            "父[ちち]は英語[えいご]が上手[じょうず]です。"
-          ],
-          "correctIndex": 2,
-          "explanation": "母[はは]は料理[りょうり]を上手[じょうず]です is wrong — 上手[じょうず] takes が, not を. It should be 料理[りょうり]が上手[じょうず]です. The other three all correctly use が."
-        },
-        {
-          "id": "jouzu-heta_q10",
-          "type": "usage",
-          "prompt": "Your friend loves karaoke but sings badly. Which sentence describes this?",
-          "japanese": null,
-          "choices": [
-            "カラオケが好[す]きですが、下手[へた]です。",
-            "カラオケが上手[じょうず]ですが、好[す]きじゃないです。",
-            "カラオケが下手[へた]ですが、上手[じょうず]です。",
-            "カラオケを好[す]きですが、下手[へた]です。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Liking (好[す]き) and skill (上手[じょうず]/下手[へた]) are independent — you can like karaoke yet be 下手[へた] at it. Option A captures this. Option D uses を with 好[す]き (should be が)."
-        },
-        {
-          "id": "jouzu-heta_q11",
-          "type": "translation",
-          "prompt": "Which sentence asks \"Is Tanaka-san good at Japanese?\"",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんは日本語[にほんご]を上手[じょうず]ですか。",
-            "田中[たなか]さんは日本語[にほんご]が上手[じょうず]ですか。",
-            "田中[たなか]さんは日本語[にほんご]が好[す]きですか。",
-            "田中[たなか]さんに日本語[にほんご]が上手[じょうず]ですか。"
-          ],
-          "correctIndex": 1,
-          "explanation": "日本語[にほんご]が上手[じょうず]ですか = Is (he) good at Japanese? The skill takes が. Option A uses を; C asks about liking (好[す]き); D uses に instead of は."
-        },
-        {
-          "id": "jouzu-heta_q12",
-          "type": "fillBlank",
-          "prompt": "Talking about your own strong point: わたしは数学[すうがく]が___です。(Math is my strong point.)",
-          "japanese": "わたしは数学[すうがく]が___です。",
-          "choices": [
-            "上手[じょうず]",
-            "得意[とくい]",
-            "好[す]き",
-            "下手[へた]"
-          ],
-          "correctIndex": 1,
-          "explanation": "For your own strength, 得意[とくい] is preferred over 上手[じょうず] (which is used to praise others). 数学[すうがく]が得意[とくい]です = Math is my strong point. 好[す]き = like; 下手[へた] = bad at."
-        }
-      ]
-    },
-    {
-      "id": "totemo-sukoshi",
-      "name": "とても / すこし / あまり — degree adverbs",
-      "shortDescription": "Adverbs that express the degree or intensity of an adjective.",
-      "formation": "Degree adverb + い-adj / な-adj + です",
-      "explanation": "Degree adverbs answer the question 'how much?' and they go directly before the adjective they modify. とても means 'very' and intensifies any quality: とても大[おお]きい (very big), とても好[す]き (like very much). すこし means 'a little' and softens: すこし難[むずか]しい (a little difficult). まあまあ means 'so-so.'\n\nNow, the pair that requires careful attention: あまり and ぜんぜん always require a negative verb or adjective form — just as you saw with frequency adverbs in this chapter. あまりおいしくない = 'not very delicious.' ぜんぜん難[むずか]しくない = 'not difficult at all.' Using either of these with a positive form is a grammar error.\n\nOne handy social note: Japanese people often use あまり〜くない to soften criticism — saying something is 'not very good' rather than outright 'bad' is considered more polite and considerate.",
-      "rules": [
-        "とても + affirmative adj = very (とても大[おお]きい = very big)",
-        "すこし + adj = a little (すこし難[むずか]しい = a little difficult)",
-        "あまり + negative adj = not very (あまり〜くない)",
-        "ぜんぜん + negative adj = not at all (ぜんぜん〜くない)",
-        "These adverbs go directly before the adjective"
-      ],
-      "examples": [
-        {
-          "japanese": "このかばんはとても高[たか]いです。",
-          "romaji": "Kono kaban wa totemo takai desu.",
-          "english": "This bag is very expensive."
-        },
-        {
-          "japanese": "日本語[にほんご]はすこし難[むずか]しいです。",
-          "romaji": "Nihongo wa sukoshi muzukashii desu.",
-          "english": "Japanese is a little difficult."
-        },
-        {
-          "japanese": "このへやはあまりきれいじゃありません。",
-          "romaji": "Kono heya wa amari kirei ja arimasen.",
-          "english": "This room is not very clean."
-        },
-        {
-          "japanese": "その映画[えいが]はぜんぜんおもしろくなかったです。",
-          "romaji": "Sono eiga wa zenzen omoshiroku nakatta desu.",
-          "english": "That movie was not interesting at all."
-        }
-      ],
-      "flashcardHeader": "とても / すこし / あまり",
-      "flashcardAnswer": "Adverbs that express the degree or intensity of an adjective.",
-      "practice": [
-        {
-          "id": "totemo-sukoshi_q1",
-          "type": "construct",
-          "prompt": "Which sentence is grammatically correct?",
-          "japanese": null,
-          "choices": [
-            "このかばんはあまり高[たか]いです。",
-            "このかばんはすこしじゃないです。",
-            "このかばんはあまり高[たか]くないです。",
-            "このかばんはぜんぜんきれいです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "あまり must always pair with a negative predicate. あまり高[たか]くないです (not very expensive) is grammatically correct. Using あまり with an affirmative form like 高[たか]いです is a grammar error."
-        },
-        {
-          "id": "totemo-sukoshi_q2",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank with the correct adverb: その映画[えいが]は___おもしろくなかったです。(not at all interesting)",
-          "japanese": "その映画[えいが]は___おもしろくなかったです。",
-          "choices": [
-            "すこし",
-            "ぜんぜん",
-            "とても",
-            "あまり"
-          ],
-          "correctIndex": 1,
-          "explanation": "ぜんぜん means 'not at all' and pairs with a negative form. ぜんぜんおもしろくなかった = not interesting at all. あまり would also work grammatically but means 'not very,' which is weaker."
-        },
-        {
-          "id": "totemo-sukoshi_q3",
-          "type": "translation",
-          "prompt": "Which sentence means 'Japanese is a little difficult'?",
-          "japanese": null,
-          "choices": [
-            "日本語[にほんご]はとても難[むずか]しいです。",
-            "日本語[にほんご]はぜんぜん難[むずか]しくないです。",
-            "日本語[にほんご]はすこし難[むずか]しいです。",
-            "日本語[にほんご]はあまり難[むずか]しくないです。"
-          ],
-          "correctIndex": 2,
-          "explanation": "すこし = a little (affirmative). すこし難[むずか]しい = a little difficult. とても = very, あまり〜くない = not very, ぜんぜん〜くない = not at all. Only すこし fits the 'a little' meaning with a positive adjective."
-        },
-        {
-          "id": "totemo-sukoshi_q4",
-          "type": "usage",
-          "prompt": "Which sentence uses a degree adverb correctly?",
-          "japanese": null,
-          "choices": [
-            "このへやはとてもきれいくないです。",
-            "このへやはすこしきれいじゃありません。",
-            "このへやはぜんぜんきれいです。",
-            "このへやはあまりきれいじゃありません。"
-          ],
-          "correctIndex": 3,
-          "explanation": "あまり requires a negative predicate. あまりきれいじゃありません (not very clean) is correct. ぜんぜん with an affirmative is wrong. とてもきれいくない misapplies い-adjective negation to a な-adjective."
-        },
-        {
-          "id": "totemo-sukoshi_q5",
-          "type": "usage",
-          "prompt": "Which sentence is grammatically correct?",
-          "japanese": null,
-          "choices": [
-            "全然[ぜんぜん]わかりません。",
-            "全然[ぜんぜん]わかります。",
-            "全然[ぜんぜん]上手[じょうず]です。",
-            "全然[ぜんぜん]好[す]きです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "全然[ぜんぜん] must be paired with a negative predicate. 全然[ぜんぜん]わかりません = I don't understand at all. Using 全然[ぜんぜん] with an affirmative predicate (わかります, 上手[じょうず]です, 好[す]きです) is a grammar error."
-        },
-        {
-          "id": "totemo-sukoshi_q6",
-          "type": "translation",
-          "prompt": "What does ちょっと待[ま]ってください mean?",
-          "japanese": "ちょっと待[ま]ってください。",
-          "choices": [
-            "Please wait for a long time.",
-            "Please wait a moment.",
-            "Please don't wait.",
-            "Please wait very slowly."
-          ],
-          "correctIndex": 1,
-          "explanation": "ちょっと here means 'a little' or 'just a moment,' softening the request. ちょっと待[ま]ってください = 'Please wait just a moment.' ちょっと functions as a softener in everyday conversation and is the casual equivalent of すこし."
-        },
-        {
-          "id": "totemo-sukoshi_q7",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank: この問題[もんだい]は___難[むずか]しいです。(This problem is quite/fairly difficult — more than a little, but not extreme.)",
-          "japanese": "この問題[もんだい]は___難[むずか]しいです。",
-          "choices": [
-            "すこし",
-            "あまり",
-            "かなり",
-            "ぜんぜん"
-          ],
-          "correctIndex": 2,
-          "explanation": "かなり means 'quite/fairly' — stronger than すこし (a little) but not as extreme as とても (very). It pairs with affirmative predicates. あまり and ぜんぜん require negative predicates, so they cannot be used here. かなり難[むずか]しいです = it is quite difficult."
-        },
-        {
-          "id": "totemo-sukoshi_q8",
-          "type": "construct",
-          "prompt": "Which adverb is the most casual/colloquial and often used as a softener in spoken Japanese?",
-          "japanese": null,
-          "choices": [
-            "とても",
-            "かなり",
-            "すこし",
-            "ちょっと"
-          ],
-          "correctIndex": 3,
-          "explanation": "ちょっと is the casual/colloquial equivalent of すこし. While すこし suits both speech and writing, ちょっと is primarily conversational. It also functions as a softener — ちょっと... (with a trailing pause) can politely soften a refusal in Japanese."
-        },
-        {
-          "id": "totemo-sukoshi_q9",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses a degree adverb with a verb?",
-          "japanese": null,
-          "choices": [
-            "全然[ぜんぜん]食[た]べません。",
-            "全然[ぜんぜん]食[た]べます。",
-            "あまり食[た]べます。",
-            "ぜんぜん食[た]べます。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Degree adverbs like ぜんぜん and あまり can modify verbs as well as adjectives, but they still require negative verb forms. 全然[ぜんぜん]食[た]べません = don't eat at all. Using ぜんぜん or あまり with affirmative verb forms (食[た]べます) is a grammar error."
-        },
-        {
-          "id": "totemo-sukoshi_q10",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'I don't go shopping very often'?",
-          "japanese": null,
-          "choices": [
-            "あまりよく買[か]い物[もの]に行[い]きます。",
-            "あまり買[か]い物[もの]に行[い]きません。",
-            "ぜんぜん買[か]い物[もの]に行[い]きます。",
-            "とてもよく買[か]い物[もの]に行[い]きません。"
-          ],
-          "correctIndex": 1,
-          "explanation": "あまり requires a negative predicate. あまり買[か]い物[もの]に行[い]きません = don't go shopping very often. Option A uses あまり with an affirmative verb (行[い]きます) — wrong. Option C uses ぜんぜん with an affirmative — wrong. Option D: とても pairs with affirmatives, not negatives."
-        },
-        {
-          "id": "totemo-sukoshi_q11",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'This tea is a little sweet': このお茶[ちゃ]は___あまいです。",
-          "japanese": "このお茶[ちゃ]は___あまいです。",
-          "choices": [
-            "ぜんぜん",
-            "あまり",
-            "すこし",
-            "かなり"
-          ],
-          "correctIndex": 2,
-          "explanation": "すこし = 'a little' and pairs with affirmative predicates. すこしあまいです = a little sweet. あまり and ぜんぜん require negative predicates and cannot be followed by an affirmative form. かなり = 'quite/fairly,' which is stronger than 'a little.'"
-        },
-        {
-          "id": "totemo-sukoshi_q12",
-          "type": "usage",
-          "prompt": "Which sentence is grammatically correct?",
-          "japanese": null,
-          "choices": [
-            "あの先生[せんせい]はぜんぜん親切[しんせつ]です。",
-            "ぜんぜん便利[べんり]な駅[えき]です。",
-            "この授業[じゅぎょう]はぜんぜんむずかしいです。",
-            "あの先生[せんせい]はぜんぜん親切[しんせつ]じゃありません。"
-          ],
-          "correctIndex": 3,
-          "explanation": "ぜんぜん must be used with a negative predicate. 親切[しんせつ] is a な-adjective; its negative is じゃありません. ぜんぜん親切[しんせつ]じゃありません = not at all kind. Choices A and C use ぜんぜん with affirmative predicates, which are grammar errors. Choice B is also wrong for the same reason."
-        },
-        {
-          "id": "totemo-sukoshi_q13",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'This restaurant is not very famous'?",
-          "japanese": null,
-          "choices": [
-            "このレストランはあまり有名[ゆうめい]じゃありません。",
-            "このレストランはすこし有名[ゆうめい]じゃありません。",
-            "このレストランはとても有名[ゆうめい]じゃありません。",
-            "このレストランはあまり有名[ゆうめい]です。"
-          ],
-          "correctIndex": 0,
-          "explanation": "あまり + negative = 'not very.' 有名[ゆうめい] is a な-adjective; its negative is じゃありません. あまり有名[ゆうめい]じゃありません = not very famous. Option C (とても + negative) is unnatural — とても pairs with affirmative predicates. Option D (あまり + affirmative) violates the あまり+negative rule."
-        },
-        {
-          "id": "totemo-sukoshi_q14",
-          "type": "construct",
-          "prompt": "Which sentence is the most natural way to say 'Wait a moment' in casual everyday conversation?",
-          "japanese": null,
-          "choices": [
-            "すこし待[ま]って。",
-            "ちょっと待[ま]って。",
-            "かなり待[ま]って。",
-            "ぜんぜん待[ま]って。"
-          ],
-          "correctIndex": 1,
-          "explanation": "ちょっと待[ま]って is the natural, casual way to say 'Wait a moment' in everyday speech. すこし is grammatically correct but sounds more formal in this context. かなり待[ま]って is unnatural (かなり describes a high degree, not a brief moment). ぜんぜん before an affirmative is wrong."
-        },
-        {
-          "id": "totemo-sukoshi_q15",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'My grandmother is quite healthy': 祖母[そぼ]は___元気[げんき]です。",
-          "japanese": "祖母[そぼ]は___元気[げんき]です。",
-          "choices": [
-            "あまり",
-            "ぜんぜん",
-            "かなり",
-            "あまりじゃ"
-          ],
-          "correctIndex": 2,
-          "explanation": "Degree adverbs go directly before the adjective/predicate. かなり = quite/fairly, used with affirmative predicates. かなり元気[げんき]です = quite healthy. あまり and ぜんぜん require negative predicates, so they do not fit an affirmative sentence. あまりじゃ is not a valid adverb form."
-        },
-        {
-          "id": "totemo-sukoshi_q16",
-          "type": "usage",
-          "prompt": "Which sentence uses a degree adverb correctly?",
-          "japanese": null,
-          "choices": [
-            "あのホテルはあまりきれいです。",
-            "この問題[もんだい]はぜんぜんむずかしいです。",
-            "すこしわかりません。",
-            "あのホテルはかなりきれいです。"
-          ],
-          "correctIndex": 3,
-          "explanation": "かなり = quite/fairly, used with affirmative predicates. かなりきれいです = quite clean/pretty. Choices A (あまり + affirmative きれいです) and B (ぜんぜん + affirmative むずかしいです) violate the negative-required rule for あまり and ぜんぜん. Choice C (すこし + negative) is atypical — すこし normally pairs with affirmative predicates."
-        },
-        {
-          "id": "totemo-sukoshi_q17",
-          "type": "translation",
-          "prompt": "Which sentence correctly means 'This restaurant is quite good'?",
-          "japanese": null,
-          "choices": [
-            "このレストランはかなりいいです。",
-            "このレストランはあまりいいです。",
-            "このレストランはぜんぜんいいです。",
-            "このレストランはすこしよくないです。"
-          ],
-          "correctIndex": 0,
-          "explanation": "かなり = 'quite/fairly' and pairs with affirmative predicates. かなりいいです = quite good. あまり and ぜんぜん require negative predicates, so あまりいいです and ぜんぜんいいです are grammar errors. Option D (すこしよくない) means 'not very good / a little bad' — the opposite meaning."
-        },
-        {
-          "id": "totemo-sukoshi_q18",
-          "type": "fillBlank",
-          "prompt": "Fill in the blank to say 'I don't sleep at all lately': 最近[さいきん]、___ねません。",
-          "japanese": "最近[さいきん]、___ねません。",
-          "choices": [
-            "とても",
-            "ぜんぜん",
-            "かなり",
-            "すこし"
-          ],
-          "correctIndex": 1,
-          "explanation": "ぜんぜん = 'not at all' and requires a negative predicate. ぜんぜんねません = don't sleep at all. とても and かなり pair with affirmative predicates. すこし before a negative is unusual — use あまり if you want 'not very/not much.'"
-        },
-        {
-          "id": "totemo-sukoshi_q19",
-          "type": "construct",
-          "prompt": "A student wrote: このえいがはとても面白[おもしろ]くないです。What is the issue with this sentence?",
-          "japanese": "このえいがはとても面白[おもしろ]くないです。",
-          "choices": [
-            "Nothing — the sentence is grammatically correct, with no exceptions in modern standard Japanese.",
-            "とても should be ちょっと.",
-            "とても does not naturally pair with a negative predicate; use あまり or ぜんぜん instead.",
-            "面白[おもしろ]くないです should be 面白[おもしろ]じゃありません."
-          ],
-          "correctIndex": 2,
-          "explanation": "とても is a positive intensifier and does not naturally combine with negative predicates. The correct adverb before 面白[おもしろ]くないです would be あまり (not very interesting) or ぜんぜん (not at all interesting). とても is reserved for affirmative predicates. Note: Option D is also wrong — 面白[おもしろ]い is an い-adjective, so its correct negative is 面白[おもしろ]くないです, not 面白[おもしろ]じゃありません."
-        },
-        {
-          "id": "totemo-sukoshi_q20",
-          "type": "usage",
-          "prompt": "Which sentence means 'Tanaka-san doesn't study very much'?",
-          "japanese": null,
-          "choices": [
-            "田中[たなか]さんはとても勉強[べんきょう]します。",
-            "田中[たなか]さんはすこし勉強[べんきょう]します。",
-            "田中[たなか]さんはぜんぜん勉強[べんきょう]します。",
-            "田中[たなか]さんはあまり勉強[べんきょう]しません。"
-          ],
-          "correctIndex": 3,
-          "explanation": "あまり = 'not very/not much' and pairs with a negative predicate. Degree adverbs modify verbs too, not just adjectives: あまり勉強[べんきょう]しません = doesn't study very much. ぜんぜん勉強[べんきょう]します is wrong (ぜんぜん requires a negative verb). とても勉強[べんきょう]します = studies very hard (opposite meaning). すこし勉強[べんきょう]します = studies a little."
-        }
-      ]
+     "japanese": "テストはよくなかったです。",
+     "romaji": "Tesuto wa yoku nakatta desu.",
+     "english": "The test didn't go well."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "い-adjectives",
+   "flashcardAnswer": "Adjectives that end in い and conjugate directly without です changes.",
+   "practice": [
     {
-      "id": "ch05_v01",
-      "partOfSpeech": "i-adjective",
-      "kanji": "大きい",
-      "kana": "おおきい",
-      "romaji": "ookii",
-      "definition": "big"
+     "id": "i-adjectives_q1",
+     "type": "construct",
+     "prompt": "Which is the correct negative form of 高[たか]い (expensive)?",
+     "japanese": null,
+     "choices": [
+      "高[たか]いじゃない",
+      "高[たか]くない",
+      "高[たか]なくない",
+      "高[こう]じゃない"
+     ],
+     "correctIndex": 1,
+     "explanation": "い-adjectives form their negative by dropping い and adding くない. So 高[たか]い → 高[たか]くない. Applying じゃない is a な-adjective pattern and does not work here."
     },
     {
-      "id": "ch05_v02",
-      "partOfSpeech": "i-adjective",
-      "kanji": "小さい",
-      "kana": "ちいさい",
-      "romaji": "chiisai",
-      "definition": "small"
+     "id": "i-adjectives_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank with the correct past form of 寒[さむ]い: 昨日[きのう]は___ですね。",
+     "japanese": "昨日[きのう]は___ですね。",
+     "choices": [
+      "寒[さむ]かった",
+      "寒[さむ]くない",
+      "寒[さむ]でした",
+      "寒[さむ]いでした"
+     ],
+     "correctIndex": 0,
+     "explanation": "Past affirmative of い-adjectives: drop い and add かった. So 寒[さむ]い → 寒[さむ]かった. い-adjectives never attach でした directly to their base form."
     },
     {
-      "id": "ch05_v03",
-      "partOfSpeech": "i-adjective",
-      "kanji": "新しい",
-      "kana": "あたらしい",
-      "romaji": "atarashii",
-      "definition": "new"
+     "id": "i-adjectives_q3",
+     "type": "construct",
+     "prompt": "What is the correct past negative form of いい (good)?",
+     "japanese": null,
+     "choices": [
+      "いくなかった",
+      "よくなかった",
+      "いいじゃなかった",
+      "よいじゃなかった"
+     ],
+     "correctIndex": 1,
+     "explanation": "いい is irregular: when conjugating, it shifts to よ. So the past negative is よくなかった. Treating いい as regular and producing いくなかった is a common mistake."
     },
     {
-      "id": "ch05_v04",
-      "partOfSpeech": "i-adjective",
-      "kanji": "古い",
-      "kana": "ふるい",
-      "romaji": "furui",
-      "definition": "old (of things)"
+     "id": "i-adjectives_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses an い-adjective in the past negative?",
+     "japanese": null,
+     "choices": [
+      "この映画[えいが]はおもしろいなかったです。",
+      "この映画[えいが]はおもしろなかったです。",
+      "この映画[えいが]はおもしろくなかったです。",
+      "この映画[えいが]はおもしろいじゃありませんでした。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Past negative of い-adjectives: drop い and add くなかった. おもしろい → おもしろくなかった. The other options apply な-adjective conjugation or forget to drop い before adding the suffix."
     },
     {
-      "id": "ch05_v05",
-      "partOfSpeech": "i-adjective",
-      "kanji": "高い",
-      "kana": "たかい",
-      "romaji": "takai",
-      "definition": "high; tall; expensive"
+     "id": "i-adjectives_q5",
+     "type": "translation",
+     "prompt": "Which sentence correctly translates 'This bag is very expensive'?",
+     "japanese": null,
+     "choices": [
+      "このかばんはとても高[たか]いです。",
+      "このかばんはとても高[たか]くないです。",
+      "このかばんはとても高[たか]いじゃないです。",
+      "このかばんはとても高[たか]かったです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Present affirmative of an い-adjective is simply the dictionary form + です. とても高[たか]いです = is very expensive. The other options are negative or past forms."
     },
     {
-      "id": "ch05_v06",
-      "partOfSpeech": "i-adjective",
-      "kanji": "低い",
-      "kana": "ひくい",
-      "romaji": "hikui",
-      "definition": "low"
+     "id": "i-adjectives_q6",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'It was not cold yesterday'?",
+     "japanese": null,
+     "choices": [
+      "昨日[きのう]は寒[さむ]でなかったです。",
+      "昨日[きのう]は寒[さむ]くなかったじゃないです。",
+      "昨日[きのう]は寒[さむ]くなかったです。",
+      "昨日[きのう]は寒[さむ]くないでした。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Past negative of い-adjectives: drop い and add くなかった. 寒[さむ]い → 寒[さむ]くなかった. The form くないでした is incorrect — the past negative is the single suffix くなかった, not くない + でした."
     },
     {
-      "id": "ch05_v07",
-      "partOfSpeech": "i-adjective",
-      "kanji": "安い",
-      "kana": "やすい",
-      "romaji": "yasui",
-      "definition": "cheap"
+     "id": "i-adjectives_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'That movie was interesting': あの映画[えいが]はおもしろ___です。",
+     "japanese": "あの映画[えいが]はおもしろ___です。",
+     "choices": [
+      "かくない",
+      "かった",
+      "くなかった",
+      "いでした"
+     ],
+     "correctIndex": 1,
+     "explanation": "Past affirmative of い-adjectives: drop い and add かった. おもしろい → おもしろかった. い-adjectives never attach でした directly; the past suffix is かった, followed by です for politeness."
     },
     {
-      "id": "ch05_v08",
-      "partOfSpeech": "i-adjective",
-      "kanji": "良い",
-      "kana": "いい",
-      "romaji": "ii",
-      "definition": "good"
+     "id": "i-adjectives_q8",
+     "type": "construct",
+     "prompt": "Which is the correct present negative of 新[あたら]しい (new)?",
+     "japanese": null,
+     "choices": [
+      "新[あたら]しくない",
+      "新[あたら]しじゃない",
+      "新[あたら]しいくない",
+      "新[あたら]しなくない"
+     ],
+     "correctIndex": 0,
+     "explanation": "Present negative of い-adjectives: drop い and add くない. 新[あたら]しい → 新[あたら]しくない. Using じゃない is the な-adjective pattern. Keeping い before adding くない is also wrong — you must drop it first."
     },
     {
-      "id": "ch05_v09",
-      "partOfSpeech": "i-adjective",
-      "kanji": "悪い",
-      "kana": "わるい",
-      "romaji": "warui",
-      "definition": "bad"
+     "id": "i-adjectives_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses an い-adjective directly before a noun?",
+     "japanese": null,
+     "choices": [
+      "古[こ]なビルを見[み]ました。",
+      "古[ふる]いなビルを見[み]ました。",
+      "古[こ]のビルを見[み]ました。",
+      "古[ふる]いビルを見[み]ました。"
+     ],
+     "correctIndex": 3,
+     "explanation": "い-adjectives go directly before the noun with no extra connector. 古[ふる]いビル (old building) is correct. Adding な, の, or using the bare stem without い before a noun are all errors."
     },
     {
-      "id": "ch05_v10",
-      "partOfSpeech": "i-adjective",
-      "kanji": "暑い",
-      "kana": "あつい",
-      "romaji": "atsui",
-      "definition": "hot (weather)"
+     "id": "i-adjectives_q10",
+     "type": "construct",
+     "prompt": "Which sentence is correctly formed using かわいい (cute)?",
+     "japanese": null,
+     "choices": [
+      "このねこはかわいいだです。",
+      "このねこはかわいいです。",
+      "このねこはかわいだです。",
+      "このねこはかわいくだです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "い-adjectives attach directly to です — no だ in between. かわいい + です = かわいいです. Inserting だ before です is a common mistake that only applies to nouns and な-adjectives, never to い-adjectives."
     },
     {
-      "id": "ch05_v11",
-      "partOfSpeech": "i-adjective",
-      "kanji": "寒い",
-      "kana": "さむい",
-      "romaji": "samui",
-      "definition": "cold (weather)"
+     "id": "i-adjectives_q11",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'This soup was not delicious'?",
+     "japanese": null,
+     "choices": [
+      "このスープはおいしくないでした。",
+      "このスープはおいしいじゃなかったです。",
+      "このスープはおいしくなかったです。",
+      "このスープはおいしでなかったです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "Past negative of い-adjectives: drop い and add くなかった. おいしい → おいしくなかった. The form くないでした is incorrect — past negative is the single suffix くなかった. Option B applies な-adjective negation incorrectly."
     },
     {
-      "id": "ch05_v12",
-      "partOfSpeech": "i-adjective",
-      "kanji": "冷たい",
-      "kana": "つめたい",
-      "romaji": "tsumetai",
-      "definition": "cold (to the touch)"
+     "id": "i-adjectives_q12",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'That temple was old': あのお寺[てら]は___です。",
+     "japanese": "あのお寺[てら]は___です。",
+     "choices": [
+      "古[ふる]かった",
+      "古[ふる]い",
+      "古[ふる]くない",
+      "古[ふる]くなかった"
+     ],
+     "correctIndex": 0,
+     "explanation": "Past affirmative of い-adjectives: drop い and add かった. 古[ふる]い → 古[ふる]かった. When followed by です, the full polite past form is 古[ふる]かったです."
     },
     {
-      "id": "ch05_v13",
-      "partOfSpeech": "i-adjective",
-      "kanji": "難しい",
-      "kana": "むずかしい",
-      "romaji": "muzukashii",
-      "definition": "difficult"
+     "id": "i-adjectives_q13",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses the irregular adjective いい in the past affirmative?",
+     "japanese": null,
+     "choices": [
+      "天気[てんき]はいかったです。",
+      "天気[てんき]はいいかったです。",
+      "天気[てんき]はよいかったです。",
+      "天気[てんき]はよかったです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "いい is irregular: the stem changes to よ before all conjugations. Past affirmative: よかった. The forms いかった and いいかった do not exist. よいかった is also wrong — the stem is よ, and the suffix かった replaces い directly."
     },
     {
-      "id": "ch05_v14",
-      "partOfSpeech": "i-adjective",
-      "kanji": "易しい",
-      "kana": "やさしい",
-      "romaji": "yasashii",
-      "definition": "easy"
+     "id": "i-adjectives_q14",
+     "type": "construct",
+     "prompt": "Which is the correct past affirmative form of 難[むずか]しい (difficult)?",
+     "japanese": null,
+     "choices": [
+      "難[むずか]しでした",
+      "難[むずか]しかった",
+      "難[むずか]しいかった",
+      "難[むずか]しくった"
+     ],
+     "correctIndex": 1,
+     "explanation": "Past affirmative of い-adjectives: drop い and add かった. 難[むずか]しい → 難[むずか]しかった. Never attach でした directly to the base form, and never leave い before adding かった."
     },
     {
-      "id": "ch05_v15",
-      "partOfSpeech": "i-adjective",
-      "kanji": "楽しい",
-      "kana": "たのしい",
-      "romaji": "tanoshii",
-      "definition": "fun; enjoyable"
+     "id": "i-adjectives_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'This book is not interesting': この本[ほん]はおもしろ___。",
+     "japanese": "この本[ほん]はおもしろ___。",
+     "choices": [
+      "くないです",
+      "じゃないです",
+      "いじゃないです",
+      "くないでした"
+     ],
+     "correctIndex": 0,
+     "explanation": "Present negative of い-adjectives: drop い and add くない(です). おもしろい → おもしろくないです. Using じゃないです is the な-adjective negative pattern and cannot be used with い-adjectives."
     },
     {
-      "id": "ch05_v16",
-      "partOfSpeech": "i-adjective",
-      "kanji": "面白い",
-      "kana": "おもしろい",
-      "romaji": "omoshiroi",
-      "definition": "interesting; funny"
+     "id": "i-adjectives_q16",
+     "type": "usage",
+     "prompt": "Which pair uses 安[やす]い (cheap) correctly in both prenominal and predicate positions?",
+     "japanese": null,
+     "choices": [
+      "安[やす]の店[みせ] / このお店[みせ]は安[やす]いです",
+      "安[やす]な店[みせ] / このお店[みせ]は安[やす]いです",
+      "安[やす]い店[みせ] / このお店[みせ]は安[やす]いです",
+      "安[やす]い店[みせ] / このお店[みせ]は安[やす]だです"
+     ],
+     "correctIndex": 2,
+     "explanation": "い-adjectives work identically in both positions: go directly before the noun (安[やす]い店[みせ]) and attach to です in predicate position (安[やす]いです). No extra connector is needed in either case. Adding だ before です is a common error."
     },
     {
-      "id": "ch05_v17",
-      "partOfSpeech": "i-adjective",
-      "kanji": "つまらない",
-      "kana": "つまらない",
-      "romaji": "tsumaranai",
-      "definition": "boring"
+     "id": "i-adjectives_q17",
+     "type": "translation",
+     "prompt": "Which sentence means 'The test was not difficult'?",
+     "japanese": null,
+     "choices": [
+      "テストは難[むずか]しくないです。",
+      "テストは難[むずか]しじゃなかったです。",
+      "テストは難[むずか]しいじゃありませんでした。",
+      "テストは難[むずか]しくなかったです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "Past negative: drop い and add くなかった. 難[むずか]しい → 難[むずか]しくなかった. Option A is present negative (not past). Options B and C apply な-adjective negation patterns incorrectly to an い-adjective."
     },
     {
-      "id": "ch05_v18",
-      "partOfSpeech": "i-adjective",
-      "kanji": "忙しい",
-      "kana": "いそがしい",
-      "romaji": "isogashii",
-      "definition": "busy"
+     "id": "i-adjectives_q18",
+     "type": "construct",
+     "prompt": "Which is the correct past negative form of いい (good)?",
+     "japanese": null,
+     "choices": [
+      "よくなかった",
+      "いくなかった",
+      "いいじゃなかった",
+      "よいじゃありませんでした"
+     ],
+     "correctIndex": 0,
+     "explanation": "いい is irregular: the stem changes to よ before all suffixes. Past negative: よ + くなかった = よくなかった. いくなかった ignores the stem change; いいじゃなかった applies な-adjective negation. Always remember: when conjugating いい, the base becomes よ."
     },
     {
-      "id": "ch05_v19",
-      "partOfSpeech": "i-adjective",
-      "kanji": "早い",
-      "kana": "はやい",
-      "romaji": "hayai",
-      "definition": "early; fast"
+     "id": "i-adjectives_q19",
+     "type": "usage",
+     "prompt": "A student wrote: このへやは暑[あつ]いだです。What is the error?",
+     "japanese": "このへやは暑[あつ]いだです。",
+     "choices": [
+      "The adjective stem is wrong — it should be 暑[しょ] without い",
+      "だ cannot be inserted between an い-adjective and です",
+      "The topic particle は should be が in this sentence",
+      "暑[あつ]い should be 暑[あつ]かった to describe the room as hot"
+     ],
+     "correctIndex": 1,
+     "explanation": "い-adjectives attach directly to です with no だ in between: 暑[あつ]いです (not 暑[あつ]いだです). Adding だ is a common mistake borrowed from noun and な-adjective patterns, where だ is used. For い-adjectives, it is always adj + です, never adj + だ + です."
     },
     {
-      "id": "ch05_v20",
-      "partOfSpeech": "i-adjective",
-      "kanji": "遅い",
-      "kana": "おそい",
-      "romaji": "osoi",
-      "definition": "late; slow"
-    },
-    {
-      "id": "ch05_v21",
-      "partOfSpeech": "i-adjective",
-      "kanji": "長い",
-      "kana": "ながい",
-      "romaji": "nagai",
-      "definition": "long"
-    },
-    {
-      "id": "ch05_v22",
-      "partOfSpeech": "i-adjective",
-      "kanji": "短い",
-      "kana": "みじかい",
-      "romaji": "mijikai",
-      "definition": "short"
-    },
-    {
-      "id": "ch05_v23",
-      "partOfSpeech": "i-adjective",
-      "kanji": "明るい",
-      "kana": "あかるい",
-      "romaji": "akarui",
-      "definition": "bright; cheerful"
-    },
-    {
-      "id": "ch05_v24",
-      "partOfSpeech": "i-adjective",
-      "kanji": "暗い",
-      "kana": "くらい",
-      "romaji": "kurai",
-      "definition": "dark"
-    },
-    {
-      "id": "ch05_v25",
-      "partOfSpeech": "i-adjective",
-      "kanji": "重い",
-      "kana": "おもい",
-      "romaji": "omoi",
-      "definition": "heavy"
-    },
-    {
-      "id": "ch05_v26",
-      "partOfSpeech": "i-adjective",
-      "kanji": "軽い",
-      "kana": "かるい",
-      "romaji": "karui",
-      "definition": "light (in weight)"
-    },
-    {
-      "id": "ch05_v27",
-      "partOfSpeech": "i-adjective",
-      "kanji": "強い",
-      "kana": "つよい",
-      "romaji": "tsuyoi",
-      "definition": "strong"
-    },
-    {
-      "id": "ch05_v28",
-      "partOfSpeech": "i-adjective",
-      "kanji": "弱い",
-      "kana": "よわい",
-      "romaji": "yowai",
-      "definition": "weak"
-    },
-    {
-      "id": "ch05_v29",
-      "partOfSpeech": "i-adjective",
-      "kanji": "おいしい",
-      "kana": "おいしい",
-      "romaji": "oishii",
-      "definition": "delicious"
-    },
-    {
-      "id": "ch05_v30",
-      "partOfSpeech": "i-adjective",
-      "kanji": "かわいい",
-      "kana": "かわいい",
-      "romaji": "kawaii",
-      "definition": "cute"
-    },
-    {
-      "id": "ch05_v31",
-      "partOfSpeech": "na-adjective",
-      "kanji": "きれい",
-      "kana": "きれい",
-      "romaji": "kirei",
-      "definition": "pretty; clean"
-    },
-    {
-      "id": "ch05_v32",
-      "partOfSpeech": "na-adjective",
-      "kanji": "有名",
-      "kana": "ゆうめい",
-      "romaji": "yuumei",
-      "definition": "famous"
-    },
-    {
-      "id": "ch05_v33",
-      "partOfSpeech": "na-adjective",
-      "kanji": "元気",
-      "kana": "げんき",
-      "romaji": "genki",
-      "definition": "healthy; energetic"
-    },
-    {
-      "id": "ch05_v34",
-      "partOfSpeech": "na-adjective",
-      "kanji": "静か",
-      "kana": "しずか",
-      "romaji": "shizuka",
-      "definition": "quiet"
-    },
-    {
-      "id": "ch05_v35",
-      "partOfSpeech": "na-adjective",
-      "kanji": "にぎやか",
-      "kana": "にぎやか",
-      "romaji": "nigiyaka",
-      "definition": "lively; bustling"
-    },
-    {
-      "id": "ch05_v36",
-      "partOfSpeech": "na-adjective",
-      "kanji": "便利",
-      "kana": "べんり",
-      "romaji": "benri",
-      "definition": "convenient"
-    },
-    {
-      "id": "ch05_v37",
-      "partOfSpeech": "na-adjective",
-      "kanji": "大切",
-      "kana": "たいせつ",
-      "romaji": "taisetsu",
-      "definition": "important; precious"
-    },
-    {
-      "id": "ch05_v38",
-      "partOfSpeech": "na-adjective",
-      "kanji": "好き",
-      "kana": "すき",
-      "romaji": "suki",
-      "definition": "liked; fond of"
-    },
-    {
-      "id": "ch05_v39",
-      "partOfSpeech": "na-adjective",
-      "kanji": "嫌い",
-      "kana": "きらい",
-      "romaji": "kirai",
-      "definition": "disliked"
-    },
-    {
-      "id": "ch05_v40",
-      "partOfSpeech": "na-adjective",
-      "kanji": "上手",
-      "kana": "じょうず",
-      "romaji": "jouzu",
-      "definition": "skillful; good at"
+     "id": "i-adjectives_q20",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'Last summer was hot': 去年[きょねん]の夏[なつ]はあつ___です。",
+     "japanese": "去年[きょねん]の夏[なつ]はあつ___です。",
+     "choices": [
+      "い",
+      "くない",
+      "かった",
+      "くなかった"
+     ],
+     "correctIndex": 2,
+     "explanation": "Past affirmative of い-adjectives: drop い and add かった. 暑[あつ]い → 暑[あつ]かった. The full polite sentence is 去年[きょねん]の夏[なつ]は暑[あつ]かったです (Last summer was hot)."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "na-adjectives",
+   "name": "な-adjectives",
+   "shortDescription": "Adjectives that stay unchanged and borrow です for all their conjugation — with な required before any noun.",
+   "formation": "な-adj + な + Noun  |  な-adj + です / じゃありません / でした",
+   "explanation": "The second type of Japanese adjective is the な-adjective. Unlike い-adjectives, which do their own conjugating, な-adjectives outsource the job entirely to です — they keep their base form while です handles all the tense and negation work. Common な-adjectives include: きれい (pretty/clean), 好[す]き (like), 嫌[きら]い (dislike), 上手[じょうず] (skilled), 下手[へた] (unskilled), 有名[ゆうめい] (famous), 静[しず]か (quiet), 賑[にぎ]やか (lively), 便利[べんり] (convenient), and 大切[たいせつ] (important).\n\nTo negate: use じゃありません. For past: use でした. For past negative: use じゃありませんでした — exactly the same conjugation pattern as です itself.\n\nOne critical rule: when a な-adjective directly modifies a noun, you must insert な between the adjective and the noun. きれいな花[はな] (a pretty flower), 有名[ゆうめい]な人[ひと] (a famous person). Forgetting that な is one of the most common early mistakes — always add it. And watch out: きれい looks like it ends in い, but it is definitely a な-adjective, not an い-adjective.",
+   "rules": [
+    "な-adjectives do NOT end in い (or they are exceptions like きれい, 嫌[きら]い)",
+    "Before a noun: な-adj + な + Noun (e.g., きれいな花[はな])",
+    "In a predicate: な-adj + です/じゃありません/でした (conjugate like です)",
+    "Common ones: きれい, 好[す]き, 有名[ゆうめい], 静[しず]か, 便利[べんり], 大切[たいせつ], 上手[じょうず], 下手[へた]"
+   ],
+   "examples": [
     {
-      "char": "大",
-      "word": "大きい",
-      "reading": "おおきい",
-      "meaning": "big"
+     "japanese": "この花[はな]はきれいです。",
+     "romaji": "Kono hana wa kirei desu.",
+     "english": "This flower is pretty."
     },
     {
-      "char": "長",
-      "word": "長い",
-      "reading": "ながい",
-      "meaning": "long"
+     "japanese": "ここは静[しず]かな図書館[としょかん]です。",
+     "romaji": "Koko wa shizuka na toshokan desu.",
+     "english": "This is a quiet library."
     },
     {
-      "char": "上",
-      "word": "上",
-      "reading": "うえ",
-      "meaning": "above"
+     "japanese": "田中[たなか]さんは料理[りょうり]が上手[じょうず]です。",
+     "romaji": "Tanaka-san wa ryouri ga jouzu desu.",
+     "english": "Tanaka-san is good at cooking."
     },
     {
-      "char": "高",
-      "word": "高い",
-      "reading": "たかい",
-      "meaning": "high; tall; expensive"
-    },
-    {
-      "char": "円",
-      "word": "円",
-      "reading": "えん",
-      "meaning": "yen (Japanese monetary unit)"
-    },
-    {
-      "char": "小",
-      "word": "小さい",
-      "reading": "ちいさい",
-      "meaning": "small"
+     "japanese": "東京[とうきょう]は便利[べんり]な都市[とし]ですね。",
+     "romaji": "Toukyou wa benri na toshi desu ne.",
+     "english": "Tokyo is a convenient city, isn't it?"
     }
-  ]
+   ],
+   "flashcardHeader": "な-adjectives",
+   "flashcardAnswer": "Adjectives that require な before a noun and use です for conjugation.",
+   "practice": [
+    {
+     "id": "na-adjectives_q1",
+     "type": "construct",
+     "prompt": "Which phrase correctly means 'a quiet library'?",
+     "japanese": null,
+     "choices": [
+      "静[しず]かい図書館[としょかん]",
+      "静[しず]かの図書館[としょかん]",
+      "静[しず]か図書館[としょかん]",
+      "静[しず]かな図書館[としょかん]"
+     ],
+     "correctIndex": 3,
+     "explanation": "な-adjectives require な when placed before a noun. 静[しず]か is a な-adjective, so 静[しず]かな図書館[としょかん] is correct. Omitting な or substituting の or い are all errors."
+    },
+    {
+     "id": "na-adjectives_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'This room is not clean': このへやはきれい___。",
+     "japanese": "このへやはきれい___。",
+     "choices": [
+      "くない",
+      "なくない",
+      "じゃありません",
+      "くありません"
+     ],
+     "correctIndex": 2,
+     "explanation": "きれい is a な-adjective, so its negative is じゃありません (or ではありません). な-adjectives never use くない — that pattern is for い-adjectives only."
+    },
+    {
+     "id": "na-adjectives_q3",
+     "type": "translation",
+     "prompt": "Which sentence means 'Tokyo was a convenient city'?",
+     "japanese": null,
+     "choices": [
+      "東京[とうきょう]は便利[べんり]かった都市[とし]です。",
+      "東京[とうきょう]は便利[べんり]い都市[とし]でした。",
+      "東京[とうきょう]は便利[べんり]な都市[とし]でした。",
+      "東京[とうきょう]は便利[べんり]でした都市[とし]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "な-adjective past tense: adjective stays unchanged; です becomes でした. So 便利[べんり] + でした = 便利[べんり]でした. Options using かった or い incorrectly apply い-adjective rules."
+    },
+    {
+     "id": "na-adjectives_q4",
+     "type": "usage",
+     "prompt": "Which sentence uses 有名[ゆうめい] (famous) correctly before a noun?",
+     "japanese": null,
+     "choices": [
+      "有名[ゆうめい]な映画[えいが]を見[み]ました。",
+      "有名[ゆうめい]の映画[えいが]を見[み]ました。",
+      "有名[ゆうめい]い映画[えいが]を見[み]ました。",
+      "有名[ゆうめい]映画[えいが]を見[み]ました。"
+     ],
+     "correctIndex": 0,
+     "explanation": "有名[ゆうめい] is a な-adjective and needs な before any noun it modifies. 有名[ゆうめい]な映画[えいが] (a famous movie) is correct. Using い, の, or nothing between them are all errors."
+    },
+    {
+     "id": "na-adjectives_q5",
+     "type": "construct",
+     "prompt": "Which adjective in this list is a な-adjective (not an い-adjective)?",
+     "japanese": null,
+     "choices": [
+      "新[あたら]しい",
+      "おいしい",
+      "高[たか]い",
+      "きれい"
+     ],
+     "correctIndex": 3,
+     "explanation": "きれい looks like it ends in い, but it is a な-adjective — not an exception to い-adjective rules. All the others (おいしい, 高[たか]い, 新[あたら]しい) are genuine い-adjectives. This distinction must be memorized."
+    },
+    {
+     "id": "na-adjectives_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank with the polite past negative of 静[しず]か: このへやは静[しず]か___。",
+     "japanese": "このへやは静[しず]か___。",
+     "choices": [
+      "でした",
+      "でなかった",
+      "くありませんでした",
+      "じゃありませんでした"
+     ],
+     "correctIndex": 3,
+     "explanation": "な-adjective polite past negative: stem + じゃありませんでした. 静[しず]か → 静[しず]かじゃありませんでした. くありませんでした is the い-adjective polite negative pattern and cannot be used here."
+    },
+    {
+     "id": "na-adjectives_q7",
+     "type": "construct",
+     "prompt": "Which phrase correctly means 'a kind person'?",
+     "japanese": null,
+     "choices": [
+      "親切[しんせつ]な人[ひと]",
+      "親切[しんせつ]い人[ひと]",
+      "親切[しんせつ]の人[ひと]",
+      "親切[しんせつ]人[ひと]"
+     ],
+     "correctIndex": 0,
+     "explanation": "親切[しんせつ] (kind) is a な-adjective. Before a noun it requires な: 親切[しんせつ]な人[ひと]. Using い, の, or nothing between the adjective and noun is incorrect for な-adjectives."
+    },
+    {
+     "id": "na-adjectives_q8",
+     "type": "translation",
+     "prompt": "Which sentence means 'This park is not clean'?",
+     "japanese": null,
+     "choices": [
+      "このこうえんはきれいくないです。",
+      "このこうえんはきれいじゃありません。",
+      "このこうえんはきれいくありません。",
+      "このこうえんはきれいではでした。"
+     ],
+     "correctIndex": 1,
+     "explanation": "きれい is a な-adjective. Its negative is じゃありません (or ではありません). くない and くありません are い-adjective negative patterns and cannot be used with な-adjectives."
+    },
+    {
+     "id": "na-adjectives_q9",
+     "type": "usage",
+     "prompt": "Which phrase correctly uses 暇[ひま] (free/not busy) before a noun?",
+     "japanese": null,
+     "choices": [
+      "暇[ひま]い日[ひ]",
+      "暇[ひま]の日[ひ]",
+      "暇[ひま]な日[ひ]",
+      "暇[ひま]く日[ひ]"
+     ],
+     "correctIndex": 2,
+     "explanation": "暇[ひま] is a な-adjective and requires な before a noun: 暇[ひま]な日[ひ] (a free day). Adding い or く treats it like an い-adjective, which is wrong. の is also incorrect — の is used for nouns, not adjectives, when modifying another noun."
+    },
+    {
+     "id": "na-adjectives_q10",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank with the correct な-adjective: 田中[たなか]さんはとても___な人[ひと]です。(Tanaka-san is a very kind person.)",
+     "japanese": "田中[たなか]さんはとても___な人[ひと]です。",
+     "choices": [
+      "高[たか]い",
+      "大[おお]きい",
+      "古[ふる]い",
+      "親切[しんせつ]"
+     ],
+     "correctIndex": 3,
+     "explanation": "親切[しんせつ] (kind) is the only な-adjective in the list — it correctly uses な before 人[ひと]. The others (高[たか]い, 大[おお]きい, 古[ふる]い) are all い-adjectives that would not use な before a noun."
+    },
+    {
+     "id": "na-adjectives_q11",
+     "type": "construct",
+     "prompt": "Which is the correct polite past negative of 便利[べんり] (convenient)?",
+     "japanese": null,
+     "choices": [
+      "便利[べんり]じゃありませんでした",
+      "便利[べんり]くなかったです",
+      "便利[べんり]でなかったです",
+      "便利[べんり]ではいません"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adjective polite past negative: stem + じゃありませんでした. 便利[べんり] → 便利[べんり]じゃありませんでした. くなかった is the い-adjective past negative pattern and cannot be applied here."
+    },
+    {
+     "id": "na-adjectives_q12",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses にぎやか (lively) in the present negative?",
+     "japanese": null,
+     "choices": [
+      "東京[とうきょう]はにぎやかくないです。",
+      "東京[とうきょう]はにぎやかじゃないです。",
+      "東京[とうきょう]はにぎやかないです。",
+      "東京[とうきょう]はにぎやかくありません。"
+     ],
+     "correctIndex": 1,
+     "explanation": "にぎやか is a な-adjective, so its negative is じゃない(です) or じゃありません. にぎやかじゃないです is correct. くない and くありません are い-adjective patterns."
+    },
+    {
+     "id": "na-adjectives_q13",
+     "type": "translation",
+     "prompt": "Which sentence correctly says 'My teacher is kind'?",
+     "japanese": null,
+     "choices": [
+      "先生[せんせい]は親切[しんせつ]いです。",
+      "先生[せんせい]は親切[しんせつ]のです。",
+      "先生[せんせい]は親切[しんせつ]です。",
+      "先生[せんせい]は親切[しんせつ]なです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "な-adjectives in predicate position (at the end of a sentence) attach directly to です — no な needed. 親切[しんせつ]です is correct. な is only added when the adjective precedes a noun. Adding い, の, or な before です is wrong."
+    },
+    {
+     "id": "na-adjectives_q14",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: それは___本[ほん]です。(That is a famous book.)",
+     "japanese": "それは___本[ほん]です。",
+     "choices": [
+      "有名[ゆうめい]の",
+      "有名[ゆうめい]",
+      "有名[ゆうめい]い",
+      "有名[ゆうめい]な"
+     ],
+     "correctIndex": 3,
+     "explanation": "有名[ゆうめい] is a な-adjective and requires な when placed before a noun: 有名[ゆうめい]な本[ほん] (famous book). Omitting な or substituting の or い is incorrect."
+    },
+    {
+     "id": "na-adjectives_q15",
+     "type": "construct",
+     "prompt": "Which is the correct casual past negative of きれい (pretty/clean)?",
+     "japanese": null,
+     "choices": [
+      "きれいじゃなかった",
+      "きれいくなかった",
+      "きれいなかった",
+      "きれいでなかった"
+     ],
+     "correctIndex": 0,
+     "explanation": "Casual past negative of な-adjectives: stem + じゃなかった. きれいじゃなかった is correct. くなかった is the い-adjective past negative pattern. Remember that きれい, despite looking like it ends in い, is a な-adjective."
+    },
+    {
+     "id": "na-adjectives_q16",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses 静[しず]か (quiet) as a predicate adjective?",
+     "japanese": null,
+     "choices": [
+      "この図書館[としょかん]は静[しず]かいです。",
+      "この図書館[としょかん]は静[しず]かです。",
+      "この図書館[としょかん]は静[しず]かなです。",
+      "この図書館[としょかん]は静[しず]かのです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "な-adjectives in predicate position attach the stem directly to です: 静[しず]かです. There is no い, な, or の between the stem and です when used at the end of a sentence. な only appears when the adjective modifies a noun."
+    },
+    {
+     "id": "na-adjectives_q17",
+     "type": "translation",
+     "prompt": "Which sentence correctly asks 'Was that restaurant famous?'",
+     "japanese": null,
+     "choices": [
+      "あのレストランは有名[ゆうめい]かったですか。",
+      "あのレストランは有名[ゆうめい]いでしたか。",
+      "あのレストランは有名[ゆうめい]でしたか。",
+      "あのレストランは有名[ゆうめい]だったしたか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "な-adjective past affirmative: stem + でした. 有名[ゆうめい]でした is correct. Adding か makes it a question: 有名[ゆうめい]でしたか. Using かった or い incorrectly applies い-adjective rules."
+    },
+    {
+     "id": "na-adjectives_q18",
+     "type": "construct",
+     "prompt": "Which sentence correctly uses きれい before a noun?",
+     "japanese": null,
+     "choices": [
+      "きれいいカフェです。",
+      "きれいのカフェです。",
+      "きれいカフェです。",
+      "きれいなカフェです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "きれい is a な-adjective — despite looking like it ends in い, it is not an い-adjective. It requires な before a noun: きれいなカフェ (a pretty café). This is one of the most important exceptions to memorize."
+    },
+    {
+     "id": "na-adjectives_q19",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'This bus is not very convenient': このバスはあまり___。",
+     "japanese": "このバスはあまり___。",
+     "choices": [
+      "便利[べんり]じゃありません",
+      "便利[べんり]くありません",
+      "便利[べんり]くないです",
+      "便利[べんり]だじゃありません"
+     ],
+     "correctIndex": 0,
+     "explanation": "便利[べんり] is a な-adjective. Its negative is じゃありません: 便利[べんり]じゃありません (not convenient). くありません is the polite negative of い-adjectives and cannot be applied to な-adjectives."
+    },
+    {
+     "id": "na-adjectives_q20",
+     "type": "usage",
+     "prompt": "Which sentence correctly says 'Tanaka-san was not free yesterday'?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんは昨日[きのう]暇[ひま]くなかったです。",
+      "田中[たなか]さんは昨日[きのう]暇[ひま]じゃありませんでした。",
+      "田中[たなか]さんは昨日[きのう]暇[ひま]いじゃなかったです。",
+      "田中[たなか]さんは昨日[きのう]暇[ひま]でしたじゃない。"
+     ],
+     "correctIndex": 1,
+     "explanation": "暇[ひま] is a な-adjective. Past negative polite form: stem + じゃありませんでした. 暇[ひま]じゃありませんでした is correct. くなかった is the い-adjective past negative pattern. Options C and D are malformed."
+    }
+   ]
+  },
+  {
+   "id": "adj-noun",
+   "name": "Adjective + Noun (modifying nouns)",
+   "shortDescription": "Placing adjectives directly before nouns to describe them.",
+   "formation": "い-adj + Noun  |  な-adj + な + Noun",
+   "explanation": "Putting adjectives in front of nouns is wonderfully direct in Japanese — they go right before the noun, just as in English. The difference is how the two adjective types attach. い-adjectives slide directly in front of the noun with no extra word needed: 大[おお]きい犬[いぬ] (a big dog), 古[ふる]い本[ほん] (an old book), おいしいケーキ (a delicious cake).\n\nな-adjectives need な inserted as a bridge between the adjective and the noun: きれいな人[ひと] (a pretty person), 有名[ゆうめい]な先生[せんせい] (a famous teacher), 静[しず]かな部屋[へや] (a quiet room). Forgetting the な is the single most common adjective mistake at this stage — if you see a な-adjective sitting next to a noun with nothing between them, something has gone wrong.\n\nIn predicate position — at the end of a sentence — neither type needs an extra connector: 大[おお]きいです and きれいです both work fine as-is.",
+   "rules": [
+    "い-adjective directly before noun: 大[おお]きい犬[いぬ] (big dog) — no extra word needed",
+    "な-adjective before noun: きれいな花[はな] (pretty flower) — must include な",
+    "Predicate position (end of sentence): no extra word for either type",
+    "Multiple adjectives: each adjective modifies the noun in sequence"
+   ],
+   "examples": [
+    {
+     "japanese": "あの大[おお]きい犬[いぬ]はこわいです。",
+     "romaji": "Ano ookii inu wa kowai desu.",
+     "english": "That big dog is scary."
+    },
+    {
+     "japanese": "これはおいしいケーキです。",
+     "romaji": "Kore wa oishii keeki desu.",
+     "english": "This is a delicious cake."
+    },
+    {
+     "japanese": "きれいな花[はな]を買[か]いました。",
+     "romaji": "Kirei na hana wo kaimashita.",
+     "english": "I bought pretty flowers."
+    },
+    {
+     "japanese": "有名[ゆうめい]な映画[えいが]を見[み]ましたか。",
+     "romaji": "Yuumei na eiga wo mimashita ka.",
+     "english": "Did you see the famous movie?"
+    }
+   ],
+   "flashcardHeader": "Adjective + Noun",
+   "flashcardAnswer": "Placing adjectives directly before nouns to describe them.",
+   "practice": [
+    {
+     "id": "adj-noun_q1",
+     "type": "construct",
+     "prompt": "Which sentence correctly uses 大[おお]きい (big) before a noun?",
+     "japanese": null,
+     "choices": [
+      "大[おお]きいな犬[いぬ]です。",
+      "大[おお]きなな犬[いぬ]です。",
+      "大[おお]きい犬[いぬ]です。",
+      "大[おお]きの犬[いぬ]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "い-adjectives attach directly before a noun with no extra connector. 大[おお]きい犬[いぬ] is correct. Adding な or の after an い-adjective before a noun is a grammatical error."
+    },
+    {
+     "id": "adj-noun_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: きれい___花[はな]を買[か]いました。",
+     "japanese": "きれい___花[はな]を買[か]いました。",
+     "choices": [
+      "い",
+      "(nothing)",
+      "な",
+      "の"
+     ],
+     "correctIndex": 2,
+     "explanation": "きれい is a な-adjective, so な is required before the noun 花[はな]. Without な, the sentence is ungrammatical."
+    },
+    {
+     "id": "adj-noun_q3",
+     "type": "translation",
+     "prompt": "Which sentence correctly says 'Did you see the famous movie?'",
+     "japanese": null,
+     "choices": [
+      "有名[ゆうめい]映画[えいが]を見[み]ましたか。",
+      "有名[ゆうめい]の映画[えいが]を見[み]ましたか。",
+      "有名[ゆうめい]な映画[えいが]を見[み]ましたか。",
+      "有名[ゆうめい]い映画[えいが]を見[み]ましたか。"
+     ],
+     "correctIndex": 2,
+     "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 映画[えいが]. 有名[ゆうめい]な映画[えいが] is the correct noun phrase."
+    },
+    {
+     "id": "adj-noun_q4",
+     "type": "usage",
+     "prompt": "Which sentence uses both adjective types before nouns correctly?",
+     "japanese": null,
+     "choices": [
+      "おいしなケーキと有名[ゆうめい]いお店[みせ]です。",
+      "おいしいのケーキと有名[ゆうめい]なお店[みせ]です。",
+      "おいしいケーキと有名[ゆうめい]なお店[みせ]です。",
+      "おいしいなケーキと有名[ゆうめい]お店[みせ]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "い-adjectives (おいしい) go directly before the noun; な-adjectives (有名[ゆうめい]) add な. おいしいケーキ and 有名[ゆうめい]なお店[みせ] are both correct. The other options mix up the two patterns."
+    },
+    {
+     "id": "adj-noun_q5",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to mean 'a book that is not expensive': これは___本[ほん]です。",
+     "japanese": "これは___本[ほん]です。",
+     "choices": [
+      "高[こう]じゃない",
+      "高[たか]くないな",
+      "高[たか]くない",
+      "高[たか]ない"
+     ],
+     "correctIndex": 2,
+     "explanation": "The negative form of an い-adjective (くない) can directly precede a noun, just like the affirmative form. 高[たか]くない本[ほん] = a book that is not expensive. No connector is added between くない and the noun."
+    },
+    {
+     "id": "adj-noun_q6",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I want to eat delicious food'?",
+     "japanese": null,
+     "choices": [
+      "おいしいなたべものを食[た]べたいです。",
+      "おいしくないたべものを食[た]べたいです。",
+      "おいしのたべものを食[た]べたいです。",
+      "おいしいたべものを食[た]べたいです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "おいしい is an い-adjective and attaches directly before the noun たべもの. 美味[おい]しいたべもの (delicious food) — no connector needed. Options with な or の incorrectly treat it as a な-adjective."
+    },
+    {
+     "id": "adj-noun_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ___学校[がっこう]に行[い]きたいです。(I want to go to a convenient school.)",
+     "japanese": "___学校[がっこう]に行[い]きたいです。",
+     "choices": [
+      "便利[べんり]な",
+      "便利[べんり]い",
+      "便利[べんり]",
+      "便利[べんり]の"
+     ],
+     "correctIndex": 0,
+     "explanation": "便利[べんり] is a な-adjective and requires な when placed before a noun: 便利[べんり]な学校[がっこう] (convenient school). Omitting な or substituting い or の is incorrect."
+    },
+    {
+     "id": "adj-noun_q8",
+     "type": "usage",
+     "prompt": "Which adjective requires な before a noun?",
+     "japanese": null,
+     "choices": [
+      "暑[あつ]い",
+      "有名[ゆうめい]",
+      "安[やす]い",
+      "小[ちい]さい"
+     ],
+     "correctIndex": 1,
+     "explanation": "有名[ゆうめい] is a な-adjective and requires な before a noun: 有名[ゆうめい]な人[ひと] (famous person). The others — 暑[あつ]い, 安[やす]い, 小[ちい]さい — are all い-adjectives and attach directly before a noun with no connector."
+    },
+    {
+     "id": "adj-noun_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses both adjective types before their nouns?",
+     "japanese": null,
+     "choices": [
+      "大[おお]きい犬[いぬ]と静[しず]かな猫[ねこ]がいます。",
+      "大[おお]きなな犬[いぬ]と静[しず]か猫[ねこ]がいます。",
+      "大[おお]きいの犬[いぬ]と静[しず]かな猫[ねこ]がいます。",
+      "大[おお]きい犬[いぬ]と静[しず]か猫[ねこ]がいます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adjectives (大[おお]きい) attach directly before their noun; な-adjectives (静[しず]か) add な. 大[おお]きい犬[いぬ] and 静[しず]かな猫[ねこ] are both correct. Option D is missing な before 猫[ねこ]; options B and C add wrong connectors after 大[おお]きい."
+    },
+    {
+     "id": "adj-noun_q10",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ___人[ひと]がいっぱいいます。(There are many famous people.)",
+     "japanese": "___人[ひと]がいっぱいいます。",
+     "choices": [
+      "有名[ゆうめい]い",
+      "有名[ゆうめい]の",
+      "有名[ゆうめい]",
+      "有名[ゆうめい]な"
+     ],
+     "correctIndex": 3,
+     "explanation": "有名[ゆうめい] is a な-adjective and requires な before the noun 人[ひと]: 有名[ゆうめい]な人[ひと] (famous people). Using い, の, or nothing between the adjective and noun is an error."
+    },
+    {
+     "id": "adj-noun_q11",
+     "type": "construct",
+     "prompt": "Which phrase correctly uses 面白[おもしろ]い (interesting) before a noun?",
+     "japanese": null,
+     "choices": [
+      "面白[おもしろ]な本[ほん]",
+      "面白[おもしろ]の本[ほん]",
+      "面白[おもしろ]く本[ほん]",
+      "面白[おもしろ]い本[ほん]"
+     ],
+     "correctIndex": 3,
+     "explanation": "面白[おもしろ]い is an い-adjective and goes directly before the noun: 面白[おもしろ]い本[ほん] (interesting book). Adding な, の, or the くform before the noun is incorrect. Only the full adjective form (面白[おもしろ]い) is used prenominally."
+    },
+    {
+     "id": "adj-noun_q12",
+     "type": "usage",
+     "prompt": "Which sentence uses an adjective incorrectly before a noun?",
+     "japanese": null,
+     "choices": [
+      "親切[しんせつ]な先生[せんせい]です。",
+      "暑[あつ]い夏[なつ]でした。",
+      "静[しず]かいへやです。",
+      "有名[ゆうめい]な先生[せんせい]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "静[しず]か is a な-adjective — it needs な, not い, before a noun. 静[しず]かなへや (quiet room) is correct; 静[しず]かいへや does not exist. This is a common error where students incorrectly apply い-adjective rules to a な-adjective."
+    },
+    {
+     "id": "adj-noun_q13",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: この___えんぴつをください。(Please give me a long pencil.)",
+     "japanese": "この___えんぴつをください。",
+     "choices": [
+      "長[ちょう]な",
+      "長[ちょう]",
+      "長[ちょう]の",
+      "長[なが]い"
+     ],
+     "correctIndex": 3,
+     "explanation": "長[なが]い (long) is an い-adjective and goes directly before the noun えんぴつ (pencil): 長[なが]いえんぴつ (long pencil). No connector is added between an い-adjective and the noun it modifies."
+    },
+    {
+     "id": "adj-noun_q14",
+     "type": "construct",
+     "prompt": "Which phrase correctly uses the negative form of 高[たか]い (expensive) to modify a noun?",
+     "japanese": null,
+     "choices": [
+      "高[たか]くないかばん",
+      "高[こう]じゃないかばん",
+      "高[たか]なくないかばん",
+      "高[たか]いじゃないかばん"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adjectives in their negative form (くない) can directly precede a noun. 高[たか]くないかばん = a bag that is not expensive. The negative form behaves just like the affirmative — attach directly with no connector."
+    },
+    {
+     "id": "adj-noun_q15",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses きれい to describe a flower?",
+     "japanese": null,
+     "choices": [
+      "これはきれいい花[はな]です。",
+      "これはきれいな花[はな]です。",
+      "これはきれい花[はな]です。",
+      "これはきれいの花[はな]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "きれい is a な-adjective, even though it appears to end in い. It requires な before a noun: きれいな花[はな] (pretty flower). The trailing い is part of the stem, not the い-adjective ending. Forgetting な here is one of the most common early mistakes."
+    },
+    {
+     "id": "adj-noun_q16",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I bought a new bag'?",
+     "japanese": null,
+     "choices": [
+      "新[あたら]しなかばんを買[か]いました。",
+      "新[あたら]しいなかばんを買[か]いました。",
+      "新[あたら]しいかばんを買[か]いました。",
+      "新[あたら]しのかばんを買[か]いました。"
+     ],
+     "correctIndex": 2,
+     "explanation": "新[あたら]しい (new) is an い-adjective and goes directly before the noun: 新[あたら]しいかばん (new bag). Adding な after an い-adjective before a noun is a very common error. い-adjectives never need な."
+    },
+    {
+     "id": "adj-noun_q17",
+     "type": "translation",
+     "prompt": "Which phrase correctly means 'a quiet room'?",
+     "japanese": null,
+     "choices": [
+      "静[しず]かいへや",
+      "静[しず]か部屋[へや]",
+      "静[しず]くなへや",
+      "静[しず]かなへや"
+     ],
+     "correctIndex": 3,
+     "explanation": "静[しず]か is a な-adjective and requires な before the noun へや: 静[しず]かなへや (quiet room). Omitting な or treating it as an い-adjective (静[しず]かい) are both errors. 静[しず]くな is also malformed."
+    },
+    {
+     "id": "adj-noun_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: ___映画[えいが]を見[み]ました。(I watched a boring movie.)",
+     "japanese": "___映画[えいが]を見[み]ました。",
+     "choices": [
+      "つまらない",
+      "つまらなな",
+      "つまらないな",
+      "つまらな"
+     ],
+     "correctIndex": 0,
+     "explanation": "つまらない (boring) is an い-adjective in its negative form (つまらない = not interesting/boring). It goes directly before the noun 映画[えいが] with no connector: つまらない映画[えいが] (boring movie)."
+    },
+    {
+     "id": "adj-noun_q19",
+     "type": "construct",
+     "prompt": "Which phrase correctly uses an adjective before a noun?",
+     "japanese": null,
+     "choices": [
+      "便利[べんり]い店[みせ]",
+      "上手[じょうず]な人[ひと]",
+      "むずかしな問題[もんだい]",
+      "おいしいな料理[りょうり]"
+     ],
+     "correctIndex": 1,
+     "explanation": "上手[じょうず] (skilled) is a な-adjective, so 上手[じょうず]な人[ひと] (a skilled person) is correct. 便利[べんり] is a な-adjective requiring な, not い. 難[むずか]しい is an い-adjective that needs no な. おいしい is an い-adjective — adding な after it is wrong."
+    },
+    {
+     "id": "adj-noun_q20",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses a negative い-adjective to modify a noun?",
+     "japanese": null,
+     "choices": [
+      "大[おお]きじゃない犬[いぬ]がいます。",
+      "大[おお]きいじゃない犬[いぬ]がいます。",
+      "大[おお]きくない犬[いぬ]がいます。",
+      "大[おお]きなくない犬[いぬ]がいます。"
+     ],
+     "correctIndex": 2,
+     "explanation": "The negative form of an い-adjective is くない, and this form can directly precede a noun. 大[おお]きくない犬[いぬ] (a dog that is not big) follows the same rule as the affirmative: attach directly with no connector. Using じゃない is the な-adjective pattern."
+    }
+   ]
+  },
+  {
+   "id": "suki-kirai",
+   "name": "好[す]き / 嫌[きら]い (suki / kirai) — like / dislike",
+   "shortDescription": "Expressing likes and dislikes using these special な-adjectives.",
+   "formation": "Topic は Object が 好[す]き / 嫌[きら]い です",
+   "explanation": "好[す]き (like) and 嫌[きら]い (dislike) might feel like verbs in English — 'I like dogs,' 'I dislike coffee' — but in Japanese they are adjectives. This changes the sentence structure completely. Instead of 'I like dogs,' Japanese says 'As for me, dogs are likeable' — わたしは犬[いぬ]が好[す]きです. The thing you like is marked with が, not を. This は〜が pattern is one of the most important to internalize early.\n\nYou can intensify with とても (very): 犬[いぬ]がとても好[す]きです (I really like dogs). 大好[だいす]き adds 大[だい] (big/great) to mean 'love,' and 大嫌[だいきら]い means 'hate.' Ask what someone likes with 何[なに]が好[す]きですか (What do you like?).",
+   "rules": [
+    "Pattern: [person] は [thing] が 好[す]きです / 嫌[きら]いです",
+    "The thing liked/disliked is marked with が (not を)",
+    "好[す]き and 嫌[きら]い are な-adjectives, not verbs",
+    "大好[だいす]き = love; 大嫌[だいきら]い = hate (adding 大[だい] intensifies)",
+    "Use も instead of が for \"also\": 野菜[やさい]も好[す]き (I like vegetables too)"
+   ],
+   "examples": [
+    {
+     "japanese": "わたしは猫[ねこ]が好[す]きです。",
+     "romaji": "Watashi wa neko ga suki desu.",
+     "english": "I like cats."
+    },
+    {
+     "japanese": "何[なに]が好[す]きですか。",
+     "romaji": "Nani ga suki desu ka.",
+     "english": "What do you like?"
+    },
+    {
+     "japanese": "田中[たなか]さんはコーヒーが嫌[きら]いです。",
+     "romaji": "Tanaka-san wa koohii ga kirai desu.",
+     "english": "Tanaka-san dislikes coffee."
+    },
+    {
+     "japanese": "わたしは日本語[にほんご]が大好[だいす]きです！",
+     "romaji": "Watashi wa nihongo ga daisuki desu!",
+     "english": "I love Japanese!"
+    }
+   ],
+   "flashcardHeader": "好き / 嫌い",
+   "flashcardAnswer": "Expressing likes and dislikes using these special な-adjectives.",
+   "practice": [
+    {
+     "id": "suki-kirai_q1",
+     "type": "construct",
+     "prompt": "Which particle correctly fills the blank? わたしは猫[ねこ]___好[す]きです。",
+     "japanese": "わたしは猫[ねこ]___好[す]きです。",
+     "choices": [
+      "が",
+      "を",
+      "に",
+      "は"
+     ],
+     "correctIndex": 0,
+     "explanation": "好[す]き uses が to mark the thing liked. The pattern is  は  が 好[す]きです. Using を is a common error influenced by English 'I like cats' where 'cats' is the direct object."
+    },
+    {
+     "id": "suki-kirai_q2",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I love Japanese!'?",
+     "japanese": null,
+     "choices": [
+      "わたしは日本語[にほんご]がとても好[す]きです！",
+      "わたしは日本語[にほんご]は大好[だいす]きです！",
+      "わたしは日本語[にほんご]をすごく好[す]きです！",
+      "わたしは日本語[にほんご]が大好[だいす]きです！"
+     ],
+     "correctIndex": 3,
+     "explanation": "大好[だいす]き (大[だい] + 好[す]き) means 'love' and is the standard strong form. Both options A and B are natural, but 大好[だいす]き is the most common way to express strong liking in Japanese."
+    },
+    {
+     "id": "suki-kirai_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 何[なに]___好[す]きですか。(What do you like?)",
+     "japanese": "何[なに]___好[す]きですか。",
+     "choices": [
+      "を",
+      "が",
+      "は",
+      "に"
+     ],
+     "correctIndex": 1,
+     "explanation": "Because 好[す]き always takes が for the thing liked, the question word 何[なに] must also take が: 何[なに]が好[す]きですか. This が carries through from the statement pattern."
+    },
+    {
+     "id": "suki-kirai_q4",
+     "type": "usage",
+     "prompt": "Which sentence correctly says 'Tanaka-san dislikes coffee'?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんはコーヒーが嫌[きら]いです。",
+      "田中[たなか]さんにコーヒーが嫌[きら]いです。",
+      "田中[たなか]さんはコーヒーは嫌[きら]いです。",
+      "田中[たなか]さんはコーヒーを嫌[きら]いです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "嫌[きら]い follows the same pattern as 好[す]き:  は  が 嫌[きら]いです. The thing disliked takes が. Using を or は instead of が changes the sentence structure incorrectly."
+    },
+    {
+     "id": "suki-kirai_q5",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I dislike spicy food'?",
+     "japanese": null,
+     "choices": [
+      "わたしはからいたべものがすきです。",
+      "わたしはからいたべものがきらいじゃないです。",
+      "わたしはからいたべものが嫌[きら]いです。",
+      "わたしはからいたべものを嫌[きら]いです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "嫌[きら]い follows the pattern  は  が 嫌[きら]いです. The disliked thing takes が. Option A says 'like' instead of 'dislike.' Option D uses を incorrectly — 嫌[きら]い always takes が."
+    },
+    {
+     "id": "suki-kirai_q6",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: わたしはやさいも___です。(I also like vegetables.)",
+     "japanese": "わたしはやさいも___です。",
+     "choices": [
+      "大嫌[だいきら]い",
+      "嫌[きら]い",
+      "きらいです",
+      "好[す]き"
+     ],
+     "correctIndex": 3,
+     "explanation": "も replaces が when meaning 'also': やさいも好[す]きです = I like vegetables too. The も particle indicates addition — if cats are liked, vegetables are also liked. The blank needs 好[す]き to complete 好[す]きです."
+    },
+    {
+     "id": "suki-kirai_q7",
+     "type": "construct",
+     "prompt": "What does 大嫌[だいきら]い mean?",
+     "japanese": null,
+     "choices": [
+      "really dislike / hate strongly",
+      "somewhat dislike",
+      "love / really like",
+      "not very fond of"
+     ],
+     "correctIndex": 0,
+     "explanation": "大嫌[だいきら]い adds 大[だい] (big/great) to 嫌[きら]い (dislike) to intensify it: 'hate' or 'strongly dislike.' Similarly, 大好[だいす]き = love. The prefix 大[だい] turns ordinary liking/disliking into an intense feeling."
+    },
+    {
+     "id": "suki-kirai_q8",
+     "type": "usage",
+     "prompt": "Which sentence correctly asks 'Does Tanaka-san like sports?'",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんはスポーツを好[す]きですか。",
+      "田中[たなか]さんはスポーツが好[す]きですか。",
+      "田中[たなか]さんにスポーツが好[す]きですか。",
+      "田中[たなか]さんはスポーツの好[す]きですか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "好[す]き always takes が to mark the thing liked:  は  が 好[す]きですか. Option A uses を (direct object particle) — this is the most common mistake, influenced by the English 'like .' に and の are also wrong here."
+    },
+    {
+     "id": "suki-kirai_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly says 'I like cooking' (as a preference, not a skill)?",
+     "japanese": null,
+     "choices": [
+      "わたしは料理[りょうり]が上手[じょうず]です。",
+      "わたしは料理[りょうり]が好[この]みです。",
+      "わたしは料理[りょうり]が好[す]きです。",
+      "わたしは料理[りょうり]を好[す]きです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "好[す]き expresses preference (liking/enjoying). Option A uses 上手[じょうず], which expresses skill ('I am good at cooking'), not preference. Option D uses を instead of が. 好[す]きです is the correct way to say you enjoy something."
+    },
+    {
+     "id": "suki-kirai_q10",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: たなかさんはスポーツが___です。(Tanaka-san loves sports.)",
+     "japanese": "たなかさんはスポーツが___です。",
+     "choices": [
+      "大嫌[だいきら]い",
+      "嫌[きら]い",
+      "好[す]き",
+      "大好[だいす]き"
+     ],
+     "correctIndex": 3,
+     "explanation": "大好[だいす]き = love (intensified 好[す]き). スポーツが大好[だいす]きです = loves sports. 好[す]き is just 'like,' not 'love.' 大嫌[だいきら]い means 'hate,' the opposite of what the sentence means."
+    },
+    {
+     "id": "suki-kirai_q11",
+     "type": "construct",
+     "prompt": "Which sentence uses the correct particle with 嫌[きら]い?",
+     "japanese": null,
+     "choices": [
+      "ねこが嫌[きら]いです",
+      "ねこを嫌[きら]いです",
+      "ねこに嫌[きら]いです",
+      "ねこの嫌[きら]いです"
+     ],
+     "correctIndex": 0,
+     "explanation": "嫌[きら]い follows the same が pattern as 好[す]き: the disliked thing takes が. ねこが嫌[きら]いです (I dislike cats) is correct. Using を, に, or の instead of が is a grammar error — 嫌[きら]い is an adjective, not a verb, so it takes が, not を."
+    },
+    {
+     "id": "suki-kirai_q12",
+     "type": "translation",
+     "prompt": "Which sentence correctly says 'I hate spiders'?",
+     "japanese": null,
+     "choices": [
+      "わたしはくもが好[す]きじゃないです。",
+      "わたしはくもが大嫌[だいきら]いです。",
+      "わたしはくもをすごく嫌[きら]いです。",
+      "わたしにはくもが大嫌[だいきら]いです。"
+     ],
+     "correctIndex": 1,
+     "explanation": "大嫌[だいきら]い (大[だい] + 嫌[きら]い) expresses strong dislike — hate. The pattern remains  は  が 大嫌[だいきら]いです. Option A expresses 'don't like' (weaker). Option C uses を incorrectly with 嫌[きら]い. Option D uses に は which changes the nuance."
+    },
+    {
+     "id": "suki-kirai_q14",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: すみませんが、たぬきが___です。(I'm sorry, but I dislike tanuki.)",
+     "japanese": "すみませんが、たぬきが___です。",
+     "choices": [
+      "大好[だいす]き",
+      "好[す]き",
+      "上手[じょうず]",
+      "嫌[きら]い"
+     ],
+     "correctIndex": 3,
+     "explanation": "嫌[きら]いです expresses dislike following the pattern  が 嫌[きら]いです. たぬきが嫌[きら]いです = dislike tanuki. 大好[だいす]き and 好[す]き both express liking (the opposite). 上手[じょうず] means skilled, not dislike."
+    },
+    {
+     "id": "suki-kirai_q15",
+     "type": "construct",
+     "prompt": "Which sentence best expresses 'I don't really like natto'?",
+     "japanese": null,
+     "choices": [
+      "なっとうがあまり好[す]きじゃないです",
+      "なっとうをあまり好[す]きじゃないです",
+      "なっとうがぜんぜん好[す]きです",
+      "なっとうにあまり好[す]きじゃないです"
+     ],
+     "correctIndex": 0,
+     "explanation": "あまり + 好[す]きじゃない = don't really/very much like. The liked thing still takes が. Option B uses を incorrectly. Option C uses ぜんぜん with an affirmative predicate — ぜんぜん always requires a negative form. Option D uses に incorrectly."
+    },
+    {
+     "id": "suki-kirai_q17",
+     "type": "translation",
+     "prompt": "Which sentence correctly says 'I love cats but I hate dogs'?",
+     "japanese": null,
+     "choices": [
+      "ねこが大好[だいす]きですが、いぬも大好[だいす]きです。",
+      "ねこが大嫌[だいきら]いですが、いぬが大好[だいす]きです。",
+      "ねこが大好[だいす]きですが、いぬが大嫌[だいきら]いです。",
+      "ねこを大好[だいす]きですが、いぬが大嫌[だいきら]いです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "大好[だいす]き = love, 大嫌[だいきら]い = hate. Both use が to mark what is loved/hated. ねこが大好[だいす]きですが、いぬが大嫌[だいきら]いです correctly expresses both feelings. Option D uses を instead of が with 大好[だいす]き, which is incorrect."
+    },
+    {
+     "id": "suki-kirai_q18",
+     "type": "usage",
+     "prompt": "Which sentence uses 好[す]き incorrectly?",
+     "japanese": null,
+     "choices": [
+      "わたしは日本語[にほんご]が好[す]きです。",
+      "たなかさんはやきゅうが大好[だいす]きです。",
+      "何[なに]が好[す]きですか。",
+      "わたしはすしを好[す]きです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "好[す]き requires が to mark the thing liked, not を. わたしはすしを好[す]きです is incorrect — it should be すしが好[す]きです. Options A, B, and C all use the correct が pattern. This を error is the most common mistake with 好[す]き."
+    },
+    {
+     "id": "suki-kirai_q19",
+     "type": "construct",
+     "prompt": "Which sentence best expresses mild/soft dislike — 'I'm not really into sushi'?",
+     "japanese": null,
+     "choices": [
+      "すしがあまり好[す]きじゃないです",
+      "すしがぜんぜん好[す]きです",
+      "すしが大嫌[だいきら]いです",
+      "すしが嫌[きら]いです"
+     ],
+     "correctIndex": 0,
+     "explanation": "あまり + 好[す]きじゃない softens the negative: 'don't really like.' This is the polite way to express mild dislike. Option B uses ぜんぜん with an affirmative predicate — wrong. 大嫌[だいきら]い and 嫌[きら]い both express stronger or clearer dislike than 'not really into it.'"
+    }
+   ]
+  },
+  {
+   "id": "jouzu-heta",
+   "name": "上手[じょうず] / 下手[へた] (jouzu / heta) — good at / bad at",
+   "shortDescription": "Describing skill and lack of skill with the は〜が pattern — and when 得意 / 苦手 sound more natural.",
+   "formation": "Person は Skill が 上手[じょうず] / 下手[へた] です",
+   "explanation": "上手[じょうず] (good at / skilled) and 下手[へた] (bad at / unskilled) describe ability. Just like 好[す]き and 嫌[きら]い, they are な-adjectives, not verbs, so they take the same は〜が pattern: the person is the topic (marked with は) and the skill or activity is marked with が, never を. 田中[たなか]さんはピアノが上手[じょうず]です means \"Tanaka-san is good at piano\" — literally \"as for Tanaka-san, piano is skilled-at.\"\n\nKeep 上手[じょうず] and 好[す]き separate in your mind: 好[す]き is about whether you *like* something, while 上手[じょうず] is about whether you are *good at* it — you can love a hobby and still be terrible at it. There is also an etiquette point: 上手[じょうず] is used to praise *other* people, so it sounds odd (even boastful) about yourself. To describe your own strength, use 得意[とくい] (my strong point); to describe your own weakness gently, 苦手[にがて] (not my strong point) sounds much softer than bluntly calling yourself 下手[へた].",
+   "rules": [
+    "Pattern: Person は Skill が 上手[じょうず]です / 下手[へた]です",
+    "The skill or activity is marked with が, not を",
+    "上手[じょうず] and 下手[へた] are な-adjectives, not verbs",
+    "上手[じょうず] praises others — for your own strength, use 得意[とくい]",
+    "下手[へた] can sound harsh about yourself — 苦手[にがて] is softer",
+    "Skill (上手[じょうず]) is not the same as liking (好[す]き): you can enjoy something you are bad at"
+   ],
+   "examples": [
+    {
+     "japanese": "田中[たなか]さんはピアノが上手[じょうず]です。",
+     "romaji": "Tanaka-san wa piano ga jouzu desu.",
+     "english": "Tanaka-san is good at piano."
+    },
+    {
+     "japanese": "わたしは料理[りょうり]が下手[へた]です。",
+     "romaji": "Watashi wa ryouri ga heta desu.",
+     "english": "I'm bad at cooking."
+    },
+    {
+     "japanese": "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
+     "romaji": "Ane wa eigo ga totemo jouzu desu.",
+     "english": "My older sister is very good at English."
+    },
+    {
+     "japanese": "スポーツはちょっと苦手[にがて]です。",
+     "romaji": "Supootsu wa chotto nigate desu.",
+     "english": "I'm not really good at sports."
+    }
+   ],
+   "flashcardHeader": "上手 / 下手 (jouzu / heta)",
+   "flashcardAnswer": "Describing skill (good at) and lack of skill (bad at) with the は〜が pattern.",
+   "practice": [
+    {
+     "id": "jouzu-heta_q1",
+     "type": "usage",
+     "prompt": "Which sentence correctly says \"Tanaka-san is good at guitar\"?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんはギターが好[す]きです。",
+      "田中[たなか]さんはギターが上手[じょうず]です。",
+      "田中[たなか]さんはギターを上手[じょうず]です。",
+      "田中[たなか]さんにギターが上手[じょうず]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "上手[じょうず] uses the は〜が pattern: ギターが上手[じょうず]です. Option A says 好[す]き (likes guitar), not skill. Option C uses を and D uses に — 上手[じょうず] always takes が."
+    },
+    {
+     "id": "jouzu-heta_q2",
+     "type": "construct",
+     "prompt": "Which particle marks what someone is good at? わたしは水泳[すいえい]___上手[じょうず]です。",
+     "japanese": "わたしは水泳[すいえい]___上手[じょうず]です。",
+     "choices": [
+      "を",
+      "が",
+      "に",
+      "は"
+     ],
+     "correctIndex": 1,
+     "explanation": "上手[じょうず] marks the skill with が: 水泳[すいえい]が上手[じょうず]です (good at swimming). Using を is the most common mistake — 上手[じょうず] is an adjective, not a verb, so it never takes を."
+    },
+    {
+     "id": "jouzu-heta_q3",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: わたしは料理[りょうり]が___です。(I'm bad at cooking.)",
+     "japanese": "わたしは料理[りょうり]が___です。",
+     "choices": [
+      "上手[じょうず]",
+      "下手[へた]",
+      "好[す]き",
+      "大好[だいす]き"
+     ],
+     "correctIndex": 1,
+     "explanation": "下手[へた] means \"bad at / unskilled.\" 料理[りょうり]が下手[へた]です = I'm bad at cooking. 上手[じょうず] is the opposite (good at); 好[す]き / 大好[だいす]き describe liking, not skill."
+    },
+    {
+     "id": "jouzu-heta_q4",
+     "type": "usage",
+     "prompt": "Which pair correctly distinguishes liking from skill?",
+     "japanese": null,
+     "choices": [
+      "ピアノが好[す]きです = skilled at piano / ピアノが上手[じょうず]です = like piano",
+      "ピアノが好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
+      "ピアノを好[す]きです = like piano / ピアノが上手[じょうず]です = skilled at piano",
+      "ピアノが好[す]きです = like piano / ピアノを上手[じょうず]です = skilled at piano"
+     ],
+     "correctIndex": 1,
+     "explanation": "好[す]き expresses preference (liking) and 上手[じょうず] expresses skill (being good at). Both take が. Option A reverses the meanings; C and D use を instead of が."
+    },
+    {
+     "id": "jouzu-heta_q5",
+     "type": "translation",
+     "prompt": "Which sentence means \"My older sister is very good at English\"?",
+     "japanese": null,
+     "choices": [
+      "姉[あね]は英語[えいご]をとても上手[じょうず]です。",
+      "姉[あね]は英語[えいご]がとても上手[じょうず]です。",
+      "姉[あね]は英語[えいご]がとても好[す]きです。",
+      "姉[あね]に英語[えいご]がとても上手[じょうず]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "英語[えいご]がとても上手[じょうず]です = very good at English. Option A uses を (wrong — 上手[じょうず] takes が). Option C says 好[す]き (likes English). Option D uses に instead of the topic marker は + が."
+    },
+    {
+     "id": "jouzu-heta_q6",
+     "type": "usage",
+     "prompt": "Talking about your OWN skill, which sentence is most natural?",
+     "japanese": null,
+     "choices": [
+      "わたしはギターが上手[じょうず]です。",
+      "わたしはギターが得意[とくい]です。",
+      "わたしはギターを得意[とくい]です。",
+      "わたしにギターが上手[じょうず]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "上手[じょうず] is normally used to praise other people, so it sounds boastful about yourself. For your own strength, 得意[とくい] is the natural choice: ギターが得意[とくい]です. Option C uses を (should be が); D uses に."
+    },
+    {
+     "id": "jouzu-heta_q7",
+     "type": "usage",
+     "prompt": "You want to gently say you're not good at drawing. Which is most natural?",
+     "japanese": null,
+     "choices": [
+      "わたしは絵[え]を苦手[にがて]です。",
+      "わたしは絵[え]が苦手[にがて]です。",
+      "わたしは絵[え]が上手[じょうず]です。",
+      "わたしは絵[え]を下手[へた]です。"
+     ],
+     "correctIndex": 1,
+     "explanation": "苦手[にがて] (not my strong point) softens a self-criticism and is more natural than bluntly saying 下手[へた] about yourself. It takes が: 絵[え]が苦手[にがて]です. Options A and D use を; C says 上手[じょうず] (good at), the opposite."
+    },
+    {
+     "id": "jouzu-heta_q8",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: 田中[たなか]さんはピアノ___上手[じょうず]です。",
+     "japanese": "田中[たなか]さんはピアノ___上手[じょうず]です。",
+     "choices": [
+      "を",
+      "が",
+      "に",
+      "の"
+     ],
+     "correctIndex": 1,
+     "explanation": "ピアノが上手[じょうず]です — the thing you are skilled at is marked with が. を, に, and の are all incorrect here; 上手[じょうず] always pairs with が."
+    },
+    {
+     "id": "jouzu-heta_q9",
+     "type": "construct",
+     "prompt": "Which sentence is INCORRECT?",
+     "japanese": null,
+     "choices": [
+      "兄[あに]はサッカーが上手[じょうず]です。",
+      "わたしは歌[うた]が下手[へた]です。",
+      "母[はは]は料理[りょうり]を上手[じょうず]です。",
+      "父[ちち]は英語[えいご]が上手[じょうず]です。"
+     ],
+     "correctIndex": 2,
+     "explanation": "母[はは]は料理[りょうり]を上手[じょうず]です is wrong — 上手[じょうず] takes が, not を. It should be 料理[りょうり]が上手[じょうず]です. The other three all correctly use が."
+    },
+    {
+     "id": "jouzu-heta_q10",
+     "type": "usage",
+     "prompt": "Your friend loves karaoke but sings badly. Which sentence describes this?",
+     "japanese": null,
+     "choices": [
+      "カラオケが好[す]きですが、下手[へた]です。",
+      "カラオケが上手[じょうず]ですが、好[す]きじゃないです。",
+      "カラオケが下手[へた]ですが、上手[じょうず]です。",
+      "カラオケを好[す]きですが、下手[へた]です。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Liking (好[す]き) and skill (上手[じょうず]/下手[へた]) are independent — you can like karaoke yet be 下手[へた] at it. Option A captures this. Option D uses を with 好[す]き (should be が)."
+    },
+    {
+     "id": "jouzu-heta_q11",
+     "type": "translation",
+     "prompt": "Which sentence asks \"Is Tanaka-san good at Japanese?\"",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんは日本語[にほんご]を上手[じょうず]ですか。",
+      "田中[たなか]さんは日本語[にほんご]が上手[じょうず]ですか。",
+      "田中[たなか]さんは日本語[にほんご]が好[す]きですか。",
+      "田中[たなか]さんに日本語[にほんご]が上手[じょうず]ですか。"
+     ],
+     "correctIndex": 1,
+     "explanation": "日本語[にほんご]が上手[じょうず]ですか = Is (he) good at Japanese? The skill takes が. Option A uses を; C asks about liking (好[す]き); D uses に instead of は."
+    },
+    {
+     "id": "jouzu-heta_q12",
+     "type": "fillBlank",
+     "prompt": "Talking about your own strong point: わたしは数学[すうがく]が___です。(Math is my strong point.)",
+     "japanese": "わたしは数学[すうがく]が___です。",
+     "choices": [
+      "上手[じょうず]",
+      "得意[とくい]",
+      "好[す]き",
+      "下手[へた]"
+     ],
+     "correctIndex": 1,
+     "explanation": "For your own strength, 得意[とくい] is preferred over 上手[じょうず] (which is used to praise others). 数学[すうがく]が得意[とくい]です = Math is my strong point. 好[す]き = like; 下手[へた] = bad at."
+    }
+   ]
+  },
+  {
+   "id": "totemo-sukoshi",
+   "name": "とても / すこし / あまり — degree adverbs",
+   "shortDescription": "Adverbs that express the degree or intensity of an adjective.",
+   "formation": "Degree adverb + い-adj / な-adj + です",
+   "explanation": "Degree adverbs answer the question 'how much?' and they go directly before the adjective they modify. とても means 'very' and intensifies any quality: とても大[おお]きい (very big), とても好[す]き (like very much). すこし means 'a little' and softens: すこし難[むずか]しい (a little difficult). まあまあ means 'so-so.'\n\nNow, the pair that requires careful attention: あまり and ぜんぜん always require a negative verb or adjective form — just as you saw with frequency adverbs in Chapter 3. あまりおいしくない = 'not very delicious.' ぜんぜん難[むずか]しくない = 'not difficult at all.' Using either of these with a positive form is a grammar error.\n\nOne handy social note: Japanese people often use あまり〜くない to soften criticism — saying something is 'not very good' rather than outright 'bad' is considered more polite and considerate.",
+   "rules": [
+    "とても + affirmative adj = very (とても大[おお]きい = very big)",
+    "すこし + adj = a little (すこし難[むずか]しい = a little difficult)",
+    "あまり + negative adj = not very (あまり〜くない)",
+    "ぜんぜん + negative adj = not at all (ぜんぜん〜くない)",
+    "These adverbs go directly before the adjective"
+   ],
+   "examples": [
+    {
+     "japanese": "このかばんはとても高[たか]いです。",
+     "romaji": "Kono kaban wa totemo takai desu.",
+     "english": "This bag is very expensive."
+    },
+    {
+     "japanese": "日本語[にほんご]はすこし難[むずか]しいです。",
+     "romaji": "Nihongo wa sukoshi muzukashii desu.",
+     "english": "Japanese is a little difficult."
+    },
+    {
+     "japanese": "このへやはあまりきれいじゃありません。",
+     "romaji": "Kono heya wa amari kirei ja arimasen.",
+     "english": "This room is not very clean."
+    },
+    {
+     "japanese": "その映画[えいが]はぜんぜんおもしろくなかったです。",
+     "romaji": "Sono eiga wa zenzen omoshiroku nakatta desu.",
+     "english": "That movie was not interesting at all."
+    }
+   ],
+   "flashcardHeader": "とても / すこし / あまり",
+   "flashcardAnswer": "Adverbs that express the degree or intensity of an adjective.",
+   "practice": [
+    {
+     "id": "totemo-sukoshi_q1",
+     "type": "construct",
+     "prompt": "Which sentence is grammatically correct?",
+     "japanese": null,
+     "choices": [
+      "このかばんはあまり高[たか]いです。",
+      "このかばんはすこしじゃないです。",
+      "このかばんはあまり高[たか]くないです。",
+      "このかばんはぜんぜんきれいです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "あまり must always pair with a negative predicate. あまり高[たか]くないです (not very expensive) is grammatically correct. Using あまり with an affirmative form like 高[たか]いです is a grammar error."
+    },
+    {
+     "id": "totemo-sukoshi_q2",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank with the correct adverb: その映画[えいが]は___おもしろくなかったです。(not at all interesting)",
+     "japanese": "その映画[えいが]は___おもしろくなかったです。",
+     "choices": [
+      "すこし",
+      "ぜんぜん",
+      "とても",
+      "あまり"
+     ],
+     "correctIndex": 1,
+     "explanation": "ぜんぜん means 'not at all' and pairs with a negative form. ぜんぜんおもしろくなかった = not interesting at all. あまり would also work grammatically but means 'not very,' which is weaker."
+    },
+    {
+     "id": "totemo-sukoshi_q3",
+     "type": "translation",
+     "prompt": "Which sentence means 'Japanese is a little difficult'?",
+     "japanese": null,
+     "choices": [
+      "日本語[にほんご]はとても難[むずか]しいです。",
+      "日本語[にほんご]はぜんぜん難[むずか]しくないです。",
+      "日本語[にほんご]はすこし難[むずか]しいです。",
+      "日本語[にほんご]はあまり難[むずか]しくないです。"
+     ],
+     "correctIndex": 2,
+     "explanation": "すこし = a little (affirmative). すこし難[むずか]しい = a little difficult. とても = very, あまり〜くない = not very, ぜんぜん〜くない = not at all. Only すこし fits the 'a little' meaning with a positive adjective."
+    },
+    {
+     "id": "totemo-sukoshi_q4",
+     "type": "usage",
+     "prompt": "Which sentence uses a degree adverb correctly?",
+     "japanese": null,
+     "choices": [
+      "このへやはとてもきれいくないです。",
+      "このへやはすこしきれいじゃありません。",
+      "このへやはぜんぜんきれいです。",
+      "このへやはあまりきれいじゃありません。"
+     ],
+     "correctIndex": 3,
+     "explanation": "あまり requires a negative predicate. あまりきれいじゃありません (not very clean) is correct. ぜんぜん with an affirmative is wrong. とてもきれいくない misapplies い-adjective negation to a な-adjective."
+    },
+    {
+     "id": "totemo-sukoshi_q5",
+     "type": "usage",
+     "prompt": "Which sentence is grammatically correct?",
+     "japanese": null,
+     "choices": [
+      "全然[ぜんぜん]わかりません。",
+      "全然[ぜんぜん]わかります。",
+      "全然[ぜんぜん]上手[じょうず]です。",
+      "全然[ぜんぜん]好[す]きです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "全然[ぜんぜん] must be paired with a negative predicate. 全然[ぜんぜん]わかりません = I don't understand at all. Using 全然[ぜんぜん] with an affirmative predicate (わかります, 上手[じょうず]です, 好[す]きです) is a grammar error."
+    },
+    {
+     "id": "totemo-sukoshi_q6",
+     "type": "translation",
+     "prompt": "What does ちょっと待[ま]ってください mean?",
+     "japanese": "ちょっと待[ま]ってください。",
+     "choices": [
+      "Please wait for a long time.",
+      "Please wait a moment.",
+      "Please don't wait.",
+      "Please wait very slowly."
+     ],
+     "correctIndex": 1,
+     "explanation": "ちょっと here means 'a little' or 'just a moment,' softening the request. ちょっと待[ま]ってください = 'Please wait just a moment.' ちょっと functions as a softener in everyday conversation and is the casual equivalent of すこし."
+    },
+    {
+     "id": "totemo-sukoshi_q7",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank: この問題[もんだい]は___難[むずか]しいです。(This problem is quite/fairly difficult — more than a little, but not extreme.)",
+     "japanese": "この問題[もんだい]は___難[むずか]しいです。",
+     "choices": [
+      "すこし",
+      "あまり",
+      "かなり",
+      "ぜんぜん"
+     ],
+     "correctIndex": 2,
+     "explanation": "かなり means 'quite/fairly' — stronger than すこし (a little) but not as extreme as とても (very). It pairs with affirmative predicates. あまり and ぜんぜん require negative predicates, so they cannot be used here. かなり難[むずか]しいです = it is quite difficult."
+    },
+    {
+     "id": "totemo-sukoshi_q8",
+     "type": "construct",
+     "prompt": "Which adverb is the most casual/colloquial and often used as a softener in spoken Japanese?",
+     "japanese": null,
+     "choices": [
+      "とても",
+      "かなり",
+      "すこし",
+      "ちょっと"
+     ],
+     "correctIndex": 3,
+     "explanation": "ちょっと is the casual/colloquial equivalent of すこし. While すこし suits both speech and writing, ちょっと is primarily conversational. It also functions as a softener — ちょっと... (with a trailing pause) can politely soften a refusal in Japanese."
+    },
+    {
+     "id": "totemo-sukoshi_q9",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses a degree adverb with a verb?",
+     "japanese": null,
+     "choices": [
+      "全然[ぜんぜん]食[た]べません。",
+      "全然[ぜんぜん]食[た]べます。",
+      "あまり食[た]べます。",
+      "ぜんぜん食[た]べます。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Degree adverbs like ぜんぜん and あまり can modify verbs as well as adjectives, but they still require negative verb forms. 全然[ぜんぜん]食[た]べません = don't eat at all. Using ぜんぜん or あまり with affirmative verb forms (食[た]べます) is a grammar error."
+    },
+    {
+     "id": "totemo-sukoshi_q10",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'I don't go shopping very often'?",
+     "japanese": null,
+     "choices": [
+      "あまりよく買[か]い物[もの]に行[い]きます。",
+      "あまり買[か]い物[もの]に行[い]きません。",
+      "ぜんぜん買[か]い物[もの]に行[い]きます。",
+      "とてもよく買[か]い物[もの]に行[い]きません。"
+     ],
+     "correctIndex": 1,
+     "explanation": "あまり requires a negative predicate. あまり買[か]い物[もの]に行[い]きません = don't go shopping very often. Option A uses あまり with an affirmative verb (行[い]きます) — wrong. Option C uses ぜんぜん with an affirmative — wrong. Option D: とても pairs with affirmatives, not negatives."
+    },
+    {
+     "id": "totemo-sukoshi_q11",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'This tea is a little sweet': このお茶[ちゃ]は___あまいです。",
+     "japanese": "このお茶[ちゃ]は___あまいです。",
+     "choices": [
+      "ぜんぜん",
+      "あまり",
+      "すこし",
+      "かなり"
+     ],
+     "correctIndex": 2,
+     "explanation": "すこし = 'a little' and pairs with affirmative predicates. すこしあまいです = a little sweet. あまり and ぜんぜん require negative predicates and cannot be followed by an affirmative form. かなり = 'quite/fairly,' which is stronger than 'a little.'"
+    },
+    {
+     "id": "totemo-sukoshi_q12",
+     "type": "usage",
+     "prompt": "Which sentence is grammatically correct?",
+     "japanese": null,
+     "choices": [
+      "あの先生[せんせい]はぜんぜん親切[しんせつ]です。",
+      "ぜんぜん便利[べんり]な駅[えき]です。",
+      "この授業[じゅぎょう]はぜんぜんむずかしいです。",
+      "あの先生[せんせい]はぜんぜん親切[しんせつ]じゃありません。"
+     ],
+     "correctIndex": 3,
+     "explanation": "ぜんぜん must be used with a negative predicate. 親切[しんせつ] is a な-adjective; its negative is じゃありません. ぜんぜん親切[しんせつ]じゃありません = not at all kind. Choices A and C use ぜんぜん with affirmative predicates, which are grammar errors. Choice B is also wrong for the same reason."
+    },
+    {
+     "id": "totemo-sukoshi_q13",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'This restaurant is not very famous'?",
+     "japanese": null,
+     "choices": [
+      "このレストランはあまり有名[ゆうめい]じゃありません。",
+      "このレストランはすこし有名[ゆうめい]じゃありません。",
+      "このレストランはとても有名[ゆうめい]じゃありません。",
+      "このレストランはあまり有名[ゆうめい]です。"
+     ],
+     "correctIndex": 0,
+     "explanation": "あまり + negative = 'not very.' 有名[ゆうめい] is a な-adjective; its negative is じゃありません. あまり有名[ゆうめい]じゃありません = not very famous. Option C (とても + negative) is unnatural — とても pairs with affirmative predicates. Option D (あまり + affirmative) violates the あまり+negative rule."
+    },
+    {
+     "id": "totemo-sukoshi_q14",
+     "type": "construct",
+     "prompt": "Which sentence is the most natural way to say 'Wait a moment' in casual everyday conversation?",
+     "japanese": null,
+     "choices": [
+      "すこし待[ま]って。",
+      "ちょっと待[ま]って。",
+      "かなり待[ま]って。",
+      "ぜんぜん待[ま]って。"
+     ],
+     "correctIndex": 1,
+     "explanation": "ちょっと待[ま]って is the natural, casual way to say 'Wait a moment' in everyday speech. すこし is grammatically correct but sounds more formal in this context. かなり待[ま]って is unnatural (かなり describes a high degree, not a brief moment). ぜんぜん before an affirmative is wrong."
+    },
+    {
+     "id": "totemo-sukoshi_q15",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'My grandmother is quite healthy': 祖母[そぼ]は___元気[げんき]です。",
+     "japanese": "祖母[そぼ]は___元気[げんき]です。",
+     "choices": [
+      "あまり",
+      "ぜんぜん",
+      "かなり",
+      "あまりじゃ"
+     ],
+     "correctIndex": 2,
+     "explanation": "Degree adverbs go directly before the adjective/predicate. かなり = quite/fairly, used with affirmative predicates. かなり元気[げんき]です = quite healthy. あまり and ぜんぜん require negative predicates, so they do not fit an affirmative sentence. あまりじゃ is not a valid adverb form."
+    },
+    {
+     "id": "totemo-sukoshi_q16",
+     "type": "usage",
+     "prompt": "Which sentence uses a degree adverb correctly?",
+     "japanese": null,
+     "choices": [
+      "あのホテルはあまりきれいです。",
+      "この問題[もんだい]はぜんぜんむずかしいです。",
+      "すこしわかりません。",
+      "あのホテルはかなりきれいです。"
+     ],
+     "correctIndex": 3,
+     "explanation": "かなり = quite/fairly, used with affirmative predicates. かなりきれいです = quite clean/pretty. Choices A (あまり + affirmative きれいです) and B (ぜんぜん + affirmative むずかしいです) violate the negative-required rule for あまり and ぜんぜん. Choice C (すこし + negative) is atypical — すこし normally pairs with affirmative predicates."
+    },
+    {
+     "id": "totemo-sukoshi_q17",
+     "type": "translation",
+     "prompt": "Which sentence correctly means 'This restaurant is quite good'?",
+     "japanese": null,
+     "choices": [
+      "このレストランはかなりいいです。",
+      "このレストランはあまりいいです。",
+      "このレストランはぜんぜんいいです。",
+      "このレストランはすこしよくないです。"
+     ],
+     "correctIndex": 0,
+     "explanation": "かなり = 'quite/fairly' and pairs with affirmative predicates. かなりいいです = quite good. あまり and ぜんぜん require negative predicates, so あまりいいです and ぜんぜんいいです are grammar errors. Option D (すこしよくない) means 'not very good / a little bad' — the opposite meaning."
+    },
+    {
+     "id": "totemo-sukoshi_q18",
+     "type": "fillBlank",
+     "prompt": "Fill in the blank to say 'I don't sleep at all lately': 最近[さいきん]、___ねません。",
+     "japanese": "最近[さいきん]、___ねません。",
+     "choices": [
+      "とても",
+      "ぜんぜん",
+      "かなり",
+      "すこし"
+     ],
+     "correctIndex": 1,
+     "explanation": "ぜんぜん = 'not at all' and requires a negative predicate. ぜんぜんねません = don't sleep at all. とても and かなり pair with affirmative predicates. すこし before a negative is unusual — use あまり if you want 'not very/not much.'"
+    },
+    {
+     "id": "totemo-sukoshi_q19",
+     "type": "construct",
+     "prompt": "A student wrote: このえいがはとても面白[おもしろ]くないです。What is the issue with this sentence?",
+     "japanese": "このえいがはとても面白[おもしろ]くないです。",
+     "choices": [
+      "Nothing — the sentence is grammatically correct, with no exceptions in modern standard Japanese.",
+      "とても should be ちょっと.",
+      "とても does not naturally pair with a negative predicate; use あまり or ぜんぜん instead.",
+      "面白[おもしろ]くないです should be 面白[おもしろ]じゃありません."
+     ],
+     "correctIndex": 2,
+     "explanation": "とても is a positive intensifier and does not naturally combine with negative predicates. The correct adverb before 面白[おもしろ]くないです would be あまり (not very interesting) or ぜんぜん (not at all interesting). とても is reserved for affirmative predicates. Note: Option D is also wrong — 面白[おもしろ]い is an い-adjective, so its correct negative is 面白[おもしろ]くないです, not 面白[おもしろ]じゃありません."
+    },
+    {
+     "id": "totemo-sukoshi_q20",
+     "type": "usage",
+     "prompt": "Which sentence means 'Tanaka-san doesn't study very much'?",
+     "japanese": null,
+     "choices": [
+      "田中[たなか]さんはとても勉強[べんきょう]します。",
+      "田中[たなか]さんはすこし勉強[べんきょう]します。",
+      "田中[たなか]さんはぜんぜん勉強[べんきょう]します。",
+      "田中[たなか]さんはあまり勉強[べんきょう]しません。"
+     ],
+     "correctIndex": 3,
+     "explanation": "あまり = 'not very/not much' and pairs with a negative predicate. Degree adverbs modify verbs too, not just adjectives: あまり勉強[べんきょう]しません = doesn't study very much. ぜんぜん勉強[べんきょう]します is wrong (ぜんぜん requires a negative verb). とても勉強[べんきょう]します = studies very hard (opposite meaning). すこし勉強[べんきょう]します = studies a little."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch05_v01",
+   "partOfSpeech": "i-adjective",
+   "kanji": "大きい",
+   "kana": "おおきい",
+   "romaji": "ookii",
+   "definition": "big"
+  },
+  {
+   "id": "ch05_v02",
+   "partOfSpeech": "i-adjective",
+   "kanji": "小さい",
+   "kana": "ちいさい",
+   "romaji": "chiisai",
+   "definition": "small"
+  },
+  {
+   "id": "ch05_v03",
+   "partOfSpeech": "i-adjective",
+   "kanji": "新しい",
+   "kana": "あたらしい",
+   "romaji": "atarashii",
+   "definition": "new"
+  },
+  {
+   "id": "ch05_v04",
+   "partOfSpeech": "i-adjective",
+   "kanji": "古い",
+   "kana": "ふるい",
+   "romaji": "furui",
+   "definition": "old (of things)"
+  },
+  {
+   "id": "ch05_v05",
+   "partOfSpeech": "i-adjective",
+   "kanji": "高い",
+   "kana": "たかい",
+   "romaji": "takai",
+   "definition": "high; tall; expensive"
+  },
+  {
+   "id": "ch05_v06",
+   "partOfSpeech": "i-adjective",
+   "kanji": "低い",
+   "kana": "ひくい",
+   "romaji": "hikui",
+   "definition": "low"
+  },
+  {
+   "id": "ch05_v07",
+   "partOfSpeech": "i-adjective",
+   "kanji": "安い",
+   "kana": "やすい",
+   "romaji": "yasui",
+   "definition": "cheap"
+  },
+  {
+   "id": "ch05_v08",
+   "partOfSpeech": "i-adjective",
+   "kanji": "良い",
+   "kana": "いい",
+   "romaji": "ii",
+   "definition": "good"
+  },
+  {
+   "id": "ch05_v09",
+   "partOfSpeech": "i-adjective",
+   "kanji": "悪い",
+   "kana": "わるい",
+   "romaji": "warui",
+   "definition": "bad"
+  },
+  {
+   "id": "ch05_v10",
+   "partOfSpeech": "i-adjective",
+   "kanji": "暑い",
+   "kana": "あつい",
+   "romaji": "atsui",
+   "definition": "hot (weather)"
+  },
+  {
+   "id": "ch05_v11",
+   "partOfSpeech": "i-adjective",
+   "kanji": "寒い",
+   "kana": "さむい",
+   "romaji": "samui",
+   "definition": "cold (weather)"
+  },
+  {
+   "id": "ch05_v12",
+   "partOfSpeech": "i-adjective",
+   "kanji": "冷たい",
+   "kana": "つめたい",
+   "romaji": "tsumetai",
+   "definition": "cold (to the touch)"
+  },
+  {
+   "id": "ch05_v13",
+   "partOfSpeech": "i-adjective",
+   "kanji": "難しい",
+   "kana": "むずかしい",
+   "romaji": "muzukashii",
+   "definition": "difficult"
+  },
+  {
+   "id": "ch05_v14",
+   "partOfSpeech": "i-adjective",
+   "kanji": "易しい",
+   "kana": "やさしい",
+   "romaji": "yasashii",
+   "definition": "easy"
+  },
+  {
+   "id": "ch05_v15",
+   "partOfSpeech": "i-adjective",
+   "kanji": "楽しい",
+   "kana": "たのしい",
+   "romaji": "tanoshii",
+   "definition": "fun; enjoyable"
+  },
+  {
+   "id": "ch05_v16",
+   "partOfSpeech": "i-adjective",
+   "kanji": "面白い",
+   "kana": "おもしろい",
+   "romaji": "omoshiroi",
+   "definition": "interesting; funny"
+  },
+  {
+   "id": "ch05_v17",
+   "partOfSpeech": "i-adjective",
+   "kanji": "つまらない",
+   "kana": "つまらない",
+   "romaji": "tsumaranai",
+   "definition": "boring"
+  },
+  {
+   "id": "ch05_v18",
+   "partOfSpeech": "i-adjective",
+   "kanji": "忙しい",
+   "kana": "いそがしい",
+   "romaji": "isogashii",
+   "definition": "busy"
+  },
+  {
+   "id": "ch05_v19",
+   "partOfSpeech": "i-adjective",
+   "kanji": "早い",
+   "kana": "はやい",
+   "romaji": "hayai",
+   "definition": "early; fast"
+  },
+  {
+   "id": "ch05_v20",
+   "partOfSpeech": "i-adjective",
+   "kanji": "遅い",
+   "kana": "おそい",
+   "romaji": "osoi",
+   "definition": "late; slow"
+  },
+  {
+   "id": "ch05_v21",
+   "partOfSpeech": "i-adjective",
+   "kanji": "長い",
+   "kana": "ながい",
+   "romaji": "nagai",
+   "definition": "long"
+  },
+  {
+   "id": "ch05_v22",
+   "partOfSpeech": "i-adjective",
+   "kanji": "短い",
+   "kana": "みじかい",
+   "romaji": "mijikai",
+   "definition": "short"
+  },
+  {
+   "id": "ch05_v23",
+   "partOfSpeech": "i-adjective",
+   "kanji": "明るい",
+   "kana": "あかるい",
+   "romaji": "akarui",
+   "definition": "bright; cheerful"
+  },
+  {
+   "id": "ch05_v24",
+   "partOfSpeech": "i-adjective",
+   "kanji": "暗い",
+   "kana": "くらい",
+   "romaji": "kurai",
+   "definition": "dark"
+  },
+  {
+   "id": "ch05_v25",
+   "partOfSpeech": "i-adjective",
+   "kanji": "重い",
+   "kana": "おもい",
+   "romaji": "omoi",
+   "definition": "heavy"
+  },
+  {
+   "id": "ch05_v26",
+   "partOfSpeech": "i-adjective",
+   "kanji": "軽い",
+   "kana": "かるい",
+   "romaji": "karui",
+   "definition": "light (in weight)"
+  },
+  {
+   "id": "ch05_v27",
+   "partOfSpeech": "i-adjective",
+   "kanji": "強い",
+   "kana": "つよい",
+   "romaji": "tsuyoi",
+   "definition": "strong"
+  },
+  {
+   "id": "ch05_v28",
+   "partOfSpeech": "i-adjective",
+   "kanji": "弱い",
+   "kana": "よわい",
+   "romaji": "yowai",
+   "definition": "weak"
+  },
+  {
+   "id": "ch05_v29",
+   "partOfSpeech": "i-adjective",
+   "kanji": "おいしい",
+   "kana": "おいしい",
+   "romaji": "oishii",
+   "definition": "delicious"
+  },
+  {
+   "id": "ch05_v30",
+   "partOfSpeech": "i-adjective",
+   "kanji": "かわいい",
+   "kana": "かわいい",
+   "romaji": "kawaii",
+   "definition": "cute"
+  },
+  {
+   "id": "ch05_v31",
+   "partOfSpeech": "na-adjective",
+   "kanji": "きれい",
+   "kana": "きれい",
+   "romaji": "kirei",
+   "definition": "pretty; clean"
+  },
+  {
+   "id": "ch05_v32",
+   "partOfSpeech": "na-adjective",
+   "kanji": "有名",
+   "kana": "ゆうめい",
+   "romaji": "yuumei",
+   "definition": "famous"
+  },
+  {
+   "id": "ch05_v33",
+   "partOfSpeech": "na-adjective",
+   "kanji": "元気",
+   "kana": "げんき",
+   "romaji": "genki",
+   "definition": "healthy; energetic"
+  },
+  {
+   "id": "ch05_v34",
+   "partOfSpeech": "na-adjective",
+   "kanji": "静か",
+   "kana": "しずか",
+   "romaji": "shizuka",
+   "definition": "quiet"
+  },
+  {
+   "id": "ch05_v35",
+   "partOfSpeech": "na-adjective",
+   "kanji": "にぎやか",
+   "kana": "にぎやか",
+   "romaji": "nigiyaka",
+   "definition": "lively; bustling"
+  },
+  {
+   "id": "ch05_v36",
+   "partOfSpeech": "na-adjective",
+   "kanji": "便利",
+   "kana": "べんり",
+   "romaji": "benri",
+   "definition": "convenient"
+  },
+  {
+   "id": "ch05_v37",
+   "partOfSpeech": "na-adjective",
+   "kanji": "大切",
+   "kana": "たいせつ",
+   "romaji": "taisetsu",
+   "definition": "important; precious"
+  },
+  {
+   "id": "ch05_v38",
+   "partOfSpeech": "na-adjective",
+   "kanji": "好き",
+   "kana": "すき",
+   "romaji": "suki",
+   "definition": "liked; fond of"
+  },
+  {
+   "id": "ch05_v39",
+   "partOfSpeech": "na-adjective",
+   "kanji": "嫌い",
+   "kana": "きらい",
+   "romaji": "kirai",
+   "definition": "disliked"
+  },
+  {
+   "id": "ch05_v40",
+   "partOfSpeech": "na-adjective",
+   "kanji": "上手",
+   "kana": "じょうず",
+   "romaji": "jouzu",
+   "definition": "skillful; good at"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "大",
+   "word": "大きい",
+   "reading": "おおきい",
+   "meaning": "big"
+  },
+  {
+   "char": "長",
+   "word": "長い",
+   "reading": "ながい",
+   "meaning": "long"
+  },
+  {
+   "char": "上",
+   "word": "上",
+   "reading": "うえ",
+   "meaning": "above"
+  },
+  {
+   "char": "高",
+   "word": "高い",
+   "reading": "たかい",
+   "meaning": "high; tall; expensive"
+  },
+  {
+   "char": "円",
+   "word": "円",
+   "reading": "えん",
+   "meaning": "yen (Japanese monetary unit)"
+  },
+  {
+   "char": "小",
+   "word": "小さい",
+   "reading": "ちいさい",
+   "meaning": "small"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "大きい",
+   "kana": "おおきい",
+   "romaji": "ookii",
+   "meaning": "big",
+   "chars": [
+    "大"
+   ]
+  },
+  {
+   "word": "長い",
+   "kana": "ながい",
+   "romaji": "nagai",
+   "meaning": "long",
+   "chars": [
+    "長"
+   ]
+  },
+  {
+   "word": "上",
+   "kana": "うえ",
+   "romaji": "ue",
+   "meaning": "above",
+   "chars": [
+    "上"
+   ]
+  },
+  {
+   "word": "高い",
+   "kana": "たかい",
+   "romaji": "takai",
+   "meaning": "high; tall; expensive",
+   "chars": [
+    "高"
+   ]
+  },
+  {
+   "word": "円",
+   "kana": "えん",
+   "romaji": "en",
+   "meaning": "yen (Japanese monetary unit)",
+   "chars": [
+    "円"
+   ]
+  },
+  {
+   "word": "小さい",
+   "kana": "ちいさい",
+   "romaji": "chiisai",
+   "meaning": "small",
+   "chars": [
+    "小"
+   ]
+  },
+  {
+   "word": "長さ",
+   "kana": "ながさ",
+   "romaji": "nagasa",
+   "meaning": "length",
+   "chars": [
+    "長"
+   ]
+  },
+  {
+   "word": "上げる",
+   "kana": "あげる",
+   "romaji": "ageru",
+   "meaning": "to raise",
+   "chars": [
+    "上"
+   ]
+  },
+  {
+   "word": "上がる",
+   "kana": "あがる",
+   "romaji": "agaru",
+   "meaning": "to rise",
+   "chars": [
+    "上"
+   ]
+  },
+  {
+   "word": "上げ",
+   "kana": "あげ",
+   "romaji": "age",
+   "meaning": "tuck (e.g. in a dress)",
+   "chars": [
+    "上"
+   ]
+  },
+  {
+   "word": "上がり",
+   "kana": "あがり",
+   "romaji": "agari",
+   "meaning": "rise",
+   "chars": [
+    "上"
+   ]
+  },
+  {
+   "word": "明るい",
+   "kana": "あかるい",
+   "romaji": "akarui",
+   "meaning": "bright; cheerful",
+   "chars": [
+    "明"
+   ]
+  },
+  {
+   "word": "元気",
+   "kana": "げんき",
+   "romaji": "genki",
+   "meaning": "healthy; energetic; in good spirits",
+   "chars": [
+    "元",
+    "気"
+   ]
+  },
+  {
+   "word": "楽しい",
+   "kana": "たのしい",
+   "romaji": "tanoshii",
+   "meaning": "enjoyable",
+   "chars": [
+    "楽"
+   ]
+  },
+  {
+   "word": "古い",
+   "kana": "ふるい",
+   "romaji": "furui",
+   "meaning": "old",
+   "chars": [
+    "古"
+   ]
+  },
+  {
+   "word": "面白い",
+   "kana": "おもしろい",
+   "romaji": "omoshiroi",
+   "meaning": "interesting",
+   "chars": [
+    "面",
+    "白"
+   ]
+  },
+  {
+   "word": "難しい",
+   "kana": "むずかしい",
+   "romaji": "muzukashii",
+   "meaning": "difficult",
+   "chars": [
+    "難"
+   ]
+  },
+  {
+   "word": "好き",
+   "kana": "すき",
+   "romaji": "suki",
+   "meaning": "liking; fond of",
+   "chars": [
+    "好"
+   ]
+  },
+  {
+   "word": "便利",
+   "kana": "べんり",
+   "romaji": "benri",
+   "meaning": "convenient",
+   "chars": [
+    "便",
+    "利"
+   ]
+  },
+  {
+   "word": "暗い",
+   "kana": "くらい",
+   "romaji": "kurai",
+   "meaning": "dark",
+   "chars": [
+    "暗"
+   ]
+  },
+  {
+   "word": "忙しい",
+   "kana": "いそがしい",
+   "romaji": "isogashii",
+   "meaning": "busy",
+   "chars": [
+    "忙"
+   ]
+  }
+ ]
 }

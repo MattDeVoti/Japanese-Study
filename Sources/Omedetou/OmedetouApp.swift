@@ -8,6 +8,7 @@ struct OmedetouApp: App {
     @StateObject private var grammarFilter = GrammarFilter()
     @StateObject private var themeManager = ThemeManager()
     @State private var deepLink: WidgetDeepLink?
+    @ObservedObject private var reminders = NotificationService.shared
     @StateObject private var cloud = CloudSyncService.shared
 
     init() {
@@ -31,12 +32,37 @@ struct OmedetouApp: App {
             .onOpenURL { url in
                 deepLink = WidgetDeepLink(url: url)
             }
+            // A tapped reminder opens the chapter its test covers. Presented the
+            // same way as a widget tap: a sheet over wherever the user already
+            // was, rather than rearranging their navigation under them.
+            .sheet(item: Binding(get: { reminders.tappedChapterId.map(TappedChapter.init) },
+                                 set: { if $0 == nil { reminders.tappedChapterId = nil } })) { tapped in
+                NavigationStack {
+                    if let summary = LessonsService.shared.chapterSummary(for: tapped.id) {
+                        ChapterDetailView(summary: summary,
+                                          accentColor: levelAccentColor(
+                                            LessonsService.shared.levelId(for: tapped.id) ?? "N5"))
+                    }
+                }
+                .environmentObject(store)
+                .environmentObject(kanjiFilter)
+                .environmentObject(grammarFilter)
+                .environmentObject(themeManager)
+                .environment(\.colorScheme, themeManager.current.colorScheme)
+                .preferredColorScheme(themeManager.current.colorScheme)
+            }
             .task {
                 // Settings arrive over the key-value store on their own; progress
                 // is pulled once at launch and again whenever the app comes back,
                 // which is exactly when you've picked up the other device.
+                // Before anything else that might take time: a transaction can
+                // be waiting at launch (an Ask to Buy approval, a purchase made
+                // on another device), and one that lands with no listener
+                // attached is missed until the next cold start.
+                StoreService.shared.start()
                 SettingsSync.shared.start()
                 CloudSyncService.shared.syncInBackground()
+                NotificationService.shared.registerAsDelegate()
             }
             .sheet(item: $deepLink) { link in
                 NavigationStack { WidgetDeepLinkView(link: link) }
@@ -72,7 +98,6 @@ struct OmedetouApp: App {
                 guard phase == .active else { return }
                 // A day may have rolled over while the app was backgrounded, and the
                 // practice nudge, if the user asked for one, is rewritten for the week.
-                SRSStore.shared.rolloverDayIfNeeded()
                 NotificationService.shared.refreshAuthorization()
                 // Republish what the widgets show, so a new install or new
                 // content reaches the home screen without further prompting.
@@ -80,4 +105,10 @@ struct OmedetouApp: App {
             }
         }
     }
+}
+
+/// Wraps the chapter id a tapped reminder resolved to, so it can drive a
+/// `sheet(item:)`.
+private struct TappedChapter: Identifiable {
+    let id: String
 }

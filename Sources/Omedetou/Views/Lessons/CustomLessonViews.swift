@@ -28,7 +28,8 @@ struct CustomLessonCircleButton: View {
     var body: some View {
         AestheticTile(title: lesson.name, subtitle: itemsLabel(lesson.itemCount),
                       glyph: "組", icon: "square.stack.3d.up.fill",
-                      color: customAccent, aspect: nil, titleSize: 17)
+                      color: customAccent, aspect: nil, titleSize: 17,
+                      backdrop: FallingKanaField.backdrop(tint: customAccent))
             .frame(height: LessonsView.barHeight)
     }
 }
@@ -173,6 +174,7 @@ struct AddToCustomLessonSheet: View {
                     Section {
                         ForEach(store.lessons) { lesson in
                             Button {
+                                FeedbackSounds.shared.play(.notification)
                                 store.toggle(item, in: lesson.id)
                             } label: {
                                 HStack {
@@ -199,7 +201,7 @@ struct AddToCustomLessonSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
                 }
             }
         }
@@ -260,7 +262,7 @@ struct CustomLessonDetailView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 if isRemoving {
-                    Button("Done") { isRemoving = false }
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); isRemoving = false }
                         .fontWeight(.semibold)
                         .foregroundColor(.appNavBarText)
                 } else {
@@ -389,7 +391,11 @@ struct CustomLessonDetailView: View {
                     }
                 }
                 NavigationLink {
-                    KanjiStudyView(lockedChapter: LockedKanjiChapter(title: lesson?.name ?? "Custom", kanji: kanjiOrder))
+                    // A custom lesson stores bare characters; each is studied as
+                    // the word its home chapter teaches it in.
+                    KanjiStudyView(lockedChapter: LockedKanjiChapter(
+                        title: lesson?.name ?? "Custom",
+                        words: kanjiOrder.compactMap { LessonsService.shared.primaryWord(for: $0) }))
                 } label: {
                     StudyButtonLabel(title: "Study Kanji", accent: customAccent)
                 }

@@ -29,7 +29,7 @@ struct HelpView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
                 }
             }
         }
@@ -63,6 +63,7 @@ struct HelpView: View {
         return VStack(alignment: .leading, spacing: 10) {
             Button {
                 withAnimation(.easeInOut(duration: 0.18)) {
+                    FeedbackSounds.shared.play(.slide)
                     if isOpen { open.remove(topic.id) } else { open.insert(topic.id) }
                 }
             } label: {
@@ -152,17 +153,6 @@ struct HelpView: View {
                     "It's available for the whole run-up to the test, not just on the day.",
                   ]),
 
-            Topic(id: "reviews", icon: "bolt.fill", color: .themeTile(11),
-                  title: "Reviews",
-                  summary: "Spaced repetition, as test prep",
-                  body: [
-                    "Reviews use **spaced repetition**: each item is scheduled for roughly the moment you're about to forget it, so a little often beats cramming.",
-                    "Things enter your review schedule three ways: **you get them wrong on a test**, you mark them Confident or Needs Work on a flashcard, or you seed the schedule from everything you've already checked off.",
-                    "When you review, grade yourself honestly with **Again / Hard / Good / Easy**. Each button shows how far it pushes the card before you press it. Getting something wrong brings it back in about ten minutes, not next month.",
-                    "Reviews are a **tool, not a chore**. There's no streak, nothing is ever owed, and a round is always available — if nothing is ripe, it just picks whatever you've been finding hardest. Since missed test questions land here, it's the most direct way to prepare for a retake.",
-                    "Optionally, **Options ▸ Practice** can offer you one short round a day at a time you choose. It's off unless you turn it on, it never counts anything at you, and ignoring it costs you nothing.",
-                  ]),
-
             Topic(id: "textbook", icon: "books.vertical.fill", color: .themeTile(0),
                   title: "Textbook",
                   summary: "All the teaching material",
@@ -173,17 +163,17 @@ struct HelpView: View {
                     "**Favorites** collects anything you star while studying.",
                     "**Custom** lets you build a lesson from any mix of grammar points, words and kanji. It starts with ready-made sets for the things learners most often mix up — the four \"if\"s, られる, こそあど, look-alike kanji — and you can delete any you don't want.",
                     "To build your own, tap **+** in the Custom section, or long-press any point, word or kanji in a chapter and add it. Each lesson studies as its own deck.",
-                    "Tap the checkmark on any point, word or kanji to mark it done. Those checkmarks drive the chapter progress badges, and can seed your review schedule.",
+                    "Tap the checkmark on any point, word or kanji to mark it done. Those checkmarks drive the chapter progress badges.",
                   ]),
 
             Topic(id: "study", icon: "brain.head.profile", color: .themeTile(3),
                   title: "Study",
                   summary: "Drills, flashcards and quizzes",
                   body: [
-                    "**Progress** — your report card, and a practice round drawn from whatever you've been getting wrong.",
+                    "**Progress** — your report card: every test you've sat, a grade per lesson and a GPA per level.",
                     "**Nothing in Study is graded.** Drills, flashcards, quizzes and reading all exist to help you learn — only the tests on your report card affect your grade and GPA. The same goes for the Practice buttons inside Textbook chapters.",
                     "**Kana Pronunciation** — sound drills for Hiragana and Katakana.",
-                    "**Vocab and Kanji flashcards** — tap Check to reveal, then Needs Work or Confident. Confident also ticks the item off.",
+                    "**Vocab and Kanji flashcards** — tap Check to reveal, then Needs Work or Confident. Confident also ticks the item off. Kanji cards are whole words — 校長, not a bare 校 — with the kanji they contain a tap away; filter them by chapter to match where you are in the Textbook.",
                     "**Grammar Quizzes** — one per level, plus one for Slang. Multiple choice on the grammar of that level.",
                     "**Conjugation** — pick the right form of a verb or adjective. The wrong answers are that same word's other forms, which is where conjugation actually goes wrong.",
                     "**Reading** — full passages with comprehension questions. Press and hold any word to see its meaning, and use Listen to hear the whole passage.",
@@ -258,7 +248,7 @@ Topic(id: "dictionary", icon: "magnifyingglass", color: .themeTile(6),
                   title: "Backup & restore",
                   summary: "Don't lose your progress",
                   body: [
-                    "There's no account and no cloud sync, which means **deleting the app deletes everything** — grades, review schedule, custom lessons, favourites and settings.",
+                    "There's no account and no cloud sync, which means **deleting the app deletes everything** — grades, checkmarks, custom lessons, favourites and settings.",
                     "**Options ▸ Backup & Restore** exports the lot into a single file you can save anywhere or send to yourself. The same file restores onto a new phone.",
                     "Worth doing occasionally, and definitely before changing devices.",
                   ]),

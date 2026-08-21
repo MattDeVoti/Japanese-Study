@@ -430,7 +430,7 @@ enum CheatSheetLibrary {
                     CheatRow("ご + noun + する", "Humble, する-nouns", "ご案内する"),
                     CheatRow("〜ていらっしゃる", "Respectful 〜ている", "待っていらっしゃる"),
                     CheatRow("〜ております", "Humble 〜ている", "待っております"),
-                    CheatRow("〜れる · 〜られる", "Lightly respectful", "書かれる — softer than なさる"),
+                    CheatRow("〜れる · 〜られる", "Lightly respectful", "書かれる — lighter than お書きになる"),
                 ]),
             CheatSection(
                 title: "Polite fixtures",
@@ -751,7 +751,7 @@ enum CheatSheetLibrary {
                 CheatItem("台風", "たいふう — typhoon", symbol: "tropicalstorm"),
                 CheatItem("暑い", "あつい — hot (weather)"), CheatItem("寒い", "さむい — cold (weather)"),
                 CheatItem("暖かい", "あたたかい — warm"),
-                CheatItem("涼しい", "すずしい — cool"), CheatItem("蒸し暑い", "むしあつい — humid"),
+                CheatItem("涼しい", "すずしい — cool"), CheatItem("蒸し暑い", "むしあつい — hot and humid, muggy"),
                 CheatItem("天気", "てんき — weather"),
             ]),
             CheatSection(title: "Seasons", columns: 2, items: [
@@ -1154,7 +1154,7 @@ enum CheatSheetLibrary {
 
             CheatSection(
                 title: "Building them — the two regular groups",
-                note: "Group 1 works off the あ-row stem; Group 2 just drops る. Note the "
+                note: "Group 1 works off the あ-row stem (え-row for the potential); Group 2 just drops る. Note the "
                     + "collision in the last column and the row above it.",
                 headers: ["", "Group 1 · 書く", "Group 2 · 食べる"],
                 rows: [
@@ -1317,7 +1317,7 @@ enum CheatSheetLibrary {
                     CheatRow("A is more ~\nthan B", "A は B より ~", "日本は韓国より大きい\nJapan is bigger than Korea"),
                     CheatRow("B is the\nmore ~ one", "A より B の ほうが ~", "紅茶よりコーヒーのほうが好き\nI prefer coffee to tea"),
                     CheatRow("the most ~", "〜の中で 一番 ~", "クラスで一番背が高い\nthe tallest in the class"),
-                    CheatRow("as ~ as", "A は B と 同じくらい ~", "兄と同じくらい高い\nas tall as my brother"),
+                    CheatRow("as ~ as", "A は B と 同じくらい ~", "兄と同じくらい背が高い\nas tall as my brother"),
                     CheatRow("not as ~ as", "A は B ほど ~ない", "日本はロシアほど大きくない\nJapan isn't as big as Russia"),
                 ]),
 
@@ -1516,7 +1516,7 @@ enum CheatSheetLibrary {
                          note: "Not every name tells you a gender, and assuming can be worse "
                              + "than asking.",
                          columns: 2, items: [
-                CheatItem("直美", "なおみ · either"),
+                CheatItem("薫", "かおる · either"),
                 CheatItem("誠", "まこと · either"),
                 CheatItem("樹", "いつき · either"),
                 CheatItem("蓮", "れん · either"),

@@ -13,6 +13,59 @@ import NaturalLanguage
 /// When `interactive` is true, a long-press reports the word under the finger and
 /// its on-screen rect (in global coordinates) via `onWordSelect` — used by reading
 /// passages for pop-up dictionary lookups.
+/// Text that may or may not carry furigana markup.
+///
+/// Renders as ruby when the string contains `漢字[よみ]` and as ordinary text when
+/// it doesn't — which is exactly the rule a quiz needs: a question *about* a
+/// reading carries no markup (that's the thing being asked), so it stays plain,
+/// while everything else gets its readings set above the kanji instead of in
+/// brackets beside it.
+struct JapaneseText: View {
+    let text: String
+    var fontSize: CGFloat = 17
+    var color: Color = .appText
+    var weight: UIFont.Weight = .regular
+    var alignment: NSTextAlignment = .left
+
+    /// The markup is `kanji[kana]`; a bare `[` in an English prompt shouldn't
+    /// send it down the ruby path.
+    private var hasFurigana: Bool {
+        text.range(of: "[一-鿿㐀-䶿々〆〇ヶ]+\\[[぀-ゟ゠-ヿー]+\\]",
+                   options: .regularExpression) != nil
+    }
+
+    var body: some View {
+        if hasFurigana {
+            FuriganaText(text: text, fontSize: fontSize, color: color,
+                         weight: weight, alignment: alignment)
+        } else {
+            Text(text)
+                .font(.system(size: fontSize, weight: Font.Weight(weight)))
+                .foregroundColor(color)
+                .multilineTextAlignment(alignment == .center ? .center : .leading)
+                .frame(maxWidth: .infinity,
+                       alignment: alignment == .center ? .center : .leading)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+    }
+}
+
+private extension Font.Weight {
+    /// The two weight types don't bridge, and the handful of weights this app
+    /// actually uses is small enough to map by hand.
+    init(_ w: UIFont.Weight) {
+        switch w {
+        case .bold:      self = .bold
+        case .semibold:  self = .semibold
+        case .medium:    self = .medium
+        case .light:     self = .light
+        case .heavy:     self = .heavy
+        case .black:     self = .black
+        default:         self = .regular
+        }
+    }
+}
+
 struct FuriganaText: UIViewRepresentable {
     let text: String
     var fontSize: CGFloat = 17
@@ -25,6 +78,15 @@ struct FuriganaText: UIViewRepresentable {
     /// CoreText's own line origins, so they track the text exactly — including when
     /// the Japanese text-size slider changes the line height.
     var lineRule: Color? = nil
+
+    /// Extra leading between lines, as a multiple of the font size.
+    ///
+    /// Opt-in and zero by default, because this view renders everywhere — reading
+    /// passages, vocab rows, cheat sheets — and they are tuned as they are. Lesson
+    /// prose sets it: with no leading, a ruby annotation is drawn into the line
+    /// above it, so furigana on a wrapped paragraph physically collides with the
+    /// previous line. Space is what separates them.
+    var extraLeading: CGFloat = 0
 
     /// Observed so changing the Japanese text size re-renders every instance —
     /// CoreText draws at a fixed point size and won't pick it up on its own.
@@ -45,7 +107,8 @@ struct FuriganaText: UIViewRepresentable {
             fontSize: scaledFontSize,
             color: UIColor(color),
             weight: weight,
-            alignment: alignment
+            alignment: alignment,
+            extraLeading: extraLeading
         )
     }
 
@@ -55,7 +118,7 @@ struct FuriganaText: UIViewRepresentable {
         // otherwise larger text is clipped by a height computed for the old size.
         uiView.lineRuleColor = lineRule.map { UIColor($0) }
         uiView.configure(text: text, fontSize: scaledFontSize, color: UIColor(color),
-                         weight: weight, alignment: alignment)
+                         weight: weight, alignment: alignment, extraLeading: extraLeading)
         let h = uiView.preferredHeight(for: w)
         return CGSize(width: w, height: max(h, 1))
     }
@@ -72,6 +135,7 @@ final class FuriganaCanvas: UIView {
     private var fontSize: CGFloat = 17
     private var weight: UIFont.Weight = .regular
     private var alignment: NSTextAlignment = .left
+    private var extraLeading: CGFloat = 0
     private var segments: [(range: NSRange, reading: String)] = []
 
     var onWordSelect: ((String, CGRect) -> Void)?
@@ -161,13 +225,39 @@ final class FuriganaCanvas: UIView {
     }
 
     private func longestDictionaryMatch(from start: Int, in ns: NSString, fallback: NSRange) -> NSRange {
+        // Forward from where the tokenizer began the word: rejoins compounds it
+        // split (図書 + 館 → 図書館, 自転 + 車 → 自転車).
+        if let r = greedyMatch(from: start, in: ns) { return r }
+
+        // Nothing starts here, which usually means the press landed on the tail
+        // of a word rather than its head. The tokenizer hands back inflectional
+        // pieces as their own tokens — 食べた arrives as 食べ + た — so a press on
+        // た searched forward from た and found nothing, which is most of what
+        // "no dictionary entry found" was. Walk the start backward and take the
+        // first word that actually covers the character under the finger.
+        var s = start - 1
+        while s >= max(0, start - 8) {
+            // A word starting back here is only useful if it reaches the
+            // character under the finger, so never ask the dictionary about the
+            // shorter ones — they cannot win even if they match. That prunes
+            // about a third of the candidates on this path, and this path is
+            // where a press gets expensive.
+            if let r = greedyMatch(from: s, in: ns, minLength: start - s + 1) { return r }
+            s -= 1
+        }
+        return fallback
+    }
+
+    /// Longest entry the dictionary knows that begins exactly at `start`.
+    private func greedyMatch(from start: Int, in ns: NSString, minLength: Int = 1) -> NSRange? {
+        guard start >= 0, start < ns.length, minLength <= 12 else { return nil }
         var len = min(ns.length - start, 12)
-        while len >= 1 {
+        while len >= minLength {
             let cand = ns.substring(with: NSRange(location: start, length: len))
             if WordLookup.lookup(cand) != nil { return NSRange(location: start, length: len) }
             len -= 1
         }
-        return fallback
+        return nil
     }
 
     private func wordRange(in text: String, utf16Index: Int) -> NSRange? {
@@ -193,7 +283,8 @@ final class FuriganaCanvas: UIView {
         fontSize: CGFloat,
         color: UIColor,
         weight: UIFont.Weight,
-        alignment: NSTextAlignment
+        alignment: NSTextAlignment,
+        extraLeading: CGFloat = 0
     ) {
         let contentChanged = text != rawText || fontSize != self.fontSize || weight != self.weight
         self.rawText = text
@@ -201,6 +292,7 @@ final class FuriganaCanvas: UIView {
         self.fontSize = fontSize
         self.weight = weight
         self.alignment = alignment
+        self.extraLeading = extraLeading
         if contentChanged {
             (displayText, segments) = FuriganaAnnotator.process(text)
             // CoreText drawing is invisible to VoiceOver — without this the view is
@@ -279,6 +371,9 @@ final class FuriganaCanvas: UIView {
         let rubyFont = UIFont.systemFont(ofSize: max(floor(fontSize * 0.55), 7), weight: weight)
         let paraStyle = NSMutableParagraphStyle()
         paraStyle.alignment = alignment
+        // Scaled off the font rather than a fixed number of points, so it holds
+        // its proportions when the Japanese text-size slider moves.
+        paraStyle.lineSpacing = fontSize * extraLeading
         let result = NSMutableAttributedString(string: displayText, attributes: [
             .font: font,
             .foregroundColor: color,
@@ -425,6 +520,12 @@ struct ExplanationBody: View {
     var fontSize: CGFloat = 14
     var color: Color = .appText
     var bulletColor: Color = .secondary
+    /// Passed to every paragraph and bullet — see `FuriganaText.extraLeading`.
+    ///
+    /// Zero by default: the particle cards and the culture articles render their
+    /// prose through here too, and they are not what this pass was asked to
+    /// change. The grammar card opts in.
+    var extraLeading: CGFloat = 0
 
     private enum Block: Identifiable {
         case paragraph(String)
@@ -438,20 +539,22 @@ struct ExplanationBody: View {
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 11) {
+        VStack(alignment: .leading, spacing: 14) {
             ForEach(blocks) { block in
                 switch block {
                 case .paragraph(let s):
-                    FuriganaText(text: s, fontSize: fontSize, color: color)
+                    FuriganaText(text: s, fontSize: fontSize, color: color,
+                                 extraLeading: extraLeading)
                         .fixedSize(horizontal: false, vertical: true)
                 case .bullets(let items):
-                    VStack(alignment: .leading, spacing: 7) {
+                    VStack(alignment: .leading, spacing: 9) {
                         ForEach(Array(items.enumerated()), id: \.offset) { _, item in
                             HStack(alignment: .top, spacing: 8) {
                                 Text("•")
-                                    .font(.system(size: fontSize, weight: .semibold))
+                                    .font(.system(size: fontSize, weight: .bold))
                                     .foregroundColor(bulletColor)
-                                FuriganaText(text: item, fontSize: fontSize, color: color)
+                                FuriganaText(text: item, fontSize: fontSize, color: color,
+                                             extraLeading: extraLeading)
                                     .fixedSize(horizontal: false, vertical: true)
                             }
                         }

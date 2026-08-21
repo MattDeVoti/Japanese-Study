@@ -21,7 +21,7 @@
     "romaji": "o / wo",
     "meaning": "object marker particle",
     "level": "N5",
-    "explanation": "を marks the direct object — the thing an action is done to. It's written with the special hiragana を (used only as this particle) and pronounced \"o.\"\n- Direct object: パンを食[た]べます (I eat bread), 本[ほん]を読[よ]みます (I read a book)\n- With motion verbs, it marks the space moved *through* or *along*: 公園[こうえん]を散歩[さんぽ]します (I stroll through the park), 橋[はし]を渡[わた]る (cross a bridge), 空[そら]を飛[と]ぶ (fly through the sky)\n- The point of departure with leaving verbs: 家[いえ]を出[で]る (leave the house), 電車[でんしゃ]を降[お]りる (get off the train), 大学[だいがく]を卒業[そつぎょう]する (graduate from university)\n\nNote that some feelings and abilities that are \"objects\" in English take が, not を, in Japanese — 好[す]き, 上手[じょうず], できる, 〜たい all pair with が. And intransitive verbs (ones with no object) never take を."
+    "explanation": "を marks the direct object — the thing an action is done to. It's written with the special hiragana を (used only as this particle) and pronounced \"o.\"\n- Direct object: パンを食[た]べます (I eat bread), 本[ほん]を読[よ]みます (I read a book)\n- With motion verbs, it marks the space moved *through* or *along*: 公園[こうえん]を散歩[さんぽ]します (I stroll through the park), 橋[はし]を渡[わた]る (cross a bridge), 空[そら]を飛[と]ぶ (fly through the sky)\n- The point of departure with leaving verbs: 家[いえ]を出[で]る (leave the house), 電車[でんしゃ]を降[お]りる (get off the train), 大学[だいがく]を卒業[そつぎょう]する (graduate from university)\n\nNote that some feelings and abilities that are \"objects\" in English take が, not を, in Japanese — 好[す]き, 上手[じょうず], できる, 〜たい all pair with が. And most intransitive verbs don't take を — the motion and departure verbs above are the main exception."
   },
   {
     "particleId": "p_051",
@@ -61,7 +61,7 @@
     "romaji": "to",
     "meaning": "and; with; as; connecting particle",
     "level": "N5",
-    "explanation": "と has several core uses, all involving togetherness or a tight link.\n- \"And,\" exhaustively listing nouns (all of them): 犬[いぬ]と猫[ねこ] (a dog and a cat). Unlike や, と implies the list is complete.\n- \"With,\" a companion or partner: 友[とも]だちと行[い]く (go with a friend), 先生[せんせい]と話[はな]す (talk with the teacher)\n- Quotation, marking what is said or thought: 「はい」と言[い]った (said \"yes\"), 学生[がくせい]だと思[おも]う (I think he's a student)\n- \"As,\" in comparisons and change: 前[まえ]と同[おな]じ (the same as before), 違[ちが]う (different from)\n\nと also forms a conditional (\"whenever/if A, then B\" — a natural, automatic result); that use is its own entry."
+    "explanation": "と has several core uses, all involving togetherness or a tight link.\n- \"And,\" exhaustively listing nouns (all of them): 犬[いぬ]と猫[ねこ] (a dog and a cat). Unlike や, と implies the list is complete.\n- \"With,\" a companion or partner: 友[とも]だちと行[い]く (go with a friend), 先生[せんせい]と話[はな]す (talk with the teacher)\n- Quotation, marking what is said or thought: 「はい」と言[い]った (said \"yes\"), 学生[がくせい]だと思[おも]う (I think he's a student)\n- \"As,\" in comparisons and change: 前[まえ]と同[おな]じ (the same as before), 〜と違[ちが]う (different from)\n\nと also forms a conditional (\"whenever/if A, then B\" — a natural, automatic result); that use is its own entry."
   },
   {
     "particleId": "p_022",
@@ -77,7 +77,7 @@
     "romaji": "made",
     "meaning": "until; as far as; to (an extent); even~",
     "level": "N5",
-    "explanation": "まで marks an end point — \"until / up to / as far as.\"\n- Time limit: 五時[ごじ]まで働[はたら]く (work until 5), 月曜日[げつようび]まで (by/until Monday)\n- Spatial extent: 東京[とうきょう]から大阪[おおさか]まで (from Tokyo to Osaka), ここまで (up to here)\n- It naturally pairs with から to frame a span: 九時[くじ]から五時[ごじ]まで (from 9 to 5)\n\nEmphatic まで means \"even,\" stressing something surprising is included: 子供[こども]までそれを知[し]っている (Even children know that). Don't confuse まで with までに: まで means an action *continues up to* a point (ここで待[ま]つ until then), while までに sets a *deadline* by which a one-time action must happen — 五時[ごじ]までに終[お]わらせる (finish it by 5)."
+    "explanation": "まで marks an end point — \"until / up to / as far as.\"\n- Time limit: 五時[ごじ]まで働[はたら]く (work until 5), 月曜日[げつようび]まで (until Monday)\n- Spatial extent: 東京[とうきょう]から大阪[おおさか]まで (from Tokyo to Osaka), ここまで (up to here)\n- It naturally pairs with から to frame a span: 九時[くじ]から五時[ごじ]まで (from 9 to 5)\n\nEmphatic まで means \"even,\" stressing something surprising is included: 子供[こども]までそれを知[し]っている (Even children know that). Don't confuse まで with までに: まで means an action *continues up to* a point (五時[ごじ]まで待[ま]つ — wait until 5), while までに sets a *deadline* by which a one-time action must happen — 五時[ごじ]までに終[お]わらせる (finish it by 5)."
   },
   {
     "particleId": "p_099",
@@ -221,7 +221,7 @@
     "romaji": "nagara",
     "meaning": "while; during; as; simultaneously",
     "level": "N4",
-    "explanation": "〜ながら means \"while / as,\" marking two actions done simultaneously by the same person. Attach it to the verb stem (the ます-base).\n- Formation: 食[た]べる → 食[た]べながら, 聞[き]く → 聞[き]きながら\n- Example: 音楽[おんがく]を聞[き]きながら勉強[べんきょう]する (study while listening to music), 歩[ある]きながら話[はな]す (talk while walking)\n\nThe main action is the second clause; the ながら clause is the accompanying, background action. Crucially, both actions must be done by the *same* subject at the same time — you can't use it for two different people. A second, more advned use is concessive, \"even though / although\" (often ながらも): 知[し]っていながら、教[おし]えてくれなかった (Even though he knew, he didn't tell me). Context makes clear which meaning applies."
+    "explanation": "〜ながら means \"while / as,\" marking two actions done simultaneously by the same person. Attach it to the verb stem (the ます-base).\n- Formation: 食[た]べる → 食[た]べながら, 聞[き]く → 聞[き]きながら\n- Example: 音楽[おんがく]を聞[き]きながら勉強[べんきょう]する (study while listening to music), 歩[ある]きながら話[はな]す (talk while walking)\n\nThe main action is the second clause; the ながら clause is the accompanying, background action. Crucially, both actions must be done by the *same* subject at the same time — you can't use it for two different people. A second, more advanced use is concessive, \"even though / although\" (often ながらも): 知[し]っていながら、教[おし]えてくれなかった (Even though he knew, he didn't tell me). Context makes clear which meaning applies."
   },
   {
     "particleId": "p_046",
@@ -349,7 +349,7 @@
     "romaji": "kana",
     "meaning": "I wonder; should I?",
     "level": "N4",
-    "explanation": "かな is a casual sentence-final particle expressing wondering or uncertainty — \"I wonder….\" It's か (question) + な (musing), mostly directed at oneself.\n- Wondering: 明日[あした]は晴[は]れるかな (I wonder if it'll be sunny tomorrow)\n- Self-questioning / hesitation: どうしようかな (Hmm, what should I do…)\n- Soft hope (かな…as in 〜ないかな): 早[はや]く来[こ]ないかな (I hope he comes soon)\n\nかな softens a thought into a private musing rather than a direct question to the listener, which also makes it a gentle way to voice doubt or a tentative opinion: これでいいかな (Is this okay, I wonder?). It's informal. かしら is a similar, softer/older variant traditionally associated with women's speech. Adding よ (かなあ) lengthens the pondering feel."
+    "explanation": "かな is a casual sentence-final particle expressing wondering or uncertainty — \"I wonder….\" It's か (question) + な (musing), mostly directed at oneself.\n- Wondering: 明日[あした]は晴[は]れるかな (I wonder if it'll be sunny tomorrow)\n- Self-questioning / hesitation: どうしようかな (Hmm, what should I do…)\n- Soft hope (かな…as in 〜ないかな): 早[はや]く来[こ]ないかな (I hope he comes soon)\n\nかな softens a thought into a private musing rather than a direct question to the listener, which also makes it a gentle way to voice doubt or a tentative opinion: これでいいかな (Is this okay, I wonder?). It's informal. かしら is a similar, softer/older variant traditionally associated with women's speech. Lengthening it to かなあ draws out the pondering feel."
   },
   {
     "particleId": "p_017",
@@ -381,7 +381,7 @@
     "romaji": "mo",
     "meaning": "as many as; as much as; up to~",
     "level": "N4",
-    "explanation": "This も emphasizes a *large* quantity — \"as much as / as many as / no less than.\" Attach it to a number or amount.\n- Stressing a big amount: 三時間[さんじかん]も待[ま]った (I waited [a whole] three hours), 一万円[いちまんえん]もした (It cost as much as 10,000 yen)\n- Example: パーティーに百人[ひゃくにん]も来[き]た (As many as a hundred people came)\n\nHere も conveys the speaker's surprise that the number is *high*. Its mirror image is か / しか with a small number for \"only\": 千円[せんえん]もある (as much as 1000 yen) vs. 千円[せんえん]しかない (only 1000 yen). With a negative and a minimal amount, も means \"not even\": 一円[いちえん]もない (I don't have even one yen). So a number + も colors the amount as strikingly much (or, when negated, strikingly none)."
+    "explanation": "This も emphasizes a *large* quantity — \"as much as / as many as / no less than.\" Attach it to a number or amount.\n- Stressing a big amount: 三時間[さんじかん]も待[ま]った (I waited [a whole] three hours), 一万円[いちまんえん]もした (It cost as much as 10,000 yen)\n- Example: パーティーに百人[ひゃくにん]も来[き]た (As many as a hundred people came)\n\nHere も conveys the speaker's surprise that the number is *high*. Its mirror image is しか(ない) with a small number for \"only\": 千円[せんえん]もある (as much as 1000 yen) vs. 千円[せんえん]しかない (only 1000 yen). With a negative and a minimal amount, も means \"not even\": 一円[いちえん]もない (I don't have even one yen). So a number + も colors the amount as strikingly much (or, when negated, strikingly none)."
   },
   {
     "particleId": "p_001",
@@ -461,7 +461,7 @@
     "romaji": "ni wa",
     "meaning": "for the purpose of; in order to~",
     "level": "N3",
-    "explanation": "には combines に + は, marking a target, purpose, or condition and topicalizing/emphasizing it. A key use is \"in order to / for (the purpose of).\"\n- Purpose (verb dictionary + には): 日本語[にほんご]を上手[じょうず]になるには、練習[れんしゅう]が必要[ひつよう]だ (To get good at Japanese, practice is necessary)\n- Emphasizing a target/recipient: 私[わたし]には難[むずか]しい (For me, it's hard), 子供[こども]にはまだ早[はや]い (It's too soon for a child)\n- Contrast on a location/time: 東京[とうきょう]には行[い]ったが、京都[きょうと]には行[い]っていない (I went to Tokyo, but not Kyoto)\n\nThe purpose use (〜には〜が必要[ひつよう]/大切[たいせつ]) is common: it states a goal, then what's required to reach it. The は adds emphasis or contrast to whatever に marks — a person, a place, a purpose — often highlighting it against alternatives."
+    "explanation": "には combines に + は, marking a target, purpose, or condition and topicalizing/emphasizing it. A key use is \"in order to / for (the purpose of).\"\n- Purpose (verb dictionary + には): 日本語[にほんご]が上手[じょうず]になるには、練習[れんしゅう]が必要[ひつよう]だ (To get good at Japanese, practice is necessary)\n- Emphasizing a target/recipient: 私[わたし]には難[むずか]しい (For me, it's hard), 子供[こども]にはまだ早[はや]い (It's too soon for a child)\n- Contrast on a location/time: 東京[とうきょう]には行[い]ったが、京都[きょうと]には行[い]っていない (I went to Tokyo, but not Kyoto)\n\nThe purpose use (〜には〜が必要[ひつよう]/大切[たいせつ]) is common: it states a goal, then what's required to reach it. The は adds emphasis or contrast to whatever に marks — a person, a place, a purpose — often highlighting it against alternatives."
   },
   {
     "particleId": "p_052",
@@ -515,7 +515,7 @@
     "particleId": "p_029",
     "particle": "こと",
     "romaji": "koto",
-    "meaning": "(must) do",
+    "meaning": "the act / fact of doing (nominalizer); (rule) must do",
     "level": "N3",
     "explanation": "This こと is a nominalizer — it turns a verb or clause into a noun, \"the act/fact of doing.\" It's more formal and abstract than の.\n- Nominalizing: 本[ほん]を読[よ]むことが好[す]きだ (I like reading), 日本[にほん]に行[い]ったことがある (I have been to Japan [the experience of having gone])\n- Set patterns: 〜ことができる (can do), 〜ことがある (there are times when / have experienced), 〜ことにする (decide to), 〜ことになる (it's decided that)\n\nこと and の both nominalize, but こと feels formal/written and suits general facts and fixed grammar patterns, while の is conversational and preferred for direct perception (歌[うた]うのを聞[き]く — hear someone sing). Sentence-final こと can even give a soft command or rule (廊下[ろうか]を走[はし]らないこと — no running in the hall). It's one of the two workhorse nominalizers."
   },
@@ -701,7 +701,7 @@
     "romaji": "nite",
     "meaning": "in, at, with, by (formal particle)",
     "level": "N2",
-    "explanation": "にて means \"at / in / with / by,\" a formal, written equivalent of で. It marks place, means, time, or reason in stiff or official contexts.\n- Place / means (formal で): 会議[かいぎ]は本社[ほんしゃ]にて行[おこな]います (The meeting will be held at the head office), メールにてご連絡[れんらく]します (I'll contact you by email)\n- Time limit / closing: 本日[ほんじつ]にて閉店[へいてん]いたします (We close for good as of today)\n\nにて appears in announcements, business correspondence, ceremonies, and signs — anywhere a formal register is wanted. In ordinary speech you'd simply use で; にて is its dressed-up counterpart. You'll see it in fixed phrases like これにて (with this / hereby) and 以上[いじょう]をもちまして…にて (herewith). Recognize it as \"formal で\" and don't use it in casual conversation, where it would sound archaic or stilted."
+    "explanation": "にて means \"at / in / with / by,\" a formal, written equivalent of で. It marks place, means, time, or reason in stiff or official contexts.\n- Place / means (formal で): 会議[かいぎ]は本社[ほんしゃ]にて行[おこな]います (The meeting will be held at the head office), メールにてご連絡[れんらく]します (I'll contact you by email)\n- Time limit / closing: 本日[ほんじつ]にて閉店[へいてん]いたします (We close for good as of today)\n\nにて appears in announcements, business correspondence, ceremonies, and signs — anywhere a formal register is wanted. In ordinary speech you'd simply use で; にて is its dressed-up counterpart. You'll see it in fixed phrases like これにて (with this / hereby) and 〜にて失礼[しつれい]いたします (I'll take my leave herewith). Recognize it as \"formal で\" and don't use it in casual conversation, where it would sound archaic or stilted."
   },
   {
     "particleId": "p_081",
@@ -733,7 +733,7 @@
     "romaji": "tomo",
     "meaning": "even if; no matter; though~",
     "level": "N2",
-    "explanation": "とも has a few advanced uses; the key one is concessive \"even if / no matter / though,\" emphatically granting a point.\n- \"Even if\" (often 〜(よ)うとも): 何[なに]があろうとも、諦[あきら]めない (No matter what happens, I won't give up), 遅[おそ]くとも、必[かなら]ず行[い]く (Even at the latest, I'll definitely go)\n- Emphatic agreement (sentence-final): もちろんですとも (But of course!)\n- \"Both / all,\" after numbers: 二人[ふたり]とも来[き]た (Both of them came), 三[みっ]つとも売[う]れた (All three sold)\n\nThe concessive とも strongly concedes an extreme (\"however X it may be, still…\"), common with 〜くとも (少[すく]なくとも — at least) and volitional + とも. The counting use (数[すう]+とも) means \"all of them together.\" And as a hearty sentence-ender, ですとも/ますとも expresses emphatic affirmation. Context and the attached form separate these senses."
+    "explanation": "とも has a few advanced uses; the key one is concessive \"even if / no matter / though,\" emphatically granting a point.\n- \"Even if\" (often 〜(よ)うとも): 何[なに]があろうとも、諦[あきら]めない (No matter what happens, I won't give up), 遅[おそ]くとも三時[さんじ]までには行[い]く (I'll be there by 3 at the latest)\n- Emphatic agreement (sentence-final): もちろんですとも (But of course!)\n- \"Both / all,\" after numbers: 二人[ふたり]とも来[き]た (Both of them came), 三[みっ]つとも売[う]れた (All three sold)\n\nThe concessive とも strongly concedes an extreme (\"however X it may be, still…\"), common with 〜くとも (少[すく]なくとも — at least) and volitional + とも. The counting use (数[すう]+とも) means \"all of them together.\" And as a hearty sentence-ender, ですとも/ますとも expresses emphatic affirmation. Context and the attached form separate these senses."
   },
   {
     "particleId": "p_092",
@@ -765,7 +765,7 @@
     "romaji": "ka~nai ka no uchi ni",
     "meaning": "just as; right after; as soon as~",
     "level": "N2",
-    "explanation": "〜か〜ないかのうちに means \"just as / no sooner than / almost the instant,\" describing a second action happening at practically the same moment as the first — before the first is even fully done.\n- Formation: [verb dict] か [verb ない] かのうちに — ベルが鳴[な]るか鳴[な]らないかのうちに、生徒[せいと]は教室[きょうしつ]を出[で]た (No sooner had the bell rung than the students left)\n- Example: 家[いえ]に着[つ]くか着[つ]かないかのうちに、雨[あめ]が降[ふ]り出[だ]した (Almost the instant I got home, it started to rain)\n\nThe literal structure — \"in the interval of whether X happens or not\" — captures a razor-thin gap: the two events are essentially simultaneous, with the second treading on the heels of the first. It's emphatic and somewhat literary, stressing dramatic immediacy. Related \"as soon as\" patterns include 〜たとたん, 〜next や否[いな]や, and 〜が早[はや]いか, each with its own shade."
+    "explanation": "〜か〜ないかのうちに means \"just as / no sooner than / almost the instant,\" describing a second action happening at practically the same moment as the first — before the first is even fully done.\n- Formation: [verb dict] か [verb ない] かのうちに — ベルが鳴[な]るか鳴[な]らないかのうちに、生徒[せいと]は教室[きょうしつ]を出[で]た (No sooner had the bell rung than the students left)\n- Example: 家[いえ]に着[つ]くか着[つ]かないかのうちに、雨[あめ]が降[ふ]り出[だ]した (Almost the instant I got home, it started to rain)\n\nThe literal structure — \"in the interval of whether X happens or not\" — captures a razor-thin gap: the two events are essentially simultaneous, with the second treading on the heels of the first. It's emphatic and somewhat literary, stressing dramatic immediacy. Related \"as soon as\" patterns include 〜たとたん, 〜や否[いな]や, and 〜が早[はや]いか, each with its own shade."
   },
   {
     "particleId": "p_047",

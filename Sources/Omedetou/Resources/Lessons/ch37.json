@@ -1,1573 +1,2221 @@
 {
-  "id": "ch37",
-  "chapterNumber": 39,
-  "title": "Given That / Whether Or Not",
-  "points": [
+ "id": "ch37",
+ "chapterNumber": 39,
+ "title": "Given That / Whether Or Not",
+ "points": [
+  {
+   "id": "ni-shite-wa",
+   "name": "〜にしては (ni shite wa) — for / given that",
+   "shortDescription": "Evaluates something against an expectation set by its category or condition.",
+   "formation": "Noun / Plain form + にしては + assessment (often unexpected)",
+   "explanation": "にしては is the grammar of calibrated surprise — it holds a result up against the standard implied by a given category and finds that they don't quite align. 子[こ]どもにしては上手[じょうず]だ means 'for a child, that's impressive' — you're measuring the performance against the child-baseline, and it exceeds it. 日本語[にほんご]を始[はじ]めて一年[いちねん]にしては上手[じょうず]ですね means 'for someone one year into Japanese, you're very good' — the one-year-beginner standard would predict less.\n\nThe surprise can cut both ways: にしては works when reality pleasantly exceeds the category's expectation (impressive) or when it disappointingly falls short. この値段[ねだん]にしては、サービスがよくなかった — 'for this price point, the service was poor' — below expectation.\n\nThe key mechanic: にしては always establishes a category as the reference standard, then observes that the actual result doesn't match what that category would predict. This is fundamentally different from にとって, which simply marks a viewpoint or perspective — with no expectation vs. reality contrast involved.",
+   "rules": [
+    "Noun / Plain form + にしては = for X / given that X (expectation vs. reality contrast)",
+    "The main clause expresses a reality that surprises given the standard set by にしては",
+    "Used when reality is better OR worse than what the category would predict",
+    "Different from にとって (perspective marker — no contrast or expectation implied)",
+    "Often paired with evaluative language: 上手[じょうず]、よくできている、あまりよくない, etc."
+   ],
+   "examples": [
     {
-      "id": "ni-shite-wa",
-      "name": "〜にしては (ni shite wa) — for / given that",
-      "shortDescription": "Evaluates something against an expectation set by its category or condition.",
-      "formation": "Noun / Plain form + にしては + assessment (often unexpected)",
-      "explanation": "にしては is the grammar of calibrated surprise — it holds a result up against the standard implied by a given category and finds that they don't quite align. 子[こ]どもにしては上手[じょうず]だ means 'for a child, that's impressive' — you're measuring the performance against the child-baseline, and it exceeds it. 日本語[にほんご]を始[はじ]めて一年[いちねん]にしては上手[じょうず]ですね means 'for someone one year into Japanese, you're very good' — the one-year-beginner standard would predict less.\n\nThe surprise can cut both ways: にしては works when reality pleasantly exceeds the category's expectation (impressive) or when it disappointingly falls short. この値段[ねだん]にしては、サービスがよくなかった — 'for this price point, the service was poor' — below expectation.\n\nThe key mechanic: にしては always establishes a category as the reference standard, then observes that the actual result doesn't match what that category would predict. This is fundamentally different from にとって, which simply marks a viewpoint or perspective — with no expectation vs. reality contrast involved.",
-      "rules": [
-        "Noun / Plain form + にしては = for X / given that X (expectation vs. reality contrast)",
-        "The main clause expresses a reality that surprises given the standard set by にしては",
-        "Used when reality is better OR worse than what the category would predict",
-        "Different from にとって (perspective marker — no contrast or expectation implied)",
-        "Often paired with evaluative language: 上手[じょうず]、よくできている、あまりよくない, etc."
-      ],
-      "examples": [
-        {
-          "japanese": "日本語[にほんご]を勉強[べんきょう]し始[はじ]めて一年[いちねん]にしては、とても上手[じょうず]ですよ。",
-          "romaji": "Nihongo wo benkyou shihajimete ichi nen ni shite wa, totemo jouzu desu yo.",
-          "english": "For someone who just started learning Japanese a year ago, you're very good."
-        },
-        {
-          "japanese": "子[こ]どもにしては、難[むずか]しいことをよく知[し]っていますね。",
-          "romaji": "Kodomo ni shite wa, muzukashii koto wo yoku shitte imasu ne.",
-          "english": "For a child, you know quite a lot of difficult things."
-        },
-        {
-          "japanese": "この値段[ねだん]にしては、サービスがあまりよくなかったです。",
-          "romaji": "Kono nedan ni shite wa, saabisu ga amari yoku nakatta desu.",
-          "english": "For this price, the service wasn't very good."
-        },
-        {
-          "japanese": "初心者[しょしんしゃ]にしては、プレゼンがとても堂々[どうどう]としていました。",
-          "romaji": "Shoshinsha ni shite wa, purezen ga totemo doudou to shite imashita.",
-          "english": "For a beginner, the presentation was very confident and composed."
-        }
-      ],
-      "flashcardHeader": "〜にしては",
-      "flashcardAnswer": "Evaluates something against an expectation set by its category or condition.",
-      "practice": [
-        {
-          "id": "ni-shite-wa_q1",
-          "type": "usage",
-          "prompt": "What does 〜にしては mean?",
-          "japanese": null,
-          "choices": [
-            "because of X",
-            "for X / given that X — evaluates a result against the expectation set by the category (often the result is surprisingly better or worse than expected)",
-            "compared to X, more so",
-            "even though X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜にしては = for / given that X. It holds a result against the standard implied by a category. 子[こ]どもにしては上手[じょうず]だ = for a child, that's impressive (better than a child would normally be). The result doesn't quite match the expected norm for that category."
-        },
-        {
-          "id": "ni-shite-wa_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a beginner, she plays piano well'?",
-          "japanese": null,
-          "choices": [
-            "初心者[しょしんしゃ]にしては、彼女[かのじょ]はピアノが上手[じょうず]だ。",
-            "初心者[しょしんしゃ]としては、彼女[かのじょ]はピアノが上手[じょうず]だ。",
-            "初心者[しょしんしゃ]なのに、彼女[かのじょ]はピアノが上手[じょうず]だ。",
-            "初心者[しょしんしゃ]にとっては、彼女[かのじょ]はピアノが上手[じょうず]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 初心者[しょしんしゃ] (beginner) + にしては = for a beginner. 彼女[かのじょ]はピアノが上手[じょうず]だ = she plays piano well. The standard 'beginner' sets a low expectation; 'plays well' is a positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q3",
-          "type": "translation",
-          "prompt": "Which means 'For someone who studied abroad, his English isn't very good'?",
-          "japanese": null,
-          "choices": [
-            "留学[りゅうがく]したにしては、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
-            "留学[りゅうがく]したのに、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
-            "留学[りゅうがく]したとしては、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
-            "留学[りゅうがく]したにしても、彼[かれ]の英語[えいご]はあまり上手[うま]くない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしては: 留学[りゅうがく]した (studied abroad, past) + にしては = for someone who studied abroad. 英語[えいご]はあまり上手[うま]くない = English isn't very good. The expectation (studying abroad → good English) is not met — negative surprise."
-        },
-        {
-          "id": "ni-shite-wa_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'For his age, he looks very young'?",
-          "japanese": null,
-          "choices": [
-            "年齢[ねんれい]にしては、彼[かれ]はとても若[わか]く見[み]える。",
-            "年齢[ねんれい]としては、彼[かれ]はとても若[わか]く見[み]える。",
-            "年齢[ねんれい]なのに、彼[かれ]はとても若[わか]く見[み]える。",
-            "年齢[ねんれい]にとっては、彼[かれ]はとても若[わか]く見[み]える。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 年齢[ねんれい] (age) + にしては = for his age. 若[わか]く見[み]える = looks young. Age sets the expectation (older = looks older); looking very young is a positive departure from that norm."
-        },
-        {
-          "id": "ni-shite-wa_q5",
-          "type": "usage",
-          "prompt": "What is the KEY nuance of にしては vs. のに?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "にしては = evaluates against a category standard (expected norm for that type); のに = contrast or complaint about a specific fact",
-            "にしては is more formal",
-            "のに is for positive results only, regardless of context or politeness level — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "にしては = 'calibrated surprise' — the result is measured against the category's implied standard. のに = simple contrast or complaint: 'even though X, Y (unexpected/disappointing).' 初心者[しょしんしゃ]にしては上手[じょうず] (for a beginner, surprisingly good) vs. 練習[れんしゅう]したのに上手[うま]くない (even though practiced, not good — complaint)."
-        },
-        {
-          "id": "ni-shite-wa_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a first attempt, this is quite good'?",
-          "japanese": null,
-          "choices": [
-            "初[はじ]めてにしては、これはかなりよくできている。",
-            "初[はじ]めてなのに、これはかなりよくできている。",
-            "初[はじ]めてとしては、これはかなりよくできている。",
-            "初[はじ]めてにしても、これはかなりよくできている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 初[はじ]めて (first time) + にしては = for a first attempt. これはかなりよくできている = this is quite well done. Positive deviation from the expected standard for a debut effort."
-        },
-        {
-          "id": "ni-shite-wa_q7",
-          "type": "translation",
-          "prompt": "Which means 'For a professional chef, this dish is surprisingly simple'?",
-          "japanese": null,
-          "choices": [
-            "プロのシェフにしては、この料理[りょうり]は意外[いがい]とシンプルだ。",
-            "プロのシェフなのに、この料理[りょうり]は意外[いがい]とシンプルだ。",
-            "プロのシェフとしては、この料理[りょうり]は意外[いがい]とシンプルだ。",
-            "プロのシェフにしても、この料理[りょうり]は意外[いがい]とシンプルだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: プロのシェフ + にしては = for a professional chef. 意外[いがい]とシンプルだ = surprisingly simple. The pro chef standard sets a high-complexity expectation; simple = negative departure."
-        },
-        {
-          "id": "ni-shite-wa_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'For winter, it's quite warm today'?",
-          "japanese": null,
-          "choices": [
-            "冬[ふゆ]にしては、今日[きょう]はかなり暖[あたた]かい。",
-            "冬[ふゆ]なのに、今日[きょう]はかなり暖[あたた]かい。",
-            "冬[ふゆ]としては、今日[きょう]はかなり暖[あたた]かい。",
-            "冬[ふゆ]だからこそ、今日[きょう]はかなり暖[あたた]かい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 冬[ふゆ] (winter) + にしては = for winter. 今日[きょう]はかなり暖[あたた]かい = today is quite warm. Winter sets a cold expectation; warm = pleasant positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q9",
-          "type": "usage",
-          "prompt": "Can にしては follow a VERB (plain form)? Which example is correct?",
-          "japanese": null,
-          "choices": [
-            "毎日[まいにち]練習[れんしゅう]するにしては上手[うま]くない。(For someone who practices every day, not good.)",
-            "毎日[まいにち]練習[れんしゅう]してにしては上手[うま]くない。(incorrect)",
-            "毎日[まいにち]練習[れんしゅう]したにしては上手[うま]くない。(For someone who practiced every day, not good.)",
-            "Both A and C are grammatically correct."
-          ],
-          "correctIndex": 3,
-          "explanation": "Both dict-form + にしては and past (た-form) + にしては are possible. 毎日[まいにち]練習[れんしゅう]するにしては (for someone who practices daily) and 毎日[まいにち]練習[れんしゅう]したにしては (for someone who practiced every day) are both grammatical with appropriate contexts."
-        },
-        {
-          "id": "ni-shite-wa_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a high school student, her writing is very mature'?",
-          "japanese": null,
-          "choices": [
-            "高校生[こうこうせい]にしては、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
-            "高校生[こうこうせい]なのに、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
-            "高校生[こうこうせい]としては、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
-            "高校生[こうこうせい]にしても、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 高校生[こうこうせい] + にしては = for a high school student. 文章[ぶんしょう]はとても大人[おとな]っぽい = writing is very mature. High school sets a certain level expectation; mature writing is a positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q11",
-          "type": "translation",
-          "prompt": "Which means 'For a famous restaurant, the service was quite disappointing'?",
-          "japanese": null,
-          "choices": [
-            "有名[ゆうめい]なレストランにしては、サービスがかなり残念[ざんねん]だった。",
-            "有名[ゆうめい]なレストランなのに、サービスがかなり残念[ざんねん]だった。",
-            "有名[ゆうめい]なレストランとしては、サービスがかなり残念[ざんねん]だった。",
-            "有名[ゆうめい]なレストランにしても、サービスがかなり残念[ざんねん]だった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 有名[ゆうめい]なレストラン + にしては = for a famous restaurant. サービスがかなり残念[ざんねん]だった = service was quite disappointing. Famous restaurant sets a high expectation; disappointing service = negative departure."
-        },
-        {
-          "id": "ni-shite-wa_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'For someone living in Japan, he can't speak Japanese at all'?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]に住[す]んでいるにしては、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
-            "日本[にほん]に住[す]んでいるのに、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
-            "日本[にほん]に住[す]んでいるとしては、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
-            "日本[にほん]に住[す]んでいるにしても、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしては: 住[す]んでいる + にしては = for someone living in . 全然[ぜんぜん]話[はな]せない = can't speak at all. Living in Japan sets an expectation for language ability; inability is a stark negative departure."
-        },
-        {
-          "id": "ni-shite-wa_q13",
-          "type": "usage",
-          "prompt": "にしては implies the speaker's CALIBRATION against a standard. Which scenario BEST illustrates this?",
-          "japanese": null,
-          "choices": [
-            "山田[やまだ]さんのにしては面白[おもしろ]い映画[えいが]だ。(awkward — not a recognized category) — this is true in both spoken and written Japanese.",
-            "三歳[さんさい]の子[こ]どもにしては字[じ]が上手[うま]い。(For a 3-year-old, handwriting is good — clear category standard)",
-            "彼[かれ]はにしては頭[あたま]がいい。(grammatically incomplete)",
-            "にしては、雨[あめ]が多[おお]い年[ねん]だった。(no clear subject for the category)"
-          ],
-          "correctIndex": 1,
-          "explanation": "三歳[さんさい]の子[こ]ども (3-year-old) sets a clear developmental standard. にしては measures the result (字[じ]が上手[うま]い = good handwriting) against this category's expected norm. The category must be recognizable for にしては to work naturally."
-        },
-        {
-          "id": "ni-shite-wa_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a self-taught person, his technique is quite advanced'?",
-          "japanese": null,
-          "choices": [
-            "独学[どくがく]にしては、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
-            "独学[どくがく]なのに、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
-            "独学[どくがく]としては、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
-            "独学[どくがく]にしても、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 独学[どくがく] (self-taught) + にしては = for someone self-taught. 技術[ぎじゅつ]はかなり高度[こうど]だ = technique is quite advanced. Self-taught sets a modest expectation; advanced technique = positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q15",
-          "type": "translation",
-          "prompt": "Which means 'For a cheap hotel, the facilities are surprisingly good'?",
-          "japanese": null,
-          "choices": [
-            "安[やす]いホテルにしては、施設[しせつ]が意外[いがい]とよい。",
-            "安[やす]いホテルなのに、施設[しせつ]が意外[いがい]とよい。",
-            "安[やす]いホテルとしては、施設[しせつ]が意外[いがい]とよい。",
-            "安[やす]いホテルにしても、施設[しせつ]が意外[いがい]とよい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 安[やす]いホテル + にしては = for a cheap hotel. 施設[しせつ]が意外[いがい]とよい = facilities are surprisingly good. Cheap hotel sets low expectations; good facilities = pleasant positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a child who hates vegetables, he ate quite a lot'?",
-          "japanese": null,
-          "choices": [
-            "野菜[やさい]嫌[きら]いな子[こ]にしては、かなりたくさん食[た]べた。",
-            "野菜[やさい]嫌[きら]いな子[こ]なのに、かなりたくさん食[た]べた。",
-            "野菜[やさい]嫌[きら]いな子[こ]としては、かなりたくさん食[た]べた。",
-            "野菜[やさい]嫌[きら]いな子[こ]にしても、かなりたくさん食[た]べた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 野菜[やさい]嫌[きら]いな子[こ] (child who hates vegetables) + にしては = for a child who hates vegetables. かなりたくさん食[た]べた = ate quite a lot. The category (veg-hater) sets a low-eating expectation; eating a lot = positive surprise."
-        },
-        {
-          "id": "ni-shite-wa_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses にしては INCORRECTLY (the result matches the standard rather than deviating from it)?",
-          "japanese": null,
-          "choices": [
-            "医者[いしゃ]にしては体[からだ]が弱[よわ]い。(For a doctor, surprisingly weak body — deviates from expectation.)",
-            "子[こ]どもにしては背[せ]が高[たか]い。(For a child, surprisingly tall — deviates.)",
-            "日本人[にほんじん]にしては英語[えいご]が上手[うま]い。(For a Japanese person, English is good — positive deviation.)",
-            "プロにしては技術[ぎじゅつ]が高[たか]い。(For a professional, technique is high — matches/exceeds expectation but implies it's expected.)"
-          ],
-          "correctIndex": 3,
-          "explanation": "プロにしては技術[ぎじゅつ]が高[たか]い is awkward — a professional SHOULD have high skill; saying 'for a pro, skill is high' doesn't create the needed surprise or deviation. にしては requires the result to be unexpectedly above or below the category's norm. Options 1-3 all show genuine deviation."
-        },
-        {
-          "id": "ni-shite-wa_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a movie that cost so much to make, it wasn't very good'?",
-          "japanese": null,
-          "choices": [
-            "あんなにお金[かね]をかけた映画[えいが]にしては、あまりよくなかった。",
-            "あんなにお金[かね]をかけた映画[えいが]なのに、あまりよくなかった。",
-            "あんなにお金[かね]をかけた映画[えいが]としては、あまりよくなかった。",
-            "あんなにお金[かね]をかけた映画[えいが]にしても、あまりよくなかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form (nominalizing) + にしては: お金[かね]をかけた映画[えいが] + にしては = for a movie that cost so much. あまりよくなかった = wasn't very good. High budget sets quality expectations; poor result = negative deviation."
-        },
-        {
-          "id": "ni-shite-wa_q19",
-          "type": "translation",
-          "prompt": "Which means 'For a country with such a cold climate, the food is surprisingly spicy'?",
-          "japanese": null,
-          "choices": [
-            "あんなに寒[さむ]い国[くに]にしては、料理[りょうり]が意外[いがい]と辛[つら]い。",
-            "あんなに寒[さむ]い国[くに]なのに、料理[りょうり]が意外[いがい]と辛[つら]い。",
-            "あんなに寒[さむ]い国[くに]としては、料理[りょうり]が意外[いがい]と辛[つら]い。",
-            "あんなに寒[さむ]い国[くに]だから、料理[りょうり]が意外[いがい]と辛[つら]い。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしては: 寒[さむ]い国[くに] (cold country) + にしては = for a country with a cold climate. 料理[りょうり]が意外[いがい]と辛[つら]い = food is surprisingly spicy. Cold climate → bland food (stereotypical expectation); spicy food = positive deviation."
-        },
-        {
-          "id": "ni-shite-wa_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'For a book published last year, it looks quite worn'?",
-          "japanese": null,
-          "choices": [
-            "去年[きょねん]出版[しゅっぱん]された本[ほん]にしては、かなり古[ふる]びて見[み]える。",
-            "去年[きょねん]出版[しゅっぱん]された本[ほん]なのに、かなり古[ふる]びて見[み]える。",
-            "去年[きょねん]出版[しゅっぱん]された本[ほん]としては、かなり古[ふる]びて見[み]える。",
-            "去年[きょねん]出版[しゅっぱん]された本[ほん]にしても、かなり古[ふる]びて見[み]える。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしては: 去年[きょねん]出版[しゅっぱん]された本[ほん] + にしては = for a book published last year. かなり古[ふる]びて見[み]える = looks quite worn. Recent publication sets expectations for freshness; worn appearance = negative deviation."
-        }
-      ]
+     "japanese": "日本語[にほんご]を勉強[べんきょう]し始[はじ]めて一年[いちねん]にしては、とても上手[じょうず]ですよ。",
+     "romaji": "Nihongo wo benkyou shihajimete ichi nen ni shite wa, totemo jouzu desu yo.",
+     "english": "For someone who just started learning Japanese a year ago, you're very good."
     },
     {
-      "id": "ni-shite-mo",
-      "name": "〜にしても (ni shite mo) — even so / even if / regardless",
-      "shortDescription": "Concedes a point but maintains a contrasting conclusion; also 'whether X or Y'.",
-      "formation": "Plain form / Noun + にしても  |  A にしても B にしても = whether A or B",
-      "explanation": "にしても has two roles, and spotting both will make it feel far less ambiguous. The first is concessive: granting a situation as true but pushing back on it anyway — 'even if / even so.' 忙[いそが]しいにしても、連絡[れんらく]くらいすべきでしょう: 'Even if you're busy, you should at least get in touch' — the busyness is granted, but the main point stands.\n\nThe second role is coverage: A にしても B にしても = 'whether A or B, the conclusion holds.' 行[い]くにしても行[い]かないにしても、早[はや]めに決[き]めてください — 'Whether you go or not, please decide early' — both scenarios are covered, both lead to the same demand. This 'regardless' use is especially natural when discussing options or choices where the outcome doesn't change.\n\nBoth uses share the underlying structure に + して + も ('even making it X'). にしても is more formal than ても and is a strong choice for formal speech and writing. Also memorize それにしても — a very useful set expression meaning 'even so / that said, though.'",
-      "rules": [
-        "Plain form + にしても = even so / even if that's the case (concessive)",
-        "A にしても B にしても = whether A or B, (the outcome is the same)",
-        "More formal than ても (even if); suitable for spoken and written formal contexts",
-        "Often marks a concession before presenting a remaining objection or concern",
-        "それにしても = nevertheless / even so (even acknowledging all that)"
-      ],
-      "examples": [
-        {
-          "japanese": "忙[いそが]しいにしても、友達[ともだち]に連絡[れんらく]くらいすべきでしょう。",
-          "romaji": "Isogashii ni shite mo, tomodachi ni renraku kurai subeki deshou.",
-          "english": "Even if you're busy, you should at least contact your friend."
-        },
-        {
-          "japanese": "行[い]くにしても行[い]かないにしても、早[はや]めに決[き]めてください。",
-          "romaji": "Iku ni shite mo ikanai ni shite mo, hayame ni kimete kudasai.",
-          "english": "Whether you go or don't go, please decide early."
-        },
-        {
-          "japanese": "それにしても、なぜ急[きゅう]に辞[や]めてしまったのでしょうか。",
-          "romaji": "Sore ni shite mo, naze kyuu ni yamete shimatta no deshou ka.",
-          "english": "Even so, why did they suddenly quit like that?"
-        },
-        {
-          "japanese": "成功[せいこう]するにしても失敗[しっぱい]するにしても、全力[ぜんりょく]を尽[つ]くすことが大事[だいじ]です。",
-          "romaji": "Seikou suru ni shite mo shippai suru ni shite mo, zenryoku wo tsukusu koto ga daiji desu.",
-          "english": "Whether you succeed or fail, giving your all is what matters."
-        }
-      ],
-      "flashcardHeader": "〜にしても",
-      "flashcardAnswer": "Concedes a point but maintains a contrasting conclusion; also 'whether X or Y'.",
-      "practice": [
-        {
-          "id": "ni-shite-mo_q1",
-          "type": "usage",
-          "prompt": "What does 〜にしても mean?",
-          "japanese": null,
-          "choices": [
-            "because of X",
-            "even if / even so (concedes a point but the main clause still holds) — also 'whether A or B'",
-            "for / given that",
-            "compared to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜にしても has two uses: (1) concessive 'even if / even so': 忙[いそが]しいにしても、連絡[れんらく]くらいすべきだ = even if you're busy, you should at least contact me. (2) 'whether A or B': 行[い]くにしても行[い]かないにしても = whether you go or not."
-        },
-        {
-          "id": "ni-shite-mo_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even so, that excuse is too much'?",
-          "japanese": null,
-          "choices": [
-            "そうにしても、その言[い]い訳[わけ]はひどすぎる。",
-            "そうにしては、その言[い]い訳[わけ]はひどすぎる。",
-            "そうとしても、その言[い]い訳[わけ]はひどすぎる。",
-            "そうだとしても、その言[い]い訳[わけ]はひどすぎる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun/そう + にしても: そう (that being the case) + にしても = even so. その言[い]い訳[わけ]はひどすぎる = that excuse is too much. にしても concedes the point (okay, even if that's true) but maintains the main assertion."
-        },
-        {
-          "id": "ni-shite-mo_q3",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether you study or not, at least try'?",
-          "japanese": null,
-          "choices": [
-            "勉強[べんきょう]するにしても勉強[べんきょう]しないにしても、とにかくやってみてください。",
-            "勉強[べんきょう]するにしては勉強[べんきょう]しないにしては、とにかくやってみてください。",
-            "勉強[べんきょう]するとしても勉強[べんきょう]しないとしても、とにかくやってみてください。",
-            "勉強[べんきょう]するにせよ勉強[べんきょう]しないにせよ、とにかくやってみてください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても = whether A or B. 勉強[べんきょう]するにしても勉強[べんきょう]しないにしても = whether you study or not. とにかくやってみてください = at least try. Both にしても〜にしても and にせよ〜にせよ work for this; にしても is more conversational."
-        },
-        {
-          "id": "ni-shite-mo_q4",
-          "type": "translation",
-          "prompt": "Which means 'Even if it's a joke, saying such a thing is rude'?",
-          "japanese": null,
-          "choices": [
-            "冗談[じょうだん]にしても、そんなことを言[い]うのは失礼[しつれい]だ。",
-            "冗談[じょうだん]にしては、そんなことを言[い]うのは失礼[しつれい]だ。",
-            "冗談[じょうだん]なのに、そんなことを言[い]うのは失礼[しつれい]だ。",
-            "冗談[じょうだん]としても、そんなことを言[い]うのは失礼[しつれい]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしても: 冗談[じょうだん] (joke) + にしても = even if it's a joke. そんなことを言[い]うのは失礼[しつれい]だ = saying such a thing is rude. にしても concedes the framing (even granting it's a joke) but maintains the criticism."
-        },
-        {
-          "id": "ni-shite-mo_q5",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if you're in a hurry, you should double-check'?",
-          "japanese": null,
-          "choices": [
-            "急[いそ]いでいるにしても、確認[かくにん]するべきだ。",
-            "急[いそ]いでいるにしては、確認[かくにん]するべきだ。",
-            "急[いそ]いでいるとしても、確認[かくにん]するべきだ。",
-            "急[いそ]いでいるのに、確認[かくにん]するべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしても: 急[いそ]いでいる (being in a hurry) + にしても = even if in a hurry. 確認[かくにん]するべきだ = should double-check. Concedes the rush but asserts the obligation."
-        },
-        {
-          "id": "ni-shite-mo_q6",
-          "type": "translation",
-          "prompt": "Which means 'Whether it's work or play, doing your best is important'?",
-          "japanese": null,
-          "choices": [
-            "仕事[しごと]にしても遊[あそ]びにしても、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
-            "仕事[しごと]にしては遊[あそ]びにしては、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
-            "仕事[しごと]としても遊[あそ]びとしても、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
-            "仕事[しごと]であれ遊[あそ]びであれ、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても: 仕事[しごと]にしても遊[あそ]びにしても = whether work or play. 全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ = doing one's best is important. The assertion holds regardless of which applies."
-        },
-        {
-          "id": "ni-shite-mo_q7",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if you hate it, you have to do it'?",
-          "japanese": null,
-          "choices": [
-            "嫌[きら]いにしても、やらなければならない。",
-            "嫌[きら]いにしては、やらなければならない。",
-            "嫌[きら]いとしても、やらなければならない。",
-            "嫌[きら]いだとしても、やらなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj/Noun + にしても: 嫌[きら]い + にしても = even if you hate it. やらなければならない = have to do it. にしても concedes the feeling (even granting you hate it) but asserts necessity."
-        },
-        {
-          "id": "ni-shite-mo_q8",
-          "type": "usage",
-          "prompt": "What is the MAIN difference between にしても and にしては?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "にしても = concessive / even if / whether A or B (main clause holds regardless); にしては = evaluates against a category norm (surprising deviation)",
-            "にしても is only for people",
-            "にしては can only be used in questions, and the rule applies to every sentence type — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "にしても = concessive or inclusive ('even if X, still Y' / 'whether A or B'). にしては = calibrated surprise ('for X's category, Y is unexpected'). 忙[いそが]しいにしても連絡[れんらく]すべきだ (even if busy, should contact = concessive) vs. 忙[いそが]しいにしては余裕[よゆう]そうだ (for someone busy, looks relaxed = calibrated surprise)."
-        },
-        {
-          "id": "ni-shite-mo_q9",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether we win or lose, let's do our best'?",
-          "japanese": null,
-          "choices": [
-            "勝[か]つにしても負[ま]けるにしても、全力[ぜんりょく]を出[だ]そう。",
-            "勝[か]つにしては負[ま]けるにしては、全力[ぜんりょく]を出[だ]そう。",
-            "勝[か]つとしても負[ま]けるとしても、全力[ぜんりょく]を出[だ]そう。",
-            "勝[か]つにせよ負[ま]けるにせよ、全力[ぜんりょく]を出[だ]そう。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても: 勝[か]つにしても負[ま]けるにしても = whether we win or lose. 全力[ぜんりょく]を出[だ]そう = let's give our all. Both outcomes are covered; the assertion holds for either."
-        },
-        {
-          "id": "ni-shite-mo_q10",
-          "type": "translation",
-          "prompt": "Which means 'Even if it was a mistake, that behavior is unforgivable'?",
-          "japanese": null,
-          "choices": [
-            "ミスにしても、その行動[こうどう]は許[ゆる]されない。",
-            "ミスにしては、その行動[こうどう]は許[ゆる]されない。",
-            "ミスとしても、その行動[こうどう]は許[ゆる]されない。",
-            "ミスなのに、その行動[こうどう]は許[ゆる]されない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしても: ミス + にしても = even if it was a mistake. その行動[こうどう]は許[ゆる]されない = that behavior is unforgivable. にしても concedes the framing (even granting it was a mistake) but maintains the judgment."
-        },
-        {
-          "id": "ni-shite-mo_q11",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether staying or leaving, you should decide quickly'?",
-          "japanese": null,
-          "choices": [
-            "いるにしても出[で]るにしても、早[はや]く決[き]めるべきだ。",
-            "いるにしては出[で]るにしては、早[はや]く決[き]めるべきだ。",
-            "いるとしても出[で]るとしても、早[はや]く決[き]めるべきだ。",
-            "いるにせよ出[で]るにせよ、早[はや]く決[き]めるべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても: いるにしても出[で]るにしても = whether staying or leaving. 早[はや]く決[き]めるべきだ = should decide quickly. The need to decide applies regardless of which option."
-        },
-        {
-          "id": "ni-shite-mo_q12",
-          "type": "usage",
-          "prompt": "にしても can follow NOUNS directly without の or だ. Which is correct?",
-          "japanese": null,
-          "choices": [
-            "子[こ]どもにしても、それはわかるはずだ。(Even for a child, that should be understandable.)",
-            "子[こ]どもだにしても、それはわかるはずだ。(incorrect)",
-            "子[こ]どものにしても、それはわかるはずだ。(incorrect)",
-            "子[こ]どもにしては、それはわかるはずだ。(For a child, that's understandable — different meaning)"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしても (directly, no の or だ): 子[こ]どもにしても = even for a child / even a child. 'Even for a child, that should be understandable' — concessive nuance."
-        },
-        {
-          "id": "ni-shite-mo_q13",
-          "type": "translation",
-          "prompt": "Which means 'Even so, I wish you had told me earlier'?",
-          "japanese": null,
-          "choices": [
-            "そうにしても、もっと早[はや]く教[おし]えてほしかった。",
-            "そうにしては、もっと早[はや]く教[おし]えてほしかった。",
-            "そうなのに、もっと早[はや]く教[おし]えてほしかった。",
-            "そうだとしても、もっと早[はや]く教[おし]えてほしかった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "そう + にしても: そうにしても = even so / even granting that. もっと早[はや]く教[おし]えてほしかった = wished you had told me earlier. Concedes the situation but expresses a wish for different behavior."
-        },
-        {
-          "id": "ni-shite-mo_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether it's spring or autumn, this park is beautiful'?",
-          "japanese": null,
-          "choices": [
-            "春[はる]にしても秋[あき]にしても、この公園[こうえん]は美[うつく]しい。",
-            "春[はる]にしては秋[あき]にしては、この公園[こうえん]は美[うつく]しい。",
-            "春[はる]としても秋[あき]としても、この公園[こうえん]は美[うつく]しい。",
-            "春[はる]であれ秋[あき]であれ、この公園[こうえん]は美[うつく]しい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても: 春[はる]にしても秋[あき]にしても = whether spring or autumn. この公園[こうえん]は美[うつく]しい = this park is beautiful. The park's beauty holds in both seasons."
-        },
-        {
-          "id": "ni-shite-mo_q15",
-          "type": "translation",
-          "prompt": "Which means 'Even if it's for work, staying up all night is bad for your health'?",
-          "japanese": null,
-          "choices": [
-            "仕事[しごと]にしても、徹夜[てつや]は体[からだ]に悪[わる]い。",
-            "仕事[しごと]にしては、徹夜[てつや]は体[からだ]に悪[わる]い。",
-            "仕事[しごと]なのに、徹夜[てつや]は体[からだ]に悪[わる]い。",
-            "仕事[しごと]だとしても、徹夜[てつや]は体[からだ]に悪[わる]い。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしても: 仕事[しごと] + にしても = even if it's for work. 徹夜[てつや]は体[からだ]に悪[わる]い = staying up all night is bad for health. Concedes the work necessity but asserts the health fact."
-        },
-        {
-          "id": "ni-shite-mo_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it takes time, doing it properly is important'?",
-          "japanese": null,
-          "choices": [
-            "時間[じかん]がかかるにしても、きちんとやることが大切[たいせつ]だ。",
-            "時間[じかん]がかかるにしては、きちんとやることが大切[たいせつ]だ。",
-            "時間[じかん]がかかるとしても、きちんとやることが大切[たいせつ]だ。",
-            "時間[じかん]がかかるのに、きちんとやることが大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしても: 時間[じかん]がかかる + にしても = even if it takes time. きちんとやることが大切[たいせつ]だ = doing it properly is important. Concedes the time cost but asserts quality."
-        },
-        {
-          "id": "ni-shite-mo_q17",
-          "type": "usage",
-          "prompt": "Which BEST shows the 'whether A or B' use of A にしても B にしても?",
-          "japanese": null,
-          "choices": [
-            "成功[せいこう]するにしても失敗[しっぱい]するにしても、挑戦[ちょうせん]してよかった。(Whether you succeed or fail, it was good to try.)",
-            "成功[せいこう]するにしても、挑戦[ちょうせん]してよかった。(Even if you succeed, it was good to try — only one condition)",
-            "成功[せいこう]するにしても失敗[しっぱい]する、挑戦[ちょうせん]してよかった。(grammatically incomplete)",
-            "成功[せいこう]にしても失敗[しっぱい]にしても、挑戦[ちょうせん]してよかった。(Using nouns — slightly less natural for events)"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても requires both alternatives to be clearly presented: 成功[せいこう]するにしても失敗[しっぱい]するにしても = whether you succeed or fail. This is the canonical double-condition form."
-        },
-        {
-          "id": "ni-shite-mo_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if the conditions are difficult, we should not give up'?",
-          "japanese": null,
-          "choices": [
-            "条件[じょうけん]が厳[きび]しいにしても、あきらめるべきではない。",
-            "条件[じょうけん]が厳[きび]しいにしては、あきらめるべきではない。",
-            "条件[じょうけん]が厳[きび]しいとしても、あきらめるべきではない。",
-            "条件[じょうけん]が厳[きび]しいのに、あきらめるべきではない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にしても: 厳[きび]しい + にしても = even if the conditions are difficult. あきらめるべきではない = should not give up. Concedes the hardship but asserts perseverance."
-        },
-        {
-          "id": "ni-shite-mo_q19",
-          "type": "translation",
-          "prompt": "Which means 'Whether you like it or not, rules must be followed'?",
-          "japanese": null,
-          "choices": [
-            "好[す]きにしても嫌[きら]いにしても、ルールは守[まも]らなければならない。",
-            "好[す]きにしては嫌[きら]いにしては、ルールは守[まも]らなければならない。",
-            "好[す]きとしても嫌[きら]いとしても、ルールは守[まも]らなければならない。",
-            "好[す]きにせよ嫌[きら]いにせよ、ルールは守[まも]らなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にしても B にしても: 好[す]きにしても嫌[きら]いにしても = whether you like it or not. ルールは守[まも]らなければならない = rules must be followed. The obligation holds regardless of personal feelings."
-        },
-        {
-          "id": "ni-shite-mo_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even as a compliment, that remark was inappropriate'?",
-          "japanese": null,
-          "choices": [
-            "お世辞[せじ]にしても、その発言[はつげん]は不適切[ふてきせつ]だった。",
-            "お世辞[せじ]にしては、その発言[はつげん]は不適切[ふてきせつ]だった。",
-            "お世辞[せじ]なのに、その発言[はつげん]は不適切[ふてきせつ]だった。",
-            "お世辞[せじ]としても、その発言[はつげん]は不適切[ふてきせつ]だった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にしても: お世辞[せじ] (flattery/compliment) + にしても = even as a compliment. その発言[はつげん]は不適切[ふてきせつ]だった = that remark was inappropriate. Concedes the framing (even granting it was a compliment) but judges it inappropriate."
-        }
-      ]
+     "japanese": "子[こ]どもにしては、難[むずか]しいことをよく知[し]っていますね。",
+     "romaji": "Kodomo ni shite wa, muzukashii koto wo yoku shitte imasu ne.",
+     "english": "For a child, you know quite a lot of difficult things."
     },
     {
-      "id": "ni-seyo-ni-shiro",
-      "name": "〜にせよ / 〜にしろ — whether...or / even if",
-      "shortDescription": "Acknowledges one or more conditions and asserts the main clause holds regardless.",
-      "formation": "Plain form / Noun + にせよ / にしろ  |  A にせよ B にせよ = whether A or B",
-      "explanation": "にせよ and にしろ are the more assertive, logically forceful cousins of にしても. They mean 'even if,' 'whether,' or 'regardless of' — but with the added edge that all conditions are hereby dismissed as irrelevant to the conclusion. 賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]ははっきり言[い]ってください — 'Whether you agree or disagree, state your opinion clearly' — both possibilities are swept off the table, and the demand applies universally.\n\nThis dismissal quality gives these forms their distinctive logical force, making them at home in editorial writing, structured arguments, formal instructions, and speeches where the speaker wants to neutralize all possible conditions or objections before making the main point.\n\nTone-wise: にしろ is slightly more direct and blunt; にせよ is the more polished choice for formal written contexts. They're interchangeable in most situations. The set expression いずれにせよ (either way / in any case) at the start of a sentence is worth memorizing.",
-      "rules": [
-        "Plain form / Noun + にせよ / にしろ = even if / regardless of (assertive — conditions dismissed)",
-        "A にせよ B にせよ = whether A or B (covering all cases, conclusion holds regardless)",
-        "Slightly more assertive than にしても; formal register",
-        "Both forms are interchangeable in most contexts; にしろ slightly blunter, にせよ slightly more polished",
-        "Common in: editorial writing, logical arguments, formal instructions, speeches"
-      ],
-      "examples": [
-        {
-          "japanese": "賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]ははっきり言[い]ってください。",
-          "romaji": "Sansei suru ni se yo hantai suru ni se yo, iken wa hakkiri itte kudasai.",
-          "english": "Whether you agree or disagree, please state your opinion clearly."
-        },
-        {
-          "japanese": "理由[りゆう]が何[なん]であるにしろ、締[し]め切[き]りは守[まも]らなければなりません。",
-          "romaji": "Riyuu ga nan de aru ni shiro, shimekiri wa mamoranakereba narimasen.",
-          "english": "Whatever the reason may be, the deadline must be met."
-        },
-        {
-          "japanese": "結果[けっか]がどうであれにせよ、挑戦[ちょうせん]したことは評価[ひょうか]されるべきです。",
-          "romaji": "Kekka ga dou de are ni se yo, chousen shita koto wa hyouka sareru beki desu.",
-          "english": "Whatever the result, the fact that you challenged it should be recognized."
-        },
-        {
-          "japanese": "冗談[じょうだん]にしろ本気[ほんき]にしろ、そういうことを言[い]うべきではありません。",
-          "romaji": "Joudan ni shiro honki ni shiro, sou iu koto wo iu beki dewa arimasen.",
-          "english": "Whether joking or serious, you shouldn't say things like that."
-        }
-      ],
-      "flashcardHeader": "〜にせよ / 〜にしろ",
-      "flashcardAnswer": "Acknowledges one or more conditions and asserts the main clause holds regardless.",
-      "practice": [
-        {
-          "id": "ni-seyo-ni-shiro_q1",
-          "type": "usage",
-          "prompt": "What does 〜にせよ / 〜にしろ mean?",
-          "japanese": null,
-          "choices": [
-            "because of X",
-            "even if / whether...or — more assertive and formal than にしても; dismisses all conditions as irrelevant to the main assertion",
-            "for / given that X",
-            "just as / right when"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜にせよ / 〜にしろ = even if / whether...or. More assertive/formal than にしても. にせよ and にしろ are interchangeable (にしろ slightly more emphatic). They say: whatever condition applies, the main clause holds — no exceptions."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether you agree or disagree, state your opinion clearly'?",
-          "japanese": null,
-          "choices": [
-            "賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]をはっきり言[い]いなさい。",
-            "賛成[さんせい]するにしても反対[はんたい]するにしても、意見[いけん]をはっきり言[い]いなさい。",
-            "賛成[さんせい]するにしては反対[はんたい]するにしては、意見[いけん]をはっきり言[い]いなさい。",
-            "賛成[さんせい]するとしても反対[はんたい]するとしても、意見[いけん]をはっきり言[い]いなさい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 賛成[さんせい]するにせよ反対[はんたい]するにせよ = whether you agree or disagree. 意見[いけん]をはっきり言[い]いなさい = state your opinion clearly. にせよ is assertive and slightly more forceful than にしても."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q3",
-          "type": "translation",
-          "prompt": "Which means 'Even if it's a lie, you have to say something'?",
-          "japanese": null,
-          "choices": [
-            "嘘[うそ]にせよ、何[なに]か言[い]わなければならない。",
-            "嘘[うそ]にしても、何[なに]か言[い]わなければならない。",
-            "嘘[うそ]にしては、何[なに]か言[い]わなければならない。",
-            "嘘[うそ]であっても、何[なに]か言[い]わなければならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にせよ: 嘘[うそ] (lie) + にせよ = even if it's a lie. 何[なに]か言[い]わなければならない = have to say something. にせよ dismisses the condition (even granting it's a lie) and asserts the necessity."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether it's expensive or cheap, quality matters'?",
-          "japanese": null,
-          "choices": [
-            "高[たか]いにせよ安[やす]いにせよ、品質[ひんしつ]が大切[たいせつ]だ。",
-            "高[たか]いにしても安[やす]いにしても、品質[ひんしつ]が大切[たいせつ]だ。",
-            "高[たか]いにしては安[やす]いにしては、品質[ひんしつ]が大切[たいせつ]だ。",
-            "高[たか]いとしても安[やす]いとしても、品質[ひんしつ]が大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 高[たか]いにせよ安[やす]いにせよ = whether expensive or cheap. 品質[ひんしつ]が大切[たいせつ]だ = quality matters. The main assertion holds for both price points."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q5",
-          "type": "usage",
-          "prompt": "What is the difference between にせよ/にしろ and にしても?",
-          "japanese": null,
-          "choices": [
-            "They are completely identical",
-            "にせよ/にしろ = more assertive/formal/decisive (often written or formal speech); にしても = softer concession, more conversational",
-            "にしても is more formal",
-            "にしろ is only for written Japanese — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "にせよ/にしろ are more assertive and formal — often appearing in written arguments, formal speech, or decisive statements. にしても is softer and more conversational. Both mean 'even if / whether A or B', but にせよ carries stronger rhetorical force."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it's just for a moment, please listen to me'?",
-          "japanese": null,
-          "choices": [
-            "一瞬[いっしゅん]にせよ、私[わたし]の話[はなし]を聞[き]いてください。",
-            "一瞬[いっしゅん]にしても、私[わたし]の話[はなし]を聞[き]いてください。",
-            "一瞬[いっしゅん]にしては、私[わたし]の話[はなし]を聞[き]いてください。",
-            "一瞬[いっしゅん]としても、私[わたし]の話[はなし]を聞[き]いてください。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にせよ: 一瞬[いっしゅん] (a moment) + にせよ = even if just for a moment. 私[わたし]の話[はなし]を聞[き]いてください = please listen to me. にせよ is assertive — even the minimum condition is being demanded."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q7",
-          "type": "translation",
-          "prompt": "Which means 'Whether it succeeds or fails, the attempt itself has value'?",
-          "japanese": null,
-          "choices": [
-            "成功[せいこう]するにせよ失敗[しっぱい]するにせよ、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
-            "成功[せいこう]するにしても失敗[しっぱい]するにしても、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
-            "成功[せいこう]するにしては失敗[しっぱい]するにしては、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
-            "成功[せいこう]するとしても失敗[しっぱい]するとしても、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 成功[せいこう]するにせよ失敗[しっぱい]するにせよ = whether it succeeds or fails. 挑戦[ちょうせん]自体[じたい]に価値[かち]がある = the attempt itself has value. More formal/literary than the にしても version."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it's just for a day, experiencing living abroad is valuable'?",
-          "japanese": null,
-          "choices": [
-            "一日[いちにち]にせよ、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
-            "一日[いちにち]にしても、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
-            "一日[いちにち]にしては、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
-            "一日[いちにち]としても、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にせよ: 一日[いちにち] (one day) + にせよ = even if it's just for a day. 海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ = experiencing living abroad is valuable. にせよ makes the assertion more decisive."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q9",
-          "type": "usage",
-          "prompt": "Can にせよ follow NEGATIVE forms? Which shows this correctly?",
-          "japanese": null,
-          "choices": [
-            "行[い]くにせよ行[い]かないにせよ、連絡[れんらく]は必要[ひつよう]だ。(Whether going or not going, contact is necessary.)",
-            "行[い]かないないにせよ、連絡[れんらく]は必要[ひつよう]だ。(incorrect double-negative)",
-            "行[い]かなかったにせよ、連絡[れんらく]は必要[ひつよう]だ。(Even if not going/didn't go — past)",
-            "Both A and C are grammatically correct."
-          ],
-          "correctIndex": 3,
-          "explanation": "Both work: 行[い]かないにせよ (whether not going — present) and 行[い]かなかったにせよ (even if didn't go — past) are both grammatical. にせよ can follow both plain present and past negative forms."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether it's possible or not, we should aim for it'?",
-          "japanese": null,
-          "choices": [
-            "可能[かのう]にせよ不可能[ふかのう]にせよ、目指[めざ]すべきだ。",
-            "可能[かのう]にしても不可能[ふかのう]にしても、目指[めざ]すべきだ。",
-            "可能[かのう]にしては不可能[ふかのう]にしては、目指[めざ]すべきだ。",
-            "可能[かのう]だとしても不可能[ふかのう]だとしても、目指[めざ]すべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 可能[かのう]にせよ不可能[ふかのう]にせよ = whether possible or not. 目指[めざ]すべきだ = should aim for it. にせよ delivers the assertion with formal finality."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q11",
-          "type": "translation",
-          "prompt": "Which means 'Even if it's just an excuse, report something to your supervisor'?",
-          "japanese": null,
-          "choices": [
-            "言[い]い訳[わけ]にせよ、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
-            "言[い]い訳[わけ]にしても、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
-            "言[い]い訳[わけ]にしては、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
-            "言[い]い訳[わけ]としても、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にせよ: 言[い]い訳[わけ] (excuse) + にせよ = even if it's just an excuse. 何[なに]か上司[じょうし]に報告[ほうこく]しなさい = report something to your supervisor. にせよ is assertive — the command stands regardless."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether the reason is good or bad, breaking rules cannot be permitted'?",
-          "japanese": null,
-          "choices": [
-            "理由[りゆう]が正当[せいとう]にせよ不当[ふとう]にせよ、ルール違反[いはん]は許[ゆる]されない。",
-            "理由[りゆう]が正当[せいとう]にしても不当[ふとう]にしても、ルール違反[いはん]は許[ゆる]されない。",
-            "理由[りゆう]が正当[せいとう]にしては不当[ふとう]にしては、ルール違反[いはん]は許[ゆる]されない。",
-            "理由[りゆう]が正当[せいとう]だとしても不当[ふとう]だとしても、ルール違反[いはん]は許[ゆる]されない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 正当[せいとう]にせよ不当[ふとう]にせよ = whether legitimate or illegitimate. ルール違反[いはん]は許[ゆる]されない = breaking rules cannot be permitted. Formal/assertive statement."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q13",
-          "type": "usage",
-          "prompt": "にしろ and にせよ are interchangeable but differ slightly. Which BEST describes the distinction?",
-          "japanese": null,
-          "choices": [
-            "にしろ is formal; にせよ is casual",
-            "にせよ is slightly more literary/written; にしろ is slightly more spoken/colloquial — but both mean the same thing",
-            "にしろ is for nouns only; にせよ is for verbs",
-            "They cannot be used in the same contexts, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "にせよ is slightly more literary and used in writing; にしろ is slightly more spoken/emphatic. However, in most contexts they are interchangeable. 行[い]くにせよ行[い]かないにせよ ≈ 行[い]くにしろ行[い]かないにしろ."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if you're tired, complete your responsibilities'?",
-          "japanese": null,
-          "choices": [
-            "疲[つか]れているにせよ、責任[せきにん]を果[は]たしなさい。",
-            "疲[つか]れているにしても、責任[せきにん]を果[は]たしなさい。",
-            "疲[つか]れているにしては、責任[せきにん]を果[は]たしなさい。",
-            "疲[つか]れているとしても、責任[せきにん]を果[は]たしなさい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain form + にせよ: 疲[つか]れている + にせよ = even if tired. 責任[せきにん]を果[は]たしなさい = complete your responsibilities. にせよ is assertive and somewhat commanding — appropriate for duty/obligation."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q15",
-          "type": "translation",
-          "prompt": "Which means 'Whether eating in or taking out, the price is the same'?",
-          "japanese": null,
-          "choices": [
-            "店内[てんない]で食[た]べるにせよテイクアウトにせよ、値段[ねだん]は同[おな]じだ。",
-            "店内[てんない]で食[た]べるにしても テイクアウトにしても、値段[ねだん]は同[おな]じだ。",
-            "店内[てんない]で食[た]べるにしては テイクアウトにしては、値段[ねだん]は同[おな]じだ。",
-            "店内[てんない]で食[た]べるとしてもテイクアウトとしても、値段[ねだん]は同[おな]じだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 店内[てんない]で食[た]べるにせよテイクアウトにせよ = whether eating in or taking out. 値段[ねだん]は同[おな]じだ = the price is the same. The pricing policy holds for both options."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Even if it was a moment of weakness, it's not an excuse'?",
-          "japanese": null,
-          "choices": [
-            "魔[ま]が差[さ]したにせよ、言[い]い訳[わけ]にはならない。",
-            "魔[ま]が差[さ]したにしても、言[い]い訳[わけ]にはならない。",
-            "魔[ま]が差[さ]したにしては、言[い]い訳[わけ]にはならない。",
-            "魔[ま]が差[さ]したとしても、言[い]い訳[わけ]にはならない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Plain past + にせよ: 魔[ま]が差[さ]した (had a moment of weakness) + にせよ = even if it was a moment of weakness. 言[い]い訳[わけ]にはならない = it's not an excuse. Assertive rejection of the justification."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses にせよ in the most NATURAL way for formal written Japanese?",
-          "japanese": null,
-          "choices": [
-            "あのさー、行[い]くにせよ行[い]かないにせよ、早[はや]く決[き]めてよ。(Too casual — inconsistent register)",
-            "いずれにせよ、早急[さっきゅう]な対応[たいおう]が求[もと]められる。(Either way, a prompt response is required. — formal/written)",
-            "まあ、行[い]くにせよいいんじゃない？(Too casual — にせよ but surrounding register is wrong)",
-            "にせよ、とにかく頑張[がんば]ろう。(missing antecedent — grammatically incomplete)"
-          ],
-          "correctIndex": 1,
-          "explanation": "いずれにせよ (either way) is a fixed formal expression meaning 'in any case / regardless.' 早急[さっきゅう]な対応[たいおう]が求[もと]められる = a prompt response is required. This is the natural formal/written use of にせよ in conclusions."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether studying at home or at school, the important thing is concentration'?",
-          "japanese": null,
-          "choices": [
-            "家[いえ]で勉強[べんきょう]するにせよ学校[がっこう]で勉強[べんきょう]するにせよ、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
-            "家[いえ]で勉強[べんきょう]するにしても学校[がっこう]で勉強[べんきょう]するにしても、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
-            "家[いえ]で勉強[べんきょう]するにしては学校[がっこう]で勉強[べんきょう]するにしては、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
-            "家[いえ]で勉強[べんきょう]するとしても学校[がっこう]で勉強[べんきょう]するとしても、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 家[いえ]で勉強[べんきょう]するにせよ学校[がっこう]で勉強[べんきょう]するにせよ = whether studying at home or school. 大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ = the important thing is concentration. Formal assertion covering both alternatives."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q19",
-          "type": "translation",
-          "prompt": "Which means 'Even if it's a small thing, starting is important'?",
-          "japanese": null,
-          "choices": [
-            "小[ちい]さなことにせよ、始[はじ]めることが大切[たいせつ]だ。",
-            "小[ちい]さなことにしても、始[はじ]めることが大切[たいせつ]だ。",
-            "小[ちい]さなことにしては、始[はじ]めることが大切[たいせつ]だ。",
-            "小[ちい]さなこととしても、始[はじ]めることが大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にせよ: 小[ちい]さなこと (small thing) + にせよ = even if it's a small thing. 始[はじ]めることが大切[たいせつ]だ = starting is important. にせよ makes the assertion hold even for the minimum case."
-        },
-        {
-          "id": "ni-seyo-ni-shiro_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Whether alone or with others, maintaining good manners is essential'?",
-          "japanese": null,
-          "choices": [
-            "一人[ひとり]にせよ大勢[おおぜい]にせよ、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
-            "一人[ひとり]にしても大勢[おおぜい]にしても、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
-            "一人[ひとり]にしては大勢[おおぜい]にしては、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
-            "一人[ひとり]としても大勢[おおぜい]としても、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "A にせよ B にせよ: 一人[ひとり]にせよ大勢[おおぜい]にせよ = whether alone or with many people. 礼儀[れいぎ]を守[まも]ることが欠[か]かせない = maintaining good manners is essential. にせよ is formal and assertive."
-        }
-      ]
+     "japanese": "この値段[ねだん]にしては、サービスがあまりよくなかったです。",
+     "romaji": "Kono nedan ni shite wa, saabisu ga amari yoku nakatta desu.",
+     "english": "For this price, the service wasn't very good."
+    },
+    {
+     "japanese": "初心者[しょしんしゃ]にしては、プレゼンがとても堂々[どうどう]としていました。",
+     "romaji": "Shoshinsha ni shite wa, purezen ga totemo doudou to shite imashita.",
+     "english": "For a beginner, the presentation was very confident and composed."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜にしては",
+   "flashcardAnswer": "Evaluates something against an expectation set by its category or condition.",
+   "practice": [
     {
-      "id": "ch37_v01",
-      "partOfSpeech": "noun",
-      "kanji": "論理",
-      "kana": "ろんり",
-      "romaji": "ronri",
-      "definition": "logic"
+     "id": "ni-shite-wa_q1",
+     "type": "usage",
+     "prompt": "What does 〜にしては mean?",
+     "japanese": null,
+     "choices": [
+      "because of X",
+      "for X / given that X — evaluates a result against the expectation set by the category (often the result is surprisingly better or worse than expected)",
+      "compared to X, more so",
+      "even though X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜にしては = for / given that X. It holds a result against the standard implied by a category. 子[こ]どもにしては上手[じょうず]だ = for a child, that's impressive (better than a child would normally be). The result doesn't quite match the expected norm for that category."
     },
     {
-      "id": "ch37_v02",
-      "partOfSpeech": "noun",
-      "kanji": "根拠",
-      "kana": "こんきょ",
-      "romaji": "konkyo",
-      "definition": "grounds; basis"
+     "id": "ni-shite-wa_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a beginner, she plays piano well'?",
+     "japanese": null,
+     "choices": [
+      "初心者[しょしんしゃ]にしては、彼女[かのじょ]はピアノが上手[じょうず]だ。",
+      "初心者[しょしんしゃ]としては、彼女[かのじょ]はピアノが上手[じょうず]だ。",
+      "初心者[しょしんしゃ]なのに、彼女[かのじょ]はピアノが上手[じょうず]だ。",
+      "初心者[しょしんしゃ]にとっては、彼女[かのじょ]はピアノが上手[じょうず]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 初心者[しょしんしゃ] (beginner) + にしては = for a beginner. 彼女[かのじょ]はピアノが上手[じょうず]だ = she plays piano well. The standard 'beginner' sets a low expectation; 'plays well' is a positive surprise."
     },
     {
-      "id": "ch37_v03",
-      "partOfSpeech": "noun",
-      "kanji": "前提",
-      "kana": "ぜんてい",
-      "romaji": "zentei",
-      "definition": "premise; assumption"
+     "id": "ni-shite-wa_q3",
+     "type": "translation",
+     "prompt": "Which means 'For someone who studied abroad, his English isn't very good'?",
+     "japanese": null,
+     "choices": [
+      "留学[りゅうがく]したにしては、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
+      "留学[りゅうがく]したのに、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
+      "留学[りゅうがく]したとしては、彼[かれ]の英語[えいご]はあまり上手[うま]くない。",
+      "留学[りゅうがく]したにしても、彼[かれ]の英語[えいご]はあまり上手[うま]くない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしては: 留学[りゅうがく]した (studied abroad, past) + にしては = for someone who studied abroad. 英語[えいご]はあまり上手[うま]くない = English isn't very good. The expectation (studying abroad → good English) is not met — negative surprise."
     },
     {
-      "id": "ch37_v04",
-      "partOfSpeech": "noun",
-      "kanji": "結論",
-      "kana": "けつろん",
-      "romaji": "ketsuron",
-      "definition": "conclusion"
+     "id": "ni-shite-wa_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'For his age, he looks very young'?",
+     "japanese": null,
+     "choices": [
+      "年齢[ねんれい]にしては、彼[かれ]はとても若[わか]く見[み]える。",
+      "年齢[ねんれい]としては、彼[かれ]はとても若[わか]く見[み]える。",
+      "年齢[ねんれい]なのに、彼[かれ]はとても若[わか]く見[み]える。",
+      "年齢[ねんれい]にとっては、彼[かれ]はとても若[わか]く見[み]える。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 年齢[ねんれい] (age) + にしては = for his age. 若[わか]く見[み]える = looks young. Age sets the expectation (older = looks older); looking very young is a positive departure from that norm."
     },
     {
-      "id": "ch37_v05",
-      "partOfSpeech": "noun",
-      "kanji": "矛盾",
-      "kana": "むじゅん",
-      "romaji": "mujun",
-      "definition": "contradiction"
+     "id": "ni-shite-wa_q5",
+     "type": "usage",
+     "prompt": "What is the KEY nuance of にしては vs. のに?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "にしては = evaluates against a category standard (expected norm for that type); のに = contrast or complaint about a specific fact",
+      "にしては is more formal",
+      "のに is for positive results only, regardless of context or politeness level — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "にしては = 'calibrated surprise' — the result is measured against the category's implied standard. のに = simple contrast or complaint: 'even though X, Y (unexpected/disappointing).' 初心者[しょしんしゃ]にしては上手[じょうず] (for a beginner, surprisingly good) vs. 練習[れんしゅう]したのに上手[うま]くない (even though practiced, not good — complaint)."
     },
     {
-      "id": "ch37_v06",
-      "partOfSpeech": "noun",
-      "kanji": "証拠",
-      "kana": "しょうこ",
-      "romaji": "shouko",
-      "definition": "evidence"
+     "id": "ni-shite-wa_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a first attempt, this is quite good'?",
+     "japanese": null,
+     "choices": [
+      "初[はじ]めてにしては、これはかなりよくできている。",
+      "初[はじ]めてなのに、これはかなりよくできている。",
+      "初[はじ]めてとしては、これはかなりよくできている。",
+      "初[はじ]めてにしても、これはかなりよくできている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 初[はじ]めて (first time) + にしては = for a first attempt. これはかなりよくできている = this is quite well done. Positive deviation from the expected standard for a debut effort."
     },
     {
-      "id": "ch37_v07",
-      "partOfSpeech": "noun",
-      "kanji": "証明",
-      "kana": "しょうめい",
-      "romaji": "shoumei",
-      "definition": "proof; certification"
+     "id": "ni-shite-wa_q7",
+     "type": "translation",
+     "prompt": "Which means 'For a professional chef, this dish is surprisingly simple'?",
+     "japanese": null,
+     "choices": [
+      "プロのシェフにしては、この料理[りょうり]は意外[いがい]とシンプルだ。",
+      "プロのシェフなのに、この料理[りょうり]は意外[いがい]とシンプルだ。",
+      "プロのシェフとしては、この料理[りょうり]は意外[いがい]とシンプルだ。",
+      "プロのシェフにしても、この料理[りょうり]は意外[いがい]とシンプルだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: プロのシェフ + にしては = for a professional chef. 意外[いがい]とシンプルだ = surprisingly simple. The pro chef standard sets a high-complexity expectation; simple = negative departure."
     },
     {
-      "id": "ch37_v08",
-      "partOfSpeech": "noun",
-      "kanji": "仮説",
-      "kana": "かせつ",
-      "romaji": "kasetsu",
-      "definition": "hypothesis"
+     "id": "ni-shite-wa_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'For winter, it's quite warm today'?",
+     "japanese": null,
+     "choices": [
+      "冬[ふゆ]にしては、今日[きょう]はかなり暖[あたた]かい。",
+      "冬[ふゆ]なのに、今日[きょう]はかなり暖[あたた]かい。",
+      "冬[ふゆ]としては、今日[きょう]はかなり暖[あたた]かい。",
+      "冬[ふゆ]だからこそ、今日[きょう]はかなり暖[あたた]かい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 冬[ふゆ] (winter) + にしては = for winter. 今日[きょう]はかなり暖[あたた]かい = today is quite warm. Winter sets a cold expectation; warm = pleasant positive surprise."
     },
     {
-      "id": "ch37_v09",
-      "partOfSpeech": "noun",
-      "kanji": "推論",
-      "kana": "すいろん",
-      "romaji": "suiron",
-      "definition": "inference; reasoning"
+     "id": "ni-shite-wa_q9",
+     "type": "usage",
+     "prompt": "Can にしては follow a VERB (plain form)? Which example is correct?",
+     "japanese": null,
+     "choices": [
+      "毎日[まいにち]練習[れんしゅう]するにしては上手[うま]くない。(For someone who practices every day, not good.)",
+      "毎日[まいにち]練習[れんしゅう]してにしては上手[うま]くない。(incorrect)",
+      "毎日[まいにち]練習[れんしゅう]したにしては上手[うま]くない。(For someone who practiced every day, not good.)",
+      "Both A and C are grammatically correct."
+     ],
+     "correctIndex": 3,
+     "explanation": "Both dict-form + にしては and past (た-form) + にしては are possible. 毎日[まいにち]練習[れんしゅう]するにしては (for someone who practices daily) and 毎日[まいにち]練習[れんしゅう]したにしては (for someone who practiced every day) are both grammatical with appropriate contexts."
     },
     {
-      "id": "ch37_v10",
-      "partOfSpeech": "noun",
-      "kanji": "検討",
-      "kana": "けんとう",
-      "romaji": "kentou",
-      "definition": "examination; consideration"
+     "id": "ni-shite-wa_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a high school student, her writing is very mature'?",
+     "japanese": null,
+     "choices": [
+      "高校生[こうこうせい]にしては、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
+      "高校生[こうこうせい]なのに、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
+      "高校生[こうこうせい]としては、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。",
+      "高校生[こうこうせい]にしても、彼女[かのじょ]の文章[ぶんしょう]はとても大人[おとな]っぽい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 高校生[こうこうせい] + にしては = for a high school student. 文章[ぶんしょう]はとても大人[おとな]っぽい = writing is very mature. High school sets a certain level expectation; mature writing is a positive surprise."
     },
     {
-      "id": "ch37_v11",
-      "partOfSpeech": "noun",
-      "kanji": "分類",
-      "kana": "ぶんるい",
-      "romaji": "bunrui",
-      "definition": "classification"
+     "id": "ni-shite-wa_q11",
+     "type": "translation",
+     "prompt": "Which means 'For a famous restaurant, the service was quite disappointing'?",
+     "japanese": null,
+     "choices": [
+      "有名[ゆうめい]なレストランにしては、サービスがかなり残念[ざんねん]だった。",
+      "有名[ゆうめい]なレストランなのに、サービスがかなり残念[ざんねん]だった。",
+      "有名[ゆうめい]なレストランとしては、サービスがかなり残念[ざんねん]だった。",
+      "有名[ゆうめい]なレストランにしても、サービスがかなり残念[ざんねん]だった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 有名[ゆうめい]なレストラン + にしては = for a famous restaurant. サービスがかなり残念[ざんねん]だった = service was quite disappointing. Famous restaurant sets a high expectation; disappointing service = negative departure."
     },
     {
-      "id": "ch37_v12",
-      "partOfSpeech": "noun",
-      "kanji": "比較",
-      "kana": "ひかく",
-      "romaji": "hikaku",
-      "definition": "comparison"
+     "id": "ni-shite-wa_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'For someone living in Japan, he can't speak Japanese at all'?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]に住[す]んでいるにしては、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
+      "日本[にほん]に住[す]んでいるのに、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
+      "日本[にほん]に住[す]んでいるとしては、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。",
+      "日本[にほん]に住[す]んでいるにしても、彼[かれ]は日本語[にほんご]が全然[ぜんぜん]話[はな]せない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしては: 住[す]んでいる + にしては = for someone living in . 全然[ぜんぜん]話[はな]せない = can't speak at all. Living in Japan sets an expectation for language ability; inability is a stark negative departure."
     },
     {
-      "id": "ch37_v13",
-      "partOfSpeech": "noun",
-      "kanji": "観点",
-      "kana": "かんてん",
-      "romaji": "kanten",
-      "definition": "viewpoint"
+     "id": "ni-shite-wa_q13",
+     "type": "usage",
+     "prompt": "にしては implies the speaker's CALIBRATION against a standard. Which scenario BEST illustrates this?",
+     "japanese": null,
+     "choices": [
+      "山田[やまだ]さんのにしては面白[おもしろ]い映画[えいが]だ。(awkward — not a recognized category) — this is true in both spoken and written Japanese.",
+      "三歳[さんさい]の子[こ]どもにしては字[じ]が上手[うま]い。(For a 3-year-old, handwriting is good — clear category standard)",
+      "彼[かれ]はにしては頭[あたま]がいい。(grammatically incomplete)",
+      "にしては、雨[あめ]が多[おお]い年[ねん]だった。(no clear subject for the category)"
+     ],
+     "correctIndex": 1,
+     "explanation": "三歳[さんさい]の子[こ]ども (3-year-old) sets a clear developmental standard. にしては measures the result (字[じ]が上手[うま]い = good handwriting) against this category's expected norm. The category must be recognizable for にしては to work naturally."
     },
     {
-      "id": "ch37_v14",
-      "partOfSpeech": "noun",
-      "kanji": "視点",
-      "kana": "してん",
-      "romaji": "shiten",
-      "definition": "point of view"
+     "id": "ni-shite-wa_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a self-taught person, his technique is quite advanced'?",
+     "japanese": null,
+     "choices": [
+      "独学[どくがく]にしては、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
+      "独学[どくがく]なのに、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
+      "独学[どくがく]としては、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。",
+      "独学[どくがく]にしても、彼[かれ]の技術[ぎじゅつ]はかなり高度[こうど]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 独学[どくがく] (self-taught) + にしては = for someone self-taught. 技術[ぎじゅつ]はかなり高度[こうど]だ = technique is quite advanced. Self-taught sets a modest expectation; advanced technique = positive surprise."
     },
     {
-      "id": "ch37_v15",
-      "partOfSpeech": "noun",
-      "kanji": "論点",
-      "kana": "ろんてん",
-      "romaji": "ronten",
-      "definition": "point of argument"
+     "id": "ni-shite-wa_q15",
+     "type": "translation",
+     "prompt": "Which means 'For a cheap hotel, the facilities are surprisingly good'?",
+     "japanese": null,
+     "choices": [
+      "安[やす]いホテルにしては、施設[しせつ]が意外[いがい]とよい。",
+      "安[やす]いホテルなのに、施設[しせつ]が意外[いがい]とよい。",
+      "安[やす]いホテルとしては、施設[しせつ]が意外[いがい]とよい。",
+      "安[やす]いホテルにしても、施設[しせつ]が意外[いがい]とよい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 安[やす]いホテル + にしては = for a cheap hotel. 施設[しせつ]が意外[いがい]とよい = facilities are surprisingly good. Cheap hotel sets low expectations; good facilities = pleasant positive surprise."
     },
     {
-      "id": "ch37_v16",
-      "partOfSpeech": "noun",
-      "kanji": "反論",
-      "kana": "はんろん",
-      "romaji": "hanron",
-      "definition": "counterargument"
+     "id": "ni-shite-wa_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a child who hates vegetables, he ate quite a lot'?",
+     "japanese": null,
+     "choices": [
+      "野菜[やさい]嫌[きら]いな子[こ]にしては、かなりたくさん食[た]べた。",
+      "野菜[やさい]嫌[きら]いな子[こ]なのに、かなりたくさん食[た]べた。",
+      "野菜[やさい]嫌[きら]いな子[こ]としては、かなりたくさん食[た]べた。",
+      "野菜[やさい]嫌[きら]いな子[こ]にしても、かなりたくさん食[た]べた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 野菜[やさい]嫌[きら]いな子[こ] (child who hates vegetables) + にしては = for a child who hates vegetables. かなりたくさん食[た]べた = ate quite a lot. The category (veg-hater) sets a low-eating expectation; eating a lot = positive surprise."
     },
     {
-      "id": "ch37_v17",
-      "partOfSpeech": "noun",
-      "kanji": "指摘",
-      "kana": "してき",
-      "romaji": "shiteki",
-      "definition": "pointing out"
+     "id": "ni-shite-wa_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses にしては INCORRECTLY (the result matches the standard rather than deviating from it)?",
+     "japanese": null,
+     "choices": [
+      "医者[いしゃ]にしては体[からだ]が弱[よわ]い。(For a doctor, surprisingly weak body — deviates from expectation.)",
+      "子[こ]どもにしては背[せ]が高[たか]い。(For a child, surprisingly tall — deviates.)",
+      "日本人[にほんじん]にしては英語[えいご]が上手[うま]い。(For a Japanese person, English is good — positive deviation.)",
+      "プロにしては技術[ぎじゅつ]が高[たか]い。(For a professional, technique is high — matches/exceeds expectation but implies it's expected.)"
+     ],
+     "correctIndex": 3,
+     "explanation": "プロにしては技術[ぎじゅつ]が高[たか]い is awkward — a professional SHOULD have high skill; saying 'for a pro, skill is high' doesn't create the needed surprise or deviation. にしては requires the result to be unexpectedly above or below the category's norm. Options 1-3 all show genuine deviation."
     },
     {
-      "id": "ch37_v18",
-      "partOfSpeech": "noun",
-      "kanji": "疑い",
-      "kana": "うたがい",
-      "romaji": "utagai",
-      "definition": "doubt; suspicion"
+     "id": "ni-shite-wa_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a movie that cost so much to make, it wasn't very good'?",
+     "japanese": null,
+     "choices": [
+      "あんなにお金[かね]をかけた映画[えいが]にしては、あまりよくなかった。",
+      "あんなにお金[かね]をかけた映画[えいが]なのに、あまりよくなかった。",
+      "あんなにお金[かね]をかけた映画[えいが]としては、あまりよくなかった。",
+      "あんなにお金[かね]をかけた映画[えいが]にしても、あまりよくなかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form (nominalizing) + にしては: お金[かね]をかけた映画[えいが] + にしては = for a movie that cost so much. あまりよくなかった = wasn't very good. High budget sets quality expectations; poor result = negative deviation."
     },
     {
-      "id": "ch37_v19",
-      "partOfSpeech": "noun",
-      "kanji": "確信",
-      "kana": "かくしん",
-      "romaji": "kakushin",
-      "definition": "conviction; certainty"
+     "id": "ni-shite-wa_q19",
+     "type": "translation",
+     "prompt": "Which means 'For a country with such a cold climate, the food is surprisingly spicy'?",
+     "japanese": null,
+     "choices": [
+      "あんなに寒[さむ]い国[くに]にしては、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]なのに、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]としては、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]だから、料理[りょうり]が意外[いがい]と辛[から]い。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしては: 寒[さむ]い国[くに] (cold country) + にしては = for a country with a cold climate. 料理[りょうり]が意外[いがい]と辛[から]い = food is surprisingly spicy. Cold climate → bland food (stereotypical expectation); spicy food = positive deviation."
     },
     {
-      "id": "ch37_v20",
-      "partOfSpeech": "noun",
-      "kanji": "見解",
-      "kana": "けんかい",
-      "romaji": "kenkai",
-      "definition": "opinion; view"
-    },
-    {
-      "id": "ch37_v21",
-      "partOfSpeech": "na-adjective",
-      "kanji": "妥当",
-      "kana": "だとう",
-      "romaji": "datou",
-      "definition": "valid; appropriate"
-    },
-    {
-      "id": "ch37_v22",
-      "partOfSpeech": "noun",
-      "kanji": "概念",
-      "kana": "がいねん",
-      "romaji": "gainen",
-      "definition": "concept"
-    },
-    {
-      "id": "ch37_v23",
-      "partOfSpeech": "noun",
-      "kanji": "原理",
-      "kana": "げんり",
-      "romaji": "genri",
-      "definition": "principle"
-    },
-    {
-      "id": "ch37_v24",
-      "partOfSpeech": "noun",
-      "kanji": "認識",
-      "kana": "にんしき",
-      "romaji": "ninshiki",
-      "definition": "recognition; awareness"
-    },
-    {
-      "id": "ch37_v25",
-      "partOfSpeech": "noun",
-      "kanji": "把握",
-      "kana": "はあく",
-      "romaji": "haaku",
-      "definition": "grasp; comprehension"
-    },
-    {
-      "id": "ch37_v26",
-      "partOfSpeech": "noun",
-      "kanji": "因果",
-      "kana": "いんが",
-      "romaji": "inga",
-      "definition": "cause and effect"
-    },
-    {
-      "id": "ch37_v27",
-      "partOfSpeech": "noun",
-      "kanji": "相互",
-      "kana": "そうご",
-      "romaji": "sougo",
-      "definition": "mutual; reciprocal"
-    },
-    {
-      "id": "ch37_v28",
-      "partOfSpeech": "noun",
-      "kanji": "要因",
-      "kana": "よういん",
-      "romaji": "youin",
-      "definition": "factor; cause"
-    },
-    {
-      "id": "ch37_v29",
-      "partOfSpeech": "noun",
-      "kanji": "要点",
-      "kana": "ようてん",
-      "romaji": "youten",
-      "definition": "main point; gist"
-    },
-    {
-      "id": "ch37_v30",
-      "partOfSpeech": "verb",
-      "kanji": "論じる",
-      "kana": "ろんじる",
-      "romaji": "ronjiru",
-      "definition": "to discuss; to argue"
-    },
-    {
-      "id": "ch37_v31",
-      "partOfSpeech": "verb",
-      "kanji": "導く",
-      "kana": "みちびく",
-      "romaji": "michibiku",
-      "definition": "to lead; to derive"
-    },
-    {
-      "id": "ch37_v32",
-      "partOfSpeech": "verb",
-      "kanji": "示す",
-      "kana": "しめす",
-      "romaji": "shimesu",
-      "definition": "to indicate; to show"
-    },
-    {
-      "id": "ch37_v33",
-      "partOfSpeech": "noun",
-      "kanji": "判明",
-      "kana": "はんめい",
-      "romaji": "hanmei",
-      "definition": "becoming clear; being ascertained"
-    },
-    {
-      "id": "ch37_v34",
-      "partOfSpeech": "noun",
-      "kanji": "検証",
-      "kana": "けんしょう",
-      "romaji": "kenshou",
-      "definition": "verification"
-    },
-    {
-      "id": "ch37_v35",
-      "partOfSpeech": "noun",
-      "kanji": "客観性",
-      "kana": "きゃっかんせい",
-      "romaji": "kyakkansei",
-      "definition": "objectivity"
-    },
-    {
-      "id": "ch37_v36",
-      "partOfSpeech": "noun",
-      "kanji": "主観",
-      "kana": "しゅかん",
-      "romaji": "shukan",
-      "definition": "subjectivity"
-    },
-    {
-      "id": "ch37_v37",
-      "partOfSpeech": "na-adjective",
-      "kanji": "論理的",
-      "kana": "ろんりてき",
-      "romaji": "ronriteki",
-      "definition": "logical"
-    },
-    {
-      "id": "ch37_v38",
-      "partOfSpeech": "noun",
-      "kanji": "抽象",
-      "kana": "ちゅうしょう",
-      "romaji": "chuushou",
-      "definition": "abstraction"
-    },
-    {
-      "id": "ch37_v39",
-      "partOfSpeech": "noun",
-      "kanji": "前後",
-      "kana": "ぜんご",
-      "romaji": "zengo",
-      "definition": "context; before and after"
-    },
-    {
-      "id": "ch37_v40",
-      "partOfSpeech": "noun",
-      "kanji": "相違",
-      "kana": "そうい",
-      "romaji": "soui",
-      "definition": "difference; discrepancy"
+     "id": "ni-shite-wa_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'For a book published last year, it looks quite worn'?",
+     "japanese": null,
+     "choices": [
+      "去年[きょねん]出版[しゅっぱん]された本[ほん]にしては、かなり古[ふる]びて見[み]える。",
+      "去年[きょねん]出版[しゅっぱん]された本[ほん]なのに、かなり古[ふる]びて見[み]える。",
+      "去年[きょねん]出版[しゅっぱん]された本[ほん]としては、かなり古[ふる]びて見[み]える。",
+      "去年[きょねん]出版[しゅっぱん]された本[ほん]にしても、かなり古[ふる]びて見[み]える。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしては: 去年[きょねん]出版[しゅっぱん]された本[ほん] + にしては = for a book published last year. かなり古[ふる]びて見[み]える = looks quite worn. Recent publication sets expectations for freshness; worn appearance = negative deviation."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "ni-shite-mo",
+   "name": "〜にしても (ni shite mo) — even so / even if / regardless",
+   "shortDescription": "Concedes a point but maintains a contrasting conclusion; also 'whether X or Y'.",
+   "formation": "Plain form / Noun + にしても  |  A にしても B にしても = whether A or B",
+   "explanation": "にしても has two roles, and spotting both will make it feel far less ambiguous. The first is concessive: granting a situation as true but pushing back on it anyway — 'even if / even so.' 忙[いそが]しいにしても、連絡[れんらく]くらいすべきでしょう: 'Even if you're busy, you should at least get in touch' — the busyness is granted, but the main point stands.\n\nThe second role is coverage: A にしても B にしても = 'whether A or B, the conclusion holds.' 行[い]くにしても行[い]かないにしても、早[はや]めに決[き]めてください — 'Whether you go or not, please decide early' — both scenarios are covered, both lead to the same demand. This 'regardless' use is especially natural when discussing options or choices where the outcome doesn't change.\n\nBoth uses share the underlying structure に + して + も ('even making it X'). にしても is more formal than ても and is a strong choice for formal speech and writing. Also memorize それにしても — a very useful set expression meaning 'even so / that said, though.'",
+   "rules": [
+    "Plain form + にしても = even so / even if that's the case (concessive)",
+    "A にしても B にしても = whether A or B, (the outcome is the same)",
+    "More formal than ても (even if); suitable for spoken and written formal contexts",
+    "Often marks a concession before presenting a remaining objection or concern",
+    "それにしても = nevertheless / even so (even acknowledging all that)"
+   ],
+   "examples": [
     {
-      "char": "設",
-      "word": "設ける",
-      "reading": "もうける",
-      "meaning": "to prepare"
+     "japanese": "忙[いそが]しいにしても、友達[ともだち]に連絡[れんらく]くらいすべきでしょう。",
+     "romaji": "Isogashii ni shite mo, tomodachi ni renraku kurai subeki deshou.",
+     "english": "Even if you're busy, you should at least contact your friend."
     },
     {
-      "char": "結",
-      "word": "結論",
-      "reading": "けつろん",
-      "meaning": "conclusion"
+     "japanese": "行[い]くにしても行[い]かないにしても、早[はや]めに決[き]めてください。",
+     "romaji": "Iku ni shite mo ikanai ni shite mo, hayame ni kimete kudasai.",
+     "english": "Whether you go or don't go, please decide early."
     },
     {
-      "char": "島",
-      "word": "島",
-      "reading": "しま",
-      "meaning": "island"
+     "japanese": "それにしても、なぜ急[きゅう]に辞[や]めてしまったのでしょうか。",
+     "romaji": "Sore ni shite mo, naze kyuu ni yamete shimatta no deshou ka.",
+     "english": "Even so, why did they suddenly quit like that?"
     },
     {
-      "char": "再",
-      "word": "再び",
-      "reading": "ふたたび",
-      "meaning": "again"
-    },
-    {
-      "char": "比",
-      "word": "比較",
-      "reading": "ひかく",
-      "meaning": "comparison"
-    },
-    {
-      "char": "境",
-      "word": "境",
-      "reading": "さかい",
-      "meaning": "border"
-    },
-    {
-      "char": "象",
-      "word": "象",
-      "reading": "しょう",
-      "meaning": "form"
-    },
-    {
-      "char": "門",
-      "word": "門",
-      "reading": "もん",
-      "meaning": "gate"
-    },
-    {
-      "char": "湾",
-      "word": "湾",
-      "reading": "わん",
-      "meaning": "bay"
-    },
-    {
-      "char": "橋",
-      "word": "橋",
-      "reading": "はし",
-      "meaning": "bridge"
-    },
-    {
-      "char": "戸",
-      "word": "戸",
-      "reading": "と",
-      "meaning": "door (esp. Japanese-style)"
-    },
-    {
-      "char": "竹",
-      "word": "竹",
-      "reading": "たけ",
-      "meaning": "bamboo (any grass of subfamily Bambusoideae)"
-    },
-    {
-      "char": "歴",
-      "word": "歴",
-      "reading": "れき",
-      "meaning": "curriculum"
-    },
-    {
-      "char": "河",
-      "word": "河",
-      "reading": "かわ",
-      "meaning": "river"
-    },
-    {
-      "char": "児",
-      "word": "児",
-      "reading": "こ",
-      "meaning": "newborn babe"
-    },
-    {
-      "char": "印",
-      "word": "印",
-      "reading": "しるし",
-      "meaning": "mark"
-    },
-    {
-      "char": "署",
-      "word": "署",
-      "reading": "しょ",
-      "meaning": "signature"
-    },
-    {
-      "char": "帯",
-      "word": "帯",
-      "reading": "おび",
-      "meaning": "obi"
-    },
-    {
-      "char": "則",
-      "word": "則",
-      "reading": "のっとる",
-      "meaning": "rule"
-    },
-    {
-      "char": "承",
-      "word": "承る",
-      "reading": "うけたまわる",
-      "meaning": "to hear"
-    },
-    {
-      "char": "絡",
-      "word": "絡む",
-      "reading": "からむ",
-      "meaning": "to entangle"
-    },
-    {
-      "char": "裏",
-      "word": "裏",
-      "reading": "うら",
-      "meaning": "opposite side"
-    },
-    {
-      "char": "星",
-      "word": "星",
-      "reading": "ほし",
-      "meaning": "star (usu. not including the Sun)"
-    },
-    {
-      "char": "坂",
-      "word": "坂",
-      "reading": "さか",
-      "meaning": "slope"
-    },
-    {
-      "char": "触",
-      "word": "触る",
-      "reading": "さわる",
-      "meaning": "to touch"
-    },
-    {
-      "char": "札",
-      "word": "札",
-      "reading": "さつ",
-      "meaning": "banknote"
-    },
-    {
-      "char": "骨",
-      "word": "骨",
-      "reading": "ほね",
-      "meaning": "bone"
-    },
-    {
-      "char": "預",
-      "word": "預かり",
-      "reading": "あずかり",
-      "meaning": "under custody"
-    },
-    {
-      "char": "秒",
-      "word": "秒",
-      "reading": "びょう",
-      "meaning": "second (unit of time)"
-    },
-    {
-      "char": "双",
-      "word": "双",
-      "reading": "そう",
-      "meaning": "pair"
-    },
-    {
-      "char": "敬",
-      "word": "敬う",
-      "reading": "うやまう",
-      "meaning": "to show respect for"
-    },
-    {
-      "char": "漁",
-      "word": "漁",
-      "reading": "りょう",
-      "meaning": "fishing"
-    },
-    {
-      "char": "兆",
-      "word": "兆",
-      "reading": "ちょう",
-      "meaning": "10^12"
-    },
-    {
-      "char": "殿",
-      "word": "殿",
-      "reading": "どの",
-      "meaning": "Mr."
-    },
-    {
-      "char": "泊",
-      "word": "泊まる",
-      "reading": "とまる",
-      "meaning": "to stay at (e.g. hotel)"
-    },
-    {
-      "char": "雲",
-      "word": "雲",
-      "reading": "くも",
-      "meaning": "cloud"
-    },
-    {
-      "char": "掘",
-      "word": "掘る",
-      "reading": "ほる",
-      "meaning": "to dig"
-    },
-    {
-      "char": "珍",
-      "word": "珍しい",
-      "reading": "めずらしい",
-      "meaning": "unusual"
-    },
-    {
-      "char": "湯",
-      "word": "湯",
-      "reading": "ゆ",
-      "meaning": "hot water"
-    },
-    {
-      "char": "塗",
-      "word": "塗る",
-      "reading": "ぬる",
-      "meaning": "to paint"
-    },
-    {
-      "char": "拾",
-      "word": "拾う",
-      "reading": "ひろう",
-      "meaning": "to pick up"
-    },
-    {
-      "char": "咲",
-      "word": "咲く",
-      "reading": "さく",
-      "meaning": "to bloom"
-    },
-    {
-      "char": "耕",
-      "word": "耕す",
-      "reading": "たがやす",
-      "meaning": "to till"
-    },
-    {
-      "char": "筒",
-      "word": "筒",
-      "reading": "つつ",
-      "meaning": "pipe"
-    },
-    {
-      "char": "膚",
-      "word": "膚",
-      "reading": "はだ",
-      "meaning": "skin"
-    },
-    {
-      "char": "涼",
-      "word": "涼しい",
-      "reading": "すずしい",
-      "meaning": "cool"
-    },
-    {
-      "char": "畜",
-      "word": "畜",
-      "reading": "ちく",
-      "meaning": "livestock"
+     "japanese": "成功[せいこう]するにしても失敗[しっぱい]するにしても、全力[ぜんりょく]を尽[つ]くすことが大事[だいじ]です。",
+     "romaji": "Seikou suru ni shite mo shippai suru ni shite mo, zenryoku wo tsukusu koto ga daiji desu.",
+     "english": "Whether you succeed or fail, giving your all is what matters."
     }
-  ]
+   ],
+   "flashcardHeader": "〜にしても",
+   "flashcardAnswer": "Concedes a point but maintains a contrasting conclusion; also 'whether X or Y'.",
+   "practice": [
+    {
+     "id": "ni-shite-mo_q1",
+     "type": "usage",
+     "prompt": "What does 〜にしても mean?",
+     "japanese": null,
+     "choices": [
+      "because of X",
+      "even if / even so (concedes a point but the main clause still holds) — also 'whether A or B'",
+      "for / given that",
+      "compared to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜にしても has two uses: (1) concessive 'even if / even so': 忙[いそが]しいにしても、連絡[れんらく]くらいすべきだ = even if you're busy, you should at least contact me. (2) 'whether A or B': 行[い]くにしても行[い]かないにしても = whether you go or not."
+    },
+    {
+     "id": "ni-shite-mo_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even so, that excuse is too much'?",
+     "japanese": null,
+     "choices": [
+      "それにしても、その言[い]い訳[わけ]はひどすぎる。",
+      "それにしては、その言[い]い訳[わけ]はひどすぎる。",
+      "そうとしても、その言[い]い訳[わけ]はひどすぎる。",
+      "そうだとしても、その言[い]い訳[わけ]はひどすぎる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun/そう + にしても: そう (that being the case) + にしても = even so. その言[い]い訳[わけ]はひどすぎる = that excuse is too much. にしても concedes the point (okay, even if that's true) but maintains the main assertion."
+    },
+    {
+     "id": "ni-shite-mo_q3",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether you study or not, at least try'?",
+     "japanese": null,
+     "choices": [
+      "勉強[べんきょう]するにしても勉強[べんきょう]しないにしても、とにかくやってみてください。",
+      "勉強[べんきょう]するにしては勉強[べんきょう]しないにしては、とにかくやってみてください。",
+      "勉強[べんきょう]するとしても勉強[べんきょう]しないとしても、とにかくやってみてください。",
+      "勉強[べんきょう]するにせよ勉強[べんきょう]しないにせよ、とにかくやってみてください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても = whether A or B. 勉強[べんきょう]するにしても勉強[べんきょう]しないにしても = whether you study or not. とにかくやってみてください = at least try. Both にしても〜にしても and にせよ〜にせよ work for this; にしても is more conversational."
+    },
+    {
+     "id": "ni-shite-mo_q4",
+     "type": "translation",
+     "prompt": "Which means 'Even if it's a joke, saying such a thing is rude'?",
+     "japanese": null,
+     "choices": [
+      "冗談[じょうだん]にしても、そんなことを言[い]うのは失礼[しつれい]だ。",
+      "冗談[じょうだん]にしては、そんなことを言[い]うのは失礼[しつれい]だ。",
+      "冗談[じょうだん]なのに、そんなことを言[い]うのは失礼[しつれい]だ。",
+      "冗談[じょうだん]としても、そんなことを言[い]うのは失礼[しつれい]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしても: 冗談[じょうだん] (joke) + にしても = even if it's a joke. そんなことを言[い]うのは失礼[しつれい]だ = saying such a thing is rude. にしても concedes the framing (even granting it's a joke) but maintains the criticism."
+    },
+    {
+     "id": "ni-shite-mo_q5",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if you're in a hurry, you should double-check'?",
+     "japanese": null,
+     "choices": [
+      "急[いそ]いでいるにしても、確認[かくにん]するべきだ。",
+      "急[いそ]いでいるにしては、確認[かくにん]するべきだ。",
+      "急[いそ]いでいるとしても、確認[かくにん]するべきだ。",
+      "急[いそ]いでいるのに、確認[かくにん]するべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしても: 急[いそ]いでいる (being in a hurry) + にしても = even if in a hurry. 確認[かくにん]するべきだ = should double-check. Concedes the rush but asserts the obligation."
+    },
+    {
+     "id": "ni-shite-mo_q6",
+     "type": "translation",
+     "prompt": "Which means 'Whether it's work or play, doing your best is important'?",
+     "japanese": null,
+     "choices": [
+      "仕事[しごと]にしても遊[あそ]びにしても、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
+      "仕事[しごと]にしては遊[あそ]びにしては、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
+      "仕事[しごと]としても遊[あそ]びとしても、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。",
+      "仕事[しごと]であれ遊[あそ]びであれ、全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても: 仕事[しごと]にしても遊[あそ]びにしても = whether work or play. 全力[ぜんりょく]を尽[つ]くすことが大切[たいせつ]だ = doing one's best is important. The assertion holds regardless of which applies."
+    },
+    {
+     "id": "ni-shite-mo_q7",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if you hate it, you have to do it'?",
+     "japanese": null,
+     "choices": [
+      "嫌[きら]いにしても、やらなければならない。",
+      "嫌[きら]いにしては、やらなければならない。",
+      "嫌[きら]いとしても、やらなければならない。",
+      "嫌[きら]いだとしても、やらなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj/Noun + にしても: 嫌[きら]い + にしても = even if you hate it. やらなければならない = have to do it. にしても concedes the feeling (even granting you hate it) but asserts necessity."
+    },
+    {
+     "id": "ni-shite-mo_q8",
+     "type": "usage",
+     "prompt": "What is the MAIN difference between にしても and にしては?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "にしても = concessive / even if / whether A or B (main clause holds regardless); にしては = evaluates against a category norm (surprising deviation)",
+      "にしても is only for people",
+      "にしては can only be used in questions, and the rule applies to every sentence type — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "にしても = concessive or inclusive ('even if X, still Y' / 'whether A or B'). にしては = calibrated surprise ('for X's category, Y is unexpected'). 忙[いそが]しいにしても連絡[れんらく]すべきだ (even if busy, should contact = concessive) vs. 忙[いそが]しいにしては余裕[よゆう]そうだ (for someone busy, looks relaxed = calibrated surprise)."
+    },
+    {
+     "id": "ni-shite-mo_q9",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether we win or lose, let's do our best'?",
+     "japanese": null,
+     "choices": [
+      "勝[か]つにしても負[ま]けるにしても、全力[ぜんりょく]を出[だ]そう。",
+      "勝[か]つにしては負[ま]けるにしては、全力[ぜんりょく]を出[だ]そう。",
+      "勝[か]つとしても負[ま]けるとしても、全力[ぜんりょく]を出[だ]そう。",
+      "勝[か]つにせよ負[ま]けるにせよ、全力[ぜんりょく]を出[だ]そう。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても: 勝[か]つにしても負[ま]けるにしても = whether we win or lose. 全力[ぜんりょく]を出[だ]そう = let's give our all. Both outcomes are covered; the assertion holds for either."
+    },
+    {
+     "id": "ni-shite-mo_q10",
+     "type": "translation",
+     "prompt": "Which means 'Even if it was a mistake, that behavior is unforgivable'?",
+     "japanese": null,
+     "choices": [
+      "ミスにしても、その行動[こうどう]は許[ゆる]されない。",
+      "ミスにしては、その行動[こうどう]は許[ゆる]されない。",
+      "ミスとしても、その行動[こうどう]は許[ゆる]されない。",
+      "ミスなのに、その行動[こうどう]は許[ゆる]されない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしても: ミス + にしても = even if it was a mistake. その行動[こうどう]は許[ゆる]されない = that behavior is unforgivable. にしても concedes the framing (even granting it was a mistake) but maintains the judgment."
+    },
+    {
+     "id": "ni-shite-mo_q11",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether staying or leaving, you should decide quickly'?",
+     "japanese": null,
+     "choices": [
+      "いるにしても出[で]るにしても、早[はや]く決[き]めるべきだ。",
+      "いるにしては出[で]るにしては、早[はや]く決[き]めるべきだ。",
+      "いるとしても出[で]るとしても、早[はや]く決[き]めるべきだ。",
+      "いるにせよ出[で]るにせよ、早[はや]く決[き]めるべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても: いるにしても出[で]るにしても = whether staying or leaving. 早[はや]く決[き]めるべきだ = should decide quickly. The need to decide applies regardless of which option."
+    },
+    {
+     "id": "ni-shite-mo_q12",
+     "type": "usage",
+     "prompt": "にしても can follow NOUNS directly without の or だ. Which is correct?",
+     "japanese": null,
+     "choices": [
+      "子[こ]どもにしても、それはわかるはずだ。(Even for a child, that should be understandable.)",
+      "子[こ]どもだにしても、それはわかるはずだ。(incorrect)",
+      "子[こ]どものにしても、それはわかるはずだ。(incorrect)",
+      "子[こ]どもにしては、それはわかるはずだ。(For a child, that's understandable — different meaning)"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしても (directly, no の or だ): 子[こ]どもにしても = even for a child / even a child. 'Even for a child, that should be understandable' — concessive nuance."
+    },
+    {
+     "id": "ni-shite-mo_q13",
+     "type": "translation",
+     "prompt": "Which means 'Even so, I wish you had told me earlier'?",
+     "japanese": null,
+     "choices": [
+      "それにしても、もっと早[はや]く教[おし]えてほしかった。",
+      "それにしては、もっと早[はや]く教[おし]えてほしかった。",
+      "そうなのに、もっと早[はや]く教[おし]えてほしかった。",
+      "そうだとしても、もっと早[はや]く教[おし]えてほしかった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "そう + にしても: それにしても = even so / even granting that. もっと早[はや]く教[おし]えてほしかった = wished you had told me earlier. Concedes the situation but expresses a wish for different behavior."
+    },
+    {
+     "id": "ni-shite-mo_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether it's spring or autumn, this park is beautiful'?",
+     "japanese": null,
+     "choices": [
+      "春[はる]にしても秋[あき]にしても、この公園[こうえん]は美[うつく]しい。",
+      "春[はる]にしては秋[あき]にしては、この公園[こうえん]は美[うつく]しい。",
+      "春[はる]としても秋[あき]としても、この公園[こうえん]は美[うつく]しい。",
+      "春[はる]であれ秋[あき]であれ、この公園[こうえん]は美[うつく]しい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても: 春[はる]にしても秋[あき]にしても = whether spring or autumn. この公園[こうえん]は美[うつく]しい = this park is beautiful. The park's beauty holds in both seasons."
+    },
+    {
+     "id": "ni-shite-mo_q15",
+     "type": "translation",
+     "prompt": "Which means 'Even if it's for work, staying up all night is bad for your health'?",
+     "japanese": null,
+     "choices": [
+      "仕事[しごと]にしても、徹夜[てつや]は体[からだ]に悪[わる]い。",
+      "仕事[しごと]にしては、徹夜[てつや]は体[からだ]に悪[わる]い。",
+      "仕事[しごと]なのに、徹夜[てつや]は体[からだ]に悪[わる]い。",
+      "仕事[しごと]だとしても、徹夜[てつや]は体[からだ]に悪[わる]い。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしても: 仕事[しごと] + にしても = even if it's for work. 徹夜[てつや]は体[からだ]に悪[わる]い = staying up all night is bad for health. Concedes the work necessity but asserts the health fact."
+    },
+    {
+     "id": "ni-shite-mo_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it takes time, doing it properly is important'?",
+     "japanese": null,
+     "choices": [
+      "時間[じかん]がかかるにしても、きちんとやることが大切[たいせつ]だ。",
+      "時間[じかん]がかかるにしては、きちんとやることが大切[たいせつ]だ。",
+      "時間[じかん]がかかるとしても、きちんとやることが大切[たいせつ]だ。",
+      "時間[じかん]がかかるのに、きちんとやることが大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしても: 時間[じかん]がかかる + にしても = even if it takes time. きちんとやることが大切[たいせつ]だ = doing it properly is important. Concedes the time cost but asserts quality."
+    },
+    {
+     "id": "ni-shite-mo_q17",
+     "type": "usage",
+     "prompt": "Which BEST shows the 'whether A or B' use of A にしても B にしても?",
+     "japanese": null,
+     "choices": [
+      "成功[せいこう]するにしても失敗[しっぱい]するにしても、挑戦[ちょうせん]してよかった。(Whether you succeed or fail, it was good to try.)",
+      "成功[せいこう]するにしても、挑戦[ちょうせん]してよかった。(Even if you succeed, it was good to try — only one condition)",
+      "成功[せいこう]するにしても失敗[しっぱい]する、挑戦[ちょうせん]してよかった。(grammatically incomplete)",
+      "成功[せいこう]にしても失敗[しっぱい]にしても、挑戦[ちょうせん]してよかった。(Using nouns — slightly less natural for events)"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても requires both alternatives to be clearly presented: 成功[せいこう]するにしても失敗[しっぱい]するにしても = whether you succeed or fail. This is the canonical double-condition form."
+    },
+    {
+     "id": "ni-shite-mo_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if the conditions are difficult, we should not give up'?",
+     "japanese": null,
+     "choices": [
+      "条件[じょうけん]が厳[きび]しいにしても、あきらめるべきではない。",
+      "条件[じょうけん]が厳[きび]しいにしては、あきらめるべきではない。",
+      "条件[じょうけん]が厳[きび]しいとしても、あきらめるべきではない。",
+      "条件[じょうけん]が厳[きび]しいのに、あきらめるべきではない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にしても: 厳[きび]しい + にしても = even if the conditions are difficult. あきらめるべきではない = should not give up. Concedes the hardship but asserts perseverance."
+    },
+    {
+     "id": "ni-shite-mo_q19",
+     "type": "translation",
+     "prompt": "Which means 'Whether you like it or not, rules must be followed'?",
+     "japanese": null,
+     "choices": [
+      "好[す]きにしても嫌[きら]いにしても、ルールは守[まも]らなければならない。",
+      "好[す]きにしては嫌[きら]いにしては、ルールは守[まも]らなければならない。",
+      "好[す]きとしても嫌[きら]いとしても、ルールは守[まも]らなければならない。",
+      "好[す]きにせよ嫌[きら]いにせよ、ルールは守[まも]らなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にしても B にしても: 好[す]きにしても嫌[きら]いにしても = whether you like it or not. ルールは守[まも]らなければならない = rules must be followed. The obligation holds regardless of personal feelings."
+    },
+    {
+     "id": "ni-shite-mo_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even as a compliment, that remark was inappropriate'?",
+     "japanese": null,
+     "choices": [
+      "お世辞[せじ]にしても、その発言[はつげん]は不適切[ふてきせつ]だった。",
+      "お世辞[せじ]にしては、その発言[はつげん]は不適切[ふてきせつ]だった。",
+      "お世辞[せじ]なのに、その発言[はつげん]は不適切[ふてきせつ]だった。",
+      "お世辞[せじ]としても、その発言[はつげん]は不適切[ふてきせつ]だった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にしても: お世辞[せじ] (flattery/compliment) + にしても = even as a compliment. その発言[はつげん]は不適切[ふてきせつ]だった = that remark was inappropriate. Concedes the framing (even granting it was a compliment) but judges it inappropriate."
+    }
+   ]
+  },
+  {
+   "id": "ni-seyo-ni-shiro",
+   "name": "〜にせよ / 〜にしろ — whether...or / even if",
+   "shortDescription": "Acknowledges one or more conditions and asserts the main clause holds regardless.",
+   "formation": "Plain form / Noun + にせよ / にしろ  |  A にせよ B にせよ = whether A or B",
+   "explanation": "にせよ and にしろ are the more assertive, logically forceful cousins of にしても. They mean 'even if,' 'whether,' or 'regardless of' — but with the added edge that all conditions are hereby dismissed as irrelevant to the conclusion. 賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]ははっきり言[い]ってください — 'Whether you agree or disagree, state your opinion clearly' — both possibilities are swept off the table, and the demand applies universally.\n\nThis dismissal quality gives these forms their distinctive logical force, making them at home in editorial writing, structured arguments, formal instructions, and speeches where the speaker wants to neutralize all possible conditions or objections before making the main point.\n\nTone-wise: にしろ is slightly more direct and blunt; にせよ is the more polished choice for formal written contexts. They're interchangeable in most situations. The set expression いずれにせよ (either way / in any case) at the start of a sentence is worth memorizing.",
+   "rules": [
+    "Plain form / Noun + にせよ / にしろ = even if / regardless of (assertive — conditions dismissed)",
+    "A にせよ B にせよ = whether A or B (covering all cases, conclusion holds regardless)",
+    "Slightly more assertive than にしても; formal register",
+    "Both forms are interchangeable in most contexts; にしろ slightly blunter, にせよ slightly more polished",
+    "Common in: editorial writing, logical arguments, formal instructions, speeches"
+   ],
+   "examples": [
+    {
+     "japanese": "賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]ははっきり言[い]ってください。",
+     "romaji": "Sansei suru ni se yo hantai suru ni se yo, iken wa hakkiri itte kudasai.",
+     "english": "Whether you agree or disagree, please state your opinion clearly."
+    },
+    {
+     "japanese": "理由[りゆう]が何[なん]であるにしろ、締[し]め切[き]りは守[まも]らなければなりません。",
+     "romaji": "Riyuu ga nan de aru ni shiro, shimekiri wa mamoranakereba narimasen.",
+     "english": "Whatever the reason may be, the deadline must be met."
+    },
+    {
+     "japanese": "結果[けっか]がどうであるにせよ、挑戦[ちょうせん]したことは評価[ひょうか]されるべきです。",
+     "romaji": "Kekka ga dou de aru ni se yo, chousen shita koto wa hyouka sareru beki desu.",
+     "english": "Whatever the result, the fact that you challenged it should be recognized."
+    },
+    {
+     "japanese": "冗談[じょうだん]にしろ本気[ほんき]にしろ、そういうことを言[い]うべきではありません。",
+     "romaji": "Joudan ni shiro honki ni shiro, sou iu koto wo iu beki dewa arimasen.",
+     "english": "Whether joking or serious, you shouldn't say things like that."
+    }
+   ],
+   "flashcardHeader": "〜にせよ / 〜にしろ",
+   "flashcardAnswer": "Acknowledges one or more conditions and asserts the main clause holds regardless.",
+   "practice": [
+    {
+     "id": "ni-seyo-ni-shiro_q1",
+     "type": "usage",
+     "prompt": "What does 〜にせよ / 〜にしろ mean?",
+     "japanese": null,
+     "choices": [
+      "because of X",
+      "even if / whether...or — more assertive and formal than にしても; dismisses all conditions as irrelevant to the main assertion",
+      "for / given that X",
+      "just as / right when"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜にせよ / 〜にしろ = even if / whether...or. More assertive/formal than にしても. にせよ and にしろ are interchangeable (にしろ slightly more emphatic). They say: whatever condition applies, the main clause holds — no exceptions."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether you agree or disagree, state your opinion clearly'?",
+     "japanese": null,
+     "choices": [
+      "賛成[さんせい]するにせよ反対[はんたい]するにせよ、意見[いけん]をはっきり言[い]いなさい。",
+      "賛成[さんせい]するにしても反対[はんたい]するにしても、意見[いけん]をはっきり言[い]いなさい。",
+      "賛成[さんせい]するにしては反対[はんたい]するにしては、意見[いけん]をはっきり言[い]いなさい。",
+      "賛成[さんせい]するとしても反対[はんたい]するとしても、意見[いけん]をはっきり言[い]いなさい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 賛成[さんせい]するにせよ反対[はんたい]するにせよ = whether you agree or disagree. 意見[いけん]をはっきり言[い]いなさい = state your opinion clearly. にせよ is assertive and slightly more forceful than にしても."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q3",
+     "type": "translation",
+     "prompt": "Which means 'Even if it's a lie, you have to say something'?",
+     "japanese": null,
+     "choices": [
+      "嘘[うそ]にせよ、何[なに]か言[い]わなければならない。",
+      "嘘[うそ]にしても、何[なに]か言[い]わなければならない。",
+      "嘘[うそ]にしては、何[なに]か言[い]わなければならない。",
+      "嘘[うそ]であっても、何[なに]か言[い]わなければならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にせよ: 嘘[うそ] (lie) + にせよ = even if it's a lie. 何[なに]か言[い]わなければならない = have to say something. にせよ dismisses the condition (even granting it's a lie) and asserts the necessity."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether it's expensive or cheap, quality matters'?",
+     "japanese": null,
+     "choices": [
+      "高[たか]いにせよ安[やす]いにせよ、品質[ひんしつ]が大切[たいせつ]だ。",
+      "高[たか]いにしても安[やす]いにしても、品質[ひんしつ]が大切[たいせつ]だ。",
+      "高[たか]いにしては安[やす]いにしては、品質[ひんしつ]が大切[たいせつ]だ。",
+      "高[たか]いとしても安[やす]いとしても、品質[ひんしつ]が大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 高[たか]いにせよ安[やす]いにせよ = whether expensive or cheap. 品質[ひんしつ]が大切[たいせつ]だ = quality matters. The main assertion holds for both price points."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q5",
+     "type": "usage",
+     "prompt": "What is the difference between にせよ/にしろ and にしても?",
+     "japanese": null,
+     "choices": [
+      "They are completely identical",
+      "にせよ/にしろ = more assertive/formal/decisive (often written or formal speech); にしても = softer concession, more conversational",
+      "にしても is more formal",
+      "にしろ is only for written Japanese — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "にせよ/にしろ are more assertive and formal — often appearing in written arguments, formal speech, or decisive statements. にしても is softer and more conversational. Both mean 'even if / whether A or B', but にせよ carries stronger rhetorical force."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it's just for a moment, please listen to me'?",
+     "japanese": null,
+     "choices": [
+      "一瞬[いっしゅん]にせよ、私[わたし]の話[はなし]を聞[き]いてください。",
+      "一瞬[いっしゅん]にしても、私[わたし]の話[はなし]を聞[き]いてください。",
+      "一瞬[いっしゅん]にしては、私[わたし]の話[はなし]を聞[き]いてください。",
+      "一瞬[いっしゅん]としても、私[わたし]の話[はなし]を聞[き]いてください。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にせよ: 一瞬[いっしゅん] (a moment) + にせよ = even if just for a moment. 私[わたし]の話[はなし]を聞[き]いてください = please listen to me. にせよ is assertive — even the minimum condition is being demanded."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q7",
+     "type": "translation",
+     "prompt": "Which means 'Whether it succeeds or fails, the attempt itself has value'?",
+     "japanese": null,
+     "choices": [
+      "成功[せいこう]するにせよ失敗[しっぱい]するにせよ、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
+      "成功[せいこう]するにしても失敗[しっぱい]するにしても、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
+      "成功[せいこう]するにしては失敗[しっぱい]するにしては、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。",
+      "成功[せいこう]するとしても失敗[しっぱい]するとしても、挑戦[ちょうせん]自体[じたい]に価値[かち]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 成功[せいこう]するにせよ失敗[しっぱい]するにせよ = whether it succeeds or fails. 挑戦[ちょうせん]自体[じたい]に価値[かち]がある = the attempt itself has value. More formal/literary than the にしても version."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it's just for a day, experiencing living abroad is valuable'?",
+     "japanese": null,
+     "choices": [
+      "一日[いちにち]にせよ、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
+      "一日[いちにち]にしても、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
+      "一日[いちにち]にしては、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。",
+      "一日[いちにち]としても、海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にせよ: 一日[いちにち] (one day) + にせよ = even if it's just for a day. 海外生活[かいがいせいかつ]を経験[けいけん]することは貴重[きちょう]だ = experiencing living abroad is valuable. にせよ makes the assertion more decisive."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q9",
+     "type": "usage",
+     "prompt": "Can にせよ follow NEGATIVE forms? Which shows this correctly?",
+     "japanese": null,
+     "choices": [
+      "行[い]くにせよ行[い]かないにせよ、連絡[れんらく]は必要[ひつよう]だ。(Whether going or not going, contact is necessary.)",
+      "行[い]かないないにせよ、連絡[れんらく]は必要[ひつよう]だ。(incorrect double-negative)",
+      "行[い]かなかったにせよ、連絡[れんらく]は必要[ひつよう]だ。(Even if not going/didn't go — past)",
+      "Both A and C are grammatically correct."
+     ],
+     "correctIndex": 3,
+     "explanation": "Both work: 行[い]かないにせよ (whether not going — present) and 行[い]かなかったにせよ (even if didn't go — past) are both grammatical. にせよ can follow both plain present and past negative forms."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether it's possible or not, we should aim for it'?",
+     "japanese": null,
+     "choices": [
+      "可能[かのう]にせよ不可能[ふかのう]にせよ、目指[めざ]すべきだ。",
+      "可能[かのう]にしても不可能[ふかのう]にしても、目指[めざ]すべきだ。",
+      "可能[かのう]にしては不可能[ふかのう]にしては、目指[めざ]すべきだ。",
+      "可能[かのう]だとしても不可能[ふかのう]だとしても、目指[めざ]すべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 可能[かのう]にせよ不可能[ふかのう]にせよ = whether possible or not. 目指[めざ]すべきだ = should aim for it. にせよ delivers the assertion with formal finality."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q11",
+     "type": "translation",
+     "prompt": "Which means 'Even if it's just an excuse, report something to your supervisor'?",
+     "japanese": null,
+     "choices": [
+      "言[い]い訳[わけ]にせよ、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
+      "言[い]い訳[わけ]にしても、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
+      "言[い]い訳[わけ]にしては、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。",
+      "言[い]い訳[わけ]としても、何[なに]か上司[じょうし]に報告[ほうこく]しなさい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にせよ: 言[い]い訳[わけ] (excuse) + にせよ = even if it's just an excuse. 何[なに]か上司[じょうし]に報告[ほうこく]しなさい = report something to your supervisor. にせよ is assertive — the command stands regardless."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether the reason is good or bad, breaking rules cannot be permitted'?",
+     "japanese": null,
+     "choices": [
+      "理由[りゆう]が正当[せいとう]にせよ不当[ふとう]にせよ、ルール違反[いはん]は許[ゆる]されない。",
+      "理由[りゆう]が正当[せいとう]にしても不当[ふとう]にしても、ルール違反[いはん]は許[ゆる]されない。",
+      "理由[りゆう]が正当[せいとう]にしては不当[ふとう]にしては、ルール違反[いはん]は許[ゆる]されない。",
+      "理由[りゆう]が正当[せいとう]だとしても不当[ふとう]だとしても、ルール違反[いはん]は許[ゆる]されない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 正当[せいとう]にせよ不当[ふとう]にせよ = whether legitimate or illegitimate. ルール違反[いはん]は許[ゆる]されない = breaking rules cannot be permitted. Formal/assertive statement."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q13",
+     "type": "usage",
+     "prompt": "にしろ and にせよ are interchangeable but differ slightly. Which BEST describes the distinction?",
+     "japanese": null,
+     "choices": [
+      "にしろ is formal; にせよ is casual",
+      "にせよ is slightly more literary/written; にしろ is slightly more spoken/colloquial — but both mean the same thing",
+      "にしろ is for nouns only; にせよ is for verbs",
+      "They cannot be used in the same contexts, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "にせよ is slightly more literary and used in writing; にしろ is slightly more spoken/emphatic. However, in most contexts they are interchangeable. 行[い]くにせよ行[い]かないにせよ ≈ 行[い]くにしろ行[い]かないにしろ."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if you're tired, complete your responsibilities'?",
+     "japanese": null,
+     "choices": [
+      "疲[つか]れているにせよ、責任[せきにん]を果[は]たしなさい。",
+      "疲[つか]れているにしても、責任[せきにん]を果[は]たしなさい。",
+      "疲[つか]れているにしては、責任[せきにん]を果[は]たしなさい。",
+      "疲[つか]れているとしても、責任[せきにん]を果[は]たしなさい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain form + にせよ: 疲[つか]れている + にせよ = even if tired. 責任[せきにん]を果[は]たしなさい = complete your responsibilities. にせよ is assertive and somewhat commanding — appropriate for duty/obligation."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q15",
+     "type": "translation",
+     "prompt": "Which means 'Whether eating in or taking out, the price is the same'?",
+     "japanese": null,
+     "choices": [
+      "店内[てんない]で食[た]べるにせよテイクアウトにせよ、値段[ねだん]は同[おな]じだ。",
+      "店内[てんない]で食[た]べるにしても テイクアウトにしても、値段[ねだん]は同[おな]じだ。",
+      "店内[てんない]で食[た]べるにしては テイクアウトにしては、値段[ねだん]は同[おな]じだ。",
+      "店内[てんない]で食[た]べるとしてもテイクアウトとしても、値段[ねだん]は同[おな]じだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 店内[てんない]で食[た]べるにせよテイクアウトにせよ = whether eating in or taking out. 値段[ねだん]は同[おな]じだ = the price is the same. The pricing policy holds for both options."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Even if it was a moment of weakness, it's not an excuse'?",
+     "japanese": null,
+     "choices": [
+      "魔[ま]が差[さ]したにせよ、言[い]い訳[わけ]にはならない。",
+      "魔[ま]が差[さ]したにしても、言[い]い訳[わけ]にはならない。",
+      "魔[ま]が差[さ]したにしては、言[い]い訳[わけ]にはならない。",
+      "魔[ま]が差[さ]したとしても、言[い]い訳[わけ]にはならない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Plain past + にせよ: 魔[ま]が差[さ]した (had a moment of weakness) + にせよ = even if it was a moment of weakness. 言[い]い訳[わけ]にはならない = it's not an excuse. Assertive rejection of the justification."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses にせよ in the most NATURAL way for formal written Japanese?",
+     "japanese": null,
+     "choices": [
+      "あのさー、行[い]くにせよ行[い]かないにせよ、早[はや]く決[き]めてよ。(Too casual — inconsistent register)",
+      "いずれにせよ、早急[さっきゅう]な対応[たいおう]が求[もと]められる。(Either way, a prompt response is required. — formal/written)",
+      "まあ、行[い]くにせよいいんじゃない？(Too casual — にせよ but surrounding register is wrong)",
+      "にせよ、とにかく頑張[がんば]ろう。(missing antecedent — grammatically incomplete)"
+     ],
+     "correctIndex": 1,
+     "explanation": "いずれにせよ (either way) is a fixed formal expression meaning 'in any case / regardless.' 早急[さっきゅう]な対応[たいおう]が求[もと]められる = a prompt response is required. This is the natural formal/written use of にせよ in conclusions."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether studying at home or at school, the important thing is concentration'?",
+     "japanese": null,
+     "choices": [
+      "家[いえ]で勉強[べんきょう]するにせよ学校[がっこう]で勉強[べんきょう]するにせよ、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
+      "家[いえ]で勉強[べんきょう]するにしても学校[がっこう]で勉強[べんきょう]するにしても、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
+      "家[いえ]で勉強[べんきょう]するにしては学校[がっこう]で勉強[べんきょう]するにしては、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。",
+      "家[いえ]で勉強[べんきょう]するとしても学校[がっこう]で勉強[べんきょう]するとしても、大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 家[いえ]で勉強[べんきょう]するにせよ学校[がっこう]で勉強[べんきょう]するにせよ = whether studying at home or school. 大切[たいせつ]なのは集中力[しゅうちゅうりょく]だ = the important thing is concentration. Formal assertion covering both alternatives."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q19",
+     "type": "translation",
+     "prompt": "Which means 'Even if it's a small thing, starting is important'?",
+     "japanese": null,
+     "choices": [
+      "小[ちい]さなことにせよ、始[はじ]めることが大切[たいせつ]だ。",
+      "小[ちい]さなことにしても、始[はじ]めることが大切[たいせつ]だ。",
+      "小[ちい]さなことにしては、始[はじ]めることが大切[たいせつ]だ。",
+      "小[ちい]さなこととしても、始[はじ]めることが大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にせよ: 小[ちい]さなこと (small thing) + にせよ = even if it's a small thing. 始[はじ]めることが大切[たいせつ]だ = starting is important. にせよ makes the assertion hold even for the minimum case."
+    },
+    {
+     "id": "ni-seyo-ni-shiro_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Whether alone or with others, maintaining good manners is essential'?",
+     "japanese": null,
+     "choices": [
+      "一人[ひとり]にせよ大勢[おおぜい]にせよ、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
+      "一人[ひとり]にしても大勢[おおぜい]にしても、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
+      "一人[ひとり]にしては大勢[おおぜい]にしては、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。",
+      "一人[ひとり]としても大勢[おおぜい]としても、礼儀[れいぎ]を守[まも]ることが欠[か]かせない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "A にせよ B にせよ: 一人[ひとり]にせよ大勢[おおぜい]にせよ = whether alone or with many people. 礼儀[れいぎ]を守[まも]ることが欠[か]かせない = maintaining good manners is essential. にせよ is formal and assertive."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch37_v01",
+   "partOfSpeech": "noun",
+   "kanji": "論理",
+   "kana": "ろんり",
+   "romaji": "ronri",
+   "definition": "logic"
+  },
+  {
+   "id": "ch37_v02",
+   "partOfSpeech": "noun",
+   "kanji": "根拠",
+   "kana": "こんきょ",
+   "romaji": "konkyo",
+   "definition": "grounds; basis"
+  },
+  {
+   "id": "ch37_v03",
+   "partOfSpeech": "noun",
+   "kanji": "前提",
+   "kana": "ぜんてい",
+   "romaji": "zentei",
+   "definition": "premise; assumption"
+  },
+  {
+   "id": "ch37_v04",
+   "partOfSpeech": "noun",
+   "kanji": "結論",
+   "kana": "けつろん",
+   "romaji": "ketsuron",
+   "definition": "conclusion"
+  },
+  {
+   "id": "ch37_v05",
+   "partOfSpeech": "noun",
+   "kanji": "矛盾",
+   "kana": "むじゅん",
+   "romaji": "mujun",
+   "definition": "contradiction"
+  },
+  {
+   "id": "ch37_v06",
+   "partOfSpeech": "noun",
+   "kanji": "証拠",
+   "kana": "しょうこ",
+   "romaji": "shouko",
+   "definition": "evidence"
+  },
+  {
+   "id": "ch37_v07",
+   "partOfSpeech": "noun",
+   "kanji": "証明",
+   "kana": "しょうめい",
+   "romaji": "shoumei",
+   "definition": "proof; certification"
+  },
+  {
+   "id": "ch37_v08",
+   "partOfSpeech": "noun",
+   "kanji": "仮説",
+   "kana": "かせつ",
+   "romaji": "kasetsu",
+   "definition": "hypothesis"
+  },
+  {
+   "id": "ch37_v09",
+   "partOfSpeech": "noun",
+   "kanji": "推論",
+   "kana": "すいろん",
+   "romaji": "suiron",
+   "definition": "inference; reasoning"
+  },
+  {
+   "id": "ch37_v10",
+   "partOfSpeech": "noun",
+   "kanji": "検討",
+   "kana": "けんとう",
+   "romaji": "kentou",
+   "definition": "examination; consideration"
+  },
+  {
+   "id": "ch37_v11",
+   "partOfSpeech": "noun",
+   "kanji": "分類",
+   "kana": "ぶんるい",
+   "romaji": "bunrui",
+   "definition": "classification"
+  },
+  {
+   "id": "ch37_v12",
+   "partOfSpeech": "noun",
+   "kanji": "比較",
+   "kana": "ひかく",
+   "romaji": "hikaku",
+   "definition": "comparison"
+  },
+  {
+   "id": "ch37_v13",
+   "partOfSpeech": "noun",
+   "kanji": "観点",
+   "kana": "かんてん",
+   "romaji": "kanten",
+   "definition": "viewpoint"
+  },
+  {
+   "id": "ch37_v14",
+   "partOfSpeech": "noun",
+   "kanji": "視点",
+   "kana": "してん",
+   "romaji": "shiten",
+   "definition": "point of view"
+  },
+  {
+   "id": "ch37_v15",
+   "partOfSpeech": "noun",
+   "kanji": "論点",
+   "kana": "ろんてん",
+   "romaji": "ronten",
+   "definition": "point of argument"
+  },
+  {
+   "id": "ch37_v16",
+   "partOfSpeech": "noun",
+   "kanji": "反論",
+   "kana": "はんろん",
+   "romaji": "hanron",
+   "definition": "counterargument"
+  },
+  {
+   "id": "ch37_v17",
+   "partOfSpeech": "noun",
+   "kanji": "指摘",
+   "kana": "してき",
+   "romaji": "shiteki",
+   "definition": "pointing out"
+  },
+  {
+   "id": "ch37_v18",
+   "partOfSpeech": "noun",
+   "kanji": "疑い",
+   "kana": "うたがい",
+   "romaji": "utagai",
+   "definition": "doubt; suspicion"
+  },
+  {
+   "id": "ch37_v19",
+   "partOfSpeech": "noun",
+   "kanji": "確信",
+   "kana": "かくしん",
+   "romaji": "kakushin",
+   "definition": "conviction; certainty"
+  },
+  {
+   "id": "ch37_v20",
+   "partOfSpeech": "noun",
+   "kanji": "見解",
+   "kana": "けんかい",
+   "romaji": "kenkai",
+   "definition": "opinion; view"
+  },
+  {
+   "id": "ch37_v21",
+   "partOfSpeech": "na-adjective",
+   "kanji": "妥当",
+   "kana": "だとう",
+   "romaji": "datou",
+   "definition": "valid; appropriate"
+  },
+  {
+   "id": "ch37_v22",
+   "partOfSpeech": "noun",
+   "kanji": "概念",
+   "kana": "がいねん",
+   "romaji": "gainen",
+   "definition": "concept"
+  },
+  {
+   "id": "ch37_v23",
+   "partOfSpeech": "noun",
+   "kanji": "原理",
+   "kana": "げんり",
+   "romaji": "genri",
+   "definition": "principle"
+  },
+  {
+   "id": "ch37_v24",
+   "partOfSpeech": "noun",
+   "kanji": "認識",
+   "kana": "にんしき",
+   "romaji": "ninshiki",
+   "definition": "recognition; awareness"
+  },
+  {
+   "id": "ch37_v25",
+   "partOfSpeech": "noun",
+   "kanji": "把握",
+   "kana": "はあく",
+   "romaji": "haaku",
+   "definition": "grasp; comprehension"
+  },
+  {
+   "id": "ch37_v26",
+   "partOfSpeech": "noun",
+   "kanji": "因果",
+   "kana": "いんが",
+   "romaji": "inga",
+   "definition": "cause and effect"
+  },
+  {
+   "id": "ch37_v27",
+   "partOfSpeech": "noun",
+   "kanji": "相互",
+   "kana": "そうご",
+   "romaji": "sougo",
+   "definition": "mutual; reciprocal"
+  },
+  {
+   "id": "ch37_v28",
+   "partOfSpeech": "noun",
+   "kanji": "要因",
+   "kana": "よういん",
+   "romaji": "youin",
+   "definition": "factor; cause"
+  },
+  {
+   "id": "ch37_v29",
+   "partOfSpeech": "noun",
+   "kanji": "要点",
+   "kana": "ようてん",
+   "romaji": "youten",
+   "definition": "main point; gist"
+  },
+  {
+   "id": "ch37_v30",
+   "partOfSpeech": "verb",
+   "kanji": "論じる",
+   "kana": "ろんじる",
+   "romaji": "ronjiru",
+   "definition": "to discuss; to argue"
+  },
+  {
+   "id": "ch37_v31",
+   "partOfSpeech": "verb",
+   "kanji": "導く",
+   "kana": "みちびく",
+   "romaji": "michibiku",
+   "definition": "to lead; to derive"
+  },
+  {
+   "id": "ch37_v32",
+   "partOfSpeech": "verb",
+   "kanji": "示す",
+   "kana": "しめす",
+   "romaji": "shimesu",
+   "definition": "to indicate; to show"
+  },
+  {
+   "id": "ch37_v33",
+   "partOfSpeech": "noun",
+   "kanji": "判明",
+   "kana": "はんめい",
+   "romaji": "hanmei",
+   "definition": "becoming clear; being ascertained"
+  },
+  {
+   "id": "ch37_v34",
+   "partOfSpeech": "noun",
+   "kanji": "検証",
+   "kana": "けんしょう",
+   "romaji": "kenshou",
+   "definition": "verification"
+  },
+  {
+   "id": "ch37_v35",
+   "partOfSpeech": "noun",
+   "kanji": "客観性",
+   "kana": "きゃっかんせい",
+   "romaji": "kyakkansei",
+   "definition": "objectivity"
+  },
+  {
+   "id": "ch37_v36",
+   "partOfSpeech": "noun",
+   "kanji": "主観",
+   "kana": "しゅかん",
+   "romaji": "shukan",
+   "definition": "subjectivity"
+  },
+  {
+   "id": "ch37_v37",
+   "partOfSpeech": "na-adjective",
+   "kanji": "論理的",
+   "kana": "ろんりてき",
+   "romaji": "ronriteki",
+   "definition": "logical"
+  },
+  {
+   "id": "ch37_v38",
+   "partOfSpeech": "noun",
+   "kanji": "抽象",
+   "kana": "ちゅうしょう",
+   "romaji": "chuushou",
+   "definition": "abstraction"
+  },
+  {
+   "id": "ch37_v39",
+   "partOfSpeech": "noun",
+   "kanji": "前後",
+   "kana": "ぜんご",
+   "romaji": "zengo",
+   "definition": "context; before and after"
+  },
+  {
+   "id": "ch37_v40",
+   "partOfSpeech": "noun",
+   "kanji": "相違",
+   "kana": "そうい",
+   "romaji": "soui",
+   "definition": "difference; discrepancy"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "設",
+   "word": "設ける",
+   "reading": "もうける",
+   "meaning": "to prepare"
+  },
+  {
+   "char": "結",
+   "word": "結論",
+   "reading": "けつろん",
+   "meaning": "conclusion"
+  },
+  {
+   "char": "島",
+   "word": "島",
+   "reading": "しま",
+   "meaning": "island"
+  },
+  {
+   "char": "再",
+   "word": "再び",
+   "reading": "ふたたび",
+   "meaning": "again"
+  },
+  {
+   "char": "比",
+   "word": "比較",
+   "reading": "ひかく",
+   "meaning": "comparison"
+  },
+  {
+   "char": "境",
+   "word": "境",
+   "reading": "さかい",
+   "meaning": "border"
+  },
+  {
+   "char": "象",
+   "word": "印象",
+   "reading": "いんしょう",
+   "meaning": "impression"
+  },
+  {
+   "char": "門",
+   "word": "門",
+   "reading": "もん",
+   "meaning": "gate"
+  },
+  {
+   "char": "湾",
+   "word": "湾",
+   "reading": "わん",
+   "meaning": "bay"
+  },
+  {
+   "char": "橋",
+   "word": "橋",
+   "reading": "はし",
+   "meaning": "bridge"
+  },
+  {
+   "char": "戸",
+   "word": "戸",
+   "reading": "と",
+   "meaning": "door (esp. Japanese-style)"
+  },
+  {
+   "char": "竹",
+   "word": "竹",
+   "reading": "たけ",
+   "meaning": "bamboo (any grass of subfamily Bambusoideae)"
+  },
+  {
+   "char": "歴",
+   "word": "歴史",
+   "reading": "れきし",
+   "meaning": "history"
+  },
+  {
+   "char": "河",
+   "word": "河",
+   "reading": "かわ",
+   "meaning": "river"
+  },
+  {
+   "char": "児",
+   "word": "幼児",
+   "reading": "ようじ",
+   "meaning": "toddler; young child"
+  },
+  {
+   "char": "印",
+   "word": "印",
+   "reading": "しるし",
+   "meaning": "mark"
+  },
+  {
+   "char": "署",
+   "word": "警察署",
+   "reading": "けいさつしょ",
+   "meaning": "police station"
+  },
+  {
+   "char": "帯",
+   "word": "帯",
+   "reading": "おび",
+   "meaning": "obi"
+  },
+  {
+   "char": "則",
+   "word": "規則",
+   "reading": "きそく",
+   "meaning": "rule; regulation"
+  },
+  {
+   "char": "承",
+   "word": "承る",
+   "reading": "うけたまわる",
+   "meaning": "to hear"
+  },
+  {
+   "char": "絡",
+   "word": "絡む",
+   "reading": "からむ",
+   "meaning": "to get tangled; to be involved (with)"
+  },
+  {
+   "char": "裏",
+   "word": "裏",
+   "reading": "うら",
+   "meaning": "opposite side"
+  },
+  {
+   "char": "星",
+   "word": "星",
+   "reading": "ほし",
+   "meaning": "star (usu. not including the Sun)"
+  },
+  {
+   "char": "坂",
+   "word": "坂",
+   "reading": "さか",
+   "meaning": "slope"
+  },
+  {
+   "char": "触",
+   "word": "触る",
+   "reading": "さわる",
+   "meaning": "to touch"
+  },
+  {
+   "char": "札",
+   "word": "札",
+   "reading": "さつ",
+   "meaning": "banknote"
+  },
+  {
+   "char": "骨",
+   "word": "骨",
+   "reading": "ほね",
+   "meaning": "bone"
+  },
+  {
+   "char": "預",
+   "word": "預かり",
+   "reading": "あずかり",
+   "meaning": "under custody"
+  },
+  {
+   "char": "秒",
+   "word": "秒",
+   "reading": "びょう",
+   "meaning": "second (unit of time)"
+  },
+  {
+   "char": "双",
+   "word": "双子",
+   "reading": "ふたご",
+   "meaning": "twins"
+  },
+  {
+   "char": "敬",
+   "word": "敬う",
+   "reading": "うやまう",
+   "meaning": "to show respect for"
+  },
+  {
+   "char": "漁",
+   "word": "漁",
+   "reading": "りょう",
+   "meaning": "fishing"
+  },
+  {
+   "char": "兆",
+   "word": "兆",
+   "reading": "ちょう",
+   "meaning": "trillion"
+  },
+  {
+   "char": "殿",
+   "word": "殿",
+   "reading": "どの",
+   "meaning": "Mr."
+  },
+  {
+   "char": "泊",
+   "word": "泊まる",
+   "reading": "とまる",
+   "meaning": "to stay at (e.g. hotel)"
+  },
+  {
+   "char": "雲",
+   "word": "雲",
+   "reading": "くも",
+   "meaning": "cloud"
+  },
+  {
+   "char": "掘",
+   "word": "掘る",
+   "reading": "ほる",
+   "meaning": "to dig"
+  },
+  {
+   "char": "珍",
+   "word": "珍しい",
+   "reading": "めずらしい",
+   "meaning": "unusual"
+  },
+  {
+   "char": "湯",
+   "word": "湯",
+   "reading": "ゆ",
+   "meaning": "hot water"
+  },
+  {
+   "char": "塗",
+   "word": "塗る",
+   "reading": "ぬる",
+   "meaning": "to paint"
+  },
+  {
+   "char": "拾",
+   "word": "拾う",
+   "reading": "ひろう",
+   "meaning": "to pick up"
+  },
+  {
+   "char": "咲",
+   "word": "咲く",
+   "reading": "さく",
+   "meaning": "to bloom"
+  },
+  {
+   "char": "耕",
+   "word": "耕す",
+   "reading": "たがやす",
+   "meaning": "to till"
+  },
+  {
+   "char": "筒",
+   "word": "筒",
+   "reading": "つつ",
+   "meaning": "pipe"
+  },
+  {
+   "char": "膚",
+   "word": "膚",
+   "reading": "はだ",
+   "meaning": "skin"
+  },
+  {
+   "char": "涼",
+   "word": "涼しい",
+   "reading": "すずしい",
+   "meaning": "cool"
+  },
+  {
+   "char": "畜",
+   "word": "家畜",
+   "reading": "かちく",
+   "meaning": "livestock"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "設ける",
+   "kana": "もうける",
+   "romaji": "moukeru",
+   "meaning": "to prepare",
+   "chars": [
+    "設"
+   ]
+  },
+  {
+   "word": "結論",
+   "kana": "けつろん",
+   "romaji": "ketsuron",
+   "meaning": "conclusion",
+   "chars": [
+    "結",
+    "論"
+   ]
+  },
+  {
+   "word": "島",
+   "kana": "しま",
+   "romaji": "shima",
+   "meaning": "island",
+   "chars": [
+    "島"
+   ]
+  },
+  {
+   "word": "再び",
+   "kana": "ふたたび",
+   "romaji": "futatabi",
+   "meaning": "again",
+   "chars": [
+    "再"
+   ]
+  },
+  {
+   "word": "比較",
+   "kana": "ひかく",
+   "romaji": "hikaku",
+   "meaning": "comparison",
+   "chars": [
+    "比"
+   ]
+  },
+  {
+   "word": "境",
+   "kana": "さかい",
+   "romaji": "sakai",
+   "meaning": "border",
+   "chars": [
+    "境"
+   ]
+  },
+  {
+   "word": "印象",
+   "kana": "いんしょう",
+   "romaji": "inshou",
+   "meaning": "impression",
+   "chars": [
+    "印",
+    "象"
+   ]
+  },
+  {
+   "word": "門",
+   "kana": "もん",
+   "romaji": "mon",
+   "meaning": "gate",
+   "chars": [
+    "門"
+   ]
+  },
+  {
+   "word": "湾",
+   "kana": "わん",
+   "romaji": "wan",
+   "meaning": "bay",
+   "chars": [
+    "湾"
+   ]
+  },
+  {
+   "word": "橋",
+   "kana": "はし",
+   "romaji": "hashi",
+   "meaning": "bridge",
+   "chars": [
+    "橋"
+   ]
+  },
+  {
+   "word": "戸",
+   "kana": "と",
+   "romaji": "to",
+   "meaning": "door (esp. Japanese-style)",
+   "chars": [
+    "戸"
+   ]
+  },
+  {
+   "word": "竹",
+   "kana": "たけ",
+   "romaji": "take",
+   "meaning": "bamboo (any grass of subfamily Bambusoideae)",
+   "chars": [
+    "竹"
+   ]
+  },
+  {
+   "word": "歴史",
+   "kana": "れきし",
+   "romaji": "rekishi",
+   "meaning": "history",
+   "chars": [
+    "歴",
+    "史"
+   ]
+  },
+  {
+   "word": "河",
+   "kana": "かわ",
+   "romaji": "kawa",
+   "meaning": "river",
+   "chars": [
+    "河"
+   ]
+  },
+  {
+   "word": "幼児",
+   "kana": "ようじ",
+   "romaji": "youji",
+   "meaning": "toddler; young child",
+   "chars": [
+    "幼",
+    "児"
+   ]
+  },
+  {
+   "word": "印",
+   "kana": "しるし",
+   "romaji": "shirushi",
+   "meaning": "mark",
+   "chars": [
+    "印"
+   ]
+  },
+  {
+   "word": "警察署",
+   "kana": "けいさつしょ",
+   "romaji": "keisatsusho",
+   "meaning": "police station",
+   "chars": [
+    "警",
+    "察",
+    "署"
+   ]
+  },
+  {
+   "word": "帯",
+   "kana": "おび",
+   "romaji": "obi",
+   "meaning": "obi",
+   "chars": [
+    "帯"
+   ]
+  },
+  {
+   "word": "規則",
+   "kana": "きそく",
+   "romaji": "kisoku",
+   "meaning": "rule; regulation",
+   "chars": [
+    "規",
+    "則"
+   ]
+  },
+  {
+   "word": "承る",
+   "kana": "うけたまわる",
+   "romaji": "uketamawaru",
+   "meaning": "to hear",
+   "chars": [
+    "承"
+   ]
+  },
+  {
+   "word": "絡む",
+   "kana": "からむ",
+   "romaji": "karamu",
+   "meaning": "to get tangled; to be involved (with)",
+   "chars": [
+    "絡"
+   ]
+  },
+  {
+   "word": "裏",
+   "kana": "うら",
+   "romaji": "ura",
+   "meaning": "opposite side",
+   "chars": [
+    "裏"
+   ]
+  },
+  {
+   "word": "星",
+   "kana": "ほし",
+   "romaji": "hoshi",
+   "meaning": "star (usu. not including the Sun)",
+   "chars": [
+    "星"
+   ]
+  },
+  {
+   "word": "坂",
+   "kana": "さか",
+   "romaji": "saka",
+   "meaning": "slope",
+   "chars": [
+    "坂"
+   ]
+  },
+  {
+   "word": "触る",
+   "kana": "さわる",
+   "romaji": "sawaru",
+   "meaning": "to touch",
+   "chars": [
+    "触"
+   ]
+  },
+  {
+   "word": "札",
+   "kana": "さつ",
+   "romaji": "satsu",
+   "meaning": "banknote",
+   "chars": [
+    "札"
+   ]
+  },
+  {
+   "word": "骨",
+   "kana": "ほね",
+   "romaji": "hone",
+   "meaning": "bone",
+   "chars": [
+    "骨"
+   ]
+  },
+  {
+   "word": "預かり",
+   "kana": "あずかり",
+   "romaji": "azukari",
+   "meaning": "under custody",
+   "chars": [
+    "預"
+   ]
+  },
+  {
+   "word": "秒",
+   "kana": "びょう",
+   "romaji": "byou",
+   "meaning": "second (unit of time)",
+   "chars": [
+    "秒"
+   ]
+  },
+  {
+   "word": "双子",
+   "kana": "ふたご",
+   "romaji": "futago",
+   "meaning": "twins",
+   "chars": [
+    "双",
+    "子"
+   ]
+  },
+  {
+   "word": "敬う",
+   "kana": "うやまう",
+   "romaji": "uyamau",
+   "meaning": "to show respect for",
+   "chars": [
+    "敬"
+   ]
+  },
+  {
+   "word": "漁",
+   "kana": "りょう",
+   "romaji": "ryou",
+   "meaning": "fishing",
+   "chars": [
+    "漁"
+   ]
+  },
+  {
+   "word": "殿",
+   "kana": "どの",
+   "romaji": "dono",
+   "meaning": "Mr.",
+   "chars": [
+    "殿"
+   ]
+  },
+  {
+   "word": "泊まる",
+   "kana": "とまる",
+   "romaji": "tomaru",
+   "meaning": "to stay at (e.g. hotel)",
+   "chars": [
+    "泊"
+   ]
+  },
+  {
+   "word": "雲",
+   "kana": "くも",
+   "romaji": "kumo",
+   "meaning": "cloud",
+   "chars": [
+    "雲"
+   ]
+  },
+  {
+   "word": "掘る",
+   "kana": "ほる",
+   "romaji": "horu",
+   "meaning": "to dig",
+   "chars": [
+    "掘"
+   ]
+  },
+  {
+   "word": "珍しい",
+   "kana": "めずらしい",
+   "romaji": "mezurashii",
+   "meaning": "unusual",
+   "chars": [
+    "珍"
+   ]
+  },
+  {
+   "word": "湯",
+   "kana": "ゆ",
+   "romaji": "yu",
+   "meaning": "hot water",
+   "chars": [
+    "湯"
+   ]
+  },
+  {
+   "word": "塗る",
+   "kana": "ぬる",
+   "romaji": "nuru",
+   "meaning": "to paint",
+   "chars": [
+    "塗"
+   ]
+  },
+  {
+   "word": "拾う",
+   "kana": "ひろう",
+   "romaji": "hirou",
+   "meaning": "to pick up",
+   "chars": [
+    "拾"
+   ]
+  },
+  {
+   "word": "咲く",
+   "kana": "さく",
+   "romaji": "saku",
+   "meaning": "to bloom",
+   "chars": [
+    "咲"
+   ]
+  },
+  {
+   "word": "耕す",
+   "kana": "たがやす",
+   "romaji": "tagayasu",
+   "meaning": "to till",
+   "chars": [
+    "耕"
+   ]
+  },
+  {
+   "word": "筒",
+   "kana": "つつ",
+   "romaji": "tsutsu",
+   "meaning": "pipe",
+   "chars": [
+    "筒"
+   ]
+  },
+  {
+   "word": "膚",
+   "kana": "はだ",
+   "romaji": "hada",
+   "meaning": "skin",
+   "chars": [
+    "膚"
+   ]
+  },
+  {
+   "word": "涼しい",
+   "kana": "すずしい",
+   "romaji": "suzushii",
+   "meaning": "cool",
+   "chars": [
+    "涼"
+   ]
+  },
+  {
+   "word": "家畜",
+   "kana": "かちく",
+   "romaji": "kachiku",
+   "meaning": "livestock",
+   "chars": [
+    "家",
+    "畜"
+   ]
+  },
+  {
+   "word": "建設",
+   "kana": "けんせつ",
+   "romaji": "kensetsu",
+   "meaning": "construction",
+   "chars": [
+    "建",
+    "設"
+   ]
+  },
+  {
+   "word": "設定",
+   "kana": "せってい",
+   "romaji": "settei",
+   "meaning": "establishment",
+   "chars": [
+    "設",
+    "定"
+   ]
+  },
+  {
+   "word": "結構",
+   "kana": "けっこう",
+   "romaji": "kekkou",
+   "meaning": "quite; fine; no thank you",
+   "chars": [
+    "結",
+    "構"
+   ]
+  },
+  {
+   "word": "結びつき",
+   "kana": "むすびつき",
+   "romaji": "musubitsuki",
+   "meaning": "connection",
+   "chars": [
+    "結"
+   ]
+  },
+  {
+   "word": "結び",
+   "kana": "むすび",
+   "romaji": "musubi",
+   "meaning": "ending",
+   "chars": [
+    "結"
+   ]
+  },
+  {
+   "word": "再会",
+   "kana": "さいかい",
+   "romaji": "saikai",
+   "meaning": "another meeting",
+   "chars": [
+    "再",
+    "会"
+   ]
+  },
+  {
+   "word": "比べ",
+   "kana": "くらべ",
+   "romaji": "kurabe",
+   "meaning": "contest",
+   "chars": [
+    "比"
+   ]
+  },
+  {
+   "word": "銀河",
+   "kana": "ぎんが",
+   "romaji": "ginga",
+   "meaning": "Milky Way",
+   "chars": [
+    "銀",
+    "河"
+   ]
+  },
+  {
+   "word": "育児",
+   "kana": "いくじ",
+   "romaji": "ikuji",
+   "meaning": "childcare",
+   "chars": [
+    "育",
+    "児"
+   ]
+  },
+  {
+   "word": "裏切り",
+   "kana": "うらぎり",
+   "romaji": "uragiri",
+   "meaning": "treachery",
+   "chars": [
+    "裏",
+    "切"
+   ]
+  },
+  {
+   "word": "預金",
+   "kana": "よきん",
+   "romaji": "yokin",
+   "meaning": "deposit",
+   "chars": [
+    "預",
+    "金"
+   ]
+  },
+  {
+   "word": "殿様",
+   "kana": "とのさま",
+   "romaji": "tonosama",
+   "meaning": "nobleman",
+   "chars": [
+    "殿",
+    "様"
+   ]
+  },
+  {
+   "word": "相違",
+   "kana": "そうい",
+   "romaji": "soui",
+   "meaning": "difference",
+   "chars": [
+    "相",
+    "違"
+   ]
+  },
+  {
+   "word": "要因",
+   "kana": "よういん",
+   "romaji": "youin",
+   "meaning": "main cause",
+   "chars": [
+    "要",
+    "因"
+   ]
+  },
+  {
+   "word": "判明",
+   "kana": "はんめい",
+   "romaji": "hanmei",
+   "meaning": "becoming clear; being ascertained",
+   "chars": [
+    "判",
+    "明"
+   ]
+  },
+  {
+   "word": "認識",
+   "kana": "にんしき",
+   "romaji": "ninshiki",
+   "meaning": "recognition",
+   "chars": [
+    "認",
+    "識"
+   ]
+  },
+  {
+   "word": "確信",
+   "kana": "かくしん",
+   "romaji": "kakushin",
+   "meaning": "conviction",
+   "chars": [
+    "確",
+    "信"
+   ]
+  },
+  {
+   "word": "因果",
+   "kana": "いんが",
+   "romaji": "inga",
+   "meaning": "cause and effect",
+   "chars": [
+    "因",
+    "果"
+   ]
+  },
+  {
+   "word": "導く",
+   "kana": "みちびく",
+   "romaji": "michibiku",
+   "meaning": "to guide",
+   "chars": [
+    "導"
+   ]
+  },
+  {
+   "word": "根拠",
+   "kana": "こんきょ",
+   "romaji": "konkyo",
+   "meaning": "basis",
+   "chars": [
+    "根"
+   ]
+  },
+  {
+   "word": "前後",
+   "kana": "ぜんご",
+   "romaji": "zengo",
+   "meaning": "front and rear",
+   "chars": [
+    "前",
+    "後"
+   ]
+  },
+  {
+   "word": "概念",
+   "kana": "がいねん",
+   "romaji": "gainen",
+   "meaning": "concept, general idea",
+   "chars": [
+    "概"
+   ]
+  },
+  {
+   "word": "兆",
+   "kana": "ちょう",
+   "romaji": "chou",
+   "meaning": "trillion",
+   "chars": [
+    "兆"
+   ]
+  }
+ ]
 }

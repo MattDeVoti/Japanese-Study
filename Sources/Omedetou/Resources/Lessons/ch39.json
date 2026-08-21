@@ -1,1573 +1,2210 @@
 {
-  "id": "ch39",
-  "chapterNumber": 41,
-  "title": "Scope and Inclusion",
-  "points": [
+ "id": "ch39",
+ "chapterNumber": 41,
+ "title": "Scope and Inclusion",
+ "points": [
+  {
+   "id": "ni-suginai",
+   "name": "〜にすぎない (ni suginai) — no more than / merely / just",
+   "shortDescription": "Downplays or minimizes something by saying it is nothing more than what it is.",
+   "formation": "Verb (plain form) / Noun / Adjective + にすぎない / にすぎません",
+   "explanation": "にすぎない is the grammar of the ceiling — it says: this thing does not exceed the modest level being described. The name itself gives it away: 過[す]ぎる means 'to exceed,' and にすぎない is its negative: 'does not go beyond X.' これは私[わたし]の意見[いけん]にすぎません — 'This is nothing more than my opinion' — capped at 'one person's view,' nothing more authoritative.\n\nIt comes in two flavors: humble (the speaker modestly downplaying their own achievement or status) and dismissive (limiting someone else's claim). 彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎない — 'His success is nothing but luck' — that reads as a dismissal. In academic and analytical writing, にすぎない is invaluable for scoping a claim honestly: これは一[ひと]つの仮説[かせつ]にすぎない ('This is merely one hypothesis'). Compare with だけ (only — neutral): にすぎない adds the stronger weight of 'and that's all it amounts to, no more, don't read anything further into it.'",
+   "rules": [
+    "Noun / Plain form + にすぎない = nothing more than / merely / just (downplays significance)",
+    "Sets a ceiling — the subject doesn't exceed the modest level described",
+    "Comes in two tones: humble self-downplaying, or dismissive limiting of a claim",
+    "Compare: だけ (only — neutral); にすぎない (only — stronger dismissive or humble weight)",
+    "Negative emphasis: it IS that thing, but it's ONLY that — no more"
+   ],
+   "examples": [
     {
-      "id": "ni-suginai",
-      "name": "〜にすぎない (ni suginai) — no more than / merely / just",
-      "shortDescription": "Downplays or minimizes something by saying it is nothing more than what it is.",
-      "formation": "Verb (plain form) / Noun / Adjective + にすぎない / にすぎません",
-      "explanation": "にすぎない is the grammar of the ceiling — it says: this thing does not exceed the modest level being described. The name itself gives it away: 過[す]ぎる means 'to exceed,' and にすぎない is its negative: 'does not go beyond X.' これは私[わたし]の意見[いけん]にすぎません — 'This is nothing more than my opinion' — capped at 'one person's view,' nothing more authoritative.\n\nIt comes in two flavors: humble (the speaker modestly downplaying their own achievement or status) and dismissive (limiting someone else's claim). 彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎない — 'His success is nothing but luck' — that reads as a dismissal. In academic and analytical writing, にすぎない is invaluable for scoping a claim honestly: これは一[ひと]つの仮説[かせつ]にすぎない ('This is merely one hypothesis'). Compare with だけ (only — neutral): にすぎない adds the stronger weight of 'and that's all it amounts to, no more, don't read anything further into it.'",
-      "rules": [
-        "Noun / Plain form + にすぎない = nothing more than / merely / just (downplays significance)",
-        "Sets a ceiling — the subject doesn't exceed the modest level described",
-        "Comes in two tones: humble self-downplaying, or dismissive limiting of a claim",
-        "Compare: だけ (only — neutral); にすぎない (only — stronger dismissive or humble weight)",
-        "Negative emphasis: it IS that thing, but it's ONLY that — no more"
-      ],
-      "examples": [
-        {
-          "japanese": "これはあくまでも一[ひと]つの仮説[かせつ]にすぎません。",
-          "romaji": "Kore wa akumade mo hitotsu no kasetsu ni sugimasen.",
-          "english": "This is merely one hypothesis and nothing more."
-        },
-        {
-          "japanese": "私[わたし]は日本語[にほんご]学習者[がくしゅうしゃ]にすぎないので、間違[まちが]いがあるかもしれません。",
-          "romaji": "Watashi wa nihongo gakushuusha ni suginai node, machigai ga aru kamo shiremasen.",
-          "english": "I am merely a Japanese language learner, so there may be mistakes."
-        },
-        {
-          "japanese": "これは表面上[ひょうめんじょう]の変化[へんか]にすぎず、本質的[ほんしつてき]な問題[もんだい]は解決[かいけつ]されていません。",
-          "romaji": "Kore wa hyoumen jou no henka ni sugizu, honshitsuteki na mondai wa kaiketsusarete imasen.",
-          "english": "This is no more than a surface-level change; the fundamental problem has not been resolved."
-        },
-        {
-          "japanese": "彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎないと批評家[ひひょうか]は言[い]いますが、私[わたし]はそう思[おも]いません。",
-          "romaji": "Kare no seikou wa guuzen ni suginai to hihyouka wa iimasu ga, watashi wa sou omoimasen.",
-          "english": "Critics say his success is nothing but luck, but I don't think so."
-        }
-      ],
-      "flashcardHeader": "〜にすぎない",
-      "flashcardAnswer": "Downplays or minimizes something by saying it is nothing more than what it is.",
-      "practice": [
-        {
-          "id": "ni-suginai_q1",
-          "type": "usage",
-          "prompt": "What does 〜にすぎない mean?",
-          "japanese": null,
-          "choices": [
-            "at least / more than",
-            "(nothing) more than / merely / only — downplays the significance of X, implying it's less impressive than it seems",
-            "because of",
-            "as a result of"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜にすぎない = nothing more than / merely. これは偶然[ぐうぜん]にすぎない = this is nothing more than coincidence. It downplays or minimizes the importance of something. Often implies 'don't read too much into it.'"
-        },
-        {
-          "id": "ni-suginai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'This is merely a rumor'?",
-          "japanese": null,
-          "choices": [
-            "これは噂[うわさ]にすぎない。",
-            "これは噂[うわさ]ばかりだ。",
-            "これは噂[うわさ]というものだ。",
-            "これは噂[うわさ]だけだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 噂[うわさ] + にすぎない = nothing more than a rumor. にすぎない downplays the noun — the implication is 'don't take it as more than a rumor.'"
-        },
-        {
-          "id": "ni-suginai_q3",
-          "type": "translation",
-          "prompt": "Which means 'He is just a beginner'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は初心者[しょしんしゃ]にすぎない。",
-            "彼[かれ]は初心者[しょしんしゃ]だけだ。",
-            "彼[かれ]は初心者[しょしんしゃ]というものだ。",
-            "彼[かれ]は初心者[しょしんしゃ]ばかりだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 初心者[しょしんしゃ] + にすぎない = nothing more than a beginner. Downplays his level — implying 'he's not much, just a beginner.'"
-        },
-        {
-          "id": "ni-suginai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'What I said was merely a joke'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]が言[い]ったのは冗談[じょうだん]にすぎなかった。",
-            "私[わたし]が言[い]ったのは冗談[じょうだん]だけだった。",
-            "私[わたし]が言[い]ったのは冗談[じょうだん]というものだった。",
-            "私[わたし]が言[い]ったのは冗談[じょうだん]のはずだった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎなかった (past): 冗談[じょうだん] + にすぎなかった = was nothing more than a joke. Downplays the severity of what was said."
-        },
-        {
-          "id": "ni-suginai_q5",
-          "type": "usage",
-          "prompt": "What FORMATION does にすぎない use?",
-          "japanese": null,
-          "choices": [
-            "Verb te-form + にすぎない",
-            "Noun / Verb plain form / い-adj plain / な-adj stem + にすぎない",
-            "Verb masu-stem + にすぎない — and this holds in every register, formal or casual.",
-            "Only noun + にすぎない"
-          ],
-          "correctIndex": 1,
-          "explanation": "にすぎない attaches to: Noun (噂[うわさ]にすぎない), Verb plain (言[い]っているにすぎない), い-adj plain (高[たか]いにすぎない), な-adj stem (便利[べんり]なにすぎない). It downplays whatever precedes it."
-        },
-        {
-          "id": "ni-suginai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'This number is just a rough estimate'?",
-          "japanese": null,
-          "choices": [
-            "この数字[すうじ]はあくまで概算[がいさん]にすぎない。",
-            "この数字[すうじ]はあくまで概算[がいさん]だけだ。",
-            "この数字[すうじ]はあくまで概算[がいさん]というものだ。",
-            "この数字[すうじ]はあくまで概算[がいさん]のはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 概算[がいさん] + にすぎない = nothing more than a rough estimate. あくまで reinforces the downplaying sense: 'this is purely/merely an estimate.'"
-        },
-        {
-          "id": "ni-suginai_q7",
-          "type": "translation",
-          "prompt": "Which means 'She merely answered the question asked'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は聞[き]かれたことに答[こた]えたにすぎない。",
-            "彼女[かのじょ]は聞[き]かれたことに答[こた]えたばかりだ。",
-            "彼女[かのじょ]は聞[き]かれたことに答[こた]えただけだ。",
-            "彼女[かのじょ]は聞[き]かれたことに答[こた]えたはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb plain past + にすぎない: 答[こた]えた + にすぎない = nothing more than answered. Downplays the action — she only did what was asked, nothing more."
-        },
-        {
-          "id": "ni-suginai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'This is just one example'?",
-          "japanese": null,
-          "choices": [
-            "これは一例[いちれい]にすぎない。",
-            "これは一例[いちれい]だけだ。",
-            "これは一例[いちれい]というものだ。",
-            "これは一例[いちれい]ほどだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 一例[いちれい] + にすぎない = nothing more than one example. Downplays the scope — 'this is just a single example, don't generalize from it.'"
-        },
-        {
-          "id": "ni-suginai_q9",
-          "type": "usage",
-          "prompt": "What nuance does にすぎない often carry?",
-          "japanese": null,
-          "choices": [
-            "It expresses admiration, with no exceptions in modern standard Japanese.",
-            "It implies the thing is less than it appears or less than one might expect — a downgrading/minimizing nuance",
-            "It expresses regret",
-            "It expresses contrast"
-          ],
-          "correctIndex": 1,
-          "explanation": "にすぎない = minimization/downgrading. Often used to: (1) correct overestimation ('it's just X, don't overrate it'); (2) be modest about oneself; (3) indicate that something has no further significance beyond what it literally is."
-        },
-        {
-          "id": "ni-suginai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'I'm only an ordinary office worker'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]はただのサラリーマンにすぎない。",
-            "私[わたし]はただのサラリーマンだけだ。",
-            "私[わたし]はただのサラリーマンというものだ。",
-            "私[わたし]はただのサラリーマンのはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: サラリーマン + にすぎない = nothing more than an ordinary office worker. ただの reinforces the modesty/minimization."
-        },
-        {
-          "id": "ni-suginai_q11",
-          "type": "translation",
-          "prompt": "Which means 'This technology is just a prototype'?",
-          "japanese": null,
-          "choices": [
-            "この技術[ぎじゅつ]はプロトタイプにすぎない。",
-            "この技術[ぎじゅつ]はプロトタイプだけだ。",
-            "この技術[ぎじゅつ]はプロトタイプというものだ。",
-            "この技術[ぎじゅつ]はプロトタイプのはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: プロトタイプ + にすぎない = nothing more than a prototype. Downplays the technology — it's not a finished product."
-        },
-        {
-          "id": "ni-suginai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'The proposal is merely a starting point for discussion'?",
-          "japanese": null,
-          "choices": [
-            "この提案[ていあん]は議論[ぎろん]のスタートポイントにすぎない。",
-            "この提案[ていあん]は議論[ぎろん]のスタートポイントだけだ。",
-            "この提案[ていあん]は議論[ぎろん]のスタートポイントというものだ。",
-            "この提案[ていあん]は議論[ぎろん]のスタートポイントのはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: スタートポイント + にすぎない = nothing more than a starting point. Downplays the proposal — it's only the beginning of discussion, not a finished plan."
-        },
-        {
-          "id": "ni-suginai_q13",
-          "type": "usage",
-          "prompt": "How does にすぎない compare to だけ (only)?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "にすぎない is more emphatic in downplaying — it implies 'don't even consider it more than X'; だけ is a neutral limiter that just states the quantity/scope without a minimizing nuance",
-            "だけ is more emphatic",
-            "にすぎない is only for verbs — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "にすぎない = minimizing emphasis ('this is MERELY X, don't overestimate'). だけ = neutral limiter ('only X, no more'). 一例[いちれい]にすぎない = it's merely an example (downplaying, cautionary). 一例[いちれい]だけだ = there's only one example (factual count)."
-        },
-        {
-          "id": "ni-suginai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'My Japanese is still at the level where I can only have daily conversations'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]にすぎない。",
-            "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]だけだ。",
-            "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]というものだ。",
-            "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]のはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun/degree + にすぎない: 程度[ていど] + にすぎない = nothing more than that level. Modest self-evaluation: my Japanese is only at daily conversation level, no more."
-        },
-        {
-          "id": "ni-suginai_q15",
-          "type": "translation",
-          "prompt": "Which means 'He is just saying what he thinks — he has no ill intent'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は思[おも]ったことを言[い]っているにすぎない — 悪意[あくい]はない。",
-            "彼[かれ]は思[おも]ったことを言[い]っているだけだ — 悪意[あくい]はない。",
-            "彼[かれ]は思[おも]ったことを言[い]っているというものだ — 悪意[あくい]はない。",
-            "彼[かれ]は思[おも]ったことを言[い]っているはずだ — 悪意[あくい]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb plain + にすぎない: 言[い]っている + にすぎない = nothing more than saying what he thinks. Minimizes the action to defend him: 'he's merely speaking his mind.'"
-        },
-        {
-          "id": "ni-suginai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'This is just a temporary solution'?",
-          "japanese": null,
-          "choices": [
-            "これは一時的[いちじてき]な対応[たいおう]にすぎない。",
-            "これは一時的[いちじてき]な対応[たいおう]だけだ。",
-            "これは一時的[いちじてき]な対応[たいおう]というものだ。",
-            "これは一時的[いちじてき]な対応[たいおう]のはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 一時的[いちじてき]な対応[たいおう] + にすぎない = nothing more than a temporary solution. Downplays the measure — implies it's not a real fix."
-        },
-        {
-          "id": "ni-suginai_q17",
-          "type": "usage",
-          "prompt": "Which sentence BEST illustrates にすぎない correcting an overestimation?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]は天才[てんさい]にすぎない。(says he's merely a genius — downplays? — awkward), regardless of context or politeness level.",
-            "それは偶然[ぐうぜん]の一致[いっち]にすぎない。(it's merely a coincidence — corrects overreading of a coincidence as meaningful)",
-            "彼女[かのじょ]は学生[がくせい]にすぎない。(she's merely a student — contextual)",
-            "これは問題[もんだい]にすぎない。(this is merely a problem — weak)"
-          ],
-          "correctIndex": 1,
-          "explanation": "それは偶然[ぐうぜん]の一致[いっち]にすぎない = it's nothing more than a coincidence. Classic use: someone may be seeing a meaningful pattern, but にすぎない corrects the interpretation ('you're reading too much into it — it's just coincidence')."
-        },
-        {
-          "id": "ni-suginai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'The discount is merely 5% — it's not much of a deal'?",
-          "japanese": null,
-          "choices": [
-            "割引[わりびき]はたった5%にすぎない — 大[たい]したことはない。",
-            "割引[わりびき]はたった5%だけだ — 大[たい]したことはない。",
-            "割引[わりびき]はたった5%というものだ — 大[たい]したことはない。",
-            "割引[わりびき]はたった5%のはずだ — 大[たい]したことはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun/number + にすぎない: 5% + にすぎない = nothing more than 5%. たった reinforces the minimizing sense. The discount is being downplayed as insignificant."
-        },
-        {
-          "id": "ni-suginai_q19",
-          "type": "translation",
-          "prompt": "Which means 'What you call wisdom is merely accumulated experience'?",
-          "japanese": null,
-          "choices": [
-            "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]にすぎない。",
-            "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]だけだ。",
-            "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]というものだ。",
-            "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]のはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + にすぎない: 経験[けいけん] + にすぎない = nothing more than experience. Deflates the grand concept of 'wisdom' to something more mundane — just accumulated experience."
-        },
-        {
-          "id": "ni-suginai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'I merely stated the facts — I didn't exaggerate'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]は事実[じじつ]を述[の]べたにすぎない — 誇張[こちょう]はしていない。",
-            "私[わたし]は事実[じじつ]を述[の]べただけだ — 誇張[こちょう]はしていない。",
-            "私[わたし]は事実[じじつ]を述[の]べたというものだ — 誇張[こちょう]はしていない。",
-            "私[わたし]は事実[じじつ]を述[の]べたはずだ — 誇張[こちょう]はしていない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + にすぎない: 述[の]べた + にすぎない = nothing more than stated. Defends the action as minimal and pure: 'I only stated facts.'"
-        }
-      ]
+     "japanese": "これはあくまでも一[ひと]つの仮説[かせつ]にすぎません。",
+     "romaji": "Kore wa akumade mo hitotsu no kasetsu ni sugimasen.",
+     "english": "This is merely one hypothesis and nothing more."
     },
     {
-      "id": "ni-kagirazu",
-      "name": "〜に限[かぎ]らず (ni kagirazu) — not limited to / not just / beyond",
-      "shortDescription": "Extends scope beyond a specific entity: 'not only X, but beyond X as well'.",
-      "formation": "Noun + に限[かぎ]らず + broader scope or additional examples",
-      "explanation": "に限[かぎ]らず comes from 限[かぎ]る (to limit) flipped to negative: 'not limited to.' It expands scope beyond the noun it attaches to. 日本人[にほんじん]に限[かぎ]らず、外国人[がいこくじん]もこの祭[まつ]りを楽[たの]しめます: 'Not limited to Japanese people, foreigners can also enjoy this festival' — you start with the expected or obvious group and then open the door wider.\n\nThis scope-expanding function makes に限[かぎ]らず more formal than だけでなく (not only...but also), and it's the preferred choice in written announcements, reports, and formal speeches where you want to make a broad, inclusive statement.\n\nTwo related forms are worth knowing: に限[かぎ]っては (only / limited to) does the opposite — it restricts to a specific case, often with an ironic 'the one exception is...' flavor. に限[かぎ]り (formal: limited to only) appears in notices and official announcements. The pattern to remember: expanding scope → に限[かぎ]らず; restricting to one case → に限[かぎ]っては.",
-      "rules": [
-        "Noun + に限[かぎ]らず = not limited to [noun] / not just [noun] (broadening scope)",
-        "Sets up a specific group then extends the point to a wider group",
-        "More formal than だけでなく (not only); preferred in writing, formal speech",
-        "Related: に限[かぎ]って = only / in the case of only [noun] (restricting, often ironic)",
-        "Related: に限[かぎ]り = limited to only [noun] (formal restriction, used in notices)"
-      ],
-      "examples": [
-        {
-          "japanese": "この問題[もんだい]は日本[にほん]に限[かぎ]らず、世界中[せかいじゅう]で起[お]きています。",
-          "romaji": "Kono mondai wa Nihon ni kagirazu, sekaijuu de okite imasu.",
-          "english": "This problem is not limited to Japan — it is happening all over the world."
-        },
-        {
-          "japanese": "スポーツに限[かぎ]らず、音楽[おんがく]や芸術[げいじゅつ]でも努力[どりょく]は大切[たいせつ]です。",
-          "romaji": "Supootsu ni kagirazu, ongaku ya geijutsu demo doryoku wa taisetsu desu.",
-          "english": "Not limited to sports — in music and art too, effort is important."
-        },
-        {
-          "japanese": "若者[わかもの]に限[かぎ]らず、中高年[ちゅうこうねん]の方々[かたがた]もスマートフォンを使[つか]っています。",
-          "romaji": "Wakamono ni kagirazu, chuukounen no katagata mo sumaatofon wo tsukatte imasu.",
-          "english": "Not limited to young people — middle-aged and older people also use smartphones."
-        },
-        {
-          "japanese": "専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の市民[しみん]も政策[せいさく]についての意見[いけん]を持[も]つべきです。",
-          "romaji": "Senmonka ni kagirazu, ippan no shimin mo seisaku ni tsuite no iken wo motsu beki desu.",
-          "english": "Not limited to experts — ordinary citizens too should have opinions on policy."
-        }
-      ],
-      "flashcardHeader": "〜に限らず",
-      "flashcardAnswer": "Extends scope beyond a specific entity: 'not only X, but beyond X as well'.",
-      "practice": [
-        {
-          "id": "ni-kagirazu_q1",
-          "type": "usage",
-          "prompt": "What does 〜に限[かぎ]らず mean?",
-          "japanese": null,
-          "choices": [
-            "limited to / restricted to X",
-            "not only X / not limited to X — extends scope beyond X to include other things too",
-            "as many as X",
-            "no more than X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜に限[かぎ]らず = not only X / not limited to X. 子[こ]どもに限[かぎ]らず大人[おとな]も楽[たの]しめる = not only children but adults can enjoy it too. に限[かぎ]る (to be limited to) → に限[かぎ]らず (not limited to) = scope extension."
-        },
-        {
-          "id": "ni-kagirazu_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only in Japan but in other countries too, sushi is popular'?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]に限[かぎ]らず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にほん]だけでなく他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にほん]に限[かぎ]って他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
-            "日本[にほん]のみならず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 日本[にほん] + に限[かぎ]らず = not limited to Japan. 他[ほか]の国[くに]でも = in other countries too. Extends the scope beyond Japan."
-        },
-        {
-          "id": "ni-kagirazu_q3",
-          "type": "translation",
-          "prompt": "Which means 'Not only students but also teachers should read this book'?",
-          "japanese": null,
-          "choices": [
-            "学生[がくせい]に限[かぎ]らず先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
-            "学生[がくせい]だけでなく先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
-            "学生[がくせい]に限[かぎ]って先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
-            "学生[がくせい]のみならず先生[せんせい]もこの本[ほん]を読[よ]むべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 学生[がくせい] + に限[かぎ]らず = not limited to students. 先生[せんせい]も = teachers too. に限[かぎ]らず extends the recommendation beyond students."
-        },
-        {
-          "id": "ni-kagirazu_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only on weekdays but also on weekends the store is open'?",
-          "japanese": null,
-          "choices": [
-            "平日[へいじつ]に限[かぎ]らず週末[しゅうまつ]も店[みせ]は開[あ]いている。",
-            "平日[へいじつ]だけでなく週末[しゅうまつ]も店[みせ]は開[あ]いている。",
-            "平日[へいじつ]に限[かぎ]って週末[しゅうまつ]も店[みせ]は開[あ]いている。",
-            "平日[へいじつ]のみならず週末[しゅうまつ]も店[みせ]は開[あ]いている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 平日[へいじつ] + に限[かぎ]らず = not limited to weekdays. 週末[しゅうまつ]も = on weekends too. に限[かぎ]らず extends the scope of operating days."
-        },
-        {
-          "id": "ni-kagirazu_q5",
-          "type": "usage",
-          "prompt": "に限[かぎ]らず vs. だけでなく — which is more FORMAL?",
-          "japanese": null,
-          "choices": [
-            "They are identical in formality",
-            "に限[かぎ]らず is more formal/written; だけでなく is more casual/conversational",
-            "だけでなく is more formal",
-            "に限[かぎ]らず is only for spoken Japanese — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "に限[かぎ]らず is more formal and literary. だけでなく is more conversational. Both mean 'not only X.' In formal essays, reports, or official statements, に限[かぎ]らず is preferred. In casual speech, だけでなく is more natural."
-        },
-        {
-          "id": "ni-kagirazu_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only English but also French is spoken in that country'?",
-          "japanese": null,
-          "choices": [
-            "英語[えいご]に限[かぎ]らずフランス語[ご]もその国[くに]では話[はな]されている。",
-            "英語[えいご]だけでなくフランス語[ご]もその国[くに]では話[はな]されている。",
-            "英語[えいご]に限[かぎ]ってフランス語[ご]もその国[くに]では話[はな]されている。",
-            "英語[えいご]のみならずフランス語[ご]もその国[くに]では話[はな]されている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 英語[えいご] + に限[かぎ]らず = not limited to English. フランス語[ご]も = French too. Extends language scope."
-        },
-        {
-          "id": "ni-kagirazu_q7",
-          "type": "translation",
-          "prompt": "Which means 'Not only price but also quality is important when buying something'?",
-          "japanese": null,
-          "choices": [
-            "価格[かかく]に限[かぎ]らず品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
-            "価格[かかく]だけでなく品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
-            "価格[かかく]に限[かぎ]って品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
-            "価格[かかく]のみならず品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 価格[かかく] + に限[かぎ]らず = not limited to price. 品質[ひんしつ]も = quality too. Extends the criteria for evaluation."
-        },
-        {
-          "id": "ni-kagirazu_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only experts but also beginners can use this software'?",
-          "japanese": null,
-          "choices": [
-            "専門家[せんもんか]に限[かぎ]らず初心者[しょしんしゃ]もこのソフトを使[つか]える。",
-            "専門家[せんもんか]だけでなく初心者[しょしんしゃ]もこのソフトを使[つか]える。",
-            "専門家[せんもんか]に限[かぎ]って初心者[しょしんしゃ]もこのソフトを使[つか]える。",
-            "専門家[せんもんか]のみならず初心者[しょしんしゃ]もこのソフトを使[つか]える。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 専門家[せんもんか] + に限[かぎ]らず = not limited to experts. 初心者[しょしんしゃ]も = beginners too. Extends the user scope beyond experts."
-        },
-        {
-          "id": "ni-kagirazu_q9",
-          "type": "usage",
-          "prompt": "に限[かぎ]らず comes from に限[かぎ]る (limited to). Which BEST explains this relationship?",
-          "japanese": null,
-          "choices": [
-            "There is no relationship",
-            "に限[かぎ]る = X only (restricted scope); に限[かぎ]らず = not X only (negated restriction = scope extension). に限[かぎ]らず literally = 'without being limited to'",
-            "に限[かぎ]らず is the polite form of に限[かぎ]る, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
-            "に限[かぎ]る is the formal form of に限[かぎ]らず"
-          ],
-          "correctIndex": 1,
-          "explanation": "に限[かぎ]る = restricted to X (正規[せいき]社員[しゃいん]に限[かぎ]る = limited to full-time employees only). に限[かぎ]らず = negates the restriction: 正規[せいき]社員[しゃいん]に限[かぎ]らず = not limited to full-time employees (part-timers too). The ず ending is classical negation = not being limited."
-        },
-        {
-          "id": "ni-kagirazu_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only winter but also summer sees many tourists here'?",
-          "japanese": null,
-          "choices": [
-            "冬[ふゆ]に限[かぎ]らず夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
-            "冬[ふゆ]だけでなく夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
-            "冬[ふゆ]に限[かぎ]って夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
-            "冬[ふゆ]のみならず夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 冬[ふゆ] + に限[かぎ]らず = not limited to winter. 夏[なつ]も = summer too. Extends the tourist season scope."
-        },
-        {
-          "id": "ni-kagirazu_q11",
-          "type": "translation",
-          "prompt": "Which means 'Health problems are not limited to the elderly — young people also suffer'?",
-          "japanese": null,
-          "choices": [
-            "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]に限[かぎ]らず、若者[わかもの]も悩[なや]んでいる。",
-            "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]だけでなく、若者[わかもの]も悩[なや]んでいる。",
-            "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]に限[かぎ]って、若者[わかもの]も悩[なや]んでいる。",
-            "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]のみならず、若者[わかもの]も悩[なや]んでいる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 高齢者[こうれいしゃ] + に限[かぎ]らず = not limited to the elderly. 若者[わかもの]も = young people too. Extends the affected demographic."
-        },
-        {
-          "id": "ni-kagirazu_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only in Tokyo but across Japan, ramen is popular'?",
-          "japanese": null,
-          "choices": [
-            "東京[とうきょう]に限[かぎ]らず日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
-            "東京[とうきょう]だけでなく日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
-            "東京[とうきょう]に限[かぎ]って日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
-            "東京[とうきょう]のみならず日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 東京[とうきょう] + に限[かぎ]らず = not limited to Tokyo. 日本全国[にほんぜんこく]で = across all of Japan. Extends the geographic scope."
-        },
-        {
-          "id": "ni-kagirazu_q13",
-          "type": "usage",
-          "prompt": "に限[かぎ]らず can be followed by what types of phrases?",
-          "japanese": null,
-          "choices": [
-            "Only もX",
-            "〜も (X too), 〜でも (even X), 〜にわたって (across X), and other scope-extending phrases",
-            "Only negative phrases",
-            "Only conditional phrases — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "に限[かぎ]らず is typically followed by: 〜も (also), 〜でも (even), or general scope expressions. 学生[がくせい]に限[かぎ]らず社会人[しゃかいじん]も (not only students but also working adults). に限[かぎ]らず sets up the extension of scope."
-        },
-        {
-          "id": "ni-kagirazu_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only music but also art classes are popular at that school'?",
-          "japanese": null,
-          "choices": [
-            "音楽[おんがく]に限[かぎ]らず美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
-            "音楽[おんがく]だけでなく美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
-            "音楽[おんがく]に限[かぎ]って美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
-            "音楽[おんがく]のみならず美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 音楽[おんがく] + に限[かぎ]らず = not limited to music. 美術[びじゅつ]の授業[じゅぎょう]も = art classes too. Extends the popular subjects."
-        },
-        {
-          "id": "ni-kagirazu_q15",
-          "type": "translation",
-          "prompt": "Which means 'This rule applies not only on weekdays but on holidays too'?",
-          "japanese": null,
-          "choices": [
-            "このルールは平日[へいじつ]に限[かぎ]らず祝日[しゅくじつ]にも適用[てきよう]される。",
-            "このルールは平日[へいじつ]だけでなく祝日[しゅくじつ]にも適用[てきよう]される。",
-            "このルールは平日[へいじつ]に限[かぎ]って祝日[しゅくじつ]にも適用[てきよう]される。",
-            "このルールは平日[へいじつ]のみならず祝日[しゅくじつ]にも適用[てきよう]される。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 平日[へいじつ] + に限[かぎ]らず = not limited to weekdays. 祝日[しゅくじつ]にも = on holidays too. Extends rule application to all days."
-        },
-        {
-          "id": "ni-kagirazu_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only professional athletes but also amateur players compete in this tournament'?",
-          "japanese": null,
-          "choices": [
-            "プロ選手[せんしゅ]に限[かぎ]らずアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
-            "プロ選手[せんしゅ]だけでなくアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
-            "プロ選手[せんしゅ]に限[かぎ]ってアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
-            "プロ選手[せんしゅ]のみならずアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: プロ選手[せんしゅ] + に限[かぎ]らず = not limited to professional athletes. アマチュアも = amateurs too. Extends participation scope."
-        },
-        {
-          "id": "ni-kagirazu_q17",
-          "type": "usage",
-          "prompt": "に限[かぎ]る vs. に限[かぎ]らず — which would you use to say 'The sale is for members only'?",
-          "japanese": null,
-          "choices": [
-            "会員[かいいん]に限[かぎ]らず — not limited to members (wrong — this opens it up)",
-            "会員[かいいん]に限[かぎ]る — limited to members only (correct — restricts scope)",
-            "会員[かいいん]に限[かぎ]ってでも — even though limited to members",
-            "会員[かいいん]に限[かぎ]り — until members"
-          ],
-          "correctIndex": 1,
-          "explanation": "会員[かいいん]に限[かぎ]る = limited to members only. に限[かぎ]る = restriction. に限[かぎ]らず = negates restriction = scope extension. To restrict scope, use に限[かぎ]る; to extend scope, use に限[かぎ]らず."
-        },
-        {
-          "id": "ni-kagirazu_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only the residents but also tourists benefit from this policy'?",
-          "japanese": null,
-          "choices": [
-            "住民[じゅうみん]に限[かぎ]らず観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
-            "住民[じゅうみん]だけでなく観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
-            "住民[じゅうみん]に限[かぎ]って観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
-            "住民[じゅうみん]のみならず観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 住民[じゅうみん] + に限[かぎ]らず = not limited to residents. 観光客[かんこうきゃく]も = tourists too. Extends who benefits from the policy."
-        },
-        {
-          "id": "ni-kagirazu_q19",
-          "type": "translation",
-          "prompt": "Which means 'Not only science but also humanities students should take this course'?",
-          "japanese": null,
-          "choices": [
-            "理系[りけい]に限[かぎ]らず文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
-            "理系[りけい]だけでなく文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
-            "理系[りけい]に限[かぎ]って文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
-            "理系[りけい]のみならず文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 理系[りけい] + に限[かぎ]らず = not limited to science students. 文系[ぶんけい]の学生[がくせい]も = humanities students too. Extends the recommended audience."
-        },
-        {
-          "id": "ni-kagirazu_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Not only managers but also all employees should attend the meeting'?",
-          "japanese": null,
-          "choices": [
-            "管理職[かんりしょく]に限[かぎ]らず全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
-            "管理職[かんりしょく]だけでなく全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
-            "管理職[かんりしょく]に限[かぎ]って全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
-            "管理職[かんりしょく]のみならず全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + に限[かぎ]らず: 管理職[かんりしょく] + に限[かぎ]らず = not limited to managers. 全社[ぜんしゃ]員[いん]が = all employees. Extends attendance requirement beyond management."
-        }
-      ]
+     "japanese": "私[わたし]は日本語[にほんご]学習者[がくしゅうしゃ]にすぎないので、間違[まちが]いがあるかもしれません。",
+     "romaji": "Watashi wa nihongo gakushuusha ni suginai node, machigai ga aru kamo shiremasen.",
+     "english": "I am merely a Japanese language learner, so there may be mistakes."
     },
     {
-      "id": "wa-moto-yori",
-      "name": "〜はもとより (wa moto yori) — to say nothing of / not only...but also",
-      "shortDescription": "Establishes that even the expected/easier case is true, and the harder case follows as well.",
-      "formation": "Noun A + はもとより + Noun B / clause + も",
-      "explanation": "はもとより is a formal, literary pattern meaning 'to say nothing of' or 'not only X, but even Y.' It has a two-tier structure: the element before はもとより is the expected, obvious case — the baseline that 'goes without saying' — while the element after is the more impressive or noteworthy addition. 英語[えいご]はもとより、フランス語[ご]も話[はな]せます: 'Not only English (the expected baseline), she can also speak French' — the English fluency is unremarkable; the French is where things get impressive. This direction matters: the more surprising or notable element always comes after はもとより.\n\nNote on register: はもとより is distinctly formal and literary. It has a similar-meaning everyday counterpart, はもちろん ('of course / naturally, and also X'), which fits comfortably in general writing and conversation. はもとより belongs in written formal contexts, business writing, and polished speeches where the higher register is appropriate.",
-      "rules": [
-        "Noun A + はもとより + B + も = not only A (expected) but even B (impressive addition)",
-        "A is the baseline expected element ('goes without saying'); B is the more noteworthy one",
-        "More formal/literary than はもちろん (everyday) and だけでなく (not only)",
-        "The element before はもとより is the given; the addition after is what's noteworthy",
-        "Often structured: 〜はもとより、〜も + positive quality/action"
-      ],
-      "examples": [
-        {
-          "japanese": "彼女[かのじょ]は英語[えいご]はもとより、日本語[にほんご]も中国語[ちゅうごくご]も流暢[りゅうちょう]に話[はな]せます。",
-          "romaji": "Kanojo wa eigo wa moto yori, nihongo mo chuugokugo mo ryuuchou ni hanasemasu.",
-          "english": "Not only English (of course), she can also speak Japanese and Chinese fluently."
-        },
-        {
-          "japanese": "この製品[せいひん]は国内[こくない]はもとより、海外[かいがい]でも高[たか]い評価[ひょうか]を受[う]けています。",
-          "romaji": "Kono seihin wa kokunai wa moto yori, kaigai demo takai hyouka wo ukete imasu.",
-          "english": "Not only domestically, this product has received high acclaim overseas as well."
-        },
-        {
-          "japanese": "基礎知識[きそちしき]はもとより、応用力[おうようりょく]も求[もと]められる仕事[しごと]です。",
-          "romaji": "Kiso chishiki wa moto yori, ouyouryoku mo motomerareru shigoto desu.",
-          "english": "It's a job that requires not only foundational knowledge, but also applied skills."
-        },
-        {
-          "japanese": "社員[しゃいん]はもとより、その家族[かぞく]のことも考[かんが]えた経営[けいえい]をすべきです。",
-          "romaji": "Shain wa moto yori, sono kazoku no koto mo kangaeta keiei wo subeki desu.",
-          "english": "Management should think not only of employees, but also of their families."
-        }
-      ],
-      "flashcardHeader": "〜はもとより",
-      "flashcardAnswer": "Establishes that even the expected/easier case is true, and the harder case follows as well.",
-      "practice": [
-        {
-          "id": "wa-moto-yori_q1",
-          "type": "usage",
-          "prompt": "What does 〜はもとより mean?",
-          "japanese": null,
-          "choices": [
-            "although / even though",
-            "not only X — takes X as a given and goes further to include Y; even more than X; needless to say X",
-            "from the beginning / originally",
-            "limited to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜はもとより = not only X (but Y too) / needless to say X / X goes without saying. 日本語[にほんご]はもとより英語[えいご]も話[はな]せる = needless to say Japanese, (she) can also speak English. X (more obvious) is taken for granted; Y (less obvious) is added."
-        },
-        {
-          "id": "wa-moto-yori_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say Japanese, she can also speak French'?",
-          "japanese": null,
-          "choices": [
-            "日本語[にほんご]はもとよりフランス語[ご]も話[はな]せる。",
-            "日本語[にほんご]はもちろんフランス語[ご]も話[はな]せる。",
-            "日本語[にほんご]に限[かぎ]らずフランス語[ご]も話[はな]せる。",
-            "日本語[にほんご]だけでなくフランス語[ご]も話[はな]せる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 日本語[にほんご] + はもとより = needless to say Japanese. フランス語[ご]も = French too. The Japanese ability is taken as a given; French is the impressive addition."
-        },
-        {
-          "id": "wa-moto-yori_q3",
-          "type": "translation",
-          "prompt": "Which means 'Needless to say children, adults also enjoyed the movie'?",
-          "japanese": null,
-          "choices": [
-            "子[こ]どもはもとより大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
-            "子[こ]どもはもちろん大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
-            "子[こ]どもに限[かぎ]らず大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
-            "子[こ]どもだけでなく大人[おとな]もその映画[えいが]を楽[たの]しんだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 子[こ]ども + はもとより = needless to say children. 大人[おとな]も = adults too. Children enjoying it is obvious/assumed; adults enjoying it adds to that."
-        },
-        {
-          "id": "wa-moto-yori_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say reading, she excels at writing too'?",
-          "japanese": null,
-          "choices": [
-            "読[よ]むことはもとより、書[か]くことも得意[とくい]だ。",
-            "読[よ]むことはもちろん、書[か]くことも得意[とくい]だ。",
-            "読[よ]むことに限[かぎ]らず、書[か]くことも得意[とくい]だ。",
-            "読[よ]むことだけでなく、書[か]くことも得意[とくい]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb nominal + はもとより: 読[よ]むこと + はもとより = needless to say reading. 書[か]くことも = writing too. Reading ability assumed; writing skill added as a further achievement."
-        },
-        {
-          "id": "wa-moto-yori_q5",
-          "type": "usage",
-          "prompt": "はもとより vs. はもちろん — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "はもとより is more formal/literary; はもちろん is more conversational. Both mean 'needless to say X / of course X (and Y too)'",
-            "はもとより is only for people",
-            "はもちろん is only for written Japanese, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "はもとより = formal, literary: 知識[ちしき]はもとより経験[けいけん]も大切[たいせつ]だ. はもちろん = conversational: 知識[ちしき]はもちろん経験[けいけん]も大切[たいせつ]だ. Meaning is nearly identical, but はもとより sounds more classical and formal."
-        },
-        {
-          "id": "wa-moto-yori_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say reputation, this restaurant is also famous for its service'?",
-          "japanese": null,
-          "choices": [
-            "評判[ひょうばん]はもとより、サービスでも有名[ゆうめい]なレストランだ。",
-            "評判[ひょうばん]はもちろん、サービスでも有名[ゆうめい]なレストランだ。",
-            "評判[ひょうばん]に限[かぎ]らず、サービスでも有名[ゆうめい]なレストランだ。",
-            "評判[ひょうばん]だけでなく、サービスでも有名[ゆうめい]なレストランだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 評判[ひょうばん] + はもとより = needless to say its reputation. サービスでも = for its service too. Reputation assumed; exceptional service added."
-        },
-        {
-          "id": "wa-moto-yori_q7",
-          "type": "translation",
-          "prompt": "Which means 'Needless to say Japanese history, she also studies world history'?",
-          "japanese": null,
-          "choices": [
-            "日本史[にほんし]はもとより、世界史[せかいし]も学[まな]んでいる。",
-            "日本史[にほんし]はもちろん、世界史[せかいし]も学[まな]んでいる。",
-            "日本史[にほんし]に限[かぎ]らず、世界史[せかいし]も学[まな]んでいる。",
-            "日本史[にほんし]だけでなく、世界史[せかいし]も学[まな]んでいる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 日本史[にほんし] + はもとより = needless to say Japanese history. 世界史[せかいし]も = world history too. Japanese history assumed as the main subject; world history is an additional scope."
-        },
-        {
-          "id": "wa-moto-yori_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say Japanese, visitors from abroad also come to this festival'?",
-          "japanese": null,
-          "choices": [
-            "日本人[にほんじん]はもとより、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
-            "日本人[にほんじん]はもちろん、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
-            "日本人[にほんじん]に限[かぎ]らず、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
-            "日本人[にほんじん]だけでなく、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 日本人[にほんじん] + はもとより = needless to say Japanese people. 外国[がいこく]からの観光客[かんこうきゃく]も = visitors from abroad too. Japanese attendance assumed; international visitors added."
-        },
-        {
-          "id": "wa-moto-yori_q9",
-          "type": "usage",
-          "prompt": "What nuance does X + はもとより convey about X?",
-          "japanese": null,
-          "choices": [
-            "X is surprising",
-            "X is taken as a given or obvious baseline — 'of course X, and moreover Y'",
-            "X is the most important element — textbooks treat this as an absolute rule.",
-            "X is being limited"
-          ],
-          "correctIndex": 1,
-          "explanation": "X + はもとより: X is the OBVIOUS thing (baseline). Y is the added extension. 日本語[にほんご]はもとより英語[えいご]も話[はな]せる: Japanese is the obvious/expected skill (baseline); English is impressive on top of that. X is assumed true without question."
-        },
-        {
-          "id": "wa-moto-yori_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say accuracy, speed is also required in this job'?",
-          "japanese": null,
-          "choices": [
-            "正確[せいかく]さはもとより、スピードもこの仕事[しごと]では求[もと]められる。",
-            "正確[せいかく]さはもちろん、スピードもこの仕事[しごと]では求[もと]められる。",
-            "正確[せいかく]さに限[かぎ]らず、スピードもこの仕事[しごと]では求[もと]められる。",
-            "正確[せいかく]さだけでなく、スピードもこの仕事[しごと]では求[もと]められる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 正確[せいかく]さ + はもとより = needless to say accuracy. スピードも = speed too. Accuracy assumed baseline; speed is the additional requirement."
-        },
-        {
-          "id": "wa-moto-yori_q11",
-          "type": "translation",
-          "prompt": "Which means 'Needless to say cooking, she also excels at baking'?",
-          "japanese": null,
-          "choices": [
-            "料理[りょうり]はもとより、お菓子[かし]作[つく]りも得意[とくい]だ。",
-            "料理[りょうり]はもちろん、お菓子[かし]作[つく]りも得意[とくい]だ。",
-            "料理[りょうり]に限[かぎ]らず、お菓子[かし]作[つく]りも得意[とくい]だ。",
-            "料理[りょうり]だけでなく、お菓子[かし]作[つく]りも得意[とくい]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 料理[りょうり] + はもとより = needless to say cooking. お菓子[かし]作[つく]りも = baking too. Cooking assumed; baking added as a further skill."
-        },
-        {
-          "id": "wa-moto-yori_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say the body, even the mind was exhausted'?",
-          "japanese": null,
-          "choices": [
-            "体[からだ]はもとより、心[こころ]まで疲[つか]れ切[き]った。",
-            "体[からだ]はもちろん、心[こころ]まで疲[つか]れ切[き]った。",
-            "体[からだ]に限[かぎ]らず、心[こころ]まで疲[つか]れ切[き]った。",
-            "体[からだ]だけでなく、心[こころ]まで疲[つか]れ切[き]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 体[からだ] + はもとより = needless to say the body. 心[こころ]まで = even the mind. Body exhaustion assumed/expected; mental exhaustion added as extra emphasis."
-        },
-        {
-          "id": "wa-moto-yori_q13",
-          "type": "usage",
-          "prompt": "はもとより can be used with VERBS? Which is the correct form?",
-          "japanese": null,
-          "choices": [
-            "Verb te-form + はもとより: 話[はな]してはもとより",
-            "Verb dict/plain form nominalized + はもとより: 話[はな]すことはもとより",
-            "Verb masu-stem + はもとより: 話[はな]しはもとより, regardless of context or politeness level.",
-            "Verb past + はもとより: 話[はな]したはもとより"
-          ],
-          "correctIndex": 1,
-          "explanation": "Verb + こと + はもとより: 話[はな]すこと + はもとより = needless to say speaking. Nominalize the verb with こと, then attach はもとより. 話[はな]すことはもとより読[よ]むことも得意[とくい] = needless to say speaking, (she) is good at reading too."
-        },
-        {
-          "id": "wa-moto-yori_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say salary, benefits and work environment are also important'?",
-          "japanese": null,
-          "choices": [
-            "給料[きゅうりょう]はもとより、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
-            "給料[きゅうりょう]はもちろん、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
-            "給料[きゅうりょう]に限[かぎ]らず、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
-            "給料[きゅうりょう]だけでなく、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 給料[きゅうりょう] + はもとより = needless to say salary. 福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も = benefits and work environment too. Salary assumed baseline; other factors added."
-        },
-        {
-          "id": "wa-moto-yori_q15",
-          "type": "translation",
-          "prompt": "Which means 'Needless to say vocabulary, grammar is also important in language learning'?",
-          "japanese": null,
-          "choices": [
-            "語彙[ごい]はもとより、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
-            "語彙[ごい]はもちろん、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
-            "語彙[ごい]に限[かぎ]らず、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
-            "語彙[ごい]だけでなく、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 語彙[ごい] + はもとより = needless to say vocabulary. 文法[ぶんぽう]も = grammar too. Vocabulary assumed baseline; grammar is added as equally essential."
-        },
-        {
-          "id": "wa-moto-yori_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say the main city, even the rural areas have high-speed internet now'?",
-          "japanese": null,
-          "choices": [
-            "都市部[としぶ]はもとより、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
-            "都市部[としぶ]はもちろん、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
-            "都市部[としぶ]に限[かぎ]らず、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
-            "都市部[としぶ]だけでなく、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 都市部[としぶ] + はもとより = needless to say urban areas. 農村[のうそん]部[ぶ]も = rural areas too. Urban internet access assumed; rural extension is the impressive addition."
-        },
-        {
-          "id": "wa-moto-yori_q17",
-          "type": "usage",
-          "prompt": "In which context is はもとより MOST naturally used?",
-          "japanese": null,
-          "choices": [
-            "Casual conversation between friends — this is true in both spoken and written Japanese.",
-            "Formal writing, academic texts, and speeches — when stacking impressive qualifications or scope",
-            "Daily small talk",
-            "Expressing regret"
-          ],
-          "correctIndex": 1,
-          "explanation": "はもとより is formal/written. You'd see it in essays, reports, official speeches, or business writing. In casual speech, はもちろん or に限[かぎ]らず are more natural. Formal context: 彼[かれ]は専門知識[せんもんちしき]はもとより、経験[けいけん]も豊富[ほうふ]だ = needless to say expertise, he is also rich in experience."
-        },
-        {
-          "id": "wa-moto-yori_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say her singing, her dancing is also outstanding'?",
-          "japanese": null,
-          "choices": [
-            "歌[うた]はもとより、ダンスも素晴[すば]らしい。",
-            "歌[うた]はもちろん、ダンスも素晴[すば]らしい。",
-            "歌[うた]に限[かぎ]らず、ダンスも素晴[すば]らしい。",
-            "歌[うた]だけでなく、ダンスも素晴[すば]らしい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 歌[うた] + はもとより = needless to say her singing. ダンスも = dancing too. Singing talent assumed; dancing is the added impressive element."
-        },
-        {
-          "id": "wa-moto-yori_q19",
-          "type": "translation",
-          "prompt": "Which means 'This report should be read not only by specialists but also by laypersons'?",
-          "japanese": null,
-          "choices": [
-            "このレポートは専門家[せんもんか]はもとより、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]はもちろん、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
-            "このレポートは専門家[せんもんか]だけでなく、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 専門家[せんもんか] + はもとより = needless to say specialists. 一般[いっぱん]の人[ひと]にも = general public too. Specialist readership assumed; general readership is the broader extension."
-        },
-        {
-          "id": "wa-moto-yori_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Needless to say domestic brands, foreign luxury brands are also available here'?",
-          "japanese": null,
-          "choices": [
-            "国内[こくない]ブランドはもとより、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
-            "国内[こくない]ブランドはもちろん、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
-            "国内[こくない]ブランドに限[かぎ]らず、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
-            "国内[こくない]ブランドだけでなく、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + はもとより: 国内[こくない]ブランド + はもとより = needless to say domestic brands. 海外[かいがい]の高級[こうきゅう]ブランドも = foreign luxury brands too. Domestic brands assumed baseline; prestigious international brands added."
-        }
-      ]
+     "japanese": "これは表面上[ひょうめんじょう]の変化[へんか]にすぎず、本質的[ほんしつてき]な問題[もんだい]は解決[かいけつ]されていません。",
+     "romaji": "Kore wa hyoumen jou no henka ni sugizu, honshitsuteki na mondai wa kaiketsusarete imasen.",
+     "english": "This is no more than a surface-level change; the fundamental problem has not been resolved."
+    },
+    {
+     "japanese": "彼[かれ]の成功[せいこう]は偶然[ぐうぜん]にすぎないと批評家[ひひょうか]は言[い]いますが、私[わたし]はそう思[おも]いません。",
+     "romaji": "Kare no seikou wa guuzen ni suginai to hihyouka wa iimasu ga, watashi wa sou omoimasen.",
+     "english": "Critics say his success is nothing but luck, but I don't think so."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜にすぎない",
+   "flashcardAnswer": "Downplays or minimizes something by saying it is nothing more than what it is.",
+   "practice": [
     {
-      "id": "ch39_v01",
-      "partOfSpeech": "noun",
-      "kanji": "事業",
-      "kana": "じぎょう",
-      "romaji": "jigyou",
-      "definition": "business; enterprise"
+     "id": "ni-suginai_q1",
+     "type": "usage",
+     "prompt": "What does 〜にすぎない mean?",
+     "japanese": null,
+     "choices": [
+      "at least / more than",
+      "(nothing) more than / merely / only — downplays the significance of X, implying it's less impressive than it seems",
+      "because of",
+      "as a result of"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜にすぎない = nothing more than / merely. これは偶然[ぐうぜん]にすぎない = this is nothing more than coincidence. It downplays or minimizes the importance of something. Often implies 'don't read too much into it.'"
     },
     {
-      "id": "ch39_v02",
-      "partOfSpeech": "noun",
-      "kanji": "資本",
-      "kana": "しほん",
-      "romaji": "shihon",
-      "definition": "capital"
+     "id": "ni-suginai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'This is merely a rumor'?",
+     "japanese": null,
+     "choices": [
+      "これは噂[うわさ]にすぎない。",
+      "これは噂[うわさ]ばかりだ。",
+      "これは噂[うわさ]というものだ。",
+      "これは噂[うわさ]だけだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 噂[うわさ] + にすぎない = nothing more than a rumor. にすぎない downplays the noun — the implication is 'don't take it as more than a rumor.'"
     },
     {
-      "id": "ch39_v03",
-      "partOfSpeech": "noun",
-      "kanji": "株式",
-      "kana": "かぶしき",
-      "romaji": "kabushiki",
-      "definition": "stocks; shares"
+     "id": "ni-suginai_q3",
+     "type": "translation",
+     "prompt": "Which means 'He is just a beginner'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は初心者[しょしんしゃ]にすぎない。",
+      "彼[かれ]は初心者[しょしんしゃ]だけだ。",
+      "彼[かれ]は初心者[しょしんしゃ]というものだ。",
+      "彼[かれ]は初心者[しょしんしゃ]ばかりだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 初心者[しょしんしゃ] + にすぎない = nothing more than a beginner. Downplays his level — implying 'he's not much, just a beginner.'"
     },
     {
-      "id": "ch39_v04",
-      "partOfSpeech": "noun",
-      "kanji": "株価",
-      "kana": "かぶか",
-      "romaji": "kabuka",
-      "definition": "stock price"
+     "id": "ni-suginai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'What I said was merely a joke'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]が言[い]ったのは冗談[じょうだん]にすぎなかった。",
+      "私[わたし]が言[い]ったのは冗談[じょうだん]だけだった。",
+      "私[わたし]が言[い]ったのは冗談[じょうだん]というものだった。",
+      "私[わたし]が言[い]ったのは冗談[じょうだん]のはずだった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎなかった (past): 冗談[じょうだん] + にすぎなかった = was nothing more than a joke. Downplays the severity of what was said."
     },
     {
-      "id": "ch39_v05",
-      "partOfSpeech": "noun",
-      "kanji": "融資",
-      "kana": "ゆうし",
-      "romaji": "yuushi",
-      "definition": "financing; loan"
+     "id": "ni-suginai_q5",
+     "type": "usage",
+     "prompt": "What FORMATION does にすぎない use?",
+     "japanese": null,
+     "choices": [
+      "Verb te-form + にすぎない",
+      "Noun / Verb plain form / い-adj plain / な-adj stem + にすぎない",
+      "Verb masu-stem + にすぎない — and this holds in every register, formal or casual.",
+      "Only noun + にすぎない"
+     ],
+     "correctIndex": 1,
+     "explanation": "にすぎない attaches to: Noun (噂[うわさ]にすぎない), Verb plain (言[い]っているにすぎない), い-adj plain (高[たか]いにすぎない), な-adj stem (便利[べんり]なにすぎない). It downplays whatever precedes it."
     },
     {
-      "id": "ch39_v06",
-      "partOfSpeech": "noun",
-      "kanji": "出資",
-      "kana": "しゅっし",
-      "romaji": "shusshi",
-      "definition": "investment; funding"
+     "id": "ni-suginai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'This number is just a rough estimate'?",
+     "japanese": null,
+     "choices": [
+      "この数字[すうじ]はあくまで概算[がいさん]にすぎない。",
+      "この数字[すうじ]はあくまで概算[がいさん]だけだ。",
+      "この数字[すうじ]はあくまで概算[がいさん]というものだ。",
+      "この数字[すうじ]はあくまで概算[がいさん]のはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 概算[がいさん] + にすぎない = nothing more than a rough estimate. あくまで reinforces the downplaying sense: 'this is purely/merely an estimate.'"
     },
     {
-      "id": "ch39_v07",
-      "partOfSpeech": "noun",
-      "kanji": "創業",
-      "kana": "そうぎょう",
-      "romaji": "sougyou",
-      "definition": "founding (a company)"
+     "id": "ni-suginai_q7",
+     "type": "translation",
+     "prompt": "Which means 'She merely answered the question asked'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は聞[き]かれたことに答[こた]えたにすぎない。",
+      "彼女[かのじょ]は聞[き]かれたことに答[こた]えたばかりだ。",
+      "彼女[かのじょ]は聞[き]かれたことに答[こた]えただけだ。",
+      "彼女[かのじょ]は聞[き]かれたことに答[こた]えたはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb plain past + にすぎない: 答[こた]えた + にすぎない = nothing more than answered. Downplays the action — she only did what was asked, nothing more."
     },
     {
-      "id": "ch39_v08",
-      "partOfSpeech": "noun",
-      "kanji": "戦略",
-      "kana": "せんりゃく",
-      "romaji": "senryaku",
-      "definition": "strategy"
+     "id": "ni-suginai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'This is just one example'?",
+     "japanese": null,
+     "choices": [
+      "これは一例[いちれい]にすぎない。",
+      "これは一例[いちれい]だけだ。",
+      "これは一例[いちれい]というものだ。",
+      "これは一例[いちれい]ほどだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 一例[いちれい] + にすぎない = nothing more than one example. Downplays the scope — 'this is just a single example, don't generalize from it.'"
     },
     {
-      "id": "ch39_v09",
-      "partOfSpeech": "noun",
-      "kanji": "役員",
-      "kana": "やくいん",
-      "romaji": "yakuin",
-      "definition": "executive; officer"
+     "id": "ni-suginai_q9",
+     "type": "usage",
+     "prompt": "What nuance does にすぎない often carry?",
+     "japanese": null,
+     "choices": [
+      "It expresses admiration, with no exceptions in modern standard Japanese.",
+      "It implies the thing is less than it appears or less than one might expect — a downgrading/minimizing nuance",
+      "It expresses regret",
+      "It expresses contrast"
+     ],
+     "correctIndex": 1,
+     "explanation": "にすぎない = minimization/downgrading. Often used to: (1) correct overestimation ('it's just X, don't overrate it'); (2) be modest about oneself; (3) indicate that something has no further significance beyond what it literally is."
     },
     {
-      "id": "ch39_v10",
-      "partOfSpeech": "noun",
-      "kanji": "株主",
-      "kana": "かぶぬし",
-      "romaji": "kabunushi",
-      "definition": "shareholder"
+     "id": "ni-suginai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'I'm only an ordinary office worker'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]はただのサラリーマンにすぎない。",
+      "私[わたし]はただのサラリーマンだけだ。",
+      "私[わたし]はただのサラリーマンというものだ。",
+      "私[わたし]はただのサラリーマンのはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: サラリーマン + にすぎない = nothing more than an ordinary office worker. ただの reinforces the modesty/minimization."
     },
     {
-      "id": "ch39_v11",
-      "partOfSpeech": "noun",
-      "kanji": "取締役",
-      "kana": "とりしまりやく",
-      "romaji": "torishimariyaku",
-      "definition": "(company) director"
+     "id": "ni-suginai_q11",
+     "type": "translation",
+     "prompt": "Which means 'This technology is just a prototype'?",
+     "japanese": null,
+     "choices": [
+      "この技術[ぎじゅつ]はプロトタイプにすぎない。",
+      "この技術[ぎじゅつ]はプロトタイプだけだ。",
+      "この技術[ぎじゅつ]はプロトタイプというものだ。",
+      "この技術[ぎじゅつ]はプロトタイプのはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: プロトタイプ + にすぎない = nothing more than a prototype. Downplays the technology — it's not a finished product."
     },
     {
-      "id": "ch39_v12",
-      "partOfSpeech": "noun",
-      "kanji": "合併",
-      "kana": "がっぺい",
-      "romaji": "gappei",
-      "definition": "merger"
+     "id": "ni-suginai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'The proposal is merely a starting point for discussion'?",
+     "japanese": null,
+     "choices": [
+      "この提案[ていあん]は議論[ぎろん]のスタートポイントにすぎない。",
+      "この提案[ていあん]は議論[ぎろん]のスタートポイントだけだ。",
+      "この提案[ていあん]は議論[ぎろん]のスタートポイントというものだ。",
+      "この提案[ていあん]は議論[ぎろん]のスタートポイントのはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: スタートポイント + にすぎない = nothing more than a starting point. Downplays the proposal — it's only the beginning of discussion, not a finished plan."
     },
     {
-      "id": "ch39_v13",
-      "partOfSpeech": "noun",
-      "kanji": "買収",
-      "kana": "ばいしゅう",
-      "romaji": "baishuu",
-      "definition": "acquisition; buyout"
+     "id": "ni-suginai_q13",
+     "type": "usage",
+     "prompt": "How does にすぎない compare to だけ (only)?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "にすぎない is more emphatic in downplaying — it implies 'don't even consider it more than X'; だけ is a neutral limiter that just states the quantity/scope without a minimizing nuance",
+      "だけ is more emphatic",
+      "にすぎない is only for verbs — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "にすぎない = minimizing emphasis ('this is MERELY X, don't overestimate'). だけ = neutral limiter ('only X, no more'). 一例[いちれい]にすぎない = it's merely an example (downplaying, cautionary). 一例[いちれい]だけだ = there's only one example (factual count)."
     },
     {
-      "id": "ch39_v14",
-      "partOfSpeech": "noun",
-      "kanji": "提携",
-      "kana": "ていけい",
-      "romaji": "teikei",
-      "definition": "partnership; alliance"
+     "id": "ni-suginai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'My Japanese is still at the level where I can only have daily conversations'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]にすぎない。",
+      "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]だけだ。",
+      "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]というものだ。",
+      "私[わたし]の日本語[にほんご]は日常会話[にちじょうかいわ]ができる程度[ていど]のはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun/degree + にすぎない: 程度[ていど] + にすぎない = nothing more than that level. Modest self-evaluation: my Japanese is only at daily conversation level, no more."
     },
     {
-      "id": "ch39_v15",
-      "partOfSpeech": "noun",
-      "kanji": "交渉",
-      "kana": "こうしょう",
-      "romaji": "koushou",
-      "definition": "negotiation"
+     "id": "ni-suginai_q15",
+     "type": "translation",
+     "prompt": "Which means 'He is just saying what he thinks — he has no ill intent'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は思[おも]ったことを言[い]っているにすぎない — 悪意[あくい]はない。",
+      "彼[かれ]は思[おも]ったことを言[い]っているだけだ — 悪意[あくい]はない。",
+      "彼[かれ]は思[おも]ったことを言[い]っているというものだ — 悪意[あくい]はない。",
+      "彼[かれ]は思[おも]ったことを言[い]っているはずだ — 悪意[あくい]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb plain + にすぎない: 言[い]っている + にすぎない = nothing more than saying what he thinks. Minimizes the action to defend him: 'he's merely speaking his mind.'"
     },
     {
-      "id": "ch39_v16",
-      "partOfSpeech": "noun",
-      "kanji": "商談",
-      "kana": "しょうだん",
-      "romaji": "shoudan",
-      "definition": "business negotiation"
+     "id": "ni-suginai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'This is just a temporary solution'?",
+     "japanese": null,
+     "choices": [
+      "これは一時的[いちじてき]な対応[たいおう]にすぎない。",
+      "これは一時的[いちじてき]な対応[たいおう]だけだ。",
+      "これは一時的[いちじてき]な対応[たいおう]というものだ。",
+      "これは一時的[いちじてき]な対応[たいおう]のはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 一時的[いちじてき]な対応[たいおう] + にすぎない = nothing more than a temporary solution. Downplays the measure — implies it's not a real fix."
     },
     {
-      "id": "ch39_v17",
-      "partOfSpeech": "noun",
-      "kanji": "見積もり",
-      "kana": "みつもり",
-      "romaji": "mitsumori",
-      "definition": "estimate; quotation"
+     "id": "ni-suginai_q17",
+     "type": "usage",
+     "prompt": "Which sentence BEST illustrates にすぎない correcting an overestimation?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]は天才[てんさい]にすぎない。(says he's merely a genius — downplays? — awkward), regardless of context or politeness level.",
+      "それは偶然[ぐうぜん]の一致[いっち]にすぎない。(it's merely a coincidence — corrects overreading of a coincidence as meaningful)",
+      "彼女[かのじょ]は学生[がくせい]にすぎない。(she's merely a student — contextual)",
+      "これは問題[もんだい]にすぎない。(this is merely a problem — weak)"
+     ],
+     "correctIndex": 1,
+     "explanation": "それは偶然[ぐうぜん]の一致[いっち]にすぎない = it's nothing more than a coincidence. Classic use: someone may be seeing a meaningful pattern, but にすぎない corrects the interpretation ('you're reading too much into it — it's just coincidence')."
     },
     {
-      "id": "ch39_v18",
-      "partOfSpeech": "noun",
-      "kanji": "在庫",
-      "kana": "ざいこ",
-      "romaji": "zaiko",
-      "definition": "stock; inventory"
+     "id": "ni-suginai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'The discount is merely 5% — it's not much of a deal'?",
+     "japanese": null,
+     "choices": [
+      "割引[わりびき]はたった5%にすぎない — 大[たい]したことはない。",
+      "割引[わりびき]はたった5%だけだ — 大[たい]したことはない。",
+      "割引[わりびき]はたった5%というものだ — 大[たい]したことはない。",
+      "割引[わりびき]はたった5%のはずだ — 大[たい]したことはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun/number + にすぎない: 5% + にすぎない = nothing more than 5%. たった reinforces the minimizing sense. The discount is being downplayed as insignificant."
     },
     {
-      "id": "ch39_v19",
-      "partOfSpeech": "noun",
-      "kanji": "流通",
-      "kana": "りゅうつう",
-      "romaji": "ryuutsuu",
-      "definition": "distribution"
+     "id": "ni-suginai_q19",
+     "type": "translation",
+     "prompt": "Which means 'What you call wisdom is merely accumulated experience'?",
+     "japanese": null,
+     "choices": [
+      "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]にすぎない。",
+      "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]だけだ。",
+      "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]というものだ。",
+      "あなたが知恵[ちえ]と呼[よ]ぶものは、積[つ]み重[かさ]ねた経験[けいけん]のはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + にすぎない: 経験[けいけん] + にすぎない = nothing more than experience. Deflates the grand concept of 'wisdom' to something more mundane — just accumulated experience."
     },
     {
-      "id": "ch39_v20",
-      "partOfSpeech": "noun",
-      "kanji": "宣伝",
-      "kana": "せんでん",
-      "romaji": "senden",
-      "definition": "advertising; promotion"
-    },
-    {
-      "id": "ch39_v21",
-      "partOfSpeech": "noun",
-      "kanji": "広報",
-      "kana": "こうほう",
-      "romaji": "kouhou",
-      "definition": "public relations"
-    },
-    {
-      "id": "ch39_v22",
-      "partOfSpeech": "noun",
-      "kanji": "ブランド",
-      "kana": "ブランド",
-      "romaji": "burando",
-      "definition": "brand"
-    },
-    {
-      "id": "ch39_v23",
-      "partOfSpeech": "noun",
-      "kanji": "生産性",
-      "kana": "せいさんせい",
-      "romaji": "seisansei",
-      "definition": "productivity"
-    },
-    {
-      "id": "ch39_v24",
-      "partOfSpeech": "noun",
-      "kanji": "合理化",
-      "kana": "ごうりか",
-      "romaji": "gourika",
-      "definition": "rationalization"
-    },
-    {
-      "id": "ch39_v25",
-      "partOfSpeech": "noun",
-      "kanji": "運営",
-      "kana": "うんえい",
-      "romaji": "un'ei",
-      "definition": "operation; administration"
-    },
-    {
-      "id": "ch39_v26",
-      "partOfSpeech": "noun",
-      "kanji": "経営陣",
-      "kana": "けいえいじん",
-      "romaji": "keieijin",
-      "definition": "management team"
-    },
-    {
-      "id": "ch39_v27",
-      "partOfSpeech": "noun",
-      "kanji": "財務",
-      "kana": "ざいむ",
-      "romaji": "zaimu",
-      "definition": "finance; financial affairs"
-    },
-    {
-      "id": "ch39_v28",
-      "partOfSpeech": "noun",
-      "kanji": "決算",
-      "kana": "けっさん",
-      "romaji": "kessan",
-      "definition": "financial results; settlement"
-    },
-    {
-      "id": "ch39_v29",
-      "partOfSpeech": "noun",
-      "kanji": "予算案",
-      "kana": "よさんあん",
-      "romaji": "yosan'an",
-      "definition": "budget proposal"
-    },
-    {
-      "id": "ch39_v30",
-      "partOfSpeech": "noun",
-      "kanji": "コスト",
-      "kana": "コスト",
-      "romaji": "kosuto",
-      "definition": "cost"
-    },
-    {
-      "id": "ch39_v31",
-      "partOfSpeech": "noun",
-      "kanji": "需給",
-      "kana": "じゅきゅう",
-      "romaji": "jukyuu",
-      "definition": "supply and demand"
-    },
-    {
-      "id": "ch39_v32",
-      "partOfSpeech": "noun",
-      "kanji": "独占",
-      "kana": "どくせん",
-      "romaji": "dokusen",
-      "definition": "monopoly"
-    },
-    {
-      "id": "ch39_v33",
-      "partOfSpeech": "noun",
-      "kanji": "規模",
-      "kana": "きぼ",
-      "romaji": "kibo",
-      "definition": "scale; scope"
-    },
-    {
-      "id": "ch39_v34",
-      "partOfSpeech": "noun",
-      "kanji": "拡大",
-      "kana": "かくだい",
-      "romaji": "kakudai",
-      "definition": "expansion"
-    },
-    {
-      "id": "ch39_v35",
-      "partOfSpeech": "noun",
-      "kanji": "縮小",
-      "kana": "しゅくしょう",
-      "romaji": "shukushou",
-      "definition": "reduction; downsizing"
-    },
-    {
-      "id": "ch39_v36",
-      "partOfSpeech": "noun",
-      "kanji": "投資家",
-      "kana": "とうしか",
-      "romaji": "toushika",
-      "definition": "investor"
-    },
-    {
-      "id": "ch39_v37",
-      "partOfSpeech": "noun",
-      "kanji": "経済界",
-      "kana": "けいざいかい",
-      "romaji": "keizaikai",
-      "definition": "the business world"
-    },
-    {
-      "id": "ch39_v38",
-      "partOfSpeech": "noun",
-      "kanji": "業者",
-      "kana": "ぎょうしゃ",
-      "romaji": "gyousha",
-      "definition": "trader; contractor"
-    },
-    {
-      "id": "ch39_v39",
-      "partOfSpeech": "noun",
-      "kanji": "契約書",
-      "kana": "けいやくしょ",
-      "romaji": "keiyakusho",
-      "definition": "(written) contract"
-    },
-    {
-      "id": "ch39_v40",
-      "partOfSpeech": "noun",
-      "kanji": "発注",
-      "kana": "はっちゅう",
-      "romaji": "hacchuu",
-      "definition": "placing an order"
+     "id": "ni-suginai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'I merely stated the facts — I didn't exaggerate'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]は事実[じじつ]を述[の]べたにすぎない — 誇張[こちょう]はしていない。",
+      "私[わたし]は事実[じじつ]を述[の]べただけだ — 誇張[こちょう]はしていない。",
+      "私[わたし]は事実[じじつ]を述[の]べたというものだ — 誇張[こちょう]はしていない。",
+      "私[わたし]は事実[じじつ]を述[の]べたはずだ — 誇張[こちょう]はしていない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + にすぎない: 述[の]べた + にすぎない = nothing more than stated. Defends the action as minimal and pure: 'I only stated facts.'"
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "ni-kagirazu",
+   "name": "〜に限[かぎ]らず (ni kagirazu) — not limited to / not just / beyond",
+   "shortDescription": "Extends scope beyond a specific entity: 'not only X, but beyond X as well'.",
+   "formation": "Noun + に限[かぎ]らず + broader scope or additional examples",
+   "explanation": "に限[かぎ]らず comes from 限[かぎ]る (to limit) flipped to negative: 'not limited to.' It expands scope beyond the noun it attaches to. 日本人[にほんじん]に限[かぎ]らず、外国人[がいこくじん]もこの祭[まつ]りを楽[たの]しめます: 'Not limited to Japanese people, foreigners can also enjoy this festival' — you start with the expected or obvious group and then open the door wider.\n\nThis scope-expanding function makes に限[かぎ]らず more formal than だけでなく (not only...but also), and it's the preferred choice in written announcements, reports, and formal speeches where you want to make a broad, inclusive statement.\n\nTwo related forms are worth knowing: に限[かぎ]っては (only / limited to) does the opposite — it restricts to a specific case, often with an ironic 'the one exception is...' flavor. に限[かぎ]り (formal: limited to only) appears in notices and official announcements. The pattern to remember: expanding scope → に限[かぎ]らず; restricting to one case → に限[かぎ]っては.",
+   "rules": [
+    "Noun + に限[かぎ]らず = not limited to [noun] / not just [noun] (broadening scope)",
+    "Sets up a specific group then extends the point to a wider group",
+    "More formal than だけでなく (not only); preferred in writing, formal speech",
+    "Related: に限[かぎ]って = only / in the case of only [noun] (restricting, often ironic)",
+    "Related: に限[かぎ]り = limited to only [noun] (formal restriction, used in notices)"
+   ],
+   "examples": [
     {
-      "char": "府",
-      "word": "府",
-      "reading": "ふ",
-      "meaning": "borough"
+     "japanese": "この問題[もんだい]は日本[にほん]に限[かぎ]らず、世界中[せかいじゅう]で起[お]きています。",
+     "romaji": "Kono mondai wa Nihon ni kagirazu, sekaijuu de okite imasu.",
+     "english": "This problem is not limited to Japan — it is happening all over the world."
     },
     {
-      "char": "委",
-      "word": "委ねる",
-      "reading": "ゆだねる",
-      "meaning": "to entrust (a matter) to"
+     "japanese": "スポーツに限[かぎ]らず、音楽[おんがく]や芸術[げいじゅつ]でも努力[どりょく]は大切[たいせつ]です。",
+     "romaji": "Supootsu ni kagirazu, ongaku ya geijutsu demo doryoku wa taisetsu desu.",
+     "english": "Not limited to sports — in music and art too, effort is important."
     },
     {
-      "char": "軍",
-      "word": "軍",
-      "reading": "ぐん",
-      "meaning": "army"
+     "japanese": "若者[わかもの]に限[かぎ]らず、中高年[ちゅうこうねん]の方々[かたがた]もスマートフォンを使[つか]っています。",
+     "romaji": "Wakamono ni kagirazu, chuukounen no katagata mo sumaatofon wo tsukatte imasu.",
+     "english": "Not limited to young people — middle-aged and older people also use smartphones."
     },
     {
-      "char": "案",
-      "word": "案",
-      "reading": "あん",
-      "meaning": "idea"
-    },
-    {
-      "char": "営",
-      "word": "運営",
-      "reading": "うんえい",
-      "meaning": "operation; administration"
-    },
-    {
-      "char": "副",
-      "word": "副",
-      "reading": "ふく",
-      "meaning": "assistant"
-    },
-    {
-      "char": "算",
-      "word": "決算",
-      "reading": "けっさん",
-      "meaning": "financial results; settlement"
-    },
-    {
-      "char": "州",
-      "word": "州",
-      "reading": "しゅう",
-      "meaning": "state (US, Australia, India, Germany, etc.)"
-    },
-    {
-      "char": "蔵",
-      "word": "蔵",
-      "reading": "くら",
-      "meaning": "warehouse"
-    },
-    {
-      "char": "量",
-      "word": "量",
-      "reading": "りょう",
-      "meaning": "quantity"
-    },
-    {
-      "char": "兵",
-      "word": "兵",
-      "reading": "へい",
-      "meaning": "(common) soldier"
-    },
-    {
-      "char": "森",
-      "word": "森",
-      "reading": "もり",
-      "meaning": "forest"
-    },
-    {
-      "char": "将",
-      "word": "将",
-      "reading": "しょう",
-      "meaning": "commander"
-    },
-    {
-      "char": "鉄",
-      "word": "鉄",
-      "reading": "てつ",
-      "meaning": "iron (Fe)"
-    },
-    {
-      "char": "換",
-      "word": "換える",
-      "reading": "かえる",
-      "meaning": "to replace"
-    },
-    {
-      "char": "占",
-      "word": "占める",
-      "reading": "しめる",
-      "meaning": "to occupy"
-    },
-    {
-      "char": "清",
-      "word": "清らか",
-      "reading": "きよらか",
-      "meaning": "clean"
-    },
-    {
-      "char": "伸",
-      "word": "伸ばす",
-      "reading": "のばす",
-      "meaning": "to grow long (e.g. hair, nails)"
-    },
-    {
-      "char": "囲",
-      "word": "囲い",
-      "reading": "かこい",
-      "meaning": "enclosure"
-    },
-    {
-      "char": "略",
-      "word": "略す",
-      "reading": "りゃくす",
-      "meaning": "to abbreviate"
-    },
-    {
-      "char": "角",
-      "word": "角",
-      "reading": "かく",
-      "meaning": "angle"
-    },
-    {
-      "char": "貨",
-      "word": "貨",
-      "reading": "たから",
-      "meaning": "freight"
-    },
-    {
-      "char": "混",
-      "word": "混ぜる",
-      "reading": "まぜる",
-      "meaning": "to mix"
-    },
-    {
-      "char": "庫",
-      "word": "在庫",
-      "reading": "ざいこ",
-      "meaning": "stock; inventory"
-    },
-    {
-      "char": "籍",
-      "word": "籍",
-      "reading": "せき",
-      "meaning": "one's family register"
-    },
-    {
-      "char": "郵",
-      "word": "郵",
-      "reading": "ゆう",
-      "meaning": "mail"
-    },
-    {
-      "char": "跡",
-      "word": "跡",
-      "reading": "あと",
-      "meaning": "trace"
-    },
-    {
-      "char": "臓",
-      "word": "臓",
-      "reading": "はらわた",
-      "meaning": "entrails"
-    },
-    {
-      "char": "奥",
-      "word": "奥さん",
-      "reading": "おくさん",
-      "meaning": "wife"
-    },
-    {
-      "char": "片",
-      "word": "片",
-      "reading": "かた",
-      "meaning": "one-sided"
-    },
-    {
-      "char": "埋",
-      "word": "埋める",
-      "reading": "うずめる",
-      "meaning": "to cover"
-    },
-    {
-      "char": "童",
-      "word": "童",
-      "reading": "わらべ",
-      "meaning": "juvenile"
-    },
-    {
-      "char": "毛",
-      "word": "毛",
-      "reading": "け",
-      "meaning": "hair"
-    },
-    {
-      "char": "液",
-      "word": "液",
-      "reading": "えき",
-      "meaning": "liquid"
-    },
-    {
-      "char": "黄",
-      "word": "黄",
-      "reading": "き",
-      "meaning": "yellow"
-    },
-    {
-      "char": "軟",
-      "word": "軟",
-      "reading": "やわらか",
-      "meaning": "soft"
-    },
-    {
-      "char": "炭",
-      "word": "炭",
-      "reading": "すみ",
-      "meaning": "charcoal"
-    },
-    {
-      "char": "湖",
-      "word": "湖",
-      "reading": "みずうみ",
-      "meaning": "lake"
-    },
-    {
-      "char": "鉱",
-      "word": "鉱",
-      "reading": "あらがね",
-      "meaning": "mineral"
-    },
-    {
-      "char": "毒",
-      "word": "毒",
-      "reading": "どく",
-      "meaning": "poison"
-    },
-    {
-      "char": "綿",
-      "word": "綿",
-      "reading": "めん",
-      "meaning": "cotton"
-    },
-    {
-      "char": "缶",
-      "word": "缶",
-      "reading": "かん",
-      "meaning": "can"
-    },
-    {
-      "char": "泥",
-      "word": "泥",
-      "reading": "どろ",
-      "meaning": "mud"
-    },
-    {
-      "char": "粒",
-      "word": "粒",
-      "reading": "つぶ",
-      "meaning": "grain"
-    },
-    {
-      "char": "塔",
-      "word": "塔",
-      "reading": "とう",
-      "meaning": "tower"
-    },
-    {
-      "char": "貝",
-      "word": "貝",
-      "reading": "かい",
-      "meaning": "shellfish"
-    },
-    {
-      "char": "挟",
-      "word": "挟む",
-      "reading": "はさむ",
-      "meaning": "to hold between (e.g. one's fingers, chopsticks)"
+     "japanese": "専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の市民[しみん]も政策[せいさく]についての意見[いけん]を持[も]つべきです。",
+     "romaji": "Senmonka ni kagirazu, ippan no shimin mo seisaku ni tsuite no iken wo motsu beki desu.",
+     "english": "Not limited to experts — ordinary citizens too should have opinions on policy."
     }
-  ]
+   ],
+   "flashcardHeader": "〜に限らず",
+   "flashcardAnswer": "Extends scope beyond a specific entity: 'not only X, but beyond X as well'.",
+   "practice": [
+    {
+     "id": "ni-kagirazu_q1",
+     "type": "usage",
+     "prompt": "What does 〜に限[かぎ]らず mean?",
+     "japanese": null,
+     "choices": [
+      "limited to / restricted to X",
+      "not only X / not limited to X — extends scope beyond X to include other things too",
+      "as many as X",
+      "no more than X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜に限[かぎ]らず = not only X / not limited to X. 子[こ]どもに限[かぎ]らず大人[おとな]も楽[たの]しめる = not only children but adults can enjoy it too. に限[かぎ]る (to be limited to) → に限[かぎ]らず (not limited to) = scope extension."
+    },
+    {
+     "id": "ni-kagirazu_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only in Japan but in other countries too, sushi is popular'?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]に限[かぎ]らず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+      "日本[にほん]だけでなく他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+      "日本[にほん]に限[かぎ]って他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。",
+      "日本[にほん]のみならず他[ほか]の国[くに]でも、寿司[すし]は人気[にんき]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 日本[にほん] + に限[かぎ]らず = not limited to Japan. 他[ほか]の国[くに]でも = in other countries too. Extends the scope beyond Japan."
+    },
+    {
+     "id": "ni-kagirazu_q3",
+     "type": "translation",
+     "prompt": "Which means 'Not only students but also teachers should read this book'?",
+     "japanese": null,
+     "choices": [
+      "学生[がくせい]に限[かぎ]らず先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
+      "学生[がくせい]だけでなく先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
+      "学生[がくせい]に限[かぎ]って先生[せんせい]もこの本[ほん]を読[よ]むべきだ。",
+      "学生[がくせい]のみならず先生[せんせい]もこの本[ほん]を読[よ]むべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 学生[がくせい] + に限[かぎ]らず = not limited to students. 先生[せんせい]も = teachers too. に限[かぎ]らず extends the recommendation beyond students."
+    },
+    {
+     "id": "ni-kagirazu_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only on weekdays but also on weekends the store is open'?",
+     "japanese": null,
+     "choices": [
+      "平日[へいじつ]に限[かぎ]らず週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+      "平日[へいじつ]だけでなく週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+      "平日[へいじつ]に限[かぎ]って週末[しゅうまつ]も店[みせ]は開[あ]いている。",
+      "平日[へいじつ]のみならず週末[しゅうまつ]も店[みせ]は開[あ]いている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 平日[へいじつ] + に限[かぎ]らず = not limited to weekdays. 週末[しゅうまつ]も = on weekends too. に限[かぎ]らず extends the scope of operating days."
+    },
+    {
+     "id": "ni-kagirazu_q5",
+     "type": "usage",
+     "prompt": "に限[かぎ]らず vs. だけでなく — which is more FORMAL?",
+     "japanese": null,
+     "choices": [
+      "They are identical in formality",
+      "に限[かぎ]らず is more formal/written; だけでなく is more casual/conversational",
+      "だけでなく is more formal",
+      "に限[かぎ]らず is only for spoken Japanese — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "に限[かぎ]らず is more formal and literary. だけでなく is more conversational. Both mean 'not only X.' In formal essays, reports, or official statements, に限[かぎ]らず is preferred. In casual speech, だけでなく is more natural."
+    },
+    {
+     "id": "ni-kagirazu_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only English but also French is spoken in that country'?",
+     "japanese": null,
+     "choices": [
+      "英語[えいご]に限[かぎ]らずフランス語[ご]もその国[くに]では話[はな]されている。",
+      "英語[えいご]だけでなくフランス語[ご]もその国[くに]では話[はな]されている。",
+      "英語[えいご]に限[かぎ]ってフランス語[ご]もその国[くに]では話[はな]されている。",
+      "英語[えいご]のみならずフランス語[ご]もその国[くに]では話[はな]されている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 英語[えいご] + に限[かぎ]らず = not limited to English. フランス語[ご]も = French too. Extends language scope."
+    },
+    {
+     "id": "ni-kagirazu_q7",
+     "type": "translation",
+     "prompt": "Which means 'Not only price but also quality is important when buying something'?",
+     "japanese": null,
+     "choices": [
+      "価格[かかく]に限[かぎ]らず品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
+      "価格[かかく]だけでなく品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
+      "価格[かかく]に限[かぎ]って品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。",
+      "価格[かかく]のみならず品質[ひんしつ]も、物[もの]を買[か]うときに重要[じゅうよう]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 価格[かかく] + に限[かぎ]らず = not limited to price. 品質[ひんしつ]も = quality too. Extends the criteria for evaluation."
+    },
+    {
+     "id": "ni-kagirazu_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only experts but also beginners can use this software'?",
+     "japanese": null,
+     "choices": [
+      "専門家[せんもんか]に限[かぎ]らず初心者[しょしんしゃ]もこのソフトを使[つか]える。",
+      "専門家[せんもんか]だけでなく初心者[しょしんしゃ]もこのソフトを使[つか]える。",
+      "専門家[せんもんか]に限[かぎ]って初心者[しょしんしゃ]もこのソフトを使[つか]える。",
+      "専門家[せんもんか]のみならず初心者[しょしんしゃ]もこのソフトを使[つか]える。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 専門家[せんもんか] + に限[かぎ]らず = not limited to experts. 初心者[しょしんしゃ]も = beginners too. Extends the user scope beyond experts."
+    },
+    {
+     "id": "ni-kagirazu_q9",
+     "type": "usage",
+     "prompt": "に限[かぎ]らず comes from に限[かぎ]る (limited to). Which BEST explains this relationship?",
+     "japanese": null,
+     "choices": [
+      "There is no relationship",
+      "に限[かぎ]る = X only (restricted scope); に限[かぎ]らず = not X only (negated restriction = scope extension). に限[かぎ]らず literally = 'without being limited to'",
+      "に限[かぎ]らず is the polite form of に限[かぎ]る, and the rule applies to every sentence type — and this holds in every register, formal or casual.",
+      "に限[かぎ]る is the formal form of に限[かぎ]らず"
+     ],
+     "correctIndex": 1,
+     "explanation": "に限[かぎ]る = restricted to X (正規[せいき]社員[しゃいん]に限[かぎ]る = limited to full-time employees only). に限[かぎ]らず = negates the restriction: 正規[せいき]社員[しゃいん]に限[かぎ]らず = not limited to full-time employees (part-timers too). The ず ending is classical negation = not being limited."
+    },
+    {
+     "id": "ni-kagirazu_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only winter but also summer sees many tourists here'?",
+     "japanese": null,
+     "choices": [
+      "冬[ふゆ]に限[かぎ]らず夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
+      "冬[ふゆ]だけでなく夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
+      "冬[ふゆ]に限[かぎ]って夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。",
+      "冬[ふゆ]のみならず夏[なつ]もここには観光客[かんこうきゃく]が多[おお]い。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 冬[ふゆ] + に限[かぎ]らず = not limited to winter. 夏[なつ]も = summer too. Extends the tourist season scope."
+    },
+    {
+     "id": "ni-kagirazu_q11",
+     "type": "translation",
+     "prompt": "Which means 'Health problems are not limited to the elderly — young people also suffer'?",
+     "japanese": null,
+     "choices": [
+      "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]に限[かぎ]らず、若者[わかもの]も悩[なや]んでいる。",
+      "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]だけでなく、若者[わかもの]も悩[なや]んでいる。",
+      "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]に限[かぎ]って、若者[わかもの]も悩[なや]んでいる。",
+      "健康[けんこう]問題[もんだい]は高齢者[こうれいしゃ]のみならず、若者[わかもの]も悩[なや]んでいる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 高齢者[こうれいしゃ] + に限[かぎ]らず = not limited to the elderly. 若者[わかもの]も = young people too. Extends the affected demographic."
+    },
+    {
+     "id": "ni-kagirazu_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only in Tokyo but across Japan, ramen is popular'?",
+     "japanese": null,
+     "choices": [
+      "東京[とうきょう]に限[かぎ]らず日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
+      "東京[とうきょう]だけでなく日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
+      "東京[とうきょう]に限[かぎ]って日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。",
+      "東京[とうきょう]のみならず日本全国[にほんぜんこく]で、ラーメンは人気[にんき]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 東京[とうきょう] + に限[かぎ]らず = not limited to Tokyo. 日本全国[にほんぜんこく]で = across all of Japan. Extends the geographic scope."
+    },
+    {
+     "id": "ni-kagirazu_q13",
+     "type": "usage",
+     "prompt": "に限[かぎ]らず can be followed by what types of phrases?",
+     "japanese": null,
+     "choices": [
+      "Only もX",
+      "〜も (X too), 〜でも (even X), 〜にわたって (across X), and other scope-extending phrases",
+      "Only negative phrases",
+      "Only conditional phrases — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "に限[かぎ]らず is typically followed by: 〜も (also), 〜でも (even), or general scope expressions. 学生[がくせい]に限[かぎ]らず社会人[しゃかいじん]も (not only students but also working adults). に限[かぎ]らず sets up the extension of scope."
+    },
+    {
+     "id": "ni-kagirazu_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only music but also art classes are popular at that school'?",
+     "japanese": null,
+     "choices": [
+      "音楽[おんがく]に限[かぎ]らず美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
+      "音楽[おんがく]だけでなく美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
+      "音楽[おんがく]に限[かぎ]って美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。",
+      "音楽[おんがく]のみならず美術[びじゅつ]の授業[じゅぎょう]もその学校[がっこう]で人気[にんき]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 音楽[おんがく] + に限[かぎ]らず = not limited to music. 美術[びじゅつ]の授業[じゅぎょう]も = art classes too. Extends the popular subjects."
+    },
+    {
+     "id": "ni-kagirazu_q15",
+     "type": "translation",
+     "prompt": "Which means 'This rule applies not only on weekdays but on holidays too'?",
+     "japanese": null,
+     "choices": [
+      "このルールは平日[へいじつ]に限[かぎ]らず祝日[しゅくじつ]にも適用[てきよう]される。",
+      "このルールは平日[へいじつ]だけでなく祝日[しゅくじつ]にも適用[てきよう]される。",
+      "このルールは平日[へいじつ]に限[かぎ]って祝日[しゅくじつ]にも適用[てきよう]される。",
+      "このルールは平日[へいじつ]のみならず祝日[しゅくじつ]にも適用[てきよう]される。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 平日[へいじつ] + に限[かぎ]らず = not limited to weekdays. 祝日[しゅくじつ]にも = on holidays too. Extends rule application to all days."
+    },
+    {
+     "id": "ni-kagirazu_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only professional athletes but also amateur players compete in this tournament'?",
+     "japanese": null,
+     "choices": [
+      "プロ選手[せんしゅ]に限[かぎ]らずアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
+      "プロ選手[せんしゅ]だけでなくアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
+      "プロ選手[せんしゅ]に限[かぎ]ってアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。",
+      "プロ選手[せんしゅ]のみならずアマチュアの選手[せんしゅ]もこの大会[たいかい]に出場[しゅつじょう]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: プロ選手[せんしゅ] + に限[かぎ]らず = not limited to professional athletes. アマチュアも = amateurs too. Extends participation scope."
+    },
+    {
+     "id": "ni-kagirazu_q17",
+     "type": "usage",
+     "prompt": "に限[かぎ]る vs. に限[かぎ]らず — which would you use to say 'The sale is for members only'?",
+     "japanese": null,
+     "choices": [
+      "会員[かいいん]に限[かぎ]らず — not limited to members (wrong — this opens it up)",
+      "会員[かいいん]に限[かぎ]る — limited to members only (correct — restricts scope)",
+      "会員[かいいん]に限[かぎ]ってでも — even though limited to members",
+      "会員[かいいん]に限[かぎ]り — until members"
+     ],
+     "correctIndex": 1,
+     "explanation": "会員[かいいん]に限[かぎ]る = limited to members only. に限[かぎ]る = restriction. に限[かぎ]らず = negates restriction = scope extension. To restrict scope, use に限[かぎ]る; to extend scope, use に限[かぎ]らず."
+    },
+    {
+     "id": "ni-kagirazu_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only the residents but also tourists benefit from this policy'?",
+     "japanese": null,
+     "choices": [
+      "住民[じゅうみん]に限[かぎ]らず観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
+      "住民[じゅうみん]だけでなく観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
+      "住民[じゅうみん]に限[かぎ]って観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。",
+      "住民[じゅうみん]のみならず観光客[かんこうきゃく]もこの政策[せいさく]から恩恵[おんけい]を受[う]ける。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 住民[じゅうみん] + に限[かぎ]らず = not limited to residents. 観光客[かんこうきゃく]も = tourists too. Extends who benefits from the policy."
+    },
+    {
+     "id": "ni-kagirazu_q19",
+     "type": "translation",
+     "prompt": "Which means 'Not only science but also humanities students should take this course'?",
+     "japanese": null,
+     "choices": [
+      "理系[りけい]に限[かぎ]らず文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
+      "理系[りけい]だけでなく文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
+      "理系[りけい]に限[かぎ]って文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。",
+      "理系[りけい]のみならず文系[ぶんけい]の学生[がくせい]もこの講座[こうざ]を受[う]けるべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 理系[りけい] + に限[かぎ]らず = not limited to science students. 文系[ぶんけい]の学生[がくせい]も = humanities students too. Extends the recommended audience."
+    },
+    {
+     "id": "ni-kagirazu_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Not only managers but also all employees should attend the meeting'?",
+     "japanese": null,
+     "choices": [
+      "管理職[かんりしょく]に限[かぎ]らず全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
+      "管理職[かんりしょく]だけでなく全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
+      "管理職[かんりしょく]に限[かぎ]って全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。",
+      "管理職[かんりしょく]のみならず全社[ぜんしゃ]員[いん]がその会議[かいぎ]に出席[しゅっせき]すべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + に限[かぎ]らず: 管理職[かんりしょく] + に限[かぎ]らず = not limited to managers. 全社[ぜんしゃ]員[いん]が = all employees. Extends attendance requirement beyond management."
+    }
+   ]
+  },
+  {
+   "id": "wa-moto-yori",
+   "name": "〜はもとより (wa moto yori) — to say nothing of / not only...but also",
+   "shortDescription": "Establishes that even the expected/easier case is true, and the harder case follows as well.",
+   "formation": "Noun A + はもとより + Noun B / clause + も",
+   "explanation": "はもとより is a formal, literary pattern meaning 'to say nothing of' or 'not only X, but even Y.' It has a two-tier structure: the element before はもとより is the expected, obvious case — the baseline that 'goes without saying' — while the element after is the more impressive or noteworthy addition. 英語[えいご]はもとより、フランス語[ご]も話[はな]せます: 'Not only English (the expected baseline), she can also speak French' — the English fluency is unremarkable; the French is where things get impressive. This direction matters: the more surprising or notable element always comes after はもとより.\n\nNote on register: はもとより is distinctly formal and literary. It has a similar-meaning everyday counterpart, はもちろん ('of course / naturally, and also X'), which fits comfortably in general writing and conversation. はもとより belongs in written formal contexts, business writing, and polished speeches where the higher register is appropriate.",
+   "rules": [
+    "Noun A + はもとより + B + も = not only A (expected) but even B (impressive addition)",
+    "A is the baseline expected element ('goes without saying'); B is the more noteworthy one",
+    "More formal/literary than はもちろん (everyday) and だけでなく (not only)",
+    "The element before はもとより is the given; the addition after is what's noteworthy",
+    "Often structured: 〜はもとより、〜も + positive quality/action"
+   ],
+   "examples": [
+    {
+     "japanese": "彼女[かのじょ]は英語[えいご]はもとより、日本語[にほんご]も中国語[ちゅうごくご]も流暢[りゅうちょう]に話[はな]せます。",
+     "romaji": "Kanojo wa eigo wa moto yori, nihongo mo chuugokugo mo ryuuchou ni hanasemasu.",
+     "english": "Not only English (of course), she can also speak Japanese and Chinese fluently."
+    },
+    {
+     "japanese": "この製品[せいひん]は国内[こくない]はもとより、海外[かいがい]でも高[たか]い評価[ひょうか]を受[う]けています。",
+     "romaji": "Kono seihin wa kokunai wa moto yori, kaigai demo takai hyouka wo ukete imasu.",
+     "english": "Not only domestically, this product has received high acclaim overseas as well."
+    },
+    {
+     "japanese": "基礎知識[きそちしき]はもとより、応用力[おうようりょく]も求[もと]められる仕事[しごと]です。",
+     "romaji": "Kiso chishiki wa moto yori, ouyouryoku mo motomerareru shigoto desu.",
+     "english": "It's a job that requires not only foundational knowledge, but also applied skills."
+    },
+    {
+     "japanese": "社員[しゃいん]はもとより、その家族[かぞく]のことも考[かんが]えた経営[けいえい]をすべきです。",
+     "romaji": "Shain wa moto yori, sono kazoku no koto mo kangaeta keiei wo subeki desu.",
+     "english": "Management should think not only of employees, but also of their families."
+    }
+   ],
+   "flashcardHeader": "〜はもとより",
+   "flashcardAnswer": "Establishes that even the expected/easier case is true, and the harder case follows as well.",
+   "practice": [
+    {
+     "id": "wa-moto-yori_q1",
+     "type": "usage",
+     "prompt": "What does 〜はもとより mean?",
+     "japanese": null,
+     "choices": [
+      "although / even though",
+      "not only X — takes X as a given and goes further to include Y; even more than X; needless to say X",
+      "from the beginning / originally",
+      "limited to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜はもとより = not only X (but Y too) / needless to say X / X goes without saying. 日本語[にほんご]はもとより英語[えいご]も話[はな]せる = needless to say Japanese, (she) can also speak English. X (more obvious) is taken for granted; Y (less obvious) is added."
+    },
+    {
+     "id": "wa-moto-yori_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say Japanese, she can also speak French'?",
+     "japanese": null,
+     "choices": [
+      "日本語[にほんご]はもとよりフランス語[ご]も話[はな]せる。",
+      "日本語[にほんご]はもちろんフランス語[ご]も話[はな]せる。",
+      "日本語[にほんご]に限[かぎ]らずフランス語[ご]も話[はな]せる。",
+      "日本語[にほんご]だけでなくフランス語[ご]も話[はな]せる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 日本語[にほんご] + はもとより = needless to say Japanese. フランス語[ご]も = French too. The Japanese ability is taken as a given; French is the impressive addition."
+    },
+    {
+     "id": "wa-moto-yori_q3",
+     "type": "translation",
+     "prompt": "Which means 'Needless to say children, adults also enjoyed the movie'?",
+     "japanese": null,
+     "choices": [
+      "子[こ]どもはもとより大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
+      "子[こ]どもはもちろん大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
+      "子[こ]どもに限[かぎ]らず大人[おとな]もその映画[えいが]を楽[たの]しんだ。",
+      "子[こ]どもだけでなく大人[おとな]もその映画[えいが]を楽[たの]しんだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 子[こ]ども + はもとより = needless to say children. 大人[おとな]も = adults too. Children enjoying it is obvious/assumed; adults enjoying it adds to that."
+    },
+    {
+     "id": "wa-moto-yori_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say reading, she excels at writing too'?",
+     "japanese": null,
+     "choices": [
+      "読[よ]むことはもとより、書[か]くことも得意[とくい]だ。",
+      "読[よ]むことはもちろん、書[か]くことも得意[とくい]だ。",
+      "読[よ]むことに限[かぎ]らず、書[か]くことも得意[とくい]だ。",
+      "読[よ]むことだけでなく、書[か]くことも得意[とくい]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb nominal + はもとより: 読[よ]むこと + はもとより = needless to say reading. 書[か]くことも = writing too. Reading ability assumed; writing skill added as a further achievement."
+    },
+    {
+     "id": "wa-moto-yori_q5",
+     "type": "usage",
+     "prompt": "はもとより vs. はもちろん — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "はもとより is more formal/literary; はもちろん is more conversational. Both mean 'needless to say X / of course X (and Y too)'",
+      "はもとより is only for people",
+      "はもちろん is only for written Japanese, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "はもとより = formal, literary: 知識[ちしき]はもとより経験[けいけん]も大切[たいせつ]だ. はもちろん = conversational: 知識[ちしき]はもちろん経験[けいけん]も大切[たいせつ]だ. Meaning is nearly identical, but はもとより sounds more classical and formal."
+    },
+    {
+     "id": "wa-moto-yori_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say reputation, this restaurant is also famous for its service'?",
+     "japanese": null,
+     "choices": [
+      "評判[ひょうばん]はもとより、サービスでも有名[ゆうめい]なレストランだ。",
+      "評判[ひょうばん]はもちろん、サービスでも有名[ゆうめい]なレストランだ。",
+      "評判[ひょうばん]に限[かぎ]らず、サービスでも有名[ゆうめい]なレストランだ。",
+      "評判[ひょうばん]だけでなく、サービスでも有名[ゆうめい]なレストランだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 評判[ひょうばん] + はもとより = needless to say its reputation. サービスでも = for its service too. Reputation assumed; exceptional service added."
+    },
+    {
+     "id": "wa-moto-yori_q7",
+     "type": "translation",
+     "prompt": "Which means 'Needless to say Japanese history, she also studies world history'?",
+     "japanese": null,
+     "choices": [
+      "日本史[にほんし]はもとより、世界史[せかいし]も学[まな]んでいる。",
+      "日本史[にほんし]はもちろん、世界史[せかいし]も学[まな]んでいる。",
+      "日本史[にほんし]に限[かぎ]らず、世界史[せかいし]も学[まな]んでいる。",
+      "日本史[にほんし]だけでなく、世界史[せかいし]も学[まな]んでいる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 日本史[にほんし] + はもとより = needless to say Japanese history. 世界史[せかいし]も = world history too. Japanese history assumed as the main subject; world history is an additional scope."
+    },
+    {
+     "id": "wa-moto-yori_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say Japanese, visitors from abroad also come to this festival'?",
+     "japanese": null,
+     "choices": [
+      "日本人[にほんじん]はもとより、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
+      "日本人[にほんじん]はもちろん、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
+      "日本人[にほんじん]に限[かぎ]らず、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。",
+      "日本人[にほんじん]だけでなく、外国[がいこく]からの観光客[かんこうきゃく]も来[く]るお祭[まつ]りだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 日本人[にほんじん] + はもとより = needless to say Japanese people. 外国[がいこく]からの観光客[かんこうきゃく]も = visitors from abroad too. Japanese attendance assumed; international visitors added."
+    },
+    {
+     "id": "wa-moto-yori_q9",
+     "type": "usage",
+     "prompt": "What nuance does X + はもとより convey about X?",
+     "japanese": null,
+     "choices": [
+      "X is surprising",
+      "X is taken as a given or obvious baseline — 'of course X, and moreover Y'",
+      "X is the most important element — textbooks treat this as an absolute rule.",
+      "X is being limited"
+     ],
+     "correctIndex": 1,
+     "explanation": "X + はもとより: X is the OBVIOUS thing (baseline). Y is the added extension. 日本語[にほんご]はもとより英語[えいご]も話[はな]せる: Japanese is the obvious/expected skill (baseline); English is impressive on top of that. X is assumed true without question."
+    },
+    {
+     "id": "wa-moto-yori_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say accuracy, speed is also required in this job'?",
+     "japanese": null,
+     "choices": [
+      "正確[せいかく]さはもとより、スピードもこの仕事[しごと]では求[もと]められる。",
+      "正確[せいかく]さはもちろん、スピードもこの仕事[しごと]では求[もと]められる。",
+      "正確[せいかく]さに限[かぎ]らず、スピードもこの仕事[しごと]では求[もと]められる。",
+      "正確[せいかく]さだけでなく、スピードもこの仕事[しごと]では求[もと]められる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 正確[せいかく]さ + はもとより = needless to say accuracy. スピードも = speed too. Accuracy assumed baseline; speed is the additional requirement."
+    },
+    {
+     "id": "wa-moto-yori_q11",
+     "type": "translation",
+     "prompt": "Which means 'Needless to say cooking, she also excels at baking'?",
+     "japanese": null,
+     "choices": [
+      "料理[りょうり]はもとより、お菓子[かし]作[つく]りも得意[とくい]だ。",
+      "料理[りょうり]はもちろん、お菓子[かし]作[つく]りも得意[とくい]だ。",
+      "料理[りょうり]に限[かぎ]らず、お菓子[かし]作[つく]りも得意[とくい]だ。",
+      "料理[りょうり]だけでなく、お菓子[かし]作[つく]りも得意[とくい]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 料理[りょうり] + はもとより = needless to say cooking. お菓子[かし]作[つく]りも = baking too. Cooking assumed; baking added as a further skill."
+    },
+    {
+     "id": "wa-moto-yori_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say the body, even the mind was exhausted'?",
+     "japanese": null,
+     "choices": [
+      "体[からだ]はもとより、心[こころ]まで疲[つか]れ切[き]った。",
+      "体[からだ]はもちろん、心[こころ]まで疲[つか]れ切[き]った。",
+      "体[からだ]に限[かぎ]らず、心[こころ]まで疲[つか]れ切[き]った。",
+      "体[からだ]だけでなく、心[こころ]まで疲[つか]れ切[き]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 体[からだ] + はもとより = needless to say the body. 心[こころ]まで = even the mind. Body exhaustion assumed/expected; mental exhaustion added as extra emphasis."
+    },
+    {
+     "id": "wa-moto-yori_q13",
+     "type": "usage",
+     "prompt": "はもとより can be used with VERBS? Which is the correct form?",
+     "japanese": null,
+     "choices": [
+      "Verb te-form + はもとより: 話[はな]してはもとより",
+      "Verb dict/plain form nominalized + はもとより: 話[はな]すことはもとより",
+      "Verb masu-stem + はもとより: 話[はな]しはもとより, regardless of context or politeness level.",
+      "Verb past + はもとより: 話[はな]したはもとより"
+     ],
+     "correctIndex": 1,
+     "explanation": "Verb + こと + はもとより: 話[はな]すこと + はもとより = needless to say speaking. Nominalize the verb with こと, then attach はもとより. 話[はな]すことはもとより読[よ]むことも得意[とくい] = needless to say speaking, (she) is good at reading too."
+    },
+    {
+     "id": "wa-moto-yori_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say salary, benefits and work environment are also important'?",
+     "japanese": null,
+     "choices": [
+      "給料[きゅうりょう]はもとより、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
+      "給料[きゅうりょう]はもちろん、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
+      "給料[きゅうりょう]に限[かぎ]らず、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。",
+      "給料[きゅうりょう]だけでなく、福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 給料[きゅうりょう] + はもとより = needless to say salary. 福利厚生[ふくりこうせい]や職場環境[しょくばかんきょう]も = benefits and work environment too. Salary assumed baseline; other factors added."
+    },
+    {
+     "id": "wa-moto-yori_q15",
+     "type": "translation",
+     "prompt": "Which means 'Needless to say vocabulary, grammar is also important in language learning'?",
+     "japanese": null,
+     "choices": [
+      "語彙[ごい]はもとより、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
+      "語彙[ごい]はもちろん、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
+      "語彙[ごい]に限[かぎ]らず、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。",
+      "語彙[ごい]だけでなく、文法[ぶんぽう]も言語学[げんごがく]習[しゅう]では大切[たいせつ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 語彙[ごい] + はもとより = needless to say vocabulary. 文法[ぶんぽう]も = grammar too. Vocabulary assumed baseline; grammar is added as equally essential."
+    },
+    {
+     "id": "wa-moto-yori_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say the main city, even the rural areas have high-speed internet now'?",
+     "japanese": null,
+     "choices": [
+      "都市部[としぶ]はもとより、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
+      "都市部[としぶ]はもちろん、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
+      "都市部[としぶ]に限[かぎ]らず、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。",
+      "都市部[としぶ]だけでなく、農村[のうそん]部[ぶ]も今[いま]や高速[こうそく]インターネットが使[つか]える。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 都市部[としぶ] + はもとより = needless to say urban areas. 農村[のうそん]部[ぶ]も = rural areas too. Urban internet access assumed; rural extension is the impressive addition."
+    },
+    {
+     "id": "wa-moto-yori_q17",
+     "type": "usage",
+     "prompt": "In which context is はもとより MOST naturally used?",
+     "japanese": null,
+     "choices": [
+      "Casual conversation between friends — this is true in both spoken and written Japanese.",
+      "Formal writing, academic texts, and speeches — when stacking impressive qualifications or scope",
+      "Daily small talk",
+      "Expressing regret"
+     ],
+     "correctIndex": 1,
+     "explanation": "はもとより is formal/written. You'd see it in essays, reports, official speeches, or business writing. In casual speech, はもちろん or に限[かぎ]らず are more natural. Formal context: 彼[かれ]は専門知識[せんもんちしき]はもとより、経験[けいけん]も豊富[ほうふ]だ = needless to say expertise, he is also rich in experience."
+    },
+    {
+     "id": "wa-moto-yori_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say her singing, her dancing is also outstanding'?",
+     "japanese": null,
+     "choices": [
+      "歌[うた]はもとより、ダンスも素晴[すば]らしい。",
+      "歌[うた]はもちろん、ダンスも素晴[すば]らしい。",
+      "歌[うた]に限[かぎ]らず、ダンスも素晴[すば]らしい。",
+      "歌[うた]だけでなく、ダンスも素晴[すば]らしい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 歌[うた] + はもとより = needless to say her singing. ダンスも = dancing too. Singing talent assumed; dancing is the added impressive element."
+    },
+    {
+     "id": "wa-moto-yori_q19",
+     "type": "translation",
+     "prompt": "Which means 'This report should be read not only by specialists but also by laypersons'?",
+     "japanese": null,
+     "choices": [
+      "このレポートは専門家[せんもんか]はもとより、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+      "このレポートは専門家[せんもんか]はもちろん、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+      "このレポートは専門家[せんもんか]に限[かぎ]らず、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。",
+      "このレポートは専門家[せんもんか]だけでなく、一般[いっぱん]の人[ひと]にも読[よ]んでほしい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 専門家[せんもんか] + はもとより = needless to say specialists. 一般[いっぱん]の人[ひと]にも = general public too. Specialist readership assumed; general readership is the broader extension."
+    },
+    {
+     "id": "wa-moto-yori_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Needless to say domestic brands, foreign luxury brands are also available here'?",
+     "japanese": null,
+     "choices": [
+      "国内[こくない]ブランドはもとより、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
+      "国内[こくない]ブランドはもちろん、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
+      "国内[こくない]ブランドに限[かぎ]らず、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。",
+      "国内[こくない]ブランドだけでなく、海外[かいがい]の高級[こうきゅう]ブランドも取[と]り扱[あつか]っている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + はもとより: 国内[こくない]ブランド + はもとより = needless to say domestic brands. 海外[かいがい]の高級[こうきゅう]ブランドも = foreign luxury brands too. Domestic brands assumed baseline; prestigious international brands added."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch39_v01",
+   "partOfSpeech": "noun",
+   "kanji": "事業",
+   "kana": "じぎょう",
+   "romaji": "jigyou",
+   "definition": "business; enterprise"
+  },
+  {
+   "id": "ch39_v02",
+   "partOfSpeech": "noun",
+   "kanji": "資本",
+   "kana": "しほん",
+   "romaji": "shihon",
+   "definition": "capital"
+  },
+  {
+   "id": "ch39_v03",
+   "partOfSpeech": "noun",
+   "kanji": "株式",
+   "kana": "かぶしき",
+   "romaji": "kabushiki",
+   "definition": "stocks; shares"
+  },
+  {
+   "id": "ch39_v04",
+   "partOfSpeech": "noun",
+   "kanji": "株価",
+   "kana": "かぶか",
+   "romaji": "kabuka",
+   "definition": "stock price"
+  },
+  {
+   "id": "ch39_v05",
+   "partOfSpeech": "noun",
+   "kanji": "融資",
+   "kana": "ゆうし",
+   "romaji": "yuushi",
+   "definition": "financing; loan"
+  },
+  {
+   "id": "ch39_v06",
+   "partOfSpeech": "noun",
+   "kanji": "出資",
+   "kana": "しゅっし",
+   "romaji": "shusshi",
+   "definition": "investment; funding"
+  },
+  {
+   "id": "ch39_v07",
+   "partOfSpeech": "noun",
+   "kanji": "創業",
+   "kana": "そうぎょう",
+   "romaji": "sougyou",
+   "definition": "founding (a company)"
+  },
+  {
+   "id": "ch39_v08",
+   "partOfSpeech": "noun",
+   "kanji": "戦略",
+   "kana": "せんりゃく",
+   "romaji": "senryaku",
+   "definition": "strategy"
+  },
+  {
+   "id": "ch39_v09",
+   "partOfSpeech": "noun",
+   "kanji": "役員",
+   "kana": "やくいん",
+   "romaji": "yakuin",
+   "definition": "executive; officer"
+  },
+  {
+   "id": "ch39_v10",
+   "partOfSpeech": "noun",
+   "kanji": "株主",
+   "kana": "かぶぬし",
+   "romaji": "kabunushi",
+   "definition": "shareholder"
+  },
+  {
+   "id": "ch39_v11",
+   "partOfSpeech": "noun",
+   "kanji": "取締役",
+   "kana": "とりしまりやく",
+   "romaji": "torishimariyaku",
+   "definition": "(company) director"
+  },
+  {
+   "id": "ch39_v12",
+   "partOfSpeech": "noun",
+   "kanji": "合併",
+   "kana": "がっぺい",
+   "romaji": "gappei",
+   "definition": "merger"
+  },
+  {
+   "id": "ch39_v13",
+   "partOfSpeech": "noun",
+   "kanji": "買収",
+   "kana": "ばいしゅう",
+   "romaji": "baishuu",
+   "definition": "acquisition; buyout"
+  },
+  {
+   "id": "ch39_v14",
+   "partOfSpeech": "noun",
+   "kanji": "提携",
+   "kana": "ていけい",
+   "romaji": "teikei",
+   "definition": "partnership; alliance"
+  },
+  {
+   "id": "ch39_v15",
+   "partOfSpeech": "noun",
+   "kanji": "交渉",
+   "kana": "こうしょう",
+   "romaji": "koushou",
+   "definition": "negotiation"
+  },
+  {
+   "id": "ch39_v16",
+   "partOfSpeech": "noun",
+   "kanji": "商談",
+   "kana": "しょうだん",
+   "romaji": "shoudan",
+   "definition": "business negotiation"
+  },
+  {
+   "id": "ch39_v17",
+   "partOfSpeech": "noun",
+   "kanji": "見積もり",
+   "kana": "みつもり",
+   "romaji": "mitsumori",
+   "definition": "estimate; quotation"
+  },
+  {
+   "id": "ch39_v18",
+   "partOfSpeech": "noun",
+   "kanji": "在庫",
+   "kana": "ざいこ",
+   "romaji": "zaiko",
+   "definition": "stock; inventory"
+  },
+  {
+   "id": "ch39_v19",
+   "partOfSpeech": "noun",
+   "kanji": "流通",
+   "kana": "りゅうつう",
+   "romaji": "ryuutsuu",
+   "definition": "distribution"
+  },
+  {
+   "id": "ch39_v20",
+   "partOfSpeech": "noun",
+   "kanji": "宣伝",
+   "kana": "せんでん",
+   "romaji": "senden",
+   "definition": "advertising; promotion"
+  },
+  {
+   "id": "ch39_v21",
+   "partOfSpeech": "noun",
+   "kanji": "広報",
+   "kana": "こうほう",
+   "romaji": "kouhou",
+   "definition": "public relations"
+  },
+  {
+   "id": "ch39_v22",
+   "partOfSpeech": "noun",
+   "kanji": "ブランド",
+   "kana": "ブランド",
+   "romaji": "burando",
+   "definition": "brand"
+  },
+  {
+   "id": "ch39_v23",
+   "partOfSpeech": "noun",
+   "kanji": "生産性",
+   "kana": "せいさんせい",
+   "romaji": "seisansei",
+   "definition": "productivity"
+  },
+  {
+   "id": "ch39_v24",
+   "partOfSpeech": "noun",
+   "kanji": "合理化",
+   "kana": "ごうりか",
+   "romaji": "gourika",
+   "definition": "rationalization"
+  },
+  {
+   "id": "ch39_v25",
+   "partOfSpeech": "noun",
+   "kanji": "運営",
+   "kana": "うんえい",
+   "romaji": "un'ei",
+   "definition": "operation; administration"
+  },
+  {
+   "id": "ch39_v26",
+   "partOfSpeech": "noun",
+   "kanji": "経営陣",
+   "kana": "けいえいじん",
+   "romaji": "keieijin",
+   "definition": "management team"
+  },
+  {
+   "id": "ch39_v27",
+   "partOfSpeech": "noun",
+   "kanji": "財務",
+   "kana": "ざいむ",
+   "romaji": "zaimu",
+   "definition": "finance; financial affairs"
+  },
+  {
+   "id": "ch39_v28",
+   "partOfSpeech": "noun",
+   "kanji": "決算",
+   "kana": "けっさん",
+   "romaji": "kessan",
+   "definition": "financial results; settlement"
+  },
+  {
+   "id": "ch39_v29",
+   "partOfSpeech": "noun",
+   "kanji": "予算案",
+   "kana": "よさんあん",
+   "romaji": "yosan'an",
+   "definition": "budget proposal"
+  },
+  {
+   "id": "ch39_v30",
+   "partOfSpeech": "noun",
+   "kanji": "コスト",
+   "kana": "コスト",
+   "romaji": "kosuto",
+   "definition": "cost"
+  },
+  {
+   "id": "ch39_v31",
+   "partOfSpeech": "noun",
+   "kanji": "需給",
+   "kana": "じゅきゅう",
+   "romaji": "jukyuu",
+   "definition": "supply and demand"
+  },
+  {
+   "id": "ch39_v32",
+   "partOfSpeech": "noun",
+   "kanji": "独占",
+   "kana": "どくせん",
+   "romaji": "dokusen",
+   "definition": "monopoly"
+  },
+  {
+   "id": "ch39_v33",
+   "partOfSpeech": "noun",
+   "kanji": "規模",
+   "kana": "きぼ",
+   "romaji": "kibo",
+   "definition": "scale; scope"
+  },
+  {
+   "id": "ch39_v34",
+   "partOfSpeech": "noun",
+   "kanji": "拡大",
+   "kana": "かくだい",
+   "romaji": "kakudai",
+   "definition": "expansion"
+  },
+  {
+   "id": "ch39_v35",
+   "partOfSpeech": "noun",
+   "kanji": "縮小",
+   "kana": "しゅくしょう",
+   "romaji": "shukushou",
+   "definition": "reduction; downsizing"
+  },
+  {
+   "id": "ch39_v36",
+   "partOfSpeech": "noun",
+   "kanji": "投資家",
+   "kana": "とうしか",
+   "romaji": "toushika",
+   "definition": "investor"
+  },
+  {
+   "id": "ch39_v37",
+   "partOfSpeech": "noun",
+   "kanji": "経済界",
+   "kana": "けいざいかい",
+   "romaji": "keizaikai",
+   "definition": "the business world"
+  },
+  {
+   "id": "ch39_v38",
+   "partOfSpeech": "noun",
+   "kanji": "業者",
+   "kana": "ぎょうしゃ",
+   "romaji": "gyousha",
+   "definition": "trader; contractor"
+  },
+  {
+   "id": "ch39_v39",
+   "partOfSpeech": "noun",
+   "kanji": "契約書",
+   "kana": "けいやくしょ",
+   "romaji": "keiyakusho",
+   "definition": "(written) contract"
+  },
+  {
+   "id": "ch39_v40",
+   "partOfSpeech": "noun",
+   "kanji": "発注",
+   "kana": "はっちゅう",
+   "romaji": "hacchuu",
+   "definition": "placing an order"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "府",
+   "word": "政府",
+   "reading": "せいふ",
+   "meaning": "government"
+  },
+  {
+   "char": "委",
+   "word": "委ねる",
+   "reading": "ゆだねる",
+   "meaning": "to entrust (a matter) to"
+  },
+  {
+   "char": "軍",
+   "word": "軍",
+   "reading": "ぐん",
+   "meaning": "army"
+  },
+  {
+   "char": "案",
+   "word": "案",
+   "reading": "あん",
+   "meaning": "idea"
+  },
+  {
+   "char": "営",
+   "word": "運営",
+   "reading": "うんえい",
+   "meaning": "operation; administration"
+  },
+  {
+   "char": "副",
+   "word": "副作用",
+   "reading": "ふくさよう",
+   "meaning": "side effect"
+  },
+  {
+   "char": "算",
+   "word": "決算",
+   "reading": "けっさん",
+   "meaning": "financial results; settlement"
+  },
+  {
+   "char": "州",
+   "word": "州",
+   "reading": "しゅう",
+   "meaning": "state (US, Australia, India, Germany, etc.)"
+  },
+  {
+   "char": "蔵",
+   "word": "蔵",
+   "reading": "くら",
+   "meaning": "warehouse"
+  },
+  {
+   "char": "量",
+   "word": "量",
+   "reading": "りょう",
+   "meaning": "quantity"
+  },
+  {
+   "char": "兵",
+   "word": "兵",
+   "reading": "へい",
+   "meaning": "(common) soldier"
+  },
+  {
+   "char": "森",
+   "word": "森",
+   "reading": "もり",
+   "meaning": "forest"
+  },
+  {
+   "char": "将",
+   "word": "将来",
+   "reading": "しょうらい",
+   "meaning": "future"
+  },
+  {
+   "char": "鉄",
+   "word": "鉄",
+   "reading": "てつ",
+   "meaning": "iron (Fe)"
+  },
+  {
+   "char": "換",
+   "word": "換える",
+   "reading": "かえる",
+   "meaning": "to replace"
+  },
+  {
+   "char": "占",
+   "word": "占める",
+   "reading": "しめる",
+   "meaning": "to occupy"
+  },
+  {
+   "char": "清",
+   "word": "清らか",
+   "reading": "きよらか",
+   "meaning": "clean"
+  },
+  {
+   "char": "伸",
+   "word": "伸ばす",
+   "reading": "のばす",
+   "meaning": "to grow long (e.g. hair, nails)"
+  },
+  {
+   "char": "囲",
+   "word": "囲い",
+   "reading": "かこい",
+   "meaning": "enclosure"
+  },
+  {
+   "char": "略",
+   "word": "略す",
+   "reading": "りゃくす",
+   "meaning": "to abbreviate"
+  },
+  {
+   "char": "角",
+   "word": "角",
+   "reading": "かく",
+   "meaning": "angle"
+  },
+  {
+   "char": "貨",
+   "word": "貨物",
+   "reading": "かもつ",
+   "meaning": "freight; cargo"
+  },
+  {
+   "char": "混",
+   "word": "混ぜる",
+   "reading": "まぜる",
+   "meaning": "to mix"
+  },
+  {
+   "char": "庫",
+   "word": "在庫",
+   "reading": "ざいこ",
+   "meaning": "stock; inventory"
+  },
+  {
+   "char": "籍",
+   "word": "国籍",
+   "reading": "こくせき",
+   "meaning": "nationality"
+  },
+  {
+   "char": "郵",
+   "word": "郵便",
+   "reading": "ゆうびん",
+   "meaning": "mail; post"
+  },
+  {
+   "char": "跡",
+   "word": "跡",
+   "reading": "あと",
+   "meaning": "trace"
+  },
+  {
+   "char": "臓",
+   "word": "心臓",
+   "reading": "しんぞう",
+   "meaning": "heart (organ)"
+  },
+  {
+   "char": "奥",
+   "word": "奥さん",
+   "reading": "おくさん",
+   "meaning": "wife"
+  },
+  {
+   "char": "片",
+   "word": "片付ける",
+   "reading": "かたづける",
+   "meaning": "to tidy up"
+  },
+  {
+   "char": "埋",
+   "word": "埋める",
+   "reading": "うめる",
+   "meaning": "to bury; to fill in"
+  },
+  {
+   "char": "童",
+   "word": "児童",
+   "reading": "じどう",
+   "meaning": "children"
+  },
+  {
+   "char": "毛",
+   "word": "毛",
+   "reading": "け",
+   "meaning": "hair"
+  },
+  {
+   "char": "液",
+   "word": "液",
+   "reading": "えき",
+   "meaning": "liquid"
+  },
+  {
+   "char": "黄",
+   "word": "黄色",
+   "reading": "きいろ",
+   "meaning": "yellow"
+  },
+  {
+   "char": "軟",
+   "word": "柔軟",
+   "reading": "じゅうなん",
+   "meaning": "flexible; soft"
+  },
+  {
+   "char": "炭",
+   "word": "炭",
+   "reading": "すみ",
+   "meaning": "charcoal"
+  },
+  {
+   "char": "湖",
+   "word": "湖",
+   "reading": "みずうみ",
+   "meaning": "lake"
+  },
+  {
+   "char": "鉱",
+   "word": "鉱山",
+   "reading": "こうざん",
+   "meaning": "mine"
+  },
+  {
+   "char": "毒",
+   "word": "毒",
+   "reading": "どく",
+   "meaning": "poison"
+  },
+  {
+   "char": "綿",
+   "word": "綿",
+   "reading": "めん",
+   "meaning": "cotton"
+  },
+  {
+   "char": "缶",
+   "word": "缶",
+   "reading": "かん",
+   "meaning": "can"
+  },
+  {
+   "char": "泥",
+   "word": "泥",
+   "reading": "どろ",
+   "meaning": "mud"
+  },
+  {
+   "char": "粒",
+   "word": "粒",
+   "reading": "つぶ",
+   "meaning": "grain"
+  },
+  {
+   "char": "塔",
+   "word": "塔",
+   "reading": "とう",
+   "meaning": "tower"
+  },
+  {
+   "char": "貝",
+   "word": "貝",
+   "reading": "かい",
+   "meaning": "shellfish"
+  },
+  {
+   "char": "挟",
+   "word": "挟む",
+   "reading": "はさむ",
+   "meaning": "to hold between (e.g. one's fingers, chopsticks)"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "政府",
+   "kana": "せいふ",
+   "romaji": "seifu",
+   "meaning": "government",
+   "chars": [
+    "政",
+    "府"
+   ]
+  },
+  {
+   "word": "委ねる",
+   "kana": "ゆだねる",
+   "romaji": "yudaneru",
+   "meaning": "to entrust (a matter) to",
+   "chars": [
+    "委"
+   ]
+  },
+  {
+   "word": "軍",
+   "kana": "ぐん",
+   "romaji": "gun",
+   "meaning": "army",
+   "chars": [
+    "軍"
+   ]
+  },
+  {
+   "word": "案",
+   "kana": "あん",
+   "romaji": "an",
+   "meaning": "idea",
+   "chars": [
+    "案"
+   ]
+  },
+  {
+   "word": "運営",
+   "kana": "うんえい",
+   "romaji": "un'ei",
+   "meaning": "operation; administration",
+   "chars": [
+    "運",
+    "営"
+   ]
+  },
+  {
+   "word": "副作用",
+   "kana": "ふくさよう",
+   "romaji": "fukusayou",
+   "meaning": "side effect",
+   "chars": [
+    "副",
+    "作",
+    "用"
+   ]
+  },
+  {
+   "word": "決算",
+   "kana": "けっさん",
+   "romaji": "kessan",
+   "meaning": "financial results; settlement",
+   "chars": [
+    "決",
+    "算"
+   ]
+  },
+  {
+   "word": "州",
+   "kana": "しゅう",
+   "romaji": "shuu",
+   "meaning": "state (US, Australia, India, Germany, etc.)",
+   "chars": [
+    "州"
+   ]
+  },
+  {
+   "word": "蔵",
+   "kana": "くら",
+   "romaji": "kura",
+   "meaning": "warehouse",
+   "chars": [
+    "蔵"
+   ]
+  },
+  {
+   "word": "量",
+   "kana": "りょう",
+   "romaji": "ryou",
+   "meaning": "quantity",
+   "chars": [
+    "量"
+   ]
+  },
+  {
+   "word": "兵",
+   "kana": "へい",
+   "romaji": "hei",
+   "meaning": "(common) soldier",
+   "chars": [
+    "兵"
+   ]
+  },
+  {
+   "word": "森",
+   "kana": "もり",
+   "romaji": "mori",
+   "meaning": "forest",
+   "chars": [
+    "森"
+   ]
+  },
+  {
+   "word": "将来",
+   "kana": "しょうらい",
+   "romaji": "shourai",
+   "meaning": "future",
+   "chars": [
+    "将",
+    "来"
+   ]
+  },
+  {
+   "word": "鉄",
+   "kana": "てつ",
+   "romaji": "tetsu",
+   "meaning": "iron (Fe)",
+   "chars": [
+    "鉄"
+   ]
+  },
+  {
+   "word": "換える",
+   "kana": "かえる",
+   "romaji": "kaeru",
+   "meaning": "to replace",
+   "chars": [
+    "換"
+   ]
+  },
+  {
+   "word": "占める",
+   "kana": "しめる",
+   "romaji": "shimeru",
+   "meaning": "to occupy",
+   "chars": [
+    "占"
+   ]
+  },
+  {
+   "word": "清らか",
+   "kana": "きよらか",
+   "romaji": "kiyoraka",
+   "meaning": "clean",
+   "chars": [
+    "清"
+   ]
+  },
+  {
+   "word": "伸ばす",
+   "kana": "のばす",
+   "romaji": "nobasu",
+   "meaning": "to grow long (e.g. hair, nails)",
+   "chars": [
+    "伸"
+   ]
+  },
+  {
+   "word": "囲い",
+   "kana": "かこい",
+   "romaji": "kakoi",
+   "meaning": "enclosure",
+   "chars": [
+    "囲"
+   ]
+  },
+  {
+   "word": "略す",
+   "kana": "りゃくす",
+   "romaji": "ryakusu",
+   "meaning": "to abbreviate",
+   "chars": [
+    "略"
+   ]
+  },
+  {
+   "word": "角",
+   "kana": "かく",
+   "romaji": "kaku",
+   "meaning": "angle",
+   "chars": [
+    "角"
+   ]
+  },
+  {
+   "word": "貨物",
+   "kana": "かもつ",
+   "romaji": "kamotsu",
+   "meaning": "freight; cargo",
+   "chars": [
+    "貨",
+    "物"
+   ]
+  },
+  {
+   "word": "混ぜる",
+   "kana": "まぜる",
+   "romaji": "mazeru",
+   "meaning": "to mix",
+   "chars": [
+    "混"
+   ]
+  },
+  {
+   "word": "在庫",
+   "kana": "ざいこ",
+   "romaji": "zaiko",
+   "meaning": "stock; inventory",
+   "chars": [
+    "在",
+    "庫"
+   ]
+  },
+  {
+   "word": "国籍",
+   "kana": "こくせき",
+   "romaji": "kokuseki",
+   "meaning": "nationality",
+   "chars": [
+    "国",
+    "籍"
+   ]
+  },
+  {
+   "word": "郵便",
+   "kana": "ゆうびん",
+   "romaji": "yuubin",
+   "meaning": "mail; post",
+   "chars": [
+    "郵",
+    "便"
+   ]
+  },
+  {
+   "word": "跡",
+   "kana": "あと",
+   "romaji": "ato",
+   "meaning": "trace",
+   "chars": [
+    "跡"
+   ]
+  },
+  {
+   "word": "心臓",
+   "kana": "しんぞう",
+   "romaji": "shinzou",
+   "meaning": "heart (organ)",
+   "chars": [
+    "心",
+    "臓"
+   ]
+  },
+  {
+   "word": "奥さん",
+   "kana": "おくさん",
+   "romaji": "okusan",
+   "meaning": "wife",
+   "chars": [
+    "奥"
+   ]
+  },
+  {
+   "word": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "meaning": "to tidy up",
+   "chars": [
+    "片",
+    "付"
+   ]
+  },
+  {
+   "word": "児童",
+   "kana": "じどう",
+   "romaji": "jidou",
+   "meaning": "children",
+   "chars": [
+    "児",
+    "童"
+   ]
+  },
+  {
+   "word": "毛",
+   "kana": "け",
+   "romaji": "ke",
+   "meaning": "hair",
+   "chars": [
+    "毛"
+   ]
+  },
+  {
+   "word": "液",
+   "kana": "えき",
+   "romaji": "eki",
+   "meaning": "liquid",
+   "chars": [
+    "液"
+   ]
+  },
+  {
+   "word": "黄色",
+   "kana": "きいろ",
+   "romaji": "kiiro",
+   "meaning": "yellow",
+   "chars": [
+    "黄",
+    "色"
+   ]
+  },
+  {
+   "word": "柔軟",
+   "kana": "じゅうなん",
+   "romaji": "juunan",
+   "meaning": "flexible; soft",
+   "chars": [
+    "柔",
+    "軟"
+   ]
+  },
+  {
+   "word": "炭",
+   "kana": "すみ",
+   "romaji": "sumi",
+   "meaning": "charcoal",
+   "chars": [
+    "炭"
+   ]
+  },
+  {
+   "word": "湖",
+   "kana": "みずうみ",
+   "romaji": "mizuumi",
+   "meaning": "lake",
+   "chars": [
+    "湖"
+   ]
+  },
+  {
+   "word": "鉱山",
+   "kana": "こうざん",
+   "romaji": "kouzan",
+   "meaning": "mine",
+   "chars": [
+    "鉱",
+    "山"
+   ]
+  },
+  {
+   "word": "毒",
+   "kana": "どく",
+   "romaji": "doku",
+   "meaning": "poison",
+   "chars": [
+    "毒"
+   ]
+  },
+  {
+   "word": "綿",
+   "kana": "めん",
+   "romaji": "men",
+   "meaning": "cotton",
+   "chars": [
+    "綿"
+   ]
+  },
+  {
+   "word": "缶",
+   "kana": "かん",
+   "romaji": "kan",
+   "meaning": "can",
+   "chars": [
+    "缶"
+   ]
+  },
+  {
+   "word": "泥",
+   "kana": "どろ",
+   "romaji": "doro",
+   "meaning": "mud",
+   "chars": [
+    "泥"
+   ]
+  },
+  {
+   "word": "粒",
+   "kana": "つぶ",
+   "romaji": "tsubu",
+   "meaning": "grain",
+   "chars": [
+    "粒"
+   ]
+  },
+  {
+   "word": "塔",
+   "kana": "とう",
+   "romaji": "tou",
+   "meaning": "tower",
+   "chars": [
+    "塔"
+   ]
+  },
+  {
+   "word": "貝",
+   "kana": "かい",
+   "romaji": "kai",
+   "meaning": "shellfish",
+   "chars": [
+    "貝"
+   ]
+  },
+  {
+   "word": "挟む",
+   "kana": "はさむ",
+   "romaji": "hasamu",
+   "meaning": "to hold between (e.g. one's fingers, chopsticks)",
+   "chars": [
+    "挟"
+   ]
+  },
+  {
+   "word": "私鉄",
+   "kana": "してつ",
+   "romaji": "shitetsu",
+   "meaning": "private railway",
+   "chars": [
+    "私",
+    "鉄"
+   ]
+  },
+  {
+   "word": "交換",
+   "kana": "こうかん",
+   "romaji": "koukan",
+   "meaning": "exchange",
+   "chars": [
+    "交",
+    "換"
+   ]
+  },
+  {
+   "word": "占い",
+   "kana": "うらない",
+   "romaji": "uranai",
+   "meaning": "fortune-telling",
+   "chars": [
+    "占"
+   ]
+  },
+  {
+   "word": "伸びる",
+   "kana": "のびる",
+   "romaji": "nobiru",
+   "meaning": "to stretch",
+   "chars": [
+    "伸"
+   ]
+  },
+  {
+   "word": "伸び",
+   "kana": "のび",
+   "romaji": "nobi",
+   "meaning": "growth",
+   "chars": [
+    "伸"
+   ]
+  },
+  {
+   "word": "角度",
+   "kana": "かくど",
+   "romaji": "kakudo",
+   "meaning": "angle",
+   "chars": [
+    "角",
+    "度"
+   ]
+  },
+  {
+   "word": "雑貨",
+   "kana": "ざっか",
+   "romaji": "zakka",
+   "meaning": "miscellaneous goods",
+   "chars": [
+    "雑",
+    "貨"
+   ]
+  },
+  {
+   "word": "奥様",
+   "kana": "おくさま",
+   "romaji": "okusama",
+   "meaning": "wife",
+   "chars": [
+    "奥",
+    "様"
+   ]
+  },
+  {
+   "word": "片方",
+   "kana": "かたほう",
+   "romaji": "katahou",
+   "meaning": "one side",
+   "chars": [
+    "片",
+    "方"
+   ]
+  },
+  {
+   "word": "片手",
+   "kana": "かたて",
+   "romaji": "katate",
+   "meaning": "one hand",
+   "chars": [
+    "片",
+    "手"
+   ]
+  },
+  {
+   "word": "片道",
+   "kana": "かたみち",
+   "romaji": "katamichi",
+   "meaning": "one-way (trip)",
+   "chars": [
+    "片",
+    "道"
+   ]
+  },
+  {
+   "word": "木綿",
+   "kana": "もめん",
+   "romaji": "momen",
+   "meaning": "cotton (material)",
+   "chars": [
+    "木",
+    "綿"
+   ]
+  },
+  {
+   "word": "事業",
+   "kana": "じぎょう",
+   "romaji": "jigyou",
+   "meaning": "project",
+   "chars": [
+    "事",
+    "業"
+   ]
+  },
+  {
+   "word": "業者",
+   "kana": "ぎょうしゃ",
+   "romaji": "gyousha",
+   "meaning": "trader",
+   "chars": [
+    "業",
+    "者"
+   ]
+  },
+  {
+   "word": "買収",
+   "kana": "ばいしゅう",
+   "romaji": "baishuu",
+   "meaning": "acquisition (esp. corporate)",
+   "chars": [
+    "買",
+    "収"
+   ]
+  },
+  {
+   "word": "資本",
+   "kana": "しほん",
+   "romaji": "shihon",
+   "meaning": "capital",
+   "chars": [
+    "資",
+    "本"
+   ]
+  },
+  {
+   "word": "役員",
+   "kana": "やくいん",
+   "romaji": "yakuin",
+   "meaning": "director",
+   "chars": [
+    "役",
+    "員"
+   ]
+  },
+  {
+   "word": "規模",
+   "kana": "きぼ",
+   "romaji": "kibo",
+   "meaning": "scale",
+   "chars": [
+    "規"
+   ]
+  },
+  {
+   "word": "商談",
+   "kana": "しょうだん",
+   "romaji": "shoudan",
+   "meaning": "business discussion",
+   "chars": [
+    "商",
+    "談"
+   ]
+  },
+  {
+   "word": "合併",
+   "kana": "がっぺい",
+   "romaji": "gappei",
+   "meaning": "merger, amalgamation",
+   "chars": [
+    "合",
+    "併"
+   ]
+  },
+  {
+   "word": "埋める",
+   "kana": "うめる",
+   "romaji": "umeru",
+   "meaning": "to bury; to fill in",
+   "chars": [
+    "埋"
+   ]
+  }
+ ]
 }

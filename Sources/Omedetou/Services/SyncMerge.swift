@@ -9,7 +9,6 @@ import Foundation
 //
 // Both documents happen to have shapes that merge honestly:
 //   • review memories are keyed by item id, and a review only ever moves an item
-//     forward, so per item the later `lastReview` wins;
 //   • exam attempts are immutable once sat, so the union by id is exactly right.
 //
 // Scalars that are genuinely settings rather than history (how many days you get
@@ -20,53 +19,6 @@ enum SyncMerge {
 
     /// Which copy was modified more recently. Only consulted for plain settings.
     enum Newer { case local, remote }
-
-    // MARK: - Review schedule
-
-    static func mergeSRS(local: SRSStore.Stored, remote: SRSStore.Stored,
-                         newer: Newer) -> SRSStore.Stored {
-        var out = SRSStore.Stored()
-
-        // Per item, the copy that saw it more recently. Ties break on reps, so a
-        // review recorded in the same second as another isn't silently dropped.
-        var memories = local.memories
-        for (key, r) in remote.memories {
-            guard let l = memories[key] else { memories[key] = r; continue }
-            if r.lastReview > l.lastReview { memories[key] = r }
-            else if r.lastReview == l.lastReview && r.reps > l.reps { memories[key] = r }
-        }
-        out.memories = memories
-
-        // Reviews-ever is reconstructed from the merged items rather than added
-        // up, because summing two copies would double-count all the shared
-        // history. Never allowed to go backwards.
-        let fromReps = memories.values.reduce(0) { $0 + $1.reps }
-        out.totalReviews = max(fromReps, max(local.totalReviews, remote.totalReviews))
-
-        out.lastStudyDay = latest(local.lastStudyDay, remote.lastStudyDay)
-        // The later finish wins: a round done on either device starts the wait.
-        out.lastReviewFinished = latest(local.lastReviewFinished, remote.lastReviewFinished)
-
-        // Today's counter only means anything within one day. Same day: take the
-        // larger, since the two can't be added without knowing the overlap.
-        let cal = Calendar.current
-        switch (local.reviewsTodayDay, remote.reviewsTodayDay) {
-        case let (l?, r?) where cal.isDate(l, inSameDayAs: r):
-            out.reviewsTodayDay = l
-            out.reviewsToday = max(local.reviewsToday, remote.reviewsToday)
-        case let (l?, r?):
-            let localNewer = l > r
-            out.reviewsTodayDay = localNewer ? l : r
-            out.reviewsToday = localNewer ? local.reviewsToday : remote.reviewsToday
-        case let (l?, nil):
-            out.reviewsTodayDay = l; out.reviewsToday = local.reviewsToday
-        case let (nil, r?):
-            out.reviewsTodayDay = r; out.reviewsToday = remote.reviewsToday
-        case (nil, nil):
-            break
-        }
-        return out
-    }
 
     // MARK: - Report card
 

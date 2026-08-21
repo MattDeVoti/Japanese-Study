@@ -339,11 +339,11 @@ struct CompassRose: View {
     var body: some View {
         VStack(spacing: 10) {
             dial
-            // What the hands actually say — the point of drawing them at all.
+            // Which way is up — the convention the whole rose depends on.
             HStack(spacing: 6) {
-                Text("4時半").font(.system(size: 15, weight: .bold)).foregroundColor(.appText)
-                Text("よじはん").font(.system(size: 12)).foregroundColor(.appTextSecondary)
-                Text("· half past four").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+                Text("北").font(.system(size: 15, weight: .bold)).foregroundColor(.appText)
+                Text("きた").font(.system(size: 12)).foregroundColor(.appTextSecondary)
+                Text("· north is at the top").font(.system(size: 12)).foregroundColor(.appTextSecondary)
             }
             .padding(.horizontal, 12).padding(.vertical, 5)
             .background(Capsule().fill(tint.opacity(0.14)))

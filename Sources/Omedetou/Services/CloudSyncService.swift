@@ -108,7 +108,6 @@ final class CloudSyncService: ObservableObject {
                 status = .noAccount
                 return
             }
-            try await syncSRS()
             try await syncExams()
             SettingsSync.shared.push()
             status = .ok(Date())
@@ -122,14 +121,6 @@ final class CloudSyncService: ObservableObject {
     }
 
     // MARK: - The two documents
-
-    private func syncSRS() async throws {
-        let store = SRSStore.shared
-        try await reconcile(name: store.snapshotName,
-                            local: store.snapshot(),
-                            merge: SyncMerge.mergeSRS,
-                            adopt: { store.adopt($0) })
-    }
 
     private func syncExams() async throws {
         let store = ExamStore.shared

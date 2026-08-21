@@ -152,6 +152,7 @@ struct DictionaryDetailView: View {
                         // Favorite star (top-left)
                         Button {
                             isFavorite = DictionaryService.shared.toggleFavorite(id: entry.id)
+                            FeedbackSounds.shared.playFavorite(isFavorite)
                         } label: {
                             Image(systemName: isFavorite ? "star.fill" : "star")
                                 .font(.title2)
@@ -246,6 +247,7 @@ struct DictionaryDetailView: View {
                             ForEach(sections, id: \.title) { section in
                                 ConjugationSectionView(section: section,
                                                        isExpanded: expandedSections.contains(section.title)) {
+                                    FeedbackSounds.shared.play(.slide)
                                     if expandedSections.contains(section.title) {
                                         expandedSections.remove(section.title)
                                     } else {

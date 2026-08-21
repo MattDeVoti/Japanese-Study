@@ -16,6 +16,7 @@ struct KanaCharacterCard: View {
 
             // Header — always visible
             Button {
+                FeedbackSounds.shared.play(.slide)
                 withAnimation(.easeInOut(duration: 0.22)) { isExpanded.toggle() }
             } label: {
                 HStack(alignment: .center, spacing: 14) {
@@ -48,6 +49,7 @@ struct KanaCharacterCard: View {
 
                         Button {
                             store.toggleFavorite(chapterId: chapterId, pointId: point.id)
+                            FeedbackSounds.shared.playFavorite(isFavorite)
                         } label: {
                             Image(systemName: isFavorite ? "star.fill" : "star")
                                 .font(.system(size: 15))
@@ -56,6 +58,7 @@ struct KanaCharacterCard: View {
                         .buttonStyle(.plain)
 
                         Button {
+                            FeedbackSounds.shared.play(.notification)
                             store.toggleCompleted(chapterId: chapterId, pointId: point.id)
                         } label: {
                             ZStack {

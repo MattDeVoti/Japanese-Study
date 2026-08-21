@@ -26,6 +26,8 @@ struct StudyListView: View {
 
                     testOutCard
 
+                    chapterLinks
+
                     VStack(alignment: .leading, spacing: 3) {
                         Text("What to review")
                             .font(.system(size: 20, weight: .bold))
@@ -97,6 +99,60 @@ struct StudyListView: View {
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
+    }
+
+    // MARK: - Straight to the chapter
+
+    /// The lesson itself, one tap away.
+    ///
+    /// Everything below this point is a *list* of what the paper can ask —
+    /// useful for checking off, useless for actually learning something you've
+    /// forgotten. This is the way back to the teaching: the explanations,
+    /// examples and diagrams the summary can only name. A kana part covers
+    /// several chapters, so each gets its own row.
+    @ViewBuilder
+    private var chapterLinks: some View {
+        if !chapters.isEmpty {
+            VStack(spacing: 8) {
+                ForEach(chapters, id: \.id) { chapter in
+                    NavigationLink {
+                        if let summary = LessonsService.shared.chapterSummary(for: chapter.id) {
+                            ChapterDetailView(summary: summary, accentColor: accent(for: chapter.id))
+                        }
+                    } label: {
+                        HStack(spacing: 10) {
+                            Image(systemName: "book.fill")
+                                .font(.system(size: 14, weight: .bold))
+                                .foregroundColor(accent(for: chapter.id))
+                                .frame(width: 30, height: 30)
+                                .background(Circle().fill(accent(for: chapter.id).opacity(0.15)))
+                            VStack(alignment: .leading, spacing: 1) {
+                                Text(chapters.count > 1 ? chapter.title : "Study this chapter")
+                                    .font(.system(size: 15, weight: .semibold))
+                                    .foregroundColor(.appText)
+                                Text(chapters.count > 1
+                                     ? "Chapter \(chapter.chapterNumber)"
+                                     : "\(chapter.title) — grammar, vocab and kanji in full")
+                                    .font(.system(size: 11))
+                                    .foregroundColor(.appTextSecondary)
+                                    .lineLimit(1)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 12, weight: .bold))
+                                .foregroundColor(.appTextSecondary)
+                        }
+                        .padding(14)
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color.appSurface))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+        }
+    }
+
+    private func accent(for chapterId: String) -> Color {
+        levelAccentColor(LessonsService.shared.levelId(for: chapterId) ?? lesson.levelId)
     }
 
     // MARK: - Test out
@@ -222,22 +278,12 @@ struct StudyListView: View {
                 }
             }
 
-            let kanji = chapter.kanjiChars
-            if !kanji.isEmpty {
-                section("Kanji (\(kanji.count))", .kanjiColor) {
-                    let wanted = Set(kanji)
-                    let cards = cardStore.kanjiCards.filter { wanted.contains($0.kanji) }
-                    LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 6),
-                              spacing: 8) {
-                        ForEach(cards, id: \.id) { c in
-                            Text(c.kanji)
-                                .font(.system(size: 24, weight: .medium))
-                                .foregroundColor(.appText)
-                                .frame(maxWidth: .infinity, minHeight: 44)
-                                .background(RoundedRectangle(cornerRadius: 8)
-                                    .fill(cardStore.isKanjiExcluded(c.id)
-                                          ? Color.kanjiColor.opacity(0.18) : Color.appSurfaceHigh))
-                        }
+            let kanjiWords = chapter.kanjiWords ?? []
+            if !kanjiWords.isEmpty {
+                section("Kanji Words (\(kanjiWords.count))", .kanjiColor) {
+                    ForEach(kanjiWords.prefix(60)) { w in
+                        itemRow(title: "\(w.word)   \(w.kana)", subtitle: w.meaning,
+                                done: cardStore.isKanjiExcluded(w.id))
                     }
                 }
             }

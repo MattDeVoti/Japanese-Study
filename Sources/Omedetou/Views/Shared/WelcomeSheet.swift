@@ -8,8 +8,10 @@ import SwiftUI
 // order — the free access reads as a thank-you that way round, and as a bribe the
 // other.
 //
-// The third point is a promise, so it is backed by a record in BetaAccess rather
-// than by this text alone.
+// The third point is a promise while the beta is open, so it is backed by a
+// record in BetaAccess rather than by this text alone. Once the beta closes that
+// promise stops applying to new arrivals, and the slot says what is free instead
+// — the one thing a sheet like this must never do is overstate what someone has.
 
 struct WelcomeSheet: View {
     @Environment(\.dismiss) private var dismiss
@@ -29,8 +31,16 @@ struct WelcomeSheet: View {
                         point("envelope.fill", "Tell me what's broken",
                               "Tap the gear on the home screen and choose Send Feedback. If a translation looks wrong, or something doesn't work, that's the quickest way to get it fixed.")
 
-                        point("star.fill", "You're early, so it's yours",
-                              "Some features will cost money later on. Because you're here during the beta, you keep full access to all of them — permanently, at no charge. You will never be asked to pay.")
+                        if BetaAccess.periodIsOpen {
+                            point("star.fill", "You're early, so it's yours",
+                                  "Some features will cost money later on. Because you're here during the beta, you keep full access to all of them — permanently, at no charge. You will never be asked to pay.")
+                        } else {
+                            // The same slot, telling the truth to someone who
+                            // arrived after the beta: what they have without
+                            // paying, said plainly and before they hit a lock.
+                            point("star.fill", "Free to start",
+                                  "Both kana syllabaries, the first two chapters, the dictionary and the tests are free for good — no account, no time limit. The rest of the course is a subscription, and everything behind it is marked with a lock.")
+                        }
                     }
 
                     startButton

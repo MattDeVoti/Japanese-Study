@@ -160,12 +160,12 @@
     "japanese": null,
     "choices": [
       "笑[わら]わずにはいられなかった。",
-      "笑[わら]わざるを得なかった。",
+      "笑[わら]わないにはいられなかった。",
       "笑[わら]いかねなかった。",
       "笑[わら]うどころではなかった。"
     ],
     "correctIndex": 0,
-    "explanation": "～ずにはいられない = ‘can’t help but (an irrepressible urge)’. ～ざるを得ない = ‘have no choice but (obligation/circumstance)’ — the former is emotional, the latter is forced necessity."
+    "explanation": "～ずにはいられない = ‘can’t help but (an irrepressible urge)’. The pattern is fixed with the ず-form: 笑わずには (not 笑わないには) いられない; かねない = ‘might well’, どころではない = ‘no situation for’."
   },
   {
     "id": "n2_q013",
@@ -286,12 +286,12 @@
     "japanese": null,
     "choices": [
       "よく考[かんが]えた末[すえ]に、留学[りゅうがく]を決[き]めた。",
-      "よく考[かんが]えたあげく、留学[りゅうがく]を決[き]めた。",
+      "よく考[かんが]える末[すえ]に、留学[りゅうがく]を決[き]めた。",
       "よく考[かんが]えたばかりに、留学[りゅうがく]を決[き]めた。",
       "よく考[かんが]えたところで、留学[りゅうがく]を決[き]めた。"
     ],
     "correctIndex": 0,
-    "explanation": "～た末に = ‘after (a long process), finally…’, neutral about the result. あげく usually leads to a NEGATIVE/regrettable outcome, so it’s a poorer fit for a considered decision."
+    "explanation": "～た末に = ‘after (a long process), finally…’, neutral about the result. 末に follows the た-form (考えた末に) or N+の (考えの末に); the dictionary form 考える末に is wrong. ばかりに/ところで mean ‘just because’/‘even if’."
   },
   {
     "id": "n2_q022",
@@ -342,12 +342,12 @@
     "japanese": null,
     "choices": [
       "成績[せいせき]に応[おう]じて、ボーナスが変[か]わる。",
-      "成績[せいせき]に基[もと]づいて、ボーナスが変[か]わる。",
+      "成績[せいせき]にかかわらず、ボーナスが変[か]わる。",
       "成績[せいせき]に沿って、ボーナスが変[か]わる。",
       "成績[せいせき]に伴って、ボーナスが変[か]わる。"
     ],
     "correctIndex": 0,
-    "explanation": "～に応じて = ‘in accordance with / depending on (it flexibly varies)’. に基づいて = ‘based on (a fixed foundation)’, に沿って = ‘along (a guideline)’ — here the flexible variation is に応じて."
+    "explanation": "～に応じて = ‘in accordance with / depending on (it flexibly varies)’. にかかわらず = ‘regardless of’ (the opposite), に沿って = ‘along (a guideline)’, に伴って = ‘accompanying (a change/event)’ — the flexible variation is に応じて."
   },
   {
     "id": "n2_q026",
@@ -356,12 +356,12 @@
     "japanese": null,
     "choices": [
       "データに基[もと]づいて、決定[けってい]する。",
-      "データに応[おう]じて、決定[けってい]する。",
+      "データを基[もと]づいて、決定[けってい]する。",
       "データに反[はん]して、決定[けってい]する。",
       "データにかけて、決定[けってい]する。"
     ],
     "correctIndex": 0,
-    "explanation": "～に基づいて = ‘based on / on the basis of (a fixed source)’. に応じて implies flexible variation; に反して = ‘contrary to’ — the ‘grounded in data’ meaning is に基づいて."
+    "explanation": "～に基づいて = ‘based on / on the basis of (a fixed source)’. 基づく always takes に (データに基づいて), never を; に反して = ‘contrary to’, にかけて = ‘over (a span)’ — the ‘grounded in data’ meaning is に基づいて."
   },
   {
     "id": "n2_q027",
@@ -468,12 +468,12 @@
     "japanese": null,
     "choices": [
       "それは言[い]い訳[わけ]にすぎない。",
-      "それは言[い]い訳[わけ]にほかならない。",
+      "それは言[い]い訳[わけ]にかねない。",
       "それは言[い]い訳[わけ]どころではない。",
       "それは言[い]い訳[わけ]に限る。"
     ],
     "correctIndex": 0,
-    "explanation": "～にすぎない = ‘is nothing more than / merely’. にほかならない = ‘is nothing but / precisely is’ (emphatic identification) — a subtle but opposite emphasis (dismissive vs affirming)."
+    "explanation": "～にすぎない = ‘is nothing more than / merely’. かねない attaches only to a verb stem (起こしかねない), so 言い訳にかねない is ungrammatical; どころではない = ‘no situation for’, に限る = ‘nothing beats’."
   },
   {
     "id": "n2_q035",
@@ -884,7 +884,7 @@
   {
     "id": "n2_q064",
     "type": "usage",
-    "prompt": "‘Judging even from his attitude, he’s clearly guilty.’ (from just one telling point)",
+    "prompt": "‘Judging even from his attitude, he’s clearly suspicious.’ (from just one telling point)",
     "japanese": null,
     "choices": [
       "態度[たいど]からして、明[あき]らかに怪[あや]しい。",
@@ -929,7 +929,7 @@
     "prompt": "‘It’s true he’s young, but he’s very reliable.’ (concede a point, then counter)",
     "japanese": null,
     "choices": [
-      "若[わか]くこそあるが、とても頼[たよ]りになる。",
+      "年[とし]こそ若[わか]いが、とても頼[たよ]りになる。",
       "若[わか]いあまりだが、とても頼[たよ]りになる。",
       "若[わか]いどころだが、とても頼[たよ]りになる。",
       "若[わか]い次第だが、とても頼[たよ]りになる。"
@@ -1150,7 +1150,7 @@
   {
     "id": "n2_q083",
     "type": "usage",
-    "prompt": "Which連結 gives an emphatic personal REASON, not a contrast?",
+    "prompt": "Which connector gives an emphatic personal REASON, not a contrast?",
     "japanese": null,
     "choices": [
       "安[やす]かったものだから、つい買[か]いすぎた。",

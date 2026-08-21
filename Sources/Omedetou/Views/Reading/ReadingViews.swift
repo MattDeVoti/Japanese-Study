@@ -441,7 +441,13 @@ private struct QuestionCard: View {
             return Color.appHairline
         }()
         return Button {
-            if selected == nil { selected = idx }
+            guard selected == nil else { return }
+            if idx == question.correctIndex {
+                FeedbackSounds.shared.playCorrectVariation()
+            } else {
+                FeedbackSounds.shared.play(.incorrect)
+            }
+            selected = idx
         } label: {
             HStack(spacing: 10) {
                 Text(letters[idx])

@@ -36,10 +36,8 @@ struct ChapterDetailView: View {
         matches([w.kanji, w.kana, w.romaji, w.definition, w.partOfSpeech])
     }
 
-    private func kanjiMatches(_ k: String) -> Bool {
-        let card = cardStore.kanjiCard(for: k)
-        let readings = ((card?.onyomi ?? []) + (card?.kunyomi ?? [])).flatMap { [$0.kana, $0.romaji] }
-        return matches([k, card?.definition ?? ""] + readings)
+    private func kanjiWordMatches(_ w: ChapterKanjiWord) -> Bool {
+        matches([w.word, w.kana, w.romaji, w.meaning] + w.chars)
     }
 
     var body: some View {
@@ -49,7 +47,7 @@ struct ChapterDetailView: View {
             if let chapter = chapter {
                 let points = chapter.points.filter(pointMatches)
                 let vocab = (chapter.vocab ?? []).filter(wordMatches)
-                let kanjiChars = chapter.kanjiChars.filter(kanjiMatches)
+                let kanjiWords = (chapter.kanjiWords ?? []).filter(kanjiWordMatches)
 
                 VStack(spacing: 0) {
                     SearchBar(text: $query,
@@ -66,10 +64,10 @@ struct ChapterDetailView: View {
 
                     if isSearching && searchAllLessons {
                         LessonSearchResultsView(results: globalResults, query: query)
-                    } else if isSearching && points.isEmpty && vocab.isEmpty && kanjiChars.isEmpty {
+                    } else if isSearching && points.isEmpty && vocab.isEmpty && kanjiWords.isEmpty {
                         noMatches
                     } else {
-                        chapterBody(chapter, points: points, vocab: vocab, kanjiChars: kanjiChars)
+                        chapterBody(chapter, points: points, vocab: vocab, kanjiWords: kanjiWords)
                     }
                 }
             } else {
@@ -108,7 +106,7 @@ struct ChapterDetailView: View {
     }
 
     private func chapterBody(_ chapter: LessonChapter, points: [GrammarPoint],
-                             vocab: [LessonVocabWord], kanjiChars: [String]) -> some View {
+                             vocab: [LessonVocabWord], kanjiWords: [ChapterKanjiWord]) -> some View {
         ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: 12) {
@@ -146,7 +144,7 @@ struct ChapterDetailView: View {
                                 .background(accentColor)
                                 .cornerRadius(12)
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .padding(.top, 4)
                         }
 
@@ -174,28 +172,28 @@ struct ChapterDetailView: View {
                             }
                         }
 
-                        // Kanji for this chapter (same N-level), shown below the vocab.
-                        if !kanjiChars.isEmpty {
+                        // Kanji for this chapter, taught as words: the reading
+                        // practice for the same vocabulary the chapter teaches,
+                        // plus the essential words of its kanji.
+                        if !kanjiWords.isEmpty {
                             VStack(alignment: .leading, spacing: 8) {
-                                SectionHeading("Kanji")
+                                SectionHeading("Kanji Words")
                                     .padding(.top, 10)
 
                                 LazyVGrid(
-                                    columns: [GridItem(.adaptive(minimum: 78), spacing: 8)],
+                                    columns: [GridItem(.adaptive(minimum: 108), spacing: 8)],
                                     alignment: .leading, spacing: 8
                                 ) {
-                                    ForEach(kanjiChars, id: \.self) { kc in
-                                        if let card = cardStore.kanjiCard(for: kc) {
-                                            KanjiExcludeCell(card: card)
-                                                .addToCustomLesson(.kanji(char: card.kanji))
-                                        }
+                                    ForEach(kanjiWords) { entry in
+                                        KanjiWordExcludeCell(entry: entry)
+                                            .addToCustomLessonKanji(chars: entry.chars)
                                     }
                                 }
 
                                 if !isSearching {
                                     NavigationLink {
                                         KanjiStudyView(lockedChapter: LockedKanjiChapter(
-                                            title: chapter.title, kanji: kanjiChars))
+                                            title: chapter.title, words: chapter.kanjiWords ?? []))
                                     } label: {
                                         StudyButtonLabel(title: "Study Kanji", accent: accentColor)
                                     }
@@ -237,6 +235,7 @@ struct KanjiExcludeCell: View {
             .buttonStyle(.plain)
 
             Button {
+                FeedbackSounds.shared.play(.notification)
                 cardStore.toggleKanjiExcluded(cardId: card.id)
             } label: {
                 Image(systemName: cardStore.isKanjiExcluded(card.id) ? "checkmark.circle.fill" : "checkmark.circle")
@@ -326,19 +325,21 @@ struct GrammarPointCard: View {
 
                 // Left side — tapping expands/collapses
                 Button {
+                    FeedbackSounds.shared.play(.slide)
                     withAnimation(.easeInOut(duration: 0.22)) { isExpanded.toggle() }
                 } label: {
                     HStack(alignment: .top, spacing: 12) {
                         RoundedRectangle(cornerRadius: 3)
                             .fill(accentColor)
                             .frame(width: 4)
-                            .frame(minHeight: 38)
+                            .frame(minHeight: 44)
 
                         VStack(alignment: .leading, spacing: 4) {
-                            FuriganaText(text: point.name, fontSize: 16, weight: .semibold)
+                            FuriganaText(text: point.name,
+                                         fontSize: LessonType.titleSize, weight: .bold)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                             Text(point.shortDescription)
-                                .font(.system(size: 13))
+                                .font(.system(size: LessonType.subtitleSize))
                                 .foregroundColor(.appTextSecondary)
                                 .multilineTextAlignment(.leading)
                                 .fixedSize(horizontal: false, vertical: true)
@@ -358,6 +359,7 @@ struct GrammarPointCard: View {
                 // Favorite star
                 Button {
                     store.toggleFavorite(chapterId: chapterId, pointId: point.id)
+                    FeedbackSounds.shared.playFavorite(isFavorite)
                 } label: {
                     Image(systemName: isFavorite ? "star.fill" : "star")
                         .font(.system(size: 15))
@@ -367,6 +369,7 @@ struct GrammarPointCard: View {
 
                 // Completed circle-check
                 Button {
+                    FeedbackSounds.shared.play(.notification)
                     store.toggleCompleted(chapterId: chapterId, pointId: point.id)
                 } label: {
                     ZStack {
@@ -385,6 +388,7 @@ struct GrammarPointCard: View {
 
                 // Chevron — also toggles expand
                 Button {
+                    FeedbackSounds.shared.play(.slide)
                     withAnimation(.easeInOut(duration: 0.22)) { isExpanded.toggle() }
                 } label: {
                     Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
@@ -402,28 +406,33 @@ struct GrammarPointCard: View {
                 Divider()
                     .padding(.horizontal, 14)
 
-                VStack(alignment: .leading, spacing: 16) {
+                VStack(alignment: .leading, spacing: 20) {
 
                     // Formation
-                    VStack(alignment: .leading, spacing: 5) {
+                    VStack(alignment: .leading, spacing: 8) {
                         SectionLabel(title: "Formation", icon: "chevron.left.forwardslash.chevron.right")
-                        FuriganaText(text: point.formation, fontSize: 14, color: accentColor, weight: .medium)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 7)
+                        FuriganaText(text: point.formation,
+                                     fontSize: LessonType.formationSize,
+                                     color: accentColor, weight: .semibold)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 10)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .background(accentColor.opacity(0.08))
                             .cornerRadius(7)
                     }
 
                     // Explanation
-                    VStack(alignment: .leading, spacing: 5) {
+                    VStack(alignment: .leading, spacing: 8) {
                         SectionLabel(title: "Explanation", icon: "text.alignleft")
-                        ExplanationBody(text: point.explanation, fontSize: 14, color: .appText, bulletColor: accentColor)
+                        ExplanationBody(text: point.explanation,
+                                        fontSize: LessonType.bodySize,
+                                        color: .appText, bulletColor: accentColor,
+                                        extraLeading: LessonType.bodyLeading)
                     }
 
                     // Visual aid (only the handful of points that have one)
                     if let visual = GrammarVisual.forPoint(point.id) {
-                        VStack(alignment: .leading, spacing: 5) {
+                        VStack(alignment: .leading, spacing: 8) {
                             SectionLabel(title: "Diagram", icon: "map")
                             visual.view(accent: accentColor)
                         }
@@ -431,15 +440,18 @@ struct GrammarPointCard: View {
 
                     // Rules
                     if !point.rules.isEmpty {
-                        VStack(alignment: .leading, spacing: 5) {
+                        VStack(alignment: .leading, spacing: 8) {
                             SectionLabel(title: "Key Rules", icon: "list.bullet")
                             VStack(alignment: .leading, spacing: 5) {
                                 ForEach(point.rules, id: \.self) { rule in
-                                    HStack(alignment: .top, spacing: 7) {
+                                    HStack(alignment: .top, spacing: 8) {
                                         Text("•")
-                                            .font(.system(size: 14, weight: .semibold))
+                                            .font(.system(size: LessonType.detailSize, weight: .bold))
                                             .foregroundColor(accentColor)
-                                        FuriganaText(text: rule, fontSize: 13, color: .appText)
+                                        FuriganaText(text: rule,
+                                                     fontSize: LessonType.detailSize,
+                                                     color: .appText,
+                                                     extraLeading: LessonType.detailLeading)
                                             .fixedSize(horizontal: false, vertical: true)
                                     }
                                 }
@@ -448,7 +460,7 @@ struct GrammarPointCard: View {
                     }
 
                     // Examples
-                    VStack(alignment: .leading, spacing: 5) {
+                    VStack(alignment: .leading, spacing: 8) {
                         SectionLabel(title: "Examples", icon: "text.bubble")
                         VStack(spacing: 8) {
                             ForEach(point.examples.indices, id: \.self) { i in
@@ -506,9 +518,13 @@ struct SectionLabel: View {
                 .foregroundColor(accent)
                 .frame(width: 20, height: 20)
                 .background(Circle().fill(accent.opacity(0.15)))
-            Text(title)
-                .font(.system(size: 12, weight: .bold))
-                .foregroundColor(.appText)
+            Text(title.uppercased())
+                .font(.system(size: LessonType.labelSize, weight: .bold))
+                .tracking(LessonType.labelTracking)
+                // Nudged if the theme's accent is too pale to read as text. The
+                // icon above can sit at raw accent because it has a tinted disc
+                // behind it; eleven-point letters on the card surface cannot.
+                .foregroundColor(Color.readableOnPage(accent))
         }
     }
 }
@@ -534,16 +550,18 @@ struct ExampleCard: View {
         // last line was cut off. Pinning the speaker makes the text width
         // deterministic, so the measured height is the drawn height.
         HStack(alignment: .top, spacing: 6) {
-            VStack(alignment: .leading, spacing: 3) {
-                FuriganaText(text: example.japanese, fontSize: 15)
+            VStack(alignment: .leading, spacing: 5) {
+                FuriganaText(text: example.japanese,
+                             fontSize: LessonType.formationSize,
+                             extraLeading: LessonType.detailLeading)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 Text(example.romaji)
-                    .font(.system(size: 12))
+                    .font(.system(size: 13))
                     .foregroundColor(.appTextSecondary)
                     .italic()
                     .fixedSize(horizontal: false, vertical: true)
                 Text(example.english)
-                    .font(.system(size: 12, weight: .medium))
+                    .font(.system(size: 13, weight: .medium))
                     .foregroundColor(.appTextSecondary)
                     .fixedSize(horizontal: false, vertical: true)
             }
@@ -591,6 +609,7 @@ struct VocabWordRow: View {
     private func directionMark(_ direction: CardDirection, label: String) -> some View {
         let on = vocabFilter.isExcluded(word.id, direction: direction)
         return Button {
+            FeedbackSounds.shared.play(.notification)
             vocabFilter.toggleExcluded(word.id, direction: direction)
         } label: {
             VStack(spacing: 1) {

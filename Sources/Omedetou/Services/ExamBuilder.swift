@@ -18,7 +18,10 @@ struct ExamQuestion: Identifiable {
     let correctIndex: Int
     let explanation: String?
     /// What to put into the review schedule if this is missed.
-    let reviewItem: SRSItemID?
+    /// What the question was about. Only used to count *distinct* items missed
+    /// on the results screen — two questions on the same word are one thing to
+    /// go back over.
+    let reviewItem: StudyItemRef?
 
     var correctAnswer: String { choices[correctIndex] }
 }
@@ -46,13 +49,13 @@ enum ExamBuilder {
               let chapter = LessonsService.shared.loadChapter(chapterId) else { return [] }
 
         let vocab = chapter.vocab ?? []
-        let kanji = chapter.kanji ?? []
+        let kanjiWords = chapter.kanjiWords ?? []
 
         // 40 / 35 / 25, with any section the chapter lacks giving its share back.
         var weights: [ExamSection: Double] = [:]
         weights[.grammar] = chapter.points.isEmpty ? 0 : 0.40
         weights[.vocab]   = vocab.isEmpty ? 0 : 0.35
-        weights[.kanji]   = kanji.isEmpty ? 0 : 0.25
+        weights[.kanji]   = kanjiWords.isEmpty ? 0 : 0.25
         let total = weights.values.reduce(0, +)
         guard total > 0 else { return [] }
 
@@ -61,7 +64,7 @@ enum ExamBuilder {
                                 count: share(weights[.grammar]!, total, standardLength))
         out += vocabQuestions(words: vocab, chapterId: chapterId,
                               count: share(weights[.vocab]!, total, standardLength))
-        out += kanjiQuestions(kanji: kanji, cardStore: cardStore,
+        out += kanjiQuestions(words: kanjiWords,
                               count: share(weights[.kanji]!, total, standardLength))
 
         // Rounding and un-buildable questions leave papers short, which quietly
@@ -168,50 +171,49 @@ enum ExamBuilder {
 
     // MARK: - Kanji
 
-    /// Kanji questions, asked from what the chapter taught.
+    /// Kanji questions, asked from the words the chapter teaches its kanji in.
     ///
-    /// Everything here comes from the chapter's own entry rather than the kanji
-    /// card. The card is a reference work — every reading the character has, and
-    /// a definition covering all of them — and asking from it produced questions
-    /// that were true but unrecognisable: 分, learned as ふん in Telling Time,
-    /// answered 分ける. The chapter knows it taught ふん, "minute", so that is
-    /// what is asked, and the wrong answers are drawn from what other chapters
-    /// taught, which keeps every option something the learner has actually seen.
-    private static func kanjiQuestions(kanji: [ChapterKanji], cardStore: CardStore,
+    /// The subject is always a whole word — 高い, 校長 — never a bare character,
+    /// because that is how the lessons now teach kanji: as parts of words. Wrong
+    /// answers are drawn from other chapters' kanji words, which keeps every
+    /// option something the course actually teaches.
+    private static func kanjiQuestions(words: [ChapterKanjiWord],
                                        count: Int) -> [ExamQuestion] {
-        guard count > 0, !kanji.isEmpty else { return [] }
+        guard count > 0, !words.isEmpty else { return [] }
 
-        // Distractors come from the whole course, so a four-kanji chapter still
-        // has a pool — but never from a chapter entry sharing this character.
-        let everything = LessonsService.shared.allKanjiEntries()
+        // Distractors come from the whole course, so a small chapter still has
+        // a pool — but never from a word sharing a character with the subject,
+        // whose reading or meaning can be close enough to also look right.
+        let everything = LessonsService.shared.allKanjiWords().map(\.word)
 
         var out: [ExamQuestion] = []
-        for entry in kanji.shuffled().prefix(count) {
-            let others = everything.filter { $0.char != entry.char }
-            // The subject is the form it was taught in: 高い, not a bare 高.
-            let subject = entry.word
+        for entry in words.shuffled().prefix(count) {
+            let chars = Set(entry.chars)
+            let others = everything.filter { other in
+                other.id != entry.id && !other.chars.contains(where: chars.contains)
+            }
 
-            if Bool.random(), !entry.reading.isEmpty {
-                // Any other chapter that teaches this same reading has to come
-                // out of the pool, or two options would be right at once.
-                let pool = others.map(\.reading)
-                    .filter { !$0.isEmpty && $0 != entry.reading }
-                guard let choices = pick(distractors: pool, correct: entry.reading) else { continue }
+            if Bool.random(), !entry.kana.isEmpty {
+                // Any word read the same way has to come out of the pool, or
+                // two options would be right at once.
+                let pool = others.map(\.kana)
+                    .filter { !$0.isEmpty && $0 != entry.kana }
+                guard let choices = pick(distractors: pool, correct: entry.kana) else { continue }
                 out.append(ExamQuestion(
-                    id: "k:\(entry.char):r", section: .kanji,
-                    prompt: "How is this read?", subject: subject,
-                    choices: choices, correctIndex: choices.firstIndex(of: entry.reading) ?? 0,
-                    explanation: "\(subject) (\(entry.reading)) — \(entry.meaning)",
-                    reviewItem: .kanji(entry.char)))
+                    id: "k:\(entry.id):r", section: .kanji,
+                    prompt: "How is this read?", subject: entry.word,
+                    choices: choices, correctIndex: choices.firstIndex(of: entry.kana) ?? 0,
+                    explanation: "\(entry.word) (\(entry.kana)) — \(entry.meaning)",
+                    reviewItem: .kanji(entry.id)))
             } else {
                 let pool = others.map(\.meaning).filter { !$0.isEmpty && $0 != entry.meaning }
                 guard let choices = pick(distractors: pool, correct: entry.meaning) else { continue }
                 out.append(ExamQuestion(
-                    id: "k:\(entry.char):m", section: .kanji,
-                    prompt: "What does this mean?", subject: subject,
+                    id: "k:\(entry.id):m", section: .kanji,
+                    prompt: "What does this mean?", subject: entry.word,
                     choices: choices, correctIndex: choices.firstIndex(of: entry.meaning) ?? 0,
-                    explanation: "\(subject) (\(entry.reading)) — \(entry.meaning)",
-                    reviewItem: .kanji(entry.char)))
+                    explanation: "\(entry.word) (\(entry.kana)) — \(entry.meaning)",
+                    reviewItem: .kanji(entry.id)))
             }
         }
         return out

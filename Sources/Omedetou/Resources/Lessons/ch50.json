@@ -1,1713 +1,1945 @@
 {
-  "id": "ch50",
-  "chapterNumber": 52,
-  "title": "Advanced Expressions: Uniqueness and Emotion",
-  "points": [
+ "id": "ch50",
+ "chapterNumber": 52,
+ "title": "Uniqueness and Emotion",
+ "points": [
+  {
+   "id": "te-yamanai",
+   "name": "〜てやまない (te yamanai) — never cease to / deeply and enduringly",
+   "shortDescription": "Expresses a deep, permanent, unwavering positive emotion — literary and formal, reserved for feelings that endure.",
+   "formation": "Verb (て-form) + やまない",
+   "explanation": "てやまない is the grammar of emotions that refuse to end. やむ means 'to stop / to cease,' and やまない means 'does not stop.' Combined with the te-form, てやまない = 'continuing to [feel X] without ever stopping,' 'endlessly and deeply [feeling X].' 愛[あい]してやまない — 'love without ceasing / love that endures and endures.' 尊敬[そんけい]してやまない — 'respect that never diminishes.'\n\nThis pattern is reserved exclusively for strong, positive emotions: love, admiration, respect, hope, longing. You would not say 嫌[きら]ってやまない (hate enduringly) — that would strike a native speaker as very wrong; the pattern simply does not work with negative feelings. てやまない belongs to formal literary Japanese and formal speech: speeches of appreciation, eulogies, formal statements of deep feeling. It is not conversational.\n\nThe important thing to internalize is both the register and the emotional exclusivity: てやまない is for feelings you cherish and would never want to end, not feelings you wish you didn't have. (For an irresistible inner impulse you cannot suppress — whether positive or negative — the appropriate pattern is ずにはいられない.)",
+   "rules": [
+    "Verb (て-form) + やまない = never cease to [feel] / deeply and enduringly [feel]",
+    "Restricted to strong positive emotions: 愛[あい]する, 尊敬[そんけい]する, 期待[きたい]する, 望[のぞ]む, 願[ねが]う",
+    "Expresses that the emotion is permanent and unwavering — it will not diminish over time",
+    "Literary and formal — speeches, eulogies, literature, formal expressions of deep feeling; not conversational",
+    "Negative やむ → やまない = 'does not stop'; the emotion is ongoing, unceasing"
+   ],
+   "examples": [
     {
-      "id": "te-yamanai",
-      "name": "〜てやまない (te yamanai) — never cease to / deeply and enduringly",
-      "shortDescription": "Expresses a deep, permanent, unwavering positive emotion — literary and formal, reserved for feelings that endure.",
-      "formation": "Verb (て-form) + やまない",
-      "explanation": "てやまない is the grammar of emotions that refuse to end. やむ means 'to stop / to cease,' and やまない means 'does not stop.' Combined with the te-form, てやまない = 'continuing to [feel X] without ever stopping,' 'endlessly and deeply [feeling X].' 愛[あい]してやまない — 'love without ceasing / love that endures and endures.' 尊敬[そんけい]してやまない — 'respect that never diminishes.'\n\nThis pattern is reserved exclusively for strong, positive emotions: love, admiration, respect, hope, longing. You would not say 嫌[きら]ってやまない (hate enduringly) — that would strike a native speaker as very wrong; the pattern simply does not work with negative feelings. てやまない belongs to formal literary Japanese and formal speech: speeches of appreciation, eulogies, formal statements of deep feeling. It is not conversational.\n\nThe important thing to internalize is both the register and the emotional exclusivity: てやまない is for feelings you cherish and would never want to end, not feelings you wish you didn't have. (For an irresistible inner impulse you cannot suppress — whether positive or negative — the appropriate pattern is ずにはいられない.)",
-      "rules": [
-        "Verb (て-form) + やまない = never cease to [feel] / deeply and enduringly [feel]",
-        "Restricted to strong positive emotions: 愛[あい]する, 尊敬[そんけい]する, 期待[きたい]する, 望[のぞ]む, 願[ねが]う",
-        "Expresses that the emotion is permanent and unwavering — it will not diminish over time",
-        "Literary and formal — speeches, eulogies, literature, formal expressions of deep feeling; not conversational",
-        "Negative やむ → やまない = 'does not stop'; the emotion is ongoing, unceasing"
-      ],
-      "examples": [
-        {
-          "japanese": "故郷[こきょう]の自然[しぜん]を愛[あい]してやまない気持[きも]ちは、いつまでも変[か]わりません。",
-          "romaji": "Kokyou no shizen wo aishite yamanai kimochi wa, itsu made mo kawarimasen.",
-          "english": "My feelings of enduring love for the nature of my hometown will never change."
-        },
-        {
-          "japanese": "彼[かれ]の勇気[ゆうき]ある行動[こうどう]を尊敬[そんけい]してやみません。",
-          "romaji": "Kare no yuuki aru koudou wo sonkei shite yamimasen.",
-          "english": "I have endless respect for his courageous actions."
-        },
-        {
-          "japanese": "若[わか]い世代[せだい]の活躍[かつやく]を期待[きたい]してやまないと、会長[かいちょう]は挨拶[あいさつ]の中[なか]で述[の]べました。",
-          "romaji": "Wakai sedai no katsuyaku wo kitai shite yamanai to, kaichou wa aisatsu no naka de nobemashita.",
-          "english": "In his greeting, the chairman said he has endless expectations for the younger generation's success."
-        },
-        {
-          "japanese": "平和[へいわ]な世界[せかい]の実現[じつげん]を願[ねが]ってやまないのは、世界中[せかいじゅう]の人々[ひとびと]の思[おも]いです。",
-          "romaji": "Heiwa na sekai no jitsugen wo negatte yamanai no wa, sekaijuu no hitobito no omoi desu.",
-          "english": "Endlessly wishing for the realization of a peaceful world is the feeling of people all over the world."
-        }
-      ],
-      "flashcardHeader": "〜てやまない",
-      "flashcardAnswer": "Expresses a deep, permanent, unwavering positive emotion — literary and formal, for feelings that endure without end.",
-      "practice": [
-        {
-          "id": "te-yamanai_q1",
-          "type": "usage",
-          "prompt": "What does 〜てやまない mean?",
-          "japanese": null,
-          "choices": [
-            "to stop doing X / to cease from X",
-            "to never cease to / to deeply and enduringly — expresses a feeling or state that never stops: a strong, lasting emotion (hope, love, gratitude, admiration) that continues without end",
-            "to begin doing X for the first time",
-            "to regret doing X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜てやまない = never cease to / deeply and enduringly. やまない comes from 止[と]む (yamu) = to stop. て + やまない = ' does not stop.' 愛[あい]してやまない = love and never stop loving (deep, enduring love). Used for sustained strong emotions, especially positive feelings like love, hope, respect, gratitude."
-        },
-        {
-          "id": "te-yamanai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'I have deep and enduring love for my homeland'?",
-          "japanese": null,
-          "choices": [
-            "故郷[こきょう]を愛[あい]してやまない。",
-            "故郷[こきょう]をとても愛[あい]している。",
-            "故郷[ふるさと]への愛[あい]は尽[ことごと]きない。",
-            "故郷[こきょう]が大好[だいす]きでやまない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = love and never cease to love. 故郷[こきょう]を愛[あい]してやまない = I never cease to love my homeland. やまない adds the sense that this love is enduring and deep — it never stops."
-        },
-        {
-          "id": "te-yamanai_q3",
-          "type": "translation",
-          "prompt": "Which means 'I sincerely hope for your future success'?",
-          "japanese": null,
-          "choices": [
-            "あなたの今後[こんご]のご活躍[かつやく]を願[ねが]ってやみません。",
-            "あなたの今後[こんご]のご活躍[かつやく]を強[つよ]く願[ねが]っています。",
-            "あなたの今後[こんご]のご活躍[かつやく]を心[こころ]から願[ねが]っています。",
-            "あなたの今後[こんご]のご活躍[かつやく]を祈[いの]っています。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やみません (polite negative): 願[ねが]って + やみません = never cease to wish. あなたのご活躍[かつやく]を願[ねが]ってやみません = I sincerely and enduringly hope for your success. やみません is the polite form; やまない is the plain form. Classic farewell/formal wish expression."
-        },
-        {
-          "id": "te-yamanai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'We deeply and enduringly respect this artist's works'?",
-          "japanese": null,
-          "choices": [
-            "この芸術家[げいじゅつか]の作品[さくひん]を尊敬[そんけい]してやまない。",
-            "この芸術家[げいじゅつか]の作品[さくひん]をとても尊敬[そんけい]している。",
-            "この芸術家[げいじゅつか]の作品[さくひん]への尊敬[そんけい]は尽[ことごと]きない。",
-            "この芸術家[げいじゅつか]の作品[さくひん]を心[こころ]から尊敬[そんけい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. この芸術家[げいじゅつか]の作品[さくひん]を尊敬[そんけい]してやまない = we deeply and enduringly respect this artist's works. やまない marks the respect as a lasting, unceasing feeling."
-        },
-        {
-          "id": "te-yamanai_q5",
-          "type": "usage",
-          "prompt": "〜てやまない is used primarily with which type of verbs?",
-          "japanese": null,
-          "choices": [
-            "Action verbs describing physical movement (run, jump, eat), with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule.",
-            "Emotion/feeling verbs or mental state verbs: 愛[あい]する (love), 望[のぞ]む (hope), 尊敬[そんけい]する (respect), 願[ねが]う (wish), 慕[した]う (adore) — NOT physical action verbs. The feeling continues without stopping",
-            "Negative verbs (not doing something)",
-            "Verbs of completion (finish, end)"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜てやまない collocates with emotion/mental state verbs: 愛[あい]してやまない (love enduringly), 望[のぞ]んでやまない (hope enduringly), 尊敬[そんけい]してやまない (respect enduringly), 願[ねが]ってやまない (wish enduringly). Physical action verbs don't fit: 食[た]べてやまない or 走[はし]ってやまない are unnatural. The grammar is for sustained feelings, not repeated physical acts."
-        },
-        {
-          "id": "te-yamanai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'The whole team deeply and enduringly admires the coach'?",
-          "japanese": null,
-          "choices": [
-            "チーム全員[ぜんいん]がコーチを慕[した]ってやまない。",
-            "チーム全員[ぜんいん]がコーチをとても慕[した]っている。",
-            "チーム全員[ぜんいん]のコーチへの慕[ぼ]いは尽[ことごと]きない。",
-            "チーム全員[ぜんいん]がコーチを心[こころ]から慕[した]っている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 慕[した]って + やまない = never cease to adore/look up to. チーム全員[ぜんいん]がコーチを慕[した]ってやまない = the whole team enduringly admires the coach. やまない marks the admiration as deep and unceasing."
-        },
-        {
-          "id": "te-yamanai_q7",
-          "type": "translation",
-          "prompt": "Which means 'I never cease to hope for world peace'?",
-          "japanese": null,
-          "choices": [
-            "世界平和[せかいへいわ]を望[のぞ]んでやまない。",
-            "世界平和[せかいへいわ]をとても望[のぞ]んでいる。",
-            "世界平和[せかいへいわ]を心[こころ]から望[のぞ]んでいる。",
-            "世界平和[せかいへいわ]への望[のぞ]みは尽[ことごと]きない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 望[のぞ]んで + やまない = never cease to hope. 世界平和[せかいへいわ]を望[のぞ]んでやまない = I enduringly hope for world peace. やまない adds literary weight — this is a deep, lasting, unceasing wish."
-        },
-        {
-          "id": "te-yamanai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'She is deeply devoted to her students and never stops caring for them'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]は生徒[せいと]たちを愛[あい]してやまない。",
-            "彼女[かのじょ]は生徒[せいと]たちをとても愛[あい]している。",
-            "彼女[かのじょ]は生徒[せいと]たちへの愛[あい]が尽[ことごと]きない。",
-            "彼女[かのじょ]は生徒[せいと]たちを心[こころ]から愛[あい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = never cease to love. 生徒[せいと]たちを愛[あい]してやまない = enduringly and deeply loves her students. やまない conveys that her care is profound and never-ending."
-        },
-        {
-          "id": "te-yamanai_q9",
-          "type": "usage",
-          "prompt": "〜てやまない vs. 〜てならない — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "〜てやまない = strong, enduring, sustained EMOTION that never stops (love, hope, admiration); 〜てならない = irresistibly arising emotion or sensation that the speaker can't suppress (気[き]になってならない = I can't stop wondering, an uncontrollable feeling arising NOW). やまない = continuing; ならない = arising irresistibly",
-            "〜てやまない is more casual",
-            "〜てならない is only for physical sensations — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "〜てやまない: deep, enduring, never-stopping feeling — 愛[あい]してやまない (love that never ends). 〜てならない: irresistible feeling arising now — 心配[しんぱい]でならない (I can't help worrying). やまない emphasizes DURATION (the feeling continues); ならない emphasizes INTENSITY NOW (the feeling is overwhelming at this moment). Both are literary."
-        },
-        {
-          "id": "te-yamanai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'We enduringly cherish the memories of our time together'?",
-          "japanese": null,
-          "choices": [
-            "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を大切[たいせつ]にしてやまない。",
-            "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]をとても大切[たいせつ]にしている。",
-            "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]は尽[ことごと]きない。",
-            "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を心[こころ]から大切[たいせつ]にしている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 大切[たいせつ]にして + やまない = never cease to cherish. 共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を大切[たいせつ]にしてやまない = enduringly and deeply cherish those shared memories. やまない marks lasting reverence for the past."
-        },
-        {
-          "id": "te-yamanai_q11",
-          "type": "translation",
-          "prompt": "Which means 'All of us never cease to respect this scientist's achievements'?",
-          "japanese": null,
-          "choices": [
-            "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]を尊敬[そんけい]してやまない。",
-            "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]をとても尊敬[そんけい]している。",
-            "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]への尊敬[そんけい]が尽[ことごと]きない。",
-            "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]を心[こころ]から尊敬[そんけい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. この科学者[かがくしゃ]の業績[ぎょうせき]を尊敬[そんけい]してやまない = enduringly respect the scientist's achievements. やまない marks the respect as deep and perpetual."
-        },
-        {
-          "id": "te-yamanai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'I sincerely and enduringly wish for your happiness'?",
-          "japanese": null,
-          "choices": [
-            "あなたの幸[しあわ]せを祈[いの]ってやまない。",
-            "あなたの幸[しあわ]せをとても祈[いの]っている。",
-            "あなたの幸[しあわ]せが尽[ことごと]きないように祈[いの]っている。",
-            "あなたの幸[しあわ]せを心[こころ]から祈[いの]っている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 祈[いの]って + やまない = never cease to pray/wish. あなたの幸[しあわ]せを祈[いの]ってやまない = I enduringly and sincerely wish for your happiness. やまない marks the wish as deep and lasting."
-        },
-        {
-          "id": "te-yamanai_q13",
-          "type": "usage",
-          "prompt": "〜てやまない is typically found in what register?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday conversation",
-            "Formal and literary contexts: speeches, farewell messages, written tributes, formal letters, literary prose — not casual conversation. 願[ねが]ってやみません is a classic formal farewell wish",
-            "Only in classical Japanese texts, regardless of context or politeness level — this is true in both spoken and written Japanese.",
-            "Only in scientific papers"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜てやまない is formal and literary. Found in: formal speeches (ご活躍[かつやく]を願[ねが]ってやみません), formal letters, written tributes, literary prose. In casual speech, とても愛[あい]している / 心[こころ]から願[ねが]っている are natural. やまない marks elevated, literary sincerity."
-        },
-        {
-          "id": "te-yamanai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'The readers deeply and enduringly love the author's works'?",
-          "japanese": null,
-          "choices": [
-            "読者[どくしゃ]はその作家[さっか]の作品[さくひん]を愛[あい]してやまない。",
-            "読者[どくしゃ]はその作家[さっか]の作品[さくひん]をとても愛[あい]している。",
-            "読者[どくしゃ]はその作家[さっか]の作品[さくひん]への愛[あい]が尽[ことごと]きない。",
-            "読者[どくしゃ]はその作家[さっか]の作品[さくひん]を心[こころ]から愛[あい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = never cease to love. 作品[さくひん]を愛[あい]してやまない = enduringly and deeply love the works. やまない marks the readers' appreciation as profound and unceasing."
-        },
-        {
-          "id": "te-yamanai_q15",
-          "type": "translation",
-          "prompt": "Which means 'We never cease to value the bond of friendship'?",
-          "japanese": null,
-          "choices": [
-            "友情[ゆうじょう]の絆[きずな]を大切[たいせつ]にしてやまない。",
-            "友情[ゆうじょう]の絆[きずな]をとても大切[たいせつ]にしている。",
-            "友情[ゆうじょう]の絆[きずな]への大切[たいせつ]さが尽[ことごと]きない。",
-            "友情[ゆうじょう]の絆[きずな]を心[こころ]から大切[たいせつ]にしている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 大切[たいせつ]にして + やまない = never cease to cherish. 友情[ゆうじょう]の絆[きずな]を大切[たいせつ]にしてやまない = enduringly and deeply value the bond of friendship. やまない marks the value placed on friendship as everlasting."
-        },
-        {
-          "id": "te-yamanai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'We enduringly admire the courage of those who fought for peace'?",
-          "japanese": null,
-          "choices": [
-            "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]を尊敬[そんけい]してやまない。",
-            "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]をとても尊敬[そんけい]している。",
-            "平和[へいわ]のために戦[たたか]った人々[ひとびと]への敬意[けいい]が尽[ことごと]きない。",
-            "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]を心[こころ]から尊敬[そんけい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. 勇気[ゆうき]を尊敬[そんけい]してやまない = enduringly admire their courage. やまない marks sustained reverence for the courage of those who fought for peace."
-        },
-        {
-          "id": "te-yamanai_q17",
-          "type": "usage",
-          "prompt": "Which sentence correctly uses 〜てやまない?",
-          "japanese": null,
-          "choices": [
-            "走[はし]ってやまない (never stop running — physical action, unnatural)",
-            "故郷[こきょう]を愛[あい]してやまない (never stop loving my homeland — emotion verb, natural ✓)",
-            "食[た]べてやまない (never stop eating — physical action, unnatural)",
-            "寝[ね]てやまない (never stop sleeping — physical action, unnatural)"
-          ],
-          "correctIndex": 1,
-          "explanation": "故郷[こきょう]を愛[あい]してやまない ✓ — 愛[あい]する (love) is an emotion verb; this is the correct usage. 走[はし]る, 食[た]べる, 寝[ね]る are physical action verbs — they do NOT fit 〜てやまない. The grammar requires emotion/feeling verbs: 愛[あい]する, 望[のぞ]む, 尊敬[そんけい]する, 願[ねが]う, 慕[した]う, 大切[たいせつ]にする."
-        },
-        {
-          "id": "te-yamanai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'I never cease to be grateful for my mentor's guidance'?",
-          "japanese": null,
-          "choices": [
-            "恩師[おんし]のご指導[しどう]に感謝[かんしゃ]してやまない。",
-            "恩師[おんし]のご指導[しどう]にとても感謝[かんしゃ]している。",
-            "恩師[おんし]のご指導[しどう]への感謝[かんしゃ]が尽[ことごと]きない。",
-            "恩師[おんし]のご指導[しどう]を心[こころ]から感謝[かんしゃ]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 感謝[かんしゃ]して + やまない = never cease to be grateful. 恩師[おんし]のご指導[しどう]に感謝[かんしゃ]してやまない = enduringly grateful for the mentor's guidance. やまない marks deep, lasting gratitude — fitting for formal tribute expressions."
-        },
-        {
-          "id": "te-yamanai_q19",
-          "type": "translation",
-          "prompt": "Which means 'I never cease to hope that you will achieve your dreams'?",
-          "japanese": null,
-          "choices": [
-            "あなたが夢[ゆめ]を実現[じつげん]することを願[ねが]ってやまない。",
-            "あなたが夢[ゆめ]を実現[じつげん]することをとても願[ねが]っている。",
-            "あなたの夢[ゆめ]の実現[じつげん]を心[こころ]から願[ねが]っている。",
-            "あなたが夢[ゆめ]を実現[じつげん]することを強[つよ]く望[のぞ]んでいる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 願[ねが]って + やまない = never cease to wish. 夢[ゆめ]を実現[じつげん]することを願[ねが]ってやまない = enduringly hope for your dreams to be realized. やまない marks the hope as sincere and unceasing."
-        },
-        {
-          "id": "te-yamanai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'We deeply and enduringly respect the president's leadership'?",
-          "japanese": null,
-          "choices": [
-            "社長[しゃちょう]のリーダーシップを尊敬[そんけい]してやまない。",
-            "社長[しゃちょう]のリーダーシップをとても尊敬[そんけい]している。",
-            "社長[しゃちょう]のリーダーシップへの尊敬[そんけい]が尽[ことごと]きない。",
-            "社長[しゃちょう]のリーダーシップを心[こころ]から尊敬[そんけい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. リーダーシップを尊敬[そんけい]してやまない = enduringly and deeply respect the leadership. やまない marks the respect as profound and lasting."
-        }
-      ]
+     "japanese": "故郷[こきょう]の自然[しぜん]を愛[あい]してやまない気持[きも]ちは、いつまでも変[か]わりません。",
+     "romaji": "Kokyou no shizen wo aishite yamanai kimochi wa, itsu made mo kawarimasen.",
+     "english": "My feelings of enduring love for the nature of my hometown will never change."
     },
     {
-      "id": "wo-oite",
-      "name": "〜をおいて (wo oite) — other than / there is none but",
-      "shortDescription": "Literary assertion of absolute uniqueness: setting everything else aside, there is no one but X who could fill this role.",
-      "formation": "Noun + をおいて + (他[ほか]に) + negative predicate (ない / いない)",
-      "explanation": "をおいて means 'setting aside everything else, there is no one but X.' The structure (from 置[お]く — to set aside / to place) is always paired with a negative: をおいて + (他[ほか]に) + ない/いない. 彼[かれ]をおいて、このプロジェクトのリーダーはいない — 'Setting everyone else aside, there is no leader for this project other than him.' The expression is an assertion of absolute uniqueness and indispensability — X alone is suited, qualified, or capable; no one else even enters the picture. It is a strong form of praise, deliberately formal and emphatic.\n\nUse it in a formal recommendation, a eulogy, or any context where you want to assert someone's irreplaceability without qualification. The literal 'setting aside' metaphor is powerful: imagine lining up all other candidates, setting them to one side, and finding only one person remains. That person is the one named before をおいて.\n\nAlways pair with a negative main clause — ない or いない — and optionally include 他[ほか]に (other / besides) to reinforce the exclusivity.",
-      "rules": [
-        "Noun + をおいて + (他[ほか]に) + ない/いない = other than [noun], there is no one / nothing",
-        "Asserts absolute uniqueness: X alone is the right person or thing — nothing else qualifies",
-        "Always appears with a negative main clause — ない or いない",
-        "Literary and formal — strong recommendations, eulogies, formal expressions of irreplaceability",
-        "The optional 他[ほか]に reinforces the exclusivity: 'setting aside everything else, there is no one'"
-      ],
-      "examples": [
-        {
-          "japanese": "この仕事[しごと]をできる人[ひと]は、山田[やまだ]さんをおいて他[ほか]にいません。",
-          "romaji": "Kono shigoto wo dekiru hito wa, Yamada-san wo oite hoka ni imasen.",
-          "english": "There is no one other than Yamada-san who can do this job."
-        },
-        {
-          "japanese": "この難局[なんきょく]を乗[の]り越[こ]えられるリーダーは、彼[かれ]をおいて他[ほか]にいないでしょう。",
-          "romaji": "Kono nankyoku wo norikoerareru riidaa wa, kare wo oite hoka ni inai deshou.",
-          "english": "There is likely no leader other than him who can overcome this difficult situation."
-        },
-        {
-          "japanese": "この役[やく]を演[えん]じられる俳優[はいゆう]は、田中[たなか]さんをおいてないと監督[かんとく]は言[い]った。",
-          "romaji": "Kono yaku wo enjirareru haiyuu wa, Tanaka-san wo oite nai to kantoku wa itta.",
-          "english": "The director said there is no actor other than Tanaka-san who can play this role."
-        },
-        {
-          "japanese": "今[いま]この状況[じょうきょう]で頼[たよ]れる人[ひと]は、あなたをおいて他[ほか]にいません。",
-          "romaji": "Ima kono joukyou de tayoreru hito wa, anata wo oite hoka ni imasen.",
-          "english": "In this situation right now, there is no one other than you that I can rely on."
-        }
-      ],
-      "flashcardHeader": "〜をおいて",
-      "flashcardAnswer": "Literary assertion of absolute uniqueness: setting everything else aside, there is no one but X — always paired with a negative.",
-      "practice": [
-        {
-          "id": "wo-oite_q1",
-          "type": "usage",
-          "prompt": "What does 〜をおいて mean?",
-          "japanese": null,
-          "choices": [
-            "without X / instead of X",
-            "other than X / there is none but X — X is the unique, irreplaceable option. Used in phrases like 'there is no one other than X' or 'it can only be X': 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない = there is no one more qualified than him",
-            "because of X",
-            "in addition to X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜をおいて = other than / there is none but. Noun + をおいて + (他[ほか]に) + negative predicate: 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない (there is no one more qualified — he is uniquely the best). X is irreplaceable. Always paired with a negative (ない, いない, できない). Emphatic, formal."
-        },
-        {
-          "id": "wo-oite_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no one other than her who can do this job'?",
-          "japanese": null,
-          "choices": [
-            "彼女[かのじょ]をおいて他[ほか]に、この仕事[しごと]ができる人[ひと]はいない。",
-            "彼女[かのじょ]以外[いがい]に、この仕事[しごと]ができる人[ひと]はいない。",
-            "彼女[かのじょ]をおいて、この仕事[しごと]ができる人[ひと]はいない。",
-            "彼女[かのじょ]しか、この仕事[しごと]ができる人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼女[かのじょ] + をおいて + 他[ほか]に + いない = there is no one other than her. この仕事[しごと]ができる人[ひと]はいない = who can do this job. をおいて + 他[ほか]に + negative is the standard construction."
-        },
-        {
-          "id": "wo-oite_q3",
-          "type": "translation",
-          "prompt": "Which means 'There is no place other than this one where you can find such a view'?",
-          "japanese": null,
-          "choices": [
-            "ここをおいて他[ほか]に、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
-            "ここ以外[いがい]に、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
-            "ここをおいて、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
-            "ここしか、このような景色[けしき]が見[み]られる場所[ばしょ]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: ここ + をおいて + 他[ほか]に + ない = there is no other place. このような景色[けしき]が見[み]られる場所[ばしょ]はない = where such a view can be seen. をおいて elevates ここ as the uniquely irreplaceable place."
-        },
-        {
-          "id": "wo-oite_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no other time but now to act'?",
-          "japanese": null,
-          "choices": [
-            "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない。",
-            "今[いま]以外[いがい]に、行動[こうどう]する時[とき]はない。",
-            "今[いま]をおいて、行動[こうどう]する時[とき]はない。",
-            "今[いま]しか、行動[こうどう]する時[とき]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 今[いま] + をおいて + 他[ほか]に + ない = there is no other time. 行動[こうどう]する時[とき]はない = to act. 今[いま]をおいて他[ほか]にない = now is the uniquely irreplaceable moment for action."
-        },
-        {
-          "id": "wo-oite_q5",
-          "type": "usage",
-          "prompt": "〜をおいて must always be followed by what?",
-          "japanese": null,
-          "choices": [
-            "A positive predicate (can, will, is possible) — this is true in both spoken and written Japanese.",
-            "A NEGATIVE predicate — ない / いない / できない / ならない: 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない (no one — negative). Without a negative, をおいて does not make grammatical sense",
-            "An adjective",
-            "A question word"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜をおいて REQUIRES a negative predicate: Noun + をおいて + (他[ほか]に) + negative. 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない ✓ (no one). 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]がいる ✗ (there is someone — positive, wrong). The construction asserts that X is the ONLY option, so the negative eliminates all other possibilities."
-        },
-        {
-          "id": "wo-oite_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no leader other than him who can guide this organization'?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]をおいて他[ほか]に、この組織[そしき]を導[みちび]けるリーダーはいない。",
-            "彼[かれ]以外[いがい]に、この組織[そしき]を導[みちび]けるリーダーはいない。",
-            "彼[かれ]をおいて、この組織[そしき]を導[みちび]けるリーダーはいない。",
-            "彼[かれ]しか、この組織[そしき]を導[みちび]けるリーダーはいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼[かれ] + をおいて + 他[ほか]に + いない = there is no one other than him. この組織[そしき]を導[みちび]けるリーダーはいない = who can lead this organization. をおいて elevates him as the uniquely qualified leader."
-        },
-        {
-          "id": "wo-oite_q7",
-          "type": "translation",
-          "prompt": "Which means 'There is no other country than Japan where such a culture exists'?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]をおいて他[ほか]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
-            "日本以外[にほんいがい]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
-            "日本[にほん]をおいて、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
-            "日本[にほん]しか、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 日本[にほん] + をおいて + 他[ほか]に + ない = no other country. このような文化[ぶんか]が存在[そんざい]する国[くに]はない = where such a culture exists. をおいて elevates Japan as uniquely possessing this culture."
-        },
-        {
-          "id": "wo-oite_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no other moment but this to make a decision'?",
-          "japanese": null,
-          "choices": [
-            "この瞬間[しゅんかん]をおいて他[ほか]に、決断[けつだん]する時[とき]はない。",
-            "この瞬間[しゅんかん]以外[いがい]に、決断[けつだん]する時[とき]はない。",
-            "この瞬間[しゅんかん]をおいて、決断[けつだん]する時[とき]はない。",
-            "この瞬間[しゅんかん]しか、決断[けつだん]する時[とき]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: この瞬間[しゅんかん] + をおいて + 他[ほか]に + ない = no other moment. 決断[けつだん]する時[とき]はない = to make a decision. をおいて marks this moment as uniquely irreplaceable for the decision."
-        },
-        {
-          "id": "wo-oite_q9",
-          "type": "usage",
-          "prompt": "をおいて vs. をのぞいて — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "をおいて = X is uniquely irreplaceable, emphasis on X being the ONLY option (positive assertion of X's exclusivity + negative: 彼[かれ]をおいて他[ほか]にいない). をのぞいて = X is merely excluded, neutral 'except for X' (彼[かれ]をのぞいて全員[ぜんいん]出席[しゅっせき] = everyone except him attended — X is excluded from a set)",
-            "をおいて is more casual",
-            "をのぞいて is only for people, and the rule applies to every sentence type — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "をおいて: X is THE only one — 彼[かれ]をおいて他[ほか]にいない (no one but him — he is uniquely qualified). をのぞいて: merely excludes X from a group — 彼[かれ]をのぞいて全員[ぜんいん]いた (everyone was there except him — neutral exclusion). をおいて is exclusive + emphatic; をのぞいて is simply subtractive."
-        },
-        {
-          "id": "wo-oite_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no one other than the professor who can solve this problem'?",
-          "japanese": null,
-          "choices": [
-            "教授[きょうじゅ]をおいて他[ほか]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
-            "教授[きょうじゅ]以外[いがい]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
-            "教授[きょうじゅ]をおいて、この問題[もんだい]を解[と]ける人[ひと]はいない。",
-            "教授[きょうじゅ]しか、この問題[もんだい]を解[と]ける人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 教授[きょうじゅ] + をおいて + 他[ほか]に + いない = no one other than the professor. この問題[もんだい]を解[と]ける人[ひと]はいない = who can solve this problem. をおいて elevates the professor as uniquely capable."
-        },
-        {
-          "id": "wo-oite_q11",
-          "type": "translation",
-          "prompt": "Which means 'There is no better opportunity than this one'?",
-          "japanese": null,
-          "choices": [
-            "このチャンスをおいて他[ほか]に、これほどの機会[きかい]はない。",
-            "このチャンス以外[いがい]に、これほどの機会[きかい]はない。",
-            "このチャンスをおいて、これほどの機会[きかい]はない。",
-            "このチャンスしか、これほどの機会[きかい]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: このチャンス + をおいて + 他[ほか]に + ない = no other opportunity. これほどの機会[きかい]はない = there is no better opportunity. をおいて marks this chance as uniquely irreplaceable."
-        },
-        {
-          "id": "wo-oite_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no other place but here to begin this journey'?",
-          "japanese": null,
-          "choices": [
-            "ここをおいて他[ほか]に、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
-            "ここ以外[いがい]に、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
-            "ここをおいて、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
-            "ここしか、この旅[たび]を始[はじ]める場所[ばしょ]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: ここ + をおいて + 他[ほか]に + ない = no other place. この旅[たび]を始[はじ]める場所[ばしょ]はない = to begin this journey. をおいて marks here as the uniquely appropriate starting point."
-        },
-        {
-          "id": "wo-oite_q13",
-          "type": "usage",
-          "prompt": "をおいて is typically used in what register?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday conversation",
-            "Formal and literary language: formal speeches, written tributes, business announcements. In casual speech, 〜しかいない or 〜以外[いがい]にいない are more natural",
-            "Only classical Japanese texts — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
-            "Only written academic papers"
-          ],
-          "correctIndex": 1,
-          "explanation": "をおいて is formal and literary. Found in: formal speeches (彼[かれ]をおいて他[ほか]にいない — formal praise), written tributes, business communications, literary prose. Casual equivalents: 〜しかいない, 〜以外[いがい]にいない. をおいて signals formal elevation of X's uniqueness."
-        },
-        {
-          "id": "wo-oite_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no one other than this athlete who can represent our country'?",
-          "japanese": null,
-          "choices": [
-            "この選手[せんしゅ]をおいて他[ほか]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
-            "この選手[せんしゅ]以外[いがい]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
-            "この選手[せんしゅ]をおいて、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
-            "この選手[せんしゅ]しか、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: この選手[せんしゅ] + をおいて + 他[ほか]に + いない = no one but this athlete. 我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない = who can represent our country. をおいて elevates this athlete as uniquely qualified."
-        },
-        {
-          "id": "wo-oite_q15",
-          "type": "translation",
-          "prompt": "Which means 'There is no other work but this one that can be called a masterpiece'?",
-          "japanese": null,
-          "choices": [
-            "この作品[さくひん]をおいて他[ほか]に、傑作[けっさく]と呼[よ]べるものはない。",
-            "この作品[さくひん]以外[いがい]に、傑作[けっさく]と呼[よ]べるものはない。",
-            "この作品[さくひん]をおいて、傑作[けっさく]と呼[よ]べるものはない。",
-            "この作品[さくひん]しか、傑作[けっさく]と呼[よ]べるものはない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: この作品[さくひん] + をおいて + 他[ほか]に + ない = no other work. 傑作[けっさく]と呼[よ]べるものはない = that can be called a masterpiece. をおいて marks this work as uniquely worthy of being called a masterpiece."
-        },
-        {
-          "id": "wo-oite_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no one other than you who I can trust'?",
-          "japanese": null,
-          "choices": [
-            "あなたをおいて他[ほか]に、信頼[しんらい]できる人[ひと]はいない。",
-            "あなた以外[いがい]に、信頼[しんらい]できる人[ひと]はいない。",
-            "あなたをおいて、信頼[しんらい]できる人[ひと]はいない。",
-            "あなたしか、信頼[しんらい]できる人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: あなた + をおいて + 他[ほか]に + いない = no one but you. 信頼[しんらい]できる人[ひと]はいない = who I can trust. をおいて elevates you as the uniquely trustworthy person."
-        },
-        {
-          "id": "wo-oite_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses をおいて correctly?",
-          "japanese": null,
-          "choices": [
-            "彼[かれ]をおいて他[ほか]にリーダーがいる (there is a leader other than him — positive predicate, ✗ — requires negative)",
-            "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない (there is no other time than now — negative ✓)",
-            "彼[かれ]をおいてリーダーがいる (same error — positive, ✗)",
-            "今[いま]をおいて他[ほか]に、行動[こうどう]できる (can act at another time — positive, ✗)"
-          ],
-          "correctIndex": 1,
-          "explanation": "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない ✓ — correct structure: Noun + をおいて + 他[ほか]に + negative predicate (ない). All other options use a positive predicate (there is a leader, can act), which breaks the grammar. をおいて MUST be followed by a negative."
-        },
-        {
-          "id": "wo-oite_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no other season but spring when cherry blossoms are this beautiful'?",
-          "japanese": null,
-          "choices": [
-            "春[はる]をおいて他[ほか]に、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
-            "春以外[はるいがい]に、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
-            "春[はる]をおいて、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
-            "春[はる]しか、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 春[はる] + をおいて + 他[ほか]に + ない = no other season. 桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない = when cherry blossoms are this beautiful. をおいて marks spring as the uniquely irreplaceable season for cherry blossoms."
-        },
-        {
-          "id": "wo-oite_q19",
-          "type": "translation",
-          "prompt": "Which means 'There is no one other than the prime minister who can resolve this crisis'?",
-          "japanese": null,
-          "choices": [
-            "総理大臣[そうりだいじん]をおいて他[ほか]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
-            "総理大臣[そうりだいじん]以外[いがい]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
-            "総理大臣[そうりだいじん]をおいて、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
-            "総理大臣[そうりだいじん]しか、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: 総理大臣[そうりだいじん] + をおいて + 他[ほか]に + いない = no one but the prime minister. この危機[きき]を解決[かいけつ]できる人[ひと]はいない = who can resolve this crisis. をおいて marks the prime minister as uniquely capable."
-        },
-        {
-          "id": "wo-oite_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'There is no other method but this one that can solve the problem'?",
-          "japanese": null,
-          "choices": [
-            "この方法[ほうほう]をおいて他[ほか]に、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
-            "この方法以外[ほうほういがい]に、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
-            "この方法[ほうほう]をおいて、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
-            "この方法[ほうほう]しか、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + をおいて + 他[ほか]に + negative: この方法[ほうほう] + をおいて + 他[ほか]に + ない = no other method. 問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない = that can solve the problem. をおいて elevates this method as the uniquely viable solution."
-        }
-      ]
+     "japanese": "彼[かれ]の勇気[ゆうき]ある行動[こうどう]を尊敬[そんけい]してやみません。",
+     "romaji": "Kare no yuuki aru koudou wo sonkei shite yamimasen.",
+     "english": "I have endless respect for his courageous actions."
     },
     {
-      "id": "naradewa",
-      "name": "〜ならではの (naradewa no) — unique to / only possible with / characteristic of",
-      "shortDescription": "Expresses that something is uniquely and inseparably characteristic of a particular entity — it could only have come from there.",
-      "formation": "Noun + ならではの + Noun  |  Noun + ならでは (predicative)",
-      "explanation": "ならでは captures something grammar usually can't: the uniqueness of a thing that could only have come from exactly where it came from. なら (conditional: 'if it is') + では (in that case) yields 'only if it is [noun] could this exist.' 職人[しょくにん]ならではの技[わざ] — 'a technique that only a craftsperson could possess' — the technique is inseparable from its origin; it could not exist without the craftsperson who produced it.\n\nならでは is always positive: you use it to appreciate, admire, and celebrate what is irreplaceable about something. It would sound strained with something negative. Structurally, ならではの + noun is the standard attributive form; Noun + ならでは without の works as a predicative: この味[あじ]はこの店[みせ]ならでは — 'This flavor is unique to this shop.'\n\nThree collocations you will encounter constantly and that feel immediately natural: 日本[にほん]ならではの (quintessentially Japanese), 職人[しょくにん]ならではの (uniquely a craftsperson's), 子[こ]どもならではの (uniquely a child's perspective). Memorize these as templates and you will recognize the pattern wherever it appears.",
-      "rules": [
-        "Noun + ならではの + Noun = [quality] unique to / that only [noun] has or can produce",
-        "Noun + ならでは (predicative) = is unique to [noun] / could only come from [noun]",
-        "Always positive — highlights a unique, irreplaceable quality or characteristic worth appreciating",
-        "Implies no other entity could produce this — it belongs exclusively to the named noun",
-        "Common templates: 日本[にほん]ならではの, 職人[しょくにん]ならではの, このお店[みせ]ならではの, 子[こ]どもならではの"
-      ],
-      "examples": [
-        {
-          "japanese": "この繊細[せんさい]な味[あじ]わいは、職人[しょくにん]ならではの技[わざ]から生[う]まれています。",
-          "romaji": "Kono sensai na ajiwai wa, shokunin naradewa no waza kara umarete imasu.",
-          "english": "This delicate flavor is born from a technique unique to craftspeople."
-        },
-        {
-          "japanese": "温泉[おんせん]と雪景色[ゆきげしき]のコラボレーションは、日本[にほん]の冬[ふゆ]ならではの魅力[みりょく]です。",
-          "romaji": "Onsen to yukigeshiki no koraboreeshon wa, Nihon no fuyu naradewa no miryoku desu.",
-          "english": "The combination of hot springs and snowy scenery is a charm unique to Japanese winters."
-        },
-        {
-          "japanese": "この手作[てづく]り感[かん]あふれる雰囲気[ふんいき]は、小[ちい]さなお店[みせ]ならではですね。",
-          "romaji": "Kono tezukuri kan afureru fun'iki wa, chiisa na omise naradewa desu ne.",
-          "english": "This atmosphere full of handmade warmth is unique to small shops, isn't it."
-        },
-        {
-          "japanese": "長年[ながねん]の経験[けいけん]を持[も]つ彼女[かのじょ]ならではの、細[こま]かい気配[きくば]りが光[ひか]ります。",
-          "romaji": "Naganen no keiken wo motsu kanojo naradewa no, komakai kikubari ga hikarimasu.",
-          "english": "The thoughtful, fine attention to detail unique to someone with years of experience shines through."
-        }
-      ],
-      "flashcardHeader": "〜ならではの",
-      "flashcardAnswer": "Expresses that something is uniquely and inseparably characteristic of a particular entity — it could only have come from there.",
-      "practice": [
-        {
-          "id": "naradewa_q1",
-          "type": "usage",
-          "prompt": "What does 〜ならではの mean?",
-          "japanese": null,
-          "choices": [
-            "not fitting for / inappropriate for X",
-            "unique to / only possible with / characteristic of — X is the special quality, person, or place that makes Y uniquely possible or appropriate. Y is something that only X can produce or embody: 京都[きょうと]ならではの景色[けしき] = a view unique to Kyoto",
-            "because of X",
-            "despite X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜ならではの = unique to / only X can do/have this. Noun + ならではの + Noun: 京都[きょうと]ならではの文化[ぶんか] (culture unique to Kyoto — only Kyoto has this). The point: without X, Y would not exist or could not be achieved. Emphatic, positive, often used for praise."
-        },
-        {
-          "id": "naradewa_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'This flavor is unique to Japan'?",
-          "japanese": null,
-          "choices": [
-            "これは日本[にほん]ならではの味[あじ]だ。",
-            "これは日本[にほん]だけの味[あじ]だ。",
-            "これは日本[にほん]にしかない味[あじ]だ。",
-            "これは日本特有[にほんとくゆう]の味[あじ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にほん] + ならではの + 味[あじ] = a flavor unique to Japan. ならではの marks this flavor as something only Japan can produce — not merely rare, but uniquely attributable to Japan."
-        },
-        {
-          "id": "naradewa_q3",
-          "type": "translation",
-          "prompt": "Which means 'This is a performance unique to experienced actors'?",
-          "japanese": null,
-          "choices": [
-            "これは熟練[じゅくれん]の俳優[はいゆう]ならではの演技[えんぎ]だ。",
-            "これは熟練[じゅくれん]の俳優[はいゆう]だけの演技[えんぎ]だ。",
-            "これは熟練[じゅくれん]の俳優[はいゆう]にしかできない演技[えんぎ]だ。",
-            "これは熟練[じゅくれん]の俳優[はいゆう]特有[とくゆう]の演技[えんぎ]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 熟練[じゅくれん]の俳優[はいゆう] + ならではの + 演技[えんぎ] = a performance unique to experienced actors. ならではの marks this acting as something only highly skilled actors can achieve."
-        },
-        {
-          "id": "naradewa_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'This is the warmth unique to homemade cooking'?",
-          "japanese": null,
-          "choices": [
-            "これは手料理[てりょうり]ならではの温[あたた]かさだ。",
-            "これは手料理[てりょうり]だけの温[あたた]かさだ。",
-            "これは手料理[てりょうり]にしかない温[あたた]かさだ。",
-            "これは手料理[てりょうり]特有[とくゆう]の温[あたた]かさだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 手料理[てりょうり] + ならではの + 温[あたた]かさ = warmth unique to homemade cooking. ならではの marks this warmth as something factory-made food cannot replicate — it belongs to homemade cooking alone."
-        },
-        {
-          "id": "naradewa_q5",
-          "type": "usage",
-          "prompt": "ならではの vs. ならではない (predicative form) — what's the difference in usage?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "ならではの modifies a NOUN (attributive): 日本[にほん]ならではの文化[ぶんか] (culture unique to Japan). ならでは (predicative, often ならでは(だ) or ならではない) can end a sentence or stand alone: ここならではだ (this is truly unique here). ならではの is more common; the predicative form is used in isolation or at the end of a clause",
-            "ならではの is more casual",
-            "ならではない is ungrammatical, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level."
-          ],
-          "correctIndex": 1,
-          "explanation": "ならではの (attributive): always followed by a noun — 京都[きょうと]ならではの景色[けしき] (a view unique to Kyoto). ならでは (predicative/standalone): この味[あじ]はここならではだ (this flavor is uniquely from here). ならではない is sometimes used but rare; ならでは alone is more natural as the predicative. ならではの is the most frequent form."
-        },
-        {
-          "id": "naradewa_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'This scenery is unique to autumn in Kyoto'?",
-          "japanese": null,
-          "choices": [
-            "これは京都[きょうと]の秋[あき]ならではの景色[けしき]だ。",
-            "これは京都[きょうと]の秋[あき]だけの景色[けしき]だ。",
-            "これは京都[きょうと]の秋[あき]にしかない景色[けしき]だ。",
-            "これは京都[きょうと]の秋[あき]特有[とくゆう]の景色[けしき]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 京都[きょうと]の秋[あき] + ならではの + 景色[けしき] = scenery unique to autumn in Kyoto. ならではの marks this scenery as something only Kyoto in autumn can offer — not mere rarity, but unique attribution."
-        },
-        {
-          "id": "naradewa_q7",
-          "type": "translation",
-          "prompt": "Which means 'This idea is unique to a child's imagination'?",
-          "japanese": null,
-          "choices": [
-            "このアイデアは子[こ]どもの発想[はっそう]ならではのものだ。",
-            "このアイデアは子[こ]どもの発想[はっそう]だけのものだ。",
-            "このアイデアは子[こ]どもの発想[はっそう]にしかないものだ。",
-            "このアイデアは子[こ]どもの発想[はっそう]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 子[こ]どもの発想[はっそう] + ならではの = unique to a child's imagination. ならではの marks this idea as something only a child's pure, unrestricted imagination can produce."
-        },
-        {
-          "id": "naradewa_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'This craftsmanship is unique to Japanese artisans'?",
-          "japanese": null,
-          "choices": [
-            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]ならではのものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]だけのものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]にしかないものだ。",
-            "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にほん]の職人[しょくにん] + ならではの = unique to Japanese artisans. ならではの marks this level of craftsmanship as something only Japanese artisans can achieve — a uniqueness rooted in their specific tradition."
-        },
-        {
-          "id": "naradewa_q9",
-          "type": "usage",
-          "prompt": "ならではの typically conveys what nuance?",
-          "japanese": null,
-          "choices": [
-            "Negative criticism — something bad that only X has — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "POSITIVE uniqueness or praise — something special, admirable, or deeply characteristic that ONLY X has. X is celebrated for this unique quality. Not used to describe negative uniqueness",
-            "Neutral description of X's common traits",
-            "Neutral comparison between X and Y"
-          ],
-          "correctIndex": 1,
-          "explanation": "ならではの is positive or celebratory: 日本[にほん]ならではのおもてなし (hospitality unique to Japan — praising Japan's uniqueness), 子[こ]どもならではの純粋[じゅんすい]さ (purity unique to children — appreciating childhood). While it can describe negative traits in theory, in practice ならではの is strongly associated with positive attribution, admiration, and celebration of X's unique character."
-        },
-        {
-          "id": "naradewa_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'This attention to detail is unique to this brand'?",
-          "japanese": null,
-          "choices": [
-            "この細部[さいぶ]へのこだわりはこのブランドならではのものだ。",
-            "この細部[さいぶ]へのこだわりはこのブランドだけのものだ。",
-            "この細部[さいぶ]へのこだわりはこのブランドにしかないものだ。",
-            "この細部[さいぶ]へのこだわりはこのブランド特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: このブランド + ならではの = unique to this brand. ならではの marks this attention to detail as something only this brand's philosophy and process can produce."
-        },
-        {
-          "id": "naradewa_q11",
-          "type": "translation",
-          "prompt": "Which means 'This freshness is unique to morning market vegetables'?",
-          "japanese": null,
-          "choices": [
-            "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]ならではのものだ。",
-            "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]だけのものだ。",
-            "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]にしかないものだ。",
-            "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 朝市[あさいち]の野菜[やさい] + ならではの = unique to morning market vegetables. ならではの marks this freshness as something only directly farm-sourced morning market produce can offer."
-        },
-        {
-          "id": "naradewa_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'This atmosphere is unique to traditional Japanese inns'?",
-          "japanese": null,
-          "choices": [
-            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]ならではのものだ。",
-            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]だけのものだ。",
-            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]にしかないものだ。",
-            "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 日本[にほん]の旅館[りょかん] + ならではの = unique to Japanese inns. ならではの marks this atmosphere as something only traditional ryokan can offer — not hotels or foreign lodgings."
-        },
-        {
-          "id": "naradewa_q13",
-          "type": "usage",
-          "prompt": "ならではの always requires what type of noun before it?",
-          "japanese": null,
-          "choices": [
-            "A verb in dictionary form, regardless of context or politeness level — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
-            "A NOUN — the special person, place, organization, or category that uniquely possesses Y. 日本[にほん] (noun) ならではの, 京都[きょうと] (noun) ならではの, 熟練[じゅくれん]の職人[しょくにん] (noun phrase) ならではの. Verbs and adjectives cannot precede ならではの directly",
-            "An adjective",
-            "A particle (は, が, を)"
-          ],
-          "correctIndex": 1,
-          "explanation": "Noun + ならではの: 日本[にほん]ならではの (Japan's unique...), 京都[きょうと]の秋[あき]ならではの (unique to Kyoto's autumn...), この職人[しょくにん]ならではの (unique to this artisan...). Verbs and adjectives cannot directly precede ならではの. If describing an action, it must be nominalized: 手作[てづく]りするならではの is unnatural; 手作[てづく]りならではの is correct."
-        },
-        {
-          "id": "naradewa_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'This delicacy is a cuisine unique to this region'?",
-          "japanese": null,
-          "choices": [
-            "この珍味[ちんみ]はこの地域[ちいき]ならではの料理[りょうり]だ。",
-            "この珍味[ちんみ]はこの地域[ちいき]だけの料理[りょうり]だ。",
-            "この珍味[ちんみ]はこの地域[ちいき]にしかない料理[りょうり]だ。",
-            "この珍味[ちんみ]はこの地域特有[ちいきとくゆう]の料理[りょうり]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: この地域[ちいき] + ならではの + 料理[りょうり] = cuisine unique to this region. ならではの marks this dish as something only this area's ingredients, tradition, and culture can produce."
-        },
-        {
-          "id": "naradewa_q15",
-          "type": "translation",
-          "prompt": "Which means 'This spirit of mutual support is unique to this community'?",
-          "japanese": null,
-          "choices": [
-            "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティならではのものだ。",
-            "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティだけのものだ。",
-            "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティにしかないものだ。",
-            "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティ特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: このコミュニティ + ならではの = unique to this community. ならではの marks this spirit as something only this particular community's culture and bonds can create."
-        },
-        {
-          "id": "naradewa_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'This color is unique to natural dyes'?",
-          "japanese": null,
-          "choices": [
-            "この色[いろ]は天然染料[てんねんせんりょう]ならではのものだ。",
-            "この色[いろ]は天然染料[てんねんせんりょう]だけのものだ。",
-            "この色[いろ]は天然染料[てんねんせんりょう]にしかないものだ。",
-            "この色[いろ]は天然染料[てんねんせんりょう]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 天然染料[てんねんせんりょう] + ならではの = unique to natural dyes. ならではの marks this color as something that only natural, traditional dyeing processes can produce — not synthetic dyes."
-        },
-        {
-          "id": "naradewa_q17",
-          "type": "usage",
-          "prompt": "Which sentence uses ならではの correctly?",
-          "japanese": null,
-          "choices": [
-            "日本[にほん]ならではの問題[もんだい]が多[おお]い (Japan has many unique problems — ✓, though slightly negative — still grammatical)",
-            "日本[にほん]ならではのだ (ungrammatical — ならではの must be followed by a noun, not だ)",
-            "日本[にほん]ならではの文化[ぶんか]がある (Japan has a unique culture — ✓)",
-            "日本[にほん]ならではの文化[ぶんか]ならではのだ (double ならでは — ungrammatical)"
-          ],
-          "correctIndex": 2,
-          "explanation": "日本[にほん]ならではの文化[ぶんか]がある ✓ — correct structure: Noun + ならではの + Noun. 日本[にほん]ならではのだ ✗ — ならではの must be followed by a noun, not だ directly (use ならではだ without の for predicative). 日本[にほん]ならではの問題[もんだい]が多[おお]い is also grammatical but pragmatically unusual (ならでは usually praises)."
-        },
-        {
-          "id": "naradewa_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'This humor is unique to comedians who grew up together'?",
-          "japanese": null,
-          "choices": [
-            "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]ならではのものだ。",
-            "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]だけのものだ。",
-            "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]にしかないものだ。",
-            "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun phrase + ならではの + Noun: 共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん] + ならではの = unique to comedians who grew up together. ならではの marks this humor as something born from a shared history that only they have."
-        },
-        {
-          "id": "naradewa_q19",
-          "type": "translation",
-          "prompt": "Which means 'The beauty of this place is unique to the mountains of Hokkaido'?",
-          "japanese": null,
-          "choices": [
-            "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]ならではのものだ。",
-            "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]だけのものだ。",
-            "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]にしかないものだ。",
-            "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 北海道[ほっかいどう]の山[やま] + ならではの = unique to Hokkaido's mountains. ならではの marks this beauty as something only Hokkaido's vast mountain landscape can offer."
-        },
-        {
-          "id": "naradewa_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'This depth of insight is unique to experienced researchers'?",
-          "japanese": null,
-          "choices": [
-            "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]ならではのものだ。",
-            "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]だけのものだ。",
-            "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]にしかないものだ。",
-            "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]特有[とくゆう]のものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + ならではの + Noun: 熟練[じゅくれん]した研究者[けんきゅうしゃ] + ならではの = unique to experienced researchers. ならではの marks this depth of insight as something only years of research experience can produce."
-        }
-      ]
+     "japanese": "若[わか]い世代[せだい]の活躍[かつやく]を期待[きたい]してやまないと、会長[かいちょう]は挨拶[あいさつ]の中[なか]で述[の]べました。",
+     "romaji": "Wakai sedai no katsuyaku wo kitai shite yamanai to, kaichou wa aisatsu no naka de nobemashita.",
+     "english": "In his greeting, the chairman said he has endless expectations for the younger generation's success."
     },
     {
-      "id": "to-atte",
-      "name": "〜とあって (to atte) — because / given that (special or notable situation)",
-      "shortDescription": "Explains a situation by pointing to its special, recognizable context — the cause is noteworthy, not ordinary.",
-      "formation": "Plain form / Noun + とあって + natural outcome of that special situation",
-      "explanation": "とあって explains a situation by pointing to its special context — not just any reason, but a recognizable and noteworthy circumstance that makes the outcome predictable and obvious to any observer. 連休[れんきゅう]とあって、道路[どうろ]が大渋滞[じゅうたい]になっています — 'Given that it's a long holiday weekend, the roads are severely congested' — anyone would nod in recognition: of course, it's a long weekend.\n\nThe crucial nuance: the cause marked by とあって must be a special, distinctive situation (a first day, a long holiday, a popular event, a championship final), not an ordinary everyday fact. If the cause is unremarkable, とあって would sound out of place.\n\nThis is exactly why it feels so at home in news reporting — the reporter observes an unusual situation and explains it by flagging the notable context. Compare with だから (because — neutral, any reason): とあって specifically implies 'this particular situation being the special thing it is, naturally...' The grammar does what a good journalist does: connects a remarkable observation to its distinctive cause.",
-      "rules": [
-        "Plain form / Noun + とあって = given that / because (special, noteworthy circumstance explains outcome)",
-        "The cause must be a special or distinctive situation — not an ordinary everyday reason",
-        "The outcome follows naturally and unsurprisingly from the special context",
-        "Common in news reports, journalism, and observational writing explaining social phenomena",
-        "More nuanced than だから (neutral because); とあって implies the cause is recognizably special"
-      ],
-      "examples": [
-        {
-          "japanese": "人気[にんき]アーティストのコンサートとあって、チケットは発売後[はつばいご]すぐに完売[かんばい]した。",
-          "romaji": "Ninki aatisuto no konsaato to atte, chiketto wa hatsubai go sugu ni kanbai shita.",
-          "english": "Given that it was a concert by a popular artist, tickets sold out immediately after going on sale."
-        },
-        {
-          "japanese": "初日[しょにち]とあって、開店前[かいてんまえ]から長[なが]い行列[ぎょうれつ]ができていました。",
-          "romaji": "Shonichi to atte, kaiten mae kara nagai gyouretsu ga dekite imashita.",
-          "english": "Given that it was the first day, a long queue had already formed before opening."
-        },
-        {
-          "japanese": "大型連休[おおがたれんきゅう]とあって、観光地[かんこうち]はどこも多[おお]くの人[ひと]で賑[にぎ]わっています。",
-          "romaji": "Oogata renkyuu to atte, kankouchi wa doko mo ooku no hito de nigiwatte imasu.",
-          "english": "Given the long holiday weekend, tourist spots everywhere are bustling with people."
-        },
-        {
-          "japanese": "最終戦[さいしゅうせん]とあって、スタジアムは異様[いよう]な熱気[ねっき]に包[つつ]まれていた。",
-          "romaji": "Saishuu sen to atte, sutajiamu wa iyou na nekki ni tsutsumarete ita.",
-          "english": "Given that it was the final match, the stadium was enveloped in an unusual fervor."
-        }
-      ],
-      "flashcardHeader": "〜とあって",
-      "flashcardAnswer": "Explains a situation by pointing to its special, recognizable context — the cause is noteworthy, not ordinary.",
-      "practice": [
-        {
-          "id": "to-atte_q1",
-          "type": "usage",
-          "prompt": "What does 〜とあって mean?",
-          "japanese": null,
-          "choices": [
-            "despite the fact that X / even though X",
-            "because / given that (special or notable situation) — X is a special, unusual, or noteworthy situation; Y is the natural or expected outcome given that notable context. More literary and formal than ので",
-            "if X / on the condition that X",
-            "as soon as X / immediately after X"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜とあって = because / given that (special situation). Plain form / Noun + とあって: X marks a special or noteworthy circumstance; Y is the natural outcome given that circumstance. 祭[まつ]りとあって人[ひと]が多[おお]い = because it's a festival, there are many people (festival is the special context that explains the crowd). More literary than ので."
-        },
-        {
-          "id": "to-atte_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is a holiday, the park is crowded'?",
-          "japanese": null,
-          "choices": [
-            "休日[きゅうじつ]とあって、公園[こうえん]は混[こ]んでいる。",
-            "休日[きゅうじつ]なので、公園[こうえん]は混[こ]んでいる。",
-            "休日[きゅうじつ]だから、公園[こうえん]は混[こ]んでいる。",
-            "休日[きゅうじつ]のため、公園[こうえん]は混[こ]んでいる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 休日[きゅうじつ] + とあって = given that it's a holiday. 公園[こうえん]は混[こ]んでいる = the park is crowded. とあって marks the holiday as a special context that naturally explains the crowd. More literary than なので or だから."
-        },
-        {
-          "id": "to-atte_q3",
-          "type": "translation",
-          "prompt": "Which means 'Because it is the last day of school, all the students are excited'?",
-          "japanese": null,
-          "choices": [
-            "卒業式[そつぎょうしき]とあって、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
-            "卒業式[そつぎょうしき]なので、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
-            "卒業式[そつぎょうしき]だから、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
-            "卒業式[そつぎょうしき]のため、生徒[せいと]たちは皆[みな]興奮[こうふん]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 卒業式[そつぎょうしき] + とあって = given that it's graduation. 皆[みな]興奮[こうふん]している = everyone is excited. とあって marks graduation as a special context that naturally explains the excitement."
-        },
-        {
-          "id": "to-atte_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is a big sale, customers are lining up'?",
-          "japanese": null,
-          "choices": [
-            "大[だい]バーゲンとあって、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
-            "大[だい]バーゲンなので、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
-            "大[だい]バーゲンだから、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
-            "大[だい]バーゲンのため、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 大[だい]バーゲン + とあって = given that it's a big sale. 客[きゃく]が行列[ぎょうれつ]を作[つく]っている = customers are lining up. とあって marks the sale as a special notable event that naturally explains the queues."
-        },
-        {
-          "id": "to-atte_q5",
-          "type": "usage",
-          "prompt": "〜とあって vs. ので/だから — what's the key difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "とあって is used when X is a SPECIAL, NOTABLE, or UNUSUAL situation — not everyday causation. It adds literary emphasis that X is the noteworthy context behind Y: 祭[まつ]りとあって人[ひと]が多[おお]い (because it's a FESTIVAL — special occasion). ので/だから are neutral everyday causation: 雨[あめ]なので傘[かさ]を持[も]つ (because it's raining — ordinary reason). とあって elevates the occasion",
-            "とあって is more casual",
-            "とあって is only for negative situations — this is true in both spoken and written Japanese, and the rule applies to every sentence type — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "とあって: X is special/notable — 最後[さいご]の試合[しあい]とあって選手[せんしゅ]たちは気合[きあ]いが入[はい]っていた (because it was the final match — special occasion; naturally explains the intensity). ので/だから: neutral everyday cause — 眠[ねむ]いので休[やす]む (I'm sleepy so I'll rest — ordinary reason). とあって signals that X is an occasion that makes Y naturally expected."
-        },
-        {
-          "id": "to-atte_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is the championship game, the stadium is packed'?",
-          "japanese": null,
-          "choices": [
-            "決勝戦[けっしょうせん]とあって、スタジアムは満員[まんいん]だ。",
-            "決勝戦[けっしょうせん]なので、スタジアムは満員[まんいん]だ。",
-            "決勝戦[けっしょうせん]だから、スタジアムは満員[まんいん]だ。",
-            "決勝戦[けっしょうせん]のため、スタジアムは満員[まんいん]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 決勝戦[けっしょうせん] + とあって = given that it's the championship game. スタジアムは満員[まんいん]だ = the stadium is packed. とあって marks the championship as a special context that naturally explains the full house."
-        },
-        {
-          "id": "to-atte_q7",
-          "type": "translation",
-          "prompt": "Which means 'Because the famous actor is appearing, the audience is enormous'?",
-          "japanese": null,
-          "choices": [
-            "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するとあって、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
-            "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するので、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
-            "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するから、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
-            "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するため、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb plain form + とあって: 出演[しゅつえん]する + とあって = given that the famous actor is appearing. 観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている = a huge audience has gathered. とあって marks the star's appearance as a special noteworthy event that explains the large crowd."
-        },
-        {
-          "id": "to-atte_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is the premiere, the hall was filled with excitement'?",
-          "japanese": null,
-          "choices": [
-            "初日[しょにち]とあって、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
-            "初日[しょにち]なので、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
-            "初日[しょにち]だから、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
-            "初日[しょにち]のため、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 初日[しょにち] + とあって = given that it's the premiere/first day. 会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた = the hall was filled with excitement. とあって marks the premiere as a special occasion that naturally explains the heightened excitement."
-        },
-        {
-          "id": "to-atte_q9",
-          "type": "usage",
-          "prompt": "〜とあって — what type of outcome (Y) naturally follows this pattern?",
-          "japanese": null,
-          "choices": [
-            "Any outcome, including ones the speaker dislikes, and the rule applies to every sentence type — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
-            "A NATURALLY EXPECTED or UNDERSTANDABLE outcome given the special context of X. Y should be the logical and natural response to the special occasion: 祭[まつ]り (X) → 人[ひと]が多[おお]い (Y) — naturally expected. NOT surprising or contradictory outcomes",
-            "A surprising or unexpected outcome",
-            "A past completed event only"
-          ],
-          "correctIndex": 1,
-          "explanation": "とあって: Y must be a natural consequence of X being a special situation. 祭[まつ]りとあって人[ひと]が多[おお]い (festival → crowds — natural). 決勝戦[けっしょうせん]とあって選手[せんしゅ]が集中[しゅうちゅう]している (final match → players focused — natural). The connection should feel obvious once the special context (X) is known. Surprising outcomes would use でも or にもかかわらず instead."
-        },
-        {
-          "id": "to-atte_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is cherry blossom season, the park is full of visitors'?",
-          "japanese": null,
-          "choices": [
-            "桜[さくら]の季節[きせつ]とあって、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
-            "桜[さくら]の季節[きせつ]なので、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
-            "桜[さくら]の季節[きせつ]だから、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
-            "桜[さくら]の季節[きせつ]のため、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 桜[さくら]の季節[きせつ] + とあって = given that it's cherry blossom season. 観光客[かんこうきゃく]でいっぱいだ = full of visitors. とあって marks the cherry blossom season as a special context that naturally explains the crowd."
-        },
-        {
-          "id": "to-atte_q11",
-          "type": "translation",
-          "prompt": "Which means 'Because it is a long holiday, the roads are heavily congested'?",
-          "japanese": null,
-          "choices": [
-            "大型連休[おおがたれんきゅう]とあって、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
-            "大型連休[おおがたれんきゅう]なので、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
-            "大型連休[おおがたれんきゅう]だから、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
-            "大型連休[おおがたれんきゅう]のため、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 大型連休[おおがたれんきゅう] + とあって = given that it's a long holiday. 道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している = the roads are heavily congested. とあって marks the holiday as the special noteworthy event explaining the traffic."
-        },
-        {
-          "id": "to-atte_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is the final year of school, the seniors are studying hard'?",
-          "japanese": null,
-          "choices": [
-            "最終学年[さいしゅうがくねん]とあって、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
-            "最終学年[さいしゅうがくねん]なので、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
-            "最終学年[さいしゅうがくねん]だから、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
-            "最終学年[さいしゅうがくねん]のため、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 最終学年[さいしゅうがくねん] + とあって = given that it's their final year. 懸命[けんめい]に勉強[べんきょう]している = studying hard. とあって marks the final year as a special educational milestone that naturally explains increased study effort."
-        },
-        {
-          "id": "to-atte_q13",
-          "type": "usage",
-          "prompt": "とあって can follow which forms?",
-          "japanese": null,
-          "choices": [
-            "Only nouns",
-            "Noun AND plain form verbs/adjectives: 休日[きゅうじつ]とあって (noun), 有名人[ゆうめいじん]が来[く]るとあって (verb plain form), 珍[めずら]しいとあって (adjective plain form). All plain forms work — the key is that X describes a NOTABLE or SPECIAL situation",
-            "Only verb て-form",
-            "Only past tense forms — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 1,
-          "explanation": "とあって accepts: Noun + とあって: 休日[きゅうじつ]とあって (because it's a holiday). Verb (plain) + とあって: 有名人[ゆうめいじん]が来[く]るとあって (because a celebrity is coming). Adj (plain) + とあって: 珍[めずら]しいとあって (because it is rare). The consistent requirement is that X describes a special, noteworthy situation — the form can be noun, verb, or adjective in plain form."
-        },
-        {
-          "id": "to-atte_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because the new product is rare, it sold out immediately'?",
-          "japanese": null,
-          "choices": [
-            "珍[めずら]しい新製品[しんせいひん]とあって、すぐに売[う]り切[き]れた。",
-            "珍[めずら]しい新製品[しんせいひん]なので、すぐに売[う]り切[き]れた。",
-            "珍[めずら]しい新製品[しんせいひん]だから、すぐに売[う]り切[き]れた。",
-            "珍[めずら]しい新製品[しんせいひん]のため、すぐに売[う]り切[き]れた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun phrase + とあって: 珍[めずら]しい新製品[しんせいひん] + とあって = given that it is a rare new product. すぐに売[う]り切[き]れた = sold out immediately. とあって marks the rarity as a notable special quality that explains the rapid sellout."
-        },
-        {
-          "id": "to-atte_q15",
-          "type": "translation",
-          "prompt": "Which means 'Because it is the team's first victory in years, the celebration was grand'?",
-          "japanese": null,
-          "choices": [
-            "チームの久[ひさ]しぶりの優勝[ゆうしょう]とあって、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
-            "チームの久[ひさ]しぶりの優勝[ゆうしょう]なので、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
-            "チームの久[ひさ]しぶりの優勝[ゆうしょう]だから、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
-            "チームの久[ひさ]しぶりの優勝[ゆうしょう]のため、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun phrase + とあって: 久[ひさ]しぶりの優勝[ゆうしょう] + とあって = given that it's the team's first victory in years. 大[おお]いに盛[も]り上[あ]がった = the celebration was grand. とあって marks the rare victory as the special event that explains the festive atmosphere."
-        },
-        {
-          "id": "to-atte_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is the president's visit, the company is buzzing with activity'?",
-          "japanese": null,
-          "choices": [
-            "社長[しゃちょう]の訪問[ほうもん]とあって、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]なので、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]だから、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
-            "社長[しゃちょう]の訪問[ほうもん]のため、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 社長[しゃちょう]の訪問[ほうもん] + とあって = given that the president is visiting. 会社[かいしゃ]中[じゅう]が慌[あわ]ただしい = the company is buzzing. とあって marks the president's visit as a special notable event that naturally explains the heightened activity."
-        },
-        {
-          "id": "to-atte_q17",
-          "type": "usage",
-          "prompt": "Which sentence does NOT fit 〜とあって?",
-          "japanese": null,
-          "choices": [
-            "祭[まつ]りとあって人[ひと]が多[おお]い (because it's a festival — special occasion ✓)",
-            "決勝戦[けっしょうせん]とあって選手[せんしゅ]が気合[きあ]いを入[い]れている (because it's the final — special ✓)",
-            "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ (it's raining — ordinary everyday reason ✗)",
-            "有名人[ゆうめいじん]が来[く]るとあって人[ひと]が集[あつ]まっている (because a celebrity is coming — special ✓)"
-          ],
-          "correctIndex": 2,
-          "explanation": "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ — this doesn't fit. とあって is for SPECIAL or NOTABLE situations. Rain and carrying an umbrella is an ordinary everyday causal relationship — no special occasion. なので / だから is correct here: 雨[あめ]が降[ふ]っているので傘[かさ]を持[も]つ. とあって requires that X be a noteworthy occasion that makes Y specially expected."
-        },
-        {
-          "id": "to-atte_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is a limited edition, fans are competing to buy it'?",
-          "japanese": null,
-          "choices": [
-            "限定品[げんていひん]とあって、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
-            "限定品[げんていひん]なので、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
-            "限定品[げんていひん]だから、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
-            "限定品[げんていひん]のため、ファンが争[あらそ]って購入[こうにゅう]しようとしている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 限定品[げんていひん] + とあって = given that it's a limited edition. ファンが争[あらそ]って購入[こうにゅう]しようとしている = fans are competing to buy it. とあって marks limited availability as a special notable condition that explains the competitive buying behavior."
-        },
-        {
-          "id": "to-atte_q19",
-          "type": "translation",
-          "prompt": "Which means 'Because the legendary musician is performing, tickets sold out in minutes'?",
-          "japanese": null,
-          "choices": [
-            "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するとあって、チケットは数分[すうふん]で完売[かんばい]した。",
-            "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するので、チケットは数分[すうふん]で完売[かんばい]した。",
-            "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するから、チケットは数分[すうふん]で完売[かんばい]した。",
-            "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するため、チケットは数分[すうふん]で完売[かんばい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb plain form + とあって: 出演[しゅつえん]する + とあって = given that the legendary musician is performing. 数分[すうふん]で完売[かんばい]した = tickets sold out in minutes. とあって marks the legendary performance as a special event that naturally explains instant sellout."
-        },
-        {
-          "id": "to-atte_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Because it is a world record attempt, the media attention is intense'?",
-          "japanese": null,
-          "choices": [
-            "世界記録[せかいきろく]への挑戦[ちょうせん]とあって、メディアの注目[ちゅうもく]が集[あつ]まっている。",
-            "世界記録[せかいきろく]への挑戦[ちょうせん]なので、メディアの注目[ちゅうもく]が集[あつ]まっている。",
-            "世界記録[せかいきろく]への挑戦[ちょうせん]だから、メディアの注目[ちゅうもく]が集[あつ]まっている。",
-            "世界記録[せかいきろく]への挑戦[ちょうせん]のため、メディアの注目[ちゅうもく]が集[あつ]まっている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + とあって: 世界記録[せかいきろく]への挑戦[ちょうせん] + とあって = given that it's a world record attempt. メディアの注目[ちゅうもく]が集[あつ]まっている = media attention is intense. とあって marks the record attempt as a special notable event that naturally explains the intense coverage."
-        }
-      ]
+     "japanese": "平和[へいわ]な世界[せかい]の実現[じつげん]を願[ねが]ってやまないのは、世界中[せかいじゅう]の人々[ひとびと]の思[おも]いです。",
+     "romaji": "Heiwa na sekai no jitsugen wo negatte yamanai no wa, sekaijuu no hitobito no omoi desu.",
+     "english": "Endlessly wishing for the realization of a peaceful world is the feeling of people all over the world."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜てやまない",
+   "flashcardAnswer": "Expresses a deep, permanent, unwavering positive emotion — literary and formal, for feelings that endure without end.",
+   "practice": [
     {
-      "id": "ch50_v01",
-      "partOfSpeech": "i-adjective",
-      "kanji": "著しい",
-      "kana": "いちじるしい",
-      "romaji": "ichijirushii",
-      "definition": "remarkable; striking"
+     "id": "te-yamanai_q1",
+     "type": "usage",
+     "prompt": "What does 〜てやまない mean?",
+     "japanese": null,
+     "choices": [
+      "to stop doing X / to cease from X",
+      "to never cease to / to deeply and enduringly — expresses a feeling or state that never stops: a strong, lasting emotion (hope, love, gratitude, admiration) that continues without end",
+      "to begin doing X for the first time",
+      "to regret doing X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜てやまない = never cease to / deeply and enduringly. やまない comes from 止[と]む (yamu) = to stop. て + やまない = ' does not stop.' 愛[あい]してやまない = love and never stop loving (deep, enduring love). Used for sustained strong emotions, especially positive feelings like love, hope, respect, gratitude."
     },
     {
-      "id": "ch50_v02",
-      "partOfSpeech": "i-adjective",
-      "kanji": "甚だしい",
-      "kana": "はなはだしい",
-      "romaji": "hanahadashii",
-      "definition": "extreme; excessive"
+     "id": "te-yamanai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'I have deep and enduring love for my homeland'?",
+     "japanese": null,
+     "choices": [
+      "故郷[こきょう]を愛[あい]してやまない。",
+      "故郷[こきょう]をとても愛[あい]している。",
+      "故郷[ふるさと]への愛[あい]は尽[ことごと]きない。",
+      "故郷[こきょう]が大好[だいす]きでやまない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = love and never cease to love. 故郷[こきょう]を愛[あい]してやまない = I never cease to love my homeland. やまない adds the sense that this love is enduring and deep — it never stops."
     },
     {
-      "id": "ch50_v03",
-      "partOfSpeech": "i-adjective",
-      "kanji": "目覚ましい",
-      "kana": "めざましい",
-      "romaji": "mezamashii",
-      "definition": "striking; spectacular"
+     "id": "te-yamanai_q3",
+     "type": "translation",
+     "prompt": "Which means 'I sincerely hope for your future success'?",
+     "japanese": null,
+     "choices": [
+      "あなたの今後[こんご]のご活躍[かつやく]を願[ねが]ってやみません。",
+      "あなたの今後[こんご]のご活躍[かつやく]を強[つよ]く願[ねが]っています。",
+      "あなたの今後[こんご]のご活躍[かつやく]を心[こころ]から願[ねが]っています。",
+      "あなたの今後[こんご]のご活躍[かつやく]を祈[いの]っています。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やみません (polite negative): 願[ねが]って + やみません = never cease to wish. あなたのご活躍[かつやく]を願[ねが]ってやみません = I sincerely and enduringly hope for your success. やみません is the polite form; やまない is the plain form. Classic farewell/formal wish expression."
     },
     {
-      "id": "ch50_v04",
-      "partOfSpeech": "i-adjective",
-      "kanji": "華々しい",
-      "kana": "はなばなしい",
-      "romaji": "hanabanashii",
-      "definition": "brilliant; glorious"
+     "id": "te-yamanai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'We deeply and enduringly respect this artist's works'?",
+     "japanese": null,
+     "choices": [
+      "この芸術家[げいじゅつか]の作品[さくひん]を尊敬[そんけい]してやまない。",
+      "この芸術家[げいじゅつか]の作品[さくひん]をとても尊敬[そんけい]している。",
+      "この芸術家[げいじゅつか]の作品[さくひん]への尊敬[そんけい]は尽[ことごと]きない。",
+      "この芸術家[げいじゅつか]の作品[さくひん]を心[こころ]から尊敬[そんけい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. この芸術家[げいじゅつか]の作品[さくひん]を尊敬[そんけい]してやまない = we deeply and enduringly respect this artist's works. やまない marks the respect as a lasting, unceasing feeling."
     },
     {
-      "id": "ch50_v05",
-      "partOfSpeech": "i-adjective",
-      "kanji": "名高い",
-      "kana": "なだかい",
-      "romaji": "nadakai",
-      "definition": "renowned; famous"
+     "id": "te-yamanai_q5",
+     "type": "usage",
+     "prompt": "〜てやまない is used primarily with which type of verbs?",
+     "japanese": null,
+     "choices": [
+      "Action verbs describing physical movement (run, jump, eat), with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule.",
+      "Emotion/feeling verbs or mental state verbs: 愛[あい]する (love), 望[のぞ]む (hope), 尊敬[そんけい]する (respect), 願[ねが]う (wish), 慕[した]う (adore) — NOT physical action verbs. The feeling continues without stopping",
+      "Negative verbs (not doing something)",
+      "Verbs of completion (finish, end)"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜てやまない collocates with emotion/mental state verbs: 愛[あい]してやまない (love enduringly), 望[のぞ]んでやまない (hope enduringly), 尊敬[そんけい]してやまない (respect enduringly), 願[ねが]ってやまない (wish enduringly). Physical action verbs don't fit: 食[た]べてやまない or 走[はし]ってやまない are unnatural. The grammar is for sustained feelings, not repeated physical acts."
     },
     {
-      "id": "ch50_v06",
-      "partOfSpeech": "i-adjective",
-      "kanji": "潔い",
-      "kana": "いさぎよい",
-      "romaji": "isagiyoi",
-      "definition": "graceful; resolute"
+     "id": "te-yamanai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'The whole team deeply and enduringly admires the coach'?",
+     "japanese": null,
+     "choices": [
+      "チーム全員[ぜんいん]がコーチを慕[した]ってやまない。",
+      "チーム全員[ぜんいん]がコーチをとても慕[した]っている。",
+      "チーム全員[ぜんいん]のコーチへの慕[ぼ]いは尽[ことごと]きない。",
+      "チーム全員[ぜんいん]がコーチを心[こころ]から慕[した]っている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 慕[した]って + やまない = never cease to adore/look up to. チーム全員[ぜんいん]がコーチを慕[した]ってやまない = the whole team enduringly admires the coach. やまない marks the admiration as deep and unceasing."
     },
     {
-      "id": "ch50_v07",
-      "partOfSpeech": "i-adjective",
-      "kanji": "淡い",
-      "kana": "あわい",
-      "romaji": "awai",
-      "definition": "faint; pale"
+     "id": "te-yamanai_q7",
+     "type": "translation",
+     "prompt": "Which means 'I never cease to hope for world peace'?",
+     "japanese": null,
+     "choices": [
+      "世界平和[せかいへいわ]を望[のぞ]んでやまない。",
+      "世界平和[せかいへいわ]をとても望[のぞ]んでいる。",
+      "世界平和[せかいへいわ]を心[こころ]から望[のぞ]んでいる。",
+      "世界平和[せかいへいわ]への望[のぞ]みは尽[ことごと]きない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 望[のぞ]んで + やまない = never cease to hope. 世界平和[せかいへいわ]を望[のぞ]んでやまない = I enduringly hope for world peace. やまない adds literary weight — this is a deep, lasting, unceasing wish."
     },
     {
-      "id": "ch50_v08",
-      "partOfSpeech": "i-adjective",
-      "kanji": "儚い",
-      "kana": "はかない",
-      "romaji": "hakanai",
-      "definition": "fleeting; transient"
+     "id": "te-yamanai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'She is deeply devoted to her students and never stops caring for them'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]は生徒[せいと]たちを愛[あい]してやまない。",
+      "彼女[かのじょ]は生徒[せいと]たちをとても愛[あい]している。",
+      "彼女[かのじょ]は生徒[せいと]たちへの愛[あい]が尽[ことごと]きない。",
+      "彼女[かのじょ]は生徒[せいと]たちを心[こころ]から愛[あい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = never cease to love. 生徒[せいと]たちを愛[あい]してやまない = enduringly and deeply loves her students. やまない conveys that her care is profound and never-ending."
     },
     {
-      "id": "ch50_v09",
-      "partOfSpeech": "i-adjective",
-      "kanji": "麗しい",
-      "kana": "うるわしい",
-      "romaji": "uruwashii",
-      "definition": "beautiful; lovely"
+     "id": "te-yamanai_q9",
+     "type": "usage",
+     "prompt": "〜てやまない vs. 〜てならない — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "〜てやまない = strong, enduring, sustained EMOTION that never stops (love, hope, admiration); 〜てならない = irresistibly arising emotion or sensation that the speaker can't suppress (気[き]になってならない = I can't stop wondering, an uncontrollable feeling arising NOW). やまない = continuing; ならない = arising irresistibly",
+      "〜てやまない is more casual",
+      "〜てならない is only for physical sensations — textbooks treat this as an absolute rule, regardless of context or politeness level — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "〜てやまない: deep, enduring, never-stopping feeling — 愛[あい]してやまない (love that never ends). 〜てならない: irresistible feeling arising now — 心配[しんぱい]でならない (I can't help worrying). やまない emphasizes DURATION (the feeling continues); ならない emphasizes INTENSITY NOW (the feeling is overwhelming at this moment). Both are literary."
     },
     {
-      "id": "ch50_v10",
-      "partOfSpeech": "na-adjective",
-      "kanji": "清らか",
-      "kana": "きよらか",
-      "romaji": "kiyoraka",
-      "definition": "pure; clear"
+     "id": "te-yamanai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'We enduringly cherish the memories of our time together'?",
+     "japanese": null,
+     "choices": [
+      "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を大切[たいせつ]にしてやまない。",
+      "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]をとても大切[たいせつ]にしている。",
+      "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]は尽[ことごと]きない。",
+      "共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を心[こころ]から大切[たいせつ]にしている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 大切[たいせつ]にして + やまない = never cease to cherish. 共[とも]に過[す]ごした時間[じかん]の思[おも]い出[で]を大切[たいせつ]にしてやまない = enduringly and deeply cherish those shared memories. やまない marks lasting reverence for the past."
     },
     {
-      "id": "ch50_v11",
-      "partOfSpeech": "na-adjective",
-      "kanji": "厳か",
-      "kana": "おごそか",
-      "romaji": "ogosoka",
-      "definition": "solemn; grave"
+     "id": "te-yamanai_q11",
+     "type": "translation",
+     "prompt": "Which means 'All of us never cease to respect this scientist's achievements'?",
+     "japanese": null,
+     "choices": [
+      "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]を尊敬[そんけい]してやまない。",
+      "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]をとても尊敬[そんけい]している。",
+      "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]への尊敬[そんけい]が尽[ことごと]きない。",
+      "私[わたし]たち全員[ぜんいん]がこの科学者[かがくしゃ]の業績[ぎょうせき]を心[こころ]から尊敬[そんけい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. この科学者[かがくしゃ]の業績[ぎょうせき]を尊敬[そんけい]してやまない = enduringly respect the scientist's achievements. やまない marks the respect as deep and perpetual."
     },
     {
-      "id": "ch50_v12",
-      "partOfSpeech": "na-adjective",
-      "kanji": "華やか",
-      "kana": "はなやか",
-      "romaji": "hanayaka",
-      "definition": "gorgeous; brilliant"
+     "id": "te-yamanai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'I sincerely and enduringly wish for your happiness'?",
+     "japanese": null,
+     "choices": [
+      "あなたの幸[しあわ]せを祈[いの]ってやまない。",
+      "あなたの幸[しあわ]せをとても祈[いの]っている。",
+      "あなたの幸[しあわ]せが尽[ことごと]きないように祈[いの]っている。",
+      "あなたの幸[しあわ]せを心[こころ]から祈[いの]っている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 祈[いの]って + やまない = never cease to pray/wish. あなたの幸[しあわ]せを祈[いの]ってやまない = I enduringly and sincerely wish for your happiness. やまない marks the wish as deep and lasting."
     },
     {
-      "id": "ch50_v13",
-      "partOfSpeech": "na-adjective",
-      "kanji": "鮮やか",
-      "kana": "あざやか",
-      "romaji": "azayaka",
-      "definition": "vivid; vibrant"
+     "id": "te-yamanai_q13",
+     "type": "usage",
+     "prompt": "〜てやまない is typically found in what register?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday conversation",
+      "Formal and literary contexts: speeches, farewell messages, written tributes, formal letters, literary prose — not casual conversation. 願[ねが]ってやみません is a classic formal farewell wish",
+      "Only in classical Japanese texts, regardless of context or politeness level — this is true in both spoken and written Japanese.",
+      "Only in scientific papers"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜てやまない is formal and literary. Found in: formal speeches (ご活躍[かつやく]を願[ねが]ってやみません), formal letters, written tributes, literary prose. In casual speech, とても愛[あい]している / 心[こころ]から願[ねが]っている are natural. やまない marks elevated, literary sincerity."
     },
     {
-      "id": "ch50_v14",
-      "partOfSpeech": "na-adjective",
-      "kanji": "滑らか",
-      "kana": "なめらか",
-      "romaji": "nameraka",
-      "definition": "smooth"
+     "id": "te-yamanai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'The readers deeply and enduringly love the author's works'?",
+     "japanese": null,
+     "choices": [
+      "読者[どくしゃ]はその作家[さっか]の作品[さくひん]を愛[あい]してやまない。",
+      "読者[どくしゃ]はその作家[さっか]の作品[さくひん]をとても愛[あい]している。",
+      "読者[どくしゃ]はその作家[さっか]の作品[さくひん]への愛[あい]が尽[ことごと]きない。",
+      "読者[どくしゃ]はその作家[さっか]の作品[さくひん]を心[こころ]から愛[あい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 愛[あい]して + やまない = never cease to love. 作品[さくひん]を愛[あい]してやまない = enduringly and deeply love the works. やまない marks the readers' appreciation as profound and unceasing."
     },
     {
-      "id": "ch50_v15",
-      "partOfSpeech": "na-adjective",
-      "kanji": "緩やか",
-      "kana": "ゆるやか",
-      "romaji": "yuruyaka",
-      "definition": "gentle; gradual"
+     "id": "te-yamanai_q15",
+     "type": "translation",
+     "prompt": "Which means 'We never cease to value the bond of friendship'?",
+     "japanese": null,
+     "choices": [
+      "友情[ゆうじょう]の絆[きずな]を大切[たいせつ]にしてやまない。",
+      "友情[ゆうじょう]の絆[きずな]をとても大切[たいせつ]にしている。",
+      "友情[ゆうじょう]の絆[きずな]への大切[たいせつ]さが尽[ことごと]きない。",
+      "友情[ゆうじょう]の絆[きずな]を心[こころ]から大切[たいせつ]にしている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 大切[たいせつ]にして + やまない = never cease to cherish. 友情[ゆうじょう]の絆[きずな]を大切[たいせつ]にしてやまない = enduringly and deeply value the bond of friendship. やまない marks the value placed on friendship as everlasting."
     },
     {
-      "id": "ch50_v16",
-      "partOfSpeech": "na-adjective",
-      "kanji": "密か",
-      "kana": "ひそか",
-      "romaji": "hisoka",
-      "definition": "secret; private"
+     "id": "te-yamanai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'We enduringly admire the courage of those who fought for peace'?",
+     "japanese": null,
+     "choices": [
+      "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]を尊敬[そんけい]してやまない。",
+      "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]をとても尊敬[そんけい]している。",
+      "平和[へいわ]のために戦[たたか]った人々[ひとびと]への敬意[けいい]が尽[ことごと]きない。",
+      "平和[へいわ]のために戦[たたか]った人々[ひとびと]の勇気[ゆうき]を心[こころ]から尊敬[そんけい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. 勇気[ゆうき]を尊敬[そんけい]してやまない = enduringly admire their courage. やまない marks sustained reverence for the courage of those who fought for peace."
     },
     {
-      "id": "ch50_v17",
-      "partOfSpeech": "na-adjective",
-      "kanji": "稀",
-      "kana": "まれ",
-      "romaji": "mare",
-      "definition": "rare"
+     "id": "te-yamanai_q17",
+     "type": "usage",
+     "prompt": "Which sentence correctly uses 〜てやまない?",
+     "japanese": null,
+     "choices": [
+      "走[はし]ってやまない (never stop running — physical action, unnatural)",
+      "故郷[こきょう]を愛[あい]してやまない (never stop loving my homeland — emotion verb, natural ✓)",
+      "食[た]べてやまない (never stop eating — physical action, unnatural)",
+      "寝[ね]てやまない (never stop sleeping — physical action, unnatural)"
+     ],
+     "correctIndex": 1,
+     "explanation": "故郷[こきょう]を愛[あい]してやまない ✓ — 愛[あい]する (love) is an emotion verb; this is the correct usage. 走[はし]る, 食[た]べる, 寝[ね]る are physical action verbs — they do NOT fit 〜てやまない. The grammar requires emotion/feeling verbs: 愛[あい]する, 望[のぞ]む, 尊敬[そんけい]する, 願[ねが]う, 慕[した]う, 大切[たいせつ]にする."
     },
     {
-      "id": "ch50_v18",
-      "partOfSpeech": "na-adjective",
-      "kanji": "露骨",
-      "kana": "ろこつ",
-      "romaji": "rokotsu",
-      "definition": "blatant; frank"
+     "id": "te-yamanai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'I never cease to be grateful for my mentor's guidance'?",
+     "japanese": null,
+     "choices": [
+      "恩師[おんし]のご指導[しどう]に感謝[かんしゃ]してやまない。",
+      "恩師[おんし]のご指導[しどう]にとても感謝[かんしゃ]している。",
+      "恩師[おんし]のご指導[しどう]への感謝[かんしゃ]が尽[ことごと]きない。",
+      "恩師[おんし]のご指導[しどう]を心[こころ]から感謝[かんしゃ]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 感謝[かんしゃ]して + やまない = never cease to be grateful. 恩師[おんし]のご指導[しどう]に感謝[かんしゃ]してやまない = enduringly grateful for the mentor's guidance. やまない marks deep, lasting gratitude — fitting for formal tribute expressions."
     },
     {
-      "id": "ch50_v19",
-      "partOfSpeech": "na-adjective",
-      "kanji": "巧み",
-      "kana": "たくみ",
-      "romaji": "takumi",
-      "definition": "skillful; adept"
+     "id": "te-yamanai_q19",
+     "type": "translation",
+     "prompt": "Which means 'I never cease to hope that you will achieve your dreams'?",
+     "japanese": null,
+     "choices": [
+      "あなたが夢[ゆめ]を実現[じつげん]することを願[ねが]ってやまない。",
+      "あなたが夢[ゆめ]を実現[じつげん]することをとても願[ねが]っている。",
+      "あなたの夢[ゆめ]の実現[じつげん]を心[こころ]から願[ねが]っている。",
+      "あなたが夢[ゆめ]を実現[じつげん]することを強[つよ]く望[のぞ]んでいる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 願[ねが]って + やまない = never cease to wish. 夢[ゆめ]を実現[じつげん]することを願[ねが]ってやまない = enduringly hope for your dreams to be realized. やまない marks the hope as sincere and unceasing."
     },
     {
-      "id": "ch50_v20",
-      "partOfSpeech": "na-adjective",
-      "kanji": "円満",
-      "kana": "えんまん",
-      "romaji": "enman",
-      "definition": "harmonious; amicable"
-    },
-    {
-      "id": "ch50_v21",
-      "partOfSpeech": "na-adjective",
-      "kanji": "壮大",
-      "kana": "そうだい",
-      "romaji": "soudai",
-      "definition": "grand; magnificent"
-    },
-    {
-      "id": "ch50_v22",
-      "partOfSpeech": "na-adjective",
-      "kanji": "荘厳",
-      "kana": "そうごん",
-      "romaji": "sougon",
-      "definition": "solemn; majestic"
-    },
-    {
-      "id": "ch50_v23",
-      "partOfSpeech": "na-adjective",
-      "kanji": "神秘的",
-      "kana": "しんぴてき",
-      "romaji": "shinpiteki",
-      "definition": "mysterious; mystical"
-    },
-    {
-      "id": "ch50_v24",
-      "partOfSpeech": "na-adjective",
-      "kanji": "幻想的",
-      "kana": "げんそうてき",
-      "romaji": "gensouteki",
-      "definition": "dreamlike; fantastic"
-    },
-    {
-      "id": "ch50_v25",
-      "partOfSpeech": "noun",
-      "kanji": "情緒",
-      "kana": "じょうちょ",
-      "romaji": "joucho",
-      "definition": "emotion; atmosphere"
-    },
-    {
-      "id": "ch50_v26",
-      "partOfSpeech": "noun",
-      "kanji": "余韻",
-      "kana": "よいん",
-      "romaji": "yoin",
-      "definition": "lingering resonance; afterglow"
-    },
-    {
-      "id": "ch50_v27",
-      "partOfSpeech": "noun",
-      "kanji": "気配",
-      "kana": "けはい",
-      "romaji": "kehai",
-      "definition": "sign; indication; presence"
-    },
-    {
-      "id": "ch50_v28",
-      "partOfSpeech": "noun",
-      "kanji": "面影",
-      "kana": "おもかげ",
-      "romaji": "omokage",
-      "definition": "vestiges; traces; image"
-    },
-    {
-      "id": "ch50_v29",
-      "partOfSpeech": "noun",
-      "kanji": "趣",
-      "kana": "おもむき",
-      "romaji": "omomuki",
-      "definition": "charm; taste; feel"
-    },
-    {
-      "id": "ch50_v30",
-      "partOfSpeech": "noun",
-      "kanji": "風情",
-      "kana": "ふぜい",
-      "romaji": "fuzei",
-      "definition": "elegance; atmosphere"
-    },
-    {
-      "id": "ch50_v31",
-      "partOfSpeech": "noun",
-      "kanji": "名残",
-      "kana": "なごり",
-      "romaji": "nagori",
-      "definition": "remnants; traces; parting"
-    },
-    {
-      "id": "ch50_v32",
-      "partOfSpeech": "noun",
-      "kanji": "佇まい",
-      "kana": "たたずまい",
-      "romaji": "tatazumai",
-      "definition": "appearance; atmosphere"
-    },
-    {
-      "id": "ch50_v33",
-      "partOfSpeech": "verb",
-      "kanji": "醸し出す",
-      "kana": "かもしだす",
-      "romaji": "kamoshidasu",
-      "definition": "to create (an atmosphere)"
-    },
-    {
-      "id": "ch50_v34",
-      "partOfSpeech": "verb",
-      "kanji": "際立つ",
-      "kana": "きわだつ",
-      "romaji": "kiwadatsu",
-      "definition": "to stand out; to be conspicuous"
-    },
-    {
-      "id": "ch50_v35",
-      "partOfSpeech": "na-adjective",
-      "kanji": "呆然",
-      "kana": "ぼうぜん",
-      "romaji": "bouzen",
-      "definition": "dumbfounded; stunned"
-    },
-    {
-      "id": "ch50_v36",
-      "partOfSpeech": "adverb",
-      "kanji": "うっとり",
-      "kana": "うっとり",
-      "romaji": "uttori",
-      "definition": "enraptured; entranced"
-    },
-    {
-      "id": "ch50_v37",
-      "partOfSpeech": "adverb",
-      "kanji": "しみじみ",
-      "kana": "しみじみ",
-      "romaji": "shimijimi",
-      "definition": "keenly; deeply"
-    },
-    {
-      "id": "ch50_v38",
-      "partOfSpeech": "adverb",
-      "kanji": "ひしひし",
-      "kana": "ひしひし",
-      "romaji": "hishihishi",
-      "definition": "keenly; intensely"
-    },
-    {
-      "id": "ch50_v39",
-      "partOfSpeech": "adverb",
-      "kanji": "つくづく",
-      "kana": "つくづく",
-      "romaji": "tsukuzuku",
-      "definition": "deeply; thoroughly"
-    },
-    {
-      "id": "ch50_v40",
-      "partOfSpeech": "adverb",
-      "kanji": "まざまざ",
-      "kana": "まざまざ",
-      "romaji": "mazamaza",
-      "definition": "vividly; clearly"
+     "id": "te-yamanai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'We deeply and enduringly respect the president's leadership'?",
+     "japanese": null,
+     "choices": [
+      "社長[しゃちょう]のリーダーシップを尊敬[そんけい]してやまない。",
+      "社長[しゃちょう]のリーダーシップをとても尊敬[そんけい]している。",
+      "社長[しゃちょう]のリーダーシップへの尊敬[そんけい]が尽[ことごと]きない。",
+      "社長[しゃちょう]のリーダーシップを心[こころ]から尊敬[そんけい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb (て-form) + やまない: 尊敬[そんけい]して + やまない = never cease to respect. リーダーシップを尊敬[そんけい]してやまない = enduringly and deeply respect the leadership. やまない marks the respect as profound and lasting."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "wo-oite",
+   "name": "〜をおいて (wo oite) — other than / there is none but",
+   "shortDescription": "Literary assertion of absolute uniqueness: setting everything else aside, there is no one but X who could fill this role.",
+   "formation": "Noun + をおいて + (他[ほか]に) + negative predicate (ない / いない)",
+   "explanation": "をおいて means 'setting aside everything else, there is no one but X.' The structure (from 置[お]く — to set aside / to place) is always paired with a negative: をおいて + (他[ほか]に) + ない/いない. 彼[かれ]をおいて、このプロジェクトのリーダーはいない — 'Setting everyone else aside, there is no leader for this project other than him.' The expression is an assertion of absolute uniqueness and indispensability — X alone is suited, qualified, or capable; no one else even enters the picture. It is a strong form of praise, deliberately formal and emphatic.\n\nUse it in a formal recommendation, a eulogy, or any context where you want to assert someone's irreplaceability without qualification. The literal 'setting aside' metaphor is powerful: imagine lining up all other candidates, setting them to one side, and finding only one person remains. That person is the one named before をおいて.\n\nAlways pair with a negative main clause — ない or いない — and optionally include 他[ほか]に (other / besides) to reinforce the exclusivity.",
+   "rules": [
+    "Noun + をおいて + (他[ほか]に) + ない/いない = other than [noun], there is no one / nothing",
+    "Asserts absolute uniqueness: X alone is the right person or thing — nothing else qualifies",
+    "Always appears with a negative main clause — ない or いない",
+    "Literary and formal — strong recommendations, eulogies, formal expressions of irreplaceability",
+    "The optional 他[ほか]に reinforces the exclusivity: 'setting aside everything else, there is no one'"
+   ],
+   "examples": [
     {
-      "char": "怠",
-      "word": "怠ける",
-      "reading": "なまける",
-      "meaning": "to be lazy, idle"
+     "japanese": "この仕事[しごと]をできる人[ひと]は、山田[やまだ]さんをおいて他[ほか]にいません。",
+     "romaji": "Kono shigoto wo dekiru hito wa, Yamada-san wo oite hoka ni imasen.",
+     "english": "There is no one other than Yamada-san who can do this job."
     },
     {
-      "char": "頬",
-      "word": "頬",
-      "reading": "ほお",
-      "meaning": "cheek"
+     "japanese": "この難局[なんきょく]を乗[の]り越[こ]えられるリーダーは、彼[かれ]をおいて他[ほか]にいないでしょう。",
+     "romaji": "Kono nankyoku wo norikoerareru riidaa wa, kare wo oite hoka ni inai deshou.",
+     "english": "There is likely no leader other than him who can overcome this difficult situation."
     },
     {
-      "char": "爪",
-      "word": "爪",
-      "reading": "つめ",
-      "meaning": "nail, claw"
+     "japanese": "この役[やく]を演[えん]じられる俳優[はいゆう]は、田中[たなか]さんをおいてないと監督[かんとく]は言[い]った。",
+     "romaji": "Kono yaku wo enjirareru haiyuu wa, Tanaka-san wo oite nai to kantoku wa itta.",
+     "english": "The director said there is no actor other than Tanaka-san who can play this role."
     },
     {
-      "char": "顕",
-      "word": "顕",
-      "reading": "けん",
-      "meaning": "manifest"
-    },
-    {
-      "char": "循",
-      "word": "循",
-      "reading": "じゅん",
-      "meaning": "circulate"
-    },
-    {
-      "char": "妨",
-      "word": "妨げる",
-      "reading": "さまたげる",
-      "meaning": "to hinder, obstruct"
-    },
-    {
-      "char": "逝",
-      "word": "逝",
-      "reading": "ゆく",
-      "meaning": "die"
-    },
-    {
-      "char": "挨",
-      "word": "挨",
-      "reading": "あい",
-      "meaning": "push open"
-    },
-    {
-      "char": "賦",
-      "word": "賦",
-      "reading": "ふ",
-      "meaning": "levy"
-    },
-    {
-      "char": "醸",
-      "word": "醸し出す",
-      "reading": "かもしだす",
-      "meaning": "to create (an atmosphere)"
-    },
-    {
-      "char": "髄",
-      "word": "髄",
-      "reading": "ずい",
-      "meaning": "marrow"
-    },
-    {
-      "char": "露",
-      "word": "露骨",
-      "reading": "ろこつ",
-      "meaning": "blatant; frank"
-    },
-    {
-      "char": "峰",
-      "word": "峰",
-      "reading": "みね",
-      "meaning": "peak, summit"
-    },
-    {
-      "char": "擬",
-      "word": "擬",
-      "reading": "ぎ",
-      "meaning": "imitate"
-    },
-    {
-      "char": "赦",
-      "word": "赦",
-      "reading": "しゃ",
-      "meaning": "pardon"
-    },
-    {
-      "char": "如",
-      "word": "如",
-      "reading": "ごとし",
-      "meaning": "as if"
-    },
-    {
-      "char": "凡",
-      "word": "凡",
-      "reading": "ぼん",
-      "meaning": "ordinary"
+     "japanese": "今[いま]この状況[じょうきょう]で頼[たよ]れる人[ひと]は、あなたをおいて他[ほか]にいません。",
+     "romaji": "Ima kono joukyou de tayoreru hito wa, anata wo oite hoka ni imasen.",
+     "english": "In this situation right now, there is no one other than you that I can rely on."
     }
-  ]
+   ],
+   "flashcardHeader": "〜をおいて",
+   "flashcardAnswer": "Literary assertion of absolute uniqueness: setting everything else aside, there is no one but X — always paired with a negative.",
+   "practice": [
+    {
+     "id": "wo-oite_q1",
+     "type": "usage",
+     "prompt": "What does 〜をおいて mean?",
+     "japanese": null,
+     "choices": [
+      "without X / instead of X",
+      "other than X / there is none but X — X is the unique, irreplaceable option. Used in phrases like 'there is no one other than X' or 'it can only be X': 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない = there is no one more qualified than him",
+      "because of X",
+      "in addition to X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜をおいて = other than / there is none but. Noun + をおいて + (他[ほか]に) + negative predicate: 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない (there is no one more qualified — he is uniquely the best). X is irreplaceable. Always paired with a negative (ない, いない, できない). Emphatic, formal."
+    },
+    {
+     "id": "wo-oite_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no one other than her who can do this job'?",
+     "japanese": null,
+     "choices": [
+      "彼女[かのじょ]をおいて他[ほか]に、この仕事[しごと]ができる人[ひと]はいない。",
+      "彼女[かのじょ]以外[いがい]に、この仕事[しごと]ができる人[ひと]はいない。",
+      "彼女[かのじょ]をおいて、この仕事[しごと]ができる人[ひと]はいない。",
+      "彼女[かのじょ]しか、この仕事[しごと]ができる人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼女[かのじょ] + をおいて + 他[ほか]に + いない = there is no one other than her. この仕事[しごと]ができる人[ひと]はいない = who can do this job. をおいて + 他[ほか]に + negative is the standard construction."
+    },
+    {
+     "id": "wo-oite_q3",
+     "type": "translation",
+     "prompt": "Which means 'There is no place other than this one where you can find such a view'?",
+     "japanese": null,
+     "choices": [
+      "ここをおいて他[ほか]に、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
+      "ここ以外[いがい]に、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
+      "ここをおいて、このような景色[けしき]が見[み]られる場所[ばしょ]はない。",
+      "ここしか、このような景色[けしき]が見[み]られる場所[ばしょ]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: ここ + をおいて + 他[ほか]に + ない = there is no other place. このような景色[けしき]が見[み]られる場所[ばしょ]はない = where such a view can be seen. をおいて elevates ここ as the uniquely irreplaceable place."
+    },
+    {
+     "id": "wo-oite_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no other time but now to act'?",
+     "japanese": null,
+     "choices": [
+      "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない。",
+      "今[いま]以外[いがい]に、行動[こうどう]する時[とき]はない。",
+      "今[いま]をおいて、行動[こうどう]する時[とき]はない。",
+      "今[いま]しか、行動[こうどう]する時[とき]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 今[いま] + をおいて + 他[ほか]に + ない = there is no other time. 行動[こうどう]する時[とき]はない = to act. 今[いま]をおいて他[ほか]にない = now is the uniquely irreplaceable moment for action."
+    },
+    {
+     "id": "wo-oite_q5",
+     "type": "usage",
+     "prompt": "〜をおいて must always be followed by what?",
+     "japanese": null,
+     "choices": [
+      "A positive predicate (can, will, is possible) — this is true in both spoken and written Japanese.",
+      "A NEGATIVE predicate — ない / いない / できない / ならない: 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない (no one — negative). Without a negative, をおいて does not make grammatical sense",
+      "An adjective",
+      "A question word"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜をおいて REQUIRES a negative predicate: Noun + をおいて + (他[ほか]に) + negative. 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]はいない ✓ (no one). 彼[かれ]をおいて他[ほか]に適任者[てきにんしゃ]がいる ✗ (there is someone — positive, wrong). The construction asserts that X is the ONLY option, so the negative eliminates all other possibilities."
+    },
+    {
+     "id": "wo-oite_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no leader other than him who can guide this organization'?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]をおいて他[ほか]に、この組織[そしき]を導[みちび]けるリーダーはいない。",
+      "彼[かれ]以外[いがい]に、この組織[そしき]を導[みちび]けるリーダーはいない。",
+      "彼[かれ]をおいて、この組織[そしき]を導[みちび]けるリーダーはいない。",
+      "彼[かれ]しか、この組織[そしき]を導[みちび]けるリーダーはいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 彼[かれ] + をおいて + 他[ほか]に + いない = there is no one other than him. この組織[そしき]を導[みちび]けるリーダーはいない = who can lead this organization. をおいて elevates him as the uniquely qualified leader."
+    },
+    {
+     "id": "wo-oite_q7",
+     "type": "translation",
+     "prompt": "Which means 'There is no other country than Japan where such a culture exists'?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]をおいて他[ほか]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
+      "日本以外[にほんいがい]に、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
+      "日本[にほん]をおいて、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。",
+      "日本[にほん]しか、このような文化[ぶんか]が存在[そんざい]する国[くに]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 日本[にほん] + をおいて + 他[ほか]に + ない = no other country. このような文化[ぶんか]が存在[そんざい]する国[くに]はない = where such a culture exists. をおいて elevates Japan as uniquely possessing this culture."
+    },
+    {
+     "id": "wo-oite_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no other moment but this to make a decision'?",
+     "japanese": null,
+     "choices": [
+      "この瞬間[しゅんかん]をおいて他[ほか]に、決断[けつだん]する時[とき]はない。",
+      "この瞬間[しゅんかん]以外[いがい]に、決断[けつだん]する時[とき]はない。",
+      "この瞬間[しゅんかん]をおいて、決断[けつだん]する時[とき]はない。",
+      "この瞬間[しゅんかん]しか、決断[けつだん]する時[とき]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: この瞬間[しゅんかん] + をおいて + 他[ほか]に + ない = no other moment. 決断[けつだん]する時[とき]はない = to make a decision. をおいて marks this moment as uniquely irreplaceable for the decision."
+    },
+    {
+     "id": "wo-oite_q9",
+     "type": "usage",
+     "prompt": "をおいて vs. をのぞいて — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "をおいて = X is uniquely irreplaceable, emphasis on X being the ONLY option (positive assertion of X's exclusivity + negative: 彼[かれ]をおいて他[ほか]にいない). をのぞいて = X is merely excluded, neutral 'except for X' (彼[かれ]をのぞいて全員[ぜんいん]出席[しゅっせき] = everyone except him attended — X is excluded from a set)",
+      "をおいて is more casual",
+      "をのぞいて is only for people, and the rule applies to every sentence type — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "をおいて: X is THE only one — 彼[かれ]をおいて他[ほか]にいない (no one but him — he is uniquely qualified). をのぞいて: merely excludes X from a group — 彼[かれ]をのぞいて全員[ぜんいん]いた (everyone was there except him — neutral exclusion). をおいて is exclusive + emphatic; をのぞいて is simply subtractive."
+    },
+    {
+     "id": "wo-oite_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no one other than the professor who can solve this problem'?",
+     "japanese": null,
+     "choices": [
+      "教授[きょうじゅ]をおいて他[ほか]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+      "教授[きょうじゅ]以外[いがい]に、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+      "教授[きょうじゅ]をおいて、この問題[もんだい]を解[と]ける人[ひと]はいない。",
+      "教授[きょうじゅ]しか、この問題[もんだい]を解[と]ける人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 教授[きょうじゅ] + をおいて + 他[ほか]に + いない = no one other than the professor. この問題[もんだい]を解[と]ける人[ひと]はいない = who can solve this problem. をおいて elevates the professor as uniquely capable."
+    },
+    {
+     "id": "wo-oite_q11",
+     "type": "translation",
+     "prompt": "Which means 'There is no better opportunity than this one'?",
+     "japanese": null,
+     "choices": [
+      "このチャンスをおいて他[ほか]に、これほどの機会[きかい]はない。",
+      "このチャンス以外[いがい]に、これほどの機会[きかい]はない。",
+      "このチャンスをおいて、これほどの機会[きかい]はない。",
+      "このチャンスしか、これほどの機会[きかい]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: このチャンス + をおいて + 他[ほか]に + ない = no other opportunity. これほどの機会[きかい]はない = there is no better opportunity. をおいて marks this chance as uniquely irreplaceable."
+    },
+    {
+     "id": "wo-oite_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no other place but here to begin this journey'?",
+     "japanese": null,
+     "choices": [
+      "ここをおいて他[ほか]に、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
+      "ここ以外[いがい]に、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
+      "ここをおいて、この旅[たび]を始[はじ]める場所[ばしょ]はない。",
+      "ここしか、この旅[たび]を始[はじ]める場所[ばしょ]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: ここ + をおいて + 他[ほか]に + ない = no other place. この旅[たび]を始[はじ]める場所[ばしょ]はない = to begin this journey. をおいて marks here as the uniquely appropriate starting point."
+    },
+    {
+     "id": "wo-oite_q13",
+     "type": "usage",
+     "prompt": "をおいて is typically used in what register?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday conversation",
+      "Formal and literary language: formal speeches, written tributes, business announcements. In casual speech, 〜しかいない or 〜以外[いがい]にいない are more natural",
+      "Only classical Japanese texts — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
+      "Only written academic papers"
+     ],
+     "correctIndex": 1,
+     "explanation": "をおいて is formal and literary. Found in: formal speeches (彼[かれ]をおいて他[ほか]にいない — formal praise), written tributes, business communications, literary prose. Casual equivalents: 〜しかいない, 〜以外[いがい]にいない. をおいて signals formal elevation of X's uniqueness."
+    },
+    {
+     "id": "wo-oite_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no one other than this athlete who can represent our country'?",
+     "japanese": null,
+     "choices": [
+      "この選手[せんしゅ]をおいて他[ほか]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+      "この選手[せんしゅ]以外[いがい]に、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+      "この選手[せんしゅ]をおいて、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。",
+      "この選手[せんしゅ]しか、我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: この選手[せんしゅ] + をおいて + 他[ほか]に + いない = no one but this athlete. 我[わ]が国[くに]を代表[だいひょう]できる人[ひと]はいない = who can represent our country. をおいて elevates this athlete as uniquely qualified."
+    },
+    {
+     "id": "wo-oite_q15",
+     "type": "translation",
+     "prompt": "Which means 'There is no other work but this one that can be called a masterpiece'?",
+     "japanese": null,
+     "choices": [
+      "この作品[さくひん]をおいて他[ほか]に、傑作[けっさく]と呼[よ]べるものはない。",
+      "この作品[さくひん]以外[いがい]に、傑作[けっさく]と呼[よ]べるものはない。",
+      "この作品[さくひん]をおいて、傑作[けっさく]と呼[よ]べるものはない。",
+      "この作品[さくひん]しか、傑作[けっさく]と呼[よ]べるものはない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: この作品[さくひん] + をおいて + 他[ほか]に + ない = no other work. 傑作[けっさく]と呼[よ]べるものはない = that can be called a masterpiece. をおいて marks this work as uniquely worthy of being called a masterpiece."
+    },
+    {
+     "id": "wo-oite_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no one other than you who I can trust'?",
+     "japanese": null,
+     "choices": [
+      "あなたをおいて他[ほか]に、信頼[しんらい]できる人[ひと]はいない。",
+      "あなた以外[いがい]に、信頼[しんらい]できる人[ひと]はいない。",
+      "あなたをおいて、信頼[しんらい]できる人[ひと]はいない。",
+      "あなたしか、信頼[しんらい]できる人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: あなた + をおいて + 他[ほか]に + いない = no one but you. 信頼[しんらい]できる人[ひと]はいない = who I can trust. をおいて elevates you as the uniquely trustworthy person."
+    },
+    {
+     "id": "wo-oite_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses をおいて correctly?",
+     "japanese": null,
+     "choices": [
+      "彼[かれ]をおいて他[ほか]にリーダーがいる (there is a leader other than him — positive predicate, ✗ — requires negative)",
+      "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない (there is no other time than now — negative ✓)",
+      "彼[かれ]をおいてリーダーがいる (same error — positive, ✗)",
+      "今[いま]をおいて他[ほか]に、行動[こうどう]できる (can act at another time — positive, ✗)"
+     ],
+     "correctIndex": 1,
+     "explanation": "今[いま]をおいて他[ほか]に、行動[こうどう]する時[とき]はない ✓ — correct structure: Noun + をおいて + 他[ほか]に + negative predicate (ない). All other options use a positive predicate (there is a leader, can act), which breaks the grammar. をおいて MUST be followed by a negative."
+    },
+    {
+     "id": "wo-oite_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no other season but spring when cherry blossoms are this beautiful'?",
+     "japanese": null,
+     "choices": [
+      "春[はる]をおいて他[ほか]に、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
+      "春以外[はるいがい]に、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
+      "春[はる]をおいて、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。",
+      "春[はる]しか、桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 春[はる] + をおいて + 他[ほか]に + ない = no other season. 桜[さくら]がこれほど美[うつく]しい季節[きせつ]はない = when cherry blossoms are this beautiful. をおいて marks spring as the uniquely irreplaceable season for cherry blossoms."
+    },
+    {
+     "id": "wo-oite_q19",
+     "type": "translation",
+     "prompt": "Which means 'There is no one other than the prime minister who can resolve this crisis'?",
+     "japanese": null,
+     "choices": [
+      "総理大臣[そうりだいじん]をおいて他[ほか]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+      "総理大臣[そうりだいじん]以外[いがい]に、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+      "総理大臣[そうりだいじん]をおいて、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。",
+      "総理大臣[そうりだいじん]しか、この危機[きき]を解決[かいけつ]できる人[ひと]はいない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: 総理大臣[そうりだいじん] + をおいて + 他[ほか]に + いない = no one but the prime minister. この危機[きき]を解決[かいけつ]できる人[ひと]はいない = who can resolve this crisis. をおいて marks the prime minister as uniquely capable."
+    },
+    {
+     "id": "wo-oite_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'There is no other method but this one that can solve the problem'?",
+     "japanese": null,
+     "choices": [
+      "この方法[ほうほう]をおいて他[ほか]に、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
+      "この方法以外[ほうほういがい]に、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
+      "この方法[ほうほう]をおいて、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。",
+      "この方法[ほうほう]しか、問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + をおいて + 他[ほか]に + negative: この方法[ほうほう] + をおいて + 他[ほか]に + ない = no other method. 問題[もんだい]を解決[かいけつ]できる手段[しゅだん]はない = that can solve the problem. をおいて elevates this method as the uniquely viable solution."
+    }
+   ]
+  },
+  {
+   "id": "naradewa",
+   "name": "〜ならではの (naradewa no) — unique to / only possible with / characteristic of",
+   "shortDescription": "Expresses that something is uniquely and inseparably characteristic of a particular entity — it could only have come from there.",
+   "formation": "Noun + ならではの + Noun  |  Noun + ならでは (predicative)",
+   "explanation": "ならでは captures something grammar usually can't: the uniqueness of a thing that could only have come from exactly where it came from. It comes from the classical ならで (= でなくては, 'if it were not…') + は — literally 'if it weren't [noun], this could not exist,' which is why it lands as 'only [noun] could produce this.' 職人[しょくにん]ならではの技[わざ] — 'a technique that only a craftsperson could possess' — the technique is inseparable from its origin; it could not exist without the craftsperson who produced it.\n\nならでは is always positive: you use it to appreciate, admire, and celebrate what is irreplaceable about something. It would sound strained with something negative. Structurally, ならではの + noun is the standard attributive form; Noun + ならでは without の works as a predicative: この味[あじ]はこの店[みせ]ならでは — 'This flavor is unique to this shop.'\n\nThree collocations you will encounter constantly and that feel immediately natural: 日本[にほん]ならではの (quintessentially Japanese), 職人[しょくにん]ならではの (uniquely a craftsperson's), 子[こ]どもならではの (uniquely a child's perspective). Memorize these as templates and you will recognize the pattern wherever it appears.",
+   "rules": [
+    "Noun + ならではの + Noun = [quality] unique to / that only [noun] has or can produce",
+    "Noun + ならでは (predicative) = is unique to [noun] / could only come from [noun]",
+    "Always positive — highlights a unique, irreplaceable quality or characteristic worth appreciating",
+    "Implies no other entity could produce this — it belongs exclusively to the named noun",
+    "Common templates: 日本[にほん]ならではの, 職人[しょくにん]ならではの, このお店[みせ]ならではの, 子[こ]どもならではの"
+   ],
+   "examples": [
+    {
+     "japanese": "この繊細[せんさい]な味[あじ]わいは、職人[しょくにん]ならではの技[わざ]から生[う]まれています。",
+     "romaji": "Kono sensai na ajiwai wa, shokunin naradewa no waza kara umarete imasu.",
+     "english": "This delicate flavor is born from a technique unique to craftspeople."
+    },
+    {
+     "japanese": "温泉[おんせん]と雪景色[ゆきげしき]のコラボレーションは、日本[にほん]の冬[ふゆ]ならではの魅力[みりょく]です。",
+     "romaji": "Onsen to yukigeshiki no koraboreeshon wa, Nihon no fuyu naradewa no miryoku desu.",
+     "english": "The combination of hot springs and snowy scenery is a charm unique to Japanese winters."
+    },
+    {
+     "japanese": "この手作[てづく]り感[かん]あふれる雰囲気[ふんいき]は、小[ちい]さなお店[みせ]ならではですね。",
+     "romaji": "Kono tezukuri kan afureru fun'iki wa, chiisa na omise naradewa desu ne.",
+     "english": "This atmosphere full of handmade warmth is unique to small shops, isn't it."
+    },
+    {
+     "japanese": "長年[ながねん]の経験[けいけん]を持[も]つ彼女[かのじょ]ならではの、細[こま]かい気配[きくば]りが光[ひか]ります。",
+     "romaji": "Naganen no keiken wo motsu kanojo naradewa no, komakai kikubari ga hikarimasu.",
+     "english": "The thoughtful, fine attention to detail unique to someone with years of experience shines through."
+    }
+   ],
+   "flashcardHeader": "〜ならではの",
+   "flashcardAnswer": "Expresses that something is uniquely and inseparably characteristic of a particular entity — it could only have come from there.",
+   "practice": [
+    {
+     "id": "naradewa_q1",
+     "type": "usage",
+     "prompt": "What does 〜ならではの mean?",
+     "japanese": null,
+     "choices": [
+      "not fitting for / inappropriate for X",
+      "unique to / only possible with / characteristic of — X is the special quality, person, or place that makes Y uniquely possible or appropriate. Y is something that only X can produce or embody: 京都[きょうと]ならではの景色[けしき] = a view unique to Kyoto",
+      "because of X",
+      "despite X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜ならではの = unique to / only X can do/have this. Noun + ならではの + Noun: 京都[きょうと]ならではの文化[ぶんか] (culture unique to Kyoto — only Kyoto has this). The point: without X, Y would not exist or could not be achieved. Emphatic, positive, often used for praise."
+    },
+    {
+     "id": "naradewa_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'This flavor is unique to Japan'?",
+     "japanese": null,
+     "choices": [
+      "これは日本[にほん]ならではの味[あじ]だ。",
+      "これは日本[にほん]だけの味[あじ]だ。",
+      "これは日本[にほん]にしかない味[あじ]だ。",
+      "これは日本特有[にほんとくゆう]の味[あじ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 日本[にほん] + ならではの + 味[あじ] = a flavor unique to Japan. ならではの marks this flavor as something only Japan can produce — not merely rare, but uniquely attributable to Japan."
+    },
+    {
+     "id": "naradewa_q3",
+     "type": "translation",
+     "prompt": "Which means 'This is a performance unique to experienced actors'?",
+     "japanese": null,
+     "choices": [
+      "これは熟練[じゅくれん]の俳優[はいゆう]ならではの演技[えんぎ]だ。",
+      "これは熟練[じゅくれん]の俳優[はいゆう]だけの演技[えんぎ]だ。",
+      "これは熟練[じゅくれん]の俳優[はいゆう]にしかできない演技[えんぎ]だ。",
+      "これは熟練[じゅくれん]の俳優[はいゆう]特有[とくゆう]の演技[えんぎ]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 熟練[じゅくれん]の俳優[はいゆう] + ならではの + 演技[えんぎ] = a performance unique to experienced actors. ならではの marks this acting as something only highly skilled actors can achieve."
+    },
+    {
+     "id": "naradewa_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'This is the warmth unique to homemade cooking'?",
+     "japanese": null,
+     "choices": [
+      "これは手料理[てりょうり]ならではの温[あたた]かさだ。",
+      "これは手料理[てりょうり]だけの温[あたた]かさだ。",
+      "これは手料理[てりょうり]にしかない温[あたた]かさだ。",
+      "これは手料理[てりょうり]特有[とくゆう]の温[あたた]かさだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 手料理[てりょうり] + ならではの + 温[あたた]かさ = warmth unique to homemade cooking. ならではの marks this warmth as something factory-made food cannot replicate — it belongs to homemade cooking alone."
+    },
+    {
+     "id": "naradewa_q5",
+     "type": "usage",
+     "prompt": "ならではの vs. ならではない (predicative form) — what's the difference in usage?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "ならではの modifies a NOUN (attributive): 日本[にほん]ならではの文化[ぶんか] (culture unique to Japan). ならでは (predicative, often ならでは(だ) or ならではない) can end a sentence or stand alone: ここならではだ (this is truly unique here). ならではの is more common; the predicative form is used in isolation or at the end of a clause",
+      "ならではの is more casual",
+      "ならではない is ungrammatical, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule, regardless of context or politeness level."
+     ],
+     "correctIndex": 1,
+     "explanation": "ならではの (attributive): always followed by a noun — 京都[きょうと]ならではの景色[けしき] (a view unique to Kyoto). ならでは (predicative/standalone): この味[あじ]はここならではだ (this flavor is uniquely from here). ならではない is sometimes used but rare; ならでは alone is more natural as the predicative. ならではの is the most frequent form."
+    },
+    {
+     "id": "naradewa_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'This scenery is unique to autumn in Kyoto'?",
+     "japanese": null,
+     "choices": [
+      "これは京都[きょうと]の秋[あき]ならではの景色[けしき]だ。",
+      "これは京都[きょうと]の秋[あき]だけの景色[けしき]だ。",
+      "これは京都[きょうと]の秋[あき]にしかない景色[けしき]だ。",
+      "これは京都[きょうと]の秋[あき]特有[とくゆう]の景色[けしき]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 京都[きょうと]の秋[あき] + ならではの + 景色[けしき] = scenery unique to autumn in Kyoto. ならではの marks this scenery as something only Kyoto in autumn can offer — not mere rarity, but unique attribution."
+    },
+    {
+     "id": "naradewa_q7",
+     "type": "translation",
+     "prompt": "Which means 'This idea is unique to a child's imagination'?",
+     "japanese": null,
+     "choices": [
+      "このアイデアは子[こ]どもの発想[はっそう]ならではのものだ。",
+      "このアイデアは子[こ]どもの発想[はっそう]だけのものだ。",
+      "このアイデアは子[こ]どもの発想[はっそう]にしかないものだ。",
+      "このアイデアは子[こ]どもの発想[はっそう]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 子[こ]どもの発想[はっそう] + ならではの = unique to a child's imagination. ならではの marks this idea as something only a child's pure, unrestricted imagination can produce."
+    },
+    {
+     "id": "naradewa_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'This craftsmanship is unique to Japanese artisans'?",
+     "japanese": null,
+     "choices": [
+      "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]ならではのものだ。",
+      "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]だけのものだ。",
+      "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]にしかないものだ。",
+      "この職人[しょくにん]技[わざ]は日本[にほん]の職人[しょくにん]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 日本[にほん]の職人[しょくにん] + ならではの = unique to Japanese artisans. ならではの marks this level of craftsmanship as something only Japanese artisans can achieve — a uniqueness rooted in their specific tradition."
+    },
+    {
+     "id": "naradewa_q9",
+     "type": "usage",
+     "prompt": "ならではの typically conveys what nuance?",
+     "japanese": null,
+     "choices": [
+      "Negative criticism — something bad that only X has — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "POSITIVE uniqueness or praise — something special, admirable, or deeply characteristic that ONLY X has. X is celebrated for this unique quality. Not used to describe negative uniqueness",
+      "Neutral description of X's common traits",
+      "Neutral comparison between X and Y"
+     ],
+     "correctIndex": 1,
+     "explanation": "ならではの is positive or celebratory: 日本[にほん]ならではのおもてなし (hospitality unique to Japan — praising Japan's uniqueness), 子[こ]どもならではの純粋[じゅんすい]さ (purity unique to children — appreciating childhood). While it can describe negative traits in theory, in practice ならではの is strongly associated with positive attribution, admiration, and celebration of X's unique character."
+    },
+    {
+     "id": "naradewa_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'This attention to detail is unique to this brand'?",
+     "japanese": null,
+     "choices": [
+      "この細部[さいぶ]へのこだわりはこのブランドならではのものだ。",
+      "この細部[さいぶ]へのこだわりはこのブランドだけのものだ。",
+      "この細部[さいぶ]へのこだわりはこのブランドにしかないものだ。",
+      "この細部[さいぶ]へのこだわりはこのブランド特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: このブランド + ならではの = unique to this brand. ならではの marks this attention to detail as something only this brand's philosophy and process can produce."
+    },
+    {
+     "id": "naradewa_q11",
+     "type": "translation",
+     "prompt": "Which means 'This freshness is unique to morning market vegetables'?",
+     "japanese": null,
+     "choices": [
+      "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]ならではのものだ。",
+      "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]だけのものだ。",
+      "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]にしかないものだ。",
+      "この新鮮[しんせん]さは朝市[あさいち]の野菜[やさい]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 朝市[あさいち]の野菜[やさい] + ならではの = unique to morning market vegetables. ならではの marks this freshness as something only directly farm-sourced morning market produce can offer."
+    },
+    {
+     "id": "naradewa_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'This atmosphere is unique to traditional Japanese inns'?",
+     "japanese": null,
+     "choices": [
+      "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]ならではのものだ。",
+      "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]だけのものだ。",
+      "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]にしかないものだ。",
+      "この雰囲気[ふんいき]は日本[にほん]の旅館[りょかん]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 日本[にほん]の旅館[りょかん] + ならではの = unique to Japanese inns. ならではの marks this atmosphere as something only traditional ryokan can offer — not hotels or foreign lodgings."
+    },
+    {
+     "id": "naradewa_q13",
+     "type": "usage",
+     "prompt": "ならではの always requires what type of noun before it?",
+     "japanese": null,
+     "choices": [
+      "A verb in dictionary form, regardless of context or politeness level — this is true in both spoken and written Japanese, and the rule applies to every sentence type.",
+      "A NOUN — the special person, place, organization, or category that uniquely possesses Y. 日本[にほん] (noun) ならではの, 京都[きょうと] (noun) ならではの, 熟練[じゅくれん]の職人[しょくにん] (noun phrase) ならではの. Verbs and adjectives cannot precede ならではの directly",
+      "An adjective",
+      "A particle (は, が, を)"
+     ],
+     "correctIndex": 1,
+     "explanation": "Noun + ならではの: 日本[にほん]ならではの (Japan's unique...), 京都[きょうと]の秋[あき]ならではの (unique to Kyoto's autumn...), この職人[しょくにん]ならではの (unique to this artisan...). Verbs and adjectives cannot directly precede ならではの. If describing an action, it must be nominalized: 手作[てづく]りするならではの is unnatural; 手作[てづく]りならではの is correct."
+    },
+    {
+     "id": "naradewa_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'This delicacy is a cuisine unique to this region'?",
+     "japanese": null,
+     "choices": [
+      "この珍味[ちんみ]はこの地域[ちいき]ならではの料理[りょうり]だ。",
+      "この珍味[ちんみ]はこの地域[ちいき]だけの料理[りょうり]だ。",
+      "この珍味[ちんみ]はこの地域[ちいき]にしかない料理[りょうり]だ。",
+      "この珍味[ちんみ]はこの地域特有[ちいきとくゆう]の料理[りょうり]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: この地域[ちいき] + ならではの + 料理[りょうり] = cuisine unique to this region. ならではの marks this dish as something only this area's ingredients, tradition, and culture can produce."
+    },
+    {
+     "id": "naradewa_q15",
+     "type": "translation",
+     "prompt": "Which means 'This spirit of mutual support is unique to this community'?",
+     "japanese": null,
+     "choices": [
+      "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティならではのものだ。",
+      "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティだけのものだ。",
+      "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティにしかないものだ。",
+      "この助[たす]け合[あ]いの精神[せいしん]はこのコミュニティ特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: このコミュニティ + ならではの = unique to this community. ならではの marks this spirit as something only this particular community's culture and bonds can create."
+    },
+    {
+     "id": "naradewa_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'This color is unique to natural dyes'?",
+     "japanese": null,
+     "choices": [
+      "この色[いろ]は天然染料[てんねんせんりょう]ならではのものだ。",
+      "この色[いろ]は天然染料[てんねんせんりょう]だけのものだ。",
+      "この色[いろ]は天然染料[てんねんせんりょう]にしかないものだ。",
+      "この色[いろ]は天然染料[てんねんせんりょう]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 天然染料[てんねんせんりょう] + ならではの = unique to natural dyes. ならではの marks this color as something that only natural, traditional dyeing processes can produce — not synthetic dyes."
+    },
+    {
+     "id": "naradewa_q17",
+     "type": "usage",
+     "prompt": "Which sentence uses ならではの correctly?",
+     "japanese": null,
+     "choices": [
+      "日本[にほん]ならではの問題[もんだい]が多[おお]い (Japan has many unique problems — ✓, though slightly negative — still grammatical)",
+      "日本[にほん]ならではのだ (ungrammatical — ならではの must be followed by a noun, not だ)",
+      "日本[にほん]ならではの文化[ぶんか]がある (Japan has a unique culture — ✓)",
+      "日本[にほん]ならではの文化[ぶんか]ならではのだ (double ならでは — ungrammatical)"
+     ],
+     "correctIndex": 2,
+     "explanation": "日本[にほん]ならではの文化[ぶんか]がある ✓ — correct structure: Noun + ならではの + Noun. 日本[にほん]ならではのだ ✗ — ならではの must be followed by a noun, not だ directly (use ならではだ without の for predicative). 日本[にほん]ならではの問題[もんだい]が多[おお]い is also grammatical but pragmatically unusual (ならでは usually praises)."
+    },
+    {
+     "id": "naradewa_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'This humor is unique to comedians who grew up together'?",
+     "japanese": null,
+     "choices": [
+      "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]ならではのものだ。",
+      "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]だけのものだ。",
+      "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]にしかないものだ。",
+      "このユーモアは共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun phrase + ならではの + Noun: 共[とも]に育[そだ]ったお笑[わら]い芸人[げいにん] + ならではの = unique to comedians who grew up together. ならではの marks this humor as something born from a shared history that only they have."
+    },
+    {
+     "id": "naradewa_q19",
+     "type": "translation",
+     "prompt": "Which means 'The beauty of this place is unique to the mountains of Hokkaido'?",
+     "japanese": null,
+     "choices": [
+      "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]ならではのものだ。",
+      "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]だけのものだ。",
+      "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]にしかないものだ。",
+      "この場所[ばしょ]の美[うつく]しさは北海道[ほっかいどう]の山[やま]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 北海道[ほっかいどう]の山[やま] + ならではの = unique to Hokkaido's mountains. ならではの marks this beauty as something only Hokkaido's vast mountain landscape can offer."
+    },
+    {
+     "id": "naradewa_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'This depth of insight is unique to experienced researchers'?",
+     "japanese": null,
+     "choices": [
+      "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]ならではのものだ。",
+      "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]だけのものだ。",
+      "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]にしかないものだ。",
+      "この洞察[どうさつ]の深[ふか]さは熟練[じゅくれん]した研究者[けんきゅうしゃ]特有[とくゆう]のものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + ならではの + Noun: 熟練[じゅくれん]した研究者[けんきゅうしゃ] + ならではの = unique to experienced researchers. ならではの marks this depth of insight as something only years of research experience can produce."
+    }
+   ]
+  },
+  {
+   "id": "to-atte",
+   "name": "〜とあって (to atte) — because / given that (special or notable situation)",
+   "shortDescription": "Explains a situation by pointing to its special, recognizable context — the cause is noteworthy, not ordinary.",
+   "formation": "Plain form / Noun + とあって + natural outcome of that special situation",
+   "explanation": "とあって explains a situation by pointing to its special context — not just any reason, but a recognizable and noteworthy circumstance that makes the outcome predictable and obvious to any observer. 連休[れんきゅう]とあって、道路[どうろ]が大[だい]渋滞[じゅうたい]になっています — 'Given that it's a long holiday weekend, the roads are severely congested' — anyone would nod in recognition: of course, it's a long weekend.\n\nThe crucial nuance: the cause marked by とあって must be a special, distinctive situation (a first day, a long holiday, a popular event, a championship final), not an ordinary everyday fact. If the cause is unremarkable, とあって would sound out of place.\n\nThis is exactly why it feels so at home in news reporting — the reporter observes an unusual situation and explains it by flagging the notable context. Compare with だから (because — neutral, any reason): とあって specifically implies 'this particular situation being the special thing it is, naturally...' The grammar does what a good journalist does: connects a remarkable observation to its distinctive cause.",
+   "rules": [
+    "Plain form / Noun + とあって = given that / because (special, noteworthy circumstance explains outcome)",
+    "The cause must be a special or distinctive situation — not an ordinary everyday reason",
+    "The outcome follows naturally and unsurprisingly from the special context",
+    "Common in news reports, journalism, and observational writing explaining social phenomena",
+    "More nuanced than だから (neutral because); とあって implies the cause is recognizably special"
+   ],
+   "examples": [
+    {
+     "japanese": "人気[にんき]アーティストのコンサートとあって、チケットは発売後[はつばいご]すぐに完売[かんばい]した。",
+     "romaji": "Ninki aatisuto no konsaato to atte, chiketto wa hatsubai go sugu ni kanbai shita.",
+     "english": "Given that it was a concert by a popular artist, tickets sold out immediately after going on sale."
+    },
+    {
+     "japanese": "初日[しょにち]とあって、開店前[かいてんまえ]から長[なが]い行列[ぎょうれつ]ができていました。",
+     "romaji": "Shonichi to atte, kaiten mae kara nagai gyouretsu ga dekite imashita.",
+     "english": "Given that it was the first day, a long queue had already formed before opening."
+    },
+    {
+     "japanese": "大型連休[おおがたれんきゅう]とあって、観光地[かんこうち]はどこも多[おお]くの人[ひと]で賑[にぎ]わっています。",
+     "romaji": "Oogata renkyuu to atte, kankouchi wa doko mo ooku no hito de nigiwatte imasu.",
+     "english": "Given the long holiday weekend, tourist spots everywhere are bustling with people."
+    },
+    {
+     "japanese": "最終戦[さいしゅうせん]とあって、スタジアムは異様[いよう]な熱気[ねっき]に包[つつ]まれていた。",
+     "romaji": "Saishuu sen to atte, sutajiamu wa iyou na nekki ni tsutsumarete ita.",
+     "english": "Given that it was the final match, the stadium was enveloped in an unusual fervor."
+    }
+   ],
+   "flashcardHeader": "〜とあって",
+   "flashcardAnswer": "Explains a situation by pointing to its special, recognizable context — the cause is noteworthy, not ordinary.",
+   "practice": [
+    {
+     "id": "to-atte_q1",
+     "type": "usage",
+     "prompt": "What does 〜とあって mean?",
+     "japanese": null,
+     "choices": [
+      "despite the fact that X / even though X",
+      "because / given that (special or notable situation) — X is a special, unusual, or noteworthy situation; Y is the natural or expected outcome given that notable context. More literary and formal than ので",
+      "if X / on the condition that X",
+      "as soon as X / immediately after X"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜とあって = because / given that (special situation). Plain form / Noun + とあって: X marks a special or noteworthy circumstance; Y is the natural outcome given that circumstance. 祭[まつ]りとあって人[ひと]が多[おお]い = because it's a festival, there are many people (festival is the special context that explains the crowd). More literary than ので."
+    },
+    {
+     "id": "to-atte_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is a holiday, the park is crowded'?",
+     "japanese": null,
+     "choices": [
+      "休日[きゅうじつ]とあって、公園[こうえん]は混[こ]んでいる。",
+      "休日[きゅうじつ]なので、公園[こうえん]は混[こ]んでいる。",
+      "休日[きゅうじつ]だから、公園[こうえん]は混[こ]んでいる。",
+      "休日[きゅうじつ]のため、公園[こうえん]は混[こ]んでいる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 休日[きゅうじつ] + とあって = given that it's a holiday. 公園[こうえん]は混[こ]んでいる = the park is crowded. とあって marks the holiday as a special context that naturally explains the crowd. More literary than なので or だから."
+    },
+    {
+     "id": "to-atte_q3",
+     "type": "translation",
+     "prompt": "Which means 'Because it is the last day of school, all the students are excited'?",
+     "japanese": null,
+     "choices": [
+      "卒業式[そつぎょうしき]とあって、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
+      "卒業式[そつぎょうしき]なので、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
+      "卒業式[そつぎょうしき]だから、生徒[せいと]たちは皆[みな]興奮[こうふん]している。",
+      "卒業式[そつぎょうしき]のため、生徒[せいと]たちは皆[みな]興奮[こうふん]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 卒業式[そつぎょうしき] + とあって = given that it's graduation. 皆[みな]興奮[こうふん]している = everyone is excited. とあって marks graduation as a special context that naturally explains the excitement."
+    },
+    {
+     "id": "to-atte_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is a big sale, customers are lining up'?",
+     "japanese": null,
+     "choices": [
+      "大[だい]バーゲンとあって、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
+      "大[だい]バーゲンなので、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
+      "大[だい]バーゲンだから、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。",
+      "大[だい]バーゲンのため、客[きゃく]が行列[ぎょうれつ]を作[つく]っている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 大[だい]バーゲン + とあって = given that it's a big sale. 客[きゃく]が行列[ぎょうれつ]を作[つく]っている = customers are lining up. とあって marks the sale as a special notable event that naturally explains the queues."
+    },
+    {
+     "id": "to-atte_q5",
+     "type": "usage",
+     "prompt": "〜とあって vs. ので/だから — what's the key difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "とあって is used when X is a SPECIAL, NOTABLE, or UNUSUAL situation — not everyday causation. It adds literary emphasis that X is the noteworthy context behind Y: 祭[まつ]りとあって人[ひと]が多[おお]い (because it's a FESTIVAL — special occasion). ので/だから are neutral everyday causation: 雨[あめ]なので傘[かさ]を持[も]つ (because it's raining — ordinary reason). とあって elevates the occasion",
+      "とあって is more casual",
+      "とあって is only for negative situations — this is true in both spoken and written Japanese, and the rule applies to every sentence type — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "とあって: X is special/notable — 最後[さいご]の試合[しあい]とあって選手[せんしゅ]たちは気合[きあ]いが入[はい]っていた (because it was the final match — special occasion; naturally explains the intensity). ので/だから: neutral everyday cause — 眠[ねむ]いので休[やす]む (I'm sleepy so I'll rest — ordinary reason). とあって signals that X is an occasion that makes Y naturally expected."
+    },
+    {
+     "id": "to-atte_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is the championship game, the stadium is packed'?",
+     "japanese": null,
+     "choices": [
+      "決勝戦[けっしょうせん]とあって、スタジアムは満員[まんいん]だ。",
+      "決勝戦[けっしょうせん]なので、スタジアムは満員[まんいん]だ。",
+      "決勝戦[けっしょうせん]だから、スタジアムは満員[まんいん]だ。",
+      "決勝戦[けっしょうせん]のため、スタジアムは満員[まんいん]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 決勝戦[けっしょうせん] + とあって = given that it's the championship game. スタジアムは満員[まんいん]だ = the stadium is packed. とあって marks the championship as a special context that naturally explains the full house."
+    },
+    {
+     "id": "to-atte_q7",
+     "type": "translation",
+     "prompt": "Which means 'Because the famous actor is appearing, the audience is enormous'?",
+     "japanese": null,
+     "choices": [
+      "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するとあって、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
+      "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するので、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
+      "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するから、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。",
+      "有名俳優[ゆうめいはいゆう]が出演[しゅつえん]するため、観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb plain form + とあって: 出演[しゅつえん]する + とあって = given that the famous actor is appearing. 観客[かんきゃく]が大勢[おおぜい]集[あつ]まっている = a huge audience has gathered. とあって marks the star's appearance as a special noteworthy event that explains the large crowd."
+    },
+    {
+     "id": "to-atte_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is the premiere, the hall was filled with excitement'?",
+     "japanese": null,
+     "choices": [
+      "初日[しょにち]とあって、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
+      "初日[しょにち]なので、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
+      "初日[しょにち]だから、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。",
+      "初日[しょにち]のため、会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 初日[しょにち] + とあって = given that it's the premiere/first day. 会場[かいじょう]は興奮[こうふん]に包[つつ]まれていた = the hall was filled with excitement. とあって marks the premiere as a special occasion that naturally explains the heightened excitement."
+    },
+    {
+     "id": "to-atte_q9",
+     "type": "usage",
+     "prompt": "〜とあって — what type of outcome (Y) naturally follows this pattern?",
+     "japanese": null,
+     "choices": [
+      "Any outcome, including ones the speaker dislikes, and the rule applies to every sentence type — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese.",
+      "A NATURALLY EXPECTED or UNDERSTANDABLE outcome given the special context of X. Y should be the logical and natural response to the special occasion: 祭[まつ]り (X) → 人[ひと]が多[おお]い (Y) — naturally expected. NOT surprising or contradictory outcomes",
+      "A surprising or unexpected outcome",
+      "A past completed event only"
+     ],
+     "correctIndex": 1,
+     "explanation": "とあって: Y must be a natural consequence of X being a special situation. 祭[まつ]りとあって人[ひと]が多[おお]い (festival → crowds — natural). 決勝戦[けっしょうせん]とあって選手[せんしゅ]が集中[しゅうちゅう]している (final match → players focused — natural). The connection should feel obvious once the special context (X) is known. Surprising outcomes would use でも or にもかかわらず instead."
+    },
+    {
+     "id": "to-atte_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is cherry blossom season, the park is full of visitors'?",
+     "japanese": null,
+     "choices": [
+      "桜[さくら]の季節[きせつ]とあって、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
+      "桜[さくら]の季節[きせつ]なので、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
+      "桜[さくら]の季節[きせつ]だから、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。",
+      "桜[さくら]の季節[きせつ]のため、公園[こうえん]は観光客[かんこうきゃく]でいっぱいだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 桜[さくら]の季節[きせつ] + とあって = given that it's cherry blossom season. 観光客[かんこうきゃく]でいっぱいだ = full of visitors. とあって marks the cherry blossom season as a special context that naturally explains the crowd."
+    },
+    {
+     "id": "to-atte_q11",
+     "type": "translation",
+     "prompt": "Which means 'Because it is a long holiday, the roads are heavily congested'?",
+     "japanese": null,
+     "choices": [
+      "大型連休[おおがたれんきゅう]とあって、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
+      "大型連休[おおがたれんきゅう]なので、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
+      "大型連休[おおがたれんきゅう]だから、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。",
+      "大型連休[おおがたれんきゅう]のため、道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 大型連休[おおがたれんきゅう] + とあって = given that it's a long holiday. 道路[どうろ]が激[はげ]しく渋滞[じゅうたい]している = the roads are heavily congested. とあって marks the holiday as the special noteworthy event explaining the traffic."
+    },
+    {
+     "id": "to-atte_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is the final year of school, the seniors are studying hard'?",
+     "japanese": null,
+     "choices": [
+      "最終学年[さいしゅうがくねん]とあって、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
+      "最終学年[さいしゅうがくねん]なので、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
+      "最終学年[さいしゅうがくねん]だから、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。",
+      "最終学年[さいしゅうがくねん]のため、上級生[じょうきゅうせい]たちは懸命[けんめい]に勉強[べんきょう]している。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 最終学年[さいしゅうがくねん] + とあって = given that it's their final year. 懸命[けんめい]に勉強[べんきょう]している = studying hard. とあって marks the final year as a special educational milestone that naturally explains increased study effort."
+    },
+    {
+     "id": "to-atte_q13",
+     "type": "usage",
+     "prompt": "とあって can follow which forms?",
+     "japanese": null,
+     "choices": [
+      "Only nouns",
+      "Noun AND plain form verbs/adjectives: 休日[きゅうじつ]とあって (noun), 有名人[ゆうめいじん]が来[く]るとあって (verb plain form), 珍[めずら]しいとあって (adjective plain form). All plain forms work — the key is that X describes a NOTABLE or SPECIAL situation",
+      "Only verb て-form",
+      "Only past tense forms — and this holds in every register, formal or casual, with no exceptions in modern standard Japanese — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 1,
+     "explanation": "とあって accepts: Noun + とあって: 休日[きゅうじつ]とあって (because it's a holiday). Verb (plain) + とあって: 有名人[ゆうめいじん]が来[く]るとあって (because a celebrity is coming). Adj (plain) + とあって: 珍[めずら]しいとあって (because it is rare). The consistent requirement is that X describes a special, noteworthy situation — the form can be noun, verb, or adjective in plain form."
+    },
+    {
+     "id": "to-atte_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because the new product is rare, it sold out immediately'?",
+     "japanese": null,
+     "choices": [
+      "珍[めずら]しい新製品[しんせいひん]とあって、すぐに売[う]り切[き]れた。",
+      "珍[めずら]しい新製品[しんせいひん]なので、すぐに売[う]り切[き]れた。",
+      "珍[めずら]しい新製品[しんせいひん]だから、すぐに売[う]り切[き]れた。",
+      "珍[めずら]しい新製品[しんせいひん]のため、すぐに売[う]り切[き]れた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun phrase + とあって: 珍[めずら]しい新製品[しんせいひん] + とあって = given that it is a rare new product. すぐに売[う]り切[き]れた = sold out immediately. とあって marks the rarity as a notable special quality that explains the rapid sellout."
+    },
+    {
+     "id": "to-atte_q15",
+     "type": "translation",
+     "prompt": "Which means 'Because it is the team's first victory in years, the celebration was grand'?",
+     "japanese": null,
+     "choices": [
+      "チームの久[ひさ]しぶりの優勝[ゆうしょう]とあって、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
+      "チームの久[ひさ]しぶりの優勝[ゆうしょう]なので、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
+      "チームの久[ひさ]しぶりの優勝[ゆうしょう]だから、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。",
+      "チームの久[ひさ]しぶりの優勝[ゆうしょう]のため、祝賀会[しゅくがかい]は大[おお]いに盛[も]り上[あ]がった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun phrase + とあって: 久[ひさ]しぶりの優勝[ゆうしょう] + とあって = given that it's the team's first victory in years. 大[おお]いに盛[も]り上[あ]がった = the celebration was grand. とあって marks the rare victory as the special event that explains the festive atmosphere."
+    },
+    {
+     "id": "to-atte_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is the president's visit, the company is buzzing with activity'?",
+     "japanese": null,
+     "choices": [
+      "社長[しゃちょう]の訪問[ほうもん]とあって、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+      "社長[しゃちょう]の訪問[ほうもん]なので、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+      "社長[しゃちょう]の訪問[ほうもん]だから、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。",
+      "社長[しゃちょう]の訪問[ほうもん]のため、会社[かいしゃ]中[じゅう]が慌[あわ]ただしい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 社長[しゃちょう]の訪問[ほうもん] + とあって = given that the president is visiting. 会社[かいしゃ]中[じゅう]が慌[あわ]ただしい = the company is buzzing. とあって marks the president's visit as a special notable event that naturally explains the heightened activity."
+    },
+    {
+     "id": "to-atte_q17",
+     "type": "usage",
+     "prompt": "Which sentence does NOT fit 〜とあって?",
+     "japanese": null,
+     "choices": [
+      "祭[まつ]りとあって人[ひと]が多[おお]い (because it's a festival — special occasion ✓)",
+      "決勝戦[けっしょうせん]とあって選手[せんしゅ]が気合[きあ]いを入[い]れている (because it's the final — special ✓)",
+      "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ (it's raining — ordinary everyday reason ✗)",
+      "有名人[ゆうめいじん]が来[く]るとあって人[ひと]が集[あつ]まっている (because a celebrity is coming — special ✓)"
+     ],
+     "correctIndex": 2,
+     "explanation": "雨[あめ]が降[ふ]っているとあって傘[かさ]を持[も]つ — this doesn't fit. とあって is for SPECIAL or NOTABLE situations. Rain and carrying an umbrella is an ordinary everyday causal relationship — no special occasion. なので / だから is correct here: 雨[あめ]が降[ふ]っているので傘[かさ]を持[も]つ. とあって requires that X be a noteworthy occasion that makes Y specially expected."
+    },
+    {
+     "id": "to-atte_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is a limited edition, fans are competing to buy it'?",
+     "japanese": null,
+     "choices": [
+      "限定品[げんていひん]とあって、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
+      "限定品[げんていひん]なので、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
+      "限定品[げんていひん]だから、ファンが争[あらそ]って購入[こうにゅう]しようとしている。",
+      "限定品[げんていひん]のため、ファンが争[あらそ]って購入[こうにゅう]しようとしている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 限定品[げんていひん] + とあって = given that it's a limited edition. ファンが争[あらそ]って購入[こうにゅう]しようとしている = fans are competing to buy it. とあって marks limited availability as a special notable condition that explains the competitive buying behavior."
+    },
+    {
+     "id": "to-atte_q19",
+     "type": "translation",
+     "prompt": "Which means 'Because the legendary musician is performing, tickets sold out in minutes'?",
+     "japanese": null,
+     "choices": [
+      "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するとあって、チケットは数分[すうふん]で完売[かんばい]した。",
+      "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するので、チケットは数分[すうふん]で完売[かんばい]した。",
+      "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するから、チケットは数分[すうふん]で完売[かんばい]した。",
+      "伝説[でんせつ]のミュージシャンが出演[しゅつえん]するため、チケットは数分[すうふん]で完売[かんばい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb plain form + とあって: 出演[しゅつえん]する + とあって = given that the legendary musician is performing. 数分[すうふん]で完売[かんばい]した = tickets sold out in minutes. とあって marks the legendary performance as a special event that naturally explains instant sellout."
+    },
+    {
+     "id": "to-atte_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Because it is a world record attempt, the media attention is intense'?",
+     "japanese": null,
+     "choices": [
+      "世界記録[せかいきろく]への挑戦[ちょうせん]とあって、メディアの注目[ちゅうもく]が集[あつ]まっている。",
+      "世界記録[せかいきろく]への挑戦[ちょうせん]なので、メディアの注目[ちゅうもく]が集[あつ]まっている。",
+      "世界記録[せかいきろく]への挑戦[ちょうせん]だから、メディアの注目[ちゅうもく]が集[あつ]まっている。",
+      "世界記録[せかいきろく]への挑戦[ちょうせん]のため、メディアの注目[ちゅうもく]が集[あつ]まっている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + とあって: 世界記録[せかいきろく]への挑戦[ちょうせん] + とあって = given that it's a world record attempt. メディアの注目[ちゅうもく]が集[あつ]まっている = media attention is intense. とあって marks the record attempt as a special notable event that naturally explains the intense coverage."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch50_v01",
+   "partOfSpeech": "i-adjective",
+   "kanji": "著しい",
+   "kana": "いちじるしい",
+   "romaji": "ichijirushii",
+   "definition": "remarkable; striking"
+  },
+  {
+   "id": "ch50_v02",
+   "partOfSpeech": "i-adjective",
+   "kanji": "甚だしい",
+   "kana": "はなはだしい",
+   "romaji": "hanahadashii",
+   "definition": "extreme; excessive"
+  },
+  {
+   "id": "ch50_v03",
+   "partOfSpeech": "i-adjective",
+   "kanji": "目覚ましい",
+   "kana": "めざましい",
+   "romaji": "mezamashii",
+   "definition": "striking; spectacular"
+  },
+  {
+   "id": "ch50_v04",
+   "partOfSpeech": "i-adjective",
+   "kanji": "華々しい",
+   "kana": "はなばなしい",
+   "romaji": "hanabanashii",
+   "definition": "brilliant; glorious"
+  },
+  {
+   "id": "ch50_v05",
+   "partOfSpeech": "i-adjective",
+   "kanji": "名高い",
+   "kana": "なだかい",
+   "romaji": "nadakai",
+   "definition": "renowned; famous"
+  },
+  {
+   "id": "ch50_v06",
+   "partOfSpeech": "i-adjective",
+   "kanji": "潔い",
+   "kana": "いさぎよい",
+   "romaji": "isagiyoi",
+   "definition": "graceful; resolute"
+  },
+  {
+   "id": "ch50_v07",
+   "partOfSpeech": "i-adjective",
+   "kanji": "淡い",
+   "kana": "あわい",
+   "romaji": "awai",
+   "definition": "faint; pale"
+  },
+  {
+   "id": "ch50_v08",
+   "partOfSpeech": "i-adjective",
+   "kanji": "儚い",
+   "kana": "はかない",
+   "romaji": "hakanai",
+   "definition": "fleeting; transient"
+  },
+  {
+   "id": "ch50_v09",
+   "partOfSpeech": "i-adjective",
+   "kanji": "麗しい",
+   "kana": "うるわしい",
+   "romaji": "uruwashii",
+   "definition": "beautiful; lovely"
+  },
+  {
+   "id": "ch50_v10",
+   "partOfSpeech": "na-adjective",
+   "kanji": "清らか",
+   "kana": "きよらか",
+   "romaji": "kiyoraka",
+   "definition": "pure; clear"
+  },
+  {
+   "id": "ch50_v11",
+   "partOfSpeech": "na-adjective",
+   "kanji": "厳か",
+   "kana": "おごそか",
+   "romaji": "ogosoka",
+   "definition": "solemn; grave"
+  },
+  {
+   "id": "ch50_v12",
+   "partOfSpeech": "na-adjective",
+   "kanji": "華やか",
+   "kana": "はなやか",
+   "romaji": "hanayaka",
+   "definition": "gorgeous; brilliant"
+  },
+  {
+   "id": "ch50_v13",
+   "partOfSpeech": "na-adjective",
+   "kanji": "鮮やか",
+   "kana": "あざやか",
+   "romaji": "azayaka",
+   "definition": "vivid; vibrant"
+  },
+  {
+   "id": "ch50_v14",
+   "partOfSpeech": "na-adjective",
+   "kanji": "滑らか",
+   "kana": "なめらか",
+   "romaji": "nameraka",
+   "definition": "smooth"
+  },
+  {
+   "id": "ch50_v15",
+   "partOfSpeech": "na-adjective",
+   "kanji": "緩やか",
+   "kana": "ゆるやか",
+   "romaji": "yuruyaka",
+   "definition": "gentle; gradual"
+  },
+  {
+   "id": "ch50_v16",
+   "partOfSpeech": "na-adjective",
+   "kanji": "密か",
+   "kana": "ひそか",
+   "romaji": "hisoka",
+   "definition": "secret; private"
+  },
+  {
+   "id": "ch50_v17",
+   "partOfSpeech": "na-adjective",
+   "kanji": "稀",
+   "kana": "まれ",
+   "romaji": "mare",
+   "definition": "rare"
+  },
+  {
+   "id": "ch50_v18",
+   "partOfSpeech": "na-adjective",
+   "kanji": "露骨",
+   "kana": "ろこつ",
+   "romaji": "rokotsu",
+   "definition": "blatant; frank"
+  },
+  {
+   "id": "ch50_v19",
+   "partOfSpeech": "na-adjective",
+   "kanji": "巧み",
+   "kana": "たくみ",
+   "romaji": "takumi",
+   "definition": "skillful; adept"
+  },
+  {
+   "id": "ch50_v20",
+   "partOfSpeech": "na-adjective",
+   "kanji": "円満",
+   "kana": "えんまん",
+   "romaji": "enman",
+   "definition": "harmonious; amicable"
+  },
+  {
+   "id": "ch50_v21",
+   "partOfSpeech": "na-adjective",
+   "kanji": "壮大",
+   "kana": "そうだい",
+   "romaji": "soudai",
+   "definition": "grand; magnificent"
+  },
+  {
+   "id": "ch50_v22",
+   "partOfSpeech": "na-adjective",
+   "kanji": "荘厳",
+   "kana": "そうごん",
+   "romaji": "sougon",
+   "definition": "solemn; majestic"
+  },
+  {
+   "id": "ch50_v23",
+   "partOfSpeech": "na-adjective",
+   "kanji": "神秘的",
+   "kana": "しんぴてき",
+   "romaji": "shinpiteki",
+   "definition": "mysterious; mystical"
+  },
+  {
+   "id": "ch50_v24",
+   "partOfSpeech": "na-adjective",
+   "kanji": "幻想的",
+   "kana": "げんそうてき",
+   "romaji": "gensouteki",
+   "definition": "dreamlike; fantastic"
+  },
+  {
+   "id": "ch50_v25",
+   "partOfSpeech": "noun",
+   "kanji": "情緒",
+   "kana": "じょうちょ",
+   "romaji": "joucho",
+   "definition": "emotion; atmosphere"
+  },
+  {
+   "id": "ch50_v26",
+   "partOfSpeech": "noun",
+   "kanji": "余韻",
+   "kana": "よいん",
+   "romaji": "yoin",
+   "definition": "lingering resonance; afterglow"
+  },
+  {
+   "id": "ch50_v27",
+   "partOfSpeech": "noun",
+   "kanji": "気配",
+   "kana": "けはい",
+   "romaji": "kehai",
+   "definition": "sign; indication; presence"
+  },
+  {
+   "id": "ch50_v28",
+   "partOfSpeech": "noun",
+   "kanji": "面影",
+   "kana": "おもかげ",
+   "romaji": "omokage",
+   "definition": "vestiges; traces; image"
+  },
+  {
+   "id": "ch50_v29",
+   "partOfSpeech": "noun",
+   "kanji": "趣",
+   "kana": "おもむき",
+   "romaji": "omomuki",
+   "definition": "charm; taste; feel"
+  },
+  {
+   "id": "ch50_v30",
+   "partOfSpeech": "noun",
+   "kanji": "風情",
+   "kana": "ふぜい",
+   "romaji": "fuzei",
+   "definition": "elegance; atmosphere"
+  },
+  {
+   "id": "ch50_v31",
+   "partOfSpeech": "noun",
+   "kanji": "名残",
+   "kana": "なごり",
+   "romaji": "nagori",
+   "definition": "remnants; traces; parting"
+  },
+  {
+   "id": "ch50_v32",
+   "partOfSpeech": "noun",
+   "kanji": "佇まい",
+   "kana": "たたずまい",
+   "romaji": "tatazumai",
+   "definition": "appearance; atmosphere"
+  },
+  {
+   "id": "ch50_v33",
+   "partOfSpeech": "verb",
+   "kanji": "醸し出す",
+   "kana": "かもしだす",
+   "romaji": "kamoshidasu",
+   "definition": "to create (an atmosphere)"
+  },
+  {
+   "id": "ch50_v34",
+   "partOfSpeech": "verb",
+   "kanji": "際立つ",
+   "kana": "きわだつ",
+   "romaji": "kiwadatsu",
+   "definition": "to stand out; to be conspicuous"
+  },
+  {
+   "id": "ch50_v35",
+   "partOfSpeech": "na-adjective",
+   "kanji": "呆然",
+   "kana": "ぼうぜん",
+   "romaji": "bouzen",
+   "definition": "dumbfounded; stunned"
+  },
+  {
+   "id": "ch50_v36",
+   "partOfSpeech": "adverb",
+   "kanji": "うっとり",
+   "kana": "うっとり",
+   "romaji": "uttori",
+   "definition": "enraptured; entranced"
+  },
+  {
+   "id": "ch50_v37",
+   "partOfSpeech": "adverb",
+   "kanji": "しみじみ",
+   "kana": "しみじみ",
+   "romaji": "shimijimi",
+   "definition": "keenly; deeply"
+  },
+  {
+   "id": "ch50_v38",
+   "partOfSpeech": "adverb",
+   "kanji": "ひしひし",
+   "kana": "ひしひし",
+   "romaji": "hishihishi",
+   "definition": "keenly; intensely"
+  },
+  {
+   "id": "ch50_v39",
+   "partOfSpeech": "adverb",
+   "kanji": "つくづく",
+   "kana": "つくづく",
+   "romaji": "tsukuzuku",
+   "definition": "deeply; thoroughly"
+  },
+  {
+   "id": "ch50_v40",
+   "partOfSpeech": "adverb",
+   "kanji": "まざまざ",
+   "kana": "まざまざ",
+   "romaji": "mazamaza",
+   "definition": "vividly; clearly"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "怠",
+   "word": "怠ける",
+   "reading": "なまける",
+   "meaning": "to be lazy, idle"
+  },
+  {
+   "char": "頬",
+   "word": "頬",
+   "reading": "ほお",
+   "meaning": "cheek"
+  },
+  {
+   "char": "爪",
+   "word": "爪",
+   "reading": "つめ",
+   "meaning": "nail, claw"
+  },
+  {
+   "char": "顕",
+   "word": "顕著",
+   "reading": "けんちょ",
+   "meaning": "remarkable; striking"
+  },
+  {
+   "char": "循",
+   "word": "循環",
+   "reading": "じゅんかん",
+   "meaning": "circulation; cycle"
+  },
+  {
+   "char": "妨",
+   "word": "妨げる",
+   "reading": "さまたげる",
+   "meaning": "to hinder, obstruct"
+  },
+  {
+   "char": "逝",
+   "word": "逝去",
+   "reading": "せいきょ",
+   "meaning": "death; passing (honorific)"
+  },
+  {
+   "char": "挨",
+   "word": "挨拶",
+   "reading": "あいさつ",
+   "meaning": "greeting, salutation"
+  },
+  {
+   "char": "賦",
+   "word": "月賦",
+   "reading": "げっぷ",
+   "meaning": "monthly instalments"
+  },
+  {
+   "char": "醸",
+   "word": "醸し出す",
+   "reading": "かもしだす",
+   "meaning": "to create (an atmosphere)"
+  },
+  {
+   "char": "髄",
+   "word": "骨髄",
+   "reading": "こつずい",
+   "meaning": "bone marrow"
+  },
+  {
+   "char": "露",
+   "word": "露骨",
+   "reading": "ろこつ",
+   "meaning": "blatant; frank"
+  },
+  {
+   "char": "峰",
+   "word": "峰",
+   "reading": "みね",
+   "meaning": "peak, summit"
+  },
+  {
+   "char": "擬",
+   "word": "模擬",
+   "reading": "もぎ",
+   "meaning": "mock; simulated"
+  },
+  {
+   "char": "赦",
+   "word": "容赦",
+   "reading": "ようしゃ",
+   "meaning": "pardon; mercy"
+  },
+  {
+   "char": "如",
+   "word": "突如",
+   "reading": "とつじょ",
+   "meaning": "suddenly"
+  },
+  {
+   "char": "凡",
+   "word": "凡",
+   "reading": "ぼん",
+   "meaning": "ordinary"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "怠ける",
+   "kana": "なまける",
+   "romaji": "namakeru",
+   "meaning": "to be lazy, idle",
+   "chars": [
+    "怠"
+   ]
+  },
+  {
+   "word": "頬",
+   "kana": "ほお",
+   "romaji": "hoo",
+   "meaning": "cheek",
+   "chars": [
+    "頬"
+   ]
+  },
+  {
+   "word": "爪",
+   "kana": "つめ",
+   "romaji": "tsume",
+   "meaning": "nail, claw",
+   "chars": [
+    "爪"
+   ]
+  },
+  {
+   "word": "顕著",
+   "kana": "けんちょ",
+   "romaji": "kencho",
+   "meaning": "remarkable; striking",
+   "chars": [
+    "顕",
+    "著"
+   ]
+  },
+  {
+   "word": "循環",
+   "kana": "じゅんかん",
+   "romaji": "junkan",
+   "meaning": "circulation; cycle",
+   "chars": [
+    "循"
+   ]
+  },
+  {
+   "word": "妨げる",
+   "kana": "さまたげる",
+   "romaji": "samatageru",
+   "meaning": "to hinder, obstruct",
+   "chars": [
+    "妨"
+   ]
+  },
+  {
+   "word": "逝去",
+   "kana": "せいきょ",
+   "romaji": "seikyo",
+   "meaning": "death; passing (honorific)",
+   "chars": [
+    "逝",
+    "去"
+   ]
+  },
+  {
+   "word": "月賦",
+   "kana": "げっぷ",
+   "romaji": "geppu",
+   "meaning": "monthly instalments",
+   "chars": [
+    "月",
+    "賦"
+   ]
+  },
+  {
+   "word": "醸し出す",
+   "kana": "かもしだす",
+   "romaji": "kamoshidasu",
+   "meaning": "to create (an atmosphere)",
+   "chars": [
+    "醸",
+    "出"
+   ]
+  },
+  {
+   "word": "骨髄",
+   "kana": "こつずい",
+   "romaji": "kotsuzui",
+   "meaning": "bone marrow",
+   "chars": [
+    "骨",
+    "髄"
+   ]
+  },
+  {
+   "word": "露骨",
+   "kana": "ろこつ",
+   "romaji": "rokotsu",
+   "meaning": "blatant; frank",
+   "chars": [
+    "露",
+    "骨"
+   ]
+  },
+  {
+   "word": "峰",
+   "kana": "みね",
+   "romaji": "mine",
+   "meaning": "peak, summit",
+   "chars": [
+    "峰"
+   ]
+  },
+  {
+   "word": "模擬",
+   "kana": "もぎ",
+   "romaji": "mogi",
+   "meaning": "mock; simulated",
+   "chars": [
+    "擬"
+   ]
+  },
+  {
+   "word": "容赦",
+   "kana": "ようしゃ",
+   "romaji": "yousha",
+   "meaning": "pardon; mercy",
+   "chars": [
+    "容",
+    "赦"
+   ]
+  },
+  {
+   "word": "突如",
+   "kana": "とつじょ",
+   "romaji": "totsujo",
+   "meaning": "suddenly",
+   "chars": [
+    "突",
+    "如"
+   ]
+  },
+  {
+   "word": "凡",
+   "kana": "ぼん",
+   "romaji": "bon",
+   "meaning": "ordinary",
+   "chars": [
+    "凡"
+   ]
+  },
+  {
+   "word": "挨拶",
+   "kana": "あいさつ",
+   "romaji": "aisatsu",
+   "meaning": "greeting, salutation",
+   "chars": [
+    "挨",
+    "拶"
+   ]
+  },
+  {
+   "word": "風情",
+   "kana": "ふぜい",
+   "romaji": "fuzei",
+   "meaning": "taste",
+   "chars": [
+    "風",
+    "情"
+   ]
+  },
+  {
+   "word": "際立つ",
+   "kana": "きわだつ",
+   "romaji": "kiwadatsu",
+   "meaning": "to be prominent",
+   "chars": [
+    "際",
+    "立"
+   ]
+  },
+  {
+   "word": "面影",
+   "kana": "おもかげ",
+   "romaji": "omokage",
+   "meaning": "vestiges; trace; image (of someone, in one's memory)",
+   "chars": [
+    "面"
+   ]
+  },
+  {
+   "word": "余裕",
+   "kana": "よゆう",
+   "romaji": "yoyuu",
+   "meaning": "leeway; (financial or mental) room; composure",
+   "chars": [
+    "余"
+   ]
+  },
+  {
+   "word": "円満",
+   "kana": "えんまん",
+   "romaji": "enman",
+   "meaning": "harmonious",
+   "chars": [
+    "円",
+    "満"
+   ]
+  },
+  {
+   "word": "名高い",
+   "kana": "なだかい",
+   "romaji": "nadakai",
+   "meaning": "famous",
+   "chars": [
+    "名",
+    "高"
+   ]
+  },
+  {
+   "word": "名残",
+   "kana": "なごり",
+   "romaji": "nagori",
+   "meaning": "remains",
+   "chars": [
+    "名",
+    "残"
+   ]
+  }
+ ]
 }

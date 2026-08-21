@@ -1,1411 +1,1695 @@
 {
-  "id": "ch45",
-  "chapterNumber": 47,
-  "title": "Purpose and Precise Cause",
-  "points": [
+ "id": "ch45",
+ "chapterNumber": 47,
+ "title": "Purpose, Cause and Possibility",
+ "points": [
+  {
+   "id": "beku",
+   "name": "〜べく (beku) — in order to / with the intention of (formal purpose)",
+   "shortDescription": "A formal, literary expression of serious purposeful intent — the elevated classical equivalent of ために, alive today in official writing and speeches.",
+   "formation": "Verb (dictionary form) + べく  |  する → すべく",
+   "explanation": "〜べく is the grammar of deliberate, elevated purpose — archaic in origin but very much alive today in formal writing, official announcements, and literary prose. It is the adverbial form (連用形[れんようけい]) of the classical auxiliary べし (meaning 'should / must / ought to'), and when used as べく, it expresses purpose: 'in order to,' 'with the aim of,' 'with the intent of achieving.' 目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます means 'Working as one, with the aim of achieving the goal' — and you feel the gravity of the commitment.\n\nThe formation attaches to the dictionary (plain non-past) form of the verb, with する contracting to the standard form すべく (するべく is occasionally seen, but すべく is the accepted standard form). Do not expect to hear べく in daily conversation — it would sound theatrical, almost comic.\n\nBut in a company mission statement, a newspaper editorial, a formal speech, or literary prose, it fits naturally and carries a distinctly resolved, purposeful tone. Think of it as the ために of the boardroom or the ballot box — the same logical relationship, but elevated by a register that signals seriousness of purpose.",
+   "rules": [
+    "Verb (dict) + べく = in order to / with the aim of (formal, literary purpose)",
+    "する → すべく (contracted standard form; するべく is occasionally seen but すべく is standard)",
+    "Literary and formal — not for everyday conversation; found in writing, speeches, editorial prose",
+    "Subject of both clauses is the same (the same person acts in pursuit of the same purpose)",
+    "More elevated in register than ために (purpose); same logical relationship, but markedly more formal"
+   ],
+   "examples": [
     {
-      "id": "beku",
-      "name": "〜べく (beku) — in order to / with the intention of (formal purpose)",
-      "shortDescription": "A formal, literary expression of serious purposeful intent — the elevated classical equivalent of ために, alive today in official writing and speeches.",
-      "formation": "Verb (dictionary form) + べく  |  する → すべく",
-      "explanation": "〜べく is the grammar of deliberate, elevated purpose — archaic in origin but very much alive today in formal writing, official announcements, and literary prose. It is the adverbial form (連用形[れんようけい]) of the classical auxiliary べし (meaning 'should / must / ought to'), and when used as べく, it expresses purpose: 'in order to,' 'with the aim of,' 'with the intent of achieving.' 目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます means 'Working as one, with the aim of achieving the goal' — and you feel the gravity of the commitment.\n\nThe formation attaches to the dictionary (plain non-past) form of the verb, with する contracting to the standard form すべく (するべく is occasionally seen, but すべく is the accepted standard form). Do not expect to hear べく in daily conversation — it would sound theatrical, almost comic.\n\nBut in a company mission statement, a newspaper editorial, a formal speech, or literary prose, it fits naturally and carries a distinctly resolved, purposeful tone. Think of it as the ために of the boardroom or the ballot box — the same logical relationship, but elevated by a register that signals seriousness of purpose.",
-      "rules": [
-        "Verb (dict) + べく = in order to / with the aim of (formal, literary purpose)",
-        "する → すべく (contracted standard form; するべく is occasionally seen but すべく is standard)",
-        "Literary and formal — not for everyday conversation; found in writing, speeches, editorial prose",
-        "Subject of both clauses is the same (the same person acts in pursuit of the same purpose)",
-        "More elevated in register than ために (purpose); same logical relationship, but markedly more formal"
-      ],
-      "examples": [
-        {
-          "japanese": "目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます。",
-          "romaji": "Mokuhyou wo tassei subeku, chiimu ichigan to natte torikunde imasu.",
-          "english": "In order to achieve our goal, the team is working together as one."
-        },
-        {
-          "japanese": "より良[よ]い未来[みらい]を作[つく]るべく、若[わか]い世代[せだい]が立[た]ち上[あ]がっています。",
-          "romaji": "Yori yoi mirai wo tsukuru beku, wakai sedai ga tachiagatte imasu.",
-          "english": "In order to create a better future, the younger generation is rising up."
-        },
-        {
-          "japanese": "問題[もんだい]を解決[かいけつ]すべく、専門家[せんもんか]チームが派遣[はけん]されました。",
-          "romaji": "Mondai wo kaiketsU subeku, senmonka chiimu ga haken saremashita.",
-          "english": "In order to resolve the problem, a team of experts was dispatched."
-        },
-        {
-          "japanese": "真実[しんじつ]を究明[きゅうめい]すべく、長年[ながねん]にわたる調査[ちょうさ]が続[つづ]けられてきました。",
-          "romaji": "Shinjitsu wo kyuumei subeku, naganen ni wataru chousa ga tsuzukerarete kimashita.",
-          "english": "In order to investigate the truth, research spanning many years has continued."
-        }
-      ],
-      "flashcardHeader": "〜べく",
-      "flashcardAnswer": "Formal, literary purpose expression meaning 'in order to' — the elevated classical equivalent of ために, used in official writing and speech.",
-      "practice": [
-        {
-          "id": "beku_q1",
-          "type": "usage",
-          "prompt": "What does 〜べく mean?",
-          "japanese": null,
-          "choices": [
-            "because of / therefore",
-            "in order to / with the intention of (formal literary purpose) — verb + べく + action to achieve the goal",
-            "although / despite",
-            "as a result of"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜べく = in order to / with the intention of. 目標[もくひょう]を達成[たっせい]すべく、懸命[けんめい]に働[はたら]いた = worked hard in order to achieve the goal. べく is the literary/formal purpose form — used in serious writing, not casual conversation."
-        },
-        {
-          "id": "beku_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'He traveled to Japan in order to study the language'?",
-          "japanese": null,
-          "choices": [
-            "言語[げんご]を学[まな]ぶべく、彼[かれ]は日本[にほん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]ぶために、彼[かれ]は日本[にほん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]ぼうとして、彼[かれ]は日本[にほん]へ渡[わた]った。",
-            "言語[げんご]を学[まな]びたくて、彼[かれ]は日本[にほん]へ渡[わた]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 学[まな]ぶ + べく = in order to learn. 日本[にほん]へ渡[わた]った = traveled to Japan. べく is the formal purpose connector — more literary than ために."
-        },
-        {
-          "id": "beku_q3",
-          "type": "translation",
-          "prompt": "Which means 'She entered the competition in order to test her strength'?",
-          "japanese": null,
-          "choices": [
-            "実力[じつりょく]を試[ため]すべく、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
-            "実力[じつりょく]を試[ため]すために、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
-            "実力[じつりょく]を試[ため]そうとして、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
-            "実力[じつりょく]を試[ため]したくて、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 試[ため]す + べく = in order to test. 大会[たいかい]に挑[ちょう]んだ = entered the competition. べく marks the purpose in a formal, literary register."
-        },
-        {
-          "id": "beku_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to protect the people, the soldiers fought'?",
-          "japanese": null,
-          "choices": [
-            "人々[ひとびと]を守[まも]るべく、兵士[へいし]たちは戦[たたか]った。",
-            "人々[ひとびと]を守[まも]るために、兵士[へいし]たちは戦[たたか]った。",
-            "人々[ひとびと]を守[まも]ろうとして、兵士[へいし]たちは戦[たたか]った。",
-            "人々[ひとびと]を守[まも]りたくて、兵士[へいし]たちは戦[たたか]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 守[まも]る + べく = in order to protect. 兵士[へいし]たちは戦[たたか]った = soldiers fought. べく lends a heroic, formal tone — appropriate for military or literary contexts."
-        },
-        {
-          "id": "beku_q5",
-          "type": "usage",
-          "prompt": "What is special about する (to do) + べく?",
-          "japanese": null,
-          "choices": [
-            "するべく is the only correct form — textbooks treat this as an absolute rule, regardless of context or politeness level.",
-            "する → すべく (irregular): the expected するべく exists but すべく is the classical form and commonly used in formal writing",
-            "するべく is incorrect",
-            "べく cannot follow する"
-          ],
-          "correctIndex": 1,
-          "explanation": "する + べく: するべく (regular) or すべく (classical/formal). すべく is the contracted classical form. Both appear in formal writing, but すべく is particularly associated with literary and classical Japanese. 貢献[こうけん]すべく = in order to contribute."
-        },
-        {
-          "id": "beku_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'The scientist conducted experiments in order to verify the hypothesis'?",
-          "japanese": null,
-          "choices": [
-            "仮説[かせつ]を証明[しょうめい]すべく、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
-            "仮説[かせつ]を証明[しょうめい]するために、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
-            "仮説[かせつ]を証明[しょうめい]しようとして、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
-            "仮説[かせつ]を証明[しょうめい]したくて、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 証明[しょうめい]する → 証明[しょうめい]すべく = in order to prove. 実験[じっけん]を行[おこな]った = conducted experiments. べく in scientific contexts sounds formal and purposeful."
-        },
-        {
-          "id": "beku_q7",
-          "type": "translation",
-          "prompt": "Which means 'In order to answer society's expectations, she continued to research'?",
-          "japanese": null,
-          "choices": [
-            "社会[しゃかい]の期待[きたい]に応[こた]えるべく、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
-            "社会[しゃかい]の期待[きたい]に応[こた]えるために、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
-            "社会[しゃかい]の期待[きたい]に応[こた]えようとして、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
-            "社会[しゃかい]の期待[きたい]に応[こた]えたくて、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 応[こた]える + べく = in order to answer/meet. 研究[けんきゅう]を続[つづ]けた = continued to research. べく expresses purposeful scholarly dedication."
-        },
-        {
-          "id": "beku_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to contribute to society, he entered politics'?",
-          "japanese": null,
-          "choices": [
-            "社会[しゃかい]に貢献[こうけん]すべく、彼[かれ]は政界[せいかい]に入[はい]った。",
-            "社会[しゃかい]に貢献[こうけん]するために、彼[かれ]は政界[せいかい]に入[はい]った。",
-            "社会[しゃかい]に貢献[こうけん]しようとして、彼[かれ]は政界[せいかい]に入[はい]った。",
-            "社会[しゃかい]に貢献[こうけん]したくて、彼[かれ]は政界[せいかい]に入[はい]った。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 貢献[こうけん]すべく = in order to contribute. 政界[せいかい]に入[はい]った = entered politics. すべく (classical form of するべく) sounds appropriately formal for a life-purpose statement."
-        },
-        {
-          "id": "beku_q9",
-          "type": "usage",
-          "prompt": "べく vs. ために — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "べく is more literary/formal (used in written Japanese, formal speeches); ために is more neutral and used in both spoken and written contexts",
-            "べく is more casual",
-            "ために is only for negative purposes, regardless of context or politeness level — this is true in both spoken and written Japanese."
-          ],
-          "correctIndex": 1,
-          "explanation": "べく: literary/formal purpose: 夢[ゆめ]を実現[じつげん]すべく努力[どりょく]した (worked hard in order to realize the dream — formal). ために: neutral purpose: 夢[ゆめ]を実現[じつげん]するために努力[どりょく]した (worked hard to realize the dream — everyday usage). Same meaning, different register."
-        },
-        {
-          "id": "beku_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to seek the truth, the journalist investigated tirelessly'?",
-          "japanese": null,
-          "choices": [
-            "真実[しんじつ]を追[お]い求[もと]めるべく、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
-            "真実[しんじつ]を追[お]い求[もと]めるために、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
-            "真実[しんじつ]を追[お]い求[もと]めようとして、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
-            "真実[しんじつ]を追[お]い求[もと]めたくて、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 追[お]い求[もと]める + べく = in order to seek. 精力的[せいりょくてき]に取材[しゅざい]した = investigated tirelessly. べく gives the journalist's mission a formal, literary quality."
-        },
-        {
-          "id": "beku_q11",
-          "type": "translation",
-          "prompt": "Which means 'In order to leave a name in history, he dedicated his entire life'?",
-          "japanese": null,
-          "choices": [
-            "歴史[れきし]に名[な]を残[のこ]すべく、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[な]を残[のこ]すために、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[な]を残[のこ]そうとして、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
-            "歴史[れきし]に名[な]を残[のこ]したくて、彼[かれ]は一生[いっしょう]を捧[ささ]げた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 残[のこ]す + べく = in order to leave. 一生[いっしょう]を捧[ささ]げた = dedicated his entire life. べく suits this grand, literary life-purpose statement perfectly."
-        },
-        {
-          "id": "beku_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to rescue the stranded passengers, rescue teams were dispatched'?",
-          "japanese": null,
-          "choices": [
-            "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]すべく、救助隊[きゅうじょたい]が派遣[はけん]された。",
-            "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]するために、救助隊[きゅうじょたい]が派遣[はけん]された。",
-            "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]しようとして、救助隊[きゅうじょたい]が派遣[はけん]された。",
-            "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]したくて、救助隊[きゅうじょたい]が派遣[はけん]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 救出[きゅうしゅつ]すべく = in order to rescue. 救助隊[きゅうじょたい]が派遣[はけん]された = rescue teams were dispatched. すべく in an emergency/official context sounds appropriately serious."
-        },
-        {
-          "id": "beku_q13",
-          "type": "usage",
-          "prompt": "べく is found primarily in which contexts?",
-          "japanese": null,
-          "choices": [
-            "Casual everyday conversation",
-            "Formal written language: news articles, official documents, literary works, formal speeches",
-            "Only classical Japanese texts — this is true in both spoken and written Japanese.",
-            "Online chat and social media"
-          ],
-          "correctIndex": 1,
-          "explanation": "べく is a literary/formal purpose form. It appears in: formal news reporting (被災者[ひさいしゃ]を支援[しえん]すべく), historical/literary narratives, official documents, formal speeches. In everyday speech, ために or ように are used instead."
-        },
-        {
-          "id": "beku_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to promote international exchange, a new program was launched'?",
-          "japanese": null,
-          "choices": [
-            "国際交流[こくさいこうりゅう]を促進[そくしん]すべく、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
-            "国際交流[こくさいこうりゅう]を促進[そくしん]するために、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
-            "国際交流[こくさいこうりゅう]を促進[そくしん]しようとして、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
-            "国際交流[こくさいこうりゅう]を促進[そくしん]したくて、新[あら]たなプログラムが立[た]ち上[あ]げられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 促進[そくしん]すべく = in order to promote. 新[あら]たなプログラムが立[た]ち上[あ]げられた = a new program was launched. Formal institutional purpose expressed with べく."
-        },
-        {
-          "id": "beku_q15",
-          "type": "translation",
-          "prompt": "Which means 'In order to honor the fallen soldiers, a memorial was built'?",
-          "japanese": null,
-          "choices": [
-            "戦死者[せんししゃ]を追悼[ついとう]すべく、記念碑[きねんひ]が建[た]てられた。",
-            "戦死者[せんししゃ]を追悼[ついとう]するために、記念碑[きねんひ]が建[た]てられた。",
-            "戦死者[せんししゃ]を追悼[ついとう]しようとして、記念碑[きねんひ]が建[た]てられた。",
-            "戦死者[せんししゃ]を追悼[ついとう]したくて、記念碑[きねんひ]が建[た]てられた。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 追悼[ついとう]すべく = in order to honor/memorialize. 記念碑[きねんひ]が建[た]てられた = a memorial was built. べく lends an appropriately solemn, formal tone to this purpose."
-        },
-        {
-          "id": "beku_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to improve the environment, the city introduced new policies'?",
-          "japanese": null,
-          "choices": [
-            "環境[かんきょう]を改善[かいぜん]すべく、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
-            "環境[かんきょう]を改善[かいぜん]するために、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
-            "環境[かんきょう]を改善[かいぜん]しようとして、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
-            "環境[かんきょう]を改善[かいぜん]したくて、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 改善[かいぜん]すべく = in order to improve. 新[あたら]しい政策[せいさく]を導入[どうにゅう]した = introduced new policies. べく in official/governmental context sounds formally purposeful."
-        },
-        {
-          "id": "beku_q17",
-          "type": "usage",
-          "prompt": "Which formation is CORRECT for べく?",
-          "japanese": null,
-          "choices": [
-            "Verb past + べく: 食[た]べたべく (incorrect)",
-            "Verb dict-form + べく: 食[た]べるべく / するべく or すべく (correct)",
-            "Verb te-form + べく: 食[た]べてべく (incorrect)",
-            "Verb masu-stem + べく: 食[た]べべく (incorrect)"
-          ],
-          "correctIndex": 1,
-          "explanation": "Verb DICTIONARY FORM + べく: 食[た]べる + べく = in order to eat. Exception: する → するべく OR すべく (both correct, すべく is more classical). Past/te/masu forms cannot precede べく."
-        },
-        {
-          "id": "beku_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to achieve world peace, many leaders gathered'?",
-          "japanese": null,
-          "choices": [
-            "世界平和[せかいへいわ]を実現[じつげん]すべく、多[おお]くのリーダーが集[あつ]まった。",
-            "世界平和[せかいへいわ]を実現[じつげん]するために、多[おお]くのリーダーが集[あつ]まった。",
-            "世界平和[せかいへいわ]を実現[じつげん]しようとして、多[おお]くのリーダーが集[あつ]まった。",
-            "世界平和[せかいへいわ]を実現[じつげん]したくて、多[おお]くのリーダーが集[あつ]まった。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 実現[じつげん]すべく = in order to realize/achieve. 多[おお]くのリーダーが集[あつ]まった = many leaders gathered. べく suits this grand diplomatic purpose."
-        },
-        {
-          "id": "beku_q19",
-          "type": "translation",
-          "prompt": "Which means 'In order to acquire the necessary skills, she enrolled in training'?",
-          "japanese": null,
-          "choices": [
-            "必要[ひつよう]なスキルを習得[しゅうとく]すべく、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
-            "必要[ひつよう]なスキルを習得[しゅうとく]するために、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
-            "必要[ひつよう]なスキルを習得[しゅうとく]しようとして、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
-            "必要[ひつよう]なスキルを習得[しゅうとく]したくて、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form (する→す) + べく: 習得[しゅうとく]すべく = in order to acquire. 研修[けんしゅう]に参加[さんか]した = enrolled in training. べく in a professional development context sounds formally purposeful."
-        },
-        {
-          "id": "beku_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'In order to meet the needs of users, the app was updated'?",
-          "japanese": null,
-          "choices": [
-            "ユーザーのニーズに応[こた]えるべく、アプリが更新[こうしん]された。",
-            "ユーザーのニーズに応[こた]えるために、アプリが更新[こうしん]された。",
-            "ユーザーのニーズに応[こた]えようとして、アプリが更新[こうしん]された。",
-            "ユーザーのニーズに応[こた]えたくて、アプリが更新[こうしん]された。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + べく: 応[こた]える + べく = in order to meet/answer. アプリが更新[こうしん]された = the app was updated. べく in a tech/product context gives a formal, purposeful tone to the update announcement."
-        }
-      ]
+     "japanese": "目標[もくひょう]を達成[たっせい]すべく、チーム一丸[いちがん]となって取[と]り組[く]んでいます。",
+     "romaji": "Mokuhyou wo tassei subeku, chiimu ichigan to natte torikunde imasu.",
+     "english": "In order to achieve our goal, the team is working together as one."
     },
     {
-      "id": "kara-koso",
-      "name": "〜からこそ (kara koso) — precisely because / exactly because",
-      "shortDescription": "Emphasizes that the stated reason is the specific, essential, exclusive cause — こそ makes it irreplaceable.",
-      "formation": "Plain form / Noun + だ + からこそ",
-      "explanation": "からこそ supercharges the ordinary cause-marker から with こそ — the emphatic particle that says 'it is precisely this, and this alone, that matters.' The combined effect: the stated reason is not just one factor among many, but the essential, defining, exclusive cause. 信頼[しんらい]しているからこそ、正直[しょうじき]に言[い]えるのです means 'It is precisely because I trust you that I can speak honestly' — without the trust, the honesty would not exist.\n\nThis pattern is powerful because it so often explains seemingly contradictory behavior: why does a parent scold a child harshly? Precisely because they love them. Why does someone say painful truths out loud? Precisely because they care. からこそ frames the surprising as inevitable once you understand the underlying reason.\n\nThe こそ element adds exclusivity — this (and only this) is the true reason. You will encounter this pattern most often in formal speeches, sincere personal declarations, and persuasive writing where the speaker wants to reveal the real, essential logic beneath a surface contradiction.",
-      "rules": [
-        "Plain form / Noun + だ + からこそ = precisely because / exactly because (emphatic exclusive cause)",
-        "こそ adds exclusivity: this is the one essential reason — not just a reason, but the reason",
-        "Often used to explain seemingly contradictory or counterintuitive behavior",
-        "The emphasis frequently reveals what lies beneath a surface contradiction (doing X because of Y, not despite Y)",
-        "Common in formal speeches, persuasive argument, and sincere personal explanations"
-      ],
-      "examples": [
-        {
-          "japanese": "難[むずか]しいからこそ、やりがいがあるんです。",
-          "romaji": "Muzukashii kara koso, yarigai ga aru n desu.",
-          "english": "It is precisely because it is difficult that it is worth doing."
-        },
-        {
-          "japanese": "あなたを信頼[しんらい]しているからこそ、正直[しょうじき]に言[い]えるのです。",
-          "romaji": "Anata wo shinrai shite iru kara koso, shoujiki ni ieru no desu.",
-          "english": "It is precisely because I trust you that I can be honest with you."
-        },
-        {
-          "japanese": "失敗[しっぱい]を経験[けいけん]したからこそ、成功[せいこう]の喜[よろこ]びが分[わ]かるのでしょう。",
-          "romaji": "Shippai wo keiken shita kara koso, seikou no yorokobi ga wakaru no deshou.",
-          "english": "It is precisely because you have experienced failure that you understand the joy of success."
-        },
-        {
-          "japanese": "今[いま]が苦[くる]しいからこそ、乗[の]り越[こ]えた時[とき]の達成感[たっせいかん]は大[おお]きいのです。",
-          "romaji": "Ima ga kurushii kara koso, norikoeta toki no tasseikan wa ookii no desu.",
-          "english": "It is precisely because now is hard that the sense of achievement when you overcome it will be great."
-        }
-      ],
-      "flashcardHeader": "〜からこそ",
-      "flashcardAnswer": "Emphasizes that the stated reason is the specific, essential, exclusive cause — 'it is precisely because of this, and only this.'",
-      "practice": [
-        {
-          "id": "kara-koso_q1",
-          "type": "usage",
-          "prompt": "What does 〜からこそ mean?",
-          "japanese": null,
-          "choices": [
-            "even though / despite",
-            "precisely because / exactly because — こそ adds strong emphasis to から: 'it is specifically because of X that Y'",
-            "from the start",
-            "just because"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜からこそ = precisely because / exactly because. 好[す]きだからこそ、厳[きび]しく言[い]う = precisely because I like you, I speak harshly. こそ (emphasis particle) added to から makes the causal link emphatic: Y is true specifically because of X, not anything else."
-        },
-        {
-          "id": "kara-koso_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because it is difficult, it is worth doing'?",
-          "japanese": null,
-          "choices": [
-            "難[むずか]しいからこそ、やる価値[かち]がある。",
-            "難[むずか]しいから、やる価値[かち]がある。",
-            "難[むずか]しいのに、やる価値[かち]がある。",
-            "難[むずか]しくても、やる価値[かち]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + からこそ: 難[むずか]しい + からこそ = precisely because it's difficult. やる価値[かち]がある = it's worth doing. からこそ emphasizes that the difficulty IS the reason it has value."
-        },
-        {
-          "id": "kara-koso_q3",
-          "type": "translation",
-          "prompt": "Which means 'Precisely because she trusts you, she is asking for help'?",
-          "japanese": null,
-          "choices": [
-            "あなたを信頼[しんらい]しているからこそ、助[たす]けを求[もと]めている。",
-            "あなたを信頼[しんらい]しているから、助[たす]けを求[もと]めている。",
-            "あなたを信頼[しんらい]しているのに、助[たす]けを求[もと]めている。",
-            "あなたを信頼[しんらい]しているけど、助[たす]けを求[もと]めている。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb te-iru + からこそ: 信頼[しんらい]している + からこそ = precisely because (she) trusts. 助[たす]けを求[もと]めている = is asking for help. からこそ makes trust the specific, emphasized reason for the request."
-        },
-        {
-          "id": "kara-koso_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because we are friends, I can tell you the truth'?",
-          "japanese": null,
-          "choices": [
-            "友達[ともだち]だからこそ、本当[ほんとう]のことが言[い]える。",
-            "友達[ともだち]だから、本当[ほんとう]のことが言[い]える。",
-            "友達[ともだち]なのに、本当[ほんとう]のことが言[い]える。",
-            "友達[ともだち]でも、本当[ほんとう]のことが言[い]える。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + だ + からこそ: 友達[ともだち]だ + からこそ = precisely because we are friends. 本当[ほんとう]のことが言[い]える = I can tell the truth. からこそ emphasizes that friendship IS the specific enabling reason."
-        },
-        {
-          "id": "kara-koso_q5",
-          "type": "usage",
-          "prompt": "What role does こそ play in からこそ?",
-          "japanese": null,
-          "choices": [
-            "It negates から",
-            "こそ is an emphatic/focusing particle — it singles out X as THE specific, defining reason (not coincidental, not one of many — exclusively because of X)",
-            "It softens から",
-            "It is just a filler with no meaning, and the rule applies to every sentence type — and this holds in every register, formal or casual."
-          ],
-          "correctIndex": 1,
-          "explanation": "こそ is a focusing particle that singles out X as the definitive reason. からこそ = 'it is specifically because of X (and no other reason) that Y.' Without こそ: から = because (neutral). With こそ: からこそ = precisely/exactly because (emphatic, X is singled out as the key reason)."
-        },
-        {
-          "id": "kara-koso_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because it is expensive, it must be good quality'?",
-          "japanese": null,
-          "choices": [
-            "高[たか]いからこそ、品質[ひんしつ]がいいはずだ。",
-            "高[たか]いから、品質[ひんしつ]がいいはずだ。",
-            "高[たか]いのに、品質[ひんしつ]がいいはずだ。",
-            "高[たか]くても、品質[ひんしつ]がいいはずだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + からこそ: 高[たか]い + からこそ = precisely because it's expensive. 品質[ひんしつ]がいいはずだ = quality must be good. からこそ singles out price as THE indicator of quality."
-        },
-        {
-          "id": "kara-koso_q7",
-          "type": "translation",
-          "prompt": "Which means 'Precisely because you tried hard, the result is meaningful'?",
-          "japanese": null,
-          "choices": [
-            "頑張[がんば]ったからこそ、その結果[けっか]に意味[いみ]がある。",
-            "頑張[がんば]ったから、その結果[けっか]に意味[いみ]がある。",
-            "頑張[がんば]ったのに、その結果[けっか]に意味[いみ]がある。",
-            "頑張[がんば]ったけれど、その結果[けっか]に意味[いみ]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からこそ: 頑張[がんば]った + からこそ = precisely because (you) tried hard. 結果[けっか]に意味[いみ]がある = the result is meaningful. からこそ emphasizes that the effort is THE specific source of meaning."
-        },
-        {
-          "id": "kara-koso_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because I have experienced failure, I can give advice'?",
-          "japanese": null,
-          "choices": [
-            "失敗[しっぱい]を経験[けいけん]したからこそ、アドバイスができる。",
-            "失敗[しっぱい]を経験[けいけん]したから、アドバイスができる。",
-            "失敗[しっぱい]を経験[けいけん]したのに、アドバイスができる。",
-            "失敗[しっぱい]を経験[けいけん]したけれど、アドバイスができる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からこそ: 経験[けいけん]した + からこそ = precisely because (I) experienced. アドバイスができる = can give advice. からこそ singles out personal failure experience as THE enabling reason for giving advice."
-        },
-        {
-          "id": "kara-koso_q9",
-          "type": "usage",
-          "prompt": "からこそ — which sentence structure is MOST natural?",
-          "japanese": null,
-          "choices": [
-            "Y = negative result (から negated by こそ)",
-            "X (cause) + からこそ + Y (positive or emphatic result/revelation) — Y is often a surprising or counter-intuitive truth or a strong assertion",
-            "X (cause) + からこそ + Y = wishful thinking — and this holds in every register, formal or casual.",
-            "Only for rhetorical questions"
-          ],
-          "correctIndex": 1,
-          "explanation": "からこそ often presents surprising or counter-intuitive truths: 痛[いた]いからこそ生[い]きている証拠[しょうこ]だ (precisely because it hurts, it's proof I'm alive). Y often reveals why something apparently negative (X) actually leads to a valued or meaningful Y. The structure emphasizes the paradoxical or emphatic causal link."
-        },
-        {
-          "id": "kara-koso_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because it is rare, it is valuable'?",
-          "japanese": null,
-          "choices": [
-            "希少[きしょう]だからこそ、価値[かち]がある。",
-            "希少[きしょう]だから、価値[かち]がある。",
-            "希少[きしょう]なのに、価値[かち]がある。",
-            "希少[きしょう]でも、価値[かち]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + だ + からこそ: 希少[きしょう]だ + からこそ = precisely because it's rare. 価値[かち]がある = has value. からこそ singles out rarity as THE reason for value."
-        },
-        {
-          "id": "kara-koso_q11",
-          "type": "translation",
-          "prompt": "Which means 'Precisely because you are young, you should challenge yourself'?",
-          "japanese": null,
-          "choices": [
-            "若[わか]いからこそ、チャレンジすべきだ。",
-            "若[わか]いから、チャレンジすべきだ。",
-            "若[わか]いのに、チャレンジすべきだ。",
-            "若[わか]くても、チャレンジすべきだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "い-adj + からこそ: 若[わか]い + からこそ = precisely because you are young. チャレンジすべきだ = you should challenge yourself. からこそ makes youth THE specific reason for the exhortation."
-        },
-        {
-          "id": "kara-koso_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because I love music, I practice every day'?",
-          "japanese": null,
-          "choices": [
-            "音楽[おんがく]が好[す]きだからこそ、毎日[まいにち]練習[れんしゅう]する。",
-            "音楽[おんがく]が好[す]きだから、毎日[まいにち]練習[れんしゅう]する。",
-            "音楽[おんがく]が好[す]きなのに、毎日[まいにち]練習[れんしゅう]する。",
-            "音楽[おんがく]が好[す]きでも、毎日[まいにち]練習[れんしゅう]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Adj/copula + からこそ: 好[す]きだ + からこそ = precisely because (I) love. 毎日[まいにち]練習[れんしゅう]する = practice every day. からこそ makes love of music THE defining motivation for daily practice."
-        },
-        {
-          "id": "kara-koso_q13",
-          "type": "usage",
-          "prompt": "からこそ is often used to explain WHY something seemingly contradictory or paradoxical is true. Which example shows this?",
-          "japanese": null,
-          "choices": [
-            "暑[あつ]いから水[みず]を飲[の]む (because it's hot, drink water — simple causation, no paradox), with no exceptions in modern standard Japanese.",
-            "離[はな]れているからこそ、恋[こい]しくなる (precisely because we're apart, I miss you — separation causes longing; the apart-ness IS the reason for the longing)",
-            "寒[さむ]いから上着[うわぎ]を着[き]た (because it was cold, wore a jacket — simple causation)",
-            "疲[つか]れたから休[やす]んだ (because I was tired, I rested — simple causation)"
-          ],
-          "correctIndex": 1,
-          "explanation": "離[はな]れているからこそ、恋[こい]しくなる = precisely because we're apart, I miss you. This is the paradoxical use: the separation (which seems bad) is THE cause of the longing (revealing the depth of the relationship). からこそ highlights this non-obvious causal link."
-        },
-        {
-          "id": "kara-koso_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because there are obstacles, growth is possible'?",
-          "japanese": null,
-          "choices": [
-            "壁[かべ]があるからこそ、成長[せいちょう]できる。",
-            "壁[かべ]があるから、成長[せいちょう]できる。",
-            "壁[かべ]があるのに、成長[せいちょう]できる。",
-            "壁[かべ]があっても、成長[せいちょう]できる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + からこそ: ある + からこそ = precisely because there are. 成長[せいちょう]できる = growth is possible. からこそ reveals that obstacles are THE specific enabler of growth."
-        },
-        {
-          "id": "kara-koso_q15",
-          "type": "translation",
-          "prompt": "Which means 'Precisely because we are on the same team, I expect more from you'?",
-          "japanese": null,
-          "choices": [
-            "同[おな]じチームだからこそ、あなたに多[おお]くを期待[きたい]する。",
-            "同[おな]じチームだから、あなたに多[おお]くを期待[きたい]する。",
-            "同[おな]じチームなのに、あなたに多[おお]くを期待[きたい]する。",
-            "同[おな]じチームでも、あなたに多[おお]くを期待[きたい]する。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Noun + だ + からこそ: 同[おな]じチームだ + からこそ = precisely because we're on the same team. 多[おお]くを期待[きたい]する = I expect much from you. からこそ makes shared team membership THE reason for high expectations."
-        },
-        {
-          "id": "kara-koso_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because it is difficult, the achievement is great'?",
-          "japanese": null,
-          "choices": [
-            "困難[こんなん]だからこそ、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
-            "困難[こんなん]だから、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
-            "困難[こんなん]なのに、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
-            "困難[こんなん]でも、達成[たっせい]の喜[よろこ]びは大[おお]きい。"
-          ],
-          "correctIndex": 0,
-          "explanation": "な-adj + だ + からこそ: 困難[こんなん]だ + からこそ = precisely because it's difficult. 達成[たっせい]の喜[よろこ]びは大[おお]きい = the joy of achievement is great. からこそ connects difficulty to magnified joy."
-        },
-        {
-          "id": "kara-koso_q17",
-          "type": "usage",
-          "prompt": "Which particle in からこそ provides the emphasis?",
-          "japanese": null,
-          "choices": [
-            "から — the causal particle provides all the emphasis",
-            "こそ — the emphatic/focusing particle singles out X as the definitive cause",
-            "The combination creates a third meaning not present in either alone",
-            "Neither — it's just a fixed phrase with no grammatical analysis"
-          ],
-          "correctIndex": 1,
-          "explanation": "こそ is the emphatic particle: from + こそ (emphasis on the cause) = precisely because. から alone: neutral cause. こそ alone: emphasis (contrastive focus). Together: からこそ = the cause (から) is singled out as THE definitive reason (こそ). こそ is the grammatical driver of the emphatic meaning."
-        },
-        {
-          "id": "kara-koso_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because there is risk, there is also reward'?",
-          "japanese": null,
-          "choices": [
-            "リスクがあるからこそ、リターンもある。",
-            "リスクがあるから、リターンもある。",
-            "リスクがあるのに、リターンもある。",
-            "リスクがあっても、リターンもある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb dict-form + からこそ: ある + からこそ = precisely because there is risk. リターンもある = there is also reward. からこそ reveals that risk IS THE source of reward — classic financial wisdom."
-        },
-        {
-          "id": "kara-koso_q19",
-          "type": "translation",
-          "prompt": "Which means 'Precisely because I trust your ability, I am giving you this task'?",
-          "japanese": null,
-          "choices": [
-            "あなたの能力[のうりょく]を信頼[しんらい]しているからこそ、この仕事[しごと]を任[まか]せる。",
-            "あなたの能力[のうりょく]を信頼[しんらい]しているから、この仕事[しごと]を任[まか]せる。",
-            "あなたの能力[のうりょく]を信頼[しんらい]しているのに、この仕事[しごと]を任[まか]せる。",
-            "あなたの能力[のうりょく]を信頼[しんらい]しているから、この仕事[しごと]を任[まか]せない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb te-iru + からこそ: 信頼[しんらい]している + からこそ = precisely because (I) trust. この仕事[しごと]を任[まか]せる = am giving you this task. からこそ makes trust THE specific reason for delegation — a statement of confidence."
-        },
-        {
-          "id": "kara-koso_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'Precisely because I have studied hard, I feel confident about the exam'?",
-          "japanese": null,
-          "choices": [
-            "一生懸命[いっしょうけんめい]勉強[べんきょう]したからこそ、試験[しけん]に自信[じしん]がある。",
-            "一生懸命[いっしょうけんめい]勉強[べんきょう]したから、試験[しけん]に自信[じしん]がある。",
-            "一生懸命[いっしょうけんめい]勉強[べんきょう]したのに、試験[しけん]に自信[じしん]がある。",
-            "一生懸命[いっしょうけんめい]勉強[べんきょう]したけれど、試験[しけん]に自信[じしん]がある。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb past + からこそ: 勉強[べんきょう]した + からこそ = precisely because (I) studied hard. 試験[しけん]に自信[じしん]がある = feel confident about the exam. からこそ makes the hard study THE specific source of confidence."
-        }
-      ]
+     "japanese": "より良[よ]い未来[みらい]を作[つく]るべく、若[わか]い世代[せだい]が立[た]ち上[あ]がっています。",
+     "romaji": "Yori yoi mirai wo tsukuru beku, wakai sedai ga tachiagatte imasu.",
+     "english": "In order to create a better future, the younger generation is rising up."
     },
     {
-      "id": "uru-enai",
-      "name": "〜得[う]る / 〜得[え]ない (uru / enai) — can possibly / cannot possibly",
-      "shortDescription": "Expresses logical possibility or impossibility — whether something falls within the conceivable realm.",
-      "formation": "Verb stem (ます-stem) + 得る (uru/eru) / 得[え]ない (enai)",
-      "explanation": "得る (うる / える) and its negative 得[え]ない (えない) express logical possibility and impossibility — the realm of 'conceivable' versus 'unthinkable.' あり得る (ありうる / ありえる) means 'is possible / can happen'; あり得[え]ない (ありえない) means 'is impossible / unthinkable / cannot be.' The 得 comes from the classical verb 得る (to obtain / to be able to), so the underlying sense is 'can be obtained / attained' = 'is possible.' Crucially, this is about conceptual or logical possibility — not personal ability (for that, use できる). When you say そんなことはあり得[え]ない, you're saying 'such a thing cannot fall within the realm of possibility.'\n\nThe positive form appears in formal and academic writing (考[かんが]え得る可能性[かのうせい] — conceivable possibilities); the negative あり得[え]ない has broken into casual speech as an exclamation of disbelief or outrage — 'Unbelievable!' — though its formal written use remains distinctly different in register.\n\nReading note: the positive form can be read as うる (classical, more formal) or える (modern literary) — both are correct and you will encounter both; the negative is almost always えない in modern Japanese.",
-      "rules": [
-        "Verb stem + 得る (uru/eru) = it is possible that / can conceivably [happen]",
-        "Verb stem + 得[え]ない (enai) = it is impossible that / cannot possibly [happen]",
-        "Positive: read as うる (classical formal) or える (modern literary) — both valid",
-        "Negative 得[え]ない (えない): あり得[え]ない is now also used in casual speech as an exclamation of disbelief or outrage",
-        "Expresses conceptual / logical possibility — not personal ability (use できる for that)"
-      ],
-      "examples": [
-        {
-          "japanese": "現代[げんだい]の技術[ぎじゅつ]をもってしても、あり得[え]ない速度[そくど]です。",
-          "romaji": "Gendai no gijutsu wo motte shite mo, ari enai sokudo desu.",
-          "english": "Even with modern technology, it's an impossible speed."
-        },
-        {
-          "japanese": "そのような事態[じたい]も十分[じゅうぶん]に起[お]こり得[う]ると考[かんが]えて、備[そな]えておくべきです。",
-          "romaji": "Sono you na jitai mo juubun ni okori uru to kangaete, sonaete oku beki desu.",
-          "english": "You should prepare by considering that such a situation could very well occur."
-        },
-        {
-          "japanese": "あらゆる可能性[かのうせい]を考[かんが]え得[う]る限[かぎ]り列挙[れっきょ]してから、最善策[さいぜんさく]を選[えら]ぼう。",
-          "romaji": "Arayuru kanousei wo kangae uru kagiri rekkyo shite kara, saizensaku wo erabou.",
-          "english": "Let's list as many possibilities as can be conceived, then choose the best course."
-        },
-        {
-          "japanese": "彼[かれ]が裏切[うらぎ]るとは、到底[とうてい]あり得[え]ないことだと思[おも]っていました。",
-          "romaji": "Kare ga uragiru to wa, toutei ari enai koto da to omotte imashita.",
-          "english": "I thought it was absolutely impossible that he would betray us."
-        }
-      ],
-      "flashcardHeader": "〜得る / 〜得ない",
-      "flashcardAnswer": "Expresses logical possibility (can possibly happen) or impossibility (cannot possibly happen) — formal and literary.",
-      "practice": [
-        {
-          "id": "uru-enai_q1",
-          "type": "usage",
-          "prompt": "What does 〜得[え]る (uru/eru) mean?",
-          "japanese": null,
-          "choices": [
-            "cannot possibly",
-            "can possibly / is capable of — potential that something COULD happen (not necessarily that it will, but that it is within the realm of possibility)",
-            "must do",
-            "should do"
-          ],
-          "correctIndex": 1,
-          "explanation": "〜得[え]る (uru/eru) = can possibly / is able to. ありえる = it is possible (ある + 得[え]る). 起[お]こり得[え]ることだ = it's something that can happen. Expresses possibility or potentiality in a formal register."
-        },
-        {
-          "id": "uru-enai_q2",
-          "type": "construct",
-          "prompt": "Which correctly says 'That error could possibly occur'?",
-          "japanese": null,
-          "choices": [
-            "そのエラーは起[お]こり得[え]る。",
-            "そのエラーは起[お]これる。",
-            "そのエラーは起[お]こりうる。",
-            "そのエラーは起[お]こることができる。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]る: 起[お]こり + 得[え]る = can possibly occur. Or: 起[お]こり得[え]る (読[よ]み: おこりうる). Both 得[え]る (uru) and 得[え]る (eru) pronunciations are valid; written the same. Expresses that occurrence is within the range of possibility."
-        },
-        {
-          "id": "uru-enai_q3",
-          "type": "translation",
-          "prompt": "Which means 'Such a mistake cannot possibly happen'?",
-          "japanese": null,
-          "choices": [
-            "そのようなミスは起[お]こり得[え]ない。",
-            "そのようなミスは起[お]これない。",
-            "そのようなミスは起[お]こることができない。",
-            "そのようなミスは起[お]こらない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない: 起[お]こり + 得[え]ない = cannot possibly occur. 得[え]ない (enai) = negative of 得[え]る. Stronger than simply 'won't happen' — implies it is outside the realm of possibility."
-        },
-        {
-          "id": "uru-enai_q4",
-          "type": "construct",
-          "prompt": "Which correctly says 'That is a situation that can possibly arise in medicine'?",
-          "japanese": null,
-          "choices": [
-            "それは医療[いりょう]で起[お]こり得[え]る状況[じょうきょう]だ。",
-            "それは医療[いりょう]で起[お]これる状況[じょうきょう]だ。",
-            "それは医療[いりょう]で起[お]こり得[え]ない状況[じょうきょう]だ。",
-            "それは医療[いりょう]で起[お]こることができる状況[じょうきょう]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]る + noun: 起[お]こり得[え]る + 状況[じょうきょう] = a situation that can possibly arise. 得[え]る in attributive position modifying 状況[じょうきょう]. Formal potential expression."
-        },
-        {
-          "id": "uru-enai_q5",
-          "type": "usage",
-          "prompt": "得[え]る has TWO pronunciations: uru and eru. Which is correct?",
-          "japanese": null,
-          "choices": [
-            "Only eru (える) is correct",
-            "Only uru (うる) is correct",
-            "Both uru (うる) and eru (える) are correct — uru is classical/literary; eru is standard; both appear in formal contexts",
-            "Neither — 得[え]る is always read as とく — textbooks treat this as an absolute rule."
-          ],
-          "correctIndex": 2,
-          "explanation": "得[え]る has two readings: うる (uru — classical/literary: 考[かんが]えうる, 起[お]こりうる) and える (eru — modern standard: 考[かんが]えられる isn't the same, but 得[え]る = える in formal usage). Both forms appear in formal writing. あり得[え]る is common: ありうる or ありえる, both accepted."
-        },
-        {
-          "id": "uru-enai_q6",
-          "type": "construct",
-          "prompt": "Which correctly says 'A result that could possibly be achieved'?",
-          "japanese": null,
-          "choices": [
-            "達成[たっせい]し得[え]る結果[けっか]",
-            "達成[たっせい]できる結果[けっか]",
-            "達成[たっせい]されうる結果[けっか]",
-            "達成[たっせい]し得[え]ない結果[けっか]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]る + noun: 達成[たっせい]し + 得[え]る = achievable (can possibly achieve). 達成[たっせい]し得[え]る結果[けっか] = a result that can be achieved. 得[え]る here is attributive, modifying 結果[けっか]. Formal written usage."
-        },
-        {
-          "id": "uru-enai_q7",
-          "type": "translation",
-          "prompt": "Which means 'That explanation is not something that can possibly be accepted'?",
-          "japanese": null,
-          "choices": [
-            "その説明[せつめい]は受[う]け入[い]れ得[え]ないものだ。",
-            "その説明[せつめい]は受[う]け入[い]れられないものだ。",
-            "その説明[せつめい]は受[う]け入[い]れできないものだ。",
-            "その説明[せつめい]は受[う]け入[い]れないものだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない + noun: 受[う]け入[い]れ + 得[え]ない = cannot possibly accept. 受[う]け入[い]れ得[え]ないものだ = it's something that cannot be accepted. 得[え]ない emphasizes impossibility in principle, not just inability."
-        },
-        {
-          "id": "uru-enai_q8",
-          "type": "construct",
-          "prompt": "Which correctly says 'It is something that can possibly happen'?",
-          "japanese": null,
-          "choices": [
-            "あり得[え]ることだ。",
-            "あれることだ。",
-            "あることができる。",
-            "あり得[え]ないことだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ある + 得[え]る → あり得[え]る (arieru/ariuru) = can possibly exist / is possible. あり得[え]ることだ = it is something that is possible. Classic and very common use of 得[え]る in formal Japanese."
-        },
-        {
-          "id": "uru-enai_q9",
-          "type": "usage",
-          "prompt": "得[え]る (uru/eru) vs. られる (potential) — what's the difference?",
-          "japanese": null,
-          "choices": [
-            "They are identical",
-            "得[え]る is more formal/literary, often expresses 'theoretically possible in principle'; られる is neutral potential 'can do' in everyday usage",
-            "得[え]る is only for negative sentences, regardless of context or politeness level — this is true in both spoken and written Japanese.",
-            "られる is more formal"
-          ],
-          "correctIndex": 1,
-          "explanation": "得[え]る: formal/written — 考[かんが]え得[え]る (theoretically conceivable), 起[お]こり得[え]る (can possibly occur — in principle). られる: everyday potential — 考[かんが]えられる (can think of), 起[お]こられる (awkward; 起[お]こりうる better). 得[え]る expresses potentiality at a more abstract/theoretical level."
-        },
-        {
-          "id": "uru-enai_q10",
-          "type": "construct",
-          "prompt": "Which correctly says 'It is an unforeseeable risk'?",
-          "japanese": null,
-          "choices": [
-            "予見[よけん]し得[え]ないリスクだ。",
-            "予見[よけん]できないリスクだ。",
-            "予見[よけん]されないリスクだ。",
-            "予見[よけん]しないリスクだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない + noun: 予見[よけん]し + 得[え]ない = cannot possibly foresee. 予見[よけん]し得[え]ないリスク = an unforeseeable risk. 得[え]ない in attributive position modifying リスク. Formal, formal written."
-        },
-        {
-          "id": "uru-enai_q11",
-          "type": "translation",
-          "prompt": "Which means 'The maximum level achievable by human effort'?",
-          "japanese": null,
-          "choices": [
-            "人間[にんげん]の努力[どりょく]で達[たっ]し得[え]る最大限[さいだいげん]",
-            "人間[にんげん]の努力[どりょく]で達[たっ]することができる最大限[さいだいげん]",
-            "人間[にんげん]の努力[どりょく]で達[たっ]せられる最大限[さいだいげん]",
-            "人間[にんげん]の努力[どりょく]で達[たっ]する最大限[さいだいげん]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]る + noun: 達[たっ]し + 得[え]る = can possibly reach/achieve. 人間[にんげん]の努力[どりょく]で達[たっ]し得[え]る最大限[さいだいげん] = the maximum level that can be reached by human effort. 得[え]る modifies 最大限[さいだいげん] attributively."
-        },
-        {
-          "id": "uru-enai_q12",
-          "type": "construct",
-          "prompt": "Which correctly says 'It is a completely unbelievable story'?",
-          "japanese": null,
-          "choices": [
-            "信[しん]じ得[え]ない話[はなし]だ。",
-            "信[しん]じられない話[はなし]だ。",
-            "信[しん]じできない話[はなし]だ。",
-            "信[しん]じない話[はなし]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない + noun: 信[しん]じ + 得[え]ない = cannot possibly believe. 信[しん]じ得[え]ない話[はなし]だ = it's an unbelievable story. Both 信[しん]じ得[え]ない (formal) and 信[しん]じられない (everyday) are correct; 得[え]ない is more formal."
-        },
-        {
-          "id": "uru-enai_q13",
-          "type": "usage",
-          "prompt": "あり得[え]ない (arienaい) has become a common INFORMAL expression. What does it mean?",
-          "japanese": null,
-          "choices": [
-            "It is possible",
-            "Impossible! / No way! / That can't be! — informal strong surprise or disbelief (often written in hiragana: ありえない in casual contexts)",
-            "Maybe",
-            "Probably"
-          ],
-          "correctIndex": 1,
-          "explanation": "あり得[え]ない (ありえない) = 'no way!' / 'that's impossible!' In informal use, it's an exclamation of disbelief: ありえない、そんなことが！= no way, that can't be! This casual use is very common in everyday Japanese, though the grammar originates from the formal 得[え]ない."
-        },
-        {
-          "id": "uru-enai_q14",
-          "type": "construct",
-          "prompt": "Which correctly says 'There could possibly be a solution to this problem'?",
-          "japanese": null,
-          "choices": [
-            "この問題[もんだい]には解決策[かいけつさく]があり得[え]る。",
-            "この問題[もんだい]には解決策[かいけつさく]がある。",
-            "この問題[もんだい]には解決策[かいけつさく]があれる。",
-            "この問題[もんだい]には解決策[かいけつさく]がありえない。"
-          ],
-          "correctIndex": 0,
-          "explanation": "ある + 得[え]る → あり得[え]る: 解決策[かいけつさく]があり得[え]る = there could possibly be a solution. あり得[え]る expresses that a solution is within the realm of possibility — not certain, but conceivable."
-        },
-        {
-          "id": "uru-enai_q15",
-          "type": "translation",
-          "prompt": "Which means 'It is a risk that cannot be ignored'?",
-          "japanese": null,
-          "choices": [
-            "無視[むし]し得[え]ないリスクだ。",
-            "無視[むし]できないリスクだ。",
-            "無視[むし]されないリスクだ。",
-            "無視[むし]しないリスクだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない + noun: 無視[むし]し + 得[え]ない = cannot possibly ignore. 無視[むし]し得[え]ないリスク = a risk that cannot be ignored. 得[え]ない expresses principled impossibility of ignoring."
-        },
-        {
-          "id": "uru-enai_q16",
-          "type": "construct",
-          "prompt": "Which correctly says 'The highest value that can possibly be obtained'?",
-          "japanese": null,
-          "choices": [
-            "得[え]られ得[え]る最高値[さいたかね]",
-            "得[え]ることができる最高値[さいたかね]",
-            "達[たっ]し得[え]る最高値[さいたかね]",
-            "得[え]る最高値[さいたかね]"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]る: 得[え]られ + 得[え]る = can possibly be obtained. 得[え]られ得[え]る最高値[さいたかね] = the highest value that can be obtained. Note: 得[え]られ (passive/potential of 得[え]る) + 得[え]る = layered potential, meaning 'obtainable.' Formal written."
-        },
-        {
-          "id": "uru-enai_q17",
-          "type": "usage",
-          "prompt": "得[え]る (uru/eru) is attached to what verb form?",
-          "japanese": null,
-          "choices": [
-            "Verb dictionary form + 得[え]る: 食[た]べる + 得[え]る (incorrect — sounds odd)",
-            "Verb MASU-STEM + 得[え]る: 食[た]べ + 得[え]る = 食[た]べ得[え]る (can possibly eat — correct formal form)",
-            "Verb past + 得[え]る: 食[た]べた + 得[え]る (incorrect)",
-            "Verb te-form + 得[え]る: 食[た]べて + 得[え]る (incorrect)"
-          ],
-          "correctIndex": 1,
-          "explanation": "Verb MASU-STEM + 得[え]る: 食[た]べ + 得[え]る = 食[た]べ得[え]る (can possibly eat); 起[お]こり + 得[え]る = 起[お]こり得[え]る (can possibly occur); 考[かんが]え + 得[え]る = 考[かんが]え得[え]る (conceivable). The masu-stem is required. This is 得[え]る as a supplementary verb."
-        },
-        {
-          "id": "uru-enai_q18",
-          "type": "construct",
-          "prompt": "Which correctly says 'It is the best result one could possibly hope for'?",
-          "japanese": null,
-          "choices": [
-            "これ以上[いじょう]望[のぞ]み得[え]ない最高[さいこう]の結果[けっか]だ。",
-            "これ以上[いじょう]望[のぞ]める最高[さいこう]の結果[けっか]だ。",
-            "これ以上[いじょう]望[のぞ]む最高[さいこう]の結果[けっか]だ。",
-            "これ以上[いじょう]望[のぞ]まない最高[さいこう]の結果[けっか]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない: 望[のぞ]み + 得[え]ない = cannot possibly wish for more. これ以上[いじょう]望[のぞ]み得[え]ない最高[さいこう]の結果[けっか] = the best result one cannot wish for more of = the highest possible result. 得[え]ない + maximality expression = 'as good as it can possibly get.'"
-        },
-        {
-          "id": "uru-enai_q19",
-          "type": "translation",
-          "prompt": "Which means 'A mistake that could not possibly be overlooked'?",
-          "japanese": null,
-          "choices": [
-            "見過[みす]ごし得[え]ないミスだ。",
-            "見過[みす]ごせないミスだ。",
-            "見過[みす]ごされないミスだ。",
-            "見過[みす]ごさないミスだ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]ない + noun: 見過[みす]ごし + 得[え]ない = cannot possibly overlook. 見過[みす]ごし得[え]ないミス = a mistake that cannot be overlooked. 得[え]ない expresses the principled impossibility of ignoring the error."
-        },
-        {
-          "id": "uru-enai_q20",
-          "type": "construct",
-          "prompt": "Which correctly says 'It is an unprecedented event'?",
-          "japanese": null,
-          "choices": [
-            "考[かんが]え得[え]なかった出来事[できごと]だ。",
-            "考[かんが]えられなかった出来事[できごと]だ。",
-            "考[かんが]えできなかった出来事[できごと]だ。",
-            "考[かんが]えない出来事[できごと]だ。"
-          ],
-          "correctIndex": 0,
-          "explanation": "Verb masu-stem + 得[え]なかった (past negative): 考[かんが]え + 得[え]なかった = could not possibly have imagined. 考[かんが]え得[え]なかった出来事[できごと] = an event that could not have been imagined = unprecedented. 得[え]なかった is the past negative of 得[え]る."
-        }
-      ]
+     "japanese": "問題[もんだい]を解決[かいけつ]すべく、専門家[せんもんか]チームが派遣[はけん]されました。",
+     "romaji": "Mondai wo kaiketsu subeku, senmonka chiimu ga haken saremashita.",
+     "english": "In order to resolve the problem, a team of experts was dispatched."
+    },
+    {
+     "japanese": "真実[しんじつ]を究明[きゅうめい]すべく、長年[ながねん]にわたる調査[ちょうさ]が続[つづ]けられてきました。",
+     "romaji": "Shinjitsu wo kyuumei subeku, naganen ni wataru chousa ga tsuzukerarete kimashita.",
+     "english": "In order to investigate the truth, research spanning many years has continued."
     }
-  ],
-  "vocab": [
+   ],
+   "flashcardHeader": "〜べく",
+   "flashcardAnswer": "Formal, literary purpose expression meaning 'in order to' — the elevated classical equivalent of ために, used in official writing and speech.",
+   "practice": [
     {
-      "id": "ch45_v01",
-      "partOfSpeech": "conjunction",
-      "kanji": "及び",
-      "kana": "および",
-      "romaji": "oyobi",
-      "definition": "and; as well as"
+     "id": "beku_q1",
+     "type": "usage",
+     "prompt": "What does 〜べく mean?",
+     "japanese": null,
+     "choices": [
+      "because of / therefore",
+      "in order to / with the intention of (formal literary purpose) — verb + べく + action to achieve the goal",
+      "although / despite",
+      "as a result of"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜べく = in order to / with the intention of. 目標[もくひょう]を達成[たっせい]すべく、懸命[けんめい]に働[はたら]いた = worked hard in order to achieve the goal. べく is the literary/formal purpose form — used in serious writing, not casual conversation."
     },
     {
-      "id": "ch45_v02",
-      "partOfSpeech": "conjunction",
-      "kanji": "並びに",
-      "kana": "ならびに",
-      "romaji": "narabini",
-      "definition": "and; together with"
+     "id": "beku_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'He traveled to Japan in order to study the language'?",
+     "japanese": null,
+     "choices": [
+      "言語[げんご]を学[まな]ぶべく、彼[かれ]は日本[にほん]へ渡[わた]った。",
+      "言語[げんご]を学[まな]ぶために、彼[かれ]は日本[にほん]へ渡[わた]った。",
+      "言語[げんご]を学[まな]ぼうとして、彼[かれ]は日本[にほん]へ渡[わた]った。",
+      "言語[げんご]を学[まな]びたくて、彼[かれ]は日本[にほん]へ渡[わた]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 学[まな]ぶ + べく = in order to learn. 日本[にほん]へ渡[わた]った = traveled to Japan. べく is the formal purpose connector — more literary than ために."
     },
     {
-      "id": "ch45_v03",
-      "partOfSpeech": "conjunction",
-      "kanji": "且つ",
-      "kana": "かつ",
-      "romaji": "katsu",
-      "definition": "moreover; and"
+     "id": "beku_q3",
+     "type": "translation",
+     "prompt": "Which means 'She entered the competition in order to test her strength'?",
+     "japanese": null,
+     "choices": [
+      "実力[じつりょく]を試[ため]すべく、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
+      "実力[じつりょく]を試[ため]すために、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
+      "実力[じつりょく]を試[ため]そうとして、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。",
+      "実力[じつりょく]を試[ため]したくて、彼女[かのじょ]は大会[たいかい]に挑[ちょう]んだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 試[ため]す + べく = in order to test. 大会[たいかい]に挑[ちょう]んだ = entered the competition. べく marks the purpose in a formal, literary register."
     },
     {
-      "id": "ch45_v04",
-      "partOfSpeech": "conjunction",
-      "kanji": "但し",
-      "kana": "ただし",
-      "romaji": "tadashi",
-      "definition": "however; provided that"
+     "id": "beku_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to protect the people, the soldiers fought'?",
+     "japanese": null,
+     "choices": [
+      "人々[ひとびと]を守[まも]るべく、兵士[へいし]たちは戦[たたか]った。",
+      "人々[ひとびと]を守[まも]るために、兵士[へいし]たちは戦[たたか]った。",
+      "人々[ひとびと]を守[まも]ろうとして、兵士[へいし]たちは戦[たたか]った。",
+      "人々[ひとびと]を守[まも]りたくて、兵士[へいし]たちは戦[たたか]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 守[まも]る + べく = in order to protect. 兵士[へいし]たちは戦[たたか]った = soldiers fought. べく lends a heroic, formal tone — appropriate for military or literary contexts."
     },
     {
-      "id": "ch45_v05",
-      "partOfSpeech": "conjunction",
-      "kanji": "尚",
-      "kana": "なお",
-      "romaji": "nao",
-      "definition": "furthermore; still"
+     "id": "beku_q5",
+     "type": "usage",
+     "prompt": "What is special about する (to do) + べく?",
+     "japanese": null,
+     "choices": [
+      "するべく is the only correct form — textbooks treat this as an absolute rule, regardless of context or politeness level.",
+      "する → すべく (irregular): the expected するべく exists but すべく is the classical form and commonly used in formal writing",
+      "するべく is incorrect",
+      "べく cannot follow する"
+     ],
+     "correctIndex": 1,
+     "explanation": "する + べく: するべく (regular) or すべく (classical/formal). すべく is the contracted classical form. Both appear in formal writing, but すべく is particularly associated with literary and classical Japanese. 貢献[こうけん]すべく = in order to contribute."
     },
     {
-      "id": "ch45_v06",
-      "partOfSpeech": "conjunction",
-      "kanji": "即ち",
-      "kana": "すなわち",
-      "romaji": "sunawachi",
-      "definition": "namely; that is"
+     "id": "beku_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'The scientist conducted experiments in order to verify the hypothesis'?",
+     "japanese": null,
+     "choices": [
+      "仮説[かせつ]を証明[しょうめい]すべく、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+      "仮説[かせつ]を証明[しょうめい]するために、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+      "仮説[かせつ]を証明[しょうめい]しようとして、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。",
+      "仮説[かせつ]を証明[しょうめい]したくて、科学者[かがくしゃ]は実験[じっけん]を行[おこな]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 証明[しょうめい]する → 証明[しょうめい]すべく = in order to prove. 実験[じっけん]を行[おこな]った = conducted experiments. べく in scientific contexts sounds formal and purposeful."
     },
     {
-      "id": "ch45_v07",
-      "partOfSpeech": "conjunction",
-      "kanji": "従って",
-      "kana": "したがって",
-      "romaji": "shitagatte",
-      "definition": "therefore; accordingly"
+     "id": "beku_q7",
+     "type": "translation",
+     "prompt": "Which means 'In order to answer society's expectations, she continued to research'?",
+     "japanese": null,
+     "choices": [
+      "社会[しゃかい]の期待[きたい]に応[こた]えるべく、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
+      "社会[しゃかい]の期待[きたい]に応[こた]えるために、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
+      "社会[しゃかい]の期待[きたい]に応[こた]えようとして、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。",
+      "社会[しゃかい]の期待[きたい]に応[こた]えたくて、彼女[かのじょ]は研究[けんきゅう]を続[つづ]けた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 応[こた]える + べく = in order to answer/meet. 研究[けんきゅう]を続[つづ]けた = continued to research. べく expresses purposeful scholarly dedication."
     },
     {
-      "id": "ch45_v08",
-      "partOfSpeech": "conjunction",
-      "kanji": "故に",
-      "kana": "ゆえに",
-      "romaji": "yueni",
-      "definition": "therefore; hence"
+     "id": "beku_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to contribute to society, he entered politics'?",
+     "japanese": null,
+     "choices": [
+      "社会[しゃかい]に貢献[こうけん]すべく、彼[かれ]は政界[せいかい]に入[はい]った。",
+      "社会[しゃかい]に貢献[こうけん]するために、彼[かれ]は政界[せいかい]に入[はい]った。",
+      "社会[しゃかい]に貢献[こうけん]しようとして、彼[かれ]は政界[せいかい]に入[はい]った。",
+      "社会[しゃかい]に貢献[こうけん]したくて、彼[かれ]は政界[せいかい]に入[はい]った。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 貢献[こうけん]すべく = in order to contribute. 政界[せいかい]に入[はい]った = entered politics. すべく (classical form of するべく) sounds appropriately formal for a life-purpose statement."
     },
     {
-      "id": "ch45_v09",
-      "partOfSpeech": "noun",
-      "kanji": "上記",
-      "kana": "じょうき",
-      "romaji": "jouki",
-      "definition": "the above (statement)"
+     "id": "beku_q9",
+     "type": "usage",
+     "prompt": "べく vs. ために — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "べく is more literary/formal (used in written Japanese, formal speeches); ために is more neutral and used in both spoken and written contexts",
+      "べく is more casual",
+      "ために is only for negative purposes, regardless of context or politeness level — this is true in both spoken and written Japanese."
+     ],
+     "correctIndex": 1,
+     "explanation": "べく: literary/formal purpose: 夢[ゆめ]を実現[じつげん]すべく努力[どりょく]した (worked hard in order to realize the dream — formal). ために: neutral purpose: 夢[ゆめ]を実現[じつげん]するために努力[どりょく]した (worked hard to realize the dream — everyday usage). Same meaning, different register."
     },
     {
-      "id": "ch45_v10",
-      "partOfSpeech": "noun",
-      "kanji": "下記",
-      "kana": "かき",
-      "romaji": "kaki",
-      "definition": "the following"
+     "id": "beku_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to seek the truth, the journalist investigated tirelessly'?",
+     "japanese": null,
+     "choices": [
+      "真実[しんじつ]を追[お]い求[もと]めるべく、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
+      "真実[しんじつ]を追[お]い求[もと]めるために、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
+      "真実[しんじつ]を追[お]い求[もと]めようとして、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。",
+      "真実[しんじつ]を追[お]い求[もと]めたくて、記者[きしゃ]は精力的[せいりょくてき]に取材[しゅざい]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 追[お]い求[もと]める + べく = in order to seek. 精力的[せいりょくてき]に取材[しゅざい]した = investigated tirelessly. べく gives the journalist's mission a formal, literary quality."
     },
     {
-      "id": "ch45_v11",
-      "partOfSpeech": "noun",
-      "kanji": "該当",
-      "kana": "がいとう",
-      "romaji": "gaitou",
-      "definition": "corresponding; being applicable"
+     "id": "beku_q11",
+     "type": "translation",
+     "prompt": "Which means 'In order to leave a name in history, he dedicated his entire life'?",
+     "japanese": null,
+     "choices": [
+      "歴史[れきし]に名[な]を残[のこ]すべく、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+      "歴史[れきし]に名[な]を残[のこ]すために、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+      "歴史[れきし]に名[な]を残[のこ]そうとして、彼[かれ]は一生[いっしょう]を捧[ささ]げた。",
+      "歴史[れきし]に名[な]を残[のこ]したくて、彼[かれ]は一生[いっしょう]を捧[ささ]げた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 残[のこ]す + べく = in order to leave. 一生[いっしょう]を捧[ささ]げた = dedicated his entire life. べく suits this grand, literary life-purpose statement perfectly."
     },
     {
-      "id": "ch45_v12",
-      "partOfSpeech": "pre-noun",
-      "kanji": "当該",
-      "kana": "とうがい",
-      "romaji": "tougai",
-      "definition": "the said; the relevant"
+     "id": "beku_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to rescue the stranded passengers, rescue teams were dispatched'?",
+     "japanese": null,
+     "choices": [
+      "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]すべく、救助隊[きゅうじょたい]が派遣[はけん]された。",
+      "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]するために、救助隊[きゅうじょたい]が派遣[はけん]された。",
+      "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]しようとして、救助隊[きゅうじょたい]が派遣[はけん]された。",
+      "孤立[こりつ]した乗客[じょうきゃく]を救出[きゅうしゅつ]したくて、救助隊[きゅうじょたい]が派遣[はけん]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 救出[きゅうしゅつ]すべく = in order to rescue. 救助隊[きゅうじょたい]が派遣[はけん]された = rescue teams were dispatched. すべく in an emergency/official context sounds appropriately serious."
     },
     {
-      "id": "ch45_v13",
-      "partOfSpeech": "noun",
-      "kanji": "各位",
-      "kana": "かくい",
-      "romaji": "kakui",
-      "definition": "to all concerned; everyone"
+     "id": "beku_q13",
+     "type": "usage",
+     "prompt": "べく is found primarily in which contexts?",
+     "japanese": null,
+     "choices": [
+      "Casual everyday conversation",
+      "Formal written language: news articles, official documents, literary works, formal speeches",
+      "Only classical Japanese texts — this is true in both spoken and written Japanese.",
+      "Online chat and social media"
+     ],
+     "correctIndex": 1,
+     "explanation": "べく is a literary/formal purpose form. It appears in: formal news reporting (被災者[ひさいしゃ]を支援[しえん]すべく), historical/literary narratives, official documents, formal speeches. In everyday speech, ために or ように are used instead."
     },
     {
-      "id": "ch45_v14",
-      "partOfSpeech": "noun",
-      "kanji": "貴社",
-      "kana": "きしゃ",
-      "romaji": "kisha",
-      "definition": "your company (honorific)"
+     "id": "beku_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to promote international exchange, a new program was launched'?",
+     "japanese": null,
+     "choices": [
+      "国際交流[こくさいこうりゅう]を促進[そくしん]すべく、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
+      "国際交流[こくさいこうりゅう]を促進[そくしん]するために、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
+      "国際交流[こくさいこうりゅう]を促進[そくしん]しようとして、新[あら]たなプログラムが立[た]ち上[あ]げられた。",
+      "国際交流[こくさいこうりゅう]を促進[そくしん]したくて、新[あら]たなプログラムが立[た]ち上[あ]げられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 促進[そくしん]すべく = in order to promote. 新[あら]たなプログラムが立[た]ち上[あ]げられた = a new program was launched. Formal institutional purpose expressed with べく."
     },
     {
-      "id": "ch45_v15",
-      "partOfSpeech": "noun",
-      "kanji": "弊社",
-      "kana": "へいしゃ",
-      "romaji": "heisha",
-      "definition": "our company (humble)"
+     "id": "beku_q15",
+     "type": "translation",
+     "prompt": "Which means 'In order to honor the fallen soldiers, a memorial was built'?",
+     "japanese": null,
+     "choices": [
+      "戦死者[せんししゃ]を追悼[ついとう]すべく、記念碑[きねんひ]が建[た]てられた。",
+      "戦死者[せんししゃ]を追悼[ついとう]するために、記念碑[きねんひ]が建[た]てられた。",
+      "戦死者[せんししゃ]を追悼[ついとう]しようとして、記念碑[きねんひ]が建[た]てられた。",
+      "戦死者[せんししゃ]を追悼[ついとう]したくて、記念碑[きねんひ]が建[た]てられた。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 追悼[ついとう]すべく = in order to honor/memorialize. 記念碑[きねんひ]が建[た]てられた = a memorial was built. べく lends an appropriately solemn, formal tone to this purpose."
     },
     {
-      "id": "ch45_v16",
-      "partOfSpeech": "noun",
-      "kanji": "恐縮",
-      "kana": "きょうしゅく",
-      "romaji": "kyoushuku",
-      "definition": "feeling obliged; much obliged"
+     "id": "beku_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to improve the environment, the city introduced new policies'?",
+     "japanese": null,
+     "choices": [
+      "環境[かんきょう]を改善[かいぜん]すべく、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
+      "環境[かんきょう]を改善[かいぜん]するために、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
+      "環境[かんきょう]を改善[かいぜん]しようとして、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。",
+      "環境[かんきょう]を改善[かいぜん]したくて、市[し]は新[あたら]しい政策[せいさく]を導入[どうにゅう]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 改善[かいぜん]すべく = in order to improve. 新[あたら]しい政策[せいさく]を導入[どうにゅう]した = introduced new policies. べく in official/governmental context sounds formally purposeful."
     },
     {
-      "id": "ch45_v17",
-      "partOfSpeech": "noun",
-      "kanji": "遺憾",
-      "kana": "いかん",
-      "romaji": "ikan",
-      "definition": "regret; being regrettable"
+     "id": "beku_q17",
+     "type": "usage",
+     "prompt": "Which formation is CORRECT for べく?",
+     "japanese": null,
+     "choices": [
+      "Verb past + べく: 食[た]べたべく (incorrect)",
+      "Verb dict-form + べく: 食[た]べるべく / するべく or すべく (correct)",
+      "Verb te-form + べく: 食[た]べてべく (incorrect)",
+      "Verb masu-stem + べく: 食[た]べべく (incorrect)"
+     ],
+     "correctIndex": 1,
+     "explanation": "Verb DICTIONARY FORM + べく: 食[た]べる + べく = in order to eat. Exception: する → するべく OR すべく (both correct, すべく is more classical). Past/te/masu forms cannot precede べく."
     },
     {
-      "id": "ch45_v18",
-      "partOfSpeech": "noun",
-      "kanji": "履行",
-      "kana": "りこう",
-      "romaji": "rikou",
-      "definition": "fulfillment; performance"
+     "id": "beku_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to achieve world peace, many leaders gathered'?",
+     "japanese": null,
+     "choices": [
+      "世界平和[せかいへいわ]を実現[じつげん]すべく、多[おお]くのリーダーが集[あつ]まった。",
+      "世界平和[せかいへいわ]を実現[じつげん]するために、多[おお]くのリーダーが集[あつ]まった。",
+      "世界平和[せかいへいわ]を実現[じつげん]しようとして、多[おお]くのリーダーが集[あつ]まった。",
+      "世界平和[せかいへいわ]を実現[じつげん]したくて、多[おお]くのリーダーが集[あつ]まった。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 実現[じつげん]すべく = in order to realize/achieve. 多[おお]くのリーダーが集[あつ]まった = many leaders gathered. べく suits this grand diplomatic purpose."
     },
     {
-      "id": "ch45_v19",
-      "partOfSpeech": "noun",
-      "kanji": "締結",
-      "kana": "ていけつ",
-      "romaji": "teiketsu",
-      "definition": "conclusion (of a contract)"
+     "id": "beku_q19",
+     "type": "translation",
+     "prompt": "Which means 'In order to acquire the necessary skills, she enrolled in training'?",
+     "japanese": null,
+     "choices": [
+      "必要[ひつよう]なスキルを習得[しゅうとく]すべく、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
+      "必要[ひつよう]なスキルを習得[しゅうとく]するために、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
+      "必要[ひつよう]なスキルを習得[しゅうとく]しようとして、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。",
+      "必要[ひつよう]なスキルを習得[しゅうとく]したくて、彼女[かのじょ]は研修[けんしゅう]に参加[さんか]した。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form (する→す) + べく: 習得[しゅうとく]すべく = in order to acquire. 研修[けんしゅう]に参加[さんか]した = enrolled in training. べく in a professional development context sounds formally purposeful."
     },
     {
-      "id": "ch45_v20",
-      "partOfSpeech": "noun",
-      "kanji": "施行",
-      "kana": "しこう",
-      "romaji": "shikou",
-      "definition": "enforcement; putting into effect"
-    },
-    {
-      "id": "ch45_v21",
-      "partOfSpeech": "noun",
-      "kanji": "遵守",
-      "kana": "じゅんしゅ",
-      "romaji": "junshu",
-      "definition": "compliance; observance"
-    },
-    {
-      "id": "ch45_v22",
-      "partOfSpeech": "noun",
-      "kanji": "免除",
-      "kana": "めんじょ",
-      "romaji": "menjo",
-      "definition": "exemption; waiver"
-    },
-    {
-      "id": "ch45_v23",
-      "partOfSpeech": "noun",
-      "kanji": "猶予",
-      "kana": "ゆうよ",
-      "romaji": "yuuyo",
-      "definition": "grace period; postponement"
-    },
-    {
-      "id": "ch45_v24",
-      "partOfSpeech": "verb",
-      "kanji": "承る",
-      "kana": "うけたまわる",
-      "romaji": "uketamawaru",
-      "definition": "to hear; to undertake (humble)"
-    },
-    {
-      "id": "ch45_v25",
-      "partOfSpeech": "verb",
-      "kanji": "賜る",
-      "kana": "たまわる",
-      "romaji": "tamawaru",
-      "definition": "to be granted (humble)"
-    },
-    {
-      "id": "ch45_v26",
-      "partOfSpeech": "verb",
-      "kanji": "存じる",
-      "kana": "ぞんじる",
-      "romaji": "zonjiru",
-      "definition": "to know; to think (humble)"
-    },
-    {
-      "id": "ch45_v27",
-      "partOfSpeech": "verb",
-      "kanji": "申す",
-      "kana": "もうす",
-      "romaji": "mousu",
-      "definition": "to say (humble)"
-    },
-    {
-      "id": "ch45_v28",
-      "partOfSpeech": "verb",
-      "kanji": "致す",
-      "kana": "いたす",
-      "romaji": "itasu",
-      "definition": "to do (humble)"
-    },
-    {
-      "id": "ch45_v29",
-      "partOfSpeech": "verb",
-      "kanji": "伺う",
-      "kana": "うかがう",
-      "romaji": "ukagau",
-      "definition": "to visit; to ask (humble)"
-    },
-    {
-      "id": "ch45_v30",
-      "partOfSpeech": "noun",
-      "kanji": "拝見",
-      "kana": "はいけん",
-      "romaji": "haiken",
-      "definition": "seeing; looking (humble)"
-    },
-    {
-      "id": "ch45_v31",
-      "partOfSpeech": "noun",
-      "kanji": "拝借",
-      "kana": "はいしゃく",
-      "romaji": "haishaku",
-      "definition": "borrowing (humble)"
-    },
-    {
-      "id": "ch45_v32",
-      "partOfSpeech": "adverb",
-      "kanji": "謹んで",
-      "kana": "つつしんで",
-      "romaji": "tsutsushinde",
-      "definition": "respectfully; humbly"
-    },
-    {
-      "id": "ch45_v33",
-      "partOfSpeech": "na-adjective",
-      "kanji": "速やか",
-      "kana": "すみやか",
-      "romaji": "sumiyaka",
-      "definition": "prompt; swift"
-    },
-    {
-      "id": "ch45_v34",
-      "partOfSpeech": "na-adjective",
-      "kanji": "円滑",
-      "kana": "えんかつ",
-      "romaji": "enkatsu",
-      "definition": "smooth; harmonious"
-    },
-    {
-      "id": "ch45_v35",
-      "partOfSpeech": "na-adjective",
-      "kanji": "適宜",
-      "kana": "てきぎ",
-      "romaji": "tekigi",
-      "definition": "as appropriate; suitable"
-    },
-    {
-      "id": "ch45_v36",
-      "partOfSpeech": "adverb",
-      "kanji": "随時",
-      "kana": "ずいじ",
-      "romaji": "zuiji",
-      "definition": "at any time; as needed"
-    },
-    {
-      "id": "ch45_v37",
-      "partOfSpeech": "adverb",
-      "kanji": "別途",
-      "kana": "べっと",
-      "romaji": "betto",
-      "definition": "separately"
-    },
-    {
-      "id": "ch45_v38",
-      "partOfSpeech": "na-adjective",
-      "kanji": "一律",
-      "kana": "いちりつ",
-      "romaji": "ichiritsu",
-      "definition": "uniform; across the board"
-    },
-    {
-      "id": "ch45_v39",
-      "partOfSpeech": "adverb",
-      "kanji": "概ね",
-      "kana": "おおむね",
-      "romaji": "oomune",
-      "definition": "generally; mostly"
-    },
-    {
-      "id": "ch45_v40",
-      "partOfSpeech": "noun",
-      "kanji": "若干",
-      "kana": "じゃっかん",
-      "romaji": "jakkan",
-      "definition": "some; a few; slightly"
+     "id": "beku_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'In order to meet the needs of users, the app was updated'?",
+     "japanese": null,
+     "choices": [
+      "ユーザーのニーズに応[こた]えるべく、アプリが更新[こうしん]された。",
+      "ユーザーのニーズに応[こた]えるために、アプリが更新[こうしん]された。",
+      "ユーザーのニーズに応[こた]えようとして、アプリが更新[こうしん]された。",
+      "ユーザーのニーズに応[こた]えたくて、アプリが更新[こうしん]された。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + べく: 応[こた]える + べく = in order to meet/answer. アプリが更新[こうしん]された = the app was updated. べく in a tech/product context gives a formal, purposeful tone to the update announcement."
     }
-  ],
-  "kanji": [
+   ]
+  },
+  {
+   "id": "kara-koso",
+   "name": "〜からこそ (kara koso) — precisely because / exactly because",
+   "shortDescription": "Emphasizes that the stated reason is the specific, essential, exclusive cause — こそ makes it irreplaceable.",
+   "formation": "Plain form / Noun + だ + からこそ",
+   "explanation": "からこそ supercharges the ordinary cause-marker から with こそ — the emphatic particle that says 'it is precisely this, and this alone, that matters.' The combined effect: the stated reason is not just one factor among many, but the essential, defining, exclusive cause. 信頼[しんらい]しているからこそ、正直[しょうじき]に言[い]えるのです means 'It is precisely because I trust you that I can speak honestly' — without the trust, the honesty would not exist.\n\nThis pattern is powerful because it so often explains seemingly contradictory behavior: why does a parent scold a child harshly? Precisely because they love them. Why does someone say painful truths out loud? Precisely because they care. からこそ frames the surprising as inevitable once you understand the underlying reason.\n\nThe こそ element adds exclusivity — this (and only this) is the true reason. You will encounter this pattern most often in formal speeches, sincere personal declarations, and persuasive writing where the speaker wants to reveal the real, essential logic beneath a surface contradiction.",
+   "rules": [
+    "Plain form / Noun + だ + からこそ = precisely because / exactly because (emphatic exclusive cause)",
+    "こそ adds exclusivity: this is the one essential reason — not just a reason, but the reason",
+    "Often used to explain seemingly contradictory or counterintuitive behavior",
+    "The emphasis frequently reveals what lies beneath a surface contradiction (doing X because of Y, not despite Y)",
+    "Common in formal speeches, persuasive argument, and sincere personal explanations"
+   ],
+   "examples": [
     {
-      "char": "慰",
-      "word": "慰める",
-      "reading": "なぐさめる",
-      "meaning": "to console, comfort"
+     "japanese": "難[むずか]しいからこそ、やりがいがあるんです。",
+     "romaji": "Muzukashii kara koso, yarigai ga aru n desu.",
+     "english": "It is precisely because it is difficult that it is worth doing."
     },
     {
-      "char": "憤",
-      "word": "憤り",
-      "reading": "いきどおり",
-      "meaning": "resentment, anger"
+     "japanese": "あなたを信頼[しんらい]しているからこそ、正直[しょうじき]に言[い]えるのです。",
+     "romaji": "Anata wo shinrai shite iru kara koso, shoujiki ni ieru no desu.",
+     "english": "It is precisely because I trust you that I can be honest with you."
     },
     {
-      "char": "顎",
-      "word": "顎",
-      "reading": "あご",
-      "meaning": "jaw, chin"
+     "japanese": "失敗[しっぱい]を経験[けいけん]したからこそ、成功[せいこう]の喜[よろこ]びが分[わ]かるのでしょう。",
+     "romaji": "Shippai wo keiken shita kara koso, seikou no yorokobi ga wakaru no deshou.",
+     "english": "It is precisely because you have experienced failure that you understand the joy of success."
     },
     {
-      "char": "瞳",
-      "word": "瞳",
-      "reading": "ひとみ",
-      "meaning": "pupil, eye"
-    },
-    {
-      "char": "該",
-      "word": "該当",
-      "reading": "がいとう",
-      "meaning": "corresponding; being applicable"
-    },
-    {
-      "char": "促",
-      "word": "促す",
-      "reading": "うながす",
-      "meaning": "to urge, prompt"
-    },
-    {
-      "char": "唆",
-      "word": "唆",
-      "reading": "そそのかす",
-      "meaning": "tempt"
-    },
-    {
-      "char": "謙",
-      "word": "謙",
-      "reading": "けん",
-      "meaning": "humble oneself"
-    },
-    {
-      "char": "遜",
-      "word": "遜",
-      "reading": "そん",
-      "meaning": "humble"
-    },
-    {
-      "char": "賄",
-      "word": "賄う",
-      "reading": "まかなう",
-      "meaning": "to provide, cover (expenses)"
-    },
-    {
-      "char": "尚",
-      "word": "尚",
-      "reading": "なお",
-      "meaning": "furthermore; still"
-    },
-    {
-      "char": "但",
-      "word": "但し",
-      "reading": "ただし",
-      "meaning": "however; provided that"
-    },
-    {
-      "char": "且",
-      "word": "且つ",
-      "reading": "かつ",
-      "meaning": "moreover; and"
-    },
-    {
-      "char": "弊",
-      "word": "弊社",
-      "reading": "へいしゃ",
-      "meaning": "our company (humble)"
-    },
-    {
-      "char": "併",
-      "word": "併せる",
-      "reading": "あわせる",
-      "meaning": "to combine, put together"
-    },
-    {
-      "char": "稽",
-      "word": "稽",
-      "reading": "けい",
-      "meaning": "think"
-    },
-    {
-      "char": "掌",
-      "word": "掌",
-      "reading": "てのひら",
-      "meaning": "palm of the hand"
-    },
-    {
-      "char": "褒",
-      "word": "褒める",
-      "reading": "ほめる",
-      "meaning": "to praise, commend"
-    },
-    {
-      "char": "憾",
-      "word": "遺憾",
-      "reading": "いかん",
-      "meaning": "regret; being regrettable"
-    },
-    {
-      "char": "賜",
-      "word": "賜る",
-      "reading": "たまわる",
-      "meaning": "to be granted (humble)"
+     "japanese": "今[いま]が苦[くる]しいからこそ、乗[の]り越[こ]えた時[とき]の達成感[たっせいかん]は大[おお]きいのです。",
+     "romaji": "Ima ga kurushii kara koso, norikoeta toki no tasseikan wa ookii no desu.",
+     "english": "It is precisely because now is hard that the sense of achievement when you overcome it will be great."
     }
-  ]
+   ],
+   "flashcardHeader": "〜からこそ",
+   "flashcardAnswer": "Emphasizes that the stated reason is the specific, essential, exclusive cause — 'it is precisely because of this, and only this.'",
+   "practice": [
+    {
+     "id": "kara-koso_q1",
+     "type": "usage",
+     "prompt": "What does 〜からこそ mean?",
+     "japanese": null,
+     "choices": [
+      "even though / despite",
+      "precisely because / exactly because — こそ adds strong emphasis to から: 'it is specifically because of X that Y'",
+      "from the start",
+      "just because"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜からこそ = precisely because / exactly because. 好[す]きだからこそ、厳[きび]しく言[い]う = precisely because I like you, I speak harshly. こそ (emphasis particle) added to から makes the causal link emphatic: Y is true specifically because of X, not anything else."
+    },
+    {
+     "id": "kara-koso_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because it is difficult, it is worth doing'?",
+     "japanese": null,
+     "choices": [
+      "難[むずか]しいからこそ、やる価値[かち]がある。",
+      "難[むずか]しいから、やる価値[かち]がある。",
+      "難[むずか]しいのに、やる価値[かち]がある。",
+      "難[むずか]しくても、やる価値[かち]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + からこそ: 難[むずか]しい + からこそ = precisely because it's difficult. やる価値[かち]がある = it's worth doing. からこそ emphasizes that the difficulty IS the reason it has value."
+    },
+    {
+     "id": "kara-koso_q3",
+     "type": "translation",
+     "prompt": "Which means 'Precisely because she trusts you, she is asking for help'?",
+     "japanese": null,
+     "choices": [
+      "あなたを信頼[しんらい]しているからこそ、助[たす]けを求[もと]めている。",
+      "あなたを信頼[しんらい]しているから、助[たす]けを求[もと]めている。",
+      "あなたを信頼[しんらい]しているのに、助[たす]けを求[もと]めている。",
+      "あなたを信頼[しんらい]しているけど、助[たす]けを求[もと]めている。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb te-iru + からこそ: 信頼[しんらい]している + からこそ = precisely because (she) trusts. 助[たす]けを求[もと]めている = is asking for help. からこそ makes trust the specific, emphasized reason for the request."
+    },
+    {
+     "id": "kara-koso_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because we are friends, I can tell you the truth'?",
+     "japanese": null,
+     "choices": [
+      "友達[ともだち]だからこそ、本当[ほんとう]のことが言[い]える。",
+      "友達[ともだち]だから、本当[ほんとう]のことが言[い]える。",
+      "友達[ともだち]なのに、本当[ほんとう]のことが言[い]える。",
+      "友達[ともだち]でも、本当[ほんとう]のことが言[い]える。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + だ + からこそ: 友達[ともだち]だ + からこそ = precisely because we are friends. 本当[ほんとう]のことが言[い]える = I can tell the truth. からこそ emphasizes that friendship IS the specific enabling reason."
+    },
+    {
+     "id": "kara-koso_q5",
+     "type": "usage",
+     "prompt": "What role does こそ play in からこそ?",
+     "japanese": null,
+     "choices": [
+      "It negates から",
+      "こそ is an emphatic/focusing particle — it singles out X as THE specific, defining reason (not coincidental, not one of many — exclusively because of X)",
+      "It softens から",
+      "It is just a filler with no meaning, and the rule applies to every sentence type — and this holds in every register, formal or casual."
+     ],
+     "correctIndex": 1,
+     "explanation": "こそ is a focusing particle that singles out X as the definitive reason. からこそ = 'it is specifically because of X (and no other reason) that Y.' Without こそ: から = because (neutral). With こそ: からこそ = precisely/exactly because (emphatic, X is singled out as the key reason)."
+    },
+    {
+     "id": "kara-koso_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because it is expensive, it must be good quality'?",
+     "japanese": null,
+     "choices": [
+      "高[たか]いからこそ、品質[ひんしつ]がいいはずだ。",
+      "高[たか]いから、品質[ひんしつ]がいいはずだ。",
+      "高[たか]いのに、品質[ひんしつ]がいいはずだ。",
+      "高[たか]くても、品質[ひんしつ]がいいはずだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + からこそ: 高[たか]い + からこそ = precisely because it's expensive. 品質[ひんしつ]がいいはずだ = quality must be good. からこそ singles out price as THE indicator of quality."
+    },
+    {
+     "id": "kara-koso_q7",
+     "type": "translation",
+     "prompt": "Which means 'Precisely because you tried hard, the result is meaningful'?",
+     "japanese": null,
+     "choices": [
+      "頑張[がんば]ったからこそ、その結果[けっか]に意味[いみ]がある。",
+      "頑張[がんば]ったから、その結果[けっか]に意味[いみ]がある。",
+      "頑張[がんば]ったのに、その結果[けっか]に意味[いみ]がある。",
+      "頑張[がんば]ったけれど、その結果[けっか]に意味[いみ]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からこそ: 頑張[がんば]った + からこそ = precisely because (you) tried hard. 結果[けっか]に意味[いみ]がある = the result is meaningful. からこそ emphasizes that the effort is THE specific source of meaning."
+    },
+    {
+     "id": "kara-koso_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because I have experienced failure, I can give advice'?",
+     "japanese": null,
+     "choices": [
+      "失敗[しっぱい]を経験[けいけん]したからこそ、アドバイスができる。",
+      "失敗[しっぱい]を経験[けいけん]したから、アドバイスができる。",
+      "失敗[しっぱい]を経験[けいけん]したのに、アドバイスができる。",
+      "失敗[しっぱい]を経験[けいけん]したけれど、アドバイスができる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からこそ: 経験[けいけん]した + からこそ = precisely because (I) experienced. アドバイスができる = can give advice. からこそ singles out personal failure experience as THE enabling reason for giving advice."
+    },
+    {
+     "id": "kara-koso_q9",
+     "type": "usage",
+     "prompt": "からこそ — which sentence structure is MOST natural?",
+     "japanese": null,
+     "choices": [
+      "Y = negative result (から negated by こそ)",
+      "X (cause) + からこそ + Y (positive or emphatic result/revelation) — Y is often a surprising or counter-intuitive truth or a strong assertion",
+      "X (cause) + からこそ + Y = wishful thinking — and this holds in every register, formal or casual.",
+      "Only for rhetorical questions"
+     ],
+     "correctIndex": 1,
+     "explanation": "からこそ often presents surprising or counter-intuitive truths: 痛[いた]いからこそ生[い]きている証拠[しょうこ]だ (precisely because it hurts, it's proof I'm alive). Y often reveals why something apparently negative (X) actually leads to a valued or meaningful Y. The structure emphasizes the paradoxical or emphatic causal link."
+    },
+    {
+     "id": "kara-koso_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because it is rare, it is valuable'?",
+     "japanese": null,
+     "choices": [
+      "希少[きしょう]だからこそ、価値[かち]がある。",
+      "希少[きしょう]だから、価値[かち]がある。",
+      "希少[きしょう]なのに、価値[かち]がある。",
+      "希少[きしょう]でも、価値[かち]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + だ + からこそ: 希少[きしょう]だ + からこそ = precisely because it's rare. 価値[かち]がある = has value. からこそ singles out rarity as THE reason for value."
+    },
+    {
+     "id": "kara-koso_q11",
+     "type": "translation",
+     "prompt": "Which means 'Precisely because you are young, you should challenge yourself'?",
+     "japanese": null,
+     "choices": [
+      "若[わか]いからこそ、チャレンジすべきだ。",
+      "若[わか]いから、チャレンジすべきだ。",
+      "若[わか]いのに、チャレンジすべきだ。",
+      "若[わか]くても、チャレンジすべきだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "い-adj + からこそ: 若[わか]い + からこそ = precisely because you are young. チャレンジすべきだ = you should challenge yourself. からこそ makes youth THE specific reason for the exhortation."
+    },
+    {
+     "id": "kara-koso_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because I love music, I practice every day'?",
+     "japanese": null,
+     "choices": [
+      "音楽[おんがく]が好[す]きだからこそ、毎日[まいにち]練習[れんしゅう]する。",
+      "音楽[おんがく]が好[す]きだから、毎日[まいにち]練習[れんしゅう]する。",
+      "音楽[おんがく]が好[す]きなのに、毎日[まいにち]練習[れんしゅう]する。",
+      "音楽[おんがく]が好[す]きでも、毎日[まいにち]練習[れんしゅう]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Adj/copula + からこそ: 好[す]きだ + からこそ = precisely because (I) love. 毎日[まいにち]練習[れんしゅう]する = practice every day. からこそ makes love of music THE defining motivation for daily practice."
+    },
+    {
+     "id": "kara-koso_q13",
+     "type": "usage",
+     "prompt": "からこそ is often used to explain WHY something seemingly contradictory or paradoxical is true. Which example shows this?",
+     "japanese": null,
+     "choices": [
+      "暑[あつ]いから水[みず]を飲[の]む (because it's hot, drink water — simple causation, no paradox), with no exceptions in modern standard Japanese.",
+      "離[はな]れているからこそ、恋[こい]しくなる (precisely because we're apart, I miss you — separation causes longing; the apart-ness IS the reason for the longing)",
+      "寒[さむ]いから上着[うわぎ]を着[き]た (because it was cold, wore a jacket — simple causation)",
+      "疲[つか]れたから休[やす]んだ (because I was tired, I rested — simple causation)"
+     ],
+     "correctIndex": 1,
+     "explanation": "離[はな]れているからこそ、恋[こい]しくなる = precisely because we're apart, I miss you. This is the paradoxical use: the separation (which seems bad) is THE cause of the longing (revealing the depth of the relationship). からこそ highlights this non-obvious causal link."
+    },
+    {
+     "id": "kara-koso_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because there are obstacles, growth is possible'?",
+     "japanese": null,
+     "choices": [
+      "壁[かべ]があるからこそ、成長[せいちょう]できる。",
+      "壁[かべ]があるから、成長[せいちょう]できる。",
+      "壁[かべ]があるのに、成長[せいちょう]できる。",
+      "壁[かべ]があっても、成長[せいちょう]できる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + からこそ: ある + からこそ = precisely because there are. 成長[せいちょう]できる = growth is possible. からこそ reveals that obstacles are THE specific enabler of growth."
+    },
+    {
+     "id": "kara-koso_q15",
+     "type": "translation",
+     "prompt": "Which means 'Precisely because we are on the same team, I expect more from you'?",
+     "japanese": null,
+     "choices": [
+      "同[おな]じチームだからこそ、あなたに多[おお]くを期待[きたい]する。",
+      "同[おな]じチームだから、あなたに多[おお]くを期待[きたい]する。",
+      "同[おな]じチームなのに、あなたに多[おお]くを期待[きたい]する。",
+      "同[おな]じチームでも、あなたに多[おお]くを期待[きたい]する。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Noun + だ + からこそ: 同[おな]じチームだ + からこそ = precisely because we're on the same team. 多[おお]くを期待[きたい]する = I expect much from you. からこそ makes shared team membership THE reason for high expectations."
+    },
+    {
+     "id": "kara-koso_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because it is difficult, the achievement is great'?",
+     "japanese": null,
+     "choices": [
+      "困難[こんなん]だからこそ、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
+      "困難[こんなん]だから、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
+      "困難[こんなん]なのに、達成[たっせい]の喜[よろこ]びは大[おお]きい。",
+      "困難[こんなん]でも、達成[たっせい]の喜[よろこ]びは大[おお]きい。"
+     ],
+     "correctIndex": 0,
+     "explanation": "な-adj + だ + からこそ: 困難[こんなん]だ + からこそ = precisely because it's difficult. 達成[たっせい]の喜[よろこ]びは大[おお]きい = the joy of achievement is great. からこそ connects difficulty to magnified joy."
+    },
+    {
+     "id": "kara-koso_q17",
+     "type": "usage",
+     "prompt": "Which particle in からこそ provides the emphasis?",
+     "japanese": null,
+     "choices": [
+      "から — the causal particle provides all the emphasis",
+      "こそ — the emphatic/focusing particle singles out X as the definitive cause",
+      "The combination creates a third meaning not present in either alone",
+      "Neither — it's just a fixed phrase with no grammatical analysis"
+     ],
+     "correctIndex": 1,
+     "explanation": "こそ is the emphatic particle: from + こそ (emphasis on the cause) = precisely because. から alone: neutral cause. こそ alone: emphasis (contrastive focus). Together: からこそ = the cause (から) is singled out as THE definitive reason (こそ). こそ is the grammatical driver of the emphatic meaning."
+    },
+    {
+     "id": "kara-koso_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because there is risk, there is also reward'?",
+     "japanese": null,
+     "choices": [
+      "リスクがあるからこそ、リターンもある。",
+      "リスクがあるから、リターンもある。",
+      "リスクがあるのに、リターンもある。",
+      "リスクがあっても、リターンもある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb dict-form + からこそ: ある + からこそ = precisely because there is risk. リターンもある = there is also reward. からこそ reveals that risk IS THE source of reward — classic financial wisdom."
+    },
+    {
+     "id": "kara-koso_q19",
+     "type": "translation",
+     "prompt": "Which means 'Precisely because I trust your ability, I am giving you this task'?",
+     "japanese": null,
+     "choices": [
+      "あなたの能力[のうりょく]を信頼[しんらい]しているからこそ、この仕事[しごと]を任[まか]せる。",
+      "あなたの能力[のうりょく]を信頼[しんらい]しているから、この仕事[しごと]を任[まか]せる。",
+      "あなたの能力[のうりょく]を信頼[しんらい]しているのに、この仕事[しごと]を任[まか]せる。",
+      "あなたの能力[のうりょく]を信頼[しんらい]しているから、この仕事[しごと]を任[まか]せない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb te-iru + からこそ: 信頼[しんらい]している + からこそ = precisely because (I) trust. この仕事[しごと]を任[まか]せる = am giving you this task. からこそ makes trust THE specific reason for delegation — a statement of confidence."
+    },
+    {
+     "id": "kara-koso_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'Precisely because I have studied hard, I feel confident about the exam'?",
+     "japanese": null,
+     "choices": [
+      "一生懸命[いっしょうけんめい]勉強[べんきょう]したからこそ、試験[しけん]に自信[じしん]がある。",
+      "一生懸命[いっしょうけんめい]勉強[べんきょう]したから、試験[しけん]に自信[じしん]がある。",
+      "一生懸命[いっしょうけんめい]勉強[べんきょう]したのに、試験[しけん]に自信[じしん]がある。",
+      "一生懸命[いっしょうけんめい]勉強[べんきょう]したけれど、試験[しけん]に自信[じしん]がある。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb past + からこそ: 勉強[べんきょう]した + からこそ = precisely because (I) studied hard. 試験[しけん]に自信[じしん]がある = feel confident about the exam. からこそ makes the hard study THE specific source of confidence."
+    }
+   ]
+  },
+  {
+   "id": "uru-enai",
+   "name": "〜得[う]る / 〜得[え]ない (uru / enai) — can possibly / cannot possibly",
+   "shortDescription": "Expresses logical possibility or impossibility — whether something falls within the conceivable realm.",
+   "formation": "Verb stem (ます-stem) + 得[う]る (uru/eru) / 得[え]ない (enai)",
+   "explanation": "得[う]る (うる / える) and its negative 得[え]ない (えない) express logical possibility and impossibility — the realm of 'conceivable' versus 'unthinkable.' あり得[う]る (ありうる / ありえる) means 'is possible / can happen'; あり得[え]ない (ありえない) means 'is impossible / unthinkable / cannot be.' The 得[う] comes from the classical verb 得[う]る (to obtain / to be able to), so the underlying sense is 'can be obtained / attained' = 'is possible.' Crucially, this is about conceptual or logical possibility — not personal ability (for that, use できる). When you say そんなことはあり得[え]ない, you're saying 'such a thing cannot fall within the realm of possibility.'\n\nThe positive form appears in formal and academic writing (考[かんが]え得[う]る可能性[かのうせい] — conceivable possibilities); the negative あり得[え]ない has broken into casual speech as an exclamation of disbelief or outrage — 'Unbelievable!' — though its formal written use remains distinctly different in register.\n\nReading note: the positive form can be read as うる (classical, more formal) or える (modern literary) — both are correct and you will encounter both; the negative is almost always えない in modern Japanese.",
+   "rules": [
+    "Verb stem + 得[う]る (uru/eru) = it is possible that / can conceivably [happen]",
+    "Verb stem + 得[え]ない (enai) = it is impossible that / cannot possibly [happen]",
+    "Positive: read as うる (classical formal) or える (modern literary) — both valid",
+    "Negative 得[え]ない (えない): あり得[え]ない is now also used in casual speech as an exclamation of disbelief or outrage",
+    "Expresses conceptual / logical possibility — not personal ability (use できる for that)"
+   ],
+   "examples": [
+    {
+     "japanese": "現代[げんだい]の技術[ぎじゅつ]をもってしても、あり得[え]ない速度[そくど]です。",
+     "romaji": "Gendai no gijutsu wo motte shite mo, ari enai sokudo desu.",
+     "english": "Even with modern technology, it's an impossible speed."
+    },
+    {
+     "japanese": "そのような事態[じたい]も十分[じゅうぶん]に起[お]こり得[う]ると考[かんが]えて、備[そな]えておくべきです。",
+     "romaji": "Sono you na jitai mo juubun ni okori uru to kangaete, sonaete oku beki desu.",
+     "english": "You should prepare by considering that such a situation could very well occur."
+    },
+    {
+     "japanese": "あらゆる可能性[かのうせい]を考[かんが]え得[う]る限[かぎ]り列挙[れっきょ]してから、最善策[さいぜんさく]を選[えら]ぼう。",
+     "romaji": "Arayuru kanousei wo kangae uru kagiri rekkyo shite kara, saizensaku wo erabou.",
+     "english": "Let's list as many possibilities as can be conceived, then choose the best course."
+    },
+    {
+     "japanese": "彼[かれ]が裏切[うらぎ]るとは、到底[とうてい]あり得[え]ないことだと思[おも]っていました。",
+     "romaji": "Kare ga uragiru to wa, toutei ari enai koto da to omotte imashita.",
+     "english": "I thought it was absolutely impossible that he would betray us."
+    }
+   ],
+   "flashcardHeader": "〜得る / 〜得ない",
+   "flashcardAnswer": "Expresses logical possibility (can possibly happen) or impossibility (cannot possibly happen) — formal and literary.",
+   "practice": [
+    {
+     "id": "uru-enai_q1",
+     "type": "usage",
+     "prompt": "What does 〜得[え]る (uru/eru) mean?",
+     "japanese": null,
+     "choices": [
+      "cannot possibly",
+      "can possibly / is capable of — potential that something COULD happen (not necessarily that it will, but that it is within the realm of possibility)",
+      "must do",
+      "should do"
+     ],
+     "correctIndex": 1,
+     "explanation": "〜得[え]る (uru/eru) = can possibly / is able to. ありえる = it is possible (ある + 得[え]る). 起[お]こり得[え]ることだ = it's something that can happen. Expresses possibility or potentiality in a formal register."
+    },
+    {
+     "id": "uru-enai_q2",
+     "type": "construct",
+     "prompt": "Which correctly says 'That error could possibly occur'?",
+     "japanese": null,
+     "choices": [
+      "そのエラーは起[お]こり得[え]る。",
+      "そのエラーは起[お]これる。",
+      "そのエラーは起[お]こりうる。",
+      "そのエラーは起[お]こることができる。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]る: 起[お]こり + 得[え]る = can possibly occur. Or: 起[お]こり得[え]る (読[よ]み: おこりうる). Both 得[え]る (uru) and 得[え]る (eru) pronunciations are valid; written the same. Expresses that occurrence is within the range of possibility."
+    },
+    {
+     "id": "uru-enai_q3",
+     "type": "translation",
+     "prompt": "Which means 'Such a mistake cannot possibly happen'?",
+     "japanese": null,
+     "choices": [
+      "そのようなミスは起[お]こり得[え]ない。",
+      "そのようなミスは起[お]これない。",
+      "そのようなミスは起[お]こることができない。",
+      "そのようなミスは起[お]こらない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない: 起[お]こり + 得[え]ない = cannot possibly occur. 得[え]ない (enai) = negative of 得[え]る. Stronger than simply 'won't happen' — implies it is outside the realm of possibility."
+    },
+    {
+     "id": "uru-enai_q4",
+     "type": "construct",
+     "prompt": "Which correctly says 'That is a situation that can possibly arise in medicine'?",
+     "japanese": null,
+     "choices": [
+      "それは医療[いりょう]で起[お]こり得[え]る状況[じょうきょう]だ。",
+      "それは医療[いりょう]で起[お]これる状況[じょうきょう]だ。",
+      "それは医療[いりょう]で起[お]こり得[え]ない状況[じょうきょう]だ。",
+      "それは医療[いりょう]で起[お]こることができる状況[じょうきょう]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]る + noun: 起[お]こり得[え]る + 状況[じょうきょう] = a situation that can possibly arise. 得[え]る in attributive position modifying 状況[じょうきょう]. Formal potential expression."
+    },
+    {
+     "id": "uru-enai_q5",
+     "type": "usage",
+     "prompt": "得[え]る has TWO pronunciations: uru and eru. Which is correct?",
+     "japanese": null,
+     "choices": [
+      "Only eru (える) is correct",
+      "Only uru (うる) is correct",
+      "Both uru (うる) and eru (える) are correct — uru is classical/literary; eru is standard; both appear in formal contexts",
+      "Neither — 得[え]る is always read as とく — textbooks treat this as an absolute rule."
+     ],
+     "correctIndex": 2,
+     "explanation": "得[え]る has two readings: うる (uru — classical/literary: 考[かんが]えうる, 起[お]こりうる) and える (eru — modern standard: 考[かんが]えられる isn't the same, but 得[え]る = える in formal usage). Both forms appear in formal writing. あり得[え]る is common: ありうる or ありえる, both accepted."
+    },
+    {
+     "id": "uru-enai_q6",
+     "type": "construct",
+     "prompt": "Which correctly says 'A result that could possibly be achieved'?",
+     "japanese": null,
+     "choices": [
+      "達成[たっせい]し得[え]る結果[けっか]",
+      "達成[たっせい]できる結果[けっか]",
+      "達成[たっせい]されうる結果[けっか]",
+      "達成[たっせい]し得[え]ない結果[けっか]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]る + noun: 達成[たっせい]し + 得[え]る = achievable (can possibly achieve). 達成[たっせい]し得[え]る結果[けっか] = a result that can be achieved. 得[え]る here is attributive, modifying 結果[けっか]. Formal written usage."
+    },
+    {
+     "id": "uru-enai_q7",
+     "type": "translation",
+     "prompt": "Which means 'That explanation is not something that can possibly be accepted'?",
+     "japanese": null,
+     "choices": [
+      "その説明[せつめい]は受[う]け入[い]れ得[え]ないものだ。",
+      "その説明[せつめい]は受[う]け入[い]れられないものだ。",
+      "その説明[せつめい]は受[う]け入[い]れできないものだ。",
+      "その説明[せつめい]は受[う]け入[い]れないものだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない + noun: 受[う]け入[い]れ + 得[え]ない = cannot possibly accept. 受[う]け入[い]れ得[え]ないものだ = it's something that cannot be accepted. 得[え]ない emphasizes impossibility in principle, not just inability."
+    },
+    {
+     "id": "uru-enai_q8",
+     "type": "construct",
+     "prompt": "Which correctly says 'It is something that can possibly happen'?",
+     "japanese": null,
+     "choices": [
+      "あり得[え]ることだ。",
+      "あれることだ。",
+      "あることができる。",
+      "あり得[え]ないことだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ある + 得[え]る → あり得[え]る (arieru/ariuru) = can possibly exist / is possible. あり得[え]ることだ = it is something that is possible. Classic and very common use of 得[え]る in formal Japanese."
+    },
+    {
+     "id": "uru-enai_q9",
+     "type": "usage",
+     "prompt": "得[え]る (uru/eru) vs. られる (potential) — what's the difference?",
+     "japanese": null,
+     "choices": [
+      "They are identical",
+      "得[え]る is more formal/literary, often expresses 'theoretically possible in principle'; られる is neutral potential 'can do' in everyday usage",
+      "得[え]る is only for negative sentences, regardless of context or politeness level — this is true in both spoken and written Japanese.",
+      "られる is more formal"
+     ],
+     "correctIndex": 1,
+     "explanation": "得[え]る: formal/written — 考[かんが]え得[え]る (theoretically conceivable), 起[お]こり得[え]る (can possibly occur — in principle). られる: everyday potential — 考[かんが]えられる (can think of), 起[お]こられる (awkward; 起[お]こりうる better). 得[え]る expresses potentiality at a more abstract/theoretical level."
+    },
+    {
+     "id": "uru-enai_q10",
+     "type": "construct",
+     "prompt": "Which correctly says 'It is an unforeseeable risk'?",
+     "japanese": null,
+     "choices": [
+      "予見[よけん]し得[え]ないリスクだ。",
+      "予見[よけん]できないリスクだ。",
+      "予見[よけん]されないリスクだ。",
+      "予見[よけん]しないリスクだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない + noun: 予見[よけん]し + 得[え]ない = cannot possibly foresee. 予見[よけん]し得[え]ないリスク = an unforeseeable risk. 得[え]ない in attributive position modifying リスク. Formal, formal written."
+    },
+    {
+     "id": "uru-enai_q11",
+     "type": "translation",
+     "prompt": "Which means 'The maximum level achievable by human effort'?",
+     "japanese": null,
+     "choices": [
+      "人間[にんげん]の努力[どりょく]で達[たっ]し得[え]る最大限[さいだいげん]",
+      "人間[にんげん]の努力[どりょく]で達[たっ]することができる最大限[さいだいげん]",
+      "人間[にんげん]の努力[どりょく]で達[たっ]せられる最大限[さいだいげん]",
+      "人間[にんげん]の努力[どりょく]で達[たっ]する最大限[さいだいげん]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]る + noun: 達[たっ]し + 得[え]る = can possibly reach/achieve. 人間[にんげん]の努力[どりょく]で達[たっ]し得[え]る最大限[さいだいげん] = the maximum level that can be reached by human effort. 得[え]る modifies 最大限[さいだいげん] attributively."
+    },
+    {
+     "id": "uru-enai_q12",
+     "type": "construct",
+     "prompt": "Which correctly says 'It is a completely unbelievable story'?",
+     "japanese": null,
+     "choices": [
+      "信[しん]じ得[え]ない話[はなし]だ。",
+      "信[しん]じられない話[はなし]だ。",
+      "信[しん]じできない話[はなし]だ。",
+      "信[しん]じない話[はなし]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない + noun: 信[しん]じ + 得[え]ない = cannot possibly believe. 信[しん]じ得[え]ない話[はなし]だ = it's an unbelievable story. Both 信[しん]じ得[え]ない (formal) and 信[しん]じられない (everyday) are correct; 得[え]ない is more formal."
+    },
+    {
+     "id": "uru-enai_q13",
+     "type": "usage",
+     "prompt": "あり得[え]ない (arienaい) has become a common INFORMAL expression. What does it mean?",
+     "japanese": null,
+     "choices": [
+      "It is possible",
+      "Impossible! / No way! / That can't be! — informal strong surprise or disbelief (often written in hiragana: ありえない in casual contexts)",
+      "Maybe",
+      "Probably"
+     ],
+     "correctIndex": 1,
+     "explanation": "あり得[え]ない (ありえない) = 'no way!' / 'that's impossible!' In informal use, it's an exclamation of disbelief: ありえない、そんなことが！= no way, that can't be! This casual use is very common in everyday Japanese, though the grammar originates from the formal 得[え]ない."
+    },
+    {
+     "id": "uru-enai_q14",
+     "type": "construct",
+     "prompt": "Which correctly says 'There could possibly be a solution to this problem'?",
+     "japanese": null,
+     "choices": [
+      "この問題[もんだい]には解決策[かいけつさく]があり得[え]る。",
+      "この問題[もんだい]には解決策[かいけつさく]がある。",
+      "この問題[もんだい]には解決策[かいけつさく]があれる。",
+      "この問題[もんだい]には解決策[かいけつさく]がありえない。"
+     ],
+     "correctIndex": 0,
+     "explanation": "ある + 得[え]る → あり得[え]る: 解決策[かいけつさく]があり得[え]る = there could possibly be a solution. あり得[え]る expresses that a solution is within the realm of possibility — not certain, but conceivable."
+    },
+    {
+     "id": "uru-enai_q15",
+     "type": "translation",
+     "prompt": "Which means 'It is a risk that cannot be ignored'?",
+     "japanese": null,
+     "choices": [
+      "無視[むし]し得[え]ないリスクだ。",
+      "無視[むし]できないリスクだ。",
+      "無視[むし]されないリスクだ。",
+      "無視[むし]しないリスクだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない + noun: 無視[むし]し + 得[え]ない = cannot possibly ignore. 無視[むし]し得[え]ないリスク = a risk that cannot be ignored. 得[え]ない expresses principled impossibility of ignoring."
+    },
+    {
+     "id": "uru-enai_q16",
+     "type": "construct",
+     "prompt": "Which correctly says 'The highest value that can possibly be obtained'?",
+     "japanese": null,
+     "choices": [
+      "得[え]られ得[え]る最高値[さいたかね]",
+      "得[え]ることができる最高値[さいたかね]",
+      "達[たっ]し得[え]る最高値[さいたかね]",
+      "得[え]る最高値[さいたかね]"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]る: 得[え]られ + 得[え]る = can possibly be obtained. 得[え]られ得[え]る最高値[さいたかね] = the highest value that can be obtained. Note: 得[え]られ (passive/potential of 得[え]る) + 得[え]る = layered potential, meaning 'obtainable.' Formal written."
+    },
+    {
+     "id": "uru-enai_q17",
+     "type": "usage",
+     "prompt": "得[え]る (uru/eru) is attached to what verb form?",
+     "japanese": null,
+     "choices": [
+      "Verb dictionary form + 得[え]る: 食[た]べる + 得[え]る (incorrect — sounds odd)",
+      "Verb MASU-STEM + 得[え]る: 食[た]べ + 得[え]る = 食[た]べ得[え]る (can possibly eat — correct formal form)",
+      "Verb past + 得[え]る: 食[た]べた + 得[え]る (incorrect)",
+      "Verb te-form + 得[え]る: 食[た]べて + 得[え]る (incorrect)"
+     ],
+     "correctIndex": 1,
+     "explanation": "Verb MASU-STEM + 得[え]る: 食[た]べ + 得[え]る = 食[た]べ得[え]る (can possibly eat); 起[お]こり + 得[え]る = 起[お]こり得[え]る (can possibly occur); 考[かんが]え + 得[え]る = 考[かんが]え得[え]る (conceivable). The masu-stem is required. This is 得[え]る as a supplementary verb."
+    },
+    {
+     "id": "uru-enai_q18",
+     "type": "construct",
+     "prompt": "Which correctly says 'It is the best result one could possibly hope for'?",
+     "japanese": null,
+     "choices": [
+      "これ以上[いじょう]望[のぞ]み得[え]ない最高[さいこう]の結果[けっか]だ。",
+      "これ以上[いじょう]望[のぞ]める最高[さいこう]の結果[けっか]だ。",
+      "これ以上[いじょう]望[のぞ]む最高[さいこう]の結果[けっか]だ。",
+      "これ以上[いじょう]望[のぞ]まない最高[さいこう]の結果[けっか]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない: 望[のぞ]み + 得[え]ない = cannot possibly wish for more. これ以上[いじょう]望[のぞ]み得[え]ない最高[さいこう]の結果[けっか] = the best result one cannot wish for more of = the highest possible result. 得[え]ない + maximality expression = 'as good as it can possibly get.'"
+    },
+    {
+     "id": "uru-enai_q19",
+     "type": "translation",
+     "prompt": "Which means 'A mistake that could not possibly be overlooked'?",
+     "japanese": null,
+     "choices": [
+      "見過[みす]ごし得[え]ないミスだ。",
+      "見過[みす]ごせないミスだ。",
+      "見過[みす]ごされないミスだ。",
+      "見過[みす]ごさないミスだ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]ない + noun: 見過[みす]ごし + 得[え]ない = cannot possibly overlook. 見過[みす]ごし得[え]ないミス = a mistake that cannot be overlooked. 得[え]ない expresses the principled impossibility of ignoring the error."
+    },
+    {
+     "id": "uru-enai_q20",
+     "type": "construct",
+     "prompt": "Which correctly says 'It is an unprecedented event'?",
+     "japanese": null,
+     "choices": [
+      "考[かんが]え得[え]なかった出来事[できごと]だ。",
+      "考[かんが]えられなかった出来事[できごと]だ。",
+      "考[かんが]えできなかった出来事[できごと]だ。",
+      "考[かんが]えない出来事[できごと]だ。"
+     ],
+     "correctIndex": 0,
+     "explanation": "Verb masu-stem + 得[え]なかった (past negative): 考[かんが]え + 得[え]なかった = could not possibly have imagined. 考[かんが]え得[え]なかった出来事[できごと] = an event that could not have been imagined = unprecedented. 得[え]なかった is the past negative of 得[え]る."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ch45_v01",
+   "partOfSpeech": "conjunction",
+   "kanji": "及び",
+   "kana": "および",
+   "romaji": "oyobi",
+   "definition": "and; as well as"
+  },
+  {
+   "id": "ch45_v02",
+   "partOfSpeech": "conjunction",
+   "kanji": "並びに",
+   "kana": "ならびに",
+   "romaji": "narabini",
+   "definition": "and; together with"
+  },
+  {
+   "id": "ch45_v03",
+   "partOfSpeech": "conjunction",
+   "kanji": "且つ",
+   "kana": "かつ",
+   "romaji": "katsu",
+   "definition": "moreover; and"
+  },
+  {
+   "id": "ch45_v04",
+   "partOfSpeech": "conjunction",
+   "kanji": "但し",
+   "kana": "ただし",
+   "romaji": "tadashi",
+   "definition": "however; provided that"
+  },
+  {
+   "id": "ch45_v05",
+   "partOfSpeech": "conjunction",
+   "kanji": "尚",
+   "kana": "なお",
+   "romaji": "nao",
+   "definition": "furthermore; still"
+  },
+  {
+   "id": "ch45_v06",
+   "partOfSpeech": "conjunction",
+   "kanji": "即ち",
+   "kana": "すなわち",
+   "romaji": "sunawachi",
+   "definition": "namely; that is"
+  },
+  {
+   "id": "ch45_v07",
+   "partOfSpeech": "conjunction",
+   "kanji": "従って",
+   "kana": "したがって",
+   "romaji": "shitagatte",
+   "definition": "therefore; accordingly"
+  },
+  {
+   "id": "ch45_v08",
+   "partOfSpeech": "conjunction",
+   "kanji": "故に",
+   "kana": "ゆえに",
+   "romaji": "yueni",
+   "definition": "therefore; hence"
+  },
+  {
+   "id": "ch45_v09",
+   "partOfSpeech": "noun",
+   "kanji": "上記",
+   "kana": "じょうき",
+   "romaji": "jouki",
+   "definition": "the above (statement)"
+  },
+  {
+   "id": "ch45_v10",
+   "partOfSpeech": "noun",
+   "kanji": "下記",
+   "kana": "かき",
+   "romaji": "kaki",
+   "definition": "the following"
+  },
+  {
+   "id": "ch45_v11",
+   "partOfSpeech": "noun",
+   "kanji": "該当",
+   "kana": "がいとう",
+   "romaji": "gaitou",
+   "definition": "corresponding; being applicable"
+  },
+  {
+   "id": "ch45_v12",
+   "partOfSpeech": "pre-noun",
+   "kanji": "当該",
+   "kana": "とうがい",
+   "romaji": "tougai",
+   "definition": "the said; the relevant"
+  },
+  {
+   "id": "ch45_v13",
+   "partOfSpeech": "noun",
+   "kanji": "各位",
+   "kana": "かくい",
+   "romaji": "kakui",
+   "definition": "to all concerned; everyone"
+  },
+  {
+   "id": "ch45_v14",
+   "partOfSpeech": "noun",
+   "kanji": "貴社",
+   "kana": "きしゃ",
+   "romaji": "kisha",
+   "definition": "your company (honorific)"
+  },
+  {
+   "id": "ch45_v15",
+   "partOfSpeech": "noun",
+   "kanji": "弊社",
+   "kana": "へいしゃ",
+   "romaji": "heisha",
+   "definition": "our company (humble)"
+  },
+  {
+   "id": "ch45_v16",
+   "partOfSpeech": "noun",
+   "kanji": "恐縮",
+   "kana": "きょうしゅく",
+   "romaji": "kyoushuku",
+   "definition": "feeling obliged; much obliged"
+  },
+  {
+   "id": "ch45_v17",
+   "partOfSpeech": "noun",
+   "kanji": "遺憾",
+   "kana": "いかん",
+   "romaji": "ikan",
+   "definition": "regret; being regrettable"
+  },
+  {
+   "id": "ch45_v18",
+   "partOfSpeech": "noun",
+   "kanji": "履行",
+   "kana": "りこう",
+   "romaji": "rikou",
+   "definition": "fulfillment; performance"
+  },
+  {
+   "id": "ch45_v19",
+   "partOfSpeech": "noun",
+   "kanji": "締結",
+   "kana": "ていけつ",
+   "romaji": "teiketsu",
+   "definition": "conclusion (of a contract)"
+  },
+  {
+   "id": "ch45_v20",
+   "partOfSpeech": "noun",
+   "kanji": "施行",
+   "kana": "しこう",
+   "romaji": "shikou",
+   "definition": "enforcement; putting into effect"
+  },
+  {
+   "id": "ch45_v21",
+   "partOfSpeech": "noun",
+   "kanji": "遵守",
+   "kana": "じゅんしゅ",
+   "romaji": "junshu",
+   "definition": "compliance; observance"
+  },
+  {
+   "id": "ch45_v22",
+   "partOfSpeech": "noun",
+   "kanji": "免除",
+   "kana": "めんじょ",
+   "romaji": "menjo",
+   "definition": "exemption; waiver"
+  },
+  {
+   "id": "ch45_v23",
+   "partOfSpeech": "noun",
+   "kanji": "猶予",
+   "kana": "ゆうよ",
+   "romaji": "yuuyo",
+   "definition": "grace period; postponement"
+  },
+  {
+   "id": "ch45_v24",
+   "partOfSpeech": "verb",
+   "kanji": "承る",
+   "kana": "うけたまわる",
+   "romaji": "uketamawaru",
+   "definition": "to hear; to undertake (humble)"
+  },
+  {
+   "id": "ch45_v25",
+   "partOfSpeech": "verb",
+   "kanji": "賜る",
+   "kana": "たまわる",
+   "romaji": "tamawaru",
+   "definition": "to be granted (humble)"
+  },
+  {
+   "id": "ch45_v26",
+   "partOfSpeech": "verb",
+   "kanji": "存じる",
+   "kana": "ぞんじる",
+   "romaji": "zonjiru",
+   "definition": "to know; to think (humble)"
+  },
+  {
+   "id": "ch45_v27",
+   "partOfSpeech": "verb",
+   "kanji": "申す",
+   "kana": "もうす",
+   "romaji": "mousu",
+   "definition": "to say (humble)"
+  },
+  {
+   "id": "ch45_v28",
+   "partOfSpeech": "verb",
+   "kanji": "致す",
+   "kana": "いたす",
+   "romaji": "itasu",
+   "definition": "to do (humble)"
+  },
+  {
+   "id": "ch45_v29",
+   "partOfSpeech": "verb",
+   "kanji": "伺う",
+   "kana": "うかがう",
+   "romaji": "ukagau",
+   "definition": "to visit; to ask (humble)"
+  },
+  {
+   "id": "ch45_v30",
+   "partOfSpeech": "noun",
+   "kanji": "拝見",
+   "kana": "はいけん",
+   "romaji": "haiken",
+   "definition": "seeing; looking (humble)"
+  },
+  {
+   "id": "ch45_v31",
+   "partOfSpeech": "noun",
+   "kanji": "拝借",
+   "kana": "はいしゃく",
+   "romaji": "haishaku",
+   "definition": "borrowing (humble)"
+  },
+  {
+   "id": "ch45_v32",
+   "partOfSpeech": "adverb",
+   "kanji": "謹んで",
+   "kana": "つつしんで",
+   "romaji": "tsutsushinde",
+   "definition": "respectfully; humbly"
+  },
+  {
+   "id": "ch45_v33",
+   "partOfSpeech": "na-adjective",
+   "kanji": "速やか",
+   "kana": "すみやか",
+   "romaji": "sumiyaka",
+   "definition": "prompt; swift"
+  },
+  {
+   "id": "ch45_v34",
+   "partOfSpeech": "na-adjective",
+   "kanji": "円滑",
+   "kana": "えんかつ",
+   "romaji": "enkatsu",
+   "definition": "smooth; harmonious"
+  },
+  {
+   "id": "ch45_v35",
+   "partOfSpeech": "na-adjective",
+   "kanji": "適宜",
+   "kana": "てきぎ",
+   "romaji": "tekigi",
+   "definition": "as appropriate; suitable"
+  },
+  {
+   "id": "ch45_v36",
+   "partOfSpeech": "adverb",
+   "kanji": "随時",
+   "kana": "ずいじ",
+   "romaji": "zuiji",
+   "definition": "at any time; as needed"
+  },
+  {
+   "id": "ch45_v37",
+   "partOfSpeech": "adverb",
+   "kanji": "別途",
+   "kana": "べっと",
+   "romaji": "betto",
+   "definition": "separately"
+  },
+  {
+   "id": "ch45_v38",
+   "partOfSpeech": "na-adjective",
+   "kanji": "一律",
+   "kana": "いちりつ",
+   "romaji": "ichiritsu",
+   "definition": "uniform; across the board"
+  },
+  {
+   "id": "ch45_v39",
+   "partOfSpeech": "adverb",
+   "kanji": "概ね",
+   "kana": "おおむね",
+   "romaji": "oomune",
+   "definition": "generally; mostly"
+  },
+  {
+   "id": "ch45_v40",
+   "partOfSpeech": "noun",
+   "kanji": "若干",
+   "kana": "じゃっかん",
+   "romaji": "jakkan",
+   "definition": "some; a few; slightly"
+  }
+ ],
+ "kanji": [
+  {
+   "char": "慰",
+   "word": "慰める",
+   "reading": "なぐさめる",
+   "meaning": "to console, comfort"
+  },
+  {
+   "char": "憤",
+   "word": "憤り",
+   "reading": "いきどおり",
+   "meaning": "resentment, anger"
+  },
+  {
+   "char": "顎",
+   "word": "顎",
+   "reading": "あご",
+   "meaning": "jaw, chin"
+  },
+  {
+   "char": "瞳",
+   "word": "瞳",
+   "reading": "ひとみ",
+   "meaning": "pupil, eye"
+  },
+  {
+   "char": "該",
+   "word": "該当",
+   "reading": "がいとう",
+   "meaning": "corresponding; being applicable"
+  },
+  {
+   "char": "促",
+   "word": "促す",
+   "reading": "うながす",
+   "meaning": "to urge, prompt"
+  },
+  {
+   "char": "唆",
+   "word": "示唆",
+   "reading": "しさ",
+   "meaning": "suggestion"
+  },
+  {
+   "char": "謙",
+   "word": "謙虚",
+   "reading": "けんきょ",
+   "meaning": "modest; humble"
+  },
+  {
+   "char": "遜",
+   "word": "謙遜",
+   "reading": "けんそん",
+   "meaning": "modesty; humility"
+  },
+  {
+   "char": "賄",
+   "word": "賄う",
+   "reading": "まかなう",
+   "meaning": "to provide, cover (expenses)"
+  },
+  {
+   "char": "尚",
+   "word": "尚",
+   "reading": "なお",
+   "meaning": "furthermore; still"
+  },
+  {
+   "char": "但",
+   "word": "但し",
+   "reading": "ただし",
+   "meaning": "however; provided that"
+  },
+  {
+   "char": "且",
+   "word": "且つ",
+   "reading": "かつ",
+   "meaning": "moreover; and"
+  },
+  {
+   "char": "弊",
+   "word": "弊社",
+   "reading": "へいしゃ",
+   "meaning": "our company (humble)"
+  },
+  {
+   "char": "併",
+   "word": "併せる",
+   "reading": "あわせる",
+   "meaning": "to combine, put together"
+  },
+  {
+   "char": "稽",
+   "word": "稽古",
+   "reading": "けいこ",
+   "meaning": "practice; training (arts, sports)"
+  },
+  {
+   "char": "掌",
+   "word": "掌",
+   "reading": "てのひら",
+   "meaning": "palm of the hand"
+  },
+  {
+   "char": "褒",
+   "word": "褒める",
+   "reading": "ほめる",
+   "meaning": "to praise, commend"
+  },
+  {
+   "char": "憾",
+   "word": "遺憾",
+   "reading": "いかん",
+   "meaning": "regret; being regrettable"
+  },
+  {
+   "char": "賜",
+   "word": "賜る",
+   "reading": "たまわる",
+   "meaning": "to be granted (humble)"
+  }
+ ],
+ "kanjiWords": [
+  {
+   "word": "慰める",
+   "kana": "なぐさめる",
+   "romaji": "nagusameru",
+   "meaning": "to console, comfort",
+   "chars": [
+    "慰"
+   ]
+  },
+  {
+   "word": "憤り",
+   "kana": "いきどおり",
+   "romaji": "ikidoori",
+   "meaning": "resentment, anger",
+   "chars": [
+    "憤"
+   ]
+  },
+  {
+   "word": "顎",
+   "kana": "あご",
+   "romaji": "ago",
+   "meaning": "jaw, chin",
+   "chars": [
+    "顎"
+   ]
+  },
+  {
+   "word": "瞳",
+   "kana": "ひとみ",
+   "romaji": "hitomi",
+   "meaning": "pupil, eye",
+   "chars": [
+    "瞳"
+   ]
+  },
+  {
+   "word": "該当",
+   "kana": "がいとう",
+   "romaji": "gaitou",
+   "meaning": "corresponding; being applicable",
+   "chars": [
+    "該",
+    "当"
+   ]
+  },
+  {
+   "word": "促す",
+   "kana": "うながす",
+   "romaji": "unagasu",
+   "meaning": "to urge, prompt",
+   "chars": [
+    "促"
+   ]
+  },
+  {
+   "word": "謙虚",
+   "kana": "けんきょ",
+   "romaji": "kenkyo",
+   "meaning": "modest; humble",
+   "chars": [
+    "謙"
+   ]
+  },
+  {
+   "word": "謙遜",
+   "kana": "けんそん",
+   "romaji": "kenson",
+   "meaning": "modesty; humility",
+   "chars": [
+    "謙",
+    "遜"
+   ]
+  },
+  {
+   "word": "賄う",
+   "kana": "まかなう",
+   "romaji": "makanau",
+   "meaning": "to provide, cover (expenses)",
+   "chars": [
+    "賄"
+   ]
+  },
+  {
+   "word": "尚",
+   "kana": "なお",
+   "romaji": "nao",
+   "meaning": "furthermore; still",
+   "chars": [
+    "尚"
+   ]
+  },
+  {
+   "word": "但し",
+   "kana": "ただし",
+   "romaji": "tadashi",
+   "meaning": "however; provided that",
+   "chars": [
+    "但"
+   ]
+  },
+  {
+   "word": "且つ",
+   "kana": "かつ",
+   "romaji": "katsu",
+   "meaning": "moreover; and",
+   "chars": [
+    "且"
+   ]
+  },
+  {
+   "word": "弊社",
+   "kana": "へいしゃ",
+   "romaji": "heisha",
+   "meaning": "our company (humble)",
+   "chars": [
+    "弊",
+    "社"
+   ]
+  },
+  {
+   "word": "併せる",
+   "kana": "あわせる",
+   "romaji": "awaseru",
+   "meaning": "to combine, put together",
+   "chars": [
+    "併"
+   ]
+  },
+  {
+   "word": "稽古",
+   "kana": "けいこ",
+   "romaji": "keiko",
+   "meaning": "practice; training (arts, sports)",
+   "chars": [
+    "稽",
+    "古"
+   ]
+  },
+  {
+   "word": "掌",
+   "kana": "てのひら",
+   "romaji": "tenohira",
+   "meaning": "palm of the hand",
+   "chars": [
+    "掌"
+   ]
+  },
+  {
+   "word": "褒める",
+   "kana": "ほめる",
+   "romaji": "homeru",
+   "meaning": "to praise, commend",
+   "chars": [
+    "褒"
+   ]
+  },
+  {
+   "word": "遺憾",
+   "kana": "いかん",
+   "romaji": "ikan",
+   "meaning": "regret; being regrettable",
+   "chars": [
+    "憾"
+   ]
+  },
+  {
+   "word": "賜る",
+   "kana": "たまわる",
+   "romaji": "tamawaru",
+   "meaning": "to be granted (humble)",
+   "chars": [
+    "賜"
+   ]
+  },
+  {
+   "word": "当該",
+   "kana": "とうがい",
+   "romaji": "tougai",
+   "meaning": "the said, relevant",
+   "chars": [
+    "当",
+    "該"
+   ]
+  },
+  {
+   "word": "示唆",
+   "kana": "しさ",
+   "romaji": "shisa",
+   "meaning": "suggestion",
+   "chars": [
+    "示",
+    "唆"
+   ]
+  },
+  {
+   "word": "滑稽",
+   "kana": "こっけい",
+   "romaji": "kokkei",
+   "meaning": "funny, comical",
+   "chars": [
+    "稽"
+   ]
+  },
+  {
+   "word": "褒美",
+   "kana": "ほうび",
+   "romaji": "houbi",
+   "meaning": "reward, prize",
+   "chars": [
+    "褒",
+    "美"
+   ]
+  },
+  {
+   "word": "若干",
+   "kana": "じゃっかん",
+   "romaji": "jakkan",
+   "meaning": "some",
+   "chars": [
+    "若",
+    "干"
+   ]
+  },
+  {
+   "word": "適当",
+   "kana": "てきとう",
+   "romaji": "tekitou",
+   "meaning": "suitable; appropriate; (also) half-hearted",
+   "chars": [
+    "適",
+    "当"
+   ]
+  },
+  {
+   "word": "恐縮",
+   "kana": "きょうしゅく",
+   "romaji": "kyoushuku",
+   "meaning": "feeling obliged",
+   "chars": [
+    "恐"
+   ]
+  },
+  {
+   "word": "各位",
+   "kana": "かくい",
+   "romaji": "kakui",
+   "meaning": "everyone",
+   "chars": [
+    "各",
+    "位"
+   ]
+  },
+  {
+   "word": "並びに",
+   "kana": "ならびに",
+   "romaji": "narabini",
+   "meaning": "and (also)",
+   "chars": [
+    "並"
+   ]
+  },
+  {
+   "word": "一律",
+   "kana": "いちりつ",
+   "romaji": "ichiritsu",
+   "meaning": "uniform",
+   "chars": [
+    "一",
+    "律"
+   ]
+  },
+  {
+   "word": "拝見",
+   "kana": "はいけん",
+   "romaji": "haiken",
+   "meaning": "seeing",
+   "chars": [
+    "拝",
+    "見"
+   ]
+  }
+ ]
 }

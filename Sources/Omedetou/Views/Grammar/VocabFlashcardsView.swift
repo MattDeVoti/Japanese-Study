@@ -169,6 +169,7 @@ struct VocabFlashcardsView: View {
                 HStack {
                     Button {
                         filter.toggleFavorite(card.word.id)
+                        FeedbackSounds.shared.playFavorite(filter.isFavorite(card.word.id))
                     } label: {
                         Image(systemName: isFav ? "star.fill" : "star")
                             .font(.system(size: 26))
@@ -248,6 +249,9 @@ struct VocabFlashcardsView: View {
                         Spacer()
 
                         CheckButton {
+                            // Turning the card over is neither right nor wrong, so it
+                            // gets the neutral tone rather than a verdict cue.
+                            FeedbackSounds.shared.play(.notification)
                             withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
                                 isRevealed = true
                             }
@@ -264,10 +268,8 @@ struct VocabFlashcardsView: View {
             // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
                 Button {
+                    FeedbackSounds.shared.play(.incorrect)
                     let didUncheck = filter.markNeedsWork(card.word.id, direction: cardDirection)
-                    // Studying a card is a review: this both enrols it in the
-                    // schedule and books its next showing.
-                    SRSStore.shared.grade(.vocab(card.word.id), .again)
                     history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                                          action: .needsWork(didUncheck: didUncheck)))
                     // Counted before the next deal, and never mind the verdict:
@@ -422,8 +424,9 @@ struct VocabFlashcardsView: View {
     /// pops a green check over the card, then advances to the next card.
     private func confirmConfident(_ card: VocabFlashCard) {
         guard !showConfidentPop else { return }
+        // Same shuffled piano sting the audio flashcards answer a correct card with.
+        FeedbackSounds.shared.playCorrectVariation()
         filter.markConfident(card.word.id)
-        SRSStore.shared.grade(.vocab(card.word.id), .good)
         let wasChecked = filter.isExcluded(card.word.id, direction: cardDirection)
         if !wasChecked { filter.toggleExcluded(card.word.id, direction: cardDirection) }
         history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
@@ -487,6 +490,12 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
     let allCards: [VocabFlashCard]
     /// Set by the vocal deck: one tap adopts the written flashcards' selections.
     var copyFromFlashcards: (() -> Void)? = nil
+    /// Set by the audio deck. Its answer window is a property of a spoken
+    /// session, so it belongs in that deck's own options rather than in the
+    /// app-wide sheet where it used to sit — nothing about it applies to the
+    /// written cards.
+    var showsAudioOptions: Bool = false
+    @ObservedObject private var vocalSettings = VocalStudySettings.shared
     @Environment(\.dismiss) private var dismiss
 
     private var manifest: LessonManifest? { LessonsService.shared.manifest }
@@ -524,6 +533,35 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                                     .strokeBorder(Color.appHairline, lineWidth: 1))
                         }
                         .buttonStyle(.plain)
+
+                        Divider()
+                    }
+
+                    if showsAudioOptions {
+                        VoiceSpeedSlider(showsHeading: true)
+
+                        Divider()
+
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Time to answer")
+                                .font(.headline)
+                                .foregroundColor(.appText)
+                            HStack {
+                                Text("\(Int(vocalSettings.answerSeconds)) seconds")
+                                    .font(.system(size: 15, weight: .semibold))
+                                    .foregroundColor(.appText)
+                                    .monospacedDigit()
+                                Spacer()
+                            }
+                            Slider(value: $vocalSettings.answerSeconds,
+                                   in: VocalStudySettings.secondsRange,
+                                   step: 1)
+                                .tint(.appAccent)
+                            Text("How long the microphone stays open after each word is read out. Answering early moves straight on, so a longer window only costs you when you're stuck.")
+                                .font(.caption)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
 
                         Divider()
                     }
@@ -597,7 +635,7 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                         .foregroundColor(.red)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }
                         .fontWeight(.semibold)
                 }
             }
@@ -786,7 +824,9 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
 
 // MARK: - Chapter square
 
-private struct ChapterSquare: View {
+/// A numbered chapter tile in a filter's chapter grid. Shared by the vocab
+/// filter sheet and the kanji options sheet so the two pick chapters alike.
+struct ChapterSquare: View {
     let number: Int
     let color: Color
     let selected: Bool
