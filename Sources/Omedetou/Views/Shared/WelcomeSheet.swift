@@ -26,7 +26,7 @@ struct WelcomeSheet: View {
 
                     VStack(alignment: .leading, spacing: 20) {
                         point("wrench.and.screwdriver.fill", "Still being polished",
-                              "Omedetou is in beta. The lessons, readings and tests have all been checked over carefully — but there's a lot of material here, so the odd detail may still need tweaking. If something doesn't match your teacher or textbook, trust them over the app.")
+                              "The lessons, readings and tests have all been checked over carefully — but there's a lot of material here, so the odd detail may still need tweaking. If something doesn't match your teacher or textbook, trust them over the app.")
 
                         point("envelope.fill", "Tell me what's broken",
                               "Tap the gear on the home screen and choose Send Feedback. If a translation looks wrong, or something doesn't work, that's the quickest way to get it fixed.")
