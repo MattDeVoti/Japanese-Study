@@ -328,7 +328,7 @@
    "name": "〜はずだ (hazu da) — should be / supposed to",
    "shortDescription": "A logical expectation — 'should be' or 'supposed to' based on reasoning, not guesswork.",
    "formation": "Plain form + はずです  |  Noun + の + はずです",
-   "explanation": "はずだ is the grammar of logical confidence. When you have a reason to expect something — a schedule, a known rule, something someone told you — はずだ is how you express that reasoned expectation.\n\nThe key distinction: はずだ is not a guess. It's a conclusion from evidence. If the timetable says the train arrives at 3pm, you say 三時[さんじ]に着[つ]くはずです — 'It should arrive at 3' — because you have a logical basis. If you were just guessing with no particular reason, you'd use a different expression. (かもしれない, which you studied in Chapter 14, is for genuine uncertainty. The wondering particles かな・かしら in Chapter 27 add one more shade to this scale.)\n\nFormation: plain form + はずです. For nouns: Noun + の + はずです. For な-adjectives: stem + な + はずです (静[しず]かなはずです = it should be quiet).\n\nThe negative form deserves special attention: はずがない (or はずがありません) is a strong denial of logic — 'there is no way that.' 彼女[かのじょ]がそんなことをするはずがない: 'There's no way she would do that.' It's not 'I don't think so' — it's 'logically it can't be so.'\n\nThe regret form: 〜はずだったのに means 'it was supposed to happen, but it didn't.' The のに at the end carries the sense of disappointment at the expectation not being met.",
+   "explanation": "はずだ is the grammar of logical confidence. When you have a reason to expect something — a schedule, a known rule, something someone told you — はずだ is how you express that reasoned expectation.\n\nThe key distinction: はずだ is not a guess. It's a conclusion from evidence. If the timetable says the train arrives at 3pm, you say 三時[さんじ]に着[つ]くはずです — 'It should arrive at 3' — because you have a logical basis. If you were just guessing with no particular reason, you'd use a different expression. (かもしれない, which you studied in Chapter 16, is for genuine uncertainty. The wondering particles かな・かしら in Chapter 29 add one more shade to this scale.)\n\nFormation: plain form + はずです. For nouns: Noun + の + はずです. For な-adjectives: stem + な + はずです (静[しず]かなはずです = it should be quiet).\n\nThe negative form deserves special attention: はずがない (or はずがありません) is a strong denial of logic — 'there is no way that.' 彼女[かのじょ]がそんなことをするはずがない: 'There's no way she would do that.' It's not 'I don't think so' — it's 'logically it can't be so.'\n\nThe regret form: 〜はずだったのに means 'it was supposed to happen, but it didn't.' The のに at the end carries the sense of disappointment at the expectation not being met.",
    "rules": [
     "Plain form + はずです = should be / supposed to (logical expectation with a basis)",
     "Noun + の + はずです; な-adj stem + な + はずです",
@@ -504,8 +504,8 @@
     {
      "id": "hazu-da_q11",
      "type": "fillBlank",
-     "prompt": "Fill in the blank: このメールは昨日[きのう]届[とど]く___だ。(This email was supposed to arrive yesterday.)",
-     "japanese": "このメールは昨日[きのう]届[とど]く___だ。",
+     "prompt": "Fill in the blank: このメールは昨日[きのう]届[とど]く___だった。(This email was supposed to arrive yesterday.)",
+     "japanese": "このメールは昨日[きのう]届[とど]く___だった。",
      "choices": [
       "はず",
       "べき",
@@ -513,7 +513,7 @@
       "らしい"
      ],
      "correctIndex": 0,
-     "explanation": "〜はずだ = was supposed to / should have. 届[とど]くはずだ = was supposed to arrive (expectation based on prior knowledge). はず in this context expresses an unmet expectation."
+     "explanation": "〜はずだ = was supposed to / should have. 届[とど]くはずだった = was supposed to arrive (はず + だった puts the expectation in the past) (expectation based on prior knowledge). はず in this context expresses an unmet expectation."
     },
     {
      "id": "hazu-da_q12",
@@ -968,7 +968,7 @@
    "name": "〜てよかった (te yokatta) — glad that / good thing that",
    "shortDescription": "Expresses relief or gladness that something happened — the emotional opposite of ばよかった.",
    "formation": "Verb (て-form) + よかった  |  い-adj stem + くてよかった",
-   "explanation": "〜てよかった is the grammar of relieved satisfaction. 'Good thing I did that.' 'I'm so glad that happened.' It's a warm expression of positive feeling about how something turned out.\n\n日本語[にほんご]を勉強[べんきょう]してよかった: 'I'm glad I studied Japanese.' 間[ま]に合[あ]ってよかった: 'Good thing I made it in time.' There's often a breath of relief in these sentences — you might not have done it, or it might not have worked out, but it did, and you're glad.\n\nThe contrast with 〜ばよかった (Chapter 17) is worth feeling clearly:\n• ばよかった: regret about the past — 'I should have studied more (but I didn't).'\n• てよかった: relief about the past — 'I'm glad I studied (and it paid off).'\nSame grammatical area — よかった following a conditional form — opposite emotions.\n\nFormation: verb in て-form + よかった. For い-adjectives, use the くて-form: 安[やす]くてよかった (I'm glad it was cheap). This pattern also works with 〜なくてよかった for 'glad something did NOT happen': 傘[かさ]を忘[わす]れなくてよかった (Good thing I didn't forget my umbrella).",
+   "explanation": "〜てよかった is the grammar of relieved satisfaction. 'Good thing I did that.' 'I'm so glad that happened.' It's a warm expression of positive feeling about how something turned out.\n\n日本語[にほんご]を勉強[べんきょう]してよかった: 'I'm glad I studied Japanese.' 間[ま]に合[あ]ってよかった: 'Good thing I made it in time.' There's often a breath of relief in these sentences — you might not have done it, or it might not have worked out, but it did, and you're glad.\n\nThe contrast with 〜ばよかった (Chapter 19) is worth feeling clearly:\n• ばよかった: regret about the past — 'I should have studied more (but I didn't).'\n• てよかった: relief about the past — 'I'm glad I studied (and it paid off).'\nSame grammatical area — よかった following a conditional form — opposite emotions.\n\nFormation: verb in て-form + よかった. For い-adjectives, use the くて-form: 安[やす]くてよかった (I'm glad it was cheap). This pattern also works with 〜なくてよかった for 'glad something did NOT happen': 傘[かさ]を忘[わす]れなくてよかった (Good thing I didn't forget my umbrella).",
    "rules": [
     "Verb (て-form) + よかった = I'm glad that / good thing that [action happened]",
     "い-adj: stem + くてよかった (安[やす]くてよかった = I'm glad it was cheap)",
@@ -1615,15 +1615,15 @@
   },
   {
    "char": "業",
-   "word": "業",
-   "reading": "ぎょう",
-   "meaning": "work"
+   "word": "職業",
+   "reading": "しょくぎょう",
+   "meaning": "occupation"
   },
   {
    "char": "員",
-   "word": "員",
-   "reading": "いん",
-   "meaning": "member"
+   "word": "店員",
+   "reading": "てんいん",
+   "meaning": "shop assistant"
   },
   {
    "char": "手",
@@ -1709,20 +1709,12 @@
    ]
   },
   {
-   "word": "業",
-   "kana": "ぎょう",
-   "romaji": "gyou",
-   "meaning": "work",
+   "word": "店員",
+   "kana": "てんいん",
+   "romaji": "tenin",
+   "meaning": "shop assistant",
    "chars": [
-    "業"
-   ]
-  },
-  {
-   "word": "員",
-   "kana": "いん",
-   "romaji": "in",
-   "meaning": "member",
-   "chars": [
+    "店",
     "員"
    ]
   },

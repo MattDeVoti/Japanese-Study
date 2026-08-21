@@ -19,7 +19,7 @@
    "examples": [
     {
      "japanese": "大雨[おおあめ]のために、電車[でんしゃ]が大幅[おおはば]に遅[おく]れました。",
-     "romaji": "Ooa me no tame ni, densha ga oohaba ni okuremashita.",
+     "romaji": "Ooame no tame ni, densha ga oohaba ni okuremashita.",
      "english": "The trains were significantly delayed due to heavy rain."
     },
     {
@@ -410,12 +410,12 @@
      "japanese": null,
      "choices": [
       "子供[こども]なのに、大人[おとな]っぽく振[ふ]る舞[ま]う。",
-      "子供[こども]なくせに、大人[おとな]っぽく振[ふ]る舞[ま]う。",
+      "子供[こども]のくせに、大人[おとな]っぽく振[ふ]る舞[ま]う。",
       "子供[こども]だのに、大人[おとな]っぽく振[ふ]る舞[ま]う。",
       "子供[こども]なから、大人[おとな]っぽく振[ふ]る舞[ま]う。"
      ],
      "correctIndex": 1,
-     "explanation": "な-adj/noun + なくせに = despite being  (criticism). 子供[こども] + なくせに = despite being a child. 大人[おとな]っぽく振[ふ]る舞[ま]う = acts adult-like. Implies criticism or disapproval of her behavior."
+     "explanation": "Noun + のくせに = despite being (criticism). 子供[こども] + のくせに = despite being a child. 大人[おとな]っぽく振[ふ]る舞[ま]う = acts adult-like. Implies criticism or disapproval of her behavior."
     },
     {
      "id": "kuse-ni_q5",
@@ -509,11 +509,11 @@
      "choices": [
       "先生[せんせい]なのに、答[こた]えが分[わ]からない。",
       "先生[せんせい]だから、答[こた]えが分[わ]からない。",
-      "先生[せんせい]なくせに、答[こた]えが分[わ]からない。",
+      "先生[せんせい]のくせに、答[こた]えが分[わ]からない。",
       "先生[せんせい]でも、答[こた]えが分[わ]からない。"
      ],
      "correctIndex": 2,
-     "explanation": "Noun + なくせに = despite being  (criticism). 先生[せんせい] + なくせに = despite being a teacher (expectation: teachers should know). 答[こた]えが分[わ]からない = doesn't know the answer. Implied: this is unacceptable for a teacher."
+     "explanation": "Noun + のくせに = despite being (criticism). 先生[せんせい] + のくせに = despite being a teacher (expectation: teachers should know). 答[こた]えが分[わ]からない = doesn't know the answer. Implied: this is unacceptable for a teacher."
     },
     {
      "id": "kuse-ni_q12",
@@ -1203,10 +1203,10 @@
      "prompt": "Which correctly says 'It's not that I can't eat spicy food; I'm just not used to it'?",
      "japanese": null,
      "choices": [
-      "辛[つら]いものが食[た]べられないわけではない、慣[な]れていないだけです。",
-      "辛[つら]いものが食[た]べられないのわけではない、慣[な]れていないだけです。",
-      "辛[つら]いものが食[た]べられるわけではない、慣[な]れていないだけです。",
-      "辛[つら]いものが食[た]べられないわけがない、慣[な]れていないだけです。"
+      "辛[から]いものが食[た]べられないわけではない、慣[な]れていないだけです。",
+      "辛[から]いものが食[た]べられないのわけではない、慣[な]れていないだけです。",
+      "辛[から]いものが食[た]べられるわけではない、慣[な]れていないだけです。",
+      "辛[から]いものが食[た]べられないわけがない、慣[な]れていないだけです。"
      ],
      "correctIndex": 0,
      "explanation": "〜ないわけではない: 食[た]べられない + わけではない = it's not that  can't eat. 慣[な]れていないだけです = just not used to it. The soft denial + actual situation."
@@ -1231,13 +1231,13 @@
      "prompt": "Which correctly says 'Not all Japanese food is raw'?",
      "japanese": null,
      "choices": [
-      "日本食[にほんしょく]はすべて生[う]のわけではない。",
-      "日本食[にほんしょく]はすべて生[う]なわけではない。",
+      "日本食[にほんしょく]はすべて生[なま]のわけではない。",
+      "日本食[にほんしょく]はすべて生[なま]なわけではない。",
       "日本食[にほんしょく]はすべて生[なま]わけではない。",
       "日本食[にほんしょく]はすべて生[なま]だわけではない。"
      ],
      "correctIndex": 1,
-     "explanation": "Noun/na-adj + なわけではない: 生[なま] (raw) + なわけではない = it's not that  raw. 日本食[にほんしょく]はすべて生[う]なわけではない = not all Japanese food is raw. (This denies the common assumption foreigners have.)"
+     "explanation": "Noun/na-adj + なわけではない: 生[なま] (raw) + なわけではない = it's not that  raw. 日本食[にほんしょく]はすべて生[なま]なわけではない = not all Japanese food is raw. (This denies the common assumption foreigners have.)"
     },
     {
      "id": "wake-dewa-nai_q18",
@@ -1304,7 +1304,7 @@
     },
     {
      "japanese": "若[わか]いころは、よく徹夜[てつや]で勉強[べんきょう]したものです。",
-     "romaji": "Wakaikoro wa, yoku tetsuyade benkyou shita mono desu.",
+     "romaji": "Wakai koro wa, yoku tetsuya de benkyou shita mono desu.",
      "english": "In my younger days, I used to study through the night often."
     },
     {
@@ -1929,9 +1929,9 @@
  "kanji": [
   {
    "char": "選",
-   "word": "選",
+   "word": "選ぶ",
    "reading": "えらぶ",
-   "meaning": "elect"
+   "meaning": "to choose"
   },
   {
    "char": "実",
@@ -1959,27 +1959,27 @@
   },
   {
    "char": "活",
-   "word": "活",
-   "reading": "いきる",
-   "meaning": "lively"
+   "word": "生活",
+   "reading": "せいかつ",
+   "meaning": "daily life; living"
   },
   {
    "char": "共",
-   "word": "共に",
-   "reading": "ともに",
-   "meaning": "together"
+   "word": "共通",
+   "reading": "きょうつう",
+   "meaning": "common; shared"
   },
   {
    "char": "昨",
-   "word": "昨",
-   "reading": "さく",
+   "word": "昨日",
+   "reading": "きのう",
    "meaning": "yesterday"
   },
   {
    "char": "打",
-   "word": "打",
-   "reading": "ダース",
-   "meaning": "dozen"
+   "word": "打つ",
+   "reading": "うつ",
+   "meaning": "to hit"
   },
   {
    "char": "置",
@@ -2013,15 +2013,15 @@
   },
   {
    "char": "番",
-   "word": "番",
-   "reading": "つがい",
-   "meaning": "turn"
+   "word": "番号",
+   "reading": "ばんごう",
+   "meaning": "number"
   },
   {
    "char": "術",
-   "word": "術",
-   "reading": "じゅつ",
-   "meaning": "art"
+   "word": "技術",
+   "reading": "ぎじゅつ",
+   "meaning": "technology"
   },
   {
    "char": "配",
@@ -2061,9 +2061,9 @@
   },
   {
    "char": "路",
-   "word": "路",
-   "reading": "じ",
-   "meaning": "path"
+   "word": "道路",
+   "reading": "どうろ",
+   "meaning": "road"
   },
   {
    "char": "太",
@@ -2097,9 +2097,9 @@
   },
   {
    "char": "覚",
-   "word": "覚",
-   "reading": "おぼ",
-   "meaning": "memorize"
+   "word": "覚える",
+   "reading": "おぼえる",
+   "meaning": "to memorise; to learn"
   },
   {
    "char": "留",
@@ -2109,9 +2109,9 @@
   },
   {
    "char": "精",
-   "word": "精",
-   "reading": "せい",
-   "meaning": "spirit"
+   "word": "精神",
+   "reading": "せいしん",
+   "meaning": "mind; spirit"
   },
   {
    "char": "居",
@@ -2151,35 +2151,35 @@
   },
   {
    "char": "陽",
-   "word": "陽",
-   "reading": "よう",
-   "meaning": "(the) positive"
+   "word": "太陽",
+   "reading": "たいよう",
+   "meaning": "sun"
   },
   {
    "char": "祖",
-   "word": "祖",
-   "reading": "そ",
-   "meaning": "ancestor"
+   "word": "祖父",
+   "reading": "そふ",
+   "meaning": "grandfather"
   },
   {
    "char": "眠",
-   "word": "眠",
-   "reading": "ねむ",
-   "meaning": "sleep"
+   "word": "眠い",
+   "reading": "ねむい",
+   "meaning": "sleepy"
   },
   {
    "char": "忙",
-   "word": "忙",
-   "reading": "いそが",
+   "word": "忙しい",
+   "reading": "いそがしい",
    "meaning": "busy"
   }
  ],
  "kanjiWords": [
   {
-   "word": "選",
+   "word": "選ぶ",
    "kana": "えらぶ",
    "romaji": "erabu",
-   "meaning": "elect",
+   "meaning": "to choose",
    "chars": [
     "選"
    ]
@@ -2223,39 +2223,33 @@
    ]
   },
   {
-   "word": "活",
-   "kana": "いきる",
-   "romaji": "ikiru",
-   "meaning": "lively",
+   "word": "生活",
+   "kana": "せいかつ",
+   "romaji": "seikatsu",
+   "meaning": "daily life; living",
    "chars": [
+    "生",
     "活"
    ]
   },
   {
-   "word": "共に",
-   "kana": "ともに",
-   "romaji": "tomoni",
-   "meaning": "together",
+   "word": "共通",
+   "kana": "きょうつう",
+   "romaji": "kyoutsuu",
+   "meaning": "common; shared",
    "chars": [
-    "共"
+    "共",
+    "通"
    ]
   },
   {
-   "word": "昨",
-   "kana": "さく",
-   "romaji": "saku",
+   "word": "昨日",
+   "kana": "きのう",
+   "romaji": "kinou",
    "meaning": "yesterday",
    "chars": [
-    "昨"
-   ]
-  },
-  {
-   "word": "打",
-   "kana": "ダース",
-   "romaji": "daasu",
-   "meaning": "dozen",
-   "chars": [
-    "打"
+    "昨",
+    "日"
    ]
   },
   {
@@ -2304,21 +2298,13 @@
    ]
   },
   {
-   "word": "番",
-   "kana": "つがい",
-   "romaji": "tsugai",
-   "meaning": "turn",
+   "word": "番号",
+   "kana": "ばんごう",
+   "romaji": "bangou",
+   "meaning": "number",
    "chars": [
-    "番"
-   ]
-  },
-  {
-   "word": "術",
-   "kana": "じゅつ",
-   "romaji": "jutsu",
-   "meaning": "art",
-   "chars": [
-    "術"
+    "番",
+    "号"
    ]
   },
   {
@@ -2378,11 +2364,12 @@
    ]
   },
   {
-   "word": "路",
-   "kana": "じ",
-   "romaji": "ji",
-   "meaning": "path",
+   "word": "道路",
+   "kana": "どうろ",
+   "romaji": "douro",
+   "meaning": "road",
    "chars": [
+    "道",
     "路"
    ]
   },
@@ -2433,10 +2420,10 @@
    ]
   },
   {
-   "word": "覚",
-   "kana": "おぼ",
-   "romaji": "obo",
-   "meaning": "memorize",
+   "word": "覚える",
+   "kana": "おぼえる",
+   "romaji": "oboeru",
+   "meaning": "to memorise; to learn",
    "chars": [
     "覚"
    ]
@@ -2451,12 +2438,13 @@
    ]
   },
   {
-   "word": "精",
-   "kana": "せい",
-   "romaji": "sei",
-   "meaning": "spirit",
+   "word": "精神",
+   "kana": "せいしん",
+   "romaji": "seishin",
+   "meaning": "mind; spirit",
    "chars": [
-    "精"
+    "精",
+    "神"
    ]
   },
   {
@@ -2514,36 +2502,38 @@
    ]
   },
   {
-   "word": "陽",
-   "kana": "よう",
-   "romaji": "you",
-   "meaning": "(the) positive",
+   "word": "太陽",
+   "kana": "たいよう",
+   "romaji": "taiyou",
+   "meaning": "sun",
    "chars": [
+    "太",
     "陽"
    ]
   },
   {
-   "word": "祖",
-   "kana": "そ",
-   "romaji": "so",
-   "meaning": "ancestor",
+   "word": "祖父",
+   "kana": "そふ",
+   "romaji": "sofu",
+   "meaning": "grandfather",
    "chars": [
-    "祖"
+    "祖",
+    "父"
    ]
   },
   {
-   "word": "眠",
-   "kana": "ねむ",
-   "romaji": "nemu",
-   "meaning": "sleep",
+   "word": "眠い",
+   "kana": "ねむい",
+   "romaji": "nemui",
+   "meaning": "sleepy",
    "chars": [
     "眠"
    ]
   },
   {
-   "word": "忙",
-   "kana": "いそが",
-   "romaji": "isoga",
+   "word": "忙しい",
+   "kana": "いそがしい",
+   "romaji": "isogashii",
    "meaning": "busy",
    "chars": [
     "忙"
@@ -2626,10 +2616,10 @@
    ]
   },
   {
-   "word": "破り",
-   "kana": "やぶり",
-   "romaji": "yaburi",
-   "meaning": "getting away from",
+   "word": "破損",
+   "kana": "はそん",
+   "romaji": "hason",
+   "meaning": "damage; breakage",
    "chars": [
     "破"
    ]

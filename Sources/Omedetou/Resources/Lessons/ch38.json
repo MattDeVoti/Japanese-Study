@@ -1,7 +1,7 @@
 {
  "id": "ch38",
  "chapterNumber": 40,
- "title": "Cause and Responsibility",
+ "title": "Cause and Attribution",
  "points": [
   {
    "id": "okage-de",
@@ -729,10 +729,10 @@
      "prompt": "Which correctly says 'Because it was discovered by a Dutch person, this route is called the Dutch Route'?",
      "japanese": null,
      "choices": [
-      "オランダ人[ひと]によって発見[はっけん]されたことから、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
-      "オランダ人[ひと]によって発見[はっけん]されたから、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
-      "オランダ人[ひと]によって発見[はっけん]されたせいで、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
-      "オランダ人[ひと]によって発見[はっけん]されたのに、この道[みち]はオランダ道[みち]と呼[よ]ばれている。"
+      "オランダ人[じん]によって発見[はっけん]されたことから、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
+      "オランダ人[じん]によって発見[はっけん]されたから、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
+      "オランダ人[じん]によって発見[はっけん]されたせいで、この道[みち]はオランダ道[みち]と呼[よ]ばれている。",
+      "オランダ人[じん]によって発見[はっけん]されたのに、この道[みち]はオランダ道[みち]と呼[よ]ばれている。"
      ],
      "correctIndex": 0,
      "explanation": "Past form + ことから: 発見[はっけん]された + ことから = from the fact that it was discovered. オランダ道[みち]と呼[よ]ばれている = is called the Dutch Route. Naming/etymology explanation — classic ことから use."
@@ -983,8 +983,8 @@
      "english": "All because I said something unnecessary, I ended up causing a misunderstanding."
     },
     {
-     "japanese": "少[すこ]し油断[ゆだん]したばかりに、大事[だいじ]な試合[しあい]を負[ま]けてしまった。",
-     "romaji": "Sukoshi yudan shita bakari ni, daiji na shiai wo makete shimatta.",
+     "japanese": "少[すこ]し油断[ゆだん]したばかりに、大事[だいじ]な試合[しあい]に負[ま]けてしまった。",
+     "romaji": "Sukoshi yudan shita bakari ni, daiji na shiai ni makete shimatta.",
      "english": "All because I let my guard down for a moment, I lost an important match."
     },
     {
@@ -1609,9 +1609,9 @@
  "kanji": [
   {
    "char": "領",
-   "word": "領",
-   "reading": "えり",
-   "meaning": "jurisdiction"
+   "word": "大統領",
+   "reading": "だいとうりょう",
+   "meaning": "president (of a country)"
   },
   {
    "char": "保",
@@ -1657,9 +1657,9 @@
   },
   {
    "char": "況",
-   "word": "況して",
-   "reading": "まして",
-   "meaning": "still more"
+   "word": "状況",
+   "reading": "じょうきょう",
+   "meaning": "situation; circumstances"
   },
   {
    "char": "岸",
@@ -1669,15 +1669,15 @@
   },
   {
    "char": "周",
-   "word": "周",
-   "reading": "まわ",
+   "word": "周り",
+   "reading": "まわり",
    "meaning": "circumference"
   },
   {
    "char": "超",
-   "word": "超",
-   "reading": "ちょう",
-   "meaning": "super-"
+   "word": "超える",
+   "reading": "こえる",
+   "meaning": "to exceed; to cross"
   },
   {
    "char": "療",
@@ -1705,15 +1705,15 @@
   },
   {
    "char": "爆",
-   "word": "爆",
-   "reading": "はぜる",
+   "word": "爆弾",
+   "reading": "ばくだん",
    "meaning": "bomb"
   },
   {
    "char": "延",
    "word": "延べ",
    "reading": "のべ",
-   "meaning": "futures"
+   "meaning": "total; cumulative (e.g. visitor count)"
   },
   {
    "char": "乱",
@@ -1729,9 +1729,9 @@
   },
   {
    "char": "齢",
-   "word": "齢",
-   "reading": "よわい",
-   "meaning": "(one's) age"
+   "word": "年齢",
+   "reading": "ねんれい",
+   "meaning": "age"
   },
   {
    "char": "損",
@@ -1741,9 +1741,9 @@
   },
   {
    "char": "昇",
-   "word": "昇",
-   "reading": "のぼる",
-   "meaning": "rise up"
+   "word": "上昇",
+   "reading": "じょうしょう",
+   "meaning": "rise; ascent"
   },
   {
    "char": "寺",
@@ -1753,9 +1753,9 @@
   },
   {
    "char": "依",
-   "word": "依",
-   "reading": "よる",
-   "meaning": "reliant"
+   "word": "依存",
+   "reading": "いぞん",
+   "meaning": "dependence"
   },
   {
    "char": "傾",
@@ -1777,9 +1777,9 @@
   },
   {
    "char": "律",
-   "word": "律",
-   "reading": "りつ",
-   "meaning": "rhythm"
+   "word": "法律",
+   "reading": "ほうりつ",
+   "meaning": "law"
   },
   {
    "char": "泉",
@@ -1855,9 +1855,9 @@
   },
   {
    "char": "召",
-   "word": "召",
-   "reading": "めす",
-   "meaning": "seduce"
+   "word": "召し上がる",
+   "reading": "めしあがる",
+   "meaning": "to eat"
   },
   {
    "char": "鈍",
@@ -1873,9 +1873,9 @@
   },
   {
    "char": "濯",
-   "word": "濯",
-   "reading": "すすぐ",
-   "meaning": "laundry"
+   "word": "洗濯",
+   "reading": "せんたく",
+   "meaning": "laundry; washing"
   },
   {
    "char": "舟",
@@ -1892,11 +1892,12 @@
  ],
  "kanjiWords": [
   {
-   "word": "領",
-   "kana": "えり",
-   "romaji": "eri",
-   "meaning": "jurisdiction",
+   "word": "大統領",
+   "kana": "だいとうりょう",
+   "romaji": "daitouryou",
+   "meaning": "president (of a country)",
    "chars": [
+    "大",
     "領"
    ]
   },
@@ -1967,11 +1968,12 @@
    ]
   },
   {
-   "word": "況して",
-   "kana": "まして",
-   "romaji": "mashite",
-   "meaning": "still more",
+   "word": "状況",
+   "kana": "じょうきょう",
+   "romaji": "joukyou",
+   "meaning": "situation; circumstances",
    "chars": [
+    "状",
     "況"
    ]
   },
@@ -1985,19 +1987,10 @@
    ]
   },
   {
-   "word": "周",
-   "kana": "まわ",
-   "romaji": "mawa",
-   "meaning": "circumference",
-   "chars": [
-    "周"
-   ]
-  },
-  {
-   "word": "超",
-   "kana": "ちょう",
-   "romaji": "chou",
-   "meaning": "super-",
+   "word": "超える",
+   "kana": "こえる",
+   "romaji": "koeru",
+   "meaning": "to exceed; to cross",
    "chars": [
     "超"
    ]
@@ -2042,21 +2035,12 @@
    ]
   },
   {
-   "word": "爆",
-   "kana": "はぜる",
-   "romaji": "hazeru",
+   "word": "爆弾",
+   "kana": "ばくだん",
+   "romaji": "bakudan",
    "meaning": "bomb",
    "chars": [
     "爆"
-   ]
-  },
-  {
-   "word": "延べ",
-   "kana": "のべ",
-   "romaji": "nobe",
-   "meaning": "futures",
-   "chars": [
-    "延"
    ]
   },
   {
@@ -2078,11 +2062,12 @@
    ]
   },
   {
-   "word": "齢",
-   "kana": "よわい",
-   "romaji": "yowai",
-   "meaning": "(one's) age",
+   "word": "年齢",
+   "kana": "ねんれい",
+   "romaji": "nenrei",
+   "meaning": "age",
    "chars": [
+    "年",
     "齢"
    ]
   },
@@ -2096,11 +2081,12 @@
    ]
   },
   {
-   "word": "昇",
-   "kana": "のぼる",
-   "romaji": "noboru",
-   "meaning": "rise up",
+   "word": "上昇",
+   "kana": "じょうしょう",
+   "romaji": "joushou",
+   "meaning": "rise; ascent",
    "chars": [
+    "上",
     "昇"
    ]
   },
@@ -2114,12 +2100,13 @@
    ]
   },
   {
-   "word": "依",
-   "kana": "よる",
-   "romaji": "yoru",
-   "meaning": "reliant",
+   "word": "依存",
+   "kana": "いぞん",
+   "romaji": "izon",
+   "meaning": "dependence",
    "chars": [
-    "依"
+    "依",
+    "存"
    ]
   },
   {
@@ -2150,11 +2137,12 @@
    ]
   },
   {
-   "word": "律",
-   "kana": "りつ",
-   "romaji": "ritsu",
-   "meaning": "rhythm",
+   "word": "法律",
+   "kana": "ほうりつ",
+   "romaji": "houritsu",
+   "meaning": "law",
    "chars": [
+    "法",
     "律"
    ]
   },
@@ -2267,15 +2255,6 @@
    ]
   },
   {
-   "word": "召",
-   "kana": "めす",
-   "romaji": "mesu",
-   "meaning": "seduce",
-   "chars": [
-    "召"
-   ]
-  },
-  {
    "word": "鈍い",
    "kana": "にぶい",
    "romaji": "nibui",
@@ -2294,11 +2273,12 @@
    ]
   },
   {
-   "word": "濯",
-   "kana": "すすぐ",
-   "romaji": "susugu",
-   "meaning": "laundry",
+   "word": "洗濯",
+   "kana": "せんたく",
+   "romaji": "sentaku",
+   "meaning": "laundry; washing",
    "chars": [
+    "洗",
     "濯"
    ]
   },
@@ -2340,13 +2320,13 @@
    ]
   },
   {
-   "word": "候補",
-   "kana": "こうほ",
-   "romaji": "kouho",
-   "meaning": "candidate",
+   "word": "気候",
+   "kana": "きこう",
+   "romaji": "kikou",
+   "meaning": "climate",
    "chars": [
-    "候",
-    "補"
+    "気",
+    "候"
    ]
   },
   {
@@ -2464,7 +2444,7 @@
    "word": "対応",
    "kana": "たいおう",
    "romaji": "taiou",
-   "meaning": "correspondence (to)",
+   "meaning": "response; dealing with; handling; correspondence",
    "chars": [
     "対"
    ]
@@ -2512,7 +2492,7 @@
    "word": "格差",
    "kana": "かくさ",
    "romaji": "kakusa",
-   "meaning": "qualitative difference",
+   "meaning": "disparity; gap (e.g. in income)",
    "chars": [
     "格",
     "差"
@@ -2625,6 +2605,15 @@
    "chars": [
     "抑",
     "制"
+   ]
+  },
+  {
+   "word": "延べ",
+   "kana": "のべ",
+   "romaji": "nobe",
+   "meaning": "total; cumulative (e.g. visitor count)",
+   "chars": [
+    "延"
    ]
   }
  ]

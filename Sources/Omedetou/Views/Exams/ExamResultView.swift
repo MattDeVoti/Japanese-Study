@@ -23,8 +23,11 @@ struct ExamResultView: View {
                 sections
 
                 if missedCount > 0 {
-                    Label("\(missedCount) missed item\(missedCount == 1 ? "" : "s") added to your reviews",
-                          systemImage: "bolt.fill")
+                    // Says what actually happens. Missed items used to be queued
+                    // into a review deck; that deck is gone, and the line stayed
+                    // behind promising something the app no longer does.
+                    Label("\(missedCount) item\(missedCount == 1 ? "" : "s") missed — each one is in Review the paper below",
+                          systemImage: "list.bullet.rectangle")
                         .font(.system(size: 13, weight: .medium))
                         .foregroundColor(.appTextSecondary)
                         .padding(.horizontal, 14).padding(.vertical, 10)
@@ -49,6 +52,7 @@ struct ExamResultView: View {
                 .padding(.horizontal, 14)
                 .padding(.vertical, 12)
                 .background(RoundedRectangle(cornerRadius: 12).fill(Color.appSurface))
+                .onChange(of: showPaper) { _ in FeedbackSounds.shared.play(.slide) }
             }
             .padding(20)
         }
@@ -158,32 +162,38 @@ struct ExamResultView: View {
                 Image(systemName: right ? "checkmark.circle.fill" : "xmark.circle.fill")
                     .foregroundColor(right ? Color(hex: "22C55E") : Color(hex: "EF4444"))
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(q.prompt)
-                        .font(.system(size: 13, weight: .semibold))
-                        .foregroundColor(.appText)
+                    JapaneseText(text: q.prompt, fontSize: 13,
+                                 color: .appText, weight: .semibold)
                     if let s = q.subject, !s.isEmpty {
-                        FuriganaText(text: s, fontSize: 15, color: .appText)
-                            .frame(height: 30)
+                        JapaneseText(text: s, fontSize: 15, color: .appText)
                     }
                     if !right {
                         if let chosen, q.choices.indices.contains(chosen) {
-                            Text("You said: \(q.choices[chosen])")
-                                .font(.system(size: 12))
-                                .foregroundColor(Color(hex: "EF4444"))
+                            // Split from its label so the answer itself can carry
+                            // furigana: interpolating it into a Text would print
+                            // the markup as brackets.
+                            HStack(alignment: .firstTextBaseline, spacing: 4) {
+                                Text("You said:")
+                                    .font(.system(size: 12))
+                                    .foregroundColor(Color(hex: "EF4444"))
+                                JapaneseText(text: q.choices[chosen], fontSize: 12,
+                                             color: Color(hex: "EF4444"))
+                            }
                         } else {
                             Text("Unanswered")
                                 .font(.system(size: 12))
                                 .foregroundColor(Color(hex: "EF4444"))
                         }
-                        Text("Answer: \(q.correctAnswer)")
-                            .font(.system(size: 12, weight: .semibold))
-                            .foregroundColor(Color(hex: "22C55E"))
+                        HStack(alignment: .firstTextBaseline, spacing: 4) {
+                            Text("Answer:")
+                                .font(.system(size: 12, weight: .semibold))
+                                .foregroundColor(Color(hex: "22C55E"))
+                            JapaneseText(text: q.correctAnswer, fontSize: 12,
+                                         color: Color(hex: "22C55E"), weight: .semibold)
+                        }
                     }
                     if let e = q.explanation, !right {
-                        Text(e)
-                            .font(.system(size: 11))
-                            .foregroundColor(.appTextSecondary)
-                            .fixedSize(horizontal: false, vertical: true)
+                        JapaneseText(text: e, fontSize: 11, color: .appTextSecondary)
                     }
                 }
             }

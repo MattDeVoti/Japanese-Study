@@ -29,7 +29,7 @@ struct HelpView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
                 }
             }
         }
@@ -63,6 +63,7 @@ struct HelpView: View {
         return VStack(alignment: .leading, spacing: 10) {
             Button {
                 withAnimation(.easeInOut(duration: 0.18)) {
+                    FeedbackSounds.shared.play(.slide)
                     if isOpen { open.remove(topic.id) } else { open.insert(topic.id) }
                 }
             } label: {

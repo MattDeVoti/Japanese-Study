@@ -161,6 +161,12 @@ final class SmartStudyEngine: ObservableObject {
     static let settledCycle = 21          // then a repeating 20:1, indefinitely
     static let settledStandard = 20
 
+    /// How many un-checked cards have to pile up at the end of the course before
+    /// the programme dips back into Standard. Exactly one settled run's worth of
+    /// Standard slots, so a batch is worked through in one cycle rather than
+    /// running dry a few cards in.
+    static let refillTarget = settledStandard
+
     // MARK: - State
 
     /// Everything that has to survive a hard close, in one `Codable` blob under
@@ -207,6 +213,33 @@ final class SmartStudyEngine: ObservableObject {
         /// tracking yet" — adopt whatever is there without treating it as a
         /// change.
         var appliedSelection: [String]?
+
+        /// No chapter anywhere in the course has work left. The tour has nowhere
+        /// to move on to, so the schedule switches to its end-of-course loop.
+        var courseComplete = false
+
+        /// Within the end-of-course loop: true while waiting for forgotten words
+        /// to pile up again, false while working through the batch that piled up.
+        var refilling = false
+
+        // Decoded field by field so that adding one doesn't throw away a
+        // learner's programme: the synthesised decoder fails outright on a key
+        // that isn't in an older saved blob, and the caller treats a decode
+        // failure as "start over".
+        init() {}
+
+        init(from decoder: Decoder) throws {
+            let c = try decoder.container(keyedBy: CodingKeys.self)
+            chapterId = try c.decodeIfPresent(String.self, forKey: .chapterId)
+            counting = try c.decodeIfPresent(Bool.self, forKey: .counting) ?? false
+            countdown = try c.decodeIfPresent(Int.self, forKey: .countdown) ?? 0
+            cardsSinceAdvance = try c.decodeIfPresent(Int.self, forKey: .cardsSinceAdvance) ?? 0
+            hasAdvanced = try c.decodeIfPresent(Bool.self, forKey: .hasAdvanced) ?? false
+            manualGrace = try c.decodeIfPresent(Int.self, forKey: .manualGrace) ?? 0
+            appliedSelection = try c.decodeIfPresent([String].self, forKey: .appliedSelection)
+            courseComplete = try c.decodeIfPresent(Bool.self, forKey: .courseComplete) ?? false
+            refilling = try c.decodeIfPresent(Bool.self, forKey: .refilling) ?? false
+        }
     }
 
     private var state = State()
@@ -320,6 +353,12 @@ final class SmartStudyEngine: ObservableObject {
         state.chapterId = currentChapter(in: cards, filter: filter)
         state.counting = false
         state.countdown = 0
+        // The learner may have just added a chapter with work left in it, which
+        // is precisely what "course complete" claimed there was none of. Let the
+        // ordinary tour decide again rather than staying in the end-of-course
+        // loop over a deck that has grown.
+        state.courseComplete = false
+        state.refilling = false
 
         // The grace only means anything once the mix is running. Before the
         // first move everything is plain Standard already, so a grace here would
@@ -397,6 +436,30 @@ final class SmartStudyEngine: ObservableObject {
         state.cardsSinceAdvance += 1
         if state.counting { state.countdown += 1 }
 
+        // End of the course: there is no next chapter, so the tour stops moving
+        // and runs a loop of its own instead. Measured across the whole
+        // selection rather than the current chapter — a word forgotten in
+        // chapter 3 is exactly what this loop exists to bring back.
+        if state.courseComplete {
+            let pile = uncheckedInSelection(cards: cards, filter: filter)
+            if state.refilling {
+                if pile >= Self.refillTarget {
+                    // A batch is due. Before running it, check once whether the
+                    // course really is still finished: a content update can add
+                    // chapters, and this is the one cheap moment to notice —
+                    // once per batch rather than once per card.
+                    if advanceChapter(cards: cards, filter: filter) { return true }
+                    state.refilling = false
+                    // Start the batch at the top of a settled cycle, so it opens
+                    // with its twenty Standard cards rather than partway through.
+                    state.cardsSinceAdvance = 0
+                }
+            } else if pile == 0 {
+                state.refilling = true
+            }
+            return false
+        }
+
         if state.counting, unchecked >= threshold {
             // The chapter got *thicker*: marking a forgotten word Needs Work
             // unchecks it, which can push the count back over the line. That
@@ -442,7 +505,9 @@ final class SmartStudyEngine: ObservableObject {
                            hasAdvanced: state.hasAdvanced,
                            counting: state.counting,
                            unchecked: unchecked,
-                           manualGrace: state.manualGrace)
+                           manualGrace: state.manualGrace,
+                           courseComplete: state.courseComplete,
+                           refilling: state.refilling)
     }
 
     // BEGIN-SCHEDULE (extracted verbatim by the schedule test — see the file
@@ -471,6 +536,11 @@ final class SmartStudyEngine: ObservableObject {
         /// The long run: one backward glance every twenty-one cards, for as long
         /// as the learner stays on this chapter.
         case upkeep(n: Int)
+        /// The course is finished — every chapter cleared, nothing left to move
+        /// on to. Standard can only deal words that have since been un-checked,
+        /// so the programme waits on the Priority side while a batch of them
+        /// piles up (`refilling`), then runs the settled mix over that batch.
+        case finished(refilling: Bool, n: Int)
 
         /// Compact description for the debug readout. The trailing ratio is
         /// Standard : Priority Study, so the mix can be read without having to
@@ -488,6 +558,10 @@ final class SmartStudyEngine: ObservableObject {
                     + " (\(taperStandard):\(taperCycle - taperStandard))"
             case .upkeep(let n):
                 return "upkeep \(n % settledCycle)/\(settledCycle) (\(settledStandard):1)"
+            case .finished(let refilling, let n):
+                return refilling
+                    ? "finished · refilling (priority only)"
+                    : "finished · batch \(n % settledCycle)/\(settledCycle) (\(settledStandard):1)"
             }
         }
     }
@@ -498,8 +572,13 @@ final class SmartStudyEngine: ObservableObject {
     /// here. Deriving the phase in two places is exactly how a readout ends up
     /// quietly disagreeing with the deck it claims to describe.
     static func phase(cardsSinceAdvance n: Int, hasAdvanced: Bool,
-                      manualGrace: Int) -> Phase {
+                      manualGrace: Int,
+                      courseComplete: Bool = false, refilling: Bool = false) -> Phase {
         if manualGrace > 0 { return .grace(left: manualGrace) }
+        // Outranks the ordinary cycle: with nothing left to move on to, the
+        // phases that exist to pace a move through new material no longer mean
+        // anything.
+        if courseComplete { return .finished(refilling: refilling, n: n) }
         guard hasAdvanced else { return .preMove }
         if n < alternatingCards { return .alternating(n: n) }
         if n < alternatingCards + taperCards {
@@ -514,9 +593,12 @@ final class SmartStudyEngine: ObservableObject {
     /// grace beats starvation beats the mix.
     static func scheduledMode(cardsSinceAdvance n: Int, hasAdvanced: Bool,
                               counting: Bool, unchecked: Int,
-                              manualGrace: Int = 0) -> WeightMode {
+                              manualGrace: Int = 0,
+                              courseComplete: Bool = false,
+                              refilling: Bool = false) -> WeightMode {
         let phase = phase(cardsSinceAdvance: n, hasAdvanced: hasAdvanced,
-                          manualGrace: manualGrace)
+                          manualGrace: manualGrace,
+                          courseComplete: courseComplete, refilling: refilling)
 
         // A chapter the learner chose themselves is theirs to clear first. This
         // outranks even the starvation override below — they asked for this
@@ -537,6 +619,13 @@ final class SmartStudyEngine: ObservableObject {
         case .tapering(let n):
             return n % taperCycle < taperStandard ? .none : .needsWork
         case .upkeep(let n):
+            return n % settledCycle < settledStandard ? .none : .needsWork
+        case .finished(let refilling, let n):
+            // Nothing new is left to clear, so Standard would deal from an empty
+            // pile. Stay on the Priority side until a full batch of forgotten
+            // words has been marked, then run the settled mix over that batch
+            // until it is cleared and the wait starts again.
+            if refilling { return .needsWork }
             return n % settledCycle < settledStandard ? .none : .needsWork
         }
     }
@@ -563,6 +652,10 @@ final class SmartStudyEngine: ObservableObject {
             // never happens.
             state.counting = false
             state.countdown = 0
+            // Hand over to the end-of-course loop, starting on the Priority side:
+            // everything is checked, so Standard has nothing it could deal.
+            state.courseComplete = true
+            state.refilling = true
             return false
         }
 
@@ -571,6 +664,10 @@ final class SmartStudyEngine: ObservableObject {
         state.countdown = 0
         state.cardsSinceAdvance = 0   // the mix restarts from its first card
         state.hasAdvanced = true
+        // There was somewhere to go after all — new chapters can arrive with an
+        // update, or the learner can select one the tour hasn't reached.
+        state.courseComplete = false
+        state.refilling = false
         addChapter(next, filter: filter)
         return true
     }
@@ -625,7 +722,18 @@ final class SmartStudyEngine: ObservableObject {
         // substitute, but returning zero would read as "chapter cleared", start
         // a countdown against nothing, and then starve into permanent Priority
         // Study — a much worse failure than a slightly wrong number.
+        return uncheckedInSelection(cards: cards, filter: filter)
+    }
+
+    /// Un-checked cards across every selected chapter, in the same card units as
+    /// `uncheckedCount`. What the end-of-course loop weighs: once the tour has
+    /// nowhere left to move, "the chapter" stops being the meaningful unit and
+    /// the whole deck is the pile.
+    private func uncheckedInSelection(cards: [VocabFlashCard], filter: VocabFiltering) -> Int {
+        let store = VocabFlashcardsFilter.shared
+        let direction = filter.direction
         let ids = filter.selectedChapterIds
+        var total = 0
         for card in cards where ids.isEmpty || ids.contains(card.chapterId) {
             total += Self.unclearedSlots(card.word.id, store: store, direction: direction)
         }
@@ -753,7 +861,9 @@ final class SmartStudyEngine: ObservableObject {
         let cardsLeft = uncheckedCount(cards: cards, filter: filter)
         let phase = Self.phase(cardsSinceAdvance: state.cardsSinceAdvance,
                                hasAdvanced: state.hasAdvanced,
-                               manualGrace: state.manualGrace)
+                               manualGrace: state.manualGrace,
+                               courseComplete: state.courseComplete,
+                               refilling: state.refilling)
         let chapters = filter.selectedChapterIds.sorted()
 
         return [
@@ -767,6 +877,9 @@ final class SmartStudyEngine: ObservableObject {
             phase.label,
             "cd \(state.counting ? "ON" : "off") \(state.countdown)/\(Self.countdownTarget)",
             "n \(state.cardsSinceAdvance)  moved \(state.hasAdvanced ? "y" : "n")",
+            state.courseComplete
+                ? "pile \(uncheckedInSelection(cards: cards, filter: filter))/\(Self.refillTarget)"
+                : "pile -",
             "mode \(StudyWeightSettings.shared.mode.displayName)",
         ]
     }

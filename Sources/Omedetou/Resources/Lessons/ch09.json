@@ -648,7 +648,7 @@
    "name": "〜からです / 〜から (reason: because)",
    "shortDescription": "Gives the reason or cause for something: 'because' or 'that's because'.",
    "formation": "Plain form + から (mid-sentence)  |  Plain form + からです (end-of-sentence explanation)",
-   "explanation": "から is the everyday 'because' in Japanese. It has two positions. When から appears between clauses — Reason + から + Result — it works just like 'because' or 'so' in English, but with the reason clause coming first: 雨[あめ]が降[ふ]っているから、傘[かさ]を持[も]って行[い]きます (Because it is raining, I'll take an umbrella). The cause comes before から, and the result follows.\n\nThe second use is からです at the very end of a sentence, when you are giving a reason as an explanation for something already said or asked. Someone asks なぜ学校[がっこう]を休[やす]んだんですか and you answer 頭[あたま]が痛[いた]かったからです (Because I had a headache). The content before からです uses plain forms.\n\nから has a personal, somewhat casual feel — it sounds like you are speaking from your own perspective and experience. In formal writing, business contexts, or polite explanations to superiors, ので is preferred instead, as it presents the reason as a more objective, natural consequence (we will cover ので in Chapter 12).",
+   "explanation": "から is the everyday 'because' in Japanese. It has two positions. When から appears between clauses — Reason + から + Result — it works just like 'because' or 'so' in English, but with the reason clause coming first: 雨[あめ]が降[ふ]っているから、傘[かさ]を持[も]って行[い]きます (Because it is raining, I'll take an umbrella). The cause comes before から, and the result follows.\n\nThe second use is からです at the very end of a sentence, when you are giving a reason as an explanation for something already said or asked. Someone asks なぜ学校[がっこう]を休[やす]んだんですか and you answer 頭[あたま]が痛[いた]かったからです (Because I had a headache). The content before からです uses plain forms.\n\nから has a personal, somewhat casual feel — it sounds like you are speaking from your own perspective and experience. In formal writing, business contexts, or polite explanations to superiors, ので is preferred instead, as it presents the reason as a more objective, natural consequence (we will cover ので in Chapter 13).",
    "rules": [
     "Reason + から + Result = Because of reason, result (mid-sentence)",
     "Explanation at end: [reason in plain form] + からです",
@@ -881,7 +881,7 @@
      "id": "kara-desu_q15",
      "type": "translation",
      "prompt": "What does this sentence mean?",
-     "japanese": "危[あぶ]ないから、触[ふ]らないでください。",
+     "japanese": "危[あぶ]ないから、触[さわ]らないでください。",
      "choices": [
       "Because it's dangerous, please don't touch it.",
       "Don't touch it even though it's dangerous.",
@@ -889,7 +889,7 @@
       "Please be careful because you touched it."
      ],
      "correctIndex": 0,
-     "explanation": "危[あぶ]ない (dangerous — i-adjective) + から + 触[ふ]らないでください (please don't touch) links the reason (dangerous) to the request (don't touch). When から appears with a command or request in the result clause, it provides the justification. The reason clause always comes before から."
+     "explanation": "危[あぶ]ない (dangerous — i-adjective) + から + 触[さわ]らないでください (please don't touch) links the reason (dangerous) to the request (don't touch). When から appears with a command or request in the result clause, it provides the justification. The reason clause always comes before から."
     },
     {
      "id": "kara-desu_q16",
@@ -908,16 +908,16 @@
     {
      "id": "kara-desu_q17",
      "type": "construct",
-     "prompt": "Arrange these elements correctly: 寒[さむ]い / から / コートを着[ちゃく]ます",
+     "prompt": "Arrange these elements correctly: 寒[さむ]い / から / コートを着[き]ます",
      "japanese": null,
      "choices": [
-      "コートを着[ちゃく]ます、寒[さむ]いから。",
-      "から寒[さむ]い、コートを着[ちゃく]ます。",
-      "コートを着[ちゃく]ますから寒[さむ]い。",
-      "寒[さむ]いから、コートを着[ちゃく]ます。"
+      "コートを着[き]ます、寒[さむ]いから。",
+      "から寒[さむ]い、コートを着[き]ます。",
+      "コートを着[き]ますから寒[さむ]い。",
+      "寒[さむ]いから、コートを着[き]ます。"
      ],
      "correctIndex": 3,
-     "explanation": "The correct order is REASON + から + RESULT: 寒[さむ]い (it's cold) + から + コートを着[ちゃく]ます (I'll wear a coat) = 'I'll wear a coat because it's cold.' から must come after the reason clause, never at the beginning of a sentence (option 2). Placing the result before から (options 1 and 3) is incorrect."
+     "explanation": "The correct order is REASON + から + RESULT: 寒[さむ]い (it's cold) + から + コートを着[き]ます (I'll wear a coat) = 'I'll wear a coat because it's cold.' から must come after the reason clause, never at the beginning of a sentence (option 2). Placing the result before から (options 1 and 3) is incorrect."
     },
     {
      "id": "kara-desu_q18",
@@ -1287,9 +1287,9 @@
   },
   {
    "char": "話",
-   "word": "話",
-   "reading": "はな",
-   "meaning": "tale"
+   "word": "話す",
+   "reading": "はなす",
+   "meaning": "to speak; to talk"
   },
   {
    "char": "電",
@@ -1315,10 +1315,10 @@
    ]
   },
   {
-   "word": "話",
-   "kana": "はな",
-   "romaji": "hana",
-   "meaning": "tale",
+   "word": "話す",
+   "kana": "はなす",
+   "romaji": "hanasu",
+   "meaning": "to speak; to talk",
    "chars": [
     "話"
    ]
@@ -1411,7 +1411,7 @@
    "word": "茶色",
    "kana": "ちゃいろ",
    "romaji": "chairo",
-   "meaning": "light brown",
+   "meaning": "brown",
    "chars": [
     "茶",
     "色"

@@ -49,7 +49,7 @@ struct WidgetDeepLinkView: View {
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Button("Done") { dismiss() }.fontWeight(.semibold)
+                Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
             }
         }
     }

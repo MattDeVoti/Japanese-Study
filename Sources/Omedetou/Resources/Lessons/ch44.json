@@ -339,7 +339,7 @@
    "examples": [
     {
      "japanese": "私[わたし]たちはもっと環境問題[かんきょうもんだい]に真剣[しんけん]に向[む]き合[あ]うべきではないか。",
-     "romaji": "Watashitachi wa motto kankyou mondai ni shinken ni mukiaU beki dewa nai ka.",
+     "romaji": "Watashitachi wa motto kankyou mondai ni shinken ni mukiau beki dewa nai ka.",
      "english": "Shouldn't we face environmental issues more seriously?"
     },
     {
@@ -969,15 +969,15 @@
  "kanji": [
   {
    "char": "総",
-   "word": "総",
-   "reading": "そう",
-   "meaning": "whole"
+   "word": "総理",
+   "reading": "そうり",
+   "meaning": "prime minister"
   },
   {
    "char": "第",
-   "word": "第",
-   "reading": "だい",
-   "meaning": "No."
+   "word": "第一",
+   "reading": "だいいち",
+   "meaning": "first; number one"
   },
   {
    "char": "革",
@@ -987,9 +987,9 @@
   },
   {
    "char": "欧",
-   "word": "欧",
-   "reading": "うたう",
-   "meaning": "Europe"
+   "word": "欧米",
+   "reading": "おうべい",
+   "meaning": "Europe and America; the West"
   },
   {
    "char": "課",
@@ -1029,9 +1029,9 @@
   },
   {
    "char": "捜",
-   "word": "捜",
+   "word": "捜す",
    "reading": "さがす",
-   "meaning": "search"
+   "meaning": "to search for (something lost)"
   },
   {
    "char": "根",
@@ -1071,9 +1071,9 @@
   },
   {
    "char": "普",
-   "word": "普",
-   "reading": "あまねく",
-   "meaning": "universal"
+   "word": "普通",
+   "reading": "ふつう",
+   "meaning": "normal; ordinary"
   },
   {
    "char": "城",
@@ -1083,9 +1083,9 @@
   },
   {
    "char": "令",
-   "word": "令",
-   "reading": "れい",
-   "meaning": "command"
+   "word": "命令",
+   "reading": "めいれい",
+   "meaning": "order; command"
   },
   {
    "char": "築",
@@ -1095,9 +1095,9 @@
   },
   {
    "char": "季",
-   "word": "季",
-   "reading": "き",
-   "meaning": "seasons"
+   "word": "季節",
+   "reading": "きせつ",
+   "meaning": "season"
   },
   {
    "char": "著",
@@ -1125,9 +1125,9 @@
   },
   {
    "char": "簡",
-   "word": "簡",
-   "reading": "えらぶ",
-   "meaning": "simplicity"
+   "word": "簡単",
+   "reading": "かんたん",
+   "meaning": "simple"
   },
   {
    "char": "照",
@@ -1137,14 +1137,14 @@
   },
   {
    "char": "純",
-   "word": "純",
-   "reading": "じゅん",
-   "meaning": "innocent"
+   "word": "単純",
+   "reading": "たんじゅん",
+   "meaning": "simple"
   },
   {
    "char": "貯",
-   "word": "貯",
-   "reading": "ためる",
+   "word": "貯金",
+   "reading": "ちょきん",
    "meaning": "savings"
   },
   {
@@ -1179,15 +1179,15 @@
   },
   {
    "char": "郊",
-   "word": "郊",
-   "reading": "こう",
-   "meaning": "outskirts"
+   "word": "郊外",
+   "reading": "こうがい",
+   "meaning": "suburb"
   },
   {
    "char": "菜",
-   "word": "菜",
-   "reading": "な",
-   "meaning": "vegetable"
+   "word": "野菜",
+   "reading": "やさい",
+   "meaning": "vegetables"
   },
   {
    "char": "刷",
@@ -1239,28 +1239,30 @@
   },
   {
    "char": "燥",
-   "word": "燥ぐ",
-   "reading": "はしゃぐ",
-   "meaning": "to make merry"
+   "word": "乾燥",
+   "reading": "かんそう",
+   "meaning": "dryness; drying"
   }
  ],
  "kanjiWords": [
   {
-   "word": "総",
-   "kana": "そう",
-   "romaji": "sou",
-   "meaning": "whole",
+   "word": "総理",
+   "kana": "そうり",
+   "romaji": "souri",
+   "meaning": "prime minister",
    "chars": [
-    "総"
+    "総",
+    "理"
    ]
   },
   {
-   "word": "第",
-   "kana": "だい",
-   "romaji": "dai",
-   "meaning": "No.",
+   "word": "第一",
+   "kana": "だいいち",
+   "romaji": "daiichi",
+   "meaning": "first; number one",
    "chars": [
-    "第"
+    "第",
+    "一"
    ]
   },
   {
@@ -1273,12 +1275,13 @@
    ]
   },
   {
-   "word": "欧",
-   "kana": "うたう",
-   "romaji": "utau",
-   "meaning": "Europe",
+   "word": "欧米",
+   "kana": "おうべい",
+   "romaji": "oubei",
+   "meaning": "Europe and America; the West",
    "chars": [
-    "欧"
+    "欧",
+    "米"
    ]
   },
   {
@@ -1337,10 +1340,10 @@
    ]
   },
   {
-   "word": "捜",
+   "word": "捜す",
    "kana": "さがす",
    "romaji": "sagasu",
-   "meaning": "search",
+   "meaning": "to search for (something lost)",
    "chars": [
     "捜"
    ]
@@ -1404,12 +1407,13 @@
    ]
   },
   {
-   "word": "普",
-   "kana": "あまねく",
-   "romaji": "amaneku",
-   "meaning": "universal",
+   "word": "普通",
+   "kana": "ふつう",
+   "romaji": "futsuu",
+   "meaning": "normal; ordinary",
    "chars": [
-    "普"
+    "普",
+    "通"
    ]
   },
   {
@@ -1422,11 +1426,12 @@
    ]
   },
   {
-   "word": "令",
-   "kana": "れい",
-   "romaji": "rei",
-   "meaning": "command",
+   "word": "命令",
+   "kana": "めいれい",
+   "romaji": "meirei",
+   "meaning": "order; command",
    "chars": [
+    "命",
     "令"
    ]
   },
@@ -1440,10 +1445,10 @@
    ]
   },
   {
-   "word": "季",
-   "kana": "き",
-   "romaji": "ki",
-   "meaning": "seasons",
+   "word": "季節",
+   "kana": "きせつ",
+   "romaji": "kisetsu",
+   "meaning": "season",
    "chars": [
     "季"
    ]
@@ -1485,15 +1490,6 @@
    ]
   },
   {
-   "word": "簡",
-   "kana": "えらぶ",
-   "romaji": "erabu",
-   "meaning": "simplicity",
-   "chars": [
-    "簡"
-   ]
-  },
-  {
    "word": "照らす",
    "kana": "てらす",
    "romaji": "terasu",
@@ -1503,21 +1499,23 @@
    ]
   },
   {
-   "word": "純",
-   "kana": "じゅん",
-   "romaji": "jun",
-   "meaning": "innocent",
+   "word": "単純",
+   "kana": "たんじゅん",
+   "romaji": "tanjun",
+   "meaning": "simple",
    "chars": [
+    "単",
     "純"
    ]
   },
   {
-   "word": "貯",
-   "kana": "ためる",
-   "romaji": "tameru",
+   "word": "貯金",
+   "kana": "ちょきん",
+   "romaji": "chokin",
    "meaning": "savings",
    "chars": [
-    "貯"
+    "貯",
+    "金"
    ]
   },
   {
@@ -1566,20 +1564,12 @@
    ]
   },
   {
-   "word": "郊",
-   "kana": "こう",
-   "romaji": "kou",
-   "meaning": "outskirts",
+   "word": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "meaning": "vegetables",
    "chars": [
-    "郊"
-   ]
-  },
-  {
-   "word": "菜",
-   "kana": "な",
-   "romaji": "na",
-   "meaning": "vegetable",
-   "chars": [
+    "野",
     "菜"
    ]
   },
@@ -1656,11 +1646,12 @@
    ]
   },
   {
-   "word": "燥ぐ",
-   "kana": "はしゃぐ",
-   "romaji": "hashagu",
-   "meaning": "to make merry",
+   "word": "乾燥",
+   "kana": "かんそう",
+   "romaji": "kansou",
+   "meaning": "dryness; drying",
    "chars": [
+    "乾",
     "燥"
    ]
   },

@@ -349,7 +349,7 @@
     },
     {
      "japanese": "その発言[はつげん]は聴衆[ちょうしゅう]を驚[おどろ]かせずにはおかないものでした。",
-     "romaji": "Sono hatsugen wa chouShuu wo odorokasezu ni wa okanai mono deshita.",
+     "romaji": "Sono hatsugen wa choushuu wo odorokasezu ni wa okanai mono deshita.",
      "english": "That statement was one that could not fail to astonish the audience."
     },
     {
@@ -437,10 +437,10 @@
      "prompt": "Which correctly says 'That tragedy will inevitably bring tears to everyone'?",
      "japanese": null,
      "choices": [
-      "その悲劇[ひげき]は誰[だれ]もを泣[な]かせずにはおかない。",
-      "その悲劇[ひげき]は誰[だれ]もを泣[な]かせないわけにはいかない。",
-      "その悲劇[ひげき]は誰[だれ]もを泣[な]かせるに違[ちが]いない。",
-      "その悲劇[ひげき]は誰[だれ]もを泣[な]かせずにはいられない。"
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせずにはおかない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせないわけにはいかない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせるに違[ちが]いない。",
+      "その悲劇[ひげき]は誰[だれ]をも泣[な]かせずにはいられない。"
      ],
      "correctIndex": 0,
      "explanation": "Causative + ずにはおかない: 泣[な]かせ + ずにはおかない = will inevitably make (everyone) cry. The tragedy (subject) will certainly cause the emotional response. Classic causative use of ずにはおかない."
@@ -648,7 +648,7 @@
    "name": "〜を余儀[よぎ]なくされる (wo yogi naku sareru) — be forced to / be compelled to",
    "shortDescription": "Describes being compelled by external circumstances with no alternative — passive, formal, and measured.",
    "formation": "Noun (action nominalized) + を余儀[よぎ]なくされる  |  Often: Verb (こと) + を余儀[よぎ]なくされる",
-   "explanation": "を余儀[よぎ]なくされる is the passive grammar of having no choice. 余儀[よぎ]ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止[ちゅうし]を余儀[よぎ]なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態[じたい]の名詞 — nominalized actions): 中止[ちゅうし], 閉鎖[へいさ], 撤退[てったい], 辞任[じにん], 引退[いんたい] (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得[え]ない (no choice but to — more personal, emotional): を余儀[よぎ]なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
+   "explanation": "を余儀[よぎ]なくされる is the passive grammar of having no choice. 余儀[よぎ]ない (no other means / unavoidable) is the core, and the full structure conveys that external circumstances left absolutely no alternative — the subject did not want to, did not choose to, but was compelled by forces beyond their control. 中止[ちゅうし]を余儀[よぎ]なくされた — 'was forced to cancel' — is not about giving up willingly; it's about circumstances making cancellation the only possible outcome.\n\nThe pattern typically attaches to verbal action nouns (事態[じたい]の名詞[めいし] — nominalized actions): 中止[ちゅうし], 閉鎖[へいさ], 撤退[てったい], 辞任[じにん], 引退[いんたい] (cancellation, closure, withdrawal, resignation, retirement) — not to verbs directly. It is highly formal and appears most naturally in news reports, official statements, and business writing, particularly when describing organizational responses to disasters, economic crises, or emergencies.\n\nCompare with ざるを得[え]ない (no choice but to — more personal, emotional): を余儀[よぎ]なくされる sounds measured and official, the language of a press release. Both acknowledge the same involuntary reality; this one sounds like the institution speaking.",
    "rules": [
     "Action noun + を余儀[よぎ]なくされる = be forced to / be compelled by unavoidable circumstances",
     "Passive voice — external circumstances compel the subject; not the subject's own will or choice",
@@ -670,7 +670,7 @@
     {
      "japanese": "怪我[けが]のため、彼女[かのじょ]は大会[たいかい]への出場[しゅつじょう]を断念[だんねん]せざるを得[え]ず、引退[いんたい]を余儀[よぎ]なくされた。",
      "romaji": "Kega no tame, kanojo wa taikai e no shutsujou wo dannen sezaru wo ezu, intai wo yogi naku sareta.",
-     "english": "Due to injury, she was forced to retire, unable to give up on competing in the tournament."
+     "english": "Due to injury, she had no choice but to give up competing in the tournament, and was forced to retire."
     },
     {
      "japanese": "急激[きゅうげき]な環境変化[かんきょうへんか]に対応[たいおう]できなかった企業[きぎょう]は、倒産[とうさん]を余儀[よぎ]なくされた。",
@@ -1313,9 +1313,9 @@
   },
   {
    "char": "諦",
-   "word": "諦",
-   "reading": "あきら",
-   "meaning": "give up"
+   "word": "諦める",
+   "reading": "あきらめる",
+   "meaning": "to give up"
   },
   {
    "char": "慕",
@@ -1325,21 +1325,21 @@
   },
   {
    "char": "遂",
-   "word": "遂",
-   "reading": "と",
-   "meaning": "accomplish"
+   "word": "遂げる",
+   "reading": "とげる",
+   "meaning": "to accomplish; to achieve"
   },
   {
    "char": "曖",
-   "word": "曖",
-   "reading": "あい",
-   "meaning": "obscure"
+   "word": "曖昧",
+   "reading": "あいまい",
+   "meaning": "vague; ambiguous"
   },
   {
    "char": "拶",
-   "word": "拶",
-   "reading": "さつ",
-   "meaning": "be imminent"
+   "word": "挨拶",
+   "reading": "あいさつ",
+   "meaning": "greeting"
   },
   {
    "char": "顧",
@@ -1379,9 +1379,9 @@
   },
   {
    "char": "崇",
-   "word": "崇",
-   "reading": "あがめる",
-   "meaning": "revere"
+   "word": "崇拝",
+   "reading": "すうはい",
+   "meaning": "worship; adoration"
   },
   {
    "char": "藩",
@@ -1391,15 +1391,15 @@
   },
   {
    "char": "凸",
-   "word": "凸",
-   "reading": "とつ",
-   "meaning": "convex"
+   "word": "凸凹",
+   "reading": "でこぼこ",
+   "meaning": "bumpy; uneven"
   },
   {
    "char": "憬",
-   "word": "憬",
-   "reading": "けい",
-   "meaning": "yearn for"
+   "word": "憧憬",
+   "reading": "どうけい",
+   "meaning": "longing; yearning"
   },
   {
    "char": "慨",
@@ -1447,10 +1447,10 @@
    ]
   },
   {
-   "word": "諦",
-   "kana": "あきら",
-   "romaji": "akira",
-   "meaning": "give up",
+   "word": "諦める",
+   "kana": "あきらめる",
+   "romaji": "akirameru",
+   "meaning": "to give up",
    "chars": [
     "諦"
    ]
@@ -1465,29 +1465,31 @@
    ]
   },
   {
-   "word": "遂",
-   "kana": "と",
-   "romaji": "to",
-   "meaning": "accomplish",
+   "word": "遂げる",
+   "kana": "とげる",
+   "romaji": "togeru",
+   "meaning": "to accomplish; to achieve",
    "chars": [
     "遂"
    ]
   },
   {
-   "word": "曖",
-   "kana": "あい",
-   "romaji": "ai",
-   "meaning": "obscure",
+   "word": "曖昧",
+   "kana": "あいまい",
+   "romaji": "aimai",
+   "meaning": "vague; ambiguous",
    "chars": [
-    "曖"
+    "曖",
+    "昧"
    ]
   },
   {
-   "word": "拶",
-   "kana": "さつ",
-   "romaji": "satsu",
-   "meaning": "be imminent",
+   "word": "挨拶",
+   "kana": "あいさつ",
+   "romaji": "aisatsu",
+   "meaning": "greeting",
    "chars": [
+    "挨",
     "拶"
    ]
   },
@@ -1547,12 +1549,13 @@
    ]
   },
   {
-   "word": "崇",
-   "kana": "あがめる",
-   "romaji": "agameru",
-   "meaning": "revere",
+   "word": "崇拝",
+   "kana": "すうはい",
+   "romaji": "suuhai",
+   "meaning": "worship; adoration",
    "chars": [
-    "崇"
+    "崇",
+    "拝"
    ]
   },
   {
@@ -1565,20 +1568,22 @@
    ]
   },
   {
-   "word": "凸",
-   "kana": "とつ",
-   "romaji": "totsu",
-   "meaning": "convex",
+   "word": "凸凹",
+   "kana": "でこぼこ",
+   "romaji": "dekoboko",
+   "meaning": "bumpy; uneven",
    "chars": [
-    "凸"
+    "凸",
+    "凹"
    ]
   },
   {
-   "word": "憬",
-   "kana": "けい",
-   "romaji": "kei",
-   "meaning": "yearn for",
+   "word": "憧憬",
+   "kana": "どうけい",
+   "romaji": "doukei",
+   "meaning": "longing; yearning",
    "chars": [
+    "憧",
     "憬"
    ]
   },

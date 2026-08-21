@@ -55,6 +55,11 @@ struct OmedetouApp: App {
                 // Settings arrive over the key-value store on their own; progress
                 // is pulled once at launch and again whenever the app comes back,
                 // which is exactly when you've picked up the other device.
+                // Before anything else that might take time: a transaction can
+                // be waiting at launch (an Ask to Buy approval, a purchase made
+                // on another device), and one that lands with no listener
+                // attached is missed until the next cold start.
+                StoreService.shared.start()
                 SettingsSync.shared.start()
                 CloudSyncService.shared.syncInBackground()
                 NotificationService.shared.registerAsDelegate()

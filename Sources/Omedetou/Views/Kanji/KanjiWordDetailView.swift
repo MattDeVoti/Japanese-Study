@@ -56,6 +56,7 @@ struct KanjiWordExcludeCell: View {
             .buttonStyle(.plain)
 
             Button {
+                FeedbackSounds.shared.play(.notification)
                 cardStore.toggleKanjiExcluded(cardId: entry.id)
             } label: {
                 Image(systemName: cardStore.isKanjiExcluded(entry.id) ? "checkmark.circle.fill" : "checkmark.circle")

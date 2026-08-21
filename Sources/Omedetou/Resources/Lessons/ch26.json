@@ -8,7 +8,7 @@
    "name": "〜らしい (rashii) — apparently / I hear that / seems like",
    "shortDescription": "Inference from hearsay or indirect evidence ('apparently / I hear that') — and characteristic typicality ('truly X-like').",
    "formation": "Plain form + らしい  |  Noun / な-adj stem + らしい",
-   "explanation": "らしい is a double-duty word with two quite different jobs.\n\nUse 1 — inference from hearsay or indirect evidence: 田中[たなか]さんは来月[らいげつ]結婚[けっこん]するらしいです ('Apparently Tanaka-san is getting married next month'). You didn't witness this directly — you heard it from someone, read it somewhere, or pieced it together from indirect signs. The key: your evidence is external, not first-hand.\n\nThis puts らしい in an interesting spot among the inference expressions you know. The quick map: appearance-based そうです (Ch13) = reacting to what you see directly right now. みたいだ (Ch17) = casual inference from observation or information. ようだ (Ch22) = careful, somewhat formal inference. らしい = inference specifically weighted toward hearsay or external/indirect evidence.\n\nFormation for Use 1: plain form + らしい (verbs and い-adj); noun/な-adj stem directly + らしい (no な or だ needed).\n\nUse 2 — characteristic typicality: noun + らしい creates an adjective meaning 'genuinely like' or 'truly characteristic of' that noun. 日本[にほん]らしい景色[けしき] (a truly Japanese scene), 先生[せんせい]らしい (like a proper teacher should be), 子[こ]どもらしい元気[げんき]さ (energy that is just like a child). This use isn't about uncertainty at all — it's about authentic embodiment of a quality.\n\nらしい itself is an い-adjective and conjugates: らしくない (doesn't seem / not typical of), らしかった (seemed / was typical of).",
+   "explanation": "らしい is a double-duty word with two quite different jobs.\n\nUse 1 — inference from hearsay or indirect evidence: 田中[たなか]さんは来月[らいげつ]結婚[けっこん]するらしいです ('Apparently Tanaka-san is getting married next month'). You didn't witness this directly — you heard it from someone, read it somewhere, or pieced it together from indirect signs. The key: your evidence is external, not first-hand.\n\nThis puts らしい in an interesting spot among the inference expressions you know. The quick map: appearance-based そうです (Ch15) = reacting to what you see directly right now. みたいだ (Ch19) = casual inference from observation or information. ようだ (Ch24) = careful, somewhat formal inference. らしい = inference specifically weighted toward hearsay or external/indirect evidence.\n\nFormation for Use 1: plain form + らしい (verbs and い-adj); noun/な-adj stem directly + らしい (no な or だ needed).\n\nUse 2 — characteristic typicality: noun + らしい creates an adjective meaning 'genuinely like' or 'truly characteristic of' that noun. 日本[にほん]らしい景色[けしき] (a truly Japanese scene), 先生[せんせい]らしい (like a proper teacher should be), 子[こ]どもらしい元気[げんき]さ (energy that is just like a child). This use isn't about uncertainty at all — it's about authentic embodiment of a quality.\n\nらしい itself is an い-adjective and conjugates: らしくない (doesn't seem / not typical of), らしかった (seemed / was typical of).",
    "rules": [
     "Inference use: plain form + らしい = apparently / I hear that (based on hearsay or indirect evidence)",
     "Characteristic use: Noun + らしい = truly like / typical of [noun] (日本[にほん]らしい = genuinely Japanese)",
@@ -117,13 +117,13 @@
      "prompt": "Which uses らしい for 'typical of' (not inferential)?",
      "japanese": null,
      "choices": [
-      "子供[こども]らしい遊[あそ]び方[ほう] (play typical of/befitting a child)",
+      "子供[こども]らしい遊[あそ]び方[かた] (play typical of/befitting a child)",
       "彼[かれ]は子供[こども]らしいです。(I hear he is a child)",
       "子供[こども]らしくない (hearsay: not childlike)",
       "子供[こども]らしいから、泣[な]く (because apparently he's a child)"
      ],
      "correctIndex": 0,
-     "explanation": "子供[こども]らしい遊[あそ]び方[ほう] = a way of playing that is typical of / befitting a child. This is the 'typical of' use (not hearsay). 子供[こども]らしい before a noun = child-like, fitting for a child."
+     "explanation": "子供[こども]らしい遊[あそ]び方[かた] = a way of playing that is typical of / befitting a child. This is the 'typical of' use (not hearsay). 子供[こども]らしい before a noun = child-like, fitting for a child."
     },
     {
      "id": "rashii_q7",
@@ -286,7 +286,7 @@
      "japanese": null,
      "choices": [
       "男[おとこ]らしい男[おとこ]",
-      "子供[こども]らしい遊[あそ]び方[ほう]",
+      "子供[こども]らしい遊[あそ]び方[かた]",
       "先生[せんせい]らしい先生[せんせい]",
       "このレストランはおいしいらしい"
      ],
@@ -339,12 +339,12 @@
    "examples": [
     {
      "japanese": "練習[れんしゅう]を続[つづ]けて、ようやく泳[およ]げるようになりました。",
-     "romaji": "Renshuu wo tsudukete, youyaku oyogeru you ni narimashita.",
+     "romaji": "Renshuu wo tsuzukete, youyaku oyogeru you ni narimashita.",
      "english": "By continuing to practice, I've finally come to be able to swim."
     },
     {
      "japanese": "日本語[にほんご]の勉強[べんきょう]を続[つづ]けたら、新聞[しんぶん]が読[よ]めるようになりますよ。",
-     "romaji": "Nihongo no benkyou wo tsuduketa ra, shinbun ga yomeru you ni narimasu yo.",
+     "romaji": "Nihongo no benkyou wo tsuzuketara, shinbun ga yomeru you ni narimasu yo.",
      "english": "If you keep studying Japanese, you'll be able to read the newspaper."
     },
     {
@@ -1325,9 +1325,9 @@
   },
   {
    "char": "真",
-   "word": "真",
-   "reading": "しん",
-   "meaning": "truth"
+   "word": "写真",
+   "reading": "しゃしん",
+   "meaning": "photograph"
   },
   {
    "char": "親",
@@ -1349,9 +1349,9 @@
   },
   {
    "char": "勉",
-   "word": "勉",
-   "reading": "つとめる",
-   "meaning": "exertion"
+   "word": "勉強",
+   "reading": "べんきょう",
+   "meaning": "study"
   }
  ],
  "kanjiWords": [
@@ -1411,11 +1411,12 @@
    ]
   },
   {
-   "word": "真",
-   "kana": "しん",
-   "romaji": "shin",
-   "meaning": "truth",
+   "word": "写真",
+   "kana": "しゃしん",
+   "romaji": "shashin",
+   "meaning": "photograph",
    "chars": [
+    "写",
     "真"
    ]
   },
@@ -1447,21 +1448,13 @@
    ]
   },
   {
-   "word": "勉",
-   "kana": "つとめる",
-   "romaji": "tsutomeru",
-   "meaning": "exertion",
+   "word": "勉強",
+   "kana": "べんきょう",
+   "romaji": "benkyou",
+   "meaning": "study",
    "chars": [
-    "勉"
-   ]
-  },
-  {
-   "word": "立ち",
-   "kana": "たち",
-   "romaji": "tachi",
-   "meaning": "departure",
-   "chars": [
-    "立"
+    "勉",
+    "強"
    ]
   },
   {

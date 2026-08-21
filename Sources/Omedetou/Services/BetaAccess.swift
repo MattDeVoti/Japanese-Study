@@ -28,7 +28,11 @@ enum BetaAccess {
     /// Forgetting to flip it would quietly hand the entire paying audience the
     /// app for nothing, so it is the first thing to check before shipping a
     /// paywall.
-    static let periodIsOpen = true
+    ///
+    /// Closed as of the subscription release. Everyone enrolled while it was
+    /// open keeps full access permanently — `isMember` is never cleared, and
+    /// `Entitlements` checks it before it checks any purchase.
+    static let periodIsOpen = false
 
     private static let memberKey = "BetaMember"
     private static let sinceKey  = "BetaMemberSince"
@@ -47,11 +51,13 @@ enum BetaAccess {
 
     /// The welcome sheet appears once, on the first launch, and never again.
     ///
-    /// Gated on `periodIsOpen` as well as on having been seen: after the beta
-    /// closes the sheet's central claim stops being true, and showing it to a new
-    /// arrival would be a straightforward lie.
+    /// Not gated on `periodIsOpen`: the sheet is how someone learns the app is
+    /// still rough and where to report it, and dropping that the day the beta
+    /// closed would leave new arrivals with no introduction at all. What the
+    /// sheet *says* changes instead — the free-access promise is only shown to
+    /// people it applies to.
     static var shouldShowWelcome: Bool {
-        periodIsOpen && !UserDefaults.standard.bool(forKey: seenKey)
+        !UserDefaults.standard.bool(forKey: seenKey)
     }
 
     /// Enrols this install if the beta is open and it isn't enrolled already.

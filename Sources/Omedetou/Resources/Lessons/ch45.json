@@ -1,7 +1,7 @@
 {
  "id": "ch45",
  "chapterNumber": 47,
- "title": "Purpose and Precise Cause",
+ "title": "Purpose, Cause and Possibility",
  "points": [
   {
    "id": "beku",
@@ -29,7 +29,7 @@
     },
     {
      "japanese": "問題[もんだい]を解決[かいけつ]すべく、専門家[せんもんか]チームが派遣[はけん]されました。",
-     "romaji": "Mondai wo kaiketsU subeku, senmonka chiimu ga haken saremashita.",
+     "romaji": "Mondai wo kaiketsu subeku, senmonka chiimu ga haken saremashita.",
      "english": "In order to resolve the problem, a team of experts was dispatched."
     },
     {
@@ -647,10 +647,10 @@
    "id": "uru-enai",
    "name": "〜得[う]る / 〜得[え]ない (uru / enai) — can possibly / cannot possibly",
    "shortDescription": "Expresses logical possibility or impossibility — whether something falls within the conceivable realm.",
-   "formation": "Verb stem (ます-stem) + 得る (uru/eru) / 得[え]ない (enai)",
-   "explanation": "得る (うる / える) and its negative 得[え]ない (えない) express logical possibility and impossibility — the realm of 'conceivable' versus 'unthinkable.' あり得る (ありうる / ありえる) means 'is possible / can happen'; あり得[え]ない (ありえない) means 'is impossible / unthinkable / cannot be.' The 得 comes from the classical verb 得る (to obtain / to be able to), so the underlying sense is 'can be obtained / attained' = 'is possible.' Crucially, this is about conceptual or logical possibility — not personal ability (for that, use できる). When you say そんなことはあり得[え]ない, you're saying 'such a thing cannot fall within the realm of possibility.'\n\nThe positive form appears in formal and academic writing (考[かんが]え得る可能性[かのうせい] — conceivable possibilities); the negative あり得[え]ない has broken into casual speech as an exclamation of disbelief or outrage — 'Unbelievable!' — though its formal written use remains distinctly different in register.\n\nReading note: the positive form can be read as うる (classical, more formal) or える (modern literary) — both are correct and you will encounter both; the negative is almost always えない in modern Japanese.",
+   "formation": "Verb stem (ます-stem) + 得[う]る (uru/eru) / 得[え]ない (enai)",
+   "explanation": "得[う]る (うる / える) and its negative 得[え]ない (えない) express logical possibility and impossibility — the realm of 'conceivable' versus 'unthinkable.' あり得[う]る (ありうる / ありえる) means 'is possible / can happen'; あり得[え]ない (ありえない) means 'is impossible / unthinkable / cannot be.' The 得[う] comes from the classical verb 得[う]る (to obtain / to be able to), so the underlying sense is 'can be obtained / attained' = 'is possible.' Crucially, this is about conceptual or logical possibility — not personal ability (for that, use できる). When you say そんなことはあり得[え]ない, you're saying 'such a thing cannot fall within the realm of possibility.'\n\nThe positive form appears in formal and academic writing (考[かんが]え得[う]る可能性[かのうせい] — conceivable possibilities); the negative あり得[え]ない has broken into casual speech as an exclamation of disbelief or outrage — 'Unbelievable!' — though its formal written use remains distinctly different in register.\n\nReading note: the positive form can be read as うる (classical, more formal) or える (modern literary) — both are correct and you will encounter both; the negative is almost always えない in modern Japanese.",
    "rules": [
-    "Verb stem + 得る (uru/eru) = it is possible that / can conceivably [happen]",
+    "Verb stem + 得[う]る (uru/eru) = it is possible that / can conceivably [happen]",
     "Verb stem + 得[え]ない (enai) = it is impossible that / cannot possibly [happen]",
     "Positive: read as うる (classical formal) or える (modern literary) — both valid",
     "Negative 得[え]ない (えない): あり得[え]ない is now also used in casual speech as an exclamation of disbelief or outrage",
@@ -1325,21 +1325,21 @@
   },
   {
    "char": "唆",
-   "word": "唆",
-   "reading": "そそのかす",
-   "meaning": "tempt"
+   "word": "示唆",
+   "reading": "しさ",
+   "meaning": "suggestion"
   },
   {
    "char": "謙",
-   "word": "謙",
-   "reading": "けん",
-   "meaning": "humble oneself"
+   "word": "謙虚",
+   "reading": "けんきょ",
+   "meaning": "modest; humble"
   },
   {
    "char": "遜",
-   "word": "遜",
-   "reading": "そん",
-   "meaning": "humble"
+   "word": "謙遜",
+   "reading": "けんそん",
+   "meaning": "modesty; humility"
   },
   {
    "char": "賄",
@@ -1379,9 +1379,9 @@
   },
   {
    "char": "稽",
-   "word": "稽",
-   "reading": "けい",
-   "meaning": "think"
+   "word": "稽古",
+   "reading": "けいこ",
+   "meaning": "practice; training (arts, sports)"
   },
   {
    "char": "掌",
@@ -1465,29 +1465,21 @@
    ]
   },
   {
-   "word": "唆",
-   "kana": "そそのかす",
-   "romaji": "sosonokasu",
-   "meaning": "tempt",
-   "chars": [
-    "唆"
-   ]
-  },
-  {
-   "word": "謙",
-   "kana": "けん",
-   "romaji": "ken",
-   "meaning": "humble oneself",
+   "word": "謙虚",
+   "kana": "けんきょ",
+   "romaji": "kenkyo",
+   "meaning": "modest; humble",
    "chars": [
     "謙"
    ]
   },
   {
-   "word": "遜",
-   "kana": "そん",
-   "romaji": "son",
-   "meaning": "humble",
+   "word": "謙遜",
+   "kana": "けんそん",
+   "romaji": "kenson",
+   "meaning": "modesty; humility",
    "chars": [
+    "謙",
     "遜"
    ]
   },
@@ -1547,12 +1539,13 @@
    ]
   },
   {
-   "word": "稽",
-   "kana": "けい",
-   "romaji": "kei",
-   "meaning": "think",
+   "word": "稽古",
+   "kana": "けいこ",
+   "romaji": "keiko",
+   "meaning": "practice; training (arts, sports)",
    "chars": [
-    "稽"
+    "稽",
+    "古"
    ]
   },
   {
@@ -1641,12 +1634,13 @@
    ]
   },
   {
-   "word": "適宜",
-   "kana": "てきぎ",
-   "romaji": "tekigi",
-   "meaning": "suitable",
+   "word": "適当",
+   "kana": "てきとう",
+   "romaji": "tekitou",
+   "meaning": "suitable; appropriate; (also) half-hearted",
    "chars": [
-    "適"
+    "適",
+    "当"
    ]
   },
   {

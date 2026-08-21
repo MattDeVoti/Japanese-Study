@@ -23,8 +23,17 @@ struct KanjiMatchView: View {
 
     @State private var drag: Drag?
     @State private var dragToken = 0
-    @State private var holeFrames: [String: CGRect] = [:]
-    @State private var tileFrames: [String: CGRect] = [:]
+    /// Which deal the measured frames belong to.
+    ///
+    /// Preference values outlive the views that published them: dealing a new
+    /// round can leave the *previous* round's hole frames in the dictionary,
+    /// and since those sit on the same grid cells as the new ones, a perfectly
+    /// aimed drop resolves to a kanji that isn't on the board — which can never
+    /// match, so the tile is refused every time. Stamping each frame with the
+    /// deal it came from makes a stale entry impossible to look up.
+    @State private var deal = 0
+    @State private var holeFrames: [FrameID: CGRect] = [:]
+    @State private var tileFrames: [FrameID: CGRect] = [:]
     @State private var flash: (kanji: String, correct: Bool)?
     /// Guards the delayed flash cleanup, so a second drop landing inside the
     /// first one's 0.45s window doesn't cut its own flash short.
@@ -54,6 +63,10 @@ struct KanjiMatchView: View {
         let item: SimilarKanji.Item
         let home: CGRect
         var translation: CGSize = .zero
+        /// Set while the bounce-back is playing out. A fresh grab of the same
+        /// tile replaces the whole `Drag` rather than reusing it, so the
+        /// bounce-back's delayed cleanup can't cancel the new gesture.
+        var returning = false
         var rect: CGRect { home.offsetBy(dx: translation.width, dy: translation.height) }
     }
 
@@ -202,7 +215,8 @@ struct KanjiMatchView: View {
         .background(
             GeometryReader { geo in
                 Color.clear.preference(key: HoleFrameKey.self,
-                                       value: [item.kanji: geo.frame(in: .named(space))])
+                                       value: [FrameID(deal: deal, name: item.kanji):
+                                                geo.frame(in: .named(space))])
             }
         )
     }
@@ -227,7 +241,8 @@ struct KanjiMatchView: View {
                 .background(
                     GeometryReader { geo in
                         Color.clear.preference(key: TileFrameKey.self,
-                                               value: [item.id: geo.frame(in: .named(space))])
+                                               value: [FrameID(deal: deal, name: item.id):
+                                                        geo.frame(in: .named(space))])
                     }
                 )
             }
@@ -259,8 +274,8 @@ struct KanjiMatchView: View {
     private func dragGesture(_ item: SimilarKanji.Item) -> some Gesture {
         DragGesture(minimumDistance: 4, coordinateSpace: .named(space))
             .onChanged { v in
-                if drag?.item.id != item.id {
-                    guard let home = tileFrames[item.id] else { return }
+                if drag?.item.id != item.id || drag?.returning == true {
+                    guard let home = tileFrames[FrameID(deal: deal, name: item.id)] else { return }
                     dragToken += 1
                     drag = Drag(token: dragToken, item: item, home: home)
                 }
@@ -292,13 +307,20 @@ struct KanjiMatchView: View {
     /// see the reason for read as the game ignoring them.
     private func hole(under rect: CGRect) -> String? {
         let minimum = rect.width * rect.height * 0.25
-        var best: (kanji: String, area: CGFloat)?
-        for (kanji, frame) in holeFrames where filled[kanji] == nil {
+        var best: (kanji: String, area: CGFloat, distance: CGFloat)?
+        for (id, frame) in holeFrames where id.deal == deal && filled[id.name] == nil {
             let overlap = frame.intersection(rect)
             guard !overlap.isNull else { continue }
             let area = overlap.width * overlap.height
             guard area >= minimum else { continue }
-            if best == nil || area > best!.area { best = (kanji, area) }
+            // Equal overlaps are common — a tile straddling two cells covers
+            // the same slice of each — and picking between them by dictionary
+            // order means the same drop lands somewhere different each time.
+            let distance = hypot(frame.midX - rect.midX, frame.midY - rect.midY)
+            if best == nil || area > best!.area
+                || (area == best!.area && distance < best!.distance) {
+                best = (id.name, area, distance)
+            }
         }
         return best?.kanji
     }
@@ -307,6 +329,7 @@ struct KanjiMatchView: View {
     /// existence, which is what a bare `drag = nil` does.
     private func returnHome() {
         let token = drag?.token
+        drag?.returning = true
         withAnimation(.spring(response: 0.3, dampingFraction: 0.72)) {
             drag?.translation = .zero
         }
@@ -327,7 +350,12 @@ struct KanjiMatchView: View {
     private func drop(_ item: SimilarKanji.Item, on kanji: String) -> Bool {
         log.append(Attempt(kanji: kanji, dropped: item))
         let correct = item.kanji == kanji
-        if correct { filled[kanji] = item }
+        if correct {
+            filled[kanji] = item
+            FeedbackSounds.shared.playCorrectVariation()
+        } else {
+            FeedbackSounds.shared.play(.incorrect)
+        }
 
         flash = (kanji, correct)
         flashSeq += 1
@@ -356,6 +384,7 @@ struct KanjiMatchView: View {
         drag = nil
         holeFrames = [:]
         tileFrames = [:]
+        deal += 1
         round = SimilarKanji.round(size: size, cardStore: cardStore)
         dealFailed = round == nil
     }
@@ -459,16 +488,24 @@ struct KanjiMatchView: View {
 /// Where the holes are, and where each tile rests: the first so a dropped tile
 /// can be matched to a hole, the second so a lifted tile knows where it came
 /// from. Both are collected in the board's coordinate space.
+/// A measured frame belongs to one kanji *in one deal*. Rounds reuse the same
+/// grid, so a frame that outlives its round still lands squarely on a cell of
+/// the next one.
+private struct FrameID: Hashable {
+    let deal: Int
+    let name: String
+}
+
 private struct HoleFrameKey: PreferenceKey {
-    static var defaultValue: [String: CGRect] = [:]
-    static func reduce(value: inout [String: CGRect], nextValue: () -> [String: CGRect]) {
+    static var defaultValue: [FrameID: CGRect] = [:]
+    static func reduce(value: inout [FrameID: CGRect], nextValue: () -> [FrameID: CGRect]) {
         value.merge(nextValue()) { _, new in new }
     }
 }
 
 private struct TileFrameKey: PreferenceKey {
-    static var defaultValue: [String: CGRect] = [:]
-    static func reduce(value: inout [String: CGRect], nextValue: () -> [String: CGRect]) {
+    static var defaultValue: [FrameID: CGRect] = [:]
+    static func reduce(value: inout [FrameID: CGRect], nextValue: () -> [FrameID: CGRect]) {
         value.merge(nextValue()) { _, new in new }
     }
 }

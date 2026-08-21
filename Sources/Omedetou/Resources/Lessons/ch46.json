@@ -29,13 +29,13 @@
     },
     {
      "japanese": "公共[こうきょう]の場[ば]でのその振[ふ]る舞[ま]いは、非常識[ひじょうしき]極[きわ]まるものでした。",
-     "romaji": "Koukyou no ba de no sono furumai wa, hijouShiki kiwamaru mono deshita.",
+     "romaji": "Koukyou no ba de no sono furumai wa, hijoushiki kiwamaru mono deshita.",
      "english": "That behavior in a public place was something extremely inappropriate."
     },
     {
      "japanese": "証拠[しょうこ]もなく他人[たにん]を非難[ひなん]するとは、不謹慎[ふきんしん]極[きわ]まりない。",
-     "romaji": "Shouko mo naku tanin wo hinan suru to wa, fukinshIn kiwamarinai.",
-     "english": "To accuse others without evidence — that is the height of recklessness."
+     "romaji": "Shouko mo naku tanin wo hinan suru to wa, fukinshin kiwamarinai.",
+     "english": "To accuse others without evidence — that is the height of impropriety."
     }
    ],
    "flashcardHeader": "〜極まる / 〜極まりない",
@@ -63,7 +63,7 @@
      "choices": [
       "彼[かれ]の行動[こうどう]は失礼[しつれい]極[きわ]まりない。",
       "彼[かれ]の行動[こうどう]は非常[ひじょう]に失礼[しつれい]だ。",
-      "彼[かれ]の行動[こうどう]は失礼[しつれい]極[きわ]まる。",
+      "彼[かれ]の行動[こうどう]は失礼[しつれい]な極[きわ]まりない。",
       "彼[かれ]の行動[こうどう]は失礼[しつれい]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -77,7 +77,7 @@
      "choices": [
       "それは危険[きけん]極[きわ]まる実験[じっけん]だ。",
       "それは非常[ひじょう]に危険[きけん]な実験[じっけん]だ。",
-      "それは危険[きけん]極[きわ]まりない実験[じっけん]だ。",
+      "それは危険[きけん]な極[きわ]まる実験[じっけん]だ。",
       "それは危険[きけん]なことこの上[じょう]ない実験[じっけん]だ。"
      ],
      "correctIndex": 0,
@@ -91,7 +91,7 @@
      "choices": [
       "そのような行為[こうい]は不謹慎[ふきんしん]極[きわ]まりない。",
       "そのような行為[こうい]は非常[ひじょう]に不謹慎[ふきんしん]だ。",
-      "そのような行為[こうい]は不謹慎[ふきんしん]極[きわ]まる。",
+      "そのような行為[こうい]は不謹慎[ふきんしん]な極[きわ]まりない。",
       "そのような行為[こうい]は不謹慎[ふきんしん]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -119,7 +119,7 @@
      "choices": [
       "首相[しゅしょう]の発言[はつげん]は軽率[けいそつ]極[きわ]まりない。",
       "首相[しゅしょう]の発言[はつげん]は非常[ひじょう]に軽率[けいそつ]だ。",
-      "首相[しゅしょう]の発言[はつげん]は軽率[けいそつ]極[きわ]まる。",
+      "首相[しゅしょう]の発言[はつげん]は軽率[けいそつ]な極[きわ]まりない。",
       "首相[しゅしょう]の発言[はつげん]は軽率[けいそつ]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -133,7 +133,7 @@
      "choices": [
       "危険[きけん]極[きわ]まりない計画[けいかく]だ。",
       "非常[ひじょう]に危険[きけん]な計画[けいかく]だ。",
-      "危険[きけん]極[きわ]まる計画[けいかく]だ。",
+      "危険[きけん]な極[きわ]まりない計画[けいかく]だ。",
       "危険[きけん]なことこの上[じょう]ない計画[けいかく]だ。"
      ],
      "correctIndex": 0,
@@ -147,7 +147,7 @@
      "choices": [
       "彼[かれ]の態度[たいど]は無責任[むせきにん]極[きわ]まりない。",
       "彼[かれ]の態度[たいど]は非常[ひじょう]に無責任[むせきにん]だ。",
-      "彼[かれ]の態度[たいど]は無責任[むせきにん]極[きわ]まる。",
+      "彼[かれ]の態度[たいど]は無責任[むせきにん]な極[きわ]まりない。",
       "彼[かれ]の態度[たいど]は無責任[むせきにん]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -170,16 +170,16 @@
     {
      "id": "kiwamaru_q10",
      "type": "construct",
-     "prompt": "Which correctly says 'His proposal is extremely absurd'?",
+     "prompt": "Which correctly says 'His proposal is utterly foolish'?",
      "japanese": null,
      "choices": [
-      "彼[かれ]の提案[ていあん]は馬鹿[ばか]げ極[きわ]まりない。",
-      "彼[かれ]の提案[ていあん]は非常[ひじょう]に馬鹿[ばか]げている。",
-      "彼[かれ]の提案[ていあん]は馬鹿[ばか]げ極[きわ]まる。",
-      "彼[かれ]の提案[ていあん]は馬鹿[ばか]げたことこの上[じょう]ない。"
+      "彼[かれ]の提案[ていあん]は愚[おろ]か極[きわ]まりない。",
+      "彼[かれ]の提案[ていあん]は非常[ひじょう]に愚[おろ]かだ。",
+      "彼[かれ]の提案[ていあん]は愚[おろ]かな極[きわ]まりない。",
+      "彼[かれ]の提案[ていあん]は愚[おろ]かなことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
-     "explanation": "Verb/adj stem + 極[きわ]まりない: 馬鹿[ばか]げ + 極[きわ]まりない = the height of absurdity. Condemns the proposal as reaching the extreme of foolishness."
+     "explanation": "な-adjective stem + 極[きわ]まりない: 愚[おろ]か (foolish) + 極[きわ]まりない = the height of foolishness. The stem attaches directly — no な (✗愚[おろ]かな極[きわ]まりない). 極[きわ]まりない only takes な-adjective stems and nouns, so verbs like 馬鹿[ばか]げる cannot be used with it directly."
     },
     {
      "id": "kiwamaru_q11",
@@ -189,7 +189,7 @@
      "choices": [
       "そのような態度[たいど]は非常識[ひじょうしき]極[きわ]まりない。",
       "そのような態度[たいど]は非常[ひじょう]に非常識[ひじょうしき]だ。",
-      "そのような態度[たいど]は非常識[ひじょうしき]極[きわ]まる。",
+      "そのような態度[たいど]は非常識[ひじょうしき]な極[きわ]まりない。",
       "そのような態度[たいど]は非常識[ひじょうしき]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -203,7 +203,7 @@
      "choices": [
       "彼[かれ]の発言[はつげん]は残酷[ざんこく]極[きわ]まりない。",
       "彼[かれ]の発言[はつげん]は非常[ひじょう]に残酷[ざんこく]だ。",
-      "彼[かれ]の発言[はつげん]は残酷[ざんこく]極[きわ]まる。",
+      "彼[かれ]の発言[はつげん]は残酷[ざんこく]な極[きわ]まりない。",
       "彼[かれ]の発言[はつげん]は残酷[ざんこく]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -226,16 +226,16 @@
     {
      "id": "kiwamaru_q14",
      "type": "construct",
-     "prompt": "Which correctly says 'This novel describes extremely sad events'?",
+     "prompt": "Which correctly says 'This novel depicts utterly tragic events'?",
      "japanese": null,
      "choices": [
-      "この小説[しょうせつ]は悲[かな]しみ極[きわ]まる出来事[できごと]を描[えが]いている。",
-      "この小説[しょうせつ]は非常[ひじょう]に悲[かな]しい出来事[できごと]を描[えが]いている。",
-      "この小説[しょうせつ]は悲[かな]しみ極[きわ]まりない出来事[できごと]を描[えが]いている。",
-      "この小説[しょうせつ]は悲[かな]しいことこの上[じょう]ない出来事[できごと]を描[えが]いている。"
+      "この小説[しょうせつ]は悲惨[ひさん]極[きわ]まる出来事[できごと]を描[えが]いている。",
+      "この小説[しょうせつ]は非常[ひじょう]に悲惨[ひさん]な出来事[できごと]を描[えが]いている。",
+      "この小説[しょうせつ]は悲惨[ひさん]な極[きわ]まる出来事[できごと]を描[えが]いている。",
+      "この小説[しょうせつ]は悲惨[ひさん]なことこの上[じょう]ない出来事[できごと]を描[えが]いている。"
      ],
      "correctIndex": 0,
-     "explanation": "Noun/stem + 極[きわ]まる + noun: 悲[かな]しみ + 極[きわ]まる + 出来事[できごと] = events extreme in sadness. 極[きわ]まる used attributively before 出来事[できごと]. The sadness has reached its extreme."
+     "explanation": "な-adjective stem + 極[きわ]まる + noun: 悲惨[ひさん] (tragic, miserable) + 極[きわ]まる + 出来事[できごと] = events of the utmost tragedy. 極[きわ]まる is used attributively before the noun, and the stem attaches with no な. Emotion nouns like 悲[かな]しみ do not take 極[きわ]まる — the pattern wants a な-adjective stem (悲惨[ひさん], 残酷[ざんこく]) or a noun of quality."
     },
     {
      "id": "kiwamaru_q15",
@@ -245,7 +245,7 @@
      "choices": [
       "その対応[たいおう]は非礼[ひれい]極[きわ]まりない。",
       "その対応[たいおう]は非常[ひじょう]に非礼[ひれい]だ。",
-      "その対応[たいおう]は非礼[ひれい]極[きわ]まる。",
+      "その対応[たいおう]は非礼[ひれい]な極[きわ]まりない。",
       "その対応[たいおう]は非礼[ひれい]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -254,16 +254,16 @@
     {
      "id": "kiwamaru_q16",
      "type": "construct",
-     "prompt": "Which correctly says 'His behavior is extremely embarrassing'?",
+     "prompt": "Which correctly says 'His behavior is utterly despicable'?",
      "japanese": null,
      "choices": [
-      "彼[かれ]の行動[こうどう]は恥[は]ずかしい限[かぎ]りだ。",
-      "彼[かれ]の行動[こうどう]は非常[ひじょう]に恥[は]ずかしい。",
-      "彼[かれ]の行動[こうどう]は恥[はじ]極[きわ]まりない。",
-      "彼[かれ]の行動[こうどう]は恥[はじ]知[し]らずだ。"
+      "彼[かれ]の行動[こうどう]は卑劣[ひれつ]な限[かぎ]りだ。",
+      "彼[かれ]の行動[こうどう]は非常[ひじょう]に卑劣[ひれつ]だ。",
+      "彼[かれ]の行動[こうどう]は卑劣[ひれつ]極[きわ]まりない。",
+      "彼[かれ]の行動[こうどう]は卑劣[ひれつ]な極[きわ]まりない。"
      ],
      "correctIndex": 2,
-     "explanation": "Noun stem + 極[きわ]まりない: 恥[はじ] + 極[きわ]まりない = the height of shame/disgrace. Condemns his behavior as reaching the extreme of shameful conduct."
+     "explanation": "な-adjective stem + 極[きわ]まりない: 卑劣[ひれつ] (despicable, mean) + 極[きわ]まりない = despicable beyond measure. Attach the bare stem (✗卑劣[ひれつ]な極[きわ]まりない). 卑劣[ひれつ]な限[かぎ]りだ is not idiomatic — 限[かぎ]りだ takes い-adjectives of feeling (嬉[うれ]しい限[かぎ]りだ), and 非常[ひじょう]に卑劣[ひれつ]だ is merely 'very', not the extreme condemnation of 極[きわ]まりない."
     },
     {
      "id": "kiwamaru_q17",
@@ -287,7 +287,7 @@
      "choices": [
       "その運用[うんよう]条件[じょうけん]は過酷[かこく]極[きわ]まりない。",
       "その運用[うんよう]条件[じょうけん]は非常[ひじょう]に過酷[かこく]だ。",
-      "その運用[うんよう]条件[じょうけん]は過酷[かこく]極[きわ]まる。",
+      "その運用[うんよう]条件[じょうけん]は過酷[かこく]な極[きわ]まりない。",
       "その運用[うんよう]条件[じょうけん]は過酷[かこく]なことこの上[じょう]ない。"
      ],
      "correctIndex": 0,
@@ -301,7 +301,7 @@
      "choices": [
       "彼[かれ]の振[ふ]る舞[ま]いは無礼[ぶれい]極[きわ]まるものだった。",
       "彼[かれ]の振[ふ]る舞[ま]いは非常[ひじょう]に無礼[ぶれい]だった。",
-      "彼[かれ]の振[ふ]る舞[ま]いは無礼[ぶれい]極[きわ]まりないものだった。",
+      "彼[かれ]の振[ふ]る舞[ま]いは無礼[ぶれい]な極[きわ]まるものだった。",
       "彼[かれ]の振[ふ]る舞[ま]いは無礼[ぶれい]なことこの上[じょう]ないものだった。"
      ],
      "correctIndex": 0,
@@ -344,7 +344,7 @@
     },
     {
      "japanese": "世間[せけん]の批判[ひはん]をよそに、その芸術家[げいじゅつか]は独自[どくじ]のスタイルを貫[つらぬ]いた。",
-     "romaji": "Seken no hihan wo yoso ni, sono geijutsuka wa dokuji no sutairu wo tsuranUita.",
+     "romaji": "Seken no hihan wo yoso ni, sono geijutsuka wa dokuji no sutairu wo tsuranuita.",
      "english": "Indifferent to public criticism, the artist maintained their unique style."
     },
     {
@@ -1289,15 +1289,15 @@
  "kanji": [
   {
    "char": "慈",
-   "word": "慈",
-   "reading": "いつくしむ",
-   "meaning": "mercy"
+   "word": "慈善",
+   "reading": "じぜん",
+   "meaning": "charity"
   },
   {
    "char": "惧",
-   "word": "惧",
-   "reading": "ぐ",
-   "meaning": "fear"
+   "word": "危惧",
+   "reading": "きぐ",
+   "meaning": "fear; apprehension"
   },
   {
    "char": "肘",
@@ -1325,39 +1325,39 @@
   },
   {
    "char": "匿",
-   "word": "匿",
-   "reading": "とく",
-   "meaning": "hide"
+   "word": "匿名",
+   "reading": "とくめい",
+   "meaning": "anonymity"
   },
   {
    "char": "汎",
-   "word": "汎",
-   "reading": "はん",
-   "meaning": "general"
+   "word": "汎用",
+   "reading": "はんよう",
+   "meaning": "general-purpose"
   },
   {
    "char": "昧",
-   "word": "昧",
-   "reading": "まい",
-   "meaning": "dark"
+   "word": "曖昧",
+   "reading": "あいまい",
+   "meaning": "vague; ambiguous"
   },
   {
    "char": "賓",
-   "word": "賓",
-   "reading": "ひん",
-   "meaning": "guest"
+   "word": "来賓",
+   "reading": "らいひん",
+   "meaning": "guest (of honour)"
   },
   {
    "char": "罷",
-   "word": "罷",
-   "reading": "ひ",
-   "meaning": "quit"
+   "word": "罷免",
+   "reading": "ひめん",
+   "meaning": "dismissal (from office)"
   },
   {
    "char": "匠",
-   "word": "匠",
-   "reading": "しょう",
-   "meaning": "artisan"
+   "word": "巨匠",
+   "reading": "きょしょう",
+   "meaning": "master; great artist"
   },
   {
    "char": "洞",
@@ -1373,15 +1373,15 @@
   },
   {
    "char": "酬",
-   "word": "酬",
-   "reading": "しゅう",
-   "meaning": "reward"
+   "word": "報酬",
+   "reading": "ほうしゅう",
+   "meaning": "remuneration; reward"
   },
   {
    "char": "妄",
-   "word": "妄",
-   "reading": "もう",
-   "meaning": "reckless"
+   "word": "妄想",
+   "reading": "もうそう",
+   "meaning": "delusion; wild fantasy"
   },
   {
    "char": "殻",
@@ -1391,33 +1391,34 @@
   },
   {
    "char": "庶",
-   "word": "庶",
-   "reading": "しょ",
-   "meaning": "commoner"
+   "word": "庶民",
+   "reading": "しょみん",
+   "meaning": "ordinary people"
   },
   {
    "char": "枢",
-   "word": "枢",
-   "reading": "すう",
-   "meaning": "pivot"
+   "word": "中枢",
+   "reading": "ちゅうすう",
+   "meaning": "centre; core; nerve centre"
   }
  ],
  "kanjiWords": [
   {
-   "word": "慈",
-   "kana": "いつくしむ",
-   "romaji": "itsukushimu",
-   "meaning": "mercy",
+   "word": "慈善",
+   "kana": "じぜん",
+   "romaji": "jizen",
+   "meaning": "charity",
    "chars": [
     "慈"
    ]
   },
   {
-   "word": "惧",
-   "kana": "ぐ",
-   "romaji": "gu",
-   "meaning": "fear",
+   "word": "危惧",
+   "kana": "きぐ",
+   "romaji": "kigu",
+   "meaning": "fear; apprehension",
    "chars": [
+    "危",
     "惧"
    ]
   },
@@ -1460,56 +1461,61 @@
    ]
   },
   {
-   "word": "匿",
-   "kana": "とく",
-   "romaji": "toku",
-   "meaning": "hide",
+   "word": "匿名",
+   "kana": "とくめい",
+   "romaji": "tokumei",
+   "meaning": "anonymity",
    "chars": [
-    "匿"
+    "匿",
+    "名"
    ]
   },
   {
-   "word": "汎",
-   "kana": "はん",
-   "romaji": "han",
-   "meaning": "general",
+   "word": "汎用",
+   "kana": "はんよう",
+   "romaji": "hanyou",
+   "meaning": "general-purpose",
    "chars": [
-    "汎"
+    "汎",
+    "用"
    ]
   },
   {
-   "word": "昧",
-   "kana": "まい",
-   "romaji": "mai",
-   "meaning": "dark",
+   "word": "曖昧",
+   "kana": "あいまい",
+   "romaji": "aimai",
+   "meaning": "vague; ambiguous",
    "chars": [
+    "曖",
     "昧"
    ]
   },
   {
-   "word": "賓",
-   "kana": "ひん",
-   "romaji": "hin",
-   "meaning": "guest",
+   "word": "来賓",
+   "kana": "らいひん",
+   "romaji": "raihin",
+   "meaning": "guest (of honour)",
    "chars": [
+    "来",
     "賓"
    ]
   },
   {
-   "word": "罷",
-   "kana": "ひ",
-   "romaji": "hi",
-   "meaning": "quit",
+   "word": "罷免",
+   "kana": "ひめん",
+   "romaji": "himen",
+   "meaning": "dismissal (from office)",
    "chars": [
     "罷"
    ]
   },
   {
-   "word": "匠",
-   "kana": "しょう",
-   "romaji": "shou",
-   "meaning": "artisan",
+   "word": "巨匠",
+   "kana": "きょしょう",
+   "romaji": "kyoshou",
+   "meaning": "master; great artist",
    "chars": [
+    "巨",
     "匠"
    ]
   },
@@ -1533,21 +1539,23 @@
    ]
   },
   {
-   "word": "酬",
-   "kana": "しゅう",
-   "romaji": "shuu",
-   "meaning": "reward",
+   "word": "報酬",
+   "kana": "ほうしゅう",
+   "romaji": "houshuu",
+   "meaning": "remuneration; reward",
    "chars": [
+    "報",
     "酬"
    ]
   },
   {
-   "word": "妄",
-   "kana": "もう",
-   "romaji": "mou",
-   "meaning": "reckless",
+   "word": "妄想",
+   "kana": "もうそう",
+   "romaji": "mousou",
+   "meaning": "delusion; wild fantasy",
    "chars": [
-    "妄"
+    "妄",
+    "想"
    ]
   },
   {
@@ -1560,20 +1568,22 @@
    ]
   },
   {
-   "word": "庶",
-   "kana": "しょ",
-   "romaji": "sho",
-   "meaning": "commoner",
+   "word": "庶民",
+   "kana": "しょみん",
+   "romaji": "shomin",
+   "meaning": "ordinary people",
    "chars": [
-    "庶"
+    "庶",
+    "民"
    ]
   },
   {
-   "word": "枢",
-   "kana": "すう",
-   "romaji": "suu",
-   "meaning": "pivot",
+   "word": "中枢",
+   "kana": "ちゅうすう",
+   "romaji": "chuusuu",
+   "meaning": "centre; core; nerve centre",
    "chars": [
+    "中",
     "枢"
    ]
   },

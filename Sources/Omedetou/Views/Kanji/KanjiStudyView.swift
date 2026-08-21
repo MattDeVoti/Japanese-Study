@@ -106,6 +106,7 @@ struct KanjiStudyView: View {
                     if let base = baseCard {
                         Button {
                             store.toggleFavorite(cardId: base.id)
+                            FeedbackSounds.shared.playFavorite(store.kanjiCard(id: base.id)?.isFavorite ?? false)
                         } label: {
                             Image(systemName: base.isFavorite ? "star.fill" : "star")
                                 .font(.system(size: 26))
@@ -164,6 +165,7 @@ struct KanjiStudyView: View {
                         Spacer()
 
                         CheckButton {
+                            FeedbackSounds.shared.play(.notification)
                             withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
                                 isRevealed = true
                             }
@@ -180,6 +182,7 @@ struct KanjiStudyView: View {
             // Needs Work / back / Confident — always visible
             HStack(spacing: 12) {
                 Button {
+                    FeedbackSounds.shared.play(.incorrect)
                     let didUncheck = store.incrementNeedsWork(cardId: card.id)
                     history.append(KanjiStudyHistoryEntry(card: card,
                                                          action: .needsWork(didUncheck: didUncheck)))
@@ -287,6 +290,7 @@ struct KanjiStudyView: View {
     /// pops a green check over the card, then advances to the next card.
     private func confirmConfident(_ card: KanjiStudyItem) {
         guard !showConfidentPop else { return }
+        FeedbackSounds.shared.playCorrectVariation()
         store.incrementConfident(cardId: card.id)
         let wasChecked = store.isKanjiExcluded(card.id)
         if !wasChecked { store.toggleKanjiExcluded(cardId: card.id) }

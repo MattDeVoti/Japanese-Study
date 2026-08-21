@@ -642,11 +642,11 @@
    "name": "に (ni) — time particle",
    "shortDescription": "Marks a specific point in time when an action takes place.",
    "formation": "Specific time + に + Verb",
-   "explanation": "In English, different prepositions apply to different time references: 'at' 3 o'clock, 'on' Monday, 'in' March. Japanese unifies all of these with a single particle: に. The key word is 'specific' — に only attaches to times that name a fixed, named point on a clock or calendar. 三時[さんじ]に (at 3 o'clock), 月曜日[げつようび]に (on Monday), 三月[さんがつ]に (in March) — all specific points, all use に.\n\nBut here is where beginners get tripped up: relative and frequency time words do NOT take に. 今日[きょう] (today), 明日[あした] (tomorrow), 昨日[きのう] (yesterday), 今 (now), 毎日[まいにち] (every day) — none of these ever take に. Why? Because they are already so clear about when they mean that に would add nothing.\n\nA simple test: if the time word names a precise point on a clock or calendar, use に. If it is relative (today, yesterday, now) or a frequency word (every day, every morning), skip に entirely.",
+   "explanation": "In English, different prepositions apply to different time references: 'at' 3 o'clock, 'on' Monday, 'in' March. Japanese unifies all of these with a single particle: に. The key word is 'specific' — に only attaches to times that name a fixed, named point on a clock or calendar. 三時[さんじ]に (at 3 o'clock), 月曜日[げつようび]に (on Monday), 三月[さんがつ]に (in March) — all specific points, all use に.\n\nBut here is where beginners get tripped up: relative and frequency time words do NOT take に. 今日[きょう] (today), 明日[あした] (tomorrow), 昨日[きのう] (yesterday), 今[いま] (now), 毎日[まいにち] (every day) — none of these ever take に. Why? Because they are already so clear about when they mean that に would add nothing.\n\nA simple test: if the time word names a precise point on a clock or calendar, use に. If it is relative (today, yesterday, now) or a frequency word (every day, every morning), skip に entirely.",
    "rules": [
     "Use に with specific clock times: 三時[さんじ]に (at 3 o'clock)",
     "Use に with specific days and dates: 月曜日[げつようび]に (on Monday), 三月[さんがつ]に (in March)",
-    "Do NOT use に with: 今日[きょう], 明日[あした], 昨日[きのう], 今, 毎日[まいにち], 毎朝[まいあさ], もう, さっき",
+    "Do NOT use に with: 今日[きょう], 明日[あした], 昨日[きのう], 今[いま], 毎日[まいにち], 毎朝[まいあさ], もう, さっき",
     "Test: specific point on a clock or calendar → use に; relative/frequency word → no に"
    ],
    "examples": [
@@ -1201,7 +1201,7 @@
      "id": "wo-particle_q16",
      "type": "translation",
      "prompt": "What does this sentence mean?",
-     "japanese": "その角[かく]を右[みぎ]に曲[ま]がってください。",
+     "japanese": "その角[かど]を右[みぎ]に曲[ま]がってください。",
      "choices": [
       "Please turn right at that corner.",
       "Please go straight past that corner.",
@@ -1209,7 +1209,7 @@
       "Please stop at that corner."
      ],
      "correctIndex": 0,
-     "explanation": "その角[かく]を: を marks the corner as the path/point of transit (a motion verb follows). 右[みぎ]に = to the right (に marks direction). 曲[ま]がる = to turn. 〜てください = please do. 'Please turn right at that corner.'"
+     "explanation": "その角[かど]を: を marks the corner as the path/point of transit (a motion verb follows). 右[みぎ]に = to the right (に marks direction). 曲[ま]がる = to turn. 〜てください = please do. 'Please turn right at that corner.'"
     },
     {
      "id": "wo-particle_q17",
@@ -1742,7 +1742,7 @@
    "name": "〜ませんか / 〜ましょう (invitation and suggestion)",
    "shortDescription": "Two ways to invite or suggest doing something together.",
    "formation": "Verb stem + ませんか (polite invitation)  |  Verb stem + ましょう (let's)",
-   "explanation": "When you want to invite someone to do something with you, Japanese gives you two main options. ませんか (literally 'Won't you...?') is the more polite and tentative form — it leaves room for the other person to decline gracefully, making it perfect for inviting someone you do not know very well, or in any situation where saying no would be perfectly fine. ましょう (let's do...) is more direct and assumes the listener will be on board — use it with people you know well or when agreement is virtually certain.\n\nA third form, ましょうか, is used when offering your help ('Shall I...?') or suggesting something more tentatively ('Shall we...?'). Note on one very common pattern: Verb stem + に + 行[い]く/来[く]る means 'go/come in order to do something' — for example, 食[た]べに行[い]きましょう (Let's go eat). We will cover this purpose-marking に pattern formally in Chapter 7, but you will start seeing and hearing it naturally from here on.",
+   "explanation": "When you want to invite someone to do something with you, Japanese gives you two main options. ませんか (literally 'Won't you...?') is the more polite and tentative form — it leaves room for the other person to decline gracefully, making it perfect for inviting someone you do not know very well, or in any situation where saying no would be perfectly fine. ましょう (let's do...) is more direct and assumes the listener will be on board — use it with people you know well or when agreement is virtually certain.\n\nA third form, ましょうか, is used when offering your help ('Shall I...?') or suggesting something more tentatively ('Shall we...?'). Note on one very common pattern: Verb stem + に + 行[い]く/来[く]る means 'go/come in order to do something' — for example, 食[た]べに行[い]きましょう (Let's go eat). We will cover this purpose-marking に pattern formally in Chapter 8, but you will start seeing and hearing it naturally from here on.",
    "rules": [
     "〜ませんか = polite invitation: Won't you join me in X? (listener can decline)",
     "〜ましょう = suggestion with assumption of agreement: Let's do X",
@@ -1845,7 +1845,7 @@
      "id": "masen-ka_q6",
      "type": "fillBlank",
      "prompt": "Fill in the blank: 'Won't you come to the party?'",
-     "japanese": "パーティーに来[らい]___。",
+     "japanese": "パーティーに来[き]___。",
      "choices": [
       "ましょう",
       "ました",
@@ -1853,7 +1853,7 @@
       "ますか"
      ],
      "correctIndex": 2,
-     "explanation": "ませんか is the polite invitation form: 'Won't you...?' It gives the listener room to decline. 来[く]る (to come) → polite stem 来[らい] (き) + ませんか. ましょう would be 'Let's come' (speaker also coming); ますか asks a plain question."
+     "explanation": "ませんか is the polite invitation form: 'Won't you...?' It gives the listener room to decline. 来[く]る (to come) → polite stem 来[き] + ませんか. ましょう would be 'Let's come' (speaker also coming); ますか asks a plain question."
     },
     {
      "id": "masen-ka_q7",

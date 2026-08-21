@@ -1,7 +1,7 @@
 {
  "id": "ch42",
  "chapterNumber": 44,
- "title": "Judgment and Standards",
+ "title": "Judging From / Based On",
  "points": [
   {
    "id": "kara-shite",
@@ -1307,9 +1307,9 @@
   },
   {
    "char": "輸",
-   "word": "輸",
-   "reading": "ゆ",
-   "meaning": "transport"
+   "word": "輸入",
+   "reading": "ゆにゅう",
+   "meaning": "import"
   },
   {
    "char": "線",
@@ -1319,9 +1319,9 @@
   },
   {
    "char": "域",
-   "word": "域",
-   "reading": "いき",
-   "meaning": "range"
+   "word": "地域",
+   "reading": "ちいき",
+   "meaning": "area; region"
   },
   {
    "char": "額",
@@ -1343,8 +1343,8 @@
   },
   {
    "char": "録",
-   "word": "録",
-   "reading": "しるす",
+   "word": "記録",
+   "reading": "きろく",
    "meaning": "record"
   },
   {
@@ -1379,9 +1379,9 @@
   },
   {
    "char": "均",
-   "word": "均",
-   "reading": "ならす",
-   "meaning": "level"
+   "word": "平均",
+   "reading": "へいきん",
+   "meaning": "average"
   },
   {
    "char": "陸",
@@ -1409,9 +1409,9 @@
   },
   {
    "char": "層",
-   "word": "層",
-   "reading": "そう",
-   "meaning": "layer; stratum"
+   "word": "階層",
+   "reading": "かいそう",
+   "meaning": "class; stratum"
   },
   {
    "char": "績",
@@ -1421,9 +1421,9 @@
   },
   {
    "char": "刊",
-   "word": "刊",
-   "reading": "かん",
-   "meaning": "publish"
+   "word": "週刊",
+   "reading": "しゅうかん",
+   "meaning": "weekly publication"
   },
   {
    "char": "震",
@@ -1457,9 +1457,9 @@
   },
   {
    "char": "翌",
-   "word": "翌",
-   "reading": "よく",
-   "meaning": "the following"
+   "word": "翌日",
+   "reading": "よくじつ",
+   "meaning": "the next day"
   },
   {
    "char": "荒",
@@ -1553,9 +1553,9 @@
   },
   {
    "char": "菓",
-   "word": "菓",
-   "reading": "か",
-   "meaning": "candy"
+   "word": "菓子",
+   "reading": "かし",
+   "meaning": "confectionery"
   },
   {
    "char": "皿",
@@ -1599,12 +1599,13 @@
    ]
   },
   {
-   "word": "輸",
-   "kana": "ゆ",
-   "romaji": "yu",
-   "meaning": "transport",
+   "word": "輸入",
+   "kana": "ゆにゅう",
+   "romaji": "yunyuu",
+   "meaning": "import",
    "chars": [
-    "輸"
+    "輸",
+    "入"
    ]
   },
   {
@@ -1617,11 +1618,12 @@
    ]
   },
   {
-   "word": "域",
-   "kana": "いき",
-   "romaji": "iki",
-   "meaning": "range",
+   "word": "地域",
+   "kana": "ちいき",
+   "romaji": "chiiki",
+   "meaning": "area; region",
    "chars": [
+    "地",
     "域"
    ]
   },
@@ -1653,11 +1655,12 @@
    ]
   },
   {
-   "word": "録",
-   "kana": "しるす",
-   "romaji": "shirusu",
+   "word": "記録",
+   "kana": "きろく",
+   "romaji": "kiroku",
    "meaning": "record",
    "chars": [
+    "記",
     "録"
    ]
   },
@@ -1708,11 +1711,12 @@
    ]
   },
   {
-   "word": "均",
-   "kana": "ならす",
-   "romaji": "narasu",
-   "meaning": "level",
+   "word": "平均",
+   "kana": "へいきん",
+   "romaji": "heikin",
+   "meaning": "average",
    "chars": [
+    "平",
     "均"
    ]
   },
@@ -1753,11 +1757,12 @@
    ]
   },
   {
-   "word": "層",
-   "kana": "そう",
-   "romaji": "sou",
-   "meaning": "layer; stratum",
+   "word": "階層",
+   "kana": "かいそう",
+   "romaji": "kaisou",
+   "meaning": "class; stratum",
    "chars": [
+    "階",
     "層"
    ]
   },
@@ -1772,11 +1777,12 @@
    ]
   },
   {
-   "word": "刊",
-   "kana": "かん",
-   "romaji": "kan",
-   "meaning": "publish",
+   "word": "週刊",
+   "kana": "しゅうかん",
+   "romaji": "shuukan",
+   "meaning": "weekly publication",
    "chars": [
+    "週",
     "刊"
    ]
   },
@@ -1826,12 +1832,13 @@
    ]
   },
   {
-   "word": "翌",
-   "kana": "よく",
-   "romaji": "yoku",
-   "meaning": "the following",
+   "word": "翌日",
+   "kana": "よくじつ",
+   "romaji": "yokujitsu",
+   "meaning": "the next day",
    "chars": [
-    "翌"
+    "翌",
+    "日"
    ]
   },
   {
@@ -1967,15 +1974,6 @@
    "meaning": "tatami mat (esp. as a measure of room size, either 1.82 sqm or 1.54 sqm)",
    "chars": [
     "畳"
-   ]
-  },
-  {
-   "word": "菓",
-   "kana": "か",
-   "romaji": "ka",
-   "meaning": "candy",
-   "chars": [
-    "菓"
    ]
   },
   {
@@ -2138,7 +2136,7 @@
    "word": "合格",
    "kana": "ごうかく",
    "romaji": "goukaku",
-   "meaning": "success",
+   "meaning": "passing (an exam); success",
    "chars": [
     "合",
     "格"
@@ -2158,7 +2156,7 @@
    "word": "性能",
    "kana": "せいのう",
    "romaji": "seinou",
-   "meaning": "ability",
+   "meaning": "performance (of a machine); capability",
    "chars": [
     "性",
     "能"

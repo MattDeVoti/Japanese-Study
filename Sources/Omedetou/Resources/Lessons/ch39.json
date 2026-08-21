@@ -1289,9 +1289,9 @@
  "kanji": [
   {
    "char": "府",
-   "word": "府",
-   "reading": "ふ",
-   "meaning": "borough"
+   "word": "政府",
+   "reading": "せいふ",
+   "meaning": "government"
   },
   {
    "char": "委",
@@ -1319,9 +1319,9 @@
   },
   {
    "char": "副",
-   "word": "副",
-   "reading": "ふく",
-   "meaning": "assistant"
+   "word": "副作用",
+   "reading": "ふくさよう",
+   "meaning": "side effect"
   },
   {
    "char": "算",
@@ -1361,9 +1361,9 @@
   },
   {
    "char": "将",
-   "word": "将",
-   "reading": "しょう",
-   "meaning": "commander"
+   "word": "将来",
+   "reading": "しょうらい",
+   "meaning": "future"
   },
   {
    "char": "鉄",
@@ -1415,9 +1415,9 @@
   },
   {
    "char": "貨",
-   "word": "貨",
-   "reading": "たから",
-   "meaning": "freight"
+   "word": "貨物",
+   "reading": "かもつ",
+   "meaning": "freight; cargo"
   },
   {
    "char": "混",
@@ -1433,15 +1433,15 @@
   },
   {
    "char": "籍",
-   "word": "籍",
-   "reading": "せき",
-   "meaning": "one's family register"
+   "word": "国籍",
+   "reading": "こくせき",
+   "meaning": "nationality"
   },
   {
    "char": "郵",
-   "word": "郵",
-   "reading": "ゆう",
-   "meaning": "mail"
+   "word": "郵便",
+   "reading": "ゆうびん",
+   "meaning": "mail; post"
   },
   {
    "char": "跡",
@@ -1451,9 +1451,9 @@
   },
   {
    "char": "臓",
-   "word": "臓",
-   "reading": "はらわた",
-   "meaning": "entrails"
+   "word": "心臓",
+   "reading": "しんぞう",
+   "meaning": "heart (organ)"
   },
   {
    "char": "奥",
@@ -1463,21 +1463,21 @@
   },
   {
    "char": "片",
-   "word": "片",
-   "reading": "かた",
-   "meaning": "one-sided"
+   "word": "片付ける",
+   "reading": "かたづける",
+   "meaning": "to tidy up"
   },
   {
    "char": "埋",
    "word": "埋める",
-   "reading": "うずめる",
-   "meaning": "to cover"
+   "reading": "うめる",
+   "meaning": "to bury; to fill in"
   },
   {
    "char": "童",
-   "word": "童",
-   "reading": "わらべ",
-   "meaning": "juvenile"
+   "word": "児童",
+   "reading": "じどう",
+   "meaning": "children"
   },
   {
    "char": "毛",
@@ -1493,15 +1493,15 @@
   },
   {
    "char": "黄",
-   "word": "黄",
-   "reading": "き",
+   "word": "黄色",
+   "reading": "きいろ",
    "meaning": "yellow"
   },
   {
    "char": "軟",
-   "word": "軟",
-   "reading": "やわらか",
-   "meaning": "soft"
+   "word": "柔軟",
+   "reading": "じゅうなん",
+   "meaning": "flexible; soft"
   },
   {
    "char": "炭",
@@ -1517,9 +1517,9 @@
   },
   {
    "char": "鉱",
-   "word": "鉱",
-   "reading": "あらがね",
-   "meaning": "mineral"
+   "word": "鉱山",
+   "reading": "こうざん",
+   "meaning": "mine"
   },
   {
    "char": "毒",
@@ -1572,11 +1572,12 @@
  ],
  "kanjiWords": [
   {
-   "word": "府",
-   "kana": "ふ",
-   "romaji": "fu",
-   "meaning": "borough",
+   "word": "政府",
+   "kana": "せいふ",
+   "romaji": "seifu",
+   "meaning": "government",
    "chars": [
+    "政",
     "府"
    ]
   },
@@ -1618,12 +1619,14 @@
    ]
   },
   {
-   "word": "副",
-   "kana": "ふく",
-   "romaji": "fuku",
-   "meaning": "assistant",
+   "word": "副作用",
+   "kana": "ふくさよう",
+   "romaji": "fukusayou",
+   "meaning": "side effect",
    "chars": [
-    "副"
+    "副",
+    "作",
+    "用"
    ]
   },
   {
@@ -1682,12 +1685,13 @@
    ]
   },
   {
-   "word": "将",
-   "kana": "しょう",
-   "romaji": "shou",
-   "meaning": "commander",
+   "word": "将来",
+   "kana": "しょうらい",
+   "romaji": "shourai",
+   "meaning": "future",
    "chars": [
-    "将"
+    "将",
+    "来"
    ]
   },
   {
@@ -1763,12 +1767,13 @@
    ]
   },
   {
-   "word": "貨",
-   "kana": "たから",
-   "romaji": "takara",
-   "meaning": "freight",
+   "word": "貨物",
+   "kana": "かもつ",
+   "romaji": "kamotsu",
+   "meaning": "freight; cargo",
    "chars": [
-    "貨"
+    "貨",
+    "物"
    ]
   },
   {
@@ -1791,21 +1796,23 @@
    ]
   },
   {
-   "word": "籍",
-   "kana": "せき",
-   "romaji": "seki",
-   "meaning": "one's family register",
+   "word": "国籍",
+   "kana": "こくせき",
+   "romaji": "kokuseki",
+   "meaning": "nationality",
    "chars": [
+    "国",
     "籍"
    ]
   },
   {
-   "word": "郵",
-   "kana": "ゆう",
-   "romaji": "yuu",
-   "meaning": "mail",
+   "word": "郵便",
+   "kana": "ゆうびん",
+   "romaji": "yuubin",
+   "meaning": "mail; post",
    "chars": [
-    "郵"
+    "郵",
+    "便"
    ]
   },
   {
@@ -1818,11 +1825,12 @@
    ]
   },
   {
-   "word": "臓",
-   "kana": "はらわた",
-   "romaji": "harawata",
-   "meaning": "entrails",
+   "word": "心臓",
+   "kana": "しんぞう",
+   "romaji": "shinzou",
+   "meaning": "heart (organ)",
    "chars": [
+    "心",
     "臓"
    ]
   },
@@ -1836,29 +1844,22 @@
    ]
   },
   {
-   "word": "片",
-   "kana": "かた",
-   "romaji": "kata",
-   "meaning": "one-sided",
+   "word": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "meaning": "to tidy up",
    "chars": [
-    "片"
+    "片",
+    "付"
    ]
   },
   {
-   "word": "埋める",
-   "kana": "うずめる",
-   "romaji": "uzumeru",
-   "meaning": "to cover",
+   "word": "児童",
+   "kana": "じどう",
+   "romaji": "jidou",
+   "meaning": "children",
    "chars": [
-    "埋"
-   ]
-  },
-  {
-   "word": "童",
-   "kana": "わらべ",
-   "romaji": "warabe",
-   "meaning": "juvenile",
-   "chars": [
+    "児",
     "童"
    ]
   },
@@ -1881,20 +1882,22 @@
    ]
   },
   {
-   "word": "黄",
-   "kana": "き",
-   "romaji": "ki",
+   "word": "黄色",
+   "kana": "きいろ",
+   "romaji": "kiiro",
    "meaning": "yellow",
    "chars": [
-    "黄"
+    "黄",
+    "色"
    ]
   },
   {
-   "word": "軟",
-   "kana": "やわらか",
-   "romaji": "yawaraka",
-   "meaning": "soft",
+   "word": "柔軟",
+   "kana": "じゅうなん",
+   "romaji": "juunan",
+   "meaning": "flexible; soft",
    "chars": [
+    "柔",
     "軟"
    ]
   },
@@ -1917,12 +1920,13 @@
    ]
   },
   {
-   "word": "鉱",
-   "kana": "あらがね",
-   "romaji": "aragane",
-   "meaning": "mineral",
+   "word": "鉱山",
+   "kana": "こうざん",
+   "romaji": "kouzan",
+   "meaning": "mine",
    "chars": [
-    "鉱"
+    "鉱",
+    "山"
    ]
   },
   {
@@ -2148,7 +2152,7 @@
    "word": "資本",
    "kana": "しほん",
    "romaji": "shihon",
-   "meaning": "funds",
+   "meaning": "capital",
    "chars": [
     "資",
     "本"
@@ -2191,6 +2195,15 @@
    "chars": [
     "合",
     "併"
+   ]
+  },
+  {
+   "word": "埋める",
+   "kana": "うめる",
+   "romaji": "umeru",
+   "meaning": "to bury; to fill in",
+   "chars": [
+    "埋"
    ]
   }
  ]

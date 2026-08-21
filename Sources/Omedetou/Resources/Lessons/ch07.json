@@ -8,9 +8,9 @@
    "name": "〜ています (te imasu) — ongoing action or resultant state",
    "shortDescription": "Expresses an action in progress, a lasting resultant state, or a habitual/repeated activity.",
    "formation": "Verb (て-form) + います (polite)  |  + いる (plain)",
-   "explanation": "〜ています is one of the most frequently used patterns in Japanese, and mastering all of its meanings is essential. The first meaning is an action currently in progress: 食[た]べています means '(am) eating,' 走[はし]っています means '(am) running.' The second meaning is a resultant state — a condition that exists now because of something that happened in the past: 結婚[けっこん]しています (is married), 知[し]っています (knows), 住[す]んでいます (lives somewhere).\n\nThere is also a third, equally important meaning: habitual or repeated actions. 毎日[まいにち]走[はし]っています doesn't mean 'is running right now' — it means 'runs every day' as an ongoing pattern. This habitual meaning is especially common when describing jobs and routines: 会社[かいしゃ]で働[はたら]いています (I work at a company) describes an ongoing situation, not an action in progress this instant.\n\nWhen you encounter 〜ています, ask yourself: is this happening right now, or is it a lasting state or regular pattern? Context — especially words like 今 (now), 毎日[まいにち] (every day), or location verbs like 住[す]む (to live) — will usually make the meaning clear.\n\nOne asymmetry that catches nearly everyone: 知[し]る does not negate the way the pattern suggests. 知[し]っていますか is answered いいえ、知[し]りません — not ✗知[し]っていません, which is wrong. The affirmative is a resultant state (you have come to know, and still do), but the negative simply says the knowing never happened. わかる behaves the same way: わかりません, not ✗わかっていません.",
+   "explanation": "〜ています is one of the most frequently used patterns in Japanese, and mastering all of its meanings is essential. The first meaning is an action currently in progress: 食[た]べています means '(am) eating,' 走[はし]っています means '(am) running.' The second meaning is a resultant state — a condition that exists now because of something that happened in the past: 結婚[けっこん]しています (is married), 知[し]っています (knows), 住[す]んでいます (lives somewhere).\n\nThere is also a third, equally important meaning: habitual or repeated actions. 毎日[まいにち]走[はし]っています doesn't mean 'is running right now' — it means 'runs every day' as an ongoing pattern. This habitual meaning is especially common when describing jobs and routines: 会社[かいしゃ]で働[はたら]いています (I work at a company) describes an ongoing situation, not an action in progress this instant.\n\nWhen you encounter 〜ています, ask yourself: is this happening right now, or is it a lasting state or regular pattern? Context — especially words like 今[いま] (now), 毎日[まいにち] (every day), or location verbs like 住[す]む (to live) — will usually make the meaning clear.\n\nOne asymmetry that catches nearly everyone: 知[し]る does not negate the way the pattern suggests. 知[し]っていますか is answered いいえ、知[し]りません — not ✗知[し]っていません, which is wrong. The affirmative is a resultant state (you have come to know, and still do), but the negative simply says the knowing never happened. わかる behaves the same way: わかりません, not ✗わかっていません.",
    "rules": [
-    "Meaning 1 — action in progress: 今〜ています = is currently doing X",
+    "Meaning 1 — action in progress: 今[いま]〜ています = is currently doing X",
     "Meaning 2 — resultant state: 知[し]っている (knows), 結婚[けっこん]している (is married), 住[す]んでいる (lives [somewhere])",
     "Negative of 知[し]っている is 知[し]りません / 知[し]らない — never ✗知[し]っていません",
     "Polite: 〜ています; Casual: 〜てる (い dropped)",
@@ -160,13 +160,13 @@
      "prompt": "Which sentence correctly says 'Yuki is wearing a red dress'?",
      "japanese": null,
      "choices": [
-      "ゆきさんは赤[あか]いドレスを着[ちゃく]ます。",
-      "ゆきさんは赤[あか]いドレスを着[ちゃく]ました。",
+      "ゆきさんは赤[あか]いドレスを着[き]ます。",
+      "ゆきさんは赤[あか]いドレスを着[き]ました。",
       "ゆきさんは赤[あか]いドレスが着[き]ています。",
       "ゆきさんは赤[あか]いドレスを着[き]ています。"
      ],
      "correctIndex": 3,
-     "explanation": "着[き]る (to put on clothing) → 着[き]ている = is wearing (state). The particle を marks the clothing item. 着[ちゃく]ます means 'will put on' (future), 着[ちゃく]ました is past, and が is the wrong particle — clothing takes を, not が."
+     "explanation": "着[き]る (to put on clothing) → 着[き]ている = is wearing (state). The particle を marks the clothing item. 着[き]ます means 'will put on' (future), 着[き]ました is past, and が is the wrong particle — clothing takes を, not が."
     },
     {
      "id": "te-iru_q10",
@@ -495,12 +495,12 @@
      "japanese": "週末[しゅうまつ]に映画[えいが]を___に行[い]くつもりです。",
      "choices": [
       "見[み]る",
-      "見[けん]",
+      "見[み]",
       "見[み]て",
       "見[み]た"
      ],
      "correctIndex": 1,
-     "explanation": "The purpose-of-movement pattern requires the verb STEM — the form you get by dropping ます. 見[み]る → 見[み]ます → stem: 見[けん]. So 映画[えいが]を見[み]に行[い]く is correct. Dictionary form (見[み]る), te-form (見[み]て), and past form (見[み]た) are all incorrect before purpose に."
+     "explanation": "The purpose-of-movement pattern requires the verb STEM — the form you get by dropping ます. 見[み]る → 見[み]ます → stem: 見[み]. So 映画[えいが]を見[み]に行[い]く is correct. Dictionary form (見[み]る), te-form (見[み]て), and past form (見[み]た) are all incorrect before purpose に."
     },
     {
      "id": "ni-iku_q11",
@@ -598,7 +598,7 @@
       "She is not going to the movies."
      ],
      "correctIndex": 0,
-     "explanation": "行[い]かない？ is the casual negative question form used as an invitation, meaning 'Won't you go?' / 'Want to go?' 映画[えいが]を見[み]に (stem 見[けん] + purpose に) = to see a movie. So 映画[えいが]を見[み]に行[い]かない？ = 'Want to go see a movie?' This casual invitation pattern is very common among friends."
+     "explanation": "行[い]かない？ is the casual negative question form used as an invitation, meaning 'Won't you go?' / 'Want to go?' 映画[えいが]を見[み]に (stem 見[み] + purpose に) = to see a movie. So 映画[えいが]を見[み]に行[い]かない？ = 'Want to go see a movie?' This casual invitation pattern is very common among friends."
     },
     {
      "id": "ni-iku_q18",
@@ -640,7 +640,7 @@
       "The に is preceded by a verb stem (the form before ます)."
      ],
      "correctIndex": 3,
-     "explanation": "Purpose に is always preceded by a verb STEM — the form you get by dropping ます (e.g., 食[た]べ, 見[けん], 遊[あそ]び, 取[と]り). If に follows a noun, it likely marks destination, time, or direction. If に follows a verb stem and the sentence ends with 行[い]く/来[く]る/帰[かえ]る, it is the purpose-of-movement に."
+     "explanation": "Purpose に is always preceded by a verb STEM — the form you get by dropping ます (e.g., 食[た]べ, 見[み], 遊[あそ]び, 取[と]り). If に follows a noun, it likely marks destination, time, or direction. If に follows a verb stem and the sentence ends with 行[い]く/来[く]る/帰[かえ]る, it is the purpose-of-movement に."
     }
    ]
   }
@@ -976,9 +976,9 @@
   },
   {
    "char": "食",
-   "word": "食",
-   "reading": "た",
-   "meaning": "eat"
+   "word": "食べる",
+   "reading": "たべる",
+   "meaning": "to eat"
   }
  ],
  "kanjiWords": [
@@ -992,10 +992,10 @@
    ]
   },
   {
-   "word": "食",
-   "kana": "た",
-   "romaji": "ta",
-   "meaning": "eat",
+   "word": "食べる",
+   "kana": "たべる",
+   "romaji": "taberu",
+   "meaning": "to eat",
    "chars": [
     "食"
    ]

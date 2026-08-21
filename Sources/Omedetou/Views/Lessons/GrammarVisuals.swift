@@ -944,7 +944,7 @@ private struct TransIntransDiagram: View {
                         }
                     }
                     panel(title: "自動詞", tag: "intransitive", color: intransColor,
-                          formula: "ドアが 開[ひら]く",
+                          formula: "ドアが 開[あ]く",
                           particle: "が", particleGloss: "subject", gloss: "it opens by itself") {
                         HStack(spacing: 6) {
                             iconNode("rectangle.portrait.fill", intransColor)
@@ -1393,7 +1393,7 @@ private struct DatesDiagram: View {
                             .background(RoundedRectangle(cornerRadius: 7).fill(monthColor.opacity(0.13)))
                     }
                 }
-                Text("Only those three break the pattern — never よんがつ, ななつがつ or きゅうがつ.")
+                Text("Only those three break the pattern — never よんがつ, なながつ or きゅうがつ.")
                     .font(.system(size: 9)).foregroundColor(.appTextSecondary)
                     .fixedSize(horizontal: false, vertical: true)
 
@@ -1617,7 +1617,7 @@ private struct QuestionWordsDiagram: View {
                 HStack(alignment: .top, spacing: 6) {
                     Image(systemName: "exclamationmark.triangle.fill")
                         .font(.system(size: 10)).foregroundColor(Color(hex: "D97706"))
-                    FuriganaText(text: "いつ works too — いつか is “someday” — but いつも means “always,” not “never.”",
+                    FuriganaText(text: "いつ works too — いつか is “someday” — but いつも isn’t a “no-” word: on its own it means “always” (for “never” use 一度[いちど]も〜ない or 決[けっ]して〜ない).",
                                  fontSize: 10, color: .appTextSecondary)
                         .fixedSize(horizontal: false, vertical: true)
                     Spacer(minLength: 0)

@@ -71,6 +71,7 @@ struct CulturePointCard: View {
             // Header
             HStack(alignment: .center, spacing: 0) {
                 Button {
+                    FeedbackSounds.shared.play(.slide)
                     withAnimation(.easeInOut(duration: 0.22)) { isExpanded.toggle() }
                 } label: {
                     HStack(alignment: .top, spacing: 12) {
@@ -100,6 +101,7 @@ struct CulturePointCard: View {
                 // Favorite star
                 Button {
                     store.toggleFavorite(chapterId: chapterId, pointId: topic.id)
+                    FeedbackSounds.shared.playFavorite(isFavorite)
                 } label: {
                     Image(systemName: isFavorite ? "star.fill" : "star")
                         .font(.system(size: 15))
@@ -109,6 +111,7 @@ struct CulturePointCard: View {
 
                 // Completed circle-check
                 Button {
+                    FeedbackSounds.shared.play(.notification)
                     store.toggleCompleted(chapterId: chapterId, pointId: topic.id)
                 } label: {
                     ZStack {
@@ -127,6 +130,7 @@ struct CulturePointCard: View {
 
                 // Chevron
                 Button {
+                    FeedbackSounds.shared.play(.slide)
                     withAnimation(.easeInOut(duration: 0.22)) { isExpanded.toggle() }
                 } label: {
                     Image(systemName: isExpanded ? "chevron.up" : "chevron.down")

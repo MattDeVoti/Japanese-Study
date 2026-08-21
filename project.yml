@@ -28,6 +28,9 @@ targets:
         createIntermediateGroups: true
         excludes:
           - "**/.DS_Store"
+          # Test fixture, not app content. The scheme points the simulator at it
+          # and the test target bundles it; the shipped app has no use for it.
+          - "Resources/Omedetou.storekit"
       - path: Sources/Shared
         createIntermediateGroups: true
     settings:
@@ -65,6 +68,28 @@ targets:
       - sdk: libsqlite3.tbd
       - target: OmedetouWidgets
         embed: true
+
+  # Purchase code is the one part of the app that can't be checked by hand:
+  # renewals, refunds and expiries don't happen on request. `SKTestSession`
+  # produces them locally against Sources/Omedetou/Resources/Omedetou.storekit.
+  OmedetouTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Tests
+      # SKTestSession looks for the configuration by name in the test bundle.
+      - path: Sources/Omedetou/Resources/Omedetou.storekit
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mattdevoti1.omedetou.tests
+        GENERATE_INFOPLIST_FILE: "YES"
+        SKIP_INSTALL: "YES"
+    dependencies:
+      - target: Omedetou
+    info:
+      path: Tests/Info.plist
 
   OmedetouWidgets:
     type: app-extension
@@ -108,8 +133,19 @@ schemes:
     build:
       targets:
         Omedetou: all
+        OmedetouTests: [test]
     run:
       config: Debug
+      # Runs the app against the local products instead of the real App Store,
+      # so the paywall can be exercised in the simulator. Xcode-only: this is
+      # ignored by `xcodebuild`, and it has no effect on an archive. If Xcode
+      # ever reports it as missing, re-pick the file in Edit Scheme ▸ Run ▸
+      # Options ▸ StoreKit Configuration and it will rewrite the path itself.
+      storeKitConfiguration: Sources/Omedetou/Resources/Omedetou.storekit
+    test:
+      config: Debug
+      targets:
+        - OmedetouTests
     profile:
       config: Release
     analyze:

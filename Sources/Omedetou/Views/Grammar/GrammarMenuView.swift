@@ -18,7 +18,7 @@ struct GrammarMenuView: View {
 
     var body: some View {
         ZStack {
-            PatternedBackground(.study)
+            PoolLightBackground()
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 34) {
@@ -36,7 +36,7 @@ struct GrammarMenuView: View {
                         } label: {
                             ReportCardButton()
                         }
-                        .buttonStyle(.plain)
+                        .pressable()
 
                         // The report card is the only thing on this screen tied to
                         // the graded track. Everything below it is practice.
@@ -59,7 +59,7 @@ struct GrammarMenuView: View {
                             } label: {
                                 KanaSoundTile(character: "あ", title: "Hiragana", color: .hiraganaColor)
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
 
                             NavigationLink {
                                 GrammarPracticeView(pointName: "Katakana Practice", questions: kataQuestions,
@@ -67,7 +67,7 @@ struct GrammarMenuView: View {
                             } label: {
                                 KanaSoundTile(character: "ア", title: "Katakana", color: .katakanaColor)
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                         }
                     }
 
@@ -77,13 +77,13 @@ struct GrammarMenuView: View {
                             NavigationLink { VocabFlashcardsView() } label: {
                                 VocabDeckTile(color: .themeTile(5))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .locked(true, feature: "Vocabulary flashcards")
 
                             NavigationLink { KanjiStudyView() } label: {
                                 KanjiFlipTile(color: .themeTile(7))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .locked(true, feature: "Kanji flashcards")
                         }
 
@@ -92,8 +92,18 @@ struct GrammarMenuView: View {
                         NavigationLink { VocalFlashcardsView() } label: {
                             VocalDeckTile(color: .themeTile(1))
                         }
-                        .buttonStyle(.plain)
+                        .pressable()
                         .locked(true, feature: "Audio flash cards")
+                        .padding(.top, 12)
+
+                        // Sits under the audio deck because it is the same idea
+                        // one level up: sentences from the chapters rather than
+                        // words from the deck.
+                        NavigationLink { SentenceAudioView() } label: {
+                            SentenceAudioTile(color: .themeTile(3))
+                        }
+                        .pressable()
+                        .locked(true, feature: "Sentence audio")
                         .padding(.top, 12)
                     }
 
@@ -110,19 +120,19 @@ struct GrammarMenuView: View {
                             NavigationLink { ConjugationDrillView() } label: {
                                 ConjugationTile(color: .themeTile(2))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .locked(true, feature: "Conjugation drills")
 
                             NavigationLink { ReadingListView() } label: {
                                 ReadingTile(color: .themeTile(10))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .locked(true, feature: "Reading passages")
 
                             NavigationLink { KanjiMatchView() } label: {
                                 KanjiMatchTile(color: .themeTile(6))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                             .locked(true, feature: "The kanji matcher")
                         }
                     }
@@ -141,7 +151,7 @@ struct GrammarMenuView: View {
                                 } label: {
                                     LevelQuizTile(level: level)
                                 }
-                                .buttonStyle(.plain)
+                                .pressable()
                                 .locked(true, feature: "\(levelName(level)) grammar quiz")
                             }
 
@@ -160,7 +170,7 @@ struct GrammarMenuView: View {
                                               phase: 5.1)
                             }
                             .locked(true, feature: "The slang quiz")
-                            .buttonStyle(.plain)
+                            .pressable()
                         }
                     }
 

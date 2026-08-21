@@ -18,8 +18,8 @@
    ],
    "examples": [
     {
-     "japanese": "日本語[にほんご]を上手[じょうず]になるために、毎日[まいにち]練習[れんしゅう]しています。",
-     "romaji": "Nihongo wo jouzu ni naru tame ni, mainichi renshuu shite imasu.",
+     "japanese": "日本語[にほんご]が上手[じょうず]になるために、毎日[まいにち]練習[れんしゅう]しています。",
+     "romaji": "Nihongo ga jouzu ni naru tame ni, mainichi renshuu shite imasu.",
      "english": "I practice every day in order to get good at Japanese."
     },
     {
@@ -122,7 +122,7 @@
       "車[くるま]を買[か]ったために、お金[かね]を貯[た]めています。",
       "車[くるま]を買[か]うたびに、お金[かね]を貯[た]めています。"
      ],
-     "correctIndex": 1,
+     "correctIndex": 0,
      "explanation": "Dict-form + ために (purpose): 買[か]う (buy, dict-form) + ために = in order to buy. 車[くるま]を買[か]うために = in order to buy a car."
     },
     {
@@ -648,7 +648,7 @@
    "name": "〜てある (te aru) — has been done (deliberate result)",
    "shortDescription": "A deliberately created state — 'it has been done (and the result is here).'",
    "formation": "Transitive verb (て-form) + ある",
-   "explanation": "〜てある is the grammar for deliberate, intentional preparation. It says: 'someone did this on purpose, and the result is currently in place.'\n\nStructure: transitive verb (て-form) + ある. The crucial shift: the object of the transitive verb becomes the grammatical subject with が. ビールを冷蔵庫[れいぞうこ]に入[い]れた → ビールが冷蔵庫[れいぞうこ]に入[い]れてある (Beer has been put in the fridge [by someone, deliberately]). The doer is invisible; the focus is entirely on the current state and its intentional origin.\n\nThe contrast with 〜ている is worth internalizing:\n窓[まど]が開[あ]いています: 'The window is open' — just describing the current state, no comment on how or why.\n窓[まど]が開[あ]けてあります: 'The window has been (deliberately) left open' — someone opened it on purpose and it's still that way.\n\n〜てある and 〜ておく (Chapter 15) are two sides of the same coin: ておく describes the *act* of preparing in advance; てある describes the *resulting state* after that preparation. もう料理[りょうり]を作[つく]っておいた (I've already prepared the food in advance) → 料理[りょうり]が作[つく]ってある (The food has been prepared and is ready).\n\nIn practice, てある is most common in descriptions of set-up rooms, prepared materials, or situations someone has arranged for you.",
+   "explanation": "〜てある is the grammar for deliberate, intentional preparation. It says: 'someone did this on purpose, and the result is currently in place.'\n\nStructure: transitive verb (て-form) + ある. The crucial shift: the object of the transitive verb becomes the grammatical subject with が. ビールを冷蔵庫[れいぞうこ]に入[い]れた → ビールが冷蔵庫[れいぞうこ]に入[い]れてある (Beer has been put in the fridge [by someone, deliberately]). The doer is invisible; the focus is entirely on the current state and its intentional origin.\n\nThe contrast with 〜ている is worth internalizing:\n窓[まど]が開[あ]いています: 'The window is open' — just describing the current state, no comment on how or why.\n窓[まど]が開[あ]けてあります: 'The window has been (deliberately) left open' — someone opened it on purpose and it's still that way.\n\n〜てある and 〜ておく (Chapter 17) are two sides of the same coin: ておく describes the *act* of preparing in advance; てある describes the *resulting state* after that preparation. もう料理[りょうり]を作[つく]っておいた (I've already prepared the food in advance) → 料理[りょうり]が作[つく]ってある (The food has been prepared and is ready).\n\nIn practice, てある is most common in descriptions of set-up rooms, prepared materials, or situations someone has arranged for you.",
    "rules": [
     "Transitive verb (て-form) + ある = a deliberate state — someone did this intentionally",
     "The acted-upon object becomes the subject: marked with が",
@@ -968,11 +968,11 @@
    "name": "〜によって (ni yotte) — depending on / due to / by means of",
    "shortDescription": "A formal, versatile marker: 'depending on,' 'due to,' or 'by' (agent in passive constructions).",
    "formation": "Noun + によって (varied meanings based on context)",
-   "explanation": "によって is a multi-purpose formal marker. All its uses share the same intuition: something is determined, caused, or shaped by the noun it attaches to. It's more formal and written than its everyday alternatives, so you'll encounter it constantly in news, academic writing, and formal announcements.\n\nMeaning 1 — 'depending on': 人[ひと]によって、考[かんが]え方[かた]が違[ちが]います (Opinions differ depending on the person). The varying factor is marked by によって. 国[くに]によって, 場合[ばあい]によって, 状況[じょうきょう]によって are all common collocations.\n\nMeaning 2 — 'due to / because of': 台風[たいふう]によって、大[おお]きな被害[ひがい]が出[で]ました (Great damage was caused by the typhoon). This is the formal written equivalent of ために as a cause marker, preferred in news reporting and official documents.\n\nMeaning 3 — 'by' (passive agent): この小説[しょうせつ]は夏目漱石[なつめそうせき]によって書[か]かれました (This novel was written by Natsume Soseki). によって marks who performed the action in a passive sentence. You'll study the passive fully in Chapter 21 — for now, note that によって fills the 'by [person]' slot in formal passive constructions.\n\nAttributive form: による (before nouns). 〜による影響[えいきょう] = 'influence due to / caused by.' 〜によると = 'according to' (source of information). These are extremely frequent in formal Japanese.",
+   "explanation": "によって is a multi-purpose formal marker. All its uses share the same intuition: something is determined, caused, or shaped by the noun it attaches to. It's more formal and written than its everyday alternatives, so you'll encounter it constantly in news, academic writing, and formal announcements.\n\nMeaning 1 — 'depending on': 人[ひと]によって、考[かんが]え方[かた]が違[ちが]います (Opinions differ depending on the person). The varying factor is marked by によって. 国[くに]によって, 場合[ばあい]によって, 状況[じょうきょう]によって are all common collocations.\n\nMeaning 2 — 'due to / because of': 台風[たいふう]によって、大[おお]きな被害[ひがい]が出[で]ました (Great damage was caused by the typhoon). This is the formal written equivalent of ために as a cause marker, preferred in news reporting and official documents.\n\nMeaning 3 — 'by' (passive agent): この小説[しょうせつ]は夏目漱石[なつめそうせき]によって書[か]かれました (This novel was written by Natsume Soseki). によって marks who performed the action in a passive sentence. You'll study the passive fully in Chapter 23 — for now, note that によって fills the 'by [person]' slot in formal passive constructions.\n\nAttributive form: による (before nouns). 〜による影響[えいきょう] = 'influence due to / caused by.' 〜によると = 'according to' (source of information). These are extremely frequent in formal Japanese.",
    "rules": [
     "Noun + によって = 'depending on / according to' (varying outcomes by factor)",
     "Noun + によって = 'due to / as a result of' (formal cause — preferred in writing/news)",
-    "Noun + によって = 'by' (passive agent in formal passive constructions — see Chapter 21)",
+    "Noun + によって = 'by' (passive agent in formal passive constructions — see Chapter 23)",
     "More formal than で (cause) and より (comparison) — preferred in academic/news registers",
     "Attributive form: による (〜による影響[えいきょう] = influence due to); によると = according to"
    ],
@@ -1609,14 +1609,14 @@
  "kanji": [
   {
    "char": "代",
-   "word": "代",
-   "reading": "かわる",
-   "meaning": "substitute"
+   "word": "時代",
+   "reading": "じだい",
+   "meaning": "era; period"
   },
   {
    "char": "界",
-   "word": "界",
-   "reading": "かい",
+   "word": "世界",
+   "reading": "せかい",
    "meaning": "world"
   },
   {
@@ -1627,9 +1627,9 @@
   },
   {
    "char": "集",
-   "word": "集",
-   "reading": "あつ",
-   "meaning": "gather"
+   "word": "集める",
+   "reading": "あつめる",
+   "meaning": "to collect"
   },
   {
    "char": "品",
@@ -1651,15 +1651,15 @@
   },
   {
    "char": "有",
-   "word": "有",
-   "reading": "ゆう",
-   "meaning": "existence"
+   "word": "有名",
+   "reading": "ゆうめい",
+   "meaning": "famous"
   },
   {
    "char": "買",
-   "word": "買",
-   "reading": "か",
-   "meaning": "buy"
+   "word": "買う",
+   "reading": "かう",
+   "meaning": "to buy"
   },
   {
    "char": "紙",
@@ -1682,20 +1682,22 @@
  ],
  "kanjiWords": [
   {
-   "word": "代",
-   "kana": "かわる",
-   "romaji": "kawaru",
-   "meaning": "substitute",
+   "word": "時代",
+   "kana": "じだい",
+   "romaji": "jidai",
+   "meaning": "era; period",
    "chars": [
+    "時",
     "代"
    ]
   },
   {
-   "word": "界",
-   "kana": "かい",
-   "romaji": "kai",
+   "word": "世界",
+   "kana": "せかい",
+   "romaji": "sekai",
    "meaning": "world",
    "chars": [
+    "世",
     "界"
    ]
   },
@@ -1709,12 +1711,13 @@
    ]
   },
   {
-   "word": "集",
-   "kana": "あつ",
-   "romaji": "atsu",
-   "meaning": "gather",
+   "word": "集合",
+   "kana": "しゅうごう",
+   "romaji": "shuugou",
+   "meaning": "meeting up",
    "chars": [
-    "集"
+    "集",
+    "合"
    ]
   },
   {
@@ -1746,19 +1749,20 @@
    ]
   },
   {
-   "word": "有",
-   "kana": "ゆう",
-   "romaji": "yuu",
-   "meaning": "existence",
+   "word": "有名",
+   "kana": "ゆうめい",
+   "romaji": "yuumei",
+   "meaning": "famous",
    "chars": [
-    "有"
+    "有",
+    "名"
    ]
   },
   {
-   "word": "買",
-   "kana": "か",
-   "romaji": "ka",
-   "meaning": "buy",
+   "word": "買う",
+   "kana": "かう",
+   "romaji": "kau",
+   "meaning": "to buy",
    "chars": [
     "買"
    ]
@@ -1802,13 +1806,12 @@
    ]
   },
   {
-   "word": "代人",
-   "kana": "だいにん",
-   "romaji": "dainin",
-   "meaning": "substitute",
+   "word": "代わり",
+   "kana": "かわり",
+   "romaji": "kawari",
+   "meaning": "substitute; replacement",
    "chars": [
-    "代",
-    "人"
+    "代"
    ]
   },
   {
@@ -1918,7 +1921,7 @@
    "word": "予算",
    "kana": "よさん",
    "romaji": "yosan",
-   "meaning": "estimate",
+   "meaning": "budget",
    "chars": [
     "予",
     "算"
@@ -1928,7 +1931,7 @@
    "word": "両替",
    "kana": "りょうがえ",
    "romaji": "ryougae",
-   "meaning": "change",
+   "meaning": "currency exchange; money changing",
    "chars": [
     "両",
     "替"
@@ -1988,7 +1991,7 @@
    "word": "領収書",
    "kana": "りょうしゅうしょ",
    "romaji": "ryoushuusho",
-   "meaning": "simplified receipt with a blank line to be filled out with the customer's name (used specifically for claiming expenses)",
+   "meaning": "receipt (of payment)",
    "chars": [
     "領",
     "収",

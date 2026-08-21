@@ -38,7 +38,7 @@ struct GrammarPracticeView: View {
                     score: score,
                     total: shuffledQuestions.count,
                     accentColor: accentColor,
-                    onDone: { dismiss() }
+                    onDone: { FeedbackSounds.shared.playNavigate(); dismiss() }
                 )
             } else if let q = currentQuestion {
                 VStack(spacing: 0) {
@@ -111,6 +111,14 @@ struct GrammarPracticeView: View {
                                         accentColor: accentColor
                                     ) {
                                         guard selectedAnswer == nil else { return }
+                                        // The card turns green or red on the same
+                                        // tap, so the cue is telling you what you
+                                        // can already see — it just gets there first.
+                                        if i == shuffledCorrectIndex {
+                                            FeedbackSounds.shared.playCorrectVariation()
+                                        } else {
+                                            FeedbackSounds.shared.play(.incorrect)
+                                        }
                                         withAnimation(.easeInOut(duration: 0.2)) {
                                             selectedAnswer = i
                                             if i == shuffledCorrectIndex { score += 1 }
@@ -142,6 +150,9 @@ struct GrammarPracticeView: View {
                                 .transition(.opacity.combined(with: .move(edge: .bottom)))
 
                                 Button {
+                                    // Moving through the quiz is navigation, and
+                                    // gets the same click as moving between screens.
+                                    FeedbackSounds.shared.playNavigate()
                                     if currentIndex + 1 < shuffledQuestions.count {
                                         currentIndex += 1
                                         selectedAnswer = nil

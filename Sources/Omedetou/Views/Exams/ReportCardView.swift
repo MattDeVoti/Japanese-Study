@@ -213,6 +213,7 @@ struct ReportCardView: View {
 
         return VStack(alignment: .leading, spacing: 10) {
             Button {
+                FeedbackSounds.shared.play(.slide)
                 withAnimation(.easeInOut(duration: 0.18)) {
                     if isOpen { expanded.remove(level) } else { expanded.insert(level) }
                 }

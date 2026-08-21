@@ -299,13 +299,13 @@
      "prompt": "Which means 'For a country with such a cold climate, the food is surprisingly spicy'?",
      "japanese": null,
      "choices": [
-      "あんなに寒[さむ]い国[くに]にしては、料理[りょうり]が意外[いがい]と辛[つら]い。",
-      "あんなに寒[さむ]い国[くに]なのに、料理[りょうり]が意外[いがい]と辛[つら]い。",
-      "あんなに寒[さむ]い国[くに]としては、料理[りょうり]が意外[いがい]と辛[つら]い。",
-      "あんなに寒[さむ]い国[くに]だから、料理[りょうり]が意外[いがい]と辛[つら]い。"
+      "あんなに寒[さむ]い国[くに]にしては、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]なのに、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]としては、料理[りょうり]が意外[いがい]と辛[から]い。",
+      "あんなに寒[さむ]い国[くに]だから、料理[りょうり]が意外[いがい]と辛[から]い。"
      ],
      "correctIndex": 0,
-     "explanation": "Noun + にしては: 寒[さむ]い国[くに] (cold country) + にしては = for a country with a cold climate. 料理[りょうり]が意外[いがい]と辛[つら]い = food is surprisingly spicy. Cold climate → bland food (stereotypical expectation); spicy food = positive deviation."
+     "explanation": "Noun + にしては: 寒[さむ]い国[くに] (cold country) + にしては = for a country with a cold climate. 料理[りょうり]が意外[いがい]と辛[から]い = food is surprisingly spicy. Cold climate → bland food (stereotypical expectation); spicy food = positive deviation."
     },
     {
      "id": "ni-shite-wa_q20",
@@ -381,8 +381,8 @@
      "prompt": "Which correctly says 'Even so, that excuse is too much'?",
      "japanese": null,
      "choices": [
-      "そうにしても、その言[い]い訳[わけ]はひどすぎる。",
-      "そうにしては、その言[い]い訳[わけ]はひどすぎる。",
+      "それにしても、その言[い]い訳[わけ]はひどすぎる。",
+      "それにしては、その言[い]い訳[わけ]はひどすぎる。",
       "そうとしても、その言[い]い訳[わけ]はひどすぎる。",
       "そうだとしても、その言[い]い訳[わけ]はひどすぎる。"
      ],
@@ -535,13 +535,13 @@
      "prompt": "Which means 'Even so, I wish you had told me earlier'?",
      "japanese": null,
      "choices": [
-      "そうにしても、もっと早[はや]く教[おし]えてほしかった。",
-      "そうにしては、もっと早[はや]く教[おし]えてほしかった。",
+      "それにしても、もっと早[はや]く教[おし]えてほしかった。",
+      "それにしては、もっと早[はや]く教[おし]えてほしかった。",
       "そうなのに、もっと早[はや]く教[おし]えてほしかった。",
       "そうだとしても、もっと早[はや]く教[おし]えてほしかった。"
      ],
      "correctIndex": 0,
-     "explanation": "そう + にしても: そうにしても = even so / even granting that. もっと早[はや]く教[おし]えてほしかった = wished you had told me earlier. Concedes the situation but expresses a wish for different behavior."
+     "explanation": "そう + にしても: それにしても = even so / even granting that. もっと早[はや]く教[おし]えてほしかった = wished you had told me earlier. Concedes the situation but expresses a wish for different behavior."
     },
     {
      "id": "ni-shite-mo_q14",
@@ -668,8 +668,8 @@
      "english": "Whatever the reason may be, the deadline must be met."
     },
     {
-     "japanese": "結果[けっか]がどうであれにせよ、挑戦[ちょうせん]したことは評価[ひょうか]されるべきです。",
-     "romaji": "Kekka ga dou de are ni se yo, chousen shita koto wa hyouka sareru beki desu.",
+     "japanese": "結果[けっか]がどうであるにせよ、挑戦[ちょうせん]したことは評価[ひょうか]されるべきです。",
+     "romaji": "Kekka ga dou de aru ni se yo, chousen shita koto wa hyouka sareru beki desu.",
      "english": "Whatever the result, the fact that you challenged it should be recognized."
     },
     {
@@ -1325,9 +1325,9 @@
   },
   {
    "char": "象",
-   "word": "象",
-   "reading": "しょう",
-   "meaning": "form"
+   "word": "印象",
+   "reading": "いんしょう",
+   "meaning": "impression"
   },
   {
    "char": "門",
@@ -1361,9 +1361,9 @@
   },
   {
    "char": "歴",
-   "word": "歴",
-   "reading": "れき",
-   "meaning": "curriculum"
+   "word": "歴史",
+   "reading": "れきし",
+   "meaning": "history"
   },
   {
    "char": "河",
@@ -1373,9 +1373,9 @@
   },
   {
    "char": "児",
-   "word": "児",
-   "reading": "こ",
-   "meaning": "newborn babe"
+   "word": "幼児",
+   "reading": "ようじ",
+   "meaning": "toddler; young child"
   },
   {
    "char": "印",
@@ -1385,9 +1385,9 @@
   },
   {
    "char": "署",
-   "word": "署",
-   "reading": "しょ",
-   "meaning": "signature"
+   "word": "警察署",
+   "reading": "けいさつしょ",
+   "meaning": "police station"
   },
   {
    "char": "帯",
@@ -1397,9 +1397,9 @@
   },
   {
    "char": "則",
-   "word": "則",
-   "reading": "のっとる",
-   "meaning": "rule"
+   "word": "規則",
+   "reading": "きそく",
+   "meaning": "rule; regulation"
   },
   {
    "char": "承",
@@ -1411,7 +1411,7 @@
    "char": "絡",
    "word": "絡む",
    "reading": "からむ",
-   "meaning": "to entangle"
+   "meaning": "to get tangled; to be involved (with)"
   },
   {
    "char": "裏",
@@ -1463,9 +1463,9 @@
   },
   {
    "char": "双",
-   "word": "双",
-   "reading": "そう",
-   "meaning": "pair"
+   "word": "双子",
+   "reading": "ふたご",
+   "meaning": "twins"
   },
   {
    "char": "敬",
@@ -1483,7 +1483,7 @@
    "char": "兆",
    "word": "兆",
    "reading": "ちょう",
-   "meaning": "10^12"
+   "meaning": "trillion"
   },
   {
    "char": "殿",
@@ -1565,8 +1565,8 @@
   },
   {
    "char": "畜",
-   "word": "畜",
-   "reading": "ちく",
+   "word": "家畜",
+   "reading": "かちく",
    "meaning": "livestock"
   }
  ],
@@ -1627,11 +1627,12 @@
    ]
   },
   {
-   "word": "象",
-   "kana": "しょう",
-   "romaji": "shou",
-   "meaning": "form",
+   "word": "印象",
+   "kana": "いんしょう",
+   "romaji": "inshou",
+   "meaning": "impression",
    "chars": [
+    "印",
     "象"
    ]
   },
@@ -1681,12 +1682,13 @@
    ]
   },
   {
-   "word": "歴",
-   "kana": "れき",
-   "romaji": "reki",
-   "meaning": "curriculum",
+   "word": "歴史",
+   "kana": "れきし",
+   "romaji": "rekishi",
+   "meaning": "history",
    "chars": [
-    "歴"
+    "歴",
+    "史"
    ]
   },
   {
@@ -1699,11 +1701,12 @@
    ]
   },
   {
-   "word": "児",
-   "kana": "こ",
-   "romaji": "ko",
-   "meaning": "newborn babe",
+   "word": "幼児",
+   "kana": "ようじ",
+   "romaji": "youji",
+   "meaning": "toddler; young child",
    "chars": [
+    "幼",
     "児"
    ]
   },
@@ -1717,11 +1720,13 @@
    ]
   },
   {
-   "word": "署",
-   "kana": "しょ",
-   "romaji": "sho",
-   "meaning": "signature",
+   "word": "警察署",
+   "kana": "けいさつしょ",
+   "romaji": "keisatsusho",
+   "meaning": "police station",
    "chars": [
+    "警",
+    "察",
     "署"
    ]
   },
@@ -1735,11 +1740,12 @@
    ]
   },
   {
-   "word": "則",
-   "kana": "のっとる",
-   "romaji": "nottoru",
-   "meaning": "rule",
+   "word": "規則",
+   "kana": "きそく",
+   "romaji": "kisoku",
+   "meaning": "rule; regulation",
    "chars": [
+    "規",
     "則"
    ]
   },
@@ -1756,7 +1762,7 @@
    "word": "絡む",
    "kana": "からむ",
    "romaji": "karamu",
-   "meaning": "to entangle",
+   "meaning": "to get tangled; to be involved (with)",
    "chars": [
     "絡"
    ]
@@ -1834,12 +1840,13 @@
    ]
   },
   {
-   "word": "双",
-   "kana": "そう",
-   "romaji": "sou",
-   "meaning": "pair",
+   "word": "双子",
+   "kana": "ふたご",
+   "romaji": "futago",
+   "meaning": "twins",
    "chars": [
-    "双"
+    "双",
+    "子"
    ]
   },
   {
@@ -1858,15 +1865,6 @@
    "meaning": "fishing",
    "chars": [
     "漁"
-   ]
-  },
-  {
-   "word": "兆",
-   "kana": "ちょう",
-   "romaji": "chou",
-   "meaning": "10^12",
-   "chars": [
-    "兆"
    ]
   },
   {
@@ -1987,11 +1985,12 @@
    ]
   },
   {
-   "word": "畜",
-   "kana": "ちく",
-   "romaji": "chiku",
+   "word": "家畜",
+   "kana": "かちく",
+   "romaji": "kachiku",
    "meaning": "livestock",
    "chars": [
+    "家",
     "畜"
    ]
   },
@@ -2019,7 +2018,7 @@
    "word": "結構",
    "kana": "けっこう",
    "romaji": "kekkou",
-   "meaning": "splendid",
+   "meaning": "quite; fine; no thank you",
    "chars": [
     "結",
     "構"
@@ -2136,7 +2135,7 @@
    "word": "判明",
    "kana": "はんめい",
    "romaji": "hanmei",
-   "meaning": "establishing",
+   "meaning": "becoming clear; being ascertained",
    "chars": [
     "判",
     "明"
@@ -2207,6 +2206,15 @@
    "meaning": "concept, general idea",
    "chars": [
     "概"
+   ]
+  },
+  {
+   "word": "兆",
+   "kana": "ちょう",
+   "romaji": "chou",
+   "meaning": "trillion",
+   "chars": [
+    "兆"
    ]
   }
  ]

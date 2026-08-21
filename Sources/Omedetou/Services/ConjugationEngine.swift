@@ -22,7 +22,12 @@ enum ConjugationEngine {
         if pos.contains("suru verb")   { return suruForms(word: word) }
         if pos.contains("kuru verb")   { return kuruForms(word: word) }
         if pos.contains("ichidan verb"){ return ichidanForms(word: word) }
-        if pos.contains("godan verb")  { return godanForms(word: word, reading: r) }
+        if pos.contains("godan verb")  {
+            // ある is the one godan verb with a suppletive negative (ない, never あらない)
+            // and no potential/passive/causative in ordinary use.
+            if r == "ある" { return aruForms(word: word) }
+            return godanForms(word: word, reading: r)
+        }
         if pos.contains("i-adjective") { return iAdjForms(word: word) }
         if pos.contains("na-adjective"){ return naAdjForms(word: word) }
         return nil
@@ -107,8 +112,9 @@ enum ConjugationEngine {
         }
 
         // 行く takes って rather than いて.
-        let teE = (word == "行く" || reading == "いく") ? "って" : e.te
-        let taE = (word == "行く" || reading == "いく") ? "った" : e.ta
+        // …and so do its compounds (持って行く, 連れて行く), which end the same way.
+        let teE = (word.hasSuffix("行く") || reading.hasSuffix("いく")) ? "って" : e.te
+        let taE = (word.hasSuffix("行く") || reading.hasSuffix("いく")) ? "った" : e.ta
 
         // The honorific -aru verbs are irregular in the ren'yō (masu) stem: they
         // take い, not り — いらっしゃいます, ございます, なさいます. Treating them
@@ -126,7 +132,9 @@ enum ConjugationEngine {
                 row("Potential",         s+e.e+"る"),
                 row("Passive",           s+e.a+"れる"),
                 row("Causative",         s+e.a+"せる"),
-                row("Imperative",        s+e.e),
+                // The same い-stem irregularity gives these verbs their imperative:
+                // いらっしゃい / おっしゃい / ください / なさい, never いらっしゃれ.
+                row("Imperative",        honorificAru.contains(reading) ? s+"い" : s+e.e),
                 row("Volitional",        s+e.o+"う"),
             ]),
             section("Plain Negative", [
@@ -212,41 +220,83 @@ enum ConjugationEngine {
         ]
     }
 
+    // MARK: - ある
+
+    /// ある conjugates as a regular godan verb everywhere except the negative,
+    /// which is the bare adjective ない rather than あらない. It also has no
+    /// potential, passive or causative in ordinary use, so those rows are left out.
+    private static func aruForms(word: String) -> [ConjugationSection] {
+        let s = String(word.dropLast())   // あ / 有 / 在
+        return [
+            section("Plain Positive", [
+                row("Present",           word),
+                row("Past",              s+"った"),
+                row("-te",               s+"って"),
+                row("-eba conditional",  s+"れば"),
+                row("-tara conditional", s+"ったら"),
+                row("Imperative",        s+"れ"),
+                row("Volitional",        s+"ろう"),
+            ]),
+            section("Plain Negative", [
+                row("Present",           "ない"),
+                row("Past",              "なかった"),
+                row("-te",               "なくて"),
+                row("-eba conditional",  "なければ"),
+                row("-tara conditional", "なかったら"),
+                row("Imperative",        word+"な"),
+            ]),
+            section("Masu Positive", [
+                row("Present",           s+"ります"),
+                row("Past",              s+"りました"),
+                row("-tara conditional", s+"りましたら"),
+                row("Volitional",        s+"りましょう"),
+            ]),
+            section("Masu Negative", [
+                row("Present",           s+"りません"),
+                row("Past",              s+"りませんでした"),
+                row("-tara conditional", s+"りませんでしたら"),
+            ]),
+        ]
+    }
+
     // MARK: - 来る (kuru)
 
     private static func kuruForms(word: String) -> [ConjugationSection] {
         // Kanji form 来る: 来 is used as stem with different readings per form.
         // Kana-only form くる: hardcode each form explicitly.
-        let isKanji = word.contains("来")
+        let isKanji = word.hasSuffix("来る")
+        // Compounds (持って来る, 連れてくる) keep their prefix on every form; the
+        // tables below are spelled from the bare verb, so it is re-attached here.
+        let p = (word.hasSuffix("来る") || word.hasSuffix("くる")) ? String(word.dropLast(2)) : ""
 
         let present   = word
-        let past      = isKanji ? "来た"     : "きた"
-        let te        = isKanji ? "来て"     : "きて"
-        let eba       = isKanji ? "来れば"   : "くれば"
-        let tara      = isKanji ? "来たら"   : "きたら"
-        let potential = isKanji ? "来られる" : "こられる"
-        let passive   = isKanji ? "来られる" : "こられる"
-        let causative = isKanji ? "来させる" : "こさせる"
-        let imp       = isKanji ? "来い"     : "こい"
-        let vol       = isKanji ? "来よう"   : "こよう"
+        let past      = p + (isKanji ? "来た"     : "きた")
+        let te        = p + (isKanji ? "来て"     : "きて")
+        let eba       = p + (isKanji ? "来れば"   : "くれば")
+        let tara      = p + (isKanji ? "来たら"   : "きたら")
+        let potential = p + (isKanji ? "来られる" : "こられる")
+        let passive   = p + (isKanji ? "来られる" : "こられる")
+        let causative = p + (isKanji ? "来させる" : "こさせる")
+        let imp       = p + (isKanji ? "来い"     : "こい")
+        let vol       = p + (isKanji ? "来よう"   : "こよう")
 
-        let negPres   = isKanji ? "来ない"       : "こない"
-        let negPast   = isKanji ? "来なかった"   : "こなかった"
-        let negTe     = isKanji ? "来なくて"     : "こなくて"
-        let negEba    = isKanji ? "来なければ"   : "こなければ"
-        let negTara   = isKanji ? "来なかったら" : "こなかったら"
-        let negPot    = isKanji ? "来られない"   : "こられない"
+        let negPres   = p + (isKanji ? "来ない"       : "こない")
+        let negPast   = p + (isKanji ? "来なかった"   : "こなかった")
+        let negTe     = p + (isKanji ? "来なくて"     : "こなくて")
+        let negEba    = p + (isKanji ? "来なければ"   : "こなければ")
+        let negTara   = p + (isKanji ? "来なかったら" : "こなかったら")
+        let negPot    = p + (isKanji ? "来られない"   : "こられない")
 
-        let masuPres  = isKanji ? "来ます"   : "きます"
-        let masuPast  = isKanji ? "来ました" : "きました"
-        let masuTara  = isKanji ? "来ましたら" : "きましたら"
-        let masuPot   = isKanji ? "来られます"   : "こられます"
-        let masuVol   = isKanji ? "来ましょう" : "きましょう"
+        let masuPres  = p + (isKanji ? "来ます"   : "きます")
+        let masuPast  = p + (isKanji ? "来ました" : "きました")
+        let masuTara  = p + (isKanji ? "来ましたら" : "きましたら")
+        let masuPot   = p + (isKanji ? "来られます"   : "こられます")
+        let masuVol   = p + (isKanji ? "来ましょう" : "きましょう")
 
-        let mnPres    = isKanji ? "来ません"         : "きません"
-        let mnPast    = isKanji ? "来ませんでした"   : "きませんでした"
-        let mnTara    = isKanji ? "来ませんでしたら" : "きませんでしたら"
-        let mnPot     = isKanji ? "来られません"     : "こられません"
+        let mnPres    = p + (isKanji ? "来ません"         : "きません")
+        let mnPast    = p + (isKanji ? "来ませんでした"   : "きませんでした")
+        let mnTara    = p + (isKanji ? "来ませんでしたら" : "きませんでしたら")
+        let mnPot     = p + (isKanji ? "来られません"     : "こられません")
 
         return [
             section("Plain Positive", [
@@ -260,19 +310,19 @@ enum ConjugationEngine {
                 row("Present",           negPres),   row("Past",    negPast),
                 row("-te",               negTe),     row("-eba conditional",  negEba),
                 row("-tara conditional", negTara),   row("Potential",  negPot),
-                row("Passive",           negPot),    row("Causative", isKanji ? "来させない" : "こさせない"),
+                row("Passive",           negPot),    row("Causative", p + (isKanji ? "来させない" : "こさせない")),
                 row("Imperative",        present+"な"),
             ]),
             section("Masu Positive", [
                 row("Present",           masuPres),  row("Past",    masuPast),   row("-tara conditional", masuTara),
                 row("Potential",         masuPot),   row("Passive", masuPot),
-                row("Causative",         isKanji ? "来させます" : "こさせます"),
+                row("Causative",         p + (isKanji ? "来させます" : "こさせます")),
                 row("Volitional",        masuVol),
             ]),
             section("Masu Negative", [
                 row("Present",           mnPres),    row("Past",    mnPast),     row("-tara conditional", mnTara),
                 row("Potential",         mnPot),     row("Passive", mnPot),
-                row("Causative",         isKanji ? "来させません" : "こさせません"),
+                row("Causative",         p + (isKanji ? "来させません" : "こさせません")),
             ]),
         ]
     }
@@ -282,9 +332,15 @@ enum ConjugationEngine {
     private static func iAdjForms(word: String) -> [ConjugationSection] {
         // いい / 良い / よい are irregular: stem is よ (for kana-only) or 良 (for kanji)
         let isYoi = (word == "いい" || word == "よい")
+        // Compounds built on いい swap to よ as well: かっこいい → かっこよかった.
+        // (Not every word ending in いい — かわいい → かわいかった is regular.)
+        let iiCompound = ["かっこいい", "かっこういい", "格好いい", "気持ちいい", "気持いい", "心地いい", "都合がいい", "仲がいい"]
+            .first { word.hasSuffix($0) } != nil
         let s: String
         if isYoi {
             s = "よ"           // いい → よ stem for all conjugations
+        } else if iiCompound {
+            s = String(word.dropLast(2)) + "よ"   // かっこ + よ
         } else {
             s = String(word.dropLast())  // drop い
         }

@@ -75,10 +75,12 @@
 		391F39F1071FC5E6646E86FF /* kana_k12.json in Resources */ = {isa = PBXBuildFile; fileRef = 41CD4B72D5550FA64BEFC59A /* kana_k12.json */; };
 		399545D812BD29B2DEC70397 /* ch27.json in Resources */ = {isa = PBXBuildFile; fileRef = D6233CE1C08899C275B58141 /* ch27.json */; };
 		3B35F6F881A5B01DF5F495BF /* hiragana_pronunciation.json in Resources */ = {isa = PBXBuildFile; fileRef = 29120C43826FBCA7110CE5A3 /* hiragana_pronunciation.json */; };
+		3B83C9AD60E8A5150CA8E121 /* AmbientBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6DC8D8C971114114594730 /* AmbientBackgrounds.swift */; };
 		3F20797B6489C2F8E50B8E25 /* CheatSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4EFED0CB4114337D1A970 /* CheatSheetView.swift */; };
 		3F38C7C79A9632686605C464 /* kana_k07.json in Resources */ = {isa = PBXBuildFile; fileRef = 3324239D99DDCC10F7D8951C /* kana_k07.json */; };
 		4055BE12F52A80B3CC058E6C /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C8D4DDE5B0DB9E5CF5DA47C /* incorrect.wav */; };
 		4147C65F08452234C27D510A /* KanjiCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EDCBA70F396E2B5A400AB0 /* KanjiCardDetailView.swift */; };
+		445B23FE1B9F8F760BD7F954 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55AC077894A7B95F4E70D4A /* Motion.swift */; };
 		4532D30C0CD09AB089C0E43B /* ch08.json in Resources */ = {isa = PBXBuildFile; fileRef = B43FA450D1401863184F24B6 /* ch08.json */; };
 		459640EA3E64BBCDD5ADFFB9 /* ReadingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327297680086BC6B35A491EA /* ReadingModels.swift */; };
 		45C0283D3E68498EEDA2B1F8 /* particles_data.json in Resources */ = {isa = PBXBuildFile; fileRef = FEF9D9BE8919362FDC834016 /* particles_data.json */; };
@@ -122,10 +124,12 @@
 		716341B2B40139BD28F2738A /* incorrect(old).wav in Resources */ = {isa = PBXBuildFile; fileRef = ED2551F70E51825FA936B8F0 /* incorrect(old).wav */; };
 		7331C2E9F53FB3D8D7251428 /* ch48.json in Resources */ = {isa = PBXBuildFile; fileRef = FB794111215FE67523D17917 /* ch48.json */; };
 		7388EE9422528E5E194F426F /* dictionary.db in Resources */ = {isa = PBXBuildFile; fileRef = 14E1AB8B809926330DFFF914 /* dictionary.db */; };
+		73DA2DEE4010BAA57EAFBB0C /* Omedetou.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 40E4E879A539C16ADEBD57B0 /* Omedetou.storekit */; };
 		747C1C64BEEE50C2B7100251 /* ConjugationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D27FBF6EB08DAE08EC696 /* ConjugationEngine.swift */; };
 		7484A5F973F26696EC58323D /* ch_slang06.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A4B70F4F23E7D5939531229 /* ch_slang06.json */; };
 		748D706D4AFD5CB216B0F7EE /* piano_correct_4.wav in Resources */ = {isa = PBXBuildFile; fileRef = FCB471A26FB708739DB16B27 /* piano_correct_4.wav */; };
 		762B30702CAF08159977CF40 /* ch25.json in Resources */ = {isa = PBXBuildFile; fileRef = CEDF01A68D797280CC674714 /* ch25.json */; };
+		7A3EA03D58819A9877B447E8 /* favorite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74B1F83CF0F43D8BFE52064D /* favorite.wav */; };
 		7A6E4E57F419BF8EF0B76123 /* ch33.json in Resources */ = {isa = PBXBuildFile; fileRef = DB80759129B0AB78C56A0363 /* ch33.json */; };
 		7B036AA558879D8E403F88C4 /* kana_h11.json in Resources */ = {isa = PBXBuildFile; fileRef = AECAFC4FB53A86EB411E9EE9 /* kana_h11.json */; };
 		7BC2633C4058E3C3CE464A1E /* Extra Life.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3A04C1A425B923E9DE524BE /* Extra Life.wav */; };
@@ -144,6 +148,7 @@
 		8C39FC7EFA3D6839CC24F657 /* VocabFlashcardsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F7E23687EDAD5CCE5AEC07 /* VocabFlashcardsFilter.swift */; };
 		8E43B45D20A0884AA618E7C2 /* ItemDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D120B6465036B0AD8AED5FD /* ItemDetailSheet.swift */; };
 		8E60858561DD3750F2D2B107 /* VocabProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FBCC6CDE0379700D4FC2F /* VocabProgressView.swift */; };
+		8F3C415CF5595712F01E2897 /* navigate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 851ADF50FF4B58BCF38730C6 /* navigate.wav */; };
 		8FC7D02640D4489467F10621 /* SudokuEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746D06F5ABB5A35B2BD40A9 /* SudokuEngine.swift */; };
 		8FFA65B089E80689AA6FC76A /* grammar_quiz_n2.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F218CC1D967E8220DC083F1 /* grammar_quiz_n2.json */; };
 		915C532629FA60E08DCDB705 /* grammar_quiz_n3.json in Resources */ = {isa = PBXBuildFile; fileRef = 14967CD260D63036D9DD8E7E /* grammar_quiz_n3.json */; };
@@ -180,6 +185,7 @@
 		ABA6EA5142753583114F5F77 /* GameSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00A3AB29189E01694707DC6 /* GameSounds.swift */; };
 		AC066D5573BA4E219DE92A28 /* StudyFeatureTiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D0BF866A2023FA46ACEEBF /* StudyFeatureTiles.swift */; };
 		AC12E9F81073EF6B3DE32AB3 /* KanjiStudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2575255D7C1AD9D2AD8042 /* KanjiStudyView.swift */; };
+		AC65E1691624476A0872340D /* StoreServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A150765265B90050C992F8C9 /* StoreServiceTests.swift */; };
 		ADF4329A4FDA6B3480E2DFF9 /* CultureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3437E6194AB8881463BD2 /* CultureView.swift */; };
 		AE0031AD444730FE69C07FF9 /* kana_h10.json in Resources */ = {isa = PBXBuildFile; fileRef = 360901A592F335A9C8CE1D86 /* kana_h10.json */; };
 		B2F0D32038BB9F2715F371BA /* kana_k03.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BC97A976E51D0B6D3FFEFAB /* kana_k03.json */; };
@@ -206,6 +212,7 @@
 		CC688A796BE86734CFE51298 /* ch09.json in Resources */ = {isa = PBXBuildFile; fileRef = B534234D8AAC5A95FC57DD4C /* ch09.json */; };
 		CCB9310763BE9661547E69F5 /* culture.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D47868247D61C6D74157F45 /* culture.json */; };
 		CD26B4E73D35C978B9EDFD5E /* ch47.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3273DEFFBCA5379FF754D7 /* ch47.json */; };
+		CD7D5617B7728A891BAFAB87 /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CDFC0968533B6C8D11229 /* StoreService.swift */; };
 		CE50F3861263E2390E31F701 /* DeckProgressCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF4673CEEC3F2625CF74C0 /* DeckProgressCount.swift */; };
 		CF0BEA33A6FF27D0E56CF804 /* ch42.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D99D34B0A02C8BECEB6CE35 /* ch42.json */; };
 		CF2AC4CD41ABD491F35FBF2A /* KanjiWordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9E560E952227805BF417 /* KanjiWordDetailView.swift */; };
@@ -223,10 +230,12 @@
 		DEB0F0330CA93D61B9DDD1B8 /* ch18.json in Resources */ = {isa = PBXBuildFile; fileRef = 367D6C5DF6FFB81A0615DF1E /* ch18.json */; };
 		E0B9B459E140874F6F49BBCD /* LessonSearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6838484A5234C5B8B66AC36 /* LessonSearchResultsView.swift */; };
 		E2E27E4AD434C3674C0D65C5 /* LessonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09DCABDBE01BBF523385A07 /* LessonModels.swift */; };
+		E371F60B0BA023F1A0B829F9 /* FallingKana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4291F1EF1FA998B15A6248C7 /* FallingKana.swift */; };
 		E41F32D57D6F881CE58A9733 /* kana_h01.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B73D91AC05D1BFF32357B80 /* kana_h01.json */; };
 		E54B718B19E28B8CC0142282 /* kana_h07.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B98B6895CC354E96E28C9BF /* kana_h07.json */; };
 		E5F50F8595198D1ADB25D861 /* ch50.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CB029DF075E863E47A78C32 /* ch50.json */; };
 		E752CAF669D331B0DBB295DB /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB57577C38CCA002083D28 /* DataTransferService.swift */; };
+		E8BD3A1423C5BE93779AE3B1 /* SentenceAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532839B76815F06234BFE35 /* SentenceAudioView.swift */; };
 		EA89BA73431DC6E723F3D160 /* SimilarKanji.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459AA3806A9905AC49166FF /* SimilarKanji.swift */; };
 		EB7C5771F4CCE8E7F919DA9A /* ch05.json in Resources */ = {isa = PBXBuildFile; fileRef = 5461166A5528555965A2BBEB /* ch05.json */; };
 		EC3623200602B9C54D96395A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B4A4B17147CC70A7391E5C /* Theme.swift */; };
@@ -237,6 +246,7 @@
 		EFCD5ADFB7691A5C57BC58F6 /* DictionaryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6570FB09C5AC9B6707B1DC2 /* DictionaryService.swift */; };
 		F06CB5F0005595C1D9769D58 /* StudyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1C53DE0439124D51C4A84 /* StudyListView.swift */; };
 		F0D6725C4AC2154C3321B08A /* GrammarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AE567BBF6B516539382A4B /* GrammarMenuView.swift */; };
+		F28C038C0E39B0DFFDE1C1B8 /* slide_open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09422F5919FF812715751B34 /* slide_open.wav */; };
 		F55B2319F077BC4B5CA7132F /* VocalFlashcardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059DC3D2E8EBAA283D542EC /* VocalFlashcardsView.swift */; };
 		F715FAFB50CAD539DB616BBC /* ch32.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B534777421EF2E0448CE2CA /* ch32.json */; };
 		F73131D7416F59BFFEC964D4 /* ch_slang05.json in Resources */ = {isa = PBXBuildFile; fileRef = FB5CB2728F2AC03CF9D20C1B /* ch_slang05.json */; };
@@ -247,6 +257,7 @@
 		FC99D752D60963F7C3C446BE /* ConjugationDrillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A959BC7E40FAAA8D817E5F /* ConjugationDrillView.swift */; };
 		FDB3B515E90B7D4D63F23E94 /* kana_k05.json in Resources */ = {isa = PBXBuildFile; fileRef = B90ED726E6AC1FE0E27C661D /* kana_k05.json */; };
 		FDFA7CDD267E764BCE644676 /* ch23.json in Resources */ = {isa = PBXBuildFile; fileRef = EE68CACB6161E041C2D96393 /* ch23.json */; };
+		FF4C92236BEBB29E1BA571ED /* unfavorite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6DB24147678E048CE94BE03D /* unfavorite.wav */; };
 		FF9A940DA1F69A65D961A042 /* ch14.json in Resources */ = {isa = PBXBuildFile; fileRef = 20D10F28FB835782F2A59993 /* ch14.json */; };
 /* End PBXBuildFile section */
 
@@ -257,6 +268,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4988DF2716213459E1EECD74;
 			remoteInfo = OmedetouWidgets;
+		};
+		A7582BB23C4D600C22710475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA4EB1A110700A16B8A19A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 649CF02666934C5FB06AB330;
+			remoteInfo = Omedetou;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -277,9 +295,11 @@
 /* Begin PBXFileReference section */
 		00850BE1A8894A09F912DAEC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		055DA758082BADC32684CCB0 /* KanjiMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiMatchView.swift; sourceTree = "<group>"; };
+		09422F5919FF812715751B34 /* slide_open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slide_open.wav; sourceTree = "<group>"; };
 		0989A2A45D8D9099E7784450 /* FeedbackSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSounds.swift; sourceTree = "<group>"; };
 		0A4B70F4F23E7D5939531229 /* ch_slang06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch_slang06.json; sourceTree = "<group>"; };
 		0AF244F58BEC74489A0BE481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0BDBE6FFF433C3DCD80FA6D5 /* OmedetouTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OmedetouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCADC96BBEF9633961BA467 /* DictionaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDetailView.swift; sourceTree = "<group>"; };
 		0DD93EA097F5C3F6C3FE3534 /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
 		10993B1F8DAADC4A29BF4C85 /* ch02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch02.json; sourceTree = "<group>"; };
@@ -333,7 +353,9 @@
 		3E0C659A000A32A1DB52C16B /* kana_h09.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h09.json; sourceTree = "<group>"; };
 		3E9ECCFDE6AF9489B8C1A294 /* lessons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lessons.json; sourceTree = "<group>"; };
 		3F218CC1D967E8220DC083F1 /* grammar_quiz_n2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = grammar_quiz_n2.json; sourceTree = "<group>"; };
+		40E4E879A539C16ADEBD57B0 /* Omedetou.storekit */ = {isa = PBXFileReference; path = Omedetou.storekit; sourceTree = "<group>"; };
 		41CD4B72D5550FA64BEFC59A /* kana_k12.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_k12.json; sourceTree = "<group>"; };
+		4291F1EF1FA998B15A6248C7 /* FallingKana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingKana.swift; sourceTree = "<group>"; };
 		42FFE26B264F6C6BC631726B /* ParticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticlesView.swift; sourceTree = "<group>"; };
 		463327DC88699325DDBDB74C /* ch40.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch40.json; sourceTree = "<group>"; };
 		469D9B0F1C041B79A537F6A8 /* FuriganaText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuriganaText.swift; sourceTree = "<group>"; };
@@ -350,6 +372,7 @@
 		533FF04AEC22E7CFD6716F79 /* ch19.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch19.json; sourceTree = "<group>"; };
 		5461166A5528555965A2BBEB /* ch05.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch05.json; sourceTree = "<group>"; };
 		547D27FBF6EB08DAE08EC696 /* ConjugationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConjugationEngine.swift; sourceTree = "<group>"; };
+		5532839B76815F06234BFE35 /* SentenceAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceAudioView.swift; sourceTree = "<group>"; };
 		56F3A310E042041DF41D6327 /* ch36.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch36.json; sourceTree = "<group>"; };
 		575ED1AC786785320D0CFCF8 /* CardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStore.swift; sourceTree = "<group>"; };
 		58D60FC4A23B07489E8B2599 /* CustomLessonAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLessonAddView.swift; sourceTree = "<group>"; };
@@ -377,11 +400,13 @@
 		68AE567BBF6B516539382A4B /* GrammarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarMenuView.swift; sourceTree = "<group>"; };
 		69D5E2DEDCAF0358C434E19A /* StudyItemRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyItemRef.swift; sourceTree = "<group>"; };
 		6D3E7F826D0FECA195DDF801 /* DictationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictationService.swift; sourceTree = "<group>"; };
+		6DB24147678E048CE94BE03D /* unfavorite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = unfavorite.wav; sourceTree = "<group>"; };
 		6F154B6A22B5274F81294256 /* katakana_pronunciation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = katakana_pronunciation.json; sourceTree = "<group>"; };
 		7131E14244C21CB0959422B9 /* DeckSequencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckSequencer.swift; sourceTree = "<group>"; };
 		7233A24A3E7A68CD92C39528 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
 		7396E0DAC25E2D9521AE8F6C /* ch_slang03.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch_slang03.json; sourceTree = "<group>"; };
 		7490721751444F5E8B6B7E1A /* ch28.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch28.json; sourceTree = "<group>"; };
+		74B1F83CF0F43D8BFE52064D /* favorite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = favorite.wav; sourceTree = "<group>"; };
 		75A85C86623E2F860D15B102 /* Power Up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Power Up.wav"; sourceTree = "<group>"; };
 		7733C2A9B8AFCE96A2F28D9F /* LessonSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSearchService.swift; sourceTree = "<group>"; };
 		7746D06F5ABB5A35B2BD40A9 /* SudokuEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuEngine.swift; sourceTree = "<group>"; };
@@ -398,8 +423,10 @@
 		7F3DD2BF4C189EF602A2AC04 /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
 		80411C6C2F5449FFAE0AE094 /* kana_k01.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_k01.json; sourceTree = "<group>"; };
 		8342F5C4480EE0DE5B7AD2FF /* correct(old).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "correct(old).wav"; sourceTree = "<group>"; };
+		851ADF50FF4B58BCF38730C6 /* navigate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = navigate.wav; sourceTree = "<group>"; };
 		85C60F9752E49BF7F3215095 /* VocabDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabDeck.swift; sourceTree = "<group>"; };
 		85CE19DE1B53F8558B0D0BD1 /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
+		864CDFC0968533B6C8D11229 /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
 		897B770435617E4ADFDC4A5D /* RelatedWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedWords.swift; sourceTree = "<group>"; };
 		8ABF4673CEEC3F2625CF74C0 /* DeckProgressCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckProgressCount.swift; sourceTree = "<group>"; };
 		8B7AA52447AD7420FB8D878F /* kana_h02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h02.json; sourceTree = "<group>"; };
@@ -422,6 +449,7 @@
 		9DE8D116FF927D7B650C7922 /* ch31.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch31.json; sourceTree = "<group>"; };
 		9E624B9756D290C6F04EE89D /* ReadingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViews.swift; sourceTree = "<group>"; };
 		9F1A5379FAAEAF1A6F8C2D4D /* data_sources.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data_sources.json; sourceTree = "<group>"; };
+		A150765265B90050C992F8C9 /* StoreServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreServiceTests.swift; sourceTree = "<group>"; };
 		A2525467916939149B1DF923 /* readings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = readings.json; sourceTree = "<group>"; };
 		A4F6FED107B7EAB449D8A6C9 /* ch_slang02.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch_slang02.json; sourceTree = "<group>"; };
 		A646DCBA8DED638ADD054393 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -464,6 +492,7 @@
 		C73A2F8862AEE617566F70A6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		C7722FD2948405D6D817CD65 /* VocalAnswerMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalAnswerMatcher.swift; sourceTree = "<group>"; };
 		C9B1C53DE0439124D51C4A84 /* StudyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyListView.swift; sourceTree = "<group>"; };
+		CCFDB55AABBBE89F00467A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CD32F0532F41B7C48E3FAA1F /* KanjiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListView.swift; sourceTree = "<group>"; };
 		CDC4EFED0CB4114337D1A970 /* CheatSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatSheetView.swift; sourceTree = "<group>"; };
 		CEDF01A68D797280CC674714 /* ch25.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch25.json; sourceTree = "<group>"; };
@@ -493,11 +522,13 @@
 		E0D02D5ADD007EE79ECE1B69 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		E1879F0D83F00E2B047F7AC0 /* kana_h08.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h08.json; sourceTree = "<group>"; };
 		E37FC23613021909A0D45A68 /* WidgetShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetShared.swift; sourceTree = "<group>"; };
+		E55AC077894A7B95F4E70D4A /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
 		E5A9E48056FD4481B0FB491F /* kana_h06.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kana_h06.json; sourceTree = "<group>"; };
 		E677B09F98344C9476A1C38E /* ch45.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch45.json; sourceTree = "<group>"; };
 		E7B4A4B17147CC70A7391E5C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		E86F5A94583EBA7329B6026D /* WordLookup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLookup.swift; sourceTree = "<group>"; };
 		E8D14B3D6C4180EC59B22898 /* StudyWeightSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyWeightSettings.swift; sourceTree = "<group>"; };
+		EA6DC8D8C971114114594730 /* AmbientBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientBackgrounds.swift; sourceTree = "<group>"; };
 		EABD51A6674481EF27F1790F /* GrammarPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarPracticeView.swift; sourceTree = "<group>"; };
 		EB5C5929E6E34C489BF8E071 /* SyncMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncMerge.swift; sourceTree = "<group>"; };
 		EC15D684F93256F5E8E83F01 /* ch29.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ch29.json; sourceTree = "<group>"; };
@@ -595,6 +626,7 @@
 				C17C3633279D7F9797ABD52D /* kanji_data.json */,
 				6F154B6A22B5274F81294256 /* katakana_pronunciation.json */,
 				3E9ECCFDE6AF9489B8C1A294 /* lessons.json */,
+				40E4E879A539C16ADEBD57B0 /* Omedetou.storekit */,
 				FEF9D9BE8919362FDC834016 /* particles_data.json */,
 				A2525467916939149B1DF923 /* readings.json */,
 				3D3BC367AD7954E4EB744E25 /* Audio */,
@@ -637,6 +669,7 @@
 				897B770435617E4ADFDC4A5D /* RelatedWords.swift */,
 				B459AA3806A9905AC49166FF /* SimilarKanji.swift */,
 				7D83CB2E2B3794CAC15F851D /* SpeechService.swift */,
+				864CDFC0968533B6C8D11229 /* StoreService.swift */,
 				7746D06F5ABB5A35B2BD40A9 /* SudokuEngine.swift */,
 				EB5C5929E6E34C489BF8E071 /* SyncMerge.swift */,
 				921326CB745C4D3E676C9DA4 /* VocalAnswerListener.swift */,
@@ -675,9 +708,13 @@
 				652EDE82C6952A319454EDE8 /* complete.wav */,
 				1B84CB4AF912A414B454583A /* correct.wav */,
 				8342F5C4480EE0DE5B7AD2FF /* correct(old).wav */,
+				74B1F83CF0F43D8BFE52064D /* favorite.wav */,
 				4C8D4DDE5B0DB9E5CF5DA47C /* incorrect.wav */,
 				ED2551F70E51825FA936B8F0 /* incorrect(old).wav */,
+				851ADF50FF4B58BCF38730C6 /* navigate.wav */,
 				9A107F80F556651F206D39F0 /* notification.wav */,
+				09422F5919FF812715751B34 /* slide_open.wav */,
+				6DB24147678E048CE94BE03D /* unfavorite.wav */,
 				67737F9DD4F6E965D600100E /* unlock.wav */,
 				68F627228705B800BD0F93BF /* correct_piano */,
 				8E96799BDD853C66E383EEE5 /* Kanji Invaders sounds */,
@@ -699,6 +736,7 @@
 			children = (
 				B4A959BC7E40FAAA8D817E5F /* ConjugationDrillView.swift */,
 				68AE567BBF6B516539382A4B /* GrammarMenuView.swift */,
+				5532839B76815F06234BFE35 /* SentenceAudioView.swift */,
 				65D0BF866A2023FA46ACEEBF /* StudyFeatureTiles.swift */,
 				64E57E1DD371386D38459520 /* VocabFlashcardsView.swift */,
 				2059DC3D2E8EBAA283D542EC /* VocalFlashcardsView.swift */,
@@ -718,18 +756,30 @@
 			path = Kanji;
 			sourceTree = "<group>";
 		};
+		5F5C5040B06A7608022F9D8F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CCFDB55AABBBE89F00467A1F /* Info.plist */,
+				A150765265B90050C992F8C9 /* StoreServiceTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		6048F949CFD810978FF7F4FB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				7D6F4D81BF9B088BB8A497E2 /* AboutView.swift */,
+				EA6DC8D8C971114114594730 /* AmbientBackgrounds.swift */,
 				85CE19DE1B53F8558B0D0BD1 /* BackupView.swift */,
 				8ABF4673CEEC3F2625CF74C0 /* DeckProgressCount.swift */,
+				4291F1EF1FA998B15A6248C7 /* FallingKana.swift */,
 				EC16CF23C2A812C0CCBCD680 /* FeedbackView.swift */,
 				67E486D08F22E4A8E8AD2E27 /* FlowLayout.swift */,
 				469D9B0F1C041B79A537F6A8 /* FuriganaText.swift */,
 				C0F53E8AD13B1498463F39A0 /* HelpView.swift */,
 				5D120B6465036B0AD8AED5FD /* ItemDetailSheet.swift */,
 				BEE94A5FA62EA93B1FB083D8 /* LockedGate.swift */,
+				E55AC077894A7B95F4E70D4A /* Motion.swift */,
 				3AA784A0B3B9FF3AD2601EF7 /* OptionsMenuView.swift */,
 				D433C2AD83230F2A848499C1 /* PaywallView.swift */,
 				21616BEBCE45517A0A102F5E /* SearchBar.swift */,
@@ -996,6 +1046,7 @@
 			isa = PBXGroup;
 			children = (
 				0060CD4A8EC843830D778254 /* Sources */,
+				5F5C5040B06A7608022F9D8F /* Tests */,
 				1649619F88FC65B8068577CB /* Frameworks */,
 				F64EAB6D238C1414A3E43A97 /* Products */,
 			);
@@ -1005,6 +1056,7 @@
 			isa = PBXGroup;
 			children = (
 				480F378F3A54533D8D8564C2 /* Omedetou.app */,
+				0BDBE6FFF433C3DCD80FA6D5 /* OmedetouTests.xctest */,
 				E00505215981B84239C3600E /* OmedetouWidgets.appex */,
 			);
 			name = Products;
@@ -1053,6 +1105,25 @@
 			productReference = 480F378F3A54533D8D8564C2 /* Omedetou.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DB49980F0CCAB8D430229486 /* OmedetouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4C898576A2655AB967F0EF /* Build configuration list for PBXNativeTarget "OmedetouTests" */;
+			buildPhases = (
+				A8709C1325BC714ABDE4A126 /* Sources */,
+				83347429EE5AA5627E1D5622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE191E0E654049BBE1979F6 /* PBXTargetDependency */,
+			);
+			name = OmedetouTests;
+			packageProductDependencies = (
+			);
+			productName = OmedetouTests;
+			productReference = 0BDBE6FFF433C3DCD80FA6D5 /* OmedetouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1067,6 +1138,10 @@
 						ProvisioningStyle = Automatic;
 					};
 					649CF02666934C5FB06AB330 = {
+						DevelopmentTeam = H4VZM6PP4T;
+						ProvisioningStyle = Automatic;
+					};
+					DB49980F0CCAB8D430229486 = {
 						DevelopmentTeam = H4VZM6PP4T;
 						ProvisioningStyle = Automatic;
 					};
@@ -1087,6 +1162,7 @@
 			projectRoot = "";
 			targets = (
 				649CF02666934C5FB06AB330 /* Omedetou */,
+				DB49980F0CCAB8D430229486 /* OmedetouTests */,
 				4988DF2716213459E1EECD74 /* OmedetouWidgets */,
 			);
 		};
@@ -1169,6 +1245,7 @@
 				CCB9310763BE9661547E69F5 /* culture.json in Resources */,
 				C566E9C8901E39697FEB5C9C /* data_sources.json in Resources */,
 				7388EE9422528E5E194F426F /* dictionary.db in Resources */,
+				7A3EA03D58819A9877B447E8 /* favorite.wav in Resources */,
 				859F1AB62388E827BE197715 /* grammar_quiz_n1.json in Resources */,
 				8FFA65B089E80689AA6FC76A /* grammar_quiz_n2.json in Resources */,
 				915C532629FA60E08DCDB705 /* grammar_quiz_n3.json in Resources */,
@@ -1208,6 +1285,7 @@
 				17BC0F243A199D89007AD1A7 /* kanji_data.json in Resources */,
 				29221080F8440A8905A5B68A /* katakana_pronunciation.json in Resources */,
 				B56FD9F12020BB49FB4377E5 /* lessons.json in Resources */,
+				8F3C415CF5595712F01E2897 /* navigate.wav in Resources */,
 				95D510ED3B307CF99BE0DC7B /* notification.wav in Resources */,
 				45C0283D3E68498EEDA2B1F8 /* particles_data.json in Resources */,
 				4A928FB6A8DD5DB7187C48DE /* piano_correct_1.wav in Resources */,
@@ -1218,6 +1296,8 @@
 				5D4FE489101869B072DB3190 /* piano_correct_6.wav in Resources */,
 				B7DA15E632A41EE266DB08A3 /* piano_correct_7.wav in Resources */,
 				DAFC82D69CD9CFA95D552E0E /* readings.json in Resources */,
+				F28C038C0E39B0DFFDE1C1B8 /* slide_open.wav in Resources */,
+				FF4C92236BEBB29E1BA571ED /* unfavorite.wav in Resources */,
 				1DD45A8D63A5BFB17846BA42 /* unlock.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1230,6 +1310,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83347429EE5AA5627E1D5622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DA2DEE4010BAA57EAFBB0C /* Omedetou.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1238,6 +1326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A448300434A5918E309C9A61 /* AboutView.swift in Sources */,
+				3B83C9AD60E8A5150CA8E121 /* AmbientBackgrounds.swift in Sources */,
 				34E32ABBB8155E4CC4543F0E /* BackupView.swift in Sources */,
 				7D6BD94493B2610AEA42D9AC /* BetaAccess.swift in Sources */,
 				7C6DA1362D2FC132E823D3E1 /* CardModels.swift in Sources */,
@@ -1269,6 +1358,7 @@
 				5DB00A7442AD8966EB2A0DCE /* ExamStore.swift in Sources */,
 				2B85D32F4BB5F03AA2E8AC8B /* ExamView.swift in Sources */,
 				36C1401E5B6265A7B6429529 /* ExtrasView.swift in Sources */,
+				E371F60B0BA023F1A0B829F9 /* FallingKana.swift in Sources */,
 				1D03F9C3E1FBF52A6DD12B13 /* FavoritesView.swift in Sources */,
 				538304380C686BD6188AA5D7 /* FeedbackService.swift in Sources */,
 				2E6F1B33ABE1CED77927D099 /* FeedbackSounds.swift in Sources */,
@@ -1303,6 +1393,7 @@
 				1785A6F1B9064F03519844C8 /* LessonsService.swift in Sources */,
 				7D22AED0730F5A7B0458BBF8 /* LessonsView.swift in Sources */,
 				522FA138EC952720AE14ED4B /* LockedGate.swift in Sources */,
+				445B23FE1B9F8F760BD7F954 /* Motion.swift in Sources */,
 				80B401AA6595092D4F7579AF /* NotificationService.swift in Sources */,
 				389EADF9AD92DE34A1501692 /* OmedetouApp.swift in Sources */,
 				FA2F1A5CEE91B4A62895B89E /* OptionsMenuView.swift in Sources */,
@@ -1318,11 +1409,13 @@
 				3092CE467706A489B78398F6 /* SearchBar.swift in Sources */,
 				9FC768B8BEC8EBDCE55C0F53 /* SecretGame.swift in Sources */,
 				00B4DAB9A0B614BA064F3122 /* SecretHint.swift in Sources */,
+				E8BD3A1423C5BE93779AE3B1 /* SentenceAudioView.swift in Sources */,
 				92278AEAEAC8E5EC5F7436DF /* ShiritoriGame.swift in Sources */,
 				EA89BA73431DC6E723F3D160 /* SimilarKanji.swift in Sources */,
 				0819E27C54A19F1E606DE584 /* SmartStudyDebugOverlay.swift in Sources */,
 				3359D073919A5151EF0FA2D7 /* SmartStudyEngine.swift in Sources */,
 				A194E2D9BE80B01BE66493DA /* SpeechService.swift in Sources */,
+				CD7D5617B7728A891BAFAB87 /* StoreService.swift in Sources */,
 				AC066D5573BA4E219DE92A28 /* StudyFeatureTiles.swift in Sources */,
 				36B7FD8607473E603255F6D6 /* StudyFilter.swift in Sources */,
 				993D3BBC9D1E6B59D3A6C36A /* StudyItemRef.swift in Sources */,
@@ -1361,9 +1454,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8709C1325BC714ABDE4A126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC65E1691624476A0872340D /* StoreServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7DE191E0E654049BBE1979F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 649CF02666934C5FB06AB330 /* Omedetou */;
+			targetProxy = A7582BB23C4D600C22710475 /* PBXContainerItemProxy */;
+		};
 		C3D2CF2A73A258CC93F10D76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4988DF2716213459E1EECD74 /* OmedetouWidgets */;
@@ -1449,6 +1555,26 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ICLOUD_SYNC";
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82B39AD5128185159545EFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou.tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omedetou.app/Omedetou";
 			};
 			name = Debug;
 		};
@@ -1577,6 +1703,26 @@
 			};
 			name = Release;
 		};
+		E6887450BA356CB766C2E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattdevoti1.omedetou.tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omedetou.app/Omedetou";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1603,6 +1749,15 @@
 			buildConfigurations = (
 				5F7B974AF5E80B9AEE4C4D7A /* Debug */,
 				0D6DBEA2674D0819281CD532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D4C898576A2655AB967F0EF /* Build configuration list for PBXNativeTarget "OmedetouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B39AD5128185159545EFA1 /* Debug */,
+				E6887450BA356CB766C2E0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

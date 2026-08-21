@@ -528,11 +528,11 @@
      "choices": [
       "どれ人[ひと]はだれですか。",
       "これ電車[でんしゃ]はどれですか。",
-      "あれのバスはどこへ行[い]きますか。",
-      "どのバスはどこへ行[い]きますか。"
+      "あれのバスが駅[えき]へ行[い]きますか。",
+      "どのバスが駅[えき]へ行[い]きますか。"
      ],
      "correctIndex": 3,
-     "explanation": "どの must precede a noun: どのバス = which bus, followed by はどこへ行[い]きますか (where does it go?). どれ is a pronoun and cannot precede 人[ひと]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
+     "explanation": "どの must precede a noun: どのバス = which bus. A question word that is the subject takes が (どのバスが), giving 'Which bus goes to the station?' どれ is a pronoun and cannot precede 人[ひと]. これ is a pronoun, not an adjective. あれの is not a valid demonstrative adjective form — use あの instead."
     },
     {
      "id": "ko-so-a-do-noun_q14",

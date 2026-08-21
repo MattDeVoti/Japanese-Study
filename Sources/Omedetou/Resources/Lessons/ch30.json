@@ -271,13 +271,13 @@
      "prompt": "Which means 'As time passes, memories fade'?",
      "japanese": null,
      "choices": [
-      "時間[じかん]が経[へ]つにしたがって、記憶[きおく]が薄[うす]れる。",
+      "時間[じかん]が経[た]つにしたがって、記憶[きおく]が薄[うす]れる。",
       "時間[じかん]が経[へ]ったのに、記憶[きおく]が薄[うす]れる。",
-      "時間[じかん]が経[へ]つながらも、記憶[きおく]が薄[うす]れる。",
+      "時間[じかん]が経[た]つながらも、記憶[きおく]が薄[うす]れる。",
       "時間[じかん]が経[へ]っているところが、記憶[きおく]が薄[うす]れる。"
      ],
      "correctIndex": 0,
-     "explanation": "Dict-form + にしたがって: 経[へ]つ + にしたがって = as time passes. 記憶[きおく]が薄[うす]れる = memories fade. Proportional change — time and memory fading move together."
+     "explanation": "Dict-form + にしたがって: 経[た]つ + にしたがって = as time passes. 記憶[きおく]が薄[うす]れる = memories fade. Proportional change — time and memory fading move together."
     },
     {
      "id": "ni-shitagatte_q18",
@@ -648,13 +648,13 @@
    "name": "〜次第[しだい] (shidai) — as soon as / depending on",
    "shortDescription": "Verb stem + 次第 = immediately as soon as X is done (formal); Noun + 次第で = depending on X.",
    "formation": "Verb stem (ます-stem) + 次第[しだい] (as soon as)  |  Noun + 次第[しだい]で (depending on)",
-   "explanation": "次第[しだい] (shidai) wears two faces, both formal. The first is 'as soon as' — attached to a verb stem, it signals that the next action happens immediately upon completion of the previous one. 準備[じゅんび]ができ次第[しだい]、出発[しゅっぱつ]します: the moment preparations are complete, departure happens — no ambiguity, no delay implied. This use lives in business emails, official announcements, and formal writing; in casual conversation, you'd reach for たら instead.\n\nThe second face is 'depending on' — Noun + 次第[しだい]で means the outcome is contingent on that noun. やる気[き]次第[しだい]で、何[なん]でもできる: motivation is the single variable; everything follows from it. 次第[しだい]によっては (depending on the circumstances) is a useful extension.\n\nBoth uses share a core logic: something follows conditionally or immediately from another thing. When you see 次第[しだい] in writing, the register is elevated — it adds a professional formality that makes business communication feel polished.",
+   "explanation": "次第[しだい] (shidai) wears two faces, both formal. The first is 'as soon as' — attached to a verb stem, it signals that the next action happens immediately upon completion of the previous one. 準備[じゅんび]ができ次第[しだい]、出発[しゅっぱつ]します: the moment preparations are complete, departure happens — no ambiguity, no delay implied. This use lives in business emails, official announcements, and formal writing; in casual conversation, you'd reach for たら instead.\n\nThe second face is 'depending on' — Noun + 次第[しだい]で means the outcome is contingent on that noun. やる気[き]次第[しだい]で、何[なん]でもできる: motivation is the single variable; everything follows from it. Noun + 次第[しだい]では is a useful extension: 状況[じょうきょう]次第[しだい]では (depending on the situation).\n\nBoth uses share a core logic: something follows conditionally or immediately from another thing. When you see 次第[しだい] in writing, the register is elevated — it adds a professional formality that makes business communication feel polished.",
    "rules": [
     "Verb stem + 次第[しだい] = as soon as (formal; immediately after completion)",
     "Noun + 次第[しだい]で = depending on [noun] (the outcome varies with the noun)",
     "Both uses are formal — prefer more informal alternatives in casual speech",
     "As soon as: result must be immediate (no delayed consequence)",
-    "Depending on: 次第[しだい]によっては = depending on the circumstances (extended form)"
+    "Depending on: Noun + 次第[しだい]では = depending on [noun] (状況[じょうきょう]次第[しだい]では = depending on the situation)"
    ],
    "examples": [
     {
@@ -1379,8 +1379,8 @@
   },
   {
    "char": "由",
-   "word": "由",
-   "reading": "よし",
+   "word": "理由",
+   "reading": "りゆう",
    "meaning": "reason"
   },
   {
@@ -1411,7 +1411,7 @@
    "char": "様",
    "word": "様",
    "reading": "さま",
-   "meaning": "Mr."
+   "meaning": "honorific suffix (politer than さん)"
   },
   {
    "char": "達",
@@ -1421,9 +1421,9 @@
   },
   {
    "char": "登",
-   "word": "登",
+   "word": "登る",
    "reading": "のぼる",
-   "meaning": "ascend"
+   "meaning": "to climb"
   },
   {
    "char": "存",
@@ -1433,15 +1433,15 @@
   },
   {
    "char": "園",
-   "word": "園",
-   "reading": "その",
-   "meaning": "garden (esp. man-made)"
+   "word": "公園",
+   "reading": "こうえん",
+   "meaning": "park"
   },
   {
    "char": "未",
-   "word": "未だ",
-   "reading": "まだ",
-   "meaning": "still"
+   "word": "未来",
+   "reading": "みらい",
+   "meaning": "the future"
   },
   {
    "char": "亡",
@@ -1451,9 +1451,9 @@
   },
   {
    "char": "途",
-   "word": "途",
-   "reading": "と",
-   "meaning": "way"
+   "word": "途中",
+   "reading": "とちゅう",
+   "meaning": "on the way; midway"
   },
   {
    "char": "喜",
@@ -1475,9 +1475,9 @@
   },
   {
    "char": "刻",
-   "word": "刻",
-   "reading": "こく",
-   "meaning": "period of time (usu. a period of approx. two hours corresponding to one of the signs of the Chinese zodiac)"
+   "word": "深刻",
+   "reading": "しんこく",
+   "meaning": "serious; grave"
   },
   {
    "char": "遠",
@@ -1523,9 +1523,9 @@
   },
   {
    "char": "才",
-   "word": "才",
-   "reading": "さい",
-   "meaning": "ability"
+   "word": "天才",
+   "reading": "てんさい",
+   "meaning": "genius"
   },
   {
    "char": "猫",
@@ -1688,11 +1688,12 @@
    ]
   },
   {
-   "word": "由",
-   "kana": "よし",
-   "romaji": "yoshi",
+   "word": "理由",
+   "kana": "りゆう",
+   "romaji": "riyuu",
    "meaning": "reason",
    "chars": [
+    "理",
     "由"
    ]
   },
@@ -1736,7 +1737,7 @@
    "word": "様",
    "kana": "さま",
    "romaji": "sama",
-   "meaning": "Mr.",
+   "meaning": "honorific suffix (politer than さん)",
    "chars": [
     "様"
    ]
@@ -1751,10 +1752,10 @@
    ]
   },
   {
-   "word": "登",
+   "word": "登る",
    "kana": "のぼる",
    "romaji": "noboru",
-   "meaning": "ascend",
+   "meaning": "to climb",
    "chars": [
     "登"
    ]
@@ -1769,21 +1770,23 @@
    ]
   },
   {
-   "word": "園",
-   "kana": "その",
-   "romaji": "sono",
-   "meaning": "garden (esp. man-made)",
+   "word": "公園",
+   "kana": "こうえん",
+   "romaji": "kouen",
+   "meaning": "park",
    "chars": [
+    "公",
     "園"
    ]
   },
   {
-   "word": "未だ",
-   "kana": "まだ",
-   "romaji": "mada",
-   "meaning": "still",
+   "word": "未来",
+   "kana": "みらい",
+   "romaji": "mirai",
+   "meaning": "the future",
    "chars": [
-    "未"
+    "未",
+    "来"
    ]
   },
   {
@@ -1796,12 +1799,13 @@
    ]
   },
   {
-   "word": "途",
-   "kana": "と",
-   "romaji": "to",
-   "meaning": "way",
+   "word": "途中",
+   "kana": "とちゅう",
+   "romaji": "tochuu",
+   "meaning": "on the way; midway",
    "chars": [
-    "途"
+    "途",
+    "中"
    ]
   },
   {
@@ -1832,11 +1836,12 @@
    ]
   },
   {
-   "word": "刻",
-   "kana": "こく",
-   "romaji": "koku",
-   "meaning": "period of time (usu. a period of approx. two hours corresponding to one of the signs of the Chinese zodiac)",
+   "word": "深刻",
+   "kana": "しんこく",
+   "romaji": "shinkoku",
+   "meaning": "serious; grave",
    "chars": [
+    "深",
     "刻"
    ]
   },
@@ -1904,11 +1909,12 @@
    ]
   },
   {
-   "word": "才",
-   "kana": "さい",
-   "romaji": "sai",
-   "meaning": "ability",
+   "word": "天才",
+   "kana": "てんさい",
+   "romaji": "tensai",
+   "meaning": "genius",
    "chars": [
+    "天",
     "才"
    ]
   },

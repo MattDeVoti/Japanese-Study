@@ -328,12 +328,12 @@
    "name": "〜たい (tai) — want to do",
    "shortDescription": "Expresses the speaker's desire to do an action.",
    "formation": "Verb stem + たい (conjugates like an い-adjective)",
-   "explanation": "たい attaches to the verb stem (the form before ます) to express the speaker's desire to do something — \"I want to do X.\" 食[た]べたい = \"I want to eat,\" 行[い]きたい = \"I want to go,\" したい = \"I want to do.\"\n\nThe elegant part: たい conjugates exactly like an い-adjective:\n- Present — たい: 食[た]べたい (want to eat)\n- Negative — たくない: 食[た]べたくない (don't want to eat)\n- Past — たかった: 食[た]べたかった (wanted to eat)\n- Past negative — たくなかった: 食[た]べたくなかった (didn't want to eat)\n\nSo もう帰[かえ]りたくありません = \"I don't want to go home anymore,\" and 子[こ]どものころ、パイロットになりたかったです = \"When I was a child, I wanted to become a pilot.\"\n\nRegarding the object particle: the thing you want to act on can take either を (standard) or が (to emphasize the specific desired thing) — 日本語[にほんご]を勉強[べんきょう]したい vs 日本語[にほんご]が勉強[べんきょう]したい.\n\nOne important limit: たい describes only the speaker's own desires. For a third person's desires, use 〜たがっている (appears to want to do).",
+   "explanation": "たい attaches to the verb stem (the form before ます) to express the speaker's desire to do something — \"I want to do X.\" 食[た]べたい = \"I want to eat,\" 行[い]きたい = \"I want to go,\" したい = \"I want to do.\"\n\nThe elegant part: たい conjugates exactly like an い-adjective:\n- Present — たい: 食[た]べたい (want to eat)\n- Negative — たくない: 食[た]べたくない (don't want to eat)\n- Past — たかった: 食[た]べたかった (wanted to eat)\n- Past negative — たくなかった: 食[た]べたくなかった (didn't want to eat)\n\nSo もう帰[かえ]りたくありません = \"I don't want to go home anymore,\" and 子[こ]どものころ、パイロットになりたかったです = \"When I was a child, I wanted to become a pilot.\"\n\nRegarding the object particle: the thing you want to act on can take either を (standard) or が (to emphasize the specific desired thing) — 日本語[にほんご]を勉強[べんきょう]したい vs 日本語[にほんご]が勉強[べんきょう]したい.\n\nOne important limit: たい is for your own desires — and for asking the listener about theirs (どこへ行[い]きたいですか). To describe a third person's desires, use 〜たがっている (appears to want to do).",
    "rules": [
     "Pattern: verb stem + たい = want to do X",
     "Conjugates like an い-adjective: たくない (don't want to), たかった (wanted to)",
     "Object can use を or が: を is standard; が emphasizes the specific desire",
-    "Only for the speaker's own desires — for third person use 〜たがっている",
+    "For your own desires (or asking the listener's) — for a third person use 〜たがっている",
     "Common combinations: 食[た]べたい, 行[い]きたい, 見[み]たい, 飲[の]みたい, 買[か]いたい"
    ],
    "examples": [
@@ -561,7 +561,7 @@
      "id": "tai_q15",
      "type": "fillBlank",
      "prompt": "Fill in the blank to say 'I wanted to see that movie.'",
-     "japanese": "あの映画[えいが]を見[けん]___です。",
+     "japanese": "あの映画[えいが]を見[み]___です。",
      "choices": [
       "たくない",
       "たかった",
@@ -755,7 +755,7 @@
      "id": "tari-tari_q6",
      "type": "fillBlank",
      "prompt": "Fill in the blank to list 'watching movies and eating out' as representative activities.",
-     "japanese": "映画[えいが]を見[けん]___、外食[がいしょく]し___します。",
+     "japanese": "映画[えいが]を見[み]___、外食[がいしょく]し___します。",
      "choices": [
       "たり〜たり",
       "て〜て",
@@ -1601,9 +1601,9 @@
  "kanji": [
   {
    "char": "行",
-   "word": "行",
-   "reading": "い",
-   "meaning": "going"
+   "word": "行く",
+   "reading": "いく",
+   "meaning": "to go"
   },
   {
    "char": "外",
@@ -1632,10 +1632,10 @@
  ],
  "kanjiWords": [
   {
-   "word": "行",
-   "kana": "い",
-   "romaji": "i",
-   "meaning": "going",
+   "word": "行く",
+   "kana": "いく",
+   "romaji": "iku",
+   "meaning": "to go",
    "chars": [
     "行"
    ]
@@ -1711,7 +1711,7 @@
    "word": "海外",
    "kana": "かいがい",
    "romaji": "kaigai",
-   "meaning": "foreign",
+   "meaning": "overseas; abroad",
    "chars": [
     "海",
     "外"

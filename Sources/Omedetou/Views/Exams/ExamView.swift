@@ -1,8 +1,7 @@
 import SwiftUI
 
 // Sitting a test. No feedback until the end — it's an exam, not a drill. The
-// full paper is reviewed afterwards, with every miss explained and pushed into
-// the review schedule.
+// full paper is read back afterwards, with every miss explained.
 
 struct ExamView: View {
     let lesson: ExamLesson
@@ -68,26 +67,16 @@ struct ExamView: View {
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
-                    Text(current.prompt)
-                        .font(.system(size: 17, weight: .semibold))
-                        .foregroundColor(.appText)
-                        .fixedSize(horizontal: false, vertical: true)
+                    // Readings set above the kanji, as everywhere else in the
+                    // app — but only when the question carries them. A question
+                    // *about* a reading has no markup, and must stay bare.
+                    JapaneseText(text: current.prompt, fontSize: 17,
+                                 color: .appText, weight: .semibold)
 
                     if let subject = current.subject, !subject.isEmpty {
-                        Group {
-                            if subject.contains("[") {
-                                FuriganaText(text: subject, fontSize: subjectSize,
-                                             color: .appText, weight: .bold, alignment: .center)
-                                    .frame(height: subjectSize * 2.2)
-                            } else {
-                                Text(subject)
-                                    .font(.system(size: subjectSize, weight: .bold))
-                                    .foregroundColor(.appText)
-                                    .frame(maxWidth: .infinity)
-                                    .multilineTextAlignment(.center)
-                            }
-                        }
-                        .padding(.vertical, 6)
+                        JapaneseText(text: subject, fontSize: subjectSize,
+                                     color: .appText, weight: .bold, alignment: .center)
+                            .padding(.vertical, 6)
                     }
 
                     VStack(spacing: 10) {
@@ -115,6 +104,10 @@ struct ExamView: View {
     private func choiceRow(_ i: Int, _ choice: String) -> some View {
         let picked = answers[current.id] == i
         return Button {
+            // A test doesn't mark anything until it is handed in, so the cue
+            // here is the neutral one: it confirms the tap without hinting at
+            // whether the answer was right.
+            FeedbackSounds.shared.play(.notification)
             answers[current.id] = i
         } label: {
             HStack(spacing: 12) {
@@ -124,16 +117,7 @@ struct ExamView: View {
                         .frame(width: 22, height: 22)
                     if picked { Circle().fill(accent).frame(width: 12, height: 12) }
                 }
-                if choice.contains("[") {
-                    FuriganaText(text: choice, fontSize: 16, color: .appText)
-                        .frame(height: 40)
-                } else {
-                    Text(choice)
-                        .font(.system(size: 16))
-                        .foregroundColor(.appText)
-                        .fixedSize(horizontal: false, vertical: true)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                }
+                JapaneseText(text: choice, fontSize: 16, color: .appText)
                 Spacer(minLength: 0)
             }
             .padding(.horizontal, 14)
@@ -227,6 +211,7 @@ struct ExamView: View {
     // MARK: - Marking
 
     private func submit() {
+        FeedbackSounds.shared.play(.complete)
         var perSection: [ExamSection: (correct: Int, total: Int)] = [:]
         var missed: [ExamQuestion] = []
 
@@ -293,7 +278,7 @@ private struct ExamQuestionList: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }.fontWeight(.semibold)
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }.fontWeight(.semibold)
                 }
             }
             .toolbarBackground(Color.appNavBar, for: .navigationBar)

@@ -1,7 +1,7 @@
 {
  "id": "ch40",
  "chapterNumber": 42,
- "title": "Immediacy and Time Sequence",
+ "title": "Immediate Sequences",
  "points": [
   {
    "id": "ya-inaya",
@@ -1295,9 +1295,9 @@
   },
   {
    "char": "団",
-   "word": "団",
-   "reading": "かたまり",
-   "meaning": "group"
+   "word": "団体",
+   "reading": "だんたい",
+   "meaning": "group; organisation"
   },
   {
    "char": "村",
@@ -1307,8 +1307,8 @@
   },
   {
    "char": "税",
-   "word": "税",
-   "reading": "ぜい",
+   "word": "税金",
+   "reading": "ぜいきん",
    "meaning": "tax"
   },
   {
@@ -1361,9 +1361,9 @@
   },
   {
    "char": "貿",
-   "word": "貿",
-   "reading": "ぼう",
-   "meaning": "trade"
+   "word": "貿易",
+   "reading": "ぼうえき",
+   "meaning": "trade (foreign)"
   },
   {
    "char": "装",
@@ -1397,9 +1397,9 @@
   },
   {
    "char": "卒",
-   "word": "卒",
-   "reading": "そっする",
-   "meaning": "graduate"
+   "word": "卒業",
+   "reading": "そつぎょう",
+   "meaning": "graduation"
   },
   {
    "char": "順",
@@ -1409,9 +1409,9 @@
   },
   {
    "char": "了",
-   "word": "了",
-   "reading": "りょう",
-   "meaning": "finish"
+   "word": "終了",
+   "reading": "しゅうりょう",
+   "meaning": "end; termination"
   },
   {
    "char": "池",
@@ -1421,15 +1421,15 @@
   },
   {
    "char": "永",
-   "word": "永",
-   "reading": "ながい",
+   "word": "永遠",
+   "reading": "えいえん",
    "meaning": "eternity"
   },
   {
    "char": "宇",
-   "word": "宇",
-   "reading": "う",
-   "meaning": "eaves"
+   "word": "宇宙",
+   "reading": "うちゅう",
+   "meaning": "universe; space"
   },
   {
    "char": "汚",
@@ -1451,15 +1451,15 @@
   },
   {
    "char": "紹",
-   "word": "紹",
-   "reading": "しょう",
-   "meaning": "introduce"
+   "word": "紹介",
+   "reading": "しょうかい",
+   "meaning": "introduction"
   },
   {
    "char": "詰",
    "word": "詰まり",
    "reading": "つまり",
-   "meaning": "that is to say"
+   "meaning": "blockage; clogging"
   },
   {
    "char": "皮",
@@ -1493,9 +1493,9 @@
   },
   {
    "char": "臣",
-   "word": "臣",
-   "reading": "しん",
-   "meaning": "retainer"
+   "word": "大臣",
+   "reading": "だいじん",
+   "meaning": "cabinet minister"
   },
   {
    "char": "沈",
@@ -1535,9 +1535,9 @@
   },
   {
    "char": "隻",
-   "word": "隻",
-   "reading": "せき",
-   "meaning": "vessels"
+   "word": "一隻",
+   "reading": "いっせき",
+   "meaning": "one ship"
   },
   {
    "char": "隅",
@@ -1559,9 +1559,9 @@
   },
   {
    "char": "符",
-   "word": "符",
-   "reading": "ふ",
-   "meaning": "token"
+   "word": "切符",
+   "reading": "きっぷ",
+   "meaning": "ticket"
   },
   {
    "char": "曇",
@@ -1581,12 +1581,13 @@
    ]
   },
   {
-   "word": "団",
-   "kana": "かたまり",
-   "romaji": "katamari",
-   "meaning": "group",
+   "word": "団体",
+   "kana": "だんたい",
+   "romaji": "dantai",
+   "meaning": "group; organisation",
    "chars": [
-    "団"
+    "団",
+    "体"
    ]
   },
   {
@@ -1599,12 +1600,13 @@
    ]
   },
   {
-   "word": "税",
-   "kana": "ぜい",
-   "romaji": "zei",
+   "word": "税金",
+   "kana": "ぜいきん",
+   "romaji": "zeikin",
    "meaning": "tax",
    "chars": [
-    "税"
+    "税",
+    "金"
    ]
   },
   {
@@ -1682,12 +1684,13 @@
    ]
   },
   {
-   "word": "貿",
-   "kana": "ぼう",
-   "romaji": "bou",
-   "meaning": "trade",
+   "word": "貿易",
+   "kana": "ぼうえき",
+   "romaji": "boueki",
+   "meaning": "trade (foreign)",
    "chars": [
-    "貿"
+    "貿",
+    "易"
    ]
   },
   {
@@ -1738,15 +1741,6 @@
    ]
   },
   {
-   "word": "卒",
-   "kana": "そっする",
-   "romaji": "sossuru",
-   "meaning": "graduate",
-   "chars": [
-    "卒"
-   ]
-  },
-  {
    "word": "順序",
    "kana": "じゅんじょ",
    "romaji": "junjo",
@@ -1756,11 +1750,12 @@
    ]
   },
   {
-   "word": "了",
-   "kana": "りょう",
-   "romaji": "ryou",
-   "meaning": "finish",
+   "word": "終了",
+   "kana": "しゅうりょう",
+   "romaji": "shuuryou",
+   "meaning": "end; termination",
    "chars": [
+    "終",
     "了"
    ]
   },
@@ -1774,19 +1769,20 @@
    ]
   },
   {
-   "word": "永",
-   "kana": "ながい",
-   "romaji": "nagai",
+   "word": "永遠",
+   "kana": "えいえん",
+   "romaji": "eien",
    "meaning": "eternity",
    "chars": [
-    "永"
+    "永",
+    "遠"
    ]
   },
   {
-   "word": "宇",
-   "kana": "う",
-   "romaji": "u",
-   "meaning": "eaves",
+   "word": "宇宙",
+   "kana": "うちゅう",
+   "romaji": "uchuu",
+   "meaning": "universe; space",
    "chars": [
     "宇"
    ]
@@ -1819,21 +1815,13 @@
    ]
   },
   {
-   "word": "紹",
-   "kana": "しょう",
-   "romaji": "shou",
-   "meaning": "introduce",
+   "word": "紹介",
+   "kana": "しょうかい",
+   "romaji": "shoukai",
+   "meaning": "introduction",
    "chars": [
-    "紹"
-   ]
-  },
-  {
-   "word": "詰まり",
-   "kana": "つまり",
-   "romaji": "tsumari",
-   "meaning": "that is to say",
-   "chars": [
-    "詰"
+    "紹",
+    "介"
    ]
   },
   {
@@ -1882,11 +1870,12 @@
    ]
   },
   {
-   "word": "臣",
-   "kana": "しん",
-   "romaji": "shin",
-   "meaning": "retainer",
+   "word": "大臣",
+   "kana": "だいじん",
+   "romaji": "daijin",
+   "meaning": "cabinet minister",
    "chars": [
+    "大",
     "臣"
    ]
   },
@@ -1946,11 +1935,12 @@
    ]
   },
   {
-   "word": "隻",
-   "kana": "せき",
-   "romaji": "seki",
-   "meaning": "vessels",
+   "word": "一隻",
+   "kana": "いっせき",
+   "romaji": "isseki",
+   "meaning": "one ship",
    "chars": [
+    "一",
     "隻"
    ]
   },
@@ -1982,11 +1972,12 @@
    ]
   },
   {
-   "word": "符",
-   "kana": "ふ",
-   "romaji": "fu",
-   "meaning": "token",
+   "word": "切符",
+   "kana": "きっぷ",
+   "romaji": "kippu",
+   "meaning": "ticket",
    "chars": [
+    "切",
     "符"
    ]
   },
@@ -2059,16 +2050,6 @@
    ]
   },
   {
-   "word": "羽目",
-   "kana": "はめ",
-   "romaji": "hame",
-   "meaning": "panel",
-   "chars": [
-    "羽",
-    "目"
-   ]
-  },
-  {
    "word": "卒業",
    "kana": "そつぎょう",
    "romaji": "sotsugyou",
@@ -2138,7 +2119,7 @@
    "word": "方式",
    "kana": "ほうしき",
    "romaji": "houshiki",
-   "meaning": "form",
+   "meaning": "method; system; formula",
    "chars": [
     "方",
     "式"
@@ -2213,13 +2194,13 @@
    ]
   },
   {
-   "word": "制御",
-   "kana": "せいぎょ",
-   "romaji": "seigyo",
-   "meaning": "control",
+   "word": "御飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "meaning": "cooked rice; meal",
    "chars": [
-    "制",
-    "御"
+    "御",
+    "飯"
    ]
   },
   {
@@ -2250,6 +2231,15 @@
    "chars": [
     "稼",
     "働"
+   ]
+  },
+  {
+   "word": "詰まり",
+   "kana": "つまり",
+   "romaji": "tsumari",
+   "meaning": "blockage; clogging",
+   "chars": [
+    "詰"
    ]
   }
  ]

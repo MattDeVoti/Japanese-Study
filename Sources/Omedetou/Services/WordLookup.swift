@@ -16,7 +16,41 @@ struct WordDefinition {
 }
 
 enum WordLookup {
+    /// Resolved lookups, kept for the life of the process.
+    ///
+    /// Worth it because of how the reading view searches. A press first tries
+    /// every substring forward from the token, and if none of them resolve it
+    /// walks the start backwards and tries again from each earlier character —
+    /// up to about a hundred candidates for one press, most of them misses, and
+    /// every miss is several SQLite queries plus a lemma pass. Measured at up to
+    /// 130ms on the main thread during the gesture. The dictionary is read-only,
+    /// so a result never goes stale, and neighbouring presses ask about mostly
+    /// the same substrings.
+    private static var cache: [String: WordDefinition?] = [:]
+    private static let cacheLock = NSLock()
+    /// Passages are small; this is a backstop, not a working limit.
+    private static let cacheLimit = 8000
+
     static func lookup(_ raw: String, glossary: [String: String]? = nil) -> WordDefinition? {
+        // Only the plain form is cached. A per-reading glossary would change the
+        // answer for the same key, and nothing passes one today.
+        if glossary == nil {
+            cacheLock.lock()
+            let hit = cache[raw]
+            cacheLock.unlock()
+            if let hit { return hit }
+        }
+        let result = resolve(raw, glossary: glossary)
+        if glossary == nil {
+            cacheLock.lock()
+            if cache.count >= cacheLimit { cache.removeAll(keepingCapacity: true) }
+            cache[raw] = result
+            cacheLock.unlock()
+        }
+        return result
+    }
+
+    private static func resolve(_ raw: String, glossary: [String: String]? = nil) -> WordDefinition? {
         let w = raw.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines
             .union(CharacterSet(charactersIn: "、。「」『』（）！？・…　")))
         guard !w.isEmpty, containsJapanese(w) else { return nil }
@@ -81,8 +115,16 @@ enum WordLookup {
 
     // MARK: - Lemma
 
+    /// One tagger, reused. Building an `NLTagger` is not cheap, and this is on
+    /// the miss path — which the reading view's word search hits dozens of times
+    /// for a single press, since most candidates it tries are not words.
+    /// Guarded by `cacheLock`, as `NLTagger` is not thread-safe.
+    private static let sharedTagger = NLTagger(tagSchemes: [.lemma])
+
     private static func lemma(of word: String) -> String? {
-        let tagger = NLTagger(tagSchemes: [.lemma])
+        cacheLock.lock()
+        defer { cacheLock.unlock() }
+        let tagger = sharedTagger
         tagger.string = word
         var result: String?
         tagger.enumerateTags(in: word.startIndex..<word.endIndex, unit: .word,

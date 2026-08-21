@@ -8,7 +8,7 @@
    "name": "〜いかんによらず / いかんにかかわらず — regardless of / irrespective of",
    "shortDescription": "Highly formal: regardless of what X is or how X turns out — the outcome is fixed and unconditional.",
    "formation": "Noun + いかんによらず / いかんにかかわらず  |  Noun + いかんで (determined by)",
-   "explanation": "いかん (如何) is a formal and literary word asking 'how is it?' or 'what is the nature of it?' — essentially a more official version of どう or どんな. In the pattern いかんによらず or いかんにかかわらず, it yields 'regardless of what X is / regardless of the nature of X.' 理由[りゆう]のいかんによらず、規則[きそく]は守[まも]らなければならない — 'Regardless of the nature of the reason, whatever form it takes, the rules must be observed.' The rule applies no matter what the reason turns out to be.\n\nThe contrasting form いかんで means 'depending on' or 'determined by': 結果[けっか]はあなたの努力[どりょく]いかんで決[き]まる — 'the result will be decided by how much effort you put in.' These patterns are strongly formal — characteristic of legal texts, bureaucratic documents, official regulations, and written policy statements. Outside of formal contexts they sound stiff or bureaucratic.\n\nThe いかん itself preserves a classical question word (如何 — 'how?') that survives in modern Japanese almost exclusively in these highly formal constructions.",
+   "explanation": "いかん (如何[いかん]) is a formal and literary word asking 'how is it?' or 'what is the nature of it?' — essentially a more official version of どう or どんな. In the pattern いかんによらず or いかんにかかわらず, it yields 'regardless of what X is / regardless of the nature of X.' 理由[りゆう]のいかんによらず、規則[きそく]は守[まも]らなければならない — 'Regardless of the nature of the reason, whatever form it takes, the rules must be observed.' The rule applies no matter what the reason turns out to be.\n\nThe contrasting form いかんで means 'depending on' or 'determined by': 結果[けっか]はあなたの努力[どりょく]いかんで決[き]まる — 'the result will be decided by how much effort you put in.' These patterns are strongly formal — characteristic of legal texts, bureaucratic documents, official regulations, and written policy statements. Outside of formal contexts they sound stiff or bureaucratic.\n\nThe いかん itself preserves a classical question word (如何[いかん] — 'how?') that survives in modern Japanese almost exclusively in these highly formal constructions.",
    "rules": [
     "Noun + いかんによらず = regardless of what [noun] is (no matter its nature or form)",
     "Noun + いかんにかかわらず = irrespective of [noun] (same meaning, slightly different nuance)",
@@ -549,13 +549,13 @@
      "prompt": "Which correctly says 'This conference will close as of tonight'?",
      "japanese": null,
      "choices": [
-      "本日夜[ほんじつよる]をもって、この会議[かいぎ]は閉幕[へいまく]いたします。",
-      "本日夜[ほんじつよる]から、この会議[かいぎ]は閉幕[へいまく]いたします。",
-      "本日夜[ほんじつよる]で、この会議[かいぎ]は閉幕[へいまく]いたします。",
-      "本日夜[ほんじつよる]に、この会議[かいぎ]は閉幕[へいまく]いたします。"
+      "今夜[こんや]をもって、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "今夜[こんや]から、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "今夜[こんや]で、この会議[かいぎ]は閉幕[へいまく]いたします。",
+      "今夜[こんや]に、この会議[かいぎ]は閉幕[へいまく]いたします。"
      ],
      "correctIndex": 0,
-     "explanation": "Noun (time) + をもって: 本日夜[ほんじつよる] + をもって = as of tonight. 会議[かいぎ]は閉幕[へいまく]いたします = the conference will close. をもって in formal closing announcement for events/meetings."
+     "explanation": "Noun (time) + をもって: 今夜[こんや] + をもって = as of tonight. 会議[かいぎ]は閉幕[へいまく]いたします = the conference will close. をもって in formal closing announcement for events/meetings."
     },
     {
      "id": "wo-motte_q15",
@@ -703,7 +703,7 @@
      "choices": [
       "開会式[かいかいしき]に先立[さきだ]って、歓迎[かんげい]レセプションが開[ひら]かれた。",
       "開会式[かいかいしき]の前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。",
-      "開会式[かいかいしき]に先立[さきだ]ち、歓迎[かんげい]レセプションが開[ひら]かれた。",
+      "開会式[かいかいしき]に先立[さきだ]てて、歓迎[かんげい]レセプションが開[ひら]かれた。",
       "開会式[かいかいしき]より前[まえ]に、歓迎[かんげい]レセプションが開[ひら]かれた。"
      ],
      "correctIndex": 0,
@@ -717,7 +717,7 @@
      "choices": [
       "実験[じっけん]に先立[さきだ]って、安全確認[あんぜんかくにん]が行[おこな]われた。",
       "実験[じっけん]の前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。",
-      "実験[じっけん]に先立[さきだ]ち、安全確認[あんぜんかくにん]が行[おこな]われた。",
+      "実験[じっけん]に先立[さきだ]てて、安全確認[あんぜんかくにん]が行[おこな]われた。",
       "実験[じっけん]より前[まえ]に、安全確認[あんぜんかくにん]が行[おこな]われた。"
      ],
      "correctIndex": 0,
@@ -731,7 +731,7 @@
      "choices": [
       "発売[はつばい]に先立[さきだ]って、メディアに試写会[ししゃかい]が行[おこな]われた。",
       "発売[はつばい]の前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。",
-      "発売[はつばい]に先立[さきだ]ち、メディアに試写会[ししゃかい]が行[おこな]われた。",
+      "発売[はつばい]に先立[さきだ]てて、メディアに試写会[ししゃかい]が行[おこな]われた。",
       "発売[はつばい]より前[まえ]に、メディアに試写会[ししゃかい]が行[おこな]われた。"
      ],
      "correctIndex": 0,
@@ -759,7 +759,7 @@
      "choices": [
       "合併[がっぺい]に先立[さきだ]って、デューデリジェンスが実施[じっし]された。",
       "合併[がっぺい]の前[まえ]に、デューデリジェンスが実施[じっし]された。",
-      "合併[がっぺい]に先立[さきだ]ち、デューデリジェンスが実施[じっし]された。",
+      "合併[がっぺい]に先立[さきだ]てて、デューデリジェンスが実施[じっし]された。",
       "合併[がっぺい]より前[まえ]に、デューデリジェンスが実施[じっし]された。"
      ],
      "correctIndex": 0,
@@ -773,7 +773,7 @@
      "choices": [
       "会議[かいぎ]に先立[さきだ]って、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
       "会議[かいぎ]の前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
-      "会議[かいぎ]に先立[さきだ]ち、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
+      "会議[かいぎ]に先立[さきだ]てて、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。",
       "会議[かいぎ]より前[まえ]に、参加者全員[さんかしゃぜんいん]が論文[ろんぶん]を提出[ていしゅつ]した。"
      ],
      "correctIndex": 0,
@@ -787,7 +787,7 @@
      "choices": [
       "日本[にほん]を離[はな]れるに先立[さきだ]って、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
       "日本[にほん]を離[はな]れる前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
-      "日本[にほん]を離[はな]れるに先立[さきだ]ち、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
+      "日本[にほん]を離[はな]れるに先立[さきだ]てて、彼[かれ]は両親[りょうしん]を訪[たず]ねた。",
       "日本[にほん]を離[はな]れるより前[まえ]に、彼[かれ]は両親[りょうしん]を訪[たず]ねた。"
      ],
      "correctIndex": 0,
@@ -815,7 +815,7 @@
      "choices": [
       "面接[めんせつ]に先立[さきだ]って、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
       "面接[めんせつ]の前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
-      "面接[めんせつ]に先立[さきだ]ち、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
+      "面接[めんせつ]に先立[さきだ]てて、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。",
       "面接[めんせつ]より前[まえ]に、候補者[こうほしゃ]は十分[じゅうぶん]に準備[じゅんび]した。"
      ],
      "correctIndex": 0,
@@ -829,7 +829,7 @@
      "choices": [
       "打[う]ち上[あ]げに先立[さきだ]って、ロケットが詳細[しょうさい]に点検[てんけん]された。",
       "打[う]ち上[あ]げの前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。",
-      "打[う]ち上[あ]げに先立[さきだ]ち、ロケットが詳細[しょうさい]に点検[てんけん]された。",
+      "打[う]ち上[あ]げに先立[さきだ]てて、ロケットが詳細[しょうさい]に点検[てんけん]された。",
       "打[う]ち上[あ]げより前[まえ]に、ロケットが詳細[しょうさい]に点検[てんけん]された。"
      ],
      "correctIndex": 0,
@@ -843,7 +843,7 @@
      "choices": [
       "工事[こうじ]に先立[さきだ]って、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
       "工事[こうじ]の前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
-      "工事[こうじ]に先立[さきだ]ち、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
+      "工事[こうじ]に先立[さきだ]てて、近隣住民[きんりんじゅうみん]に通知[つうち]された。",
       "工事[こうじ]より前[まえ]に、近隣住民[きんりんじゅうみん]に通知[つうち]された。"
      ],
      "correctIndex": 0,
@@ -871,7 +871,7 @@
      "choices": [
       "発表[はっぴょう]に先立[さきだ]って、記者会見[きしゃかいけん]が開催[かいさい]された。",
       "発表[はっぴょう]の前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。",
-      "発表[はっぴょう]に先立[さきだ]ち、記者会見[きしゃかいけん]が開催[かいさい]された。",
+      "発表[はっぴょう]に先立[さきだ]てて、記者会見[きしゃかいけん]が開催[かいさい]された。",
       "発表[はっぴょう]より前[まえ]に、記者会見[きしゃかいけん]が開催[かいさい]された。"
      ],
      "correctIndex": 0,
@@ -885,7 +885,7 @@
      "choices": [
       "結婚式[けっこんしき]に先立[さきだ]って、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
       "結婚式[けっこんしき]の前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
-      "結婚式[けっこんしき]に先立[さきだ]ち、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
+      "結婚式[けっこんしき]に先立[さきだ]てて、カップルは婚約[こんやく]パーティーを開[ひら]いた。",
       "結婚式[けっこんしき]より前[まえ]に、カップルは婚約[こんやく]パーティーを開[ひら]いた。"
      ],
      "correctIndex": 0,
@@ -897,10 +897,10 @@
      "prompt": "Which correctly says 'Prior to the election, all candidates submitted their manifestos'?",
      "japanese": null,
      "choices": [
-      "選挙[せんきょ]に先立[さきだ]って、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-      "選挙[せんきょ]の前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-      "選挙[せんきょ]に先立[さきだ]ち、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。",
-      "選挙[せんきょ]より前[まえ]に、全候補[ぜんこうほ]者[もの]がマニフェストを提出[ていしゅつ]した。"
+      "選挙[せんきょ]に先立[さきだ]って、全候補者[ぜんこうほしゃ]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]の前[まえ]に、全候補者[ぜんこうほしゃ]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]に先立[さきだ]てて、全候補者[ぜんこうほしゃ]がマニフェストを提出[ていしゅつ]した。",
+      "選挙[せんきょ]より前[まえ]に、全候補者[ぜんこうほしゃ]がマニフェストを提出[ていしゅつ]した。"
      ],
      "correctIndex": 0,
      "explanation": "Noun + に先立[さきだ]って: 選挙[せんきょ] + に先立[さきだ]って = prior to the election. マニフェストを提出[ていしゅつ]した = submitted their manifestos. に先立[さきだ]って in formal electoral procedures."
@@ -927,7 +927,7 @@
      "choices": [
       "討論[とうろん]に先立[さきだ]って、ルールが説明[せつめい]された。",
       "討論[とうろん]の前[まえ]に、ルールが説明[せつめい]された。",
-      "討論[とうろん]に先立[さきだ]ち、ルールが説明[せつめい]された。",
+      "討論[とうろん]に先立[さきだ]てて、ルールが説明[せつめい]された。",
       "討論[とうろん]より前[まえ]に、ルールが説明[せつめい]された。"
      ],
      "correctIndex": 0,
@@ -941,7 +941,7 @@
      "choices": [
       "臨床[りんしょう]試験[しけん]に先立[さきだ]って、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
       "臨床[りんしょう]試験[しけん]の前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
-      "臨床[りんしょう]試験[しけん]に先立[さきだ]ち、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
+      "臨床[りんしょう]試験[しけん]に先立[さきだ]てて、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。",
       "臨床[りんしょう]試験[しけん]より前[まえ]に、薬[くすり]は研究室[けんきゅうしつ]で徹底的[てっていてき]にテストされた。"
      ],
      "correctIndex": 0,
@@ -953,13 +953,13 @@
      "prompt": "Which correctly says 'Prior to the summit, bilateral talks were held'?",
      "japanese": null,
      "choices": [
-      "首脳[しゅのう]会談[かいだん]に先立[さきだ]って、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-      "首脳[しゅのう]会談[かいだん]の前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-      "首脳[しゅのう]会談[かいだん]に先立[さきだ]ち、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。",
-      "首脳[しゅのう]会談[かいだん]より前[まえ]に、二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた。"
+      "首脳[しゅのう]会談[かいだん]に先立[さきだ]って、二国間[にこくかん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]の前[まえ]に、二国間[にこくかん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]に先立[さきだ]てて、二国間[にこくかん]協議[きょうぎ]が行[おこな]われた。",
+      "首脳[しゅのう]会談[かいだん]より前[まえ]に、二国間[にこくかん]協議[きょうぎ]が行[おこな]われた。"
      ],
      "correctIndex": 0,
-     "explanation": "Noun + に先立[さきだ]って: 首脳[しゅのう]会談[かいだん] + に先立[さきだ]って = prior to the summit. 二[に]国[くに]間[かん]協議[きょうぎ]が行[おこな]われた = bilateral talks were held. に先立[さきだ]って in formal diplomatic contexts."
+     "explanation": "Noun + に先立[さきだ]って: 首脳[しゅのう]会談[かいだん] + に先立[さきだ]って = prior to the summit. 二国間[にこくかん]協議[きょうぎ]が行[おこな]われた = bilateral talks were held. に先立[さきだ]って in formal diplomatic contexts."
     }
    ]
   }
@@ -1325,9 +1325,9 @@
   },
   {
    "char": "卑",
-   "word": "卑",
-   "reading": "いやしい",
-   "meaning": "lowly"
+   "word": "卑怯",
+   "reading": "ひきょう",
+   "meaning": "cowardly; unfair"
   },
   {
    "char": "賠",
@@ -1343,9 +1343,9 @@
   },
   {
    "char": "覇",
-   "word": "覇",
-   "reading": "は",
-   "meaning": "supremacy"
+   "word": "制覇",
+   "reading": "せいは",
+   "meaning": "conquest; domination"
   },
   {
    "char": "塊",
@@ -1355,8 +1355,8 @@
   },
   {
    "char": "窟",
-   "word": "窟",
-   "reading": "くつ",
+   "word": "洞窟",
+   "reading": "どうくつ",
    "meaning": "cave"
   },
   {
@@ -1385,15 +1385,15 @@
   },
   {
    "char": "擁",
-   "word": "擁",
-   "reading": "よう",
-   "meaning": "embrace"
+   "word": "擁護",
+   "reading": "ようご",
+   "meaning": "protection; support"
   },
   {
    "char": "凹",
-   "word": "凹",
-   "reading": "おう",
-   "meaning": "concave"
+   "word": "凹む",
+   "reading": "へこむ",
+   "meaning": "to be dented; to be disheartened"
   }
  ],
  "kanjiWords": [
@@ -1452,10 +1452,10 @@
    ]
   },
   {
-   "word": "卑",
-   "kana": "いやしい",
-   "romaji": "iyashii",
-   "meaning": "lowly",
+   "word": "卑怯",
+   "kana": "ひきょう",
+   "romaji": "hikyou",
+   "meaning": "cowardly; unfair",
    "chars": [
     "卑"
    ]
@@ -1481,11 +1481,12 @@
    ]
   },
   {
-   "word": "覇",
-   "kana": "は",
-   "romaji": "ha",
-   "meaning": "supremacy",
+   "word": "制覇",
+   "kana": "せいは",
+   "romaji": "seiha",
+   "meaning": "conquest; domination",
    "chars": [
+    "制",
     "覇"
    ]
   },
@@ -1499,11 +1500,12 @@
    ]
   },
   {
-   "word": "窟",
-   "kana": "くつ",
-   "romaji": "kutsu",
+   "word": "洞窟",
+   "kana": "どうくつ",
+   "romaji": "doukutsu",
    "meaning": "cave",
    "chars": [
+    "洞",
     "窟"
    ]
   },
@@ -1544,19 +1546,19 @@
    ]
   },
   {
-   "word": "擁",
-   "kana": "よう",
-   "romaji": "you",
-   "meaning": "embrace",
+   "word": "擁護",
+   "kana": "ようご",
+   "romaji": "yougo",
+   "meaning": "protection; support",
    "chars": [
     "擁"
    ]
   },
   {
-   "word": "凹",
-   "kana": "おう",
-   "romaji": "ou",
-   "meaning": "concave",
+   "word": "凹む",
+   "kana": "へこむ",
+   "romaji": "hekomu",
+   "meaning": "to be dented; to be disheartened",
    "chars": [
     "凹"
    ]

@@ -5,16 +5,16 @@
  "points": [
   {
    "id": "kata",
-   "name": "〜方[ほう] (かた / kata) — way of doing / how to do",
+   "name": "〜方[かた] (かた / kata) — way of doing / how to do",
    "shortDescription": "Verb stem + 方 = the way of doing X, or how to do X — a highly productive noun-making pattern.",
-   "formation": "Verb stem (ます-stem) + 方",
-   "explanation": "方 (かた) is one of Japanese's most productive suffixes. Attach it to a verb stem (ます-base) and you get a noun meaning 'the way of doing [that verb].' 書[か]き方 (way of writing / how to write), 読[よ]み方 (way of reading / how to read), 使[つか]い方 (way of using / how to use), 考[かんが]え方 (way of thinking), 生[い]き方 (way of living).\n\nBecause the result is a noun, it can be modified and used anywhere a noun fits. The object of the original verb shifts to の: 漢字[かんじ]の書[か]き方 (the way of writing kanji — note: 漢字[かんじ]を → 漢字[かんじ]の). この料理[りょうり]の作[つく]り方 (how to make this dish). このアプリの使[つか]い方 (how to use this app).\n\nA highly practical request pattern: 〜方を教[おし]えてください / 〜方を教[おし]えていただけますか (Please tell me / teach me how to do X). The ability to build any 〜方 noun on the fly means you can ask 'how do I do X?' for virtually any verb the moment you know it.\n\nSome 方-words are so frequent they're essentially vocabulary in their own right: 使[つか]い方 (instructions, how-to), 読[よ]み方 (reading/pronunciation), 作[つく]り方 (recipe, instructions for making), 考[かんが]え方 (way of thinking, mindset). Recognize them when you see them on packaging, apps, and instruction manuals.",
+   "formation": "Verb stem (ます-stem) + 方[かた]",
+   "explanation": "方[かた] (かた) is one of Japanese's most productive suffixes. Attach it to a verb stem (ます-base) and you get a noun meaning 'the way of doing [that verb].' 書[か]き方[かた] (way of writing / how to write), 読[よ]み方[かた] (way of reading / how to read), 使[つか]い方[かた] (way of using / how to use), 考[かんが]え方[かた] (way of thinking), 生[い]き方[かた] (way of living).\n\nBecause the result is a noun, it can be modified and used anywhere a noun fits. The object of the original verb shifts to の: 漢字[かんじ]の書[か]き方[かた] (the way of writing kanji — note: 漢字[かんじ]を → 漢字[かんじ]の). この料理[りょうり]の作[つく]り方[かた] (how to make this dish). このアプリの使[つか]い方[かた] (how to use this app).\n\nA highly practical request pattern: 〜方[かた]を教[おし]えてください / 〜方[かた]を教[おし]えていただけますか (Please tell me / teach me how to do X). The ability to build any 〜方[かた] noun on the fly means you can ask 'how do I do X?' for virtually any verb the moment you know it.\n\nSome 方[かた]-words are so frequent they're essentially vocabulary in their own right: 使[つか]い方[かた] (instructions, how-to), 読[よ]み方[かた] (reading/pronunciation), 作[つく]り方[かた] (recipe, instructions for making), 考[かんが]え方[かた] (way of thinking, mindset). Recognize them when you see them on packaging, apps, and instruction manuals.",
    "rules": [
-    "Verb stem (ます-base) + 方 = the way of doing X / how to do X (creates a noun)",
-    "The verb's original object shifts to の: 漢字[かんじ]を書[か]く → 漢字[かんじ]の書[か]き方",
+    "Verb stem (ます-base) + 方[かた] = the way of doing X / how to do X (creates a noun)",
+    "The verb's original object shifts to の: 漢字[かんじ]を書[か]く → 漢字[かんじ]の書[か]き方[かた]",
     "Very productive — works with almost any verb stem",
-    "Question pattern: 〜方を教[おし]えてください (Please teach me how to do X)",
-    "Frequent set words: 使[つか]い方, 読[よ]み方, 作[つく]り方, 考[かんが]え方, 生[い]き方"
+    "Question pattern: 〜方[かた]を教[おし]えてください (Please teach me how to do X)",
+    "Frequent set words: 使[つか]い方[かた], 読[よ]み方[かた], 作[つく]り方[かた], 考[かんが]え方[かた], 生[い]き方[かた]"
    ],
    "examples": [
     {
@@ -44,35 +44,35 @@
     {
      "id": "kata_q1",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] (kata) form meaning 'how to eat'?",
+     "prompt": "What is the 〜方[かた] (kata) form meaning 'how to eat'?",
      "japanese": null,
      "choices": [
-      "食[た]べる方[ほう]",
+      "食[た]べる方[かた]",
       "食[た]べるかた",
       "食[た]べり方[かた]",
       "食[た]べ方[かた]"
      ],
      "correctIndex": 3,
-     "explanation": "Masu-stem + 方[ほう]. 食[た]べる → masu-stem 食[た]べ + 方[ほう] = 食[た]べ方[かた] (たべかた) = how to eat / the way of eating. 方[ほう] is always written as kanji 方[ほう] or hiragana かた."
+     "explanation": "Masu-stem + 方[かた]. 食[た]べる → masu-stem 食[た]べ + 方[かた] = 食[た]べ方[かた] (たべかた) = how to eat / the way of eating. 方[かた] is always written as kanji 方[かた] or hiragana かた."
     },
     {
      "id": "kata_q2",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form meaning 'how to write'?",
+     "prompt": "What is the 〜方[かた] form meaning 'how to write'?",
      "japanese": null,
      "choices": [
-      "書[か]く方[ほう]",
+      "書[か]く方[かた]",
       "書[か]き方[かた]",
-      "書[か]いた方[ほう]",
-      "書[か]け方[ほう]"
+      "書[か]いた方[かた]",
+      "書[か]け方[かた]"
      ],
      "correctIndex": 1,
-     "explanation": "Masu-stem + 方[ほう]: 書[か]く → masu-stem 書[か]き + 方[ほう] = 書[か]き方[かた] (かきかた) = how to write / the way of writing."
+     "explanation": "Masu-stem + 方[かた]: 書[か]く → masu-stem 書[か]き + 方[かた] = 書[か]き方[かた] (かきかた) = how to write / the way of writing."
     },
     {
      "id": "kata_q3",
      "type": "usage",
-     "prompt": "How do you attach 方[ほう] to する (to do)?",
+     "prompt": "How do you attach 方[かた] to する (to do)?",
      "japanese": null,
      "choices": [
       "するのかた",
@@ -81,7 +81,7 @@
       "したかた"
      ],
      "correctIndex": 1,
-     "explanation": "Irregular する: masu-stem is し. し + 方[ほう] = 仕方[しかた] (しかた) = way of doing / method. 仕方[しかた]がない = there's no way / can't be helped. Also used in: 使[つか]い方[かた]、読[よ]み方[かた], etc."
+     "explanation": "Irregular する: masu-stem is し. し + 方[かた] = 仕方[しかた] (しかた) = way of doing / method. 仕方[しかた]がない = there's no way / can't be helped. Also used in: 使[つか]い方[かた]、読[よ]み方[かた], etc."
     },
     {
      "id": "kata_q4",
@@ -95,21 +95,21 @@
       "この機械[きかい]のかたが分[わ]かりません。"
      ],
      "correctIndex": 0,
-     "explanation": "〜の + 使[つか]い方[かた] = how to use . この機械[きかい]の使[つか]い方[かた] = how to use this machine. 〜方[ほう] is treated as a noun, so the whole phrase is the object of 分[わ]かりません."
+     "explanation": "〜の + 使[つか]い方[かた] = how to use . この機械[きかい]の使[つか]い方[かた] = how to use this machine. 〜方[かた] is treated as a noun, so the whole phrase is the object of 分[わ]かりません."
     },
     {
      "id": "kata_q5",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form of 来[く]る (to come)?",
+     "prompt": "What is the 〜方[かた] form of 来[く]る (to come)?",
      "japanese": null,
      "choices": [
-      "くる方[ほう]",
+      "くる方[かた]",
       "くるかた",
-      "き方[ほう]",
+      "き方[かた]",
       "こかた"
      ],
      "correctIndex": 2,
-     "explanation": "Irregular くる: masu-stem is き. き + 方[ほう] = き方[ほう] = way of coming (though rarely used). More commonly: 来[き]た方[ほう] would be different — for 〜方[ほう], use masu-stem: き + 方[ほう]."
+     "explanation": "Irregular くる: masu-stem is き. き + 方[かた] = き方[かた] = way of coming (though rarely used). More commonly: 来[き]た方[かた] would be different — for 〜方[かた], use masu-stem: き + 方[かた]."
     },
     {
      "id": "kata_q6",
@@ -117,13 +117,13 @@
      "prompt": "What grammar structure describes HOW you do an action (method/manner)?",
      "japanese": null,
      "choices": [
-      "〜方[ほう] (verb-masu-stem + かた)",
+      "〜方[かた] (verb-masu-stem + かた)",
       "〜ために (ため + に)",
       "〜てから (te-form + から)",
       "〜ように (ようになる)"
      ],
      "correctIndex": 0,
-     "explanation": "〜方[ほう] (masu-stem + かた) expresses the WAY or METHOD of doing something. 食[た]べ方[かた] = how to eat / the way you eat. It turns a verb into a noun meaning 'the way/method of -ing'."
+     "explanation": "〜方[かた] (masu-stem + かた) expresses the WAY or METHOD of doing something. 食[た]べ方[かた] = how to eat / the way you eat. It turns a verb into a noun meaning 'the way/method of -ing'."
     },
     {
      "id": "kata_q7",
@@ -137,7 +137,7 @@
       "お箸[はし]の使[つか]ったことを教[おし]えてください。"
      ],
      "correctIndex": 1,
-     "explanation": "〜の + masu-stem + 方[ほう] + を + 教[おし]えてください = please teach me how to . お箸[はし]の使[つか]い方[かた]を教[おし]えてください = please teach me how to use chopsticks."
+     "explanation": "〜の + masu-stem + 方[かた] + を + 教[おし]えてください = please teach me how to . お箸[はし]の使[つか]い方[かた]を教[おし]えてください = please teach me how to use chopsticks."
     },
     {
      "id": "kata_q8",
@@ -151,21 +151,21 @@
       "この漢字[かんじ]を読[よ]み方[かた]は難[むずか]しいです。"
      ],
      "correctIndex": 0,
-     "explanation": "〜の + 読[よ]み方[かた] = the way of reading / how to read . この漢字[かんじ]の読[よ]み方[かた] = how to read this kanji. 〜方[ほう] functions as a noun in the sentence."
+     "explanation": "〜の + 読[よ]み方[かた] = the way of reading / how to read . この漢字[かんじ]の読[よ]み方[かた] = how to read this kanji. 〜方[かた] functions as a noun in the sentence."
     },
     {
      "id": "kata_q9",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form of 作[つく]る (to make)?",
+     "prompt": "What is the 〜方[かた] form of 作[つく]る (to make)?",
      "japanese": null,
      "choices": [
-      "作[つく]る方[ほう]",
+      "作[つく]る方[かた]",
       "作[さく]かた",
       "作[つく]り方[かた]",
-      "作[つく]った方[ほう]"
+      "作[つく]った方[かた]"
      ],
      "correctIndex": 2,
-     "explanation": "Masu-stem + 方[ほう]: 作[つく]る → masu-stem 作[つく]り + 方[ほう] = 作[つく]り方[かた] (つくりかた) = how to make / recipe."
+     "explanation": "Masu-stem + 方[かた]: 作[つく]る → masu-stem 作[つく]り + 方[かた] = 作[つく]り方[かた] (つくりかた) = how to make / recipe."
     },
     {
      "id": "kata_q10",
@@ -179,21 +179,21 @@
       "この言葉[ことば]を言[い]うことが分[わ]かりません。"
      ],
      "correctIndex": 2,
-     "explanation": "言[い]う → 言[い]い (masu-stem) + 方[ほう] = 言[い]い方[かた] = how to say / way of saying. この言葉[ことば]の言[い]い方[かた]が分[わ]かりません = I don't know how to say this word."
+     "explanation": "言[い]う → 言[い]い (masu-stem) + 方[かた] = 言[い]い方[かた] = how to say / way of saying. この言葉[ことば]の言[い]い方[かた]が分[わ]かりません = I don't know how to say this word."
     },
     {
      "id": "kata_q11",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form of 泳[およ]ぐ (to swim)?",
+     "prompt": "What is the 〜方[かた] form of 泳[およ]ぐ (to swim)?",
      "japanese": null,
      "choices": [
-      "泳[およ]ぐ方[ほう]",
+      "泳[およ]ぐ方[かた]",
       "泳[えい]かた",
-      "泳[およ]ぎ方[ほう]",
-      "泳[およ]いだ方[ほう]"
+      "泳[およ]ぎ方[かた]",
+      "泳[およ]いだ方[かた]"
      ],
      "correctIndex": 2,
-     "explanation": "Masu-stem + 方[ほう]: 泳[およ]ぐ → masu-stem 泳[およ]ぎ + 方[ほう] = 泳[およ]ぎ方[ほう] (およぎかた) = how to swim / swimming technique."
+     "explanation": "Masu-stem + 方[かた]: 泳[およ]ぐ → masu-stem 泳[およ]ぎ + 方[かた] = 泳[およ]ぎ方[かた] (およぎかた) = how to swim / swimming technique."
     },
     {
      "id": "kata_q12",
@@ -207,35 +207,35 @@
       "東京駅[とうきょうえき]に行[い]き方[かた]は教[おし]えてください。"
      ],
      "correctIndex": 1,
-     "explanation": "〜への行[い]き方[かた] = directions to / how to get to. 行[い]く → 行[い]き (masu-stem) + 方[ほう]. 東京駅[とうきょうえき]への行[い]き方[かた] = how to get to Tokyo Station."
+     "explanation": "〜への行[い]き方[かた] = directions to / how to get to. 行[い]く → 行[い]き (masu-stem) + 方[かた]. 東京駅[とうきょうえき]への行[い]き方[かた] = how to get to Tokyo Station."
     },
     {
      "id": "kata_q13",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form of 覚[おぼ]える (to memorize)?",
+     "prompt": "What is the 〜方[かた] form of 覚[おぼ]える (to memorize)?",
      "japanese": null,
      "choices": [
       "覚[おぼ]えるかた",
       "覚[おぼ]えかた",
-      "覚[おぼ]え方[ほう]",
+      "覚[おぼ]え方[かた]",
       "覚[おぼ]えたかた"
      ],
      "correctIndex": 2,
-     "explanation": "Group 2 masu-stem: 覚[おぼ]える → 覚[おぼ]え (drop る) + 方[ほう] = 覚[おぼ]え方[ほう] (おぼえかた) = how to memorize / memorization method."
+     "explanation": "Group 2 masu-stem: 覚[おぼ]える → 覚[おぼ]え (drop る) + 方[かた] = 覚[おぼ]え方[かた] (おぼえかた) = how to memorize / memorization method."
     },
     {
      "id": "kata_q14",
      "type": "usage",
-     "prompt": "Which is the CORRECT pattern for 〜方[ほう]?",
+     "prompt": "Which is the CORRECT pattern for 〜方[かた]?",
      "japanese": null,
      "choices": [
-      "Dict-form + 方[ほう]",
-      "Te-form + 方[ほう]",
-      "Masu-stem + 方[ほう]",
-      "Ta-form + 方[ほう]"
+      "Dict-form + 方[かた]",
+      "Te-form + 方[かた]",
+      "Masu-stem + 方[かた]",
+      "Ta-form + 方[かた]"
      ],
      "correctIndex": 2,
-     "explanation": "ALWAYS masu-stem + 方[ほう]. Never dict-form, te-form, or ta-form. 食[た]べ + 方[ほう] = 食[た]べ方[かた] (masu-stem); NOT 食[た]べる方[ほう] or 食[た]べた方[ほう] (which have other meanings)."
+     "explanation": "ALWAYS masu-stem + 方[かた]. Never dict-form, te-form, or ta-form. 食[た]べ + 方[かた] = 食[た]べ方[かた] (masu-stem); NOT 食[た]べる方[かた] or 食[た]べた方[かた] (which have other meanings)."
     },
     {
      "id": "kata_q15",
@@ -249,7 +249,7 @@
       "彼[かれ]に話[はな]し方[かた]は変[へん]です。"
      ],
      "correctIndex": 1,
-     "explanation": "〜の + masu-stem + 方[ほう] = 's way of -ing. 話[はな]す → 話[はな]し (masu-stem) + 方[ほう] = 話[はな]し方[かた]. 彼[かれ]の話[はな]し方[かた] = his way of speaking."
+     "explanation": "〜の + masu-stem + 方[かた] = 's way of -ing. 話[はな]す → 話[はな]し (masu-stem) + 方[かた] = 話[はな]し方[かた]. 彼[かれ]の話[はな]し方[かた] = his way of speaking."
     },
     {
      "id": "kata_q16",
@@ -260,29 +260,29 @@
       "日本料理[にほんりょうり]を作[つく]ることを学[まな]びたいです。",
       "日本料理[にほんりょうり]の作[つく]り方[かた]を学[まな]びたいです。",
       "日本料理[にほんりょうり]の作[つく]るかたを学[まな]びたいです。",
-      "日本料理[にほんりょうり]を作[つく]る方[ほう]を学[まな]びたいです。"
+      "日本料理[にほんりょうり]を作[つく]る方[かた]を学[まな]びたいです。"
      ],
      "correctIndex": 1,
-     "explanation": "作[つく]る → 作[つく]り (masu-stem) + 方[ほう] = 作[つく]り方[かた]. 日本料理[にほんりょうり]の作[つく]り方[かた] = how to cook Japanese food. 学[まな]びたい = want to learn."
+     "explanation": "作[つく]る → 作[つく]り (masu-stem) + 方[かた] = 作[つく]り方[かた]. 日本料理[にほんりょうり]の作[つく]り方[かた] = how to cook Japanese food. 学[まな]びたい = want to learn."
     },
     {
      "id": "kata_q17",
      "type": "construct",
-     "prompt": "What is the 〜方[ほう] form of 遊[あそ]ぶ (to play)?",
+     "prompt": "What is the 〜方[かた] form of 遊[あそ]ぶ (to play)?",
      "japanese": null,
      "choices": [
-      "遊[あそ]ぶ方[ほう]",
-      "遊[あそ]び方[ほう]",
-      "遊[あそ]んだ方[ほう]",
+      "遊[あそ]ぶ方[かた]",
+      "遊[あそ]び方[かた]",
+      "遊[あそ]んだ方[かた]",
       "遊[ゆう]かた"
      ],
      "correctIndex": 1,
-     "explanation": "Masu-stem + 方[ほう]: 遊[あそ]ぶ → masu-stem 遊[あそ]び + 方[ほう] = 遊[あそ]び方[ほう] (あそびかた) = how to play / the rules/way of playing."
+     "explanation": "Masu-stem + 方[かた]: 遊[あそ]ぶ → masu-stem 遊[あそ]び + 方[かた] = 遊[あそ]び方[かた] (あそびかた) = how to play / the rules/way of playing."
     },
     {
      "id": "kata_q18",
      "type": "usage",
-     "prompt": "What is the function of 〜方[ほう] grammatically?",
+     "prompt": "What is the function of 〜方[かた] grammatically?",
      "japanese": null,
      "choices": [
       "It is an adverb modifying the next verb",
@@ -291,7 +291,7 @@
       "It marks the topic of the sentence"
      ],
      "correctIndex": 1,
-     "explanation": "〜方[ほう] converts a verb into a NOUN meaning 'the way/method/how-to of -ing'. As a noun, it can take particles (を, が, は, の), be the topic or object of a sentence, etc."
+     "explanation": "〜方[かた] converts a verb into a NOUN meaning 'the way/method/how-to of -ing'. As a noun, it can take particles (を, が, は, の), be the topic or object of a sentence, etc."
     },
     {
      "id": "kata_q19",
@@ -300,26 +300,26 @@
      "japanese": null,
      "choices": [
       "ネクタイを結[むす]ぶことを教[おそ]わりました。",
-      "ネクタイの結[むす]び方[ほう]を教[おそ]わりました。",
+      "ネクタイの結[むす]び方[かた]を教[おそ]わりました。",
       "ネクタイに結[むす]ぶかたを教[おそ]わりました。",
-      "ネクタイの結[むす]んだ方[ほう]を教[おそ]わりました。"
+      "ネクタイの結[むす]んだ方[かた]を教[おそ]わりました。"
      ],
      "correctIndex": 1,
-     "explanation": "結[むす]ぶ → 結[むす]び (masu-stem) + 方[ほう] = 結[むす]び方[ほう]. ネクタイの結[むす]び方[ほう] = how to tie a necktie. 教[おそ]わりました = was taught / learned from someone."
+     "explanation": "結[むす]ぶ → 結[むす]び (masu-stem) + 方[かた] = 結[むす]び方[かた]. ネクタイの結[むす]び方[かた] = how to tie a necktie. 教[おそ]わりました = was taught / learned from someone."
     },
     {
      "id": "kata_q20",
      "type": "usage",
-     "prompt": "Which 〜方[ほう] phrase correctly means 'how to read kanji'?",
+     "prompt": "Which 〜方[かた] phrase correctly means 'how to read kanji'?",
      "japanese": null,
      "choices": [
-      "漢字[かんじ]の読[よ]む方[ほう]",
+      "漢字[かんじ]の読[よ]む方[かた]",
       "漢字[かんじ]を読[よ]み方[かた]",
       "漢字[かんじ]の読[よ]み方[かた]",
-      "漢字[かんじ]に読[よ]んだ方[ほう]"
+      "漢字[かんじ]に読[よ]んだ方[かた]"
      ],
      "correctIndex": 2,
-     "explanation": "〜の + 読[よ]み方[かた]: 読[よ]む → 読[よ]み (masu-stem) + 方[ほう] = 読[よ]み方[かた]. 漢字[かんじ]の読[よ]み方[かた] = the reading of kanji / how to read kanji. の connects the noun (漢字[かんじ]) to the 方[ほう] phrase."
+     "explanation": "〜の + 読[よ]み方[かた]: 読[よ]む → 読[よ]み (masu-stem) + 方[かた] = 読[よ]み方[かた]. 漢字[かんじ]の読[よ]み方[かた] = the reading of kanji / how to read kanji. の connects the noun (漢字[かんじ]) to the 方[かた] phrase."
     }
    ]
   },
@@ -328,7 +328,7 @@
    "name": "〜ことができる — can do (formal potential)",
    "shortDescription": "A formal alternative to the potential form — 'can do X' using こと as a nominalizer.",
    "formation": "Verb (plain form / dictionary form) + ことができます",
-   "explanation": "ことができる is your formal, written-style way to say 'can do' — functionally identical to the potential form (〜れる/〜られる) that you learned in Chapter 13, but sitting in a more elevated register.\n\n日本語[にほんご]が話[はな]せます and 日本語[にほんご]を話[はな]すことができます both mean 'I can speak Japanese.' In daily conversation, the potential form (話[はな]せます) sounds more natural. On application forms, official documents, and formal announcements, ことができます is more at home.\n\nFormation: plain form of the verb (dictionary form) + ことができます. The verb does not change for politeness — it stays in plain form before こと. Negative: plain form + ことができません.\n\nOne practical advantage over the pure potential form: ことができる works smoothly with longer verb phrases and complex expressions where building a potential form is awkward. 田中[たなか]さんに会[あ]うことができました (I was able to meet Tanaka-san) — clear and natural. The ことができる structure scales up gracefully.\n\nPast ability: verb + ことができました (I was able to do X). Often used to express a one-time achievement: やっとピアノを弾[ひ]くことができました (I was finally able to play the piano).",
+   "explanation": "ことができる is your formal, written-style way to say 'can do' — functionally identical to the potential form (〜れる/〜られる) that you learned in Chapter 15, but sitting in a more elevated register.\n\n日本語[にほんご]が話[はな]せます and 日本語[にほんご]を話[はな]すことができます both mean 'I can speak Japanese.' In daily conversation, the potential form (話[はな]せます) sounds more natural. On application forms, official documents, and formal announcements, ことができます is more at home.\n\nFormation: plain form of the verb (dictionary form) + ことができます. The verb does not change for politeness — it stays in plain form before こと. Negative: plain form + ことができません.\n\nOne practical advantage over the pure potential form: ことができる works smoothly with longer verb phrases and complex expressions where building a potential form is awkward. 田中[たなか]さんに会[あ]うことができました (I was able to meet Tanaka-san) — clear and natural. The ことができる structure scales up gracefully.\n\nPast ability: verb + ことができました (I was able to do X). Often used to express a one-time achievement: やっとピアノを弾[ひ]くことができました (I was finally able to play the piano).",
    "rules": [
     "Plain form (dictionary form) + ことができます = can do / is able to do (formal potential)",
     "Negative: plain form + ことができません = cannot do",
@@ -619,13 +619,13 @@
      "prompt": "Which correctly says 'Can you show me how to do this'?",
      "japanese": null,
      "choices": [
-      "これをするやり方[ほう]を見[み]せることができますか？",
+      "これをするやり方[かた]を見[み]せることができますか？",
       "これをすることができますか、見[み]せてください。",
-      "これのやり方[ほう]を見[み]せることができますか？",
+      "これのやり方[かた]を見[み]せることができますか？",
       "これをすることを見[み]せてください。"
      ],
      "correctIndex": 2,
-     "explanation": "これのやり方[ほう]を見[み]せることができますか = can you show me how to do this? 方[ほう] = method + 見[み]せる + ことができますか = are you able to show."
+     "explanation": "これのやり方[かた]を見[み]せることができますか = can you show me how to do this? 方[かた] = method + 見[み]せる + ことができますか = are you able to show."
     },
     {
      "id": "koto-ga-dekiru_q20",
@@ -1302,9 +1302,9 @@
   },
   {
    "char": "料",
-   "word": "料",
-   "reading": "りょう",
-   "meaning": "fee"
+   "word": "料理",
+   "reading": "りょうり",
+   "meaning": "cooking; dish"
   },
   {
    "char": "切",
@@ -1326,9 +1326,9 @@
   },
   {
    "char": "屋",
-   "word": "屋",
-   "reading": "や",
-   "meaning": "roof"
+   "word": "部屋",
+   "reading": "へや",
+   "meaning": "room"
   },
   {
    "char": "飲",
@@ -1363,12 +1363,13 @@
    ]
   },
   {
-   "word": "料",
-   "kana": "りょう",
-   "romaji": "ryou",
-   "meaning": "fee",
+   "word": "料理",
+   "kana": "りょうり",
+   "romaji": "ryouri",
+   "meaning": "cooking; dish",
    "chars": [
-    "料"
+    "料",
+    "理"
    ]
   },
   {
@@ -1399,11 +1400,12 @@
    ]
   },
   {
-   "word": "屋",
-   "kana": "や",
-   "romaji": "ya",
-   "meaning": "roof",
+   "word": "部屋",
+   "kana": "へや",
+   "romaji": "heya",
+   "meaning": "room",
    "chars": [
+    "部",
     "屋"
    ]
   },

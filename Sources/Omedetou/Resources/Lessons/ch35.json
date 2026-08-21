@@ -328,12 +328,12 @@
    "name": "〜わけだ (wake da) — that explains it / no wonder / so naturally",
    "shortDescription": "Signals that a logical conclusion naturally follows — 'no wonder / that makes sense / of course it does'.",
    "formation": "Plain form + わけだ / わけです",
-   "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時間[さんじかん]練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 28), and わけにはいかない (moral/social impossibility — Chapter 33). Context and verb choice make the differences clear.",
+   "explanation": "わけだ is the grammar of the satisfied 'aha.' It marks a conclusion as naturally and logically flowing from the available information — 'no wonder,' 'that explains it,' 'so of course.' 彼[かれ]が疲[つか]れているわけだ: you just learned he hasn't had a vacation in ten years. That information completes a picture — of course he's exhausted. わけだ says: this makes perfect sense now.\n\nThe pattern works in two directions. First, discovering information that explains something previously puzzling: ああ、そういうわけか — 'Ah, so that's why!' — one of the most satisfying utterances in Japanese. Second, drawing a logical deduction from stated facts: 毎日[まいにち]三時間[さんじかん]練習[れんしゅう]しているわけだから、上手[じょうず]になるのも当然[とうぜん]だ (if you practice three hours a day, of course you improve).\n\nThree わけ patterns are worth keeping straight: わけだ (logical/natural conclusion — this chapter), わけではない (partial denial — Chapter 30), and わけにはいかない (moral/social impossibility — Chapter 35). Context and verb choice make the differences clear.",
    "rules": [
     "Plain form + わけだ = that explains it / no wonder / naturally follows (logical conclusion)",
     "Used when new information makes a previously puzzling thing make sense",
     "Can state a logical deduction: if A is true → it follows (わけだ) that B is true",
-    "Contrast: わけではない (partial denial — Ch. 28); わけにはいかない (impossible due to circumstances — Ch. 33)",
+    "Contrast: わけではない (partial denial — Ch. 30); わけにはいかない (impossible due to circumstances — Ch. 35)",
     "わけか expresses a new realization: ああ、そういうわけか (Ah, so that's why!)"
    ],
    "examples": [
@@ -619,13 +619,13 @@
      "prompt": "Which means 'No wonder they couldn't finish — there were only 2 people'?",
      "japanese": null,
      "choices": [
-      "2人[にん]しかいなかったから、終[お]わらなかったわけだ。",
-      "2人[にん]しかいなかったから、終[お]わらなかったはずだ。",
-      "2人[にん]しかいなかったから、終[お]わらなかったのだ。",
-      "2人[にん]しかいなかったから、終[お]わらなかったにちがいない。"
+      "二人[ふたり]しかいなかったから、終[お]わらなかったわけだ。",
+      "二人[ふたり]しかいなかったから、終[お]わらなかったはずだ。",
+      "二人[ふたり]しかいなかったから、終[お]わらなかったのだ。",
+      "二人[ふたり]しかいなかったから、終[お]わらなかったにちがいない。"
      ],
      "correctIndex": 0,
-     "explanation": "〜から〜わけだ: 2人[にん]しかいなかった (only 2 people) + から + 終[お]わらなかったわけだ = no wonder they couldn't finish. The insufficient number of people naturally explains the failure to complete."
+     "explanation": "〜から〜わけだ: 二人[ふたり]しかいなかった (only 2 people) + から + 終[お]わらなかったわけだ = no wonder they couldn't finish. The insufficient number of people naturally explains the failure to complete."
     },
     {
      "id": "wake-da_q20",
@@ -1309,7 +1309,7 @@
    "char": "和",
    "word": "和",
    "reading": "わ",
-   "meaning": "sum"
+   "meaning": "harmony; peace; sum; Japan(ese)"
   },
   {
    "char": "記",
@@ -1349,9 +1349,9 @@
   },
   {
    "char": "談",
-   "word": "談",
-   "reading": "だん",
-   "meaning": "discuss"
+   "word": "相談",
+   "reading": "そうだん",
+   "meaning": "consultation"
   },
   {
    "char": "格",
@@ -1373,9 +1373,9 @@
   },
   {
    "char": "規",
-   "word": "規",
-   "reading": "き",
-   "meaning": "standard"
+   "word": "規則",
+   "reading": "きそく",
+   "meaning": "rule; regulation"
   },
   {
    "char": "備",
@@ -1427,9 +1427,9 @@
   },
   {
    "char": "積",
-   "word": "積",
-   "reading": "せき",
-   "meaning": "product"
+   "word": "面積",
+   "reading": "めんせき",
+   "meaning": "area (of a surface)"
   },
   {
    "char": "捕",
@@ -1493,15 +1493,15 @@
   },
   {
    "char": "緒",
-   "word": "緒",
-   "reading": "お",
-   "meaning": "cord"
+   "word": "一緒",
+   "reading": "いっしょ",
+   "meaning": "together"
   },
   {
    "char": "暗",
-   "word": "暗",
-   "reading": "くら",
-   "meaning": "darkness"
+   "word": "暗い",
+   "reading": "くらい",
+   "meaning": "dark"
   },
   {
    "char": "娘",
@@ -1560,7 +1560,7 @@
    "word": "和",
    "kana": "わ",
    "romaji": "wa",
-   "meaning": "sum",
+   "meaning": "harmony; peace; sum; Japan(ese)",
    "chars": [
     "和"
    ]
@@ -1623,11 +1623,12 @@
    ]
   },
   {
-   "word": "談",
-   "kana": "だん",
-   "romaji": "dan",
-   "meaning": "discuss",
+   "word": "相談",
+   "kana": "そうだん",
+   "romaji": "soudan",
+   "meaning": "consultation",
    "chars": [
+    "相",
     "談"
    ]
   },
@@ -1660,12 +1661,13 @@
    ]
   },
   {
-   "word": "規",
-   "kana": "き",
-   "romaji": "ki",
-   "meaning": "standard",
+   "word": "規則",
+   "kana": "きそく",
+   "romaji": "kisoku",
+   "meaning": "rule; regulation",
    "chars": [
-    "規"
+    "規",
+    "則"
    ]
   },
   {
@@ -1742,11 +1744,12 @@
    ]
   },
   {
-   "word": "積",
-   "kana": "せき",
-   "romaji": "seki",
-   "meaning": "product",
+   "word": "面積",
+   "kana": "めんせき",
+   "romaji": "menseki",
+   "meaning": "area (of a surface)",
    "chars": [
+    "面",
     "積"
    ]
   },
@@ -1841,19 +1844,20 @@
    ]
   },
   {
-   "word": "緒",
-   "kana": "お",
-   "romaji": "o",
-   "meaning": "cord",
+   "word": "一緒",
+   "kana": "いっしょ",
+   "romaji": "issho",
+   "meaning": "together",
    "chars": [
+    "一",
     "緒"
    ]
   },
   {
-   "word": "暗",
-   "kana": "くら",
-   "romaji": "kura",
-   "meaning": "darkness",
+   "word": "暗い",
+   "kana": "くらい",
+   "romaji": "kurai",
+   "meaning": "dark",
    "chars": [
     "暗"
    ]

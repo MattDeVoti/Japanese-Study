@@ -338,6 +338,7 @@ extension LinearGradient {
         return LinearGradient(colors: [n.lightened(0.05), n.darkened(0.10)],
                               startPoint: .top, endPoint: .bottom)
     }
+
 }
 
 // MARK: - Card surface modifier
@@ -386,11 +387,22 @@ struct StandardNavBar: ViewModifier {
             // cuts the speech rather than leaving a voice reading a page that is no
             // longer on screen.
             .onDisappear { SpeechService.shared.stop() }
+            // The app's navigation cue, in the one place every pushed screen
+            // passes through. Hooking the *arrival* rather than each button is
+            // what makes it universal: there are fifty-odd navigation links in
+            // the app and this covers all of them, including the ones added
+            // next month. The root screen doesn't wear this modifier, so
+            // launching the app stays silent.
+            .onAppear { FeedbackSounds.shared.playNavigate() }
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarBackButtonHidden(true)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
+                        // Going back is navigating too, and popping doesn't
+                        // re-run the destination's onAppear, so the cue has to
+                        // come from the button itself.
+                        FeedbackSounds.shared.playNavigate()
                         dismiss()
                     } label: {
                         HStack(spacing: 4) {
@@ -454,6 +466,54 @@ extension View {
     func withOptions(filter: StudyFilter, store: CardStore, section: CardStore.CardSection, label: String = "") -> some View {
         modifier(OptionsButton(filter: filter, store: store, section: section))
     }
+}
+
+// MARK: - Lesson typography
+//
+// One scale for everything inside a grammar point, so the parts of a lesson read
+// as a single designed page rather than as body text at whatever size each call
+// site happened to pick.
+//
+// Three things do the work, and they matter in this order:
+//
+//   1. **Leading.** The old cards set none at all, which is what made them read
+//      as undifferentiated body text — and worse, a furigana annotation is drawn
+//      up into the line above it, so ruby on a wrapped paragraph collided with
+//      the previous line. Air between lines is the single biggest gain in both
+//      readability and modernity, and it is free.
+//   2. **Contrast between levels.** Title, eyebrow label and body were within a
+//      few points of each other. Pushing them apart lets the eye skim.
+//   3. **Size.** Slightly larger prose, which is what was asked for, and which
+//      only works once the leading is there to carry it.
+//
+// Colour is deliberately barely touched: `.appText` is already a near-black
+// (0.11 white) rather than a harsh pure black, and it is theme-derived.
+enum LessonType {
+    /// The point's own name, at the top of the card. Rendered through
+    /// `FuriganaText`, which is a CoreText view — so no SwiftUI `.tracking()`
+    /// here; size and weight do the work.
+    static let titleSize: CGFloat = 20.5
+
+    /// The one-line summary under the title.
+    static let subtitleSize: CGFloat = 15
+
+    /// Prose: explanations, and anything else the learner reads a paragraph of.
+    static let bodySize: CGFloat = 16.5
+    /// Multiple of the font size added between lines. ~1.4 line height overall.
+    static let bodyLeading: CGFloat = 0.42
+
+    /// Rules and example glosses — a step down from prose, still comfortable.
+    static let detailSize: CGFloat = 15.5
+    static let detailLeading: CGFloat = 0.34
+
+    /// The Formation chip, which is a specimen rather than prose.
+    static let formationSize: CGFloat = 16.5
+
+    /// Section eyebrows ("Explanation", "Key Rules"). Small, letterspaced and
+    /// tinted rather than large and black — that is what makes them read as
+    /// labels instead of competing with the prose underneath.
+    static let labelSize: CGFloat = 11.5
+    static let labelTracking: CGFloat = 0.8
 }
 
 // MARK: - Design system: headings & tiles
@@ -616,22 +676,39 @@ struct AestheticTile: View {
 
     private var isBar: Bool { wide ?? (aspect == nil) }
 
+    /// Optional depth layer drawn inside the tile, under everything else.
+    /// The textbook passes its falling characters here.
+    var backdrop: AnyView? = nil
+
     var body: some View {
         ZStack {
+            // A pale card carrying a wash of the tile's colour, rather than a
+            // saturated fill. The colour still identifies the tile — it just
+            // does it through the wash, the border and the watermark instead of
+            // by flooding the whole surface, which leaves room for artwork and
+            // lets the label be real text rather than white-on-anything.
             RoundedRectangle(cornerRadius: 22, style: .continuous)
-                .fill(color.badgeGradient)
+                .fill(Color.appSurface)
+            RoundedRectangle(cornerRadius: 22, style: .continuous)
+                .fill(color.opacity(0.14))
 
-            // Texture sits over the gradient but under everything else, so it
-            // reads as a surface rather than as decoration.
-            TileTexture(seed: title)
+            if let backdrop { backdrop }
+
+            // Inked in the accent now: white texture is invisible on a pale card.
+            TileTexture(seed: title, opacity: 0.05, ink: color)
 
             if isBar { barContent } else { squareContent }
 
-            // Soft highlight sweep across the top-left
-            RoundedRectangle(cornerRadius: 22, style: .continuous)
-                .fill(LinearGradient(colors: [.white.opacity(0.18), .clear],
-                                     startPoint: .topLeading, endPoint: .center))
+            // Only the square needs a scrim: its label sits directly over the
+            // big watermark, where the bar's sits well clear of it.
+            if !isBar {
+                LinearGradient(stops: [
+                    .init(color: .clear, location: 0.55),
+                    .init(color: Color.appSurface.opacity(0.50), location: 0.88),
+                    .init(color: Color.appSurface.opacity(0.68), location: 1),
+                ], startPoint: .top, endPoint: .bottom)
                 .allowsHitTesting(false)
+            }
 
             if isBar { barLabels } else { squareLabels }
         }
@@ -639,9 +716,9 @@ struct AestheticTile: View {
         .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
         .overlay(
             RoundedRectangle(cornerRadius: 22, style: .continuous)
-                .strokeBorder(.white.opacity(0.18), lineWidth: 1)
+                .strokeBorder(color.opacity(0.45), lineWidth: 1)
         )
-        .shadow(color: color.opacity(0.38), radius: 10, x: 0, y: 5)
+        .shadow(color: color.opacity(0.22), radius: 8, x: 0, y: 4)
     }
 
     // MARK: - Square
@@ -651,14 +728,14 @@ struct AestheticTile: View {
             if let glyph {
                 Text(glyph)
                     .font(.system(size: 92, weight: .black))
-                    .foregroundColor(.white.opacity(0.18))
+                    .foregroundColor(color.opacity(0.42))
                     .offset(x: 12, y: 14)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
             }
             if let secondaryGlyph {
                 Text(secondaryGlyph)
                     .font(.system(size: 46, weight: .black))
-                    .foregroundColor(.white.opacity(0.20))
+                    .foregroundColor(color.opacity(0.34))
                     .offset(x: -14, y: 10)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topTrailing)
             }
@@ -672,21 +749,21 @@ struct AestheticTile: View {
                     .font(.system(size: 15, weight: .bold))
                     .foregroundColor(.white)
                     .frame(width: 32, height: 32)
-                    .background(Circle().fill(.white.opacity(0.22)))
+                    .background(Circle().fill(color.badgeGradient))
             }
 
             Spacer(minLength: 6)
 
             Text(title)
                 .font(.system(size: titleSize, weight: .bold))
-                .foregroundColor(.white)
+                .foregroundColor(.appText)
                 .lineLimit(2)
                 .minimumScaleFactor(0.65)
                 .multilineTextAlignment(.leading)
             if let subtitle {
                 Text(subtitle)
                     .font(.system(size: 11, weight: .medium))
-                    .foregroundColor(.white.opacity(0.85))
+                    .foregroundColor(.appTextSecondary)
                     .lineLimit(2)
                     .multilineTextAlignment(.leading)
                     .fixedSize(horizontal: false, vertical: true)
@@ -711,12 +788,12 @@ struct AestheticTile: View {
             if let secondaryGlyph {
                 Text(secondaryGlyph)
                     .font(.system(size: 30, weight: .black))
-                    .foregroundColor(.white.opacity(0.15))
+                    .foregroundColor(color.opacity(0.34))
             }
             if let glyph {
                 Text(glyph)
                     .font(.system(size: 66, weight: .black))
-                    .foregroundColor(.white.opacity(0.17))
+                    .foregroundColor(color.opacity(0.40))
             }
         }
         .padding(.trailing, 20)
@@ -730,18 +807,18 @@ struct AestheticTile: View {
                     .font(.system(size: 16, weight: .bold))
                     .foregroundColor(.white)
                     .frame(width: 38, height: 38)
-                    .background(Circle().fill(.white.opacity(0.22)))
+                    .background(Circle().fill(color.badgeGradient))
             }
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
                     .font(.system(size: titleSize, weight: .bold))
-                    .foregroundColor(.white)
+                    .foregroundColor(.appText)
                     .lineLimit(1)
                     .minimumScaleFactor(0.6)
                 if let subtitle {
                     Text(subtitle)
                         .font(.system(size: 12, weight: .medium))
-                        .foregroundColor(.white.opacity(0.85))
+                        .foregroundColor(.appTextSecondary)
                         .lineLimit(1)
                 }
             }
@@ -762,6 +839,9 @@ struct TileTexture: View {
     let seed: String
     /// Dialled down on darker or smaller surfaces so it stays a suggestion.
     var opacity: Double = 0.06
+    /// White reads as a sheen on a saturated fill, but vanishes on a pale one.
+    /// Surfaces that are mostly background pass their accent instead.
+    var ink: Color = .white
     /// Cell size multiplier. A small control needs a finer weave — at full scale a
     /// 50pt circle only fits two arcs, which reads as stray marks, not a pattern.
     var scale: CGFloat = 1
@@ -777,7 +857,7 @@ struct TileTexture: View {
 
     var body: some View {
         Canvas { ctx, size in
-            let ink = GraphicsContext.Shading.color(.white.opacity(opacity))
+            let ink = GraphicsContext.Shading.color(self.ink.opacity(opacity))
             switch motif {
             case .seigaiha: drawSeigaiha(&ctx, size, ink, scale)
             case .asanoha:  drawAsanoha(&ctx, size, ink, scale)
@@ -1106,7 +1186,10 @@ struct PatternedBackground: View {
 
     /// The glyph's outline as a Path, centred on the origin. CoreText hands back
     /// y-up curves, so they're flipped to match SwiftUI's y-down space.
-    private static func outlinePath(_ ch: String, size: CGFloat) -> Path {
+    /// Internal rather than private: the falling-kana field caches the same
+    /// outlines, and re-shaping text every frame is the one thing that makes a
+    /// continuous Canvas effect expensive.
+    static func outlinePath(_ ch: String, size: CGFloat) -> Path {
         let font = UIFont.systemFont(ofSize: size, weight: .bold)
         let attributed = NSAttributedString(string: ch, attributes: [.font: font])
         let line = CTLineCreateWithAttributedString(attributed)
@@ -1144,12 +1227,26 @@ struct PatternedBackground: View {
     var preview: AppTheme?
     /// Shrinks the motif so it still reads at swatch size.
     var motifScale: CGFloat
+    /// Rolls a slow swell of light through the stencil letters. Opt-in, and
+    /// only the home screen asks for it: the theme picker draws twenty of these
+    /// at swatch size, and animating all of them to decorate a settings list
+    /// would cost far more than it is worth.
+    var glow: Bool = false
+    /// Lights individual cells of the dictionary's grid, one at a time, in no
+    /// particular order. Opt-in for the same reason `glow` is: the theme picker
+    /// draws this pattern at swatch size twenty times over.
+    var glowCells: Bool = false
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     @EnvironmentObject private var themeManager: ThemeManager
 
-    init(_ page: PagePattern, preview: AppTheme? = nil, motifScale: CGFloat = 1) {
+    init(_ page: PagePattern, preview: AppTheme? = nil, motifScale: CGFloat = 1,
+         glow: Bool = false, glowCells: Bool = false) {
         self.page = page
         self.preview = preview
+        self.glow = glow
+        self.glowCells = glowCells
         self.motifScale = motifScale
     }
 
@@ -1172,7 +1269,13 @@ struct PatternedBackground: View {
 
             Canvas { ctx, size in
                 switch page {
-                case .home:       drawStencilSheet(ctx, size, ink, onDark)
+                // Where the wave is running, the letters are drawn *only* by the
+                // swell — nothing is laid down here at all, so between passes
+                // the page is bare and the wave is the only thing that reveals
+                // them. Without the wave (Reduce Motion, or any page that
+                // didn't ask for it) they stay at full strength, because a
+                // backdrop nothing ever lights is just a blank page.
+                case .home:       if !glowing { drawStencilSheet(ctx, size, ink, onDark) }
                 case .study:      drawSeigaiha(ctx, size, strong, faint)
                 case .textbook:   drawWaveRules(ctx, size, strong, faint)
                 case .dictionary: drawPracticeGrid(ctx, size, strong, faint)
@@ -1181,6 +1284,75 @@ struct PatternedBackground: View {
             }
             .modifier(FullBleed(active: preview == nil))
             .allowsHitTesting(false)
+
+            // The grid again, brighter, showing only through the lit cells.
+            if cellsGlowing {
+                Canvas { ctx, size in
+                    // A wash inside the cell as well as heavier lines: brighter
+                    // strokes alone read as a slightly bolder grid, not as a
+                    // square that has lit up.
+                    drawCellWash(ctx, size, ink.opacity(onDark ? 0.30 : 0.20))
+                    drawPracticeGrid(ctx, size,
+                                     ink.opacity(min(0.75, (onDark ? 0.55 : 0.42) * w)),
+                                     ink.opacity(min(0.60, (onDark ? 0.40 : 0.30) * w)))
+                }
+                .modifier(FullBleed(active: preview == nil))
+                .mask(GridCellGlowMask())
+                .allowsHitTesting(false)
+            }
+
+            // The same sheet again, heavier, showing only where the swell is.
+            if glowing {
+                Canvas { ctx, size in
+                    drawStencilSheet(ctx, size, ink, onDark, alphaScale: 1.5)
+                }
+                .modifier(FullBleed(active: preview == nil))
+                .mask(rollingBand)
+                .allowsHitTesting(false)
+            }
+        }
+    }
+
+    private var glowing: Bool { glow && page == .home && !reduceMotion }
+    private var cellsGlowing: Bool { glowCells && page == .dictionary && !reduceMotion }
+
+    /// Seconds from one pass to the next.
+    private static let wavePeriod: Double = 7
+
+    /// One soft swell of light travelling down the sheet.
+    ///
+    /// The band starts entirely above the screen and finishes entirely below
+    /// it, so the only moment it can wrap is a moment when none of it is on
+    /// screen. That is the whole reason it's built this way: an earlier version
+    /// tiled two swells and slid them by exactly one period, which is seamless
+    /// on paper but put the wrap in the middle of the visible area, where any
+    /// drift in the arithmetic showed up as a jump halfway down the page.
+    /// Here the wrap is invisible because there is nothing to see, whatever the
+    /// screen size.
+    ///
+    /// Only this mask moves. The lit sheet underneath is rasterised once and
+    /// never redrawn — it is twenty-four rows of separately transformed glyphs,
+    /// and redrawing that every frame on the screen the app opens to would cost
+    /// far more than the effect is worth.
+    private var rollingBand: some View {
+        GeometryReader { geo in
+            let h = max(geo.size.height, 1)
+            let swell = h * 0.75                      // how tall the lit band is
+            let travel = h + swell * 2 + h * 0.45     // off the top, off the bottom, then a rest
+            // 20fps. Kept smoother than the textbook's characters on purpose:
+            // this is one large soft gradient, and stepping it reads as a
+            // glitch rather than as a style. The swell crosses the screen over several seconds, so the
+            // frames between are redundant.
+            TimelineView(.animation(minimumInterval: 1.0 / 20.0)) { tl in
+                let phase = (tl.date.timeIntervalSinceReferenceDate / Self.wavePeriod)
+                    .truncatingRemainder(dividingBy: 1)
+                Rectangle()
+                    .fill(LinearGradient(colors: [.clear, .white, .clear],
+                                         startPoint: .top, endPoint: .bottom))
+                    .frame(height: swell)
+                    .offset(y: -swell + CGFloat(phase) * travel)
+                    .frame(width: geo.size.width, height: h, alignment: .top)
+            }
         }
     }
 
@@ -1190,8 +1362,13 @@ struct PatternedBackground: View {
     /// leans away from you: rows bunch together and shrink toward the top, and
     /// open out toward the bottom, so the near edge reads as closer. The whole
     /// sheet is skewed a few degrees off square.
+    /// `alphaScale` above 1 draws the identical sheet heavier — the glow pass.
+    /// The glyph layout comes from a seed fixed inside this function, so both
+    /// passes lay down exactly the same characters in exactly the same places
+    /// and the bright copy registers on the plain one.
     private func drawStencilSheet(_ ctx: GraphicsContext, _ size: CGSize,
-                                  _ ink: Color, _ onDark: Bool) {
+                                  _ ink: Color, _ onDark: Bool,
+                                  alphaScale: Double = 1) {
         let rows = motifScale < 1 ? 11 : 24
         var seed: UInt64 = 0xA24BAED4963EE407
         func next() -> Double {
@@ -1218,7 +1395,8 @@ struct PatternedBackground: View {
                 // stroke itself, which sits half outside the outline's bounds.
                 let gap = glyph * 0.15 + 3.0 * k
                 // Nearer rows sit a touch heavier, as if better lit.
-                let alpha = (onDark ? 0.085 : 0.062) + depth * (onDark ? 0.105 : 0.078)
+                let alpha = ((onDark ? 0.085 : 0.062)
+                             + depth * (onDark ? 0.105 : 0.078)) * alphaScale
 
                 // Compose the row from real ink widths rather than a fixed pitch,
                 // so every pair ends up with the same visual space between them.
@@ -1256,6 +1434,23 @@ struct PatternedBackground: View {
     /// 漢字練習帳 — the squared practice paper kanji is drilled on, cross-hair
     /// guides and all. Now the Dictionary's page: looking a word up and writing
     /// it out are two halves of the same habit.
+    /// Solid cells for the glow pass to light. Same geometry as the grid, so a
+    /// lit square sits exactly on a drawn one.
+    private func drawCellWash(_ ctx: GraphicsContext, _ size: CGSize, _ fill: Color) {
+        let cell: CGFloat = 46, inset: CGFloat = 4
+        var y = -cell
+        while y < size.height + cell {
+            var x = -cell
+            while x < size.width + cell {
+                let r = CGRect(x: x + inset, y: y + inset,
+                               width: cell - inset * 2, height: cell - inset * 2)
+                ctx.fill(Path(roundedRect: r, cornerRadius: 3), with: .color(fill))
+                x += cell
+            }
+            y += cell
+        }
+    }
+
     private func drawPracticeGrid(_ ctx: GraphicsContext, _ size: CGSize,
                                   _ box: Color, _ guideColor: Color) {
         let cell: CGFloat = 46, inset: CGFloat = 4

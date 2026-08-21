@@ -729,13 +729,13 @@
      "prompt": "Which means 'Every time I eat spicy food, my stomach hurts'?",
      "japanese": null,
      "choices": [
-      "辛[つら]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります。",
-      "辛[つら]いものを食[た]べるごとに、お腹[なか]が痛[いた]くなります。",
-      "辛[つら]いものを食[た]べるたびで、お腹[なか]が痛[いた]くなります。",
-      "辛[つら]いものを食[た]べたたびに、お腹[なか]が痛[いた]くなります。"
+      "辛[から]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります。",
+      "辛[から]いものを食[た]べるごとに、お腹[なか]が痛[いた]くなります。",
+      "辛[から]いものを食[た]べるたびで、お腹[なか]が痛[いた]くなります。",
+      "辛[から]いものを食[た]べたたびに、お腹[なか]が痛[いた]くなります。"
      ],
      "correctIndex": 0,
-     "explanation": "Dict-form + たびに: 食[た]べる + たびに = every time  eat. 辛[つら]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります = every time I eat spicy food, my stomach hurts."
+     "explanation": "Dict-form + たびに: 食[た]べる + たびに = every time  eat. 辛[から]いものを食[た]べるたびに、お腹[なか]が痛[いた]くなります = every time I eat spicy food, my stomach hurts."
     },
     {
      "id": "tabi-ni_q5",
@@ -1319,8 +1319,8 @@
   },
   {
    "char": "古",
-   "word": "古",
-   "reading": "ふる",
+   "word": "古い",
+   "reading": "ふるい",
    "meaning": "old"
   },
   {
@@ -1390,9 +1390,9 @@
    ]
   },
   {
-   "word": "古",
-   "kana": "ふる",
-   "romaji": "furu",
+   "word": "古い",
+   "kana": "ふるい",
+   "romaji": "furui",
    "meaning": "old",
    "chars": [
     "古"
@@ -1508,7 +1508,7 @@
    "word": "少女",
    "kana": "しょうじょ",
    "romaji": "shoujo",
-   "meaning": "little girl",
+   "meaning": "girl; young woman (teenage)",
    "chars": [
     "少",
     "女"

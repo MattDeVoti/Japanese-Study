@@ -8,13 +8,13 @@
    "name": "〜っぽい (ppoi) — -ish / looks like / tends to",
    "shortDescription": "Gives the impression of or tends toward a quality — often with a slightly dismissive or critical edge.",
    "formation": "Noun / Verb stem / い-adj stem + っぽい",
-   "explanation": "っぽい is the slightly skeptical suffix. It says something has the feel or look of a quality — but the implication is often that it's not quite the genuine article, or it's too much of that quality in an unflattering way. 子[こ]どもっぽい: childish — and note the contrast with 子[こ]どもらしい, which means charmingly, naturally child-like in a positive sense. っぽい says 'this resembles childhood in an immature way'; らしい says 'this is genuinely, wholesomely child-like.' 安[やす]っぽい: cheap-looking (it gives the impression of cheap, which is different from simply being cheap). 怒[おこ]りっぽい: tends to get angry easily — a habitual, somewhat regrettable pattern.\n\nThe key feature is that slight negative or dismissive undertone: っぽい describes what something resembles or tends toward, rather than what it authentically is. As an い-adjective, っぽい conjugates normally: っぽくない, っぽかった. Some っぽい combinations are so common they're essentially fixed vocabulary: 怒[おこ]りっぽい (quick to anger), 飽きっぽい (quick to lose interest), 忘[わす]れっぽい (forgetful), 安[やす]っぽい (cheap-looking or tacky).",
+   "explanation": "っぽい is the slightly skeptical suffix. It says something has the feel or look of a quality — but the implication is often that it's not quite the genuine article, or it's too much of that quality in an unflattering way. 子[こ]どもっぽい: childish — and note the contrast with 子[こ]どもらしい, which means charmingly, naturally child-like in a positive sense. っぽい says 'this resembles childhood in an immature way'; らしい says 'this is genuinely, wholesomely child-like.' 安[やす]っぽい: cheap-looking (it gives the impression of cheap, which is different from simply being cheap). 怒[おこ]りっぽい: tends to get angry easily — a habitual, somewhat regrettable pattern.\n\nThe key feature is that slight negative or dismissive undertone: っぽい describes what something resembles or tends toward, rather than what it authentically is. As an い-adjective, っぽい conjugates normally: っぽくない, っぽかった. Some っぽい combinations are so common they're essentially fixed vocabulary: 怒[おこ]りっぽい (quick to anger), 飽[あ]きっぽい (quick to lose interest), 忘[わす]れっぽい (forgetful), 安[やす]っぽい (cheap-looking or tacky).",
    "rules": [
     "Noun/Verb stem/い-adj stem + っぽい = -ish / tending toward / having the feel of",
     "Often carries a slightly dismissive or critical nuance (merely resembles, not authentic)",
     "Contrast: らしい = genuinely characteristic of (neutral to positive); っぽい = feels like (slight dismissal)",
     "っぽい is an い-adjective: conjugates as っぽくない, っぽかった",
-    "Common: 子[こ]どもっぽい, 安[やす]っぽい, 怒[おこ]りっぽい, 忘[わす]れっぽい, 飽きっぽい"
+    "Common: 子[こ]どもっぽい, 安[やす]っぽい, 怒[おこ]りっぽい, 忘[わす]れっぽい, 飽[あ]きっぽい"
    ],
    "examples": [
     {
@@ -170,16 +170,16 @@
     {
      "id": "ppoi_q10",
      "type": "translation",
-     "prompt": "Which means 'He gets tired easily' (prone to fatigue)?",
+     "prompt": "Which means 'He gets bored easily' (quick to lose interest)?",
      "japanese": null,
      "choices": [
-      "彼[かれ]は疲[つか]れっぽい。",
-      "彼[かれ]は疲[つか]れらしい。",
-      "彼[かれ]は疲[つか]れみたいだ。",
-      "彼[かれ]は疲[つか]れるっぽい。"
+      "彼[かれ]は飽[あ]きらしい。",
+      "彼[かれ]は飽[あ]きっぽい。",
+      "彼[かれ]は飽[あ]きみたいだ。",
+      "彼[かれ]は飽[あ]きるっぽい。"
      ],
-     "correctIndex": 0,
-     "explanation": "Verb-stem + っぽい: 疲[つか]れる (get tired) → 疲[つか]れ + っぽい = 疲[つか]れっぽい = easily tired / prone to fatigue. Verb-stem っぽい for tendency."
+     "correctIndex": 1,
+     "explanation": "飽[あ]きる (to get bored) → masu-stem 飽[あ]き + っぽい = 飽[あ]きっぽい, 'quick to lose interest' — one of the standard verb-stem + っぽい words alongside 怒[おこ]りっぽい and 忘[わす]れっぽい. っぽい attaches to the stem, never to the dictionary form (✗飽[あ]きるっぽい); らしい and みたいだ would only mean 'seems (to be) bored'."
     },
     {
      "id": "ppoi_q11",
@@ -226,30 +226,30 @@
     {
      "id": "ppoi_q14",
      "type": "translation",
-     "prompt": "Which means 'This flavor is somewhat bitter' (slightly bitter-ish)?",
+     "prompt": "Which means 'This color is reddish' (red-ish, not quite red)?",
      "japanese": null,
      "choices": [
-      "この味[あじ]は苦[にが]っぽい。",
-      "この味[あじ]は苦[にが]らしい。",
-      "この味[あじ]は苦[にが]みたいだ。",
-      "この味[あじ]は苦[にが]のようだ。"
+      "この色[いろ]は赤[あか]らしい。",
+      "この色[いろ]は赤[あか]っぽい。",
+      "この色[いろ]は赤[あか]みたいだ。",
+      "この色[いろ]は赤[あか]のようだ。"
      ],
-     "correctIndex": 0,
-     "explanation": "Adj-stem + っぽい: 苦[にが] (bitter stem from 苦[にが]い) + っぽい = 苦[にが]っぽい = somewhat bitter. この味[あじ]は苦[にが]っぽい = this flavor is somewhat bitter."
+     "correctIndex": 1,
+     "explanation": "Color + っぽい = '-ish': 赤[あか]っぽい = reddish, 白[しろ]っぽい = whitish. It says the color leans toward red without being fully red. 赤[あか]らしい / 赤[あか]みたいだ / 赤[あか]のようだ would mean 'seems to be red' or 'looks like red' — an inference, not a shade."
     },
     {
      "id": "ppoi_q15",
      "type": "construct",
-     "prompt": "Which correctly says 'He tends to cry easily'?",
+     "prompt": "Which correctly says 'He falls in love easily'?",
      "japanese": null,
      "choices": [
-      "彼[かれ]は泣[な]きっぽい。",
-      "彼[かれ]は泣[な]くっぽい。",
-      "彼[かれ]は泣[な]いっぽい。",
-      "彼[かれ]は泣[な]いたっぽい。"
+      "彼[かれ]は惚[ほ]れっぽい。",
+      "彼[かれ]は惚[ほ]れるっぽい。",
+      "彼[かれ]は惚[ほ]れいっぽい。",
+      "彼[かれ]は惚[ほ]れたっぽい。"
      ],
      "correctIndex": 0,
-     "explanation": "Verb-stem + っぽい: 泣[な]く → 泣[な]き (masu-stem) + っぽい = 泣[な]きっぽい = prone to crying. Verb-stem (not dict, te, or ta) before っぽい."
+     "explanation": "惚[ほ]れる (to fall for someone) → stem 惚[ほ]れ + っぽい = 惚[ほ]れっぽい, 'falls in love easily' — a common fixed word. っぽい attaches to the masu-stem: ✗惚[ほ]れるっぽい (dictionary form), ✗惚[ほ]れいっぽい (not a form). 惚[ほ]れたっぽい would be the casual 'seems he fell for her' — a different, one-time meaning."
     },
     {
      "id": "ppoi_q16",
@@ -268,16 +268,16 @@
     {
      "id": "ppoi_q17",
      "type": "construct",
-     "prompt": "Which correctly says 'That building looks old'?",
+     "prompt": "Which correctly says 'That room is dusty'?",
      "japanese": null,
      "choices": [
-      "あの建物[たてもの]は古[ふる]っぽい。",
-      "あの建物[たてもの]は古[ふる]いっぽい。",
-      "あの建物[たてもの]は古[ふる]らしい。",
-      "あの建物[たてもの]は古[ふる]のようだ。"
+      "あの部屋[へや]は埃[ほこり]いっぽい。",
+      "あの部屋[へや]は埃[ほこり]っぽい。",
+      "あの部屋[へや]は埃[ほこり]らしい。",
+      "あの部屋[へや]は埃[ほこり]のようだ。"
      ],
-     "correctIndex": 0,
-     "explanation": "Adj-stem + っぽい: 古[ふる] (old, stem of 古[ふる]い) + っぽい = 古[ふる]っぽい = old-looking. あの建物[たてもの]は古[ふる]っぽい = that building looks old. Note: 古[ふる]いっぽい would double-stack い."
+     "correctIndex": 1,
+     "explanation": "Noun + っぽい = 'full of / having the quality of': 埃[ほこり]っぽい = dusty, 水[みず]っぽい = watery, 油[あぶら]っぽい = oily. The noun attaches directly (✗埃[ほこり]いっぽい). 埃[ほこり]らしい / 埃[ほこり]のようだ would mean 'seems to be dust', an inference about what something is, not a description of its quality."
     },
     {
      "id": "ppoi_q18",
@@ -328,7 +328,7 @@
    "name": "〜がち (gachi) — tends to / prone to (often negative)",
    "shortDescription": "Names a habitual tendency toward something undesirable — 'tends to / prone to doing or experiencing X'.",
    "formation": "Verb stem (ます-stem) + がち  |  Noun + がち",
-   "explanation": "がち is the grammar of problematic patterns. It names a habitual tendency — something that keeps happening, often despite one's better intentions — and the tone is nearly always somewhat negative or concerning. 病気[びょうき]がち: prone to illness, often sick. 遅刻[ちこく]がち: the type who tends to be late. 運動不足[うんどうぶそく]になりがち: the tendency to become exercise-deficient creeps in, and it's not ideal.\n\nFormation is clean: verb stem (ます-form minus ます) + がち: 忘[わす]れがち (tends to forget), 休[やす]みがち (tends to miss or skip things). Nouns attach directly: 病気[びょうき]がち, 孤独[こどく]がち (tends to be isolated). がち functions as a な-adjective and modifies nouns directly: 忘[わす]れがちな人 (a person prone to forgetting).\n\nBecause the negative connotation is so strong, がち doesn't naturally describe positive tendencies — for those, 〜ことが多[おお]い (happens often) or 〜やすい (easy to / tends to) work better. When you see がち, mentally note: this is a problematic pattern someone has, or that someone is worried about.",
+   "explanation": "がち is the grammar of problematic patterns. It names a habitual tendency — something that keeps happening, often despite one's better intentions — and the tone is nearly always somewhat negative or concerning. 病気[びょうき]がち: prone to illness, often sick. 遅刻[ちこく]がち: the type who tends to be late. 運動不足[うんどうぶそく]になりがち: the tendency to become exercise-deficient creeps in, and it's not ideal.\n\nFormation is clean: verb stem (ます-form minus ます) + がち: 忘[わす]れがち (tends to forget), 休[やす]みがち (tends to miss or skip things). Nouns attach directly: 病気[びょうき]がち, 孤独[こどく]がち (tends to be isolated). がち functions as a な-adjective and modifies nouns directly: 忘[わす]れがちな人[ひと] (a person prone to forgetting).\n\nBecause the negative connotation is so strong, がち doesn't naturally describe positive tendencies — for those, 〜ことが多[おお]い (happens often) or 〜やすい (easy to / tends to) work better. When you see がち, mentally note: this is a problematic pattern someone has, or that someone is worried about.",
    "rules": [
     "Verb stem + がち = tends to do X / prone to doing X (usually negative tendency)",
     "Noun + がち = prone to [noun state]",
@@ -462,16 +462,16 @@
     {
      "id": "gachi_q8",
      "type": "translation",
-     "prompt": "Which means 'I tend to stay home on days off'?",
+     "prompt": "Which means 'I tend to stay cooped up at home on days off'?",
      "japanese": null,
      "choices": [
-      "休[やす]みの日[ひ]は家[いえ]にいがちだ。",
-      "休[やす]みの日[ひ]は家[いえ]にいるがちだ。",
-      "休[やす]みの日[ひ]は家[いえ]にいてがちだ。",
-      "休[やす]みの日[ひ]は家[いえ]にいたがちだ。"
+      "休[やす]みの日[ひ]は家[いえ]にこもるがちだ。",
+      "休[やす]みの日[ひ]は家[いえ]にこもってがちだ。",
+      "休[やす]みの日[ひ]は家[いえ]にこもりがちだ。",
+      "休[やす]みの日[ひ]は家[いえ]にこもったがちだ。"
      ],
-     "correctIndex": 0,
-     "explanation": "Masu-stem + がち: いる → い (masu-stem) + がちだ = いがちだ = tends to be/stay. 家[いえ]にいがち = tends to be at home. Common personal tendency."
+     "correctIndex": 2,
+     "explanation": "こもる (to shut oneself in) → masu-stem こもり + がち = こもりがち, 'tends to stay cooped up' — a common collocation (引[ひ]きこもりがち). がち attaches to the masu-stem only, never to the dictionary, te- or ta-form."
     },
     {
      "id": "gachi_q9",
@@ -648,7 +648,7 @@
    "name": "〜からといって (kara to itte) — just because / even though",
    "shortDescription": "Challenges an oversimplified justification: 'just because X doesn't mean Y follows or is acceptable'.",
    "formation": "Plain form + からといって + negative or critical main clause",
-   "explanation": "からといって is the grammar of the refutation. It sets up an apparent justification — something that might sound like a valid reason — and then challenges the conclusion someone might draw from it. 忙[いそが]しいからといって、食事[しょくじ]を抜[ぬ]いていいわけではありません: yes, you're busy — but that's not sufficient justification for skipping meals. The structure is almost always adversarial in a constructive sense: here's the excuse, and here's why it doesn't hold.\n\nThe からといって clause gives the attempted justification; the main clause either dismisses it (〜わけではない — Chapter 28), prohibits it (〜てはいけない), or qualifies it (〜とは限[かぎ]らない). This pattern is invaluable in debates, parenting, teaching, and any situation where someone is using a reason to justify something that shouldn't be justified.\n\nThe implicit logic: 'X may be true, and I acknowledge it — but X does not give you permission for Y.' Recognizing this pattern in reading and listening will help you follow arguments in Japanese with much greater precision.",
+   "explanation": "からといって is the grammar of the refutation. It sets up an apparent justification — something that might sound like a valid reason — and then challenges the conclusion someone might draw from it. 忙[いそが]しいからといって、食事[しょくじ]を抜[ぬ]いていいわけではありません: yes, you're busy — but that's not sufficient justification for skipping meals. The structure is almost always adversarial in a constructive sense: here's the excuse, and here's why it doesn't hold.\n\nThe からといって clause gives the attempted justification; the main clause either dismisses it (〜わけではない — Chapter 30), prohibits it (〜てはいけない), or qualifies it (〜とは限[かぎ]らない). This pattern is invaluable in debates, parenting, teaching, and any situation where someone is using a reason to justify something that shouldn't be justified.\n\nThe implicit logic: 'X may be true, and I acknowledge it — but X does not give you permission for Y.' Recognizing this pattern in reading and listening will help you follow arguments in Japanese with much greater precision.",
    "rules": [
     "Plain form + からといって = just because X (doesn't mean / doesn't justify Y)",
     "The main clause typically challenges, dismisses, or qualifies the expected conclusion",
@@ -1301,9 +1301,9 @@
   },
   {
    "char": "全",
-   "word": "全",
-   "reading": "すべ",
-   "meaning": "whole"
+   "word": "全部",
+   "reading": "ぜんぶ",
+   "meaning": "all; everything"
   },
   {
    "char": "当",
@@ -1319,9 +1319,9 @@
   },
   {
    "char": "的",
-   "word": "的",
-   "reading": "てき",
-   "meaning": "-ical"
+   "word": "目的",
+   "reading": "もくてき",
+   "meaning": "purpose"
   },
   {
    "char": "要",
@@ -1331,9 +1331,9 @@
   },
   {
    "char": "機",
-   "word": "機",
-   "reading": "はた",
-   "meaning": "loom"
+   "word": "飛行機",
+   "reading": "ひこうき",
+   "meaning": "aeroplane"
   },
   {
    "char": "件",
@@ -1349,15 +1349,15 @@
   },
   {
    "char": "必",
-   "word": "必",
-   "reading": "かなら",
-   "meaning": "invariably"
+   "word": "必ず",
+   "reading": "かならず",
+   "meaning": "without fail; always"
   },
   {
    "char": "位",
    "word": "位",
    "reading": "くらい",
-   "meaning": "throne"
+   "meaning": "rank; position; grade"
   },
   {
    "char": "常",
@@ -1385,14 +1385,14 @@
   },
   {
    "char": "然",
-   "word": "然し",
-   "reading": "しかし",
-   "meaning": "however"
+   "word": "全然",
+   "reading": "ぜんぜん",
+   "meaning": "(not) at all; entirely"
   },
   {
    "char": "若",
-   "word": "若",
-   "reading": "わか",
+   "word": "若い",
+   "reading": "わかい",
    "meaning": "young"
   },
   {
@@ -1403,9 +1403,9 @@
   },
   {
    "char": "阪",
-   "word": "阪",
-   "reading": "さか",
-   "meaning": "heights"
+   "word": "大阪",
+   "reading": "おおさか",
+   "meaning": "Osaka"
   },
   {
    "char": "程",
@@ -1429,7 +1429,7 @@
    "char": "具",
    "word": "具",
    "reading": "ぐ",
-   "meaning": "tool"
+   "meaning": "ingredients; filling (in soup, onigiri, etc.); tool"
   },
   {
    "char": "適",
@@ -1465,7 +1465,7 @@
    "char": "恐",
    "word": "恐らく",
    "reading": "おそらく",
-   "meaning": "perhaps"
+   "meaning": "probably; most likely"
   },
   {
    "char": "笑",
@@ -1556,12 +1556,13 @@
    ]
   },
   {
-   "word": "全",
-   "kana": "すべ",
-   "romaji": "sube",
-   "meaning": "whole",
+   "word": "全部",
+   "kana": "ぜんぶ",
+   "romaji": "zenbu",
+   "meaning": "all; everything",
    "chars": [
-    "全"
+    "全",
+    "部"
    ]
   },
   {
@@ -1585,11 +1586,12 @@
    ]
   },
   {
-   "word": "的",
-   "kana": "てき",
-   "romaji": "teki",
-   "meaning": "-ical",
+   "word": "目的",
+   "kana": "もくてき",
+   "romaji": "mokuteki",
+   "meaning": "purpose",
    "chars": [
+    "目",
     "的"
    ]
   },
@@ -1603,11 +1605,13 @@
    ]
   },
   {
-   "word": "機",
-   "kana": "はた",
-   "romaji": "hata",
-   "meaning": "loom",
+   "word": "飛行機",
+   "kana": "ひこうき",
+   "romaji": "hikouki",
+   "meaning": "aeroplane",
    "chars": [
+    "飛",
+    "行",
     "機"
    ]
   },
@@ -1631,10 +1635,10 @@
    ]
   },
   {
-   "word": "必",
-   "kana": "かなら",
-   "romaji": "kanara",
-   "meaning": "invariably",
+   "word": "必ず",
+   "kana": "かならず",
+   "romaji": "kanarazu",
+   "meaning": "without fail; always",
    "chars": [
     "必"
    ]
@@ -1643,7 +1647,7 @@
    "word": "位",
    "kana": "くらい",
    "romaji": "kurai",
-   "meaning": "throne",
+   "meaning": "rank; position; grade",
    "chars": [
     "位"
    ]
@@ -1687,18 +1691,19 @@
    ]
   },
   {
-   "word": "然し",
-   "kana": "しかし",
-   "romaji": "shikashi",
-   "meaning": "however",
+   "word": "全然",
+   "kana": "ぜんぜん",
+   "romaji": "zenzen",
+   "meaning": "(not) at all; entirely",
    "chars": [
+    "全",
     "然"
    ]
   },
   {
-   "word": "若",
-   "kana": "わか",
-   "romaji": "waka",
+   "word": "若い",
+   "kana": "わかい",
+   "romaji": "wakai",
    "meaning": "young",
    "chars": [
     "若"
@@ -1715,11 +1720,12 @@
    ]
   },
   {
-   "word": "阪",
-   "kana": "さか",
-   "romaji": "saka",
-   "meaning": "heights",
+   "word": "大阪",
+   "kana": "おおさか",
+   "romaji": "oosaka",
+   "meaning": "Osaka",
    "chars": [
+    "大",
     "阪"
    ]
   },
@@ -1756,7 +1762,7 @@
    "word": "具",
    "kana": "ぐ",
    "romaji": "gu",
-   "meaning": "tool",
+   "meaning": "ingredients; filling (in soup, onigiri, etc.); tool",
    "chars": [
     "具"
    ]
@@ -1811,7 +1817,7 @@
    "word": "恐らく",
    "kana": "おそらく",
    "romaji": "osoraku",
-   "meaning": "perhaps",
+   "meaning": "probably; most likely",
    "chars": [
     "恐"
    ]
@@ -2060,11 +2066,12 @@
    ]
   },
   {
-   "word": "泳ぎ",
-   "kana": "およぎ",
-   "romaji": "oyogi",
+   "word": "水泳",
+   "kana": "すいえい",
+   "romaji": "suiei",
    "meaning": "swimming",
    "chars": [
+    "水",
     "泳"
    ]
   },

@@ -1983,9 +1983,9 @@
   },
   {
    "char": "引",
-   "word": "引",
-   "reading": "ひ",
-   "meaning": "pull"
+   "word": "引く",
+   "reading": "ひく",
+   "meaning": "to pull"
   },
   {
    "char": "投",
@@ -2013,9 +2013,9 @@
   },
   {
    "char": "費",
-   "word": "費",
-   "reading": "ひ",
-   "meaning": "cost"
+   "word": "費用",
+   "reading": "ひよう",
+   "meaning": "cost; expense"
   },
   {
    "char": "収",
@@ -2025,9 +2025,9 @@
   },
   {
    "char": "消",
-   "word": "消",
-   "reading": "き",
-   "meaning": "extinguish"
+   "word": "消す",
+   "reading": "けす",
+   "meaning": "to turn off; to erase"
   },
   {
    "char": "商",
@@ -2067,9 +2067,9 @@
   },
   {
    "char": "師",
-   "word": "師",
-   "reading": "いくさ",
-   "meaning": "expert"
+   "word": "教師",
+   "reading": "きょうし",
+   "meaning": "teacher"
   },
   {
    "char": "易",
@@ -2145,9 +2145,9 @@
   },
   {
    "char": "御",
-   "word": "御",
-   "reading": "おん",
-   "meaning": "honorable"
+   "word": "御礼",
+   "reading": "おれい",
+   "meaning": "thanks; token of gratitude"
   },
   {
    "char": "洗",
@@ -2157,15 +2157,15 @@
   },
   {
    "char": "杯",
-   "word": "杯",
-   "reading": "さかずき",
-   "meaning": "sake cup"
+   "word": "一杯",
+   "reading": "いっぱい",
+   "meaning": "one cup; full; a lot"
   },
   {
    "char": "怖",
-   "word": "怖",
-   "reading": "こわ",
-   "meaning": "dreadful"
+   "word": "怖い",
+   "reading": "こわい",
+   "meaning": "scary"
   },
   {
    "char": "靴",
@@ -2262,10 +2262,10 @@
    ]
   },
   {
-   "word": "引",
-   "kana": "ひ",
-   "romaji": "hi",
-   "meaning": "pull",
+   "word": "引く",
+   "kana": "ひく",
+   "romaji": "hiku",
+   "meaning": "to pull",
    "chars": [
     "引"
    ]
@@ -2309,12 +2309,13 @@
    ]
   },
   {
-   "word": "費",
-   "kana": "ひ",
-   "romaji": "hi",
-   "meaning": "cost",
+   "word": "費用",
+   "kana": "ひよう",
+   "romaji": "hiyou",
+   "meaning": "cost; expense",
    "chars": [
-    "費"
+    "費",
+    "用"
    ]
   },
   {
@@ -2328,10 +2329,10 @@
    ]
   },
   {
-   "word": "消",
-   "kana": "き",
-   "romaji": "ki",
-   "meaning": "extinguish",
+   "word": "消す",
+   "kana": "けす",
+   "romaji": "kesu",
+   "meaning": "to turn off; to erase",
    "chars": [
     "消"
    ]
@@ -2395,11 +2396,12 @@
    ]
   },
   {
-   "word": "師",
-   "kana": "いくさ",
-   "romaji": "ikusa",
-   "meaning": "expert",
+   "word": "教師",
+   "kana": "きょうし",
+   "romaji": "kyoushi",
+   "meaning": "teacher",
    "chars": [
+    "教",
     "師"
    ]
   },
@@ -2504,12 +2506,13 @@
    ]
   },
   {
-   "word": "御",
-   "kana": "おん",
-   "romaji": "on",
-   "meaning": "honorable",
+   "word": "御礼",
+   "kana": "おれい",
+   "romaji": "orei",
+   "meaning": "thanks; token of gratitude",
    "chars": [
-    "御"
+    "御",
+    "礼"
    ]
   },
   {
@@ -2522,19 +2525,20 @@
    ]
   },
   {
-   "word": "杯",
-   "kana": "さかずき",
-   "romaji": "sakazuki",
-   "meaning": "sake cup",
+   "word": "一杯",
+   "kana": "いっぱい",
+   "romaji": "ippai",
+   "meaning": "one cup; full; a lot",
    "chars": [
+    "一",
     "杯"
    ]
   },
   {
-   "word": "怖",
-   "kana": "こわ",
-   "romaji": "kowa",
-   "meaning": "dreadful",
+   "word": "怖い",
+   "kana": "こわい",
+   "romaji": "kowai",
+   "meaning": "scary",
    "chars": [
     "怖"
    ]

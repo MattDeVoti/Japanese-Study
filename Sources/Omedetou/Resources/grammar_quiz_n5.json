@@ -176,7 +176,7 @@
       "を",
       "に",
       "で",
-      "から"
+      "が"
     ],
     "correctIndex": 0,
     "explanation": "電車を降ります — を marks the place you exit/leave with verbs like 降りる, 出る. It is the same を that marks a space passed through (公園を散歩する)."
@@ -188,7 +188,7 @@
     "japanese": "公園[こうえん]＿＿散歩[さんぽ]します。",
     "choices": [
       "を",
-      "で",
+      "が",
       "に",
       "へ"
     ],
@@ -259,7 +259,7 @@
     "choices": [
       "は",
       "も",
-      "を",
+      "へ",
       "が"
     ],
     "correctIndex": 0,
@@ -386,7 +386,7 @@
       "いくら",
       "いくつ",
       "どう",
-      "なに"
+      "なん"
     ],
     "correctIndex": 0,
     "explanation": "いくら asks price (‘how much money’). いくつ asks quantity/age, どう asks ‘how/what’s it like’, なに asks ‘what’."
@@ -411,13 +411,13 @@
     "prompt": "‘What is this?’ vs ‘How is it?’ — choose ‘what’:",
     "japanese": "これは＿＿ですか。",
     "choices": [
-      "なに",
+      "なん",
       "どう",
       "だれ",
       "いつ"
     ],
     "correctIndex": 0,
-    "explanation": "なに/なん = ‘what’ (identity). どう = ‘how/what’s it like’. They are not interchangeable: なにですか asks the thing’s identity."
+    "explanation": "なに/なん = ‘what’ (identity); before です it is read なん (何[なん]ですか). どう = ‘how/what’s it like’. They are not interchangeable: なんですか asks the thing’s identity."
   },
   {
     "id": "n5_q031",
@@ -579,10 +579,10 @@
     "prompt": "Connecting two adjectives: ‘cheap AND delicious’:",
     "japanese": "この店[みせ]は＿＿おいしいです。",
     "choices": [
-      "安[やす]くて",
+      "安[やす]いてて",
       "安[やす]いで",
       "安[やす]いくて",
-      "安[やす]く"
+      "安[やす]いて"
     ],
     "correctIndex": 0,
     "explanation": "い-adjective て-form = drop い + くて: 安い→安くて. な-adjectives/nouns use で (静かで, 元気で) instead."
@@ -655,7 +655,7 @@
       "四枚[よんまい]"
     ],
     "correctIndex": 0,
-    "explanation": "人[ひと] counts people (with irregular 一人[ひとり], 二人[ふたり], 四人[よにん]). 台 counts machines, 枚 flat things."
+    "explanation": "人[にん] counts people (with irregular 一人[ひとり], 二人[ふたり], 四人[よにん]). 台 counts machines, 枚 flat things."
   },
   {
     "id": "n5_q048",
@@ -833,7 +833,7 @@
     "choices": [
       "起[お]きて",
       "起[お]きるて",
-      "起[お]きfor",
+      "起[お]いて",
       "起[お]きた"
     ],
     "correctIndex": 0,
@@ -907,7 +907,7 @@
       "よく"
     ],
     "correctIndex": 0,
-    "explanation": "ぜんぜん + negative = ‘not at all’. あまり + negative = ‘not very/not much’ (weaker). とても/よく are for positive statements."
+    "explanation": "ぜんぜん + negative = ‘not at all’. あまり + negative = ‘not very/not much’ and よく + negative = ‘not well’ — both weaker than ぜんぜん. とても is for positive statements."
   },
   {
     "id": "n5_q066",
@@ -945,11 +945,11 @@
     "choices": [
       "に",
       "を",
-      "と",
+      "が",
       "で"
     ],
     "correctIndex": 0,
-    "explanation": "会う takes に for the person met (友達に会う). を is wrong here; と is possible but means ‘meet WITH (mutually)’, while に is the standard ‘meet someone’."
+    "explanation": "会う takes に for the person met (友達に会う). を is wrong here — 会う does not take a direct object — and で marks a place, not a person. (と is also possible: 友達と会う = ‘meet with’.)"
   },
   {
     "id": "n5_q069",
@@ -959,11 +959,11 @@
     "choices": [
       "に",
       "く",
-      "と",
+      "を",
       "で"
     ],
     "correctIndex": 0,
-    "explanation": "Noun/な-adjective + に + なる = ‘become’. い-adjectives use く (高くなる). So it’s 医者になる, not 医者となる here."
+    "explanation": "Noun/な-adjective + に + なる = ‘become’. い-adjectives use く (高くなる), so く cannot follow a noun; を and で do not mark the result of なる."
   },
   {
     "id": "n5_q070",
@@ -1042,12 +1042,12 @@
     "japanese": null,
     "choices": [
       "休[やす]んだほうがいいです。",
-      "休[やす]むほうがいいです。",
+      "休[やす]むのほうがいいです。",
       "休[やす]んでほうがいいです。",
       "休[やす]みほうがいいです。"
     ],
     "correctIndex": 0,
-    "explanation": "For advice, ～たほうがいい uses the PLAIN PAST form (休んだ). 休むほうがいい is used more for general comparison than direct advice."
+    "explanation": "For advice, ～たほうがいい uses the PLAIN PAST form (休んだ). ほう attaches directly to the verb — no の (休むのほう) and never the て-form or ます-stem (休んで/休み)."
   },
   {
     "id": "n5_q076",
@@ -1057,11 +1057,11 @@
     "choices": [
       "行[い]きませんでした",
       "行[い]きませんです",
-      "行[い]かなかったです",
+      "行[い]きませんかった",
       "行[い]きないでした"
     ],
     "correctIndex": 0,
-    "explanation": "Polite past negative = ～ませんでした (行きませんでした). ‘行かなかったです’ is the plain-past-negative + です (acceptable casually) but ませんでした is the standard polite form; ‘行きませんです’ is wrong."
+    "explanation": "Polite past negative = ～ませんでした (行きませんでした): the past marker でした follows ません. ‘行きませんです’, ‘行きませんかった’ and ‘行きないでした’ are not valid forms."
   },
   {
     "id": "n5_q077",

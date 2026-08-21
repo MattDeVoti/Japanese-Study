@@ -169,6 +169,7 @@ struct VocabFlashcardsView: View {
                 HStack {
                     Button {
                         filter.toggleFavorite(card.word.id)
+                        FeedbackSounds.shared.playFavorite(filter.isFavorite(card.word.id))
                     } label: {
                         Image(systemName: isFav ? "star.fill" : "star")
                             .font(.system(size: 26))
@@ -248,6 +249,9 @@ struct VocabFlashcardsView: View {
                         Spacer()
 
                         CheckButton {
+                            // Turning the card over is neither right nor wrong, so it
+                            // gets the neutral tone rather than a verdict cue.
+                            FeedbackSounds.shared.play(.notification)
                             withAnimation(.spring(response: 0.42, dampingFraction: 0.85)) {
                                 isRevealed = true
                             }
@@ -264,6 +268,7 @@ struct VocabFlashcardsView: View {
             // Bottom bar: Needs Work / back / Confident
             HStack(spacing: 12) {
                 Button {
+                    FeedbackSounds.shared.play(.incorrect)
                     let didUncheck = filter.markNeedsWork(card.word.id, direction: cardDirection)
                     history.append(VocabStudyHistoryEntry(card: card, direction: cardDirection,
                                                          action: .needsWork(didUncheck: didUncheck)))
@@ -419,6 +424,8 @@ struct VocabFlashcardsView: View {
     /// pops a green check over the card, then advances to the next card.
     private func confirmConfident(_ card: VocabFlashCard) {
         guard !showConfidentPop else { return }
+        // Same shuffled piano sting the audio flashcards answer a correct card with.
+        FeedbackSounds.shared.playCorrectVariation()
         filter.markConfident(card.word.id)
         let wasChecked = filter.isExcluded(card.word.id, direction: cardDirection)
         if !wasChecked { filter.toggleExcluded(card.word.id, direction: cardDirection) }
@@ -531,6 +538,10 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                     }
 
                     if showsAudioOptions {
+                        VoiceSpeedSlider(showsHeading: true)
+
+                        Divider()
+
                         VStack(alignment: .leading, spacing: 8) {
                             Text("Time to answer")
                                 .font(.headline)
@@ -624,7 +635,7 @@ struct VocabFilterSheet<F: ObservableObject & VocabFiltering>: View {
                         .foregroundColor(.red)
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }
                         .fontWeight(.semibold)
                 }
             }

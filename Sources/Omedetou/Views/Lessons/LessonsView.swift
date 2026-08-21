@@ -1,11 +1,23 @@
 import SwiftUI
 
 struct LessonsView: View {
-    @State private var levels: [LessonLevel] = []
+    @State private var levels: [LessonLevel]
     @ObservedObject private var customStore = CustomLessonsStore.shared
     @EnvironmentObject private var cardStore: CardStore
     @State private var query = ""
     @State private var results: [LessonSearchResult] = []
+
+    init() {
+        // Seeded here rather than in .onAppear. The sections used to render
+        // empty for a frame and then jump as the bubbles arrived — invisible
+        // before, but the entrance animation made it a visible stutter: the
+        // headings would settle into place and the page would then shove
+        // itself down. The manifest is already decoded by the time anyone can
+        // reach this screen (CardStore and ExamStore both load it at launch),
+        // so this is a cached read, not a parse.
+        LessonsService.shared.loadIfNeeded()
+        _levels = State(initialValue: LessonsService.shared.manifest?.levels ?? [])
+    }
 
     private var isSearching: Bool {
         !query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
@@ -30,6 +42,7 @@ struct LessonsView: View {
         levels.first { $0.levelId == SlangContent.levelId }
     }
 
+
     /// Every entry is a full-width bar, one per line — the same shape the home
     /// screen uses for its main destinations, so the two read as one system.
     /// Matches the home slab height: the tile's stacked icon/title/subtitle needs
@@ -39,7 +52,7 @@ struct LessonsView: View {
 
     var body: some View {
         ZStack {
-            PatternedBackground(.textbook)
+            FallingKanaBackground()
 
             VStack(spacing: 0) {
                 SearchBar(text: $query, placeholder: "Search the whole textbook…")
@@ -86,7 +99,7 @@ struct LessonsView: View {
                                 } label: {
                                     KanaCircleButton(level: level)
                                 }
-                                .buttonStyle(.plain)
+                                .pressable(scale: 0.985)
                             }
                         }
                     }
@@ -101,7 +114,7 @@ struct LessonsView: View {
                                 } label: {
                                     GrammarCircleButton(level: level)
                                 }
-                                .buttonStyle(.plain)
+                                .pressable(scale: 0.985)
                             }
 
                             // Slang — its own book, sixth bubble after Level 5
@@ -111,7 +124,7 @@ struct LessonsView: View {
                                 } label: {
                                     SlangCircleButton(chapterCount: slang.chapters.count)
                                 }
-                                .buttonStyle(.plain)
+                                .pressable(scale: 0.985)
                             }
                         }
                     }
@@ -125,7 +138,7 @@ struct LessonsView: View {
                             } label: {
                                 CultureCircleButton()
                             }
-                            .buttonStyle(.plain)
+                            .pressable(scale: 0.985)
                         }
                     }
 
@@ -138,7 +151,7 @@ struct LessonsView: View {
                             } label: {
                                 FavoritesCircleButton()
                             }
-                            .buttonStyle(.plain)
+                            .pressable(scale: 0.985)
                         }
                     }
 
@@ -154,7 +167,7 @@ struct LessonsView: View {
                                 } label: {
                                     CustomLessonCircleButton(lesson: lesson)
                                 }
-                                .buttonStyle(.plain)
+                                .pressable(scale: 0.985)
                             }
                         }
                     }
@@ -183,7 +196,8 @@ private struct SlangCircleButton: View {
     var body: some View {
         AestheticTile(title: "Slang", subtitle: "\(chapterCount) chapters", glyph: "俗",
                       icon: "bubble.left.and.text.bubble.right.fill",
-                      color: SlangContent.accent, aspect: nil)
+                      color: SlangContent.accent, aspect: nil,
+                      backdrop: FallingKanaField.backdrop(tint: SlangContent.accent))
             .frame(height: LessonsView.barHeight)
     }
 }
@@ -197,7 +211,8 @@ private struct KanaCircleButton: View {
 
     var body: some View {
         AestheticTile(title: level.levelId, subtitle: "\(level.chapters.count) lessons",
-                      glyph: glyph, icon: "textformat", color: color, aspect: nil)
+                      glyph: glyph, icon: "textformat", color: color, aspect: nil,
+                      backdrop: FallingKanaField.backdrop(tint: color))
             .frame(height: LessonsView.barHeight)
     }
 }
@@ -210,7 +225,8 @@ private struct GrammarCircleButton: View {
         AestheticTile(title: levelName(levelInt), subtitle: "\(level.chapters.count) chapters",
                       glyph: "\(levelNumber(levelInt))",
                       secondaryGlyph: levelKanjiNumeral(levelInt),
-                      icon: "book.fill", color: nLevelColor(levelInt), aspect: nil)
+                      icon: "book.fill", color: nLevelColor(levelInt), aspect: nil,
+                      backdrop: FallingKanaField.backdrop(tint: nLevelColor(levelInt)))
             .frame(height: LessonsView.barHeight)
     }
 }
@@ -219,7 +235,8 @@ private struct CultureCircleButton: View {
     var body: some View {
         AestheticTile(title: "Culture", subtitle: "\(CultureContent.topics.count) topics",
                       glyph: "文", icon: "building.columns.fill",
-                      color: CultureContent.accent, aspect: nil)
+                      color: CultureContent.accent, aspect: nil,
+                      backdrop: FallingKanaField.backdrop(tint: CultureContent.accent))
             .frame(height: LessonsView.barHeight)
     }
 }
@@ -231,7 +248,8 @@ private struct FavoritesCircleButton: View {
     var body: some View {
         // A gold deep enough for white text/icon to read on the filled tile.
         AestheticTile(title: "Favorites", subtitle: count == 0 ? "None yet" : "\(count) saved",
-                      glyph: "星", icon: "star.fill", color: .themeTile(5), aspect: nil)
+                      glyph: "星", icon: "star.fill", color: .themeTile(5), aspect: nil,
+                      backdrop: FallingKanaField.backdrop(tint: .themeTile(5)))
             .frame(height: LessonsView.barHeight)
     }
 }

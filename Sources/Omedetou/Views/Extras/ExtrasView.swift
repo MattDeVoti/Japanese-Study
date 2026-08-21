@@ -12,7 +12,7 @@ struct ExtrasView: View {
 
     var body: some View {
         ZStack {
-            PatternedBackground(.home)
+            KaomojiBackground()
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
@@ -26,7 +26,7 @@ struct ExtrasView: View {
                                 icon: "tablecells.fill",
                                 tint: .themeTile(0))
                         }
-                        .buttonStyle(.plain)
+                        .pressable()
                         .locked(true, feature: "The cheat sheets")
                     }
 
@@ -41,7 +41,7 @@ struct ExtrasView: View {
                                     icon: "gamecontroller.fill",
                                     tint: .themeTile(9))
                             }
-                            .buttonStyle(.plain)
+                            .pressable()
                         }
                     }
                 }
@@ -96,11 +96,24 @@ struct ExtrasRow: View {
                 .font(.system(size: 13, weight: .bold))
                 .foregroundColor(.appTextSecondary)
         }
-        .padding(14)
+        .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 16, style: .continuous)
-            .fill(Color.appSurface.opacity(0.9)))
-        .overlay(RoundedRectangle(cornerRadius: 16, style: .continuous)
-            .strokeBorder(Color.appHairline, lineWidth: 1))
+        // Same chrome as the Study cards and the tiles: a pale surface carrying
+        // a wash of the row's own colour, edged in it rather than in a neutral
+        // hairline. A plain grey card next to those now looks like a different
+        // app's screen.
+        .background(
+            ZStack {
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    .fill(Color.appSurface)
+                RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    .fill(tint.opacity(0.14))
+                TileTexture(seed: title, opacity: 0.05, ink: tint)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        )
+        .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous)
+            .strokeBorder(tint.opacity(0.45), lineWidth: 1))
+        .shadow(color: tint.opacity(0.22), radius: 8, x: 0, y: 4)
     }
 }

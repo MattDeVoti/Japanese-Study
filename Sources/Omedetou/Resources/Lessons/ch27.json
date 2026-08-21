@@ -669,7 +669,7 @@
     },
     {
      "japanese": "いつになったら日本語[にほんご]が上手[じょうず]になれるかしら。",
-     "romaji": "Itsunin attara nihongo ga jouzu ni nareru kashira.",
+     "romaji": "Itsu ni nattara nihongo ga jouzu ni nareru kashira.",
      "english": "I wonder when I'll ever get good at Japanese."
     },
     {
@@ -1295,9 +1295,9 @@
   },
   {
    "char": "問",
-   "word": "問",
-   "reading": "もん",
-   "meaning": "counter for questions"
+   "word": "質問",
+   "reading": "しつもん",
+   "meaning": "question"
   },
   {
    "char": "理",
@@ -1319,9 +1319,9 @@
   },
   {
    "char": "思",
-   "word": "思",
-   "reading": "おも",
-   "meaning": "think"
+   "word": "思う",
+   "reading": "おもう",
+   "meaning": "to think"
   },
   {
    "char": "考",
@@ -1331,9 +1331,9 @@
   },
   {
    "char": "使",
-   "word": "使",
-   "reading": "つか",
-   "meaning": "use"
+   "word": "使う",
+   "reading": "つかう",
+   "meaning": "to use"
   },
   {
    "char": "起",
@@ -1349,9 +1349,9 @@
   },
   {
    "char": "帰",
-   "word": "帰",
-   "reading": "かえ",
-   "meaning": "homecoming"
+   "word": "帰る",
+   "reading": "かえる",
+   "meaning": "to return; to go home"
   }
  ],
  "kanjiWords": [
@@ -1365,11 +1365,12 @@
    ]
   },
   {
-   "word": "問",
-   "kana": "もん",
-   "romaji": "mon",
-   "meaning": "counter for questions",
+   "word": "質問",
+   "kana": "しつもん",
+   "romaji": "shitsumon",
+   "meaning": "question",
    "chars": [
+    "質",
     "問"
    ]
   },
@@ -1402,10 +1403,10 @@
    ]
   },
   {
-   "word": "思",
-   "kana": "おも",
-   "romaji": "omo",
-   "meaning": "think",
+   "word": "思う",
+   "kana": "おもう",
+   "romaji": "omou",
+   "meaning": "to think",
    "chars": [
     "思"
    ]
@@ -1420,10 +1421,10 @@
    ]
   },
   {
-   "word": "使",
-   "kana": "つか",
-   "romaji": "tsuka",
-   "meaning": "use",
+   "word": "使う",
+   "kana": "つかう",
+   "romaji": "tsukau",
+   "meaning": "to use",
    "chars": [
     "使"
    ]
@@ -1447,10 +1448,10 @@
    ]
   },
   {
-   "word": "帰",
-   "kana": "かえ",
-   "romaji": "kae",
-   "meaning": "homecoming",
+   "word": "帰る",
+   "kana": "かえる",
+   "romaji": "kaeru",
+   "meaning": "to return; to go home",
    "chars": [
     "帰"
    ]
@@ -1459,7 +1460,7 @@
    "word": "味方",
    "kana": "みかた",
    "romaji": "mikata",
-   "meaning": "friend",
+   "meaning": "ally; one's side; supporter",
    "chars": [
     "味",
     "方"
@@ -1632,7 +1633,7 @@
    "word": "関心",
    "kana": "かんしん",
    "romaji": "kanshin",
-   "meaning": "concern",
+   "meaning": "interest; concern",
    "chars": [
     "関",
     "心"

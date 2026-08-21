@@ -30,7 +30,7 @@
     },
     {
      "japanese": "どんなに疲[つか]れていても、毎日[まいにち]走[はし]りつづけています。",
-     "romaji": "Donna ni tsukarete ite mo, mainichi hashiritsudukete imasu.",
+     "romaji": "Donna ni tsukarete ite mo, mainichi hashiritsuzukete imasu.",
      "english": "No matter how tired I am, I continue running every day."
     },
     {
@@ -649,7 +649,7 @@
    "name": "〜たところ / 〜ているところ / 〜るところ — just did / in the middle of / about to",
    "shortDescription": "ところ pins down the exact stage of an action — just done, right now in progress, or about to start.",
    "formation": "た-form + ところ (just did)  |  て-form + いるところ (in the middle of)  |  dictionary form + ところ (about to)",
-   "explanation": "ところ literally means 'place,' and in this pattern it means 'the exact point' in an action's timeline. Three formations, three precise meanings:\n\nた-form + ところ: 'just did this second.' 今、家[いえ]に帰[かえ]ったところです: 'I just got home (literally just now).' The action is complete and the moment is right now.\n\nている-form + ところ: 'right in the middle of.' 今、料理[りょうり]をしているところです: 'I'm right in the middle of cooking.' Not just 'cooking' in a general sense — actively in the process at this exact moment.\n\nDictionary form + ところ: 'just about to.' 今、出[で]かけるところです: 'I'm just about to head out.' The action hasn't started yet but is imminent.\n\nThe key contrast with 〜ている: plain ている is imprecise about stage (you could be at the beginning, middle, or end). ているところ pinpoints that you're in the active middle of it right now.\n\nCompare with 〜たばかり (next point): たところ = literally just this second; たばかり = recently (could be minutes or days ago, but still feels fresh).",
+   "explanation": "ところ literally means 'place,' and in this pattern it means 'the exact point' in an action's timeline. Three formations, three precise meanings:\n\nた-form + ところ: 'just did this second.' 今[いま]、家[いえ]に帰[かえ]ったところです: 'I just got home (literally just now).' The action is complete and the moment is right now.\n\nている-form + ところ: 'right in the middle of.' 今[いま]、料理[りょうり]をしているところです: 'I'm right in the middle of cooking.' Not just 'cooking' in a general sense — actively in the process at this exact moment.\n\nDictionary form + ところ: 'just about to.' 今[いま]、出[で]かけるところです: 'I'm just about to head out.' The action hasn't started yet but is imminent.\n\nThe key contrast with 〜ている: plain ている is imprecise about stage (you could be at the beginning, middle, or end). ているところ pinpoints that you're in the active middle of it right now.\n\nCompare with 〜たばかり (next point): たところ = literally just this second; たばかり = recently (could be minutes or days ago, but still feels fresh).",
    "rules": [
     "た-form + ところ = just completed (this very moment): 食[た]べたところ",
     "ている-form + ところ = right in the middle of (active process right now): 食[た]べているところ",
@@ -940,10 +940,10 @@
      "prompt": "Which correctly expresses 'I'm in the middle of cooking dinner'?",
      "japanese": null,
      "choices": [
-      "今夕[こんせき]飯[めし]を作[つく]るところです。",
-      "今夕[こんせき]飯[めし]を作[つく]ったところです。",
-      "今夕[こんせき]飯[めし]を作[つく]っているところです。",
-      "今夕[こんせき]飯[めし]を作[つく]ってきたところです。"
+      "今[いま]夕飯[ゆうはん]を作[つく]るところです。",
+      "今[いま]夕飯[ゆうはん]を作[つく]ったところです。",
+      "今[いま]夕飯[ゆうはん]を作[つく]っているところです。",
+      "今[いま]夕飯[ゆうはん]を作[つく]ってきたところです。"
      ],
      "correctIndex": 2,
      "explanation": "〜ているところ = in the middle of. 作[つく]っている + ところです = currently in the middle of cooking. この状態[じょうたい]でのところ = right now in that state."
@@ -1791,7 +1791,7 @@
    "word": "台無し",
    "kana": "だいなし",
    "romaji": "dainashi",
-   "meaning": "mess",
+   "meaning": "ruined; spoiled",
    "chars": [
     "台",
     "無"
@@ -1819,7 +1819,7 @@
    "word": "試す",
    "kana": "ためす",
    "romaji": "tamesu",
-   "meaning": "to attempt",
+   "meaning": "to try; to test",
    "chars": [
     "試"
    ]
@@ -1876,7 +1876,7 @@
    "word": "服装",
    "kana": "ふくそう",
    "romaji": "fukusou",
-   "meaning": "garments",
+   "meaning": "clothes; attire",
    "chars": [
     "服",
     "装"

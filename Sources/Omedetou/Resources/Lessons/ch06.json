@@ -1292,7 +1292,7 @@
    "name": "〜てはいけない (te wa ikenai) — must not / may not",
    "shortDescription": "Expresses prohibition — something that is not allowed or must not be done.",
    "formation": "Verb て-form + はいけません",
-   "explanation": "〜てはいけません is the direct counterpart to 〜てもいいです — while もいいです grants permission, てはいけません firmly denies it. It means 'must not' or 'may not' and states a rule or prohibition: ここで写真[しゃしん]を撮[と]ってはいけません (You must not take photos here). You will see this on signs and hear it from teachers and parents.\n\nThe nuance is firm — this is a rule that should not be broken, and it is stronger than the softer request ないでください (please don't). The casual forms are 〜てはいけない or the very common contraction 〜ちゃいけない.\n\nOne related pattern worth knowing: the positive obligation form — 'must do' — uses 〜なくてはいけない / なければならない, which we will cover formally in Chapter 12. For now, てはいけません gives you everything you need to understand and communicate rules and prohibitions.",
+   "explanation": "〜てはいけません is the direct counterpart to 〜てもいいです — while もいいです grants permission, てはいけません firmly denies it. It means 'must not' or 'may not' and states a rule or prohibition: ここで写真[しゃしん]を撮[と]ってはいけません (You must not take photos here). You will see this on signs and hear it from teachers and parents.\n\nThe nuance is firm — this is a rule that should not be broken, and it is stronger than the softer request ないでください (please don't). The casual forms are 〜てはいけない or the very common contraction 〜ちゃいけない.\n\nOne related pattern worth knowing: the positive obligation form — 'must do' — uses 〜なくてはいけない / なければならない, which we will cover formally in Chapter 13. For now, てはいけません gives you everything you need to understand and communicate rules and prohibitions.",
    "rules": [
     "Pattern: Verb (て-form) + はいけません = must not / may not",
     "This is a firm prohibition — a rule, not just a request",
@@ -1412,7 +1412,7 @@
      "id": "te-wa-ikenai_q7",
      "type": "fillBlank",
      "prompt": "Fill in the blank: 授業中[じゅぎょうちゅう]にスマホを___はいけません。(You must not use your smartphone in class.)",
-     "japanese": "授業中[じゅぎょうちゅう]にスマホを___はいけません。",
+     "japanese": "授業中[じゅぎょうちゅう]にスマホを___いけません。",
      "choices": [
       "使[つか]うては",
       "使[つか]いては",
@@ -1468,7 +1468,7 @@
      "id": "te-wa-ikenai_q11",
      "type": "fillBlank",
      "prompt": "Fill in the blank to say 'You must not come into this room': このへやに___はいけません。",
-     "japanese": "このへやに___はいけません。",
+     "japanese": "このへやに___いけません。",
      "choices": [
       "きるては",
       "くるては",
@@ -1504,13 +1504,13 @@
       "展示物[てんじぶつ]に触[さわ]ってもいいですか。"
      ],
      "correctIndex": 0,
-     "explanation": "Official signs and rules use 〜てはいけません for firm prohibitions. 触[ふ]る (to touch) → て-form: 触[さわ]って → 触[さわ]ってはいけません. ないでください is softer and used for personal polite requests, not formal rule notices posted in public spaces."
+     "explanation": "Official signs and rules use 〜てはいけません for firm prohibitions. 触[さわ]る (to touch) → て-form: 触[さわ]って → 触[さわ]ってはいけません. ないでください is softer and used for personal polite requests, not formal rule notices posted in public spaces."
     },
     {
      "id": "te-wa-ikenai_q14",
      "type": "fillBlank",
      "prompt": "Fill in the blank to say 'You must not drink alcohol': お酒[さけ]を___はいけません。",
-     "japanese": "お酒[さけ]を___はいけません。",
+     "japanese": "お酒[さけ]を___いけません。",
      "choices": [
       "飲[の]みては",
       "飲[の]んでは",
@@ -1552,7 +1552,7 @@
      "id": "te-wa-ikenai_q17",
      "type": "fillBlank",
      "prompt": "Fill in the blank: ここに名前[なまえ]を___はいけません。(You must not write your name here.)",
-     "japanese": "ここに名前[なまえ]を___はいけません。",
+     "japanese": "ここに名前[なまえ]を___いけません。",
      "choices": [
       "書[か]いては",
       "書[か]くては",
@@ -1924,9 +1924,9 @@
  "kanji": [
   {
    "char": "見",
-   "word": "見",
-   "reading": "み",
-   "meaning": "see"
+   "word": "見る",
+   "reading": "みる",
+   "meaning": "to see; to look"
   },
   {
    "char": "間",
@@ -1936,17 +1936,17 @@
   },
   {
    "char": "書",
-   "word": "書",
-   "reading": "か",
-   "meaning": "write"
+   "word": "書く",
+   "reading": "かく",
+   "meaning": "to write"
   }
  ],
  "kanjiWords": [
   {
-   "word": "見",
-   "kana": "み",
-   "romaji": "mi",
-   "meaning": "see",
+   "word": "見る",
+   "kana": "みる",
+   "romaji": "miru",
+   "meaning": "to see; to look",
    "chars": [
     "見"
    ]
@@ -1961,10 +1961,10 @@
    ]
   },
   {
-   "word": "書",
-   "kana": "か",
-   "romaji": "ka",
-   "meaning": "write",
+   "word": "書く",
+   "kana": "かく",
+   "romaji": "kaku",
+   "meaning": "to write",
    "chars": [
     "書"
    ]

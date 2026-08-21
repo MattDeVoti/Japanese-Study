@@ -562,16 +562,16 @@
   {
     "id": "n1_q041",
     "type": "usage",
-    "prompt": "Formal apologetic reason: ‘As it was my first time, please excuse my mistakes.’",
+    "prompt": "Formal apologetic reason: ‘As I’m not used to this, please excuse my mistakes.’",
     "japanese": null,
     "choices": [
       "慣[な]れないこととて、失礼[しつれい]をお許[ゆる]しください。",
-      "慣[な]れないことだから、失礼[しつれい]をお許[ゆる]しください。",
+      "慣[な]れないことにとって、失礼[しつれい]をお許[ゆる]しください。",
       "慣[な]れないこととあって、失礼[しつれい]をお許[ゆる]しください。",
       "慣[な]れないことなり、失礼[しつれい]をお許[ゆる]しください。"
     ],
     "correctIndex": 0,
-    "explanation": "～こととて = a formal/old ‘because / since (offering an excuse)’, paired with a request for understanding. ことだから is casual reasoning about character, not this humble apology form."
+    "explanation": "～こととて = a formal/old ‘because / since (offering an excuse)’, paired with a request for understanding. にとって (‘for / from the standpoint of’) cannot state a reason; only こととて gives the humble, formal excuse."
   },
   {
     "id": "n1_q042",
@@ -590,7 +590,7 @@
   {
     "id": "n1_q043",
     "type": "usage",
-    "prompt": "‘Once you do X, (inevitably a bad result): ‘Once he starts talking, he never stops.’",
+    "prompt": "Once you do X (inevitably a bad result): ‘Once he starts talking, he never stops.’",
     "japanese": null,
     "choices": [
       "彼[かれ]は話[はな]し出[だ]したが最後[さいご]、止[と]まらない。",
@@ -646,7 +646,7 @@
   {
     "id": "n1_q047",
     "type": "usage",
-    "prompt": "‘Let alone X, not even Y’: ‘He can’t write kanji, let alone read a newspaper.’",
+    "prompt": "‘Let alone X, not even Y’: ‘He can’t even read hiragana, let alone a newspaper.’",
     "japanese": null,
     "choices": [
       "新聞[しんぶん]はおろか、ひらがなも読[よ]めない。",
@@ -820,7 +820,7 @@
       "百万円[ひゃくまんえん]からする着物[きもの]を着[き]ていた。",
       "百万円[ひゃくまんえん]からある着物[きもの]を着[き]ていた。",
       "百万円[ひゃくまんえん]だにする着物[きもの]を着[き]ていた。",
-      "百万円[ひゃくまんえん]ばかりする着物[きもの]を着[き]ていた。"
+      "百万円[ひゃくまんえん]をする着物[きもの]を着[き]ていた。"
     ],
     "correctIndex": 0,
     "explanation": "金額＋からする = ‘costing as much as…’ (for prices). からある is for physical quantity (weight/size/number), so ‘百万円からある’ would be the wrong pairing for cost."
@@ -1169,10 +1169,10 @@
     "choices": [
       "ほこりだらけの部屋[へや]",
       "ほこりずくめの部屋[へや]",
-      "ほこりまみれの部屋[へや]",
+      "ほこりっぱなしの部屋[へや]",
       "ほこりがてらの部屋[へや]"
     ],
     "correctIndex": 0,
-    "explanation": "For a room with dust scattered all over, だらけ (‘full of scattered things’) fits. まみれ is for a substance smeared ON a surface/body (手がほこりまみれ), ずくめ = ‘entirely (a category)’, がてら = ‘while’."
+    "explanation": "For a room with dust scattered all over, だらけ (‘full of scattered things’) fits. っぱなし attaches only to a verb stem (開けっぱなし), never to a noun; ずくめ = ‘entirely (a category)’, がてら = ‘while’."
   }
 ]

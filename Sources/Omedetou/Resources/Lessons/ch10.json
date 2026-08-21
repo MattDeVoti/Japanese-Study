@@ -6,7 +6,7 @@
   {
    "id": "hou-ga",
    "name": "〜の方[ほう]が (hou ga) — the more ~ one / A is more ~",
-   "shortDescription": "Singles out one side of a comparison as \"more\" — the 方[ほう] that is bigger, better, or preferred.",
+   "shortDescription": "Singles out one side of a comparison as \"more\" — the 方 (hou) that is bigger, better, or preferred.",
    "formation": "Noun + の方[ほう]が / plain verb・い-adj + 方[ほう]が / な-adj + な + 方[ほう]が （+ B より）",
    "explanation": "方[ほう] literally means \"side\" or \"direction,\" and in a comparison it picks out one option and says it has more of a quality. 方[ほう]が is the natural partner of より (the next point): より marks the thing you measure *against* (\"than B\"), while 方[ほう]が marks the side that *wins* (\"the A side is more\"). The two usually appear together, and the order is flexible:\n- 東京[とうきょう]の方[ほう]が大阪[おおさか]より大[おお]きいです。 — Tokyo is bigger than Osaka.\n- 大阪[おおさか]より東京[とうきょう]の方[ほう]が大[おお]きいです。 — Same meaning, reversed order.\n\nWhat attaches before 方[ほう] depends on the word type:\n- Noun: の + 方[ほう]が — 車[くるま]の方[ほう]が (the car is more…)\n- い-adjective or verb (plain form): attach directly — 安[やす]い方[ほう]が (the cheaper one), 歩[ある]く方[ほう]が (walking is more…)\n- な-adjective: な + 方[ほう]が — 静[しず]かな方[ほう]が (the quieter one)\n\n方[ほう]が is also how you ANSWER a comparison question. Asked 「どちらが〜ですか」 (\"which is more ~?\"), you reply with 〜の方[ほう]が〜:\n- 「コーヒーとお茶[ちゃ]と、どちらが好[す]きですか。」→「お茶[ちゃ]の方[ほう]が好[す]きです。」 — \"Which do you prefer, coffee or tea?\" → \"I prefer tea.\"\n\nAnd 〜の方[ほう]がいい means \"A is better / preferable\": 新[あたら]しい方[ほう]がいいです (the new one is better).",
    "rules": [
@@ -1060,8 +1060,8 @@
     {
      "id": "no-pronoun_q13",
      "type": "fillBlank",
-     "prompt": "Fill in the blank: 甘[あま]い___と辛[つら]いのと、どちらが好[す]きですか。",
-     "japanese": "甘[あま]い___と辛[つら]いのと、どちらが好[す]きですか。",
+     "prompt": "Fill in the blank: 甘[あま]い___と辛[から]いのと、どちらが好[す]きですか。",
+     "japanese": "甘[あま]い___と辛[から]いのと、どちらが好[す]きですか。",
      "choices": [
       "こと",
       "もの",
@@ -1496,12 +1496,12 @@
    "name": "〜つもりだ (tsumori da) — intend to / plan to",
    "shortDescription": "Expresses a firm personal intention or plan.",
    "formation": "Verb (plain form) + つもりです  |  Verb (ない-form) + つもりです",
-   "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思[おも]っている (I'm thinking of doing, covered in Chapter 15), which leaves more room for second thoughts. 来年[らいねん]、日本[にほん]に留学[りゅうがく]するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年は甘[あま]いものを食[た]べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり describes only the speaker's own intentions — for a third person's plans, use 〜する予定[よてい] (has a plan to) or report their words with と言[い]っていた (said that they would, covered in Chapter 20).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分[わ]かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
+   "explanation": "つもり expresses the speaker's own firm, decided intention — something you have already made up your mind about. It is stronger and more committed than と思[おも]っている (I'm thinking of doing, covered in Chapter 17), which leaves more room for second thoughts. 来年[らいねん]、日本[にほん]に留学[りゅうがく]するつもりです means 'I intend to study abroad in Japan next year' — this is a real plan, not a vague wish.\n\nFor negative intentions — 'I plan not to do something' — use the ない-form before つもり: 今年[ことし]は甘[あま]いものを食[た]べないつもりです (I don't plan to eat sweets this year). Two important limits: first, つもり is mainly for your own intentions — and for asking the listener about theirs (何[なに]をするつもりですか). To state a third person's plans, prefer 〜する予定[よてい] (has a plan to) or report their words with と言[い]っていた (said that they would, covered in Chapter 22).\n\nSecond, つもり has a subtle secondary meaning: 'thinking or assuming one has done something — possibly incorrectly.' 分[わ]かったつもりでいた can mean 'I thought I understood — but apparently I didn't.'",
    "rules": [
     "Affirmative plan: plain form + つもりです (食[た]べるつもりです = I intend to eat)",
     "Negative plan: ない-form + つもりです (食[た]べないつもりです = I don't plan to eat)",
     "つもり expresses firm, decided intention — more committed than と思[おも]っている",
-    "Can only describe the speaker's own intentions, not third-person plans",
+    "Mainly for the speaker's own intentions (or asking the listener's); for third-person plans prefer 〜予定[よてい] or と言[い]っていた",
     "Secondary meaning: 'thinking/assuming (possibly incorrectly)'"
    ],
    "examples": [
@@ -2335,9 +2335,9 @@
   },
   {
    "word": "空",
-   "kana": "から",
-   "romaji": "kara",
-   "meaning": "emptiness",
+   "kana": "そら",
+   "romaji": "sora",
+   "meaning": "sky",
    "chars": [
     "空"
    ]

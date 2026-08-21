@@ -49,8 +49,8 @@ enum SimilarKanji {
     /// tiles both reading かん are separable only by meaning, which isn't the
     /// skill this drills — so a member whose reading is already spoken for is
     /// removed, and a set left with one usable member is removed with it. That
-    /// retires 館/官 and 半/判 outright, and lets 青晴清静 play as three (清 and 静
-    /// are both せい).
+    /// retires 館/官 and 半/判 outright: both pairs share their only common
+    /// reading, and neither has a second one worth teaching in its place.
     ///
     /// Filtering later instead was a real bug: the set passed the two-member
     /// check on its raw members, then collapsed to one when the readings were
@@ -88,6 +88,34 @@ enum SimilarKanji {
         return Item(kanji: kanji, reading: reading, meaning: shortMeaning(card.definition))
     }
 
+    /// Readings the count below gets wrong, pinned by hand.
+    ///
+    /// Counting example words favours whichever form opens the most compounds,
+    /// and for a handful of characters that is not a form worth teaching. It
+    /// picks the 連用形 stem over the dictionary form when the stem happens to
+    /// head more nouns (待 → まち from 待ち合わせ, rather than まつ), a fragment
+    /// that isn't a word at all (重 → おも, 静 → しず), or a reading that is real
+    /// but rare (千 → ち, 氷 → ひ, 験 → あかし). A tile in this exercise is the
+    /// only thing naming the kanji, so it has to be the reading the character is
+    /// actually known by.
+    ///
+    /// Every pin is a reading the card already lists — this chooses between what
+    /// the data holds, it doesn't invent. `primaryReading` checks that before
+    /// honouring one, so a pin that stops matching the data quietly falls back
+    /// to the count rather than teaching a reading the card doesn't carry.
+    private static let pinnedReadings: [String: String] = [
+        "待": "まつ", "持": "もつ", "読": "よむ", "申": "もうす",   // dictionary form, not the stem
+        "重": "おもい", "静": "しずか",                            // stems that aren't words
+        "千": "せん", "氷": "こおり", "験": "けん",                  // the reading it's known by
+        "間": "あいだ",                                          // ま is real but thin
+        // 小 and 洗 both computed to the same reading as the character they are
+        // meant to be told apart from (しょう, せん), which retired 少/小 and
+        // 先/洗 — two of the more confusable pairs in the list — without a word
+        // anywhere. Their kun readings separate them and are what the character
+        // is known by regardless.
+        "小": "ちいさい", "洗": "あらう",
+    ]
+
     /// The reading a learner has actually met, chosen by how often it opens one
     /// of the kanji's own example words.
     ///
@@ -98,6 +126,11 @@ enum SimilarKanji {
     private static func primaryReading(_ card: KanjiCard) -> String {
         let kun = card.kunyomi.map(\.kana).filter { !$0.isEmpty }
         let on = card.onyomi.map(\.kana).filter { !$0.isEmpty }
+
+        if let pin = pinnedReadings[card.kanji],
+           (kun + on).contains(where: { hiragana($0).replacingOccurrences(of: "-", with: "") == pin }) {
+            return pin
+        }
         let words = card.commonWords.map { hiragana($0.kana) }
 
         var best: (score: Int, kunFirst: Int, reading: String)?

@@ -1624,25 +1624,25 @@
    "char": "知",
    "word": "知る",
    "reading": "しる",
-   "meaning": "to be aware of"
+   "meaning": "to know; to be aware of; to learn of"
   },
   {
    "char": "英",
-   "word": "英",
-   "reading": "はなぶさ",
-   "meaning": "England"
+   "word": "英語",
+   "reading": "えいご",
+   "meaning": "English (language)"
   },
   {
    "char": "字",
-   "word": "字",
-   "reading": "あざ",
-   "meaning": "character"
+   "word": "文字",
+   "reading": "もじ",
+   "meaning": "letter; character"
   },
   {
    "char": "夜",
    "word": "夜",
    "reading": "よる",
-   "meaning": "evening"
+   "meaning": "night"
   },
   {
    "char": "悪",
@@ -1658,9 +1658,9 @@
   },
   {
    "char": "飯",
-   "word": "飯",
-   "reading": "はん",
-   "meaning": "meal"
+   "word": "ご飯",
+   "reading": "ごはん",
+   "meaning": "cooked rice; meal"
   },
   {
    "char": "妹",
@@ -1693,26 +1693,28 @@
    "word": "知る",
    "kana": "しる",
    "romaji": "shiru",
-   "meaning": "to be aware of",
+   "meaning": "to know; to be aware of; to learn of",
    "chars": [
     "知"
    ]
   },
   {
-   "word": "英",
-   "kana": "はなぶさ",
-   "romaji": "hanabusa",
-   "meaning": "England",
+   "word": "英語",
+   "kana": "えいご",
+   "romaji": "eigo",
+   "meaning": "English (language)",
    "chars": [
-    "英"
+    "英",
+    "語"
    ]
   },
   {
-   "word": "字",
-   "kana": "あざ",
-   "romaji": "aza",
-   "meaning": "character",
+   "word": "文字",
+   "kana": "もじ",
+   "romaji": "moji",
+   "meaning": "letter; character",
    "chars": [
+    "文",
     "字"
    ]
   },
@@ -1720,7 +1722,7 @@
    "word": "夜",
    "kana": "よる",
    "romaji": "yoru",
-   "meaning": "evening",
+   "meaning": "night",
    "chars": [
     "夜"
    ]
@@ -1744,10 +1746,10 @@
    ]
   },
   {
-   "word": "飯",
-   "kana": "はん",
-   "romaji": "han",
-   "meaning": "meal",
+   "word": "ご飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "meaning": "cooked rice; meal",
    "chars": [
     "飯"
    ]
@@ -1762,12 +1764,13 @@
    ]
   },
   {
-   "word": "用",
-   "kana": "よう",
-   "romaji": "you",
-   "meaning": "business",
+   "word": "用意",
+   "kana": "ようい",
+   "romaji": "youi",
+   "meaning": "preparation",
    "chars": [
-    "用"
+    "用",
+    "意"
    ]
   },
   {

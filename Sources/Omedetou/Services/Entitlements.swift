@@ -8,27 +8,41 @@ import SwiftUI
 // hold is already a real thing the app can read. Retrofitting it afterwards means
 // guessing who was here first, which is exactly the guess that can't be made.
 //
-// Nothing is locked today. Everyone who opens the app during the beta is enrolled
-// by BetaAccess and resolves to `.full`, so this whole file is currently a very
-// elaborate way of saying yes. That is deliberate — it means the model can be
-// wired up, seen and tested now, without taking a single feature away from anyone.
+// The beta is closed and the paid tiers are live, so this now decides real
+// access. The order in `refresh()` is the whole safety argument: beta membership
+// is checked before any purchase and can never be overridden by one, so nobody
+// who was here early can be dropped behind a paywall by an expired subscription
+// or a StoreKit hiccup.
 
 enum Tier: String {
-    /// The eventual default for new arrivals once the beta closes.
+    /// The default for new arrivals now that the beta has closed.
     case free
-    /// $5/month, auto-renewing.
+    /// Auto-renewing, billed monthly.
     case monthly
+    /// Auto-renewing, billed yearly. Same subscription group as `monthly`, so
+    /// someone moving between the two is switching plans rather than holding
+    /// both — App Store Connect handles the proration.
+    case yearly
     /// The one-time purchase — "lifetime", though that word is best kept off the
     /// storefront (Apple reads it as a promise the app will outlive itself).
     case full
 
-    /// Monthly and full unlock exactly the same features; they differ in how they
+    /// Every paid tier unlocks exactly the same features; they differ in how they
     /// are paid for, not in what they give. Keeping that in one property means a
     /// future decision to split them is a change here and nowhere else.
     var unlocksEverything: Bool {
         switch self {
-        case .free:             return false
-        case .monthly, .full:   return true
+        case .free:                       return false
+        case .monthly, .yearly, .full:    return true
+        }
+    }
+
+    /// Whether this renews. Only a renewing plan has anything to manage or
+    /// cancel, which is what the Options row keys off.
+    var isSubscription: Bool {
+        switch self {
+        case .monthly, .yearly:  return true
+        case .free, .full:       return false
         }
     }
 
@@ -36,6 +50,7 @@ enum Tier: String {
         switch self {
         case .free:     return "Free"
         case .monthly:  return "Monthly"
+        case .yearly:   return "Yearly"
         case .full:     return "Full access"
         }
     }
@@ -104,9 +119,8 @@ final class Entitlements: ObservableObject {
         // whatever else is or isn't recorded. This is deliberately independent of
         // the BetaMember flag: if that write ever failed, the flag-based path
         // below would drop the person to `.free` and strand them behind a paywall
-        // with nothing to buy. One compile-time constant now decides whether any
-        // lock can appear at all, which is what makes shipping the gating dormant
-        // safe.
+        // with nothing to buy. Now that the beta has closed this is false, and
+        // the flag below is what carries early users.
         if BetaAccess.periodIsOpen {
             set(.full, from: .beta)
             return
@@ -135,36 +149,36 @@ final class Entitlements: ObservableObject {
     }
 }
 
-// MARK: - The seam where StoreKit will plug in
+// MARK: - The seam StoreKit plugs in at
 
-/// Deliberately a stub.
+/// The names the App Store knows, and the one question `Entitlements` asks it.
 ///
-/// The real implementation is perhaps forty lines of StoreKit 2 — read
-/// `Transaction.currentEntitlements`, match against the ids below, listen to
-/// `Transaction.updates` — but it cannot be written honestly yet: the products
-/// don't exist in App Store Connect, so there is nothing to fetch, nothing to buy
-/// and nothing to test against. Untested purchase code that compiles is worse
-/// than an obvious stub, because it looks finished.
-///
-/// When the products exist, this returns the highest tier found in
-/// `Transaction.currentEntitlements` and nothing else in the app needs to change.
+/// This stays a thin seam on purpose: `StoreService` does the talking, and
+/// everything above this line deals in `Tier`. Nothing in the app outside these
+/// two files has ever heard of a product id.
 enum StoreKitBridge {
 
     /// Must match App Store Connect character for character. Product ids are
-    /// permanent — they cannot be renamed or reused once created — so these are
-    /// worth agreeing on before anything is registered.
+    /// permanent — they cannot be renamed or reused once created.
     enum ProductID {
         /// Auto-renewable subscription, inside a subscription group.
         static let monthly = "com.mattdevoti1.omedetou.pro.monthly"
+        /// The same group as `monthly`, at a higher subscription level, so
+        /// moving up from monthly is an upgrade that takes effect immediately
+        /// and moving back down waits for the renewal date. Two groups instead
+        /// of one would let somebody pay for both at once.
+        static let yearly = "com.mattdevoti1.omedetou.pro.yearly"
         /// Non-consumable. A subscription can't be a one-off purchase, so this is
         /// a different product type in a different part of App Store Connect.
         static let full = "com.mattdevoti1.omedetou.pro.full"
     }
 
-    /// Always nil until StoreKit is wired up, which means everyone falls through
-    /// to `.free` — harmless today, because the beta check above catches everyone
-    /// first.
-    static func purchasedTier() -> Tier? { nil }
+    /// The tier this Apple ID currently holds, as of the last time StoreKit was
+    /// asked. Synchronous by design — it is read from view bodies — so it reads
+    /// a cache that `StoreService` refreshes on launch, on every transaction and
+    /// on every restore.
+    @MainActor
+    static func purchasedTier() -> Tier? { StoreService.shared.entitledTier }
 }
 
 

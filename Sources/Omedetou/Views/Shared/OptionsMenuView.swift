@@ -83,7 +83,7 @@ struct OptionsMenuView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button("Done") { FeedbackSounds.shared.playNavigate(); dismiss() }
                         .fontWeight(.semibold)
                 }
             }

@@ -648,7 +648,7 @@
    "name": "〜ので (node) — because (objective/formal reason)",
    "shortDescription": "Gives a reason, like から but more objective and polite — preferred in formal contexts.",
    "formation": "Plain form (Noun / な-adj + な) + ので + Result",
-   "explanation": "ので is the second way to express 'because' in Japanese — and it carries a different social weight than から, which you learned in Chapter 9. While から says 'because (from my personal perspective),' ので presents the reason as a natural, objective consequence — as if anyone would reach the same conclusion. This makes ので the preferred choice in formal writing, business communication, and polite explanations to teachers, customers, or people you want to show respect to.\n\nThe structure mirrors から: reason clause (in plain form) + ので + result clause. The one formation difference from から: nouns and な-adjectives require な before ので. 学生[がくせい]なので (because I am a student), 便利[べんり]なので (because it is convenient).\n\nThink of から as the casual, personal 'because' and ので as the formal, objective 'because' — both translate the same in English, but native speakers choose based on the formality of the situation.",
+   "explanation": "ので is the second way to express 'because' in Japanese — and it carries a different social weight than から, which you learned in Chapter 10. While から says 'because (from my personal perspective),' ので presents the reason as a natural, objective consequence — as if anyone would reach the same conclusion. This makes ので the preferred choice in formal writing, business communication, and polite explanations to teachers, customers, or people you want to show respect to.\n\nThe structure mirrors から: reason clause (in plain form) + ので + result clause. The one formation difference from から: nouns and な-adjectives require な before ので. 学生[がくせい]なので (because I am a student), 便利[べんり]なので (because it is convenient).\n\nThink of から as the casual, personal 'because' and ので as the formal, objective 'because' — both translate the same in English, but native speakers choose based on the formality of the situation.",
    "rules": [
     "Reason (plain form) + ので + Result = Because of [reason], [result]",
     "Noun / な-adj: add な before ので (e.g., 学生[がくせい]なので, 暇[ひま]なので)",
@@ -925,13 +925,13 @@
      "prompt": "Which sentence correctly uses ので to give a reason for an action?",
      "japanese": null,
      "choices": [
-      "寒[さむ]いので、コートを着[ちゃく]ました。",
-      "コートを着[ちゃく]ましたので、寒[さむ]いです。",
-      "寒[さむ]いのに、コートを着[ちゃく]ました。",
-      "寒[さむ]くないので、コートを着[ちゃく]ました。"
+      "寒[さむ]いので、コートを着[き]ました。",
+      "コートを着[き]ましたので、寒[さむ]いです。",
+      "寒[さむ]いのに、コートを着[き]ました。",
+      "寒[さむ]くないので、コートを着[き]ました。"
      ],
      "correctIndex": 0,
-     "explanation": "寒[さむ]い (cold) + ので (because) + コートを着[ちゃく]ました (put on coat) = logical cause → natural effect. Option B reverses cause and effect (putting on a coat does not cause coldness). Option C uses のに — 'even though it was cold, I put on a coat' — possible but carries a specific unexpected nuance. Option D is logically strange (not cold → put on coat)."
+     "explanation": "寒[さむ]い (cold) + ので (because) + コートを着[き]ました (put on coat) = logical cause → natural effect. Option B reverses cause and effect (putting on a coat does not cause coldness). Option C uses のに — 'even though it was cold, I put on a coat' — possible but carries a specific unexpected nuance. Option D is logically strange (not cold → put on coat)."
     },
     {
      "id": "node_q19",
@@ -1608,7 +1608,7 @@
    "name": "〜なくてはいけない / 〜なきゃ — must do / have to",
    "shortDescription": "Double-negative obligation form — 'must do' or 'have to do' — with common casual contractions なくちゃ / なきゃ.",
    "formation": "Verb (ない-form, drop い) + くてはいけない / くてはなりません",
-   "explanation": "〜なくてはいけない means 'must do' or 'have to do' — it expresses a firm obligation. Build it by taking the ない-form of the verb, dropping the final い, and adding くてはいけない. 食[た]べない → 食[た]べ + なくてはいけない → 食[た]べなくてはいけない (must eat). The logic hidden in the grammar: this literally means 'if one does not do X, it will not do' — not doing is unacceptable. The formal version is なくてはなりません, common in written announcements and official contexts.\n\nIn everyday casual speech, Japanese people almost always shorten this dramatically: なくちゃ or なきゃ. 行[い]かなくちゃ = 行[い]かなきゃ = 'I gotta go.' You will hear these shortened forms constantly in real conversation, so recognizing them is just as important as knowing the full form.\n\nDo not confuse this pattern with 〜てはいけない (covered in Chapter 6), which means 'must NOT do' — they are mirror-image patterns: one is obligation, the other is prohibition.",
+   "explanation": "〜なくてはいけない means 'must do' or 'have to do' — it expresses a firm obligation. Build it by taking the ない-form of the verb, dropping the final い, and adding くてはいけない. 食[た]べない → 食[た]べ + なくてはいけない → 食[た]べなくてはいけない (must eat). The logic hidden in the grammar: this literally means 'if one does not do X, it will not do' — not doing is unacceptable. The formal version is なくてはなりません, common in written announcements and official contexts.\n\nIn everyday casual speech, Japanese people almost always shorten this dramatically: なくちゃ or なきゃ. 行[い]かなくちゃ = 行[い]かなきゃ = 'I gotta go.' You will hear these shortened forms constantly in real conversation, so recognizing them is just as important as knowing the full form.\n\nDo not confuse this pattern with 〜てはいけない (covered in Chapter 7), which means 'must NOT do' — they are mirror-image patterns: one is obligation, the other is prohibition.",
    "rules": [
     "Pattern: Verb (ない-form, drop い) + くてはいけない = must do / have to do",
     "Formal: 〜なくてはなりません (written, official contexts)",

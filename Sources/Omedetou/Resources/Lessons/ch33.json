@@ -648,7 +648,7 @@
    "name": "〜かねない (kane nai) — might possibly (negative outcome)",
    "shortDescription": "A worried 'might' — signals that a negative or unwanted outcome is a real, concerning possibility.",
    "formation": "Verb stem (ます-stem) + かねない",
-   "explanation": "かねない is the grammar of concern. Unlike the neutral かもしれない (might be), かねない is almost exclusively used for outcomes the speaker is worried about. このまま続[つづ]ければ、健康[けんこう]を害[がい]しかねない: there's a real risk, and the speaker is flagging it — please stop before it happens. Think of かねない as the warning light on a dashboard: the problem hasn't happened yet, but the conditions are ripe for it.\n\nThe pattern descends from かねる, a verb meaning 'difficult to do / cannot bring oneself to do': 言[い]いかねます (I find it difficult to say). かねない is its negative counterpart — not 'difficult to do,' but 'quite possibly going to do (something undesirable).' It's most at home in warnings, cautions, and risk assessments. For describing an established habitual tendency toward something negative — rather than a specific looming risk — see 〜がちだ, which will be covered in Chapter 36.",
+   "explanation": "かねない is the grammar of concern. Unlike the neutral かもしれない (might be), かねない is almost exclusively used for outcomes the speaker is worried about. このまま続[つづ]ければ、健康[けんこう]を害[がい]しかねない: there's a real risk, and the speaker is flagging it — please stop before it happens. Think of かねない as the warning light on a dashboard: the problem hasn't happened yet, but the conditions are ripe for it.\n\nThe pattern descends from かねる, a verb meaning 'difficult to do / cannot bring oneself to do': 言[い]いかねます (I find it difficult to say). かねない is its negative counterpart — not 'difficult to do,' but 'quite possibly going to do (something undesirable).' It's most at home in warnings, cautions, and risk assessments. For describing an established habitual tendency toward something negative — rather than a specific looming risk — see 〜がちだ, which will be covered in Chapter 38.",
    "rules": [
     "Verb stem + かねない = might / could very possibly (negative outcome the speaker worries about)",
     "Used exclusively for negative or problematic outcomes",
@@ -659,17 +659,17 @@
    "examples": [
     {
      "japanese": "このまま放置[ほうち]すれば、大[おお]きな問題[もんだい]になりかねません。",
-     "romaji": "Kono mama houchi sureba, ookina mondai ni nari kanemase n.",
+     "romaji": "Kono mama houchi sureba, ookina mondai ni nari kanemasen.",
      "english": "If left as is, this could very well become a major problem."
     },
     {
      "japanese": "そんな無茶[むちゃ]な食事[しょくじ]制限[せいげん]は、体[からだ]を壊[こわ]しかねません。",
-     "romaji": "Sonna mucha na shokuji seigen wa, karada wo kowashi kanemase n.",
+     "romaji": "Sonna mucha na shokuji seigen wa, karada wo kowashi kanemasen.",
      "english": "Such an extreme dietary restriction could seriously damage your health."
     },
     {
      "japanese": "不注意[ふちゅうい]な発言[はつげん]は、誤解[ごかい]を招[まね]きかねません。",
-     "romaji": "Fuchuui na hatsugen wa, gokai wo maneki kanemase n.",
+     "romaji": "Fuchuui na hatsugen wa, gokai wo maneki kanemasen.",
      "english": "Careless remarks can very possibly invite misunderstanding."
     },
     {
@@ -866,16 +866,16 @@
     {
      "id": "kane-nai_q14",
      "type": "construct",
-     "prompt": "Which correctly says 'The patient might not recover'?",
+     "prompt": "Which correctly says 'I cannot bring myself to agree to that' (using かねる)?",
      "japanese": null,
      "choices": [
-      "患者[かんじゃ]は回復[かいふく]しかねない。",
-      "患者[かんじゃ]は回復[かいふく]するかねない。",
-      "患者[かんじゃ]は回復[かいふく]しかねる。",
-      "患者[かんじゃ]は回復[かいふく]してかねない。"
+      "それには賛成[さんせい]しかねない。",
+      "それには賛成[さんせい]するかねない。",
+      "それには賛成[さんせい]しかねる。",
+      "それには賛成[さんせい]してかねない。"
      ],
      "correctIndex": 2,
-     "explanation": "CAREFUL: 回復[かいふく]しかねる = cannot recover / recovery is difficult (かねる = inability/reluctance). 回復[かいふく]しかねない = might not recover would actually be 回復[かいふく]できないかもしれない. So this question tests かねる (inability) vs. かねない (potential). 患者[かんじゃ]は回復[かいふく]しかねる = the patient cannot seem to recover."
+     "explanation": "かねる (masu-stem + かねる) = cannot bring oneself to / find it difficult to: 賛成[さんせい]しかねる = I cannot agree to that (a soft, formal refusal). Don't confuse it with かねない, which means 'might well (do something undesirable)': 賛成[さんせい]しかねない would mean 'might well agree' — the opposite idea. かねる and かねない both attach to the masu-stem, never to the dictionary or te-form."
     },
     {
      "id": "kane-nai_q15",
@@ -1313,9 +1313,9 @@
   },
   {
    "char": "加",
-   "word": "加",
-   "reading": "か",
-   "meaning": "addition"
+   "word": "参加",
+   "reading": "さんか",
+   "meaning": "participation"
   },
   {
    "char": "予",
@@ -1343,9 +1343,9 @@
   },
   {
    "char": "容",
-   "word": "容",
-   "reading": "いれる",
-   "meaning": "contain"
+   "word": "内容",
+   "reading": "ないよう",
+   "meaning": "contents; substance"
   },
   {
    "char": "疑",
@@ -1403,9 +1403,9 @@
   },
   {
    "char": "非",
-   "word": "非",
-   "reading": "ひ",
-   "meaning": "fault"
+   "word": "非常",
+   "reading": "ひじょう",
+   "meaning": "emergency; extreme"
   },
   {
    "char": "呼",
@@ -1445,9 +1445,9 @@
   },
   {
    "char": "婦",
-   "word": "婦",
-   "reading": "よめ",
-   "meaning": "lady"
+   "word": "主婦",
+   "reading": "しゅふ",
+   "meaning": "housewife"
   },
   {
    "char": "熱",
@@ -1507,7 +1507,7 @@
    "char": "吸",
    "word": "吸う",
    "reading": "すう",
-   "meaning": "to smoke"
+   "meaning": "to inhale; to suck; to smoke (a cigarette)"
   },
   {
    "char": "歯",
@@ -1576,11 +1576,12 @@
    ]
   },
   {
-   "word": "加",
-   "kana": "か",
-   "romaji": "ka",
-   "meaning": "addition",
+   "word": "参加",
+   "kana": "さんか",
+   "romaji": "sanka",
+   "meaning": "participation",
    "chars": [
+    "参",
     "加"
    ]
   },
@@ -1622,11 +1623,12 @@
    ]
   },
   {
-   "word": "容",
-   "kana": "いれる",
-   "romaji": "ireru",
-   "meaning": "contain",
+   "word": "内容",
+   "kana": "ないよう",
+   "romaji": "naiyou",
+   "meaning": "contents; substance",
    "chars": [
+    "内",
     "容"
    ]
   },
@@ -1713,12 +1715,13 @@
    ]
   },
   {
-   "word": "非",
-   "kana": "ひ",
-   "romaji": "hi",
-   "meaning": "fault",
+   "word": "非常",
+   "kana": "ひじょう",
+   "romaji": "hijou",
+   "meaning": "emergency; extreme",
    "chars": [
-    "非"
+    "非",
+    "常"
    ]
   },
   {
@@ -1777,11 +1780,12 @@
    ]
   },
   {
-   "word": "婦",
-   "kana": "よめ",
-   "romaji": "yome",
-   "meaning": "lady",
+   "word": "主婦",
+   "kana": "しゅふ",
+   "romaji": "shufu",
+   "meaning": "housewife",
    "chars": [
+    "主",
     "婦"
    ]
   },
@@ -1870,7 +1874,7 @@
    "word": "吸う",
    "kana": "すう",
    "romaji": "suu",
-   "meaning": "to smoke",
+   "meaning": "to inhale; to suck; to smoke (a cigarette)",
    "chars": [
     "吸"
    ]
@@ -1939,11 +1943,12 @@
    ]
   },
   {
-   "word": "葉っぱ",
-   "kana": "はっぱ",
-   "romaji": "happa",
-   "meaning": "leaf",
+   "word": "言葉",
+   "kana": "ことば",
+   "romaji": "kotoba",
+   "meaning": "word; language",
    "chars": [
+    "言",
     "葉"
    ]
   },

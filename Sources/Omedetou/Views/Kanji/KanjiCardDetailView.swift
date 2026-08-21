@@ -18,6 +18,7 @@ struct KanjiCardDetailView: View {
                 VStack(alignment: .center, spacing: 20) {
                     KanjiCardHeader(card: card, isFavorite: isFavorite) {
                         store.toggleFavorite(cardId: card.id)
+                        FeedbackSounds.shared.playFavorite(isFavorite)
                     }
                     .padding(.top, 16)
 
@@ -91,6 +92,7 @@ struct KanjiCardBody: View {
                         .foregroundColor(.appText)
                     if hasInsight {
                         Button {
+                            FeedbackSounds.shared.play(.slide)
                             withAnimation(.spring(response: 0.32, dampingFraction: 0.86)) {
                                 showInsight.toggle()
                             }

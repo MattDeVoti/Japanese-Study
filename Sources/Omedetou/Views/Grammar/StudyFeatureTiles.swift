@@ -209,10 +209,73 @@ struct VocalDeckTile: View {
     }
 }
 
+/// The sentence loop: Japanese is read, a pause runs down, then the English.
+/// The countdown is the whole point of the mode, so it is what the tile draws.
+struct SentenceAudioTile: View {
+    let color: Color
+    @State private var animating = false
+
+    var body: some View {
+        FeatureCard(color: color, title: "Sentence Audio", subtitle: "Japanese, a pause, then English", square: false) {
+            HStack(spacing: 0) {
+                Spacer()
+
+                RoundedRectangle(cornerRadius: 9, style: .continuous)
+                    .fill(color.opacity(0.95))
+                    .overlay(RoundedRectangle(cornerRadius: 9, style: .continuous)
+                        .strokeBorder(color.opacity(0.7), lineWidth: 1))
+                    .frame(width: 46, height: 60)
+                    .overlay(
+                        Text("文")
+                            .font(.system(size: 24, weight: .bold))
+                            .foregroundColor(Color.appSurface)
+                    )
+
+                // The pause, ticking down.
+                ZStack {
+                    Circle()
+                        .stroke(color.opacity(0.30), lineWidth: 3)
+                    Circle()
+                        .trim(from: 0, to: animating ? 0.05 : 1)
+                        .stroke(color.opacity(0.85), style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                        .rotationEffect(.degrees(-90))
+                        .animation(.linear(duration: 2.6).repeatForever(autoreverses: false),
+                                   value: animating)
+                }
+                .frame(width: 34, height: 34)
+                .padding(.horizontal, 16)
+
+                Text("EN")
+                    .font(.system(size: 15, weight: .heavy))
+                    .foregroundColor(color)
+                    .frame(width: 54)
+                    .padding(.trailing, 16)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .onAppear { animating = true }
+    }
+}
+
 /// A single card turning over, front to meaning — what a kanji card actually does.
 struct KanjiFlipTile: View {
     let color: Color
-    @State private var flipped = false
+
+    /// Half-turns completed. Accumulating rather than toggling, so the card
+    /// keeps turning the same way instead of rocking back and forth — and, more
+    /// importantly, so every half-turn is a *state change* the face swap can
+    /// hang off. A `repeatForever` rotation animates with no state changes at
+    /// all, which leaves nothing to tell the faces when to trade places.
+    @State private var turns = 0
+    @State private var timer: Timer?
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// One half-turn, and how long a face is held before the next one.
+    private static let flip: Double = 0.9
+    private static let hold: Double = 1.2
+
+    private var showsBack: Bool { turns % 2 == 1 }
 
     var body: some View {
         FeatureCard(color: color, title: "Kanji", subtitle: "Character flashcards") {
@@ -224,30 +287,47 @@ struct KanjiFlipTile: View {
                             .strokeBorder(color.opacity(0.8), lineWidth: 1)
                     )
                     .frame(width: 66, height: 82)
-                    .overlay(
-                        // The back reads mirrored unless it's flipped too.
-                        Group {
-                            if flipped {
-                                Text("water")
-                                    .font(.system(size: 13, weight: .bold))
-                                    .foregroundColor(Color.appSurface)
-                                    .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
-                            } else {
-                                Text("水")
-                                    .font(.system(size: 38, weight: .bold))
-                                    .foregroundColor(Color.appSurface)
-                            }
-                        }
-                    )
-                    .rotation3DEffect(.degrees(flipped ? 180 : 0), axis: (x: 0, y: 1, z: 0))
+                    .overlay(faces)
+                    .rotation3DEffect(.degrees(Double(turns) * 180), axis: (x: 0, y: 1, z: 0))
+                    .animation(.easeInOut(duration: Self.flip), value: turns)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .offset(y: -10)
         }
-        .onAppear {
-            withAnimation(.easeInOut(duration: 0.9).repeatForever(autoreverses: true).delay(1.1)) {
-                flipped = true
-            }
+        .onAppear(perform: start)
+        .onDisappear { timer?.invalidate(); timer = nil }
+    }
+
+    /// Both faces exist at once; only one is ever visible.
+    ///
+    /// The swap is a hard cut at the halfway point rather than an animated
+    /// change: given a duration, SwiftUI cross-fades them, and a cross-fade
+    /// during a flip shows 水 and "water" through each other — which is the one
+    /// thing a flip must never show. A near-zero duration delayed to the moment
+    /// the card is edge-on hides the cut completely.
+    private var faces: some View {
+        ZStack {
+            Text("水")
+                .font(.system(size: 38, weight: .bold))
+                .foregroundColor(Color.appSurface)
+                .opacity(showsBack ? 0 : 1)
+
+            Text("water")
+                .font(.system(size: 13, weight: .bold))
+                .foregroundColor(Color.appSurface)
+                // The card is reversed at this point, so the label would read
+                // mirrored without turning it back over.
+                .rotation3DEffect(.degrees(180), axis: (x: 0, y: 1, z: 0))
+                .opacity(showsBack ? 1 : 0)
+        }
+        .animation(.linear(duration: 0.01).delay(Self.flip / 2), value: turns)
+    }
+
+    private func start() {
+        // Reduce Motion gets the front of the card, held still.
+        guard !reduceMotion, timer == nil else { return }
+        timer = Timer.scheduledTimer(withTimeInterval: Self.flip + Self.hold, repeats: true) { _ in
+            turns += 1
         }
     }
 }

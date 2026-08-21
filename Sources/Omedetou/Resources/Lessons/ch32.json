@@ -77,11 +77,11 @@
      "choices": [
       "するべきだ",
       "したべきだ",
-      "しべきだ (or するべきだ — both acceptable)",
+      "すべきだ (or するべきだ — both acceptable)",
       "すべきだ (only — するべきだ is wrong)"
      ],
      "correctIndex": 2,
-     "explanation": "Irregular: する + べきだ = both すべきだ and するべきだ are acceptable in modern Japanese. 勉強[べんきょう]すべきだ and 勉強[べんきょう]するべきだ are both correct."
+     "explanation": "Before べきだ, する has a special contracted form: すべきだ. This is the classical form and the more common one in writing, but するべきだ is also acceptable in modern Japanese. したべきだ is wrong (べき follows the dictionary form, never the past), and しべきだ does not exist."
     },
     {
      "id": "beki-da_q4",
@@ -664,7 +664,7 @@
     },
     {
      "japanese": "子[こ]どもの泣[な]き顔[がお]を見[み]たら、抱[だ]き締[し]めずにはいられません。",
-     "romaji": "Kodomo no nakigao wo mitara, dakishimezu ni wa iraremase n.",
+     "romaji": "Kodomo no nakigao wo mitara, dakishimezu ni wa iraremasen.",
      "english": "When I see a child's crying face, I can't help but hold them."
     },
     {
@@ -799,13 +799,13 @@
      "prompt": "Which means 'Seeing that puppy, I couldn't help petting it'?",
      "japanese": null,
      "choices": [
-      "あの子犬[こいぬ]を見[み]て、触[ふ]らずにはいられなかった。",
-      "あの子犬[こいぬ]を見[み]て、触[ふ]るずにはいられなかった。",
+      "あの子犬[こいぬ]を見[み]て、触[さわ]らずにはいられなかった。",
+      "あの子犬[こいぬ]を見[み]て、触[さわ]るずにはいられなかった。",
       "あの子犬[こいぬ]を見[み]て、触[しょく]いずにはいられなかった。",
       "あの子犬[こいぬ]を見[み]て、触[さわ]ったずにはいられなかった。"
      ],
      "correctIndex": 0,
-     "explanation": "ず-form + にはいられなかった (past): 触[ふ]る → 触[ふ]ら (neg stem) + ずにはいられなかった = couldn't help touching/petting. Group 1 る-verb conjugation: 触[ふ]る → 触[ふ]ら."
+     "explanation": "ず-form + にはいられなかった (past): 触[さわ]る → 触[さわ]ら (neg stem) + ずにはいられなかった = couldn't help touching/petting. Group 1 る-verb conjugation: 触[さわ]る → 触[さわ]ら."
     },
     {
      "id": "zu-ni-wa-irarenai_q10",
@@ -1331,9 +1331,9 @@
   },
   {
    "char": "組",
-   "word": "組",
-   "reading": "く",
-   "meaning": "association"
+   "word": "番組",
+   "reading": "ばんぐみ",
+   "meaning": "TV/radio programme"
   },
   {
    "char": "任",
@@ -1463,8 +1463,8 @@
   },
   {
    "char": "罪",
-   "word": "罪",
-   "reading": "つみ",
+   "word": "犯罪",
+   "reading": "はんざい",
    "meaning": "crime"
   },
   {
@@ -1487,9 +1487,9 @@
   },
   {
    "char": "抱",
-   "word": "抱",
-   "reading": "だ",
-   "meaning": "embrace"
+   "word": "抱える",
+   "reading": "かかえる",
+   "meaning": "to hold or carry under or in the arms"
   },
   {
    "char": "互",
@@ -1601,11 +1601,12 @@
    ]
   },
   {
-   "word": "組",
-   "kana": "く",
-   "romaji": "ku",
-   "meaning": "association",
+   "word": "番組",
+   "kana": "ばんぐみ",
+   "romaji": "bangumi",
+   "meaning": "TV/radio programme",
    "chars": [
+    "番",
     "組"
    ]
   },
@@ -1803,11 +1804,12 @@
    ]
   },
   {
-   "word": "罪",
-   "kana": "つみ",
-   "romaji": "tsumi",
+   "word": "犯罪",
+   "kana": "はんざい",
+   "romaji": "hanzai",
    "meaning": "crime",
    "chars": [
+    "犯",
     "罪"
    ]
   },
@@ -1840,10 +1842,10 @@
    ]
   },
   {
-   "word": "抱",
-   "kana": "だ",
-   "romaji": "da",
-   "meaning": "embrace",
+   "word": "抱える",
+   "kana": "かかえる",
+   "romaji": "kakaeru",
+   "meaning": "to hold or carry under or in the arms",
    "chars": [
     "抱"
    ]
@@ -1935,7 +1937,7 @@
    "word": "指示",
    "kana": "しじ",
    "romaji": "shiji",
-   "meaning": "indication",
+   "meaning": "instructions; directions; indication",
    "chars": [
     "指",
     "示"
@@ -2038,7 +2040,7 @@
    "word": "責任",
    "kana": "せきにん",
    "romaji": "sekinin",
-   "meaning": "duty",
+   "meaning": "responsibility",
    "chars": [
     "責",
     "任"
@@ -2054,12 +2056,13 @@
    ]
   },
   {
-   "word": "寄せ",
-   "kana": "よせ",
-   "romaji": "yose",
-   "meaning": "last moves (in go, shogi, or chess)",
+   "word": "寄付",
+   "kana": "きふ",
+   "romaji": "kifu",
+   "meaning": "donation; contribution",
    "chars": [
-    "寄"
+    "寄",
+    "付"
    ]
   },
   {

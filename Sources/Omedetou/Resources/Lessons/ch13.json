@@ -60,7 +60,7 @@
      "id": "potential_q2",
      "type": "fillBlank",
      "prompt": "Choose the correct potential form to complete the sentence: この漢字[かんじ]が___か。(Can you read this kanji?)",
-     "japanese": "この漢字[かんじ]が___か。",
+     "japanese": "この漢字[かんじ]が___。",
      "choices": [
       "読[よ]みますか",
       "読[よ]めますか",
@@ -102,7 +102,7 @@
      "id": "potential_q5",
      "type": "fillBlank",
      "prompt": "Choose the correct word to complete: ピアノが___。(I can play the piano.)",
-     "japanese": "ピアノが___。",
+     "japanese": "ピアノが___",
      "choices": [
       "弾[ひ]けます。",
       "弾[ひ]きられます。",
@@ -118,10 +118,10 @@
      "prompt": "How do you say 'I can't eat spicy food'?",
      "japanese": null,
      "choices": [
-      "辛[つら]い食[た]べ物[もの]が食[た]べできません。",
-      "辛[つら]い食[た]べ物[もの]が食[た]べられません。",
-      "辛[つら]い食[た]べ物[もの]が食[た]べません。",
-      "辛[つら]い食[た]べ物[もの]が食[た]べれません。"
+      "辛[から]い食[た]べ物[もの]が食[た]べできません。",
+      "辛[から]い食[た]べ物[もの]が食[た]べられません。",
+      "辛[から]い食[た]べ物[もの]が食[た]べません。",
+      "辛[から]い食[た]べ物[もの]が食[た]べれません。"
      ],
      "correctIndex": 1,
      "explanation": "食[た]べる is Group 2. Drop る, add られる → 食[た]べられる. Negative polite: 食[た]べられません. 食[た]べません = 'I don't eat' (habitual negative, not potential). 食[た]べれません is ra-nuki (colloquial/non-standard). 食[た]べできません is an invalid construction."
@@ -230,13 +230,13 @@
      "prompt": "How do you say 'I was able to finish the report'?",
      "japanese": null,
      "choices": [
-      "レポートが終[お]わることにしました。",
-      "レポートが終[お]われました。",
-      "レポートが終[お]わりました。",
-      "レポートが終[お]わりられました。"
+      "レポートを終[お]えることにしました。",
+      "レポートを終[お]えられました。",
+      "レポートを終[お]えました。",
+      "レポートを終[お]えりられました。"
      ],
      "correctIndex": 1,
-     "explanation": "終[お]わる is Group 1 (the syllable before る is わ, an a-row kana). Potential: わ-row → え-row: 終[お]わ → 終[お]われ + る = 終[お]われる. Past polite: 終[お]われました = 'was able to finish' ✓. 終[お]わりました = 'finished' (no potential meaning). 終[お]わることにしました = 'decided to finish.' 終[お]わりられました mixes masu-stem with られる (Group 2 pattern, wrong for this verb)."
+     "explanation": "終[お]える (to finish something) is a Group 2 verb, so its potential form is 終[お]えられる → 終[お]えられました = 'I was able to finish it.' 終[お]えました is just 'I finished it' (no ability meaning), 終[お]えることにしました means 'decided to finish,' and 終[お]えりられました is not a real form."
     },
     {
      "id": "potential_q15",
@@ -258,13 +258,13 @@
      "prompt": "How do you say 'I can come to the party'?",
      "japanese": null,
      "choices": [
-      "パーティーに来[らい]できます。",
-      "パーティーに来[らい]えます。",
-      "パーティーに来[らい]えられます。",
+      "パーティーに来[き]できます。",
+      "パーティーに来[き]えます。",
+      "パーティーに来[き]えられます。",
       "パーティーに来[こ]られます。"
      ],
      "correctIndex": 3,
-     "explanation": "くる is irregular: potential form is こられる. Polite: こられます. Written with kanji: 来[こ]られます (pronounced こられます) ✓. 来[らい]できます, 来[らい]えます, and 来[らい]えられます are not valid potential forms of this irregular verb."
+     "explanation": "くる is irregular: potential form is こられる. Polite: こられます. Written with kanji: 来[こ]られます (pronounced こられます) ✓. 来[き]できます, 来[き]えます, and 来[き]えられます are not valid potential forms of this irregular verb."
     },
     {
      "id": "potential_q17",
@@ -743,15 +743,15 @@
      "id": "sou-desu-appearance_q5",
      "type": "fillBlank",
      "prompt": "Choose the correct form: このスープは___。(This soup looks spicy.)",
-     "japanese": "このスープは___。",
+     "japanese": "このスープは___",
      "choices": [
-      "辛[つら]そうです。",
-      "辛[つら]いそうです。",
-      "辛[つら]くそうです。",
-      "辛[つら]だそうです。"
+      "辛[から]そうです。",
+      "辛[から]いそうです。",
+      "辛[から]くそうです。",
+      "辛[から]だそうです。"
      ],
      "correctIndex": 0,
-     "explanation": "辛[つら]い (i-adj) → drop い + そう = 辛[つら]そう ✓. Polite: 辛[つら]そうです = 'looks spicy.' 辛[つら]いそうです = hearsay そう ('I heard it's spicy' — attaches to full plain form). 辛[つら]くそうです and 辛[つら]だそうです are not valid appearance-そう formations."
+     "explanation": "辛[から]い (i-adj) → drop い + そう = 辛[から]そう ✓. Polite: 辛[から]そうです = 'looks spicy.' 辛[から]いそうです = hearsay そう ('I heard it's spicy' — attaches to full plain form). 辛[から]くそうです and 辛[から]だそうです are not valid appearance-そう formations."
     },
     {
      "id": "sou-desu-appearance_q6",
@@ -831,11 +831,11 @@
      "choices": [
       "降[ふ]るそう",
       "降[ふ]ったそう",
-      "降[お]りそう",
+      "降[ふ]りそう",
       "降[ふ]ってそう"
      ],
      "correctIndex": 2,
-     "explanation": "Verb masu-stem + そう: 降[ふ]る → polite 降[お]ります → stem 降[お]り + そう = 降[お]りそう ✓. Based on direct visual evidence (dark sky). 降[ふ]るそう = hearsay 'I heard it will rain' (plain form + そう). 降[ふ]ったそう = hearsay past 'I heard it rained.' 降[ふ]ってそう is non-standard."
+     "explanation": "Verb masu-stem + そう: 降[ふ]る → polite 降[ふ]ります → stem 降[ふ]り + そう = 降[ふ]りそう ✓. Based on direct visual evidence (dark sky). 降[ふ]るそう = hearsay 'I heard it will rain' (plain form + そう). 降[ふ]ったそう = hearsay past 'I heard it rained.' 降[ふ]ってそう is non-standard."
     },
     {
      "id": "sou-desu-appearance_q12",
@@ -1931,9 +1931,9 @@
  "kanji": [
   {
    "char": "動",
-   "word": "動",
-   "reading": "どう",
-   "meaning": "motion"
+   "word": "動く",
+   "reading": "うごく",
+   "meaning": "to move"
   },
   {
    "char": "体",
@@ -1987,25 +1987,16 @@
    "char": "肉",
    "word": "肉",
    "reading": "にく",
-   "meaning": "flesh"
+   "meaning": "meat; flesh"
   },
   {
    "char": "漢",
-   "word": "漢",
-   "reading": "かん",
-   "meaning": "Sino-"
+   "word": "漢字",
+   "reading": "かんじ",
+   "meaning": "kanji; Chinese character"
   }
  ],
  "kanjiWords": [
-  {
-   "word": "動",
-   "kana": "どう",
-   "romaji": "dou",
-   "meaning": "motion",
-   "chars": [
-    "動"
-   ]
-  },
   {
    "word": "体",
    "kana": "からだ",
@@ -2084,18 +2075,19 @@
    "word": "肉",
    "kana": "にく",
    "romaji": "niku",
-   "meaning": "flesh",
+   "meaning": "meat; flesh",
    "chars": [
     "肉"
    ]
   },
   {
-   "word": "漢",
-   "kana": "かん",
-   "romaji": "kan",
-   "meaning": "Sino-",
+   "word": "漢字",
+   "kana": "かんじ",
+   "romaji": "kanji",
+   "meaning": "kanji; Chinese character",
    "chars": [
-    "漢"
+    "漢",
+    "字"
    ]
   },
   {
@@ -2129,7 +2121,7 @@
    "word": "体温",
    "kana": "たいおん",
    "romaji": "taion",
-   "meaning": "temperature",
+   "meaning": "body temperature",
    "chars": [
     "体",
     "温"

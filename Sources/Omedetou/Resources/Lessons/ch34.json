@@ -328,7 +328,7 @@
    "name": "〜に対[たい]して (ni taishite) — toward / against / in contrast to",
    "shortDescription": "Marks the target of an action or attitude ('toward'), or presents a contrast between two things ('whereas').",
    "formation": "Noun + に対[たい]して / に対[たい]する  |  Plain form + のに対[たい]して (contrasting with a clause)",
-   "explanation": "に対[たい]して is a formal connector with two closely related functions. First, it marks the target or recipient of an action, reaction, or attitude — answering the question 'toward whom?' or 'in response to what?' 批判[ひはん]に対[たい]して冷静[れいせい]に対応[たいおう]した: the calm response was directed at the criticism. 子[こ]どもに対[たい]して優[やさ]しくしてください: kindness is the action, children are its target. The attributive form に対[たい]する modifies nouns directly: 外国人[がいこくじん]観光客[かんこうきゃく]に対[たい]するサービス (services aimed at foreign tourists).\n\nSecond, に対[たい]して expresses contrast: 夏[なつ]は暑[あつ]いのに対[たい]して、冬[ふゆ]は寒[さむ]い (Whereas summer is hot, winter is cold). This contrastive use resembles 一方[いっぽう]で (Chapter 29) — both present two sides of a situation — but に対[たい]して is more explicitly directional (A and B are presented as oriented toward or against each other), while 一方[いっぽう]で simply places two realities alongside each other. Both are formal and at home in writing.",
+   "explanation": "に対[たい]して is a formal connector with two closely related functions. First, it marks the target or recipient of an action, reaction, or attitude — answering the question 'toward whom?' or 'in response to what?' 批判[ひはん]に対[たい]して冷静[れいせい]に対応[たいおう]した: the calm response was directed at the criticism. 子[こ]どもに対[たい]して優[やさ]しくしてください: kindness is the action, children are its target. The attributive form に対[たい]する modifies nouns directly: 外国人[がいこくじん]観光客[かんこうきゃく]に対[たい]するサービス (services aimed at foreign tourists).\n\nSecond, に対[たい]して expresses contrast: 夏[なつ]は暑[あつ]いのに対[たい]して、冬[ふゆ]は寒[さむ]い (Whereas summer is hot, winter is cold). This contrastive use resembles 一方[いっぽう]で (Chapter 31) — both present two sides of a situation — but に対[たい]して is more explicitly directional (A and B are presented as oriented toward or against each other), while 一方[いっぽう]で simply places two realities alongside each other. Both are formal and at home in writing.",
    "rules": [
     "Noun + に対[たい]して = toward / with respect to / for (directional — target of action/attitude)",
     "Attributive: Noun + に対[たい]する + Noun = [noun] aimed at / toward [noun]",
@@ -1663,9 +1663,9 @@
   },
   {
    "char": "反",
-   "word": "反",
-   "reading": "はん",
-   "meaning": "anti-"
+   "word": "反対",
+   "reading": "はんたい",
+   "meaning": "opposition; opposite"
   },
   {
    "char": "判",
@@ -1683,25 +1683,25 @@
    "char": "参",
    "word": "参る",
    "reading": "まいる",
-   "meaning": "to go"
+   "meaning": "to go; to come (humble)"
   },
   {
    "char": "官",
-   "word": "官",
-   "reading": "かん",
-   "meaning": "bureaucrat"
+   "word": "警官",
+   "reading": "けいかん",
+   "meaning": "police officer"
   },
   {
    "char": "両",
-   "word": "両",
-   "reading": "てる",
+   "word": "両方",
+   "reading": "りょうほう",
    "meaning": "both"
   },
   {
    "char": "式",
    "word": "式",
    "reading": "しき",
-   "meaning": "equation"
+   "meaning": "ceremony; style; formula"
   },
   {
    "char": "局",
@@ -1717,21 +1717,21 @@
   },
   {
    "char": "難",
-   "word": "難",
-   "reading": "むずか",
+   "word": "難しい",
+   "reading": "むずかしい",
    "meaning": "difficult"
   },
   {
    "char": "警",
-   "word": "警",
-   "reading": "いましめる",
-   "meaning": "admonish"
+   "word": "警察",
+   "reading": "けいさつ",
+   "meaning": "police"
   },
   {
    "char": "働",
-   "word": "働",
-   "reading": "はたら",
-   "meaning": "work"
+   "word": "働く",
+   "reading": "はたらく",
+   "meaning": "to work"
   },
   {
    "char": "差",
@@ -1789,15 +1789,15 @@
   },
   {
    "char": "徒",
-   "word": "徒",
-   "reading": "いたずら",
-   "meaning": "on foot"
+   "word": "生徒",
+   "reading": "せいと",
+   "meaning": "pupil; student"
   },
   {
    "char": "賛",
-   "word": "賛",
-   "reading": "さん",
-   "meaning": "praise"
+   "word": "賛成",
+   "reading": "さんせい",
+   "meaning": "approval; agreement"
   },
   {
    "char": "越",
@@ -1813,8 +1813,8 @@
   },
   {
    "char": "到",
-   "word": "到",
-   "reading": "いたる",
+   "word": "到着",
+   "reading": "とうちゃく",
    "meaning": "arrival"
   },
   {
@@ -1943,12 +1943,13 @@
    ]
   },
   {
-   "word": "反",
-   "kana": "はん",
-   "romaji": "han",
-   "meaning": "anti-",
+   "word": "反対",
+   "kana": "はんたい",
+   "romaji": "hantai",
+   "meaning": "opposition; opposite",
    "chars": [
-    "反"
+    "反",
+    "対"
    ]
   },
   {
@@ -1973,34 +1974,36 @@
    "word": "参る",
    "kana": "まいる",
    "romaji": "mairu",
-   "meaning": "to go",
+   "meaning": "to go; to come (humble)",
    "chars": [
     "参"
    ]
   },
   {
-   "word": "官",
-   "kana": "かん",
-   "romaji": "kan",
-   "meaning": "bureaucrat",
+   "word": "警官",
+   "kana": "けいかん",
+   "romaji": "keikan",
+   "meaning": "police officer",
    "chars": [
+    "警",
     "官"
    ]
   },
   {
-   "word": "両",
-   "kana": "てる",
-   "romaji": "teru",
+   "word": "両方",
+   "kana": "りょうほう",
+   "romaji": "ryouhou",
    "meaning": "both",
    "chars": [
-    "両"
+    "両",
+    "方"
    ]
   },
   {
    "word": "式",
    "kana": "しき",
    "romaji": "shiki",
-   "meaning": "equation",
+   "meaning": "ceremony; style; formula",
    "chars": [
     "式"
    ]
@@ -2025,28 +2028,29 @@
    ]
   },
   {
-   "word": "難",
-   "kana": "むずか",
-   "romaji": "muzuka",
+   "word": "難しい",
+   "kana": "むずかしい",
+   "romaji": "muzukashii",
    "meaning": "difficult",
    "chars": [
     "難"
    ]
   },
   {
-   "word": "警",
-   "kana": "いましめる",
-   "romaji": "imashimeru",
-   "meaning": "admonish",
+   "word": "警察",
+   "kana": "けいさつ",
+   "romaji": "keisatsu",
+   "meaning": "police",
    "chars": [
-    "警"
+    "警",
+    "察"
    ]
   },
   {
-   "word": "働",
-   "kana": "はたら",
-   "romaji": "hatara",
-   "meaning": "work",
+   "word": "働く",
+   "kana": "はたらく",
+   "romaji": "hataraku",
+   "meaning": "to work",
    "chars": [
     "働"
    ]
@@ -2133,21 +2137,23 @@
    ]
   },
   {
-   "word": "徒",
-   "kana": "いたずら",
-   "romaji": "itazura",
-   "meaning": "on foot",
+   "word": "生徒",
+   "kana": "せいと",
+   "romaji": "seito",
+   "meaning": "pupil; student",
    "chars": [
+    "生",
     "徒"
    ]
   },
   {
-   "word": "賛",
-   "kana": "さん",
-   "romaji": "san",
-   "meaning": "praise",
+   "word": "賛成",
+   "kana": "さんせい",
+   "romaji": "sansei",
+   "meaning": "approval; agreement",
    "chars": [
-    "賛"
+    "賛",
+    "成"
    ]
   },
   {
@@ -2169,12 +2175,13 @@
    ]
   },
   {
-   "word": "到",
-   "kana": "いたる",
-   "romaji": "itaru",
+   "word": "到着",
+   "kana": "とうちゃく",
+   "romaji": "touchaku",
    "meaning": "arrival",
    "chars": [
-    "到"
+    "到",
+    "着"
    ]
   },
   {
@@ -2235,7 +2242,7 @@
    "word": "政策",
    "kana": "せいさく",
    "romaji": "seisaku",
-   "meaning": "political measures",
+   "meaning": "policy",
    "chars": [
     "政",
     "策"

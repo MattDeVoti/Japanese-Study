@@ -8,7 +8,7 @@
    "name": "Plain / short forms",
    "shortDescription": "The four plain forms used in casual speech and embedded clauses.",
    "formation": "Dict. form (pres aff) / ない-form (pres neg) / た-form (past aff) / なかった-form (past neg)",
-   "explanation": "Up to now you have used the polite ます/です forms for everything. Japanese also has a second, complete parallel set called plain forms (also \"short forms\" or \"dictionary forms\"). You need them for three reasons: they're used in casual speech; they appear inside embedded clauses (an inner sentence uses plain forms); and dozens of grammar patterns attach directly to them (と思[おも]う, から, のが, and many more ahead).\n\nThere are four plain forms:\n- Dictionary form (present / future affirmative): ends in an う-row sound — 食[た]べる, 飲[の]む, する, くる\n- ない-form (present / future negative): 食[た]べない, 飲[の]まない, しない, こない\n- た-form (past affirmative): the same sound changes as the て-form, but ending in た/だ — 食[た]べた, 飲[の]んだ, した, きた\n- なかった-form (past negative): add かった to the ない-form stem — 食[た]べなかった, 飲[の]まなかった\n\nAll four are fundamental to everything that follows.\n\nThe one exception to \"shift to the あ-row\": verbs whose dictionary form ends in a bare う take わ, not あ. 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない, 言[い]う → 言[い]わない. This is a survival of the old わ行 (wa-row), where う once alternated with わ. Applying the あ-row rule literally would give ✗買[か]あない — a form that does not exist.",
+   "explanation": "Up to now you have used the polite ます/です forms for everything. Japanese also has a second, complete parallel set called plain forms (also \"short forms\" or \"dictionary forms\"). You need them for three reasons: they're used in casual speech; they appear inside embedded clauses (an inner sentence uses plain forms); and dozens of grammar patterns attach directly to them (と思[おも]う, から, のが, and many more ahead).\n\nThere are four plain forms:\n- Dictionary form (present / future affirmative): ends in an う-row sound — 食[た]べる, 飲[の]む, する, くる\n- ない-form (present / future negative): 食[た]べない, 飲[の]まない, しない, こない\n- た-form (past affirmative): the same sound changes as the て-form, but ending in た/だ — 食[た]べた, 飲[の]んだ, した, きた\n- なかった-form (past negative): add かった to the ない-form stem — 食[た]べなかった, 飲[の]まなかった\n\nAll four are fundamental to everything that follows.\n\nThe one exception to \"shift to the あ-row\": verbs whose dictionary form ends in a bare う take わ, not あ. 買[か]う → 買[か]わない, 会[あ]う → 会[あ]わない, 言[い]う → 言[い]わない. This is a survival of the old わ行[ぎょう] (wa-row), where う once alternated with わ. Applying the あ-row rule literally would give ✗買[か]あない — a form that does not exist.",
    "rules": [
     "Present affirmative = dictionary form (食[た]べる, 飲[の]む, する, くる)",
     "Present negative = ない-form (食[た]べない, 飲[の]まない, しない, こない)",
@@ -264,7 +264,7 @@
       "きない"
      ],
      "correctIndex": 2,
-     "explanation": "来[く]る is irregular. Its ない-form is こない — the reading changes from 来[らい](く/き) to こ before ない. This is one of only two irregular Japanese verbs: 来[く]る→こない, する→しない."
+     "explanation": "来[く]る is irregular. Its ない-form is こない — the reading changes from 来[く]る/来[き]ます to 来[こ]ない. This is one of only two irregular Japanese verbs: 来[く]る→こない, する→しない."
     },
     {
      "id": "plain-forms_q17",
@@ -621,13 +621,13 @@
      "prompt": "Which sentence uses 誰[だれ]も, 何[なに]も, and どこも all correctly?",
      "japanese": null,
      "choices": [
-      "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]か食[た]べました、どこも行[い]きました。",
-      "昨日[きのう]は誰[だれ]か会[あ]いませんでした、何[なに]も食[た]べませんでした、どこか行[い]きませんでした。",
-      "昨日[きのう]は誰[だれ]も会[あ]いました、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。",
-      "昨日[きのう]は誰[だれ]も会[あ]いませんでした、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。"
+      "昨日[きのう]は誰[だれ]にも会[あ]いました、何[なに]か食[た]べました、どこも行[い]きました。",
+      "昨日[きのう]は誰[だれ]かに会[あ]いませんでした、何[なに]も食[た]べませんでした、どこか行[い]きませんでした。",
+      "昨日[きのう]は誰[だれ]にも会[あ]いました、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。",
+      "昨日[きのう]は誰[だれ]にも会[あ]いませんでした、何[なに]も食[た]べませんでした、どこも行[い]きませんでした。"
      ],
      "correctIndex": 3,
-     "explanation": "誰[だれ]も、何[なに]も、どこも all require negative verbs. Option D correctly uses all three: 誰[だれ]も会[あ]いませんでした (met no one), 何[なに]も食[た]べませんでした (ate nothing), どこも行[い]きませんでした (went nowhere). Option A wrongly pairs も forms with affirmative verbs. Options B and C mix か and も incorrectly."
+     "explanation": "誰[だれ]も、何[なに]も、どこも all require negative verbs. Option D correctly uses all three: 誰[だれ]にも会[あ]いませんでした (met no one — 会[あ]う takes に for the person, so 誰[だれ]にも), 何[なに]も食[た]べませんでした (ate nothing), どこも行[い]きませんでした (went nowhere). Option A wrongly pairs も forms with affirmative verbs. Options B and C mix か and も incorrectly."
     },
     {
      "id": "nanika-nanimo_q20",
@@ -970,7 +970,7 @@
    "name": "〜ないでください (nai de kudasai) — please don't",
    "shortDescription": "A polite request not to do something.",
    "formation": "Verb (ない-form) + でください",
-   "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走[はし]る → 走[はし]らない → 走[はし]らないでください (Please don't run). 食[た]べる → 食[た]べない → 食[た]べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 6): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言[い]わないで (Don't say things like that).",
+   "explanation": "You already know that てください means 'please do' — the counterpart for 'please don't' is ないでください. Take the ない-form of the verb and add でください, keeping the full ない ending intact. 走[はし]る → 走[はし]らない → 走[はし]らないでください (Please don't run). 食[た]べる → 食[た]べない → 食[た]べないでください (Please don't eat). This is polite enough for signs, public announcements, and requests to strangers or people you do not know well.\n\nCompare to てはいけません (covered in Chapter 7): ないでください is a polite request; てはいけません is a firm, rule-level prohibition. The difference in nuance is real — a sign-writer or teacher would choose between the two deliberately.\n\nIn casual speech among friends, drop ください and just use ないで: そんなこと言[い]わないで (Don't say things like that).",
    "rules": [
     "Pattern: Verb (ない-form) + でください = Please don't do X",
     "Keep the full ない-form: e.g., 食[た]べないでください (not 食[た]べないくださ)",
@@ -995,9 +995,9 @@
      "english": "Don't say things like that."
     },
     {
-     "japanese": "食[た]べる前[まえ]に手[て]を洗[あら]わないでください。",
-     "romaji": "Taberu mae ni te wo arawanai de kudasai.",
-     "english": "Please don't eat without washing your hands first."
+     "japanese": "食[た]べる前[まえ]に手[て]を洗[あら]うのを忘[わす]れないでください。",
+     "romaji": "Taberu mae ni te wo arau no wo wasurenai de kudasai.",
+     "english": "Please don't forget to wash your hands before eating."
     }
    ],
    "flashcardHeader": "〜ないでください",
@@ -1048,16 +1048,16 @@
     {
      "id": "nai-de-kudasai_q4",
      "type": "translation",
-     "prompt": "Which sentence correctly translates 'Please don't eat without washing your hands'?",
+     "prompt": "Which sentence correctly says 'Please don't wash this sweater'?",
      "japanese": null,
      "choices": [
-      "手[て]を洗[あら]うないでください。",
-      "手[て]を洗[あら]ってくないです。",
-      "手[て]を洗[あら]わなくてください。",
-      "手[て]を洗[あら]わないでください。"
+      "このセーターを洗[あら]うないでください。",
+      "このセーターを洗[あら]ってくないです。",
+      "このセーターを洗[あら]わなくてください。",
+      "このセーターを洗[あら]わないでください。"
      ],
      "correctIndex": 3,
-     "explanation": "洗[あら]う → ない-form: 洗[あら]わない → 洗[あら]わないでください (Please don't not wash... / Please wash). Here the sentence means: 'Please don't go without washing your hands.' The ない-form stays intact before でください."
+     "explanation": "洗[あら]う → ない-form: 洗[あら]わない (a verb ending in a bare う takes わ, not あ) → 洗[あら]わないでください = Please don't wash it. The ない-form stays intact before でください; the other options attach でください to the wrong form or use くない (an adjective ending) on a verb."
     },
     {
      "id": "nai-de-kudasai_q5",
@@ -1085,7 +1085,7 @@
       "きないで"
      ],
      "correctIndex": 1,
-     "explanation": "来[く]る is irregular: its ない-form is こない (not くない or きない). Attach でください: こないでください = Please don't come. 来[く]るないで keeps the dictionary form — wrong. きないで is a common error mixing the readings of 来[らい]. The ない-form must be used, not the dictionary form."
+     "explanation": "来[く]る is irregular: its ない-form is こない (not くない or きない). Attach でください: こないでください = Please don't come. 来[く]るないで keeps the dictionary form — wrong. きないで is a common error mixing the readings of 来[く]る. The ない-form must be used, not the dictionary form."
     },
     {
      "id": "nai-de-kudasai_q7",
@@ -1699,7 +1699,7 @@
    "word": "男子",
    "kana": "だんし",
    "romaji": "danshi",
-   "meaning": "youth",
+   "meaning": "boy; young man; men's",
    "chars": [
     "男",
     "子"
